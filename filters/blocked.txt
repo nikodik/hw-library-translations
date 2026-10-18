@@ -1,0 +1,97 @@
+# [HW] Library Gate: blocked words for shared translations.
+# One word per line, lowercase, whole-word match. A translated string is dropped when it contains one of these
+# words and its original text does not. Lines starting with # are comments.
+# Mild words that also have a normal meaning (bitch/сука = female dog, cock = rooster, ...) are left out on purpose.
+
+# --- Russian: profanity
+хуй
+хуя
+хую
+хуем
+хуе
+хуи
+хуёв
+хуев
+хуйня
+хуйню
+хуйней
+нахуй
+нахуя
+похуй
+пизда
+пизды
+пизде
+пизду
+пиздой
+пиздец
+пиздеца
+пиздецом
+пиздёж
+пиздеж
+пиздит
+пиздеть
+ебать
+ебал
+ебала
+ебали
+ебёт
+ебет
+ебут
+ебаный
+ёбаный
+ебанный
+ебучий
+ебло
+заебал
+заебала
+заебись
+выебал
+уебок
+уёбок
+уебан
+блядь
+блять
+бля
+бляди
+блядский
+мудак
+мудаки
+мудила
+гандон
+залупа
+
+# --- Russian: slurs
+пидор
+пидора
+пидоры
+пидорас
+пидарас
+пидорасы
+жид
+жиды
+хохол
+хохлы
+чурка
+чурки
+нигер
+ниггер
+черножопый
+
+# --- English: profanity
+fuck
+fucking
+fucked
+fucker
+motherfucker
+shit
+shitty
+bullshit
+cunt
+asshole
+
+# --- English: slurs
+nigger
+nigga
+faggot
+fag
+retard
