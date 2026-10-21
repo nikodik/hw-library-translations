@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="chaoticenrico.smoothterrain" name="Smooth Terrain" language="Russian" version="1">
+  <e k="K" key="ST_Add"><s>Add</s><r>Добавить</r></e>
+  <e k="K" key="ST_AddPairsFromMap"><s>Add terrain pairs from current map</s><r>Добавить пары поверхности из текущего карты</r></e>
+  <e k="K" key="ST_AddPairsFromMap_Added"><s>Added {0} new blending pair(s) found on this map. Restart the game to generate them.</s><r>Добавлены {0} новые пары поверхности, найденные на этой карте. Перезапустите игру, чтобы сгенерировать их.</r></e>
+  <e k="K" key="ST_AddPairsFromMap_None"><s>No new blending pairs found on this map. Every pair on it is already configured.</s><r>На этой карте нет новых пар поверхности для добавления. Все пары поверхности уже настроены.</r></e>
+  <e k="K" key="ST_AutoDetect"><s>Automatically detect all natural terrain pairs</s><r>Автоматически обнаруживать все пары поверхности</r></e>
+  <e k="K" key="ST_AutoDetect_Desc"><s>WARNING: This will generate blends for EVERY possible pair of natural terrains. With many mods, this can create thousands of new terrain definitions, potentially increasing startup time and memory usage. Manually adding duos where needed is much more performant, because most terrains will NEVER overlap eachother in normal generation anyway.</s><r>ВНИМАНИЕ: Это создаст пары поверхности для ВСЕХ возможных пар поверхности. С множеством модификаций, это может создать тысячи новых определений поверхности, что может увеличить время запуска и использование памяти. Добавление пар по необходимости вручную гораздо более эффективно, потому что большинство поверхностей НЕ ВСЕГДА пересекаются в обычном генерировании.</r></e>
+  <e k="K" key="ST_BlendConfigHeader"><s>Terrain blending configuration (requires game restart on change, un-smooth existing saves before changing anything in here):</s><r>Конфигурация наложения поверхности (требует перезапуска игры при изменении, сбрасывайте существующие сохранения перед изменением в этой области):</r></e>
+  <e k="K" key="ST_BlendStyle"><s>Blending style</s><r>Стиль наложения поверхности</r></e>
+  <e k="K" key="ST_BlendStyle_Recommended"><s>{0} (Recommended)</s><r>({0}) (Рекомендуется)</r></e>
+  <e k="K" key="ST_BlendingPairs"><s>Blending pairs:</s><r>Пары наложения поверхности:</r></e>
+  <e k="K" key="ST_BlendingPairs_Tip"><s>Define which pairs of terrain can blend into each other. Requires restart to take effect.</s><r>Определите пары поверхности, которые могут перетекать друг в друга. Требует перезапуска для вступления в силу.</r></e>
+  <e k="K" key="ST_CurrentMapActions"><s>Current map actions:</s><r>Актуальные действия карты:</r></e>
+  <e k="K" key="ST_CurrentMapActions_Tip"><s>Apply or remove smoothing from the currently loaded map, or harvest the blending pairs it actually uses.</s><r>Применить или удалить наложение поверхности для текущего загруженного карты, или собрать пары поверхности, которые он действительно использует.</r></e>
+  <e k="K" key="ST_EdgeStylesUpdated"><s>Terrain edge styles updated.</s><r>Стили края поверхности обновлены.</r></e>
+  <e k="K" key="ST_EnableAutoSmoothing"><s>Enable automatic smoothing on new maps</s><r>Включить автоматическое наложение поверхности для новых карт</r></e>
+  <e k="K" key="ST_EnableAutoSmoothing_Desc"><s>If checked, newly generated maps will be smoothed automatically. Uncheck to disable this feature.</s><r>Если вы поставите галочку, новые генерируемые карты будут автоматически настраиваться. Вы можете отключить эту функцию.</r></e>
+  <e k="K" key="ST_Exclusions"><s>Automatic blending exclusions:</s><r>Автоматические исключения от наложения поверхности:</r></e>
+  <e k="K" key="ST_Exclusions_Tip"><s>Terrains listed here (by defName) will NOT be included in automatic pair generation.</s><r>Пары поверхности, перечисленные здесь (по defName), не будут включены в автоматическое генерирование пар.</r></e>
+  <e k="K" key="ST_FilterDropdowns"><s>Show only natural (and water) terrain types in dropdowns</s><r>Показывать только поверхности (и воду) в выпадающих списках</r></e>
+  <e k="K" key="ST_FilterDropdowns_Desc"><s>When enabled, terrain dropdowns only list natural and water tiles. Turn off to show all non-blended terrains.</s><r>Когда включено, выпадающие списки поверхности будут содержать только поверхности и воду. Вы можете отключить, чтобы показать все поверхности, кроме перетекающих.</r></e>
+  <e k="K" key="ST_HardEdges"><s>Use hard edge rendering for natural terrains</s><r>Использовать жесткие стили края для поверхности</r></e>
+  <e k="K" key="ST_HardEdges_Desc"><s>Makes the edges between natural terrains sharp and distinct, to conflict less with the diagonal floors.</s><r>Сделает границы между поверхностями жесткими и четкими, чтобы меньше конфликтов с диагональными полками.</r></e>
+  <e k="K" key="ST_Info"><s>Info: Current settings will generate {0} blended terrain definitions from {1} pairs on next restart.</s><r>Справка: текущие настройки создадут {0} новых определений поверхности из {1} пар на следующем перезапуске.</r></e>
+  <e k="K" key="ST_ModTitle"><s>Smooth Terrain</s><r>Сглаживание поверхности</r></e>
+  <e k="K" key="ST_NoMap_Tip"><s>This button is disabled because no map is currently loaded.</s><r>Этот кнопок недоступно, потому что на данный момент нет загруженной карты.</r></e>
+  <e k="K" key="ST_Remove"><s>Remove</s><r>Удалить</r></e>
+  <e k="K" key="ST_ResetExclusions"><s>Reset exclusions to defaults</s><r>Сбросить исключения по умолчанию</r></e>
+  <e k="K" key="ST_ResetPairs"><s>Reset blending pairs to defaults</s><r>Сбросить пары наложения по умолчанию</r></e>
+  <e k="K" key="ST_RestartRequired"><s>A restart is required for some changes to take full effect.</s><r>Требуется перезапуск для некоторых изменений, чтобы вступить в силу.</r></e>
+  <e k="K" key="ST_SelectTerrain"><s>Select terrain...</s><r>Выберите поверхность...</r></e>
+  <e k="K" key="ST_SmoothMap"><s>Smooth current map</s><r>Сгладить текущую карту</r></e>
+  <e k="K" key="ST_SmoothMap_Done"><s>Re-smoothing process complete.</s><r>Процесс сглаживания завершен.</r></e>
+  <e k="K" key="ST_UnsmoothMap"><s>Unsmooth current map</s><r>Отменить сглаживание текущей карты</r></e>
+  <e k="K" key="ST_UnsmoothMap_Done"><s>Un-smoothing process complete. All natural blended tiles have been reverted.</s><r>Процесс отмены сглаживания завершен. Все поверхности, перетекающие с поверхностью, были отменены.</r></e>
+</AutoTranslateCache>
