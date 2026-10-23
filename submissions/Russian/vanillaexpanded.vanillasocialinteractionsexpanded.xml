@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="vanillaexpanded.vanillasocialinteractionsexpanded" name="Vanilla Social Interactions Expanded" language="Russian" version="1">
+  <e k="D" t="JobDef" key="VSIE_BuildSnowmanTogether.reportString"><s>building snowman with TargetB.</s><r>лепим снеговика с помощью TargetB.</r></e>
+  <e k="D" t="JobDef" key="VSIE_GotoTalkToSecondPawn.reportString"><s>talking to Target.</s><r>разговариваю с Target.</r></e>
+  <e k="D" t="JobDef" key="VSIE_GotoWith.reportString"><s>walking with TargetB.</s><r>идя с TargetB.</r></e>
+  <e k="D" t="JobDef" key="VSIE_HonorPawn.reportString"><s>honoring TargetA.</s><r>честь TargetA.</r></e>
+  <e k="D" t="JobDef" key="VSIE_Skygaze.reportString"><s>skygazing with TargetB.</s><r>наблюдение за небом с TargetB.</r></e>
+  <e k="D" t="JobDef" key="VSIE_StandAndHearVenting.reportString"><s>hearing venting from TargetA.</s><r>слух, исходящий из TargetA.</r></e>
+  <e k="D" t="JobDef" key="VSIE_TakingBeer.reportString"><s>taking TargetA.</s><r>берем TargetA.</r></e>
+  <e k="D" t="JobDef" key="VSIE_TalkToSecondPawn.reportString"><s>talking to TargetA.</s><r>разговариваю с TargetA.</r></e>
+  <e k="D" t="JobDef" key="VSIE_VentToFriend.reportString"><s>venting to TargetA.</s><r>вентиляция до TargetA.</r></e>
+  <e k="D" t="JobDef" key="VSIE_ViewArtTogether.reportString"><s>viewing art with TargetB.</s><r>просмотр искусства с TargetB.</r></e>
+  <e k="D" t="RulePackDef" key="VSIE_Teaching_Shooting.rulePack.rulesStrings.0"><s>r_logentry-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [ShootingTopic].</s><r>r_logentry-&gt;[INITIATOR_nameDef] и [RECIPIENT_nameDef] [talkedabout] [ShootingTopic].</r></e>
+  <e k="D" t="RulePackDef" key="VSIE_Teaching_Shooting.rulePack.rulesStrings.1"><s>r_logentry-&gt;[INITIATOR_nameDef] [talkedabout] [ShootingTopic] with [RECIPIENT_nameDef].</s><r>r_logentry-&gt;[INITIATOR_nameDef] [talkedabout] [ShootingTopic] с [RECIPIENT_nameDef].</r></e>
+  <e k="D" t="RulePackDef" key="VSIE_Teaching_Shooting.rulePack.rulesStrings.2"><s>r_logentry(p=0.8)-&gt;[INITIATOR_nameDef] [commentedabout] [ShootingTopic] to [RECIPIENT_nameDef].</s><r>r_logentry(p=0.8)-&gt;от [INITIATOR_nameDef] [commentedabout] от [ShootingTopic] до [RECIPIENT_nameDef].</r></e>
+  <e k="D" t="RulePackDef" key="VSIE_Teaching_Shooting.rulePack.rulesStrings.3"><s>talkedabout(p=4)-&gt;chatted about</s><r>talkedabout(p=4)-&gt;болтали о</r></e>
+  <e k="D" t="RulePackDef" key="VSIE_Teaching_Shooting.rulePack.rulesStrings.4"><s>talkedabout-&gt;shared a word about</s><r>talkedabout-&gt;поделился словом о</r></e>
+  <e k="D" t="RulePackDef" key="VSIE_Teaching_Shooting.rulePack.rulesStrings.5"><s>talkedabout-&gt;spoke about</s><r>talkedabout-&gt;говорил о</r></e>
+  <e k="D" t="RulePackDef" key="VSIE_Teaching_Shooting.rulePack.rulesStrings.6"><s>talkedabout-&gt;gabbed about</s><r>talkedabout-&gt;болтал о</r></e>
+  <e k="D" t="RulePackDef" key="VSIE_Teaching_Shooting.rulePack.rulesStrings.7"><s>talkedabout-&gt;talked about</s><r>talkedabout-&gt;говорил о</r></e>
+  <e k="D" t="RulePackDef" key="VSIE_Teaching_Shooting.rulePack.rulesStrings.8"><s>talkedabout-&gt;joked about</s><r>talkedabout-&gt;пошутил</r></e>
+  <e k="D" t="RulePackDef" key="VSIE_Teaching_Shooting.rulePack.rulesStrings.9"><s>talkedabout-&gt;quipped about</s><r>talkedabout-&gt;пошутил о</r></e>
+  <e k="K" key="VSIE.GoFrenzyBeginLetterContinue"><s>OLD SOURCE 
+
+{PAWN_pronoun} would like to join a caravan and venture into the world.</s><r>
+
+{PAWN_pronoun} хотел бы присоединиться к каравану и отправиться в путешествие по миру.</r></e>
+  <e k="K" key="VSIE.InspiredCreativityBeginLetterContinue"><s>OLD SOURCE 
+
+{PAWN_pronoun} would like to create a masterwork or legendary item.</s><r>
+
+{PAWN_pronoun} хотел бы создать шедевр или легендарный предмет.</r></e>
+  <e k="K" key="VSIE.InspiredRecruitmentBeginLetterContinue"><s>OLD SOURCE 
+
+{PAWN_pronoun} would like to recruit a prisoner.</s><r>
+
+{PAWN_pronoun} хотел бы завербовать заключенного.</r></e>
+  <e k="K" key="VSIE.InspiredSurgeryBeginLetterContinue"><s>OLD SOURCE 
+
+{PAWN_pronoun} would like to perform a surgery.</s><r>
+
+{PAWN_pronoun} хотел бы сделать операцию.</r></e>
+  <e k="K" key="VSIE.InspiredTamingBeginLetterContinue"><s>OLD SOURCE 
+
+{PAWN_pronoun} would like to try and tame an animal.</s><r>
+
+{PAWN_pronoun} хотел бы попробовать приручить животное.</r></e>
+  <e k="K" key="VSIE.InspiredTradeBeginLetterContinue"><s>
+
+{PAWN_pronoun} would like to close a trade.</s><r>
+
+{PAWN_pronoun} хотел бы закрыть сделку.</r></e>
+  <e k="K" key="VSIE.ShootingFrenzyBeginLetterContinue"><s>
+
+{PAWN_pronoun} would like to go on a hunt.</s><r>
+
+{PAWN_pronoun} хотел бы пойти на охоту.</r></e>
+  <e k="K" key="VSIE.TraitChangePrisonerRecruited"><s>When you recruited {PAWN_nameDef}, it turned out that {PAWN_pronoun} has the {0} trait.
+
+{1}</s><r>Когда вы наняли {PAWN_nameDef}, оказалось, что {PAWN_pronoun} обладает чертой {0}.
+
+{1}</r></e>
+  <e k="K" key="VSIE.TraitChangeTitle"><s>{PAWN_nameDef} obtained {0} trait</s><r>{PAWN_nameDef} получена черта {0}</r></e>
+  <e k="K" key="VSIE.WorkFrenzyBeginLetterContinue"><s>
+
+{PAWN_pronoun} would like to do some work.</s><r>
+
+{PAWN_pronoun} хотел бы поработать.</r></e>
+</AutoTranslateCache>
