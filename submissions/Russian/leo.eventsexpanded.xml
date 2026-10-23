@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="leo.eventsexpanded" name="Leo - Events" language="Russian" version="1">
+  <e k="D" t="BodyDef" key="LE_AwakenedTree.corePart.customLabel"><s>trunk</s><r>ствол</r></e>
+  <e k="D" t="BodyDef" key="LE_AwakenedTree.corePart.parts.2.customLabel"><s>main stem</s><r>главный стебель</r></e>
+  <e k="D" t="BodyDef" key="LE_AwakenedTree.corePart.parts.4.customLabel"><s>front left root</s><r>передний левый корень</r></e>
+  <e k="D" t="BodyDef" key="LE_AwakenedTree.corePart.parts.5.customLabel"><s>front right root</s><r>передний правый корень</r></e>
+  <e k="D" t="BodyDef" key="LE_AwakenedTree.corePart.parts.6.customLabel"><s>rear root</s><r>задний корень</r></e>
+  <e k="D" t="BodyDef" key="LE_AwakenedTree.corePart.parts.8.customLabel"><s>left branch</s><r>левая ветка</r></e>
+  <e k="D" t="BodyDef" key="LE_AwakenedTree.corePart.parts.8.parts.0.customLabel"><s>left twigs</s><r>оставленные ветки</r></e>
+  <e k="D" t="BodyDef" key="LE_AwakenedTree.corePart.parts.9.customLabel"><s>right branch</s><r>правая ветвь</r></e>
+  <e k="D" t="BodyDef" key="LE_AwakenedTree.corePart.parts.9.parts.0.customLabel"><s>right twigs</s><r>правильные веточки</r></e>
+  <e k="D" t="BodyDef" key="LE_AwakenedTree.label"><s>awakened tree</s><r>проснувшееся дерево</r></e>
+  <e k="D" t="BodyPartDef" key="LE_Canopy.label"><s>canopy</s><r>навес</r></e>
+  <e k="D" t="BodyPartDef" key="LE_Heartwood.label"><s>heartwood</s><r>сердцевина</r></e>
+  <e k="D" t="BodyPartDef" key="LE_RootLimb.label"><s>root</s><r>корень</r></e>
+  <e k="D" t="BodyPartDef" key="LE_TreeBark.label"><s>bark</s><r>лаять</r></e>
+  <e k="D" t="BodyPartDef" key="LE_VascularTissue.label"><s>vascular tissue</s><r>сосудистая ткань</r></e>
+  <e k="K" key="Leo.Events.AwakenedTree"><s>Awakened {0}</s><r>Пробуждение {0}</r></e>
+  <e k="K" key="Leo.Events.Disabled"><s>Disabled</s><r>Неполноценный</r></e>
+  <e k="K" key="Leo.Events.MessageSiegeBombardment"><s>The outpost is targeting {PAWN_labelShort} for bombardment!</s><r>Аванпост нацелен на бомбардировку {PAWN_labelShort}!</r></e>
+  <e k="K" key="Leo.Events.Mimic"><s>Mimic: {0}</s><r>Мимик: {0}</r></e>
+  <e k="K" key="Leo.Events.TurretMalfunctionAlert.Desc"><s>Some turrets have malfunctioned and turned hostile for the next few days.
+Click this alert to jump to a target.</s><r>Некоторые турели вышли из строя и стали враждебными на следующие несколько дней.
+Нажмите на это предупреждение, чтобы перейти к цели.</r></e>
+  <e k="K" key="Leo.Events.TurretMalfunctionAlert.Label"><s>Turret malfunction</s><r>Неисправность башни</r></e>
+  <e k="K" key="Leo.Events.checkPlayerTechLevel.Label"><s>Enable Player Tech Check</s><r>Включить техническую проверку игрока</r></e>
+  <e k="K" key="Leo.Events.checkPlayerTechLevel.Tooltip"><s>If enabled, the event will first check the player's tech level to see if it is allowed to occur.
+
+Note: In the vanilla game, the player faction's tech level is fixed by the scenario.</s><r>Если включено, событие сначала проверит технический уровень игрока, чтобы увидеть, разрешено ли это событие.
+
+Примечание: в ванильной игре технический уровень фракции игрока фиксируется сценарием.</r></e>
+</AutoTranslateCache>
