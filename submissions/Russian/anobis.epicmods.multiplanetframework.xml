@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="anobis.epicmods.multiplanetframework" name="Multi-Planet Framework" language="Russian" version="1">
+  <e k="D" t="GameConditionDef" key="MPF_PlanetSky.description"><s>The sky of this world does not follow the usual cycle.</s><r>Небо этого мира не следует обычному циклу.</r></e>
+  <e k="D" t="GameConditionDef" key="MPF_PlanetSky.label"><s>planetary sky</s><r>планетарное небо</r></e>
+  <e k="D" t="WorldObjectDef" key="MPF_TravellingCaravan.description"><s>A caravan travelling between planets. It arrives at this tile when the journey ends.</s><r>Караван, путешествующий между планетами. Он прибывает на эту плитку, когда путешествие заканчивается.</r></e>
+  <e k="D" t="WorldObjectDef" key="MPF_TravellingCaravan.label"><s>caravan in transit</s><r>караван в пути</r></e>
+  <e k="K" key="MPF_CommandTravelToPlanet"><s>Travel to another planet</s><r>Путешествие на другую планету</r></e>
+  <e k="K" key="MPF_CommandTravelToPlanetDesc"><s>Send this caravan to another planet. Choose the planet, then the tile to arrive on. The caravan and everything it carries arrive there after the journey.</s><r>Отправьте этот караван на другую планету. Выберите планету, а затем плитку, на которую нужно прибыть. Караван и все, что он несет, прибывают туда после путешествия.</r></e>
+  <e k="K" key="MPF_GravshipNeedsEquipment"><s>Flying to another planet needs a {0} aboard the gravship.</s><r>Для полета на другую планету на борту гравитационного корабля должен быть {0}.</r></e>
+  <e k="K" key="MPF_MessageCaravanArrived"><s>Your caravan has arrived on the other planet.</s><r>Ваш караван прибыл на другую планету.</r></e>
+  <e k="K" key="MPF_MessageCaravanDeparted"><s>Caravan departed for {0}. It arrives in {1}.</s><r>Караван отправился в {0}. Оно прибудет через {1}.</r></e>
+  <e k="K" key="MPF_SettingDrawOtherPlanets"><s>Draw other planets in the background</s><r>Нарисуйте другие планеты на заднем плане.</r></e>
+  <e k="K" key="MPF_SettingDrawOtherPlanetsTip"><s>When off, only the planet being viewed is drawn on the world map. When on, every planet in the save is drawn, so nearby planets show in the background.</s><r>Если параметр выключен, на карте мира отображается только просматриваемая планета. Когда этот параметр включен, каждая планета в сохранении прорисовывается, поэтому ближайшие планеты отображаются на заднем плане.</r></e>
+  <e k="K" key="MPF_SoS2Arrived"><s>The ship has arrived at {0}.</s><r>Корабль прибыл в {0}.</r></e>
+  <e k="K" key="MPF_SoS2Departed"><s>The ship has begun its journey to {0}. It will arrive in {1}, using {2} Johnson-Tanaka drive(s).</s><r>Корабль начал свой путь к {0}. Он прибудет в {1} с использованием диска(ов) Джонсона-Танаки {2}.</r></e>
+  <e k="K" key="MPF_SoS2InsufficientEngines"><s>The ship's Johnson-Tanaka drives support {0} mass, but the ship has {1} mass. Install more drives.</s><r>Корабельный Джонсон-Танака управляет массой поддержки {0}, но масса корабля составляет {1}. Установите больше дисков.</r></e>
+  <e k="K" key="MPF_SoS2NeedsEngine"><s>Interplanetary travel requires a Johnson-Tanaka drive aboard this ship.</s><r>Межпланетное путешествие требует использования двигателя Джонсона-Танаки на борту этого корабля.</r></e>
+  <e k="K" key="MPF_SoS2NeedsOperationalEngines"><s>The ship no longer has enough Johnson-Tanaka drive capacity to make this journey.</s><r>У корабля больше нет достаточной мощности привода Джонсона-Танаки, чтобы совершить это путешествие.</r></e>
+  <e k="K" key="MPF_SoS2TargetLabel"><s>Travel to {0}
+Journey time: {1}</s><r>Путешествие в {0}
+Время в пути: {1}</r></e>
+  <e k="K" key="MPF_SoS2TravelCommand"><s>Travel to another planet</s><r>Путешествие на другую планету</r></e>
+  <e k="K" key="MPF_SoS2TravelCommandDesc"><s>Send this ship to another planet using its Johnson-Tanaka drives. This ship has {0} drive(s), providing {1} FTL mass capacity. Extra capacity beyond the ship's mass shortens the journey.</s><r>Отправьте этот корабль на другую планету, используя двигатели Джонсона-Танаки. Этот корабль имеет {0} привод(ы), что обеспечивает массу {1} сверхсветовой скорости. Дополнительная вместимость, превышающая массу корабля, сокращает путешествие.</r></e>
+  <e k="K" key="MPF_SoS2TravelUnderway"><s>FTL journey underway</s><r>Сверхсветовое путешествие продолжается</r></e>
+  <e k="K" key="MPF_SoS2TravelUnderwayDesc"><s>Travelling to {0}. Time remaining: {1}. Drives committed: {2}.</s><r>Путешествие в {0}. Оставшееся время: {1}. Совершено количество дисков: {2}.</r></e>
+  <e k="K" key="MPF_SwitcherTitle"><s>Planets</s><r>Планеты</r></e>
+  <e k="K" key="MPF_TravelFailNoCaravan"><s>That caravan no longer exists.</s><r>Этого каравана больше не существует.</r></e>
+  <e k="K" key="MPF_TravelFailNoCaravansThere"><s>Caravans cannot travel on {0}.</s><r>Караваны не могут путешествовать по {0}.</r></e>
+  <e k="K" key="MPF_TravelFailNotPlayer"><s>Only your own caravans can be sent to another planet.</s><r>На другую планету можно отправить только свои караваны.</r></e>
+  <e k="K" key="MPF_TravelFailSamePlanet"><s>The caravan is already on that planet.</s><r>Караван уже на этой планете.</r></e>
+  <e k="K" key="MPF_TravelNoLeader"><s>The caravan needs a colonist to lead it.</s><r>Каравану нужен колонист, чтобы возглавить его.</r></e>
+  <e k="K" key="MPF_TravelTargetLabel"><s>Travel to {0}: {1}</s><r>Путешествие в {0}: {1}</r></e>
+  <e k="K" key="MPF_TravelWrongPlanet"><s>Choose a tile on {0}</s><r>Выберите плитку на {0}</r></e>
+  <e k="K" key="MPF_TravellingArrivesIn"><s>Arrives in: {0}</s><r>Прибывает через: {0}</r></e>
+  <e k="K" key="MPF_TravellingFrom"><s>Travelling from: {0}</s><r>Путешествие из: {0}</r></e>
+  <e k="K" key="MPF_TravellingPawns"><s>Travellers: {0}</s><r>Путешественники: {0}</r></e>
+  <e k="K" key="MPF_UnloadBlocked"><s>{0} cannot be unloaded while it still has {1} on it.</s><r>{0} нельзя выгрузить, пока на нем еще есть {1}.</r></e>
+  <e k="K" key="MPF_UnloadHasMap"><s>{0} cannot be unloaded while a map is open on it.</s><r>{0} нельзя выгрузить, пока на нем открыта карта.</r></e>
+  <e k="K" key="MPF_UnloadNotLoaded"><s>That planet is not loaded.</s><r>Эта планета не загружена.</r></e>
+  <e k="K" key="MPF_UnnamedPlanet"><s>unnamed planet</s><r>безымянная планета</r></e>
+</AutoTranslateCache>
