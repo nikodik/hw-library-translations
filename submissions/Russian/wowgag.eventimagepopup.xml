@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="wowgag.eventimagepopup" name="Event Image Popup" language="Russian" version="1">
+  <e k="K" key="EIP.CategoryFallback"><s>Use category fallback image when no specific image exists</s><r>Использовать резервное изображение категории, если конкретного изображения не существует.</r></e>
+  <e k="K" key="EIP.DupMode"><s>When multiple images share a filename</s><r>Когда несколько изображений имеют одно и то же имя файла</r></e>
+  <e k="K" key="EIP.DupMode.Overwrite"><s>Use the last-loaded mod's image (default)</s><r>Использовать изображение последнего загруженного мода (по умолчанию).</r></e>
+  <e k="K" key="EIP.DupMode.Overwrite.Tip"><s>When several mods share a filename, only the image from the last-loaded mod is shown (original behavior).</s><r>Когда несколько модов имеют одно и то же имя файла, отображается только изображение из последнего загруженного мода (исходное поведение).</r></e>
+  <e k="K" key="EIP.DupMode.Random"><s>Show a random one among the mods' images</s><r>Показать случайное изображение среди изображений модов.</r></e>
+  <e k="K" key="EIP.DupMode.Random.Tip"><s>When several mods share a filename, their images are pooled and one is chosen per event. Re-opening the same event from the archive shows the same image.</s><r>Когда несколько модов имеют одно и то же имя файла, их изображения объединяются и выбирается одно для каждого события. При повторном открытии того же события из архива отображается то же изображение.</r></e>
+  <e k="K" key="EIP.DupMode.Tip"><s>Chooses how to handle images that different mods provide under the same filename. Numbered variants (X_1.png, X_2.png …) added for a single event are always picked from at random regardless of this setting (number from _1, consecutively).</s><r>Выбирает, как обрабатывать изображения, которые разные моды предоставляют под одним и тем же именем файла. Пронумерованные варианты (X_1.png, X_2.png…), добавленные для одного события, всегда выбираются случайным образом, независимо от этой настройки (порядковый номер от _1).</r></e>
+  <e k="K" key="EIP.Enabled"><s>Show images on event popups</s><r>Показывать изображения во всплывающих окнах событий</r></e>
+  <e k="K" key="EIP.FromMod"><s>From: {0}</s><r>От: {0}</r></e>
+  <e k="K" key="EIP.ImageCount"><s>Recognized images: {0}</s><r>Распознанные изображения: {0}</r></e>
+  <e k="K" key="EIP.Log.Candidates"><s>Usable file names (priority)</s><r>Используемые имена файлов (приоритет)</r></e>
+  <e k="K" key="EIP.Log.EventSpecific"><s>This event only</s><r>Только это событие</r></e>
+  <e k="K" key="EIP.Log.GlobalCategory"><s>Global (note: applies to ALL '{0}' letters, vanilla included)</s><r>Глобальный (примечание: относится ко ВСЕМ буквам «{0}», включая ванильный)</r></e>
+  <e k="K" key="EIP.Log.ModPreview"><s>if none above, source mod '{0}' preview image</s><r>если ничего из вышеперечисленного, изображение предварительного просмотра исходного мода '{0}'</r></e>
+  <e k="K" key="EIP.Log.ModScoped"><s>This mod only (applies only to {0}'s events of this type)</s><r>Только этот мод (применяется только к событиям {0} этого типа)</r></e>
+  <e k="K" key="EIP.Log.NoSpecific"><s>No event-specific key</s><r>Нет ключа для конкретного события</r></e>
+  <e k="K" key="EIP.Log.Or"><s>or</s><r>или</r></e>
+  <e k="K" key="EIP.ModPreviewFallback"><s>Show source mod's preview image for other mods' events</s><r>Показывать изображение предварительного просмотра исходного мода для событий других модов</r></e>
+  <e k="K" key="EIP.PreferModPreview"><s>Prefer source mod's preview over category image for other mods' events</s><r>Предпочитайте предварительный просмотр исходного мода, а не изображение категории для событий других модов.</r></e>
+  <e k="K" key="EIP.PreferModPreview.Tip"><s>On: other mods' events show that mod's preview image first. Off: the shared category image is shown first. Either way, a specific image made for that event always takes top priority.</s><r>Вкл.: события других модов сначала показывают изображение предварительного просмотра этого мода. Выкл.: изображение общей категории отображается первым. В любом случае, конкретное изображение, созданное для этого события, всегда имеет высший приоритет.</r></e>
+  <e k="K" key="EIP.VerboseLog"><s>Verbose logging (show usable file names per letter in the debug log)</s><r>Подробное ведение журнала (показывайте используемые имена файлов по буквам в журнале отладки)</r></e>
+  <e k="K" key="EIP.VerboseLog.Tip"><s>When on, every event writes the letter's name and the image file names you could create (in priority order) to the debug log. Useful for finding out which file name to use for which event. Leave it off normally (off by default).</s><r>Если этот параметр включен, каждое событие записывает имя письма и имена файлов изображений, которые вы можете создать (в порядке приоритета), в журнал отладки. Полезно для определения того, какое имя файла использовать для какого события. Оставьте его выключенным в обычном режиме (выключено по умолчанию).</r></e>
+</AutoTranslateCache>
