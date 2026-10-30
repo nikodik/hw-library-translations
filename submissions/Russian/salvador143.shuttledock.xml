@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="salvador143.shuttledock" name="Shuttle Dock" language="Russian" version="1">
+  <e k="D" t="RoofDef" key="MThings_ReinforcedRoof.label"><s>reinforced dock roof</s><r>усиленная крыша дока</r></e>
+  <e k="D" t="ThingDef" key="MThings_11x11ShuttleDock.description"><s>Extra-large shuttle dock for the largest craft.</s><r>Очень большой причал для самых больших судов.</r></e>
+  <e k="D" t="ThingDef" key="MThings_11x11ShuttleDock.label"><s>11x11 Shuttle Dock</s><r>Док-станция для шаттла 11x11</r></e>
+  <e k="D" t="ThingDef" key="MThings_5x5ShuttleDock.description"><s>Compact shuttle dock for small craft.</s><r>Компактный причал для небольших судов.</r></e>
+  <e k="D" t="ThingDef" key="MThings_5x5ShuttleDock.label"><s>5x5 shuttle dock</s><r>челночный причал 5x5</r></e>
+  <e k="D" t="ThingDef" key="MThings_7x7ShuttleDock.description"><s>Standard shuttle dock for medium craft.</s><r>Стандартный челночный док для средних судов.</r></e>
+  <e k="D" t="ThingDef" key="MThings_7x7ShuttleDock.label"><s>7x7 Shuttle Dock</s><r>Шаттл-док 7х7</r></e>
+  <e k="D" t="ThingDef" key="MThings_9x9ShuttleDock.description"><s>Large shuttle dock for heavy shuttles.</s><r>Большой причал для тяжелых шаттлов.</r></e>
+  <e k="D" t="ThingDef" key="MThings_9x9ShuttleDock.label"><s>9x9 Shuttle Dock</s><r>Шаттл-док 9x9</r></e>
+  <e k="K" key="MThings_ShuttleDock_BlockInfestations_Desc"><s>When enabled, infestations will never select cells roofed by MThings_ReinforcedRoof.</s><r>Если этот параметр включен, заражения никогда не будут выбирать ячейки, покрытые MThings_ReinforcedRoof.</r></e>
+  <e k="K" key="MThings_ShuttleDock_BlockInfestations_Label"><s>Block infestations under Reinforced Dock Roof</s><r>Блокируйте заражение под усиленной крышей дока</r></e>
+  <e k="K" key="MThings_ShuttleDock_CloseRoofDesc"><s>Remove the reinforced roof so shuttles can land.</s><r>Снимите усиленную крышу, чтобы шаттлы могли приземлиться.</r></e>
+  <e k="K" key="MThings_ShuttleDock_CloseRoofLabel"><s>Close dock</s><r>Закрыть док</r></e>
+  <e k="K" key="MThings_ShuttleDock_ConnectDesc"><s>Connect this wall lamp to the nearest shuttle dock within range.</s><r>Подключите этот настенный светильник к ближайшей док-станции для шаттлов в пределах досягаемости.</r></e>
+  <e k="K" key="MThings_ShuttleDock_ConnectLabel"><s>Connect to nearby dock</s><r>Подключитесь к ближайшей док-станции</r></e>
+  <e k="K" key="MThings_ShuttleDock_Connected"><s>Connected to {0}.</s><r>Подключен к {0}.</r></e>
+  <e k="K" key="MThings_ShuttleDock_DisconnectDesc"><s>Disconnect this lamp from its shuttle dock.</s><r>Отсоедините эту лампу от шаттла.</r></e>
+  <e k="K" key="MThings_ShuttleDock_DisconnectLabel"><s>Disconnect from dock</s><r>Отключиться от док-станции</r></e>
+  <e k="K" key="MThings_ShuttleDock_Disconnected"><s>Disconnected from shuttle dock.</s><r>Отключен от причала шаттла.</r></e>
+  <e k="K" key="MThings_ShuttleDock_InvalidLamp"><s>Invalid lamp.</s><r>Неверная лампа.</r></e>
+  <e k="K" key="MThings_ShuttleDock_LampAlreadyLinked"><s>This lamp can only be connected to one shuttle dock at a time.</s><r>Эту лампу можно подключить только к одной док-станции одновременно.</r></e>
+  <e k="K" key="MThings_ShuttleDock_NoAvailableDock"><s>No available shuttle dock found nearby.</s><r>Поблизости не обнаружено доступных причалов для шаттлов.</r></e>
+  <e k="K" key="MThings_ShuttleDock_NoGlower"><s>Lamp has no glower.</s><r>Лампа не имеет накаливания.</r></e>
+  <e k="K" key="MThings_ShuttleDock_OpenRoofDesc"><s>Add the reinforced roof back over the dock.</s><r>Добавьте усиленную крышу обратно над причалом.</r></e>
+  <e k="K" key="MThings_ShuttleDock_OpenRoofLabel"><s>Open dock</s><r>Открыть док</r></e>
+  <e k="K" key="MThings_ShuttleDock_ReconnectDesc"><s>Reconnect this wall lamp to a nearby shuttle dock.</s><r>Подключите этот настенный светильник к ближайшей док-станции для шаттла.</r></e>
+  <e k="K" key="MThings_ShuttleDock_SetClosedColorDesc"><s>Choose the light color used when the dock roof is closed.</s><r>Выберите цвет освещения, который будет использоваться при закрытой крыше дока.</r></e>
+  <e k="K" key="MThings_ShuttleDock_SetClosedColorLabel"><s>Set dock CLOSED color</s><r>Установить цвет дока ЗАКРЫТО</r></e>
+  <e k="K" key="MThings_ShuttleDock_SetOpenColorDesc"><s>Choose the light color used when the dock roof is open.</s><r>Выберите цвет освещения, который будет использоваться при открытой крыше дока.</r></e>
+  <e k="K" key="MThings_ShuttleDock_SetOpenColorLabel"><s>Set dock OPEN color</s><r>Установить цвет дока ОТКРЫТО</r></e>
+  <e k="K" key="MThings_ShuttleDock_ShowTexture_Desc"><s>Show the shuttle dock graphic on the map. Disabling this only hides the graphic; the dock remains usable and selectable.</s><r>Покажите изображение причала шаттла на карте. Отключение этого параметра скрывает только графику; док-станция остается доступной для использования и выбора.</r></e>
+  <e k="K" key="MThings_ShuttleDock_ShowTexture_Label"><s>Show shuttle dock texture</s><r>Показать текстуру дока шаттла</r></e>
+  <e k="K" key="MThings_ShuttleDock_UseShipRoofDesc"><s>When the dock is closed, build the Save Our Ship 2 ship roof instead of the reinforced dock roof. If the dock is currently closed, switching this will immediately swap the roof.</s><r>Когда док закроется, постройте крышу корабля Save Our Ship 2 вместо усиленной крыши дока. Если док в настоящее время закрыт, его переключение немедленно поменяет крышу.</r></e>
+  <e k="K" key="MThings_ShuttleDock_UseShipRoofLabel"><s>Use ship roof</s><r>Используйте крышу корабля</r></e>
+</AutoTranslateCache>
