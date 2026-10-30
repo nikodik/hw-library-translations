@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="mjcg.drdamageindicators" name="[DR] Dream's Damage Indicators" language="Russian" version="1">
+  <e k="D" t="DDI_UpdateNoticeDef" key="DDI_UpdateNotice_1_2_0.entries.0"><s>New: per-hit flying damage numbers can now use their own color (Settings - Appearance).</s><r>Новое: цифры урона в полете за каждое попадание теперь могут иметь собственный цвет (Настройки — Внешний вид).</r></e>
+  <e k="D" t="DDI_UpdateNoticeDef" key="DDI_UpdateNotice_1_2_0.entries.1"><s>New: loading a save now compares the mod version and shows these update notes.</s><r>Новое: при загрузке сохранения теперь сравнивается версия мода и отображаются примечания к обновлению.</r></e>
+  <e k="D" t="DDI_UpdateNoticeDef" key="DDI_UpdateNotice_1_2_0.label"><s>Update notice</s><r>Уведомление об обновлении</r></e>
+  <e k="D" t="DDI_UpdateNoticeDef" key="DDI_UpdateNotice_1_3_0.entries.0"><s>Fix: damage numbers were incorrectly saved into save files, even though they would normally disappear after a moment. They are no longer written to saves.</s><r>Исправлено: цифры урона неправильно сохранялись в файлах сохранения, хотя обычно через мгновение они исчезали. Они больше не записываются в сохранения.</r></e>
+  <e k="D" t="DDI_UpdateNoticeDef" key="DDI_UpdateNotice_1_3_0.entries.1"><s>Fix: loading an old save now automatically clears the damage numbers left in it by earlier versions.</s><r>Исправление: загрузка старого сохранения теперь автоматически очищает значения урона, оставленные в нем предыдущими версиями.</r></e>
+  <e k="D" t="DDI_UpdateNoticeDef" key="DDI_UpdateNotice_1_3_0.label"><s>Update notice</s><r>Уведомление об обновлении</r></e>
+  <e k="D" t="ThingDef" key="DreamsDamageIndicators_MoteNumber.label"><s>damage number</s><r>номер повреждения</r></e>
+  <e k="D" t="ThingDef" key="DreamsDamageIndicators_MoteNumberFlying.label"><s>flying damage number</s><r>число летающих повреждений</r></e>
+  <e k="K" key="DDI_BasePopScale"><s>Initial scale multiplier</s><r>Начальный масштабный множитель</r></e>
+  <e k="K" key="DDI_Cat_Blunt"><s>Blunt (Blunt/Crush)</s><r>Тупой (Тупой/Раздавить)</r></e>
+  <e k="K" key="DDI_Cat_Bullet"><s>Bullet</s><r>Пуля</r></e>
+  <e k="K" key="DDI_Cat_Cold"><s>Cold (Frostbite)</s><r>Холод (Обморожение)</r></e>
+  <e k="K" key="DDI_Cat_Emp"><s>EMP</s><r>ЭМИ</r></e>
+  <e k="K" key="DDI_Cat_Explosive"><s>Explosive (Bomb)</s><r>Взрывчатка (Бомба)</r></e>
+  <e k="K" key="DDI_Cat_Heat"><s>Heat (Flame/Burn/Vaporize)</s><r>Нагрев (Пламя/Горение/Испарение)</r></e>
+  <e k="K" key="DDI_Cat_Other"><s>Other</s><r>Другой</r></e>
+  <e k="K" key="DDI_Cat_SharpCut"><s>Sharp slash (Cut/Scratch)</s><r>Резкий удар (порез/царапание)</r></e>
+  <e k="K" key="DDI_Cat_SharpPierce"><s>Sharp pierce (Stab/Bite/Arrow)</s><r>Острый пронзающий удар (Укол/Укус/Стрела)</r></e>
+  <e k="K" key="DDI_Cat_Stun"><s>Stun</s><r>Оглушить</r></e>
+  <e k="K" key="DDI_Cat_Toxic"><s>Toxic</s><r>Токсичный</r></e>
+  <e k="K" key="DDI_ColorCyan"><s>Cyan</s><r>Голубой</r></e>
+  <e k="K" key="DDI_ColorLightBlue"><s>LightBlue</s><r>Светло-синий</r></e>
+  <e k="K" key="DDI_ColorLightPurple"><s>LightPurple</s><r>СветлыйФиолетовый</r></e>
+  <e k="K" key="DDI_ColorMaxThreshold"><s>Max color level damage threshold (enter a value)</s><r>Максимальный порог повреждения уровня цвета (введите значение)</r></e>
+  <e k="K" key="DDI_ColorModeByType"><s>By damage type</s><r>По типу повреждения</r></e>
+  <e k="K" key="DDI_ColorModeByValue"><s>By damage value</s><r>По величине урона</r></e>
+  <e k="K" key="DDI_ColorModeLabel"><s>Digit color mode</s><r>Цифровой цветовой режим</r></e>
+  <e k="K" key="DDI_ColorModeWhite"><s>Plain white</s><r>Обычный белый</r></e>
+  <e k="K" key="DDI_ColorOrange"><s>Orange</s><r>Апельсин</r></e>
+  <e k="K" key="DDI_ColorRed"><s>Red</s><r>Красный</r></e>
+  <e k="K" key="DDI_ColorWhite"><s>White</s><r>Белый</r></e>
+  <e k="K" key="DDI_ColorYellow"><s>Yellow</s><r>Желтый</r></e>
+  <e k="K" key="DDI_DigitSizeCurrent"><s>Current: {0} px</s><r>Текущее: {0} пикселей</r></e>
+  <e k="K" key="DDI_DigitSizeLabel"><s>Digit pixel size (single digit height)</s><r>Размер цифры в пикселях (высота одной цифры)</r></e>
+  <e k="K" key="DDI_DriftDistance"><s>Downward drift distance (pixels)</s><r>Расстояние дрейфа вниз (пиксели)</r></e>
+  <e k="K" key="DDI_EnableFriendlyColor"><s>Use a different color for allied units</s><r>Используйте другой цвет для союзных юнитов.</r></e>
+  <e k="K" key="DDI_EnableNumberColoring"><s>Color digits by damage amount</s><r>Цветные цифры по сумме урона</r></e>
+  <e k="K" key="DDI_EnablePerHitFlying"><s>Enable per-hit flying numbers</s><r>Включить летающие числа для каждого попадания</r></e>
+  <e k="K" key="DDI_EnablePerHitFlying_Desc"><s>On each hit, additionally launches a single-hit damage number in a random direction, letting you see both short-term total damage (aggregated) and individual hits (flying).</s><r>При каждом ударе дополнительно запускает показатель одиночного урона в случайном направлении, позволяя увидеть как краткосрочный общий урон (агрегированный), так и отдельные удары (полет).</r></e>
+  <e k="K" key="DDI_FadeOut"><s>Fade-out duration (seconds)</s><r>Продолжительность затухания (секунды)</r></e>
+  <e k="K" key="DDI_FlyingNumberColor"><s>Per-hit flying number color</s><r>Цвет летающего номера для каждого попадания</r></e>
+  <e k="K" key="DDI_FollowHeight"><s>Height above target</s><r>Высота над целью</r></e>
+  <e k="K" key="DDI_FontFileMissing"><s>Font file not found: {0}</s><r>Файл шрифта не найден: {0}</r></e>
+  <e k="K" key="DDI_FontListLabel"><s>Fonts found in the mod root folder:</s><r>Шрифты найдены в корневой папке мода:</r></e>
+  <e k="K" key="DDI_FontTutorial"><s>Place a .ttf or .otf font file in the mod's root folder (next to About, Assemblies and Textures). Select it below and generate the 0-9 digit textures. The files are written to a writable data folder and take effect after restarting the game.</s><r>Поместите файл шрифта .ttf или .otf в корневую папку мода (рядом с пунктами «О программе», «Сборки» и «Текстуры»). Выберите его ниже и создайте текстуры из 0–9 цифр. Файлы записываются в доступную для записи папку данных и вступают в силу после перезапуска игры.</r></e>
+  <e k="K" key="DDI_FriendlyColor"><s>Allied unit digit color</s><r>Цвет цифр союзных подразделений</r></e>
+  <e k="K" key="DDI_GenerateButton"><s>Generate 0-9 textures</s><r>Генерировать текстуры 0-9</r></e>
+  <e k="K" key="DDI_GenerateFailed"><s>Generation failed: {0}</s><r>Генерация не удалась: {0}</r></e>
+  <e k="K" key="DDI_GenerateSuccess"><s>Generated 0-9 textures to: {0}. Restart the game to apply.</s><r>Сгенерированы текстуры 0–9 для: {0}. Перезапустите игру, чтобы применить.</r></e>
+  <e k="K" key="DDI_GenerateThrew"><s>An exception occurred during generation: {0}</s><r>Во время генерации произошло исключение: {0}</r></e>
+  <e k="K" key="DDI_IntroTipsAnswer1"><s>- On the &quot;Display Filter&quot; page of the mod settings, you can separately toggle damage numbers for player units, non-player units, buildings, and other objects (plants, rocks, items, etc.).
+
+- Mining/digging damage is hidden by default; enable it separately on the &quot;Display Filter&quot; page if you want it.</s><r>- На странице «Фильтр отображения» в настройках мода вы можете отдельно переключать цифры урона для юнитов игроков, юнитов, не являющихся игроками, зданий и других объектов (растений, камней, предметов и т. д.).
+
+- Урон от добычи/копания по умолчанию скрыт; включите его отдельно на странице «Фильтр отображения», если хотите.</r></e>
+  <e k="K" key="DDI_IntroTipsAnswer2"><s>- On the &quot;Appearance&quot; page of the mod settings, choose one of the three modes: Plain white / By damage value / By damage type.
+
+- In By damage type mode, you can assign a color to each category (slash, pierce, bullet, blunt, heat, cold, explosive, toxic, stun, EMP, etc.).</s><r>- На странице «Внешний вид» настроек мода выберите один из трех режимов: Обычный белый/По величине урона/По типу урона.
+
+- В режиме «По типу урона» вы можете назначить цвет каждой категории (рубящий, колющий, пулевый, тупой, жаркий, холодный, взрывной, токсичный, оглушающий, ЭМИ и т. д.).</r></e>
+  <e k="K" key="DDI_IntroTipsAnswer3"><s>- On the &quot;Effects&quot; page of the mod settings, one-click presets (Gentle / Calm / Dynamic / Wild) are available - click one to apply it.
+
+- You can also fine-tune the sliders for initial hit scale, per-hit increment, aggregation window, fade-out duration, and more.</s><r>- На странице «Эффекты» в настройках мода доступны пресеты, запускаемые одним щелчком мыши (Нежный / Спокойный / Динамический / Дикий) — щелкните один, чтобы применить его. 
+
+- Вы также можете точно настроить ползунки для начального масштаба удара, приращения для каждого удара, окна агрегации, продолжительности затухания и многого другого.</r></e>
+  <e k="K" key="DDI_IntroTipsAnswer4"><s>- On the &quot;Font&quot; page of the mod settings, put a .ttf or .otf font file in the mod's root folder, select it, click &quot;Generate 0-9 textures&quot;, and restart the game to apply.</s><r>- На странице «Шрифт» настроек мода поместите файл шрифта .ttf или .otf в корневую папку мода, выберите его, нажмите «Создать текстуры 0–9» и перезапустите игру, чтобы применить.</r></e>
+  <e k="K" key="DDI_IntroTipsButton1"><s>How do I adjust what is shown?</s><r>Как настроить то, что отображается?</r></e>
+  <e k="K" key="DDI_IntroTipsButton2"><s>How do I change the colors?</s><r>Как изменить цвета?</r></e>
+  <e k="K" key="DDI_IntroTipsButton3"><s>How do I adjust the effects?</s><r>Как настроить эффекты?</r></e>
+  <e k="K" key="DDI_IntroTipsButton4"><s>How do I use a custom font?</s><r>Как использовать собственный шрифт?</r></e>
+  <e k="K" key="DDI_IntroTipsCloseAnswer"><s>Disable the &quot;Show intro tips when entering the game&quot; option in the mod settings.</s><r>Отключите опцию «Показывать вступительные подсказки при входе в игру» в настройках мода.</r></e>
+  <e k="K" key="DDI_IntroTipsIntro"><s>You may be playing the &quot;[DR] Dream's Damage Indicators&quot; mod for the first time! Here are a few tips to help you get started:</s><r>Возможно, вы впервые играете в мод «[DR] Dream's Damage Indicators»! Вот несколько советов, которые помогут вам начать:</r></e>
+  <e k="K" key="DDI_IntroTipsPoint1"><s>1. By default, units and buildings pop a floating damage number above them when hit.</s><r>1. По умолчанию при ударе над юнитами и зданиями над ними появляется плавающее число урона.</r></e>
+  <e k="K" key="DDI_IntroTipsPoint2"><s>2. Damage number colors can be distinguished by damage amount or by damage type.</s><r>2. Цвета номеров повреждений можно различать по величине урона или типу урона.</r></e>
+  <e k="K" key="DDI_IntroTipsPoint3"><s>3. The size, pop, aggregation, and fade-out speed of the damage numbers can all be adjusted.</s><r>3. Размер, появление, агрегирование и скорость затухания значений урона можно регулировать.</r></e>
+  <e k="K" key="DDI_IntroTipsPoint4"><s>4. The digits use a built-in font by default, and you can also generate custom digit textures.</s><r>4. По умолчанию для цифр используется встроенный шрифт, также вы можете создавать собственные текстуры цифр.</r></e>
+  <e k="K" key="DDI_IntroTipsPoint5"><s>5. How do I turn off this popup?</s><r>5. Как отключить это всплывающее окно?</r></e>
+  <e k="K" key="DDI_IntroTipsQuestion1"><s>How do I adjust what is shown?</s><r>Как настроить то, что отображается?</r></e>
+  <e k="K" key="DDI_IntroTipsQuestion2"><s>How do I change the colors?</s><r>Как изменить цвета?</r></e>
+  <e k="K" key="DDI_IntroTipsQuestion3"><s>How do I adjust the effects?</s><r>Как настроить эффекты?</r></e>
+  <e k="K" key="DDI_IntroTipsQuestion4"><s>How do I use a custom font?</s><r>Как использовать собственный шрифт?</r></e>
+  <e k="K" key="DDI_IntroTipsTitle"><s>[DR] Dream's Damage Indicators - Intro Tips</s><r>[DR] Индикаторы урона Dream — вводные советы</r></e>
+  <e k="K" key="DDI_LoadFontFailed"><s>Could not load that font (format may be unsupported).</s><r>Не удалось загрузить этот шрифт (возможно, формат не поддерживается).</r></e>
+  <e k="K" key="DDI_LogCustomFontMissing"><s>&quot;Load custom font&quot; is enabled but a complete set of 0-9 textures was not found in the data folder. Falling back to the built-in digit textures. Generate them on the Font page first, or disable this option.</s><r>«Загрузить собственный шрифт» включен, но полный набор текстур 0–9 не найден в папке данных. Возвращаемся к встроенным цифровым текстурам. Сначала сгенерируйте их на странице «Шрифт» или отключите эту опцию.</r></e>
+  <e k="K" key="DDI_LogDigitsMissing"><s>Could not find all digit textures. Place 0.png~9.png in the mod's Textures/DRDamageIndicators/UI/Numbers/ folder. Damage numbers will be hidden until then.</s><r>Не удалось найти все текстуры цифр. Поместите файлы 0.png~9.png в папку текстур/DRDamageIndicators/UI/Numbers/ мода. До тех пор цифры урона будут скрыты.</r></e>
+  <e k="K" key="DDI_ManualTexturesHint"><s>You can also make your own 0-9 digit textures (named 0.png through 9.png) and place them at: {0}</s><r>Вы также можете создать свои собственные текстуры из 0–9 цифр (с именами от 0.png до 9.png) и разместить их по адресу: {0}.</r></e>
+  <e k="K" key="DDI_MaxPopScale"><s>Max scale multiplier</s><r>Максимальный множитель масштаба</r></e>
+  <e k="K" key="DDI_MaxRandomOffset"><s>Random offset on consecutive hits (pixels)</s><r>Случайное смещение при последовательных попаданиях (пикселях)</r></e>
+  <e k="K" key="DDI_MoveToFront"><s>Move consecutive-hit numbers to front</s><r>Переместить последовательные номера на передний план</r></e>
+  <e k="K" key="DDI_MoveToFront_Desc"><s>Reorders the number to the top layer on each consecutive hit so it is not covered by others. Reordering requires respawning the mote and costs a little performance; disable it if performance is a concern.</s><r>Переупорядочивает число на верхний слой при каждом последовательном попадании, чтобы оно не закрывалось другими. Изменение порядка требует возрождения пылинки и снижает производительность; отключите его, если производительность вызывает беспокойство.</r></e>
+  <e k="K" key="DDI_NoFontsFound"><s>No font file found in the mod root folder. Drop a .ttf or .otf file there and try again.</s><r>В корневой папке мода не найден файл шрифта. Перетащите туда файл .ttf или .otf и повторите попытку.</r></e>
+  <e k="K" key="DDI_NoGlyph"><s>That font has no glyph for digit {0}.</s><r>В этом шрифте нет символа для цифры {0}.</r></e>
+  <e k="K" key="DDI_NoInternalMethod"><s>Could not find the engine's internal rasterization method. The engine version may be incompatible.</s><r>Не удалось найти внутренний метод растеризации движка. Версия двигателя может быть несовместима.</r></e>
+  <e k="K" key="DDI_OutlineWidthLabel"><s>Black outline width (pixels, 0 = none)</s><r>Ширина черного контура (пикселей, 0 = нет)</r></e>
+  <e k="K" key="DDI_PopHoldTime"><s>Peak hold time (seconds)</s><r>Пиковое время удержания (секунды)</r></e>
+  <e k="K" key="DDI_PopScaleIncrement"><s>Scale multiplier per consecutive hit</s><r>Множитель масштаба за последовательное попадание</r></e>
+  <e k="K" key="DDI_PopShrinkTime"><s>Time to shrink back to 1x (seconds)</s><r>Время вернуться к 1x (секундам)</r></e>
+  <e k="K" key="DDI_PresetCalm"><s>Calm</s><r>Спокойствие</r></e>
+  <e k="K" key="DDI_PresetDynamic"><s>Dynamic</s><r>Динамический</r></e>
+  <e k="K" key="DDI_PresetGentle"><s>Gentle</s><r>Нежный</r></e>
+  <e k="K" key="DDI_PresetLabel"><s>Effect presets (click to override current settings)</s><r>Пресеты эффектов (нажмите, чтобы переопределить текущие настройки)</r></e>
+  <e k="K" key="DDI_PresetWild"><s>Wild</s><r>Дикий</r></e>
+  <e k="K" key="DDI_RandomOffsetOnSpawn"><s>Random offset on spawn (text size multiplier)</s><r>Случайное смещение при появлении (множитель размера текста)</r></e>
+  <e k="K" key="DDI_RasterizeGlyphFailed"><s>Could not rasterize the glyph for digit {0}.</s><r>Не удалось растрировать глиф для цифры {0}.</r></e>
+  <e k="K" key="DDI_RenderFailed"><s>Failed to render digit {0}: {1}</s><r>Не удалось отобразить цифру {0}: {1}.</r></e>
+  <e k="K" key="DDI_RepeatWindow"><s>Aggregation / repeat window (seconds)</s><r>Окно агрегации/повтора (секунды)</r></e>
+  <e k="K" key="DDI_ResetDefaults"><s>Reset to defaults</s><r>Сбросить настройки по умолчанию</r></e>
+  <e k="K" key="DDI_ScaleWithZoom"><s>Digits follow map zoom</s><r>Цифры соответствуют масштабу карты</r></e>
+  <e k="K" key="DDI_ScaleWithZoom_Desc"><s>When enabled, damage numbers are drawn in world space and scale with the map when you zoom in or out (like vanilla motes). When disabled, they keep a fixed pixel size.</s><r>Если эта функция включена, цифры урона отображаются в мировом пространстве и масштабируются вместе с картой при увеличении или уменьшении масштаба (как ванильные пылинки). Когда они отключены, они сохраняют фиксированный размер в пикселях.</r></e>
+  <e k="K" key="DDI_SectionDrift"><s>— Drift Effect —</s><r>— Эффект дрейфа —</r></e>
+  <e k="K" key="DDI_SectionPop"><s>— Hit Pop —</s><r>— Хит-поп —</r></e>
+  <e k="K" key="DDI_SectionTiming"><s>— Timing —</s><r>— Время —</r></e>
+  <e k="K" key="DDI_SettingOpenIntroTips"><s>Open intro tips</s><r>Открыть вступительные советы</r></e>
+  <e k="K" key="DDI_SettingShowIntroTips"><s>Show intro tips when entering the game</s><r>Показывать вступительные подсказки при входе в игру</r></e>
+  <e k="K" key="DDI_ShieldBroken"><s>Shield broken</s><r>Щит сломан</r></e>
+  <e k="K" key="DDI_ShowBuildings"><s>Show damage on buildings</s><r>Показать повреждения на зданиях</r></e>
+  <e k="K" key="DDI_ShowDodgeZero"><s>Show 0 on melee dodge</s><r>Показывать 0 при уклонении в ближнем бою</r></e>
+  <e k="K" key="DDI_ShowMiningDamage"><s>Show damage while mining/digging</s><r>Показывать урон во время добычи полезных ископаемых/копания</r></e>
+  <e k="K" key="DDI_ShowMissZero"><s>Show 0 on melee miss</s><r>Показывать 0 при промахе в ближнем бою</r></e>
+  <e k="K" key="DDI_ShowNonPlayerPawns"><s>Show damage on non-player units</s><r>Показывать урон неигровым юнитам</r></e>
+  <e k="K" key="DDI_ShowOther"><s>Show damage on other objects</s><r>Показать повреждения на других объектах</r></e>
+  <e k="K" key="DDI_ShowPlayerPawns"><s>Show damage on player units</s><r>Показать урон по юнитам игроков</r></e>
+  <e k="K" key="DDI_ShowShieldBreakText"><s>Show shield-break notification</s><r>Показать уведомление о разрыве щита</r></e>
+  <e k="K" key="DDI_ShowShieldEnergyLost"><s>Shield numbers show actual energy lost (off = raw damage)</s><r>Числа щита показывают фактическую потерю энергии (выкл. = чистый урон)</r></e>
+  <e k="K" key="DDI_SpawnRandomOffsetScale"><s>Spawn random offset amount (multiplier of text size)</s><r>Случайная величина смещения спауна (множитель размера текста)</r></e>
+  <e k="K" key="DDI_TabAppearance"><s>Appearance</s><r>Появление</r></e>
+  <e k="K" key="DDI_TabEffects"><s>Effects</s><r>Эффекты</r></e>
+  <e k="K" key="DDI_TabFilter"><s>Display Filter</s><r>Фильтр отображения</r></e>
+  <e k="K" key="DDI_TabFont"><s>Font</s><r>Шрифт</r></e>
+  <e k="K" key="DDI_TextOpacity"><s>Text opacity</s><r>Непрозрачность текста</r></e>
+  <e k="K" key="DDI_TrimBorderLabel"><s>Trim erroneous border</s><r>Обрезать ошибочную границу</r></e>
+  <e k="K" key="DDI_UpdateNotice_VersionPrefix"><s>Version</s><r>Версия</r></e>
+  <e k="K" key="DDI_UseCustomFont"><s>Load custom font</s><r>Загрузить собственный шрифт</r></e>
+  <e k="K" key="DDI_UseCustomFontTooltip"><s>Load the custom 0-9 digit textures you generate on this page. A game restart is required for this to take effect.</s><r>Загрузите пользовательские текстуры из 0–9 цифр, которые вы создали на этой странице. Чтобы изменения вступили в силу, требуется перезапуск игры.</r></e>
+  <e k="K" key="DDI_UseExponentialColors"><s>Exponential tiering (powers of 2)</s><r>Экспоненциальное многоуровневое распределение (степень 2)</r></e>
+  <e k="K" key="DDI_UseFlyingNumberColor"><s>Use a separate color for per-hit flying numbers</s><r>Используйте отдельный цвет для летающих чисел для каждого попадания.</r></e>
+  <e k="K" key="DDI_UseFlyingNumberColor_Desc"><s>When enabled, per-hit flying numbers always use the color set below. When disabled, they follow the coloring mode above.</s><r>Если эта функция включена, летающие числа для каждого попадания всегда используют цвет, указанный ниже. Когда они отключены, они следуют режиму окраски, указанному выше.</r></e>
+  <e k="K" key="DDI_ValueTier_Cyan"><s>C7</s><r>С7</r></e>
+  <e k="K" key="DDI_ValueTier_LightBlue"><s>C6</s><r>С6</r></e>
+  <e k="K" key="DDI_ValueTier_LightPurple"><s>C5</s><r>С5</r></e>
+  <e k="K" key="DDI_ValueTier_Orange"><s>C3</s><r>С3</r></e>
+  <e k="K" key="DDI_ValueTier_Red"><s>C4</s><r>С4</r></e>
+  <e k="K" key="DDI_ValueTier_White"><s>C1</s><r>С1</r></e>
+  <e k="K" key="DDI_ValueTier_Yellow"><s>C2</s><r>С2</r></e>
+  <e k="K" key="DDI_WhiteModeColor"><s>Plain white mode digit color</s><r>Цвет цифр в простом белом режиме</r></e>
+</AutoTranslateCache>
