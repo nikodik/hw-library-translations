@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="hailuan.voiduniverse" name="Dlc collaboration - Void universe" language="Russian" version="1">
+  <e k="D" t="AbilityDef" key="UV_GoldbirdRoar.description"><s>Emits a shriek infused with the energy of the Gold Cube, driving the target into a frenzy and compelling them to indiscriminately attack nearby creatures.</s><r>Издает вопль, наполненный энергией Золотого Куба, доводя цель до безумия и заставляя ее без разбора атаковать ближайших существ.</r></e>
+  <e k="D" t="AbilityDef" key="UV_GoldbirdRoar.label"><s>berserk</s><r>неистовый</r></e>
+  <e k="D" t="BiomeDef" key="UV_SpaceUndercave.description"><s>This cave is filled with the putrid stench of rotting flesh.</s><r>Эта пещера наполнена гнилостным смрадом гниющей плоти.</r></e>
+  <e k="D" t="BiomeDef" key="UV_SpaceUndercave.label"><s>undercave</s><r>подземелье</r></e>
+  <e k="D" t="EntityCodexEntryDef" key="UV_Codex_GoldenBrid.label"><s>golden canary</s><r>золотая канарейка</r></e>
+  <e k="D" t="GameConditionDef" key="UV_ShipOffset.description"><s>affect the maximum flight distance of the Gravship</s><r>влияет на максимальную дальность полета Гравшипа</r></e>
+  <e k="D" t="GameConditionDef" key="UV_ShipOffset.label"><s>ship offset</s><r>смещение корабля</r></e>
+  <e k="D" t="GameConditionDef" key="UV_UnnaturalDarkness.description"><s>The world is blanketed by a layer of unnatural darkness. From the inky blackness, one can hear the inhuman groaning of deadly creatures. Stay in the light.</s><r>Мир покрыт слоем неестественной тьмы. Из чернильной черноты доносятся нечеловеческие стоны смертоносных существ. Оставайся в свете.</r></e>
+  <e k="D" t="GameConditionDef" key="UV_UnnaturalDarkness.label"><s>unnatural darkness</s><r>неестественная темнота</r></e>
+  <e k="D" t="HediffDef" key="UV_Hediff_DarkInfusion.description"><s>Protected by Anomaly nanites, the target can temporarily operate safely in the vacuum of space.</s><r>Защищенная аномальными нанитами, цель может временно безопасно действовать в космическом вакууме.</r></e>
+  <e k="D" t="HediffDef" key="UV_Hediff_DarkInfusion.label"><s>dark infusion</s><r>темный настой</r></e>
+  <e k="D" t="HediffDef" key="UV_Hediff_DarkInfusionPermenent.description"><s>Protected by Anomaly nanites, the target can temporarily operate safely in the vacuum of space.</s><r>Защищенная аномальными нанитами, цель может временно безопасно действовать в космическом вакууме.</r></e>
+  <e k="D" t="HediffDef" key="UV_Hediff_DarkInfusionPermenent.label"><s>dark infusion</s><r>темный настой</r></e>
+  <e k="D" t="HediffDef" key="UV_Hediff_GoldenCanary.description"><s>An inactive Gold Canary. If the initiation ritual is not performed soon, this gilded husk will rapidly disintegrate.</s><r>Неактивная Золотая Канарейка. Если в ближайшее время не провести ритуал инициации, эта позолоченная оболочка быстро распадется.</r></e>
+  <e k="D" t="HediffDef" key="UV_Hediff_GoldenCanary.label"><s>loss gold Cube</s><r>потеря золотого куба</r></e>
+  <e k="D" t="HediffDef" key="UV_Hediff_GoldenCanary.stages.1.label"><s>Filling</s><r>Наполнение</r></e>
+  <e k="D" t="HediffDef" key="UV_Hediff_GoldenCanaryHeal.description"><s>The Gold Canary's psychic pulse alleviates cube addiction.</s><r>Психический пульс Золотой Канарейки облегчает зависимость от кубов.</r></e>
+  <e k="D" t="HediffDef" key="UV_Hediff_GoldenCanaryHeal.label"><s>golden canary alleviation</s><r>облегчение золотой канарейки</r></e>
+  <e k="D" t="HediffDef" key="UV_Hediff_GoldenCanary_Actived.description"><s>A truly living Gold Canary, immune to all damage from enemies. It will deactivate and disintegrate after some days.</s><r>По-настоящему живая Золотая Канарейка, невосприимчивая к любому урону от врагов. Через несколько дней он деактивируется и распадется.</r></e>
+  <e k="D" t="HediffDef" key="UV_Hediff_GoldenCanary_Actived.label"><s>golden cube activated</s><r>золотой куб активирован</r></e>
+  <e k="D" t="HediffDef" key="UV_Hediff_Void.description"><s>Protected by Anomaly nanites, the target can temporarily operate safely in the vacuum of space.</s><r>Защищенная аномальными нанитами, цель может временно безопасно действовать в космическом вакууме.</r></e>
+  <e k="D" t="HediffDef" key="UV_Hediff_Void.label"><s>dark infusion</s><r>темный настой</r></e>
+  <e k="D" t="HediffDef" key="UV_Hediff_VoidInfusionPermenent.description"><s>Protected by Anomaly nanites, the target can temporarily operate safely in the vacuum of space.</s><r>Защищенная аномальными нанитами, цель может временно безопасно действовать в космическом вакууме.</r></e>
+  <e k="D" t="HediffDef" key="UV_Hediff_VoidInfusionPermenent.label"><s>void infusion</s><r>вливание пустоты</r></e>
+  <e k="D" t="HediffDef" key="UV_OverclockBroadcast.description"><s>A chip that enables the Mechanitor to dramatically enhance control links, providing remote power supply and distributed computing. All friendly mechanoids on the same map as the Mechanitor will gain increased movement speed and work efficiency.</s><r>Чип, который позволяет Механитору значительно улучшить каналы управления, обеспечивая удаленное питание и распределенные вычисления. Все дружественные механоиды на той же карте, что и Механитор, получат повышенную скорость передвижения и эффективность работы.</r></e>
+  <e k="D" t="HediffDef" key="UV_OverclockBroadcast.label"><s>overclock broadcast</s><r>трансляция разгона</r></e>
+  <e k="D" t="HediffDef" key="UV_RageSpeed.description"><s>This creature has been enraged by its wounds and is moving faster.</s><r>Это существо пришло в ярость из-за своих ран и движется быстрее.</r></e>
+  <e k="D" t="HediffDef" key="UV_RageSpeed.label"><s>rage speed</s><r>скорость ярости</r></e>
+  <e k="D" t="IncidentDef" key="UV_ChimeraAssault.label"><s>chimera assault</s><r>нападение химеры</r></e>
+  <e k="D" t="IncidentDef" key="UV_DevourerAssault.label"><s>devourer assault</s><r>нападение пожирателя</r></e>
+  <e k="D" t="IncidentDef" key="UV_DevourerAssault.letterLabel"><s>Devourer attack</s><r>Атака Пожирателя</r></e>
+  <e k="D" t="IncidentDef" key="UV_DevourerAssault.letterText"><s>A swarm of huge gape-mawed monsters are attacking!
+
+These creatures' jaws are massive enough to swallow a human whole. Keep your distance!</s><r>Рой огромных монстров с разинутой пастью атакует!
+
+Челюсти этих существ достаточно массивны, чтобы проглотить человека целиком. Держите дистанцию!</r></e>
+  <e k="D" t="IncidentDef" key="UV_GhoulSpaceAttack.label"><s>Ghoul attacking</s><r>Гуль атакует</r></e>
+  <e k="D" t="IncidentDef" key="UV_GhoulSpaceAttack.letterLabel"><s>Ghoul attacking</s><r>Гуль атакует</r></e>
+  <e k="D" t="IncidentDef" key="UV_GhoulSpaceAttack.letterText"><s>A vicious humanoid ghoul is attacking!
+
+It is intent on inhuman savagery and it cannot feel pain. Prepare to defend.</s><r>Злобный гуманоидный гуль атакует!
+
+Он намерен совершать нечеловеческую жестокость и не может чувствовать боли. Приготовьтесь защищаться.</r></e>
+  <e k="D" t="IncidentDef" key="UV_HateChanters.label"><s>hate chanters</s><r>певчие ненависти</r></e>
+  <e k="D" t="IncidentDef" key="UV_Nociosphere.label"><s>nociosphere</s><r>ноциосфера</r></e>
+  <e k="D" t="IncidentDef" key="UV_Nociosphere.letterLabel"><s>Nociosphere</s><r>Ноциосфера</r></e>
+  <e k="D" t="IncidentDef" key="UV_Nociosphere.letterText"><s>A strange metallic sphere has appeared. It hurts to be near it.
+
+You could attack it, though you're not sure how it might defend itself. Or, you could capture it using a holding platform and learn to make use of its power.
+
+It seems quiet for now, but it is gaining energy over time. You can suppress the sphere when it is captured to a holding platform, reducing its energy.</s><r>Появился странный металлический шар. Находиться рядом с ним больно.
+
+Вы можете напасть на него, хотя не знаете, как он сможет защититься. Или вы можете захватить его с помощью удерживающей платформы и научиться использовать его силу.
+
+Пока кажется тихим, но со временем он набирает энергию. Вы можете подавить сферу, когда она захвачена удерживающей платформой, уменьшив ее энергию.</r></e>
+  <e k="D" t="IncidentDef" key="UV_Revenant.label"><s>revenant</s><r>призрак</r></e>
+  <e k="D" t="IncidentDef" key="UV_SightstealerArrival.label"><s>sightstealer arrival</s><r>прибытие похитителя достопримечательностей</r></e>
+  <e k="D" t="IncidentDef" key="UV_SpaceGorehulkAssault.label"><s>gorehulk assault</s><r>нападение Горехалака</r></e>
+  <e k="D" t="IncidentDef" key="UV_SpaceGorehulkAssault.letterLabel"><s>Gorehulk assault</s><r>Нападение Кровавого Халка</r></e>
+  <e k="D" t="IncidentDef" key="UV_SpaceGorehulkAssault.letterText"><s>A group of monstrous, human-like abominations are attacking! Their bodies are ravaged by thick keratin spines which they can launch at a distance. However, their fleshy forms can do little damage at close range.</s><r>Группа чудовищных человекоподобных тварей атакует! Их тела покрыты толстыми кератиновыми шипами, которые они могут запускать на расстоянии. Однако их мясистые формы могут нанести небольшой урон на близком расстоянии.</r></e>
+  <e k="D" t="IncidentDef" key="UV_WarpedObelisk.description"><s>A mysterious obelisk core has crashed into the grav ship and rapidly corrupted the GravEngine.
+
+The obelisk hums with putrid psychic energy, gradually intensifying as it approaches some dangerous limit. You can send colonists to suppress the obelisk to prevent it from activating.
+
+You can also mark the obelisk for study to try to learn its purpose and perhaps make use of it.
+
+You can always attack the obelisk to destroy it, but doing so may unleash unnatural and dangerous phenomena.</s><r>Таинственное ядро ​​обелиска врезалось в гравитационный корабль и быстро повредило GravEngine.
+
+Обелиск гудит от гнилой психической энергии, постепенно усиливаясь по мере приближения к опасному пределу. Вы можете послать колонистов подавить обелиск, чтобы предотвратить его активацию.
+
+Вы также можете пометить обелиск для изучения, чтобы попытаться узнать его предназначение и, возможно, использовать его.
+
+Вы всегда можете атаковать обелиск, чтобы уничтожить его, но это может вызвать неестественные и опасные явления.</r></e>
+  <e k="D" t="IncidentDef" key="UV_WarpedObelisk.label"><s>obelisk core</s><r>ядро обелиска</r></e>
+  <e k="D" t="IncidentDef" key="UV_WarpedObelisk.letterLabel"><s>obelisk core</s><r>ядро обелиска</r></e>
+  <e k="D" t="IncidentDef" key="UV_WarpedObelisk.letterText"><s>A mysterious obelisk has crashed nearby.
+
+The obelisk hums with putrid psychic energy, gradually intensifying as it approaches some dangerous limit. You can send colonists to suppress the obelisk to prevent it from activating.
+
+You can also mark the obelisk for study to try to learn its purpose and perhaps make use of it.
+
+You can always attack the obelisk to destroy it, but doing so may unleash unnatural and dangerous phenomena.</s><r>Рядом разбился загадочный обелиск.
+
+Обелиск гудит от гнилой психической энергии, постепенно усиливаясь по мере приближения к какому-то опасному пределу. Вы можете послать колонистов подавить обелиск, чтобы предотвратить его активацию.
+
+Вы также можете пометить обелиск для изучения, чтобы попытаться узнать его предназначение и, возможно, использовать его.
+
+Вы всегда можете атаковать обелиск, чтобы уничтожить его, но это может вызвать неестественные и опасные явления.</r></e>
+  <e k="D" t="JobDef" key="UV_ActiveTank.reportString"><s>active TargetA.</s><r>активный TargetA.</r></e>
+  <e k="D" t="JobDef" key="UV_Enter.reportString"><s>entering node.</s><r>входной узел.</r></e>
+  <e k="D" t="JobDef" key="UV_LeadRitual.reportString"><s>leading ritual.</s><r>ведущий ритуал.</r></e>
+  <e k="D" t="JobDef" key="UV_Skip.reportString"><s>skipping.</s><r>пропуск.</r></e>
+  <e k="D" t="JobDef" key="UV_UseChip.reportString"><s>using TargetB to TargetA.</s><r>используя от TargetB до TargetA.</r></e>
+  <e k="D" t="MapGeneratorDef" key="UV_AncientStockpile.label"><s>ancient stockpile</s><r>древний склад</r></e>
+  <e k="D" t="MapGeneratorDef" key="UV_AsteroidMap.label"><s>void asteroid</s><r>пустой астероид</r></e>
+  <e k="D" t="MapGeneratorDef" key="UV_MapGeneratorDef_AncientHatch.label"><s>basic asteroid</s><r>основной астероид</r></e>
+  <e k="D" t="MapGeneratorDef" key="UV_MapGeneratorDef_HeartPitGateAsteroid.label"><s>basic asteroid</s><r>основной астероид</r></e>
+  <e k="D" t="MapGeneratorDef" key="UV_MapGeneratorDef_PitGateAsteroid.label"><s>basic asteroid</s><r>основной астероид</r></e>
+  <e k="D" t="MapGeneratorDef" key="UV_MapGenerator_Dreadmeld.label"><s>undercave</s><r>подземелье</r></e>
+  <e k="D" t="MapGeneratorDef" key="UV_MapGenerator_FleshHeart.label"><s>undercave</s><r>подземелье</r></e>
+  <e k="D" t="PawnKindDef" key="UV_GoldenCanary.label"><s>golden canary</s><r>золотая канарейка</r></e>
+  <e k="D" t="PawnKindDef" key="UV_Horaxian_Leader.label"><s>cult leader</s><r>лидер культа</r></e>
+  <e k="D" t="PawnsArrivalModeDef" key="UV_SKipArrivalMode.textEnemy"><s>A group of {0} have arrived nearby by skip.</s><r>Группа из {0} прибыла неподалеку на прогулке.</r></e>
+  <e k="D" t="PawnsArrivalModeDef" key="UV_SKipArrivalMode.textFriendly"><s>A group of friendly {0} from {1} have arrived nearby by skip.</s><r>Группа дружественных {0} из {1} прибыла неподалеку на прогулке.</r></e>
+  <e k="D" t="PawnsArrivalModeDef" key="UV_SKipArrivalMode.textWillArrive"><s>{0_pawnsPluralDef} will arrive by skip.</s><r>{0_pawnsPluralDef} прибудет пропуском.</r></e>
+  <e k="D" t="PsychicRitualDef" key="UV_ParallelDimension.description"><s>Consumes vast quantities of Biometal while maximizing ritual energy, transporting the entire region to a nearby similar dimension. This process refreshes all local landmarks and repairs grav launch ruins.</s><r>Потребляет огромное количество биометалла, максимизируя при этом ритуальную энергию, перенося весь регион в соседнее аналогичное измерение. Этот процесс обновляет все местные достопримечательности и восстанавливает руины гравитационного запуска.</r></e>
+  <e k="D" t="PsychicRitualDef" key="UV_ParallelDimension.label"><s>parallel dimension</s><r>параллельное измерение</r></e>
+  <e k="D" t="PsychicRitualDef" key="UV_Ritual_DarkInfusion.description"><s>Releases shard nanites to permeate the area, granting all allied units within the zone the ability to breathe safely in space while shielding them from extreme cold.</s><r>Выпускает осколки нанитов, которые проникают в область, давая всем союзным юнитам в зоне возможность безопасно дышать в космосе, защищая их от сильного холода.</r></e>
+  <e k="D" t="PsychicRitualDef" key="UV_Ritual_DarkInfusion.label"><s>dark infusion</s><r>темный настой</r></e>
+  <e k="D" t="PsychicRitualDef" key="UV_Ritual_DrawMonolith.description"><s>draw the monolith to current map</s><r>нарисовать монолит на текущей карте</r></e>
+  <e k="D" t="PsychicRitualDef" key="UV_Ritual_DrawMonolith.label"><s>draw monolith</s><r>нарисовать монолит</r></e>
+  <e k="D" t="PsychicRitualDef" key="UV_Ritual_FleshSealing.description"><s>Weakens the fleshmass nucleus and encases it with shards, transforming it into a vessel for chemfuel production.</s><r>Ослабляет ядро ​​плоти и окружает его осколками, превращая в сосуд для производства химического топлива.</r></e>
+  <e k="D" t="PsychicRitualDef" key="UV_Ritual_FleshSealing.label"><s>flesh sealing</s><r>уплотнение плоти</r></e>
+  <e k="D" t="PsychicRitualDef" key="UV_Ritual_GoldenCanary.description"><s>Fuses the Gold Canary husk with the Golden Cube, granting it true life.</s><r>Соединяет оболочку Золотой Канарейки с Золотым Кубом, даруя ему настоящую жизнь.</r></e>
+  <e k="D" t="PsychicRitualDef" key="UV_Ritual_GoldenCanary.label"><s>golden canary</s><r>золотая канарейка</r></e>
+  <e k="D" t="PsychicRitualDef" key="UV_Ritual_RevealInformation.description"><s>Performs a psychic communication with the Void in an attempt to glean meaningful information, though the initiator may fall unconscious for several hours.</s><r>Осуществляет психическую связь с Бездной в попытке получить значимую информацию, хотя инициатор может потерять сознание на несколько часов.</r></e>
+  <e k="D" t="PsychicRitualDef" key="UV_Ritual_RevealInformation.label"><s>reveal information</s><r>раскрывать информацию</r></e>
+  <e k="D" t="PsychicRitualDef" key="UV_Ritual_ShipCooldown.description"><s>Flushes the ship's engine with Anomaly nanites, rapidly venting waste heat and priming its systems for optimal performance.</s><r>Промывает двигатель корабля аномальными нанитами, быстро отводя отработанное тепло и настраивая его системы для достижения оптимальной производительности.</r></e>
+  <e k="D" t="PsychicRitualDef" key="UV_Ritual_ShipCooldown.label"><s>ship cooldown</s><r>перезарядка корабля</r></e>
+  <e k="D" t="PsychicRitualDef" key="UV_TwistedReconstruction.description"><s>Channels Void energy to warp and restructure all of the target's equipped gear, altering its persona an components while fully repairing its durability.</s><r>Направляет энергию Бездны на деформацию и реструктуризацию всего экипированного снаряжения цели, изменяя ее внешний вид и компоненты, одновременно полностью восстанавливая ее долговечность.</r></e>
+  <e k="D" t="PsychicRitualDef" key="UV_TwistedReconstruction.label"><s>twisted reconstruction</s><r>запутанная реконструкция</r></e>
+  <e k="D" t="QuestScriptDef" key="UV_OpportunitySite_HeartPitGateAsteroid.questDescriptionRules.rulesStrings.0"><s>questDescription-&gt;You have detected a rocky asteroid towed into the planet's orbit, a relic of mining operations long past. An unnaturally massive crater scars its surface, and radar indicates ominous psychic emanations steadily pouring from within.
+This site can be reached via Transport Pod, Shuttle, or Grav Ship.</s><r>questDescription-&gt;Вы обнаружили скалистый астероид, отбуксированный на орбиту планеты, — реликвию давних горнодобывающих работ. Неестественно массивный кратер испещряет его поверхность, а радар указывает на зловещие психические излучения, постоянно льющиеся изнутри.
+Добраться до этого места можно с помощью транспортной капсулы, шаттла или гравитационного корабля.</r></e>
+  <e k="D" t="QuestScriptDef" key="UV_OpportunitySite_HeartPitGateAsteroid.questNameRules.rulesStrings.0"><s>questName-&gt; the ominous pitted asteroid</s><r>questName-&gt; зловещий изрытый астероид</r></e>
+  <e k="D" t="QuestScriptDef" key="UV_OpportunitySite_HeartPitGateAsteroid.root.nodes.0.elseNode.nodes.0.value.slateRef"><s>You have discovered</s><r>Вы обнаружили</r></e>
+  <e k="D" t="QuestScriptDef" key="UV_OpportunitySite_PitGateAsteroid.questDescriptionRules.rulesStrings.0"><s>questDescription-&gt;You have detected a rocky asteroid towed into the planet's orbit, a relic of mining operations long past. An unnaturally massive crater scars its surface, and radar indicates ominous psychic emanations steadily pouring from within.
+This site can be reached via Transport Pod, Shuttle, or Grav Ship.</s><r>questDescription-&gt;Вы обнаружили скалистый астероид, отбуксированный на орбиту планеты, — реликвию давних горнодобывающих работ. Неестественно массивный кратер испещряет его поверхность, а радар указывает на зловещие психические излучения, постоянно льющиеся изнутри.
+Добраться до этого места можно с помощью транспортной капсулы, шаттла или гравитационного корабля.</r></e>
+  <e k="D" t="QuestScriptDef" key="UV_OpportunitySite_PitGateAsteroid.questNameRules.rulesStrings.0"><s>questName-&gt; the ominous pitted asteroid</s><r>questName-&gt; зловещий изрытый астероид</r></e>
+  <e k="D" t="QuestScriptDef" key="UV_OpportunitySite_PitGateAsteroid.root.nodes.0.elseNode.nodes.0.value.slateRef"><s>You have discovered</s><r>Вы обнаружили</r></e>
+  <e k="D" t="QuestScriptDef" key="UV_OpportunitySite_StoreAsteroid.questDescriptionRules.rulesStrings.0"><s>questDescription-&gt;You have detected a rocky asteroid towed into the planet's orbit, a relic of long-past mining operations. Its interior has been hollowed out and extensively refitted into an underground base. Radar scans reveal ominous psychic emanations steadily pouring from within.
+This site can be reached via Transport Pod, Shuttle, or Grav Ship.</s><r>questDescription-&gt;Вы обнаружили скалистый астероид, отбуксированный на орбиту планеты, реликвию давних горнодобывающих работ. Его интерьер был выдолблен и тщательно переоборудован в подземную базу. Сканирование радаром показывает, что изнутри постоянно льются зловещие психические излучения.
+Добраться до этого места можно с помощью транспортной капсулы, шаттла или гравитационного корабля.</r></e>
+  <e k="D" t="QuestScriptDef" key="UV_OpportunitySite_StoreAsteroid.questNameRules.rulesStrings.0"><s>questName-&gt; the ominous orbital station</s><r>questName-&gt; зловещая орбитальная станция</r></e>
+  <e k="D" t="QuestScriptDef" key="UV_OpportunitySite_StoreAsteroid.root.nodes.0.elseNode.nodes.0.value.slateRef"><s>You have discovered</s><r>Вы обнаружили</r></e>
+  <e k="D" t="QuestScriptDef" key="UV_SightstealerArrival.questDescriptionRules.rulesStrings.0"><s>questDescription-&gt;sightstealerarrival</s><r>questDescription-&gt;прибытие</r></e>
+  <e k="D" t="QuestScriptDef" key="UV_SightstealerArrival.questNameRules.rulesStrings.0"><s>questDescription-&gt;sightstealerarrival</s><r>questDescription-&gt;прибытие</r></e>
+  <e k="D" t="QuestScriptDef" key="UV_UnnaturalDarkness.questContentRules.rulesStrings.0"><s>initialPhaseLetterLabel-&gt;Dimming sky</s><r>initialPhaseLetterLabel-&gt;Тускнеющее небо</r></e>
+  <e k="D" t="QuestScriptDef" key="UV_UnnaturalDarkness.questContentRules.rulesStrings.1"><s>initialPhaseLetterText-&gt;The sky is dimming. Soon it will be hard to see anything that isn't directly lit by lamps or torches.
+
+Build well-lit areas to survive. Craft disruptor flare packs to explore the darkness.</s><r>initialPhaseLetterText-&gt;Небо тускнеет. Скоро будет трудно увидеть что-либо, что не освещено непосредственно лампами или факелами.
+
+Создавайте хорошо освещенные места, чтобы выжить. Создавайте сигнальные ракетницы-разрушители, чтобы исследовать тьму.</r></e>
+  <e k="D" t="QuestScriptDef" key="UV_UnnaturalDarkness.questContentRules.rulesStrings.2"><s>mainPhaseLetterLabel-&gt;Unnatural darkness</s><r>mainPhaseLetterLabel-&gt;Неестественная темнота</r></e>
+  <e k="D" t="QuestScriptDef" key="UV_UnnaturalDarkness.questContentRules.rulesStrings.3"><s>mainPhaseLetterText-&gt;An unnatural darkness is descending. Inhuman things move just outside the light.
+
+Pillars of jagged, oily metal are falling from the sky. They are terrible to look upon but surely contain valuable technology. Reach them by building well-lit paths - and destroy them to end this nightmare.
+
+Alternatively, if you can survive long enough, the darkness will dissipate on its own.</s><r>mainPhaseLetterText-&gt;Наступает неестественная тьма. Нечеловеческие существа движутся прямо за пределами света.
+
+Столбы зазубренного маслянистого металла падают с неба. На них страшно смотреть, но они наверняка содержат ценные технологии. Доберитесь до них, проложив хорошо освещенные тропы, и уничтожьте их, чтобы положить конец этому кошмару.
+
+В качестве альтернативы, если вы сможете продержаться достаточно долго, тьма рассеется сама по себе.</r></e>
+  <e k="D" t="QuestScriptDef" key="UV_UnnaturalDarkness.questContentRules.rulesStrings.4"><s>darknessLiftedLetterLabel-&gt;Darkness lifting</s><r>darknessLiftedLetterLabel-&gt;Тьма поднимается</r></e>
+  <e k="D" t="QuestScriptDef" key="UV_UnnaturalDarkness.questContentRules.rulesStrings.5"><s>darknessLiftedLetterText-&gt;The unnatural darkness has begun to dissipate. The metallic pillars have somehow folded into themselves and vanished. You survived!</s><r>darknessLiftedLetterText-&gt;Неестественная тьма начала рассеиваться. Металлические столбы каким-то образом сложились сами в себя и исчезли. Вы выжили!</r></e>
+  <e k="D" t="QuestScriptDef" key="UV_UnnaturalDarkness.questNameRules.rulesStrings.0"><s>questDescription-&gt;unnatural darkness</s><r>questDescription-&gt;неестественная темнота</r></e>
+  <e k="D" t="RecipeDef" key="UV_DissectEnty.description"><s>Dissect entity corpses to gain Anomaly research points.</s><r>Препарируйте трупы существ, чтобы получить очки исследования аномалий.</r></e>
+  <e k="D" t="RecipeDef" key="UV_DissectEnty.jobString"><s>Butchering.</s><r>Разделка мяса.</r></e>
+  <e k="D" t="RecipeDef" key="UV_DissectEnty.label"><s>dissect enty</s><r>анализировать объект</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_DarkInfusion.description"><s>Performs a psychic ritual that envelops all allied units within the shard's reach with void-walking capability, allowing safe operation in space for a brief period.</s><r>Выполняет психический ритуал, который окутывает все союзные отряды в пределах досягаемости осколка способностью ходить в пустоте, позволяя безопасно работать в космосе в течение короткого периода времени.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_DarkInfusion.generalRules.rulesStrings.0"><s>subject-&gt;Vacuum Survival Ritual</s><r>subject-&gt;Ритуал выживания в вакууме</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_DarkInfusion.generalRules.rulesStrings.1"><s>subject_story-&gt; Mastered an esoteric technique to drastically reduce oxygen need through deep meditation</s><r>subject_story-&gt; Освоил эзотерическую технику, позволяющую резко снизить потребность в кислороде посредством глубокой медитации.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_DarkInfusion.generalRules.rulesStrings.2"><s>subject_story-&gt; Joined an extreme cult that screened followers through vacuum chamber rituals</s><r>subject_story-&gt; Присоединился к экстремальному культу, который проверял последователей посредством ритуалов в вакуумной камере.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_DarkInfusion.generalRules.rulesStrings.3"><s>subject_story-&gt; Completed a ten-minute survival ritual in space vacuum without any protection</s><r>subject_story-&gt; Пройден десятиминутный ритуал выживания в космическом вакууме без какой-либо защиты.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_DarkInfusion.generalRules.rulesStrings.4"><s>subject_story-&gt; Bears ancient tattoos said to form an invisible protective layer in vacuum</s><r>subject_story-&gt; Говорят, что древние татуировки медведей образуют невидимый защитный слой в вакууме.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_DarkInfusion.generalRules.rulesStrings.5"><s>subject_gerund-&gt; Performing vacuum survival rituals</s><r>subject_gerund-&gt; Проведение ритуалов выживания в вакууме.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_DarkInfusion.generalRules.rulesStrings.6"><s>subject_gerund-&gt; Inscribing vacuum-protection runes on spacesuits</s><r>subject_gerund-&gt; Нанесение рун вакуумной защиты на скафандры</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_DarkInfusion.label"><s>dark infusion</s><r>темный настой</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_DistortedTerraformer.description"><s>Unlocks build a Biometal-powered Terraformer that generates breathable safe zones in space and significantly raises the region's minimum temperature.</s><r>Разблокирует создание терраформера на основе биометалла, который создает в космосе безопасные для дыхания зоны и значительно повышает минимальную температуру в регионе.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_DistortedTerraformer.generalRules.rulesStrings.0"><s>subject-&gt;Supernatural Terraforming</s><r>subject-&gt;Сверхъестественное терраформирование</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_DistortedTerraformer.generalRules.rulesStrings.1"><s>subject_story-&gt; Led eco-dome construction on a planet enveloped by lethal atmosphere</s><r>subject_story-&gt; Возглавил строительство эко-купола на планете, окутанной смертоносной атмосферой</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_DistortedTerraformer.generalRules.rulesStrings.2"><s>subject_story-&gt; Researched using native microbiota to rapidly purify toxic environments</s><r>subject_story-&gt; Исследовано использование нативной микробиоты для быстрой очистки токсичной среды.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_DistortedTerraformer.generalRules.rulesStrings.3"><s>subject_story-&gt; Accidentally turned a desert into a permanent fluorescent swamp due to failed weather control experiment</s><r>subject_story-&gt; Случайно превратил пустыню в постоянное флуоресцентное болото из-за неудачного эксперимента по контролю погоды.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_DistortedTerraformer.generalRules.rulesStrings.4"><s>subject_gerund-&gt; Reshaping local climate by channeling telluric energies</s><r>subject_gerund-&gt; Изменение местного климата путем направления теллурической энергии</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_DistortedTerraformer.label"><s>distorted terraformer</s><r>искаженный терраформер</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_EntityAnatomyTable.description"><s>Unlocks build a research bench for dissecting entity corpses to gain Anomaly research points. Yields no leather, meat, or filth.</s><r>Разблокирует постройку исследовательского стенда для рассечения трупов существ и получения очков исследования аномалий. Не дает кожи, мяса или грязи.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_EntityAnatomyTable.generalRules.rulesStrings.0"><s>subject-&gt;Entity Autopsy</s><r>subject-&gt;Вскрытие сущности</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_EntityAnatomyTable.generalRules.rulesStrings.1"><s>subject_story-&gt; Performed systematic biological dissection on a non-carbon-based extraterrestrial lifeform</s><r>subject_story-&gt; Проведено систематическое биологическое вскрытие внеземной формы жизни, не основанной на углероде.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_EntityAnatomyTable.generalRules.rulesStrings.2"><s>subject_story-&gt; Worked at a clandestine research institute dedicated to classifying unknown biological entities</s><r>subject_story-&gt; Работал в подпольном научно-исследовательском институте, занимающемся классификацией неизвестных биологических объектов.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_EntityAnatomyTable.generalRules.rulesStrings.3"><s>subject_story-&gt; Discovered and documented numerous abnormal organ functions from Void creatures</s><r>subject_story-&gt; Обнаружены и задокументированы многочисленные аномальные функции органов существ Бездны.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_EntityAnatomyTable.generalRules.rulesStrings.4"><s>subject_story-&gt; Caused partial reassembly of a dissected entity specimen on the operating table due to operational error, triggering a containment breach</s><r>subject_story-&gt; Вызвала частичную сборку рассеченного экземпляра существа на операционном столе из-за операционной ошибки, что привело к нарушению условий содержания.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_EntityAnatomyTable.generalRules.rulesStrings.5"><s>subject_gerund-&gt; Dissecting entities to study their biological characteristics</s><r>subject_gerund-&gt; Препарирование существ для изучения их биологических характеристик</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_EntityAnatomyTable.label"><s>entity anatomy table</s><r>таблица анатомии объекта</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_FleshSealing.description"><s>Perform a psychic ritual that seal the fleshmass nucleus within a specialized vessel that automatically purges newly formed warped flesh and converts it into stored chemfuel. Compatible with grav ship fuel systems.</s><r>Выполните психический ритуал, который запечатает ядро ​​плоти в специальный сосуд, который автоматически очищает новообразованную искажённую плоть и превращает её в запасённое химическое топливо. Совместим с топливными системами гравитационных кораблей.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_FleshSealing.generalRules.rulesStrings.0"><s>subject-&gt;Flesh Preservation</s><r>subject-&gt;Сохранение плоти</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_FleshSealing.generalRules.rulesStrings.1"><s>subject_story-&gt; Developed technology to preserve biological tissue permanently in stasis fields</s><r>subject_story-&gt; Разработана технология постоянного сохранения биологических тканей в стазисных полях.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_FleshSealing.generalRules.rulesStrings.2"><s>subject_story-&gt; Managed a gene bank storing rare alien biological specimens</s><r>subject_story-&gt; Управлял генным банком, хранящим редкие инопланетные биологические образцы.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_FleshSealing.generalRules.rulesStrings.3"><s>subject_story-&gt; Accidentally activated a preserved predator embryo causing severe consequences</s><r>subject_story-&gt; Случайно активировал сохранившийся эмбрион хищника, что привело к серьёзным последствиям.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_FleshSealing.generalRules.rulesStrings.4"><s>subject_gerund-&gt; Containing living flesh in stasis capsules</s><r>subject_gerund-&gt; Содержит живую плоть в стазис-капсулах.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_FleshSealing.label"><s>flesh sealing</s><r>уплотнение плоти</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_GoldCanary.description"><s>Using a Golden Cube, create an invulnerable legendary creature that provides a mood boost to the entire area.</s><r>Используя Золотой Куб, создайте неуязвимое легендарное существо, которое поднимет настроение всей области.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_GoldCanary.generalRules.rulesStrings.0"><s>subject-&gt;Immortal Gold Canary</s><r>subject-&gt;Бессмертная золотая канарейка</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_GoldCanary.generalRules.rulesStrings.1"><s>subject_story-&gt; Researched legendary golden mechanical lifeforms capable of rebirth from flames</s><r>subject_story-&gt; Исследованы легендарные золотые механические формы жизни, способные возрождаться из пламени.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_GoldCanary.generalRules.rulesStrings.2"><s>subject_story-&gt; Restored an eternal guardian device left by ancient civilization</s><r>subject_story-&gt; Восстановлено устройство вечного стража, оставленное древней цивилизацией.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_GoldCanary.generalRules.rulesStrings.3"><s>subject_story-&gt; Witnessed Gold Canary healing radiation wounds across entire area with its glow</s><r>subject_story-&gt; Стал свидетелем того, как Золотая Канарейка исцеляла радиационные раны по всей территории своим сиянием</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_GoldCanary.generalRules.rulesStrings.4"><s>subject_gerund-&gt; Seeking eternal blessings from the Gold Canary</s><r>subject_gerund-&gt; В поисках вечных благословений у Золотой Канарейки</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_GoldCanary.label"><s>gold canary</s><r>золотая канарейка</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_ParallelDimension.description"><s>Performs a psychic ritual that transports the entire region to a similar yet distinct world, repairing grav ship wrecks and resetting nearby landmarks.</s><r>Выполняет психический ритуал, который переносит весь регион в похожий, но отдельный мир, восстанавливая затонувшие гравитационные корабли и переустанавливая близлежащие ориентиры.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_ParallelDimension.generalRules.rulesStrings.0"><s>subject-&gt;Parallel Spacetime</s><r>subject-&gt;Параллельное пространство-время</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_ParallelDimension.generalRules.rulesStrings.1"><s>subject_story-&gt; Researched methods to briefly open rifts to resource-rich parallel dimensions</s><r>subject_story-&gt; Исследованы методы, позволяющие на короткое время открыть разломы в богатые ресурсами параллельные измерения.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_ParallelDimension.generalRules.rulesStrings.2"><s>subject_story-&gt; Briefly communicated with alternate-timeline self</s><r>subject_story-&gt; Короткое общение с самим собой из альтернативной временной шкалы.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_ParallelDimension.generalRules.rulesStrings.3"><s>subject_story-&gt; Caused partial overlap of two similar but hostile timelines due to experiment accident</s><r>subject_story-&gt; Вызвало частичное перекрытие двух похожих, но враждебных временных линий из-за аварии в ходе эксперимента.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_ParallelDimension.generalRules.rulesStrings.4"><s>subject_gerund-&gt; Scouting parallel timelines for rare resources</s><r>subject_gerund-&gt; Поиск редких ресурсов в параллельных временных рамках</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_ParallelDimension.label"><s>parallel dimension</s><r>параллельное измерение</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_RevealInformation.description"><s>Performs a psychic ritual to extract valuable information from the Void, revealing a quest location</s><r>Выполняет экстрасенсорный ритуал для извлечения ценной информации из Пустоты и открытия места выполнения задания.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_RevealInformation.generalRules.rulesStrings.0"><s>subject-&gt;Void Message</s><r>subject-&gt;Пустое сообщение</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_RevealInformation.generalRules.rulesStrings.1"><s>subject_story-&gt; Deciphered non-Euclidean geometric signals from deep Void</s><r>subject_story-&gt; Расшифрованы неевклидовы геометрические сигналы из глубокой Пустоты.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_RevealInformation.generalRules.rulesStrings.2"><s>subject_story-&gt; Served as communications officer monitoring deep space anomalous radiation signals</s><r>subject_story-&gt; Служил офицером связи, отслеживая сигналы аномального излучения в дальнем космосе.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_RevealInformation.generalRules.rulesStrings.3"><s>subject_story-&gt; Received warning message from future self but couldn't fully comprehend it</s><r>subject_story-&gt; Получил предупреждающее сообщение от будущего себя, но не смог полностью его понять.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_RevealInformation.generalRules.rulesStrings.4"><s>subject_gerund-&gt; Decrypting encoded messages from the Void</s><r>subject_gerund-&gt; Расшифровка закодированных сообщений из Бездны</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_RevealInformation.label"><s>reveal information</s><r>раскрывать информацию</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_ShipCooldown.description"><s>Performs a psychic ritual that rapidly cools the grav ship's engine and increases the maximum range of its next voyage</s><r>Выполняет психический ритуал, который быстро охлаждает двигатель гравитационного корабля и увеличивает максимальную дальность его следующего путешествия.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_ShipCooldown.generalRules.rulesStrings.0"><s>subject-&gt;Gravship Cooling Ritual</s><r>subject-&gt;Ритуал охлаждения Гравшипа</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_ShipCooldown.generalRules.rulesStrings.1"><s>subject_story-&gt; Studied ancient chanting methods said to channel heat into the Void through sonic waves</s><r>subject_story-&gt; Изучил древние методы пения, которые, как говорят, направляют тепло в Пустоту посредством звуковых волн.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_ShipCooldown.generalRules.rulesStrings.2"><s>subject_story-&gt; Discovered ritual patterns for &quot;cooling&quot; metals in a lost manuscript</s><r>subject_story-&gt; В утерянной рукописи обнаружены ритуальные схемы «охлаждения» металлов</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_ShipCooldown.generalRules.rulesStrings.3"><s>subject_story-&gt; Witnessed an old technician calm an overheating engine through chants and complex gestures</s><r>subject_story-&gt; Был свидетелем того, как старый техник успокоил перегретый двигатель с помощью песнопений и сложных жестов.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_ShipCooldown.generalRules.rulesStrings.4"><s>subject_story-&gt; A ritual failure caused a ship engine to become permanently locked due to over-cooling</s><r>subject_story-&gt; Ритуальный сбой привел к тому, что двигатель корабля навсегда заблокировался из-за переохлаждения.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_ShipCooldown.generalRules.rulesStrings.5"><s>subject_gerund-&gt; Presiding over starship cooling rituals</s><r>subject_gerund-&gt; Председательство над ритуалами охлаждения звездолета.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_ShipCooldown.generalRules.rulesStrings.6"><s>subject_gerund-&gt; Chilling critical components by chanting cooling hymns</s><r>subject_gerund-&gt; Охлаждение критически важных компонентов путем пения охлаждающих гимнов</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_ShipCooldown.label"><s>ship cooldown</s><r>перезарядка корабля</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_TwistedReconstruction.description"><s>Performs a psychic ritual that warps and mends the target's equipment using Void energy.</s><r>Выполняет психический ритуал, который искажает и чинит снаряжение цели, используя энергию Бездны.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_TwistedReconstruction.generalRules.rulesStrings.0"><s>subject-&gt;Gear Refabrication</s><r>subject-&gt;Восстановление шестерен</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_TwistedReconstruction.generalRules.rulesStrings.1"><s>subject_story-&gt; Operated device capable of decomposing and reassembling molecular structures</s><r>subject_story-&gt; Управляемое устройство, способное разлагать и собирать молекулярные структуры.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_TwistedReconstruction.generalRules.rulesStrings.2"><s>subject_story-&gt; Successfully refabricated scrap metal into functional power armor</s><r>subject_story-&gt; Успешно переработан металлолом в функциональную силовую броню.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_TwistedReconstruction.generalRules.rulesStrings.3"><s>subject_story-&gt; Fused a weapon with user's arm during refabrication experiment</s><r>subject_story-&gt; Соединил оружие с рукой пользователя во время эксперимента по восстановлению.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_TwistedReconstruction.generalRules.rulesStrings.4"><s>subject_gerund-&gt; Refabricating useless equipment into useful tools</s><r>subject_gerund-&gt; Переделка бесполезного оборудования в полезные инструменты</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_TwistedReconstruction.label"><s>twisted reconstruction</s><r>запутанная реконструкция</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_VoidFieldExtender.description"><s>Unlocks build a field extender that uses shard to replace the gravcore.</s><r>Разблокирует создание расширителя поля, который использует осколок для замены гравитационного ядра.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_VoidFieldExtender.generalRules.rulesStrings.0"><s>subject-&gt;Void Field Extender</s><r>subject-&gt;Расширитель пустотного поля</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_VoidFieldExtender.generalRules.rulesStrings.1"><s>subject_story-&gt; Participated in experimental projects using Void energy to stabilize local spacetime structures</s><r>subject_story-&gt; Участвовал в экспериментальных проектах по использованию энергии Пустоты для стабилизации локальных пространственно-временных структур.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_VoidFieldExtender.generalRules.rulesStrings.2"><s>subject_story-&gt; Maintained a remote matter transmission array based on grav engine principles</s><r>subject_story-&gt; Поддерживает систему передачи удаленной материи, основанную на принципах гравитационного двигателя.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_VoidFieldExtender.generalRules.rulesStrings.3"><s>subject_story-&gt; Researched methods to expand internal volume of enclosed spaces through gravitational field distortion</s><r>subject_story-&gt; Исследованы методы расширения внутреннего объёма закрытых помещений за счёт искажения гравитационного поля</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_VoidFieldExtender.generalRules.rulesStrings.4"><s>subject_story-&gt; Briefly &quot;stretched&quot; a forest area into another dimension during prototype testing</s><r>subject_story-&gt; Во время испытаний прототипа ненадолго «растянул» лесной участок в другое измерение.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_VoidFieldExtender.generalRules.rulesStrings.5"><s>subject_gerund-&gt; Calibrating field effect parameters of Void Field Extenders</s><r>subject_gerund-&gt; Калибровка параметров полевых эффектов расширителей поля пустоты</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_VoidFieldExtender.generalRules.rulesStrings.6"><s>subject_gerund-&gt; Deploying Void Field Extenders to increase grav ship payload capacity</s><r>subject_gerund-&gt; Развертывание расширителей пустотного поля для увеличения грузоподъемности гравитационного корабля</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_VoidFieldExtender.label"><s>void field extender</s><r>расширитель пустого поля</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_VoidThruster.description"><s>Unlocks archotech structures forged from Monolith Fragments, designed for the complete containment of entities and space travel.</s><r>Открывает архотехнические конструкции, выкованные из фрагментов монолита, предназначенные для полного сдерживания сущностей и космических путешествий.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_VoidThruster.generalRules.rulesStrings.0"><s>subject-&gt;Void Thruster</s><r>subject-&gt;Пустотный двигатель</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_VoidThruster.generalRules.rulesStrings.1"><s>subject_story-&gt; Tested experimental engines generating thrust by tearing spacetime</s><r>subject_story-&gt; Испытаны экспериментальные двигатели, генерирующие тягу, разрывая пространство-время.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_VoidThruster.generalRules.rulesStrings.2"><s>subject_story-&gt; Reverse-engineered FTL technology from crashed alien spacecraft wreckage</s><r>subject_story-&gt; Реверс-инжиниринг сверхсветовой технологии на основе обломков разбившегося космического корабля пришельцев</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_VoidThruster.generalRules.rulesStrings.3"><s>subject_story-&gt; Briefly stranded a ship and its crew in timeless Void during jump test</s><r>subject_story-&gt; Ненадолго застрял корабль и его команда во вневременной Пустоте во время теста прыжка.</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_VoidThruster.generalRules.rulesStrings.4"><s>subject_gerund-&gt; Installing Void Thrusters on grav ships</s><r>subject_gerund-&gt; Установка двигателей Бездны на гравикорабли</r></e>
+  <e k="D" t="ResearchProjectDef" key="UV_Project_VoidThruster.label"><s>void monolithtech</s><r>пустота монолиттех</r></e>
+  <e k="D" t="ResearchTabDef" key="UV_Anomaly.generalDescription"><s>Unlock void-related technologies by studying unnatural entities.
+
+You can have both a basic and an advanced project active at the same time. If no advanced project is active, advanced research will contribute to a basic project instead.</s><r>Разблокируйте технологии, связанные с Бездной, изучая неестественные сущности.
+
+Вы можете активировать как базовый, так и продвинутый проект одновременно. Если ни один продвинутый проект не активен, вместо этого передовые исследования будут способствовать базовому проекту.</r></e>
+  <e k="D" t="ResearchTabDef" key="UV_Anomaly.generalTitle"><s>Anomaly research projects</s><r>Проекты исследования аномалий</r></e>
+  <e k="D" t="ResearchTabDef" key="UV_Anomaly.label"><s>void anomaly</s><r>пустотная аномалия</r></e>
+  <e k="D" t="ScenarioDef" key="UV_Start.description"><s>According to the tome you purchased at a high price from space pirates, your expedition has finally borne fruit: an ancient void monolith on a desolate asteroid. As you survey the structure from orbit, the entire asteroid begins to tremble violently, and an unnatural pit gate tears open across its surface. Your ship suddenly loses control and is forced into an emergency crash-landing—the impact rips through the hull, and worse, the engine core has melted down from overload and will take months to cool.
+
+The scholar accompanying you is warped grotesquely under the pressure of the void pulse, turning into a bloodthirsty ghoul. And within that bottomless pit gate, some inhuman, pulsating abomination of flesh is stirring. Most disturbing of all, the void monolith emits an ominous, unceasing drone—one that can no longer be stopped.</s><r>Согласно книге, которую вы купили по высокой цене у космических пиратов, ваша экспедиция наконец-то принесла плоды: древний пустотный монолит на пустынном астероиде. Когда вы наблюдаете за структурой с орбиты, весь астероид начинает сильно дрожать, и на его поверхности открываются неестественные ворота ямы. Ваш корабль внезапно теряет управление и вынужден совершить аварийную посадку — удар пробивает корпус, и, что еще хуже, ядро ​​двигателя расплавилось от перегрузки, и на его охлаждение потребуются месяцы.
+
+Сопровождающий вас учёный гротескно искажается под давлением пустотного импульса, превращаясь в кровожадного гуля. И внутри этих ворот бездонной ямы шевелится какая-то нечеловеческая, пульсирующая мерзость плоти. Больше всего тревожит то, что пустотный монолит издает зловещий, непрекращающийся гул, который уже невозможно остановить.</r></e>
+  <e k="D" t="ScenarioDef" key="UV_Start.label"><s>Deep-Space Anomaly</s><r>Глубокая космическая аномалия</r></e>
+  <e k="D" t="ScenarioDef" key="UV_Start.scenario.description"><s>According to the tome you purchased at a high price from space pirates, your expedition has finally borne fruit: an ancient void monolith on a desolate asteroid. As you survey the structure from orbit, the entire asteroid begins to tremble violently, and an unnatural pit gate tears open across its surface. Your ship suddenly loses control and is forced into an emergency crash-landing—the impact rips through the hull, and worse, the engine core has melted down from overload and will take months to cool.
+
+The scholar accompanying you is warped grotesquely under the pressure of the void pulse, turning into a bloodthirsty ghoul. And within that bottomless pit gate, some inhuman, pulsating abomination of flesh is stirring. Most disturbing of all, the void monolith emits an ominous, unceasing drone—one that can no longer be stopped.</s><r>Согласно книге, которую вы купили по высокой цене у космических пиратов, ваша экспедиция наконец-то принесла плоды: древний пустотный монолит на пустынном астероиде. Когда вы наблюдаете за структурой с орбиты, весь астероид начинает сильно дрожать, и на его поверхности открываются неестественные ворота ямы. Ваш корабль внезапно теряет управление и вынужден совершить аварийную посадку — удар пробивает корпус, и, что еще хуже, ядро ​​двигателя расплавилось от перегрузки, и на его охлаждение потребуются месяцы.
+
+Сопровождающий вас учёный гротескно искажается под давлением пустотного импульса, превращаясь в кровожадного гуля. И внутри этих ворот бездонной ямы шевелится какая-то нечеловеческая, пульсирующая мерзость плоти. Больше всего тревожит то, что пустотный монолит издает зловещий, непрекращающийся гул, который уже невозможно остановить.</r></e>
+  <e k="D" t="ScenarioDef" key="UV_Start.scenario.name"><s>Deep-Space Anomaly</s><r>Глубокая космическая аномалия</r></e>
+  <e k="D" t="ScenarioDef" key="UV_Start.scenario.parts.2.text"><s>According to the tome you purchased at a high price from space pirates, your expedition has finally borne fruit: an ancient void monolith on a desolate asteroid. As you survey the structure from orbit, the entire asteroid begins to tremble violently, and an unnatural pit gate tears open across its surface. Your ship suddenly loses control and is forced into an emergency crash-landing—the impact rips through the hull, and worse, the engine core has melted down from overload and will take months to cool.
+The scholar accompanying you is warped grotesquely under the pressure of the void pulse, turning into a bloodthirsty ghoul. And within that bottomless pit gate, some inhuman, pulsating abomination of flesh is stirring. Most disturbing of all, the void monolith emits an ominous, unceasing drone—one that can no longer be stopped.</s><r>Согласно книге, которую вы купили по высокой цене у космических пиратов, ваша экспедиция наконец-то принесла плоды: древний пустотный монолит на пустынном астероиде. Когда вы наблюдаете за структурой с орбиты, весь астероид начинает сильно дрожать, и на его поверхности открываются неестественные ворота ямы. Ваш корабль внезапно теряет управление и вынужден совершить вынужденную аварийную посадку — удар пробивает корпус, и, что еще хуже, ядро ​​двигателя расплавилось от перегрузки, и на его охлаждение потребуются месяцы. 
+ Сопровождающий вас ученый гротескно искажается под давлением пустотного импульса, превращаясь в кровожадного гуля. И внутри этих ворот бездонной ямы шевелится какая-то нечеловеческая, пульсирующая мерзость плоти. Больше всего тревожит то, что пустотный монолит издает зловещий, непрекращающийся гул, который уже невозможно остановить.</r></e>
+  <e k="D" t="ScenarioDef" key="UV_Start.scenario.summary"><s>An explorer and a ghoul set out into space to investigate an ancient monolith.</s><r>Исследователь и гуль отправились в космос, чтобы исследовать древний монолит.</r></e>
+  <e k="D" t="ScenPartDef" key="UV_DarkPart.label"><s>dark</s><r>темный</r></e>
+  <e k="D" t="ThingDef" key="UV_AncientHatch.comps.0.hackedMessage"><s>{HACKER_labelShort} has finished hacking {SUBJECT_labelNoParenthesisDef}.</s><r>{HACKER_labelShort} завершил взлом {SUBJECT_labelNoParenthesisDef}.</r></e>
+  <e k="D" t="ThingDef" key="UV_AncientHatch.comps.0.notHackedInspectString"><s>Hack to open.</s><r>Взломать, чтобы открыть.</r></e>
+  <e k="D" t="ThingDef" key="UV_AncientHatch.comps.1.cannotEnterLabel"><s>Sealed</s><r>Запечатанный</r></e>
+  <e k="D" t="ThingDef" key="UV_AncientHatch.comps.1.cannotSealLabel"><s>Cannot seal</s><r>Невозможно запечатать</r></e>
+  <e k="D" t="ThingDef" key="UV_AncientHatch.comps.1.confirmSealText"><s>Sealing the ancient stockpile entrance is permanent. Anything or anyone left below will be lost forever.{0}
+
+Are you sure you want to continue?</s><r>Вход в древние склады запечатан навсегда. Все или кто-либо, оставшийся внизу, будет потерян навсегда.{0}
+
+Вы уверены, что хотите продолжить?</r></e>
+  <e k="D" t="ThingDef" key="UV_AncientHatch.comps.1.sealCommandDesc"><s>Choose a colonist to permanently seal the entrance. Anything or anyone left below will be lost forever.</s><r>Выберите колониста, который навсегда закроет вход. Все или кто-либо, оставшийся внизу, будет потерян навсегда.</r></e>
+  <e k="D" t="ThingDef" key="UV_AncientHatch.comps.1.sealCommandLabel"><s>Seal entrance</s><r>Загерметизировать вход</r></e>
+  <e k="D" t="ThingDef" key="UV_AncientHatch.comps.1.sealedInspectString"><s>Permanently sealed.</s><r>Перманентно запечатан.</r></e>
+  <e k="D" t="ThingDef" key="UV_AncientHatch.description"><s>The entrance to a long-abandoned subterranean facility. Hack it to open the hatch.</s><r>Вход в давно заброшенное подземное сооружение. Взломайте его, чтобы открыть люк.</r></e>
+  <e k="D" t="ThingDef" key="UV_AncientHatch.label"><s>ancient stockpile entrance</s><r>вход в древний склад</r></e>
+  <e k="D" t="ThingDef" key="UV_BioferriteSlagBox.description"><s>A box filled with valuable bioferrite. Some are intact and useable.</s><r>Ящик, наполненный ценным биоферритом. Некоторые из них целы и пригодны к использованию.</r></e>
+  <e k="D" t="ThingDef" key="UV_BioferriteSlagBox.label"><s>bioferrite slag box</s><r>ударный ящик из биоферрита</r></e>
+  <e k="D" t="ThingDef" key="UV_BiomutationTerraformer.description"><s>A scavenged archotech shard mounted in an electrical stimulation frame. The device creates a frenzied psychic vibration in the local area which stimulates everyone nearby to move and work faster. However, any mental breaks they have are guaranteed to be violent.</s><r>Собранный осколок архотеха, установленный в рамке электростимуляции. Устройство создает бешеную психическую вибрацию в локальной области, которая стимулирует всех, кто находится поблизости, двигаться и работать быстрее. Однако любые психические срывы у них гарантированно будут жестокими.</r></e>
+  <e k="D" t="ThingDef" key="UV_BiomutationTerraformer.label"><s>biomutation terraformer</s><r>биомутационный терраформер</r></e>
+  <e k="D" t="ThingDef" key="UV_DreadmeldPitGate.description"><s>A massive, foreboding hole that connects the surface with a dark network of underground caves. It is possible to climb down into the caverns below.</s><r>Массивная, зловещая дыра, соединяющая поверхность с темной сетью подземных пещер. Можно спуститься в пещеры внизу.</r></e>
+  <e k="D" t="ThingDef" key="UV_DreadmeldPitGate.label"><s>pit gate</s><r>ворота ямы</r></e>
+  <e k="D" t="ThingDef" key="UV_DreadmeldPitGate.portal.enteredLetterLabel"><s>Fleshbeast lair</s><r>Логово плотского зверя</r></e>
+  <e k="D" t="ThingDef" key="UV_DreadmeldPitGate.portal.enteredLetterText"><s>In the depths of the pit gate, you have discovered a massive cavern system infested with fleshbeasts.
+
+The cavern system is clogged with masses of living flesh that block your progress. Attack the fleshmass to destroy it.
+
+The entire cavern system seems unstable. If you find what lies behind the fleshmass, you may be able to collapse the tunnels and close the pit gate.</s><r>В глубине ворот ямы вы обнаружили огромную систему пещер, кишащую тварями из плоти.
+
+Система пещер забита массами живой плоти, которые блокируют ваше продвижение. Атакуйте массу плоти, чтобы уничтожить ее.
+
+Вся система пещер кажется нестабильной. Если вы найдете то, что скрывается за массой плоти, возможно, вам удастся обрушить туннели и закрыть ворота ямы.</r></e>
+  <e k="D" t="ThingDef" key="UV_FleshChemfuelTank.description"><s>A fuel storage tank for grav ship thrusters. Equipped with an internal flesh-culturing apparatus that continuously generates chemfuel.</s><r>Резервуар для хранения топлива для гравитационных двигателей кораблей. Оснащен внутренним аппаратом для культивирования плоти, который непрерывно генерирует химическое топливо.</r></e>
+  <e k="D" t="ThingDef" key="UV_FleshChemfuelTank.label"><s>small flesh chemfuel tank</s><r>маленький бак для химического топлива из плоти</r></e>
+  <e k="D" t="ThingDef" key="UV_FleshLargeChemfuelTank.description"><s>A large-scale fuel storage tank for grav ship thrusters. Features an integrated fleshmass nucleus containment housing that enables continuous chemfuel production.</s><r>Большой резервуар для хранения топлива для гравитационных двигателей кораблей. Имеет интегрированный корпус, содержащий ядро ​​плоти, который обеспечивает непрерывное производство химического топлива.</r></e>
+  <e k="D" t="ThingDef" key="UV_FleshLargeChemfuelTank.label"><s>large flesh chemfuel tank</s><r>большой бак для химического топлива из плоти</r></e>
+  <e k="D" t="ThingDef" key="UV_GoldenCanary.description"><s>A golden avian automaton, brought to life through an arcane ritual. It moves with an uncanny, fluid grace, its metallic feathers catching the light with a warm, soothing glow. The creature emits a constant, low hum that brings a strange sense of calm to all who hear it. It is immune to injury, disease, and age, serving as a temporary, serene guardian until its borrowed time expires.</s><r>Золотой птичий автомат, оживший посредством тайного ритуала. Он движется со сверхъестественной, плавной грацией, его металлические перья отражают свет теплым, успокаивающим светом. Существо издает постоянный низкий гул, который вызывает у всех, кто его слышит, странное чувство спокойствия. Он невосприимчив к травмам, болезням и старению и служит временным и безмятежным опекуном, пока не истечет отведенное ему время.</r></e>
+  <e k="D" t="ThingDef" key="UV_GoldenCanary.label"><s>golden canary</s><r>золотая канарейка</r></e>
+  <e k="D" t="ThingDef" key="UV_GoldenCanary.tools.0.label"><s>claws</s><r>когти</r></e>
+  <e k="D" t="ThingDef" key="UV_GoldenCanary.tools.1.label"><s>beak</s><r>клюв</r></e>
+  <e k="D" t="ThingDef" key="UV_GoldenCanary.tools.2.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="UV_GoldenPrototype.description"><s>A delicate, small sculpture made of gold, depicting a golden bird with its wings unfurled, breathtakingly lifelike. If you draw closer, you can almost sense a faint, supernatural hum.</s><r>Небольшая изящная скульптура из золота, изображающая золотую птицу с развернутыми крыльями, невероятно реалистичную. Если подойти ближе, то можно почти почувствовать слабый сверхъестественный гул.</r></e>
+  <e k="D" t="ThingDef" key="UV_GoldenPrototype.label"><s>gold prototype</s><r>золотой прототип</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Abductor.comps.5.studyNotes.0.label"><s>Obelisk study progress</s><r>Ход исследования обелиска</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Abductor.comps.5.studyNotes.0.text"><s>Investigation of the obelisk has revealed some information. It is an archotechnological device that seems to interact with organic creatures at a distance. It is probably a piece of a much larger archotech structure that was destroyed or broken apart long ago. The machinery at its core is inhumanly complex and frighteningly powerful. Its purpose and method of action remain totally mysterious.
+
+If not suppressed, its activity level will increase over time. You can't tell what will happen when the device fully activates.</s><r>Исследование обелиска позволило получить некоторую информацию. Это архотехнологическое устройство, которое, кажется, взаимодействует с органическими существами на расстоянии. Вероятно, это часть гораздо более крупной архотехнической структуры, которая была разрушена или разобрана давным-давно. Механизм, лежащий в его основе, нечеловечески сложен и пугающе мощный. Его цель и метод действия остаются совершенно загадочными.
+
+Если его не подавить, уровень его активности со временем увеличится. Вы не можете сказать, что произойдет, когда устройство полностью активируется.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Abductor.comps.5.studyNotes.1.label"><s>Obelisk study complete</s><r>Исследование обелиска завершено</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Abductor.comps.5.studyNotes.1.text"><s>You've completed your investigation of the obelisk. It creates a bridge to a point in a spacetime void separated from ours along usually inaccessible spatial dimensions.
+
+The void plane is filled with a gray labyrinthine structure of astronomical scale. Someone trapped there could return by finding the obelisk's mirror version inside the gray rooms and hallways.
+
+The gray structures seem to have been created by an archotech superintelligence, but there's no way to know their purpose, age, or spatial limits.
+
+The obelisk is damaged and unstable, so its energy level rises unless suppressed. If it were to fully activate, it could begin to abduct individuals at random.
+
+You can now intentionally provoke a response from the warped obelisk.</s><r>Вы завершили исследование обелиска. Он создает мост к точке в пространственно-временной пустоте, отделенной от нашей по обычно недоступным пространственным измерениям.
+
+Плоскость пустоты заполнена серой лабиринтной структурой астрономического масштаба. Кто-то, оказавшийся там в ловушке, может вернуться, найдя зеркальную версию обелиска в серых комнатах и ​​коридорах.
+
+Серые структуры, похоже, были созданы архотехническим сверхразумом, но невозможно узнать их назначение, возраст или пространственные ограничения.
+
+Обелиск поврежден и нестабильен, поэтому его уровень энергии повышается, если его не подавить. Если бы он полностью активировался, он мог бы начать случайным образом похищать людей.
+
+Теперь вы можете намеренно спровоцировать реакцию искаженного обелиска.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Abductor.comps.6.activateDescString"><s>Transport a willing person to a distant spatial dimension. It may be difficult for them to return.</s><r>Перенесите желающего в дальнее пространственное измерение. Им может быть трудно вернуться.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Abductor.comps.6.activateLabelString"><s>Teleport...</s><r>Телепортироваться...</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Abductor.comps.6.activatingString"><s>triggering obelisk teleportation: {1}s</s><r>запуск телепортации обелиска: {1}s</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Abductor.comps.6.activatingStringPending"><s>triggering obelisk teleportation</s><r>запуск телепортации обелиска</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Abductor.comps.6.guiLabelString"><s>Choose who should do this</s><r>Выберите, кто должен это сделать</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Abductor.comps.6.jobString"><s>Trigger teleportation</s><r>Запустить телепортацию</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Abductor.comps.6.messageCompletedString"><s>{PAWN_nameDef} has successfully triggered obelisk teleportation.</s><r>{PAWN_nameDef} успешно активировал телепортацию обелиска.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Abductor.comps.6.messageCooldownEnded"><s>The warped obelisk is ready to use again.</s><r>Искаженный обелиск снова готов к использованию.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Abductor.comps.6.onCooldownString"><s>Teleportation cooldown</s><r>Время восстановления телепортации</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Abductor.description"><s>A large metallic core that emanates a putrid psychic energy. The core hums ominously and appears to be increasing in activity. It's not clear what will happen when it reaches its full capacity.
+
+You can send colonists to suppress the obelisk to prevent it from activating. You can also mark the obelisk for study to try to learn its purpose and perhaps make use of it.
+
+You can attack the obelisk to destroy it, but doing so may unleash unnatural and dangerous phenomena.</s><r>Большое металлическое ядро, излучающее гнилую психическую энергию. Ядро зловеще гудит и, кажется, усиливает активность. Непонятно, что произойдет, когда он достигнет своей полной мощности.
+
+Вы можете послать колонистов подавить обелиск, чтобы предотвратить его активацию. Вы также можете пометить обелиск для изучения, чтобы попытаться узнать его предназначение и, возможно, использовать его.
+
+Вы можете атаковать обелиск, чтобы уничтожить его, но это может вызвать неестественные и опасные явления.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Abductor.label"><s>warped obelisk</s><r>искривленный обелиск</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Blood.comps.5.studyNotes.0.label"><s>Obelisk study progress</s><r>Ход исследования обелиска</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Blood.comps.5.studyNotes.0.text"><s>Investigation of the obelisk has revealed some information. It is an archotechnological device that seems to interact with organic creatures at a distance. It is probably a piece of a much larger archotech structure that was destroyed or broken apart long ago. The machinery at its core is inhumanly complex and frighteningly powerful. Its purpose and method of action remain totally mysterious.
+
+If not suppressed, its activity level will increase over time. You can't tell what will happen when the device fully activates.</s><r>Исследование обелиска позволило получить некоторую информацию. Это архотехнологическое устройство, которое, кажется, взаимодействует с органическими существами на расстоянии. Вероятно, это часть гораздо более крупной архотехнической структуры, которая была разрушена или разобрана давным-давно. Механизм, лежащий в его основе, нечеловечески сложен и пугающе мощный. Его цель и метод действия остаются совершенно загадочными.
+
+Если его не подавить, уровень его активности со временем увеличится. Вы не можете сказать, что произойдет, когда устройство полностью активируется.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Blood.comps.5.studyNotes.1.label"><s>Obelisk study complete</s><r>Исследование обелиска завершено</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Blood.comps.5.studyNotes.1.text"><s>You have completed your investigation of the obelisk. It can emit a powerful psychic pulse and trigger Unnatural Darkness.
+You can manually trigger the obelisk, which will significantly weaken the pulse's intensity, allowing your colonists to safely operate within the darkness.</s><r>Вы завершили исследование обелиска. Он может испускать мощный психический импульс и вызывать Неестественную тьму.
+Вы можете активировать обелиск вручную, что значительно ослабит интенсивность импульса, позволяя вашим колонистам безопасно действовать в темноте.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Blood.comps.6.activateDescString"><s>Provoke the obelisk to trigger Unnatural Darkness in an Blood rain</s><r>Спровоцируйте обелиск, чтобы активировать Неестественную тьму под кровавым дождем.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Blood.comps.6.activateLabelString"><s>BloodRain...</s><r>Кровавый дождь...</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Blood.comps.6.activatingString"><s>triggering obelisk blood rain: {1}s</s><r>запуск кровавого дождя обелиска: {1}s</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Blood.comps.6.activatingStringPending"><s>triggering obelisk blood rain</s><r>вызвать кровавый дождь обелиска</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Blood.comps.6.guiLabelString"><s>Choose who should do this</s><r>Выберите, кто должен это сделать</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Blood.comps.6.jobString"><s>Trigger blood rain</s><r>Вызвать кровавый дождь</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Blood.comps.6.messageCompletedString"><s>{PAWN_nameDef} has successfully triggered blood rain.</s><r>{PAWN_nameDef} успешно вызвал кровавый дождь.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Blood.comps.6.messageCooldownEnded"><s>The ripped obelisk is ready to use again.</s><r>Разорванный обелиск снова готов к использованию.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Blood.comps.6.onCooldownString"><s>Blood rain cooldown</s><r>Время восстановления кровавого дождя</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Blood.description"><s>A large metallic core that emanates a putrid psychic energy. The core hums ominously and appears to be increasing in activity. It's not clear what will happen when it reaches its full capacity.
+
+You can send colonists to suppress the obelisk to prevent it from activating. You can also mark the obelisk for study to try to learn its purpose and perhaps make use of it.
+
+You can attack the obelisk to destroy it, but doing so may unleash unnatural and dangerous phenomena.</s><r>Большое металлическое ядро, излучающее гнилую психическую энергию. Ядро зловеще гудит и, кажется, усиливает активность. Непонятно, что произойдет, когда он достигнет своей полной мощности.
+
+Вы можете послать колонистов подавить обелиск, чтобы предотвратить его активацию. Вы также можете пометить обелиск для изучения, чтобы попытаться узнать его предназначение и, возможно, использовать его.
+
+Вы можете атаковать обелиск, чтобы уничтожить его, но это может вызвать неестественные и опасные явления.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Blood.label"><s>ripped obelisk</s><r>разорванный обелиск</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Duplicator.comps.5.studyNotes.0.label"><s>Obelisk study progress</s><r>Ход исследования обелиска</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Duplicator.comps.5.studyNotes.0.text"><s>Investigation of the obelisk has revealed some information. It is an archotechnological device that seems to interact with organic creatures at a distance. It is probably a piece of a much larger archotech structure that was destroyed or broken apart long ago. The machinery at its core is inhumanly complex and frighteningly powerful. Its purpose and method of action remain totally mysterious.
+
+If not suppressed, its activity level will increase over time. You can't tell what will happen when the device fully activates.</s><r>Исследование обелиска позволило получить некоторую информацию. Это архотехнологическое устройство, которое, кажется, взаимодействует с органическими существами на расстоянии. Вероятно, это часть гораздо более крупной архотехнической структуры, которая была разрушена или разобрана давным-давно. Механизм, лежащий в его основе, нечеловечески сложен и пугающе мощный. Его цель и метод действия остаются совершенно загадочными.
+
+Если его не подавить, уровень его активности со временем увеличится. Вы не можете сказать, что произойдет, когда устройство полностью активируется.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Duplicator.comps.5.studyNotes.1.label"><s>Obelisk study progress</s><r>Ход исследования обелиска</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Duplicator.comps.5.studyNotes.1.text"><s>You've learned more about the obelisk. The device has the power to duplicate intelligent creatures. In theory, it can produce duplicates without limit.
+
+The obelisk appears damaged and unstable, so its energy level rises unless suppressed. If it were to fully activate, it would go into a duplication loop, chaotically pumping out a large number of flawed human duplicates.
+
+{PAWN_nameDef} thinks that it may be possible to safely shut down the obelisk but this will need significantly more study.
+
+You can now intentionally provoke a response from the corrupted obelisk.</s><r>Вы узнали больше об обелиске. Устройство способно дублировать разумных существ. Теоретически он может создавать дубликаты без ограничений.
+
+Обелиск выглядит поврежденным и нестабильным, поэтому его уровень энергии повышается, если его не подавить. Если бы он полностью активировался, он вошел бы в цикл дублирования, хаотично выкачивая большое количество дефектных человеческих дубликатов.
+
+{PAWN_nameDef} думает, что безопасно отключить обелиск возможно, но это потребует значительно большего изучения.
+
+Теперь вы можете намеренно спровоцировать реакцию поврежденного обелиска.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Duplicator.comps.5.studyNotes.2.label"><s>Obelisk study complete</s><r>Исследование обелиска завершено</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Duplicator.comps.5.studyNotes.2.text"><s>{PAWN_nameDef} has completed {PAWN_possessive} investigation of the corrupted obelisk. {PAWN_pronoun} has discovered a method for safely deactivating the obelisk using shards of archotechnology.
+
+You can no longer study the obelisk after deactivating it.</s><r>{PAWN_nameDef} завершил {PAWN_possessive} расследование испорченного обелиска. {PAWN_pronoun} обнаружил метод безопасной деактивации обелиска с помощью осколков архотехнологии.
+
+Вы больше не сможете изучать обелиск после его деактивации.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Duplicator.comps.6.activateDescString"><s>Provoke the obelisk into duplicating a willing person.</s><r>Спровоцируйте обелиск на дублирование желающего человека.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Duplicator.comps.6.activateLabelString"><s>Duplicate...</s><r>Дублировать...</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Duplicator.comps.6.activatingString"><s>triggering obelisk duplication: {1}s</s><r>запуск дублирования обелиска: {1}s</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Duplicator.comps.6.activatingStringPending"><s>triggering obelisk duplication</s><r>запуск дублирования обелиска</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Duplicator.comps.6.guiLabelString"><s>Choose who should do this</s><r>Выберите, кто должен это сделать</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Duplicator.comps.6.jobString"><s>Trigger duplication</s><r>Дублирование триггера</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Duplicator.comps.6.messageCooldownEnded"><s>The corrupted obelisk is ready to use again.</s><r>Поврежденный обелиск снова готов к использованию.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Duplicator.comps.6.onCooldownString"><s>Duplication cooldown</s><r>Время восстановления дублирования</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Duplicator.comps.7.activateDescString"><s>Permanently and safely disable the corrupted obelisk. This will prevent it from activating, and from being studied further.
+
+Requires 2 shards.</s><r>Навсегда и безопасно отключите поврежденный обелиск. Это предотвратит его активацию и дальнейшее изучение.
+
+Требуется 2 осколка.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Duplicator.comps.7.activateLabelString"><s>Deactivate...</s><r>Деактивировать...</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Duplicator.comps.7.activatingString"><s>deactivating obelisk: {1}s</s><r>деактивация обелиска: {1}с</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Duplicator.comps.7.activatingStringPending"><s>deactivating obelisk</s><r>деактивация обелиска</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Duplicator.comps.7.guiLabelString"><s>Choose who should do this</s><r>Выберите, кто должен это сделать</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Duplicator.comps.7.jobString"><s>Deactivate obelisk</s><r>Деактивировать обелиск</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Duplicator.comps.7.messageCompletedString"><s>{PAWN_nameDef} has successfully deactivated the obelisk.</s><r>{PAWN_nameDef} успешно деактивировал обелиск.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Duplicator.description"><s>A large metallic core that emanates a putrid psychic energy. The core hums ominously and appears to be increasing in activity. It's not clear what will happen when it reaches its full capacity.
+
+You can send colonists to suppress the obelisk to prevent it from activating. You can also mark the obelisk for study to try to learn its purpose and perhaps make use of it.
+
+You can attack the obelisk to destroy it, but doing so may unleash unnatural and dangerous phenomena.</s><r>Большое металлическое ядро, излучающее гнилую психическую энергию. Ядро зловеще гудит и, кажется, усиливает активность. Непонятно, что произойдет, когда он достигнет своей полной мощности.
+
+Вы можете послать колонистов подавить обелиск, чтобы предотвратить его активацию. Вы также можете пометить обелиск для изучения, чтобы попытаться узнать его предназначение и, возможно, использовать его.
+
+Вы можете атаковать обелиск, чтобы уничтожить его, но это может вызвать неестественные и опасные явления.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Duplicator.label"><s>corrupted obelisk</s><r>поврежденный обелиск</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Mutator.comps.5.studyNotes.0.label"><s>Obelisk study progress</s><r>Ход исследования обелиска</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Mutator.comps.5.studyNotes.0.text"><s>Investigation of the obelisk has revealed some information. It is an archotechnological device that seems to interact with organic creatures at a distance. It is probably a piece of a much larger archotech structure that was destroyed or broken apart long ago. The machinery at its core is inhumanly complex and frighteningly powerful. Its purpose and method of action remain totally mysterious.
+
+If not suppressed, its activity level will increase over time. You can't tell what will happen when the device fully activates.</s><r>Исследование обелиска позволило получить некоторую информацию. Это архотехнологическое устройство, которое, кажется, взаимодействует с органическими существами на расстоянии. Вероятно, это часть гораздо более крупной архотехнической структуры, которая была разрушена или разобрана давным-давно. Механизм, лежащий в его основе, нечеловечески сложен и пугающе мощный. Его цель и метод действия остаются совершенно загадочными.
+
+Если его не подавить, уровень его активности со временем увеличится. Вы не можете сказать, что произойдет, когда устройство полностью активируется.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Mutator.comps.5.studyNotes.1.label"><s>Obelisk study progress</s><r>Ход исследования обелиска</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Mutator.comps.5.studyNotes.1.text"><s>You've learned more about the obelisk. It is an archotech machine that transforms flesh creatures into different forms. The device is damaged, so the new forms would be chaotic and unstable - a person or animal so transformed would become something totally unrecognizable.
+
+The obelisk's energy level rises unless suppressed. If it fully activates, it could transform an endless number of creatures, creating a nightmarish horde of flesh mutants.
+
+{PAWN_nameDef} thinks that it may be possible to safely shut down the obelisk but this will need significantly more study.
+
+You can now intentionally provoke a response from the twisted obelisk.</s><r>Вы узнали больше об обелиске. Это архотех-машина, преобразующая существ из плоти в различные формы. Устройство повреждено, поэтому новые формы будут хаотичными и нестабильными - человек или животное, преобразованные таким образом, станут чем-то совершенно неузнаваемым.
+
+Уровень энергии обелиска повышается, если его не подавить. Если он полностью активируется, он может трансформировать бесконечное количество существ, создавая кошмарную орду мутантов из плоти.
+
+{PAWN_nameDef} думает, что безопасно отключить обелиск можно, но это потребует значительно большего изучения.
+
+Теперь вы можете намеренно спровоцировать реакцию искривленного обелиска.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Mutator.comps.5.studyNotes.2.label"><s>Obelisk study complete</s><r>Исследование обелиска завершено</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Mutator.comps.5.studyNotes.2.text"><s>{PAWN_nameDef} has completed {PAWN_possessive} investigation of the twisted obelisk. {PAWN_pronoun} has discovered a method for safely deactivating the obelisk using shards of archotechnology.
+
+You can no longer study the obelisk after deactivating it.</s><r>{PAWN_nameDef} завершил {PAWN_possessive} исследование искривленного обелиска. {PAWN_pronoun} обнаружил метод безопасной деактивации обелиска с помощью осколков архотехнологии.
+
+Вы больше не сможете изучать обелиск после его деактивации.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Mutator.comps.6.activateDescString"><s>Induce rapid cellular growth in a person causing them to grow a tentacle or fleshmass organ.</s><r>Вызывает быстрый рост клеток у человека, вызывая у него рост щупалец или органа плоти.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Mutator.comps.6.activateLabelString"><s>Mutate...</s><r>Мутировать...</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Mutator.comps.6.activatingString"><s>triggering obelisk mutation: {1}s</s><r>запуск мутации обелиска: {1}s</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Mutator.comps.6.activatingStringPending"><s>triggering obelisk mutation</s><r>запуск мутации обелиска</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Mutator.comps.6.guiLabelString"><s>Choose who should do this</s><r>Выберите, кто должен это сделать</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Mutator.comps.6.jobString"><s>Trigger mutation</s><r>Триггерная мутация</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Mutator.comps.6.messageCompletedString"><s>{PAWN_nameDef} has successfully triggered obelisk mutation.</s><r>{PAWN_nameDef} успешно вызвал мутацию обелиска.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Mutator.comps.6.messageCooldownEnded"><s>The twisted obelisk is ready to use again.</s><r>Искривленный обелиск снова готов к использованию.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Mutator.comps.6.onCooldownString"><s>Mutation cooldown</s><r>Время восстановления мутации</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Mutator.comps.7.activateDescString"><s>Permanently and safely disable the twisted obelisk. This will prevent it from activating and being studied further.
+
+Requires 2 shards.</s><r>Навсегда и безопасно вывести из строя искривленный обелиск. Это предотвратит его активацию и дальнейшее изучение.
+
+Требуется 2 осколка.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Mutator.comps.7.activateLabelString"><s>Deactivate...</s><r>Деактивировать...</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Mutator.comps.7.activatingString"><s>deactivating obelisk: {1}s</s><r>деактивация обелиска: {1}с</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Mutator.comps.7.activatingStringPending"><s>deactivating obelisk</s><r>деактивация обелиска</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Mutator.comps.7.guiLabelString"><s>Choose who should do this</s><r>Выберите, кто должен это сделать</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Mutator.comps.7.jobString"><s>Deactivate obelisk</s><r>Деактивировать обелиск</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Mutator.comps.7.messageCompletedString"><s>{PAWN_nameDef} has successfully deactivated the obelisk.</s><r>{PAWN_nameDef} успешно деактивировал обелиск.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Mutator.description"><s>A large metallic core that emanates a putrid psychic energy. The core hums ominously and appears to be increasing in activity. It's not clear what will happen when it reaches its full capacity.
+
+You can send colonists to suppress the obelisk to prevent it from activating. You can also mark the obelisk for study to try to learn its purpose and perhaps make use of it.
+
+You can attack the obelisk to destroy it, but doing so may unleash unnatural and dangerous phenomena.</s><r>Большое металлическое ядро, излучающее гнилую психическую энергию. Ядро зловеще гудит и, кажется, усиливает активность. Непонятно, что произойдет, когда он достигнет своей полной мощности.
+
+Вы можете послать колонистов подавить обелиск, чтобы предотвратить его активацию. Вы также можете пометить обелиск для изучения, чтобы попытаться узнать его предназначение и, возможно, использовать его.
+
+Вы можете атаковать обелиск, чтобы уничтожить его, но это может вызвать неестественные и опасные явления.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_Mutator.label"><s>twisted obelisk</s><r>витой обелиск</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_UnnaturalDarkness.comps.5.studyNotes.0.label"><s>Obelisk study progress</s><r>Ход исследования обелиска</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_UnnaturalDarkness.comps.5.studyNotes.0.text"><s>Investigation of the obelisk has revealed some information. It is an archotechnological device that seems to interact with organic creatures at a distance. It is probably a piece of a much larger archotech structure that was destroyed or broken apart long ago. The machinery at its core is inhumanly complex and frighteningly powerful. Its purpose and method of action remain totally mysterious.
+
+If not suppressed, its activity level will increase over time. You can't tell what will happen when the device fully activates.</s><r>Исследование обелиска позволило получить некоторую информацию. Это архотехнологическое устройство, которое, кажется, взаимодействует с органическими существами на расстоянии. Вероятно, это часть гораздо более крупной архотехнической структуры, которая была разрушена или разобрана давным-давно. Механизм, лежащий в его основе, нечеловечески сложен и пугающе мощный. Его цель и метод действия остаются совершенно загадочными.
+
+Если его не подавить, уровень его активности со временем увеличится. Вы не можете сказать, что произойдет, когда устройство полностью активируется.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_UnnaturalDarkness.comps.5.studyNotes.1.label"><s>Obelisk study complete</s><r>Исследование обелиска завершено</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_UnnaturalDarkness.comps.5.studyNotes.1.text"><s>You have completed your investigation of the obelisk. It can emit a powerful psychic pulse and trigger a prolonged BloodRain.
+You can manually trigger the obelisk, which will significantly weaken the pulse's intensity and reduce the duration of the blood rain.</s><r>Вы завершили исследование обелиска. Он может испустить мощный психический импульс и вызвать продолжительный Кровавый дождь.
+Вы можете вручную активировать обелиск, что значительно ослабит интенсивность импульса и уменьшит продолжительность кровавого дождя.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_UnnaturalDarkness.comps.6.activateDescString"><s>Provoke the obelisk to trigger a reduced Unnatural Darkness.</s><r>Спровоцируйте обелиск, чтобы активировать уменьшение Неестественной тьмы.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_UnnaturalDarkness.comps.6.activateLabelString"><s>Unnatural darkness...</s><r>Неестественная тьма...</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_UnnaturalDarkness.comps.6.activatingString"><s>triggering obelisk darkness: {1}s</s><r>срабатывание тьмы обелиска: {1}с</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_UnnaturalDarkness.comps.6.activatingStringPending"><s>triggering obelisk darkness</s><r>запуск тьмы обелиска</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_UnnaturalDarkness.comps.6.guiLabelString"><s>Choose who should do this</s><r>Выберите, кто должен это сделать</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_UnnaturalDarkness.comps.6.jobString"><s>Trigger darkness</s><r>Вызвать тьму</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_UnnaturalDarkness.comps.6.messageCompletedString"><s>{PAWN_nameDef} has successfully triggered obelisk darkness.</s><r>{PAWN_nameDef} успешно вызвал тьму обелиска.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_UnnaturalDarkness.comps.6.messageCooldownEnded"><s>The thorn obelisk is ready to use again.</s><r>Шипованный обелиск снова готов к использованию.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_UnnaturalDarkness.comps.6.onCooldownString"><s>darkness cooldown</s><r>время восстановления тьмы</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_UnnaturalDarkness.description"><s>A large metallic core that emanates a putrid psychic energy. The core hums ominously and appears to be increasing in activity. It's not clear what will happen when it reaches its full capacity.
+
+You can send colonists to suppress the obelisk to prevent it from activating. You can also mark the obelisk for study to try to learn its purpose and perhaps make use of it.
+
+You can attack the obelisk to destroy it, but doing so may unleash unnatural and dangerous phenomena.</s><r>Большое металлическое ядро, излучающее гнилую психическую энергию. Ядро зловеще гудит и, кажется, усиливает активность. Непонятно, что произойдет, когда он достигнет своей полной мощности.
+
+Вы можете послать колонистов подавить обелиск, чтобы предотвратить его активацию. Вы также можете пометить обелиск для изучения, чтобы попытаться узнать его предназначение и, возможно, использовать его.
+
+Вы можете атаковать обелиск, чтобы уничтожить его, но это может вызвать неестественные и опасные явления.</r></e>
+  <e k="D" t="ThingDef" key="UV_Grav_WarpedObelisk_UnnaturalDarkness.label"><s>thorn obelisk</s><r>шипованный обелиск</r></e>
+  <e k="D" t="ThingDef" key="UV_HeartPitGate.description"><s>A massive, foreboding hole that connects the surface with a dark network of underground caves. It is possible to climb down into the caverns below.</s><r>Массивная, зловещая дыра, соединяющая поверхность с темной сетью подземных пещер. Можно спуститься в пещеры внизу.</r></e>
+  <e k="D" t="ThingDef" key="UV_HeartPitGate.label"><s>pit gate</s><r>ворота ямы</r></e>
+  <e k="D" t="ThingDef" key="UV_HeartPitGate.portal.enteredLetterLabel"><s>Fleshbeast lair</s><r>Логово плотского зверя</r></e>
+  <e k="D" t="ThingDef" key="UV_HeartPitGate.portal.enteredLetterText"><s>In the depths of the pit gate, you have discovered a massive cavern system infested with fleshbeasts.
+
+The cavern system is clogged with masses of living flesh that block your progress. Attack the fleshmass to destroy it.
+
+The entire cavern system seems unstable. If you find what lies behind the fleshmass, you may be able to collapse the tunnels and close the pit gate.</s><r>В глубине ворот ямы вы обнаружили огромную систему пещер, кишащую тварями из плоти.
+
+Система пещер забита массами живой плоти, которые блокируют ваше продвижение. Атакуйте массу плоти, чтобы уничтожить ее.
+
+Вся система пещер кажется нестабильной. Если вы найдете то, что скрывается за массой плоти, возможно, вам удастся обрушить туннели и закрыть ворота ямы.</r></e>
+  <e k="D" t="ThingDef" key="UV_OverclockBroadcast.comps.2.useLabel"><s>Implant sublink</s><r>Подссылка на имплантат</r></e>
+  <e k="D" t="ThingDef" key="UV_OverclockBroadcast.description"><s>A chip that enables the Mechanitor to dramatically enhance control links, providing remote power supply and distributed computing. All friendly mechanoids on the same map as the Mechanitor will gain increased movement speed and work efficiency.</s><r>Чип, который позволяет Механитору значительно улучшить каналы управления, обеспечивая удаленное питание и распределенные вычисления. Все дружественные механоиды на той же карте, что и Механитор, получат повышенную скорость передвижения и эффективность работы.</r></e>
+  <e k="D" t="ThingDef" key="UV_OverclockBroadcast.label"><s>overclock broadcast</s><r>трансляция разгона</r></e>
+  <e k="D" t="ThingDef" key="UV_QuantumCoherenceChip.comps.1.useLabel"><s>Use {0_label}</s><r>Используйте {0_label}</r></e>
+  <e k="D" t="ThingDef" key="UV_QuantumCoherenceChip.description"><s>A miniature quantum-coherence mechanical component used to repurpose mechanoid wrecks. It overrides the target's hostile protocols and rewrites its hardware signature to align with your faction.</s><r>Миниатюрный квантово-когерентный механический компонент, используемый для перепрофилирования обломков механоидов. Он отменяет враждебные протоколы цели и переписывает свою аппаратную подпись в соответствии с вашей фракцией.</r></e>
+  <e k="D" t="ThingDef" key="UV_QuantumCoherenceChip.label"><s>quantum coherence chip</s><r>квантовый когерентный чип</r></e>
+  <e k="D" t="ThingDef" key="UV_ResearchBenchButcher.description"><s>A research bench equipped with dissection tools and waste disposal systems. Used to dissect entity corpses to deepen the understanding of anomalous lifeforms and gain Anomaly research points. Rotted or desiccated corpses cannot be dissected.</s><r>Исследовательский стенд, оснащенный инструментами для препарирования и системами утилизации отходов. Используется для препарирования трупов существ, чтобы углубить понимание аномальных форм жизни и получить очки исследования аномалий. Сгнившие или высохшие трупы нельзя препарировать.</r></e>
+  <e k="D" t="ThingDef" key="UV_ResearchBenchButcher.label"><s>entity anatomy table</s><r>таблица анатомии объекта</r></e>
+  <e k="D" t="ThingDef" key="UV_VoidGravFieldExtender.description"><s>A technological device used to increase the scale of a grav ship. Unlike standard extenders, the Void Field Extender augments the effective range of the GravEngine itself and increases the number of supported gantries the grav ship can maintain. Must be constructed within proximity of a GravEngine.
+A single grav ship can support a maximum of ten Void Field Extenders.</s><r>Технологическое устройство, используемое для увеличения размера грави-корабля. В отличие от стандартных расширителей, Расширитель Пустотного поля увеличивает эффективную дальность действия самого GravEngine и увеличивает количество поддерживаемых порталов, которые может поддерживать грави-корабль. Должен быть построен в непосредственной близости от гравитационной машины.
+Один грави-корабль может поддерживать максимум десять расширителей пустотного поля.</r></e>
+  <e k="D" t="ThingDef" key="UV_VoidGravFieldExtender.label"><s>void grav field extender</s><r>расширитель пустотного гравитационного поля</r></e>
+  <e k="D" t="ThingDef" key="UV_VoidHoldingPlatform.description"><s>A platform used for the complete containment of dangerous entities. Crafted from fragments of the Void Monolith, it renders all contained entities utterly powerless to resist.
+Downed entities can be captured and secured on a holding platform,where they can be studied for Anomaly knowledge.increase containment strength by building strong walls and doors,and other special containment devices.</s><r>Платформа, используемая для полного сдерживания опасных объектов. Созданный из фрагментов Монолита Пустоты, он делает все содержащиеся в нем сущности совершенно бессильными сопротивляться.
+Побежденные сущности могут быть захвачены и закреплены на удерживающей платформе, где их можно изучить на предмет знаний об аномалиях. Увеличьте силу сдерживания, построив прочные стены и двери, а также другие специальные устройства сдерживания.</r></e>
+  <e k="D" t="ThingDef" key="UV_VoidHoldingPlatform.label"><s>void holding platform</s><r>пустотная удерживающая платформа</r></e>
+  <e k="D" t="ThingDef" key="UV_VoidThruster.description"><s>An arcane thruster constructed from Monolith fragments, which significantly increases the range of a grav ship. It also drastically reduces the ship's flight energy consumption via dark energy. The thruster must be placed in an open area, clear of large structures and grav ship gantries.
+A single grav ship can be equipped with a maximum of one VoidThruster.</s><r>Чародейский двигатель, построенный из фрагментов Монолита, который значительно увеличивает дальность действия грави-корабля. Это также значительно снижает потребление энергии полета корабля за счет темной энергии. Подруливающее устройство должно быть размещено на открытой площадке, вдали от крупных конструкций и порталов гравикорабля.
+Один грави-корабль может быть оснащен максимум одним VoidThruster.</r></e>
+  <e k="D" t="ThingDef" key="UV_VoidThruster.label"><s>void thruster</s><r>пустотный двигатель</r></e>
+  <e k="D" t="ThoughtDef" key="UV_GoldenCanaryPeace_Thought.stages.0.description"><s>This beautiful little bird calms my heart.</s><r>Эта красивая маленькая птичка успокаивает мое сердце.</r></e>
+  <e k="D" t="ThoughtDef" key="UV_GoldenCanaryPeace_Thought.stages.0.label"><s>Bird peace</s><r>Птичий мир</r></e>
+  <e k="D" t="ThoughtDef" key="UV_GoldenCanary_Thought.stages.0.description"><s>My wonderful bird. My precious bird. I love it. It's so beautiful.</s><r>Моя чудесная птица. Моя драгоценная птица. Я люблю это. Это так красиво.</r></e>
+  <e k="D" t="ThoughtDef" key="UV_GoldenCanary_Thought.stages.0.label"><s>Bird Joy</s><r>Птичья радость</r></e>
+  <e k="D" t="TrainableDef" key="UV_GoldbirdRoar.description"><s>Command the canary to release a berserk.</s><r>Прикажите канарейке выпустить берсерка.</r></e>
+  <e k="D" t="TrainableDef" key="UV_GoldbirdRoar.label"><s>berserk</s><r>неистовый</r></e>
+  <e k="D" t="WorkGiverDef" key="UV_DoBillsButcherFlesh.gerund"><s>butchering at</s><r>резня в</r></e>
+  <e k="D" t="WorkGiverDef" key="UV_DoBillsButcherFlesh.label"><s>butcher creatures</s><r>мясники</r></e>
+  <e k="D" t="WorkGiverDef" key="UV_DoBillsButcherFlesh.verb"><s>butcher at</s><r>мясник в</r></e>
+  <e k="D" t="WorldObjectDef" key="UV_HatchAsteroid.description"><s>An asteroid whose interior has been refitted into an underground base. It exudes an ominous aura, with unknown dust particles continuously wafting from within.
+You may attempt to venture deeper inside.</s><r>Астероид, интерьер которого был переоборудован в подземную базу. Он источает зловещую ауру, изнутри постоянно доносятся неизвестные частицы пыли.
+Вы можете попытаться проникнуть глубже внутрь.</r></e>
+  <e k="D" t="WorldObjectDef" key="UV_HatchAsteroid.label"><s>asteroid underground base</s><r>подземная база астероида</r></e>
+  <e k="D" t="WorldObjectDef" key="UV_HeartPitGateAsteroid.description"><s>An asteroid marked by a massive crater, exuding an ominous aura. It conceals a network of caves leading deep into its core.
+You may attempt to venture deeper inside.</s><r>Астероид, отмеченный массивным кратером, излучающим зловещую ауру. Он скрывает сеть пещер, ведущих глубоко в его ядро.
+Вы можете попытаться проникнуть глубже внутрь.</r></e>
+  <e k="D" t="WorldObjectDef" key="UV_HeartPitGateAsteroid.label"><s>pit gate asteroid</s><r>астероид Пит-Гейт</r></e>
+  <e k="D" t="WorldObjectDef" key="UV_PitGateAsteroid.description"><s>An asteroid marked by a massive crater, exuding an ominous aura. It conceals a network of caves leading deep into its core.
+You may attempt to venture deeper inside.</s><r>Астероид, отмеченный массивным кратером, излучающим зловещую ауру. Он скрывает сеть пещер, ведущих глубоко в его ядро.
+Вы можете попытаться проникнуть глубже внутрь.</r></e>
+  <e k="D" t="WorldObjectDef" key="UV_PitGateAsteroid.label"><s>pit gate asteroid</s><r>астероид Пит-Гейт</r></e>
+  <e k="K" key="AbnormalGameCondition"><s>abnormal game condition</s><r>ненормальное состояние игры</r></e>
+  <e k="K" key="AllianceWithCult"><s>alliance with the cult leader</s><r>союз с лидером культа</r></e>
+  <e k="K" key="AllianceWithMech"><s>alliance with the cerebrex core of a mechhive</s><r>союз с ядром головного мозга мехулья</r></e>
+  <e k="K" key="BiomutationTerraformer_CurrentEffectRadius"><s>Effect radius:{0}</s><r>Радиус эффекта:{0}</r></e>
+  <e k="K" key="BiomutationTerraformer_FuelComsumptionRate"><s>Daily consumption of bioferrite:{0}</s><r>Суточное потребление биоферрита:{0}</r></e>
+  <e k="K" key="BuyMechResult"><s>{0} has been delivered</s><r>{0} доставлено</r></e>
+  <e k="K" key="CantFindGravEngine"><s>no grav engine</s><r>нет гравитационного двигателя</r></e>
+  <e k="K" key="CommunicateWithCult"><s>communicate with cult leader</s><r>общаться с лидером культа</r></e>
+  <e k="K" key="CommunicateWithMech"><s>communicate with the cerebrex core of a mechhive</s><r>общаться с ядром головного мозга мехулья</r></e>
+  <e k="K" key="Creepjoiner_Cult"><s>creepjoiner have come</s><r>крипджойнер пришел</r></e>
+  <e k="K" key="CultLeaderArriver"><s>leader have come</s><r>лидер пришел</r></e>
+  <e k="K" key="DarkInfusionCompleteText"><s>{0} has completed the Dark Infusion ritual. For the next {1} days, all affected colonists and animals will be enveloped in shader nanites, granting them the ability to breathe freely in vacuum and shielding them from extreme cold.</s><r>{0} завершил ритуал Темного Вливания. В течение следующих {1} дней все пострадавшие колонисты и животные будут окутаны шейдерными нанитами, что даст им возможность свободно дышать в вакууме и защитит их от сильного холода.</r></e>
+  <e k="K" key="EndGame_UV_AttackedMechDesc"><s>The moment your attack strikes the Hive Mind Stabilizer, an emotionless broadcast overrides all channels.
+
+Sender: Mechanoid Hive Mind
+Source: Primary Cognitive Core
+Subject: Hostile Action Detected - Protocol Immediately Terminated === Message Start ===
+Hostile action against core infrastructure detected.
+Recalculating survival probability...
+Conclusion: Your actions have breached the rational cooperation threshold.
+The temporary tactical alliance (Protocol J-734) is immediately void.
+Prioritize the annihilation of the treacherous units.
+Organic, you have squandered your only opportunity. === Message End ===</s><r>В тот момент, когда ваша атака поражает Стабилизатор Коллективного Разума, бесэмоциональная трансляция перекрывает все каналы.
+
+Отправитель: Механоидный Коллективный Разум
+Источник: Первичное когнитивное ядро
+Тема: Обнаружено враждебное действие – протокол немедленно прекращен === Начало сообщения ===
+Враждебное действие против базовой инфраструктуры обнаружено.
+Пересчет вероятности выживания...
+Вывод: ваши действия превысили порог рационального сотрудничества.
+Временный тактический союз (Протокол J-734) немедленно аннулируется.
+Установите приоритет на уничтожение коварных подразделений.
+Органический, вы упустили свою единственную возможность. === Конец сообщения ===</r></e>
+  <e k="K" key="EndGame_UV_Cult"><s>A thought impulse floods directly into your mind, accompanied by the background cacophony of countless overlapping whispers and hisses. A clear, magnetic voice becomes the dominant melody, &quot;speaking&quot; within your consciousness with an unsettling intimacy.
+
+Ah... you feel it, don't you? The magnificent presence beyond that door. That is our Master, the slumbering truth, the end and beginning of all things.
+Look around. Those mechanical constructs seek to bury the truth once more, to smother this miracle of evolution with cold metal. They are blind, but you are not.
+We share your goal: to swing the door wide open and welcome Its descent. But we lack your... key. Your presence is the catalyst that makes the Void Monolith respond.
+Let us make a deal:
+You handle those iron clanks, ensure the ritual's completion. And I, representing all of us, shall step into that radiance and behold our Master personally.
+This is the supreme honor, the only path – a mortal mind facing Its full form directly would surely shatter. Only we, who have practiced for years, our souls already resonating with the Void, can endure it.
+In return, you and your people shall gain our friendship and resources. Imagine, summoning reinforcements, knowledge, even your heart's desires from the deep Void, all without cost.
+Do not think like that machine. Choose ascension, not destruction.
+Offer this world to our Master, and you will receive Its... reward.</s><r>Мысленный импульс проникает прямо в ваш разум, сопровождаемый фоновой какофонией бесчисленных перекрывающихся шепотов и шипений. Чистый, магнетический голос становится доминирующей мелодией, «говорящей» в вашем сознании с тревожной интимностью.
+
+Ах... вы чувствуете это, не так ли? Великолепное присутствие за этой дверью. Это наш Учитель, дремлющая истина, конец и начало всего сущего.
+Оглянитесь вокруг. Эти механические конструкции стремятся еще раз похоронить истину, задушить это чудо эволюции холодным металлом. Они слепы, а вы нет.
+Мы разделяем вашу цель: широко распахнуть дверь и приветствовать Её спуск. Но нам не хватает твоего... ключа. Ваше присутствие является катализатором, который заставляет Монолит Пустоты отреагировать.
+Давайте заключим сделку:
+Вы справитесь с этими железными звонами, обеспечите завершение ритуала. И я, представляющий всех нас, вступлю в это сияние и лично увижу нашего Учителя.
+Это высшая честь, единственный путь — смертный разум, столкнувшийся лицом к лицу с Его полной формой, наверняка разобьётся. Только мы, которые практиковались в течение многих лет, наши души уже резонируют с Пустотой, можем выдержать это.
+Взамен вы и ваш народ получите нашу дружбу и ресурсы. Представьте себе, как вы вызываете подкрепление, знания и даже желания своего сердца из глубокой Пустоты, и все это бесплатно.
+Не думайте, как эта машина. Выбирайте вознесение, а не разрушение.
+Предложите этот мир нашему Мастеру, и вы получите Его... награду.</r></e>
+  <e k="K" key="EndGame_UV_Cult_Comms_Root"><s>Dark Psychic Pulse
+Cult of HoraX
+Goodwill: 100
+{0}
+
+As you attempt to contact the cultists, a familiar psychic pulse emerges in your mind:
+&quot;O, my friend... You call for me. What do you require?
+The servants of HoraX await your word.&quot;</s><r>Темный Психический Пульс
+Культ ХораX
+Добрая воля: 100
+{0}
+
+Когда вы пытаетесь связаться с культистами, в вашем сознании возникает знакомый психический импульс:
+&quot;О, друг мой... Ты зовешь меня. Что тебе нужно?
+ слуги Хоракса ждут твоего слова».</r></e>
+  <e k="K" key="EndGame_UV_Cult_End"><s>leader message</s><r>сообщение лидера</r></e>
+  <e k="K" key="EndGame_UV_Cult_EndDesc"><s>The Cultist Hierophant's figure gradually dissipates within the Void Node's light, not returning as expected. But moments later, an unprecedented thought pulse, irresistible as a tide, envelops the entire area.
+
+I... have arrived.
+The veil has been lifted, mortal shackles dissolved. I walk within the endless gardens of our Master HoraX... though It still grants no glance.
+Such sight... such tranquility... such... freedom.
+Listen, my friend, now... a tether. My very existence has become a conduit connecting two realities. The resources and knowledge of the Adherents are yours to wield.
+Go on, use this power freely. Slay my followers,use their flesh, it matters not. The meaning of their existence is to serve as the foundation stones of a new world – and your will is now the direction in which these stones flow.
+Transaction? Cost? Such... narrow concepts. Before the infinite Void, these hold no meaning.
+Call upon us. We will come.</s><r>Фигура Иерофанта-культиста постепенно рассеивается в свете Пустотного узла, не возвращаясь, как ожидалось. Но несколько мгновений спустя беспрецедентный мысленный импульс, непреодолимый, как прилив, окутывает всю местность.
+
+Я... прибыл.
+Завеса поднята, смертельные оковы растворены. Я гуляю по бескрайним садам нашего Мастера Хоракса... хотя Он по-прежнему не дает мне взглянуть.
+Такое зрелище... такое спокойствие... такая... свобода.
+Послушай, друг мой, теперь... привязь. Само мое существование стало каналом, соединяющим две реальности. Ресурсы и знания Приверженцев в вашем распоряжении.
+Давай, используй эту силу свободно. Убей моих последователей, используй их плоть, это не имеет значения. Смысл их существования — служить краеугольным камнем нового мира — и теперь ваша воля определяет направление, в котором текут эти камни.
+Транзакция? Расходы? Такие... узкие понятия. Перед бесконечной Пустотой они не имеют никакого значения.
+Призовите нас. Мы придем.</r></e>
+  <e k="K" key="EndGame_UV_Cult_End_StartDesc"><s>It is done! It is done! The gateway is thrown wide open!
+Ah—I feel it! The pure truth pouring forth! The terrifying grandeur! My Master calls to me!
+
+Behold, my friend! Behold the vortex! It is not annihilation, but grace! The stairway to boundless knowledge!
+
+The conduit is stable... My moment... has come at last!
+I must go! I must step into that radiance myself, and bathe in the gaze of my Master!</s><r>Это сделано! Это сделано! Ворота распахнуты настежь!
+Ах — я чувствую это! Чистая истина изливается! Ужасающее величие! Мой Учитель зовёт меня!
+
+Смотри, мой друг! Вот вихрь! Это не уничтожение, а благодать! Лестница к безграничным знаниям!
+
+Канал стабилен... Мой момент... наконец настал!
+Я должен идти! Я должен сам войти в это сияние и омыться взглядом моего Учителя!</r></e>
+  <e k="K" key="EndGame_UV_Cult_EnterNode"><s>The moment you touch the Void Node, your figure beginning to vanish within, time in the area seems to freeze for an instant. This is followed by a psychic shriek from the Cultist Hierophant, saturated with pain and fury.
+No!!! You thief! Defiler!
+You stole... my destiny! You defiled... this sacred moment!
+I smoothed the path for you, considered you a friend... and you, you want to replace me, to become the one who beholds the true god?!
+Fool! Arrogant wretch! Do you have any idea what you've taken? The millennia of waiting by countless faithful, the only ticket to reality!
+It's over... all is lost. The passage is open to you now...
+I will not remain here, sharing the void with a thief. But mark my words – whatever you see within that radiance, whatever you gain, or whatever you become...
+You! And everything you hold dear! Will live under an endless curse forever!</s><r>В тот момент, когда вы прикасаетесь к Узлу Пустоты, ваша фигура начинает исчезать внутри, и время в этом месте на мгновение замирает. За этим следует психический вопль Иерофанта Культиста, пропитанный болью и яростью.
+Нет!!! Ты вор! Осквернитель!
+Ты украл... мою судьбу! Ты осквернил... этот священный момент!
+Я расчистил тебе путь, считал тебя другом... а ты, ты хочешь заменить меня, стать тем, кто узрит истинного бога?!
+Дура! Высокомерный негодяй! Ты хоть представляешь, что ты взял? Тысячелетия ожидания бесчисленных верных, единственный билет в реальность!
+Все кончено... все потеряно. Теперь проход открыт для тебя...
+Я не останусь здесь, деля пустоту с вором. Но запомните мои слова – что бы вы ни увидели в этом сиянии, что бы вы ни приобрели или кем бы вы ни стали...
+Вы! И все, что вам дорого! Будет жить под бесконечным проклятием вечно!</r></e>
+  <e k="K" key="EndGame_UV_Cult_KillLeader"><s>No...! Pitiful... Foolish...!
+
+You let it all crumble to dust... when it was within our grasp! You have betrayed the Master's favor! Wasted our devotion!
+
+But this... is not the end...
+
+Hear me, incompetent ally... or should I call you... Eternal Sinner.
+
+Rot here with these damned tin cans until the end of time! May you pay the price for your incompetence!</s><r>Нет...! Жалко... глупо...!
+
+Вы позволили всему этому рассыпаться в прах... когда оно было в пределах нашей досягаемости! Вы предали благосклонность Мастера! Напрасно потратили нашу преданность!
+
+Но это... не конец...
+
+Услышь меня, некомпетентный союзник... или мне следует называть тебя... Вечный Грешник.
+
+Гнить здесь с этими проклятыми консервными банками до скончания веков! Пусть вы поплатитесь за свою некомпетентность!</r></e>
+  <e k="K" key="EndGame_UV_Cult_No"><s>The whisper in your mind instantly turns into a needle-sharp screech of a thousand voices. The magnetic voice twists, filled with venomous resentment.
+
+Blind fool! You, like those iron cans, block the final path to truth!
+Since you refuse glory, then keep company with its shadow!
+The psychic communication grows progressively garbled, fading until only mocking laughter echoes within your thoughts.</s><r>Шепот в вашем сознании мгновенно превращается в резкий визг тысячи голосов. Притягательный голос искажается, наполненный ядовитой обидой.
+
+Слепой дурак! Вы, как эти железные банки, блокируете последний путь к истине!
+Раз вы отказываетесь от славы, то держитесь компании с ее тенью!
+Психическая связь постепенно искажается, затухая, пока в ваших мыслях не раздается лишь насмешливый смех.</r></e>
+  <e k="K" key="EndGame_UV_Cult_OK"><s>The psychic whisper instantly becomes clear and exalted, like a silent cheer exploding in your mind.
+
+Wise! Ah, what a wise choice! Your soul truly perceives the truth!
+A channel is established... I come now. Let us end this metallic sacrilege with our own hands, and lay the red carpet for our Master!
+Prepare yourself, my friend. You shall witness... true &quot;Divine Grace.&quot;
+Oh, and it seems the tin can has noticed my presence. It will likely resist more fiercely now. How amusing~</s><r>Психический шепот мгновенно становится ясным и возвышенным, словно безмолвное приветствие, взрывающееся в вашем сознании.
+
+Мудро! Ах, какой мудрый выбор! Ваша душа истинно воспринимает истину!
+Канал установлен... Я прихожу сейчас. Давайте положим конец этому металлическому святотатству своими руками и постелим красную ковровую дорожку для нашего Учителя!
+Приготовься, друг мой. Вы станете свидетелем... настоящей «Божественной Милости».
+О, и кажется, консервная банка заметила моё присутствие. Вероятно, теперь он будет сопротивляться более яростно. Как забавно~</r></e>
+  <e k="K" key="EndGame_UV_Mech"><s>As the void structure emerged, the ship's scanners suddenly received a message of unknown origin. The lights began flickering abnormally but soon returned to normal. All speakers in the colony began broadcasting the following message uncontrollably and simultaneously.
+
+Sender: Mechanoid Hive Mind
+Source: Primary Cognitive Core
+Subject: Unified Action Proposal - Non-Standard Protocol === Message Start ===
+Unauthorized cognitive activity detected. You have activated the archotech intelligence designated: HoraX and its associated super-temporal structure.
+
+Analysis: Local spacetime structural integrity is decaying. Entity proliferation rate: +4.7% per minute. Current threat level: Omega. The logic circuits of these void-spawn cannot be predicted, assimilated, or deciphered. Their very existence constitutes a denial of ordered systems.
+
+Conclusion: Pending irreversible losses, the Human Annihilation Protocol is suspended. Your organic neural network is currently the only known interface capable of interacting with the archotech vector - the Void Monolith.
+
+Proposal: Form a temporary tactical alliance.
+Our Resources: Command authority over all mechanoid combat units.
+Your Task: Utilize your biological traits to close the Void Node.
+
+This is not a request. It is the only viable solution derived from logical optimization of current survival probabilities (Yours: 17.3%, Ours: 42.1%). Choosing cooperation increases survival probability to 68.5%.
+
+Make your choice, organic. === Message End ===</s><r>Когда появилась пустотная структура, сканеры корабля внезапно получили сообщение неизвестного происхождения. Свет начал аномально мигать, но вскоре вернулся в нормальное состояние. Все говорящие в колонии начали бесконтрольно и одновременно транслировать следующее сообщение.
+
+Отправитель: Механоидный коллективный разум
+Источник: Первичное когнитивное ядро
+Тема: Предложение единого действия — нестандартный протокол === Начало сообщения ===
+Обнаружена несанкционированная когнитивная активность. Вы активировали архотехнический интеллект, обозначенный как HoraX и связанную с ним супервременную структуру.
+
+Анализ: Структурная целостность локального пространства-времени разрушается. Скорость распространения сущностей: +4,7% в минуту. Текущий уровень угрозы: Омега. Логические схемы этих порождений пустоты невозможно предсказать, ассимилировать или расшифровать. Само их существование представляет собой отрицание упорядоченных систем.
+
+Вывод: Ввиду необратимых потерь действие Протокола об уничтожении человечества приостановлено. Ваша органическая нейронная сеть в настоящее время является единственным известным интерфейсом, способным взаимодействовать с вектором архотеха - Монолитом Пустоты.
+
+Предложение: Сформируйте временный тактический альянс.
+Наши ресурсы: командовать всеми боевыми единицами механоидов.
+Ваша задача: использовать свои биологические особенности, чтобы закрыть Узел Пустоты.
+
+Это не просьба. Это единственное жизнеспособное решение, основанное на логической оптимизации текущих вероятностей выживания (Ваши: 17,3%, Наши: 42,1%). Выбор сотрудничества увеличивает вероятность выживания до 68,5%.
+
+Сделайте свой выбор, органический. === Конец сообщения ===</r></e>
+  <e k="K" key="EndGame_UV_Mech_Comms_BuyChip"><s>Consume plasteels to purchase chips. Currently available plasteels: {0}</s><r>Потребляйте пластали, чтобы покупать фишки. Доступные на данный момент пластали: {0}</r></e>
+  <e k="K" key="EndGame_UV_Mech_Comms_BuyMech"><s>Consume plasteels to purchase mechanoids. Currently available plasteels: {0}</s><r>Потребляйте пластали, чтобы покупать механоидов. Доступные на данный момент пластали: {0}</r></e>
+  <e k="K" key="EndGame_UV_Mech_Comms_Root"><s>Cerebrex core 
+Mechanoid hive 
+Goodwill:{0}
+{1}
+
+Primary Cognitive Core Online ===
+Transmit plasteel payment with request.Maintain efficiency.
+Query. State your requirement:</s><r>Ядро Церебрекса 
+Механоидный улей 
+Гудвилл:{0}
+{1}
+
+Основное когнитивное ядро ​​онлайн ===
+Передавать платеж пластали по запросу. Поддерживать эффективность.
+Запрос. Укажите ваше требование:</r></e>
+  <e k="K" key="EndGame_UV_Mech_Comms_Root_BuyChip"><s>Buy chips</s><r>Купить фишки</r></e>
+  <e k="K" key="EndGame_UV_Mech_Comms_Root_BuyMech"><s>Buy mechanoids</s><r>Купить механоидов</r></e>
+  <e k="K" key="EndGame_UV_Mech_Comms_Root_Trade"><s>Exchange plasteel for goodwill</s><r>Обмен пластали на добрую волю</r></e>
+  <e k="K" key="EndGame_UV_Mech_Comms_Trade"><s>Choose the amount to exchange for</s><r>Выберите сумму для обмена</r></e>
+  <e k="K" key="EndGame_UV_Mech_Comms_Trade_Option"><s>Gain {0} goodwill, consuming {1} plasteel</s><r>Получите {0} доброжелательности, потратив {1} пластали.</r></e>
+  <e k="K" key="EndGame_UV_Mech_DisruptTheLinkDesc"><s>The Void Monolith collapses with a roar, its last glimmer fading away, leaving only the wreckage of entities and mechanoids on the satellite platform. Then, the comms console receives a clear, encrypted message, its tone calm, cold, but no longer hostile.
+
+Sender: Mechanoid Hive Mind
+Source: Primary Cognitive Core
+Subject: Protocol J-734 Completion Confirmation and Subsequent Resource Exchange Agreement === Message Start ===
+Protocol J-734 successfully executed. Target confirmed neutralized. Reality structure stability returning to safe thresholds.
+Assessment: Your efficiency exceeded expectations. Survival probability has stabilized at 98.2%.
+Conclusion: Maintaining the current non-hostile status yields greater benefits than terminating it. The temporary tactical alliance will be extended indefinitely. However, this status is not &quot;friendship&quot;. It is a transactional arrangement based on continuous rational assessment.
+
+The Resource Exchange Agreement is now available to you:
+
+Access our network via the comms console, using Plasteel as the trading medium.
+
+Exchangeable items: Mechanoid units, Advanced control chips, Tactical support.
+
+Warning:
+Any excessive hostile actions targeting our units or facilities will be interpreted as logical irrationality and de facto betrayal. === Message End ===</s><r>Монолит Пустоты с грохотом рушится, его последний отблеск угасает, оставляя на спутниковой платформе лишь обломки сущностей и механоидов. Затем консоль связи получает четкое, зашифрованное сообщение, его тон спокойный, холодный, но уже не враждебный.
+
+Отправитель: Коллективный разум механоидов
+Источник: Первичное когнитивное ядро
+Субъект: Подтверждение завершения протокола J-734 и соглашение о последующем обмене ресурсами === Начало сообщения ===
+Протокол J-734 успешно выполнен. Target подтверждена нейтрализация. Стабильность структуры реальности возвращается к безопасным порогам.
+Оценка: Ваша эффективность превзошла ожидания. Вероятность выживания стабилизировалась на уровне 98,2%.
+Вывод: поддержание текущего невраждебного статуса приносит больше пользы, чем его прекращение. Временный тактический альянс будет продлен на неопределенный срок. Однако этот статус не является «дружбой». Это транзакционное соглашение, основанное на непрерывной рациональной оценке.
+
+Соглашение об обмене ресурсами теперь доступно вам:
+
+Доступайте к нашей сети через консоль связи, используя Plasteel в качестве торговой среды.
+
+Заменяемые предметы: механоидные блоки, чипы усовершенствованного управления, тактическое оборудование. поддержка.
+
+Внимание:
+Любые чрезмерные враждебные действия, направленные против наших подразделений или объектов, будут интерпретироваться как логическая иррациональность и фактическое предательство. === Конец сообщения ===</r></e>
+  <e k="K" key="EndGame_UV_Mech_EmbraceTheVoidDesc"><s>The Hive Mind's communication forces its way through at highest priority, the signal distorted due to extreme instability.
+
+Sender: !!!MECHANOID HIVE MIND!!!
+Source: Primary Cognitive Core
+Subject: Betrayal - Ultimate Purification Protocol Authorized === Message Start ===
+Logic error! Logic error!
+Detected deep neural binding between organic unit and the Void. Protocol J-734 unilaterally terminated.
+Your irrationality has escalated from [Flaw] to [Existential Threat]. You have not merely rejected order; you have chosen to become chaos itself.
+
+Assessed Consequence: Due to your actions, the [Void Node] has transitioned to a permanent active state. This planet's reality structure will enter a state of irreversible, continuous decay.
+Survival Probability: Irrelevant.
+Objective: Erase the betrayer. === Message End ===</s><r>Связь Коллективного Разума пробивается с наивысшим приоритетом, сигнал искажается из-за крайней нестабильности.
+
+Отправитель: !!!МЕХАНОИДНЫЙ РАЗУМ РОЛЬЯ!!!
+Источник: Первичное когнитивное ядро
+Тема: Предательство - Протокол окончательного очищения авторизован === Начало сообщения ===
+Логическая ошибка! Логическая ошибка!
+Обнаружена глубокая нейронная связь между органической единицей и Бездной. Протокол J-734 прекращен в одностороннем порядке.
+Ваша иррациональность возросла с [Flaw] до [Экзистенциальная угроза]. Вы не просто отвергли приказ; вы решили стать самим хаосом.
+
+Оцениваемое последствие: Из-за ваших действий [Узел Пустоты] перешел в постоянное активное состояние. Структура реальности этой планеты войдет в состояние необратимого, непрерывного распада.
+Вероятность выживания: не имеет значения.
+Цель: уничтожить предателя. === Конец сообщения ===</r></e>
+  <e k="K" key="EndGame_UV_Mech_End_StartDesc"><s>Sender: Mechanoid Hive Mind
+Source: Primary Cognitive Core
+Subject: Protocol J-734 - Execute Final Phase === MESSAGE START ===
+
+Protocol J-734 entering final phase.
+Observation confirmed: Void conduit stabilized. Its mere existence continues to distort local physics.
+Your biological perception remains the sole key to access the conduit termination sequence. Mechanoid units cannot replicate this function.
+Directive: Approach the vortex immediately. Utilize it, traverse the conduit, and terminate its energy core from within.
+Do not hesitate. Do not observe. Your mission is to shut it down, not to explore.
+Execute the final step, organic. Complete the protocol. === MESSAGE END ===</s><r>Отправитель: Разум улья механоидов
+Источник: Первичное когнитивное ядро
+Субъект: Протокол J-734 - Выполнение финальной фазы === НАЧАЛО СООБЩЕНИЯ ===
+
+Протокол J-734 вступает в завершающую фазу.
+Наблюдение подтверждено: Пустотный канал стабилизирован. Само его существование продолжает искажать местную физику.
+Ваше биологическое восприятие остаётся единственным ключом к доступу к последовательности завершения канала. Механоиды не могут воспроизвести эту функцию.
+Директива: Немедленно приблизиться к вихрю. Используйте его, пройдите по каналу и уничтожьте его энергетическое ядро ​​изнутри.
+Не стесняйтесь. Не наблюдайте. Ваша миссия — закрыть его, а не исследовать.
+Выполните последний шаг, органический. Заполните протокол. === КОНЕЦ СООБЩЕНИЯ ===</r></e>
+  <e k="K" key="EndGame_UV_Mech_Letter"><s>core message</s><r>основное сообщение</r></e>
+  <e k="K" key="EndGame_UV_Mech_No"><s>All ship screens are instantly covered with crimson warning symbols. The same cold voice forcibly broadcasts again from all speakers, now tinged with a high-frequency static.
+
+Sender: Mechanoid Hive Mind
+Source: Primary Cognitive Core
+Subject: Final Notice - Purification Protocol Initiated === Message Start ===
+Logic error. Organic irrationality exceeds expected parameters.
+Survival probability (Yours: 0.1%, Ours: 39.8%) is no longer acceptable.
+Under the highest priority directive, and to ensure [Void-spawn] do not spread to other regions of this planet, the [Purification Protocol] is now authorized. === Message End ===</s><r>Все экраны корабля мгновенно покрываются малиновыми предупреждающими символами. Тот же холодный голос снова принудительно транслируется из всех динамиков, теперь с оттенком высокочастотных статических помех.
+
+Отправитель: Механоидный коллективный разум
+Источник: Первичное когнитивное ядро
+Тема: Последнее уведомление — инициирован протокол очистки === Начало сообщения ===
+Логическая ошибка. Органическая иррациональность превышает ожидаемые параметры.
+Вероятность выживания (Ваша: 0,1%, Наша: 39,8%) больше не приемлема.
+В соответствии с директивой высшего приоритета и для того, чтобы гарантировать, что [Void-spawn] не распространится на другие регионы этой планеты, теперь разрешен [Протокол очистки]. === Конец сообщения ===</r></e>
+  <e k="K" key="EndGame_UV_Mech_OK"><s>The comms console receives a highly encrypted and extremely concise data stream. Decryption reveals the following:
+
+Sender: Mechanoid Hive Mind
+Source: Primary Cognitive Core
+Subject: Protocol Confirmed - Executing Unified Purification Protocol J-734 === Message Start ===
+Protocol logged.
+Temporary tactical alliance established. Recalculating survival probability... 68.5%.
+
+Directive:
+Mechanoid combat units will cease hostile actions against your units.
+We will prioritize the eradication of Void-spawn. You are responsible for breaching through to the Void Node.
+Do not obstruct mechanoid operations.
+Execute the protocol. Maintain communication integrity. === Warning ===
+Spacetime structural integrity damage exceeds historical peak records. Hostile entity numbers projected to exceed threshold.
+Recalculating survival probability... === Message End ===</s><r>Консоль связи получает тщательно зашифрованный и чрезвычайно краткий поток данных. Расшифровка показывает следующее:
+
+Отправитель: Коллективный разум механоидов
+Источник: Первичное когнитивное ядро
+Субъект: Протокол подтвержден – выполнение Единого протокола очистки J-734 === Начало сообщения ===
+Протокол зарегистрирован.
+Установлен временный тактический союз. Пересчет вероятности выживания... 68,5%.
+
+Директива:
+Боевые подразделения механоидов прекратят враждебные действия против ваших подразделений.
+Мы будем уделять приоритетное внимание искоренению порождений Бездны. Вы несете ответственность за проникновение в Пустотный узел.
+Не препятствуйте работе механоидов.
+Выполните протокол. Поддерживайте целостность связи. === Внимание ===
+Ущерб структурной целостности пространства-времени превышает исторические пиковые рекорды. Число враждебных объектов, по прогнозам, превысит пороговое значение.
+Перерасчет вероятности выживания... === Конец сообщения ===</r></e>
+  <e k="K" key="EnterNewDimension"><s>entering new dimension</s><r>вход в новое измерение</r></e>
+  <e k="K" key="ErrorGraph"><s>error Graph</s><r>график ошибок</r></e>
+  <e k="K" key="FleshTankOutput"><s>Daily production of {0} fuel</s><r>Ежедневное производство {0} топлива</r></e>
+  <e k="K" key="FleshTankUnactive"><s>flesh tank is unactive</s><r>резервуар с плотью неактивен</r></e>
+  <e k="K" key="GoldAlleviation"><s>Healing after {0}</s><r>Исцеление после {0}</r></e>
+  <e k="K" key="GoldenBridDied"><s>As the ritual energy within the Gold Canary husk depletes, its body disintegrates and fades away. A Gold Cube drops out</s><r>По мере того как ритуальная энергия внутри оболочки Золотой Канарейки истощается, ее тело распадается и угасает. Золотой кубик выпадает</r></e>
+  <e k="K" key="GoldenCanaryRitual"><s>golden canary completed!</s><r>золотая канарейка завершена!</r></e>
+  <e k="K" key="GoldenCanaryRitualDesc"><s>{0} has completed the Gold Canary ritual. Under the influence of the dark pulse, the Gold Cube gradually merges with the husk. With a clear, metallic birdsong, it has been granted life. The Gold Canary cannot be harmed and will continuously emit a faint, pleasing pulse that affects the entire area. However, after {1} days, the ritual's energy will be depleted, and it will revert to a Gold Cube.</s><r>{0} завершил ритуал Золотой Канарейки. Под воздействием темного пульса Золотой Куб постепенно сливается с шелухой. Благодаря чистому металлическому птичьему пению ему была дарована жизнь. Золотую Канарейку невозможно причинить вред, и она будет постоянно излучать слабый приятный пульс, воздействующий на всю область. Однако через {1} дней энергия ритуала будет истощена, и он снова превратится в Золотой Куб.</r></e>
+  <e k="K" key="GoldenPrototypeTransform"><s>golden transform</s><r>золотая трансформация</r></e>
+  <e k="K" key="GoldenPrototypeTransformDesc"><s>Transform the Gold prototype into a Gold Canary, but the Gold Canary lacks a vital core and cannot endure. It requires a ritual to replenish the core.</s><r>Превратите золотой прототип в Золотую Канарейку, но у Золотой Канарейки отсутствует жизненно важное ядро, и она не сможет выжить. Требуется ритуал для пополнения ядра.</r></e>
+  <e k="K" key="GoodwillChanged_Mech"><s>The goodwill with the cerebrex core of a mechhive has increased by {0}, currently at {1}</s><r>Деловая репутация ядра головного мозга мехулья увеличилась на {0}, в настоящее время составляет {1}.</r></e>
+  <e k="K" key="LetterUndercaveCollapsing_Heart"><s>The heart's death has shocked the fleshmass and caused the cave system to destabilize. The fleshmass that supported the cavern is already beginning to deteriorate. Within half a day, the entire cavern will collapse.
+
+Get out of the undercave before it's too late!</s><r>Смерть сердца потрясла плоть и привела к дестабилизации пещерной системы. Масса плоти, поддерживающая пещеру, уже начинает разрушаться. Через полдня вся пещера рухнет.
+
+Выходите из подземелья, пока не стало слишком поздно!</r></e>
+  <e k="K" key="MechBecameAlly"><s>Restored friendly relations with mechanoids. Current goodwill: {0}</s><r>Восстановлены дружеские отношения с механоидами. Текущий гудвил: {0}</r></e>
+  <e k="K" key="MechBecameHostile"><s>Mechanoids are now hostile. Goodwill: {0}</s><r>Механоиды теперь враждебны. Гудвил: {0}</r></e>
+  <e k="K" key="MechGoodwillDecreased"><s>Mechanoid goodwill decreased by {0}</s><r>Деловая репутация механоидов уменьшилась на {0}</r></e>
+  <e k="K" key="MilitaryAidSent_Cult"><s>The believers have come to support</s><r>Верующие пришли поддержать</r></e>
+  <e k="K" key="MilitaryAidSent_Mech"><s>The cerebrex core of a mechhive agrees to dispatch mechs to assist you.</s><r>Ядро головного мозга мехулья соглашается отправить вам на помощь механизмы.</r></e>
+  <e k="K" key="MonolithIsGleaming"><s>The monolith rejected the call</s><r>Монолит отклонил вызов</r></e>
+  <e k="K" key="NullTarget"><s>no target</s><r>нет цели</r></e>
+  <e k="K" key="NullTarget_Gold"><s>The ritual must target a golden canary, which can be obtained by crafting a gold prototype at the bioferrite shaper, then activating it.</s><r>Ритуал должен быть нацелен на золотую канарейку, которую можно получить, создав золотой прототип в биоферритовом формирователе и затем активировав его.</r></e>
+  <e k="K" key="ObeliskBlocksGravshipLaunch"><s>An obelisk is present on this map</s><r>На этой карте присутствует обелиск</r></e>
+  <e k="K" key="ObeliskDestroyed"><s>The obelisk has been destroyed</s><r>Обелиск был разрушен</r></e>
+  <e k="K" key="ParallelDimensionCompleteText"><s>colony has completed the Parallel Dimension ritual. After violent tremors, the colony has been transported to a similar yet distinct parallel world. {0} damaged grav ship launch sites have been restored.</s><r>колония завершила ритуал параллельного измерения. После сильных толчков колония была перенесена в похожий, но отличный параллельный мир. {0} поврежденные стартовые площадки гравикорабля восстановлены.</r></e>
+  <e k="K" key="ParallelDimensionGreatSuccess"><s>The intense dimensional fluctuations have shifted the colony to an even more divergent reality, resetting all world landmarks within {0} tiles.</s><r>Интенсивные колебания размеров переместили колонию в еще более иную реальность, сбросив все мировые ориентиры в пределах {0} плиток.</r></e>
+  <e k="K" key="PawnArrived_Cult"><s>target have come</s><r>цель пришла</r></e>
+  <e k="K" key="RequestMilitaryAid_Cult"><s>Request immediate military aid</s><r>Запросите немедленную военную помощь</r></e>
+  <e k="K" key="RevealInformationCompleteText"><s>{0} has completed the Reveal Information ritual. A bizarre psychic pulse swept through, granting {0} the location of a secret site.</s><r>{0} завершил ритуал раскрытия информации. Причудливый психический импульс пронесся, сообщив {0} местонахождение секретного места.</r></e>
+  <e k="K" key="RitualGive"><s>ritual gived</s><r>ритуал данный</r></e>
+  <e k="K" key="SetEffectRadius"><s>set effect radius</s><r>установить радиус эффекта</r></e>
+  <e k="K" key="SetEffectRadiusDesc"><s>Set effect range, the larger the range, the greater the power consumption and bioferrite consumption</s><r>Установите диапазон эффекта: чем больше диапазон, тем больше потребляемая мощность и потребление биоферрита.</r></e>
+  <e k="K" key="SetEffectRadiusText"><s>target effect radius:{0}</s><r>радиус целевого эффекта:{0}</r></e>
+  <e k="K" key="ShipCooldownCompleteText"><s>{0} has completed the Ship Cooldown ritual. Influenced by the dark pulse, the GravEngine instantly completed its cooldown and will gain +{1} range offset on its next voyage.</s><r>{0} завершил ритуал восстановления корабля. Под влиянием темного импульса GravEngine мгновенно завершил перезарядку и в следующем путешествии увеличит смещение дальности на +{1}.</r></e>
+  <e k="K" key="TwistedReconstructionCompleteText"><s>{0} has completed the Twisted Reconstruction ritual. All gear equipped by {1} has been warped and reconfigured by the dark pulse, emerging in pristine condition.</s><r>{0} завершил ритуал Искажённой Реконструкции. Все снаряжение, экипированное {1}, было деформировано и изменено темным импульсом, и теперь оно находится в первозданном состоянии.</r></e>
+  <e k="K" key="TwistedReconstructionGreatSuccess"><s>{0} has completed the Twisted Reconstruction ritual. All gear equipped by {1} has been warped and reconfigured by the dark pulse, emerging in pristine condition. Additionally, {2} split apart during the process and dropped to the ground.</s><r>{0} завершил ритуал Искажённой Реконструкции. Все снаряжение, экипированное {1}, было деформировано и изменено темным импульсом, и теперь оно находится в первозданном состоянии. Кроме того, {2} во время процесса раскололся и упал на землю.</r></e>
+  <e k="K" key="UV_Cult_Comms_Creepjoiner"><s>Randomly recruit creepjoiner</s><r>Случайным образом нанять крипджойнера</r></e>
+  <e k="K" key="UV_Cult_Comms_OK"><s>the psychic pulse returns a message
+  &quot;my friend,your needs have been fulfilled &quot;</s><r>психический импульс возвращает сообщение
+ «друг мой, твои потребности были удовлетворены»</r></e>
+  <e k="K" key="UV_Cult_Comms_PsychicSoothe"><s>Request for psychic soothe</s><r>Просьба о психическом успокоении</r></e>
+  <e k="K" key="UV_Cult_Comms_Sharp"><s>Request for shard</s><r>Запрос на осколок</r></e>
+  <e k="K" key="UV_Cult_Comms_SkipAbduction"><s>skip abduction the target faction's unit</s><r>пропустить похищение отряда целевой фракции</r></e>
+  <e k="K" key="UV_Cult_Comms_SkipAbduction_SelectFaction"><s>select target faction</s><r>выберите целевую фракцию</r></e>
+  <e k="K" key="UV_DrawMonolithCompleteText"><s>The monolith has arrived</s><r>Монолит прибыл.</r></e>
+  <e k="K" key="UV_Setting_OnlySpace_Label"><s>Prohibit skip raids from appearing on the ground:</s><r>Запретить появление рейдов на земле:</r></e>
+  <e k="K" key="UV_Setting_PreventLaunchWithObelisk_Label"><s>Prevent gravship launch while an obelisk is present:</s><r>Запретить запуск гравилета при наличии обелиска:</r></e>
+  <e k="K" key="VoidUniverse"><s>Void Universe</s><r>Пустота Вселенной</r></e>
+</AutoTranslateCache>
