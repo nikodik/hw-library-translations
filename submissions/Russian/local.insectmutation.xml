@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="local.insectmutation" name="Insect Mutation 虫群突变" language="Russian" version="1">
+  <e k="D" t="AbilityDef" key="IM_Ability_AcidTide.description"><s>Empty the whole bile sac at once, splashing caustic fluid over everything nearby.</s><r>Опорожните сразу весь желчный мешок, обрызгав едкой жидкостью все, что находится рядом.</r></e>
+  <e k="D" t="AbilityDef" key="IM_Ability_AcidTide.label"><s>acid tide</s><r>кислотный прилив</r></e>
+  <e k="D" t="AbilityDef" key="IM_Ability_BileBurst.description"><s>Spit a splash of caustic bile at a spot on the ground, burning and coating everything around it.</s><r>Выплесните брызги едкой желчи в точку на земле, обжигая и покрывая все вокруг.</r></e>
+  <e k="D" t="AbilityDef" key="IM_Ability_BileBurst.label"><s>bile burst</s><r>выброс желчи</r></e>
+  <e k="D" t="AbilityDef" key="IM_Ability_BroodSurge.description"><s>Empty every chamber at once. The swarm that comes out is larger, and it holds together for far longer.</s><r>Опорожните каждую камеру сразу. Выходящий рой крупнее и держится вместе гораздо дольше.</r></e>
+  <e k="D" t="AbilityDef" key="IM_Ability_BroodSurge.label"><s>brood surge</s><r>всплеск выводка</r></e>
+  <e k="D" t="AbilityDef" key="IM_Ability_Detonate.description"><s>Rupture the acid glands on purpose. Everything nearby is sprayed with caustic ichor, and the insect does not survive it.</s><r>Нарочно разорвать кислотные железы. Все рядом забрызгано едкой сукровицей, и насекомое этого не переживает.</r></e>
+  <e k="D" t="AbilityDef" key="IM_Ability_Detonate.label"><s>detonate</s><r>взорвать</r></e>
+  <e k="D" t="AbilityDef" key="IM_Ability_FoldSpace.description"><s>Fold the space around itself and step out somewhere far away, without crossing the ground in between.</s><r>Сложите пространство вокруг себя и выйдите куда-нибудь далеко, не пересекая землю между ними.</r></e>
+  <e k="D" t="AbilityDef" key="IM_Ability_FoldSpace.label"><s>fold space</s><r>сложить пространство</r></e>
+  <e k="D" t="AbilityDef" key="IM_Ability_LayBrood.description"><s>Rupture a brood chamber and let a wave of short-lived swarmlings pour out. They will not last, but they will last long enough.</s><r>Разорвите гнездо и выпустите волну недолговечных стайок. Они не продлятся долго, но прослужат достаточно долго.</r></e>
+  <e k="D" t="AbilityDef" key="IM_Ability_LayBrood.label"><s>lay brood</s><r>откладывать выводок</r></e>
+  <e k="D" t="AbilityDef" key="IM_Ability_Leap.description"><s>Leap through the air to a nearby spot on its own legs, clearing everything in between.</s><r>Прыжок по воздуху в ближайшее место на собственных ногах, очищая все, что находится между ними.</r></e>
+  <e k="D" t="AbilityDef" key="IM_Ability_Leap.label"><s>mutant leap</s><r>мутантный прыжок</r></e>
+  <e k="D" t="AbilityDef" key="IM_Ability_Leap.verbProperties.label"><s>leap</s><r>прыгнуть</r></e>
+  <e k="D" t="AbilityDef" key="IM_Ability_SpineSpit.description"><s>Fire a hardened chitin spine at a distant target.</s><r>Выстрелите закаленным хитиновым шипом в отдаленную цель.</r></e>
+  <e k="D" t="AbilityDef" key="IM_Ability_SpineSpit.label"><s>spine spit</s><r>позвоночник</r></e>
+  <e k="D" t="AbilityDef" key="IM_Ability_SwarmWard.description"><s>Send a pulse through the hive link, hardening the carapace of every friendly insect nearby for a short time.</s><r>Отправьте импульс через связь улья, на короткое время укрепив панцирь каждого дружелюбного насекомого поблизости.</r></e>
+  <e k="D" t="AbilityDef" key="IM_Ability_SwarmWard.label"><s>swarm resonance</s><r>роевой резонанс</r></e>
+  <e k="D" t="AbilityDef" key="IM_Ability_TwinSpine.description"><s>Fire two hardened spines at once. Both punch straight through plate.</s><r>Выстрелите сразу двумя закаленными шипами. Оба пробивают пластину прямо насквозь.</r></e>
+  <e k="D" t="AbilityDef" key="IM_Ability_TwinSpine.label"><s>twin spine volley</s><r>двойной залп по позвоночнику</r></e>
+  <e k="D" t="AbilityDef" key="IM_Ability_VoidJump.description"><s>A far longer leap: the insect clears almost any obstacle in a single bound.</s><r>Гораздо более длинный прыжок: насекомое преодолевает практически любое препятствие одним прыжком.</r></e>
+  <e k="D" t="AbilityDef" key="IM_Ability_VoidJump.label"><s>void jump</s><r>прыжок в пустоту</r></e>
+  <e k="D" t="AbilityDef" key="IM_Ability_VoidJump.verbProperties.label"><s>void jump</s><r>прыжок в пустоту</r></e>
+  <e k="D" t="DamageDef" key="IM_SpinePierce.deathMessage"><s>{0} has been impaled to death.</s><r>{0} был пронзен насмерть.</r></e>
+  <e k="D" t="DamageDef" key="IM_SpinePierce.label"><s>spine</s><r>позвоночник</r></e>
+  <e k="D" t="HediffDef" key="IM_Breed_BileBomber.description"><s>Will judged stored acid wasted. Opened a mouth. This breed.
+
+Bulging acid reservoirs. It can vomit a splash of caustic bile over an area.</s><r>Будет считаться, что хранившаяся кислота потрачена зря. Открыл рот. Эта порода.
+
+Выпуклые кислотные резервуары. Он может вырвать брызги едкой желчи на определенную область.</r></e>
+  <e k="D" t="HediffDef" key="IM_Breed_BileBomber.label"><s>bile bomber breed</s><r>порода желчных бомбардировщиков</r></e>
+  <e k="D" t="HediffDef" key="IM_Breed_BileBomber.modExtensions.0.effectSummary"><s>Ability: bile burst - sprays a cone of acid at the target (same liquid-spray mechanic vanilla acid spray uses; no explosion) and stuns hostiles in the area. Sharp armor -8%.</s><r>Способность: взрыв желчи — распыляет на цель конус кислоты (такой же механика распыления жидкости, как и в случае с ванильным кислотным спреем; без взрыва) и оглушает врагов в области действия. Острая броня -8%.</r></e>
+  <e k="D" t="HediffDef" key="IM_Breed_Corpser.description"><s>Will demanded more. Three from one corpse. This breed.
+
+Its body is little more than a walking egg mass. When it dies, the mass ruptures and three grown swarmlings crawl out of the corpse.</s><r>Уилл потребовал большего. Трое из одного трупа. Эта порода.
+
+Его тело представляет собой не более чем ходячую яичную массу. Когда он умирает, масса разрывается, и из трупа вылезают три взрослых сгустка.</r></e>
+  <e k="D" t="HediffDef" key="IM_Breed_Corpser.label"><s>corpser breed</s><r>порода труперов</r></e>
+  <e k="D" t="HediffDef" key="IM_Breed_Corpser.modExtensions.0.effectSummary"><s>Upgrade of the splitter: 3 swarmlings instead of 2, and they last 75% longer. Bleeding +25%, move speed -5%.</s><r>Улучшение разделителя: 3 роя вместо 2, и они живут на 75% дольше. Кровотечение +25%, скорость передвижения -5%.</r></e>
+  <e k="D" t="HediffDef" key="IM_Breed_Detonator.description"><s>Will judged broken body still useful. Last weapon. This breed.
+
+A volatile abdomen of unstable acid glands. It can be set off on purpose, and it goes off on its own if the insect dies.</s><r>Уилл сочтет, что сломанное тело все еще полезно. Последнее оружие. Эта порода.
+
+Неустойчивое брюшко с нестабильными кислотными железами. Его можно запустить специально, и он сработает сам, если насекомое погибнет.</r></e>
+  <e k="D" t="HediffDef" key="IM_Breed_Detonator.label"><s>detonator breed</s><r>детонаторная порода</r></e>
+  <e k="D" t="HediffDef" key="IM_Breed_Detonator.modExtensions.0.effectSummary"><s>Ability: detonate (2x damage, 1.6x radius, kills the insect). Also explodes on death. Bleeding +15%.</s><r>Способность: взорвать (2x урон, 1,6x радиус, убивает насекомое). Также взрывается при смерти. Кровотечение +15%.</r></e>
+  <e k="D" t="HediffDef" key="IM_Breed_EggHost.description"><s>Will saw swarm too few in battle. Conceived this breed.</s><r>Уилл видел в бою слишком мало роев. Задумал эту породу.</r></e>
+  <e k="D" t="HediffDef" key="IM_Breed_EggHost.label"><s>egg host breed</s><r>порода-хозяин яйца</r></e>
+  <e k="D" t="HediffDef" key="IM_Breed_EggHost.modExtensions.0.effectSummary"><s>Ability: lay brood - instantly pours out a wave of short-lived swarmlings (about 6, scaled by body size; ~50s cooldown). Nothing comes out on its own. Move speed -15%, hunger +20%.</s><r>Способность: откладывать выводок — мгновенно выпускает волну недолговечных стад (около 6, в зависимости от размера тела; время восстановления ~50 с). Ничего не выходит само по себе. Скорость передвижения -15%, голод +20%.</r></e>
+  <e k="D" t="HediffDef" key="IM_Breed_Infecter.description"><s>Will judged plain kills wasted. Seeds larvae. This breed.
+
+An ovipositor cluster. Everything it kills is seeded with larvae that hatch into short-lived swarmlings.</s><r>Уилл сочтет простые убийства напрасными. Личинки семян. Эта порода.
+
+Скопление яйцеклада. Все, что он убивает, засеивается личинками, из которых вылупляются недолговечные рои.</r></e>
+  <e k="D" t="HediffDef" key="IM_Breed_Infecter.label"><s>infecter breed</s><r>заразить породу</r></e>
+  <e k="D" t="HediffDef" key="IM_Breed_Infecter.modExtensions.0.effectSummary"><s>Kills spawn 1-3 short-lived swarmlings; melee hit -5%.</s><r>Убийства порождают 1-3 недолговечных стаи; попадание в ближнем бою -5%.</r></e>
+  <e k="D" t="HediffDef" key="IM_Breed_Leaper.description"><s>Will studied strong hind legs. Took essence. Leap further. This breed.
+
+Long jumping legs and a light frame. It can launch itself across the battlefield.</s><r>Уилл изучал сильные задние ноги. Взял эссенцию. Прыгайте дальше. Эта порода.
+
+Длинные прыгучие ноги и легкий корпус. Он может перемещаться по полю боя.</r></e>
+  <e k="D" t="HediffDef" key="IM_Breed_Leaper.label"><s>leaper breed</s><r>порода прыгунов</r></e>
+  <e k="D" t="HediffDef" key="IM_Breed_Leaper.modExtensions.0.effectSummary"><s>Grants the mutant leap ability (teleport up to 9 tiles); melee dodge +10%.</s><r>Предоставляет мутантам способность прыгать (телепортироваться на расстояние до 9 клеток); уклонение в ближнем бою +10%.</r></e>
+  <e k="D" t="HediffDef" key="IM_Breed_Spitter.description"><s>Will compressed chitin to spines. Reach further. This breed.
+
+A spring-loaded spine launcher behind the head. It can fire hardened chitin spines at range.</s><r>Прижмет хитин к шипам. Двигайтесь дальше. Эта порода.
+
+Подпружиненная пусковая установка для позвоночника за головой. Он может стрелять закаленными хитиновыми шипами на расстоянии.</r></e>
+  <e k="D" t="HediffDef" key="IM_Breed_Spitter.label"><s>spine spitter breed</s><r>спинтер широкий</r></e>
+  <e k="D" t="HediffDef" key="IM_Breed_Spitter.modExtensions.0.effectSummary"><s>Grants spine spit (ranged piercing attack); heat armor -5%.</s><r>Предоставляет плевок в позвоночник (колющая атака дальнего боя); тепловая броня -5%.</r></e>
+  <e k="D" t="HediffDef" key="IM_Breed_Splitter.description"><s>Will judged one body could be two. Splits after death. This breed.
+
+Segmented, self-dividing tissue. When it dies the body tears itself into fresh swarmlings.</s><r>Уилл решил, что одного тела может быть два. Распадается после смерти. Эта порода.
+
+Сегментированная самоделящаяся ткань. Когда он умирает, тело разрывается на новые рои.</r></e>
+  <e k="D" t="HediffDef" key="IM_Breed_Splitter.label"><s>splitter breed</s><r>разделитель породы</r></e>
+  <e k="D" t="HediffDef" key="IM_Breed_Splitter.modExtensions.0.effectSummary"><s>On death, splits into 2 short-lived swarmlings; bleeding +20%.</s><r>После смерти распадается на 2 недолговечных стаи; кровотечение +20%.</r></e>
+  <e k="D" t="HediffDef" key="IM_Breed_Spore.description"><s>Will saw death unavoidable. Made it feed swarm. This breed.</s><r>Уилл считал смерть неизбежной. Заставил его кормить рой. Эта порода.</r></e>
+  <e k="D" t="HediffDef" key="IM_Breed_Spore.label"><s>spore breed</s><r>споровая порода</r></e>
+  <e k="D" t="HediffDef" key="IM_Breed_Spore.modExtensions.0.effectSummary"><s>On death, bursts into a spore cloud that EMPOWERS your own side: every friendly insect within 4.5 tiles gains the spore blessing for 50s (move speed +15%, damage taken -10%, sharp/blunt armor +0.10/+0.08, less pain, healing x1.5). Sharp armor -8%, hunger +10%.</s><r>После смерти взрывается облаком спор, которое УСИЛЯЕТ вашу сторону: каждое дружественное насекомое в радиусе 4,5 клеток получает благословение спор на 50 секунд (скорость передвижения +15%, получаемый урон -10%, острая/тупая броня +0,10/+0,08, меньше боли, исцеление x1,5). Острая броня -8%, голод +10%.</r></e>
+  <e k="D" t="HediffDef" key="IM_Breed_StorageSac.description"><s>Will saw supplies lacking. Grew a sac. This breed.</s><r>Уилл увидел недостаток припасов. Вырос мешок. Эта порода.</r></e>
+  <e k="D" t="HediffDef" key="IM_Breed_StorageSac.label"><s>storage sac breed</s><r>мешок для хранения породы</r></e>
+  <e k="D" t="HediffDef" key="IM_Breed_StorageSac.modExtensions.0.effectSummary"><s>After pupating it asks you to pick any item inside the colony's home area; it then produces that item periodically (default 10 silver of value per day, no lower bound on the wait, cheap items come in small piles). Hunger +25%, move speed -8%.</s><r>После окукливания он попросит вас выбрать любой предмет в домашней зоне колонии; Затем он периодически производит этот предмет (по умолчанию 10 серебра в день, нижняя граница ожидания отсутствует, дешевые предметы поступают небольшими кучками). Голод +25%, скорость передвижения -8%.</r></e>
+  <e k="D" t="HediffDef" key="IM_Breed_Vile.description"><s>Will wanted more than death. Death must spread. This breed.
+
+Blisters of caustic ichor cover its shell. When it bursts, everything hostile nearby is left coated in the stuff.</s><r>Уилл хотел большего, чем смерть. Смерть должна распространяться. Эта порода.
+
+ Его панцирь покрыт волдырями из едкой сукровицы. Когда он взрывается, все враждебные объекты поблизости остаются покрытыми этим веществом.</r></e>
+  <e k="D" t="HediffDef" key="IM_Breed_Vile.label"><s>vile breed</s><r>мерзкая порода</r></e>
+  <e k="D" t="HediffDef" key="IM_Breed_Vile.modExtensions.0.effectSummary"><s>Upgrade of the detonator: bigger blast, plus every hostile within 5 tiles is corroded (slower, softer, in pain) for 25s. Bleeding +20%.</s><r>Улучшение детонатора: более мощный взрыв, плюс все враги в радиусе 5 плиток подвергаются коррозии (медленнее, мягче, с болью) на 25 секунд. Кровотечение +20%.</r></e>
+  <e k="D" t="HediffDef" key="IM_Cocooning.description"><s>Pending mutations are queued inside this insect. It must spin a cocoon and finish pupating before the changes take hold.</s><r>Ожидаемые мутации стоят в очереди внутри этого насекомого. Он должен сплести кокон и закончить окукливание, прежде чем изменения закрепятся.</r></e>
+  <e k="D" t="HediffDef" key="IM_Cocooning.label"><s>cocooning</s><r>кокон</r></e>
+  <e k="D" t="HediffDef" key="IM_Corroded.description"><s>Caustic ichor is eating through the outer layers. Movement is impaired and every hit lands a little harder.</s><r>Едкая сукровица разъедает внешние слои. Движение затруднено, и каждый удар приходится немного сильнее.</r></e>
+  <e k="D" t="HediffDef" key="IM_Corroded.label"><s>corroded</s><r>разъеденный</r></e>
+  <e k="D" t="HediffDef" key="IM_FoldEcho.description"><s>For a few seconds the insect is still slightly out of phase with the space it just stepped through.</s><r>В течение нескольких секунд насекомое все еще находится немного не в фазе с пространством, через которое оно только что прошло.</r></e>
+  <e k="D" t="HediffDef" key="IM_FoldEcho.label"><s>fold echo</s><r>сложить эхо</r></e>
+  <e k="D" t="HediffDef" key="IM_Instability.description"><s>The mutation is not settled. While instability is high, the body may reject its own changes.</s><r>Мутация не решена. Пока нестабильность высока, организм может отвергать собственные изменения.</r></e>
+  <e k="D" t="HediffDef" key="IM_Instability.label"><s>mutation instability</s><r>мутационная нестабильность</r></e>
+  <e k="D" t="HediffDef" key="IM_LandShock.description"><s>A brief marker: this insect is mid-leap. Whatever is under it when it comes down is going to have a bad time.</s><r>Краткая отметка: это насекомое среднего прыжка. Что бы ни находилось под ним, когда оно упадет, ему придется плохо.</r></e>
+  <e k="D" t="HediffDef" key="IM_LandShock.label"><s>landing shock</s><r>шок приземления</r></e>
+  <e k="D" t="HediffDef" key="IM_MutationTarget.description"><s>This insect can be targeted for mutation or metamorphosis.</s><r>Это насекомое может стать целью мутации или метаморфоза.</r></e>
+  <e k="D" t="HediffDef" key="IM_MutationTarget.label"><s>mutation-capable</s><r>способный к мутациям</r></e>
+  <e k="D" t="HediffDef" key="IM_Mutation_Antennae.description"><s>Will wanted prey smelled sooner. Lengthened antennae. This breed.
+
+Dense chemoreceptive antennae read the air for movement. Improves hearing and melee accuracy.</s><r>Уилл хотел, чтобы добыча учуяла скорее. Удлиненные усики. Эта порода.
+
+Плотные хеморецепторные усики читают воздух на предмет движения. Улучшает слух и точность ближнего боя.</r></e>
+  <e k="D" t="HediffDef" key="IM_Mutation_Antennae.label"><s>antenna breed</s><r>антенна породы</r></e>
+  <e k="D" t="HediffDef" key="IM_Mutation_Antennae.modExtensions.0.effectSummary"><s>Hearing capacity and melee hit chance, scaled by body size and mutation level. Move speed -3% and constant mild pain.</s><r>Слух и шанс попадания в ближнем бою зависят от размера тела и уровня мутации. Скорость передвижения -3% и постоянная легкая боль.</r></e>
+  <e k="D" t="HediffDef" key="IM_Mutation_ArmorPlate.description"><s>Will studied layered plate. Took sequence. Stacked it. This breed.
+
+Overlapping chitin plates grown across the body. The heavier the creature, the thicker the plating.</s><r>Уилл изучал слоёную тарелку. Взял последовательность. Сложил. Эта порода.
+
+По телу растут перекрывающиеся хитиновые пластинки. Чем тяжелее существо, тем толще его покрытие.</r></e>
+  <e k="D" t="HediffDef" key="IM_Mutation_ArmorPlate.label"><s>armor plate breed</s><r>порода броневых пластин</r></e>
+  <e k="D" t="HediffDef" key="IM_Mutation_ArmorPlate.modExtensions.0.effectSummary"><s>Armor - Sharp and Blunt, scaled by body size and mutation level. Slightly reduces bleeding. Move speed -6%.</s><r>Броня — острая и тупая, зависит от размера тела и уровня мутации. Немного уменьшает кровотечение. Скорость передвижения -6%.</r></e>
+  <e k="D" t="HediffDef" key="IM_Mutation_Thorns.description"><s>Will saw swarm not strike back. Took barbs. Now spikes. This breed.
+
+Barbed spines erupt through the carapace. Anything that strikes the creature in melee is hurt in return.</s><r>Уилл увидел, что рой не нанес ответного удара. Взял барбусы. Теперь шипы. Эта порода.
+
+Из панциря прорываются шипы с шипами. Все, что поражает существо в ближнем бою, получает ответный урон.</r></e>
+  <e k="D" t="HediffDef" key="IM_Mutation_Thorns.label"><s>thorn spike breed</s><r>порода шипов шипов</r></e>
+  <e k="D" t="HediffDef" key="IM_Mutation_Thorns.modExtensions.0.effectSummary"><s>Deals scratch damage back to melee attackers; damage grows with body size and level. Bleeding +20%.</s><r>Наносит царапины обратно атакующим в ближнем бою; Урон растет вместе с размером и уровнем тела. Кровотечение +20%.</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_ArmorBlunt.description"><s>Points invested into this insect's armor - blunt.</s><r>Очки, вложенные в броню этого насекомого, - тупые.</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_ArmorBlunt.label"><s>attribute tuning: armor - blunt</s><r>настройка атрибута: броня - тупая</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_ArmorBlunt.modExtensions.0.effectSummary"><s>armor - blunt</s><r>броня - тупая</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_ArmorHeat.description"><s>Points invested into this insect's armor - heat.</s><r>Очки, вложенные в броню этого насекомого - тепло.</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_ArmorHeat.label"><s>attribute tuning: armor - heat</s><r>настройка атрибута: броня - тепло</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_ArmorHeat.modExtensions.0.effectSummary"><s>armor - heat</s><r>броня - тепло</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_ArmorSharp.description"><s>Points invested into this insect's armor - sharp.</s><r>Очки, вложенные в панцирь этого насекомого, - острые.</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_ArmorSharp.label"><s>attribute tuning: armor - sharp</s><r>настройка атрибута: броня - острая</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_ArmorSharp.modExtensions.0.effectSummary"><s>armor - sharp</s><r>броня - острая</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_CarryingCapacity.description"><s>Points invested into this insect's carrying capacity.</s><r>Очки вложены в грузоподъемность этого насекомого.</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_CarryingCapacity.label"><s>attribute tuning: carrying capacity</s><r>настройка атрибута: грузоподъемность</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_CarryingCapacity.modExtensions.0.effectSummary"><s>carrying capacity</s><r>грузоподъемность</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_ComfyTempMax.description"><s>Points invested into this insect's heat tolerance.</s><r>Очки, вложенные в жароустойчивость этого насекомого.</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_ComfyTempMax.label"><s>attribute tuning: heat tolerance</s><r>настройка атрибута: термостойкость</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_ComfyTempMax.modExtensions.0.effectSummary"><s>heat tolerance</s><r>жароустойчивость</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_Immunity.description"><s>Points invested into this insect's immunity gain.</s><r>Очки, вложенные в повышение иммунитета этого насекомого.</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_Immunity.label"><s>attribute tuning: immunity gain</s><r>настройка атрибута: усиление иммунитета</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_Immunity.modExtensions.0.effectSummary"><s>immunity gain (multiplier)</s><r>прирост иммунитета (множитель)</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_IncomingDamage.description"><s>Points invested into this insect's damage taken.</s><r>Очки, вложенные в полученный этим насекомым урон.</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_IncomingDamage.label"><s>attribute tuning: damage taken</s><r>настройка атрибута: получаемый урон</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_IncomingDamage.modExtensions.0.effectSummary"><s>damage taken (multiplier)</s><r>полученный урон (множитель)</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_MeleeDamageFactor.description"><s>Points invested into this insect's melee damage.</s><r>Очки, вложенные в урон в ближнем бою этого насекомого.</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_MeleeDamageFactor.label"><s>attribute tuning: melee damage</s><r>настройка атрибута: урон в ближнем бою</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_MeleeDamageFactor.modExtensions.0.effectSummary"><s>melee damage (multiplier)</s><r>урон в ближнем бою (множитель)</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_MeleeDodgeChance.description"><s>Points invested into this insect's melee dodge.</s><r>Очки, вложенные в уклонение этого насекомого в ближнем бою.</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_MeleeDodgeChance.label"><s>attribute tuning: melee dodge</s><r>настройка атрибута: уклонение в ближнем бою</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_MeleeDodgeChance.modExtensions.0.effectSummary"><s>melee dodge</s><r>уклонение в ближнем бою</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_MeleeHitChance.description"><s>Points invested into this insect's melee hit chance.</s><r>Очки, вложенные в шанс попадания этого насекомого в ближнем бою.</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_MeleeHitChance.label"><s>attribute tuning: melee hit chance</s><r>настройка атрибута: шанс попадания в ближнем бою</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_MeleeHitChance.modExtensions.0.effectSummary"><s>melee hit chance</s><r>шанс попадания в ближнем бою</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_MoveSpeed.description"><s>Points invested into this insect's move speed.</s><r>Очки вложены в скорость передвижения этого насекомого.</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_MoveSpeed.label"><s>attribute tuning: move speed</s><r>настройка атрибута: скорость перемещения</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_MoveSpeed.modExtensions.0.effectSummary"><s>move speed (multiplier)</s><r>скорость перемещения (множитель)</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_PainShock.description"><s>Points invested into this insect's pain threshold.</s><r>Очки, вложенные в болевой порог этого насекомого.</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_PainShock.label"><s>attribute tuning: pain threshold</s><r>настройка атрибута: болевой порог</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_PainShock.modExtensions.0.effectSummary"><s>pain threshold</s><r>болевой порог</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_RangedCooldown.description"><s>Points invested into this insect's ranged cooldown.</s><r>Очки, вложенные в перезарядку дальнего боя этого насекомого.</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_RangedCooldown.label"><s>attribute tuning: ranged cooldown</s><r>настройка атрибута: дальний кулдаун</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_RangedCooldown.modExtensions.0.effectSummary"><s>ranged cooldown (multiplier)</s><r>перезарядка дальнего боя (множитель)</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_ShootingAccuracy.description"><s>Points invested into this insect's shooting accuracy.</s><r>Очки, вложенные в точность стрельбы этого насекомого.</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_ShootingAccuracy.label"><s>attribute tuning: shooting accuracy</s><r>настройка атрибута: точность стрельбы</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_ShootingAccuracy.modExtensions.0.effectSummary"><s>shooting accuracy</s><r>точность стрельбы</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_WorkSpeed.description"><s>Points invested into this insect's work speed.</s><r>Очки, вложенные в скорость работы этого насекомого.</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_WorkSpeed.label"><s>attribute tuning: work speed</s><r>настройка атрибута: скорость работы</r></e>
+  <e k="D" t="HediffDef" key="IM_Point_WorkSpeed.modExtensions.0.effectSummary"><s>work speed (multiplier)</s><r>скорость работы (множитель)</r></e>
+  <e k="D" t="HediffDef" key="IM_Spec_Assault.label"><s>specialization: assault</s><r>специализация: нападение</r></e>
+  <e k="D" t="HediffDef" key="IM_Spec_Assault.modExtensions.0.effectSummary"><s>attacks up to 30% faster, hit chance up to +35%; costs -15% sharp and -10% blunt armor</s><r>атакует до 30% быстрее, шанс попадания до +35%; стоит -15% острой и -10% тупой брони.</r></e>
+  <e k="D" t="HediffDef" key="IM_Spec_Bastion.label"><s>specialization: bastion</s><r>специализация: бастион</r></e>
+  <e k="D" t="HediffDef" key="IM_Spec_Bastion.modExtensions.0.effectSummary"><s>all three armors up to +45%/+35%/+28%, bleeding -25%; costs -8% move speed</s><r>все три доспеха до +45%/+35%/+28%, кровотечение -25%; стоит -8% скорости передвижения</r></e>
+  <e k="D" t="HediffDef" key="IM_Spec_Frugal.label"><s>specialization: frugal</s><r>специализация: бережливый</r></e>
+  <e k="D" t="HediffDef" key="IM_Spec_Frugal.modExtensions.0.effectSummary"><s>hunger -45%, rest need -30%; costs +10% pain</s><r>голод -45%, потребность в отдыхе -30%; стоит +10% боли</r></e>
+  <e k="D" t="HediffDef" key="IM_Spec_HeavyShell.label"><s>specialization: heavyshell</s><r>специализация: тяжелый снаряд</r></e>
+  <e k="D" t="HediffDef" key="IM_Spec_HeavyShell.modExtensions.0.effectSummary"><s>all incoming damage -8% to -20% (acid and fire included); costs +15% hunger</s><r>весь входящий урон от -8% до -20% (включая кислоту и огонь); стоит +15% голода</r></e>
+  <e k="D" t="HediffDef" key="IM_Spec_Keen.label"><s>specialization: keen</s><r>специализация: увлеченный</r></e>
+  <e k="D" t="HediffDef" key="IM_Spec_Keen.modExtensions.0.effectSummary"><s>dodge up to +35%, move up to +8%, hit chance +10%; costs -10% sharp armor</s><r>уклонение до +35%, перемещение до +8%, шанс попадания +10%; стоит -10% острой брони</r></e>
+  <e k="D" t="HediffDef" key="IM_Spec_LightMolt.label"><s>specialization: lightmolt</s><r>специализация: светлая линька</r></e>
+  <e k="D" t="HediffDef" key="IM_Spec_LightMolt.modExtensions.0.effectSummary"><s>bleeding -30%, natural healing +40%, move up to +12%; costs -15% sharp armor</s><r>кровотечение -30%, естественное лечение +40%, перемещение до +12%; стоит -15% острой брони</r></e>
+  <e k="D" t="HediffDef" key="IM_Spec_Regrowth.label"><s>specialization: regrowth</s><r>специализация: рост</r></e>
+  <e k="D" t="HediffDef" key="IM_Spec_Regrowth.modExtensions.0.effectSummary"><s>natural healing doubled, and wounds keep closing on their own; costs +10% bleeding</s><r>естественное заживление увеличилось вдвое, а раны продолжают закрываться сами по себе; стоит +10% кровотечения</r></e>
+  <e k="D" t="HediffDef" key="IM_Spec_Sealed.label"><s>specialization: sealed</s><r>специализация: запечатанный</r></e>
+  <e k="D" t="HediffDef" key="IM_Spec_Sealed.modExtensions.0.effectSummary"><s>bleeding -45%, acid resist -40% to -50%, fire resist -30% to -40%; costs -40% natural healing</s><r>кровотечение -45%, сопротивление кислоте -40% до -50%, сопротивление огню -30% до -40%; стоит -40% естественного лечения</r></e>
+  <e k="D" t="HediffDef" key="IM_Spec_Stoic.label"><s>specialization: stoic</s><r>специализация: стоик</r></e>
+  <e k="D" t="HediffDef" key="IM_Spec_Stoic.modExtensions.0.effectSummary"><s>never slowed or downed by pain; move +6% to +10%; costs -20% natural healing</s><r>никогда не замедлялся и не замедлялся из-за боли; переместить от +6% до +10%; стоит -20% естественного лечения</r></e>
+  <e k="D" t="HediffDef" key="IM_Spec_Vigor.label"><s>specialization: vigor</s><r>специализация: энергичность</r></e>
+  <e k="D" t="HediffDef" key="IM_Spec_Vigor.modExtensions.0.effectSummary"><s>sleeps 25% less, heals wounds up to +30% faster, resists disease up to +25%; costs +25% hunger</s><r>спит на 25% меньше, заживляет раны до +30% быстрее, сопротивляется болезням до +25%; стоит +25% голода</r></e>
+  <e k="D" t="HediffDef" key="IM_SporeBlessing.description"><s>The spore cloud settles into the swarm's own tissues and wakes them up: faster, harder, and knitting themselves back together.</s><r>Облако спор оседает в собственных тканях роя и пробуждает его: быстрее, сильнее и снова скрепляя себя вместе.</r></e>
+  <e k="D" t="HediffDef" key="IM_SporeBlessing.label"><s>spore blessing</s><r>благословение спор</r></e>
+  <e k="D" t="HediffDef" key="IM_SporeBlessingGreater.description"><s>A thick, deliberate cloud of the swarm's own spores. Everything it touches comes out of it faster and far harder to kill.</s><r>Густое, намеренное облако собственных спор роя. Все, к чему он прикасается, выходит из него быстрее, и его гораздо труднее убить.</r></e>
+  <e k="D" t="HediffDef" key="IM_SporeBlessingGreater.label"><s>greater spore blessing</s><r>великое благословение спор</r></e>
+  <e k="D" t="HediffDef" key="IM_Spored.description"><s>Spores are germinating in the airways and joints. Every movement grinds, and the tissues are softening from the inside.</s><r>Споры прорастают в дыхательных путях и суставах. Каждое движение растирает, а ткани размягчаются изнутри.</r></e>
+  <e k="D" t="HediffDef" key="IM_Spored.label"><s>spore infested</s><r>зараженный спорами</r></e>
+  <e k="D" t="HediffDef" key="IM_TemporaryLarva.description"><s>This body was grown in a hurry and cannot sustain itself for long.</s><r>Это тело выросло в спешке и не может долго поддерживать себя.</r></e>
+  <e k="D" t="HediffDef" key="IM_TemporaryLarva.label"><s>unstable growth</s><r>нестабильный рост</r></e>
+  <e k="D" t="HediffDef" key="IM_Unstable_Clot.description"><s>Thickened, sluggish hemolymph. The heart strains and wounds keep weeping.</s><r>Сгущенная, вялая гемолимфа. Сердце напрягается, а раны продолжают плакать.</r></e>
+  <e k="D" t="HediffDef" key="IM_Unstable_Clot.label"><s>hemolymph sludge</s><r>осадок гемолимфы</r></e>
+  <e k="D" t="HediffDef" key="IM_Unstable_Decay.description"><s>The body is fighting its own edits, and losing ground while it does.</s><r>Тело борется со своими собственными изменениями и при этом теряет позиции.</r></e>
+  <e k="D" t="HediffDef" key="IM_Unstable_Decay.label"><s>tissue rejection</s><r>отторжение тканей</r></e>
+  <e k="D" t="HediffDef" key="IM_Unstable_Hunger.description"><s>The body burns fuel trying to stabilise itself. The creature bleeds and hungers more.</s><r>Организм сжигает топливо, пытаясь стабилизировать себя. Существо истекает кровью и голодает еще больше.</r></e>
+  <e k="D" t="HediffDef" key="IM_Unstable_Hunger.label"><s>ravenous metabolism</s><r>голодный метаболизм</r></e>
+  <e k="D" t="HediffDef" key="IM_Unstable_Pain.description"><s>Nerve clusters fire at random, leaving the creature in constant discomfort.</s><r>Нервные узлы срабатывают беспорядочно, оставляя существо в постоянном дискомфорте.</r></e>
+  <e k="D" t="HediffDef" key="IM_Unstable_Pain.label"><s>neural misfire</s><r>нейронная осечка</r></e>
+  <e k="D" t="HediffDef" key="IM_Unstable_Senses.description"><s>New chemoreceptors fire without pattern, drowning out useful signal.</s><r>Новые хеморецепторы срабатывают бессистемно, заглушая полезный сигнал.</r></e>
+  <e k="D" t="HediffDef" key="IM_Unstable_Senses.label"><s>sensory overload</s><r>сенсорная перегрузка</r></e>
+  <e k="D" t="HediffDef" key="IM_Unstable_Shell.description"><s>The new plating has grown out of true, leaving weak seams in the carapace.</s><r>Новая обшивка отросла, оставив слабые швы на панцире.</r></e>
+  <e k="D" t="HediffDef" key="IM_Unstable_Shell.label"><s>shell misalignment</s><r>перекос корпуса</r></e>
+  <e k="D" t="HediffDef" key="IM_Unstable_Spasm.description"><s>Spiracles and muscle anchors twitch out of sync, and every twitch hurts.</s><r>Дыхальца и мышечные якоря дергаются не синхронно, и каждое подергивание причиняет боль.</r></e>
+  <e k="D" t="HediffDef" key="IM_Unstable_Spasm.label"><s>muscular spasm</s><r>мышечный спазм</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_AcidTide.description"><s>Will enlarged glands. Wider spray. This breed.
+
+The bile glands hold far more, and the splash clings to every surface it touches.</s><r>Будут увеличены железы. Более широкий распыл. Эта порода.
+
+Жёлчные железы удерживают гораздо больше, и брызги прилипают к каждой поверхности, к которой прикасаются.</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_AcidTide.label"><s>acid tide breed</s><r>порода кислотного прилива</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_AcidTide.modExtensions.0.effectSummary"><s>upgrade of the bile bomber breed: acid tide sprays 11 cells in a wider cone and stuns over a bigger area; costs -12% sharp armor</s><r>модернизация породы желчных бомбардировщиков: кислотный прилив распыляет 11 клеток в более широком конусе и оглушает на большей площади; стоит -12% острой брони</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_Berserker.description"><s>Will discarded defense. Attack faster. This breed.
+
+All restraint is gone: it strikes twice as often and far harder, with almost no regard for its own shell.</s><r>Уилл сбросил защиту. Атакуйте быстрее. Эта порода.
+
+Всякая сдержанность пропала: она бьет в два раза чаще и гораздо сильнее, почти не обращая внимания на собственный панцирь.</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_Berserker.label"><s>berserker breed</s><r>порода берсерков</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_Berserker.modExtensions.0.effectSummary"><s>upgrade of the assault breed: attack rate up to +80%, melee damage +35%, hit chance +20%; costs -30%/-20% armor and +20% pain</s><r>улучшение штурмовой породы: скорость атаки до +80%, урон в ближнем бою +35%, шанс попадания +20%; стоит -30%/-20% брони и +20% боли.</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_BroodQueen.description"><s>Will demanded more, sooner. Stronger brood tissue. This breed.</s><r>Уилл потребовал большего и скорее. Более прочная ткань расплода. Эта порода.</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_BroodQueen.label"><s>brood queen breed</s><r>порода выводковой королевы</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_BroodQueen.modExtensions.0.effectSummary"><s>Upgrade of the egg host: ability brood surge - about 10 swarmlings per use (scaled by body size) that live 50% longer, plus a slightly armoured abdomen (sharp +6%). Move speed -20%, hunger +25%.</s><r>Улучшение яичного хозяина: способность «Всплеск выводка» — около 10 сгустков за одно использование (в зависимости от размера тела), которые живут на 50% дольше, плюс слегка бронированное брюшко (острый +6%). Скорость передвижения -20%, голод +25%.</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_BulwarkShell.description"><s>Will traded food for shell. This breed.
+
+A layered, self-sealing shell that eats damage of every kind. It costs a great deal of food to maintain.</s><r>Обменяю еду на ракушки. Эта порода.
+
+Слоистая самозапечатывающаяся оболочка, поглощающая любые повреждения. Содержание еды требует больших затрат.</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_BulwarkShell.label"><s>bulwark shell breed</s><r>порода оплота</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_BulwarkShell.modExtensions.0.effectSummary"><s>upgrade of the heavy shell breed: all incoming damage -15% to -28%, plus some armor on all three; costs +30% hunger and -6% move speed</s><r>апгрейд породы тяжелых снарядов: весь входящий урон от -15% до -28%, плюс немного брони на всех трех; стоит +30% голода и -6% скорости передвижения.</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_Citadel.description"><s>Will pushed shell to limit. Slower. Acceptable. This breed.
+
+A walking fortress. Nothing gets through quickly, and nothing about it is quick either.</s><r>Уилл подтолкнет оболочку к пределу. Помедленнее. Приемлемый. Эта порода.
+
+ Ходячая крепость. Ничто не проходит быстро, и ничто в этом деле не происходит быстро.</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_Citadel.label"><s>citadel breed</s><r>цитадель породы</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_Citadel.modExtensions.0.effectSummary"><s>upgrade of the bastion breed: all three armors up to +65%/+50%/+40%, bleeding -35%; costs -15% move speed and +25% rest need</s><r>апгрейд породы-бастиона: все три доспеха до +65%/+50%/+40%, кровотечение -35%; стоит -15% скорости передвижения и +25% необходимости отдыха.</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_CompoundEye.description"><s>Will multiplied eyes. Wider sight, faster reflex. This breed.
+
+Thousands of lenses read the fight at once: it sees every blow coming and lands its own.</s><r>Умножатся глаза. Более широкое зрение, более быстрая реакция. Эта порода.
+
+Тысячи линз одновременно читают бой: он видит каждый приближающийся удар и наносит свой собственный.</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_CompoundEye.label"><s>compound eye breed</s><r>сложная порода глаз</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_CompoundEye.modExtensions.0.effectSummary"><s>upgrade of the antennae breed: dodge up to +45%, hit chance up to +40%; costs +15% pain</s><r>апгрейд породы усиков: уклонение до +45%, шанс попадания до +40%; стоит +15% боли</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_CrystalCarapace.description"><s>Will grew mineral in. Harder shell. This breed.
+
+The shell is laced with mineral lattice: harder in every way, but it no longer regrows easily.</s><r>Будет расти минерал. Более твердая скорлупа. Эта порода.
+
+Оболочка покрыта минеральной решеткой: более твердой во всех отношениях, но она уже не так легко отрастает.</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_CrystalCarapace.label"><s>crystal carapace breed</s><r>кристалл панцирной породы</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_CrystalCarapace.modExtensions.0.effectSummary"><s>upgrade of the armorplate breed: all three armors up to +75%/+60%/+45%, all damage -10%, bleeding -25%; costs -30% natural healing</s><r>апгрейд доспеховой породы: все три доспеха до +75%/+60%/+45%, весь урон -10%, кровотечение -25%; стоит -30% естественного лечения</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_Dormant.description"><s>Will set it to burn less. Wait longer. This breed.
+
+Its metabolism can idle almost completely: weeks of work on a mouthful. It is slow and it hurts more.</s><r>Поставлю меньше гореть. Подождите дольше. Эта порода.
+
+Его метаболизм может практически полностью простаивать: недели работы над глотком. Это медленно и больнее.</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_Dormant.label"><s>dormant breed</s><r>спящая порода</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_Dormant.modExtensions.0.effectSummary"><s>upgrade of the frugal breed: hunger -70%, rest need -50%; costs -10% move speed and +20% pain</s><r>апгрейд бережливой породы: голод -70%, потребность в отдыхе -50%; стоит -10% скорости передвижения и +20% боли.</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_Fearless.description"><s>Will cut fear. Swarm has no use. This breed.
+
+No pain and no panic. It never breaks, never flees, and keeps working while it comes apart.</s><r>Избавится от страха. Рой бесполезен. Эта порода.
+
+Никакой боли и никакой паники. Он никогда не ломается, никогда не убегает и продолжает работать, пока разваливается.</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_Fearless.label"><s>fearless breed</s><r>бесстрашная порода</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_Fearless.modExtensions.0.effectSummary"><s>upgrade of the stoic breed: never slowed or downed by pain and never flees in panic; move +15%; costs -35% natural healing</s><r>улучшение стоической породы: никогда не замедляется и не сбивается из-за боли и никогда не убегает в панике; двигаться +15%; стоит -35% естественного лечения</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_Gale.description"><s>Will removed excess. Speed remains. This breed.
+
+Built for pure speed: it crosses ground faster than anything its size should, and slips most blows.</s><r>Удалим лишнее. Скорость осталась. Эта порода.
+
+Создана исключительно для скорости: она пересекает землю быстрее, чем может позволить себе ее размер, и уклоняется от большинства ударов.</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_Gale.label"><s>gale breed</s><r>штормовая порода</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_Gale.modExtensions.0.effectSummary"><s>upgrade of the keen breed: move up to +28%, dodge up to +45%; costs -20% sharp and -10% heat armor</s><r>апгрейд ловкой породы: двигаться до +28%, уворачиваться до +45%; стоит -20% остроты и -10% тепловой брони.</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_GreatSac.description"><s>Will judged sac too small. Doubled it. This breed.</s><r>Уилл посчитал мешок слишком маленьким. Удвоил. Эта порода.</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_GreatSac.label"><s>great sac breed</s><r>отличная сакская порода</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_GreatSac.modExtensions.0.effectSummary"><s>Upgrade of the storage sac: 24 silver of value per day (2.4x) and bigger piles. Hunger +35%, move speed -10%.</s><r>Улучшение мешка для хранения: 24 серебра в день (2,4x) и стопки побольше. Голод +35%, скорость передвижения -10%.</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_Immune.description"><s>Will sealed toxin and flame out. This breed.
+
+Nothing gets in or out: acid, fire and toxins are all shrugged off. Its own healing never works properly again.</s><r>Запечатает токсин и погаснет. Эта порода.
+
+Ничто не проникает и не выходит: кислота, огонь и токсины отбрасываются. Его собственное исцеление никогда больше не работает должным образом.</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_Immune.label"><s>immune breed</s><r>иммунная порода</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_Immune.modExtensions.0.effectSummary"><s>upgrade of the sealed breed: bleeding -60%, acid and fire resist -60%, and poison immunity; costs -55% natural healing and -5% move speed</s><r>апгрейд запечатанной породы: кровотечение -60%, сопротивление кислоте и огню -60%, иммунитет к яду; стоит -55% естественного лечения и -5% скорости передвижения.</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_Impaler.description"><s>Will judged two spines surer. This breed.
+
+Two spines leave the body at once, and they punch through plate.</s><r>Уилл более уверен в двух шипах. Эта порода.
+
+ Сразу два шипа выходят из тела и пробивают пластину.</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_Impaler.label"><s>impaler breed</s><r>порода Цепеша</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_Impaler.modExtensions.0.effectSummary"><s>upgrade of the spine spitter breed: twin spine volley fires two armor-piercing spines at once; costs -10% heat armor</s><r>модернизация породы шипоплетов: спаренный залп стреляет сразу двумя бронебойными шипами; стоит -10% тепловой брони</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_PhantomMolt.description"><s>Will judged shell could be lighter. Shed. Kept speed. This breed.
+
+Almost no shell at all: it bleeds barely, dodges well and moves like a shadow.</s><r>По мнению Уилла, оболочка могла бы быть легче. Сбрасывать. Скорость держал. Эта порода.
+
+Панциря почти нет: почти не кровоточит, хорошо уворачивается и движется как тень.</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_PhantomMolt.label"><s>phantom molt breed</s><r>порода фантомной линьки</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_PhantomMolt.modExtensions.0.effectSummary"><s>upgrade of the light molt breed: bleeding -45%, move up to +20%, dodge up to +30%; costs -25% sharp armor</s><r>апгрейд породы легкой линьки: кровотечение -45%, перемещение до +20%, уклонение до +30%; стоит -25% острой брони</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_Regenerator.description"><s>Will demanded even permanent damage regrown. This breed.
+
+Wounds close while it walks, and even ruined tissue is rebuilt given time. All of that costs blood and food.</s><r>Уилл потребовал, чтобы даже необратимые повреждения возродились. Эта порода.
+
+Раны затягиваются во время ходьбы, и даже разрушенные ткани со временем восстанавливаются. Все это стоит крови и еды.</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_Regenerator.label"><s>regenerator breed</s><r>регенераторная порода</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_Regenerator.modExtensions.0.effectSummary"><s>upgrade of the regrowth breed: natural healing tripled, constant regeneration, and even permanent injuries slowly grow back; costs +25% bleeding and +20% hunger</s><r>модернизация отрастающей породы: естественное заживление утроено, постоянная регенерация, и даже необратимые травмы медленно зарастают; стоит +25% кровотечения и +20% голода.</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_SpineKing.description"><s>Will weighted spines. Two layers, one strike. This breed.
+
+Every plate carries a long, hardened spine. Attackers are impaled rather than scratched.</s><r>Будут утяжелены шипы. Два слоя, один удар. Эта порода.
+
+Каждая пластина имеет длинный закаленный шип. Нападавших скорее пронзают, чем царапают.</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_SpineKing.label"><s>spine king breed</s><r>порода короля позвоночника</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_SpineKing.modExtensions.0.effectSummary"><s>upgrade of the thorns breed: thorns damage doubled and it pierces armor; hit chance up to +25%; costs -5% move speed</s><r>апгрейд породы шипов: урон шипов увеличен вдвое и они пробивают броню; шанс попадания до +25%; стоит -5% скорости передвижения</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_SporeKing.description"><s>Will demanded more from death. Cloud hides young. This breed.</s><r>Уилл требовал от смерти большего. Облако прячет молодых. Эта порода.</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_SporeKing.label"><s>spore king breed</s><r>порода короля спор</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_SporeKing.modExtensions.0.effectSummary"><s>Upgrade of the spore breed: 6.5-tile blessing cloud for 75s and a stronger one (move speed +25%, damage taken -18%, healing x2), plus 2 short-lived swarmlings crawl out of the corpse. Sharp armor -8%, hunger +15%.</s><r>Улучшение породы спор: облако благословения размером 6,5 плитки на 75 секунд и более сильное (скорость передвижения +25%, получаемый урон -18%, лечение x2), плюс из трупа выползают 2 недолговечных роя. Острая броня -8%, голод +15%.</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_Titan.description"><s>Will poured nutrients into muscle. Carries more. This breed.
+
+Denser muscle on the same frame: it hits harder, carries far more and mends faster. It also eats like a furnace.</s><r>Уилл влил питательные вещества в мышцы. Несёт больше. Эта порода.
+
+Более плотные мышцы на одном корпусе: они бьют сильнее, несут гораздо большую нагрузку и быстрее восстанавливаются. Он также ест как печь.</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_Titan.label"><s>titan breed</s><r>порода титанов</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_Titan.modExtensions.0.effectSummary"><s>upgrade of the vigor breed: melee damage +25%, natural healing +60%, carrying capacity +90; costs +20% hunger</s><r>улучшение породы Энергии: урон в ближнем бою +25%, естественное лечение +60%, грузоподъемность +90; стоит +20% голода</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_Voidjumper.description"><s>Will strengthened legs. Leap further. This breed.
+
+The fold reaches much further, and the insect lands already twisting away from the next blow.</s><r>Будут укреплены ноги. Прыгайте дальше. Эта порода.
+
+Складка тянется гораздо дальше, и насекомое приземляется, уже изворачиваясь от следующего удара.</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_Voidjumper.label"><s>voidjumper breed</s><r>порода прыгуна пустоты</r></e>
+  <e k="D" t="HediffDef" key="IM_Var_Voidjumper.modExtensions.0.effectSummary"><s>upgrade of the leaper breed: void jump reaches 18 tiles; dodge up to +25%; costs -15% sharp armor</s><r>улучшение породы прыгунов: прыжок в пустоту достигает 18 плиток; уклонение до +25%; стоит -15% острой брони</r></e>
+  <e k="D" t="HediffDef" key="IM_Ward_Carapace.description"><s>The hive link thickens this insect's shell for a short while.</s><r>Звено улья на короткое время утолщает панцирь этого насекомого.</r></e>
+  <e k="D" t="HediffDef" key="IM_Ward_Carapace.label"><s>resonant carapace</s><r>резонансный панцирь</r></e>
+  <e k="D" t="HediffDef" key="IM_WildScanMark.description"><s>Internal marker: this wild creature has already been rolled for mutation.</s><r>Внутренний маркер: это дикое существо уже подвергалось мутации.</r></e>
+  <e k="D" t="HediffDef" key="IM_WildScanMark.label"><s>wild mutation checked</s><r>дикая мутация проверена</r></e>
+  <e k="D" t="JobDef" key="IM_Job_Cocoon.reportString"><s>Cocooning.</s><r>Коконирование.</r></e>
+  <e k="D" t="ResearchProjectDef" key="IM_MutationBasics.description"><s>Primer pheromones and refined jelly can be used to rewrite a single insect's body. Unlocks the mutation serum and the basic mutation lines.</s><r>Праймерные феромоны и рафинированное желе можно использовать для перезаписи тела одного насекомого. Открывает мутационную сыворотку и основные линии мутаций.</r></e>
+  <e k="D" t="ResearchProjectDef" key="IM_MutationBasics.label"><s>swarm mutation</s><r>роевая мутация</r></e>
+  <e k="D" t="ResearchProjectDef" key="IM_MutationStability.description"><s>Staged dosing keeps a mutation from tearing itself apart. Raises the per-attribute point cap from 8 to 15, and unlocks the major mutation lines.</s><r>Поэтапное дозирование не дает мутации разорваться на части. Повышает максимальное количество очков для каждого атрибута с 8 до 15 и открывает основные линии мутаций.</r></e>
+  <e k="D" t="ResearchProjectDef" key="IM_MutationStability.label"><s>mutation stability</s><r>мутационная стабильность</r></e>
+  <e k="D" t="ResearchProjectDef" key="IM_SwarmCultivation.description"><s>Feeding an insect its own weight in jelly, over and over, does not just heal it: the mutation already inside it deepens. Unlocks growing an existing breed past its first level.</s><r>Скармливание насекомому желе собственного веса снова и снова не просто лечит его: мутация, уже находящаяся внутри него, углубляется. Открывает возможность выращивания существующей породы после ее первого уровня.</r></e>
+  <e k="D" t="ResearchProjectDef" key="IM_SwarmCultivation.label"><s>swarm cultivation</s><r>роевое выращивание</r></e>
+  <e k="D" t="ResearchProjectDef" key="IM_SwarmSpecialization.description"><s>The hive will can steer individual insects down dedicated paths instead of treating the swarm as one mass. Unlocks per-insect specialization branches.</s><r>Улей может направлять отдельных насекомых по выделенным путям, вместо того, чтобы рассматривать рой как одну массу. Открывает ветки специализации для каждого насекомого.</r></e>
+  <e k="D" t="ResearchProjectDef" key="IM_SwarmSpecialization.label"><s>swarm specialization</s><r>роевая специализация</r></e>
+  <e k="D" t="ResearchTabDef" key="IM_ResearchTab.generalDescription"><s>Pheromones and refined jelly can rewrite the body of a single insect. The hive will can also steer individuals down dedicated breed paths.</s><r>Феромоны и рафинированное желе способны переписать тело одного насекомого. Улей также может направлять особей по специальному пути размножения.</r></e>
+  <e k="D" t="ResearchTabDef" key="IM_ResearchTab.generalTitle"><s>Hive research</s><r>Исследование улья</r></e>
+  <e k="D" t="ResearchTabDef" key="IM_ResearchTab.label"><s>hive research</s><r>исследование улья</r></e>
+  <e k="D" t="ThingDef" key="IM_AcidGlob.label"><s>acid glob</s><r>кислотный шарик</r></e>
+  <e k="D" t="ThingDef" key="IM_Cocoon.description"><s>A hardened silk-and-chitin cocoon. Something is rewriting itself inside.</s><r>Затвердевший кокон из шелка и хитина. Что-то переписывается внутри.</r></e>
+  <e k="D" t="ThingDef" key="IM_Cocoon.label"><s>mutation cocoon</s><r>мутационный кокон</r></e>
+  <e k="D" t="ThingDef" key="IM_SpineProjectile.label"><s>chitin spine</s><r>хитиновый позвоночник</r></e>
+  <e k="K" key="IM_Batch_BlockedTail"><s>{0} more cannot be queued: {1}</s><r>{0} больше нельзя поставить в очередь: {1}</r></e>
+  <e k="K" key="IM_Batch_InlineReason"><s>Nothing was ordered: {0}</s><r>Ничего не было заказано: {0}</r></e>
+  <e k="K" key="IM_Batch_MsgDone"><s>Queued on {0} insects.</s><r>В очереди на {0} насекомых.</r></e>
+  <e k="K" key="IM_Batch_MsgNone"><s>Nothing was queued: {0}</s><r>Ничего не было в очереди: {0}</r></e>
+  <e k="K" key="IM_Batch_MsgPartial"><s>Queued on {0} insects; {1} could not be queued ({2})</s><r>В очереди на {0} насекомых; {1} не удалось поставить в очередь ({2})</r></e>
+  <e k="K" key="IM_Batch_PoorTail"><s>Jelly only covers the first {0}; the other {1} will not be queued this time.</s><r>Желе покрывает только первый {0}; другой {1} на этот раз не будет поставлен в очередь.</r></e>
+  <e k="K" key="IM_Batch_RoyalTail"><s>Also needs {0} royal jelly (you have {1}).</s><r>Также понадобится {0} маточного молочка (у вас есть {1}).</r></e>
+  <e k="K" key="IM_Batch_TextBreed"><s>Queue the {1} breed on {0} insects.
+Total cost: {2} insect jelly (you have {3}).
+Each insect pays and cocoons on its own.</s><r>Поставьте в очередь {1} размножение {0} насекомых.
+Общая стоимость: {2} желе из насекомых (у вас есть {3}).
+Каждое насекомое платит и создает коконы самостоятельно.</r></e>
+  <e k="K" key="IM_Batch_TextPoint"><s>Give {0} insects +1 point of {1}.
+Total cost: {2} insect jelly (you have {3}).
+Each one cocoons separately.</s><r>Дайте {0} насекомым +1 очко {1}.
+Общая стоимость: {2} желе из насекомых (у вас есть {3}).
+Каждый из коконов отдельно.</r></e>
+  <e k="K" key="IM_Batch_TextRefund"><s>Give {0} insects -1 point of {1}.
+About {2} insect jelly will be refunded when the cocoons finish (dropped on the ground).</s><r>Дайте {0} насекомым -1 очко из {1}.
+ Около {2} желе из насекомых будет возвращено, когда коконы закончатся (упадут на землю).</r></e>
+  <e k="K" key="IM_Batch_TextRemoval"><s>Queue breed removal on {0} insects.
+Total cost: {2} insect jelly (you have {3}).
+Materials are taken as soon as you confirm.</s><r>Удаление породы в очереди на {0} насекомых.
+Общая стоимость: {2} желе из насекомых (у вас есть {3}).
+Материалы забираются, как только вы подтвердите.</r></e>
+  <e k="K" key="IM_Batch_Title"><s>Confirm bulk mutation</s><r>Подтвердить массовую мутацию</r></e>
+  <e k="K" key="IM_Bracket_Cocooning"><s>cocooning {0}%</s><r>кокон {0}%</r></e>
+  <e k="K" key="IM_Bracket_Pending"><s>{0} pending</s><r>{0} в ожидании</r></e>
+  <e k="K" key="IM_Bracket_Points"><s>{0} pts</s><r>{0} баллов</r></e>
+  <e k="K" key="IM_BreedGroup_Misc"><s>other breeds</s><r>другие породы</r></e>
+  <e k="K" key="IM_Bulk_Header"><s>Map: {0}   mutatable insects: {1} (current map only)</s><r>Карта: {0} мутирующие насекомые: {1} (только текущая карта)</r></e>
+  <e k="K" key="IM_Bulk_Hint"><s>Select grabs every insect of that breed on this map (shift-click to add more). With several selected, only the first insect's gizmos show.</s><r>Выбор захватывает все насекомые этой породы на этой карте (щелкните, удерживая клавишу Shift, чтобы добавить больше). Из нескольких выбранных видны только штуковины первого насекомого.</r></e>
+  <e k="K" key="IM_Bulk_MsgSelected"><s>Selected {0} {1}.</s><r>Выбрано {0} {1}.</r></e>
+  <e k="K" key="IM_Bulk_MsgSelectedAll"><s>Selected {0} mutatable insects.</s><r>Выбрано {0} мутирующих насекомых.</r></e>
+  <e k="K" key="IM_Bulk_Open"><s>breed overview</s><r>обзор породы</r></e>
+  <e k="K" key="IM_Bulk_Select"><s>select {0}</s><r>выберите {0}</r></e>
+  <e k="K" key="IM_Bulk_SelectAll"><s>Select whole swarm ({0})</s><r>Выбрать весь рой ({0})</r></e>
+  <e k="K" key="IM_Bulk_SelectNone"><s>none</s><r>никто</r></e>
+  <e k="K" key="IM_Bulk_Title"><s>Breed overview and bulk selection</s><r>Обзор породы и массовый выбор</r></e>
+  <e k="K" key="IM_Compare"><s>before vs after</s><r>до и после</r></e>
+  <e k="K" key="IM_Diff_Added"><s>(new)</s><r>(новый)</r></e>
+  <e k="K" key="IM_Diff_Bleed"><s>bleeding</s><r>кровотечение</r></e>
+  <e k="K" key="IM_Diff_Healing"><s>natural healing</s><r>естественное исцеление</r></e>
+  <e k="K" key="IM_Diff_Hunger"><s>hunger</s><r>голод</r></e>
+  <e k="K" key="IM_Diff_ImmuneTo"><s>immune to {0}</s><r>иммунитет к {0}</r></e>
+  <e k="K" key="IM_Diff_Lost"><s>(lost)</s><r>(потерянный)</r></e>
+  <e k="K" key="IM_Diff_NoBreak"><s>no mental breaks</s><r>никаких психических перерывов</r></e>
+  <e k="K" key="IM_Diff_None"><s>no numerical difference</s><r>нет численной разницы</r></e>
+  <e k="K" key="IM_Diff_PainFactor"><s>pain</s><r>боль</r></e>
+  <e k="K" key="IM_Diff_PainOffset"><s>pain (flat)</s><r>боль (плоская)</r></e>
+  <e k="K" key="IM_Diff_Regen"><s>regeneration</s><r>регенерация</r></e>
+  <e k="K" key="IM_Diff_Rest"><s>rest fall</s><r>отдых осень</r></e>
+  <e k="K" key="IM_Fail_AlreadyBreed"><s>It already has this breed.</s><r>Эта порода уже есть.</r></e>
+  <e k="K" key="IM_Fail_AlreadyDetonated"><s>It has already gone off.</s><r>Оно уже пошло.</r></e>
+  <e k="K" key="IM_Fail_AlreadyPending"><s>That change is already in the pending queue.</s><r>Это изменение уже находится в очереди ожидания.</r></e>
+  <e k="K" key="IM_Fail_Generic"><s>Cannot apply the mutation.</s><r>Невозможно применить мутацию.</r></e>
+  <e k="K" key="IM_Fail_GrowthBatch"><s>Batch mode does not grow insects yet - pick a single insect.</s><r>Пакетный режим пока не выращивает насекомых — выберите одно насекомое.</r></e>
+  <e k="K" key="IM_Fail_GrowthMax"><s>This breed is already at max level ({0}).</s><r>Эта порода уже находится на максимальном уровне ({0}).</r></e>
+  <e k="K" key="IM_Fail_GrowthNoBreed"><s>This insect does not have the &quot;{0}&quot; breed, so there is nothing to grow.</s><r>У этого насекомого нет породы «{0}», поэтому расти ему нечего.</r></e>
+  <e k="K" key="IM_Fail_GrowthNone"><s>This breed cannot grow.</s><r>Эта порода не может расти.</r></e>
+  <e k="K" key="IM_Fail_LevelCap"><s>Level capped at {0} until &quot;{1}&quot; is researched.</s><r>Уровень ограничен {0}, пока не будет исследовано «{1}».</r></e>
+  <e k="K" key="IM_Fail_MaxPoints"><s>This attribute is at its point cap ({0}).</s><r>Этот атрибут находится на предельной точке ({0}).</r></e>
+  <e k="K" key="IM_Fail_NeedJelly"><s>Not enough insect jelly: need {0}, available {1}.</s><r>Недостаточно желе из насекомых: нужно {0}, есть {1}.</r></e>
+  <e k="K" key="IM_Fail_NeedPherocore"><s>Requires 1 pherocore (any of the five lineages).</s><r>Требуется 1 ферокор (любая из пяти линий).</r></e>
+  <e k="K" key="IM_Fail_NeedPrereqBreed"><s>It must become a {0} before it can upgrade to this.</s><r>Прежде чем он сможет перейти на этот уровень, он должен стать {0}.</r></e>
+  <e k="K" key="IM_Fail_NeedRoyalJelly"><s>Not enough royal jelly: need {0}, available {1}.</s><r>Недостаточно маточного молочка: нужно {0}, имеется {1}.</r></e>
+  <e k="K" key="IM_Fail_NoBreed"><s>It has no breed right now, so there is nothing to strip.</s><r>Породы у него сейчас нет, так что стричь нечего.</r></e>
+  <e k="K" key="IM_Fail_NoCocoonComp"><s>Cocooning comp missing (Defs failed to load).</s><r>Отсутствует коконирующий комп (не удалось загрузить Defs).</r></e>
+  <e k="K" key="IM_Fail_NoCocoonSpot"><s>No clear spot nearby to spin a cocoon.</s><r>Рядом нет свободного места, где можно сплести кокон.</r></e>
+  <e k="K" key="IM_Fail_NoDetonator"><s>It has nothing to detonate.</s><r>Ему нечего детонировать.</r></e>
+  <e k="K" key="IM_Fail_NoEntry"><s>No such mutation entry.</s><r>Нет такой записи о мутации.</r></e>
+  <e k="K" key="IM_Fail_NoMap"><s>The target is not on any map.</s><r>Цель отсутствует ни на одной карте.</r></e>
+  <e k="K" key="IM_Fail_NoPoints"><s>No points to remove from this attribute.</s><r>Из этого атрибута нет точек, которые можно было бы удалить.</r></e>
+  <e k="K" key="IM_Fail_NoRoyalJellyMod"><s>The mod providing royal jelly (VFE - Insectoids 2) is missing; this mutation is unavailable.</s><r>Отсутствует мод, предоставляющий маточное молочко (VFE - Insectoids 2); эта мутация недоступна.</r></e>
+  <e k="K" key="IM_Fail_NotInsect"><s>Only your own insects can be mutated (must be an insectoid of your faction).</s><r>Мутировать могут только ваши собственные насекомые (должен быть инсектоид вашей фракции).</r></e>
+  <e k="K" key="IM_Fail_Research"><s>Research not finished: {0}</s><r>Исследование не завершено: {0}</r></e>
+  <e k="K" key="IM_Filter_All"><s>All</s><r>Все</r></e>
+  <e k="K" key="IM_Form_Add"><s>add</s><r>добавлять</r></e>
+  <e k="K" key="IM_Form_Clear"><s>clear</s><r>прозрачный</r></e>
+  <e k="K" key="IM_Form_CountNone"><s>nothing to select</s><r>нечего выбирать</r></e>
+  <e k="K" key="IM_Form_Delete"><s>delete</s><r>удалить</r></e>
+  <e k="K" key="IM_Form_Edit"><s>edit</s><r>редактировать</r></e>
+  <e k="K" key="IM_Form_Empty"><s>No formations yet. Box-select a few insects on the map, then use the button at the bottom left.</s><r>Образований пока нет. Выделите на карте несколько насекомых, затем воспользуйтесь кнопкой внизу слева.</r></e>
+  <e k="K" key="IM_Form_FailNoSelection"><s>Select at least one mutatable insect on the map first.</s><r>Сначала выберите на карте хотя бы одно мутирующее насекомое.</r></e>
+  <e k="K" key="IM_Form_Full"><s>Formation list is full ({0})</s><r>Список формирований заполнен ({0})</r></e>
+  <e k="K" key="IM_Form_GroupDynamic"><s>Dynamic formations ({0})</s><r>Динамические образования ({0})</r></e>
+  <e k="K" key="IM_Form_GroupSnapshot"><s>Snapshot formations ({0})</s><r>Образования моментальных снимков ({0})</r></e>
+  <e k="K" key="IM_Form_Hint"><s>A snapshot remembers those exact insects (dead or off-map ones are skipped); a dynamic formation matches by rule, so newly hatched kin join automatically. The list is ordered by most recently used.</s><r>Снимок запоминает именно этих насекомых (мертвые или за пределами карты пропускаются); динамическое формирование соответствует правилам, поэтому недавно вылупившиеся сородичи присоединяются автоматически. Список упорядочен по последнему использованному.</r></e>
+  <e k="K" key="IM_Form_IncludeNode"><s>include the will node</s><r>включить узел воли</r></e>
+  <e k="K" key="IM_Form_Manage"><s>Manage / search formations ({0})...</s><r>Управление/поиск формирований ({0})...</r></e>
+  <e k="K" key="IM_Form_Membership"><s>formation: {0}</s><r>формация: {0}</r></e>
+  <e k="K" key="IM_Form_MsgAdded"><s>Formation &quot;{0}&quot;: added {1}, {2} selected in total.</s><r>Формирование «{0}»: добавлено {1}, всего выбрано {2}.</r></e>
+  <e k="K" key="IM_Form_MsgDeleted"><s>Deleted formation &quot;{0}&quot;.</s><r>Удалена формация «{0}».</r></e>
+  <e k="K" key="IM_Form_MsgMutate"><s>Opening bulk mutation for formation &quot;{0}&quot;: {1} insects.</s><r>Открывающая объемную мутацию образования «{0}»: {1} насекомых.</r></e>
+  <e k="K" key="IM_Form_MsgNoneAlive"><s>Formation &quot;{0}&quot; has nothing selectable right now (dead or off-map).</s><r>В формации «{0}» сейчас нет ничего, что можно было бы выбрать (мертвая или вне карты).</r></e>
+  <e k="K" key="IM_Form_MsgRuleSaved"><s>Dynamic formation &quot;{0}&quot; saved; it matches {1} right now.</s><r>Динамическая формация «{0}» сохранена; прямо сейчас он соответствует {1}.</r></e>
+  <e k="K" key="IM_Form_MsgSavedAuto"><s>Saved formation &quot;{0}&quot; ({1}; auto-named - rename it under formations &gt; manage).</s><r>Сохраненная формация «{0}» ({1}; присвоено автоматическое имя — переименуйте ее в разделе «формации» &gt; «управление»).</r></e>
+  <e k="K" key="IM_Form_MsgSelected"><s>Formation &quot;{0}&quot;: selected {1}.</s><r>Формация «{0}»: выбрана {1}.</r></e>
+  <e k="K" key="IM_Form_Mutate"><s>mutate...</s><r>мутировать...</r></e>
+  <e k="K" key="IM_Form_NewDynamic"><s>New dynamic formation...</s><r>Новое динамичное формирование...</r></e>
+  <e k="K" key="IM_Form_NoMatch"><s>No formation name matches &quot;{0}&quot;.</s><r>Ни одно имя формации не соответствует «{0}».</r></e>
+  <e k="K" key="IM_Form_NonModal"><s>This window does not block the map: box-select outside it and the count updates live; &quot;save as snapshot&quot; saves whatever is selected at that moment.</s><r>Это окно не блокирует карту: установите флажок за его пределами, и счетчик будет обновляться в реальном времени; «Сохранить как снимок» сохраняет все, что выбрано в данный момент.</r></e>
+  <e k="K" key="IM_Form_Rename"><s>rename</s><r>переименовывать</r></e>
+  <e k="K" key="IM_Form_RowTip"><s>{0}
+rule: {1}
+members on this map: {2}
+&quot;mutate...&quot; queues the same mutation on the whole formation without selecting it by hand</s><r>{0}
+правило: {1}
+члены на этой карте: {2}
+&quot;mutate...&quot; ставит одну и ту же мутацию в очередь во всей формации, не выбирая ее вручную</r></e>
+  <e k="K" key="IM_Form_RuleAnyApex"><s>any apex</s><r>любая вершина</r></e>
+  <e k="K" key="IM_Form_RuleAnyBreed"><s>any breed</s><r>любая порода</r></e>
+  <e k="K" key="IM_Form_RuleApex"><s>apex layer</s><r>верхушечный слой</r></e>
+  <e k="K" key="IM_Form_RuleBody"><s>body {0}-{1}</s><r>тело {0}-{1}</r></e>
+  <e k="K" key="IM_Form_RuleBodyLabel"><s>body size</s><r>размер тела</r></e>
+  <e k="K" key="IM_Form_RuleBreed"><s>breed</s><r>порода</r></e>
+  <e k="K" key="IM_Form_RuleCancel"><s>cancel</s><r>отмена</r></e>
+  <e k="K" key="IM_Form_RuleClear"><s>clear</s><r>прозрачный</r></e>
+  <e k="K" key="IM_Form_RuleClose"><s>hide</s><r>скрывать</r></e>
+  <e k="K" key="IM_Form_RuleHint"><s>A dynamic formation matches live: newly hatched or newly metamorphosed kin join by themselves. Use &quot;save as snapshot&quot; if you want to freeze a specific group.</s><r>Динамическое образование соответствует живому: недавно вылупившиеся или недавно метаморфизованные родственники присоединяются сами по себе. Используйте «Сохранить как снимок», если вы хотите заморозить определенную группу.</r></e>
+  <e k="K" key="IM_Form_RuleName"><s>name</s><r>имя</r></e>
+  <e k="K" key="IM_Form_RuleNoNode"><s>exclude the will node</s><r>исключить узел воли</r></e>
+  <e k="K" key="IM_Form_RulePick"><s>pick...</s><r>выбирать...</r></e>
+  <e k="K" key="IM_Form_RulePreview"><s>matches right now: {0}</s><r>совпадения прямо сейчас: {0}</r></e>
+  <e k="K" key="IM_Form_RuleReset"><s>default</s><r>по умолчанию</r></e>
+  <e k="K" key="IM_Form_RuleSave"><s>save</s><r>сохранять</r></e>
+  <e k="K" key="IM_Form_RuleSnapshot"><s>snapshot: remembers those exact insects</s><r>снимок: помнит именно этих насекомых</r></e>
+  <e k="K" key="IM_Form_RuleTitleEdit"><s>Edit dynamic formation</s><r>Редактировать динамическое формирование</r></e>
+  <e k="K" key="IM_Form_RuleTitleNew"><s>New dynamic formation</s><r>Новое динамичное образование</r></e>
+  <e k="K" key="IM_Form_SaveNew"><s>Save as snapshot ({0} selected)</s><r>Сохранить как снимок (выбрано {0})</r></e>
+  <e k="K" key="IM_Form_SaveNewGeneric"><s>Save as snapshot (current selection)</s><r>Сохранить как снимок (текущий выбор)</r></e>
+  <e k="K" key="IM_Form_SaveNewNone"><s>Save as snapshot (select insects first)</s><r>Сохранить как снимок (сначала выберите насекомых)</r></e>
+  <e k="K" key="IM_Form_Select"><s>select</s><r>выбирать</r></e>
+  <e k="K" key="IM_Form_Selected"><s>Selected right now: {0} mutatable insects (you can still box-select on the map)</s><r>Выбрано прямо сейчас: {0} мутирующие насекомые (вы все еще можете выбрать их на карте)</r></e>
+  <e k="K" key="IM_Form_ShortDynamic"><s>dyn</s><r>дина</r></e>
+  <e k="K" key="IM_Form_StatusDynamic"><s>matches {0} live</s><r>совпадения {0} в прямом эфире</r></e>
+  <e k="K" key="IM_Form_Title"><s>Formations (selection tool)</s><r>Формации (инструмент выбора)</r></e>
+  <e k="K" key="IM_Formation_DefaultName"><s>Formation {0}</s><r>Формирование {0}</r></e>
+  <e k="K" key="IM_Formation_Untitled"><s>Unnamed formation</s><r>Безымянное образование</r></e>
+  <e k="K" key="IM_Gizmo_Cocoon"><s>Cocoon now</s><r>Кокон сейчас</r></e>
+  <e k="K" key="IM_Gizmo_CocoonDesc"><s>Send it to spin a cocoon immediately and settle {0} pending change(s).</s><r>Отправьте его немедленно сплести кокон и установить {0} ожидающие изменения.</r></e>
+  <e k="K" key="IM_Gizmo_Formations"><s>Formations...</s><r>Формации...</r></e>
+  <e k="K" key="IM_Gizmo_FormationsDesc"><s>A menu: one row per formation, one click selects the whole group. It also lets you snapshot the current selection, create a dynamic formation (matching breed/body size live), or open the manager to search.</s><r>Меню: одна строка на формирование, один клик выбирает всю группу. Он также позволяет вам сделать снимок текущего выбора, создать динамическую формацию (соответствующую породе/размеру тела в реальном времени) или открыть менеджер для поиска.</r></e>
+  <e k="K" key="IM_Gizmo_Open"><s>Choose metamorphosis / mutation target</s><r>Выберите цель метаморфозы/мутации</r></e>
+  <e k="K" key="IM_Gizmo_OpenBatch"><s>Bulk mutate ({0})</s><r>Массовое изменение ({0})</r></e>
+  <e k="K" key="IM_Gizmo_OpenBatchDesc"><s>Queue the same mutation on all {0} selected insects. After you confirm the total, each one pays and cocoons on its own.</s><r>Поставьте одну и ту же мутацию на всех {0} выбранных насекомых. После того, как вы подтвердите сумму, каждый платит и коконирует самостоятельно.</r></e>
+  <e k="K" key="IM_Gizmo_OpenDesc"><s>Open the window: spend jelly on free point-buy (mutation), or pick a breed (metamorphosis). It must then spin a cocoon before anything takes effect.</s><r>Откройте окно: потратьте желе на бесплатную покупку очков (мутация) или выберите породу (метаморфоза). Затем он должен сплести кокон, прежде чем что-либо подействует.</r></e>
+  <e k="K" key="IM_Gizmo_Overview"><s>Breed overview...</s><r>Обзор породы...</r></e>
+  <e k="K" key="IM_Gizmo_OverviewDesc"><s>Count, average body size and best mutation points per breed; click a column header to sort, or select every insect of one breed. Only the hive will node has this button.</s><r>Посчитайте, средний размер тела и лучшие точки мутаций для каждой породы; щелкните заголовок столбца для сортировки или выберите все насекомые одной породы. Эту кнопку имеет только узел улья.</r></e>
+  <e k="K" key="IM_Gizmo_RightClickHint"><s>Right-click this button for formations (select a group / save a snapshot / new dynamic formation).</s><r>Щелкните правой кнопкой мыши эту кнопку для формирований (выбрать группу/сохранить снимок/новое динамическое формирование).</r></e>
+  <e k="K" key="IM_Gizmo_Sac"><s>Sac output: {0}</s><r>Выход мешка: {0}</r></e>
+  <e k="K" key="IM_Gizmo_SacDesc"><s>Open the item list and pick a different output (progress restarts from zero).</s><r>Откройте список элементов и выберите другой результат (прогресс начнется с нуля).</r></e>
+  <e k="K" key="IM_Gizmo_SacEmpty"><s>Choose sac output</s><r>Выберите выход мешка</r></e>
+  <e k="K" key="IM_Gizmo_SelectAllSwarm"><s>Select whole swarm ({0})</s><r>Выбрать весь рой ({0})</r></e>
+  <e k="K" key="IM_Gizmo_SelectAllSwarmDesc"><s>Select every mutatable insect of yours on this map.</s><r>Выберите каждое свое изменяющееся насекомое на этой карте.</r></e>
+  <e k="K" key="IM_Gizmo_SelectSameBreed"><s>Select same breed ({0} x{1})</s><r>Выберите ту же породу ({0} x{1})</r></e>
+  <e k="K" key="IM_Gizmo_SelectSameBreedDesc"><s>Select every insect on this map that has the {0} breed.</s><r>Выберите на этой карте каждое насекомое породы {0}.</r></e>
+  <e k="K" key="IM_Grow_IM_Apex_FoldSpace"><s>Fold space: the boost after each fold gets stronger and longer as it grows.</s><r>Пространство сгиба: усиление после каждой складки становится сильнее и длиннее по мере роста.</r></e>
+  <e k="K" key="IM_Grow_IM_Apex_SwarmWard"><s>Swarm ward: +1 tile of shell radius per level, and x1.2 duration each level.</s><r>Swarm Ward: +1 плитка радиуса снаряда за уровень и х1,2 длительности за каждый уровень.</r></e>
+  <e k="K" key="IM_Grow_IM_Breed_BileBomber"><s>Bile bomber: bigger stun radius and longer stun every level, stronger acid from L5.</s><r>Желчный бомбардировщик: больший радиус оглушения и более длительное оглушение на каждом уровне, более сильная кислота из L5.</r></e>
+  <e k="K" key="IM_Grow_IM_Breed_Detonator"><s>Detonator: +0.25 blast radius and +4 damage per level; from L4 the blast sets fires.</s><r>Детонатор: +0,25 радиус взрыва и +4 урона за уровень; из L4 взрыв поджигает.</r></e>
+  <e k="K" key="IM_Grow_IM_Breed_EggHost"><s>Egg host: 2 more swarmlings per level, and they live x1.08 longer each level.</s><r>Яйцо-хозяин: на 2 больше стаи на уровень, и с каждым уровнем они живут в 1,08 раза дольше.</r></e>
+  <e k="K" key="IM_Grow_IM_Breed_Leaper"><s>Leaper: the landing shock hits harder over a wider area as it grows.</s><r>Прыжок: по мере роста удар приземления наносится сильнее на более широкую область.</r></e>
+  <e k="K" key="IM_Grow_IM_Breed_Spitter"><s>Spine spitter: L2 twin shot / L3 triple / L4 quad, and from L5 the shots come faster with stronger spines.</s><r>Spine spitter: двойной выстрел L2 / тройной L3 / четверной L4, а с L5 удары происходят быстрее с более сильными шипами.</r></e>
+  <e k="K" key="IM_Grow_IM_Breed_Vile"><s>Vile: +0.5 corrode radius per level, and the corrosion lasts x1.15 longer each level.</s><r>Мерзость: +0,5 радиуса коррозии за уровень, и коррозия длится в 1,15 раза дольше с каждым уровнем.</r></e>
+  <e k="K" key="IM_Grow_IM_Var_AcidTide"><s>Acid tide: bigger stun radius and longer stun every level, stronger acid from L5.</s><r>Кислотный прилив: больший радиус оглушения и более длительное оглушение на каждом уровне, более сильная кислота из L5.</r></e>
+  <e k="K" key="IM_Grow_IM_Var_BroodQueen"><s>Brood queen: 3 more swarmlings per level, and they live x1.10 longer each level.</s><r>Королева выводка: на каждый уровень на 3 больше стаи, и с каждым уровнем они живут в 1,10 раза дольше.</r></e>
+  <e k="K" key="IM_Grow_IM_Var_Impaler"><s>Impaler: two spines at base, L2 three / L3 four / L4 five, faster and stronger from L5.</s><r>Пронзитель: два шипа у основания, L2 три / L3 четыре / L4 пять, быстрее и сильнее по сравнению с L5.</r></e>
+  <e k="K" key="IM_Grow_IM_Var_Voidjumper"><s>Voidjumper: harder impact and a stronger, longer post-jump boost; it also leaps more often.</s><r>Voidjumper: более сильный удар и более сильный и продолжительный импульс после прыжка; он также чаще прыгает.</r></e>
+  <e k="K" key="IM_Growth_Hint"><s>Growth: spend jelly to push a breed this insect already has up one level at a time (each level needs another cocoon). Switching breed loses the levels, but refunds 60% of the jelly.</s><r>Рост: тратьте желе, чтобы подтолкнуть породу, которая уже есть у этого насекомого, на один уровень за раз (каждый уровень требует еще одного кокона). При смене породы уровни теряются, но возвращается 60% желе.</r></e>
+  <e k="K" key="IM_Growth_Maxed"><s>max level ({0})</s><r>максимальный уровень ({0})</r></e>
+  <e k="K" key="IM_Growth_NeedBreed"><s>needs the breed first</s><r>в первую очередь нужна порода</r></e>
+  <e k="K" key="IM_Growth_NoneAvailable"><s>No growable breed is registered right now.</s><r>В настоящее время ни одна выращиваемая порода не зарегистрирована.</r></e>
+  <e k="K" key="IM_Growth_RowCost"><s>Lv{0}　{1} jelly</s><r>Уровень{0}　{1} желе</r></e>
+  <e k="K" key="IM_Growth_TipCost"><s>level 2 costs {0} jelly, each level after that x{1}</s><r>уровень 2 стоит {0} желе, каждый последующий уровень x{1}</r></e>
+  <e k="K" key="IM_Header"><s>{0}   body size {1}   insect jelly available {2}</s><r>{0} размер тела {1} имеется желе от насекомых {2}</r></e>
+  <e k="K" key="IM_Header_Batch"><s>Bulk mutation: {0} insects selected (numbers below use {1} as the sample)</s><r>Массовая мутация: выбрано {0} насекомых (цифры ниже используют {1} в качестве образца)</r></e>
+  <e k="K" key="IM_Header_Breed"><s>Current breed: {0}</s><r>Текущая порода: {0}</r></e>
+  <e k="K" key="IM_Header_NoBreed"><s>Current breed: none</s><r>Текущая порода: нет</r></e>
+  <e k="K" key="IM_Header_Pending"><s>{0} pending — nothing takes effect until pupation finishes</s><r>{0} в ожидании — ничего не вступит в силу, пока не закончится окукливание</r></e>
+  <e k="K" key="IM_InsectGone"><s>The target no longer exists.</s><r>Цель больше не существует.</r></e>
+  <e k="K" key="IM_Msg_BreedQueued"><s>Queued the {1} breed for {0}; waiting for pupation.</s><r>Поставил породу {1} в очередь на {0}; ждут окукливания.</r></e>
+  <e k="K" key="IM_Msg_BroodSpawned"><s>{0} poured out {1} short-lived swarmlings.</s><r>{0} вылились {1} недолговечные рои.</r></e>
+  <e k="K" key="IM_Msg_CocoonDone"><s>{0} finished pupating — {1} change(s) now active.</s><r>{0} завершилось окукливание — {1} изменений теперь активны.</r></e>
+  <e k="K" key="IM_Msg_Corroded"><s>{0} hostiles were corroded.</s><r>{0} враги подверглись коррозии.</r></e>
+  <e k="K" key="IM_Msg_GrowthQueued"><s>{0}'s &quot;{1}&quot; is queued to grow; it will cocoon on its own.</s><r>«{1}» {0} поставлено в очередь на рост; оно срастется само по себе.</r></e>
+  <e k="K" key="IM_Msg_GrowthRefunded"><s>&quot;{0}&quot; was gone before the cocoon finished; the {1} jelly spent on growth was refunded.</s><r>«{0}» исчезло до того, как кокон закончился; {1} желе, потраченное на рост, было возвращено.</r></e>
+  <e k="K" key="IM_Msg_PointQueued"><s>Invested 1 point in {0}'s {1}; waiting for pupation.</s><r>Вложил 1 очко в {0} {1}; ждут окукливания.</r></e>
+  <e k="K" key="IM_Msg_PointRefundQueued"><s>Removing 1 point from {0}'s {1}; 60% of the jelly is refunded after pupation.</s><r>Удаление 1 очка из {0} {1}; 60% желе возвращается после окукливания.</r></e>
+  <e k="K" key="IM_Msg_PresetBatchQueued"><s>Queued {2} point(s) across {0} insects using the &quot;{1}&quot; preset; waiting for pupation.</s><r>Поставил в очередь {2} точек среди {0} насекомых с использованием предустановки «{1}»; ждут окукливания.</r></e>
+  <e k="K" key="IM_Msg_PresetPartial"><s>The preset only queued part of it: {0}</s><r>Предустановка поставила в очередь только часть: {0}</r></e>
+  <e k="K" key="IM_Msg_PresetQueued"><s>Queued {2} point(s) on {0} using the &quot;{1}&quot; preset; waiting for pupation.</s><r>Поставлено в очередь {2} точек на {0} с использованием предустановки «{1}»; ждут окукливания.</r></e>
+  <e k="K" key="IM_Msg_RefundDropped"><s>Refunded {0} insect jelly - it dropped on the ground at {1} (refunds are not hauled to storage).</s><r>Возвращено {0} желе из насекомых — оно упало на землю в {1} (возвраты не переносятся на склад).</r></e>
+  <e k="K" key="IM_Msg_RemoveApexQueued"><s>Queued removal of {0}'s apex form {1}; waiting for pupation.</s><r>Очередное удаление вершинной формы {0} {1}; ждут окукливания.</r></e>
+  <e k="K" key="IM_Msg_RemoveBreedQueued"><s>Queued removal of {0}'s {1} breed; waiting for pupation.</s><r>Удаление из очереди породы {0} {1}; ждут окукливания.</r></e>
+  <e k="K" key="IM_Msg_SporeBlessed"><s>{0} friendly insects gained the spore blessing.</s><r>{0} дружественные насекомые получили благословение спор.</r></e>
+  <e k="K" key="IM_Msg_SwarmWard"><s>Swarm resonance: {0} insects gained a resonant carapace.</s><r>Резонанс роя: {0} насекомые приобрели резонансный панцирь.</r></e>
+  <e k="K" key="IM_Msg_Unstable"><s>{0}'s mutation destabilised: &quot;{1}&quot;.</s><r>Мутация {0} дестабилизировалась: «{1}».</r></e>
+  <e k="K" key="IM_NoWill"><s>Breeds are locked. They need the Hive Mind mod with an active hive will (also hidden while the will node is dead, dormant or in chaos). Install/subscribe to &quot;Hive Mind&quot; if you have not; if you have, bind your swarm first. The point-buy section above still works right now.</s><r>Породы заблокированы. Им нужен мод Hive Mind с активной волей улья (также скрытой, пока узел воли мертв, бездействует или находится в хаосе). Установите/подписайтесь на «Hive Mind», если у вас еще нет; если да, то сначала свяжите свой рой. Раздел точечных покупок, приведенный выше, все еще работает.</r></e>
+  <e k="K" key="IM_Ov_Col_Body"><s>avg body</s><r>среднее тело</r></e>
+  <e k="K" key="IM_Ov_Col_Count"><s>count</s><r>считать</r></e>
+  <e k="K" key="IM_Ov_Col_Name"><s>breed</s><r>порода</r></e>
+  <e k="K" key="IM_Ov_Col_Points"><s>best points</s><r>лучшие баллы</r></e>
+  <e k="K" key="IM_Ov_OnlyOwned"><s>owned only</s><r>принадлежит только</r></e>
+  <e k="K" key="IM_Ov_RowTip"><s>{0}
+group: {1}
+count: {2}
+average body size: {3}
+best mutation points: {4}</s><r>{0}
+группа: {1}
+количество: {2}
+средний размер тела: {3}
+лучшие точки мутации: {4}</r></e>
+  <e k="K" key="IM_Ov_SortHint"><s>click a header to sort, click again to reverse</s><r>щелкните заголовок, чтобы отсортировать, щелкните еще раз, чтобы отменить</r></e>
+  <e k="K" key="IM_Preset_AlreadyDone"><s>This insect already meets this preset; there is nothing to add.</s><r>Это насекомое уже соответствует этому заданию; добавить нечего.</r></e>
+  <e k="K" key="IM_Preset_Apply"><s>apply</s><r>применять</r></e>
+  <e k="K" key="IM_Preset_CancelRename"><s>cancel</s><r>отмена</r></e>
+  <e k="K" key="IM_Preset_ConfirmRename"><s>confirm rename</s><r>подтвердить переименование</r></e>
+  <e k="K" key="IM_Preset_CustomDesc"><s>A preset you saved, {0} points.</s><r>Сохраненная вами предустановка, {0} баллов.</r></e>
+  <e k="K" key="IM_Preset_Delete"><s>delete</s><r>удалить</r></e>
+  <e k="K" key="IM_Preset_Deleted"><s>Deleted preset &quot;{0}&quot;.</s><r>Удалена предустановка «{0}».</r></e>
+  <e k="K" key="IM_Preset_Empty"><s>No presets of your own yet - type a name and hit &quot;save current points&quot;.</s><r>Собственных пресетов пока нет — введите имя и нажмите «Сохранить текущие точки».</r></e>
+  <e k="K" key="IM_Preset_Label"><s>presets:</s><r>пресеты:</r></e>
+  <e k="K" key="IM_Preset_Manage"><s>manage...</s><r>управлять...</r></e>
+  <e k="K" key="IM_Preset_ManageDesc"><s>Save, rename or delete your own point presets, and apply any preset.</s><r>Сохраняйте, переименовывайте или удаляйте собственные настройки точек и применяйте любые настройки.</r></e>
+  <e k="K" key="IM_Preset_ManagerTitle"><s>Point presets</s><r>Пресеты точек</r></e>
+  <e k="K" key="IM_Preset_MissingStat"><s>{0} attribute(s) in this preset no longer exist in the point table (changed or removed); skipped.</s><r>{0} атрибут(ы) в этом наборе настроек больше не существуют в таблице точек (изменены или удалены); пропущен.</r></e>
+  <e k="K" key="IM_Preset_NameHint"><s>Name it, then use the button on the right (save stores this insect's current points).</s><r>Назовите его, затем используйте кнопку справа (сохранение сохраняет текущие очки этого насекомого).</r></e>
+  <e k="K" key="IM_Preset_NoInsect"><s>No insect selected (pick one in the main window first).</s><r>Насекомое не выбрано (сначала выберите одно в главном окне).</r></e>
+  <e k="K" key="IM_Preset_NothingApplicable"><s>Nothing in this preset can be applied to it (attribute gone, maxed out, or research not finished).</s><r>Ничто из этого пресета не может быть к нему применено (атрибут отсутствует, исчерпан или исследование не завершено).</r></e>
+  <e k="K" key="IM_Preset_NothingToSave"><s>This insect has no points invested yet, so there is nothing to save.</s><r>В это насекомое еще не вложено очков, поэтому сохранять нечего.</r></e>
+  <e k="K" key="IM_Preset_Points"><s>{0} points</s><r>{0} баллов</r></e>
+  <e k="K" key="IM_Preset_PointsOnlyHint"><s>Presets store point-buy attributes only (stat + points) - breeds and growth levels are not included.</s><r>В пресетах хранятся только атрибуты покупки очков (статистика + очки) — породы и уровни роста не включены.</r></e>
+  <e k="K" key="IM_Preset_Rename"><s>rename</s><r>переименовывать</r></e>
+  <e k="K" key="IM_Preset_Renamed"><s>Preset renamed to &quot;{0}&quot;.</s><r>Пресет переименован в «{0}».</r></e>
+  <e k="K" key="IM_Preset_Reset"><s>refund all</s><r>вернуть все</r></e>
+  <e k="K" key="IM_Preset_ResetDesc"><s>Take back every point this insect has spent, one point at a time (each refunds 60% of its price, dropped on the ground after pupation).</s><r>Возвращайте каждое очко, потраченное этим насекомым, по одному очку за раз (каждое возвращает 60% его цены, упавшей на землю после окукливания).</r></e>
+  <e k="K" key="IM_Preset_Save"><s>save current points</s><r>сохранить текущие баллы</r></e>
+  <e k="K" key="IM_Preset_Saved"><s>Saved preset &quot;{0}&quot; ({1} points).</s><r>Сохранена предустановка «{0}» ({1} точек).</r></e>
+  <e k="K" key="IM_Preset_Scout"><s>skirmisher</s><r>застрельщик</r></e>
+  <e k="K" key="IM_Preset_ScoutDesc"><s>move speed 6 + shooting accuracy 3 + ranged cooldown 3 ({0} points)</s><r>скорость передвижения 6 + точность стрельбы 3 + время восстановления дальнего боя 3 ({0} очков)</r></e>
+  <e k="K" key="IM_Preset_SectionBuiltIn"><s>Built-in presets (read-only)</s><r>Встроенные пресеты (только чтение)</r></e>
+  <e k="K" key="IM_Preset_SectionCustom"><s>My presets ({0})</s><r>Мои пресеты ({0})</r></e>
+  <e k="K" key="IM_Preset_Tank"><s>tank</s><r>танк</r></e>
+  <e k="K" key="IM_Preset_TankDesc"><s>sharp armor 5 + blunt armor 4 + damage taken 4 + pain threshold 2 ({0} points)</s><r>острая броня 5 + тупая броня 4 + получаемый урон 4 + болевой порог 2 ({0} очков)</r></e>
+  <e k="K" key="IM_Preset_Unnamed"><s>unnamed</s><r>безымянный</r></e>
+  <e k="K" key="IM_Preset_Warrior"><s>warrior</s><r>воин</r></e>
+  <e k="K" key="IM_Preset_WarriorDesc"><s>melee damage 4 + melee hit 3 + dodge 3 + move speed 3 ({0} points)</s><r>урон в ближнем бою 4 + удар в ближнем бою 3 + уклонение 3 + скорость передвижения 3 ({0} очков)</r></e>
+  <e k="K" key="IM_Preset_Worker"><s>worker</s><r>рабочий</r></e>
+  <e k="K" key="IM_Preset_WorkerDesc"><s>work speed 8 + carrying capacity 4 + move speed 3 ({0} points)</s><r>скорость работы 8 + грузоподъемность 4 + скорость передвижения 3 ({0} очков)</r></e>
+  <e k="K" key="IM_Row_BatchCost"><s>x{0} - {1} jelly each</s><r>x{0} - {1} желе каждый</r></e>
+  <e k="K" key="IM_Row_BatchCostRoyal"><s>x{0} - {1} jelly + {2} royal jelly each</s><r>x{0} - {1} желе + {2} маточного молочка каждый</r></e>
+  <e k="K" key="IM_Row_BatchGrow"><s>{0} insects each level up once · {1} jelly per insect (reference)</s><r>{0} насекомых каждый уровень повышается один раз · {1} желе на одно насекомое (ссылка)</r></e>
+  <e k="K" key="IM_Row_CappedHint"><s>Cap {0} until &quot;{1}&quot; is researched.  </s><r>Ограничьте {0}, пока не будет исследовано «{1}».  </r></e>
+  <e k="K" key="IM_Row_Compare"><s>versus {0}:</s><r>против {0}:</r></e>
+  <e k="K" key="IM_Row_Cost"><s>jelly {0} {1}</s><r>желе {0} {1}</r></e>
+  <e k="K" key="IM_Row_CostRoyal"><s>jelly {0} + royal jelly {1} {2}</s><r>желе {0} + маточное молочко {1} {2}</r></e>
+  <e k="K" key="IM_Row_CurrentBreed"><s>current breed</s><r>текущая порода</r></e>
+  <e k="K" key="IM_Row_Locked"><s>needs research: {0}</s><r>требует исследования: {0}</r></e>
+  <e k="K" key="IM_Row_Maxed"><s>max level</s><r>максимальный уровень</r></e>
+  <e k="K" key="IM_Row_MaxedCapped"><s>capped at {0} (research needed)</s><r>ограничено {0} (необходимы исследования)</r></e>
+  <e k="K" key="IM_Row_NeedPrereq"><s>needs the {0} breed first</s><r>сначала нужна порода {0}</r></e>
+  <e k="K" key="IM_Row_Neutral"><s>baseline</s><r>базовый уровень</r></e>
+  <e k="K" key="IM_Row_PointCost"><s>next {0} jelly</s><r>следующее {0} желе</r></e>
+  <e k="K" key="IM_Row_Points"><s>{0}/{1} pts</s><r>{0}/{1} баллов</r></e>
+  <e k="K" key="IM_Row_Queued"><s>queued</s><r>в очереди</r></e>
+  <e k="K" key="IM_Row_RemoveApex"><s>Strip the apex form</s><r>Снимите форму апекса</r></e>
+  <e k="K" key="IM_Row_RemoveBreed"><s>Return to no breed (remove current breed)</s><r>Вернуться к отсутствию породы (удалить текущую породу)</r></e>
+  <e k="K" key="IM_Row_RemoveBreedHint"><s>Strips {0}; costs 60% of that breed's base price</s><r>Полоски {0}; стоит 60% базовой цены этой породы</r></e>
+  <e k="K" key="IM_Row_Respec"><s>(switch)</s><r>(выключатель)</r></e>
+  <e k="K" key="IM_Sac_Chosen"><s>{0}'s sac now produces {1}: one every {2} days.</s><r>Мешок {0} теперь производит {1}: по одному каждые {2} дня.</r></e>
+  <e k="K" key="IM_Sac_Current"><s>Currently producing: {0} ({2} per {1} days)</s><r>В настоящее время производится: {0} ({2} за {1} дня)</r></e>
+  <e k="K" key="IM_Sac_Empty"><s>Nothing in storage (put items into a stockpile or shelf, then hit refresh).</s><r>Ничего на складе (поместите предметы на склад или на полку, затем нажмите «Обновить»).</r></e>
+  <e k="K" key="IM_Sac_FallbackNote"><s>Storage is empty - showing items from the home area instead.</s><r>Хранилище пусто. Вместо него показаны предметы из домашней зоны.</r></e>
+  <e k="K" key="IM_Sac_Formula"><s>Only items in storage on this map (stockpiles, shelves). Output accumulates value at 10 silver/day and spits out a drop once a full item (and the minimum interval) is reached - cheap items come in small piles.</s><r>На этой карте хранятся только предметы, находящиеся на складе (склады, полки). Вывод накапливает значение в размере 10 серебра в день и выбрасывает его при достижении полного предмета (и минимального интервала) — дешевые предметы поступают небольшими кучками.</r></e>
+  <e k="K" key="IM_Sac_Header"><s>Pick one item for {0} to produce</s><r>Выберите один предмет за {0} для производства.</r></e>
+  <e k="K" key="IM_Sac_None"><s>The sac has no item assigned yet (use the button in its window).</s><r>Саквояжу еще не назначен ни один предмет (используйте кнопку в его окне).</r></e>
+  <e k="K" key="IM_Sac_PickNow"><s>{0}'s sac is ready — tell it what to produce.</s><r>Мешок {0} готов — скажите ему, что производить.</r></e>
+  <e k="K" key="IM_Sac_Refresh"><s>Refresh</s><r>Обновить</r></e>
+  <e k="K" key="IM_Sac_RowCount"><s>in stock: {0}</s><r>в наличии: {0}</r></e>
+  <e k="K" key="IM_Sac_RowInfo"><s>value {0}   {2} per {1} days</s><r>значение {0} {2} за {1} дня</r></e>
+  <e k="K" key="IM_Sac_Tip"><s>Sac output: {0} x{1} ({2} days left).</s><r>Выход мешочка: {0} x{1} (осталось {2} дня).</r></e>
+  <e k="K" key="IM_Sac_Title"><s>Choose what the sac produces</s><r>Выберите, что производит мешок</r></e>
+  <e k="K" key="IM_SearchHint"><s>type to filter (attribute / breed / text)</s><r>тип для фильтрации (атрибут/порода/текст)</r></e>
+  <e k="K" key="IM_Section_Apex"><s>Apex metamorphosis (needs royal jelly; stacks with a normal breed)</s><r>Метаморфоза вершины (нужно маточное молочко; складывается с нормальной породой)</r></e>
+  <e k="K" key="IM_Section_Breeds"><s>Metamorphosis breeds (globally exclusive — one at a time)</s><r>Метаморфозные породы (эксклюзивно глобально — по одной)</r></e>
+  <e k="K" key="IM_Section_Growth"><s>growth (upgrade a breed you already have)</s><r>рост (улучшите породу, которая у вас уже есть)</r></e>
+  <e k="K" key="IM_Section_Points"><s>Mutation points (buy with insect jelly, spend on any attribute) — click a row for +1 point, [−] removes one</s><r>Очки мутации (купить за желе из насекомых, потратить на любой атрибут) — щелкните строку, чтобы получить +1 очко, [−] удаляет одно.</r></e>
+  <e k="K" key="IM_Set_Apex"><s>Enable the Apex layer</s><r>Включить слой Apex</r></e>
+  <e k="K" key="IM_Set_ApexDesc"><s>When off, the mutation window no longer shows the apex section (already-applied apex forms stay, but no new ones can be picked). Only relevant with a royal jelly provider installed.</s><r>Если этот параметр отключен, в окне мутации больше не отображается секция апекса (уже примененные формы апекса остаются, но новые выбрать нельзя). Актуально только при установленном поставщике маточного молочка.</r></e>
+  <e k="K" key="IM_Set_AutoCastEnemies"><s>Mutants cast their abilities (enemies)</s><r>Мутанты применяют свои способности (враги)</r></e>
+  <e k="K" key="IM_Set_AutoCastEnemiesDesc"><s>Hostile and wild mutants use their abilities on their own: ranged ones spit when they have line of sight, detonators blow up only when you are adjacent, egg layers only spawn brood with an enemy nearby, jumpers leap at you. On by default.</s><r>Враждебные и дикие мутанты используют свои способности самостоятельно: дальнобойные плюются, когда у них есть прямая видимость, детонаторы взрываются только тогда, когда вы находитесь рядом, яйца порождают выводок только при наличии врага поблизости, прыгуны прыгают на вас. Включено по умолчанию.</r></e>
+  <e k="K" key="IM_Set_AutoCastHint"><s>Auto-casting respects each ability's own cooldown; movement abilities have a 20-25 second floor so nothing bounces around constantly. Use these switches to make enemies stronger or weaker.</s><r>При автоматическом применении учитывается время восстановления каждой способности; Способности передвижения имеют второй этаж 20-25, поэтому постоянно ничего не подпрыгивает. Используйте эти переключатели, чтобы сделать врагов сильнее или слабее.</r></e>
+  <e k="K" key="IM_Set_AutoCastPlayers"><s>Your own insects auto-cast too</s><r>Ваши собственные насекомые тоже автоматически применяются.</r></e>
+  <e k="K" key="IM_Set_AutoCastPlayersDesc"><s>Off by default: you keep clicking your own insects' abilities (more control). Turn it on and they pick targets themselves.</s><r>По умолчанию выключено: вы продолжаете нажимать на способности своих насекомых (больше контроля). Включите его, и они сами выберут цели.</r></e>
+  <e k="K" key="IM_Set_BroodCount"><s>Brood size multiplier: {0}</s><r>Множитель размера выводка: {0}</r></e>
+  <e k="K" key="IM_Set_BroodCountDesc"><s>Applies to the lay brood / brood surge abilities (body size still multiplies on top).</s><r>Применяется к способностям откладывания выводка/выброса выводка (размер тела по-прежнему умножается сверху).</r></e>
+  <e k="K" key="IM_Set_Cocoon"><s>Changes require pupation</s><r>Изменения требуют окукливания</r></e>
+  <e k="K" key="IM_Set_CocoonBatch"><s>Changes settled per cocoon: {0}</s><r>Изменения зафиксированы для каждого кокона: {0}</r></e>
+  <e k="K" key="IM_Set_CocoonBatchDesc"><s>Batch cap. Higher means one cocoon settles more changes (and the bar takes longer).</s><r>Пакетный колпачок. Более высокое значение означает, что один кокон фиксирует больше изменений (и полоса занимает больше времени).</r></e>
+  <e k="K" key="IM_Set_CocoonDesc"><s>If off, changes apply instantly with no cocoon (escape hatch if pupation ever gets stuck).</s><r>Если выключено, изменения применяются мгновенно, без кокона (аварийный люк, если окукливание когда-либо застревает).</r></e>
+  <e k="K" key="IM_Set_CocoonTime"><s>Pupation duration multiplier: {0}</s><r>Множитель продолжительности окукливания: {0}</r></e>
+  <e k="K" key="IM_Set_CocoonTimeDesc"><s>0.1 = almost instant, 3 = triple duration. Duration only, not price.</s><r>0,1 = почти мгновенно, 3 = тройная длительность. Только продолжительность, а не цена.</r></e>
+  <e k="K" key="IM_Set_CostMult"><s>Global cost multiplier: {0}</s><r>Глобальный множитель стоимости: {0}</r></e>
+  <e k="K" key="IM_Set_CostMultDesc"><s>Multiplies every price in this mod (insect jelly and royal jelly). 0.25 = very cheap, 3 = triple.</s><r>Умножает каждую цену в этом моде (желе насекомых и маточное молочко). 0,25 = очень дешево, 3 = втрое.</r></e>
+  <e k="K" key="IM_Set_Debug"><s>Verbose debug logging</s><r>Подробное ведение журнала отладки</r></e>
+  <e k="K" key="IM_Set_DebugDesc"><s>Writes queues, multipliers and aura decisions to the log.</s><r>Записывает в журнал очереди, множители и решения ауры.</r></e>
+  <e k="K" key="IM_Set_GrowthInsta"><s>Growing adds instability</s><r>Рост добавляет нестабильности</r></e>
+  <e k="K" key="IM_Set_GrowthInstaDesc"><s>On by default: each growth level adds the per-breed instability (8 by default), sharing the same thresholds and daily decay as point buying and breed changes. Turn it off and growth never adds instability.</s><r>По умолчанию включено: каждый уровень роста добавляет нестабильность для каждой породы (по умолчанию 8), используя те же пороговые значения и ежедневное снижение, что и при покупке очков и смене пород. Отключите его, и рост никогда не прибавит нестабильности.</r></e>
+  <e k="K" key="IM_Set_HMTakeover"><s>Take over hivemind individual specialization</s><r>Возьмите на себя индивидуальную специализацию коллективного разума</r></e>
+  <e k="K" key="IM_Set_HMTakeoverDesc"><s>When Hive Mind is loaded, automatically turn off its &quot;work specialization&quot; system (it auto-specializes insects by the work they do, which overlaps with this mod's individual breeds). Turning this off restores your own Hive Mind setting.</s><r>Когда Hive Mind загружен, автоматически отключите его систему «специализации работы» (она автоматически специализируется на насекомых в зависимости от выполняемой ими работы, что совпадает с отдельными породами этого мода). Отключение этого параметра восстанавливает ваши собственные настройки коллективного разума.</r></e>
+  <e k="K" key="IM_Set_HM_Absent"><s>Status: Hive Mind not detected - this option does nothing.</s><r>Статус: Коллективный разум не обнаружен — эта опция ничего не делает.</r></e>
+  <e k="K" key="IM_Set_HM_Off"><s>Status: not taken over (Hive Mind runs by its own settings).</s><r>Статус: не захвачен (Hive Mind работает по собственным настройкам).</r></e>
+  <e k="K" key="IM_Set_HM_On"><s>Status: taken over (Hive Mind work specialization is off).</s><r>Статус: взят во владение (рабочая специализация Hive Mind отключена).</r></e>
+  <e k="K" key="IM_Set_Header"><s>Insect Mutation — global settings</s><r>Мутация насекомых — глобальные настройки</r></e>
+  <e k="K" key="IM_Set_InstaDecay"><s>Daily decay multiplier: {0}</s><r>Множитель ежедневного распада: {0}</r></e>
+  <e k="K" key="IM_Set_InstaDecayDesc"><s>0 = never decays (defects stay forever).</s><r>0 = никогда не разлагается (дефекты остаются навсегда).</r></e>
+  <e k="K" key="IM_Set_InstaGain"><s>Gain per change: {0}</s><r>Прибыль за изменение: {0}</r></e>
+  <e k="K" key="IM_Set_InstaGainDesc"><s>0 = changes never build instability at all.</s><r>0 = изменения вообще не приводят к нестабильности.</r></e>
+  <e k="K" key="IM_Set_Instability"><s>Enable instability</s><r>Включить нестабильность</r></e>
+  <e k="K" key="IM_Set_InstabilityDesc"><s>Each mutation builds instability. Above a threshold the body rejects itself and temporary defects appear, decaying over time.</s><r>Каждая мутация создает нестабильность. Выше порога организм отторгает себя и появляются временные дефекты, разрушающиеся со временем.</r></e>
+  <e k="K" key="IM_Set_Lifespan"><s>Summoned swarmling lifespan: {0}</s><r>Продолжительность жизни призванного стада: {0}</r></e>
+  <e k="K" key="IM_Set_LifespanDesc"><s>Shared by every short-lived swarmling: brood, infecter, splitter, spore.</s><r>Разделяется каждым недолговечным роем: выводком, заразителем, расщепителем, спорой.</r></e>
+  <e k="K" key="IM_Set_PassiveAbilities"><s>Passive attack abilities fire on their own</s><r>Пассивные атакующие способности срабатывают сами по себе.</r></e>
+  <e k="K" key="IM_Set_PassiveAbilitiesDesc"><s>Spine spit, twin spine volley, bile burst and acid tide carry no button: the insect fires at any hostile it can see (cooldowns unchanged). Turn this off and the buttons come back for manual aiming.</s><r>Плевок позвоночником, залп двумя позвоночниками, взрыв желчи и кислотный прилив не имеют кнопок: насекомое стреляет по любому противнику, которого видит (время восстановления не изменилось). Выключите эту функцию, и кнопки вернутся для ручного прицеливания.</r></e>
+  <e k="K" key="IM_Set_PointStrength"><s>Point-buy strength: x{0}</s><r>Сила покупки баллов: x{0}</r></e>
+  <e k="K" key="IM_Set_PointStrengthDesc"><s>Multiplies the effect of the 14 scaled point-buy attributes (pain threshold is excluded - it was already tuned to hit the vanilla cap at 15 points). 1.00 = the original v5.6 numbers, default 2.50. Effects only - prices are unchanged.</s><r>Умножает эффект 14 масштабируемых атрибутов покупки очков (болевой порог исключен — он уже настроен на достижение ванильного предела в 15 очков). 1,00 = исходные номера версии 5.6, по умолчанию 2,50. Только эффекты - цены не изменились.</r></e>
+  <e k="K" key="IM_Set_PointStrengthHint"><s>At this multiplier: 15 points of melee dodge = {0}, 15 points of sharp armor = {1}. Dragging applies immediately, including to insects you already have.</s><r>При этом множителе: 15 очков уклонения в ближнем бою = {0}, 15 очков острой брони = {1}. Перетаскивание применяется немедленно, в том числе и к уже имеющимся у вас насекомым.</r></e>
+  <e k="K" key="IM_Set_PointStrengthWarn"><s>Point-buy strength multiplier changed from {0} to {1}.
+
+It takes effect immediately on every insect you have already mutated, and no jelly is refunded:
+- Lowering it shrinks attributes you already paid thousands of jelly for (0.50 leaves 15 points of dodge at about +18%).
+- Raising it makes existing insects stronger for free.
+
+Prices are not affected, and you can change it back any time.
+(Note: pain threshold does not follow this multiplier - it was tuned to hit the vanilla cap at 15 points.)</s><r>Множитель силы при покупке очков изменен с {0} на {1}.
+
+Он вступает в силу немедленно на каждое насекомое, которое вы уже мутировали, и желе не возвращается:
+- При его понижении атрибуты, за которые вы уже заплатили тысячи желе, уменьшаются (0,50 оставляет 15 очков уклонения примерно на +18%).
+- Его повышение бесплатно делает существующих насекомых сильнее.
+
+Цены не изменяются, и вы можете изменить их обратно в любое время.
+(Примечание: болевой порог не зависит от этого множителя — он был настроен на достижение ванильного предела в 15 очков.)</r></e>
+  <e k="K" key="IM_Set_PointStrengthWarnTitle"><s>This applies retroactively</s><r>Это применяется задним числом</r></e>
+  <e k="K" key="IM_Set_PresetCount"><s>Saved custom point presets: {0} (manage them from the presets row in the mutation window).</s><r>Сохраненные пользовательские настройки точек: {0} (управляйте ими из строки настроек в окне мутации).</r></e>
+  <e k="K" key="IM_Set_Rename"><s>Rename insects to their breed</s><r>Переименуйте насекомых по их породе.</r></e>
+  <e k="K" key="IM_Set_RenameDesc"><s>Only applies to animals you have not named yourself, so it never overwrites your naming. Turn it off if you dislike it.</s><r>Применяется только к животным, которым вы не дали имени сами, поэтому ваше имя никогда не перезаписывается. Выключите его, если он вам не нравится.</r></e>
+  <e k="K" key="IM_Set_Reset"><s>Reset to defaults</s><r>Сбросить настройки по умолчанию</r></e>
+  <e k="K" key="IM_Set_ResetDesc"><s>Only resets these switches and multipliers; your saved presets are kept.</s><r>Сбрасывает только эти переключатели и множители; сохраненные вами пресеты сохраняются.</r></e>
+  <e k="K" key="IM_Set_ResetDone"><s>Settings reset to defaults.</s><r>Настройки сброшены на значения по умолчанию.</r></e>
+  <e k="K" key="IM_Set_Respec"><s>Branch switch discount: {0}</s><r>Скидка на смену филиала: {0}</r></e>
+  <e k="K" key="IM_Set_RespecDesc"><s>How much you get back when switching breed or removing points. 1 = full refund, 0 = none.</s><r>Сколько вы получите обратно при смене породы или снятии очков. 1 = полный возврат, 0 = нет.</r></e>
+  <e k="K" key="IM_Set_SacInterval"><s>Storage sac minimum interval: {0} hours</s><r>Минимальный интервал хранения: {0} часов.</r></e>
+  <e k="K" key="IM_Set_SacIntervalDesc"><s>At least this long between drops (default 1 game hour) so cheap items do not spam.</s><r>По крайней мере, такой промежуток времени между выпадениями (по умолчанию 1 игровой час), чтобы дешевые предметы не спамили.</r></e>
+  <e k="K" key="IM_Set_SacOutput"><s>Storage sac output multiplier: {0}</s><r>Множитель вывода хранилища: {0}</r></e>
+  <e k="K" key="IM_Set_SacOutputDesc"><s>Multiplies the &quot;silver per day&quot; the sac produces (default 10). Higher means faster and bigger drops.</s><r>Умножает количество «серебра в день», которое производит мешок (по умолчанию 10). Выше означает более быстрое и большее падение.</r></e>
+  <e k="K" key="IM_Set_Sec_Cocoon"><s>Pupation</s><r>Окукливание</r></e>
+  <e k="K" key="IM_Set_Sec_Compat"><s>Compatibility</s><r>Совместимость</r></e>
+  <e k="K" key="IM_Set_Sec_Content"><s>Content switches</s><r>Переключатели контента</r></e>
+  <e k="K" key="IM_Set_Sec_Cost"><s>Cost</s><r>Расходы</r></e>
+  <e k="K" key="IM_Set_Sec_Debug"><s>Debug</s><r>Отлаживать</r></e>
+  <e k="K" key="IM_Set_Sec_Eco"><s>Ecology and summoning</s><r>Экология и призыв</r></e>
+  <e k="K" key="IM_Set_Sec_Instability"><s>Instability</s><r>Нестабильность</r></e>
+  <e k="K" key="IM_Set_Sec_Wild"><s>Wild mutation (hostile and wild insects)</s><r>Дикая мутация (враждебные и дикие насекомые)</r></e>
+  <e k="K" key="IM_Set_SubHeader"><s>Everything is tunable here, and applied immediately (costs / pupation / instability / summon counts / compatibility).</s><r>Здесь все настраивается и применяется немедленно (стоимость/окукливание/нестабильность/количество призывов/совместимость).</r></e>
+  <e k="K" key="IM_Set_Wild"><s>Wild insects mutate on their own</s><r>Дикие насекомые мутируют сами по себе</r></e>
+  <e k="K" key="IM_Set_WildDaily"><s>Natural mutations per day: {0}</s><r>Естественные мутации в день: {0}</r></e>
+  <e k="K" key="IM_Set_WildDesc"><s>Hostile and wild insects mutate by themselves: 1-3 random points plus one random normal breed. As you asked, they drop no extra jelly and cannot be cleansed - pure threat. If you tame one, its breed stays.</s><r>Враждебные и дикие насекомые мутируют сами по себе: 1-3 случайных очка плюс одна случайная нормальная порода. Как вы и просили, из них не выпадает лишнего желе и их невозможно очистить - чистая угроза. Если вы приручите одного, его порода останется.</r></e>
+  <e k="K" key="IM_Set_WildHint"><s>No visible marker at all (no rename, no tooltip) - inspect its health tab to see what it carries. A mutant is never rolled twice; there is a per-map cap below.</s><r>Нет видимого маркера вообще (ни переименования, ни всплывающей подсказки) — проверьте вкладку его состояния, чтобы увидеть, что он несет. Мутанта никогда не бросают дважды; Ниже указано ограничение для каждой карты.</r></e>
+  <e k="K" key="IM_Set_WildMax"><s>Max mutants per map: {0}</s><r>Максимальное количество мутантов на карте: {0}</r></e>
+  <e k="K" key="IM_Set_WildRaid"><s>Raid carry chance: {0}</s><r>Шанс рейдового переноса: {0}</r></e>
+  <e k="K" key="IM_Set_WildRaidDesc"><s>Hostile insect raids arrive already mutated with this chance (0 = raids never carry mutations).</s><r>Набеги враждебных насекомых прибывают уже мутировавшими с этим шансом (0 = рейды никогда не несут мутаций).</r></e>
+  <e k="K" key="IM_Set_WildSpawners"><s>Wild and hostile insects may mutate into spawners</s><r>Дикие и враждебные насекомые могут мутировать в производителей</r></e>
+  <e k="K" key="IM_Set_WildSpawnersDesc"><s>On by default. Turn it off and the random breed pool for hostile and wild insects no longer contains the brood-laying breeds (egg host and its upgraded brood queen), so they stop pouring out swarmlings while you fight them. Your own insects are unaffected - you can still give your own an egg host.</s><r>Включено по умолчанию. Отключите его, и пул случайных пород враждебных и диких насекомых больше не будет содержать породы, откладывающие выводок (яичный хозяин и его улучшенная матка), поэтому они перестанут выпускать стаи, пока вы сражаетесь с ними. Ваши собственные насекомые не пострадают — вы все равно можете дать своему яйцу-хозяину.</r></e>
+  <e k="K" key="IM_Set_WildUpgrades"><s>Wild mutants may be upgraded breeds</s><r>Дикие мутанты могут оказаться улучшенными породами</r></e>
+  <e k="K" key="IM_Set_WildUpgradesDesc"><s>Off by default: upgraded forms are meant to be bought by the player, so wild mutants only roll base breeds (no upgrades).</s><r>По умолчанию отключено: улучшенные формы предназначены для покупки игроком, поэтому дикие мутанты выбирают только базовые породы (без улучшений).</r></e>
+  <e k="K" key="IM_ShowAllUpgrades"><s>show all upgrades</s><r>показать все обновления</r></e>
+  <e k="K" key="IM_Sort_CostAsc"><s>cheap</s><r>дешевый</r></e>
+  <e k="K" key="IM_Sort_CostDesc"><s>pricey</s><r>дорогой</r></e>
+  <e k="K" key="IM_Sort_Default"><s>default</s><r>по умолчанию</r></e>
+  <e k="K" key="IM_Sort_Label"><s>Sort: {0}</s><r>Сортировать: {0}</r></e>
+  <e k="K" key="IM_Sort_Name"><s>name</s><r>имя</r></e>
+  <e k="K" key="IM_Sort_Strength"><s>strength</s><r>сила</r></e>
+  <e k="K" key="IM_Sort_Tip"><s>Click to cycle: default (design order) / cheap first / expensive first / name / effect strength. Effect strength roughly equals the total stat bonus a breed grants.</s><r>Нажмите, чтобы переключиться: по умолчанию (порядок дизайна) / сначала дешево / сначала дорого / имя / сила эффекта. Сила эффекта примерно равна общему бонусу к характеристикам, который дает порода.</r></e>
+  <e k="K" key="IM_SpecGroup_ApexMech"><s>apex powers</s><r>высшие полномочия</r></e>
+  <e k="K" key="IM_SpecGroup_ApexPrime"><s>apex enhancements</s><r>улучшения вершины</r></e>
+  <e k="K" key="IM_SpecGroup_Brood"><s>brood breeds</s><r>выводковые породы</r></e>
+  <e k="K" key="IM_SpecGroup_Combat"><s>combat breed</s><r>боевая порода</r></e>
+  <e k="K" key="IM_SpecGroup_Physiology"><s>physiology breed</s><r>физиология породы</r></e>
+  <e k="K" key="IM_SpecGroup_Regen"><s>regeneration breed</s><r>регенерация породы</r></e>
+  <e k="K" key="IM_SpecGroup_Shell"><s>shell breed</s><r>ракушечная порода</r></e>
+  <e k="K" key="IM_SpecGroup_Tolerance"><s>tolerance breed</s><r>терпимость породы</r></e>
+  <e k="K" key="IM_Sum_IM_Breed_BileBomber"><s>Grants bile burst (small acid explosion); sharp armor -8%.</s><r>Дает желчный взрыв (небольшой кислотный взрыв); острая броня -8%.</r></e>
+  <e k="K" key="IM_Sum_IM_Breed_EggHost"><s>Lays an egg every 1.5 days (up to 6 on the map); eggs hatch into short-lived swarmlings — the bigger the parent, the more and the longer-lived they are. Move speed -15%, hunger +20%.</s><r>Откладывает яйцо каждые 1,5 дня (до 6 на карте); из яиц вылупляются недолговечные стаи — чем крупнее родитель, тем больше и дольше они живут. Скорость передвижения -15%, голод +20%.</r></e>
+  <e k="K" key="IM_Sum_IM_Breed_Infecter"><s>Kills spawn 1-3 short-lived swarmlings; melee hit -5%.</s><r>Убийства порождают 1-3 недолговечных стаи; попадание в ближнем бою -5%.</r></e>
+  <e k="K" key="IM_Sum_IM_Breed_Leaper"><s>Grants the leap ability (teleport up to 9 tiles); melee dodge +10%.</s><r>Предоставляет способность прыжка (телепортироваться на расстояние до 9 клеток); уклонение в ближнем бою +10%.</r></e>
+  <e k="K" key="IM_Sum_IM_Breed_Spitter"><s>Grants acid spit (ranged acid attack); heat armor -5%.</s><r>Дает кислотный плевок (дальнобойная кислотная атака); тепловая броня -5%.</r></e>
+  <e k="K" key="IM_Sum_IM_Breed_Splitter"><s>On death, splits into 2 short-lived swarmlings; bleeding +20%.</s><r>После смерти распадается на 2 недолговечных стаи; кровотечение +20%.</r></e>
+  <e k="K" key="IM_Sum_IM_Breed_Spore"><s>On death it vents a red spore cloud: every friendly insect within 4.5 tiles gains the spore blessing for 50s (move speed +15%, incoming damage -10%, sharp/blunt armor +0.10/+0.08, less pain, healing x1.5). Sharp armor -8%, hunger +10%.</s><r>После смерти он выпускает красное облако спор: каждое дружественное насекомое в радиусе 4,5 клеток получает благословение спор на 50 секунд (скорость передвижения +15%, входящий урон -10%, острая/тупая броня +0,10/+0,08, меньше боли, исцеление x1,5). Острая броня -8%, голод +10%.</r></e>
+  <e k="K" key="IM_Sum_IM_Breed_StorageSac"><s>After pupating, pick any item your colony owns and it produces one periodically (cooldown by market value: 6 silver/day by default, 1-30 days). Hunger +25%, move speed -8%.</s><r>После окукливания выберите любой предмет, которым владеет ваша колония, и она периодически производит его (время восстановления по рыночной стоимости: по умолчанию 6 серебра в день, 1–30 дней). Голод +25%, скорость передвижения -8%.</r></e>
+  <e k="K" key="IM_Sum_IM_Var_BroodQueen"><s>Upgrade of the egg host: an egg per day (up to 10), armoured abdomen (sharp +6%). Move speed -20%, hunger +25%.</s><r>Улучшение яичного хозяина: яйцо в день (до 10), бронированное брюшко (резкое +6%). Скорость передвижения -20%, голод +25%.</r></e>
+  <e k="K" key="IM_Sum_IM_Var_GreatSac"><s>Upgrade of the storage sac: produces 2.3x faster (14 silver/day). Hunger +35%, move speed -10%.</s><r>Обновление хранилища: производит в 2,3 раза быстрее (14 серебра/день). Голод +35%, скорость передвижения -10%.</r></e>
+  <e k="K" key="IM_Sum_IM_Var_SporeKing"><s>Upgrade of the spore breed: a 6.5-tile cloud for 75s carrying a stronger blessing (move speed +25%, incoming damage -18%, healing x2), and 2 short-lived swarmlings crawl out of the corpse. Sharp armor -8%, hunger +15%.</s><r>Улучшение породы спор: облако размером 6,5 плитки на 75 секунд, несущее более сильное благословение (скорость передвижения +25%, входящий урон -18%, лечение х2), и из трупа выползают 2 недолговечных роя. Острая броня -8%, голод +15%.</r></e>
+  <e k="K" key="IM_Tab_Growth"><s>growth</s><r>рост</r></e>
+  <e k="K" key="IM_Tab_Mutate"><s>mutate</s><r>мутировать</r></e>
+  <e k="K" key="IM_Tip_BodyScale"><s>Body size {0}   effect strength {1}</s><r>Размер тела {0} Сила эффекта {1}</r></e>
+  <e k="K" key="IM_Tip_BreedLine"><s>breed {0}</s><r>порода {0}</r></e>
+  <e k="K" key="IM_Tip_CocoonHint"><s>It must find a spot and spin a cocoon; the changes only take hold once the bar finishes.</s><r>Он должен найти место и сплести кокон; изменения вступят в силу только после того, как полоса закончится.</r></e>
+  <e k="K" key="IM_Tip_CocoonPending"><s>Pending changes: {0}</s><r>Ожидаемые изменения: {0}</r></e>
+  <e k="K" key="IM_Tip_DamageWard"><s>Carapace ward: knits back {0}% of a heavy hit ({1}).</s><r>Панцирная защита: отбивает {0}% сильного удара ({1}).</r></e>
+  <e k="K" key="IM_Tip_GrowthLine"><s>growth: {0} to Lv{1}</s><r>рост: от {0} до Ур{1}</r></e>
+  <e k="K" key="IM_Tip_Instability"><s>Instability: {0}</s><r>Нестабильность: {0}</r></e>
+  <e k="K" key="IM_Tip_InstabilityDecay"><s>Decays by {0} per day.</s><r>Уменьшается на {0} в день.</r></e>
+  <e k="K" key="IM_Tip_Level"><s>Mutation level: {0}/{1}</s><r>Уровень мутации: {0}/{1}</r></e>
+  <e k="K" key="IM_Tip_NextThreshold"><s>Next threshold: {0}</s><r>Следующий порог: {0}</r></e>
+  <e k="K" key="IM_Tip_PointInvested"><s>Invested in {0}: {1} point(s)</s><r>Вложено в {0}: {1} балла(ов)</r></e>
+  <e k="K" key="IM_Tip_PointLine"><s>attribute {0} → {1} pts</s><r>атрибут {0} → {1} баллов</r></e>
+  <e k="K" key="IM_Tip_PointRow"><s>{0}: {1}/{2} points invested. Next point costs {3} jelly.</s><r>{0}: вложено {1}/{2} баллов. Следующий пункт стоит {3} желе.</r></e>
+  <e k="K" key="IM_Tip_RemoveApex"><s>Strip {0}: {1} jelly + {2} royal jelly (60% of each base price). Your normal breed and every invested point are kept. Takes effect after pupation.</s><r>Полоса {0}: {1} желе + {2} маточного молочка (60% от каждой базовой цены). Ваша нормальная порода и каждое вложенное очко сохраняются. Вступает в силу после окукливания.</r></e>
+  <e k="K" key="IM_Tip_RemoveApexLine"><s>strip the apex form</s><r>лишить вершину формы</r></e>
+  <e k="K" key="IM_Tip_RemoveBreed"><s>Remove the {0} breed: {1} jelly (60% of its base price). Points bought with jelly and everything already invested are kept — only the breed itself is stripped. Takes effect after pupation.</s><r>Удалите породу {0}: желе {1} (60% от базовой цены). Очки, купленные с желе, и все уже вложенное сохраняются — сбрасывается только сама порода. Вступает в силу после окукливания.</r></e>
+  <e k="K" key="IM_Tip_RemoveBreedLine"><s>strip breed (return to no breed)</s><r>полосатая порода (возврат к отсутствию породы)</r></e>
+  <e k="K" key="IM_Title"><s>Insect Mutation</s><r>Мутация насекомых</r></e>
+  <e k="K" key="IM_Ward_Charging"><s>ward recharging</s><r>перезарядка палаты</r></e>
+  <e k="K" key="IM_Ward_Ready"><s>ward ready</s><r>палата готова</r></e>
+</AutoTranslateCache>
