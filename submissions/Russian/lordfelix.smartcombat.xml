@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="lordfelix.smartcombat" name="Immersive Warfare" language="Russian" version="1">
+  <e k="D" t="JobDef" key="IW_AmmoBoxRefill.reportString"><s>refilling TargetA.</s><r>пополнение TargetA.</r></e>
+  <e k="D" t="JobDef" key="IW_AmmoBoxResupply.reportString"><s>resupplying ammunition at TargetA.</s><r>пополнение запасов боеприпасов в TargetA.</r></e>
+  <e k="D" t="JobDef" key="IW_AmmoBoxSynthRefill.reportString"><s>refilling TargetA from a synthesizer.</s><r>заправка TargetA из синтезатора.</r></e>
+  <e k="D" t="JobDef" key="SC_CombatWait.reportString"><s>holding a combat position.</s><r>удержание боевой позиции.</r></e>
+  <e k="D" t="JobDef" key="SC_EquipPrimaryMelee.reportString"><s>equipping TargetA as a primary melee weapon.</s><r>экипировав TargetA в качестве основного оружия ближнего боя.</r></e>
+  <e k="D" t="JobDef" key="SC_EvacuateAlly.reportString"><s>carrying TargetA to safety.</s><r>перенося TargetA в безопасное место.</r></e>
+  <e k="D" t="JobDef" key="SC_LootCorpse.reportString"><s>taking gear from TargetA.</s><r>забираем снаряжение из TargetA.</r></e>
+  <e k="D" t="JobDef" key="SC_SecureCarry.reportString"><s>securing TargetA.</s><r>закрепляя TargetA.</r></e>
+  <e k="D" t="JobDef" key="SC_StackHold.reportString"><s>holding a tactical stack position.</s><r>удержание тактической позиции стека.</r></e>
+  <e k="D" t="JobDef" key="SC_TakeSidearm.reportString"><s>taking TargetA as a sidearm.</s><r>взяв TargetA в качестве личного оружия.</r></e>
+  <e k="D" t="ThingDef" key="IW_AmmoSupplyBox.description"><s>A compact supply station that turns steel and chemfuel into ammunition. Colonists collect the rounds they need for their weapons, as long as the box remains stocked. Haulers can also feed it ammunition no colony weapon uses, which is broken down into steel and chemfuel. Requires Combat Extended.</s><r>Компактная станция снабжения, превращающая сталь и химическое топливо в боеприпасы. Колонисты собирают патроны, необходимые для их оружия, пока в ящике остается запас. Грузчики также могут снабжать его боеприпасами, которые не используются в колониальном оружии, которые разбиваются на сталь и химическое топливо. Требуется Combat Extended.</r></e>
+  <e k="D" t="ThingDef" key="IW_AmmoSupplyBox.label"><s>ammunition supply box</s><r>ящик для хранения боеприпасов</r></e>
+  <e k="D" t="WorkGiverDef" key="IW_RefillAmmoSupply.gerund"><s>refilling</s><r>пополнение</r></e>
+  <e k="D" t="WorkGiverDef" key="IW_RefillAmmoSupply.label"><s>refill ammunition boxes</s><r>пополнить ящики с боеприпасами</r></e>
+  <e k="D" t="WorkGiverDef" key="IW_RefillAmmoSupply.verb"><s>refill</s><r>пополнить</r></e>
+  <e k="K" key="IW_AmmoBoxAutomatic"><s>Automatic ammunition supply</s><r>Автоматическая подача боеприпасов</r></e>
+  <e k="K" key="IW_AmmoBoxAutomaticTip"><s>Allow automatic visits. Pawns use their selected compatible ammunition and assigned CE loadout, or a three-magazine target with no assigned loadout. Both steel and chemfuel are consumed.</s><r>Разрешить автоматические посещения. Пешки используют выбранные ими совместимые боеприпасы и назначенную экипировку CE или мишень из трех магазинов без назначенной экипировки. И сталь, и химическое топливо потребляются.</r></e>
+  <e k="K" key="IW_AmmoBoxNeedsCE"><s>Combat Extended ammo adapter unavailable.</s><r>Адаптер Combat Extended для боеприпасов недоступен.</r></e>
+  <e k="K" key="IW_AmmoBoxRecycle"><s>Recycle unused ammunition</s><r>Утилизируйте неиспользованные боеприпасы</r></e>
+  <e k="K" key="IW_AmmoBoxRecycleTip"><s>Haulers bring CE ammunition that no colony weapon uses (equipped, carried or in a player turret) and break it into steel and chemfuel for this box. Each item gives half its market value, never more than the box charges to make it. Ammo worth far more than that, such as rockets or shells, is left alone. Unused ammo is used before steel and chemfuel stacks.</s><r>Транспортеры приносят боеприпасы CE, которые не используются ни в одном оружии колонии (снаряженные, переносимые или в турели игрока), и разбивают их на сталь и химическое топливо для этого ящика. Каждый предмет дает половину своей рыночной стоимости, но не больше, чем требуется за его изготовление. Боеприпасы стоимостью гораздо больше, такие как ракеты или снаряды, остаются в покое. Неиспользованные боеприпасы используются перед складами стали и химического топлива.</r></e>
+  <e k="K" key="IW_AmmoBoxResupply"><s>Resupply ammo here</s><r>Пополните запас боеприпасов здесь</r></e>
+  <e k="K" key="IW_AmmoBoxStocks"><s>Steel: {0} / {1}
+Chemfuel: {2} / {3}</s><r>Сталь: {0} / {1}
+Химическое топливо: {2} / {3}</r></e>
+  <e k="K" key="IW_AmmoManualBoxUnavailable"><s>Supply box is unavailable</s><r>Коробка поставки недоступна</r></e>
+  <e k="K" key="IW_AmmoManualIncapable"><s>Pawn cannot resupply now</s><r>Пешка не может пополнить запасы сейчас</r></e>
+  <e k="K" key="IW_AmmoManualNoCE"><s>Combat Extended ammunition is unavailable</s><r>Боевые расширенные боеприпасы недоступны.</r></e>
+  <e k="K" key="IW_AmmoManualNoCapacity"><s>Not enough carrying capacity</s><r>Недостаточная грузоподъемность</r></e>
+  <e k="K" key="IW_AmmoManualNoNeed"><s>No ammunition needed</s><r>Боеприпасы не нужны</r></e>
+  <e k="K" key="IW_AmmoManualNoSupplies"><s>Box needs steel and chemfuel</s><r>Коробке нужна сталь и химтопливо.</r></e>
+  <e k="K" key="IW_AmmoManualNoWeapon"><s>No ammunition-using weapon equipped</s><r>Оружие, использующее боеприпасы, не оборудовано</r></e>
+  <e k="K" key="IW_AmmoManualReserved"><s>Supply box is reserved</s><r>Ящик с поставками зарезервирован</r></e>
+  <e k="K" key="IW_AmmoManualTip"><s>Collect the ammunition this pawn needs. Works with automatic supply turned off and keeps the pawn's drafted state.</s><r>Соберите боеприпасы, необходимые этой пешке. Работает при отключенной автоматической подаче и сохраняет выбранное состояние пешки.</r></e>
+  <e k="K" key="IW_AmmoManualUnreachable"><s>No reachable path</s><r>Нет доступного пути</r></e>
+  <e k="K" key="SC_AdapterReady"><s>available</s><r>доступный</r></e>
+  <e k="K" key="SC_AdapterUnavailable"><s>unavailable</s><r>недоступен</r></e>
+  <e k="K" key="SC_Allies"><s>Improve allied and neutral NPC combat AI</s><r>Улучшите боевой ИИ союзных и нейтральных NPC.</r></e>
+  <e k="K" key="SC_AnimalDraft"><s>Draft</s><r>Черновик</r></e>
+  <e k="K" key="SC_AnimalDraftTip"><s>Draft this tamed animal into Hold. It can receive movement and melee orders without Release training. Undraft to restore normal feeding, resting and animal AI. Native restrictions, emergencies and other mods' special jobs are respected. Drafted animals remain vulnerable and need care; livestock are not made stronger or trained by drafting.</s><r>Заберите это прирученное животное в Холд. Он может получать приказы о движении и рукопашном бою без подготовки к Освобождению. Undraft для восстановления нормального питания, отдыха и искусственного интеллекта животных. Соблюдаются встроенные ограничения, чрезвычайные ситуации и специальные задания других модов. Выловленные животные остаются уязвимыми и нуждаются в уходе; скот не становится сильнее и не дрессируется путем призыва.</r></e>
+  <e k="K" key="SC_AnimalUnavailable"><s>A downed animal or one in a mental state cannot be drafted.</s><r>Сбитое животное или животное, находящееся в психическом состоянии, не может быть призвано в армию.</r></e>
+  <e k="K" key="SC_AnimalUndraft"><s>Undraft</s><r>Непроектированный</r></e>
+  <e k="K" key="SC_Animals"><s>Allow player animal combat commands</s><r>Разрешить игроку боевые команды животных</r></e>
+  <e k="K" key="SC_AutoCombatWeapons"><s>Switch to carried melee weapons in close combat</s><r>Переключитесь на оружие ближнего боя в ближнем бою.</r></e>
+  <e k="K" key="SC_AutoCombatWeaponsTip"><s>Use an owned inventory melee weapon against close threats, then restore the previous owned ranged weapon after danger clears. Separate enter/exit distances and cooldowns prevent repeated swapping. Manual weapon choices suspend this until a new stance/draft command.</s><r>Используйте имеющееся в наличии оружие ближнего боя против близких угроз, а затем восстановите предыдущее оружие дальнего боя после исчезновения опасности. Отдельные расстояния входа/выхода и время восстановления предотвращают повторную замену. Выбор оружия вручную приостанавливает это до новой команды стойки/выбора.</r></e>
+  <e k="K" key="SC_AutoPsycasts"><s>Allow conservative automatic psycasts</s><r>Разрешить консервативные автоматические психокасты</r></e>
+  <e k="K" key="SC_AutoSidearms"><s>Switch to loaded sidearms when the primary gun runs dry</s><r>Переключитесь на заряженное оружие, когда основное оружие иссякнет.</r></e>
+  <e k="K" key="SC_AutoSidearmsTip"><s>For controlled drafted fighters, use an owned assigned loaded ranged sidearm when native ammo reports the current gun empty. Never create ammo, interrupt manual orders, active reloads or a warmup/burst. Supported CE automatic empty-gun reload requests may wait briefly for a safe switch; explicit reloads stay native. Return to the exact original gun only if it is actually loaded again. Vanilla unlimited-ammo guns do not run dry.</s><r>Для контролируемых бойцов используйте назначенное заряженное оружие дальнего боя, когда встроенные боеприпасы сообщают, что текущее оружие пусто. Никогда не создавайте боеприпасы, не прерывайте ручные приказы, активные перезарядки или разминку/серию. Поддерживаемые запросы CE на автоматическую перезарядку пустого пистолета могут ненадолго подождать безопасного переключения; явные перезагрузки остаются родными. Возвращайтесь к исходному пистолету только в том случае, если он снова заряжен. Ванильные пушки с неограниченным боезапасом не иссякают.</r></e>
+  <e k="K" key="SC_Budget"><s>Maximum tactical decisions per map tick: {0}</s><r>Максимальное количество тактических решений за тик карты: {0}</r></e>
+  <e k="K" key="SC_CMenuLabelsHelp"><s>Rectangular (default): full action labels appear beside rounded-square icons and wrap without shortening. Switch on circular buttons for icon-only actions with full names on hover.</s><r>Прямоугольный (по умолчанию): метки с полными действиями отображаются рядом со скругленными квадратными значками и переносятся без сокращения. Включите круглые кнопки для действий только со значками и полными именами при наведении.</r></e>
+  <e k="K" key="SC_CMenuNext"><s>Next page</s><r>Следующая страница</r></e>
+  <e k="K" key="SC_CMenuPrevious"><s>Previous page</s><r>Предыдущая страница</r></e>
+  <e k="K" key="SC_CaptionAbsorb"><s>Absorb</s><r>Поглощать</r></e>
+  <e k="K" key="SC_CaptionArrest"><s>Arrest</s><r>Арест</r></e>
+  <e k="K" key="SC_CaptionBreak"><s>Break</s><r>Перерыв</r></e>
+  <e k="K" key="SC_CaptionBuild"><s>Build</s><r>Строить</r></e>
+  <e k="K" key="SC_CaptionCapture"><s>Capture</s><r>Захватывать</r></e>
+  <e k="K" key="SC_CaptionClean"><s>Clean</s><r>Чистый</r></e>
+  <e k="K" key="SC_CaptionConsume"><s>Consume</s><r>Потреблять</r></e>
+  <e k="K" key="SC_CaptionDraft"><s>Draft</s><r>Черновик</r></e>
+  <e k="K" key="SC_CaptionDress"><s>Dress</s><r>Одеваться</r></e>
+  <e k="K" key="SC_CaptionDrop"><s>Drop</s><r>Уронить</r></e>
+  <e k="K" key="SC_CaptionEquip"><s>Equip</s><r>Оборудовать</r></e>
+  <e k="K" key="SC_CaptionExtinguish"><s>Put out</s><r>Выводить из себя</r></e>
+  <e k="K" key="SC_CaptionForm"><s>Form</s><r>Форма</r></e>
+  <e k="K" key="SC_CaptionHarvest"><s>Harvest</s><r>Урожай</r></e>
+  <e k="K" key="SC_CaptionHaul"><s>Haul</s><r>Перевозка</r></e>
+  <e k="K" key="SC_CaptionImplant"><s>Implant</s><r>Имплантат</r></e>
+  <e k="K" key="SC_CaptionJoin"><s>Join</s><r>Присоединиться</r></e>
+  <e k="K" key="SC_CaptionLeave"><s>Leave</s><r>Оставлять</r></e>
+  <e k="K" key="SC_CaptionMedical"><s>Medical</s><r>Медицинский</r></e>
+  <e k="K" key="SC_CaptionMove"><s>Move</s><r>Двигаться</r></e>
+  <e k="K" key="SC_CaptionPickAll"><s>Take all</s><r>Возьмите все</r></e>
+  <e k="K" key="SC_CaptionPickOne"><s>Take 1</s><r>Возьми 1</r></e>
+  <e k="K" key="SC_CaptionPickSome"><s>Quantity</s><r>Количество</r></e>
+  <e k="K" key="SC_CaptionReload"><s>Reload</s><r>Перезагрузить</r></e>
+  <e k="K" key="SC_CaptionRepair"><s>Repair</s><r>Ремонт</r></e>
+  <e k="K" key="SC_CaptionRescue"><s>Rescue</s><r>Спасать</r></e>
+  <e k="K" key="SC_CaptionRotate"><s>Rotate</s><r>Поворот</r></e>
+  <e k="K" key="SC_CaptionSow"><s>Sow</s><r>Сеять</r></e>
+  <e k="K" key="SC_CaptionStrip"><s>Strip</s><r>Полоска</r></e>
+  <e k="K" key="SC_CaptionTendBare"><s>Bare tend</s><r>Голый склонен</r></e>
+  <e k="K" key="SC_CaptionTendMedicine"><s>Med tend</s><r>С тенденцией</r></e>
+  <e k="K" key="SC_CaptionUndraft"><s>Undraft</s><r>Непроектированный</r></e>
+  <e k="K" key="SC_CaptionWear"><s>Wear</s><r>Носить</r></e>
+  <e k="K" key="SC_CaptionWork"><s>Work</s><r>Работа</r></e>
+  <e k="K" key="SC_Charge"><s>Charge</s><r>Заряжать</r></e>
+  <e k="K" key="SC_ChargeTip"><s>Pursue reachable, unfogged threats anywhere on this map, including animals actively hunting your faction's living colonists or pets, even before they get close. Harmless wildlife needs the separate Hunt designation and stance. Ranged pawns seek firing positions and cover. Melee Charge commits to closing the distance instead of seeking cover or automatically retreating when injured. Native suppression, incapacitation, mech command limits and manual orders still apply.</s><r>Преследуйте доступных и незамутненных угроз в любой точке этой карты, включая животных, активно охотящихся на живых колонистов или домашних животных вашей фракции, даже до того, как они приблизятся. Безобидная дикая природа требует отдельного обозначения и позиции охоты. Пешки дальнего боя ищут огневые позиции и укрытия. Melee Charge обязуется сокращать дистанцию ​​вместо того, чтобы искать укрытие или автоматически отступать при ранении. Встроенное подавление, выведение из строя, ограничения на командование мехами и ручные приказы по-прежнему применяются.</r></e>
+  <e k="K" key="SC_CompatAchtungName"><s>Achtung!</s><r>Опасность!</r></e>
+  <e k="K" key="SC_CompatCEName"><s>Combat Extended</s><r>Расширенный бой</r></e>
+  <e k="K" key="SC_CompatContractorsName"><s>Rim Contractors</s><r>Подрядчики по ободу</r></e>
+  <e k="K" key="SC_CompatHeading"><s>Optional integrations</s><r>Дополнительные интеграции</r></e>
+  <e k="K" key="SC_CompatStatus"><s>Combat Extended: {0}
+Vanilla Psycasts Expanded: {1}
+Achtung!: {2}
+Rim Contractors: {3} (Secure adapter {4})</s><r>Расширенный бой: {0}
+Vanilla Psycasts Расширенный: {1}
+Achtung!: {2}
+Rim Contractors: {3} (Безопасный адаптер {4})</r></e>
+  <e k="K" key="SC_CompatVPEName"><s>Vanilla Psycasts Expanded</s><r>Расширение Vanilla Psycasts</r></e>
+  <e k="K" key="SC_Contractors"><s>Delegate Secure to Rim Contractors when active</s><r>Делегировать безопасность подрядчикам по ободу, когда она активна</r></e>
+  <e k="K" key="SC_Cover"><s>Prefer directional cover</s><r>Предпочитаю направленное прикрытие</r></e>
+  <e k="K" key="SC_Detected"><s>detected</s><r>обнаружен</r></e>
+  <e k="K" key="SC_DevBattleBusy"><s>A combat-test squad is still being generated on this map.</s><r>На этой карте еще формируется боево-испытательный отряд.</r></e>
+  <e k="K" key="SC_DevBattleNeedSpace"><s>The 10 vs 10 test needs enough open, unfogged ground around the cursor.</s><r>Для теста 10 на 10 требуется достаточно открытая, незапотевшая площадка вокруг курсора.</r></e>
+  <e k="K" key="SC_DevBattleSetupFailed"><s>The combat test could not initialize its factions. Setup was stopped before spawning fighters. See the development log.</s><r>Боевой тест не смог инициализировать свои фракции. Установка была остановлена ​​до появления бойцов. Смотрите журнал разработки.</r></e>
+  <e k="K" key="SC_DevBattleStarted"><s>Combat test ready: two temporary factions, 10 fighters each. Unpause to watch their AI.</s><r>Готово боевое испытание: две временные фракции по 10 бойцов в каждой. Снимите паузу, чтобы наблюдать за их ИИ.</r></e>
+  <e k="K" key="SC_DevFactionA"><s>Combat test: blue faction</s><r>Боевое испытание: синяя фракция</r></e>
+  <e k="K" key="SC_DevFactionB"><s>Combat test: red faction</s><r>Боевое испытание: красная фракция</r></e>
+  <e k="K" key="SC_DevFactionBattle"><s>Spawn two factions: 10 vs 10 combat test</s><r>Создайте две фракции: боевое испытание 10 на 10.</r></e>
+  <e k="K" key="SC_DevNoHostileFaction"><s>No hostile faction is available for the test targets.</s><r>Для тестовых целей недоступна враждебная фракция.</r></e>
+  <e k="K" key="SC_DevPredatorColonist"><s>Predator defense test: colonist prey</s><r>Испытание на защиту от хищников: добыча колонистов</r></e>
+  <e k="K" key="SC_DevPredatorPause"><s>Pause the game before placing the predator-defense test.</s><r>Сделайте паузу в игре, прежде чем проходить тест на защиту от хищника.</r></e>
+  <e k="K" key="SC_DevPredatorPet"><s>Predator defense test: pet prey</s><r>Тест на защиту от хищников: домашняя добыча</r></e>
+  <e k="K" key="SC_DevPredatorReady"><s>Predator test ready. Two unformed drafted defenders are selected on Hold. Choose Charge (or your shared key), then unpause. They should engage the hunting wolf before it reaches its prey; the second, idle wolf should be ignored. Actual targets are logged for diagnosis. Use a TEST save.</s><r>Тест Хищника готов. Два несформированных защитника выбраны на «Удержание». Выберите «Оплатить» (или свой общий ключ), затем возобновите паузу. Им следует атаковать охотящегося волка до того, как он достигнет своей добычи; второго, праздного волка, следует игнорировать. Фактические цели регистрируются для диагностики. Используйте ТЕСТОВОЕ сохранение.</r></e>
+  <e k="K" key="SC_DevPredatorSpace"><s>The predator-defense test needs a broad patch of open, unfogged ground around the cursor.</s><r>Для теста на защиту от хищников требуется широкий участок открытой, незапотевшей земли вокруг курсора.</r></e>
+  <e k="K" key="SC_DevPredatorUnavailable"><s>The predator-defense test could not finish. Check the development log; any already-spawned test pawns remain.</s><r>Испытание на защиту от хищников не удалось завершить. Проверьте журнал разработки; все уже созданные тестовые пешки остаются.</r></e>
+  <e k="K" key="SC_DevStackMelee"><s>Spawn equipped all-melee stack</s><r>Создает стек, предназначенный только для ближнего боя.</r></e>
+  <e k="K" key="SC_DevStackMixed"><s>Spawn equipped mixed stack</s><r>Смешанный стек с экипированным спавном</r></e>
+  <e k="K" key="SC_DevStackRanged"><s>Spawn equipped all-ranged stack</s><r>Стек всех дальностей с экипировкой Spawn</r></e>
+  <e k="K" key="SC_DevStackTargets"><s>Spawn armed hostile test targets</s><r>Создавать вооруженные враждебные испытательные цели</r></e>
+  <e k="K" key="SC_DirectOrderArea"><s>Right-click orders ignore allowed areas</s><r>Приказы, вызываемые правой кнопкой мыши, игнорируют разрешенные области.</r></e>
+  <e k="K" key="SC_DirectOrderAreaTip"><s>Undrafted colonists accept right-click orders outside their allowed area, for example Prioritize hauling an item or carrying a pawn. A clicked forbidden item or corpse is unforbidden only when the order is accepted and the job uses it. Other forbidden things, ritual reservations, reach and reservations still apply. Automatic work keeps respecting the area. Drafted pawns already ignore areas.</s><r>Непризванные колонисты принимают приказы, щелкаемые правой кнопкой мыши за пределами разрешенной им зоны, например, отдать приоритет перетаскиванию предмета или ношению пешки. Запрещенный предмет или труп, на который нажата кнопка, становится незапрещенным только тогда, когда приказ принят и задание использует его. Другие запрещенные вещи, ритуальные оговорки, досягаемость и оговорки все еще действуют. Автоматическая работа продолжает уважать территорию. Выбранные пешки уже игнорируют области.</r></e>
+  <e k="K" key="SC_DownedBleedingRate"><s>Bleeding {0}/day</s><r>Кровотечение {0}/день</r></e>
+  <e k="K" key="SC_DownedBleedsOutIn"><s>Bleeds out in</s><r>Истекает кровью</r></e>
+  <e k="K" key="SC_DownedBloodLoss"><s>Blood loss {0}</s><r>Кровопотеря {0}</r></e>
+  <e k="K" key="SC_DownedCannotMove"><s>Unable to move</s><r>Невозможно двигаться</r></e>
+  <e k="K" key="SC_DownedCard"><s>Downed pawn hover status</s><r>Статус сбитой пешки при наведении</r></e>
+  <e k="K" key="SC_DownedCardDetailed"><s>Detailed downed card</s><r>Подробная сбитая карта</r></e>
+  <e k="K" key="SC_DownedCardDetailedTip"><s>Off (default): compact card with name, whose pawn it is, bleed-out time, untended wounds and the top bleeding body parts. On: full card that also shows why the pawn is down, a blood-loss bar, bleeding rate and a column of injured body parts with each part's health.</s><r>Выкл. (по умолчанию): компактная карточка с указанием имени, чьей пешки, времени кровотечения, необработанных ран и верхних кровоточащих частей тела. Включено: полная карта, которая также показывает, почему пешка упала, полоса кровопотери, скорость кровотечения и столбец поврежденных частей тела со здоровьем каждой части.</r></e>
+  <e k="K" key="SC_DownedCardTip"><s>Hover the mouse over any downed pawn (colonists, prisoners, slaves, enemies, allies, visitors, animals and mechs) to show a small card above them: whose pawn it is, the time left before they bleed out, how many wounds are untended and which body parts are bleeding. Display only: nothing in the game changes, and nothing is calculated unless you hover a downed pawn. The countdown uses the same calculation as the Health tab. If Rim Control's older colonists-only card is still enabled, it keeps showing colonists and this card covers everyone else.</s><r>Наведите указатель мыши на любую сбитую пешку (колонистов, пленников, рабов, врагов, союзников, посетителей, животных и механизмов), чтобы над ними появилась маленькая карточка: чья это пешка, время, оставшееся до того, как она истечет кровью, сколько ран не обработано и какие части тела кровоточат. Только отображение: ничего в игре не меняется и ничего не рассчитывается, пока вы не наведете на сбитую пешку. Обратный отсчет использует тот же расчет, что и на вкладке «Здоровье». Если старая карта Rim Control, предназначенная только для колонистов, все еще включена, она продолжает показывать колонистов, и эта карта охватывает всех остальных.</r></e>
+  <e k="K" key="SC_DownedDeathless"><s>Deathless: will not bleed to death</s><r>Бессмертный: не истечет кровью до смерти</r></e>
+  <e k="K" key="SC_DownedIncapacitated"><s>Incapacitated</s><r>Недееспособный</r></e>
+  <e k="K" key="SC_DownedInjuredParts"><s>Injured body parts</s><r>Травмированные части тела</r></e>
+  <e k="K" key="SC_DownedMoreParts"><s>+{0} more</s><r>+{0} ещё</r></e>
+  <e k="K" key="SC_DownedNoBlood"><s>Does not bleed</s><r>Не кровоточит</r></e>
+  <e k="K" key="SC_DownedNotBleeding"><s>Not bleeding</s><r>Не кровотечение</r></e>
+  <e k="K" key="SC_DownedPainShock"><s>In pain shock</s><r>В болевом шоке</r></e>
+  <e k="K" key="SC_DownedPartMissing"><s>Missing</s><r>Отсутствующий</r></e>
+  <e k="K" key="SC_DownedPartsBleeding"><s>{0} injured, {1} bleeding</s><r>{0} травма, {1} кровотечение</r></e>
+  <e k="K" key="SC_DownedPartsCount"><s>{0} injured</s><r>{0} ранен</r></e>
+  <e k="K" key="SC_DownedRelAlly"><s>Ally</s><r>Союзник</r></e>
+  <e k="K" key="SC_DownedRelColonist"><s>Colonist</s><r>Колонист</r></e>
+  <e k="K" key="SC_DownedRelColonyAnimal"><s>Colony animal</s><r>Колония животных</r></e>
+  <e k="K" key="SC_DownedRelColonyMech"><s>Colony mech</s><r>Колониальный мех</r></e>
+  <e k="K" key="SC_DownedRelEnemy"><s>Enemy</s><r>Враг</r></e>
+  <e k="K" key="SC_DownedRelNeutral"><s>Neutral</s><r>Нейтральный</r></e>
+  <e k="K" key="SC_DownedRelPrisoner"><s>Prisoner</s><r>Узник</r></e>
+  <e k="K" key="SC_DownedRelSlave"><s>Slave</s><r>Раб</r></e>
+  <e k="K" key="SC_DownedRelUnaffiliated"><s>No faction</s><r>Нет фракции</r></e>
+  <e k="K" key="SC_DownedRelWildAnimal"><s>Wild animal</s><r>Дикое животное</r></e>
+  <e k="K" key="SC_DownedStable"><s>Stable</s><r>Стабильный</r></e>
+  <e k="K" key="SC_DownedTitle"><s>Downed</s><r>Сбитый</r></e>
+  <e k="K" key="SC_DownedUnconscious"><s>Unconscious</s><r>Бессознательный</r></e>
+  <e k="K" key="SC_DownedUntended"><s>Untended bleeding wounds: {0}</s><r>Необработанные кровоточащие раны: {0}</r></e>
+  <e k="K" key="SC_DownedUntendedShort"><s>Untended wounds: {0}</s><r>Необработанные раны: {0}</r></e>
+  <e k="K" key="SC_DraftAnimals"><s>Allow drafting tamed player animals</s><r>Разрешить выбирать прирученных животных-игроков.</r></e>
+  <e k="K" key="SC_DraftLivestock"><s>Allow drafting livestock (off by default)</s><r>Разрешить вытягивание домашнего скота (по умолчанию отключено)</r></e>
+  <e k="K" key="SC_DraftLivestockTip"><s>Includes RimWorld's pen/roaming species such as cows, chickens, muffalo and pack livestock. Pets and non-pen animals remain draftable with the general animal-drafting setting. Disable this to undraft livestock and restore normal animal behavior.</s><r>Включает в себя загонные/бродячие виды RimWorld, такие как коровы, куры, муффало и вьючный скот. Домашние животные и животные, не находящиеся в загоне, по-прежнему доступны для рисования с общими настройками для рисования животных. Отключите эту функцию, чтобы отменить призыв скота и восстановить нормальное поведение животных.</r></e>
+  <e k="K" key="SC_DynamicRerouting"><s>Update routes while walking</s><r>Обновляйте маршруты во время прогулки</r></e>
+  <e k="K" key="SC_DynamicReroutingTip"><s>When walls, doors' forbidden state or terrain change, your pawns already on a long route recalculate it in the background and take the new route. Destinations and jobs do not change. RimWorld's own repathing for blocked routes and danger is unchanged. NPCs are not affected.</s><r>Когда стены, запрещенное состояние дверей или местность изменяются, ваши пешки, уже находящиеся на длинном маршруте, пересчитывают его в фоновом режиме и выбирают новый маршрут. Направления и работа не меняются. Собственная переадресация RimWorld для заблокированных маршрутов и опасностей не изменилась. NPC не затронуты.</r></e>
+  <e k="K" key="SC_Enabled"><s>Enable Immersive Warfare</s><r>Включить иммерсивную войну</r></e>
+  <e k="K" key="SC_Enemies"><s>Improve enemy combat AI</s><r>Улучшите боевой ИИ противника</r></e>
+  <e k="K" key="SC_EquipAsPrimaryMelee"><s>Equip as primary melee: {0}</s><r>Экипировать в качестве основного оружия ближнего боя: {0}</r></e>
+  <e k="K" key="SC_EquipAsSidearm"><s>Equip as sidearm: {0}</s><r>Экипировать как личное оружие: {0}</r></e>
+  <e k="K" key="SC_ForcedWorkActive"><s>Achtung forced work is active. Cancel that order before assigning an Immersive Warfare stance.</s><r>Принудительный труд ахтунгов активен. Отмените этот приказ, прежде чем назначать позицию Immersive Warfare.</r></e>
+  <e k="K" key="SC_FormationActionLock"><s>An accepted personal, work or medical order releases its actor from formation.</s><r>Принятый личный, рабочий или медицинский приказ освобождает своего исполнителя от формирования.</r></e>
+  <e k="K" key="SC_FormationNeedStack"><s>Select a pawn in a formation.</s><r>Выберите пешку в построении.</r></e>
+  <e k="K" key="SC_FormationTileTip"><s>Formation: form, rotate ranks, leave, or break. Drag multiple stacks to place each unit separately.</s><r>Формирование: формируйте, меняйте ряды, уходите или разрывайте. Перетащите несколько стопок, чтобы разместить каждую единицу отдельно.</r></e>
+  <e k="K" key="SC_FriendlyFire"><s>Avoid firing through friendly pawns</s><r>Избегайте стрельбы через дружественные пешки</r></e>
+  <e k="K" key="SC_FriendlySelfDefense"><s>Friendly NPCs prioritize direct threats</s><r>Дружественные NPC отдают приоритет прямым угрозам.</r></e>
+  <e k="K" key="SC_FriendlySelfDefenseTip"><s>Ordinary friendly NPCs interrupt eligible wandering or routine work when directly attacked or targeted, keep defending against that attacker, and yield back to native duties after danger passes. Limited local pursuit; no quest, medical/rescue, flee, player-order or unknown scripted-job takeover.</s><r>Обычные дружественные NPC прерывают подходящие блуждания или рутинную работу, когда на них непосредственно нападают или становятся целью, продолжают защищаться от нападающего и возвращаются к своим обязанностям после того, как опасность минует. Ограниченное местное преследование; никаких квестов, медицинских/спасательных операций, бегства, приказов игрока или захвата неизвестных заданных по сценарию заданий.</r></e>
+  <e k="K" key="SC_Guard"><s>Guard</s><r>Сторожить</r></e>
+  <e k="K" key="SC_GuardContextTip"><s>Protect this pawn with the eligible selected pawns. Guards follow nearby and prioritize attackers threatening their ward.</s><r>Защитите эту пешку с помощью выбранных подходящих пешек. Охранники следуют рядом и отдают предпочтение нападающим, угрожающим их подопечному.</r></e>
+  <e k="K" key="SC_GuardRadius"><s>Guard spacing radius: {0} cells</s><r>Радиус расстояния между охранниками: {0} ячеек.</r></e>
+  <e k="K" key="SC_GuardTarget"><s>Guard {0}</s><r>Страж {0}</r></e>
+  <e k="K" key="SC_GuardTip"><s>Right-click a friendly pawn and choose Guard. Stay nearby, with scattered spacing, and prioritize enemies attacking that pawn.</s><r>Щелкните правой кнопкой мыши дружественную пешку и выберите «Охрана». Оставайтесь поблизости, на разбросанном расстоянии, и расставляйте приоритеты среди врагов, атакующих эту пешку.</r></e>
+  <e k="K" key="SC_Hold"><s>Hold</s><r>Держать</r></e>
+  <e k="K" key="SC_HoldChargeHotkeyTip"><s>Give Hold and Charge the same key and modifiers to toggle the selected group together. Everyone on Charge switches to Hold; any other mix switches everyone to Charge. Mouse buttons still choose their named stance.</s><r>Дайте Hold и Charge одну и ту же клавишу и модификаторы, чтобы переключить выбранную группу вместе. Все, кто находится на зарядке, переключаются в режим удержания; любой другой микс переключает всех на Charge. Кнопки мыши по-прежнему выбирают свое названное положение.</r></e>
+  <e k="K" key="SC_HoldTip"><s>Stay at the current position. Defend against adjacent enemies, beat nearby fires when capable, or shoot when fire-at-will is enabled. Native reloads and carried-weapon fallback remain available; CE may pick up ammunition within reach, but not walk to distant ammunition. Never move for cover or pursue enemies. This is the default when drafted.</s><r>Оставайтесь на текущей позиции. Защищайтесь от соседних врагов, уничтожайте близлежащие пожары, если это возможно, или стреляйте, когда включен огонь по желанию. Встроенные перезарядки и резервное оружие остаются доступными; CE может подобрать боеприпасы в пределах досягаемости, но не может идти к дальним боеприпасам. Никогда не двигайтесь в укрытие и не преследуйте врагов. Это значение по умолчанию при составлении.</r></e>
+  <e k="K" key="SC_HotkeyAlt"><s>Alt</s><r>Альтернативный вариант</r></e>
+  <e k="K" key="SC_HotkeyAssign"><s>Assign anyway</s><r>Все равно назначить</r></e>
+  <e k="K" key="SC_HotkeyCancel"><s>Cancel</s><r>Отмена</r></e>
+  <e k="K" key="SC_HotkeyClear"><s>Clear</s><r>Прозрачный</r></e>
+  <e k="K" key="SC_HotkeyConflict"><s>{0} is already used by:
+{1}
+
+Assign it anyway? The original actions may also respond.</s><r>{0} уже используется:
+{1}
+
+Все равно назначить его? Исходные действия также могут реагировать.</r></e>
+  <e k="K" key="SC_HotkeyConflictLimit"><s>Registered game/mod bindings and these custom bindings are checked. Arbitrary hardcoded mod shortcuts cannot all be detected.</s><r>Зарегистрированные привязки игры/мода и эти пользовательские привязки проверяются. Произвольные жестко запрограммированные ярлыки модов не могут быть обнаружены.</r></e>
+  <e k="K" key="SC_HotkeyConflictTitle"><s>Key already in use</s><r>Ключ уже используется</r></e>
+  <e k="K" key="SC_HotkeyCtrl"><s>Ctrl</s><r>Ctrl</r></e>
+  <e k="K" key="SC_HotkeyCurrent"><s>Hotkey: {0}</s><r>Горячая клавиша: {0}</r></e>
+  <e k="K" key="SC_HotkeyHelp"><s>Click a binding, then press a key or Ctrl/Shift/Alt combination. Escape cancels capture. Conflicts require confirmation.</s><r>Щелкните привязку, затем нажмите клавишу или комбинацию Ctrl/Shift/Alt. Побег отменяет захват. Конфликты требуют подтверждения.</r></e>
+  <e k="K" key="SC_HotkeyOpenHint"><s>Right-click this tile to customize its hotkeys.</s><r>Щелкните эту плитку правой кнопкой мыши, чтобы настроить ее горячие клавиши.</r></e>
+  <e k="K" key="SC_HotkeyRecording"><s>Press a key...</s><r>Нажмите клавишу...</r></e>
+  <e k="K" key="SC_HotkeyReset"><s>Clear this set</s><r>Очистить этот набор</r></e>
+  <e k="K" key="SC_HotkeySaved"><s>Changes are saved immediately. All custom bindings start unbound.</s><r>Изменения сохраняются немедленно. Все пользовательские привязки изначально не привязаны.</r></e>
+  <e k="K" key="SC_HotkeyShift"><s>Shift</s><r>Сдвиг</r></e>
+  <e k="K" key="SC_HotkeyUnbound"><s>Unbound</s><r>Несвязанный</r></e>
+  <e k="K" key="SC_HotkeyUsed"><s>Already used: {0}</s><r>Уже использовано: {0}</r></e>
+  <e k="K" key="SC_HotkeysFormation"><s>Formation hotkeys</s><r>Горячие клавиши формирования</r></e>
+  <e k="K" key="SC_HotkeysStances"><s>Combat stance hotkeys</s><r>Горячие клавиши боевой стойки</r></e>
+  <e k="K" key="SC_Hunt"><s>Hunt</s><r>Охота</r></e>
+  <e k="K" key="SC_HuntTip"><s>Attack animals currently marked with the vanilla Hunt designation. Automatically undraft when no living marked animals remain on this map. Unreachable marked animals still count. Does not mark new animals, butcher or haul corpses. Manual orders suspend automation.</s><r>Боевые животные в настоящее время отмечены стандартным обозначением Охоты. Автоматически отменяется, когда на этой карте не остается живых отмеченных животных. Недостижимые отмеченные животные по-прежнему учитываются. Не отмечает новых животных, не разделывает их и не таскает трупы. Ручные заказы приостанавливают автоматизацию.</r></e>
+  <e k="K" key="SC_Interval"><s>Tactical decision interval: {0} ticks</s><r>Интервал принятия тактического решения: {0} тиков.</r></e>
+  <e k="K" key="SC_ManualNote"><s>Drafted pawns default to Hold; there is no individual on/off button. Manual orders, queues and Achtung forced work always take priority without changing your selected stance. After those orders finish and the pawn is idle for two seconds, that stance resumes with fresh targets; drafted animals resume at native idle job selection. Choose Hold if you do not want pursuit to resume. Undrafting releases humans and animals to normal AI. Formation transitions and completed Secure actions reset to Hold. Fire-at-will is respected; capable pawns can still beat nearby fires while holding position. Position and friendly-fire checks reduce risk; they cannot guarantee safety.</s><r>Выбранные пешки по умолчанию держатся; отдельной кнопки включения/выключения нет. Ручные заказы, очереди и принудительная работа Achtung всегда имеют приоритет без изменения выбранной вами позиции. После того, как эти приказы закончатся и пешка бездействует в течение двух секунд, эта позиция возобновляется с новыми целями; призывные животные возобновляют работу на родном бездействующем отборе. Выберите «Удержать», если не хотите, чтобы преследование возобновлялось. Отмена проекта освобождает людей и животных от обычного ИИ. Переходы формации и завершенные действия по обеспечению безопасности сбрасываются на удержание. Огонь по желанию уважается; способные пешки все еще могут бороться с ближайшим огнем, удерживая позицию. Проверка позиции и дружественного огня снижают риск; они не могут гарантировать безопасность.</r></e>
+  <e k="K" key="SC_MechCommandRange"><s>Outside this mech's command range.</s><r>Вне зоны действия этого меха.</r></e>
+  <e k="K" key="SC_MechWeaponRestricted"><s>This mech cannot use or exchange this weapon. Its frame, mounted-weapon and control restrictions still apply.</s><r>Этот механизм не может использовать или обменивать это оружие. Ограничения по конструкции, навесному вооружению и управлению по-прежнему действуют.</r></e>
+  <e k="K" key="SC_MobileReloads"><s>Allow slowed movement during reload waits</s><r>Разрешить замедленное движение во время ожидания перезарядки</r></e>
+  <e k="K" key="SC_MobileReloadsTip"><s>Retain the actual native reload job, ammo and duration while walking during supported wait phases. Keep ammunition pickup and unknown/stationary phases native. Hold does not autonomously move. Manual movement remains authoritative.</s><r>Сохраняйте фактическое встроенное задание перезарядки, боеприпасы и продолжительность во время ходьбы во время поддерживаемых фаз ожидания. Оставьте систему подбора боеприпасов и неизвестные/стационарные фазы исходными. Удержание не перемещается автономно. Ручное движение остается авторитетным.</r></e>
+  <e k="K" key="SC_MovementFire"><s>Fire while moving</s><r>Огонь во время движения</r></e>
+  <e k="K" key="SC_MovementFireTip"><s>Eligible drafted fighters and ordinary NPC combatants may aim and fire supported primary guns during safe movement. Native warmup, burst, cooldown and ammunition remain unchanged. Moving shots suffer a 25% vanilla accuracy-factor reduction, or increased CE sway/spread. Reloads, suppression, formations, paired/mounted control, queued orders, special weapons and protected jobs are excluded. No movement or attack job replacement.</s><r>Соответствующие призыву бойцы и обычные бойцы NPC могут прицеливаться и стрелять из основного оружия с опорой во время безопасного движения. Собственная разминка, взрыв, время восстановления и боеприпасы остаются неизменными. При движущихся выстрелах коэффициент точности снижается на 25 % или увеличивается раскачивание/разброс CE. Исключены перезарядки, подавление, построения, спаренное/верховое управление, приказы в очереди, специальное вооружение и защищенные задания. Никакого движения или замены атаки.</r></e>
+  <e k="K" key="SC_NotDetected"><s>not active</s><r>не активен</r></e>
+  <e k="K" key="SC_NpcAftermath"><s>NPC battle rescue and corpse looting</s><r>Спасение NPC в бою и грабеж трупов</r></e>
+  <e k="K" key="SC_NpcAftermathTip"><s>After fighting quiets, ordinary NPC fighters try to carry their downed faction allies to a safe map exit first. Both sides may take limited real gear from dead opponents if no rescue remains. No player-controlled or quest-pawn takeover. Renewed danger cancels aftermath orders.</s><r>После боя с тишиной обычные бойцы NPC сначала пытаются донести своих сбитых союзников из фракции до безопасного выхода с карты. Обе стороны могут забрать ограниченное количество реального снаряжения у мертвых противников, если не останется спасения. Никакого захвата, контролируемого игроком или пешкой квеста. Возобновившаяся опасность отменяет приказы о последствиях.</r></e>
+  <e k="K" key="SC_NpcPairs"><s>Occasional NPC combat pairs</s><r>Случайные боевые пары NPC</r></e>
+  <e k="K" key="SC_NpcPairsTip"><s>Enemy and friendly ranged NPCs may form safe two-person stacks while fighting. Same faction and compatible duty only. Player pawns stay manual; switching to melee, retreat, special jobs and combat ending split the pair.</s><r>Вражеские и дружественные NPC дальнего боя могут образовывать безопасные стопки по два человека во время боя. Только та же фракция и совместимые обязанности. Пешки игроков остаются ручными; переключение на рукопашный бой, отступление, специальные задания и боевой финал разделили пару.</r></e>
+  <e k="K" key="SC_PerfBalanced"><s>Balanced</s><r>Сбалансированный</r></e>
+  <e k="K" key="SC_PerfBudgetLabel"><s>Planning budget per map tick</s><r>Планирование бюджета на тик карты</r></e>
+  <e k="K" key="SC_PerfBudgetTip"><s>Maximum tactical planning attempts per map tick. Larger budgets improve responsiveness for many fighters but can create CPU spikes. Suspended/manual-order checks do not spend a planning slot. Priority commands share this budget with ordinary NPC scheduling.</s><r>Максимальное количество попыток тактического планирования за тик карты. Большие бюджеты улучшают отзывчивость многих бойцов, но могут вызвать скачки производительности процессора. Приостановленные проверки/проверки заказов вручную не тратят слот планирования. Приоритетные команды делят этот бюджет с обычным планированием NPC.</r></e>
+  <e k="K" key="SC_PerfCells"><s>{0} cells</s><r>{0} ячейки</r></e>
+  <e k="K" key="SC_PerfIntervalLabel"><s>Tactical decision interval</s><r>Интервал принятия тактического решения</r></e>
+  <e k="K" key="SC_PerfIntervalTip"><s>Minimum time between regular planning passes for a fighter, plus per-pawn staggering. New commands receive a bounded priority pass. Shorter intervals spend more CPU; native warmup, reloads and manual orders still take priority.</s><r>Минимальное время между регулярными проходами планирования для бойца, плюс шатание на каждую пешку. Новые команды получают ограниченный приоритет. Более короткие интервалы затрачивают больше ресурсов ЦП; встроенная разминка, перезагрузка и ручные приказы по-прежнему имеют приоритет.</r></e>
+  <e k="K" key="SC_PerfLargeBattles"><s>Large battles</s><r>Большие сражения</r></e>
+  <e k="K" key="SC_PerfPresetTip"><s>Set a {0}-tick planning interval and {1} decisions per map tick. Keeps your local scan radius, combat options and hotkeys.</s><r>Установите интервал планирования {0} и {1} решений на каждый такт карты. Сохраняет локальный радиус сканирования, параметры боя и горячие клавиши.</r></e>
+  <e k="K" key="SC_PerfPresets"><s>Performance presets</s><r>Пресеты производительности</r></e>
+  <e k="K" key="SC_PerfPresetsNote"><s>Presets change only the interval and planning budget. Responsive spends more CPU; it is not a measured FPS improvement.</s><r>Пресеты меняют только интервал и бюджет планирования. Адаптивный режим потребляет больше ресурсов ЦП; это не измеренное улучшение FPS.</r></e>
+  <e k="K" key="SC_PerfRadiusLabel"><s>Local combat scan radius</s><r>Локальный радиус боевого сканирования</r></e>
+  <e k="K" key="SC_PerfRadiusTip"><s>Used by local tactics. This does not limit player Charge's map-wide target acquisition or a valid current-position shot. Larger local scans can cost more CPU.</s><r>Используется местной тактикой. Это не ограничивает возможность захвата цели игроком Charge на всей карте или действительный выстрел из текущей позиции. Более крупные локальные сканирования могут потребовать больше ресурсов ЦП.</r></e>
+  <e k="K" key="SC_PerfResponsive"><s>Responsive</s><r>Отзывчивый</r></e>
+  <e k="K" key="SC_PerfRuntimeDefaults"><s>RimWorld {0} default: {1}-tick interval, {2} decisions per tick. Saved settings are kept.</s><r>RimWorld {0} по умолчанию: {1}-тик, {2} решений за тик. Сохраненные настройки сохраняются.</r></e>
+  <e k="K" key="SC_PerfTicks"><s>{0} ticks</s><r>{0} тиков</r></e>
+  <e k="K" key="SC_PortraitRadialTip"><s>Right-click and release a colonist portrait for the same icon-and-text C menu used on the map. It stays below the portrait bar and flips sides to fit. Right-drag rearranges portraits without opening actions; left-click selects normally.</s><r>Щелкните правой кнопкой мыши и отпустите портрет колониста для того же значково-текстового меню C, которое используется на карте. Он остается под панелью портрета и переворачивается по размеру. Перетаскивание правой кнопкой мыши меняет расположение портретов, не открывая действий; левый клик выбирает нормально.</r></e>
+  <e k="K" key="SC_Pressure"><s>Respond to incoming damage and suppression</s><r>Реагировать на входящий урон и подавление</r></e>
+  <e k="K" key="SC_PsycastNote"><s>Automatic casting is opt-in: Royalty Stun and VPE Stun only, at most once per five seconds. VPE also requires the ability's own autocast setting. All other psycasts remain manually usable. Native validation, costs, warmups and cooldowns are preserved.</s><r>Автоматический кастинг возможен: только роялти и VPE-оглушение, не чаще одного раза в пять секунд. Для VPE также требуется собственная настройка автоприменения способности. Все остальные psycasts можно использовать вручную. Встроенная проверка, затраты, разминка и кулдаун сохраняются.</r></e>
+  <e k="K" key="SC_RadialActionHint"><s>Tab: standard list.</s><r>Вкладка: стандартный список.</r></e>
+  <e k="K" key="SC_RadialActionLabels"><s>Legacy curved-caption preference (unused)</s><r>Устаревшие настройки изогнутых подписей (не используются)</r></e>
+  <e k="K" key="SC_RadialActionLabelsTip"><s>The old curved-caption setting is retained for save compatibility only. All C menus now show complete horizontal text beside rounded-square icons; labels cannot be turned into short or icon-only captions.</s><r>Старая настройка изогнутой подписи сохраняется только для совместимости при сохранении. Все меню C теперь отображают полный горизонтальный текст рядом с закругленными квадратными значками; метки нельзя превратить в короткие подписи или подписи, состоящие только из значков.</r></e>
+  <e k="K" key="SC_RadialAnimate"><s>Reveal actions in sequence</s><r>Показывать действия последовательно</r></e>
+  <e k="K" key="SC_RadialBack"><s>Back to the main actions</s><r>Вернёмся к основным действиям</r></e>
+  <e k="K" key="SC_RadialCircular"><s>Circular buttons (icons only)</s><r>Круглые кнопки (только значки)</r></e>
+  <e k="K" key="SC_RadialCircularHelp"><s>Eight circular icons per page. Hover for full names, help and disabled reasons. Scroll or use the arrows to change pages; children have Back. Right-click a button or press Tab for the native list.</s><r>Восемь круглых значков на странице. Наведите курсор, чтобы увидеть полные имена, помощь и причины отключения. Прокрутите или используйте стрелки для переключения страниц; у детей есть спина. Щелкните кнопку правой кнопкой мыши или нажмите Tab, чтобы открыть собственный список.</r></e>
+  <e k="K" key="SC_RadialCircularTip"><s>Off (default): rectangular C menu with full action text. On: circular icon-only wheel for map, portraits and child actions. Hover for full action text and disabled reasons. Rich mod controls and cramped screens use the original list.</s><r>Выкл. (по умолчанию): прямоугольное меню C с полным текстом действий. Включено: круговое колесо с значками для карты, портретов и действий детей. Наведите курсор на полный текст действия и причины отключения. Богатые элементы управления модом и тесные экраны используют исходный список.</r></e>
+  <e k="K" key="SC_RadialCustom"><s>This mod's controls use the standard list.</s><r>Элементы управления этого мода используют стандартный список.</r></e>
+  <e k="K" key="SC_RadialDuration"><s>Action reveal duration: {0} seconds</s><r>Продолжительность раскрытия действия: {0} секунд.</r></e>
+  <e k="K" key="SC_RadialEnabled"><s>Use action menus for map, portrait and child actions</s><r>Используйте меню действий для действий с картой, портретом и детьми.</r></e>
+  <e k="K" key="SC_RadialFollowPawn"><s>Follow the clicked pawn smoothly</s><r>Плавно следуйте за выбранной пешкой</r></e>
+  <e k="K" key="SC_RadialHeading"><s>Pawn right-click action menus</s><r>Заложить меню действий, вызываемое правой кнопкой мыши</r></e>
+  <e k="K" key="SC_RadialHighlightPawn"><s>Highlight the clicked pawn</s><r>Выделите выбранную пешку</r></e>
+  <e k="K" key="SC_RadialInjuries"><s>More Injuries</s><r>Больше травм</r></e>
+  <e k="K" key="SC_RadialInjuriesTip"><s>Open this pawn's More Injuries treatments. The mod's normal supplies, skills and draft requirements apply. Dimmed when no treatment is available.</s><r>Откройте лечение дополнительных травм этой пешки. Применяются обычные материалы, навыки и требования мода. Затемняется, когда лечение недоступно.</r></e>
+  <e k="K" key="SC_RadialNoActions"><s>No available actions for this portrait</s><r>Для этого портрета нет доступных действий.</r></e>
+  <e k="K" key="SC_RadialOutline"><s>Highlight rounded icon outlines</s><r>Выделение закругленных контуров значков</r></e>
+  <e k="K" key="SC_RadialPageHint"><s>Page {0}/{1}. Scroll or use left/right arrows.</s><r>Страница {0}/{1}. Прокрутите или используйте стрелки влево/вправо.</r></e>
+  <e k="K" key="SC_RadialSettingsHelp"><s>Choose rectangular (default) or circular icon-only actions on the map, portraits and child menus. Rectangular rows show full wrapped labels; circular buttons show names on hover. Scroll or use arrows for pages; children have Back. Press Tab for the native list. Menus containing custom mod controls use the native list automatically, preserving their click-and-hold gestures. Right-click on an action is not used to switch layouts. The default slow-motion cap is 0.20x; pause and your selected speed remain unchanged. Direct move/formation orders remain native.</s><r>Выбирайте прямоугольные (по умолчанию) или круглые действия только со значками на карте, портретах и ​​в дочерних меню. Прямоугольные строки показывают полностью завернутые этикетки; круглые кнопки показывают имена при наведении курсора. Прокручивайте страницы или используйте стрелки; у детей есть спина. Нажмите Tab, чтобы открыть собственный список. Меню, содержащие пользовательские элементы управления модами, автоматически используют собственный список, сохраняя жесты щелчка и удержания. Щелчок правой кнопкой мыши по действию не используется для переключения раскладки. Ограничение замедления по умолчанию составляет 0,20x; пауза, и выбранная вами скорость останется неизменной. Прямые приказы о движении/построении остаются исходными.</r></e>
+  <e k="K" key="SC_RadialSlow"><s>Slow motion while an action menu is open</s><r>Замедленное движение при открытом меню действий</r></e>
+  <e k="K" key="SC_RadialTimeScale"><s>Menu time-speed cap: {0}x normal speed</s><r>Ограничение времени и скорости меню: {0}x нормальная скорость.</r></e>
+  <e k="K" key="SC_RadialWork"><s>Prioritize work</s><r>Расставьте приоритеты в работе</r></e>
+  <e k="K" key="SC_RadialWorkTip"><s>Open jobs for this target only. Native work assignment, skill, reach and drafted restrictions apply.</s><r>Открытые вакансии только для этой цели. Применяются собственные рабочие задания, навыки, охват и проектные ограничения.</r></e>
+  <e k="K" key="SC_Radius"><s>Local combat scan radius: {0} cells</s><r>Радиус локального боевого сканирования: {0} ячеек.</r></e>
+  <e k="K" key="SC_ReloadMoveSpeed"><s>Movement rate while reloading: {0}</s><r>Скорость передвижения во время перезарядки: {0}</r></e>
+  <e k="K" key="SC_RetreatAt"><s>Prefer retreat below health: {0}</s><r>Предпочитаю отступление ниже здоровья: {0}</r></e>
+  <e k="K" key="SC_RoadPreference"><s>Prefer roads during ordinary travel</s><r>Предпочитают дороги во время обычных путешествий</r></e>
+  <e k="K" key="SC_RoadPreferenceTip"><s>Give roads and simple paved paths a small routing preference during ordinary player-pawn travel. Combat, formations, reloads, fleeing, emergency and unknown special control stay native. Destinations, movement speed, reachability and danger costs are unchanged.</s><r>Дайте дорогам и простым мощеным дорожкам небольшое предпочтение во время обычного путешествия игрока-пешки. Бой, построение, перезарядка, бегство, аварийная ситуация и неизвестный специальный контроль остаются родными. Пункты назначения, скорость передвижения, достижимость и стоимость опасности не изменяются.</r></e>
+  <e k="K" key="SC_RoleAssignMelee"><s>{0}: equip {1} as primary melee</s><r>{0}: используйте {1} в качестве основного оружия ближнего боя.</r></e>
+  <e k="K" key="SC_RoleAssignSidearm"><s>{0}: assign {1} as a sidearm</s><r>{0}: назначить {1} в качестве дополнительного оружия</r></e>
+  <e k="K" key="SC_RoleBlockedTip"><s>Unavailable: {0}</s><r>Недоступно: {0}</r></e>
+  <e k="K" key="SC_RoleBonded"><s>Use the native Equip action for this bonded weapon.</s><r>Используйте собственное действие «Снарядить» для этого связанного оружия.</r></e>
+  <e k="K" key="SC_RoleBurning"><s>This weapon is burning.</s><r>Это оружие горит.</r></e>
+  <e k="K" key="SC_RoleCannotReach"><s>Cannot reach or reserve this weapon.</s><r>Невозможно достать или сохранить это оружие.</r></e>
+  <e k="K" key="SC_RoleCapacity"><s>No inventory capacity for this weapon.</s><r>Нет инвентаря для этого оружия.</r></e>
+  <e k="K" key="SC_RoleCarryingBlocked"><s>Put down the carried item or pawn first.</s><r>Сначала положите переносимый предмет или пешку.</r></e>
+  <e k="K" key="SC_RoleClear"><s>{0}: clear the role of {1}</s><r>{0}: очистить роль {1}</r></e>
+  <e k="K" key="SC_RoleForbidden"><s>This weapon was forbidden after the pickup order.</s><r>Это оружие было запрещено после приказа о самовывозе.</r></e>
+  <e k="K" key="SC_RoleManipulationBlocked"><s>This pawn cannot manipulate weapons.</s><r>Эта пешка не может манипулировать оружием.</r></e>
+  <e k="K" key="SC_RoleMeleeTip"><s>Equip this exact weapon and remember it as the preferred close-combat melee weapon. The old held weapon must fit in inventory; no free weapons or ammunition. The assigned melee weapon is kept during automatic inventory unloading after travel. To enable automatic combat switching after a manual equipment choice, issue a new combat stance or draft again.</s><r>Используйте именно это оружие и помните, что оно является предпочтительным оружием ближнего боя. Старое оружие должно поместиться в инвентаре; нет бесплатного оружия и боеприпасов. Присвоенное оружие ближнего боя сохраняется при автоматической выгрузке инвентаря после путешествия. Чтобы включить автоматическое переключение боя после ручного выбора снаряжения, повторно задайте новую боевую стойку или драфте.</r></e>
+  <e k="K" key="SC_RoleOffhandBlocked"><s>Remove the offhand weapon through its owning mod first.</s><r>Сначала удалите дополнительное оружие через соответствующий мод.</r></e>
+  <e k="K" key="SC_RolePairedBlocked"><s>Finish the current paired animation first.</s><r>Сначала завершите текущую парную анимацию.</r></e>
+  <e k="K" key="SC_RolePrimaryMelee"><s>Primary melee</s><r>Первичный ближний бой</r></e>
+  <e k="K" key="SC_RoleQuestBlocked"><s>This guest's quest restricts their equipment.</s><r>Квест этого гостя ограничивает его снаряжение.</r></e>
+  <e k="K" key="SC_RoleShootingBlocked"><s>This pawn is incapable of shooting.</s><r>Эта пешка не умеет стрелять.</r></e>
+  <e k="K" key="SC_RoleSidearm"><s>Sidearm</s><r>Пистолет</r></e>
+  <e k="K" key="SC_RoleSidearmTip"><s>Take one real weapon into inventory without replacing the held weapon. Loaded ranged sidearms can be selected automatically when a controlled primary gun runs dry. A sidearm is a carried backup, not an offhand weapon. Assigned weapons are kept during automatic inventory unloading after travel; explicit drop and trade orders still work. Owned weapons can also be assigned through the Weapons tile's right-click chooser.</s><r>Возьмите в инвентарь одно настоящее оружие, не заменяя имеющееся оружие. Заряженное оружие дальнего боя можно выбрать автоматически, когда управляемое основное оружие иссякает. Пистолет – это запасное оружие, а не ручное оружие. Присвоенное оружие сохраняется при автоматической выгрузке инвентаря после путешествия; явное падение и торговые ордера по-прежнему работают. Имеющееся в собственности оружие также можно назначить с помощью средства выбора, вызываемого правой кнопкой мыши на плитке «Оружие».</r></e>
+  <e k="K" key="SC_RoleSingleWeapon"><s>Assign one weapon, not a stacked inventory group. Pick up one as a sidearm first.</s><r>Назначьте одно оружие, а не сложенную группу инвентаря. Сначала возьмите один в качестве пистолета.</r></e>
+  <e k="K" key="SC_RoleUnavailable"><s>Weapon handling is unavailable for this pawn or target.</s><r>Для этой пешки или цели недоступно обращение с оружием.</r></e>
+  <e k="K" key="SC_RoleViolenceBlocked"><s>This pawn is incapable of violence.</s><r>Эта пешка не способна на насилие.</r></e>
+  <e k="K" key="SC_RoleWeaponBusy"><s>Wait for the current aim, burst or reload to finish.</s><r>Дождитесь завершения текущей цели, взрыва или перезагрузки.</r></e>
+  <e k="K" key="SC_Secure"><s>Secure</s><r>Безопасный</r></e>
+  <e k="K" key="SC_SecureAdapterMissing"><s>Rim Contractors is active, but its Secure API could not be bound. Secure was not replaced. Check compatibility, or check the Immersive Warfare settings.</s><r>Rim Contractors активен, но его безопасный API не удалось привязать. Безопасность не была заменена. Проверьте совместимость или проверьте настройки Immersive Warfare.</r></e>
+  <e k="K" key="SC_SecureCannotCarry"><s>Cannot carry this person.</s><r>Не могу нести этого человека.</r></e>
+  <e k="K" key="SC_SecureCarryOccupied"><s>Already carrying something.</s><r>Уже что-то нес.</r></e>
+  <e k="K" key="SC_SecureChance"><s>Secure {0} ({1} chance)</s><r>Обеспечьте {0} (шанс {1})</r></e>
+  <e k="K" key="SC_SecureHelp"><s>Select a downed pawn. Immersive Warfare will capture hostiles or rescue friendlies using a suitable bed and the game's normal job system.</s><r>Выберите сбитую пешку. Immersive Warfare захватывает врагов или спасает товарищей, используя подходящую кровать и обычную систему заданий в игре.</r></e>
+  <e k="K" key="SC_SecureHostileTip"><s>One-second restraint attempt: {0} success chance. Success disarms and captures; failure alerts the target. No bed needed.</s><r>Попытка сдерживания в течение одной секунды: {0} шанс успеха. Успех обезоруживает и захватывает; неудача предупреждает цель. Кровать не нужна.</r></e>
+  <e k="K" key="SC_SecurePassengerRejected"><s>This shuttle cannot accept the secured passenger.</s><r>Этот шаттл не может принять защищенного пассажира.</r></e>
+  <e k="K" key="SC_SecurePutDown"><s>Put down</s><r>Положи</r></e>
+  <e k="K" key="SC_SecurePutDownTip"><s>Release the secured person at the carrier's current position.</s><r>Освободите охраняемого человека в текущем положении перевозчика.</r></e>
+  <e k="K" key="SC_SecureRCHelp"><s>Select a subject for Rim Contractors Secure. Its normal eligibility and hostile resistance rules apply.</s><r>Выберите тему для Rim Contractors Secure. Применяются его обычные правила приемлемости и враждебного сопротивления.</r></e>
+  <e k="K" key="SC_SecureResisted"><s>{0} resisted {1}'s restraint attempt.</s><r>{0} сопротивлялся попытке сдерживания {1}.</r></e>
+  <e k="K" key="SC_SecureResistedMote"><s>Resisted</s><r>Сопротивлялся</r></e>
+  <e k="K" key="SC_SecureSubjectUnavailable"><s>Subject or carrier is unavailable.</s><r>Тема или оператор связи недоступны.</r></e>
+  <e k="K" key="SC_SecureTarget"><s>Secure {0}</s><r>Безопасно {0}</r></e>
+  <e k="K" key="SC_SecureTip"><s>Restrain and carry this pawn. Move or fight one-handed. Put down or undraft to release.</s><r>Сдержи и унеси эту пешку. Двигайтесь или сражайтесь одной рукой. Отложите или отмените черновик, чтобы выпустить.</r></e>
+  <e k="K" key="SC_SecureUnavailable"><s>No selected drafted humanlike can secure this subject. Check reachability, reservations, manipulation, carrying capacity and existing orders.</s><r>Ни один избранный человекоподобный человек не сможет защитить этого субъекта. Проверьте достижимость, резервирование, манипуляции, пропускную способность и существующие заказы.</r></e>
+  <e k="K" key="SC_SecureUnreachable"><s>Cannot reserve or reach this person.</s><r>Невозможно зарезервировать или связаться с этим человеком.</r></e>
+  <e k="K" key="SC_SettingsAdvanced"><s>Advanced</s><r>Передовой</r></e>
+  <e k="K" key="SC_SettingsAnimals"><s>Animals</s><r>Животные</r></e>
+  <e k="K" key="SC_SettingsCombat"><s>Combat</s><r>Бой</r></e>
+  <e k="K" key="SC_SettingsEnemyTip"><s>Smarter enemy positioning can increase combat difficulty. Only normal active combat is modified.</s><r>Более разумное расположение противника может увеличить сложность боя. Изменяется только обычный активный бой.</r></e>
+  <e k="K" key="SC_SettingsFooter"><s>Hold is the default. Manual orders always take priority.</s><r>Удержание установлено по умолчанию. Ручные заказы всегда имеют приоритет.</r></e>
+  <e k="K" key="SC_SettingsGeneral"><s>General</s><r>Общий</r></e>
+  <e k="K" key="SC_SettingsGuardRadiusLabel"><s>Guard leash</s><r>Охранный поводок</r></e>
+  <e k="K" key="SC_SettingsIntro"><s>Hold is the default for drafted colonists. Allied and enemy AI improvements only affect active combat, not work, travel, fleeing or scripted objectives. Enemy tactics can increase difficulty.</s><r>Удержание является значением по умолчанию для призванных колонистов. Улучшения ИИ союзников и врагов влияют только на активный бой, а не на работу, путешествие, бегство или запланированные цели. Тактика противника может увеличить сложность.</r></e>
+  <e k="K" key="SC_SettingsMenu"><s>Menu</s><r>Меню</r></e>
+  <e k="K" key="SC_SettingsNPCs"><s>NPC combat</s><r>NPC боевой</r></e>
+  <e k="K" key="SC_SettingsPerformance"><s>Performance</s><r>Производительность</r></e>
+  <e k="K" key="SC_SettingsReloadSpeedLabel"><s>Reload movement speed</s><r>Перезарядка скорости движения</r></e>
+  <e k="K" key="SC_SettingsReset"><s>Reset defaults</s><r>Сбросить настройки по умолчанию</r></e>
+  <e k="K" key="SC_SettingsResetConfirm"><s>Reset all Immersive Warfare settings to their defaults? Livestock drafting and automatic psycasts will remain off by default.</s><r>Сбросить все настройки Immersive Warfare до значений по умолчанию? По умолчанию выведение скота и автоматические психокасты останутся отключенными.</r></e>
+  <e k="K" key="SC_SettingsRetreatLabel"><s>Retreat below health</s><r>Отступление ниже уровня здоровья</r></e>
+  <e k="K" key="SC_SettingsRevealLabel"><s>Menu reveal duration</s><r>Продолжительность показа меню</r></e>
+  <e k="K" key="SC_SettingsSeconds"><s>{0} s</s><r>{0} с</r></e>
+  <e k="K" key="SC_SettingsSecureAutomatic"><s>Secure works standalone. When Rim Contractors is active, its Secure system is used automatically, with one menu action and no double penalties.</s><r>Secure работает автономно. Когда Rim Contractors активна, ее система Secure используется автоматически, с одним действием в меню и без двойных штрафов.</r></e>
+  <e k="K" key="SC_SettingsSlowCapLabel"><s>Menu slow-motion cap</s><r>Меню замедленной съемки</r></e>
+  <e k="K" key="SC_SettingsStackSizeLabel"><s>Maximum formation size</s><r>Максимальный размер формации</r></e>
+  <e k="K" key="SC_SettingsTactics"><s>Combat behavior</s><r>Боевое поведение</r></e>
+  <e k="K" key="SC_Skirmish"><s>Skirmish</s><r>Перестрелка</r></e>
+  <e k="K" key="SC_SkirmishTip"><s>Keep a useful fraction of weapon range, kite nearby threats and seek cover. Melee pawns engage cautiously instead.</s><r>Сохраняйте полезную часть радиуса действия оружия, кайтите ближайшие угрозы и ищите укрытия. Вместо этого пешки ближнего боя вступают в бой осторожно.</r></e>
+  <e k="K" key="SC_StackAnchorBlocked"><s>The attached stack was released because its footprint could not fit safely.</s><r>Прикрепленный стек был освобожден, поскольку его размер не помещался безопасно.</r></e>
+  <e k="K" key="SC_StackCannotFit"><s>The stack cannot fit safely at this destination. Choose more space or disband.</s><r>Стек не может безопасно разместиться в этом месте. Выберите больше места или расформируйтесь.</r></e>
+  <e k="K" key="SC_StackDevTools"><s>Immersive Warfare: stack testing</s><r>Immersive Warfare: тестирование стека</r></e>
+  <e k="K" key="SC_StackDisband"><s>Break formation</s><r>Формирование разрыва</r></e>
+  <e k="K" key="SC_StackDisbandTip"><s>Release everyone in the selected formations.</s><r>Освободите всех в выбранных формированиях.</r></e>
+  <e k="K" key="SC_StackEnable"><s>Enable manual tactical stacks</s><r>Включить ручные тактические стеки</r></e>
+  <e k="K" key="SC_StackFormed"><s>{0} pawns are stacking behind {1}.</s><r>{0} пешки складываются позади {1}.</r></e>
+  <e k="K" key="SC_StackHeading"><s>Breach stack</s><r>Взлом стека</r></e>
+  <e k="K" key="SC_StackJoinTarget"><s>Join {0}'s breach stack</s><r>Присоединяйтесь к группе нарушений {0}</r></e>
+  <e k="K" key="SC_StackJoinTip"><s>Walk into this formation with the selected drafted pawns.</s><r>Войдите в этот строй с выбранными выбранными пешками.</r></e>
+  <e k="K" key="SC_StackLeave"><s>Leave formation</s><r>Оставить формирование</r></e>
+  <e k="K" key="SC_StackLeaveTip"><s>Release selected members and restore their personal, work and medical actions.</s><r>Освободите избранных участников и восстановите их личные, рабочие и медицинские действия.</r></e>
+  <e k="K" key="SC_StackLowPoses"><s>Show forward-ready lean</s><r>Покажите готовность к наступлению</r></e>
+  <e k="K" key="SC_StackMapLabel"><s>Stack ({0})</s><r>Стек ({0})</r></e>
+  <e k="K" key="SC_StackMax"><s>Maximum members per stack: {0}</s><r>Максимальное количество участников в стеке: {0}</r></e>
+  <e k="K" key="SC_StackNeedTwo"><s>Select at least two eligible drafted humanlikes.</s><r>Выберите как минимум двух подходящих человекоподобных персонажей.</r></e>
+  <e k="K" key="SC_StackRotate"><s>Rotate ranks</s><r>Ротация рангов</r></e>
+  <e k="K" key="SC_StackRotateBlocked"><s>Wait for the stack to assemble and finish its current rotation.</s><r>Подождите, пока стек соберется и завершит текущее вращение.</r></e>
+  <e k="K" key="SC_StackRotateTip"><s>Send point to the rear. Queued moves resume; reloads continue.</s><r>Отправьте точку назад. Движения в очереди возобновляются; перезагрузки продолжаются.</r></e>
+  <e k="K" key="SC_StackSizeLimit"><s>A stack needs 2 to {0} eligible drafted humanlikes.</s><r>В стопке должно быть от 2 до {0} подходящих человекоподобных персонажей.</r></e>
+  <e k="K" key="SC_StackUp"><s>Form stack</s><r>Стек форм</r></e>
+  <e k="K" key="SC_StackUpTip"><s>Form a single-file unit. Move through any member. Front three fire; point takes direct hits.</s><r>Сформировать однофайловое подразделение. Перемещайтесь по любому члену. Передний три огня; точка принимает прямые попадания.</r></e>
+  <e k="K" key="SC_StackVisualTip"><s>A slight forward lean, with intact body art and matching weapon grips. Visual only; protection is separate.</s><r>Небольшой наклон вперед, с неповрежденным боди-артом и соответствующими рукоятками оружия. Только визуально; защита отдельная.</r></e>
+  <e k="K" key="SC_StackWithTarget"><s>Form stack with {0}</s><r>Сформировать стек с помощью {0}</r></e>
+  <e k="K" key="SC_StanceIntentHint"><s>Shows stance intent, not whether automation is running. Manual orders and formations still take priority.</s><r>Показывает намерение позиции, а не то, работает ли автоматизация. Ручные приказы и формирования по-прежнему имеют приоритет.</r></e>
+  <e k="K" key="SC_Survival"><s>Respond to injuries and bleeding</s><r>Реакция на травмы и кровотечение</r></e>
+  <e k="K" key="SC_Title"><s>Immersive Warfare</s><r>Иммерсивная война</r></e>
+  <e k="K" key="SC_TrayActiveCount"><s>Set for {0} of {1} selected pawns.</s><r>Установите для {0} из {1} выбранных пешек.</r></e>
+  <e k="K" key="SC_TrayHelp"><s>{0} selected pawns. Hold, Charge, Skirmish and Hunt occupy this two-row command. Hover for details. Teal means all selected pawns share a stance; amber dots mean a partial selection. Right-click a pawn for Guard or Secure. Drafted pawns default to Hold; manual orders take priority.</s><r>{0} выбранных пешек. Удержание, Атака, Перестрелка и Охота занимают эту двухрядную команду. Наведите указатель мыши, чтобы узнать подробности. Бирюзовый означает, что все выбранные пешки занимают одну позицию; янтарные точки означают частичный выбор. Щелкните правой кнопкой мыши пешку, чтобы выбрать «Защита» или «Защита». Выбранные пешки по умолчанию держатся; ручные заказы имеют приоритет.</r></e>
+  <e k="K" key="SC_UndraftedMenuTip"><s>Undrafted action menus show available work and interaction actions, not Go here. When no actions apply, no empty menu is created.</s><r>В непроектированных меню действий отображаются доступные рабочие действия и действия взаимодействия, а не «Перейти сюда». Если действия не применяются, пустое меню не создается.</r></e>
+  <e k="K" key="SC_WeaponCannotEquip"><s>{0} could not switch to that weapon.</s><r>{0} не смог переключиться на это оружие.</r></e>
+  <e k="K" key="SC_WeaponCannotStow"><s>{0} cannot stow the equipped weapon.</s><r>{0} не может убрать экипированное оружие.</r></e>
+  <e k="K" key="SC_WeaponEquipAll"><s>Equip {0} for everyone selected</s><r>Экипируйте {0} для всех выбранных.</r></e>
+  <e k="K" key="SC_WeaponEquipped"><s>{0}: {1} (equipped)</s><r>{0}: {1} (есть)</r></e>
+  <e k="K" key="SC_WeaponGroupChanged"><s>The selection or inventories changed. Everyone must own that weapon type to equip it together.</s><r>Выбор или запасы изменились. Каждый должен владеть этим типом оружия, чтобы использовать его вместе.</r></e>
+  <e k="K" key="SC_WeaponNone"><s>No carried weapons</s><r>Нет ношения оружия</r></e>
+  <e k="K" key="SC_WeaponSwitch"><s>{0}: equip {1}</s><r>{0}: экипировать {1}</r></e>
+  <e k="K" key="SC_WeaponTileTip"><s>{0}
+Owned by: {1}
+Click to equip; shared types apply to everyone. Right-click for individual items.
+Scroll for more weapons ({2}/{3}).</s><r>{0}
+Владелец: {1}
+Нажмите, чтобы экипировать; общие типы применимы ко всем. Щелкните правой кнопкой мыши, чтобы увидеть отдельные предметы.
+Прокрутите, чтобы увидеть больше оружия ({2}/{3}).</r></e>
+  <e k="K" key="SC_WeaponUnarmed"><s>Unarmed</s><r>Безоружный</r></e>
+  <e k="K" key="SC_WeaponUnarmedAll"><s>Make everyone unarmed</s><r>Сделать всех безоружными</r></e>
+  <e k="K" key="SC_WeaponUnarmedOffhand"><s>{0} has an off-hand weapon. Stow it using its owning mod before choosing Unarmed.</s><r>У {0} есть дополнительное оружие. Уберите его, используя соответствующий мод, прежде чем выбирать «Без оружия».</r></e>
+  <e k="K" key="SC_WeaponUnarmedPawn"><s>{0}: unarmed</s><r>{0}: без оружия</r></e>
+  <e k="K" key="SC_WeaponUnarmedTip"><s>Stow primary weapons in their owners' inventories without dropping them. Teal: everyone is unarmed. Amber: some are unarmed. Right-click to choose individual pawns.
+Scroll for more choices ({0}/{1}).</s><r>Храните основное оружие в инвентаре его владельцев, не роняя его. Тил: все безоружны. Эмбер: некоторые из них безоружны. Щелкните правой кнопкой мыши, чтобы выбрать отдельные пешки.
+Прокрутите, чтобы увидеть больше вариантов ({0}/{1}).</r></e>
+  <e k="K" key="SC_WeaponsHeading"><s>Weapons ({0})</s><r>Оружие ({0})</r></e>
+  <e k="K" key="SC_WeaponsTip"><s>Click shared weapons to equip everyone. Right-click for individual items; scroll for more. Teal: all equipped. Amber: some equipped.</s><r>Нажмите на общее оружие, чтобы экипировать всех. Щелкните правой кнопкой мыши для отдельных элементов; прокрутите, чтобы увидеть больше. Бирюзовый: все оборудовано. Янтарь: некоторые оборудованы.</r></e>
+</AutoTranslateCache>
