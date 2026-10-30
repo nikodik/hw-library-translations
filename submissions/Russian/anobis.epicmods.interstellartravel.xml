@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="anobis.epicmods.interstellartravel" name="Interstellar Travel (BETA)" language="Russian" version="1">
+  <e k="D" t="StarTypeDef" key="IT_BlueStar.label"><s>blue giant</s><r>синий гигант</r></e>
+  <e k="D" t="StarTypeDef" key="IT_OrangeStar.label"><s>orange star</s><r>оранжевая звезда</r></e>
+  <e k="D" t="StarTypeDef" key="IT_RedDwarf.label"><s>red dwarf</s><r>красный карлик</r></e>
+  <e k="D" t="StarTypeDef" key="IT_WhiteStar.label"><s>white star</s><r>белая звезда</r></e>
+  <e k="D" t="StarTypeDef" key="IT_YellowStar.label"><s>yellow star</s><r>желтая звезда</r></e>
+  <e k="K" key="IT_BackToStarMap"><s>Star map</s><r>Звездная карта</r></e>
+  <e k="K" key="IT_BetweenStars"><s>{0} to {1}</s><r>от {0} до {1}</r></e>
+  <e k="K" key="IT_ChemfuelUnit"><s>chemfuel</s><r>химтопливо</r></e>
+  <e k="K" key="IT_ColonyPlanets"><s>Planets with colonies</s><r>Планеты с колониями</r></e>
+  <e k="K" key="IT_ConfigColorRange"><s>requires a colorRange</s><r>требуется цветовой диапазон</r></e>
+  <e k="K" key="IT_ConfigCommonality"><s>commonality must be greater than zero</s><r>общность должна быть больше нуля</r></e>
+  <e k="K" key="IT_ConfigCoverageRange"><s>coverageRange must remain between 0 and 100</s><r>диапазон покрытия должен оставаться в диапазоне от 0 до 100.</r></e>
+  <e k="K" key="IT_ConfigDensityRange"><s>has an invalid densityRange</s><r>имеет недопустимый диапазон плотности</r></e>
+  <e k="K" key="IT_ConfigMassRange"><s>has an invalid massRange</s><r>имеет недопустимый массовый диапазон</r></e>
+  <e k="K" key="IT_ConfigMissingBiome"><s>contains a missing biome</s><r>содержит недостающий биом</r></e>
+  <e k="K" key="IT_ConfigMissingFaction"><s>contains a missing faction</s><r>содержит недостающую фракцию</r></e>
+  <e k="K" key="IT_ConfigMissingPlanetType"><s>contains a missing planet type</s><r>содержит отсутствующий тип планеты</r></e>
+  <e k="K" key="IT_ConfigMissingStar"><s>contains a missing star type</s><r>содержит отсутствующий тип звезды</r></e>
+  <e k="K" key="IT_ConfigPlanetCount"><s>has an invalid planet count range</s><r>имеет неверный диапазон количества планет</r></e>
+  <e k="K" key="IT_ConfigPlanetCountWeightValues"><s>has invalid planet-count weights</s><r>имеет недопустимые веса количества планет</r></e>
+  <e k="K" key="IT_ConfigPlanetCountWeights"><s>must define {0} planet-count weights (one for each allowed count)</s><r>необходимо определить {0} веса количества планет (по одному для каждого разрешенного количества)</r></e>
+  <e k="K" key="IT_ConfigSizeRange"><s>has an invalid sizeRange</s><r>имеет недопустимый размерный диапазон</r></e>
+  <e k="K" key="IT_ConstantConditions"><s>Constant conditions: {0}</s><r>Постоянные условия: {0}</r></e>
+  <e k="K" key="IT_ContinueToPlanet"><s>Continue to another planet</s><r>Продолжайте путь на другую планету</r></e>
+  <e k="K" key="IT_CurrentSystem"><s>Current system</s><r>Текущая система</r></e>
+  <e k="K" key="IT_DaysShort"><s>{0} d</s><r>{0} д</r></e>
+  <e k="K" key="IT_DevDiscoverSystem"><s>DEV: Discover system</s><r>РАЗРАБОТЧИК: Откройте для себя систему</r></e>
+  <e k="K" key="IT_DevForceTravel"><s>DEV: Force travel</s><r>РАЗРАБОТЧИК: Принудительное путешествие</r></e>
+  <e k="K" key="IT_DevForcingTravel"><s>Forcing travel to {0}</s><r>Принудительное путешествие в {0}</r></e>
+  <e k="K" key="IT_EndJourney"><s>End the journey</s><r>Завершить путешествие</r></e>
+  <e k="K" key="IT_EnergyUnit"><s>energy</s><r>энергия</r></e>
+  <e k="K" key="IT_EngageFtl"><s>Engage FTL</s><r>Включить сверхсветовую скорость</r></e>
+  <e k="K" key="IT_EngageFtlDestination"><s>Engage FTL to {0} at {1}x Warp</s><r>Включите сверхсветовую скорость до {0} в {1}x Warp</r></e>
+  <e k="K" key="IT_EngineScore"><s>Engine score: {0}</s><r>Оценка двигателя: {0}</r></e>
+  <e k="K" key="IT_FromStar"><s>{0} to {1}</s><r>от {0} до {1}</r></e>
+  <e k="K" key="IT_FtlMouseCost"><s>Cost: {0} {1}  ({2} / {3} {1})</s><r>Стоимость: {0} {1} ({2} / {3} {1})</r></e>
+  <e k="K" key="IT_FtlStatus"><s>FTL rating: {0}   Stored: {1} {3}   Selected route: {2} {3}</s><r>Рейтинг FTL: {0} Сохранено: {1} {3} Выбранный маршрут: {2} {3}</r></e>
+  <e k="K" key="IT_GeneratingPlanet"><s>Generating planet</s><r>Генерирующая планета</r></e>
+  <e k="K" key="IT_InsufficientFtlEnergy"><s>Interstellar route requires {0} {2}; only {1} {2} is stored.</s><r>Межзвездный маршрут требует {0} {2}; сохраняется только {1} {2}.</r></e>
+  <e k="K" key="IT_LandmarkDensityLevels"><s>Sparse|Normal|Crowded</s><r>Редкий|Нормальный|Переполненный</r></e>
+  <e k="K" key="IT_LandmarksOnArrival"><s>Generated on arrival</s><r>Создается по прибытии</r></e>
+  <e k="K" key="IT_LogCleanupFailed"><s>[Interstellar Travel] Could not remove the incomplete planet layer: {0}</s><r>[Межзвездное путешествие] Не удалось удалить неполный слой планеты: {0}</r></e>
+  <e k="K" key="IT_LogGenerationFailed"><s>[Interstellar Travel] Failed to generate {0}: {1}</s><r>[Межзвездное путешествие] Не удалось создать {0}: {1}</r></e>
+  <e k="K" key="IT_LogRepairDeferred"><s>[Interstellar Travel] Could not repair the precision-damaged origin of {0} yet: {1}</s><r>[Межзвездное путешествие] Пока не удалось восстановить поврежденное с точностью происхождение {0}: {1}</r></e>
+  <e k="K" key="IT_MoonName"><s>{0} moon {1}</s><r>{0} луна {1}</r></e>
+  <e k="K" key="IT_NoDiscoveredDestinations"><s>No discovered destinations</s><r>Нет обнаруженных направлений</r></e>
+  <e k="K" key="IT_NoFtlDrive"><s>No Johnson-Tanaka/FTL drive detected.</s><r>Двигатель Джонсон-Танака/Сверхсветовой двигатель не обнаружен.</r></e>
+  <e k="K" key="IT_NoPlanetConditions"><s>Planet conditions: None</s><r>Условия планеты: Нет</r></e>
+  <e k="K" key="IT_NoPlanetSelected"><s>No planet selected.</s><r>Планета не выбрана.</r></e>
+  <e k="K" key="IT_NoShipArrivalTile"><s>No passable arrival location exists on this planet.</s><r>На этой планете не существует подходящего места прибытия.</r></e>
+  <e k="K" key="IT_None"><s>None</s><r>Никто</r></e>
+  <e k="K" key="IT_OrbitTooltip"><s>{0}
+Orbit: {1} AU
+Period: {2} years</s><r>{0}
+Орбита: {1} AU
+Период: {2} лет</r></e>
+  <e k="K" key="IT_OverallLevels"><s>Very low|Low|Below average|Average|Above average|High|Very high</s><r>Очень низкий|Низкий|Ниже среднего|Средний|Выше среднего|Высокий|Очень высокий</r></e>
+  <e k="K" key="IT_PeriodicCondition"><s>Periodic condition: {0} every {1} days for {2} days</s><r>Периодическое состояние: {0} каждые {1} дня в течение {2} дней.</r></e>
+  <e k="K" key="IT_PlanetGenerationFailed"><s>Planet generation failed and the incomplete layer was removed. See the log for details.</s><r>Генерация планеты не удалась, и неполный слой был удален. Подробности смотрите в журнале.</r></e>
+  <e k="K" key="IT_PlanetNumerals"><s>I|II|III|IV|V|VI|VII|VIII|IX|X|XI|XII</s><r>I|II|III|IV|V|VI|VII|VIII|IX|X|XI|XII</r></e>
+  <e k="K" key="IT_PlanetSystemTooltip"><s>{0}
+Type: {1}
+Overall rainfall: {2}
+Overall temperature: {3}
+Overall population: {4}
+Landmarks: {5}
+Overall pollution: {6}
+Coverage: {7}
+Factions: {8}
+Biomes: {9}
+Orbit: {10} AU
+Period: {11} years</s><r>{0}
+Тип: {1}
+Общее количество осадков: {2}
+Общая температура: {3}
+Все население: {4}
+Ориентиры: {5}
+Общее загрязнение: {6}
+Охват: {7}
+Фракции: {8}
+Биомы: {9}
+Орбита: {10} AU
+Период: {11} лет</r></e>
+  <e k="K" key="IT_PlanetSystemTooltipNoPollution"><s>{0}
+Type: {1}
+Overall rainfall: {2}
+Overall temperature: {3}
+Overall population: {4}
+Landmarks: {5}
+Coverage: {6}
+Factions: {7}
+Biomes: {8}
+Orbit: {9} AU
+Period: {10} years</s><r>{0}
+Тип: {1}
+Общее количество осадков: {2}
+Общая температура: {3}
+Все население: {4}
+Ориентиры: {5}
+Покрытие: {6}
+Фракции: {7}
+Биомы: {8}
+Орбита: {9} AU
+Период: {10} лет</r></e>
+  <e k="K" key="IT_PlanetTooltip"><s>{0}
+Seed: {1}
+Rainfall: {2}  Temperature: {3}
+Population: {4}  Pollution: {5}
+Coverage: {6}%
+Mass: {7} Earths  Density: {10} Earths
+Radius: {11} Earths
+Orbit: {8} AU  Period: {9} years</s><r>{0}
+Семена: {1}
+Осадки: {2} Температура: {3}
+Население: {4} Загрязнение: {5}
+Покрытие: {6}%
+Масса: {7} Плотность Земли: {10} Земли
+Радиус: {11} Земли
+Орбита: {8} Период АС: {9} лет</r></e>
+  <e k="K" key="IT_PlanetTooltipNoPollution"><s>{0}
+Seed: {1}
+Rainfall: {2}  Temperature: {3}
+Population: {4}
+Coverage: {5}%
+Mass: {6} Earths  Density: {9} Earths
+Radius: {10} Earths
+Orbit: {7} AU  Period: {8} years</s><r>{0}
+Семена: {1}
+Осадки: {2} Температура: {3}
+Население: {4}
+Охват: {5}%
+Масса: {6} Земли Плотность: {9} Земли
+Радиус: {10} Земли
+Орбита: {7} Период АС: {8} лет</r></e>
+  <e k="K" key="IT_RouteStep"><s>Travel step: {0} ({1})</s><r>Шаг перемещения: {0} ({1})</r></e>
+  <e k="K" key="IT_RouteSummary"><s>Route: {0}</s><r>Маршрут: {0}</r></e>
+  <e k="K" key="IT_StarFallback"><s>star</s><r>звезда</r></e>
+  <e k="K" key="IT_StarMap"><s>Star map</s><r>Звездная карта</r></e>
+  <e k="K" key="IT_StarMapTitle"><s>Star Map</s><r>Звездная карта</r></e>
+  <e k="K" key="IT_StarNamePrefixes"><s>Al|Bel|Cer|Dor|Eri|Fen|Gal|Hel|Iri|Jan|Kor|Lum|Mer|Nor|Ori|Pra|Qua|Rig|Sol|Tau|Umb|Ves|Wyr|Xan|Yar|Zen</s><r>Ал|Бел|Цер|Дор|Эри|Фен|Гал|Хель|Ири|Джан|Кор|Лум|Мер|Нор|Ори|Пра|Куа|Риг|Сол|Тау|Умб|Вес|Вир|Ксан|Яр|Дзен</r></e>
+  <e k="K" key="IT_StarNameSuffixes"><s>aris|eron|ion|ora| Prime| Minor| Reach|'s Star|-7|-9</s><r>арис|эрон|ион|ора| Прайм | Незначительный | Достичь|звезды|-7|-9</r></e>
+  <e k="K" key="IT_StarSystemTitle"><s>{0} system</s><r>система {0}</r></e>
+  <e k="K" key="IT_StarTooltip"><s>{0}
+{1}
+{2} planets
+Mass: {5} Suns  Size: {6} Suns
+Coordinates: {3}, {4}</s><r>{0}
+{1}
+{2} планеты
+Масса: {5} Размер Солнца: {6} Солнца
+Координаты: {3}, {4}</r></e>
+  <e k="K" key="IT_StarTooltipUndiscovered"><s>{0}
+{1}
+Undiscovered system
+Mass: {4} Suns  Size: {5} Suns
+Coordinates: {2}, {3}</s><r>{0}
+{1}
+Неоткрытая система
+Масса: {4} Размер Солнца: {5} Солнца
+Координаты: {2}, {3}</r></e>
+  <e k="K" key="IT_ToLocalStar"><s>{0} to {1}</s><r>от {0} до {1}</r></e>
+  <e k="K" key="IT_TravelingShip"><s>Traveling ship</s><r>Путешествующий корабль</r></e>
+  <e k="K" key="IT_UndiscoveredSystem"><s>Undiscovered</s><r>Неоткрытый</r></e>
+  <e k="K" key="IT_UniverseSeed"><s>Universe seed: {0}</s><r>Семя вселенной: {0}</r></e>
+  <e k="K" key="IT_UnknownWorld"><s>unknown world</s><r>неизвестный мир</r></e>
+  <e k="K" key="IT_VanillaShipArrived"><s>The ship's passengers have arrived at {0}.</s><r>Пассажиры корабля прибыли в {0}.</r></e>
+  <e k="K" key="IT_VanillaShipChoice"><s>Your ship has escaped the planet. End the journey and show the credits, or continue through the Star Map to another planet?</s><r>Ваш корабль покинул планету. Завершить путешествие и показать титры или продолжить путь по звездной карте на другую планету?</r></e>
+  <e k="K" key="IT_VanillaShipDeparted"><s>Your ship is traveling to {0}. Arrival in {1}.</s><r>Ваш корабль направляется в {0}. Прибытие в {1}.</r></e>
+  <e k="K" key="IT_VanillaShipUnavailable"><s>The launched ship is no longer available for interstellar travel.</s><r>Запущенный корабль больше не доступен для межзвездных путешествий.</r></e>
+  <e k="K" key="IT_ViewStarMap"><s>View stars</s><r>Посмотреть звезды</r></e>
+  <e k="K" key="IT_ViewStarMapDesc"><s>Open the Star Map for interstellar travel.
+FTL rating: {0}
+Stored: {1} {2}</s><r>Откройте звездную карту для межзвездных путешествий.
+Рейтинг сверхсветовой скорости: {0}
+Сохранено: {1} {2}</r></e>
+  <e k="K" key="IT_WorldSeed"><s>World seed: {0}</s><r>Семя мира: {0}</r></e>
+</AutoTranslateCache>
