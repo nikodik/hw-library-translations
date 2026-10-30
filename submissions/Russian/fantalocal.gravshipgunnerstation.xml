@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="fantalocal.gravshipgunnerstation" name="Gravship Gunner Station" language="Russian" version="1">
+  <e k="D" t="JobDef" key="FL_EnterGunnerStation.reportString"><s>entering gunner station.</s><r>вход в наводчик.</r></e>
+  <e k="D" t="JobDef" key="FL_ExitGunnerStation.reportString"><s>leaving gunner station.</s><r>покидая наводчик.</r></e>
+  <e k="D" t="ThingDef" key="FL_GunnerStation.description"><s>An elevated firing hatch. A drafted colonist takes 3 seconds to enter or leave and fires their own weapon with configurable cover (85% by default). External blast effects remain dangerous.</s><r>Приподнятый огневой люк. Призванному колонисту требуется 3 секунды, чтобы войти или выйти, и он стреляет из собственного оружия с настраиваемым укрытием (85% по умолчанию). Внешние последствия взрыва остаются опасными.</r></e>
+  <e k="D" t="ThingDef" key="FL_GunnerStation.label"><s>gravship gunner station</s><r>артиллерийская станция грави-корабля</r></e>
+  <e k="K" key="FL_AssignButton"><s>Assign gunner</s><r>Назначить наводчика</r></e>
+  <e k="K" key="FL_AssignDesc"><s>Select one station to assign a gunner. Choose Unassigned to clear all selected stations; occupants remain inside. Reassigning removes the colonist's previous station assignment.</s><r>Выберите одну станцию, чтобы назначить наводчика. Выберите «Не назначено», чтобы удалить все выбранные станции; жильцы остаются внутри. Переназначение удаляет предыдущее назначение станции колониста.</r></e>
+  <e k="K" key="FL_Assigned"><s>Assigned: {0}</s><r>Назначено: {0}</r></e>
+  <e k="K" key="FL_CannotEnter"><s>{0} cannot enter the assigned station. Check availability, deck, and access.</s><r>{0} не может войти на назначенную станцию. Проверьте наличие мест, палубу и доступ.</r></e>
+  <e k="K" key="FL_Cover"><s>Cover: {0}%</s><r>Покрытие: {0}%</r></e>
+  <e k="K" key="FL_Enter"><s>Enter Station (3s)</s><r>Войти на станцию ​​(3 секунды)</r></e>
+  <e k="K" key="FL_EnterAssigned"><s>Enter assigned stations</s><r>Введите назначенные станции</r></e>
+  <e k="K" key="FL_EnterAssignedDesc"><s>Selected drafted colonists enter their assigned stations in 3 seconds. Unassigned colonists do nothing.</s><r>Отобранные призванные колонисты вступают на назначенные им станции за 3 секунды. Неназначенные колонисты ничего не делают.</r></e>
+  <e k="K" key="FL_ExitBlocked"><s>Station exit blocked.</s><r>Выход со станции заблокирован.</r></e>
+  <e k="K" key="FL_ExitButton"><s>Exit stations</s><r>Выходные станции</r></e>
+  <e k="K" key="FL_ExitDesc"><s>Occupants of selected stations take 3 seconds to leave, then automatically undraft.</s><r>Пассажирам выбранных станций требуется 3 секунды, чтобы покинуть помещение, а затем они автоматически отключаются.</r></e>
+  <e k="K" key="FL_FocusFire"><s>Focus fire</s><r>Фокус огня</r></e>
+  <e k="K" key="FL_FocusFireDesc"><s>Choose a target for the selected station gunners. Only those able to shoot it receive an attack order; the others retain their existing orders and automatic-fire settings.</s><r>Выберите цель для выбранных наводчиков станции. Только те, кто умеет стрелять, получают приказ атаковать; остальные сохраняют существующие приказы и настройки автоматического огня.</r></e>
+  <e k="K" key="FL_FocusFireNone"><s>No selected gunner can attack this target from their station. Existing orders are unchanged.</s><r>Ни один выбранный стрелок не может атаковать эту цель со своей позиции. Существующие заказы не изменяются.</r></e>
+  <e k="K" key="FL_FreeFire"><s>Fire at will</s><r>Огонь по желанию</r></e>
+  <e k="K" key="FL_FreeFireDesc"><s>Toggle automatic fire for all selected station occupants. Mixed states turn on together. Turning off cancels weapon warmup, bursts, and attack orders.</s><r>Включить автоматический огонь для всех выбранных обитателей станции. Смешанные состояния включаются вместе. Выключение отменяет прогрев оружия, очереди и приказы на атаку.</r></e>
+  <e k="K" key="FL_Gunner"><s>Gunner: {0}</s><r>Наводчик: {0}</r></e>
+  <e k="K" key="FL_Muster"><s>Gunners to stations</s><r>Артиллеристы на станции</r></e>
+  <e k="K" key="FL_MusterDesc"><s>Draft assigned gunners if needed and send them to the selected empty stations. Occupied stations are skipped.</s><r>При необходимости наберите назначенных артиллеристов и отправьте их на выбранные пустые станции. Занятые станции пропускаются.</r></e>
+  <e k="K" key="FL_RequiresDeck"><s>Requires gravship substructure.</s><r>Требуется гравитационная подстройка.</r></e>
+  <e k="K" key="FL_SettingsCover"><s>Station cover: {0}%</s><r>Покрытие станции: {0}%</r></e>
+  <e k="K" key="FL_SettingsCoverDesc"><s>Applies immediately to all station gunners. Default: 85%. Set to 0% to disable station cover. Does not grant protection from explosions, fire, gas or beam weapons.</s><r>Применяется сразу ко всем наводчикам станций. По умолчанию: 85%. Установите значение 0%, чтобы отключить прикрытие станции. Не дает защиты от взрывов, огня, газового и лучевого оружия.</r></e>
+  <e k="K" key="FL_SettingsReset"><s>Reset to 85%</s><r>Сбросить до 85%</r></e>
+  <e k="K" key="FL_SettingsTitle"><s>Gravship Gunner Stations</s><r>Станции артиллерийских кораблей</r></e>
+  <e k="K" key="FL_Stop"><s>Stop</s><r>Останавливаться</r></e>
+  <e k="K" key="FL_StopDesc"><s>Immediately cancel current actions, skills, warmup, bursts and queued orders, and turn off automatic fire. Gunners remain inside.</s><r>Немедленно отмените текущие действия, навыки, разминку, очереди и приказы в очереди, а также отключите автоматический огонь. Артиллеристы остаются внутри.</r></e>
+  <e k="K" key="FL_Unassigned"><s>Unassigned</s><r>Неназначенный</r></e>
+  <e k="K" key="FL_Unavailable"><s>Cannot enter station</s><r>Не могу зайти на станцию</r></e>
+  <e k="K" key="FL_Vacant"><s>Vacant</s><r>Вакантный</r></e>
+</AutoTranslateCache>
