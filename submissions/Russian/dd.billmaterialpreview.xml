@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="dd.billmaterialpreview" name="dd.Bill Material Preview" language="Russian" version="1">
+  <e k="K" key="DBMP.Color"><s>Show material availability</s><r>Показать наличие материала</r></e>
+  <e k="K" key="DBMP.Count"><s>Show estimated craft count</s><r>Показать примерное количество кораблей</r></e>
+  <e k="K" key="DBMP.Group"><s>Group by material availability</s><r>Группировать по наличию материала</r></e>
+  <e k="K" key="DBMP.Missing"><s>Missing materials: available / required</s><r>Недостающие материалы: имеются/необходимы.</r></e>
+  <e k="K" key="DBMP.Overlap"><s>Ingredient slots compete for the same materials; all requirements cannot be met together.</s><r>Слоты для ингредиентов конкурируют за одни и те же материалы; все требования не могут быть удовлетворены вместе.</r></e>
+  <e k="K" key="DBMP.Reasons"><s>Show missing material details</s><r>Показать сведения об отсутствующем материале</r></e>
+  <e k="K" key="DBMP.Reserve"><s>Subtract materials expected by queued bills</s><r>Вычесть материалы, ожидаемые в счетах в очереди</r></e>
+  <e k="K" key="DBMP.ReserveScope"><s>Processes active fixed-count bills on this worktable in list order. Forever, target-count and suspended bills are excluded. Does not reserve or consume actual materials.</s><r>Обрабатывает активные счета с фиксированным количеством на этом рабочем столе в порядке списка. Навсегда исключены целевой подсчет и приостановленные счета. Не резервирует и не потребляет фактические материалы.</r></e>
+  <e k="K" key="DBMP.ReserveUnknown"><s>Remaining materials cannot be determined because a queued bill's material use could not be estimated.</s><r>Оставшиеся материалы невозможно определить, поскольку невозможно оценить использование материалов в находящейся в очереди накладной.</r></e>
+  <e k="K" key="DBMP.ReserveWarning"><s>(Keep this disabled if you are sensitive to reduced tick performance)</s><r>(Оставьте это отключенным, если вы чувствительны к снижению производительности тиков)</r></e>
+  <e k="K" key="DBMP.Special"><s>This special recipe is not supported by the material preview.</s><r>Этот специальный рецепт не поддерживается предварительным просмотром материала.</r></e>
+  <e k="K" key="DBMP.Unknown"><s>Material preview pending or too complex to determine within the calculation limit.</s><r>Ожидается предварительный просмотр материала или он слишком сложен для определения в пределах расчетного предела.</r></e>
+</AutoTranslateCache>
