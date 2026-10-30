@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="sanakara.mechstations" name="Mech Stations" language="Russian" version="1">
+  <e k="D" t="JobDef" key="MS_DockingCharge.reportString"><s>charging at station.</s><r>зарядка на станции.</r></e>
+  <e k="D" t="JobDef" key="MS_DockingWait.reportString"><s>docking.</s><r>стыковка.</r></e>
+  <e k="D" t="MechWorkModeDef" key="MS_Docking.description"><s>Go to a mech port and stay there, even when fully charged. Uses the assigned port, otherwise the nearest free one; with no port available, behaves like Recharge. Does no work and only fights when drafted.</s><r>Отправляйтесь в мехпорт и оставайтесь там, даже когда он полностью заряжен. Использует назначенный порт, в противном случае ближайший свободный; при отсутствии доступного порта ведет себя как перезарядка. Не работает и сражается только тогда, когда его призвали.</r></e>
+  <e k="D" t="MechWorkModeDef" key="MS_Docking.label"><s>docking</s><r>стыковка</r></e>
+  <e k="D" t="ThingDef" key="MS_ChargeModule_Large.description"><s>Attaches to a mech port and speeds up its charging. Several can be fitted to one port, but each costs additional power while the port is actually charging.</s><r>Присоединяется к механическому порту и ускоряет зарядку. К одному порту можно подключить несколько устройств, но каждый из них потребляет дополнительную энергию, пока порт фактически заряжается.</r></e>
+  <e k="D" t="ThingDef" key="MS_ChargeModule_Large.label"><s>charge accelerator module</s><r>модуль ускорителя заряда</r></e>
+  <e k="D" t="ThingDef" key="MS_ChargeModule_Small.description"><s>Attaches to a small mech port and speeds up its charging. Up to two can be fitted to one port, each costing additional power while the port is actually charging.</s><r>Присоединяется к небольшому механическому порту и ускоряет зарядку. К одному порту можно подключить до двух устройств, каждый из которых потребляет дополнительную энергию, пока порт фактически заряжается.</r></e>
+  <e k="D" t="ThingDef" key="MS_ChargeModule_Small.label"><s>charge accelerator module</s><r>модуль ускорителя заряда</r></e>
+  <e k="D" t="ThingDef" key="MS_DMSChargeModule_Large.description"><s>Attaches to an automatroid port and speeds up its charging. Several can be fitted to one port, but each costs additional power while the port is actually charging.</s><r>Подключается к порту автоматоида и ускоряет зарядку. К одному порту можно подключить несколько устройств, но каждый из них потребляет дополнительную энергию, пока порт фактически заряжается.</r></e>
+  <e k="D" t="ThingDef" key="MS_DMSChargeModule_Large.label"><s>Charge Accelerator Module</s><r>Модуль ускорителя заряда</r></e>
+  <e k="D" t="ThingDef" key="MS_DMSChargeModule_Small.description"><s>Attaches to a small automatroid port and speeds up its charging. Up to two can be fitted to one port, each costing additional power while the port is actually charging.</s><r>Присоединяется к небольшому порту автоматоида и ускоряет его зарядку. К одному порту можно подключить до двух устройств, каждый из которых потребляет дополнительную энергию, пока порт фактически заряжается.</r></e>
+  <e k="D" t="ThingDef" key="MS_DMSChargeModule_Small.label"><s>Charge Accelerator Module</s><r>Модуль ускорителя заряда</r></e>
+  <e k="D" t="ThingDef" key="MS_DMSPort_Large.description"><s>A heavy docking platform for heavy and ultra-heavy automatroids. Assigned automatroids will return to the port when idle or low on energy.</s><r>Тяжелая стыковочная платформа для тяжелых и сверхтяжелых автоматоидов. Назначенные автоматоиды вернутся в порт, когда они простаивают или имеют низкий уровень энергии.</r></e>
+  <e k="D" t="ThingDef" key="MS_DMSPort_Large.label"><s>Automatroid Port (large)</s><r>Порт автоматоида (большой)</r></e>
+  <e k="D" t="ThingDef" key="MS_DMSPort_Small.description"><s>A compact docking spot for light and medium automatroids. Assigned automatroids will return to the port when idle or low on energy.</s><r>Компактное место стыковки легких и средних автоматоидов. Назначенные автоматоиды вернутся в порт, когда они простаивают или имеют низкий уровень энергии.</r></e>
+  <e k="D" t="ThingDef" key="MS_DMSPort_Small.label"><s>Automatroid Port (small)</s><r>Порт Automatroid (маленький)</r></e>
+  <e k="D" t="ThingDef" key="MS_DMSRepairModule_Large.description"><s>Attaches to an automatroid port and slowly repairs a docked Automatroid or Mechanoid without anyone tending to it. Far slower than hand repair by a mechanitor, and it costs power - but it needs no handling at all. Several can be fitted to one port.</s><r>Прикрепляется к порту автоматоида и медленно ремонтирует пристыкованный автоматоид или механоид, при этом никто за ним не присматривает. Намного медленнее, чем ручной ремонт механизатором, и он требует затрат энергии, но вообще не требует никаких манипуляций. К одному порту можно подключить несколько.</r></e>
+  <e k="D" t="ThingDef" key="MS_DMSRepairModule_Large.label"><s>Auto-Repair Module</s><r>Модуль автовосстановления</r></e>
+  <e k="D" t="ThingDef" key="MS_DMSRepairModule_Small.description"><s>Attaches to a small automatroid port and slowly repairs the docked automatroid without anyone tending to it. Up to two can be fitted to one port.</s><r>Прикрепляется к небольшому порту автоматоида и медленно ремонтирует пристыкованный автоматоид, при этом никто за ним не ухаживает. К одному порту можно подключить до двух.</r></e>
+  <e k="D" t="ThingDef" key="MS_DMSRepairModule_Small.label"><s>Auto-Repair Module</s><r>Модуль автовосстановления</r></e>
+  <e k="D" t="ThingDef" key="MS_DMSWasteModule_Large.description"><s>Attaches to a large mech port and doubles its wastepack capacity, adding a fill indicator. Works without power. Only one can be fitted per port.</s><r>Прикрепляется к большому механическому порту и удваивает вместимость контейнера для мусора, добавляя индикатор заполнения. Работает без питания. На каждый порт можно установить только один.</r></e>
+  <e k="D" t="ThingDef" key="MS_DMSWasteModule_Large.label"><s>Waste Container Module</s><r>Модуль контейнера для мусора</r></e>
+  <e k="D" t="ThingDef" key="MS_DMSWasteModule_Small.description"><s>Attaches to a small automatroid port and doubles its wastepack capacity, adding a fill indicator. Works without power. Only one can be fitted per port.</s><r>Присоединяется к небольшому порту автоматоида и удваивает вместимость контейнера для мусора, добавляя индикатор заполнения. Работает без питания. На каждый порт можно установить только один.</r></e>
+  <e k="D" t="ThingDef" key="MS_DMSWasteModule_Small.label"><s>Waste Container Module</s><r>Модуль контейнера для мусора</r></e>
+  <e k="D" t="ThingDef" key="MS_MechPort_Large.description"><s>A heavy docking platform for heavy and ultra-heavy mechanoids. Assigned mechanoids will return to the port when idle or low on energy.</s><r>Тяжелая стыковочная платформа для тяжелых и сверхтяжелых механоидов. Назначенные механоиды вернутся в порт, когда они простаивают или имеют низкий уровень энергии.</r></e>
+  <e k="D" t="ThingDef" key="MS_MechPort_Large.label"><s>mechanoid port (large)</s><r>порт механоида (большой)</r></e>
+  <e k="D" t="ThingDef" key="MS_MechPort_Small.description"><s>A compact docking spot for light and medium mechanoids. Assigned mechanoids will return to the port when idle or low on energy.</s><r>Компактное место стыковки легких и средних механоидов. Назначенные механоиды вернутся в порт, когда они простаивают или имеют низкий уровень энергии.</r></e>
+  <e k="D" t="ThingDef" key="MS_MechPort_Small.label"><s>mechanoid port (small)</s><r>порт механоида (маленький)</r></e>
+  <e k="D" t="ThingDef" key="MS_RepairModule_Large.description"><s>Attaches to a mech port and slowly repairs a docked mechanoid without anyone tending to it. Far slower than hand repair by a mechanitor, and it costs power - but it needs no handling at all. Several can be fitted to one port.</s><r>Прикрепляется к порту меха и медленно ремонтирует пристыкованный механоид, при этом никто за ним не присматривает. Намного медленнее, чем ручной ремонт механизатором, и он требует затрат энергии, но вообще не требует никаких манипуляций. К одному порту можно подключить несколько.</r></e>
+  <e k="D" t="ThingDef" key="MS_RepairModule_Large.label"><s>auto-repair module</s><r>модуль автовосстановления</r></e>
+  <e k="D" t="ThingDef" key="MS_RepairModule_Small.description"><s>Attaches to a small mech port and slowly repairs the docked mechanoid without a mechanitor tending to it. Up to two can be fitted to one port.</s><r>Прикрепляется к небольшому порту для меха и медленно ремонтирует пристыкованный механоид без помощи механизатора. К одному порту можно подключить до двух.</r></e>
+  <e k="D" t="ThingDef" key="MS_RepairModule_Small.label"><s>auto-repair module</s><r>модуль автовосстановления</r></e>
+  <e k="D" t="ThingDef" key="MS_WasteModule_Large.description"><s>Attaches to a large mech port and doubles its wastepack capacity, adding a fill indicator. Works without power. Only one can be fitted per port.</s><r>Прикрепляется к большому механическому порту и удваивает вместимость контейнера для мусора, добавляя индикатор заполнения. Работает без питания. На каждый порт можно установить только один.</r></e>
+  <e k="D" t="ThingDef" key="MS_WasteModule_Large.label"><s>waste container module</s><r>модуль контейнера для мусора</r></e>
+  <e k="D" t="ThingDef" key="MS_WasteModule_Small.description"><s>Attaches to a small mech port and doubles its wastepack capacity, adding a fill indicator. Works without power. Only one can be fitted per port.</s><r>Прикрепляется к небольшому механическому порту и удваивает вместимость контейнера для мусора, добавляя индикатор заполнения. Работает без питания. На каждый порт можно установить только один.</r></e>
+  <e k="D" t="ThingDef" key="MS_WasteModule_Small.label"><s>waste container module</s><r>модуль контейнера для мусора</r></e>
+  <e k="K" key="MS_AlertPortFull"><s>Mech port full of wastepacks</s><r>Механический порт, полный мусорных пакетов</r></e>
+  <e k="K" key="MS_AlertPortFullDesc"><s>These mech ports are full of wastepacks and have stopped charging. A docked mech keeps its port and waits there instead of leaving. Haul the wastepacks away to let it charge again.</s><r>Эти мехпорты забиты мусорными пакетами и перестали заряжаться. Пристыкованный мех остается в своем порту и ждет там, вместо того, чтобы уйти. Уберите пакеты с мусором, чтобы он снова зарядился.</r></e>
+  <e k="K" key="MS_AlertPortFullDescLeave"><s>These mech ports are full of wastepacks and have stopped charging. Docked mechs leave them until they can charge again. Haul the wastepacks away.</s><r>Эти мехпорты забиты мусорными пакетами и перестали заряжаться. Пристыкованные мехи оставляют их до тех пор, пока они не смогут снова зарядиться. Уберите пакеты с мусором.</r></e>
+  <e k="K" key="MS_ClassOverrideGroup_Apex"><s>Apex Mechanoids</s><r>Апекс-механоиды</r></e>
+  <e k="K" key="MS_ClassOverrideGroup_Pikeman"><s>Pikeman variants</s><r>Варианты пикинера</r></e>
+  <e k="K" key="MS_ClassOverrideGroup_TotalWarfare"><s>Mechanoids: Total Warfare</s><r>Механоиды: Total Warfare</r></e>
+  <e k="K" key="MS_ClassOverride_ApexFrostivus"><s>Frostivus</s><r>Морозность</r></e>
+  <e k="K" key="MS_ClassOverride_ApexJavelin"><s>Javelin</s><r>Копье</r></e>
+  <e k="K" key="MS_ClassOverride_DMWP"><s>Diverse Mechanoid War Procedure</s><r>Разнообразная процедура войны механоидов</r></e>
+  <e k="K" key="MS_ClassOverride_GD5Expansion"><s>Glitterworld Destroyer 5 Expansion</s><r>Расширение Glitterworld Destroyer 5</r></e>
+  <e k="K" key="MS_ClassOverride_TWBirgus"><s>Birgus</s><r>Биргус</r></e>
+  <e k="K" key="MS_ClassOverride_VanillaPikeman"><s>Vanilla Pikeman</s><r>Ванильный Пикемен</r></e>
+  <e k="K" key="MS_GizmoAssignDesc"><s>Assign a mechanoid to this station. It will return here when idle or low on energy.</s><r>Назначьте на эту станцию ​​механоида. Он вернется сюда, когда он простаивает или у него заканчивается энергия.</r></e>
+  <e k="K" key="MS_GizmoAssignLabel"><s>Assign mech</s><r>Назначить механизм</r></e>
+  <e k="K" key="MS_GizmoBoostDesc"><s>Toggle this module's contribution. While off it still draws idle power but adds no charging speed. Use the power switch to shut it down completely.</s><r>Переключить вклад этого модуля. В выключенном состоянии он по-прежнему потребляет энергию на холостом ходу, но не увеличивает скорость зарядки. Используйте выключатель питания, чтобы полностью выключить его.</r></e>
+  <e k="K" key="MS_GizmoBoostLabel"><s>Charge boost</s><r>Увеличение заряда</r></e>
+  <e k="K" key="MS_GizmoFacingDesc"><s>Cycle the direction a docked mechanoid faces. Applies to any mech that docks here.</s><r>Измените направление взгляда пристыкованного механоида. Применяется к любому меху, который пристыковывается сюда.</r></e>
+  <e k="K" key="MS_GizmoFacingLabel"><s>Set mech facing</s><r>Установить механизм лицом к лицу</r></e>
+  <e k="K" key="MS_GizmoPositionDesc"><s>Cycle through the available draw positions for this building. Moves the artwork only - where the mechanoid actually stands is unchanged.</s><r>Перебирайте доступные позиции для этого здания. Перемещает только изображение — место, где на самом деле стоит механоид, не изменяется.</r></e>
+  <e k="K" key="MS_GizmoPositionLabel"><s>Adjust position</s><r>Отрегулировать положение</r></e>
+  <e k="K" key="MS_GizmoRecallDesc"><s>Order the assigned mechanoid to return to this station immediately.</s><r>Прикажите назначенному механоиду немедленно вернуться на эту станцию.</r></e>
+  <e k="K" key="MS_GizmoRecallLabel"><s>Recall mech</s><r>Вспомнить механизм</r></e>
+  <e k="K" key="MS_GizmoRepairDesc"><s>Toggle this module's contribution. While off it still draws idle power but repairs nothing. Use the power switch to shut it down completely.</s><r>Переключить вклад этого модуля. В выключенном состоянии он по-прежнему потребляет энергию на холостом ходу, но ничего не ремонтирует. Используйте выключатель питания, чтобы полностью выключить его.</r></e>
+  <e k="K" key="MS_GizmoRepairLabel"><s>Auto-repair</s><r>Авторемонт</r></e>
+  <e k="K" key="MS_GizmoReturnDesc"><s>Order this mechanoid to return to its assigned station immediately.</s><r>Прикажите этому механоиду немедленно вернуться на назначенную станцию.</r></e>
+  <e k="K" key="MS_GizmoReturnLabel"><s>Return to station</s><r>Вернуться на станцию</r></e>
+  <e k="K" key="MS_GizmoUnassignDesc"><s>Remove the mechanoid assignment from this station.</s><r>Удалите назначение механоида с этой станции.</r></e>
+  <e k="K" key="MS_GizmoUnassignLabel"><s>Unassign mech</s><r>Отменить назначение механизма</r></e>
+  <e k="K" key="MS_InspectAssigned"><s>Assigned mech: {MECH}</s><r>Назначенный механизм: {MECH}</r></e>
+  <e k="K" key="MS_InspectBoostOff"><s>Charge boost: disabled</s><r>Повышение заряда: отключено</r></e>
+  <e k="K" key="MS_InspectBoostOn"><s>Charge boost: {0}</s><r>Повышение заряда: {0}</r></e>
+  <e k="K" key="MS_InspectDead"><s>Assigned mech: {MECH} (dead)</s><r>Назначенный механизм: {MECH} (мертв)</r></e>
+  <e k="K" key="MS_InspectModuleCharge"><s>charging +{0}</s><r>зарядка +{0}</r></e>
+  <e k="K" key="MS_InspectModuleRepair"><s>repair {0}</s><r>ремонт {0}</r></e>
+  <e k="K" key="MS_InspectModuleWaste"><s>waste capacity +{0}</s><r>емкость отходов +{0}</r></e>
+  <e k="K" key="MS_InspectModules"><s>Modules ({0})</s><r>Модули ({0})</r></e>
+  <e k="K" key="MS_InspectModulesInactive"><s>Modules ({0}): none active</s><r>Модули ({0}): ни один активный</r></e>
+  <e k="K" key="MS_InspectNone"><s>Assigned mech: none</s><r>Назначенный механизм: нет</r></e>
+  <e k="K" key="MS_InspectRepairOff"><s>Auto-repair: disabled</s><r>Автовосстановление: отключено</r></e>
+  <e k="K" key="MS_InspectRepairOn"><s>Auto-repair: {0} of hand repair speed</s><r>Авторемонт: {0} скорости ручного ремонта.</r></e>
+  <e k="K" key="MS_InspectWasteContainer"><s>Linked port waste: {0} (capacity +{1})</s><r>Связанные портовые отходы: {0} (мощность +{1})</r></e>
+  <e k="K" key="MS_InspectWasteUnlinked"><s>Not linked to a port.</s><r>Не привязан к порту.</r></e>
+  <e k="K" key="MS_MenuAlreadyAssigned"><s> (already assigned)</s><r> (уже назначено)</r></e>
+  <e k="K" key="MS_MenuNoMechs"><s>No suitable mechanoids available</s><r>Нет подходящих механоидов</r></e>
+  <e k="K" key="MS_Place_NoTargetPort"><s>Must face a mech station.</s><r>Должен столкнуться с механической станцией.</r></e>
+  <e k="K" key="MS_Place_NotAligned"><s>Must be aligned with the station's centre.</s><r>Должно быть выровнено по центру станции.</r></e>
+  <e k="K" key="MS_Place_TooManyModules"><s>Cannot attach more than {0} of this module to one port.</s><r>Невозможно подключить более {0} этого модуля к одному порту.</r></e>
+  <e k="K" key="MS_Place_WrongPortType"><s>This station does not accept this module type.</s><r>Эта станция не принимает этот тип модуля.</r></e>
+  <e k="K" key="MS_SettingForeignWorkModes"><s>WVC Work Mode Patch</s><r>Исправление рабочего режима WVC</r></e>
+  <e k="K" key="MS_SettingForeignWorkModesDesc"><s>Assigned mechs go to their ports before otherwise going to the shutdown zone. When assigned mechs are standing on their ports, they need to be woken up before they react to enemy presence on the map, as would be expected in modes like &quot;wait enemy&quot; or &quot;work and wait&quot;.</s><r>Назначенные мехи отправляются в свои порты, прежде чем отправиться в зону отключения. Когда назначенные мехи стоят в своих портах, их необходимо разбудить, прежде чем они отреагируют на присутствие врага на карте, как и следовало ожидать в таких режимах, как «ждать врага» или «работать и ждать».</r></e>
+  <e k="K" key="MS_SettingIdleGlow"><s>Light the area while idle</s><r>Освещать территорию во время простоя</r></e>
+  <e k="K" key="MS_SettingIdleMask"><s>Light the texture while idle</s><r>Подсветка текстуры во время простоя</r></e>
+  <e k="K" key="MS_SettingLeaveUnchargeablePort"><s>Leave a port that cannot charge</s><r>Оставьте порт, который не может заряжаться</r></e>
+  <e k="K" key="MS_SettingLeaveUnchargeablePortDesc"><s>Off: a docked mech keeps its port through a power outage or a full waste container and waits there until the problem is fixed.
+
+On: it leaves the port like a vanilla mech leaves a dead or full recharger, looks for another port or recharger, and otherwise behaves as usual. It returns once the port can charge again. Applies to assigned mechs and to every mech in the Docking work mode.</s><r>Выключено: пристыкованный механизм сохраняет свой порт в случае отключения электроэнергии или полного контейнера для отходов и ждет там, пока проблема не будет устранена. Он возвращается, как только порт снова сможет заряжаться. Применяется к назначенным мехам и к каждому меху в рабочем режиме «Стыковка».</r></e>
+  <e k="K" key="MS_SettingSizePatches"><s>Size patches</s><r>Размер патчей</r></e>
+  <e k="K" key="MS_SettingSizePatchesDesc"><s>Medium mechs whose shape is too large for a small port are only accepted by large ports.</s><r>Средние мехи, форма которых слишком велика для маленького порта, принимаются только большими портами.</r></e>
+  <e k="K" key="MS_SettingSizePatchesTip"><s>This affects nothing but the choice of port. Weight class, bandwidth and vanilla rechargers stay exactly as they were.</s><r>Это не влияет ни на что, кроме выбора порта. Весовой класс, пропускная способность и стандартные зарядные устройства остались такими же, как и были.</r></e>
+  <e k="K" key="MS_SettingStatusGlow"><s>Show charge status as area light</s><r>Показывать статус зарядки в виде индикатора области</r></e>
+  <e k="K" key="MS_SettingStatusMask"><s>Show charge status on the texture</s><r>Показывать статус заряда на текстуре</r></e>
+  <e k="K" key="MS_SettingSuppressChargeAnimation"><s>Suppress charging animation on stations</s><r>Подавить анимацию зарядки на станциях</r></e>
+</AutoTranslateCache>
