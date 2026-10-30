@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="nep.landonanything" name="Land On Anything" language="Russian" version="1">
+  <e k="K" key="NEPLOA_ClearSpace"><s>Smash Surroundings</s><r>Разрушьте окрестности</r></e>
+  <e k="K" key="NEPLOA_ClearSpaceDesc"><s>Remove items within 2 cells of the gravship</s><r>Удалить предметы в радиусе 2 клеток от грави-корабля.</r></e>
+  <e k="K" key="NEPLOA_DamageEnabled"><s>Damage Enabled</s><r>Урон включен</r></e>
+  <e k="K" key="NEPLOA_DamageEnabledDesc"><s>Gravship takes damage when it crushes buildings/structures</s><r>Гравшип получает урон, когда разрушает здания/сооружения.</r></e>
+  <e k="K" key="NEPLOA_ExplainDamage"><s>Buildings/structures on gravship cells that are placed over existing structures take damage.</s><r>Здания/сооружения на клетках гравитационного корабля, расположенные над существующими постройками, получают урон.</r></e>
+  <e k="K" key="NEPLOA_FixedDamage"><s>Use static damage amount</s><r>Использовать статическое количество урона</r></e>
+  <e k="K" key="NEPLOA_FixedDamageDesc"><s>Instead of doing a percentage of current health, does 25-35 damage just like the &quot;minor gravship crash&quot; negative landing outcome.</s><r>Вместо того, чтобы наносить процент от текущего здоровья, он наносит 25-35 урона, как и отрицательный результат приземления «небольшое крушение грави-корабля».</r></e>
+  <e k="K" key="NEPLOA_HeaderDamage"><s>Damage To ship</s><r>Повреждения Для отправки</r></e>
+  <e k="K" key="NEPLOA_HeaderLandings"><s>Landing Options</s><r>Варианты посадки</r></e>
+  <e k="K" key="NEPLOA_HeaderOtherOptions"><s>Other Options</s><r>Другие варианты</r></e>
+  <e k="K" key="NEPLOA_MaxDamage"><s>Max Damage: </s><r>Максимальный урон: </r></e>
+  <e k="K" key="NEPLOA_MaxDamageDesc"><s>Maximum damage as a percentage of current health</s><r>Максимальный урон в процентах от текущего здоровья</r></e>
+  <e k="K" key="NEPLOA_ModName"><s>Land On Anything</s><r>Приземлитесь на что угодно</r></e>
+  <e k="K" key="NEPLOA_Reset"><s>Reset</s><r>Перезагрузить</r></e>
+  <e k="K" key="NEPLOA_allowedToLandInFog"><s>Splatter fog</s><r>Брызги тумана</r></e>
+  <e k="K" key="NEPLOA_allowedToLandInFogDesc"><s>Grav-Engine still needs to be placed in a visible location </s><r>Grav-Engine по-прежнему необходимо размещать на видном месте. </r></e>
+  <e k="K" key="NEPLOA_allowedToLandInLandingBlockers"><s>Obliterate landing blockers</s><r>Уничтожить блокировщики приземления</r></e>
+  <e k="K" key="NEPLOA_allowedToLandInLandingBlockersDesc"><s>Map sections specificlly blocked from landing. Proably best to leave this disabled.</s><r>Разделы карты специально заблокированы для приземления. Вероятно, лучше оставить это отключенным.</r></e>
+  <e k="K" key="NEPLOA_allowedToLandOnAnyTerrain"><s>Slam onto any Terrain</s><r>Врезайтесь в любую местность</r></e>
+  <e k="K" key="NEPLOA_allowedToLandOnAnyTerrainDesc"><s>Land on any terrain</s><r>Приземляйтесь на любой местности</r></e>
+  <e k="K" key="NEPLOA_allowedToLandOnThings"><s>Pancake &quot;things&quot;</s><r>Блинные «штучки»</r></e>
+  <e k="K" key="NEPLOA_allowedToLandOnThingsDesc"><s>Langd on &quot;Things&quot; like buildings, walls, rock, etc</s><r>Лэнгд о «вещах», таких как здания, стены, камни и т. д.</r></e>
+  <e k="K" key="NEPLOA_allowedToSqishHostilesNonHumans"><s>Splat Hostile Non-humans</s><r>Сплат Враждебные нелюди</r></e>
+  <e k="K" key="NEPLOA_allowedToSqishHostilesNonHumansDesc"><s>Land on top of hostile non-humans</s><r>Приземлитесь на враждебных нелюдей</r></e>
+  <e k="K" key="NEPLOA_allowedToSqishHumanslikes"><s>Squish Humans</s><r>Хлюпать людей</r></e>
+  <e k="K" key="NEPLOA_allowedToSqishHumanslikesDesc"><s>Land on top of humanlikes (friendly or hostile)</s><r>Приземлитесь на человекоподобных существ (дружественных или враждебных)</r></e>
+  <e k="K" key="NEPLOA_allowedToSqishRoofs"><s>Crush Roofs</s><r>Разрушить крыши</r></e>
+  <e k="K" key="NEPLOA_allowedToSqishRoofsDesc"><s>Ignore roofs</s><r>Игнорировать крыши</r></e>
+  <e k="K" key="NEPLOA_debug"><s>Debug Mode</s><r>Режим отладки</r></e>
+  <e k="K" key="NEPLOA_debugDesc"><s>Enables extra logging</s><r>Включает дополнительную регистрацию</r></e>
+  <e k="K" key="NEPLOA_patchShuttleLanding"><s>Better Shuttle Landing Locations</s><r>Лучшие места для посадки шаттла</r></e>
+  <e k="K" key="NEPLOA_patchShuttleLandingDesc"><s>Allow Shuttle to land anywhere it could be built.</s><r>Позвольте шаттлу приземлиться в любом месте, где он может быть построен.</r></e>
+  <e k="K" key="NEPLOA_unblockableThrusters"><s>Unblockable Thrusters</s><r>Неблокируемые двигатели</r></e>
+  <e k="K" key="NEPLOA_unblockableThrustersDesc"><s>Thusters are never considered blocked</s><r>Стастеры никогда не считаются заблокированными</r></e>
+</AutoTranslateCache>
