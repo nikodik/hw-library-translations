@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="hailuan.hivecreatureframework" name="Hive Creature Framework" language="Russian" version="1">
+  <e k="D" t="DesignationCategoryDef" key="HCF_Hive.label"><s>Hive</s><r>Улей</r></e>
+  <e k="D" t="GroupWorkModeDef" key="HCF_GroupWorkMode_Attack.description"><s>Attack the group's designated target.</s><r>Атакуйте указанную цель группы.</r></e>
+  <e k="D" t="GroupWorkModeDef" key="HCF_GroupWorkMode_Attack.label"><s>Attack</s><r>Атака</r></e>
+  <e k="D" t="GroupWorkModeDef" key="HCF_GroupWorkMode_Defend.description"><s>Defend the designated position.</s><r>Защищать обозначенную позицию.</r></e>
+  <e k="D" t="GroupWorkModeDef" key="HCF_GroupWorkMode_Defend.label"><s>Defend</s><r>Защищать</r></e>
+  <e k="D" t="GroupWorkModeDef" key="HCF_GroupWorkMode_Dormancy.description"><s>Enter dormancy and return eligible units to the hive.</s><r>Введите режим покоя и верните подходящие единицы в улей.</r></e>
+  <e k="D" t="GroupWorkModeDef" key="HCF_GroupWorkMode_Dormancy.label"><s>Dormant</s><r>Спящий</r></e>
+  <e k="D" t="GroupWorkModeDef" key="HCF_GroupWorkMode_Follow.description"><s>Follow the pawn designated as the group target.</s><r>Следуйте за пешкой, обозначенной как групповая цель.</r></e>
+  <e k="D" t="GroupWorkModeDef" key="HCF_GroupWorkMode_Follow.label"><s>Follow</s><r>Следовать</r></e>
+  <e k="D" t="GroupWorkModeDef" key="HCF_GroupWorkMode_Work.description"><s>Perform the work enabled in the group's work settings.</s><r>Выполните работу, разрешенную в настройках работы группы.</r></e>
+  <e k="D" t="GroupWorkModeDef" key="HCF_GroupWorkMode_Work.label"><s>Work</s><r>Работа</r></e>
+  <e k="D" t="HediffDef" key="HCF_UnstableShell.description"><s>This creature's body is on the verge of collapse due to critically low maintenance. Without timely maintenance, it will soon die.</s><r>Тело этого существа находится на грани разрушения из-за критически низкого уровня обслуживания. Без своевременного обслуживания он скоро умрет.</r></e>
+  <e k="D" t="HediffDef" key="HCF_UnstableShell.label"><s>unstable shell</s><r>нестабильная оболочка</r></e>
+  <e k="D" t="HediffDef" key="HCF_UnstableShell.stages.0.label"><s>trivial</s><r>тривиальный</r></e>
+  <e k="D" t="HediffDef" key="HCF_UnstableShell.stages.1.label"><s>minor</s><r>незначительный</r></e>
+  <e k="D" t="HediffDef" key="HCF_UnstableShell.stages.2.label"><s>moderate</s><r>умеренный</r></e>
+  <e k="D" t="HediffDef" key="HCF_UnstableShell.stages.3.label"><s>severe</s><r>серьезный</r></e>
+  <e k="D" t="HediffDef" key="HCF_UnstableShell.stages.4.label"><s>extreme</s><r>крайний</r></e>
+  <e k="D" t="HiveLordDef" key="HCF_HiveLord_Default.label"><s>HCF_HiveLord_Default</s><r>HCF_HiveLord_Default</r></e>
+  <e k="D" t="HivePageDef" key="HCF_Page_CustomFormula.description"><s>Create and manage custom production formulas.</s><r>Создавайте собственные производственные формулы и управляйте ими.</r></e>
+  <e k="D" t="HivePageDef" key="HCF_Page_CustomFormula.label"><s>Formulas</s><r>Формулы</r></e>
+  <e k="D" t="HivePageDef" key="HCF_Page_Evolution.description"><s>Evolve the hive into a higher form.</s><r>Развивайте улей в более высокую форму.</r></e>
+  <e k="D" t="HivePageDef" key="HCF_Page_Evolution.label"><s>Evolution</s><r>Эволюция</r></e>
+  <e k="D" t="HivePageDef" key="HCF_Page_Fusion.description"><s>Fuse units together to create new units or special things.</s><r>Объединяйте юниты вместе, чтобы создавать новые юниты или особые вещи.</r></e>
+  <e k="D" t="HivePageDef" key="HCF_Page_Fusion.label"><s>Fusion</s><r>Слияние</r></e>
+  <e k="D" t="HivePageDef" key="HCF_Page_Group.description"><s>Create and manage unit groups</s><r>Создание групп объектов и управление ими</r></e>
+  <e k="D" t="HivePageDef" key="HCF_Page_Group.label"><s>Group</s><r>Группа</r></e>
+  <e k="D" t="HivePageDef" key="HCF_Page_Modification.description"><s>Modify units to enhance their bodies or refine their abilities.</s><r>Модифицируйте юнитов, чтобы улучшить их тела или усовершенствовать их способности.</r></e>
+  <e k="D" t="HivePageDef" key="HCF_Page_Modification.label"><s>Modification</s><r>Модификация</r></e>
+  <e k="D" t="HivePageDef" key="HCF_Page_Plan.description"><s>Configure recurring production orders for the hive.</s><r>Настройте повторяющиеся производственные заказы для улья.</r></e>
+  <e k="D" t="HivePageDef" key="HCF_Page_Plan.label"><s>Plan</s><r>План</r></e>
+  <e k="D" t="HivePageDef" key="HCF_Page_Production.description"><s>Configure the hive’s production tasks</s><r>Настройте производственные задачи улья</r></e>
+  <e k="D" t="HivePageDef" key="HCF_Page_Production.label"><s>Production</s><r>Производство</r></e>
+  <e k="D" t="HivePageDef" key="HCF_Page_Progress.description"><s>Track the hive’s overall growth and development progress</s><r>Отслеживайте общий рост и прогресс развития улья.</r></e>
+  <e k="D" t="HivePageDef" key="HCF_Page_Progress.label"><s>Progress</s><r>Прогресс</r></e>
+  <e k="D" t="HivePageDef" key="HCF_Page_Promotion.description"><s>Promote unit to higher-order unit.</s><r>Повысить подразделение до подразделения более высокого порядка.</r></e>
+  <e k="D" t="HivePageDef" key="HCF_Page_Promotion.label"><s>Promotion</s><r>Повышение</r></e>
+  <e k="D" t="HivePageDef" key="HCF_Page_Resource.description"><s>Manage the hive’s stored resources</s><r>Управляйте хранящимися ресурсами улья</r></e>
+  <e k="D" t="HivePageDef" key="HCF_Page_Resource.label"><s>Resources</s><r>Ресурсы</r></e>
+  <e k="D" t="HivePageDef" key="HCF_Page_Unit.description"><s>View and manage all units currently inside the hive</s><r>Просматривайте и управляйте всеми единицами, находящимися в данный момент в улье.</r></e>
+  <e k="D" t="HivePageDef" key="HCF_Page_Unit.label"><s>Unit</s><r>Единица</r></e>
+  <e k="D" t="HivePageDef" key="HCF_Page_Upgrades.description"><s>Upgrade hive structures</s><r>Улучшайте структуры ульев</r></e>
+  <e k="D" t="HivePageDef" key="HCF_Page_Upgrades.label"><s>Upgrades</s><r>Обновления</r></e>
+  <e k="D" t="HiveRaceCategoryDef" key="HCF_Category_All.description"><s>All hive races</s><r>Все расы улья</r></e>
+  <e k="D" t="HiveRaceCategoryDef" key="HCF_Category_All.label"><s>All</s><r>Все</r></e>
+  <e k="D" t="HiveTabOptionDef" key="HCF_CategoryOption_Group.description"><s>Groups of hive</s><r>Группы ульев</r></e>
+  <e k="D" t="HiveTabOptionDef" key="HCF_CategoryOption_Group.label"><s>Group</s><r>Группа</r></e>
+  <e k="D" t="HiveTabOptionDef" key="HCF_CategoryOption_WorkSettings.description"><s>Configure unit routine work priorities</s><r>Настройка приоритетов повседневной работы подразделения</r></e>
+  <e k="D" t="HiveTabOptionDef" key="HCF_CategoryOption_WorkSettings.label"><s>Work</s><r>Работа</r></e>
+  <e k="D" t="JobDef" key="HCF_AsleepDormancy.reportString"><s>sleeping due to lack of hive control.</s><r>спит из-за отсутствия контроля над ульем.</r></e>
+  <e k="D" t="JobDef" key="HCF_Build.reportString"><s>Building TargetA</s><r>Здание TargetA</r></e>
+  <e k="D" t="JobDef" key="HCF_EnterFuser.reportString"><s>entering TargetA.</s><r>введя TargetA.</r></e>
+  <e k="D" t="JobDef" key="HCF_EnterHive.reportString"><s>entering TargetA.</s><r>введя TargetA.</r></e>
+  <e k="D" t="JobDef" key="HCF_Fill.reportString"><s>using TargetA to fill TargetB.</s><r>используя TargetA, чтобы заполнить TargetB.</r></e>
+  <e k="D" t="JobDef" key="HCF_HandleProgress.reportString"><s>Handle progress within TargetA</s><r>Обрабатывать прогресс в течение TargetA</r></e>
+  <e k="D" t="JobDef" key="HCF_HaulToPortal.reportString"><s>HCF_HaulToPortal</s><r>HCF_HaulToPortal</r></e>
+  <e k="D" t="JobDef" key="HCF_Hunt.reportString"><s>hunting TargetA.</s><r>охота TargetA.</r></e>
+  <e k="D" t="JobDef" key="HCF_MaintainSelf.reportString"><s>Maintaining Self</s><r>Поддержание себя</r></e>
+  <e k="D" t="JobDef" key="HCF_Mine.reportString"><s>Mining TargetA</s><r>Горное дело TargetA</r></e>
+  <e k="D" t="JobDef" key="HCF_MountUnitTurretWeapon.reportString"><s>mounting TargetA.</s><r>монтаж TargetA.</r></e>
+  <e k="D" t="JobDef" key="HCF_ShareResource.reportString"><s>Sharing resources with TargetA.</s><r>Совместное использование ресурсов с TargetA.</r></e>
+  <e k="D" t="JobDef" key="HCF_TakeResourceToBlueprint.reportString"><s>Taking resources from TargetA to TargetB.</s><r>Забираем ресурсы с TargetA на TargetB.</r></e>
+  <e k="D" t="JobDef" key="HCF_TakeToHive.reportString"><s>taking TargetA to TargetB.</s><r>переводя от TargetA до TargetB.</r></e>
+  <e k="D" t="JobDef" key="HCF_UseItemToTarget.reportString"><s>Using TargetA</s><r>Использование TargetA</r></e>
+  <e k="D" t="MainButtonDef" key="HCF_MainButton_Building.description"><s>Designate where to build hive building</s><r>Определите, где построить здание улья</r></e>
+  <e k="D" t="MainButtonDef" key="HCF_MainButton_Building.label"><s>hive building</s><r>здание улья</r></e>
+  <e k="D" t="MainButtonDef" key="HCF_MainButton_HiveGroup.description"><s>Manage the behavior and view information of hive units.</s><r>Управляйте поведением и просматривайте информацию о единицах улья.</r></e>
+  <e k="D" t="MainButtonDef" key="HCF_MainButton_HiveGroup.label"><s>hive group</s><r>группа улья</r></e>
+  <e k="D" t="NeedDef" key="HCF_Need_Maintenance.description"><s>Maintenance represents the value required for a unit to maintain its normal form and condition.
+As it decreases, the unit becomes weakened — and may eventually die.</s><r>Техническое обслуживание представляет собой стоимость, необходимую отряду для поддержания его нормальной формы и состояния.
+По мере его уменьшения отряд становится слабее — и в конечном итоге может умереть.</r></e>
+  <e k="D" t="NeedDef" key="HCF_Need_Maintenance.label"><s>maintenance</s><r>обслуживание</r></e>
+  <e k="D" t="PawnColumnDef" key="HCF_AllowedArea.label"><s>allowed area</s><r>разрешенная зона</r></e>
+  <e k="D" t="PawnColumnDef" key="HCF_Column_Group.label"><s>group</s><r>группа</r></e>
+  <e k="D" t="PawnColumnDef" key="HCF_Column_Maintenance.label"><s>maintenance</s><r>обслуживание</r></e>
+  <e k="D" t="StatCategoryDef" key="HCF_StatCategory_HiveStat.label"><s>Hive stat</s><r>Статистика улья</r></e>
+  <e k="D" t="StatDef" key="HCF_Stat_HiveCapacity.description"><s>Determines how many units the hive can contain at once.
+    Higher values allow the hive to house more units simultaneously.</s><r>Определяет, сколько единиц улей может содержать одновременно.
+ Более высокие значения позволяют улью содержать больше единиц одновременно.</r></e>
+  <e k="D" t="StatDef" key="HCF_Stat_HiveCapacity.label"><s>hive capacity</s><r>емкость улья</r></e>
+  <e k="D" t="StatDef" key="HCF_Stat_HiveMaintenanceFactor.description"><s>Multiplies the amount of maintenance restored to units stored inside the hive. 100% is the normal recovery rate.</s><r>Умножает объем обслуживания, восстанавливаемого единицам, хранящимся внутри улья. 100% — это нормальный уровень выздоровления.</r></e>
+  <e k="D" t="StatDef" key="HCF_Stat_HiveMaintenanceFactor.label"><s>hive maintenance factor</s><r>коэффициент обслуживания улья</r></e>
+  <e k="D" t="StatDef" key="HCF_Stat_HiveProcessSpeed.description"><s>Determines how quickly the hive processes its internal tasks, such as breeding units or upgrading the hive.</s><r>Определяет, насколько быстро улей выполняет свои внутренние задачи, такие как разведение или модернизация улья.</r></e>
+  <e k="D" t="StatDef" key="HCF_Stat_HiveProcessSpeed.label"><s>hive process speed</s><r>скорость процесса улья</r></e>
+  <e k="D" t="StatDef" key="HCF_Stat_MaintenanceDecayRate.description"><s>Determines how quickly a unit's maintenance need decreases over time.
+    Higher values cause the unit to lose maintenance faster.</s><r>Определяет, насколько быстро потребность устройства в обслуживании снижается с течением времени.
+ Более высокие значения приводят к тому, что устройство быстрее теряет обслуживание.</r></e>
+  <e k="D" t="StatDef" key="HCF_Stat_MaintenanceDecayRate.label"><s>maintenance decay rate</s><r>скорость распада обслуживания</r></e>
+  <e k="D" t="StatDef" key="HCF_Stat_MaintenanceMax.description"><s>Determines the maximum maintenance level a unit can have.
+    Higher values mean the unit can store more maintenance.</s><r>Определяет максимальный уровень обслуживания, который может иметь устройство.
+ Более высокие значения означают, что устройство может хранить больше данных об обслуживании.</r></e>
+  <e k="D" t="StatDef" key="HCF_Stat_MaintenanceMax.label"><s>maximum maintenance</s><r>максимальное обслуживание</r></e>
+  <e k="D" t="StatDef" key="HCF_Stat_ResourceTransportSpeed.description"><s>Determines how quickly a unit transports resources.
+Affects the speed at which biological units retrieve resources from hives and deliver their carried resources to blueprints.</s><r>Определяет, насколько быстро юнит транспортирует ресурсы.
+Влияет на скорость, с которой биологические юниты извлекают ресурсы из ульев и доставляют перенесенные ими ресурсы на чертежи.</r></e>
+  <e k="D" t="StatDef" key="HCF_Stat_ResourceTransportSpeed.label"><s>resource transport speed</s><r>скорость транспортировки ресурсов</r></e>
+  <e k="D" t="ThingDef" key="HCF_Mote_SparkThrownFast_Black.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="HCF_Mote_SparkThrownFast_Gray.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="HCF_Mote_SparkThrownFast_White.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="HCF_Mote_TrackingLaser_Black.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="HCF_Mote_TrackingLaser_Gray.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="HCF_Mote_TrackingLaser_White.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="UnitWorkDef" key="HCF_UnitWork_Build.description"><s>Build special hive buildings</s><r>Стройте специальные здания-ульи</r></e>
+  <e k="D" t="UnitWorkDef" key="HCF_UnitWork_Build.label"><s>Build</s><r>Строить</r></e>
+  <e k="D" t="UnitWorkDef" key="HCF_UnitWork_DoWorkGiver.description"><s>Do routine work</s><r>Выполняйте рутинную работу</r></e>
+  <e k="D" t="UnitWorkDef" key="HCF_UnitWork_DoWorkGiver.label"><s>Routine Work</s><r>Рутинная работа</r></e>
+  <e k="D" t="UnitWorkDef" key="HCF_UnitWork_HandleProgress.description"><s>Handle progress that requires unit intervention</s><r>Обработка прогресса, требующего вмешательства подразделения</r></e>
+  <e k="D" t="UnitWorkDef" key="HCF_UnitWork_HandleProgress.label"><s>Handle Progress</s><r>Обрабатывать прогресс</r></e>
+  <e k="D" t="UnitWorkDef" key="HCF_UnitWork_Hunt.description"><s>Hunt animals that are not designated as tame</s><r>Охотьтесь на животных, которые не обозначены как ручные.</r></e>
+  <e k="D" t="UnitWorkDef" key="HCF_UnitWork_Hunt.label"><s>Random hunt</s><r>Случайная охота</r></e>
+  <e k="D" t="UnitWorkDef" key="HCF_UnitWork_Rescuing.description"><s>Rescue downed units to hive</s><r>Спасите сбитых юнитов в улей</r></e>
+  <e k="D" t="UnitWorkDef" key="HCF_UnitWork_Rescuing.label"><s>Rescue</s><r>Спасать</r></e>
+  <e k="D" t="UnitWorkDef" key="HCF_UnitWork_SearchResource.description"><s>Search for resources to fill the hive</s><r>Ищите ресурсы, чтобы заполнить улей</r></e>
+  <e k="D" t="UnitWorkDef" key="HCF_UnitWork_SearchResource.label"><s>Search resource</s><r>Поиск ресурса</r></e>
+  <e k="D" t="UnitWorkDef" key="HCF_UnitWork_ShareResource.description"><s>Share resources with other units that have the same tag and need replenishment</s><r>Делитесь ресурсами с другими отрядами, имеющими тот же тег и нуждающимися в пополнении.</r></e>
+  <e k="D" t="UnitWorkDef" key="HCF_UnitWork_ShareResource.label"><s>Share Resource</s><r>Поделиться ресурсом</r></e>
+  <e k="D" t="WorkGiverDef" key="HCF_WorkGiver_Fill.gerund"><s>filling</s><r>наполнение</r></e>
+  <e k="D" t="WorkGiverDef" key="HCF_WorkGiver_Fill.label"><s>fill</s><r>наполнять</r></e>
+  <e k="D" t="WorkGiverDef" key="HCF_WorkGiver_Fill.verb"><s>fill</s><r>наполнять</r></e>
+  <e k="D" t="WorkGiverDef" key="HCF_WorkGiver_Mine.gerund"><s>mining</s><r>добыча полезных ископаемых</r></e>
+  <e k="D" t="WorkGiverDef" key="HCF_WorkGiver_Mine.label"><s>mine</s><r>мой</r></e>
+  <e k="D" t="WorkGiverDef" key="HCF_WorkGiver_Mine.verb"><s>mine</s><r>мой</r></e>
+  <e k="D" t="WorkGiverDef" key="HCF_WorkGiver_TakeToHive.gerund"><s>taking</s><r>принимая</r></e>
+  <e k="D" t="WorkGiverDef" key="HCF_WorkGiver_TakeToHive.label"><s>Take unti to hive</s><r>Возьмите Унти в улей</r></e>
+  <e k="D" t="WorkGiverDef" key="HCF_WorkGiver_TakeToHive.verb"><s>take</s><r>брать</r></e>
+  <e k="D" t="WorkGiverDef" key="HCF_WorkGiver_UnitHunt.gerund"><s>hunting</s><r>охота</r></e>
+  <e k="D" t="WorkGiverDef" key="HCF_WorkGiver_UnitHunt.label"><s>hunt</s><r>охотиться</r></e>
+  <e k="D" t="WorkGiverDef" key="HCF_WorkGiver_UnitHunt.verb"><s>hunt</s><r>охотиться</r></e>
+  <e k="K" key="AddEvolutionProgress"><s>Evolution progress added successfully</s><r>Прогресс эволюции успешно добавлен</r></e>
+  <e k="K" key="AddFusionProgress"><s>Fusion progress added successfully</s><r>Прогресс Fusion успешно добавлен</r></e>
+  <e k="K" key="AddModificationProgress"><s>Modification progress added successfully</s><r>Ход модификации успешно добавлен</r></e>
+  <e k="K" key="AddProductionProgress"><s>Production progress added successfully: {0}</s><r>Прогресс производства успешно добавлен: {0}</r></e>
+  <e k="K" key="AddPromotionProgress"><s>Promotion progress added successfully</s><r>Ход продвижения успешно добавлен</r></e>
+  <e k="K" key="AllowAutoReturnHive"><s>Allow auto returning hive:</s><r>Разрешить автоматическое возвращение улья:</r></e>
+  <e k="K" key="AllowAutoReturnHiveTip"><s>When enabled, units in this group can automatically return to a hive for maintenance or recovery.</s><r>Если эта функция включена, устройства в этой группе могут автоматически возвращаться в улей для обслуживания или восстановления.</r></e>
+  <e k="K" key="BuildingWorkAmount"><s>Work amount:{0}/{1}</s><r>Сумма работы:{0}/{1}</r></e>
+  <e k="K" key="CQFAction_JoinHiveGroup"><s>HCF Action: Join Hive</s><r>Действие HCF: присоединиться к Hive</r></e>
+  <e k="K" key="CQFAction_JoinHiveGroup_Tip"><s>Join the target HCF units to a group owned by the hive or node identified by its key. Checks faction, tags, capacity and node ownership before joining.</s><r>Присоедините целевые единицы HCF к группе, принадлежащей улью или узлу, определенному его ключом. Перед присоединением проверяет фракцию, теги, мощность и владение узлами.</r></e>
+  <e k="K" key="CQFAction_SetHiveGroupMode"><s>HCF Action:Set Group Mode</s><r>Действие HCF:Установить групповой режим</r></e>
+  <e k="K" key="CQFAction_SetHiveGroupMode_Tip"><s>Set the mode of groups owned by target hives or nodes, or the current group of each target unit. Uses HCF mode workers and updates group duties.</s><r>Установите режим групп, принадлежащих целевым ульям или узлам, или текущую группу каждого целевого устройства. Использует работников режима HCF и обновляет групповые обязанности.</r></e>
+  <e k="K" key="CQF_HCF_DifferentMap"><s>[CQF/HCF] Unit '{0}' and hive or node '{1}' must be spawned on the same map before joining a group.</s><r>[CQF/HCF] Отряд «{0}» и улей или узел «{1}» должны быть созданы на одной карте перед присоединением к группе.</r></e>
+  <e k="K" key="CQF_HCF_GroupIndex"><s>Group index</s><r>Индекс группы</r></e>
+  <e k="K" key="CQF_HCF_GroupMissing"><s>[CQF/HCF] Target '{0}' has no group matching index {1}.</s><r>[CQF/HCF] Target '{0}' не имеет индекса соответствия группы {1}.</r></e>
+  <e k="K" key="CQF_HCF_HiveKey"><s>Hive or node key</s><r>Ключ улья или узла</r></e>
+  <e k="K" key="CQF_HCF_HiveKey_Tip"><s>The target key of a hive building or node pawn that owns the destination groups.</s><r>Целевой ключ здания улья или пешки узла, которому принадлежат группы назначения.</r></e>
+  <e k="K" key="CQF_HCF_HiveMissing"><s>[CQF/HCF] No valid hive or node was found for key '{0}'.</s><r>[CQF/HCF] Для ключа «{0}» не найден действительный куст или узел.</r></e>
+  <e k="K" key="CQF_HCF_InvalidGroupTarget"><s>[CQF/HCF] Target '{0}' is not a valid hive, node or group member.</s><r>[CQF/HCF] Target «{0}» не является допустимым членом улья, узла или группы.</r></e>
+  <e k="K" key="CQF_HCF_InvalidJoinSettings"><s>[CQF/HCF] Joining a group requires a hive or node key and a group index of -1 or greater.</s><r>[CQF/HCF] Для присоединения к группе требуется ключ куста или узла и индекс группы -1 или выше.</r></e>
+  <e k="K" key="CQF_HCF_InvalidModeSettings"><s>[CQF/HCF] Setting a group mode requires a mode and a group index of -1 or greater.</s><r>[CQF/HCF] Для установки группового режима требуется режим и индекс группы -1 или выше.</r></e>
+  <e k="K" key="CQF_HCF_InvalidUnit"><s>[CQF/HCF] Target '{0}' is not a valid pawn for joining a group.</s><r>[CQF/HCF] Target «{0}» не является допустимой пешкой для присоединения к группе.</r></e>
+  <e k="K" key="CQF_HCF_JoinGroupIndex_Tip"><s>-1 selects the first group that can accept each unit. 0 and higher select one group, ordered by its internal ID. Units and the hive or node must be spawned on the same map.</s><r>-1 выбирает первую группу, которая может принять каждую единицу. 0 и выше выбирают одну группу, упорядоченную по ее внутреннему идентификатору. Юниты и улей или узел должны быть созданы на одной карте.</r></e>
+  <e k="K" key="CQF_HCF_JoinRejected"><s>[CQF/HCF] Unit '{0}' could not join a group belonging to '{1}': {2}</s><r>[CQF/HCF] Юнит «{0}» не смог присоединиться к группе, принадлежащей «{1}»: {2}</r></e>
+  <e k="K" key="CQF_HCF_Mode"><s>Group mode: {0}</s><r>Групповой режим: {0}</r></e>
+  <e k="K" key="CQF_HCF_ModeGroupIndex_Tip"><s>-1 changes all groups owned by each target. 0 and higher select one group, ordered by its internal ID. An ordinary unit targets its current group.</s><r>-1 меняет все группы, принадлежащие каждой цели. 0 и выше выбирают одну группу, упорядоченную по ее внутреннему идентификатору. Обычный отряд нацелен на свою текущую группу.</r></e>
+  <e k="K" key="CQF_HCF_ModeUnsupported"><s>[CQF/HCF] Group {1} of '{0}' does not support mode '{2}' with its current target.</s><r>[CQF/HCF] Группа {1} из «{0}» не поддерживает режим «{2}» со своей текущей целью.</r></e>
+  <e k="K" key="CQF_HCF_NoTargets"><s>[CQF/HCF] The action resolved no targets.</s><r>[CQF/HCF] Действие не привело ни к одной цели.</r></e>
+  <e k="K" key="CQF_HCF_None"><s>Not selected</s><r>Не выбрано</r></e>
+  <e k="K" key="CQF_HCF_SelectMode"><s>Select group mode</s><r>Выберите групповой режим</r></e>
+  <e k="K" key="CQF_HCF_UnknownRejection"><s>The group rejected the unit without providing a reason.</s><r>Группа отклонила предложение без объяснения причин.</r></e>
+  <e k="K" key="CantApplyToTarget"><s>Cannot be used at that location</s><r>Невозможно использовать в этом месте</r></e>
+  <e k="K" key="CantReserveAndReach"><s>Can't reserve or reach</s><r>Не могу зарезервировать или добраться</r></e>
+  <e k="K" key="CantSetTarget_Map"><s>Cannot set target: the current map cannot receive the group node signal</s><r>Невозможно установить цель: текущая карта не может получить сигнал узла группы.</r></e>
+  <e k="K" key="CarryItemToHive"><s>Carry {0} to hive</s><r>Перенесите {0} в улей</r></e>
+  <e k="K" key="CarryingResources"><s>Carrying resources:</s><r>Перенос ресурсов:</r></e>
+  <e k="K" key="Colorbase"><s>Color palette</s><r>Цветовая палитра</r></e>
+  <e k="K" key="ConfirmRecycleUnit"><s>Are you sure you want to recycle {0}? This action cannot be undone!</s><r>Вы уверены, что хотите переработать {0}? Это действие невозможно отменить!</r></e>
+  <e k="K" key="DropItem"><s>Drop</s><r>Уронить</r></e>
+  <e k="K" key="FixedLower"><s>Fixed</s><r>Зафиксированный</r></e>
+  <e k="K" key="Fuse"><s>Fuse</s><r>Предохранитель</r></e>
+  <e k="K" key="FusionRequiredThings"><s>--requirement--</s><r>--требование--</r></e>
+  <e k="K" key="FusionResults"><s>Fusion results:</s><r>Результаты слияния:</r></e>
+  <e k="K" key="GroupCountReachedLimit"><s>The number of groups has reached the maximum limit</s><r>Количество групп достигло максимального предела</r></e>
+  <e k="K" key="GroupHive"><s>Group hive: {0}</s><r>Групповой улей: {0}</r></e>
+  <e k="K" key="HCF_AcceptAll"><s>HCF_AcceptAll</s><r>HCF_AcceptAll</r></e>
+  <e k="K" key="HCF_AddMaterial"><s>Add Material</s><r>Добавить материал</r></e>
+  <e k="K" key="HCF_AutoFill"><s>Allow colonists or units to automatically fill resources</s><r>Разрешить колонистам или отрядам автоматически заполнять ресурсы</r></e>
+  <e k="K" key="HCF_AutoRelease"><s>Auto Release:</s><r>Автоматический выпуск:</r></e>
+  <e k="K" key="HCF_CanRecycleUnit"><s>Can Recycle Units:</s><r>Можно перерабатывать единицы:</r></e>
+  <e k="K" key="HCF_CantUnlockUpgrade"><s>Unavailable</s><r>Недоступно</r></e>
+  <e k="K" key="HCF_CarryUnitToHive"><s>Carry to hive</s><r>Нести в улей</r></e>
+  <e k="K" key="HCF_ConfirmCreateFormula"><s>Confirm Create Formula</s><r>Подтвердите создание формулы</r></e>
+  <e k="K" key="HCF_ConfirmDeleteFormula"><s>Are you sure you want to delete formula &quot;{0}&quot;? This cannot be undone!</s><r>Вы уверены, что хотите удалить формулу «{0}»? Этого нельзя отменить!</r></e>
+  <e k="K" key="HCF_Cost"><s>--Cost--</s><r>--Расходы--</r></e>
+  <e k="K" key="HCF_CostLabel"><s>Cost: </s><r>Расходы: </r></e>
+  <e k="K" key="HCF_CreatedFormula"><s>Created custom formula: {0}</s><r>Создана пользовательская формула: {0}.</r></e>
+  <e k="K" key="HCF_CustomFormula"><s>Custom Formula</s><r>Пользовательская формула</r></e>
+  <e k="K" key="HCF_Debug_MaintenanceResource"><s>Resource cost: {0}, maintenance restored: {1},,Pawn:{2}</s><r>Стоимость ресурсов: {0}, восстановление обслуживания: {1},,Пешка:{2}</r></e>
+  <e k="K" key="HCF_Debug_MaintenanceRestore"><s>Maintenance restored: {0},Pawn:{1}</s><r>Техническое обслуживание восстановлено: {0}, Пешка: {1}</r></e>
+  <e k="K" key="HCF_Debug_SelectGroup"><s>Select Group{0}</s><r>Выберите группу{0}</r></e>
+  <e k="K" key="HCF_DeleteFormula"><s>Delete Formula</s><r>Удалить формулу</r></e>
+  <e k="K" key="HCF_DesignatorMine"><s>Harvest</s><r>Урожай</r></e>
+  <e k="K" key="HCF_DesignatorMineDesc"><s>Designate a target to harvest resources from it.</s><r>Назначьте цель, чтобы собирать из нее ресурсы.</r></e>
+  <e k="K" key="HCF_Designator_GroupSelect"><s>Group Target</s><r>Группа Target</r></e>
+  <e k="K" key="HCF_Designator_GroupSelectDesc"><s>
+Target for group {0}. Hold Shift to set only the selected position rather than objects on that position.
+    </s><r>
+Target для группы {0}. Удерживайте Shift, чтобы установить только выбранную позицию, а не объекты в этой позиции.
+    </r></e>
+  <e k="K" key="HCF_Designator_GroupSelectDesc_NullGroup"><s>
+Current Group: None
+Set the target for a group. Hold Shift to set only the selected position rather than objects on that position.
+    </s><r>
+Текущая группа: Нет
+Установите цель для группы. Удерживайте Shift, чтобы установить только выбранную позицию, а не объекты в этой позиции.
+    </r></e>
+  <e k="K" key="HCF_Designator_GroupSelect_NoGroup"><s>No Group</s><r>Нет группы</r></e>
+  <e k="K" key="HCF_DetailCostLabel"><s>Cost: </s><r>Расходы: </r></e>
+  <e k="K" key="HCF_DeveloperLogs"><s>Developer logs</s><r>Журналы разработчиков</r></e>
+  <e k="K" key="HCF_EditFormula"><s>Edit Formula</s><r>Редактировать формулу</r></e>
+  <e k="K" key="HCF_EditedFormula"><s>Edited formula: {0}</s><r>Отредактированная формула: {0}</r></e>
+  <e k="K" key="HCF_Evolution_CurrentForm"><s>This is the current hive form</s><r>Это текущая форма улья</r></e>
+  <e k="K" key="HCF_Evolution_IncompatibleComp"><s>The result hive cannot inherit {0}</s><r>Результирующий улей не может наследовать {0}</r></e>
+  <e k="K" key="HCF_Evolution_InvalidResult"><s>Invalid evolution result</s><r>Неверный результат эволюции</r></e>
+  <e k="K" key="HCF_Evolution_LargerResultConfirm"><s>The evolved building {0} occupies more cells than the original and needs enough space. Continue?</s><r>Развитое здание {0} занимает больше ячеек, чем исходное, и ему требуется достаточно места. Продолжать?</r></e>
+  <e k="K" key="HCF_Evolution_NotAdjacent"><s>This evolution is not available from the current form</s><r>Эта эволюция недоступна в текущей форме.</r></e>
+  <e k="K" key="HCF_Evolution_ResultThing"><s>Result: {0}</s><r>Результат: {0}</r></e>
+  <e k="K" key="HCF_FailedFusionDiscoveredLetterLabel"><s>Failed fusion recipe discovered</s><r>Обнаружен неудачный рецепт синтеза</r></e>
+  <e k="K" key="HCF_FailedFusionDiscoveredLetterText"><s>This recipe could not hold together. The flesh twisted and screamed before collapsing into a lump of twisted flesh. This recipe has been recorded.
+
+Materials:
+{0}</s><r>Этот рецепт не смог удержаться воедино. Плоть извивалась и кричала, прежде чем рухнуть в комок искривленной плоти. Этот рецепт записан.
+
+Материалы:
+{0}</r></e>
+  <e k="K" key="HCF_FillHive"><s>Fill {0}</s><r>Заполните {0}</r></e>
+  <e k="K" key="HCF_FormulaCategory_Modification"><s>Modification</s><r>Модификация</r></e>
+  <e k="K" key="HCF_FormulaMaterials"><s>Materials</s><r>Материалы</r></e>
+  <e k="K" key="HCF_FormulaName"><s>Formula Name:</s><r>Название формулы:</r></e>
+  <e k="K" key="HCF_GroupHostilityResponse"><s>Threat response:</s><r>Ответ на угрозу:</r></e>
+  <e k="K" key="HCF_GroupHostilityResponseTip"><s>Controls how group units react to nearby enemies in defend, follow, and work modes. Ignore continues the current task but still retaliates against direct melee attacks. Attack fights nearby enemies. Flee moves away from nearby threats.</s><r>Управляет тем, как групповые юниты реагируют на ближайших врагов в режимах защиты, следования и работы. Игнор продолжает выполнять текущую задачу, но по-прежнему принимает ответные меры на прямые атаки ближнего боя. Атака сражается с ближайшими врагами. Бегите от ближайших угроз.</r></e>
+  <e k="K" key="HCF_GroupMaintenanceSettingsExplanation"><s>Controls when hive creatures start and stop maintenance. Hive creatures below the minimum of this range automatically return to the hive. Once they reach the maximum, they stop maintenance. These settings only apply outside dormancy mode.</s><r>Определяет, когда существа улья начинают и прекращают техническое обслуживание. Существа улья ниже минимума этого диапазона автоматически возвращаются в улей. Как только они достигают максимума, они прекращают обслуживание. Эти настройки применяются только вне режима ожидания.</r></e>
+  <e k="K" key="HCF_GroupMaintenanceSettingsTip"><s>Set when group units automatically return to the hive and stop maintenance.</s><r>Установите, когда групповые отряды автоматически возвращаются в улей и прекращают обслуживание.</r></e>
+  <e k="K" key="HCF_GroupMaintenanceSettingsTitle"><s>Group maintenance settings</s><r>Настройки обслуживания группы</r></e>
+  <e k="K" key="HCF_GroupModeUnsupported"><s>{0} is not supported by this group</s><r>{0} не поддерживается этой группой</r></e>
+  <e k="K" key="HCF_GroupNoUnits"><s>No units</s><r>Нет единиц</r></e>
+  <e k="K" key="HCF_GroupNonPlayer"><s>Non-player</s><r>Неигровой</r></e>
+  <e k="K" key="HCF_GroupReject_Capacity"><s>Not enough capacity: {0}+{1}&gt;{2}</s><r>Недостаточно емкости: {0}+{1}&gt;{2}</r></e>
+  <e k="K" key="HCF_GroupReject_Faction"><s>Unit faction does not match this group's hive</s><r>Фракция отряда не соответствует улью этой группы.</r></e>
+  <e k="K" key="HCF_GroupReject_NodeLord"><s>Node lords can only stay in their own group</s><r>Владыки узлов могут оставаться только в своей группе.</r></e>
+  <e k="K" key="HCF_GroupReject_NotUnit"><s>Target is not a hive unit</s><r>Target не является ульем</r></e>
+  <e k="K" key="HCF_GroupReject_NullUnit"><s>Invalid unit</s><r>Неверная единица измерения</r></e>
+  <e k="K" key="HCF_GroupReject_Tag"><s>Unit tags do not match this group</s><r>Теги объектов не соответствуют этой группе</r></e>
+  <e k="K" key="HCF_GroupReject_TemporaryNonPlayer"><s>Temporary groups only accept player units</s><r>Временные группы принимают только игроков.</r></e>
+  <e k="K" key="HCF_GroupUncontrollable"><s>This group is not controllable</s><r>Эта группа не управляема</r></e>
+  <e k="K" key="HCF_Group_ShowHiveTarget"><s>Show hive group targets</s><r>Показать групповые цели улья</r></e>
+  <e k="K" key="HCF_Group_ShowHiveTargetDesc"><s>Show group target icons on the map.</s><r>Показывать значки групповых целей на карте.</r></e>
+  <e k="K" key="HCF_Group_ShowThumbnail"><s>Show thumbnails</s><r>Показать миниатюры</r></e>
+  <e k="K" key="HCF_Group_ShowThumbnailDesc"><s>Replace all group target icons with the GroupLite icon.</s><r>Замените все значки групповых целей значком GroupLite.</r></e>
+  <e k="K" key="HCF_GrowthTime"><s>Growth time: {0}/{1} days</s><r>Время роста: {0}/{1} дней</r></e>
+  <e k="K" key="HCF_HealUnits"><s>Heal Units:</s><r>Исцеляющие юниты:</r></e>
+  <e k="K" key="HCF_HiveBuildingShortcut"><s>Hive building tab shortcut: </s><r>Ярлык вкладки «Строительство улья»: </r></e>
+  <e k="K" key="HCF_HiveCapacity"><s>Capacity:</s><r>Емкость:</r></e>
+  <e k="K" key="HCF_HiveContainerFull"><s>The hive is at full capacity</s><r>Улей работает на полную мощность</r></e>
+  <e k="K" key="HCF_HiveGroupShortcut"><s>Hive tab shortcut: </s><r>Ярлык вкладки Hive: </r></e>
+  <e k="K" key="HCF_HiveLordDebug_Active"><s>Active</s><r>Активный</r></e>
+  <e k="K" key="HCF_HiveLordDebug_All"><s>All</s><r>Все</r></e>
+  <e k="K" key="HCF_HiveLordDebug_AlreadyAttacking"><s>An attack is already in progress</s><r>Атака уже идет</r></e>
+  <e k="K" key="HCF_HiveLordDebug_AlreadyExpanding"><s>An expansion is already in progress</s><r>Расширение уже идет</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Attack"><s>Attack</s><r>Атака</r></e>
+  <e k="K" key="HCF_HiveLordDebug_AttackContinuing"><s>Continuing the current attack</s><r>Продолжаем текущую атаку</r></e>
+  <e k="K" key="HCF_HiveLordDebug_AttackCooldown"><s>Attack cooldown has not elapsed</s><r>Время восстановления атаки не истекло</r></e>
+  <e k="K" key="HCF_HiveLordDebug_AttackRetreatFractions"><s>Attack / retreat fractions</s><r>Фракции атаки/отступления</r></e>
+  <e k="K" key="HCF_HiveLordDebug_AttackStarted"><s>Forces assembled and attack started</s><r>Войска собраны и атака началась.</r></e>
+  <e k="K" key="HCF_HiveLordDebug_AttackTarget"><s>Attack target</s><r>Цель атаки</r></e>
+  <e k="K" key="HCF_HiveLordDebug_AttackTimeout"><s>Attack duration elapsed; recalling forces</s><r>Продолжительность атаки истекла; вспоминая силы</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Attacking"><s>Attacking</s><r>Атакующий</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Building"><s>Building</s><r>Здание</r></e>
+  <e k="K" key="HCF_HiveLordDebug_BuildingScore"><s>Building score</s><r>Оценка здания</r></e>
+  <e k="K" key="HCF_HiveLordDebug_BuildingScoreRejected"><s>Building rejected by scoring</s><r>Здание отклонено по результатам оценки</r></e>
+  <e k="K" key="HCF_HiveLordDebug_BuildingTarget"><s>Building target</s><r>Строительная цель</r></e>
+  <e k="K" key="HCF_HiveLordDebug_CellOutOfBounds"><s>Building footprint is outside the map</s><r>Площадь здания находится за пределами карты</r></e>
+  <e k="K" key="HCF_HiveLordDebug_CellScore"><s>Position score</s><r>Оценка позиции</r></e>
+  <e k="K" key="HCF_HiveLordDebug_CellScoreRejected"><s>Position rejected by scoring</s><r>Позиция отклонена из-за забитых очков</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Combat"><s>Combat</s><r>Бой</r></e>
+  <e k="K" key="HCF_HiveLordDebug_CombatReady"><s>Combat-ready units</s><r>Боеготовые подразделения</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Cooldown"><s>Cooldown</s><r>Остывать</r></e>
+  <e k="K" key="HCF_HiveLordDebug_CurrentState"><s>Current state</s><r>Текущее состояние</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Defending"><s>Defending</s><r>Защита</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Deferred"><s>Waiting or not executed</s><r>Ожидание или не выполнение</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Executed"><s>Executed</s><r>Выполнено</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Expansion"><s>Expansion</s><r>Расширение</r></e>
+  <e k="K" key="HCF_HiveLordDebug_ExpansionCompleted"><s>Expansion completed and building joined the swarm</s><r>Расширение завершено, и здание присоединилось к рою</r></e>
+  <e k="K" key="HCF_HiveLordDebug_ExpansionCooldown"><s>Expansion cooldown has not elapsed</s><r>Время восстановления расширения не истекло</r></e>
+  <e k="K" key="HCF_HiveLordDebug_ExpansionOverlap"><s>Overlaps another swarm's planned expansion</s><r>Перекрывает запланированное расширение другого роя.</r></e>
+  <e k="K" key="HCF_HiveLordDebug_ExpansionPaused"><s>Expansion paused while threatened</s><r>Расширение приостановлено из-за угрозы</r></e>
+  <e k="K" key="HCF_HiveLordDebug_ExpansionRadius"><s>Expansion radius</s><r>Радиус расширения</r></e>
+  <e k="K" key="HCF_HiveLordDebug_ExpansionRefund"><s>Expansion cancelled; spent resources refunded</s><r>Расширение отменено; потраченные ресурсы возвращены</r></e>
+  <e k="K" key="HCF_HiveLordDebug_ExpansionResources"><s>Hive resources are insufficient for expansion</s><r>Ресурсов улья недостаточно для расширения</r></e>
+  <e k="K" key="HCF_HiveLordDebug_ExpansionStarted"><s>Building and position selected; expansion started</s><r>Выбрано здание и позиция; расширение началось</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Forces"><s>Combat-ready units; minimum attackers/defenders; attack/retreat fractions</s><r>Боеготовые подразделения; минимум нападающих/защитников; фракции атаки/отступления</r></e>
+  <e k="K" key="HCF_HiveLordDebug_GroupCapacity"><s>Insufficient remaining group capacity</s><r>Недостаточная оставшаяся емкость группы</r></e>
+  <e k="K" key="HCF_HiveLordDebug_GroupSummary"><s>Units {0} · Capacity {1}/{2}</s><r>Единицы {0} · Вместимость {1}/{2}</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Groups"><s>Unit groups</s><r>Группы объектов</r></e>
+  <e k="K" key="HCF_HiveLordDebug_History"><s>Recent decision history</s><r>Недавняя история решений</r></e>
+  <e k="K" key="HCF_HiveLordDebug_HiveLimit"><s>Hive count has reached its limit</s><r>Количество ульев достигло предела</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Hives"><s>Hives / limit</s><r>Ульи / лимит</r></e>
+  <e k="K" key="HCF_HiveLordDebug_HomeHiveLost"><s>Assault group's home hive lost; recalling forces</s><r>Домашний улей штурмовой группы потерян; вспоминая силы</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Inactive"><s>Swarm is inactive</s><r>Рой неактивен</r></e>
+  <e k="K" key="HCF_HiveLordDebug_InactiveState"><s>Inactive</s><r>Неактивный</r></e>
+  <e k="K" key="HCF_HiveLordDebug_InsufficientAcceptedForces"><s>Too few ready units joined the assault group</s><r>В состав штурмовой группы вошло слишком мало готовых подразделений</r></e>
+  <e k="K" key="HCF_HiveLordDebug_InsufficientForces"><s>Insufficient forces to meet attack and garrison requirements</s><r>Недостаточно сил для удовлетворения потребностей в атаке и гарнизоне.</r></e>
+  <e k="K" key="HCF_HiveLordDebug_InteractionBlocked"><s>Building would block another building's interaction cell</s><r>Здание будет блокировать ячейку взаимодействия другого здания.</r></e>
+  <e k="K" key="HCF_HiveLordDebug_InteractionCellRejected"><s>Building interaction cell is not standable</s><r>Ячейка взаимодействия здания не является устойчивой</r></e>
+  <e k="K" key="HCF_HiveLordDebug_InvalidBuilding"><s>Building lacks the required hive components</s><r>В здании отсутствуют необходимые компоненты улья.</r></e>
+  <e k="K" key="HCF_HiveLordDebug_InvalidHive"><s>Hive is unspawned, has the wrong faction or is outside this swarm</s><r>Улей не создан, имеет неправильную фракцию или находится за пределами этого роя.</r></e>
+  <e k="K" key="HCF_HiveLordDebug_InvalidUnit"><s>Unit type, components or group tags are ineligible</s><r>Тип единицы, компоненты или групповые теги недопустимы.</r></e>
+  <e k="K" key="HCF_HiveLordDebug_LastHiveLost"><s>Last hive lost; expansion cancelled</s><r>Последний улей потерян; расширение отменено</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Latest"><s>Latest result for each decision category</s><r>Последний результат для каждой категории решений</r></e>
+  <e k="K" key="HCF_HiveLordDebug_ListSummary"><s>Hives {0} · Units {1}</s><r>Ульи {0} · Юниты {1}</r></e>
+  <e k="K" key="HCF_HiveLordDebug_LockedUnit"><s>Unit has not been unlocked</s><r>Устройство не разблокировано</r></e>
+  <e k="K" key="HCF_HiveLordDebug_MapEdge"><s>Building footprint enters the map's no-build edge</s><r>Площадь здания выходит на незастроенный край карты.</r></e>
+  <e k="K" key="HCF_HiveLordDebug_MinAttackDefenders"><s>Minimum attackers / defenders</s><r>Минимум нападающих/защитников</r></e>
+  <e k="K" key="HCF_HiveLordDebug_MinPreferredSpacing"><s>Minimum / preferred spacing</s><r>Минимальный/предпочтительный интервал</r></e>
+  <e k="K" key="HCF_HiveLordDebug_MissingAssaultGroup"><s>Assault group is missing; ending the attack</s><r>Штурмовая группа отсутствует; прекращение атаки</r></e>
+  <e k="K" key="HCF_HiveLordDebug_MissingComponents"><s>Hive lacks production, resource or progress components</s><r>В Hive отсутствуют компоненты производства, ресурсов и прогресса.</r></e>
+  <e k="K" key="HCF_HiveLordDebug_NextEvaluation"><s>Ticks until next evaluation</s><r>Тики до следующей оценки</r></e>
+  <e k="K" key="HCF_HiveLordDebug_NoAttackTarget"><s>No attack target passed scoring and reachability checks</s><r>Ни одна цель атаки не прошла проверку оценки и достижимости.</r></e>
+  <e k="K" key="HCF_HiveLordDebug_NoExpansionCandidate"><s>No eligible expansion source, building or position</s><r>Нет подходящего источника расширения, здания или позиции.</r></e>
+  <e k="K" key="HCF_HiveLordDebug_NoHistory"><s>No decisions recorded yet. Decisions are recorded during evaluations while developer mode is enabled.</s><r>Никаких решений пока не зарегистрировано. Решения записываются во время оценок, пока включен режим разработчика.</r></e>
+  <e k="K" key="HCF_HiveLordDebug_NoLords"><s>No swarms managed by a HiveLord are present on the current map.</s><r>На текущей карте нет стай, управляемых HiveLord.</r></e>
+  <e k="K" key="HCF_HiveLordDebug_NoMatchingDecisions"><s>No decisions recorded in this category.</s><r>В этой категории не зарегистрировано ни одного решения.</r></e>
+  <e k="K" key="HCF_HiveLordDebug_NoProductionCandidates"><s>No units meet production and group capacity requirements</s><r>Ни одно подразделение не соответствует требованиям по производственной и групповой мощности.</r></e>
+  <e k="K" key="HCF_HiveLordDebug_NoUnitWeight"><s>Available units have no positive production weight</s><r>Доступные единицы не имеют положительного производственного веса.</r></e>
+  <e k="K" key="HCF_HiveLordDebug_NotStandable"><s>Building footprint is not standable</s><r>Площадь здания не является устойчивой</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Occupied"><s>Position is occupied by units, buildings or objects that cannot be replaced</s><r>Позиция занята юнитами, зданиями или объектами, которые нельзя заменить.</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Ongoing"><s>Ongoing</s><r>Непрерывный</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Overview"><s>Overview</s><r>Обзор</r></e>
+  <e k="K" key="HCF_HiveLordDebug_PathCheckLimit"><s>Expansion reachability check limit reached</s><r>Достигнут предел проверки доступности расширения</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Paused"><s>Paused</s><r>Приостановлено</r></e>
+  <e k="K" key="HCF_HiveLordDebug_PlaceWorkerRejected"><s>Building placement rules reject this position</s><r>Правила размещения зданий отклоняют эту позицию</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Population"><s>Units / limit</s><r>Единицы/лимит</r></e>
+  <e k="K" key="HCF_HiveLordDebug_PopulationLimit"><s>Existing and queued units have reached the population limit</s><r>Существующие и находящиеся в очереди единицы достигли предела численности населения</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Position"><s>Position</s><r>Позиция</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Production"><s>Unit production</s><r>Единичное производство</r></e>
+  <e k="K" key="HCF_HiveLordDebug_ProductionCompleted"><s>Unit production completed</s><r>Производство единицы продукции завершено</r></e>
+  <e k="K" key="HCF_HiveLordDebug_ProductionConditions"><s>Unit production requirements are not met</s><r>Требования к единичному производству не выполняются</r></e>
+  <e k="K" key="HCF_HiveLordDebug_ProductionStarted"><s>Unit added to the production queue</s><r>Единица добавлена ​​в производственную очередь</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Progress"><s>Progress</s><r>Прогресс</r></e>
+  <e k="K" key="HCF_HiveLordDebug_QueueBarHint"><s>This bar includes population occupied by existing and queued units.</s><r>Эта полоса включает население, занятое существующими и стоящими в очереди единицами.</r></e>
+  <e k="K" key="HCF_HiveLordDebug_QueueLimit"><s>This hive's production queue is full</s><r>Очередь производства этого улья заполнена</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Queued"><s>Queued units</s><r>Единицы в очереди</r></e>
+  <e k="K" key="HCF_HiveLordDebug_ReachabilityLimit"><s>Reachability check limit</s><r>Предел проверки достижимости</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Recall"><s>Recall forces</s><r>Отозвать силы</r></e>
+  <e k="K" key="HCF_HiveLordDebug_RecallRequested"><s>Recall requested</s><r>Запрошен отзыв</r></e>
+  <e k="K" key="HCF_HiveLordDebug_RecordTiming"><s>First tick {0} · Latest tick {1} · Occurrences {2}</s><r>Первый тик {0} · Последний тик {1} · Вхождения {2}</r></e>
+  <e k="K" key="HCF_HiveLordDebug_RetreatLosses"><s>Remaining forces reached the retreat threshold; recalling forces</s><r>Оставшиеся силы достигли порога отступления; вспоминая силы</r></e>
+  <e k="K" key="HCF_HiveLordDebug_SelectUnit"><s>Worker did not select a unit to produce</s><r>Работник не выбрал единицу продукции для производства</r></e>
+  <e k="K" key="HCF_HiveLordDebug_ShouldAttack"><s>Worker declined to attack</s><r>Рабочий отказался атаковать</r></e>
+  <e k="K" key="HCF_HiveLordDebug_ShouldExpand"><s>Worker declined to expand</s><r>Работник отказался расширяться</r></e>
+  <e k="K" key="HCF_HiveLordDebug_ShouldProduce"><s>Worker declined to produce</s><r>Рабочий отказался производить</r></e>
+  <e k="K" key="HCF_HiveLordDebug_ShouldRecall"><s>Worker requested a recall</s><r>Работник потребовал отзыва</r></e>
+  <e k="K" key="HCF_HiveLordDebug_SourceScore"><s>Source hive score</s><r>Оценка исходного улья</r></e>
+  <e k="K" key="HCF_HiveLordDebug_SourceScoreRejected"><s>Source hive rejected by scoring</s><r>Исходный улей отклонен оценкой</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Spacing"><s>Expansion spacing (minimum/preferred), radius and reachability limit</s><r>Расстояние расширения (минимальное/предпочтительное), радиус и предел достижимости</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Standby"><s>Standing by</s><r>Ожидание</r></e>
+  <e k="K" key="HCF_HiveLordDebug_StartProductionRejected"><s>Production component could not start this unit's production</s><r>Производственному компоненту не удалось начать производство этого устройства.</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Status"><s>Active</s><r>Активный</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Subject"><s>Subject</s><r>Предмет</r></e>
+  <e k="K" key="HCF_HiveLordDebug_SwarmCount"><s>Map swarms ({0})</s><r>Рой карт ({0})</r></e>
+  <e k="K" key="HCF_HiveLordDebug_TargetIncapacitated"><s>Target is dead or downed; ending the attack</s><r>Target мертв или сбит; прекращение атаки</r></e>
+  <e k="K" key="HCF_HiveLordDebug_TargetLost"><s>Target is no longer spawned; ending the attack</s><r>Target больше не появляется; прекращение атаки</r></e>
+  <e k="K" key="HCF_HiveLordDebug_TargetNotHostile"><s>Target is no longer hostile; ending the attack</s><r>Target больше не враждебен; прекращение атаки</r></e>
+  <e k="K" key="HCF_HiveLordDebug_TargetScore"><s>Attack target score</s><r>Целевой показатель атаки</r></e>
+  <e k="K" key="HCF_HiveLordDebug_TargetScoreRejected"><s>Attack target rejected by scoring</s><r>Цель атаки отклонена путем подсчета очков</r></e>
+  <e k="K" key="HCF_HiveLordDebug_TerrainRejected"><s>Terrain does not support this building</s><r>Рельеф не поддерживает это здание</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Threat"><s>Threatened and ticks remaining on alert</s><r>Под угрозой и клещи остаются настороже</r></e>
+  <e k="K" key="HCF_HiveLordDebug_ThreatTime"><s>Alert time remaining</s><r>Оставшееся время оповещения</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Threatened"><s>Swarm is threatened; prioritizing defense</s><r>Рой находится под угрозой; приоритет обороны</r></e>
+  <e k="K" key="HCF_HiveLordDebug_TicksRemaining"><s>{0} ticks remaining</s><r>осталось {0} тиков</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Title"><s>HiveLord status and decisions</s><r>Статус и решения HiveLord</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Trigger"><s>Event trigger</s><r>Триггер события</r></e>
+  <e k="K" key="HCF_HiveLordDebug_TriggerFired"><s>Trigger conditions met; executing actions</s><r>Условия срабатывания соблюдены; выполнение действий</r></e>
+  <e k="K" key="HCF_HiveLordDebug_UnitScore"><s>Production unit score</s><r>Оценка производственного подразделения</r></e>
+  <e k="K" key="HCF_HiveLordDebug_UnitScoreRejected"><s>No unit passed production scoring</s><r>Ни одно подразделение не прошло производственную оценку</r></e>
+  <e k="K" key="HCF_HiveLordDebug_UnitSelected"><s>Production unit selected</s><r>Выбрано производственное подразделение</r></e>
+  <e k="K" key="HCF_HiveLordDebug_UnitSelection"><s>Production unit selection</s><r>Выбор производственного подразделения</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Unreachable"><s>Target position is unreachable</s><r>Target позиция недоступна</r></e>
+  <e k="K" key="HCF_HiveLordDebug_Waiting"><s>Waiting to expand</s><r>Ожидание расширения</r></e>
+  <e k="K" key="HCF_InspectTab_HiveBuilding"><s>Hive building</s><r>Здание улья</r></e>
+  <e k="K" key="HCF_InvalidHiveBuilding"><s>Hive building {0} has no valid building or terrain target.</s><r>Здание улья {0} не имеет допустимого объекта строительства или местности.</r></e>
+  <e k="K" key="HCF_Minable_Remaining"><s>Remaining:{0}</s><r>Осталось:{0}</r></e>
+  <e k="K" key="HCF_NewGroupName"><s>New group {0}</s><r>Новая группа {0}</r></e>
+  <e k="K" key="HCF_NoBuilding"><s>No building:{0}</s><r>Нет здания:{0}</r></e>
+  <e k="K" key="HCF_NoFormula"><s>No formulas yet. Create one via the Formulas page.</s><r>Формул пока нет. Создайте его на странице «Формулы».</r></e>
+  <e k="K" key="HCF_NoHivePages"><s>No available hive pages</s><r>Нет доступных страниц улья</r></e>
+  <e k="K" key="HCF_NodeLordTip"><s>Node Lord  
+This unit is a Node Lord. It commands and controls its group and serves as the group's hive. Units belonging to the group will automatically enter dormancy if they move too far away from the group's hive. A Node Lord can lead units away from the colony to other locations without causing them to enter dormancy.</s><r>Лорд узла 
+Этот отряд является Лордом узла. Он командует и контролирует свою группу и служит ее ульем. Юниты, принадлежащие группе, автоматически войдут в спячку, если они отойдут слишком далеко от улья группы. Лорд узла может уводить отряды из колонии в другие места, не заставляя их впадать в спячку.</r></e>
+  <e k="K" key="HCF_OutOfControl"><s>Out of control! This unit is attempting to break free!</s><r>Вышел из-под контроля! Этот отряд пытается вырваться на свободу!</r></e>
+  <e k="K" key="HCF_PlanAdd"><s>Add order</s><r>Добавить заказ</r></e>
+  <e k="K" key="HCF_PlanAddFormula"><s>Add custom formula</s><r>Добавить пользовательскую формулу</r></e>
+  <e k="K" key="HCF_PlanAddItem"><s>Add item</s><r>Добавить элемент</r></e>
+  <e k="K" key="HCF_PlanAddUnit"><s>Add unit</s><r>Добавить объект</r></e>
+  <e k="K" key="HCF_PlanCheckInterval"><s>Plan check interval (hours)</s><r>Плановый интервал проверки (часы)</r></e>
+  <e k="K" key="HCF_PlanDelete"><s>Delete order</s><r>Удалить заказ</r></e>
+  <e k="K" key="HCF_PlanDevCheck"><s>DEV: Check production plan</s><r>РАЗРАБОТЧИК: Проверьте производственный план.</r></e>
+  <e k="K" key="HCF_PlanMissingTarget"><s>Missing production target</s><r>Отсутствует производственная цель</r></e>
+  <e k="K" key="HCF_PlanModeForever"><s>Do forever</s><r>Делать навсегда</r></e>
+  <e k="K" key="HCF_PlanModeRepeat"><s>Do X times</s><r>Сделайте Х раз</r></e>
+  <e k="K" key="HCF_PlanModeTarget"><s>Maintain stock</s><r>Поддерживать запасы</r></e>
+  <e k="K" key="HCF_PlanNoItems"><s>No available items</s><r>Нет доступных товаров</r></e>
+  <e k="K" key="HCF_PlanNoUnits"><s>No available units</s><r>Нет доступных единиц</r></e>
+  <e k="K" key="HCF_PlanStatusComplete"><s>Complete</s><r>Полный</r></e>
+  <e k="K" key="HCF_PlanStatusForever"><s>Checks for resources every {0} hours</s><r>Проверяет наличие ресурсов каждые {0} часов.</r></e>
+  <e k="K" key="HCF_PlanStatusMissing"><s>Production target is no longer available</s><r>Цель производства больше не доступна</r></e>
+  <e k="K" key="HCF_PlanStatusRemaining"><s>{0} processes remaining</s><r>{0} оставшиеся процессы</r></e>
+  <e k="K" key="HCF_PlanStatusSuspended"><s>Suspended</s><r>Приостановленный</r></e>
+  <e k="K" key="HCF_PlanStatusTarget"><s>Current and queued: {0} / {1}</s><r>Текущие и в очереди: {0} / {1}</r></e>
+  <e k="K" key="HCF_PlanSuspend"><s>Suspend order</s><r>Приостановить заказ</r></e>
+  <e k="K" key="HCF_Prerequisites"><s>-- Prerequisites --</s><r>-- Предварительные условия --</r></e>
+  <e k="K" key="HCF_PressShortcut"><s>Press a key or mouse side button</s><r>Нажмите клавишу или боковую кнопку мыши.</r></e>
+  <e k="K" key="HCF_ProgressCancelledOnUnitDeath"><s>Due to the death of {0}, {1} has been cancelled.</s><r>В связи со смертью {0}, {1} был отменен.</r></e>
+  <e k="K" key="HCF_Promoter_CurTarget"><s>Cur target:{0}</s><r>Текущая цель:{0}</r></e>
+  <e k="K" key="HCF_ReleaseAll"><s>Release All</s><r>Выпустить все</r></e>
+  <e k="K" key="HCF_ReleaseAllDesc"><s>Release all stored units that are not downed or dormant.</s><r>Освободите все хранящиеся юниты, которые не сбиты и не находятся в спящем состоянии.</r></e>
+  <e k="K" key="HCF_ResourceText_Def"><s>Produced from: {0}</s><r>Произведено из: {0}</r></e>
+  <e k="K" key="HCF_ResourceText_Nutrition"><s>Formed from nutritious items</s><r>Состоит из питательных веществ</r></e>
+  <e k="K" key="HCF_ReturnToHive"><s>Return inside the hive</s><r>Вернитесь в улей</r></e>
+  <e k="K" key="HCF_Save"><s>Save</s><r>Сохранять</r></e>
+  <e k="K" key="HCF_SelectBase"><s>Select Base:</s><r>Выберите базу:</r></e>
+  <e k="K" key="HCF_SelectBaseFirst"><s>Please select a base unit first</s><r>Пожалуйста, сначала выберите базовый блок</r></e>
+  <e k="K" key="HCF_SelectFormulaFirst"><s>Please select a formula first</s><r>Пожалуйста, сначала выберите формулу</r></e>
+  <e k="K" key="HCF_SettingsCategory"><s>Hive Creature Framework</s><r>Улей Существа Фреймворк</r></e>
+  <e k="K" key="HCF_ShowOnlyProducible"><s>Show only producible</s><r>Показать только производимые</r></e>
+  <e k="K" key="HCF_ShowUnavailableFormulas"><s>Show unavailable formulas</s><r>Показать недоступные формулы</r></e>
+  <e k="K" key="HCF_Spawn"><s>Produce</s><r>Производить</r></e>
+  <e k="K" key="HCF_Tags"><s>--Tags--</s><r>--Теги--</r></e>
+  <e k="K" key="HCF_UngroupedUnits"><s>Ungrouped Units</s><r>Разгруппированные единицы</r></e>
+  <e k="K" key="HCF_UnitTurret_Empty"><s>Empty</s><r>Пустой</r></e>
+  <e k="K" key="HCF_UnitTurret_MeleeRequiresPawn"><s>Melee turret weapons require a Pawn host.</s><r>Турельное оружие ближнего боя требует хоста-пешки.</r></e>
+  <e k="K" key="HCF_UnitTurret_Mount"><s>Mount {0}</s><r>Маунт {0}</r></e>
+  <e k="K" key="HCF_UnitTurret_NoEmptySlot"><s>No empty turret slot</s><r>Нет пустого слота для турели</r></e>
+  <e k="K" key="HCF_UnitTurret_NoWeapon"><s>No mounted weapon</s><r>Нет установленного оружия</r></e>
+  <e k="K" key="HCF_UnitTurret_NotSupportedWeapon"><s>{0} is not a supported turret weapon.</s><r>{0} не является поддерживаемым турельным орудием.</r></e>
+  <e k="K" key="HCF_UnitTurret_StopAttack"><s>Stop attack: {0}</s><r>Остановить атаку: {0}</r></e>
+  <e k="K" key="HCF_UnitWork"><s>--Work--</s><r>--Работа--</r></e>
+  <e k="K" key="HCF_UnlockCategories"><s>--Unlock Spawn Categories--</s><r>--Разблокировать категории появления--</r></e>
+  <e k="K" key="HCF_UnlockUpgrade"><s>Available</s><r>Доступный</r></e>
+  <e k="K" key="HCF_UpgradeIsUnlocked"><s>Upgraded</s><r>Модернизированный</r></e>
+  <e k="K" key="HCF_UpgradeIsUnlocking"><s>Upgrading</s><r>Обновление</r></e>
+  <e k="K" key="HCF_WorkMode"><s>Behavior Mode: {0}</s><r>Режим поведения: {0}</r></e>
+  <e k="K" key="HCF_increaseMaintenance"><s>Maintenance:</s><r>Обслуживание:</r></e>
+  <e k="K" key="Hex"><s>Hex</s><r>Шестигранник</r></e>
+  <e k="K" key="HiveResourceWorker_Category"><s>Produced from: {0}</s><r>Произведено из: {0}</r></e>
+  <e k="K" key="HiveTabPage_Building"><s>Structures</s><r>Структуры</r></e>
+  <e k="K" key="HiveTabPage_Group"><s>Group</s><r>Группа</r></e>
+  <e k="K" key="HiveTabPage_Progress"><s>Progress</s><r>Прогресс</r></e>
+  <e k="K" key="HiveTabPage_Resource"><s>Resources</s><r>Ресурсы</r></e>
+  <e k="K" key="HiveTabPage_Spawning"><s>Production</s><r>Производство</r></e>
+  <e k="K" key="HiveTabPage_Unit"><s>Units</s><r>Единицы</r></e>
+  <e k="K" key="HiveTabPage_Upgrade"><s>Upgrades</s><r>Обновления</r></e>
+  <e k="K" key="HiveUpgradeFactor"><s>Hive Upgrades：*{0}</s><r>Улучшения улья:*{0}</r></e>
+  <e k="K" key="HiveUpgradeOffset"><s>Hive Upgrades：+{0}</s><r>Улучшения улья: +{0}</r></e>
+  <e k="K" key="ITab_HCF_HiveSystem"><s>Hive</s><r>Улей</r></e>
+  <e k="K" key="InHive"><s>- Inside the hive -</s><r>- Внутри улья -</r></e>
+  <e k="K" key="LackRequiredItems"><s>Lack of item:{0}</s><r>Отсутствие предмета:{0}</r></e>
+  <e k="K" key="LackResources"><s>Lack of resource:{0}</s><r>Недостаток ресурса:{0}</r></e>
+  <e k="K" key="Modifications"><s>Modifications:</s><r>Модификации:</r></e>
+  <e k="K" key="NoFusionResult"><s>No result</s><r>Нет результата</r></e>
+  <e k="K" key="NoModifications"><s>No modifications</s><r>Никаких модификаций</r></e>
+  <e k="K" key="NoResources"><s>No resource</s><r>Нет ресурса</r></e>
+  <e k="K" key="ProgressCancel"><s>Cancel Process</s><r>Отменить процесс</r></e>
+  <e k="K" key="ProgressDown"><s>Decrease Priority</s><r>Понизить приоритет</r></e>
+  <e k="K" key="ProgressStop"><s>Stop</s><r>Останавливаться</r></e>
+  <e k="K" key="ProgressUp"><s>Increase Priority</s><r>Увеличение приоритета</r></e>
+  <e k="K" key="QuestBookObjective_HCFFusion"><s>HCF fusion</s><r>Слияние HCF</r></e>
+  <e k="K" key="QuestBookObjective_HCFFusionTarget"><s>HCF fusion target</s><r>Мишень слияния HCF</r></e>
+  <e k="K" key="QuestBookObjective_HCFItemProduction"><s>HCF item production</s><r>Производство изделий ЛПУ</r></e>
+  <e k="K" key="QuestBookObjective_HCFItemProductionTarget"><s>HCF item production target</s><r>Цель производства изделий ЛПУ</r></e>
+  <e k="K" key="QuestBookObjective_HCFModification"><s>HCF modification</s><r>Модификация HCF</r></e>
+  <e k="K" key="QuestBookObjective_HCFModificationTarget"><s>HCF modification target</s><r>Цель модификации HCF</r></e>
+  <e k="K" key="QuestBookObjective_HCFProduction"><s>HCF unit production</s><r>Производство установки ЛПУ</r></e>
+  <e k="K" key="QuestBookObjective_HCFProductionTarget"><s>HCF unit production target</s><r>План по производству единицы ЛПУ</r></e>
+  <e k="K" key="QuestBookObjective_HCFUpgrade"><s>HCF hive upgrade</s><r>Модернизация улья HCF</r></e>
+  <e k="K" key="QuestBookObjective_HCFUpgradeTarget"><s>HCF hive upgrade target</s><r>Цель обновления улья HCF</r></e>
+  <e k="K" key="RecycleUnit"><s>Recycle {0}</s><r>Переработка {0}</r></e>
+  <e k="K" key="ReleaseUnit"><s>Release {0}</s><r>Выпуск {0}</r></e>
+  <e k="K" key="RequiredItems"><s>Required items:</s><r>Необходимые предметы:</r></e>
+  <e k="K" key="RequiredResources"><s>Required resources:</s><r>Требуемые ресурсы:</r></e>
+  <e k="K" key="SpawnUnit"><s>Produce</s><r>Производить</r></e>
+  <e k="K" key="TabUnit"><s>Unit</s><r>Единица</r></e>
+  <e k="K" key="TabUnitModification"><s>Modification</s><r>Модификация</r></e>
+  <e k="K" key="TabUnitTurret"><s>Turret</s><r>Румянец</r></e>
+  <e k="K" key="TargetGroupDontAccept"><s>The target group does not accept this unit</s><r>Целевая группа не принимает это устройство</r></e>
+  <e k="K" key="TemporaryUnitGroupTip"><s>Temporary group: units cannot return to the hive</s><r>Временная группа: юниты не могут вернуться в улей.</r></e>
+  <e k="K" key="UnitChangeFaction"><s>{0} has gone out of control: now belongs to {1}</s><r>{0} вышел из-под контроля: теперь принадлежит {1}</r></e>
+  <e k="K" key="UnitChangeFactionDesc"><s>{0} has lost control and joined {1}</s><r>{0} потерял контроль и присоединился к {1}</r></e>
+  <e k="K" key="UnitHealthPercent"><s>Total Health:</s><r>Общее здоровье:</r></e>
+  <e k="K" key="UnitIsFusingOrModifying"><s>The unit is currently fusing or being modified</s><r>В настоящее время устройство объединяется или модифицируется.</r></e>
+  <e k="K" key="UnitIsntOnGroupMap"><s>Unit isn't on the map of group</s><r>Объекта нет на карте группы</r></e>
+  <e k="K" key="UnitRewild"><s>{0} has gone feral</s><r>{0} одичал</r></e>
+  <e k="K" key="UnitRewildDesc"><s>Due to the lack of an available group or the destruction of its hive, {0} has gone feral and no longer belongs to your colony.</s><r>Из-за отсутствия доступной группы или разрушения улья {0} одичал и больше не принадлежит вашей колонии.</r></e>
+  <e k="K" key="Units"><s>Units</s><r>Единицы</r></e>
+  <e k="K" key="UnknownFusion"><s>Unknown fusion</s><r>Неизвестный синтез</r></e>
+  <e k="K" key="UnlockFusion"><s>Fusion discovered: {0}</s><r>Обнаружено слияние: {0}</r></e>
+  <e k="K" key="UnlockFusionDesc"><s>A new stable fusion recipe has been discovered: {0}</s><r>Обнаружен новый рецепт стабильного синтеза: {0}</r></e>
+  <e k="K" key="UpgradeProgress"><s>Upgrade Progress</s><r>Прогресс обновления</r></e>
+  <e k="K" key="WorkSetting"><s>Work Settings</s><r>Рабочие настройки</r></e>
+  <e k="K" key="WorkUnitPrioritizeReturnHive"><s>Work units prioritize returning to the hive:</s><r>Рабочие подразделения отдают приоритет возвращению в улей:</r></e>
+  <e k="K" key="WorkUnitPrioritizeReturnHiveTip"><s>When enabled, work-mode units return to a hive after taking damage, even if enemies are nearby.</s><r>Если эта функция включена, юниты в рабочем режиме возвращаются в улей после получения урона, даже если поблизости находятся враги.</r></e>
+</AutoTranslateCache>
