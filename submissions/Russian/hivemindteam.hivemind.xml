@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="hivemindteam.hivemind" name="Hive Mind 虫巢意志" language="Russian" version="1">
+  <e k="D" t="HediffDef" key="HM_Chaos.description"><s>The will's node is destroyed and the swarm runs wild. Insects attack anything nearby until a new node rises.</s><r>Узел воли разрушен, и рой одичал. Насекомые атакуют все, что находится поблизости, пока не поднимется новый узел.</r></e>
+  <e k="D" t="HediffDef" key="HM_Chaos.label"><s>hive chaos</s><r>хаос в улье</r></e>
+  <e k="D" t="HediffDef" key="HM_Evolution.description"><s>The swarm has evolved, adapting its chitin and instincts to the colony's needs.</s><r>Рой эволюционировал, адаптируя свой хитин и инстинкты к потребностям колонии.</r></e>
+  <e k="D" t="HediffDef" key="HM_Evolution.label"><s>swarm evolution</s><r>роевая эволюция</r></e>
+  <e k="D" t="HediffDef" key="HM_HiveMindLink.description"><s>This creature has been unified by the hive will. Unity bonuses flow through this link.</s><r>Это существо было объединено волей улья. Бонусы Unity можно получить по этой ссылке.</r></e>
+  <e k="D" t="HediffDef" key="HM_HiveMindLink.label"><s>hive will link</s><r>улей свяжет</r></e>
+  <e k="D" t="HediffDef" key="HM_HiveNode.description"><s>The hive will resides in this creature. All unified insects share its skills. The will never rests.</s><r>Улей будет находиться в этом существе. Все единые насекомые разделяют его навыки. Воля никогда не отдыхает.</r></e>
+  <e k="D" t="HediffDef" key="HM_HiveNode.label"><s>hive will node</s><r>улей будет узлом</r></e>
+  <e k="D" t="HediffDef" key="HM_Specialized.description"><s>This insect has specialized into a dedicated role for the swarm.</s><r>Это насекомое специализируется на выполнении специальной роли в стае.</r></e>
+  <e k="D" t="HediffDef" key="HM_Specialized.label"><s>specialized</s><r>специализированный</r></e>
+  <e k="D" t="HediffDef" key="HM_Specializing.description"><s>This insect is developing a specialized role in the swarm.</s><r>Это насекомое начинает играть особую роль в стае.</r></e>
+  <e k="D" t="HediffDef" key="HM_Specializing.label"><s>specializing</s><r>специализирующийся</r></e>
+  <e k="D" t="ThoughtDef" key="HM_WillPresence.stages.0.description"><s>The hive will quietly watches over this place.</s><r>Улей будет тихо охранять это место.</r></e>
+  <e k="D" t="ThoughtDef" key="HM_WillPresence.stages.0.label"><s>guarded calm</s><r>охраняемое спокойствие</r></e>
+  <e k="D" t="ThoughtDef" key="HM_WillPresence.stages.1.description"><s>At night, the restless chittering of the swarm can be heard.</s><r>Ночью слышно беспокойное стрекотание роя.</r></e>
+  <e k="D" t="ThoughtDef" key="HM_WillPresence.stages.1.label"><s>swarm unease</s><r>беспокойство</r></e>
+  <e k="K" key="HM_Btn_ResetDefaults"><s>Reset to defaults</s><r>Сбросить настройки по умолчанию</r></e>
+  <e k="K" key="HM_Btn_WakeTest"><s>Force-wake the hive will</s><r>Принудительное пробуждение улей будет</r></e>
+  <e k="K" key="HM_Chaos_Inspect"><s>CHAOS — {0} min remaining</s><r>ХАОС — осталось {0} мин.</r></e>
+  <e k="K" key="HM_Confirm_Unified_Body"><s>Every insect will share one identical interest, overwriting existing ones.</s><r>У каждого насекомого будет один и тот же интерес, перезаписывающий уже существующие.</r></e>
+  <e k="K" key="HM_Confirm_Unified_Cancel"><s>Cancel</s><r>Отмена</r></e>
+  <e k="K" key="HM_Confirm_Unified_Ok"><s>Unify</s><r>Унифицировать</r></e>
+  <e k="K" key="HM_Confirm_Unified_Title"><s>Unify all interests?</s><r>Объединить все интересы?</r></e>
+  <e k="K" key="HM_Confirm_Wake_Body"><s>The hidden will stirs even below the insect threshold, and will wither while the swarm is understaffed.</s><r>Скрытая воля шевелится даже ниже порога насекомых и завянет, пока рой недоукомплектован.</r></e>
+  <e k="K" key="HM_Confirm_Wake_Cancel"><s>Cancel</s><r>Отмена</r></e>
+  <e k="K" key="HM_Confirm_Wake_Ok"><s>Wake</s><r>Будить</r></e>
+  <e k="K" key="HM_Confirm_Wake_Title"><s>Force-wake the hive will?</s><r>Принудительно разбудить улей получится?</r></e>
+  <e k="K" key="HM_DesignateNode"><s>Designate as hive will node</s><r>Укажите, что улей будет узлом</r></e>
+  <e k="K" key="HM_Evolve_Body"><s>The swarm has evolved! {0} skill point(s) are ready. Each point adds +1 to a shared skill for the whole brood.</s><r>Рой эволюционировал! {0} очков навыков готовы. Каждое очко добавляет +1 к общему навыку для всего выводка.</r></e>
+  <e k="K" key="HM_Evolve_ButcheryYield"><s>Butchery yield</s><r>Убойный выход</r></e>
+  <e k="K" key="HM_Evolve_CarryCap"><s>Carrying capacity</s><r>Грузоподъемность</r></e>
+  <e k="K" key="HM_Evolve_ComfyTemp"><s>Comfortable temperature</s><r>Комфортная температура</r></e>
+  <e k="K" key="HM_Evolve_Immunity"><s>Immunity speed</s><r>Скорость иммунитета</r></e>
+  <e k="K" key="HM_Evolve_IncomingDamage"><s>Damage resistance</s><r>Устойчивость к повреждениям</r></e>
+  <e k="K" key="HM_Evolve_MeleeDamage"><s>Melee damage</s><r>Урон в ближнем бою</r></e>
+  <e k="K" key="HM_Evolve_MeleeDodge"><s>Melee dodge</s><r>Уклонение в ближнем бою</r></e>
+  <e k="K" key="HM_Evolve_MiningYield"><s>Mining yield</s><r>Доходность майнинга</r></e>
+  <e k="K" key="HM_Evolve_MoveSpeed"><s>Move speed</s><r>Скорость перемещения</r></e>
+  <e k="K" key="HM_Evolve_Open"><s>Allocate points</s><r>Распределить баллы</r></e>
+  <e k="K" key="HM_Evolve_PainShock"><s>Pain threshold</s><r>Болевой порог</r></e>
+  <e k="K" key="HM_Evolve_PlantYield"><s>Plant yield</s><r>Урожайность растений</r></e>
+  <e k="K" key="HM_Evolve_Points"><s>Evolution points: {0}</s><r>Очки эволюции: {0}</r></e>
+  <e k="K" key="HM_Evolve_Progress"><s>Evolution progress: {0} / {1}</s><r>Прогресс эволюции: {0} / {1}</r></e>
+  <e k="K" key="HM_Evolve_PsychicResist"><s>Psychic resistance</s><r>Психическое сопротивление</r></e>
+  <e k="K" key="HM_Evolve_RangedAcc"><s>Ranged accuracy</s><r>Точность дальнего боя</r></e>
+  <e k="K" key="HM_Evolve_Skills"><s>Skills (IWE only)</s><r>Навыки (только IWE)</r></e>
+  <e k="K" key="HM_Evolve_Title"><s>Swarm Evolution</s><r>Рой Эволюция</r></e>
+  <e k="K" key="HM_Evolve_ToxicResist"><s>Toxin resistance</s><r>Устойчивость к токсинам</r></e>
+  <e k="K" key="HM_Evolve_Upgrades"><s>Evolution upgrades</s><r>Эволюционные обновления</r></e>
+  <e k="K" key="HM_Evolve_WorkSpeed"><s>Work speed</s><r>Скорость работы</r></e>
+  <e k="K" key="HM_Focus_Burns"><s>scorched brood, thickening heat tolerance</s><r>опаленный выводок, утолщение жароустойчивости</r></e>
+  <e k="K" key="HM_Focus_Calm"><s>no urgent threat, growing in balance</s><r>нет неотложной угрозы, растет в равновесии</r></e>
+  <e k="K" key="HM_Focus_Deaths"><s>grieving {0} lost brood, hardening melee and carapace</s><r>скорбь {0} о потерянном выводке, усиление ближнего боя и панциря</r></e>
+  <e k="K" key="HM_Focus_Infections"><s>festering wounds, sharpening immunity</s><r>нагноившиеся раны, обострение иммунитета</r></e>
+  <e k="K" key="HM_Focus_Label"><s>Will focus:</s><r>Остановимся на:</r></e>
+  <e k="K" key="HM_Focus_Mining"><s>the brood digs, honing mining growth</s><r>выводок роет, оттачивая рост добычи</r></e>
+  <e k="K" key="HM_Focus_Plant"><s>the brood tends the fields, honing plant growth</s><r>выводок ухаживает за полями, оттачивая рост растений</r></e>
+  <e k="K" key="HM_Focus_Toxic"><s>toxin in the brood, purging it with resistance</s><r>токсин в выводке, очищая его от резистентности</r></e>
+  <e k="K" key="HM_Focus_Work"><s>the brood labors, honing work efficiency</s><r>выводковый труд, оттачивание эффективности работы</r></e>
+  <e k="K" key="HM_Letter_AwakenA_Body"><s>The swarm is the mind; the mind is the swarm. Your brood now thinks as one.</s><r>Рой — это разум; ум — это рой. Теперь ваш выводок думает как один.</r></e>
+  <e k="K" key="HM_Letter_AwakenA_Title"><s>The hive will awakens</s><r>Улей просыпается</r></e>
+  <e k="K" key="HM_Letter_AwakenB_Body"><s>{0} tamed insects now whisper together. A hidden will has taken root in your brood.</s><r>{0} прирученные насекомые теперь перешептываются. Скрытая воля укоренилась в вашем выводке.</r></e>
+  <e k="K" key="HM_Letter_AwakenB_Title"><s>The hidden will stirs</s><r>Скрытая воля шевелится</r></e>
+  <e k="K" key="HM_Letter_Chaos_Body"><s>Its will-body is destroyed. The swarm runs wild, gnawing at everything, until a new node rises from the biggest.</s><r>Его тело воли разрушено. Рой дичает, грызя все, пока из самого большого не поднимется новый узел.</r></e>
+  <e k="K" key="HM_Letter_Chaos_Title"><s>The node has fallen</s><r>Узел упал</r></e>
+  <e k="K" key="HM_Letter_Fade_Body"><s>Only {0} insects remain. The hidden will sinks into dormancy until the brood recovers.</s><r>Осталось всего {0} насекомых. Скрытая воля погружается в спячку, пока выводок не выздоровеет.</r></e>
+  <e k="K" key="HM_Letter_Fade_Title"><s>The will grows faint</s><r>Воля слабеет</r></e>
+  <e k="K" key="HM_Letter_Milestone_Body"><s>The swarm's unity has reached {0}. It is whole, and it is watching.</s><r>Единство роя достигло {0}. Оно целое, и оно наблюдает.</r></e>
+  <e k="K" key="HM_Letter_Milestone_Title"><s>Unity complete</s><r>Единство завершено</r></e>
+  <e k="K" key="HM_Letter_NewNode_Body"><s>{0} now bears the hive will, inheriting the brood's shared skills.</s><r>{0} теперь несет волю улья, унаследовав общие навыки выводка.</r></e>
+  <e k="K" key="HM_Letter_NewNode_Title"><s>A new node rises</s><r>Новый узел поднимается</r></e>
+  <e k="K" key="HM_Letter_Return_Body"><s>With {0} insects again, the hidden will awakens from its dormancy.</s><r>Снова {0} насекомых скрытая воля пробуждается от спячки.</r></e>
+  <e k="K" key="HM_Letter_Return_Title"><s>The will returns</s><r>Воля возвращается</r></e>
+  <e k="K" key="HM_Msg_Defend"><s>The will dispatches the swarm to the rescue: {0} insects.</s><r>Воля отправляет на помощь рой: {0} насекомых.</r></e>
+  <e k="K" key="HM_Msg_DesignateNotActive"><s>The hive will is dormant. Awaken it first before designating a new node.</s><r>Улей находится в состоянии покоя. Сначала разбудите его, прежде чем назначать новый узел.</r></e>
+  <e k="K" key="HM_Msg_Jelly"><s>The swarm secreted {0} insect jelly.</s><r>Рой выделил {0} желе из насекомых.</r></e>
+  <e k="K" key="HM_Msg_Specialized"><s>An insect has specialized into: {0}.</s><r>Насекомое специализировалось на: {0}.</r></e>
+  <e k="K" key="HM_Msg_UndoSpec"><s>An insect has shed its specialization.</s><r>Насекомое утратило свою специализацию.</r></e>
+  <e k="K" key="HM_Node_Active"><s>active</s><r>активный</r></e>
+  <e k="K" key="HM_Node_Chaos"><s>chaos</s><r>хаос</r></e>
+  <e k="K" key="HM_Node_Cooldown"><s>dormant</s><r>дремлющий</r></e>
+  <e k="K" key="HM_Node_Disposition"><s>Will disposition: {0}</s><r>Расположение воли: {0}</r></e>
+  <e k="K" key="HM_Node_Inactive"><s>dormant</s><r>дремлющий</r></e>
+  <e k="K" key="HM_Node_Jelly"><s>Jelly accumulation: {0}%</s><r>Накопление желе: {0}%</r></e>
+  <e k="K" key="HM_Sec_Behavior"><s>Will &amp; Behavior</s><r>Воля и поведение</r></e>
+  <e k="K" key="HM_Sec_Evolve"><s>Swarm Evolution</s><r>Рой Эволюция</r></e>
+  <e k="K" key="HM_Sec_Growth"><s>Growth &amp; Yield</s><r>Рост и доходность</r></e>
+  <e k="K" key="HM_Sec_Notify"><s>Notifications</s><r>Уведомления</r></e>
+  <e k="K" key="HM_Sec_Perf"><s>Performance</s><r>Производительность</r></e>
+  <e k="K" key="HM_Sec_Unity"><s>Swarm Unity</s><r>Роевое единство</r></e>
+  <e k="K" key="HM_Sec_Will"><s>Will Abilities</s><r>Способности Воли</r></e>
+  <e k="K" key="HM_Set_AlertEnabled"><s>Red alerts</s><r>Красные оповещения</r></e>
+  <e k="K" key="HM_Set_AutoCombatEnabled"><s>Auto-combat</s><r>Автобой</r></e>
+  <e k="K" key="HM_Set_CombatMaxCount"><s>Combat swarm size</s><r>Размер боевого роя</r></e>
+  <e k="K" key="HM_Set_CombatSpecDecay"><s>Combat specialization decay</s><r>Распад боевой специализации</r></e>
+  <e k="K" key="HM_Set_DormancyBedRange"><s>Bed search range</s><r>Диапазон поиска кровати</r></e>
+  <e k="K" key="HM_Set_DormancyProbeCount"><s>Probed insects per scan</s><r>Зондированные насекомые за одно сканирование</r></e>
+  <e k="K" key="HM_Set_DormantDelay"><s>Dormancy delay</s><r>Задержка покоя</r></e>
+  <e k="K" key="HM_Set_DormantEnabled"><s>Dormancy</s><r>Покой</r></e>
+  <e k="K" key="HM_Set_EvolutionEnabled"><s>Evolution mode</s><r>Режим эволюции</r></e>
+  <e k="K" key="HM_Set_EvolveRate"><s>Evolution rate</s><r>Скорость эволюции</r></e>
+  <e k="K" key="HM_Set_EvolveThreshold"><s>Progress per skill point</s><r>Прогресс за очко навыка</r></e>
+  <e k="K" key="HM_Set_GuardWeakEnabled"><s>Guard the vulnerable</s><r>Берегите уязвимых</r></e>
+  <e k="K" key="HM_Set_Hauling"><s>Auto-haul (no IWE)</s><r>Автоперевозка (без IWE)</r></e>
+  <e k="K" key="HM_Set_HiddenPawnEnabled"><s>Hidden will (Mode B)</s><r>Скрытая воля (режим B)</r></e>
+  <e k="K" key="HM_Set_IgnoreWorkSettings"><s>Ignore player work settings</s><r>Игнорировать настройки работы плеера</r></e>
+  <e k="K" key="HM_Set_Jelly"><s>Insect jelly production</s><r>Производство желе из насекомых</r></e>
+  <e k="K" key="HM_Set_JellyPerBatch"><s>Jelly per batch</s><r>Желе за партию</r></e>
+  <e k="K" key="HM_Set_JellyRate"><s>Jelly rate</s><r>Скорость желе</r></e>
+  <e k="K" key="HM_Set_MaxEvolveLevel"><s>Max evolution level</s><r>Максимальный уровень эволюции</r></e>
+  <e k="K" key="HM_Set_MixedSkillOffset"><s>Mixed offset range</s><r>Смешанный диапазон смещения</r></e>
+  <e k="K" key="HM_Set_ModeAAutoEvolve"><s>Auto-evolve in pure mode</s><r>Автоэволюция в чистом режиме</r></e>
+  <e k="K" key="HM_Set_ModeBManualEvolve"><s>Mode B manual evolution</s><r>Ручная эволюция режима B</r></e>
+  <e k="K" key="HM_Set_NoTamenessDecay"><s>Swarm keeps tameness</s><r>Рой сохраняет прирученность</r></e>
+  <e k="K" key="HM_Set_NotifyEnabled"><s>Routine messages</s><r>Обычные сообщения</r></e>
+  <e k="K" key="HM_Set_NotifyInterval"><s>Messages per day</s><r>Сообщений в день</r></e>
+  <e k="K" key="HM_Set_QueenStayHome"><s>Queen guards the nest</s><r>Королева охраняет гнездо</r></e>
+  <e k="K" key="HM_Set_Research"><s>Passive research</s><r>Пассивное исследование</r></e>
+  <e k="K" key="HM_Set_ResearchRate"><s>Research rate</s><r>Скорость исследования</r></e>
+  <e k="K" key="HM_Set_SacrificeEnabled"><s>Sacrificial rescue</s><r>Жертвенное спасение</r></e>
+  <e k="K" key="HM_Set_SacrificeThreshold"><s>Rescue health threshold</s><r>Порог здоровья спасения</r></e>
+  <e k="K" key="HM_Set_ScanInterval"><s>Scan interval</s><r>Интервал сканирования</r></e>
+  <e k="K" key="HM_Set_Specialization"><s>Work specialization</s><r>Специализация работы</r></e>
+  <e k="K" key="HM_Set_SpecializationHours"><s>Hours to specialize</s><r>Часы на специализацию</r></e>
+  <e k="K" key="HM_Set_SymbiosisEnabled"><s>Symbiosis</s><r>Симбиоз</r></e>
+  <e k="K" key="HM_Set_ThresholdLow"><s>Awakening threshold</s><r>Порог пробуждения</r></e>
+  <e k="K" key="HM_Set_UnityBonusEnabled"><s>Unity bonuses</s><r>Бонусы Единства</r></e>
+  <e k="K" key="HM_Set_UnityBonusMult"><s>Unity bonus strength</s><r>Бонусная сила Единства</r></e>
+  <e k="K" key="HM_Set_UnityCap"><s>Unity cap</s><r>Крышка единства</r></e>
+  <e k="K" key="HM_Set_UnityPerInsect"><s>Unity per insect</s><r>Единство на насекомое</r></e>
+  <e k="K" key="HM_Set_WorkMode"><s>Interest mode</s><r>Режим интересов</r></e>
+  <e k="K" key="HM_SettingsTitle"><s>HiveMind</s><r>HiveMind</r></e>
+  <e k="K" key="HM_Spec_Combat"><s>warrior</s><r>воин</r></e>
+  <e k="K" key="HM_Spec_Construction"><s>builder</s><r>строитель</r></e>
+  <e k="K" key="HM_Spec_Cooking"><s>cook</s><r>готовить</r></e>
+  <e k="K" key="HM_Spec_Crafting"><s>crafter</s><r>ремесленник</r></e>
+  <e k="K" key="HM_Spec_Hauling"><s>hauler</s><r>перевозчик</r></e>
+  <e k="K" key="HM_Spec_Medical"><s>medic</s><r>медик</r></e>
+  <e k="K" key="HM_Spec_Mining"><s>miner</s><r>шахтер</r></e>
+  <e k="K" key="HM_Spec_Plant"><s>planter</s><r>плантатор</r></e>
+  <e k="K" key="HM_Spec_Research"><s>researcher</s><r>исследователь</r></e>
+  <e k="K" key="HM_Spec_Shooting"><s>sharpshooter</s><r>снайпер</r></e>
+  <e k="K" key="HM_Tip_AlertEnabled"><s>Red alerts for events such as the threshold being breached or an attack.</s><r>Красные оповещения о таких событиях, как нарушение порога или атака.</r></e>
+  <e k="K" key="HM_Tip_AutoCombatEnabled"><s>When a colonist is locked in melee with the enemy, the will dispatches the swarm to defend. Off: they only defend themselves.</s><r>Когда колонист вступил в рукопашную с врагом, воля отправляет рой на защиту. Выключено: они только защищаются.</r></e>
+  <e k="K" key="HM_Tip_CombatMaxCount"><s>Maximum insects sent to one engagement; the rest hold the nest. Higher is more aggressive.</s><r>Максимальное количество насекомых, отправляемых в один бой; остальные держат гнездо. Чем выше, тем агрессивнее.</r></e>
+  <e k="K" key="HM_Tip_CombatSpecDecay"><s>How much combat/shooting specialization progress is forgotten per game day once fighting stops. Default 1.5 = fully forgotten in about 0.67 days.</s><r>Сколько прогресса в боевой/стрелковой специализации забывается за игровой день после прекращения боевых действий. По умолчанию 1,5 = полностью забыто примерно за 0,67 дня.</r></e>
+  <e k="K" key="HM_Tip_DormancyBedRange"><s>Max distance to search for a bed to curl into. Beyond this range the insect rests on the spot.</s><r>Максимальное расстояние для поиска кровати, на которой можно свернуться калачиком. За пределами этого диапазона насекомое остается на месте.</r></e>
+  <e k="K" key="HM_Tip_DormancyProbeCount"><s>How many sleeping insects are checked for work per scan. Higher = faster response to work, lower = saves performance.</s><r>Сколько спящих насекомых проверяется на работу за одно сканирование. Выше = более быстрая реакция на работу, ниже = экономия производительности.</r></e>
+  <e k="K" key="HM_Tip_DormantDelay"><s>How long an insect idles before sinking into dormancy. Too short causes thrashing that costs more than it saves.</s><r>Как долго насекомое бездействует, прежде чем погрузиться в спячку. Слишком короткий приводит к потрясениям, которые обходятся дороже, чем экономят.</r></e>
+  <e k="K" key="HM_Tip_DormantEnabled"><s>Idle insects curl into dormancy, ceasing wandering and pathfinding. They rouse when threatened or called to work.</s><r>Праздные насекомые впадают в спячку, прекращая бродить и искать пути. Они просыпаются, когда им угрожают или зовут на работу.</r></e>
+  <e k="K" key="HM_Tip_EvolutionEnabled"><s>Master switch for the swarm's evolution. Off stops all progress and skill-point gain.</s><r>Главный переключатель эволюции роя. Выключение останавливает весь прогресс и получение очков навыков.</r></e>
+  <e k="K" key="HM_Tip_EvolveRate"><s>How much progress each insect contributes per day. 10 insects at rate 1 = 10 progress a day.</s><r>Какой прогресс вносит каждое насекомое за день. 10 насекомых со скоростью 1 = 10 прогрессируют в день.</r></e>
+  <e k="K" key="HM_Tip_EvolveThreshold"><s>How much progress fills one skill point (default 100).</s><r>Сколько прогресса заполняет одно очко навыка (по умолчанию 100).</r></e>
+  <e k="K" key="HM_Tip_GuardWeakEnabled"><s>During combat, insects bodyguard children, the wounded and the pregnant.</s><r>Во время боя насекомые охраняют детей, раненых и беременных.</r></e>
+  <e k="K" key="HM_Tip_Hauling"><s>Without IWE, idle insects haul scattered items into stockpiles of their own accord.</s><r>Без IWE праздные насекомые сами растаскивают разбросанные предметы по складам.</r></e>
+  <e k="K" key="HM_Tip_HiddenPawnEnabled"><s>In non-pure-insect colonies the hidden will awakens once tamed insects reach the threshold. Off restores vanilla behavior.</s><r>В колониях, не состоящих из чистых насекомых, скрытая воля пробуждается, как только прирученные насекомые достигают порога. Выкл. восстанавливает ванильное поведение.</r></e>
+  <e k="K" key="HM_Tip_IgnoreWorkSettings"><s>When on, the will dispatches work without checking player work priorities (even disabled work types get assigned). When off, it respects your settings and won't wake an insect for a work type you've disabled.</s><r>Когда эта функция включена, рассылки работают без проверки приоритетов работы игрока (назначаются даже отключенные типы работы). Когда он выключен, он учитывает ваши настройки и не будет будить насекомых для отключенного вами типа работы.</r></e>
+  <e k="K" key="HM_Tip_Jelly"><s>The swarm passively secretes insect jelly by count — edible and sellable.</s><r>Рой пассивно выделяет желе из насекомых по количеству — съедобное и продаваемое.</r></e>
+  <e k="K" key="HM_Tip_JellyPerBatch"><s>Jelly stacks per batch = insect count × this value. Default 4.0 means 10 insects produce 40 jelly per batch.</s><r>Количество желе на партию = количество насекомых × это значение. Значение по умолчанию 4.0 означает, что 10 насекомых производят 40 желе за партию.</r></e>
+  <e k="K" key="HM_Tip_JellyRate"><s>How much jelly progress each insect contributes per day. 10 insects at 0.5 = about 20 days per batch.</s><r>Какой желеобразный прогресс вносит каждое насекомое в день. 10 насекомых по 0,5 = около 20 дней на партию.</r></e>
+  <e k="K" key="HM_Tip_MaxEvolveLevel"><s>Maximum level per evolution upgrade. Default 99 (effectively unlimited).</s><r>Максимальный уровень за обновление эволюции. По умолчанию 99 (фактически неограниченно).</r></e>
+  <e k="K" key="HM_Tip_MixedSkillOffset"><s>In mixed mode, each insect's skills are randomly offset ±N levels from the shared baseline.</s><r>В смешанном режиме навыки каждого насекомого случайным образом смещены на ±N уровней от общего базового уровня.</r></e>
+  <e k="K" key="HM_Tip_ModeAAutoEvolve"><s>When on, the will spends evolution points on its own in pure-insect mode; otherwise the player allocates manually.</s><r>Когда включено, воля тратит очки эволюции самостоятельно в режиме чистого насекомого; в противном случае игрок распределяет вручную.</r></e>
+  <e k="K" key="HM_Tip_ModeBManualEvolve"><s>In Mode B, pop a letter when evolution points are gained so the player can allocate them manually. Off by default = the will auto-evolves.</s><r>В режиме B выталкивайте букву, когда набираются очки эволюции, чтобы игрок мог распределить их вручную. По умолчанию выключено = воля развивается автоматически.</r></e>
+  <e k="K" key="HM_Tip_NoTamenessDecay"><s>While the will is active, unified insects never lose tameness to wildness (they will not go feral). Other training still decays as usual.</s><r>Пока воля активна, единые насекомые никогда не перейдут из приручения в дикость (они не одичают). Остальные тренировки по-прежнему затухают, как обычно.</r></e>
+  <e k="K" key="HM_Tip_NotifyEnabled"><s>Master switch for the will's routine whispers.</s><r>Главный переключатель для рутинного шепота воли.</r></e>
+  <e k="K" key="HM_Tip_NotifyInterval"><s>Maximum routine messages per game day. 0 allows alerts only.</s><r>Максимум рутинных сообщений за игровой день. 0 разрешает только оповещения.</r></e>
+  <e k="K" key="HM_Tip_QueenStayHome"><s>The queen never joins combat.</s><r>Королева никогда не вступает в бой.</r></e>
+  <e k="K" key="HM_Tip_Research"><s>The hive will automatically advances the current research project by insect count — no research bench needed.</s><r>Улей будет автоматически продвигать текущий исследовательский проект по количеству насекомых — исследовательский стенд не требуется.</r></e>
+  <e k="K" key="HM_Tip_ResearchRate"><s>Research points each insect contributes per day (vanilla work units). 10 insects × 300 ≈ 24 progress a day.</s><r>Очки исследования вносит каждое насекомое в день (ванильные рабочие единицы). 10 насекомых × 300 ≈ 24 прогресса в день.</r></e>
+  <e k="K" key="HM_Tip_SacrificeEnabled"><s>When a colonist is mauled in melee, nearby insects lunge at the attacker to save them.</s><r>Когда колониста ранят в рукопашной, ближайшие насекомые бросаются на нападавшего, чтобы спасти его.</r></e>
+  <e k="K" key="HM_Tip_SacrificeThreshold"><s>Insects rescue a colonist once their health drops below this while in melee. 0.8 = rescue at the first wound.</s><r>Насекомые спасают колониста, когда его здоровье падает ниже этого значения в ближнем бою. 0,8 = спасение при первом ранении.</r></e>
+  <e k="K" key="HM_Tip_ScanInterval"><s>How often the map scans (threat detection / dormancy / chaos). Lower = faster response, higher = better performance.</s><r>Как часто сканируется карта (обнаружение угроз/спячка/хаос). Ниже = более быстрый отклик, выше = лучшая производительность.</r></e>
+  <e k="K" key="HM_Tip_Specialization"><s>An insect that clings to one task long enough specializes into it: a strong buff to its role, a weakening elsewhere.</s><r>Насекомое, которое достаточно долго цепляется за одну задачу, специализируется на ней: сильное усиление ее роли и ослабление в других.</r></e>
+  <e k="K" key="HM_Tip_SpecializationHours"><s>How many in-game hours an insect must keep a task (or fight/shoot) before specializing. Default 48 = 2 days.</s><r>Сколько игровых часов насекомое должно выполнять задание (или сражаться/стрелять), прежде чем специализироваться. По умолчанию 48 = 2 дня.</r></e>
+  <e k="K" key="HM_Tip_SymbiosisEnabled"><s>Well-fed, healthy insects grant colonists a mild mood lift; a starving swarm sours the air.</s><r>Сытые, здоровые насекомые дарят колонистам легкое улучшение настроения; голодный рой портит воздух.</r></e>
+  <e k="K" key="HM_Tip_ThresholdLow"><s>The hidden will awakens once tamed insects reach this count (default 10). Below threshold − 3 it falls dormant.</s><r>Скрытая воля пробуждается, как только прирученные насекомые достигают этого значения (по умолчанию 10). Ниже порога – 3 он впадает в спячку.</r></e>
+  <e k="K" key="HM_Tip_UnityBonusEnabled"><s>When off, unity is shown but no attributes are changed.</s><r>Если выключено, отображается единица, но атрибуты не изменяются.</r></e>
+  <e k="K" key="HM_Tip_UnityBonusMult"><s>Master dial for the swarm's blessings. 2.0 doubles every unity bonus.</s><r>Мастер-набор благословений роя. 2.0 удваивает каждый бонус единства.</r></e>
+  <e k="K" key="HM_Tip_UnityCap"><s>The higher the unity, the stronger the swarm's blessings. May exceed 100 to extend late-game growth.</s><r>Чем выше единство, тем сильнее благословения роя. Может превышать 100, чтобы увеличить рост в конце игры.</r></e>
+  <e k="K" key="HM_Tip_UnityPerInsect"><s>Unity is drawn from insect count: insects × this value. More brood, higher unity; fewer, lower.</s><r>Единица получается из количества насекомых: насекомых × это значение. Больше выводка, выше единство; меньше, ниже.</r></e>
+  <e k="K" key="HM_Tip_WorkMode"><s>Pure random keeps IWE's original random interests. Mixed leans each insect's interest toward the swarm majority. Unified gives every insect the same interest (confirmation required).</s><r>Чистая случайность сохраняет первоначальные случайные интересы IWE. При смешанном режиме интересы каждого насекомого склоняются к большинству стаи. Unified дает каждому насекомому одинаковый интерес (требуется подтверждение).</r></e>
+  <e k="K" key="HM_Unity_Inspect"><s>Hive unity: {0}</s><r>Единство улья: {0}</r></e>
+  <e k="K" key="HM_Unity_TipString"><s>Hive unity {0} · {1} insects bound to the will</s><r>Единство улья {0} · {1} насекомые, подчиняющиеся воле</r></e>
+  <e k="K" key="HM_WorkMode_Mixed"><s>Mixed</s><r>Смешанный</r></e>
+  <e k="K" key="HM_WorkMode_Random"><s>Pure random</s><r>Чистый рандом</r></e>
+  <e k="K" key="HM_WorkMode_Unified"><s>Pure unified</s><r>Чистый унифицированный</r></e>
+</AutoTranslateCache>
