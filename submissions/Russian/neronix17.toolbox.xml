@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="neronix17.toolbox" name="Tabula Rasa" language="Russian" version="1">
+  <e k="D" t="ApparelLayerDef" key="MiddleExtra.label"><s>middle accessory</s><r>средний аксессуар</r></e>
+  <e k="D" t="ApparelLayerDef" key="OnSkinExtra.label"><s>skin accessory</s><r>аксессуар для кожи</r></e>
+  <e k="D" t="ApparelLayerDef" key="OverheadExtra.label"><s>head accessory</s><r>головной аксессуар</r></e>
+  <e k="D" t="ApparelLayerDef" key="ShellExtra.label"><s>outer accessory</s><r>внешний аксессуар</r></e>
+  <e k="D" t="HediffDef" key="TabulaRasa_RemovableHediff.description"><s>You should never actually see this info.</s><r>Вы никогда не должны видеть эту информацию.</r></e>
+  <e k="D" t="HediffDef" key="TabulaRasa_RemovableHediff.label"><s>self removing hediff</s><r>самоудаляющийся хедифф</r></e>
+  <e k="D" t="JobDef" key="TabulaRasa_GatherSlotItem.reportString"><s>equipping TargetA.</s><r>оснащение TargetA.</r></e>
+  <e k="D" t="JobDef" key="TabulaRasa_TakeFromProducer.reportString"><s>taking items.</s><r>брать предметы.</r></e>
+  <e k="D" t="JobDef" key="TabulaRasa_UseEffectApplyHediff.reportString"><s>applying TargetA.</s><r>применяя TargetA.</r></e>
+  <e k="D" t="JobDef" key="TabulaRasa_UseRecall.reportString"><s>using Recall.</s><r>с помощью отзыва.</r></e>
+  <e k="D" t="JobDef" key="TabulaRasa_UseTeleporter.reportString"><s>using Teleporter.</s><r>с помощью Телепортера.</r></e>
+  <e k="D" t="ScenPartDef" key="TabulaRasa_ReinforcementJoins.label"><s>reinforcement joins</s><r>армирование присоединяется</r></e>
+  <e k="D" t="ThoughtDef" key="TabulaRasa_NullThought.stages.0.description"><s>If you can see this, you fuckin broke something. Well Done.</s><r>Если ты это видишь, значит, ты что-то сломал. Отличная работа.</r></e>
+  <e k="D" t="ThoughtDef" key="TabulaRasa_NullThought.stages.0.label"><s>null thought</s><r>пустая мысль</r></e>
+  <e k="K" key="DeleteAutoBillTip"><s>Cancels current production recipe.</s><r>Отменяет текущий рецепт производства.</r></e>
+  <e k="K" key="O21MachinelikeHibernate"><s>Hibernate {0} Here</s><r>Спящий режим {0} здесь</r></e>
+  <e k="K" key="O21MachinelikeHibernateFail"><s>Cannot Hibernate (unknown reason)</s><r>Невозможно перейти в спящий режим (неизвестная причина)</r></e>
+  <e k="K" key="O21MachinelikeHibernateFailNoPower"><s>Cannot Hibernate (no power) </s><r>Невозможно перейти в спящий режим (нет питания) </r></e>
+  <e k="K" key="O21MachinelikeHibernateFailReserveOrReach"><s>Cannot Hibernate (can't reach) </s><r>Невозможно перейти в спящий режим (невозможно связаться) </r></e>
+  <e k="K" key="O21_ChangeGraphic"><s>Set Graphic</s><r>Установить графику</r></e>
+  <e k="K" key="O21_ChangeGraphicDesc"><s>Provides a full list of all available alternative graphics to choose from.</s><r>Предоставляет полный список всех доступных альтернативных изображений на выбор.</r></e>
+  <e k="K" key="O21_CycleGraphic"><s>Cycle Graphic</s><r>Циклическая графика</r></e>
+  <e k="K" key="O21_CycleGraphicDesc"><s>Cycles through the available graphics for this building in order.</s><r>Перебирает доступную графику для этого здания по порядку.</r></e>
+  <e k="K" key="RepeatAutoBillTip"><s>Repeats current production recipe.</s><r>Повторяет текущий рецепт производства.</r></e>
+  <e k="K" key="SetAutoBill"><s>Set Production</s><r>Производство комплектов</r></e>
+  <e k="K" key="ShieldGenColorDescription"><s>Sets the colour of the shield.</s><r>Устанавливает цвет щита.</r></e>
+  <e k="K" key="ShieldGenColorLabel"><s>Set Colour</s><r>Установить цвет</r></e>
+  <e k="K" key="ShieldGenColorTitle"><s>Color Setting</s><r>Настройка цвета</r></e>
+  <e k="K" key="ShieldGenHexColorCodeIsIllFormed"><s>Invalid Hex Code Input</s><r>Неверный ввод шестнадцатеричного кода</r></e>
+  <e k="K" key="ShieldGenHexLabel"><s>Hex</s><r>Шестигранник</r></e>
+  <e k="K" key="ShieldGenOffsetXDescription"><s>Set the shields east/west offset.</s><r>Установите смещение щитов на восток/запад.</r></e>
+  <e k="K" key="ShieldGenOffsetXLabel"><s>Set Offset X</s><r>Установить смещение X</r></e>
+  <e k="K" key="ShieldGenOffsetXTitle"><s>X Offset</s><r>Смещение по оси X</r></e>
+  <e k="K" key="ShieldGenOffsetYDescription"><s>Set the shields north/south offset.</s><r>Установите смещение щитов на север/юг.</r></e>
+  <e k="K" key="ShieldGenOffsetYLabel"><s>Set Offset Y</s><r>Установить смещение Y</r></e>
+  <e k="K" key="ShieldGenOffsetYTitle"><s>Y Offset</s><r>Смещение по оси Y</r></e>
+  <e k="K" key="ShieldGenRadiusDescription"><s>Set the shields current radius.</s><r>Установите текущий радиус щитов.</r></e>
+  <e k="K" key="ShieldGenRadiusLabel"><s>Set Radius</s><r>Установить радиус</r></e>
+  <e k="K" key="ShieldGenRadiusTitle"><s>Radius</s><r>Радиус</r></e>
+  <e k="K" key="ShieldGenToggleVisibility"><s>Toggle Visibility</s><r>Переключить видимость</r></e>
+  <e k="K" key="ShieldGenToggleVisibilityDesc"><s>Changes whether or not the shield is fully visible when not selected.</s><r>Изменяет, будет ли щит виден полностью, если он не выбран.</r></e>
+  <e k="K" key="TabAutoProducer"><s>Production</s><r>Производство</r></e>
+  <e k="K" key="TabMining"><s>Mining</s><r>Горное дело</r></e>
+  <e k="K" key="TabulaRasa.DisabledByCooldown"><s>Disabled by cooldown, can use again in {0}.</s><r>Отключено по времени восстановления, можно использовать снова через {0}.</r></e>
+  <e k="K" key="TabulaRasa.FactionDoesNotAcceptGifts"><s>Faction does not accept gifts.</s><r>Фракция не принимает подарки.</r></e>
+  <e k="K" key="TabulaRasa.FactionDoesNotAcceptGiftsGoodwill"><s>Faction goodwill must be between {0} and {1}to accept gifts.</s><r>Чтобы принимать подарки, добрая воля фракции должна быть между {0} и {1}.</r></e>
+  <e k="K" key="TabulaRasa.ITab_Hologram"><s>Hologram</s><r>Голограмма</r></e>
+  <e k="K" key="TabulaRasa.ITab_HologramSelect"><s>Select hologram...</s><r>Выбрать голограмму...</r></e>
+  <e k="K" key="TabulaRasa.MaxPawns"><s>Max Pawns</s><r>Макс Пешки</r></e>
+  <e k="K" key="TabulaRasa.RecallDesc"><s>Teleports the pawn equipped with this item to the selected destination.</s><r>Телепортирует пешку, оснащенную этим предметом, в выбранное место назначения.</r></e>
+  <e k="K" key="TabulaRasa.RecallDest"><s>Recall: {0}</s><r>Напомним: {0}</r></e>
+  <e k="K" key="TabulaRasa.RecallLabel"><s>No Destination Set</s><r>Не установлен пункт назначения</r></e>
+  <e k="K" key="TabulaRasa.SubCatDesc"><s>Selecting a subcategory will narrow down the buildable options to only those within the subcategory.</s><r>Выбор подкатегории сузит возможные варианты сборки только до тех, которые находятся в подкатегории.</r></e>
+  <e k="K" key="TabulaRasa.SubCatLabel"><s>Subcategory...</s><r>Подкатегория...</r></e>
+  <e k="K" key="TabulaRasa_LetterLabel_PawnKindJoins"><s>Pawn joins: {PAWN_nameDef}</s><r>Присоединение пешки: {PAWN_nameDef}</r></e>
+  <e k="K" key="TabulaRasa_LetterText_PawnKindJoins"><s>A {PAWN_title} named {PAWN_nameDef} has arrived as scheduled to join the colony.
+
+You can choose to send {PAWN_objective} away. However, your colonists will be disturbed by your decision.</s><r>{PAWN_title} по имени {PAWN_nameDef} прибыл, как и планировалось, чтобы присоединиться к колонии. 
+
+Вы можете отправить {PAWN_objective} прочь. Однако ваши колонисты будут обеспокоены вашим решением.</r></e>
+</AutoTranslateCache>
