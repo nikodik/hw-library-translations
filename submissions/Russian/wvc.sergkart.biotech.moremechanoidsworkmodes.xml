@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="wvc.sergkart.biotech.moremechanoidsworkmodes" name="WVC - Work Modes" language="Russian" version="1">
+  <e k="D" t="ConceptDef" key="WVC_MMWM_BehaviorsGuide.description"><s>The mod adds some unique behaviors worth knowing about.
+
+-
+Checking for enemies on the map - if the enemy is reachable and is not in the zone in which the mechanoid operates, then False is returned and the mechanoid will continue to work normally.
+
+What does it mean:
+If you enable the &quot;Work if safe&quot; mode and limit the working area, the mechanoid will ignore the intrusion until the enemy is in the mechanoid's working area.
+
+If you have enabled the &quot;Find and destroy&quot; mode and locked the mechanoids in a small but open area, then the mechanoid will not pursue enemies, but will try to fight with the enemy that is in the field of view of the mechanoid. This can lead to too smart AI kiting your mechs.
+
+-
+Smart charge - In some modes, mechanoids will try to maintain close to the maximum charge. This is calculated according to the formula (Maximum charge level - 5), that is, if you set the charge to 100%, the mechanoids will be charged up to 95%, and so on. However, unlike vanilla charging, mechanoids will be interrupted if necessary.
+
+-
+Shutdown mode - some work modes disable mechanoids for optimization when they are not doing anything. In work modes, the cooldown is much longer than in combat.
+
+-
+Mechanoid shutdown zone - Mechanoids that have finished all their business and are going to sleep will go to the nearest such zone, if it is in an accessible area for them.
+
+-
+Smart escort - Mechanoids can be assigned an escort purpose. This way the mechanoids will be able to protect and accompany different pawns. This feature only works for the home map.</s><r>Мод добавляет некоторые уникальные модели поведения, о которых стоит знать.
+
+-
+Проверка врагов на карте - если враг доступен и не находится в зоне, в которой работает механоид, то возвращается False и механоид продолжит работать нормально.
+
+Что это значит:
+Если вы включаете режим «Работать в безопасности» и ограничьте рабочую зону, механоид будет игнорировать вторжение до тех пор, пока противник не окажется в рабочей зоне механоида.
+
+Если вы включили режим «Найти и уничтожить» и заперли механоидов на небольшой, но открытой территории, то механоид не будет преследовать врагов, а будет пытаться сражаться с противником, находящимся в поле зрения механоида. Это может привести к тому, что ИИ будет слишком умно управлять вашими мехами.
+
+-
+Умный заряд. В некоторых режимах механоиды будут пытаться поддерживать заряд, близкий к максимальному. Рассчитывается по формуле (Максимальный уровень заряда - 5), то есть если выставить заряд 100%, то механоиды будут заряжаться до 95% и так далее. Однако, в отличие от стандартной зарядки, работа механоидов при необходимости будет прервана.
+
+-
+Режим выключения — некоторые режимы работы отключают механоидов для оптимизации, когда они ничего не делают. В рабочих режимах перезарядка намного дольше, чем в боевом.
+
+-
+Зона отключения механоидов - Механоиды, закончившие все свои дела и отправляющиеся спать, перейдут в ближайшую такую ​​зону, если она находится в доступной для них зоне.
+
+-
+Умное сопровождение - Механоидам можно назначить цель сопровождения. Таким образом, механоиды смогут защищать и сопровождать разных пешек. Эта функция работает только для домашней карты.</r></e>
+  <e k="D" t="ConceptDef" key="WVC_MMWM_BehaviorsGuide.helpText"><s>The mod adds some unique behaviors worth knowing about.
+
+-
+Checking for enemies on the map - if the enemy is reachable and is not in the zone in which the mechanoid operates, then False is returned and the mechanoid will continue to work normally.
+
+What does it mean:
+If you enable the &quot;Work if safe&quot; mode and limit the working area, the mechanoid will ignore the intrusion until the enemy is in the mechanoid's working area.
+
+If you have enabled the &quot;Find and destroy&quot; mode and locked the mechanoids in a small but open area, then the mechanoid will not pursue enemies, but will try to fight with the enemy that is in the field of view of the mechanoid. This can lead to too smart AI kiting your mechs.
+
+-
+Smart charge - In some modes, mechanoids will try to maintain close to the maximum charge. This is calculated according to the formula (Maximum charge level - 5), that is, if you set the charge to 100%, the mechanoids will be charged up to 95%, and so on. However, unlike vanilla charging, mechanoids will be interrupted if necessary.
+
+-
+Shutdown mode - some work modes disable mechanoids for optimization when they are not doing anything. In work modes, the cooldown is much longer than in combat.
+
+-
+Mechanoid shutdown zone - Mechanoids that have finished all their business and are going to sleep will go to a such zone, if it is in an accessible area for them.
+
+-
+Smart escort - Mechanoids can be assigned an escort purpose. This way the mechanoids will be able to protect and accompany different pawns. This feature only works for the home map.</s><r>Мод добавляет некоторые уникальные модели поведения, о которых стоит знать.
+
+-
+Проверка врагов на карте - если враг доступен и не находится в зоне, в которой работает механоид, то возвращается False и механоид продолжит работать нормально.
+
+Что это значит:
+Если вы включаете режим «Работать в безопасности» и ограничьте рабочую зону, механоид будет игнорировать вторжение до тех пор, пока противник не окажется в рабочей зоне механоида.
+
+Если вы включили режим «Найти и уничтожить» и заперли механоидов на небольшой, но открытой территории, то механоид не будет преследовать врагов, а будет пытаться сражаться с противником, находящимся в поле зрения механоида. Это может привести к тому, что ИИ будет слишком умно управлять вашими мехами.
+
+-
+Умный заряд. В некоторых режимах механоиды будут пытаться поддерживать заряд, близкий к максимальному. Рассчитывается по формуле (Максимальный уровень заряда - 5), то есть если выставить заряд 100%, то механоиды будут заряжаться до 95% и так далее. Однако, в отличие от стандартной зарядки, работа механоидов при необходимости будет прервана.
+
+-
+Режим выключения — некоторые режимы работы отключают механоидов для оптимизации, когда они ничего не делают. В рабочих режимах перезарядка значительно дольше, чем в бою.
+
+-
+Зона отключения механоидов - Механоиды, закончившие все свои дела и отправляющиеся спать, перейдут в такую ​​зону, если она находится в доступной для них зоне.
+
+-
+Умное сопровождение - Механоидам можно назначить цель сопровождения. Таким образом, механоиды смогут защищать и сопровождать разных пешек. Эта функция работает только для домашней карты.</r></e>
+  <e k="D" t="ConceptDef" key="WVC_MMWM_BehaviorsGuide.label"><s>More Mechanoids Work Modes - Behaviors</s><r>Дополнительные режимы работы механоидов — поведение</r></e>
+  <e k="D" t="MainButtonDef" key="WVC_MechsWork.description"><s>Choose which mech does what kinds of work, and in what order.</s><r>Выбирайте, какой механизм выполняет какую работу и в каком порядке.</r></e>
+  <e k="D" t="MainButtonDef" key="WVC_MechsWork.label"><s>mechs work</s><r>механизмы работают</r></e>
+  <e k="D" t="MechWorkModeDef" key="WVC_Ambush.description"><s>The mechanoid shutdown and waits for the enemy to approach it, then attacks.
+
+&lt;color=#f5ffa2&gt;Type:&lt;/color&gt; Ambush
+&lt;color=#f5ffa2&gt;Enemy searching:&lt;/color&gt; No
+&lt;color=#f5ffa2&gt;Shutdown:&lt;/color&gt; Yes
+&lt;color=#f5ffa2&gt;Smart charging:&lt;/color&gt; No</s><r>Механоид отключается и ждет, пока враг приблизится к нему, а затем атакует.
+
+&lt;color=#f5ffa2&gt;Тип:&lt;/color&gt; Засада
+&lt;color=#f5ffa2&gt;Поиск врага:&lt;/color&gt; Нет
+&lt;color=#f5ffa2&gt;Выключение:&lt;/color&gt; Да
+&lt;color=#f5ffa2&gt;Интеллектуальная зарядка:&lt;/color&gt; Нет</r></e>
+  <e k="D" t="MechWorkModeDef" key="WVC_Ambush.label"><s>ambush</s><r>засада</r></e>
+  <e k="D" t="MechWorkModeDef" key="WVC_DefendYourself.description"><s>Mechanoids, regardless of type, will attack enemies that get too close. In case of damage, they will try to retreat to a safe zone if possible.
+
+&lt;color=#f5ffa2&gt;Type:&lt;/color&gt; Safe
+&lt;color=#f5ffa2&gt;Enemy searching:&lt;/color&gt; No
+&lt;color=#f5ffa2&gt;Shutdown:&lt;/color&gt; If damaged
+&lt;color=#f5ffa2&gt;Smart charging:&lt;/color&gt; No</s><r>Механоиды, независимо от типа, будут атаковать врагов, подошедших слишком близко. В случае повреждения они попытаются отступить в безопасную зону, если это возможно.
+
+&lt;color=#f5ffa2&gt;Тип:&lt;/color&gt; Безопасный
+&lt;color=#f5ffa2&gt;Поиск противника:&lt;/color&gt; Нет
+&lt;color=#f5ffa2&gt;Отключение:&lt;/color&gt; Если поврежден
+&lt;color=#f5ffa2&gt;Умная зарядка:&lt;/color&gt; Нет</r></e>
+  <e k="D" t="MechWorkModeDef" key="WVC_DefendYourself.label"><s>safe yourself</s><r>обезопасить себя</r></e>
+  <e k="D" t="MechWorkModeDef" key="WVC_EscaortAndRecharge.description"><s>The mechanoid, regardless of its type, will accompany the overseer and, if necessary, go to charge.
+
+&lt;color=#f5ffa2&gt;Type:&lt;/color&gt; Combat
+&lt;color=#f5ffa2&gt;Enemy searching:&lt;/color&gt; No
+&lt;color=#f5ffa2&gt;Shutdown:&lt;/color&gt; No
+&lt;color=#f5ffa2&gt;Smart charging:&lt;/color&gt; No</s><r>Механоид, независимо от его типа, будет сопровождать надзирателя и при необходимости идти в атаку.
+
+&lt;color=#f5ffa2&gt;Тип:&lt;/color&gt; Бой
+&lt;color=#f5ffa2&gt;Поиск врага:&lt;/color&gt; Нет
+&lt;color=#f5ffa2&gt;Отключение:&lt;/color&gt; Нет
+&lt;color=#f5ffa2&gt;Умная зарядка:&lt;/color&gt; Нет</r></e>
+  <e k="D" t="MechWorkModeDef" key="WVC_EscaortAndRecharge.label"><s>escort and recharge</s><r>сопровождение и перезарядка</r></e>
+  <e k="D" t="MechWorkModeDef" key="WVC_EscortIfEnemyOnMap.description"><s>Mechanoids, regardless of type, will accompany the overseer, but only if there is an enemy on the map. When there is no enemy, mechanoids shutdown.
+
+&lt;color=#f5ffa2&gt;Type:&lt;/color&gt; Combat
+&lt;color=#f5ffa2&gt;Enemy searching:&lt;/color&gt; Yes
+&lt;color=#f5ffa2&gt;Shutdown:&lt;/color&gt; Yes
+&lt;color=#f5ffa2&gt;Smart charging:&lt;/color&gt; Yes</s><r>Механоиды, независимо от типа, будут сопровождать надсмотрщика, но только в том случае, если на карте есть враг. Когда врага нет, механоиды выключаются.
+
+&lt;color=#f5ffa2&gt;Тип:&lt;/color&gt; Бой
+&lt;color=#f5ffa2&gt;Поиск врага:&lt;/color&gt; Да
+&lt;color=#f5ffa2&gt;Выключение:&lt;/color&gt; Да
+&lt;color=#f5ffa2&gt;Умный зарядка:&lt;/color&gt; Да</r></e>
+  <e k="D" t="MechWorkModeDef" key="WVC_EscortIfEnemyOnMap.label"><s>escort if enemy</s><r>сопровождать, если враг</r></e>
+  <e k="D" t="MechWorkModeDef" key="WVC_FindAndDestroy.description"><s>Mechanoids, regardless of their type, will look for enemies and try to destroy them.
+
+&lt;color=#f5ffa2&gt;Type:&lt;/color&gt; Combat
+&lt;color=#f5ffa2&gt;Enemy searching:&lt;/color&gt; Yes
+&lt;color=#f5ffa2&gt;Shutdown:&lt;/color&gt; No
+&lt;color=#f5ffa2&gt;Smart charging:&lt;/color&gt; No</s><r>Механоиды, независимо от их типа, будут искать врагов и пытаться их уничтожить.
+
+&lt;color=#f5ffa2&gt;Тип:&lt;/color&gt; Бой
+&lt;color=#f5ffa2&gt;Поиск врагов:&lt;/color&gt; Да
+&lt;color=#f5ffa2&gt;Выключение:&lt;/color&gt; Нет
+&lt;color=#f5ffa2&gt;Умная зарядка:&lt;/color&gt; Нет</r></e>
+  <e k="D" t="MechWorkModeDef" key="WVC_FindAndDestroy.label"><s>find and destroy</s><r>найти и уничтожить</r></e>
+  <e k="D" t="MechWorkModeDef" key="WVC_SafeWorkAndRecharge.description"><s>Mechanoids will work, but only as long as there are no enemies on the map. In case of danger, they will try to get to the &lt;color=#f5ffa2&gt;safe spot&lt;/color&gt;.
+
+&lt;color=#f5ffa2&gt;Type:&lt;/color&gt; Safe, Work
+&lt;color=#f5ffa2&gt;Enemy searching:&lt;/color&gt; Yes
+&lt;color=#f5ffa2&gt;Shutdown:&lt;/color&gt; Yes
+&lt;color=#f5ffa2&gt;Smart charging:&lt;/color&gt; Yes</s><r>Механоиды будут работать, но только до тех пор, пока на карте нет врагов. В случае опасности они попытаются добраться до &lt;color=#f5ffa2&gt;безопасного места&lt;/color&gt;.
+
+&lt;color=#f5ffa2&gt;Тип:&lt;/color&gt; Безопасный, Работа
+&lt;color=#f5ffa2&gt;Поиск врага:&lt;/color&gt; Да
+&lt;color=#f5ffa2&gt;Отключение:&lt;/color&gt; Да
+&lt;color=#f5ffa2&gt;Умная зарядка:&lt;/color&gt; Да</r></e>
+  <e k="D" t="MechWorkModeDef" key="WVC_SafeWorkAndRecharge.label"><s>work if safe</s><r>работай, если безопасно</r></e>
+  <e k="D" t="MechWorkModeDef" key="WVC_WaitEnemy.description"><s>The mechanoid will shutdown and wait for the enemy, and when it appears, it will wake up and head towards the target.
+
+&lt;color=#f5ffa2&gt;Type:&lt;/color&gt; Combat
+&lt;color=#f5ffa2&gt;Enemy searching:&lt;/color&gt; Yes
+&lt;color=#f5ffa2&gt;Shutdown:&lt;/color&gt; Yes
+&lt;color=#f5ffa2&gt;Smart charging:&lt;/color&gt; No</s><r>Механоид отключится и будет ждать врага, а когда он появится, он проснется и направится к цели.
+
+&lt;color=#f5ffa2&gt;Тип:&lt;/color&gt; Бой
+&lt;color=#f5ffa2&gt;Поиск врага:&lt;/color&gt; Да
+&lt;color=#f5ffa2&gt;Выключение:&lt;/color&gt; Да
+&lt;color=#f5ffa2&gt;Интеллектуальная зарядка:&lt;/color&gt; Нет</r></e>
+  <e k="D" t="MechWorkModeDef" key="WVC_WaitEnemy.label"><s>wait enemy</s><r>подожди, враг</r></e>
+  <e k="D" t="MechWorkModeDef" key="WVC_WorkAndRecharge.description"><s>Work autonomously according to mechanoid type. If the mechanoid cannot work or it has done all the work it shuts down.
+
+&lt;color=#f5ffa2&gt;Type:&lt;/color&gt; Work
+&lt;color=#f5ffa2&gt;Enemy searching:&lt;/color&gt; No
+&lt;color=#f5ffa2&gt;Shutdown:&lt;/color&gt; Yes
+&lt;color=#f5ffa2&gt;Smart charging:&lt;/color&gt; Yes</s><r>Работают автономно по типу механоида. Если механоид не может работать или выполнил всю работу, он отключается.
+
+&lt;color=#f5ffa2&gt;Тип:&lt;/color&gt; Работа
+&lt;color=#f5ffa2&gt;Поиск врага:&lt;/color&gt; Нет
+&lt;color=#f5ffa2&gt;Выключение:&lt;/color&gt; Да
+&lt;color=#f5ffa2&gt;Умная зарядка:&lt;/color&gt; Да</r></e>
+  <e k="D" t="MechWorkModeDef" key="WVC_WorkAndRecharge.label"><s>work and recharge</s><r>работай и заряжайся</r></e>
+  <e k="D" t="MechWorkModeDef" key="WVC_WorkAndWaitEnemy.description"><s>Mechanoids, depending on the type, will work, and when an enemy appears, they will drop everything and go to destroy him. If they don't have a job, they'll just shutdown.
+
+&lt;color=#f5ffa2&gt;Type:&lt;/color&gt; Combat
+&lt;color=#f5ffa2&gt;Enemy searching:&lt;/color&gt; Yes
+&lt;color=#f5ffa2&gt;Shutdown:&lt;/color&gt; Yes
+&lt;color=#f5ffa2&gt;Smart charging:&lt;/color&gt; Yes</s><r>Механоиды, в зависимости от типа, будут работать, а при появлении врага бросят все и пойдут его уничтожать. Если у них нет работы, они просто отключатся.
+
+&lt;color=#f5ffa2&gt;Тип:&lt;/color&gt; Бой
+&lt;color=#f5ffa2&gt;Поиск врага:&lt;/color&gt; Да
+&lt;color=#f5ffa2&gt;Выключение:&lt;/color&gt; Да
+&lt;color=#f5ffa2&gt;Умная зарядка:&lt;/color&gt; Да</r></e>
+  <e k="D" t="MechWorkModeDef" key="WVC_WorkAndWaitEnemy.label"><s>work and wait</s><r>работай и жди</r></e>
+  <e k="D" t="MechWorkModeDef" key="WVC_WorkRechargeEscort.description"><s>The mechanoid will accompany the overseer if it does not have a job, and will also be charged if necessary.
+
+&lt;color=#f5ffa2&gt;Type:&lt;/color&gt; Combat
+&lt;color=#f5ffa2&gt;Enemy searching:&lt;/color&gt; No
+&lt;color=#f5ffa2&gt;Shutdown:&lt;/color&gt; No
+&lt;color=#f5ffa2&gt;Smart charging:&lt;/color&gt; No</s><r>Механоид будет сопровождать надзирателя, если у него нет работы, и при необходимости ему также будет предъявлено обвинение.
+
+&lt;color=#f5ffa2&gt;Тип:&lt;/color&gt; Бой
+&lt;color=#f5ffa2&gt;Поиск врага:&lt;/color&gt; Нет
+&lt;color=#f5ffa2&gt;Отключение:&lt;/color&gt; Нет
+&lt;color=#f5ffa2&gt;Умная зарядка:&lt;/color&gt; Нет</r></e>
+  <e k="D" t="MechWorkModeDef" key="WVC_WorkRechargeEscort.label"><s>work, recharge and escort</s><r>работа, подзарядка и сопровождение</r></e>
+  <e k="D" t="RoomRoleDef" key="WVC_MechHangar.label"><s>mechanoid hangar</s><r>механоидный ангар</r></e>
+  <e k="K" key="WVC_Label_Ambush"><s>Ambush</s><r>Засада</r></e>
+  <e k="K" key="WVC_Label_BonusModeLabelSetting"><s>Bonus</s><r>Бонус</r></e>
+  <e k="K" key="WVC_Label_DefendYourself"><s>Defend yourself</s><r>Защити себя</r></e>
+  <e k="K" key="WVC_Label_EscaortAndRecharge"><s>Escort and recharge</s><r>Сопровождение и подзарядка</r></e>
+  <e k="K" key="WVC_Label_EscortIfDraftedOrDowned"><s>Escort if drafted or downed</s><r>Сопровождение, если его призвали или сбили</r></e>
+  <e k="K" key="WVC_Label_EscortIfEnemyOnMap"><s>Escort if enemy</s><r>Сопровождать, если враг</r></e>
+  <e k="K" key="WVC_Label_EscortIfEnemyWorkAndRecharge"><s>Escort if enemy, work and recharge</s><r>Сопровождайте врага, работайте и перезаряжайтесь</r></e>
+  <e k="K" key="WVC_Label_FindAndDestroy"><s>Find and destroy</s><r>Найти и уничтожить</r></e>
+  <e k="K" key="WVC_Label_HiveMindResearching"><s>Hive mind researching</s><r>Исследование коллективного разума</r></e>
+  <e k="K" key="WVC_Label_MainModeLabelSetting"><s>Main</s><r>Основной</r></e>
+  <e k="K" key="WVC_Label_RechargeAndShutdown"><s>Recharge and shutdown</s><r>Перезарядка и выключение</r></e>
+  <e k="K" key="WVC_Label_SafeWorkAndRecharge"><s>Work if safe</s><r>Работайте, если безопасно</r></e>
+  <e k="K" key="WVC_Label_ScavenZoneCells"><s>Scavenge zone min required cells: {0}</s><r>Минимальное необходимое количество ячеек зоны очистки: {0}</r></e>
+  <e k="K" key="WVC_Label_Scavenging"><s>Scavenging</s><r>Уборка мусора</r></e>
+  <e k="K" key="WVC_Label_WaitEnemy"><s>Wait enemy</s><r>Подожди, враг</r></e>
+  <e k="K" key="WVC_Label_WorkAndRecharge"><s>Work and recharge</s><r>Работайте и заряжайтесь</r></e>
+  <e k="K" key="WVC_Label_WorkAndWaitEnemy"><s>Work and wait</s><r>Работай и жди</r></e>
+  <e k="K" key="WVC_Label_WorkModeMechanicsLabelSetting"><s>Mechanics</s><r>Механика</r></e>
+  <e k="K" key="WVC_Label_WorkRechargeEscort"><s>Work, recharge and escort</s><r>Работа, подзарядка и сопровождение</r></e>
+  <e k="K" key="WVC_Label_enableDormantMode"><s>Dormant mode</s><r>Спящий режим</r></e>
+  <e k="K" key="WVC_Label_enableEnemySearching"><s>Enable enemy searching</s><r>Включить поиск врагов</r></e>
+  <e k="K" key="WVC_Label_enableMechsWorkTab"><s>Enable mechs work tab</s><r>Включить вкладку «Работа мехов»</r></e>
+  <e k="K" key="WVC_Label_enableOpportunisticChargers"><s>Opportunistic chargers</s><r>Оппортунистические зарядные устройства</r></e>
+  <e k="K" key="WVC_Label_enableShutdownForAllMechanoids"><s>Idle optimization for vanilla modes</s><r>Оптимизация простоя для ванильных режимов</r></e>
+  <e k="K" key="WVC_Label_enableShutdownSearching"><s>Enable mechanoid shutdown zones</s><r>Включить зоны отключения механоида</r></e>
+  <e k="K" key="WVC_Label_enableSmartChargingForAllMechanoids"><s>Smart charging for vanilla modes</s><r>Умная зарядка для ванильных режимов</r></e>
+  <e k="K" key="WVC_Label_enableSmartEscort"><s>Smart escort</s><r>Умный эскорт</r></e>
+  <e k="K" key="WVC_Label_enable_GoToShutdownRoomJob"><s>Enable mechanoid hangar rooms</s><r>Включить ангарные комнаты механоидов</r></e>
+  <e k="K" key="WVC_Label_hideMechsWorkTab"><s>Hide mechs work tab</s><r>Скрыть вкладку работы мехов</r></e>
+  <e k="K" key="WVC_Label_mechBandwithCostInDormantMode"><s>Dormant mode bandwidth cost factor x{0}%</s><r>Коэффициент стоимости полосы пропускания в спящем режиме x{0}%</r></e>
+  <e k="K" key="WVC_Label_shutdownModeZonesOrSpots"><s>Shutdown mode: Zones or Spots</s><r>Режим выключения: Зоны или Точки</r></e>
+  <e k="K" key="WVC_Label_useCustomShutdownBehavior"><s>Use custom shutdown behavior</s><r>Использовать пользовательское поведение при завершении работы</r></e>
+  <e k="K" key="WVC_MMWM_Settings"><s>Work Modes</s><r>Режимы работы</r></e>
+  <e k="K" key="WVC_MechanoidScavengeZone"><s>Mechanoid scavenge zone</s><r>Зона добычи механоидов</r></e>
+  <e k="K" key="WVC_MechanoidScavengeZoneDesc"><s>In the &quot;Scavenging&quot; work mode, mechanoids will look for useful resources in this zone.</s><r>В режиме работы «Мусорщица» механоиды будут искать в этой зоне полезные ресурсы.</r></e>
+  <e k="K" key="WVC_MechanoidScavengeZone_CellsCount"><s>Cells: {0} | Minimum allowed: {1}</s><r>Ячейки: {0} | Минимально допустимый: {1}</r></e>
+  <e k="K" key="WVC_MechanoidShutdownZone"><s>Mechanoid shutdown zone</s><r>Зона отключения механоида</r></e>
+  <e k="K" key="WVC_MechanoidShutdownZoneDesc"><s>Mechanoids will return here before shutting down.</s><r>Механоиды вернутся сюда перед тем, как выключиться.</r></e>
+  <e k="K" key="WVC_ShutdownZone_AllowAmbush"><s>Ambush type</s><r>Тип засады</r></e>
+  <e k="K" key="WVC_ShutdownZone_AllowCombatants"><s>Combat type</s><r>Тип боя</r></e>
+  <e k="K" key="WVC_ShutdownZone_AllowSafe"><s>Safe type</s><r>Тип сейфа</r></e>
+  <e k="K" key="WVC_ShutdownZone_AllowWorkers"><s>Work type</s><r>Тип работы</r></e>
+  <e k="K" key="WVC_ShutdownZone_BasicDesc"><s>Responsible for whether mechanoids with this type of work will be able to shutdown here.</s><r>Отвечает за то, смогут ли здесь отключаться механоиды с таким типом работы.</r></e>
+  <e k="K" key="WVC_ToolTip_BonusSetting"><s>Bonus mode. It is disabled by default. Enabling is compatible with saves.</s><r>Бонусный режим. По умолчанию он отключен. Включение совместимо с сохранениями.</r></e>
+  <e k="K" key="WVC_ToolTip_Setting"><s>Before disabling, switch all mechanoid modes to vanilla. A restart is required to apply the settings.</s><r>Перед отключением переключите все режимы механоида на ванильный. Для применения настроек требуется перезагрузка.</r></e>
+  <e k="K" key="WVC_ToolTip_VanillaModeOptimizationWarning"><s>Does not affect combat mechanoids, as their idle has been replaced with a simulated patrol.</s><r>Не влияет на боевых механоидов, так как их холостой ход заменен на имитацию патрулирования.</r></e>
+  <e k="K" key="WVC_ToolTip_enableDormantMode"><s>If enabled, then when the mechanoid is in shutdown mode it does not consume bandwidth.
+
+In case of performance problems, it is recommended to disable it.
+
+Restart required!</s><r>Если включено, то когда механоид находится в режиме выключения, он не потребляет пропускную способность.
+
+В случае проблем с производительностью рекомендуется отключить его.
+
+Требуется перезагрузка!</r></e>
+  <e k="K" key="WVC_ToolTip_enableEnemySearching"><s>If enabled, in safe modes, mechanoids will check the map for enemies.</s><r>Если включено, в безопасных режимах механоиды будут проверять карту на наличие врагов.</r></e>
+  <e k="K" key="WVC_ToolTip_enableMechsWorkTab"><s>If enabled, adds an additional tab that allows you to change the work priority of mechanoids.
+
+Restart required!</s><r>Если включено, добавляет дополнительную вкладку, позволяющую изменить приоритет работы механоидов.
+
+Требуется перезагрузка!</r></e>
+  <e k="K" key="WVC_ToolTip_enableOpportunisticChargers"><s>If enabled, mechs heading for smart charging will track other mechs whose energy is below the group threshold and, if any, will interrupt smart charging, immediately heading to the shutdown spot, yielding the charger.</s><r>Если эта функция включена, механизмы, направляющиеся на интеллектуальную зарядку, будут отслеживать другие механизмы, чья энергия ниже группового порога, и, если таковые имеются, прерывают интеллектуальную зарядку, немедленно направляясь к месту отключения, уступая зарядное устройство.</r></e>
+  <e k="K" key="WVC_ToolTip_enableSearchingWarning"><s>If you don't understand what this option does, leave it enabled.</s><r>Если вы не понимаете, что делает эта опция, оставьте ее включенной.</r></e>
+  <e k="K" key="WVC_ToolTip_enableShutdownForAllMechanoids"><s>If enabled, idle optimization will also affect vanilla modes.</s><r>Если этот параметр включен, оптимизация простоя также повлияет на ванильные режимы.</r></e>
+  <e k="K" key="WVC_ToolTip_enableShutdownSearching"><s>If enabled, mechanoids will search for a mechanoid shutdown zone before shutdown.</s><r>Если эта опция включена, механоиды перед выключением будут искать зону отключения механоидов.</r></e>
+  <e k="K" key="WVC_ToolTip_enableSmartChargingForAllMechanoids"><s>If enabled, then the mechanoids will go to charge when they are not busy with anything, and not only when the charge runs out.</s><r>Если включено, то механоиды будут идти на зарядку тогда, когда они ничем не заняты, а не только тогда, когда кончится заряд.</r></e>
+  <e k="K" key="WVC_ToolTip_enableSmartEscort"><s>If enabled, it allows you to select an escort target for mechanoids.
+
+Restart required!</s><r>Если этот параметр включен, он позволяет выбрать цель сопровождения для механоидов.
+
+Требуется перезагрузка!</r></e>
+  <e k="K" key="WVC_ToolTip_enable_GoToShutdownRoomJob"><s>If enabled, all mechanoid chargers will create a new room type &quot;Mechanoid Hangar&quot;. Mechanoids will sleep there if there are no alternatives in the form of zones.
+
+Recommended when playing through gravships (Odyssey DLC), since the zones are reset when the ship flies.
+
+(Beta) A special beacon is planned that will allow for fine-tuning similar to that with zones.
+
+Restart required!</s><r>Если этот параметр включен, все зарядные устройства механоидов создадут новый тип комнаты «Ангар механоидов». Механоиды будут спать там, если нет альтернатив в виде зон.
+
+Рекомендуется при игре через гравшипы (DLC «Одиссея»), так как зоны сбрасываются при полете корабля.
+
+(Бета) Планируется специальный маяк, который позволит проводить тонкую настройку, аналогичную той, что с зоны.
+
+Требуется перезагрузка!</r></e>
+  <e k="K" key="WVC_ToolTip_hideMechsWorkTab"><s>If enabled, the priorities tab will be moved to the mechanoid gizmos.</s><r>Если включено, вкладка приоритетов будет перемещена в механоидные штуковины.</r></e>
+  <e k="K" key="WVC_ToolTip_shutdownModeZonesOrSpots"><s>If enabled, zones will be used. Alternatively, spots. It is recommended to enable it.
+
+This option is for advanced users. If you don't know what spots are, then leave it enabled.
+
+Restart required!</s><r>Если включено, зоны будут использоваться. Как вариант, пятна. Рекомендуется включить его.
+
+Эта опция предназначена для опытных пользователей. Если вы не знаете, что такое споты, то оставьте его включенным.
+
+Требуется перезагрузка!</r></e>
+  <e k="K" key="WVC_ToolTip_useCustomShutdownBehavior"><s>Vanilla shutdown is too stupid, but reliable. If you encounter bugs related to mechanoid shutdown, disable this option.</s><r>Ванильное отключение — это слишком глупо, но надежно. Если вы столкнулись с ошибками, связанными с выключением механоида, отключите эту опцию.</r></e>
+  <e k="K" key="WVC_WM_Label_enableAutoRepairByDefault"><s>Auto-repair on by default</s><r>Автоматическое восстановление включено по умолчанию</r></e>
+  <e k="K" key="WVC_WM_ShutdownGroup"><s>shutdown</s><r>неисправность</r></e>
+  <e k="K" key="WVC_WM_ToolTip_enableAutoRepairByDefault"><s>After spawning, automatically switches the mechanoid's auto-repair to true.</s><r>После появления автоматически переключает автовосстановление механоида на true.</r></e>
+  <e k="K" key="WVC_WorkModes_AllowShutdownDesc"><s>Allows you to disable or enable shutdown for a specific mech.</s><r>Позволяет отключить или включить выключение определенного механизма.</r></e>
+  <e k="K" key="WVC_WorkModes_AllowShutdownLabel"><s>Allow shutdown</s><r>Разрешить выключение</r></e>
+  <e k="K" key="WVC_WorkModes_AssignToPawnEscortAssigned"><s>{0} assigned to escort {1}.</s><r>{0} назначен сопровождать {1}.</r></e>
+  <e k="K" key="WVC_WorkModes_AssignToPawnEscortDesc"><s>{0} assigned escort {1}
+
+Allows you to specify to the mechanoid what colonist it will escort.
+
+{0} cannot follow anyone other than an overseer in a caravan or on non-home maps.</s><r>{0} назначенный эскорт {1}
+
+Позволяет указать механоиду, какого колониста он будет сопровождать. 
+
+{0} не может следовать ни за кем, кроме надзирателя, в караване или на картах, отличных от дома.</r></e>
+  <e k="K" key="WVC_WorkModes_AssignToPawnEscortLabel"><s>Assign to escort</s><r>Назначить на сопровождение</r></e>
+  <e k="K" key="WVC_WorkModes_AssignToPawnEscortLabelReset"><s>Reset escorted pawn</s><r>Сбросить сопровождаемую пешку</r></e>
+  <e k="K" key="WVC_WorkModes_AssignToPawnEscortNoLongerEscort"><s>{0} no longer escort {1}.</s><r>{0} больше не сопровождает {1}.</r></e>
+  <e k="K" key="WVC_WorkModes_ChangeModDefaultMessage"><s>{0} is not researched. Mode changed to {1}.</s><r>{0} не исследовано. Режим изменен на {1}.</r></e>
+  <e k="K" key="WVC_WorkModes_ChosenGroupDesc"><s>Allows you to designate a group of mechanoids that will return to this zone.</s><r>Позволяет обозначить группу механоидов, которые вернутся в эту зону.</r></e>
+  <e k="K" key="WVC_WorkModes_ChosenGroupLabel"><s>Assign group</s><r>Назначить группу</r></e>
+  <e k="K" key="WVC_WorkModes_ChosenMechanitorDesc"><s>Allows you to assign a zone owner.</s><r>Позволяет назначить владельца зоны.</r></e>
+  <e k="K" key="WVC_WorkModes_ChosenMechanitorLabel"><s>Assign mechanitor</s><r>Назначить механика</r></e>
+  <e k="K" key="WVC_WorkModes_CurrentZoneGroup"><s>Current group</s><r>Текущая группа</r></e>
+  <e k="K" key="WVC_WorkModes_CurrentZoneOwner"><s>Current owner</s><r>Текущий владелец</r></e>
+  <e k="K" key="WVC_WorkModes_DormantModeStatPart"><s>In shutdown mode x{0}%</s><r>В режиме выключения x{0}%</r></e>
+  <e k="K" key="WVC_WorkModes_EnemyCheckDelay"><s>Enemy check delay {0} ticks</s><r>Задержка проверки противника {0} тиков</r></e>
+  <e k="K" key="WVC_WorkModes_EnemyCheckDelayDesc"><s>Allows you to set the delay between checks for enemy presence on the map. Used in safe modes. 60 ticks = 1 second.
+
+Higher values ​​improve performance, but are detrimental to mechanoid responsiveness.</s><r>Позволяет установить задержку между проверками присутствия противника на карте. Используется в безопасных режимах. 60 тиков = 1 секунда.
+
+Более высокие значения улучшают производительность, но вредны для реакции механоида.</r></e>
+  <e k="K" key="WVC_WorkModes_EscortsAssignTargetLabel"><s>Assigned to escorts {0}</s><r>Назначен сопровождающим {0}</r></e>
+  <e k="K" key="WVC_WorkModes_GroupIsChosen"><s>Group {0} assigned to {1}.</s><r>Группа {0} присвоена {1}.</r></e>
+  <e k="K" key="WVC_WorkModes_MechanitorIsChosen"><s>{0} assigned as owner of {1}.</s><r>{0} назначен владельцем {1}.</r></e>
+  <e k="K" key="WVC_WorkModes_ModeTechnologyRequirement"><s>Required technologies:</s><r>Требуемые технологии:</r></e>
+  <e k="K" key="WVC_WorkModes_Off"><s>Off</s><r>Выключенный</r></e>
+  <e k="K" key="WVC_WorkModes_On"><s>On</s><r>На</r></e>
+  <e k="K" key="WVC_WorkModes_ResetButton"><s>Reset</s><r>Перезагрузить</r></e>
+  <e k="K" key="WVC_WorkModes_ResetButtonWarning"><s>The settings will be changed, are you sure?</s><r>Настройки будут изменены, вы уверены?</r></e>
+  <e k="K" key="WVC_WorkModes_ResetButton_SettingsChanged"><s>The settings have been changed.</s><r>Настройки были изменены.</r></e>
+  <e k="K" key="WVC_WorkModes_ResetOwnerDesc"><s>Allows you to reset a zone owner.</s><r>Позволяет сбросить владельца зоны.</r></e>
+  <e k="K" key="WVC_WorkModes_ResetOwnerLabel"><s>Reset owner</s><r>Сбросить владельца</r></e>
+  <e k="K" key="WVC_WorkModes_ResetOwnerMessage"><s>{0} settings are reset to default.</s><r>{0} настройки сбрасываются на значения по умолчанию.</r></e>
+  <e k="K" key="WVC_WorkModes_RestrictZoneByGroupDesc"><s>Allows you to limit the mechanoid's choice of zones to those specifically assigned to its group.</s><r>Позволяет ограничить выбор зон механоида теми, которые специально назначены его группе.</r></e>
+  <e k="K" key="WVC_WorkModes_RestrictZoneByGroupInspect"><s>Uses only zones of its group</s><r>Использует только зоны своей группы</r></e>
+  <e k="K" key="WVC_WorkModes_RestrictZoneByGroupLabel"><s>Use only group zones</s><r>Используйте только групповые зоны</r></e>
+  <e k="K" key="WVC_WorkModes_TechnologyAllowsModes"><s>Allows use new modes:</s><r>Позволяет использовать новые режимы:</r></e>
+  <e k="K" key="WVC_WorkModes_allowAllGroups"><s>All groups allowed</s><r>Разрешены все группы</r></e>
+  <e k="K" key="WVC_WorkModes_allowAllGroupsDesc"><s>Responsible for whether all mechanoids, regardless of the group, can use this zone.</s><r>Отвечает за то, могут ли все механоиды, независимо от группы, использовать эту зону.</r></e>
+</AutoTranslateCache>
