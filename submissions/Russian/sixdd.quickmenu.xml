@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="sixdd.quickmenu" name="Quick Menu" language="Russian" version="1">
+  <e k="K" key="QuickMenu.Binding.MiddleMouse"><s>Middle mouse</s><r>Средняя мышь</r></e>
+  <e k="K" key="QuickMenu.Binding.Mouse4"><s>Mouse 4</s><r>Мышь 4</r></e>
+  <e k="K" key="QuickMenu.Binding.Mouse5"><s>Mouse 5</s><r>Мышь 5</r></e>
+  <e k="K" key="QuickMenu.Binding.Unbound"><s>Unbound</s><r>Несвязанный</r></e>
+  <e k="K" key="QuickMenu.Capture.Body"><s>Press a key or a middle or side mouse button.
+Esc cancels.</s><r>Нажмите клавишу или среднюю или боковую кнопку мыши.
+Esc отменяет.</r></e>
+  <e k="K" key="QuickMenu.Capture.Cancel"><s>Cancel</s><r>Отмена</r></e>
+  <e k="K" key="QuickMenu.Capture.Rejected"><s>Left and right click can't open the menu.</s><r>Щелчок левой и правой кнопкой мыши не открывает меню.</r></e>
+  <e k="K" key="QuickMenu.Capture.Title"><s>Set the menu button</s><r>Установить кнопку меню</r></e>
+  <e k="K" key="QuickMenu.Dev.SelfTestWritten"><s>Quick Menu self-test written to {0}</s><r>Самотестирование быстрого меню записано в {0}</r></e>
+  <e k="K" key="QuickMenu.Menu.CapacityAuto"><s>{0} pinned</s><r>{0} закреплено</r></e>
+  <e k="K" key="QuickMenu.Menu.CapacityFixed"><s>{0} of {1} slots used</s><r>использовано {0} из {1} слотов</r></e>
+  <e k="K" key="QuickMenu.Menu.Done"><s>Done</s><r>Сделанный</r></e>
+  <e k="K" key="QuickMenu.Menu.DoneTip"><s>Finish editing (Esc)</s><r>Завершить редактирование (Esc)</r></e>
+  <e k="K" key="QuickMenu.Menu.Edit"><s>Edit</s><r>Редактировать</r></e>
+  <e k="K" key="QuickMenu.Menu.EditHelpAuto"><s>Drag a slot onto another to swap them.
+{0}+click a slot to remove it.
+New pins come from the architect menu: {0}+click any build or order button. They go at the end.
+Done or Esc to finish.</s><r>Перетащите слот на другой, чтобы поменять их местами.
+{0}+щелкните слот, чтобы удалить его.
+Новые контакты появляются в меню архитектора: {0}+нажмите любую кнопку сборки или заказа. Они идут в конце.
+Done или Esc, чтобы закончить.</r></e>
+  <e k="K" key="QuickMenu.Menu.EditHelpFixed"><s>Drag a slot onto another to swap them, or onto an empty slot to move it.
+{0}+click a slot to remove it.
+New pins come from the architect menu: {0}+click any build or order button. They go into the first empty slot.
+Done or Esc to finish.</s><r>Перетащите слот на другой, чтобы поменять их местами, или на пустой слот, чтобы переместить его.
+{0}+щелкните слот, чтобы удалить его.
+Новые контакты появляются в меню архитектора: {0}+нажмите любую кнопку сборки или заказа. Они помещаются в первый пустой слот.
+Done или Esc для завершения.</r></e>
+  <e k="K" key="QuickMenu.Menu.EditSlotTip"><s>Drag to move. {0}+click to remove.</s><r>Перетащите, чтобы переместить. {0}+нажмите, чтобы удалить.</r></e>
+  <e k="K" key="QuickMenu.Menu.EditTip"><s>Edit the quick menu: move and remove pins.</s><r>Редактировать быстрое меню: перемещать и удалять булавки.</r></e>
+  <e k="K" key="QuickMenu.Menu.EmptyHint"><s>Nothing pinned yet. {0}+click any build or order button to pin it here.</s><r>Еще ничего не закреплено. {0}+нажмите любую кнопку сборки или заказа, чтобы закрепить ее здесь.</r></e>
+  <e k="K" key="QuickMenu.Menu.Full"><s>The menu is full.</s><r>Меню полное.</r></e>
+  <e k="K" key="QuickMenu.Menu.MissingTip"><s>{0}
+From {1}, which is not loaded. It comes back when the mod is added back.
+{2}+click to remove.</s><r>{0}
+Из {1}, который не загружен. Он возвращается, когда мод снова добавляется.
+{2}+нажмите, чтобы удалить.</r></e>
+  <e k="K" key="QuickMenu.Menu.ReasonBuildings"><s>Requires a building: {0}.</s><r>Требуется здание: {0}.</r></e>
+  <e k="K" key="QuickMenu.Menu.ReasonDifficulty"><s>Turned off by the difficulty settings.</s><r>Выключено в настройках сложности.</r></e>
+  <e k="K" key="QuickMenu.Menu.ReasonDiscovery"><s>Requires discovering {0} first.</s><r>Сначала требуется обнаружить {0}.</r></e>
+  <e k="K" key="QuickMenu.Menu.ReasonGravEngine"><s>Requires the grav engine to be inspected.</s><r>Требуется проверка гравитационного двигателя.</r></e>
+  <e k="K" key="QuickMenu.Menu.ReasonMeme"><s>Requires an ideoligion with the {0} meme.</s><r>Требуется идеология с мемом {0}.</r></e>
+  <e k="K" key="QuickMenu.Menu.ReasonMonolith"><s>Requires the monolith to reach level {0}.</s><r>Требуется, чтобы монолит достиг уровня {0}.</r></e>
+  <e k="K" key="QuickMenu.Menu.ReasonPlaceWorker"><s>Its placement requirements are not met.</s><r>Требования к размещению не соблюдены.</r></e>
+  <e k="K" key="QuickMenu.Menu.ReasonPrecept"><s>Requires an ideoligion precept that allows it.</s><r>Требуется идеологическая установка, которая позволяет это.</r></e>
+  <e k="K" key="QuickMenu.Menu.ReasonResearch"><s>Requires research: {0}.</s><r>Требуется исследование: {0}.</r></e>
+  <e k="K" key="QuickMenu.Menu.ReasonTechMax"><s>Not available above the {0} tech level.</s><r>Недоступно выше {0} технического уровня.</r></e>
+  <e k="K" key="QuickMenu.Menu.ReasonTechMin"><s>Requires a higher tech level ({0}).</s><r>Требуется более высокий технический уровень ({0}).</r></e>
+  <e k="K" key="QuickMenu.Menu.Unavailable"><s>Not available right now.</s><r>Сейчас недоступно.</r></e>
+  <e k="K" key="QuickMenu.Menu.UnknownMod"><s>a mod</s><r>мод</r></e>
+  <e k="K" key="QuickMenu.Notice.FirstRun.Body"><s>Press Mouse 4 (a side mouse button) on the map to open the quick menu. No side button? Use the middle mouse button instead.</s><r>Нажмите Мышь 4 (боковую кнопку мыши) на карте, чтобы открыть быстрое меню. Нет боковой кнопки? Вместо этого используйте среднюю кнопку мыши.</r></e>
+  <e k="K" key="QuickMenu.Notice.FirstRun.Title"><s>Quick Menu is ready</s><r>Быстрое меню готово.</r></e>
+  <e k="K" key="QuickMenu.Notice.Mint"><s>Dubs Mint Menus is active: pin with Alt+click, so Ctrl+click stays with Mint. You can change this in the Quick Menu settings.</s><r>Меню Dubs Mint активно: закрепите его, удерживая Alt+щелчок, поэтому нажатие Ctrl+щелчка останется с Mint. Вы можете изменить это в настройках быстрого меню.</r></e>
+  <e k="K" key="QuickMenu.Notice.Ok"><s>OK</s><r>ХОРОШО</r></e>
+  <e k="K" key="QuickMenu.Notice.OpenSettings"><s>Open settings</s><r>Открыть настройки</r></e>
+  <e k="K" key="QuickMenu.Notice.UseMiddle"><s>Use middle mouse</s><r>Используйте среднюю мышь</r></e>
+  <e k="K" key="QuickMenu.Pin.Full"><s>The quick menu is full. Make it bigger in the mod settings or switch to Auto size.</s><r>Быстрое меню заполнено. Увеличьте его в настройках мода или переключитесь на автоматический размер.</r></e>
+  <e k="K" key="QuickMenu.Pin.NotATool"><s>This button is a setting, not a tool, so it can't be pinned.</s><r>Эта кнопка представляет собой настройку, а не инструмент, поэтому ее нельзя закрепить.</r></e>
+  <e k="K" key="QuickMenu.Pin.Pinned"><s>Pinned {0} to the quick menu.</s><r>Закреплен {0} в быстром меню.</r></e>
+  <e k="K" key="QuickMenu.Pin.Rejected"><s>{0} can't be pinned: its pin entry is too large to save.</s><r>{0} невозможно закрепить: его запись слишком велика, чтобы ее можно было сохранить.</r></e>
+  <e k="K" key="QuickMenu.Pin.Unavailable"><s>{0} can't be pinned.</s><r>{0} невозможно закрепить.</r></e>
+  <e k="K" key="QuickMenu.Pin.Unpinned"><s>Removed {0} from the quick menu.</s><r>Удален {0} из быстрого меню.</r></e>
+  <e k="K" key="QuickMenu.Settings.BindingNote"><s>Mice do not report their side buttons. If Mouse 4 does nothing, use the middle mouse button or bind a key. Middle mouse also drags the camera while held.</s><r>Мыши не сообщают о своих боковых кнопках. Если Мышь 4 ничего не делает, используйте среднюю кнопку мыши или привяжите клавишу. Средняя мышь также перетаскивает камеру, пока она удерживается.</r></e>
+  <e k="K" key="QuickMenu.Settings.ButtonSize"><s>Button size</s><r>Размер кнопки</r></e>
+  <e k="K" key="QuickMenu.Settings.Clear"><s>Clear</s><r>Прозрачный</r></e>
+  <e k="K" key="QuickMenu.Settings.ClearAllPins"><s>Clear all pins...</s><r>Очистите все контакты...</r></e>
+  <e k="K" key="QuickMenu.Settings.ClearAllPinsConfirm"><s>Remove every pin from the quick menu? This cannot be undone.</s><r>Удалить все контакты из быстрого меню? Это невозможно отменить.</r></e>
+  <e k="K" key="QuickMenu.Settings.Columns"><s>Columns</s><r>Столбцы</r></e>
+  <e k="K" key="QuickMenu.Settings.ForgetMissing"><s>Forget missing pins</s><r>Забудьте о недостающих булавках</r></e>
+  <e k="K" key="QuickMenu.Settings.ForgetMissingConfirm"><s>Remove the pins from mods that are not loaded? They will not come back when you add the mods again.</s><r>Убрать пины с не загруженных модов? Они не вернутся, когда вы снова добавите моды.</r></e>
+  <e k="K" key="QuickMenu.Settings.HeadLayout"><s>Layout</s><r>Макет</r></e>
+  <e k="K" key="QuickMenu.Settings.HeadOpening"><s>Opening the menu</s><r>Открытие меню</r></e>
+  <e k="K" key="QuickMenu.Settings.HeadPinning"><s>Pinning</s><r>Закрепление</r></e>
+  <e k="K" key="QuickMenu.Settings.KeyConflict"><s>{0} is also used for: {1}.</s><r>{0} также используется для: {1}.</r></e>
+  <e k="K" key="QuickMenu.Settings.KeyIsPinModifier"><s>{0} is also the key you hold to pin, so pinning will open the menu. Pick another key or another pin key.</s><r>{0} также является клавишей, которую вы удерживаете для закрепления, поэтому при закреплении откроется меню. Выберите другой ключ или другой пин-ключ.</r></e>
+  <e k="K" key="QuickMenu.Settings.MintActive"><s>Dubs Mint Menus is active, so Alt is used and Ctrl+click stays with Mint.</s><r>Меню Dubs Mint активно, поэтому используется Alt, а нажатие Ctrl+щелчка остается в Mint.</r></e>
+  <e k="K" key="QuickMenu.Settings.MissingPins"><s>{0} pins are from mods that are not loaded. They come back when the mods are added back.</s><r>{0} пины от модов, которые не загружены. Они возвращаются, когда моды добавляются обратно.</r></e>
+  <e k="K" key="QuickMenu.Settings.MissingUnknown"><s>Pins from mods that are not loaded can be checked once the game has finished loading its build menu.</s><r>Пины из незагруженных модов можно проверить после того, как игра завершит загрузку меню сборки.</r></e>
+  <e k="K" key="QuickMenu.Settings.Modifier.Alt"><s>Alt</s><r>Альтернативный вариант</r></e>
+  <e k="K" key="QuickMenu.Settings.Modifier.Ctrl"><s>Ctrl</s><r>Ctrl</r></e>
+  <e k="K" key="QuickMenu.Settings.Modifier.Shift"><s>Shift</s><r>Сдвиг</r></e>
+  <e k="K" key="QuickMenu.Settings.OpenWith"><s>Open menu with</s><r>Открыть меню с помощью</r></e>
+  <e k="K" key="QuickMenu.Settings.PageError"><s>The Quick Menu settings page could not be drawn. See the log for details.</s><r>Не удалось отобразить страницу настроек быстрого меню. Подробности смотрите в журнале.</r></e>
+  <e k="K" key="QuickMenu.Settings.PinWith"><s>Pin with</s><r>Закрепить с помощью</r></e>
+  <e k="K" key="QuickMenu.Settings.PinWithSuffix"><s>+ click on a build or order</s><r>+ нажмите на сборку или заказ</r></e>
+  <e k="K" key="QuickMenu.Settings.PreviewHidden"><s>{0} pins are outside the menu and stay hidden until you make it bigger again.</s><r>{0} контакты находятся за пределами меню и остаются скрытыми, пока вы снова не увеличите его.</r></e>
+  <e k="K" key="QuickMenu.Settings.PreviewTooBig"><s>At this UI scale the menu is bigger than the screen and will be centred.</s><r>В этом масштабе пользовательского интерфейса меню больше экрана и будет центрировано.</r></e>
+  <e k="K" key="QuickMenu.Settings.ResetDefaults"><s>Reset to defaults</s><r>Сбросить настройки по умолчанию</r></e>
+  <e k="K" key="QuickMenu.Settings.ResetDefaultsTip"><s>Restores every option above to its default. Your pins are kept.</s><r>Восстанавливает все параметры, указанные выше, к значениям по умолчанию. Ваши булавки сохранены.</r></e>
+  <e k="K" key="QuickMenu.Settings.Rings"><s>Rings</s><r>Кольца</r></e>
+  <e k="K" key="QuickMenu.Settings.Rows"><s>Rows</s><r>Строки</r></e>
+  <e k="K" key="QuickMenu.Settings.Shape"><s>Shape</s><r>Форма</r></e>
+  <e k="K" key="QuickMenu.Settings.ShapeGrid"><s>Grid</s><r>Сетка</r></e>
+  <e k="K" key="QuickMenu.Settings.ShapeWheel"><s>Wheel</s><r>Колесо</r></e>
+  <e k="K" key="QuickMenu.Settings.Size"><s>Size</s><r>Размер</r></e>
+  <e k="K" key="QuickMenu.Settings.SizeAuto"><s>Auto</s><r>Авто</r></e>
+  <e k="K" key="QuickMenu.Settings.SizeAutoTip"><s>The menu grows with your pins: one ring or row more when the last is full, up to what fits the screen.</s><r>Меню растет вместе с вашими кнопками: на одно кольцо или строку больше, когда последнее заполнено, вплоть до размера экрана.</r></e>
+  <e k="K" key="QuickMenu.Settings.SizeFixed"><s>Fixed</s><r>Зафиксированный</r></e>
+  <e k="K" key="QuickMenu.Settings.SizeFixedTip"><s>The menu always has the rings, or the columns and rows, set here. Empty slots are drawn, and a pin keeps its place.</s><r>В меню всегда есть кольца или столбцы и строки, установленные здесь. Пустые слоты рисуются, а булавка остается на своем месте.</r></e>
+  <e k="K" key="QuickMenu.Settings.Slots"><s>{0} slots</s><r>{0} слоты</r></e>
+  <e k="K" key="QuickMenu.Settings.Title"><s>Quick Menu</s><r>Быстрое меню</r></e>
+  <e k="K" key="QuickMenu.Settings.UseMiddleMouse"><s>Use middle mouse instead</s><r>Вместо этого используйте среднюю мышь</r></e>
+</AutoTranslateCache>
