@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="redmattis.bettergeneinheritance" name="Better Gene Inheritance" language="Russian" version="1">
+  <e k="D" t="GeneDef" key="BGI_BinaryInheritance.description"><s>If both the carrier of this gene AND their partner have this gene then a full geneset will be picked from one parent or the other.
+
+This gene is commonly found among xenotypes with castes or extreme sexual dimorphism.
+
+This can be combined with dominant/recessive genes, which, if so, will take precedence over this gene.</s><r>Если этот ген есть и у носителя этого гена, и у его партнера, то полный генетический набор будет выбран от одного из родителей.
+
+Этот ген обычно встречается среди ксенотипов с кастами или крайним половым диморфизмом.
+
+Это можно комбинировать с доминантными/рецессивными генами, которые, если так, будут иметь приоритет над этим геном.</r></e>
+  <e k="D" t="GeneDef" key="BGI_BinaryInheritance.label"><s>Binary Inheritance</s><r>Двоичное наследование</r></e>
+  <e k="D" t="GeneDef" key="BGI_DominantGenes.description"><s>Carriers of this gene will have all their genes passed down to their offspring, ignoring any genes from their partner unless they also possess this gene.</s><r>Носители этого гена передадут все свои гены потомству, игнорируя любые гены своего партнера, если они также не обладают этим геном.</r></e>
+  <e k="D" t="GeneDef" key="BGI_DominantGenes.label"><s>Dominant Genes</s><r>Доминантные гены</r></e>
+  <e k="D" t="GeneDef" key="BGI_PrimaryGenes.description"><s>Carriers of this gene will have their genes be more prevalent in their offspring, especially when mixed with a baseliner.
+
+This means they will usually pass down all their genes unless they overlap or conflict with those of the other parent.</s><r>Гены носителей этого гена будут более распространены в потомстве, особенно при смешивании с базовым геном.
+
+Это означает, что они обычно передадут все свои гены, если только они не перекрываются или не конфликтуют с генами другого родителя.</r></e>
+  <e k="D" t="GeneDef" key="BGI_PrimaryGenes.label"><s>Primary Genes</s><r>Первичные гены</r></e>
+  <e k="D" t="GeneDef" key="BGI_RecessiveGenes.description"><s>Carriers of this gene will have none of their genes passed down to their offspring, taking only genes from their partner unless they also possess this gene.</s><r>Носители этого гена не передадут ни одного из своих генов потомству, перенимая только гены от своего партнера, если только они также не обладают этим геном.</r></e>
+  <e k="D" t="GeneDef" key="BGI_RecessiveGenes.label"><s>Recessive Genes</s><r>Рецессивные гены</r></e>
+  <e k="D" t="GeneDef" key="BGI_SecondaryGenes.description"><s>Carriers of this gene will have their genes be less prevalent in their offspring.
+
+his means the other parent will usually pass down all their genes unless there is overlap or conflicts.</s><r>У носителей этого гена гены будут менее распространены в потомстве.
+
+это означает, что другой родитель обычно передает все свои гены, если не происходит перекрытия или конфликтов.</r></e>
+  <e k="D" t="GeneDef" key="BGI_SecondaryGenes.label"><s>Secondary Genes</s><r>Вторичные гены</r></e>
+  <e k="K" key="BGI_AllPawnsBinaryInheritance"><s>Make ALL pawns ONLY use binary inheritance logic.</s><r>Сделайте так, чтобы ВСЕ пешки использовали ТОЛЬКО двоичную логику наследования.</r></e>
+  <e k="K" key="BGI_ConsiderOnlyXenoEndo"><s>Directly fetch Endo+Xeno Gene Lists (compat)</s><r>Непосредственное получение списков генов Endo+Xeno (совместимо)</r></e>
+  <e k="K" key="BGI_InheritArchite"><s>Archite Genes are inheritable.</s><r>Гены архита передаются по наследству.</r></e>
+  <e k="K" key="BGI_InheritSharedArchite"><s>Archite genes shared by both parents are always inherited.</s><r>Гены архите, общие для обоих родителей, всегда передаются по наследству.</r></e>
+  <e k="K" key="BGI_InheritXeno"><s>Xenogenes can be inherited along with the endogenes.</s><r>Ксеногены могут передаваться по наследству наряду с эндогенами.</r></e>
+  <e k="K" key="BGI_MetabolismLimit"><s>Lowest permitted metabolism</s><r>Самый низкий разрешенный метаболизм</r></e>
+  <e k="K" key="BGI_ParentBGeneInheritanceChanceMax"><s>Max % from second (random) parent</s><r>Макс. % от второго (случайного) родителя</r></e>
+  <e k="K" key="BGI_ParentBGeneInheritanceChanceMin"><s>Min % from second (random) parent</s><r>Мин.% от второго (случайного) родителя</r></e>
+  <e k="K" key="BGI_RemoveOverridden"><s>Remove overridden genes</s><r>Удалить переопределенные гены</r></e>
+  <e k="K" key="BGI_ResetSettings"><s>Reset to Default</s><r>Сбросить настройки по умолчанию</r></e>
+  <e k="K" key="BGInheritance"><s>Better Gene Inheritance</s><r>Лучшее наследование генов</r></e>
+</AutoTranslateCache>
