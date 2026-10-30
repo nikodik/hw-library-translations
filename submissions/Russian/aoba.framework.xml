@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="aoba.framework" name="Fortified Features Framework" language="Russian" version="1">
+  <e k="D" t="ConceptDef" key="FFF_EnvironmentalBill.helpText"><s>Some recipes require a production building to be in a vacuum, clean, or microgravity environment. This means that the production building must be in a specific environment to use these recipes.
+
+You can view the special environment requirements of a recipe in the infocard.</s><r>Некоторые рецепты требуют, чтобы производственное здание находилось в вакууме, чистоте или в условиях микрогравитации. Это означает, что для использования этих рецептов производственное здание должно находиться в определенной среде.
+
+Вы можете просмотреть особые требования к среде для рецепта на информационной карте.</r></e>
+  <e k="D" t="ConceptDef" key="FFF_EnvironmentalBill.label"><s>environmental recipe</s><r>экологический рецепт</r></e>
+  <e k="D" t="ConceptDef" key="FFF_MechTrade.helpText"><s>Automatroids brought from orbital trader will drop delivered to trade terminal. interaction from mechanitor with sufficient bandwidth is required to activate them. some of them can be disable for storage at any time, but all internal energy will be release during sealing proccess to prevent remote hacking activation.</s><r>Автоматроиды, доставленные с орбитального торговца, будут доставлены на торговый терминал. Для их активации требуется взаимодействие механатора с достаточной пропускной способностью. некоторые из них можно отключить для хранения в любой момент, но вся внутренняя энергия будет высвобождена во время процесса запечатывания, чтобы предотвратить удаленную активацию взлома.</r></e>
+  <e k="D" t="ConceptDef" key="FFF_MechTrade.label"><s>automatroid trading</s><r>автоматическая торговля</r></e>
+  <e k="D" t="DamageDef" key="FFF_ShapeChargeBullet.deathMessage"><s>{0} has been shot to death.</s><r>{0} был застрелен.</r></e>
+  <e k="D" t="DamageDef" key="FFF_ShapeChargeBullet.label"><s>shape charge</s><r>кумулятивный заряд</r></e>
+  <e k="D" t="DesignationCategoryDef" key="FFF_DevCategory.label"><s>Building(Dev)</s><r>Здание(Разработчик)</r></e>
+  <e k="D" t="FFF_CamoDef" key="FFF_Camo_Army.label"><s>Army camo</s><r>Армейский камуфляж</r></e>
+  <e k="D" t="FFF_CamoDef" key="FFF_Camo_ArmyDark.label"><s>Army camo dark</s><r>Армейский камуфляж темный</r></e>
+  <e k="D" t="FFF_CamoDef" key="FFF_Camo_Digital.label"><s>Digital camo</s><r>Цифровой камуфляж</r></e>
+  <e k="D" t="FFF_CamoDef" key="FFF_Camo_DigitalDark.label"><s>Digital camo dark</s><r>Цифровой камуфляж темный</r></e>
+  <e k="D" t="FFF_CamoDef" key="FFF_Camo_Hex.label"><s>Hexagon camo</s><r>Шестиугольный камуфляж</r></e>
+  <e k="D" t="FFF_CamoDef" key="FFF_Camo_Marine.label"><s>Navy camo</s><r>Темно-синий камуфляж</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_AccessKeyActivatable.description"><s>Sealed until a colonist uses the required access key on it. Activating it may unlock the matching security doors or release the contents stored inside.</s><r>Запечатан до тех пор, пока колонист не использует необходимый ключ доступа. Активация может разблокировать соответствующие защитные двери или освободить хранящееся внутри содержимое.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_AccessKeyActivatable.label"><s>access key lock</s><r>ключ доступа к замку</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_AccessKeyDoor.description"><s>This door stays locked while linked to an access key lock. Once the lock is activated the door opens and becomes usable by the colonist who unlocked it and their faction.</s><r>Эта дверь остается запертой, пока она связана с замком с ключом доступа. Как только замок активирован, дверь открывается и становится доступной для использования колонистом, который ее открыл, и его фракцией.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_AccessKeyDoor.label"><s>security door</s><r>защитная дверь</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_ActiveProtectionSystem.description"><s>Deploys an interception field around the user for a limited time. Incoming projectiles that enter the field have a chance to be shot down before they land; only a few can be intercepted at once.</s><r>Развертывает поле перехвата вокруг пользователя на ограниченное время. Летящие снаряды, попадающие в поле, имеют шанс быть сбитыми до того, как приземлятся; только несколько из них могут быть перехвачены одновременно.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_ActiveProtectionSystem.label"><s>active protection</s><r>активная защита</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_AirSupportSummoner.description"><s>Calls in an air strike or fly-over from an allied base. Pick a target on the map and the support arrives after a short delay; the exact effect depends on the support type this item is tuned to.</s><r>Вызывает воздушный удар или пролет над союзной базой. Выберите цель на карте, и поддержка прибудет с небольшой задержкой; точный эффект зависит от типа поддержки, на который настроен этот предмет.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_AirSupportSummoner.label"><s>air support</s><r>поддержка с воздуха</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_AlertEffector.description"><s>Reacts when an alarm on the map is triggered — including, but not limited to, releasing defenders, activating devices or otherwise responding to intruders. Some responses fire only once.</s><r>Реагирует на срабатывание тревоги на карте, включая, помимо прочего, освобождение защитников, активацию устройств или иное реагирование на злоумышленников. Некоторые ответы срабатывают только один раз.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_AlertEffector.label"><s>alarm response</s><r>реакция на сигнал тревоги</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_AlertScanner.description"><s>Raises an alarm when a hostile target is within its field of view, causing other devices listening for that signal to react. Each detection raises the map's security alert level; disable or destroy the scanner to avoid triggering it.</s><r>Поднимает тревогу, когда враждебная цель находится в поле его зрения, вызывая реакцию других устройств, прослушивающих этот сигнал. Каждое обнаружение повышает уровень предупреждения безопасности карты; отключите или уничтожьте сканер, чтобы избежать его срабатывания.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_AlertScanner.label"><s>scanning alarm</s><r>сигнализация сканирования</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_AmmoSwitch.description"><s>This weapon can switch between multiple ammunition presets. Use the gizmo to queue a switch; the wielder walks over to change ammo and a short cooldown applies afterwards. Each preset may alter the projectile, range and accuracy.</s><r>Это оружие может переключаться между несколькими предустановками боеприпасов. Используйте штуковину, чтобы поставить переключатель в очередь; Владелец подходит, чтобы сменить боеприпасы, после чего наступает короткое время восстановления. Каждая предустановка может изменять снаряд, дальность и точность.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_AmmoSwitch.label"><s>ammo switching</s><r>переключение боеприпасов</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_AntiBlasterSmoke.description"><s>Fills its area with smoke that has a chance to stop certain projectiles passing through it for as long as it lasts.</s><r>Заполняет свою область дымом, который имеет шанс остановить прохождение определенных снарядов, пока он существует.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_AntiBlasterSmoke.label"><s>obscurant smoke</s><r>неясный дым</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_ArtificialOrganism.description"><s>A bio-engineered artificial living construct. Its wounds regenerate over time on their own, and when its energy runs low it can eat to recharge instead of needing a charger.</s><r>Биоинженерная искусственная живая конструкция. Его раны со временем регенерируют сами по себе, и когда его энергия иссякает, он может есть, чтобы перезарядиться, вместо того, чтобы нуждаться в зарядном устройстве.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_ArtificialOrganism.label"><s>artificial life</s><r>искусственная жизнь</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_AutoWorkTable.description"><s>A production machine that runs its work process semi-automatically. A colonist with the required skills only needs to perform one action at each stage; the bench then works through it unattended while consuming power. Some benches eject the finished product automatically, others need a colonist to collect it.</s><r>Производственная машина, работа которой осуществляется в полуавтоматическом режиме. Колонисту с необходимыми навыками достаточно выполнить только одно действие на каждом этапе; затем скамейка работает через него без присмотра, потребляя энергию. Некоторые скамейки выбрасывают готовый продукт автоматически, другим для его сбора требуется колонист.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_AutoWorkTable.label"><s>automated workbench</s><r>автоматизированный верстак</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_BiochemicalProtection.description"><s>While worn, this apparel prevents the wearer from contracting diseases and infections from the environment or from wounds.</s><r>Во время ношения эта одежда защищает владельца от заражения болезнями и инфекциями из окружающей среды или через раны.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_BiochemicalProtection.label"><s>biochemical protection</s><r>биохимическая защита</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_BuildingMover.description"><s>This structure can move along its facing axis, rotate in place, or shuttle back and forth on a track, triggered by command, signal or proximity. Depending on its build it may crush obstacles in its path and mine through ore.</s><r>Эта конструкция может перемещаться вдоль своей обращенной оси, вращаться на месте или перемещаться взад и вперед по рельсам, активируясь по команде, сигналу или близости. В зависимости от конструкции он может сокрушать препятствия на своем пути и добывать руду.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_BuildingMover.label"><s>mobile structure</s><r>мобильная конструкция</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_BulletproofPlate.description"><s>Fitted with replaceable armor plates that add protection to the body parts they cover. Plates lose durability when hit and stop protecting once worn out; replenish them with the matching plate material. Higher quality apparel gets more out of its plates.</s><r>Оснащен сменными броневыми пластинами, повышающими защиту прикрываемых ими частей тела. Пластины теряют прочность при ударе и перестают защищать после изнашивания; пополните их подходящим материалом для пластин. Одежда более высокого качества получает больше пользы от своих тарелок.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_BulletproofPlate.label"><s>armor plates</s><r>бронеплиты</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_Camouflage.description"><s>Can toggle a camouflage mode that renders it invisible to enemies. Enemies that get close enough, or firing while camouflaged, each carry a chance of revealing it; once detected the camouflage drops and needs time to reset before it can be used again.</s><r>Может переключить режим камуфляжа, который делает его невидимым для врагов. Враги, которые подходят достаточно близко или стреляют в замаскированном состоянии, имеют шанс обнаружить его; после обнаружения камуфляж сбрасывается, и ему требуется время для сброса, прежде чем его можно будет использовать снова.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_Camouflage.label"><s>camouflage</s><r>камуфляж</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_CausePanic.description"><s>Its presence unsettles nearby pawns. Every so often, those within range may break into a mental state — smaller pawns and pawns already close to breaking are the most vulnerable. The effect lapses while it is stunned.</s><r>Его присутствие тревожит ближайших пешек. Время от времени те, кто находится в пределах досягаемости, могут впасть в психическое состояние — пешки меньшего размера и пешки, уже близкие к разрушению, являются наиболее уязвимыми. Эффект прекращается, пока он оглушен.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_CausePanic.label"><s>intimidating presence</s><r>устрашающее присутствие</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_ClusterBomb.description"><s>Partway through its flight this projectile breaks apart and releases a spread of submunitions that rain down around the target point rather than striking a single cell. Depending on the munition it may also detonate at the moment it splits. It will not split until it is a safe distance from the shooter.</s><r>На полпути полета этот снаряд распадается на части и выпускает множество суббоеприпасов, которые падают вокруг целевой точки, а не поражают одну клетку. В зависимости от боеприпаса он также может взорваться в момент разделения. Он не расколется, пока не окажется на безопасном расстоянии от стрелка.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_ClusterBomb.label"><s>cluster munition</s><r>кассетный боеприпас</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_CommandRelay.description"><s>A command unit. It ignores its mechanitor's control range entirely, and other mechanoids near it are treated as within range as well. On expeditions away from the mechanitor the relay radius shrinks with distance on the world map, down to a minimum once too far away. While drafted it shows its current coverage on the map.</s><r>Командная единица. Он полностью игнорирует диапазон управления своего механизатора, и другие механоиды рядом с ним также рассматриваются как находящиеся в пределах досягаемости. В экспедициях вдали от механитора радиус ретрансляции уменьшается с расстоянием на карте мира, вплоть до минимума, когда он находится слишком далеко. В составленном виде на карте отображается текущее покрытие.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_CommandRelay.label"><s>command relay</s><r>командное реле</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_ConeExplosive.description"><s>On impact this projectile explodes in a cone pointing along its direction of travel instead of a full circle. Anything in the arc ahead of the impact point is hit; things behind or beside it are spared. Aim it so the cone sweeps across the enemy line.</s><r>При ударе этот снаряд взрывается конусом, направленным вдоль направления движения, а не полным кругом. Поражается все, что находится по дуге перед точкой удара; вещи позади или рядом с ним сохраняются. Направьте его так, чтобы конус пересекал линию противника.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_ConeExplosive.label"><s>directional blast</s><r>направленный взрыв</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_ContinuousDamager.description"><s>Once activated, this device deals continuous heat damage to whatever is in front of it for a set duration. Effective for cutting through walls and fortifications.</s><r>После активации это устройство наносит непрерывный тепловой урон всему, что находится перед ним, в течение установленного времени. Эффективен для прорубания стен и укреплений.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_ContinuousDamager.label"><s>single-use thermite cutter</s><r>одноразовый термитный резак</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_DamageBlocker.description"><s>Incoming hits are compared against a damage threshold. Depending on configuration, hits above or below the threshold can be fully blocked, clamped, or let through, and each block may consume a protection charge. Charges can be replenished with materials or recharge over time. See the &quot;Threshold protection&quot; category for the exact numbers.</s><r>Входящие попадания сравниваются с порогом урона. В зависимости от конфигурации попадания выше или ниже порога могут быть полностью заблокированы, зафиксированы или пропущены, и каждый блок может потреблять заряд защиты. Заряды можно пополнять материалами или перезаряжать с течением времени. Точные цифры смотрите в категории «Пороговая защита».</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_DamageBlocker.label"><s>threshold protection</s><r>защита порога</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_DeactivatedMech.description"><s>A deactivated mechanoid in storage. A mechanitor with enough free bandwidth can take control of it directly; hostile or unowned units can instead be hacked by a colonist with research work enabled. A failed hack wakes the mech up hostile. It can also be scrapped.</s><r>Деактивированный механоид на складе. Механик с достаточной свободной пропускной способностью может напрямую управлять им; Вместо этого враждебные или бесхозные юниты могут быть взломаны колонистом с включенной исследовательской работой. Неудачный взлом будит робота враждебным. Его также можно списать.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_DeactivatedMech.label"><s>deactivated mechanoid</s><r>деактивированный механоид</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_DeadManSwitch.description"><s>This mechanoid carries a fail-safe that terminates it if it is ever cut off from its overseer. Units that are lost or wander off may still find their way home — but occasionally the switch fails to reset.</s><r>Этот механоид имеет предохранитель, который уничтожит его, если он когда-либо будет отрезан от своего надзирателя. Юниты, которые потерялись или ушли, все равно могут найти дорогу домой, но иногда переключатель не сбрасывается.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_DeadManSwitch.label"><s>dead man's switch</s><r>выключатель мертвеца</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_Deployable.description"><s>This item can be carried by a pawn and deployed in the field as a building. A drafted pawn carrying it can place it directly on an open spot; deploying takes time and the area must be clear.</s><r>Этот предмет можно носить с собой на пешке и размещать на поле в качестве здания. Выбранная пешка, несущая ее, может разместить ее прямо на открытом месте; развертывание требует времени, и территория должна быть свободна.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_Deployable.label"><s>deployable</s><r>развертываемый</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_Drone.description"><s>A remotely operated unit bound to its deployment platform. 
+
+Drone can only be controlled while the platform is powered and under your control, or for a wearable platform, while the wearer is drafted on the same map. It runs on an internal battery and automatically returns to the platform when the charge runs low; use the return command to recall it early and recover the material it cost. Drones deployed by you drop their equipment when destroyed.</s><r>Дистанционно управляемое устройство, привязанное к своей платформе развертывания. 
+
+Дроном можно управлять только тогда, когда платформа включена и находится под вашим контролем, или для носимой платформы, когда владелец выбран на той же карте. Он работает от внутренней батареи и автоматически возвращается на платформу, когда заряд заканчивается; используйте команду возврата, чтобы вызвать его раньше и вернуть материал, которого он стоил. Выпущенные вами дроны при уничтожении сбрасывают свое оборудование.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_Drone.label"><s>drone</s><r>дрон</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_DronePack.description"><s>A wearable drone platform. The wearer can release its drones. for NPC-controlled wearers, they will use it on their own when hostiles are present on the map.</s><r>Носимая платформа для дронов. Владелец может выпускать своих дронов. владельцы, контролируемые NPC, будут использовать его самостоятельно, когда на карте присутствуют враги.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_DronePack.label"><s>drone pack</s><r>пакет дронов</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_DronePlatform.description"><s>Stores material and spends it to deploy drones.
+
+Retracting a drone returns it to the platform and refunds the material it cost. Deployed drones obey the allowed area set on the platform, and every drone controlled by the platform shuts down if the platform is destroyed. Platforms that support several unit types let you choose which one to deploy, and can be set to deploy and recall automatically on a fixed interval.</s><r>Сохраняет материал и тратит его на развертывание дронов.
+
+При втягивании дрона он возвращается на платформу и возмещается стоимость материала. Развернутые дроны подчиняются разрешенной зоне, установленной на платформе, и каждый дрон, управляемый платформой, отключается, если платформа разрушена. Платформы, поддерживающие несколько типов единиц, позволяют вам выбирать, какое из них развертывать, и могут быть настроены на автоматическое развертывание и отзыв через фиксированный интервал.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_DronePlatform.label"><s>drone platform</s><r>платформа для дронов</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_EnvironmentExemption.description"><s>When linked to a workbench, this facility waives or relaxes the environmental requirements of that bench's recipes — cleanliness, light, temperature, pressure or gravity. The slack from several linked facilities adds up.</s><r>При подключении к верстаку это средство отменяет или смягчает экологические требования рецептов этого верстака — чистота, свет, температура, давление или гравитация. Слабость нескольких связанных объектов суммируется.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_EnvironmentExemption.label"><s>environmental exemption</s><r>экологическое освобождение</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_EnvironmentalBill.description"><s>This recipe can only be worked when the workbench's room meets specific environmental conditions such as cleanliness, light level, temperature, pressure or gravity. Bills are suspended while the conditions are not met. Some linked facilities may waive these requirements.</s><r>Этот рецепт можно использовать только в том случае, если помещение верстака соответствует определенным условиям окружающей среды, таким как чистота, уровень освещенности, температура, давление или гравитация. Счета приостанавливаются до тех пор, пока условия не будут выполнены. Некоторые связанные учреждения могут не выполнять эти требования.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_EnvironmentalBill.label"><s>environmental requirement</s><r>экологические требования</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_ExplosiveOnMelee.description"><s>When this unit lands a melee attack it detonates every explosive it is carrying or holding, destroying itself in the process. Hostile units of this type may spawn carrying explosives.</s><r>Когда этот отряд наносит удар в ближнем бою, он взрывает все взрывчатые вещества, которые он несет или держит, уничтожая при этом себя. Враждебные юниты этого типа могут появляться с взрывчаткой.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_ExplosiveOnMelee.label"><s>contact detonation</s><r>контактная детонация</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_Floating.description"><s>This unit hovers above the ground. It ignores terrain that would slow a walker and can cross deep water.</s><r>Этот аппарат парит над землей. Он игнорирует местность, которая замедляет пешехода, и может пересекать глубокую воду.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_Floating.label"><s>hovering</s><r>зависание</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_FueledSpawner.description"><s>Consumes fuel to produce items periodically. Production stops when the fuel runs out or when too many products pile up nearby.</s><r>Периодически потребляет топливо для производства предметов. Производство останавливается, когда заканчивается топливо или когда поблизости накапливается слишком много продуктов.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_FueledSpawner.label"><s>fueled production</s><r>подпитываемое производство</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_HeavyEquippable.description"><s>Only pawns that meet a body size requirement, or belong to the listed races, wear the listed apparel, or carry the listed implants or genes can equip this. Others cannot pick it up as a weapon.</s><r>Экипировать это могут только пешки, которые соответствуют требованиям к размеру тела или принадлежат к указанным расам, носят указанную одежду или несут указанные имплантаты или гены. Другие не могут взять его в качестве оружия.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_HeavyEquippable.label"><s>heavy equipment</s><r>тяжелое оборудование</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_HumanlikeMech.description"><s>A mechanoid built on an ergonomic humanlike frame. It can wear apparel and benefits from its effects, while still counting as a mechanoid for control, repair and bandwidth.</s><r>Механоид, построенный на эргономичном человекоподобном корпусе. Он может носить одежду и получать выгоду от ее эффектов, но при этом считается механоидом для контроля, ремонта и пропускной способности.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_HumanlikeMech.label"><s>humanlike mechanoid</s><r>человекоподобный механоид</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_InternalBattery.description"><s>This building carries its own battery. While connected to a powered grid it charges the battery; if the grid loses power it keeps running on the battery until it is drained. Switching the building off puts it in standby, where it stops working but charges faster.</s><r>В этом здании есть собственная батарея. При подключении к электросети он заряжает аккумулятор; если сеть теряет питание, она продолжает работать от батареи, пока она не разрядится. Выключение здания переводит его в режим ожидания, где оно перестает работать, но заряжается быстрее.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_InternalBattery.label"><s>internal battery</s><r>внутренняя батарея</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_ListedContainer.description"><s>A container holding supplies. Inspect it to see the contents, then interact with it to unload them.</s><r>Контейнер с припасами. Осмотрите его, чтобы увидеть содержимое, затем взаимодействуйте с ним, чтобы выгрузить его.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_ListedContainer.label"><s>stocked container</s><r>заполненный контейнер</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_LogisticTerminal.description"><s>Interact with the terminal to request a delivery. After a delay a cargo cart arrives carrying a portion of the terminal's stock; the stock is limited and the terminal shuts down once it is exhausted.</s><r>Взаимодействуйте с терминалом, чтобы запросить доставку. После задержки прибывает грузовая тележка с частью запасов терминала; запас ограничен, и терминал отключается, когда он исчерпан.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_LogisticTerminal.label"><s>logistics terminal</s><r>логистический терминал</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_Lootbox.description"><s>A sealed container. Opening it yields a random selection of goods — or occasionally nothing at all.</s><r>Герметичный контейнер. Открыв его, вы получите случайный выбор товаров, а иногда и вообще ничего.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_Lootbox.label"><s>sealed cache</s><r>запечатанный тайник</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_MechApparel.description"><s>This mechanoid can wear apparel. Some apparel layers are blocked by its frame and cannot be equipped.</s><r>Этот механоид может носить одежду. Некоторые слои одежды заблокированы рамкой и не могут быть надеты.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_MechApparel.label"><s>apparel support</s><r>поддержка одежды</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_MechCapsule.description"><s>A mechanoid that can temporary shutdown for storage. Hibernating mechs use no control bandwidth and can be restarted by a mechanitor with enough bandwidth; if it belongs to someone else it can be hacked by a colonist. Mothballed mechs found in the wild may sometimes still be holding their weapon.</s><r>Механоид, который может временно отключаться для хранения. Механики, находящиеся в спящем режиме, не используют полосу пропускания управления и могут быть перезапущены механизатором с достаточной пропускной способностью; если он принадлежит кому-то другому, его может взломать колонист. Законсервированные роботы, найденные в дикой природе, иногда все еще могут держать свое оружие.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_MechCapsule.label"><s>hibernatable mechanoid</s><r>спящий механоид</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_MechHeal.description"><s>While this condition is present the mechanoid slowly repairs its own damage over time without a mechanitor.</s><r>Пока это состояние присутствует, механоид медленно восстанавливает свои повреждения с течением времени без механизатора.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_MechHeal.label"><s>self-repair</s><r>самостоятельный ремонт</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_MechModification.description"><s>This item is a modification module for mechanoids. Open a mech's modification window, pick a body slot and queue the install; a colonist then fits it. Each slot holds one module, and some modules can be stacked or merged up to a limit. Modules can be removed later.</s><r>Этот предмет представляет собой модуль модификации для механоидов. Откройте окно модификации меха, выберите слот для тела и поставьте в очередь установку; тогда колонист подходит к нему. В каждом слоте находится один модуль, а некоторые модули можно складывать или объединять до определенного предела. Модули можно будет удалить позже.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_MechModification.label"><s>mech modification</s><r>модификация механизма</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_MechMothball.description"><s>This Mechanoid can put into hibernation. It becomes a dormant structure that no longer uses bandwidth and can later be reactivated by any mechanitor with enough free bandwidth. It cannot be hibernated while downed.</s><r>Этот Механоид может впадать в спячку. Он становится бездействующей структурой, которая больше не использует пропускную способность и может позже быть повторно активирована любым механизатором с достаточной свободной пропускной способностью. В сбитом состоянии он не может перейти в спящий режим.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_MechMothball.label"><s>hibernation</s><r>спячка</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_MechWeaponUsable.description"><s>This mechanoid can pick up and use weapons. Which weapons it accepts is limited by its model's filters — weapon tags, tech level, weapon class, or an explicit whitelist — or by the weapon's own body size requirement. The full list is shown under the mechanoid's weapon systems entry.</s><r>Этот механоид может подбирать и использовать оружие. Какое оружие оно принимает, ограничивается фильтрами его модели — тегами оружия, техническим уровнем, классом оружия или явным белым списком — или собственными требованиями к размеру корпуса оружия. Полный список показан в разделе «Системы вооружения механоида».</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_MechWeaponUsable.label"><s>weapon systems</s><r>системы вооружения</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_MechanitorRange.description"><s>While drafted, this mechanoid's performance depends on how far it is from its mechanitor. Close by it suffers little; the further away, the heavier the penalty, reaching its worst when the mechanitor is on another map. The penalty clears as soon as the mech is undrafted.</s><r>В процессе разработки производительность этого механоида зависит от того, насколько далеко он находится от своего механатора. Рядом он мало страдает; чем дальше, тем тяжелее штраф, достигающий наихудшего значения, когда механитор находится на другой карте. Штраф отменяется, как только мех перестает быть выбранным.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_MechanitorRange.label"><s>signal attenuation</s><r>затухание сигнала</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_MeleeSweep.description"><s>Melee attacks hit everything in a cone in front of the attacker rather than a single target.</s><r>Атаки ближнего боя поражают все, что находится в конусе перед атакующим, а не одну цель.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_MeleeSweep.label"><s>sweeping strike</s><r>радикальный удар</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_MultiTurret.description"><s>This unit mounts one or more sub-turrets that acquire and fire at targets independently of its main weapon. Each turret can be given a forced target, toggled between automatic and manual fire, and may accept its own weapon or ammunition.</s><r>На этом устройстве установлена ​​одна или несколько дополнительных турелей, которые обнаруживают цели и ведут огонь по ним независимо от основного оружия. Каждой башне можно задать принудительную цель, переключаться между автоматическим и ручным огнем, а также принять собственное оружие или боеприпасы.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_MultiTurret.label"><s>multiple turrets</s><r>несколько турелей</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_OverseerBuilding.description"><s>A stationary command structure with its own bandwidth and control groups. Mechanoids assigned to it obey it as they would a mechanitor within its command range — some cores cover the whole map. It can restart mothballed mechanoids directly, and repair the mechs it oversees while they are nearby. Linked facilities extend its capabilities.</s><r>Стационарная структура управления со своей полосой пропускания и группами управления. Приписанные к нему механоиды подчиняются ему так же, как механору в пределах его командного диапазона — некоторые ядра покрывают всю карту. Он может напрямую перезапускать законсервированные механоиды и ремонтировать механизмы, которые он контролирует, пока они находятся поблизости. Связанные объекты расширяют его возможности.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_OverseerBuilding.label"><s>overseer core</s><r>ядро надзирателя</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_OverseerMech.description"><s>A mechanoid that commands other mechanoids on its own, with its own bandwidth and control groups, and needs no mechanitor. Mechanoids placed under its control obey it as they would a mechanitor and follow it in the field. It can restart mothballed mechanoids it comes across, and repair the mechs it oversees while they are nearby.</s><r>Механоид, который самостоятельно командует другими механоидами, со своей собственной полосой пропускания и группами управления и не нуждается в механоре. Механоиды, находящиеся под его контролем, подчиняются ему, как механору, и следуют за ним в поле. Он может перезапускать законсервированные механоиды, с которыми сталкивается, и ремонтировать механизмы, за которыми наблюдает, пока они находятся поблизости.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_OverseerMech.label"><s>overseer unit</s><r>подразделение надзирателя</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_Paintable.description"><s>Can be repainted. Choose a color or camouflage pattern from the paint command; some models default to their faction's colors.</s><r>Можно перекрасить. Выберите цвет или камуфляж с помощью команды рисования; некоторые модели по умолчанию используют цвета своей фракции.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_Paintable.label"><s>paintable</s><r>под покраску</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_PerimeterScanner.description"><s>Watches the area around it for invisible or camouflaged creatures and raises a warning when one is detected.</s><r>Наблюдает за областью вокруг себя в поисках невидимых или замаскированных существ и выдает предупреждение при их обнаружении.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_PerimeterScanner.label"><s>perimeter scanner</s><r>сканер периметра</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_ProtectiveShield.description"><s>Disposable armor with its own hit points. Incoming damage is absorbed by the plating until its durability is exhausted, after which it breaks and must be replaced. Larger mechs can carry more plates.</s><r>Одноразовая броня со своими очками жизни. Поступающий урон поглощается обшивкой до тех пор, пока не исчерпается ее прочность, после чего она ломается и подлежит замене. Более крупные мехи могут нести больше пластин.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_ProtectiveShield.label"><s>ceramic plating</s><r>керамическое покрытие</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_QualityChance.description"><s>Automated workbenches linked to this building have a fixed chance of producing higher-quality products, regardless of the worker's skill.</s><r>Автоматизированные верстаки, связанные с этим зданием, имеют фиксированный шанс производить продукцию более высокого качества, независимо от навыков работника.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_QualityChance.label"><s>quality optimization</s><r>оптимизация качества</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_Recycleable.description"><s>Once this unit is downed or destroyed it can be dismantled where it lies. Mark it for recycling, or order a colonist directly, and they will take it apart on the spot, dropping any gear it carried and leaving behind part of the materials it was built from. Wrecks yield less than downed units.</s><r>Если это устройство сбито или уничтожено, его можно разобрать там, где оно лежит. Отметьте его для переработки или закажите колонисту напрямую, и они разберут его на месте, выбросив все снаряжение, которое он носил, и оставив часть материалов, из которых он был построен. Обломки дают меньше, чем сбитые юниты.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_Recycleable.label"><s>field recycling</s><r>полевая переработка</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_SelfDestruct.description"><s>On receiving its trigger signal this object detonates in a large explosion after a short delay. Keep clear once the sequence starts.</s><r>Получив триггерный сигнал, этот объект после небольшой задержки взрывается большим взрывом. Держитесь подальше, как только начнется последовательность.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_SelfDestruct.label"><s>self-destruct sequence</s><r>последовательность самоуничтожения</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_ShieldingDevice.description"><s>While powered, this device intercepts certain events — such as raids — before they reach the colony. Its power draw grows with the number of colonists on the map. Each interception puts the device into a long cooldown during which it offers no protection, though it still needs power to cool down.</s><r>Во время работы это устройство перехватывает определенные события, например рейды, прежде чем они достигнут колонии. Его мощность растет с увеличением количества колонистов на карте. Каждый перехват приводит к длительному восстановлению устройства, в течение которого оно не обеспечивает никакой защиты, хотя для охлаждения ему все равно требуется питание.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_ShieldingDevice.label"><s>shielding device</s><r>защитное устройство</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_SignalAreaTrigger.description"><s>Sends a signal when its condition is met, causing other devices listening for that signal to react. Each detection raises the map's security alert level.</s><r>Отправляет сигнал при выполнении его условия, вызывая реакцию других устройств, прослушивающих этот сигнал. Каждое обнаружение повышает уровень предупреждения безопасности карты.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_SignalAreaTrigger.label"><s>trigger alarm</s><r>вызвать тревогу</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_SignalRemote.description"><s>Carries one or more buttons, each able to broadcast a signal that linked devices respond to.</s><r>Содержит одну или несколько кнопок, каждая из которых может передавать сигнал, на который реагируют связанные устройства.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_SignalRemote.label"><s>remote console</s><r>удаленная консоль</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_SignalTower.description"><s>While powered, this device can call a trade ship to visit through its command button. It needs to cool down between uses.</s><r>При включении это устройство может вызвать торговый корабль для посещения с помощью командной кнопки. Между использованиями ему необходимо остыть.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_SignalTower.label"><s>signal broadcast</s><r>трансляция сигнала</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_SubRelay.description"><s>Extends mechanoid control range around it — for every mechanitor, not just one. As a building it works while powered, in working order and owned by your colony; as apparel it works while worn by one of your pawns. Some relays cover the whole map. The coverage ring is shown while a drafted mech is selected.</s><r>Расширяет диапазон управления механоидом вокруг себя — для каждого механора, а не только для одного. Как здание оно работает, пока оно включено, находится в рабочем состоянии и принадлежит вашей колонии; как одежда, она работает, пока ее носит одна из ваших пешек. Некоторые реле покрывают всю карту. Кольцо покрытия отображается, когда выбран выбранный механизм.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_SubRelay.label"><s>control relay</s><r>реле управления</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_Substation.description"><s>Supplies power to the local grid and can be shut down by hacking. A hub held by a hostile faction disconnects automatically once the units on this map are defeated. Pawns without enough intellectual skill risk an electric shock when operating it.</s><r>Подает электроэнергию в местную сеть и может быть отключена путем взлома. Хаб, удерживаемый враждебной фракцией, автоматически отключается после победы над юнитами на этой карте. Пешки без достаточных интеллектуальных навыков рискуют получить удар током при работе с ним.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_Substation.label"><s>power hub</s><r>силовой концентратор</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_TrampleBuildings.description"><s>This unit is heavy enough to crush structures in its way. Buildings within its footprint that do not belong to its faction take damage as it moves through them.</s><r>Этот агрегат достаточно тяжел, чтобы разрушать конструкции на своем пути. Здания в пределах его зоны действия, не принадлежащие его фракции, получают урон при движении через них.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_TrampleBuildings.label"><s>trampling</s><r>топтание</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_TurretCapacity.description"><s>A fortified turret that a pawn climbs into. The occupant operates the weapon from inside and is protected by the structure; the turret does nothing without a crew.</s><r>Укрепленная турель, в которую забирается пешка. Пассажир управляет оружием изнутри и защищен конструкцией; турель без экипажа ничего не делает.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_TurretCapacity.label"><s>crewed emplacement</s><r>обитаемая огневая точка</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_TurretMannable.description"><s>This mechanoid can man turrets and other crewed emplacements just like a colonist; whether a given emplacement can be operated is defined by its weapon systems.</s><r>Этот механоид может управлять турелями и другими огневыми точками с экипажем, как колонист; Возможность эксплуатации данной огневой точки определяется ее системами вооружения.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_TurretMannable.label"><s>turret operation</s><r>турельная операция</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_WeaponImprint.description"><s>The first weapon this mechanoid equips is imprinted into its adaptive systems. The longer it keeps using that weapon type the higher its imprint level grows, granting increasing bonuses; switching to a different weapon type discards the imprint.</s><r>Первое оружие, которым оснащен этот механоид, впечатано в его адаптивные системы. Чем дольше он продолжает использовать этот тип оружия, тем выше становится его уровень отпечатка, предоставляя увеличивающиеся бонусы; переключение на другой тип оружия сбрасывает отпечаток.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_WeaponImprint.label"><s>weapon imprint</s><r>отпечаток оружия</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_WeaponReloadable.description"><s>This weapon carries a limited number of charges and must be reloaded with the matching ammunition item once they are spent.</s><r>Это оружие имеет ограниченное количество зарядов, и его необходимо перезарядить с помощью соответствующих боеприпасов, как только они будут израсходованы.</r></e>
+  <e k="D" t="FFF_InfoDef" key="FFF_Info_WeaponReloadable.label"><s>reloadable weapon</s><r>перезаряжаемое оружие</r></e>
+  <e k="D" t="HediffDef" key="FFF_Camouflage.description"><s>This mech is invisible.</s><r>Этот механизм невидим.</r></e>
+  <e k="D" t="HediffDef" key="FFF_Camouflage.label"><s>camouflage</s><r>камуфляж</r></e>
+  <e k="D" t="HediffDef" key="FFF_Camouflage.stages.0.label"><s>hidden</s><r>скрытый</r></e>
+  <e k="D" t="HediffDef" key="FFF_DummyHediff.description"><s>dummy</s><r>дурачок</r></e>
+  <e k="D" t="HediffDef" key="FFF_DummyHediff.label"><s>dummy</s><r>дурачок</r></e>
+  <e k="D" t="IncidentDef" key="FFF_ScoutedRaidExample.label"><s>scouted bombardment raid</s><r>разведанный бомбардировочный налет</r></e>
+  <e k="D" t="JobDef" key="FFF_ControlMech_Overseer.reportString"><s>taking control of TargetA.</s><r>взяв под свой контроль TargetA.</r></e>
+  <e k="D" t="JobDef" key="FFF_DoAutonomousBill.reportString"><s>working.</s><r>работающий.</r></e>
+  <e k="D" t="JobDef" key="FFF_EjectDeactivatedMech.reportString"><s>disabling mech</s><r>отключение механизма</r></e>
+  <e k="D" t="JobDef" key="FFF_EjectMechCapsule.reportString"><s>disabling mech</s><r>отключение механизма</r></e>
+  <e k="D" t="JobDef" key="FFF_EnterBunkerFacility.reportString"><s>entering facility</s><r>вход в объект</r></e>
+  <e k="D" t="JobDef" key="FFF_EquipDeployable.reportString"><s>equipping TargetA.</s><r>оснащение TargetA.</r></e>
+  <e k="D" t="JobDef" key="FFF_EquipTurret.reportString"><s>Equiping turret</s><r>Оснащение турели</r></e>
+  <e k="D" t="JobDef" key="FFF_FinishAutonomousBill.reportString"><s>working.</s><r>работающий.</r></e>
+  <e k="D" t="JobDef" key="FFF_HackDeactivatedMech.reportString"><s>hacking mech</s><r>хакерский механизм</r></e>
+  <e k="D" t="JobDef" key="FFF_HackMechCapsule.reportString"><s>controlling mech</s><r>управляющий механизм</r></e>
+  <e k="D" t="JobDef" key="FFF_LockdownOverride.reportString"><s>overriding the lockdown on TargetA.</s><r>отмена блокировки на TargetA.</r></e>
+  <e k="D" t="JobDef" key="FFF_MechLeave.reportString"><s>leaving.</s><r>уход.</r></e>
+  <e k="D" t="JobDef" key="FFF_Modification.reportString"><s>modifying TargetA.</s><r>изменение TargetA.</r></e>
+  <e k="D" t="JobDef" key="FFF_ModificationRemove.reportString"><s>removing modification from TargetA.</s><r>удаление модификации из TargetA.</r></e>
+  <e k="D" t="JobDef" key="FFF_PaintMech.reportString"><s>painting for mech.</s><r>покраска для мех.</r></e>
+  <e k="D" t="JobDef" key="FFF_Recycle.reportString"><s>recycling TargetA.</s><r>переработка TargetA.</r></e>
+  <e k="D" t="JobDef" key="FFF_RepairMech_Overseer.reportString"><s>repairing TargetA.</s><r>ремонт TargetA.</r></e>
+  <e k="D" t="JobDef" key="FFF_RepairSelf.reportString"><s>repairing TargetA.</s><r>ремонт TargetA.</r></e>
+  <e k="D" t="JobDef" key="FFF_Replenish.reportString"><s>Replenishing</s><r>Пополнение</r></e>
+  <e k="D" t="JobDef" key="FFF_ResurrectMech.reportString"><s>rebooting TargetA.</s><r>перезагрузка TargetA.</r></e>
+  <e k="D" t="JobDef" key="FFF_ReturnToDronePlatform.reportString"><s>returning to platform</s><r>возвращение на платформу</r></e>
+  <e k="D" t="JobDef" key="FFF_SwitchAmmo.reportString"><s>Switching ammo</s><r>Переключение боеприпасов</r></e>
+  <e k="D" t="JobDef" key="FFF_UseAccessKey.reportString"><s>activating TargetA.</s><r>активируя TargetA.</r></e>
+  <e k="D" t="JobDef" key="FFF_WaitForPainting.reportString"><s>waiting for paint</s><r>жду краску</r></e>
+  <e k="D" t="MentalStateDef" key="FFF_FleeInPlace.baseInspectLine"><s>Mental state: Fleeing in fear</s><r>Психическое состояние: Бегство в страхе.</r></e>
+  <e k="D" t="MentalStateDef" key="FFF_FleeInPlace.label"><s>fleeing in fear</s><r>убегая в страхе</r></e>
+  <e k="D" t="PawnKindDef" key="FFF_Dummy.label"><s>dummy</s><r>дурачок</r></e>
+  <e k="D" t="ScenPartDef" key="FFF_AddStartingStructure.label"><s>add custom structure to starting map</s><r>добавить пользовательскую структуру к стартовой карте</r></e>
+  <e k="D" t="ScenPartDef" key="FFF_ForcedFactionGoodwill.label"><s>forced faction relations</s><r>принудительные отношения между фракциями</r></e>
+  <e k="D" t="ScenPartDef" key="FFF_Huntdown.label"><s>huntdown</s><r>выслеживание</r></e>
+  <e k="D" t="ScenPartDef" key="FFF_PlayerPawnsArriveGravship.label"><s>arrive on gravship</s><r>прибыть на судне</r></e>
+  <e k="D" t="ScenPartDef" key="FFF_PrefabGen.label"><s>start with prefab</s><r>начни с префаба</r></e>
+  <e k="D" t="StatCategoryDef" key="FFF_Mechanics.label"><s>special mechanics</s><r>специальная механика</r></e>
+  <e k="D" t="StatCategoryDef" key="FFF_Turrets.label"><s>Turrets</s><r>Турели</r></e>
+  <e k="D" t="StatDef" key="FFF_FearResistance.description"><s>Determines the effect of fear on this pawn when facing large mechanoids. Raise to 100% to fully resist.</s><r>Определяет эффект страха на эту пешку при столкновении с большими механоидами. Поднимите до 100%, чтобы полностью сопротивляться.</r></e>
+  <e k="D" t="StatDef" key="FFF_FearResistance.label"><s>fear resistance</s><r>сопротивление страха</r></e>
+  <e k="D" t="StatDef" key="FFF_HeavyGears.description"><s>Required pawn body size to equip this weapon.</s><r>Требуемый размер тела пешки для оснащения этим оружием.</r></e>
+  <e k="D" t="StatDef" key="FFF_HeavyGears.label"><s>supported body size</s><r>поддерживаемый размер корпуса</r></e>
+  <e k="D" t="StatDef" key="FFF_MassCarryCapacity.description"><s>The total mass this person can carry in their inventory and as equipment.</s><r>Общая масса, которую этот человек может нести в своем инвентаре и в качестве снаряжения.</r></e>
+  <e k="D" t="StatDef" key="FFF_MassCarryCapacity.label"><s>mass carry capacity</s><r>грузоподъемность</r></e>
+  <e k="D" t="StatDef" key="FFF_MechCommandRange.description"><s>The radius within which this overseer can command the mechanoids it controls. Mechanoids outside this radius cannot be given orders.</s><r>Радиус, в пределах которого этот надзиратель может командовать механоидами, которыми он управляет. Механоидам за пределами этого радиуса нельзя отдавать приказы.</r></e>
+  <e k="D" t="StatDef" key="FFF_MechCommandRange.label"><s>mech command range</s><r>диапазон команд меха</r></e>
+  <e k="D" t="StatDef" key="FFF_UsableWeapons.description"><s>Usable weapons that are supported by the OS of this model.</s><r>Используемое оружие, поддерживаемое ОС данной модели.</r></e>
+  <e k="D" t="StatDef" key="FFF_UsableWeapons.label"><s>supported weapons</s><r>поддерживаемое оружие</r></e>
+  <e k="D" t="ThingDef" key="FFF_ExportTool_LinkAccessKeyWanter.description"><s>Export tool</s><r>Инструмент экспорта</r></e>
+  <e k="D" t="ThingDef" key="FFF_ExportTool_LinkAccessKeyWanter.label"><s>Access link tool</s><r>Инструмент ссылки доступа</r></e>
+  <e k="D" t="ThingDef" key="FFF_ExportTool_ManTurret.description"><s>Export tool</s><r>Инструмент экспорта</r></e>
+  <e k="D" t="ThingDef" key="FFF_ExportTool_ManTurret.label"><s>Man turret tool</s><r>Револьверный инструмент для человека</r></e>
+  <e k="D" t="ThingDef" key="FFF_ExportTool_PawnGroup.description"><s>Export tool</s><r>Инструмент экспорта</r></e>
+  <e k="D" t="ThingDef" key="FFF_ExportTool_PawnGroup.label"><s>Pawn group tool</s><r>Инструмент группы пешек</r></e>
+  <e k="D" t="ThingDef" key="FFF_ExportTool_RandomStructure.description"><s>Export tool</s><r>Инструмент экспорта</r></e>
+  <e k="D" t="ThingDef" key="FFF_ExportTool_RandomStructure.label"><s>Random structure tool</s><r>Инструмент случайной структуры</r></e>
+  <e k="D" t="ThingDef" key="FFF_FlareShell.label"><s>flare shell</s><r>сигнальный снаряд</r></e>
+  <e k="D" t="ThingDef" key="FFF_MechCapsule_Colossal.description"><s>A deactivated mechanoid in hibernation mode. A mechanitor can attempt to hack and control it.</s><r>Деактивированный механоид в режиме гибернации. Механик может попытаться взломать его и контролировать.</r></e>
+  <e k="D" t="ThingDef" key="FFF_MechCapsule_Colossal.label"><s>deactivated mech (colossal)</s><r>деактивированный механизм (колоссальный)</r></e>
+  <e k="D" t="ThingDef" key="FFF_MechCapsule_Huge.description"><s>A deactivated mechanoid in hibernation mode. A mechanitor can attempt to hack and control it.</s><r>Деактивированный механоид в режиме гибернации. Механик может попытаться взломать его и контролировать.</r></e>
+  <e k="D" t="ThingDef" key="FFF_MechCapsule_Huge.label"><s>deactivated mech (huge)</s><r>деактивированный механизм (огромный)</r></e>
+  <e k="D" t="ThingDef" key="FFF_MechCapsule_Large.description"><s>A deactivated mechanoid in hibernation mode. A mechanitor can attempt to hack and control it.</s><r>Деактивированный механоид в режиме гибернации. Механик может попытаться взломать его и контролировать.</r></e>
+  <e k="D" t="ThingDef" key="FFF_MechCapsule_Large.label"><s>deactivated mech (large)</s><r>деактивированный механизм (большой)</r></e>
+  <e k="D" t="ThingDef" key="FFF_MechCapsule_Medium.description"><s>A deactivated mechanoid in hibernation mode. A mechanitor can attempt to hack and control it.</s><r>Деактивированный механоид в режиме гибернации. Механик может попытаться взломать его и контролировать.</r></e>
+  <e k="D" t="ThingDef" key="FFF_MechCapsule_Medium.label"><s>deactivated mech (medium)</s><r>деактивированный механизм (средний)</r></e>
+  <e k="D" t="ThingDef" key="FFF_MechCapsule_Small.description"><s>A deactivated mechanoid in hibernation mode. A mechanitor can attempt to hack and control it.</s><r>Деактивированный механоид в режиме гибернации. Механик может попытаться взломать его и контролировать.</r></e>
+  <e k="D" t="ThingDef" key="FFF_MechCapsule_Small.label"><s>deactivated mech (small)</s><r>деактивированный механизм (маленький)</r></e>
+  <e k="D" t="ThingDef" key="FFF_MinifiedTurret.comps.2.useLabel"><s>Pick up {0_label}</s><r>Возьмите {0_label}</r></e>
+  <e k="D" t="ThingDef" key="FFF_MinifiedTurret.label"><s>minified turret</s><r>уменьшенная турель</r></e>
+  <e k="D" t="ThingDef" key="FFF_RCdoor.description"><s>A door that divides rooms. People pass through it without slowing down.</s><r>Дверь, разделяющая комнаты. Люди проходят через него, не замедляя скорости.</r></e>
+  <e k="D" t="ThingDef" key="FFF_RCdoor.label"><s>facility door</s><r>дверь объекта</r></e>
+  <e k="D" t="ThingDef" key="FFF_Wall_A.description"><s>A reinforced concrete structural wall with a composite coating, commonly found in underground facilities. It was built to carry the structure around it, and is effectively indestructible.</s><r>Железобетонная конструкционная стена с композитным покрытием, обычно встречающаяся в подземных сооружениях. Он был построен, чтобы нести конструкцию вокруг себя, и фактически не поддается разрушению.</r></e>
+  <e k="D" t="ThingDef" key="FFF_Wall_A.label"><s>facility interior wall</s><r>внутренняя стена объекта</r></e>
+  <e k="D" t="ThingDef" key="FFF_Wall_B.description"><s>A reinforced concrete structural wall with a composite coating, commonly found in underground facilities. It was built to carry the structure around it, and is effectively indestructible.</s><r>Железобетонная конструкционная стена с композитным покрытием, обычно встречающаяся в подземных сооружениях. Он был построен, чтобы нести конструкцию вокруг себя, и фактически не поддается разрушению.</r></e>
+  <e k="D" t="ThingDef" key="FFF_Wall_B.label"><s>facility interior wall</s><r>внутренняя стена объекта</r></e>
+  <e k="D" t="ThingDef" key="FFF_Wall_C.description"><s>A reinforced concrete structural wall with a composite coating, commonly found in underground facilities. It was built to carry the structure around it, and is effectively indestructible.</s><r>Железобетонная конструкционная стена с композитным покрытием, обычно встречающаяся в подземных сооружениях. Он был построен, чтобы нести конструкцию вокруг себя, и фактически не поддается разрушению.</r></e>
+  <e k="D" t="ThingDef" key="FFF_Wall_C.label"><s>facility interior wall</s><r>внутренняя стена объекта</r></e>
+  <e k="D" t="ThingDef" key="FFF_Wall_Hull.description"><s>A prefabricated pressure-hull panel. Panels like these were bolted together section by section to line the deep levels of a facility, sealing out groundwater and the overpressure of a blast.</s><r>Сборная прочная панель корпуса. Подобные панели скреплялись болтами по частям, чтобы выровнять глубокие уровни объекта, изолируя грунтовые воды и избыточное давление взрыва.</r></e>
+  <e k="D" t="ThingDef" key="FFF_Wall_Hull.label"><s>hull wall</s><r>стенка корпуса</r></e>
+  <e k="D" t="ThingDef" key="FFF_Wall_HullHatch.description"><s>A pressure-hull panel fitted with a sealed maintenance hatch. The hatch leads into the conduit space behind the panel, though it was welded shut long ago.</s><r>Панель прочного корпуса с герметичным люком для обслуживания. Люк ведет в пространство за панелью, хотя он уже давно заварен.</r></e>
+  <e k="D" t="ThingDef" key="FFF_Wall_HullHatch.label"><s>hull maintenance wall</s><r>стенка для обслуживания корпуса</r></e>
+  <e k="D" t="WorkGiverDef" key="FFF_DoAutonomousBill.gerund"><s>working at</s><r>работаю в</r></e>
+  <e k="D" t="WorkGiverDef" key="FFF_DoAutonomousBill.label"><s>make things</s><r>делать вещи</r></e>
+  <e k="D" t="WorkGiverDef" key="FFF_DoAutonomousBill.verb"><s>work at</s><r>работать в</r></e>
+  <e k="D" t="WorkGiverDef" key="FFF_PaintBuildingWorkGiver.gerund"><s>painting</s><r>рисование</r></e>
+  <e k="D" t="WorkGiverDef" key="FFF_PaintBuildingWorkGiver.label"><s>paint building</s><r>покрасить здание</r></e>
+  <e k="D" t="WorkGiverDef" key="FFF_PaintBuildingWorkGiver.verb"><s>paint</s><r>краска</r></e>
+  <e k="D" t="WorkGiverDef" key="FFF_PaintMechWorkGiver.gerund"><s>painting</s><r>рисование</r></e>
+  <e k="D" t="WorkGiverDef" key="FFF_PaintMechWorkGiver.label"><s>paint mech</s><r>покрасочный механизм</r></e>
+  <e k="D" t="WorkGiverDef" key="FFF_PaintMechWorkGiver.verb"><s>paint</s><r>краска</r></e>
+  <e k="D" t="WorkGiverDef" key="FFF_RecycleWorkGiver.gerund"><s>recycling</s><r>переработка</r></e>
+  <e k="D" t="WorkGiverDef" key="FFF_RecycleWorkGiver.label"><s>recycle downed or destroyed units</s><r>перерабатывать сбитые или уничтоженные юниты</r></e>
+  <e k="D" t="WorkGiverDef" key="FFF_RecycleWorkGiver.verb"><s>recycle</s><r>перерабатывать</r></e>
+  <e k="K" key="DMS.MachineCabinet.Charge.Desc"><s>Charges forward, crushing everything in its path and tearing ore from the rock.</s><r>Рвется вперед, сокрушая все на своем пути и вырывая руду из камня.</r></e>
+  <e k="K" key="DMS.MachineCabinet.Charge.Label"><s>THUNDEROUS CHARGE!</s><r>ГРОМОЗАРЯД!</r></e>
+  <e k="K" key="DMS.MachineCabinet.Door.Close"><s>Close door</s><r>Закрыть дверь</r></e>
+  <e k="K" key="DMS.MachineCabinet.Door.Open"><s>Open door</s><r>Открытая дверь</r></e>
+  <e k="K" key="DMS.MachineCabinet.Door.OpenDesc"><s>Slides aside to open. Anything in the way is shoved aside and bruised.</s><r>Сдвигается в сторону, чтобы открыть. Все, что мешает, отбрасывается и ушибается.</r></e>
+  <e k="K" key="FFF.APS_TickRemain"><s>APS remain time:{0}</s><r>Оставшееся время APS:{0}</r></e>
+  <e k="K" key="FFF.AccessKeyDoor.Locked"><s>Access locked</s><r>Доступ заблокирован</r></e>
+  <e k="K" key="FFF.AccessKeyDoor.LockedKeysRemaining"><s>Access locked: {0} more access key use(s) required</s><r>Доступ заблокирован: требуется {0} больше ключей доступа</r></e>
+  <e k="K" key="FFF.AccessKeyDoor.Unlocked"><s>The {0} accepts the access key and slides open.</s><r>{0} принимает ключ доступа и открывается.</r></e>
+  <e k="K" key="FFF.AirSupportFromClosestBase"><s>{1} from {0} is inbound.</s><r>{1} из {0} входящий.</r></e>
+  <e k="K" key="FFF.AmmoSwitch.DefaultAmmo"><s>Default Ammo</s><r>Боеприпасы по умолчанию</r></e>
+  <e k="K" key="FFF.AmmoSwitch.DefaultProjectile"><s>Default Projectile</s><r>Стандартный снаряд</r></e>
+  <e k="K" key="FFF.AmmoSwitch.Desc"><s>click to switch ammo type</s><r>нажмите, чтобы переключить тип боеприпасов</r></e>
+  <e k="K" key="FFF.AmmoSwitch.NotPlayerControlled"><s>Only player-controlled units can switch ammo.</s><r>Только юниты, управляемые игроком, могут менять боеприпасы.</r></e>
+  <e k="K" key="FFF.AmmoSwitch.StatFactor"><s>Accuracy Factor</s><r>Фактор точности</r></e>
+  <e k="K" key="FFF.AmmoSwitch.UsingDefault"><s>Using default</s><r>Использование по умолчанию</r></e>
+  <e k="K" key="FFF.Armor.CE"><s>{0}mmRha armor</s><r>{0}ммРха броня</r></e>
+  <e k="K" key="FFF.Armor.Vanilla"><s>{0}% protection</s><r>{0}% защита</r></e>
+  <e k="K" key="FFF.ArtificialOrganismRations"><s>Rations: {COUNT} / {MAX}</s><r>Рационы: {COUNT} / {MAX}</r></e>
+  <e k="K" key="FFF.AutoDeploy"><s>Auto Deploy</s><r>Автоматическое развертывание</r></e>
+  <e k="K" key="FFF.AutoDeployDesc"><s>Command this platform to automatically deploy and undeploy drones at a stable interval.</s><r>Прикажите этой платформе автоматически развертывать и отменять развертывание дронов через стабильные промежутки времени.</r></e>
+  <e k="K" key="FFF.AutoDeployEnabled"><s>Auto Deploy Enable</s><r>Включить автоматическое развертывание</r></e>
+  <e k="K" key="FFF.Autofacturer.CurrentRecipe"><s>current bill: {0}</s><r>текущий счет: {0}</r></e>
+  <e k="K" key="FFF.Autofacturer.Information"><s>Remaining work amount: {0}
+Remaining stages: {1}</s><r>Оставшийся объем работы: {0}
+Оставшиеся этапы: {1}</r></e>
+  <e k="K" key="FFF.Autofacturer.Prepared"><s>Completed, require colonist to work</s><r>Завершено, требуется, чтобы колонист работал</r></e>
+  <e k="K" key="FFF.Autofacturer.WorkerCanceled"><s>The currently executing work list has been canceled, but it needs to stop running.</s><r>Список выполняемых в данный момент работ был отменен, но его выполнение необходимо прекратить.</r></e>
+  <e k="K" key="FFF.Autofacturer.WorkerFinished"><s>current processes have completed, require colonist to work</s><r>текущие процессы завершены, требуется, чтобы колонист работал</r></e>
+  <e k="K" key="FFF.BillRequires.MarketValue"><s>Requires total price to exceed {0}</s><r>Требуется, чтобы общая цена превышала {0}</r></e>
+  <e k="K" key="FFF.BillRequires.Mass"><s>Requires total mass exceeding {0}</s><r>Требуется общая масса, превышающая {0}.</r></e>
+  <e k="K" key="FFF.BodysizeNotSupported"><s>bodysize not supported (need:{0})</s><r>размер тела не поддерживается (нужно:{0})</r></e>
+  <e k="K" key="FFF.BuildingMover.Blocked"><s>The destination is blocked.</s><r>Пункт назначения заблокирован.</r></e>
+  <e k="K" key="FFF.BuildingMover.Desc"><s>Move this structure along its facing axis if the destination is clear.</s><r>Переместите эту конструкцию вдоль ее лицевой оси, если место назначения ясно.</r></e>
+  <e k="K" key="FFF.BuildingMover.Dir0"><s>Move forward</s><r>Двигайтесь вперед</r></e>
+  <e k="K" key="FFF.BuildingMover.Dir1"><s>Move backward</s><r>Двигаться назад</r></e>
+  <e k="K" key="FFF.BuildingMover.Dir2"><s>Move right</s><r>Двигайтесь вправо</r></e>
+  <e k="K" key="FFF.BuildingMover.Dir3"><s>Move left</s><r>Двигаться влево</r></e>
+  <e k="K" key="FFF.BuildingMover.Place.Crush"><s>Crushes obstacles in its path</s><r>Сокрушает препятствия на своем пути</r></e>
+  <e k="K" key="FFF.BuildingMover.Place.Mine"><s>Mines ore veins it crushes through</s><r>Минирует рудные жилы, через которые он пробивается.</r></e>
+  <e k="K" key="FFF.BuildingMover.Place.OneWay"><s>Moves along its facing axis</s><r>Перемещается вдоль своей лицевой оси</r></e>
+  <e k="K" key="FFF.BuildingMover.Place.Toggle"><s>Reciprocating track: toggles back and forth</s><r>Возвратно-поступательная гусеница: переключается вперед и назад.</r></e>
+  <e k="K" key="FFF.BuildingMover.Rotate"><s>Rotate</s><r>Поворот</r></e>
+  <e k="K" key="FFF.BuildingMover.RotateDesc"><s>Rotate this structure clockwise if there is room.</s><r>Поверните эту конструкцию по часовой стрелке, если есть место.</r></e>
+  <e k="K" key="FFF.BunkerFacility_EnterText"><s>Enter fortification</s><r>Войти в укрепление</r></e>
+  <e k="K" key="FFF.BunkerFacility_ExitText"><s>Exit fortification</s><r>Выходное укрепление</r></e>
+  <e k="K" key="FFF.CancelActiveBill"><s>Cancel process</s><r>Отменить процесс</r></e>
+  <e k="K" key="FFF.CancelActiveBillDesc"><s>Cancel the current process, which will return resources and stop consuming power.</s><r>Отмените текущий процесс, который вернет ресурсы и перестанет потреблять энергию.</r></e>
+  <e k="K" key="FFF.Cannot.TableEnvironmentUnknown"><s>the environment around the workbench cannot be determined.</s><r>среду вокруг рабочего места определить невозможно.</r></e>
+  <e k="K" key="FFF.Cannot.TableNotInCleanRoom"><s>require dust-free environment with a cleanliness level higher than {1}. Current: {0}</s><r>требуется беспыльная среда с уровнем чистоты выше {1}. Текущий: {0}</r></e>
+  <e k="K" key="FFF.Cannot.TableNotInDarkness"><s>require dark environment with light level lower than {1}. Current: {0}</s><r>требуется темная среда с уровнем освещенности ниже {1}. Текущий: {0}</r></e>
+  <e k="K" key="FFF.Cannot.TableNotInLightness"><s>require bright environment with light level higher than {1}. Current: {0}</s><r>требуется яркое окружение с уровнем освещенности выше {1}. Текущий: {0}</r></e>
+  <e k="K" key="FFF.Cannot.TableNotInLightnessBetween"><s>require light environment between {1} and {2}. Current: {0}</s><r>требуют освещения от {1} до {2}. Текущий: {0}</r></e>
+  <e k="K" key="FFF.Cannot.TableNotInMicroGravity"><s>require in a microgravity environment.</s><r>требуют в условиях микрогравитации.</r></e>
+  <e k="K" key="FFF.Cannot.TableNotInPressure"><s>require pressurized environment with vacuum rate lower than {1}. Current: {0}</s><r>требуется среда под давлением со степенью вакуума ниже {1}. Текущий: {0}</r></e>
+  <e k="K" key="FFF.Cannot.TableNotInPressureBetween"><s>require pressurized environment with a vacuum between {1} and {2}. Current: {0}</s><r>требуется среда под давлением с вакуумом от {1} до {2}. Текущий: {0}</r></e>
+  <e k="K" key="FFF.Cannot.TableNotInTemperatureBetween"><s>require temperature environment between {1} and {2}. Current: {0}</s><r>требуется температура окружающей среды от {1} до {2}. Текущий: {0}</r></e>
+  <e k="K" key="FFF.Cannot.TableNotInVacuum"><s>require low-pressure environment with vacuum rate higher than {1}. Current: {0}</s><r>требуется среда низкого давления со скоростью вакуума выше {1}. Текущий: {0}</r></e>
+  <e k="K" key="FFF.CannotReach"><s>Cannot reach</s><r>Невозможно достичь</r></e>
+  <e k="K" key="FFF.CapsuleMechAlarmed"><s>The alarm has reactivated {0}!</s><r>Будильник снова активировался {0}!</r></e>
+  <e k="K" key="FFF.CleanRoom"><s>Indoor cleanliness above: {0}</s><r>Чистота в помещении выше: {0}</r></e>
+  <e k="K" key="FFF.ColonistCount"><s>Colonist counts:{0}</s><r>Количество колонистов:{0}</r></e>
+  <e k="K" key="FFF.ContainsMech"><s>Contains: {0}</s><r>Содержит: {0}</r></e>
+  <e k="K" key="FFF.CurrentOperator"><s>Operator:</s><r>Оператор:</r></e>
+  <e k="K" key="FFF.DamageBlocker.Absorbed"><s>Damage absorbed.</s><r>Урон поглощен.</r></e>
+  <e k="K" key="FFF.DamageBlocker.Charges"><s>Block charges: {0}/{1}</s><r>Заряды за блок: {0}/{1}</r></e>
+  <e k="K" key="FFF.DamageBlocker.Replenish"><s>Replenish ({0} x{1})</s><r>Пополнить ({0} x{1})</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.ActionBlock"><s>fully blocked</s><r>полностью заблокирован</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.ActionClamp"><s>clamped to {0}</s><r>зафиксировано на {0}</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.ActionPass"><s>passes through</s><r>проходит через</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.Behavior"><s>Threshold behavior</s><r>Пороговое поведение</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.BehaviorAbove"><s>Above threshold: {0} ({1})</s><r>Выше порога: {0} ({1})</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.BehaviorBelow"><s>Below threshold: {0} ({1})</s><r>Ниже порога: {0} ({1})</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.BehaviorDesc"><s>How this protection reacts to hits above and below the threshold.</s><r>Как эта защита реагирует на попадания выше и ниже порога.</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.Category"><s>Threshold protection</s><r>Пороговая защита</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.Charges"><s>Block charges</s><r>Блокировать сборы</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.ChargesDesc"><s>Number of times this protection can block before it must be replenished.</s><r>Сколько раз эта защита может блокироваться, прежде чем ее необходимо будет пополнить.</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.ConsumeNo"><s>no charge cost</s><r>без комиссии</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.ConsumeYes"><s>consumes a charge</s><r>потребляет заряд</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.Era"><s>Trigger behavior</s><r>Триггерное поведение</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.EraEntry"><s>{0} {1} to {2}</s><r>от {0} от {1} до {2}</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.EraEntryCond"><s>If {0} below {1}: {2}</s><r>Если {0} ниже {1}: {2}</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.EraEntryNone"><s>No counter damage</s><r>Нет встречного урона</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.EraNever"><s>never</s><r>никогда</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.EraOnAbove"><s>above threshold</s><r>выше порога</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.EraOnBelow"><s>below threshold</s><r>ниже порога</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.EraOnConsume"><s>charge consumed</s><r>заряд израсходован</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.EraOnHit"><s>any hit</s><r>любой удар</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.EraPartRandom"><s>a random part</s><r>случайная часть</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.EraTrigger"><s>Triggers on: {0}</s><r>Срабатывает при: {0}</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.EraValue"><s>{0} reaction(s)</s><r>{0} реакция(и)</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.Filter"><s>Active conditions</s><r>Активные условия</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.FilterAllowed"><s>Only blocks: {0}</s><r>Только блоки: {0}</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.FilterDesc"><s>Restrictions on which attacks this protection responds to.</s><r>Ограничения, на какие атаки реагирует данная защита.</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.FilterExcluded"><s>Ignores: {0}</s><r>Игнорирует: {0}</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.FilterSource"><s>Attack sources: {0}</s><r>Источники атак: {0}</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.FilterValue"><s>Restricted</s><r>Ограниченный</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.FilterWeaponTags"><s>Weapon tags: {0}</s><r>Теги оружия: {0}</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.SourceDirect"><s>direct</s><r>прямой</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.SourceMelee"><s>melee</s><r>ближний бой</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.SourceNone"><s>none</s><r>никто</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.SourceRanged"><s>ranged</s><r>дальнего боя</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.Threshold"><s>Split threshold</s><r>Порог разделения</r></e>
+  <e k="K" key="FFF.DamageBlocker.Stat.ThresholdDesc"><s>The damage amount at which this protection activates.</s><r>Сумма урона, при которой активируется эта защита.</r></e>
+  <e k="K" key="FFF.DamageBlocker.Threshold"><s>Split threshold: {0}{1}</s><r>Порог разделения: {0}{1}</r></e>
+  <e k="K" key="FFF.Darkness"><s>Indoor brightness below: {0}</s><r>Яркость в помещении ниже: {0}</r></e>
+  <e k="K" key="FFF.DeactivateMech"><s>Deactivate</s><r>Деактивировать</r></e>
+  <e k="K" key="FFF.DeactivateMechDesc"><s>Put this mech into hibernation mode. It will become a dormant structure that can be reactivated later by a mechanitor.</s><r>Переведите этот механизм в режим гибернации. Он станет бездействующей структурой, которую позже сможет активировать механизатор.</r></e>
+  <e k="K" key="FFF.DeactivatedMech_CannotControl"><s>Cannot control</s><r>Не могу контролировать</r></e>
+  <e k="K" key="FFF.DeactivatedMech_CannotHack"><s>Cannot hack</s><r>Не могу взломать</r></e>
+  <e k="K" key="FFF.DeactivatedMech_Control"><s>Control {0}</s><r>Контроль {0}</r></e>
+  <e k="K" key="FFF.DeactivatedMech_TryHack"><s>Try hacking {0}</s><r>Попробуйте взломать {0}</r></e>
+  <e k="K" key="FFF.DeployDrone"><s>Deploy {0}</s><r>Развернуть {0}</r></e>
+  <e k="K" key="FFF.DeployDroneDesc"><s>Consume stored {0} to deploy up to {1} {2} drones. If the platform is destroyed, all {3} controlled by it will shut down. {4} operates on internal batteries and automatically returns to the platform when the battery is low.</s><r>Потратьте накопленные {0}, чтобы развернуть до {1} {2} дронов. Если платформа будет уничтожена, все {3}, контролируемые ею, отключатся. {4} работает от внутренних батарей и автоматически возвращается на платформу при низком заряде батареи.</r></e>
+  <e k="K" key="FFF.DeviceIntercepted"><s>Shielding device intercepted: {0}</s><r>Защитное устройство перехвачено: {0}</r></e>
+  <e k="K" key="FFF.DisabledUndrafted"><s>not drafted</s><r>не составлен</r></e>
+  <e k="K" key="FFF.Drone.AllowedAreaDesc"><s>Set the allow area for Drones, deployed Drone will comply with the platform's area settings.</s><r>Установите зону разрешений для дронов, развернутый дрон будет соответствовать настройкам зоны платформы.</r></e>
+  <e k="K" key="FFF.Drone.ControllerNotDrafted"><s>platform not drafted</s><r>платформа не разработана</r></e>
+  <e k="K" key="FFF.Drone.ControllerNotInControl"><s>platform not controlled</s><r>платформа не контролируется</r></e>
+  <e k="K" key="FFF.Drone.ControllerNotInMap"><s>platform not exist in the map</s><r>платформа не существует на карте</r></e>
+  <e k="K" key="FFF.Drone.GenericPlural"><s>drones</s><r>дроны</r></e>
+  <e k="K" key="FFF.Drone.KindLocked"><s>requires {0}</s><r>требуется {0}</r></e>
+  <e k="K" key="FFF.Drone.NoControlPlatform"><s>control platform unavailable</s><r>платформа управления недоступна</r></e>
+  <e k="K" key="FFF.Drone.NoController"><s>No control</s><r>Нет контроля</r></e>
+  <e k="K" key="FFF.Drone.NoPlatform"><s>The deployment platform for {0} is unavailable</s><r>Платформа развертывания для {0} недоступна.</r></e>
+  <e k="K" key="FFF.Drone.NoRestrict"><s>Unrestricted</s><r>Неограниченный</r></e>
+  <e k="K" key="FFF.Drone.NoSpawnKind"><s>No deployable unit type available</s><r>Нет доступных типов развертываемых юнитов.</r></e>
+  <e k="K" key="FFF.Drone.Return"><s>Return to platform</s><r>Вернуться на платформу</r></e>
+  <e k="K" key="FFF.Drone.ReturnDesc"><s>Commands drone return to the deployment platform and shut down, which will restore the consumed resources.</s><r>Команды дрона возвращаются на платформу развертывания и отключаются, что позволит восстановить израсходованные ресурсы.</r></e>
+  <e k="K" key="FFF.Drone.SelectKind"><s>Deploy type: {0}</s><r>Тип развертывания: {0}</r></e>
+  <e k="K" key="FFF.Drone.SelectKindDesc"><s>Choose which unit type this platform deploys. Units already in the field are not affected.</s><r>Выберите, какой тип подразделения будет развернут на этой платформе. Юниты, уже находящиеся в поле, не затрагиваются.</r></e>
+  <e k="K" key="FFF.DropGears"><s>Drop inventories</s><r>Удаление инвентаря</r></e>
+  <e k="K" key="FFF.EnvironmentExemption.Cleanliness"><s>cleanliness</s><r>чистота</r></e>
+  <e k="K" key="FFF.EnvironmentExemption.CleanlinessOffset"><s>cleanliness -{0}</s><r>чистота -{0}</r></e>
+  <e k="K" key="FFF.EnvironmentExemption.Darkness"><s>darkness</s><r>темнота</r></e>
+  <e k="K" key="FFF.EnvironmentExemption.DarknessOffset"><s>darkness +{0}</s><r>темнота +{0}</r></e>
+  <e k="K" key="FFF.EnvironmentExemption.Desc"><s>While linked and active, this facility waives or relaxes the environmental requirements of recipes crafted at the connected workbench.</s><r>Будучи подключенным и активным, этот объект отменяет или смягчает экологические требования к рецептам, созданным на подключенном верстаке.</r></e>
+  <e k="K" key="FFF.EnvironmentExemption.Inactive"><s>inactive</s><r>неактивный</r></e>
+  <e k="K" key="FFF.EnvironmentExemption.Label"><s>Environmental exemption</s><r>Экологическое освобождение</r></e>
+  <e k="K" key="FFF.EnvironmentExemption.Lightness"><s>brightness</s><r>яркость</r></e>
+  <e k="K" key="FFF.EnvironmentExemption.LightnessOffset"><s>brightness -{0}</s><r>яркость -{0}</r></e>
+  <e k="K" key="FFF.EnvironmentExemption.MicroGravity"><s>microgravity</s><r>микрогравитация</r></e>
+  <e k="K" key="FFF.EnvironmentExemption.NoneLabel"><s>none</s><r>никто</r></e>
+  <e k="K" key="FFF.EnvironmentExemption.Pressure"><s>pressure</s><r>давление</r></e>
+  <e k="K" key="FFF.EnvironmentExemption.PressureOffset"><s>pressure +{0}</s><r>давление +{0}</r></e>
+  <e k="K" key="FFF.EnvironmentExemption.RecipeNote"><s>(may be waived by a linked facility)</s><r>(может быть отменено связанным учреждением)</r></e>
+  <e k="K" key="FFF.EnvironmentExemption.StatusLine"><s>Exempted: {0}</s><r>Освобождено: {0}</r></e>
+  <e k="K" key="FFF.EnvironmentExemption.Temperature"><s>temperature</s><r>температура</r></e>
+  <e k="K" key="FFF.EnvironmentExemption.TemperatureOffset"><s>temperature ±{0}</s><r>температура ±{0}</r></e>
+  <e k="K" key="FFF.EnvironmentExemption.Vacuum"><s>vacuum</s><r>пустой</r></e>
+  <e k="K" key="FFF.EnvironmentExemption.VacuumOffset"><s>vacuum -{0}</s><r>вакуум -{0}</r></e>
+  <e k="K" key="FFF.EnvironmentRestriction"><s>required environment</s><r>необходимая среда</r></e>
+  <e k="K" key="FFF.ExplosiveOnDead"><s>Will detonate explosives payloads after collision</s><r>Взорвет полезные грузы взрывчатки после столкновения.</r></e>
+  <e k="K" key="FFF.FillMechPlatform"><s>Prioritize filling {0}x{1}</s><r>Приоритет заполнения {0}x{1}</r></e>
+  <e k="K" key="FFF.FrameNotSupported"><s>Mech frame not supported</s><r>Механическая рама не поддерживается</r></e>
+  <e k="K" key="FFF.HackFailed"><s>Hack Failed</s><r>Взлом не удался</r></e>
+  <e k="K" key="FFF.HackFailedDesc"><s>{0} failed to hack the mech. The mech has awakened and is now hostile!</s><r>{0} не удалось взломать механизм. Мех проснулся и теперь настроен враждебно!</r></e>
+  <e k="K" key="FFF.Inprinted"><s>Imprinted: {0}</s><r>Напечатано: {0}</r></e>
+  <e k="K" key="FFF.InprintedDesc"><s>the colony mech {0} has equipped with its first weapon, this makes its adaptive learning ability bound to that type of weapon.</s><r>колониальный робот {0} оснастил своим первым оружием, поэтому его способность к адаптивному обучению привязана к этому типу оружия.</r></e>
+  <e k="K" key="FFF.Lightness"><s>Indoor brightness above: {0}</s><r>Яркость в помещении выше: {0}</r></e>
+  <e k="K" key="FFF.LightnessDarkness"><s>indoor brightness between: {0} ~ {1}</s><r>яркость в помещении между: {0} ~ {1}</r></e>
+  <e k="K" key="FFF.MechActivated"><s>{0} has been activated and is now under {1}'s control.</s><r>{0} был активирован и теперь находится под контролем {1}.</r></e>
+  <e k="K" key="FFF.MechDeactivated"><s>{0} has entered hibernation mode.</s><r>{0} перешел в режим гибернации.</r></e>
+  <e k="K" key="FFF.MechModification.AppliedQueued"><s>Settings applied; {0} operation(s) queued.</s><r>Настройки применены; {0} операции поставлены в очередь.</r></e>
+  <e k="K" key="FFF.MechModification.Apply"><s>Apply</s><r>Применять</r></e>
+  <e k="K" key="FFF.MechModification.GizmoDesc"><s>Open this mech's modification window. Requires microelectronics.</s><r>Откройте окно модификации этого механизма. Требуется микроэлектроника.</r></e>
+  <e k="K" key="FFF.MechModification.GizmoLabel"><s>Mech modification</s><r>Механическая модификация</r></e>
+  <e k="K" key="FFF.MechModification.InfoAge"><s>Service age: {0}</s><r>Возраст службы: {0}</r></e>
+  <e k="K" key="FFF.MechModification.InfoName"><s>Name: {0}</s><r>Имя: {0}</r></e>
+  <e k="K" key="FFF.MechModification.InfoRace"><s>Model: {0}</s><r>Модель: {0}</r></e>
+  <e k="K" key="FFF.MechModification.InvalidModification"><s>This item does not define a valid mech modification.</s><r>Этот элемент не определяет действительную модификацию механизма.</r></e>
+  <e k="K" key="FFF.MechModification.LoadPreset"><s>Load preset</s><r>Загрузить пресет</r></e>
+  <e k="K" key="FFF.MechModification.MergeFailed"><s>{0} could not be merged into the modification already installed on {1}.</s><r>{0} не удалось объединить с модификацией, уже установленной на {1}.</r></e>
+  <e k="K" key="FFF.MechModification.Missing"><s>missing</s><r>отсутствующий</r></e>
+  <e k="K" key="FFF.MechModification.NoModsOnMap"><s>No compatible modification is available on this map.</s><r>На этой карте нет совместимых модификаций.</r></e>
+  <e k="K" key="FFF.MechModification.NotEnoughItems"><s>There are not enough reachable {0} on this map.</s><r>На этой карте недостаточно достижимых {0}.</r></e>
+  <e k="K" key="FFF.MechModification.PartFallback"><s>frame</s><r>рамка</r></e>
+  <e k="K" key="FFF.MechModification.PartOccupied"><s>{0} already has another modification installed or queued.</s><r>У {0} уже установлена ​​или поставлена ​​в очередь другая модификация.</r></e>
+  <e k="K" key="FFF.MechModification.PendingUninstall"><s>queued for removal</s><r>в очереди на удаление</r></e>
+  <e k="K" key="FFF.MechModification.PresetDefaultName"><s>Mech preset</s><r>Предустановка механизма</r></e>
+  <e k="K" key="FFF.MechModification.PresetLoadFailed"><s>Could not load preset: {0}</s><r>Не удалось загрузить пресет: {0}</r></e>
+  <e k="K" key="FFF.MechModification.PresetLoaded"><s>Preset loaded: {0}</s><r>Предустановка загружена: {0}</r></e>
+  <e k="K" key="FFF.MechModification.PresetSaved"><s>Preset saved: {0}</s><r>Предустановка сохранена: {0}</r></e>
+  <e k="K" key="FFF.MechModification.QueueEmpty"><s>No queued operations.</s><r>Никаких операций в очереди.</r></e>
+  <e k="K" key="FFF.MechModification.QueueInstall"><s>Install {0} on {1}</s><r>Установите {0} на {1}</r></e>
+  <e k="K" key="FFF.MechModification.QueueTitle"><s>Queued operations</s><r>Операции в очереди</r></e>
+  <e k="K" key="FFF.MechModification.QueueUninstall"><s>Remove {0} from {1}</s><r>Удалить {0} из {1}</r></e>
+  <e k="K" key="FFF.MechModification.Reset"><s>Reset</s><r>Перезагрузить</r></e>
+  <e k="K" key="FFF.MechModification.Return"><s>Return</s><r>Возвращаться</r></e>
+  <e k="K" key="FFF.MechModification.SavePreset"><s>Save preset</s><r>Сохранить пресет</r></e>
+  <e k="K" key="FFF.MechModification.SelectModsFor"><s>Available modifications for {0}</s><r>Доступные модификации для {0}</r></e>
+  <e k="K" key="FFF.MechModification.SelectPartPrompt"><s>Select a body slot.</s><r>Выберите слот корпуса.</r></e>
+  <e k="K" key="FFF.MechModification.SlotsTitle"><s>Body slots and installed modifications</s><r>Слоты кузова и устанавливаемые модификации</r></e>
+  <e k="K" key="FFF.MechModification.StackFull"><s>{0} has reached its installation limit ({1}).</s><r>{0} достиг предела установки ({1}).</r></e>
+  <e k="K" key="FFF.MechModification.Unique"><s>{0} is unique and cannot be installed more than once in the same slot.</s><r>{0} уникален и не может быть установлен более одного раза в один и тот же слот.</r></e>
+  <e k="K" key="FFF.MechModification.WindowTitle"><s>Modify {0}</s><r>Изменить {0}</r></e>
+  <e k="K" key="FFF.MechReturn"><s>missing mech returned</s><r>пропавший механизм вернулся</r></e>
+  <e k="K" key="FFF.MechReturnDesc"><s>a wandering mech that was under your command has returned to your base.</s><r>странствующий робот, находившийся под вашим командованием, вернулся на вашу базу.</r></e>
+  <e k="K" key="FFF.MechStartLeave"><s>{0} is leaving</s><r>{0} уходит</r></e>
+  <e k="K" key="FFF.MechStartLeaveDesc"><s>After spending some time together, {0} decided it is time to leave.</s><r>Проведя некоторое время вместе, {0} решил, что пора уходить.</r></e>
+  <e k="K" key="FFF.MechStory_Attack"><s>{0}'s after story</s><r>{0} история после</r></e>
+  <e k="K" key="FFF.MechStory_Loot"><s>{0}'s return of favors</s><r>{0} ответная услуга</r></e>
+  <e k="K" key="FFF.MechWake"><s>switch reset failure</s><r>ошибка сброса переключателя</r></e>
+  <e k="K" key="FFF.MechWakeDesc"><s>maybe because it has been wandering for a long time, the dead man switch doesn't reset as usual, and the faulty unit has gained its understanding of death. 
+
+It named itself and now refuses to be controlled, but it respected its former commander. 
+
+it will follow your command until it decides to leave.</s><r>возможно, потому, что он долго блуждал, переключатель мертвеца не сбрасывается как обычно, и неисправный блок обрел понимание смерти. 
+
+Оно назвало себя и теперь отказывается от контроля, но уважает своего бывшего командира. 
+
+он будет следовать вашей команде, пока не решит уйти.</r></e>
+  <e k="K" key="FFF.Message.AddonBroken"><s>A modification durability on one of your mechs has exhausted</s><r>Срок службы модификации на одном из ваших мехов исчерпан.</r></e>
+  <e k="K" key="FFF.Message.BandwidthSupported"><s>Orbital downlink has established connection with mechanitor</s><r>Орбитальная линия связи установила связь с механатором.</r></e>
+  <e k="K" key="FFF.Message.BillSuspended"><s>{0} on {1} were suspended</s><r>{0} на {1} были приостановлены</r></e>
+  <e k="K" key="FFF.Message.CannotPlaceWithoutWall"><s>must be placed on a wall or door</s><r>необходимо разместить на стене или двери</r></e>
+  <e k="K" key="FFF.Message.Modification.Applied"><s>Modification applied</s><r>Модификация применена</r></e>
+  <e k="K" key="FFF.Message.Modification.Removed"><s>Modification removed</s><r>Модификация удалена</r></e>
+  <e k="K" key="FFF.Message.MustOnACoverBuilding"><s>must be placed on a cover building</s><r>должен быть размещен в укрытии здания</r></e>
+  <e k="K" key="FFF.MessageCooldownRemaining"><s>Device cooling: remain {0}</s><r>Охлаждение устройства: остается {0}</r></e>
+  <e k="K" key="FFF.MessageDeviceReady"><s>{0} has finished cooling and back operational.</s><r>{0} завершил охлаждение и снова работает.</r></e>
+  <e k="K" key="FFF.MicroGravity"><s>Microgravity</s><r>Микрогравитация</r></e>
+  <e k="K" key="FFF.MinifiedDeployable.NotOwned"><s>not owned by your faction; claim it first</s><r>не принадлежит вашей фракции; заяви об этом первым</r></e>
+  <e k="K" key="FFF.MinifiedDeployable.SelectedAreaBlocked"><s>area blocked</s><r>территория заблокирована</r></e>
+  <e k="K" key="FFF.Mod.CannotUseDueToNotSupport"><s>This weapon mod cannot be applied here</s><r>Этот мод оружия здесь нельзя применить.</r></e>
+  <e k="K" key="FFF.Mod.NotAGun"><s>Target is not a weapon</s><r>Target не оружие</r></e>
+  <e k="K" key="FFF.Mod.NotModifiable"><s>This weapon does not support modifications</s><r>Это оружие не поддерживает модификации</r></e>
+  <e k="K" key="FFF.Mod.NotValidForThisWeapon"><s>This modification is not valid for this weapon</s><r>Данная модификация не действительна для данного оружия.</r></e>
+  <e k="K" key="FFF.Modification_NoValidPart"><s>no body part to attach modification</s><r>нет части тела, которую можно было бы прикрепить модификацию</r></e>
+  <e k="K" key="FFF.Modification_NotColonyMech"><s>Only mechanoids of your colony can be modified.</s><r>Модифицировать можно только механоидов вашей колонии.</r></e>
+  <e k="K" key="FFF.Modification_RaceNotSupported"><s>model not supported</s><r>модель не поддерживается</r></e>
+  <e k="K" key="FFF.Modification_Remove"><s>remove {0}</s><r>удалить {0}</r></e>
+  <e k="K" key="FFF.Mothball.Reason.Downed"><s>Cannot mothball while downed</s><r>Невозможно законсервировать в сбитом состоянии.</r></e>
+  <e k="K" key="FFF.Mothball.Reason.Drafted"><s>Cannot mothball while drafted</s><r>Нельзя законсервировать во время призыва</r></e>
+  <e k="K" key="FFF.Mothball.Reason.NoCapsule"><s>No suitable storage frame for this chassis</s><r>Для этого шасси нет подходящей рамы для хранения.</r></e>
+  <e k="K" key="FFF.Mothball.Reason.NotMech"><s>Not a mechanoid</s><r>Не механоид</r></e>
+  <e k="K" key="FFF.Mothball.Reason.NotPlayer"><s>Not under your control</s><r>Не под вашим контролем</r></e>
+  <e k="K" key="FFF.Mothball.Reason.NotSpawned"><s>Not deployed</s><r>Не развернуто</r></e>
+  <e k="K" key="FFF.MountedWeapon"><s>Mounted weapon</s><r>Установленное оружие</r></e>
+  <e k="K" key="FFF.MountedWeaponCanOnlyBeEquippedBySpecificApparelOrRaces"><s>This weapon can only be equipped with listed automatroid or mech frame</s><r>Это оружие может быть оснащено только указанным автоматическим или механическим корпусом.</r></e>
+  <e k="K" key="FFF.MountedWeaponNotSupported"><s>mounted weapon, needs a supporting frame, apparel or bionics</s><r>установленное оружие, нуждается в опорной раме, одежде или бионике</r></e>
+  <e k="K" key="FFF.MultiTurret.AttackRectTip"><s>Select turret target, use {0} to set it for all turrets, use Right click to clear forced target ({0} for all turrets).</s><r>Выберите цель турели, используйте {0}, чтобы установить ее для всех турелей, используйте правый щелчок, чтобы очистить заданную цель ({0} для всех турелей).</r></e>
+  <e k="K" key="FFF.MultiTurret.AutoAttackTip"><s>Toggle auto attack mode, use {0} to set it for all turrets.</s><r>Переключите режим автоматической атаки, используйте {0}, чтобы установить его для всех турелей.</r></e>
+  <e k="K" key="FFF.MultiTurret.CommandSetAmmoSettings"><s>Ammo settings</s><r>Настройки боеприпасов</r></e>
+  <e k="K" key="FFF.MultiTurret.CommandSetAmmoSettingsDesc"><s>Set auto pick up ammo settings.</s><r>Установите настройки автоматического подбора боеприпасов.</r></e>
+  <e k="K" key="FFF.MultiTurret.DropWeaponTip"><s>Drop turret weapon, use {0} to drop all weapons.</s><r>Бросьте турельное оружие, используйте {0}, чтобы бросить все оружие.</r></e>
+  <e k="K" key="FFF.MultiTurret.NoWeapon"><s>No turret</s><r>Нет турели</r></e>
+  <e k="K" key="FFF.MultiTurret.SelectAmmoTypeTip"><s>Select ammo type. Current: {0}</s><r>Выберите тип боеприпасов. Текущий: {0}</r></e>
+  <e k="K" key="FFF.MultiTurret.WeaponSlot"><s>Slot</s><r>Слот</r></e>
+  <e k="K" key="FFF.NeedMoreBandwidth"><s>Need {0} bandwidth to control this mech.</s><r>Для управления этим механизмом нужна полоса пропускания {0}.</r></e>
+  <e k="K" key="FFF.NotCooldown"><s>Unable to start: not cooled yet</s><r>Невозможно запустить: еще не остыл</r></e>
+  <e k="K" key="FFF.PlatingTooltip"><s>Disposable ceramic armor protects the mecha from damage as ablative armor until its durability is exhausted and needs replacement.</s><r>Одноразовая керамическая броня защищает механизм от повреждений в виде абляционной брони до тех пор, пока ее срок службы не исчерпается и не потребуется замена.</r></e>
+  <e k="K" key="FFF.PressureRestriction"><s>Requires pressure: {0}</s><r>Требуется давление: {0}</r></e>
+  <e k="K" key="FFF.PressureVacuum"><s>Vacuum between: {0} ~ {1}</s><r>Вакуум между: {0} ~ {1}</r></e>
+  <e k="K" key="FFF.Reason.AltitudeLayerOccupied"><s>altitude layer occupied</s><r>занят высотный слой</r></e>
+  <e k="K" key="FFF.Reason.FrameNotSupported"><s>Mech frame not supported</s><r>Механическая рама не поддерживается</r></e>
+  <e k="K" key="FFF.Reason.NeedBandwidth"><s>Need {0} bandwidth</s><r>Требуется пропускная способность {0}</r></e>
+  <e k="K" key="FFF.Reason.NoEnoughFuel"><s>Not enough fuel</s><r>Недостаточно топлива</r></e>
+  <e k="K" key="FFF.Reason.NoMechanitorInMap"><s>Need mechanitor in map</s><r>Нужен механизатор на карте</r></e>
+  <e k="K" key="FFF.Reason.NoPayloadCapacity"><s>Inventory full</s><r>Инвентарь полон</r></e>
+  <e k="K" key="FFF.Reason.NotFueled"><s>No fuel</s><r>Это было не топливо</r></e>
+  <e k="K" key="FFF.Reason.NotMechanitor"><s>Not a mechanitor</s><r>Не механик</r></e>
+  <e k="K" key="FFF.Reason.WeaponNotSupported"><s>Weapon system not supported</s><r>Система вооружения не поддерживается</r></e>
+  <e k="K" key="FFF.Reason.WorkTypeDisabled"><s>Research work disabled</s><r>Исследовательская работа отключена</r></e>
+  <e k="K" key="FFF.Recycle.Gizmo"><s>Recycle</s><r>Переработка</r></e>
+  <e k="K" key="FFF.Recycle.GizmoDesc"><s>Mark this unit to be dismantled on the spot for materials. A colonist with construction work enabled will come and take it apart.
+
+Expected yield: {0}</s><r>Отметьте этот блок для разборки на месте для получения материалов. Колонист с включенными строительными работами придет и разберет его.
+
+Ожидаемая доходность: {0}</r></e>
+  <e k="K" key="FFF.Recycle.Marked"><s>Marked for recycling</s><r>Отмечено для переработки</r></e>
+  <e k="K" key="FFF.Recycle.NoProducts"><s>nothing</s><r>ничего</r></e>
+  <e k="K" key="FFF.Recycle.NotOurs"><s>not ours to dismantle</s><r>не нам демонтаж</r></e>
+  <e k="K" key="FFF.Recycle.Order"><s>Recycle {0}</s><r>Переработка {0}</r></e>
+  <e k="K" key="FFF.Recycle.OrderWithProducts"><s>Recycle {0} ({1})</s><r>Переработка {0} ({1})</r></e>
+  <e k="K" key="FFF.Req_BodySize"><s>Can equip heavy weapon with bodysize requirement below:{0}</s><r>Можно экипировать тяжелое оружие, размер тела которого указан ниже:{0}</r></e>
+  <e k="K" key="FFF.Req_NoWeaponFilter"><s>No other weapon restrictions</s><r>Никаких других ограничений на оружие.</r></e>
+  <e k="K" key="FFF.Req_TechLevel"><s>Must be in listed tech level:</s><r>Должен быть на указанном технологическом уровне:</r></e>
+  <e k="K" key="FFF.Req_WeaponFilter"><s>Limited to use listed weapon below</s><r>Ограничено использование оружия, указанного ниже.</r></e>
+  <e k="K" key="FFF.RequireOperator"><s>Requires operator</s><r>Требуется оператор</r></e>
+  <e k="K" key="FFF.RetractDrones"><s>Retract all {0}</s><r>Убрать все {0}</r></e>
+  <e k="K" key="FFF.RetractDronesDesc"><s>Command all {0} controlled by this platform to withdraw, which will replenish the {1} consumption.</s><r>Прикажите всем {0}, контролируемым этой платформой, вывести средства, что пополнит потребление {1}.</r></e>
+  <e k="K" key="FFF.SelectWeapon"><s>Select turret</s><r>Выберите турель</r></e>
+  <e k="K" key="FFF.Settings.ShowDevCategory"><s>Show &quot;Building(Dev)&quot; category in dev mode</s><r>Показать категорию «Здание (Разработка)» в режиме разработки.</r></e>
+  <e k="K" key="FFF.Settings.ShowDevCategory.Desc"><s>Contains god-mode-only map-design buildings from this framework and mods built on it.</s><r>Содержит здания, созданные только для режима бога, из этого фреймворка и моды, построенные на его основе.</r></e>
+  <e k="K" key="FFF.Shielded"><s>Shielded</s><r>Экранированный</r></e>
+  <e k="K" key="FFF.StartWarmup"><s>Start broadcast</s><r>Начать трансляцию</r></e>
+  <e k="K" key="FFF.StopWarmup"><s>Stop broadcast</s><r>Остановить трансляцию</r></e>
+  <e k="K" key="FFF.TakeToInventory"><s>Take {0}</s><r>Возьми {0}</r></e>
+  <e k="K" key="FFF.Temperature"><s>Indoor temperature between: {0} ~ {1}</s><r>Температура в помещении: {0} ~ {1}.</r></e>
+  <e k="K" key="FFF.Vacuum"><s>Vacuum above: {0}</s><r>Вакуум выше: {0}</r></e>
+  <e k="K" key="FFF.ViewUsableWeapons"><s>View Usable Weapons</s><r>Посмотреть доступное оружие</r></e>
+  <e k="K" key="FFF.WeaponCanBeEquippedBySpecificApparelOrRaces"><s>This weapon can be equipped with listed specific apparel or bionics</s><r>Это оружие может быть оснащено указанной в списке одеждой или бионикой.</r></e>
+  <e k="K" key="FFF.WeaponImprinted"><s>Imprinted: {0}({1})</s><r>Напечатано: {0}({1})</r></e>
+  <e k="K" key="FFF.WeaponNotSupported"><s>Weapon not supported</s><r>Оружие не поддерживается</r></e>
+  <e k="K" key="FFF.WillCooldownAt"><s>will complete cooling at:</s><r>завершит охлаждение в:</r></e>
+  <e k="K" key="FFF.WillReadyAt"><s>will complete broadcast at:</s><r>завершит трансляцию по адресу:</r></e>
+  <e k="K" key="FFF.WillTerminateTheBetrayedUnit"><s>DMS: Trigger Safe Actived</s><r>DMS: Активирован безопасный триггер</r></e>
+  <e k="K" key="FFF.WokenMechLeave"><s>{0} is leaving</s><r>{0} уходит</r></e>
+  <e k="K" key="FFF.WokenMechLeaveDesc"><s>After spending some time together, {0} decided it is time to leave.</s><r>Проведя некоторое время вместе, {0} решил, что пора уходить.</r></e>
+  <e k="K" key="FFF_2Columns"><s>2 Columns</s><r>2 столбца</r></e>
+  <e k="K" key="FFF_4Columns"><s>4 Columns</s><r>4 столбца</r></e>
+  <e k="K" key="FFF_6Columns"><s>6 Columns</s><r>6 столбцов</r></e>
+  <e k="K" key="FFF_AlertScanner_Detecting"><s>Intruder detected!</s><r>Нарушитель обнаружен!</r></e>
+  <e k="K" key="FFF_AlertScanner_Offline"><s>Scanner offline</s><r>Сканер оффлайн</r></e>
+  <e k="K" key="FFF_AlertScanner_Rearming"><s>Scanner re-arming: {0}</s><r>Перевооружение сканера: {0}</r></e>
+  <e k="K" key="FFF_AlertScanner_Watching"><s>Scanning for intruders</s><r>Сканирование на предмет злоумышленников</r></e>
+  <e k="K" key="FFF_Alert_AirspaceBlockade_End"><s>The airspace blockade has lifted.</s><r>Блокада воздушного пространства снята.</r></e>
+  <e k="K" key="FFF_Alert_AirspaceBlockade_Start"><s>Airspace blockade in effect. Shuttles and transport pods cannot take off from this map.</s><r>Действует блокада воздушного пространства. Шаттлы и транспортные капсулы не могут взлетать с этой карты.</r></e>
+  <e k="K" key="FFF_Alert_AlertLevel_Desc"><s>Alert-detection buildings on this map have raised the security alert level to {0}.
+
+If the level reaches maximum, an automated countermeasure will be triggered. Neutralize the scanners to let it decay.
+
+Monitored buildings: {1}</s><r>Здания, обнаруживающие тревогу на этой карте, подняли уровень тревоги безопасности до {0}.
+
+Если уровень достигнет максимума, будут активированы автоматические контрмеры. Нейтрализуйте сканеры, чтобы он разложился.
+
+Наблюдаемые здания: {1}</r></e>
+  <e k="K" key="FFF_Alert_AlertLevel_Desc_Triggered"><s>The security alert level has reached maximum and an automated countermeasure is now active.
+
+Monitored buildings: {0}</s><r>Уровень тревоги безопасности достиг максимального уровня, и теперь активны автоматические меры противодействия.
+
+Отслеживаемые здания: {0}</r></e>
+  <e k="K" key="FFF_Alert_AlertLevel_Label"><s>Alert level {0}</s><r>Уровень оповещения {0}</r></e>
+  <e k="K" key="FFF_Alert_AlertLevel_Label_Triggered"><s>Alert triggered!</s><r>Сработало оповещение!</r></e>
+  <e k="K" key="FFF_Alert_PrecisionBombardment_End"><s>The precision bombardment has ended.</s><r>Точная бомбардировка закончилась.</r></e>
+  <e k="K" key="FFF_Alert_PrecisionBombardment_Start"><s>Precision bombardment incoming. Strikes will keep landing on this map until the countermeasure expires.</s><r>Приближается высокоточная бомбардировка. Удары будут попадать на эту карту до тех пор, пока не истечет срок действия контрмеры.</r></e>
+  <e k="K" key="FFF_Alert_ReleaseEntity_Triggered"><s>Security response: {0} {1} released!</s><r>Ответ службы безопасности: {0} {1} выпущено!</r></e>
+  <e k="K" key="FFF_ArmThermiteDevice"><s>Arm device</s><r>Устройство постановки на руку</r></e>
+  <e k="K" key="FFF_BaseBrightness"><s>Base Brightness</s><r>Базовая яркость</r></e>
+  <e k="K" key="FFF_BatteryFull"><s>full</s><r>полный</r></e>
+  <e k="K" key="FFF_Blue"><s>Blue</s><r>Синий</r></e>
+  <e k="K" key="FFF_CamoScheme"><s>Camouflage Scheme</s><r>Схема камуфляжа</r></e>
+  <e k="K" key="FFF_CamoStandard"><s>Standard</s><r>Стандартный</r></e>
+  <e k="K" key="FFF_CamoStandardDesc"><s>Standard (no camouflage)</s><r>Стандартный (без камуфляжа)</r></e>
+  <e k="K" key="FFF_Camouflage_CooldownDesc"><s>Time left till camouflage reset: {0}.</s><r>До сброса камуфляжа осталось: {0}.</r></e>
+  <e k="K" key="FFF_Camouflage_Desc"><s>Toggle camouflage mode.</s><r>Переключить режим камуфляжа.</r></e>
+  <e k="K" key="FFF_Camouflage_Label"><s>Camouflage</s><r>Камуфляж</r></e>
+  <e k="K" key="FFF_CancelPaint"><s>Cancel Paint</s><r>Отменить рисование</r></e>
+  <e k="K" key="FFF_CancelPaintDesc"><s>Cancel the pending paint job</s><r>Отменить ожидающую покраску</r></e>
+  <e k="K" key="FFF_ChangePaint"><s>Change Paint</s><r>Сменить краску</r></e>
+  <e k="K" key="FFF_ChangePaintDesc"><s>Open the custom paint interface.</s><r>Откройте пользовательский интерфейс рисования.</r></e>
+  <e k="K" key="FFF_Color1"><s>Color 1 (R)</s><r>Цвет 1 (R)</r></e>
+  <e k="K" key="FFF_Color2"><s>Color 2 (G)</s><r>Цвет 2 (Г)</r></e>
+  <e k="K" key="FFF_Color3"><s>Color 3 (B)</s><r>Цвет 3 (Б)</r></e>
+  <e k="K" key="FFF_CompContinuousDamager_Activate"><s>Activate</s><r>Активировать</r></e>
+  <e k="K" key="FFF_CompContinuousDamager_Deactivate"><s>Deactivate</s><r>Деактивировать</r></e>
+  <e k="K" key="FFF_CompContinuousDamager_Desc"><s>Activate this device. It will deal {0} {2} damage every interval for {1} seconds, then destroy itself.</s><r>Активируйте это устройство. Он будет наносить {0} {2} урона каждый интервал в течение {1} секунд, а затем уничтожит себя.</r></e>
+  <e k="K" key="FFF_CompContinuousDamager_Remaining"><s>Active — time remaining: {0}</s><r>Активно — оставшееся время: {0}</r></e>
+  <e k="K" key="FFF_Company_DescNoTarget"><s>This {1} belongs to {0}, and its target is unknown.</s><r>Этот {1} принадлежит {0}, и его цель неизвестна.</r></e>
+  <e k="K" key="FFF_Company_DescTarget"><s>This {1} belongs to {0} and is likely targeting {2} within its combat radius.</s><r>Этот {1} принадлежит {0} и, вероятно, нацелен на {2} в пределах своего боевого радиуса.</r></e>
+  <e k="K" key="FFF_Company_RaidLabel"><s>Attack: {0}</s><r>Атака: {0}</r></e>
+  <e k="K" key="FFF_Company_RaidText"><s>The {1} of {0} is moving on your colony, and its platoons will attack from several directions.</s><r>{1} из {0} движется к вашей колонии, и его взводы будут атаковать с нескольких направлений.</r></e>
+  <e k="K" key="FFF_ConfirmPaint"><s>Confirm Color</s><r>Подтвердить цвет</r></e>
+  <e k="K" key="FFF_ContinuousDamagerAlreadyActive"><s>Device is already active.</s><r>Устройство уже активно.</r></e>
+  <e k="K" key="FFF_CopyPaintConfig"><s>Copy Config</s><r>Копировать конфигурацию</r></e>
+  <e k="K" key="FFF_Green"><s>Green</s><r>Зеленый</r></e>
+  <e k="K" key="FFF_Huntdown_AlertExplanation"><s>{0} is tracking this location. It is only a matter of time before they attack.</s><r>{0} отслеживает это местоположение. Это только вопрос времени, когда они нападут.</r></e>
+  <e k="K" key="FFF_Huntdown_AlertExplanationCritical"><s>{0} has found this location. Their attack is imminent.</s><r>{0} нашел это место. Их атака неизбежна.</r></e>
+  <e k="K" key="FFF_Huntdown_AlertLabel"><s>Hunted by {0}</s><r>Охотится {0}</r></e>
+  <e k="K" key="FFF_Huntdown_AlertLabelCritical"><s>{0} closing in</s><r>{0} приближается</r></e>
+  <e k="K" key="FFF_Huntdown_LetterLabel"><s>Hunted</s><r>Охота</r></e>
+  <e k="K" key="FFF_Huntdown_LetterText"><s>{0} has picked up your trail. A hunting party will be sent after you before long.</s><r>{0} нашёл ваш след. Вскоре за вами будет отправлен охотничий отряд.</r></e>
+  <e k="K" key="FFF_Huntdown_ScenSummary"><s>hunted by {0} from the start</s><r>за ним охотится {0} с самого начала</r></e>
+  <e k="K" key="FFF_InternalBattery"><s>Internal battery</s><r>Внутренняя батарея</r></e>
+  <e k="K" key="FFF_LadarDetectedInvisible"><s>Invisible object nearby</s><r>Невидимый объект рядом</r></e>
+  <e k="K" key="FFF_Lockdown_CannotOverride"><s>Cannot override</s><r>Невозможно переопределить</r></e>
+  <e k="K" key="FFF_Lockdown_Countdown"><s>Facility lockdown in {0}.</s><r>Блокировка объекта в {0}.</r></e>
+  <e k="K" key="FFF_Lockdown_Disarmed"><s>{HACKER_nameDef} has disarmed the lockdown controller. It will no longer seal the facility.</s><r>{HACKER_nameDef} отключил контроллер блокировки. Он больше не будет опечатывать объект.</r></e>
+  <e k="K" key="FFF_Lockdown_Disarmed_NoHacker"><s>The lockdown controller has been disarmed. It will no longer seal the facility.</s><r>Контроллер блокировки снят с охраны. Он больше не будет опечатывать объект.</r></e>
+  <e k="K" key="FFF_Lockdown_GateLocked"><s>Locked down</s><r>Заблокировано</r></e>
+  <e k="K" key="FFF_Lockdown_GateLost"><s>Permanently sealed</s><r>Постоянно запечатанный</r></e>
+  <e k="K" key="FFF_Lockdown_GateSealed"><s>Sealed: needs an emergency override from the surface</s><r>Запечатан: требуется экстренное вмешательство с поверхности.</r></e>
+  <e k="K" key="FFF_Lockdown_GraceCancelled"><s>Someone can deal with the lockdown again. The people trapped below still have a chance.</s><r>Кто-то может снова справиться с локдауном. У людей, оказавшихся в ловушке внизу, еще есть шанс.</r></e>
+  <e k="K" key="FFF_Lockdown_GraceLeft"><s>Anyone trapped below will be lost in {0}</s><r>Любой, кто окажется в ловушке внизу, потеряется через {0}.</r></e>
+  <e k="K" key="FFF_Lockdown_InspectCountdown"><s>Lockdown in {0}</s><r>Блокировка через {0}</r></e>
+  <e k="K" key="FFF_Lockdown_InspectDisarmed"><s>Disarmed</s><r>Разоружен</r></e>
+  <e k="K" key="FFF_Lockdown_InspectIdle"><s>Standing by</s><r>Ожидание</r></e>
+  <e k="K" key="FFF_Lockdown_InspectLocked"><s>Facility locked down</s><r>Объект заблокирован</r></e>
+  <e k="K" key="FFF_Lockdown_Lifted"><s>{HACKER_nameDef} has hacked the lockdown controller. The blast gates are opening.</s><r>{HACKER_nameDef} взломал контроллер блокировки. Взрывные ворота открываются.</r></e>
+  <e k="K" key="FFF_Lockdown_Lifted_NoHacker"><s>The lockdown controller has been hacked. The blast gates are opening.</s><r>Контроллер блокировки был взломан. Взрывные ворота открываются.</r></e>
+  <e k="K" key="FFF_Lockdown_LockedLabel"><s>Facility locked down</s><r>Объект заблокирован</r></e>
+  <e k="K" key="FFF_Lockdown_LockedText"><s>The blast gates have closed and the entrance hack has been wiped. Nobody is getting in or out until someone hacks the lockdown controller, or hacks the entrance open again from the surface.</s><r>Взрывные ворота закрылись, а входной хак был очищен. Никто не войдет и не выйдет, пока кто-нибудь не взломает контроллер блокировки или не взломает вход снова с поверхности.</r></e>
+  <e k="K" key="FFF_Lockdown_LostLabel"><s>Lost in the facility</s><r>Потерялся на объекте</r></e>
+  <e k="K" key="FFF_Lockdown_LostText"><s>Nobody came. The facility stays sealed, and everyone trapped inside is now counted as missing:
+
+{0}</s><r>Никто не пришел. Объект остаётся запечатанным, и все, кто оказался внутри, теперь считаются пропавшими без вести:
+
+{0}</r></e>
+  <e k="K" key="FFF_Lockdown_Overridden"><s>{PAWN_nameDef} has forced the entrance open from the surface. The facility is accessible again.</s><r>{PAWN_nameDef} заставил вход открыться с поверхности. Объект снова доступен.</r></e>
+  <e k="K" key="FFF_Lockdown_Override"><s>Emergency override on {0}</s><r>Аварийное переопределение на {0}</r></e>
+  <e k="K" key="FFF_Lockdown_OverrideProgress"><s>Override progress: {0}</s><r>Переопределить прогресс: {0}</r></e>
+  <e k="K" key="FFF_Lockdown_SealedLabel"><s>Facility sealed</s><r>Объект опечатан</r></e>
+  <e k="K" key="FFF_Lockdown_SealedText"><s>The lockdown controller has been destroyed, and the facility has sealed itself completely. It can no longer be opened from inside.
+
+Someone on the surface has to work the entrance's emergency override, or hack the entrance open again, to get the doors open.</s><r>Контроллер блокировки был уничтожен, и объект полностью изолировался. Его больше нельзя открыть изнутри.
+
+Кто-то на поверхности должен активировать аварийное управление входом или снова взломать вход, чтобы открыть двери.</r></e>
+  <e k="K" key="FFF_Lockdown_StartedLabel"><s>Facility lockdown</s><r>Блокировка объекта</r></e>
+  <e k="K" key="FFF_Lockdown_StartedText"><s>The facility's alert level has maxed out and the lockdown controller has engaged. In {0}, the blast gates will close and the lifts will stop working.
+
+Get out now, or hack the lockdown controller to stop it. Do not destroy it: it is built to seal the facility completely if it goes down.</s><r>Уровень тревоги на объекте достиг максимального уровня, и сработал контроллер блокировки. В {0} взрывные ворота закроются, и лифты перестанут работать. 
+
+Выходите сейчас или взломайте контроллер блокировки, чтобы остановить его. Не разрушайте его: он предназначен для полной изоляции объекта в случае его обрушения.</r></e>
+  <e k="K" key="FFF_Lockdown_TrappedLabel"><s>Trapped below</s><r>В ловушке ниже</r></e>
+  <e k="K" key="FFF_Lockdown_TrappedText"><s>Our people are sealed inside the facility, and nobody can get them out: no one below can hack the lockdown controller, and no one on the surface can override or re-hack the entrance.
+
+If nothing changes within {0}, they will be given up as lost.</s><r>Наши люди заперты внутри объекта, и никто не может их вывести: никто внизу не может взломать контроллер блокировки, и никто на поверхности не может перехватить или повторно взломать вход.
+
+Если в пределах {0} ничего не изменится, они будут считаться потерянными.</r></e>
+  <e k="K" key="FFF_MessageLadarTriggered"><s>A perimeter scanner has detected an invisible creature.</s><r>Сканер периметра обнаружил невидимое существо.</r></e>
+  <e k="K" key="FFF_NextRaidIn"><s>Estimated raid time: {0}</s><r>Расчетное время рейда: {0}</r></e>
+  <e k="K" key="FFF_NextStrikeIn"><s>Estimated strike time: {0}</s><r>Расчетное время удара: {0}</r></e>
+  <e k="K" key="FFF_NextStrikeStatus"><s>Air support status: {0}</s><r>Статус воздушной поддержки: {0}</r></e>
+  <e k="K" key="FFF_NoContinuousDamagerComp"><s>No continuous damager component found on this building.</s><r>В этом здании не обнаружено компонентов непрерывного повреждения.</r></e>
+  <e k="K" key="FFF_NoDye"><s>No dye available nearby</s><r>Красителя поблизости нет</r></e>
+  <e k="K" key="FFF_Occultech_ExtractorNoPower"><s>Inactive: no power</s><r>Неактивно: нет питания</r></e>
+  <e k="K" key="FFF_Occultech_ExtractorNoResearch"><s>Inactive: no project in progress</s><r>Неактивно: проект не выполняется</r></e>
+  <e k="K" key="FFF_Occultech_ExtractorNoSource"><s>Inactive: no knowledge font in front</s><r>Неактивно: впереди нет шрифта знаний</r></e>
+  <e k="K" key="FFF_Occultech_ExtractorSourceDepleted"><s>Inactive: font depleted</s><r>Неактивно: шрифт исчерпан</r></e>
+  <e k="K" key="FFF_Occultech_ExtractorStatDesc"><s>Knowledge points extracted per day while running. Knowledge is filed into the {0} category, overflowing into later categories of the same research tab.</s><r>Очки знаний, добываемые за день во время бега. Знания сохраняются в категории {0}, перетекая в более поздние категории той же вкладки исследований.</r></e>
+  <e k="K" key="FFF_Occultech_ExtractorStatLabel"><s>Extraction rate</s><r>Скорость извлечения</r></e>
+  <e k="K" key="FFF_Occultech_ExtractorWorking"><s>Extracting {0} knowledge/day (font: {1} left)</s><r>Извлечение {0} знаний/день (шрифт: {1} слева)</r></e>
+  <e k="K" key="FFF_Occultech_SourceDepleted"><s>Depleted — an inert husk; no knowledge remains</s><r>Depleted — инертная шелуха; никаких знаний не осталось</r></e>
+  <e k="K" key="FFF_Occultech_SourceRemaining"><s>Occult knowledge: {0} / {1} remaining</s><r>Оккультные знания: осталось {0} / {1}</r></e>
+  <e k="K" key="FFF_Occultech_SourceStatDesc"><s>Occult knowledge points still extractable from this font.</s><r>Очки оккультных знаний все еще можно извлечь из этого шрифта.</r></e>
+  <e k="K" key="FFF_Occultech_SourceStatLabel"><s>Knowledge reserve</s><r>Запас знаний</r></e>
+  <e k="K" key="FFF_OverlayNone"><s>No overlay</s><r>Нет наложения</r></e>
+  <e k="K" key="FFF_OverlayTitle"><s>Overlay</s><r>Наложение</r></e>
+  <e k="K" key="FFF_PaintConfigCopied"><s>Config copied</s><r>Конфигурация скопирована.</r></e>
+  <e k="K" key="FFF_PaintRequestSent"><s>Paint job dispatched</s><r>Покрасочные работы отправлены</r></e>
+  <e k="K" key="FFF_PaintSystemTitle"><s>Paint &amp; Color System</s><r>Краска и система цвета</r></e>
+  <e k="K" key="FFF_PastePaintConfig"><s>Paste Config</s><r>Вставить конфигурацию</r></e>
+  <e k="K" key="FFF_PastePaintConfigDesc"><s>Paste the copied paint configuration</s><r>Вставьте скопированную конфигурацию краски.</r></e>
+  <e k="K" key="FFF_RaidWave_Alert"><s>Raid Wave Inbound</s><r>Приходящая волна рейдов</r></e>
+  <e k="K" key="FFF_RaidWave_AlertDesc"><s>A raid wave from {0} is en route and will arrive shortly.</s><r>Рейдовая волна из {0} уже в пути и прибудет в ближайшее время.</r></e>
+  <e k="K" key="FFF_RaidWave_ConfirmDialog"><s>Calling {WAVE} will send the following forces against your colony:
+
+{PAWNS}
+
+Proceed?</s><r>Вызов {WAVE} направит против вашей колонии следующие силы:
+
+{PAWNS}
+
+Продолжить?</r></e>
+  <e k="K" key="FFF_RaidWave_Cooldown"><s>Raid wave unavailable for {0}.</s><r>Рейдовая волна недоступна для {0}.</r></e>
+  <e k="K" key="FFF_RaidWave_LetterLabel"><s>Raid Wave Incoming</s><r>Приближается рейдовая волна</r></e>
+  <e k="K" key="FFF_RaidWave_LetterText"><s>A raid wave from {0} has arrived and is now attacking your colony.</s><r>Налетная волна из {0} прибыла и теперь атакует вашу колонию.</r></e>
+  <e k="K" key="FFF_RaidWave_NoGameComponent"><s>FFF: RaidWave game component not found.</s><r>FFF: игровой компонент RaidWave не найден.</r></e>
+  <e k="K" key="FFF_ReadinessPatrol_Label"><s>Reinforcements</s><r>Подкрепления</r></e>
+  <e k="K" key="FFF_ReadinessPatrol_Text"><s>A patrol of {0} has reached this site, and follow-up units will now arrive more quickly.</s><r>Патруль {0} достиг этого места, и последующие подразделения теперь прибудут быстрее.</r></e>
+  <e k="K" key="FFF_Readiness_AlertExplanation"><s>{0} is currently at {1}.</s><r>{0} в настоящее время находится на {1}.</r></e>
+  <e k="K" key="FFF_Readiness_AtWar"><s>It is at war with {0}.</s><r>Он находится в состоянии войны с {0}.</r></e>
+  <e k="K" key="FFF_Readiness_DropIn"><s>If nothing provokes it further, it will stand down in {0}.</s><r>Если ничто не будет провоцировать его дальше, он отступит через {0}.</r></e>
+  <e k="K" key="FFF_Readiness_DropLabel"><s>{0} stands down</s><r>{0} отступает</r></e>
+  <e k="K" key="FFF_Readiness_DropText"><s>With things quieting down, {0} has lowered its readiness to {1}.</s><r>Когда все успокоилось, {0} понизил свою готовность до {1}.</r></e>
+  <e k="K" key="FFF_Readiness_LevelN"><s>Level {0}</s><r>Уровень {0}</r></e>
+  <e k="K" key="FFF_Readiness_PermanentHostilityLabel"><s>{0}: permanent enemy</s><r>{0}: постоянный враг</r></e>
+  <e k="K" key="FFF_Readiness_PermanentHostilityText"><s>You have pushed {0} too far: it has marked your colony as a permanent enemy and will never stand down again.</s><r>Вы зашли {0} слишком далеко: он пометил вашу колонию как постоянного врага и никогда больше не отступит.</r></e>
+  <e k="K" key="FFF_Readiness_Pressure"><s>It is {0} of the way to the next level.</s><r>Это {0} пути на следующий уровень.</r></e>
+  <e k="K" key="FFF_Readiness_RiseLabel"><s>{0} on alert</s><r>{0} в боевой готовности</r></e>
+  <e k="K" key="FFF_Readiness_RiseText"><s>Recent events have pushed {0} to raise its readiness to {1}.</s><r>Недавние события подтолкнули {0} повысить свою готовность до {1}.</r></e>
+  <e k="K" key="FFF_Readiness_TakeoverLabel"><s>Settlement taken</s><r>Расчет принят</r></e>
+  <e k="K" key="FFF_Readiness_TakeoverText"><s>{0} has taken {2} from {1} and renamed the settlement {3}.</s><r>{0} взял {2} из {1} и переименовал поселение в {3}.</r></e>
+  <e k="K" key="FFF_Readiness_WarLabel"><s>War declared</s><r>Объявлена ​​война</r></e>
+  <e k="K" key="FFF_Readiness_WarOverLabel"><s>War ended</s><r>Война закончилась</r></e>
+  <e k="K" key="FFF_Readiness_WarOverText"><s>{0} has announced the end of its campaign against {1}, and its forces are returning to their usual posture.</s><r>{0} объявила об окончании своей кампании против {1}, и ее силы возвращаются в свою обычную позицию.</r></e>
+  <e k="K" key="FFF_Readiness_WarText"><s>{0} has declared war on {1} and will send its forces against {1}'s settlements.</s><r>{0} объявил войну {1} и направит свои войска против поселений {1}.</r></e>
+  <e k="K" key="FFF_Red"><s>Red</s><r>Красный</r></e>
+  <e k="K" key="FFF_Research_DiscoveredLetterLabel"><s>Research revealed</s><r>Исследования показали</r></e>
+  <e k="K" key="FFF_Research_DiscoveredLetterText"><s>Our latest findings have made sense of archived material that was previously unreadable. The following research projects are no longer unknown, and can now be started:</s><r>Наши последние открытия придали смысл архивным материалам, которые ранее были нечитаемы. Следующие исследовательские проекты больше не являются неизвестными и теперь могут быть начаты:</r></e>
+  <e k="K" key="FFF_Research_UndiscoveredProject"><s>[an undiscovered technology]</s><r>[неизведанная технология]</r></e>
+  <e k="K" key="FFF_Research_UnsealLetterLabel"><s>Archived technology revealed</s><r>Раскрыта архивная технология</r></e>
+  <e k="K" key="FFF_Research_UnsealLetterText"><s>Successfully decrypted records mean the archived {PROJECT} is no longer unknown, and what we already have on file is worth {PROGRESS} points of research progress.</s><r>Успешно расшифрованные записи означают, что заархивированный {PROJECT} больше не является неизвестным, и то, что у нас уже есть в файле, приносит {PROGRESS} очка прогресса исследования.</r></e>
+  <e k="K" key="FFF_Research_UnsealNothingMessage"><s>The decrypted data holds no technical material worth having, but {PAWN} still gained {XP} {SKILL} experience from it.</s><r>Расшифрованные данные не содержат никакого технического материала, но {PAWN} все же получил от них {XP} {SKILL} опыта.</r></e>
+  <e k="K" key="FFF_Research_UnsealNothingNoGainMessage"><s>The decrypted data holds nothing worth having, and nobody could learn anything from it.</s><r>Расшифрованные данные не содержат ничего ценного, и никто не мог ничего из них узнать.</r></e>
+  <e k="K" key="FFF_Research_UnsealProgressMessage"><s>{PROJECT} advanced by {PROGRESS} research points.</s><r>{PROJECT} продвинуто на {PROGRESS} очков исследования.</r></e>
+  <e k="K" key="FFF_RimIgnore_CannotUpload"><s>The scan is incomplete, or no file would be uploaded.</s><r>Сканирование неполное, или файл не будет загружен.</r></e>
+  <e k="K" key="FFF_RimIgnore_ColPath"><s>Entry</s><r>Вход</r></e>
+  <e k="K" key="FFF_RimIgnore_ColRule"><s>Matched rule</s><r>Соответствующее правило</r></e>
+  <e k="K" key="FFF_RimIgnore_ColSize"><s>Size</s><r>Размер</r></e>
+  <e k="K" key="FFF_RimIgnore_Confirm"><s>Upload</s><r>Загрузить</r></e>
+  <e k="K" key="FFF_RimIgnore_Dbg_AllHaveIgnore"><s>Every local mod already has a {0}.</s><r>В каждом локальном моде уже есть {0}.</r></e>
+  <e k="K" key="FFF_RimIgnore_Dbg_LoadFailed"><s>Could not read {0}.</s><r>Не удалось прочитать {0}.</r></e>
+  <e k="K" key="FFF_RimIgnore_Dbg_NoIgnoreSuffix"><s> (no {0})</s><r> (нет {0})</r></e>
+  <e k="K" key="FFF_RimIgnore_Dbg_NoLocalMods"><s>No local mod folder found.</s><r>Локальная папка мода не найдена.</r></e>
+  <e k="K" key="FFF_RimIgnore_Dbg_ScanFailed"><s>Could not scan the mod folder.</s><r>Не удалось просканировать папку мода.</r></e>
+  <e k="K" key="FFF_RimIgnore_Dbg_TemplateCreated"><s>Created {0}</s><r>Создано {0}</r></e>
+  <e k="K" key="FFF_RimIgnore_Dbg_TemplateFailed"><s>Creation failed. See the dev console for details.</s><r>Создание не удалось. Подробности смотрите в консоли разработчика.</r></e>
+  <e k="K" key="FFF_RimIgnore_DirSize"><s>{0} files / {1}</s><r>{0} файлы / {1}</r></e>
+  <e k="K" key="FFF_RimIgnore_Err_LoadFailed"><s>Could not read {0}; upload aborted. See the dev console for details.</s><r>Не удалось прочитать {0}; загрузка прервана. Подробности смотрите в консоли разработчика.</r></e>
+  <e k="K" key="FFF_RimIgnore_Err_MirrorCountMismatch"><s>Mirrored file count mismatch (expected {0}, got {1}).</s><r>Несоответствие количества зеркальных файлов (ожидалось {0}, получено {1}).</r></e>
+  <e k="K" key="FFF_RimIgnore_Err_NothingToUpload"><s>No file would be uploaded after applying {0}; aborted.</s><r>После применения {0} ни один файл не будет загружен; прервано.</r></e>
+  <e k="K" key="FFF_RimIgnore_Err_PlanTruncated"><s>The scan is incomplete (safety limit exceeded); mirror creation aborted.</s><r>Сканирование неполное (превышен предел безопасности); создание зеркала прервано.</r></e>
+  <e k="K" key="FFF_RimIgnore_Err_ScanFailed"><s>Could not scan the mod folder; upload aborted. See the dev console for details.</s><r>Не удалось просканировать папку мода; загрузка прервана. Подробности смотрите в консоли разработчика.</r></e>
+  <e k="K" key="FFF_RimIgnore_Err_StagingFailed"><s>Failed to build the staging mirror; upload aborted (your original mod files were not touched).
+
+{0}</s><r>Не удалось создать промежуточное зеркало; загрузка прервана (исходные файлы мода не были затронуты).
+
+{0}</r></e>
+  <e k="K" key="FFF_RimIgnore_Err_StaleStagingLocked"><s>Could not clear the existing staging mirror: {0}</s><r>Не удалось очистить существующее промежуточное зеркало: {0}</r></e>
+  <e k="K" key="FFF_RimIgnore_Err_Unexpected"><s>Unexpected error while applying the ignore rules; upload aborted. See the dev console for details.</s><r>Непредвиденная ошибка при применении правил игнорирования; загрузка прервана. Подробности смотрите в консоли разработчика.</r></e>
+  <e k="K" key="FFF_RimIgnore_ErrorTitle"><s>Upload ignore rules failed</s><r>Не удалось загрузить правила игнорирования.</r></e>
+  <e k="K" key="FFF_RimIgnore_FileMissing"><s>.rimignore not found.</s><r>.rimignore не найден.</r></e>
+  <e k="K" key="FFF_RimIgnore_ModRootLabel"><s>[mod root]</s><r>[корень мода]</r></e>
+  <e k="K" key="FFF_RimIgnore_MoreWarnings"><s>… ({0} more)</s><r>… ({0} подробнее)</r></e>
+  <e k="K" key="FFF_RimIgnore_NothingExcluded"><s>Nothing is excluded.</s><r>Ничего не исключено.</r></e>
+  <e k="K" key="FFF_RimIgnore_OpenFile"><s>Open .rimignore</s><r>Открыть .rimignore</r></e>
+  <e k="K" key="FFF_RimIgnore_Rescan"><s>Rescan</s><r>Повторное сканирование</r></e>
+  <e k="K" key="FFF_RimIgnore_RescanFailed"><s>Rescan failed.</s><r>Повторное сканирование не удалось.</r></e>
+  <e k="K" key="FFF_RimIgnore_RuleLine"><s>L{0}: {1}</s><r>Л{0}: {1}</r></e>
+  <e k="K" key="FFF_RimIgnore_Subtitle"><s>{0} — upload filtered by {1}</s><r>{0} — загрузка отфильтрована по {1}</r></e>
+  <e k="K" key="FFF_RimIgnore_Summary"><s>Will upload: {0} files ({1})
+
+Excluded: {2} entries / {3} files ({4})</s><r>Будет загружено: {0} файлов ({1})
+
+Исключено: {2} записей / {3} файлов ({4})</r></e>
+  <e k="K" key="FFF_RimIgnore_Template"><s># .rimignore — files and folders to exclude when uploading to the Steam Workshop
+#
+# The syntax is identical to GitHub's .gitignore:
+#   #        comment (\# for a literal hash)
+#   !xxx     re-include; later rules override earlier ones
+#   /xxx     anchored to the mod root
+#   xxx/     directories only
+#   *        any characters, but never across /
+#   ?        a single character, but never across /
+#   [abc]    character set; [!abc] to negate
+#   **/xxx   at any depth; xxx/** for everything inside that folder
+#
+# Note: as in Git, once a directory is excluded its contents cannot be
+# re-included with !.
+# Always excluded by default: this file, .git/ .gitignore .gitattributes
+#                             .svn/ .hg/ .vs/ .idea/ .vscode/
+#                             Thumbs.db desktop.ini .DS_Store
+# Those built-in rules can be overridden with !, e.g. !.rimignore uploads this file too.
+
+# -- Source code and build output --
+/_Sources/
+/Source/
+**/obj/
+**/bin/
+*.pdb
+*.csproj.user
+*.sln
+*.suo
+
+# -- Unity project --
+/UnityProject/
+
+# -- Dev tools and shortcuts --
+/_Tools/
+*.lnk
+*.bat
+
+# -- Editor and backup noise --
+*.orig
+*.rej
+*.bak
+*~
+
+# -- Example: exclude a folder's contents but keep one file --
+# Exclude the *contents* rather than the folder itself, then re-include:
+# /Docs/*
+# !/Docs/Manual.md
+</s><r># .rimignore — файлы и папки, исключаемые при загрузке в Мастерскую Steam
+#
+# Синтаксис идентичен синтаксису .gitHub:
+# # comment (\# для буквального хэша)
+# !xxx re-include; более поздние правила переопределяют предыдущие
+# /xxx привязаны к корню мода
+# xxx/ только для каталогов
+# * любые символы, но никогда не в /
+# ?        один символ, но никогда не в наборе символов /
+# [abc]; [!abc] для отрицания
+# **/xxx на любой глубине; xxx/** для всего внутри этой папки
+#
+# Примечание: как и в Git, после исключения каталога его содержимое не может быть
+# повторно включено с помощью !.
+# Всегда исключается по умолчанию: этот файл, .git/ .gitignore .gitattributes
+# .svn/ .hg/ .vs/ .idea/ .vscode/
+# Thumbs.db Desktop.ini .DS_Store
+# Эти встроенные правила можно переопределить с помощью !, например. !.rimignore также загружает этот файл.
+
+# — Исходный код и выходные данные сборки --
+/_Sources/
+/Source/
+**/obj/
+**/bin/
+*.pdb
+*.csproj.user
+*.sln
+*.suo
+
+# -- Проект Unity --
+/UnityProject/
+
+# -- Инструменты разработки и ярлыки --
+/_Tools/
+*.lnk
+*.bat
+
+# -- Редактор и шум резервного копирования --
+*.orig
+*.rej
+*.bak
+*~
+
+# -- Пример: исключить содержимое папки, но сохранить один файл --
+# Исключить *содержимое*, а не саму папку, а затем повторно включить:
+# /Docs/*
+# !/Docs/Manual.md
+</r></e>
+  <e k="K" key="FFF_RimIgnore_Title"><s>Workshop upload — excluded content</s><r>Загрузка мастер-класса — исключенный контент</r></e>
+  <e k="K" key="FFF_RimIgnore_UploadAnyway"><s>Upload everything anyway</s><r>Все равно загрузите все</r></e>
+  <e k="K" key="FFF_RimIgnore_Warn_AttributeFailed"><s>Could not read entry attributes ({0}): {1}</s><r>Не удалось прочитать атрибуты записи ({0}): {1}</r></e>
+  <e k="K" key="FFF_RimIgnore_Warn_CompileFailed"><s>Line {0}: pattern failed to compile ({1}), ignored.</s><r>Строка {0}: шаблон не удалось скомпилировать ({1}), игнорируется.</r></e>
+  <e k="K" key="FFF_RimIgnore_Warn_DepthLimit"><s>Directory nesting exceeds {0} levels; stopped descending at: {1}</s><r>Вложенность каталогов превышает уровень {0}; перестал спускаться на: {1}</r></e>
+  <e k="K" key="FFF_RimIgnore_Warn_EmptyPattern"><s>Line {0}: empty pattern, ignored.</s><r>Строка {0}: пустой шаблон, игнорируется.</r></e>
+  <e k="K" key="FFF_RimIgnore_Warn_EntryLimit"><s>More than {0} entries; the scan was cut short. Check the paths in {1}.</s><r>Более {0} записей; сканирование было прервано. Проверьте пути в {1}.</r></e>
+  <e k="K" key="FFF_RimIgnore_Warn_ListDirFailed"><s>Could not list directory contents ({0}): {1}</s><r>Не удалось просмотреть содержимое каталога ({0}): {1}</r></e>
+  <e k="K" key="FFF_RimIgnore_Warn_NoPatternAfterBang"><s>Line {0}: no pattern after '!', ignored.</s><r>Строка {0}: после '!' нет шаблона, игнорируется.</r></e>
+  <e k="K" key="FFF_RimIgnore_Warn_ParseFailed"><s>Line {0}: could not parse pattern ({1}), ignored.</s><r>Строка {0}: не удалось проанализировать шаблон ({1}), игнорируется.</r></e>
+  <e k="K" key="FFF_RimIgnore_Warn_SkippedSymlink"><s>Skipped symlink / junction: {0}</s><r>Пропущенная символическая ссылка/переход: {0}</r></e>
+  <e k="K" key="FFF_RimIgnore_Warn_SlashOnly"><s>Line {0}: pattern is just '/', ignored.</s><r>Строка {0}: шаблон просто '/', игнорируется.</r></e>
+  <e k="K" key="FFF_RimIgnore_Warn_TooManyLines"><s>{0} exceeds {1} lines; the rest was skipped.</s><r>{0} превышает {1} строки; остальное было пропущено.</r></e>
+  <e k="K" key="FFF_SelectMechToControlDesc"><s>Select a mechanoid, or a mothballed mech in a storage cradle, to place under this overseer's control.</s><r>Выберите механоида или законсервированного робота в колыбели для хранения, чтобы передать его под контроль этого надзирателя.</r></e>
+  <e k="K" key="FFF_SelectMechToControlLabel"><s>Control mech</s><r>Механизм управления</r></e>
+  <e k="K" key="FFF_SelfPowered"><s>self-powered</s><r>автономный</r></e>
+  <e k="K" key="FFF_Site_LocalMonitoring"><s>Local monitoring (Offline)</s><r>Локальный мониторинг (офлайн)</r></e>
+  <e k="K" key="FFF_StandbyCharging"><s>standby, charging at {0} W</s><r>режим ожидания, зарядка при {0} Вт</r></e>
+  <e k="K" key="FFF_StandbyIdle"><s>standby</s><r>поддерживать</r></e>
+  <e k="K" key="FFF_Status_Standby"><s>Standby (Waiting for target)</s><r>Режим ожидания (ожидание цели)</r></e>
+  <e k="K" key="FFF_StructureGenerated"><s>Deployed structure: {0}</s><r>Развернутая структура: {0}</r></e>
+  <e k="K" key="FFF_Substation_EMPDisabled"><s>Status: Disabled by EMP</s><r>Статус: отключен EMP</r></e>
+  <e k="K" key="FFF_Substation_FlickedOffMessage"><s>With {SUBSTATION_label} down, {BUILDING_label} has switched off.</s><r>Когда {SUBSTATION_label} нажата, {BUILDING_label} выключается.</r></e>
+  <e k="K" key="FFF_Substation_HackPrompt"><s>Hack to shut down</s><r>Взломать, чтобы выключить</r></e>
+  <e k="K" key="FFF_Substation_HackedLabel"><s>Offline (shut down)</s><r>Оффлайн (выключен)</r></e>
+  <e k="K" key="FFF_Substation_HackedMsg"><s>{HACKER_labelShort} shut down {SUBJECT_label}.</s><r>{HACKER_labelShort} выключить {SUBJECT_label}.</r></e>
+  <e k="K" key="FFF_Substation_Offline"><s>Status: Offline (manually shut down)</s><r>Статус: Не в сети (выключено вручную)</r></e>
+  <e k="K" key="FFF_Substation_Online"><s>Status: Online — generating 3000 W</s><r>Статус: Онлайн — генерирует 3000 Вт</r></e>
+  <e k="K" key="FFF_Substation_ShockMessage"><s>{PAWN_labelShort} was shocked while shutting down the substation!</s><r>{PAWN_labelShort} был в шоке, отключая подстанцию!</r></e>
+  <e k="K" key="FFF_TimedSite_AlreadyActive"><s>an operation of this kind is already underway</s><r>подобная операция уже проводится</r></e>
+  <e k="K" key="FFF_TimedSite_CannotFindSite"><s>Unable to locate a target: no valid site could be found on the world map.</s><r>Невозможно обнаружить цель: на карте мира не найден ни один действительный объект.</r></e>
+  <e k="K" key="FFF_TimedSite_ClearedLabel"><s>Site secured</s><r>Сайт защищен</r></e>
+  <e k="K" key="FFF_TimedSite_ClearedText"><s>All hostiles at the site have been neutralized. Whatever remains on-site is yours to claim.</s><r>Все противники на объекте нейтрализованы. Все, что осталось на месте, принадлежит вам.</r></e>
+  <e k="K" key="FFF_TimedSite_EntryCountdownLabel"><s>Hostile site: reinforcements inbound</s><r>Враждебный объект: приближается подкрепление</r></e>
+  <e k="K" key="FFF_TimedSite_EntryCountdownText"><s>You have entered a hostile installation and your presence has been flagged.
+
+Enemy reinforcements will arrive in {0}. Finish your business and get out — or dig in.</s><r>Вы вошли на вражеский объект, и ваше присутствие было отмечено.
+
+Вражеское подкрепление прибудет в {0}. Завершите свои дела и уходите — или закопайтесь.</r></e>
+  <e k="K" key="FFF_TimedSite_ExpiredLabel"><s>Target site lost</s><r>Target сайт потерян</r></e>
+  <e k="K" key="FFF_TimedSite_ExpiredText"><s>The window of opportunity has closed. The target site has relocated and its position is lost.</s><r>Окно возможностей закрылось. Целевой сайт переместился, и его положение потеряно.</r></e>
+  <e k="K" key="RepairMech"><s>Repair {0}</s><r>Ремонт {0}</r></e>
+</AutoTranslateCache>
