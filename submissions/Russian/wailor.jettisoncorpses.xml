@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="wailor.jettisoncorpses" name="Jettison Corpses" language="Russian" version="1">
+  <e k="D" t="JobDef" key="JC_JettisonCorpse.reportString"><s>jettisoning TargetA.</s><r>выброс TargetA.</r></e>
+  <e k="D" t="ThoughtDef" key="JC_ColonistJettisoned.stages.0.description"><s>One of us was pushed out into the void like garbage. No grave, no ceremony, just gone.</s><r>Одного из нас выбросило в пустоту, как мусор. Никакой могилы, никакой церемонии, просто ушел.</r></e>
+  <e k="D" t="ThoughtDef" key="JC_ColonistJettisoned.stages.0.label"><s>colonist's body thrown into space</s><r>тело колониста выброшено в космос</r></e>
+  <e k="D" t="WorkGiverDef" key="JC_JettisonCorpses.gerund"><s>jettisoning</s><r>выбрасывание за борт</r></e>
+  <e k="D" t="WorkGiverDef" key="JC_JettisonCorpses.label"><s>jettison corpses</s><r>выбрасывать трупы</r></e>
+  <e k="D" t="WorkGiverDef" key="JC_JettisonCorpses.verb"><s>jettison</s><r>выбрасывать за борт</r></e>
+  <e k="K" key="JC_CannotJettison"><s>Cannot jettison {0}</s><r>Невозможно выбросить {0}</r></e>
+  <e k="K" key="JC_DesignatorJettison"><s>Jettison</s><r>Выброс</r></e>
+  <e k="K" key="JC_DesignatorJettisonDesc"><s>Mark corpses to be carried to the edge of the map and thrown into space. Anything they still wear or carry is lost with them, so strip them first if you want their gear.
+
+Only colonists protected from vacuum can do this job.</s><r>Отмечайте трупы, которые нужно отнести к краю карты и бросить в космос. Все, что они еще носят или несут, теряется вместе с ними, поэтому сначала разденьте их, если вам нужно их снаряжение.
+
+Только колонисты, защищенные от вакуума, могут выполнять эту работу.</r></e>
+  <e k="K" key="JC_Jettison"><s>Jettison {0} into space</s><r>Выбросить {0} в космос</r></e>
+  <e k="K" key="JC_MustDesignateCorpse"><s>Must designate corpses.</s><r>Обязательно обозначают трупы.</r></e>
+  <e k="K" key="JC_NeedsVacuumProtection"><s>needs vacuum protection</s><r>нужна вакуумная защита</r></e>
+  <e k="K" key="JC_NoEdge"><s>no reachable edge to space</s><r>нет достижимого края космоса</r></e>
+</AutoTranslateCache>
