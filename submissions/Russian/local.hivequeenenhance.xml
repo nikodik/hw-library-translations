@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="local.hivequeenenhance" name="虫后增强 Hive Queen Enhancement" language="Russian" version="1">
+  <e k="D" t="JobDef" key="HqE_AnalyzeCorpse.reportString"><s>Doing something.</s><r>Что-то делаю.</r></e>
+  <e k="D" t="JobDef" key="HqE_BroodAction.reportString"><s>Doing something.</s><r>Что-то делаю.</r></e>
+  <e k="D" t="ThingDef" key="HqE_EggSac.description"><s>A slimy sac laid by a hive queen, containing a developing larva. It hatches into a larva after a while. The larval gestation process generates a faint bioluminescent glow.</s><r>Слизистый мешок, отложенный королевой улья, содержащий развивающуюся личинку. Через некоторое время из него вылупляется личинка. Процесс беременности личинок генерирует слабое биолюминесцентное свечение.</r></e>
+  <e k="D" t="ThingDef" key="HqE_EggSac.label"><s>hive queen egg sac</s><r>мешок для яиц королевы улья</r></e>
+  <e k="D" t="ThingDef" key="HqE_Pupa.description"><s>A pupa formed by a larva preparing to metamorphose. After a while it will emerge as a random insectoid. The metamorphosis generates a faint bioluminescent glow.</s><r>Куколка, образованная личинкой, готовящейся к метаморфозу. Через некоторое время он превратится в случайного инсектоида. Метаморфоза генерирует слабое биолюминесцентное свечение.</r></e>
+  <e k="D" t="ThingDef" key="HqE_Pupa.label"><s>insect pupa</s><r>куколка насекомого</r></e>
+  <e k="K" key="HqE_AdultHunger"><s>Adult starting fullness: {0}</s><r>Начальная полнота для взрослых: {0}</r></e>
+  <e k="K" key="HqE_AdultHungerDesc"><s>How full the newly metamorphosed insect is. Low values make it emerge hungry.</s><r>Насколько полно новометаморфизованное насекомое. Низкие значения заставляют его чувствовать себя голодным.</r></e>
+  <e k="K" key="HqE_AnalyzeComplete"><s>{0} added to the hive's metamorphosis pool</s><r>{0} добавлено в пул метаморфоз улья.</r></e>
+  <e k="K" key="HqE_AnalyzeCorpse"><s>Analyze {0} corpse</s><r>Анализ трупа {0}</r></e>
+  <e k="K" key="HqE_AnalyzedLabel"><s>Analyzed</s><r>Проанализировано</r></e>
+  <e k="K" key="HqE_Back"><s>Back</s><r>Назад</r></e>
+  <e k="K" key="HqE_BodySize"><s>body size</s><r>размер тела</r></e>
+  <e k="K" key="HqE_ChooseMorphDesc"><s>Select the species this larva will metamorphose into.</s><r>Выберите вид, в который превратится эта личинка.</r></e>
+  <e k="K" key="HqE_ChooseMorphTitle"><s>Choose Metamorphosis</s><r>Выберите Метаморфозу</r></e>
+  <e k="K" key="HqE_EggHatch"><s>Egg sac hatch time (hours): {0}</s><r>Время вылупления яичного мешка (часы): {0}</r></e>
+  <e k="K" key="HqE_EggHatchDesc"><s>How long an egg sac takes to hatch into a larva (in-game hours).</s><r>Сколько времени требуется из яйцевого мешка на вылупление личинки (в игровых часах).</r></e>
+  <e k="K" key="HqE_EggInterval"><s>Egg-laying interval (hours): {0}</s><r>Интервал яйценоскости (часы): {0}</r></e>
+  <e k="K" key="HqE_EggIntervalDesc"><s>How long between each egg-laying cycle (in-game hours).</s><r>Сколько времени проходит между циклами откладки яиц (в игровых часах).</r></e>
+  <e k="K" key="HqE_EggLimit"><s>Max eggs this queen can lay (0 = unlimited): {0}</s><r>Максимальное количество яиц, которое может отложить королева (0 = неограниченно): {0}</r></e>
+  <e k="K" key="HqE_EggLimitDesc"><s>Maximum number of eggs this queen can lay over her lifetime. 0 = unlimited.</s><r>Максимальное количество яиц, которое эта королева может отложить за свою жизнь. 0 = неограниченно.</r></e>
+  <e k="K" key="HqE_EggNutrition"><s>Nutrition cost per egg: {0}</s><r>Стоимость питания за яйцо: {0}</r></e>
+  <e k="K" key="HqE_EggNutritionDesc"><s>Nutrition consumed per egg (0 = no cost). The queen feeds from the colony's food stores.</s><r>Потребление питательных веществ на одно яйцо (0 = без затрат). Королева питается из продовольственных запасов колонии.</r></e>
+  <e k="K" key="HqE_EggProgress"><s>Egg-laying progress: {0}</s><r>Прогресс яйцекладки: {0}</r></e>
+  <e k="K" key="HqE_EggZone"><s>queen egg-laying zone</s><r>зона яйцекладки королевы</r></e>
+  <e k="K" key="HqE_EggZoneDesc"><s>Hive queens head here to lay their egg sacs when the timer is about to end.</s><r>Королевы ульев направляются сюда, чтобы отложить яичные мешочки, когда таймер подходит к концу.</r></e>
+  <e k="K" key="HqE_Enable"><s>Enable Hive Queen Enhancement</s><r>Включить улучшение королевы улья</r></e>
+  <e k="K" key="HqE_EnableDesc"><s>Master switch. When off, queens stop laying, larvae stop pupating, and egg sacs / pupae stop hatching.</s><r>Главный переключатель. При выключении королевы перестают откладывать яйца, личинки перестают окукливаться, а яичные мешочки/куколки перестают вылупляться.</r></e>
+  <e k="K" key="HqE_ForceFeedRoyalJelly"><s>Eat Royal Jelly and prepare for metamorphosis</s><r>Ешьте маточное молочко и готовьтесь к метаморфозе</r></e>
+  <e k="K" key="HqE_GroupAdult"><s>Metamorphosed Adults</s><r>Метаморфизованные взрослые</r></e>
+  <e k="K" key="HqE_GroupAdultDesc"><s>Hunger state of newly metamorphosed insects.</s><r>Состояние голода вновь метаморфизованных насекомых.</r></e>
+  <e k="K" key="HqE_GroupFilter"><s>Metamorphosis Result Filter</s><r>Фильтр результатов метаморфозы</r></e>
+  <e k="K" key="HqE_GroupFilterDesc"><s>Body-size cap and species disables for metamorphosis results.</s><r>Ограничение размера тела и виды отключаются для результатов метаморфозы.</r></e>
+  <e k="K" key="HqE_GroupLarva"><s>Larva Metamorphosis</s><r>Метаморфоза личинки</r></e>
+  <e k="K" key="HqE_GroupLarvaDesc"><s>Settings for the larva → pupa → metamorphosis lifecycle.</s><r>Настройки жизненного цикла личинка → куколка → метаморфоза.</r></e>
+  <e k="K" key="HqE_GroupNutrition"><s>Larva Nutrition</s><r>Питание личинок</r></e>
+  <e k="K" key="HqE_GroupNutritionDesc"><s>Settings for the nutrition requirement before pupation (exponential: base × bodySize^exponent).</s><r>Настройки потребности в питании перед окукливанием (экспоненциальная: база × размер тела^экспонента).</r></e>
+  <e k="K" key="HqE_GroupQueen"><s>Queen Egg Laying</s><r>Королева яйцекладок</r></e>
+  <e k="K" key="HqE_GroupQueenDesc"><s>Settings for the queen's egg-laying cycle: interval, limits, hatch time, and multi-egg chance.</s><r>Настройки цикла яйцекладки матки: интервал, пределы, время высиживания и вероятность появления нескольких яиц.</r></e>
+  <e k="K" key="HqE_GroupQueenJelly"><s>Queen Jelly Detection (Egg-laying)</s><r>Обнаружение королевского желе (откладка яиц)</r></e>
+  <e k="K" key="HqE_GroupQueenJellyDesc"><s>Separate jelly settings used when the queen lays eggs, independent from the larva metamorphosis jelly settings.</s><r>Отдельные настройки студня используются, когда матка откладывает яйца, независимо от настроек желе метаморфоза личинки.</r></e>
+  <e k="K" key="HqE_GroupSeek"><s>Seek Zones</s><r>Поиск зон</r></e>
+  <e k="K" key="HqE_GroupSeekDesc"><s>When the creature should head toward the designated zone.</s><r>Когда существо должно направиться в назначенную зону.</r></e>
+  <e k="K" key="HqE_GroupSpecies"><s>Metamorphosis species (uncheck to disable)</s><r>Виды метаморфозы (снимите флажок, чтобы отключить)</r></e>
+  <e k="K" key="HqE_GroupSpeciesDesc"><s>Uncheck any species you do not want larvae to metamorphose into.</s><r>Снимите флажки с тех видов, в которые вы не хотите, чтобы личинки превращались.</r></e>
+  <e k="K" key="HqE_GroupStrain"><s>Larva Strain (Size Variance)</s><r>Штамм личинок (разница в размерах)</r></e>
+  <e k="K" key="HqE_GroupStrainDesc"><s>Each larva rolls a strain at birth: strong strains need more nutrition and become bigger, tougher, heavier adults - but slower.</s><r>Каждая личинка при рождении испытывает штамм: сильным штаммам требуется больше питания, и взрослые особи становятся крупнее, выносливее и тяжелее, но медленнее.</r></e>
+  <e k="K" key="HqE_GroupTiming"><s>Timing Variation</s><r>Изменение времени</r></e>
+  <e k="K" key="HqE_GroupTimingDesc"><s>Random offsets for egg-laying, incubation, pupation, and metamorphosis timers.</s><r>Случайные смещения для таймеров откладки яиц, инкубации, окукливания и метаморфоза.</r></e>
+  <e k="K" key="HqE_HatchProgress"><s>Hatch progress: {0}</s><r>Прогресс штриховки: {0}</r></e>
+  <e k="K" key="HqE_HediffDesc"><s>Species analyzed and unlocked for the hive's metamorphosis pool.</s><r>Виды проанализированы и разблокированы для метаморфозного пула улья.</r></e>
+  <e k="K" key="HqE_HediffLabel"><s>Gene Analysis</s><r>Генный анализ</r></e>
+  <e k="K" key="HqE_HiveMindScan"><s>Enable Hive Mind food-rate scan</s><r>Включить сканирование цен на еду Hive Mind</r></e>
+  <e k="K" key="HqE_HiveMindScanDesc"><s>When enabled and the queen is linked to the Hive Mind, egg-laying rate scales with total colony food. Off by default so the egg interval setting works normally.</s><r>Если эта функция включена и королева связана с Разумом Улья, скорость яйцекладки зависит от общего количества еды в колонии. По умолчанию выключено, поэтому настройка интервала яйца работает нормально.</r></e>
+  <e k="K" key="HqE_LarvaCanEatPlants"><s>Larvae can eat plants (grass)</s><r>Личинки могут поедать растения (траву)</r></e>
+  <e k="K" key="HqE_LarvaCanEatPlantsDesc"><s>When enabled, larvae can eat grass and other plants as food.</s><r>Если эта функция включена, личинки могут питаться травой и другими растениями.</r></e>
+  <e k="K" key="HqE_LarvaConversionRate"><s>Food → nutrition conversion rate: {0}</s><r>Коэффициент конверсии Еда → питание: {0}</r></e>
+  <e k="K" key="HqE_LarvaConversionRateDesc"><s>1.0 = every food point gives 1 pupation nutrition. Lower = efficiency loss.</s><r>1.0 = каждое очко еды дает 1 питание для окукливания. Меньше = потеря эффективности.</r></e>
+  <e k="K" key="HqE_LarvaFullFood"><s>Larvae can eat their fill (reach full food)</s><r>Личинки могут наедаться досыта (достигать полноценного питания)</r></e>
+  <e k="K" key="HqE_LarvaFullFoodDesc"><s>On: food is no longer capped at 20%; larvae can eat to full but hunger drains fast, driving frequent eating to accumulate pupation nutrition. Off: old forced-hunger cap mode.</s><r>Вкл: еда больше не ограничена 20%; личинки могут питаться досыта, но голод быстро угасает, что приводит к частому питанию для накопления питательных веществ для окукливания. Выкл.: старый режим принудительного ограничения голода.</r></e>
+  <e k="K" key="HqE_LarvaHediffDesc"><s>This larva is preparing to metamorphose. It must accumulate enough nutrition.</s><r>Эта личинка готовится к метаморфозу. Он должен накопить достаточно питания.</r></e>
+  <e k="K" key="HqE_LarvaHediffLabel"><s>Pupation Preparation</s><r>Подготовка к окуклению</r></e>
+  <e k="K" key="HqE_LarvaHungerRate"><s>Larva hunger rate: {0}</s><r>Уровень голода личинок: {0}</r></e>
+  <e k="K" key="HqE_LarvaHungerRateDesc"><s>In full-food mode extra hunger = vanilla natural rate ×(multiplier-1) (1 = same as vanilla; 4 = 3× faster, default). Applies only above 15%; below that vanilla hunger takes over.</s><r>В режиме полноценного питания дополнительный голод = естественная скорость ванили × (множитель-1) (1 = то же, что и ваниль; 4 = в 3 раза быстрее, по умолчанию). Применяется только выше 15%; ниже этого уровня ванильный голод берет верх.</r></e>
+  <e k="K" key="HqE_LarvaNutritionBase"><s>Nutrition base coefficient: {0}</s><r>Базовый коэффициент питания: {0}</r></e>
+  <e k="K" key="HqE_LarvaNutritionBaseDesc"><s>Base value before the body-size exponent. Higher = all species need more food.</s><r>Базовое значение перед показателем размера тела. Выше = всем видам нужно больше еды.</r></e>
+  <e k="K" key="HqE_LarvaNutritionExponent"><s>Body-size exponent: {0}</s><r>Показатель размера тела: {0}</r></e>
+  <e k="K" key="HqE_LarvaNutritionExponentDesc"><s>Exponent for body size. Higher = giant species cost disproportionately more.</s><r>Показатель степени размера тела. Выше = гигантские виды стоят непропорционально дороже.</r></e>
+  <e k="K" key="HqE_LarvaPupate"><s>Larva pupation time (hours): {0}</s><r>Время окукливания личинки (часы): {0}</r></e>
+  <e k="K" key="HqE_LarvaPupateDesc"><s>How long a larva feeds before pupating (in-game hours).</s><r>Как долго личинка питается перед окукливанием (игровые часы).</r></e>
+  <e k="K" key="HqE_MaxBodySize"><s>Max body size: {0} (megaspider = 1.2)</s><r>Максимальный размер тела: {0} (мегапаук = 1,2)</r></e>
+  <e k="K" key="HqE_MaxBodySizeDesc"><s>Insects larger than this body size will never be chosen. Megaspider = 1.2, spelopede = 0.8, megascarab = 0.2.</s><r>Насекомые крупнее этого размера тела никогда не будут выбраны. Мегапаук = 1,2, спелопеда = 0,8, мегаскарабей = 0,2.</r></e>
+  <e k="K" key="HqE_MetaZone"><s>larva metamorphosis zone</s><r>зона метаморфоза личинки</r></e>
+  <e k="K" key="HqE_MetaZoneDesc"><s>Larvae head here to pupate when the timer is about to end.</s><r>Личинки направляются сюда, чтобы окуклиться, когда таймер подходит к концу.</r></e>
+  <e k="K" key="HqE_MetamorphosisProgress"><s>Metamorphosis progress: {0}</s><r>Прогресс метаморфозы: {0}</r></e>
+  <e k="K" key="HqE_ModName"><s>Hive Queen Enhancement</s><r>Улучшение Королевы Улья</r></e>
+  <e k="K" key="HqE_MultiEggChance"><s>Chance to lay multiple eggs per time (%): {0}</s><r>Шанс отложить несколько яиц за раз (%): {0}</r></e>
+  <e k="K" key="HqE_MultiEggChanceDesc"><s>Chance that the queen lays multiple eggs at once. 0 = always 1 egg.</s><r>Вероятность того, что королева отложит несколько яиц одновременно. 0 = всегда 1 яйцо.</r></e>
+  <e k="K" key="HqE_MultiEggMax"><s>Max eggs when multi-egg triggers: {0}</s><r>Максимальное количество яиц при срабатывании нескольких яиц: {0}</r></e>
+  <e k="K" key="HqE_MultiEggMaxDesc"><s>Maximum eggs laid when multi-egg triggers.</s><r>Максимальное количество яиц, отложенных при срабатывании нескольких яиц.</r></e>
+  <e k="K" key="HqE_MultiEggMin"><s>Min eggs when multi-egg triggers: {0}</s><r>Минимальное количество яиц при срабатывании нескольких яиц: {0}</r></e>
+  <e k="K" key="HqE_MultiEggMinDesc"><s>Minimum eggs laid when multi-egg triggers.</s><r>Минимальное количество яиц, откладываемых при срабатывании нескольких яиц.</r></e>
+  <e k="K" key="HqE_NoAnalyzed"><s>No species analyzed yet.</s><r>Ни один вид еще не анализировался.</r></e>
+  <e k="K" key="HqE_NoInsectSpecies"><s>No insect species found.</s><r>Видов насекомых не обнаружено.</r></e>
+  <e k="K" key="HqE_NutritionProgress"><s>Pupation nutrition: {0} / {1}</s><r>Питание окукливания: {0} / {1}</r></e>
+  <e k="K" key="HqE_PickTierDesc"><s>The tier sets this larva's nutrition need and the adult's size/stats.</s><r>Уровень определяет потребность личинки в питании и размер/статистику взрослой особи.</r></e>
+  <e k="K" key="HqE_PupaHatch"><s>Pupa metamorphosis time (hours): {0}</s><r>Время метаморфоза куколки (часы): {0}</r></e>
+  <e k="K" key="HqE_PupaHatchDesc"><s>How long the pupa takes to metamorphose into an adult insect (in-game hours).</s><r>Сколько времени требуется куколке, чтобы превратиться во взрослое насекомое (в игровых часах).</r></e>
+  <e k="K" key="HqE_PupateProgress"><s>Pupation progress: {0}</s><r>Прогресс окукливания: {0}</r></e>
+  <e k="K" key="HqE_PupationReady"><s>{0} is ready to pupate. Select the larva and choose a species.</s><r>{0} готов к окукливанию. Выберите личинку и выберите вид.</r></e>
+  <e k="K" key="HqE_QueenJellyBias"><s>Queen jelly bias strength: {0}</s><r>Сила смещения королевского желе: {0}</r></e>
+  <e k="K" key="HqE_QueenJellyBiasDesc"><s>How strongly jelly shifts the size preference for the queen's egg targets. 0 = uniform; 1 = jelly fully determines size.</s><r>Насколько сильно желе меняет предпочтения по размеру яиц королевы. 0 = однородный; 1 = желе полностью определяет размер.</r></e>
+  <e k="K" key="HqE_QueenJellyFloor"><s>Queen jelly min weight: {0}</s><r>Минимальный вес королевского желе: {0}</r></e>
+  <e k="K" key="HqE_QueenJellyFloorDesc"><s>Minimum weight per species so no candidate is ever completely excluded.</s><r>Минимальный вес каждого вида, чтобы ни один кандидат не был полностью исключен.</r></e>
+  <e k="K" key="HqE_QueenJellyFull"><s>Queen jelly saturation amount: {0}</s><r>Насыщенность королевского желе: {0}</r></e>
+  <e k="K" key="HqE_QueenJellyFullDesc"><s>Saturation amount for the queen jelly detection. Once reached, strongly favors the largest species.</s><r>Величина насыщения для обнаружения маточного желе. После достижения сильно отдает предпочтение самым крупным видам.</r></e>
+  <e k="K" key="HqE_QueenJellyRadius"><s>Queen jelly search radius (cells): {0}</s><r>Радиус поиска королевского желе (ячейки): {0}</r></e>
+  <e k="K" key="HqE_QueenJellyRadiusDesc"><s>Search radius for counting jelly when the queen lays eggs.</s><r>Радиус поиска для подсчета желе, когда королева откладывает яйца.</r></e>
+  <e k="K" key="HqE_RandomOffset"><s>Random offset to all timers (%): {0}</s><r>Случайное смещение для всех таймеров (%): {0}</r></e>
+  <e k="K" key="HqE_RandomOffsetDesc"><s>Each cycle the actual time drifts by this much from the base value (0 = fixed).</s><r>В каждом цикле фактическое время отклоняется на эту величину от базового значения (0 = фиксированное).</r></e>
+  <e k="K" key="HqE_Reset"><s>Reset to defaults</s><r>Сбросить настройки по умолчанию</r></e>
+  <e k="K" key="HqE_RoyalJellyBonus"><s>Royal Jelly bonus nutrition: {0}</s><r>Бонусное питание маточного молочка: {0}</r></e>
+  <e k="K" key="HqE_RoyalJellyBonusDesc"><s>Extra pupation nutrition gained when eating Royal Jelly.</s><r>Дополнительное питание окукливания, полученное при употреблении в пищу маточного молочка.</r></e>
+  <e k="K" key="HqE_RoyalJellyFedLabel"><s>Royal Jelly active</s><r>Маточное молочко активное</r></e>
+  <e k="K" key="HqE_SeekPct"><s>Seek zone when progress is at (%): {0}</s><r>Зона поиска при прогрессе (%): {0}</r></e>
+  <e k="K" key="HqE_SeekPctDesc"><s>At what % of the cycle should the creature go to the zone. Higher = more idle time before heading there.</s><r>В каком % цикла существо должно перейти в зону. Выше = больше времени простоя, прежде чем отправиться туда.</r></e>
+  <e k="K" key="HqE_SpeciesExceedsSize"><s>(exceeds body-size limit)</s><r>(превышает ограничение по размеру тела)</r></e>
+  <e k="K" key="HqE_SpeciesRowTooltip"><s>{0} - body size: {1}. Toggle to allow/disallow this species from metamorphosis results.</s><r>{0} - размер тела: {1}. Переключите, чтобы разрешить/запретить этот вид использовать в результатах метаморфозы.</r></e>
+  <e k="K" key="HqE_StdNutritionHint"><s>Standard nutrition need ≈ {0}</s><r>Стандартная потребность в питании ≈ {0}</r></e>
+  <e k="K" key="HqE_StrainCap"><s>Strain absolute cap: {0}</s><r>Абсолютный предел деформации: {0}</r></e>
+  <e k="K" key="HqE_StrainCapDesc"><s>No strain (including manual picks) may exceed this size multiplier.</s><r>Никакая нагрузка (включая выборку вручную) не может превышать этот множитель.</r></e>
+  <e k="K" key="HqE_StrainDesc"><s>How this individual's size deviates from the standard insect.</s><r>Насколько размер этой особи отличается от стандартного насекомого.</r></e>
+  <e k="K" key="HqE_StrainEnabled"><s>Enable Strain Variance</s><r>Включить дисперсию деформации</r></e>
+  <e k="K" key="HqE_StrainEnabledDesc"><s>When off, all larvae metamorphose at standard size.</s><r>Если режим выключен, все личинки метаморфизируются до стандартного размера.</r></e>
+  <e k="K" key="HqE_StrainFilth"><s>Filth/droppings ×{0}</s><r>Грязь/помет ×{0}</r></e>
+  <e k="K" key="HqE_StrainHp"><s>Max HP ×{0}</s><r>Макс. HP ×{0}</r></e>
+  <e k="K" key="HqE_StrainLabel"><s>Strain</s><r>Напряжение</r></e>
+  <e k="K" key="HqE_StrainMass"><s>Mass/capacity ×{0} (scales with size)</s><r>Масса/емкость ×{0} (шкала с размером)</r></e>
+  <e k="K" key="HqE_StrainMeleeCd"><s>Melee attack interval ×{0}</s><r>Интервал рукопашной атаки ×{0}</r></e>
+  <e k="K" key="HqE_StrainMeleeDmg"><s>Melee damage ×{0}</s><r>Урон в ближнем бою ×{0}</r></e>
+  <e k="K" key="HqE_StrainMoveSpeed"><s>Strain move-speed influence: {0}</s><r>Влияние деформации на скорость перемещения: {0}</r></e>
+  <e k="K" key="HqE_StrainMoveSpeedDesc"><s>1 = bigger is strictly slower and smaller faster; 0 = unchanged.</s><r>1 = больше — строго медленнее, меньше — быстрее; 0 = без изменений.</r></e>
+  <e k="K" key="HqE_StrainRangeDesc"><s>Strain factor is random between floor and ceiling (1 = standard).</s><r>Коэффициент деформации является случайным для пола и потолка (1 = стандарт).</r></e>
+  <e k="K" key="HqE_StrainRangeMax"><s>Strain ceiling (size multiplier): {0}</s><r>Потолок деформации (множитель размера): {0}</r></e>
+  <e k="K" key="HqE_StrainRangeMin"><s>Strain floor (size multiplier): {0}</s><r>Пол деформации (множитель размера): {0}</r></e>
+  <e k="K" key="HqE_StrainSize"><s>Size: {0}%</s><r>Размер: {0}%</r></e>
+  <e k="K" key="HqE_StrainSpeed"><s>Move speed ×{0}</s><r>Скорость перемещения ×{0}</r></e>
+  <e k="K" key="HqE_StrainStandard"><s>Standard strain</s><r>Стандартный штамм</r></e>
+  <e k="K" key="HqE_StrainStrong"><s>Robust strain (nutrition {0}%)</s><r>Крепкий штамм (питание {0}%)</r></e>
+  <e k="K" key="HqE_StrainTierStandard"><s>Standard (size x1.0)</s><r>Стандартный (размер x1,0)</r></e>
+  <e k="K" key="HqE_StrainTierStrong"><s>Robust (size x{0}, high nutrition need)</s><r>Крепкий (размер x{0}, высокая потребность в питании)</r></e>
+  <e k="K" key="HqE_StrainTierWeak"><s>Frail (size x{0}, low nutrition need)</s><r>Хрупкий (размер x{0}, низкая потребность в питании)</r></e>
+  <e k="K" key="HqE_StrainWeak"><s>Frail strain (nutrition {0}%)</s><r>Слабый штамм (питание {0}%)</r></e>
+  <e k="K" key="HqE_TierEffect"><s>Size x{0} → final ~{1} · nutrition need ~{2}</s><r>Размер x{0} → окончательный ~{1} · потребность в питании ~{2}</r></e>
+  <e k="K" key="HqE_TierEffectStandard"><s>Size x1.0 · standard nutrition need</s><r>Размер x1,0 · стандартная потребность в питании</r></e>
+  <e k="K" key="HqE_WildBreeding"><s>Allow wild insects to breed on their own</s><r>Позвольте диким насекомым размножаться самостоятельно</r></e>
+  <e k="K" key="HqE_WildBreedingDesc"><s>When on, wild (non-player) hive queens keep laying egg sacs and wild larvae keep pupating on their own - by timer only, with no need to eat. When off they fall back to vanilla behaviour (no laying, no pupation). Wild insects only ever become vanilla base insects, never enter your egg-laying / metamorphosis zones, and ignore every other setting on this page.</s><r>Когда эта функция включена, дикие (неигровые) королевы ульев продолжают откладывать яичные мешочки, а дикие личинки продолжают окукливаться самостоятельно — только по таймеру, без необходимости есть. В выключенном состоянии они возвращаются к ванильному поведению (без кладки и окукливания). Дикие насекомые становятся только базовыми насекомыми ванили, никогда не заходят в ваши зоны откладки яиц/метаморфоза и игнорируют все остальные настройки на этой странице.</r></e>
+</AutoTranslateCache>
