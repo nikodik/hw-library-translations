@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="adaptive.storage.framework" name="Adaptive Storage Framework" language="Russian" version="1">
+  <e k="D" t="ContentLabelStyleDef" key="Automatic.description"><s>Automatically choose between item names getting displayed with their count when hidden and count only when having visible contents, either directly or through the building only accepting one kind</s><r>Автоматически выбирать между отображением названий предметов с их количеством, когда оно скрыто, и подсчетом только при наличии видимого содержимого, либо напрямую, либо через здание, принимая только один вид.</r></e>
+  <e k="D" t="ContentLabelStyleDef" key="Automatic.label"><s>Automatic</s><r>Автоматический</r></e>
+  <e k="D" t="ContentLabelStyleDef" key="Names.description"><s>Display names of stored items, one entry per line</s><r>Отображать имена сохраненных элементов, по одной записи в строке.</r></e>
+  <e k="D" t="ContentLabelStyleDef" key="Names.label"><s>Item names</s><r>Названия предметов</r></e>
+  <e k="D" t="ContentLabelStyleDef" key="NamesOrNameCount.description"><s>Display up to 3 names of stored items, one entry per line, or the count of different names when having more items</s><r>Отображать до трех названий сохраненных элементов, по одной записи в строке или количество разных имен при наличии большего количества элементов.</r></e>
+  <e k="D" t="ContentLabelStyleDef" key="NamesOrNameCount.label"><s>Item names or name count</s><r>Названия предметов или количество имён</r></e>
+  <e k="D" t="ContentLabelStyleDef" key="NamesOrTotalCount.description"><s>Display up to 3 names of stored items, one entry per line, or the total count when having more items</s><r>Отображение до трех названий сохраненных элементов, по одной записи в строке или общего количества при наличии большего количества элементов.</r></e>
+  <e k="D" t="ContentLabelStyleDef" key="NamesOrTotalCount.label"><s>Item names or total count</s><r>Названия предметов или общее количество</r></e>
+  <e k="D" t="ContentLabelStyleDef" key="NamesWithCount.description"><s>Display item names and their count in a format of Item xY, one entry per line</s><r>Отображение названий элементов и их количества в формате Item xY, по одной записи в строке.</r></e>
+  <e k="D" t="ContentLabelStyleDef" key="NamesWithCount.label"><s>Item names with count</s><r>Названия предметов со счетчиком</r></e>
+  <e k="D" t="ContentLabelStyleDef" key="NamesWithCountOrTotalCount.description"><s>Display up to 3 item names and their count in a format of Item xY, one entry per line, or the total count when having more items</s><r>Отображение до трех названий элементов и их количества в формате «Элемент xY», одна запись в строке или общее количество при наличии большего количества элементов.</r></e>
+  <e k="D" t="ContentLabelStyleDef" key="NamesWithCountOrTotalCount.label"><s>Item names with count or total count</s><r>Названия предметов с указанием количества или общего количества</r></e>
+  <e k="D" t="ContentLabelStyleDef" key="None.description"><s>Do not display any labels</s><r>Не отображать ярлыки</r></e>
+  <e k="D" t="ContentLabelStyleDef" key="None.label"><s>None</s><r>Никто</r></e>
+  <e k="D" t="ContentLabelStyleDef" key="TotalCount.label"><s>Total count</s><r>Общее количество</r></e>
+  <e k="D" t="ContentLabelStyleDef" key="Vanilla.description"><s>Display item counts individually on each item</s><r>Количество отображаемых элементов индивидуально для каждого элемента.</r></e>
+  <e k="D" t="ContentLabelStyleDef" key="Vanilla.label"><s>Vanilla</s><r>Ваниль</r></e>
+  <e k="K" key="ASF_AutomaticallyOpenContentsTab"><s>Automatically open contents tab</s><r>Автоматически открывать вкладку содержания</r></e>
+  <e k="K" key="ASF_AutomaticallyOpenContentsTabDescription"><s>Selecting a storage building automatically opens its Contents tab with this enabled, or storage settings when empty.</s><r>При выборе здания хранилища автоматически открывается вкладка «Содержимое», если эта функция включена, или настройки хранилища, если оно пусто.</r></e>
+  <e k="K" key="ASF_DefaultLabelStyleDescription"><s>What to display for storage labels on the map. Individual buildings can override this in their config.</s><r>Что отображать для меток хранилища на карте. Отдельные здания могут переопределить это в своей конфигурации.</r></e>
+  <e k="K" key="ASF_DefaultLabelStyleSetting"><s>Default label style</s><r>Стиль метки по умолчанию</r></e>
+  <e k="K" key="ASF_DropSpecificCount"><s>Drop specific count</s><r>Удалить определенное количество</r></e>
+  <e k="K" key="ASF_Empty"><s>empty</s><r>пустой</r></e>
+  <e k="K" key="ASF_HideLabelsMouseOverDescription"><s>Affects labels shown on the map, like [ count ] or Item xY. Only show them when pointed at with the mouse when enabled. Overridden by the Toggleable Overlays mod when having that mod enabled.</s><r>Влияет на метки, отображаемые на карте, например [ count ] или Item xY. Показывать их только при наведении на них курсора мыши, если они включены. Переопределяется модом Toggleable Overlays, если этот мод включен.</r></e>
+  <e k="K" key="ASF_HideLabelsMouseOverSetting"><s>Hide labels until mouseover</s><r>Скрыть метки до наведения курсора мыши</r></e>
+  <e k="K" key="ASF_HideLabelsZoomDescription"><s>Affects labels shown on the map, like [ count ] or Item xY. Only show them at a close zoom level when enabled.</s><r>Влияет на метки, отображаемые на карте, например [ count ] или Item xY. Если эта функция включена, показывайте их только при близком масштабе.</r></e>
+  <e k="K" key="ASF_HideLabelsZoomSetting"><s>Hide labels when zoomed out</s><r>Скрыть метки при уменьшении масштаба</r></e>
+  <e k="K" key="ASF_MapFilled"><s>You have filled the map.</s><r>Вы заполнили карту.</r></e>
+  <e k="K" key="ASF_MaxNumStacks"><s>maximum number of stacks per cell</s><r>максимальное количество стопок на ячейку</r></e>
+  <e k="K" key="ASF_MaxNumStacksDesc"><s>The maximum number of stacks that can go in a single space.  Buildings two-cells large will have twice as much storage capacity.
+
+Note that other factors may reduce storage capacity.</s><r>Максимальное количество стопок, которые могут разместиться в одном пространстве.  В двухкамерных зданиях емкость хранилища будет вдвое больше.
+
+Обратите внимание, что другие факторы могут уменьшить емкость хранилища.</r></e>
+  <e k="K" key="ASF_MaxZoomLevelDescription"><s>The maximum zoom level to show labels for. They get hidden past this point.</s><r>Максимальный уровень масштабирования для отображения меток. После этого момента они скрываются.</r></e>
+  <e k="K" key="ASF_MaxZoomLevelSetting"><s>Maximum zoom level</s><r>Максимальный уровень масштабирования</r></e>
+  <e k="K" key="ASF_OtherItems"><s>Other items</s><r>Другие предметы</r></e>
+  <e k="K" key="ASF_SettingContentsTabDescription"><s>That's the tab saying 'Contents' on the bottom left panel with a building selected. 'None' displays contents in the vanilla way through 'Select x' gizmos on the bar to the right instead of tab.</s><r>Это вкладка «Содержание» на нижней левой панели с выбранным зданием. «Нет» отображает содержимое обычным способом с помощью штуковин «Выбрать x» на панели справа, а не на вкладке.</r></e>
+  <e k="K" key="ASF_SettingContentsTabSelection"><s>Contents tab to display on adaptive storage buildings:</s><r>Вкладка «Содержимое» для отображения на адаптивных складских зданиях:</r></e>
+  <e k="K" key="ASF_StorageCapacityDescriptionCustomized"><s>The maximum number of stacks fitting into this storage building for all cells combined.
+
+{sizeX} * {sizeZ} cells with individually set capacities.</s><r>Максимальное количество штабелей, помещающихся в это здание хранилища для всех ячеек вместе взятых.
+
+{sizeX} * {sizeZ} ячеек с индивидуально установленной вместимостью.</r></e>
+  <e k="K" key="ASF_StorageCapacityDescriptionStacksPerCell"><s>The maximum number of stacks fitting into this storage building for all cells combined.
+
+{sizeX} * {sizeZ} cells with a maximum capacity of {maxItemsInCell} stacks per cell.</s><r>Максимальное количество стопок, помещающихся в этом складском здании для всех ячеек вместе взятых.
+
+{sizeX} * {sizeZ} ячеек с максимальной вместимостью {maxItemsInCell} стопок на ячейку.</r></e>
+  <e k="K" key="ASF_TotalStorageCapacity"><s>total storage capacity</s><r>общая емкость хранилища</r></e>
+  <e k="K" key="ASF_XStacks"><s>{0} stacks</s><r>{0} стеков</r></e>
+</AutoTranslateCache>
