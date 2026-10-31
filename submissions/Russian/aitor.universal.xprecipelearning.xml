@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="aitor.universal.xprecipelearning" name="Xienfe's Universal XP &amp; Recipe Learning" language="Russian" version="1">
+  <e k="K" key="UXP_BoostLowXp"><s>Boost Existing Low-XP Recipes (&lt; 0.25x)</s><r>Усиление существующих рецептов с низким уровнем опыта (&lt; 0,25x)</r></e>
+  <e k="K" key="UXP_BoostLowXpDesc"><s>Increases the learning rate of existing recipes that give minimal experience up to the injected factor.</s><r>Увеличивает скорость изучения существующих рецептов, дающих минимальный опыт до введенного фактора.</r></e>
+  <e k="K" key="UXP_DecayMult"><s>Skill Degradation (Decay) Multiplier</s><r>Множитель деградации (распада) навыков</r></e>
+  <e k="K" key="UXP_DisableDailyCap"><s>Disable Daily XP Soft-Cap (Vanilla 4,000 XP / 80% saturation penalty)</s><r>Отключить программный предел ежедневного опыта (ваниль: 4000 опыта / штраф за насыщение 80%).</r></e>
+  <e k="K" key="UXP_DisableDailyCapDesc"><s>In vanilla RimWorld, learning slows down by 80% after gaining 4,000 XP in a single day. Enabling this allows continuous, unhindered learning.</s><r>В ванильном RimWorld обучение замедляется на 80% после получения 4000 XP за один день. Включение этого параметра обеспечивает непрерывное и беспрепятственное обучение.</r></e>
+  <e k="K" key="UXP_EnableLevelUpCelebrationLabel"><s>Level-Up Celebrations (Mote &amp; Sound)</s><r>Празднование повышения уровня (движение и звук)</r></e>
+  <e k="K" key="UXP_EnableLevelUpCelebrationTooltip"><s>Emits a celebratory golden text, fleck, and chime whenever a colonist reaches a higher skill level.</s><r>Издает праздничный золотой текст, пятна и звуковой сигнал всякий раз, когда колонист достигает более высокого уровня навыков.</r></e>
+  <e k="K" key="UXP_EnableRecipeInjection"><s>Enable Recipe XP Injection (Stonecutting, Smelting, Cremating, Chemfuel)</s><r>Включить впрыск опыта по рецептам (камнерезка, плавка, кремация, химическое топливо)</r></e>
+  <e k="K" key="UXP_EnableRecipeInjectionDesc"><s>Dynamically detects and assigns relevant skills (Crafting, Cooking, Medicine, Artistic) to recipes that vanilla left with zero experience.</s><r>Динамически обнаруживает и назначает соответствующие навыки (Ремесло, Кулинария, Медицина, Художественное искусство) рецептам, в которых ваниль оставила нулевой опыт.</r></e>
+  <e k="K" key="UXP_GlobalXpMult"><s>Global XP Gain Multiplier</s><r>Глобальный множитель получения опыта</r></e>
+  <e k="K" key="UXP_InjectedFactor"><s>Injected Recipe Learn Factor</s><r>Фактор обучения инъецируемому рецепту</r></e>
+  <e k="K" key="UXP_ModTitle"><s>Xienfe's Universal XP &amp; Recipe Learning</s><r>Универсальный опыт Xienfe и изучение рецептов</r></e>
+  <e k="K" key="UXP_Mote_LevelUp"><s>{0} Level {1}!</s><r>{0} Уровень {1}!</r></e>
+  <e k="K" key="UXP_NoSkillLoss"><s>0.00x (No skill loss)</s><r>0,00x (без потери навыков)</r></e>
+  <e k="K" key="UXP_PreventDemotion"><s>Prevent Skill Level Degradation (Demotion Shield)</s><r>Предотвращение снижения уровня навыков (Щит понижения)</r></e>
+  <e k="K" key="UXP_PreventDemotionDesc"><s>Ensures colonists never drop down in skill level due to daily decay once a rank has been reached.</s><r>Гарантирует, что уровень навыков колонистов никогда не упадет из-за ежедневного упадка после достижения ранга.</r></e>
+  <e k="K" key="UXP_RescanRecipes"><s>Re-scan &amp; Apply Recipe Patches Now</s><r>Повторно отсканируйте и примените патчи рецептов прямо сейчас</r></e>
+  <e k="K" key="UXP_RescanSuccess"><s>Recipe XP patches re-scanned and applied successfully.</s><r>Патчи Рецепта XP повторно отсканированы и успешно применены.</r></e>
+  <e k="K" key="UXP_ResetAllSkills"><s>Reset All Skills to 1.0x</s><r>Сбросить все навыки до 1.0x</r></e>
+  <e k="K" key="UXP_ResetSingleSkill"><s>Reset</s><r>Перезагрузить</r></e>
+  <e k="K" key="UXP_ResetSuccess"><s>Universal XP settings have been reset to defaults.</s><r>Настройки Universal XP сброшены до значений по умолчанию.</r></e>
+  <e k="K" key="UXP_ResetToDefaults"><s>Reset to Defaults</s><r>Сброс к настройкам по умолчанию</r></e>
+  <e k="K" key="UXP_SectionA"><s>Section A: Global Multipliers &amp; Anti-Decay Limits</s><r>Раздел A: Глобальные множители и пределы предотвращения распада</r></e>
+  <e k="K" key="UXP_SectionB"><s>Section B: Individual Multipliers per Skill</s><r>Раздел B: Индивидуальные множители на навык</r></e>
+  <e k="K" key="UXP_SectionBDesc"><s>Allows fine-tuning specific skills independently. Final multiplier is (Global Multiplier × Skill Multiplier).</s><r>Позволяет самостоятельно настраивать определенные навыки. Конечный множитель равен (Глобальный множитель × Множитель навыка).</r></e>
+  <e k="K" key="UXP_SectionC"><s>Section C: Recipe Experience Injection</s><r>Раздел C: Рецепт «Введение опыта»</r></e>
+  <e k="K" key="UXP_SkillsLoadingHint"><s>(Skills will load when the game environment finishes initializing)</s><r>(Навыки загрузятся после завершения инициализации игровой среды)</r></e>
+  <e k="K" key="UXP_VanillaBaseline"><s>(Vanilla baseline is 1.0x)</s><r>(Базовый уровень Vanilla — 1,0x)</r></e>
+</AutoTranslateCache>
