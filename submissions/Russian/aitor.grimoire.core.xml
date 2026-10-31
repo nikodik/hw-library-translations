@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="aitor.grimoire.core" name="Xienfe's Grimoire Core" language="Russian" version="1">
+  <e k="D" t="GrimoireCategoryDef" key="Grimoire_Automatons.description"><s>Tiered mechanical chassis engineering, labor tool module assembly, and integrated heavy weaponry.</s><r>Многоуровневое механическое проектирование шасси, сборка модулей рабочих инструментов и интегрированное тяжелое вооружение.</r></e>
+  <e k="D" t="GrimoireCategoryDef" key="Grimoire_Automatons.label"><s>Modular Automatons</s><r>Модульные автоматы</r></e>
+  <e k="D" t="GrimoireCategoryDef" key="Grimoire_Captivity.description"><s>Interrogation protocols, non-lethal captive training, experimental surgery, and compatibility synergies with external restraint mods.</s><r>Протоколы допросов, несмертельная подготовка в плену, экспериментальная хирургия и синергия совместимости с модами внешней фиксации.</r></e>
+  <e k="D" t="GrimoireCategoryDef" key="Grimoire_Captivity.label"><s>Prisons, Torture &amp; Captivity</s><r>Тюрьмы, пытки и плен</r></e>
+  <e k="D" t="GrimoireCategoryDef" key="Grimoire_DarkAlchemy.description"><s>Transmutation treatises, vital essence harvesting, arcane rituals, and forbidden catalysts.</s><r>Трактаты о трансмутации, сборе жизненной сущности, тайных ритуалах и запретных катализаторах.</r></e>
+  <e k="D" t="GrimoireCategoryDef" key="Grimoire_DarkAlchemy.label"><s>Dark Alchemy &amp; Transmutation</s><r>Темная алхимия и трансмутация</r></e>
+  <e k="D" t="GrimoireCategoryDef" key="Grimoire_Experience.description"><s>Global and per-skill XP multipliers, daily learning cap removal, skill decay protection, and heuristic recipe XP injection.</s><r>Глобальные множители опыта и опыта для каждого навыка, снятие ограничения на ежедневное обучение, защита от спада навыков и введение опыта по эвристическим рецептам.</r></e>
+  <e k="D" t="GrimoireCategoryDef" key="Grimoire_Experience.label"><s>Universal XP &amp; Progression</s><r>Универсальный опыт и прогресс</r></e>
+  <e k="D" t="GrimoireCategoryDef" key="Grimoire_Welcome.description"><s>General introduction to the interactive Grimoire, real-time search usage, and the cross-mod synergy architecture of Xienfe's mods.</s><r>Общее введение в интерактивный Гримуар, использование поиска в реальном времени и межмодовую синергическую архитектуру модов Xienfe.</r></e>
+  <e k="D" t="GrimoireCategoryDef" key="Grimoire_Welcome.label"><s>Xienfe's Ecosystem Guide</s><r>Путеводитель по экосистеме Сяньфе</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Automatons_ModularAssembly.description"><s>Engineering guide to constructing autonomous mechanical colonists: 1 to 4 manipulator arms (+5 skill per arm), innate cleaning/hauling, 0 to 4 auxiliary upgrades, and quad-arm overdrive (Speed x2).</s><r>Инженерное руководство по созданию автономных механических колонистов: от 1 до 4 рук-манипуляторов (+5 навыков на каждую руку), врожденная уборка/перевозка, от 0 до 4 вспомогательных улучшений и четырехрукий повышающий привод (скорость x2).</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Automatons_ModularAssembly.fullTutorial"><s>&lt;color=#f0c674&gt;&lt;b&gt;I. PURPOSE &amp; 2.0 ARCHITECTURE OVERVIEW&lt;/b&gt;&lt;/color&gt;
+&lt;b&gt;Modular Automatons 2.0&lt;/b&gt; replaces rigid two-tool systems with fully customizable bipedal platforms:
+• &lt;b&gt;Innate Base Utilities:&lt;/b&gt; ALL functional automatons can clean and haul natively. You do not need to sacrifice specialized limbs for everyday base maintenance!
+• &lt;b&gt;Zero Human Needs:&lt;/b&gt; They never sleep, eat, or suffer mental breaks. They run 24 hours a day on engine fuel (wood, chemfuel, uranium, or infinite vanometric power).
+• &lt;b&gt;Clean Interface:&lt;/b&gt; Automatons are hidden from the top colonist bar by default (or set to Combat Only), keeping your screen clutter-free.
+
+&lt;color=#f0c674&gt;&lt;b&gt;II. HOW TO ASSEMBLE STEP BY STEP&lt;/b&gt;&lt;/color&gt;
+1. &lt;b&gt;Build the Automaton Workbench:&lt;/b&gt; Construct the workbench from the Production tab (requires basic machining).
+2. &lt;b&gt;Craft Core Components (Half Time &amp; Rebalanced Costs):&lt;/b&gt;
+   • &lt;b&gt;1 Chassis:&lt;/b&gt; Wood (early utility), Iron (heavy labor), Steel (balanced industrial), or Plasteel (elite warframe).
+   • &lt;b&gt;1 Engine:&lt;/b&gt; Wood Boiler, Chemfuel Burner, Uranium Reactor, or Vanometric Core.
+   • &lt;b&gt;1 to 4 Manipulator Arms:&lt;/b&gt; Each arm adds &lt;b&gt;+5 skill levels&lt;/b&gt; (1 arm = 5, 2 = 10, 3 = 15, 4 = 20):
+     - &lt;i&gt;Combat Arm:&lt;/i&gt; Targeting servomotors and gyroscopic stabilization for manual weapon loadouts (+5 Shooting, +5 Melee).
+     - &lt;i&gt;Construction &amp; Crafting Arm:&lt;/i&gt; Smithing, manufacturing, and structural construction (+5 Crafting, +5 Construction).
+     - &lt;i&gt;Extraction Arm:&lt;/i&gt; Unified percussion drills and pruning shears for mining, forestry, and harvesting (+5 Mining, +5 Plants).
+     - &lt;i&gt;Life Support &amp; Surgery Arm:&lt;/i&gt; Aseptic induction processors and surgical scalpels (+5 Cooking, +5 Medicine, 0% food poisoning).
+     - &lt;i&gt;Analysis &amp; Research Arm:&lt;/i&gt; Analytical logic arrays and quantum coprocessors for research (+5 Intellectual).
+     - &lt;i&gt;Soul Core Arm:&lt;/i&gt; Awakens 4 synchronized arms with x2 attack speed and donor skills.
+3. &lt;b&gt;0 to 4 Auxiliary Upgrades:&lt;/b&gt; Add up to 4 specialized secondary modules:
+   • &lt;i&gt;Armor Plating Module:&lt;/i&gt; +25% sharp, +25% blunt protection (-0.15 move speed).
+   • &lt;i&gt;Movement Servos Module:&lt;/i&gt; +1.20 movement speed.
+   • &lt;i&gt;Work Overdrive Module:&lt;/i&gt; +50% global work speed per module.
+   • &lt;i&gt;Hydraulic Melee Module:&lt;/i&gt; +20% melee damage, +15% armor penetration.
+   • &lt;i&gt;Fuel Cell Module:&lt;/i&gt; -35% fuel consumption rate (capped at 2 modules for -70% max).
+   • &lt;i&gt;Nanite Auto-Repair Matrix Module:&lt;/i&gt; Continuously repairs hull damage and injuries over time.
+   • &lt;i&gt;Heavy Cargo Module:&lt;/i&gt; +150 kg carrying capacity per module.
+   • &lt;i&gt;Rapid Cleaning Module:&lt;/i&gt; +150% cleaning speed per module.
+4. &lt;b&gt;Quad-Arm Overdrive (Speed x2):&lt;/b&gt;
+   Installing 4 arms (or awakening a single Soul Core) unlocks the Overdrive state:
+   • &lt;b&gt;Speed x2:&lt;/b&gt; Fire rate doubled (aiming delay &amp; weapon cooldown halved), melee attack cadence doubled (melee cooldown halved), and +50% melee strike force.
+   • &lt;b&gt;Industry Mastery:&lt;/b&gt; +100% construction and crafting work speed.
+   • &lt;b&gt;Extraction Mastery:&lt;/b&gt; +100% mining and plant speed, +50% mineral yield.
+   • &lt;b&gt;Life Support Mastery:&lt;/b&gt; 100% sterile surgery success, zero food poisoning.
+5. &lt;b&gt;Single Soul Core Homunculus:&lt;/b&gt;
+   Transmuting just &lt;b&gt;1 single Soul Core&lt;/b&gt; extracted from a human donor awakens an immortal homunculus with 4-arm overdrive capabilities and all original human skills.
+6. &lt;b&gt;Manual Combat Equipping &amp; Apparel Blockade:&lt;/b&gt;
+   Only automatons with a combat module can equip weapons (fully compatible with Simple Sidearms). Automatons are completely blocked from wearing human apparel or armor.
+
+&lt;color=#f0c674&gt;&lt;b&gt;III. PROGRESSION ROADMAP&lt;/b&gt;&lt;/color&gt;
+• &lt;b&gt;Early Game:&lt;/b&gt; Build a Wood Clockwork Automaton with 1 arm. It cleans and hauls natively while cooking or mining at baseline competence.
+• &lt;b&gt;Mid Game:&lt;/b&gt; Construct Steel quad-arm fabricators with Work Overdrive modules (+50% speed each) for high-speed masterwork colony manufacturing.
+• &lt;b&gt;Late Game:&lt;/b&gt; Assemble Plasteel quad-arm warframes with Armor Plating, Vanometric Cores, and heavy weapons to create an unstoppable 24/7 defense squadron.</s><r>&lt;color=#f0c674&gt;&lt;b&gt;I. ОБЗОР НАЗНАЧЕНИЯ И АРХИТЕКТУРЫ 2.0&lt;/b&gt;&lt;/color&gt;
+&lt;b&gt;Модульные автоматы 2.0&lt;/b&gt; заменяет жесткие двухинструментальные системы полностью настраиваемыми двуногими платформами:
+• &lt;b&gt;Встроенные базовые утилиты:&lt;/b&gt; ВСЕ функциональные автоматы могут почистить и перевезти на родине. Вам не нужно жертвовать специальными конечностями для повседневного обслуживания базы!
+• &lt;b&gt;Нулевые человеческие потребности:&lt;/b&gt; Они никогда не спят, не едят и не страдают умственными перерывами. Они работают 24 часа в сутки на моторном топливе (древесине, химическом топливе, уране или бесконечной ванометрической энергии).
+• &lt;b&gt;Чистый интерфейс:&lt;/b&gt; По умолчанию автоматы скрыты на верхней панели колонистов (или установлены в режим «Только бой»), сохраняя ваш экран без беспорядка.
+
+&lt;color=#f0c674&gt;&lt;b&gt;II. КАК СБОРИТЬ ШАГ ЗА ШАГОМ&lt;/b&gt;&lt;/color&gt;
+1. &lt;b&gt;Постройте верстак автомата:&lt;/b&gt; Постройте верстак на вкладке «Производство» (требуется базовая механическая обработка).
+2. &lt;b&gt;Создание основных компонентов (половина времени и перебалансированные затраты):&lt;/b&gt;
+ • &lt;b&gt;1 Шасси:&lt;/b&gt; Дерево (ранняя полезность), Железо (тяжелая рабочая сила), Сталь (сбалансированный промышленный вариант) или Пласталь (элитный варфрейм).
+ • &lt;b&gt;1 Двигатель:&lt;/b&gt; Дровяной котел, Горелка на химическом топливе, Урановый реактор или Ванометрический сердечник.
+ • &lt;b&gt; От 1 до 4 Руки-манипуляторы:&lt;/b&gt; Каждая рука добавляет &lt;b&gt;+5 уровней навыков&lt;/b&gt; (1 рука = 5, 2 = 10, 3 = 15, 4 = 20):
+ - &lt;i&gt;Боевой род:&lt;/i&gt; Серводвигатели наведения и гироскопическая стабилизация для ручного комплектования оружия (+5 Стрельба, +5 Рукопашный бой).
+ - &lt;i&gt;Строительство и ремесло:&lt;/i&gt; Кузнечное дело, производство и строительство конструкций (+5 Ремесло, +5) Строительство).
+ - &lt;i&gt;Рука для извлечения:&lt;/i&gt; Унифицированные ударные дрели и секаторы для горнодобывающей промышленности, лесного хозяйства и сбора урожая (+5 Горное дело, +5 Растения).
+ - &lt;i&gt;Рука жизнеобеспечения и хирургии:&lt;/i&gt; Асептические индукционные процессоры и хирургические скальпели (+5 Кулинария, +5 Медицина, 0% пищевое отравление).
+ - &lt;i&gt;Анализ и исследование:&lt;/i&gt; Аналитические логические массивы и квантовые сопроцессоры для исследований (+5 Интеллект).
+ - &lt;i&gt;Ядро души:&lt;/i&gt; Пробуждает 4 синхронизированных руки со скоростью атаки x2 и навыками донора.
+3. от &lt;b&gt;0 до 4 вспомогательных улучшений:&lt;/b&gt; Добавьте до 4 специализированных вторичных модулей:
+ • &lt;i&gt;Модуль брони:&lt;/i&gt; +25% остроты, +25% защиты от тупого удара (-0,15 скорости движения).
+ • &lt;i&gt;Сервоприводы движений Модуль:&lt;/i&gt; +1,20 скорости движения.
+ • &lt;i&gt;Модуль Work Overdrive:&lt;/i&gt; +50% общей скорости работы на модуль.
+ • &lt;i&gt;Гидравлический модуль ближнего боя:&lt;/i&gt; +20% урона в ближнем бою, +15% пробивания брони.
+ • &lt;i&gt;Модуль топливных элементов:&lt;/i&gt; -35% расхода топлива (ограничено 2 модулями для максимума -70%).
+ • &lt;i&gt;Нанитовый матричный модуль автоматического ремонта:&lt;/i&gt; Постоянно восстанавливает повреждения корпуса и травмы с течением времени.
+ • &lt;i&gt;Тяжелый груз Модуль:&lt;/i&gt; +150 кг грузоподъемности на модуль.
+ • &lt;i&gt;Модуль быстрой очистки:&lt;/i&gt; +150% скорости очистки на модуль.
+4. &lt;b&gt;Четырехрукий ускорение (Скорость x2):&lt;/b&gt;
+ Установка 4 рук (или пробуждение одного ядра души) открывает состояние ускорения:
+ • &lt;b&gt;Скорость x2:&lt;/b&gt; Скорость стрельбы увеличена вдвое (задержка прицеливания и время восстановления оружия уменьшены вдвое), частота рукопашных атак увеличена вдвое (рукопашный бой) время восстановления сокращено вдвое) и +50% ударной силы в ближнем бою.
+ • &lt;b&gt;Промышленное мастерство:&lt;/b&gt; +100% скорости строительных и ремесленных работ.
+ • &lt;b&gt;Мастерство добычи:&lt;/b&gt; +100% скорости добычи полезных ископаемых и заводов, +50% добычи полезных ископаемых.
+ • &lt;b&gt;Мастерство жизнеобеспечения:&lt;/b&gt; 100% успех стерильной операции, отсутствие пищевых отравлений.
+5. &lt;b&gt;Гомункул с одним ядром души:&lt;/b&gt;
+ Трансмутация всего лишь &lt;b&gt;1 единственного ядра души&lt;/b&gt;, извлеченного из донора-человека, пробуждает бессмертного гомункула с четырьмя руками и всеми оригинальными человеческими навыками.
+6. &lt;b&gt;Ручное боевое снаряжение и одеждная блокада:&lt;/b&gt;
+ Только автоматы с боевым модулем могут экипировать оружие (полностью совместимо с простым личным оружием). Автоматам полностью запрещено носить человеческую одежду или доспехи.
+
+&lt;color=#f0c674&gt;&lt;b&gt;III. ДОРОЖНАЯ КАРТА ПРОГРЕССИИ&lt;/b&gt;&lt;/color&gt;
+• &lt;b&gt;Ранняя игра:&lt;/b&gt; Постройте деревянный часовой автомат с одной рукой. Он очищает и перевозит предметы во время готовки или добычи полезных ископаемых на базовом уровне компетенции.
+• &lt;b&gt;Средняя игра:&lt;/b&gt; Постройте стальные четырехрукие фабрики с модулями Work Overdrive (+50% скорости каждый) для высокоскоростного производства шедевров в колонии.
+• &lt;b&gt;Поздняя игра:&lt;/b&gt; Соберите пласталиевые четырехрукие варфреймы с броней, ванометрическими ядрами и тяжелым вооружением, чтобы создать неудержимую оборонительную эскадрилью 24 часа в сутки, 7 дней в неделю.</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Automatons_ModularAssembly.label"><s>Modular Automaton Assembly 2.0</s><r>Модульная сборка автомата 2.0</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Automatons_ModularAssembly.prerequisites.0"><s>Machining</s><r>Обработка</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Automatons_ModularAssembly.prerequisites.1"><s>Fabrication</s><r>Изготовление</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Automatons_ModularAssembly.subCategory"><s>Engineering &amp; Production</s><r>Проектирование и производство</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Automatons_RecyclingAndTactics.description"><s>Reclaim 70% of construction resources when decommissioning older robots, and mobilize combat units instantly with the draggable tactical on-screen HUD.</s><r>Восстановите 70 % строительных ресурсов при выводе из эксплуатации старых роботов и мгновенно мобилизуйте боевые подразделения с помощью перетаскиваемого тактического экранного интерфейса.</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Automatons_RecyclingAndTactics.fullTutorial"><s>&lt;color=#f0c674&gt;&lt;b&gt;I. PURPOSE &amp; BENEFITS IN YOUR COLONY&lt;/b&gt;&lt;/color&gt;
+As technology progresses, early wooden or iron utility robots become outclassed. Rather than abandoning them, you can safely dismantle them for an exact &lt;b&gt;70% material refund&lt;/b&gt;. You can also manage your deployed automatons with a floating on-screen command HUD.
+
+&lt;color=#f0c674&gt;&lt;b&gt;II. HOW TO USE STEP BY STEP&lt;/b&gt;&lt;/color&gt;
+1. &lt;b&gt;70% Material Recycling:&lt;/b&gt;
+   • Select any automaton on the map or in the &lt;i&gt;Automatons&lt;/i&gt; bottom-bar menu, and click &lt;b&gt;[♻️ Recycle Automaton (70%)]&lt;/b&gt;.
+   • A confirmation window lists the exact resources that will drop on the floor (70% of all wood, steel, plasteel, chemfuel, components, etc.).
+   • The robot walks to the nearest workbench, disassembles itself over 3 seconds, drops the refunded resources, and vanishes from your colonist bar.
+2. &lt;b&gt;Draggable Squad Command HUD:&lt;/b&gt;
+   • A floating HUD button sits on your screen showing active combat and worker robots. Drag it anywhere with left-click to fit your UI layout.
+   • &lt;b&gt;Left-Click:&lt;/b&gt; Instantly selects &lt;b&gt;ALL combat automatons&lt;/b&gt; on the map, ready for immediate drafting. Hold Shift to select all automatons.
+   • &lt;b&gt;Right-Click:&lt;/b&gt; Opens a quick menu to draft/undraft the entire squad, select civilians, or toggle weapons.
+3. &lt;b&gt;Top Colonist Bar Modes:&lt;/b&gt; In &lt;i&gt;Mod Settings ➔ Modular Automatons&lt;/i&gt;, you can set the top bar to:
+   • &lt;b&gt;Combat Only (Default):&lt;/b&gt; Shows only combat units, hiding civilian cleaners/haulers.
+   • &lt;b&gt;Hide All:&lt;/b&gt; Keeps the bar purely human.
+   • &lt;b&gt;Show All:&lt;/b&gt; Displays every robot.
+
+&lt;color=#f0c674&gt;&lt;b&gt;III. PROGRESSION ROADMAP&lt;/b&gt;&lt;/color&gt;
+• &lt;b&gt;Early Game:&lt;/b&gt; Use the floating HUD for single-click defense mobilization when manhunters or raiders arrive.
+• &lt;b&gt;Mid Game:&lt;/b&gt; Recycle your first wooden utility bots to recover valuable components and steel when upgrading to industrial models.
+• &lt;b&gt;Late Game:&lt;/b&gt; Command large automated strike teams with single clicks while keeping your top colonist bar clean and focused.</s><r>&lt;color=#f0c674&gt;&lt;b&gt;I. ЦЕЛЬ И ПРЕИМУЩЕСТВА В ВАШЕЙ КОЛОНИИ&lt;/b&gt;&lt;/color&gt;
+По мере развития технологий ранние деревянные или железные служебные роботы вытесняются. Вместо того, чтобы бросать их, вы можете безопасно разобрать их, получив точный возврат материалов в размере &lt;b&gt;70%&lt;/b&gt;. Вы также можете управлять развернутыми автоматами с помощью плавающего командного интерфейса на экране.
+
+&lt;color=#f0c674&gt;&lt;b&gt;II. КАК ИСПОЛЬЗОВАТЬ ШАГ ЗА ШАГОМ&lt;/b&gt;&lt;/color&gt;
+1. &lt;b&gt;70% Переработка материала:&lt;/b&gt;
+ • Выберите любой автомат на карте или в меню нижней панели &lt;i&gt;Автоматы&lt;/i&gt; и нажмите &lt;b&gt;[♻️ Переработать автомат (70%)]&lt;/b&gt;.
+ • В окне подтверждения будет отображен список точные ресурсы, которые упадут на пол (70% всего дерева, стали, пластали, химического топлива, компонентов и т. д.).
+ • Робот подходит к ближайшему верстаку, разбирается за 3 секунды, сбрасывает возвращенные ресурсы и исчезает с панели колонистов.
+2. &lt;b&gt;Перетаскиваемый интерфейс командования отрядом:&lt;/b&gt;
+ • На экране расположена плавающая кнопка HUD, на которой показаны активные боевые и рабочие роботы. Перетащите его в любое место, щелкнув левой кнопкой мыши, чтобы он соответствовал макету пользовательского интерфейса.
+ • &lt;b&gt;Левый клик:&lt;/b&gt; Мгновенно выбирает &lt;b&gt;ВСЕ боевые автоматы&lt;/b&gt; на карте, готовые к немедленному созданию. Удерживайте Shift, чтобы выбрать все автоматы.
+ • &lt;b&gt;Щелкните правой кнопкой мыши:&lt;/b&gt; Открывает быстрое меню для набора/отмены набора всего отряда, выбора гражданских лиц или переключения оружия.
+3. &lt;b&gt;Режимы верхней панели колонистов:&lt;/b&gt; В &lt;i&gt;Настройки модов ➔ Модульные автоматы&lt;/i&gt; вы можете установить верхнюю панель на:
+ • &lt;b&gt;Только бой (по умолчанию):&lt;/b&gt; Показывает только боевые подразделения, скрывая гражданских уборщиков/перевозчиков.
+ • &lt;b&gt;Скрыть все:&lt;/b&gt; Сохраняет чисто человеческую панель.
+ • &lt;b&gt;Показать все:&lt;/b&gt; Отображает каждого робота.
+
+&lt;color=#f0c674&gt;&lt;b&gt;III. ДОРОЖНАЯ КАРТА ПРОГРЕССИИ&lt;/b&gt;&lt;/color&gt;
+• &lt;b&gt;Ранняя игра:&lt;/b&gt; Используйте плавающий HUD для мобилизации защиты одним щелчком мыши, когда прибывают охотники за людьми или рейдеры.
+• &lt;b&gt;Средняя игра:&lt;/b&gt; Утилизируйте своих первых деревянных служебных ботов для восстановления ценные компоненты и сталь при обновлении до промышленных моделей.
+• &lt;b&gt;Поздняя игра:&lt;/b&gt; Командуйте большими автоматизированными ударными группами одним щелчком мыши, сохраняя при этом верхнюю панель колонистов чистой и сосредоточенной.</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Automatons_RecyclingAndTactics.label"><s>Automaton Recycling (70% Refund) &amp; Squad HUD</s><r>Переработка автоматов (возврат 70%) и интерфейс отряда</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Automatons_RecyclingAndTactics.prerequisites.0"><s>Machining</s><r>Обработка</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Automatons_RecyclingAndTactics.subCategory"><s>Recycling &amp; Tactical Deployment</s><r>Переработка и тактическое развертывание</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Automatons_RepairStation.description"><s>Automate mechanical fleet maintenance with the 2x2 Repair Station: autonomous health-seeking AI, internal multi-resource stockpiles, and severed limb restoration.</s><r>Автоматизируйте обслуживание парка техники с помощью ремонтной станции 2x2: автономный ИИ, занимающийся поиском здоровья, внутренние запасы нескольких ресурсов и восстановление оторванных конечностей.</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Automatons_RepairStation.label"><s>Autonomous Repair Station &amp; Maintenance</s><r>Автономная станция ремонта и технического обслуживания</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Automatons_RepairStation.prerequisites.0"><s>Machining</s><r>Обработка</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Automatons_RepairStation.subCategory"><s>Maintenance &amp; Auto-Repair</s><r>Техническое обслуживание и авторемонт</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Automatons_SimpleDispatchSynergy.description"><s>Deploy autonomous automaton caravans on world map expeditions with the Simple Dispatch mod: automated mining, logging, outpost raids, and emergency wilderness refueling.</s><r>Размещайте автономные караваны-автоматы в экспедициях по картам мира с помощью мода Simple Dispatch: автоматическая добыча полезных ископаемых, лесозаготовка, рейды на заставы и экстренная дозаправка в дикой местности.</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Automatons_SimpleDispatchSynergy.fullTutorial"><s>&lt;color=#f0c674&gt;&lt;b&gt;I. ABOUT THIS EXTERNAL MOD SYNERGY&lt;/b&gt;&lt;/color&gt;
+&lt;b&gt;Simple Dispatch&lt;/b&gt; is a popular quality-of-life mod on the Steam Workshop (by &lt;i&gt;trace&lt;/i&gt;). It eliminates late-game expedition tedium by resolving minor world events (mineral lumps, logging camps, ancient ruins, and bandit outposts) off-screen based on your caravan's stats. &lt;i&gt;Modular Automatons&lt;/i&gt; includes built-in intelligent support for all Simple Dispatch expeditions.
+
+&lt;color=#f0c674&gt;&lt;b&gt;II. HOW TO USE STEP BY STEP&lt;/b&gt;&lt;/color&gt;
+1. &lt;b&gt;Form an Automaton Caravan:&lt;/b&gt; On the world map, send an all-automaton expedition to any Simple Dispatch world event.
+2. &lt;b&gt;Zero Food Needed:&lt;/b&gt; Automatons consume no food, completely eliminating food spoilage or starvation risks on long journeys.
+3. &lt;b&gt;Intelligent Mission Matching:&lt;/b&gt;
+   • &lt;i&gt;Mining Sites &amp; Mineral Lumps:&lt;/i&gt; Requires at least one automaton with a &lt;b&gt;Mining module&lt;/b&gt; (or Soul Resonance). Dual mining arms cut extraction time in half!
+   • &lt;i&gt;Lumber Camps &amp; Farming:&lt;/i&gt; Requires at least one automaton with a &lt;b&gt;Harvesting module&lt;/b&gt;, providing accelerated timber collection.
+   • &lt;i&gt;Outposts &amp; Bandit Camps:&lt;/i&gt; Armed automatons (with Miniguns and Monoswords) contribute massive combat power to guarantee victory.
+4. &lt;b&gt;Automated Fuel Calculation &amp; Emergency Logging:&lt;/b&gt;
+   • The caravan screen calculates the exact fuel needed for the round trip and displays a warning if fuel is low.
+   • In forested biomes, harvester automatons passively gather firewood on the march (~3 wood/day).
+   • If boiler fuel ever drops critically low (&lt;8%), harvester bots trigger an &lt;b&gt;Emergency Logging Stop&lt;/b&gt;, chopping local trees to refuel the caravan before resuming travel.
+
+&lt;color=#f0c674&gt;&lt;b&gt;III. PROGRESSION ROADMAP&lt;/b&gt;&lt;/color&gt;
+• &lt;b&gt;Early Game:&lt;/b&gt; Send steam boiler automatons to nearby forests for automated timber runs.
+• &lt;b&gt;Mid Game:&lt;/b&gt; Strip mineral deposits across the planet using specialized mining bot caravans without risking colonist lives.
+• &lt;b&gt;Late Game:&lt;/b&gt; Dispatch a Mechanical Homunculus leading heavy combat warframes to wipe out hostile pirate bases effortlessly.</s><r>&lt;color=#f0c674&gt;&lt;b&gt;I. ОБ ЭТОМ ВНЕШНЕМ МОДЕ SYNERGY&lt;/b&gt;&lt;/color&gt;
+&lt;b&gt;Simple Dispatch&lt;/b&gt; — это популярный мод, улучшающий качество жизни, в Мастерской Steam (от &lt;i&gt;trace&lt;/i&gt;). Он устраняет утомляющую экспедицию в конце игры, решая мелкие мировые события (рудные глыбы, лесозаготовительные лагеря, древние руины и бандитские аванпосты) за кадром на основе статистики вашего каравана. &lt;i&gt;Модульные автоматы&lt;/i&gt; включает встроенную интеллектуальную поддержку для всех экспедиций Simple Dispatch.
+
+&lt;color=#f0c674&gt;&lt;b&gt;II. КАК ИСПОЛЬЗОВАТЬ ШАГ ЗА ШАГОМ&lt;/b&gt;&lt;/color&gt;
+1. &lt;b&gt;Сформируйте караван автоматонов:&lt;/b&gt; На карте мира отправьте полностью автоматическую экспедицию на любое мировое событие Simple Dispatch.
+2. &lt;b&gt;Нулевая потребность в еде:&lt;/b&gt; Автоматы не потребляют еду, что полностью исключает риск порчи продуктов или голодной смерти в длительных путешествиях.
+3. &lt;b&gt;Интеллектуальное сопоставление миссий:&lt;/b&gt;
+ • &lt;i&gt;Горные места и минеральные куски:&lt;/i&gt; Требуется хотя бы один автомат с &lt;b&gt;Модулем горного дела &lt;/b&gt; (или Резонансом души). Двойное горное вооружение сокращает время добычи вдвое!
+ • &lt;i&gt;Лесные лагеря и сельское хозяйство:&lt;/i&gt; Требуется как минимум один автомат с &lt;b&gt;Модулем сбора урожая&lt;/b&gt;, обеспечивающим ускоренный сбор древесины.
+ • &lt;i&gt;Аванпосты и бандитские лагеря:&lt;/i&gt; Вооруженные автоматы (с миниганами и мономечами) обеспечивают огромную боевую мощь, гарантирующую победу.
+4. &lt;b&gt;Автоматический расчет топлива и аварийная регистрация:&lt;/b&gt;
+ • Экран каравана рассчитывает точное количество топлива, необходимого для поездки туда и обратно, и отображает предупреждение, если топливо низкое.
+ • В лесных биомах автоматы-харвестеры пассивно собирают дрова на марше (~3 дрова/день).
+ • Если топливо в котле когда-либо падает до критически низкого уровня (&lt;8%), харвестер боты запускают &lt;b&gt;Аварийную остановку лесозаготовок&lt;/b&gt;, рубя местные деревья, чтобы дозаправить караван перед возобновлением движения.
+
+&lt;color=#f0c674&gt;&lt;b&gt;III. ДОРОЖНАЯ КАРТА ПРОГРЕССИИ&lt;/b&gt;&lt;/color&gt;
+• &lt;b&gt;Ранняя игра:&lt;/b&gt; Отправьте автоматы паровых котлов в близлежащие леса для автоматизированной перевозки древесины.
+• &lt;b&gt;Средняя игра:&lt;/b&gt; Разбирайте месторождения полезных ископаемых по всей планете, используя специализированные караваны горнодобывающих ботов, не рискуя колонистами. жизней.
+• &lt;b&gt;Поздняя игра:&lt;/b&gt; Отправьте механического гомункула, возглавляющего тяжелые боевые варфреймы, чтобы без особых усилий уничтожить враждебные пиратские базы.</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Automatons_SimpleDispatchSynergy.label"><s>External Synergy: Autonomous Expeditions (Simple Dispatch)</s><r>Внешняя синергия: автономные экспедиции (простая диспетчеризация)</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Automatons_SimpleDispatchSynergy.prerequisites.0"><s>Simple Dispatch (External Workshop mod by trace, optional)</s><r>Simple Dispatch (модификация внешней мастерской по трассировке, необязательно)</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Automatons_SimpleDispatchSynergy.prerequisites.1"><s>Basic Automatons</s><r>Базовые автоматы</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Automatons_SimpleDispatchSynergy.subCategory"><s>Autonomous Expeditions</s><r>Автономные экспедиции</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Captivity_CaptureExpansionSynergy.description"><s>Automatic integration with the external Steam Workshop mod Capture Expansion: pillories, restraint racks, and clean executions with +50% bonus XP.</s><r>Автоматическая интеграция с внешним модом Capture Expansion для Steam Workshop: позорные столбы, ограничительные стойки и чистые казни с +50% бонусного опыта.</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Captivity_CaptureExpansionSynergy.fullTutorial"><s>&lt;color=#f0c674&gt;&lt;b&gt;I. ABOUT THIS EXTERNAL MOD SYNERGY&lt;/b&gt;&lt;/color&gt;
+&lt;b&gt;Capture Expansion&lt;/b&gt; is an &lt;i&gt;optional third-party mod from the Steam Workshop&lt;/i&gt; (created by &lt;i&gt;ferny&lt;/i&gt;). If you install it alongside Xienfe's mods, all restraint structures and execution devices integrate automatically without any configuration.
+
+&lt;color=#f0c674&gt;&lt;b&gt;II. HOW TO USE STEP BY STEP&lt;/b&gt;&lt;/color&gt;
+1. &lt;b&gt;Restraint Structures:&lt;/b&gt;
+   • Build wooden pillories or heavy steel restraint racks in your prison cells.
+   • Lock prisoners inside to physically immobilize them.
+2. &lt;b&gt;The +50% Restraint Experience Bonus:&lt;/b&gt;
+   • Whenever a colonist trains, interrogates, or operates on an immobilized prisoner, the system grants an automatic &lt;b&gt;+50% XP multiplier (x1.50)&lt;/b&gt;.
+   • Because the prisoner is physically restrained, training carries zero chance of prison breaks or hostile retaliation.
+3. &lt;b&gt;Execution Devices &amp; Alchemical Decapitation:&lt;/b&gt;
+   • The Guillotine offers an instantaneous, clean mechanical execution.
+   • If you use &lt;i&gt;Xienfe's Dark Alchemy&lt;/i&gt;, decapitating a prisoner inoculated with Memory Catalyst in the Guillotine cleanly harvests their crystallized memory organ for skill transmutations.
+
+&lt;color=#f0c674&gt;&lt;b&gt;III. PROGRESSION ROADMAP&lt;/b&gt;&lt;/color&gt;
+• &lt;b&gt;Early Game:&lt;/b&gt; Build simple wooden pillories in your holding room to train colonists safely without them wandering around.
+• &lt;b&gt;Mid Game:&lt;/b&gt; Upgrade to heavy steel restraint racks to maximize practice surgery precision and ensure 100% containment security.
+• &lt;b&gt;Late Game:&lt;/b&gt; Design a dedicated execution and harvesting facility with Guillotines to fuel high-tier alchemical elixirs.</s><r>&lt;color=#f0c674&gt;&lt;b&gt;I. ОБ ЭТОМ ВНЕШНЕМ МОДЕ SYNERGY&lt;/b&gt;&lt;/color&gt;
+&lt;b&gt;Capture Expansion&lt;/b&gt; — это &lt;i&gt;дополнительный сторонний мод из Steam Workshop&lt;/i&gt; (созданный &lt;i&gt;ferny&lt;/i&gt;). Если вы установите его вместе с модами Xienfe, все удерживающие конструкции и исполнительные устройства интегрируются автоматически без какой-либо настройки.
+
+&lt;color=#f0c674&gt;&lt;b&gt;II. КАК ИСПОЛЬЗОВАТЬ ШАГ ЗА ШАГОМ&lt;/b&gt;&lt;/color&gt;
+1. &lt;b&gt;Сдерживающие конструкции:&lt;/b&gt;
+ • Постройте деревянные позорные столбы или тяжелые стальные ограничительные стойки в своих тюремных камерах.
+ • Запирайте заключенных внутри, чтобы физически обездвижить их.
+2. &lt;b&gt;Бонус опыта удержания +50%:&lt;/b&gt;
+ • Каждый раз, когда колонист тренирует, допрашивает или оперирует обездвиженного пленника, система автоматически дает &lt;b&gt;+50% множитель опыта (x1,50)&lt;/b&gt;.
+ • Поскольку пленник физически скован, обучение выполняется нулевая вероятность побега из тюрьмы или враждебного возмездия.
+3. &lt;b&gt;Устройства казни и алхимическое обезглавливание:&lt;/b&gt;
+ • Гильотина обеспечивает мгновенную, чистую механическую казнь.
+ • Если вы используете &lt;i&gt;Тёмную алхимию Зиенфе&lt;/i&gt;, чисто обезглавливаете заключенного, привитого Катализатором Памяти, на гильотине. собирает свой кристаллизованный орган памяти для трансмутации навыков.
+
+&lt;color=#f0c674&gt;&lt;b&gt;III. ДОРОЖНАЯ КАРТА ПРОГРЕССИИ&lt;/b&gt;&lt;/color&gt;
+• &lt;b&gt;Ранняя игра:&lt;/b&gt; Постройте простые деревянные позорные столбы в своей комнате для содержания, чтобы безопасно обучать колонистов, не позволяя им бродить.
+• &lt;b&gt;Средняя игра:&lt;/b&gt; Обновитесь до тяжелых стальных ограничительных стоек, чтобы максимально эффективно отрабатывать хирургические операции. точность и 100% безопасность сдерживания.
+• &lt;b&gt;Поздняя игра:&lt;/b&gt; Создайте специальный комплекс для казни и сбора урожая с гильотинами для заправки алхимическими эликсирами высокого уровня.</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Captivity_CaptureExpansionSynergy.label"><s>External Synergy: Capture Expansion (Workshop)</s><r>Внешняя синергия: расширение захвата (мастерская)</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Captivity_CaptureExpansionSynergy.prerequisites.0"><s>Capture Expansion (External Workshop mod by ferny, optional)</s><r>Capture Expansion (мод Foreign Workshop от Ferny, опционально)</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Captivity_CaptureExpansionSynergy.prerequisites.1"><s>Smithing</s><r>Кузнечное дело</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Captivity_CaptureExpansionSynergy.subCategory"><s>External Mod Synergies</s><r>Внешняя синергия модов</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Captivity_CombatTraining.description"><s>Safe martial training on prisoners: non-lethal blunt sparring, target shooting practice, automatic 35% health safety stops, and zero rebellion risk.</s><r>Безопасная боевая подготовка заключенных: несмертельные тупые спарринги, практика стрельбы по мишеням, автоматические 35% остановки безопасности для здоровья и нулевой риск восстания.</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Captivity_CombatTraining.fullTutorial"><s>&lt;color=#f0c674&gt;&lt;b&gt;I. PURPOSE &amp; BENEFITS IN YOUR COLONY&lt;/b&gt;&lt;/color&gt;
+Training colonists in &lt;b&gt;Melee&lt;/b&gt; and &lt;b&gt;Shooting&lt;/b&gt; usually puts their lives in danger against real enemies or aggressive wild animals. This training protocol turns prisoners into sparring partners using controlled non-lethal strikes and practice pellets, allowing safe martial drills inside the colony walls.
+
+&lt;color=#f0c674&gt;&lt;b&gt;II. HOW TO USE STEP BY STEP&lt;/b&gt;&lt;/color&gt;
+1. &lt;b&gt;Melee Sparring:&lt;/b&gt; Select a colonist, right-click an eligible prisoner, and choose &lt;b&gt;Train Melee&lt;/b&gt;.
+   • The colonist steps into close range and delivers blunt sparring strikes that cause superficial bruises without severing limbs or damaging vital organs.
+2. &lt;b&gt;Shooting Practice:&lt;/b&gt; Select an armed colonist, right-click the prisoner, and choose &lt;b&gt;Train Shooting&lt;/b&gt;.
+   • The shooter takes up a firing stance 5 to 10 tiles away and fires practice pellets, granting full Shooting experience without consuming real ammunition or causing fatal bullet wounds.
+3. &lt;b&gt;Automatic Safety Stop (35% Health):&lt;/b&gt;
+   • The moment the prisoner's health drops to &lt;b&gt;35%&lt;/b&gt; (or if they collapse), the colonist stops training immediately to ensure the subject stays alive.
+4. &lt;b&gt;Zero Prison Break Risk:&lt;/b&gt; Supervised training damage is flagged as controlled practice and will never provoke prison breaks or berserk rages.
+
+&lt;color=#f0c674&gt;&lt;b&gt;IV. TACTICAL NON-LETHAL COMBAT MODE (LIVE CAPTURE)&lt;/b&gt;&lt;/color&gt;
+When defending against raiders, drafting any colonist or combat automaton displays the &lt;b&gt;[🟢 Non-Lethal Mode]&lt;/b&gt; toggle gizmo:
+• &lt;b&gt;Preserved Weapon Types &amp; Part HP Clamp:&lt;/b&gt; Weapons maintain their original damage types (blades, gunfire, energy) but incoming damage is strictly clamped so that no body part's health drops below 1 HP—completely preventing decapitations, severed limbs, and accidental dismemberment!
+• &lt;b&gt;Pain Shock Incapacitation:&lt;/b&gt; When an enemy accumulates severe pain (&amp;gt;=70%) or critical injuries, they safely collapse into pain shock or anesthetic stupor without lethal trauma.
+• &lt;b&gt;Death-on-Downed Bypass:&lt;/b&gt; Completely bypasses RimWorld's hidden death-on-downed roll, guaranteeing enemies fall unconscious 100% alive for capture, interrogation, or alchemical harvesting!
+
+&lt;color=#f0c674&gt;&lt;b&gt;V. PROGRESSION ROADMAP&lt;/b&gt;&lt;/color&gt;
+• &lt;b&gt;Early Game:&lt;/b&gt; Spar with captured tribals using wooden clubs or bare hands to turn weak recruits into reliable base defenders.
+• &lt;b&gt;Mid Game:&lt;/b&gt; Toggle Non-Lethal Mode during raids to safely capture high-value prisoners without lethal headshots.
+• &lt;b&gt;Late Game:&lt;/b&gt; Keep your frontline melee fighters and elite snipers at permanent Level 20 competence before tackling mechanoid hives.</s><r>&lt;color=#f0c674&gt;&lt;b&gt;I. ЦЕЛЬ И ПРЕИМУЩЕСТВА В ВАШЕЙ КОЛОНИИ&lt;/b&gt;&lt;/color&gt;
+Обучение колонистов &lt;b&gt;Ближнему бою&lt;/b&gt; и &lt;b&gt;Стрельбе&lt;/b&gt; обычно подвергает их жизни опасности от реальных врагов или агрессивных диких животных. Этот протокол обучения превращает заключенных в спарринг-партнеров, использующих контролируемые несмертельные удары и тренировочные пули, что позволяет проводить безопасные боевые упражнения внутри стен колонии.
+
+&lt;color=#f0c674&gt;&lt;b&gt;II. КАК ИСПОЛЬЗОВАТЬ ШАГ ЗА ШАГОМ&lt;/b&gt;&lt;/color&gt;
+1. &lt;b&gt;Ближний бой:&lt;/b&gt; Выберите колониста, щелкните правой кнопкой мыши подходящего заключенного и выберите &lt;b&gt;Обучение рукопашному бою&lt;/b&gt;.
+ • Колонист подходит на близкое расстояние и наносит тупые удары в спарринге, которые вызывают поверхностные синяки, не отрывая конечностей и не повреждая жизненно важные органы.
+2. &lt;b&gt;Практика стрельбы:&lt;/b&gt; Выберите вооруженного колониста, щелкните правой кнопкой мыши по пленнику и выберите &lt;b&gt;Стрельба из поезда&lt;/b&gt;.
+ • Стрелок занимает огневую стойку на расстоянии от 5 до 10 клеток и стреляет тренировочными гранулами, получая полный опыт стрельбы, не расходуя настоящие боеприпасы и не вызывая смертельную пулю. раны.
+3. &lt;b&gt;Автоматическая остановка безопасности (35% здоровья):&lt;/b&gt;
+ • В тот момент, когда здоровье заключенного упадёт до &lt;b&gt;35%&lt;/b&gt; (или если он потеряет сознание), колонист немедленно прекращает обучение, чтобы гарантировать, что субъект останется в живых.
+4. &lt;b&gt;Нулевой риск побега из тюрьмы:&lt;/b&gt; Ущерб от контролируемых тренировок помечается как контролируемая практика и никогда не провоцирует побег из тюрьмы или ярость ярости.
+
+&lt;color=#f0c674&gt;&lt;b&gt;IV. РЕЖИМ ТАКТИЧЕСКОГО НЕСМЕРТЕЛЬНОГО БОЯ (ЖИВОЙ ЗАХВАТ)&lt;/b&gt;&lt;/color&gt;
+При защите от рейдеров при наборе любого колониста или боевого автомата отображается &lt;b&gt;[🟢 Нелетальный режим]&lt;/b&gt; переключение штуковины:
+• &lt;b&gt;Сохраненное оружие Типы и части HP Фиксация:&lt;/b&gt; Оружие сохраняет свои первоначальные типы урона (лезвия, стрельба, энергия), но входящий урон строго фиксируется, так что здоровье ни одной части тела не падает ниже 1 HP — полностью предотвращает обезглавливание, отрубание конечностей и случайное расчленение!
+• &lt;b&gt;Выведение из строя болевого шока:&lt;/b&gt; Когда враг накапливает сильную боль (&gt;=70%) или критические травмы, они безопасно впадают в болевой шок или анестезирующий ступор без смертельной травмы.
+• &lt;b&gt;Обход смерти при падении:&lt;/b&gt; Полностью обходит скрытый бросок смерти при падении RimWorld, гарантируя, что враги потеряют сознание на 100% живыми для захвата, допроса или алхимического воздействия. сбор урожая!
+
+&lt;color=#f0c674&gt;&lt;b&gt;V. ДОРОЖНАЯ КАРТА ПРОГРЕССИИ&lt;/b&gt;&lt;/color&gt;
+• &lt;b&gt;Ранняя игра:&lt;/b&gt; Сражайтесь с захваченными племенами, используя деревянные дубинки или голые руки, чтобы превратить слабых новобранцев в надежных защитников базы.
+• &lt;b&gt;Средняя игра:&lt;/b&gt; Переключайте несмертельный режим во время рейды для безопасного захвата ценных пленных без смертельных выстрелов в голову.
+• &lt;b&gt;Поздняя игра:&lt;/b&gt; Держите своих бойцов ближнего боя и элитных снайперов на постоянной основе на уровне 20, прежде чем сражаться с ульями механоидов.</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Captivity_CombatTraining.label"><s>Non-Lethal Sparring &amp; Target Practice</s><r>Несмертельный спарринг и Target практика</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Captivity_CombatTraining.prerequisites.0"><s>Prisoner with overall health above 35%</s><r>Заключенный с общим состоянием здоровья выше 35%.</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Captivity_CombatTraining.prerequisites.1"><s>Clear line of sight (5 to 10 tiles) for shooting practice</s><r>Четкая линия обзора (от 5 до 10 клеток) для тренировок по стрельбе.</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Captivity_CombatTraining.subCategory"><s>Martial Discipline</s><r>Боевая дисциплина</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Captivity_Interrogation.description"><s>Break prisoner resistance on demand, erode ideological will for faster conversion or enslavement, and safely train your wardens in Social skills.</s><r>Сломайте сопротивление заключенных по первому требованию, подрывайте идеологическую волю к более быстрому обращению или порабощению и безопасно обучайте своих надзирателей навыкам общения.</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Captivity_Interrogation.fullTutorial"><s>&lt;color=#f0c674&gt;&lt;b&gt;I. PURPOSE &amp; BENEFITS IN YOUR COLONY&lt;/b&gt;&lt;/color&gt;
+In vanilla RimWorld, wardens only talk to prisoners once per day, making Social training slow and tedious. &lt;b&gt;Psychological Interrogation&lt;/b&gt; allows you to conduct intensive counseling and pressure sessions on demand, rapidly leveling up your warden's &lt;b&gt;Social&lt;/b&gt; skill while breaking the captive's mental resistance.
+
+&lt;color=#f0c674&gt;&lt;b&gt;II. HOW TO USE STEP BY STEP&lt;/b&gt;&lt;/color&gt;
+1. &lt;b&gt;Secure the Captive:&lt;/b&gt; Capture a raider and assign them to any prisoner bed, sleeping spot, or cage.
+2. &lt;b&gt;Order Interrogation:&lt;/b&gt;
+   • &lt;i&gt;Manual:&lt;/i&gt; Select any colonist capable of speech, right-click the prisoner, and select &lt;b&gt;Psychological Interrogation&lt;/b&gt;.
+   • &lt;i&gt;Automatic:&lt;/i&gt; Colonists assigned to the &lt;b&gt;Warden&lt;/b&gt; work type will periodically interrogate prisoners between chores.
+3. &lt;b&gt;Resistance &amp; Will Erosion:&lt;/b&gt;
+   • Each completed session chips away at the captive's &lt;b&gt;Resistance&lt;/b&gt;, speeding up their eventual recruitment.
+   • If the &lt;i&gt;Ideology&lt;/i&gt; expansion is active, sessions also erode their &lt;b&gt;Will&lt;/b&gt;, accelerating conversion to your faith or enslavement.
+4. &lt;b&gt;Mental Fatigue Cooldown:&lt;/b&gt; After intensive interrogation sessions, prisoners temporarily enter a state of mental exhaustion. This harmless state reduces their movement and prevents prison breaks while their mind recovers.
+
+&lt;color=#f0c674&gt;&lt;b&gt;III. PROGRESSION ROADMAP&lt;/b&gt;&lt;/color&gt;
+• &lt;b&gt;Early Game:&lt;/b&gt; Use low-tier raiders as practice for your designated trader or priest to reach Social level 10+.
+• &lt;b&gt;Mid Game:&lt;/b&gt; Lock difficult prisoners in pillories or restraint racks to gain a +50% XP bonus with zero risk of retaliation.
+• &lt;b&gt;Late Game:&lt;/b&gt; Rapidly convert and recruit elite empire cataphracts or legendary crafters in a fraction of normal time.</s><r>&lt;color=#f0c674&gt;&lt;b&gt;I. ЦЕЛЬ И ПРЕИМУЩЕСТВА В ВАШЕЙ КОЛОНИИ&lt;/b&gt;&lt;/color&gt;
+В ванильном RimWorld надзиратели разговаривают с заключенными только один раз в день, что делает социальное обучение медленным и утомительным. &lt;b&gt;Психологический допрос&lt;/b&gt; позволяет вам проводить интенсивные консультации и сеансы давления по требованию, быстро повышая уровень &lt;b&gt;Социальных&lt;/b&gt; навыков вашего надзирателя и одновременно преодолевая психическое сопротивление пленника.
+
+&lt;color=#f0c674&gt;&lt;b&gt;II. КАК ИСПОЛЬЗОВАТЬ ШАГ ЗА ШАГОМ&lt;/b&gt;&lt;/color&gt;
+1. &lt;b&gt;Обезопасьте пленника:&lt;/b&gt; Захватите рейдера и назначьте его на любую кровать, спальное место или клетку заключенного.
+2. &lt;b&gt;Заказать допрос:&lt;/b&gt;
+ • &lt;i&gt;Ручной:&lt;/i&gt; Выберите любого колониста, способного говорить, щелкните правой кнопкой мыши по заключенному и выберите &lt;b&gt;Психологический допрос&lt;/b&gt;.
+ • &lt;i&gt;Автоматически:&lt;/i&gt; Колонисты, назначенные на тип работы &lt;b&gt;Страж&lt;/b&gt;, будут периодически допрашивать заключенных в перерывах между домашними делами.
+3. &lt;b&gt;Сопротивление и эрозия воли:&lt;/b&gt;
+ • Каждый завершенный сеанс разрушает &lt;b&gt;Сопротивление&lt;/b&gt; пленников, ускоряя их возможную вербовку.
+ • Если активно расширение &lt;i&gt;Идеология&lt;/i&gt;, сеансы также разрушают их &lt;b&gt;Воля&lt;/b&gt;, ускоряющая обращение в вашу веру или порабощение.
+4. &lt;b&gt;Время восстановления умственной усталости:&lt;/b&gt; После интенсивных допросов заключенные временно впадают в состояние психического истощения. Это безобидное состояние ограничивает их передвижение и предотвращает побеги из тюрьмы, пока их разум восстанавливается.
+
+&lt;color=#f0c674&gt;&lt;b&gt;III. ДОРОЖНАЯ КАРТА ПРОГРЕССИИ&lt;/b&gt;&lt;/color&gt;
+• &lt;b&gt;Ранняя игра:&lt;/b&gt; Используйте рейдеров низкого уровня в качестве практики для вашего назначенного торговца или священника, чтобы достичь социального уровня 10+.
+• &lt;b&gt;Средняя игра:&lt;/b&gt; Запирайте трудных заключенных к позорным столбам или привязывайте их к позорным столбам стойки, чтобы получить бонус +50% опыта с нулевым риском возмездия.
+• &lt;b&gt;Поздняя игра:&lt;/b&gt; Быстро конвертируйте и нанимайте элитных имперских катафрактов или легендарных ремесленников за долю обычного времени.</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Captivity_Interrogation.label"><s>Prisoner Interrogation &amp; Social Training</s><r>Допрос заключенного и социальное обучение</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Captivity_Interrogation.prerequisites.0"><s>Prisoner secured in a valid cell, cage, or holding platform</s><r>Заключенный находится в действующей камере, клетке или на платформе для содержания под стражей.</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Captivity_Interrogation.prerequisites.1"><s>Colonist assigned to Warden work with Talking ability</s><r>Колонист, назначенный Стражем, работает со способностью говорить.</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Captivity_Interrogation.subCategory"><s>Captive Management</s><r>Кэптивный менеджмент</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Captivity_ScienceAndSurgery.description"><s>Collaborative dual-researcher cognitive study, risk-free live practice surgeries for apprentice doctors, and ceremonial value-boosting body art.</s><r>Совместное когнитивное исследование с участием двух исследователей, безрисковые живые практические операции для начинающих врачей и церемониальные боди-арты, повышающие ценность.</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Captivity_ScienceAndSurgery.fullTutorial"><s>&lt;color=#f0c674&gt;&lt;b&gt;I. PURPOSE &amp; BENEFITS IN YOUR COLONY&lt;/b&gt;&lt;/color&gt;
+Leveling up &lt;b&gt;Medical&lt;/b&gt; and &lt;b&gt;Intellectual&lt;/b&gt; skills normally requires wasting valuable bionics or waiting for sick colonists. This system lets you use captives for collaborative cognitive research, surgical practice, and ceremonial scarification.
+
+&lt;color=#f0c674&gt;&lt;b&gt;II. HOW TO USE STEP BY STEP&lt;/b&gt;&lt;/color&gt;
+1. &lt;b&gt;Collaborative Research Study:&lt;/b&gt;
+   • Up to &lt;b&gt;two colonists&lt;/b&gt; can study the same captive simultaneously without blocking each other.
+   • Every study tick awards high &lt;b&gt;Intellectual&lt;/b&gt; experience to your scientists and injects real research points directly into your colony's active research project!
+2. &lt;b&gt;Live Practice Surgery:&lt;/b&gt;
+   • Open the prisoner's &lt;b&gt;Health ➔ Operations&lt;/b&gt; tab and add &lt;i&gt;Live practice surgery&lt;/i&gt;.
+   • Your doctor performs exploratory incisions and stitches, earning massive Medical experience without putting colonists at risk.
+   • The resulting surgical trauma can immediately be tended afterward for an extra round of doctoring practice.
+3. &lt;b&gt;Ceremonial Body Art &amp; Scarification:&lt;/b&gt;
+   • Assign an artistic colonist to perform experimental body art on the captive.
+   • Masterwork patterns permanently boost the prisoner's &lt;b&gt;Market Value by +30%&lt;/b&gt;, allowing you to sell them to slave merchants or the Royal Tribute Collector for significantly higher silver or honor.
+
+&lt;color=#f0c674&gt;&lt;b&gt;III. PROGRESSION ROADMAP&lt;/b&gt;&lt;/color&gt;
+• &lt;b&gt;Early Game:&lt;/b&gt; Use cognitive study on prisoners to rush crucial early technologies (Electricity, Complex Furniture) while your primary research bench is occupied.
+• &lt;b&gt;Mid Game:&lt;/b&gt; Train rookie doctors to Medical level 10+ before trusting them with expensive bionic eyes or organ transplants on colonists.
+• &lt;b&gt;Late Game:&lt;/b&gt; Apply masterwork scarification to all outgoing captives to fund your colony's high-tech component and plasteel purchases.</s><r>&lt;color=#f0c674&gt;&lt;b&gt;I. ЦЕЛЬ И ПРЕИМУЩЕСТВА В ВАШЕЙ КОЛОНИИ&lt;/b&gt;&lt;/color&gt;
+Повышение уровня &lt;b&gt;Медицинских&lt;/b&gt; и &lt;b&gt;Интеллектуальных&lt;/b&gt; навыков обычно требует траты ценной бионики или ожидания больных колонистов. Эта система позволяет использовать пленников для совместных когнитивных исследований, хирургической практики и церемониального шрамирования.
+
+&lt;color=#f0c674&gt;&lt;b&gt;II. КАК ИСПОЛЬЗОВАТЬ ШАГ ЗА ШАГОМ&lt;/b&gt;&lt;/color&gt;
+1. &lt;b&gt;Совместное исследование:&lt;/b&gt;
+ • До &lt;b&gt;два колониста&lt;/b&gt; могут одновременно изучать одного и того же пленника, не блокируя друг друга.
+ • Каждый тик исследования награждает ваших учёных высоким &lt;b&gt;Интеллектуальным&lt;/b&gt; опытом и вводит реальные исследовательские очки непосредственно в активный исследовательский проект вашей колонии!
+2. &lt;b&gt;Хирургия с живой практикой:&lt;/b&gt;
+ • Откройте вкладку &lt;b&gt;Здоровье ➔ Операции&lt;/b&gt; заключенного и добавьте &lt;i&gt;Хирургию с живой практикой&lt;/i&gt;.
+ • Ваш врач выполняет диагностические разрезы и наложение швов, зарабатывая огромный медицинский опыт без подвергая колонистов риску.
+ • После хирургической травмы можно сразу же после этого пройти дополнительный курс врачебной практики.
+3. &lt;b&gt;Церемониальный боди-арт и шрамирование:&lt;/b&gt;
+ • Назначьте художника-колониста для выполнения экспериментального боди-арта на пленнике.
+ • Выкройки шедевров навсегда повышают &lt;b&gt;Рыночную стоимость заключенного на +30%&lt;/b&gt;, что позволяет вам продавать их работорговцам или королевскому сборщику дани за значительно более высокое серебро. или честь.
+
+&lt;color=#f0c674&gt;&lt;b&gt;III. ДОРОЖНАЯ КАРТА ПРОГРЕССИИ&lt;/b&gt;&lt;/color&gt;
+• &lt;b&gt;Ранняя игра:&lt;/b&gt; Используйте когнитивные исследования на заключенных, чтобы использовать важные ранние технологии (электричество, сложная мебель), пока ваш основной исследовательский стенд занят.
+• &lt;b&gt;Средняя игра:&lt;/b&gt; Обучайте врачей-новичков медицинскому образованию. уровень 10+, прежде чем доверять им дорогие бионические глаза или трансплантацию органов колонистам.
+• &lt;b&gt;Поздняя игра:&lt;/b&gt; Примените мастерскую скарификацию ко всем выходящим пленникам, чтобы финансировать закупки высокотехнологичных компонентов вашей колонии и пластали.</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Captivity_ScienceAndSurgery.label"><s>Cooperative Study &amp; Live Practice Surgery</s><r>Совместное обучение и живая практика хирургии</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Captivity_ScienceAndSurgery.prerequisites.0"><s>Electricity</s><r>Электричество</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Captivity_ScienceAndSurgery.prerequisites.1"><s>MedicineProduction</s><r>МедицинаПроизводство</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Captivity_ScienceAndSurgery.subCategory"><s>Science &amp; Medicine</s><r>Наука и медицина</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Captivity_SedativeTrap.description"><s>Deploy concealed gas mines that safely sedate fleshy raiders for 3 days while colonists safely path around them, and perform medical operations directly on restrained captives.</s><r>Размещайте скрытые газовые шахты, которые безопасно успокаивают мясистых рейдеров в течение 3 дней, в то время как колонисты безопасно обходят их, и проводите медицинские операции непосредственно на связанных пленниках.</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Captivity_SedativeTrap.fullTutorial"><s>&lt;color=#f0c674&gt;&lt;b&gt;I. PURPOSE &amp; THE CHEMICAL SEDATIVE TRAP&lt;/b&gt;&lt;/color&gt;
+Capturing high-value raiders alive without triggering defensive firefights is often difficult. The &lt;b&gt;Sedative Trap&lt;/b&gt; is a concealed ground mine designed for non-lethal captive acquisition:
+• &lt;b&gt;Absolute Colonist &amp; Ally Safety:&lt;/b&gt; Friendly colonists, colony mechs, prisoners, and neutral caravans actively avoid stepping on the trap (high pathing cost) and will &lt;b&gt;never trigger it&lt;/b&gt; under any circumstance (0% spring chance).
+• &lt;b&gt;Mechanoid Immunity:&lt;/b&gt; Mechanoids and non-biological targets do not spring the trap, preserving charges for living targets.
+• &lt;b&gt;Deep Tranquilizer Mist (3 Days):&lt;/b&gt; When a hostile living enemy steps onto the mine, it releases a high-pressure jet of anesthetic mist. All fleshy pawns in a 2-tile radius fall into &lt;b&gt;Deep Sedation for 3 full days (72 hours)&lt;/b&gt;. They experience zero pain, stable vitals, and remain completely incapacitated for safe transport directly to your prison cells or restraint chairs!
+
+&lt;color=#f0c674&gt;&lt;b&gt;II. IN-SITU SURGERIES IN RESTRAINT CHAIRS &amp; PLATFORMS&lt;/b&gt;&lt;/color&gt;
+Doctors can now operate directly on captives strapped into restraint chairs, racks, or holding platforms:
+• &lt;b&gt;No Moving to Hospital Beds:&lt;/b&gt; In vanilla RimWorld, surgeries require transferring restrained prisoners to hospital beds, causing prison break risks.
+• &lt;b&gt;Direct In-Situ Operations:&lt;/b&gt; Doctors can perform all surgeries, live practice, organ extractions, and potion administrations while the subject remains safely immobilized in their chair or platform.
+• &lt;b&gt;Right-Click Quick Priority:&lt;/b&gt; Right-click any pending surgery on an immobilized captive to instantly order your doctor to operate without delay.
+
+&lt;color=#f0c674&gt;&lt;b&gt;III. PROGRESSION ROADMAP&lt;/b&gt;&lt;/color&gt;
+• &lt;b&gt;Early Base Defense:&lt;/b&gt; Place 2 or 3 Sedative Traps at natural choke points outside your compound to capture enemy scouts and raiders intact.
+• &lt;b&gt;Mid Game:&lt;/b&gt; Install restraint chairs inside your hospital or prison cells so doctors perform surgeries and potion administrations in-situ with zero escape risk.
+• &lt;b&gt;Late Game:&lt;/b&gt; Secure high-value psychic masters or quest targets cleanly with tranquilizer mines before administering the Ultimate Usurper's Liquor.</s><r>&lt;color=#f0c674&gt;&lt;b&gt;I. ЦЕЛЬ И ХИМИЧЕСКАЯ СЕДАТИВНАЯ ЛОВУШКА&lt;/b&gt;&lt;/color&gt;
+Захват ценных рейдеров живыми без начала защитных перестрелок часто бывает трудным. &lt;b&gt;Седативная ловушка&lt;/b&gt; — это скрытая наземная мина, предназначенная для несмертельного захвата в плену:
+• &lt;b&gt;Абсолютная безопасность колонистов и союзников:&lt;/b&gt; Дружественные колонисты, колониальные роботы, пленники и нейтральные караваны активно избегают наступать на ловушку (высокая стоимость пути) и &lt;b&gt;никогда не срабатывают это&lt;/b&gt; при любых обстоятельствах (шанс пружины 0%).
+• &lt;b&gt;Иммунитет к механоидам:&lt;/b&gt; Механоиды и небиологические цели не активируют ловушку, сохраняя заряды для живых целей.
+• &lt;b&gt;Глубокий транквилизаторный туман (3 дня):&lt;/b&gt; При враждебном живом существе противник наступает на мину, она выпускает струю обезболивающего тумана под высоким давлением. Все мясистые пешки в радиусе 2 клеток попадают в &lt;b&gt;Глубокое успокоение на 3 полных дня (72 часа)&lt;/b&gt;. Они не испытывают боли, их жизненные показатели стабильны, и они остаются полностью недееспособными для безопасной транспортировки прямо в ваши тюремные камеры или кресла для удержания!
+
+&lt;color=#f0c674&gt;&lt;b&gt;II. ОПЕРАЦИИ НА МЕСТАХ В КРЕСЛАХ И ПЛАТФОРМАХ&lt;/b&gt;&lt;/color&gt;
+Врачи теперь могут оперировать непосредственно с пленниками, пристегнутыми к удерживающим креслам, стойкам или платформам:
+• &lt;b&gt;Запрещено перемещение на больничные койки:&lt;/b&gt; В ванильном RimWorld операции требуют перемещения привязывают заключенных к больничным койкам, создавая риск побега из тюрьмы.
+• &lt;b&gt;Прямые операции на месте:&lt;/b&gt; Врачи могут выполнять все операции, живую практику, извлечение органов и введение зелий, в то время как субъект остается безопасно обездвиженным в кресле или на платформе.
+• &lt;b&gt;Щелкните правой кнопкой мыши Быстрый приоритет:&lt;/b&gt; Щелкните правой кнопкой мыши любой ожидающего операции на обездвиженном пленнике, чтобы немедленно приказать своему врачу провести операцию без промедления.
+
+&lt;color=#f0c674&gt;&lt;b&gt;III. ДОРОЖНАЯ КАРТА ПРОГРЕССИИ&lt;/b&gt;&lt;/color&gt;
+• &lt;b&gt;Ранняя защита базы:&lt;/b&gt; Разместите 2 или 3 седативных ловушки в естественных узких местах за пределами вашего комплекса, чтобы захватить вражеских разведчиков и рейдеров целыми и невредимыми.
+• &lt;b&gt;Средняя игра:&lt;/b&gt; Установка ограничения стулья в вашей больнице или тюремных камерах, чтобы врачи могли проводить операции и вводить зелья на месте с нулевым риском побега. 
+• &lt;b&gt;Поздняя игра:&lt;/b&gt; Обезопасьте ценных мастеров-психистов или цели квестов с помощью мин с транквилизатором, прежде чем применять Напиток Абсолютного Узурпатора.</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Captivity_SedativeTrap.label"><s>Chemical Sedative Trap &amp; In-Situ Restraint Surgery</s><r>Химическая седативная ловушка и удерживающая хирургия на месте</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Captivity_SedativeTrap.prerequisites.0"><s>Sedative Traps (Prisoner Training)</s><r>Седативные ловушки (обучение заключенных)</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Captivity_SedativeTrap.prerequisites.1"><s>MedicineProduction</s><r>МедицинаПроизводство</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Captivity_SedativeTrap.subCategory"><s>Captive Management</s><r>Кэптивный менеджмент</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Experience_UniversalXP.description"><s>Remove the 4,000 XP daily learning cap, prevent skill decay, earn experience from every recipe and workbench in the game, and enjoy level-up celebrations.</s><r>Снимите ограничение на ежедневное обучение в 4000 XP, предотвратите снижение навыков, зарабатывайте опыт за каждый рецепт и верстак в игре и наслаждайтесь празднованиями повышения уровня.</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Experience_UniversalXP.fullTutorial"><s>&lt;color=#f0c674&gt;&lt;b&gt;I. PURPOSE &amp; FIXING VANILLA RESTRICTIONS&lt;/b&gt;&lt;/color&gt;
+Vanilla RimWorld limits pawn development through several frustrating bottlenecks: a harsh daily limit that slashes learning by 80% after 4,000 XP, passive skill forgetting that constantly drains high-level skills, and common recipes (like cutting stone blocks or smelting slag) that award 0 XP. &lt;b&gt;Universal XP &amp; Recipe Learning&lt;/b&gt; fixes all three completely.
+
+&lt;color=#f0c674&gt;&lt;b&gt;II. HOW IT WORKS IN YOUR GAME&lt;/b&gt;&lt;/color&gt;
+1. &lt;b&gt;Continuous All-Day Learning:&lt;/b&gt; The 4,000 XP daily cap is removed. Colonists learn at 100% speed all day, making intensive crafting shifts and captive training highly rewarding.
+2. &lt;b&gt;Anti-Decay Protection:&lt;/b&gt; High-level skills never passively degrade over time. Once a colonist reaches a level, they keep it permanently.
+3. &lt;b&gt;Experience on Every Recipe:&lt;/b&gt; Cutting stone blocks, smelting metal slag, refining chemfuel, making drugs, and crafting modded items now reward appropriate Crafting, Cooking, or Intellectual XP!
+4. &lt;b&gt;Level-Up Celebrations:&lt;/b&gt; When a colonist reaches a new skill level, a celebratory golden banner, psychic visual effect, and chime play on their location.
+
+&lt;color=#f0c674&gt;&lt;b&gt;III. PROGRESSION ROADMAP&lt;/b&gt;&lt;/color&gt;
+• &lt;b&gt;Early Game:&lt;/b&gt; Assign your colonists to cut stone blocks or craft tribal gear—they will steadily level up Crafting from day one instead of wasting their labor for zero XP.
+• &lt;b&gt;Mid Game:&lt;/b&gt; Conduct intensive training shifts in your prison sparring rings and workshops without hitting artificial daily learning walls.
+• &lt;b&gt;Late Game:&lt;/b&gt; Maintain multiple Level 20 master crafters, surgeons, and soldiers indefinitely without them forgetting their skills.</s><r>&lt;color=#f0c674&gt;&lt;b&gt;I. ЦЕЛЬ И ИСПРАВЛЕНИЕ ВАНИЛЬНЫХ ОГРАНИЧЕНИЙ&lt;/b&gt;&lt;/color&gt;
+Vanilla RimWorld ограничивает развитие пешек несколькими неприятными узкими местами: жестким дневным лимитом, который сокращает обучение на 80% после 4000 опыта, забыванием пассивных навыков, которое постоянно истощает навыки высокого уровня, и обычными рецептами (например, резка каменных блоков или плавка шлака), которые дают награду. 0 опыта. &lt;b&gt;Универсальный опыт и изучение рецептов&lt;/b&gt; полностью исправляет все три.
+
+&lt;color=#f0c674&gt;&lt;b&gt;II. КАК ЭТО РАБОТАЕТ В ВАШЕЙ ИГРЕ&lt;/b&gt;&lt;/color&gt;
+1. &lt;b&gt;Непрерывное обучение в течение всего дня:&lt;/b&gt; Ежедневный лимит в 4000 XP снят. Колонисты учатся со 100-процентной скоростью в течение всего дня, поэтому интенсивные ремесленные смены и обучение в плену очень полезны.
+2. &lt;b&gt;Защита от распада:&lt;/b&gt; Навыки высокого уровня никогда не ухудшаются со временем пассивно. Как только колонист достигает уровня, он сохраняется у него навсегда.
+3. &lt;b&gt;Опыт по каждому рецепту:&lt;/b&gt; Резка каменных блоков, выплавка металлического шлака, переработка химического топлива, изготовление лекарств и создание модифицированных предметов теперь вознаграждаются соответствующим опытом крафта, кулинарии или интеллектуального опыта!
+4. &lt;b&gt;Празднования повышения уровня:&lt;/b&gt; Когда колонист достигает нового уровня навыков, в месте его расположения раздается праздничное золотое знамя, психический визуальный эффект и звуковой сигнал.
+
+&lt;color=#f0c674&gt;&lt;b&gt;III. ДОРОЖНАЯ КАРТА ПРОГРЕССИИ&lt;/b&gt;&lt;/color&gt;
+• &lt;b&gt;Ранняя игра:&lt;/b&gt; Поручите своим колонистам резать каменные блоки или создавать племенное снаряжение — они будут постепенно повышать уровень крафта с первого дня, вместо того, чтобы тратить свой труд на ноль опыта.
+• &lt;b&gt;Средний Игра:&lt;/b&gt; Проводите интенсивные тренировочные смены на своих тюремных спарринг-рингах и в мастерских, не затрагивая искусственных стен ежедневного обучения.
+• &lt;b&gt;Поздняя игра:&lt;/b&gt; Поддерживайте несколько мастеров-ремесленников, хирургов и солдат 20-го уровня на неопределенный срок, чтобы они не забывали свои навыки.</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Experience_UniversalXP.label"><s>Universal XP &amp; Skill Progression</s><r>Универсальный опыт и прогресс навыков</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Experience_UniversalXP.prerequisites.0"><s>Active across all colonists and workbenches from the start</s><r>Активен для всех колонистов и верстаков с самого начала.</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Experience_UniversalXP.subCategory"><s>Progression &amp; Mastery</s><r>Прогресс и мастерство</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Synergy_SoulAutomaton.description"><s>Cross-mod transmutation ritual: harvest a master colonist or captive's soul matrix into a Soul Core to awaken an immortal, Level 20 omni-skilled Homunculus with 4-arm overdrive bonuses.</s><r>Ритуал трансмутации кросс-модов: соберите матрицу души мастера-колониста или пленника в Ядро души, чтобы пробудить бессмертного, всепрофессионального гомункула 20-го уровня с бонусами овердрайва с четырьмя руками.</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Synergy_SoulAutomaton.fullTutorial"><s>&lt;color=#f0c674&gt;&lt;b&gt;I. PURPOSE &amp; THE ULTIMATE BEING&lt;/b&gt;&lt;/color&gt;
+This ultimate cross-mod ritual combines &lt;i&gt;Xienfe's Dark Alchemy&lt;/i&gt;, &lt;i&gt;Prisoner Training&lt;/i&gt;, and &lt;i&gt;Modular Automatons&lt;/i&gt;. By capturing a subject's complete consciousness and distilling it into a Soul Core, you awaken a &lt;b&gt;Mechanical Homunculus&lt;/b&gt;: an immortal automaton with &lt;b&gt;Level 20 across all disciplines&lt;/b&gt;, no work restrictions, and zero mortal vulnerabilities.
+
+&lt;color=#f0c674&gt;&lt;b&gt;II. HOW TO PERFORM THE RITUAL STEP BY STEP&lt;/b&gt;&lt;/color&gt;
+1. &lt;b&gt;Groom the Subject:&lt;/b&gt; Use prisoner training and Universal XP to train a colonist or captive up to high skill levels (ideally Level 20).
+2. &lt;b&gt;Synthesize the Soul Vessel Elixir:&lt;/b&gt; At the Dark Alchemy Bench, brew the elixir using memory glands, young vital extracts, veil lotuses, and mandrake roots.
+3. &lt;b&gt;Perform the Soul Extraction:&lt;/b&gt;
+   • Order the subject to drink the elixir or administer it via surgery in their Health tab.
+   • The donor's consciousness crystallizes as their mortal body collapses.
+   • A crystallized &lt;b&gt;Soul Core&lt;/b&gt; drops on the floor, permanently storing that individual's identity, passions, and all lifetime skill levels.
+4. &lt;b&gt;Assemble the Homunculus (Single Soul Core):&lt;/b&gt;
+   • At the Automaton Workbench, simply insert &lt;b&gt;1 single Soul Core&lt;/b&gt; into the manipulator slot.
+   • The workbench automatically grants full &lt;b&gt;Quad-Arm Overdrive&lt;/b&gt;:
+     - &lt;b&gt;Speed x2:&lt;/b&gt; Fire rate doubled (aiming and cooldown halved) and melee cadence doubled.
+     - &lt;b&gt;Combined Masteries:&lt;/b&gt; Industrial Mastery (+100% craft/build), Extraction Mastery (+100% mine/harvest), Life Support Mastery (100% sterile surgery, 0% food poison), and Analytical Mastery (2x research speed).
+     - &lt;b&gt;Full Weapon Access:&lt;/b&gt; Can equip and switch between all ranged firearms and melee weapons freely.
+     - &lt;b&gt;Zero Needs:&lt;/b&gt; Never sleeps, eats, recreation-starves, or experiences mental breaks.
+     - &lt;b&gt;+4 Auxiliary Slots:&lt;/b&gt; You can still install up to 4 auxiliary upgrades (Armor Plating, Nanite Matrices, Speed Servos, Work Overdrives) on top of the Soul Core!
+
+&lt;color=#f0c674&gt;&lt;b&gt;III. PROGRESSION ROADMAP&lt;/b&gt;&lt;/color&gt;
+• &lt;b&gt;Early Game:&lt;/b&gt; Establish stable food, power, and prison facilities.
+• &lt;b&gt;Mid Game:&lt;/b&gt; Use Grimoire training disciplines to train a polymath captive to Level 20 in medical, crafting, mining, and combat.
+• &lt;b&gt;Late Game:&lt;/b&gt; Perform the ritual to create the supreme immortal overseer of your RimWorld empire.</s><r>&lt;color=#f0c674&gt;&lt;b&gt;I. ЦЕЛЬ И ВЫСШЕЕ СУЩЕСТВО&lt;/b&gt;&lt;/color&gt;
+Этот идеальный кросс-модовый ритуал сочетает в себе &lt;i&gt;Тёмную алхимию Сяньфе&lt;/i&gt;, &lt;i&gt;Обучение заключенных&lt;/i&gt; и &lt;i&gt;Модульные автоматы&lt;/i&gt;. Захватывая полное сознание субъекта и перегоняя его в Ядро Души, вы пробуждаете &lt;b&gt;Механического Гомункула&lt;/b&gt;: бессмертного автомата с &lt;b&gt;Уровнем 20 во всех дисциплинах&lt;/b&gt;, без ограничений в работе и без смертных. уязвимости.
+
+&lt;color=#f0c674&gt;&lt;b&gt;II. КАК ВЫПОЛНИТЬ РИТУАЛ ШАГ ЗА ШАГОМ&lt;/b&gt;&lt;/color&gt;
+1. &lt;b&gt;Уход за субъектом:&lt;/b&gt; Используйте обучение заключенных и универсальный опыт, чтобы обучить колониста или пленника до высокого уровня навыков (в идеале — уровня 20).
+2. &lt;b&gt;Синтезировать эликсир Сосуда Души:&lt;/b&gt; На Столе Темной Алхимии приготовьте эликсир, используя железы памяти, молодые жизненные экстракты, вуали лотосов и корни мандрагоры.
+3. &lt;b&gt;Выполнить извлечение души:&lt;/b&gt;
+ • Приказать субъекту выпить эликсир или ввести его хирургическим путем на вкладке «Здоровье».
+ • Сознание донора кристаллизуется, когда его смертное тело разрушается.
+ • Кристаллизованное &lt;b&gt;Ядро души&lt;/b&gt; падает на пол, сохраняясь навсегда личность, увлечения и все жизненные уровни этого человека.
+4. &lt;b&gt;Соберите Гомункула (Одно ядро души):&lt;/b&gt;
+ • На верстаке автоматона просто вставьте &lt;b&gt;1 одиночное ядро души&lt;/b&gt; в слот манипулятора.
+ • Верстак автоматически предоставляет полный &lt;b&gt;Четырехрукий Overdrive&lt;/b&gt;:
+ - &lt;b&gt;Скорость x2:&lt;/b&gt; Скорострельность увеличена вдвое (прицеливание и время восстановления сокращены вдвое), а частота рукопашной атаки увеличена вдвое.
+ - &lt;b&gt;Комбинированные мастерства:&lt;/b&gt; Промышленное мастерство (+100% крафт/строительство), Мастерство добычи (+100% добыча/добыча), мастерство жизнеобеспечения (100% стерильная хирургия, 0% пищевой яд) и аналитическое мастерство (2-кратная скорость исследования).
+ - &lt;b&gt;Полный доступ к оружию:&lt;/b&gt; Можно свободно экипировать и переключаться между всем огнестрельным оружием дальнего боя и оружием ближнего боя.
+ - &lt;b&gt;Ноль Потребности:&lt;/b&gt; Никогда не спит, не ест, не отдыхает и не испытывает умственных перерывов.
+ - &lt;b&gt;+4 Вспомогательных слота:&lt;/b&gt; Вы все еще можете установить до 4 вспомогательных улучшений (броня, нанитовые матрицы, скоростные сервоприводы, рабочие овердрайвы) на вершине Души. Ядро!
+
+&lt;color=#f0c674&gt;&lt;b&gt;III. ДОРОЖНАЯ КАРТА ПРОГРЕССИИ&lt;/b&gt;&lt;/color&gt;
+• &lt;b&gt;Ранняя игра:&lt;/b&gt; Обеспечьте стабильную еду, электричество и тюремные помещения.
+• &lt;b&gt;Средняя игра:&lt;/b&gt; Используйте учебные дисциплины Гримуара, чтобы обучить пленника-эрудита до 20-го уровня в медицине, крафт, добыча полезных ископаемых и бои.
+• &lt;b&gt;Поздняя игра:&lt;/b&gt; Выполните ритуал, чтобы создать верховного бессмертного надзирателя вашей империи RimWorld.</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Synergy_SoulAutomaton.label"><s>Forbidden Ritual: The Mechanical Homunculus</s><r>Запретный ритуал: Механический гомункул</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Synergy_SoulAutomaton.prerequisites.0"><s>Forbidden Elixirs (Dark Alchemy)</s><r>Запретные эликсиры (Темная алхимия)</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Synergy_SoulAutomaton.prerequisites.1"><s>Basic Automatons</s><r>Базовые автоматы</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Synergy_SoulAutomaton.subCategory"><s>Forbidden Synergies</s><r>Запретная синергия</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Welcome_Ecosystem.description"><s>Your in-game handbook and codex for Xienfe's mod ecosystem: interface controls, smart search, colony stockpiles, and progression roadmap.</s><r>Ваш внутриигровой справочник и кодекс для экосистемы модов Xienfe: элементы управления интерфейсом, умный поиск, запасы колоний и дорожная карта развития.</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Welcome_Ecosystem.fullTutorial"><s>&lt;color=#f0c674&gt;&lt;b&gt;I. WHAT IS THE GRIMOIRE?&lt;/b&gt;&lt;/color&gt;
+The &lt;b&gt;Grimoire&lt;/b&gt; is your central in-game survival and technology codex. Instead of pausing to look up external guides, open this manual at any moment to explore detailed guides, required materials, live colony inventories, and step-by-step technological roadmaps.
+
+&lt;color=#f0c674&gt;&lt;b&gt;II. HOW TO USE THIS INTERFACE&lt;/b&gt;&lt;/color&gt;
+1. &lt;b&gt;Instant Access:&lt;/b&gt; Press the &lt;b&gt;0 key (numeric keypad 0)&lt;/b&gt; or click the &lt;b&gt;Grimoire&lt;/b&gt; icon on the bottom navigation bar. The window is movable, resizable, and does not pause your game.
+2. &lt;b&gt;Live Stock Checker:&lt;/b&gt; When an entry lists building or crafting costs, the Grimoire looks up your colony's storage in real time:
+   • &lt;color=#78e08f&gt;&lt;b&gt;Green text:&lt;/b&gt;&lt;/color&gt; You have enough materials in stock.
+   • &lt;color=#e55039&gt;&lt;b&gt;Red text:&lt;/b&gt;&lt;/color&gt; Your colony needs more resources.
+3. &lt;b&gt;Interactive Information:&lt;/b&gt; Click the &lt;b&gt;[i]&lt;/b&gt; info card next to any material to open its full technical breakdown.
+4. &lt;b&gt;Smart Real-Time Search:&lt;/b&gt; Type any term in the top-left search bar to instantly find matching guides.
+5. &lt;b&gt;Navigation History:&lt;/b&gt; Clicking related links at the bottom jumps directly to that chapter and adds a &lt;b&gt;[◄ Back]&lt;/b&gt; button in the header.
+
+&lt;color=#f0c674&gt;&lt;b&gt;III. RECOMMENDED PROGRESSION ROADMAP&lt;/b&gt;&lt;/color&gt;
+• &lt;color=#82ccdd&gt;&lt;b&gt;Early Colony (Surviving the First Days):&lt;/b&gt;&lt;/color&gt;
+  - Use &lt;link=&quot;GrimoireEntry_Experience_UniversalXP&quot;&gt;Universal XP&lt;/link&gt; so your colonists level up Crafting just by cutting stone blocks.
+  - Assemble your first wooden clockwork robot for 24/7 hauling and cleaning to keep your base tidy.
+  - Capture early raiders and begin &lt;link=&quot;GrimoireEntry_Captivity_Interrogation&quot;&gt;supervised interrogation&lt;/link&gt; to train your future trade warden.
+• &lt;color=#82ccdd&gt;&lt;b&gt;Mid Game (Industrial Automation &amp; Defense):&lt;/b&gt;&lt;/color&gt;
+  - Upgrade to iron and steel automatons equipped with mining drills, farming saws, and automated repair stations.
+  - Set up safe sparring rings and medical practice on captives to train high-level doctors and frontline soldiers.
+• &lt;color=#82ccdd&gt;&lt;b&gt;Late Game (Imperial Mastery &amp; Transmutation):&lt;/b&gt;&lt;/color&gt;
+  - Assemble heavily armored plasteel warframes carrying Miniguns and Monoswords.
+  - Conduct dark alchemy transmutations to synthesize the Usurper's Liquor and awaken immortal Mechanical Homunculi.</s><r>&lt;color=#f0c674&gt;&lt;b&gt;I. ЧТО ТАКОЕ ГРИМУАР?&lt;/b&gt;&lt;/color&gt;
+&lt;b&gt;Гримуар&lt;/b&gt; — это ваш главный кодекс выживания и технологий в игре. Вместо того, чтобы останавливаться на поиске внешних руководств, откройте это руководство в любой момент, чтобы изучить подробные руководства, необходимые материалы, инвентарь живых колоний и пошаговые технологические карты.
+
+&lt;color=#f0c674&gt;&lt;b&gt;II. КАК ПОЛЬЗОВАТЬСЯ ЭТИМ ИНТЕРФЕЙСОМ&lt;/b&gt;&lt;/color&gt;
+1. &lt;b&gt;Мгновенный доступ:&lt;/b&gt; Нажмите клавишу &lt;b&gt;0 (цифровая клавиатура 0)&lt;/b&gt; или щелкните значок &lt;b&gt;Гримуар&lt;/b&gt; на нижней панели навигации. Окно можно перемещать, изменять его размер и оно не ставит игру на паузу.
+2. &lt;b&gt;Проверка живых запасов:&lt;/b&gt; Когда в записи указаны затраты на строительство или изготовление, Гримуар в режиме реального времени ищет хранилище вашей колонии:
+ • &lt;color=#78e08f&gt;&lt;b&gt;Зеленый текст:&lt;/b&gt;&lt;/color&gt; У вас достаточно материалов на складе.
+ • &lt;color=#e55039&gt;&lt;b&gt;Красный текст:&lt;/b&gt;&lt;/color&gt; Вашей колонии нужно больше ресурсов.
+3. &lt;b&gt;Интерактивная информация:&lt;/b&gt; Нажмите информационную карточку &lt;b&gt;[i]&lt;/b&gt; рядом с любым материалом, чтобы открыть его полную техническую информацию.
+4. &lt;b&gt;Интеллектуальный поиск в реальном времени:&lt;/b&gt; Введите любой термин в строку поиска в левом верхнем углу, чтобы мгновенно найти подходящие руководства.
+5. &lt;b&gt;История навигации:&lt;/b&gt; При нажатии на соответствующие ссылки внизу происходит переход непосредственно к этой главе и добавляется кнопка &lt;b&gt;[◄ Назад]&lt;/b&gt; в заголовке.
+
+&lt;color=#f0c674&gt;&lt;b&gt;III. РЕКОМЕНДУЕМАЯ ДОРОЖНАЯ КАРТА ПРОГРЕССИИ&lt;/b&gt;&lt;/color&gt;
+• &lt;color=#82ccdd&gt;&lt;b&gt;Ранняя колония (выживание в первые дни):&lt;/b&gt;&lt;/color&gt;
+ - Используйте &lt;link=&quot;GrimoireEntry_Experience_UniversalXP&quot;&gt;Universal XP&lt;/link&gt;, чтобы колонисты повышают уровень Ремесла, просто разрезая каменные блоки.
+ - Соберите своего первого деревянного заводного робота, который будет круглосуточно таскать и убирать, чтобы поддерживать порядок на вашей базе.
+ - Захватывайте первых рейдеров и начните &lt;link=&quot;GrimoireEntry_Captivity_Interrogation&quot;&gt;допрос под присмотром&lt;/link&gt;, чтобы обучить своего будущего торгового надзирателя.
+• &lt;color=#82ccdd&gt;&lt;b&gt;Средняя игра (промышленная автоматизация и оборона):&lt;/b&gt;&lt;/color&gt;
+ - Улучшите автоматы из железа и стали, оснащенные горными бурами, сельскохозяйственными пилами и автоматизированными ремонтными станциями.
+ - Установите безопасные спарринговые ринги и проводите медицинскую практику на пленниках для обучения врачей высокого уровня и солдат на передовой.
+• &lt;color=#82ccdd&gt;&lt;b&gt;Поздняя игра (Имперское мастерство и трансмутация):&lt;/b&gt;&lt;/color&gt;
+ — Соберите тяжелобронированные пласталиевые варфреймы с миниганами и мономечами.
+ — Проведите тёмную алхимическую трансмутацию, чтобы синтезировать Ликер Узурпатора и пробудить бессмертных Механических Гомункулов.</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Welcome_Ecosystem.label"><s>Welcome to Xienfe's Grimoire</s><r>Добро пожаловать в Гримуар Зиенфе</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Welcome_Ecosystem.prerequisites.0"><s>Available from the start of your colony (No research needed)</s><r>Доступно с самого начала вашей колонии (исследования не требуются)</r></e>
+  <e k="D" t="GrimoireEntryDef" key="GrimoireEntry_Welcome_Ecosystem.subCategory"><s>Introduction</s><r>Введение</r></e>
+  <e k="D" t="MainButtonDef" key="Grimoire_OpenWindow.description"><s>Opens Xienfe's Grimoire: an in-game interactive encyclopedia, step-by-step manuals, material cost cards, and mod ecosystem synergies.</s><r>Открывает Гримуар Зиенфе: внутриигровую интерактивную энциклопедию, пошаговые руководства, карты стоимости материалов и синергию экосистемы модов.</r></e>
+  <e k="D" t="MainButtonDef" key="Grimoire_OpenWindow.label"><s>grimoire</s><r>гримуар</r></e>
+  <e k="K" key="Grimoire_BackTo"><s>◄ Back to {0}</s><r>◄ Вернуться к {0}</r></e>
+  <e k="K" key="Grimoire_ClearSearchTooltip"><s>Clear search filter</s><r>Очистить фильтр поиска</r></e>
+  <e k="K" key="Grimoire_HeaderStats"><s>{0} Categories | {1} Articles Loaded (Hotkey: {2})</s><r>{0} Категории | {1} Статьи загружены (горячая клавиша: {2})</r></e>
+  <e k="K" key="Grimoire_HomeIntroLabel"><s>Welcome &amp; Introduction</s><r>Добро пожаловать и введение</r></e>
+  <e k="K" key="Grimoire_MaterialCostTitle"><s>Reference Material Costs &amp; Supplies</s><r>Стоимость и расходные материалы для справочных материалов</r></e>
+  <e k="K" key="Grimoire_MaterialStockTooltip"><s>In colony storage: {1} / {2} needed for {0}</s><r>В хранилище колонии: {1} / {2} необходимо для {0}</r></e>
+  <e k="K" key="Grimoire_NoEntriesFound"><s>No encyclopedia entries match your search filter.</s><r>Ни одна запись в энциклопедии не соответствует вашему поисковому фильтру.</r></e>
+  <e k="K" key="Grimoire_PrerequisitesTitle"><s>Research &amp; Operational Prerequisites</s><r>Исследования и оперативные предпосылки</r></e>
+  <e k="K" key="Grimoire_RelatedLinksTitle"><s>Related Encyclopedia Entries &amp; Cross-Mod Synergies</s><r>Связанные записи в энциклопедии и синергия кросс-модов</r></e>
+  <e k="K" key="Grimoire_ResearchCompleted"><s>Completed</s><r>Завершенный</r></e>
+  <e k="K" key="Grimoire_ResearchPending"><s>Pending</s><r>В ожидании</r></e>
+  <e k="K" key="Grimoire_SearchLabel"><s>Search by title, subcategory or tutorial content:</s><r>Поиск по названию, подкатегории или содержанию учебника:</r></e>
+  <e k="K" key="Grimoire_SelectEntryPrompt"><s>Select an article from the index on the left to view its tutorial.</s><r>Выберите статью в указателе слева, чтобы просмотреть руководство по ней.</r></e>
+  <e k="K" key="Grimoire_Settings_ChangeKeyBtn"><s>Change Key [{0}]</s><r>Изменить ключ [{0}]</r></e>
+  <e k="K" key="Grimoire_Settings_CurrentKey"><s>Current Grimoire Hotkey: {0}</s><r>Текущая горячая клавиша Гримуара: {0}</r></e>
+  <e k="K" key="Grimoire_Settings_HotkeyDesc"><s>Select which key opens and closes the Grimoire Encyclopedia in-game (Default: Keypad0 / Numpad 0). Press Escape while rebinding to cancel.</s><r>Выберите, какая клавиша открывает и закрывает Энциклопедию Гримуара в игре (по умолчанию: Keypad0 / Numpad 0). Нажмите Escape во время перепривязки, чтобы отменить.</r></e>
+  <e k="K" key="Grimoire_Settings_PressAnyKey"><s>&gt;&gt; Press any key now... &lt;&lt;</s><r>&gt;&gt; Теперь нажмите любую клавишу... &lt;&lt;</r></e>
+  <e k="K" key="Grimoire_Settings_ResetKeyBtn"><s>Reset to Numpad 0</s><r>Сбросить на цифровую клавиатуру 0</r></e>
+  <e k="K" key="Grimoire_Settings_Title"><s>Xienfe's Grimoire Core — Hotkey Configuration</s><r>Ядро Гримуара Зиенфе — настройка горячих клавиш</r></e>
+  <e k="K" key="Grimoire_TutorialSectionTitle"><s>Detailed Step-by-Step Guide &amp; Mechanics</s><r>Подробное пошаговое руководство и механика</r></e>
+  <e k="K" key="Grimoire_Uncategorized"><s>Uncategorized</s><r>Без категории</r></e>
+  <e k="K" key="Grimoire_WindowTitle"><s>Xienfe's Grimoire — Encyclopedia &amp; Tutorials</s><r>Гримуар Ксиенфе — энциклопедия и руководства</r></e>
+</AutoTranslateCache>
