@@ -1,0 +1,1015 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="acutus.atmosphereoverhaul.release" name="Atmosphere Overhaul" language="Russian" version="1">
+  <e k="D" t="AtmosphereGasDef" key="AO_BlindSmoke.description"><s>Smoke that obscures shots and vision.</s><r>Дым, закрывающий выстрелы и обзор.</r></e>
+  <e k="D" t="AtmosphereGasDef" key="AO_BlindSmoke.label"><s>blind smoke</s><r>слепой дым</r></e>
+  <e k="D" t="AtmosphereGasDef" key="AO_DeadlifeDust.description"><s>Necrotic deadlife dust.</s><r>Некротическая мертвая пыль.</r></e>
+  <e k="D" t="AtmosphereGasDef" key="AO_DeadlifeDust.label"><s>deadlife dust</s><r>мертвая пыль</r></e>
+  <e k="D" t="AtmosphereGasDef" key="AO_RotStink.description"><s>Putrid rot stink.</s><r>Гнилостная вонь гнили.</r></e>
+  <e k="D" t="AtmosphereGasDef" key="AO_RotStink.label"><s>rot stink</s><r>гнилая вонь</r></e>
+  <e k="D" t="AtmosphereGasDef" key="AO_ToxGas.description"><s>Toxic gas.</s><r>Токсичный газ.</r></e>
+  <e k="D" t="AtmosphereGasDef" key="AO_ToxGas.label"><s>tox gas</s><r>токсичный газ</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_AirOverlays.helpText"><s>You can color the whole map by temperature, humidity, pressure, wind, oxygen, feels-like temperature, ground temperature or soil water. Use the OVERLAY BUTTONS at the bottom right of the screen.
+
+The WIND LINES show where the air is flowing right now.
+
+Use the overlays to find cold drafts, stale corners, air leaks and places where the wind is dangerous.</s><r>Вы можете раскрасить всю карту по температуре, влажности, давлению, ветру, кислороду, температуре по ощущениям, температуре земли или почвенной воды. Используйте КНОПКИ НАКЛАДКИ в правом нижнем углу экрана.
+
+ЛИНИИ ВЕТРА показывают, где в данный момент течет воздух.
+
+Используйте наложения, чтобы найти холодные сквозняки, затхлые углы, утечки воздуха и места, где ветер опасен.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_AirOverlays.label"><s>AO: Air overlays</s><r>АО: Воздушные наложения</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_AirPressure.helpText"><s>Air pressure is how tightly the air is packed. Air is thinner on mountains, and a sealed room can hold more or less air than the outdoors.
+
+Pumping air into a sealed room raises its pressure, and pumping air out or opening a hole into thin air lowers it. Heating a sealed room raises it a little, and cooling lowers it.
+
+When you open a door between rooms with different pressures, the air rushes from high to low until they even out.</s><r>Давление воздуха – это то, насколько плотно упакован воздух. В горах воздух разрежен, и в герметичном помещении может содержаться больше или меньше воздуха, чем на открытом воздухе.
+
+Накачка воздуха в герметичное помещение повышает его давление, а выкачивание воздуха или открытие отверстия в разреженном воздухе снижает его. Нагрев герметичного помещения немного поднимает его, а охлаждение понижает.
+
+Когда вы открываете дверь между комнатами с разным давлением, воздух устремляется от высокого к низкому, пока они не выровняются.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_AirPressure.label"><s>AO: Air pressure</s><r>АО: Под давлением</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_AirReadout.helpText"><s>You can check the air anywhere on the map by resting the mouse over it. The AIR READOUT on the right side of the screen shows whether the spot is indoors or outdoors, its pressure, temperature, ground temperature and feels-like temperature, the wind, humidity and oxygen, and the water held in the soil.
+
+Normal air at sea level is about 1013 hPa with 21% oxygen. If you see numbers far from those, take a closer look.</s><r>Вы можете проверить воздух в любой точке карты, наведя на нее указатель мыши. ПОКАЗАНИЯ ВОЗДУХА в правой части экрана показывают, находится ли это место в помещении или на открытом воздухе, его давление, температура, температура земли и температура, подобная температуре, ветер, влажность и кислород, а также вода, удерживаемая в почве.
+
+Нормальный воздух на уровне моря составляет около 1013 гПа с содержанием кислорода 21%. Если вы видите цифры, далекие от тех, присмотритесь.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_AirReadout.label"><s>AO: Air readout</s><r>АО: показания воздуха</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_AirVents.helpText"><s>An open VENT lets air through a wall at a limited speed. Rooms connected by a vent even out their pressure and temperature without a dangerous blast.
+
+You can set how fast air flows through the vent with its slider, or close it completely to seal the wall.</s><r>Открытая ВЕНТИЛЯЦИЯ пропускает воздух через стену с ограниченной скоростью. В комнатах, соединенных вентиляционным отверстием, давление и температура выравниваются без опасного взрыва.
+
+Вы можете установить скорость потока воздуха через вентиляционное отверстие с помощью ползунка или полностью закрыть его, чтобы загерметизировать стену.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_AirVents.label"><s>AO: Air vents</s><r>АО: Вентиляционные отверстия</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_AtmosphereHealth.helpText"><s>Each person can only take a certain range of air. Outside it, harm builds up slowly, like hypothermia does.
+
+Too little oxygen causes OXYGEN DEPRIVATION, and too much causes OXYGEN POISONING. Very low pressure makes the body swell, and very high pressure causes PRESSURE SICKNESS. A fast drop in pressure can cause DECOMPRESSION SICKNESS, and a fast rise can hurt the ears.
+
+Get your colonists out of the bad air, and they'll recover.</s><r>Каждый человек может вдохнуть только определенный диапазон воздуха. За его пределами вред нарастает медленно, как это происходит при переохлаждении.
+
+Слишком мало кислорода вызывает КИСЛОРОДНОЕ ДЕФИРОВАНИЕ, а слишком большое количество вызывает КИСЛОРОДНОЕ ОТРАВЛЕНИЕ. Очень низкое давление приводит к разбуханию тела, а очень высокое вызывает БОЛЕЗНЬ ПРОДОЛЖЕНИЯ. Быстрое падение давления может вызвать ДЕКОМПРЕССИОННУЮ БОЛЕЗНЬ, а быстрый подъем может повредить уши.
+
+Выведите своих колонистов из плохого воздуха, и они выздоровеют.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_AtmosphereHealth.label"><s>AO: Atmosphere and health</s><r>АО: Атмосфера и здоровье</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_BlastWaves.helpText"><s>An explosion sends out a BLAST WAVE, a sudden jump in pressure that travels through the air. Close to a big blast, it can tear eardrums and damage lungs, even without any shrapnel.
+
+Blast waves are worse in small rooms, where the walls bounce them back. A wall between your colonists and the blast protects them.</s><r>Взрыв порождает ВЗРЫВНУЮ ВОЛНУ — внезапный скачок давления, распространяющийся по воздуху. Вблизи сильного взрыва он может разорвать барабанные перепонки и повредить легкие даже без осколков.
+
+Взрывные волны хуже действуют в маленьких помещениях, где стены отражают их назад. Стена между вашими колонистами и взрывом защищает их.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_BlastWaves.label"><s>AO: Blast waves</s><r>АО: Взрывные волны</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_BreathingGear.helpText"><s>Oxygen masks and sealed helmets carry their own air supply. While it's on, the wearer breathes from it instead of the air around them, and gas and smoke can't get in.
+
+With AUTO AIR on, the gear turns itself on whenever the air becomes harmful. You can also switch it on and off by hand with IN-SUIT AIR.
+
+A sealed helmet worn together with a sealed suit also protects against low pressure, even in space.</s><r>Кислородные маски и герметичные шлемы имеют собственный запас воздуха. Пока он включен, владелец дышит им, а не воздухом вокруг себя, и газ и дым не могут попасть внутрь.
+
+При включенном режиме «АВТОВОЗДУХ» механизм включается автоматически, когда воздух становится опасным. Вы также можете включать и выключать его вручную с помощью IN-SUIT AIR.
+
+Герметичный шлем, надеваемый вместе с герметичным костюмом, также защищает от низкого давления даже в космосе.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_BreathingGear.label"><s>AO: Breathing gear</s><r>АО: Дыхательный аппарат</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_CaravanWater.helpText"><s>Caravans need water too. When forming a caravan, pack enough water and check the DAYS OF WATER it will last.
+
+On the way, caravans can drink from rivers, lakes and rain. On dry land without rain, they only have what they packed.</s><r>Караванам тоже нужна вода. При формировании каравана возьмите с собой достаточно воды и проверьте, ДНЕЙ ВОДЫ ее хватит.
+
+По пути караваны могут пить воду из рек, озер и дождя. На суше без дождя у них есть только то, что они упаковали.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_CaravanWater.label"><s>AO: Caravan water</s><r>АО: Вода в караване</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_ClimateMachines.helpText"><s>Some ancient machines change the weather around them, warming or chilling the region, or darkening the sky.
+
+Their effect spreads with the weather. Distant places feel it hours later, and it only fades slowly after the machine is destroyed.</s><r>Некоторые древние машины меняют погоду вокруг себя, нагревая или охлаждая регион или затемняя небо.
+
+Их эффект распространяется вместе с погодой. В отдаленных местах это ощущается часами позже, и оно медленно угасает только после разрушения машины.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_ClimateMachines.label"><s>AO: Climate manipulation machines</s><r>АО: Машины для управления климатом</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_DangerousWind.helpText"><s>In strong wind, people stumble and can be thrown off their feet, and loose items and plants can be carried away. Depending on your settings, the wind can even blow them off the map. You can find some of those things on adjacent map, and people blown off map will find their way home if they can still walk.
+
+Heavier people and things hold their ground better, and a wall upwind gives shelter.
+
+During a storm, keep your colonists indoors and store valuables under a roof, away from open gaps.</s><r>При сильном ветре люди спотыкаются и могут сбиться с ног, а сыпучие предметы и растения могут унести. В зависимости от ваших настроек ветер может даже сдуть их с карты. Вы можете найти некоторые из этих вещей на соседней карте, и люди, унесенные ветром с карты, найдут дорогу домой, если они еще смогут идти.
+
+Более тяжелые люди и предметы лучше удерживаются на месте, а стена с наветренной стороны дает укрытие.
+
+Во время шторма держите своих колонистов в помещении и храните ценные вещи под крышей, вдали от открытых пробелов.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_DangerousWind.label"><s>AO: Dangerous wind</s><r>АО: Опасный ветер</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_DustSmogAsh.helpText"><s>Wind lifts dust from deserts, pollution makes smog, and volcanoes and wildfires make ash. These clouds drift across the planet with the wind.
+
+When a thick cloud reaches your map, you'll get a sandstorm, smog or an ash fall for as long as the cloud stays.</s><r>Ветер поднимает пыль из пустынь, загрязнения создают смог, а вулканы и лесные пожары образуют пепел. Эти облака плывут по планете вместе с ветром.
+
+Когда густое облако достигнет вашей карты, вы получите песчаную бурю, смог или пеплопад, пока облако остается.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_DustSmogAsh.label"><s>AO: Dust, smog and ash</s><r>АО: Пыль, смог и пепел</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_FeelsLike.helpText"><s>Colonists react to how the weather feels, not just to the thermometer. Wind makes cold air feel colder, and humid heat feels hotter.
+
+This means colonists can get hypothermia in a cold wind even when the temperature looks bearable, and heatstroke in humid heat.
+
+You can see the feels-like temperature in the air readout and with the FEELS-LIKE overlay.</s><r>Колонисты реагируют на погоду, а не только на термометр. Ветер заставляет холодный воздух казаться холоднее, а влажная жара - жарче.
+
+Это означает, что колонисты могут получить переохлаждение при холодном ветре, даже если температура кажется терпимой, и тепловой удар при влажной жаре.
+
+Вы можете увидеть температуру, подобную ощущениям, в показаниях воздуха и с помощью наложения FEELS-LIKE.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_FeelsLike.label"><s>AO: Feels-like temperature</s><r>АО: Ощущение температуры.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_FireOxygen.helpText"><s>Fire needs oxygen. Outdoors it always has enough, but in a sealed room a fire slowly smothers itself as it burns the oxygen away, and the room becomes deadly to breathe.
+
+Fire grows and spreads fast in oxygen-rich air. Keep oxygen tanks away from flames.</s><r>Огню нужен кислород. На открытом воздухе его всегда достаточно, но в герметичном помещении огонь медленно гаснет, сжигая кислород, и дышать в помещении становится смертельно опасно.
+
+Огонь растет и быстро распространяется в богатом кислородом воздухе. Держите кислородные баллоны подальше от огня.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_FireOxygen.label"><s>AO: Fire and oxygen</s><r>АО: Огонь и кислород</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_GasTanks.helpText"><s>An AIR COMPRESSOR sucks in the air around it and packs it into air tanks. It lowers the pressure of the room it stands in, so you can also use it to empty a room.
+
+A SEPARATION UNIT splits air into pure oxygen tanks and oxygen-free air tanks.
+
+A GAS RELEASE SPOT lets the air out of tanks again. Use it to fill a sealed room with air, or to add oxygen to it.</s><r>ВОЗДУШНЫЙ КОМПРЕССОР всасывает воздух вокруг себя и упаковывает его в воздушные резервуары. Он снижает давление в помещении, в котором он стоит, поэтому вы также можете использовать его для опорожнения помещения.
+
+БЛОК СЕПАРАЦИИ разделяет воздух на резервуары с чистым кислородом и резервуары с бескислородным воздухом.
+
+ТОЧКА ВЫПУСКА ГАЗА снова позволяет воздуху выходить из резервуаров. Используйте его, чтобы заполнить герметичную комнату воздухом или добавить в нее кислород.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_GasTanks.label"><s>AO: Air compressor and gas tanks</s><r>АО: Воздушный компрессор и бензобаки</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_GettingWater.helpText"><s>To get water, build a WATER FETCH SPOT beside fresh water and give it a bill. Colonists will fetch water and carry it to storage. A RAIN COLLECTOR gathers rain on its own, and dehumidifiers and compressors also leave water behind.
+
+You can order a colonist to drink or fetch water by right-clicking water or a river.
+
+Salt water and polluted water can't be drunk. If there's no fresh water on the map, you'll have to rely on rain and stored water.</s><r>Чтобы получить воду, постройте МЕСТО ЗАБОТЫ ВОДЫ рядом с пресной водой и дайте ему счет. Колонисты принесут воду и отнесут ее в хранилище. ДОЖДЕВОЙ СБОРНИК собирает дождь самостоятельно, а осушители и компрессоры также оставляют воду.
+
+Вы можете приказать колонисту пить или принести воду, щелкнув правой кнопкой мыши по воде или реке.
+
+Соленую и загрязненную воду пить нельзя. Если на карте нет пресной воды, вам придется полагаться на дождевую и запасенную воду.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_GettingWater.label"><s>AO: Getting water</s><r>АО: Достать воду</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_HeatersCoolersFans.helpText"><s>A HEATER warms the air around it, and the warmth spreads through the room. A COOLER blows cold air out of its front and hot air out of its back. A FAN pushes air in the direction it faces.
+
+Big or oddly shaped rooms can stay warm near the heater and cold in the far corners. Add a fan or two to even them out.
+
+A PASSIVE COOLER cools by evaporating water, so it works best in dry air.</s><r>ОБОГРЕВАТЕЛЬ нагревает воздух вокруг себя, и тепло распространяется по комнате. ОХЛАДИТЕЛЬ выдувает холодный воздух спереди и горячий воздух сзади. ВЕНТИЛЯТОР толкает воздух в том направлении, в котором он обращен.
+
+В больших комнатах или комнатах странной формы может оставаться тепло рядом с обогревателем и холодно в дальних углах. Добавьте один или два вентилятора, чтобы выровнять их.
+
+ПАССИВНЫЙ ОХЛАДИТЕЛЬ охлаждает за счет испарения воды, поэтому он лучше всего работает в сухом воздухе.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_HeatersCoolersFans.label"><s>AO: Heaters, coolers and fans</s><r>АО: Обогреватели, охладители и вентиляторы.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_HullPressure.helpText"><s>The air inside your ship pushes on the hull. Gravship hull walls are built to take it, but ordinary walls and roofs facing space may not be.
+
+Damaged hull sections are weak points. Repair them before they give way, and keep an eye on the BUILDING RISK and ROOF RISK overlays.</s><r>Воздух внутри вашего корабля давит на корпус. Стены корпуса грави-корабля рассчитаны на это, но обычные стены и крыши, обращенные в космос, могут не выдержать этого.
+
+Поврежденные секции корпуса являются слабыми местами. Отремонтируйте их, прежде чем они сломаются, и следите за наложениями РИСК ЗДАНИЯ и РИСК КРЫШИ.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_HullPressure.label"><s>AO: Hull pressure</s><r>АО: Давление корпуса</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_Humidity.helpText"><s>Air holds water vapor, and warm air can hold much more of it than cold air. Rain, open water, cooking, people and plants add moisture to the air.
+
+Food spoils faster in very humid air, and colonists don't like air that's too muggy or too dry. People who live in damp air for a long time can get blisters in the heat, or rheumatism in the cold - especially the elderly.</s><r>Воздух содержит водяной пар, а теплый воздух может удерживать его гораздо больше, чем холодный. Дождь, открытая вода, приготовление пищи, люди и растения добавляют влаги в воздух.
+
+Еда портится быстрее в очень влажном воздухе, а колонистам не нравится слишком душный или слишком сухой воздух. Люди, длительное время живущие во влажном воздухе, могут получить волдыри на жаре или ревматизм на холоде, особенно пожилые люди.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_Humidity.label"><s>AO: Humidity</s><r>АО: Влажность</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_HumidityDevices.helpText"><s>A HUMIDIFIER adds moisture to the air, and a DEHUMIDIFIER removes it and leaves the water beside it. You can set the target humidity on the building.
+
+Food keeps longer in dry air, so a dehumidifier is useful in a storeroom or freezer. In a desert, a humidifier makes bedrooms more comfortable.</s><r>УВЛАЖНИТЕЛЬ добавляет влагу в воздух, а ОСУШИТЕЛЬ удаляет ее, оставляя после себя воду. Вы можете установить целевую влажность в здании.
+
+Продукты дольше хранятся в сухом воздухе, поэтому в кладовой или морозильной камере пригодится осушитель. В пустыне увлажнитель делает спальню более комфортной.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_HumidityDevices.label"><s>AO: Humidifiers and dehumidifiers</s><r>АО: Увлажнители и осушители</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_LocalAir.helpText"><s>Every spot on your map has its own air, with its own temperature, wind, humidity, pressure and oxygen. The air moves, wind flows around walls and through doorways, warm air spreads, and smoke, mist and gases drift with it.
+
+The planet's weather is simulated too, and it decides what blows in from the edges of your map.</s><r>В каждой точке вашей карты есть свой воздух со своей температурой, ветром, влажностью, давлением и кислородом. Воздух движется, ветер обтекает стены и дверные проемы, теплый воздух распространяется, а вместе с ним плывут дым, туман и газы.
+
+Также моделируется погода на планете, и она решает, что дует с краев вашей карты.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_LocalAir.label"><s>AO: Local air</s><r>АО: местный воздух</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_Mist.helpText"><s>When moist air cools down, its water turns into MIST. Fog forms on cool, damp mornings, and steam rises from geysers and hot baths.
+
+Mist blocks sight and makes shooting harder, just like smoke. It drifts with the wind and clears as the air warms up or dries.</s><r>Когда влажный воздух остывает, его вода превращается в ТУМАН. Прохладным влажным утром образуется туман, а от гейзеров и горячих ванн поднимается пар.
+
+Туман блокирует зрение и затрудняет стрельбу, как и дым. Он дрейфует вместе с ветром и очищается по мере того, как воздух нагревается или высыхает.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_Mist.label"><s>AO: Mist and fog</s><r>АО: Туман и туман</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_Oxygen.helpText"><s>People need oxygen to breathe. Colonists use up a little of it, fire burns it much faster, and plants make it in the light.
+
+Oxygen doesn't come back on its own. It only spreads slowly or blows in with fresh air, so a sealed room with a fire, or with too many people in it, can run low.</s><r>Людям нужен кислород, чтобы дышать. Колонисты расходуют его немного, огонь сжигает его гораздо быстрее, а растения производят его на свету.
+
+Кислород не возвращается сам по себе. Он распространяется медленно или проникает со свежим воздухом, поэтому в герметичном помещении с огнем или в нем слишком много людей может кончиться воздух.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_Oxygen.label"><s>AO: Oxygen</s><r>АО: Кислород</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_PlanetWeather.helpText"><s>The whole planet's weather is simulated - winds, clouds, rain, temperatures, ocean currents, sea ice and storms. It moves across the world and changes with the seasons.
+
+The weather on your map comes from the weather above your tile, so a storm on the world map is a storm in your colony.</s><r>Моделируется погода всей планеты — ветры, облака, дождь, температура, океанские течения, морской лед и штормы. Он перемещается по миру и меняется в зависимости от времени года.
+
+Погода на вашей карте зависит от погоды над вашей плиткой, поэтому шторм на карте мира — это шторм в вашей колонии.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_PlanetWeather.label"><s>AO: Planet weather</s><r>АО: Погода на планете</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_PlantsAir.helpText"><s>Plants breathe. In the light they make oxygen and give off moisture, and in the dark they use up a little oxygen. A sealed greenhouse may get humid over time.
+
+Blight is a kind of fungus, and it spreads much faster in warm, very humid air. Keep your greenhouses ventilated.</s><r>Растения дышат. На свету они производят кислород и выделяют влагу, а в темноте расходуют немного кислорода. В герметичной теплице со временем может стать влажно.
+
+ Фитофтороз — это разновидность грибка, который распространяется гораздо быстрее в теплом и очень влажном воздухе. Обеспечьте вентиляцию теплиц.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_PlantsAir.label"><s>AO: Plants and air</s><r>АО: Растения и воздух</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_PressureAdaptation.helpText"><s>Colonists slowly get used to the pressure they live in. Someone who has lived in thin mountain air, or in a pressurized room, feels best there.
+
+Sudden changes are what hurt. Move people between very different pressures gradually, or give them a sealed suit.
+
+You can see a colonist's adaptation, and the range they can safely take right now, in their HEALTH tab.</s><r>Колонисты постепенно привыкают к давлению, в котором живут. Тот, кто жил в разреженном горном воздухе или в герметичной комнате, чувствует себя там лучше всего.
+
+Внезапные изменения причиняют боль. Постепенно перемещайте людей между очень разными давлениями или дайте им герметичный костюм.
+
+Вы можете увидеть адаптацию колониста и диапазон, который он может безопасно использовать прямо сейчас, на вкладке ЗДОРОВЬЕ.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_PressureAdaptation.label"><s>AO: Pressure adaptation</s><r>АО: Адаптация по давлению</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_PressureOnWalls.helpText"><s>A big pressure difference pushes on the walls, doors and roof between the two sides. If the push is too strong, they break, and the air bursts through in a violent wind.
+
+Stronger materials hold more, and two or three layers of wall also share the load. Repair damaged walls - they hold much less.
+
+Warning: watch the BUILDING RISK overlay for walls and buildings that are close to giving way.</s><r>Большая разница давлений давит на стены, двери и крышу между двумя сторонами. Если толчок слишком сильный, они ломаются, и воздух прорывается сильным ветром.
+
+Более прочные материалы выдерживают больше, и два или три слоя стены также разделяют нагрузку. Ремонтируйте поврежденные стены — они выдерживают гораздо меньше.
+
+Внимание: следите за наложением «СТРОИТЕЛЬНЫЙ РИСК» на предмет стен и зданий, которые вот-вот рухнут.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_PressureOnWalls.label"><s>AO: Wall pressure rating</s><r>AO: номинальное давление на стену</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_RefillBreathingGear.helpText"><s>Breathing gear runs on air tanks or oxygen tanks. Colonists will refill it from tanks in storage on their own. You can also order a refill by right-clicking a tank.
+
+Warning: newly crafted gear comes empty. Fill it before sending anyone into bad air.
+
+You can see how much air is left in the SUIT STATUS panel of a selected colonist.</s><r>Дыхательное оборудование работает на баллонах с воздухом или кислородом. Колонисты будут пополнять его из резервуаров на хранении самостоятельно. Вы также можете заказать пополнение, щелкнув правой кнопкой мыши по резервуару.
+
+Внимание: вновь созданное снаряжение оказывается пустым. Заполните его, прежде чем отправлять кого-либо в плохой воздух.
+
+Вы можете увидеть, сколько воздуха осталось на панели СТАТУСА КОСТЮМА выбранного колониста.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_RefillBreathingGear.label"><s>AO: Refilling breathing gear</s><r>АО: Заправка дыхательного аппарата</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_RoomAir.helpText"><s>A closed room keeps its own air. Its heat, moisture and oxygen only change slowly through the walls, doors and roof. Opening a door lets the air mix with the next room or the outdoors.
+
+Sturdy walls keep heat in better than thin or damaged ones, and damaged walls also leak air.</s><r>Закрытая комната сохраняет свой воздух. Его тепло, влажность и кислород лишь медленно меняются через стены, двери и крышу. Открытие двери позволяет воздуху смешиваться с воздухом соседней комнаты или улицы.
+
+Прочные стены сохраняют тепло лучше, чем тонкие или поврежденные, а поврежденные стены также пропускают воздух.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_RoomAir.label"><s>AO: Room air</s><r>АО: Комнатный воздух</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_SeaIce.helpText"><s>Sea ice freezes over cold oceans in winter and melts in summer, so the ice on the world map grows and shrinks with the seasons.
+
+You can settle on sea ice, but it may break up when the weather warms. You'll be warned days before it does.
+
+Beware: when the ice breaks up, everyone still on it is lost to the sea.</s><r>Морской лед замерзает над холодными океанами зимой и тает летом, поэтому лед на карте мира растет и уменьшается в зависимости от сезона.
+
+Вы можете поселиться на морском льду, но он может расколоться, когда наступит теплая погода. Вы будете предупреждены за несколько дней до того, как это произойдет.
+
+Остерегайтесь: когда лед расколется, все, кто еще находится на нем, исчезнут в море.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_SeaIce.label"><s>AO: Sea ice</s><r>АО: Морской лед</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_SoilWater.helpText"><s>Soil holds water like a sponge. Rain and melting snow fill it up, plants drink from it, and the sun dries it out. Rich soil holds more water than sand, and ground beside water stays damp.
+
+You can see how much water the soil holds with the SOIL WATER overlay.
+
+When the soil runs dry, crops grow slowly and can eventually die of drought. Wild plants are hardier.</s><r>Почва удерживает воду, как губка. Дождь и тающий снег наполняют его, растения пьют из него воду, а солнце высушивает его. Богатая почва удерживает больше воды, чем песок, а земля рядом с водой остается влажной.
+
+Вы можете увидеть, сколько воды удерживает почва, с помощью наложения ПОЧВЕННАЯ ВОДА.
+
+Когда почва высыхает, посевы растут медленно и в конечном итоге могут погибнуть от засухи. Дикие растения более выносливы.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_SoilWater.label"><s>AO: Soil water</s><r>АО: Почвенная вода</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_StaleAir.helpText"><s>Deep caves and sealed ancient rooms have thin, stale air with very little oxygen. The deeper into a cave, the worse it gets, but near the entrance the air is fine.
+
+Beware: colonists who explore too deep can suffocate without noticing. Opened ruins only air out slowly. Bring BREATHING GEAR, or use fans to blow fresh air in.</s><r>В глубоких пещерах и запечатанных древних комнатах воздух разреженный, спертый и с очень небольшим количеством кислорода. Чем глубже в пещеру, тем хуже, но возле входа воздух нормальный.
+
+Остерегайтесь: колонисты, которые исследуют слишком глубоко, могут задохнуться, даже не заметив этого. Открытые руины проветриваются медленно. Возьмите с собой ДЫХАТЕЛЬНЫЕ СРЕДСТВА или используйте вентиляторы для подачи свежего воздуха.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_StaleAir.label"><s>AO: Stale air</s><r>АО: Затхлый воздух</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_Thirst.helpText"><s>People and animals need to drink. Thirst comes much faster than hunger, someone without water is in serious danger within a day. Heat and dry air make people thirstier.
+
+Colonists drink from fresh water nearby, like rivers, lakes and ponds, or from stored water. Watery food also helps a bit.
+
+Most starts bring some water with them. Set up a steady supply before it runs out!</s><r>Людям и животным необходимо пить. Жажда приходит гораздо быстрее, чем голод, тому, у кого нет воды, уже через сутки грозит серьезная опасность. Жара и сухой воздух вызывают у людей жажду.
+
+Колонисты пьют из близлежащей пресной воды, например, из рек, озер и прудов, или из хранящейся воды. Водянистая пища тоже немного помогает.
+
+Большинство начинающих приносят с собой немного воды. Обеспечьте стабильный запас, пока он не закончился!</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_Thirst.label"><s>AO: Thirst</s><r>АО: Жажда</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_Tornadoes.helpText"><s>A tornado is a small, tight, violent column of spinning raising wind. It sucks in air from all around, and at its center it tears apart roofs, walls and plants and throws people and items.
+
+Tornadoes form in stormy weather, usually on warm afternoons over land.
+
+Warning: get your colonists out of its path and off open ground.</s><r>Торнадо — это небольшой, плотный, сильный столб вращающегося ветра, поднимающий ветер. Он всасывает воздух со всех сторон, а в своем центре разрывает крыши, стены и растения, а также разбрасывает людей и предметы.
+
+Торнадо образуются в штормовую погоду, обычно в теплые дни над сушей.
+
+Предупреждение: уберите своих колонистов с его пути и с открытой местности.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_Tornadoes.label"><s>AO: Tornadoes</s><r>АО: Торнадо</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_TropicalCyclones.helpText"><s>TROPICAL CYCLONES, also called hurricanes or typhoons, are huge spinning storms that grow over warm tropical oceans. They bring destructive winds, torrential rain and floods to the coasts they hit.
+
+Their marker shows their strength from category 1 to 5, and the dots show the path they took. They weaken over land and cold water.
+
+If one is heading for your colony, get ready - strengthen roofs and walls, keep everyone indoors, or inside mountains.</s><r>ТРОПИЧЕСКИЕ ЦИКЛОНЫ, также называемые ураганами или тайфунами, представляют собой огромные вращающиеся штормы, возникающие над теплыми тропическими океанами. Они приносят разрушительные ветры, проливные дожди и наводнения на побережья, по которым они попали.
+
+Их маркер показывает их силу от категории 1 до 5, а точки показывают путь, по которому они прошли. Они слабеют на суше и в холодной воде.
+
+Если кто-то направляется к вашей колонии, будьте готовы — укрепляйте крыши и стены, держите всех в помещении или в горах.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_TropicalCyclones.label"><s>AO: Tropical cyclones</s><r>АО: Тропические циклоны</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_Turbojets.helpText"><s>A TURBOJET sucks in air at the front and blasts it out of the back. The exhaust is fiercely hot and low in oxygen.
+
+Warning: the blast behind a turbojet can destroy buildings, throwing people and items.
+
+The engine needs oxygen to run. In thin air it loses power and can flame out.</s><r>ТУРБОДЖЕТ всасывает воздух спереди и выбрасывает его сзади. Выхлоп очень горячий и содержит мало кислорода.
+
+Предупреждение: взрыв за турбореактивным двигателем может разрушить здания, разбросав людей и предметы.
+
+Для работы двигателя необходим кислород. В воздухе он теряет мощность и может загореться.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_Turbojets.label"><s>AO: Turbojets</s><r>АО: Турбореактивные двигатели</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_Vacuum.helpText"><s>Space has no air. The air inside your ship only stays in as long as the hull is closed.
+
+Warning: a hole in a wall or roof lets the air rush out, in a wind strong enough to throw people and things through the hole and out into space, where they're lost for good.
+
+Keep the hull intact, use airlock doors, and give anyone going outside a sealed suit and helmet.</s><r>В космосе нет воздуха. Воздух внутри вашего корабля остается только до тех пор, пока закрыт корпус.
+
+Предупреждение: дыра в стене или крыше позволяет воздуху вырываться наружу при ветре, достаточно сильном, чтобы выбрасывать людей и вещи через отверстие в космос, где они теряются навсегда.
+
+Сохраняйте корпус неповрежденным, используйте шлюзовые двери и давайте всем, кто выходит наружу, герметичный костюм и шлем.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_Vacuum.label"><s>AO: Vacuum</s><r>АО: Вакуум</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_WaitingForWeather.helpText"><s>The planet's weather is worked out ahead of time, hour by hour. At very fast game speeds, time can catch up with it. When that happens, the game pauses briefly until the next hour of weather is ready, then continues on its own.
+
+A faster graphics card prepares the weather faster.</s><r>Погода на планете рассчитывается заранее, час за часом. На очень высоких скоростях игры время может догнать его. Когда это происходит, игра ненадолго приостанавливается до тех пор, пока погода не будет готова к следующему часу, а затем продолжается сама по себе.
+
+Более быстрая видеокарта готовит погоду быстрее.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_WaitingForWeather.label"><s>AO: Waiting for the weather</s><r>АО: Жду погоды</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_Watering.helpText"><s>Colonists can water dry crops by hand, carrying water to growing zones. This is slow work.
+
+A SPRAY IRRIGATOR waters a whole circle around it whenever the soil gets too dry. Next to fresh water or connected to pipes, it never runs out - otherwise it uses its own tank.
+
+Hydroponics basins and plant pots have a water tank that colonists refill.</s><r>Колонисты могут поливать сухие посевы вручную, доставляя воду в зоны выращивания. Это медленная работа.
+
+РАСПЫЛЯЮЩИЙ ИРРИГАТОР поливает весь круг вокруг себя всякий раз, когда почва становится слишком сухой. Рядом с пресной водой или подключенной к трубам она никогда не заканчивается - в противном случае она использует собственный резервуар.
+
+В гидропонных бассейнах и горшках для растений есть резервуар для воды, который колонисты наполняют.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_Watering.label"><s>AO: Watering and irrigation</s><r>АО: Полив и орошение</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_WeatherRadar.helpText"><s>To see the planet's weather on the world map, build a DOPPLER WEATHER RADAR. It must stand under open sky.
+
+With a working radar, you can view temperature, wind, clouds, rain, pressure and weather systems on the world map. Link it to a powered multi-analyzer to see a FORECAST for the coming day.</s><r>Чтобы увидеть погоду планеты на карте мира, постройте ДОПЛЕРОВСКИЙ ПОГОДНЫЙ РАДАР. Он должен стоять под открытым небом.
+
+С помощью работающего радара вы можете просматривать температуру, ветер, облака, дождь, давление и погодные системы на карте мира. Подключите его к мощному мультианализатору, чтобы увидеть ПРОГНОЗ на предстоящий день.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_WeatherRadar.label"><s>AO: Weather radar</s><r>АО: Метеорологический радар</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_WeatherSystems.helpText"><s>The WEATHER SYSTEMS view marks the major weather events. FRONTS are lines where warm and cold air meet, and they bring rain and wind changes as they pass. THUNDERSTORMS bring heavy rain and lightning. A TORNADO mark shows where tornadoes are likely on this area.
+
+You can use the forecast slider to see how they'll move.</s><r>В представлении ПОГОДНЫЕ СИСТЕМЫ отмечаются основные погодные явления. ФРОНТЫ — это линии, где встречаются теплый и холодный воздух, и при прохождении они приносят дождь и ветер. ГРОЗЫ приносят сильный дождь и молнии. Знак ТОРНАДО показывает, где в этой области вероятны торнадо.
+
+Вы можете использовать ползунок прогноза, чтобы увидеть, как они будут двигаться.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_WeatherSystems.label"><s>AO: Weather systems</s><r>АО: Погодные системы</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_Wind.helpText"><s>Wind blows in from the edges of your map. Walls, buildings, trees and hills slow it down and bend it around them, and a narrow gap between buildings can turn a breeze into a strong gust.
+
+Strong wind cools your colonists, pushes fire and smoke, spreads gas and turns wind turbines.</s><r>Ветер дует с краев вашей карты. Стены, здания, деревья и холмы замедляют его и огибают вокруг себя, а узкая щель между зданиями может превратить ветерок в сильный порыв.
+
+Сильный ветер охлаждает ваших колонистов, разгоняет огонь и дым, распространяет газ и вращает ветряные турбины.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_Wind.label"><s>AO: Wind</s><r>АО: Ветер</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_WindDamage.helpText"><s>Strong wind can break weak or damaged walls, wide roofs and tall plants. Unlocked doors are more likely to be blown open before they break.
+
+You can see the danger with the BUILDING RISK and ROOF RISK overlays. Green is safe - yellow, orange and red mean a growing chance to break within the hour.
+
+Sturdier materials, undamaged walls and roofs supported by nearby walls hold better.</s><r>Сильный ветер может сломать слабые или поврежденные стены, широкие крыши и высокие растения. Незапертые двери с большей вероятностью распахнутся прежде, чем сломаются.
+
+Вы можете увидеть опасность с помощью наложений «РИСК ЗДАНИЯ» и «РИСК НА КРЫШЕ». Зеленый безопасен, а желтый, оранжевый и красный означают возрастающую вероятность разрушения в течение часа.
+
+Более прочные материалы, неповрежденные стены и крыши, поддерживаемые близлежащими стенами, держатся лучше.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_WindDamage.label"><s>AO: Wind damage</s><r>АО: Урон от ветра</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_WindTurbinesSteam.helpText"><s>A WIND TURBINE makes power from the wind that actually blows through it. Walls and buildings upwind take away its wind, and in a storm it may have to stop to protect itself.
+
+Steam geysers release hot steam into the air. In a closed room, they quickly heat it, make it humid and raise its pressure.</s><r>ВЕТРОВАЯ ТУРБИНА вырабатывает энергию из ветра, который на самом деле дует через нее. Стены и здания с наветренной стороны задерживают ветер, и во время шторма ему, возможно, придется остановиться, чтобы защитить себя.
+
+Паровые гейзеры выпускают в воздух горячий пар. В закрытом помещении они быстро нагревают его, делают влажным и повышают давление.</r></e>
+  <e k="D" t="ConceptDef" key="AO_Lesson_WindTurbinesSteam.label"><s>AO: Wind turbines and steam</s><r>АО: Ветровые турбины и пар.</r></e>
+  <e k="D" t="DamageDef" key="AO_BlastOverpressure.deathMessage"><s>{0} has been killed by a blast wave.</s><r>{0} погиб взрывной волной.</r></e>
+  <e k="D" t="DamageDef" key="AO_BlastOverpressure.label"><s>blast overpressure</s><r>избыточное давление взрыва</r></e>
+  <e k="D" t="DamageDef" key="AO_GasBurst.deathMessage"><s>{0} has been killed by bursting gas tanks.</s><r>{0} погиб в результате взрыва бензобака.</r></e>
+  <e k="D" t="DamageDef" key="AO_GasBurst.label"><s>gas burst</s><r>газовый взрыв</r></e>
+  <e k="D" t="DamageDef" key="AO_WindLoad.deathMessage"><s>{0} has been killed.</s><r>{0} был убит.</r></e>
+  <e k="D" t="DamageDef" key="AO_WindLoad.label"><s>wind load</s><r>ветровая нагрузка</r></e>
+  <e k="D" t="GameConditionDef" key="AO_CycloneEye.description"><s>The eye of a tropical cyclone is passing over the colony. The wind has dropped and the sky is clear.
+
+The brief calm will boost the mood of anyone outside to see it. The winds will return when the eye moves on.</s><r>Над колонией проносится глаз тропического циклона. Ветер утих, небо ясное.
+
+ Кратковременное затишье поднимет настроение всем, кто увидит это снаружи. Ветры вернутся, когда взгляд двинется дальше.</r></e>
+  <e k="D" t="GameConditionDef" key="AO_CycloneEye.endMessage"><s>The cyclone eye has moved on.</s><r>Глаз циклона переместился дальше.</r></e>
+  <e k="D" t="GameConditionDef" key="AO_CycloneEye.label"><s>eye of the storm</s><r>глаз бури</r></e>
+  <e k="D" t="GlobalGasDef" key="AO_GlobalAsh.description"><s>Ash from erupting lava fields.</s><r>Пепел от извергающихся лавовых полей.</r></e>
+  <e k="D" t="GlobalGasDef" key="AO_GlobalAsh.label"><s>volcanic ash</s><r>вулканический пепел</r></e>
+  <e k="D" t="GlobalGasDef" key="AO_GlobalDust.description"><s>Desert dust raised by strong dry winds.</s><r>Пыль пустыни, поднятая сильными сухими ветрами.</r></e>
+  <e k="D" t="GlobalGasDef" key="AO_GlobalDust.label"><s>dust</s><r>пыль</r></e>
+  <e k="D" t="GlobalGasDef" key="AO_GlobalSmog.description"><s>Acidic smog from polluted land.</s><r>Кислый смог от загрязненной земли.</r></e>
+  <e k="D" t="GlobalGasDef" key="AO_GlobalSmog.label"><s>smog</s><r>смог</r></e>
+  <e k="D" t="GlobalGasDef" key="AO_GlobalToxic.description"><s>Toxic fumes from toxic lakes, vents and ruined refineries.</s><r>Токсичные пары токсичных озер, жерл и разрушенных нефтеперерабатывающих заводов.</r></e>
+  <e k="D" t="GlobalGasDef" key="AO_GlobalToxic.label"><s>toxic plume</s><r>токсичный шлейф</r></e>
+  <e k="D" t="HediffDef" key="AO_Barotrauma.description"><s>The pressure rose faster than the body could equalise. The middle ears and sinuses are squeezed, causing pain and muffled hearing; in severe cases the eardrums tear. It heals once the pressure inside has evened out.</s><r>Давление росло быстрее, чем тело могло его выровнять. Средние уши и пазухи сдавливаются, вызывая боль и приглушенность слуха; в тяжелых случаях разрываются барабанные перепонки. Оно заживает, когда давление внутри выравнивается.</r></e>
+  <e k="D" t="HediffDef" key="AO_Barotrauma.label"><s>barotrauma</s><r>баротравма</r></e>
+  <e k="D" t="HediffDef" key="AO_Barotrauma.stages.0.label"><s>ear pressure</s><r>давление в ушах</r></e>
+  <e k="D" t="HediffDef" key="AO_Barotrauma.stages.1.label"><s>ear squeeze</s><r>сжать ухо</r></e>
+  <e k="D" t="HediffDef" key="AO_Barotrauma.stages.2.label"><s>sinus squeeze</s><r>сдавление носовых пазух</r></e>
+  <e k="D" t="HediffDef" key="AO_Barotrauma.stages.3.label"><s>severe</s><r>серьезный</r></e>
+  <e k="D" t="HediffDef" key="AO_Barotrauma.stages.4.label"><s>torn eardrums</s><r>порванные барабанные перепонки</r></e>
+  <e k="D" t="HediffDef" key="AO_BlastInjury.comps.2.permanentLabel"><s>blast scar</s><r>шрам от взрыва</r></e>
+  <e k="D" t="HediffDef" key="AO_BlastInjury.description"><s>Tissue torn by the pressure wave of an explosion: a ruptured eardrum, or bruised and bleeding lungs.</s><r>Ткани, разорванные волной давления взрыва: разорванная барабанная перепонка или ушибленные и кровоточащие легкие.</r></e>
+  <e k="D" t="HediffDef" key="AO_BlastInjury.injuryProps.destroyedLabel"><s>Torn apart by blast</s><r>Разорванный взрывом</r></e>
+  <e k="D" t="HediffDef" key="AO_BlastInjury.label"><s>blast injury</s><r>взрывная травма</r></e>
+  <e k="D" t="HediffDef" key="AO_BlastInjury.labelNoun"><s>a blast injury</s><r>взрывная травма</r></e>
+  <e k="D" t="HediffDef" key="AO_BlastInjury.labelNounPretty"><s>{0} in the {1}</s><r>{0} в {1}</r></e>
+  <e k="D" t="HediffDef" key="AO_Blister.description"><s>A fluid-filled blister on skin softened by long hours in damp air. It stings, and heals by itself in a couple of days.</s><r>Наполненный жидкостью пузырь на коже, смягченный долгими часами пребывания на влажном воздухе. Жжет и заживает само через пару дней.</r></e>
+  <e k="D" t="HediffDef" key="AO_Blister.label"><s>blister</s><r>волдырь</r></e>
+  <e k="D" t="HediffDef" key="AO_Blister.labelNoun"><s>a blister</s><r>волдырь</r></e>
+  <e k="D" t="HediffDef" key="AO_BreathingGear.description"><s>The air inside this creature's breathing gear: whether the helmet or mask is supplying, how much breathing gas is left, whether the suit is sealed, and what the body gets compared with the air outside.</s><r>Воздух внутри дыхательного аппарата этого существа: подает ли шлем или маска, сколько дыхательного газа осталось, герметичен ли костюм и что получает тело по сравнению с воздухом снаружи.</r></e>
+  <e k="D" t="HediffDef" key="AO_BreathingGear.label"><s>suit air</s><r>костюм воздушный</r></e>
+  <e k="D" t="HediffDef" key="AO_DecompressionSickness.description"><s>The pressure fell faster than the body could adapt, and gas dissolved in the tissues came out as bubbles (&quot;the bends&quot;). It causes joint pain, then choking and nerve damage, and can kill. Returning to a higher pressure lets it heal quickly.</s><r>Давление падал быстрее, чем организм мог адаптироваться, и растворенный в тканях газ выходил в виде пузырьков («изгибов»). Он вызывает боль в суставах, затем удушье и повреждение нервов и может привести к смерти. Возврат к более высокому давлению позволяет быстро зажить.</r></e>
+  <e k="D" t="HediffDef" key="AO_DecompressionSickness.label"><s>decompression sickness</s><r>декомпрессионная болезнь</r></e>
+  <e k="D" t="HediffDef" key="AO_DecompressionSickness.stages.0.label"><s>tingling</s><r>покалывание</r></e>
+  <e k="D" t="HediffDef" key="AO_DecompressionSickness.stages.1.label"><s>joint pain</s><r>боль в суставах</r></e>
+  <e k="D" t="HediffDef" key="AO_DecompressionSickness.stages.2.label"><s>the bends</s><r>изгибы</r></e>
+  <e k="D" t="HediffDef" key="AO_DecompressionSickness.stages.3.label"><s>the chokes</s><r>дроссели</r></e>
+  <e k="D" t="HediffDef" key="AO_DecompressionSickness.stages.4.label"><s>neurological</s><r>неврологический</r></e>
+  <e k="D" t="HediffDef" key="AO_Dehydration.description"><s>The body is short of water. Thirst comes first, then headache, weakness and confusion as the blood thickens and the kidneys fail; it ends in collapse and death within hours, faster in heat. Once the creature drinks again, it recovers about as fast.</s><r>Организму не хватает воды. Сначала появляется жажда, затем головная боль, слабость и спутанность сознания, поскольку кровь сгущается и почки отказывают; оно заканчивается коллапсом и смертью в течение нескольких часов, а в случае жары — быстрее. Как только существо снова выпьет, оно выздоравливает примерно так же быстро.</r></e>
+  <e k="D" t="HediffDef" key="AO_Dehydration.label"><s>dehydration</s><r>обезвоживание</r></e>
+  <e k="D" t="HediffDef" key="AO_Dehydration.stages.0.label"><s>trivial</s><r>тривиальный</r></e>
+  <e k="D" t="HediffDef" key="AO_Dehydration.stages.1.label"><s>minor</s><r>незначительный</r></e>
+  <e k="D" t="HediffDef" key="AO_Dehydration.stages.2.label"><s>moderate</s><r>умеренный</r></e>
+  <e k="D" t="HediffDef" key="AO_Dehydration.stages.3.label"><s>severe</s><r>серьезный</r></e>
+  <e k="D" t="HediffDef" key="AO_Dehydration.stages.4.label"><s>extreme</s><r>крайний</r></e>
+  <e k="D" t="HediffDef" key="AO_Ebullism.description"><s>The air pressure is so low that body fluids boil at body temperature. Skin and tissues swell with vapour, saliva and tears boil off, and the victim soon dies unless the pressure returns.</s><r>Давление воздуха настолько низкое, что жидкости организма кипят при температуре тела. Кожа и ткани набухают от пара, слюна и слезы выкипают, и жертва вскоре умирает, если давление не вернется.</r></e>
+  <e k="D" t="HediffDef" key="AO_Ebullism.label"><s>ebullism</s><r>кипение</r></e>
+  <e k="D" t="HediffDef" key="AO_Ebullism.stages.0.label"><s>swelling</s><r>припухлость</r></e>
+  <e k="D" t="HediffDef" key="AO_Ebullism.stages.1.label"><s>swelling</s><r>припухлость</r></e>
+  <e k="D" t="HediffDef" key="AO_Ebullism.stages.2.label"><s>serious</s><r>серьезный</r></e>
+  <e k="D" t="HediffDef" key="AO_Ebullism.stages.3.label"><s>extreme</s><r>крайний</r></e>
+  <e k="D" t="HediffDef" key="AO_HighPressureSickness.description"><s>Gas breathed at high pressure acts like an anaesthetic (nitrogen narcosis): the victim feels drunk, then confused, then stuporous. At extreme pressure, tremors and collapse follow. It clears quickly once the pressure is lower.</s><r>Газ, вдыхаемый под высоким давлением, действует как обезболивающее (азотный наркоз): пострадавший чувствует себя пьяным, затем растерянным, затем ступором. При сильном давлении следуют тремор и коллапс. Он быстро очищается, как только давление снижается.</r></e>
+  <e k="D" t="HediffDef" key="AO_HighPressureSickness.label"><s>high-pressure sickness</s><r>болезнь высокого давления</r></e>
+  <e k="D" t="HediffDef" key="AO_HighPressureSickness.stages.0.label"><s>narcosis</s><r>наркоз</r></e>
+  <e k="D" t="HediffDef" key="AO_HighPressureSickness.stages.1.label"><s>narcosis</s><r>наркоз</r></e>
+  <e k="D" t="HediffDef" key="AO_HighPressureSickness.stages.2.label"><s>confused</s><r>смущенный</r></e>
+  <e k="D" t="HediffDef" key="AO_HighPressureSickness.stages.3.label"><s>stupor</s><r>ступор</r></e>
+  <e k="D" t="HediffDef" key="AO_HighPressureSickness.stages.4.label"><s>collapse</s><r>крах</r></e>
+  <e k="D" t="HediffDef" key="AO_Hypoxia.description"><s>Too little oxygen reaches the body's tissues. The brain is affected first: confusion and clumsiness, then unconsciousness and death. Recovery is quick once the victim breathes enough oxygen again.</s><r>Слишком мало кислорода достигает тканей организма. В первую очередь поражается мозг: спутанность сознания и неуклюжесть, затем потеря сознания и смерть. Выздоровление происходит быстро, как только жертва снова вдыхает достаточное количество кислорода.</r></e>
+  <e k="D" t="HediffDef" key="AO_Hypoxia.label"><s>hypoxia</s><r>гипоксия</r></e>
+  <e k="D" t="HediffDef" key="AO_Hypoxia.stages.0.label"><s>breathless</s><r>задыхающийся</r></e>
+  <e k="D" t="HediffDef" key="AO_Hypoxia.stages.1.label"><s>breathless</s><r>задыхающийся</r></e>
+  <e k="D" t="HediffDef" key="AO_Hypoxia.stages.2.label"><s>minor</s><r>незначительный</r></e>
+  <e k="D" t="HediffDef" key="AO_Hypoxia.stages.3.label"><s>serious</s><r>серьезный</r></e>
+  <e k="D" t="HediffDef" key="AO_Hypoxia.stages.4.label"><s>extreme</s><r>крайний</r></e>
+  <e k="D" t="HediffDef" key="AO_OxygenToxicity.description"><s>Breathing oxygen at too high a pressure poisons the body. Over hours it inflames and scars the lungs; at very high pressure it brings tunnel vision, twitching and seizures. It heals slowly in normal air.</s><r>Вдыхание кислорода под слишком высоким давлением отравляет организм. Через несколько часов он воспаляет и повреждает легкие; при очень высоком давлении возникает туннельное зрение, подергивания и судороги. На обычном воздухе он заживает медленно.</r></e>
+  <e k="D" t="HediffDef" key="AO_OxygenToxicity.label"><s>oxygen toxicity</s><r>кислородное отравление</r></e>
+  <e k="D" t="HediffDef" key="AO_OxygenToxicity.stages.0.label"><s>chest tightness</s><r>стеснение в груди</r></e>
+  <e k="D" t="HediffDef" key="AO_OxygenToxicity.stages.1.label"><s>chest tightness</s><r>стеснение в груди</r></e>
+  <e k="D" t="HediffDef" key="AO_OxygenToxicity.stages.2.label"><s>minor</s><r>незначительный</r></e>
+  <e k="D" t="HediffDef" key="AO_OxygenToxicity.stages.3.label"><s>serious</s><r>серьезный</r></e>
+  <e k="D" t="HediffDef" key="AO_OxygenToxicity.stages.4.label"><s>extreme</s><r>крайний</r></e>
+  <e k="D" t="HediffDef" key="AO_PressureAdaptation.description"><s>The air pressure this creature's body is adapted to; it follows the surrounding pressure over time. A pressure drop far below it causes decompression sickness, a rise far above it barotrauma. Change pressure slowly, or give the body time to adapt.</s><r>К давлению воздуха приспособлено тело этого существа; оно со временем следует за окружающим давлением. Падение давления намного ниже этого уровня вызывает декомпрессионную болезнь, а повышение давления намного выше — баротравму. Изменяйте давление медленно или дайте организму время адаптироваться.</r></e>
+  <e k="D" t="HediffDef" key="AO_PressureAdaptation.label"><s>pressure adaptation</s><r>адаптация к давлению</r></e>
+  <e k="D" t="HediffDef" key="AO_Rheumatism.description"><s>Aching, stiff joints brought on by living in cold, damp air; the old suffer most. Each damp spell can make it worse. It eases only slowly, in dry air.</s><r>Боли, скованность суставов, вызванные пребыванием на холодном и влажном воздухе; больше всего страдают старики. Каждое заклинание сырости может усугубить ситуацию. Оно ослабевает лишь медленно, в сухом воздухе.</r></e>
+  <e k="D" t="HediffDef" key="AO_Rheumatism.label"><s>rheumatism</s><r>ревматизм</r></e>
+  <e k="D" t="HediffDef" key="AO_Rheumatism.stages.0.label"><s>mild</s><r>мягкий</r></e>
+  <e k="D" t="HediffDef" key="AO_Rheumatism.stages.1.label"><s>moderate</s><r>умеренный</r></e>
+  <e k="D" t="HediffDef" key="AO_Rheumatism.stages.2.label"><s>severe</s><r>серьезный</r></e>
+  <e k="D" t="JobDef" key="AO_DeliverWater.reportString"><s>delivering water for TargetB.</s><r>доставка воды для TargetB.</r></e>
+  <e k="D" t="JobDef" key="AO_DrinkWater.reportString"><s>drinking water.</s><r>питьевая вода.</r></e>
+  <e k="D" t="JobDef" key="AO_EmptyGasPump.reportString"><s>emptying TargetA.</s><r>опорожнение TargetA.</r></e>
+  <e k="D" t="JobDef" key="AO_FetchWater.reportString"><s>fetching water.</s><r>набирая воду.</r></e>
+  <e k="D" t="JobDef" key="AO_GiveWater.reportString"><s>giving water to TargetB.</s><r>давая воду до TargetB.</r></e>
+  <e k="D" t="JobDef" key="AO_RefillBreathingSupply.reportString"><s>refilling breathing gear from TargetB.</s><r>заправка дыхательного аппарата от TargetB.</r></e>
+  <e k="D" t="JobDef" key="AO_RefillGasPump.reportString"><s>refilling TargetB.</s><r>пополнение TargetB.</r></e>
+  <e k="D" t="JobDef" key="AO_RewindFan.reportString"><s>Winding TargetA's mainspring.</s><r>Заводится ходовая пружина TargetA.</r></e>
+  <e k="D" t="JobDef" key="AO_WaterPlants.reportString"><s>watering plants.</s><r>полив растений.</r></e>
+  <e k="D" t="JobDef" key="AO_WindKnockedDown.reportString"><s>knocked down by the wind.</s><r>сбит ветром.</r></e>
+  <e k="D" t="NeedDef" key="AO_Hydration.description"><s>Water is how much a creature has drunk recently. It is lost through breathing and sweat, much faster in heat and somewhat faster in dry air; fresh food covers a little of it. Creatures drink from rivers, lakes and ponds or from water units. At zero, a creature becomes increasingly dehydrated and dies within hours.</s><r>Вода – это то, сколько существо выпило за последнее время. Он теряется с дыханием и потом, гораздо быстрее в жару и несколько быстрее в сухом воздухе; свежие продукты немного покрывают его. Существа пьют из рек, озер и прудов или из водных объектов. При нулевом уровне существо становится все более обезвоженным и умирает в течение нескольких часов.</r></e>
+  <e k="D" t="NeedDef" key="AO_Hydration.label"><s>water</s><r>вода</r></e>
+  <e k="D" t="RecipeDef" key="AO_FetchWaterBill.description"><s>Walk to the nearest fresh water within range of this spot, fill as much water as can be carried, and take it to storage.</s><r>Подойдите к ближайшему источнику пресной воды в пределах досягаемости от этого места, налейте столько воды, сколько сможете унести, и отнесите ее в хранилище.</r></e>
+  <e k="D" t="RecipeDef" key="AO_FetchWaterBill.jobString"><s>Fetching water.</s><r>Приносим воду.</r></e>
+  <e k="D" t="RecipeDef" key="AO_FetchWaterBill.label"><s>fetch water</s><r>принести воды</r></e>
+  <e k="D" t="RecipeDef" key="AO_Make_ReinforcedBarrel.description"><s>Forge, bore and harden a reinforced barrel for mortars and similar weapons. It takes a great deal of steel and uranium, and a great deal of work.</s><r>Выковать, расточить и закалить усиленный ствол для минометов и аналогичного оружия. Для этого потребуется много стали и урана и много работы.</r></e>
+  <e k="D" t="RecipeDef" key="AO_Make_ReinforcedBarrel.jobString"><s>Forging reinforced barrel.</s><r>Ковка усиленного ствола.</r></e>
+  <e k="D" t="RecipeDef" key="AO_Make_ReinforcedBarrel.label"><s>make reinforced barrel</s><r>сделать усиленный ствол</r></e>
+  <e k="D" t="ResearchProjectDef" key="AO_GasSeparation.description"><s>Build pressure-swing adsorption units that split air into pure oxygen and nitrogen, filling oxygen tanks and nitrogen tanks.</s><r>Создайте адсорбционные установки с переменным давлением, которые расщепляют воздух на чистый кислород и азот, заполняя резервуары с кислородом и резервуары с азотом.</r></e>
+  <e k="D" t="ResearchProjectDef" key="AO_GasSeparation.generalRules.rulesStrings.0"><s>subject-&gt;gas separation</s><r>subject-&gt;разделение газов</r></e>
+  <e k="D" t="ResearchProjectDef" key="AO_GasSeparation.generalRules.rulesStrings.1"><s>subject-&gt;oxygen concentrators</s><r>subject-&gt;концентраторы кислорода</r></e>
+  <e k="D" t="ResearchProjectDef" key="AO_GasSeparation.generalRules.rulesStrings.2"><s>subject_story-&gt;kept a hospital ship breathing with a home-built oxygen concentrator</s><r>subject_story-&gt;поддерживал дыхание госпитального корабля с помощью самодельного кислородного концентратора</r></e>
+  <e k="D" t="ResearchProjectDef" key="AO_GasSeparation.generalRules.rulesStrings.3"><s>subject_story-&gt;sold pure oxygen to the high-altitude towns of a thin-aired world</s><r>subject_story-&gt;продавал чистый кислород высокогорным городам разреженного мира.</r></e>
+  <e k="D" t="ResearchProjectDef" key="AO_GasSeparation.generalRules.rulesStrings.4"><s>subject_gerund-&gt;separating air</s><r>subject_gerund-&gt;сепарация воздуха</r></e>
+  <e k="D" t="ResearchProjectDef" key="AO_GasSeparation.generalRules.rulesStrings.5"><s>subject_gerund-&gt;concentrating oxygen</s><r>subject_gerund-&gt;концентрирующий кислород</r></e>
+  <e k="D" t="ResearchProjectDef" key="AO_GasSeparation.label"><s>gas separation</s><r>разделение газов</r></e>
+  <e k="D" t="ResearchProjectDef" key="AO_JetEngine.description"><s>Build turbojets: compressors, combustors and turbines that drive a high-speed jet of hot gas, for pushing hot, high-pressure air in bulk.</s><r>Создавайте турбореактивные двигатели: компрессоры, камеры сгорания и турбины, которые приводят в движение высокоскоростную струю горячего газа для подачи горячего воздуха под высоким давлением в объем.</r></e>
+  <e k="D" t="ResearchProjectDef" key="AO_JetEngine.generalRules.rulesStrings.0"><s>subject-&gt;jet propulsion</s><r>subject-&gt;реактивное движение</r></e>
+  <e k="D" t="ResearchProjectDef" key="AO_JetEngine.generalRules.rulesStrings.1"><s>subject-&gt;gas turbines</s><r>subject-&gt;газовые турбины</r></e>
+  <e k="D" t="ResearchProjectDef" key="AO_JetEngine.generalRules.rulesStrings.2"><s>subject_story-&gt;rebuilt the turbines of a crashed airliner into a power station</s><r>subject_story-&gt;перестроил турбины разбившегося авиалайнера в электростанцию</r></e>
+  <e k="D" t="ResearchProjectDef" key="AO_JetEngine.generalRules.rulesStrings.3"><s>subject_story-&gt;raced jet-powered sleds across the salt flats of a desert world</s><r>subject_story-&gt;гоняли на санях с реактивным двигателем по солончакам пустынного мира</r></e>
+  <e k="D" t="ResearchProjectDef" key="AO_JetEngine.generalRules.rulesStrings.4"><s>subject_gerund-&gt;building jet engines</s><r>subject_gerund-&gt;строительство реактивных двигателей</r></e>
+  <e k="D" t="ResearchProjectDef" key="AO_JetEngine.generalRules.rulesStrings.5"><s>subject_gerund-&gt;balancing turbines</s><r>subject_gerund-&gt;балансировочные турбины</r></e>
+  <e k="D" t="ResearchProjectDef" key="AO_JetEngine.label"><s>jet engine</s><r>реактивный двигатель</r></e>
+  <e k="D" t="ResearchProjectDef" key="AO_PressurizedContainer.description"><s>Build air compressors that pack air into steel gas tanks, and handle compressed gases safely. Sealed pressure vessels are the base of gas-operated guns, breathing supplies, smoothbore cannons and pressurized ship cabins.</s><r>Создавайте воздушные компрессоры, которые нагнетают воздух в стальные бензобаки и безопасно обрабатывают сжатые газы. Герметичные сосуды под давлением являются основой газоорудий, дыхательных аппаратов, гладкоствольных пушек и гермокабин кораблей.</r></e>
+  <e k="D" t="ResearchProjectDef" key="AO_PressurizedContainer.generalRules.rulesStrings.0"><s>subject-&gt;pressure vessels</s><r>subject-&gt;сосуды под давлением</r></e>
+  <e k="D" t="ResearchProjectDef" key="AO_PressurizedContainer.generalRules.rulesStrings.1"><s>subject-&gt;compressed gas</s><r>subject-&gt;сжатый газ</r></e>
+  <e k="D" t="ResearchProjectDef" key="AO_PressurizedContainer.generalRules.rulesStrings.2"><s>subject_story-&gt;welded gas cylinders for a mining guild on a vacuum moon</s><r>subject_story-&gt;сварные газовые баллоны для шахтерской гильдии на вакуумной луне</r></e>
+  <e k="D" t="ResearchProjectDef" key="AO_PressurizedContainer.generalRules.rulesStrings.3"><s>subject_story-&gt;survived a tank rupture and spent the rest of [ANYPAWN_possessive] career writing pressure codes</s><r>subject_story-&gt;пережил разрыв резервуара и провел остаток [ANYPAWN_possessive] карьеры, записывая коды давления.</r></e>
+  <e k="D" t="ResearchProjectDef" key="AO_PressurizedContainer.generalRules.rulesStrings.4"><s>subject_gerund-&gt;building pressure vessels</s><r>subject_gerund-&gt;строительство сосудов под давлением</r></e>
+  <e k="D" t="ResearchProjectDef" key="AO_PressurizedContainer.generalRules.rulesStrings.5"><s>subject_gerund-&gt;compressing gases</s><r>subject_gerund-&gt;сжатие газов</r></e>
+  <e k="D" t="ResearchProjectDef" key="AO_PressurizedContainer.label"><s>pressurized containers</s><r>контейнеры под давлением</r></e>
+  <e k="D" t="ResearchProjectDef" key="AO_WeatherRadar.description"><s>Build Doppler weather radars to track the global climate. A working radar reveals the planet's weather layers on the world map: winds, pressure, humidity, temperature, clouds, precipitation and ocean currents at every height.</s><r>Создавайте доплеровские метеорологические радары, чтобы отслеживать глобальный климат. Работающий радар показывает на карте мира слои погоды планеты: ветры, давление, влажность, температуру, облака, осадки и океанские течения на каждой высоте.</r></e>
+  <e k="D" t="ResearchProjectDef" key="AO_WeatherRadar.generalRules.rulesStrings.0"><s>subject-&gt;Doppler weather radar</s><r>subject-&gt;Доплеровский метеорологический радар</r></e>
+  <e k="D" t="ResearchProjectDef" key="AO_WeatherRadar.generalRules.rulesStrings.1"><s>subject-&gt;storm tracking</s><r>subject-&gt;отслеживание штормов</r></e>
+  <e k="D" t="ResearchProjectDef" key="AO_WeatherRadar.generalRules.rulesStrings.2"><s>subject_story-&gt;tracked a cyclone across half a continent and warned three settlements in time</s><r>subject_story-&gt;отследил циклон через полконтинента и вовремя предупредил три населенных пункта</r></e>
+  <e k="D" t="ResearchProjectDef" key="AO_WeatherRadar.generalRules.rulesStrings.3"><s>subject_story-&gt;spent a whole monsoon season watching rain bands march across a radar screen</s><r>subject_story-&gt;провел целый сезон дождей, наблюдая, как полосы дождя маршируют по экрану радара</r></e>
+  <e k="D" t="ResearchProjectDef" key="AO_WeatherRadar.generalRules.rulesStrings.4"><s>subject_gerund-&gt;tracking weather by radar</s><r>subject_gerund-&gt;отслеживание погоды с помощью радара</r></e>
+  <e k="D" t="ResearchProjectDef" key="AO_WeatherRadar.label"><s>weather radar</s><r>метеорологический радар</r></e>
+  <e k="D" t="ScenPartDef" key="AO_StartingWater.label"><s>starting water</s><r>стартовая вода</r></e>
+  <e k="D" t="StatDef" key="AO_AirPressureMax.description"><s>Above this air pressure, the dissolved gas acts like an anaesthetic (nitrogen narcosis) and the dense air is hard to breathe. At extreme pressure it causes tremors and collapse.</s><r>Выше этого давления растворенный газ действует как анестетик (азотный наркоз), и плотный воздух становится трудным для дыхания. При сильном давлении это вызывает тремор и коллапс.</r></e>
+  <e k="D" t="StatDef" key="AO_AirPressureMax.formatString"><s>{0} hPa</s><r>{0} гПа</r></e>
+  <e k="D" t="StatDef" key="AO_AirPressureMax.label"><s>max air pressure</s><r>максимальное давление воздуха</r></e>
+  <e k="D" t="StatDef" key="AO_AirPressureMin.description"><s>Below this air pressure, body fluids boil at body temperature (ebullism): tissues swell, and death follows within minutes. 63 hPa is the Armstrong limit for humans.</s><r>Ниже этого давления воздуха жидкости организма кипят при температуре тела (эбуллизм): ткани набухают, и смерть наступает в течение нескольких минут. 63 гПа — предел Армстронга для человека.</r></e>
+  <e k="D" t="StatDef" key="AO_AirPressureMin.formatString"><s>{0} hPa</s><r>{0} гПа</r></e>
+  <e k="D" t="StatDef" key="AO_AirPressureMin.label"><s>min air pressure</s><r>минимальное давление воздуха</r></e>
+  <e k="D" t="StatDef" key="AO_HydrationRateFactor.description"><s>A multiplier on how fast this creature loses water. Desert-adapted creatures need much less; women need somewhat less than men.</s><r>Множитель того, как быстро это существо теряет воду. Существам, приспособленным к жизни в пустыне, нужно гораздо меньше; женщинам нужно несколько меньше, чем мужчинам.</r></e>
+  <e k="D" t="StatDef" key="AO_HydrationRateFactor.label"><s>water need</s><r>потребность в воде</r></e>
+  <e k="D" t="StatDef" key="AO_OxygenPressureMax.description"><s>Above this oxygen partial pressure, oxygen itself becomes toxic: over hours it damages the lungs, and at very high pressure it causes seizures. Pure oxygen at normal pressure is about 1013 hPa.</s><r>Выше этого парциального давления кислорода сам кислород становится токсичным: в течение нескольких часов он повреждает легкие, а при очень высоком давлении вызывает судороги. Чистый кислород при нормальном давлении составляет около 1013 гПа.</r></e>
+  <e k="D" t="StatDef" key="AO_OxygenPressureMax.formatString"><s>{0} hPa</s><r>{0} гПа</r></e>
+  <e k="D" t="StatDef" key="AO_OxygenPressureMax.label"><s>max oxygen pressure</s><r>максимальное давление кислорода</r></e>
+  <e k="D" t="StatDef" key="AO_OxygenPressureMin.description"><s>Below this oxygen partial pressure the body is starved of oxygen and develops hypoxia, which ends in unconsciousness and death. Normal air at sea level has about 213 hPa of oxygen; the highest mountain towns about 110.
+
+It rises when breathing or blood pumping is impaired, and falls with vacuum resistance (vac suits, helmets).</s><r>Ниже этого парциального давления кислорода организм испытывает недостаток кислорода и развивается гипоксия, которая заканчивается потерей сознания и смертью. Нормальный воздух на уровне моря содержит около 213 гПа кислорода; самые высокогорные города около 110.
+
+Повышается при нарушении дыхания или перекачки крови и падает при сопротивлении вакууму (вакуумные костюмы, каски).</r></e>
+  <e k="D" t="StatDef" key="AO_OxygenPressureMin.formatString"><s>{0} hPa</s><r>{0} гПа</r></e>
+  <e k="D" t="StatDef" key="AO_OxygenPressureMin.label"><s>min oxygen pressure</s><r>минимальное давление кислорода</r></e>
+  <e k="D" t="StatDef" key="AO_PressureAdaptationHalfLife.description"><s>How fast the body adapts to a new air pressure: after this many hours, half of the difference is gone. Smaller creatures adapt faster.</s><r>Как быстро организм адаптируется к новому давлению воздуха: за столько часов половина разницы исчезает. Меньшие существа адаптируются быстрее.</r></e>
+  <e k="D" t="StatDef" key="AO_PressureAdaptationHalfLife.formatString"><s>{0} h</s><r>{0} ч</r></e>
+  <e k="D" t="StatDef" key="AO_PressureAdaptationHalfLife.label"><s>pressure adaptation half-life</s><r>период полураспада адаптации к давлению</r></e>
+  <e k="D" t="StatDef" key="AO_PressureChangeTolerance.description"><s>The body slowly adapts to the pressure around it. If the pressure falls below the adapted pressure divided by this factor, dissolved gas forms bubbles in the body, causing decompression sickness. If it rises above the adapted pressure times this factor, ears, sinuses and lungs are hurt by the pressure.</s><r>Организм медленно адаптируется к давлению вокруг него. Если давление падает ниже адаптированного давления, разделенного на этот коэффициент, растворенный газ образует пузырьки в организме, вызывая декомпрессионную болезнь. Если давление превысит адаптированное давление, умноженное на этот коэффициент, давление повредит уши, носовые пазухи и легкие.</r></e>
+  <e k="D" t="StatDef" key="AO_PressureChangeTolerance.formatString"><s>x{0}</s><r>х{0}</r></e>
+  <e k="D" t="StatDef" key="AO_PressureChangeTolerance.label"><s>pressure change tolerance</s><r>допуск на изменение давления</r></e>
+  <e k="D" t="StatDef" key="AO_VacuumResistance.description"><s>How well this creature is protected from bad air: thin or dense air, too little or too much oxygen, and sudden pressure changes. At 100% it is unaffected.
+
+Includes vacuum resistance from vac suits, helmets, genes and implants when the Odyssey DLC is active.</s><r>Насколько хорошо это существо защищено от плохого воздуха: разреженного или плотного воздуха, слишком малого или слишком большого количества кислорода и резких перепадов давления. При 100% на него не влияет.
+
+Включает сопротивление вакууму от вакуумных костюмов, шлемов, генов и имплантатов, когда активно DLC «Одиссея».</r></e>
+  <e k="D" t="StatDef" key="AO_VacuumResistance.label"><s>atmosphere protection</s><r>защита атмосферы</r></e>
+  <e k="D" t="ThingCategoryDef" key="AO_GasTanks.label"><s>gas tanks</s><r>бензобаки</r></e>
+  <e k="D" t="ThingDef" key="AO_AirCompressor.description"><s>A large electric compressor that fills gas tanks with the air around it, drawn in evenly from every open cell beside it: about 33 tanks per hour at normal pressure. Each tank is tagged automatically with its oxygen share. It works at any pressure, faster in denser air, until the air around it is down to the set goal pressure.</s><r>Большой электрический компрессор, который наполняет бензобаки воздухом вокруг него, равномерно всасываемым из каждой открытой камеры рядом с ним: около 33 баков в час при нормальном давлении. Каждый резервуар автоматически маркируется долей кислорода. Он работает при любом давлении, быстрее в более плотном воздухе, пока давление воздуха вокруг него не опустится до заданного целевого давления.</r></e>
+  <e k="D" t="ThingDef" key="AO_AirCompressor.label"><s>air compressor</s><r>воздушный компрессор</r></e>
+  <e k="D" t="ThingDef" key="AO_AirTank.description"><s>A small cylinder of compressed air (2.5 m³ at normal pressure). Its tag records the oxygen share of the air it was filled with; stacks merge only when the tags are within 5 points, and average them. Used up at a gas release spot. Heat, fire or heavy damage can make a stack burst, releasing all of its air at once.</s><r>Небольшой баллон со сжатым воздухом (2,5 м³ при нормальном давлении). Его метка записывает долю кислорода в воздухе, которым он был наполнен; стеки сливаются только тогда, когда теги находятся в пределах 5 пунктов, и усредняют их. Использован в месте выброса газа. Жар, огонь или сильный урон могут привести к взрыву стека, выпустив весь воздух сразу.</r></e>
+  <e k="D" t="ThingDef" key="AO_AirTank.label"><s>air tank</s><r>воздушный резервуар</r></e>
+  <e k="D" t="ThingDef" key="AO_ArchotechWindProducer.description"><s>An archotech device that drives air without fuel or electricity. Its equivalent output can be adjusted from zero to 100,000 watts, reaching a target wind speed of 90 metres per second across its entire footprint.</s><r>Архотехническое устройство, которое приводит в движение воздух без топлива и электричества. Его эквивалентную мощность можно регулировать от нуля до 100 000 Вт, достигая целевой скорости ветра 90 метров в секунду по всей площади.</r></e>
+  <e k="D" t="ThingDef" key="AO_ArchotechWindProducer.label"><s>archotech wind producer</s><r>производитель ветровых технологий Archotech</r></e>
+  <e k="D" t="ThingDef" key="AO_Dehumidifier.description"><s>A refrigerant dehumidifier. It draws the air of its own cell and the open cells beside it and condenses out the moisture above the set goal humidity, at any temperature. It works better in warm humid air and slows as the air nears the goal. It runs until the humidity around it is down to the set goal.</s><r>Осушитель хладагента. Он всасывает воздух из своей камеры и открытых камер рядом с ней и конденсирует влагу, превышающую заданную целевую влажность, при любой температуре. Он работает лучше в теплом влажном воздухе и замедляется по мере приближения воздуха к цели. Он работает до тех пор, пока влажность вокруг него не снизится до заданного значения.</r></e>
+  <e k="D" t="ThingDef" key="AO_Dehumidifier.label"><s>dehumidifier</s><r>осушитель</r></e>
+  <e k="D" t="ThingDef" key="AO_DopplerWeatherRadar.description"><s>A rotating radar dish under a weatherproof dome that tracks wind, cloud and rain far beyond the colony. While at least one is powered on any of your maps, the world map shows the planet's weather layers (winds, pressure, humidity, temperature, clouds, precipitation, ocean currents) and the height selector. Needs open sky. Can link to a nearby multi-analyzer.</s><r>Вращающаяся радиолокационная тарелка под защищенным от атмосферных воздействий куполом, которая отслеживает ветер, облака и дождь далеко за пределами колонии. Пока на любой из ваших карт включен хотя бы один, на карте мира отображаются погодные слои планеты (ветры, давление, влажность, температура, облака, осадки, океанские течения) и переключатель высоты. Нужно открытое небо. Можно подключиться к ближайшему мультианализатору.</r></e>
+  <e k="D" t="ThingDef" key="AO_DopplerWeatherRadar.label"><s>Doppler weather radar</s><r>Доплеровский метеорологический радар</r></e>
+  <e k="D" t="ThingDef" key="AO_GasReleaseSpot.description"><s>A storage spot for one stack of gas tanks. It uses up the tanks automatically at the set rate and goal pressure, releasing the gas in all directions.</s><r>Место хранения одной стопки бензобаков. Он автоматически расходует баллоны с заданной скоростью и заданным давлением, выпуская газ во всех направлениях.</r></e>
+  <e k="D" t="ThingDef" key="AO_GasReleaseSpot.label"><s>gas release spot</s><r>место выброса газа</r></e>
+  <e k="D" t="ThingDef" key="AO_HouseholdFan.description"><s>A small electric fan that circulates air in the direction it faces. Its output can be adjusted, and it can be turned by hand.</s><r>Небольшой электрический вентилятор, который циркулирует воздух в направлении, в котором он обращен. Его мощность можно регулировать и поворачивать вручную.</r></e>
+  <e k="D" t="ThingDef" key="AO_HouseholdFan.label"><s>Household Fan</s><r>Бытовой вентилятор</r></e>
+  <e k="D" t="ThingDef" key="AO_Humidifier.comps.2.fuelGizmoLabel"><s>Water</s><r>Вода</r></e>
+  <e k="D" t="ThingDef" key="AO_Humidifier.comps.2.fuelLabel"><s>water</s><r>вода</r></e>
+  <e k="D" t="ThingDef" key="AO_Humidifier.comps.2.outOfFuelMessage"><s>Needs water</s><r>Нужна вода</r></e>
+  <e k="D" t="ThingDef" key="AO_Humidifier.description"><s>An ultrasonic humidifier. It turns water into a fine mist on its own cell and the open cells beside it, up to 4 units per hour. The mist evaporates into the air and cools it. It runs until the humidity around it reaches the set goal.</s><r>Ультразвуковой увлажнитель. Он превращает воду в мелкий туман в своей ячейке и открытых ячейках рядом с ней со скоростью до 4 единиц в час. Туман испаряется в воздух и охлаждает его. Он работает до тех пор, пока влажность вокруг него не достигнет заданного значения.</r></e>
+  <e k="D" t="ThingDef" key="AO_Humidifier.label"><s>humidifier</s><r>увлажнитель</r></e>
+  <e k="D" t="ThingDef" key="AO_IndustrialBlower.description"><s>A small electric fan that circulates air in the direction it faces.</s><r>Небольшой электрический вентилятор, который циркулирует воздух в направлении, в котором он стоит.</r></e>
+  <e k="D" t="ThingDef" key="AO_IndustrialBlower.label"><s>Industrial Blower</s><r>Промышленный воздуходувка</r></e>
+  <e k="D" t="ThingDef" key="AO_Irrigator.comps.2.fuelGizmoLabel"><s>Water</s><r>Вода</r></e>
+  <e k="D" t="ThingDef" key="AO_Irrigator.comps.2.fuelLabel"><s>water</s><r>вода</r></e>
+  <e k="D" t="ThingDef" key="AO_Irrigator.comps.2.outOfFuelMessage"><s>Needs water</s><r>Нужна вода</r></e>
+  <e k="D" t="ThingDef" key="AO_Irrigator.description"><s>An electric sprinkler. When any growing zone within 9 cells dries below its set level, it sprays everything it can reach at once, about 20 mm of water on every cell per session, and sprays again while the soil stays dry. Within 3 cells of fresh water (a river, lake or pond) it pumps its own water without limit; elsewhere it uses the water in its own tank, which colonists keep filled.</s><r>Электрический разбрызгиватель. Когда какая-либо зона выращивания в пределах 9 ячеек высыхает ниже заданного уровня, он опрыскивает все, до чего может добраться, сразу, примерно 20 мм воды на каждую ячейку за сеанс, и опрыскивает снова, пока почва остается сухой. В пределах 3 клеток с пресной водой (река, озеро или пруд) качает собственную воду без ограничений; в других местах он использует воду из собственного резервуара, который колонисты постоянно наполняют.</r></e>
+  <e k="D" t="ThingDef" key="AO_Irrigator.label"><s>irrigator</s><r>ирригатор</r></e>
+  <e k="D" t="ThingDef" key="AO_OxygenMask.description"><s>A sealed mouth-and-nose mask with a small regulator and a gas bottle. When the air holds too little or too much oxygen, as at high altitude, in an oxygen-starved sealed room or near an oxygen leak, it feeds the wearer a breath with just enough oxygen. It cannot help where the air itself is too thin, such as in a vacuum.
+
+Refilled from an air tank.</s><r>Герметичная маска для рта и носа с небольшим регулятором и газовым баллоном. Когда в воздухе содержится слишком мало или слишком много кислорода, например, на большой высоте, в герметичном помещении с кислородным голоданием или вблизи утечки кислорода, он снабжает владельца дыханием с достаточным количеством кислорода. Он не может помочь там, где сам воздух слишком разрежен, например, в вакууме.
+
+Заправляется из воздушного резервуара.</r></e>
+  <e k="D" t="ThingDef" key="AO_OxygenMask.label"><s>oxygen mask</s><r>кислородная маска</r></e>
+  <e k="D" t="ThingDef" key="AO_OxygenTank.description"><s>A small cylinder of oxygen (2.5 m³ at normal pressure). Used up at a gas release spot. Heat, fire or heavy damage can make a stack burst, releasing all of its gas at once.</s><r>Небольшой баллон с кислородом (2,5 м³ при нормальном давлении). Использован в месте выброса газа. Тепло, огонь или сильный урон могут привести к взрыву стека, выпустив весь газ сразу.</r></e>
+  <e k="D" t="ThingDef" key="AO_OxygenTank.label"><s>oxygen tank</s><r>кислородный баллон</r></e>
+  <e k="D" t="ThingDef" key="AO_PsaSeparationUnit.description"><s>A pressure-swing adsorption unit. It draws in the air around it (evenly from every open cell beside it) and separates it. The oxygen goes into oxygen tanks, the rest into nitrogen-filled air tanks. From normal air that is about 7 oxygen tanks and 26 nitrogen tanks per hour. It works at any pressure, faster in denser air, until the air around it is down to the set goal pressure.</s><r>Адсорбционная установка с переменным давлением. Он втягивает воздух вокруг себя (равномерно из каждой открытой ячейки рядом с ним) и разделяет его. Кислород поступает в кислородные баллоны, остальная часть — в воздушные баллоны, наполненные азотом. Из обычного воздуха это около 7 баллонов с кислородом и 26 баллонов с азотом в час. Он работает при любом давлении, быстрее в более плотном воздухе, пока давление воздуха вокруг него не опустится до заданного целевого давления.</r></e>
+  <e k="D" t="ThingDef" key="AO_PsaSeparationUnit.label"><s>PSA separation unit</s><r>Установка разделения ПСА</r></e>
+  <e k="D" t="ThingDef" key="AO_RainCollector.description"><s>A wide funnel over a barrel. When it rains, it catches the water that falls on it and stores it. It needs open sky, and catches nothing while snowing or freezing. It overflows while plenty of water is already waiting next to it.</s><r>Широкая воронка над бочкой. Когда идет дождь, он улавливает падающую на него воду и сохраняет ее. Ему нужно открытое небо, и он ничего не ловит во время снега или замерзания. Он переливается, а рядом уже ждет много воды.</r></e>
+  <e k="D" t="ThingDef" key="AO_RainCollector.label"><s>rain collector</s><r>коллектор дождя</r></e>
+  <e k="D" t="ThingDef" key="AO_Turbojet.description"><s>A chemfuel-powered jet engine with a separate intake and three-cell exhaust. Exhaust is extremely hot and oxygen-poor. Keep the intake and exhaust clear.</s><r>Реактивный двигатель, работающий на химическом топливе, с раздельным впуском и трехкамерным выхлопом. Выхлоп очень горячий и бедный кислородом. Держите впускное и выпускное отверстия чистыми.</r></e>
+  <e k="D" t="ThingDef" key="AO_Turbojet.label"><s>turbojet</s><r>турбореактивный двигатель</r></e>
+  <e k="D" t="ThingDef" key="AO_Water.description"><s>Clean liquid water, 250 g per unit. Collected by dehumidifiers and as condensate from air compressors; used by humidifiers.</s><r>Чистая жидкая вода, 250 г на единицу. Собирается осушителями и в виде конденсата воздушных компрессоров; используется увлажнителями.</r></e>
+  <e k="D" t="ThingDef" key="AO_Water.label"><s>water</s><r>вода</r></e>
+  <e k="D" t="ThingDef" key="AO_WaterFetchSpot.description"><s>A spot on fresh water (a river, lake or pond; not the sea or polluted water) for organizing water fetching. Add a &quot;fetch water&quot; bill: colonists who haul will walk there, fill as much water as they can carry, and take it to storage.</s><r>Место на пресной воде (река, озеро или пруд, а не море или загрязненная вода) для организации забора воды. Добавьте счет за воду: колонисты, которые будут носить воду, будут ходить туда, наливать столько воды, сколько смогут унести, и относить ее в хранилище.</r></e>
+  <e k="D" t="ThingDef" key="AO_WaterFetchSpot.label"><s>water fetching spot</s><r>место для забора воды</r></e>
+  <e k="D" t="ThingDef" key="AO_WindBorneThing.label"><s>wind-borne thing</s><r>переносимая ветром вещь</r></e>
+  <e k="D" t="ThingDef" key="AO_WindUpFan.description"><s>A small mainspring-driven fan. A full winding runs it for 180 seconds. Colonists assigned to basic tasks can automatically rewind it when empty.</s><r>Небольшой вентилятор с пружинным приводом. Полная обмотка работает в течение 180 секунд. Колонисты, которым назначены основные задачи, могут автоматически перематывать его, когда он пуст.</r></e>
+  <e k="D" t="ThingDef" key="AO_WindUpFan.label"><s>wind-up fan</s><r>заводной вентилятор</r></e>
+  <e k="D" t="ThoughtDef" key="AO_CycloneEye.stages.0.description"><s>Calm and clear, with a wall of storm all around. Time seems to stretch on forever.</s><r>Спокойно и ясно, а вокруг стена бури. Кажется, что время тянется вечно.</r></e>
+  <e k="D" t="ThoughtDef" key="AO_CycloneEye.stages.0.label"><s>eye of the storm</s><r>глаз бури</r></e>
+  <e k="D" t="ThoughtDef" key="AO_DryAir.stages.0.description"><s>The air in here is so dry my throat and eyes are sore.</s><r>Воздух здесь настолько сухой, что у меня болят горло и глаза.</r></e>
+  <e k="D" t="ThoughtDef" key="AO_DryAir.stages.0.label"><s>dry air</s><r>сухой воздух</r></e>
+  <e k="D" t="ThoughtDef" key="AO_MuggyAir.stages.0.description"><s>The air in here is hot and damp. It clings to everything.</s><r>Воздух здесь горячий и влажный. Оно цепляется за все.</r></e>
+  <e k="D" t="ThoughtDef" key="AO_MuggyAir.stages.0.label"><s>muggy air</s><r>душный воздух</r></e>
+  <e k="D" t="ThoughtDef" key="AO_NeedWater.stages.0.description"><s>I'm really thirsty.</s><r>Я очень хочу пить.</r></e>
+  <e k="D" t="ThoughtDef" key="AO_NeedWater.stages.0.label"><s>thirsty</s><r>испытывающий жажду</r></e>
+  <e k="D" t="ThoughtDef" key="AO_NeedWater.stages.1.description"><s>My mouth is dry and my head is pounding. I need water.</s><r>У меня пересохло во рту и раскалывалась голова. Мне нужна вода.</r></e>
+  <e k="D" t="ThoughtDef" key="AO_NeedWater.stages.1.label"><s>parched</s><r>пересохший</r></e>
+  <e k="D" t="ThoughtDef" key="AO_NeedWater.stages.2.description"><s>I haven't had a drink in so long. My head aches and everything feels slow.</s><r>Я так давно не пил. У меня болит голова, и все кажется медленным.</r></e>
+  <e k="D" t="ThoughtDef" key="AO_NeedWater.stages.2.label"><s>dehydrated</s><r>обезвоженный</r></e>
+  <e k="D" t="ThoughtDef" key="AO_NeedWater.stages.3.description"><s>My tongue is swollen and my skin is dry. I can't think about anything but water.</s><r>Мой язык опух, а кожа сухая. Я не могу думать ни о чем, кроме воды.</r></e>
+  <e k="D" t="ThoughtDef" key="AO_NeedWater.stages.3.label"><s>badly dehydrated</s><r>сильно обезвоженный</r></e>
+  <e k="D" t="ThoughtDef" key="AO_NeedWater.stages.4.description"><s>I can barely stand. My heart is racing. Water... please...</s><r>Я едва могу стоять. Мое сердце колотится. Принесите воды, пожалуйста...</r></e>
+  <e k="D" t="ThoughtDef" key="AO_NeedWater.stages.4.label"><s>severely dehydrated</s><r>сильно обезвоженный</r></e>
+  <e k="D" t="ThoughtDef" key="AO_NeedWater.stages.5.description"><s>Everything is fading. I'm going to die without water.</s><r>Все угасает. Я умру без воды.</r></e>
+  <e k="D" t="ThoughtDef" key="AO_NeedWater.stages.5.label"><s>dying of thirst</s><r>умираю от жажды</r></e>
+  <e k="D" t="WeatherDef" key="AO_Sandstorm.description"><s>Sandstorms reduce the accuracy of ranged weapons, slow people down, and get sand everywhere.</s><r>Песчаные бури снижают точность оружия дальнего боя, замедляют людей и повсюду разносят песок.</r></e>
+  <e k="D" t="WeatherDef" key="AO_Sandstorm.label"><s>sandstorm</s><r>песчаная буря</r></e>
+  <e k="D" t="WorkGiverDef" key="AO_DeliverWaterToPrisoner.gerund"><s>delivering water for</s><r>доставка воды для</r></e>
+  <e k="D" t="WorkGiverDef" key="AO_DeliverWaterToPrisoner.label"><s>deliver water to prisoners</s><r>доставлять воду заключенным</r></e>
+  <e k="D" t="WorkGiverDef" key="AO_DeliverWaterToPrisoner.verb"><s>deliver water for</s><r>доставить воду для</r></e>
+  <e k="D" t="WorkGiverDef" key="AO_DoFetchWaterBills.gerund"><s>fetching water at</s><r>за водой в</r></e>
+  <e k="D" t="WorkGiverDef" key="AO_DoFetchWaterBills.label"><s>fetch water</s><r>принести воды</r></e>
+  <e k="D" t="WorkGiverDef" key="AO_DoFetchWaterBills.verb"><s>fetch water at</s><r>принести воды в</r></e>
+  <e k="D" t="WorkGiverDef" key="AO_GiveWaterToPatient.gerund"><s>giving water to</s><r>давать воду</r></e>
+  <e k="D" t="WorkGiverDef" key="AO_GiveWaterToPatient.label"><s>give water to patients</s><r>давать воду пациентам</r></e>
+  <e k="D" t="WorkGiverDef" key="AO_GiveWaterToPatient.verb"><s>give water to</s><r>дать воды</r></e>
+  <e k="D" t="WorkGiverDef" key="AO_GiveWaterToPrisoner.gerund"><s>giving water to</s><r>давать воду</r></e>
+  <e k="D" t="WorkGiverDef" key="AO_GiveWaterToPrisoner.label"><s>give water to prisoners</s><r>дать воды заключенным</r></e>
+  <e k="D" t="WorkGiverDef" key="AO_GiveWaterToPrisoner.verb"><s>give water to</s><r>дать воды</r></e>
+  <e k="D" t="WorkGiverDef" key="AO_RefillGasPump.gerund"><s>tending</s><r>уход</r></e>
+  <e k="D" t="WorkGiverDef" key="AO_RefillGasPump.label"><s>refill and empty gas pumps</s><r>заправка и опорожнение бензонасосов</r></e>
+  <e k="D" t="WorkGiverDef" key="AO_RefillGasPump.verb"><s>tend</s><r>иметь тенденцию</r></e>
+  <e k="D" t="WorkGiverDef" key="AO_RewindFan.gerund"><s>rewinding fan</s><r>перемоточный вентилятор</r></e>
+  <e k="D" t="WorkGiverDef" key="AO_RewindFan.label"><s>rewind fans</s><r>фанаты перемотки назад</r></e>
+  <e k="D" t="WorkGiverDef" key="AO_RewindFan.verb"><s>rewind</s><r>перемотать назад</r></e>
+  <e k="D" t="WorkGiverDef" key="AO_WaterPlants.gerund"><s>watering</s><r>полив</r></e>
+  <e k="D" t="WorkGiverDef" key="AO_WaterPlants.label"><s>water plants</s><r>водные растения</r></e>
+  <e k="D" t="WorkGiverDef" key="AO_WaterPlants.verb"><s>water</s><r>вода</r></e>
+  <e k="K" key="AO_BreathingBreached"><s>breached (below 50% HP): does not work</s><r>нарушенный (ниже 50% HP): не работает</r></e>
+  <e k="K" key="AO_BreathingGizmoAuto"><s>Auto air</s><r>Авто воздух</r></e>
+  <e k="K" key="AO_BreathingGizmoAutoDesc"><s>{0}: {1} air tanks of breathing gas (about {2} h at this wearer's rate).
+
+When on, the gear decides by itself: it supplies whenever the air is potentially harmful for this wearer: oxygen near its limits, thin air or a pressure drop a sealed suit can help with, or toxins it is not immune to (tox gas, rot stink, pollution, toxic fallout).
+
+Turning auto off keeps the current state.</s><r>{0}: {1} баллоны с дыхательным газом (около {2} часа при скорости этого пользователя).
+
+Когда включено, снаряжение решает само: оно подает воздух, когда воздух потенциально вреден для этого пользователя: кислород на пределе своих возможностей, разреженный воздух или перепад давления, с которым может помочь герметичный костюм, или токсины, к которым он не застрахован (токсичный газ, вонь гнили, загрязнение, токсичные вещества). Fallout).
+
+Отключение автоматического режима сохраняет текущее состояние.</r></e>
+  <e k="K" key="AO_BreathingGizmoOn"><s>In suit air ({0})</s><r>В воздухе костюма ({0})</r></e>
+  <e k="K" key="AO_BreathingGizmoOnDesc"><s>{0}: {1} air tanks of breathing gas (about {2} h at this wearer's rate).
+
+On: breathe the in suit air (keeps inhaled toxins out; a sealed suit holds its pressure). Off: breathe the air outside, no gas used.
+
+Clicking sets it by hand and turns auto off.</s><r>{0}: {1} баллоны с дыхательным газом (около {2} часа при скорости данного пользователя).
+
+Вкл.: вдыхать воздух, находящийся в костюме (задерживает вдыхаемые токсины; герметичный костюм удерживает давление). Выкл.: дышите воздухом снаружи, газ не используется.
+
+Нажатие устанавливает его вручную и автоматически выключает.</r></e>
+  <e k="K" key="AO_BreathingInspect"><s>Breathing gas: {0} air tanks ({1})</s><r>Дыхательный газ: {0} воздушные баллоны ({1})</r></e>
+  <e k="K" key="AO_BreathingMode_AlwaysOn"><s>always on</s><r>всегда включен</r></e>
+  <e k="K" key="AO_BreathingMode_Auto"><s>auto</s><r>авто</r></e>
+  <e k="K" key="AO_BreathingMode_Off"><s>off</s><r>выключенный</r></e>
+  <e k="K" key="AO_CaravanWaterInspect"><s>Water: {0} days ({1} units), found on the way: {2}</s><r>Вода: {0} дней ({1} единиц), найдено в пути: {2}</r></e>
+  <e k="K" key="AO_CommandAllowWatering"><s>Allow watering</s><r>Разрешить полив</r></e>
+  <e k="K" key="AO_CommandAllowWateringDesc"><s>Let growers water the plants here when the soil runs low (below 30% of what it can hold). They soak each cell to full; one water unit adds 10 mm.</s><r>Позвольте производителям поливать растения здесь, когда почва истощается (ниже 30% от того, что она может вместить). Они полностью пропитывают каждую ячейку; одна единица воды добавляет 10 мм.</r></e>
+  <e k="K" key="AO_Compass_E"><s>E</s><r>Э</r></e>
+  <e k="K" key="AO_Compass_N"><s>N</s><r>Н</r></e>
+  <e k="K" key="AO_Compass_NE"><s>NE</s><r>НЕТ</r></e>
+  <e k="K" key="AO_Compass_NW"><s>NW</s><r>СЗ</r></e>
+  <e k="K" key="AO_Compass_S"><s>S</s><r>С</r></e>
+  <e k="K" key="AO_Compass_SE"><s>SE</s><r>ЮВ</r></e>
+  <e k="K" key="AO_Compass_SW"><s>SW</s><r>ЮВ</r></e>
+  <e k="K" key="AO_Compass_W"><s>W</s><r>Вт</r></e>
+  <e k="K" key="AO_CompressorFilling"><s>Filling air tanks: about {0} per hour (intake {1} hPa, goal {2} hPa).</s><r>Заполнение баллонов воздухом: около {0} в час (всасывание {1} гПа, целевое значение {2} гПа).</r></e>
+  <e k="K" key="AO_CompressorGoalReached"><s>Idle: intake pressure {0} hPa has reached the goal ({1} hPa).</s><r>Холостой ход: давление на впуске {0} гПа достигло заданного значения ({1} гПа).</r></e>
+  <e k="K" key="AO_CompressorGoalTip"><s>Pump down to: it keeps working until the air around it is down to this pressure. Outdoors the air stays near 1013 hPa, so a goal below that means it never stops. Higher intake pressure fills tanks faster.</s><r>Откачать до: он продолжает работать до тех пор, пока давление воздуха вокруг него не опустится до этого давления. На улице давление воздуха остается около 1013 гПа, поэтому цель ниже этого значения означает, что давление никогда не прекращается. Более высокое давление на впуске наполняет баки быстрее.</r></e>
+  <e k="K" key="AO_CompressorGoalTitle"><s>Pump down to</s><r>Откачать до</r></e>
+  <e k="K" key="AO_CompressorIntakeBlocked"><s>Idle: no open cell beside it to draw air from.</s><r>Режим ожидания: рядом с ним нет открытой камеры, из которой можно было бы забирать воздух.</r></e>
+  <e k="K" key="AO_CompressorNoPower"><s>Idle: no power.</s><r>В режиме ожидания: нет питания.</r></e>
+  <e k="K" key="AO_CompressorOutputFull"><s>Waiting: no room nearby for another tank.</s><r>Ожидание: поблизости нет места для другого танка.</r></e>
+  <e k="K" key="AO_CompressorPool"><s>Tank in progress: {0}</s><r>Танк в процессе: {0}</r></e>
+  <e k="K" key="AO_CycloneApproachLabel"><s>Cyclone approaching</s><r>Циклон приближается</r></e>
+  <e k="K" key="AO_CycloneApproachText"><s>A category {1} tropical cyclone is approaching {0}. Its winds are expected to reach the colony in about {2} hours.
+
+Its winds will damage roofs and walls and throw people and objects into the air. Reinforce the colony and keep everyone indoors.</s><r>Тропический циклон категории {1} приближается к {0}. Ожидается, что его ветры достигнут колонии примерно через {2} часа.
+
+Ветры повредят крыши и стены и подбросят людей и предметы в воздух. Укрепите колонию и держите всех дома.</r></e>
+  <e k="K" key="AO_CycloneEyeLabel"><s>Eye of the storm</s><r>Глаз бури</r></e>
+  <e k="K" key="AO_CycloneEyeText"><s>All creation is still shaken, yet sunlight pours down like a miracle.
+
+Right now your colonists feel the wind die down. Those outside look up: above the towering, awe-inspiring wall of dense cloud, a corner of clean sky shows itself, as if in mercy.
+Enjoy the moment! Many people never see such a sight in a lifetime.
+
+The eye will not stay, and soon the destructive winds will return.</s><r>Все творение все еще сотрясается, но солнечный свет льется на землю, как чудо.
+
+Прямо сейчас ваши колонисты чувствуют, как ветер стихает. Те, кто снаружи, смотрят вверх: над возвышающейся, внушающей трепет стеной плотных облаков, словно из милости, виден уголок чистого неба.
+Наслаждайтесь моментом! Многие люди никогда в жизни не видят такого зрелища.
+
+Глаз не задержится, и вскоре разрушительные ветры вернутся.</r></e>
+  <e k="K" key="AO_CycloneWindsLabel"><s>Raging winds</s><r>Бушующие ветры</r></e>
+  <e k="K" key="AO_CycloneWindsText"><s>The winds of a category {1} tropical cyclone have reached {0}.
+
+Roofs and walls are under heavy load, and anyone outside can be thrown into the air. Keep everyone indoors.</s><r>Ветры тропического циклона категории {1} достигли {0}.
+
+Крыши и стены испытывают большую нагрузку, и любой, кто находится снаружи, может быть подброшен в воздух. Держите всех дома.</r></e>
+  <e k="K" key="AO_DaysOfWater"><s>Days of water</s><r>Дни воды</r></e>
+  <e k="K" key="AO_DehumidifierGoalTip"><s>It runs while the mean relative humidity of its own cell and the open cells beside it is above this goal (0 to 100%). It works at any temperature and slows down as the air nears the goal.</s><r>Он работает, пока средняя относительная влажность его собственной ячейки и открытых ячеек рядом с ней превышает заданное значение (от 0 до 100%). Он работает при любой температуре и замедляется по мере приближения воздуха к цели.</r></e>
+  <e k="K" key="AO_DehumidifierGoalTitle"><s>Dry down to</s><r>Высушите до</r></e>
+  <e k="K" key="AO_DehumidifierOutputFull"><s>Waiting: no room nearby for the water (haul it away).</s><r>Ожидание: поблизости нет места для воды (вытащите ее).</r></e>
+  <e k="K" key="AO_DehumidifierPool"><s>Water unit in progress: {0}</s><r>Водяной блок в работе: {0}</r></e>
+  <e k="K" key="AO_DehumidifierRunning"><s>Condensing about {0} water units per hour (humidity {1}%, goal {2}%).</s><r>Конденсация около {0} единиц воды в час (влажность {1}%, целевая {2}%).</r></e>
+  <e k="K" key="AO_DrinkOrder"><s>Drink {0} ({1} units)</s><r>Выпейте {0} ({1} единиц)</r></e>
+  <e k="K" key="AO_DrinkRiverOrder"><s>Drink from the river</s><r>Пить из реки</r></e>
+  <e k="K" key="AO_EvaporativeCoolerInspect"><s>Evaporating: drying power {0}, water use {1} units/day</s><r>Испарение: мощность сушки {0}, расход воды {1} единиц/день.</r></e>
+  <e k="K" key="AO_FacilityOutlet"><s>Outlet: {0} (aims at {1}), efficiency {2}</s><r>Выход: {0} (нацелен на {1}), эффективность {2}</r></e>
+  <e k="K" key="AO_FanAdjustPower"><s>Adjust output power</s><r>Отрегулируйте выходную мощность</r></e>
+  <e k="K" key="AO_FanAutoRewindTip"><s>Automatically request rewinding when the mainspring is empty.</s><r>Автоматически запрашивать перемотку, когда ходовая пружина пуста.</r></e>
+  <e k="K" key="AO_FanDevRefill"><s>DEV: Fill energy</s><r>РАЗРАБОТЧИК: Наполните энергию</r></e>
+  <e k="K" key="AO_FanDevRefillTip"><s>Instantly fill this fan's stored energy to capacity.</s><r>Мгновенно заполните запас энергии этого вентилятора до предела.</r></e>
+  <e k="K" key="AO_FanEnergyReadout"><s>Stored energy: {0} / {1} J</s><r>Запасенная энергия: {0} / {1} Дж</r></e>
+  <e k="K" key="AO_FanOutputReadout"><s>Fan output: {0} / {1} W</s><r>Мощность вентилятора: {0} / {1} Вт</r></e>
+  <e k="K" key="AO_FanPowerTip"><s>Set the fan's power consumption. Zero switches it off. Higher power produces stronger wind.</s><r>Установите потребляемую мощность вентилятора. Зеро выключает его. Более высокая мощность приводит к более сильному ветру.</r></e>
+  <e k="K" key="AO_FanRotate"><s>Rotate fan</s><r>Вращать вентилятор</r></e>
+  <e k="K" key="AO_FanRotateCCW"><s>Rotate 90 degrees counterclockwise</s><r>Поворот на 90 градусов против часовой стрелки</r></e>
+  <e k="K" key="AO_FanRotateCW"><s>Rotate 90 degrees clockwise</s><r>Поворот на 90 градусов по часовой стрелке</r></e>
+  <e k="K" key="AO_FanRotationBlocked"><s>Cannot rotate the fan: its new footprint is obstructed or cannot support it.</s><r>Невозможно повернуть вентилятор: его новая опора заблокирована или не может его поддерживать.</r></e>
+  <e k="K" key="AO_FanStopped"><s>Fan stopped</s><r>Вентилятор остановился</r></e>
+  <e k="K" key="AO_FanStoredEnergy"><s>Stored energy</s><r>Запасенная энергия</r></e>
+  <e k="K" key="AO_FanUnlimitedPowerTip"><s>Set the equivalent output power. This device consumes no electricity or stored energy. Zero stops its wind and operating light.</s><r>Установите эквивалентную выходную мощность. Это устройство не потребляет электричество или накопленную энергию. Зеро останавливает свой ветер и рабочий свет.</r></e>
+  <e k="K" key="AO_FanWindReadout"><s>Target wind: {0} m/s</s><r>Target ветер: {0} м/с</r></e>
+  <e k="K" key="AO_FeelsLike"><s>Feels like {0}</s><r>По ощущениям {0}</r></e>
+  <e k="K" key="AO_FetchCannotCarry"><s>cannot carry any</s><r>не могу нести ничего</r></e>
+  <e k="K" key="AO_FetchNoWaterInRange"><s>No fresh water in range of the water fetching spot</s><r>Нет пресной воды в зоне забора воды.</r></e>
+  <e k="K" key="AO_FetchSourceEmpty"><s>{0} has no water to fetch.</s><r>У {0} нет воды, которую можно было бы принести.</r></e>
+  <e k="K" key="AO_FetchWaterOrder"><s>Fetch water ({0} units)</s><r>Принести воду ({0} единиц)</r></e>
+  <e k="K" key="AO_Forecast_Ahead"><s>Weather forecast: +{0} h ({1})</s><r>Прогноз погоды: +{0} ч ({1})</r></e>
+  <e k="K" key="AO_Forecast_Computed"><s>{0} h computed</s><r>{0} ч вычислено</r></e>
+  <e k="K" key="AO_Forecast_Now"><s>Weather forecast: now ({0})</s><r>Прогноз погоды: сейчас ({0})</r></e>
+  <e k="K" key="AO_Forecast_ReadoutHeader"><s>Forecast +{0} h: {1}</s><r>Прогноз +{0} ч: {1}</r></e>
+  <e k="K" key="AO_Forecast_Tip"><s>Drag to see the forecast for the coming hours on the world map overlays, weather systems and tile readout.
+Leftmost is now. Greyed hours are not computed yet.</s><r>Перетащите, чтобы увидеть прогноз на ближайшие часы на наложениях карты мира, погодных системах и показаниях плиток.
+Сейчас самый левый. Серые часы еще не рассчитаны.</r></e>
+  <e k="K" key="AO_GasPumpAutoRefill"><s>Auto haul</s><r>Перевозка автомобилей</r></e>
+  <e k="K" key="AO_GasPumpAutoRefillDesc"><s>When on, haulers keep each store near its target level: they refill it from gas tanks when it is 25% below, and empty it into tanks when it is 25% above.</s><r>Когда эта функция включена, перевозчики держат каждый запас рядом с целевым уровнем: они заправляют его из бензобаков, когда он на 25% ниже, и опорожняют его в баки, когда он на 25% выше.</r></e>
+  <e k="K" key="AO_GasPumpCannotDilute"><s>Cannot lower the oxygen: the O2-free air store is empty or the stores are full.</s><r>Невозможно снизить концентрацию кислорода: запас воздуха, не содержащего O2, пуст или заполнен.</r></e>
+  <e k="K" key="AO_GasPumpCannotEnrich"><s>Cannot raise the oxygen: the oxygen store is empty or the stores are full.</s><r>Невозможно поднять уровень кислорода: запасы кислорода пусты или заполнены.</r></e>
+  <e k="K" key="AO_GasPumpGoals"><s>Goal: {0} hPa, {1}% O2. Here: {2} hPa, {3}% O2. Adjusts at most {4} units/h</s><r>Цель: {0} гПа, {1}% O2. Здесь: {2} гПа, {3}% O2. Регулируется не более {4} единиц/ч.</r></e>
+  <e k="K" key="AO_GasPumpInertTargetTitle"><s>O2-free air store target</s><r>Цель хранилища воздуха без O2</r></e>
+  <e k="K" key="AO_GasPumpNoPower"><s>No power.</s><r>Никакой власти.</r></e>
+  <e k="K" key="AO_GasPumpOutputFull"><s>Cannot lower the pressure: the stores are full. Haulers must empty them.</s><r>Невозможно снизить давление: запасы переполнены. Грузчики должны их опорожнить.</r></e>
+  <e k="K" key="AO_GasPumpOxygenGoalTip"><s>The pump slowly swaps air to dilute or enrich the oxygen toward this level (±0.5 points).</s><r>Насос медленно меняет воздух, чтобы разбавить или обогатить кислород до этого уровня (±0,5 балла).</r></e>
+  <e k="K" key="AO_GasPumpOxygenTargetTitle"><s>Oxygen store target</s><r>Цель хранилища кислорода</r></e>
+  <e k="K" key="AO_GasPumpPressureGoalTip"><s>The pump slowly releases gas below this pressure and compresses air into its stores above it (±10 hPa).</s><r>Насос медленно выпускает газ ниже этого давления и сжимает воздух в запасы выше него (±10 гПа).</r></e>
+  <e k="K" key="AO_GasPumpStores"><s>O2-free air: {0} / {1} units (target {2}). Oxygen: {3} / {1} units (target {4})</s><r>Воздух без O2: {0} / {1} единиц (цель {2}). Кислород: {3} / {1} единиц (цель {4})</r></e>
+  <e k="K" key="AO_GasPumpStoresEmpty"><s>Cannot raise the pressure: a store it needs is empty.</s><r>Не может поднять давление: нужный ему магазин пуст.</r></e>
+  <e k="K" key="AO_GasPumpTargetBar"><s>target {0} (now {1})</s><r>цель {0} (теперь {1})</r></e>
+  <e k="K" key="AO_GasPumpTargetTip"><s>Haulers keep this store within 25% of the target level: refilling it from gas tanks below, emptying it into tanks above. A full store stops the pump compressing; an empty one stops it releasing.</s><r>Автоперевозчики удерживают этот запас в пределах 25% от заданного уровня: пополняя его из бензобаков внизу, опорожняя в баки выше. Полный запас останавливает сжатие насоса; пустой останавливает его освобождение.</r></e>
+  <e k="K" key="AO_GasTankInspect"><s>Contents: {0}% oxygen, {1} m³ of gas at normal pressure.</s><r>Содержание: {0}% кислорода, {1} м³ газа при нормальном давлении.</r></e>
+  <e k="K" key="AO_GasTankOxygenTag"><s>{0}% O2</s><r>{0}% O2</r></e>
+  <e k="K" key="AO_GoalMote"><s>Goal {0}</s><r>Цель {0}</r></e>
+  <e k="K" key="AO_GoalReset"><s>Reset ({0})</s><r>Сброс ({0})</r></e>
+  <e k="K" key="AO_GoalStepDesc"><s>Goal: {0}.
+
+{1}</s><r>Цель: {0}.
+
+{1}</r></e>
+  <e k="K" key="AO_GpuEngineFailed"><s>Atmosphere Overhaul: the GPU climate engine could not run, so world weather is stopped.
+
+Reason: {0}
+
+Platform: {1}
+GPU device: {2}
+
+Please send this message and the log file:
+{3}</s><r>Капитальный ремонт атмосферы: не удалось запустить климатический движок графического процессора, поэтому мировая погода остановлена.
+
+Причина: {0}
+
+Платформа: {1}
+Устройство графического процессора: {2}
+
+Пожалуйста, отправьте это сообщение и журнал файл:
+{3}</r></e>
+  <e k="K" key="AO_GpuEngineNoDevice"><s>none created</s><r>ничего не создано</r></e>
+  <e k="K" key="AO_GrowerTankEmpty"><s>Needs water</s><r>Нужна вода</r></e>
+  <e k="K" key="AO_GrowerTankFuelLabel"><s>water</s><r>вода</r></e>
+  <e k="K" key="AO_GrowerTankGizmoLabel"><s>Water</s><r>Вода</r></e>
+  <e k="K" key="AO_HumidifierGoalTip"><s>It runs while the mean relative humidity of its own cell and the open cells beside it is below this goal (0 to 100%).</s><r>Он работает, пока средняя относительная влажность его собственной ячейки и открытых ячеек рядом с ней ниже заданного значения (от 0 до 100%).</r></e>
+  <e k="K" key="AO_HumidifierGoalTitle"><s>Humidify to</s><r>Увлажнить до</r></e>
+  <e k="K" key="AO_HumidifierNoWater"><s>Idle: out of water.</s><r>На холостом ходу: нет воды.</r></e>
+  <e k="K" key="AO_HumidifierRunning"><s>Misting up to {0} water units per hour (humidity {1}%, goal {2}%).</s><r>Запотевание до {0} единиц воды в час (влажность {1}%, целевая {2}%).</r></e>
+  <e k="K" key="AO_HumidityGoalBar"><s>{0}% humidity</s><r>{0}% влажность</r></e>
+  <e k="K" key="AO_HumidityGoalReached"><s>Idle: humidity {0}% has reached the goal ({1}%).</s><r>В режиме ожидания: влажность {0}% достигла заданного значения ({1}%).</r></e>
+  <e k="K" key="AO_HumidityNoPower"><s>Idle: no power.</s><r>В режиме ожидания: нет питания.</r></e>
+  <e k="K" key="AO_HydrationTipDry"><s>Breath and skin in this air's humidity: ×{0} (×100% = perfectly dry air)</s><r>Дыхание и кожа при влажности этого воздуха: ×{0} (×100% = абсолютно сухой воздух)</r></e>
+  <e k="K" key="AO_HydrationTipForage"><s>Found on the way (caravan): {0} of it</s><r>Найдено по пути (караван): {0} всего этого</r></e>
+  <e k="K" key="AO_HydrationTipHeat"><s>Sweating in the heat: ×{0}</s><r>Потоотделение в жару: ×{0}</r></e>
+  <e k="K" key="AO_HydrationTipRate"><s>Losing about {0} L a day.</s><r>Потеря около {0} л в день.</r></e>
+  <e k="K" key="AO_IrrigatorNoZone"><s>No growing zone (with watering allowed) in its spray area.</s><r>В зоне опрыскивания нет зоны выращивания (с разрешенным поливом).</r></e>
+  <e k="K" key="AO_IrrigatorPipes"><s>Spraying from the connected water pipes (no tank needed)</s><r>Распыление из подсоединенных водопроводных труб (резервуар не требуется)</r></e>
+  <e k="K" key="AO_IrrigatorPumping"><s>Pumping from fresh water (no tank needed)</s><r>Откачка пресной воды (резервуар не требуется)</r></e>
+  <e k="K" key="AO_IrrigatorSoaking"><s>Soaking {0} cells</s><r>Замачивание {0} клеток</r></e>
+  <e k="K" key="AO_IrrigatorSpraying"><s>Spraying.</s><r>Опрыскивание.</r></e>
+  <e k="K" key="AO_IrrigatorTank"><s>No fresh water within 3 cells: using its tank</s><r>Нет пресной воды в трех ячейках: используйте резервуар.</r></e>
+  <e k="K" key="AO_IrrigatorTankEmpty"><s>Tank empty: cannot irrigate.</s><r>Резервуар пуст: полив невозможен.</r></e>
+  <e k="K" key="AO_IrrigatorThresholdBar"><s>{0} of capacity</s><r>{0} мощности</r></e>
+  <e k="K" key="AO_IrrigatorThresholdInspect"><s>Irrigates below {0} of capacity (driest planted soil in range: {1})</s><r>Орошает мощность ниже {0} (самая сухая посевная почва в диапазоне: {1})</r></e>
+  <e k="K" key="AO_IrrigatorThresholdTip"><s>When any growing-zone soil in its spray area holds less water than this share of its capacity, the irrigator sprays the whole circle, about 20 mm of water on every cell per session, and sprays again while the soil stays dry. Plants wilt below 20% soil water and grow at full rate from 50%.</s><r>Когда какая-либо почва зоны выращивания в зоне опрыскивания удерживает меньше воды, чем эта доля ее емкости, ирригатор распыляет весь круг, примерно 20 мм воды на каждую ячейку за сеанс, и распыляет снова, пока почва остается сухой. Растения увядают при уровне воды в почве ниже 20% и растут полной скоростью начиная с 50%.</r></e>
+  <e k="K" key="AO_IrrigatorThresholdTitle"><s>Irrigate below</s><r>Поливать ниже</r></e>
+  <e k="K" key="AO_JetFlamedOut"><s>Flamed out: the intake air has too little oxygen ({0} kPa O2; relights above {1} kPa).</s><r>Погас: во всасываемом воздухе слишком мало кислорода ({0} кПа O2; повторно загорается при температуре выше {1} кПа).</r></e>
+  <e k="K" key="AO_JetIntakeOxygen"><s>Intake oxygen: {0} kPa</s><r>Потребление кислорода: {0} кПа</r></e>
+  <e k="K" key="AO_JetPower"><s>Turbojet power</s><r>Турбореактивная мощность</r></e>
+  <e k="K" key="AO_LowWater"><s>Low water</s><r>Низкая вода</r></e>
+  <e k="K" key="AO_LowWaterDesc"><s>There are only {0} water units left on the map for {1} colonists and prisoners: about {2} days of drinking.
+
+Build a water fetching spot and add a &quot;fetch water&quot; bill to bring water from rivers, lakes and ponds. Build rain collectors or dehumidifiers to gather more.</s><r>На карте осталось всего {0} единиц воды для {1} колонистов и заключенных: около {2} дней питья. 
+
+Постройте точку для забора воды и добавьте счет за воду, чтобы приносить воду из рек, озер и прудов. Постройте дождевые коллекторы или осушители, чтобы собирать больше.</r></e>
+  <e k="K" key="AO_Mainspring"><s>Mainspring</s><r>Заводная пружина</r></e>
+  <e k="K" key="AO_MainspringStatus"><s>Auto-rewind: {0}</s><r>Автоматическая перемотка назад: {0}</r></e>
+  <e k="K" key="AO_MainspringTip"><s>Stored energy: {0} / {1} J. Toggle automatic rewinding. When enabled and empty, a colonist assigned to basic tasks will wind the spring fully. Disabling this does not stop a charged fan.</s><r>Запасенная энергия: {0} / {1} J. Включение автоматической перемотки. Когда он включен и пуст, колонист, назначенный для выполнения основных задач, полностью заведет пружину. Отключение этого параметра не останавливает заряженный вентилятор.</r></e>
+  <e k="K" key="AO_MessageCaravanOutOfWater"><s>{0} has run out of water. Its members are dehydrating.</s><r>В {0} закончилась вода. Его члены обезвоживаются.</r></e>
+  <e k="K" key="AO_MoisturePumpWater"><s>Water pumped out: {0} units set out ({1} more pending)</s><r>Откачено воды: установлено {0} единиц (еще {1} ожидается)</r></e>
+  <e k="K" key="AO_MustPlaceOnFreshWater"><s>Must be placed on fresh water (a river, lake or pond)</s><r>Необходимо размещать на пресной воде (реке, озере или пруду)</r></e>
+  <e k="K" key="AO_NoWater"><s>No water</s><r>Нет воды</r></e>
+  <e k="K" key="AO_Overlay_AirPressure"><s>Show air pressure overlay</s><r>Показать наложение давления воздуха</r></e>
+  <e k="K" key="AO_Overlay_AllClouds"><s>Show all clouds</s><r>Показать все облака</r></e>
+  <e k="K" key="AO_Overlay_Altitude"><s>Show altitude overlay</s><r>Показать наложение высоты</r></e>
+  <e k="K" key="AO_Overlay_BuildingRisk"><s>Show building failure risk</s><r>Показать риск обрушения здания</r></e>
+  <e k="K" key="AO_Overlay_CloudAt"><s>Cloud at {0}</s><r>Облако в {0}</r></e>
+  <e k="K" key="AO_Overlay_FeelsLike"><s>Show feels-like temperature overlay</s><r>Показывать наложение температуры, напоминающее ощущения</r></e>
+  <e k="K" key="AO_Overlay_FlowAt"><s>Flow at {0}</s><r>Поток при {0}</r></e>
+  <e k="K" key="AO_Overlay_GroundTemperature"><s>Show ground surface temperature overlay</s><r>Показать наложение температуры поверхности земли</r></e>
+  <e k="K" key="AO_Overlay_Humidity"><s>Show humidity overlay</s><r>Показать наложение влажности</r></e>
+  <e k="K" key="AO_Overlay_HumidityAt"><s>Humidity at {0}</s><r>Влажность при {0}</r></e>
+  <e k="K" key="AO_Overlay_LatLonGrid"><s>Show latitude/longitude grid</s><r>Показать сетку широты и долготы</r></e>
+  <e k="K" key="AO_Overlay_OceanCurrent"><s>Show ocean current overlay</s><r>Показать наложение океанских течений</r></e>
+  <e k="K" key="AO_Overlay_Oxygen"><s>Show oxygen overlay</s><r>Показать наложение кислорода</r></e>
+  <e k="K" key="AO_Overlay_Precipitation"><s>Show precipitation overlay</s><r>Показать наложение осадков</r></e>
+  <e k="K" key="AO_Overlay_PressureAt"><s>Air pressure at {0}</s><r>Давление воздуха при {0}</r></e>
+  <e k="K" key="AO_Overlay_RoofRisk"><s>Show roof failure risk</s><r>Показать риск обрушения крыши</r></e>
+  <e k="K" key="AO_Overlay_SoilWater"><s>Show soil water held</s><r>Показать, что почвенная вода удерживается</r></e>
+  <e k="K" key="AO_Overlay_Streamlines"><s>Show streamline overlay</s><r>Показать наложение линий оптимизации</r></e>
+  <e k="K" key="AO_Overlay_SurfaceTemperature"><s>Show surface temperature overlay</s><r>Показать наложение температуры поверхности</r></e>
+  <e k="K" key="AO_Overlay_TemperatureAt"><s>Temperature at {0}</s><r>Температура {0}</r></e>
+  <e k="K" key="AO_Overlay_WeatherSystems"><s>Show weather systems: fronts, tropical cyclones, thunderstorms</s><r>Показать погодные системы: фронты, тропические циклоны, грозы.</r></e>
+  <e k="K" key="AO_Overlay_Wind"><s>Show wind overlay</s><r>Показать наложение ветра</r></e>
+  <e k="K" key="AO_Overlay_WindAt"><s>Wind strength at {0}</s><r>Сила ветра {0}</r></e>
+  <e k="K" key="AO_PlantFactor_DryAir"><s>dry air</s><r>сухой воздух</r></e>
+  <e k="K" key="AO_PlantFactor_Oxygen"><s>oxygen</s><r>кислород</r></e>
+  <e k="K" key="AO_PlantFactor_Pressure"><s>air pressure</s><r>давление воздуха</r></e>
+  <e k="K" key="AO_PlantFactor_SoilWater"><s>soil water</s><r>почвенная вода</r></e>
+  <e k="K" key="AO_PressureAdaptation_Tip"><s>Adapted to {0} hPa (now {1}).
+Safe pressure now: {2}–{3} hPa; below: decompression sickness, above: barotrauma.
+Adapts by half in {4} h.</s><r>Адаптировано к {0} гПа (теперь {1}).
+Безопасное давление сейчас: {2}–{3} гПа; внизу: декомпрессионная болезнь, вверху: баротравма.
+Адаптируется наполовину за {4} ч.</r></e>
+  <e k="K" key="AO_PressureGoalBar"><s>{0} hPa</s><r>{0} гПа</r></e>
+  <e k="K" key="AO_PressureGoalInspect"><s>Goal pressure: {0} hPa</s><r>Целевое давление: {0} гПа</r></e>
+  <e k="K" key="AO_Protection_BodyBarrier"><s>Body barrier (worn gear over the torso): {0}</s><r>Барьер тела (изношенное снаряжение на туловище): {0}</r></e>
+  <e k="K" key="AO_Protection_Breached"><s>{0}: BREACHED at {1} HP - no protection</s><r>{0}: НАРУШЕНО при {1} HP – нет защиты.</r></e>
+  <e k="K" key="AO_Protection_BreathingBarrier"><s>Breathing barrier (worn gear over head or mouth): {0}</s><r>Дыхательный барьер (одежда надевается на голову или рот): {0}</r></e>
+  <e k="K" key="AO_Protection_Intact"><s>{0}: sealed ({1})</s><r>{0}: запечатано ({1})</r></e>
+  <e k="K" key="AO_PsaFilling"><s>Separating air: about {0} oxygen and {1} nitrogen tanks per hour (intake {2} hPa, {3}% O2, goal {4} hPa).</s><r>Разделение воздуха: около {0} кислорода и {1} азота в час (потребление {2} гПа, {3}% O2, целевое значение {4} гПа).</r></e>
+  <e k="K" key="AO_PsaPools"><s>Oxygen tank in progress: {0}; nitrogen tank: {1}</s><r>Кислородный баллон в разработке: {0}; резервуар с азотом: {1}</r></e>
+  <e k="K" key="AO_RainCollectorBar"><s>Water</s><r>Вода</r></e>
+  <e k="K" key="AO_RainCollectorCatching"><s>Catching rain: {0} units ({1} L) an hour</s><r>Улов дождя: {0} единиц ({1} л) в час.</r></e>
+  <e k="K" key="AO_RainCollectorEmpty"><s>Empty</s><r>Пустой</r></e>
+  <e k="K" key="AO_RainCollectorEmptyDesc"><s>Set the stored water out beside the collector as a stack of water.</s><r>Выложите накопленную воду рядом с коллектором в виде стопки.</r></e>
+  <e k="K" key="AO_RainCollectorEmptyNone"><s>Less than one unit stored.</s><r>Сохранено менее одной единицы.</r></e>
+  <e k="K" key="AO_RainCollectorFull"><s>Full: empty it to keep collecting.</s><r>Полный: опустошите его, чтобы продолжить сбор.</r></e>
+  <e k="K" key="AO_RainCollectorIdle"><s>No rain to catch</s><r>Нет дождя, чтобы поймать</r></e>
+  <e k="K" key="AO_RainCollectorNoRoom"><s>No room beside the rain collector for the water.</s><r>Нет места для сбора воды рядом с дождевым коллектором.</r></e>
+  <e k="K" key="AO_RainCollectorRoofed"><s>Roofed: catches no rain</s><r>Крытый: не ловит дождь</r></e>
+  <e k="K" key="AO_RainCollectorStore"><s>Stored water: {0} / {1} units</s><r>Запасенная вода: {0} / {1} единиц.</r></e>
+  <e k="K" key="AO_ReadoutGround"><s>Ground {0}</s><r>Земля {0}</r></e>
+  <e k="K" key="AO_ReadoutHumid"><s>Humid {0}%</s><r>Влажность {0}%</r></e>
+  <e k="K" key="AO_ReadoutSoil"><s>Soil {0}/{1}mm</s><r>Почва {0}/{1}мм</r></e>
+  <e k="K" key="AO_Readout_Cache"><s>Cache {0}/{1}</s><r>Кэш {0}/{1}</r></e>
+  <e k="K" key="AO_Readout_Calm"><s>Calm</s><r>Спокойствие</r></e>
+  <e k="K" key="AO_Readout_CloudHumid"><s>Cloud {0}% Humid {1}%</s><r>Облачность {0}% Влажность {1}%</r></e>
+  <e k="K" key="AO_Readout_Land"><s>Land</s><r>Земля</r></e>
+  <e k="K" key="AO_Readout_Layer"><s>{0} layer</s><r>{0} слой</r></e>
+  <e k="K" key="AO_Readout_NearGround"><s>Near ground</s><r>Рядом с землей</r></e>
+  <e k="K" key="AO_Readout_NextUpdate"><s>Next update in {0}h</s><r>Следующее обновление через {0}h</r></e>
+  <e k="K" key="AO_Readout_Place"><s>{0}  {1}m  {2}hPa</s><r>{0} {1}м {2}гПа</r></e>
+  <e k="K" key="AO_Readout_Rain"><s>Rain {0}mm/h</s><r>Дождь {0}мм/ч</r></e>
+  <e k="K" key="AO_Readout_Sea"><s>Sea</s><r>Море</r></e>
+  <e k="K" key="AO_Readout_SeaIce"><s>Sea ice {0}% ({1} m)</s><r>Морской лед {0}% ({1} м)</r></e>
+  <e k="K" key="AO_Readout_SeaIceBiomeOpen"><s>Sea (ice biome, open water)</s><r>Море (ледяной биом, открытая вода)</r></e>
+  <e k="K" key="AO_Readout_Temperatures"><s>{0}C | Surface {1}C</s><r>{0}С | Поверхность {1}C</r></e>
+  <e k="K" key="AO_Readout_Wind"><s>{0} {1}m/s</s><r>{0} {1}м/с</r></e>
+  <e k="K" key="AO_Readout_WindCalm"><s>Calm {0}m/s</s><r>Спокойствие {0}м/с</r></e>
+  <e k="K" key="AO_RefillBreathing"><s>Refill {0} from {1}</s><r>Пополнить {0} от {1}</r></e>
+  <e k="K" key="AO_RefillTooLittleOxygen"><s>too little oxygen in this tank</s><r>слишком мало кислорода в этом баллоне</r></e>
+  <e k="K" key="AO_ReleaseGoalTip"><s>Fill up to: the spot releases gas only while the air here is below this pressure. Outdoors the air stays near 1013 hPa.</s><r>Заполните до: точка выпускает газ только тогда, когда давление воздуха здесь ниже этого значения. На открытом воздухе температура воздуха составляет около 1013 гПа.</r></e>
+  <e k="K" key="AO_ReleaseGoalTitle"><s>Fill up to</s><r>Заполните до</r></e>
+  <e k="K" key="AO_ReleaseRateBar"><s>{0} tanks / hour</s><r>{0} танков/час</r></e>
+  <e k="K" key="AO_ReleaseRateTip"><s>How many gas tanks this spot uses up per hour, 0 to 100 (0 = closed). Each tank is taken from the stack first, then its gas is released over that time.</s><r>Сколько бензобаков расходует это место в час: от 0 до 100 (0 = закрыто). Каждый резервуар сначала вынимается из штабеля, затем за это время из него выделяется газ.</r></e>
+  <e k="K" key="AO_ReleaseRateTitle"><s>Release rate</s><r>Скорость выпуска</r></e>
+  <e k="K" key="AO_ReleaseSpotGoalReached"><s> (pressure {0} hPa has reached the goal, {1} hPa)</s><r> (давление {0} гПа достигло цели, {1} гПа)</r></e>
+  <e k="K" key="AO_ReleaseSpotInspect"><s>Releasing {0} tanks per hour; {1} tanks stored{2}</s><r>Выпуск {0} танков в час; {1} танки хранятся{2}</r></e>
+  <e k="K" key="AO_ReleaseSpotPaused"><s> (paused)</s><r> (пауза)</r></e>
+  <e k="K" key="AO_ReleaseSpotRelease"><s>Release</s><r>Выпускать</r></e>
+  <e k="K" key="AO_ReleaseSpotReleaseDesc"><s>Open or close the valve. A closed spot keeps its tanks.</s><r>Откройте или закройте клапан. Закрытое место хранит свои танки.</r></e>
+  <e k="K" key="AO_RotDry"><s>Dry air ({0}% humidity): spoiling at {1} speed.</s><r>Сухой воздух (влажность {0}%): портится со скоростью {1}.</r></e>
+  <e k="K" key="AO_RotHumid"><s>Humid air ({0}% humidity): spoiling at {1} speed.</s><r>Влажный воздух ({0}% влажности): портится со скоростью {1}.</r></e>
+  <e k="K" key="AO_SeaIceLostAnimals"><s>Animals:</s><r>Животные:</r></e>
+  <e k="K" key="AO_SeaIceLostLabel"><s>Settlement lost to the sea</s><r>Поселение потеряно в море</r></e>
+  <e k="K" key="AO_SeaIceLostMechanoids"><s>Mechanoids:</s><r>Механоиды:</r></e>
+  <e k="K" key="AO_SeaIceLostMissing"><s>Missing, lost to the sea with the collapsed ice:</s><r>Пропавший без вести, потерянный в море с обрушившимся льдом:</r></e>
+  <e k="K" key="AO_SeaIceLostNobody"><s>No one was there when it happened.</s><r>Когда это произошло, там никого не было.</r></e>
+  <e k="K" key="AO_SeaIceLostPeople"><s>People:</s><r>Люди:</r></e>
+  <e k="K" key="AO_SeaIceLostPrisoner"><s>{0} (prisoner)</s><r>{0} (заключенный)</r></e>
+  <e k="K" key="AO_SeaIceLostSlave"><s>{0} (slave)</s><r>{0} (подчиненный)</r></e>
+  <e k="K" key="AO_SeaIceLostText"><s>The sea ice under {0} has broken up. The whole settlement collapsed into the ocean with the ice sheet.</s><r>Морской лед под температурой {0} раскололся. Все поселение рухнуло в океан вместе с ледниковым покровом.</r></e>
+  <e k="K" key="AO_SeaIceWarnLabel"><s>Sea ice thinning</s><r>Истончение морского льда</r></e>
+  <e k="K" key="AO_SeaIceWarnText"><s>The sea ice under {0} is thinning.
+
+At the current melt rate it is expected to break up {1}. Once it breaks up, the tile becomes open ocean.
+
+Consider moving your people to solid ground.</s><r>Морской лед под {0} истончается.
+
+ При нынешней скорости таяния ожидается, что он разрушится на {1}. Как только он расколется, плитка станет открытым океаном.
+
+Подумайте о том, чтобы переместить своих людей на твердую почву.</r></e>
+  <e k="K" key="AO_SeaIceWarnUrgentLabel"><s>Sea ice breaking up</s><r>Морской лед разрушается</r></e>
+  <e k="K" key="AO_SeaIceWarnUrgentText"><s>The sea ice under {0} is about to break up.
+
+At the current melt rate it is expected to break up {1}. Once it breaks up, the tile becomes open ocean.
+
+Consider moving your people to solid ground.</s><r>Морской лед ниже {0} вот-вот разрушится. 
+
+ При нынешних темпах таяния ожидается, что он разрушится {1}. Как только он расколется, плитка станет открытым океаном.
+
+Подумайте о том, чтобы переместить своих людей на твердую почву.</r></e>
+  <e k="K" key="AO_SeaIceWhen_Day"><s>within a day</s><r>в течение дня</r></e>
+  <e k="K" key="AO_SeaIceWhen_Days"><s>in about {0} days</s><r>примерно через {0} дней</r></e>
+  <e k="K" key="AO_SeaIceWhen_Now"><s>now</s><r>сейчас</r></e>
+  <e k="K" key="AO_Settings_Category"><s>Atmosphere Overhaul</s><r>Обновление атмосферы</r></e>
+  <e k="K" key="AO_Settings_CropWater"><s>Crop water use: ×{0}</s><r>Использование воды сельскохозяйственными культурами: ×{0}</r></e>
+  <e k="K" key="AO_Settings_Interval"><s>Simulation interval: {0} ticks (shorter = more accurate, more CPU)</s><r>Интервал моделирования: {0} тактов (короче = точнее, больше процессора)</r></e>
+  <e k="K" key="AO_Settings_IntervalDefault"><s>Simulation interval: {0} ticks (default) (shorter = more accurate, more CPU)</s><r>Интервал моделирования: {0} тактов (по умолчанию) (короче = точнее, больше процессора)</r></e>
+  <e k="K" key="AO_Settings_Thirst"><s>Thirst: creatures need to drink water (applies as needs are next refreshed, e.g. on load)</s><r>Жажда: существам необходимо пить воду (применяется при следующем обновлении потребностей, например, при загрузке)</r></e>
+  <e k="K" key="AO_Settings_WindOffMap"><s>Wind can carry things off the map (they may turn up on the neighbouring tile)</s><r>Ветер может уносить предметы с карты (они могут оказаться на соседнем тайле)</r></e>
+  <e k="K" key="AO_SoilWaterInspect"><s>Soil water: {0} mm (of {1})</s><r>Почвенная вода: {0} мм (из {1})</r></e>
+  <e k="K" key="AO_StartingWaterSummary"><s>Water ({0} units per colonist)</s><r>Вода ({0} единиц на колониста)</r></e>
+  <e k="K" key="AO_StatPart_BodySize"><s>Body size {0}: {1}</s><r>Размер тела {0}: {1}</r></e>
+  <e k="K" key="AO_StatPart_BreathingSupplyFilter"><s>Breathing in suit air: 100%</s><r>Вдыхание воздуха костюма: 100%</r></e>
+  <e k="K" key="AO_StatPart_ExposureShield"><s>Shielded by {0} ({1})</s><r>Защищен {0} ({1})</r></e>
+  <e k="K" key="AO_StatPart_OxygenDelivery"><s>Oxygen delivery (breathing × blood pumping) {0}: {1}</s><r>Доставка кислорода (дыхание × перекачка крови) {0}: {1}</r></e>
+  <e k="K" key="AO_SuitState_Breached"><s>breached</s><r>нарушен</r></e>
+  <e k="K" key="AO_SuitState_Empty"><s>empty</s><r>пустой</r></e>
+  <e k="K" key="AO_SuitState_On"><s>supplying</s><r>поставка</r></e>
+  <e k="K" key="AO_SuitState_Standby"><s>standby</s><r>поддерживать</r></e>
+  <e k="K" key="AO_SuitStatusBody"><s>Body {0} hPa · O2 {1} hPa</s><r>Тело {0} гПа · O2 {1} гПа</r></e>
+  <e k="K" key="AO_SuitStatusGas"><s>Gas {0} · {1} h</s><r>Газ {0} · {1} ч</r></e>
+  <e k="K" key="AO_SuitStatusLimits"><s>This pawn's limits: oxygen {0}–{1} hPa, air pressure {2}–{3} hPa</s><r>Пределы этой пешки: кислород {0}–{1} гПа, давление воздуха {2}–{3} гПа.</r></e>
+  <e k="K" key="AO_SuitStatusNoAir"><s>no air data here</s><r>здесь нет данных о воздухе</r></e>
+  <e k="K" key="AO_SuitStatusNoSupply"><s>no breathing supply</s><r>нет подачи воздуха</r></e>
+  <e k="K" key="AO_SuitStatusSealed"><s>Sealed {0} hPa</s><r>Герметичный {0} гПа</r></e>
+  <e k="K" key="AO_SuitStatusTitle"><s>Suit air</s><r>Костюм воздушный</r></e>
+  <e k="K" key="AO_SuitStatusUnsealed"><s>Not sealed</s><r>Не запечатан</r></e>
+  <e k="K" key="AO_SuitTip_Air"><s>Outside: {0} hPa, oxygen {1} hPa. Body: {2} hPa, breathing oxygen {3} hPa</s><r>Снаружи: {0} гПа, кислород {1} гПа. Тело: {2} гПа, вдыхание кислорода {3} гПа</r></e>
+  <e k="K" key="AO_SuitTip_Sealed"><s>Sealed suit: holds {0} hPa while supplying</s><r>Герметичный костюм: выдерживает давление {0} гПа при подаче</r></e>
+  <e k="K" key="AO_SuitTip_Supply"><s>Breathing gas left: {0} (about {1} h)</s><r>Остался дыхательный газ: {0} (около {1} ч)</r></e>
+  <e k="K" key="AO_SuitTip_Unsealed"><s>Not sealed: the breath can be pushed only slightly above the air outside</s><r>Не герметично: дыхание может лишь слегка подниматься над воздухом снаружи.</r></e>
+  <e k="K" key="AO_TornadoLetterLabel"><s>Tornado</s><r>Торнадо</r></e>
+  <e k="K" key="AO_TornadoLetterText"><s>A supercell storm has spawned a tornado nearby. Winds near its core reach 80 m/s, strong enough to tear down any wall and roof and throw people and objects into the air.
+
+Get everyone into strong shelter, or form a caravan and leave the map! Ideally under thick rock, away from its path.</s><r>Суперячейковый шторм породил неподалеку торнадо. Скорость ветра вблизи его ядра достигает 80 м/с, достаточно сильного, чтобы снести любую стену и крышу и подбросить людей и предметы в воздух.
+
+Усадите всех в прочное укрытие или сформируйте караван и покиньте карту! Идеально под толстым слоем камня, вдали от его пути.</r></e>
+  <e k="K" key="AO_TornadoWarningLabel"><s>Tornado warning</s><r>Предупреждение о торнадо</r></e>
+  <e k="K" key="AO_TornadoWarningText"><s>Conditions around {0} favor a tornado. One is expected to touch down in about {1} hours.
+
+It will tear apart roofs and walls and throw people and objects into the air. Get everyone into strong shelter, ideally under thick rock.</s><r>Условия около {0} благоприятствуют торнадо. Ожидается, что один из них приземлится примерно через {1} часа.
+
+Он разорвет крыши и стены и подбросит людей и предметы в воздух. Поместите всех в прочное укрытие, в идеале под толстую скалу.</r></e>
+  <e k="K" key="AO_VentAirClosed"><s>Air flow: closed</s><r>Поток воздуха: закрытый</r></e>
+  <e k="K" key="AO_VentAirOpen"><s>Air flow: {0} m/s (limit {1} m/s)</s><r>Расход воздуха: {0} м/с (предел {1} м/с)</r></e>
+  <e k="K" key="AO_VentSpeedBar"><s>up to {0} m/s</s><r>до {0} м/с</r></e>
+  <e k="K" key="AO_VentSpeedClosed"><s>closed</s><r>закрыто</r></e>
+  <e k="K" key="AO_VentSpeedTip"><s>The fastest air may pass through this vent, from 0 (closed) to {0} m/s. Small pressure differences pass freely; large ones are held to this speed, so rooms balance gently.</s><r>Через это отверстие может проходить самый быстрый воздух: от 0 (закрыто) до {0} м/с. Небольшие перепады давления проходят свободно; большие удерживаются на этой скорости, поэтому комнаты мягко балансируют.</r></e>
+  <e k="K" key="AO_VentSpeedTitle"><s>Air flow limit</s><r>Предел расхода воздуха</r></e>
+  <e k="K" key="AO_WaterDaysInfinite"><s>enough</s><r>достаточно</r></e>
+  <e k="K" key="AO_WaterDaysTip"><s>How long the water carried lasts, after what the land here provides. Water in food is not counted.</s><r>Как долго длится приносимая вода, после чего дает здесь земля. Вода в пище не в счет.</r></e>
+  <e k="K" key="AO_WaterDaysTipRoute"><s>Counted along the chosen route, then at the destination.</s><r>Считаем по выбранному маршруту, затем по месту назначения.</r></e>
+  <e k="K" key="AO_WaterForage_Dry"><s>Springs and dew here provide {0} of the water.</s><r>Родники и роса здесь дают {0} воды.</r></e>
+  <e k="K" key="AO_WaterForage_Rain"><s>Rain or snow is falling: the caravan catches all the water it needs ({0}).</s><r>Идет дождь или снег: караван собирает всю необходимую ему воду ({0}).</r></e>
+  <e k="K" key="AO_WaterForage_River"><s>A river, lake or pond here: the land provides all the water ({0}).</s><r>Здесь река, озеро или пруд: всю воду обеспечивает земля ({0}).</r></e>
+  <e k="K" key="AO_WaterForagedPerDay"><s>Water foraged per day</s><r>Вода добывается в день</r></e>
+  <e k="K" key="AO_WaterForagedPerDayTip"><s>Water the land provides on the way each day, from rivers, lakes, rain, springs and dew. The caravan drinks it before the water it carries.</s><r>Вода, которую земля дает в пути каждый день, из рек, озер, дождя, родников и росы. Караван выпивает ее раньше воды, которую несет.</r></e>
+  <e k="K" key="AO_WaterForagedPerDayValue"><s>{0} units</s><r>{0} единиц</r></e>
+  <e k="K" key="AO_WaterNot_Bridge"><s>under a bridge</s><r>под мостом</r></e>
+  <e k="K" key="AO_WaterNot_Polluted"><s>polluted water</s><r>загрязненная вода</r></e>
+  <e k="K" key="AO_WaterNot_Salt"><s>salt water cannot be drunk</s><r>соленую воду пить нельзя</r></e>
+  <e k="K" key="AO_WeatherRadarNeeded"><s>Weather overlays need a working Doppler weather radar: build one (research: weather radar) under open sky on any of your maps and keep it powered. Then winds, pressure, humidity, temperature, clouds, precipitation, ocean currents and the height selector appear here.</s><r>Для наложений погоды нужен работающий доплеровский метеорадар: постройте его (исследование: метеорологический радар) под открытым небом на любой из ваших карт и обеспечьте его питанием. Затем здесь появляются ветры, давление, влажность, температура, облака, осадки, океанские течения и переключатель высоты.</r></e>
+  <e k="K" key="AO_WeatherStatus_Initializing"><s>Initializing weather</s><r>Инициализация погоды</r></e>
+  <e k="K" key="AO_WeatherStatus_Paused"><s>Forecasting paused</s><r>Прогнозирование приостановлено</r></e>
+  <e k="K" key="AO_WeatherStatus_Stopped"><s>Weather worker stopped</s><r>Метеоролог остановился</r></e>
+  <e k="K" key="AO_WeatherStatus_Waiting"><s>Waiting for weather cache</s><r>Ожидание кэша погоды</r></e>
+  <e k="K" key="AO_WindDamage_Crops"><s>Strong winds are flattening crops.</s><r>Сильный ветер уничтожает посевы.</r></e>
+  <e k="K" key="AO_WindDamage_Furniture"><s>Strong winds are scattering furniture.</s><r>Сильный ветер разбрасывает мебель.</r></e>
+  <e k="K" key="AO_WindDamage_Message"><s>Strong winds are damaging structures.</s><r>Сильный ветер разрушает конструкции.</r></e>
+  <e k="K" key="AO_WindDamage_Roofs"><s>Strong winds are tearing off roofs.</s><r>Сильный ветер срывает крыши.</r></e>
+  <e k="K" key="AO_WindDamage_Trees"><s>Strong winds are felling trees.</s><r>Сильный ветер валит деревья.</r></e>
+  <e k="K" key="AO_WindTransport_EntityEscaped"><s>{0} was blown away and has escaped.</s><r>{0} был унесен ветром и сбежал.</r></e>
+  <e k="K" key="AO_WindTransport_Found"><s>Things blown in from a neighbouring region lie near the map edge.</s><r>Вещи, принесенные ветром из соседнего региона, лежат у края карты.</r></e>
+  <e k="K" key="AO_WindTransport_LostLabel"><s>Never returned</s><r>Никогда не возвращался</r></e>
+  <e k="K" key="AO_WindTransport_LostText"><s>{0} was blown away by the wind and never returned.</s><r>{0} был унесен ветром и больше не вернулся.</r></e>
+  <e k="K" key="AO_WindTransport_OffMapLabel"><s>Blown off the map</s><r>Снесено с карты</r></e>
+  <e k="K" key="AO_WindTransport_OffMapText"><s>{0} was carried off the map by the wind.
+
+If still able to walk, {0} may find the way back within a few hours.</s><r>{0} был унесен ветром с карты.
+
+Если он ещё способен идти, {0} может найти дорогу обратно в течение нескольких часов.</r></e>
+  <e k="K" key="AO_WindTransport_PawnBlown"><s>{0} was blown away by the wind.</s><r>{0} было унесено ветром.</r></e>
+  <e k="K" key="AO_WindTransport_PawnIngested"><s>{0} was sucked into the {1} by the wind.</s><r>{0} было затянуто ветром в {1}.</r></e>
+  <e k="K" key="AO_WindTransport_Readout"><s>{0}: moves in wind above {1} m/s (whole stack {2} m/s); gusts here {3} m/s</s><r>{0}: движется при ветре выше {1} м/с (весь стек {2} м/с); здесь порывы {3} м/с</r></e>
+  <e k="K" key="AO_WindTransport_ReadoutVacuum"><s>{0}: no air to move it</s><r>{0}: нет воздуха, чтобы сдвинуть его с места.</r></e>
+  <e k="K" key="AO_WindTransport_Returned"><s>{0} made it back after being blown away.</s><r>{0} вернулся после того, как его сдуло.</r></e>
+  <e k="K" key="AO_WindTransport_Started"><s>Strong wind is blowing things away.</s><r>Сильный ветер сносит вещи.</r></e>
+  <e k="K" key="AO_WindTransport_SweptLabel"><s>Swept away</s><r>Сметено</r></e>
+  <e k="K" key="AO_WindTransport_SweptText"><s>{0} was thrown by the wind where no one can stand and was swept away.
+
+If still able to walk, {0} may find the way back within a few hours.</s><r>{0} был выброшен ветром туда, где никто не может стоять, и был унесен прочь.
+
+Если он все еще способен идти, {0} может найти дорогу обратно в течение нескольких часов.</r></e>
+  <e k="K" key="AO_WindTransport_VoidLabel"><s>Lost to the void</s><r>Потерянный в пустоту</r></e>
+  <e k="K" key="AO_WindTransport_VoidText"><s>{0} was blown off the hull into space.</s><r>{0} отлетело от корпуса в космос.</r></e>
+  <e k="K" key="AO_WorldExpandedLabel"><s>World expanded</s><r>Мир расширен</r></e>
+  <e k="K" key="AO_WorldExpandedText"><s>This world was saved with {0}% planet coverage. It now covers the whole globe, so weather can run everywhere.
+
+The original land, settlements and maps are unchanged. The new regions are open ocean.</s><r>Этот мир был спасен с покрытием планеты на {0}%. Теперь он охватывает весь земной шар, поэтому погода может меняться повсюду.
+
+Исходная земля, поселения и карты не изменились. Новые регионы — это открытый океан.</r></e>
+  <e k="K" key="AtmosphereOverhaul_AtmosphereExport"><s>Exporting the atmosphere...</s><r>Экспорт атмосферы...</r></e>
+  <e k="K" key="AtmosphereOverhaul_AtmosphereInject"><s>Adapting the atmosphere to this world...</s><r>Адаптация атмосферы к этому миру...</r></e>
+  <e k="K" key="AtmosphereOverhaul_PreparingWeather"><s>Preparing the weather</s><r>Подготовка погоды</r></e>
+  <e k="K" key="AtmosphereOverhaul_PreparingWeatherForecast"><s>Computing the next hour</s><r>Вычисление следующего часа</r></e>
+  <e k="K" key="AtmosphereOverhaul_PreparingWeatherNow"><s>Settling the atmosphere over this world</s><r>Урегулирование атмосферы в этом мире</r></e>
+  <e k="K" key="AtmosphereOverhaul_SeaIceCollapse"><s>The sea ice is breaking up...</s><r>Морской лед разрушается...</r></e>
+</AutoTranslateCache>
