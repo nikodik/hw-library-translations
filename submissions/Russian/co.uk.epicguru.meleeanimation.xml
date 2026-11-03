@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="co.uk.epicguru.meleeanimation" name="Melee Animation" language="Russian" version="1">
+  <e k="D" t="AnimDef" key="AM_DuelBow_Colossal.jobString"><s>Bowing before a duel.</s><r>Поклон перед дуэлью.</r></e>
+  <e k="D" t="AnimDef" key="AM_DuelBow_Colossal.label"><s>Duel Bow</s><r>Дуэльный лук</r></e>
+  <e k="D" t="AnimDef" key="AM_DuelBow_Medium.jobString"><s>Bowing before a duel.</s><r>Поклон перед дуэлью.</r></e>
+  <e k="D" t="AnimDef" key="AM_DuelBow_Medium.label"><s>Duel Bow</s><r>Дуэльный лук</r></e>
+  <e k="D" t="AnimDef" key="AM_Duel_Swords.jobString"><s>Dueling [OTHER].</s><r>Дуэль [OTHER].</r></e>
+  <e k="D" t="AnimDef" key="AM_Duel_Swords.label"><s>Duel</s><r>Дуэль</r></e>
+  <e k="D" t="AnimDef" key="AM_Duel_WinFriendlyDuel.jobString"><s>Deafeating [OTHER] in a duel!</s><r>Победить [OTHER] в дуэли!</r></e>
+  <e k="D" t="AnimDef" key="AM_Duel_WinFriendlyDuel.label"><s>Win Friendly Duel</s><r>Выиграйте товарищескую дуэль</r></e>
+  <e k="D" t="AnimDef" key="AM_Duel_WinFriendlyDuel_Reject.jobString"><s>Deafeating [OTHER] in a duel!</s><r>Победить [OTHER] в дуэли!</r></e>
+  <e k="D" t="AnimDef" key="AM_Duel_WinFriendlyDuel_Reject.label"><s>Win Friendly Duel</s><r>Выиграйте товарищескую дуэль</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_Bash.jobString"><s>Executing [OTHER].</s><r>Выполнение [OTHER].</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_Bash.label"><s>Execution: Bash</s><r>Исполнение: Баш</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_BashLarge.jobString"><s>Executing [OTHER].</s><r>Выполнение [OTHER].</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_BashLarge.label"><s>Execution: Big Bash</s><r>Исполнение: Большой удар</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_Behead.jobString"><s>Executing [OTHER].</s><r>Выполнение [OTHER].</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_Behead.label"><s>Execution: Behead</s><r>Казнь: обезглавить</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_BeheadHigh.jobString"><s>Executing [OTHER].</s><r>Выполнение [OTHER].</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_BeheadHigh.label"><s>Execution: Jumping Behead</s><r>Казнь: Прыжок с обезглавливанием</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_Fail.jobString"><s>Executing [OTHER].</s><r>Выполнение [OTHER].</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_Fail.label"><s>Execution: Fail</s><r>Исполнение: Не удалось</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_GaeBulg.jobString"><s>Executing [OTHER].</s><r>Выполнение [OTHER].</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_GaeBulg.label"><s>Execution: Gáe Bulg</s><r>Казнь: Гае Булг</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_HeadRemoval.jobString"><s>Executing [OTHER].</s><r>Выполнение [OTHER].</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_HeadRemoval.label"><s>Execution: Head Be Gone</s><r>Казнь: Голова прочь</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_HeadStab.jobString"><s>Executing [OTHER].</s><r>Выполнение [OTHER].</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_HeadStab.label"><s>Execution: Head Stab</s><r>Казнь: Удар в голову</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_JumpThrow.jobString"><s>Executing [OTHER].</s><r>Выполнение [OTHER].</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_JumpThrow.label"><s>Execution: Jump Throw</s><r>Исполнение: бросок в прыжке</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_KnockdownStab.jobString"><s>Executing [OTHER].</s><r>Выполнение [OTHER].</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_KnockdownStab.label"><s>Execution: Knockdown Stab</s><r>Казнь: Нокдаун-удар</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_Passover.jobString"><s>Executing [OTHER].</s><r>Выполнение [OTHER].</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_Passover.label"><s>Execution: Passover</s><r>Казнь: Песах</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_PocketSand.jobString"><s>Executing [OTHER].</s><r>Выполнение [OTHER].</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_PocketSand.label"><s>Execution: Pocket Sand!</s><r>Исполнение: Карманный песок!</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_Punt.jobString"><s>Executing [OTHER].</s><r>Выполнение [OTHER].</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_Punt.label"><s>Execution: Punt</s><r>Исполнение: Пунт</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_SekiroBS.jobString"><s>Executing [OTHER].</s><r>Выполнение [OTHER].</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_SekiroBS.label"><s>Execution: Acrobatic Backstab</s><r>Казнь: Акробатический удар в спину</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_Shank.jobString"><s>Executing [OTHER].</s><r>Выполнение [OTHER].</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_Shank.label"><s>Execution: Shank</s><r>Исполнение: Шанк</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_SpearLift.jobString"><s>Executing [OTHER].</s><r>Выполнение [OTHER].</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_SpearLift.label"><s>Execution: Spear Stab</s><r>Казнь: Удар копьем</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_Stab.jobString"><s>Executing [OTHER].</s><r>Выполнение [OTHER].</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_Stab.label"><s>Execution: Stab</s><r>Казнь: Удар</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_ThrowSharp.jobString"><s>Executing [OTHER].</s><r>Выполнение [OTHER].</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_ThrowSharp.label"><s>Execution: Throw Sharp</s><r>Казнь: Резкий бросок</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_UpDownSlash.jobString"><s>Executing [OTHER].</s><r>Выполнение [OTHER].</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_UpDownSlash.label"><s>Execution: Up &amp; Down Slash</s><r>Исполнение: Удар вверх и вниз</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_UpSlash.jobString"><s>Executing [OTHER].</s><r>Выполнение [OTHER].</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_UpSlash.label"><s>Execution: Upwards Slash</s><r>Выполнение: удар вверх</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_UpSlash_Doubletap.jobString"><s>Executing [OTHER].</s><r>Выполнение [OTHER].</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_UpSlash_Doubletap.label"><s>Execution: Upwards Slash (doubletap)</s><r>Казнь: Удар вверх (двойное нажатие)</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_Weebstick.jobString"><s>Executing [OTHER].</s><r>Выполнение [OTHER].</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_Weebstick.label"><s>Execution: You insulted m'lady</s><r>Казнь: Вы оскорбили миледи.</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_Whirlwind.jobString"><s>Executing [OTHER].</s><r>Выполнение [OTHER].</r></e>
+  <e k="D" t="AnimDef" key="AM_Execution_Whirlwind.label"><s>Execution: Whirlwind</s><r>Исполнение: Вихрь</r></e>
+  <e k="D" t="AnimDef" key="AM_GilgameshVictim.description"><s>Casting unique skill: mystic weapon summon</s><r>Применение уникального навыка: вызов мистического оружия.</r></e>
+  <e k="D" t="AnimDef" key="AM_GilgameshVictim.jobString"><s>Uh oh...</s><r>Ох ох...</r></e>
+  <e k="D" t="AnimDef" key="AM_GilgameshVictim.label"><s>Execution: Mystic Weapon Summon</s><r>Казнь: Призыв мистического оружия</r></e>
+  <e k="D" t="ApparelLayerDef" key="AM_Hip.label"><s>lasso slot</s><r>слот для лассо</r></e>
+  <e k="D" t="BackgroundImageDef" key="AM_NoTablesBrawl.description"><s>Artwork created by @No_Tables for the Melee Animation mod.
+This background is dynamic, with a parallax effect.</s><r>Изображение создано @No_Tables для мода Melee Animation.
+Этот фон динамический, с эффектом параллакса.</r></e>
+  <e k="D" t="BackgroundImageDef" key="AM_NoTablesBrawl.label"><s>Melee Animation: Brawl</s><r>Анимация ближнего боя: Драка</r></e>
+  <e k="D" t="HediffDef" key="AM_KnockedOut.description"><s>The result of being knocked out during melee combat.
+Recovery will happen automatically over time, or it can be cured by another pawn, even without medicine.</s><r>Результат нокаута во время рукопашного боя.
+Восстановление произойдет автоматически с течением времени, или его можно вылечить другой пешкой, даже без лекарств.</r></e>
+  <e k="D" t="HediffDef" key="AM_KnockedOut.label"><s>knocked out</s><r>выбил</r></e>
+  <e k="D" t="HediffDef" key="AM_KnockedOut.labelNoun"><s>being knocked out</s><r>быть нокаутированным</r></e>
+  <e k="D" t="JobDef" key="AM_ChannelAnimation.reportString"><s>casting animation</s><r>кастинг анимации</r></e>
+  <e k="D" t="JobDef" key="AM_DoFriendlyDuel.reportString"><s>engaging in friendly duel with TargetA</s><r>вступаю в дружескую дуэль с TargetA</r></e>
+  <e k="D" t="JobDef" key="AM_GrapplePawn.reportString"><s>lassoing pawn</s><r>арканная пешка</r></e>
+  <e k="D" t="JobDef" key="AM_InAnimation.reportString"><s>in animation</s><r>в анимации</r></e>
+  <e k="D" t="JobDef" key="AM_SpectateFriendlyDuel.reportString"><s>spectating duel: cheering for TargetC</s><r>зрительская дуэль: болеем за TargetC</r></e>
+  <e k="D" t="JobDef" key="AM_WalkToExecution.reportString"><s>moving towards TargetA to perform execution.</s><r>перемещаясь в сторону TargetA для выполнения выполнения.</r></e>
+  <e k="D" t="JoyKindDef" key="AM_FriendlyDuelJoyKind.label"><s>duel training</s><r>тренировка по дуэли</r></e>
+  <e k="D" t="PawnColumnDef" key="AM_ExecutionModePawnColumn.headerTip"><s>Auto-Execution mode</s><r>Режим автоматического выполнения</r></e>
+  <e k="D" t="PawnColumnDef" key="AM_LassoModePawnColumn.headerTip"><s>Auto-Lasso mode</s><r>Режим автоматического лассо</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Blunt.rulePack.rulesStrings.0"><s>r_logentry-&gt;Performing a [exec_desc] execution, [INITIATOR_definite] [beat] [RECIPIENT_definite] to death!</s><r>r_logentry-&gt;Выполняем [exec_desc] казнь, [INITIATOR_definite] [beat] [RECIPIENT_definite] до смерти!</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Blunt.rulePack.rulesStrings.1"><s>r_logentry-&gt;Performing a [exec_desc] execution, [INITIATOR_definite] [beat] [RECIPIENT_definite] using [INITIATOR_possessive] [TOOL_label].</s><r>r_logentry-&gt;Выполнение [exec_desc], [INITIATOR_definite] [beat] [RECIPIENT_definite] с использованием [INITIATOR_possessive] [TOOL_label].</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Generic.rulePack.rulesStrings.0"><s>r_logentry-&gt;[RECIPIENT_definite] was killed by [INITIATOR_definite] in a [exec_desc] execution.</s><r>r_logentry-&gt;[RECIPIENT_definite] был убит [INITIATOR_definite] в ходе казни [exec_desc].</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Gilgamesh.rulePack.rulesStrings.0"><s>r_logentry-&gt;In an impressive feat of psycast mastery [INITIATOR_definite] summoned dozens of weapons to impale [RECIPIENT_definite].</s><r>r_logentry-&gt;Проявив впечатляющий подвиг пси-мастерства, [INITIATOR_definite] призвал десятки видов оружия, чтобы пронзить [RECIPIENT_definite].</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Includes.rulePack.rulesStrings.0"><s>exec_desc-&gt;skillful</s><r>exec_desc-&gt;умелый</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Includes.rulePack.rulesStrings.1"><s>exec_desc-&gt;swift</s><r>exec_desc-&gt;быстрый</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Includes.rulePack.rulesStrings.10"><s>impaled-&gt;impaled</s><r>impaled-&gt;пронзенный</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Includes.rulePack.rulesStrings.11"><s>impaled-&gt;skewered</s><r>impaled-&gt;нанизанный на вертел</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Includes.rulePack.rulesStrings.12"><s>stabbed-&gt;stabbed</s><r>stabbed-&gt;зарезан</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Includes.rulePack.rulesStrings.13"><s>stabbed-&gt;skewered</s><r>stabbed-&gt;нанизанный на вертел</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Includes.rulePack.rulesStrings.14"><s>slashed-&gt;slashed</s><r>slashed-&gt;порезанный</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Includes.rulePack.rulesStrings.15"><s>slashed-&gt;lacerated</s><r>slashed-&gt;разорванный</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Includes.rulePack.rulesStrings.16"><s>slashed-&gt;cut into</s><r>slashed-&gt;разрезать на</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Includes.rulePack.rulesStrings.17"><s>slashed-&gt;split open</s><r>slashed-&gt;расколотый</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Includes.rulePack.rulesStrings.18"><s>beat-&gt;beat</s><r>beat-&gt;бить</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Includes.rulePack.rulesStrings.19"><s>beat-&gt;battered</s><r>beat-&gt;избитый</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Includes.rulePack.rulesStrings.2"><s>exec_desc-&gt;merciful</s><r>exec_desc-&gt;милосердный</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Includes.rulePack.rulesStrings.20"><s>beat-&gt;bludgeoned</s><r>beat-&gt;избитый</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Includes.rulePack.rulesStrings.21"><s>skillfully-&gt;skillfully</s><r>skillfully-&gt;умело</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Includes.rulePack.rulesStrings.22"><s>skillfully-&gt;masterfully</s><r>skillfully-&gt;мастерски</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Includes.rulePack.rulesStrings.23"><s>skillfully-&gt;nimbly</s><r>skillfully-&gt;проворно</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Includes.rulePack.rulesStrings.24"><s>weeb_legend-&gt;the Demonic Spirit</s><r>weeb_legend-&gt;демонический Дух</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Includes.rulePack.rulesStrings.25"><s>weeb_legend(p=6)-&gt;[INITIATOR_definite], Slayer of [RECIPIENT_labelPlural]</s><r>weeb_legend(p=6)-&gt;[INITIATOR_definite], Убийца [RECIPIENT_labelPlural]</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Includes.rulePack.rulesStrings.26"><s>weeb_legend-&gt;[INITIATOR_definite] the Undying</s><r>weeb_legend-&gt;[INITIATOR_definite] Бессмертный</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Includes.rulePack.rulesStrings.27"><s>weeb_legend-&gt;[INITIATOR_definite], Conqueror of the Stars</s><r>weeb_legend-&gt;[INITIATOR_definite], Покоритель звезд</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Includes.rulePack.rulesStrings.28"><s>weeb_legend-&gt;[INITIATOR_definite] the Undead</s><r>weeb_legend-&gt;[INITIATOR_definite] Нежить</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Includes.rulePack.rulesStrings.29"><s>weeb_legend-&gt;[INITIATOR_definite] the Edgy</s><r>weeb_legend-&gt;[INITIATOR_definite] Острый</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Includes.rulePack.rulesStrings.3"><s>exec_desc-&gt;brutal</s><r>exec_desc-&gt;жестокий</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Includes.rulePack.rulesStrings.30"><s>weeb_legend-&gt;[INITIATOR_definite], Edgelord Supreme</s><r>weeb_legend-&gt;[INITIATOR_definite], Верховный Лорд Эджлорда</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Includes.rulePack.rulesStrings.31"><s>weeb_legend-&gt;[INITIATOR_definite], Collector of Feetpics</s><r>weeb_legend-&gt;[INITIATOR_definite], Коллекционер футпиков</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Includes.rulePack.rulesStrings.32"><s>weeb_legend-&gt;[INITIATOR_definite] the Penetrator</s><r>weeb_legend-&gt;[INITIATOR_definite] Пенетратор</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Includes.rulePack.rulesStrings.4"><s>exec_desc-&gt;vengeful</s><r>exec_desc-&gt;мстительный</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Includes.rulePack.rulesStrings.5"><s>exec_desc-&gt;crude</s><r>exec_desc-&gt;сырой</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Includes.rulePack.rulesStrings.6"><s>exec_desc-&gt;efficient</s><r>exec_desc-&gt;эффективный</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Includes.rulePack.rulesStrings.7"><s>exec_desc-&gt;clean</s><r>exec_desc-&gt;чистый</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Includes.rulePack.rulesStrings.8"><s>exec_desc-&gt;shocking</s><r>exec_desc-&gt;шокирующий</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Includes.rulePack.rulesStrings.9"><s>exec_desc-&gt;spectacular</s><r>exec_desc-&gt;зрелищный</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Passover.rulePack.rulesStrings.0"><s>r_logentry-&gt;Performing a [exec_desc] execution, [INITIATOR_definite] [impaled] [RECIPIENT_definite] on [INITIATOR_possessive] [TOOL_label], then tossed [RECIPIENT_definite] over [INITIATOR_possessive] back! Brutal!</s><r>r_logentry-&gt;Выполняем [exec_desc] казнь, [INITIATOR_definite] [impaled] [RECIPIENT_definite] на [INITIATOR_possessive] [TOOL_label], затем бросаем [RECIPIENT_definite] через [INITIATOR_possessive] обратно! Жестоко!</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Slashed.rulePack.rulesStrings.0"><s>r_logentry-&gt;Performing a [exec_desc] execution, [INITIATOR_definite] [slashed] [RECIPIENT_definite] in the [recipient_part0_label].</s><r>r_logentry-&gt;Выполнение [exec_desc], [INITIATOR_definite] [slashed] [RECIPIENT_definite] в [recipient_part0_label].</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Slashed.rulePack.rulesStrings.1"><s>r_logentry-&gt;Performing a [exec_desc] execution, [INITIATOR_definite] [slashed] [RECIPIENT_definite] with [INITIATOR_possessive] [TOOL_label].</s><r>r_logentry-&gt;Выполнение [exec_desc], [INITIATOR_definite] [slashed] [RECIPIENT_definite] с [INITIATOR_possessive] [TOOL_label].</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Stab.rulePack.rulesStrings.0"><s>r_logentry-&gt;Performing a [exec_desc] execution, [INITIATOR_definite] [stabbed] [RECIPIENT_definite] in the [recipient_part0_label].</s><r>r_logentry-&gt;Выполнение [exec_desc], [INITIATOR_definite] [stabbed] [RECIPIENT_definite] в [recipient_part0_label].</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Stab.rulePack.rulesStrings.1"><s>r_logentry-&gt;Performing a [exec_desc] execution, [INITIATOR_definite] [impaled] [RECIPIENT_definite] with [INITIATOR_possessive] [TOOL_label].</s><r>r_logentry-&gt;Выполнение [exec_desc], [INITIATOR_definite] [impaled] [RECIPIENT_definite] с [INITIATOR_possessive] [TOOL_label].</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Weebstick.rulePack.rulesStrings.0"><s>r_logentry-&gt;Wielding [INITIATOR_possessive] [TOOL_label], a weapon said to have killed God, [INITIATOR_definite] confronted [RECIPIENT_definite]. Too fast for the eye to follow, [INITIATOR_pronoun] [slashed] [RECIPIENT_definite].
+Everybody clapped.</s><r>r_logentry-&gt;Владея [INITIATOR_possessive] [TOOL_label], оружием, которое, как говорят, убило Бога, [INITIATOR_definite] противостоял [RECIPIENT_definite]. Слишком быстро, чтобы уследить глаз, [INITIATOR_pronoun] [slashed] [RECIPIENT_definite].
+Все аплодировали.</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Weebstick.rulePack.rulesStrings.1"><s>r_logentry(p=5)-&gt;Wielding [INITIATOR_possessive] [TOOL_label], a weapon said to have killed God, [INITIATOR_definite] confronted [RECIPIENT_definite]. Too fast for the eye to follow, [INITIATOR_pronoun] [slashed] [RECIPIENT_definite].
+Thus the legend of [weeb_legend] was born.</s><r>r_logentry(p=5)-&gt;Владея [INITIATOR_possessive] [TOOL_label], оружием, которое, как говорят, убило Бога, [INITIATOR_definite] противостоял [RECIPIENT_definite]. Слишком быстро, чтобы уследить глаз, [INITIATOR_pronoun] [slashed] [RECIPIENT_definite].
+Так родилась легенда о [weeb_legend].</r></e>
+  <e k="D" t="RulePackDef" key="AM_Execution_Weebstick.rulePack.rulesStrings.2"><s>r_logentry-&gt;Wielding [INITIATOR_possessive] [TOOL_label], a weapon said to have killed God, [INITIATOR_definite] confronted [RECIPIENT_definite]. Too fast for the eye to follow, [INITIATOR_pronoun] [slashed] [RECIPIENT_definite].
+Nobody can be sure if the blade dealt the killing blow, or whether [INITIATOR_definite] is simply so edgy that [INITIATOR_possessive] powerful aura completely sapped [RECIPIENT_definite] of the will to live.</s><r>r_logentry-&gt;Владея [INITIATOR_possessive] [TOOL_label], оружием, которое, как говорят, убило Бога, [INITIATOR_definite] противостоял [RECIPIENT_definite]. Слишком быстро, чтобы глаз мог уследить, [INITIATOR_pronoun] [slashed] [RECIPIENT_definite].
+Никто не может быть уверен, нанес ли клинок смертельный удар, или [INITIATOR_definite] просто настолько резок, что мощная аура [INITIATOR_possessive] полностью лишила [RECIPIENT_definite] воли к жизни.</r></e>
+  <e k="D" t="StatDef" key="AM_DuelAbility.description"><s>This pawn's effectiveness in melee duels. This stat value is compared against the opponents, and influcenes the outcome of the duel.</s><r>Эффективность этой пешки в рукопашных дуэлях. Значение этой характеристики сравнивается с противниками и влияет на исход дуэли.</r></e>
+  <e k="D" t="StatDef" key="AM_DuelAbility.label"><s>Melee Duel Ability</s><r>Способность к рукопашной дуэли</r></e>
+  <e k="D" t="StatDef" key="AM_ExecutionCooldown.description"><s>The cooldown, measured in seconds, between melee executions. Affected by pawn melee skill and other factors.</s><r>Время восстановления между казнями в ближнем бою измеряется в секундах. Зависит от навыков пешки в ближнем бою и других факторов.</r></e>
+  <e k="D" t="StatDef" key="AM_ExecutionCooldown.label"><s>Execution Cooldown</s><r>Время восстановления выполнения</r></e>
+  <e k="D" t="StatDef" key="AM_GrappleCooldown.description"><s>The cooldown, measured in seconds, between lasso uses. Affected by lasso type and pawn health status.</s><r>Время восстановления между использованием лассо измеряется в секундах. Зависит от типа лассо и состояния здоровья пешки.</r></e>
+  <e k="D" t="StatDef" key="AM_GrappleCooldown.label"><s>Lasso Cooldown</s><r>Время восстановления Лассо</r></e>
+  <e k="D" t="StatDef" key="AM_GrappleRadius.description"><s>The maximum distance from which an enemy can be lassoed by this pawn.
+Affected by the equipped lasso type.</s><r>Максимальное расстояние, с которого эта пешка может заарканить врага.
+Влияет на тип экипированного лассо.</r></e>
+  <e k="D" t="StatDef" key="AM_GrappleRadius.label"><s>Max Lasso Distance</s><r>Макс. расстояние лассо</r></e>
+  <e k="D" t="StatDef" key="AM_GrappleSpeed.description"><s>The speed of ensnaring and then reeling in an enemy using a lasso.
+Higher values mean that it takes less time to grab and pull the target into melee range.
+This is NOT the lasso cooldown.</s><r>Скорость захвата и последующего наматывания врага с помощью лассо.
+Более высокие значения означают, что требуется меньше времени, чтобы схватить и притянуть цель на расстояние ближнего боя.
+Это НЕ время восстановления лассо.</r></e>
+  <e k="D" t="StatDef" key="AM_GrappleSpeed.label"><s>Lasso Reel Speed</s><r>Скорость намотки лассо</r></e>
+  <e k="D" t="StatDef" key="AM_Lethality.description"><s>This pawn's lethality when performing executions. This value represents the chance to kill when performing execution animations, including when winning a duel.</s><r>Смертоносность этой пешки при казнях. Это значение представляет собой шанс убить при выполнении анимации казни, в том числе при победе в дуэли.</r></e>
+  <e k="D" t="StatDef" key="AM_Lethality.label"><s>Melee Lethality</s><r>Летальность в ближнем бою</r></e>
+  <e k="D" t="ThingDef" key="AM_DuelSpot.description"><s>Designates a spot where friendly duels can take place. Two colonists with valid melee weapons may spar here for fun and practice.</s><r>Обозначает место, где могут проходить дружеские дуэли. Два колониста с действующим оружием ближнего боя могут спарринговаться здесь ради развлечения и тренировки.</r></e>
+  <e k="D" t="ThingDef" key="AM_DuelSpot.label"><s>duel spot</s><r>место для дуэли</r></e>
+  <e k="D" t="ThingDef" key="AM_GrappleFlyer.label"><s>flying</s><r>летающий</r></e>
+  <e k="D" t="ThingDef" key="AM_KnockbackFlyer.label"><s>flying</s><r>летающий</r></e>
+  <e k="D" t="ThingDef" key="AM_LassoCloth.description"><s>A cloth lasso that can drag enemies into melee range from a distance, or pull friendlies out of harm's way.</s><r>Тканевое лассо, которое может на расстоянии затягивать врагов в ближний бой или уводить друзей от опасности.</r></e>
+  <e k="D" t="ThingDef" key="AM_LassoCloth.label"><s>Lasso</s><r>Лассо</r></e>
+  <e k="D" t="ThingDef" key="AM_LassoDevilstrand.description"><s>A devilstrand lasso that can drag enemies into melee range from a distance, or pull friendlies out of harm's way.
+Allows increased lasso reach compared to a regular lasso.</s><r>Лассо из нитей дьявола, которое может затягивать врагов на расстояние ближнего боя или уводить друзей от опасности.
+Позволяет увеличить дальность действия лассо по сравнению с обычным лассо.</r></e>
+  <e k="D" t="ThingDef" key="AM_LassoDevilstrand.label"><s>Devilstrand Lasso</s><r>Девилстрандское лассо</r></e>
+  <e k="D" t="ThingDef" key="AM_LassoHyperwave.description"><s>A hyperweave lasso that can drag enemies into melee range from a distance, or pull friendlies out of harm's way.
+Allows increased lasso reach compared to a devilstrand lasso.</s><r>Сверхплетеное лассо, которое может затягивать врагов на расстояние ближнего боя или уводить друзей от опасности.
+Позволяет увеличить дальность действия лассо по сравнению с лассо из нити дьявола.</r></e>
+  <e k="D" t="ThingDef" key="AM_LassoHyperwave.label"><s>Hyperweave Lasso</s><r>Гипертканое лассо</r></e>
+  <e k="D" t="ThingDef" key="AM_Weebstick.description"><s>A legendary weapon of origin unknown.
+The wielder of this mighty weapon feels compelled to wear a dark trenchcoat and answer questions with a grunt. Some may find this unsettling but none can deny its effectiveness in combat.
+Unlocks a unique and deadly Special Skill animation.</s><r>Легендарное оружие неизвестного происхождения.
+Владелец этого могучего оружия чувствует себя обязанным носить темный плащ и отвечать на вопросы ворчанием. Некоторых это может сбить с толку, но никто не может отрицать его эффективность в бою.
+Открывает уникальную и смертоносную анимацию специального навыка.</r></e>
+  <e k="D" t="ThingDef" key="AM_Weebstick.label"><s>Scarlet Edge</s><r>Алый край</r></e>
+  <e k="D" t="ThoughtDef" key="AM_FriendlyDuel_Lose.stages.0.description"><s>I lost in a friendly duel against {OTHERPAWN}.
+Losing is disappointing but it was still good practice. I'll get em' next time!</s><r>Я проиграл в товарищеском поединке против {OTHERPAWN}.
+. Проигрыш меня разочаровывает, но это всё равно была хорошая практика. Я получу их в следующий раз!</r></e>
+  <e k="D" t="ThoughtDef" key="AM_FriendlyDuel_Lose.stages.0.label"><s>lost friendly duel</s><r>проигранная дружеская дуэль</r></e>
+  <e k="D" t="ThoughtDef" key="AM_FriendlyDuel_Win.stages.0.description"><s>I won a friendly duel against {OTHERPAWN}!
+It was a relaxed bout but it still feels good to be victorious.</s><r>Я выиграл товарищеский поединок у {OTHERPAWN}!
+Это был спокойный бой, но все равно приятно одержать победу.</r></e>
+  <e k="D" t="ThoughtDef" key="AM_FriendlyDuel_Win.stages.0.label"><s>won friendly duel</s><r>выиграл товарищеский поединок</r></e>
+  <e k="D" t="TipSetDef" key="AM_Tips.tips.0"><s>Execution animations cannot be cancelled after they have started, but if either pawn is downed or killed, the animation is cancelled.</s><r>Анимацию казни нельзя отменить после того, как она началась, но если какая-либо пешка сбита или убита, анимация отменяется.</r></e>
+  <e k="D" t="TipSetDef" key="AM_Tips.tips.1"><s>The lethality of execution animations can be adjusted in the mod settings.</s><r>Смертоносность анимации казни можно регулировать в настройках мода.</r></e>
+  <e k="D" t="TipSetDef" key="AM_Tips.tips.2"><s>Lasso cooldown is affected by the type of lasso, the pawn's melee skill, and the pawn's manipulation.</s><r>Время восстановления Лассо зависит от типа лассо, навыков ближнего боя пешки и манипуляций с ней.</r></e>
+  <e k="D" t="UniqueSkillDef" key="AM_Skill_GaeBulg.description"><s>Kill a single target in a complex and stylish animation that launches them into the air.
+Always kills the target.</s><r>Убейте одну цель с помощью сложной и стильной анимации, которая подбрасывает ее в воздух.
+Всегда убивает цель.</r></e>
+  <e k="D" t="UniqueSkillDef" key="AM_Skill_GaeBulg.label"><s>Lance Ultrakill</s><r>Лэнс Ультракилл</r></e>
+  <e k="D" t="UniqueSkillDef" key="AM_Skill_Gilgamesh.description"><s>Summons a myriad of weapons, of unknown origin, to impale the target.
+Does not require line of sight, and the onslaught of weapons is sure to kill the victim.
+However, such a feat of psychic ability will put the summoner in a psychic coma for around 2 days.</s><r>Призывает множество видов оружия неизвестного происхождения, чтобы пронзить цель.
+Не требует прямой видимости, и натиск оружия обязательно убьет жертву.
+Однако такой подвиг экстрасенсорных способностей поместит призывателя в психическую кому примерно на 2 дня.</r></e>
+  <e k="D" t="UniqueSkillDef" key="AM_Skill_Gilgamesh.label"><s>Mystic Weapon Summon</s><r>Призыв мистического оружия</r></e>
+  <e k="D" t="UniqueSkillDef" key="AM_Skill_Weebstick.description"><s>Slash through a single enemy using Scarlet Edge, killing them instantly.</s><r>Пронзите одного врага с помощью Scarlet Edge, мгновенно убив его.</r></e>
+  <e k="D" t="UniqueSkillDef" key="AM_Skill_Weebstick.label"><s>Scarlet Edge</s><r>Алый край</r></e>
+  <e k="K" key="AM.AMSettings.Presets.Default"><s>Default</s><r>По умолчанию</r></e>
+  <e k="K" key="AM.AMSettings.Presets.Default.Desc"><s>Enables all features the mod has to offer</s><r>Включает все функции, которые может предложить мод.</r></e>
+  <e k="K" key="AM.AMSettings.Presets.NoLassos"><s>No Lassos</s><r>Нет Лассо</r></e>
+  <e k="K" key="AM.AMSettings.Presets.NoLassos.Desc"><s>Everything is enabled except lassos. You can still craft and use lassos manually if you want but enemies will not spawn with or use lassos.
+
+* Adds melee attack animations.
+* Adds melee weapon idle animations
+* Adds duels
+* Adds execution animations
+* Adds Unique Skills</s><r>Все включено, кроме арканов. Вы по-прежнему можете создавать и использовать лассо вручную, если хотите, но враги не будут появляться с лассо или использовать их.
+
+* Добавляет анимацию рукопашной атаки.
+* Добавляет анимацию бездействия оружия ближнего боя
+* Добавляет дуэли
+* Добавляет анимацию казни
+* Добавляет уникальные навыки</r></e>
+  <e k="K" key="AM.AMSettings.Presets.VanillaPlus"><s>Vanilla+</s><r>Ваниль+</r></e>
+  <e k="K" key="AM.AMSettings.Presets.VanillaPlus.Desc"><s>Keeps things very close to vanilla combat. Your pawns will not use lassos unless you manually instruct them to. Your pawns can not do executions, ever. Enemies will never do executions or use lassos.
+
+* Adds melee attack animations.
+* Adds melee weapon idle animations
+* Lassos can be used by friendly pawns, but must be equipped and triggered manually.</s><r>Делает все очень близко к ванильному бою. Ваши пешки не будут использовать лассо, если вы не прикажете им это делать вручную. Ваши пешки никогда не смогут казнить. Враги никогда не будут казнить или использовать арканы.
+
+* Добавляет анимацию рукопашной атаки.
+* Добавляет анимацию бездействия оружия ближнего боя
+* Лассо могут использовать дружественные пешки, но их необходимо экипировать и активировать вручную.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.AllowInvisiblePawns"><s>Animated Pawns Considered Invisible</s><r>Анимированные пешки считаются невидимыми</r></e>
+  <e k="K" key="AM.AMSettings.Settings.AllowInvisiblePawns.Desc"><s>When in an animation, such as an execution, pawns are considered invisible by all other pawns and turrets: they will not be actively targeted or shot at. This makes executions less risky.
+Note that pawns in animations can still take damage, such as from stray gunfire or explosions.</s><r>В анимации, например казни, пешки считаются невидимыми для всех остальных пешек и турелей: они не будут активно атакованы или по ним будут стрелять. Это делает казни менее рискованными.
+Обратите внимание, что пешки в анимации все равно могут получить урон, например, от шальной стрельбы или взрывов.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.AnimalsCanBeExecuted"><s>Animals Can Be Executed</s><r>Животных можно казнить</r></e>
+  <e k="K" key="AM.AMSettings.Settings.AnimalsCanBeExecuted.Desc"><s>Allows animals to be executed.
+You are a bad person if you enable this.</s><r>Позволяет казнить животных.
+Вы плохой человек, если включите это.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.AnimateAtIdle"><s>Always Animate Weapons</s><r>Всегда анимировать оружие</r></e>
+  <e k="K" key="AM.AMSettings.Settings.AnimateAtIdle.Desc"><s>If enabled, melee weapons are animated whenever they are held, such as when standing drafted or while moving in combat.
+If disabled, animations are limited to duels, special skills and executions.
+
+&lt;b&gt;Leaving this enabled can have a large performance impact on densely populated maps.
+Please reload your save after changing this setting.&lt;/b&gt;</s><r>Если этот параметр включен, оружие ближнего боя анимируется всякий раз, когда его удерживают, например, когда он стоит в боевой позиции или движется в бою.
+Если этот параметр отключен, анимация ограничивается дуэлями, специальными навыками и казнями.
+
+&lt;b&gt;Если этот параметр включен, это может сильно повлиять на производительность на густонаселенных картах.
+Пожалуйста, перезагрузите сохранение после изменения этого параметра.&lt;/b&gt;</r></e>
+  <e k="K" key="AM.AMSettings.Settings.AttackPauseDuration"><s>Attack Pause Duration</s><r>Продолжительность паузы атаки</r></e>
+  <e k="K" key="AM.AMSettings.Settings.AttackPauseDuration.Desc"><s>When doing a regular melee attack, the animation will very briefly pause at the point when the weapon intersects the target.
+This lets you know whether an attack connected, as well as giving the hit a bit more visual &lt;i&gt;oomph&lt;/i&gt;.
+This setting changes the duration of that pause, or disables it entirely. This is a purely visual change and does not affect combat.</s><r>При выполнении обычной рукопашной атаки анимация очень коротко приостанавливается в тот момент, когда оружие пересекает цель.
+Это позволяет узнать, связана ли атака, а также делает удар немного более визуальным &lt;i&gt;oomph&lt;/i&gt;.
+Этот параметр изменяет продолжительность этой паузы или полностью отключает ее. Это чисто визуальное изменение, не влияющее на бой.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.AutoExecute"><s>Auto Execute</s><r>Автоматическое выполнение</r></e>
+  <e k="K" key="AM.AMSettings.Settings.AutoExecute.Desc"><s>If true, your pawns will automatically execute enemy pawns in combat, without your input.
+This may include opportunistically using their grappling hooks if the Auto Grapple setting is enabled.
+
+This only changes the &lt;b&gt;default&lt;/b&gt; setting. It can also be configured on a per-pawn basis.</s><r>Если это правда, ваши пешки будут автоматически казнить вражеские пешки в бою без вашего участия.
+Это может включать в себя произвольное использование своих крюков, если включена настройка автоматического захвата.
+
+Это только изменяет настройку &lt;b&gt;по умолчанию&lt;/b&gt;. Его также можно настроить для каждой пешки.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.AutoGrapple"><s>Auto Lasso</s><r>Автомобиль Лассо</r></e>
+  <e k="K" key="AM.AMSettings.Settings.AutoGrapple.Desc"><s>If true, your colonists will automatically use their lassos against enemies.
+
+This only changes the &lt;b&gt;default&lt;/b&gt; setting. It can also be configured on a per-pawn basis.</s><r>Если это правда, ваши колонисты будут автоматически использовать свои арканы против врагов.
+
+Это только меняет настройку &lt;b&gt;default&lt;/b&gt;. Его также можно настроить для каждой пешки.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.ChanceToFailMaxSkill"><s>Execution Failure Chance (High Skill)</s><r>Шанс неудачного выполнения (высокий навык)</r></e>
+  <e k="K" key="AM.AMSettings.Settings.ChanceToFailMaxSkill.Desc"><s>The chance that an execution attempt will result in failure, stunning the attacking pawn and leaving them vulnerable for a short time.
+This is the chance when a pawn has 20 melee skill.
+Affects all pawns.</s><r>Вероятность того, что попытка казни закончится неудачей, оглушит атакующую пешку и сделает ее уязвимой на короткое время.
+Это шанс, когда пешка имеет 20 навыков ближнего боя.
+Влияет на все пешки.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.ChanceToFailMinSkill"><s>Execution Failure Chance (Low Skill)</s><r>Шанс неудачного выполнения (низкий навык)</r></e>
+  <e k="K" key="AM.AMSettings.Settings.ChanceToFailMinSkill.Desc"><s>The chance that an execution attempt will result in failure, stunning the attacking pawn and leaving them vulnerable for a short time.
+This is the chance when a pawn has 0 melee skill.
+Affects all pawns.</s><r>Вероятность того, что попытка казни закончится неудачей, оглушит атакующую пешку и сделает ее уязвимой на короткое время.
+Это шанс, когда у пешки 0 навыков ближнего боя.
+Влияет на все пешки.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.CorpseOffsetMode"><s>Corpse Offset Mode</s><r>Режим смещения трупа</r></e>
+  <e k="K" key="AM.AMSettings.Settings.CorpseOffsetMode.Desc"><s>In order for the animation to transition seamlessly to regular gameplay, execution animations leave the corpse of the victim in non-vanilla positions and rotations.
+This offset can be confusing however, because the corpse no longer occupies the center of the tile.
+&lt;b&gt;Note:&lt;/b&gt; The offset corpses are reset after a save-reload.</s><r>Чтобы анимация плавно перешла в обычный игровой процесс, анимация выполнения оставляет труп жертвы в нестандартных положениях и вращениях.
+Однако это смещение может сбивать с толку, поскольку труп больше не занимает центр плитки.
+&lt;b&gt;Примечание:&lt;/b&gt; Смещение трупов сбрасывается после перезагрузки сохранения.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.DrawNamesInAnimation"><s>Draw Names In Animation</s><r>Рисовать имена в анимации</r></e>
+  <e k="K" key="AM.AMSettings.Settings.DrawNamesInAnimation.Desc"><s>If true, the name of pawns is drawn below them, just like in the base game.
+If false, the name is not drawn, for a more cinematic animation.</s><r>Если true, имена пешек рисуются под ними, как и в основной игре.
+Если false, имя не рисуется для более кинематографической анимации.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.EnableExecutions"><s>Enable Executions</s><r>Включить казни</r></e>
+  <e k="K" key="AM.AMSettings.Settings.EnableExecutions.Desc"><s>Entirely enables or disables the execution system. Disabling this means that no pawns will ever be able to do executions, and the option is removed from the UI.</s><r>Полностью включает или отключает систему выполнения. Отключение этого параметра означает, что ни одна пешка никогда не сможет выполнять казни, и эта опция будет удалена из пользовательского интерфейса.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.EnableUniqueSkills"><s>Enable Unique Skills</s><r>Включить уникальные навыки</r></e>
+  <e k="K" key="AM.AMSettings.Settings.EnableUniqueSkills.Desc"><s>Enables or disables the Unique Skill system.
+Unique Skills are powerful attacks or abilities that are unlocked under certain conditions.
+Only your colonists can use these skills and they must be activated manually. See the Steam workshop page for more info.</s><r>Включает или отключает систему уникальных навыков.
+Уникальные навыки — это мощные атаки или способности, которые разблокируются при определенных условиях.
+Только ваши колонисты могут использовать эти навыки, и их необходимо активировать вручную. Дополнительную информацию можно найти на странице мастерской Steam.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.EnemiesCanExecute"><s>Enemies Can Perform Executions</s><r>Враги могут казнить</r></e>
+  <e k="K" key="AM.AMSettings.Settings.EnemiesCanExecute.Desc"><s>Can enemies perform execution animations?</s><r>Могут ли враги выполнять анимацию казни?</r></e>
+  <e k="K" key="AM.AMSettings.Settings.EnemiesCanGrapple"><s>Enemies Can Lasso</s><r>Враги могут Лассо</r></e>
+  <e k="K" key="AM.AMSettings.Settings.EnemiesCanGrapple.Desc"><s>Can enemies use lassos (if they have any) to pull your colonists into melee range?</s><r>Могут ли враги использовать арканы (если они у них есть), чтобы вытащить ваших колонистов на расстояние ближнего боя?</r></e>
+  <e k="K" key="AM.AMSettings.Settings.EnemyExecCooldownFactor"><s>Execution Cooldown Factor (Enemy)</s><r>Фактор перезарядки казни (враг)</r></e>
+  <e k="K" key="AM.AMSettings.Settings.EnemyExecCooldownFactor.Desc"><s>This adjust the execution cooldown time for hostile pawns. Lower values decrease the cooldown. You can see the final cooldown time in the pawn's stats.</s><r>Это регулирует время восстановления выполнения для вражеских пешек. Более низкие значения уменьшают время восстановления. Вы можете увидеть окончательное время восстановления в статистике пешки.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.ExecuteAttemptMTBSeconds"><s>Automatic Execution Average Interval (Friendly)</s><r>Средний интервал автоматического выполнения (дружественный)</r></e>
+  <e k="K" key="AM.AMSettings.Settings.ExecuteAttemptMTBSeconds.Desc"><s>This is the average time, in seconds, at which friendly pawns will attempt to start an execution animation on the enemy they are currently fighting.
+For example, if this is set to 5 and your pawn is fighting in melee, an execution animation will be triggered on average after 5 seconds.
+This does not affect execution cooldown, which is a pawn-specific stat.
+
+Lower values can greatly impact performance on populated maps.</s><r>Это среднее время в секундах, в течение которого дружественные пешки будут пытаться запустить анимацию казни врага, с которым они в данный момент сражаются.
+Например, если для этого параметра установлено значение 5, и ваша пешка сражается в рукопашной, анимация казни будет запускаться в среднем через 5 секунд.
+Это не влияет на время восстановления выполнения, которое является показателем, специфичным для пешки.
+
+Более низкие значения могут значительно повлиять на производительность. на населенных картах.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.ExecuteAttemptMTBSecondsEnemy"><s>Automatic Execution Average Interval (Enemy)</s><r>Средний интервал автоматического выполнения (Враг)</r></e>
+  <e k="K" key="AM.AMSettings.Settings.ExecuteAttemptMTBSecondsEnemy.Desc"><s>This is the average time, in seconds, at which enemy pawns will attempt to start an execution animation on the target they are currently fighting.
+For example, if this is set to 5 and an enemy is fighting in melee, an execution animation will be triggered on average after 5 seconds.
+This does not affect execution cooldown, which is a pawn-specific stat.
+
+Lower values can greatly impact performance on populated maps.</s><r>Это среднее время в секундах, в течение которого вражеские пешки попытаются запустить анимацию казни по цели, с которой они в данный момент сражаются.
+Например, если для этого параметра установлено значение 5 и враг сражается в рукопашной, анимация казни будет запускаться в среднем через 5 секунд.
+Это не влияет на время восстановления выполнения, которое является показателем, специфичным для пешки.
+
+Более низкие значения могут значительно повлиять на производительность населенные карты.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.ExecutionArmorCoefficient"><s>Execution Armor Strength</s><r>Прочность брони казни</r></e>
+  <e k="K" key="AM.AMSettings.Settings.ExecutionArmorCoefficient.Desc"><s>A multiplier on the effectiveness of armor when calculating execution animation outcome.
+Lower values decrease the effect of armor on the outcome, higher values increase the strength of armor.
+Set to 0% to make armor be ignored.</s><r>Множитель эффективности брони при расчете результата анимации выполнения.
+Меньшие значения уменьшают влияние брони на результат, более высокие значения увеличивают прочность брони.
+Установите значение 0%, чтобы броня игнорировалась.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.ExecutionLethalityModifier"><s>Execution Lethality Modifier</s><r>Модификатор летальности казни</r></e>
+  <e k="K" key="AM.AMSettings.Settings.ExecutionLethalityModifier.Desc"><s>A general modifier on the lethality of execution animations. Higher values make executions more lethal. Affects all pawns.</s><r>Общий модификатор летальности анимации казни. Более высокие значения делают казни более смертоносными. Влияет на все пешки.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.ExecutionsCanDestroyBodyParts"><s>Executions Can Destroy Body Parts</s><r>Казни могут уничтожить части тела</r></e>
+  <e k="K" key="AM.AMSettings.Settings.ExecutionsCanDestroyBodyParts.Desc"><s>If true, executions can destroy specific vital body parts, such as the heart or head.
+If false, the pawn is simply killed by 'magic' (no specific part takes damage)
+Note: if disabled, combat log generation does not work properly for the execution, and will give a default message: &quot;&lt;i&gt;name was killed.&lt;/i&gt;&quot;</s><r>Если это правда, казни могут уничтожить определенные жизненно важные части тела, такие как сердце или голова.
+Если ложь, пешка просто убивается «магией» (ни одна конкретная часть не получает урона)
+Примечание: если отключено, генерация журнала боя не работает должным образом для казни и выдает сообщение по умолчанию: «&lt;i&gt;имя было убито.&lt;/i&gt;»</r></e>
+  <e k="K" key="AM.AMSettings.Settings.ExecutionsOnFriendliesAreNotLethal"><s>Executions Are Non Lethal On Friendlies</s><r>Казни не смертельны в товарищеских матчах</r></e>
+  <e k="K" key="AM.AMSettings.Settings.ExecutionsOnFriendliesAreNotLethal.Desc"><s>If enabled, execution animations on friendly pawns are always non-lethal regardless of other settings.
+Prisoners and slaves are considered friendly.
+
+Useful when trying to stop a mental break or prisoner uprising without causing a bloodbath.</s><r>Если этот параметр включен, анимация казни дружественных пешек всегда несмертельна, независимо от других настроек.
+Заключенные и рабы считаются дружественными.
+
+Полезно при попытке остановить психическое расстройство или восстание заключенных, не вызывая кровопролития.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.FlavourMTB"><s>Idle Animation Average Interval</s><r>Средний интервал анимации простоя</r></e>
+  <e k="K" key="AM.AMSettings.Settings.FlavourMTB.Desc"><s>Pawns standing with their weapon out (such as when drafted) will sometimes play an animation where they swing their weapon about, flourish it etc.
+This option controls the average time, in seconds, between the occurrence of this animation.
+Set to 0 to disable the animations entirely.</s><r>Пешки, стоящие с выставленным оружием (например, при выборе), иногда воспроизводят анимацию, в которой они размахивают своим оружием, размахивают им и т. д.
+Эта опция контролирует среднее время в секундах между возникновением этой анимации.
+Установите значение 0, чтобы полностью отключить анимацию.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.FriendlyDuelCooldown"><s>Friendly Duel Cooldown</s><r>Время восстановления дружеской дуэли</r></e>
+  <e k="K" key="AM.AMSettings.Settings.FriendlyDuelCooldown.Desc"><s>The cooldown time, in seconds, after a friendly duel where a friendly duel cannot be started again.</s><r>Время восстановления в секундах после дружеской дуэли, когда дружескую дуэль нельзя начать снова.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.FriendlyExecCooldownFactor"><s>Execution Cooldown Factor (Friendly)</s><r>Фактор восстановления выполнения (Дружественный)</r></e>
+  <e k="K" key="AM.AMSettings.Settings.FriendlyExecCooldownFactor.Desc"><s>This adjust the execution cooldown time for friendly pawns. Lower values decrease the cooldown. You can see the final cooldown time in the pawn's stats.</s><r>Это регулирует время восстановления выполнения для дружественных пешек. Более низкие значения уменьшают время восстановления. Вы можете увидеть окончательное время восстановления в статистике пешки.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.FriendlyPawnDuelBonus"><s>Friendly Pawn Duel Ability Bonus</s><r>Бонус к способности «Дружественная пешка» в дуэли</r></e>
+  <e k="K" key="AM.AMSettings.Settings.FriendlyPawnDuelBonus.Desc"><s>Positive values act as a duel ability bonus for friendly pawns (including slaves), meaning that they will win duels more often.</s><r>Положительные значения действуют как бонус дуэльных способностей для дружественных пешек (включая рабов), а это означает, что они будут чаще выигрывать дуэли.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.FriendlyPawnLethalityBonus"><s>Friendly Pawn Lethality Bonus</s><r>Бонус к летальности дружественной пешки</r></e>
+  <e k="K" key="AM.AMSettings.Settings.FriendlyPawnLethalityBonus.Desc"><s>Positive values act as a lethality bonus for friendly pawns (including slaves) in execution &amp; duel outcomes, meaning that they will be lethal more often.</s><r>Положительные значения действуют как бонус к летальности дружественных пешек (включая рабов) при казнях и дуэлях, а это означает, что они будут чаще смертоносными.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.GlobalAnimationSpeed"><s>Global Animation Speed</s><r>Глобальная скорость анимации</r></e>
+  <e k="K" key="AM.AMSettings.Settings.GlobalAnimationSpeed.Desc"><s>A modifier on the speed of all animations.
+Higher is faster.</s><r>Модификатор скорости всех анимаций.
+Чем выше, тем быстрее.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.Gore_DamageEffect"><s>Damage Effect</s><r>Эффект урона</r></e>
+  <e k="K" key="AM.AMSettings.Settings.Gore_DamageEffect.Desc"><s>Enable or disable the damage affect in animations.
+The damage effect is normally a small, temporary puff of blood.</s><r>Включите или отключите эффект повреждения в анимации.
+Эффект повреждения обычно представляет собой небольшую временную струйку крови.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.Gore_FloorBlood"><s>Blood (filth)</s><r>Кровь (грязь)</r></e>
+  <e k="K" key="AM.AMSettings.Settings.Gore_FloorBlood.Desc"><s>Enable or disable the spawning of blood in animations.
+The blood is filth that must be cleaned up. Includes modded blood and mechanoid blood (oil).</s><r>Включите или отключите появление крови в анимации.
+Кровь — это грязь, которую необходимо удалять. Включает модифицированную кровь и кровь механоидов (масло).</r></e>
+  <e k="K" key="AM.AMSettings.Settings.GrappleAttemptMTBSeconds"><s>Automatic Lasso Average Interval (Friendly)</s><r>Автоматический средний интервал лассо (дружественный)</r></e>
+  <e k="K" key="AM.AMSettings.Settings.GrappleAttemptMTBSeconds.Desc"><s>This is the average time, in seconds, at which friendly pawns will attempt to use their lasso to pull an enemy into melee range.
+If their execution is off cooldown and Auto Execute is enabled, they will immediately execute the lassoed target too.</s><r>Это среднее время в секундах, в течение которого дружественные пешки попытаются использовать свое лассо, чтобы притянуть врага на расстояние ближнего боя.
+Если время восстановления их казни не истекло и включено автоматическое выполнение, они также немедленно казнят заарканенную цель.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.GrappleAttemptMTBSecondsEnemy"><s>Automatic Lasso Average Interval (Enemy)</s><r>Автоматический средний интервал лассо (враг)</r></e>
+  <e k="K" key="AM.AMSettings.Settings.GrappleAttemptMTBSecondsEnemy.Desc"><s>This is the average time, in seconds, at which enemy pawns will attempt to use their lasso to pull a target into melee range.
+If their execution is off cooldown and 'Enemies Can Perform Executions' is enabled, they will immediately execute the lassoed target too.</s><r>Это среднее время в секундах, в течение которого вражеские пешки попытаются использовать свое лассо, чтобы подтянуть цель в зону ближнего боя.
+Если время восстановления их казни истекло и включена функция «Враги могут выполнять казни», они также немедленно казнят и заарканенную цель.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.GrappleSpeed"><s>Lasso Travel Speed</s><r>Скорость перемещения Лассо</r></e>
+  <e k="K" key="AM.AMSettings.Settings.GrappleSpeed.Desc"><s>Adjusts the speed &lt;b&gt;(not cooldown)&lt;/b&gt; of lassos, making it faster or slower to ensnare and pull in an enemy.
+Higher values make the lasso faster.
+Affects all pawns.</s><r>Регулирует скорость &lt;b&gt;(без перезарядки)&lt;/b&gt; арканов, делая его быстрее или медленнее, чтобы заманить в ловушку и притянуть врага.
+Более высокие значения делают лассо быстрее.
+Влияет на все пешки.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.Header.Executions___Duels"><s>Executions &amp; Duels</s><r>Казни и дуэли</r></e>
+  <e k="K" key="AM.AMSettings.Settings.Header.General"><s>General</s><r>Общий</r></e>
+  <e k="K" key="AM.AMSettings.Settings.Header.Lasso"><s>Lasso</s><r>Лассо</r></e>
+  <e k="K" key="AM.AMSettings.Settings.Header.Other"><s>Other</s><r>Другой</r></e>
+  <e k="K" key="AM.AMSettings.Settings.Header.Performance"><s>Performance</s><r>Производительность</r></e>
+  <e k="K" key="AM.AMSettings.Settings.Header.Visuals"><s>Visuals</s><r>Визуальные эффекты</r></e>
+  <e k="K" key="AM.AMSettings.Settings.LassoSpawnChance"><s>Lasso Commonality</s><r>Лассо Общность</r></e>
+  <e k="K" key="AM.AMSettings.Settings.LassoSpawnChance.Desc"><s>This is the % chance for any &lt;b&gt;melee fighter&lt;/b&gt; pawn to spawn with a lasso equipped.
+Set this to 0% to disable natural lasso generation on pawns.</s><r>Это процентный шанс для любой &lt;b&gt;бойца ближнего боя&lt;/b&gt; пешки появиться с экипированным лассо.
+Установите это значение на 0%, чтобы отключить естественное создание лассо на пешках.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.MaxDuelDuration"><s>Max Duel Duration</s><r>Максимальная продолжительность дуэли</r></e>
+  <e k="K" key="AM.AMSettings.Settings.MaxDuelDuration.Desc"><s>The maximum number of attacks in a duel. Just affects the duration of the animation, has no impact on the outcome of the duel.</s><r>Максимальное количество атак в дуэли. Просто влияет на продолжительность анимации, не влияет на исход дуэли.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.MaxFillPctForLasso"><s>Max Building Fill For Lasso Drag</s><r>Макс. заполнение здания для Lasso Drag</r></e>
+  <e k="K" key="AM.AMSettings.Settings.MaxFillPctForLasso.Desc"><s>The maximum 'fill' percentage of a building that a pawn can be dragged through by a lasso.
+Lower values mean that pawns can &lt;b&gt;not&lt;/b&gt; be dragged through/over partial cover such as sand bags or embrasures. A value of 100% means that the lasso can pull pawns though/over anything except completely solid walls and buildings.</s><r>Максимальный процент заполнения здания, через которое пешку можно протащить с помощью лассо.
+Более низкие значения означают, что пешек можно &lt;b&gt;не&lt;/b&gt; перетаскивать через/через частичное укрытие, такое как мешки с песком или амбразуры. Значение 100% означает, что лассо может тянуть пешек через что угодно, кроме полностью прочных стен и зданий.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.MaxLassoBodySize"><s>Max Pawn Size</s><r>Максимальный размер пешки</r></e>
+  <e k="K" key="AM.AMSettings.Settings.MaxLassoBodySize.Desc"><s>The maximum 'body size' that a pawn can have in order for it to be lassoed.
+For reference, here are some example body sizes:
+• Chicken: 0.3
+• Human: 1
+• Boomalope: 2
+• Warg: 3
+• Thrumbo: 4
+
+
+Set to zero to disable the body size limit.</s><r>Максимальный «размер тела», который может иметь пешка, чтобы ее можно было заарканить.
+Для справки, вот несколько примеров размеров тела:
+• Курица: 0,3
+• Человек: 1
+• Бумалоп: 2
+• Варг: 3
+• Трамбо: 4
+
+
+Установите значение 0, чтобы отключить ограничение размера тела.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.MaxLassoMass"><s>Max Pawn Mass</s><r>Макс. пешечная масса</r></e>
+  <e k="K" key="AM.AMSettings.Settings.MaxLassoMass.Desc"><s>The maximum mass that a pawn can have in order for it to be lassoed. The mass is measured in kilograms. You can check the mass of pawns in their Stat sheet.
+Set to zero to disable the mass limit.</s><r>Максимальная масса, которую может иметь пешка, чтобы ее можно было заарканить. Масса измеряется в килограммах. Вы можете проверить массу пешек в их таблице статистики.
+Установите ноль, чтобы отключить ограничение массы.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.MaxProcessingThreads"><s>Max Processing Threads</s><r>Максимальное количество потоков обработки</r></e>
+  <e k="K" key="AM.AMSettings.Settings.MaxProcessingThreads.Desc"><s>The maximum number of CPU threads to use when processing pawns for automatic executions &amp; lasso usage.
+If set to 0, the thread count is automatically determined based on your CPU, and if set to 1 then multi-threaded processing is disabled.
+Set to 1 if you experience error spam caused by a mod conflict, although it will decrease performance considerably.</s><r>Максимальное количество потоков ЦП, которое можно использовать при обработке пешек для автоматического выполнения и использования лассо.
+Если установлено значение 0, количество потоков определяется автоматически на основе вашего процессора, а если установлено значение 1, то многопоточная обработка отключается.
+Установите значение 1, если вы испытываете спам с ошибками, вызванный конфликтом модов, хотя это значительно снизит производительность.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.MeleeSkillExecCooldownFactor"><s>Amount Skill Affects Execution Cooldown</s><r>Величина навыка влияет на время восстановления выполнения</r></e>
+  <e k="K" key="AM.AMSettings.Settings.MeleeSkillExecCooldownFactor.Desc"><s>The amount that melee skill affects execution cooldown time.
+Higher melee skill means lower cooldown, changing this value increases or decreases the effect of melee skill.
+Set to 0% to disable melee skill as a factor.
+
+Note: only affects friendly pawns.</s><r>Степень влияния навыка ближнего боя на время восстановления выполнения.
+Более высокий навык ближнего боя означает меньшее время восстановления, изменение этого значения увеличивает или уменьшает эффект навыка ближнего боя.
+Установите значение 0%, чтобы отключить навык ближнего боя как фактор.
+
+Примечание: влияет только на дружественные пешки.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.MinDuelDuration"><s>Min Duel Duration</s><r>Минимальная продолжительность дуэли</r></e>
+  <e k="K" key="AM.AMSettings.Settings.MinDuelDuration.Desc"><s>The minimum number of attacks in a duel. Just affects the duration of the animation, has no impact on the outcome of the duel.</s><r>Минимальное количество атак в дуэли. Просто влияет на продолжительность анимации, не влияет на исход дуэли.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.MinManipulationToLasso"><s>Minimum Manipulation</s><r>Минимум манипуляций</r></e>
+  <e k="K" key="AM.AMSettings.Settings.MinManipulationToLasso.Desc"><s>The minimum Manipulation stat required to use a lasso.
+Affects all pawns.</s><r>Минимальный показатель Манипулирования, необходимый для использования лассо.
+Влияет на все пешки.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.MinMeleeSkillToLasso"><s>Minimum Melee Skill</s><r>Минимальный навык ближнего боя</r></e>
+  <e k="K" key="AM.AMSettings.Settings.MinMeleeSkillToLasso.Desc"><s>The minumum melee skill required to use a lasso.
+Affects all pawns.</s><r>Минимальный навык ближнего боя, необходимый для использования лассо.
+Влияет на все пешки.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.MoveAnimSpeedCoef"><s>Move Animation Speed</s><r>Скорость анимации перемещения</r></e>
+  <e k="K" key="AM.AMSettings.Settings.MoveAnimSpeedCoef.Desc"><s>Changes the speed of the movement animations.
+Higher values increase the speed. This is just a visual change, it obviously doesn't change the pawn's movement speed.</s><r>Изменяет скорость анимации движения.
+Более высокие значения увеличивают скорость. Это всего лишь визуальное изменение, оно явно не меняет скорость движения пешки.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.MultithreadedMatrixCalculations"><s>Multithreaded Matrix Calculations</s><r>Многопоточные матричные вычисления</r></e>
+  <e k="K" key="AM.AMSettings.Settings.MultithreadedMatrixCalculations.Desc"><s>When enabled, multiple CPU threads are used to calculate complex matrix transformation needed for animations.
+The number of threads is given by the Max Processing Threads setting.</s><r>Если этот параметр включен, несколько потоков ЦП используются для расчета сложного матричного преобразования, необходимого для анимации.
+Количество потоков задается настройкой «Максимальное количество потоков обработки».</r></e>
+  <e k="K" key="AM.AMSettings.Settings.NormalDist"><s>Duel Normal Distribution</s><r>Дуэль нормального распределения</r></e>
+  <e k="K" key="AM.AMSettings.Settings.NormalDist.Desc"><s>Higher values make duel outcomes less dependent on duel ability and more on randomness, lower values make the outcome more dependent on duel ability and less on randomness.
+
+Technical: This is the standard deviation used in the duel outcome normal distribution curve.</s><r>Более высокие значения делают исход дуэли менее зависимым от дуэльных способностей и в большей степени от случайности, более низкие значения делают результат более зависимым от дуэльных способностей и меньше от случайности.
+
+Технический: это стандартное отклонение, используемое в кривой нормального распределения результатов дуэли.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.OffscreenCulling"><s>Offscreen Culling</s><r>Закадровый отбор</r></e>
+  <e k="K" key="AM.AMSettings.Settings.OffscreenCulling.Desc"><s>When enabled, offscreen animations are not drawn to save time and increase FPS.
+This option is only here in case there are unexpected bugs related to this culling.</s><r>Если этот параметр включен, закадровая анимация не прорисовывается для экономии времени и увеличения FPS.
+Эта опция доступна только в случае возникновения непредвиденных ошибок, связанных с этой отсечкой.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.ScanTickInterval"><s>Scan Tick Interval</s><r>Интервал сканирования тактов</r></e>
+  <e k="K" key="AM.AMSettings.Settings.ScanTickInterval.Desc"><s>The number of ticks between scanning all pawns on the map for automatic execution/duel/lasso opportunities.
+Higher values can increase FPS at the cost of less responsiveness.</s><r>Количество тиков между сканированием всех пешек на карте для возможности автоматического исполнения/дуэли/лассо.
+Более высокие значения могут увеличить FPS за счет меньшей отзывчивости.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.SendStatistics"><s>Send Anonymous Patch Statistics</s><r>Отправка анонимной статистики обновлений</r></e>
+  <e k="K" key="AM.AMSettings.Settings.SendStatistics.Desc"><s>When a mod is missing a patch (that allows the melee weapons to do animations), the ID of said mod is anonymously logged to let this mod's author know that a patch is needed. The &lt;b&gt;only&lt;/b&gt; information logged is: mod ID, mod name, weapon count.
+You can opt out of this functionality by disabling this option.
+Note: logging does not occur the first time you run the game with this mod.</s><r>Если в моде отсутствует патч (который позволяет оружию ближнего боя выполнять анимацию), идентификатор указанного мода анонимно регистрируется, чтобы автор этого мода знал, что патч необходим. Зарегистрированная &lt;b&gt;только&lt;/b&gt; информация: идентификатор мода, название мода, количество оружия.
+Вы можете отказаться от этой функции, отключив эту опцию.
+Примечание: регистрация не происходит при первом запуске игры с этим модом.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.ShowExecutionMotes"><s>Show Execution Outcome Text</s><r>Показать текст результата выполнения</r></e>
+  <e k="K" key="AM.AMSettings.Settings.ShowExecutionMotes.Desc"><s>Enables or disables the text popup that shows the outcome of an execution (i.e. injure, down or kill) when an execution animation plays.</s><r>Включает или отключает всплывающее текстовое окно, показывающее результат выполнения (т. е. ранить, сбить с ног или убить) при воспроизведении анимации выполнения.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.ShowHands"><s>Show Hands</s><r>Показать руки</r></e>
+  <e k="K" key="AM.AMSettings.Settings.ShowHands.Desc"><s>Should pawn hands be displayed holding melee weapons?</s><r>Следует ли показывать руки пешек с оружием ближнего боя?</r></e>
+  <e k="K" key="AM.AMSettings.Settings.SpeedUpAttackAnims"><s>Increase Animation Speed When Attacks Are Fast</s><r>Увеличьте скорость анимации при быстрых атаках</r></e>
+  <e k="K" key="AM.AMSettings.Settings.SpeedUpAttackAnims.Desc"><s>If enabled, the speed of melee attack animations will be automatically increased to match the pawn's melee speed.
+If false, the attack animation speed will never change however the animation may be interrupted by the next attack animation starting before the last one ended.
+This is a purely visual change and does not affect combat.</s><r>Если этот параметр включен, скорость анимации атаки в ближнем бою будет автоматически увеличена в соответствии со скоростью ближнего боя пешки.
+Если установлено значение false, скорость анимации атаки никогда не изменится, однако анимация может быть прервана следующей анимацией атаки, начинающейся до того, как закончилась предыдущая.
+Это чисто визуальное изменение, не влияющее на бой.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.TrailColor"><s>Weapon Trail Color</s><r>Цвет следа оружия</r></e>
+  <e k="K" key="AM.AMSettings.Settings.TrailColor.Desc"><s>The base color of weapon trails. If you set the alpha to 0, trails will be disabled.</s><r>Базовый цвет следов оружия. Если вы установите альфу на 0, следы будут отключены.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.TrailLengthScale"><s>Weapon Trail Length</s><r>Длина следа оружия</r></e>
+  <e k="K" key="AM.AMSettings.Settings.TrailLengthScale.Desc"><s>A multiplier on the length of weapon trails. If 0%, trails are disabled.</s><r>Множитель длины следов оружия. Если 0%, маршруты отключены.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.WarnOfFriendlyExecution"><s>Show Warning Before Executing Friendly</s><r>Показывать предупреждение перед выполнением Friendly</r></e>
+  <e k="K" key="AM.AMSettings.Settings.WarnOfFriendlyExecution.Desc"><s>Prevents you from accidentally executing a friendly pawn by requiring you to hold the [Shift] key when selecting a friendly pawn for execution.</s><r>Предотвращает случайное казнь дружественной пешки, требуя удерживать клавишу [Shift] при выборе дружественной пешки для казни.</r></e>
+  <e k="K" key="AM.AMSettings.Settings.animSettings"><s>Individual Animation Settings</s><r>Индивидуальные настройки анимации</r></e>
+  <e k="K" key="AM.Animation"><s>Animation</s><r>Анимация</r></e>
+  <e k="K" key="AM.Error.Duel.Dead"><s>{Pawn} is dead</s><r>{Pawn} мертв</r></e>
+  <e k="K" key="AM.Error.Duel.Down"><s>{Pawn} is downed</s><r>{Pawn} сбит</r></e>
+  <e k="K" key="AM.Error.Duel.Internal"><s>Int.Error: {Error}</s><r>Внутренняя ошибка: {Error}</r></e>
+  <e k="K" key="AM.Error.Duel.MissingWeapon"><s>{Pawn} does not have a valid melee weapon</s><r>{Pawn} не имеет действующего оружия ближнего боя</r></e>
+  <e k="K" key="AM.Error.Duel.NoAnim"><s>The weapon(s) these pawns are carrying cannot be used to duel with.</s><r>Оружие(а), которое носят эти пешки, нельзя использовать в дуэли.</r></e>
+  <e k="K" key="AM.Error.Duel.NoAnim.Short"><s>These melee weapons cannot be used to duel</s><r>Это оружие ближнего боя нельзя использовать в дуэлях.</r></e>
+  <e k="K" key="AM.Error.Duel.NoPath"><s>{0} cannot reach {1} to start a duel</s><r>{0} не может достичь {1}, чтобы начать дуэль</r></e>
+  <e k="K" key="AM.Error.Duel.NotSpawned"><s>{Pawn} cannot be dueled right now</s><r>С {Pawn} сейчас нельзя драться на дуэли</r></e>
+  <e k="K" key="AM.Error.Duel.NotSpawned.Short"><s>{Pawn} is not available</s><r>{Pawn} недоступен</r></e>
+  <e k="K" key="AM.Error.Duel.OnCooldown"><s>{0}'s duel is on cooldown</s><r>Дуэль {0} находится на перезарядке</r></e>
+  <e k="K" key="AM.Error.Duel.WaitedTooLong"><s>{0} got tired of waiting for {1} to arrive to their duel, and called it off.</s><r>{0} устал ждать, пока {1} прибудет на дуэль, и отменил ее.</r></e>
+  <e k="K" key="AM.Error.Exec.BadFists"><s>{Exec} use their fists for execution: {Additional}.</s><r>{Exec} используют для казни кулаки: {Additional}.</r></e>
+  <e k="K" key="AM.Error.Exec.BadFists.Short"><s>Cannot use their fists for execution</s><r>Не может использовать кулаки для казни.</r></e>
+  <e k="K" key="AM.Error.Exec.BadRace"><s>{Target} is not a valid target.</s><r>{Target} не является допустимой целью.</r></e>
+  <e k="K" key="AM.Error.Exec.BadRace.Short"><s>{Target} is not a valid target</s><r>{Target} не является допустимой целью</r></e>
+  <e k="K" key="AM.Error.Exec.CannotFist"><s>{Exec} has no weapon and cannot use their fists: {Additional}</s><r>{Exec} не имеет оружия и не может использовать кулаки: {Additional}</r></e>
+  <e k="K" key="AM.Error.Exec.CannotFist.Short"><s>{Exec} cannot use their fists</s><r>{Exec} не могут использовать кулаки</r></e>
+  <e k="K" key="AM.Error.Exec.Cooldown"><s>{Exec}'s execution is on cooldown</s><r>Казнь {Exec} находится на перезарядке.</r></e>
+  <e k="K" key="AM.Error.Exec.Cooldown.Short"><s>Execution on cooldown</s><r>Казнь по кулдауну</r></e>
+  <e k="K" key="AM.Error.Exec.Dead"><s>{Exec} is dead</s><r>{Exec} мертв</r></e>
+  <e k="K" key="AM.Error.Exec.DeadTarget"><s>{Target} is dead</s><r>{Target} мертв</r></e>
+  <e k="K" key="AM.Error.Exec.Downed"><s>{Exec} is downed</s><r>{Exec} сбит</r></e>
+  <e k="K" key="AM.Error.Exec.DownedTarget"><s>{Target} is downed. Downed pawns cannot be executed.</s><r>{Target} сбит. Сбитые пешки не могут быть казнены.</r></e>
+  <e k="K" key="AM.Error.Exec.DownedTarget.Short"><s>{Target} is downed</s><r>{Target} сбит</r></e>
+  <e k="K" key="AM.Error.Exec.FloatMenu"><s>Cannot execute: {0}</s><r>Невозможно выполнить: {0}</r></e>
+  <e k="K" key="AM.Error.Exec.InAnimation"><s>{Target} cannot be executed right now</s><r>{Target} невозможно выполнить прямо сейчас</r></e>
+  <e k="K" key="AM.Error.Exec.Internal"><s>Int.Error: {Error}</s><r>Внутренняя ошибка: {Error}</r></e>
+  <e k="K" key="AM.Error.Exec.NoAnims"><s>{Exec} cannot perform any execution animations using their {Weapon}.
+This is probably due to a lack of melee skill or because all animations are disabled in the mod settings.</s><r>{Exec} не может выполнять какие-либо анимации выполнения, используя свои {Weapon}.
+ Вероятно, это связано с отсутствием навыков ближнего боя или с тем, что все анимации отключены в настройках мода.</r></e>
+  <e k="K" key="AM.Error.Exec.NoAnims.Short"><s>No animations available</s><r>Нет доступных анимаций</r></e>
+  <e k="K" key="AM.Error.Exec.NoPath"><s>{Exec} cannot reach {Target} by walking, and their lasso is unavailable or unusable.</s><r>{Exec} не может добраться до {Target} пешком, а их аркан недоступен или непригоден для использования.</r></e>
+  <e k="K" key="AM.Error.Exec.NoPath.Short"><s>No path to target</s><r>Нет пути к цели</r></e>
+  <e k="K" key="AM.Error.Exec.NoSpace"><s>There is not enough space to perform any execution animation here</s><r>Здесь недостаточно места для выполнения анимации выполнения.</r></e>
+  <e k="K" key="AM.Error.Exec.NoSpace.Short"><s>Not enough space</s><r>Недостаточно места</r></e>
+  <e k="K" key="AM.Error.Exec.NoWalk"><s>{Target} is not adjacent to {Exec}, and cannot be lassoed or walked to.</s><r>{Target} не соседствует с {Exec}, и его нельзя заарканить или пройти к нему.</r></e>
+  <e k="K" key="AM.Error.Exec.NoWalk.Short"><s>{Target} cannot be reached</s><r>{Target} невозможно достичь</r></e>
+  <e k="K" key="AM.Error.Exec.NoWeapon"><s>{Exec} is not wielding a valid melee weapon</s><r>{Exec} не владеет действительным оружием ближнего боя</r></e>
+  <e k="K" key="AM.Error.Exec.NoWeapon.Short"><s>No melee weapon</s><r>Нет оружия ближнего боя</r></e>
+  <e k="K" key="AM.Error.Exec.SelfInAnimation"><s>{Exec} cannot execute anyone right now</s><r>{Exec} сейчас не может никого казнить</r></e>
+  <e k="K" key="AM.Error.Exec.Stunned"><s>{Exec} is stunned</s><r>{Exec} ошеломлен</r></e>
+  <e k="K" key="AM.Error.Grapple.AlreadyAtTarget"><s>{Target} is already in melee range</s><r>{Target} уже в ближнем бою</r></e>
+  <e k="K" key="AM.Error.Grapple.AlreadyTarget"><s>{Target} is already being lassoed</s><r>{Target} уже заарканили</r></e>
+  <e k="K" key="AM.Error.Grapple.AlreadyTarget.Short"><s>Already being lassoed</s><r>Уже заарканили</r></e>
+  <e k="K" key="AM.Error.Grapple.BadRace"><s>{Target} is not a valid lasso target.</s><r>{Target} не является допустимой целью лассо.</r></e>
+  <e k="K" key="AM.Error.Grapple.BadRace.Short"><s>{Target} is not a valid lasso target</s><r>{Target} не является допустимой целью лассо</r></e>
+  <e k="K" key="AM.Error.Grapple.Cooldown"><s>{Grappler}'s lasso is on cooldown</s><r>Лассо {Grappler} находится на перезарядке.</r></e>
+  <e k="K" key="AM.Error.Grapple.Cooldown.Short"><s>Lasso on cooldown</s><r>Лассо на перезарядке</r></e>
+  <e k="K" key="AM.Error.Grapple.Dead"><s>{Grappler} is dead</s><r>{Grappler} мертв</r></e>
+  <e k="K" key="AM.Error.Grapple.DeadTarget"><s>{Target} is dead</s><r>{Target} мертв</r></e>
+  <e k="K" key="AM.Error.Grapple.Downed"><s>{Grappler} is downed</s><r>{Grappler} сбит</r></e>
+  <e k="K" key="AM.Error.Grapple.FloatMenu"><s>Cannot lasso: {0}</s><r>Невозможно заарканить: {0}</r></e>
+  <e k="K" key="AM.Error.Grapple.InAnimation"><s>{Target} cannot be lassoed right now</s><r>{Target} сейчас нельзя заарканить</r></e>
+  <e k="K" key="AM.Error.Grapple.Internal"><s>Int.Error: {Error}</s><r>Внутренняя ошибка: {Error}</r></e>
+  <e k="K" key="AM.Error.Grapple.Manipulation"><s>{Grappler} does not have the required manipulation to use their lasso</s><r>{Grappler} не имеет необходимых манипуляций для использования своего лассо</r></e>
+  <e k="K" key="AM.Error.Grapple.Manipulation.Short"><s>Not enough manipulation</s><r>Недостаточно манипуляций</r></e>
+  <e k="K" key="AM.Error.Grapple.Mass"><s>{Target} is too heavy for {Grappler} to lasso</s><r>{Target} слишком тяжел, чтобы {Grappler} можно было заарканить</r></e>
+  <e k="K" key="AM.Error.Grapple.Mass.Short"><s>{Target} is too heavy</s><r>{Target} слишком тяжелый</r></e>
+  <e k="K" key="AM.Error.Grapple.MissingLOS"><s>No line of sight</s><r>Нет прямой видимости</r></e>
+  <e k="K" key="AM.Error.Grapple.NoDest"><s>There is no free spot around {Grappler} to drag {Target} to</s><r>Вокруг {Grappler} нет свободного места, куда можно было бы перетащить {Target}.</r></e>
+  <e k="K" key="AM.Error.Grapple.NoDest.Short"><s>No free spot around {Grappler}</s><r>Нет свободного места около {Grappler}</r></e>
+  <e k="K" key="AM.Error.Grapple.SelfInAnimation"><s>{Grappler} cannot lasso right now</s><r>{Grappler} сейчас не может заарканить</r></e>
+  <e k="K" key="AM.Error.Grapple.Size"><s>{Target} is too large for {Grappler} to lasso</s><r>{Target} слишком велико, чтобы {Grappler} можно было заарканить</r></e>
+  <e k="K" key="AM.Error.Grapple.Size.Short"><s>{Target} is too large</s><r>{Target} слишком большой</r></e>
+  <e k="K" key="AM.Error.Grapple.SkillIssue"><s>{Grappler} does not have the required melee skill ({MeleeSkill}) to use their lasso</s><r>{Grappler} не имеет необходимого навыка ближнего боя ({MeleeSkill}) для использования лассо.</r></e>
+  <e k="K" key="AM.Error.Grapple.SkillIssue.Short"><s>Not enough melee skill</s><r>Недостаточно навыков ближнего боя</r></e>
+  <e k="K" key="AM.Error.Grapple.Stunned"><s>{Grappler} is stunned</s><r>{Grappler} ошеломлен</r></e>
+  <e k="K" key="AM.Error.Grapple.TooFar"><s>{Target} is out of reach of {Grappler}'s lasso</s><r>{Target} находится вне досягаемости лассо {Grappler}</r></e>
+  <e k="K" key="AM.Error.Grapple.TooFar.Short"><s>Too far away</s><r>Слишком далеко</r></e>
+  <e k="K" key="AM.Exec.FloatMenu"><s>Execute {0}</s><r>Выполнить {0}</r></e>
+  <e k="K" key="AM.Exec.FloatMenu.Lasso"><s> (lasso)</s><r> (лассо)</r></e>
+  <e k="K" key="AM.Exec.FloatMenu.Tip"><s>Perform an execution animation on {1}.
+Possible outcomes based on weapon, melee skill, armor, mod settings etc:
+{2}</s><r>Выполните анимацию казни на {1}.
+Возможные результаты в зависимости от оружия, навыков ближнего боя, брони, настроек мода и т. д.:
+{2}</r></e>
+  <e k="K" key="AM.Exec.FloatMenu.Walk"><s> (walk to target)</s><r> (идти к цели)</r></e>
+  <e k="K" key="AM.ExecutionOutcome.Downed"><s>Downed</s><r>Сбитый</r></e>
+  <e k="K" key="AM.ExecutionOutcome.Failed"><s>Failed!</s><r>Неуспешный!</r></e>
+  <e k="K" key="AM.ExecutionOutcome.Injured"><s>Injured</s><r>Раненый</r></e>
+  <e k="K" key="AM.ExecutionOutcome.Killed"><s>Killed</s><r>Убит</r></e>
+  <e k="K" key="AM.Gizmos.DuelSpot.StartDuel.CannotInterrupt"><s>{0}'s current job cannot be interrupted</s><r>Текущая работа {0} не может быть прервана</r></e>
+  <e k="K" key="AM.Gizmos.DuelSpot.StartDuel.Desc"><s>Manually start a duel between two friendly pawns with valid weapons. Prisoners cannot participate.
+
+This is a friendly duel, nobody will be hurt.</s><r>Вручную начните дуэль между двумя дружественными пешками с действующим оружием. Заключенные не могут участвовать.
+
+Это дружеская дуэль, никто не пострадает.</r></e>
+  <e k="K" key="AM.Gizmos.DuelSpot.StartDuel.FailedToStart"><s>An unexpected error caused the duel to not be able to be started. Please send logs to the mod author.</s><r>Неожиданная ошибка привела к тому, что дуэль не удалось начать. Пожалуйста, отправьте логи автору мода.</r></e>
+  <e k="K" key="AM.Gizmos.DuelSpot.StartDuel.FloatMenuTitle"><s>Select a pawn to duel</s><r>Выберите пешку для дуэли</r></e>
+  <e k="K" key="AM.Gizmos.DuelSpot.StartDuel.Forbidden"><s>The duel spot is forbidden</s><r>Место для дуэли запрещено.</r></e>
+  <e k="K" key="AM.Gizmos.DuelSpot.StartDuel.InUse"><s>The duel spot is currently in use</s><r>Место для дуэли в настоящее время используется.</r></e>
+  <e k="K" key="AM.Gizmos.DuelSpot.StartDuel.IncompatWeapon"><s>{0}'s weapon cannot be used to duel {1}, their weapons are incompatible (must be long weapons, not short)</s><r>Оружие {0} нельзя использовать в дуэли с {1}, их оружие несовместимо (должно быть длинное оружие, а не короткое)</r></e>
+  <e k="K" key="AM.Gizmos.DuelSpot.StartDuel.Label"><s>Start duel</s><r>Начать дуэль</r></e>
+  <e k="K" key="AM.Gizmos.DuelSpot.StartDuel.MissingWeapon"><s>{0} does not have a valid melee weapon (must be long weapon, not short)</s><r>{0} не имеет действующего оружия ближнего боя (должно быть длинное оружие, а не короткое)</r></e>
+  <e k="K" key="AM.Gizmos.DuelSpot.StartDuel.NoPath"><s>{0} cannot reach the duel spot</s><r>{0} не может добраться до места дуэли</r></e>
+  <e k="K" key="AM.Gizmos.DuelSpot.StartDuel.OnCooldown"><s>{0} cannot do a friendly duel for another {2} seconds</s><r>{0} не может провести дружескую дуэль ещё {2} секунды.</r></e>
+  <e k="K" key="AM.Gizmos.DuelSpot.ToggleVisibility"><s>Toggle visibility</s><r>Переключить видимость</r></e>
+  <e k="K" key="AM.Gizmos.DuelSpot.ToggleVisibility.Desc"><s>Makes this duel spot invisible, or shows it again.
+Warning: it really is invisible! Don't forget where you put it down or you may struggle to find it again...</s><r>Делает это место дуэли невидимым или показывает его снова.
+Внимание: оно действительно невидимо! Не забывайте, куда вы его положили, иначе вам будет сложно найти его снова...</r></e>
+  <e k="K" key="AM.Grapple.FloatMenu"><s>Lasso {0}</s><r>Лассо {0}</r></e>
+  <e k="K" key="AM.Grapple.FloatMenu.Tip"><s>Use a lasso to pull {1} towards {0}.
+This does not harm {1}.</s><r>Используйте лассо, чтобы потянуть {1} к {0}.
+Это не повредит {1}.</r></e>
+  <e k="K" key="AM.Grapple.FloatMenu.TipEnemy"><s>Use a lasso to pull {1} towards {0}.
+This does not harm {1}, but it does put them into melee/execution range.</s><r>Используйте лассо, чтобы потянуть {1} к {0}.
+. Это не повредит {1}, но поставит их в зону ближнего боя/ казни.</r></e>
+  <e k="K" key="AM.LoadingText"><s>Loading Melee Animation</s><r>Загрузка анимации ближнего боя</r></e>
+  <e k="K" key="AM.ModTitle"><s>Epicguru's Melee Animation</s><r>Анимация ближнего боя Эпигуру</r></e>
+  <e k="K" key="AM.Patch.OptDisabled"><s>The invisibilty optimization has been disabled by the Melee Animation mod due to visual bugs.</s><r>Оптимизация невидимости отключена модом Melee Animation из-за визуальных ошибок.</r></e>
+  <e k="K" key="AM.ProbReport.Down"><s>Down</s><r>Вниз</r></e>
+  <e k="K" key="AM.ProbReport.Fail"><s>Fail</s><r>Неудача</r></e>
+  <e k="K" key="AM.ProbReport.Injure"><s>Injure</s><r>Ранить</r></e>
+  <e k="K" key="AM.ProbReport.Kill"><s>Kill</s><r>Убийство</r></e>
+  <e k="K" key="AM.Skill.AlreadyActive"><s>The skill is already active.</s><r>Навык уже активен.</r></e>
+  <e k="K" key="AM.Skill.BadTargetState"><s>Target invalid state.</s><r>Target недопустимое состояние.</r></e>
+  <e k="K" key="AM.Skill.BadWeapon"><s>Missing required weapon.</s><r>Отсутствует необходимое оружие.</r></e>
+  <e k="K" key="AM.Skill.CantCast"><s>Can't cast {0}: {1}</s><r>Невозможно произнести {0}: {1}</r></e>
+  <e k="K" key="AM.Skill.CantCastGeneric"><s>Can't cast {0} on {1} right now.</s><r>Сейчас невозможно использовать {0} на {1}.</r></e>
+  <e k="K" key="AM.Skill.Cast"><s>Cast unique skill '{0}' on {1}</s><r>Примените уникальный навык «{0}» на {1}.</r></e>
+  <e k="K" key="AM.Skill.Gilgamesh.LowMelee"><s>Melee level {0} is below required level {1}.</s><r>Уровень ближнего боя {0} ниже требуемого уровня {1}.</r></e>
+  <e k="K" key="AM.Skill.Gilgamesh.LowPsy"><s>Psylink level {0} is below required level {1}.</s><r>Уровень Psylink {0} ниже требуемого уровня {1}.</r></e>
+  <e k="K" key="AM.Skill.OnCooldown"><s>On cooldown for {0} seconds.</s><r>Время восстановления {0} секунд.</r></e>
+  <e k="K" key="AM.Skill.OnCooldownExec"><s>On cooldown for {0} seconds (because of recent execution).</s><r>Время восстановления составляет {0} секунд (из-за недавнего выполнения).</r></e>
+  <e k="K" key="AM.Stats.BaseValue"><s>Base Value: {0}</s><r>Базовое значение: {0}</r></e>
+  <e k="K" key="AM.Stats.ConsciousnessOffset"><s>Consciousness ({0}) Effect: {1}</s><r>Сознание ({0}) Эффект: {1}</r></e>
+  <e k="K" key="AM.Stats.DuelAbility"><s>duel ability</s><r>способность к дуэли</r></e>
+  <e k="K" key="AM.Stats.EnemyCoef"><s>Hostile Pawn Multiplier (from mod settings): x{0}</s><r>Множитель враждебной пешки (из настроек мода): x{0}</r></e>
+  <e k="K" key="AM.Stats.FriendlyCoef"><s>Friendly Pawn Multiplier (from mod settings): x{0}</s><r>Множитель дружественной пешки (из настроек мода): x{0}</r></e>
+  <e k="K" key="AM.Stats.FriendlyPawnBonus"><s>Friendly Pawn Bonus (from mod settings): {0}</s><r>Бонус дружественной пешки (из настроек мода): {0}</r></e>
+  <e k="K" key="AM.Stats.GlobalCoef"><s>Global {0} Multiplier (from mod settings): {1}</s><r>Глобальный множитель {0} (из настроек мода): {1}</r></e>
+  <e k="K" key="AM.Stats.Lethality"><s>lethality</s><r>летальность</r></e>
+  <e k="K" key="AM.Stats.ManipulationOffset"><s>Manipulation ({0}) Effect: {1}</s><r>Эффект манипуляции ({0}): {1}</r></e>
+  <e k="K" key="AM.Stats.MeleeSkillOffset"><s>Melee Skill ({0}) Effect: {1}</s><r>Эффект навыка ближнего боя ({0}): {1}</r></e>
+  <e k="K" key="AM.Stats.NoWeapon"><s>No Melee Weapon Equipped: {0}</s><r>Нет оружия ближнего боя: {0}</r></e>
+  <e k="K" key="AM.Stats.SkillCoef"><s>Melee Skill Multiplier: x{0}</s><r>Множитель навыка ближнего боя: x{0}</r></e>
+  <e k="K" key="AM.Stats.WeaponDPSCoef"><s>Weapon DPS ({0}) Effect: {1}</s><r>Урон оружия ({0}) Эффект: {1}</r></e>
+  <e k="K" key="AM.Stats.WeaponDamageTypeOffset"><s>Weapon Damage Type ({0}) Effect: {1}</s><r>Тип урона от оружия ({0}) Эффект: {1}</r></e>
+  <e k="K" key="SimpleSettings.ClickToReset"><s>Right-click to set an option back to its default value.</s><r>Щелкните правой кнопкой мыши, чтобы вернуть параметру значение по умолчанию.</r></e>
+  <e k="K" key="SimpleSettings.Preset"><s>Preset:</s><r>Предустановка:</r></e>
+  <e k="K" key="SimpleSettings.Preset.Custom"><s>Custom</s><r>Обычай</r></e>
+</AutoTranslateCache>
