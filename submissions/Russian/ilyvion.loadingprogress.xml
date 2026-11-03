@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="ilyvion.loadingprogress" name="Loading Progress" language="Russian" version="1">
+  <e k="K" key="LoadingProgress.AutoSaveStartupImpactReport"><s> - Automatically save startup impact report</s><r> - Автоматически сохранять отчет о влиянии запуска</r></e>
+  <e k="K" key="LoadingProgress.AutoSaveStartupImpactReport.Tip"><s>When enabled, the startup impact report is automatically saved to StartupImpactData.xml in your RimWorld save data folder after every game startup, without having to open the startup impact window and press Save.
+
+This lets external tools, such as the RimSort mod manager, show each mod's startup load time.</s><r>Если этот параметр включен, отчет о влиянии при запуске автоматически сохраняется в StartupImpactData.xml в папке с данными сохранения RimWorld после каждого запуска игры, без необходимости открывать окно влияния при запуске и нажимать «Сохранить».
+
+Это позволяет внешним инструментам, таким как менеджер модов RimSort, отображать время загрузки каждого мода при запуске.</r></e>
+  <e k="K" key="LoadingProgress.Bottom"><s>Bottom</s><r>Нижний</r></e>
+  <e k="K" key="LoadingProgress.CachingTextures"><s>This game launch may take longer as the game is caching new textures. Subsequent launches will be faster.</s><r>Запуск игры может занять больше времени, поскольку игра кэширует новые текстуры. Последующие запуски будут быстрее.</r></e>
+  <e k="K" key="LoadingProgress.CallAll"><s>Loading progress: Calling all static constructors</s><r>Ход загрузки: вызов всех статических конструкторов</r></e>
+  <e k="K" key="LoadingProgress.ClearEstimatesOnModListChange"><s>Clear estimates when mod list changes</s><r>Очистить оценки при изменении списка модов</r></e>
+  <e k="K" key="LoadingProgress.ClearEstimatesOnModListChange.Tip"><s>When enabled, the stored load time history is cleared whenever the mod list changes. This ensures that the estimate always reflects your current mod setup.
+
+Disable this if you want the estimate to persist across mod list changes, for example if you frequently add or remove mods and still want a rough baseline.</s><r>Если этот параметр включен, сохраненная история времени загрузки очищается при каждом изменении списка модов. Это гарантирует, что оценка всегда отражает текущую настройку мода.
+
+Отключите это, если вы хотите, чтобы оценка сохранялась при изменении списка модов, например, если вы часто добавляете или удаляете моды и все еще хотите получить приблизительную базовую информацию.</r></e>
+  <e k="K" key="LoadingProgress.Custom"><s>Custom</s><r>Обычай</r></e>
+  <e k="K" key="LoadingProgress.CustomPlacementPreview.Tip"><s>Drag this window to where you want the loading window to appear, then close it. It can't be dragged off-screen, and its position is kept relative to your screen size, so it stays in the same relative spot if you change resolution.</s><r>Перетащите это окно туда, где вы хотите, чтобы появилось окно загрузки, затем закройте его. Его нельзя перетащить за пределы экрана, его положение сохраняется относительно размера экрана, поэтому оно остается в том же относительном месте, если вы меняете разрешение.</r></e>
+  <e k="K" key="LoadingProgress.EditCustomPlacement"><s>Set custom position...</s><r>Установить пользовательскую позицию...</r></e>
+  <e k="K" key="LoadingProgress.EstimateBasedOn"><s>estimate based on {0} previous game launches</s><r>оценка основана на {0} предыдущих запусках игр</r></e>
+  <e k="K" key="LoadingProgress.EstimateBasedOnSingle"><s>estimate based on previous game launch</s><r>оценка на основе предыдущего запуска игры</r></e>
+  <e k="K" key="LoadingProgress.ExecuteToExecuteWhenFinished"><s>Loading progress: Executing delayed initialization tasks</s><r>Ход загрузки: выполнение задач отложенной инициализации</r></e>
+  <e k="K" key="LoadingProgress.FasterGameLoadingEarlyModContentLoading"><s>Loading progress — Faster Game Loading Early Mod Content Loading</s><r>Ход загрузки — более быстрая загрузка игры. Ранняя загрузка контента модов.</r></e>
+  <e k="K" key="LoadingProgress.FasterGameLoadingEarlyModContentLoading.ForMod"><s>Faster Game Loading is early loading content for &lt;i&gt;{0}&lt;/i&gt;...</s><r>Faster Game Loading — это ранняя загрузка контента для &lt;i&gt;{0}&lt;/i&gt;...</r></e>
+  <e k="K" key="LoadingProgress.FinishingUp"><s>Finishing up</s><r>Завершение</r></e>
+  <e k="K" key="LoadingProgress.ForceImmediateRepaints"><s>Repaint the loading window immediately on stage changes and content reload steps</s><r>Перерисовывайте окно загрузки сразу при изменении сцены и этапах перезагрузки контента.</r></e>
+  <e k="K" key="LoadingProgress.ForceImmediateRepaints.Tip"><s>When enabled, the loading window is repainted as soon as the loading stage changes and before each step of reloading a mod's content, so the label shown always matches the step that is actually running, even when that step is slow.
+
+This can slow down loading, since it makes the screen repaint a lot more often while assets are being loaded.
+
+Requires a restart to take effect.</s><r>Если этот параметр включен, окно загрузки перерисовывается при изменении этапа загрузки и перед каждым шагом перезагрузки содержимого мода, поэтому отображаемая метка всегда соответствует шагу, который фактически выполняется, даже если этот шаг медленный.
+
+Это может замедлить загрузку, поскольку во время загрузки ресурсов экран перерисовывается намного чаще.
+
+Для вступления в силу требуется перезагрузка.</r></e>
+  <e k="K" key="LoadingProgress.InGame.EncounterMapGeneration"><s>Generating map</s><r>Создание карты</r></e>
+  <e k="K" key="LoadingProgress.InGame.EncounterMapGenerationStatic"><s>Generating map</s><r>Создание карты</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.ApplyingMapFeatures"><s>Applying special map features</s><r>Применение специальных функций карты</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.ApplyingScenarioSettings"><s>Applying scenario settings</s><r>Применение настроек сценария</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.CalculatingWealth"><s>Calculating colony wealth</s><r>Подсчет богатства колонии</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.CheckingHomeAreaMess"><s>Checking for mess in home area</s><r>Проверка беспорядка в домашней зоне</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.ChoosingStartingSpot"><s>Choosing your starting spot</s><r>Выбор стартовой точки</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.CombiningItems"><s>Combining loaded items</s><r>Объединение загруженных элементов</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.CountingResources"><s>Counting resources</s><r>Подсчет ресурсов</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.DrawingClouds"><s>Drawing clouds</s><r>Рисуем облака</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.DrawingHills"><s>Drawing hills</s><r>Рисование холмов</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.DrawingLandmarks"><s>Drawing landmarks</s><r>Рисование ориентиров</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.DrawingPlanetGlow"><s>Drawing planet glow</s><r>Рисуем свечение планеты</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.DrawingPollution"><s>Drawing pollution</s><r>Рисование загрязнений</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.DrawingRivers"><s>Drawing rivers</s><r>Рисуем реки</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.DrawingRoads"><s>Drawing roads</s><r>Рисование дорог</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.DrawingStars"><s>Drawing stars</s><r>Рисуем звезды</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.DrawingSunlight"><s>Drawing sunlight</s><r>Рисование солнечного света</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.DrawingTerrain"><s>Drawing terrain</s><r>Рисование местности</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.DrawingUnexploredAreas"><s>Drawing unexplored areas</s><r>Рисуем неизведанные области</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.DrawingWorldObjects"><s>Drawing world objects</s><r>Рисование объектов мира</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.FinalizingMapLayout"><s>Finalizing map layout</s><r>Завершение макета карты</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.FinalizingMaps"><s>Finalizing maps</s><r>Доработка карт</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.FinishingSaveData"><s>Finishing up save data</s><r>Завершение сохранения данных</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.FinishingUp"><s>Finishing up</s><r>Завершение</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.GeneratingWorld"><s>Generating world</s><r>Генерирующий мир</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.GrowingPoluxTrees"><s>Growing polux trees</s><r>Выращивание деревьев полукса</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.InitializingMapObjects"><s>Initializing map objects</s><r>Инициализация объектов карты</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.InitializingObjects"><s>Initializing loaded objects</s><r>Инициализация загруженных объектов</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.LoadingItems"><s>Loading items</s><r>Загрузка предметов</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.MappingOutRooms"><s>Mapping out rooms</s><r>Планирование комнат</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.MarkingCurrentTile"><s>Marking your current tile</s><r>Маркировка текущей плитки</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.MarkingNearestTile"><s>Marking the nearest tile</s><r>Маркировка ближайшей плитки</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.MarkingSelectedTile"><s>Marking the selected tile</s><r>Маркировка выбранной плитки</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.MarkingSettlementTile"><s>Marking the settlement tile</s><r>Разметка тайла поселения</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.MarkingTileUnderCursor"><s>Marking the tile under your cursor</s><r>Отметка плитки под курсором</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.PlacingAncientBuildings"><s>Placing ancient buildings</s><r>Размещение древних построек</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.PlacingAncientFences"><s>Placing ancient fences</s><r>Ставим древние заборы</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.PlacingAncientLandingPad"><s>Placing an ancient landing pad</s><r>Размещение древней посадочной площадки</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.PlacingAncientMechanoids"><s>Placing ancient mechanoids</s><r>Размещение древних механоидов</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.PlacingAncientPipelines"><s>Placing ancient pipelines</s><r>Размещение древних трубопроводов</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.PlacingAncientRoads"><s>Placing ancient roads</s><r>Размещение древних дорог</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.PlacingAncientSites"><s>Placing ancient sites</s><r>Размещение древних памятников</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.PlacingAncientTurrets"><s>Placing ancient turrets</s><r>Размещение древних турелей</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.PlacingAnimaTrees"><s>Placing anima trees</s><r>Размещение деревьев анимы</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.PlacingExostriderRemains"><s>Placing ancient exostrider remains</s><r>Размещение останков древних экзостридеров</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.PlacingInsectHives"><s>Placing insect hives</s><r>Размещение ульев с насекомыми</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.PlacingMechanoidRemains"><s>Placing mechanoid remains</s><r>Размещение останков механоида</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.PlacingRockChunks"><s>Placing rock chunks</s><r>Размещение кусков камня</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.PlacingRockFormations"><s>Placing rock formations</s><r>Размещение скальных образований</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.PlacingRuins"><s>Placing ruins</s><r>Размещение руин</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.PlacingShrines"><s>Placing shrines</s><r>Размещение святынь</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.PlacingSteamGeysers"><s>Placing steam geysers</s><r>Размещение паровых гейзеров</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.PlacingVoidMonolith"><s>Placing the void monolith</s><r>Размещение пустотного монолита</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.ReadingSaveFile"><s>Reading save file</s><r>Чтение файла сохранения</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.RedrawingMapChunk"><s>Redrawing map (chunk {0} of {1})</s><r>Перерисовка карты (кусок {0} из {1})</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.ResolvingReferences"><s>Resolving references</s><r>Разрешение ссылок</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.RunningMapComponents"><s>Running final map setup</s><r>Запускаем окончательную настройку карты</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.ScatteringAncientJunk"><s>Scattering ancient junk</s><r>Разбрасывание древнего хлама</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.ScatteringCaveDebris"><s>Scattering cave debris</s><r>Разбрасывание пещерных обломков</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.ScatteringPollutedJunk"><s>Scattering polluted junk</s><r>Разбрасывание загрязненного мусора</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.ScatteringRoadDebris"><s>Scattering road debris</s><r>Разбрасывание дорожного мусора</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.SettingUpFogOfWar"><s>Setting up fog of war</s><r>Настройка тумана войны</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.SettingUpMapGeneration"><s>Setting up map generation</s><r>Настройка генерации карты</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.SettingUpWorld"><s>Setting up world</s><r>Настройка мира</r></e>
+  <e k="K" key="LoadingProgress.InGame.Label.ShapingTerrain"><s>Shaping the terrain</s><r>Формирование местности</r></e>
+  <e k="K" key="LoadingProgress.InGame.NewGameMapGeneration"><s>Generating map</s><r>Создание карты</r></e>
+  <e k="K" key="LoadingProgress.InGame.Phase.EncounterMapGenerationStatic_Generating"><s>Generating map</s><r>Создание карты</r></e>
+  <e k="K" key="LoadingProgress.InGame.Phase.EncounterMapGeneration_Deferred"><s>Regenerating renderer</s><r>Регенерирующий рендерер</r></e>
+  <e k="K" key="LoadingProgress.InGame.Phase.EncounterMapGeneration_Finalize"><s>Finalizing map</s><r>Завершение карты</r></e>
+  <e k="K" key="LoadingProgress.InGame.Phase.EncounterMapGeneration_GenSteps"><s>Generating map</s><r>Создание карты</r></e>
+  <e k="K" key="LoadingProgress.InGame.Phase.EncounterMapGeneration_PostInit"><s>Finishing up</s><r>Завершение</r></e>
+  <e k="K" key="LoadingProgress.InGame.Phase.EncounterMapGeneration_SetUp"><s>Setting up map</s><r>Настройка карты</r></e>
+  <e k="K" key="LoadingProgress.InGame.Phase.EncounterMapGeneration_SpawningColonists"><s>Spawning colonists</s><r>Нерест колонистов</r></e>
+  <e k="K" key="LoadingProgress.InGame.Phase.NewGameMapGeneration_Deferred"><s>Regenerating renderer</s><r>Регенерирующий рендерер</r></e>
+  <e k="K" key="LoadingProgress.InGame.Phase.NewGameMapGeneration_Finalize"><s>Finalizing map</s><r>Завершение карты</r></e>
+  <e k="K" key="LoadingProgress.InGame.Phase.NewGameMapGeneration_GenSteps"><s>Generating map</s><r>Создание карты</r></e>
+  <e k="K" key="LoadingProgress.InGame.Phase.NewGameMapGeneration_LoadingScene"><s>Loading assets</s><r>Загрузка ресурсов</r></e>
+  <e k="K" key="LoadingProgress.InGame.Phase.NewGameMapGeneration_PostInit"><s>Finishing up</s><r>Завершение</r></e>
+  <e k="K" key="LoadingProgress.InGame.Phase.NewGameMapGeneration_SetUp"><s>Setting up map</s><r>Настройка карты</r></e>
+  <e k="K" key="LoadingProgress.InGame.Phase.PlanetRegeneration_RegeneratingLayers"><s>Regenerating layers</s><r>Регенерирующие слои</r></e>
+  <e k="K" key="LoadingProgress.InGame.Phase.SaveLoading_Deferred"><s>Regenerating renderer</s><r>Регенерирующий рендерер</r></e>
+  <e k="K" key="LoadingProgress.InGame.Phase.SaveLoading_Finishing"><s>Finishing up</s><r>Завершение</r></e>
+  <e k="K" key="LoadingProgress.InGame.Phase.SaveLoading_LoadingScene"><s>Loading assets</s><r>Загрузка ресурсов</r></e>
+  <e k="K" key="LoadingProgress.InGame.Phase.SaveLoading_Maps"><s>Loading maps</s><r>Загрузка карт</r></e>
+  <e k="K" key="LoadingProgress.InGame.Phase.SaveLoading_PostLoadInits"><s>Initializing game</s><r>Инициализация игры</r></e>
+  <e k="K" key="LoadingProgress.InGame.Phase.SaveLoading_ReadingFile"><s>Reading file</s><r>Чтение файла</r></e>
+  <e k="K" key="LoadingProgress.InGame.Phase.SaveLoading_ResolvingCrossReferences"><s>Resolving references</s><r>Разрешение ссылок</r></e>
+  <e k="K" key="LoadingProgress.InGame.Phase.SaveLoading_Spawning"><s>Spawning things</s><r>Нерест вещей</r></e>
+  <e k="K" key="LoadingProgress.InGame.Phase.SaveLoading_World"><s>Loading world</s><r>Загрузка мира</r></e>
+  <e k="K" key="LoadingProgress.InGame.Phase.WorldGeneration_Deferred"><s>Regenerating renderer</s><r>Регенерирующий рендерер</r></e>
+  <e k="K" key="LoadingProgress.InGame.Phase.WorldGeneration_LayerSteps"><s>Generating layers</s><r>Создание слоев</r></e>
+  <e k="K" key="LoadingProgress.InGame.Phase.WorldGeneration_SetupSteps"><s>Setting up</s><r>Настройка</r></e>
+  <e k="K" key="LoadingProgress.InGame.PlanetRegeneration"><s>Regenerating planet</s><r>Регенерирующая планета</r></e>
+  <e k="K" key="LoadingProgress.InGame.SaveLoading"><s>Loading game</s><r>Загрузка игры</r></e>
+  <e k="K" key="LoadingProgress.InGame.WorldGeneration"><s>Generating world</s><r>Генерирующий мир</r></e>
+  <e k="K" key="LoadingProgress.InGameExecuteToExecuteWhenFinished"><s>Loading progress: Regenerating renderer</s><r>Ход загрузки: Регенерация средства рендеринга</r></e>
+  <e k="K" key="LoadingProgress.KeepPinnedSessions"><s> - Keep pinned sessions past that limit</s><r> - Держите закрепленные сеансы за пределами этого предела.</r></e>
+  <e k="K" key="LoadingProgress.KeepPinnedSessions.Tip"><s>When enabled, a pinned session is never the one dropped when the limit is reached, and does not occupy one of the slots.
+
+Turn this off to have pinned sessions age out like any other, with the pin affecting only where they appear in the list.</s><r>Если этот параметр включен, закрепленный сеанс никогда не удаляется при достижении предела и не занимает ни одного из слотов.
+
+Отключите этот параметр, чтобы закрепленные сеансы устаревали, как и любые другие, при этом закрепленный сеанс влиял только на то место, где они появляются в списке.</r></e>
+  <e k="K" key="LoadingProgress.KeepUnfinishedBoots"><s> - Keep sessions from startups that never finished</s><r> - Сохраняйте сеансы стартапов, которые так и не завершились.</r></e>
+  <e k="K" key="LoadingProgress.KeepUnfinishedBoots.Tip"><s>A startup that hangs or crashes partway through writes no report at all today, which loses the runs with the most diagnostic value.
+
+When enabled, a small marker is kept while the game loads and removed once it finishes. One still present at the next startup becomes a history entry recording when that startup began and which loading stage it reached. There is no per-mod breakdown for such a run, because the game stopped before there was one.</s><r>Запуск, который зависает или выходит из строя на полпути, сегодня вообще не пишет отчет, что приводит к потере запусков с наибольшей диагностической ценностью.
+
+Если этот параметр включен, небольшой маркер сохраняется во время загрузки игры и удаляется после ее завершения. Одна из них, которая все еще присутствует при следующем запуске, становится записью истории, когда этот запуск начался и на каком этапе загрузки он достиг. Для такого запуска не существует разбивки по модам, потому что игра остановилась до того, как она появилась.</r></e>
+  <e k="K" key="LoadingProgress.LastLoadingTime"><s>Show loading time</s><r>Показать время загрузки</r></e>
+  <e k="K" key="LoadingProgress.LastLoadingTime.Tip"><s>When enabled, the mod will display the time elapsed so far. Once the game has loaded at least once, it will store it for next time, and use it as the estimated loading time for the next loading session.</s><r>При включении мод будет отображать прошедшее на данный момент время. Как только игра загрузится хотя бы один раз, она сохранит ее для следующего раза и будет использовать ее в качестве расчетного времени загрузки для следующего сеанса загрузки.</r></e>
+  <e k="K" key="LoadingProgress.LastLoadingTimeInCorner"><s>Show loading time in bottom-right corner of the main menu</s><r>Показывать время загрузки в правом нижнем углу главного меню.</r></e>
+  <e k="K" key="LoadingProgress.LastLoadingTimeInCorner.Tip"><s>When enabled, the mod will show the time it took to load the game in the bottom-right corner of the main menu.</s><r>При включении мод будет показывать время, необходимое для загрузки игры, в правом нижнем углу главного меню.</r></e>
+  <e k="K" key="LoadingProgress.LastLoadingTimeProgressBar"><s> - Show loading time progress bar</s><r> - Показывать индикатор времени загрузки</r></e>
+  <e k="K" key="LoadingProgress.LastLoadingTimeProgressBar.Tip"><s>When enabled, the mod will show a progress bar during loading that indicates how much time has passed since the game started loading compared to the expected time.</s><r>Если этот мод включен, во время загрузки мод будет показывать индикатор выполнения, который показывает, сколько времени прошло с момента начала загрузки игры по сравнению с ожидаемым временем.</r></e>
+  <e k="K" key="LoadingProgress.LoadingTime"><s>Game took {0} to load</s><r>Загрузка игры заняла {0}</r></e>
+  <e k="K" key="LoadingProgress.LoadingTime.Tip"><s>Click to see loading time broken down in detail.</s><r>Нажмите, чтобы просмотреть подробное описание времени загрузки.</r></e>
+  <e k="K" key="LoadingProgress.LoadingTimeAsCountDown"><s>Show loading time as countdown</s><r>Показывать время загрузки в виде обратного отсчета</r></e>
+  <e k="K" key="LoadingProgress.LoadingTimeAsCountDown.Tip"><s>When enabled, the mod will display the loading time as a countdown, starting from the estimated loading time. This is useful to see how much time is left until the game is fully loaded.</s><r>При включении мод будет отображать время загрузки в виде обратного отсчета, начиная с расчетного времени загрузки. Это полезно, чтобы увидеть, сколько времени осталось до полной загрузки игры.</r></e>
+  <e k="K" key="LoadingProgress.LoadingTimeLabel"><s>Loading time</s><r>Время загрузки</r></e>
+  <e k="K" key="LoadingProgress.LoadingTimeNotRecorded"><s>Loading time not recorded</s><r>Время загрузки не записано</r></e>
+  <e k="K" key="LoadingProgress.LoadingTimesCapacity"><s>Estimates to store: {0}</s><r>Оценки для хранения: {0}</r></e>
+  <e k="K" key="LoadingProgress.LoadingTimesCapacity.Tip"><s>How many previous load times to remember when calculating the estimated loading time.
+
+The estimate is a weighted average that gives the 10 most recent launches progressively more influence (from 1× for the 10th-most-recent up to 10× for the most recent). Any launches beyond those 10 all receive equal weight (1×), so they are never completely ignored no matter how many you store.
+
+A higher value produces a more stable estimate by smoothing out one-off slow or fast loads.</s><r>Сколько предыдущих раз загрузки следует учитывать при расчете примерного времени загрузки.
+
+Оценка представляет собой средневзвешенное значение, которое дает 10 последним запускам постепенно большее влияние (от 1× для 10-го самого последнего запуска до 10× для самого последнего). Все запуски сверх этих 10 получают одинаковый вес (1×), поэтому они никогда не игнорируются полностью, независимо от того, сколько вы храните.
+
+Более высокое значение дает более стабильную оценку за счет сглаживания одноразовых медленных или быстрых загрузок.</r></e>
+  <e k="K" key="LoadingProgress.LoadingWindowPlacement"><s>Loading window placement</s><r>Размещение окна загрузки</r></e>
+  <e k="K" key="LoadingProgress.ManageSessions"><s>Manage saved sessions...</s><r>Управление сохраненными сеансами...</r></e>
+  <e k="K" key="LoadingProgress.MemoryUsage"><s>Heap: {0}  ·  Process: {1}</s><r>Куча: {0} · Процесс: {1}</r></e>
+  <e k="K" key="LoadingProgress.Middle"><s>Middle</s><r>Середина</r></e>
+  <e k="K" key="LoadingProgress.MiddleInverted"><s>Middle (inverted)</s><r>Средний (перевернутый)</r></e>
+  <e k="K" key="LoadingProgress.ModHashChanged"><s>(Mod list has changed since last game start; estimate may be inaccurate.)</s><r>(Список модов изменился с момента последнего запуска игры; оценка может быть неточной.)</r></e>
+  <e k="K" key="LoadingProgress.PatchInGameDeferredRepaint"><s>Patch in-game renderer regeneration to keep the loading window responsive</s><r>Исправлена ​​регенерация внутриигрового рендерера, чтобы окно загрузки оставалось отзывчивым.</r></e>
+  <e k="K" key="LoadingProgress.PatchInGameDeferredRepaint.Tip"><s>When enabled, the mod also makes the map/world renderer regeneration that happens after generating or loading finishes (part of the process that otherwise freezes the loading window for its whole duration) run in smaller pieces with repaints in between, so the window keeps updating instead of appearing to hang. This applies to new games, loaded saves, settling or generating maps in-play, and world generation.
+
+If you experience any issues with Loading Progress, try disabling this setting to see if it resolves the issue.</s><r>При включении мод также заставляет регенерацию рендеринга карты/мира, которая происходит после завершения генерации или загрузки (часть процесса, которая в противном случае замораживает окно загрузки на все время), выполняться меньшими частями с перерисовкой между ними, поэтому окно продолжает обновляться, а не зависает. Это относится к новым играм, загруженным сохранениям, созданию или созданию карт в ходе игры, а также созданию мира.
+
+Если у вас возникли какие-либо проблемы с ходом загрузки, попробуйте отключить этот параметр и посмотреть, решит ли это проблему.</r></e>
+  <e k="K" key="LoadingProgress.PatchInitialization"><s>Patch late-loading initialization code to show loading progress</s><r>Исправьте код инициализации поздней загрузки, чтобы отображать ход загрузки.</r></e>
+  <e k="K" key="LoadingProgress.PatchInitialization.Tip"><s>When enabled, the mod will patch the part during RimWorld's startup process where the game typically hangs to make it more responsive. This allows the mod to track and display loading progress for each static constructor. This should not cause any problems unless you are running mods that very specifically have targeted this code and is very timing sensitive.
+
+If you experience any issues with Loading Progress, try disabling this setting to see if it resolves the issue.</s><r>Если этот параметр включен, мод исправляет ту часть процесса запуска RimWorld, где игра обычно зависает, чтобы сделать ее более отзывчивой. Это позволяет моду отслеживать и отображать прогресс загрузки для каждого статического конструктора. Это не должно вызвать никаких проблем, если вы не используете моды, которые специально нацелены на этот код и очень чувствительны к времени.
+
+Если у вас возникли какие-либо проблемы с ходом загрузки, попробуйте отключить этот параметр, чтобы посмотреть, решит ли это проблему.</r></e>
+  <e k="K" key="LoadingProgress.PatchReloadContent"><s>Patch content loading code to show loading progress</s><r>Исправьте код загрузки контента, чтобы отображать ход загрузки.</r></e>
+  <e k="K" key="LoadingProgress.PatchReloadContent.Tip"><s>When enabled, the mod will replace the method that loads mod content to track and display loading progress for each content pack being reloaded. This should not cause any problems unless you are running mods that very specifically have targeted this code. The mod will log a warning if it detects any other mods patching this code.
+
+If you experience any issues with Loading Progress, try disabling this setting to see if it resolves the issue. Feel free to report any problems you encounter with mods that triggered the warning message.</s><r>При включении мод заменит метод, который загружает содержимое мода, чтобы отслеживать и отображать ход загрузки для каждого перезагружаемого пакета контента. Это не должно вызвать никаких проблем, если только вы не используете моды, специально нацеленные на этот код. Мод зарегистрирует предупреждение, если обнаружит какие-либо другие моды, исправляющие этот код.
+
+Если у вас возникли какие-либо проблемы с ходом загрузки, попробуйте отключить этот параметр, чтобы посмотреть, решит ли это проблему. Не стесняйтесь сообщать о любых проблемах, с которыми вы столкнулись с модами, вызвавшими появление предупреждающего сообщения.</r></e>
+  <e k="K" key="LoadingProgress.ProgressBarColor"><s>Progress bar color</s><r>Цвет индикатора выполнения</r></e>
+  <e k="K" key="LoadingProgress.ProgressBarColor.Tip"><s>The color of the main progress bar in the loading progress window.</s><r>Цвет основного индикатора выполнения в окне хода загрузки.</r></e>
+  <e k="K" key="LoadingProgress.Reset"><s>Reset</s><r>Перезагрузить</r></e>
+  <e k="K" key="LoadingProgress.SessionsToKeep"><s> - Sessions to keep: {0}</s><r> - Сессий, которые нужно сохранить: {0}</r></e>
+  <e k="K" key="LoadingProgress.SessionsToKeep.Tip"><s>How many past startup impact sessions to keep on disk.
+
+A session costs roughly 950 bytes per mod, so on a 230-mod list each one is around 220 KB. The oldest session drops off once the limit is reached.
+
+This is separate from 'Estimates to store' above, which counts loading time samples feeding the estimate rather than sessions on disk.</s><r>Сколько прошлых сеансов запуска следует хранить на диске.
+
+Сеанс стоит примерно 950 байт на мод, поэтому в списке из 230 модов каждый из них весит около 220 КБ. Самая старая сессия закрывается при достижении предела.
+
+Это отделено от «Оценок для сохранения» выше, где учитываются образцы времени загрузки, служащие для оценки, а не сеансы на диске.</r></e>
+  <e k="K" key="LoadingProgress.ShowBaseGameOffThreadImpact"><s> - Show base game's background-thread startup impact</s><r> - Показать влияние запуска фонового потока базовой игры.</r></e>
+  <e k="K" key="LoadingProgress.ShowBaseGameOffThreadImpact.Tip"><s>When enabled, the startup impact window shows a second bar under the base game's impact bar, breaking down the time the base game spent doing work on background threads during startup, separately from its main thread work.
+
+This is off by default because most people won't find it particularly informative, but it's here if you want the extra detail.</s><r>Если эта функция включена, в окне влияния при запуске отображается вторая полоса под полосой воздействия базовой игры, на которой указано время, затраченное базовой игрой на работу с фоновыми потоками во время запуска, отдельно от работы с основным потоком.
+
+По умолчанию это отключено, потому что большинство людей не сочтут это особенно информативным, но оно здесь, если вам нужны дополнительные подробности.</r></e>
+  <e k="K" key="LoadingProgress.ShowFasterGameLoadingEarlyModContentLoading"><s>Show Faster Game Loading's early mod content loading progress</s><r>Показать прогресс загрузки контента раннего мода Faster Game Loading</r></e>
+  <e k="K" key="LoadingProgress.ShowFasterGameLoadingEarlyModContentLoading.Tip"><s>When enabled, and Faster Game Loading is active, the mod will show an additional loading indicator for mod content that is loaded early during the game startup process.</s><r>Если этот параметр включен и активна быстрая загрузка игры, мод будет отображать дополнительный индикатор загрузки для содержимого мода, которое загружается на ранней стадии процесса запуска игры.</r></e>
+  <e k="K" key="LoadingProgress.ShowInGameLoadingProgress"><s>Show loading progress during in-game generation/loading</s><r>Показывать прогресс загрузки во время генерации/загрузки в игре.</r></e>
+  <e k="K" key="LoadingProgress.ShowInGameLoadingProgress.Tip"><s>When enabled, the mod shows a loading window during in-game long operations too, such as generating a new world, generating the map for a new game, and loading a save.</s><r>Если этот мод включен, мод также отображает окно загрузки во время длительных внутриигровых операций, таких как создание нового мира, создание карты для новой игры и загрузка сохранения.</r></e>
+  <e k="K" key="LoadingProgress.ShowMemoryUsage"><s>Show memory usage</s><r>Показать использование памяти</r></e>
+  <e k="K" key="LoadingProgress.ShowMemoryUsage.Tip"><s>When enabled, the loading window shows the current managed (Mono) heap size and the game process's total memory usage (working set).
+
+The process figure is the more useful one for judging overall RAM pressure; the heap figure is a narrower measure of only the .NET-managed portion of memory.</s><r>Если этот параметр включен, в окне загрузки отображается текущий размер управляемой (моно) кучи и общее использование памяти игровым процессом (рабочий набор).
+
+Цифра процесса является более полезной для оценки общего объема оперативной памяти; цифра кучи — это более узкая мера только части памяти, управляемой .NET.</r></e>
+  <e k="K" key="LoadingProgress.ShowStartupImpactTimesInSecondsOnly"><s> - Show startup impact times in seconds and milliseconds only</s><r> - Показывать время воздействия при запуске только в секундах и миллисекундах.</r></e>
+  <e k="K" key="LoadingProgress.ShowStartupImpactTimesInSecondsOnly.Tip"><s>When enabled, the startup impact window and exported reports show every time in seconds or milliseconds, such as 324.3 s.
+
+When disabled, times of a minute or longer also include minutes, and hours from an hour up, such as 5:24.3 or 1:02:05.4.</s><r>Если этот параметр включен, окно влияния при запуске и экспортированные отчеты каждый раз показывают время в секундах или миллисекундах, например 324,3 с.
+
+Если этот параметр отключен, время в минуту или дольше также включает минуты и часы с точностью до часа, например 5:24,3 или 1:02:05,4.</r></e>
+  <e k="K" key="LoadingProgress.SmallBarColor"><s>Progress bar sub-stage color</s><r>Цвет подэтапа индикатора выполнения</r></e>
+  <e k="K" key="LoadingProgress.SmallBarColor.Tip"><s>The color of the sub-stage indicator on the main progress bar in the loading progress window.</s><r>Цвет индикатора подэтапа на главном индикаторе выполнения в окне хода загрузки.</r></e>
+  <e k="K" key="LoadingProgress.Stage.ApplyPatches"><s>Applying XML patches... (&lt;i&gt;{0}&lt;/i&gt;)</s><r>Применение исправлений XML... (&lt;i&gt;{0}&lt;/i&gt;)</r></e>
+  <e k="K" key="LoadingProgress.Stage.AtlasBaking"><s>Baking static atlases...</s><r>Запекание статических атласов...</r></e>
+  <e k="K" key="LoadingProgress.Stage.ClearCachedPatches"><s>Clearing cached patches...</s><r>Очистка кэшированных патчей...</r></e>
+  <e k="K" key="LoadingProgress.Stage.CombineIntoUnifiedXml"><s>Combining XML...</s><r>Объединение XML...</r></e>
+  <e k="K" key="LoadingProgress.Stage.CopyAllDefsToGlobalDatabases"><s>Copying all Defs from mods to global databases...</s><r>Копирование всех дефов из модов в глобальные базы данных...</r></e>
+  <e k="K" key="LoadingProgress.Stage.ErrorCheckAllDefs"><s>Checking all defs for errors...</s><r>Проверка всех определений на наличие ошибок...</r></e>
+  <e k="K" key="LoadingProgress.Stage.ErrorCheckPatches"><s>Checking XML patches for errors...</s><r>Проверка исправлений XML на наличие ошибок...</r></e>
+  <e k="K" key="LoadingProgress.Stage.ErrorCheckPatches.ForMod"><s>Checking XML patches for errors.. (&lt;i&gt;{0}&lt;/i&gt;)</s><r>Проверка XML-патчей на наличие ошибок.. (&lt;i&gt;{0}&lt;/i&gt;)</r></e>
+  <e k="K" key="LoadingProgress.Stage.ExecuteToExecuteWhenFinished"><s>Running delayed initialization tasks... (&lt;i&gt;{0}&lt;/i&gt;)</s><r>Запуск задач отложенной инициализации... (&lt;i&gt;{0}&lt;/i&gt;)</r></e>
+  <e k="K" key="LoadingProgress.Stage.ExecuteToExecuteWhenFinished.Reloading.asset_bundles"><s>Loading asset bundles for &lt;i&gt;{0}&lt;/i&gt;</s><r>Загрузка пакетов активов для &lt;i&gt;{0}&lt;/i&gt;</r></e>
+  <e k="K" key="LoadingProgress.Stage.ExecuteToExecuteWhenFinished.Reloading.audio_clips"><s>Loading audio clips for &lt;i&gt;{0}&lt;/i&gt;</s><r>Загрузка аудиоклипов для &lt;i&gt;{0}&lt;/i&gt;</r></e>
+  <e k="K" key="LoadingProgress.Stage.ExecuteToExecuteWhenFinished.Reloading.strings"><s>Loading strings for &lt;i&gt;{0}&lt;/i&gt;</s><r>Загрузка строк для &lt;i&gt;{0}&lt;/i&gt;</r></e>
+  <e k="K" key="LoadingProgress.Stage.ExecuteToExecuteWhenFinished.Reloading.textures"><s>Loading textures for &lt;i&gt;{0}&lt;/i&gt;</s><r>Загрузка текстур для &lt;i&gt;{0}&lt;/i&gt;</r></e>
+  <e k="K" key="LoadingProgress.Stage.Finished"><s>Finished!</s><r>Законченный!</r></e>
+  <e k="K" key="LoadingProgress.Stage.GarbageCollection"><s>Running garbage collection...</s><r>Запускаем сбор мусора...</r></e>
+  <e k="K" key="LoadingProgress.Stage.GenerateImpliedDefs"><s>Generating implied Defs (pre-resolve)...</s><r>Генерация подразумеваемых определений (предварительное разрешение)...</r></e>
+  <e k="K" key="LoadingProgress.Stage.GlobalOperationsEarly"><s>Running global operations (early pass)...</s><r>Выполнение глобальных операций (ранний этап)...</r></e>
+  <e k="K" key="LoadingProgress.Stage.Initializing"><s>Initializing...</s><r>Инициализация...</r></e>
+  <e k="K" key="LoadingProgress.Stage.InjectSelectedLanguageDataEarly"><s>Injecting selected language data into game data (early pass)...</s><r>Внедрение выбранных языковых данных в игровые данные (ранний этап)...</r></e>
+  <e k="K" key="LoadingProgress.Stage.InjectSelectedLanguageDataIntoGameData"><s>Injecting selected language data into game data...</s><r>Внедрение выбранных языковых данных в игровые данные...</r></e>
+  <e k="K" key="LoadingProgress.Stage.LegacyBackstoryTranslations"><s>Loading legacy backstory translations...</s><r>Загрузка устаревших переводов предыстории...</r></e>
+  <e k="K" key="LoadingProgress.Stage.LoadLanguage"><s>Loading language data... (&lt;i&gt;{0}&lt;/i&gt;)</s><r>Загрузка данных о языке... (&lt;i&gt;{0}&lt;/i&gt;)</r></e>
+  <e k="K" key="LoadingProgress.Stage.LoadLanguageMetadata"><s>Loading language metadata...</s><r>Загрузка метаданных языка...</r></e>
+  <e k="K" key="LoadingProgress.Stage.LoadModXml"><s>Loading mod XML... (&lt;i&gt;{0}&lt;/i&gt;)</s><r>Загрузка XML мода... (&lt;i&gt;{0}&lt;/i&gt;)</r></e>
+  <e k="K" key="LoadingProgress.Stage.LoadingAllBios"><s>Loading all bios...</s><r>Загружаю весь биос...</r></e>
+  <e k="K" key="LoadingProgress.Stage.LoadingDefs"><s>Loading defs... (&lt;i&gt;{0}&lt;/i&gt;)</s><r>Загрузка определений... (&lt;i&gt;{0}&lt;/i&gt;)</r></e>
+  <e k="K" key="LoadingProgress.Stage.LoadingDefs.WithDef"><s>Loading defs... (&lt;i&gt;{0} — {1} ({2})&lt;/i&gt;)</s><r>Загрузка определений... (&lt;i&gt;{0} — {1} ({2})&lt;/i&gt;)</r></e>
+  <e k="K" key="LoadingProgress.Stage.LoadingModClasses"><s>Loading mod classes... (&lt;i&gt;{0}&lt;/i&gt;)</s><r>Загрузка классов модов... (&lt;i&gt;{0}&lt;/i&gt;)</r></e>
+  <e k="K" key="LoadingProgress.Stage.OtherOperationsPostResolve"><s>Running other global operations (post-resolve)...</s><r>Выполнение других глобальных операций (после разрешения)...</r></e>
+  <e k="K" key="LoadingProgress.Stage.OtherOperationsPreResolve"><s>Running other global operations (pre-resolve)...</s><r>Выполнение других глобальных операций (предварительное разрешение)...</r></e>
+  <e k="K" key="LoadingProgress.Stage.ParseAndProcessXml"><s>Parsing and processing XML...</s><r>Парсинг и обработка XML...</r></e>
+  <e k="K" key="LoadingProgress.Stage.ParseAndProcessXml.ForMod"><s>Parsing and processing XML... (&lt;i&gt;{0}&lt;/i&gt;)</s><r>Разбор и обработка XML... (&lt;i&gt;{0}&lt;/i&gt;)</r></e>
+  <e k="K" key="LoadingProgress.Stage.RebindDefOfsEarly"><s>Rebinding DefOfs (early)...</s><r>Перепривязка DefOfs (ранняя версия)...</r></e>
+  <e k="K" key="LoadingProgress.Stage.RebindDefOfsFinal"><s>Rebinding DefOfs (final)...</s><r>Перепривязка DefOfs (окончательная)...</r></e>
+  <e k="K" key="LoadingProgress.Stage.ResolveCrossReferencesBetweenImpliedDefs"><s>Resolving cross-references between Defs made by the implied defs...</s><r>Разрешение перекрестных ссылок между определениями, созданными подразумеваемыми определениями...</r></e>
+  <e k="K" key="LoadingProgress.Stage.ResolveCrossReferencesBetweenNonImpliedDefsStage1"><s>Resolving cross-references between non-implied Defs (stage 1)...</s><r>Разрешение перекрестных ссылок между неявными определениями (этап 1)...</r></e>
+  <e k="K" key="LoadingProgress.Stage.ResolveCrossReferencesBetweenNonImpliedDefsStage2"><s>Resolving cross-references between non-implied Defs (stage 2)...</s><r>Разрешение перекрестных ссылок между неявными определениями (этап 2)...</r></e>
+  <e k="K" key="LoadingProgress.Stage.ResolveReferences"><s>Resolving references... (&lt;i&gt;{0}&lt;/i&gt;)</s><r>Разрешение ссылок... (&lt;i&gt;{0}&lt;/i&gt;)</r></e>
+  <e k="K" key="LoadingProgress.Stage.ShortHashGiving"><s>Giving short hashes to defs...</s><r>Предоставление коротких хешей для определений...</r></e>
+  <e k="K" key="LoadingProgress.Stage.StaticConstructorOnStartupCallAll"><s>Calling all static constructors... (&lt;i&gt;{0}&lt;/i&gt;)</s><r>Вызов всех статических конструкторов... (&lt;i&gt;{0}&lt;/i&gt;)</r></e>
+  <e k="K" key="LoadingProgress.Stage.TKeySystemBuildMappings"><s>Building Translation Key system mappings...</s><r>Создание сопоставлений системы ключей перевода...</r></e>
+  <e k="K" key="LoadingProgress.Stage.TKeySystemParse"><s>Parsing Translation Key system...</s><r>Разбор системы ключей перевода...</r></e>
+  <e k="K" key="LoadingProgress.Stage.XmlInheritanceClear"><s>Clearing XML inheritance...</s><r>Очистка наследования XML...</r></e>
+  <e k="K" key="LoadingProgress.Stage.XmlInheritanceResolve"><s>Resolving XML inheritance...</s><r>Разрешение наследования XML...</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.AbstractFilesystemClearAllCache"><s>Clearing filesystem cache</s><r>Очистка кэша файловой системы</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.ApplyPatches"><s>Applying patches</s><r>Применение патчей</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.BackStoryTranslationUtilityLoadAndInjectBackstoryData"><s>Loading and injecting legacy backstory translations</s><r>Загрузка и внедрение устаревших переводов предыстории</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Breakdown.More"><s>And {0} more</s><r>И еще {0}</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.ClearCachedPatches"><s>Clearing cached patches</s><r>Очистка кэшированных патчей</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.ClearCachedXmlInheritance"><s>Clearing cached XML inheritance</s><r>Очистка кэшированного наследования XML</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.ColoredTextResetStaticData"><s>Running global operations (early pass)</s><r>Выполнение глобальных операций (ранний этап)</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.ColumnImpact"><s>Impact</s><r>Влияние</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.ColumnName"><s>Mod</s><r>Мод</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.ColumnPhase"><s>Loading phase</s><r>Фаза загрузки</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.CombineXml"><s>Combining XML into a single XML document</s><r>Объединение XML в один XML-документ</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.AddedMods"><s>Mods only in the compared session</s><r>Моды только в сравниваемой сессии</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.BaselineSession"><s>{0} (baseline)</s><r>{0} (базовый уровень)</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.Button"><s>Compare</s><r>Сравнивать</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.Change"><s>Change</s><r>Изменять</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.Changed"><s>changed</s><r>измененный</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.Compared"><s>Compared</s><r>По сравнению</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.DefsParsed"><s>Defs parsed</s><r>Определения проанализированы</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.Different"><s>different</s><r>другой</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.HarmonyHooks"><s>Harmony patches timed separately</s><r>Патчи гармонии синхронизируются отдельно</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.Headline"><s>Loading time: {0} → {1} ({2})</s><r>Время загрузки: {0} → {1} ({2})</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.Issue.DifferentModList"><s>These sessions ran with different mod lists, so their times are not directly comparable.</s><r>Эти сеансы проводились с разными списками модов, поэтому их время напрямую не сопоставимо.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.Issue.HarmonyHookTimingDiffers"><s>'Time other mods' Harmony patches separately' differs between these sessions. It moves time out of the steps the patches ran in and onto the mods they belong to, so per-mod and per-step changes can be moves rather than costs.</s><r>«Время установки патчей Harmony других модов отдельно» различается в зависимости от этих сеансов. Он перемещает время из этапов, на которых запускались патчи, в моды, к которым они принадлежат, поэтому изменения для каждого мода и для каждого шага могут быть перемещениями, а не затратами.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.Issue.HarmonyHookTimingUnknown"><s>At least one of these sessions was saved before Loading Progress recorded whether Harmony patches were timed separately.</s><r>По крайней мере, один из этих сеансов был сохранен до того, как ход загрузки зафиксировал, были ли патчи Harmony рассчитаны отдельно.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.Issue.ModOrderChanged"><s>The mods were loaded in a different order.</s><r>Моды загружались в другом порядке.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.Issue.NotBothTimedToMenu"><s>Only one of these sessions was timed to the main menu, so their startup times cover different spans. Compare their loading times instead.</s><r>Только один из этих сеансов был привязан к главному меню, поэтому время их запуска охватывает разные промежутки времени. Вместо этого сравните время их загрузки.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.LoadingTime"><s>Loading time</s><r>Время загрузки</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.ModDetails"><s>Largest changes:</s><r>Крупнейшие изменения:</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.ModList"><s>Mod list</s><r>Список модов</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.ModOrder"><s>Mod load order</s><r>Порядок загрузки модов</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.ModsLoaded"><s>Mods loaded</s><r>Моды загружены</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.NoiseHint"><s>Times vary from run to run, sometimes by seconds. A change is only likely to be real when it shows up every time you compare runs with and without it.</s><r>Время варьируется от забега к забегу, иногда на секунды. Изменение может быть реальным только тогда, когда оно проявляется каждый раз, когда вы сравниваете прогоны с ним и без него.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.Noisy"><s>varies</s><r>варьируется</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.Noisy.ModTip"><s>Most of this mod's change is in steps known to vary a lot between runs even when nothing has changed, so it may be noise.</s><r>Большая часть изменений этого мода заключается в шагах, которые, как известно, сильно различаются между запусками, даже если ничего не изменилось, поэтому это может быть шум.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.Noisy.Tip"><s>This is known to vary a lot between runs even when nothing has changed, so a change here may be noise.</s><r>Известно, что это сильно различается между запусками, даже если ничего не изменилось, поэтому изменение здесь может быть шумом.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.NotLoaded"><s>not loaded</s><r>не загружен</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.NothingToCompare"><s>There is no other saved session with a breakdown to compare this one with.</s><r>Нет другой сохраненной сессии с разбивкой, с которой можно было бы сравнить эту.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.Off"><s>off</s><r>выключенный</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.On"><s>on</s><r>на</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.PatchOperations"><s>Patch operations applied</s><r>Применены операции исправления</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.Reference"><s>Reference</s><r>Ссылка</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.RemovedMods"><s>Mods only in the reference session</s><r>Моды только в эталонной сессии</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.Same"><s>same</s><r>такой же</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.StartupTime"><s>Startup time</s><r>Время запуска</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.Summary.Mods"><s>Each mod's time. A setting that changes what time is credited to whom can move time from one mod to another, so use these to explain a stage's change rather than as a result on their own.</s><r>Время каждого мода. Параметр, который меняет время, начисляемое тому, кто может перемещать время из одного мода в другой, поэтому используйте их для объяснения изменения этапа, а не как результат сами по себе.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.Summary.Stages"><s>The stages make up the loading time, and are not affected by how time is split between mods. Their changes add up to {0}.</s><r>Этапы составляют время загрузки и не зависят от того, как время распределяется между модами. Их изменения в сумме составляют {0}.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.Summary.Steps"><s>Time per step, the base game's and all mods' together. A setting that changes what time is credited to whom can move time from one step to another, so use these to explain a stage's change rather than as a result on their own.</s><r>Время на шаг, базовая игра и все моды вместе взятые. Параметр, который меняет время, начисляемое тому, кто может перемещать время с одного шага на другой, поэтому используйте их для объяснения изменения этапа, а не как результат сам по себе.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.Swap"><s>Swap</s><r>Менять</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.Swap.Tip"><s>Swap the reference and the compared session.</s><r>Поменяйте местами ссылку и сравниваемую сессию.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.Tab.Mods"><s>Mods</s><r>Моды</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.Tab.Overview"><s>Overview</s><r>Обзор</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.Tab.Stages"><s>Stages</s><r>Этапы</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.Tab.Steps"><s>Steps</s><r>Шаги</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.TimeToMenu"><s>Time to the main menu</s><r>Пора в главное меню</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.Title"><s>Compare startups</s><r>Сравнить стартапы</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.Unknown"><s>unknown</s><r>неизвестный</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Compare.With"><s>Compare with...</s><r>Сравните с...</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.DefDatabaseAddAllInMods"><s>Copying all Defs from mods to global databases</s><r>Копирование всех дефов из модов в глобальные базы данных</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.DefGeneratorGenerateImpliedDefsPostResolve"><s>Generating implied Defs (post-resolve)</s><r>Генерация подразумеваемых определений (после разрешения)</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.DefGeneratorGenerateImpliedDefsPreResolve"><s>Generating implied Defs (pre-resolve)</s><r>Генерация подразумеваемых определений (предварительное разрешение)</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.DefOfHelperRebindAllDefOfs.Early"><s>Rebinding DefOfs (early)</s><r>Перепривязка DefOfs (ранняя версия)</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.DefOfHelperRebindAllDefOfs.Final"><s>Rebinding DefOfs (final)</s><r>Перепривязка DefOfs (окончательная версия)</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.DisabledAtStartup"><s>Startup loading impact tracking was off when the game started, so there's no data to show for this session.</s><r>Отслеживание влияния загрузки при запуске было отключено при запуске игры, поэтому для этого сеанса нет данных.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.EnableTracking"><s>Enable startup loading impact tracking</s><r>Включить отслеживание влияния загрузки при запуске</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.EnableTrackingHint"><s>Enable it below to track it the next time the game starts.</s><r>Включите его ниже, чтобы отслеживать его при следующем запуске игры.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.ErrorCheckAllDefs"><s>Error checking all defs</s><r>Ошибка при проверке всех определений</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.ErrorCheckPatches"><s>Error checking patches</s><r>Ошибка при проверке исправлений</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.ExecuteToExecuteWhenFinished"><s>Running delayed initialization task {0}</s><r>Запуск задачи отложенной инициализации {0}</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.ExecuteToExecuteWhenFinished.Grouped"><s>Running delayed initialization tasks</s><r>Запуск задач отложенной инициализации</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.ExportFailed"><s>Export failed: {0}</s><r>Экспорт не удался: {0}</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.ExportHtml"><s>Export HTML</s><r>Экспорт HTML</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.ExportHtml.Tip"><s>Export this session's startup impact data as a self-contained HTML report you can open in a browser or share with others, without needing this game running.</s><r>Экспортируйте данные о влиянии этого сеанса на запуск в виде отдельного HTML-отчета, который вы можете открыть в браузере или поделиться с другими, не запуская эту игру.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Exported"><s>Exported successfully</s><r>Экспортирован успешно</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Exported.Tip"><s>Saved to {0}</s><r>Сохранено в {0}</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.FilterMods"><s>Filter:</s><r>Фильтр:</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.FilterMods.Placeholder"><s>Filter by mod name or package ID</s><r>Фильтровать по названию мода или идентификатору пакета.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.FloatMenuMakerMapInit"><s>Initializing float menu maker map</s><r>Инициализация карты создателя плавающего меню</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.GarbageCollection"><s>Garbage collection and asset unload</s><r>Сбор мусора и выгрузка активов</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.GlobalTextureAtlasManagerBakeStaticAtlases"><s>Texture atlas baking</s><r>Запекание текстурного атласа</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.GroupByMod"><s>Grouping: by mod</s><r>Группировка: по моду</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.GroupByPhase"><s>Grouping: by loading phase</s><r>Группировка: по фазе загрузки</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Grouping.Tip"><s>Switch between showing each mod's impact, and showing the total time all mods together spent in each loading phase.</s><r>Переключайтесь между отображением влияния каждого мода и отображением общего времени, проведенного всеми модами на каждой фазе загрузки.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.HarmonyHook"><s>Harmony hooks on {0}</s><r>Гармония зацепляется за {0}</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.HarmonyHook.Grouped"><s>Harmony hooks</s><r>Гармоничные крючки</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History"><s>History</s><r>История</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.ChooseBaseline"><s>Choose a baseline</s><r>Выберите базовый уровень</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.ClearBaseline"><s>Clear</s><r>Прозрачный</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.Column.List"><s>List</s><r>Список</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.Column.Load"><s>Time</s><r>Время</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.Column.Mods"><s>Mods</s><r>Моды</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.Column.Notes"><s>Notes</s><r>Примечания</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.Column.When"><s>When</s><r>Когда</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.Confirm.Baseline"><s>This is the baseline. Deleting it leaves no baseline until you choose another.</s><r>Это базовый уровень. Его удаление не оставляет базовой линии, пока вы не выберете другую.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.Confirm.Delete"><s>Delete the saved session from {0}?</s><r>Удалить сохраненный сеанс с {0}?</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.Delete"><s>Delete</s><r>Удалить</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.Empty.Baseline"><s>No baseline chosen. A baseline is kept whatever the limit is set to.</s><r>Базовый уровень не выбран. Базовый уровень сохраняется независимо от установленного предела.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.Empty.Pinned"><s>Nothing pinned. A pinned session is kept even once it falls outside the limit.</s><r>Ничего не закреплено. Закрепленный сеанс сохраняется даже в том случае, если он выходит за пределы лимита.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.Empty.Recent"><s>No sessions saved yet.</s><r>Пока не сохранено ни одной сессии.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.Group.Baseline"><s>Baseline</s><r>Базовый уровень</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.Group.Pinned"><s>Pinned</s><r>Закреплено</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.Group.Recent"><s>Recent</s><r>Недавний</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.Load"><s>Load</s><r>Нагрузка</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.NoBreakdown"><s>This startup never finished, so there is no per-mod breakdown to show.</s><r>Этот запуск так и не завершился, поэтому разбивка по модам не отображается.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.NoLoadTime"><s>none</s><r>никто</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.Note.DifferentList"><s>Different mod list, not comparable</s><r>Другой список модов, не сравнимый</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.Note.ToEndOfLoading"><s>Not timed to the main menu</s><r>Не приурочено к главному меню</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.Note.Unfinished"><s>Never finished</s><r>Никогда не закончил</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.Note.UnfinishedAfterLoading"><s>Stopped after loading, before the main menu was usable</s><r>Остановлено после загрузки, прежде чем можно было использовать главное меню.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.Note.UnfinishedAt"><s>Stopped at {0}</s><r>Остановился на {0}</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.Pin"><s>Pin</s><r>Приколоть</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.SetBaseline"><s>Set as baseline</s><r>Установить в качестве базовой линии</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.Status.BaselineCleared"><s>Baseline cleared. No session holds the role until you choose another.</s><r>Базовая линия очищена. Ни один сеанс не будет сохранять эту роль, пока вы не выберете другой.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.Status.BaselineSet"><s>Baseline set.</s><r>Базовый набор.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.Status.Deleted"><s>Session deleted.</s><r>Сессия удалена.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.Status.LoadFailed"><s>That session's data could not be read.</s><r>Данные этого сеанса не удалось прочитать.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.Status.Loaded"><s>Showing the run from {0}.</s><r>Показан пробег от {0}.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.Status.Pinned"><s>Pinned.</s><r>Закреплено.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.Status.Unpinned"><s>Unpinned.</s><r>Откреплено.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.Summary"><s>{0} saved, keeping up to {1}</s><r>{0} сохранено, сохраняется до {1}</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.Title"><s>Startup impact history</s><r>История влияния стартапа</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.History.Unpin"><s>Unpin</s><r>Открепить</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.HtmlReport.Footer"><s>Generated by Loading Progress on {0}.</s><r>Создано в результате загрузки прогресса на {0}.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.HtmlReport.Title"><s>Startup Impact Report</s><r>Отчет о влиянии запуска</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.KeyPrefsInit"><s>Loading keyboard preferences</s><r>Загрузка настроек клавиатуры</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.LanguageDatabaseInitAllMetadata"><s>Loading language metadata</s><r>Загрузка метаданных языка</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.LoadDefs"><s>Loading defs</s><r>Загрузка настроек</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.LoadPatches"><s>Loading patches</s><r>Загрузка патчей</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.LoadedLanguageInjectIntoDataAfterImpliedDefs"><s>Injecting selected language data into game data</s><r>Внедрение выбранных языковых данных в игровые данные</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.LoadedLanguageInjectIntoDataBeforeImpliedDefs"><s>Injecting selected language data into game data (early pass)</s><r>Внедрение выбранных языковых данных в игровые данные (ранний этап)</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.LoadedModManagerParseAndProcessXML"><s>Parsing and processing XML</s><r>Парсинг и обработка XML</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.LogarithmicScale"><s>Use logarithmic scale</s><r>Используйте логарифмическую шкалу</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.LogarithmicScale.Tip"><s>When this is enabled, the startup impact values will be displayed on a logarithmic scale, compressing large differences in impact so they are easier to compare. Use the Detail slider that appears next to this option to fine-tune how strong the compression is.</s><r>Если этот параметр включен, значения воздействия при запуске будут отображаться в логарифмическом масштабе, сжимая большие различия во влиянии, чтобы их было легче сравнивать. Используйте ползунок «Детализация», который появляется рядом с этой опцией, чтобы точно настроить степень сжатия.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Milliseconds"><s>{0} ms</s><r>{0} мс</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.ModConstructor"><s>Running mod constructor</s><r>Запуск конструктора модов</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.ModContentPackReloadContentInt.AssetBundles"><s>Loading asset bundles</s><r>Загрузка пакетов активов</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.ModContentPackReloadContentInt.AudioClips"><s>Loading audio clips</s><r>Загрузка аудиоклипов</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.ModContentPackReloadContentInt.Strings"><s>Loading strings</s><r>Загрузка строк</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.ModContentPackReloadContentInt.Textures"><s>Loading textures</s><r>Загрузка текстур</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Nonmods.BySteps"><s>Not directly related to mods, largest steps first:</s><r>Не имеет прямого отношения к модам, сначала самые большие шаги:</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.OnOtherThreads.Tip"><s>On other threads, summed across them</s><r>В других темах суммируется по ним</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.PlayDataLoaderResetStaticDataPost"><s>Other def binding, resetting and global operations (post-resolve)</s><r>Другие привязки, сброс и глобальные операции по определению (после разрешения)</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.PlayDataLoaderResetStaticDataPre"><s>Other def binding, resetting and global operations (pre-resolve)</s><r>Другие привязки, сброс и глобальные операции по определению (предварительное разрешение)</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.PostLoadLongEvent"><s>After loading: {0}</s><r>После загрузки: {0}</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.PostLoadLongEvent.Grouped"><s>After loading</s><r>После загрузки</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.RegisterXmlInheritance"><s>Registering XML inheritance</s><r>Регистрация наследования XML</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Remaining.AfterLoading"><s>After loading, until the main menu was usable</s><r>После загрузки, пока главное меню не станет доступным для использования.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Remaining.ByStage"><s>Remaining time by loading stage, largest first:</s><r>Оставшееся время по этапам загрузки, сначала наибольшее:</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Remaining.CallAllHookTiming"><s>Setting up and removing the timing of hooks on the static constructor pass</s><r>Настройка и удаление тайминга хуков на проходе статического конструктора</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Remaining.SecondPass"><s>{0} (second pass)</s><r>{0} (второй проход)</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.ReplacedBy"><s>{0} (replaced by {1})</s><r>{0} (заменено на {1})</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.ReportProbablyMissingAttributes"><s>Checking for missing StaticConstructorOnStartup attributes (development mode)</s><r>Проверка отсутствия атрибутов StaticConstructorOnStartup (режим разработки)</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.ResolveAllWantedCrossReferences.Implied"><s>Resolving cross-references between Defs made by the implied defs</s><r>Разрешение перекрестных ссылок между определениями, созданными подразумеваемыми определениями</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.ResolveAllWantedCrossReferences.NonImplied"><s>Resolving cross-references between non-implied Defs</s><r>Разрешение перекрестных ссылок между неявными определениями</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.ResolveReferences"><s>Resolving references</s><r>Разрешение ссылок</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.ResolveXmlInheritance"><s>Resolving XML inheritance</s><r>Разрешение наследования XML</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.SaveFailed"><s>Saving failed: {0}</s><r>Не удалось сохранить: {0}</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Saved"><s>Saved successfully</s><r>Сохранено успешно.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.ScaleDetail"><s>Detail: {0}</s><r>Деталь: {0}</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.ScaleDetail.Tip"><s>Impact values below this amount of time are shown close to their true proportions; values above it get compressed more heavily so a single very slow mod does not drown out the rest of the bar. Lower this to make small differences between fast mods easier to see; raise it to keep large impacts looking proportionally larger.</s><r>Значения воздействия ниже этого периода времени показаны близко к их истинным пропорциям; значения выше этого значения сжимаются сильнее, поэтому один очень медленный мод не заглушает остальную часть полосы. Уменьшите это значение, чтобы было легче увидеть небольшие различия между быстрыми модами; поднимите его, чтобы большие воздействия выглядели пропорционально больше.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Seconds"><s>{0} s</s><r>{0} с</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Section.OnOtherThreads"><s>{0} on other threads</s><r>{0} в других темах</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Section.Tip"><s>Click to open or close this section.</s><r>Нажмите, чтобы открыть или закрыть этот раздел.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.SessionStats"><s>{0} defs parsed, {1} patch operations applied, {2} mods loaded</s><r>{0} параметры проанализированы, {1} применены операции исправления, {2} загружены моды</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.ShortHashGiverGiveAllShortHashes"><s>Short hash giving</s><r>Короткая выдача хеша</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.ShowingSaved"><s>Saved run from {0}</s><r>Сохранен пробег с {0}</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.SolidBioDatabaseLoadAllBios"><s>Loading all bios</s><r>Загрузка всего биоса</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.StartupMods"><s>Mods startup impact: {0}</s><r>Влияние запуска модов: {0}</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.StartupNonmods"><s>Not directly related to mods: {0}</s><r>Не имеет прямого отношения к модам: {0}</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.StartupRemaining"><s>Remaining time: {0}</s><r>Оставшееся время: {0}</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.StartupTime"><s>Startup time: {0}</s><r>Время запуска: {0}</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAll"><s>Running static constructors</s><r>Запуск статических конструкторов</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAllHook"><s>Hook on the static constructor pass: {0}</s><r>Перехват статического конструктора: {0}</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAllHook.Grouped"><s>Hooks on the static constructor pass</s><r>Хуки на этапе статического конструктора</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAllPass"><s>Static constructor pass for other mods' hooks</s><r>Статический конструктор для хуков других модов</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAllPassWithUntimedHooks"><s>Static constructor pass for other mods' hooks, with hooks not timed on their own: {0}</s><r>Статический конструктор для хуков других модов, при этом хуки не синхронизируются сами по себе: {0}</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.TKeySystemBuildMappings"><s>Translation key system mapping</s><r>Сопоставление системы ключей перевода</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.TKeySystemParse"><s>Translation key system parsing</s><r>Анализ системы ключей перевода</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.ToggleModVisibility.Tip"><s>Toggle the visibility of this mod's impact on startup performance. If this is currently the mod with the highest impact, its impact will no longer be used as a reference point for other mods, but instead the next highest impact mod will be used.</s><r>Включите видимость влияния этого мода на производительность запуска. Если на данный момент это мод с наибольшим воздействием, его влияние больше не будет использоваться в качестве ориентира для других модов, а вместо этого будет использоваться следующий по величине мод воздействия.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Total.BaseGame"><s>Not directly related to mods</s><r>Не имеет прямого отношения к модам</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Total.EarlyLaunch"><s>Early game launch</s><r>Ранний запуск игры</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Total.EarlyLaunch.Tip"><s>From the moment the game was started until Loading Progress began timing: starting the engine, reading the mod list, loading the mods' code, and running the constructors of mods loaded before Loading Progress.</s><r>От момента запуска игры до начала отсчета процесса загрузки: запуск движка, чтение списка модов, загрузка кода модов и запуск конструкторов модов, загруженных до загрузки прогресса.</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Total.Mods"><s>Mods</s><r>Моды</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Total.ModsHidden"><s>Hidden mods</s><r>Скрытые моды</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.Total.Others"><s>Remaining</s><r>Оставшийся</r></e>
+  <e k="K" key="LoadingProgress.StartupImpact.WillTrackNextStartup"><s>It's now enabled, so it'll be tracked the next time the game starts.</s><r>Теперь он включен, поэтому он будет отслеживаться при следующем запуске игры.</r></e>
+  <e k="K" key="LoadingProgress.TimeHarmonyHooks"><s> - Time other mods' Harmony patches separately</s><r> - Время для патчей Harmony других модов отдельно.</r></e>
+  <e k="K" key="LoadingProgress.TimeHarmonyHooks.Tip"><s>When enabled, the time each Harmony patch takes while the game loads is credited to the mod the patch belongs to, under 'Harmony hooks on' and the patched method's name. When disabled, a patch's time goes to whatever step was running when it ran.
+
+On some setups, having this on has kept saved games from loading, so it is off by default. If your saves don't load with it on, turn it off and leave it off. It takes effect at the next startup.</s><r>Если этот параметр включен, время, необходимое каждому патчу Harmony во время загрузки игры, засчитывается моду, которому принадлежит патч, в разделе «Harmony Hooks on» и имени исправленного метода. Если этот параметр отключен, время выполнения патча переходит к любому этапу, который выполнялся во время его запуска.
+
+В некоторых настройках включение этого параметра не позволяет загружать сохраненные игры, поэтому по умолчанию оно отключено. Если ваши сохранения не загружаются при включенном режиме, выключите его и оставьте выключенным. Оно вступит в силу при следующем запуске.</r></e>
+  <e k="K" key="LoadingProgress.TimeOverEstimate"><s>{0} over {1}</s><r>{0} больше {1}</r></e>
+  <e k="K" key="LoadingProgress.TimeRemaining"><s>{0} left of {1}</s><r>{0} слева от {1}</r></e>
+  <e k="K" key="LoadingProgress.Title"><s>Loading progress</s><r>Ход загрузки</r></e>
+  <e k="K" key="LoadingProgress.Top"><s>Top</s><r>Вершина</r></e>
+  <e k="K" key="LoadingProgress.TrackStartupLoadingImpact"><s>Track startup loading impact</s><r>Отслеживайте влияние загрузки при запуске</r></e>
+  <e k="K" key="LoadingProgress.TrackStartupLoadingImpact.Tip"><s>When enabled, the mod will track the impact of startup loading impact from mods and the base game allowing you to see a detailed breakdown of what is causing the biggest delays during the loading process.</s><r>При включении мод будет отслеживать влияние загрузки модов и базовой игры при запуске, позволяя вам увидеть подробную информацию о том, что вызывает наибольшие задержки в процессе загрузки.</r></e>
+</AutoTranslateCache>
