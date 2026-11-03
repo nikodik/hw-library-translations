@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="ray1203.simplecamerasetting" name="SimpleCameraSetting" language="Russian" version="1">
+  <e k="K" key="AutoOffFollow"><s>Auto Off Following</s><r>Автоматическое выключение подписки</r></e>
+  <e k="K" key="AutoOffFollowTooltip"><s>If you are not selecting your pawn, turns off Following automatically.</s><r>Если вы не выбираете пешку, функция «Следование» автоматически отключается.</r></e>
+  <e k="K" key="CameraSpeed1"><s>Camera Speed (Zoom &lt; 1)</s><r>Скорость камеры (увеличение &lt; 1)</r></e>
+  <e k="K" key="CameraSpeed10"><s>Camera Speed (Zoom &lt; 10)</s><r>Скорость камеры (увеличение &lt; 10)</r></e>
+  <e k="K" key="CameraSpeed100"><s>Camera Speed (Zoom &lt; 100)</s><r>Скорость камеры (увеличение &lt; 100)</r></e>
+  <e k="K" key="CameraSpeed20"><s>Camera Speed (Zoom &lt; 20)</s><r>Скорость камеры (увеличение &lt; 20)</r></e>
+  <e k="K" key="CameraSpeed200"><s>Camera Speed (Zoom &lt; 200)</s><r>Скорость камеры (увеличение &lt; 200)</r></e>
+  <e k="K" key="CameraSpeed3"><s>Camera Speed (Zoom &lt; 3)</s><r>Скорость камеры (увеличение &lt; 3)</r></e>
+  <e k="K" key="CameraSpeed40"><s>Camera Speed (Zoom &lt; 40)</s><r>Скорость камеры (увеличение &lt; 40)</r></e>
+  <e k="K" key="CameraSpeed5"><s>Camera Speed (Zoom &lt; 5)</s><r>Скорость камеры (увеличение &lt; 5)</r></e>
+  <e k="K" key="CameraSpeed60"><s>Camera Speed (Zoom &lt; 60)</s><r>Скорость камеры (увеличение &lt; 60)</r></e>
+  <e k="K" key="CameraSpeedSettingsTitle"><s>Camera Speed Settings</s><r>Настройки скорости камеры</r></e>
+  <e k="K" key="CameraSpeedSettingsTooltip"><s>Adjust the camera movement speed for each zoom level.
+This controls camera movement speed, not zoom speed.
+You can check the current zoom level via the &quot;Zoom Debug Message&quot; option.
+  </s><r>Отрегулируйте скорость движения камеры для каждого уровня масштабирования.
+Это контролирует скорость движения камеры, а не скорость масштабирования.
+Вы можете проверить текущий уровень масштабирования с помощью опции «Сообщение об ошибке масштабирования».
+  </r></e>
+  <e k="K" key="DefaultValue"><s>Default Value</s><r>Значение по умолчанию</r></e>
+  <e k="K" key="DisplayDistance"><s>Display Distance</s><r>Расстояние отображения</r></e>
+  <e k="K" key="DisplayDistanceTooltip"><s>Display distance for item quantities and progress bars</s><r>Расстояние отображения количества товаров и индикаторов выполнения</r></e>
+  <e k="K" key="FollowMessage"><s>Following Message</s><r>Следующее сообщение</r></e>
+  <e k="K" key="FollowMessageTooltip"><s>Show a message when camera following is turned on or off.</s><r>Показывать сообщение, когда камера слежения включена или выключена.</r></e>
+  <e k="K" key="FollowSmoothTime"><s>Smooth Following</s><r>Плавное следование</r></e>
+  <e k="K" key="FollowSmoothTimeTooltip"><s>Controls how smoothly the camera follows the selected pawn. At 0 the pawn stays locked to the center of the screen; higher values follow more smoothly but let the pawn lag slightly behind. At 0, slight screen jitter may occur.</s><r>Управляет плавностью движения камеры за выбранной пешкой. При значении 0 пешка остается зафиксированной в центре экрана; более высокие значения следуют более плавно, но позволяют пешке немного отставать. При значении 0 может наблюдаться небольшое дрожание экрана.</r></e>
+  <e k="K" key="HideBracket"><s>Hide Pawn Border</s><r>Скрыть границу пешки</r></e>
+  <e k="K" key="HidePawnName"><s>Hide Pawn Name</s><r>Скрыть имя залога</r></e>
+  <e k="K" key="HidePawnNameTooltip"><s>Hide Pawn's name when displaying its silhouette.</s><r>Скрыть имя Пешки при отображении ее силуэта.</r></e>
+  <e k="K" key="SCS_BracketHideMode_Always"><s>Always hide</s><r>Всегда скрывать</r></e>
+  <e k="K" key="SCS_BracketHideMode_Never"><s>Always show</s><r>Всегда показывать</r></e>
+  <e k="K" key="SCS_BracketHideMode_Title"><s>Selection Bracket</s><r>Кронштейн выбора</r></e>
+  <e k="K" key="SCS_BracketHideMode_Tooltip"><s>Choose when to hide the selection brackets.</s><r>Выберите, когда скрывать скобки выбора.</r></e>
+  <e k="K" key="SCS_BracketHideMode_WhenFollowing"><s>Hide when following</s><r>Скрыть при подписке</r></e>
+  <e k="K" key="SilhouetteDistance"><s>Silhouette Distance</s><r>Расстояние силуэта</r></e>
+  <e k="K" key="SilhouetteDistanceTooltip"><s>Set to 100 to disable</s><r>Установите значение 100, чтобы отключить</r></e>
+  <e k="K" key="SimpleCameraSetting"><s>Simple Camera Setting</s><r>Простая настройка камеры</r></e>
+  <e k="K" key="SmoothZoom"><s>Smooth Zoom</s><r>Плавный зум</r></e>
+  <e k="K" key="ZoomDebugMessage"><s>Zoom Debug Message</s><r>Сообщение об ошибке Zoom</r></e>
+  <e k="K" key="ZoomDebugMessageTooltip"><s>Displays the current zoom as a message.</s><r>Отображает текущий масштаб в виде сообщения.</r></e>
+  <e k="K" key="ZoomSpeed"><s>Zoom Speed</s><r>Скорость масштабирования</r></e>
+  <e k="K" key="ZoomSpeed1"><s>Zoom Speed (Zoom &lt; 1)</s><r>Скорость масштабирования (увеличение &lt; 1)</r></e>
+  <e k="K" key="ZoomSpeed10"><s>Zoom Speed (Zoom &lt; 10)</s><r>Скорость масштабирования (увеличение &lt; 10)</r></e>
+  <e k="K" key="ZoomSpeed100"><s>Zoom Speed (Zoom &lt; 100)</s><r>Скорость масштабирования (увеличение &lt; 100)</r></e>
+  <e k="K" key="ZoomSpeed20"><s>Zoom Speed (Zoom &lt; 20)</s><r>Скорость масштабирования (увеличение &lt; 20)</r></e>
+  <e k="K" key="ZoomSpeed200"><s>Zoom Speed (Zoom &lt; 200)</s><r>Скорость масштабирования (увеличение &lt; 200)</r></e>
+  <e k="K" key="ZoomSpeed3"><s>Zoom Speed (Zoom &lt; 3)</s><r>Скорость масштабирования (увеличение &lt; 3)</r></e>
+  <e k="K" key="ZoomSpeed40"><s>Zoom Speed (Zoom &lt; 40)</s><r>Скорость масштабирования (увеличение &lt; 40)</r></e>
+  <e k="K" key="ZoomSpeed5"><s>Zoom Speed (Zoom &lt; 5)</s><r>Скорость масштабирования (увеличение &lt; 5)</r></e>
+  <e k="K" key="ZoomSpeed60"><s>Zoom Speed (Zoom &lt; 60)</s><r>Скорость масштабирования (увеличение &lt; 60)</r></e>
+  <e k="K" key="followCameraKey"><s>Follow Camera Key</s><r>Следуйте за ключом камеры</r></e>
+</AutoTranslateCache>
