@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="ceteam.combatextendedarmory" name="Combat Extended Armory" language="Russian" version="1">
+  <e k="D" t="AmmoSetDef" key="AmmoSet_ArmoryLaserCarbine.label"><s>laser charge</s><r>лазерный заряд</r></e>
+  <e k="D" t="RecipeDef" key="MakeSatchelCharge.description"><s>Craft 5 satchel charges.</s><r>Создайте 5 зарядов ранца.</r></e>
+  <e k="D" t="RecipeDef" key="MakeSatchelCharge.ingredients.2.filter.customSummary"><s>FSX</s><r>ФСХ</r></e>
+  <e k="D" t="RecipeDef" key="MakeSatchelCharge.jobString"><s>Making satchel charges.</s><r>Изготовление ранцевых зарядов.</r></e>
+  <e k="D" t="RecipeDef" key="MakeSatchelCharge.label"><s>make satchel charges x5</s><r>сделать заряды для ранца x5</r></e>
+  <e k="D" t="RecipeDef" key="MakeSmokeBomb.description"><s>Craft 10 smoke bombs.</s><r>Создайте 10 дымовых шашек.</r></e>
+  <e k="D" t="RecipeDef" key="MakeSmokeBomb.ingredients.2.filter.customSummary"><s>древесина, cedar wood, ebony wood, mahogany wood, rosewood, lacquered wood</s><r>древесина, кедр, эбеновое дерево, красное дерево, палисандр, лакированная древесина</r></e>
+  <e k="D" t="RecipeDef" key="MakeSmokeBomb.jobString"><s>Making smoke bombs.</s><r>Изготовление дымовых шашек.</r></e>
+  <e k="D" t="RecipeDef" key="MakeSmokeBomb.label"><s>make smoke bombs x10</s><r>сделать дымовые шашки x10</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_CE_ReinforcedAutodoor.label"><s>reinforced autodoor (проект)</s><r>усиленная автодверь (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_CE_ReinforcedDoor.label"><s>reinforced door (проект)</s><r>reinforced door (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_CE_ReinforcedEmbrasure.label"><s>reinforced embrasure (проект)</s><r>reinforced embrasure (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_CE_ReinforcedWall.label"><s>reinforced wall (проект)</s><r>армированная стена (проект)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Laser_ArmoryLaserCarbine.label"><s>laser beam</s><r>лазерный луч</r></e>
+  <e k="D" t="ThingDef" key="CE_ATFour.description"><s>An unguided, man-portable, disposable, shoulder-fired recoilless anti-tank weapon. It's considered to be one of the most common light anti-tank weapons ever created.</s><r>Неуправляемое переносное одноразовое безоткатное противотанковое оружие с плеча. Считается одним из самых распространенных легких противотанковых средств, когда-либо созданных.</r></e>
+  <e k="D" t="ThingDef" key="CE_ATFour.label"><s>AT4</s><r>АТ4</r></e>
+  <e k="D" t="ThingDef" key="CE_ATFour.tools.0.label"><s>Body</s><r>Тело</r></e>
+  <e k="D" t="ThingDef" key="CE_ATFour.tools.1.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="CE_ATFour.tools.2.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_ATFour.tools.3.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_ATFour.verbs.0.label"><s>AT4</s><r>АТ4</r></e>
+  <e k="D" t="ThingDef" key="CE_Apparel_AssaultShield.description"><s>An advanced shield with integrated sensors to assist with balancing to make it easier to handle. Smaller and lighter than a full-sized ballistic shield, it is designed to protect the user from gunfire. Favoring speed and reduced weight over protection, it is less cumbersome than most shields.</s><r>Усовершенствованный щит со встроенными датчиками, помогающий балансировать и облегчающий управление. Он меньше и легче полноразмерного баллистического щита и предназначен для защиты пользователя от огня. Благодаря скорости и уменьшенному весу, а не защите, он менее громоздкий, чем большинство щитов.</r></e>
+  <e k="D" t="ThingDef" key="CE_Apparel_AssaultShield.label"><s>assault shield</s><r>штурмовой щит</r></e>
+  <e k="D" t="ThingDef" key="CE_Apparel_Buckler.description"><s>An extremely small metal shield, usually paired with a rapier or similiarly light sword. Too small to offer any meaningful protection from incoming projectiles, the buckler is instead designed to deflect and trap a foe's weapon in close-quarters combat.</s><r>Чрезвычайно маленький металлический щит, обычно в сочетании с рапирой или таким же легким мечом. Слишком маленький, чтобы обеспечить какую-либо значимую защиту от летящих снарядов, баклер предназначен для отклонения и захвата оружия противника в ближнем бою.</r></e>
+  <e k="D" t="ThingDef" key="CE_Apparel_Buckler.label"><s>buckler</s><r>баклер</r></e>
+  <e k="D" t="ThingDef" key="CE_Apparel_CompositeArmor.description"><s>Ceramic armor vest with all the available coverage extension addon parts, covering the user from neck to toe. It's rather heavy, impractical for prolonged use, mainly for turret gunners and entrance teams.</s><r>Керамический бронежилет со всеми доступными дополнительными частями расширения покрытия, закрывающими пользователя от шеи до пят. Он достаточно тяжел, непрактичен для длительного использования, в основном для башенных стрелков и входных групп.</r></e>
+  <e k="D" t="ThingDef" key="CE_Apparel_CompositeArmor.label"><s>composite armor</s><r>композитная броня</r></e>
+  <e k="D" t="ThingDef" key="CE_Apparel_Gorka.description"><s>An outer bodysuit padded with armor fabrics for protection of limbs against shrapnel. Comes with a pair and boots and gloves.</s><r>Внешний комбинезон с подкладкой из бронеткани для защиты конечностей от шрапнели. В комплекте пара, ботинки и перчатки.</r></e>
+  <e k="D" t="ThingDef" key="CE_Apparel_Gorka.label"><s>gorka combat bodysuit</s><r>боевое боди горка</r></e>
+  <e k="D" t="ThingDef" key="CE_Apparel_HeavyCompositeHelmet.description"><s>A thick, heavy composite helmet with faceshield and a rifle rated forehead plate, worn with a soft armor collar, mainly used by turret gunners.</s><r>Толстый, тяжелый композитный шлем с лицевым щитком и налобной пластиной винтовочного типа, носимый с мягким броневым воротником, в основном используемый турельными стрелками.</r></e>
+  <e k="D" t="ThingDef" key="CE_Apparel_HeavyCompositeHelmet.label"><s>heavy composite helmet</s><r>тяжелый композитный шлем</r></e>
+  <e k="D" t="ThingDef" key="CE_Apparel_Pavise.description"><s>A large, heavy shield made of rough-hewn planks. Designed to protect archers and crossbowmen from incoming projectiles, it is extremely cumbersome in hand-to-hand combat.</s><r>Большой и тяжелый щит из грубо отесанных досок. Созданный для защиты лучников и арбалетчиков от летящих снарядов, он чрезвычайно громоздок в рукопашном бою.</r></e>
+  <e k="D" t="ThingDef" key="CE_Apparel_Pavise.label"><s>pavise</s><r>пависе</r></e>
+  <e k="D" t="ThingDef" key="CE_Apparel_WickerShield.description"><s>A lightweight shield made of wicker, once used by infantry of the ancient Persian empire. While effective against arrows and other projectiles, it is not sturdy enough to stop the thrust of a spear or sword.</s><r>Легкий плетеный щит, когда-то использовавшийся пехотой древней Персидской империи. Хотя он эффективен против стрел и других снарядов, он недостаточно прочен, чтобы остановить удар копья или меча.</r></e>
+  <e k="D" t="ThingDef" key="CE_Apparel_WickerShield.label"><s>wicker shield</s><r>плетеный щит</r></e>
+  <e k="D" t="ThingDef" key="CE_AutoloaderElectric.description"><s>An automatic reloading system designed to resupply adjacent turrets.
+
+It can reload turrets directly from ammo in the loader, improving reload time and ammo capacity.</s><r>Автоматическая система перезарядки, предназначенная для пополнения запасов соседних турелей.
+
+Она может перезаряжать турели непосредственно из боеприпасов в заряжающем устройстве, что сокращает время перезарядки и увеличивает боезапас.</r></e>
+  <e k="D" t="ThingDef" key="CE_AutoloaderElectric.label"><s>autoloader</s><r>автозагрузчик</r></e>
+  <e k="D" t="ThingDef" key="CE_AutoloaderManualHiCal.description"><s>A versatile crate to hold ammunition belts prepared for adjacent turrets.
+
+The colonist manning it can reload turrets directly from ammo in the crate, improving reload time and keeping them out of the line of fire.</s><r>Универсальный ящик для хранения лент с боеприпасами, подготовленных для соседних турелей.
+
+Колонист, находящийся в нем, может перезаряжать турели непосредственно из боеприпасов в ящике, сокращая время перезарядки и удерживая их вне линии огня.</r></e>
+  <e k="D" t="ThingDef" key="CE_AutoloaderManualHiCal.label"><s>ammo crate</s><r>ящик с боеприпасами</r></e>
+  <e k="D" t="ThingDef" key="CE_EmplacementGun_PKM.description"><s>PKM light machine gun mounted on a tripod.</s><r>Ручной пулемет ПКМ, установленный на треноге.</r></e>
+  <e k="D" t="ThingDef" key="CE_EmplacementGun_PKM.label"><s>PKM machine gun</s><r>Пулемет ПКМ</r></e>
+  <e k="D" t="ThingDef" key="CE_EmplacementGun_PKM.verbs.0.label"><s>PKM machine gun</s><r>Пулемет ПКМ</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_12PounderBombard.description"><s>12-pounder siege mortar mounted on a carriage.</s><r>12-фунтовая осадная мортира, установленная на лафете.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_12PounderBombard.label"><s>12-pounder bombard</s><r>12-фунтовая бомбарда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_12PounderBombard.verbs.0.label"><s>12-pounder bombard</s><r>12-фунтовая бомбарда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_AK74GL.description"><s>Ancient military weapon chambered for an intermediate cartridge with an underbarrel 40mm grenade launcher. The simple design makes it easy to assemble and highly reliable.</s><r>Старинное боевое оружие под промежуточный патрон с подствольным 40-мм гранатометом. Простая конструкция обеспечивает простоту сборки и высокую надежность.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_AK74GL.label"><s>AK-74 + GP-25</s><r>АК-74 + ГП-25</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_AK74GL.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_AK74GL.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_AK74GL.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_AK74GL.verbs.0.label"><s>AK-74 + GP-25</s><r>АК-74 + ГП-25</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_AKSSeventyFourU.verbs.0.label"><s>AKS-74U</s><r>АКС-74У</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_AKTwelve.verbs.0.label"><s>AK-12</s><r>АК-12</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_AVB.description"><s>Ancient military battle rifle firing a full-power rifle cartridge. It is characterized by significantly reduced recoil.</s><r>Древняя военная боевая винтовка, стреляющая винтовочным патроном полной мощности. Характеризуется значительно уменьшенной отдачей.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_AVB.label"><s>AVB-7.62</s><r>АВБ-7.62</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_AVB.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_AVB.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_AVB.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_AVB.verbs.0.label"><s>AVB-7.62</s><r>АВБ-7.62</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_AmericanOneEighty.description"><s>Ancient submachine gun design, fires a small cartridge at a very fast rate and holds a lot of ammunition in a pan magazine.</s><r>Древняя конструкция пистолета-пулемета, стреляет небольшими патронами с очень высокой скоростью и вмещает большое количество боеприпасов в магазин.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_AmericanOneEighty.label"><s>American-180</s><r>Американец-180</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_AmericanOneEighty.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_AmericanOneEighty.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_AmericanOneEighty.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_AmericanOneEighty.verbs.0.label"><s>American-180</s><r>Американец-180</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_BAR.comps.6.standardLabel"><s>switch to fast-firing mode</s><r>переключиться в режим скоростной стрельбы</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_BAR.comps.6.underBarrelLabel"><s>switch to slow-firing mode</s><r>перейти в режим медленной стрельбы</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_BAR.description"><s>Ancient fully automatic battle rifle firing a full-power cartridge.</s><r>Древняя полностью автоматическая боевая винтовка, стреляющая полноценным патроном.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_BAR.label"><s>Browning Automatic Rifle</s><r>Автоматическая винтовка Браунинг</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_BAR.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_BAR.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_BAR.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_BAR.verbs.0.label"><s>Browning Automatic Rifle</s><r>Автоматическая винтовка Браунинг</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_BigBoy.description"><s>An archaic design, this lever-action repeating rifle is quite popular among rimworld herders. Comes equipped with a scope.</s><r>Эта магазинная винтовка с рычажным механизмом архаичного дизайна весьма популярна среди пастухов Кольца. Оснащен прицелом.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_BigBoy.label"><s>Henry Big Boy</s><r>Генри Биг Бой</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_BigBoy.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_BigBoy.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_BigBoy.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_BigBoy.verbs.0.label"><s>Henry Big Boy</s><r>Генри Биг Бой</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_BoysRifle.description"><s>Ancient bolt-action anti-tank rifle. Although obsolete against actual tanks, it fires an anti-materiel cartridge and is still used by rimworlders against moderately armored targets.</s><r>Древнее противотанковое ружье с продольно-скользящим затвором. Хотя он и устарел для борьбы с настоящими танками, он стреляет противотанковыми патронами и до сих пор используется жителями Кольца против умеренно бронированных целей.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_BoysRifle.label"><s>Boys anti-tank rifle</s><r>Противотанковое ружье для мальчиков.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_BoysRifle.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_BoysRifle.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_BoysRifle.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_BoysRifle.verbs.0.label"><s>Boys anti-tank rifle</s><r>Противотанковое ружье для мальчиков.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_CarlGustaf.description"><s>A lightweight, relatively low-cost recoilless rifle that uses a wide range of ammunition, extremely flexible and suitable for a wide variety of roles. Equiped with an advanced scope that comes with a laser rangefinder and an image intensification system.</s><r>Легкая и относительно недорогая безоткатная винтовка, использующая широкий спектр боеприпасов, чрезвычайно гибкая и подходящая для самых разных задач. Оснащен усовершенствованным прицелом с лазерным дальномером и системой усиления изображения.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_CarlGustaf.label"><s>Carl Gustaf</s><r>Карл Густав</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_CarlGustaf.tools.0.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_CarlGustaf.verbs.0.label"><s>Carl Gustaf</s><r>Карл Густав</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_DPtwentySeven.description"><s>Ancient gas-operated light machine gun design equipped with an iconic pan magazine.</s><r>Древняя конструкция ручного газового пулемета с культовым коробчатым магазином.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_DPtwentySeven.label"><s>DP-27</s><r>ДП-27</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_DPtwentySeven.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_DPtwentySeven.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_DPtwentySeven.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_DPtwentySeven.verbs.0.label"><s>DP-27</s><r>ДП-27</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_Deagke.description"><s>A gas-operated semi-automatic pistol firing a powerful handgun cartridge.</s><r>Газовый полуавтоматический пистолет, стреляющий мощным пистолетным патроном.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_Deagke.label"><s>Desert Eagle</s><r>Пустынный орел</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_Deagke.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_Deagke.tools.1.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_Deagke.verbs.0.label"><s>Desert Eagle</s><r>Пустынный орел</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_FNFiveSeven.description"><s>A lightweight pistol that utilizes specialized rounds to eliminate lightly armored opponents.</s><r>Легкий пистолет, в котором используются специальные патроны для уничтожения легкобронированных противников.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_FNFiveSeven.label"><s>Five-seveN</s><r>Пять-семьN</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_FNFiveSeven.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_FNFiveSeven.tools.1.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_FNFiveSeven.verbs.0.label"><s>Five-seveN</s><r>Пять-семьN</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_FightLiteMCR.description"><s>A belt-fed lightweight squad automatic weapon, bridges the gap between an assault rifle and a LMG.</s><r>Легкий расчетный автоматический пистолет с ленточным питанием заполняет пробел между штурмовой винтовкой и ручным пулеметом.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_FightLiteMCR.label"><s>FightLite MCR</s><r>FightLite MCR</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_FightLiteMCR.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_FightLiteMCR.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_FightLiteMCR.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_FightLiteMCR.verbs.0.label"><s>FightLite MCR</s><r>FightLite MCR</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_GatlingGun.description"><s>Gatling gun mounted on a carriage.</s><r>Пистолет Гатлинга, установленный на лафете.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_GatlingGun.label"><s>Gatling gun</s><r>Гатлинг-пистолет</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_GatlingGun.verbs.0.label"><s>Gatling gun</s><r>Гатлинг-пистолет</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_HandMortar.description"><s>A simple flintlock firearm and early predecessor of modern grenade launchers, capable of throwing fused grenades.</s><r>Простое огнестрельное оружие с кремневым замком и ранний предшественник современных гранатометов, способное бросать взрывающиеся гранаты.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_HandMortar.label"><s>hand mortar</s><r>ручной миномет</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_HandMortar.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_HandMortar.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_HandMortar.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_HandMortar.verbs.0.label"><s>hand mortar</s><r>ручной миномет</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_HenrySideGate.description"><s>Ancient lever-action repeating shotgun chambered in small shotgun shells designed for self-defense.</s><r>Древнее магазинное ружье рычажного действия с небольшими патронами для дробовика, предназначенное для самообороны.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_HenrySideGate.label"><s>Henry Side Gate</s><r>Генри Сайд Гейт</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_HenrySideGate.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_HenrySideGate.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_HenrySideGate.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_HenrySideGate.verbs.0.label"><s>Henry Side Gate</s><r>Генри Сайд Гейт</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_Jericho.description"><s>A lightweight semi-automatic pistol that utilizes a commonly available pistol cartridge.</s><r>Легкий полуавтоматический пистолет, в котором используется общедоступный пистолетный патрон.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_Jericho.label"><s>Jericho 941</s><r>Иерихон 941</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_Jericho.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_Jericho.tools.1.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_Jericho.verbs.0.label"><s>Jericho 941</s><r>Иерихон 941</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_KSTwentyThree.description"><s>An ancient pump-action shotgun with a rifled barrel, chambered in large 23mm caliber shells.</s><r>Древнее помповое ружье с нарезным стволом под крупные патроны калибра 23 мм.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_KSTwentyThree.label"><s>KS-23</s><r>КС-23</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_KSTwentyThree.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_KSTwentyThree.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_KSTwentyThree.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_KSTwentyThree.verbs.0.label"><s>KS-23</s><r>КС-23</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_KelTecCPThirtyThree.description"><s>A lightweight semi-automatic pistol firing a small round that features a large magazine.</s><r>Легкий полуавтоматический пистолет, стреляющий небольшими патронами с большим магазином.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_KelTecCPThirtyThree.label"><s>KelTec CP33</s><r>КелТек CP33</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_KelTecCPThirtyThree.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_KelTecCPThirtyThree.tools.1.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_KelTecCPThirtyThree.verbs.0.label"><s>KelTec CP33</s><r>КелТек CP33</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_KordPortable.description"><s>Ancient heavy machine gun in a portable configuration. Comes equipped with a scope.</s><r>Старинный крупнокалиберный пулемет в переносной конфигурации. Оснащен прицелом.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_KordPortable.label"><s>Kord 6P50 machine gun</s><r>Пулемет Корд 6П50.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_KordPortable.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_KordPortable.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_KordPortable.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_KordPortable.verbs.0.label"><s>Kord 6P50 machine gun</s><r>Пулемет Корд 6П50.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_LaserCarbine.description"><s>A pulsed-laser assault carbine. The focused lens used makes the weapon primarily effective at closer ranges.</s><r>Штурмовой карабин с импульсным лазером. Используемая сфокусированная линза делает оружие в первую очередь эффективным на ближних дистанциях.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_LaserCarbine.label"><s>LAS-40C</s><r>ЛАС-40С</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_LaserCarbine.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_LaserCarbine.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_LaserCarbine.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_LaserCarbine.verbs.0.label"><s>LAS-40C</s><r>ЛАС-40С</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_Lewis.description"><s>Ancient gas-operated light machine gun equipped with an iconic barrel cooling shroud.</s><r>Древний газовый ручной пулемет, оснащенный культовым кожухом охлаждения ствола.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_Lewis.label"><s>Lewis gun</s><r>Пистолет Льюиса</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_Lewis.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_Lewis.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_Lewis.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_Lewis.verbs.0.label"><s>Lewis gun</s><r>Пистолет Льюиса</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_M1903Springfield.description"><s>Ancient bolt-action rifle. Fires a full-power rifle cartridge and is a popular choice in the rimworlds due to its shear firepower and simplicity. Comes equipped with a scope.</s><r>Древняя винтовка с продольно-скользящим затвором. Стреляет полноценным винтовочным патроном и является популярным выбором в периферийных мирах из-за своей огневой мощи и простоты. Оснащен прицелом.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_M1903Springfield.label"><s>M1903 Springfield</s><r>M1903 Спрингфилд</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_M1903Springfield.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_M1903Springfield.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_M1903Springfield.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_M1903Springfield.verbs.0.label"><s>M1903 Springfield</s><r>M1903 Спрингфилд</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_M1917Enfield.description"><s>Ancient bolt-action rifle. Fires a full-power rifle cartridge and is a popular choice in the rimworlds due to its shear firepower and simplicity.</s><r>Древняя винтовка с продольно-скользящим затвором. Стреляет полноценным винтовочным патроном и является популярным выбором в периферийных мирах из-за своей огневой мощи и простоты.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_M1917Enfield.label"><s>M1917 Enfield</s><r>M1917 Энфилд</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_M1917Enfield.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_M1917Enfield.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_M1917Enfield.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_M1917Enfield.verbs.0.label"><s>M1917 Enfield</s><r>M1917 Энфилд</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_M1919Browning.description"><s>M1919 air cooled machine gun mounted on a tripod.</s><r>Пулемет М1919 с воздушным охлаждением, установленный на треноге.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_M1919Browning.label"><s>M1919 machine gun</s><r>Пулемет М1919</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_M1919Browning.verbs.0.label"><s>M1919 machine gun</s><r>Пулемет М1919</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_M1Garand.description"><s>Ancient semi-automatic battle rifle. Fires a full-power rifle cartridge and is still in service due to its shear firepower and simplicity.</s><r>Древняя полуавтоматическая боевая винтовка. Стреляет винтовочным патроном полной мощности и до сих пор находится на вооружении благодаря своей огневой мощи и простоте.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_M1Garand.label"><s>M1 Garand</s><r>М1 Гаранд</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_M1Garand.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_M1Garand.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_M1Garand.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_M1Garand.verbs.0.label"><s>M1 Garand</s><r>М1 Гаранд</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_M2HB.description"><s>Heavy machine gun for use against light vehicles.</s><r>Тяжелый пулемет для использования против легкой техники.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_M2HB.label"><s>M2 Browning machine gun</s><r>Пулемет М2 Браунинг</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_M2HB.verbs.0.label"><s>M2 Browning machine gun</s><r>Пулемет М2 Браунинг</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_M82A2Barrett.description"><s>Ancient over the shoulder mounted anti-material rifle. Semi automatic and fitted with a reflex slight, low range, high damage.</s><r>Древняя антиматериальная винтовка через плечо. Полуавтоматический, оснащен легким рефлексом, малой дальностью, высоким уроном.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_M82A2Barrett.label"><s>Barrett M82A2</s><r>Барретт M82A2</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_M82A2Barrett.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_M82A2Barrett.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_M82A2Barrett.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_M82A2Barrett.verbs.0.label"><s>Barrett M82A2</s><r>Барретт M82A2</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MGThreeThreeEight.description"><s>Ancient lightweight medium machine gun. The MG 338 is designed to bridge the gap between light machine gun and heavy machine gun calibers making use of a bigger cartridge while being lighter than other machine gun designs.</s><r>Древний легкий средний пулемет. MG 338 предназначен для преодоления разрыва между калибрами ручных и крупнокалиберных пулеметов, используя патрон большего размера, но при этом он легче, чем пулеметы других конструкций.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MGThreeThreeEight.label"><s>MG 338</s><r>МГ 338</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MGThreeThreeEight.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MGThreeThreeEight.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MGThreeThreeEight.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MGThreeThreeEight.verbs.0.label"><s>MG 338</s><r>МГ 338</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MSeven.description"><s>Ancient military battle rifle firing a full-power rifle cartridge.</s><r>Древняя военная боевая винтовка, стреляющая винтовочным патроном полной мощности.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MSeven.label"><s>M7</s><r>М7</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MSeven.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MSeven.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MSeven.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MSeven.verbs.0.label"><s>M7</s><r>М7</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MTwoFifty.description"><s>Ancient belt-fed general-purpose machine gun. Lots of firepower firing a full-power rifle cartridge.</s><r>Древний универсальный пулемет с ленточным питанием. Огромная огневая мощь при стрельбе полноценным винтовочным патроном.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MTwoFifty.label"><s>M250</s><r>М250</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MTwoFifty.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MTwoFifty.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MTwoFifty.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MTwoFifty.verbs.0.label"><s>M250</s><r>М250</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MadsenLMG.description"><s>Ancient recoil-operated light machine gun, considered to be the first true LMG produced in large quantities.</s><r>Древний ручной пулемет с приводом от отдачи, который считается первым настоящим ручным пулеметом, производимым в больших количествах.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MadsenLMG.label"><s>Madsen machine gun</s><r>Пулемет Мадсена</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MadsenLMG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MadsenLMG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MadsenLMG.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MadsenLMG.verbs.0.label"><s>Madsen machine gun</s><r>Пулемет Мадсена</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MicroUzi.description"><s>Ancient compact submachine gun design with a foldable stock, fires a pistol cartridge at very high fire rates.</s><r>Старинный компактный пистолет-пулемет со складным прикладом позволяет вести стрельбу пистолетными патронами с очень высокой скорострельностью.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MicroUzi.label"><s>Micro Uzi</s><r>Микро Узи</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MicroUzi.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MicroUzi.tools.1.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MicroUzi.verbs.0.label"><s>Micro Uzi</s><r>Микро Узи</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MkNineteenGL.description"><s>Mk 19 attached to a tripod.</s><r>Mk 19 прикреплен к треноге.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MkNineteenGL.label"><s>Mk 19 grenade launcher</s><r>Гранатомет Мк 19</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MkNineteenGL.verbs.0.label"><s>Mk 19 grenade launcher</s><r>Гранатомет Мк 19</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MosinNagant.description"><s>Ancient bolt-action rifle. Fires a full-power rifle cartridge and is one of the most mass-produced military bolt-action rifles in history.</s><r>Древняя винтовка с продольно-скользящим затвором. Стреляет полнозарядным винтовочным патроном и является одной из самых массовых военных винтовок с продольно-скользящим затвором в истории.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MosinNagant.label"><s>Mosin-Nagant</s><r>Мосин-Наган</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MosinNagant.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MosinNagant.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MosinNagant.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MosinNagant.verbs.0.label"><s>Mosin-Nagant</s><r>Мосин-Наган</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MosqueFAL.description"><s>Ancient bolt-action rifle. Fires a common full-power rifle cartridge, a popular choice among the rimworlders due to its simplicity.</s><r>Древняя винтовка с продольно-скользящим затвором. Стреляет обычным винтовочным патроном полной мощности, популярным среди жителей Кольца из-за его простоты.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MosqueFAL.label"><s>MosqueFAL</s><r>МечетьФАЛ</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MosqueFAL.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MosqueFAL.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MosqueFAL.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_MosqueFAL.verbs.0.label"><s>MosqueFAL</s><r>МечетьФАЛ</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_OrganGun.description"><s>Organ Gun mounted on a carriage.</s><r>Органная пушка, установленная на каретке.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_OrganGun.label"><s>organ gun</s><r>органная пушка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_OrganGun.verbs.0.label"><s>organ gun</s><r>органная пушка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_PNinety.description"><s>A personal defense weapon which uses a specialized round to penetrate lightly armored opponents.</s><r>Оружие индивидуальной защиты, в котором используется специальный снаряд для пробития легкобронированных противников.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_PNinety.label"><s>P90</s><r>Р90</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_PNinety.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_PNinety.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_PNinety.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_PNinety.verbs.0.label"><s>P90</s><r>Р90</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_PortableMortar.description"><s>60mm mortar gun.</s><r>60-мм миномет.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_PortableMortar.label"><s>60mm mortar</s><r>60-мм миномет</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_PortableMortar.verbs.0.label"><s>60mm mortar</s><r>60-мм миномет</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_RPKSixteen.description"><s>A light support weapon, equipped with a drum magazine to ensure sustained automatic firepower.</s><r>Легкое орудие поддержки, оснащенное барабанным магазином для обеспечения постоянной автоматической огневой мощи.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_RPKSixteen.label"><s>RPK-16</s><r>РПК-16</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_RPKSixteen.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_RPKSixteen.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_RPKSixteen.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_RPKSixteen.verbs.0.label"><s>RPK-16</s><r>РПК-16</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_SPGNine.description"><s>SPG-9 recoilless gun mounted on a tripod.</s><r>Безоткатное орудие СПГ-9, установленное на треноге.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_SPGNine.label"><s>SPG-9 recoilless gun</s><r>Безоткатное орудие СПГ-9</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_SPGNine.verbs.0.label"><s>SPG-9 recoilless gun</s><r>Безоткатное орудие СПГ-9</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_SRS.description"><s>Ancient bolt-action sniper rifle in bullpup design. Combines a powerful cartridge with a high-magnification scope for sniping at long range.</s><r>Старинная снайперская винтовка с продольно-скользящим затвором в исполнении булл-пап. Сочетает в себе мощный патрон и прицел с большой кратностью для снайперской стрельбы на больших дистанциях.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_SRS.label"><s>SRS</s><r>СРС</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_SRS.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_SRS.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_SRS.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_SRS.verbs.0.label"><s>SRS</s><r>СРС</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_SRTweintyFive.description"><s>Ancient semi-automatic designated marksman rifle with a fairly reliable assembly.</s><r>Древняя полуавтоматическая стрелковая винтовка с достаточно надежной сборкой.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_SRTweintyFive.label"><s>SR-25</s><r>СР-25</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_SRTweintyFive.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_SRTweintyFive.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_SRTweintyFive.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_SRTweintyFive.verbs.0.label"><s>SR-25</s><r>СР-25</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_SawedOff.description"><s>A double-barrel shotgun with a cut-off barrel for easier concealment and indoor deployment in urban areas.</s><r>Двуствольное ружье с обрезанным стволом для облегчения маскировки и применения в городских условиях.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_SawedOff.label"><s>sawed-off shotgun</s><r>обрез</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_SawedOff.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_SawedOff.tools.1.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_SawedOff.verbs.0.label"><s>sawed-off shotgun</s><r>обрез</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_ShotgunTurret.description"><s>A simple shotgun on a turret mount.</s><r>Простой дробовик на турельной установке.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_ShotgunTurret.label"><s>shotgun auto-turret gun</s><r>дробовик</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_ShotgunTurret.verbs.0.label"><s>shotgun auto-turret gun</s><r>дробовик</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_TacFifty.verbs.0.label"><s>Tac-50</s><r>Так-50</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_TaurusJudge.verbs.0.label"><s>Taurus Judge</s><r>Телец Судья</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_TavorSeven.description"><s>Ancient battle rifle design, in bullpup configuration for increased compactability and easier handling.</s><r>Древняя конструкция боевой винтовки в конфигурации булл-пап для большей компактности и простоты обращения.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_TavorSeven.label"><s>Tavor 7</s><r>Тавор 7</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_TavorSeven.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_TavorSeven.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_TavorSeven.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_TavorSeven.verbs.0.label"><s>Tavor 7</s><r>Тавор 7</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_TwelvePounder.description"><s>12-pounder cannon mounted on a carriage.</s><r>12-фунтовая пушка, установленная на лафете.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_TwelvePounder.label"><s>12-pounder cannon</s><r>12-фунтовая пушка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_TwelvePounder.verbs.0.label"><s>12-pounder cannon</s><r>12-фунтовая пушка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_Uzi.description"><s>Ancient submachine gun design with a collapsible stock, fires a fast moving pistol cartridge.</s><r>Старинный пистолет-пулемет со складным прикладом, стреляющий быстродвижущимися пистолетными патронами.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_Uzi.label"><s>Uzi</s><r>Узи</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_Uzi.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_Uzi.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_Uzi.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_Uzi.verbs.0.label"><s>Uzi</s><r>Узи</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_Vickers.description"><s>Vickers water cooled machine gun mounted on a tripod.</s><r>Пулемет Vickers с водяным охлаждением установлен на треноге.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_Vickers.label"><s>Vickers machine gun</s><r>Пулемет Виккерс</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_Vickers.verbs.0.label"><s>Vickers machine gun</s><r>Пулемет Виккерс</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_WallGun.description"><s>A massive smoothbore flintlock firearm capable of firing large caliber rounds, essentially a scaled-up version of the standard infantry musket designed to break the advance of enemy troops.</s><r>Массивное гладкоствольное огнестрельное оружие с кремневым замком, способное стрелять патронами большого калибра, по существу увеличенная версия стандартного пехотного мушкета, предназначенная для срыва продвижения войск противника.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_WallGun.label"><s>wall gun</s><r>настенный пистолет</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_WallGun.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_WallGun.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_WallGun.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_WallGun.verbs.0.label"><s>wall gun</s><r>настенный пистолет</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_WinchesterEightySix.description"><s>Ancient lever-action repeating rifle chambered in a powerful rifle cartridge.</s><r>Старинная магазинная винтовка с рычажным механизмом под мощный винтовочный патрон.</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_WinchesterEightySix.label"><s>Winchester Model 1886</s><r>Винчестер Модель 1886 года</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_WinchesterEightySix.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_WinchesterEightySix.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_WinchesterEightySix.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="CE_Gun_WinchesterEightySix.verbs.0.label"><s>Winchester Model 1886</s><r>Винчестер Модель 1886 года</r></e>
+  <e k="D" t="ThingDef" key="CE_Melee_BecDeCorbin.description"><s>A medieval polearm consisting of a wooden haft mounted with a metallic head designed for tearing into plate armor, mail, or gambeson. The head bore a beak-like spike, a hammer head and a spike projecting from the end of the haft.</s><r>Средневековое древковое оружие, состоящее из деревянной рукояти с металлической головкой, предназначенной для разрывания пластинчатых доспехов, кольчуги или гамбезона. На голове имелся шип, похожий на клюв, головка молота и шип, выступающий из конца древка.</r></e>
+  <e k="D" t="ThingDef" key="CE_Melee_BecDeCorbin.label"><s>bec de corbin</s><r>лампа Корбина</r></e>
+  <e k="D" t="ThingDef" key="CE_Melee_BecDeCorbin.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="CE_Melee_BecDeCorbin.tools.1.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="CE_Melee_BecDeCorbin.tools.2.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="CE_Melee_Machete.description"><s>A short, broad blade suited for chopping or slashing. Though designed for agricultural purposes, it makes for a grisly weapon, commonly used in bush wars and rebellions.</s><r>Короткое и широкое лезвие, подходящее для рубящих или рубящих ударов. Хотя он предназначен для сельскохозяйственных целей, он представляет собой ужасное оружие, обычно используемое в войнах и восстаниях.</r></e>
+  <e k="D" t="ThingDef" key="CE_Melee_Machete.label"><s>machete</s><r>мачете</r></e>
+  <e k="D" t="ThingDef" key="CE_Melee_Machete.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="CE_Melee_Machete.tools.1.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="CE_Melee_Pollaxe.description"><s>A medieval polearm consisting of a wooden haft mounted with a metallic head widely used by infantry to defeat the plate armor of that time. The head bore an axe blade, a hammer head and a spike projecting from the end of the haft.</s><r>Средневековое древковое оружие, состоящее из деревянной рукояти с металлической головкой, широко использовавшееся пехотой для поражения пластинчатых доспехов того времени. На голове было лезвие топора, головка молота и шип, выступающий из конца древка.</r></e>
+  <e k="D" t="ThingDef" key="CE_Melee_Pollaxe.label"><s>pollaxe</s><r>минтай</r></e>
+  <e k="D" t="ThingDef" key="CE_Melee_Pollaxe.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="CE_Melee_Pollaxe.tools.1.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="CE_Melee_Pollaxe.tools.2.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="CE_Melee_Pollaxe.tools.3.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="CE_Melee_QuarterStaff.description"><s>A shaped stick roughly six feet long, traditionally made from hardwood taken from the center of a tree and occasionally fitted with iron tips. While simple, it can be deadly in the right hands. Also useful when handling livestock or traversing rough terrain.</s><r>Палка определенной формы длиной примерно шесть футов, традиционно изготавливаемая из твердой древесины, взятая из центра дерева и иногда снабженная железными наконечниками. Хотя это и просто, в умелых руках оно может оказаться смертельным. Также полезно при работе со скотом или при передвижении по пересеченной местности.</r></e>
+  <e k="D" t="ThingDef" key="CE_Melee_QuarterStaff.label"><s>quarterstaff</s><r>посох</r></e>
+  <e k="D" t="ThingDef" key="CE_Melee_QuarterStaff.tools.0.label"><s>shaft</s><r>вал</r></e>
+  <e k="D" t="ThingDef" key="CE_Melee_QuarterStaff.tools.1.label"><s>shaft</s><r>вал</r></e>
+  <e k="D" t="ThingDef" key="CE_Melee_Saber.description"><s>A one-edged sword, usually slightly curved, used especially by cavalry.</s><r>Однолезвийный меч, обычно слегка изогнутый, используемый преимущественно кавалерией.</r></e>
+  <e k="D" t="ThingDef" key="CE_Melee_Saber.label"><s>saber</s><r>сабля</r></e>
+  <e k="D" t="ThingDef" key="CE_Melee_Saber.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="CE_Melee_Saber.tools.1.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="CE_Melee_Saber.tools.2.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="CE_Proj_SatchelCharge.label"><s>satchel charge</s><r>заряд ранца</r></e>
+  <e k="D" t="ThingDef" key="CE_Proj_SmokeBomb.label"><s>smoke bomb</s><r>дымовая бомба</r></e>
+  <e k="D" t="ThingDef" key="CE_ReinforcedAutodoor.description"><s>An autodoor reinforced with steel plates. Stronger than normal autodoors. Divides rooms. Powered operation allows people to move through the door without slowing down.</s><r>Автодверь, усиленная стальными пластинами. Прочнее обычных автодверей. Разделяет комнаты. Работа с электроприводом позволяет людям проходить через дверь, не замедляя скорость.</r></e>
+  <e k="D" t="ThingDef" key="CE_ReinforcedAutodoor.label"><s>reinforced autodoor</s><r>усиленная автодверь</r></e>
+  <e k="D" t="ThingDef" key="CE_ReinforcedDoor.description"><s>A door reinforced with steel plates. Stronger than normal doors. Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of.</s><r>Дверь усилена стальными пластинами. Прочнее обычных дверей. Разделяет комнаты. Простые двери приходится открывать вручную, что замедляет работу людей. Величина замедления зависит от того, из чего сделана дверь.</r></e>
+  <e k="D" t="ThingDef" key="CE_ReinforcedDoor.label"><s>reinforced door</s><r>усиленная дверь</r></e>
+  <e k="D" t="ThingDef" key="CE_ReinforcedEmbrasure.description"><s>A strong impassable wall reinforced with steel plates made to withstand lots of abuse and direct explosions. Capable of holding up a roof. Designed with tactical holes to see and fire through.</s><r>Мощная непроходимая стена, усиленная стальными пластинами, способная выдержать множество злоупотреблений и прямых взрывов. Способен держать крышу. Разработан с тактическими отверстиями, через которые можно видеть и стрелять.</r></e>
+  <e k="D" t="ThingDef" key="CE_ReinforcedEmbrasure.label"><s>reinforced embrasure</s><r>усиленная амбразура</r></e>
+  <e k="D" t="ThingDef" key="CE_ReinforcedWall.description"><s>A strong impassable wall reinforced with steel plates made to withstand lots of abuse and direct explosions. Capable of holding up a roof.</s><r>Мощная непроходимая стена, усиленная стальными пластинами, способная выдержать множество злоупотреблений и прямых взрывов. Способен держать крышу.</r></e>
+  <e k="D" t="ThingDef" key="CE_ReinforcedWall.label"><s>reinforced wall</s><r>усиленная стена</r></e>
+  <e k="D" t="ThingDef" key="CE_Turret_12PounderBombard.description"><s>12-pounder siege mortar mounted on a carriage.</s><r>12-фунтовая осадная мортира, установленная на лафете.</r></e>
+  <e k="D" t="ThingDef" key="CE_Turret_12PounderBombard.label"><s>12-pounder bombard</s><r>12-фунтовая бомбарда</r></e>
+  <e k="D" t="ThingDef" key="CE_Turret_GatlingGun.description"><s>A rapid-firing multi-barrel Gatling gun mounted on a carriage.</s><r>Скорострельная многоствольная пушка Гатлинга, установленная на лафете.</r></e>
+  <e k="D" t="ThingDef" key="CE_Turret_GatlingGun.label"><s>Gatling gun</s><r>Гатлинг-пистолет</r></e>
+  <e k="D" t="ThingDef" key="CE_Turret_M1919Browning.description"><s>M1919 air cooled machine gun mounted on a tripod.</s><r>Пулемет М1919 с воздушным охлаждением, установленный на треноге.</r></e>
+  <e k="D" t="ThingDef" key="CE_Turret_M1919Browning.label"><s>M1919 machine gun</s><r>Пулемет М1919</r></e>
+  <e k="D" t="ThingDef" key="CE_Turret_M2HB.description"><s>M2 Browning heavy machine gun mounted on a tripod.</s><r>Крупнокалиберный пулемет М2 Браунинг, установленный на треноге.</r></e>
+  <e k="D" t="ThingDef" key="CE_Turret_M2HB.label"><s>M2 Browning machine gun</s><r>Пулемет М2 Браунинг</r></e>
+  <e k="D" t="ThingDef" key="CE_Turret_MkNineteenGL.description"><s>Automatic grenade launcher mounted on a tripod.</s><r>Автоматический гранатомет установлен на треноге.</r></e>
+  <e k="D" t="ThingDef" key="CE_Turret_MkNineteenGL.label"><s>Mk 19 grenade launcher</s><r>Гранатомет Мк 19</r></e>
+  <e k="D" t="ThingDef" key="CE_Turret_OrganGun.description"><s>Organ Gun mounted on a carriage.</s><r>Органная пушка, установленная на каретке.</r></e>
+  <e k="D" t="ThingDef" key="CE_Turret_OrganGun.label"><s>organ gun</s><r>органная пушка</r></e>
+  <e k="D" t="ThingDef" key="CE_Turret_PKM.description"><s>PKM light machine gun mounted on a tripod.</s><r>Ручной пулемет ПКМ, установленный на треноге.</r></e>
+  <e k="D" t="ThingDef" key="CE_Turret_PKM.label"><s>PKM machine gun</s><r>Пулемет ПКМ</r></e>
+  <e k="D" t="ThingDef" key="CE_Turret_PortableMortar.description"><s>A compact small caliber field mortar for indirect fire at medium ranges.</s><r>Компактный полевой миномет малого калибра для ведения огня с закрытых позиций на средних дистанциях.</r></e>
+  <e k="D" t="ThingDef" key="CE_Turret_PortableMortar.label"><s>60mm portable mortar</s><r>60-мм переносной миномет</r></e>
+  <e k="D" t="ThingDef" key="CE_Turret_SPGNine.label"><s>SPG-9 recoilless gun</s><r>Безоткатное орудие СПГ-9</r></e>
+  <e k="D" t="ThingDef" key="CE_Turret_ShotgunTurret.description"><s>A portable automatic shotgun turret. Perfect for close quarter engagements and riot control.</s><r>Переносная автоматическая турель для дробовика. Идеально подходит для ближнего боя и борьбы с беспорядками.</r></e>
+  <e k="D" t="ThingDef" key="CE_Turret_ShotgunTurret.label"><s>shotgun auto-turret</s><r>дробовик с автоматической турелью</r></e>
+  <e k="D" t="ThingDef" key="CE_Turret_TwelvePounder.description"><s>12-pounder cannon mounted on a carriage.</s><r>12-фунтовая пушка, установленная на лафете.</r></e>
+  <e k="D" t="ThingDef" key="CE_Turret_TwelvePounder.label"><s>12-pounder cannon</s><r>12-фунтовая пушка</r></e>
+  <e k="D" t="ThingDef" key="CE_Turret_Vickers.description"><s>Vickers water cooled machine gun mounted on a tripod.</s><r>Пулемет Vickers с водяным охлаждением установлен на треноге.</r></e>
+  <e k="D" t="ThingDef" key="CE_Turret_Vickers.label"><s>Vickers machine gun</s><r>Пулемет Виккерс</r></e>
+  <e k="D" t="ThingDef" key="CE_Weapon_SatchelCharge.description"><s>A satchel charge, a demolition device primarily used for combat and against heavy stationary tagets. The primary components of a satchel charge are a charge of a potent explosive, a carrying device functionally similar to a satchel or messenger bag, and a triggering mechanism.</s><r>Ранцевый заряд - подрывное устройство, используемое в основном для боя и против тяжелых стационарных тагетов. Основными компонентами заряда ранца являются заряд мощного взрывчатого вещества, устройство для переноски, функционально аналогичное ранцу или сумке, и спусковой механизм.</r></e>
+  <e k="D" t="ThingDef" key="CE_Weapon_SatchelCharge.label"><s>satchel charge</s><r>заряд ранца</r></e>
+  <e k="D" t="ThingDef" key="CE_Weapon_SatchelCharge.tools.0.label"><s>Body</s><r>Тело</r></e>
+  <e k="D" t="ThingDef" key="CE_Weapon_SmokeBomb.description"><s>A primative smoke bomb that releases a small cloud of smokescreen, providing concealment against gunfire. Will stun for a brief moment on a direct hit.</s><r>Примитивная дымовая шашка, выпускающая небольшое облако дымовой завесы, обеспечивающее маскировку от огня. Оглушит на короткое время при прямом попадании.</r></e>
+  <e k="D" t="ThingDef" key="CE_Weapon_SmokeBomb.label"><s>smoke bomb</s><r>дымовая бомба</r></e>
+  <e k="D" t="ThingDef" key="CE_Weapon_SmokeBomb.tools.0.label"><s>Body</s><r>Тело</r></e>
+</AutoTranslateCache>
