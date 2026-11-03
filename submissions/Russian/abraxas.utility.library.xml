@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="abraxas.utility.library" name="Ab Utility" language="Russian" version="1">
+  <e k="D" t="AbilityDef" key="Ab_TestAbility.description"><s>You should not be seeing this Ability in normal Play</s><r>Вы не должны видеть эту способность в обычной игре.</r></e>
+  <e k="D" t="AbilityDef" key="Ab_TestAbility.label"><s>CastProjectile_Test</s><r>CastProjectile_Test</r></e>
+  <e k="D" t="AbilityDef" key="Ab_ToxicEminence.description"><s>The release of tox gas from orifices found across the body.</s><r>Выброс ядовитого газа из отверстий, расположенных по всему телу.</r></e>
+  <e k="D" t="AbilityDef" key="Ab_ToxicEminence.label"><s>toxic eminence</s><r>ядовитое возвышение</r></e>
+  <e k="D" t="AbilityDef" key="Ab_ToxicEminence.verbProperties.label"><s>emit tox</s><r>выделять токсин</r></e>
+  <e k="D" t="BackstoryDef" key="Ab_MediumChild.description"><s>From a young age, [PAWN_nameDef] has been able to notice forces unknown to others.</s><r>С юных лет [PAWN_nameDef] способен замечать силы, неизвестные другим.</r></e>
+  <e k="D" t="BackstoryDef" key="Ab_MediumChild.title"><s>Medium Child</s><r>Средний ребенок</r></e>
+  <e k="D" t="BackstoryDef" key="Ab_MediumChild.titleShort"><s>Medium</s><r>Середина</r></e>
+  <e k="D" t="BodyPartDef" key="Ab_FoxEar.description"><s>A furry Fox ear.</s><r>Мохнатое лисье ухо.</r></e>
+  <e k="D" t="BodyPartDef" key="Ab_FoxEar.label"><s>fox ear</s><r>лисье ухо</r></e>
+  <e k="D" t="BodyPartDef" key="Ab_FoxTail.description"><s>A long furry Fox tail.</s><r>Длинный пушистый лисьий хвост.</r></e>
+  <e k="D" t="BodyPartDef" key="Ab_FoxTail.label"><s>fox tail</s><r>лисий хвост</r></e>
+  <e k="D" t="BodyPartDef" key="Ab_TailBase.label"><s>tail base</s><r>основание хвоста</r></e>
+  <e k="D" t="GeneCategoryDef" key="Ab_ToxGenes.label"><s>tox</s><r>токсин</r></e>
+  <e k="D" t="GeneDef" key="Ab_SplitTail.description"><s>a tail which splits near the end forming a fork.</s><r>хвост, который разделяется на конце, образуя вилку.</r></e>
+  <e k="D" t="GeneDef" key="Ab_SplitTail.label"><s>split tail</s><r>разделенный хвост</r></e>
+  <e k="D" t="GeneDef" key="Ab_StandardTail.description"><s>genetically normal tail.</s><r>генетически нормальный хвост.</r></e>
+  <e k="D" t="GeneDef" key="Ab_StandardTail.label"><s>standard tail</s><r>стандартный хвост</r></e>
+  <e k="D" t="GeneDef" key="Ab_StuntedTail.description"><s>a tail stuck in a minature size comapred to the standard tails.</s><r>хвост застрял в миниатюрном размере по сравнению со стандартными хвостами.</r></e>
+  <e k="D" t="GeneDef" key="Ab_StuntedTail.label"><s>stunted tail</s><r>чахлый хвост</r></e>
+  <e k="D" t="GeneDef" key="Ab_ToxCapacityIncrease.description"><s>Carriers of this gene develope large glands capable of producing tox gas.</s><r>У носителей этого гена развиваются большие железы, способные вырабатывать токсичный газ.</r></e>
+  <e k="D" t="GeneDef" key="Ab_ToxCapacityIncrease.label"><s>enlarged tox glands</s><r>увеличенные токсические железы</r></e>
+  <e k="D" t="GeneDef" key="Ab_ToxGene.description"><s>Carriers of this gene house numerous glands and pours spready across their body producing chemicals which can be dispensed as tox gas on command.</s><r>У носителей этого гена имеются многочисленные железы, которые разбросаны по всему телу и производят химические вещества, которые по команде можно распылять в виде ядовитого газа.</r></e>
+  <e k="D" t="GeneDef" key="Ab_ToxGene.label"><s>tox glands</s><r>токсические железы</r></e>
+  <e k="D" t="GeneDef" key="Ab_ToxGene.resourceDescription"><s>A measure of how much tox gas can be dispensed.</s><r>Мера того, сколько токсичного газа можно выпустить.</r></e>
+  <e k="D" t="GeneDef" key="Ab_ToxGene.resourceLabel"><s>tox</s><r>токсин</r></e>
+  <e k="D" t="GeneDef" key="Ab_UngualVenomGlands.description"><s>Carriers of this gene develope hardened nails with toxin injecting pours used to deliver toxins stright into an opponent's body.</s><r>У носителей этого гена ногти становятся твердыми благодаря инъекциям токсина, которые используются для доставки токсинов прямо в тело противника.</r></e>
+  <e k="D" t="GeneDef" key="Ab_UngualVenomGlands.label"><s>ungual venom glands</s><r>когтевые ядовитые железы</r></e>
+  <e k="D" t="GeneDef" key="Ab_VenomFangs.description"><s>Carriers of this gene develope hardened sharp teeth with toxin injecting ducts used to deliver toxins stright into an opponent's body.</s><r>У носителей этого гена появляются закаленные острые зубы с каналами для введения токсинов, которые используются для доставки токсинов прямо в тело противника.</r></e>
+  <e k="D" t="GeneDef" key="Ab_VenomFangs.label"><s>venom fangs</s><r>ядовитые клыки</r></e>
+  <e k="D" t="HediffDef" key="Ab_ArchotechEar.description"><s>An installed archotech ear.</s><r>Установлено ухо Archotech.</r></e>
+  <e k="D" t="HediffDef" key="Ab_ArchotechEar.label"><s>archotech ear</s><r>архотех ухо</r></e>
+  <e k="D" t="HediffDef" key="Ab_ArchotechEar.labelNoun"><s>an archotechear</s><r>архотехеар</r></e>
+  <e k="D" t="HediffDef" key="Ab_ArchotechTail.description"><s>An installed archotech tail.</s><r>Установлен хвост Archotech.</r></e>
+  <e k="D" t="HediffDef" key="Ab_ArchotechTail.label"><s>archotech tail</s><r>архотек хвост</r></e>
+  <e k="D" t="HediffDef" key="Ab_ArchotechTail.labelNoun"><s>an archotech tail</s><r>архотехнический хвост</r></e>
+  <e k="D" t="HediffDef" key="Ab_BionicTail.comps.0.tools.0.label"><s>tail</s><r>хвост</r></e>
+  <e k="D" t="HediffDef" key="Ab_BionicTail.description"><s>An installed bionic tail.</s><r>Установлен бионический хвост.</r></e>
+  <e k="D" t="HediffDef" key="Ab_BionicTail.label"><s>bionic tail</s><r>бионический хвост</r></e>
+  <e k="D" t="HediffDef" key="Ab_BionicTail.labelNoun"><s>a bionic tail</s><r>бионический хвост</r></e>
+  <e k="D" t="HediffDef" key="Ab_DrainAnimaBuff.description"><s>The drained soul of an anima tree empowering a person.</s><r>Истощенная душа дерева анимы, наделяющая человека силой.</r></e>
+  <e k="D" t="HediffDef" key="Ab_DrainAnimaBuff.descriptionShort"><s>The drained soul of an anima tree empowering a person.</s><r>Истощенная душа дерева анимы, наделяющая человека силой.</r></e>
+  <e k="D" t="HediffDef" key="Ab_DrainAnimaBuff.label"><s>drained anima</s><r>истощенная анима</r></e>
+  <e k="D" t="HediffDef" key="Ab_DrainAnimaDebuff.description"><s>This person has been drained leaving them weak.</s><r>Этот человек был истощен, оставив его слабым.</r></e>
+  <e k="D" t="HediffDef" key="Ab_DrainAnimaDebuff.descriptionShort"><s>This person has been drained leaving them weak.</s><r>Этот человек был истощен, оставив его слабым.</r></e>
+  <e k="D" t="HediffDef" key="Ab_DrainAnimaDebuff.label"><s>drained</s><r>осушенный</r></e>
+  <e k="D" t="HediffDef" key="Ab_DrainAnimaDebuff.stages.4.label"><s>dying</s><r>умирающий</r></e>
+  <e k="D" t="HediffDef" key="Ab_DrainAnimaDebuff.stages.5.label"><s>dying</s><r>умирающий</r></e>
+  <e k="D" t="HediffDef" key="Ab_GiveAbilityTest.description"><s>You should not be seeing this.</s><r>Вы не должны этого видеть.</r></e>
+  <e k="D" t="HediffDef" key="Ab_GiveAbilityTest.label"><s>Give Ability</s><r>Дать способность</r></e>
+  <e k="D" t="HediffDef" key="Ab_ToxGlandExpandedCapacity.description"><s>glands in this bodypart have developed larger and store more tox gas.</s><r>железы в этой части тела стали крупнее и хранят больше токсичных газов.</r></e>
+  <e k="D" t="HediffDef" key="Ab_ToxGlandExpandedCapacity.label"><s>enlarged tox glands</s><r>увеличенные токсические железы</r></e>
+  <e k="D" t="HediffDef" key="Ab_ToxGlandExpandedCapacity.labelNoun"><s>enlarged tox glands</s><r>увеличенные токсические железы</r></e>
+  <e k="D" t="HediffDef" key="Ab_UngualVenomGlands.comps.0.tools.0.label"><s>ungual venom gland</s><r>когтевая ядовитая железа</r></e>
+  <e k="D" t="HediffDef" key="Ab_UngualVenomGlands.description"><s>A biological mechanism in the nails allowing for venom to be injected into wounds.</s><r>Биологический механизм в ногтях, позволяющий вводить яд в раны.</r></e>
+  <e k="D" t="HediffDef" key="Ab_UngualVenomGlands.label"><s>ungual venom gland</s><r>когтевая ядовитая железа</r></e>
+  <e k="D" t="HediffDef" key="Ab_UngualVenomGlands.labelNoun"><s>an ungual venom gland</s><r>ногтевая ядовитая железа</r></e>
+  <e k="D" t="HediffDef" key="Ab_VenomFangs.comps.0.tools.0.label"><s>ungual venom gland</s><r>когтевая ядовитая железа</r></e>
+  <e k="D" t="HediffDef" key="Ab_VenomFangs.description"><s>A biological mechanism in the teeth allowing for venom to be injected into wounds.</s><r>Биологический механизм в зубах, позволяющий вводить яд в раны.</r></e>
+  <e k="D" t="HediffDef" key="Ab_VenomFangs.label"><s>venom fangs</s><r>ядовитые клыки</r></e>
+  <e k="D" t="HediffDef" key="Ab_VenomFangs.labelNoun"><s>a set of venom fangs</s><r>набор ядовитых клыков</r></e>
+  <e k="D" t="HediffDef" key="ChangeBody.description"><s>oof</s><r>уф</r></e>
+  <e k="D" t="HediffDef" key="ChangeBody.label"><s>Swaaap</s><r>Сваап</r></e>
+  <e k="D" t="HediffDef" key="ChangeBody.stages.0.label"><s>minor</s><r>незначительный</r></e>
+  <e k="D" t="HediffDef" key="ChangeBody.stages.1.label"><s>minor</s><r>незначительный</r></e>
+  <e k="D" t="HediffDef" key="ChangeBody.stages.2.label"><s>moderate</s><r>умеренный</r></e>
+  <e k="D" t="HediffDef" key="die.description"><s>oof</s><r>уф</r></e>
+  <e k="D" t="HediffDef" key="die.label"><s>die</s><r>умереть</r></e>
+  <e k="D" t="RecipeDef" key="Ab_InstallArchoTechEar.description"><s>Install an archotech ear.</s><r>Установите ухо Archotech.</r></e>
+  <e k="D" t="RecipeDef" key="Ab_InstallArchoTechEar.jobString"><s>Installing archotech ear.</s><r>Установка ушей Archotech.</r></e>
+  <e k="D" t="RecipeDef" key="Ab_InstallArchoTechEar.label"><s>install archotech ear</s><r>установить ухо Archotech</r></e>
+  <e k="D" t="RecipeDef" key="Ab_InstallArchoTechTail.description"><s>Install an archotech tail.</s><r>Установите хвостовую часть Archotech.</r></e>
+  <e k="D" t="RecipeDef" key="Ab_InstallArchoTechTail.jobString"><s>Installing archotech tail.</s><r>Установка хвостовой части Archotech.</r></e>
+  <e k="D" t="RecipeDef" key="Ab_InstallArchoTechTail.label"><s>install archotech tail</s><r>установить архотек хвост</r></e>
+  <e k="D" t="RecipeDef" key="Ab_InstallBionicTail.description"><s>Install a bionic tail.</s><r>Установите бионический хвост.</r></e>
+  <e k="D" t="RecipeDef" key="Ab_InstallBionicTail.jobString"><s>Installing bionic tail.</s><r>Установка бионического хвоста.</r></e>
+  <e k="D" t="RecipeDef" key="Ab_InstallBionicTail.label"><s>install bionic tail</s><r>установить бионический хвост</r></e>
+  <e k="D" t="StatDef" key="Ab_PsyfocusCost.description"><s>How much focus a phychic ability will consume based on the original cost.</s><r>Сколько внимания потребует физическая способность, исходя из первоначальной стоимости.</r></e>
+  <e k="D" t="StatDef" key="Ab_PsyfocusCost.label"><s>psyfocus cost</s><r>стоимость психофокуса</r></e>
+  <e k="D" t="ThingDef" key="Ab_ArchotechEar.description"><s>An artificial ear built by an archotech. It can capture all forms of vibrations both high and low through enigmatic means. It's sensitive enough to hear a cat before you see it, can't be damaged by loud noise, and automatically tunes itself to pick out meaningful sounds in noisy environments.</s><r>Искусственное ухо, созданное архотехником. Он может улавливать все формы вибраций, как высоких, так и низких, загадочными способами. Он достаточно чувствителен, чтобы услышать кошку до того, как вы ее увидите, не может быть поврежден громким шумом и автоматически настраивается, чтобы различать значимые звуки в шумной обстановке.</r></e>
+  <e k="D" t="ThingDef" key="Ab_ArchotechEar.label"><s>archotech ear</s><r>архотех ухо</r></e>
+  <e k="D" t="ThingDef" key="Ab_ArchotechTail.description"><s>An artificial tail built by an archotech. The tail's surface is made up of fur-like fibers they feel natural and extremely soft, however should the host desire it the fluffy fur can become as sharp as needles and more durable than steel.</s><r>Искусственный хвост, созданный архотехом. Поверхность хвоста состоит из волокон, похожих на мех, они кажутся естественными и чрезвычайно мягкими, однако, если хозяин того пожелает, пушистый мех может стать острым, как иглы, и более прочным, чем сталь.</r></e>
+  <e k="D" t="ThingDef" key="Ab_ArchotechTail.label"><s>archotech tail</s><r>архотек хвост</r></e>
+  <e k="D" t="ThingDef" key="Ab_BionicTail.description"><s>A combination of advanced motors, pistons and noise mufflers nested within layers of metal plates allows the bionic tail seamless and silent motion.</s><r>Комбинация современных двигателей, поршней и глушителей шума, помещенных в несколько слоев металлических пластин, обеспечивает плавное и бесшумное движение бионического хвоста.</r></e>
+  <e k="D" t="ThingDef" key="Ab_BionicTail.label"><s>bionic tail</s><r>бионический хвост</r></e>
+  <e k="D" t="ThingDef" key="Ab_FoxEar.description"><s>A furry Fox ear.</s><r>Мохнатое лисье ухо.</r></e>
+  <e k="D" t="ThingDef" key="Ab_FoxEar.label"><s>fox ear</s><r>лисье ухо</r></e>
+  <e k="D" t="ThingDef" key="Ab_FoxTail.description"><s>A fox tail.</s><r>Лисий хвост.</r></e>
+  <e k="D" t="ThingDef" key="Ab_FoxTail.label"><s>fox tail</s><r>лисий хвост</r></e>
+  <e k="D" t="XenotypeDef" key="Ab_ToxFiend.label"><s>tox fiend</s><r>токсичный злодей</r></e>
+  <e k="K" key="Ab_Content_Settings"><s>Content Settings</s><r>Настройки контента</r></e>
+  <e k="K" key="Ab_Dev_Settings"><s>Dev Settings</s><r>Настройки для разработчиков</r></e>
+  <e k="K" key="Ab_Enable_AlienRaceLogging"><s>Enable Humanoid Alien Races logging</s><r>Включить ведение журнала гуманоидных инопланетных рас</r></e>
+  <e k="K" key="Ab_Enable_AlienRaceLogging_Tip"><s>Only disable for the purpose of getting a clean log where the issue is not relating to Humanoid Alien Races. 
+
+Default is set to enabled and will yield to XML defined debug status and HAR mod settings. 
+
+When disabled all Humanoid Alien race debug features will be suppressed.</s><r>Отключайте только для получения чистого журнала, если проблема не связана с гуманоидными инопланетными расами. 
+
+По умолчанию установлено значение «включено», и он будет соответствовать состоянию отладки, определенному в XML, и настройкам мода HAR. 
+
+При отключении все функции отладки расы гуманоидных пришельцев будут отключены.</r></e>
+  <e k="K" key="Ab_Enable_AlienRaceProstheticGraphics"><s>Enable AlienRace prosthetic Addon graphics</s><r>Включить графику протезного дополнения AlienRace</r></e>
+  <e k="K" key="Ab_Enable_AlienRaceProstheticGraphics_Tip"><s>When set to enabled addons such as tails or ears will use custom graphics to reflect the prosthetic. 
+ 
+For example a bionic tail will be reflected by a metallic tail on a pawn. 
+
+This setting is only internally used, meaning it will only affect my races, and only the graphics I added. However the operation used can be used externally via XPath. 
+
+Requires restart to take effect. 
+
+Default : Enabled</s><r>Если включено, такие дополнения, как хвосты или уши, будут использовать специальную графику, отражающую протез. 
+ 
+Например, бионический хвост будет отражаться металлическим хвостом пешки. 
+
+Этот параметр используется только для внутреннего использования, то есть он повлияет только на мои расы и только на добавленную мной графику. Однако используемую операцию можно использовать извне через XPath. 
+
+Для вступления в силу требуется перезагрузка. 
+
+По умолчанию: Включено</r></e>
+  <e k="K" key="Ab_Enable_DeveloperContent"><s>Load Developer XML</s><r>Загрузить XML разработчика</r></e>
+  <e k="K" key="Ab_Enable_DeveloperContent_Tip"><s>Enables Developer content. 
+
+Use at your own risk.
+Default : Disabled 
+</s><r>Включает контент для разработчиков. 
+
+Используйте на свой страх и риск.
+По умолчанию: отключено 
+</r></e>
+  <e k="K" key="Ab_Enable_FavorCostImpact"><s>Enable Favor Cost Impact</s><r>Включить влияние на стоимость благосклонности</r></e>
+  <e k="K" key="Ab_Enable_FavorCostImpact_Tip"><s>Hediffs will be able to offset a pawn's favor value if their thingDef has a favor value. 
+
+Should not be used along side statOffset on a hediff of the same stat.</s><r>Хедиффы смогут компенсировать значение благосклонности пешки, если ихthingDef имеет значение благосклонности. 
+
+Не следует использовать вместе с statOffset на хедиффе той же характеристики.</r></e>
+  <e k="K" key="Ab_Enable_GenesForHairColor"><s>Enabled Genes for Hair color selection</s><r>Включенные гены для выбора цвета волос</r></e>
+  <e k="K" key="Ab_Enable_GenesForHairColor_Tip"><s>When set to true patched races can gain hair color genes which will override their hair colorChannel color 1 value. 
+
+Existing pawns in a save will not be affected at all only newly generated pawns will be affected. 
+
+From my mods this setting affects the Demi Fox race. 
+
+Requires restart to take effect. 
+
+Default : Disabled</s><r>Если установлено значение true patched, расы могут получить гены цвета волос, которые будут переопределять значение их цвета волос в канале цвета 1. 
+
+Существующие пешки в сохранении не будут затронуты вообще, будут затронуты только вновь созданные пешки. 
+
+Из моих модов этот параметр влияет на расу Деми Фокс. 
+
+Для вступления в силу требуется перезагрузка. 
+
+По умолчанию: отключено</r></e>
+  <e k="K" key="Ab_Enable_HarmonyLogging"><s>Enable Harmony Log Generation</s><r>Включить создание журнала Harmony</r></e>
+  <e k="K" key="Ab_Enable_HarmonyLogging_Tip"><s>The Harmony Log can be found on the current user Desktop the next time you boot up the game with this enabled. 
+
+Only enable this when requested and then switch it off right after.</s><r>Журнал Harmony можно найти на рабочем столе текущего пользователя при следующей загрузке игры с включенной функцией. 
+
+Включайте это только по запросу, а затем сразу же выключайте.</r></e>
+  <e k="K" key="Ab_Enable_Prosthetics"><s>Enable extra prosthetics.</s><r>Включить дополнительное протезирование.</r></e>
+  <e k="K" key="Ab_Enable_Prosthetics_Tip"><s>When enabled will load extra prosthetics. 
+
+Requires restart to take effect. 
+
+Example includes archotech ear, and tail prosthetics. 
+ 
+Default : Enabled.</s><r>При включении будут загружены дополнительные протезы. 
+
+Для вступления в силу требуется перезагрузка. 
+
+Пример включает протезирование ушей и хвоста Archotech. 
+ 
+По умолчанию: Включено.</r></e>
+  <e k="K" key="Ab_Enable_RoyalFavorStatPatch"><s>Enable Royal Favor patches.</s><r>Включите патчи Royal Favor.</r></e>
+  <e k="K" key="Ab_Enable_RoyalFavorStatPatch_Tip"><s>Patches ThingDefs with the favor stat. 
+
+Requires restart to take effect. 
+ 
+Default : Enabled.</s><r>Исправляет ThingDefs со статистикой благосклонности. 
+
+Для вступления в силу требуется перезагрузка. 
+ 
+По умолчанию: Включено.</r></e>
+  <e k="K" key="Ab_Feature_Settings"><s>Feature Settings</s><r>Настройки функции</r></e>
+  <e k="K" key="Ab_Force_AlienRaceLogging"><s>Force Humanoid Alien Races to log</s><r>Принудительно регистрировать гуманоидные инопланетные расы</r></e>
+  <e k="K" key="Ab_Force_AlienRaceLogging_Tip"><s>Requires &quot;Enable Humanoid Alien Races logging&quot; to be enabled and take effect, only use when existing Aliens have texture issues but no start up errors. 
+
+Default is set to disabled and does nothing. 
+
+When set to enabled Humanoid Alien races will log everything even XML set to not log. 
+
+This setting overrides the Humanoid Alien Race mod settings value.</s><r>Требуется, чтобы параметр «Включить ведение журнала гуманоидных рас пришельцев» был включен и вступил в силу. Используйте его только в том случае, если у существующих пришельцев есть проблемы с текстурами, но нет ошибок при запуске. 
+
+По умолчанию отключено и ничего не делает. 
+
+При включении гуманоидных инопланетных рас будет записываться все, даже если XML отключен. 
+
+Этот параметр переопределяет значение настроек мода Humanoid Alien Race.</r></e>
+  <e k="K" key="Ab_Grass_Count"><s>Anima grass : {GRASSCOUNT}/{TARGETGRASSCOUNT}</s><r>Трава Анима: {GRASSCOUNT}/{TARGETGRASSCOUNT}</r></e>
+  <e k="K" key="Ab_Load_ScenarioDefs"><s>Load Start Scenarios</s><r>Загрузить сценарии запуска</r></e>
+  <e k="K" key="Ab_Load_ScenarioDefs_Tip"><s>Loading or unloading XML requires restart to take effect.</s><r>Чтобы загрузка или выгрузка XML вступила в силу, требуется перезапуск.</r></e>
+  <e k="K" key="Ab_Open_New_Titles"><s>Title Manager</s><r>Менеджер титулов</r></e>
+  <e k="K" key="Ab_Open_Old_Titles"><s>Titles Window</s><r>Окно титров</r></e>
+  <e k="K" key="Ab_PawnGainedPsyAbility"><s>{PAWN} gained: {ABILITY}</s><r>{PAWN} получено: {ABILITY}</r></e>
+  <e k="K" key="Ab_Select_Action"><s>Select Action</s><r>Выберите действие</r></e>
+  <e k="K" key="Ab_Seniority"><s>Seniority</s><r>Старшинство</r></e>
+  <e k="K" key="Ab_Seniority_Locked"><s>Locked</s><r>Заблокировано</r></e>
+  <e k="K" key="Ab_TitleUI_ConfirmTitle"><s>Select</s><r>Выбирать</r></e>
+  <e k="K" key="Ab_TitleUI_HasRequirements"><s>This title has requirements: Pawn must be {REQUIREMENT}</s><r>У этого титула есть требования: Пешка должна быть {REQUIREMENT}.</r></e>
+  <e k="K" key="Ab_TitleUI_InfoIcon"><s>This window is used to choose between possible titles a pawn can gain for each seniority values, some titles are locked outside of your pawn's reach others are obtainable with effort.</s><r>Это окно используется для выбора возможных титулов, которые пешка может получить для каждого значения старшинства. Некоторые титулы заблокированы вне досягаемости вашей пешки, другие можно получить с усилием.</r></e>
+  <e k="K" key="Ab_TitleUI_Tier"><s>Tier {TIER}</s><r>Уровень {TIER}</r></e>
+  <e k="K" key="Ab_TitleValidatorDescription_And"><s>{0} and {1}</s><r>{0} и {1}</r></e>
+  <e k="K" key="Ab_TitleValidatorDescription_Everyone"><s>everyone</s><r>каждый</r></e>
+  <e k="K" key="Ab_TitleValidatorDescription_Gender"><s>of Gender {0}</s><r>пола {0}</r></e>
+  <e k="K" key="Ab_TitleValidatorDescription_Invert"><s>not: {0}</s><r>нет: {0}</r></e>
+  <e k="K" key="Ab_TitleValidatorDescription_OfFactionBasicMemberRace"><s>of faction member race: {0}</s><r>расы членов фракции: {0}</r></e>
+  <e k="K" key="Ab_TitleValidatorDescription_OfFactionBasicMemberRace_NoneAvailable"><s>INVALID - NO BASIC MEMBER RACE</s><r>НЕДЕЙСТВИТЕЛЬНО – НЕТ БАЗОВОЙ ГОНКИ УЧАСТНИКОВ</r></e>
+  <e k="K" key="Ab_TitleValidatorDescription_Or"><s>{0} or {1}</s><r>{0} или {1}</r></e>
+  <e k="K" key="Ab_TitleValidatorDescription_Race"><s>of the following races: {0}</s><r>из следующих рас: {0}</r></e>
+  <e k="K" key="Ab_TitleValidatorDescription_Relation"><s>of the following relations: {0}, fullfilling: {1}</s><r>следующих отношений: {0}, выполнение: {1}</r></e>
+  <e k="K" key="Ab_TitleValidatorDescription_Title"><s>of the following titles: {0}</s><r>из следующих названий: {0}</r></e>
+  <e k="K" key="Ab_Utility"><s>Ab Utility</s><r>Утилита Ab</r></e>
+  <e k="K" key="Ab_alreadyHasAllAbilities"><s>Already has all abilities</s><r>Уже имеет все способности</r></e>
+  <e k="K" key="Ab_alreadyMax"><s>Psylink already at max level</s><r>Psylink уже на максимальном уровне</r></e>
+  <e k="K" key="Ab_gainAbility"><s>Gain ability</s><r>Получите способность</r></e>
+  <e k="K" key="Ab_gainBuff"><s>Gain buff</s><r>Получите бафф</r></e>
+  <e k="K" key="Ab_gainPsylink"><s>Gain psylink</s><r>Получить псилинк</r></e>
+  <e k="K" key="Ab_noHealth"><s>No health</s><r>Нет здоровья</r></e>
+  <e k="K" key="Ab_noPsylinkHediff"><s>Missing psylink</s><r>Отсутствует псилинк</r></e>
+  <e k="K" key="DemiFox_Addons_MonoColored"><s>Demi Fox Mono Color Addons.</s><r>Моноцветные дополнения Деми Фокс.</r></e>
+  <e k="K" key="DemiFox_Addons_MonoColored_Tip"><s>Sets Shader to cutout instead of cutout complex</s><r>Устанавливает шейдер на вырез вместо комплекса вырезов.</r></e>
+</AutoTranslateCache>
