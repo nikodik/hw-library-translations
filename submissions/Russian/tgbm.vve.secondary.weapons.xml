@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="tgbm.vve.secondary.weapons" name="VVE - Secondary Weapons" language="Russian" version="1">
+  <e k="D" t="ThingDef" key="TGBM_Bullet_ExplosiveFlakRound.label"><s>flak shell</s><r>зенитный снаряд</r></e>
+  <e k="D" t="ThingDef" key="TGBM_Bullet_ExplosiveIFVRound.label"><s>autocannon high explosive shell</s><r>осколочно-фугасный снаряд автопушки</r></e>
+  <e k="D" t="ThingDef" key="TGBM_Bullet_ExplosiveLauncherRound.label"><s>grenade launcher high-explosive shell</s><r>гранатомет осколочно-фугасный снаряд</r></e>
+  <e k="D" t="ThingDef" key="TGBM_Bullet_ExplosiveMBTRound.label"><s>high-explosive shell</s><r>осколочно-фугасный снаряд</r></e>
+  <e k="D" t="ThingDef" key="TGBM_Bullet_HMG.label"><s>heavy machine gun bullet</s><r>пуля из тяжелого пулемета</r></e>
+  <e k="D" t="ThingDef" key="TGBM_Bullet_RecoillessLauncherRound.label"><s>recoilless launcher high-explosive shell</s><r>безоткатная пусковая установка осколочно-фугасного снаряда</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Bulldog_UpgradeTree.nodes.0.description"><s>Improve the cargo capacity of the vehicle slightly.
+
+&lt;color=#bb8f04&gt;Cargo:&lt;/color&gt; +50kg</s><r>Немного увеличьте грузоподъемность автомобиля.
+
+&lt;color=#bb8f04&gt;Груз:&lt;/color&gt; +50 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Bulldog_UpgradeTree.nodes.0.label"><s>Cargo Capacity</s><r>Грузоподъемность</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Bulldog_UpgradeTree.nodes.1.description"><s>Reinforce the armor of the vehicle slightly. 
+
+&lt;color=#bb8f04&gt;Protection:&lt;/color&gt; +4% Sharp, +8% Blunt</s><r>Немного усилите броню машины. 
+
+&lt;color=#bb8f04&gt;Защита:&lt;/color&gt; +4% острый, +8% тупой.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Bulldog_UpgradeTree.nodes.2.description"><s>Improve the engine of the vehicle, allowing it to reach higher maximum speed.</s><r>Улучшайте двигатель автомобиля, позволяя ему развивать более высокую максимальную скорость.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Bulldog_UpgradeTree.nodes.3.description"><s>Improve shifting capabilities of transmission to increase acceleration speed of the vehicle slightly.</s><r>Улучшите возможности переключения передач, чтобы немного увеличить скорость ускорения автомобиля.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Bulldog_UpgradeTree.nodes.4.description"><s>Improve the exhaust system of the vehicle, improving fuel efficiency slightly.</s><r>Улучшите выхлопную систему автомобиля, немного улучшив топливную экономичность.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Bulldog_UpgradeTree.nodes.4.label"><s>Fuel Consumption</s><r>Расход топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Bulldog_UpgradeTree.nodes.5.description"><s>Increase the size of the chemtank slightly.</s><r>Немного увеличьте размер химтанка.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Bulldog_UpgradeTree.nodes.5.label"><s>Fuel Capacity</s><r>Запас топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Bulldog_UpgradeTree.nodes.6.description"><s>Attach a heavy machine gun to the top of the turret. Used from the Commander seat.</s><r>Прикрепите крупнокалиберный пулемет к вершине башни. Используется с места командира.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Bulldog_UpgradeTree.nodes.6.label"><s>Pintle machine gun</s><r>Пулемет Пинтль</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Bulldog_UpgradeTree.nodes.6.upgrades.0.turrets.0.gizmoLabel"><s>pintle MG</s><r>штифт МГ</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Bulldog_UpgradeTree.nodes.7.description"><s>Replace the coaxial machine gun with a flamethrower. Used from the Gunner seat. Has a restricted firing angle, so the gunner has to turn the turret before firing.
+
+Does not take from the vehicle's fuel reserves; it requires a reserve of fuel in the cargo hold to reload.</s><r>Заменить спаренный пулемет огнеметом. Используется с места наводчика. Имеет ограниченный угол обстрела, поэтому перед стрельбой наводчику приходится поворачивать башню.
+
+Не берет топливо из запасов машины; для перезарядки требуется запас топлива в грузовом отсеке.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Bulldog_UpgradeTree.nodes.7.label"><s>Coaxial flamethrower</s><r>Спаренный огнемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Bulldog_UpgradeTree.nodes.7.upgrades.0.turrets.0.gizmoLabel"><s>coaxial flamethrower</s><r>спаренный огнемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Cherokee_UpgradeTree.nodes.0.description"><s>Improve the cargo capacity of the vehicle slightly.
+
+&lt;color=#bb8f04&gt;Cargo:&lt;/color&gt; +100kg</s><r>Немного увеличьте грузоподъемность автомобиля.
+
+&lt;color=#bb8f04&gt;Груз:&lt;/color&gt; +100 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Cherokee_UpgradeTree.nodes.0.label"><s>Cargo Capacity</s><r>Грузоподъемность</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Cherokee_UpgradeTree.nodes.1.description"><s>Reinforce the armor of the vehicle slightly. 
+
+&lt;color=#bb8f04&gt;Protection:&lt;/color&gt; +8% Sharp, +16% Blunt</s><r>Немного усилите броню машины. 
+
+&lt;color=#bb8f04&gt;Защита:&lt;/color&gt; +8% острый, +16% тупой.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Cherokee_UpgradeTree.nodes.2.description"><s>Improve the engine of the vehicle, allowing it to reach higher maximum speed.</s><r>Улучшайте двигатель автомобиля, позволяя ему развивать более высокую максимальную скорость.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Cherokee_UpgradeTree.nodes.3.description"><s>Improve shifting capabilities of transmission to increase acceleration speed of the vehicle slightly.</s><r>Улучшите возможности переключения передач, чтобы немного увеличить скорость ускорения автомобиля.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Cherokee_UpgradeTree.nodes.4.description"><s>Improve the exhaust system of the vehicle, improving fuel efficiency slightly.</s><r>Улучшите выхлопную систему автомобиля, немного улучшив топливную экономичность.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Cherokee_UpgradeTree.nodes.4.label"><s>Fuel Consumption</s><r>Расход топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Cherokee_UpgradeTree.nodes.5.description"><s>Increase the size of the chemtank slightly.</s><r>Немного увеличьте размер химтанка.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Cherokee_UpgradeTree.nodes.5.label"><s>Fuel Capacity</s><r>Запас топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Cherokee_UpgradeTree.nodes.6.description"><s>Pressurize the cargo hold and add seats to fit 33 people, at the cost of most of the cargo space. Also acts as a temporary shelter, providing comfort for all passenger occupants.</s><r>Увеличьте давление в грузовом отсеке и добавьте сиденья на 33 человека за счет большей части грузового пространства. Также действует как временное укрытие, обеспечивая комфорт всем пассажирам.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Cherokee_UpgradeTree.nodes.7.description"><s>Attach two medium machine guns to the vehicle's sides. Comes with gunner seats.</s><r>Прикрепите два средних пулемета к бортам машины. В комплекте сиденья стрелка.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Cherokee_UpgradeTree.nodes.7.label"><s>Medium machine gun</s><r>Средний пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Cherokee_UpgradeTree.nodes.7.upgrades.1.turrets.0.gizmoLabel"><s>Gunner 1</s><r>Наводчик 1</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Cherokee_UpgradeTree.nodes.7.upgrades.1.turrets.1.gizmoLabel"><s>Gunner 2</s><r>Наводчик 2</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Cherokee_UpgradeTree.nodes.8.description"><s>Attach two heavy machine guns to the vehicle's sides. Comes with gunner seats.</s><r>Прикрепите два крупнокалиберных пулемета к бортам машины. В комплекте сиденья стрелка.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Cherokee_UpgradeTree.nodes.8.label"><s>Heavy machine gun</s><r>Тяжелый пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Cherokee_UpgradeTree.nodes.8.upgrades.1.turrets.0.gizmoLabel"><s>Gunner 1</s><r>Наводчик 1</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Cherokee_UpgradeTree.nodes.8.upgrades.1.turrets.1.gizmoLabel"><s>Gunner 2</s><r>Наводчик 2</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Cherokee_UpgradeTree.nodes.9.description"><s>Attach two miniguns to the vehicle's sides. Comes with gunner seats.</s><r>Прикрепите два минигана к бокам автомобиля. В комплекте сиденья стрелка.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Cherokee_UpgradeTree.nodes.9.upgrades.1.turrets.0.gizmoLabel"><s>Gunner 1</s><r>Наводчик 1</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Cherokee_UpgradeTree.nodes.9.upgrades.1.turrets.1.gizmoLabel"><s>Gunner 2</s><r>Наводчик 2</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.0.description"><s>Improve the cargo capacity of the vehicle slightly.
+
+&lt;color=#bb8f04&gt;Cargo:&lt;/color&gt; +25kg</s><r>Немного увеличьте грузоподъемность автомобиля.
+
+&lt;color=#bb8f04&gt;Груз:&lt;/color&gt; +25 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.0.label"><s>Cargo Capacity</s><r>Грузоподъемность</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.1.description"><s>Reinforce the armor of the vehicle slightly.
+
+&lt;color=#bb8f04&gt;Protection:&lt;/color&gt; +2% Sharp, +4% Blunt</s><r>Слегка усилите броню машины.
+
+&lt;color=#bb8f04&gt;Защита:&lt;/color&gt; +2% Острый, +4% Дробящий.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.10.description"><s>Add a Maxim machine gun to the bow of the vessel. Used from the Passenger 5 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -18kg
+&lt;color=#bb8f04&gt;Ammo type:&lt;/color&gt; 7.62x54mmR</s><r>Добавьте пулемет Максима на нос судна. Используется с пассажирского сиденья 5.
+
+&lt;color=#bb8f04&gt;Грузоемкость:&lt;/color&gt; -18 кг
+&lt;color=#bb8f04&gt;Тип боеприпасов:&lt;/color&gt; 7,62x54 ммR</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.10.label"><s>Maxim gun</s><r>Максим пистолет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.10.upgrades.0.roles.0.label"><s>Passenger 4</s><r>Пассажир 4</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.10.upgrades.1.turrets.0.gizmoLabel"><s>Bow light machine gun</s><r>Носовой ручной пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.11.description"><s>Add a heavy machine gun to the bow of the vessel. Used from the Passenger 5 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -34kg
+&lt;color=#bb8f04&gt;Ammo type:&lt;/color&gt; 12.7x108mm</s><r>Добавьте крупнокалиберный пулемет на нос судна. Используется с пассажирского сиденья 5.
+
+&lt;color=#bb8f04&gt;Грузовместимость:&lt;/color&gt; -34 кг
+&lt;color=#bb8f04&gt;Тип боеприпасов:&lt;/color&gt; 12,7x108 мм</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.11.label"><s>DShK machine gun</s><r>Пулемет ДШК</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.11.upgrades.0.roles.0.label"><s>Passenger 4</s><r>Пассажир 4</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.11.upgrades.1.turrets.0.gizmoLabel"><s>Bow heavy machine gun</s><r>Носовой крупнокалиберный пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.12.description"><s>Add a grenade machine gun to the bow of the vessel. Used from the Passenger 5 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -17.5kg
+&lt;color=#bb8f04&gt;Ammo type:&lt;/color&gt; 30x29mm Grenades</s><r>Добавьте гранатомет на нос судна. Используется с пассажирского сиденья 5.
+
+&lt;color=#bb8f04&gt;Грузоемкость:&lt;/color&gt; -17,5 кг
+&lt;color=#bb8f04&gt;Тип боеприпасов:&lt;/color&gt; Гранаты 30x29 мм</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.12.label"><s>AGS-30 grenade machine gun</s><r>Гранатомет-пулемет АГС-30</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.12.upgrades.0.roles.0.label"><s>Passenger 4</s><r>Пассажир 4</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.12.upgrades.1.turrets.0.gizmoLabel"><s>Bow grenade machine gun</s><r>Носовой гранатомет-пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.13.description"><s>Add an anti-tank recoilless launcher to the bow of the vessel. Used from the Passenger 5 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -60kg
+&lt;color=#bb8f04&gt;Ammo type:&lt;/color&gt; SPG-9 Rockets</s><r>Добавьте в носовую часть судна противотанковую безоткатную установку. Используется с пассажирского сиденья 5.
+
+&lt;color=#bb8f04&gt;Грузовместимость:&lt;/color&gt; -60 кг
+&lt;color=#bb8f04&gt;Тип боекомплекта:&lt;/color&gt; Ракеты СПГ-9</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.13.label"><s>SPG-9 recoilless launcher</s><r>Безоткатная пусковая установка СПГ-9</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.13.upgrades.0.roles.0.label"><s>Passenger 4</s><r>Пассажир 4</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.13.upgrades.1.turrets.0.gizmoLabel"><s>Bow recoilless rifle</s><r>Луковое безоткатное ружье</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.2.description"><s>Improve the engine of the vehicle, allowing it to reach higher maximum speed.</s><r>Улучшайте двигатель автомобиля, позволяя ему развивать более высокую максимальную скорость.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.3.description"><s>Improve shifting capabilities of transmission to increase acceleration speed of the vehicle slightly.</s><r>Улучшите возможности переключения передач, чтобы немного увеличить скорость ускорения автомобиля.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.4.description"><s>Improve the exhaust system of the vehicle, improving fuel efficiency slightly.</s><r>Улучшите выхлопную систему автомобиля, немного улучшив топливную экономичность.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.4.label"><s>Fuel Consumption</s><r>Расход топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.5.description"><s>Increase the size of the chemtank slightly.</s><r>Немного увеличьте размер химтанка.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.5.label"><s>Fuel Capacity</s><r>Запас топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.6.description"><s>Add a medium machine gun to the bow of the vessel. Used from the Passenger 5 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -15kg</s><r>Добавьте средний пулемет на нос судна. Используется с пассажирского сиденья 5.
+
+&lt;color=#bb8f04&gt;Грузоподъемность:&lt;/color&gt; -15 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.6.label"><s>Medium machine gun</s><r>Средний пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.6.upgrades.0.roles.0.label"><s>Passenger 4</s><r>Пассажир 4</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.6.upgrades.1.turrets.0.gizmoLabel"><s>Bow medium machine gun</s><r>Носовой средний пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.7.description"><s>Add a heavy machine gun to the bow of the vessel. Used from the Passenger 5 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -58kg</s><r>Добавьте крупнокалиберный пулемет на нос судна. Используется с пассажирского сиденья 5.
+
+&lt;color=#bb8f04&gt;Грузоподъемность:&lt;/color&gt; -58 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.7.label"><s>Heavy machine gun</s><r>Тяжелый пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.7.upgrades.0.roles.0.label"><s>Passenger 4</s><r>Пассажир 4</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.7.upgrades.1.turrets.0.gizmoLabel"><s>Bow heavy machine gun</s><r>Носовой крупнокалиберный пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.8.description"><s>Add a grenade machine gun to the bow of the vessel. Used from the Passenger 5 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -62kg</s><r>Добавьте гранатомет на нос судна. Используется с пассажирского сиденья 5.
+
+&lt;color=#bb8f04&gt;Грузоподъемность:&lt;/color&gt; -62 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.8.label"><s>Grenade machine gun</s><r>Гранатометный пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.8.upgrades.0.roles.0.label"><s>Passenger 4</s><r>Пассажир 4</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.8.upgrades.1.turrets.0.gizmoLabel"><s>Bow grenade machine gun</s><r>Носовой гранатомет-пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.9.description"><s>Add an anti-tank recoilless launcher to the bow of the vessel. Used from the Passenger 5 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -7kg</s><r>Добавьте в носовую часть судна противотанковую безоткатную установку. Используется с пассажирского сиденья 5.
+
+&lt;color=#bb8f04&gt;Грузоподъемность:&lt;/color&gt; -7 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.9.label"><s>Recoilless launcher</s><r>Безоткатная пусковая установка</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.9.upgrades.0.roles.0.label"><s>Passenger 4</s><r>Пассажир 4</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Dinghy_UpgradeTree.nodes.9.upgrades.1.turrets.0.gizmoLabel"><s>Bow recoilless rifle</s><r>Луковое безоткатное ружье</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Frog_UpgradeTree.nodes.0.description"><s>Improve the cargo capacity of the vehicle slightly.
+
+&lt;color=#bb8f04&gt;Cargo:&lt;/color&gt; +25kg</s><r>Немного увеличьте грузоподъемность автомобиля.
+
+&lt;color=#bb8f04&gt;Груз:&lt;/color&gt; +25 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Frog_UpgradeTree.nodes.0.label"><s>Cargo Capacity</s><r>Грузоподъемность</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Frog_UpgradeTree.nodes.1.description"><s>Reinforce the armor of the vehicle slightly.
+
+&lt;color=#bb8f04&gt;Protection:&lt;/color&gt; +2% Sharp, +4% Blunt</s><r>Слегка усилите броню машины.
+
+&lt;color=#bb8f04&gt;Защита:&lt;/color&gt; +2% Острый, +4% Дробящий.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Frog_UpgradeTree.nodes.2.description"><s>Improve the engine of the vehicle, allowing it to reach higher maximum speed.</s><r>Улучшайте двигатель автомобиля, позволяя ему развивать более высокую максимальную скорость.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Frog_UpgradeTree.nodes.3.description"><s>Improve shifting capabilities of transmission to increase acceleration speed of the vehicle slightly.</s><r>Улучшите возможности переключения передач, чтобы немного увеличить скорость ускорения автомобиля.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Frog_UpgradeTree.nodes.4.description"><s>Improve the exhaust system of the vehicle, improving fuel efficiency slightly.</s><r>Улучшите выхлопную систему автомобиля, немного улучшив топливную экономичность.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Frog_UpgradeTree.nodes.4.label"><s>Fuel Consumption</s><r>Расход топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Frog_UpgradeTree.nodes.5.description"><s>Increase the size of the chemtank slightly.</s><r>Немного увеличьте размер химтанка.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Frog_UpgradeTree.nodes.5.label"><s>Fuel Capacity</s><r>Запас топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Frog_UpgradeTree.nodes.6.description"><s>Redesign the armor with uranium, allowing for far greater durability at the cost of fuel efficiency and acceleration.
+
+&lt;color=#bb8f04&gt;Protection:&lt;/color&gt; +20% Sharp, +30% Blunt
+&lt;color=#bb8f04&gt;Fuel Efficiency:&lt;/color&gt; -50</s><r>Перепроектируйте броню с использованием урана, чтобы обеспечить гораздо большую долговечность за счет экономии топлива и ускорения.
+
+&lt;color=#bb8f04&gt;Защита:&lt;/color&gt; +20% Острота, +30% Тупость
+&lt;color=#bb8f04&gt;Топливная эффективность:&lt;/color&gt; -50</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Frog_UpgradeTree.nodes.6.label"><s>Heavy Reinforcement</s><r>Тяжелое подкрепление</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Frog_UpgradeTree.nodes.7.description"><s>Rebuild the pod structure with plasteel, reducing load to give space for one extra occupant with the same armor and fuel efficiency.</s><r>Перестройте конструкцию капсулы из пластали, уменьшив нагрузку и освободив место для одного дополнительного пассажира с той же броней и топливной экономичностью.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Frog_UpgradeTree.nodes.7.label"><s>Larger Pod</s><r>Большая капсула</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_HeavyACommonUpgradeTree.nodes.0.description"><s>Improve the cargo capacity of the vehicle slightly.
+
+&lt;color=#bb8f04&gt;Cargo:&lt;/color&gt; +100kg</s><r>Немного увеличьте грузоподъемность автомобиля.
+
+&lt;color=#bb8f04&gt;Груз:&lt;/color&gt; +100 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_HeavyACommonUpgradeTree.nodes.0.label"><s>Cargo Capacity</s><r>Грузоподъемность</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_HeavyACommonUpgradeTree.nodes.1.description"><s>Reinforce the armor of the vehicle slightly. 
+
+&lt;color=#bb8f04&gt;Protection:&lt;/color&gt; +50% Sharp, +100% Blunt</s><r>Немного усилите броню машины. 
+
+&lt;color=#bb8f04&gt;Защита:&lt;/color&gt; +50% Острый, +100% Дробящий.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_HeavyACommonUpgradeTree.nodes.2.description"><s>Improve the engine of the vehicle, allowing it to reach higher maximum speed.</s><r>Улучшайте двигатель автомобиля, позволяя ему развивать более высокую максимальную скорость.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_HeavyACommonUpgradeTree.nodes.3.description"><s>Improve shifting capabilities of transmission to increase acceleration speed of the vehicle slightly.</s><r>Улучшите возможности переключения передач, чтобы немного увеличить скорость ускорения автомобиля.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_HeavyACommonUpgradeTree.nodes.4.description"><s>Improve the exhaust system of the vehicle, improving fuel efficiency slightly.</s><r>Улучшите выхлопную систему автомобиля, немного улучшив топливную экономичность.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_HeavyACommonUpgradeTree.nodes.4.label"><s>Fuel Consumption</s><r>Расход топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_HeavyACommonUpgradeTree.nodes.5.description"><s>Increase the size of the chemtank slightly.</s><r>Немного увеличьте размер химтанка.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_HeavyACommonUpgradeTree.nodes.5.label"><s>Fuel Capacity</s><r>Запас топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_HeavyCommonUpgradeTree.nodes.0.description"><s>Improve the cargo capacity of the vehicle slightly.
+
+&lt;color=#bb8f04&gt;Cargo:&lt;/color&gt; +100kg</s><r>Немного увеличьте грузоподъемность автомобиля.
+
+&lt;color=#bb8f04&gt;Груз:&lt;/color&gt; +100 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_HeavyCommonUpgradeTree.nodes.0.label"><s>Cargo Capacity</s><r>Грузоподъемность</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_HeavyCommonUpgradeTree.nodes.1.description"><s>Reinforce the armor of the vehicle slightly. 
+
+&lt;color=#bb8f04&gt;Protection:&lt;/color&gt; +8% Sharp, +16% Blunt</s><r>Немного усилите броню машины. 
+
+&lt;color=#bb8f04&gt;Защита:&lt;/color&gt; +8% острый, +16% тупой.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_HeavyCommonUpgradeTree.nodes.2.description"><s>Improve the engine of the vehicle, allowing it to reach higher maximum speed.</s><r>Улучшайте двигатель автомобиля, позволяя ему развивать более высокую максимальную скорость.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_HeavyCommonUpgradeTree.nodes.3.description"><s>Improve shifting capabilities of transmission to increase acceleration speed of the vehicle slightly.</s><r>Улучшите возможности переключения передач, чтобы немного увеличить скорость ускорения автомобиля.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_HeavyCommonUpgradeTree.nodes.4.description"><s>Improve the exhaust system of the vehicle, improving fuel efficiency slightly.</s><r>Улучшите выхлопную систему автомобиля, немного улучшив топливную экономичность.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_HeavyCommonUpgradeTree.nodes.4.label"><s>Fuel Consumption</s><r>Расход топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_HeavyCommonUpgradeTree.nodes.5.description"><s>Increase the size of the chemtank slightly.</s><r>Немного увеличьте размер химтанка.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_HeavyCommonUpgradeTree.nodes.5.label"><s>Fuel Capacity</s><r>Запас топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_LightCommonUpgradeTree.nodes.0.description"><s>Improve the cargo capacity of the vehicle slightly.
+
+&lt;color=#bb8f04&gt;Cargo:&lt;/color&gt; +25kg</s><r>Немного увеличьте грузоподъемность автомобиля.
+
+&lt;color=#bb8f04&gt;Груз:&lt;/color&gt; +25 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_LightCommonUpgradeTree.nodes.0.label"><s>Cargo Capacity</s><r>Грузоподъемность</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_LightCommonUpgradeTree.nodes.1.description"><s>Reinforce the armor of the vehicle slightly.
+
+&lt;color=#bb8f04&gt;Protection:&lt;/color&gt; +2% Sharp, +4% Blunt</s><r>Слегка усилите броню машины.
+
+&lt;color=#bb8f04&gt;Защита:&lt;/color&gt; +2% Острый, +4% Дробящий.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_LightCommonUpgradeTree.nodes.2.description"><s>Improve the engine of the vehicle, allowing it to reach higher maximum speed.</s><r>Улучшайте двигатель автомобиля, позволяя ему развивать более высокую максимальную скорость.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_LightCommonUpgradeTree.nodes.3.description"><s>Improve shifting capabilities of transmission to increase acceleration speed of the vehicle slightly.</s><r>Улучшите возможности переключения передач, чтобы немного увеличить скорость ускорения автомобиля.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_LightCommonUpgradeTree.nodes.4.description"><s>Improve the exhaust system of the vehicle, improving fuel efficiency slightly.</s><r>Улучшите выхлопную систему автомобиля, немного улучшив топливную экономичность.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_LightCommonUpgradeTree.nodes.4.label"><s>Fuel Consumption</s><r>Расход топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_LightCommonUpgradeTree.nodes.5.description"><s>Increase the size of the chemtank slightly.</s><r>Немного увеличьте размер химтанка.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_LightCommonUpgradeTree.nodes.5.label"><s>Fuel Capacity</s><r>Запас топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Louie_UpgradeTree.nodes.0.description"><s>Improve the cargo capacity of the vehicle slightly.
+
+&lt;color=#bb8f04&gt;Cargo:&lt;/color&gt; +100kg</s><r>Немного увеличьте грузоподъемность автомобиля.
+
+&lt;color=#bb8f04&gt;Груз:&lt;/color&gt; +100 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Louie_UpgradeTree.nodes.0.label"><s>Cargo Capacity</s><r>Грузоподъемность</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Louie_UpgradeTree.nodes.1.description"><s>Reinforce the armor of the vehicle slightly. 
+
+&lt;color=#bb8f04&gt;Protection:&lt;/color&gt; +8% Sharp, +16% Blunt</s><r>Немного усилите броню машины. 
+
+&lt;color=#bb8f04&gt;Защита:&lt;/color&gt; +8% острый, +16% тупой.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Louie_UpgradeTree.nodes.2.description"><s>Improve the engine of the vehicle, allowing it to reach higher maximum speed.</s><r>Улучшайте двигатель автомобиля, позволяя ему развивать более высокую максимальную скорость.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Louie_UpgradeTree.nodes.3.description"><s>Improve shifting capabilities of transmission to increase acceleration speed of the vehicle slightly.</s><r>Улучшите возможности переключения передач, чтобы немного увеличить скорость ускорения автомобиля.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Louie_UpgradeTree.nodes.4.description"><s>Improve the exhaust system of the vehicle, improving fuel efficiency slightly.</s><r>Улучшите выхлопную систему автомобиля, немного улучшив топливную экономичность.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Louie_UpgradeTree.nodes.4.label"><s>Fuel Consumption</s><r>Расход топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Louie_UpgradeTree.nodes.5.description"><s>Increase the size of the chemtank slightly.</s><r>Немного увеличьте размер химтанка.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Louie_UpgradeTree.nodes.5.label"><s>Fuel Capacity</s><r>Запас топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Louie_UpgradeTree.nodes.6.description"><s>Attach two medium machine guns to the vehicle's sides. Can be used by any passenger seat occupant.
+
+Some folks are born made to wave the flag...</s><r>Прикрепите два средних пулемета к бортам машины. Может использоваться любым пассажиром, сидящим на пассажирском сиденье.
+
+Некоторые люди рождены для того, чтобы размахивать флагом...</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Louie_UpgradeTree.nodes.6.label"><s>Medium machine gun</s><r>Средний пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Louie_UpgradeTree.nodes.6.upgrades.1.turrets.0.gizmoLabel"><s>Gunner 1</s><r>Наводчик 1</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Louie_UpgradeTree.nodes.6.upgrades.1.turrets.1.gizmoLabel"><s>Gunner 2</s><r>Наводчик 2</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Louie_UpgradeTree.nodes.7.description"><s>Attach two heavy machine guns to the vehicle's sides. Can be used by any passenger seat occupant.
+
+And when the band plays &quot;Hail to the Chief&quot;...</s><r>Прикрепите два крупнокалиберных пулемета к бортам машины. Может использоваться любым пассажиром, сидящим на пассажирском сиденье.
+
+И когда оркестр играет «Славься вождю»…</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Louie_UpgradeTree.nodes.7.label"><s>Heavy machine gun</s><r>Тяжелый пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Louie_UpgradeTree.nodes.7.upgrades.1.turrets.0.gizmoLabel"><s>Gunner 1</s><r>Наводчик 1</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Louie_UpgradeTree.nodes.7.upgrades.1.turrets.1.gizmoLabel"><s>Gunner 2</s><r>Наводчик 2</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Louie_UpgradeTree.nodes.8.description"><s>Attach two miniguns to the vehicle's sides. Can be used by any passenger seat occupant.
+
+Hoo, they're red, white and blue.</s><r>Прикрепите два минигана к бокам автомобиля. Может использоваться любым пассажиром, сидящим на пассажирском сиденье.
+
+Ого, они красные, белые и синие.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Louie_UpgradeTree.nodes.8.upgrades.1.turrets.0.gizmoLabel"><s>Gunner 1</s><r>Наводчик 1</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Louie_UpgradeTree.nodes.8.upgrades.1.turrets.1.gizmoLabel"><s>Gunner 2</s><r>Наводчик 2</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Marshal_UpgradeTree.nodes.0.description"><s>Improve the cargo capacity of the vehicle slightly.
+
+&lt;color=#bb8f04&gt;Cargo:&lt;/color&gt; +100kg</s><r>Немного увеличьте грузоподъемность автомобиля.
+
+&lt;color=#bb8f04&gt;Груз:&lt;/color&gt; +100 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Marshal_UpgradeTree.nodes.0.label"><s>Cargo Capacity</s><r>Грузоподъемность</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Marshal_UpgradeTree.nodes.1.description"><s>Reinforce the armor of the vehicle slightly. 
+
+&lt;color=#bb8f04&gt;Protection:&lt;/color&gt; +50% Sharp, +100% Blunt</s><r>Немного усилите броню машины. 
+
+&lt;color=#bb8f04&gt;Защита:&lt;/color&gt; +50% Острый, +100% Дробящий.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Marshal_UpgradeTree.nodes.2.description"><s>Improve the engine of the vehicle, allowing it to reach higher maximum speed.</s><r>Улучшайте двигатель автомобиля, позволяя ему развивать более высокую максимальную скорость.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Marshal_UpgradeTree.nodes.3.description"><s>Improve shifting capabilities of transmission to increase acceleration speed of the vehicle slightly.</s><r>Улучшите возможности переключения передач, чтобы немного увеличить скорость ускорения автомобиля.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Marshal_UpgradeTree.nodes.4.description"><s>Improve the exhaust system of the vehicle, improving fuel efficiency slightly.</s><r>Улучшите выхлопную систему автомобиля, немного улучшив топливную экономичность.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Marshal_UpgradeTree.nodes.4.label"><s>Fuel Consumption</s><r>Расход топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Marshal_UpgradeTree.nodes.5.description"><s>Increase the size of the chemtank slightly.</s><r>Немного увеличьте размер химтанка.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Marshal_UpgradeTree.nodes.5.label"><s>Fuel Capacity</s><r>Запас топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Marshal_UpgradeTree.nodes.6.description"><s>Replace the mounted turret's MMG with a larger HMG.
+
+Useful against groups of enemies and even light vehicles. Needs to be fired from the machine-gunner's seat.
+
+When Ma Deuce speaks, everybody listens!
+
+&lt;color=#bb8f04&gt;Ammo type:&lt;/color&gt; .50 BMG</s><r>Замените пулемет установленной турели на пулемет большего размера.
+
+Полезно против групп врагов и даже легкой техники. Стрелять нужно с места пулеметчика.
+
+Когда говорит Ма Дьюс, все слушают!
+
+&lt;color=#bb8f04&gt;Тип боеприпаса:&lt;/color&gt; .50 BMG</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Marshal_UpgradeTree.nodes.6.label"><s>Improved mounted machine gun</s><r>Улучшенный станковый пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Marshal_UpgradeTree.nodes.6.upgrades.0.turrets.0.gizmoLabel"><s>Mounted Turret</s><r>Установленная турель</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_MediumCommonUpgradeTree.nodes.0.description"><s>Improve the cargo capacity of the vehicle slightly.
+
+&lt;color=#bb8f04&gt;Cargo:&lt;/color&gt; +50kg</s><r>Немного увеличьте грузоподъемность автомобиля.
+
+&lt;color=#bb8f04&gt;Груз:&lt;/color&gt; +50 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_MediumCommonUpgradeTree.nodes.0.label"><s>Cargo Capacity</s><r>Грузоподъемность</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_MediumCommonUpgradeTree.nodes.1.description"><s>Reinforce the armor of the vehicle slightly. 
+
+&lt;color=#bb8f04&gt;Protection:&lt;/color&gt; +4% Sharp, +8% Blunt</s><r>Немного усилите броню машины. 
+
+&lt;color=#bb8f04&gt;Защита:&lt;/color&gt; +4% острый, +8% тупой.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_MediumCommonUpgradeTree.nodes.2.description"><s>Improve the engine of the vehicle, allowing it to reach higher maximum speed.</s><r>Улучшайте двигатель автомобиля, позволяя ему развивать более высокую максимальную скорость.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_MediumCommonUpgradeTree.nodes.3.description"><s>Improve shifting capabilities of transmission to increase acceleration speed of the vehicle slightly.</s><r>Улучшите возможности переключения передач, чтобы немного увеличить скорость ускорения автомобиля.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_MediumCommonUpgradeTree.nodes.4.description"><s>Improve the exhaust system of the vehicle, improving fuel efficiency slightly.</s><r>Улучшите выхлопную систему автомобиля, немного улучшив топливную экономичность.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_MediumCommonUpgradeTree.nodes.4.label"><s>Fuel Consumption</s><r>Расход топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_MediumCommonUpgradeTree.nodes.5.description"><s>Increase the size of the chemtank slightly.</s><r>Немного увеличьте размер химтанка.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_MediumCommonUpgradeTree.nodes.5.label"><s>Fuel Capacity</s><r>Запас топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Nomad_UpgradeTree.nodes.0.description"><s>Improve the cargo capacity of the vehicle slightly.
+
+&lt;color=#bb8f04&gt;Cargo:&lt;/color&gt; +100kg</s><r>Немного увеличьте грузоподъемность автомобиля.
+
+&lt;color=#bb8f04&gt;Груз:&lt;/color&gt; +100 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Nomad_UpgradeTree.nodes.0.label"><s>Cargo Capacity</s><r>Грузоподъемность</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Nomad_UpgradeTree.nodes.1.description"><s>Reinforce the armor of the vehicle slightly. 
+
+&lt;color=#bb8f04&gt;Protection:&lt;/color&gt; +8% Sharp, +16% Blunt</s><r>Немного усилите броню машины. 
+
+&lt;color=#bb8f04&gt;Защита:&lt;/color&gt; +8% острый, +16% тупой.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Nomad_UpgradeTree.nodes.2.description"><s>Improve the engine of the vehicle, allowing it to reach higher maximum speed.</s><r>Улучшайте двигатель автомобиля, позволяя ему развивать более высокую максимальную скорость.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Nomad_UpgradeTree.nodes.3.description"><s>Improve shifting capabilities of transmission to increase acceleration speed of the vehicle slightly.</s><r>Улучшите возможности переключения передач, чтобы немного увеличить скорость ускорения автомобиля.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Nomad_UpgradeTree.nodes.4.description"><s>Improve the exhaust system of the vehicle, improving fuel efficiency slightly.</s><r>Улучшите выхлопную систему автомобиля, немного улучшив топливную экономичность.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Nomad_UpgradeTree.nodes.4.label"><s>Fuel Consumption</s><r>Расход топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Nomad_UpgradeTree.nodes.5.description"><s>Increase the size of the chemtank slightly.</s><r>Немного увеличьте размер химтанка.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Nomad_UpgradeTree.nodes.5.label"><s>Fuel Capacity</s><r>Запас топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Nomad_UpgradeTree.nodes.6.description"><s>Attach a medium machine gun to the roof of the vehicle with all the required peripherals, including an extra seat for the gunner.
+
+The medium machine gun is designed for the indecisive logistics manager, being average in most aspects for its type.</s><r>Прикрепите к крыше машины средний пулемет со всей необходимой периферией, включая дополнительное сиденье для наводчика.
+
+Средний пулемет создан для нерешительного менеджера по логистике, являясь средним по большинству параметров для своего типа.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Nomad_UpgradeTree.nodes.6.label"><s>Medium machine gun</s><r>Средний пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Nomad_UpgradeTree.nodes.6.upgrades.0.turrets.0.gizmoLabel"><s>Mounted turret</s><r>Установленная турель</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Nomad_UpgradeTree.nodes.7.description"><s>Attach a heavy machine gun to the roof of the vehicle with all the required peripherals, including an extra seat for the gunner.
+
+The heavy machine gun has medium capacity and range, but is powerful enough to cut a man in half.</s><r>Прикрепите к крыше машины крупнокалиберный пулемет со всеми необходимыми периферийными устройствами, включая дополнительное сиденье для наводчика.
+
+Тяжелый пулемет имеет среднюю мощность и дальность действия, но достаточно мощный, чтобы разрезать человека пополам.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Nomad_UpgradeTree.nodes.7.label"><s>Heavy machine gun</s><r>Тяжелый пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Nomad_UpgradeTree.nodes.7.upgrades.0.turrets.0.gizmoLabel"><s>Mounted turret</s><r>Установленная турель</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Nomad_UpgradeTree.nodes.8.description"><s>Attach a light machine gun to the roof of the vehicle with all the required peripherals, including an extra seat for the gunner.
+
+The light machine gun is a fast-firing, high-capacity but short-ranged weapon, which makes it good for urban combat.</s><r>Прикрепите к крыше машины ручной пулемет со всей необходимой периферией, включая дополнительное сиденье для наводчика.
+
+Ручной пулемет — скорострельное, мощное, но малодействующее оружие, что делает его пригодным для городского боя.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Nomad_UpgradeTree.nodes.8.label"><s>Light machine gun</s><r>Легкий пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Nomad_UpgradeTree.nodes.8.upgrades.0.turrets.0.gizmoLabel"><s>Mounted turret</s><r>Установленная турель</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Nomad_UpgradeTree.nodes.9.description"><s>Attach an automatic grenade launcher turret to the roof of the vehicle with all the required peripherals, including an extra seat for the gunner.
+
+It is as destructive as its name suggests, the grenade machine gun is effective in the field, but not recommended for urban combat.</s><r>Прикрепите к крыше машины турель автоматического гранатомета со всей необходимой периферией, включая дополнительное сиденье для наводчика.
+
+Он настолько разрушительен, как следует из названия, гранатомет-пулемет эффективен в полевых условиях, но не рекомендуется для городского боя.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Nomad_UpgradeTree.nodes.9.label"><s>Grenade machine gun</s><r>Гранатометный пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Nomad_UpgradeTree.nodes.9.upgrades.0.turrets.0.gizmoLabel"><s>Mounted turret</s><r>Установленная турель</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Paladin_UpgradeTree.nodes.0.description"><s>Improve the cargo capacity of the vehicle slightly.
+
+&lt;color=#bb8f04&gt;Cargo:&lt;/color&gt; +100kg</s><r>Немного увеличьте грузоподъемность автомобиля.
+
+&lt;color=#bb8f04&gt;Груз:&lt;/color&gt; +100 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Paladin_UpgradeTree.nodes.0.label"><s>Cargo Capacity</s><r>Грузоподъемность</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Paladin_UpgradeTree.nodes.1.description"><s>Reinforce the armor of the vehicle slightly. 
+
+&lt;color=#bb8f04&gt;Protection:&lt;/color&gt; +50% Sharp, +100% Blunt</s><r>Немного усилите броню машины. 
+
+&lt;color=#bb8f04&gt;Защита:&lt;/color&gt; +50% Острый, +100% Дробящий.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Paladin_UpgradeTree.nodes.2.description"><s>Improve the engine of the vehicle, allowing it to reach higher maximum speed.</s><r>Улучшайте двигатель автомобиля, позволяя ему развивать более высокую максимальную скорость.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Paladin_UpgradeTree.nodes.3.description"><s>Improve shifting capabilities of transmission to increase acceleration speed of the vehicle slightly.</s><r>Улучшите возможности переключения передач, чтобы немного увеличить скорость ускорения автомобиля.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Paladin_UpgradeTree.nodes.4.description"><s>Improve the exhaust system of the vehicle, improving fuel efficiency slightly.</s><r>Улучшите выхлопную систему автомобиля, немного улучшив топливную экономичность.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Paladin_UpgradeTree.nodes.4.label"><s>Fuel Consumption</s><r>Расход топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Paladin_UpgradeTree.nodes.5.description"><s>Increase the size of the chemtank slightly.</s><r>Немного увеличьте размер химтанка.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Paladin_UpgradeTree.nodes.5.label"><s>Fuel Capacity</s><r>Запас топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Paladin_UpgradeTree.nodes.6.description"><s>Convert the vehicle to a self-propelled gun, taking up all passenger space. The turret comes with smoke grenade launchers and a heavy machine gun.</s><r>Превратите машину в самоходку, заняв все пассажирское пространство. Башня оснащена дымовыми гранатометами и крупнокалиберным пулеметом.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Paladin_UpgradeTree.nodes.6.label"><s>Tank turret</s><r>Танковая башня</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Paladin_UpgradeTree.nodes.6.upgrades.1.activate.0.chargeNoun"><s>smokepop</s><r>дымовая труба</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Paladin_UpgradeTree.nodes.6.upgrades.1.activate.0.commandDescriptions.0"><s>A defensive smokescreen. When activated, it will release a cloud of smoke, obscuring incoming shots and preventing turrets from locking on. Has three charges and will require a chemfuel reload after they are spent. Right click to reload.</s><r>Оборонительная дымовая завеса. При активации он выпускает облако дыма, скрывающее входящие выстрелы и препятствующее захвату турелей. Имеет три заряда, и после их израсходования потребуется дозаправка химтопливом. Щелкните правой кнопкой мыши, чтобы перезагрузить.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Paladin_UpgradeTree.nodes.6.upgrades.1.activate.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Paladin_UpgradeTree.nodes.6.upgrades.1.activate.0.verbs.0.label"><s>pop smoke</s><r>поп-дым</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Paladin_UpgradeTree.nodes.6.upgrades.2.turrets.0.gizmoLabel"><s>Main Turret</s><r>Главная турель</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Paladin_UpgradeTree.nodes.6.upgrades.2.turrets.1.gizmoLabel"><s>machine gun</s><r>пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Paladin_UpgradeTree.nodes.7.description"><s>Replace the simple remote-controlled grenade launcher with an improved autocannon turret. Comes with smoke grenade launchers and can fire explosive shells.</s><r>Замените простой дистанционно управляемый гранатомет на улучшенную турельную автоматическую пушку. Поставляется с дымовыми гранатометами и может стрелять разрывными снарядами.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Paladin_UpgradeTree.nodes.7.label"><s>Autocannon turret</s><r>Автопушка турель</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Paladin_UpgradeTree.nodes.7.upgrades.1.activate.0.chargeNoun"><s>smokepop</s><r>дымовая труба</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Paladin_UpgradeTree.nodes.7.upgrades.1.activate.0.commandDescriptions.0"><s>A defensive smokescreen. When activated, it will release a cloud of smoke, obscuring incoming shots and preventing turrets from locking on. Has three charges and will require a chemfuel reload after they are spent. Right click to reload.</s><r>Оборонительная дымовая завеса. При активации он выпускает облако дыма, скрывающее входящие выстрелы и препятствующее захвату турелей. Имеет три заряда, и после их израсходования потребуется дозаправка химтопливом. Щелкните правой кнопкой мыши, чтобы перезагрузить.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Paladin_UpgradeTree.nodes.7.upgrades.1.activate.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Paladin_UpgradeTree.nodes.7.upgrades.1.activate.0.verbs.0.label"><s>pop smoke</s><r>поп-дым</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Paladin_UpgradeTree.nodes.7.upgrades.2.turrets.0.gizmoLabel"><s>Main Turret</s><r>Главная турель</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Paladin_UpgradeTree.nodes.7.upgrades.2.turrets.1.gizmoLabel"><s>machine gun</s><r>пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.0.description"><s>Improve the cargo capacity of the vehicle slightly.
+
+&lt;color=#bb8f04&gt;Cargo:&lt;/color&gt; +50kg</s><r>Немного увеличьте грузоподъемность автомобиля.
+
+&lt;color=#bb8f04&gt;Груз:&lt;/color&gt; +50 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.0.label"><s>Cargo Capacity</s><r>Грузоподъемность</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.1.description"><s>Reinforce the armor of the vehicle slightly. 
+
+&lt;color=#bb8f04&gt;Protection:&lt;/color&gt; +4% Sharp, +8% Blunt</s><r>Немного усилите броню машины. 
+
+&lt;color=#bb8f04&gt;Защита:&lt;/color&gt; +4% острый, +8% тупой.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.10.description"><s>Attach a rocketswarm launcher to the bed. Greatly reduces maximum load capacity. Removes Passenger 2 and 3 slots and is controlled by Passenger 1. 
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -50kg</s><r>Прикрепите ракетную установку к кровати. Значительно снижает максимальную грузоподъемность. Удаляет слоты для Пассажира 2 и 3 и контролируется Пассажиром 1. 
+
+&lt;color=#bb8f04&gt;Грузовместимость:&lt;/color&gt; -50 кг</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.10.label"><s>Rocketswarm turret</s><r>Ракетытеплая турель</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.10.upgrades.1.turrets.0.gizmoLabel"><s>Rocket salvo</s><r>Ракетный сейф</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.11.description"><s>Attach a light machine gun to the bed. Used from the Passenger 2 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -7.5kg
+&lt;color=#bb8f04&gt;Ammo type:&lt;/color&gt; 7.62x54mmR</s><r>Прикрепите к кровати ручной пулемет. Используется с пассажирского сиденья 2.
+
+&lt;color=#bb8f04&gt;Грузовместимость:&lt;/color&gt; -7,5 кг
+&lt;color=#bb8f04&gt;Тип боеприпасов:&lt;/color&gt; 7,62x54 ммR</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.11.label"><s>PKM machine gun</s><r>Пулемет ПКМ</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.11.upgrades.1.turrets.0.gizmoLabel"><s>Light machine gun</s><r>Легкий пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.12.description"><s>Attach a heavy machine gun to the truck's bed. Used from the Passenger 2 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -34kg
+&lt;color=#bb8f04&gt;Ammo type:&lt;/color&gt; 12.7x108mm</s><r>Прикрепите крупнокалиберный пулемет к кузову грузовика. Используется с пассажирского сиденья 2.
+
+&lt;color=#bb8f04&gt;Грузовместимость:&lt;/color&gt; -34 кг
+&lt;color=#bb8f04&gt;Тип боеприпасов:&lt;/color&gt; 12,7x108 мм</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.12.label"><s>DShK machine gun</s><r>Пулемет ДШК</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.12.upgrades.1.turrets.0.gizmoLabel"><s>Heavy machine gun</s><r>Тяжелый пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.13.description"><s>Attach a heavy machine gun to the truck's bed. Used from the Passenger 2 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -50kg
+&lt;color=#bb8f04&gt;Ammo type:&lt;/color&gt; 14.5x114mm</s><r>Прикрепите крупнокалиберный пулемет к кузову грузовика. Используется с пассажирского сиденья 2.
+
+&lt;color=#bb8f04&gt;Грузовместимость:&lt;/color&gt; -50 кг
+&lt;color=#bb8f04&gt;Тип боеприпасов:&lt;/color&gt; 14,5x114 мм</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.13.label"><s>KPV machine gun</s><r>Пулемет КПВ</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.13.upgrades.1.turrets.0.gizmoLabel"><s>Heavy machine gun</s><r>Тяжелый пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.14.description"><s>Attach a grenade machine gun to the bed. Used from the Passenger 2 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -17.5kg
+&lt;color=#bb8f04&gt;Ammo type:&lt;/color&gt; 30x29mm Grenades</s><r>Прикрепите к кровати гранатомет-пулемет. Используется с пассажирского сиденья 2.
+
+&lt;color=#bb8f04&gt;Грузовместимость:&lt;/color&gt; -17,5 кг
+&lt;color=#bb8f04&gt;Тип боеприпасов:&lt;/color&gt; Гранаты 30x29 мм</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.14.label"><s>AGS-30 grenade machine gun</s><r>Гранатомет-пулемет АГС-30</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.14.upgrades.1.turrets.0.gizmoLabel"><s>Grenade machine gun</s><r>Гранатометный пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.15.description"><s>Attach a recoilless launcher to the bed. Significantly reduces maximum load capacity. Used from the Passenger 2 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -60kg
+&lt;color=#bb8f04&gt;Ammo type:&lt;/color&gt; SPG-9 Rockets</s><r>Прикрепите к станине безоткатную пусковую установку. Значительно снижает максимальную грузоподъемность. Используется с пассажирского сиденья 2.
+
+&lt;color=#bb8f04&gt;Грузовместимость:&lt;/color&gt; -60 кг
+&lt;color=#bb8f04&gt;Тип боекомплекта:&lt;/color&gt; Ракеты СПГ-9</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.15.label"><s>SPG-9 recoilless launcher</s><r>Безоткатная пусковая установка СПГ-9</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.15.upgrades.1.turrets.0.gizmoLabel"><s>Recoilless rifle</s><r>Безоткатная винтовка</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.2.description"><s>Improve the engine of the vehicle, allowing it to reach higher maximum speed.</s><r>Улучшайте двигатель автомобиля, позволяя ему развивать более высокую максимальную скорость.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.3.description"><s>Improve shifting capabilities of transmission to increase acceleration speed of the vehicle slightly.</s><r>Улучшите возможности переключения передач, чтобы немного увеличить скорость ускорения автомобиля.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.4.description"><s>Improve the exhaust system of the vehicle, improving fuel efficiency slightly.</s><r>Улучшите выхлопную систему автомобиля, немного улучшив топливную экономичность.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.4.label"><s>Fuel Consumption</s><r>Расход топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.5.description"><s>Increase the size of the chemtank slightly.</s><r>Немного увеличьте размер химтанка.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.5.label"><s>Fuel Capacity</s><r>Запас топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.6.description"><s>Attach a medium machine gun to the bed. Used from the Passenger 2 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -15kg</s><r>Прикрепите к кровати средний пулемет. Используется с пассажирского сиденья 2.
+
+&lt;color=#bb8f04&gt;Грузоподъемность:&lt;/color&gt; -15 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.6.label"><s>Medium machine gun</s><r>Средний пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.6.upgrades.1.turrets.0.gizmoLabel"><s>Medium machine gun</s><r>Средний пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.7.description"><s>Attach a heavy machine gun to the truck's bed. Used from the Passenger 2 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -58kg</s><r>Прикрепите крупнокалиберный пулемет к кузову грузовика. Используется с пассажирского сиденья 2.
+
+&lt;color=#bb8f04&gt;Грузовместимость:&lt;/color&gt; -58 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.7.label"><s>Heavy machine gun</s><r>Тяжелый пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.7.upgrades.1.turrets.0.gizmoLabel"><s>Heavy machine gun</s><r>Тяжелый пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.8.description"><s>Attach a grenade machine gun to the bed. Used from the Passenger 2 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -62kg</s><r>Прикрепите к кровати гранатомет-пулемет. Используется с пассажирского сиденья 2.
+
+&lt;color=#bb8f04&gt;Грузоподъемность:&lt;/color&gt; -62 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.8.label"><s>Grenade machine gun</s><r>Гранатометный пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.8.upgrades.1.turrets.0.gizmoLabel"><s>Grenade machine gun</s><r>Гранатометный пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.9.description"><s>Attach a recoilless launcher to the bed. Used from the Passenger 2 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -7kg</s><r>Прикрепите к станине безоткатную пусковую установку. Используется с сиденья пассажира 2.
+
+&lt;color=#bb8f04&gt;Грузоподъемность:&lt;/color&gt; -7 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.9.label"><s>Recoilless launcher</s><r>Безоткатная пусковая установка</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Roadrunner_UpgradeTree.nodes.9.upgrades.1.turrets.0.gizmoLabel"><s>Recoilless rifle</s><r>Безоткатная винтовка</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Tango_UpgradeTree.nodes.0.description"><s>Improve the cargo capacity of the vehicle slightly.
+
+&lt;color=#bb8f04&gt;Cargo:&lt;/color&gt; +50kg</s><r>Немного увеличьте грузоподъемность автомобиля.
+
+&lt;color=#bb8f04&gt;Груз:&lt;/color&gt; +50 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Tango_UpgradeTree.nodes.0.label"><s>Cargo Capacity</s><r>Грузоподъемность</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Tango_UpgradeTree.nodes.1.description"><s>Reinforce the armor of the vehicle slightly. 
+
+&lt;color=#bb8f04&gt;Protection:&lt;/color&gt; +4% Sharp, +8% Blunt</s><r>Немного усилите броню машины. 
+
+&lt;color=#bb8f04&gt;Защита:&lt;/color&gt; +4% острый, +8% тупой.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Tango_UpgradeTree.nodes.2.description"><s>Improve the engine of the vehicle, allowing it to reach higher maximum speed.</s><r>Улучшайте двигатель автомобиля, позволяя ему развивать более высокую максимальную скорость.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Tango_UpgradeTree.nodes.3.description"><s>Improve shifting capabilities of transmission to increase acceleration speed of the vehicle slightly.</s><r>Улучшите возможности переключения передач, чтобы немного увеличить скорость ускорения автомобиля.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Tango_UpgradeTree.nodes.4.description"><s>Improve the exhaust system of the vehicle, improving fuel efficiency slightly.</s><r>Улучшите выхлопную систему автомобиля, немного улучшив топливную экономичность.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Tango_UpgradeTree.nodes.4.label"><s>Fuel Consumption</s><r>Расход топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Tango_UpgradeTree.nodes.5.description"><s>Increase the size of the chemtank slightly.</s><r>Немного увеличьте размер химтанка.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Tango_UpgradeTree.nodes.5.label"><s>Fuel Capacity</s><r>Запас топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Tango_UpgradeTree.nodes.6.description"><s>Replace the simple remotely-controlled autocannon turret with a modernized ergonomic turret. Comes with an improved fire control system, smoke grenade launchers, a coaxial machine gun and fires higher caliber shells.</s><r>Замените простую дистанционно управляемую автопушку на модернизированную эргономичную башню. Имеет улучшенную систему управления огнем, дымовые гранатометы, спаренный пулемет и стреляет снарядами более высокого калибра.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Tango_UpgradeTree.nodes.6.label"><s>Improved turret</s><r>Улучшенная турель</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Tango_UpgradeTree.nodes.6.upgrades.0.activate.0.chargeNoun"><s>smokepop</s><r>дымовая труба</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Tango_UpgradeTree.nodes.6.upgrades.0.activate.0.commandDescriptions.0"><s>A defensive smokescreen. When activated, it will release a cloud of smoke, obscuring incoming shots and preventing turrets from locking on. Has three charges and will require a chemfuel reload after they are spent. Right click to reload.</s><r>Оборонительная дымовая завеса. При активации он выпускает облако дыма, скрывающее входящие выстрелы и препятствующее захвату турелей. Имеет три заряда, и после их израсходования потребуется дозаправка химтопливом. Щелкните правой кнопкой мыши, чтобы перезагрузить.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Tango_UpgradeTree.nodes.6.upgrades.0.activate.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Tango_UpgradeTree.nodes.6.upgrades.0.activate.0.verbs.0.label"><s>pop smoke</s><r>поп-дым</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Tango_UpgradeTree.nodes.6.upgrades.1.turrets.0.gizmoLabel"><s>Main Turret</s><r>Главная турель</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Tango_UpgradeTree.nodes.6.upgrades.1.turrets.1.gizmoLabel"><s>coaxial machine gun</s><r>спаренный пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Toad_UpgradeTree.nodes.0.description"><s>Improve the cargo capacity of the vehicle slightly.
+
+&lt;color=#bb8f04&gt;Cargo:&lt;/color&gt; +50kg</s><r>Немного увеличьте грузоподъемность автомобиля.
+
+&lt;color=#bb8f04&gt;Груз:&lt;/color&gt; +50 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Toad_UpgradeTree.nodes.0.label"><s>Cargo Capacity</s><r>Грузоподъемность</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Toad_UpgradeTree.nodes.1.description"><s>Reinforce the armor of the vehicle slightly. 
+
+&lt;color=#bb8f04&gt;Protection:&lt;/color&gt; +4% Sharp, +8% Blunt</s><r>Немного усилите броню машины. 
+
+&lt;color=#bb8f04&gt;Защита:&lt;/color&gt; +4% острый, +8% тупой.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Toad_UpgradeTree.nodes.10.description"><s>Redesign the armor with uranium insets, allowing for far greater durability at the cost of fuel efficiency and acceleration.
+
+&lt;color=#bb8f04&gt;Protection:&lt;/color&gt; +20% Sharp, +30% Blunt
+&lt;color=#bb8f04&gt;Fuel Efficiency:&lt;/color&gt; -100</s><r>Измените конструкцию брони с использованием урановых вставок, что позволит повысить ее долговечность за счет экономии топлива и ускорения.
+
+&lt;color=#bb8f04&gt;Защита:&lt;/color&gt; +20% Острота, +30% Тупость
+&lt;color=#bb8f04&gt;Топливная эффективность:&lt;/color&gt; -100</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Toad_UpgradeTree.nodes.10.label"><s>Heavy Reinforcement</s><r>Тяжелое подкрепление</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Toad_UpgradeTree.nodes.2.description"><s>Improve the engine of the vehicle, allowing it to reach higher maximum speed.</s><r>Улучшайте двигатель автомобиля, позволяя ему развивать более высокую максимальную скорость.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Toad_UpgradeTree.nodes.3.description"><s>Improve shifting capabilities of transmission to increase acceleration speed of the vehicle slightly.</s><r>Улучшите возможности переключения передач, чтобы немного увеличить скорость ускорения автомобиля.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Toad_UpgradeTree.nodes.4.description"><s>Improve the exhaust system of the vehicle, improving fuel efficiency slightly.</s><r>Улучшите выхлопную систему автомобиля, немного улучшив топливную экономичность.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Toad_UpgradeTree.nodes.4.label"><s>Fuel Consumption</s><r>Расход топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Toad_UpgradeTree.nodes.5.description"><s>Increase the size of the chemtank slightly.</s><r>Немного увеличьте размер химтанка.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Toad_UpgradeTree.nodes.5.label"><s>Fuel Capacity</s><r>Запас топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Toad_UpgradeTree.nodes.6.description"><s>Replace the mortar with a mechanoid-style flamebolt launcher using salvaged technology. Directly takes fuel from the chemtank when reloading.</s><r>Замените миномет огнеметом механоидного типа, используя утилизированную технологию. Непосредственно забирает топливо из химбака при перезарядке.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Toad_UpgradeTree.nodes.6.label"><s>Flame Launcher</s><r>Пламенная пусковая установка</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Toad_UpgradeTree.nodes.6.upgrades.0.turrets.0.gizmoLabel"><s>Main Turret</s><r>Главная турель</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Toad_UpgradeTree.nodes.7.description"><s>Replace the mortar with a twin-barreled gun turret for urban deployment.</s><r>Заменить миномет двухствольной артиллерийской башней для городского применения.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Toad_UpgradeTree.nodes.7.label"><s>Military Turret</s><r>Военная турель</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Toad_UpgradeTree.nodes.7.upgrades.0.turrets.0.gizmoLabel"><s>Main Turret</s><r>Главная турель</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Toad_UpgradeTree.nodes.8.description"><s>Redesign the thrusters with upgraded air compressors for higher fuel efficiency at high altitudes. Decreases fuel consumption.
+&lt;color=#bb8f04&gt;Fuel Efficiency:&lt;/color&gt; +600</s><r>Модернизируйте двигатели с помощью модернизированных воздушных компрессоров для повышения эффективности использования топлива на больших высотах. Уменьшает расход топлива.
+&lt;color=#bb8f04&gt;Топливная эффективность:&lt;/color&gt; +600</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Toad_UpgradeTree.nodes.8.label"><s>Air Compressors</s><r>Воздушные компрессоры</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Toad_UpgradeTree.nodes.9.description"><s>Rebuild the pod structure with plasteel, reducing load to give space for two extra occupants with the same armor and fuel efficiency.</s><r>Перестройте конструкцию капсулы из пластали, уменьшив нагрузку и освободив место для двух дополнительных пассажиров с такой же броней и топливной экономичностью.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Toad_UpgradeTree.nodes.9.label"><s>Larger Pod</s><r>Большая капсула</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.0.description"><s>Improve the cargo capacity of the vehicle slightly.
+
+&lt;color=#bb8f04&gt;Cargo:&lt;/color&gt; +50kg</s><r>Немного увеличьте грузоподъемность автомобиля.
+
+&lt;color=#bb8f04&gt;Груз:&lt;/color&gt; +50 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.0.label"><s>Cargo Capacity</s><r>Грузоподъемность</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.1.description"><s>Reinforce the armor of the vehicle slightly. 
+
+&lt;color=#bb8f04&gt;Protection:&lt;/color&gt; +4% Sharp, +8% Blunt</s><r>Немного усилите броню машины. 
+
+&lt;color=#bb8f04&gt;Защита:&lt;/color&gt; +4% острый, +8% тупой.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.10.description"><s>Add a grenade machine gun to the bow of the vessel. Used from the Passenger 2 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -62kg</s><r>Добавьте гранатомет на нос судна. Используется с пассажирского сиденья 2.
+
+&lt;color=#bb8f04&gt;Грузоподъемность:&lt;/color&gt; -62 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.10.label"><s>Grenade machine gun (Bow)</s><r>Гранатомет-пулемет (Лук)</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.10.upgrades.1.turrets.0.gizmoLabel"><s>Bow grenade machine gun</s><r>Носовой гранатомет-пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.11.description"><s>Add a grenade machine gun to the aft of the vessel. Used from the Passenger 3 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -62kg</s><r>Добавьте гранатомет в кормовой части судна. Используется с пассажирского сиденья 3.
+
+&lt;color=#bb8f04&gt;Грузоподъемность:&lt;/color&gt; -62 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.11.label"><s>Grenade machine gun (Aft)</s><r>Гранатомет-пулемет (Кормовой)</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.11.upgrades.1.turrets.0.gizmoLabel"><s>Aft grenade machine gun</s><r>Кормовой гранатомет-пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.12.description"><s>Add an anti-tank recoilless launcher to the bow of the vessel. Used from the Passenger 2 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -7kg</s><r>Добавьте в носовую часть судна противотанковую безоткатную установку. Используется с сиденья пассажира 2.
+
+&lt;color=#bb8f04&gt;Грузоподъемность:&lt;/color&gt; -7 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.12.label"><s>Recoilless launcher (Bow)</s><r>Безоткатная пусковая установка (Лук)</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.12.upgrades.1.turrets.0.gizmoLabel"><s>Bow recoilless rifle</s><r>Луковое безоткатное ружье</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.13.description"><s>Add an anti-tank recoilless launcher to the aft of the vessel. Used from the Passenger 3 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -7kg</s><r>Добавьте в кормовую часть судна противотанковую безоткатную пусковую установку. Используется с пассажирского сиденья 3.
+
+&lt;color=#bb8f04&gt;Грузоподъемность:&lt;/color&gt; -7 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.13.label"><s>Recoilless launcher (Aft)</s><r>Безоткатная пусковая установка (кормовая)</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.13.upgrades.1.turrets.0.gizmoLabel"><s>Aft recoilless rifle</s><r>Кормовая безоткатная винтовка</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.14.description"><s>Add a Maxim machine gun to the bow of the vessel. Used from the Passenger 2 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -18kg
+&lt;color=#bb8f04&gt;Ammo type:&lt;/color&gt; 7.62x54mmR</s><r>Добавьте пулемет Максима на нос судна. Используется с сиденья пассажира 2.
+
+&lt;color=#bb8f04&gt;Грузоемкость:&lt;/color&gt; -18 кг
+&lt;color=#bb8f04&gt;Тип боеприпасов:&lt;/color&gt; 7,62x54 ммR</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.14.label"><s>Maxim gun (Bow)</s><r>Пистолет Максима (Лук)</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.14.upgrades.1.turrets.0.gizmoLabel"><s>Bow medium machine gun</s><r>Носовой средний пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.15.description"><s>Add a rifle-caliber machine gun to the aft of the vessel. Used from the Passenger 3 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -18kg
+&lt;color=#bb8f04&gt;Ammo type:&lt;/color&gt; 7.62x54mmR</s><r>Добавьте пулемет винтовочного калибра в кормовую часть судна. Используется с пассажирского сиденья 3.
+
+&lt;color=#bb8f04&gt;Грузоемкость:&lt;/color&gt; -18 кг
+&lt;color=#bb8f04&gt;Тип боеприпасов:&lt;/color&gt; 7,62x54 ммR</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.15.label"><s>Maxim gun (Aft)</s><r>Пушка Максима (кормовая)</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.15.upgrades.1.turrets.0.gizmoLabel"><s>Aft medium machine gun</s><r>Кормовой средний пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.16.description"><s>Add a heavy machine gun to the bow of the vessel. Used from the Passenger 2 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -58kg
+&lt;color=#bb8f04&gt;Ammo type:&lt;/color&gt; 14.5x114mm</s><r>Добавьте крупнокалиберный пулемет на нос судна. Используется с пассажирского сиденья 2.
+
+&lt;color=#bb8f04&gt;Грузовместимость:&lt;/color&gt; -58 кг
+&lt;color=#bb8f04&gt;Тип боеприпасов:&lt;/color&gt; 14,5x114 мм</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.16.label"><s>KPV machine gun (Bow)</s><r>Пулемет КПВ (Лук)</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.16.upgrades.1.turrets.0.gizmoLabel"><s>Bow heavy machine gun</s><r>Носовой крупнокалиберный пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.17.description"><s>Add a heavy machine gun to the aft of the vessel. Used from the Passenger 3 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -58kg
+&lt;color=#bb8f04&gt;Ammo type:&lt;/color&gt; 14.5x114mm</s><r>Добавьте крупнокалиберный пулемет в кормовую часть судна. Используется с пассажирского сиденья 3.
+
+&lt;color=#bb8f04&gt;Грузовместимость:&lt;/color&gt; -58 кг
+&lt;color=#bb8f04&gt;Тип боеприпасов:&lt;/color&gt; 14,5x114 мм</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.17.label"><s>KPV machine gun (Aft)</s><r>Пулемет КПВ (Кормовой)</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.17.upgrades.1.turrets.0.gizmoLabel"><s>Aft heavy machine gun</s><r>Кормовой крупнокалиберный пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.18.description"><s>Add a grenade machine gun to the bow of the vessel. Used from the Passenger 2 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -17.5kg
+&lt;color=#bb8f04&gt;Ammo type:&lt;/color&gt; 30x29mm Grenades</s><r>Добавьте гранатомет на нос судна. Используется с пассажирского сиденья 2.
+
+&lt;color=#bb8f04&gt;Грузовместимость:&lt;/color&gt; -17,5 кг
+&lt;color=#bb8f04&gt;Тип боеприпасов:&lt;/color&gt; Гранаты 30x29 мм</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.18.label"><s>AGS-30 grenade machine gun (Bow)</s><r>Гранатомет-пулемет АГС-30 (Лук)</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.18.upgrades.1.turrets.0.gizmoLabel"><s>Bow grenade machine gun</s><r>Носовой гранатомет-пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.19.description"><s>Add a grenade machine gun to the aft of the vessel. Used from the Passenger 3 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -17.5kg
+&lt;color=#bb8f04&gt;Ammo type:&lt;/color&gt; 30x29mm Grenades</s><r>Добавьте гранатомет в кормовой части судна. Используется с пассажирского сиденья 3.
+
+&lt;color=#bb8f04&gt;Грузовместимость:&lt;/color&gt; -17,5 кг
+&lt;color=#bb8f04&gt;Тип боеприпасов:&lt;/color&gt; Гранаты 30x29 мм</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.19.label"><s>AGS-30 grenade machine gun (Aft)</s><r>Гранатомет-пулемет АГС-30 (кормовой)</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.19.upgrades.1.turrets.0.gizmoLabel"><s>Aft grenade machine gun</s><r>Кормовой гранатомет-пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.2.description"><s>Improve the engine of the vehicle, allowing it to reach higher maximum speed.</s><r>Улучшайте двигатель автомобиля, позволяя ему развивать более высокую максимальную скорость.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.20.description"><s>Add an anti-tank recoilless launcher to the bow of the vessel. Used from the Passenger 2 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -60kg
+&lt;color=#bb8f04&gt;Ammo type:&lt;/color&gt; SPG-9 Rockets</s><r>Добавьте в носовую часть судна противотанковую безоткатную установку. Используется с пассажирского сиденья 2.
+
+&lt;color=#bb8f04&gt;Грузовместимость:&lt;/color&gt; -60 кг
+&lt;color=#bb8f04&gt;Тип боекомплекта:&lt;/color&gt; Ракеты СПГ-9</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.20.label"><s>SPG-9 recoilless launcher (Bow)</s><r>Безоткатная пусковая установка СПГ-9 (Луковая)</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.20.upgrades.1.turrets.0.gizmoLabel"><s>Bow recoilless rifle</s><r>Луковое безоткатное ружье</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.21.description"><s>Add an anti-tank recoilless launcher to the bow of the vessel. Used from the Passenger 3 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -60kg
+&lt;color=#bb8f04&gt;Ammo type:&lt;/color&gt; SPG-9 Rockets</s><r>Добавьте в носовую часть судна противотанковую безоткатную установку. Используется с пассажирского сиденья 3.
+
+&lt;color=#bb8f04&gt;Грузовместимость:&lt;/color&gt; -60 кг
+&lt;color=#bb8f04&gt;Тип боекомплекта:&lt;/color&gt; Ракеты СПГ-9</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.21.label"><s>SPG-9 recoilless launcher (Aft)</s><r>Безоткатная пусковая установка СПГ-9 (кормовая)</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.21.upgrades.1.turrets.0.gizmoLabel"><s>Aft recoilless rifle</s><r>Кормовая безоткатная винтовка</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.3.description"><s>Improve shifting capabilities of transmission to increase acceleration speed of the vehicle slightly.</s><r>Улучшите возможности переключения передач, чтобы немного увеличить скорость ускорения автомобиля.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.4.description"><s>Improve the exhaust system of the vehicle, improving fuel efficiency slightly.</s><r>Улучшите выхлопную систему автомобиля, немного улучшив топливную экономичность.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.4.label"><s>Fuel Consumption</s><r>Расход топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.5.description"><s>Increase the size of the chemtank slightly.</s><r>Немного увеличьте размер химтанка.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.5.label"><s>Fuel Capacity</s><r>Запас топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.6.description"><s>Add a medium machine gun to the bow of the vessel. Used from the Passenger 2 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -15kg</s><r>Добавьте средний пулемет на нос судна. Используется с пассажирского сиденья 2.
+
+&lt;color=#bb8f04&gt;Грузоподъемность:&lt;/color&gt; -15 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.6.label"><s>Medium machine gun (Bow)</s><r>Средний пулемет (Лук)</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.6.upgrades.1.turrets.0.gizmoLabel"><s>Bow medium machine gun</s><r>Носовой средний пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.7.description"><s>Add a medium machine gun to the aft of the vessel. Used from the Passenger 3 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -15kg</s><r>Добавьте средний пулемет в кормовую часть судна. Используется с пассажирского сиденья 3.
+
+&lt;color=#bb8f04&gt;Грузоподъемность:&lt;/color&gt; -15 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.7.label"><s>Medium machine gun (Aft)</s><r>Средний пулемет (кормовой)</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.7.upgrades.1.turrets.0.gizmoLabel"><s>Aft medium machine gun</s><r>Кормовой средний пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.8.description"><s>Add a heavy machine gun to the bow of the vessel. Used from the Passenger 2 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -58kg</s><r>Добавьте крупнокалиберный пулемет на нос судна. Используется с пассажирского сиденья 2.
+
+&lt;color=#bb8f04&gt;Грузовместимость:&lt;/color&gt; -58 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.8.label"><s>Heavy machine gun (Bow)</s><r>Крупнокалиберный пулемет (Лук)</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.8.upgrades.1.turrets.0.gizmoLabel"><s>Bow heavy machine gun</s><r>Носовой крупнокалиберный пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.9.description"><s>Add a heavy machine gun to the aft of the vessel. Used from the Passenger 3 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -58kg</s><r>Добавьте крупнокалиберный пулемет в кормовую часть судна. Используется с пассажирского сиденья 3.
+
+&lt;color=#bb8f04&gt;Грузоподъемность:&lt;/color&gt; -58 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.9.label"><s>Heavy machine gun (Aft)</s><r>Крупнокалиберный пулемет (Кормовой)</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Trawler_UpgradeTree.nodes.9.upgrades.1.turrets.0.gizmoLabel"><s>Aft heavy machine gun</s><r>Кормовой крупнокалиберный пулемет</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Udar_UpgradeTree.nodes.0.description"><s>Improve the cargo capacity of the vehicle slightly.
+
+&lt;color=#bb8f04&gt;Cargo:&lt;/color&gt; +100kg</s><r>Немного увеличьте грузоподъемность автомобиля.
+
+&lt;color=#bb8f04&gt;Груз:&lt;/color&gt; +100 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Udar_UpgradeTree.nodes.0.label"><s>Cargo Capacity</s><r>Грузоподъемность</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Udar_UpgradeTree.nodes.1.description"><s>Reinforce the armor of the vehicle slightly. 
+
+&lt;color=#bb8f04&gt;Protection:&lt;/color&gt; +8% Sharp, +16% Blunt</s><r>Немного усилите броню машины. 
+
+&lt;color=#bb8f04&gt;Защита:&lt;/color&gt; +8% острый, +16% тупой.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Udar_UpgradeTree.nodes.2.description"><s>Improve the engine of the vehicle, allowing it to reach higher maximum speed.</s><r>Улучшайте двигатель автомобиля, позволяя ему развивать более высокую максимальную скорость.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Udar_UpgradeTree.nodes.3.description"><s>Improve shifting capabilities of transmission to increase acceleration speed of the vehicle slightly.</s><r>Улучшите возможности переключения передач, чтобы немного увеличить скорость ускорения автомобиля.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Udar_UpgradeTree.nodes.4.description"><s>Improve the exhaust system of the vehicle, improving fuel efficiency slightly.</s><r>Улучшите выхлопную систему автомобиля, немного улучшив топливную экономичность.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Udar_UpgradeTree.nodes.4.label"><s>Fuel Consumption</s><r>Расход топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Udar_UpgradeTree.nodes.5.description"><s>Increase the size of the chemtank slightly.</s><r>Немного увеличьте размер химтанка.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Udar_UpgradeTree.nodes.5.label"><s>Fuel Capacity</s><r>Запас топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Udar_UpgradeTree.nodes.6.description"><s>Install a defense autocannon to the front of the vehicle's hull, which can be used from the driver seat Has a limited line of sight, requiring the driver to turn the vehicle before firing.</s><r>Установите защитную автопушку в передней части корпуса машины, которую можно использовать с сиденья водителя. Имеет ограниченную линию обзора, поэтому водителю необходимо развернуть машину перед выстрелом.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Udar_UpgradeTree.nodes.6.label"><s>Bow autocannon</s><r>Луковая автопушка</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Udar_UpgradeTree.nodes.6.upgrades.0.turrets.0.gizmoLabel"><s>bow-mounted autocannon</s><r>носовая автопушка</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Wisent_UpgradeTree.nodes.0.description"><s>Improve the cargo capacity of the vehicle slightly.
+
+&lt;color=#bb8f04&gt;Cargo:&lt;/color&gt; +50kg</s><r>Немного увеличьте грузоподъемность автомобиля.
+
+&lt;color=#bb8f04&gt;Груз:&lt;/color&gt; +50 кг.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Wisent_UpgradeTree.nodes.0.label"><s>Cargo Capacity</s><r>Грузоподъемность</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Wisent_UpgradeTree.nodes.1.description"><s>Reinforce the armor of the vehicle slightly. 
+
+&lt;color=#bb8f04&gt;Protection:&lt;/color&gt; +4% Sharp, +8% Blunt</s><r>Немного усилите броню машины. 
+
+&lt;color=#bb8f04&gt;Защита:&lt;/color&gt; +4% острый, +8% тупой.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Wisent_UpgradeTree.nodes.2.description"><s>Improve the engine of the vehicle, allowing it to reach higher maximum speed.</s><r>Улучшайте двигатель автомобиля, позволяя ему развивать более высокую максимальную скорость.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Wisent_UpgradeTree.nodes.3.description"><s>Improve shifting capabilities of transmission to increase acceleration speed of the vehicle slightly.</s><r>Улучшите возможности переключения передач, чтобы немного увеличить скорость ускорения автомобиля.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Wisent_UpgradeTree.nodes.4.description"><s>Improve the exhaust system of the vehicle, improving fuel efficiency slightly.</s><r>Улучшите выхлопную систему автомобиля, немного улучшив топливную экономичность.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Wisent_UpgradeTree.nodes.4.label"><s>Fuel Consumption</s><r>Расход топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Wisent_UpgradeTree.nodes.5.description"><s>Increase the size of the chemtank slightly.</s><r>Немного увеличьте размер химтанка.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Wisent_UpgradeTree.nodes.5.label"><s>Fuel Capacity</s><r>Запас топлива</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Wisent_UpgradeTree.nodes.6.description"><s>Install three machine gun emplacements to the truck's bed. Each gun has a limited angle, but will cover all directions if all are active.
+
+Side MMGs are used from the Passenger 2 and 3 seats, and the rear HMG is used from the Passenger 9 seat.
+
+&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; -80kg</s><r>Установите на кузов грузовика три пулеметные точки. Каждое орудие имеет ограниченный угол, но будет охватывать все направления, если все активны.
+
+Боковые пулеметы используются с сидений Пассажира 2 и 3, а задний пулемет используется с сиденья Пассажира 9.
+
+&lt;color=#bb8f04&gt;Грузоподъемность:&lt;/color&gt; -80 кг</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Wisent_UpgradeTree.nodes.6.label"><s>Gun truck conversion</s><r>Переоборудование артиллерийского грузовика</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Wisent_UpgradeTree.nodes.6.upgrades.1.turrets.0.gizmoLabel"><s>Gunner 1</s><r>Наводчик 1</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Wisent_UpgradeTree.nodes.6.upgrades.1.turrets.1.gizmoLabel"><s>Gunner 2</s><r>Наводчик 2</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Wisent_UpgradeTree.nodes.6.upgrades.1.turrets.2.gizmoLabel"><s>Gunner 3</s><r>Наводчик 3</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Wisent_UpgradeTree.nodes.7.description"><s>Mount a salvaged flak cannon to the bed, converting the vehicle into a self-propelled artillery piece.
+
+Not capable of indirect fire and is mounted on a slow vehicle, making it suitable for defense instead of assault.
+
+Greatly reduces load capacity and takes up seating space, only leaving space for 3 gunners and the cannon's ammunition.</s><r>Установите на станину утилизированную зенитную пушку, превратив машину в самоходную артиллерийскую установку.
+
+Не способна вести огонь с закрытых позиций и устанавливается на медленную машину, что делает ее пригодной для обороны, а не для нападения.
+
+Значительно снижает грузоподъемность и занимает место для сидения, оставляя место только для 3 артиллеристов и боекомплекта пушки.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Wisent_UpgradeTree.nodes.7.label"><s>Self-propelled artillery conversion</s><r>Переоборудование самоходной артиллерии</r></e>
+  <e k="D" t="UpgradeTreeDef" key="TGBM_VVE_Wisent_UpgradeTree.nodes.7.upgrades.1.turrets.0.gizmoLabel"><s>Flak turret</s><r>Зенитная турель</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_BadgerTurretCopy.description"><s>A light ergonomic turret with improved fire control systems and smoke grenade launchers. Fires high-explosive rounds, which make it perform well against soft targets but poorly against armor.</s><r>Легкая эргономичная башня с улучшенными системами управления огнем и дымовыми гранатометами. Стреляет осколочно-фугасными снарядами, что позволяет ему хорошо действовать против мягких целей, но плохо против брони.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_BadgerTurretCopy.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_BadgerTurretCopy.label"><s>badger chain gun</s><r>цепной пистолет барсука</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_BunsenLauncherCopy.description"><s>A lightly-armored turret with a mechanoid-style flamebolt launcher. Takes fuel directly from the chemtank of the vehicle. Quite devastating against soft targets and flammable structures, but struggles against armored targets.</s><r>Легкобронированная башня с огнеметом механоидного типа. Забирает топливо непосредственно из химбака автомобиля. Достаточно разрушительно против мягких целей и легковоспламеняющихся конструкций, но неэффективно против бронированных целей.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_BunsenLauncherCopy.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_BunsenLauncherCopy.label"><s>inferno launcher turret</s><r>пусковая турель «Инферно»</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_ExposedAGSThirty.description"><s>A mounted grenade machine gun. Can be loaded with various ammo, fire the solution for your specific predicament. Has a minimum arming range to ensure operator safety.</s><r>Установленный гранатомет-пулемет. Может быть загружен различными боеприпасами, используйте решение для вашей конкретной ситуации. Имеет минимальный диапазон постановки на охрану для обеспечения безопасности оператора.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_ExposedAGSThirty.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_ExposedAGSThirty.label"><s>AGS-30 grenade machine gun</s><r>Гранатомет-пулемет АГС-30</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_ExposedDShK.description"><s>A mounted heavy machine gun designed for use against relatively light armor, which means effective against mechanoids and other troublemakers found on rimworlds. Gruesome results when used against unarmored hordes.</s><r>Установленный тяжелый пулемет, предназначенный для использования против относительно легкой брони, что означает эффективность против механоидов и других нарушителей спокойствия, обитающих в периферийных мирах. Ужасные результаты при использовании против небронированных орд.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_ExposedDShK.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_ExposedDShK.label"><s>DShK heavy machine gun</s><r>Крупнокалиберный пулемет ДШК</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_ExposedFlakTurret.description"><s>An ancient-pattern flak emplacement mounted on vehicles such as self-propelled artillery. Originally designed to take down high-flying aircraft at the time, but can be angled to the surface to fire on ground targets.</s><r>Зенитная установка древней модели, установленная на транспортных средствах, таких как самоходная артиллерийская установка. Первоначально предназначался для уничтожения высоколетящих самолетов того времени, но его можно было повернуть к поверхности для стрельбы по наземным целям.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_ExposedFlakTurret.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_ExposedFlakTurret.label"><s>flak turret</s><r>зенитная турель</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_ExposedGMG.description"><s>A mounted grenade machine gun. Due to its rapid fire capability with explosive rounds, it can be said one has to be slightly crazy to use this weapon. Has a minimum arming range to ensure operator safety.</s><r>Установленный гранатомет-пулемет. Из-за его скоростной стрельбы разрывными снарядами можно сказать, что нужно быть немного сумасшедшим, чтобы использовать это оружие. Имеет минимальный диапазон постановки на охрану для обеспечения безопасности оператора.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_ExposedGMG.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_ExposedGMG.label"><s>grenade machine gun</s><r>гранатометный пулемет</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_ExposedKPV.description"><s>A mounted heavy machine gun designed for use against relatively light armor, which means effective against mechanoids and other troublemakers found on rimworlds. Gruesome results when used against unarmored hordes.</s><r>Установленный тяжелый пулемет, предназначенный для использования против относительно легкой брони, что означает эффективность против механоидов и других нарушителей спокойствия, обитающих в периферийных мирах. Ужасные результаты при использовании против небронированных орд.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_ExposedKPV.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_ExposedKPV.label"><s>KPV heavy machine gun</s><r>Крупнокалиберный пулемет КПВ</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_ExposedMaxim.description"><s>An ancient water-cooled machine gun mounted on a vehicle, a suitable tool to delay a human wave attack or chipping off bits of armor; it has done just that for thousands of years. Offers great capacity, but has a lower-than-average rate of fire.</s><r>Древний пулемет с водяным охлаждением, установленный на транспортном средстве, подходящий инструмент для задержки атаки человеческой волны или откалывания кусочков брони; именно так оно и делало на протяжении тысячелетий. Обладает большой мощностью, но имеет скорострельность ниже средней.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_ExposedMaxim.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_ExposedMaxim.label"><s>Maxim light machine gun</s><r>Ручной пулемет Максима</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_ExposedMinigun.description"><s>A mounted rotary machine gun that uses an electric motor to quickly cycle rounds through it. It is far more effectively used when in a fixed position rather than handheld, such example can be seen here; mounted on a vehicle.</s><r>Установленный роторный пулемет, в котором используется электродвигатель для быстрого цикла выстрелов. Его гораздо эффективнее использовать в фиксированном положении, а не в портативном режиме, такой пример можно увидеть здесь; установлен на транспортном средстве.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_ExposedMinigun.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_ExposedMinigun.label"><s>minigun</s><r>миниган</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_ExposedPKM.description"><s>A belt-fed light machine gun mounted on a vehicle, a suitable tool to delay a human wave attack or chipping off bits of armor. Offers average performance for a machine gun.</s><r>Ручной пулемет с ленточным питанием, установленный на транспортном средстве, подходящий инструмент для задержки атаки человеческой волны или откалывания частей брони. Обеспечивает средние характеристики для пулемета.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_ExposedPKM.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_ExposedPKM.label"><s>PKM light machine gun</s><r>Ручной пулемет ПКМ</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_ExposedRecoillessRifle.description"><s>A mounted recoilless rifle capable of firing explosive rounds. Due to its reloadability, one does not have to be that crazy to use it. Has a minimum arming range to ensure operator safety.</s><r>Установленная безоткатная винтовка, способная стрелять разрывными снарядами. Благодаря возможности перезарядки, не нужно быть таким сумасшедшим, чтобы использовать его. Имеет минимальный диапазон постановки на охрану для обеспечения безопасности оператора.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_ExposedRecoillessRifle.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_ExposedRecoillessRifle.label"><s>recoilless rifle</s><r>безоткатное ружье</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_ExposedSPGNine.description"><s>A mounted anti-tank recoilless gun. Can be loaded with a variety of specialized shells; fire the specific solution for your predicament. Has a minimum arming range to ensure operator safety.</s><r>Установленная противотанковая безоткатная пушка. Может быть загружен различными специализированными снарядами; предложите конкретное решение вашей затруднительной ситуации. Имеет минимальный диапазон постановки на охрану для обеспечения безопасности оператора.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_ExposedSPGNine.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_ExposedSPGNine.label"><s>SPG-9 recoilless gun</s><r>Безоткатное орудие СПГ-9</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_GoliathPDCopy.description"><s>An automated intermediate-caliber twin turret designed for urban combat.</s><r>Автоматизированная спаренная башня промежуточного калибра, предназначенная для городского боя.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_GoliathPDCopy.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_GoliathPDCopy.label"><s>military turret</s><r>военная башня</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_Marshal_PintleHMG.description"><s>A heavy machine gun mounted to an enclosed turret.</s><r>Крупнокалиберный пулемет, установленный в закрытой башне.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_Marshal_PintleHMG.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_Marshal_PintleHMG.label"><s>Mounted Turret</s><r>Установленная турель</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_NomadGMG.description"><s>A mounted grenade machine gun. Has a minimum arming range to ensure operator safety.</s><r>Установленный гранатомет-пулемет. Имеет минимальный диапазон постановки на охрану для обеспечения безопасности оператора.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_NomadGMG.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_NomadGMG.label"><s>Mounted turret</s><r>Установленная турель</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_NomadHMG.description"><s>A mounted heavy machine gun.</s><r>Установленный крупнокалиберный пулемет.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_NomadHMG.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_NomadHMG.label"><s>Mounted turret</s><r>Установленная турель</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_NomadLMG.description"><s>A mounted light machine gun.</s><r>Установленный ручной пулемет.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_NomadLMG.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_NomadLMG.label"><s>Mounted turret</s><r>Установленная турель</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_NomadMMG.description"><s>A mounted medium machine gun.</s><r>Установленный средний пулемет.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_NomadMMG.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_NomadMMG.label"><s>Mounted turret</s><r>Установленная турель</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_PaladinTurret_EMP.description"><s>An EMP grenade launcher mounted on a Paladin LAV.</s><r>ЭМИ-гранатомет, установленный на Paladin LAV.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_PaladinTurret_EMP.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_PaladinTurret_EMP.label"><s>paladin EMP grenade launcher</s><r>паладин ЭМИ-гранатомет</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_PaladinTurret_Explosive.description"><s>An explosive grenade launcher mounted on a Paladin LAV.</s><r>Взрывной гранатомет, установленный на Paladin LAV.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_PaladinTurret_Explosive.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_PaladinTurret_Explosive.label"><s>paladin explosive grenade launcher</s><r>взрывной гранатомет паладина</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_Paladin_DragoonTurret.description"><s>A light ergonomic turret with improved fire control systems and smoke grenade launchers. Fires high-explosive rounds, which make it perform well against soft targets but poorly against armor.</s><r>Легкая эргономичная башня с улучшенными системами управления огнем и дымовыми гранатометами. Стреляет осколочно-фугасными снарядами, что позволяет ему хорошо действовать против мягких целей, но плохо против брони.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_Paladin_DragoonTurret.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_Paladin_DragoonTurret.label"><s>paladin chain gun</s><r>цепной пистолет паладина</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_Paladin_MGSTurret.description"><s>A long-range, direct-fire turret with an autoloader. Offers similar performance to the Marshal's turret.</s><r>Дальнобойная башня прямой наводки с автоматом заряжания. Имеет характеристики, аналогичные маршальской башне.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_Paladin_MGSTurret.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_Paladin_MGSTurret.label"><s>anti-tank turret</s><r>противотанковая турель</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_UdarAutocannon.description"><s>A vehicle-mounted self-loading cannon. Although considered overkill by most, it was designed to meet the needs of planetary defense armies facing insectoid and mechanoid hordes.</s><r>Самозарядная пушка, установленная на автомобиле. Хотя большинство считает его излишним, он был разработан для удовлетворения потребностей армий планетарной обороны, сталкивающихся с ордами инсектоидов и механоидов.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_UdarAutocannon.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_UdarAutocannon.label"><s>bow autocannon</s><r>луковая автопушка</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_VVECoaxialFlamer.description"><s>A mounted flamethrower. Fun to play with. Loads from its own pressurized fuel reserve.</s><r>Установленный огнемет. Весело играть. Загружается из собственного резерва топлива под давлением.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_VVECoaxialFlamer.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_VVECoaxialFlamer.label"><s>coaxial flamethrower</s><r>спаренный огнемет</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_VVECoaxialLMG.description"><s>A mounted variant of a rifle-caliber machine gun. For when one wants to conserve main gun ammo, or not use it at all. Generally recommended to grab it and hold the trigger during an assault or defense.</s><r>Навесной вариант пулемета винтовочного калибра. Для тех случаев, когда кто-то хочет сохранить боезапас основного оружия или вообще не использовать его. Обычно рекомендуется схватить его и удерживать спусковой крючок во время нападения или защиты.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_VVECoaxialLMG.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_VVECoaxialLMG.label"><s>coaxial machine gun</s><r>спаренный пулемет</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_VVECoaxialMMG.description"><s>A mounted variant of a rifle-caliber machine gun. For when one wants to conserve main gun ammo, or not use it at all. Generally recommended to grab it and hold the trigger during an assault or defense.</s><r>Навесной вариант пулемета винтовочного калибра. Для тех случаев, когда кто-то хочет сохранить боезапас основного оружия или вообще не использовать его. Обычно рекомендуется схватить его и удерживать спусковой крючок во время нападения или защиты.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_VVECoaxialMMG.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_VVECoaxialMMG.label"><s>coaxial machine gun</s><r>спаренный пулемет</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_VVECoaxial_Springfield.description"><s>A mounted variant of a rifle-caliber machine gun.</s><r>Навесной вариант пулемета винтовочного калибра.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_VVECoaxial_Springfield.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_VVECoaxial_Springfield.label"><s>coaxial machine gun</s><r>спаренный пулемет</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_VVEPintleHMG.description"><s>A wide-caliber mounted heavy machine gun. Effective for tearing down cover, taking down large targets and destroying limbs with its solid slugs.</s><r>Ширококалиберный крупнокалиберный пулемет. Эффективен для разрушения укрытий, уничтожения крупных целей и разрушения конечностей своими твердыми пулями.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_VVEPintleHMG.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_VVEPintleHMG.label"><s>pintle-mounted machine gun</s><r>цапфовый пулемет</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_VVEPintleLMG.description"><s>A mounted variant of a rifle-caliber machine gun. Generally recommended to grab it and hold the trigger during an assault or defense.</s><r>Навесной вариант пулемета винтовочного калибра. Обычно рекомендуется схватить его и удерживать спусковой крючок во время нападения или защиты.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_VVEPintleLMG.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_VVEPintleLMG.label"><s>pintle-mounted machine gun</s><r>цапфовый пулемет</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_VVEPintleMMG.description"><s>A mounted variant of a rifle-caliber machine gun. Generally recommended to grab it and hold the trigger during an assault or defense.</s><r>Навесной вариант пулемета винтовочного калибра. Обычно рекомендуется схватить его и удерживать спусковой крючок во время нападения или защиты.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_VVEPintleMMG.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_VVEPintleMMG.label"><s>pintle-mounted machine gun</s><r>цапфовый пулемет</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_WindowHMG.description"><s>A wide-caliber mounted heavy machine gun. Effective for tearing down cover, taking down large targets and destroying limbs with its solid slugs.</s><r>Ширококалиберный крупнокалиберный пулемет. Эффективен для разрушения укрытий, уничтожения крупных целей и разрушения конечностей своими твердыми пулями.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_WindowHMG.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_WindowHMG.label"><s>heavy machine gun</s><r>тяжелый пулемет</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_WindowMMG.description"><s>A mounted rifle-caliber machine gun. Considered the standard in most aspects and is the indecisive logistics manager's catch-all solution.</s><r>Установленный пулемет винтовочного калибра. Считается стандартом во многих аспектах и ​​является универсальным решением для нерешительного менеджера по логистике.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_WindowMMG.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_WindowMMG.label"><s>medium machine gun</s><r>средний пулемет</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_WindowMinigun.description"><s>A mounted rotary machine gun that uses an electric motor to quickly cycle rounds through it. It is far more effectively used when in a fixed position rather than handheld, such example can be seen here; mounted on a vehicle.</s><r>Установленный роторный пулемет, в котором используется электродвигатель для быстрого цикла выстрелов. Его гораздо эффективнее использовать в фиксированном положении, а не в портативном режиме, такой пример можно увидеть здесь; установлен на транспортном средстве.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_WindowMinigun.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_WindowMinigun.label"><s>minigun</s><r>миниган</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_WisentHMG.description"><s>A wide-caliber mounted heavy machine gun. Effective for tearing down cover, taking down large targets and destroying limbs with its solid slugs.</s><r>Ширококалиберный крупнокалиберный пулемет. Эффективен для разрушения укрытий, уничтожения крупных целей и разрушения конечностей своими твердыми пулями.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_WisentHMG.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_WisentHMG.label"><s>heavy machine gun</s><r>тяжелый пулемет</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_WisentMMG.description"><s>A mounted rifle-caliber machine gun. Considered the standard in most aspects and is the indecisive logistics manager's catch-all solution.</s><r>Установленный пулемет винтовочного калибра. Считается стандартом во многих аспектах и ​​является универсальным решением для нерешительного менеджера по логистике.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_WisentMMG.gizmoDescription"><s>Select Target.
+
+Fire for effect</s><r>Выберите Target.
+
+Fire для эффекта.</r></e>
+  <e k="D" t="VehicleTurretDef" key="TGBM_WisentMMG.label"><s>medium machine gun</s><r>средний пулемет</r></e>
+</AutoTranslateCache>
