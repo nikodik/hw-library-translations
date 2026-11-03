@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="rabiosus.funnelmilian" name="Milira Addon: Fianchetto Variation" language="Russian" version="1">
+  <e k="D" t="AbilityDef" key="Ability_Milira_FunnelBit_LinearShield.description"><s>Projects a straight defensive screen between two selected points.
+
+Drag to set the start and end points of the shield. Release to create the shield, or right-click while dragging to cancel.
+The shield intercepts incoming projectiles. Shorter shields have higher durability, while longer shields have lower durability.</s><r>Проецирует прямой защитный экран между двумя выбранными точками.
+
+Перетащите, чтобы установить начальную и конечную точки щита. Отпустите, чтобы создать щит, или щелкните правой кнопкой мыши при перетаскивании, чтобы отменить.
+Щит перехватывает летящие снаряды. Более короткие щиты имеют более высокую прочность, а более длинные — меньшую.</r></e>
+  <e k="D" t="AbilityDef" key="Ability_Milira_FunnelBit_LinearShield.label"><s>hardlight screen</s><r>экран с жесткой подсветкой</r></e>
+  <e k="D" t="AbilityDef" key="FunnelBit_G_AreaLaser.description"><s>Locks onto up to six nearby enemies within the selected area and fires a simultaneous laser volley from the drones.</s><r>Фиксируется до шести ближайших врагов в выбранной области и одновременно стреляет лазерным залпом из дронов.</r></e>
+  <e k="D" t="AbilityDef" key="FunnelBit_G_AreaLaser.label"><s>Multi-lock laser</s><r>Многозамковый лазер</r></e>
+  <e k="D" t="AbilityDef" key="Milira_CombatDrone_FunnelBitB_Ability_A.description"><s>Creates a pulse barrier in a fixed position, providing cover from enemy fire until the barrier reaches its durability limit. The barrier is not permanent and will disappear after time has passed.</s><r>Создает импульсный барьер в фиксированном положении, обеспечивая прикрытие от огня противника, пока барьер не достигнет предела прочности. Барьер не является постоянным и исчезнет по прошествии времени.</r></e>
+  <e k="D" t="AbilityDef" key="Milira_CombatDrone_FunnelBitB_Ability_A.label"><s>Pulse protection</s><r>Импульсная защита</r></e>
+  <e k="D" t="AbilityDef" key="Milira_CombatDrone_FunnelBitB_Ability_C.description"><s>Attacks all targets in a straight line with a high-output laser.
+Requires a long emergency recharge after use, during which the drone is disabled.</s><r>Атакует все цели по прямой с помощью мощного лазера.
+После использования требуется длительная аварийная перезарядка, во время которой дрон отключается.</r></e>
+  <e k="D" t="AbilityDef" key="Milira_CombatDrone_FunnelBitB_Ability_C.label"><s>Hypercharge</s><r>Гиперзаряд</r></e>
+  <e k="D" t="DamageDef" key="Milira_FunnelBit_C_HeavyLaser.deathMessage"><s>{0} has been shot to death.</s><r>{0} был застрелен.</r></e>
+  <e k="D" t="DamageDef" key="Milira_FunnelBit_C_HeavyLaser.label"><s>Heavy laser</s><r>Тяжелый лазер</r></e>
+  <e k="D" t="DamageDef" key="Milira_FunnelBit_C_SuperLaser.deathMessage"><s>{0} has been shot to death.</s><r>{0} был застрелен.</r></e>
+  <e k="D" t="DamageDef" key="Milira_FunnelBit_C_SuperLaser.label"><s>Heavy laser</s><r>Тяжелый лазер</r></e>
+  <e k="D" t="DamageDef" key="Milira_FunnelBit_D_cut.deathMessage"><s>{0} has been cut to death.</s><r>{0} был зарезан насмерть.</r></e>
+  <e k="D" t="DamageDef" key="Milira_FunnelBit_D_cut.label"><s>cut charged</s><r>вырезать заряд</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.12.messages.0.text"><s>{slot} / LAUNCH</s><r>{slot} / ЗАПУСК</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.12.messages.1.text"><s>{slot} / RTB</s><r>{slot} / RTB</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.12.messages.10.text"><s>{slot} / MISSION END</s><r>{slot} / КОНЕЦ МИССИИ</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.12.messages.11.text"><s>{slot} / TARGET UPDATE</s><r>{slot} / ЦЕЛЕВОЕ ОБНОВЛЕНИЕ</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.12.messages.12.text"><s>SYS / SYNC START</s><r>СИС/СИНХРОНИЗАЦИЯ СТАРТ</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.12.messages.13.text"><s>SYS / SYNC END</s><r>СИС/ОКОНЧАНИЕ СИНХРОНИЗАЦИИ</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.12.messages.14.text"><s>SYS / SYNC ABORT</s><r>СИС/ПРЕРЫВАНИЕ СИНХРОНИЗАЦИИ</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.12.messages.15.text"><s>SYS / FIRE {state}</s><r>СИС / ПОЖАР {state}</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.12.messages.16.text"><s>SYS / FOCUS {state}</s><r>СИС / ФОКУС {state}</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.12.messages.17.text"><s>SYS / TARGET SYNC {state}</s><r>СИС/ЦЕЛЕВАЯ СИНХРОНИЗАЦИЯ {state}</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.12.messages.18.text"><s>SYS / AUTO FIRE {state}</s><r>СИС / АВТОПОЖАР {state}</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.12.messages.19.text"><s>SYS / DRAFT ONLY {state}</s><r>ТОЛЬКО СИС/ЧЕРНОВИК {state}</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.12.messages.2.text"><s>{slot} / DOCKED</s><r>{slot} / ЗАКРЕПЛЕНО</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.12.messages.20.text"><s>SYS / WORK SUPPORT {state}</s><r>SYS / ПОДДЕРЖКА РАБОТЫ {state}</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.12.messages.3.text"><s>{slot} / SIGNAL LOST</s><r>{slot} / СИГНАЛ ПОТЕРЯН</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.12.messages.4.text"><s>{slot} / CHARGING</s><r>{slot} / ЗАРЯДКА</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.12.messages.5.text"><s>{slot} / READY</s><r>{slot} / ГОТОВО</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.12.messages.6.text"><s>{slot} / {work} START</s><r>{slot} / {work} СТАРТ</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.12.messages.7.text"><s>{slot} / {work} END</s><r>{slot} / {work} КОНЕЦ</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.12.messages.8.text"><s>{slot} / WORK ABORT</s><r>{slot} / ПРЕКРАЩЕНИЕ РАБОТЫ</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.12.messages.9.text"><s>{slot} / MISSION ON</s><r>{slot} / МИССИЯ ВЫПОЛНЕНА</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.12.workNames.3.text"><s>PLANT CUT</s><r>СРЕЗКА РАСТЕНИЯ</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.0.text"><s>kernel: tick accounting ok</s><r>ядро: поставить галочку в учете ок</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.1.text"><s>kernel: softirq queue drained</s><r>ядро: очередь softirq опустошена</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.10.text"><s>sched: runqueue balanced</s><r>расписание: сбалансированная очередь выполнения</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.100.text"><s>nav: route graph checked</s><r>навигация: график маршрутов проверен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.101.text"><s>nav: waypoint cache valid</s><r>nav: кэш путевых точек действителен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.102.text"><s>nav: path cost refreshed</s><r>nav: стоимость пути обновлена</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.103.text"><s>nav: obstacle map current</s><r>навигация: текущая карта препятствий</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.104.text"><s>nav: trajectory fit passed</s><r>nav: подгонка траектории пройдена</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.105.text"><s>nav: heading filter stable</s><r>nav: стабильный фильтр заголовков</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.106.text"><s>nav: position fix retained</s><r>навигация: фиксированное положение сохранено</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.107.text"><s>nav: velocity estimate ok</s><r>nav: оценка скорости ок</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.108.text"><s>nav: guidance tick done</s><r>навигация: отметка навигации завершена</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.109.text"><s>nav: path cache hit</s><r>nav: попадание в кэш пути</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.11.text"><s>sched: idle task selected</s><r>расписание: выбрана простаивающая задача</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.110.text"><s>sensor: sample integrity ok</s><r>датчик: целостность образца в порядке</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.111.text"><s>sensor: baseline updated</s><r>датчик: обновлена ​​базовая линия</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.112.text"><s>sensor: gain stage nominal</s><r>датчик: номинальный уровень усиления</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.113.text"><s>sensor: timestamp aligned</s><r>датчик: временная метка выровнена</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.114.text"><s>sensor: data freshness ok</s><r>датчик: свежесть данных в порядке</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.115.text"><s>sensor: filter convergence ok</s><r>датчик: сходимость фильтра в порядке</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.116.text"><s>pwr: bus voltage stable</s><r>PWR: стабильное напряжение шины</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.117.text"><s>pwr: rail monitor ok</s><r>PWR: железнодорожный монитор в порядке</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.118.text"><s>pwr: current budget valid</s><r>pwr: текущий бюджет действителен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.119.text"><s>pwr: load estimate updated</s><r>pwr: оценка нагрузки обновлена</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.12.text"><s>sched: cpu load nominal</s><r>расписание: номинальная загрузка процессора</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.120.text"><s>pwr: dc link nominal</s><r>мощность: номинал звена постоянного тока</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.121.text"><s>pwr: charge table synced</s><r>pwr: таблица начислений синхронизирована</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.122.text"><s>pwr: energy reserve checked</s><r>pwr: запас энергии проверен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.123.text"><s>pwr: power state retained</s><r>pwr: состояние питания сохраняется</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.124.text"><s>pwr: standby rail active</s><r>PWR: резервная шина активна</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.125.text"><s>pwr: discharge limit ok</s><r>PWR: предел разряда ок</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.126.text"><s>bms: cell balance nominal</s><r>bms: номинальный баланс ячейки</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.127.text"><s>bms: state of charge polled</s><r>bms: опрос состояния заряда</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.128.text"><s>bms: pack telemetry ok</s><r>bms: упаковать телеметрию, ок</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.129.text"><s>bms: thermal margin valid</s><r>bms: действительный температурный запас</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.13.text"><s>sched: worker pool available</s><r>расписание: доступен рабочий пул</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.130.text"><s>bms: charge profile ready</s><r>bms: профиль заряда готов</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.131.text"><s>therm: sensor sweep done</s><r>therm: сканирование датчика завершено</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.132.text"><s>therm: junction temp nominal</s><r>терм: номинальная температура перехода</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.133.text"><s>therm: cooling margin ok</s><r>therm: запас по охлаждению в порядке</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.134.text"><s>therm: throttle not required</s><r>терм: дроссель не требуется</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.135.text"><s>therm: heat model updated</s><r>therm: обновлена ​​тепловая модель</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.136.text"><s>pmic: regulator status ok</s><r>pmic: статус регулятора в порядке</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.137.text"><s>pmic: load switch verified</s><r>pmic: переключатель нагрузки проверен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.138.text"><s>pmic: power good asserted</s><r>pmic: подтверждено хорошее могущество</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.139.text"><s>pmic: fault latch clear</s><r>pmic: очистка фиксации неисправности</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.14.text"><s>sched: deadline queue empty</s><r>расписание: очередь крайнего срока пуста</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.140.text"><s>pmic: supply monitor alive</s><r>pmic: монитор снабжения жив</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.141.text"><s>fcs: solution cache valid</s><r>fcs: кэш решения действителен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.142.text"><s>fcs: target table synced</s><r>fcs: целевая таблица синхронизирована</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.143.text"><s>fcs: aim filter idle</s><r>fcs: фильтр прицеливания простаивает</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.144.text"><s>fcs: intercept solver ready</s><r>fcs: решатель перехвата готов</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.145.text"><s>fcs: ballistic map current</s><r>fcs: текущая баллистическая карта</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.146.text"><s>fcs: guidance loop nominal</s><r>fcs: номинал контура наведения</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.147.text"><s>fcs: track age checked</s><r>fcs: возраст трека проверен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.148.text"><s>fcs: lock manager idle</s><r>fcs: диспетчер блокировок простаивает</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.149.text"><s>fcs: firing gate checked</s><r>fcs: ворота стрельбы проверены</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.15.text"><s>sched: task affinity valid</s><r>расписание: привязка задач действительна</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.150.text"><s>fcs: vector estimate stable</s><r>fcs: векторная оценка стабильна</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.151.text"><s>fcs: target priority cached</s><r>fcs: целевой приоритет кэшируется</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.152.text"><s>fcs: safety interlock ok</s><r>fcs: защитная блокировка в порядке</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.153.text"><s>beam: emitter state polled</s><r>луч: опрос состояния эмиттера</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.154.text"><s>beam: phase table verified</s><r>луч: таблица фаз проверена</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.155.text"><s>beam: output gate closed</s><r>луч: выходные ворота закрыты</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.156.text"><s>beam: waveform buffer valid</s><r>луч: буфер формы сигнала действителен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.157.text"><s>beam: discharge path ready</s><r>луч: путь разгрузки готов</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.158.text"><s>beam: thermal budget checked</s><r>луч: тепловой баланс проверен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.159.text"><s>beam: optics state nominal</s><r>луч: состояние оптики номинальное</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.16.text"><s>sched: dispatch cycle done</s><r>расписание: цикл отправки завершен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.160.text"><s>beam: duty cycle updated</s><r>луч: обновлен рабочий цикл</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.161.text"><s>weapon: trigger queue empty</s><r>оружие: очередь триггеров пуста</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.162.text"><s>weapon: fire permit checked</s><r>оружие: разрешение на стрельбу проверено</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.163.text"><s>weapon: inhibit mask valid</s><r>оружие: маска блокировки действительна</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.164.text"><s>weapon: cooldown state ok</s><r>оружие: состояние перезарядки ок</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.165.text"><s>weapon: actuator ready</s><r>оружие: актуатор готов</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.166.text"><s>diag: self-check passed</s><r>диаг: самопроверка пройдена</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.167.text"><s>diag: status vector current</s><r>диагностика: ток вектора состояния</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.168.text"><s>diag: sensor health ok</s><r>диагностика: исправность датчика в порядке</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.169.text"><s>diag: telemetry sampled</s><r>диаг: выборка телеметрии</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.17.text"><s>sched: context state saved</s><r>sched: состояние контекста сохранено</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.170.text"><s>diag: error counters stable</s><r>диаг: счетчики ошибок стабильны</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.171.text"><s>diag: event ring scanned</s><r>диагноз: сканирование кольца событий</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.172.text"><s>diag: fault mask clear</s><r>диагностика: очистка маски неисправности</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.173.text"><s>diag: monitor pass complete</s><r>диагностика: проход монитора завершен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.174.text"><s>diag: integrity flags valid</s><r>диагностика: флаги целостности действительны</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.175.text"><s>diag: subsystem poll done</s><r>диагноз: опрос подсистемы завершен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.176.text"><s>sys: config checksum valid</s><r>sys: контрольная сумма конфигурации действительна</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.177.text"><s>sys: runtime state synced</s><r>sys: состояние времени выполнения синхронизировано</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.178.text"><s>sys: service table ready</s><r>sys: служебная таблица готова</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.179.text"><s>sys: state snapshot saved</s><r>sys: снимок состояния сохранен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.18.text"><s>sched: background task done</s><r>расписание: фоновая задача выполнена</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.180.text"><s>sys: housekeeping done</s><r>sys: уборка завершена</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.181.text"><s>sys: diagnostics idle</s><r>sys: диагностика простоя</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.182.text"><s>sys: timestamp cache valid</s><r>sys: кэш временных меток действителен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.183.text"><s>sys: heartbeat propagated</s><r>sys: распространение пульса</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.184.text"><s>sys: control plane ready</s><r>sys: плоскость управления готова</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.185.text"><s>sys: periodic check done</s><r>sys: периодическая проверка выполнена</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.186.text"><s>log: ring cursor advanced</s><r>журнал: расширенный кольцевой курсор</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.187.text"><s>log: buffer occupancy ok</s><r>журнал: занятость буфера в порядке</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.188.text"><s>log: sequence index valid</s><r>журнал: действительный индекс последовательности</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.189.text"><s>log: flush not required</s><r>журнал: сброс не требуется</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.19.text"><s>sched: periodic tick handled</s><r>sched: обрабатывается периодический тик</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.190.text"><s>log: record header valid</s><r>журнал: заголовок записи действителен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.191.text"><s>rf0: retry completed</s><r>rf0: повторная попытка завершена</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.192.text"><s>rf0: clock offset trimmed</s><r>rf0: смещение часов обрезано</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.193.text"><s>net: out-of-order frame</s><r>сеть: неправильный кадр</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.194.text"><s>net: stale route replaced</s><r>net: устаревший маршрут заменен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.195.text"><s>net: ack timeout recovered</s><r>net: тайм-аут подтверждения восстановлен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.196.text"><s>sensor: outlier rejected</s><r>датчик: выброс отклонен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.197.text"><s>sensor: drift compensation ok</s><r>датчик: компенсация дрейфа в порядке</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.198.text"><s>sensor: sample gap filled</s><r>датчик: зазор между пробами заполнен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.199.text"><s>imu: bias correction applied</s><r>imu: применена коррекция смещения</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.2.text"><s>kernel: idle loop resumed</s><r>ядро: цикл ожидания возобновлен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.20.text"><s>wdt: heartbeat received</s><r>wdt: пульс получен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.200.text"><s>nav: path cache invalidated</s><r>nav: кеш путей недействителен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.201.text"><s>nav: route cost adjusted</s><r>навигация: стоимость маршрута скорректирована</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.202.text"><s>sched: delayed work resumed</s><r>расписание: отложенная работа возобновлена</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.203.text"><s>sched: wakeup latency sampled</s><r>sched: выборка задержки пробуждения</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.204.text"><s>mem: cache line invalidated</s><r>mem: строка кэша недействительна</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.205.text"><s>mem: deferred reclaim done</s><r>mem: отложенное восстановление выполнено</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.206.text"><s>dma: descriptor retried</s><r>dma: повторная попытка дескриптора</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.207.text"><s>ipc: expired token cleared</s><r>ipc: токен с истекшим сроком действия очищен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.208.text"><s>drone: stale lease renewed</s><r>дрон: продление срока аренды</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.209.text"><s>drone: command seq resynced</s><r>дрон: последовательность команд повторно синхронизирована</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.21.text"><s>wdt: counter serviced</s><r>wdt: счетчик обслуживается</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.210.text"><s>drone: telemetry gap closed</s><r>дрон: пробел в телеметрии закрыт</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.211.text"><s>pwr: load transient filtered</s><r>pwr: фильтрация переходных процессов нагрузки</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.212.text"><s>bms: estimate corrected</s><r>bms: оценка исправлена</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.213.text"><s>fcs: stale track removed</s><r>fcs: устаревший трек удален</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.214.text"><s>beam: phase offset trimmed</s><r>луч: смещение фазы обрезано</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.22.text"><s>wdt: window check passed</s><r>wdt: проверка окна пройдена</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.23.text"><s>wdt: supervisor alive</s><r>wdt: руководитель жив</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.24.text"><s>wdt: health check passed</s><r>wdt: проверка работоспособности пройдена</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.25.text"><s>mem: page cache stable</s><r>mem: стабильный кэш страниц</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.26.text"><s>mem: heap integrity ok</s><r>mem: целостность кучи ок</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.27.text"><s>mem: slab cache trimmed</s><r>mem: фрагмент кэша обрезан</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.28.text"><s>mem: free list checked</s><r>mem: свободный список проверен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.29.text"><s>mem: allocator state ok</s><r>mem: состояние распределителя ок</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.3.text"><s>kernel: deferred work done</s><r>ядро: отложенная работа выполнена</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.30.text"><s>mem: pool usage nominal</s><r>mem: номинальное использование пула</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.31.text"><s>mem: buffer map valid</s><r>mem: карта буфера действительна</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.32.text"><s>mem: cache pressure low</s><r>mem: низкое давление кэша</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.33.text"><s>mem: deferred free done</s><r>mem: отложено бесплатно готово</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.34.text"><s>mem: reclaim not required</s><r>mem: возврат не требуется</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.35.text"><s>dma: ring head advanced</s><r>dma: расширенная кольцевая головка</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.36.text"><s>dma: ring tail verified</s><r>dma: кольцевой хвост проверен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.37.text"><s>dma: descriptors recycled</s><r>dma: дескрипторы переработаны</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.38.text"><s>dma: transfer fence passed</s><r>dma: переходной барьер пройден</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.39.text"><s>dma: channel idle</s><r>dma: канал свободен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.4.text"><s>kernel: timer wheel synced</s><r>ядро: колесо таймера синхронизировано</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.40.text"><s>dma: buffer aligned</s><r>dma: выравнивание по буферу</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.41.text"><s>dma: queue flushed</s><r>dma: очередь очищена</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.42.text"><s>dma: mapping retained</s><r>dma: сопоставление сохранено</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.43.text"><s>ipc: shared ring healthy</s><r>ipc: общее кольцо исправно</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.44.text"><s>ipc: mailbox poll complete</s><r>ipc: опрос почтового ящика завершен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.45.text"><s>ipc: semaphore state ok</s><r>ipc: состояние семафора в порядке</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.46.text"><s>ipc: message queue idle</s><r>ipc: очередь сообщений простаивает</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.47.text"><s>ipc: payload checksum ok</s><r>ipc: контрольная сумма полезной нагрузки в порядке</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.48.text"><s>ipc: channel ready</s><r>ipc: канал готов</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.49.text"><s>ipc: stale entries purged</s><r>ipc: устаревшие записи удалены</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.5.text"><s>kernel: workqueue idle</s><r>ядро: рабочая очередь простаивает</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.50.text"><s>drone: telemetry rx ok</s><r>дрон: приём телеметрии ок</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.51.text"><s>drone: command queue idle</s><r>дрон: очередь команд простаивает</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.52.text"><s>drone: slot table valid</s><r>дрон: таблица слотов действительна</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.53.text"><s>drone: endpoint map synced</s><r>дрон: карта конечных точек синхронизирована</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.54.text"><s>drone: dock state polled</s><r>дрон: опрос состояния дока</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.55.text"><s>drone: heartbeat acknowledged</s><r>дрон: пульс подтвержден</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.56.text"><s>drone: flight state cached</s><r>дрон: состояние полета кэшируется</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.57.text"><s>drone: dispatch table ready</s><r>дрон: диспетчерский стол готов</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.58.text"><s>drone: actuator status ok</s><r>дрон: состояние привода в порядке</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.59.text"><s>drone: health vector updated</s><r>дрон: обновлен вектор здоровья</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.6.text"><s>kernel: preempt count zero</s><r>ядро: счетчик вытеснения равен нулю</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.60.text"><s>drone: idle fleet verified</s><r>дрон: проверен простаивающий парк</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.61.text"><s>drone: control cycle done</s><r>дрон: цикл управления завершен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.62.text"><s>drone: failsafe armed</s><r>дрон: отказоустойчивый, вооруженный</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.63.text"><s>drone: link lease renewed</s><r>дрон: аренда ссылки продлена</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.64.text"><s>drone: return path cached</s><r>дрон: обратный путь кэширован</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.65.text"><s>drone: task token verified</s><r>дрон: токен задачи проверен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.66.text"><s>drone: control bus nominal</s><r>дрон: номинал шины управления</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.67.text"><s>drone: motor limits checked</s><r>дрон: пределы мотора проверены</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.68.text"><s>drone: dock index synced</s><r>дрон: индекс док-станции синхронизирован</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.69.text"><s>drone: slot ownership valid</s><r>дрон: право владения слотом действительно</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.7.text"><s>kernel: irq latency nominal</s><r>ядро: номинальная задержка прерывания</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.70.text"><s>fleet: peer table updated</s><r>флот: обновлена ​​таблица аналогов</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.71.text"><s>fleet: route slots checked</s><r>автопарк: слоты маршрутов проверены</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.72.text"><s>fleet: dispatch sync ok</s><r>автопарк: синхронизация отправки ок</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.73.text"><s>fleet: state mirror valid</s><r>автопарк: действительное государственное зеркало</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.74.text"><s>fleet: command epoch current</s><r>флот: текущая эпоха командования</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.75.text"><s>rf0: carrier lock stable</s><r>rf0: стабильная блокировка несущей</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.76.text"><s>rf0: link quality nominal</s><r>rf0: номинальное качество связи</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.77.text"><s>rf0: channel scan done</s><r>rf0: сканирование каналов завершено</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.78.text"><s>rf0: tx queue drained</s><r>rf0: очередь передачи опустошена</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.79.text"><s>rf0: frame crc passed</s><r>rf0: контрольная сумма кадра пройдена</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.8.text"><s>kernel: monotonic clock ok</s><r>ядро: монотонные часы, ок</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.80.text"><s>rf0: retry counter clear</s><r>rf0: сброс счетчика повторов</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.81.text"><s>rf0: beacon received</s><r>rf0: маяк получен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.82.text"><s>rf0: rssi sample updated</s><r>rf0: обновлен образец rssi</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.83.text"><s>rf0: clock skew corrected</s><r>rf0: исправлен перекос часов</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.84.text"><s>rf0: pll lock retained</s><r>rf0: блокировка PLL сохранена</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.85.text"><s>rf0: uplink path valid</s><r>rf0: путь восходящей линии связи действителен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.86.text"><s>rf0: downlink path valid</s><r>rf0: путь нисходящей линии связи действителен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.87.text"><s>net: peer route refreshed</s><r>сеть: одноранговый маршрут обновлен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.88.text"><s>net: socket state checked</s><r>net: состояние сокета проверено</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.89.text"><s>net: ack window synced</s><r>сеть: окно подтверждения синхронизировано</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.9.text"><s>kernel: rcu grace period end</s><r>ядро: окончание льготного периода rcu</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.90.text"><s>net: session lease valid</s><r>сеть: аренда сеанса действительна</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.91.text"><s>net: seq counter advanced</s><r>сеть: расширенный счетчик последовательностей</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.92.text"><s>net: stale packet dropped</s><r>сеть: устаревший пакет отброшен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.93.text"><s>net: rx budget restored</s><r>нетто: бюджет приема восстановлен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.94.text"><s>net: packet age nominal</s><r>нетто: номинальный возраст пакета</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.95.text"><s>imu: bias estimate updated</s><r>imu: обновлена ​​оценка смещения</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.96.text"><s>imu: sample window valid</s><r>imu: образец окна действителен</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.97.text"><s>imu: attitude estimate ok</s><r>imu: оценка отношения ок</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.98.text"><s>imu: calibration retained</s><r>imu: калибровка сохранена</r></e>
+  <e k="D" t="FunnelBitGizmoLayoutDef" key="Milian_FunnelGizmo_G.elements.13.randomMessages.99.text"><s>nav: local frame aligned</s><r>nav: выравнивание по локальному фрейму</r></e>
+  <e k="D" t="JobDef" key="AM_LaunchAssignedMechRepairDrone.reportString"><s>launching repair drone to TargetA.</s><r>запускаем ремонтный дрон в TargetA.</r></e>
+  <e k="D" t="JobDef" key="FunnelBit_CastAreaLaser.reportString"><s>locking laser targets.</s><r>захват лазерных целей.</r></e>
+  <e k="D" t="PawnKindDef" key="Milian_Mechanoid_BishopIII_ArsenalCarrier.label"><s>Fianchetto</s><r>Боковая панель</r></e>
+  <e k="D" t="PawnRenderTreeDef" key="Milian_MilianAMSpecial.root.children.0.children.2.debugLabel"><s>Apparel root</s><r>Корень одежды</r></e>
+  <e k="D" t="PawnRenderTreeDef" key="Milian_MilianAMSpecial.root.children.0.children.3.debugLabel"><s>Weapon/carried thing</s><r>Оружие/вещь</r></e>
+  <e k="D" t="PawnRenderTreeDef" key="Milian_MilianAMSpecial.root.children.1.children.1.debugLabel"><s>Apparel root</s><r>Корень одежды</r></e>
+  <e k="D" t="RecipeDef" key="Milian_Mechanoid_BishopIII_ArsenalCarrier.description"><s>Gestate a Milian modeled Fianchetto.</s><r>Гестате Милиану смоделировал Фианкетто.</r></e>
+  <e k="D" t="RecipeDef" key="Milian_Mechanoid_BishopIII_ArsenalCarrier.ingredients.3.filter.customSummary"><s>Solar-Lattice Cortex</s><r>Кора солнечной решетки</r></e>
+  <e k="D" t="RecipeDef" key="Milian_Mechanoid_BishopIII_ArsenalCarrier.jobString"><s>Gestating mech.</s><r>Беременный механизм.</r></e>
+  <e k="D" t="RecipeDef" key="Milian_Mechanoid_BishopIII_ArsenalCarrier.label"><s>Gestate Fianchetto</s><r>Гестате Фианкетто</r></e>
+  <e k="D" t="StatDef" key="FunnelBit_DroneMobility.description"><s>A multiplier on the movement speed and acceleration of autonomous drones controlled by this person.
+
+Higher values allow drones to move faster and react more quickly.</s><r>Множитель скорости движения и ускорения автономных дронов, управляемых этим человеком.
+
+Более высокие значения позволяют дронам двигаться быстрее и быстрее реагировать.</r></e>
+  <e k="D" t="StatDef" key="FunnelBit_DroneMobility.label"><s>drone mobility</s><r>мобильность дронов</r></e>
+  <e k="D" t="StatDef" key="FunnelBit_DroneRangeOffset.description"><s>An offset added to the range of autonomous drones controlled by this person.</s><r>Смещение добавлено к радиусу действия автономных дронов, управляемых этим человеком.</r></e>
+  <e k="D" t="StatDef" key="FunnelBit_DroneRangeOffset.label"><s>drone range offset</s><r>смещение дальности дрона</r></e>
+  <e k="D" t="StatDef" key="FunnelBit_DroneRechargeRate.description"><s>A multiplier on the recharge speed of drones. Influences the cooldown time between deployments.
+
+Higher values mean faster cooldowns.</s><r>Множитель скорости перезарядки дронов. Влияет на время восстановления между развертываниями.
+
+Более высокие значения означают более быстрое время восстановления.</r></e>
+  <e k="D" t="StatDef" key="FunnelBit_DroneRechargeRate.label"><s>drone recharge rate</s><r>скорость перезарядки дрона</r></e>
+  <e k="D" t="StatDef" key="FunnelBit_SubProjectileDamageFactor.description"><s>A multiplier on the damage dealt by projectiles fired from drones.</s><r>Множитель урона, наносимого снарядами, выпущенными дронами.</r></e>
+  <e k="D" t="StatDef" key="FunnelBit_SubProjectileDamageFactor.label"><s>drone damage factor</s><r>коэффициент повреждения дрона</r></e>
+  <e k="D" t="ThingDef" key="AM_BeamSegmentDissolve.label"><s>beam segment dissolve</s><r>сегмент луча растворяется</r></e>
+  <e k="D" t="ThingDef" key="AM_CoralBeamMote.label"><s>modulated energy beam</s><r>модулированный энергетический луч</r></e>
+  <e k="D" t="ThingDef" key="AM_CoralBeam_C.label"><s>heavy laser</s><r>тяжелый лазер</r></e>
+  <e k="D" t="ThingDef" key="AM_CoralBeam_C_Ability.label"><s>super laser</s><r>супер лазер</r></e>
+  <e k="D" t="ThingDef" key="AM_CoralBeam_D_NoSparks.label"><s>modulated energy beam</s><r>модулированный энергетический луч</r></e>
+  <e k="D" t="ThingDef" key="AM_CoralBeam_G_AreaLaser.label"><s>heavy laser</s><r>тяжелый лазер</r></e>
+  <e k="D" t="ThingDef" key="AM_CoralBeam_G_VolleyLarge.label"><s>heavy laser</s><r>тяжелый лазер</r></e>
+  <e k="D" t="ThingDef" key="AM_CoralBeam_G_VolleySmall.label"><s>modulated energy beam</s><r>модулированный энергетический луч</r></e>
+  <e k="D" t="ThingDef" key="AM_CoralBeam_G_large.label"><s>focused particle beam</s><r>сфокусированный пучок частиц</r></e>
+  <e k="D" t="ThingDef" key="AM_CoralBeam_G_med.label"><s>focused particle beam</s><r>сфокусированный пучок частиц</r></e>
+  <e k="D" t="ThingDef" key="AM_FunnelBitC_PlasmaBeam.label"><s>heavy plasma beam</s><r>тяжелый плазменный луч</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Milira_FunnelBit_B.label"><s>Strike drone: Malkuth</s><r>Ударный дрон: Малкут</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Milira_FunnelBit_C_A.label"><s>Strike drone: Gevurah</s><r>Ударные дроны: Гвура</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Milira_FunnelBit_C_B.label"><s>Strike drone: Gevurah</s><r>Ударные дроны: Гвура</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Milira_FunnelBit_D.label"><s>Strike drone: Keter(Plasma Blade)</s><r>Ударный дрон: Кетер (Плазменный клинок)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Milira_FunnelBit_D_subA_A.label"><s>Strike drone: Keter(Laser)</s><r>Ударный дрон: Кетер (Лазер)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Milira_FunnelBit_D_subA_B.label"><s>Strike drone: Keter(Laser)</s><r>Ударный дрон: Кетер (Лазер)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Milira_FunnelBit_D_subB_A.label"><s>Strike drone: Keter(Particle Beam)</s><r>Ударный дрон: Кетер (Луч частиц)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Milira_FunnelBit_D_subB_B.label"><s>Strike drone: Keter(Particle Beam)</s><r>Ударный дрон: Кетер (Луч частиц)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Milira_FunnelBit_D_subB_C.label"><s>Strike drone: Keter(Particle Beam)</s><r>Ударный дрон: Кетер (Луч частиц)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Milira_FunnelBit_D_subB_D.label"><s>Strike drone: Keter(Particle Beam)</s><r>Ударный дрон: Кетер (Луч частиц)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Milira_FunnelBit_E_A.label"><s>Strike drone: Tiphereth</s><r>Ударный дрон: Тиферет</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Milira_FunnelBit_E_B.label"><s>Strike drone: Tiphereth</s><r>Ударный дрон: Тиферет</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Milira_FunnelBit_G2_Left.label"><s>Strike drone: Chesed</s><r>Ударный дрон: Хесед</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Milira_FunnelBit_G2_Right.label"><s>Strike drone: Chesed</s><r>Ударный дрон: Хесед</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Milira_FunnelBit_G_Left.label"><s>Strike drone: Chesed</s><r>Ударный дрон: Хесед</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Milira_FunnelBit_G_Right.label"><s>Strike drone: Chesed</s><r>Ударный дрон: Хесед</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Milira_KatjaDrone.label"><s>Combat platform: auxiliary mechlink</s><r>Боевая платформа: вспомогательный мехлинк</r></e>
+  <e k="D" t="ThingDef" key="ForceField_Malkuth_CracksShieldBreak.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="ForceField_Malkuth_FlashShieldBreak.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="FunnelBit_Mote_AreaLaserArea.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="FunnelBit_Mote_AreaLaserGuide.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="FunnelBit_Mote_AreaLaserMarker.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="FunnelBit_Mote_AreaLaserShot.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="FunnelBit_ShieldSpot.comps.1.countdownLabel"><s>Burnout in</s><r>Выгорание в</r></e>
+  <e k="D" t="ThingDef" key="FunnelBit_ShieldSpot.description"><s>[Murderous rage.]
+
+Bishiop II is in a murderous rage.
+She is going to kill Fianchetto.
+
+The final straw was: Stole my job.</s><r>[Убийственная ярость.]
+
+Епископ II в убийственной ярости.
+Она собирается убить Фианкетто.
+
+Последней каплей было: украли мою работу.</r></e>
+  <e k="D" t="ThingDef" key="FunnelBit_ShieldSpot.label"><s>Pulse protection</s><r>Импульсная защита</r></e>
+  <e k="D" t="ThingDef" key="KatjaDrone_subProjectile.label"><s>particle beam</s><r>пучок частиц</r></e>
+  <e k="D" t="ThingDef" key="Milian_ConductorCloakAC.description"><s>A display uniform tailored originally for the Fianchetto class's debut at military trade shows.
+Due to the suspension of the development project, dedicated combat armor was never realized, consequently, this attire was registered as standard equipment by default. It contains no shock-absorbing liners or ballistic fibers, offering virtually no protection in combat.</s><r>Демонстрационная униформа, изначально созданная для дебюта класса «Фианкетто» на военных выставках.
+Из-за приостановки проекта разработки специальная боевая броня так и не была реализована, следовательно, эта одежда по умолчанию была зарегистрирована как стандартное снаряжение. Он не содержит амортизирующих вкладышей или баллистических волокон и практически не обеспечивает никакой защиты в бою.</r></e>
+  <e k="D" t="ThingDef" key="Milian_ConductorCloakAC.label"><s>Milian conductor cloak</s><r>Милианский плащ дирижера</r></e>
+  <e k="D" t="ThingDef" key="Milian_ConductorHeadSetAC.description"><s>A specialized fire-control headset designed for the Bishop III-S Fianchetto.
+It houses a high-bandwidth quantum transceiver array essential for managing the massive data traffic of &quot;puppet&quot; drones. By synchronizing directly with the host's augmented neural processor, it stabilizes the remote control link and enables complex swarm maneuvers.</s><r>Специализированная гарнитура управления огнем, разработанная для Bishop III-S Fianchetto.
+В ней находится массив квантовых приемопередатчиков с высокой пропускной способностью, необходимый для управления огромным потоком данных «марионеточных» дронов. Синхронизируясь напрямую с расширенным нейронным процессором хоста, он стабилизирует связь дистанционного управления и позволяет выполнять сложные маневры.</r></e>
+  <e k="D" t="ThingDef" key="Milian_ConductorHeadSetAC.label"><s>Milian conductor headset</s><r>Милианская дирижерская гарнитура</r></e>
+  <e k="D" t="ThingDef" key="Milian_ConductorRod.description"><s>A drone control interface designed specifically for the Fianchetto.
+
+Using a quantum entanglement transceiver, it establishes a zero-latency synchronization link with remote units. This rod acts as a high-bandwidth neural bridge, broadcasting the host's internal parallel calculations directly to the swarm to execute complex, unified maneuvers that far exceed standard protocols.
+For self-defense, it features an integrated low-output particle beam emitter.</s><r>Интерфейс управления дроном, разработанный специально для Fianchetto.
+
+Используя приемопередатчик квантовой запутанности, он устанавливает канал синхронизации с нулевой задержкой с удаленными устройствами. Этот стержень действует как нейронный мост с высокой пропускной способностью, передавая внутренние параллельные вычисления хоста непосредственно рою для выполнения сложных, унифицированных маневров, которые намного превосходят стандартные протоколы.
+Для самообороны он оснащен встроенным излучателем пучков частиц с низкой выходной мощностью.</r></e>
+  <e k="D" t="ThingDef" key="Milian_ConductorRod.label"><s>Milian conductor rod</s><r>Милианский проводниковый стержень</r></e>
+  <e k="D" t="ThingDef" key="Milian_ConductorRod.tools.0.label"><s>Shaft</s><r>Вал</r></e>
+  <e k="D" t="ThingDef" key="Milian_ConductorRod.verbs.0.label"><s>Milian conductor rod</s><r>Милианский проводниковый стержень</r></e>
+  <e k="D" t="ThingDef" key="Milian_Mechanoid_BishopIII_ArsenalCarrier.description"><s>An experimental modification of the Bishop III Consul, designated &quot;Bishop III-S Fianchetto&quot;.
+
+It commands specialized combat drones and can equip ranged weapons.
+
+Conceptually developed by Helmi Ervasti of the 03 System Command, this unit offloads all drone calculations to its own customized neural processor.
+By integrating an experimental high-density optical architecture, it achieves massive parallel processing capabilities. However, this introduces a fatal Single Point of Failure (SPOF). Since the drones lack autonomy, neutralizing the host results in the immediate collapse of the entire swarm.
+Deemed a critical tactical liability, the project was ultimately scrapped, leaving only a few prototypes in circulation.</s><r>Экспериментальная модификация Епископа III Консула, получившая обозначение «Епископ III-S Фианкетто».
+
+Он командует специализированными боевыми дронами и может оснащаться оружием дальнего боя.
+
+Концептуально разработанный Хельми Эрвасти из Системного командования 03, это устройство перегружает все расчеты дронов в свой собственный настроенный нейронный процессор.
+Благодаря интеграции экспериментального Оптическая архитектура высокой плотности обеспечивает широкие возможности параллельной обработки. Однако это приводит к фатальной единой точке отказа (SPOF). Поскольку дронам не хватает автономности, нейтрализация хозяина приводит к немедленному уничтожению всего роя. 
+ Проект, который считался критически важным тактическим препятствием, в конечном итоге был свернут, оставив в обращении лишь несколько прототипов.</r></e>
+  <e k="D" t="ThingDef" key="Milian_Mechanoid_BishopIII_ArsenalCarrier.label"><s>Fianchetto</s><r>Боковая панель</r></e>
+  <e k="D" t="ThingDef" key="Milian_Mechanoid_BishopIII_ArsenalCarrier.tools.0.label"><s>left fist</s><r>левый кулак</r></e>
+  <e k="D" t="ThingDef" key="Milian_Mechanoid_BishopIII_ArsenalCarrier.tools.1.label"><s>right fist</s><r>правый кулак</r></e>
+  <e k="D" t="ThingDef" key="Milian_UnfinishedFianchettoChip.description"><s>A Milian chip still being assembled.</s><r>Чип Milian все еще собирается.</r></e>
+  <e k="D" t="ThingDef" key="Milian_UnfinishedFianchettoChip.label"><s>Unfinished Chip</s><r>Незаконченный чип</r></e>
+  <e k="D" t="ThingDef" key="MiliraBullet_ConductorRod.label"><s>ion beam</s><r>ионный пучок</r></e>
+  <e k="D" t="ThingDef" key="MiliraTurret_CombatDrone_FunnelBitB.description"><s>a nicely floating gun barrel!</s><r>красиво плавающий ствол оружия!</r></e>
+  <e k="D" t="ThingDef" key="MiliraTurret_CombatDrone_FunnelBitB.label"><s>Strike drone: Malkuth</s><r>Ударный дрон: Малкут</r></e>
+  <e k="D" t="ThingDef" key="MiliraTurret_CombatDrone_FunnelBitB.verbs.0.label"><s>Strike drone: Malkuth</s><r>Ударный дрон: Малкут</r></e>
+  <e k="D" t="ThingDef" key="MiliraTurret_CombatDrone_FunnelBitC.description"><s>It's slow and there are only two.
+Your Milian is happy because there is less to think about.</s><r>Это медленно, и их всего два.
+Ваш Милиан счастлив, потому что вам меньше о чем думать.</r></e>
+  <e k="D" t="ThingDef" key="MiliraTurret_CombatDrone_FunnelBitC.label"><s>Strike drone: Gevurah</s><r>Ударные дроны: Гвура</r></e>
+  <e k="D" t="ThingDef" key="MiliraTurret_CombatDrone_FunnelBitC.verbs.0.label"><s>Strike drone: Gevurah</s><r>Ударные дроны: Гвура</r></e>
+  <e k="D" t="ThingDef" key="MiliraTurret_CombatDrone_FunnelBitD.description"><s>Please give way when a Milian equipped with this system is trying to pass through a doorway. And please, pray for the door frame.</s><r>Пожалуйста, уступите дорогу, когда Милиан, оснащенный этой системой, пытается пройти через дверной проем. И, пожалуйста, помолитесь за дверной косяк.</r></e>
+  <e k="D" t="ThingDef" key="MiliraTurret_CombatDrone_FunnelBitD.label"><s>Strike drone: Keter</s><r>Ударный дрон: Кетер</r></e>
+  <e k="D" t="ThingDef" key="MiliraTurret_CombatDrone_FunnelBitD.verbs.0.label"><s>Strike drone: Keter</s><r>Ударный дрон: Кетер</r></e>
+  <e k="D" t="ThingDef" key="MiliraTurret_CombatDrone_FunnelBitE.description"><s>No, the repair beam doesn't work on humans... Hey, cut it out!</s><r>Нет, на людей ремонтный луч не действует... Эй, хватит!</r></e>
+  <e k="D" t="ThingDef" key="MiliraTurret_CombatDrone_FunnelBitE.label"><s>Strike drone: Tiphereth</s><r>Ударный дрон: Тиферет</r></e>
+  <e k="D" t="ThingDef" key="MiliraTurret_CombatDrone_FunnelBitE.verbs.0.label"><s>Strike drone: Tiphereth</s><r>Ударный дрон: Тиферет</r></e>
+  <e k="D" t="ThingDef" key="MiliraTurret_CombatDrone_FunnelBitG.description"><s>“Sometimes she spreads her wings at me for no reason. What does that mean? Does she like me?”
+
+“She's actually threatening you.”</s><r>&quot;Иногда она расправляет на меня крылья без всякой причины. Что это значит? Я ей нравлюсь?&quot;
+
+&quot;Она на самом деле угрожает тебе.&quot;</r></e>
+  <e k="D" t="ThingDef" key="MiliraTurret_CombatDrone_FunnelBitG.label"><s>Strike drone: Chesed</s><r>Ударный дрон: Хесед</r></e>
+  <e k="D" t="ThingDef" key="MiliraTurret_CombatDrone_FunnelBitG.verbs.0.label"><s>Strike drone: Chesed</s><r>Ударный дрон: Хесед</r></e>
+  <e k="D" t="ThingDef" key="MiliraTurret_CombatDrone_Katja.description"><s>And no, you don't get five silver for hacking terminals.</s><r>И нет, за взлом терминалов вы не получите пять серебра.</r></e>
+  <e k="D" t="ThingDef" key="MiliraTurret_CombatDrone_Katja.label"><s>Combat platform: auxiliary mechlink</s><r>Боевая платформа: вспомогательный мехлинк</r></e>
+  <e k="D" t="ThingDef" key="MiliraTurret_CombatDrone_Katja.verbs.0.label"><s>Combat platform: auxiliary mechlink</s><r>Боевая платформа: вспомогательный мехлинк</r></e>
+  <e k="D" t="ThingDef" key="Milira_CombatDrone_FunnelBitB.description"><s>A remote-controlled &quot;puppet&quot; drone with zero autonomy, serving as the standard armament for the &quot;Fianchetto&quot; model.
+
+Stripped of AI cores and heavy batteries, the Malkuth relies on the host's massive parallel processing for combat logic. This allows for erratic, high-G maneuvers driven by force-field propulsion—feats impossible for standard autonomous units to replicate.
+It is a versatile all-rounder, effective against both swarms and single targets.</s><r>«Марионеточный» дрон с дистанционным управлением и нулевой автономностью, служащий стандартным вооружением для модели «Фианкетто».
+
+Лишенный от ядер искусственного интеллекта и тяжелых батарей, «Малкут» полагается на массивную параллельную обработку хоста для боевой логики. Это позволяет совершать беспорядочные маневры с высокой перегрузкой, приводимые в движение силовым полем, — что невозможно повторить стандартным автономным устройствам.
+Это универсальное универсальное средство, эффективное как против стад, так и против одиночных целей.</r></e>
+  <e k="D" t="ThingDef" key="Milira_CombatDrone_FunnelBitB.label"><s>Strike drone: Malkuth</s><r>Ударный дрон: Малкут</r></e>
+  <e k="D" t="ThingDef" key="Milira_CombatDrone_FunnelBitC.description"><s>A heavy strike drone equipped with a devastating heavy laser. It excels at breaching armored targets and fortified structures, making it ideal for neutralizing high-threat mechanoids or high-value targets like enemy commanders.
+
+The Gevurah was originally conceived as a remote beam platform armed with gamma-ray lasers designed to pierce momentum repulsor fields. However, the development logic collapsed after a single, casual remark: &quot;Why don't we just fly a drone inside the shield and shoot the core?&quot; The project was abruptly pivoted, resulting in a drone that simply mounts a standardized heavy laser onto the already-completed chassis.</s><r>Тяжелый ударный дрон, оснащенный разрушительным тяжелым лазером. Он превосходно пробивает бронированные цели и укрепленные конструкции, что делает его идеальным для нейтрализации высокоопасных механоидов или ценных целей, таких как вражеские командиры.
+
+Первоначально «Гевура» задумывалась как платформа с дистанционным лучом, вооружённая гамма-лазерами, предназначенными для прорыва импульсных репульсорных полей. Однако логика разработки рухнула после единственного случайного замечания: «Почему бы нам просто не запустить дрон внутрь щита и не выстрелить в ядро?» Проект был резко изменен, в результате чего появился дрон, который просто устанавливает стандартный тяжелый лазер на уже готовое шасси.</r></e>
+  <e k="D" t="ThingDef" key="Milira_CombatDrone_FunnelBitC.label"><s>Strike drone: Gevurah</s><r>Ударные дроны: Гвура</r></e>
+  <e k="D" t="ThingDef" key="Milira_CombatDrone_FunnelBitD.description"><s>A massive composite weapon system comprised of multiple specialized drones. It is highly effective against all engagement types, from armored and soft targets to dense enemy clusters.
+
+The system deploys two heavy melee drones equipped with plasma blades, two heavy drones armed with laser cannons, and four light drones utilizing converged particle beams. While a single Milian unit can project firepower equivalent to a standard infantry squad, it requires a significantly higher bandwidth to maintain operational control.</s><r>Массивная комплексная система вооружения, состоящая из нескольких специализированных дронов. Он очень эффективен против всех типов боя, от бронированных и мягких целей до плотных скоплений противника.
+
+Система использует два тяжелых дрона ближнего боя, оснащенных плазменными лезвиями, два тяжелых дрона, вооруженных лазерными пушками, и четыре легких дрона, использующих сведенные лучи частиц. Хотя отдельное милианское подразделение может обладать огневой мощью, эквивалентной стандартному пехотному отделению, для поддержания оперативного контроля требуется значительно более высокая пропускная способность.</r></e>
+  <e k="D" t="ThingDef" key="Milira_CombatDrone_FunnelBitD.label"><s>Strike drone: Keter</s><r>Ударный дрон: Кетер</r></e>
+  <e k="D" t="ThingDef" key="Milira_CombatDrone_FunnelBitE.description"><s>A utility support drone equipped with a low-output hardlight emitter. The Tiphereth is designed to perform non-combat tasks such as cleaning, fabrication assistance, and emergency repair support for allied Milian units.
+
+The unit employs a low-grade hardlight machining emitter derived from industrial laser CNC systems and force-field projection technology. By maintaining continuous contact with a target surface, it can remove debris, cut through timber, assist in component assembly, or apply micron-scale corrections to unfinished structures.
+
+In combat, the Tiphereth primarily functions as a repair unit. Through the Fianchetto's neural control link, it assists allied Milians by translating the host's parallel processing into precise repair guidance, accelerating recovery far beyond standard autonomous routines.
+Its attack mode is merely a repurposed work beam. While capable of damaging soft targets, it lacks the power and stability of a dedicated weapon system.
+
+Two Tiphereth drones can also project a hardlight shield between themselves, forming a temporary interception screen against incoming fire.</s><r>Дрон технической поддержки, оснащенный излучателем жесткого света малой мощности. Тиферет предназначен для выполнения небоевых задач, таких как уборка, помощь в изготовлении и поддержка аварийного ремонта для союзных милианских подразделений.
+
+В отряде используется низкосортный излучатель жесткого света, полученный на основе промышленных лазерных систем с ЧПУ и технологии проецирования силового поля. Поддерживая постоянный контакт с целевой поверхностью, он может удалять мусор, прорезать древесину, помогать в сборке компонентов или вносить микронные исправления в незавершенные конструкции.
+
+В бою Тиферет в первую очередь действует как ремонтная единица. Через канал нейронного управления «Фианкетто» он помогает союзным милианцам, переводя параллельную обработку хоста в точное руководство по ремонту, ускоряя восстановление далеко за пределы стандартных автономных процедур.
+Его режим атаки — это просто перепрофилированный рабочий луч. Несмотря на то, что он способен поражать слабые цели, ему не хватает мощности и стабильности специальной системы вооружения.
+
+Два дрона Тиферет также могут создавать между собой жесткий световой щит, образуя временный экран перехвата от входящего огня.</r></e>
+  <e k="D" t="ThingDef" key="Milira_CombatDrone_FunnelBitE.label"><s>Strike drone: Tiphereth</s><r>Ударный дрон: Тиферет</r></e>
+  <e k="D" t="ThingDef" key="Milira_CombatDrone_FunnelBitG.description"><s>A next-generation strike drone system powered by new solar crystal batteries. Its particle beams deliver exceptional stopping power, disrupting enemy movement, while integrated work modules provide versatile support. For rapid recharging, the compact drones dock directly with a large platform that doubles as their control interface.
+
+The Chesed was designed personally by Helmi Ervasti after the Fianchetto project's cancellation, outside the 03 System Command. A friend who had helped themselves to a remaining prototype requested small drones with serious firepower and work capabilities. Helmi obliged. The enormous charger was apparently not covered by the size requirement.</s><r>Система ударных дронов следующего поколения, питающаяся от новых солнечных батарей. Его лучи частиц обеспечивают исключительную останавливающую способность, срывая движение противника, а встроенные рабочие модули обеспечивают универсальную поддержку. Для быстрой подзарядки компактные дроны стыкуются непосредственно с большой платформой, которая одновременно служит и интерфейсом управления.
+
+Chesed был разработан лично Хельми Эрвасти после отмены проекта Fianchetto вне командования системы 03. Друг, который взял оставшийся прототип, попросил небольшие дроны с серьезной огневой мощью и рабочими возможностями. Хельми согласился. Огромное зарядное устройство явно не соответствовало требованиям по размеру.</r></e>
+  <e k="D" t="ThingDef" key="Milira_CombatDrone_FunnelBitG.label"><s>Strike drone: Chesed</s><r>Ударный дрон: Хесед</r></e>
+  <e k="D" t="ThingDef" key="Milira_CombatDrone_Katja.description"><s>A specialized drone that provides additional processing capacity for mech control. It acts as a psychic link bridge between its wearer and Milian or mechanoids, allowing even those without a mechlink implant to command mechs much like a mechanitor. It substantially increases the bandwidth available to wearers with limited capacity, while offering only a modest increase to those who already have ample bandwidth.
+
+Developed alongside Chesed, this one-off model was made for a friend who had brought a Fianchetto home despite having no mechlink and put it to work serving tea. It provides enough processing capacity for a Milira in everyday clothes, without specialized equipment, to barely control a single Fianchetto equipped with experimental strike drones.
+
+Although it shares the technology used in strike drones, its heavy processing unit and power cell leave this autonomous drone capable of only slow, simple maneuvers. A built-in low-output hardlight emitter allows it to assist its wearer with a limited range of tasks.</s><r>Специализированный дрон, обеспечивающий дополнительные вычислительные мощности для управления механизмами. Он действует как мост психической связи между его владельцем и Милианом или механоидами, позволяя даже тем, у кого нет имплантата мехлинка, командовать мехами так же, как механизатор. Он существенно увеличивает пропускную способность, доступную владельцам с ограниченной емкостью, и предлагает лишь незначительное увеличение тем, у кого уже есть достаточная пропускная способность.
+
+Эта уникальная модель, разработанная совместно с Chesed, была создана для друга, который принес Fianchetto домой, несмотря на отсутствие мехлинка, и заставил его работать, раздавая чай. Он обеспечивает достаточную вычислительную мощность для Milira в повседневной одежде, без специального оборудования, чтобы едва управлять одним Fianchetto, оснащенным экспериментальными ударными дронами.
+
+Хотя он разделяет технологию, используемую в ударных дронах, его тяжелый процессорный блок и силовой элемент оставляют этот автономный дрон способным только на медленные и простые маневры. Встроенный излучатель жесткого света малой мощности позволяет пользователю выполнять ограниченный круг задач.</r></e>
+  <e k="D" t="ThingDef" key="Milira_CombatDrone_Katja.label"><s>Combat platform: auxiliary mechlink</s><r>Боевая платформа: вспомогательный мехлинк</r></e>
+  <e k="D" t="ThingDef" key="Milira_FianchettoChip.description"><s>A hyper-parallel processing unit composed of thin, laminated Solar Crystal wafers. It functions as a dedicated &quot;subconscious&quot; for the Fianchetto class, offloading the immense computational burden of drone maneuver control from the host's primary consciousness.
+
+To bypass physical size constraints, this device adapts force-field technology at a micro-scale. By generating high-density gravity distortion fields around the crystal lattice, it bends photon trajectories into closed loops within mere millimeters. This forms a &quot;Virtual Optical Resonator&quot; equivalent to a kilometer-class laser facility inside a compact space.
+
+Maintaining this unstable singularity of light demands a constant, massive energy supply drawn from starship-grade batteries.</s><r>Гиперпараллельный процессор, состоящий из тонких ламинированных пластин солнечного кристалла. Он функционирует как выделенное «подсознание» для класса Фианкетто, разгружая огромное вычислительное бремя управления маневрами дрона с основного сознания хозяина.
+
+Чтобы обойти ограничения физического размера, это устройство адаптирует технологию силового поля на микроуровне. Генерируя поля гравитационного искажения высокой плотности вокруг кристаллической решетки, он сгибает траектории фотонов в замкнутые петли с точностью до миллиметров. Это образует «виртуальный оптический резонатор», эквивалентный лазерной установке километрового класса внутри компактного пространства.</r></e>
+  <e k="D" t="ThingDef" key="Milira_FianchettoChip.label"><s>Solar-Lattice Cortex</s><r>Кора солнечной решетки</r></e>
+  <e k="D" t="ThingDef" key="Milira_FunnelBit_B_subProjectile.label"><s>focused particle beam</s><r>сфокусированный пучок частиц</r></e>
+  <e k="D" t="ThingDef" key="Milira_FunnelBit_B_subProjectile_overrun.label"><s>focused particle beam overrun</s><r>выход сфокусированного луча частиц</r></e>
+  <e k="D" t="ThingDef" key="Milira_FunnelBit_B_subProjectile_overrunB.label"><s>focused particle beam overrun inner</s><r>сфокусированный пучок частиц выходит за пределы внутреннего пространства</r></e>
+  <e k="D" t="ThingDef" key="Milira_FunnelBit_C_SuperLaser_Beam.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="Milira_FunnelBit_C_SuperLaser_ParticleA.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="Milira_FunnelBit_C_SuperLaser_ParticleB.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="Milira_FunnelBit_C_subProjectile.label"><s>heavy laser</s><r>тяжелый лазер</r></e>
+  <e k="D" t="ThingDef" key="Milira_FunnelBit_D_subProjectile.label"><s>modulated energy beam</s><r>модулированный энергетический луч</r></e>
+  <e k="D" t="ThingDef" key="Milira_FunnelBit_D_subProjectileB.label"><s>focused particle beam</s><r>сфокусированный пучок частиц</r></e>
+  <e k="D" t="ThingDef" key="Milira_FunnelBit_G2_subProjectile.label"><s>focused particle beam</s><r>сфокусированный пучок частиц</r></e>
+  <e k="D" t="ThingDef" key="Milira_FunnelBit_G_ArcVolleyStrongLarge_subProjectile.label"><s>heavy laser</s><r>тяжелый лазер</r></e>
+  <e k="D" t="ThingDef" key="Milira_FunnelBit_G_ArcVolleyStrongSmall_subProjectile.label"><s>modulated energy beam</s><r>модулированный энергетический луч</r></e>
+  <e k="D" t="ThingDef" key="Milira_FunnelBit_G_ArcVolleyWeak_subProjectile.label"><s>focused particle beam</s><r>сфокусированный пучок частиц</r></e>
+  <e k="D" t="ThingDef" key="Milira_FunnelBit_G_AreaLaser_subProjectile.label"><s>heavy laser</s><r>тяжелый лазер</r></e>
+  <e k="D" t="ThingDef" key="Milira_FunnelBit_G_subProjectile.label"><s>focused particle beam</s><r>сфокусированный пучок частиц</r></e>
+  <e k="D" t="ThingDef" key="Milira_FunnelBit_Mote_BeamHitSplash.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="Milira_FunnelBit_ShieldSpotLinear.comps.1.countdownLabel"><s>Burnout in</s><r>Выгорание в</r></e>
+  <e k="D" t="ThingDef" key="Milira_FunnelBit_ShieldSpotLinear.description"><s>desc.</s><r>дес.</r></e>
+  <e k="D" t="ThingDef" key="Milira_FunnelBit_ShieldSpotLinear.label"><s>LineShieldSpotBase</s><r>ЛинияЩитПятноБаза</r></e>
+  <e k="D" t="ThingDef" key="Mote_ForceField_Malkuth_barGauge.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="Mote_Milira_FunnelBit_BeamTiphereth.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="Mote_Milira_FunnelBit_DroneWorkBeam.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="Mote_Milira_FunnelBit_DroneWorkBeam_large.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="Mote_Milira_FunnelBit_DroneWorkBeam_mechRepair.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="Mote_Milira_FunnelBit_G_AreaLaserGuide.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="Mote_Milira_FunnelBit_G_CrossSweepBeam.label"><s>modulated energy beam</s><r>модулированный энергетический луч</r></e>
+  <e k="D" t="ThingDef" key="Mote_Milira_FunnelBit_G_EscortBeam.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="K" key="ArsenalMilian_ApparelMechanitorMinimum"><s>Auxiliary Mechlink: minimum bandwidth {0}</s><r>Вспомогательный Mechlink: минимальная полоса пропускания {0}</r></e>
+  <e k="K" key="FunnelBit_BarrierTooLong"><s>Barrier is too long.</s><r>Барьер слишком длинный.</r></e>
+  <e k="K" key="FunnelBit_BarrierTooShort"><s>Barrier is too short.</s><r>Барьер слишком короткий.</r></e>
+  <e k="K" key="FunnelBit_NoDroneAvailable"><s>No drones available.</s><r>Дронов нет.</r></e>
+  <e k="K" key="FunnelBit_Toggle_Auto"><s>Toggle attack permission.
+
+When disabled, all drones will stop attacking automatically regardless of other settings.
+Any drones currently deployed will immediately cease fire and return.</s><r>Переключить разрешение на атаку.
+
+При отключении все дроны автоматически перестанут атаковать независимо от других настроек.
+Любые развернутые в данный момент дроны немедленно прекратят огонь и вернутся.</r></e>
+  <e k="K" key="FunnelBit_Toggle_PawnFireAtWill"><s>Toggle 'Fire at will' for the pawn.</s><r>Переключите «Огонь по желанию» для пешки.</r></e>
+  <e k="K" key="FunnelBit_Toggle_TurretAutoFire"><s>Toggle automatic targeting.
+
+When enabled, drones will automatically search for and attack enemies within range.
+When disabled, they will stop auto-attacking. However, if synchronized attack mode is enabled, they will still react to the master’s target.</s><r>Включите автоматическое наведение на цель.
+
+При включении дроны будут автоматически искать и атаковать врагов в пределах досягаемости.
+При отключении они перестанут автоматически атаковать. Однако, если включен режим синхронной атаки, они все равно будут реагировать на цель мастера.</r></e>
+  <e k="K" key="FunnelBit_Toggle_TurretAutoFireAtFocus"><s>Toggle synchronized attack mode.
+
+When enabled, drones will automatically deploy and attack the enemy that their master is currently engaging.</s><r>Переключить режим синхронизированной атаки.
+
+При включении дроны будут автоматически развертываться и атаковать врага, с которым в данный момент сражается их хозяин.</r></e>
+  <e k="K" key="FunnelBit_Toggle_TurretDroneWorkEnabled"><s>Toggle Work Assist.
+
+When enabled, drones will automatically assist with tasks.</s><r>Переключить помощник в работе.
+
+Если этот параметр включен, дроны будут автоматически помогать с выполнением задач.</r></e>
+  <e k="K" key="FunnelBit_Toggle_TurretFireAtWill"><s>Toggle 'Fire at will' for the turret.</s><r>Переключите «Огонь по желанию» для турели.</r></e>
+  <e k="K" key="FunnelBit_Toggle_TurretFocusFire"><s>Toggle focus fire mode.
+
+When enabled, drones will prioritize and concentrate fire on the same target their master is attacking.
+If the master is not attacking anyone, drones will behave normally and seek nearby enemies.</s><r>Переключить режим фокусировки огня.
+
+При включении дроны будут расставлять приоритеты и концентрировать огонь на той же цели, которую атакует их хозяин.
+Если хозяин никого не атакует, дроны будут вести себя нормально и искать ближайших врагов.</r></e>
+  <e k="K" key="FunnelBit_Toggle_TurretOnlyAutoFireWhileDraft"><s>Toggle 'Auto-fire only while master is drafted'.
+
+When enabled, if the master is not drafted, drones will not automatically attack enemies within range.</s><r>Переключите «Автоматический огонь только тогда, когда мастер выбран».
+
+При включении, если мастер не выбран, дроны не будут автоматически атаковать врагов в пределах досягаемости.</r></e>
+</AutoTranslateCache>
