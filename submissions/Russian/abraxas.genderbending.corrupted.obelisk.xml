@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="abraxas.genderbending.corrupted.obelisk" name="Genderbending Corrupted Obelisk" language="Russian" version="1">
+  <e k="D" t="InteractionDef" key="GCO_DuplicateChat.label"><s>duplicate chat</s><r>дубликат чата</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateChat.logRulesInitiator.rulesStrings.0"><s>r_logentry-&gt;[INITIATOR_nameDef] compared notes with [RECIPIENT_nameDef] about [duplicateSubject].</s><r>r_logentry-&gt;[INITIATOR_nameDef] сравнил записи с [RECIPIENT_nameDef] о [duplicateSubject].</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateChat.logRulesInitiator.rulesStrings.1"><s>r_logentry-&gt;[INITIATOR_nameDef] mused with [RECIPIENT_nameDef] about [duplicateSubject].</s><r>r_logentry-&gt;[INITIATOR_nameDef] размышлял с [RECIPIENT_nameDef] о [duplicateSubject].</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateChat.logRulesInitiator.rulesStrings.2"><s>r_logentry-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] kept finishing each other's sentences.</s><r>r_logentry-&gt;[INITIATOR_nameDef] и [RECIPIENT_nameDef] продолжали заканчивать предложения друг друга.</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateChat.logRulesInitiator.rulesStrings.3"><s>r_logentry-&gt;[INITIATOR_nameDef] quizzed [RECIPIENT_nameDef] about [duplicateSubject].</s><r>r_logentry-&gt;[INITIATOR_nameDef] задал [RECIPIENT_nameDef] вопрос о [duplicateSubject].</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateChat.logRulesInitiator.rulesStrings.4"><s>r_logentry(INITIATOR_gender==Male,RECIPIENT_gender==Male)-&gt;[INITIATOR_nameDef] remarked that talking to [RECIPIENT_nameDef] is like arguing with a mirror.</s><r>r_logentry(INITIATOR_gender==Male,RECIPIENT_gender==Male)-&gt;[INITIATOR_nameDef] заметил, что разговаривать с [RECIPIENT_nameDef] — всё равно, что спорить с зеркалом.</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateChat.logRulesInitiator.rulesStrings.5"><s>r_logentry(INITIATOR_gender==Female,RECIPIENT_gender==Female)-&gt;[INITIATOR_nameDef] remarked that talking to [RECIPIENT_nameDef] is like arguing with a mirror.</s><r>r_logentry(INITIATOR_gender==Female,RECIPIENT_gender==Female)-&gt;[INITIATOR_nameDef] заметил, что разговаривать с [RECIPIENT_nameDef] — всё равно, что спорить с зеркалом.</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateChat.logRulesInitiator.rulesStrings.6"><s>r_logentry(INITIATOR_gender==Male,RECIPIENT_gender==Female)-&gt;[INITIATOR_nameDef] mused to [RECIPIENT_nameDef] about the person [INITIATOR_pronoun] might have been.</s><r>r_logentry(INITIATOR_gender==Male,RECIPIENT_gender==Female)-&gt;[INITIATOR_nameDef] размышлял над [RECIPIENT_nameDef] о человеке, которым мог бы быть [INITIATOR_pronoun].</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateChat.logRulesInitiator.rulesStrings.7"><s>r_logentry(INITIATOR_gender==Female,RECIPIENT_gender==Male)-&gt;[INITIATOR_nameDef] mused to [RECIPIENT_nameDef] about the person [INITIATOR_pronoun] might have been.</s><r>r_logentry(INITIATOR_gender==Female,RECIPIENT_gender==Male)-&gt;[INITIATOR_nameDef] размышлял над [RECIPIENT_nameDef] о человеке, которым мог бы быть [INITIATOR_pronoun].</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateChatHostile.label"><s>duplicate friction</s><r>дублирующее трение</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateChatHostile.logRulesInitiator.rulesStrings.0"><s>r_logentry-&gt;[INITIATOR_nameDef] sniped at [RECIPIENT_nameDef] over [duplicateSubject].</s><r>r_logentry-&gt;[INITIATOR_nameDef] выстрелил в [RECIPIENT_nameDef] над [duplicateSubject].</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateChatHostile.logRulesInitiator.rulesStrings.1"><s>r_logentry-&gt;[INITIATOR_nameDef] insisted [RECIPIENT_nameDef] is the copy.</s><r>r_logentry-&gt;[INITIATOR_nameDef] настаивал, что [RECIPIENT_nameDef] — это копия.</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateChatHostile.logRulesInitiator.rulesStrings.2"><s>r_logentry-&gt;[INITIATOR_nameDef] muttered to [RECIPIENT_nameDef] that there can only be one.</s><r>r_logentry-&gt;[INITIATOR_nameDef] пробормотал [RECIPIENT_nameDef], что может быть только один.</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateChatHostile.logRulesInitiator.rulesStrings.3"><s>r_logentry(INITIATOR_gender==Male,RECIPIENT_gender==Male)-&gt;[INITIATOR_nameDef] accused [RECIPIENT_nameDef] of stealing [INITIATOR_possessive] face.</s><r>r_logentry(INITIATOR_gender==Male,RECIPIENT_gender==Male)-&gt;[INITIATOR_nameDef] обвинил [RECIPIENT_nameDef] в краже лица [INITIATOR_possessive].</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateChatHostile.logRulesInitiator.rulesStrings.4"><s>r_logentry(INITIATOR_gender==Female,RECIPIENT_gender==Female)-&gt;[INITIATOR_nameDef] accused [RECIPIENT_nameDef] of stealing [INITIATOR_possessive] face.</s><r>r_logentry(INITIATOR_gender==Female,RECIPIENT_gender==Female)-&gt;[INITIATOR_nameDef] обвинил [RECIPIENT_nameDef] в краже лица [INITIATOR_possessive].</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateChatHostile.logRulesInitiator.rulesStrings.5"><s>r_logentry(INITIATOR_gender==Male,RECIPIENT_gender==Female)-&gt;[INITIATOR_nameDef] sneered that the obelisk didn't even copy [INITIATOR_objective] right.</s><r>r_logentry(INITIATOR_gender==Male,RECIPIENT_gender==Female)-&gt;[INITIATOR_nameDef] усмехнулся, сказав, что обелиск даже не скопировал [INITIATOR_objective] правильно.</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateChatHostile.logRulesInitiator.rulesStrings.6"><s>r_logentry(INITIATOR_gender==Female,RECIPIENT_gender==Male)-&gt;[INITIATOR_nameDef] sneered that the obelisk didn't even copy [INITIATOR_objective] right.</s><r>r_logentry(INITIATOR_gender==Female,RECIPIENT_gender==Male)-&gt;[INITIATOR_nameDef] усмехнулся, сказав, что обелиск даже не скопировал [INITIATOR_objective] правильно.</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateChatLover.label"><s>duplicate romance</s><r>дубликат романа</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateChatLover.logRulesInitiator.rulesStrings.0"><s>r_logentry-&gt;[INITIATOR_nameDef] told [RECIPIENT_nameDef] that loving your duplicate is the purest form of self-love.</s><r>r_logentry-&gt;[INITIATOR_nameDef] сказал [RECIPIENT_nameDef], что любовь к своему дубликату — это чистейшая форма любви к себе.</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateChatLover.logRulesInitiator.rulesStrings.1"><s>r_logentry-&gt;[INITIATOR_nameDef] whispered to [RECIPIENT_nameDef] that no one else could ever know [INITIATOR_objective] so completely.</s><r>r_logentry-&gt;[INITIATOR_nameDef] прошептал [RECIPIENT_nameDef], что никто другой не сможет знать [INITIATOR_objective] так полно.</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateChatLover.logRulesInitiator.rulesStrings.2"><s>r_logentry-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] joked about never having to explain themselves to each other.</s><r>r_logentry-&gt;[INITIATOR_nameDef] и [RECIPIENT_nameDef] пошутили, что им никогда не придется объясняться друг с другом.</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateChatLover.logRulesInitiator.rulesStrings.3"><s>r_logentry-&gt;[INITIATOR_nameDef] wondered with [RECIPIENT_nameDef] whether being in love with your duplicate counts as vanity.</s><r>r_logentry-&gt;[INITIATOR_nameDef] задался вопросом вместе с [RECIPIENT_nameDef], считается ли влюбленность в своего дубликата тщеславием.</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateChatLover.logRulesInitiator.rulesStrings.4"><s>r_logentry-&gt;[INITIATOR_nameDef] told [RECIPIENT_nameDef] that [INITIATOR_pronoun] finally understands what it means to find your other half.</s><r>r_logentry-&gt;[INITIATOR_nameDef] сказал [RECIPIENT_nameDef], что [INITIATOR_pronoun] наконец-то понял, что значит найти свою вторую половину.</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateChatWarm.label"><s>duplicate bonding</s><r>дублированное соединение</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateChatWarm.logRulesInitiator.rulesStrings.0"><s>r_logentry-&gt;[INITIATOR_nameDef] reminisced with [RECIPIENT_nameDef] about [duplicateSubject].</s><r>r_logentry-&gt;[INITIATOR_nameDef] вместе с [RECIPIENT_nameDef] вспомнил о [duplicateSubject].</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateChatWarm.logRulesInitiator.rulesStrings.1"><s>r_logentry-&gt;[INITIATOR_nameDef] joked with [RECIPIENT_nameDef] about [duplicateSubject].</s><r>r_logentry-&gt;[INITIATOR_nameDef] пошутил с [RECIPIENT_nameDef] по поводу [duplicateSubject].</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateChatWarm.logRulesInitiator.rulesStrings.2"><s>r_logentry-&gt;[INITIATOR_nameDef] told [RECIPIENT_nameDef] how good it is to talk to someone who truly understands.</s><r>r_logentry-&gt;[INITIATOR_nameDef] рассказал [RECIPIENT_nameDef], как приятно поговорить с кем-то, кто действительно понимает.</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateChatWarm.logRulesInitiator.rulesStrings.3"><s>r_logentry-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] laughed at the same moment without saying a word.</s><r>r_logentry-&gt;[INITIATOR_nameDef] и [RECIPIENT_nameDef] одновременно засмеялись, не сказав ни слова.</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateGossip.label"><s>duplicate gossip</s><r>повторяющиеся сплетни</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateGossip.logRulesInitiator.rulesStrings.0"><s>r_logentry-&gt;[INITIATOR_nameDef] complained to [RECIPIENT_nameDef] about [INITIATOR_possessive] duplicate.</s><r>r_logentry-&gt;[INITIATOR_nameDef] пожаловался [RECIPIENT_nameDef] на дубликат [INITIATOR_possessive].</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateGossip.logRulesInitiator.rulesStrings.1"><s>r_logentry-&gt;[INITIATOR_nameDef] told [RECIPIENT_nameDef] what it feels like to meet yourself.</s><r>r_logentry-&gt;[INITIATOR_nameDef] рассказал [RECIPIENT_nameDef], каково это — встретиться с самим собой.</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateGossip.logRulesInitiator.rulesStrings.2"><s>r_logentry-&gt;[INITIATOR_nameDef] wondered aloud to [RECIPIENT_nameDef] about [duplicateSubject].</s><r>r_logentry-&gt;[INITIATOR_nameDef] вслух задался вопросом [RECIPIENT_nameDef] о [duplicateSubject].</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateLoverComment.label"><s>duplicate romance comment</s><r>дубликат романтического комментария</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateLoverComment.logRulesInitiator.rulesStrings.0"><s>r_logentry-&gt;[INITIATOR_nameDef] asked [RECIPIENT_nameDef] what it's like to date yourself.</s><r>r_logentry-&gt;[INITIATOR_nameDef] спросил [RECIPIENT_nameDef], каково встречаться с самим собой.</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateLoverComment.logRulesInitiator.rulesStrings.1"><s>r_logentry-&gt;[INITIATOR_nameDef] teased [RECIPIENT_nameDef] about being [RECIPIENT_possessive] own soulmate.</s><r>r_logentry-&gt;[INITIATOR_nameDef] дразнил [RECIPIENT_nameDef] тем, что он [RECIPIENT_possessive] родственная душа.</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateLoverComment.logRulesInitiator.rulesStrings.2"><s>r_logentry-&gt;[INITIATOR_nameDef] admitted to [RECIPIENT_nameDef] that [RECIPIENT_possessive] relationship still confuses [INITIATOR_objective].</s><r>r_logentry-&gt;[INITIATOR_nameDef] признался [RECIPIENT_nameDef], что отношения [RECIPIENT_possessive] все еще смущают [INITIATOR_objective].</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateLoverComment.logRulesInitiator.rulesStrings.3"><s>r_logentry-&gt;[INITIATOR_nameDef] remarked that [RECIPIENT_nameDef]'s partner can never claim they don't understand each other.</s><r>r_logentry-&gt;[INITIATOR_nameDef] заметил, что партнер [RECIPIENT_nameDef] никогда не может заявлять, что не понимает друг друга.</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateLoverComment.logRulesInitiator.rulesStrings.4"><s>r_logentry-&gt;[INITIATOR_nameDef] wondered aloud how [RECIPIENT_nameDef] ever wins an argument with [RECIPIENT_possessive] partner.</s><r>r_logentry-&gt;[INITIATOR_nameDef] вслух задался вопросом, как [RECIPIENT_nameDef] вообще выигрывает спор с партнёром [RECIPIENT_possessive].</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateLoverGossip.label"><s>duplicate romance gossip</s><r>дубликаты романтических сплетен</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateLoverGossip.logRulesInitiator.rulesStrings.0"><s>r_logentry-&gt;[INITIATOR_nameDef] gushed to [RECIPIENT_nameDef] about being in love with [INITIATOR_possessive] own duplicate.</s><r>r_logentry-&gt;[INITIATOR_nameDef] рассказал [RECIPIENT_nameDef] о том, что влюблен в собственного дубликата [INITIATOR_possessive].</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateLoverGossip.logRulesInitiator.rulesStrings.1"><s>r_logentry-&gt;[INITIATOR_nameDef] joked to [RECIPIENT_nameDef] about being [INITIATOR_possessive] own type.</s><r>r_logentry-&gt;[INITIATOR_nameDef] пошутил над [RECIPIENT_nameDef] о том, что [INITIATOR_possessive] принадлежит к своему типу.</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateLoverGossip.logRulesInitiator.rulesStrings.2"><s>r_logentry-&gt;[INITIATOR_nameDef] defended [INITIATOR_possessive] relationship with [INITIATOR_possessive] duplicate to [RECIPIENT_nameDef].</s><r>r_logentry-&gt;[INITIATOR_nameDef] защитил связь [INITIATOR_possessive] с дубликатом [INITIATOR_possessive] к [RECIPIENT_nameDef].</r></e>
+  <e k="D" t="InteractionDef" key="GCO_DuplicateLoverGossip.logRulesInitiator.rulesStrings.3"><s>r_logentry-&gt;[INITIATOR_nameDef] told [RECIPIENT_nameDef] that nobody understands [INITIATOR_objective] like [INITIATOR_possessive] partner.</s><r>r_logentry-&gt;[INITIATOR_nameDef] сказал [RECIPIENT_nameDef], что никто не понимает [INITIATOR_objective] так, как партнёр [INITIATOR_possessive].</r></e>
+  <e k="D" t="PawnRelationDef" key="GCO_Duplicate.label"><s>duplicate</s><r>дубликат</r></e>
+  <e k="D" t="PawnRelationDef" key="GCO_DuplicateGreaterNegative.label"><s>duplicate</s><r>дубликат</r></e>
+  <e k="D" t="PawnRelationDef" key="GCO_DuplicateGreaterPositive.label"><s>duplicate</s><r>дубликат</r></e>
+  <e k="D" t="PawnRelationDef" key="GCO_DuplicateNegative.label"><s>duplicate</s><r>дубликат</r></e>
+  <e k="D" t="PawnRelationDef" key="GCO_DuplicatePositive.label"><s>duplicate</s><r>дубликат</r></e>
+  <e k="D" t="RulePackDef" key="GCO_DuplicateDialogue.rulePack.rulesStrings.0"><s>duplicateSubject-&gt;which of them is the original</s><r>duplicateSubject-&gt;какой из них оригинал</r></e>
+  <e k="D" t="RulePackDef" key="GCO_DuplicateDialogue.rulePack.rulesStrings.1"><s>duplicateSubject-&gt;the day the obelisk split them in two</s><r>duplicateSubject-&gt;день, когда обелиск разделил их на две части</r></e>
+  <e k="D" t="RulePackDef" key="GCO_DuplicateDialogue.rulePack.rulesStrings.2"><s>duplicateSubject-&gt;a childhood memory they both claim as their own</s><r>duplicateSubject-&gt;детские воспоминания, которые они оба считают своими</r></e>
+  <e k="D" t="RulePackDef" key="GCO_DuplicateDialogue.rulePack.rulesStrings.3"><s>duplicateSubject-&gt;memories they each remember differently</s><r>duplicateSubject-&gt;воспоминания, каждый из которых помнит по-своему</r></e>
+  <e k="D" t="RulePackDef" key="GCO_DuplicateDialogue.rulePack.rulesStrings.4"><s>duplicateSubject-&gt;dreams they seem to share</s><r>duplicateSubject-&gt;мечты, которые они, кажется, разделяют</r></e>
+  <e k="D" t="RulePackDef" key="GCO_DuplicateDialogue.rulePack.rulesStrings.5"><s>duplicateSubject-&gt;the strangeness of seeing yourself from the outside</s><r>duplicateSubject-&gt;странность видеть себя со стороны</r></e>
+  <e k="D" t="RulePackDef" key="GCO_DuplicateDialogue.rulePack.rulesStrings.6"><s>duplicateSubject-&gt;whether two of the same soul can exist</s><r>duplicateSubject-&gt;могут ли существовать две одинаковые души</r></e>
+  <e k="D" t="RulePackDef" key="GCO_DuplicateDialogue.rulePack.rulesStrings.7"><s>duplicateSubject-&gt;what the obelisk wanted with them</s><r>duplicateSubject-&gt;что обелиск хотел от них</r></e>
+  <e k="D" t="RulePackDef" key="GCO_DuplicateDialogue.rulePack.rulesStrings.8"><s>duplicateSubject-&gt;old habits they can't help but share</s><r>duplicateSubject-&gt;старые привычки, которыми они не могут не поделиться</r></e>
+  <e k="D" t="RulePackDef" key="GCO_DuplicateDialogue.rulePack.rulesStrings.9"><s>duplicateSubject-&gt;what it means to meet yourself</s><r>duplicateSubject-&gt;что значит встретиться с самим собой</r></e>
+  <e k="D" t="ThoughtDef" key="GCO_DuplicateChatHostileMemory.stages.0.label"><s>friction with my duplicate</s><r>трение с моим дубликатом</r></e>
+  <e k="D" t="ThoughtDef" key="GCO_DuplicateChatHostileMood.stages.0.description"><s>Arguing with yourself is exhausting. There should only be one of us.</s><r>Спорить с самим собой утомительно. Нас должен быть только один.</r></e>
+  <e k="D" t="ThoughtDef" key="GCO_DuplicateChatHostileMood.stages.0.label"><s>argued with my duplicate</s><r>поспорил с моим дубликатом</r></e>
+  <e k="D" t="ThoughtDef" key="GCO_DuplicateChatWarmMemory.stages.0.label"><s>kinship with my duplicate</s><r>родство с моим дубликатом</r></e>
+  <e k="D" t="ThoughtDef" key="GCO_DuplicateChatWarmMood.stages.0.description"><s>Nobody else can understand me the way they do.</s><r>Никто другой не может понять меня так, как они.</r></e>
+  <e k="D" t="ThoughtDef" key="GCO_DuplicateChatWarmMood.stages.0.label"><s>understood by my duplicate</s><r>понял мой дубликат</r></e>
+  <e k="D" t="ThoughtDef" key="GCO_KilledMyDuplicate.stages.0.label"><s>killed my duplicate</s><r>убил мой дубликат</r></e>
+  <e k="D" t="ThoughtDef" key="GCO_KilledMyDuplicate_GreaterNegativeRelation.stages.0.label"><s>killed my duplicate</s><r>убил мой дубликат</r></e>
+  <e k="D" t="ThoughtDef" key="GCO_KilledMyDuplicate_NegativeRelation.stages.0.label"><s>killed my duplicate</s><r>убил мой дубликат</r></e>
+  <e k="D" t="ThoughtDef" key="GCO_KilledMyDuplicate_PositiveRelation.stages.0.label"><s>killed my duplicate</s><r>убил мой дубликат</r></e>
+  <e k="D" t="ThoughtDef" key="GCO_MyDuplicateDied.stages.0.description"><s>My duplicate died. My own flesh and blood...</s><r>Мой дубликат умер. Моя собственная плоть и кровь...</r></e>
+  <e k="D" t="ThoughtDef" key="GCO_MyDuplicateDied.stages.0.label"><s>my duplicate {0} died</s><r>мой дубликат {0} умер</r></e>
+  <e k="D" t="ThoughtDef" key="GCO_MyDuplicateDied_GreaterNegativeRelation.stages.0.description"><s>Serves them right. There can only be one.</s><r>Так им и надо. Может быть только один.</r></e>
+  <e k="D" t="ThoughtDef" key="GCO_MyDuplicateDied_GreaterNegativeRelation.stages.0.label"><s>my duplicate {0} died</s><r>мой дубликат {0} умер</r></e>
+  <e k="D" t="ThoughtDef" key="GCO_MyDuplicateLost_Female.stages.0.description"><s>My duplicate was lost. I hope she will get back to us someday.</s><r>Мой дубликат утерян. Я надеюсь, что когда-нибудь она вернется к нам.</r></e>
+  <e k="D" t="ThoughtDef" key="GCO_MyDuplicateLost_Female.stages.0.label"><s>my duplicate {0} lost</s><r>мой дубликат {0} потерян</r></e>
+  <e k="D" t="ThoughtDef" key="GCO_MyDuplicateLost_GreaterNegativeRelation.stages.0.description"><s>Serves them right. At least there's some justice in this world.</s><r>Так им и надо. Хоть какая-то справедливость в этом мире есть.</r></e>
+  <e k="D" t="ThoughtDef" key="GCO_MyDuplicateLost_GreaterNegativeRelation.stages.0.label"><s>my duplicate {0} lost</s><r>мой дубликат {0} потерян</r></e>
+  <e k="D" t="ThoughtDef" key="GCO_MyDuplicateLost_Male.stages.0.description"><s>My duplicate was lost. I hope he will get back to us someday.</s><r>Мой дубликат утерян. Я надеюсь, что когда-нибудь он вернется к нам.</r></e>
+  <e k="D" t="ThoughtDef" key="GCO_MyDuplicateLost_Male.stages.0.label"><s>my duplicate {0} lost</s><r>мой дубликат {0} потерян</r></e>
+  <e k="D" t="ThoughtDef" key="GCO_SoldMyDuplicate.stages.0.description"><s>My duplicate was sold to a trader. That could have been me!</s><r>Мой дубликат был продан торговцу. Это мог быть я!</r></e>
+  <e k="D" t="ThoughtDef" key="GCO_SoldMyDuplicate.stages.0.label"><s>duplicate sold</s><r>дубликат продан</r></e>
+  <e k="D" t="ThoughtDef" key="GCO_SoldMyDuplicate.stages.0.labelSocial"><s>sold my duplicate</s><r>продал свой дубликат</r></e>
+  <e k="K" key="GCO_AppearanceAnchor"><s>which duplicate to copy from</s><r>из какого дубликата копировать</r></e>
+  <e k="K" key="GCO_AppearanceAnchor_ClosestAge"><s>closest age to the original pawn</s><r>самый близкий возраст к исходной пешке</r></e>
+  <e k="K" key="GCO_AppearanceAnchor_EarliestCreated"><s>earliest created</s><r>самый ранний созданный</r></e>
+  <e k="K" key="GCO_AppearanceAnchor_Random"><s>random (seeded)</s><r>случайный (посевной)</r></e>
+  <e k="K" key="GCO_AppearanceAnchor_Tip"><s>which same-gender duplicate the look is copied from when more than one exists.
+
+Random is not recommended for consistency reasons.
+
+Default: earliest created</s><r>из какого дубликата того же пола копируется внешний вид, если существует более одного.
+
+Случайный выбор не рекомендуется из соображений единообразия.
+
+По умолчанию: создано раньше всех</r></e>
+  <e k="K" key="GCO_AppearanceCrawler"><s>duplicate copies the look of an existing same-gender duplicate (anchoring)</s><r>дубликат копирует внешний вид существующего дубликата того же пола (привязка)</r></e>
+  <e k="K" key="GCO_AppearanceCrawler_Tip"><s>when a genderbend happens, the duplicate looks through the original pawn's duplicate relations for one that already matches the new gender (the anchor) and copies its head.
+
+Falls back to the seeded pick when no matching duplicate is found.
+
+Requires the duplicate relations setting.
+
+Default: enabled</s><r>когда происходит гендерный изгиб, дубликат просматривает дублирующие отношения исходной пешки в поисках одного, который уже соответствует новому полу (якорю), и копирует его голову.
+
+ Возвращается к исходному выбору, когда не найден соответствующий дубликат.
+
+Требуется настройка дублирующих отношений.
+
+По умолчанию: включено</r></e>
+  <e k="K" key="GCO_AppearanceSeeding"><s>duplicate head and hair are seeded</s><r>дубликат головы и волос засеян</r></e>
+  <e k="K" key="GCO_AppearanceSeeding_Tip"><s>the genderbent duplicate's head and hair are picked based on a SEED similar to the duplicate relations, so duplicating the same pawn always gives the same look.
+
+Disable to restore fully random head and hair per duplication.
+
+Default: enabled</s><r>голова и волосы гендерно измененного дубликата выбираются на основе SEED, аналогичного связям дубликатов, поэтому дублирование одной и той же пешки всегда дает один и тот же вид.
+
+Отключить, чтобы восстановить полностью случайную голову и волосы для каждого дублирования.
+
+По умолчанию: включено</r></e>
+  <e k="K" key="GCO_DEV_OpenModSettings"><s>DEV: Open Mod Settings</s><r>РАЗРАБОТЧИК: открыть настройки мода</r></e>
+  <e k="K" key="GCO_DuplicateFamilyBloodRelations"><s>duplicates gain relations to the original's bloodrelations</s><r>дубликаты приобретают родство с кровными родственниками оригинала</r></e>
+  <e k="K" key="GCO_DuplicateFamilyBloodRelations_Tip"><s>sets a relationship to simulate genetic simularity between the duplicate and the original's family members
+
+Will not add or remove relationships to already existing pawns.
+
+Vanilla behavior would be similar to being disabled.
+
+Default: disabled</s><r>устанавливает связь для имитации генетического сходства между дубликатом и членами семьи оригинала
+
+Не будет добавлять или удалять связи с уже существующими пешками.
+
+Ванильное поведение будет аналогично отключению.
+
+По умолчанию: отключено</r></e>
+  <e k="K" key="GCO_DuplicateInteractions"><s>duplicates have special social interactions</s><r>дубликаты имеют особые социальные взаимодействия</r></e>
+  <e k="K" key="GCO_DuplicateInteractions_Tip"><s>duplicates chat with each other and gossip about each other to third parties.
+
+Third parties also comment about a pawn having a duplicate.
+
+Bonding and friction chats give small opinion and mood effects based on the duplicate relationship.
+
+Only applies to pawns that have a duplicate relationship.
+
+Default: enabled</s><r>дубликаты общаются друг с другом и сплетничают друг о друге третьим лицам.
+
+Третьи лица также комментируют пешку, имеющую дубликат.
+
+Чаты по связям и трениям дают небольшие мнения и эффекты настроения, основанные на дублирующих отношениях.
+
+Применяется только к пешкам, у которых есть дубликат отношения.
+
+По умолчанию: включено</r></e>
+  <e k="K" key="GCO_DuplicateRelation"><s>duplicates and the original gain relationships to each other</s><r>дубликаты и исходные отношения усиления друг к другу</r></e>
+  <e k="K" key="GCO_DuplicateRelation_Tip"><s>the relationship follows the seed settings, and ranges from positive to negative.
+
+Will not add or remove relationships to already existing pawns.
+
+Vanilla behavior would be similar to being disabled.
+
+Default: enabled</s><r>отношение соответствует исходным настройкам и варьируется от положительного до отрицательного.
+
+Не будет добавлять или удалять отношения к уже существующим пешкам.
+
+Ванильное поведение будет аналогично отключению.
+
+По умолчанию: включено</r></e>
+  <e k="K" key="GCO_DuplicateSocialTabRomancePatch"><s>patch incestuous to exclude duplicates</s><r>патч инцестуозный, чтобы исключить дубликаты</r></e>
+  <e k="K" key="GCO_DuplicateSocialTabRomancePatch_Tip"><s>duplicate relations will no longer count as incestuous in the social tab.
+
+Vanilla behavior would be similar to being disabled.
+
+Default: enabled</s><r>повторяющиеся отношения больше не будут считаться кровосмесительными на вкладке социальных сетей.
+
+Ванильное поведение будет аналогично отключению.
+
+По умолчанию: включено</r></e>
+  <e k="K" key="GCO_FacialAnimationAnchoring"><s>duplicate also copies the face (anchoring)</s><r>дубликат также копирует лицо (привязка)</r></e>
+  <e k="K" key="GCO_FacialAnimationAnchoring_Tip"><s>the whole face is copied from the anchor duplicate pawn rather than from the pawn being duplicated, so a lineage that changes gender more than once keeps one face per gender.
+
+Disable to always copy from the pawn being duplicated, rerolling only the face parts that cannot follow a gender change.
+
+Default: enabled</s><r>все лицо копируется из опорной дублирующей пешки, а не из дублируемой пешки, поэтому линия, которая меняет пол более одного раза, сохраняет одно лицо для каждого пола.
+
+Отключить, чтобы всегда копировать из дублируемой пешки, перерисовывая только те части лица, которые не могут следовать за изменением пола.
+
+По умолчанию: включено</r></e>
+  <e k="K" key="GCO_FacialAnimationCopy"><s>duplicates keep the original's facial animation face</s><r>дубликаты сохраняют оригинальную анимацию лица</r></e>
+  <e k="K" key="GCO_FacialAnimationCopy_Tip"><s>the duplicate tries copying the original pawn's [NL] Facial Animation face parts instead of rolling a brand new face.
+
+Applies to every duplicate, not only genderbent ones.
+
+On a genderbend every face part that is not locked to one gender still carries over, only the locked ones are rerolled (SEEDed).
+
+Default: enabled</s><r>дубликат пытается скопировать части лица [NL] лицевой анимации исходной пешки вместо того, чтобы создавать новое лицо. 
+
+Применяется к каждому дубликату, а не только к гендер-бенд.
+
+При гендерном изменении каждая часть лица, которая не привязана к одному полу, по-прежнему сохраняется, переназначаются только заблокированные (SEEDed).
+
+По умолчанию: включено</r></e>
+  <e k="K" key="GCO_GenderSpecificChances"><s>duplicates being genderbent takes the original pawn's gender into account</s><r>гендерная ориентация дубликатов учитывает пол исходной пешки</r></e>
+  <e k="K" key="GCO_GenderSpecificChances_Tip"><s>duplicates being genderbent takes the original pawn's gender into account
+
+The chance is to genderbend based on the original pawn gender.
+
+Setting male to 100% means that when a male interacts with the obelisk a female will be the duplicate.</s><r>гендерная ориентация дубликатов учитывает пол исходной пешки
+
+Вероятность состоит в том, чтобы изменить пол на основе исходного пола пешки.
+
+Установка мужского пола на 100% означает, что когда мужчина взаимодействует с обелиском, дубликатом будет женщина.</r></e>
+  <e k="K" key="GCO_GenderbendObeliskOnly"><s>only genderbend from obelisk</s><r>только гендербенд от обелиска</r></e>
+  <e k="K" key="GCO_GenderbendObeliskOnly_Tip"><s>duplicates being genderbent only occurs when the obelisk is used.
+
+If disabled unnatural corpse of other sources using the duplication function will also be affected.
+
+Default: enabled</s><r>гендерное изменение дубликатов происходит только при использовании обелиска.
+
+Если отключено, неестественный труп из других источников, использующий функцию дублирования, также будет затронут.
+
+По умолчанию: включено</r></e>
+  <e k="K" key="GCO_HairAnchoring"><s>duplicate also copies the hair (anchoring)</s><r>дубликат также копирует волосы (привязка)</r></e>
+  <e k="K" key="GCO_HairAnchoring_Tip"><s>the copied look includes the anchor duplicate pawn's current hair.
+
+Note it copies their current hair.
+
+Disable to keep the head anchored but let hair use the seeded pick.
+
+Default: enabled</s><r>скопированный вид включает в себя текущие волосы опорного дубликата пешки.
+
+Обратите внимание, что он копирует их текущие волосы.
+
+Отключите, чтобы голова оставалась закрепленной, но волосы могли использовать засеянную кирку.
+
+По умолчанию: включено</r></e>
+  <e k="K" key="GCO_HeadRemap"><s>duplicate keeps the equivalent head shape</s><r>дубликат сохраняет эквивалентную форму головы</r></e>
+  <e k="K" key="GCO_HeadRemap_Tip"><s>maps the genderbent duplicate pawn's head 1:1 by trying to swap the Male/Female Defs of the original pawn's head type.
+
+WARNING: May or may not work correctly for your heads.
+
+Default: enabled</s><r>отображает голову дубликата пешки с гендерным изгибом в соотношении 1:1, пытаясь поменять местами мужские и женские характеристики исходного типа головы пешки.
+
+ВНИМАНИЕ: может работать или не работать правильно для ваших голов.
+
+По умолчанию: включено</r></e>
+  <e k="K" key="GCO_NameInSeed"><s>seed includes the pawn's name</s><r>семя включает имя пешки</r></e>
+  <e k="K" key="GCO_NameInSeed_Tip"><s>the seeded head, hair and relationship also take the original pawn's first and last name into account, so pawns sharing a backstory no longer share the same outcome.
+
+Changing the first or last name of a pawn will result in a different SEED. god mode and Character Editor are method which can be used to alter the first and last name.
+
+Disable to seed from backstories only.
+
+Default: enabled</s><r>посеянная голова, волосы и отношения также учитывают имя и фамилию исходной пешки, поэтому пешки, имеющие общую предысторию, больше не имеют одинаковый результат.
+
+Изменение имени или фамилии пешки приведет к другому SEED. Режим бога и редактор персонажей — это метод, который можно использовать для изменения имени и фамилии.
+
+Отключить отправку только из предыстории.
+
+По умолчанию: включено</r></e>
+  <e k="K" key="GCO_RandomDuplicateRelationship"><s>duplicate relationship is random</s><r>повторяющиеся отношения случайны</r></e>
+  <e k="K" key="GCO_RandomDuplicateRelationship_Tip"><s>the duplicate relationship is picked at random on each duplication.
+
+Default: disabled</s><r>взаимосвязь дубликатов выбирается случайным образом при каждом дублировании.
+
+По умолчанию: отключено</r></e>
+  <e k="K" key="GCO_ResetToDefaults"><s>reset to defaults</s><r>сброс к настройкам по умолчанию</r></e>
+  <e k="K" key="GCO_ResetToDefaults_Confirm"><s>Reset all Genderbending Corrupted Obelisk settings to their defaults?</s><r>Сбросить все настройки Поврежденного обелиска гендерной трансформации до значений по умолчанию?</r></e>
+  <e k="K" key="GCO_ResetToDefaults_Tip"><s>sets every setting back to its default value.
+
+Already duplicated pawns are not affected.
+
+Cannot be undone, make a backup of the config file if you feel you'll miss it.</s><r>возвращает все настройки к значениям по умолчанию.
+
+Уже дублированные пешки не затрагиваются.
+
+Невозможно отменить, сделайте резервную копию файла конфигурации, если вы чувствуете, что пропустите его.</r></e>
+  <e k="K" key="GCO_TriggerChanceSlider"><s>duplicate pawn genderbend chance: {0}</s><r>шанс изменения пола дублирующей пешки: {0}</r></e>
+  <e k="K" key="GCO_TriggerChanceSlider_Female"><s>duplicate female pawn genderbend chance: {0}</s><r>шанс гендерного изгиба дублирующей женской пешки: {0}</r></e>
+  <e k="K" key="GCO_TriggerChanceSlider_Male"><s>duplicate male pawn genderbend chance: {0}</s><r>шанс гендерного изгиба дублирующей мужской пешки: {0}</r></e>
+  <e k="K" key="Genderbending_CorruptedObelisk"><s>Genderbending Corrupted Obelisk</s><r>Изменяющий пол испорченный обелиск</r></e>
+</AutoTranslateCache>
