@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="arakos.callatrader.acat" name="Call A Trader" language="Russian" version="1">
+  <e k="D" t="IncidentDef" key="acat_OrbitalTraderVisitingOffer.label"><s>Offer from Orbital Traders Hub</s><r>Предложение от Центра Орбитальных Трейдеров</r></e>
+  <e k="D" t="JobDef" key="acat_CallTraderJob.reportString"><s>Calling for trade ship ...</s><r>Вызов торгового корабля...</r></e>
+  <e k="K" key="acat.canselectkind"><s>Freely selectable trader type</s><r>Свободно выбираемый тип трейдера</r></e>
+  <e k="K" key="acat.canselectkind.description"><s>Determines if you can choose between all or only one random type of trader to show up</s><r>Определяет, можете ли вы выбрать между всеми или только одним случайным типом трейдеров.</r></e>
+  <e k="K" key="acat.considercolonywealth"><s>Consider Colonys Wealth</s><r>Учитывайте богатство колонии</r></e>
+  <e k="K" key="acat.considercolonywealth.description"><s>Whether the Traderships cost will be selected from a static, absolute range or dynamically calculated using the colonywealth</s><r>Будет ли стоимость торговых отношений выбираться из статического, абсолютного диапазона или динамически рассчитываться с использованием ColonyWealth?</r></e>
+  <e k="K" key="acat.console.label"><s>Call the Orbital Traders Hub</s><r>Позвоните в Центр орбитальных трейдеров</r></e>
+  <e k="K" key="acat.console.label.disabled"><s>Orbital Traders Hub unreachable for {0}</s><r>Центр орбитальных торговцев недоступен в течение {0}</r></e>
+  <e k="K" key="acat.cooldownrange"><s>Cooldown range (days)</s><r>Диапазон восстановления (дни)</r></e>
+  <e k="K" key="acat.cooldownrange.description"><s>Range of cooldown time between the Orbital Traders Hub can be called once again</s><r>Диапазон времени восстановления между Центром орбитальных торговцев можно назвать еще раз.</r></e>
+  <e k="K" key="acat.costsrange"><s>Absolute cost-range (Silver)</s><r>Абсолютный диапазон затрат (серебро)</r></e>
+  <e k="K" key="acat.costsrange.description"><s>Absolute range of silver the Orbital Traders Hub will request from you to send a ship (Costs have NO IMPACT on the ship's stock!)</s><r>Абсолютный диапазон серебра, который Центр Орбитальных Торговцев запросит у вас для отправки корабля (затраты НЕ ВЛИЯЮТ на запас корабля!)</r></e>
+  <e k="K" key="acat.costsrange.relative"><s>Relative cost-range (% Colonywealth)</s><r>Относительный диапазон затрат (% богатства колонии)</r></e>
+  <e k="K" key="acat.costsrange.relative.description"><s>The Orbital Traders Hub ship-costs will scale with your colony's wealth &quot;Colonywealth * value-in-range in %&quot; (Costs have NO IMPACT on the ship's stock!)</s><r>Стоимость кораблей в Центре орбитальных торговцев будет зависеть от богатства вашей колонии «Богатство колонии * значение в диапазоне в %» (Затраты НИКАКОГО ВЛИЯНИЯ на запас корабля!)</r></e>
+  <e k="K" key="acat.delayrange"><s>Delay range (days)</s><r>Диапазон задержки (дни)</r></e>
+  <e k="K" key="acat.delayrange.description"><s>Range of delay a trader ship will have until it finally shows up</s><r>Диапазон задержки, который будет иметь торговый корабль, пока он наконец не появится</r></e>
+  <e k="K" key="acat.incident.refusal.base"><s>The Orbital Traders Hub has to decline your trading request.</s><r>Центр орбитальных трейдеров вынужден отклонить ваш торговый запрос.</r></e>
+  <e k="K" key="acat.incident.refusal.label"><s>Refusal notice from Orbital Traders Hub</s><r>Уведомление об отказе от Orbital Traders Hub</r></e>
+  <e k="K" key="acat.incident.refusal.noorbitaltradersavailable"><s>This is because they currently have no traders available near your colony.</s><r>Это потому, что в настоящее время у них нет торговцев рядом с вашей колонией.</r></e>
+  <e k="K" key="acat.incident.refusal.toomanytraders"><s>This is because there are too many ({0}) tradeships at your location already.</s><r>Это потому, что в вашем регионе уже слишком много ({0}) торговых судов.</r></e>
+  <e k="K" key="acat.job.infomessage.success"><s>A trading request was sent to the Orbital Traders Hub. They will not answer any additional requests from you for {0}.</s><r>Торговый запрос был отправлен в Центр орбитальных торговцев. Они не ответят ни на какие дополнительные запросы от вас на {0}.</r></e>
+  <e k="K" key="acat.modname"><s>Call A Trader</s><r>Позвоните трейдеру</r></e>
+  <e k="K" key="acat.randomeventallowed"><s>Enable the radom event</s><r>Включить событие Radom</r></e>
+  <e k="K" key="acat.randomeventallowed.description"><s>Enable the 'Offer from Orbital Traders Hub' as a random event that might occur without triggering it via commons console</s><r>Включите «Предложение от Центра орбитальных торговцев» как случайное событие, которое может произойти, не вызывая его через консоль общего доступа.</r></e>
+  <e k="K" key="acat.timeoutactive"><s>Enable offer timeout</s><r>Включить тайм-аут предложения</r></e>
+  <e k="K" key="acat.timeoutactive.description"><s>If enabled offers from the Orbital Traders Hub will expire after a given timeout period</s><r>Если включено, срок действия предложений из Orbital Traders Hub истечет по истечении заданного периода ожидания.</r></e>
+  <e k="K" key="acat.timeoutrange"><s>Timeout range (hours)</s><r>Диапазон времени ожидания (часы)</r></e>
+  <e k="K" key="acat.timeoutrange.description"><s>Offers from the Orbital Traders Hub will expire after this range if you don't react to them</s><r>Срок действия предложений из Центра орбитальных торговцев истечет после этого диапазона, если вы не отреагируете на них.</r></e>
+  <e k="K" key="acat.traderletter.accept"><s>Request {0}</s><r>Запрос {0}</r></e>
+  <e k="K" key="acat.traderletter.disabled"><s>{0}/{1} silver</s><r>{0}/{1} серебро</r></e>
+  <e k="K" key="acat.traderletter.error.ok"><s>Wait there are no traders to select ...</s><r>Подождите, нет трейдеров, которых можно было бы выбрать...</r></e>
+  <e k="K" key="acat.traderletter.label"><s>Offer from Orbital Traders Hub</s><r>Предложение от Центра Орбитальных Трейдеров</r></e>
+  <e k="K" key="acat.traderletter.nofunds"><s>Note: For the payment process to work make sure there is enough silver in range of an active orbital trade beacon.</s><r>Примечание. Чтобы процесс оплаты работал, убедитесь, что в радиусе действия активного орбитального торгового маяка достаточно серебра.</r></e>
+  <e k="K" key="acat.traderletter.payed"><s>The fee of {0} Silver was yeeted to the Orbital Traders Hub</s><r>Комиссия в размере {0} серебра была отправлена ​​в Центр орбитальных торговцев.</r></e>
+  <e k="K" key="acat.traderletter.refuse"><s>Decline the offer</s><r>Отклонить предложение</r></e>
+  <e k="K" key="acat.traderletter.text"><s>The Orbital Traders Hub offers to send an orbital trader ship to your location in {0}.
+
+They request an upfront fee of {1} silver to cover their costs for adjusting the ship's route.
+
+The silver will be teleported to the hub immediately - if you accept.</s><r>Центр орбитальных торговцев предлагает отправить орбитальный торговый корабль к вашему местоположению в {0}.
+
+Они требуют авансовый платеж в размере {1} серебра для покрытия своих расходов на корректировку маршрута корабля.
+
+Серебро будет немедленно телепортировано в центр — если вы согласитесь.</r></e>
+  <e k="K" key="acat.traderletter.timeout"><s>They give you {0} to decide.</s><r>Они дают вам {0} на выбор.</r></e>
+</AutoTranslateCache>
