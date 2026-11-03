@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="mlie.usethisinstead" name="Use This Instead" language="Russian" version="1">
+  <e k="D" t="UpdateFeatureDef" key="UseThisInstead_1_6_148.content"><s>This mod had its rules defined as separate xml-files for each replacement.
+As the amount of rules now is above 2000 and requires daily updates, this has started to cause issues. Partly due to the relative slowness of reading thousands of files to generate the rule-set, but also having to republish the mod each day.
+As steam can take a while to update mods, some users may get old definitions and would have to resubscribe to the mod to force steam to download the latest version.
+That is why I now instead store all rules in one json-file that gets downloaded by the mod if there is a new version published. The file will be distributed via Cloudflare with a backup using Github.
+Hopefully this will make it easier to keep the rules updated for all users!</s><r>В этом моде правила определены в виде отдельных xml-файлов для каждой замены.
+Поскольку количество правил сейчас превышает 2000 и требуют ежедневных обновлений, это начало вызывать проблемы. Частично из-за относительной медленности чтения тысяч файлов для создания набора правил, а также необходимости переиздавать мод каждый день.
+Поскольку Steam может занять некоторое время для обновления модов, некоторые пользователи могут получить старые определения, и им придется повторно подписаться на мод, чтобы заставить Steam загрузить последнюю версию.
+Вот почему теперь я вместо этого храню все правила в одном json-файле, который загружается модом, если публикуется новая версия. Файл будет распространяться через Cloudflare с резервной копией на Github.
+Надеюсь, это облегчит обновление правил для всех пользователей!</r></e>
+  <e k="K" key="UTI.FailedToFetchTooltip"><s>Failed to fetch info about latest version, could not connect to GitHub</s><r>Не удалось получить информацию о последней версии, не удалось подключиться к GitHub.</r></e>
+  <e k="K" key="UTI.activatingMods"><s>Adding new mods to the active mod-list</s><r>Добавление новых модов в активный список модов</r></e>
+  <e k="K" key="UTI.activeModsChanged"><s>Active mods changed, opening mod-config to enable and sort before restart</s><r>Активные моды изменены, открытие мод-конфигурации для включения и сортировки перед перезапуском</r></e>
+  <e k="K" key="UTI.allMods"><s>Check all mods</s><r>Проверьте все моды</r></e>
+  <e k="K" key="UTI.allModstt"><s>Will check all installed mods for replacements instead of only the currently loaded</s><r>Проверит все установленные моды на наличие замен, а не только загруженные в данный момент.</r></e>
+  <e k="K" key="UTI.alreadyReplacing"><s>A mod is being replaced, please wait until completed</s><r>Мод заменяется, пожалуйста, дождитесь завершения</r></e>
+  <e k="K" key="UTI.alwaysShow"><s>Always show replacement button</s><r>Всегда показывать кнопку замены</r></e>
+  <e k="K" key="UTI.alwaysShowtt"><s>Will show the button to open the replacement-window even if there are no replacements found</s><r>Покажет кнопку открытия окна замены, даже если замен не найдено</r></e>
+  <e k="K" key="UTI.author"><s>By: </s><r>К: </r></e>
+  <e k="K" key="UTI.cantUnsubscribe"><s>{0} is a local mod, skipping unsubscribing</s><r>{0} — локальный мод, без отписки</r></e>
+  <e k="K" key="UTI.checkingAll"><s>Checking all mods</s><r>Проверяю все моды</r></e>
+  <e k="K" key="UTI.checkingEnabled"><s>Checking enabled mods</s><r>Проверка включенных модов</r></e>
+  <e k="K" key="UTI.checkingRequirements"><s>Checking if prerequirements are installed</s><r>Проверка наличия предварительных требований</r></e>
+  <e k="K" key="UTI.failedToSubscribe"><s>Failed to subscribe to {0} ({1})</s><r>Не удалось подписаться на {0} ({1})</r></e>
+  <e k="K" key="UTI.failedToUnsubscribe"><s>Failed to unsubscribe from {0} ({1})</s><r>Не удалось отказаться от подписки на {0} ({1})</r></e>
+  <e k="K" key="UTI.foundReplacements"><s>Found replacements: {0}</s><r>Найдены замены: {0}</r></e>
+  <e k="K" key="UTI.incompatibility"><s>{0} is incompatible with an active mod: {0}</s><r>{0} несовместим с активным модом: {0}</r></e>
+  <e k="K" key="UTI.localMod"><s>Mod is loaded from the local mod-folder</s><r>Мод загружается из локальной папки мода.</r></e>
+  <e k="K" key="UTI.modReplaced"><s>Replaced &quot;{0}&quot; with &quot;{1}&quot;</s><r>Заменено «{0}» на «{1}».</r></e>
+  <e k="K" key="UTI.modVersion"><s>Installed mod-version: {0}</s><r>Установленная версия мода: {0}</r></e>
+  <e k="K" key="UTI.modlistChanged"><s>Modlist updated, will require a restart when closing this window</s><r>Список модов обновлен, при закрытии этого окна потребуется перезагрузка.</r></e>
+  <e k="K" key="UTI.notUpdated"><s>NOTE: Replacement does not support this version of RimWorld ({0})</s><r>ПРИМЕЧАНИЕ. Замена не поддерживает данную версию RimWorld ({0}).</r></e>
+  <e k="K" key="UTI.notUsingLatestVersion"><s>outdated</s><r>устаревший</r></e>
+  <e k="K" key="UTI.notUsingLatestVersionTooltip"><s>You are not using the latest version of the mod, suggestions may be out of date!</s><r>Вы используете не последнюю версию мода, предложения могут устареть!</r></e>
+  <e k="K" key="UTI.onlyRelevant"><s>Only show compatible replacements</s><r>Показывать только совместимые замены</r></e>
+  <e k="K" key="UTI.onlyRelevantInfo"><s>Only show compatible replacements</s><r>Показывать только совместимые замены</r></e>
+  <e k="K" key="UTI.onlyRelevanttt"><s>Will not show replacements that do not support the installed version of the game</s><r>Не будет показывать замены, не поддерживающие установленную версию игры.</r></e>
+  <e k="K" key="UTI.preferOverlay"><s>Prefer Steam overlay for links</s><r>Предпочитайте оверлей Steam для ссылок</r></e>
+  <e k="K" key="UTI.preferOverlaytt"><s>When opening a mod-page, will prefer to launch it in the Steam overlay instead of the default browser</s><r>При открытии страницы мода предпочтет запускать ее в оверлее Steam, а не в браузере по умолчанию.</r></e>
+  <e k="K" key="UTI.reallyAbort"><s>Mods are being replaced, are you sure you what to abort the process?</s><r>Моды заменяются, вы уверены, что прервать процесс?</r></e>
+  <e k="K" key="UTI.replace"><s>Replace mod</s><r>Заменить мод</r></e>
+  <e k="K" key="UTI.replaceMod"><s>Original
+{0}
+Author: {2}
+Versions: {4}
+
+Replacement
+{1}
+Author: {3}
+Versions: {5}</s><r>Оригинал
+{0}
+Автор: {2}
+Версии: {4}
+
+Замена
+{1}
+Автор: {3}
+Версии: {5}</r></e>
+  <e k="K" key="UTI.replaceModActive"><s>Original
+{0}
+Author: {2}
+Versions: {4}
+
+Replacement
+{1}
+Author: {3}
+Versions: {5}
+
+NOTE: Since the mod is currently active, a restart will be triggered when you close the replacement-list to apply the new mod.</s><r>Оригинал
+{0}
+Автор: {2}
+Версии: {4}
+
+Замена
+{1}
+Автор: {3}
+Версии: {5}
+
+ПРИМЕЧАНИЕ. Поскольку мод в настоящее время активен, перезапуск будет запущен, когда вы закроете список замены, чтобы применить новый мод.</r></e>
+  <e k="K" key="UTI.replaceMultipleMods"><s>Replace {0} mods?</s><r>Заменить моды {0}?</r></e>
+  <e k="K" key="UTI.replaceMultipleModsActive"><s>Replace {0} mods?
+
+NOTE: Since one or more mods are currently active, a restart will be triggered when you close the mod-window after sorting the new mods.</s><r>Заменить {0} моды?
+
+ПРИМЕЧАНИЕ. Поскольку один или несколько модов в настоящее время активны, перезапуск будет запущен, когда вы закроете окно модов после сортировки новых модов.</r></e>
+  <e k="K" key="UTI.replacementStatus"><s>Replacement progress</s><r>Ход замены</r></e>
+  <e k="K" key="UTI.replacements"><s>{0} replacements</s><r>{0} замены</r></e>
+  <e k="K" key="UTI.replacing"><s>Replacing {0} (Mod {1} of {2})</s><r>Замена {0} (Мод {1} из {2})</r></e>
+  <e k="K" key="UTI.restartNeeded"><s>Will restart on close</s><r>Перезапустится при закрытии</r></e>
+  <e k="K" key="UTI.selectAll"><s>Select all</s><r>Выбрать все</r></e>
+  <e k="K" key="UTI.selectNone"><s>Select none</s><r>Выбрать нет</r></e>
+  <e k="K" key="UTI.showingAll"><s>Showing all replacements</s><r>Показаны все замены</r></e>
+  <e k="K" key="UTI.showingRelevant"><s>Showing relevant replacements</s><r>Показаны соответствующие замены</r></e>
+  <e k="K" key="UTI.steamMod"><s>Mod is loaded from the Steam mod-folder</s><r>Мод загружается из папки модов Steam.</r></e>
+  <e k="K" key="UTI.stillWaiting"><s>Waiting for mod to download, will time out after one minute</s><r>Ожидание загрузки мода истечет через одну минуту.</r></e>
+  <e k="K" key="UTI.subscribed"><s>Subscribed to {0}</s><r>Подписался на {0}</r></e>
+  <e k="K" key="UTI.subscribing"><s>Subscribing to {0} with Steam-id {1}</s><r>Подписка на {0} с помощью Steam-id {1}</r></e>
+  <e k="K" key="UTI.unsubscribed"><s>Unsubscribed to {0}</s><r>Отписался на {0}</r></e>
+  <e k="K" key="UTI.unsubscribing"><s>Unsubscribing to {0} ({1})</s><r>Отказ от подписки на {0} ({1})</r></e>
+  <e k="K" key="UTI.updateSelected"><s>Update {0} selected mods</s><r>Обновить {0} выбранные моды</r></e>
+  <e k="K" key="UTI.usingLatestVersion"><s>up-to-date</s><r>до настоящего времени</r></e>
+  <e k="K" key="UTI.usingLatestVersionTooltip"><s>You are using the latest version of the mod, nice!</s><r>Вы используете последнюю версию мода, здорово!</r></e>
+  <e k="K" key="UTI.veboseLogging"><s>Verbose logging</s><r>Подробное ведение журнала</r></e>
+  <e k="K" key="UTI.veboseLoggingtt"><s>For debugging mostly</s><r>В основном для отладки</r></e>
+  <e k="K" key="UTI.waitingSub"><s>Waiting for steam to process subscription</s><r>Ждем, пока Steam обработает подписку</r></e>
+  <e k="K" key="UTI.waitingUnsub"><s>Waiting for steam to process unsubscription</s><r>Ждем, пока Steam обработает отписку</r></e>
+</AutoTranslateCache>
