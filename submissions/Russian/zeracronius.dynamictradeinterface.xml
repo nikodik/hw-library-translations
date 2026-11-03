@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="zeracronius.dynamictradeinterface" name="Dynamic Trade Interface" language="Russian" version="1">
+  <e k="D" t="TradeColumnDef" key="colCategoryDef.description"><s>Shows the main category of the thing.</s><r>Показывает основную категорию вещи.</r></e>
+  <e k="D" t="TradeColumnDef" key="colCategoryDef.label"><s>category</s><r>категория</r></e>
+  <e k="D" t="TradeColumnDef" key="colDurabilityDef.description"><s>Shows the remaining hitpoints (if any) as a percentage.</s><r>Показывает оставшиеся очки жизни (если есть) в процентах.</r></e>
+  <e k="D" t="TradeColumnDef" key="colDurabilityDef.label"><s>d</s><r>д</r></e>
+  <e k="D" t="TradeColumnDef" key="colPricePerWeightDef.description"><s>Shows the price divided by mass.</s><r>Показывает цену, разделенную на массу.</r></e>
+  <e k="D" t="TradeColumnDef" key="colPricePerWeightDef.label"><s>/kg</s><r>/кг</r></e>
+  <e k="D" t="TradeColumnDef" key="colPricePerWeightDef.tooltip"><s>price / kg</s><r>цена/кг</r></e>
+  <e k="D" t="TradeColumnDef" key="colQualityDef.description"><s>Shows the quality of the thing.</s><r>Показывает качество вещи.</r></e>
+  <e k="D" t="TradeColumnDef" key="colQualityDef.label"><s>quality</s><r>качество</r></e>
+  <e k="D" t="TradeColumnDef" key="colTradeButtonsDef.description"><s>Buttons used to increment or decrement the amount bought or sold.
+Clicking the double arrow buttons will increase to most affordable by either party on first click and then to max quantity if clicked again. Hold shift to skip.</s><r>Кнопки, используемые для увеличения или уменьшения суммы купленной или проданной суммы.
+Нажатие на кнопки с двойными стрелками увеличит количество до наиболее доступного для любой из сторон при первом нажатии, а затем до максимального количества при повторном нажатии. Удерживайте Shift, чтобы пропустить.</r></e>
+  <e k="D" t="TradeColumnDef" key="colTradeButtonsDef.label"><s>buttons</s><r>кнопки</r></e>
+  <e k="D" t="TradeColumnDef" key="colTradeCaptionDef.description"><s>Shows the name.</s><r>Показывает имя.</r></e>
+  <e k="D" t="TradeColumnDef" key="colTradeCaptionDef.label"><s>caption</s><r>подпись</r></e>
+  <e k="D" t="TradeColumnDef" key="colTradeCounterDef.description"><s>Numeric box where the current quantity bought or sold is shown and can be entered manually.</s><r>Числовое поле, в котором отображается текущее количество купленных или проданных товаров, которое можно ввести вручную.</r></e>
+  <e k="D" t="TradeColumnDef" key="colTradeCounterDef.label"><s>trading</s><r>торговля</r></e>
+  <e k="D" t="TradeColumnDef" key="colTradeCounterLabelDef.description"><s>A faster read-only version of the counter box where the current quantity bought or sold is shown.</s><r>Ускоренная версия счетчика, доступная только для чтения, где отображается текущее количество купленных или проданных товаров.</r></e>
+  <e k="D" t="TradeColumnDef" key="colTradeCounterLabelDef.label"><s>trading</s><r>торговля</r></e>
+  <e k="D" t="TradeColumnDef" key="colTradeExtraIconsDef.description"><s>Additional icons shown in different situations.</s><r>Дополнительные значки, отображаемые в разных ситуациях.</r></e>
+  <e k="D" t="TradeColumnDef" key="colTradeExtraIconsDef.label"><s>extra icons</s><r>дополнительные значки</r></e>
+  <e k="D" t="TradeColumnDef" key="colTradeIconDef.description"><s>A small image of what you are trading.</s><r>Небольшое изображение того, чем вы торгуете.</r></e>
+  <e k="D" t="TradeColumnDef" key="colTradeIconDef.label"><s>icon</s><r>икона</r></e>
+  <e k="D" t="TradeColumnDef" key="colTradeInfoDef.description"><s>Button to open the info window.</s><r>Кнопка открытия информационного окна.</r></e>
+  <e k="D" t="TradeColumnDef" key="colTradeInfoDef.tooltip"><s>info button</s><r>информационная кнопка</r></e>
+  <e k="D" t="TradeColumnDef" key="colTradePriceDef.description"><s>Shows the price.</s><r>Показывает цену.</r></e>
+  <e k="D" t="TradeColumnDef" key="colTradePriceDef.label"><s>price</s><r>цена</r></e>
+  <e k="D" t="TradeColumnDef" key="colTradeQuantityDef.description"><s>Quantity available for buying or selling.</s><r>Количество, доступное для покупки или продажи.</r></e>
+  <e k="D" t="TradeColumnDef" key="colTradeQuantityDef.label"><s>available</s><r>доступный</r></e>
+  <e k="K" key="ConfigurationWindowAlternatingRowColors"><s>Row colors.</s><r>Цвета строк.</r></e>
+  <e k="K" key="ConfigurationWindowAlternatingRowColorsTooltip"><s>Enable to have a slightly alternating background color per row.</s><r>Включите этот параметр, чтобы иметь слегка меняющийся цвет фона для каждой строки.</r></e>
+  <e k="K" key="ConfigurationWindowAutoRefocus"><s>Auto refocus</s><r>Автоматическая перефокусировка</r></e>
+  <e k="K" key="ConfigurationWindowAutoRefocusTooltip"><s>Attempts to retain focus on input field when unfocused by changing interface.</s><r>Пытается сохранить фокус на поле ввода, когда он не находится в фокусе, путем изменения интерфейса.</r></e>
+  <e k="K" key="ConfigurationWindowAvailableColumns"><s>Available columns</s><r>Доступные столбцы</r></e>
+  <e k="K" key="ConfigurationWindowColumnAvgMs"><s>Avg ms</s><r>Среднее мс</r></e>
+  <e k="K" key="ConfigurationWindowColumnCaption"><s>Caption</s><r>Подпись</r></e>
+  <e k="K" key="ConfigurationWindowColumnDef"><s>Def</s><r>Защита</r></e>
+  <e k="K" key="ConfigurationWindowColumnMaxMs"><s>Max ms</s><r>Макс. мс</r></e>
+  <e k="K" key="ConfigurationWindowDynamicButtons"><s>Dynamic buttons</s><r>Динамические кнопки</r></e>
+  <e k="K" key="ConfigurationWindowDynamicButtonsTooltip"><s>When enabled, invalid buttons are hidden.</s><r>Если эта функция включена, недействительные кнопки скрыты.</r></e>
+  <e k="K" key="ConfigurationWindowEnableBulkDurability"><s>Stacked durability</s><r>Суммарная долговечность</r></e>
+  <e k="K" key="ConfigurationWindowEnableBulkDurabilityTooltip"><s>Show averaged durability for stacked items in durability column.</s><r>Отображение средней прочности сложенных друг на друга предметов в столбце прочности.</r></e>
+  <e k="K" key="ConfigurationWindowEnableGhostButtons"><s>Ghost buttons</s><r>Призрачные кнопки</r></e>
+  <e k="K" key="ConfigurationWindowEnableGhostButtonsTooltip"><s>Improve performance by only showing trade buttons near the cursor.</s><r>Улучшите производительность, показывая кнопки торговли только рядом с курсором.</r></e>
+  <e k="K" key="ConfigurationWindowEnableProfiling"><s>Enable profiling</s><r>Включить профилирование</r></e>
+  <e k="K" key="ConfigurationWindowFontMedium"><s>Medium</s><r>Середина</r></e>
+  <e k="K" key="ConfigurationWindowFontSmall"><s>Small</s><r>Маленький</r></e>
+  <e k="K" key="ConfigurationWindowFontTiny"><s>Tiny</s><r>Крошечный</r></e>
+  <e k="K" key="ConfigurationWindowHideUnwilling"><s>Exclude unwilling items</s><r>Исключить ненужные элементы</r></e>
+  <e k="K" key="ConfigurationWindowHideUnwillingTooltip"><s>Exclude all items trader is unwilling to buy.</s><r>Исключите все товары, которые трейдер не желает покупать.</r></e>
+  <e k="K" key="ConfigurationWindowOpenAsDefault"><s>Default trade window</s><r>Торговое окно по умолчанию</r></e>
+  <e k="K" key="ConfigurationWindowOpenAsDefaultTooltip"><s>Use as default trade window. The non-default window can be opened by holding down Ctrl as the window opens.</s><r>Использовать как окно торговли по умолчанию. Окно, отличное от стандартного, можно открыть, удерживая нажатой клавишу Ctrl при открытии окна.</r></e>
+  <e k="K" key="ConfigurationWindowPauseAfterTrade"><s>Pause after trade</s><r>Пауза после торговли</r></e>
+  <e k="K" key="ConfigurationWindowPauseAfterTradeTooltip"><s>Keeps the game paused after trade window is closed.</s><r>Держит игру на паузе после закрытия окна торговли.</r></e>
+  <e k="K" key="ConfigurationWindowRememberSortings"><s>Remember sorting</s><r>Помните о сортировке</r></e>
+  <e k="K" key="ConfigurationWindowRememberSortingsTooltip"><s>Save column sortings in mod configurations.</s><r>Сохраняйте сортировку столбцов в конфигурациях мода.</r></e>
+  <e k="K" key="ConfigurationWindowResetWidths"><s>Reset widths</s><r>Сбросить ширину</r></e>
+  <e k="K" key="ConfigurationWindowRowFont"><s>Row size</s><r>Размер строки</r></e>
+  <e k="K" key="ConfigurationWindowRowFontTooltip"><s>Changes the font size of the trade window rows.</s><r>Изменяет размер шрифта строк торгового окна.</r></e>
+  <e k="K" key="ConfigurationWindowSelectedColumns"><s>Selected columns</s><r>Выбранные столбцы</r></e>
+  <e k="K" key="ConfigurationWindowShowAvailableOnMap"><s>Show available on map.</s><r>Показать доступные на карте.</r></e>
+  <e k="K" key="ConfigurationWindowShowAvailableOnMapTooltip"><s>Show total available on map if different from what is available for trade in Available column.</s><r>Покажите общее количество доступных товаров на карте, если оно отличается от того, что доступно для торговли в столбце «Доступно».</r></e>
+  <e k="K" key="ConfigurationWindowTitle"><s>Trade window Configuration</s><r>Конфигурация торгового окна</r></e>
+  <e k="K" key="DynamicTableControlSearchPlaceholder"><s>Search...</s><r>Поиск...</r></e>
+  <e k="K" key="DynamicTradeWindowBuyAffordable"><s>Buy affordable.</s><r>Покупайте доступно.</r></e>
+  <e k="K" key="DynamicTradeWindowBuyAll"><s>Buy all.</s><r>Купить все.</r></e>
+  <e k="K" key="DynamicTradeWindowBuyMore"><s>Buy {0} more.</s><r>Купите на {0} больше.</r></e>
+  <e k="K" key="DynamicTradeWindowColumnContextClearSorting"><s>Clear sorting</s><r>Очистить сортировку</r></e>
+  <e k="K" key="DynamicTradeWindowColumnContextHideColumn"><s>Hide column</s><r>Скрыть столбец</r></e>
+  <e k="K" key="DynamicTradeWindowColumnContextShowHiddenColumns"><s>Show hidden columns:</s><r>Показать скрытые столбцы:</r></e>
+  <e k="K" key="DynamicTradeWindowColumnContextSortByAscending"><s>Sort by Ascending</s><r>Сортировать по возрастанию</r></e>
+  <e k="K" key="DynamicTradeWindowColumnContextSortByDescending"><s>Sort by Descending</s><r>Сортировать по убыванию</r></e>
+  <e k="K" key="DynamicTradeWindowExtraIconsColumnTrained"><s>Trained</s><r>Обученный</r></e>
+  <e k="K" key="DynamicTradeWindowGenepackIsolated"><s>Genepack owned in isolated pack.</s><r>Генпак находится в изолированной упаковке.</r></e>
+  <e k="K" key="DynamicTradeWindowGenepackMissing"><s>Genepack not owned.</s><r>Генпак не принадлежит.</r></e>
+  <e k="K" key="DynamicTradeWindowGenepackMixed"><s>Genepack owned in mixed pack.</s><r>Генпак находится в смешанной упаковке.</r></e>
+  <e k="K" key="DynamicTradeWindowGiftAll"><s>Gift all.</s><r>Подарите всем.</r></e>
+  <e k="K" key="DynamicTradeWindowGiftLess"><s>Gift {0} less.</s><r>Подарок на {0} меньше.</r></e>
+  <e k="K" key="DynamicTradeWindowGiftMore"><s>Gift {0} more.</s><r>Подарок {0} еще.</r></e>
+  <e k="K" key="DynamicTradeWindowGiftNone"><s>Gift none.</s><r>Подарок нет.</r></e>
+  <e k="K" key="DynamicTradeWindowLocked"><s>Window is locked in place.</s><r>Окно заблокировано на месте.</r></e>
+  <e k="K" key="DynamicTradeWindowNotificationBell"><s>Found matches, click to show.</s><r>Нашли совпадения, нажмите, чтобы показать.</r></e>
+  <e k="K" key="DynamicTradeWindowNotificationsAdd"><s>Add new preset.</s><r>Добавьте новый пресет.</r></e>
+  <e k="K" key="DynamicTradeWindowNotificationsDelete"><s>Delete preset.</s><r>Удалить предустановку.</r></e>
+  <e k="K" key="DynamicTradeWindowNotificationsEnable"><s>Enable notifications.</s><r>Включите уведомления.</r></e>
+  <e k="K" key="DynamicTradeWindowNotificationsScopeFilter"><s>Click to apply filter.</s><r>Нажмите, чтобы применить фильтр.</r></e>
+  <e k="K" key="DynamicTradeWindowNotificationsTabsCurrent"><s>Current game</s><r>Текущая игра</r></e>
+  <e k="K" key="DynamicTradeWindowNotificationsTabsShared"><s>Global</s><r>Глобальный</r></e>
+  <e k="K" key="DynamicTradeWindowNotificationsTitle"><s>Filter presets</s><r>Пресеты фильтров</r></e>
+  <e k="K" key="DynamicTradeWindowNotificationsTooltip"><s>Filter presets</s><r>Пресеты фильтров</r></e>
+  <e k="K" key="DynamicTradeWindowSaveAsPreset"><s>Save filter as preset.</s><r>Сохранить фильтр как пресет.</r></e>
+  <e k="K" key="DynamicTradeWindowSellAffordable"><s>Sell affordable.</s><r>Продам недорого.</r></e>
+  <e k="K" key="DynamicTradeWindowSellAll"><s>Sell all.</s><r>Продать все.</r></e>
+  <e k="K" key="DynamicTradeWindowSellMore"><s>Sell {0} more.</s><r>Продавайте на {0} больше.</r></e>
+  <e k="K" key="DynamicTradeWindowSummaryBuying"><s>Buying ({0} {1})</s><r>Покупка ({0} {1})</r></e>
+  <e k="K" key="DynamicTradeWindowSummaryGifting"><s>Gifting</s><r>Дарение</r></e>
+  <e k="K" key="DynamicTradeWindowSummaryHide"><s>Hide summary</s><r>Скрыть сводку</r></e>
+  <e k="K" key="DynamicTradeWindowSummarySelling"><s>Selling ({0} {1})</s><r>Продам ({0} {1})</r></e>
+  <e k="K" key="DynamicTradeWindowSummaryShow"><s>Show summary</s><r>Показать сводку</r></e>
+  <e k="K" key="DynamicTradeWindowUnaffordable"><s>Unaffordable.</s><r>Не по карману.</r></e>
+  <e k="K" key="DynamicTradeWindowUnlocked"><s>Window can be dragged.</s><r>Окно можно перетащить.</r></e>
+  <e k="K" key="DynamicTradeWindowUnwilling"><s>Unwilling</s><r>Не желая</r></e>
+</AutoTranslateCache>
