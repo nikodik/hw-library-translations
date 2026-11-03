@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="princeofpluto.vehicles.trains" name="Trains of the Rim" language="Russian" version="1">
+  <e k="D" t="DesignationCategoryDef" key="RailroadCategory.description"><s>Railroads</s><r>Железные дороги</r></e>
+  <e k="D" t="DesignationCategoryDef" key="RailroadCategory.label"><s>Railroad</s><r>Железная дорога</r></e>
+  <e k="D" t="DesignatorDropdownGroupDef" key="Floor_RailroadBallast.label"><s>railroad ballast</s><r>железнодорожный балласт</r></e>
+  <e k="D" t="JobDef" key="TOTR_RecallTrainToPosition.reportString"><s>Moving to saved train position</s><r>Переход к сохраненному положению поезда</r></e>
+  <e k="D" t="ResearchProjectDef" key="Research_Vehicles_Trains_Chemfuel.description"><s>Build chemfuel powered locomotives capable of efficiently hauling massive
+            amounts of cargo across the Rim.</s><r>Создавайте локомотивы, работающие на химическом топливе, способные эффективно перевозить огромные количества грузов через Кольцо.</r></e>
+  <e k="D" t="ResearchProjectDef" key="Research_Vehicles_Trains_Chemfuel.generalRules.rulesStrings.0"><s>subject-&gt;chemfuel locomotives</s><r>subject-&gt;локомотивы на химтопливе</r></e>
+  <e k="D" t="ResearchProjectDef" key="Research_Vehicles_Trains_Chemfuel.generalRules.rulesStrings.1"><s>subject_story-&gt;built chemfuel locomotives</s><r>subject_story-&gt;построены локомотивы на химтопливе</r></e>
+  <e k="D" t="ResearchProjectDef" key="Research_Vehicles_Trains_Chemfuel.generalRules.rulesStrings.2"><s>subject_story-&gt;made trains more fuel efficient</s><r>subject_story-&gt;сделали поезда более экономичными</r></e>
+  <e k="D" t="ResearchProjectDef" key="Research_Vehicles_Trains_Chemfuel.generalRules.rulesStrings.3"><s>subject_story-&gt;reduced transportation costs</s><r>subject_story-&gt;снижение транспортных расходов</r></e>
+  <e k="D" t="ResearchProjectDef" key="Research_Vehicles_Trains_Chemfuel.generalRules.rulesStrings.4"><s>subject_gerund-&gt;ruling the rails</s><r>subject_gerund-&gt;правящий рельсами</r></e>
+  <e k="D" t="ResearchProjectDef" key="Research_Vehicles_Trains_Chemfuel.label"><s>Chemfuel Locomotives</s><r>Химтопливные локомотивы</r></e>
+  <e k="D" t="ResearchProjectDef" key="Research_Vehicles_Trains_Steam.description"><s>Build steam engine locomotives capable of transporting passengers and cargo
+            across the Rim.</s><r>Стройте локомотивы с паровыми двигателями, способные перевозить пассажиров и груз
+ через Кольцо.</r></e>
+  <e k="D" t="ResearchProjectDef" key="Research_Vehicles_Trains_Steam.generalRules.rulesStrings.0"><s>subject-&gt;steam locomotives</s><r>subject-&gt;паровозы</r></e>
+  <e k="D" t="ResearchProjectDef" key="Research_Vehicles_Trains_Steam.generalRules.rulesStrings.1"><s>subject_story-&gt;built steam engine locomotives</s><r>subject_story-&gt;построены паровозы с паровыми двигателями</r></e>
+  <e k="D" t="ResearchProjectDef" key="Research_Vehicles_Trains_Steam.generalRules.rulesStrings.2"><s>subject_story-&gt;made it easier to move things and people over long distances</s><r>subject_story-&gt;облегчило перемещение вещей и людей на большие расстояния</r></e>
+  <e k="D" t="ResearchProjectDef" key="Research_Vehicles_Trains_Steam.generalRules.rulesStrings.3"><s>subject_story-&gt;opened up new industrial and trade opportunities</s><r>subject_story-&gt;открыл новые промышленные и торговые возможности</r></e>
+  <e k="D" t="ResearchProjectDef" key="Research_Vehicles_Trains_Steam.generalRules.rulesStrings.4"><s>subject_gerund-&gt;going full steam ahead</s><r>subject_gerund-&gt;идем полным ходом</r></e>
+  <e k="D" t="ResearchProjectDef" key="Research_Vehicles_Trains_Steam.label"><s>Steam Locomotives</s><r>Паровозы</r></e>
+  <e k="D" t="ResearchTabDef" key="TrainsOfTheRimResearchTab.label"><s>Trains of the Rim</s><r>Поезда Рима</r></e>
+  <e k="D" t="RoadBuildingDef" key="BuildDirtRoad.description"><s>Orders pawns in the caravan to clear foliage and tamp dirt to make a somewhat
+            easily traversed dirt road.</s><r>Приказывает пешкам в караване расчистить листву и утрамбовать грязь, чтобы проложить грунтовую дорогу, которая была бы легко проходима.</r></e>
+  <e k="D" t="RoadBuildingDef" key="BuildDirtRoad.label"><s>Build Dirt road</s><r>Построить грунтовую дорогу</r></e>
+  <e k="D" t="RoadBuildingDef" key="BuildPath.description"><s>Orders pawns in the caravan to clear foliage to make a simple clear path.</s><r>Приказывает пешкам в караване расчистить листву, чтобы освободить простой путь.</r></e>
+  <e k="D" t="RoadBuildingDef" key="BuildPath.label"><s>Build Path</s><r>Путь сборки</r></e>
+  <e k="D" t="RoadBuildingDef" key="BuildRailRoad.description"><s>Orders pawns in the caravan to clear foliage, assemble a stone track bed, arrange railroad ties, and lay steel rails.</s><r>Приказывает пешкам в караване расчистить листву, построить каменное полотно пути, уложить шпалы и проложить стальные рельсы.</r></e>
+  <e k="D" t="RoadBuildingDef" key="BuildRailRoad.label"><s>Build Railroad</s><r>Построить железную дорогу</r></e>
+  <e k="D" t="RoadBuildingDef" key="BuildStoneRoad.description"><s>Orders pawns in the caravan to clear foliage, then cut and place blocks to make
+            an easily traversable stone road.</s><r>Приказывает пешкам в караване расчистить листву, затем разрезать и расставить блоки, чтобы построить
+ легкопроходимую каменную дорогу.</r></e>
+  <e k="D" t="RoadBuildingDef" key="BuildStoneRoad.label"><s>Build Stone road</s><r>Построить каменную дорогу</r></e>
+  <e k="D" t="RoadDef" key="TOTR_Railroad.label"><s>Railroad</s><r>Железная дорога</r></e>
+  <e k="D" t="TerrainDef" key="RailroadBallastGranite.description"><s>Track ballast forms the trackbed upon which railroad ties (sleepers) are laid.</s><r>Балласт пути образует путевое полотно, на которое укладывают шпалы (шпалы).</r></e>
+  <e k="D" t="TerrainDef" key="RailroadBallastGranite.label"><s>granite railroad ballast</s><r>гранитный железнодорожный балласт</r></e>
+  <e k="D" t="TerrainDef" key="RailroadBallastLimestone.description"><s>Track ballast forms the trackbed upon which railroad ties (sleepers) are laid.</s><r>Балласт пути образует путевое полотно, на которое укладывают шпалы (шпалы).</r></e>
+  <e k="D" t="TerrainDef" key="RailroadBallastLimestone.label"><s>limestone railroad ballast</s><r>железнодорожный балласт из известняка</r></e>
+  <e k="D" t="TerrainDef" key="RailroadBallastMarble.description"><s>Track ballast forms the trackbed upon which railroad ties (sleepers) are laid.</s><r>Балласт пути образует путевое полотно, на которое укладывают шпалы (шпалы).</r></e>
+  <e k="D" t="TerrainDef" key="RailroadBallastMarble.label"><s>marble railroad ballast</s><r>мраморный железнодорожный балласт</r></e>
+  <e k="D" t="TerrainDef" key="RailroadBallastSandstone.description"><s>Track ballast forms the trackbed upon which railroad ties (sleepers) are laid.</s><r>Балласт пути образует путевое полотно, на которое укладывают шпалы (шпалы).</r></e>
+  <e k="D" t="TerrainDef" key="RailroadBallastSandstone.label"><s>sandstone railroad ballast</s><r>железнодорожный балласт из песчаника</r></e>
+  <e k="D" t="TerrainDef" key="RailroadBallastSlate.description"><s>Track ballast forms the trackbed upon which railroad ties (sleepers) are laid.</s><r>Балласт пути образует путевое полотно, на которое укладывают шпалы (шпалы).</r></e>
+  <e k="D" t="TerrainDef" key="RailroadBallastSlate.label"><s>slate railroad ballast</s><r>шиферный железнодорожный балласт</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_TOTR_Diesel_Shunter_Blueprint.label"><s>Goat DE2 (проект)</s><r>Коза DE2 (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_TOTR_Rail_4x4_S.label"><s>Rail Shift 4x4 (проект)</s><r>Rail Shift 4x4 (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_TOTR_Rail_4x4_S_Reverse.label"><s>Rail Shift 4x4 Reversed (проект)</s><r>Rail Shift 4x4 Реверсивный (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_TOTR_Rail_5x6_S.label"><s>Rail Shift 5x6 (проект)</s><r>Рельсовая смена 5х6 (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_TOTR_Rail_5x6_S_Reverse.label"><s>Rail Shift 5x6 Reversed (проект)</s><r>Rail Shift 5x6 Реверс (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_TOTR_Rail_6x6_C.label"><s>Rail Curve 6x6 (проект)</s><r>Рельс Кривая 6х6 (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_TOTR_Rail_6x6_S.label"><s>Rail Shift 6x6 (проект)</s><r>Рельсовая смена 6х6 (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_TOTR_Rail_6x6_S_Reverse.label"><s>Rail Shift 6x6 Reversed (проект)</s><r>Rail Shift 6x6 Реверс (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_TOTR_Rail_7x7_C.label"><s>Rail Curve 7x7 (проект)</s><r>Рельс Кривая 7х7 (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_TOTR_Railcars_FlatbedStaked_Blueprint.label"><s>Flatbed with Stakes (проект)</s><r>Платформа с кольями (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_TOTR_Railcars_Hopper_Blueprint.label"><s>Hopper (проект)</s><r>Hopper (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_TOTR_Railcars_Passenger_Blueprint.label"><s>Passenger Car (проект)</s><r>Легковой автомобиль (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_TOTR_Railcars_Tanker_Blueprint.label"><s>Tanker (проект)</s><r>Tanker (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_TOTR_Steam_Locomotive_Frisco_Chemfuel_Blueprint.label"><s>Frisco 4-8-4 (Chemfuel) (проект)</s><r>Frisco 4-8-4 (Chemfuel) (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_TOTR_Steam_Locomotive_Frisco_Wood_Blueprint.label"><s>Frisco 4-8-4 (Wood) (проект)</s><r>Frisco 4-8-4 (Wood) (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_TOTR_Tank_Engine_Chemfuel_Blueprint.label"><s>Tommy 0-6-0T (Chemfuel) (проект)</s><r>Томми 0-6-0Т (Химфьюэл) (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_TOTR_Tank_Engine_Wood_Blueprint.label"><s>Tommy 0-6-0T (Wood) (проект)</s><r>Tommy 0-6-0T (Wood) (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_TOTR_Trains_Railcar_Boxcar_Blueprint.label"><s>Boxcar (проект)</s><r>Товарный вагон (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_TOTR_Trains_Railcar_Caboose_Blueprint.label"><s>Caboose (проект)</s><r>Caboose (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_TOTR_Trains_Railcar_Flatbed_Blueprint.label"><s>Flatbed (проект)</s><r>Платформа (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_TOTR_Trains_Railcar_Gondola_Blueprint.label"><s>Gondola (проект)</s><r>Gondola (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_TOTR_Wooden_Sleeper.label"><s>Wooden Sleeper (проект)</s><r>Wooden Sleeper (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_TOTR_Wooden_Sleeper_6x6_C.label"><s>Wooden Sleeper Curve 6x6 (проект)</s><r>Деревянная шпала кривая 6х6 (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_TOTR_Wooden_Sleeper_7x7_C.label"><s>Wooden Sleeper Curve 7x7 (проект)</s><r>Деревянная шпала кривая 7х7 (проект)</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Diesel_Shunter_Blueprint.description"><s>A small 2 axle diesel electic locomotive, the Goat is primarily used for railyard shunting and light journeys. 
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Engineer x2, Passenger x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Небольшой двухосный дизель-электровоз Goat в основном используется для маневровых работ на железнодорожных станциях и легких перевозок. 
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Инженер x2, Пассажир x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Diesel_Shunter_Blueprint.label"><s>Goat DE2</s><r>Козел DE2</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Diesel_Shunter_Locomotive.components.2.label"><s>Axle Boxes</s><r>Буксы</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Diesel_Shunter_Locomotive.components.3.label"><s>Traction Motor</s><r>Тяговый двигатель</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Diesel_Shunter_Locomotive.components.4.label"><s>Front Coupler</s><r>Передняя муфта</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Diesel_Shunter_Locomotive.components.5.label"><s>Rear Coupler</s><r>Задняя муфта</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Diesel_Shunter_Locomotive.description"><s>A small 2 axle diesel electic locomotive, the Goat is primarily used for railyard shunting and light journeys. 
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Engineer x2, Passenger x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Небольшой двухосный дизель-электровоз Goat в основном используется для маневровых работ на железнодорожных станциях и легких перевозок. 
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Инженер x2, Пассажир x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Diesel_Shunter_Locomotive.label"><s>Goat DE2</s><r>Козел DE2</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Rail.label"><s>Rail</s><r>Железнодорожный</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Rail_4x4_S.label"><s>Rail Shift 4x4</s><r>Железнодорожная смена 4x4</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Rail_4x4_S_Reverse.label"><s>Rail Shift 4x4 Reversed</s><r>Rail Shift 4x4 Реверс</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Rail_5x6_S.label"><s>Rail Shift 5x6</s><r>Железнодорожная смена 5x6</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Rail_5x6_S_Reverse.label"><s>Rail Shift 5x6 Reversed</s><r>Rail Shift 5x6, перевернутый</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Rail_6x6_C.label"><s>Rail Curve 6x6</s><r>Рельсовая кривая 6x6</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Rail_6x6_S.label"><s>Rail Shift 6x6</s><r>Рельсовая смена 6x6</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Rail_6x6_S_Reverse.label"><s>Rail Shift 6x6 Reversed</s><r>Rail Shift 6x6 Реверс</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Rail_7x7_C.label"><s>Rail Curve 7x7</s><r>Рельсовая кривая 7x7</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Railcars_FlatbedStaked.components.0.label"><s>Front Bogie</s><r>Передняя тележка</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Railcars_FlatbedStaked.components.1.label"><s>Rear Bogie</s><r>Задняя тележка</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Railcars_FlatbedStaked.components.2.label"><s>Front Coupler</s><r>Передняя муфта</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Railcars_FlatbedStaked.components.3.label"><s>Rear Coupler</s><r>Задняя муфта</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Railcars_FlatbedStaked.description"><s>A flatbed railcar with stakes to secure cargo.</s><r>Платформа-дрезина со стойками для крепления груза.</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Railcars_FlatbedStaked.label"><s>Flatbed with Stakes</s><r>Платформа с кольями</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Railcars_FlatbedStaked_Blueprint.description"><s>A flatbed railcar with stakes to secure cargo.</s><r>Платформа-дрезина со стойками для крепления груза.</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Railcars_FlatbedStaked_Blueprint.label"><s>Flatbed with Stakes</s><r>Платформа с кольями</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Railcars_Hopper.components.0.label"><s>Front Bogie</s><r>Передняя тележка</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Railcars_Hopper.components.1.label"><s>Rear Bogie</s><r>Задняя тележка</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Railcars_Hopper.components.2.label"><s>Front Coupler</s><r>Передняя муфта</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Railcars_Hopper.components.3.label"><s>Rear Coupler</s><r>Задняя муфта</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Railcars_Hopper.description"><s>A railcar for transporting bulk materials.</s><r>Вагон для перевозки сыпучих материалов.</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Railcars_Hopper.label"><s>Hopper</s><r>Хоппер</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Railcars_Hopper_Blueprint.description"><s>A railcar for transporting bulk materials.</s><r>Вагон для перевозки сыпучих материалов.</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Railcars_Hopper_Blueprint.label"><s>Hopper</s><r>Хоппер</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Railcars_Passenger.components.0.label"><s>Front Bogie</s><r>Передняя тележка</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Railcars_Passenger.components.1.label"><s>Rear Bogie</s><r>Задняя тележка</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Railcars_Passenger.components.2.label"><s>Front Coupler</s><r>Передняя муфта</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Railcars_Passenger.components.3.label"><s>Rear Coupler</s><r>Задняя муфта</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Railcars_Passenger.description"><s>A carriage for transporting passengers.</s><r>Вагон для перевозки пассажиров.</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Railcars_Passenger.label"><s>Passenger Car</s><r>Легковой автомобиль</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Railcars_Passenger_Blueprint.description"><s>A carriage for transporting passengers.</s><r>Вагон для перевозки пассажиров.</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Railcars_Passenger_Blueprint.label"><s>Passenger Car</s><r>Легковой автомобиль</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Railcars_Tanker.components.0.label"><s>Front Bogie</s><r>Передняя тележка</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Railcars_Tanker.components.1.label"><s>Rear Bogie</s><r>Задняя тележка</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Railcars_Tanker.components.2.label"><s>Front Coupler</s><r>Передняя муфта</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Railcars_Tanker.components.3.label"><s>Rear Coupler</s><r>Задняя муфта</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Railcars_Tanker.description"><s>A railcar for transporting bulk fluids.</s><r>Вагон для перевозки сыпучих жидкостей.</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Railcars_Tanker.label"><s>Tanker</s><r>Танкер</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Railcars_Tanker_Blueprint.description"><s>A railcar for transporting bulk fluids.</s><r>Вагон для перевозки сыпучих жидкостей.</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Railcars_Tanker_Blueprint.label"><s>Tanker</s><r>Танкер</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Steam_Locomotive_Frisco_Chemfuel.components.2.label"><s>Axle Boxes</s><r>Буксы</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Steam_Locomotive_Frisco_Chemfuel.components.4.label"><s>Right Cylinder</s><r>Правый цилиндр</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Steam_Locomotive_Frisco_Chemfuel.components.5.label"><s>Left Cylinder</s><r>Левый цилиндр</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Steam_Locomotive_Frisco_Chemfuel.components.6.label"><s>Left Coupling Rods</s><r>Левые соединительные тяги</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Steam_Locomotive_Frisco_Chemfuel.components.7.label"><s>Right Coupling Rods</s><r>Правые соединительные тяги</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Steam_Locomotive_Frisco_Chemfuel.components.8.label"><s>Front Coupler</s><r>Передняя муфта</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Steam_Locomotive_Frisco_Chemfuel.components.9.label"><s>Rear Coupler</s><r>Задняя муфта</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Steam_Locomotive_Frisco_Chemfuel.description"><s>A large steam locomotive with a separate tender for fuel and water. The Frisco 4-8-4 is primarily used as a road engine for hauling long and heavy trains. 
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Engineer x2, Passenger x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Большой паровоз с отдельным тендером для топлива и воды. Frisco 4-8-4 в основном используется в качестве дорожного двигателя для перевозки длинных и тяжелых поездов. 
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Инженер x2, Пассажир x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Steam_Locomotive_Frisco_Chemfuel.label"><s>Frisco 4-8-4</s><r>Фриско 4-8-4</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Steam_Locomotive_Frisco_Chemfuel_Blueprint.description"><s>A large steam locomotive with a separate tender for fuel and water. This 4-8-4 is primarily used as a road engine for hauling large, heavy trains. 
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Engineer x2, Passenger x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Большой паровоз с отдельным тендером для топлива и воды. Этот 4-8-4 в основном используется в качестве дорожного двигателя для перевозки больших тяжелых поездов. 
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Инженер x2, Пассажир x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Steam_Locomotive_Frisco_Chemfuel_Blueprint.label"><s>Frisco 4-8-4 (Chemfuel)</s><r>Фриско 4-8-4 (Химфьюэл)</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Steam_Locomotive_Frisco_Wood.components.2.label"><s>Axle Boxes</s><r>Буксы</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Steam_Locomotive_Frisco_Wood.components.4.label"><s>Right Cylinder</s><r>Правый цилиндр</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Steam_Locomotive_Frisco_Wood.components.5.label"><s>Left Cylinder</s><r>Левый цилиндр</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Steam_Locomotive_Frisco_Wood.components.6.label"><s>Left Coupling Rods</s><r>Левые соединительные тяги</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Steam_Locomotive_Frisco_Wood.components.7.label"><s>Right Coupling Rods</s><r>Правые соединительные тяги</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Steam_Locomotive_Frisco_Wood.components.8.label"><s>Front Coupler</s><r>Передняя муфта</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Steam_Locomotive_Frisco_Wood.components.9.label"><s>Rear Coupler</s><r>Задняя муфта</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Steam_Locomotive_Frisco_Wood.description"><s>A large steam locomotive with a separate tender for fuel and water. This 4-8-4 is primarily used as a road engine for hauling large, heavy trains. 
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Engineer x2, Passenger x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Wood</s><r>Большой паровоз с отдельным тендером для топлива и воды. Этот 4-8-4 в основном используется в качестве дорожного двигателя для перевозки больших тяжелых поездов. 
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Инженер x2, Пассажир x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Дерево</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Steam_Locomotive_Frisco_Wood.label"><s>Frisco 4-8-4</s><r>Фриско 4-8-4</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Steam_Locomotive_Frisco_Wood_Blueprint.description"><s>A large steam locomotive with a separate tender for fuel and water. The Frisco 4-8-4 is primarily used as a road engine for hauling long and heavy trains. 
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Engineer x2, Passenger x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Wood</s><r>Большой паровоз с отдельным тендером для топлива и воды. Frisco 4-8-4 в основном используется в качестве дорожного двигателя для перевозки длинных и тяжелых поездов. 
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Инженер x2, Пассажир x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Дерево</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Steam_Locomotive_Frisco_Wood_Blueprint.label"><s>Frisco 4-8-4 (Wood)</s><r>Фриско 4-8-4 (Вуд)</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Tank_Engine_Chemfuel.components.2.label"><s>Axle Boxes</s><r>Буксы</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Tank_Engine_Chemfuel.components.4.label"><s>Right Cylinder</s><r>Правый цилиндр</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Tank_Engine_Chemfuel.components.5.label"><s>Left Cylinder</s><r>Левый цилиндр</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Tank_Engine_Chemfuel.components.6.label"><s>Left Coupling Rods</s><r>Левые соединительные тяги</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Tank_Engine_Chemfuel.components.7.label"><s>Right Coupling Rods</s><r>Правые соединительные тяги</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Tank_Engine_Chemfuel.components.8.label"><s>Front Coupler</s><r>Передняя муфта</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Tank_Engine_Chemfuel.components.9.label"><s>Rear Coupler</s><r>Задняя муфта</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Tank_Engine_Chemfuel.description"><s>A small steam locomotive with the water tank and fuel bunker mounted on the frame, eliminating the need for a separate tender. The Tommy 0-6-0T is primarily used for railyard shunting and light journeys. 
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Engineer x2, Passenger x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Небольшой паровоз с резервуаром для воды и топливным бункером, установленным на раме, что исключает необходимость в отдельном тендере. Tommy 0-6-0T в основном используется для маневровых работ на железнодорожных станциях и на легких рейсах. 
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Инженер x2, Пассажир x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Tank_Engine_Chemfuel.label"><s>Tommy 0-6-0T</s><r>Томми 0-6-0T</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Tank_Engine_Chemfuel_Blueprint.description"><s>A small steam locomotive with the water tank and fuel bunker mounted on the frame, eliminating the need for a separate tender. The Tommy 0-6-0T is primarily used for railyard shunting and light journeys. 
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Engineer x2, Passenger x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Небольшой паровоз с резервуаром для воды и топливным бункером, установленным на раме, что исключает необходимость в отдельном тендере. Tommy 0-6-0T в основном используется для маневровых работ на железнодорожных станциях и на легких рейсах. 
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Инженер x2, Пассажир x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Tank_Engine_Chemfuel_Blueprint.label"><s>Tommy 0-6-0T (Chemfuel)</s><r>Томми 0-6-0Т (Химтопливо)</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Tank_Engine_Wood.components.2.label"><s>Axle Boxes</s><r>Буксы</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Tank_Engine_Wood.components.4.label"><s>Right Cylinder</s><r>Правый цилиндр</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Tank_Engine_Wood.components.5.label"><s>Left Cylinder</s><r>Левый цилиндр</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Tank_Engine_Wood.components.6.label"><s>Left Coupling Rods</s><r>Левые соединительные тяги</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Tank_Engine_Wood.components.7.label"><s>Right Coupling Rods</s><r>Правые соединительные тяги</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Tank_Engine_Wood.components.8.label"><s>Front Coupler</s><r>Передняя муфта</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Tank_Engine_Wood.components.9.label"><s>Rear Coupler</s><r>Задняя муфта</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Tank_Engine_Wood.description"><s>A small steam locomotive with the water tank and fuel bunker mounted on the frame, eliminating the need for a separate tender. The Tommy 0-6-0T is primarily used for railyard shunting and light journeys. 
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Engineer x2, Passenger x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Wood</s><r>Небольшой паровоз с резервуаром для воды и топливным бункером, установленным на раме, что исключает необходимость в отдельном тендере. Tommy 0-6-0T в основном используется для маневровых работ на железнодорожных станциях и на легких рейсах. 
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Инженер x2, Пассажир x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Дерево</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Tank_Engine_Wood.label"><s>Tommy 0-6-0T</s><r>Томми 0-6-0T</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Tank_Engine_Wood_Blueprint.description"><s>A small steam locomotive with the water tank and fuel bunker mounted on the frame, eliminating the need for a separate tender. The Tommy 0-6-0T is primarily used for railyard shunting and light journeys. 
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Engineer x2, Passenger x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Wood</s><r>Небольшой паровоз с резервуаром для воды и топливным бункером, установленным на раме, что исключает необходимость в отдельном тендере. Tommy 0-6-0T в основном используется для маневровых работ на железнодорожных станциях и на легких рейсах. 
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Инженер x2, Пассажир x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Дерево</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Tank_Engine_Wood_Blueprint.label"><s>Tommy 0-6-0T (Wood)</s><r>Томми 0-6-0T (Вуд)</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Trains_Railcar_Boxcar.components.0.label"><s>Front Bogie</s><r>Передняя тележка</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Trains_Railcar_Boxcar.components.1.label"><s>Rear Bogie</s><r>Задняя тележка</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Trains_Railcar_Boxcar.components.2.label"><s>Front Coupler</s><r>Передняя муфта</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Trains_Railcar_Boxcar.components.3.label"><s>Rear Coupler</s><r>Задняя муфта</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Trains_Railcar_Boxcar.description"><s>A boxcar for cargo transportation.</s><r>Крытый вагон для перевозки грузов.</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Trains_Railcar_Boxcar.label"><s>Boxcar</s><r>Товарный вагон</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Trains_Railcar_Boxcar_Blueprint.description"><s>A boxcar for cargo transportation.</s><r>Крытый вагон для перевозки грузов.</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Trains_Railcar_Boxcar_Blueprint.label"><s>Boxcar</s><r>Товарный вагон</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Trains_Railcar_Caboose.components.0.label"><s>Front Bogie</s><r>Передняя тележка</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Trains_Railcar_Caboose.components.1.label"><s>Rear Bogie</s><r>Задняя тележка</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Trains_Railcar_Caboose.components.2.label"><s>Front Coupler</s><r>Передняя муфта</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Trains_Railcar_Caboose.components.3.label"><s>Rear Coupler</s><r>Задняя муфта</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Trains_Railcar_Caboose.description"><s>A caboose for crew transportation.</s><r>Камбуз для перевозки экипажа.</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Trains_Railcar_Caboose.label"><s>Caboose</s><r>Камбуз</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Trains_Railcar_Caboose_Blueprint.description"><s>A caboose for crew transportation.</s><r>Камбуз для перевозки экипажа.</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Trains_Railcar_Caboose_Blueprint.label"><s>Caboose</s><r>Камбуз</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Trains_Railcar_Flatbed.components.0.label"><s>Front Bogie</s><r>Передняя тележка</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Trains_Railcar_Flatbed.components.1.label"><s>Rear Bogie</s><r>Задняя тележка</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Trains_Railcar_Flatbed.components.2.label"><s>Front Coupler</s><r>Передняя муфта</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Trains_Railcar_Flatbed.components.3.label"><s>Rear Coupler</s><r>Задняя муфта</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Trains_Railcar_Flatbed.description"><s>A flatbed for cargo transportation.</s><r>Платформа для перевозки грузов.</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Trains_Railcar_Flatbed.label"><s>Flatbed</s><r>Платформа</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Trains_Railcar_Flatbed_Blueprint.description"><s>A flatbed for cargo transportation.</s><r>Платформа для перевозки грузов.</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Trains_Railcar_Flatbed_Blueprint.label"><s>Flatbed</s><r>Платформа</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Trains_Railcar_Gondola.components.0.label"><s>Front Bogie</s><r>Передняя тележка</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Trains_Railcar_Gondola.components.1.label"><s>Rear Bogie</s><r>Задняя тележка</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Trains_Railcar_Gondola.components.2.label"><s>Front Coupler</s><r>Передняя муфта</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Trains_Railcar_Gondola.components.3.label"><s>Rear Coupler</s><r>Задняя муфта</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Trains_Railcar_Gondola.description"><s>A Gondola for cargo transportation.</s><r>Гондола для перевозки грузов.</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Trains_Railcar_Gondola.label"><s>Gondola</s><r>Гондола</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Trains_Railcar_Gondola_Blueprint.description"><s>A Gondola for cargo transportation.</s><r>Гондола для перевозки грузов.</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Trains_Railcar_Gondola_Blueprint.label"><s>Gondola</s><r>Гондола</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Wooden_Sleeper.label"><s>Wooden Sleeper</s><r>Деревянная шпала</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Wooden_Sleeper_6x6_C.label"><s>Wooden Sleeper Curve 6x6</s><r>Деревянная шпала кривая 6x6</r></e>
+  <e k="D" t="ThingDef" key="TOTR_Wooden_Sleeper_7x7_C.label"><s>Wooden Sleeper Curve 7x7</s><r>Деревянная шпала кривая 7x7</r></e>
+  <e k="K" key="TOTR.BuildingRoad"><s>Building road: {0}, progress: {1}, ({2}/{3})</s><r>Строящаяся дорога: {0}, прогресс: {1}, ({2}/{3})</r></e>
+  <e k="K" key="TOTR.CaravanRequiresLocomotive"><s>A train caravan must have at least one locomotive.</s><r>В караване поезда должен быть хотя бы один локомотив.</r></e>
+  <e k="K" key="TOTR.CoupleToTrainLabel"><s>Couple to train</s><r>Пара для тренировки</r></e>
+  <e k="K" key="TOTR.CreateTrainLabel"><s>Create train</s><r>Создать поезд</r></e>
+  <e k="K" key="TOTR.CycleTextureDesc"><s>Cycles between available textures for this vehicle</s><r>Переключение между доступными текстурами для этого автомобиля.</r></e>
+  <e k="K" key="TOTR.CycleTextureLabel"><s>Cycle texture</s><r>Циклическая текстура</r></e>
+  <e k="K" key="TOTR.DebugFinishRoad"><s>DEV: Finish road</s><r>РАЗРАБОТЧИК: Закончить дорогу.</r></e>
+  <e k="K" key="TOTR.DisbandTrainDesc"><s>Disbands the current train</s><r>Распускает текущий поезд</r></e>
+  <e k="K" key="TOTR.DisbandTrainLabel"><s>Disband train</s><r>Расформировать поезд</r></e>
+  <e k="K" key="TOTR.HideRoadBuildingFeatureDesc"><s>Hides the gizmos for road building from Trains of the Rim, in case you prefer using another road mod like Rails and Roads of the Rim.</s><r>Скрывает штуковины для строительства дорог из Trains of the Rim, на случай, если вы предпочитаете использовать другой дорожный мод, например Rails и Roads of the Rim.</r></e>
+  <e k="K" key="TOTR.HideRoadBuildingFeatureLabel"><s>Hide road building feature from Trains of the Rim</s><r>Скрыть функцию строительства дорог из Trains of the Rim</r></e>
+  <e k="K" key="TOTR.RecallTrainDesc"><s>Orders the train vehicles to return to the saved positions</s><r>Приказывает вагонам поезда вернуться на сохраненные позиции.</r></e>
+  <e k="K" key="TOTR.RecallTrainLabel"><s>Recall train</s><r>Вспомнить поезд</r></e>
+  <e k="K" key="TOTR.RequireRailTerrainDesc"><s>Controls whether train vehicles require special railroad ballast terrain to move on the colony map. This is different from the world map which requires trains to move along railroads.</s><r>Определяет, требуется ли поездам специальный рельеф железнодорожного балласта для передвижения по карте колонии. Это отличается от карты мира, на которой поезда должны двигаться по железным дорогам.</r></e>
+  <e k="K" key="TOTR.RequireRailTerrainLabel"><s>Experimental: Require railroad terrain</s><r>Экспериментальная функция: требуется наличие железной дороги.</r></e>
+  <e k="K" key="TOTR.RoadBuildingSpeedMultiplierDesc"><s>Adjusts how fast pawns build roads. 2x means twice as fast.</s><r>Регулирует скорость строительства дорог пешками. 2x означает в два раза быстрее.</r></e>
+  <e k="K" key="TOTR.RoadBuildingSpeedMultiplierLabel"><s>Road building speed multipler</s><r>Множитель скорости дорожного строительства</r></e>
+  <e k="K" key="TOTR.RoadFinished"><s>{0} has finished building {1}</s><r>{0} закончил строительство {1}</r></e>
+  <e k="K" key="TOTR.SaveNewPositionDesc"><s>Sets the train vehicle's saved position to its current position</s><r>Устанавливает сохраненное положение вагона в его текущее положение.</r></e>
+  <e k="K" key="TOTR.SaveNewPositionLabel"><s>Save new position</s><r>Сохранить новую позицию</r></e>
+  <e k="K" key="TOTR.SettingsCategoryName"><s>Trains of the Rim</s><r>Поезда Рима</r></e>
+  <e k="K" key="TOTR.UncoupleFromTrainLabel"><s>Uncouple from train</s><r>Отцепиться от поезда</r></e>
+</AutoTranslateCache>
