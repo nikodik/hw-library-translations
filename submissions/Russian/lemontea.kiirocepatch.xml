@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="lemontea.kiirocepatch" name="Kiiro CE Patch" language="Russian" version="1">
+  <e k="D" t="AmmoCategoryDef" key="BlowGunArrow.description"><s>A type of Blow Gun arrow made by the Kiiro race.</s><r>Разновидность стрелы для духового пистолета, созданная расой Кииро.</r></e>
+  <e k="D" t="AmmoCategoryDef" key="BlowGunArrow.label"><s>Kiiro Blow gun arrow</s><r>Кииро Выдувная стрела из пистолета</r></e>
+  <e k="D" t="AmmoCategoryDef" key="DeadlyArrow.description"><s>A Deadly poison arrow manufactured by the Kiiro race.</s><r>Смертоносная ядовитая стрела, изготовленная расой Кииро.</r></e>
+  <e k="D" t="AmmoCategoryDef" key="DeadlyArrow.label"><s>Kiiro Deadly arrow</s><r>Кииро Смертельная стрела</r></e>
+  <e k="D" t="AmmoCategoryDef" key="DeadlyBlowGunArrow.description"><s>A Deadly poison arrow manufactured by the Kiiro race.</s><r>Смертоносная ядовитая стрела, изготовленная расой Кииро.</r></e>
+  <e k="D" t="AmmoCategoryDef" key="DeadlyBlowGunArrow.label"><s>Kiiro Deadly gun arrow</s><r>Кииро Смертоносная стрела</r></e>
+  <e k="D" t="AmmoCategoryDef" key="DeadlyCrossbowBolt.description"><s>A Deadly poison crossbow bolt manufactured by the Kiiro race.</s><r>Смертоносный ядовитый арбалетный болт, изготовленный расой Кииро.</r></e>
+  <e k="D" t="AmmoCategoryDef" key="DeadlyCrossbowBolt.label"><s>Kiiro Deadly crossbow bolt</s><r>Кииро Смертоносный арбалетный болт</r></e>
+  <e k="D" t="AmmoCategoryDef" key="FlareWarhead.description"><s>flare shell.</s><r>вспышечная оболочка.</r></e>
+  <e k="D" t="AmmoCategoryDef" key="FlareWarhead.label"><s>flare shell</s><r>сигнальный снаряд</r></e>
+  <e k="D" t="AmmoCategoryDef" key="FlareWarhead.labelShort"><s>flare shell</s><r>сигнальный снаряд</r></e>
+  <e k="D" t="AmmoCategoryDef" key="ParalyticArrow.description"><s>A type of Paralytic poison arrow made by the Kiiro race.</s><r>Разновидность паралитической ядовитой стрелы, созданная расой Кииро.</r></e>
+  <e k="D" t="AmmoCategoryDef" key="ParalyticArrow.label"><s>Kiiro Paralytic arrow</s><r>Кииро Паралитическая стрела</r></e>
+  <e k="D" t="AmmoCategoryDef" key="ParalyticBlowGunArrow.description"><s>A type of Paralytic poison arrow made by the Kiiro race.</s><r>Разновидность паралитической ядовитой стрелы, созданная расой Кииро.</r></e>
+  <e k="D" t="AmmoCategoryDef" key="ParalyticBlowGunArrow.label"><s>Kiiro Paralytic gun arrow</s><r>Кииро Паралитическая стрела</r></e>
+  <e k="D" t="AmmoCategoryDef" key="ParalyticCrossbowBolt.description"><s>A type of Paralytic poison crossbow bolt made by the Kiiro race.</s><r>Разновидность паралитического ядовитого арбалетного болта, созданного расой Кииро.</r></e>
+  <e k="D" t="AmmoCategoryDef" key="ParalyticCrossbowBolt.label"><s>Kiiro Paralytic crossbow bolt</s><r>Кииро Паралитический арбалетный болт</r></e>
+  <e k="D" t="AmmoSetDef" key="AmmoSet_KiiroBlowGun.label"><s>Kiiro blow gun Arrow</s><r>Кииро духовой пистолет Стрела</r></e>
+  <e k="D" t="AmmoSetDef" key="AmmoSet_KiiroCrossbowBolt.label"><s>Kiiro crossbow bolts</s><r>Арбалетные болты Кииро</r></e>
+  <e k="D" t="AmmoSetDef" key="AmmoSet_KiiroPTGrenades.label"><s>Kiiro PT Grenades</s><r>ПТ-гранаты Кииро</r></e>
+  <e k="D" t="AmmoSetDef" key="AmmoSet_KiiroPTGuardian.label"><s>Kiiro PT Guardian</s><r>Кииро PT Guardian</r></e>
+  <e k="D" t="AmmoSetDef" key="AmmoSet_KiiroPTRifle.label"><s>Kiiro PT Rifleman</s><r>Кииро ПТ, стрелок</r></e>
+  <e k="D" t="AmmoSetDef" key="AmmoSet_KiiroPTSniper.label"><s>Kiiro PT Sniper</s><r>Кииро ПТ Снайпер</r></e>
+  <e k="D" t="AmmoSetDef" key="AmmoSet_KiiroRocket.label"><s>Kiiro Rocket</s><r>Кииро Ракета</r></e>
+  <e k="D" t="DamageDef" key="KiiroBullet.deathMessage"><s>{0} has been shot to death.</s><r>{0} был застрелен.</r></e>
+  <e k="D" t="DamageDef" key="KiiroBullet.label"><s>Kiiro_Bullet</s><r>Кииро_Bullet</r></e>
+  <e k="D" t="RecipeDef" key="Kiiro_MakeCrossKnives.description"><s>Craft 30 crossknives.</s><r>Изготовьте 30 перекрестных ножей.</r></e>
+  <e k="D" t="RecipeDef" key="Kiiro_MakeCrossKnives.jobString"><s>Making crossknives.</s><r>Изготовление перекрестных ножей.</r></e>
+  <e k="D" t="RecipeDef" key="Kiiro_MakeCrossKnives.label"><s>make kiiro crossknives x30</s><r>сделать перекрестные ножи Кииро x30</r></e>
+  <e k="D" t="RecipeDef" key="Kiiro_MakeGrenadeFlash.description"><s>Craft 10 Flash Bang.</s><r>Создайте 10 светошумовых взрывов.</r></e>
+  <e k="D" t="RecipeDef" key="Kiiro_MakeGrenadeFlash.jobString"><s>Making Flash Bang.</s><r>Создание Flash Bang.</r></e>
+  <e k="D" t="RecipeDef" key="Kiiro_MakeGrenadeFlash.label"><s>make kiiro Flash Grenade x10</s><r>сделать светошумовую гранату Кииро x10</r></e>
+  <e k="D" t="RecipeDef" key="Kiiro_MakeGrenadeFrag.description"><s>Craft 10 Frag Grenade.</s><r>Создайте 10 осколочных гранат.</r></e>
+  <e k="D" t="RecipeDef" key="Kiiro_MakeGrenadeFrag.ingredients.1.filter.customSummary"><s>древесина, cedar wood, ebony wood, mahogany wood, rosewood, lacquered wood</s><r>древесина, кедр, эбеновое дерево, красное дерево, палисандр, лакированная древесина</r></e>
+  <e k="D" t="RecipeDef" key="Kiiro_MakeGrenadeFrag.ingredients.2.filter.customSummary"><s>FSX</s><r>ФСХ</r></e>
+  <e k="D" t="RecipeDef" key="Kiiro_MakeGrenadeFrag.jobString"><s>Making Frag Grenade.</s><r>Изготовление осколочной гранаты.</r></e>
+  <e k="D" t="RecipeDef" key="Kiiro_MakeGrenadeFrag.label"><s>make kiiro Frag Grenade x10</s><r>сделать осколочную гранату Кииро x10</r></e>
+  <e k="D" t="RecipeDef" key="Kiiro_MakeGrenadeSmoke.description"><s>Craft 10 Smoke Grenade.</s><r>Создайте 10 дымовых гранат.</r></e>
+  <e k="D" t="RecipeDef" key="Kiiro_MakeGrenadeSmoke.jobString"><s>Making Smoke Grenade.</s><r>Изготовление дымовой гранаты.</r></e>
+  <e k="D" t="RecipeDef" key="Kiiro_MakeGrenadeSmoke.label"><s>make kiiro Smoke Grenade x10</s><r>сделать дымовую гранату Кииро x10</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroArrow_Deadly.description"><s>Craft 10 Deadly arrows.</s><r>Создайте 10 смертоносных стрел.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroArrow_Deadly.ingredients.0.filter.customSummary"><s>древесина, cedar wood, ebony wood, mahogany wood, rosewood, lacquered wood</s><r>древесина, кедр, эбеновое дерево, красное дерево, палисандр, лакированная древесина</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroArrow_Deadly.jobString"><s>Making Deadly arrows.</s><r>Изготовление смертоносных стрел.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroArrow_Deadly.label"><s>make Deadly arrows x10</s><r>сделать Смертельные стрелы x10</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroArrow_Paralytic.description"><s>Craft 10 Kiiro Paralytic arrows.</s><r>Создайте 10 паралитических стрел Кииро.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroArrow_Paralytic.ingredients.0.filter.customSummary"><s>древесина, cedar wood, ebony wood, mahogany wood, rosewood, lacquered wood</s><r>древесина, кедр, эбеновое дерево, красное дерево, палисандр, лакированная древесина</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroArrow_Paralytic.jobString"><s>Making Kiiro Paralytic arrows.</s><r>Изготовление Кииро Паралитических стрел.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroArrow_Paralytic.label"><s>make Kiiro Paralytic arrows x10</s><r>сделать Кииро паралитические стрелы x10</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroCrossbowBolt_Deadly.description"><s>Craft 10 Kiiro Paralytic crossbow bolts.</s><r>Изготовьте 10 паралитических арбалетных болтов Кииро.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroCrossbowBolt_Deadly.ingredients.0.filter.customSummary"><s>древесина, cedar wood, ebony wood, mahogany wood, rosewood, lacquered wood</s><r>древесина, кедр, эбеновое дерево, красное дерево, палисандр, лакированная древесина</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroCrossbowBolt_Deadly.jobString"><s>Making Kiiro Paralytic crossbow bolts.</s><r>Изготовление арбалетных болтов Kiiro Paralytic.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroCrossbowBolt_Deadly.label"><s>make Kiiro Paralytic crossbow bolts x10</s><r>сделайте Кииро паралитические арбалетные болты x10.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroCrossbowBolt_Paralytic.description"><s>Craft 10 Kiiro Paralytic crossbow bolts.</s><r>Изготовьте 10 паралитических арбалетных болтов Кииро.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroCrossbowBolt_Paralytic.ingredients.0.filter.customSummary"><s>древесина, cedar wood, ebony wood, mahogany wood, rosewood, lacquered wood</s><r>древесина, кедр, эбеновое дерево, красное дерево, палисандр, лакированная древесина</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroCrossbowBolt_Paralytic.jobString"><s>Making Kiiro Paralytic crossbow bolts.</s><r>Изготовление арбалетных болтов Kiiro Paralytic.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroCrossbowBolt_Paralytic.label"><s>make Kiiro Paralytic crossbow bolts x10</s><r>сделайте Кииро паралитические арбалетные болты x10.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroGreatArrow_Deadly.description"><s>Craft 10 Kiiro Deadly great arrows.</s><r>Создайте 10 смертоносных стрел Кииро.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroGreatArrow_Deadly.ingredients.0.filter.customSummary"><s>древесина, cedar wood, ebony wood, mahogany wood, rosewood, lacquered wood</s><r>древесина, кедр, эбеновое дерево, красное дерево, палисандр, лакированная древесина</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroGreatArrow_Deadly.jobString"><s>Making Kiiro Deadly great arrows.</s><r>Делаем Kiiro Deadly отличными стрелами.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroGreatArrow_Deadly.label"><s>make Kiiro Deadly great arrows x10</s><r>сделайте Кииро Смертоносным отличные стрелы x10</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroGreatArrow_Paralytic.description"><s>Craft 10 Kiiro Paralytic great arrows.</s><r>Создайте 10 огромных паралитических стрел Кииро.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroGreatArrow_Paralytic.ingredients.0.filter.customSummary"><s>древесина, cedar wood, ebony wood, mahogany wood, rosewood, lacquered wood</s><r>древесина, кедр, эбеновое дерево, красное дерево, палисандр, лакированная древесина</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroGreatArrow_Paralytic.jobString"><s>Making Kiiro Paralytic great arrows.</s><r>Делаем Кииро Паралитическими отличные стрелы.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroGreatArrow_Paralytic.label"><s>make Kiiro Paralytic great arrows x10</s><r>сделайте Кииро Паралитические стрелы x10</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTGuardian_AP.description"><s>Craft 300 Kiiro PT Guardian (AP) cartridges.</s><r>Создайте 300 патронов Kiiro PT Guardian (AP).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTGuardian_AP.jobString"><s>Making Kiiro PT Guardian (AP) cartridges.</s><r>Изготовление картриджей Kiiro PT Guardian (AP).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTGuardian_AP.label"><s>make Kiiro PT Guardian (AP) cartridge x300</s><r>сделать картридж Kiiro PT Guardian (AP) x300</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTGuardian_FMJ.description"><s>Craft 300 Kiiro PT Guardian (FMJ) cartridges.</s><r>Создайте 300 патронов Kiiro PT Guardian (FMJ).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTGuardian_FMJ.jobString"><s>Making Kiiro PT Guardian (FMJ) cartridges.</s><r>Изготовление картриджей Kiiro PT Guardian (FMJ).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTGuardian_FMJ.label"><s>make Kiiro PT Guardian (FMJ) cartridge x300</s><r>сделать картридж Kiiro PT Guardian (FMJ) x300</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTGuardian_HE.description"><s>Craft 300 Kiiro PT Guardian (AP-HE) cartridges.</s><r>Создайте 300 патронов Kiiro PT Guardian (AP-HE).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTGuardian_HE.ingredients.1.filter.customSummary"><s>FSX</s><r>ФСХ</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTGuardian_HE.jobString"><s>Making Kiiro PT Guardian (AP-HE) cartridges.</s><r>Изготовление патронов Kiiro PT Guardian (AP-HE).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTGuardian_HE.label"><s>make Kiiro PT Guardian (AP-HE) cartridge x300</s><r>сделать патрон Kiiro PT Guardian (AP-HE) x300</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTGuardian_Incendiary.description"><s>Craft 300 Kiiro PT Guardian (AP-I) cartridges.</s><r>Создайте 300 патронов Kiiro PT Guardian (AP-I).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTGuardian_Incendiary.jobString"><s>Making Kiiro PT Guardian (AP-I) cartridges.</s><r>Изготовление патронов Kiiro PT Guardian (AP-I).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTGuardian_Incendiary.label"><s>make Kiiro PT Guardian (AP-I) cartridge x300</s><r>сделать картридж Kiiro PT Guardian (AP-I) x300</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTGuardian_Sabot.description"><s>Craft 300 Kiiro PT Guardian (Sabot) cartridges.</s><r>Изготовьте 300 патронов Kiiro PT Guardian (Sabot).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTGuardian_Sabot.jobString"><s>Making Kiiro PT Guardian (Sabot) cartridges.</s><r>Изготовление патронов Kiiro PT Guardian (Sabot).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTGuardian_Sabot.label"><s>make Kiiro PT Guardian (Sabot) cartridge x300</s><r>сделать патрон Kiiro PT Guardian (Sabot) x300</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTRifle_AP.description"><s>Craft 500 Kiiro PT Rifleman (AP) cartridges.</s><r>Создайте 500 патронов Kiiro PT Rifleman (AP).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTRifle_AP.jobString"><s>Making Kiiro PT Rifleman (AP) cartridges.</s><r>Изготовление патронов Kiiro PT Rifleman (AP).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTRifle_AP.label"><s>make Kiiro PT Rifleman (AP) cartridge x500</s><r>сделать патрон Kiiro PT Rifleman (AP) x500</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTRifle_FMJ.description"><s>Craft 500 Kiiro PT Rifleman (FMJ) cartridges.</s><r>Создайте 500 патронов Kiiro PT Rifleman (FMJ).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTRifle_FMJ.jobString"><s>Making Kiiro PT Rifleman (FMJ) cartridges.</s><r>Изготовление патронов Kiiro PT Rifleman (FMJ).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTRifle_FMJ.label"><s>make Kiiro PT Rifleman (FMJ) cartridge x500</s><r>сделать патрон Kiiro PT Rifleman (FMJ) x500</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTRifle_HE.description"><s>Craft 500 Kiiro PT Rifleman (AP-HE) cartridges.</s><r>Создайте 500 патронов Kiiro PT Rifleman (AP-HE).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTRifle_HE.ingredients.1.filter.customSummary"><s>FSX</s><r>ФСХ</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTRifle_HE.jobString"><s>Making Kiiro PT Rifleman (AP-HE) cartridges.</s><r>Изготовление патронов Kiiro PT Rifleman (AP-HE).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTRifle_HE.label"><s>make Kiiro PT Rifleman (AP-HE) cartridge x500</s><r>сделать патрон Kiiro PT Rifleman (AP-HE) x500</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTRifle_HP.description"><s>Craft 500 Kiiro PT Rifleman (HP) cartridges.</s><r>Создайте 500 патронов Kiiro PT Rifleman (HP).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTRifle_HP.jobString"><s>Making Kiiro PT Rifleman (HP) cartridges.</s><r>Изготовление патронов Kiiro PT Rifleman (HP).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTRifle_HP.label"><s>make Kiiro PT Rifleman (HP) cartridge x500</s><r>сделать патрон Kiiro PT Rifleman (HP) x500</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTRifle_Incendiary.description"><s>Craft 500 Kiiro PT Rifleman (AP-I) cartridges.</s><r>Создайте 500 патронов Kiiro PT Rifleman (AP-I).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTRifle_Incendiary.jobString"><s>Making Kiiro PT Rifleman (AP-I) cartridges.</s><r>Изготовление патронов Kiiro PT Rifleman (AP-I).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTRifle_Incendiary.label"><s>make Kiiro PT Rifleman (AP-I) cartridge x500</s><r>сделать патрон Kiiro PT Rifleman (AP-I) x500</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTRifle_Sabot.description"><s>Craft 500 Kiiro PT Rifleman (Sabot) cartridges.</s><r>Изготовьте 500 патронов Kiiro PT Rifleman (Sabot).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTRifle_Sabot.jobString"><s>Making Kiiro PT Rifleman (Sabot) cartridges.</s><r>Изготовление патронов Kiiro PT Rifleman (Sabot).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTRifle_Sabot.label"><s>make Kiiro PT Rifleman (Sabot) cartridge x500</s><r>сделать патрон Kiiro PT Rifleman (Sabot) x500</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTSniper_AP.description"><s>Craft 200 Kiiro PT Sniper (AP) cartridges.</s><r>Изготовьте 200 патронов Kiiro PT Sniper (AP).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTSniper_AP.jobString"><s>Making Kiiro PT Sniper (AP) cartridges.</s><r>Изготовление патронов Kiiro PT Sniper (AP).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTSniper_AP.label"><s>make Kiiro PT Sniper (AP) cartridge x200</s><r>сделать патрон Kiiro PT Sniper (AP) x200</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTSniper_FMJ.description"><s>Craft 200 Kiiro PT Sniper (FMJ) cartridges.</s><r>Изготовьте 200 патронов Kiiro PT Sniper (FMJ).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTSniper_FMJ.jobString"><s>Making Kiiro PT Sniper (FMJ) cartridges.</s><r>Изготовление патронов Kiiro PT Sniper (FMJ).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTSniper_FMJ.label"><s>make Kiiro PT Sniper (FMJ) cartridge x200</s><r>сделать патрон Kiiro PT Sniper (FMJ) x200</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTSniper_HE.description"><s>Craft 200 Kiiro PT Sniper (AP-HE) cartridges.</s><r>Изготовьте 200 патронов Kiiro PT Sniper (AP-HE).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTSniper_HE.ingredients.1.filter.customSummary"><s>FSX</s><r>ФСХ</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTSniper_HE.jobString"><s>Making Kiiro PT Sniper (AP-HE) cartridges.</s><r>Изготовление патронов Kiiro PT Sniper (AP-HE).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTSniper_HE.label"><s>make Kiiro PT Sniper (AP-HE) cartridge x200</s><r>сделать патрон Kiiro PT Sniper (AP-HE) x200</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTSniper_Incendiary.description"><s>Craft 200 Kiiro PT Sniper (AP-I) cartridges.</s><r>Изготовьте 200 патронов Kiiro PT Sniper (AP-I).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTSniper_Incendiary.jobString"><s>Making Kiiro PT Sniper (AP-I) cartridges.</s><r>Изготовление патронов Kiiro PT Sniper (AP-I).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTSniper_Incendiary.label"><s>make Kiiro PT Sniper (AP-I) cartridge x200</s><r>сделать патрон Kiiro PT Sniper (AP-I) x200</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTSniper_Sabot.description"><s>Craft 200 Kiiro PT Sniper (Sabot) cartridges.</s><r>Изготовьте 200 патронов Kiiro PT Sniper (Sabot).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTSniper_Sabot.jobString"><s>Making Kiiro PT Sniper (Sabot) cartridges.</s><r>Изготовление патронов Night PT Sniper (Sabot).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_KiiroPTSniper_Sabot.label"><s>make Kiiro PT Sniper (Sabot) cartridge x200</s><r>изготовить патрон Ночной ПТ Снайпер (Сабо) х200</r></e>
+  <e k="D" t="RecipeDef" key="MakeArrow_BlowGun_Arrow.description"><s>Craft 35 Kiiro blow gun arrow.</s><r>Изготовьте стрелу для духового пистолета Kiiro 35.</r></e>
+  <e k="D" t="RecipeDef" key="MakeArrow_BlowGun_Arrow.ingredients.0.filter.customSummary"><s>древесина, cedar wood, ebony wood, mahogany wood, rosewood, lacquered wood</s><r>древесина, кедр, эбеновое дерево, красное дерево, палисандр, лакированная древесина</r></e>
+  <e k="D" t="RecipeDef" key="MakeArrow_BlowGun_Arrow.jobString"><s>Making Kiiro blow gun arrow.</s><r>Заставляет Кииро выдуть стрелу из пистолета.</r></e>
+  <e k="D" t="RecipeDef" key="MakeArrow_BlowGun_Arrow.label"><s>make Kiiro blow gun arrow x35</s><r>заставь Кииро выдуть стрелу из пистолета x35</r></e>
+  <e k="D" t="RecipeDef" key="MakeArrow_BlowGun_Deadly.description"><s>Craft 35 Deadly Kiiro blow gun arrow.</s><r>Изготовьте 35 смертоносных стрел из духового пистолета Кииро.</r></e>
+  <e k="D" t="RecipeDef" key="MakeArrow_BlowGun_Deadly.ingredients.0.filter.customSummary"><s>древесина, cedar wood, ebony wood, mahogany wood, rosewood, lacquered wood</s><r>древесина, кедр, эбеновое дерево, красное дерево, палисандр, лакированная древесина</r></e>
+  <e k="D" t="RecipeDef" key="MakeArrow_BlowGun_Deadly.jobString"><s>Making Deadly Kiiro blow gun arrow.</s><r>Заставить Смертоносного Кииро выпустить стрелу из пистолета.</r></e>
+  <e k="D" t="RecipeDef" key="MakeArrow_BlowGun_Deadly.label"><s>make Deadly Kiiro blow gun arrow x35</s><r>сделать Смертоносного Кииро ударной стрелой из пистолета x35</r></e>
+  <e k="D" t="RecipeDef" key="MakeArrow_BlowGun_Paralytic.description"><s>Craft 35 Paralytic Kiiro blow gun arrow.</s><r>Изготовьте 35 стрел из духового пистолета Паралитического Кииро.</r></e>
+  <e k="D" t="RecipeDef" key="MakeArrow_BlowGun_Paralytic.ingredients.0.filter.customSummary"><s>древесина, cedar wood, ebony wood, mahogany wood, rosewood, lacquered wood</s><r>древесина, кедр, эбеновое дерево, красное дерево, палисандр, лакированная древесина</r></e>
+  <e k="D" t="RecipeDef" key="MakeArrow_BlowGun_Paralytic.jobString"><s>Making Paralytic Kiiro blow gun arrow.</s><r>Заставить паралитика Кииро выпустить стрелу из пистолета.</r></e>
+  <e k="D" t="RecipeDef" key="MakeArrow_BlowGun_Paralytic.label"><s>make Paralytic Kiiro blow gun arrow x35</s><r>сделать паралитического Кииро выдувным пистолетом со стрелой x35</r></e>
+  <e k="D" t="RecipeDef" key="MakeKiiroShell_FlareCE.description"><s>Craft 5 81mm Flare mortar shells.</s><r>Изготовьте 5 81-мм осветительных минометов.</r></e>
+  <e k="D" t="RecipeDef" key="MakeKiiroShell_FlareCE.jobString"><s>Making 81mm Flare mortar shells.</s><r>Изготовление 81-мм осветительных минометов.</r></e>
+  <e k="D" t="RecipeDef" key="MakeKiiroShell_FlareCE.label"><s>make 81mm Flare mortar shells x5</s><r>сделать 81-мм осветительные минометы x5</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroAutoCrossBowII_Steel.description"><s>Craft 40 plasteel Kiiro flying star bolts.</s><r>Изготовьте 40 пласталевых болтов летающей звезды Кииро.</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroAutoCrossBowII_Steel.ingredients.0.filter.customSummary"><s>древесина, cedar wood, ebony wood, mahogany wood, rosewood, lacquered wood</s><r>древесина, кедр, эбеновое дерево, красное дерево, палисандр, лакированная древесина</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroAutoCrossBowII_Steel.jobString"><s>Making plasteel Kiiro flying star bolts.</s><r>Изготовление пласталевых болтов «Летящая звезда» Кииро.</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroAutoCrossBowII_Steel.label"><s>make plasteel Kiiro flying star bolts x40</s><r>сделать пласталевые болты летающей звезды Кииро x40</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroAutoCrossBow_Steel.description"><s>Craft 20 steel Kiiro through cloud bolts.</s><r>Создайте 20 стальных Кииро с помощью облачных болтов.</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroAutoCrossBow_Steel.ingredients.0.filter.customSummary"><s>древесина, cedar wood, ebony wood, mahogany wood, rosewood, lacquered wood</s><r>древесина, кедр, эбеновое дерево, красное дерево, палисандр, лакированная древесина</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroAutoCrossBow_Steel.jobString"><s>Making steel Kiiro through cloud bolts.</s><r>Создание стального Кииро с помощью облачных болтов.</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroAutoCrossBow_Steel.label"><s>make steel Kiiro through cloud bolts x20</s><r>сделать стального Кииро через облачные болты x20</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroDorsalCrossbow_Steel.description"><s>Craft 20 Kiiro Dorsal Crossbow bolts.</s><r>Изготовьте 20 болтов для спинного арбалета Кииро.</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroDorsalCrossbow_Steel.ingredients.0.filter.customSummary"><s>древесина, cedar wood, ebony wood, mahogany wood, rosewood, lacquered wood</s><r>древесина, кедр, эбеновое дерево, красное дерево, палисандр, лакированная древесина</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroDorsalCrossbow_Steel.jobString"><s>Making Kiiro Dorsal Crossbow bolts.</s><r>Изготовление болтов для спинного арбалета Кииро.</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroDorsalCrossbow_Steel.label"><s>make Kiiro Dorsal Crossbow bolts x20</s><r>сделайте болты для спинного арбалета Кииро x20.</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroPTGrenades_EMP.description"><s>Craft 100 Kiiro PT EMP grenades.</s><r>Создайте 100 ЭМИ-гранат Kiiro PT.</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroPTGrenades_EMP.jobString"><s>Making Kiiro PT EMP grenades.</s><r>Изготовление ЭМИ-гранат Kiiro PT.</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroPTGrenades_EMP.label"><s>make Kiiro PT EMP grenades x100</s><r>сделать ЭМИ-гранаты Kiiro PT x100</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroPTGrenades_HE.description"><s>Craft 100 Kiiro PT HE grenades.</s><r>Создайте 100 PT HE гранат Kiiro.</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroPTGrenades_HE.ingredients.1.filter.customSummary"><s>FSX</s><r>ФСХ</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroPTGrenades_HE.jobString"><s>Making Kiiro PT HE grenades.</s><r>Изготовление гранат Kiiro PT HE.</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroPTGrenades_HE.label"><s>make Kiiro PT HE grenades x100</s><r>сделать гранаты Kiiro PT HE x100</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroPTGrenades_HEDP.description"><s>Craft 100 Kiiro PT HEDP grenades.</s><r>Создайте 100 гранат Kiiro PT HEDP.</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroPTGrenades_HEDP.ingredients.1.filter.customSummary"><s>FSX</s><r>ФСХ</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroPTGrenades_HEDP.jobString"><s>Making Kiiro PT HEDP grenades.</s><r>Изготовление гранат Kiiro PT HEDP.</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroPTGrenades_HEDP.label"><s>make Kiiro PT HEDP grenades x100</s><r>сделать гранаты Kiiro PT HEDP x100</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroPTGrenades_HE_TFuzed.description"><s>Craft 100 Kiiro PT HE Time-Fuzed grenades.</s><r>Создайте 100 гранат Kiiro PT HE с взрывателем времени.</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroPTGrenades_HE_TFuzed.ingredients.1.filter.customSummary"><s>FSX</s><r>ФСХ</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroPTGrenades_HE_TFuzed.jobString"><s>Making Kiiro PT HE Time-Fuzed grenades.</s><r>Изготовление гранат Kiiro PT HE с взрывателем времени.</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroPTGrenades_HE_TFuzed.label"><s>make Kiiro PT HE Time-Fuzed grenades x100</s><r>сделать Kiiro PT HE гранаты с взрывателем времени x100</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroPTGrenades_Smoke.description"><s>Craft 100 Kiiro PT smoke grenades.</s><r>Создайте 100 дымовых гранат Kiiro PT.</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroPTGrenades_Smoke.jobString"><s>Making Kiiro PT smoke grenades.</s><r>Изготовление дымовых гранат Kiiro PT.</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroPTGrenades_Smoke.label"><s>make Kiiro PT smoke grenades x100</s><r>сделать дымовые гранаты Kiiro PT x100</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroRocket_Frag.description"><s>Craft 5 Kiiro rockets.</s><r>Создайте 5 ракет Кииро.</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroRocket_Frag.ingredients.1.filter.customSummary"><s>FSX</s><r>ФСХ</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroRocket_Frag.jobString"><s>Making Kiiro rockets.</s><r>Изготовление ракет Кииро.</r></e>
+  <e k="D" t="RecipeDef" key="Make_KiiroRocket_Frag.label"><s>make Kiiro rockets x5</s><r>сделать ракеты Кииро x5</r></e>
+  <e k="D" t="RecipeDef" key="Makekiiro_throwing_knife.description"><s>Craft kiiro throwing knife x30.</s><r>Ремесленный метательный нож кииро x30.</r></e>
+  <e k="D" t="RecipeDef" key="Makekiiro_throwing_knife.jobString"><s>Making kiiro throwing knife.</s><r>Изготовление метательного ножа кииро.</r></e>
+  <e k="D" t="RecipeDef" key="Makekiiro_throwing_knife.label"><s>make kiiro throwing knife x30</s><r>сделать метательный нож Кииро x30</r></e>
+  <e k="D" t="ThingCategoryDef" key="AmmoKiiroKiiroCrossbowBolts.label"><s>Kiiro crossbow bolts</s><r>Арбалетные болты Кииро</r></e>
+  <e k="D" t="ThingCategoryDef" key="AmmoKiiroPTGrenades.label"><s>Kiiro PT Grenades</s><r>ПТ-гранаты Кииро</r></e>
+  <e k="D" t="ThingCategoryDef" key="AmmoKiiroPTGuardian.label"><s>Kiiro PT Guardian</s><r>Кииро PT Guardian</r></e>
+  <e k="D" t="ThingCategoryDef" key="AmmoKiiroPTRifle.label"><s>Kiiro PT Rifleman</s><r>Кииро ПТ, стрелок</r></e>
+  <e k="D" t="ThingCategoryDef" key="AmmoKiiroPTSniper.label"><s>Kiiro PT Sniper</s><r>Кииро ПТ Снайпер</r></e>
+  <e k="D" t="ThingCategoryDef" key="KiiroRocketFrag.label"><s>Kiiro Rockets</s><r>Кииро Рокетс</r></e>
+  <e k="D" t="ThingCategoryDef" key="Kiiro_KiiroBlowGun.label"><s>Kiiro blow gun Arrow</s><r>Кииро духовой пистолет Стрела</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroArrow_Deadly.description"><s>Simple arrow design with a cutting head attached to a wooden shaft.
+
+Kiiro Deadly arrow:
+A Deadly poison arrow manufactured by the Kiiro race.
+
+Используется:</s><r>Простая конструкция стрелы с режущей головкой, прикрепленной к деревянному древку.
+
+Кииро Смертельная стрела:
+Смертоносная ядовитая стрела, изготовленная расой Кииро.
+
+Используется:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroArrow_Deadly.label"><s>Kiiro arrow (Deadly)</s><r>Стрела Кииро (Смертельная)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroArrow_Paralytic.description"><s>Simple arrow design with a cutting head attached to a wooden shaft.
+
+Kiiro Paralytic arrow:
+A type of Paralytic poison arrow made by the Kiiro race.
+
+Используется:</s><r>Простая конструкция стрелы с режущей головкой, прикрепленной к деревянному древку.
+
+Кииро Паралитическая стрела:
+Разновидность паралитической ядовитой стрелы, созданной расой Кииро.
+
+Используется:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroArrow_Paralytic.label"><s>Kiiro arrow (Paralytic)</s><r>Стрела Кииро (паралитическая)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroAutoCrossBowII_Steel.description"><s>A crossbow bolt by Kiiro.</s><r>Арбалетный болт от Кииро.</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroAutoCrossBowII_Steel.label"><s>Kiiro flying star bolt</s><r>Кииро летящая звезда</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroAutoCrossBow_Steel.description"><s>A crossbow bolt by Kiiro.</s><r>Арбалетный болт от Кииро.</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroAutoCrossBow_Steel.label"><s>Kiiro through cloud bolt</s><r>Кииро сквозь облако облаков</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroCrossbowBolt_Deadly.description"><s>A crossbow bolt.
+
+Kiiro Deadly crossbow bolt:
+A Deadly poison crossbow bolt manufactured by the Kiiro race.
+
+Используется:</s><r>Арбалетный болт.
+
+Вечерний смертоносный арбалетный болт:
+Смертельно ядовитый арбалетный болт, изготовленный расой Кииро.
+
+Испузятся:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroCrossbowBolt_Deadly.label"><s>Kiiro crossbow bolt (Deadly)</s><r>Арбалетный болт Кииро (Смертельный)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroCrossbowBolt_Paralytic.description"><s>A crossbow bolt.
+
+Kiiro Paralytic crossbow bolt:
+A type of Paralytic poison crossbow bolt made by the Kiiro race.
+
+Используется:</s><r>Арбалетный болт.
+
+Кииро Паралитический арбалетный болт:
+Разновидность паралитического ядовитого арбалетного болта, созданного расой Кииро.
+
+Используется:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroCrossbowBolt_Paralytic.label"><s>Kiiro crossbow bolt (Paralytic)</s><r>Арбалетный болт Кииро (паралитический)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroDorsalCrossbow_Steel.description"><s>A crossbow bolt by Kiiro.</s><r>Арбалетный болт от Кииро.</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroDorsalCrossbow_Steel.label"><s>Kiiro Dorsal Crossbow bolt</s><r>Спинной арбалетный болт Кииро</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroGreatArrow_Deadly.description"><s>Heavy arrow designed to be fired from a great bow.
+
+Kiiro Deadly arrow:
+A Deadly poison arrow manufactured by the Kiiro race.
+
+Используется:</s><r>Тяжелая стрела, предназначенная для стрельбы из большого лука.
+
+Кииро Смертельная стрела:
+Смертоносная ядовитая стрела, изготовленная расой Кииро.
+
+Используется:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroGreatArrow_Deadly.label"><s>Kiiro great arrow (Deadly)</s><r>Большая стрела Кииро (Смертельная)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroGreatArrow_Paralytic.description"><s>Heavy arrow designed to be fired from a great bow.
+
+Kiiro Paralytic arrow:
+A type of Paralytic poison arrow made by the Kiiro race.
+
+Используется:</s><r>Тяжелая стрела, предназначенная для стрельбы из большого лука.
+
+Кииро Паралитическая стрела:
+Разновидность паралитической ядовитой стрелы, созданной расой Кииро.
+
+Используется:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroGreatArrow_Paralytic.label"><s>Kiiro great arrow (Paralytic)</s><r>Большая стрела Кииро (паралитическая)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTGrenades_EMP.description"><s>A type of grenade developed by the Kiiro race for the prototype series of weapons, used for various individual launchers.
+
+ЭМИ:
+Создает электромагнитный импульс при ударе, нарушая работу электроники. Эффективен против механоидов
+
+Используется:</s><r>A type of grenade developed by the Kiiro race for the prototype series of weapons, used for various individual launchers.
+
+ЭМИ:
+Создает электромагнитный импульс при ударе, нарушая работу электроники. Эффективен против механоидов
+
+Используется:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTGrenades_EMP.label"><s>Kiiro PT Grenades (EMP)</s><r>ПТ-гранаты Кииро (ЭМИ)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTGrenades_HE.description"><s>A type of grenade developed by the Kiiro race for the prototype series of weapons, used for various individual launchers.
+
+Фугасная:
+Взрывоопасный заряд детонирует при ударе, рассеивая поражающие элементы в большой области
+
+Используется:</s><r>A type of grenade developed by the Kiiro race for the prototype series of weapons, used for various individual launchers.
+
+Фугасная:
+Взрывоопасный заряд детонирует при ударе, рассеивая поражающие элементы в большой области
+
+Используется:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTGrenades_HE.label"><s>Kiiro PT Grenades (HE)</s><r>ПТ-гранаты Кииро (HE)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTGrenades_HEDP.label"><s>Kiiro PT Grenades (HEDP)</s><r>ПТ-гранаты Кииро (HEDP)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTGrenades_HE_TFuzed.description"><s>A type of grenade developed by the Kiiro race for the prototype series of weapons, used for various individual launchers.
+
+Фугасный взрыв в воздухе:
+Граната с временным взрывателем, предназначенным для детонации в полете для достижения максимальной эффективности.
+
+Используется:</s><r>A type of grenade developed by the Kiiro race for the prototype series of weapons, used for various individual launchers.
+
+Фугасный взрыв в воздухе:
+Граната с временным взрывателем, предназначенным для детонации в полете для достижения максимальной эффективности.
+
+Используется:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTGrenades_HE_TFuzed.label"><s>Kiiro PT Grenades (HE Time-Fuzed)</s><r>ПТ-гранаты Кииро (HE с взрывателем времени)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTGrenades_Smoke.description"><s>A type of grenade developed by the Kiiro race for the prototype series of weapons, used for various individual launchers.
+
+Дым:
+Заполненный дымообразующим веществом. Взрывается при ударе, создавая густую дымовую завесу
+
+Используется:</s><r>A type of grenade developed by the Kiiro race for the prototype series of weapons, used for various individual launchers.
+
+Дым:
+Заполненный дымообразующим веществом. Взрывается при ударе, создавая густую дымовую завесу
+
+Используется:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTGrenades_Smoke.label"><s>Kiiro PT Grenades (Smoke)</s><r>ПТ-гранаты Кииро (дымовые)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTGuardian_AP.description"><s>A type of High caliber ammunition developed by the Kiiro race for the prototype series of weapons. It has strong penetration but average power. It is commonly used on fixed machine guns when defending positions.
+
+Бронебойные:
+Имеет упрочненный стальной бронебойный сердечник для увеличения проникновения в броню
+
+Используется:</s><r>A type of High caliber ammunition developed by the Kiiro race for the prototype series of weapons. It has strong penetration but average power. It is commonly used on fixed machine guns when defending positions.
+
+Бронебойные:
+Имеет упрочненный стальной бронебойный сердечник для увеличения проникновения в броню
+
+Используется:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTGuardian_AP.label"><s>Kiiro PT Guardian (AP)</s><r>Кииро PT Guardian (AP)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTGuardian_FMJ.description"><s>A type of High caliber ammunition developed by the Kiiro race for the prototype series of weapons. It has strong penetration but average power. It is commonly used on fixed machine guns when defending positions.
+
+Оболочечные:
+Сердечник из мягкого свинца покрытый более твёрдой металлической оболочкой. Сочетает в себе среднюю силу останавливающего действия и проникновения в броню
+
+Используется:</s><r>A type of High caliber ammunition developed by the Kiiro race for the prototype series of weapons. It has strong penetration but average power. It is commonly used on fixed machine guns when defending positions.
+
+Оболочечные:
+Сердечник из мягкого свинца покрытый более твёрдой металлической оболочкой. Сочетает в себе среднюю силу останавливающего действия и проникновения в броню
+
+Используется:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTGuardian_FMJ.label"><s>Kiiro PT Guardian (FMJ)</s><r>Кииро PT Guardian (FMJ)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTGuardian_HE.description"><s>A type of High caliber ammunition developed by the Kiiro race for the prototype series of weapons. It has strong penetration but average power. It is commonly used on fixed machine guns when defending positions.
+
+Бронебойно-фугасные:
+Заполняется взрывчаткой, которая взрывается при ударе нанося дополнительный урон
+
+Используется:</s><r>A type of High caliber ammunition developed by the Kiiro race for the prototype series of weapons. It has strong penetration but average power. It is commonly used on fixed machine guns when defending positions.
+
+Бронебойно-фугасные:
+Заполняется взрывчаткой, которая взрывается при ударе нанося дополнительный урон
+
+Используется:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTGuardian_HE.label"><s>Kiiro PT Guardian (AP-HE)</s><r>Кииро PT Guardian (AP-HE)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTGuardian_Incendiary.description"><s>A type of High caliber ammunition developed by the Kiiro race for the prototype series of weapons. It has strong penetration but average power. It is commonly used on fixed machine guns when defending positions.
+
+Бронебойно-Зажигательные:
+Заполняется зажигательным соединением, которое воспламеняется при ударе, нанося дополнительный урон и потенциально воспламеняя цель
+
+Используется:</s><r>A type of High caliber ammunition developed by the Kiiro race for the prototype series of weapons. It has strong penetration but average power. It is commonly used on fixed machine guns when defending positions.
+
+Бронебойно-Зажигательные:
+Заполняется зажигательным соединением, которое воспламеняется при ударе, нанося дополнительный урон и потенциально воспламеняя цель
+
+Используется:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTGuardian_Incendiary.label"><s>Kiiro PT Guardian (AP-I)</s><r>Кииро PT Guardian (AP-I)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTGuardian_Sabot.description"><s>A type of High caliber ammunition developed by the Kiiro race for the prototype series of weapons. It has strong penetration but average power. It is commonly used on fixed machine guns when defending positions.
+
+Бронебойные подкалиберные с отделяемым поддоном:
+Использует отделяемый поддон для выстрела подкалиберным снарядом, что обеспечивает высокую начальную скорость и значительно повышает бронепробиваемость.
+
+Используется:</s><r>A type of High caliber ammunition developed by the Kiiro race for the prototype series of weapons. It has strong penetration but average power. It is commonly used on fixed machine guns when defending positions.
+
+Бронебойные подкалиберные с отделяемым поддоном:
+Использует отделяемый поддон для выстрела подкалиберным снарядом, что обеспечивает высокую начальную скорость и значительно повышает бронепробиваемость.
+
+Используется:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTGuardian_Sabot.label"><s>Kiiro PT Guardian (Sabot)</s><r>Кииро PT Guardian (Сабо)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTRifle_AP.description"><s>A type of rifle ammunition developed by the Kiiro race for the prototype series of weapons. It has strong penetration but less power.
+
+Бронебойные:
+Имеет упрочненный стальной бронебойный сердечник для увеличения проникновения в броню
+
+Используется:</s><r>A type of rifle ammunition developed by the Kiiro race for the prototype series of weapons. It has strong penetration but less power.
+
+Бронебойные:
+Имеет упрочненный стальной бронебойный сердечник для увеличения проникновения в броню
+
+Используется:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTRifle_AP.label"><s>Kiiro PT Rifleman (AP)</s><r>Кииро ПТ-стрелок (AP)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTRifle_FMJ.description"><s>A type of rifle ammunition developed by the Kiiro race for the prototype series of weapons. It has strong penetration but less power.
+
+Оболочечные:
+Сердечник из мягкого свинца покрытый более твёрдой металлической оболочкой. Сочетает в себе среднюю силу останавливающего действия и проникновения в броню
+
+Используется:</s><r>A type of rifle ammunition developed by the Kiiro race for the prototype series of weapons. It has strong penetration but less power.
+
+Оболочечные:
+Сердечник из мягкого свинца покрытый более твёрдой металлической оболочкой. Сочетает в себе среднюю силу останавливающего действия и проникновения в броню
+
+Используется:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTRifle_FMJ.label"><s>Kiiro PT Rifleman (FMJ)</s><r>Кииро ПТ Стрелок (FMJ)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTRifle_HE.description"><s>A type of rifle ammunition developed by the Kiiro race for the prototype series of weapons. It has strong penetration but less power.
+
+Бронебойно-фугасные:
+Заполняется взрывчаткой, которая взрывается при ударе нанося дополнительный урон
+
+Используется:</s><r>A type of rifle ammunition developed by the Kiiro race for the prototype series of weapons. It has strong penetration but less power.
+
+Бронебойно-фугасные:
+Заполняется взрывчаткой, которая взрывается при ударе нанося дополнительный урон
+
+Используется:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTRifle_HE.label"><s>Kiiro PT Rifleman (AP-HE)</s><r>Кииро ПТ-стрелок (AP-HE)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTRifle_HP.description"><s>A type of rifle ammunition developed by the Kiiro race for the prototype series of weapons. It has strong penetration but less power.
+
+Экспансивные:
+Полость в наконечнике заставляет пулю расширяться при ударе, увеличивая повреждение тканей ценой проникновения в броню
+
+Используется:</s><r>A type of rifle ammunition developed by the Kiiro race for the prototype series of weapons. It has strong penetration but less power.
+
+Экспансивные:
+Полость в наконечнике заставляет пулю расширяться при ударе, увеличивая повреждение тканей ценой проникновения в броню
+
+Используется:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTRifle_HP.label"><s>Kiiro PT Rifleman (HP)</s><r>Кииро ПТ-стрелок (HP)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTRifle_Incendiary.description"><s>A type of rifle ammunition developed by the Kiiro race for the prototype series of weapons. It has strong penetration but less power.
+
+Бронебойно-Зажигательные:
+Заполняется зажигательным соединением, которое воспламеняется при ударе, нанося дополнительный урон и потенциально воспламеняя цель
+
+Используется:</s><r>A type of rifle ammunition developed by the Kiiro race for the prototype series of weapons. It has strong penetration but less power.
+
+Бронебойно-Зажигательные:
+Заполняется зажигательным соединением, которое воспламеняется при ударе, нанося дополнительный урон и потенциально воспламеняя цель
+
+Используется:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTRifle_Incendiary.label"><s>Kiiro PT Rifleman (AP-I)</s><r>Кииро ПТ-стрелок (AP-I)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTRifle_Sabot.label"><s>Kiiro PT Rifleman (Sabot)</s><r>Кииро PT Rifleman (суббота)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTSniper_AP.description"><s>A type of sniper rifle ammunition developed by the Kiiro race for the prototype series of weapons. It has strong penetration but less power.
+
+Бронебойные:
+Имеет упрочненный стальной бронебойный сердечник для увеличения проникновения в броню
+
+Используется:</s><r>A type of sniper rifle ammunition developed by the Kiiro race for the prototype series of weapons. It has strong penetration but less power.
+
+Бронебойные:
+Имеет упрочненный стальной бронебойный сердечник для увеличения проникновения в броню
+
+Используется:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTSniper_AP.label"><s>Kiiro PT Sniper (AP)</s><r>Кииро ПТ Снайпер (AP)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTSniper_FMJ.description"><s>A type of sniper rifle ammunition developed by the Kiiro race for the prototype series of weapons. It has strong penetration but less power.
+
+Оболочечные:
+Сердечник из мягкого свинца покрытый более твёрдой металлической оболочкой. Сочетает в себе среднюю силу останавливающего действия и проникновения в броню
+
+Используется:</s><r>A type of sniper rifle ammunition developed by the Kiiro race for the prototype series of weapons. It has strong penetration but less power.
+
+Оболочечные:
+Сердечник из мягкого свинца покрытый более твёрдой металлической оболочкой. Сочетает в себе среднюю силу останавливающего действия и проникновения в броню
+
+Используется:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTSniper_FMJ.label"><s>Kiiro PT Sniper (FMJ)</s><r>Кииро ПТ Снайпер (FMJ)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTSniper_HE.description"><s>A type of sniper rifle ammunition developed by the Kiiro race for the prototype series of weapons. It has strong penetration but less power.
+
+Бронебойно-фугасные:
+Заполняется взрывчаткой, которая взрывается при ударе нанося дополнительный урон
+
+Используется:</s><r>A type of sniper rifle ammunition developed by the Kiiro race for the prototype series of weapons. It has strong penetration but less power.
+
+Бронебойно-фугасные:
+Заполняется взрывчаткой, которая взрывается при ударе нанося дополнительный урон
+
+Используется:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTSniper_HE.label"><s>Kiiro PT Sniper (AP-HE)</s><r>Кииро ПТ Снайпер (AP-HE)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTSniper_Incendiary.description"><s>A type of sniper rifle ammunition developed by the Kiiro race for the prototype series of weapons. It has strong penetration but less power.
+
+Бронебойно-Зажигательные:
+Заполняется зажигательным соединением, которое воспламеняется при ударе, нанося дополнительный урон и потенциально воспламеняя цель
+
+Используется:</s><r>A type of sniper rifle ammunition developed by the Kiiro race for the prototype series of weapons. It has strong penetration but less power.
+
+Бронебойно-Зажигательные:
+Заполняется зажигательным соединением, которое воспламеняется при ударе, нанося дополнительный урон и потенциально воспламеняя цель
+
+Используется:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTSniper_Incendiary.label"><s>Kiiro PT Sniper (AP-I)</s><r>Кииро ПТ Снайпер (AP-I)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroPTSniper_Sabot.label"><s>Kiiro PT Sniper (Sabot)</s><r>Кииро ПТ Снайпер (Сабо)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroRocket_Frag.description"><s>A type of rocket developed by the Kiiro race, sacrificing armor-piercing capability and explosive power to increase the range of damage.</s><r>Тип ракеты, разработанный расой Кииро, в которой бронебойность и взрывная сила приносятся в жертву ради увеличения дальности поражения.</r></e>
+  <e k="D" t="ThingDef" key="Ammo_KiiroRocket_Frag.label"><s>Kiiro Rocket</s><r>Кииро Ракета</r></e>
+  <e k="D" t="ThingDef" key="Arrow_BlowGun_Arrow.description"><s>A blow arrow made by the Kiiro race.
+
+Kiiro Blow gun arrow:
+A type of Blow Gun arrow made by the Kiiro race.
+
+Используется:</s><r>Ударная стрела, созданная расой Кииро.
+
+Кииро Стрела из пистолета:
+Разновидность стрелы для духового пистолета, созданная расой Кииро.
+
+Используется:</r></e>
+  <e k="D" t="ThingDef" key="Arrow_BlowGun_Arrow.label"><s>Kiiro blow gun arrow</s><r>Кииро стрела из духового пистолета</r></e>
+  <e k="D" t="ThingDef" key="Arrow_BlowGun_Deadly.description"><s>A blow arrow made by the Kiiro race.
+
+Kiiro Deadly gun arrow:
+A Deadly poison arrow manufactured by the Kiiro race.
+
+Используется:</s><r>Ударная стрела, созданная расой Кииро.
+
+Кииро Смертоносная стрела:
+Смертоносная ядовитая стрела, изготовленная расой Кииро.
+
+Используется:</r></e>
+  <e k="D" t="ThingDef" key="Arrow_BlowGun_Deadly.label"><s>Kiiro blow gun arrow (Deadly)</s><r>Кииро выдувает стрелу из пистолета (Смертельно)</r></e>
+  <e k="D" t="ThingDef" key="Arrow_BlowGun_Paralytic.description"><s>A blow arrow made by the Kiiro race.
+
+Kiiro Paralytic gun arrow:
+A type of Paralytic poison arrow made by the Kiiro race.
+
+Используется:</s><r>Ударная стрела, созданная расой Кииро.
+
+Кииро Паралитическая стрела:
+Разновидность паралитической ядовитой стрелы, созданной расой Кииро.
+
+Используется:</r></e>
+  <e k="D" t="ThingDef" key="Arrow_BlowGun_Paralytic.label"><s>Kiiro blow gun arrow (Paralytic)</s><r>Стрела из духового пистолета Кииро (Паралитик)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_KiiroPTGrenades_EMP.label"><s>Kiiro PT Grenades (EMP)</s><r>ПТ-гранаты Кииро (ЭМИ)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_KiiroPTGrenades_HE.label"><s>Kiiro PT Grenades (HE)</s><r>ПТ-гранаты Кииро (HE)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_KiiroPTGrenades_HEDP.label"><s>Kiiro PT Grenades (HEDP)</s><r>ПТ-гранаты Кииро (HEDP)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_KiiroPTGrenades_HE_TFuzed.label"><s>Kiiro PT Grenades (HE Time-Fuzed)</s><r>ПТ-гранаты Кииро (HE с взрывателем времени)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_KiiroPTGrenades_Smoke.label"><s>Kiiro PT Grenades (Smoke)</s><r>ПТ-гранаты Кииро (дымовые)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_KiiroPTGuardian_AP.label"><s>Kiiro PT Guardian bullet (AP)</s><r>Пуля Kiiro PT Guardian (AP)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_KiiroPTGuardian_FMJ.label"><s>Kiiro PT Guardian bullet (FMJ)</s><r>Пуля Kiiro PT Guardian (FMJ)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_KiiroPTGuardian_HE.label"><s>Kiiro PT Guardian bullet (AP-HE)</s><r>Пуля Kiiro PT Guardian (AP-HE)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_KiiroPTGuardian_Incendiary.label"><s>Kiiro PT Guardian bullet (AP-I)</s><r>Пуля Kiiro PT Guardian (AP-I)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_KiiroPTGuardian_Sabot.label"><s>Kiiro PT Guardian bullet (Sabot)</s><r>Пуля Kiiro PT Guardian (Сабо)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_KiiroPTRifle_AP.label"><s>Kiiro PT Rifleman bullet (AP)</s><r>Пуля Kiiro PT Rifleman (AP)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_KiiroPTRifle_FMJ.label"><s>Kiiro PT Rifleman bullet (FMJ)</s><r>Пуля Kiiro PT Rifleman (FMJ)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_KiiroPTRifle_HE.label"><s>Kiiro PT Rifleman bullet (AP-HE)</s><r>Пуля Kiiro PT Rifleman (AP-HE)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_KiiroPTRifle_HP.label"><s>Kiiro PT Rifleman bullet (HP)</s><r>Пуля Kiiro PT Rifleman (HP)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_KiiroPTRifle_Incendiary.label"><s>Kiiro PT Rifleman bullet (AP-I)</s><r>Пуля Kiiro PT Rifleman (AP-I)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_KiiroPTRifle_Sabot.label"><s>Kiiro PT Rifleman bullet (Sabot)</s><r>Пуля Kiiro PT Rifleman (Sabot)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_KiiroPTSniper_AP.label"><s>Kiiro PT Sniper bullet (AP)</s><r>Kiiro PT Снайперская пуля (AP)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_KiiroPTSniper_FMJ.label"><s>Kiiro PT Sniper bullet (FMJ)</s><r>Снайперская пуля Kiiro PT (FMJ)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_KiiroPTSniper_HE.label"><s>Kiiro PT Sniper bullet (AP-HE)</s><r>Снайперская пуля Kiiro PT (AP-HE)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_KiiroPTSniper_Incendiary.label"><s>Kiiro PT Sniper bullet (AP-I)</s><r>Снайперская пуля Kiiro PT (AP-I)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_KiiroPTSniper_Sabot.label"><s>Kiiro PT Sniper bullet (Sabot)</s><r>Ночная ПТ Снайперская пуля (Sabot)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_KiiroRocket_Frag.label"><s>Kiiro Rocket</s><r>Кииро Ракета</r></e>
+  <e k="D" t="ThingDef" key="KiiroBullet_Shell_FlareCE.label"><s>81mm mortar shell (Flare)</s><r>81-мм минометный снаряд (Вспышка)</r></e>
+  <e k="D" t="ThingDef" key="KiiroShell_FlareCE.description"><s>flare shell made by the Kiiro race.
+
+Flare shell:
+flare shell.
+
+Используется:</s><r>сигнальный снаряд, созданный расой Кииро.
+
+Вспышка:
+вспышечная оболочка.
+
+Используется:</r></e>
+  <e k="D" t="ThingDef" key="KiiroShell_FlareCE.label"><s>81mm mortar shell (Flare)</s><r>81-мм минометный снаряд (Вспышка)</r></e>
+  <e k="D" t="ThingDef" key="Projectile_KiiroArrow_Deadly.label"><s>Kiiro arrow (Deadly)</s><r>Стрела Кииро (Смертельная)</r></e>
+  <e k="D" t="ThingDef" key="Projectile_KiiroArrow_Paralytic.label"><s>Kiiro arrow (Paralytic)</s><r>Стрела Кииро (паралитическая)</r></e>
+  <e k="D" t="ThingDef" key="Projectile_KiiroAutoCrossBowII_steel.label"><s>flying star bolt</s><r>болт летящей звезды</r></e>
+  <e k="D" t="ThingDef" key="Projectile_KiiroAutoCrossBow_Steel.label"><s>through cloud bolt</s><r>сквозь облачный болт</r></e>
+  <e k="D" t="ThingDef" key="Projectile_KiiroBlowGun_Arrow.label"><s>Kiiro blow gun arrow</s><r>Кииро стрела из духового пистолета</r></e>
+  <e k="D" t="ThingDef" key="Projectile_KiiroBlowGun_Deadly.label"><s>Kiiro blow gun arrow (Deadly)</s><r>Кииро выдувает стрелу из пистолета (Смертельно)</r></e>
+  <e k="D" t="ThingDef" key="Projectile_KiiroBlowGun_Paralytic.label"><s>Kiiro blow gun arrow (Paralytic)</s><r>Стрела из духового пистолета Кииро (Паралитик)</r></e>
+  <e k="D" t="ThingDef" key="Projectile_KiiroCrossbowBolt_Deadly.label"><s>Kiiro crossbow bolt (Deadly)</s><r>Арбалетный болт Кииро (Смертельный)</r></e>
+  <e k="D" t="ThingDef" key="Projectile_KiiroCrossbowBolt_Paralytic.label"><s>Kiiro crossbow bolt (Paralytic)</s><r>Арбалетный болт Кииро (паралитический)</r></e>
+  <e k="D" t="ThingDef" key="Projectile_KiiroDorsalCrossbow_Steel.label"><s>Kiiro Dorsal Crossbow Bolt</s><r>Спинной арбалетный болт Кииро</r></e>
+  <e k="D" t="ThingDef" key="Projectile_KiiroGreatArrow_Deadly.label"><s>Kiiro great arrow (Deadly)</s><r>Большая стрела Кииро (Смертельная)</r></e>
+  <e k="D" t="ThingDef" key="Projectile_KiiroGreatArrow_Paralytic.label"><s>Kiiro great arrow (Paralytic)</s><r>Большая стрела Кииро (паралитическая)</r></e>
+</AutoTranslateCache>
