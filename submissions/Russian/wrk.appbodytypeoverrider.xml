@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="wrk.appbodytypeoverrider" name="WRelicK's APP Utilities" language="Russian" version="1">
+  <e k="K" key="APPUtil_Button_NoAPPDefSelected"><s>No User Tuning selected</s><r>Пользовательская настройка не выбрана</r></e>
+  <e k="K" key="APPUtil_Button_NoCPMSelected"><s>No Compound Mask selected</s><r>Составная маска не выбрана</r></e>
+  <e k="K" key="APPUtil_Button_NoSelection"><s>No Selection</s><r>Нет выбора</r></e>
+  <e k="K" key="APPUtil_Button_OpenDocumentation"><s>Open documentation</s><r>Открыть документацию</r></e>
+  <e k="K" key="APPUtil_Button_RevertAllChanges"><s>Revert All</s><r>Восстановить все</r></e>
+  <e k="K" key="APPUtil_Button_SaveAllChanges"><s>Save All</s><r>Сохранить все</r></e>
+  <e k="K" key="APPUtil_Button_SkipDocumentation"><s>Skip</s><r>Пропускать</r></e>
+  <e k="K" key="APPUtil_EnableAlwaysOverridePants_Label"><s>Solid color pants overrides</s><r>Однотонные брюки переопределяют</r></e>
+  <e k="K" key="APPUtil_EnableAlwaysOverridePants_Tooltip"><s>&lt;b&gt;Requires a restart to take effect.&lt;/b&gt;
+
+Adds a solid color override to all APP legwear defs. This will force them to render with a solid color, which can be more reliable (though less accurate) than the method used in &quot;Enable APP pants&quot;.
+
+This setting will do nothing if &quot;Enable APP pants&quot; is not enabled.
+
+Try disabling this setting if you're using a mod that adds pants retextures you actually want to use (and which your APP extension can handle). Note that the only way for retextures to have full compatibility with THIGAPPE is for them to exempt their items from THIGAPPE's influence.
+
+This setting will do nothing unless an APP extension (such as THIGAPPE) makes use of it.</s><r>&lt;b&gt;Для вступления в силу требуется перезагрузка.&lt;/b&gt;
+
+Добавляет переопределение сплошного цвета ко всем определениям чулков в приложении. Это заставит их отображать сплошной цвет, что может быть более надежным (хотя и менее точным), чем метод, используемый в «Включить брюки APP».
+
+Этот параметр не будет работать, если «Включить брюки APP» не включен.
+
+Попробуйте отключить этот параметр, если вы используете мод, который добавляет ретекстуры брюк, которые вы действительно хотите использовать (и которые может обрабатывать ваше расширение APP). Обратите внимание, что единственный способ обеспечить полную совместимость ретекстур с THIGAPPE — это освободить свои элементы от влияния THIGAPPE.
+
+Этот параметр не будет ничего делать, если его не использует расширение приложения (например, THIGAPPE).</r></e>
+  <e k="K" key="APPUtil_EnableAutomaticArmorMatching_Label"><s>Enable automatic (tag-based) armor recognition</s><r>Включить автоматическое (на основе тегов) распознавание брони</r></e>
+  <e k="K" key="APPUtil_EnableAutomaticArmorMatching_Tooltip"><s>&lt;b&gt;Requires a restart to take effect.&lt;/b&gt;
+
+Automatically applies armor Defs to any items that have the word &quot;armor&quot; in their label or description and also cover the torso and legs.
+
+If this setting is disabled, armor Defs will only apply to a preselected masterlist of items.
+
+Try disabling this setting if a modded item is being masked as armor when it shouldn't be.
+
+This setting will do nothing unless an APP extension (such as THIGAPPE) makes use of it.</s><r>&lt;b&gt;Для вступления в силу требуется перезагрузка.&lt;/b&gt;
+
+Автоматически применяет параметры брони к любым предметам, в этикетке или описании которых есть слово «броня», а также покрывает туловище и ноги.
+
+Если этот параметр отключен, параметры брони будут применяться только к заранее выбранному основному списку items.
+
+Попробуйте отключить этот параметр, если модифицированный предмет маскируется под броню, хотя это не должно быть.
+
+Этот параметр не будет работать, если его не использует расширение приложения (например, THIGAPPE).</r></e>
+  <e k="K" key="APPUtil_EnableAutomaticBootsMatching_Label"><s>Enable automatic (tag-based) footwear recognition</s><r>Включить автоматическое (на основе тегов) распознавание обуви</r></e>
+  <e k="K" key="APPUtil_EnableAutomaticBootsMatching_Tooltip"><s>&lt;b&gt;Requires a restart to take effect.&lt;/b&gt;
+
+Automatically applies footwear Defs to any skin-layer items that lack an existing graphic and exclusively cover a pawn's feet.
+
+Note that footwear Defs are currently only available for humans and races that share their body textures.
+
+If this setting is disabled, footwear Defs will only apply to a preselected masterlist of items.
+
+Try disabling this setting if a modded item is being masked as footwear when it shouldn't be.
+
+This setting will do nothing unless an APP extension (such as THIGAPPE) makes use of it.</s><r>&lt;b&gt;Для вступления в силу требуется перезагрузка.&lt;/b&gt;
+
+Автоматически применяет характеристики обуви к любым предметам слоя кожи, у которых отсутствует существующая графика и которые покрывают исключительно ноги пешки.
+
+Обратите внимание, что характеристики обуви в настоящее время доступны только для людей и рас, которые разделяют их тело. текстуры.
+
+Если этот параметр отключен, параметры обуви будут применяться только к предварительно выбранному основному списку предметов.
+
+Попробуйте отключить этот параметр, если модифицированный элемент маскируется под обувь, хотя это не должно быть.
+
+Этот параметр не будет ничего делать, если его не использует расширение приложения (например, THIGAPPE).</r></e>
+  <e k="K" key="APPUtil_EnableAutomaticOnSkinFullMatching_Label"><s>Enable automatic (tag-based) bodysuit recognition</s><r>Включить автоматическое (на основе тегов) распознавание боди</r></e>
+  <e k="K" key="APPUtil_EnableAutomaticOnSkinFullMatching_Tooltip"><s>&lt;b&gt;Requires a restart to take effect.&lt;/b&gt;
+
+Automatically applies bodysuit Defs to any skin-layer items that cover both a pawn's torso and legs.
+
+If this setting is disabled, bodysuit Defs will only apply to a preselected masterlist of items.
+
+Try disabling this setting if a modded item is being masked as a bodysuit when it shouldn't be.
+
+This setting will do nothing unless an APP extension (such as THIGAPPE) makes use of it.</s><r>&lt;b&gt;Для вступления в силу требуется перезагрузка.&lt;/b&gt;
+
+Автоматически применяет характеристики комбинезона к любым элементам слоя кожи, которые покрывают как туловище, так и ноги пешки.
+
+Если этот параметр отключен, параметры комбинезона будут применяться только к предварительно выбранному основному списку items.
+
+Попробуйте отключить этот параметр, если модифицированный предмет маскируется под боди, хотя это не должно быть.
+
+Этот параметр не будет работать, если его не использует расширение приложения (например, THIGAPPE).</r></e>
+  <e k="K" key="APPUtil_EnableAutomaticPantsMatching_Label"><s>Enable automatic (tag-based) pants recognition</s><r>Включить автоматическое распознавание штанов (на основе меток)</r></e>
+  <e k="K" key="APPUtil_EnableAutomaticPantsMatching_Tooltip"><s>&lt;b&gt;Requires a restart to take effect.&lt;/b&gt;
+
+Automatically applies pants Defs to any items that exclusively cover a pawn's legs.
+
+If this setting is disabled, pants Defs will only apply to a preselected masterlist of items.
+
+Unless you're using mods that add pants textures, this won't do much unless &quot;Enable APP pants overrides&quot; is also enabled.
+
+Try disabling this setting if a modded item is being masked as pants when it shouldn't be.
+
+This setting will do nothing unless an APP extension (such as THIGAPPE) makes use of it.</s><r>&lt;b&gt;Для вступления в силу требуется перезагрузка.&lt;/b&gt;
+
+Автоматически применяет характеристики штанов к любым предметам, которые покрывают исключительно ноги пешки.
+
+Если этот параметр отключен, характеристики штанов будут применяться только к предварительно выбранному основному списку предметов.
+
+Если вы не используете моды, которые добавьте текстуры штанов, это мало что даст, если также не включено «Включить переопределение штанов в приложении».
+
+Попробуйте отключить этот параметр, если модифицированный элемент маскируется под штаны, хотя это не должно быть.
+
+Этот параметр не будет ничего делать, если его не использует расширение приложения (например, THIGAPPE).</r></e>
+  <e k="K" key="APPUtil_EnableCompoundMasks_Label"><s>Enable compound masks</s><r>Включить составные маски</r></e>
+  <e k="K" key="APPUtil_EnableCompoundMasks_Tooltip"><s>Toggles all Harmony patches related to compound masks. 
+
+Also acts as a hook for XML patches to unload content related to compound masks. This aspect &lt;b&gt;requires a restart to take effect.&lt;/b&gt;
+
+Compound masks are an experimental system that allows one piece of apparel to render multiple times with different masks and offsets. This permits developers to selectively scale some parts of apparel and not others. 
+
+In THIGAPPE, compound masks are used for a variety of things, such as:
+- Improved skin layer bodysuit rendering
+- Human power armor rendering
+- Xenoorca bust size differences
+
+Compound masks were once unstable, relying on heavy alterations to the pawn rendering code. This has since been resolved; compound masks should be very stable and compatible with any mod that is compatible with APP itself.
+
+If you run into graphical issues with this setting enabled, you are recommended to try disabling it and reloading the game. Regardless of the result, please report the error so the issue might be permanently resolved.</s><r>Переключает все патчи Harmony, связанные с составными масками. 
+
+Также действует как привязка для XML-патчей для выгрузки содержимого, связанного с составными масками. Этот аспект &lt;b&gt; требует перезапуска, чтобы вступил в силу.&lt;/b&gt;
+
+Составные маски — это экспериментальная система, которая позволяет одному предмету одежды визуализировать несколько раз с разными масками и смещениями. Это позволяет разработчикам выборочно масштабировать одни части одежды, а другие нет. 
+
+В THIGAPPE составные маски используются для различных целей, таких как:
+- Улучшенный рендеринг боди слоя кожи
+- Рендеринг силовой брони человека
+- Разница в размерах бюста ксеноорки
+
+Когда-то составные маски были нестабильными, из-за серьезных изменений в рендеринге пешки код. С тех пор эта проблема была решена; составные маски должны быть очень стабильными и совместимыми с любым модом, совместимым с самим приложением.
+
+Если у вас возникнут проблемы с графикой при включенном этом параметре, рекомендуется попробовать отключить его и перезагрузить игру. Независимо от результата, сообщите об ошибке, чтобы проблема могла быть окончательно решена.</r></e>
+  <e k="K" key="APPUtil_EnablePantsLayerFix_Label"><s>Adjust pants layer</s><r>Отрегулируйте слой брюк</r></e>
+  <e k="K" key="APPUtil_EnablePantsLayerFix_Tooltip"><s>Adjusts the rendering layer for any items tagged with the THIGAPPE_PantsFlag apparel tag so they render under other apparel items as expected.
+
+This will only work if you enable the &quot;Enable automatic (tag-based) pants recognition&quot; option.</s><r>Настраивает слой рендеринга для любых предметов, помеченных тегом одежды THIGAPPE_PantsFlag, чтобы они отображались под другими предметами одежды, как ожидалось.
+
+Это будет работать, только если вы включите опцию «Включить автоматическое (на основе тегов) распознавание брюк».</r></e>
+  <e k="K" key="APPUtil_EnablePantsOverrides_Label"><s>Enable APP pants</s><r>Включить штаны приложения</r></e>
+  <e k="K" key="APPUtil_EnablePantsOverrides_Tooltip"><s>&lt;b&gt;Requires a restart to take effect.&lt;/b&gt;
+
+Adds fallback graphics to tagged legwear APP Defs. This will render the apparel piece's texPath (i.e. its dropped graphic) as the masked worn texture for all directions.
+
+You may want to disable this setting if you're having any issues with pants textures.
+
+This setting will do nothing unless an APP extension (such as THIGAPPE) makes use of it.</s><r>&lt;b&gt;Для вступления в силу требуется перезагрузка.&lt;/b&gt;
+
+Добавляет резервную графику к отмеченным определениям приложения Legwear. Это отобразит texPath предмета одежды (т. е. его отброшенное изображение) как замаскированную текстуру потертости для всех направлений.
+
+Вы можете отключить этот параметр, если у вас есть какие-либо проблемы с текстурами брюк.
+
+Этот параметр не будет ничего делать, если его не использует расширение приложения (например, THIGAPPE).</r></e>
+  <e k="K" key="APPUtil_FloatMenu_AllItemsForThisGeneSet"><s>All items: For this gene set</s><r>Все предметы: Для этого набора генов</r></e>
+  <e k="K" key="APPUtil_FloatMenu_AllItemsForThisGeneSetAndBodyType"><s>All items: For this gene set + BodyType combo</s><r>Все элементы: для этого набора генов + комбинация BodyType.</r></e>
+  <e k="K" key="APPUtil_FloatMenu_AllItemsForThisRace"><s>All items: For this race</s><r>Все предметы: Для этой расы</r></e>
+  <e k="K" key="APPUtil_FloatMenu_AllItemsForThisRaceAndBodyType"><s>All items: For this race + BodyType combo</s><r>Все предметы: для этой расы + комбинация BodyType.</r></e>
+  <e k="K" key="APPUtil_FloatMenu_BlankUserTuning"><s>New blank tuning</s><r>Новый пустой тюнинг</r></e>
+  <e k="K" key="APPUtil_FloatMenu_Clear"><s>Clear all</s><r>Очистить все</r></e>
+  <e k="K" key="APPUtil_FloatMenu_ClearAllExemptions"><s>Clear all exemptions for all pawns</s><r>Очистить все исключения для всех пешек</r></e>
+  <e k="K" key="APPUtil_FloatMenu_EditTuning"><s>Edit tuning</s><r>Редактировать настройку</r></e>
+  <e k="K" key="APPUtil_FloatMenu_Exempt"><s>(Exempt) </s><r>(Освобождать) </r></e>
+  <e k="K" key="APPUtil_FloatMenu_IdForAllPawns"><s>Package ID: For all pawns</s><r>ID пакета: Для всех пешек</r></e>
+  <e k="K" key="APPUtil_FloatMenu_IdForThisGeneSet"><s>Package ID: For this gene set</s><r>Идентификатор пакета: Для этого набора генов</r></e>
+  <e k="K" key="APPUtil_FloatMenu_IdForThisGeneSetAndBodyType"><s>Package ID: For this gene set + BodyType combo</s><r>Идентификатор пакета: для этого набора генов + комбинация BodyType.</r></e>
+  <e k="K" key="APPUtil_FloatMenu_IdForThisRace"><s>Package ID: For this race</s><r>Идентификатор пакета: Для этой расы</r></e>
+  <e k="K" key="APPUtil_FloatMenu_IdForThisRaceAndBodyType"><s>Package ID: For this race + BodyType combo</s><r>Идентификатор пакета: Для этой расы + комбинация BodyType.</r></e>
+  <e k="K" key="APPUtil_FloatMenu_ItemForAllPawns"><s>Item: For all pawns</s><r>Предмет: Для всех пешек.</r></e>
+  <e k="K" key="APPUtil_FloatMenu_ItemForThisGeneSet"><s>Item: For this gene set</s><r>Пункт: Для этого набора генов</r></e>
+  <e k="K" key="APPUtil_FloatMenu_ItemForThisGeneSetAndBodyType"><s>Item: For this gene set + BodyType combo</s><r>Предмет: для этого набора генов + комбинация BodyType.</r></e>
+  <e k="K" key="APPUtil_FloatMenu_ItemForThisRace"><s>Item: For this race</s><r>Предмет: Для этой расы</r></e>
+  <e k="K" key="APPUtil_FloatMenu_ItemForThisRaceAndBodyType"><s>Item: For this race + BodyType combo</s><r>Предмет: для этой расы + комбинация BodyType.</r></e>
+  <e k="K" key="APPUtil_FloatMenu_ManageExemptions"><s>Manage exemptions...</s><r>Управление исключениями...</r></e>
+  <e k="K" key="APPUtil_FloatMenu_NewTuningFromAPPDef"><s>(New User Tuning) Duplicate from existing APP Def...</s><r>(Настройка нового пользователя) Дубликат из существующей версии приложения...</r></e>
+  <e k="K" key="APPUtil_FloatMenu_NewTuningFromTuning"><s>(New User Tuning) Duplicate from existing User Tuning...</s><r>(Новая пользовательская настройка) Дублирование существующей пользовательской настройки...</r></e>
+  <e k="K" key="APPUtil_FloatMenu_NoDef"><s>No APP Def/User Tuning</s><r>Нет настройки приложения/пользователя</r></e>
+  <e k="K" key="APPUtil_FloatMenu_OpenTuner"><s>Open User Tuner</s><r>Открыть пользовательский тюнер</r></e>
+  <e k="K" key="APPUtil_FloatMenu_QuickTuneIdAppDef"><s>(Quick-tune mod ID) From current APP Def</s><r>(Идентификатор мода быстрой настройки) Из текущего определения приложения</r></e>
+  <e k="K" key="APPUtil_FloatMenu_QuickTuneIdBlankUserTuning"><s>(Quick-tune mod ID) From blank</s><r>(Идентификатор мода быстрой настройки) С пустого места</r></e>
+  <e k="K" key="APPUtil_FloatMenu_QuickTuneIdUserTuning"><s>(Quick-tune mod ID) From current User Tuning</s><r>(Идентификатор мода быстрой настройки) Из текущей пользовательской настройки</r></e>
+  <e k="K" key="APPUtil_FloatMenu_QuickTuneItemAppDef"><s>(Quick-tune item) From current APP Def</s><r>(Элемент быстрой настройки) Из текущей версии приложения</r></e>
+  <e k="K" key="APPUtil_FloatMenu_QuickTuneItemBlankUserTuning"><s>(Quick-tune item) From blank</s><r>(Пункт быстрой настройки) С нуля</r></e>
+  <e k="K" key="APPUtil_FloatMenu_QuickTuneItemUserTuning"><s>(Quick-tune item) From current User Tuning</s><r>(Элемент быстрой настройки) Из текущей пользовательской настройки</r></e>
+  <e k="K" key="APPUtil_FloatMenu_SaveAll"><s>Save all User Tunings</s><r>Сохранение всех пользовательских настроек</r></e>
+  <e k="K" key="APPUtil_FloatMenu_Unexempt"><s>(Unexempt) </s><r>(Неосвобожденный) </r></e>
+  <e k="K" key="APPUtil_Label_ApparelLayerPawnParam"><s>Apparel layer:</s><r>Слой одежды:</r></e>
+  <e k="K" key="APPUtil_Label_ApparelPackageIdPawnParam"><s>Apparel Package ID:</s><r>Идентификатор пакета одежды:</r></e>
+  <e k="K" key="APPUtil_Label_AutoSelectCheckbox"><s>Auto Select</s><r>Автоматический выбор</r></e>
+  <e k="K" key="APPUtil_Label_BodyTypePawnParam"><s>BodyTypeDef:</s><r>ТелоТипОпределение:</r></e>
+  <e k="K" key="APPUtil_Label_NotApplicablePawnParam"><s>N/A</s><r>Н/Д</r></e>
+  <e k="K" key="APPUtil_Label_OffsetDef"><s>Offset</s><r>Компенсировать</r></e>
+  <e k="K" key="APPUtil_Label_RaceNamePawnParam"><s>Race defName:</s><r>Имя расы:</r></e>
+  <e k="K" key="APPUtil_Label_ResizeToViewTuner"><s>Resize to view</s><r>Изменить размер для просмотра</r></e>
+  <e k="K" key="APPUtil_Label_ScaleDef"><s>Scale</s><r>Шкала</r></e>
+  <e k="K" key="APPUtil_Label_UserTuner"><s>User Tuner</s><r>Пользовательский тюнер</r></e>
+  <e k="K" key="APPUtil_Label_WornApparelPawnParam"><s>Masked apparel:</s><r>Маскированная одежда:</r></e>
+  <e k="K" key="APPUtil_Message_ChangesSaved"><s>Saved changes to all User Tunings ({0} modified).</s><r>Сохранены изменения во всех настройках пользователя (изменено {0}).</r></e>
+  <e k="K" key="APPUtil_Message_InvalidDefName"><s>Name should only contain letters, numbers, underscores, or dashes.</s><r>Имя должно содержать только буквы, цифры, символы подчеркивания или тире.</r></e>
+  <e k="K" key="APPUtil_Message_NoCopiedOffsetsScales"><s>No scales/offsets copied.</s><r>Масштабы/смещения не копируются.</r></e>
+  <e k="K" key="APPUtil_Message_UniqueNameTaken"><s>This name is already in use.</s><r>Это имя уже используется.</r></e>
+  <e k="K" key="APPUtil_Message_WarnAboutExemptions"><s>Warning: Your exemptions are preventing this User Tuning from applying.</s><r>Предупреждение: ваши исключения не позволяют применить пользовательскую настройку.</r></e>
+  <e k="K" key="APPUtil_Setting_UserTunerEnabled"><s>Enable User Tuner</s><r>Включить пользовательский тюнер</r></e>
+  <e k="K" key="APPUtil_Setting_UserTunerFallbackEnabled"><s>Enable User Tuner fallback gizmo</s><r>Включить резервную штуковину User Tuner</r></e>
+  <e k="K" key="APPUtil_SettingsCategory"><s>WRelicK's APP Utilities (THIGAPPE)</s><r>Утилиты приложения WRelicK (THIGAPPE)</r></e>
+  <e k="K" key="APPUtil_Text_APPDefsSearchResults"><s>{0} Defs found. Clear textbox to return to viewing all.</s><r>{0} Определения найдены. Очистите текстовое поле, чтобы вернуться к просмотру всех.</r></e>
+  <e k="K" key="APPUtil_Text_APPDefsSearchResultsSingular"><s>1 Def found. Clear textbox to return to viewing all.</s><r>Найдено 1 определение. Очистите текстовое поле, чтобы вернуться к просмотру всех.</r></e>
+  <e k="K" key="APPUtil_Text_ClearAllTunings"><s>Delete all User Tunings</s><r>Удалить все пользовательские настройки</r></e>
+  <e k="K" key="APPUtil_Text_CompoundMasksSearchResultSingular"><s>1 Def found. Clear textbox to return to viewing all.</s><r>Найдено 1 определение. Очистите текстовое поле, чтобы вернуться к просмотру всех.</r></e>
+  <e k="K" key="APPUtil_Text_CompoundMasksSearchResults"><s>{0} Defs found. Clear textbox to return to viewing all.</s><r>{0} Определения найдены. Очистите текстовое поле, чтобы вернуться к просмотру всех.</r></e>
+  <e k="K" key="APPUtil_Text_ConfirmClear"><s>Really clear all?</s><r>Действительно все ясно?</r></e>
+  <e k="K" key="APPUtil_Text_ConfirmClearAllTunings"><s>Really delete all User Tunings?
+(Please press confirm twice!)</s><r>Действительно удалить все пользовательские настройки?
+(Пожалуйста, дважды нажмите подтверждение!)</r></e>
+  <e k="K" key="APPUtil_Text_DefNameReadout"><s>{0} (Original defName: {1})</s><r>{0} (Исходное имя_определения: {1})</r></e>
+  <e k="K" key="APPUtil_Text_DeleteCompoundMaskConfirmationText"><s>Delete this Compound Mask?</s><r>Удалить эту составную маску?</r></e>
+  <e k="K" key="APPUtil_Text_DeleteUserTuningConfirmation"><s>Delete this User Tuning?</s><r>Удалить эту пользовательскую настройку?</r></e>
+  <e k="K" key="APPUtil_Text_ObjectSearchResultSingular"><s>1 result found</s><r>найден 1 результат</r></e>
+  <e k="K" key="APPUtil_Text_ObjectSearchResults"><s>{0} results found</s><r>{0} результатов найдено</r></e>
+  <e k="K" key="APPUtil_Text_SaveChanges"><s>Save changes to all User Tunings? The following have been modified:
+
+{0}</s><r>Сохранить изменения во всех настройках пользователя? Следующие изменения были изменены:
+
+{0}</r></e>
+  <e k="K" key="APPUtil_Text_SearchForAPPDefs"><s>Search a list of all APP Defs. Multiple search terms should be separated with a space.</s><r>Найдите список всех определений приложения. Несколько условий поиска должны быть разделены пробелом.</r></e>
+  <e k="K" key="APPUtil_Text_SearchForAPPDefsDesc"><s>Search a list of all APP Defs. Multiple search terms should be separated with a space.</s><r>Найдите список всех определений приложения. Несколько условий поиска должны быть разделены пробелом.</r></e>
+  <e k="K" key="APPUtil_Text_SearchForCompoundMasks"><s>Search a list of compound masks for this User Tuning.
+Multiple search terms should be separated with a space.
+Compound masks ordered lower are rendered above previous entries.</s><r>Найдите список составных масок для этой пользовательской настройки.
+Несколько поисковых слов должны быть разделены пробелом.
+Составные маски, расположенные ниже, отображаются над предыдущими записями.</r></e>
+  <e k="K" key="APPUtil_Text_SearchForCompoundMasksDesc"><s>Search a list of all User Tunings.
+Multiple search terms should be separated with a space.
+User Tunings ordered lower take priority in rendering.</s><r>Найдите список всех пользовательских настроек.
+Несколько поисковых запросов должны быть разделены пробелом.
+Пользовательские настройки, расположенные ниже, имеют приоритет при рендеринге.</r></e>
+  <e k="K" key="APPUtil_Text_SearchForObjects"><s>Search all options</s><r>Искать все варианты</r></e>
+  <e k="K" key="APPUtil_Text_SearchForObjectsDesc"><s>Search a list of all possible options. Multiple search terms should be separated with a space.</s><r>Найдите список всех возможных вариантов. Несколько условий поиска должны быть разделены пробелом.</r></e>
+  <e k="K" key="APPUtil_Text_SearchForUserTunings"><s>Search a list of all User Tunings.
+Multiple search terms should be separated with a space.
+User Tunings ordered lower take priority in rendering.</s><r>Найдите список всех пользовательских настроек.
+Несколько поисковых запросов должны быть разделены пробелом.
+Пользовательские настройки, расположенные ниже, имеют приоритет при рендеринге.</r></e>
+  <e k="K" key="APPUtil_Text_SearchForUserTuningsDesc"><s>Search a list of all User Tunings.
+Multiple search terms should be separated with a space.
+User Tunings ordered lower take priority in rendering.</s><r>Найдите список всех пользовательских настроек.
+Несколько поисковых запросов должны быть разделены пробелом.
+Пользовательские настройки, расположенные ниже, имеют приоритет при рендеринге.</r></e>
+  <e k="K" key="APPUtil_Text_SearchingObjects"><s>Searching objects</s><r>Поиск объектов</r></e>
+  <e k="K" key="APPUtil_Text_UserTunerIntro"><s>Welcome to the User Tuner!
+
+This is a tool added by WRelicK's APP Utilities. It's a convenient user interface for correcting apparel renders through Apparel Paper Pattern, just like extensions such as THIGAPPE do.
+
+You are strongly recommended to read the User Tuner's first documentation page before use.
+
+&lt;color=#4cb3e6&gt;&lt;b&gt;Important note: You can use the control and shift keys to change your offset/scale values by 10x and 100x, respectively!&lt;/b&gt;&lt;/color&gt;
+</s><r>Добро пожаловать в пользовательский тюнер!
+
+Это инструмент, добавленный WRelicK's APP Utilities. Это удобный пользовательский интерфейс для корректировки рендеринга одежды с помощью Apparel Paper Pattern, как это делают такие расширения, как THIGAPPE.
+
+Настоятельно рекомендуется прочитать первую страницу документации User Tuner перед использованием.
+
+&lt;color=#4cb3e6&gt;&lt;b&gt;Важное примечание: вы можете использовать клавиши управления и Shift для изменения значений смещения/масштаба, 10x и 100x соответственно!&lt;/b&gt;&lt;/color&gt;
+</r></e>
+  <e k="K" key="APPUtil_Text_UserTuningsSearchResultSingular"><s>1 Def found. Clear textbox to return to viewing all.</s><r>Найдено 1 определение. Очистите текстовое поле, чтобы вернуться к просмотру всех.</r></e>
+  <e k="K" key="APPUtil_Text_UserTuningsSearchResults"><s>{0} Defs found. Clear textbox to return to viewing all.</s><r>{0} Определения найдены. Очистите текстовое поле, чтобы вернуться к просмотру всех.</r></e>
+  <e k="K" key="APPUtil_Tooltip_AddCompoundMaskButton"><s>Add a new compound mask to this User Tuning.
+
+Compound masks can be used to mask the same piece of apparel multiple times for one item, with different settings, masks, offsets and render orders. They are an incredibly versatile tool, but difficult to master.</s><r>Добавьте новую составную маску в эту пользовательскую настройку.
+
+Составные маски можно использовать для маскировки одного и того же предмета одежды несколько раз для одного предмета с разными настройками, масками, смещениями и порядками рендеринга. Это невероятно универсальный инструмент, но им сложно овладеть.</r></e>
+  <e k="K" key="APPUtil_Tooltip_ApparelItems"><s>Apparel items</s><r>Предметы одежды</r></e>
+  <e k="K" key="APPUtil_Tooltip_AutosaveButton"><s>When enabled, changes to your User Tunings will be automatically saved whenever you close the User Tuner window.</s><r>Если этот параметр включен, изменения в ваших пользовательских настройках будут автоматически сохраняться каждый раз, когда вы закрываете окно пользовательских настроек.</r></e>
+  <e k="K" key="APPUtil_Tooltip_BodyTypeButton"><s>Choose BodyTypeDefs affected by the current User Tuning.</s><r>Выберите BodyTypeDefs, на которые влияет текущая пользовательская настройка.</r></e>
+  <e k="K" key="APPUtil_Tooltip_BodyTypeOverrideButton"><s>Choose a BodyType to use worn apparel textures from in lieu of those from the pawn's native BodyType.</s><r>Выберите BodyType, чтобы использовать текстуры изношенной одежды вместо текстур из собственного BodyType пешки.</r></e>
+  <e k="K" key="APPUtil_Tooltip_CopyAllParams"><s>Copy formatted scales/offsets to the clipboard.</s><r>Скопируйте форматированные масштабы/смещения в буфер обмена.</r></e>
+  <e k="K" key="APPUtil_Tooltip_CopyParam"><s>Copy this scale/format combination for pasting to another rotation. This does not use the clipboard.</s><r>Скопируйте эту комбинацию масштаба/формата для вставки в другой поворот. При этом не используется буфер обмена.</r></e>
+  <e k="K" key="APPUtil_Tooltip_GenderBlacklist"><s>Blacklist (pawn must not have any)</s><r>Черный список (пешка не должна иметь его)</r></e>
+  <e k="K" key="APPUtil_Tooltip_GenderRequirementsButton"><s>Choose genders that a pawn must have or not have in order for this User Tuning to match.</s><r>Выберите пол, который пешка должна иметь или не иметь, чтобы эта пользовательская настройка соответствовала.</r></e>
+  <e k="K" key="APPUtil_Tooltip_GenderTitle"><s>Change gender...</s><r>Сменить пол...</r></e>
+  <e k="K" key="APPUtil_Tooltip_GenderWhitelist"><s>Whitelist (pawn must have any)</s><r>Белый список (пешка должна иметь любой)</r></e>
+  <e k="K" key="APPUtil_Tooltip_GeneBlacklist"><s>Blacklist (pawn must not have any)</s><r>Черный список (пешка не должна иметь его)</r></e>
+  <e k="K" key="APPUtil_Tooltip_GeneRequirementsButton"><s>Choose genes that a pawn must have or not have in order for this User Tuning to match.</s><r>Выберите гены, которые пешка должна иметь или не иметь, чтобы эта пользовательская настройка соответствовала.</r></e>
+  <e k="K" key="APPUtil_Tooltip_GeneTitle"><s>Change gene...</s><r>Сменить ген...</r></e>
+  <e k="K" key="APPUtil_Tooltip_GeneWhitelist"><s>Whitelist (pawn must have all)</s><r>Белый список (пешка должна иметь все)</r></e>
+  <e k="K" key="APPUtil_Tooltip_HediffRequirementsButton"><s>Choose hediff stages that a pawn must have or not have in order for this User Tuning to match.</s><r>Выберите этапы хедиффа, которые пешка должна иметь или не иметь, чтобы эта пользовательская настройка соответствовала.</r></e>
+  <e k="K" key="APPUtil_Tooltip_HediffTitle"><s>Change hediff...</s><r>Сменить хедифф...</r></e>
+  <e k="K" key="APPUtil_Tooltip_IgnoreButton"><s>Choose specific types of apparel to be ignored by the current User Tuning, regardless of any other settings.</s><r>Выберите определенные типы одежды, которые будут игнорироваться текущей пользовательской настройкой, независимо от любых других настроек.</r></e>
+  <e k="K" key="APPUtil_Tooltip_IgnoreHediffs"><s>Ignores</s><r>Игнорирует</r></e>
+  <e k="K" key="APPUtil_Tooltip_IgnoreTitle"><s>Change ignored...</s><r>Изменение игнорируется...</r></e>
+  <e k="K" key="APPUtil_Tooltip_LayerButton"><s>Choose apparel layers affected by the current User Tuning.</s><r>Выберите слои одежды, на которые влияет текущая пользовательская настройка.</r></e>
+  <e k="K" key="APPUtil_Tooltip_MaskButton"><s>Choose the mask used by the current User Tuning. This will affect how the original textures are &quot;cut&quot; by APP.</s><r>Выберите маску, используемую текущей пользовательской настройкой. Это повлияет на то, как оригинальные текстуры «обрезаются» приложением.</r></e>
+  <e k="K" key="APPUtil_Tooltip_OpenTuner"><s>Access APP Utilities' User Tuner menu. This lets you customize Apparel Paper Pattern's apparel alteration.
+
+You can disable this button in APP Utilities' mod options.</s><r>Откройте меню пользовательского тюнера APP Utilities. Это позволяет вам настроить изменение одежды Apparel Paper Pattern.
+
+Вы можете отключить эту кнопку в параметрах мода APP Utilities.</r></e>
+  <e k="K" key="APPUtil_Tooltip_PackageIds"><s>Package IDs</s><r>Идентификаторы пакетов</r></e>
+  <e k="K" key="APPUtil_Tooltip_PasteParam"><s>Paste a copied scale/format combination to the current rotation. This does not use the clipboard.</s><r>Вставьте скопированную комбинацию масштаба/формата в текущий поворот. При этом не используется буфер обмена.</r></e>
+  <e k="K" key="APPUtil_Tooltip_PathGraphicOverrideButton"><s>Choose a specific apparel item's graphic to use in lieu of the textures of any apparel items matched by this User Tuning.</s><r>Выберите изображение конкретного предмета одежды, которое будет использоваться вместо текстур любых предметов одежды, соответствующих этой пользовательской настройке.</r></e>
+  <e k="K" key="APPUtil_Tooltip_RaceButton"><s>Choose races affected by the current User Tuning.</s><r>Выберите расы, на которые распространяется текущая пользовательская настройка.</r></e>
+  <e k="K" key="APPUtil_Tooltip_RenderCompoundMaskFrontButton"><s>When enabled, causes this compound mask to render in front of, rather than behind, the main apparel texture.</s><r>Если этот параметр включен, эта составная маска отображается перед основной текстурой одежды, а не позади нее.</r></e>
+  <e k="K" key="APPUtil_Tooltip_SetCompoundMaskBodyTypeOverrideButton"><s>Choose a BodyType to use worn apparel textures from for this compound mask in lieu of those from the pawn's native BodyType.</s><r>Выберите BodyType, чтобы использовать текстуры изношенной одежды для этой составной маски вместо текстур из собственного BodyType пешки.</r></e>
+  <e k="K" key="APPUtil_Tooltip_SetCompoundMaskMaskButton"><s>Choose the mask used by the currently selected compound mask.</s><r>Выберите маску, используемую текущей выбранной составной маской.</r></e>
+  <e k="K" key="APPUtil_Tooltip_SetCompoundMaskPathOverrideButton"><s>Choose a specific apparel item's graphic to use for this compound mask in lieu of the normal textures of any apparel items matched by this User Tuning.</s><r>Выберите изображение конкретного предмета одежды, которое будет использоваться для этой составной маски вместо обычных текстур любых предметов одежды, соответствующих этой пользовательской настройке.</r></e>
+  <e k="K" key="APPUtil_Tooltip_Styles"><s>Ideology styles</s><r>Стили идеологии</r></e>
+  <e k="K" key="APPUtil_Tooltip_TagsAll"><s>Tags (AND)</s><r>Теги (И)</r></e>
+  <e k="K" key="APPUtil_Tooltip_TagsAny"><s>Tags (OR)</s><r>Теги (ИЛИ)</r></e>
+  <e k="K" key="APPUtil_Tooltip_TargetButton"><s>Choose specific types of apparel to limit the current User Tuning's influence to.</s><r>Выберите определенные типы одежды, на которые будет ограничено влияние текущей пользовательской настройки.</r></e>
+  <e k="K" key="APPUtil_Tooltip_TargetHediffs"><s>Targets</s><r>Цели</r></e>
+  <e k="K" key="APPUtil_Tooltip_TargetTitle"><s>Change targeted...</s><r>Изменить цель...</r></e>
+  <e k="K" key="APPUtil_Tooltip_UseTexPathButton"><s>When enabled, causes items matched by this User Tuning to use their item textures in lieu of their worn textures (whether or not they have any).
+
+This can be helpful for masking items that lack worn textures.</s><r>Если этот параметр включен, предметы, соответствующие этой пользовательской настройке, используют свои текстуры вместо изношенных текстур (независимо от того, есть ли они у них или нет).
+
+Это может быть полезно для маскировки предметов, у которых отсутствуют изношенные текстуры.</r></e>
+  <e k="K" key="APPUtil_Tooltip_UserTunerButton"><s>View special options for the User Tuner.</s><r>Просмотрите специальные возможности пользовательского тюнера.</r></e>
+  <e k="K" key="APPUtil_Tooltip_UserTunerButtonTitle"><s>Manage User Tuner...</s><r>Управление пользовательским тюнером...</r></e>
+  <e k="K" key="APPUtil_Tooltip_UserTunerEnabled"><s>If disabled, the User Tuner button will no longer show up in the pawn gear tab for all apparel items.</s><r>Если эта функция отключена, кнопка «Пользовательский тюнер» больше не будет отображаться на вкладке «Пешечное снаряжение» для всех предметов одежды.</r></e>
+  <e k="K" key="APPUtil_Tooltip_UserTunerFallbackEnabled"><s>If enabled, a User Tuner gizmo will appear on all pawns, allowing you to open the User Tuner from an alternative source. This is especially useful if another mod is replacing your gear menu's rendering.</s><r>Если этот параметр включен, на всех пешках появится инструмент User Tuner, позволяющий открыть User Tuner из альтернативного источника. Это особенно полезно, если другой мод заменяет рендеринг вашего меню передач.</r></e>
+</AutoTranslateCache>
