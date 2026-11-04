@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="sakura.exosuit.ronin" name="Titanfall 2-Ronin" language="Russian" version="1">
+  <e k="D" t="AbilityDef" key="Ronin_Arc.description"><s>Swiping his sword across the ground, Ronin creates an electric wave that damages and slows enemies hit by it.</s><r>Проведя мечом по земле, Ронин создает электрическую волну, которая наносит урон и замедляет пораженных ею врагов.</r></e>
+  <e k="D" t="AbilityDef" key="Ronin_Arc.label"><s>Arc Wave</s><r>Дуговая волна</r></e>
+  <e k="D" t="AbilityDef" key="Ronin_PhaseJump.description"><s>Ronin dashes in a given direction, temporarily phasing out of the world; avoiding incoming fire and creating the element of surprise.</s><r>Ронин мчится в заданном направлении, временно покидая мир; уклонение от встречного огня и создание элемента внезапности.</r></e>
+  <e k="D" t="AbilityDef" key="Ronin_PhaseJump.label"><s>Phase Dash</s><r>Фазовый рывок</r></e>
+  <e k="D" t="AbilityDef" key="Ronin_PhaseJump.verbProperties.label"><s>jump</s><r>прыгать</r></e>
+  <e k="D" t="AbilityDef" key="Ronin_SwordCore.description"><s>Sword Core Online. Close the Distance.</s><r>Ядро Меча Онлайн. Сократите расстояние.</r></e>
+  <e k="D" t="AbilityDef" key="Ronin_SwordCore.label"><s>SwordCore</s><r>МечЯдро</r></e>
+  <e k="D" t="AmmoCategoryDef" key="Charged_BuckShot.description"><s>Filled with several buckshot pellets which spread in a tight pattern.</s><r>Наполнен несколькими дробинками, которые рассыпаются плотным слоем.</r></e>
+  <e k="D" t="AmmoCategoryDef" key="Charged_BuckShot.label"><s>Charged buckshot</s><r>Заряженная картечь</r></e>
+  <e k="D" t="AmmoCategoryDef" key="Charged_BuckShot.labelShort"><s>Charged buck</s><r>Заряженный доллар</r></e>
+  <e k="D" t="AmmoCategoryDef" key="Charged_Slug.description"><s>The single large projectile offers better damage potential and armor penetration compared to regular shot but is inaccurate over large distances.</s><r>Одиночный большой снаряд обеспечивает лучший потенциал урона и пробиваемость брони по сравнению с обычным выстрелом, но он неточен на больших расстояниях.</r></e>
+  <e k="D" t="AmmoCategoryDef" key="Charged_Slug.label"><s>Charged slug</s><r>Заряженная пуля</r></e>
+  <e k="D" t="AmmoSetDef" key="AmmoSet_40mmCharged.label"><s>40mm Charged</s><r>40 мм заряжено</r></e>
+  <e k="D" t="DamageDef" key="Ronin_Arc.deathMessage"><s>{0} has died in an explosion.</s><r>{0} погиб в результате взрыва.</r></e>
+  <e k="D" t="DamageDef" key="Ronin_Arc.label"><s>Arc</s><r>Дуга</r></e>
+  <e k="D" t="HediffDef" key="Ronin_Paralysis.description"><s>This person has been paralyzed by an arc wave.</s><r>Этот человек был парализован дуговой волной.</r></e>
+  <e k="D" t="HediffDef" key="Ronin_Paralysis.label"><s>Paralysis</s><r>Паралич</r></e>
+  <e k="D" t="HediffDef" key="Ronin_SwordBlock.description"><s>Reduces damage taken by 70%.</s><r>Снижает получаемый урон на 70%.</r></e>
+  <e k="D" t="HediffDef" key="Ronin_SwordBlock.label"><s>Sword Block</s><r>Блок меча</r></e>
+  <e k="D" t="HediffDef" key="Ronin_SwordCore.description"><s>Sword Core Online. Close the Distance.</s><r>Ядро Меча Онлайн. Сократите расстояние.</r></e>
+  <e k="D" t="HediffDef" key="Ronin_SwordCore.label"><s>Sword Core</s><r>Ядро Меча</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_40mmCharged.description"><s>Craft 200 40mm Charged shells.</s><r>Изготовьте 200 40-мм заряженных снарядов.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_40mmCharged.jobString"><s>Making 40mm Charged shells.</s><r>Изготовление 40-мм заряженных снарядов.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_40mmCharged.label"><s>make 40mm Charged shell x200</s><r>сделать 40-мм заряженный снаряд x200</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_40mmCharged_Slug.description"><s>Craft 200 40mm Charged (Slug) shells.</s><r>Изготовьте 200 40-мм заряженных снарядов.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_40mmCharged_Slug.jobString"><s>Making 40mm Charged (Slug) shells.</s><r>Изготовление 40-мм заряженных (снарядных) снарядов.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_40mmCharged_Slug.label"><s>make 40mm Charged (Slug) shell x200</s><r>сделать 40-мм заряженный снаряд (снаряд) x200</r></e>
+  <e k="D" t="StatDef" key="WalkerIncomingDamageFactor.description"><s>A multiplier on all incoming damage on walker.</s><r>Множитель всего входящего урона ходоку.</r></e>
+  <e k="D" t="StatDef" key="WalkerIncomingDamageFactor.label"><s>incoming damage multiplier on walker</s><r>множитель входящего урона на ходуне</r></e>
+  <e k="D" t="ThingCategoryDef" key="Ammo40mmCharged.label"><s>40mm Charged</s><r>40 мм заряжено</r></e>
+  <e k="D" t="ThingCategoryDef" key="Ronin.label"><s>Ronin</s><r>Ронин</r></e>
+  <e k="D" t="ThingDef" key="Ammo_40mmCharged.description"><s>Multi-pellet charge shot cartridge designed for shotgun-type weapons.
+
+Charged buckshot:
+Filled with several buckshot pellets which spread in a tight pattern.
+
+Используется:</s><r>Многозарядный дробовый патрон, предназначенный для оружия гладкоствольного типа.
+
+Заряженная картечь:
+Наполнен несколькими дробинками, которые распределяются плотным слоем.
+
+Используется:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_40mmCharged.label"><s>40mm charged</s><r>40 мм заряженный</r></e>
+  <e k="D" t="ThingDef" key="Ammo_40mmCharged_Slug.description"><s>Multi-pellet charge shot cartridge designed for shotgun-type weapons.
+
+Charged slug:
+The single large projectile offers better damage potential and armor penetration compared to regular shot but is inaccurate over large distances.
+
+Используется:</s><r>Многозарядный дробовый патрон, предназначенный для оружия гладкоствольного типа.
+
+Заряженная пуля:
+Одиночный большой снаряд обеспечивает больший потенциал урона и пробиваемость брони по сравнению с обычным выстрелом, но он неточен на больших расстояниях.
+
+Используется:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_40mmCharged_Slug.label"><s>40mm charged (Slug)</s><r>40-мм заряженный (Пуля)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_40mmCharged.label"><s>charge shot pellet</s><r>заряд дробовой пули</r></e>
+  <e k="D" t="ThingDef" key="Bullet_40mmCharged_Slug.label"><s>charge shot (Slug)</s><r>зарядный выстрел (Слаг)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Leadwall.label"><s>Leadwall blast</s><r>Взрыв свинцовой стены</r></e>
+  <e k="D" t="ThingDef" key="Ronin_Apparel_HighLand.description"><s>Highlander is a Ronin Titan Kit.Equipping the Highlander Kit will increase the duration of your sword core by 8 seconds anytime you get a Titan Kill.</s><r>«Горец» — это комплект «Титан-ронин». Использование комплекта «Горец» увеличит продолжительность действия ядра вашего меча на 8 секунд каждый раз, когда вы совершаете убийство Титана.</r></e>
+  <e k="D" t="ThingDef" key="Ronin_Apparel_HighLand.label"><s>HighLand</s><r>Хайленд</r></e>
+  <e k="D" t="ThingDef" key="Ronin_Apparel_WeaponSet.description"><s>The Ronin's weapon set includes the Leadwall shotgun and the Ronin sword. The Ronin sword and its associated skills can only be used when this modular weapon is equipped.</s><r>В комплект оружия Ронина входят дробовик Лидволл и меч Ронина. Меч Ронина и связанные с ним навыки можно использовать только при наличии этого модульного оружия.</r></e>
+  <e k="D" t="ThingDef" key="Ronin_Apparel_WeaponSet.label"><s>Ronin WeaponSet(Apparel)</s><r>Набор оружия Ронина (Одежда)</r></e>
+  <e k="D" t="ThingDef" key="Ronin_Arc.label"><s>Arc</s><r>Дуга</r></e>
+  <e k="D" t="ThingDef" key="Ronin_Blade.description"><s>A high-frequency blade designed for precision kills. Its monomolecular edge cuts through armor with ease, but demands perfect timing—every missed strike leaves you vulnerable. Built for speed, not endurance.</s><r>Высокочастотное лезвие, предназначенное для точных убийств. Его мономолекулярное лезвие с легкостью прорезает броню, но требует идеального расчета: каждый пропущенный удар делает вас уязвимым. Создан для скорости, а не для выносливости.</r></e>
+  <e k="D" t="ThingDef" key="Ronin_Blade.label"><s>Ronin Blade</s><r>Клинок Рона</r></e>
+  <e k="D" t="ThingDef" key="Ronin_Blade.tools.0.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="Ronin_Blade.tools.1.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="Ronin_Blade_SwordCore.description"><s>A high-frequency blade designed for precision kills. Its monomolecular edge cuts through armor with ease, but demands perfect timing—every missed strike leaves you vulnerable. Built for speed, not endurance.</s><r>Высокочастотное лезвие, предназначенное для точных убийств. Его мономолекулярное лезвие с легкостью прорезает броню, но требует идеального расчета: каждый пропущенный удар делает вас уязвимым. Создан для скорости, а не для выносливости.</r></e>
+  <e k="D" t="ThingDef" key="Ronin_Blade_SwordCore.label"><s>Ronin Blade(Sword Core)</s><r>Клинок Ронина (Ядро Меча)</r></e>
+  <e k="D" t="ThingDef" key="Ronin_Blade_SwordCore.tools.0.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="Ronin_Blade_SwordCore.tools.1.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="Ronin_Core.apparel.renderNodeProperties.0.children.0.debugLabel"><s>Mecha Apparel Body</s><r>Механическое тело одежды</r></e>
+  <e k="D" t="ThingDef" key="Ronin_Core.apparel.renderNodeProperties.0.children.1.debugLabel"><s>Mecha Apparel Head</s><r>Руководитель отдела меховой одежды</r></e>
+  <e k="D" t="ThingDef" key="Ronin_Core.apparel.renderNodeProperties.0.debugLabel"><s>Mecha Root</s><r>Механический корень</r></e>
+  <e k="D" t="ThingDef" key="Ronin_Core.description"><s>Ronin is a Stryder-class light Titan designed for versatile battlefield roles, including reconnaissance, assault, and defensive operations. However, its fragile chassis and short attack range demand exceptional piloting skills and tactical caution from its Titanfall pilot.</s><r>Ронин — легкий титан класса «Страйдер», предназначенный для выполнения универсальных боевых задач, включая разведку, нападение и оборонительные операции. Однако его хрупкое шасси и малая дальность атаки требуют от пилота Titanfall исключительных навыков пилотирования и тактической осторожности.</r></e>
+  <e k="D" t="ThingDef" key="Ronin_Core.label"><s>Ronin</s><r>Ронин</r></e>
+  <e k="D" t="ThingDef" key="Ronin_Leadwall_Shotgun.description"><s>A rapid-fire shotgun built for close-quarters dominance. Its spread tightens when aiming, allowing precision strikes at short range—perfect for hit-and-run attacks.</s><r>Скорострельный дробовик, созданный для доминирования на ближней дистанции. Его разброс сужается при прицеливании, что позволяет наносить точные удары на близком расстоянии, что идеально подходит для атак с бегством.</r></e>
+  <e k="D" t="ThingDef" key="Ronin_Leadwall_Shotgun.label"><s>Leadwall Shotgun</s><r>Свинцовый дробовик</r></e>
+  <e k="D" t="ThingDef" key="Ronin_Leadwall_Shotgun.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="Ronin_Leadwall_Shotgun.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="Ronin_Leadwall_Shotgun.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="Ronin_Leadwall_Shotgun.verbs.0.label"><s>Leadwall Shotgun</s><r>Свинцовый дробовик</r></e>
+  <e k="D" t="ThingDef" key="Ronin_Module.description"><s>Ronin is a Stryder-class light Titan designed for versatile battlefield roles, including reconnaissance, assault, and defensive operations. However, its fragile chassis and short attack range demand exceptional piloting skills and tactical caution from its Titanfall pilot.</s><r>Ронин — легкий титан класса «Страйдер», предназначенный для выполнения универсальных боевых задач, включая разведку, нападение и оборонительные операции. Однако его хрупкое шасси и малая дальность атаки требуют от пилота Titanfall исключительных навыков пилотирования и тактической осторожности.</r></e>
+  <e k="D" t="ThingDef" key="Ronin_Module.label"><s>Ronin(Module)</s><r>Рона (Модуль)</r></e>
+  <e k="D" t="ThingDef" key="Ronin_Module_HighLand.label"><s>HighLand(Module)</s><r>ХайЛэнд(Модуль)</r></e>
+  <e k="D" t="ThingDef" key="Ronin_Module_WeaponSet.description"><s>The Ronin's weapon set includes the Leadwall shotgun and the Ronin sword. The Ronin sword and its associated skills can only be used when this modular weapon is equipped.</s><r>В комплект оружия Ронина входят дробовик Лидволл и меч Ронина. Меч Ронина и связанные с ним навыки можно использовать только при наличии этого модульного оружия.</r></e>
+  <e k="D" t="ThingDef" key="Ronin_Module_WeaponSet.label"><s>Ronin WeaponSet(module)</s><r>Набор оружия Ронина(модуль)</r></e>
+  <e k="D" t="ThingDef" key="Ronin_PawnFlyer.label"><s>flying</s><r>летающий</r></e>
+  <e k="D" t="ThingDef" key="Titan_Apparel_Nuke.description"><s>Ejecting while doomed causes your Titan to detonate its core causing nearby enemies massive damage.</s><r>Катапультирование, будучи обреченным, приводит к взрыву ядра вашего Титана, нанося огромный урон ближайшим врагам.</r></e>
+  <e k="D" t="ThingDef" key="Titan_Apparel_Nuke.label"><s>Nuclear Ejection</s><r>Ядерный выброс</r></e>
+  <e k="D" t="ThingDef" key="Titan_Module_Nuke.description"><s>Ejecting while doomed causes your Titan to detonate its core causing nearby enemies massive damage.</s><r>Катапультирование, будучи обреченным, приводит к взрыву ядра вашего Титана, нанося огромный урон ближайшим врагам.</r></e>
+  <e k="D" t="ThingDef" key="Titan_Module_Nuke.label"><s>Nuclear Ejection(Module)</s><r>Ядерный выброс(Модуль)</r></e>
+  <e k="K" key="Ronin_SwordBlockDesc"><s>Ronin raises his broadsword to block, mitigating 70% of all incoming damage.</s><r>Ронин поднимает свой палаш, чтобы заблокировать удар, смягчая 70% всего получаемого урона.</r></e>
+  <e k="K" key="Ronin_SwordBlockLabel"><s>Sword Block</s><r>Блок меча</r></e>
+  <e k="K" key="Titan_ChangeWeaponDesc"><s>Switch between the Leadwall shotgun and the Ronin sword.</s><r>Переключитесь между дробовиком Лидволла и мечом Ронина.</r></e>
+  <e k="K" key="Titan_ChangeWeaponLabel"><s>Change Weapon</s><r>Сменить оружие</r></e>
+</AutoTranslateCache>
