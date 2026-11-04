@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="broms.deeporbit" name="Deep Orbit" language="Russian" version="1">
+  <e k="D" t="MapGeneratorDef" key="BigAsteroidBasic.label"><s>big basic asteroid</s><r>большой основной астероид</r></e>
+  <e k="D" t="PlanetLayerDef" key="Orbit2.elevationString"><s>750km</s><r>750 км</r></e>
+  <e k="D" t="PlanetLayerDef" key="Orbit2.gerundLabel"><s>in</s><r>в</r></e>
+  <e k="D" t="PlanetLayerDef" key="Orbit2.label"><s>deep orbit</s><r>глубокая орбита</r></e>
+  <e k="D" t="PlanetLayerDef" key="Orbit2.viewGizmoTooltip"><s>View locations that are two orbits from the planet.</s><r>Просмотр мест, находящихся в двух орбитах от планеты.</r></e>
+  <e k="D" t="PlanetLayerSettingsDef" key="Orbit2.label"><s>Default orbit2</s><r>Орбита по умолчанию2</r></e>
+  <e k="D" t="QuestScriptDef" key="OpportunitySite_DeepOrbit_BigAsteroids.questDescriptionRules.rulesStrings.0"><s>questDescription-&gt;[discoveryMethod] the location of a giant asteroid orbiting the planet. It contains significant amounts of [resource], and potentially other resources as well.
+
+Orbital miners steer asteroids into orbit so that they can be mined and the ore sold to orbital traders. You detect some signs of life from this asteroid.
+
+You can reach the asteroid with transport pods, shuttles, or a gravship. Equip your colonists with sufficient orbital apparel before departing.</s><r>questDescription-&gt;[discoveryMethod] местоположение гигантского астероида, вращающегося вокруг планеты. Он содержит значительное количество [resource], а также, возможно, и других ресурсов.
+
+Орбитальные шахтеры выводят астероиды на орбиту, чтобы их можно было добыть, а руду продать орбитальным торговцам. Вы обнаружили на этом астероиде некоторые признаки жизни.
+
+Вы можете добраться до астероида с помощью транспортных капсул, шаттлов или гравитационного корабля. Перед отлетом обеспечьте своих колонистов достаточным количеством орбитальной одежды.</r></e>
+  <e k="D" t="QuestScriptDef" key="OpportunitySite_DeepOrbit_BigAsteroids.questNameRules.rulesStrings.0"><s>questName-&gt;[size] [resource] Asteroid</s><r>questName-&gt;[size] [resource] Астероид</r></e>
+  <e k="D" t="QuestScriptDef" key="OpportunitySite_DeepOrbit_BigAsteroids.questNameRules.rulesStrings.1"><s>size-&gt;Giant</s><r>size-&gt;Гигант</r></e>
+  <e k="D" t="QuestScriptDef" key="OpportunitySite_DeepOrbit_BigAsteroids.questNameRules.rulesStrings.2"><s>size-&gt;Massive</s><r>size-&gt;Массивный</r></e>
+  <e k="D" t="QuestScriptDef" key="OpportunitySite_DeepOrbit_BigAsteroids.questNameRules.rulesStrings.3"><s>size-&gt;Enormous</s><r>size-&gt;Громадный</r></e>
+  <e k="D" t="QuestScriptDef" key="OpportunitySite_DeepOrbit_BigAsteroids.questNameRules.rulesStrings.4"><s>size-&gt;Big</s><r>size-&gt;Большой</r></e>
+  <e k="D" t="QuestScriptDef" key="OpportunitySite_DeepOrbit_BigAsteroids.root.nodes.0.elseNode.nodes.0.value.slateRef"><s>You have discovered</s><r>Вы обнаружили</r></e>
+  <e k="D" t="WorldObjectDef" key="BigAsteroidBasic.description"><s>A big vacstone asteroid that was being towed into orbit around the planet as part of a mining operation long ago. Most of the valuable resources are still here, it seems that a mining operation met an early end here.
+
+This location can be reached using transport pods, shuttles, or a gravship.</s><r>Большой астероид из вакстоуна, который давным-давно буксировали на орбиту вокруг планеты в рамках горнодобывающих работ. Большинство ценных ресурсов все еще здесь, похоже, что добыча полезных ископаемых здесь рано закончилась.
+
+Добраться до этого места можно с помощью транспортных капсул, шаттлов или грави-корабля.</r></e>
+  <e k="D" t="WorldObjectDef" key="BigAsteroidBasic.label"><s>big asteroid</s><r>большой астероид</r></e>
+  <e k="K" key="Broms_DeepOrbit.ManyOfPreciousResource"><s>Vacstone with large amounts of {RESOURCE_label}, and something else.</s><r>Вакстоун с большим количеством {RESOURCE_label} и что-то еще.</r></e>
+</AutoTranslateCache>
