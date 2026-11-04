@@ -1,0 +1,1105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="forti.rimmarket" name="RimMarket" language="Russian" version="1">
+  <e k="D" t="ConceptDef" key="RimMarket_Concept_Guide.helpText"><s>Your market marker has a Guide button. It shows, step by step, what your market still needs on this map, with buttons to place each piece, and a page that explains why no caravan has come yet.</s><r>Ваш рыночный маркер имеет кнопку «Руководство». На этой карте шаг за шагом показано, что вашему рынку все еще нужно, с кнопками для размещения каждого предмета и страницей, на которой объясняется, почему караван еще не пришел.</r></e>
+  <e k="D" t="ConceptDef" key="RimMarket_Concept_Guide.label"><s>the market guide</s><r>руководство по рынку</r></e>
+  <e k="D" t="ConceptDef" key="RimMarket_Concept_Spots.helpText"><s>Pack animals wait at the caravan camp and off duty guards at the guard rest spot. Fence the camp in and the animals stay put. You can hide a spot once you know where it is.</s><r>Вьючные животные ждут в лагере для караванов, а недежурные охранники - в месте отдыха охранников. Огородите лагерь, и животные останутся на месте. Вы можете скрыть место, если знаете, где оно находится.</r></e>
+  <e k="D" t="ConceptDef" key="RimMarket_Concept_Spots.label"><s>market spots</s><r>рыночные места</r></e>
+  <e k="D" t="ConceptDef" key="RimMarket_Concept_Stall.helpText"><s>A stall needs the merchant's spot at the end of its counter free, and a way in from the map edge. Paint its awning from here, or make it a colony stall to sell your own goods.</s><r>Лавку необходимо свободное место торговца в конце прилавка и проход от края карты. Покрасьте его навес отсюда или сделайте из него киоск для продажи собственных товаров.</r></e>
+  <e k="D" t="ConceptDef" key="RimMarket_Concept_Stall.label"><s>market stalls</s><r>рыночные прилавки</r></e>
+  <e k="D" t="HediffDef" key="RimMarket_Subdued.description"><s>Pinned to the ground by a market guard and relieved of any stolen goods. Getting back up takes a few hours and most of one's dignity.</s><r>Охранник рынка прижал к земле и лишил его всех украденных вещей. Чтобы подняться обратно, требуется несколько часов и большая часть человеческого достоинства.</r></e>
+  <e k="D" t="HediffDef" key="RimMarket_Subdued.label"><s>subdued</s><r>подавленный</r></e>
+  <e k="D" t="HediffDef" key="RimMarket_Subdued.labelNoun"><s>a tackle</s><r>снасть</r></e>
+  <e k="D" t="HistoryEventDef" key="RimMarket_AwayStall.label"><s>held a stall at their market</s><r>держали ларек на своем рынке</r></e>
+  <e k="D" t="HistoryEventDef" key="RimMarket_ConvoySaved.label"><s>saved their convoy</s><r>спас свой конвой</r></e>
+  <e k="D" t="HistoryEventDef" key="RimMarket_FairPrize.label"><s>won the best stall at your fair</s><r>выиграл лучший стенд на вашей ярмарке</r></e>
+  <e k="D" t="HistoryEventDef" key="RimMarket_InnStay.label"><s>slept well at your inn</s><r>хорошо спал в твоей гостинице</r></e>
+  <e k="D" t="HistoryEventDef" key="RimMarket_StallRobbed.label"><s>robbed at your market</s><r>ограбили на вашем рынке</r></e>
+  <e k="D" t="HistoryEventDef" key="RimMarket_ThiefCaught.label"><s>thief caught at your market</s><r>вор пойман на твоем рынке</r></e>
+  <e k="D" t="HistoryEventDef" key="RimMarket_TradeRoute.label"><s>a good day on the trade route</s><r>хороший день на торговом пути</r></e>
+  <e k="D" t="InteractionDef" key="RimMarket_ChangeOfGuard.label"><s>change of guard</s><r>смена караула</r></e>
+  <e k="D" t="InteractionDef" key="RimMarket_ChangeOfGuard.logRulesInitiator.rulesStrings.0"><s>r_logentry-&gt;[INITIATOR_nameDef] handed the watch at the stall over to [RECIPIENT_nameDef].</s><r>r_logentry-&gt;[INITIATOR_nameDef] передал часы в ларьке [RECIPIENT_nameDef].</r></e>
+  <e k="D" t="InteractionDef" key="RimMarket_ChangeOfGuard.logRulesInitiator.rulesStrings.1"><s>r_logentry-&gt;[INITIATOR_nameDef] told [RECIPIENT_nameDef] that nothing happened, then described it at length.</s><r>r_logentry-&gt;[INITIATOR_nameDef] сказал [RECIPIENT_nameDef], что ничего не произошло, а затем подробно описал это.</r></e>
+  <e k="D" t="InteractionDef" key="RimMarket_ChangeOfGuard.logRulesInitiator.rulesStrings.2"><s>r_logentry-&gt;[INITIATOR_nameDef] passed the watch to [RECIPIENT_nameDef], along with a list of colonists not to trust.</s><r>r_logentry-&gt;[INITIATOR_nameDef] передал наблюдение [RECIPIENT_nameDef] вместе со списком колонистов, которым нельзя доверять.</r></e>
+  <e k="D" t="InteractionDef" key="RimMarket_ChangeOfGuard.logRulesInitiator.rulesStrings.3"><s>r_logentry-&gt;[INITIATOR_nameDef] warned [RECIPIENT_nameDef] about the colonist who keeps touching the wares.</s><r>r_logentry-&gt;[INITIATOR_nameDef] предупредил [RECIPIENT_nameDef] о колонисте, который постоянно трогает товары.</r></e>
+  <e k="D" t="InteractionDef" key="RimMarket_ChangeOfGuard.logRulesInitiator.rulesStrings.4"><s>r_logentry-&gt;[RECIPIENT_nameDef] took over the watch from [INITIATOR_nameDef], who was already yawning.</s><r>r_logentry-&gt;[RECIPIENT_nameDef] взял на себя дежурство у [INITIATOR_nameDef], который уже зевал.</r></e>
+  <e k="D" t="JobDef" key="RimMarket_AttendAuction.reportString"><s>attending the auction.</s><r>участие в аукционе.</r></e>
+  <e k="D" t="JobDef" key="RimMarket_BrowseStall.reportString"><s>browsing the market stall.</s><r>просматривая рыночный прилавок.</r></e>
+  <e k="D" t="JobDef" key="RimMarket_BuyAtStall.reportString"><s>shopping at the market stall.</s><r>покупки в рыночном ларьке.</r></e>
+  <e k="D" t="JobDef" key="RimMarket_CallAuction.reportString"><s>calling the auction.</s><r>вызываю аукцион.</r></e>
+  <e k="D" t="JobDef" key="RimMarket_CatchThief.reportString"><s>chasing TargetA.</s><r>погоня за TargetA.</r></e>
+  <e k="D" t="JobDef" key="RimMarket_CheckAnimals.reportString"><s>checking on the pack animals.</s><r>проверка вьючных животных.</r></e>
+  <e k="D" t="JobDef" key="RimMarket_PayStallFee.reportString"><s>paying the stall fee.</s><r>оплата ларька.</r></e>
+  <e k="D" t="JobDef" key="RimMarket_PostWantedNotice.reportString"><s>writing a wanted notice.</s><r>написание заявления о розыске.</r></e>
+  <e k="D" t="JobDef" key="RimMarket_RestAtSpot.reportString"><s>off duty.</s><r>вне службы.</r></e>
+  <e k="D" t="JobDef" key="RimMarket_SleepAtInn.reportString"><s>sleeping at the inn.</s><r>ночую в гостинице.</r></e>
+  <e k="D" t="JobDef" key="RimMarket_Snatch.reportString"><s>browsing the market stall.</s><r>просматривая рыночный прилавок.</r></e>
+  <e k="D" t="JobDef" key="RimMarket_StandAtStall.reportString"><s>minding the stall.</s><r>присматриваю за ларьком.</r></e>
+  <e k="D" t="JobDef" key="RimMarket_StandOnBlock.reportString"><s>chained to the auction post.</s><r>прикован цепью к аукционному столбу.</r></e>
+  <e k="D" t="JobDef" key="RimMarket_TendColonyStall.reportString"><s>minding the colony stall.</s><r>присматриваю за ларьком колонии.</r></e>
+  <e k="D" t="JobDef" key="RimMarket_TradeAtStall.reportString"><s>trading at the stall.</s><r>торговля в ларьке.</r></e>
+  <e k="D" t="JobDef" key="RimMarket_WatchAuction.reportString"><s>watching the auction.</s><r>наблюдаю за аукционом.</r></e>
+  <e k="D" t="JoyKindDef" key="RimMarket_Market.label"><s>market</s><r>рынок</r></e>
+  <e k="D" t="ThingDef" key="RimMarket_AuctionBlock.comps.0.optionalNames.0"><s>Iron post</s><r>Железный столб</r></e>
+  <e k="D" t="ThingDef" key="RimMarket_AuctionBlock.comps.0.optionalNames.1"><s>Steel pillar</s><r>Стальной столб</r></e>
+  <e k="D" t="ThingDef" key="RimMarket_AuctionBlock.description"><s>A post with iron rings and a length of chain, planted where the crowd can see it. When a caravan with slaves for sale sets up at your market, the slaver chains each lot to the post in turn and takes bids. Buyers from other factions come to sit and bid, your guests join in, and so can you: select the post while a lot is up. Build it inside a market marker's radius, with a few chairs in front if you want the buyers comfortable.
+
+Whether your colonists can stomach the sight depends on what they believe about slavery.</s><r>Столб с железными кольцами и длинной цепью, установленный на видном месте. Когда на вашем рынке появляется караван с рабами, выставленными на продажу, работорговец по очереди привязывает каждый лот к столбу и принимает ставки. Покупатели из других фракций приходят, чтобы принять участие в торгах, ваши гости присоединяются, и вы тоже можете: выберите сообщение, пока много интересного. Постройте его в радиусе рыночного маркера, поставив перед ним несколько стульев, если хотите, чтобы покупателям было комфортно.
+
+Смогут ли ваши колонисты вынести это зрелище, зависит от того, что они думают о рабстве.</r></e>
+  <e k="D" t="ThingDef" key="RimMarket_AuctionBlock.label"><s>auction post</s><r>аукционный пост</r></e>
+  <e k="D" t="ThingDef" key="RimMarket_CaravanCamp.description"><s>A spot marked on the ground that tells visiting caravans where to leave their pack animals while the merchant works the market. The wares in the saddlebags still count for trading, however far the animals are from the counter, and what you buy is handed over at the counter.
+
+Select the spot to paint its area like a stockpile zone, or hide it once you know where it is. Wall the camp in and the animals stay put: they do not open doors. Off-duty guards wait at the guard rest spot, or just outside the camp if you have none. Without a camp, the animals wait just outside the market, out of the shoppers' way.</s><r>Место, отмеченное на земле и указывающее приезжающим караванам, где оставить вьючных животных, пока торговец работает на рынке. Товары в седельных сумках по-прежнему учитываются при торговле, как бы далеко ни находились животные от прилавка, и то, что вы покупаете, передается на прилавок.
+
+Выберите место, чтобы закрасить его область, как зону склада, или скройте его, как только вы узнаете, где оно находится. Загородите лагерь стеной, и животные останутся на месте: они не откроют двери. Охранники, не работающие при исполнении служебных обязанностей, ждут на месте отдыха охранника или рядом с лагерем, если у вас его нет. Без лагеря животные ждут рядом с рынком, подальше от покупателей.</r></e>
+  <e k="D" t="ThingDef" key="RimMarket_CaravanCamp.label"><s>caravan camp</s><r>караванный лагерь</r></e>
+  <e k="D" t="ThingDef" key="RimMarket_GuardRestSpot.description"><s>Designates where the guards of visiting caravans spend their time off while one of them stands post at the stall. They sit on any chair, stool or bench inside the spot's area, or stand if there is none, trade gossip, eat from their packs and sleep on the ground when night comes. Select the spot to paint its area like a stockpile zone, or hide it.
+
+Without a rest spot, off-duty guards hang around just outside the caravan camp, keeping an eye on the animals, or wait with the animals outside the market if there is no camp either.</s><r>Обозначает место, где охранники приезжих караванов проводят свободное время, пока один из них стоит на посту у ларька. Они сидят на любом стуле, табуретке или скамейке внутри места или стоят, если их нет, обмениваются сплетнями, едят из своих рюкзаков и спят на земле, когда наступает ночь. Выберите место, чтобы закрасить его территорию, как зону склада, или скройте его.
+
+Без места для отдыха неработающие охранники слоняются рядом с лагерем караванов, присматривая за животными, или ждут с животными за пределами рынка, если лагеря тоже нет.</r></e>
+  <e k="D" t="ThingDef" key="RimMarket_GuardRestSpot.label"><s>guard rest spot</s><r>место отдыха охранника</r></e>
+  <e k="D" t="ThingDef" key="RimMarket_MarketMarker.description"><s>A spot painted on the ground that marks the centre of your market square. Build stalls around it: any stall inside the market area belongs to this market. Select the marker to paint the area like a stockpile zone, choose how the stall fee is collected, open or close the market, and hide the spot once the square looks the way you want. During a Great Fair the maypole goes up right on it.
+
+Trade caravans that find a free stall here set up shop in it instead of idling outside your walls.</s><r>Пятно, нарисованное на земле и обозначающее центр вашей рыночной площади. Постройте вокруг него прилавки: любой прилавок на территории рынка принадлежит этому рынку. Выберите маркер, чтобы закрасить область как зону склада, выберите, как взимается плата за прилавок, откройте или закройте рынок и скройте это место, как только квадрат будет выглядеть так, как вы хотите. Во время Великой ярмарки майский шест поднимается прямо на него.
+
+Торговые караваны, которые находят здесь свободный прилавок, открывают там магазины, а не простаивают за вашими стенами.</r></e>
+  <e k="D" t="ThingDef" key="RimMarket_MarketMarker.label"><s>market marker</s><r>рыночные маркеры</r></e>
+  <e k="D" t="ThingDef" key="RimMarket_Stall.description"><s>An empty market stall: a counter with an awning over it. Build it inside a market marker's radius and leave the merchant's spot at the end of the counter free (outlined in white while placing). When a trade caravan comes to the market, its merchant takes the stall and stands at the end of the counter with the wares laid out under the awning, one guard keeps watch beside it, the pack animals wait at the caravan camp and the other guards at the guard rest spot. Trade from the stall or from the merchant.
+
+Or make it a colony stall and sell your own goods: choose what, how many and at what price in its sales table, your haulers bring them over, and shoppers and guests pay at the counter.
+
+Merchants open your doors like any friendly visitor, but the square must be reachable from the map edge. The counter and its legs take the colour of the material you build it from. The awning is yours to paint: pick an edge, a pattern and two colours. Built from metal, it hangs string lights instead of bunting during a fair.</s><r>Пустой рыночный прилавок: прилавок с навесом. Постройте его внутри радиуса маркера рынка и оставьте место торговца в конце прилавка свободным (обведено белым при размещении). Когда торговый караван приходит на рынок, его торговец занимает прилавок и становится в конце прилавка с товаром, разложенным под навесом, один охранник дежурит возле него, вьючные животные ждут в лагере караванов, а остальные охранники у места отдыха каравана. Торгуйте с ларька или у торговца.
+
+Или сделайте его колониальным ларьком и продавайте свои товары: выбирайте, что, сколько и по какой цене в его таблице продаж, ваши грузчики привозят их, а покупатели и гости расплачиваются за прилавком.
+
+Торговцы открывают ваши двери, как любой дружелюбный посетитель, но до площади должно быть доступно с края карты. Стол и его ножки окрашены в цвет материала, из которого вы его построили. Вы можете покрасить маркизу: выберите край, рисунок и два цвета. Построенный из металла, во время ярмарки на нем висят гирлянды вместо флагов.</r></e>
+  <e k="D" t="ThingDef" key="RimMarket_Stall.label"><s>market stall</s><r>рыночный ларек</r></e>
+  <e k="D" t="ThoughtDef" key="RimMarket_BoughtAtMarket.stages.0.description"><s>I bought something at the market. I probably did not need it. That is not the point.</s><r>Я купил кое-что на рынке. Наверное, мне это было не нужно. Дело не в этом.</r></e>
+  <e k="D" t="ThoughtDef" key="RimMarket_BoughtAtMarket.stages.0.label"><s>bought something at the market</s><r>купил что-то на рынке</r></e>
+  <e k="D" t="ThoughtDef" key="RimMarket_BrowsedMarket.stages.0.description"><s>I wandered past the stalls, fingered the cloth and argued about prices I had no intention of paying. Lovely afternoon.</s><r>Я бродил мимо прилавков, перебирал ткань и спорил о ценах, которые я не собирался платить. Прекрасный день.</r></e>
+  <e k="D" t="ThoughtDef" key="RimMarket_BrowsedMarket.stages.0.label"><s>browsed the market</s><r>просмотрел рынок</r></e>
+  <e k="D" t="ThoughtDef" key="RimMarket_FairStallWon.stages.0.description"><s>Six caravans of professional merchants, and the best stall at the fair was ours. Turnips, mostly. Very good turnips.</s><r>Шесть караванов профессиональных торговцев, и лучший ларек на ярмарке был наш. Репа, в основном. Очень хорошая репа.</r></e>
+  <e k="D" t="ThoughtDef" key="RimMarket_FairStallWon.stages.0.label"><s>our stall won the fair</s><r>наш киоск выиграл ярмарку</r></e>
+  <e k="D" t="ThoughtDef" key="RimMarket_SlaveAuctionHeld.stages.0.description"><s>People were sold on the block at our market today, the proper way, with bids and a gavel. Business as it should be.</s><r>Сегодня на нашем рынке людей продавали на плахе, как полагается, с торгами и молотком. Бизнес, каким он должен быть.</r></e>
+  <e k="D" t="ThoughtDef" key="RimMarket_SlaveAuctionHeld.stages.0.label"><s>slave auction in town</s><r>аукцион рабов в городе</r></e>
+  <e k="D" t="ThoughtDef" key="RimMarket_SlaveAuctionHeld.stages.1.description"><s>They sold people at our market today. I looked the other way. It did not help much.</s><r>Сегодня на нашем рынке продавали людей. Я посмотрел в другую сторону. Это не сильно помогло.</r></e>
+  <e k="D" t="ThoughtDef" key="RimMarket_SlaveAuctionHeld.stages.1.label"><s>slave auction in town</s><r>аукцион рабов в городе</r></e>
+  <e k="D" t="ThoughtDef" key="RimMarket_SlaveAuctionHeld.stages.2.description"><s>People were auctioned like cattle in our own market square. I keep hearing the bids.</s><r>Людей продавали с аукциона, как скот, на нашей собственной рыночной площади. Я продолжаю слышать ставки.</r></e>
+  <e k="D" t="ThoughtDef" key="RimMarket_SlaveAuctionHeld.stages.2.label"><s>slave auction in town</s><r>аукцион рабов в городе</r></e>
+  <e k="D" t="ThoughtDef" key="RimMarket_SlaveAuctionHeld.stages.3.description"><s>We let them sell human beings on a block in our town. What kind of place have we become?</s><r>Мы позволяем им продавать людей в квартале нашего города. Каким местом мы стали?</r></e>
+  <e k="D" t="ThoughtDef" key="RimMarket_SlaveAuctionHeld.stages.3.label"><s>slave auction in town</s><r>аукцион рабов в городе</r></e>
+  <e k="D" t="ThoughtDef" key="RimMarket_WentToFair.stages.0.description"><s>Bunting, crowds, six caravans and a man selling roasted nuts at a scandalous price. Our little town felt like a city for a day.</s><r>Бантинг, толпы, шесть караванов и человек, продающий жареные орехи по скандальной цене. Наш маленький городок на один день почувствовал себя городом.</r></e>
+  <e k="D" t="ThoughtDef" key="RimMarket_WentToFair.stages.0.label"><s>went to the Great Fair</s><r>побывал на Большой Ярмарке</r></e>
+  <e k="D" t="WorkGiverDef" key="RimMarket_StockColonyStall.gerund"><s>stocking</s><r>чулок</r></e>
+  <e k="D" t="WorkGiverDef" key="RimMarket_StockColonyStall.label"><s>stock colony stalls</s><r>ларьки фондовой колонии</r></e>
+  <e k="D" t="WorkGiverDef" key="RimMarket_StockColonyStall.verb"><s>stock</s><r>запас</r></e>
+  <e k="D" t="WorkGiverDef" key="RimMarket_TendColonyStall.gerund"><s>tending</s><r>уход</r></e>
+  <e k="D" t="WorkGiverDef" key="RimMarket_TendColonyStall.label"><s>tend colony stalls</s><r>ухаживать за ларьками колонии</r></e>
+  <e k="D" t="WorkGiverDef" key="RimMarket_TendColonyStall.verb"><s>tend</s><r>иметь тенденцию</r></e>
+  <e k="D" t="WorkTypeDef" key="RimMarket_Shopkeeping.description"><s>Stand at the colony stalls while customers are in town, name a price with a straight face and take their silver. A good talker gets more for the same turnips.</s><r>Стойте у прилавков колонии, пока покупатели в городе, с невозмутимым видом назовите цену и заберите свое серебро. Хороший оратор получает больше за ту же репу.</r></e>
+  <e k="D" t="WorkTypeDef" key="RimMarket_Shopkeeping.gerundLabel"><s>shopkeeping</s><r>ведение магазина</r></e>
+  <e k="D" t="WorkTypeDef" key="RimMarket_Shopkeeping.labelShort"><s>shopkeep</s><r>лавочник</r></e>
+  <e k="D" t="WorkTypeDef" key="RimMarket_Shopkeeping.pawnLabel"><s>Shopkeeper</s><r>Лавочник</r></e>
+  <e k="D" t="WorkTypeDef" key="RimMarket_Shopkeeping.verb"><s>Tend</s><r>Иметь тенденцию</r></e>
+  <e k="D" t="WorldObjectDef" key="RimMarket_ConvoyBattle.description"><s>A trade convoy circled up and fighting for its goods, with your people in the middle of it.</s><r>Торговый конвой кружил вокруг и сражался за свои товары, а ваши люди находились в его центре.</r></e>
+  <e k="D" t="WorldObjectDef" key="RimMarket_ConvoyBattle.label"><s>convoy fight</s><r>бой конвоя</r></e>
+  <e k="D" t="WorldObjectDef" key="RimMarket_TradeConvoy.description"><s>Merchants on their way to your market along a trade route, with guards, pack animals and more optimism than the roads deserve.</s><r>Торговцы на пути к вашему рынку по торговому пути, с охраной, вьючными животными и большим оптимизмом, чем того заслуживают дороги.</r></e>
+  <e k="D" t="WorldObjectDef" key="RimMarket_TradeConvoy.label"><s>trade convoy</s><r>торговый конвой</r></e>
+  <e k="K" key="RimMarket.AlertFairSoon"><s>Great Fair in {0}</s><r>Великая ярмарка в {0}</r></e>
+  <e k="K" key="RimMarket.AlertFairSoonDesc"><s>The Great Fair opens on {0} at {1}h. Keep the market stalls free and the market open: caravans will try to set up all at once, and crowds will follow.</s><r>Великая Ярмарка откроется {0} в {1}ч. Держите рыночные прилавки свободными и рынок открытым: караваны попытаются выстроиться сразу, и за ними последуют толпы.</r></e>
+  <e k="K" key="RimMarket.AlertFairToday"><s>Great Fair today</s><r>Большая ярмарка сегодня</r></e>
+  <e k="K" key="RimMarket.AlertFairTodayDesc"><s>The Great Fair runs until {0}h. Expect caravans, crowds, cheerful colonists and busy pickpockets.</s><r>Большая ярмарка продлится до {0}ч. Ожидайте караваны, толпы, веселых колонистов и занятых карманников.</r></e>
+  <e k="K" key="RimMarket.AlertNoStall"><s>Caravan needs a stall</s><r>Каравану нужен ларек</r></e>
+  <e k="K" key="RimMarket.AlertNoStallDesc"><s>These caravans want to set up at your market but cannot:
+
+{0}
+
+Build another stall, or clear the way to a free one. They set up as soon as one is free, and camp outside until then.</s><r>Эти караваны хотят разместиться на вашем рынке, но не могут:
+
+{0}
+
+Построить еще один прилавок или расчистить путь к свободному. Они разбиваются, как только кто-то освобождается, и до тех пор разбивают лагерь на улице.</r></e>
+  <e k="K" key="RimMarket.AlertThief"><s>Thief on the run</s><r>Вор в бегах</r></e>
+  <e k="K" key="RimMarket.AlertThiefDesc"><s>Running off with a merchant's goods:
+
+{0}
+
+Right-click a thief with a colonist to tackle them before they reach the edge of the map.</s><r>Убегаем с товарами торговца:
+
+{0}
+
+Нажмите правой кнопкой мыши на вора с колонистом, чтобы схватить их, прежде чем они достигнут края карты.</r></e>
+  <e k="K" key="RimMarket.AlertWantedOffers"><s>Offers on your notice: {0}</s><r>Предложения к вашему вниманию: {0}</r></e>
+  <e k="K" key="RimMarket.AlertWantedOffersDesc"><s>Towns answered your wanted notice. Click to see their offers.</s><r>Таунс ответил на ваше заявление о розыске. Нажмите, чтобы увидеть их предложения.</r></e>
+  <e k="K" key="RimMarket.AreaEraseCamp"><s>Erase camp area</s><r>Стереть территорию лагеря</r></e>
+  <e k="K" key="RimMarket.AreaEraseDescCamp"><s>Drag to take cells out of the camp. The spot always stays inside.</s><r>Перетащите, чтобы вывести клетки из лагеря. Пятно всегда остается внутри.</r></e>
+  <e k="K" key="RimMarket.AreaEraseDescGuard"><s>Drag to take cells out of the guards' area. The spot always stays inside.</s><r>Перетащите, чтобы вывести клетки из зоны охраны. Пятно всегда остается внутри.</r></e>
+  <e k="K" key="RimMarket.AreaEraseDescMarket"><s>Drag to take cells out of the market square. The marker always stays inside.</s><r>Перетащите, чтобы вывести ячейки с рыночной площади. Маркер всегда остается внутри.</r></e>
+  <e k="K" key="RimMarket.AreaEraseGuard"><s>Erase guard area</s><r>Удалить охранную зону</r></e>
+  <e k="K" key="RimMarket.AreaEraseMarket"><s>Erase market area</s><r>Стереть рыночную площадь</r></e>
+  <e k="K" key="RimMarket.AreaKeepCamp"><s>The camp spot has to stay inside its area.</s><r>Место для лагеря должно оставаться в пределах своей территории.</r></e>
+  <e k="K" key="RimMarket.AreaKeepGuard"><s>The rest spot has to stay inside its area.</s><r>Место отдыха должно оставаться внутри своей зоны.</r></e>
+  <e k="K" key="RimMarket.AreaKeepMarket"><s>The marker has to stay inside the market.</s><r>Маркер должен оставаться внутри рынка.</r></e>
+  <e k="K" key="RimMarket.AreaPaintCamp"><s>Paint camp area</s><r>Покраска территории лагеря</r></e>
+  <e k="K" key="RimMarket.AreaPaintDescCamp"><s>Drag to add cells where the pack animals wait, like a stockpile zone. Once you paint, your shape replaces the circle.</s><r>Перетащите, чтобы добавить ячейки, где ждут вьючные животные, например зону складирования. Когда вы рисуете, ваша форма заменяет круг.</r></e>
+  <e k="K" key="RimMarket.AreaPaintDescGuard"><s>Drag to add cells where off duty guards sit, chat and eat, like a stockpile zone. Once you paint, your shape replaces the circle.</s><r>Перетащите, чтобы добавить ячейки, где сидят, разговаривают и едят дежурные охранники, как в зоне складирования. Когда вы рисуете, ваша форма заменяет круг.</r></e>
+  <e k="K" key="RimMarket.AreaPaintDescMarket"><s>Drag to add cells to the market square, like a stockpile zone. Once you paint, your shape replaces the circle.</s><r>Перетащите, чтобы добавить ячейки на рыночную площадь, например зону складирования. Когда вы рисуете, ваша форма заменяет круг.</r></e>
+  <e k="K" key="RimMarket.AreaPaintGuard"><s>Paint guard area</s><r>Зона охраны краски</r></e>
+  <e k="K" key="RimMarket.AreaPaintMarket"><s>Paint market area</s><r>Рынок красок</r></e>
+  <e k="K" key="RimMarket.AreaTooFar"><s>Too far, this area reaches {0} cells at most from its spot.</s><r>Слишком далеко эта область достигает максимум {0} ячеек от своего места.</r></e>
+  <e k="K" key="RimMarket.AuctionAnnounced"><s>The {0} slaver will auction off the slaves they brought ({1} lots) at your auction post in two hours. Bring silver.</s><r>Работорговец {0} продаст привезенных им рабов ({1} лотов) на вашем аукционном посту через два часа. Принесите серебро.</r></e>
+  <e k="K" key="RimMarket.AuctionBidDesc"><s>Bid {1} silver for {0}. If nobody outbids you before the gavel falls, the silver comes out of your stockpiles and {0} is yours, as if bought from the slaver.</s><r>Ставьте {1} серебра за {0}. Если никто не перебьет вашу цену до того, как упадет молоток, серебро выйдет из ваших запасов, и {0} станет вашим, как если бы оно было куплено у работорговца.</r></e>
+  <e k="K" key="RimMarket.AuctionBidLabel"><s>Bid {0}</s><r>Ставка {0}</r></e>
+  <e k="K" key="RimMarket.AuctionBidLine"><s>Current bid: {0} silver by {1}. The gavel falls in {2}.</s><r>Текущая ставка: {0} серебра на {1}. Молоток падает на {2}.</r></e>
+  <e k="K" key="RimMarket.AuctionBuyerGone"><s>The winning bid on {0} fell through: the buyer is gone or can't pay. The slaver keeps the lot.</s><r>Выигравшая ставка на {0} не состоялась: покупатель ушел или не может заплатить. Работорговец оставляет себе партию.</r></e>
+  <e k="K" key="RimMarket.AuctionBuyerNamed"><s>{0} of {1}</s><r>{0} из {1}</r></e>
+  <e k="K" key="RimMarket.AuctionBuyersComing"><s>Buyers are on their way for the auction: {0}. They take a seat in front of the post, bid with their own silver and leave with whatever they win.</s><r>Покупатели едут на аукцион: {0}. Они садятся перед столбом, делают ставку своим серебром и уходят с тем, что выиграют.</r></e>
+  <e k="K" key="RimMarket.AuctionCannotPay"><s>Your colony could not pay for {0} when the gavel fell. The slaver keeps them.</s><r>Ваша колония не смогла заплатить {0}, когда молоток упал. Работорговец хранит их.</r></e>
+  <e k="K" key="RimMarket.AuctionColonySilver"><s>Your colony has {0} silver to bid with.</s><r>У вашей колонии есть {0} серебра для ставок.</r></e>
+  <e k="K" key="RimMarket.AuctionIdle"><s>No auction under way.</s><r>Аукцион не проводится.</r></e>
+  <e k="K" key="RimMarket.AuctionLeaderNone"><s>nobody yet</s><r>еще никто</r></e>
+  <e k="K" key="RimMarket.AuctionLeaderYou"><s>your colony</s><r>твоя колония</r></e>
+  <e k="K" key="RimMarket.AuctionLotLine"><s>Lot {0}: {1}, worth about {2} silver.</s><r>Лот {0}: {1}, стоимостью около {2} серебра.</r></e>
+  <e k="K" key="RimMarket.AuctionLotOpen"><s>Lot {0} at the post: {1}. Bidding opens at {2} silver.</s><r>Лот {0} на посту: {1}. Торги открываются по цене {2} серебра.</r></e>
+  <e k="K" key="RimMarket.AuctionLotWithdrawn"><s>{0} was taken off the post.</s><r>{0} был снят с поста.</r></e>
+  <e k="K" key="RimMarket.AuctionNextLot"><s>Auction under way: next lot in {0}.</s><r>Аукцион продолжается: следующий лот через {0}.</r></e>
+  <e k="K" key="RimMarket.AuctionNoBlock"><s>The {0} slaver brought slaves to sell ({1}), but no auction post stands in this market square.</s><r>Работорговец {0} привозил рабов на продажу ({1}), но на этой рыночной площади нет аукционных постов.</r></e>
+  <e k="K" key="RimMarket.AuctionNoSlaves"><s>The {0} slaver has no one to sell this time, so there is no auction.</s><r>Работорговцу {0} на этот раз некому продать, поэтому аукциона не будет.</r></e>
+  <e k="K" key="RimMarket.AuctionNoSlavesIdeo"><s>The {0} slaver has no one to sell: their ideology does not approve of slavery, whatever the sign on the wagon says. No auction today.</s><r>Работорговцам {0} некому продавать: их идеология не одобряет рабство, что бы ни гласила табличка на повозке. Аукциона сегодня не будет.</r></e>
+  <e k="K" key="RimMarket.AuctionNoTakers"><s>No takers for {0}. The slaver keeps them.</s><r>На {0} нет желающих. Работорговец хранит их.</r></e>
+  <e k="K" key="RimMarket.AuctionNotEnoughSilver"><s>not enough silver in your stockpiles for a bid of {0}</s><r>в ваших запасах недостаточно серебра для ставки в {0}</r></e>
+  <e k="K" key="RimMarket.AuctionOutbid"><s>{0} outbids your colony at {1} silver.</s><r>{0} перебивает цену вашей колонии на {1} серебра.</r></e>
+  <e k="K" key="RimMarket.AuctionOver"><s>The {0} slaver closes the auction.</s><r>Работорговец {0} закрывает аукцион.</r></e>
+  <e k="K" key="RimMarket.AuctionSoldTo"><s>{0} sold to {1} for {2} silver.</s><r>{0} продано {1} за {2} серебра.</r></e>
+  <e k="K" key="RimMarket.AuctionSoldToYou"><s>Sold to your colony: {0}, for {1} silver.</s><r>Продано вашей колонии: {0} за {1} серебра.</r></e>
+  <e k="K" key="RimMarket.AuctionYouLead"><s>your colony holds the highest bid</s><r>ваша колония имеет самую высокую цену</r></e>
+  <e k="K" key="RimMarket.AwayAlreadyHolding"><s>already holding a stall</s><r>уже держу ларек</r></e>
+  <e k="K" key="RimMarket.AwayCannotStart"><s>{0}: cannot hold a stall ({1}).</s><r>{0}: невозможно удержать стойло ({1}).</r></e>
+  <e k="K" key="RimMarket.AwayCaravanInspect"><s>Holding a stall at {0}: {1} left, {2} items sold for {3} silver.</s><r>Удержание ларька в {0}: осталось {1}, {2} предметов продано за {3} серебра.</r></e>
+  <e k="K" key="RimMarket.AwayCooldown"><s>their market saw your stall recently, come back in {0}</s><r>их рынок недавно видел ваш прилавок, возвращайтесь через {0}</r></e>
+  <e k="K" key="RimMarket.AwayEndMoved"><s>{0} left {1} and took its stall along.</s><r>{0} покинул {1} и забрал с собой свою палатку.</r></e>
+  <e k="K" key="RimMarket.AwayEndNormal"><s>{0} packs up its stall at {1} at the end of the market day.</s><r>{0} заполняет свой прилавок в {1} в конце рыночного дня.</r></e>
+  <e k="K" key="RimMarket.AwayEndPackedUp"><s>{0} packs up its stall at {1} early.</s><r>{0} заполняет свой прилавок в {1} рано.</r></e>
+  <e k="K" key="RimMarket.AwayEndSoldOut"><s>{0} sold everything it put up at the {1} market and packs up.</s><r>{0} продал все, что выставил на рынке {1}, и упаковал.</r></e>
+  <e k="K" key="RimMarket.AwayEventFestival"><s>It is a festival day at {0}. Twice the usual crowd, and everyone has spending money.</s><r>В {0} сегодня фестивальный день. В два раза больше обычной толпы, и у всех есть деньги на расходы.</r></e>
+  <e k="K" key="RimMarket.AwayEventPickpocket"><s>A pickpocket walked off with {0} {1}. Nobody saw a thing, as is traditional.</s><r>Карманник ушёл с {0} {1}. Никто ничего не видел, как это принято.</r></e>
+  <e k="K" key="RimMarket.AwayEventPickpocketCaught"><s>{0} caught a pickpocket by the wrist before anything left the stall.</s><r>{0} поймал карманника за запястье, прежде чем кто-то покинул прилавок.</r></e>
+  <e k="K" key="RimMarket.AwayEventRich"><s>A wealthy customer bought the {0} for {1} silver without haggling, which is rude in its own way.</s><r>Богатый покупатель купил {0} за {1} серебра, не торгуясь, что по-своему грубо.</r></e>
+  <e k="K" key="RimMarket.AwayEventRival"><s>A rival merchant has set up across the square at {0}. Half your customers wander over to them.</s><r>Конкурирующий торговец обосновался на другой стороне площади в {0}. Половина ваших клиентов бродит к ним.</r></e>
+  <e k="K" key="RimMarket.AwayGoodsCount"><s>Count</s><r>Считать</r></e>
+  <e k="K" key="RimMarket.AwayGoodsDesc"><s>Pick what goes on the counter and what stays in your bags.</s><r>Выбирайте, что лежит на прилавке, а что остается в ваших сумках.</r></e>
+  <e k="K" key="RimMarket.AwayGoodsIntro"><s>Untick what stays in your bags, the rest goes on the counter. Food and medicine never do. You can change it any time with the Stall goods button on the caravan.</s><r>Снимите галочку с того, что остается в ваших сумках, остальное отправится на прилавок. Еда и лекарства никогда не помогают. Вы можете изменить его в любой момент с помощью кнопки «Ставить товары» на караване.</r></e>
+  <e k="K" key="RimMarket.AwayGoodsItem"><s>Goods</s><r>Товары</r></e>
+  <e k="K" key="RimMarket.AwayGoodsKeepAll"><s>Keep all</s><r>Сохранить все</r></e>
+  <e k="K" key="RimMarket.AwayGoodsLabel"><s>Stall goods</s><r>Лавковые товары</r></e>
+  <e k="K" key="RimMarket.AwayGoodsSell"><s>Sell</s><r>Продавать</r></e>
+  <e k="K" key="RimMarket.AwayGoodsSellAll"><s>Sell all</s><r>Продать все</r></e>
+  <e k="K" key="RimMarket.AwayGoodsSummary"><s>{0} of {1} kinds of goods on the counter, worth about {2} silver.</s><r>{0} из {1} видов товаров на прилавке стоимостью около {2} серебра.</r></e>
+  <e k="K" key="RimMarket.AwayGoodsTitle"><s>Your stall at {0}</s><r>Ваш киоск в {0}</r></e>
+  <e k="K" key="RimMarket.AwayGoodsValue"><s>Value</s><r>Ценить</r></e>
+  <e k="K" key="RimMarket.AwayInspectFestival"><s>Festival day: twice the usual crowd.</s><r>Фестивальный день: вдвое больше обычного народа.</r></e>
+  <e k="K" key="RimMarket.AwayInspectRival"><s>A rival merchant is taking half the customers.</s><r>Конкурирующий торговец забирает половину клиентов.</r></e>
+  <e k="K" key="RimMarket.AwayLost"><s>Your stall at {0} is gone: the caravan or the market is no longer there.</s><r>Вашего прилавка в {0} больше нет: каравана или рынка больше нет.</r></e>
+  <e k="K" key="RimMarket.AwayNoSales"><s>Nothing sold.</s><r>Ничего не продано.</r></e>
+  <e k="K" key="RimMarket.AwayNoSeller"><s>no one able to trade</s><r>никто не умеет торговать</r></e>
+  <e k="K" key="RimMarket.AwayNothingToSell"><s>nothing they want to buy</s><r>ничего, что они хотят купить</r></e>
+  <e k="K" key="RimMarket.AwayOption"><s>Hold a market stall at {0} (one day)</s><r>Удерживайте рыночный прилавок на {0} (один день)</r></e>
+  <e k="K" key="RimMarket.AwayPackUpDesc"><s>Close the stall now and get ready to leave. Moving the caravan does the same.</s><r>Закройте ларек сейчас и будьте готовы уйти. Перемещение каравана делает то же самое.</r></e>
+  <e k="K" key="RimMarket.AwayPackUpLabel"><s>Pack up the stall</s><r>Упакуйте ларек</r></e>
+  <e k="K" key="RimMarket.AwayReport"><s>going to hold a stall at {0}</s><r>собираюсь провести прилавок в {0}</r></e>
+  <e k="K" key="RimMarket.AwayStallTaken"><s>another of your caravans holds a stall here</s><r>другой из твоих караванов держит здесь прилавок</r></e>
+  <e k="K" key="RimMarket.AwayStarted"><s>{0} sets up a stall at the {1} market for one market day. The stall fee is {2}% of sales.</s><r>{0} устанавливает прилавок на рынке {1} на один рыночный день. Комиссия за киоск составляет {2}% от суммы продаж.</r></e>
+  <e k="K" key="RimMarket.AwayTakings"><s>Takings: {0} items sold for {1} silver, {2} of it paid to the market.</s><r>Выручка: {0} предметов продано за {1} серебра, {2} из них выплачено на рынок.</r></e>
+  <e k="K" key="RimMarket.AwayTownCooldown"><s>Your stall was here recently. Their market will have you back in {0}.</s><r>Недавно здесь был ваш киоск. Их рынок вернет вас в {0}.</r></e>
+  <e k="K" key="RimMarket.AwayTownHolding"><s>Your caravan {0} holds a stall at the market here.</s><r>Ваш караван {0} стоит здесь на рынке.</r></e>
+  <e k="K" key="RimMarket.AwningAppliedAll"><s>{0} other stalls repainted to match.</s><r>{0} другие киоски перекрашены в соответствии с ними.</r></e>
+  <e k="K" key="RimMarket.AwningApplyAll"><s>Apply to every stall</s><r>Подать заявку на каждый ларек</r></e>
+  <e k="K" key="RimMarket.AwningCanvas"><s>Canvas colour</s><r>Цвет холста</r></e>
+  <e k="K" key="RimMarket.AwningEdge"><s>Edge</s><r>Край</r></e>
+  <e k="K" key="RimMarket.AwningPattern"><s>Pattern</s><r>Шаблон</r></e>
+  <e k="K" key="RimMarket.AwningRandom"><s>Surprise me</s><r>Удиви меня</r></e>
+  <e k="K" key="RimMarket.AwningStripe"><s>Pattern colour</s><r>Цвет узора</r></e>
+  <e k="K" key="RimMarket.AwningTitle"><s>Paint the awning</s><r>Покрасьте тент</r></e>
+  <e k="K" key="RimMarket.AxisAppeal"><s>Appeal</s><r>Обращаться</r></e>
+  <e k="K" key="RimMarket.AxisFairness"><s>Fair dealing</s><r>Честная сделка</r></e>
+  <e k="K" key="RimMarket.AxisFees"><s>Fees</s><r>Сборы</r></e>
+  <e k="K" key="RimMarket.AxisSafety"><s>Safety</s><r>Безопасность</r></e>
+  <e k="K" key="RimMarket.BuildMenuDesc"><s>Place market buildings without digging through the Architect menu: stalls, the caravan camp, the guard rest spot and the auction post.</s><r>Размещайте рыночные постройки, не копаясь в меню Архитектора: ларьки, лагерь караванов, место отдыха стражи и аукционный пост.</r></e>
+  <e k="K" key="RimMarket.BuildMenuLabel"><s>Build</s><r>Строить</r></e>
+  <e k="K" key="RimMarket.BuildMenuLocked"><s>not available yet</s><r>еще не доступен</r></e>
+  <e k="K" key="RimMarket.CaravanWaitsDanger"><s>The {0} caravan is shut in behind your walls. They saw the danger out there and will wait for it to pass rather than break out.</s><r>Караван {0} заперт за вашими стенами. Они увидели опасность и будут ждать, пока она пройдет, а не вырвется наружу.</r></e>
+  <e k="K" key="RimMarket.CaughtRedHanded"><s>caught red-handed, no hard feelings</s><r>пойман с поличным, никаких обид</r></e>
+  <e k="K" key="RimMarket.ChantBid1"><s>{0}! Do I hear {1}?</s><r>{0}! Я слышу {1}?</r></e>
+  <e k="K" key="RimMarket.ChantBid2"><s>I got {0}, who'll make it {1}?</s><r>У меня {0}, кто наберет {1}?</r></e>
+  <e k="K" key="RimMarket.ChantBid3"><s>{0}, {0}, now {1}, {1}!</s><r>{0}, {0}, теперь {1}, {1}!</r></e>
+  <e k="K" key="RimMarket.ChantBid4"><s>{0} on the floor! {1} anyone?</s><r>{0} на полу! {1} кто-нибудь?</r></e>
+  <e k="K" key="RimMarket.ChantGoingOnce"><s>{0}, going once...</s><r>{0}, собираюсь один раз...</r></e>
+  <e k="K" key="RimMarket.ChantGoingTwice"><s>{0}, going twice...</s><r>{0}, повторюсь дважды...</r></e>
+  <e k="K" key="RimMarket.ChantLastCall"><s>Last call, {0} silver!</s><r>Последний звонок, {0} серебро!</r></e>
+  <e k="K" key="RimMarket.ChantMore1"><s>{0} does {1} too, level {2}!</s><r>{0} тоже делает {1}, уровень {2}!</r></e>
+  <e k="K" key="RimMarket.ChantMore2"><s>Handy at {1} as well, folks!</s><r>Ребята, это тоже удобно в {1}!</r></e>
+  <e k="K" key="RimMarket.ChantMore3"><s>And {1} {2} on top, what a deal!</s><r>И {1} {2} сверху, что за сделка!</r></e>
+  <e k="K" key="RimMarket.ChantMorePlain"><s>Healthy, eats little, never complains!</s><r>Здоров, ест мало, никогда не жалуется!</r></e>
+  <e k="K" key="RimMarket.ChantNoTakers1"><s>No takers? Shame.</s><r>Нет желающих? Стыд.</r></e>
+  <e k="K" key="RimMarket.ChantNoTakers2"><s>Nobody? Moving on, folks.</s><r>Никто? Идем дальше, ребята.</r></e>
+  <e k="K" key="RimMarket.ChantNudge1"><s>Come on, {0} to start!</s><r>Давай, {0} для начала!</r></e>
+  <e k="K" key="RimMarket.ChantNudge2"><s>{0} silver, anybody? It's a steal!</s><r>{0} серебро, кто-нибудь? Это воровство!</r></e>
+  <e k="K" key="RimMarket.ChantNudge3"><s>Don't be shy now, {0}!</s><r>Не стесняйся, {0}!</r></e>
+  <e k="K" key="RimMarket.ChantOpen1"><s>Lot {0}! {1}, {2} {3}, who starts me off?</s><r>Лот {0}! {1}, {2} {3}, кто меня начинает?</r></e>
+  <e k="K" key="RimMarket.ChantOpen2"><s>Lot {0}, folks! {1}, {2} {3}, fine stock!</s><r>Лот {0}, ребята! {1}, {2} {3}, отличный запас!</r></e>
+  <e k="K" key="RimMarket.ChantOpen3"><s>Lot {0}! {1}, {2} {3}, works like a mule!</s><r>Лот {0}! {1}, {2} {3}, работает как мул!</r></e>
+  <e k="K" key="RimMarket.ChantOpen4"><s>Lot {0}! {1}, best {2} you'll see all year!</s><r>Лот {0}! {1}, лучшее {2}, которое вы увидите за весь год!</r></e>
+  <e k="K" key="RimMarket.ChantOpenPassion"><s>Lot {0}! {1}, {2} {3}, and loves the work!</s><r>Лот {0}! {1}, {2} {3}, и любит свою работу!</r></e>
+  <e k="K" key="RimMarket.ChantOpenPlain"><s>Lot {0}! {1}, strong back, all their teeth!</s><r>Лот {0}! {1}, крепкая спина, все зубы!</r></e>
+  <e k="K" key="RimMarket.ChantSold1"><s>Sold! {0} silver!</s><r>Продал! {0} серебро!</r></e>
+  <e k="K" key="RimMarket.ChantSold2"><s>Gone for {0}!</s><r>Ушло на {0}!</r></e>
+  <e k="K" key="RimMarket.ChantSold3"><s>Sold, {0}, pleasure doing business!</s><r>Продано, {0}, приятно иметь дело!</r></e>
+  <e k="K" key="RimMarket.ChantWeak1"><s>Hopeless at {1}, mind you!</s><r>Безнадежно в {1}, заметьте!</r></e>
+  <e k="K" key="RimMarket.ChantWeak2"><s>Don't ask {0} to do {1}, trust me.</s><r>Не просите {0} сделать {1}, поверьте мне.</r></e>
+  <e k="K" key="RimMarket.ChantWeak3"><s>{1}? Not so much. Everything else though!</s><r>{1}? Не так уж и много. Хотя все остальное!</r></e>
+  <e k="K" key="RimMarket.CloseMarketConfirm"><s>Send {0} merchant(s) packing right now?</s><r>Отправить {0} продавцам упаковку прямо сейчас?</r></e>
+  <e k="K" key="RimMarket.CloseMarketDesc"><s>Send every merchant at this market's stalls home right away. They pack up and leave by the usual road. Other markets on the map are not touched, and this does not close the market for future caravans.</s><r>Немедленно отправьте всех торговцев с прилавков этого рынка домой. Они собираются и уезжают обычной дорогой. Другие рынки на карте не тронуты, и это не закрывает рынок для будущих караванов.</r></e>
+  <e k="K" key="RimMarket.CloseMarketLabel"><s>Close market now</s><r>Закрыть рынок сейчас</r></e>
+  <e k="K" key="RimMarket.ColonyStallBusy"><s>{0} is trading from this stall</s><r>{0} торгует из этого прилавка</r></e>
+  <e k="K" key="RimMarket.ColonyStallEmpty"><s>Colony stall: nothing for sale yet. Use Set up the stall.</s><r>Палатка колонии: пока ничего не продается. Используйте Настройка стойла.</r></e>
+  <e k="K" key="RimMarket.ColonyStallForSale"><s>Colony stall, for sale:</s><r>Продается стойло для колонии:</r></e>
+  <e k="K" key="RimMarket.ColonyStallKeeper"><s>Shopkeeper: {0}</s><r>Владелец магазина: {0}</r></e>
+  <e k="K" key="RimMarket.ColonyStallMoreOrders"><s>  and {0} more</s><r>  и еще {0}</r></e>
+  <e k="K" key="RimMarket.ColonyStallNoKeeper"><s>No shopkeeper at the counter, so nothing sells</s><r>У прилавка нет продавца, поэтому ничего не продается</r></e>
+  <e k="K" key="RimMarket.ColonyStallNothingToSell"><s>The stall has nothing to sell</s><r>В ларьке нечего продавать</r></e>
+  <e k="K" key="RimMarket.ColonyStallOrderLine"><s>  {0}: {1} to sell, {2} on the counter, {3} of value</s><r>  {0}: {1} продать, {2} на прилавке, {3} стоимости</r></e>
+  <e k="K" key="RimMarket.ColonyStallRefillLine"><s>  {0}: kept at {1}, {2} on the counter, {3} of value</s><r>  {0}: хранится на уровне {1}, {2} на счетчике, {3} значения.</r></e>
+  <e k="K" key="RimMarket.ColonyStallSetup"><s>Set up the stall</s><r>Установить ларек</r></e>
+  <e k="K" key="RimMarket.ColonyStallSetupDesc"><s>Open the sales table: what this stall sells, how many and at what price.</s><r>Откройте таблицу продаж: что продается в этом ларьке, сколько и по какой цене.</r></e>
+  <e k="K" key="RimMarket.ColonyStallTakings"><s>Sold so far: {0} silver over {1} sales</s><r>На данный момент продано: {0} серебра больше {1} продаж</r></e>
+  <e k="K" key="RimMarket.ColonyStallToggle"><s>Colony stall</s><r>Колониальный ларек</r></e>
+  <e k="K" key="RimMarket.ColonyStallToggleDesc"><s>Keep this stall for the colony's own goods. Visiting merchants will look elsewhere. Choose what it sells, how many and at what price in its sales table; your haulers bring the goods over, shoppers and guests pay at the counter, and the silver lands at the end of it for someone to put away.
+
+Switching it back clears the table and puts whatever is left on the counter down in front of it.</s><r>Оставьте этот ларек для собственных товаров колонии. Приезжие торговцы будут искать в другом месте. Выберите, что он продает, в каком количестве и по какой цене в своей таблице продаж; ваши грузчики доставляют товары, покупатели и гости платят у прилавка, а серебро попадает в конец прилавка, чтобы кто-то мог его убрать.
+
+Переключение назад очищает стол и кладет все, что осталось на прилавке, перед ним.</r></e>
+  <e k="K" key="RimMarket.CommandInnBed"><s>Market inn</s><r>Рынок в</r></e>
+  <e k="K" key="RimMarket.CommandInnBedDesc"><s>Rent this bed out to the people who come for the market: merchants, off-duty guards and passing shoppers. They pay by the night (price in the mod settings) and leave the silver by the bed. Colonists, prisoners and slaves will not use it. A nice private room pleases them, a bedroll in a shed does not.</s><r>Сдавайте эту кровать людям, которые приходят на рынок: торговцам, дежурным охранникам и прохожим покупателям. Платят за ночь (цена в настройках мода) и оставляют серебро у кровати. Колонисты, пленники и рабы не будут его использовать. Хорошая отдельная комната им нравится, а постель в сарае — нет.</r></e>
+  <e k="K" key="RimMarket.ConvoyAmbushed"><s>The trade convoy from {0} has been ambushed by {1}!</s><r>Торговый конвой из {0} попал в засаду {1}!</r></e>
+  <e k="K" key="RimMarket.ConvoyAmbushedHelp"><s>The trade convoy from {0} has been ambushed by {1}!
+
+They circled up and can hold out for about {2}. Send a caravan if you want to lend a hand, or let them sort it out.</s><r>Торговый конвой из {0} попал в засаду {1}!
+
+Они окружили и могут продержаться около {2}. Отправьте караван, если хотите помочь, или позвольте им разобраться во всем.</r></e>
+  <e k="K" key="RimMarket.ConvoyAmbushedLabel"><s>Convoy ambushed</s><r>Конвой попал в засаду</r></e>
+  <e k="K" key="RimMarket.ConvoyBattleLabel"><s>Convoy under attack</s><r>Конвой под атакой</r></e>
+  <e k="K" key="RimMarket.ConvoyBattleText"><s>{0} found the convoy from {1} circled up and under attack by {2}.
+
+Keep {3} alive and drive the attackers off. If the merchant dies or gets dragged away, the convoy is lost.</s><r>{0} обнаружил, что конвой из {1} окружён и подвергся нападению со стороны {2}.
+
+Сохраните {3} живым и прогоните нападавших. Если торговец погибнет или его утащат, конвой погибнет.</r></e>
+  <e k="K" key="RimMarket.ConvoyBound"><s>Bound for {0}, arriving in about {1}.</s><r>Направляется в {0}, прибывает примерно в {1}.</r></e>
+  <e k="K" key="RimMarket.ConvoyCarrying"><s>Merchant: {0}.</s><r>Торговец: {0}.</r></e>
+  <e k="K" key="RimMarket.ConvoyCarryingOrder"><s>Carrying your order: {0}</s><r>Несу ваш заказ: {0}</r></e>
+  <e k="K" key="RimMarket.ConvoyEscorted"><s>Travelling with an escort.</s><r>Путешествие с сопровождающим.</r></e>
+  <e k="K" key="RimMarket.ConvoyFellLabel"><s>Convoy lost</s><r>Конвой потерян</r></e>
+  <e k="K" key="RimMarket.ConvoyFellText"><s>The merchant from {0} is gone, and the convoy with them. Whatever they carried is lying around for anyone who wants it.</s><r>Торговец из {0} пропал, а с ним и конвой. Что бы они ни несли, оно лежит для всех желающих.</r></e>
+  <e k="K" key="RimMarket.ConvoyLost"><s>The trade convoy from {0} was overrun by {1}. The next one leaves as planned.</s><r>Торговый конвой из {0} был захвачен {1}. Следующий уходит по плану.</r></e>
+  <e k="K" key="RimMarket.ConvoyPlundered"><s>The trade convoy from {0} got away from {1}, minus about {2} of its goods. It carries on with what is left.</s><r>Торговый конвой из {0} ушел из {1}, минус около {2} его товаров. Продолжается с тем, что осталось.</r></e>
+  <e k="K" key="RimMarket.ConvoyPlunderedLine"><s>Lost about {0} of its goods on the way.</s><r>Потеряно около {0} товаров по дороге.</r></e>
+  <e k="K" key="RimMarket.ConvoyRepelled"><s>The trade convoy from {0} fought off {1} and is back on the road, a few hours late.</s><r>Торговый конвой из {0} отбился от {1} и вернулся в путь, опоздав на несколько часов.</r></e>
+  <e k="K" key="RimMarket.ConvoySavedFee"><s>Their stall fee is on the house when they arrive.</s><r>Плата за киоск взимается с дома по прибытии.</r></e>
+  <e k="K" key="RimMarket.ConvoySavedLabel"><s>Convoy saved</s><r>Конвой спасен</r></e>
+  <e k="K" key="RimMarket.ConvoySavedText"><s>The attackers are gone. The merchants from {0} load up their wounded and get back on the road.
+
+{1} won't forget it: +{2} goodwill.</s><r>Нападавшие ушли. Торговцы из {0} грузят своих раненых и отправляются в путь. 
+
+{1} этого не забудет: +{2} доброй воли.</r></e>
+  <e k="K" key="RimMarket.ConvoyUnderAttack"><s>Under attack by {0}! They can hold out for about {1}.</s><r>Под атакой {0}! Они могут продержаться около {1}.</r></e>
+  <e k="K" key="RimMarket.ConvoyUnderAttackHelped"><s>Under attack by {0}! Your people are fighting alongside them.</s><r>Под атакой {0}! Ваши люди сражаются вместе с ними.</r></e>
+  <e k="K" key="RimMarket.ConvoyWaiting"><s>Waiting to enter {0}.</s><r>Ожидание ввода {0}.</r></e>
+  <e k="K" key="RimMarket.DealsAtMarket"><s>Their caravan is at your market.</s><r>Их караван стоит на вашем рынке.</r></e>
+  <e k="K" key="RimMarket.DealsAwayStatus"><s>{0} holds the stall for another {1}.</s><r>{0} удерживает прилавок для другого {1}.</r></e>
+  <e k="K" key="RimMarket.DealsBarter"><s>a barter</s><r>бартер</r></e>
+  <e k="K" key="RimMarket.DealsColGoods"><s>Goods</s><r>Товары</r></e>
+  <e k="K" key="RimMarket.DealsColMerchant"><s>Merchant</s><r>Торговец</r></e>
+  <e k="K" key="RimMarket.DealsColSold"><s>Sold</s><r>Продал</r></e>
+  <e k="K" key="RimMarket.DealsColStatus"><s>Status</s><r>Статус</r></e>
+  <e k="K" key="RimMarket.DealsColTown"><s>Town</s><r>Город</r></e>
+  <e k="K" key="RimMarket.DealsEvery"><s>every {0} days</s><r>каждые {0} дней</r></e>
+  <e k="K" key="RimMarket.DealsGizmo"><s>Market deals ({0})</s><r>Рыночные сделки ({0})</r></e>
+  <e k="K" key="RimMarket.DealsGizmoDesc"><s>See everything your market has under way: trade routes and their convoys, special orders, your wanted notice and its offers, and your own caravans holding a stall in another town.</s><r>Посмотрите все, что происходит на вашем рынке: торговые пути и их конвои, специальные заказы, уведомление о розыске и его предложения, а также ваши собственные караваны, держащие прилавок в другом городе.</r></e>
+  <e k="K" key="RimMarket.DealsHintAway"><s>A caravan packs up on its own at the end of the market day.</s><r>Караван собирается самостоятельно в конце базарного дня.</r></e>
+  <e k="K" key="RimMarket.DealsHintComms"><s>Open, close or change these from a comms console, by talking to the faction.</s><r>Откройте, закройте или измените их с консоли связи, поговорив с фракцией.</r></e>
+  <e k="K" key="RimMarket.DealsNoAway"><s>None of your caravans is holding a stall. Send one to a friendly town and pick &quot;Hold a market stall&quot; when it gets there.</s><r>Ни один из ваших караванов не держит прилавок. Отправьте его в дружественный город и выберите «Держать рыночный прилавок», когда он туда доберется.</r></e>
+  <e k="K" key="RimMarket.DealsNoNotice"><s>No wanted notice posted. Post one from a comms console.</s><r>Объявлений о розыске не поступало. Опубликуйте сообщение из консоли связи.</r></e>
+  <e k="K" key="RimMarket.DealsNoOrders"><s>No special order under way. Place one by talking to a faction from a comms console.</s><r>Никакого специального заказа не ведется. Разместите его, поговорив с фракцией через консоль связи.</r></e>
+  <e k="K" key="RimMarket.DealsNoRoutes"><s>No trade route open. Talk to a faction from a comms console to open one.</s><r>Торговый путь не открыт. Поговорите с фракцией через консоль связи, чтобы открыть ее.</r></e>
+  <e k="K" key="RimMarket.DealsNoticeStatus"><s>{0} town(s) still to answer, {1} offer(s) so far. Replies close in {2}.</s><r>{0} городов ещё нет ответа, {1} предложений пока нет. Ответы закрываются через {2}.</r></e>
+  <e k="K" key="RimMarket.DealsOffer"><s>Offers it for {0}, delivered in about {1}.</s><r>Предлагает его за {0}, доставка примерно за {1}.</r></e>
+  <e k="K" key="RimMarket.DealsOpenBoard"><s>Offers board</s><r>Доска предложений</r></e>
+  <e k="K" key="RimMarket.DealsPaid"><s>{0} silver paid</s><r>{0} серебра выплачено</r></e>
+  <e k="K" key="RimMarket.DealsPrice"><s>{0} silver</s><r>{0} серебро</r></e>
+  <e k="K" key="RimMarket.DealsShowCaravan"><s>Show caravan</s><r>Показать караван</r></e>
+  <e k="K" key="RimMarket.DealsShowConvoy"><s>Show convoy</s><r>Показать конвой</r></e>
+  <e k="K" key="RimMarket.DealsShowTown"><s>Show town</s><r>Показать город</r></e>
+  <e k="K" key="RimMarket.DealsSold"><s>{0} item(s), {1} silver</s><r>{0} предмет(ов), {1} серебро</r></e>
+  <e k="K" key="RimMarket.DealsTabAway"><s>Away stalls ({0})</s><r>Выездные трибуны ({0})</r></e>
+  <e k="K" key="RimMarket.DealsTabOrders"><s>Special orders ({0})</s><r>Специальные заказы ({0})</r></e>
+  <e k="K" key="RimMarket.DealsTabRoutes"><s>Trade routes ({0}/{1})</s><r>Торговые пути ({0}/{1})</r></e>
+  <e k="K" key="RimMarket.DealsTabWanted"><s>Wanted notice ({0})</s><r>Уведомление о розыске ({0})</r></e>
+  <e k="K" key="RimMarket.DealsTitle"><s>Market deals</s><r>Рыночные предложения</r></e>
+  <e k="K" key="RimMarket.DealsYourNotice"><s>Your notice</s><r>Ваше уведомление</r></e>
+  <e k="K" key="RimMarket.DifficultyRelaxed"><s>relaxed</s><r>расслабленный</r></e>
+  <e k="K" key="RimMarket.DifficultyStandard"><s>standard</s><r>стандартный</r></e>
+  <e k="K" key="RimMarket.DifficultyTough"><s>tough</s><r>жесткий</r></e>
+  <e k="K" key="RimMarket.FairAlreadyPlanned"><s>A Great Fair is already planned</s><r>Большая ярмарка уже запланирована</r></e>
+  <e k="K" key="RimMarket.FairAnnounceConfirm"><s>Hold a Great Fair on {0}? The heralds cost {1} silver, paid now.</s><r>Провести большую ярмарку на {0}? Вестники стоят {1} серебра, выплаченного сейчас.</r></e>
+  <e k="K" key="RimMarket.FairAnnounceDesc"><s>Send heralds to every friendly faction: in {1} days your market holds a Great Fair, from dawn to dusk. Up to {2} caravans set up at once, crowds of shoppers walk over with fuller purses, your colonists make a day of it, and pickpockets make a week of it. A good fair does wonders for the market's name.
+
+The heralds cost {0} silver.</s><r>Отправьте вестников каждой дружественной фракции: через {1} дней на вашем рынке будет проходить Великая ярмарка, от рассвета до заката. Одновременно выставляется до {2} караванов, толпы покупателей приходят с полными кошельками, ваши колонисты тратят на это день, а карманники - неделю. Хорошая ярмарка творит чудеса с названием рынка.
+
+Вестники стоят {0} серебра.</r></e>
+  <e k="K" key="RimMarket.FairAnnounceLabel"><s>Announce a Great Fair</s><r>Объявить большую ярмарку</r></e>
+  <e k="K" key="RimMarket.FairAnnouncedLabel"><s>Great Fair announced</s><r>Объявлена ​​Большая Ярмарка</r></e>
+  <e k="K" key="RimMarket.FairAnnouncedText"><s>The heralds are on the road. Your market holds a Great Fair on {0}, from {1}h to {2}h.
+
+On the day, caravans from every friendly faction will try to set up at once, and crowds of shoppers will follow them. Keep the stalls free and the square safe.</s><r>Вестники уже в пути. На вашем рынке будет проходить Великая ярмарка {0}, с {1}h по {2}h.
+
+В этот день караваны всех дружественных фракций попытаются разместиться одновременно, и за ними последуют толпы покупателей. Держите прилавки свободными, а площадь безопасной.</r></e>
+  <e k="K" key="RimMarket.FairCancelConfirm"><s>Call off the Great Fair? The heralds will not give the silver back, and they will tell everyone why.</s><r>Отменить Великую Ярмарку? Глашатаи серебро не отдадут и всем расскажут, почему.</r></e>
+  <e k="K" key="RimMarket.FairCancelDesc"><s>Call the fair off. The heralds keep their silver.</s><r>Отмените ярмарку. Глашатаи сохраняют свое серебро.</r></e>
+  <e k="K" key="RimMarket.FairCancelLabel"><s>Cancel the Great Fair</s><r>Отменить Великую Ярмарку</r></e>
+  <e k="K" key="RimMarket.FairCancelled"><s>The Great Fair is off.</s><r>Большая ярмарка завершилась.</r></e>
+  <e k="K" key="RimMarket.FairCancelledMarker"><s>The market marker is gone, and the Great Fair with it.</s><r>Маркер рынка исчез, а вместе с ним и Великая ярмарка.</r></e>
+  <e k="K" key="RimMarket.FairCrowd"><s>A crowd from {0} has come for the fair.</s><r>На ярмарку пришла толпа из {0}.</r></e>
+  <e k="K" key="RimMarket.FairGuestsDesc"><s>Choose which factions the heralds invite to your Great Fairs.</s><r>Выбирайте, какие фракции герольды пригласят на ваши Великие ярмарки.</r></e>
+  <e k="K" key="RimMarket.FairGuestsEnemies"><s>At war with</s><r>В войне с</r></e>
+  <e k="K" key="RimMarket.FairGuestsFaction"><s>Faction</s><r>Фракция</r></e>
+  <e k="K" key="RimMarket.FairGuestsGoodwill"><s>Goodwill</s><r>Гудвилл</r></e>
+  <e k="K" key="RimMarket.FairGuestsIntro"><s>Untick a faction to keep it away from your Great Fairs: no caravans and no crowds from them while a fair is on. Factions at war won't share a market, so leaving one out keeps its enemies at their stalls.</s><r>Снимите флажок с фракции, чтобы держать ее подальше от ваших Великих ярмарок: никаких караванов и толп от них, пока идет ярмарка. Воюющие фракции не будут делить рынок, поэтому исключение одной из них удерживает врагов в своих прилавках.</r></e>
+  <e k="K" key="RimMarket.FairGuestsInviteAll"><s>Invite all</s><r>Пригласить всех</r></e>
+  <e k="K" key="RimMarket.FairGuestsInviteNone"><s>Invite none</s><r>Никого не приглашать</r></e>
+  <e k="K" key="RimMarket.FairGuestsInvited"><s>Invited</s><r>Приглашенный</r></e>
+  <e k="K" key="RimMarket.FairGuestsLabel"><s>Fair guests</s><r>Ярмарка гостей</r></e>
+  <e k="K" key="RimMarket.FairGuestsSummary"><s>{0} of {1} factions invited.</s><r>Приглашены {0} из {1} фракций.</r></e>
+  <e k="K" key="RimMarket.FairGuestsTitle"><s>Great Fair guests</s><r>Гости большой ярмарки</r></e>
+  <e k="K" key="RimMarket.FairInspectAnnounced"><s>Great Fair announced for {0}, from {1}h</s><r>Большая ярмарка назначена на {0}, с {1}ч.</r></e>
+  <e k="K" key="RimMarket.FairInspectRunning"><s>Great Fair today: {0} caravans, {1} crowds of shoppers, until {2}h</s><r>Большая ярмарка сегодня: {0} караванов, {1} толп покупателей, до {2}ч.</r></e>
+  <e k="K" key="RimMarket.FairNeedStalls"><s>Needs at least {0} market stalls around the marker</s><r>Требуется как минимум {0} рыночных прилавков вокруг маркера.</r></e>
+  <e k="K" key="RimMarket.FairNoSilver"><s>Needs {0} silver for the heralds</s><r>Требуется {0} серебра для герольдов.</r></e>
+  <e k="K" key="RimMarket.FairOpens"><s>The Great Fair is open. Caravans are on their way.</s><r>Большая ярмарка открыта. Караваны уже в пути.</r></e>
+  <e k="K" key="RimMarket.FairOverEmpty"><s>Nobody came to the Great Fair. The heralds swear they told everyone. The market's name has not improved.</s><r>На Большую ярмарку никто не пришел. Глашатаи клянутся, что рассказали всем. Имя рынка не улучшилось.</r></e>
+  <e k="K" key="RimMarket.FairOverLabel"><s>The Great Fair is over</s><r>Большая ярмарка завершилась</r></e>
+  <e k="K" key="RimMarket.FairOverText"><s>The Great Fair is over and the square smells of trampled grass.
+
+Caravans: {0} ({1}).
+Crowds of shoppers: {2}.
+Stall fees taken: {3} silver.
+Sold at the colony stalls: {4} silver.
+Spent by visitors with the merchants: {5} silver.
+Thieves caught: {6}. Thieves who got away: {7}.
+
+Word of the fair is spreading, and the market's name with it. The caravans pack up tomorrow morning.</s><r>Великая ярмарка закончилась, и на площади пахнет растоптанной травой.
+
+Караваны: {0} ({1}).
+Толпы покупателей: {2}.
+Взимается плата за ларьки: {3} серебра.
+Продается на прилавках колонии: {4} серебра.
+Потрачено посетителями у торговцев: {5} серебра.
+Поймано воров: {6}. Воры, которые скрылись: {7}.
+
+Слух о ярмарке распространяется, а вместе с ним и название рынка. Караваны собираются завтра утром.</r></e>
+  <e k="K" key="RimMarket.FairOverWinner"><s>Best stall: {0} of {1}, with {2} silver taken.</s><r>Лучший ларек: {0} из {1}, взято {2} серебра.</r></e>
+  <e k="K" key="RimMarket.FairOverWinnerColony"><s>Best stall: the colony's own, with {0} silver taken.</s><r>Лучший ларек: собственный колонии, забрано {0} серебра.</r></e>
+  <e k="K" key="RimMarket.FairPrizeColony"><s>The judges have spoken: the best stall of the Great Fair is the colony's own, with {0} silver taken since dawn. Your colonists will not stop talking about it.</s><r>Судьи высказались: лучший ларек Великой ярмарки — собственный колонии, с рассвета у него забрали {0} серебра. Ваши колонисты не перестанут об этом говорить.</r></e>
+  <e k="K" key="RimMarket.FairPrizeMerchant"><s>The judges have spoken: {0} of {1} runs the best stall of the Great Fair, with {2} silver taken since dawn. {1} is flattered (+{3} goodwill).</s><r>Судьи постановили: {0} из {1} управляет лучшим ларьком Великой Ярмарки, с {2} серебра забрано с рассвета. {1} польщен (+{3} доброжелательность).</r></e>
+  <e k="K" key="RimMarket.FairPrizeMote"><s>Best stall of the fair!</s><r>Лучший стенд ярмарки!</r></e>
+  <e k="K" key="RimMarket.FairTooSoon"><s>The last fair is still the talk of the road. Wait {0}.</s><r>О последней ярмарке все еще говорят на дороге. Подождите {0}.</r></e>
+  <e k="K" key="RimMarket.FeeModeArrival"><s>on arrival</s><r>по прибытии</r></e>
+  <e k="K" key="RimMarket.FeeModeDesc"><s>How merchants pay for a stall in this market. Fee on arrival: silver counted on the counter before they set up. No fee: the stall is free. Or follow the mod setting.</s><r>Как торговцы платят за ларек на этом рынке. Плата по прибытии: серебро пересчитывается на стойке перед постановкой. Платы нет: палатка бесплатная. Или следуйте настройкам мода.</r></e>
+  <e k="K" key="RimMarket.FeeModeDescShare"><s>Share of takings: a cut of what your guests (Hospitality or Hotels and Recreation) spend at the stall, left on the counter during the visit. What you buy yourself is never taxed.</s><r>Доля выручки: часть того, что ваши гости (гостиницы или гостиницы и отдых) тратят в ларьке, оставленную на прилавке во время визита. То, что вы покупаете сами, никогда не облагается налогом.</r></e>
+  <e k="K" key="RimMarket.FeeModeGlobal"><s>{0}, as in the mod settings</s><r>{0}, как в настройках мода</r></e>
+  <e k="K" key="RimMarket.FeeModeGlobalShort"><s>{0} (mod)</s><r>{0} (мод)</r></e>
+  <e k="K" key="RimMarket.FeeModeLabel"><s>Fee: {0}</s><r>Комиссия: {0}</r></e>
+  <e k="K" key="RimMarket.FeeModeNone"><s>none</s><r>никто</r></e>
+  <e k="K" key="RimMarket.FeeModeShare"><s>share of sales</s><r>доля продаж</r></e>
+  <e k="K" key="RimMarket.Guide.AuctionBody"><s>Build an auction post (Architect, Misc) inside the market. When a caravan brings slaves, the auction is announced two hours ahead and buyers come to sit in front of the post. Each lot opens at half its value.
+
+Select the post while a lot is up to bid. If nobody outbids you, the silver comes out of your stockpiles and the slave joins your colony.</s><r>Постройте аукционный пост (Архитектор, Разное) внутри рынка. Когда караван привозит рабов, аукцион объявляется за два часа вперед, и покупатели садятся перед столбом. Каждый лот открывается за половину своей стоимости.
+
+Выберите публикацию, пока лот доступен для торгов. Если никто не перебьет вашу цену, серебро выйдет из ваших запасов, и раб присоединится к вашей колонии.</r></e>
+  <e k="K" key="RimMarket.Guide.AuctionPost"><s>An auction post</s><r>Аукционный пост</r></e>
+  <e k="K" key="RimMarket.Guide.AuctionTitle"><s>Slave auctions</s><r>Рабские аукционы</r></e>
+  <e k="K" key="RimMarket.Guide.ColonyStallBody"><s>Any stall can sell your own goods: select it and make it a colony stall. Its sales table lists what you own. Pick what to sell, how many and at what price, and your haulers bring the goods over.
+
+Shoppers from friendly factions and your guests pay at the counter. Cheaper prices bring shoppers by more often. Selling a lot of the same thing lowers demand for it for a few days, the bar under each name in the sales table shows it, so vary your goods.</s><r>Любой ларек может продавать ваши товары: выберите его и сделайте ларьком колонии. В таблице продаж указано, чем вы владеете. Выбирайте, что продавать, в каком количестве и по какой цене, а ваши грузчики доставят товар.
+
+Покупатели из дружественных фракций и ваши гости расплачиваются за прилавок. Более низкие цены привлекают покупателей чаще. Продажа большого количества одной и той же вещи снижает спрос на нее на несколько дней, полоска под каждым именем в таблице продаж показывает это, поэтому варьируйте свои товары.</r></e>
+  <e k="K" key="RimMarket.Guide.ColonyStallBuilt"><s>A colony stall</s><r>Палатка колонии</r></e>
+  <e k="K" key="RimMarket.Guide.ColonyStallStocked"><s>Goods on its sales table</s><r>Товары на столе продаж</r></e>
+  <e k="K" key="RimMarket.Guide.ColonyStallTitle"><s>Your colony stall</s><r>Ваш колониальный ларек</r></e>
+  <e k="K" key="RimMarket.Guide.DiagBody"><s>Trade caravans come at the storyteller's pace, about one every few days, and a good reputation brings extra ones. If one came and walked past your market, the reason is in the list below.</s><r>Торговые караваны приходят со скоростью рассказчика, примерно один раз в несколько дней, а хорошая репутация приносит дополнительные. Если кто-то пришел и прошел мимо вашего рынка, причина указана в списке ниже.</r></e>
+  <e k="K" key="RimMarket.Guide.DiagBroke"><s>Caravans that cannot pay the stall fee are turned away (mod settings)</s><r>Караваны, которые не могут оплатить плату за стоянку, отклоняются (настройки мода)</r></e>
+  <e k="K" key="RimMarket.Guide.DiagFactions"><s>Friendly factions that send caravans: {0}</s><r>Дружественные фракции, отправляющие караваны: {0}</r></e>
+  <e k="K" key="RimMarket.Guide.DiagFreeStall"><s>A free stall with its merchant's spot clear</s><r>Бесплатная палатка с свободным местом для торговца</r></e>
+  <e k="K" key="RimMarket.Guide.DiagNoRefuse"><s>No faction refuses your market</s><r>Ни одна фракция не откажется от вашего рынка</r></e>
+  <e k="K" key="RimMarket.Guide.DiagOpen"><s>The market is open</s><r>Рынок открыт</r></e>
+  <e k="K" key="RimMarket.Guide.DiagReach"><s>A free stall caravans can reach from the map edge</s><r>Караваны с бесплатным стойлом могут добраться от края карты.</r></e>
+  <e k="K" key="RimMarket.Guide.DiagRefuse"><s>Your reputation keeps some away: {0}</s><r>Ваша репутация отпугивает некоторых: {0}</r></e>
+  <e k="K" key="RimMarket.Guide.DiagRoom"><s>Room for another merchant ({0} of {1} taken)</s><r>Комната для другого торговца ({0} из {1} занято)</r></e>
+  <e k="K" key="RimMarket.Guide.DiagTitle"><s>Why no caravan?</s><r>Почему нет каравана?</r></e>
+  <e k="K" key="RimMarket.Guide.DiagWaiting"><s>A caravan from {0} is waiting: {1}</s><r>Караван из {0} ждет: {1}</r></e>
+  <e k="K" key="RimMarket.Guide.FairBody"><s>With three stalls or more, the marker can announce a Great Fair three days ahead. On the day, up to six caravans set up at once, crowds of shoppers come with fuller purses, and your colonists come to enjoy it.
+
+At six in the evening the judges pick the best stall. The fair closes at ten with sky lanterns, or fireworks if most stalls are built from metal.</s><r>Имея три и более киосков, маркер может объявить о Большой ярмарке на три дня вперед. В день одновременно выставляется до шести караванов, толпы покупателей приходят с полными кошельками, и ваши колонисты приходят насладиться этим.
+
+В шесть вечера судьи выбирают лучший прилавок. Ярмарка закрывается в десять с небесными фонариками или фейерверками, если большинство прилавков построено из металла.</r></e>
+  <e k="K" key="RimMarket.Guide.FairTitle"><s>The Great Fair</s><r>Большая Ярмарка</r></e>
+  <e k="K" key="RimMarket.Guide.FeeDay"><s>Market day: {0}</s><r>Базарный день: {0}</r></e>
+  <e k="K" key="RimMarket.Guide.FeeDifficulty"><s>Market difficulty: {0}</s><r>Сложность рынка: {0}</r></e>
+  <e k="K" key="RimMarket.Guide.FeeHaggle"><s>Haggling: {0}</s><r>Торг: {0}</r></e>
+  <e k="K" key="RimMarket.Guide.FeeMode"><s>Stall fee: {0}</s><r>Плата за стойло: {0}</r></e>
+  <e k="K" key="RimMarket.Guide.FeesBody"><s>Merchants pay a stall fee on arrival, counted out on the counter, then stay a market day. Trade with them from the stall or by talking to the merchant, with the usual trade window.
+
+Once per visit you can haggle from the trade window: it uses your negotiator's Social skill, and a failure costs as much as a success would have gained. The fee, haggling and the length of a market day are in the mod settings, and a marker can set its own fee.</s><r>Торговцы по прибытии платят сбор за киоск, отсчитывают его на прилавке, а затем остаются на базарный день. Торгуйте с ними из прилавка или разговаривая с торговцем в обычном окне торговли.
+
+Один раз за посещение вы можете торговаться из окна торговли: для этого используются социальные навыки вашего переговорщика, и неудача стоит столько же, сколько можно было бы получить за успех. Комиссия, торг и продолжительность рыночного дня находятся в настройках мода, а маркер может устанавливать свою комиссию.</r></e>
+  <e k="K" key="RimMarket.Guide.FeesTitle"><s>Fees and haggling</s><r>Комиссии и торг</r></e>
+  <e k="K" key="RimMarket.Guide.GizmoDesc"><s>Open the market guide: where to place everything, what your market still needs on this map, and why no caravan has come yet.</s><r>Откройте справочник рынка: где все разместить, что еще нужно вашему рынку на этой карте и почему до сих пор не пришел караван.</r></e>
+  <e k="K" key="RimMarket.Guide.GizmoLabel"><s>Guide</s><r>Гид</r></e>
+  <e k="K" key="RimMarket.Guide.HegemonyBody"><s>With Hegemony, the towns you trade with keep real stocks.
+
+When your caravan holds a stall in a town, it sells at that town's prices: goods the town lacks sell for more, goods it has plenty of for less. Materials you sell go into the town's reserves.
+
+Sales at your colony stalls, at your stalls in other towns and at auctions count toward Hegemony's trade goodwill, like trading in the vanilla trade window.
+
+Trade convoys crossing land held by a hostile faction can be ambushed by it.
+
+Each part can be turned off in the Trade settings.</s><r>При Гегемонии города, с которыми вы торгуете, сохраняют реальные запасы.
+
+Когда ваш караван держит прилавок в городе, он продается по ценам этого города: товары, которых в городе не хватает, продаются дороже, товары, которых в нем много, дешевле. Продаваемые вами материалы поступают в городские резервы.
+
+Продажи в ларьках вашей колонии, в ваших ларьках в других городах и на аукционах засчитываются в торговую репутацию Гегемонии, как и торговля в ванильном торговом окне.
+
+Торговые конвои, пересекающие земли, принадлежащие враждебной фракции, могут попасть в засаду it.
+
+Каждую часть можно отключить в настройках торговли.</r></e>
+  <e k="K" key="RimMarket.Guide.HegemonyTitle"><s>Hegemony</s><r>Гегемония</r></e>
+  <e k="K" key="RimMarket.Guide.InnBed"><s>At least one inn bed</s><r>По крайней мере, одна кровать в гостинице</r></e>
+  <e k="K" key="RimMarket.Guide.InnBody"><s>Any bed can become an inn bed: select it and press the market inn button. It can be anywhere on the map, it doesn't need to be inside the market. Merchants, their guards and shoppers pay by the night, and a caravan pays out of its packs. Rooms come in three kinds: a dorm (shared or shabby) costs half, a room the full price, a suite (an impressive private room with a double bed and an end table or dresser) twice as much. Merchants and their guards get the beds first, and the merchant takes the best room. The inn register, on the marker or any inn bed, shows every bed, sets the prices and keeps a guest book of what your lodgers thought. A merchant who sleeps in a fine room at a fair price keeps the stall open half a day longer, and guards who slept at the inn are quicker to tackle a thief the next day.
+
+A fine private room makes your market more appealing, a poor room or a steep price does the opposite. Guests who slept well at a fair price also leave on slightly better terms with you.</s><r>Любая кровать может стать кроватью гостиницы: выберите ее и нажмите кнопку рыночной гостиницы. Он может находиться где угодно на карте, не обязательно внутри рынка. Купцы, их охрана и покупатели платят по ночам, а караван платит из своих вьюков. Номера делятся на три типа: общежитие (совместное или убогое) стоит половину, комната — полную стоимость, люкс (впечатляющая отдельная комната с двуспальной кроватью и журнальным столиком или комодом) — в два раза дороже. Купцы и их охрана получают кровати первыми, а торговец занимает лучшую комнату. В регистре гостиницы, на маркере или на любой кровати, указаны все кровати, установлены цены и хранится гостевая книга, в которой записано, что думают ваши постояльцы. Торговец, который ночует в красивой комнате по справедливой цене, держит прилавок открытым на полдня дольше, а охранники, которые ночевали в гостинице, быстрее схватят вора на следующий день. 
+
+ Хорошая отдельная комната делает ваш рынок более привлекательным, плохая комната или высокая цена делают наоборот. Гости, которые хорошо выспались по разумной цене, также уезжают с вами в несколько лучших отношениях.</r></e>
+  <e k="K" key="RimMarket.Guide.InnTitle"><s>The inn</s><r>Гостиница</r></e>
+  <e k="K" key="RimMarket.Guide.MarkerBody"><s>Everything starts with the market marker (Architect, Misc). Put it in the middle of your square: every stall inside its area belongs to the market. The area is a circle around it at first.
+
+Select it to paint the area by hand like a stockpile or erase part of it, set the stall fee, open or close the market, see your reputation and announce a Great Fair. Once the square is built you can hide it.
+
+The area reaches at most 30 cells from the marker. For a bigger market, or one inside and one outside your walls, place another marker: you can have several, on this map or on others.</s><r>Все начинается с маркера рынка (Архитектор, Разное). Поставьте его в центре своего квадрата: каждый ларек на его территории принадлежит рынку. Сначала область представляет собой круг вокруг нее.
+
+Выберите ее, чтобы закрасить область вручную, как склад, или стереть ее часть, установить плату за прилавок, открыть или закрыть рынок, просмотреть свою репутацию и объявить Великую ярмарку. Как только квадрат будет построен, вы можете его скрыть.
+
+Область достигает максимум 30 клеток от маркера. Для более крупного рынка или одного внутри и одного снаружи ваших стен поместите еще один маркер: их может быть несколько, на этой карте или на других.</r></e>
+  <e k="K" key="RimMarket.Guide.MarkerOpen"><s>The market is open</s><r>Рынок открыт</r></e>
+  <e k="K" key="RimMarket.Guide.MarkerPlaced"><s>A market marker on this map</s><r>Маркер рынка на этой карте</r></e>
+  <e k="K" key="RimMarket.Guide.MarkerTitle"><s>The market marker</s><r>Маркер рынка</r></e>
+  <e k="K" key="RimMarket.Guide.More"><s>More to do</s><r>Больше дел</r></e>
+  <e k="K" key="RimMarket.Guide.NoMap"><s>Load a colony to see where your market stands.</s><r>Загрузите колонию, чтобы увидеть, где находится ваш рынок.</r></e>
+  <e k="K" key="RimMarket.Guide.Off"><s>off</s><r>выключенный</r></e>
+  <e k="K" key="RimMarket.Guide.On"><s>on</s><r>на</r></e>
+  <e k="K" key="RimMarket.Guide.OpenSettings"><s>Open the settings</s><r>Откройте настройки</r></e>
+  <e k="K" key="RimMarket.Guide.Optional"><s>optional</s><r>необязательный</r></e>
+  <e k="K" key="RimMarket.Guide.PlaceAuction"><s>Place an auction post</s><r>Разместить аукционную публикацию</r></e>
+  <e k="K" key="RimMarket.Guide.PlaceCamp"><s>Place a caravan camp</s><r>Разместить караванный лагерь</r></e>
+  <e k="K" key="RimMarket.Guide.PlaceMarker"><s>Place a marker</s><r>Поместите маркер</r></e>
+  <e k="K" key="RimMarket.Guide.PlaceRest"><s>Place a guard rest spot</s><r>Разместите место для отдыха охранника</r></e>
+  <e k="K" key="RimMarket.Guide.PlaceStall"><s>Place a stall</s><r>Разместить ларек</r></e>
+  <e k="K" key="RimMarket.Guide.Progress"><s>Your market: {0} of {1} steps done</s><r>Ваш рынок: выполнено {0} из {1} шагов</r></e>
+  <e k="K" key="RimMarket.Guide.RoutesBody"><s>From the comms console you can open a trade route (a town sends a convoy every week or two), place a special order for a cartload of goods, or post a wanted notice. Towns answer the notice over the next days, and you accept their offers from the marker.
+
+Your own caravans can also hold a stall in a friendly town for a market day.</s><r>С помощью консоли связи вы можете открыть торговый маршрут (город отправляет конвой каждую неделю или две), разместить специальный заказ на телегу товаров или опубликовать объявление о розыске. Города отвечают на уведомление в течение следующих дней, и вы принимаете их предложения с маркера.
+
+Ваши собственные караваны также могут держать прилавок в дружественном городе на базарный день.</r></e>
+  <e k="K" key="RimMarket.Guide.RoutesTitle"><s>Routes, orders and notices</s><r>Маршруты, заказы и уведомления</r></e>
+  <e k="K" key="RimMarket.Guide.ShowMarker"><s>Show the marker</s><r>Показать маркер</r></e>
+  <e k="K" key="RimMarket.Guide.ShowStalls"><s>Show my stalls</s><r>Покажи мои киоски</r></e>
+  <e k="K" key="RimMarket.Guide.SpotCamp"><s>A caravan camp for the pack animals</s><r>Караванный лагерь для вьючных животных</r></e>
+  <e k="K" key="RimMarket.Guide.SpotRest"><s>A guard rest spot for the escort</s><r>Место отдыха охранника для сопровождающего</r></e>
+  <e k="K" key="RimMarket.Guide.SpotsBody"><s>Two spots keep the square tidy (Architect, Misc). The caravan camp is where the pack animals wait: fence it in and they stay put. The guard rest spot is where off duty guards sit, chat and eat while one of them stands post at the stall. Select a spot to paint its area by hand, like a stockpile.
+
+Both are optional and can go anywhere on the map, inside or outside the market: caravans use the nearest one. Without them, animals and guards wait just outside the market. Each spot can be hidden once you know where it is.</s><r>Два места поддерживают порядок на площади (Архитектор, Разное). В караванном лагере ждут вьючные животные: огоройте его, и они останутся на месте. Место отдыха охранников — это место, где сидят, разговаривают и едят не дежурные охранники, пока один из них стоит на посту у стойла. Выберите место, чтобы закрасить его область вручную, например, склад.
+
+Оба варианта не являются обязательными и могут идти куда угодно на карте, внутри или за пределами рынка: караваны используют ближайший из них. Без них рядом с рынком ждут животные и охрана. Каждое место можно скрыть, если вы знаете, где оно находится.</r></e>
+  <e k="K" key="RimMarket.Guide.SpotsTitle"><s>Camp and rest spot</s><r>Лагерь и место отдыха</r></e>
+  <e k="K" key="RimMarket.Guide.StallFromEdge"><s>Caravans can walk to every stall from the map edge</s><r>Караваны могут дойти до каждого прилавка с края карты.</r></e>
+  <e k="K" key="RimMarket.Guide.StallInside"><s>At least one stall inside the marker's area</s><r>По крайней мере один киоск в зоне маркера</r></e>
+  <e k="K" key="RimMarket.Guide.StallNoneOutside"><s>No stall left outside the marker's area</s><r>За пределами маркера не осталось ни одного ларька</r></e>
+  <e k="K" key="RimMarket.Guide.StallSpotFree"><s>The merchant's spot is free on every stall</s><r>Место торговца бесплатное на каждом прилавке</r></e>
+  <e k="K" key="RimMarket.Guide.StallThree"><s>Three stalls or more, for a Great Fair</s><r>Три и более киосков для большой ярмарки.</r></e>
+  <e k="K" key="RimMarket.Guide.StallsBody"><s>Build market stalls (Architect, Misc) inside the marker's area. Each one needs its merchant's spot free: the cell at the end of the counter, outlined in white while you place it.
+
+Caravans walk in from the map edge and open your doors like any friendly visitor, so leave them a way in. The counter takes the colour of its material, and the awning is yours to paint from the stall.</s><r>Постройте рыночные прилавки (Архитектор, Разное) внутри области маркера. Каждому нужно свободное место торговца: ячейка в конце прилавка, обведенная белым, пока вы его размещаете.
+
+Караваны входят с края карты и открывают ваши двери, как любой дружелюбный посетитель, поэтому оставьте им путь. Прилавок принимает цвет своего материала, а навес вы можете покрасить из прилавка.</r></e>
+  <e k="K" key="RimMarket.Guide.StallsTitle"><s>Your stalls</s><r>Ваши киоски</r></e>
+  <e k="K" key="RimMarket.Guide.Title"><s>Market guide</s><r>Путеводитель по рынку</r></e>
+  <e k="K" key="RimMarket.GuideLetterLabel"><s>Your first market</s><r>Ваш первый рынок</r></e>
+  <e k="K" key="RimMarket.GuideLetterText"><s>The marker is down. Now build a few market stalls inside its area, keep the merchant's spot at the end of each counter free, and leave caravans a way in from the map edge.
+
+Select the marker and press Guide to see, step by step, what your market still needs and why no caravan has come yet.</s><r>Маркер опущен. Теперь постройте несколько рыночных прилавков на его территории, оставьте место торговца в конце каждого прилавка свободным и оставьте караваны на некотором расстоянии от края карты.
+
+Выберите маркер и нажмите «Проводник», чтобы шаг за шагом увидеть, что еще нужно вашему рынку и почему до сих пор не пришел ни один караван.</r></e>
+  <e k="K" key="RimMarket.HaggleButton"><s>Haggle</s><r>Торговаться</r></e>
+  <e k="K" key="RimMarket.HaggleDone"><s>Haggled: {0}% better</s><r>Торг: на {0}% лучше</r></e>
+  <e k="K" key="RimMarket.HaggleFailed"><s>Haggle failed: {0}% worse</s><r>Торг не удался: на {0}% хуже</r></e>
+  <e k="K" key="RimMarket.HaggleTip"><s>{0} tries to talk the prices down. One attempt per visit. Success: {1}% better prices both ways. Failure: {1}% worse, and the merchant packs up earlier.</s><r>{0} пытается уговорить цены снизить. Одна попытка за посещение. Успех: на {1}% лучшие цены в обе стороны. Неудача: на {1}% хуже, и торговец собирает вещи раньше.</r></e>
+  <e k="K" key="RimMarket.HelpConvoy"><s>Help the convoy</s><r>Помогите конвою</r></e>
+  <e k="K" key="RimMarket.HelpFailed"><s>Couldn't set up the convoy fight, they'll have to manage on their own.</s><r>Устроить бой с конвоем не удалось, придется справляться самостоятельно.</r></e>
+  <e k="K" key="RimMarket.HelpNoRoom"><s>something else is already going on there</s><r>там уже происходит что-то еще</r></e>
+  <e k="K" key="RimMarket.HelpNotAtWar"><s>you're not at war with {0}</s><r>ты не воюешь с {0}</r></e>
+  <e k="K" key="RimMarket.HelpingConvoy"><s>going to help the convoy from {0}</s><r>собираюсь помочь конвою из {0}</r></e>
+  <e k="K" key="RimMarket.InnBedHotelGuest"><s>This is a hotel guest bed. Take it off the hotel first.</s><r>Это кровать для гостей отеля. Сначала снимите его с отеля.</r></e>
+  <e k="K" key="RimMarket.InnBedInspect"><s>Market inn, {1}: {0} silver a night.</s><r>Market Inn, {1}: {0} серебра за ночь.</r></e>
+  <e k="K" key="RimMarket.InnBedInspectFree"><s>Market inn, {0}: free of charge.</s><r>Market Inn, {0}: бесплатно.</r></e>
+  <e k="K" key="RimMarket.InnBedLabel"><s>Inn ({0})</s><r>Гостиница ({0})</r></e>
+  <e k="K" key="RimMarket.InnBedLabelFree"><s>Inn (free)</s><r>Гостиница (бесплатно)</r></e>
+  <e k="K" key="RimMarket.InnBedLocked"><s>This bed is rented out as a market inn. Turn off Market inn first.</s><r>Эта кровать сдается в аренду под рыночную гостиницу. Сначала выключите Market Inn.</r></e>
+  <e k="K" key="RimMarket.InnBedPrisonCell"><s>A prison cell makes a poor inn.</s><r>Тюремная камера — бедная гостиница.</r></e>
+  <e k="K" key="RimMarket.InnBedUnsupported"><s>this bed can't take lodgers</s><r>эта кровать не рассчитана на постояльцев</r></e>
+  <e k="K" key="RimMarket.InnRegisterAverage"><s>Average {0}/5 over the last {1} nights</s><r>Среднее значение {0}/5 за последние {1} ночи</r></e>
+  <e k="K" key="RimMarket.InnRegisterBeds"><s>Beds</s><r>Кровати</r></e>
+  <e k="K" key="RimMarket.InnRegisterBook"><s>Guest book</s><r>Гостевая книга</r></e>
+  <e k="K" key="RimMarket.InnRegisterBookEmpty"><s>Nobody has slept here yet.</s><r>Здесь еще никто не ночевал.</r></e>
+  <e k="K" key="RimMarket.InnRegisterColEarned"><s>Earned</s><r>Заработано</r></e>
+  <e k="K" key="RimMarket.InnRegisterColNights"><s>Nights</s><r>Ночи</r></e>
+  <e k="K" key="RimMarket.InnRegisterColPrice"><s>Price</s><r>Цена</r></e>
+  <e k="K" key="RimMarket.InnRegisterColRoom"><s>Kind</s><r>Добрый</r></e>
+  <e k="K" key="RimMarket.InnRegisterColTonight"><s>Tonight</s><r>Сегодня вечером</r></e>
+  <e k="K" key="RimMarket.InnRegisterDefault"><s>Default from the settings: {0} silver. Shift: 25 at a time.</s><r>По умолчанию из настроек: {0} серебро. Смены: 25 одновременно.</r></e>
+  <e k="K" key="RimMarket.InnRegisterDesc"><s>See your inn at a glance: who sleeps where tonight, what each bed has earned, the prices of each kind of room and what your guests wrote in the guest book.</s><r>Взгляните на свою гостиницу с первого взгляда: кто и где спит сегодня вечером, сколько заработала каждая кровать, цены на каждый тип номера и что ваши гости написали в гостевой книге.</r></e>
+  <e k="K" key="RimMarket.InnRegisterFree"><s>free</s><r>бесплатно</r></e>
+  <e k="K" key="RimMarket.InnRegisterJump"><s>Click to go to this bed.</s><r>Нажмите, чтобы перейти к этой кровати.</r></e>
+  <e k="K" key="RimMarket.InnRegisterLabel"><s>Inn register</s><r>Войти в реестр</r></e>
+  <e k="K" key="RimMarket.InnRegisterPrices"><s>Price a night</s><r>Цена за ночь</r></e>
+  <e k="K" key="RimMarket.InnRegisterReset"><s>Back to defaults</s><r>Вернуться к настройкам по умолчанию</r></e>
+  <e k="K" key="RimMarket.InnRegisterSummary"><s>Tonight: {0} of {1} beds taken. So far the inn has made {2} silver over {3} nights.</s><r>Сегодня вечером: занято {0} из {1} кроватей. На данный момент гостиница заработала {2} серебра за {3} ночи.</r></e>
+  <e k="K" key="RimMarket.InnRegisterTitle"><s>Inn register</s><r>Войти в реестр</r></e>
+  <e k="K" key="RimMarket.InnReviewStay"><s>{0}, {1} silver, {2}/5, {3} ago</s><r>{0}, {1} серебро, {2}/5, {3} назад</r></e>
+  <e k="K" key="RimMarket.InnReviewWho"><s>{0}, {1} from {2}</s><r>{0}, {1} от {2}</r></e>
+  <e k="K" key="RimMarket.InnRoleGuard"><s>caravan guard</s><r>охрана каравана</r></e>
+  <e k="K" key="RimMarket.InnRoleMerchant"><s>merchant</s><r>торговец</r></e>
+  <e k="K" key="RimMarket.InnRoleShopper"><s>shopper</s><r>покупатель</r></e>
+  <e k="K" key="RimMarket.InnStayLonger"><s>{0} slept like a king at your inn and keeps the stall open half a day longer.</s><r>{0} спал как король в вашей гостинице и держит ларек открытым еще на полдня.</r></e>
+  <e k="K" key="RimMarket.InnTierDorm"><s>dorm</s><r>общежитие</r></e>
+  <e k="K" key="RimMarket.InnTierDormDesc"><s>A shared room, a shabby one, or a bed out in the open.</s><r>Общая комната, обшарпанная или кровать под открытым небом.</r></e>
+  <e k="K" key="RimMarket.InnTierRoom"><s>room</s><r>комната</r></e>
+  <e k="K" key="RimMarket.InnTierRoomDesc"><s>A private room that isn't shabby.</s><r>Отдельная комната, которая не ветхая.</r></e>
+  <e k="K" key="RimMarket.InnTierSuite"><s>suite</s><r>люкс</r></e>
+  <e k="K" key="RimMarket.InnTierSuiteDesc"><s>An impressive private room with a double bed and some furniture by it, like an end table or a dresser.</s><r>Впечатляющая отдельная комната с двуспальной кроватью и некоторой мебелью, например журнальным столиком или комодом.</r></e>
+  <e k="K" key="RimMarket.MarkerCollected"><s>Fees collected so far: {0} silver</s><r>На данный момент собрано комиссионных: {0} серебра.</r></e>
+  <e k="K" key="RimMarket.MarkerColonySales"><s>The colony stalls have taken {0} silver</s><r>Прилавки колонии забрали {0} серебра.</r></e>
+  <e k="K" key="RimMarket.MarkerFee"><s>Stall fee: {0}</s><r>Плата за стойло: {0}</r></e>
+  <e k="K" key="RimMarket.MarkerGuestSales"><s>Guests have spent {0} silver at the stalls</s><r>Гости потратили {0} серебра в прилавках.</r></e>
+  <e k="K" key="RimMarket.MarkerHidden"><s>Marker hidden</s><r>Маркер скрыт</r></e>
+  <e k="K" key="RimMarket.MarkerReputation"><s>Reputation: {0}</s><r>Репутация: {0}</r></e>
+  <e k="K" key="RimMarket.MarkerSecurity"><s>Thieves caught {0}, got away {1}, scared off {2}.</s><r>Воры поймали {0}, скрылись {1}, отпугнули {2}.</r></e>
+  <e k="K" key="RimMarket.MarkerStalls"><s>Stalls: {0} ({1} free, {2} taken)</s><r>Киоски: {0} ({1} бесплатно, {2} занято)</r></e>
+  <e k="K" key="RimMarket.MarkerWealthThieves"><s>Word of your takings draws thieves: x{0}</s><r>Слухи о твоих доходах привлекают воров: x{0}</r></e>
+  <e k="K" key="RimMarket.MarketClosed"><s>Market closed to new caravans</s><r>Рынок закрыт для новых караванов</r></e>
+  <e k="K" key="RimMarket.MarketOpen"><s>Market open</s><r>Рынок открыт</r></e>
+  <e k="K" key="RimMarket.MessageCannotAfford"><s>The {0} caravan cannot afford the {1} silver stall fee and stays outside the market.</s><r>Караван {0} не может позволить себе оплату {1} серебряной платы за ларек и остается вне рынка.</r></e>
+  <e k="K" key="RimMarket.MessageCulpritCaptured"><s>{0} was caught red-handed. {1} will not hold the arrest against you, and will not thank you for letting them go either.</s><r>{0} был пойман с поличным. {1} не будет задерживать вас под арестом и не поблагодарит вас за то, что вы их отпустили.</r></e>
+  <e k="K" key="RimMarket.MessageFeePaid"><s>{0} paid the stall fee: {1} silver on the counter.</s><r>{0} заплатил плату за палатку: {1} серебра на прилавке.</r></e>
+  <e k="K" key="RimMarket.MessageFeeUnpaid"><s>The {0} merchant had nothing to pay the stall fee with. The stall is theirs anyway.</s><r>Торговцу {0} нечем было заплатить за лоток. Стойка в любом случае их.</r></e>
+  <e k="K" key="RimMarket.MessageFeudLeaving"><s>The {0} merchant will not trade next to {1}, who are now their enemies, and packs up before anyone draws steel.</s><r>Торговец {0} не будет торговать рядом с {1}, которые теперь являются их врагами, и собирает вещи до того, как кто-нибудь достанет сталь.</r></e>
+  <e k="K" key="RimMarket.MessageHaggleLost"><s>{0} pushed too hard. {1} is offended: worse prices, and the stall closes earlier.</s><r>{0} нажал слишком сильно. {1} обижается: цены хуже, и ларек закрывается раньше.</r></e>
+  <e k="K" key="RimMarket.MessageHaggleWon"><s>{0} talked the merchant down: {1}% better prices.</s><r>{0} уговорил продавца: цены на {1}% выше.</r></e>
+  <e k="K" key="RimMarket.MessageLeavingEarly"><s>The {0} merchant leaves the market early.</s><r>Торговец {0} досрочно уходит с рынка.</r></e>
+  <e k="K" key="RimMarket.MessageMarketClosed"><s>Market closed: {0} merchant(s) sent packing.</s><r>Рынок закрыт: {0} торговцы отправлены в поход.</r></e>
+  <e k="K" key="RimMarket.MessageMarketClosedLeaving"><s>The market is closing: the {0} merchant packs up.</s><r>Рынок закрывается: торговец {0} собирает вещи.</r></e>
+  <e k="K" key="RimMarket.MessageMarketFull"><s>The market is full: the {0} caravan waits outside until a merchant leaves.</s><r>Рынок полон: караван {0} ждет снаружи, пока не уйдет торговец.</r></e>
+  <e k="K" key="RimMarket.MessageMovingStall"><s>The {0} merchant moves to another stall.</s><r>Торговец {0} переходит в другой прилавок.</r></e>
+  <e k="K" key="RimMarket.MessageNoFreeStall"><s>Every stall is taken: the {0} caravan waits outside until one frees up.</s><r>Все палатки заняты: караван {0} ждет снаружи, пока одно из них не освободится.</r></e>
+  <e k="K" key="RimMarket.MessageNoNegotiator"><s>Nobody can trade at this stall right now.</s><r>Сейчас никто не может торговать в этом ларьке.</r></e>
+  <e k="K" key="RimMarket.MessageNoReachableStall"><s>The {0} caravan cannot reach any free stall. Select a stall to see what is blocking it.</s><r>Караван {0} не может добраться до свободного стойла. Выберите ларек, чтобы увидеть, что его блокирует.</r></e>
+  <e k="K" key="RimMarket.MessagePackingUp"><s>The {0} merchant packs up and leaves the market.</s><r>Торговец {0} собирает вещи и уходит с рынка.</r></e>
+  <e k="K" key="RimMarket.MessageRefuseGrudge"><s>The {0} caravan remembers its last market day here and camps outside.</s><r>Караван {0} вспоминает свой последний базарный день здесь и разбивает лагерь снаружи.</r></e>
+  <e k="K" key="RimMarket.MessageRefuseRacket"><s>The {0} caravan will not pay your racket and camps outside.</s><r>Караван {0} не будет платить за ваш рэкет и лагеря снаружи.</r></e>
+  <e k="K" key="RimMarket.MessageRefuseShabby"><s>The {0} caravan has heard your market is not worth the detour and camps outside.</s><r>Караван {0} услышал, что ваш рынок не стоит объезда, и разбил лагерь снаружи.</r></e>
+  <e k="K" key="RimMarket.MessageRefuseUnfair"><s>The {0} caravan has heard merchants get a raw deal at your market and camps outside.</s><r>Караван {0} слышал, как торговцы заключили нечестную сделку на вашем рынке и разбили лагерь снаружи.</r></e>
+  <e k="K" key="RimMarket.MessageRefuseUnsafe"><s>The {0} caravan has heard your market is a den of thieves and camps outside.</s><r>Караван {0} слышал, что ваш рынок — это притон воров и лагеря снаружи.</r></e>
+  <e k="K" key="RimMarket.MessageSharePaid"><s>{0} left the market's share on the counter: {1} silver.</s><r>{0} оставило долю рынка на прилавке: {1} серебра.</r></e>
+  <e k="K" key="RimMarket.MessageSnatched"><s>Thief! {0} grabbed {1} from the {2} stall and is running for it. Right-click the thief with a colonist to tackle them.</s><r>Вор! {0} схватил {1} из прилавка {2} и побежал к нему. Щелкните правой кнопкой мыши по вору с колонистом, чтобы схватить его.</r></e>
+  <e k="K" key="RimMarket.MessageStallGone"><s>The stall is gone: the {0} merchant packs up and leaves.</s><r>Прилавка больше нет: торговец {0} собирает вещи и уходит.</r></e>
+  <e k="K" key="RimMarket.MessageTakingStall"><s>The {0} caravan is heading for the market. {1} takes a stall.</s><r>Караван {0} направляется на рынок. {1} останавливается.</r></e>
+  <e k="K" key="RimMarket.MessageThiefArrested"><s>{0} arrested the thief {1}. The goods go back to the merchant.</s><r>{0} арестовал вора {1}. Товар возвращается продавцу.</r></e>
+  <e k="K" key="RimMarket.MessageThiefCaught"><s>The thief {0} is down. The goods go back to the merchant. Caught red-handed, the thief can go to prison without upsetting their faction, or you can leave them to limp home when they come to.</s><r>Вор {0} упал. Товар возвращается продавцу. Пойманный с поличным, вор может попасть в тюрьму, не расстраивая свою группировку, или вы можете оставить его хромать домой, когда он придет в себя.</r></e>
+  <e k="K" key="RimMarket.MessageThiefCaughtBy"><s>{0} tackled the thief {1}. The goods go back to the merchant. Caught red-handed, the thief can go to prison without upsetting their faction, or you can leave them to limp home when they come to.</s><r>{0} схватил вора {1}. Товар возвращается продавцу. Пойманный с поличным, вор может попасть в тюрьму, не расстраивая свою группировку, или вы можете оставить его хромать домой, когда он придет в себя.</r></e>
+  <e k="K" key="RimMarket.MessageThiefDeterred"><s>{0} eyed the stalls, counted the people watching and decided to be honest today.</s><r>{0} осмотрел прилавки, посчитал смотрящих людей и решил сегодня быть честным.</r></e>
+  <e k="K" key="RimMarket.MessageThiefEscaped"><s>The thief got away with {0}. The {1} merchant blames your market and will pack up early.</s><r>Вору сошло с рук {0}. Торговец {1} винит ваш рынок и рано собирает вещи.</r></e>
+  <e k="K" key="RimMarket.MessageVerdictGrumbling"><s>The {0} merchant packs up grumbling about {1}.</s><r>Торговец {0} собирает вещи, ворча по поводу {1}.</r></e>
+  <e k="K" key="RimMarket.MessageVerdictPleased"><s>The {0} merchant packs up with a smile: {1}.</s><r>Торговец {0} с улыбкой упаковывает вещи: {1}.</r></e>
+  <e k="K" key="RimMarket.MessageWordSpread"><s>Word of your market has spread: a caravan from {0} ({1}) is coming for the market day.</s><r>Слух о вашем рынке распространился: караван из {0} ({1}) прибывает на базарный день.</r></e>
+  <e k="K" key="RimMarket.MoteBought"><s>{0}: {1} silver</s><r>{0}: {1} серебро</r></e>
+  <e k="K" key="RimMarket.MoteDeal"><s>Deal!</s><r>Иметь дело!</r></e>
+  <e k="K" key="RimMarket.MoteGotYou"><s>Got you!</s><r>Понял тебя!</r></e>
+  <e k="K" key="RimMarket.MoteGotYouRested"><s>Got you! Slept well, see?</s><r>Понял тебя! Хорошо спал, видишь?</r></e>
+  <e k="K" key="RimMarket.MoteNotToday"><s>Not today.</s><r>Не сегодня.</r></e>
+  <e k="K" key="RimMarket.MoteRefused"><s>No.</s><r>Нет.</r></e>
+  <e k="K" key="RimMarket.MoteReturned"><s>Returned</s><r>Вернулся</r></e>
+  <e k="K" key="RimMarket.MoteSlipped"><s>Slipped away!</s><r>Ускользнул!</r></e>
+  <e k="K" key="RimMarket.MoteThief"><s>Thief!</s><r>Вор!</r></e>
+  <e k="K" key="RimMarket.OpenMarketDesc"><s>While open, trade caravans that arrive take a free stall inside this marker's area. Close it and new caravans idle outside your walls as usual; merchants already at a stall stay until they leave.</s><r>Пока они открыты, прибывающие торговые караваны занимают свободную стоянку внутри области этого маркера. Закройте его, и новые караваны будут простаивать за вашими стенами, как обычно; торговцы, уже стоящие в ларьке, остаются до тех пор, пока не уйдут.</r></e>
+  <e k="K" key="RimMarket.OpenMarketLabel"><s>Market open</s><r>Рынок открыт</r></e>
+  <e k="K" key="RimMarket.OrderArrivedFamilyText"><s>The {0} caravan from {1} has arrived with your order: {2}.
+
+The goods ride on their pack animals and are for sale at their usual prices, nobody said anything about discounts. Trade with them at their stall to buy what you want: whatever you leave goes home with them.
+
+The trip is paid for, so they take a stall without paying the fee.</s><r>С вашим заказом прибыл караван {0} из {1}: {2}.
+
+Товары ездят на своих вьючных животных и продаются по обычным ценам, о скидках никто ничего не говорил. Торгуйте с ними в их ларьке, чтобы купить то, что вы хотите: все, что вы оставите, идет с ними домой.
+
+Поездка оплачена, поэтому они занимают лоток, не платя комиссию.</r></e>
+  <e k="K" key="RimMarket.OrderArrivedLabel"><s>Special order arrived</s><r>Специальный заказ прибыл</r></e>
+  <e k="K" key="RimMarket.OrderArrivedPaidText"><s>The {0} caravan from {1} has arrived with your order: {2}.
+
+Your side of the deal is settled. They hand the goods over next to their stall as soon as they set up, or after a few hours at most, and a letter tells you where.
+
+The trip is paid for, so they take a stall without paying the fee.</s><r>Караван {0} из {1} прибыл с вашим заказом: {2}.
+
+Ваша сторона сделки решена. Они сдают товар рядом со своим ларьком, как только установят, или максимум через несколько часов, и в письме вам сообщат, куда.
+
+Поездка оплачена, поэтому они занимают ларек, не платя пошлину.</r></e>
+  <e k="K" key="RimMarket.OrderCancelledGone"><s>{0} can no longer fill your order from {1}. {2} silver comes back.</s><r>{0} больше не может выполнить ваш заказ от {1}. {2} серебро возвращается.</r></e>
+  <e k="K" key="RimMarket.OrderCancelledHome"><s>Your order from {1} has nowhere to go. {2} silver comes back.</s><r>Вашему заказу из {1} некуда деваться. {2} серебро возвращается.</r></e>
+  <e k="K" key="RimMarket.OrderCancelledHostile"><s>{0} turned on you, and your order from {1} with it. {2} silver comes back, which is more than most enemies would do.</s><r>{0} напал на вас, а вместе с ним и на ваш заказ от {1}. {2} серебро возвращается, что больше, чем сделали бы большинство врагов.</r></e>
+  <e k="K" key="RimMarket.OrderCancelledLost"><s>Your order from {1} never made it. {2} silver comes back, the rest is somebody else's loot now.</s><r>Ваш заказ из {1} так и не был доставлен. {2} серебро возвращается, остальное теперь чужая добыча.</r></e>
+  <e k="K" key="RimMarket.OrderCancelledNoRoad"><s>The caravan from {1} cannot find a road to you. {2} silver comes back.</s><r>Караван из {1} не может найти дорогу к вам. {2} серебро возвращается.</r></e>
+  <e k="K" key="RimMarket.OrderFamilyLarge"><s>{0}, a full caravan ({1} silver)</s><r>{0}, полный караван ({1} серебро)</r></e>
+  <e k="K" key="RimMarket.OrderFamilyNothing"><s>nothing of the sort to sell</s><r>ничего подобного на продажу</r></e>
+  <e k="K" key="RimMarket.OrderFamilySmall"><s>{0}, a cartload ({1} silver)</s><r>{0}, телега ({1} серебра)</r></e>
+  <e k="K" key="RimMarket.OrderFamily_Arms"><s>weapons and armour</s><r>оружие и доспехи</r></e>
+  <e k="K" key="RimMarket.OrderFamily_Luxuries"><s>luxuries</s><r>роскошь</r></e>
+  <e k="K" key="RimMarket.OrderFamily_Materials"><s>cloth and materials</s><r>ткань и материалы</r></e>
+  <e k="K" key="RimMarket.OrderFamily_Provisions"><s>food and medicine</s><r>еда и лекарства</r></e>
+  <e k="K" key="RimMarket.OrderLeft"><s>Your order left {0}. About {1} on the road.</s><r>Ваш заказ остался на {0}. Около {1} в пути.</r></e>
+  <e k="K" key="RimMarket.OrderLimit"><s>order limit reached ({0})</s><r>достигнут лимит заказа ({0})</r></e>
+  <e k="K" key="RimMarket.OrderNoCaravans"><s>{0} has no caravan that can travel to your land, so your order from {1} is off. All {2} silver comes back.</s><r>У {0} нет каравана, который мог бы добраться до вашей земли, поэтому ваш заказ от {1} отменен. Все серебро {2} возвращается.</r></e>
+  <e k="K" key="RimMarket.OrderOption"><s>Special order</s><r>Специальный заказ</r></e>
+  <e k="K" key="RimMarket.OrderParcelRefunded"><s>{0}'s courier left before handing over your order. {1} silver comes back.</s><r>Курьер {0} ушел, прежде чем передать ваш заказ. {1} серебро возвращается.</r></e>
+  <e k="K" key="RimMarket.OrderPending"><s>an order is already on its way</s><r>заказ уже в пути</r></e>
+  <e k="K" key="RimMarket.OrderPendingNode"><s>Your order from {0}: {1}. Paid: {2} silver.
+
+{3}</s><r>Ваш заказ от {0}: {1}. Платно: {2} серебра.
+
+{3}</r></e>
+  <e k="K" key="RimMarket.OrderPickSettlement"><s>Which town of {0} should fill the order? The farther it is, the longer the wait and the bigger the bill.</s><r>Какой город {0} должен выполнить заказ? Чем дальше, тем дольше ждать и больше счет.</r></e>
+  <e k="K" key="RimMarket.OrderPickWhat"><s>What should {0} bring?
+
+Pick a family of goods: they load a caravan with that sort of thing on top of their usual stock. The order only pays for the trip. You still buy the goods at their prices when they arrive, and they skip the stall fee.
+
+After something specific? Post a wanted notice from the comms console instead, and let every friendly town make you an offer.
+
+Silver in the colony: {1}.</s><r>Что должен принести {0}?
+
+Выберите семейство товаров: они загружают караван такими вещами сверх своего обычного запаса. Заказ оплачивает только поездку. Вы по-прежнему покупаете товары по их ценам, когда они приходят, и они пропускают плату за ларек.
+
+После чего-то конкретного? Вместо этого разместите объявление о розыске через консоль связи, и пусть каждый дружественный город сделает вам предложение.
+
+Серебро в колонии: {1}.</r></e>
+  <e k="K" key="RimMarket.OrderPlaced"><s>Order sent to {0}: {1}, for {2} silver. They need a little while to gather it before they set off.</s><r>Заказ отправлен на {0}: {1}, за {2} серебра. Им нужно немного времени, чтобы собрать его, прежде чем отправиться в путь.</r></e>
+  <e k="K" key="RimMarket.OrderStatusPacking"><s>They are still gathering the goods, leaving in about {0}.</s><r>Они все еще собирают товар и уезжают примерно через {0}.</r></e>
+  <e k="K" key="RimMarket.OrderTooBig"><s>One order is worth {0} at most. Even the finest caravans have limits.</s><r>Стоимость одного заказа максимум {0}. Даже у лучших караванов есть пределы.</r></e>
+  <e k="K" key="RimMarket.OrderTooManyLines"><s>One order holds {0} different goods at most.</s><r>В одном заказе содержится не более {0} разных товаров.</r></e>
+  <e k="K" key="RimMarket.OrderTurnedBack"><s>The caravan from {1} waited at the edge of your land and gave up. {2} silver of your order comes back.</s><r>Караван из {1} ждал на краю вашей земли и сдался. {2} серебро вашего заказа возвращается.</r></e>
+  <e k="K" key="RimMarket.OrderWhatLarge"><s>a full caravan of {0}</s><r>полный караван {0}</r></e>
+  <e k="K" key="RimMarket.OrderWhatSmall"><s>a cartload of {0}</s><r>телега {0}</r></e>
+  <e k="K" key="RimMarket.OrderWindowValue"><s>Value of the goods: {0}</s><r>Стоимость товара: {0}</r></e>
+  <e k="K" key="RimMarket.PaintAwning"><s>Paint the awning</s><r>Покрасьте тент</r></e>
+  <e k="K" key="RimMarket.PaintAwningDesc"><s>Pick an edge, a pattern and two colours for this stall's awning. Merchants have opinions about stripes. They keep them to themselves, mostly.</s><r>Выберите край, рисунок и два цвета для маркизы этого киоска. У торговцев есть свое мнение о полосках. В основном они держат их при себе.</r></e>
+  <e k="K" key="RimMarket.PlaceCanopyOverlap"><s>Too close to another stall: the awnings would overlap.</s><r>Слишком близко к другому ларьку: навесы перекроются.</r></e>
+  <e k="K" key="RimMarket.PlaceCustomerCellBlocked"><s>The customer's spot (outlined in cyan) must be free.</s><r>Место клиента (выделено голубым цветом) должно быть свободным.</r></e>
+  <e k="K" key="RimMarket.PlaceMerchantCellBlocked"><s>The merchant's spot (outlined in white) must be free.</s><r>Место продавца (выделено белым) должно быть свободным.</r></e>
+  <e k="K" key="RimMarket.PlaceSpotUnderStall"><s>The merchant or customer spot would end up inside another stall.</s><r>Место продавца или покупателя окажется внутри другого прилавка.</r></e>
+  <e k="K" key="RimMarket.PlaceTakesNeighbourSpot"><s>Would take the merchant or customer spot of the stall next door. Neighbours have long memories.</s><r>Занял бы место продавца или покупателя в соседнем ларьке. У соседей долгая память.</r></e>
+  <e k="K" key="RimMarket.QualityAny"><s>Any quality</s><r>Любое качество</r></e>
+  <e k="K" key="RimMarket.QualityAnyShort"><s>Any</s><r>Любой</r></e>
+  <e k="K" key="RimMarket.QualityOnly"><s>{0} only</s><r>только {0}</r></e>
+  <e k="K" key="RimMarket.QualityOrBetter"><s>{0} or better</s><r>{0} или лучше</r></e>
+  <e k="K" key="RimMarket.QualityOrWorse"><s>{0} or worse</s><r>{0} или хуже</r></e>
+  <e k="K" key="RimMarket.QualityUpTo"><s>Up to {0}</s><r>До {0}</r></e>
+  <e k="K" key="RimMarket.ReasonBigMarket"><s>a proper market with plenty of stalls</s><r>настоящий рынок с множеством прилавков</r></e>
+  <e k="K" key="RimMarket.ReasonBusy"><s>plenty of browsers</s><r>множество браузеров</r></e>
+  <e k="K" key="RimMarket.ReasonCaravanHurt"><s>losing people from the caravan</s><r>терять людей из каравана</r></e>
+  <e k="K" key="RimMarket.ReasonClosedEarly"><s>being sent packing early</s><r>меня рано отправляют собирать вещи</r></e>
+  <e k="K" key="RimMarket.ReasonFullDay"><s>a full market day</s><r>полный базарный день</r></e>
+  <e k="K" key="RimMarket.ReasonGentleFee"><s>a gentle fee</s><r>незначительная плата</r></e>
+  <e k="K" key="RimMarket.ReasonGoodSales"><s>good sales to your guests</s><r>хорошие продажи вашим гостям</r></e>
+  <e k="K" key="RimMarket.ReasonHaggledHard"><s>hard haggling</s><r>жесткий торг</r></e>
+  <e k="K" key="RimMarket.ReasonHandsome"><s>a handsome square</s><r>красивый квадрат</r></e>
+  <e k="K" key="RimMarket.ReasonInnFine"><s>a good night at your inn</s><r>спокойной ночи в твоей гостинице</r></e>
+  <e k="K" key="RimMarket.ReasonInnPoor"><s>a flea-bitten night at your inn</s><r>блоховая ночь в твоей гостинице</r></e>
+  <e k="K" key="RimMarket.ReasonInnSteep"><s>paying through the nose for a bed</s><r>платить бешеные деньги за кровать</r></e>
+  <e k="K" key="RimMarket.ReasonInsulted"><s>an insulting haggle</s><r>оскорбительный торг</r></e>
+  <e k="K" key="RimMarket.ReasonMerchantHurt"><s>the merchant getting hurt</s><r>торговец получил травму</r></e>
+  <e k="K" key="RimMarket.ReasonNoFee"><s>a free stall</s><r>бесплатный ларек</r></e>
+  <e k="K" key="RimMarket.ReasonRacket"><s>a fee that smells of racket</s><r>плата, пахнущая рэкетом</r></e>
+  <e k="K" key="RimMarket.ReasonRobbed"><s>a thief who got away</s><r>вор, который сбежал</r></e>
+  <e k="K" key="RimMarket.ReasonSafe"><s>a quiet, safe square</s><r>тихая, безопасная площадь</r></e>
+  <e k="K" key="RimMarket.ReasonShabby"><s>a shabby square</s><r>обшарпанный квадрат</r></e>
+  <e k="K" key="RimMarket.ReasonStallGone"><s>losing the stall</s><r>потерять прилавок</r></e>
+  <e k="K" key="RimMarket.ReasonSteepFee"><s>a steep fee</s><r>крутая плата</r></e>
+  <e k="K" key="RimMarket.ReasonTaxedTwice"><s>being taxed twice in one day</s><r>облагаться налогом дважды в течение одного дня</r></e>
+  <e k="K" key="RimMarket.ReasonThiefCaught"><s>a thief caught</s><r>вор пойман</r></e>
+  <e k="K" key="RimMarket.ReasonThiefDeterred"><s>a thief scared off</s><r>вор испугался</r></e>
+  <e k="K" key="RimMarket.RepCutthroat"><s>cutthroat</s><r>головорез</r></e>
+  <e k="K" key="RimMarket.RepDubious"><s>dubious</s><r>сомнительный</r></e>
+  <e k="K" key="RimMarket.RepEffectCaravans"><s>Word travels: an extra caravan comes for the market about every {0} days.</s><r>Слухи распространяются: примерно каждые {0} дней на рынок приходит дополнительный караван.</r></e>
+  <e k="K" key="RimMarket.RepEffectNone"><s>Nothing yet. Your market is neither famous nor infamous.</s><r>Пока ничего. Ваш рынок не является ни известным, ни печально известным.</r></e>
+  <e k="K" key="RimMarket.RepEffectPricesBetter"><s>Merchants give {0}% better prices at your stalls.</s><r>Торговцы предлагают на {0}% более выгодные цены в ваших прилавках.</r></e>
+  <e k="K" key="RimMarket.RepEffectPricesWorse"><s>Merchants charge {0}% more at your stalls.</s><r>Торговцы в ваших прилавках берут на {0}% больше.</r></e>
+  <e k="K" key="RimMarket.RepEffectRare"><s>Rare merchants are more likely to make the trip.</s><r>Редкие торговцы с большей вероятностью отправятся в путешествие.</r></e>
+  <e k="K" key="RimMarket.RepEffectRefusal"><s>About {0}% of caravans refuse to set up at your market.</s><r>Около {0}% караванов отказываются останавливаться на вашем рынке.</r></e>
+  <e k="K" key="RimMarket.RepEffectRefusalFaction"><s>Their caravans refuse to set up about {0}% of the time.</s><r>Их караваны отказываются причаливать примерно в {0}% случаев.</r></e>
+  <e k="K" key="RimMarket.RepEffectsHeader"><s>What it changes:</s><r>Что это меняет:</r></e>
+  <e k="K" key="RimMarket.RepEffectsHeaderFaction"><s>What it changes for their caravans:</s><r>Что это меняет для их караванов:</r></e>
+  <e k="K" key="RimMarket.RepEffectsOff"><s>Reputation effects are turned off in the mod settings.</s><r>Эффекты репутации отключены в настройках мода.</r></e>
+  <e k="K" key="RimMarket.RepFactionNote"><s>The bars show what they remember of their own visits. Their opinion mixes that memory ({0}%) with what everyone says about your market.</s><r>Бары показывают, что они помнят о своих визитах. Их мнение смешивает эти воспоминания ({0}%) с тем, что все говорят о вашем рынке.</r></e>
+  <e k="K" key="RimMarket.RepFactionTitle"><s>In the eyes of {0}: {1}</s><r>В глазах {0}: {1}</r></e>
+  <e k="K" key="RimMarket.RepFactionUnknown"><s>Too few visits from {0} so far for them to trust their own memory.</s><r>Слишком мало визитов из {0}, чтобы они могли доверять своей памяти.</r></e>
+  <e k="K" key="RimMarket.RepGlobal"><s>Whole market (all factions)</s><r>Весь рынок (все фракции)</r></e>
+  <e k="K" key="RimMarket.RepGrasping"><s>grasping</s><r>схватив</r></e>
+  <e k="K" key="RimMarket.RepHonest"><s>honest</s><r>честный</r></e>
+  <e k="K" key="RimMarket.RepJournal"><s>Recent market days</s><r>Последние рыночные дни</r></e>
+  <e k="K" key="RimMarket.RepJournalEmpty"><s>No market day yet.</s><r>Базарного дня еще нет.</r></e>
+  <e k="K" key="RimMarket.RepJournalLine"><s>{0} ago: {1} of {2} packed up {3}.</s><r>{0} назад: {1} из {2} упаковано {3}.</r></e>
+  <e k="K" key="RimMarket.RepJournalLineReasons"><s>{0} ago: {1} of {2} packed up {3} ({4}).</s><r>{0} назад: {1} из {2} упаковано {3} ({4}).</r></e>
+  <e k="K" key="RimMarket.RepLively"><s>lively</s><r>живой</r></e>
+  <e k="K" key="RimMarket.RepLowTax"><s>low taxes</s><r>низкие налоги</r></e>
+  <e k="K" key="RimMarket.RepNotEstablished"><s>Too few market days so far for anyone to have an opinion. Hold a few markets.</s><r>Пока слишком мало рыночных дней, чтобы кто-либо мог высказать свое мнение. Держите несколько рынков.</r></e>
+  <e k="K" key="RimMarket.RepNotorious"><s>notorious</s><r>печально известный</r></e>
+  <e k="K" key="RimMarket.RepRacket"><s>racket</s><r>ракетка</r></e>
+  <e k="K" key="RimMarket.RepRenowned"><s>renowned</s><r>известный</r></e>
+  <e k="K" key="RimMarket.RepRespectable"><s>respectable</s><r>респектабельный</r></e>
+  <e k="K" key="RimMarket.RepSafe"><s>safe</s><r>безопасный</r></e>
+  <e k="K" key="RimMarket.RepShabby"><s>shabby</s><r>потертый</r></e>
+  <e k="K" key="RimMarket.RepUnknown"><s>unknown</s><r>неизвестный</r></e>
+  <e k="K" key="RimMarket.RepUnremarkable"><s>unremarkable</s><r>ничем не примечательный</r></e>
+  <e k="K" key="RimMarket.RepWindowTitle"><s>Market reputation: {0}</s><r>Репутация на рынке: {0}</r></e>
+  <e k="K" key="RimMarket.ReportFleeing"><s>running off with stolen goods.</s><r>убегает с украденным имуществом.</r></e>
+  <e k="K" key="RimMarket.ReportGoingToInn"><s>heading for a bed at the inn.</s><r>направляясь к ночлегу в гостинице.</r></e>
+  <e k="K" key="RimMarket.ReputationDesc"><s>See what merchants say about your market, and what it changes.</s><r>Посмотрите, что продавцы говорят о вашем рынке и что на нем меняется.</r></e>
+  <e k="K" key="RimMarket.ReputationLabel"><s>Reputation</s><r>Репутация</r></e>
+  <e k="K" key="RimMarket.ReviewDorm"><s>a bit crowded</s><r>немного людно</r></e>
+  <e k="K" key="RimMarket.ReviewFair"><s>fair price</s><r>справедливая цена</r></e>
+  <e k="K" key="RimMarket.ReviewFine"><s>lovely room</s><r>прекрасная комната</r></e>
+  <e k="K" key="RimMarket.ReviewFree"><s>and it was free</s><r>и это было бесплатно</r></e>
+  <e k="K" key="RimMarket.ReviewOutdoors"><s>slept under the sky</s><r>спал под небом</r></e>
+  <e k="K" key="RimMarket.ReviewPoor"><s>shabby place</s><r>обшарпанное место</r></e>
+  <e k="K" key="RimMarket.ReviewPricey"><s>way too pricey</s><r>слишком дорого</r></e>
+  <e k="K" key="RimMarket.ReviewRoom"><s>clean enough</s><r>достаточно чистый</r></e>
+  <e k="K" key="RimMarket.ReviewSuite"><s>what a suite</s><r>какой люкс</r></e>
+  <e k="K" key="RimMarket.RoundsCount"><s>{0} merchants</s><r>{0} торговцы</r></e>
+  <e k="K" key="RimMarket.RoundsDesc"><s>Send one colonist to trade with every merchant at this market, one stall after the other, nearest first. The trade window opens at each counter.</s><r>Отправьте одного колониста торговать с каждым торговцем на этом рынке, один прилавок за другим, ближайший первым. Торговое окно открывается на каждом прилавке.</r></e>
+  <e k="K" key="RimMarket.RoundsLabel"><s>Make the rounds</s><r>Сделайте раунды</r></e>
+  <e k="K" key="RimMarket.RoundsNobody"><s>can't trade with anyone here</s><r>здесь нельзя ни с кем торговать</r></e>
+  <e k="K" key="RimMarket.RouteClose"><s>Close the route from {0}</s><r>Закрыть маршрут от {0}</r></e>
+  <e k="K" key="RimMarket.RouteCloseConfirm"><s>Close the trade route from {0}? Its convoys stop coming, the one on the road turns back, and the fee stays spent.</s><r>Закрыть торговый путь из {0}? Ее конвои перестают приходить, тот, что идет по дороге, поворачивает назад, а плата остается потраченной.</r></e>
+  <e k="K" key="RimMarket.RouteCloseYes"><s>Close it</s><r>Закрой это</r></e>
+  <e k="K" key="RimMarket.RouteClosedGone"><s>The trade route with {0} is closed: {1} is no longer theirs to send convoys from.</s><r>Торговый путь с {0} закрыт: {1} больше не принадлежит им для отправки конвоев.</r></e>
+  <e k="K" key="RimMarket.RouteClosedGrudge"><s>{0} closes the trade route from {1}: they no longer trust your market.</s><r>{0} закрывает торговый путь из {1}: они больше не доверяют вашему рынку.</r></e>
+  <e k="K" key="RimMarket.RouteClosedHome"><s>The trade route with {0} is closed: your market town is gone.</s><r>Торговый путь с {0} закрыт: вашего торгового города больше нет.</r></e>
+  <e k="K" key="RimMarket.RouteClosedHostile"><s>The trade route with {0} is closed: they are now hostile.</s><r>Торговый путь с {0} закрыт: теперь они враждебны.</r></e>
+  <e k="K" key="RimMarket.RouteClosedNoCaravans"><s>The trade route with {0} is closed: {1} has no caravan that can travel to your land.</s><r>Торговый путь с {0} закрыт: у {1} нет каравана, который мог бы добраться до вашей земли.</r></e>
+  <e k="K" key="RimMarket.RouteClosedNoRoad"><s>The trade route with {0} is closed: no road reaches your market from {1} any more.</s><r>Торговый путь с {0} закрыт: ни одна дорога больше не ведет к вашему рынку из {1}.</r></e>
+  <e k="K" key="RimMarket.RouteClosedStrikes"><s>{0} close the trade route from {1} after too many bad days at your market.</s><r>{0} закройте торговый путь из {1} после слишком многих плохих дней на вашем рынке.</r></e>
+  <e k="K" key="RimMarket.RouteConvoyDelayed"><s>The trade convoy from {0} has reached your land but cannot come in yet. It will try again.</s><r>Торговый конвой из {0} достиг вашей земли, но пока не может войти. Он попытается еще раз.</r></e>
+  <e k="K" key="RimMarket.RouteConvoyLeft"><s>A trade convoy has left {0} for your market with a {1}. It should arrive in about {2}.</s><r>Торговый конвой отправился из {0} на ваш рынок с {1}. Оно должно прибыть примерно через {2}.</r></e>
+  <e k="K" key="RimMarket.RouteConvoyTurnedBack"><s>The trade convoy from {0} gave up waiting and went home.</s><r>Торговый конвой из {0} отказался от ожидания и отправился домой.</r></e>
+  <e k="K" key="RimMarket.RouteConvoyWaiting"><s>The trade convoy from {0} waits at the edge of your land: their enemies are at your market.</s><r>Торговый конвой из {0} ждет на краю вашей земли: их враги на вашем рынке.</r></e>
+  <e k="K" key="RimMarket.RouteEscortNote"><s>On this road, about {0} of convoys run into trouble, mostly from {1}. An escort brings that down to about {2}, and escorted convoys that are attacked usually come through.</s><r>На этой дороге около {0} конвоев попадают в неприятности, в основном из {1}. Сопровождение снижает это значение примерно до {2}, и конвои с сопровождением, подвергшиеся нападению, обычно проходят через него.</r></e>
+  <e k="K" key="RimMarket.RouteExists"><s>a route is already open</s><r>маршрут уже открыт</r></e>
+  <e k="K" key="RimMarket.RouteFortnightly"><s>Every two weeks: {0} silver to open, then {1} per convoy</s><r>Каждые две недели: {0} серебра за открытие, затем {1} за конвой.</r></e>
+  <e k="K" key="RimMarket.RouteFortnightlyEscort"><s>Every two weeks, with an escort: {0} silver to open, then {1} per convoy</s><r>Каждые две недели в сопровождении: {0} серебра за открытие, затем {1} за конвой.</r></e>
+  <e k="K" key="RimMarket.RouteGrudge"><s>they hold a grudge against your market</s><r>они затаили обиду на ваш рынок</r></e>
+  <e k="K" key="RimMarket.RouteHostile"><s>they are hostile</s><r>они враждебны</r></e>
+  <e k="K" key="RimMarket.RouteLimit"><s>route limit reached</s><r>лимит маршрута достигнут</r></e>
+  <e k="K" key="RimMarket.RouteLine"><s>{0}: {1}, every {2} days. {3}</s><r>{0}: {1}, каждые {2} дня. {3}</r></e>
+  <e k="K" key="RimMarket.RouteNeedsMarket"><s>no open market in this colony</s><r>в этой колонии нет открытого рынка</r></e>
+  <e k="K" key="RimMarket.RouteNoKinds"><s>no merchant willing to come</s><r>ни один торговец не желает прийти</r></e>
+  <e k="K" key="RimMarket.RouteNoRoad"><s>no road to your market</s><r>нет дороги на ваш рынок</r></e>
+  <e k="K" key="RimMarket.RouteNoSilver"><s>{0} silver needed</s><r>{0} необходимо серебро</r></e>
+  <e k="K" key="RimMarket.RouteNoTowns"><s>They have no town to send convoys from.</s><r>У них нет города, из которого можно было бы отправлять конвои.</r></e>
+  <e k="K" key="RimMarket.RouteOpen"><s>Open a trade route</s><r>Открыть торговый путь</r></e>
+  <e k="K" key="RimMarket.RouteOpened"><s>Agreed. The first {1} convoy leaves {0} within a day or so. You will see it on the world map.</s><r>Согласованный. Первый конвой {1} покидает {0} примерно через день. Вы увидите это на карте мира.</r></e>
+  <e k="K" key="RimMarket.RoutePickCadence"><s>How often should the {0} convoy leave {1}? You pay once to open the route, then a convoy fee each time a convoy arrives, in silver from your stores and home area (you have {2}). If nobody can pay the fee, the convoy turns back, and the town counts it against the route.</s><r>Как часто конвой {0} должен покидать {1}? Вы платите один раз, чтобы открыть маршрут, а затем плату за конвой каждый раз, когда прибывает конвой, серебром из ваших магазинов и домашнего региона (у вас есть {2}). Если никто не может заплатить пошлину, колонна поворачивает назад, и город засчитывает ее в счет маршрута.</r></e>
+  <e k="K" key="RimMarket.RoutePickKind"><s>What should the convoys from {0} bring?</s><r>Что должны привезти конвои из {0}?</r></e>
+  <e k="K" key="RimMarket.RoutePickSettlement"><s>Which town of {0} should send the convoys? The farther it is, the longer the road and the higher the fee.</s><r>Какой город {0} должен отправить конвои? Чем дальше, тем длиннее дорога и выше плата.</r></e>
+  <e k="K" key="RimMarket.RouteRisk"><s>{0} chance of an ambush, mostly {1}</s><r>{0} вероятность засады, чаще всего {1}</r></e>
+  <e k="K" key="RimMarket.RouteRiskSafe"><s>a safe road</s><r>безопасная дорога</r></e>
+  <e k="K" key="RimMarket.RouteSettlementOption"><s>{0} ({1} tiles, about {2} on the road, {3})</s><r>{0} ({1} плитки, около {2} на дороге, {3})</r></e>
+  <e k="K" key="RimMarket.RouteStatusAmbushes"><s>Ambushed {0} time(s), {1} convoy(s) lost.</s><r>Попал в засаду {0} раз, {1} конвой(а) потерян.</r></e>
+  <e k="K" key="RimMarket.RouteStatusAttacked"><s>The convoy is under attack by {0}!</s><r>Конвой атакован {0}!</r></e>
+  <e k="K" key="RimMarket.RouteStatusEscort"><s>Escorted.</s><r>Сопровождается.</r></e>
+  <e k="K" key="RimMarket.RouteStatusNext"><s>Next convoy leaves in about {0}.</s><r>Следующий конвой отправится примерно через {0}.</r></e>
+  <e k="K" key="RimMarket.RouteStatusOnRoad"><s>A convoy is on the road, arriving in about {0}.</s><r>Конвой уже в пути, прибывает примерно через {0}.</r></e>
+  <e k="K" key="RimMarket.RouteStatusToll"><s>Convoy fee: {0} silver.</s><r>Плата за конвой: {0} серебра.</r></e>
+  <e k="K" key="RimMarket.RouteStatusWaiting"><s>A convoy is waiting at the edge of your land.</s><r>Конвой ждет на краю вашей земли.</r></e>
+  <e k="K" key="RimMarket.RouteStrike"><s>{0} are losing faith in the trade route after a bad day at your market ({1} of {2}).</s><r>{0} теряют веру в торговый путь после неудачного дня на вашем рынке ({1} из {2}).</r></e>
+  <e k="K" key="RimMarket.RouteTollPaid"><s>The convoy from {0} has arrived. {1} silver paid for the trip.</s><r>Конвой из {0} прибыл. {1} серебро оплачено за поездку.</r></e>
+  <e k="K" key="RimMarket.RouteTollUnpaid"><s>The convoy from {0} turned back: nobody could pay the {1} silver convoy fee. Strike {2} of {3} for the route.</s><r>Конвой из {0} повернул назад: никто не смог заплатить {1} серебряный сбор за конвой. Ударьте {2} из {3} для маршрута.</r></e>
+  <e k="K" key="RimMarket.RouteUnknown"><s>they don't know your market yet</s><r>они еще не знают ваш рынок</r></e>
+  <e k="K" key="RimMarket.RouteUnknownHelp"><s>{0} have never traded at your market or hosted your stall. Trade with them there first, then come back.</s><r>{0} никогда не торговали на вашем рынке и не размещали ваш прилавок. Сначала поторгуйтесь с ними там, а потом возвращайтесь.</r></e>
+  <e k="K" key="RimMarket.RouteWeekly"><s>Every week: {0} silver to open, then {1} per convoy</s><r>Каждую неделю: {0} серебра на открытие, затем {1} за конвой.</r></e>
+  <e k="K" key="RimMarket.RouteWeeklyEscort"><s>Every week, with an escort: {0} silver to open, then {1} per convoy</s><r>Каждую неделю в сопровождении: {0} серебра на открытие, затем {1} за конвой.</r></e>
+  <e k="K" key="RimMarket.RoutesNode"><s>A trade route with {0}: one of their towns sends a merchant convoy to your market at a set pace. You pay once to open the route, then a convoy fee each time a convoy arrives. Your market's reputation lets it keep {1} route(s) in all.</s><r>Торговый путь с {0}: один из их городов отправляет торговый конвой на ваш рынок с заданной скоростью. Вы платите один раз за открытие маршрута, а затем взимаете плату за конвой каждый раз, когда прибывает конвой. Репутация вашего рынка позволяет ему поддерживать всего {1} маршрут(ы).</r></e>
+  <e k="K" key="RimMarket.RoutesOption"><s>Trade routes ({0}/{1})</s><r>Торговые пути ({0}/{1})</r></e>
+  <e k="K" key="RimMarket.Settings.AwayStalls"><s>Stalls in other towns</s><r>Торговые точки в других городах</r></e>
+  <e k="K" key="RimMarket.Settings.AwayStallsHint"><s>Lets a caravan set up a stall at a friendly settlement for one market day and sell its goods to the townsfolk. Allies charge a smaller stall fee. Food and medicine stay with the caravan.</s><r>Давайте каравану поставим прилавок в дружественном поселении на один базарный день и продадим свои товары горожанам. Союзники взимают меньшую плату за палатку. Еда и лекарства остаются в караване.</r></e>
+  <e k="K" key="RimMarket.Settings.BargainEffect"><s>Price sway</s><r>Колебание цен</r></e>
+  <e k="K" key="RimMarket.Settings.BargainEffectHint"><s>100%: shoppers come twice as often to a stall selling at 85% of value or less, and about a third as often at double the value. 0%: prices change nothing about how often they come, only whether they buy. 200%: bargains are the talk of the region.</s><r>100%: покупатели приходят в два раза чаще в киоск, продающий товар по цене 85% или меньше, и примерно на треть чаще по двойной цене. 0%: цены ничего не меняют в том, как часто они приходят, только в том, покупают ли они. 200%: о выгодных сделках говорят в регионе.</r></e>
+  <e k="K" key="RimMarket.Settings.CaptionCaravans"><s>Caravans</s><r>Караваны</r></e>
+  <e k="K" key="RimMarket.Settings.CaptionColony"><s>Colony stalls and inn</s><r>Палатки и гостиница колонии</r></e>
+  <e k="K" key="RimMarket.Settings.CaptionHegemony"><s>Hegemony</s><r>Гегемония</r></e>
+  <e k="K" key="RimMarket.Settings.ColonistsBrowse"><s>Colonists browse the stalls</s><r>Колонисты осматривают киоски</r></e>
+  <e k="K" key="RimMarket.Settings.ColonistsBrowseHint"><s>Idle colonists wander over, look at the wares and chat with the merchant. They never spend colony silver on their own.</s><r>Праздные колонисты бродят, рассматривают товары и болтают с торговцем. Они никогда не тратят колониальное серебро самостоятельно.</r></e>
+  <e k="K" key="RimMarket.Settings.ColonyShopperDays"><s>Colony stall shoppers, one group every</s><r>Покупатели в колониях, по одной группе на каждую</r></e>
+  <e k="K" key="RimMarket.Settings.ColonyShopperDaysHint"><s>How often a group of shoppers walks over for the colony stalls when no merchant is in town, counting only daytime market hours, with prices at 110% of value. Cheaper or dearer stalls change this, as set below.</s><r>Как часто группа покупателей заходит к прилавкам колонии, когда в городе нет ни одного торговца, считая только дневные часы работы рынка, с ценами в 110% от стоимости. Более дешевые или более дорогие киоски меняют это, как указано ниже.</r></e>
+  <e k="K" key="RimMarket.Settings.Days"><s>{0} d</s><r>{0} д</r></e>
+  <e k="K" key="RimMarket.Settings.Difficulty"><s>Market difficulty</s><r>Сложность рынка</r></e>
+  <e k="K" key="RimMarket.Settings.DifficultyHint"><s>How hard your market has to work for its silver.
+
+Relaxed: your stalls sell a bit dearer, demand drops slowly, shoppers carry more silver and thieves come less often.
+Standard: the market as intended.
+Tough: your stalls sell a bit cheaper, demand drops fast, shoppers carry less and thieves come more often, drawn harder by your takings.</s><r>Насколько усердно вашему рынку приходится работать за свое серебро.
+
+Расслабление: ваши прилавки продаются немного дороже, спрос падает медленно, покупатели носят больше серебра, а воры приходят реже.
+Стандарт: рынок такой, каким он был задуман.
+Жесткий: ваши прилавки продаются немного дешевле, спрос быстро падает, покупатели проносят меньше, а воры приходят чаще, которых больше привлекает ваша выручка.</r></e>
+  <e k="K" key="RimMarket.Settings.ExtraCaravans"><s>Extra caravans from reputation</s><r>Дополнительные караваны от репутации</r></e>
+  <e k="K" key="RimMarket.Settings.ExtraCaravansHint"><s>A well liked market draws caravans on top of the ones the storyteller sends, up to one every two days or so. Turn it down for fewer visits, at 0% none come extra. Rarer merchants and better prices still work.</s><r>Популярный рынок привлекает караваны поверх тех, что отправляет рассказчик, примерно по одному каждые два дня. Отключите его, чтобы уменьшить количество посещений, при 0 % никаких дополнительных посещений не будет. Более редкие торговцы и лучшие цены все еще работают.</r></e>
+  <e k="K" key="RimMarket.Settings.Fair"><s>Great Fairs</s><r>Великие ярмарки</r></e>
+  <e k="K" key="RimMarket.Settings.FairCooldown"><s>Between two fairs</s><r>Между двумя ярмарками</r></e>
+  <e k="K" key="RimMarket.Settings.FairCooldownHint"><s>The least number of days between two Great Fairs.</s><r>Наименьшее количество дней между двумя Великими ярмарками.</r></e>
+  <e k="K" key="RimMarket.Settings.FairCost"><s>Heralds cost</s><r>Стоимость Вестников</r></e>
+  <e k="K" key="RimMarket.Settings.FairCostHint"><s>What the heralds charge to announce a Great Fair, in silver.</s><r>Сколько берут герольды за объявление о Великой ярмарке в серебре.</r></e>
+  <e k="K" key="RimMarket.Settings.FairHint"><s>A button on the market marker announces a Great Fair a few days ahead: a day of caravans, crowds and bunting. Off: no fairs.</s><r>Кнопка на маркере рынка объявляет о Великой ярмарке, которая состоится через несколько дней: день караванов, толп людей и флагов. Выкл: нет ярмарок.</r></e>
+  <e k="K" key="RimMarket.Settings.FeeCap"><s>At most</s><r>Максимум</r></e>
+  <e k="K" key="RimMarket.Settings.FeeCapHint"><s>The arrival fee never goes above this, in silver.</s><r>Плата за прибытие никогда не превышает эту сумму, в серебре.</r></e>
+  <e k="K" key="RimMarket.Settings.FeeInGoods"><s>Take goods if short of silver</s><r>Возьмите товар, если не хватает серебра</r></e>
+  <e k="K" key="RimMarket.Settings.FeeInGoodsHint"><s>The merchant pays the difference with wares from the caravan, dropped at the stall.</s><r>Торговец доплачивает разницу товарами из каравана, брошенными на прилавок.</r></e>
+  <e k="K" key="RimMarket.Settings.FeeMode"><s>Stall fee</s><r>Плата за стойло</r></e>
+  <e k="K" key="RimMarket.Settings.FeeModeHint"><s>How caravans pay for their stall: on arrival, as a share of what guests spend (Hospitality or Hotels and Recreation), or not at all. Each market marker can set its own.</s><r>Как караваны платят за свой ларек: по прибытии, как часть расходов гостей (гостеприимство или гостиницы и отдых), или не совсем. Каждый рыночный маркер может устанавливать свой собственный.</r></e>
+  <e k="K" key="RimMarket.Settings.FeePercent"><s>Share of their goods</s><r>Доля своих товаров</r></e>
+  <e k="K" key="RimMarket.Settings.FeePercentHint"><s>The arrival fee is this share of the value of the goods the caravan carries.</s><r>Плата за прибытие составляет эту долю стоимости товаров, перевозимых караваном.</r></e>
+  <e k="K" key="RimMarket.Settings.GuardsAtStall"><s>Guards per stall</s><r>Охранники на стойло</r></e>
+  <e k="K" key="RimMarket.Settings.GuardsAtStallHint"><s>They stand beside the counter and chase thieves. The other guards wait at your guard rest spot, the pack animals at your caravan camp. Without them, both wait just outside the market.</s><r>Они стоят возле прилавка и преследуют воров. Остальные охранники ждут на месте отдыха вашего охранника, вьючные животные — в лагере вашего каравана. Без них оба будут ждать возле рынка.</r></e>
+  <e k="K" key="RimMarket.Settings.GuestsShop"><s>Guests shop at the stalls</s><r>Гости делают покупки в ларьках</r></e>
+  <e k="K" key="RimMarket.Settings.GuestsShopHint"><s>Needs Hospitality or Hotels and Recreation. Guests with silver in their pockets, or budget left for their stay at your hotel, buy wares at the stalls and at your colony stall, and come to watch slave auctions. With the share of takings fee, the market takes its cut of every sale.</s><r>Нуждается в гостеприимстве или гостиницах и отдыхе. Гости с серебром в карманах или бюджетом, оставшимся на проживание в вашем отеле, покупают товары в ларьках и в ларьке вашей колонии и приходят посмотреть аукционы рабов. Учитывая долю комиссионных, рынок получает свою долю от каждой продажи.</r></e>
+  <e k="K" key="RimMarket.Settings.Haggle"><s>Haggling</s><r>Торг</r></e>
+  <e k="K" key="RimMarket.Settings.HaggleBonus"><s>Bonus</s><r>Бонус</r></e>
+  <e k="K" key="RimMarket.Settings.HaggleBonusHint"><s>What a good haggle takes off the prices, and what a bad one adds.</s><r>Какой хороший торг снижает цены, а какой плохой прибавляет.</r></e>
+  <e k="K" key="RimMarket.Settings.HaggleHint"><s>One attempt per visit. Social skill and goodwill against the merchant's patience. Failure costs you the same amount the other way, and the merchant leaves earlier.</s><r>Одна попытка за посещение. Социальные навыки и доброжелательность против терпения торговца. Неудача в другую сторону обойдется вам в ту же сумму, и торговец уйдет раньше.</r></e>
+  <e k="K" key="RimMarket.Settings.HegemonyGoodwill"><s>Stall sales count as trade</s><r>Продажи в ларьках считаются торговлей</r></e>
+  <e k="K" key="RimMarket.Settings.HegemonyGoodwillHint"><s>Colony stall sales, away stall sales and auctions count toward Hegemony's trade goodwill, like trading in the vanilla trade window.</s><r>Продажи в колониях, выездные продажи и аукционы учитываются в торговой репутации Гегемонии, как и торговля в ванильном торговом окне.</r></e>
+  <e k="K" key="RimMarket.Settings.HegemonyPrices"><s>Local prices at away stalls</s><r>Местные цены в выездных киосках</r></e>
+  <e k="K" key="RimMarket.Settings.HegemonyPricesHint"><s>Stalls in other towns sell at that town's Hegemony prices: goods it lacks sell for more, goods it has plenty of for less.</s><r>Прилавки в других городах продаются по ценам Гегемонии этого города: товары, которых ему не хватает, продаются дороже, товары, которых у него много, дешевле.</r></e>
+  <e k="K" key="RimMarket.Settings.HegemonyStock"><s>Sold goods fill the town's stock</s><r>Проданные товары пополняют запасы города.</r></e>
+  <e k="K" key="RimMarket.Settings.HegemonyStockHint"><s>Materials and other goods Hegemony accepts go into the town's reserves when your away stall sells them. Off: they simply vanish, like without Hegemony.</s><r>Материалы и другие товары, которые принимает Гегемония, поступают в городские резервы, когда их продает ваш выездной ларек. Выкл: они просто исчезают, как и без Гегемонии.</r></e>
+  <e k="K" key="RimMarket.Settings.HegemonyTerritory"><s>Ambushes in hostile territory</s><r>Засады на враждебной территории</r></e>
+  <e k="K" key="RimMarket.Settings.HegemonyTerritoryHint"><s>Trade convoys crossing land claimed by a hostile faction risk an ambush from that faction.</s><r>Торговые конвои, пересекающие земли, на которые претендует враждебная фракция, рискуют попасть в засаду со стороны этой фракции.</r></e>
+  <e k="K" key="RimMarket.Settings.InnPrice"><s>Market inn, silver per night</s><r>Market Inn, серебро за ночь</r></e>
+  <e k="K" key="RimMarket.Settings.InnPriceHint"><s>Default price of a night in a room. A dorm costs half, a suite twice as much. Each colony can set its own prices in the inn register. The merchant pays for the caravan's guards, shoppers pay for themselves. Zero keeps the inn free.</s><r>Стоимость ночи в номере по умолчанию. Общежитие стоит вполовину, люкс в два раза дороже. Каждая колония может устанавливать свои собственные цены в реестре гостиниц. Купец платит за охрану каравана, покупатели платят за себя. Зеро оставляет гостиницу бесплатной.</r></e>
+  <e k="K" key="RimMarket.Settings.MarketDays"><s>Market day</s><r>Базарный день</r></e>
+  <e k="K" key="RimMarket.Settings.MarketDaysHint"><s>How long a caravan stays at its stall before packing up.</s><r>Как долго караван стоит на стоянке перед сборкой.</r></e>
+  <e k="K" key="RimMarket.Settings.MarketSaturation"><s>Demand drops when you flood the market</s><r>Спрос падает, когда вы наводняете рынок</r></e>
+  <e k="K" key="RimMarket.Settings.MarketSaturationHint"><s>Selling a lot of the same thing at your colony stalls lowers demand for it: it sells less often and for less, then demand comes back over a few days. Vary what you sell. With Vanilla Trading Expanded only the selling chance drops, VTE already lowers the price.</s><r>Продажа большого количества одних и тех же вещей на прилавках вашей колонии снижает спрос на них: они продаются реже и дешевле, а затем через несколько дней спрос возвращается. Меняйте то, что вы продаете. С Vanilla Trading Expanded снижается только вероятность продажи, а VTE уже снижает цену.</r></e>
+  <e k="K" key="RimMarket.Settings.MaxGuards"><s>Guards per caravan, at most</s><r>Охранников на караван, максимум</r></e>
+  <e k="K" key="RimMarket.Settings.MaxGuardsHint"><s>Caravans heading for a map with a market bring no more guards than this, the strongest ones. The rest stay home. Always at least one more than the guards per stall, so someone can take over.</s><r>Караваны, направляющиеся к карте с рынком, берут с собой не больше стражников, чем эта, самая сильная. Остальные остаются дома. Всегда как минимум на одного охранника в кабинке больше, чтобы кто-то мог занять место.</r></e>
+  <e k="K" key="RimMarket.Settings.MaxMerchants"><s>Merchants at once</s><r>Торговцы сразу</r></e>
+  <e k="K" key="RimMarket.Settings.MaxMerchantsHint"><s>How many caravans can trade at your market at the same time.</s><r>Сколько караванов могут одновременно торговать на вашем рынке.</r></e>
+  <e k="K" key="RimMarket.Settings.Messages"><s>Market messages</s><r>Сообщения рынка</r></e>
+  <e k="K" key="RimMarket.Settings.MessagesHint"><s>Messages in the corner of the screen about what happens at the market.</s><r>Сообщения в углу экрана о том, что происходит на рынке.</r></e>
+  <e k="K" key="RimMarket.Settings.NoLimit"><s>No limit</s><r>Без ограничений</r></e>
+  <e k="K" key="RimMarket.Settings.OpenGuide"><s>Open the market guide</s><r>Открыть справочник рынка</r></e>
+  <e k="K" key="RimMarket.Settings.Reputation"><s>Reputation</s><r>Репутация</r></e>
+  <e k="K" key="RimMarket.Settings.ReputationHint"><s>A good reputation brings extra caravans, rarer merchants and better prices. A bad one makes caravans camp outside and prices climb. With this off, the reputation is still kept but changes nothing.</s><r>Хорошая репутация приносит дополнительные караваны, более редких торговцев и лучшие цены. Плохой вариант заставляет караваны разбивать палатки снаружи, и цены растут. Если это отключить, репутация по-прежнему сохраняется, но ничего не меняется.</r></e>
+  <e k="K" key="RimMarket.Settings.ResetTab"><s>Reset this tab</s><r>Сбросить эту вкладку</r></e>
+  <e k="K" key="RimMarket.Settings.RouteOpenCost"><s>Price to open</s><r>Цена открытия</r></e>
+  <e k="K" key="RimMarket.Settings.RouteOpenCostHint"><s>Scales the price to open a route: about {0} silver for a town 20 tiles away.</s><r>Изменяет цену открытия маршрута: около {0} серебра за город в 20 клетках от него.</r></e>
+  <e k="K" key="RimMarket.Settings.RouteToll"><s>Fee per convoy</s><r>Плата за конвой</r></e>
+  <e k="K" key="RimMarket.Settings.RouteTollHint"><s>Scales the fee paid for each convoy: about {0} silver from 20 tiles away. 0% lets convoys come for free.</s><r>Изменяет размер платы за каждый конвой: примерно {0} серебра на расстоянии 20 клеток. 0% позволяет конвоям приходить бесплатно.</r></e>
+  <e k="K" key="RimMarket.Settings.SharePercent"><s>Share of guest spending</s><r>Доля расходов гостей</r></e>
+  <e k="K" key="RimMarket.Settings.SharePercentHint"><s>The market's cut of what guests spend at the stalls, left on the counter during the visit. What you buy yourself is never taxed.</s><r>Рыночная часть того, что гости тратят в киосках, остается на прилавке во время посещения. То, что вы покупаете сами, никогда не облагается налогом.</r></e>
+  <e k="K" key="RimMarket.Settings.Shopkeepers"><s>Colony stalls need a shopkeeper</s><r>В колонию требуется продавец</r></e>
+  <e k="K" key="RimMarket.Settings.ShopkeepersHint"><s>Off: colony stalls sell on their own, on trust. On: a colonist with the Shopkeep work type has to stand at the counter while customers are in town. Their Social skill raises prices, customers buy a little more readily, and every sale teaches them something. The Shopkeep column appears in the Work tab after a restart.</s><r>Выключено: киоски колонии продают самостоятельно, на доверии. Включено: колонист с типом работы «Магазин» должен стоять у прилавка, пока покупатели находятся в городе. Их навыки общения повышают цены, клиенты покупают с большей охотой, и каждая продажа их чему-то учит. После перезапуска на вкладке «Работа» появится столбец «Магазин».</r></e>
+  <e k="K" key="RimMarket.Settings.ShoppersVisit"><s>Passing shoppers</s><r>Проходящие покупатели</r></e>
+  <e k="K" key="RimMarket.Settings.ShoppersVisitHint"><s>An hour or two after a merchant sets up, a few people from a friendly faction walk over with some silver, browse the stalls, buy what they can afford and go home about five hours later, or the next morning if they took a bed at your inn. Groups also come for your colony stalls when no merchant is in town, as often as set below. No Hospitality needed.
+
+Off: no shoppers at all. Hospitality guests still buy.</s><r>Через час или два после того, как торговец обосновался, несколько человек из дружественной фракции приходят с серебром, осматривают прилавки, покупают то, что могут себе позволить, и отправляются домой примерно через пять часов или на следующее утро, если они сняли ночлег в вашей гостинице. Группы также приходят за прилавками вашей колонии, когда в городе нет торговцев, как указано ниже. Гостеприимство не требуется.
+
+Выход: покупателей вообще нет. Гостеприимство гости по-прежнему покупают.</r></e>
+  <e k="K" key="RimMarket.Settings.SlaveAuctions"><s>Slave auctions</s><r>Рабские аукционы</r></e>
+  <e k="K" key="RimMarket.Settings.SlaveAuctionsHint"><s>When a caravan with slaves for sale sets up at your market and an auction post stands in the square, the slaver auctions them there, one lot at a time. Buyers from other factions come to bid, your guests join in, and so can you.</s><r>Когда на вашем рынке останавливается караван с выставленными на продажу рабами и на площади стоит аукционный пост, работорговец продает их там с аукциона по одному лоту. Покупатели из других фракций приходят делать ставки, к вам присоединяются ваши гости, и вы тоже.</r></e>
+  <e k="K" key="RimMarket.Settings.SpecialOrders"><s>Special orders</s><r>Специальные заказы</r></e>
+  <e k="K" key="RimMarket.Settings.SpecialOrdersHint"><s>From the comms console (or a messenger table with Medieval Overhaul), pay a faction to bring a caravan full of what you asked for. They set up at a stall and skip the stall fee, since you already paid them to come.</s><r>С консоли связи (или стола посыльных с помощью Medieval Overhaul) заплатите фракции, чтобы она привезла караван, полный того, что вы просили. Они располагаются у прилавка и не платят за него, поскольку вы уже заплатили им за приезд.</r></e>
+  <e k="K" key="RimMarket.Settings.TabEvents"><s>Events</s><r>События</r></e>
+  <e k="K" key="RimMarket.Settings.TabMarket"><s>Market</s><r>Рынок</r></e>
+  <e k="K" key="RimMarket.Settings.TabTrade"><s>Trade</s><r>Торговля</r></e>
+  <e k="K" key="RimMarket.Settings.TabVisitors"><s>Visitors</s><r>Посетители</r></e>
+  <e k="K" key="RimMarket.Settings.ThiefMtb"><s>One every</s><r>Один каждый</r></e>
+  <e k="K" key="RimMarket.Settings.ThiefMtbHint"><s>Average number of market days between two thieves.</s><r>Среднее количество рыночных дней между двумя ворами.</r></e>
+  <e k="K" key="RimMarket.Settings.Thieves"><s>Thieves</s><r>Воры</r></e>
+  <e k="K" key="RimMarket.Settings.ThievesHint"><s>Now and then a pickpocket mingles with the crowd, lifts something from a counter and runs for it. The caravan's guards give chase, and your colonists can tackle a fleeing thief with a right click. The more people around a stall, the less a thief dares.</s><r>Время от времени в толпе смешивается карманник, берет что-то с прилавка и бежит к нему. Охранники каравана преследуют вас, а ваши колонисты могут схватить убегающего вора, щелкнув правой кнопкой мыши. Чем больше людей вокруг ларька, тем меньше смеет вор.</r></e>
+  <e k="K" key="RimMarket.Settings.TradeRoutes"><s>Trade routes</s><r>Торговые пути</r></e>
+  <e k="K" key="RimMarket.Settings.TradeRoutesHint"><s>Adds a Trade routes option when you talk to a faction by comms console, or by bird post with Medieval Overhaul. For a fee in silver, one of their towns sends a convoy to your market every week or two, and you can watch it travel on the world map. Roads near hostile towns (or through hostile territory, with Faction Territories and Vassalage) get convoys ambushed; an escort costs more and helps. Off: no new routes and no convoys leave, but existing routes are kept.</s><r>Добавляет опцию «Торговые маршруты», когда вы разговариваете с фракцией через консоль связи или через птичий пост с помощью Medieval Overhaul. За плату в серебре один из их городов каждую неделю или две отправляет конвой на ваш рынок, и вы можете наблюдать за его путешествием на карте мира. На дорогах возле враждебных городов (или через враждебную территорию, с территориями фракций и вассалитетом) конвои попадают в засады; сопровождение стоит дороже и помогает. Выключено: новые маршруты и конвои не уходят, но существующие маршруты сохраняются.</r></e>
+  <e k="K" key="RimMarket.Settings.TurnAwayIfBroke"><s>Turn away those who can't pay</s><r>Отвергните тех, кто не может заплатить</r></e>
+  <e k="K" key="RimMarket.Settings.TurnAwayIfBrokeHint"><s>Off: they pay what they have and set up anyway. On: they skip the market and idle outside your walls like a vanilla caravan.</s><r>Выкл: платят что есть и все равно настраивают. Включено: они пропускают рынок и простаивают за вашими стенами, как ванильный караван.</r></e>
+  <e k="K" key="RimMarket.Settings.WaiveAfterToll"><s>Free after a RimToll toll</s><r>Бесплатно после оплаты проезда RimToll.</r></e>
+  <e k="K" key="RimMarket.Settings.WaiveAfterTollHint"><s>Only matters when RimToll is loaded. A faction that paid your toll post less than a day ago is not charged a second time at the stall.</s><r>Имеет значение только тогда, когда загружен RimToll. Фракция, оплатившая ваш пост менее суток назад, не будет платить второй раз в ларьке.</r></e>
+  <e k="K" key="RimMarket.ShoppersArrived"><s>Shoppers from {0} have heard about the market and are walking over.</s><r>Покупатели из {0} услышали о рынке и пришли сюда.</r></e>
+  <e k="K" key="RimMarket.ShoppersForBargains"><s>Shoppers from {0} heard the colony sells cheap and have come for a bargain.</s><r>Покупатели из {0} услышали, что в колонии продаются дешево, и пришли за выгодной покупкой.</r></e>
+  <e k="K" key="RimMarket.ShoppersForColonyStall"><s>Shoppers from {0} have come to see what the colony has on its stalls.</s><r>Покупатели из {0} пришли посмотреть, что есть на прилавках колонии.</r></e>
+  <e k="K" key="RimMarket.ShowMarkerDesc"><s>Show or hide the spot on the ground. The market keeps working either way, and the maypole still goes up on it during a Great Fair.</s><r>Показать или скрыть место на земле. Рынок продолжает работать в любом направлении, и во время Великой ярмарки на нем все еще поднимается майское дерево.</r></e>
+  <e k="K" key="RimMarket.ShowMarkerLabel"><s>Show marker</s><r>Показать маркер</r></e>
+  <e k="K" key="RimMarket.ShowSpotDesc"><s>Show or hide the spot on the ground. It keeps working either way, and you can still select it by clicking its cell.</s><r>Показать или скрыть место на земле. Он продолжает работать в любом случае, и вы все равно можете выбрать его, щелкнув ячейку.</r></e>
+  <e k="K" key="RimMarket.ShowSpotLabel"><s>Show spot</s><r>Показать ролик</r></e>
+  <e k="K" key="RimMarket.SpotHidden"><s>Spot hidden</s><r>Место скрыто</r></e>
+  <e k="K" key="RimMarket.StallBlocked"><s>The merchant's spot is blocked</s><r>Место продавца заблокировано</r></e>
+  <e k="K" key="RimMarket.StallFeeDue"><s>Stall fee due: {0} silver</s><r>Плата за хранение: {0} серебра.</r></e>
+  <e k="K" key="RimMarket.StallFeePaid"><s>Stall fee paid: {0} silver</s><r>Плата за хранение: {0} серебра.</r></e>
+  <e k="K" key="RimMarket.StallFeeUnpaid"><s>Stall fee: they had nothing to pay with</s><r>Плата за ларек: им нечем было заплатить</r></e>
+  <e k="K" key="RimMarket.StallFeeWaived"><s>Stall fee waived</s><r>Плата за стойло отменена</r></e>
+  <e k="K" key="RimMarket.StallFree"><s>Free</s><r>Бесплатно</r></e>
+  <e k="K" key="RimMarket.StallGuestSales"><s>Sold to guests: {0} silver</s><r>Продано гостям: {0} серебра.</r></e>
+  <e k="K" key="RimMarket.StallHaggleLost"><s>Haggling: the merchant took offence</s><r>Торг: купец обиделся</r></e>
+  <e k="K" key="RimMarket.StallHaggleOpen"><s>Haggling: not tried yet</s><r>Торг: еще не пробовал</r></e>
+  <e k="K" key="RimMarket.StallHaggleWon"><s>Haggling: better prices</s><r>Торг: лучшие цены</r></e>
+  <e k="K" key="RimMarket.StallMarketClosed"><s>The market is closed</s><r>Рынок закрыт</r></e>
+  <e k="K" key="RimMarket.StallNoMarker"><s>No market marker covers this stall</s><r>Ни один рыночный маркер не закрывает этот ларек.</r></e>
+  <e k="K" key="RimMarket.StallOrderLine"><s>Here on your special order: no stall fee.</s><r>По вашему специальному заказу: без платы за хранение.</r></e>
+  <e k="K" key="RimMarket.StallRelief"><s>Change of guard: {0} is coming to take over from {1}</s><r>Смена караула: {0} сменит {1}.</r></e>
+  <e k="K" key="RimMarket.StallRepBetter"><s>Your market's reputation: prices {0}% better</s><r>Репутация вашего рынка: цены на {0}% лучше</r></e>
+  <e k="K" key="RimMarket.StallRepWorse"><s>Your market's reputation: prices {0}% worse</s><r>Репутация вашего рынка: цены на {0}% хуже</r></e>
+  <e k="K" key="RimMarket.StallSetupAdjustTip"><s>How many to sell, out of what the colony has. With Refill ticked, how many to keep on the counter. Type a number in the box, or use the buttons: hold Shift for 10 at a time, Ctrl for 100. All: everything, or nothing if it is already everything.</s><r>Сколько продать, из того, что есть в колонии. Если отмечена галочка «Пополнение», укажите, сколько продуктов хранить на счетчике. Введите число в поле или воспользуйтесь кнопками: удерживайте Shift для 10, Ctrl для 100. Все: все или ничего, если это уже все.</r></e>
+  <e k="K" key="RimMarket.StallSetupAll"><s>All</s><r>Все</r></e>
+  <e k="K" key="RimMarket.StallSetupAvailable"><s>In colony</s><r>В колонии</r></e>
+  <e k="K" key="RimMarket.StallSetupDemandTip"><s>Demand: {0}. Every sale of this lowers it, it comes back over a few days. Low demand means fewer and cheaper sales.</s><r>Спрос: {0}. Каждая продажа этого товара снижает его, он возвращается через несколько дней. Низкий спрос означает меньшее количество и более дешевые продажи.</r></e>
+  <e k="K" key="RimMarket.StallSetupDemandVte"><s>With Vanilla Trading Expanded, demand only changes how often it sells. The price follows VTE's market.</s><r>С Vanilla Trading Expanded спрос меняется только на частоту продаж. Цена соответствует рынку VTE.</r></e>
+  <e k="K" key="RimMarket.StallSetupDraw"><s>At these prices a group of shoppers comes about once every {0}, while the market is open in the daytime.</s><r>При таких ценах группа покупателей появляется примерно раз в {0}, а рынок открыт в дневное время.</r></e>
+  <e k="K" key="RimMarket.StallSetupDrawBargain"><s>Word of the bargains gets around: a group of shoppers comes about once every {0}, while the market is open in the daytime.</s><r>Слухи о выгодных покупках распространяются по всему миру: группа покупателей приходит раз в {0}, а рынок открыт в дневное время.</r></e>
+  <e k="K" key="RimMarket.StallSetupDrawDear"><s>At these prices word gets around slowly: a group of shoppers comes about once every {0}, while the market is open in the daytime.</s><r>Слухи о таких ценах распространяются медленно: группа покупателей приходит примерно раз в {0}, а рынок открыт в дневное время.</r></e>
+  <e k="K" key="RimMarket.StallSetupDrawOff"><s>Shoppers are switched off in the mod settings. Only Hospitality guests buy here.</s><r>Покупатели отключены в настройках мода. Здесь покупают только гости гостеприимства.</r></e>
+  <e k="K" key="RimMarket.StallSetupIntro"><s>Choose what goes on the counter, how many and at what price. Your haulers bring the goods over by themselves. A line stops once its count is sold, unless you tick Refill: then the stall keeps that many on the counter for good. Customers pay with their own silver; the dearer the article, the more of them walk on.</s><r>Выбирайте, что будет на прилавке, в каком количестве и по какой цене. Ваши грузчики привозят товар сами. Очередь останавливается, как только ее количество продано, если только вы не отметите «Пополнить»: тогда прилавок навсегда сохранит это количество на прилавке. Клиенты платят своим серебром; чем дороже статья, тем больше их ходит.</r></e>
+  <e k="K" key="RimMarket.StallSetupItem"><s>Article</s><r>Статья</r></e>
+  <e k="K" key="RimMarket.StallSetupNoneAround"><s>None on the map right now.</s><r>На карте сейчас нет.</r></e>
+  <e k="K" key="RimMarket.StallSetupNothing"><s>Nothing in the colony matches.</s><r>В колонии ничего не совпадает.</r></e>
+  <e k="K" key="RimMarket.StallSetupOnCounter"><s>On counter</s><r>На стойке</r></e>
+  <e k="K" key="RimMarket.StallSetupOnlyForSale"><s>Only what is for sale</s><r>Только то, что продается</r></e>
+  <e k="K" key="RimMarket.StallSetupPrice"><s>Price</s><r>Цена</r></e>
+  <e k="K" key="RimMarket.StallSetupPriceHeaderTip"><s>The asking price, as a share of the article's sell value. Like in vanilla, weapons sell for 20% of their worth and furniture for 70%. Shift: 25% at a time.</s><r>Запрашиваемая цена как доля от продажной стоимости товара. Как и в ванили, оружие продается за 20% от его стоимости, а мебель — за 70%. Смена: 25% за раз.</r></e>
+  <e k="K" key="RimMarket.StallSetupPriceTip"><s>{0} of its sell value: {1} silver each. At this price a customer who fancies it buys it {2} of the time.</s><r>{0} от его продажной стоимости: {1} серебра каждый. По этой цене покупатель, которому это нравится, покупает его в {2} случаях.</r></e>
+  <e k="K" key="RimMarket.StallSetupQuality"><s>Quality</s><r>Качество</r></e>
+  <e k="K" key="RimMarket.StallSetupQualityTip"><s>Only goods in this quality range go on the counter. Pick a range to get rid of your poor stuff, or to sell only the good things.</s><r>На прилавок поступает только товар данного качественного диапазона. Выберите ассортимент, чтобы избавиться от плохих вещей или продать только хорошие вещи.</r></e>
+  <e k="K" key="RimMarket.StallSetupRefill"><s>Refill</s><r>Пополнить</r></e>
+  <e k="K" key="RimMarket.StallSetupRefillTip"><s>Ticked: the stall keeps this many on the counter and your haulers bring more after every sale. The line never runs out.
+Unticked: it sells this many, then the line is done.</s><r>Помечено: в ларьке хранится столько-то товаров на прилавке, а ваши грузчики приносят еще больше после каждой продажи. Очередь никогда не заканчивается.
+Не отмечено: если продается столько, то очередь заканчивается.</r></e>
+  <e k="K" key="RimMarket.StallSetupReserve"><s>Keep home</s><r>Оставайся дома</r></e>
+  <e k="K" key="RimMarket.StallSetupReserveTip"><s>Your haulers stop bringing this to the stall once the colony is down to this many, so you never sell your last medicine. What is already on the counter stays for sale.
+
+Hold Shift for 10 at a time, Ctrl for 100.</s><r>Ваши грузчики перестанут приносить это в ларек, когда в колонии останется такое количество лекарств, поэтому вы никогда не продадите свое последнее лекарство. То, что уже есть на прилавке, остается на продажу.
+
+Удерживайте Shift для 10 одновременно, Ctrl для 100.</r></e>
+  <e k="K" key="RimMarket.StallSetupSummary"><s>{0} articles to sell across {1} lines, about {2} silver if it all goes.</s><r>{0} предметов для продажи по {1} линиям, около {2} серебра, если все получится.</r></e>
+  <e k="K" key="RimMarket.StallSetupSummaryNone"><s>Nothing for sale yet.</s><r>Пока ничего не продается.</r></e>
+  <e k="K" key="RimMarket.StallSetupTitle"><s>{0}: sales table</s><r>{0}: таблица продаж</r></e>
+  <e k="K" key="RimMarket.StallSetupToSell"><s>To sell</s><r>Продать</r></e>
+  <e k="K" key="RimMarket.StallShare"><s>Share collected: {0} silver ({1} owed)</s><r>Собранная доля: {0} серебра ({1} задолженность)</r></e>
+  <e k="K" key="RimMarket.StallTaken"><s>{0} of {1} ({2})</s><r>{0} из {1} ({2})</r></e>
+  <e k="K" key="RimMarket.StallTimeLeft"><s>Packs up in {0} hours</s><r>Собирается за {0} часов.</r></e>
+  <e k="K" key="RimMarket.StallUnreachable"><s>Merchants cannot reach the merchant's spot from the map edge</s><r>Торговцы не могут добраться до места торговца с края карты.</r></e>
+  <e k="K" key="RimMarket.StallWatch"><s>On watch: {0}</s><r>На часах: {0}</r></e>
+  <e k="K" key="RimMarket.SwapSideBusy"><s>A merchant is using this stall</s><r>Торговец использует этот киоск</r></e>
+  <e k="K" key="RimMarket.SwapSideDesc"><s>Move the merchant's spot to the other end of the stall.</s><r>Переместите место торговца в другой конец прилавка.</r></e>
+  <e k="K" key="RimMarket.SwapSideLabel"><s>Swap side</s><r>Поменять сторону</r></e>
+  <e k="K" key="RimMarket.TackleIncapable"><s>{0} is incapable of violence</s><r>{0} не способен на насилие</r></e>
+  <e k="K" key="RimMarket.TackleThief"><s>Tackle {0}</s><r>Снасти {0}</r></e>
+  <e k="K" key="RimMarket.TakingsBought"><s>you bought {0} silver of goods</s><r>вы купили {0} серебра товара</r></e>
+  <e k="K" key="RimMarket.TakingsFees"><s>the market collected {0} in fees</s><r>рынок собрал {0} комиссий</r></e>
+  <e k="K" key="RimMarket.TakingsGuests"><s>guests spent {0}</s><r>гости потратили {0}</r></e>
+  <e k="K" key="RimMarket.TakingsInn"><s>the inn earned {0}</s><r>гостиница заработала {0}</r></e>
+  <e k="K" key="RimMarket.TakingsLine"><s>Takings: {0}.</s><r>Выручка: {0}.</r></e>
+  <e k="K" key="RimMarket.TakingsNone"><s>No business done.</s><r>Никаких дел не сделано.</r></e>
+  <e k="K" key="RimMarket.TakingsSold"><s>you sold them {0} silver worth</s><r>ты продал их на {0} серебра</r></e>
+  <e k="K" key="RimMarket.TradeGizmoDesc"><s>Send a colonist to the counter to trade with {0}.</s><r>Отправьте колониста к прилавку, чтобы торговать с {0}.</r></e>
+  <e k="K" key="RimMarket.TradeGizmoLabel"><s>Trade</s><r>Торговля</r></e>
+  <e k="K" key="RimMarket.TradeNotNow"><s>{0} can't trade right now: {1}.</s><r>{0} сейчас не может торговать: {1}.</r></e>
+  <e k="K" key="RimMarket.TradeWhyAsleep"><s>asleep, come back when they wake up</s><r>спит, вернись, когда они проснутся</r></e>
+  <e k="K" key="RimMarket.TradeWhyBusy"><s>busy with something else, try again in a moment</s><r>занят чем-то другим, повторите попытку через минуту</r></e>
+  <e k="K" key="RimMarket.TradeWhyGone"><s>gone</s><r>ушел</r></e>
+  <e k="K" key="RimMarket.TradeWhyLeaving"><s>packing up to leave</s><r>собираемся, чтобы уйти</r></e>
+  <e k="K" key="RimMarket.TradeWhyUnwell"><s>not in a fit state</s><r>не в пригодном состоянии</r></e>
+  <e k="K" key="RimMarket.TraderBusy"><s>the merchant is not trading right now</s><r>продавец сейчас не торгует</r></e>
+  <e k="K" key="RimMarket.TradingControlNote"><s>A Trading Control spot is on this map: caravans wait there until a stall is free.</s><r>На этой карте находится точка торгового контроля: караваны ждут там, пока не освободится прилавок.</r></e>
+  <e k="K" key="RimMarket.VerdictGrumbling"><s>grumbling</s><r>ворчание</r></e>
+  <e k="K" key="RimMarket.VerdictNeutral"><s>without a word</s><r>без слов</r></e>
+  <e k="K" key="RimMarket.VerdictPleased"><s>with a smile</s><r>с улыбкой</r></e>
+  <e k="K" key="RimMarket.WaitMarketFull"><s>the market has reached its merchant limit (mod settings)</s><r>рынок достиг своего торгового лимита (настройки мода)</r></e>
+  <e k="K" key="RimMarket.WaitNoFreeStall"><s>every stall is taken</s><r>каждый киоск занят</r></e>
+  <e k="K" key="RimMarket.WaitUnreachable"><s>the free stalls are out of their reach</s><r>бесплатные киоски вне их досягаемости</r></e>
+  <e k="K" key="RimMarket.WantedAccept"><s>Accept</s><r>Принимать</r></e>
+  <e k="K" key="RimMarket.WantedAccepted"><s>You accepted the offer from {0}. The goods leave {1} shortly.</s><r>Вы приняли предложение от {0}. Товар покинет {1} в ближайшее время.</r></e>
+  <e k="K" key="RimMarket.WantedAlreadyOut"><s>a notice is already out</s><r>уведомление уже вышло</r></e>
+  <e k="K" key="RimMarket.WantedBarterFailedLabel"><s>Barter fell through</s><r>Бартер провалился</r></e>
+  <e k="K" key="RimMarket.WantedBarterFailedText"><s>{0} came for {1}, or {2} silver, and found neither. They keep your goods and remember the trip.</s><r>{0} пришел за серебром {1} или {2} и не нашел ни того, ни другого. Они сохранят ваши товары и помнят поездку.</r></e>
+  <e k="K" key="RimMarket.WantedBarterMissing"><s>You do not have it in storage right now.</s><r>У вас его сейчас нет на складе.</r></e>
+  <e k="K" key="RimMarket.WantedBarterSilver"><s>The barter goods were gone, so {0} took {1} silver instead.</s><r>Бартерные товары пропали, поэтому {0} взял вместо них {1} серебра.</r></e>
+  <e k="K" key="RimMarket.WantedBarterTaken"><s>{0} collected the barter: {1}.</s><r>{0} собрал бартер: {1}.</r></e>
+  <e k="K" key="RimMarket.WantedBarterWord"><s>a barter</s><r>бартер</r></e>
+  <e k="K" key="RimMarket.WantedBoardHead"><s>You asked for: {0}.</s><r>Вы просили: {0}.</r></e>
+  <e k="K" key="RimMarket.WantedBoardNone"><s>No offers yet. Towns take their time.</s><r>Пока предложений нет. Города не торопятся.</r></e>
+  <e k="K" key="RimMarket.WantedBoardTitle"><s>Offers on your wanted notice</s><r>Предложения по вашему запросу</r></e>
+  <e k="K" key="RimMarket.WantedBoardWaiting"><s>More answers may still come.</s><r>Возможно, еще появятся новые ответы.</r></e>
+  <e k="K" key="RimMarket.WantedCallBoard"><s>See your wanted notice</s><r>Посмотрите уведомление о розыске</r></e>
+  <e k="K" key="RimMarket.WantedCallInfo"><s>Ask every friendly town for something specific and see who answers.</s><r>Спросите в каждом дружественном городе что-то конкретное и посмотрите, кто ответит.</r></e>
+  <e k="K" key="RimMarket.WantedCallLabel"><s>Post a wanted notice</s><r>Опубликовать объявление о розыске</r></e>
+  <e k="K" key="RimMarket.WantedClosed"><s>Your wanted notice has run its course.</s><r>Ваше уведомление о розыске истекло.</r></e>
+  <e k="K" key="RimMarket.WantedCountTip"><s>Type an amount, then press Enter or click elsewhere. The buttons go faster with Shift (10 at a time) or Ctrl (100 at a time).</s><r>Введите сумму, затем нажмите Enter или щелкните в другом месте. Кнопки работают быстрее с помощью Shift (10 за раз) или Ctrl (100 за раз).</r></e>
+  <e k="K" key="RimMarket.WantedDisabled"><s>special orders are turned off in the settings</s><r>специальные заказы отключены в настройках</r></e>
+  <e k="K" key="RimMarket.WantedExpires"><s>Offer stands for {0}.</s><r>Предложение означает {0}.</r></e>
+  <e k="K" key="RimMarket.WantedHaggle"><s>Haggle</s><r>Торговаться</r></e>
+  <e k="K" key="RimMarket.WantedHaggleAsk"><s>{0} off ({1} chance)</s><r>{0} выкл. ({1} шанс)</r></e>
+  <e k="K" key="RimMarket.WantedHaggleAskRisky"><s>{0} off ({1} chance, they may walk away if it fails)</s><r>{0} выкл. (шанс {1}, они могут уйти, если не получится)</r></e>
+  <e k="K" key="RimMarket.WantedHaggleAskSure"><s>{0} off ({1} chance, they walk away if it fails)</s><r>{0} выкл. (шанс {1}, они уйдут, если не получится)</r></e>
+  <e k="K" key="RimMarket.WantedHaggleDesc"><s>{0}, your best talker, haggles over this offer. One try per offer. Ask for a little and they may say no, ask for too much and they may take the offer back.</s><r>{0}, ваш лучший собеседник, торгуется по поводу этого предложения. Одна попытка на одно предложение. Попросите немного, и они могут сказать «нет», попросите слишком много, и они могут отозвать предложение.</r></e>
+  <e k="K" key="RimMarket.WantedHaggleDone"><s>Already haggled over this offer.</s><r>Уже торговался по этому предложению.</r></e>
+  <e k="K" key="RimMarket.WantedHaggleMenu"><s>{0} asks for</s><r>{0} просит</r></e>
+  <e k="K" key="RimMarket.WantedHaggleNoOne"><s>None of your colonists here can negotiate.</s><r>Никто из ваших колонистов здесь не может вести переговоры.</r></e>
+  <e k="K" key="RimMarket.WantedHaggleRefused"><s>{0} won't budge. The offer stands as it was.</s><r>{0} не сдвинется с места. Предложение остается в силе.</r></e>
+  <e k="K" key="RimMarket.WantedHaggleWalked"><s>{0} took offence and withdrew the offer.</s><r>{0} обиделся и отозвал предложение.</r></e>
+  <e k="K" key="RimMarket.WantedHaggleWon"><s>{0} talked {1} down. The offer is now {2} silver.</s><r>{0} отговорил {1}. Цена предложения теперь составляет {2} серебра.</r></e>
+  <e k="K" key="RimMarket.WantedHaggleWonBarter"><s>{0} talked {1} down. They ask for less in trade.</s><r>{0} отговорил {1}. Они просят меньше в торговле.</r></e>
+  <e k="K" key="RimMarket.WantedHandedOverLabel"><s>Order handed over</s><r>Заказ передан</r></e>
+  <e k="K" key="RimMarket.WantedHandedOverText"><s>{0} handed over your goods next to their stall: {1}.
+
+They are yours now. Your haulers will put them away, or you can jump to them from this letter.</s><r>{0} передал ваши товары рядом со своим прилавком: {1}.
+
+Теперь они ваши. Ваши грузчики их уберут, или вы можете прыгнуть к ним из этого письма.</r></e>
+  <e k="K" key="RimMarket.WantedNobody"><s>Nobody seems interested in your notice. Try other goods, or make some friends first.</s><r>Кажется, никто не заинтересован в вашем уведомлении. Попробуйте другие товары или сначала заведите друзей.</r></e>
+  <e k="K" key="RimMarket.WantedOfferIn"><s>{0} answered your wanted notice: {1}.</s><r>{0} ответил на ваше объявление о розыске: {1}.</r></e>
+  <e k="K" key="RimMarket.WantedOfferTitle"><s>{0}, from {1}. Here in about {2}. {3}</s><r>{0}, от {1}. Здесь примерно через {2}. {3}</r></e>
+  <e k="K" key="RimMarket.WantedPartial"><s>(only part of what you asked)</s><r>(только часть того, что вы спросили)</r></e>
+  <e k="K" key="RimMarket.WantedPayBarter"><s>Barter: they want {0}, collected when they arrive. If it is gone by then, {1} silver instead.</s><r>Бартер: они хотят {0}, которые можно получить по прибытии. Если к тому времени оно исчезнет, ​​вместо него будет {1} серебра.</r></e>
+  <e k="K" key="RimMarket.WantedPaySilver"><s>Price: {0} silver, paid now.</s><r>Цена: {0} серебра, выплачено сейчас.</r></e>
+  <e k="K" key="RimMarket.WantedPost"><s>Post the notice</s><r>Опубликовать уведомление</r></e>
+  <e k="K" key="RimMarket.WantedPosted"><s>Your wanted notice is out. Offers should trickle in over the next few days.</s><r>Уведомление о розыске вышло. Предложения должны поступить в течение следующих нескольких дней.</r></e>
+  <e k="K" key="RimMarket.WantedSilverWord"><s>{0} silver</s><r>{0} серебро</r></e>
+  <e k="K" key="RimMarket.WantedTownGone"><s>Their town is gone.</s><r>Их город исчез.</r></e>
+  <e k="K" key="RimMarket.WantedWindowIntro"><s>Name exactly what you want, up to {0} different goods. The notice goes to every town that is not at war with you. Over the next few days some of them answer with an offer: a price, a delay, sometimes only part of the lot, and now and then a barter instead of silver.
+
+Offers usually cost the trip plus a good share of the goods' value, less if they like you. The offer pays for the goods: when the caravan arrives, they are yours.</s><r>Назовите именно то, что вы хотите, до {0} разных товаров. Уведомление отправится в каждый город, который не находится с вами в состоянии войны. В течение следующих нескольких дней некоторые из них отвечают предложением: цена, отсрочка, иногда только часть лота, а иногда и бартер вместо серебра.
+
+Предложения обычно обходятся в стоимость поездки плюс хорошую долю стоимости товара, а то и меньше, если вы им нравитесь. Предложение оплачивает товары: когда караван приедет, они ваши.</r></e>
+  <e k="K" key="RimMarket.WantedWindowTitle"><s>Wanted notice</s><r>Требуется уведомление</r></e>
+  <e k="K" key="RimMarket.WantedWithdraw"><s>Take the notice down</s><r>Удалить уведомление</r></e>
+  <e k="K" key="RimMarket.WantedWithdrawConfirm"><s>Take the notice down? Every offer on it is dropped.</s><r>Убрать уведомление? Все предложения по нему отбрасываются.</r></e>
+</AutoTranslateCache>
