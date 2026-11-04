@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="lazyfridaystudio.uirethemed.inspectortabs" name="[LFS] UI Rethemed - Inspector Tabs" language="Russian" version="1">
+  <e k="D" t="GearStatDef" key="UIRethemedInspectorTabs_Stat_Melee.description"><s>Damage per second in melee, counting how often this colonist hits.</s><r>Урон в секунду в ближнем бою с учетом того, как часто этот колонист наносит удары.</r></e>
+  <e k="D" t="GearStatDef" key="UIRethemedInspectorTabs_Stat_Melee.label"><s>melee</s><r>ближний бой</r></e>
+  <e k="D" t="GearStatDef" key="UIRethemedInspectorTabs_Stat_Range.description"><s>How many tiles away the equipped weapon can fire.</s><r>На сколько клеток может стрелять экипированное оружие.</r></e>
+  <e k="D" t="GearStatDef" key="UIRethemedInspectorTabs_Stat_Range.label"><s>range</s><r>диапазон</r></e>
+  <e k="D" t="GearStatDef" key="UIRethemedInspectorTabs_Stat_Ranged.description"><s>Damage per second if every shot hits, from the weapon's damage, burst, aiming and cooldown. Accuracy and distance aren't counted.</s><r>Урон в секунду при попадании каждого выстрела, от урона оружия, взрыва, прицеливания и времени восстановления. Точность и расстояние не учитываются.</r></e>
+  <e k="D" t="GearStatDef" key="UIRethemedInspectorTabs_Stat_Ranged.label"><s>ranged</s><r>дальнего боя</r></e>
+  <e k="D" t="JobDef" key="UIRethemedInspectorTabs_StripGear.reportString"><s>stripping TargetA.</s><r>зачистка TargetA.</r></e>
+  <e k="D" t="SidearmsDef" key="DualWield.label"><s>off-hand</s><r>небрежный</r></e>
+  <e k="D" t="WorkGiverDef" key="UIRethemedInspectorTabs_StripGear.gerund"><s>stripping</s><r>зачистка</r></e>
+  <e k="D" t="WorkGiverDef" key="UIRethemedInspectorTabs_StripGear.label"><s>strip gear</s><r>раздеть шестерню</r></e>
+  <e k="D" t="WorkGiverDef" key="UIRethemedInspectorTabs_StripGear.verb"><s>strip</s><r>полоска</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Bio_Ability"><s>Ability</s><r>Способность</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Bio_Age"><s>Age</s><r>Возраст</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Bio_AndMore"><s>and {0} more</s><r>и еще {0}</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Bio_Backstory"><s>Backstory</s><r>Предыстория</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Bio_Banish"><s>Banish</s><r>Изгнать</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Bio_ClickToViewGenes"><s>Click to view genes</s><r>Нажмите, чтобы просмотреть гены</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Bio_FavoriteColor"><s>Favorite color</s><r>Любимый цвет</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Bio_Genes"><s>Active genes</s><r>Активные гены</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Bio_Guilty"><s>Guilty</s><r>Виновный</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Bio_MaxLevel"><s>Level {0}  ·  max</s><r>Уровень {0} · макс.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Bio_Memes"><s>Memes</s><r>Мемы</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Bio_NextLevel"><s>Level {0}  ›  {1}</s><r>Уровень {0} › {1}</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Bio_NoWork"><s>No {0}</s><r>Нет {0}</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Bio_Quest"><s>Quest</s><r>Квест</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Bio_Relation"><s>Relation</s><r>Связь</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Bio_Relations"><s>Relations</s><r>Отношения</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Bio_RenameDesc"><s>Give {PAWN_nameDef} a new name.</s><r>Дайте {PAWN_nameDef} новое имя.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Bio_RenounceDesc"><s>Give up one of {PAWN_nameDef}'s royal titles.</s><r>Откажитесь от одного из королевских титулов {PAWN_nameDef}.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Bio_RowLevel"><s>Level {0}</s><r>Уровень {0}</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Bio_SkillLevel"><s>Level {0}  ·  {1}</s><r>Уровень {0} · {1}</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Bio_Skills"><s>Skills</s><r>Навыки</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Bio_Trait"><s>Trait</s><r>Черта</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Bio_TraitFromGene"><s>Trait from gene: {0}</s><r>Признак от гена: {0}</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Bio_TraitSuppressed"><s>Trait (suppressed)</s><r>Черта (подавлена)</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Card_Details"><s>Details</s><r>Подробности</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_ActionsFor"><s>Gear for {0}</s><r>Снаряжение для {0}</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Biocoded"><s>Biocoded: only its owner can use it.</s><r>Биокодирован: использовать его может только его владелец.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_CannotManipulate"><s>{0} can't hold anything.</s><r>{0} ничего не может удерживать.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_AlsoCovers"><s>Also covers the {0} slot</s><r>Также охватывает слот {0}.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_ArmorPenetration"><s>Armor penetration</s><r>Бронепробитие</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_Breakdown"><s>Breakdown</s><r>Авария</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_Burst"><s>Burst</s><r>Лопаться</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_ByBodyPart"><s>By body part</s><r>По части тела</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_ByItem"><s>{0} by item</s><r>{0} по предмету</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_Capacity"><s>Capacity</s><r>Емкость</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_Carried"><s>Carried</s><r>Унесенный</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_Combat"><s>Combat</s><r>Бой</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_Damage"><s>Damage</s><r>Повреждать</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_DamagePerHit"><s>Damage per hit</s><r>Урон за удар</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_DamagePerShot"><s>Damage per shot</s><r>Урон за выстрел</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_Details"><s>Details</s><r>Подробности</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_Effects"><s>While worn</s><r>Во время ношения</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_FreeSpace"><s>Free space</s><r>Свободное место</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_FullCycle"><s>Time between bursts</s><r>Время между всплесками</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_GearMass"><s>Worn and equipped</s><r>Изношенный и оборудованный</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_Heaviest"><s>Heaviest items</s><r>Самые тяжелые предметы</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_Load"><s>Load</s><r>Нагрузка</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_LoadEffects"><s>Effects of the load</s><r>Последствия нагрузки</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_LoadedAmmo"><s>Loaded</s><r>Загружено</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_Magazine"><s>Magazine</s><r>Журнал</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_Natural"><s>Natural armor</s><r>Натуральная броня</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_NoArmor"><s>Nothing worn protects against this.</s><r>Ничто изношенное от этого не защищает.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_OtherSources"><s>Traits, genes and health</s><r>Характер, гены и здоровье</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_Overall"><s>Overall {0}</s><r>Всего {0}</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_PerSecond"><s>{0} damage per second</s><r>{0} урона в секунду</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_Protection"><s>Protection</s><r>Защита</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_Range"><s>Range</s><r>Диапазон</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_RangedDps"><s>Damage per second</s><r>Урон в секунду</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_Seconds"><s>{0} s</s><r>{0} с</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_Sources"><s>Sources</s><r>Источники</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_SpareAmmo"><s>Spare ammo</s><r>Запасные патроны</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_Tiles"><s>{0} tiles</s><r>{0} плитки</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_TimeBetweenHits"><s>Time between hits</s><r>Время между попаданиями</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_Warmup"><s>Aim time</s><r>Время прицеливания</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Card_WornOn"><s>Worn on</s><r>Носится</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_ClickForOptions"><s>Click for options</s><r>Нажмите, чтобы увидеть варианты</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Compare"><s>Compare with equipped</s><r>Сравнить с оборудованным</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_CompareHeld"><s>Equipped</s><r>Оборудовано</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_CompareOther"><s>Comparing</s><r>Сравнивая</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_CompareTitle"><s>Compare gear</s><r>Сравнить снаряжение</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_CompareWith"><s>Compare with {0}</s><r>Сравните с {0}</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_CompareWorn"><s>Worn</s><r>Изношенный</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_EmptySlot"><s>{0}: empty</s><r>{0}: пусто</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Force"><s>Force wear</s><r>Принудительный износ</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_ForceAll"><s>Force all worn</s><r>Сила все изношена</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_ForceNothing"><s>Nothing to change.</s><r>Ничего не изменить.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Info"><s>Info</s><r>Информация</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_List"><s>List</s><r>Список</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_ListTip"><s>Show gear as a list instead of around the portrait.</s><r>Покажите снаряжение в виде списка, а не вокруг портрета.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_LodgerKeepsGear"><s>Quest guests keep the gear they came with.</s><r>Квестовые гости сохраняют снаряжение, с которым пришли.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Mass"><s>{0} / {1} kg</s><r>{0} / {1} кг</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_MoreSidearms"><s>{0} more carried</s><r>{0} больше везут</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_NotYourColonist"><s>Only your own colonists can be given this.</s><r>Это можно получить только вашим собственным колонистам.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Overview"><s>Overview</s><r>Обзор</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Portrait"><s>Portrait</s><r>Портрет</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_RightClickForActions"><s>Right-click for gear actions</s><r>Щелкните правой кнопкой мыши для действий с шестерней.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_RightClickForOptions"><s>Right-click for options</s><r>Щелкните правой кнопкой мыши, чтобы просмотреть параметры.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Rotate"><s>Rotate portrait</s><r>Поворот портрета</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Slot_Belt"><s>Belt</s><r>Пояс</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Slot_Extra"><s>Extra</s><r>Дополнительный</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Slot_Face"><s>Face</s><r>Лицо</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Slot_Feet"><s>Feet</s><r>Ноги</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Slot_Hands"><s>Hands</s><r>Руки</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Slot_Head"><s>Head</s><r>Голова</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Slot_Legs"><s>Legs</s><r>Ноги</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Slot_Middle"><s>Middle</s><r>Середина</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Slot_Outer"><s>Outer</s><r>Внешний</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Slot_Primary"><s>Weapon</s><r>Оружие</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Slot_Shirt"><s>Shirt</s><r>Рубашка</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Slot_Sidearm"><s>Sidearm</s><r>Пистолет</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Status_Biocoded"><s>Biocoded</s><r>Биокодированный</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Status_Brawler"><s>Brawler</s><r>Скандалист</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Status_Forced"><s>Forced</s><r>Принужденный</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Status_Locked"><s>Locked</s><r>Заблокировано</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Status_Lodger"><s>Quest gear</s><r>Квестовое снаряжение</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Status_Tainted"><s>Tainted</s><r>Испорченный</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Status_Torn"><s>Torn</s><r>Разорванный</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_StockCopy"><s>Copy these settings</s><r>Скопируйте эти настройки</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_StockFewer"><s>Keep one fewer</s><r>Держите на один меньше</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_StockMore"><s>Keep one more</s><r>Держи еще один</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_StockNothingCopied"><s>Copy another colonist's settings to paste them here</s><r>Скопируйте настройки другого колониста и вставьте их сюда.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_StripByColonist"><s>A colonist comes to take:</s><r>Колонист приходит забрать:</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_StripBySelf"><s>{0} takes these off and drops them:</s><r>{0} снимает их и бросает:</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_StripDamaged"><s>Strip damaged</s><r>Полоса повреждена</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_StripEverything"><s>Strip</s><r>Полоска</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_StripInventory"><s>Strip inventory</s><r>Раздеть инвентарь</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_StripNotAllowed"><s>Only your colonists, downed pawns, secure prisoners and corpses can be stripped.</s><r>Ограбить можно только ваших колонистов, поверженных пешек, заключенных и трупы.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_StripNotOnMap"><s>Only a pawn or corpse on the map can be stripped.</s><r>Ограбить можно только пешку или труп на карте.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_StripNothing"><s>Nothing to strip.</s><r>Нечего раздевать.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_StripOrdered"><s>Waiting for a colonist. Click to cancel.</s><r>Ждем колониста. Нажмите, чтобы отменить.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_StripTainted"><s>Strip tainted</s><r>Полоса испорчена</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_StripUntainted"><s>Strip untainted</s><r>Полоса незапятнанная</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_StripWeapons"><s>Strip weapons</s><r>Раздеть оружие</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_TakeOff"><s>Take off</s><r>Снимать</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_TakeOffByColonist"><s>A colonist comes and strips this one item.</s><r>Приходит колонист и снимает этот предмет.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_TakeOffStuck"><s>This can't be stripped.</s><r>Этого нельзя раздеть.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_TakeOffTip"><s>{0} takes this off and drops it.</s><r>{0} снимает это и бросает.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_ToggleHeadgear"><s>Show or hide headgear on the portrait.</s><r>Показать или скрыть головной убор на портрете.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Torn"><s>Worn down past half its durability: wearing it upsets colonists.</s><r>Изношен более чем наполовину: его ношение расстраивает колонистов.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Unarmed"><s>Unarmed</s><r>Безоружный</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_Unforce"><s>Stop forcing</s><r>Прекратите принуждать</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Gear_UnforceAll"><s>Stop forcing all</s><r>Хватит всех заставлять</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_AddOperation"><s>Add operation</s><r>Добавить операцию</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_Assumption"><s>Projected from the current immunity gain and severity change, assuming the current tending is kept up.</s><r>Прогнозируется с учетом текущего прироста иммунитета и изменения тяжести заболевания при условии сохранения текущего ухода.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_BleedSources"><s>Bleeding from</s><r>Кровотечение из</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_BloodLoss"><s>Blood loss</s><r>Потеря крови</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_Body"><s>Body</s><r>Тело</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_CannotDoctor"><s>Incapable of doctoring</s><r>Не способен к врачеванию</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_Capacities"><s>Capacities</s><r>Мощности</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_Care"><s>Care</s><r>Уход</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_ClickToChange"><s>Click to change.</s><r>Нажмите, чтобы изменить.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_ClickToQueue"><s>Click to queue this operation.</s><r>Нажмите, чтобы поставить эту операцию в очередь.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_ClickToToggle"><s>Click to turn on or off.</s><r>Нажмите, чтобы включить или выключить.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_Conditions"><s>Conditions</s><r>Условия</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_Coverage"><s>Coverage</s><r>Покрытие</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_Current"><s>Current</s><r>Текущий</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_DeathIn"><s>Death in</s><r>Смерть в</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_DoctorOff"><s>Doctoring is off</s><r>Лечение отключено</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_DoctorOffDetail"><s>Enable doctoring in the work tab, or self-tending will not happen.</s><r>Включите лечение на вкладке «Работа», иначе самообслуживания не произойдет.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_GoneIn"><s>Gone in</s><r>Ушел</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_ImmuneIn"><s>Immune in</s><r>Иммунитет в</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_ImmunityGain"><s>Immunity gain</s><r>Повышение иммунитета</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_Instances"><s>Instances</s><r>Экземпляры</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_KeepTended"><s>Keep it tended</s><r>Держите это в порядке</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_KeepTendedDetail"><s>Without tending it would become fatal before immunity is reached.</s><r>Без ухода это станет фатальным, прежде чем будет достигнут иммунитет.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_Level"><s>Level</s><r>Уровень</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_MedicineOrWorse"><s>{0} or worse</s><r>{0} или хуже</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_NeedsTending"><s>Needs tending</s><r>Требуется уход</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_NeedsTendingDetail"><s>It can be tended now. Good tending slows or reverses the severity.</s><r>Теперь за ним можно ухаживать. Хороший уход замедляет или обращает вспять тяжесть.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_NoOperations"><s>No operations queued.</s><r>Ни одна операция не поставлена ​​в очередь.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_Off"><s>Off</s><r>Выключенный</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_On"><s>On</s><r>На</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_OperationsFull"><s>No more than {0} operations can be queued.</s><r>В очередь можно поставить не более {0} операций.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_Outcome_Close"><s>Close call</s><r>Закрытие звонка</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_Outcome_Fatal"><s>Fatal at this rate</s><r>Фатально при таких темпах</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_Outcome_Recovering"><s>Recovering</s><r>Восстановление</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_Outcome_Stable"><s>Stable</s><r>Стабильный</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_Outcome_Survive"><s>Will survive</s><r>Выживет</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_Outcome_WillRecover"><s>Will recover</s><r>Выздоровеет</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_PainShockNote"><s>Pain past the pain shock threshold makes the pawn collapse.</s><r>Боль, превышающая порог болевого шока, приводит к коллапсу пешки.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_PainSources"><s>Sources</s><r>Источники</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_Part"><s>Body part</s><r>Часть тела</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_PartHealth"><s>Health</s><r>Здоровье</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_PeakSeverity"><s>Peak severity</s><r>Пик серьезности</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_PerDay"><s>{0}/day</s><r>{0}/день</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_Prognosis"><s>Prognosis</s><r>Прогноз</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_Queued"><s>Queued</s><r>В очереди</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_Requires"><s>Requires</s><r>Требует</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_RightClickForCare"><s>Right-click to set its care.</s><r>Щелкните правой кнопкой мыши, чтобы установить уход.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_Row_DeathIn"><s>death in {0}</s><r>смерть через {0}</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_Row_GoneIn"><s>gone in {0}</s><r>ушел через {0}</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_Row_ImmuneIn"><s>immune in {0}</s><r>иммунитет в {0}</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_Row_KeepTended"><s>keep tended</s><r>следить за</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_Row_NeedsTending"><s>needs tending</s><r>нуждается в уходе</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_SelfTendQuality"><s>Self-tend quality</s><r>Самостоятельное качество</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_Severity"><s>Severity</s><r>Серьезность</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_SeverityChange"><s>Severity change</s><r>Изменение серьезности</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_Skills"><s>Skills</s><r>Навыки</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_Suspended"><s>Suspended</s><r>Приостановленный</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_TendWearsOff"><s>Tending wears off in</s><r>Уход проходит через</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_TendedQuality"><s>Tended ({0})</s><r>Уход ({0})</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_Tending"><s>Tending</s><r>Уход</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_Unavailable"><s>Unavailable</s><r>Недоступно</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_Untended"><s>Untended</s><r>Без присмотра</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_ViewInLog"><s>Click to see what caused it in the combat log.</s><r>Нажмите, чтобы увидеть причину этого в журнале боя.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Health_Work"><s>Work</s><r>Работа</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_ModName"><s>UI Rethemed - Inspector Tabs</s><r>Обновление пользовательского интерфейса — вкладки инспектора</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Needs_BreakExtreme"><s>Extreme {0}</s><r>Крайний {0}</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Needs_BreakMajor"><s>Major {0}</s><r>Майор {0}</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Needs_BreakMinor"><s>Minor {0}</s><r>Минор {0}</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Needs_BreakThresholds"><s>Mental break thresholds</s><r>Пороги психического перерыва</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Needs_Current"><s>Current</s><r>Текущий</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Needs_Duration"><s>Duration</s><r>Продолжительность</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Needs_ExpiresIn"><s>Expires in</s><r>Срок действия истекает через</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Needs_Falling"><s>Falling</s><r>Падение</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Needs_FirstExpires"><s>First expires in</s><r>Срок действия первого истекает через</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Needs_FromPrecept"><s>From precept</s><r>Из заповеди</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Needs_Heading"><s>heading to {0}</s><r>направляюсь к {0}</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Needs_LastExpires"><s>Last expires in</s><r>Срок действия последнего истекает через</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Needs_LearningDesire"><s>Learning desire</s><r>Желание учиться</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Needs_Level"><s>Level</s><r>Уровень</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Needs_Minor"><s>Minor needs</s><r>Незначительные потребности</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Needs_MoodEffect"><s>Mood {0}</s><r>Настроение {0}</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Needs_Negative"><s>Negative</s><r>Отрицательный</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Needs_Positive"><s>Positive</s><r>Позитивный</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Needs_Rising"><s>Rising</s><r>Восходящий</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Needs_Stacked"><s>Stacked</s><r>Сложенный</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Needs_Target"><s>Heading to</s><r>Направляясь в</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Needs_Thoughts"><s>Thoughts</s><r>Мысли</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Needs_TotalMoodEffect"><s>Total mood effect</s><r>Общий эффект настроения</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Needs_TotalMoodEffectTip"><s>The sum of every thought's effect on mood. Mood drifts towards its base level plus this total.</s><r>Сумма влияния каждой мысли на настроение. Настроение приближается к своему базовому уровню плюс эта сумма.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Needs_Trend"><s>Trend</s><r>Тренд</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_OpenSettings"><s>Settings</s><r>Настройки</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_OpenSettingsTip"><s>Resize this tab, and choose what the tabs show.</s><r>Измените размер этой вкладки и выберите, что будет отображаться на вкладках.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Prisoner_Chosen"><s>Chosen</s><r>Избранный</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Prisoner_ClickToChoose"><s>Click to choose.</s><r>Нажмите, чтобы выбрать.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Prisoner_Guilty"><s>Guilty</s><r>Виновный</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Prisoner_Interaction"><s>Interaction</s><r>Взаимодействие</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Prisoner_NotChosen"><s>Not chosen</s><r>Не выбрано</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Prisoner_Now"><s>Now</s><r>Сейчас</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Prisoner_Ongoing"><s>Ongoing</s><r>Непрерывный</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Prisoner_OtherInteractions"><s>Other interactions</s><r>Другие взаимодействия</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Prisoner_ReadyToRecruit"><s>Ready to recruit</s><r>Готов принять на работу</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Prisoner_Rebelling"><s>Rebelling</s><r>Восстание</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Prisoner_Study"><s>Study</s><r>Изучать</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_Animations"><s>Animations</s><r>Анимации</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_AnimationsTip"><s>Title bars and selected slots show a slowly drifting hex pattern, bars fill in and slide to new levels, hover highlights and switches fade in and out, a line runs along each title bar as a tab opens, and hover cards and menus fade in with a line running out under their heading. Untick to keep everything still.</s><r>Строки заголовка и выбранные слоты представляют собой медленно перемещающийся шестигранный узор, полосы заполняются и перемещаются на новые уровни, подсветка при наведении курсора мыши и переключатели исчезают и появляются, линия проходит вдоль каждой строки заголовка при открытии вкладки, а при наведении курсора карты и меню исчезают, а линия заканчивается под их заголовком. Снимите флажок, чтобы все оставалось по-прежнему.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_CardBars"><s>Bars on hover cards</s><r>Полосы на карточках при наведении</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_CardBarsTip"><s>Hover cards in the Gear tab show bars under their numbers, to compare at a glance. Untick for the numbers on their own.</s><r>При наведении курсора мыши на вкладке «Снаряжение» под номерами отображаются полоски для быстрого сравнения. Снимите галочку с номеров самостоятельно.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_ColumnTip"><s>A column another mod adds to the {0} tab. Untick to leave it out, and the tab goes back to its usual width.</s><r>Столбец, который другой мод добавляет на вкладку {0}. Снимите флажок, чтобы оставить его, и вкладка вернется к своей обычной ширине.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_Columns"><s>Added columns (untick to leave one out)</s><r>Добавлены столбцы (снимите галочку, чтобы пропустить один)</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_CompareWeapons"><s>Compare gear</s><r>Сравнить снаряжение</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_CompareWeaponsTip"><s>Right-clicking another weapon or piece of apparel, in the Gear tab or on the map, offers comparing it with the weapon held or what it would replace, in a window of bars for both.</s><r>Щелчок правой кнопкой мыши по другому оружию или предмету одежды на вкладке «Снаряжение» или на карте предлагает сравнить его с имеющимся в наличии оружием или тем, чем оно могло бы заменить, в окне полос для обоих.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_Height"><s>Height: {0}</s><r>Высота: {0}</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_HeightTip"><s>How tall the tab is, as a share of its usual height. It never grows past the room above the inspect pane; shorter, its lists scroll.</s><r>Высота вкладки в процентах от ее обычной высоты. Он никогда не вырастает за пределы комнаты над смотровой панелью; короче, его списки прокручиваются.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_InventoryRows"><s>Inventory rows</s><r>Строки инвентаря</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_InventoryRowsTip"><s>How many rows of inventory slots the Gear tab shows under the portrait. The tab is as tall as they need; an inventory with more items than fit scrolls.</s><r>Сколько рядов слотов инвентаря показано на вкладке «Снаряжение» под портретом. Вкладка настолько высока, насколько им нужно; инвентарь с большим количеством предметов, чем помещается в свитках.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_LayerSlotTip"><s>A slot beside the paper doll for an apparel layer another mod adds. Untick to hide it: anything worn on that layer moves to the slot it would have without the mod, or beside the doll if that's taken. The tab's own slots always show.</s><r>Слот рядом с бумажной куклой для слоя одежды, который добавляет другой мод. Снимите флажок, чтобы скрыть его: все, что надето на этом слое, перемещается в слот, который у него был бы без мода, или рядом с куклой, если она занята. Собственные слоты вкладки всегда отображаются.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_LayerSlots"><s>Slots for modded apparel layers (untick to hide one)</s><r>Слоты для модифицированных слоев одежды (снимите флажок, чтобы скрыть один из них)</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_ModdedMedicine"><s>Modded medicine choices</s><r>Модифицированный выбор лекарств</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_ModdedMedicineTip"><s>The medicine menu also offers each medicine other mods add, as &quot;(medicine) or worse&quot;, in order of potency between vanilla's choices. Untick for vanilla's choices only: patients set to a modded medicine go back to industrial-tech medicine or worse, or herbal medicine or worse for weaker medicine.</s><r>Меню лекарств также предлагает каждое лекарство, которое добавляют другие моды, как «(лекарство) или хуже» в порядке эффективности между вариантами ванили. Снимите флажок только для выбора ванили: пациенты, получающие модифицированное лекарство, возвращаются к промышленной медицине или еще хуже, или к фитотерапии или еще хуже к более слабой медицине.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_NoLayerSlots"><s>None of your mods add apparel layers, so there are no extra slots.</s><r>Ни один из ваших модов не добавляет слои одежды, поэтому дополнительных слотов нет.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_Performance"><s>Performance</s><r>Производительность</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_ResetSize"><s>Reset size</s><r>Сбросить размер</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_SettingsGear"><s>Settings gear on tabs</s><r>Настройки на вкладках</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_SettingsGearTip"><s>Puts a gear by each tab's close button that opens these settings, ready to resize that tab. Untick to hide the gears; the settings are still in the game's mod settings.</s><r>Устанавливает шестеренку рядом с кнопкой закрытия каждой вкладки, которая открывает эти настройки и позволяет изменить размер этой вкладки. Снимите флажок, чтобы скрыть шестеренки; настройки все еще находятся в настройках мода игры.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_SizeOf"><s>Tab</s><r>Вкладка</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_SizeOfTip"><s>Which tab the sliders below resize. Each tab keeps its own size; the gear on a tab opens these settings with that tab picked.</s><r>Размер какой вкладки изменяют ползунки ниже. Каждая вкладка сохраняет свой размер; шестеренка на вкладке открывает эти настройки при выбранной вкладке.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_SkillLevels"><s>Skill level card</s><r>Карта уровня навыка</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_SkillLevelsTip"><s>Hovering a skill, or a skill row another mod adds (such as an expertise), also shows a card beside its hover card: the level as a track, and for each thing the skill affects its value now, at the next level and how far along it is. Untick for the hover card only.</s><r>При наведении курсора на навык или строку навыков, добавляемую другим модом (например, навык), рядом с картой наведения также отображается карта: уровень в виде дорожки, и для каждой вещи навык влияет на его значение сейчас, на следующем уровне и на том, как далеко он продвинулся. Снимите флажок только для карты наведения.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_Style"><s>Style</s><r>Стиль</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_TabRefresh"><s>Tab updates</s><r>Обновления вкладок</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_TabRefreshTip"><s>How often the open tab rebuilds what it shows: its lists, values and hover cards. Less often costs less each frame; anything you click in a tab still shows at once, and bars and animations stay smooth either way. Every frame is the most up to date and costs the most.</s><r>Как часто открытая вкладка перестраивает то, что показывает: свои списки, значения и карточки при наведении. Реже каждый кадр стоит меньше; все, что вы щелкаете на вкладке, по-прежнему отображается сразу, а полосы и анимация в любом случае остаются плавными. Каждый кадр является самым современным и стоит дороже всего.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_TabSize"><s>Tab size</s><r>Размер вкладки</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_Tabs"><s>Restyled tabs (untick to use the vanilla tab)</s><r>Изменён стиль вкладок (снимите флажок, чтобы использовать стандартную вкладку)</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_TakeOffButton"><s>Take off button on equipped slots</s><r>Кнопка взлета на оборудованных слотах</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_TakeOffButtonTip"><s>Show a small button in the corner of each slot with something equipped. A colonist takes it off and drops it; on a corpse or prisoner, a colonist comes and strips that one item.</s><r>Покажите маленькую кнопку в углу каждого слота, где что-то установлено. Колонист снимает его и роняет; к трупу или пленнику приходит колонист и снимает этот предмет.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_Width"><s>Width: {0}</s><r>Ширина: {0}</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Settings_WidthTip"><s>How wide the tab is, as a share of its usual width, never wider than the screen. The extra room goes to the part of the tab that has the most to show, such as the skills, the list or the right-hand column.</s><r>Ширина вкладки в процентах от ее обычной ширины, но не шире экрана. Дополнительное место отводится той части вкладки, которая больше всего отображается, например, навыкам, списку или правому столбцу.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Social_Agrees"><s>Agrees</s><r>Согласен</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Social_Certainty"><s>Certainty</s><r>Уверенность</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Social_Chance"><s>Chance</s><r>Шанс</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Social_ChooseRoleDisabled"><s>No role can be chosen: the ideoligion has no roles to give, or no role change ritual.</s><r>Ни одна роль не может быть выбрана: у идеологии нет ролей, которые она могла бы дать, или нет ритуала смены ролей.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Social_Clashes"><s>Clashes</s><r>Столкновения</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Social_ClickToSelect"><s>Click to select</s><r>Нажмите, чтобы выбрать</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Social_ClickToViewIdeo"><s>Click to view the ideoligion</s><r>Нажмите, чтобы просмотреть идеологию</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Social_ConversionFactors"><s>Conversion</s><r>Конверсия</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Social_Current"><s>Current</s><r>Текущий</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Social_Ideoligion"><s>Ideoligion</s><r>Идеолигия</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Social_Interactions"><s>Recent interactions</s><r>Недавние взаимодействия</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Social_NoRelations"><s>No known relations</s><r>Нет известных отношений</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Social_Opinion"><s>Opinion {0}</s><r>Мнение {0}</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Social_Relations"><s>Relations</s><r>Отношения</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Social_RoleActivation"><s>Activation</s><r>Активация</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Social_RoleHeldBy"><s>Held by {0}</s><r>Удерживается {0}</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Social_RoleTaken"><s>Taken</s><r>Взятый</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Social_RoleYours"><s>Assigned</s><r>Назначенный</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Social_TraitsAndMemes"><s>Traits and memes</s><r>Черты и мемы</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Social_TraitsAndMemesNote"><s>Agreeing traits make conversion attempts weaker; clashing traits make them stronger.</s><r>Согласование характеристик ослабляет попытки конверсии; столкновение черт делает их сильнее.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Social_Unavailable"><s>Unavailable</s><r>Недоступно</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_TabFailed"><s>The themed {0} hit a problem, so the vanilla tab is back until the game restarts: {1}</s><r>С тематическим {0} возникла проблема, поэтому ванильная вкладка вернулась до перезапуска игры: {1}</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_TabRefresh_Fast"><s>4 times a second</s><r>4 раза в секунду</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_TabRefresh_Live"><s>Every frame</s><r>Каждый кадр</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_TabRefresh_Normal"><s>Twice a second</s><r>Дважды в секунду</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_TabRefresh_Slow"><s>Once a second</s><r>Раз в секунду</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Training_BodySize"><s>Body size</s><r>Размер тела</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Training_ClickToChange"><s>Click to change.</s><r>Нажмите, чтобы изменить.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Training_ClickToToggle"><s>Click to turn on or off.</s><r>Нажмите, чтобы включить или выключить.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Training_ClickToTrain"><s>Click to turn training on or off. Drag across rows to set several.</s><r>Нажмите, чтобы включить или выключить тренировку. Перетаскивайте строки, чтобы установить несколько.</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Training_Learned"><s>Learned</s><r>Узнал</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Training_Needs"><s>Needs more trainability</s><r>Требуется больше обучаемости</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Training_NotLearned"><s>Not learned</s><r>Не изучен</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Training_NotTraining"><s>Not being trained</s><r>Не проходит обучение</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Training_Off"><s>Off</s><r>Выключенный</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Training_On"><s>On</s><r>На</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Training_Orders"><s>Orders</s><r>Заказы</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Training_Progress"><s>Progress</s><r>Прогресс</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Training_Requires"><s>Requires</s><r>Требует</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Training_Steps"><s>Steps</s><r>Шаги</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Training_Trainables"><s>Trainables</s><r>Обучаемые</r></e>
+  <e k="K" key="UIRethemedInspectorTabs_Training_Training"><s>Being trained</s><r>Обучение</r></e>
+</AutoTranslateCache>
