@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="anne.pawnleveling" name="成长之路 / Path of Growth" language="Russian" version="1">
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Combat_AimTime.description"><s>进阶节点。每级 -1%，上限 15 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Расширенные узлы. -1% за уровень, максимум 15. Применяется ко всем колонистам игроков (в состав могут входить животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Combat_AimTime.label"><s>瞄准时间</s><r>время цели</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Combat_Armor.description"><s>基础节点。每级 +0.02，上限 15 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Базовый узел. +0,02 за уровень, максимум 15. Применяется ко всем игрокам-колонистам (в состав могут включаться животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Combat_Armor.label"><s>全员护甲</s><r>Броня для всех</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Combat_Dodge.description"><s>进阶节点。每级 +2，上限 10 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Расширенные узлы. +2 за уровень, максимум 10. Применяется ко всем колонистам игроков (в состав могут входить животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Combat_Dodge.label"><s>近战闪避</s><r>уклонение в ближнем бою</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Combat_MeleeDamage.description"><s>终极节点。每级 +0.02，上限 10 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Конечный узел. +0,02 за уровень, максимум 10. Применяется ко всем игрокам-колонистам (в состав могут включаться животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Combat_MeleeDamage.label"><s>近战伤害</s><r>урон в ближнем бою</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Combat_MeleeHit.description"><s>基础节点。每级 +1，上限 20 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Базовый узел. +1 за уровень, максимум 20 уровней. Применяется ко всем колонистам игроков (в состав могут включаться животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Combat_MeleeHit.label"><s>近战命中</s><r>рукопашный удар</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Combat_RangedCD.description"><s>进阶节点。每级 -1%，上限 15 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Расширенные узлы. -1% за уровень, максимум 15. Применяется ко всем колонистам игроков (в состав могут входить животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Combat_RangedCD.label"><s>射击冷却</s><r>Время восстановления выстрела</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Combat_Shooting.description"><s>终极节点。每级 +1，上限 10 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Конечный узел. +1 за уровень, максимум 10 уровней. Применяется ко всем колонистам игроков (в состав могут включаться животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Combat_Shooting.label"><s>射击精度</s><r>точность стрельбы</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Combat_Soak.description"><s>进阶节点。每级 -0.5%，上限 10 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Расширенные узлы. -0,5% за уровень, максимум 10. Применяется ко всем колонистам игроков (в состав могут входить животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Combat_Soak.label"><s>承伤</s><r>медвежья травма</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Combat_Stagger.description"><s>基础节点。每级 -1%，上限 15 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Базовый узел. -1% за уровень, максимум 15. Применяется ко всем колонистам игроков (в состав могут входить животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Combat_Stagger.label"><s>抑止时间</s><r>Время ингибирования</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Combat_Trap.description"><s>基础节点。每级 -1%，上限 15 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Базовый узел. -1% за уровень, максимум 15. Применяется ко всем колонистам игроков (в состав могут входить животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Combat_Trap.label"><s>陷阱规避</s><r>Уклонение от ловушек</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Learning_Factor.description"><s>基础节点。每级 +1%，上限 10 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Базовый узел. +1% за уровень, максимум 10. Применяется ко всем колонистам игроков (в состав могут входить животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Learning_Factor.label"><s>全员学习</s><r>Все сотрудники учатся</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Mood_Break.description"><s>终极节点。每级 -1%，上限 10 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Конечный узел. -1% за уровень, максимум 10. Применяется ко всем колонистам игроков (в состав могут входить животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Mood_Break.label"><s>崩溃阈值</s><r>порог падения</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Mood_Entropy.description"><s>进阶节点。每级 +1，上限 15 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Расширенные узлы. +1 за уровень, максимум 15 уровней. Применяется ко всем колонистам игроков (в состав могут включаться животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Mood_Entropy.label"><s>心灵熵上限</s><r>Верхний предел ментальной энтропии</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Mood_Joy.description"><s>基础节点。每级 -1%，上限 15 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Базовый узел. -1% за уровень, максимум 15. Применяется ко всем колонистам игроков (в состав могут входить животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Mood_Joy.label"><s>娱乐消耗</s><r>потребление развлечений</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Mood_Rest.description"><s>基础节点。每级 +2%，上限 20 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Базовый узел. +2% за уровень, максимум 20. Применяется ко всем колонистам игроков (в состав могут входить животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Mood_Rest.label"><s>休息效率</s><r>эффективность отдыха</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Mood_Sleep.description"><s>进阶节点。每级 -1%，上限 15 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Расширенные узлы. -1% за уровень, максимум 15. Применяется ко всем колонистам игроков (в состав могут входить животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Mood_Sleep.label"><s>睡眠消耗</s><r>потребление сна</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Social_Animals.description"><s>进阶节点。每级 +2%，上限 15 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Расширенные узлы. +2% за уровень, максимум 15. Применяется ко всем колонистам игроков (в состав могут входить животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Social_Animals.label"><s>驯兽学习</s><r>Дрессировка и обучение животных</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Social_Impact.description"><s>基础节点。每级 +0.02，上限 20 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Базовый узел. +0,02 за уровень, максимум 20. Применяется ко всем игрокам-колонистам (в состав могут входить животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Social_Impact.label"><s>社交效果</s><r>социальный эффект</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Social_Negotiate.description"><s>进阶节点。每级 +1.5%，上限 15 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Расширенные узлы. +1,5% за уровень, максимум 15. Применяется ко всем колонистам игроков (в состав могут входить животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Social_Negotiate.label"><s>全员谈判</s><r>Переговоры между всеми сотрудниками</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Social_Tame.description"><s>基础节点。每级 +2%，上限 15 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Базовый узел. +2% за уровень, максимум 15. Применяется ко всем колонистам игроков (в состав могут входить животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Social_Tame.label"><s>全员驯服</s><r>Все участники приручены</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Social_Trade.description"><s>终极节点。每级 +0.02，上限 10 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Конечный узел. +0,02 за уровень, максимум 10. Применяется ко всем игрокам-колонистам (в состав могут включаться животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Social_Trade.label"><s>全员交易价</s><r>Цена транзакции для всех участников</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Survival_Carry.description"><s>基础节点。每级 +5，上限 20 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Базовый узел. +5 за уровень, максимум 20. Применяется ко всем колонистам игроков (в состав могут входить животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Survival_Carry.label"><s>全员负重</s><r>Все члены несут вес</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Survival_Cold.description"><s>基础节点。每级 -0.5，上限 15 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Базовый узел. -0,5 за уровень, максимум 15. Применяется ко всем колонистам игроков (в состав могут входить животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Survival_Cold.label"><s>耐寒</s><r>Холодостойкий</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Survival_Heal.description"><s>进阶节点。每级 +2%，上限 15 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Расширенные узлы. +2% за уровень, максимум 15. Применяется ко всем колонистам игроков (в состав могут входить животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Survival_Heal.label"><s>全员愈合</s><r>Все исцелились</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Survival_Heat.description"><s>基础节点。每级 +0.5，上限 15 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Базовый узел. +0,5 за уровень, максимум 15. Применяется ко всем колонистам игроков (в состав могут входить животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Survival_Heat.label"><s>耐热</s><r>термостойкий</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Survival_Immunity.description"><s>进阶节点。每级 +2%，上限 15 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Расширенные узлы. +2% за уровень, максимум 15. Применяется ко всем колонистам игроков (в состав могут входить животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Survival_Immunity.label"><s>全员免疫</s><r>Все люди привиты</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Survival_MoveSpeed.description"><s>终极节点。每级 +3%，上限 10 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Конечный узел. +3% за уровень, максимум 10. Применяется ко всем колонистам игроков (в состав могут входить животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Survival_MoveSpeed.label"><s>全员移速</s><r>Скорость передвижения всех участников</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Survival_Pain.description"><s>进阶节点。每级 +0.01，上限 15 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Расширенные узлы. +0,01 за уровень, максимум 15. Применяется ко всем игрокам-колонистам (в состав могут включаться животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Survival_Pain.label"><s>疼痛耐受</s><r>толерантность к боли</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Survival_Toxic.description"><s>基础节点。每级 +0.02，上限 15 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Базовый узел. +0,02 за уровень, максимум 15. Применяется ко всем игрокам-колонистам (в состав могут включаться животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Survival_Toxic.label"><s>毒素抗性</s><r>устойчивость к токсинам</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Work_Clean.description"><s>基础节点。每级 +3%，上限 15 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Базовый узел. +3% за уровень, максимум 15. Применяется ко всем колонистам игроков (в состав могут входить животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Work_Clean.label"><s>全员清洁</s><r>Уборка для всех</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Work_Construct.description"><s>基础节点。每级 +3%，上限 15 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Базовый узел. +3% за уровень, максимум 15. Применяется ко всем колонистам игроков (в состав могут входить животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Work_Construct.label"><s>全员建造</s><r>Построен всем персоналом</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Work_Cook.description"><s>进阶节点。每级 +0.05，上限 15 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Расширенные узлы. +0,05 за уровень, максимум 15. Применяется ко всем колонистам игроков (в состав могут входить животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Work_Cook.label"><s>全员烹饪</s><r>Готовим для всех</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Work_Global.description"><s>终极节点。每级 +2%，上限 10 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Конечный узел. +2% за уровень, максимум 10. Применяется ко всем колонистам игроков (в состав могут входить животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Work_Global.label"><s>全员工作速度</s><r>Скорость работы всех сотрудников</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Work_Medical.description"><s>进阶节点。每级 +3%，上限 15 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Расширенные узлы. +3% за уровень, максимум 15. Применяется ко всем колонистам игроков (в состав могут входить животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Work_Medical.label"><s>治疗速度</s><r>скорость лечения</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Work_Mining.description"><s>基础节点。每级 +3%，上限 15 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Базовый узел. +3% за уровень, максимум 15. Применяется ко всем колонистам игроков (в состав могут входить животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Work_Mining.label"><s>全员采矿</s><r>Майнинг для всех</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Work_Plant.description"><s>基础节点。每级 +3%，上限 15 级。作用到所有玩家方的殖民者（设置里可含动物与机械体）。</s><r>Базовый узел. +3% за уровень, максимум 15. Применяется ко всем колонистам игроков (в состав могут входить животные и машины).</r></e>
+  <e k="D" t="GlobalStatDef" key="Anne_GS_Work_Plant.label"><s>全员种植</s><r>Посадка всем персоналом</r></e>
+  <e k="D" t="HediffDef" key="Anne_RPGLevel.description"><s>这个角色在「成长之路」中积累的经验与等级。等级本身不会带来任何数值惩罚，只会提供技能点。</s><r>Опыт и уровень, накопленные данным персонажем на «Пути роста». Сами уровни не приносят никаких числовых штрафов, только очки навыков.</r></e>
+  <e k="D" t="HediffDef" key="Anne_RPGLevel.label"><s>成长等级</s><r>уровень роста</r></e>
+  <e k="D" t="LevelCategoryDef" key="Anne_LC_Agility.description"><s>移动速度、近战出手频率、闪避与摆脱陷阱。短跑、追击、撤退都靠它。</s><r>Скорость передвижения, частота атак в ближнем бою, уклонение и выход из ловушек. От этого зависят спринт, преследование и отступление.</r></e>
+  <e k="D" t="LevelCategoryDef" key="Anne_LC_Agility.label"><s>敏捷</s><r>гибкий</r></e>
+  <e k="D" t="LevelCategoryDef" key="Anne_LC_Capacity.description"><s>意识、移动、操作、语言、视觉、听觉、进食、血液过滤、呼吸、血液循环与消化。按百分比整体提升，健康页签里能直接看到。</s><r>Осознание, движение, действия, язык, зрение, слух, питание, фильтрация крови, дыхание, кровообращение и пищеварение. Общее улучшение основано на процентном соотношении, которое можно увидеть непосредственно на вкладке «Здоровье».</r></e>
+  <e k="D" t="LevelCategoryDef" key="Anne_LC_Capacity.label"><s>生理能力</s><r>физиологическая способность</r></e>
+  <e k="D" t="LevelCategoryDef" key="Anne_LC_Constitution.description"><s>承伤、愈合、抗痛、耐温、毒素抗性与免疫。最能「活得久」的一列，但每级投入更贵、上限更低。</s><r>Толерантность к ранам, заживление, устойчивость к боли, устойчивость к температуре, устойчивость к токсинам и иммунитет. Колонка, которая лучше всего может «прожить дольше», но вложения за уровень дороже, а верхний предел ниже.</r></e>
+  <e k="D" t="LevelCategoryDef" key="Anne_LC_Constitution.label"><s>体质</s><r>конституция</r></e>
+  <e k="D" t="LevelCategoryDef" key="Anne_LC_Intellect.description"><s>学习速度、研究速度、阅读与调查。全局成长快慢由这一列决定。</s><r>Скорость обучения, скорость исследования, чтения и расследования. Общий темп роста определяется этим столбцом.</r></e>
+  <e k="D" t="LevelCategoryDef" key="Anne_LC_Intellect.label"><s>智力</s><r>интеллект</r></e>
+  <e k="D" t="LevelCategoryDef" key="Anne_LC_Labor.description"><s>清洁、屠宰、远行、觅食、骇入、驾驶这些后勤向的能力。它们不直接打架，但决定殖民地转得顺不顺。</s><r>Способность убирать, забивать, путешествовать, добывать корм, рубить и водить машину. Они не воюют напрямую, но решают, будет ли жизнь в колонии гладкой или нет.</r></e>
+  <e k="D" t="LevelCategoryDef" key="Anne_LC_Labor.label"><s>劳作</s><r>работа</r></e>
+  <e k="D" t="LevelCategoryDef" key="Anne_LC_Mech.description"><s>机械带宽、维修、培育与子核编码。只有带机械师接口的角色才会看到这一类，别人看不到也买不了。</s><r>Механическая пропускная способность, обслуживание, обработка и подядерное кодирование. Эту категорию увидят только персонажи с механическим интерфейсом, другие не смогут ее увидеть и купить.</r></e>
+  <e k="D" t="LevelCategoryDef" key="Anne_LC_Mech.label"><s>机械师</s><r>механик</r></e>
+  <e k="D" t="LevelCategoryDef" key="Anne_LC_Perception.description"><s>射击精度、远程射速、瞄准、迫击炮准头与狩猎隐蔽。远程角色的主战场。</s><r>Точность стрельбы, дальняя скорострельность, прицеливание, точность миномета и скрытность охоты. Основное поле боя для удаленных персонажей.</r></e>
+  <e k="D" t="LevelCategoryDef" key="Anne_LC_Perception.label"><s>感知</s><r>Восприятие</r></e>
+  <e k="D" t="LevelCategoryDef" key="Anne_LC_Social.description"><s>交易价格、谈判、魅力、拘捕、教化与压制。管钱、管人、管信仰。</s><r>Цена сделки, переговоры, обаяние, арест, идеологическая обработка и подавление. Управляйте деньгами, людьми и убеждениями.</r></e>
+  <e k="D" t="LevelCategoryDef" key="Anne_LC_Social.label"><s>社交</s><r>социальный контакт</r></e>
+  <e k="D" t="LevelCategoryDef" key="Anne_LC_Strength.description"><s>负重、近战伤害、破甲与近战命中。想让角色扛得多、砍得痛，就往这里投点。</s><r>Перенос веса, урон в ближнем бою, пробитие брони и удары в ближнем бою. Если вы хотите, чтобы персонаж нес больше и раны были болезненными, поставьте здесь несколько баллов.</r></e>
+  <e k="D" t="LevelCategoryDef" key="Anne_LC_Strength.label"><s>力量</s><r>сила</r></e>
+  <e k="D" t="LevelCategoryDef" key="Anne_LC_Will.description"><s>崩溃临界、休息与娱乐的下降速度，以及灵能熵与信仰动摇。长期稳定的根基。</s><r>Пороги разрушения, снижение уровня отдыха и развлечений, психическая энтропия и пошатнувшаяся вера. Основа долгосрочной стабильности.</r></e>
+  <e k="D" t="LevelCategoryDef" key="Anne_LC_Will.label"><s>意志</s><r>воля</r></e>
+  <e k="D" t="LevelCategoryDef" key="Anne_LC_WorkSpec.description"><s>十种工作各 5 级，每级 +6% 速度并配套成功率与产量。让「会干」变成「干得又快又好」。</s><r>Каждое из десяти заданий имеет 5 уровней, каждый уровень обеспечивает + 6% скорости и имеет соответствующий уровень успеха и производительность. Пусть «могу сделать это» превратится в «сделаю это быстро и хорошо».</r></e>
+  <e k="D" t="LevelCategoryDef" key="Anne_LC_WorkSpec.label"><s>工作专精</s><r>специализация работы</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Agility_MeleeCooldown.description"><s>每级 −1.5% 近战冷却时间，越低出手越快。</s><r>−1,5% перезарядки в ближнем бою за уровень, чем меньше перезарядка, тем быстрее атака.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Agility_MeleeCooldown.label"><s>近战出手</s><r>Атака в ближнем бою</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Agility_MeleeDodge.description"><s>每级 +1 点近战闪避（曲线前的点数，上限 8 级 = +8 点）。原版曲线 5 点→0% / 20 点→30% / 60 点→50%。</s><r>+1 очко уклонения в ближнем бою за уровень (очки до кривой, максимум на уровне 8 = +8 очков). Исходная кривая 5 точек → 0%/20 точек → 30%/60 точек → 50%.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Agility_MeleeDodge.label"><s>近战闪避</s><r>уклонение в ближнем бою</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Agility_MoveSpeed.description"><s>每级 +2% 移动速度，上限 10 级（满级 +20%）。移动速度是稀缺乘区，所以刻意压低。</s><r>+2% скорости передвижения за уровень, ограничено 10-м уровнем (+20% на полном уровне). Скорость передвижения — редкая область умножения, поэтому ее намеренно оставляют на низком уровне.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Agility_MoveSpeed.label"><s>移动速度</s><r>Скорость движения</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Agility_Trap.description"><s>每级 −3% 触发陷阱的概率，少踩自己人的陷阱。</s><r>−3% вероятность срабатывания ловушек за уровень, поэтому не наступайте на собственные ловушки.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Agility_Trap.label"><s>陷阱规避</s><r>Уклонение от ловушек</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Constitution_Cancer.description"><s>每级 −2% 患癌率。</s><r>−2% уровня рака на уровень.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Constitution_Cancer.label"><s>抗癌</s><r>Противораковый</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Constitution_Damage.description"><s>每级 −1% 受到的伤害。全模组最强的防御属性，因此上限只有 10 级，且每级花费递增。</s><r>−1% получаемого урона за уровень. Самый сильный защитный атрибут во всем модуле, поэтому верхний предел составляет всего 10 уровней, а стоимость увеличивается с каждым уровнем.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Constitution_Damage.label"><s>承伤减免</s><r>Снижение травматизма</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Constitution_EatSpeed.description"><s>吃东西的快慢。吃得更快，遇袭时少挨几下。</s><r>Как быстро ты ешь. Ешьте быстрее и получайте меньше ударов при атаке.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Constitution_EatSpeed.label"><s>进食速度</s><r>скорость еды</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Constitution_Heal.description"><s>每级 +2% 伤口愈合速度。</s><r>+2% скорости заживления ран за уровень.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Constitution_Heal.label"><s>愈合</s><r>лечить</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Constitution_Hemogen.description"><s>每级 +2% 血原质获取（仅 Biotech 的吸血鬼路线有意义）。</s><r>+2% к получению эссенции крови за уровень (имеется только для ветки «Вампир» от Biotech).</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Constitution_Hemogen.label"><s>血原质</s><r>плазма крови</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Constitution_Immune.description"><s>每级 +2% 免疫获取速度，感染时更快扛过去。</s><r>+2% к скорости приобретения иммунитета за уровень, что позволяет вам быстрее пережить инфекции.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Constitution_Immune.label"><s>免疫力</s><r>Иммунитет</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Constitution_PainShock.description"><s>每级 +0.01 疼痛休克阈值，原版 0.8。</s><r>+0,01 порога болевого шока за уровень, вместо 0,8 в ванили.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Constitution_PainShock.label"><s>疼痛耐受</s><r>толерантность к боли</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Constitution_RestRate.description"><s>每级 +2% 休息效率，睡得更值。</s><r>+2% эффективности отдыха за уровень, более ценный сон.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Constitution_RestRate.label"><s>休息效率</s><r>эффективность отдыха</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Constitution_Stagger.description"><s>每级 −2% 被击中后的僵硬时间，挨打不容易被打断。</s><r>−2% за уровень. Время жесткости после удара. Удары нелегко прервать.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Constitution_Stagger.label"><s>抗抑止</s><r>анти-сдерживание</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Constitution_TempMax.description"><s>每级 +0.5℃ 最高舒适温度。</s><r>Максимальная комфортная температура +0,5°C на уровень.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Constitution_TempMax.label"><s>耐热</s><r>термостойкий</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Constitution_TempMin.description"><s>每级 −0.5℃ 最低舒适温度，越低越抗冻。</s><r>На каждом уровне минимальная комфортная температура составляет −0,5°С, и чем она ниже, тем он более морозоустойчив.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Constitution_TempMin.label"><s>耐寒</s><r>Холодостойкий</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Constitution_Toxic.description"><s>每级 +0.02 毒素抗性，原版基础 0。</s><r>+0,02 сопротивления яду за уровень, базовое значение 0 от ванили.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Constitution_Toxic.label"><s>毒素抗性</s><r>устойчивость к токсинам</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Constitution_ToxicResist.description"><s>对污染地区、毒气等环境毒素的抗性。原版基础为 0，纯加法。</s><r>Устойчивость к токсинам окружающей среды, таким как загрязненные территории и токсичные газы. Исходная база равна 0, чисто аддитивная.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Constitution_ToxicResist.label"><s>环境毒素抗性</s><r>Устойчивость к экологическим токсинам</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Constitution_Vacuum.description"><s>在真空里硬撑的能力。每级 +5%，10 级到 0.5（原版上限 1）。它不能替代增压服，只是把「必须穿」变成「可以短时间不穿」，伤害减免仍按原版算法。没装对应 DLC 时自动隐藏。</s><r>Способность удерживаться в вакууме. +5% за уровень, вплоть до 0,5 на 10 уровне (ванильный максимум — 1). Он не может заменить костюм с наддувом, он просто меняет «необходимо носить» на «нельзя носить в течение короткого периода времени», а снижение урона по-прежнему основано на исходном алгоритме. Автоматически скрывается, если соответствующий DLC не установлен.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Constitution_Vacuum.label"><s>真空抗性</s><r>Вакуумное сопротивление</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Intellect_DrugSynthesis.description"><s>每级 +3% 药品合成速度。</s><r>+3% к скорости синтеза лекарств за уровень.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Intellect_DrugSynthesis.label"><s>制药速度</s><r>Фармацевтическая скорость</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Intellect_EntityStudy.description"><s>每级 +3% 实体调查速率（Anomaly）。</s><r>+3% к скорости расследования сущностей за уровень (Аномалия).</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Intellect_EntityStudy.label"><s>实体调查</s><r>Расследование сущности</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Intellect_Learning.description"><s>每级 +2% 全局学习系数（上限 10 级），技能练得更快；因为会反过来加快成长经验，刻意封在 +20%。</s><r>Глобальный коэффициент обучения составляет +2% за уровень (максимум 10 уровень), а навыки можно практиковать быстрее; поскольку это, в свою очередь, ускорит рост опыта, он намеренно ограничен +20%.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Intellect_Learning.label"><s>学习速度</s><r>скорость обучения</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Intellect_LearningRate.description"><s>儿童完成学习活动时「学习需求」的填充速度（Biotech）。只对儿童有效，成年角色买了没有收益。</s><r>Скорость, с которой удовлетворяются «учебные потребности» детей при выполнении учебной деятельности (биотехнологии). Действует только для детей, от покупки взрослых персонажей никакой прибыли нет.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Intellect_LearningRate.label"><s>儿童学习速度</s><r>дети учатся скорости</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Intellect_Piloting.description"><s>重力飞船起飞仪式的驾驶水平。原版曲线很平（1.0 → 品质 +0.2，2.5 → +0.3），每级 +2% 只换到约 +0.013 品质、冷却少 4000 tick，收益确实小。注意：这条只在同时装有文化 DLC 时才影响起飞品质（起飞仪式属于文化框架）。</s><r>Уровень вождения церемонии взлета гравитационного космического корабля. Исходная кривая очень пологая (1,0 → качество +0,2, 2,5 → +0,3). +2% за уровень обменивается всего лишь на +0,013 качества и сокращение времени восстановления на 4000 тиков. Выгоды действительно небольшие. Примечание. Это влияет на качество взлета только в том случае, если также установлен культурный DLC (церемония взлета относится к культурной структуре).</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Intellect_Piloting.label"><s>驾驶能力</s><r>способность вождения</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Intellect_Reading.description"><s>每级 +3% 阅读速度。</s><r>+3% скорости чтения за уровень.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Intellect_Reading.label"><s>阅读速度</s><r>скорость чтения</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Intellect_Research.description"><s>每级 +2% 研究速度，上限 20 级（满级 +40%）。</s><r>+2% скорости исследования за уровень, максимум 20 уровня (+40% на полном уровне).</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Intellect_Research.label"><s>研究速度</s><r>скорость исследования</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Intellect_Study.description"><s>每级 +3% 调查效率（Anomaly）。</s><r>+3% эффективности расследования за уровень (Аномалия).</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Intellect_Study.label"><s>调查效率</s><r>Эффективность расследования</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Labor_ButcheryFlesh.description"><s>屠宰尸体时能取出的肉量倍率。和「屠宰速度」是两件事：这个管「出多少」，速度管「多快」。</s><r>Количество мяса, которое можно вынуть при забое туши. и «скорость убоя» — это две разные вещи: она контролирует «сколько» производится, а скорость контролирует «насколько быстро».</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Labor_ButcheryFlesh.label"><s>屠宰出肉</s><r>убойное мясо</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Labor_ButcheryMech.description"><s>拆解机械族尸体时获得的材料倍率。</s><r>Множитель материала, получаемый при разборе трупа механического клана.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Labor_ButcheryMech.label"><s>机械体拆解</s><r>Механическая разборка</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Labor_CaravanRiding.description"><s>骑乘动物远行时的速度加成。没有坐骑时这条不生效。</s><r>Бонус скорости при езде на животном на большие расстояния. Это не действует, если нет монтирования.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Labor_CaravanRiding.label"><s>骑乘远行</s><r>Езда на длинную дистанцию</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Labor_CaravanSpeed.description"><s>作为远行队成员时整支队伍在世界地图上的移动速度加成。</s><r>В составе экспедиции увеличивается скорость передвижения всей команды по карте мира.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Labor_CaravanSpeed.label"><s>远行速度</s><r>Скорость движения</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Labor_Cleaning.description"><s>打扫、清理脏污的工作速度倍率。原版只说「清洁有多快」，实际影响的是清洁工作的完成速度，不影响脏污产生的快慢。</s><r>Множитель скорости работы по уборке и уборке грязи. В оригинальной версии написано только «насколько быстро очищается». На самом деле это влияет на скорость завершения работ по очистке, но не влияет на скорость образования грязи.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Labor_Cleaning.label"><s>清洁速度</s><r>Скорость очистки</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Labor_FilthRate.description"><s>这个人踩过地板时留下脏污的速度。原版标签叫「脏污速率」，容易被误读成清洁速度——其实越低越干净，所以这里是减法。</s><r>Скорость, с которой этот человек идет по полу, оставляя после себя грязь. Оригинальная этикетка называется «скорость загрязнения», которую легко можно принять за скорость очистки — на самом деле, чем она ниже, тем чище, так что это вычитание.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Labor_FilthRate.label"><s>脏污产生</s><r>Образуется грязь</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Labor_FishingSpeed.description"><s>人钓鱼时的收竿速度。原版单次时长是 7500 ÷ 该值，每级 +2%，10 级时 3 小时缩短到约 2.5 小时。动物下水叼鱼走另一条时长（1500），同样吃这个值。</s><r>Скорость, с которой человек втягивает удочку при ловле. Исходная одиночная продолжительность составляет 7500 ÷ это значение, +2% за уровень, 3 часа уменьшены примерно до 2,5 часов на уровне 10. Животное заходит в воду, берет рыбу в рот и идет еще один отрезок времени (1500), а также ест это значение.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Labor_FishingSpeed.label"><s>钓鱼速度</s><r>скорость рыбалки</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Labor_FishingYield.description"><s>一次钓鱼能拿到的鱼数量倍率。原版先按鱼群密度取基准（25→1、100→3、300→6），再乘这个倍率；每级 +3%，8 级 +24%。不改变鱼群再生速度，钓光一样要等。</s><r>Количество рыбы, которую можно поймать за одну рыбалку, увеличивается в несколько раз. Исходная версия сначала берет за основу плотность рыбы (25→1, 100→3, 300→6), а затем умножает этот множитель; +3% за уровень, +24% на 8 уровне. Не меняя скорость регенерации рыбы, все равно придется ждать, пока вся рыба будет поймана.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Labor_FishingYield.label"><s>渔获量</s><r>ловить</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Labor_FoodPoison.description"><s>这个人做饭时把食物做坏（吃了会食物中毒）的概率。原版写「食物中毒概率」，实际是「你下毒的概率」，越低越好，所以这里做减法。</s><r>Вероятность того, что этот человек испортит пищу во время приготовления (получит пищевое отравление после ее употребления). В оригинальной версии написано «вероятность пищевого отравления», но на самом деле это означает «вероятность отравления». Чем меньше, тем лучше, поэтому здесь производится вычитание.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Labor_FoodPoison.label"><s>食物卫生</s><r>гигиена питания</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Labor_Forage.description"><s>作为远行队成员时，每天自动采集到的营养量。每级 +0.03，上限 10 级（满级 +0.3，是原版基础的 +37%）。</s><r>Количество питательных веществ, автоматически собираемое каждый день в составе экспедиционной команды. +0,03 за уровень, максимум 10 (+0,3 на полном уровне, +37% от базовой версии).</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Labor_Forage.label"><s>野外觅食</s><r>Собирательство в дикой природе</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Labor_Hacking.description"><s>骇入机械体、电脑终端之类的工作速度倍率。</s><r>Взломайте множитель рабочей скорости механических тел, компьютерных терминалов и т. д.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Labor_Hacking.label"><s>骇入速度</s><r>Скорость взлома</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Labor_HackingStealth.description"><s>骇入时不被发现的程度（原版基础 100，是个百分制数值），越高越安全。</s><r>Степень возможности взлома без обнаружения (исходная база равна 100, что составляет сто баллов), чем выше значение, тем безопаснее.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Labor_HackingStealth.label"><s>骇入隐蔽</s><r>взломать укрытие</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Labor_Piloting.description"><s>驾驶载具与飞行器的能力（Odyssey）。没装对应 DLC 时这条会自动隐藏。</s><r>Умение водить транспортные средства и самолеты (Одиссея). Этот предмет будет автоматически скрыт, если соответствующий DLC не установлен.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Labor_Piloting.label"><s>驾驶能力</s><r>способность вождения</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Mech_Bandwidth.description"><s>能同时控制多少机械体。原版基础上这条从 0 起加，每级 +1，最多 4 级——带宽是最稀缺的资源，所以故意定得又少又贵。</s><r>Сколькими механическими телами можно управлять одновременно? В исходной версии этот предмет начинается с 0, с +1 за каждый уровень, вплоть до 4 уровней. Пропускная способность — самый дефицитный ресурс, поэтому ее намеренно устанавливают низкой и дорогой.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Mech_Bandwidth.label"><s>机械带宽</s><r>механическая полоса пропускания</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Mech_Forming.description"><s>在培育舱里造机械体的速度倍率。</s><r>Множитель скорости построения роботов в камере разведения.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Mech_Forming.label"><s>机械培育速度</s><r>Скорость механического культивирования</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Mech_Repair.description"><s>修理机械体的速度倍率。</s><r>Множитель скорости ремонта механических кузовов.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Mech_Repair.label"><s>机械维修速度</s><r>Скорость механического обслуживания</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Mech_Subcore.description"><s>制作子核（subcore）的速度倍率。</s><r>Множитель скорости для создания подядер.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Mech_Subcore.label"><s>子核编码速度</s><r>Скорость кодирования субъядра</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Perception_Aiming.description"><s>每级 −2% 瞄准时间。</s><r>−2% времени прицеливания за уровень.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Perception_Aiming.label"><s>瞄准时间</s><r>время цели</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Perception_Mortar.description"><s>每级 −2% 迫击炮偏移半径，炮击更准。</s><r>−2% радиус отклонения миномета за уровень, что делает обстрел более точным.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Perception_Mortar.label"><s>迫击炮准头</s><r>минометный прицел</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Perception_RangedCooldown.description"><s>每级 −1.5% 远程冷却时间，射得更勤。</s><r>−1,5% перезарядки дальнего боя за уровень, стреляйте чаще.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Perception_RangedCooldown.label"><s>远程射速</s><r>Скорострельность на большой дистанции</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Perception_Shooting.description"><s>每级 +0.5 射击精度（曲线前的点数，上限 10 级 = +5 点）。原版高技能段已接近 0.99，这条主要改善中低技能阶段。</s><r>+0,5 к точности стрельбы за уровень (очки до кривой, ограничение на уровне 10 = +5 очков). Исходный уровень высокой квалификации близок к 0,99, и этот раздел в основном улучшает уровни средней и низкой квалификации.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Perception_Shooting.label"><s>射击精度</s><r>точность стрельбы</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Social_AnimalLearning.description"><s>训练动物时驯兽技能的学习速度倍率。</s><r>Множитель скорости обучения навыкам приручения животных при дрессировке животных.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Social_AnimalLearning.label"><s>驯兽教学</s><r>Обучение приручению животных</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Social_AnimalProductPrice.description"><s>出售动物产品时的价格加成（Ideology）。没装对应 DLC 时自动隐藏。</s><r>Наценка при продаже продуктов животного происхождения (Идеология). Автоматически скрывается, если соответствующий DLC не установлен.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Social_AnimalProductPrice.label"><s>动物产品售价</s><r>Продажи продуктов животного происхождения</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Social_Beauty.description"><s>每级 +0.3 魅力，上限 10 级（满级 +3）。原版基础 0，做加法；影响他人对这名角色的初始观感。</s><r>+0,3 Харизмы за уровень, максимум 10 (+3 на полном уровне). База исходной версии — 0, и это дополнение; это влияет на первоначальное восприятие этого персонажа другими людьми.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Social_Beauty.label"><s>魅力</s><r>очарование</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Social_BondAnimal.description"><s>与动物建立羁绊的成功率倍率。</s><r>Множитель успешности установления связи с животным.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Social_BondAnimal.label"><s>驯兽亲和</s><r>Близость к приручению животных</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Social_Conversion.description"><s>每级 +2% 教化能力（Ideology）。</s><r>+2% идеологии за уровень.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Social_Conversion.label"><s>教化能力</s><r>Образовательные способности</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Social_DrugSell.description"><s>每级 +0.01 成瘾品交易价格改善，专精药商。</s><r>+0,01 за уровень. Улучшена цена сделки с вызывающими привыкание наркотиками, специализированный торговец наркотиками.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Social_DrugSell.label"><s>成瘾品价格</s><r>цены на наркотики, вызывающие привыкание</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Social_Impact.description"><s>每级 +2% 社交效果，日常聊天更容易涨关系。</s><r>Социальный эффект +2% за уровень, ежедневное общение в чате облегчает построение отношений.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Social_Impact.label"><s>社交效果</s><r>социальный эффект</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Social_Negotiation.description"><s>每级 +1.5% 谈判能力，影响任务与外交的判定。</s><r>+1,5% к переговорным способностям за уровень, что влияет на решения миссий и дипломатии.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Social_Negotiation.label"><s>谈判能力</s><r>Способность вести переговоры</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Social_Suppression.description"><s>每级 +2% 压制能力，管奴隶更稳。</s><r>+2% к способности подавления за уровень, более стабильный контроль над рабами.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Social_Suppression.label"><s>压制能力</s><r>Подавляющая способность</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Social_TradePrice.description"><s>每级 +0.01 交易价格改善，上限 10 级（满级 +0.10）。原版上限 0.395，留出余量避免撞顶。</s><r>Улучшение торговой цены +0,01 за уровень, ограничен 10-м уровнем (+0,10 на полном уровне). Исходный предел составляет 0,395, что оставляет некоторый запас, чтобы не достичь вершины.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Social_TradePrice.label"><s>交易价格</s><r>цена сделки</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Strength_Carry.description"><s>每级 +3 携带能力，上限 10 级（满级 +30）。原版基础 75，等级高了能背更多战利品。</s><r>+3 грузоподъемности за уровень, максимум — 10 уровень (+30 на полном уровне). Базовый уровень оригинальной версии — 75. Чем выше уровень, тем больше добычи вы сможете унести.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Strength_Carry.label"><s>负重</s><r>нести вес</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Strength_MeleeDamage.description"><s>每级 +2% 近战伤害系数。与武器、技能叠乘。</s><r>+2% множителя урона в ближнем бою за уровень. Складывается с оружием и навыками.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Strength_MeleeDamage.label"><s>近战伤害</s><r>урон в ближнем бою</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Strength_MeleeHit.description"><s>每级 +1 点近战命中（曲线前的点数，上限 10 级 = +10 点；原版徒手 0 点 → 50%）。</s><r>+1 очко к удару в ближнем бою за уровень (очки до кривой, максимум на уровне 10 = +10 очков; ванильная версия без оружия 0 очков → 50%).</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Strength_MeleeHit.label"><s>近战命中</s><r>рукопашный удар</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Will_Certainty.description"><s>每级 −2% 信仰动摇速度（Ideology）。</s><r>−2% Идеологии за уровень.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Will_Certainty.label"><s>信仰坚定</s><r>Твердая вера</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Will_EntropyGain.description"><s>使用灵能时 psychic entropy 的积累速度，越低越好。没有灵能等级时这条买了也没用。</s><r>Скорость, с которой накапливается психическая энтропия при использовании психической энергии, чем ниже, тем лучше. Если у вас нет псионического уровня, то покупать этот бесполезно.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Will_EntropyGain.label"><s>灵能熵积累</s><r>Накопление психической энтропии</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Will_EntropyMax.description"><s>每级 +1 心灵熵上限（Royalty 灵能）。</s><r>+1 к максимальной психической энтропии за уровень (Королевская псионика).</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Will_EntropyMax.label"><s>心灵熵阈值</s><r>Порог энтропии разума</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Will_EntropyRecovery.description"><s>每级 +2% 心灵熵消散速度（Royalty 灵能）。</s><r>+2% скорости рассеивания психической энтропии за уровень (Королевская псионика).</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Will_EntropyRecovery.label"><s>熵消散</s><r>Энтропия рассеивается</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Will_JoyFall.description"><s>每级 −1.5% 娱乐值下降速度。</s><r>−1,5% скорость снижения стоимости развлечений за уровень.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Will_JoyFall.label"><s>娱乐衰减</s><r>упадок развлечений</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Will_Meditation.description"><s>每级 +2% 冥想集气速度（Royalty 灵能）。</s><r>+2% к скорости сбора медитации за уровень (Королевская псионика).</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Will_Meditation.label"><s>冥想效力</s><r>эффективность медитации</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Will_MeditationStrength.description"><s>冥想时积攒灵能的效率。原版基础上这条从 0 起加。</s><r>Эффективность накопления психической энергии во время медитации. В исходной версии этот элемент начинается с 0.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Will_MeditationStrength.label"><s>冥想强度</s><r>интенсивность медитации</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Will_MentalBreak.description"><s>每级 −2% 精神崩溃临界值，原版 0.35，越低越不容易崩溃。</s><r>−2% порог психического срыва за уровень, исходное значение 0,35, чем он ниже, тем меньше вероятность краха.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Will_MentalBreak.label"><s>崩溃临界</s><r>критический коллапс</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Will_RestFall.description"><s>每级 −1.5% 休息值下降速度，能连续干更久。</s><r>−1,5% снижение значения отдыха за уровень, что позволяет вам работать непрерывно дольше.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Will_RestFall.label"><s>疲劳速度</s><r>Скорость усталости</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Will_RitualQuality.description"><s>主持灵能仪式时的质量加成（Anomaly）。没装对应 DLC 时自动隐藏。</s><r>Бонус качества при проведении экстрасенсорных ритуалов (Аномалия). Автоматически скрывается, если соответствующий DLC не установлен.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Will_RitualQuality.label"><s>灵能仪式质量</s><r>Качество психического ритуала</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Will_Suppression.description"><s>压制异常实体、维持收容的效率（Anomaly）。没装对应 DLC 时自动隐藏。</s><r>Эффективность подавления аномальных сущностей и поддержания условий содержания (Аномалия). Автоматически скрывается, если соответствующий DLC не установлен.</r></e>
+  <e k="D" t="LevelStatDef" key="Anne_LS_Will_Suppression.label"><s>压制效率</s><r>Эффективность подавления</r></e>
+  <e k="D" t="MainButtonDef" key="Anne_PawnLeveling.description"><s>全局等级总和与全局技能。</s><r>Сумма глобального уровня и глобальные навыки.</r></e>
+  <e k="D" t="MainButtonDef" key="Anne_PawnLeveling.label"><s>点数</s><r>счет</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Agility_Good.description"><s>把「敏捷」分类累计投入 20 点以上的经验写成一本良好心得。写成的书可以给别人读，别人第一次读完会得到成长经验。同一个角色在同一分类同一档只能写一本。</s><r>Запишите опыт вложения более 20 баллов в категории «Agile» в книгу хороших впечатлений. Написанную книгу могут прочитать другие, и другие получат опыт роста, прочитав ее впервые. Вы можете написать только одну книгу для одного и того же персонажа в одной категории и файле.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Agility_Good.jobString"><s>正在撰写心得。</s><r>Пишу свои мысли.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Agility_Good.label"><s>撰写心得：敏捷（良好）</s><r>Опыт написания: Agile (хорошо)</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Agility_Master.description"><s>把「敏捷」分类累计投入 30 点以上的经验写成一本大师心得。写成的书可以给别人读，别人第一次读完会得到成长经验。同一个角色在同一分类同一档只能写一本。</s><r>Запишите в руководство мастера опыт вложения более 30 баллов в категории «Ловкость». Написанную книгу могут прочитать другие, и другие получат опыт роста, прочитав ее впервые. Вы можете написать только одну книгу для одного и того же персонажа в одной категории и файле.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Agility_Master.jobString"><s>正在撰写心得。</s><r>Пишу свои мысли.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Agility_Master.label"><s>撰写心得：敏捷（大师）</s><r>Опыт написания: Agile (Мастер)</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Agility_Normal.description"><s>把「敏捷」分类累计投入 10 点以上的经验写成一本普通心得。写成的书可以给别人读，别人第一次读完会得到成长经验。同一个角色在同一分类同一档只能写一本。</s><r>Запишите опыт инвестирования более 10 баллов в категории «Agile» в общий опыт. Написанную книгу могут прочитать другие, и другие получат опыт роста, прочитав ее впервые. Вы можете написать только одну книгу для одного и того же персонажа в одной категории и файле.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Agility_Normal.jobString"><s>正在撰写心得。</s><r>Пишу свои мысли.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Agility_Normal.label"><s>撰写心得：敏捷（普通）</s><r>Опыт написания: Agile (нормальный)</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Capacity_Good.description"><s>把「生理能力」分类累计投入 20 点以上的经验写成一本良好心得。写成的书可以给别人读，别人第一次读完会得到成长经验。同一个角色在同一分类同一档只能写一本。</s><r>Запишите опыт вложения более 20 баллов в категории «Физиологические способности» в книгу хороших впечатлений. Написанную книгу могут прочитать другие, и другие получат опыт роста, прочитав ее впервые. Вы можете написать только одну книгу для одного и того же персонажа в одной категории и файле.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Capacity_Good.jobString"><s>正在撰写心得。</s><r>Пишу свои мысли.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Capacity_Good.label"><s>撰写心得：生理能力（良好）</s><r>Опыт письма: физические способности (хорошо)</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Capacity_Master.description"><s>把「生理能力」分类累计投入 30 点以上的经验写成一本大师心得。写成的书可以给别人读，别人第一次读完会得到成长经验。同一个角色在同一分类同一档只能写一本。</s><r>Запишите в руководство мастера опыт вложения более 30 баллов по категории «Физиологические способности». Написанную книгу могут прочитать другие, и другие получат опыт роста, прочитав ее впервые. Вы можете написать только одну книгу для одного и того же персонажа в одной категории и файле.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Capacity_Master.jobString"><s>正在撰写心得。</s><r>Пишу свои мысли.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Capacity_Master.label"><s>撰写心得：生理能力（大师）</s><r>Опыт письма: физиологические способности (магистр)</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Capacity_Normal.description"><s>把「生理能力」分类累计投入 10 点以上的经验写成一本普通心得。写成的书可以给别人读，别人第一次读完会得到成长经验。同一个角色在同一分类同一档只能写一本。</s><r>Запишите опыт вкладывания более 10 баллов в категорию «Физиологические способности» в общий опыт. Написанную книгу могут прочитать другие, и другие получат опыт роста, прочитав ее впервые. Вы можете написать только одну книгу для одного и того же персонажа в одной категории и файле.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Capacity_Normal.jobString"><s>正在撰写心得。</s><r>Пишу свои мысли.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Capacity_Normal.label"><s>撰写心得：生理能力（普通）</s><r>Опыт письма: Физиологические способности (нормальные)</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Constitution_Good.description"><s>把「体质」分类累计投入 20 点以上的经验写成一本良好心得。写成的书可以给别人读，别人第一次读完会得到成长经验。同一个角色在同一分类同一档只能写一本。</s><r>Запишите опыт вложения более 20 баллов в категории «Телосложение» в книгу хороших впечатлений. Написанную книгу могут прочитать другие, и другие получат опыт роста, прочитав ее впервые. Вы можете написать только одну книгу для одного и того же персонажа в одной категории и файле.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Constitution_Good.jobString"><s>正在撰写心得。</s><r>Пишу свои мысли.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Constitution_Good.label"><s>撰写心得：体质（良好）</s><r>Опыт написания: Физическая подготовка (хорошая).</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Constitution_Master.description"><s>把「体质」分类累计投入 30 点以上的经验写成一本大师心得。写成的书可以给别人读，别人第一次读完会得到成长经验。同一个角色在同一分类同一档只能写一本。</s><r>Накопленный опыт вложения более 30 баллов в категорию «Телосложение» записывается как опыт мастера. Написанную книгу могут прочитать другие, и другие получат опыт роста, прочитав ее впервые. Вы можете написать только одну книгу для одного и того же персонажа в одной категории и файле.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Constitution_Master.jobString"><s>正在撰写心得。</s><r>Пишу свои мысли.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Constitution_Master.label"><s>撰写心得：体质（大师）</s><r>Опыт написания: Телосложение (Магистр)</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Constitution_Normal.description"><s>把「体质」分类累计投入 10 点以上的经验写成一本普通心得。写成的书可以给别人读，别人第一次读完会得到成长经验。同一个角色在同一分类同一档只能写一本。</s><r>Запишите опыт вложения более 10 баллов в категории «Телосложение» в общий опыт. Написанную книгу могут прочитать другие, и другие получат опыт роста, прочитав ее впервые. Вы можете написать только одну книгу для одного и того же персонажа в одной категории и файле.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Constitution_Normal.jobString"><s>正在撰写心得。</s><r>Пишу свои мысли.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Constitution_Normal.label"><s>撰写心得：体质（普通）</s><r>Опыт написания: Физическая подготовка (нормальная).</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Intellect_Good.description"><s>把「智力」分类累计投入 20 点以上的经验写成一本良好心得。写成的书可以给别人读，别人第一次读完会得到成长经验。同一个角色在同一分类同一档只能写一本。</s><r>Запишите опыт вложения более 20 баллов в категории «Интеллект» в книгу хороших впечатлений. Написанную книгу могут прочитать другие, и другие получат опыт роста, прочитав ее впервые. Вы можете написать только одну книгу для одного и того же персонажа в одной категории и файле.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Intellect_Good.jobString"><s>正在撰写心得。</s><r>Пишу свои мысли.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Intellect_Good.label"><s>撰写心得：智力（良好）</s><r>Опыт письма: Интеллект (хорошо)</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Intellect_Master.description"><s>把「智力」分类累计投入 30 点以上的经验写成一本大师心得。写成的书可以给别人读，别人第一次读完会得到成长经验。同一个角色在同一分类同一档只能写一本。</s><r>Напишите опыт магистра на основе накопленного опыта инвестирования более 30 баллов в категории «Интеллект». Написанную книгу могут прочитать другие, и другие получат опыт роста, прочитав ее впервые. Вы можете написать только одну книгу для одного и того же персонажа в одной категории и файле.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Intellect_Master.jobString"><s>正在撰写心得。</s><r>Пишу свои мысли.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Intellect_Master.label"><s>撰写心得：智力（大师）</s><r>Опыт письма: Интеллект (Магистр)</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Intellect_Normal.description"><s>把「智力」分类累计投入 10 点以上的经验写成一本普通心得。写成的书可以给别人读，别人第一次读完会得到成长经验。同一个角色在同一分类同一档只能写一本。</s><r>Напишите книгу общего опыта на основе совокупного вклада более 10 баллов в категории «Интеллект». Написанную книгу могут прочитать другие, и другие получат опыт роста, прочитав ее впервые. Вы можете написать только одну книгу для одного и того же персонажа в одной категории и файле.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Intellect_Normal.jobString"><s>正在撰写心得。</s><r>Пишу свои мысли.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Intellect_Normal.label"><s>撰写心得：智力（普通）</s><r>Опыт письма: Интеллект (нормальный)</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Labor_Good.description"><s>把「劳作」分类累计投入 20 点以上的经验写成一本良好心得。写成的书可以给别人读，别人第一次读完会得到成长经验。同一个角色在同一分类同一档只能写一本。</s><r>Запишите опыт вложения более 20 баллов в категории «Труд» в книгу хороших впечатлений. Написанную книгу могут прочитать другие, и другие получат опыт роста, прочитав ее впервые. Вы можете написать только одну книгу для одного и того же персонажа в одной категории и файле.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Labor_Good.jobString"><s>正在撰写心得。</s><r>Пишу свои мысли.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Labor_Good.label"><s>撰写心得：劳作（良好）</s><r>Опыт написания: Трудовая деятельность (хорошая)</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Labor_Master.description"><s>把「劳作」分类累计投入 30 点以上的经验写成一本大师心得。写成的书可以给别人读，别人第一次读完会得到成长经验。同一个角色在同一分类同一档只能写一本。</s><r>Напишите руководство мастера на основе опыта, полученного от инвестирования более 30 баллов в категории «Труд». Написанную книгу могут прочитать другие, и другие получат опыт роста, прочитав ее впервые. Вы можете написать только одну книгу для одного и того же персонажа в одной категории и файле.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Labor_Master.jobString"><s>正在撰写心得。</s><r>Пишу свои мысли.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Labor_Master.label"><s>撰写心得：劳作（大师）</s><r>Опыт написания: Труд (магистр)</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Labor_Normal.description"><s>把「劳作」分类累计投入 10 点以上的经验写成一本普通心得。写成的书可以给别人读，别人第一次读完会得到成长经验。同一个角色在同一分类同一档只能写一本。</s><r>Накопленный опыт вложения более 10 баллов в категории «Труд» запишите в общий опыт. Написанную книгу могут прочитать другие, и другие получат опыт роста, прочитав ее впервые. Вы можете написать только одну книгу для одного и того же персонажа в одной категории и файле.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Labor_Normal.jobString"><s>正在撰写心得。</s><r>Пишу свои мысли.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Labor_Normal.label"><s>撰写心得：劳作（普通）</s><r>Опыт написания: Трудовой (обычный)</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Mech_Good.description"><s>把「机械师」分类累计投入 20 点以上的经验写成一本良好心得。写成的书可以给别人读，别人第一次读完会得到成长经验。同一个角色在同一分类同一档只能写一本。</s><r>Напишите книгу о хорошем опыте, полученном в результате инвестирования более 20 баллов в категорию «Механик». Написанную книгу могут прочитать другие, и другие получат опыт роста, прочитав ее впервые. Вы можете написать только одну книгу для одного и того же персонажа в одной категории и файле.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Mech_Good.jobString"><s>正在撰写心得。</s><r>Пишу свои мысли.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Mech_Good.label"><s>撰写心得：机械师（良好）</s><r>Опыт написания: Механик (хороший)</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Mech_Master.description"><s>把「机械师」分类累计投入 30 点以上的经验写成一本大师心得。写成的书可以给别人读，别人第一次读完会得到成长经验。同一个角色在同一分类同一档只能写一本。</s><r>Напишите руководство мастера по категории «Механик», где вы накопили более 30 очков опыта. Написанную книгу могут прочитать другие, и другие получат опыт роста, прочитав ее впервые. Вы можете написать только одну книгу для одного и того же персонажа в одной категории и файле.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Mech_Master.jobString"><s>正在撰写心得。</s><r>Пишу свои мысли.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Mech_Master.label"><s>撰写心得：机械师（大师）</s><r>Опыт написания: Механик (Магистр)</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Mech_Normal.description"><s>把「机械师」分类累计投入 10 点以上的经验写成一本普通心得。写成的书可以给别人读，别人第一次读完会得到成长经验。同一个角色在同一分类同一档只能写一本。</s><r>Накопленный опыт вложения более 10 баллов по категории «Механик» запишите в общий опыт. Написанную книгу могут прочитать другие, и другие получат опыт роста, прочитав ее впервые. Вы можете написать только одну книгу для одного и того же персонажа в одной категории и файле.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Mech_Normal.jobString"><s>正在撰写心得。</s><r>Пишу свои мысли.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Mech_Normal.label"><s>撰写心得：机械师（普通）</s><r>Опыт написания: Механик (общий)</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Perception_Good.description"><s>把「感知」分类累计投入 20 点以上的经验写成一本良好心得。写成的书可以给别人读，别人第一次读完会得到成长经验。同一个角色在同一分类同一档只能写一本。</s><r>Запишите опыт вложения более 20 баллов в категории «Восприятие» в книгу хороших впечатлений. Написанную книгу могут прочитать другие, и другие получат опыт роста, прочитав ее впервые. Вы можете написать только одну книгу для одного и того же персонажа в одной категории и файле.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Perception_Good.jobString"><s>正在撰写心得。</s><r>Пишу свои мысли.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Perception_Good.label"><s>撰写心得：感知（良好）</s><r>Опыт письма: Восприятие (хорошо)</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Perception_Master.description"><s>把「感知」分类累计投入 30 点以上的经验写成一本大师心得。写成的书可以给别人读，别人第一次读完会得到成长经验。同一个角色在同一分类同一档只能写一本。</s><r>Запишите в магистерскую книгу опыт вложения более 30 баллов по категории «Восприятие». Написанную книгу могут прочитать другие, и другие получат опыт роста, прочитав ее впервые. Вы можете написать только одну книгу для одного и того же персонажа в одной категории и файле.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Perception_Master.jobString"><s>正在撰写心得。</s><r>Пишу свои мысли.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Perception_Master.label"><s>撰写心得：感知（大师）</s><r>Опыт письма: Восприятие (Магистр)</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Perception_Normal.description"><s>把「感知」分类累计投入 10 点以上的经验写成一本普通心得。写成的书可以给别人读，别人第一次读完会得到成长经验。同一个角色在同一分类同一档只能写一本。</s><r>Запишите опыт вложения более 10 баллов в категорию «Восприятие» в общий опыт. Написанную книгу могут прочитать другие, и другие получат опыт роста, прочитав ее впервые. Вы можете написать только одну книгу для одного и того же персонажа в одной категории и файле.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Perception_Normal.jobString"><s>正在撰写心得。</s><r>Пишу свои мысли.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Perception_Normal.label"><s>撰写心得：感知（普通）</s><r>Опыт письма: Восприятие (нормальное)</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Social_Good.description"><s>把「社交」分类累计投入 20 点以上的经验写成一本良好心得。写成的书可以给别人读，别人第一次读完会得到成长经验。同一个角色在同一分类同一档只能写一本。</s><r>Запишите опыт вложения более 20 баллов в категории «Социальный» в книгу хороших впечатлений. Написанную книгу могут прочитать другие, и другие получат опыт роста, прочитав ее впервые. Вы можете написать только одну книгу для одного и того же персонажа в одной категории и файле.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Social_Good.jobString"><s>正在撰写心得。</s><r>Пишу свои мысли.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Social_Good.label"><s>撰写心得：社交（良好）</s><r>Опыт написания: Социальный (хороший)</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Social_Master.description"><s>把「社交」分类累计投入 30 点以上的经验写成一本大师心得。写成的书可以给别人读，别人第一次读完会得到成长经验。同一个角色在同一分类同一档只能写一本。</s><r>Напишите руководство мастера по опыту инвестирования более 30 баллов в категории «Социальные сети». Написанную книгу могут прочитать другие, и другие получат опыт роста, прочитав ее впервые. Вы можете написать только одну книгу для одного и того же персонажа в одной категории и файле.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Social_Master.jobString"><s>正在撰写心得。</s><r>Пишу свои мысли.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Social_Master.label"><s>撰写心得：社交（大师）</s><r>Опыт написания: Социальный (Магистр)</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Social_Normal.description"><s>把「社交」分类累计投入 10 点以上的经验写成一本普通心得。写成的书可以给别人读，别人第一次读完会得到成长经验。同一个角色在同一分类同一档只能写一本。</s><r>Запишите опыт инвестирования более 10 баллов в категории «Социальный» в общий опыт. Написанную книгу могут прочитать другие, и другие получат опыт роста, прочитав ее впервые. Вы можете написать только одну книгу для одного и того же персонажа в одной категории и файле.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Social_Normal.jobString"><s>正在撰写心得。</s><r>Пишу свои мысли.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Social_Normal.label"><s>撰写心得：社交（普通）</s><r>Опыт написания: Социальные сети (нормальный)</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Strength_Good.description"><s>把「力量」分类累计投入 20 点以上的经验写成一本良好心得。写成的书可以给别人读，别人第一次读完会得到成长经验。同一个角色在同一分类同一档只能写一本。</s><r>Запишите опыт вложения более 20 баллов в категории «Мощность» в книгу хороших впечатлений. Написанную книгу могут прочитать другие, и другие получат опыт роста, прочитав ее впервые. Вы можете написать только одну книгу для одного и того же персонажа в одной категории и файле.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Strength_Good.jobString"><s>正在撰写心得。</s><r>Пишу свои мысли.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Strength_Good.label"><s>撰写心得：力量（良好）</s><r>Опыт письма: Сила (хорошо)</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Strength_Master.description"><s>把「力量」分类累计投入 30 点以上的经验写成一本大师心得。写成的书可以给别人读，别人第一次读完会得到成长经验。同一个角色在同一分类同一档只能写一本。</s><r>Напишите руководство мастера по опыту инвестирования более 30 баллов в категории «Сила». Написанную книгу могут прочитать другие, и другие получат опыт роста, прочитав ее впервые. Вы можете написать только одну книгу для одного и того же персонажа в одной категории и файле.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Strength_Master.jobString"><s>正在撰写心得。</s><r>Пишу свои мысли.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Strength_Master.label"><s>撰写心得：力量（大师）</s><r>Опыт написания: Power (Магистр)</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Strength_Normal.description"><s>把「力量」分类累计投入 10 点以上的经验写成一本普通心得。写成的书可以给别人读，别人第一次读完会得到成长经验。同一个角色在同一分类同一档只能写一本。</s><r>Запишите опыт вложения более 10 баллов в категории «Сила» в общий опыт. Написанную книгу могут прочитать другие, и другие получат опыт роста, прочитав ее впервые. Вы можете написать только одну книгу для одного и того же персонажа в одной категории и файле.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Strength_Normal.jobString"><s>正在撰写心得。</s><r>Пишу свои мысли.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Strength_Normal.label"><s>撰写心得：力量（普通）</s><r>Опыт письма: Сила (нормальная)</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Will_Good.description"><s>把「意志」分类累计投入 20 点以上的经验写成一本良好心得。写成的书可以给别人读，别人第一次读完会得到成长经验。同一个角色在同一分类同一档只能写一本。</s><r>Запишите опыт вложения более 20 баллов в категории «Воля» в книгу хороших впечатлений. Написанную книгу могут прочитать другие, и другие получат опыт роста, прочитав ее впервые. Вы можете написать только одну книгу для одного и того же персонажа в одной категории и файле.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Will_Good.jobString"><s>正在撰写心得。</s><r>Пишу свои мысли.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Will_Good.label"><s>撰写心得：意志（良好）</s><r>Опыт написания: Уилл (хорошо)</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Will_Master.description"><s>把「意志」分类累计投入 30 点以上的经验写成一本大师心得。写成的书可以给别人读，别人第一次读完会得到成长经验。同一个角色在同一分类同一档只能写一本。</s><r>Напишите опыт магистра на основе накопленного опыта инвестирования более 30 баллов в категории «Воля». Написанную книгу могут прочитать другие, и другие получат опыт роста, прочитав ее впервые. Вы можете написать только одну книгу для одного и того же персонажа в одной категории и файле.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Will_Master.jobString"><s>正在撰写心得。</s><r>Пишу свои мысли.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Will_Master.label"><s>撰写心得：意志（大师）</s><r>Опыт написания: Уилл (Магистр)</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Will_Normal.description"><s>把「意志」分类累计投入 10 点以上的经验写成一本普通心得。写成的书可以给别人读，别人第一次读完会得到成长经验。同一个角色在同一分类同一档只能写一本。</s><r>Накопленный опыт вложения более 10 баллов по категории «Воля» запишите в общую книгу опыта. Написанную книгу могут прочитать другие, и другие получат опыт роста, прочитав ее впервые. Вы можете написать только одну книгу для одного и того же персонажа в одной категории и файле.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Will_Normal.jobString"><s>正在撰写心得。</s><r>Пишу свои мысли.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_Will_Normal.label"><s>撰写心得：意志（普通）</s><r>Опыт написания: Уилл (нормальный)</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_WorkSpec_Good.description"><s>把「工作专精」分类累计投入 20 点以上的经验写成一本良好心得。写成的书可以给别人读，别人第一次读完会得到成长经验。同一个角色在同一分类同一档只能写一本。</s><r>Запишите опыт вложения более 20 баллов по категории «Специализация работы» в книгу хороших впечатлений. Написанную книгу могут прочитать другие, и другие получат опыт роста, прочитав ее впервые. Вы можете написать только одну книгу для одного и того же персонажа в одной категории и файле.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_WorkSpec_Good.jobString"><s>正在撰写心得。</s><r>Пишу свои мысли.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_WorkSpec_Good.label"><s>撰写心得：工作专精（良好）</s><r>Опыт написания: специализация работы (хорошо)</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_WorkSpec_Master.description"><s>把「工作专精」分类累计投入 30 点以上的经验写成一本大师心得。写成的书可以给别人读，别人第一次读完会得到成长经验。同一个角色在同一分类同一档只能写一本。</s><r>Напишите руководство мастера на основе накопленного опыта инвестирования более 30 баллов в категории «Специализация работы». Написанную книгу могут прочитать другие, и другие получат опыт роста, прочитав ее впервые. Вы можете написать только одну книгу для одного и того же персонажа в одной категории и файле.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_WorkSpec_Master.jobString"><s>正在撰写心得。</s><r>Пишу свои мысли.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_WorkSpec_Master.label"><s>撰写心得：工作专精（大师）</s><r>Опыт письма: Специализация работы (магистр)</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_WorkSpec_Normal.description"><s>把「工作专精」分类累计投入 10 点以上的经验写成一本普通心得。写成的书可以给别人读，别人第一次读完会得到成长经验。同一个角色在同一分类同一档只能写一本。</s><r>Запишите опыт вложения более 10 баллов в категории «Специализация работы» в общий опыт. Написанную книгу могут прочитать другие, и другие получат опыт роста, прочитав ее впервые. Вы можете написать только одну книгу для одного и того же персонажа в одной категории и файле.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_WorkSpec_Normal.jobString"><s>正在撰写心得。</s><r>Пишу свои мысли.</r></e>
+  <e k="D" t="RecipeDef" key="Anne_MakeBook_WorkSpec_Normal.label"><s>撰写心得：工作专精（普通）</s><r>Опыт письма: Специализация работы (Нормальный)</r></e>
+  <e k="D" t="ThingDef" key="Anne_GrowthBook_Agility.description"><s>手写的敏捷心得。别人读它可以把作者的经验转成自己的成长经验。</s><r>Краткие советы по почерку. Другие, читающие ее, могут превратить опыт автора в свой собственный опыт роста.</r></e>
+  <e k="D" t="ThingDef" key="Anne_GrowthBook_Agility.label"><s>敏捷心得</s><r>Agile-опыт</r></e>
+  <e k="D" t="ThingDef" key="Anne_GrowthBook_Capacity.description"><s>手写的生理能力心得。别人读它可以把作者的经验转成自己的成长经验。</s><r>Опыт по физической способности письма. Другие, читающие ее, могут превратить опыт автора в свой собственный опыт роста.</r></e>
+  <e k="D" t="ThingDef" key="Anne_GrowthBook_Capacity.label"><s>生理能力心得</s><r>Опыт физических способностей</r></e>
+  <e k="D" t="ThingDef" key="Anne_GrowthBook_Constitution.description"><s>手写的体质心得。别人读它可以把作者的经验转成自己的成长经验。</s><r>Рукописный физический опыт. Другие, читающие ее, могут превратить опыт автора в свой собственный опыт роста.</r></e>
+  <e k="D" t="ThingDef" key="Anne_GrowthBook_Constitution.label"><s>体质心得</s><r>Физический опыт</r></e>
+  <e k="D" t="ThingDef" key="Anne_GrowthBook_Intellect.description"><s>手写的智力心得。别人读它可以把作者的经验转成自己的成长经验。</s><r>Рукописные интеллектуальные идеи. Другие, читающие ее, могут превратить опыт автора в свой собственный опыт роста.</r></e>
+  <e k="D" t="ThingDef" key="Anne_GrowthBook_Intellect.label"><s>智力心得</s><r>Интеллектуальный опыт</r></e>
+  <e k="D" t="ThingDef" key="Anne_GrowthBook_Labor.description"><s>手写的劳作心得。别人读它可以把作者的经验转成自己的成长经验。</s><r>Опыт работы рукописный. Другие, читающие ее, могут превратить опыт автора в свой собственный опыт роста.</r></e>
+  <e k="D" t="ThingDef" key="Anne_GrowthBook_Labor.label"><s>劳作心得</s><r>Опыт работы</r></e>
+  <e k="D" t="ThingDef" key="Anne_GrowthBook_Mech.description"><s>手写的机械师心得。别人读它可以把作者的经验转成自己的成长经验。</s><r>Рукописные заметки механика. Другие, читающие ее, могут превратить опыт автора в свой собственный опыт роста.</r></e>
+  <e k="D" t="ThingDef" key="Anne_GrowthBook_Mech.label"><s>机械师心得</s><r>Опыт механика</r></e>
+  <e k="D" t="ThingDef" key="Anne_GrowthBook_Perception.description"><s>手写的感知心得。别人读它可以把作者的经验转成自己的成长经验。</s><r>Восприятие почерка. Другие, читающие ее, могут превратить опыт автора в свой собственный опыт роста.</r></e>
+  <e k="D" t="ThingDef" key="Anne_GrowthBook_Perception.label"><s>感知心得</s><r>Опыт восприятия</r></e>
+  <e k="D" t="ThingDef" key="Anne_GrowthBook_Social.description"><s>手写的社交心得。别人读它可以把作者的经验转成自己的成长经验。</s><r>Рукописный социальный опыт. Другие, читающие ее, могут превратить опыт автора в свой собственный опыт роста.</r></e>
+  <e k="D" t="ThingDef" key="Anne_GrowthBook_Social.label"><s>社交心得</s><r>Социальный опыт</r></e>
+  <e k="D" t="ThingDef" key="Anne_GrowthBook_Strength.description"><s>手写的力量心得。别人读它可以把作者的经验转成自己的成长经验。</s><r>Мысли о силе почерка. Другие, читающие ее, могут превратить опыт автора в свой собственный опыт роста.</r></e>
+  <e k="D" t="ThingDef" key="Anne_GrowthBook_Strength.label"><s>力量心得</s><r>Силовой опыт</r></e>
+  <e k="D" t="ThingDef" key="Anne_GrowthBook_Will.description"><s>手写的意志心得。别人读它可以把作者的经验转成自己的成长经验。</s><r>Рукописный будет опыт. Другие, читающие ее, могут превратить опыт автора в свой собственный опыт роста.</r></e>
+  <e k="D" t="ThingDef" key="Anne_GrowthBook_Will.label"><s>意志心得</s><r>Будет опыт</r></e>
+  <e k="D" t="ThingDef" key="Anne_GrowthBook_WorkSpec.description"><s>手写的工作专精心得。别人读它可以把作者的经验转成自己的成长经验。</s><r>Опыт работы рукописный. Другие, читающие ее, могут превратить опыт автора в свой собственный опыт роста.</r></e>
+  <e k="D" t="ThingDef" key="Anne_GrowthBook_WorkSpec.label"><s>工作专精心得</s><r>Профессиональный опыт работы</r></e>
+  <e k="D" t="ThoughtDef" key="Anne_RPGLevel_Mood.description"><s>成长带来的那股兴奋劲儿还没过去。</s><r>Волнение взросления еще не прошло.</r></e>
+  <e k="D" t="ThoughtDef" key="Anne_RPGLevel_Mood.label"><s>升级的喜悦</s><r>Радость от обновления</r></e>
+  <e k="D" t="ThoughtDef" key="Anne_RPGLevel_Mood.stages.0.description"><s>刚刚有所长进，心情还不错。</s><r>Я только что добился некоторого прогресса и у меня хорошее настроение.</r></e>
+  <e k="D" t="ThoughtDef" key="Anne_RPGLevel_Mood.stages.0.label"><s>升级的喜悦（1 层）</s><r>Радость обновления (уровень 1)</r></e>
+  <e k="D" t="ThoughtDef" key="Anne_RPGLevel_Mood.stages.1.description"><s>连着长进，越干越有劲。</s><r>Непрерывный прогресс: чем больше вы работаете, тем энергичнее вы будете.</r></e>
+  <e k="D" t="ThoughtDef" key="Anne_RPGLevel_Mood.stages.1.label"><s>升级的喜悦（2 层）</s><r>Радость обновления (уровень 2)</r></e>
+  <e k="D" t="ThoughtDef" key="Anne_RPGLevel_Mood.stages.2.description"><s>接连突破，浑身是劲。</s><r>Прорываясь один за другим, полные энергии.</r></e>
+  <e k="D" t="ThoughtDef" key="Anne_RPGLevel_Mood.stages.2.label"><s>升级的喜悦（3 层）</s><r>Радость обновления (уровень 3)</r></e>
+  <e k="D" t="ThoughtDef" key="Anne_RPGLevel_Mood.stages.3.description"><s>一路飞升，整个人都在发光。</s><r>Весь человек светится вверх.</r></e>
+  <e k="D" t="ThoughtDef" key="Anne_RPGLevel_Mood.stages.3.label"><s>升级的喜悦（4 层）</s><r>Радость обновления (уровень 4)</r></e>
+  <e k="D" t="ThoughtDef" key="Anne_TraitFixed.description"><s>终于把那个一直拖累自己的毛病改掉了，心里轻快了不少。</s><r>Я наконец избавился от проблемы, которая тянула меня вниз, и почувствовал себя намного легче.</r></e>
+  <e k="D" t="ThoughtDef" key="Anne_TraitFixed.label"><s>如释重负</s><r>с облегчением</r></e>
+  <e k="D" t="ThoughtDef" key="Anne_TraitFixed.stages.0.description"><s>那个毛病不再是自己的了。</s><r>Эта проблема больше не ваша.</r></e>
+  <e k="D" t="ThoughtDef" key="Anne_TraitFixed.stages.0.label"><s>如释重负</s><r>с облегчением</r></e>
+</AutoTranslateCache>
