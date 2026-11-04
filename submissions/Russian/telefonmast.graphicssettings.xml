@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="telefonmast.graphicssettings" name="Graphics Settings" language="Russian" version="1">
+  <e k="K" key="GS_AdvancedTab"><s>Settings</s><r>Настройки</r></e>
+  <e k="K" key="GS_AnalysisFailedStatus"><s>Analysis stopped before it finished. Try again.</s><r>Анализ остановился, не успев завершиться. Попробуйте еще раз.</r></e>
+  <e k="K" key="GS_AnisoLevel"><s>Anisotropic Filter Level</s><r>Уровень анизотропного фильтра</r></e>
+  <e k="K" key="GS_AnisoLevelToolTip"><s>Set the level of anisotropic filtering, higher levels may reduce performance on older graphics cards.</s><r>Установите уровень анизотропной фильтрации. Более высокие уровни могут снизить производительность на старых видеокартах.</r></e>
+  <e k="K" key="GS_AnisotropicLevelHelp"><s>Keeps surfaces like floors clearer when viewed at an angle. Higher levels may affect performance.</s><r>Делает такие поверхности, как полы, более четкими, если смотреть под углом. Более высокие уровни могут повлиять на производительность.</r></e>
+  <e k="K" key="GS_AnisotropicLevelValue"><s>Detail level: {0}</s><r>Уровень детализации: {0}</r></e>
+  <e k="K" key="GS_ApplySettings"><s>Apply</s><r>Применять</r></e>
+  <e k="K" key="GS_CacheContinue"><s>Continue</s><r>Продолжать</r></e>
+  <e k="K" key="GS_CachePause"><s>Pause</s><r>Пауза</r></e>
+  <e k="K" key="GS_CacheRecalc"><s>Analyze textures</s><r>Анализ текстур</r></e>
+  <e k="K" key="GS_CacheResume"><s>Resume</s><r>Резюме</r></e>
+  <e k="K" key="GS_CacheStop"><s>Stop</s><r>Останавливаться</r></e>
+  <e k="K" key="GS_CacheWarnOverflow"><s>Your system cannot support these settings.&quot;</s><r>Ваша система не поддерживает эти настройки».</r></e>
+  <e k="K" key="GS_CacheWarnRAM"><s>Not Enough VRAM</s><r>Недостаточно видеопамяти</r></e>
+  <e k="K" key="GS_CacheWarnStruggle"><s>Your system may struggle with these settings.</s><r>Ваша система может иметь проблемы с этими настройками.</r></e>
+  <e k="K" key="GS_CacheWarning"><s>Warning:
+{0}</s><r>Предупреждение:
+{0}</r></e>
+  <e k="K" key="GS_CacheWorking"><s>Analyzing…</s><r>Анализ…</r></e>
+  <e k="K" key="GS_ClearSearch"><s>Clear</s><r>Прозрачный</r></e>
+  <e k="K" key="GS_DefaultPreset"><s>Default</s><r>По умолчанию</r></e>
+  <e k="K" key="GS_EighthResolution"><s>1/8 resolution</s><r>разрешение 1/8</r></e>
+  <e k="K" key="GS_EstimateNotReady"><s>Run an analysis to see the estimate.</s><r>Запустите анализ, чтобы увидеть оценку.</r></e>
+  <e k="K" key="GS_EstimateProgress"><s>Estimating sizes: {0} / {1} mods</s><r>Оценка размеров: {0} / {1} модов.</r></e>
+  <e k="K" key="GS_EstimatedTextureData"><s>Estimated mod texture data: {0}</s><r>Предполагаемые данные текстуры мода: {0}</r></e>
+  <e k="K" key="GS_FilterModeBilinear"><s>Bilinear</s><r>Билинейный</r></e>
+  <e k="K" key="GS_FilterModeHelp"><s>Point keeps pixels sharp. Bilinear softens edges. Trilinear also smooths changes between texture detail levels.</s><r>Точка сохраняет четкость пикселей. Билинейный смягчает края. Trilinear также сглаживает изменения между уровнями детализации текстур.</r></e>
+  <e k="K" key="GS_FilterModePoint"><s>Point</s><r>Точка</r></e>
+  <e k="K" key="GS_FilterModeTrilinear"><s>Trilinear</s><r>Трехлинейный</r></e>
+  <e k="K" key="GS_FilterModeValue"><s>Filtering: {0}</s><r>Фильтрация: {0}</r></e>
+  <e k="K" key="GS_FullResolution"><s>Full resolution</s><r>Полное разрешение</r></e>
+  <e k="K" key="GS_GeneralSettings"><s>General Settings</s><r>Общие настройки</r></e>
+  <e k="K" key="GS_GlobalMipmapLimit"><s>Overall texture resolution</s><r>Общее разрешение текстур</r></e>
+  <e k="K" key="GS_GlobalMipmapLimitDescription"><s>Affects vanilla and mod textures.</s><r>Влияет на ванильные и модовые текстуры.</r></e>
+  <e k="K" key="GS_GlobalMipmapLimitHelp"><s>Lower resolutions reduce detail and can reduce memory use.</s><r>Более низкие разрешения уменьшают детализацию и могут уменьшить использование памяти.</r></e>
+  <e k="K" key="GS_GlobalMipmapLimitValue"><s>Texture resolution: {0}</s><r>Разрешение текстур: {0}</r></e>
+  <e k="K" key="GS_HalfResolution"><s>1/2 resolution</s><r>1/2 разрешения</r></e>
+  <e k="K" key="GS_HideMemoryInfo"><s>Hide reading details.</s><r>Скрыть информацию о прочтении.</r></e>
+  <e k="K" key="GS_InterfaceGroup"><s>Interface</s><r>Интерфейс</r></e>
+  <e k="K" key="GS_MainMenuButton"><s>Show Graphics Settings on the main menu</s><r>Показать настройки графики в главном меню</r></e>
+  <e k="K" key="GS_MainMenuButtonHelp"><s>Show or hide this shortcut on the main menu.</s><r>Показать или скрыть этот ярлык в главном меню.</r></e>
+  <e k="K" key="GS_MemoryInfoEstimateText"><s>Estimates texture data for loaded mods. This is not a measured VRAM total.</s><r>Оценивает данные текстуры для загруженных модов. Это не измеренное общее количество видеопамяти.</r></e>
+  <e k="K" key="GS_MemoryInfoEstimateTitle"><s>Mod texture estimate</s><r>Оценка текстуры мода</r></e>
+  <e k="K" key="GS_MemoryInfoRamText"><s>Shows memory used by the whole game, including non-graphics data.</s><r>Показывает память, используемую всей игрой, включая неграфические данные.</r></e>
+  <e k="K" key="GS_MemoryInfoRamTitle"><s>RAM</s><r>БАРАН</r></e>
+  <e k="K" key="GS_MemoryInfoRangeText"><s>Shows the lowest and highest readings recorded while this window is open. Readings update every two seconds.</s><r>Показывает самые низкие и самые высокие показания, зафиксированные, пока это окно открыто. Показания обновляются каждые две секунды.</r></e>
+  <e k="K" key="GS_MemoryInfoRangeTitle"><s>Minimum and peak</s><r>Минимум и пик</r></e>
+  <e k="K" key="GS_MemoryInfoTitle"><s>About these readings</s><r>Об этих чтениях</r></e>
+  <e k="K" key="GS_MemoryInfoVramText"><s>Shows current graphics memory reported by the game. Driver readings can include all graphics resources used by the game. If unavailable, this shows allocations tracked by the game.</s><r>Показывает текущий объем графической памяти, о котором сообщает игра. Показания драйвера могут включать все графические ресурсы, используемые игрой. Если этот параметр недоступен, отображаются распределения, отслеживаемые игрой.</r></e>
+  <e k="K" key="GS_MemoryInfoVramTitle"><s>VRAM</s><r>Видеопамять</r></e>
+  <e k="K" key="GS_MemorySummaryTitle"><s>Memory overview</s><r>Обзор памяти</r></e>
+  <e k="K" key="GS_MemoryTab"><s>Memory profiler</s><r>Профилировщик памяти</r></e>
+  <e k="K" key="GS_MenuTitle"><s>Graphics Settings</s><r>Настройки графики</r></e>
+  <e k="K" key="GS_MipMapBalancedDefault"><s>Balanced (default)</s><r>Сбалансированный (по умолчанию)</r></e>
+  <e k="K" key="GS_MipMapBalancedPerformance"><s>Balanced performance</s><r>Сбалансированная производительность</r></e>
+  <e k="K" key="GS_MipMapBalancedQuality"><s>Balanced quality</s><r>Сбалансированное качество</r></e>
+  <e k="K" key="GS_MipMapBias"><s>MipMap Bias</s><r>Смещение MipMap</r></e>
+  <e k="K" key="GS_MipMapBiasDescription"><s>Adjust texture sharpness as you zoom in and out.</s><r>Регулируйте резкость текстуры при увеличении и уменьшении масштаба.</r></e>
+  <e k="K" key="GS_MipMapBiasHelp"><s>Move right for sharper textures. Very sharp settings can make fine details shimmer.</s><r>Двигайтесь вправо, чтобы получить более четкие текстуры. Очень резкие настройки могут привести к мерцанию мелких деталей.</r></e>
+  <e k="K" key="GS_MipMapBiasSection"><s>Texture sharpness</s><r>Резкость текстуры</r></e>
+  <e k="K" key="GS_MipMapBiasValue"><s>Sharpness: {0}</s><r>Резкость: {0}</r></e>
+  <e k="K" key="GS_MipMapBlurry"><s>Blurriest</s><r>Самый размытый</r></e>
+  <e k="K" key="GS_MipMapPerformanceMode"><s>Performance</s><r>Производительность</r></e>
+  <e k="K" key="GS_MipMapQualityMode"><s>Quality</s><r>Качество</r></e>
+  <e k="K" key="GS_MipMapSharp"><s>Sharpest</s><r>Самый острый</r></e>
+  <e k="K" key="GS_MipMapToolTip"><s>This value changes how blurry textures can get depending on zoom, it is recommended to be equal or below 0.</s><r>Это значение меняет степень размытия текстур в зависимости от масштаба. Рекомендуется устанавливать его равным или ниже 0.</r></e>
+  <e k="K" key="GS_MipMapping"><s>(Recommended) Activate Mip-Mapping</s><r>(Рекомендуется) Активировать мип-маппинг</r></e>
+  <e k="K" key="GS_ModEstimatedPayloadTooltip"><s>Estimated texture data: {0}. This is {1} of the total estimate.</s><r>Предполагаемые данные текстуры: {0}. Это {1} от общей сметы.</r></e>
+  <e k="K" key="GS_ModMemoryRowLabel"><s>{0}: {1}, {3} textures ({2})</s><r>{0}: {1}, {3} текстуры ({2})</r></e>
+  <e k="K" key="GS_ModMemoryRowNoEstimateLabel"><s>{0}: no estimate, {1} textures</s><r>{0}: нет оценки, {1} текстуры</r></e>
+  <e k="K" key="GS_ModNoTextureEstimate"><s>No size estimate available</s><r>Нет оценки размера</r></e>
+  <e k="K" key="GS_ModNoTextureEstimateTooltip"><s>This mod's texture sizes could not be estimated.</s><r>Не удалось оценить размеры текстур этого мода.</r></e>
+  <e k="K" key="GS_ModsShown"><s>{0} / {1} mods analyzed</s><r>{0} / {1} проанализированы моды</r></e>
+  <e k="K" key="GS_ModsToProcessLabel"><s>{0} mods have loaded textures. Run an analysis to see results.</s><r>{0} моды загрузили текстуры. Запустите анализ, чтобы увидеть результаты.</r></e>
+  <e k="K" key="GS_NoMatchingMods"><s>No mods match this search.</s><r>Никакие моды не соответствуют этому запросу.</r></e>
+  <e k="K" key="GS_NoModsToProcess"><s>No mod textures are loaded.</s><r>Текстуры модов не загружаются.</r></e>
+  <e k="K" key="GS_OpenSettings"><s>Graphics Settings</s><r>Настройки графики</r></e>
+  <e k="K" key="GS_OverrideAnisotropicLevel"><s>Improve detail on angled surfaces</s><r>Улучшите детализацию наклонных поверхностей.</r></e>
+  <e k="K" key="GS_OverrideFilterMode"><s>Change texture filtering</s><r>Изменить фильтрацию текстур</r></e>
+  <e k="K" key="GS_OverrideGlobalMipmapLimit"><s>Adjust texture resolution</s><r>Настройка разрешения текстур</r></e>
+  <e k="K" key="GS_OverrideMipMapBias"><s>Adjust texture sharpness</s><r>Настройка резкости текстуры</r></e>
+  <e k="K" key="GS_PresetsHelp"><s>Recommended sharpens textures and improves detail on angled surfaces. Default restores the game's settings.</s><r>Рекомендуется повышает резкость текстур и улучшает детализацию наклонных поверхностей. Default восстанавливает настройки игры.</r></e>
+  <e k="K" key="GS_PresetsTitle"><s>Presets</s><r>Пресеты</r></e>
+  <e k="K" key="GS_Preview"><s>Preview</s><r>Предварительный просмотр</r></e>
+  <e k="K" key="GS_PreviewCurrent"><s>Current settings</s><r>Текущие настройки</r></e>
+  <e k="K" key="GS_PreviewDefault"><s>Default</s><r>По умолчанию</r></e>
+  <e k="K" key="GS_PreviewHint"><s>This is a sample image, not a game scene. Results may look different in game.</s><r>Это образец изображения, а не игровая сцена. Результаты могут выглядеть по-другому в игре.</r></e>
+  <e k="K" key="GS_PreviewSplitTestColors"><s>Show split test colors</s><r>Показать цвета разделенного теста</r></e>
+  <e k="K" key="GS_PreviewUnavailable"><s>Preview image is unavailable.</s><r>Изображение для предварительного просмотра недоступно.</r></e>
+  <e k="K" key="GS_QuarterResolution"><s>1/4 resolution</s><r>разрешение 1/4</r></e>
+  <e k="K" key="GS_ReadTextureMetadataProgress"><s>Checking textures: {2} / {3} assets ({0} / {1} mods)</s><r>Проверка текстур: {2} / {3} активы ({0} / {1} моды)</r></e>
+  <e k="K" key="GS_RecalcProcess"><s>Calculating... Please wait.</s><r>Вычисление... Пожалуйста, подождите.</r></e>
+  <e k="K" key="GS_RecommendedPreset"><s>Recommended</s><r>Рекомендуется</r></e>
+  <e k="K" key="GS_Reset"><s>Reset</s><r>Перезагрузить</r></e>
+  <e k="K" key="GS_ResetToDefaults"><s>Reset to defaults</s><r>Сбросить настройки по умолчанию</r></e>
+  <e k="K" key="GS_RestartGameButton"><s>Restart Game</s><r>Перезапустить игру</r></e>
+  <e k="K" key="GS_RestartRequired"><s>You will have to restart the game to apply changes!</s><r>Вам придется перезапустить игру, чтобы изменения вступили в силу!</r></e>
+  <e k="K" key="GS_RuntimeRamLabel"><s>RAM</s><r>БАРАН</r></e>
+  <e k="K" key="GS_RuntimeUnavailable"><s>Not available</s><r>Нет в наличии</r></e>
+  <e k="K" key="GS_RuntimeVramLabel"><s>VRAM</s><r>Видеопамять</r></e>
+  <e k="K" key="GS_SearchMods"><s>Search mods</s><r>Поиск модов</r></e>
+  <e k="K" key="GS_SearchModsTip"><s>Filter by mod name or package ID.</s><r>Фильтровать по названию мода или идентификатору пакета.</r></e>
+  <e k="K" key="GS_ShowMemoryInfo"><s>Show details about these readings.</s><r>Показать подробную информацию об этих чтениях.</r></e>
+  <e k="K" key="GS_SummaryCounts"><s>{0} mods, {1} textures</s><r>{0} моды, {1} текстуры</r></e>
+  <e k="K" key="GS_SummaryEstimateLabel"><s>Mod texture estimate</s><r>Оценка текстуры мода</r></e>
+  <e k="K" key="GS_SummaryEstimateScenario"><s>Approximate texture data for loaded mods</s><r>Приблизительные данные текстур для загруженных модов</r></e>
+  <e k="K" key="GS_SummaryModsTitle"><s>Estimated texture data by mod</s><r>Предполагаемые данные текстур по модам</r></e>
+  <e k="K" key="GS_SummaryUnestimatedTextures"><s>{0} textures could not be estimated</s><r>{0} текстуры оценить невозможно</r></e>
+  <e k="K" key="GS_SummaryWaiting"><s>Run an analysis to see the estimate.</s><r>Запустите анализ, чтобы увидеть оценку.</r></e>
+  <e k="K" key="GS_TextureFiltering"><s>Texture Filtering</s><r>Фильтрация текстур</r></e>
+  <e k="K" key="GS_TextureSampling"><s>Texture filtering</s><r>Фильтрация текстур</r></e>
+  <e k="K" key="GS_UnestimatedTextureCount"><s>{0} textures not included in the estimate</s><r>{0} текстуры не включены в смету</r></e>
+  <e k="K" key="GS_VramBudgetTooltip"><s>Reported GPU memory budget: {0}</s><r>Заявленный бюджет памяти графического процессора: {0}</r></e>
+  <e k="K" key="GS_VramCurrentTooltip"><s>Current reading: {0}</s><r>Текущее чтение: {0}</r></e>
+  <e k="K" key="GS_VramDeviceLimitTooltip"><s>GPU memory limit used for the bar scale: {0}</s><r>Ограничение памяти графического процессора, используемое для шкалы: {0}</r></e>
+  <e k="K" key="GS_VramDriverBudgetValue"><s>{0} reported of {1} budget</s><r>{0} сообщается о {1} бюджете</r></e>
+  <e k="K" key="GS_VramDriverOnlyValue"><s>{0} reported by the driver</s><r>{0} сообщил водитель</r></e>
+  <e k="K" key="GS_VramDriverTooltip"><s>Reading reported by the graphics driver. It includes GPU resources beyond mod textures.</s><r>Чтение сообщается графическим драйвером. Он включает в себя ресурсы графического процессора, помимо текстур модов.</r></e>
+  <e k="K" key="GS_VramDriverTotalValue"><s>{0} reported of {1} GPU memory</s><r>{0} сообщается о {1} памяти графического процессора</r></e>
+  <e k="K" key="GS_VramLowTooltip"><s>Minimum VRAM usage recorded while this window is open</s><r>Минимальное использование видеопамяти, зафиксированное, пока это окно открыто.</r></e>
+  <e k="K" key="GS_VramMinLabel"><s>Min: {0}</s><r>Мин: {0}</r></e>
+  <e k="K" key="GS_VramObservedRange"><s>Min: {0}, Peak: {1}</s><r>Мин.: {0}, Пик: {1}</r></e>
+  <e k="K" key="GS_VramPeakLabel"><s>Peak: {0}</s><r>Пик: {0}</r></e>
+  <e k="K" key="GS_VramPeakTooltip"><s>Maximum VRAM usage recorded while this window is open</s><r>Максимальное использование видеопамяти, зафиксированное, пока это окно открыто.</r></e>
+  <e k="K" key="GS_VramRangeUnavailable"><s>No readings available</s><r>Нет доступных показаний</r></e>
+  <e k="K" key="GS_VramRangeWaiting"><s>Collecting readings</s><r>Сбор показаний</r></e>
+  <e k="K" key="GS_VramTrackedOnlyValue"><s>{0} tracked by the game</s><r>{0} отслеживается игрой</r></e>
+  <e k="K" key="GS_VramTrackedTooltip"><s>Fallback reading of GPU allocations tracked by the game. It may miss allocations managed elsewhere.</s><r>Резервное чтение выделений графического процессора, отслеживаемых игрой. Он может пропустить выделения, управляемые где-то еще.</r></e>
+  <e k="K" key="GS_VramTrackedTotalValue"><s>{0} tracked by the game of {1} GPU memory</s><r>{0} отслеживается игрой {1} памяти графического процессора</r></e>
+</AutoTranslateCache>
