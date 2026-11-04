@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="fuu.bloodanimations" name="Blood Animations" language="Russian" version="1">
+  <e k="D" t="ThingDef" key="Filth_BulletCasingsCharge.label"><s>energy cartridges</s><r>энергетические картриджи</r></e>
+  <e k="D" t="ThingDef" key="Filth_BulletCasingsRifle.label"><s>bullet casings</s><r>гильзы для пуль</r></e>
+  <e k="D" t="ThingDef" key="Filth_BulletCasingsShotgun.label"><s>shotgun hulls</s><r>корпуса дробовика</r></e>
+  <e k="D" t="ThingDef" key="Fuu_BulletCasingCharge.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="Fuu_BulletCasingRifle.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="Fuu_BulletCasingShotgun.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="Fuu_Filth_Blood_Fleshbeast.label"><s>blood</s><r>кровь</r></e>
+  <e k="D" t="ThingDef" key="Fuu_FlyingPiece.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="K" key="BloodAnimations_BleedRate"><s>Amount of bleeding particles (Animated bleeding based on pawn bleed rate)</s><r>Количество кровоточащих частиц (анимированное кровотечение на основе скорости кровотечения пешки)</r></e>
+  <e k="K" key="BloodAnimations_BloodMultiplier"><s>Amount of blood particles (Flying particles from direct damage on pawns)</s><r>Количество частиц крови (Летающие частицы от прямого урона по пешкам)</r></e>
+  <e k="K" key="BloodAnimations_BloodTime"><s>Time until particles fade</s><r>Время, пока частицы не исчезнут</r></e>
+  <e k="K" key="BloodAnimations_BulletCasingFilthToggle"><s>Enable filth left by bullets (Chance for gunfire to leave bullet casing filth that require colonists to clean up)</s><r>Включить грязь, оставленную пулями (вероятность того, что при стрельбе останется грязь из гильзы пули, которую колонистам придется убирать)</r></e>
+  <e k="K" key="BloodAnimations_BulletCasingToggle"><s>Enable bullet casings (Shell ejection animation from firing guns)</s><r>Включить гильзы (анимация выброса гильз из оружия)</r></e>
+  <e k="K" key="BloodAnimations_DebrisMultiplier"><s>Amount of debris particles (Flying particles from direct damage on structures)</s><r>Количество частиц мусора (Летящие частицы от прямых повреждений конструкций)</r></e>
+  <e k="K" key="BloodAnimations_FilthMultiplier"><s>Filth left by particles (Percentage of particles that leave blood/debris filth that require colonists to clean up)</s><r>Грязь, оставленная частицами (процент частиц, оставляющих кровь/обломки, которые требуют уборки колонистами)</r></e>
+  <e k="K" key="BloodAnimations_GroundImpactToggle"><s>Enable ground impact particles (Bullets hitting the ground will create flying dirt chunks)</s><r>Включить частицы удара о землю (пули, ударяющиеся о землю, создают летящие куски грязи)</r></e>
+  <e k="K" key="BloodAnimations_ResetAll"><s>Reset All</s><r>Сбросить все</r></e>
+  <e k="K" key="BloodAnimations_Title"><s>Blood Animations</s><r>Анимации крови</r></e>
+  <e k="K" key="BloodAnimations_Warning"><s>*High numbers may impact performance</s><r>*Высокие значения могут повлиять на производительность.</r></e>
+</AutoTranslateCache>
