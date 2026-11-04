@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="syrchalis.processor.framework" name="[SYR] Processor Framework - Legacy Edition" language="Russian" version="1">
+  <e k="D" t="JobDef" key="EmptyProcessor.reportString"><s>taking product out of TargetA.</s><r>вынимаем продукт из TargetA.</r></e>
+  <e k="D" t="JobDef" key="FillProcessor.reportString"><s>filling TargetA.</s><r>заполнение TargetA.</r></e>
+  <e k="D" t="ThingDef" key="BarrelProcessor.description"><s>A barrel for fermenting various things into other products. It is not limited to fermenting a specific thing, so you could call it a &quot;universal fermenter&quot;.</s><r>Бочка для ферментации различных веществ в другие продукты. Он не ограничивается ферментацией чего-то конкретного, поэтому его можно назвать «универсальным ферментером».</r></e>
+  <e k="D" t="ThingDef" key="BarrelProcessor.label"><s>fermenting barrel</s><r>бродильная бочка</r></e>
+  <e k="D" t="WorkGiverDef" key="EmptyProcessor.gerund"><s>taking product from</s><r>брать продукт из</r></e>
+  <e k="D" t="WorkGiverDef" key="EmptyProcessor.label"><s>empty processor</s><r>пустой процессор</r></e>
+  <e k="D" t="WorkGiverDef" key="EmptyProcessor.verb"><s>take product</s><r>взять продукт</r></e>
+  <e k="D" t="WorkGiverDef" key="FillProcessor.gerund"><s>filling</s><r>наполнение</r></e>
+  <e k="D" t="WorkGiverDef" key="FillProcessor.label"><s>fill processor</s><r>процессор заполнения</r></e>
+  <e k="D" t="WorkGiverDef" key="FillProcessor.verb"><s>fill</s><r>наполнять</r></e>
+  <e k="K" key="PF_ApplySettings"><s>Apply settings</s><r>Применить настройки</r></e>
+  <e k="K" key="PF_ContainsIngredient"><s>Capacity: {0} / {1} {INGREDIENTS}</s><r>Вместимость: {0} / {1} {INGREDIENTS}</r></e>
+  <e k="K" key="PF_ContainsIngredientsGeneric"><s>Capacity: {0} / {1}</s><r>Вместимость: {0} / {1}</r></e>
+  <e k="K" key="PF_ContainsProduct"><s>Capacity: {0} / {1} {PRODUCT_label} ({QUALITY})</s><r>Емкость: {0} / {1} {PRODUCT_label} ({QUALITY})</r></e>
+  <e k="K" key="PF_CreatingTooltip1"><s>Creating {PRODUCT}{QUALITY} from {INGREDIENT}.
+</s><r>Создание {PRODUCT}{QUALITY} из {INGREDIENT}.
+</r></e>
+  <e k="K" key="PF_CreatingTooltip2_NoQuality"><s>
+Processing time: {TIME}.
+</s><r>
+Время обработки: {TIME}.
+</r></e>
+  <e k="K" key="PF_CreatingTooltip2_Quality"><s>
+Processing time to Awful quality: {TOAWFUL}.
+</s><r>
+Время обработки до ужасного качества: {TOAWFUL}.
+</r></e>
+  <e k="K" key="PF_CreatingTooltip3"><s>
+Ideal running temperature: {MIN}~{MAX}.
+</s><r>
+Идеальная рабочая температура: {MIN}~{MAX}.
+</r></e>
+  <e k="K" key="PF_CreatingTooltip4"><s>Safe temperature: {MIN}~{MAX}.
+Spoilage rate: {PERHOUR} / degree / hr
+</s><r>Безопасная температура: {MIN}~{MAX}.
+ Скорость порчи: {PERHOUR} / градус / час
+</r></e>
+  <e k="K" key="PF_CreatingTooltip5"><s>
+Product is {0} spoiled.
+</s><r>
+Продукт {0} испорчен.
+</r></e>
+  <e k="K" key="PF_CreatingTooltip6"><s>Spoiling now! Temperature is {0}!</s><r>Сейчас порчу! Температура {0}!</r></e>
+  <e k="K" key="PF_DefaultSettings"><s>Reset to default</s><r>Сбросить настройки по умолчанию</r></e>
+  <e k="K" key="PF_DefaultSettingsTooltip"><s>Reset settings to default values</s><r>Сброс настроек к значениям по умолчанию</r></e>
+  <e k="K" key="PF_DestroyChanceTooltip"><s>Chance processor will be destroyed when this product is retrieved</s><r>Вероятно, процессор будет уничтожен при извлечении этого продукта.</r></e>
+  <e k="K" key="PF_EfficiencyTooltip"><s>Amount of ingredient needed for one product</s><r>Количество ингредиентов, необходимое для одного продукта</r></e>
+  <e k="K" key="PF_FermentingItems"><s>Ingredients</s><r>Ингредиенты</r></e>
+  <e k="K" key="PF_Finished"><s>Finished</s><r>Законченный</r></e>
+  <e k="K" key="PF_ITab_ItemSelection"><s>Processes</s><r>Процессы</r></e>
+  <e k="K" key="PF_Ideal"><s>Ideal</s><r>Идеально</r></e>
+  <e k="K" key="PF_IdealSafeProductionTemperature"><s>Ideal (safe) production temp</s><r>Идеальная (безопасная) температура производства</r></e>
+  <e k="K" key="PF_IngredientIcon"><s>Show ingredient icon</s><r>Показать значок ингредиента</r></e>
+  <e k="K" key="PF_IngredientIconTooltip"><s>Displays icons next to ingredients in the process selection inspector tab</s><r>Отображает значки рядом с ингредиентами на вкладке инспектора выбора процесса.</r></e>
+  <e k="K" key="PF_NextDesc"><s>Produce {0} from {1}.</s><r>Произведите {0} из {1}.</r></e>
+  <e k="K" key="PF_NoIngredient"><s>No ingredients</s><r>Нет ингредиентов</r></e>
+  <e k="K" key="PF_NonIdealInfluences"><s>Non-ideal {0}</s><r>Неидеальный {0}</r></e>
+  <e k="K" key="PF_NonIdealSpeedFactor"><s>Speed: {0}</s><r>Скорость: {0}</r></e>
+  <e k="K" key="PF_None"><s>None</s><r>Никто</r></e>
+  <e k="K" key="PF_NumProcessing"><s>{0} {STACKS} processing</s><r>{0} {STACKS} обработка</r></e>
+  <e k="K" key="PF_OldBarrelInspectString"><s>Old vanilla barrel, install it anywhere to replace it for universal fermenter</s><r>Старая ванильная бочка, установите ее где угодно, чтобы заменить универсальный ферментер.</r></e>
+  <e k="K" key="PF_ProcessIconSize"><s>Process icon size</s><r>Размер значка процесса</r></e>
+  <e k="K" key="PF_ProcessIconSizeTooltip"><s>Sets the size for the process icon that is shown on some processing buildings (default: 60%)</s><r>Устанавливает размер значка процесса, который отображается на некоторых перерабатывающих зданиях (по умолчанию: 60%).</r></e>
+  <e k="K" key="PF_Product"><s>Product</s><r>Продукт</r></e>
+  <e k="K" key="PF_ProductIcon"><s>Show product icon</s><r>Показать значок продукта</r></e>
+  <e k="K" key="PF_ProductIconTooltip"><s>Displays icons next to products in the process selection inspector tab</s><r>Отображает значки рядом с продуктами на вкладке инспектора выбора процесса.</r></e>
+  <e k="K" key="PF_Progress"><s>Progress: {0} ({1})</s><r>Прогресс: {0} ({1})</r></e>
+  <e k="K" key="PF_QualityTooltip1"><s>Target quality: {TARGET}
+Current quality: {CURRENT}
+
+</s><r>Target качество: {TARGET}
+Текущее качество: {CURRENT}
+
+</r></e>
+  <e k="K" key="PF_QualityTooltip2"><s>Processing time left for
+Awful: {AWFUL}
+Poor: {POOR}
+Normal: {NORMAL}
+Good: {GOOD}
+Excellent: {EXCELLENT}
+Masterwork: {MASTERWORK}
+Legendary: {LEGENDARY}</s><r>Оставшееся время обработки для
+Ужасно: {AWFUL}
+Плохо: {POOR}
+Нормально: {NORMAL}
+Хорошо: {GOOD}
+Отлично: {EXCELLENT}
+Выдающаяся работа: {MASTERWORK}
+Легендарный: {LEGENDARY}</r></e>
+  <e k="K" key="PF_QualityTooltipNA"><s>{PRODUCT_label} is always the same quality.</s><r>{PRODUCT_label} всегда одинаковое качество.</r></e>
+  <e k="K" key="PF_ReplaceVanillaBarrels"><s>Replace vanilla barrels</s><r>Заменить ванильные бочки</r></e>
+  <e k="K" key="PF_ReplaceVanillaBarrelsTooltip"><s>Replaces all vanilla fermenting barrels for the PF ones, intended to be used after adding PF to an existing game, not multiplayer safe</s><r>Заменяет все ванильные бочки для брожения на PF, предназначенные для использования после добавления PF в существующую игру, не безопасны для многопользовательской игры.</r></e>
+  <e k="K" key="PF_Ruined"><s>Ruined</s><r>Разрушенный</r></e>
+  <e k="K" key="PF_RunningCountFinished"><s>({0} finished)</s><r>({0} закончено)</r></e>
+  <e k="K" key="PF_RunningCountRuined"><s>({0} ruined)</s><r>({0} разрушен)</r></e>
+  <e k="K" key="PF_RunningCountSlow"><s>({0} slow)</s><r>({0} медленно)</r></e>
+  <e k="K" key="PF_RunningInfo"><s>Running ({0} complete)</s><r>Работает ({0} завершено)</r></e>
+  <e k="K" key="PF_RunningSlow"><s>Running slowly: {SPEED} speed ({COMPLETE} complete)</s><r>Медленный бег: скорость {SPEED} ({COMPLETE} завершено)</r></e>
+  <e k="K" key="PF_RunningStacksNoun"><s>stack</s><r>куча</r></e>
+  <e k="K" key="PF_Safe"><s>Safe</s><r>Безопасный</r></e>
+  <e k="K" key="PF_SetQualityDesc"><s>Set the target quality for the process.</s><r>Установите целевое качество процесса.</r></e>
+  <e k="K" key="PF_SettingsCategory"><s>Processor Framework</s><r>Структура процессора</r></e>
+  <e k="K" key="PF_ShowCurrentQualityIcon"><s>Show current quality icon</s><r>Показать значок текущего качества</r></e>
+  <e k="K" key="PF_ShowCurrentQualityIconTooltip"><s>Shows an icon next to the progress bar that indicates the current quality of the product (default: true)</s><r>Показывает значок рядом с индикатором выполнения, который указывает текущее качество продукта (по умолчанию: true).</r></e>
+  <e k="K" key="PF_ShowProcessBar"><s>Show progress bar</s><r>Показать индикатор выполнения</r></e>
+  <e k="K" key="PF_ShowProcessBarTooltip"><s>Displays progress bar of the active process</s><r>Отображает индикатор выполнения активного процесса.</r></e>
+  <e k="K" key="PF_ShowProcessIcon"><s>Show process icon</s><r>Показать значок процесса</r></e>
+  <e k="K" key="PF_ShowProcessIconTooltip"><s>If enabled allows showing of process icon on buildings that have it enabled, otherwise will never show icons on buildings (default: true)</s><r>Если этот параметр включен, разрешается отображение значка процесса на зданиях, в которых он включен, в противном случае значки на зданиях никогда не будут отображаться (по умолчанию: true).</r></e>
+  <e k="K" key="PF_ShowTargetQualityIcon"><s>Show target quality icon</s><r>Показать значок целевого качества</r></e>
+  <e k="K" key="PF_ShowTargetQualityIconTooltip"><s>Shows an icon next to the process icon that indicates the target quality set, only works if 'show process icon' is true (default: false)</s><r>Показывает значок рядом со значком процесса, который указывает целевой набор качества. Работает только в том случае, если для параметра «показать значок процесса» установлено значение true (по умолчанию: false).</r></e>
+  <e k="K" key="PF_SingleItemIcon"><s>Single item icons</s><r>Значки отдельных элементов</r></e>
+  <e k="K" key="PF_SingleItemIconTooltip"><s>If enabled will use icons that resemble a single item, otherwise will use icons that resemble a full stack (default: true)</s><r>Если этот параметр включен, будут использоваться значки, напоминающие один элемент, в противном случае будут использоваться значки, напоминающие полный стек (по умолчанию: true).</r></e>
+  <e k="K" key="PF_SpeedTooltip1"><s>{COMPLETEPERCENT} complete
+Speed: {SPEED}
+
+</s><r>{COMPLETEPERCENT} завершено
+Скорость: {SPEED}
+
+</r></e>
+  <e k="K" key="PF_SpeedTooltip2"><s>Speed factors:
+Temperature: {TEMPERATURE}
+Wind: {WIND}
+Sun: {SUN}
+Rain: {RAIN}
+Snow: {SNOW}
+
+</s><r>Факторы скорости:
+Температура: {TEMPERATURE}
+Ветер: {WIND}
+Солнце: {SUN}
+Дождь: {RAIN}
+Снег: {SNOW}
+
+</r></e>
+  <e k="K" key="PF_SpeedTooltip3"><s>Estimated completion in: {ESTIMATED}</s><r>Предполагаемое завершение через: {ESTIMATED}</r></e>
+  <e k="K" key="PF_TabContents"><s>Contents</s><r>Содержание</r></e>
+  <e k="K" key="PF_TabIngredientFilter"><s>Filter</s><r>Фильтр</r></e>
+  <e k="K" key="PF_TabProductFilter"><s>Product</s><r>Продукт</r></e>
+  <e k="K" key="PF_WeatherRain"><s>rain</s><r>дождь</r></e>
+  <e k="K" key="PF_WeatherSnow"><s>snow</s><r>снег</r></e>
+  <e k="K" key="PF_WeatherSunshine"><s>sunshine</s><r>солнечный свет</r></e>
+  <e k="K" key="PF_WeatherTemperature"><s>temperature</s><r>температура</r></e>
+  <e k="K" key="PF_WeatherWind"><s>wind</s><r>ветер</r></e>
+  <e k="K" key="PF_allDisabled"><s>Disabled</s><r>Неполноценный</r></e>
+  <e k="K" key="PF_allDisabledTooltip"><s>All processes on newly built processors are disabled</s><r>Все процессы на новых процессорах отключены.</r></e>
+  <e k="K" key="PF_allEnabled"><s>Enabled</s><r>Включено</r></e>
+  <e k="K" key="PF_allEnabledTooltip"><s>All processes on newly built processors are enabled</s><r>Все процессы на новых процессорах включены.</r></e>
+  <e k="K" key="PF_defaultQuality"><s>Default target quality</s><r>Целевое качество по умолчанию</r></e>
+  <e k="K" key="PF_defaultQualityTooltip"><s>Which target quality is set by default for processes that use quality</s><r>Какое целевое качество установлено по умолчанию для процессов, использующих качество?</r></e>
+  <e k="K" key="PF_dontEmpty"><s>Cancel empty designation</s><r>Отменить пустое обозначение</r></e>
+  <e k="K" key="PF_dontEmptyDescription"><s>Cancels the designation for this processor to be emptied</s><r>Отменяет назначение этого процессора для очистки.</r></e>
+  <e k="K" key="PF_emptyNow"><s>Designates this processor to be emptied</s><r>Назначает этот процессор для очистки</r></e>
+  <e k="K" key="PF_emptyNowDescription"><s>Designates this processor to be emptied by colonists, no matter what quality has been reached</s><r>Назначает этот процессор для очистки колонистами, независимо от достигнутого качества.</r></e>
+  <e k="K" key="PF_firstOnly"><s>First only</s><r>Только сначала</r></e>
+  <e k="K" key="PF_firstOnlyTooltip"><s>Only the first process on newly built processors is enabled</s><r>На новых процессорах включен только первый процесс.</r></e>
+  <e k="K" key="PF_initialProcessState"><s>Default configuration of processes</s><r>Конфигурация процессов по умолчанию</r></e>
+  <e k="K" key="PF_initialProcessStateTooltip"><s>This setting controls how newly built processors have their processes toggled</s><r>Этот параметр управляет тем, как вновь построенные процессоры переключают свои процессы.</r></e>
+  <e k="K" key="PF_replaceDestroyedProcessors"><s>Replace destroyed processors</s><r>Заменить разрушенные процессоры</r></e>
+  <e k="K" key="PF_replaceDestroyedProcessorsTooltip"><s>Some processes destroy the processor, enabling this option will place a blueprint if that happens</s><r>Некоторые процессы разрушают процессор, включение этой опции приведет к размещению схемы, если это произойдет.</r></e>
+</AutoTranslateCache>
