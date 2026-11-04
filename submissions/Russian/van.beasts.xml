@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="van.beasts" name="Dark Ages : Beasts and Monsters" language="Russian" version="1">
+  <e k="D" t="AbilityDef" key="DA_CrushingSlam.description"><s>Slam the ground several times, destabilizing and dealing damage to everyone in the area.</s><r>Несколько раз ударьте по земле, дестабилизируя и нанося урон всем, кто находится в этом районе.</r></e>
+  <e k="D" t="AbilityDef" key="DA_CrushingSlam.label"><s>crushing slam</s><r>сокрушительный удар</r></e>
+  <e k="D" t="AbilityDef" key="DA_FrogLeap.description"><s>Jump a short distance using densely-muscled frog legs.</s><r>Прыгните на небольшое расстояние, используя мускулистые лягушачьи лапки.</r></e>
+  <e k="D" t="AbilityDef" key="DA_FrogLeap.label"><s>frogleap</s><r>лягушачий прыжок</r></e>
+  <e k="D" t="AbilityDef" key="DA_FrogLeap.verbProperties.label"><s>leap</s><r>прыгнуть</r></e>
+  <e k="D" t="AbilityDef" key="DA_GiantRockThrow.description"><s>Rip a large boulder from the ground and throw it.</s><r>Оторвите от земли большой валун и бросьте его.</r></e>
+  <e k="D" t="AbilityDef" key="DA_GiantRockThrow.label"><s>boulder throw</s><r>бросок валуна</r></e>
+  <e k="D" t="AbilityDef" key="DA_ImmobilizingBite.description"><s>Immobilize a humanoid in place for a few seconds.</s><r>Обездвижьте гуманоида на месте на несколько секунд.</r></e>
+  <e k="D" t="AbilityDef" key="DA_ImmobilizingBite.label"><s>immobilizing bite</s><r>обездвиживающий прикус</r></e>
+  <e k="D" t="AbilityDef" key="DA_MuckbileSpew.description"><s>Spray an acidic bile all over the target area. The mucky bile will stick to targets and slow them.</s><r>Распылите кислую желчь по всей целевой области. Грязная желчь прилипает к цели и замедляет ее.</r></e>
+  <e k="D" t="AbilityDef" key="DA_MuckbileSpew.label"><s>muckbile spew</s><r>гадость извергает</r></e>
+  <e k="D" t="AbilityDef" key="DA_StunningScreech.description"><s>Release a piercing screech which stuns nearby hostile humans and animals.</s><r>Издайте пронзительный визг, который оглушит находящихся рядом враждебных людей и животных.</r></e>
+  <e k="D" t="AbilityDef" key="DA_StunningScreech.label"><s>stunning screech</s><r>потрясающий визг</r></e>
+  <e k="D" t="AbilityDef" key="DA_ToxicBarbspike.description"><s>Throw four toxic barbspikes at a medium distance, can inflict tox.</s><r>Бросьте четыре ядовитых шипа на среднее расстояние, это может вызвать отравление.</r></e>
+  <e k="D" t="AbilityDef" key="DA_ToxicBarbspike.label"><s>barbed quills</s><r>колючие иглы</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClaws.corePart.parts.10.customLabel"><s>front right leg</s><r>передняя правая нога</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClaws.corePart.parts.10.parts.0.customLabel"><s>front right leg first claw</s><r>первый коготь передней правой ноги</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClaws.corePart.parts.10.parts.1.customLabel"><s>front right leg second claw</s><r>второй коготь передней правой ноги</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClaws.corePart.parts.10.parts.2.customLabel"><s>front right leg third claw</s><r>третья коготь передней правой ноги</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClaws.corePart.parts.11.customLabel"><s>rear left leg</s><r>задняя левая нога</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClaws.corePart.parts.11.parts.0.customLabel"><s>rear left leg first claw</s><r>первый коготь задней левой ноги</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClaws.corePart.parts.11.parts.1.customLabel"><s>rear left leg second claw</s><r>второй коготь задней левой ноги</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClaws.corePart.parts.11.parts.2.customLabel"><s>rear left leg third claw</s><r>третий коготь задней левой ноги</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClaws.corePart.parts.12.customLabel"><s>rear right leg</s><r>задняя правая нога</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClaws.corePart.parts.12.parts.0.customLabel"><s>rear right leg first claw</s><r>первый коготь задней правой ноги</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClaws.corePart.parts.12.parts.1.customLabel"><s>rear right leg second claw</s><r>второй коготь задней правой ноги</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClaws.corePart.parts.12.parts.2.customLabel"><s>rear right leg third claw</s><r>третья коготь задней правой ноги</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClaws.corePart.parts.3.customLabel"><s>left lung</s><r>левое легкое</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClaws.corePart.parts.4.customLabel"><s>right lung</s><r>правое легкое</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClaws.corePart.parts.5.customLabel"><s>left kidney</s><r>левая почка</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClaws.corePart.parts.6.customLabel"><s>right kidney</s><r>правая почка</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClaws.corePart.parts.8.parts.0.parts.1.customLabel"><s>left eye</s><r>левый глаз</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClaws.corePart.parts.8.parts.0.parts.2.customLabel"><s>right eye</s><r>правый глаз</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClaws.corePart.parts.9.customLabel"><s>front left leg</s><r>передняя левая нога</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClaws.corePart.parts.9.parts.0.customLabel"><s>front left leg first claw</s><r>первый коготь передней левой ноги</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClaws.corePart.parts.9.parts.1.customLabel"><s>front left leg second claw</s><r>второй коготь передней левой ноги</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClaws.corePart.parts.9.parts.2.customLabel"><s>front left leg third claw</s><r>третья коготь передней левой ноги</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClaws.label"><s>bipedal animal</s><r>двуногое животное</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClawsAndTail.corePart.parts.10.customLabel"><s>front left leg</s><r>передняя левая нога</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClawsAndTail.corePart.parts.10.parts.0.customLabel"><s>front left leg first claw</s><r>первый коготь передней левой ноги</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClawsAndTail.corePart.parts.10.parts.1.customLabel"><s>front left leg second claw</s><r>второй коготь передней левой ноги</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClawsAndTail.corePart.parts.10.parts.2.customLabel"><s>front left leg third claw</s><r>третья коготь передней левой ноги</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClawsAndTail.corePart.parts.11.customLabel"><s>front right leg</s><r>передняя правая нога</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClawsAndTail.corePart.parts.11.parts.0.customLabel"><s>front right leg first claw</s><r>первый коготь передней правой ноги</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClawsAndTail.corePart.parts.11.parts.1.customLabel"><s>front right leg second claw</s><r>второй коготь передней правой ноги</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClawsAndTail.corePart.parts.11.parts.2.customLabel"><s>front right leg third claw</s><r>третья коготь передней правой ноги</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClawsAndTail.corePart.parts.12.customLabel"><s>rear left leg</s><r>задняя левая нога</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClawsAndTail.corePart.parts.12.parts.0.customLabel"><s>rear left leg first claw</s><r>первый коготь задней левой ноги</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClawsAndTail.corePart.parts.12.parts.1.customLabel"><s>rear left leg second claw</s><r>второй коготь задней левой ноги</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClawsAndTail.corePart.parts.12.parts.2.customLabel"><s>rear left leg third claw</s><r>третий коготь задней левой ноги</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClawsAndTail.corePart.parts.13.customLabel"><s>rear right leg</s><r>задняя правая нога</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClawsAndTail.corePart.parts.13.parts.0.customLabel"><s>rear right leg first claw</s><r>первый коготь задней правой ноги</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClawsAndTail.corePart.parts.13.parts.1.customLabel"><s>rear right leg second claw</s><r>второй коготь задней правой ноги</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClawsAndTail.corePart.parts.13.parts.2.customLabel"><s>rear right leg third claw</s><r>третья коготь задней правой ноги</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClawsAndTail.corePart.parts.4.customLabel"><s>left lung</s><r>левое легкое</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClawsAndTail.corePart.parts.5.customLabel"><s>right lung</s><r>правое легкое</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClawsAndTail.corePart.parts.6.customLabel"><s>left kidney</s><r>левая почка</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClawsAndTail.corePart.parts.7.customLabel"><s>right kidney</s><r>правая почка</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClawsAndTail.corePart.parts.9.parts.0.parts.1.customLabel"><s>left eye</s><r>левый глаз</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClawsAndTail.corePart.parts.9.parts.0.parts.2.customLabel"><s>right eye</s><r>правый глаз</r></e>
+  <e k="D" t="BodyDef" key="DA_BipedalAnimalWithClawsAndTail.label"><s>bipedal animal</s><r>двуногое животное</r></e>
+  <e k="D" t="BodyDef" key="DA_Crab.corePart.parts.10.customLabel"><s>left third leg</s><r>левая третья нога</r></e>
+  <e k="D" t="BodyDef" key="DA_Crab.corePart.parts.11.customLabel"><s>right third leg</s><r>правая третья нога</r></e>
+  <e k="D" t="BodyDef" key="DA_Crab.corePart.parts.12.customLabel"><s>left swimming leg</s><r>левая плавательная нога</r></e>
+  <e k="D" t="BodyDef" key="DA_Crab.corePart.parts.13.customLabel"><s>right swimming leg</s><r>правая плавательная нога</r></e>
+  <e k="D" t="BodyDef" key="DA_Crab.corePart.parts.3.parts.1.customLabel"><s>left eye</s><r>левый глаз</r></e>
+  <e k="D" t="BodyDef" key="DA_Crab.corePart.parts.3.parts.2.customLabel"><s>right eye</s><r>правый глаз</r></e>
+  <e k="D" t="BodyDef" key="DA_Crab.corePart.parts.4.customLabel"><s>left claw</s><r>левый коготь</r></e>
+  <e k="D" t="BodyDef" key="DA_Crab.corePart.parts.5.customLabel"><s>right claw</s><r>правая клешня</r></e>
+  <e k="D" t="BodyDef" key="DA_Crab.corePart.parts.6.customLabel"><s>left first leg</s><r>левый первый матч</r></e>
+  <e k="D" t="BodyDef" key="DA_Crab.corePart.parts.7.customLabel"><s>right first leg</s><r>правая первая нога</r></e>
+  <e k="D" t="BodyDef" key="DA_Crab.corePart.parts.8.customLabel"><s>left second leg</s><r>левая вторая нога</r></e>
+  <e k="D" t="BodyDef" key="DA_Crab.corePart.parts.9.customLabel"><s>right second leg</s><r>правая вторая нога</r></e>
+  <e k="D" t="BodyDef" key="DA_Crab.label"><s>crab</s><r>краб</r></e>
+  <e k="D" t="BodyDef" key="DA_QuadrupedAnimalWithPawsAndHorn.corePart.parts.10.customLabel"><s>front right leg</s><r>передняя правая нога</r></e>
+  <e k="D" t="BodyDef" key="DA_QuadrupedAnimalWithPawsAndHorn.corePart.parts.10.parts.0.customLabel"><s>front right paw</s><r>передняя правая лапа</r></e>
+  <e k="D" t="BodyDef" key="DA_QuadrupedAnimalWithPawsAndHorn.corePart.parts.11.customLabel"><s>rear left leg</s><r>задняя левая нога</r></e>
+  <e k="D" t="BodyDef" key="DA_QuadrupedAnimalWithPawsAndHorn.corePart.parts.11.parts.0.customLabel"><s>rear left paw</s><r>задняя левая лапа</r></e>
+  <e k="D" t="BodyDef" key="DA_QuadrupedAnimalWithPawsAndHorn.corePart.parts.12.customLabel"><s>rear right leg</s><r>задняя правая нога</r></e>
+  <e k="D" t="BodyDef" key="DA_QuadrupedAnimalWithPawsAndHorn.corePart.parts.12.parts.0.customLabel"><s>rear right paw</s><r>задняя правая лапа</r></e>
+  <e k="D" t="BodyDef" key="DA_QuadrupedAnimalWithPawsAndHorn.corePart.parts.3.customLabel"><s>left lung</s><r>левое легкое</r></e>
+  <e k="D" t="BodyDef" key="DA_QuadrupedAnimalWithPawsAndHorn.corePart.parts.4.customLabel"><s>right lung</s><r>правое легкое</r></e>
+  <e k="D" t="BodyDef" key="DA_QuadrupedAnimalWithPawsAndHorn.corePart.parts.5.customLabel"><s>left kidney</s><r>левая почка</r></e>
+  <e k="D" t="BodyDef" key="DA_QuadrupedAnimalWithPawsAndHorn.corePart.parts.6.customLabel"><s>right kidney</s><r>правая почка</r></e>
+  <e k="D" t="BodyDef" key="DA_QuadrupedAnimalWithPawsAndHorn.corePart.parts.8.parts.0.parts.1.customLabel"><s>left eye</s><r>левый глаз</r></e>
+  <e k="D" t="BodyDef" key="DA_QuadrupedAnimalWithPawsAndHorn.corePart.parts.8.parts.0.parts.2.customLabel"><s>right eye</s><r>правый глаз</r></e>
+  <e k="D" t="BodyDef" key="DA_QuadrupedAnimalWithPawsAndHorn.corePart.parts.8.parts.0.parts.3.customLabel"><s>left ear</s><r>левое ухо</r></e>
+  <e k="D" t="BodyDef" key="DA_QuadrupedAnimalWithPawsAndHorn.corePart.parts.8.parts.0.parts.4.customLabel"><s>right ear</s><r>правое ухо</r></e>
+  <e k="D" t="BodyDef" key="DA_QuadrupedAnimalWithPawsAndHorn.corePart.parts.9.customLabel"><s>front left leg</s><r>передняя левая нога</r></e>
+  <e k="D" t="BodyDef" key="DA_QuadrupedAnimalWithPawsAndHorn.corePart.parts.9.parts.0.customLabel"><s>front left paw</s><r>передняя левая лапа</r></e>
+  <e k="D" t="BodyDef" key="DA_QuadrupedAnimalWithPawsAndHorn.label"><s>quadruped animal</s><r>четвероногое животное</r></e>
+  <e k="D" t="BodyDef" key="DA_ScorpionLike.corePart.parts.10.customLabel"><s>left pincer</s><r>левый клещ</r></e>
+  <e k="D" t="BodyDef" key="DA_ScorpionLike.corePart.parts.11.customLabel"><s>right pincer</s><r>правая клешня</r></e>
+  <e k="D" t="BodyDef" key="DA_ScorpionLike.corePart.parts.2.parts.0.parts.1.customLabel"><s>left lateral eye</s><r>левый боковой глаз</r></e>
+  <e k="D" t="BodyDef" key="DA_ScorpionLike.corePart.parts.2.parts.0.parts.2.customLabel"><s>right lateral eye</s><r>правый боковой глаз</r></e>
+  <e k="D" t="BodyDef" key="DA_ScorpionLike.corePart.parts.2.parts.0.parts.3.customLabel"><s>left median eye</s><r>левый срединный глаз</r></e>
+  <e k="D" t="BodyDef" key="DA_ScorpionLike.corePart.parts.2.parts.0.parts.4.customLabel"><s>right median eye</s><r>правый срединный глаз</r></e>
+  <e k="D" t="BodyDef" key="DA_ScorpionLike.corePart.parts.4.customLabel"><s>front left leg</s><r>передняя левая нога</r></e>
+  <e k="D" t="BodyDef" key="DA_ScorpionLike.corePart.parts.5.customLabel"><s>front right leg</s><r>передняя правая нога</r></e>
+  <e k="D" t="BodyDef" key="DA_ScorpionLike.corePart.parts.6.customLabel"><s>middle left leg</s><r>средняя левая нога</r></e>
+  <e k="D" t="BodyDef" key="DA_ScorpionLike.corePart.parts.7.customLabel"><s>middle right leg</s><r>средняя правая нога</r></e>
+  <e k="D" t="BodyDef" key="DA_ScorpionLike.corePart.parts.8.customLabel"><s>rear left leg</s><r>задняя левая нога</r></e>
+  <e k="D" t="BodyDef" key="DA_ScorpionLike.corePart.parts.9.customLabel"><s>rear right leg</s><r>задняя правая нога</r></e>
+  <e k="D" t="BodyDef" key="DA_ScorpionLike.label"><s>scorpion</s><r>скорпион</r></e>
+  <e k="D" t="BodyPartDef" key="DA_AnimalShell.label"><s>shell</s><r>оболочка</r></e>
+  <e k="D" t="BodyPartDef" key="DA_Gills.label"><s>gills</s><r>жабры</r></e>
+  <e k="D" t="BodyPartDef" key="DA_InsectStinger.label"><s>stinger</s><r>жало</r></e>
+  <e k="D" t="BodyPartDef" key="DA_InsectTail.label"><s>tail</s><r>хвост</r></e>
+  <e k="D" t="BodyPartDef" key="DA_Pincer.label"><s>pincer</s><r>клещи</r></e>
+  <e k="D" t="BodyPartGroupDef" key="DA_PincerPinch.label"><s>pincer</s><r>клещи</r></e>
+  <e k="D" t="BodyPartGroupDef" key="DA_Sting.label"><s>stinger</s><r>жало</r></e>
+  <e k="D" t="ChemicalDef" key="DA_RedTear.label"><s>red ink</s><r>красные чернила</r></e>
+  <e k="D" t="ChemicalDef" key="DA_RegalMilk.label"><s>regal milk</s><r>королевское молоко</r></e>
+  <e k="D" t="DamageDef" key="DA_CrestelBite.deathMessage"><s>{0} has been bit to death.</s><r>{0} был забит до смерти.</r></e>
+  <e k="D" t="DamageDef" key="DA_CrestelBite.label"><s>crestel bite</s><r>укус гребешка</r></e>
+  <e k="D" t="DamageDef" key="DA_CrushingSlam.deathMessage"><s>{0} has been beaten to death.</s><r>{0} был избит до смерти.</r></e>
+  <e k="D" t="DamageDef" key="DA_CrushingSlam.label"><s>blunt</s><r>тупой</r></e>
+  <e k="D" t="DamageDef" key="DA_DemolishTroll.deathMessage"><s>{0} has been beaten to death.</s><r>{0} был избит до смерти.</r></e>
+  <e k="D" t="DamageDef" key="DA_DemolishTroll.label"><s>blunt</s><r>тупой</r></e>
+  <e k="D" t="DamageDef" key="DA_GiantRock.deathMessage"><s>{0} has been crushed to death by a giant rock.</s><r>{0} был насмерть раздавлен гигантским камнем.</r></e>
+  <e k="D" t="DamageDef" key="DA_GiantRock.label"><s>giant rock</s><r>гигантский камень</r></e>
+  <e k="D" t="DamageDef" key="DA_KarabalBite.deathMessage"><s>{0} has been bit to death.</s><r>{0} был забит до смерти.</r></e>
+  <e k="D" t="DamageDef" key="DA_KarabalBite.label"><s>karabal bite</s><r>укус карабао</r></e>
+  <e k="D" t="DamageDef" key="DA_Muckbile.deathMessage"><s>{0} has burned to death.</s><r>{0} сгорел заживо.</r></e>
+  <e k="D" t="DamageDef" key="DA_Muckbile.label"><s>muckbile</s><r>гадость</r></e>
+  <e k="D" t="DamageDef" key="DA_Pierced.deathMessage"><s>{0} has been killed.</s><r>{0} был убит.</r></e>
+  <e k="D" t="DamageDef" key="DA_Pierced.label"><s>pierce</s><r>пронзить</r></e>
+  <e k="D" t="DamageDef" key="DA_Quillsting.deathMessage"><s>{0} has been stung to death.</s><r>{0} был ужален насмерть.</r></e>
+  <e k="D" t="DamageDef" key="DA_Quillsting.label"><s>quill-sting</s><r>гусиное жало</r></e>
+  <e k="D" t="DamageDef" key="DA_Rambash.deathMessage"><s>{0} has been rammed to death.</s><r>{0} был забит насмерть.</r></e>
+  <e k="D" t="DamageDef" key="DA_Rambash.label"><s>rammed</s><r>протаранил</r></e>
+  <e k="D" t="DamageDef" key="DA_ToadDevour.deathMessage"><s>{0} has been bitten to death.</s><r>{0} был укушен до смерти.</r></e>
+  <e k="D" t="DamageDef" key="DA_ToadDevour.label"><s>devour</s><r>пожирать</r></e>
+  <e k="D" t="DamageDef" key="DA_ToxicBarbpike.deathMessage"><s>{0} has been stung to death.</s><r>{0} был ужален насмерть.</r></e>
+  <e k="D" t="DamageDef" key="DA_ToxicBarbpike.label"><s>toxic sting</s><r>токсичный укус</r></e>
+  <e k="D" t="FactionDef" key="DA_Troll.description"><s>Trolls</s><r>Тролли</r></e>
+  <e k="D" t="FactionDef" key="DA_Troll.fixedName"><s>Trolls</s><r>Тролли</r></e>
+  <e k="D" t="FactionDef" key="DA_Troll.label"><s>trolls</s><r>тролли</r></e>
+  <e k="D" t="FactionDef" key="DA_Troll.leaderTitle"><s>leader</s><r>лидер</r></e>
+  <e k="D" t="FactionDef" key="DA_Troll.messageDefendersAttacking"><s>{0} from {1} are attacking your {2}.</s><r>{0} из {1} атакуют ваш {2}.</r></e>
+  <e k="D" t="FactionDef" key="DA_Troll.pawnSingular"><s>troll</s><r>тролль</r></e>
+  <e k="D" t="FactionDef" key="DA_Troll.pawnsPlural"><s>trolls</s><r>тролли</r></e>
+  <e k="D" t="GameConditionDef" key="DA_TrollOutbreak.description"><s>The area is suffering the effects of a troll outbreak.</s><r>Этот район страдает от последствий нашествия троллей.</r></e>
+  <e k="D" t="GameConditionDef" key="DA_TrollOutbreak.descriptionFuture"><s>a troll outbreak has been detected in the region surrounding [map_definite], potentially causing dangerous trolls to build burrows or wander in.</s><r>в регионе вокруг [map_definite] обнаружена вспышка троллей, что потенциально может привести к тому, что опасные тролли начнут строить норы или забредать туда.</r></e>
+  <e k="D" t="GameConditionDef" key="DA_TrollOutbreak.endMessage"><s>The pale scourge has ended</s><r>Бледная напасть закончилась</r></e>
+  <e k="D" t="GameConditionDef" key="DA_TrollOutbreak.label"><s>pale scourge</s><r>бледный бич</r></e>
+  <e k="D" t="GameConditionDef" key="DA_TrollOutbreak.letterText"><s>Growls can be heard from within the dark tunnels serpenting beneath the cold earth. A second winter struck, as countless ravenous trolls tear through the land and emerge to the surface in search of food.
+
+This can last between days to several weeks.</s><r>Рычание можно услышать из темных туннелей, извивающихся под холодной землей. Наступила вторая зима, когда бесчисленные голодные тролли прорываются через землю и выходят на поверхность в поисках еды.
+
+Это может длиться от нескольких дней до нескольких недель.</r></e>
+  <e k="D" t="GameConditionDef" key="DA_TrollOutbreak.startMessage"><s>A pale scourge has begun</s><r>Началась бледная напасть</r></e>
+  <e k="D" t="HediffDef" key="DA_AntiCoagulantVenom.description"><s>Struck by the anti-coagulant venom of a karabal. Greatly increase bloodloss.</s><r>Поражён антикоагулянтным ядом карабала. Значительно увеличивает кровопотерю.</r></e>
+  <e k="D" t="HediffDef" key="DA_AntiCoagulantVenom.label"><s>karabal venom</s><r>карабальский яд</r></e>
+  <e k="D" t="HediffDef" key="DA_BloodPetrification.description"><s>The near instantenous clotting of the blood which results in stone-like formations appearing all over the body, providing excellent protection and slowing the rate of blood-loss.</s><r>Почти мгновенное свертывание крови, приводящее к появлению камнеподобных образований по всему телу, обеспечивает превосходную защиту и замедляет скорость кровопотери.</r></e>
+  <e k="D" t="HediffDef" key="DA_BloodPetrification.label"><s>blood petrification</s><r>окаменение крови</r></e>
+  <e k="D" t="HediffDef" key="DA_BloodPetrification.stages.0.label"><s>minor</s><r>незначительный</r></e>
+  <e k="D" t="HediffDef" key="DA_BloodPetrification.stages.1.label"><s>minor</s><r>незначительный</r></e>
+  <e k="D" t="HediffDef" key="DA_BloodPetrification.stages.2.label"><s>moderate</s><r>умеренный</r></e>
+  <e k="D" t="HediffDef" key="DA_BloodPetrification.stages.3.label"><s>severe</s><r>серьезный</r></e>
+  <e k="D" t="HediffDef" key="DA_BloodPetrification.stages.4.label"><s>extreme</s><r>крайний</r></e>
+  <e k="D" t="HediffDef" key="DA_Destabilized.description"><s>Destabilized by a powerful shock.</s><r>Дестабилизирован мощным потрясением.</r></e>
+  <e k="D" t="HediffDef" key="DA_Destabilized.label"><s>destabilized</s><r>дестабилизированный</r></e>
+  <e k="D" t="HediffDef" key="DA_Disoriented.description"><s>Disoriented by a powerful blunt shock.</s><r>Дезориентирован мощным тупым ударом.</r></e>
+  <e k="D" t="HediffDef" key="DA_Disoriented.label"><s>disoriented</s><r>дезориентированный</r></e>
+  <e k="D" t="HediffDef" key="DA_MilkAddiction.description"><s>A psychological addiction to regal milk. Because of its exquisite taste the brain cannot function without it.
+
+Without regular doses of regal milk, withdrawal symptoms will begin. However, extended abstinence will force the brain to adapt back to its normal state, resolving the addiction.</s><r>Психологическая зависимость от царственного молока. Из-за его изысканного вкуса мозг не может функционировать без него.
+
+Без регулярных доз царственного молока начнутся симптомы абстиненции. Однако длительное воздержание заставит мозг вернуться к нормальному состоянию, избавляя от зависимости.</r></e>
+  <e k="D" t="HediffDef" key="DA_MilkAddiction.label"><s>regal milk addiction</s><r>королевская молочная зависимость</r></e>
+  <e k="D" t="HediffDef" key="DA_MilkAddiction.stages.1.label"><s>withdrawal</s><r>снятие</r></e>
+  <e k="D" t="HediffDef" key="DA_MilkTolerance.description"><s>shouldn't see that</s><r>не должен этого видеть</r></e>
+  <e k="D" t="HediffDef" key="DA_MilkTolerance.label"><s>milk tolerance</s><r>толерантность к молоку</r></e>
+  <e k="D" t="HediffDef" key="DA_MilkTolerance.stages.0.label"><s>small</s><r>маленький</r></e>
+  <e k="D" t="HediffDef" key="DA_MilkTolerance.stages.1.label"><s>large</s><r>большой</r></e>
+  <e k="D" t="HediffDef" key="DA_MilkTolerance.stages.2.label"><s>massive</s><r>массивный</r></e>
+  <e k="D" t="HediffDef" key="DA_MolePanic.description"><s>Fleeing in panic after witnessing danger.</s><r>Бегство в панике, увидев опасность.</r></e>
+  <e k="D" t="HediffDef" key="DA_MolePanic.label"><s>mole panic</s><r>кротовая паника</r></e>
+  <e k="D" t="HediffDef" key="DA_MuckbileSlow.description"><s>Slowed by a thick acidic bile.</s><r>Замедляется густой кислой желчью.</r></e>
+  <e k="D" t="HediffDef" key="DA_MuckbileSlow.label"><s>Muckbile</s><r>Макбайл</r></e>
+  <e k="D" t="HediffDef" key="DA_MuckbileSlow.stages.0.label"><s>slowed</s><r>замедлился</r></e>
+  <e k="D" t="HediffDef" key="DA_Petrify.description"><s>Paralyzed by a powerful venom.</s><r>Парализован сильным ядом.</r></e>
+  <e k="D" t="HediffDef" key="DA_Petrify.label"><s>Petrified</s><r>Окаменелый</r></e>
+  <e k="D" t="HediffDef" key="DA_Petrify.stages.0.label"><s>slowed</s><r>замедлился</r></e>
+  <e k="D" t="HediffDef" key="DA_Petrify.stages.1.label"><s>petrified</s><r>окаменелый</r></e>
+  <e k="D" t="HediffDef" key="DA_RapidRecovery.description"><s>Barogoth oil applied on the body, it helps the body recover from injuries and diseases quicker.</s><r>Масло барогота, нанесенное на тело, помогает организму быстрее восстановиться после травм и болезней.</r></e>
+  <e k="D" t="HediffDef" key="DA_RapidRecovery.label"><s>barogoth oil</s><r>бароготское масло</r></e>
+  <e k="D" t="HediffDef" key="DA_RedInk.description"><s>The venom of the black scribe. The pain it inflicts renders its victims unable to fend for themselves and quickly fall to the ground where they will meet their untimely death.</s><r>Яд черного писца. Боль, которую он причиняет, делает его жертв неспособными постоять за себя и быстро падает на землю, где их ждет преждевременная смерть.</r></e>
+  <e k="D" t="HediffDef" key="DA_RedInk.label"><s>red ink</s><r>красные чернила</r></e>
+  <e k="D" t="HediffDef" key="DA_RedInk.stages.0.label"><s>burning</s><r>горящий</r></e>
+  <e k="D" t="HediffDef" key="DA_RedInk.stages.1.label"><s>scorching</s><r>обжигающий</r></e>
+  <e k="D" t="HediffDef" key="DA_RedInk.stages.2.label"><s>blistering</s><r>волдыри</r></e>
+  <e k="D" t="HediffDef" key="DA_RedTearAddiction.description"><s>A chemical addiction to the red ink. Long exposure to its euphoric effects has caused neurological adaptations at the cellular level, so the brain can no longer function properly without the drug.
+
+Without regular doses of red ink, withdrawal symptoms will begin. However, extended abstinence will force the brain to adapt back to its normal state, resolving the addiction.</s><r>Химическая зависимость от красных чернил. Длительное воздействие его эйфорического эффекта вызвало неврологическую адаптацию на клеточном уровне, поэтому мозг больше не может нормально функционировать без препарата.
+
+Без регулярных доз красных чернил начнутся симптомы абстиненции. Однако длительное воздержание заставит мозг вернуться к нормальному состоянию, избавляя от зависимости.</r></e>
+  <e k="D" t="HediffDef" key="DA_RedTearAddiction.label"><s>red ink addiction</s><r>зависимость от красных чернил</r></e>
+  <e k="D" t="HediffDef" key="DA_RedTearAddiction.stages.1.label"><s>withdrawal</s><r>снятие</r></e>
+  <e k="D" t="HediffDef" key="DA_RedTearHigh.description"><s>A small dose of red ink in the bloodstream. It increases the sensitivity to pain but heighten the mood.</s><r>Небольшая доза красных чернил в кровотоке. Это увеличивает чувствительность к боли, но повышает настроение.</r></e>
+  <e k="D" t="HediffDef" key="DA_RedTearHigh.label"><s>red warmth</s><r>красное тепло</r></e>
+  <e k="D" t="HediffDef" key="DA_RedTearHigh.stages.0.label"><s>warm</s><r>теплый</r></e>
+  <e k="D" t="HediffDef" key="DA_RedTearHigh.stages.1.label"><s>burning</s><r>горящий</r></e>
+  <e k="D" t="HediffDef" key="DA_RedTearHigh.stages.2.label"><s>scorching</s><r>обжигающий</r></e>
+  <e k="D" t="HediffDef" key="DA_RedTearHigh.stages.3.label"><s>blistering</s><r>волдыри</r></e>
+  <e k="D" t="HediffDef" key="DA_RedTearTolerance.description"><s>A built-up tolerance to the red ink. The more severe this tolerance is, the more it will take to get the same effect.</s><r>Выработанная толерантность к красным чернилам. Чем жестче эта толерантность, тем больше времени потребуется, чтобы получить тот же эффект.</r></e>
+  <e k="D" t="HediffDef" key="DA_RedTearTolerance.label"><s>red ink tolerance</s><r>толерантность к красным чернилам</r></e>
+  <e k="D" t="HediffDef" key="DA_RedTearTolerance.stages.0.label"><s>small</s><r>маленький</r></e>
+  <e k="D" t="HediffDef" key="DA_RedTearTolerance.stages.1.label"><s>large</s><r>большой</r></e>
+  <e k="D" t="HediffDef" key="DA_RedTearTolerance.stages.2.label"><s>massive</s><r>массивный</r></e>
+  <e k="D" t="HediffDef" key="DA_ScarletScentHigh.description"><s>Inhaled fumes from the red mix known as scarlet scent. Greatly increase one's combat capabilities, while possibly entering a blood fueled frenzy.</s><r>Вдыхание паров красной смеси, известной как алый аромат. Значительно увеличивает свои боевые возможности, возможно, впадая в подпитываемое кровью безумие.</r></e>
+  <e k="D" t="HediffDef" key="DA_ScarletScentHigh.label"><s>scarlet fumes</s><r>алый дым</r></e>
+  <e k="D" t="HediffDef" key="DA_ScarletScentHigh.stages.1.label"><s>Raging</s><r>Бушующий</r></e>
+  <e k="D" t="HediffDef" key="DA_ScarletScentHigh.stages.2.label"><s>Blood frenzy</s><r>Кровавое безумие</r></e>
+  <e k="D" t="HediffDef" key="DA_UnnervingPresence.description"><s>An unnerving feeling caused by the presence of nearby troll burrows.</s><r>Нервирующее чувство, вызванное присутствием поблизости нор троллей.</r></e>
+  <e k="D" t="HediffDef" key="DA_UnnervingPresence.label"><s>unnerving presence</s><r>нервирующее присутствие</r></e>
+  <e k="D" t="HediffDef" key="DA_VirulentToxin.description"><s>A dangerous toxin inflicted by a phrak. Quite dangerous as it can quickly lead to death at high doses. Even at low doses, it can generate cancers.</s><r>Опасный токсин, наносимый фраком. Довольно опасен, так как при высоких дозах может быстро привести к смерти. Даже в низких дозах он может вызвать рак.</r></e>
+  <e k="D" t="HediffDef" key="DA_VirulentToxin.label"><s>toxin buildup</s><r>накопление токсинов</r></e>
+  <e k="D" t="HediffDef" key="DA_VirulentToxin.stages.0.label"><s>initial</s><r>исходный</r></e>
+  <e k="D" t="HediffDef" key="DA_VirulentToxin.stages.1.label"><s>initial</s><r>исходный</r></e>
+  <e k="D" t="HediffDef" key="DA_VirulentToxin.stages.2.label"><s>minor</s><r>незначительный</r></e>
+  <e k="D" t="HediffDef" key="DA_VirulentToxin.stages.3.label"><s>moderate</s><r>умеренный</r></e>
+  <e k="D" t="HediffDef" key="DA_VirulentToxin.stages.4.label"><s>serious</s><r>серьезный</r></e>
+  <e k="D" t="HediffDef" key="DA_VirulentToxin.stages.5.label"><s>extreme</s><r>крайний</r></e>
+  <e k="D" t="IncidentDef" key="DA_GoldiloxPasses.label"><s>goldilox pass</s><r>голдилокс пасс</r></e>
+  <e k="D" t="IncidentDef" key="DA_HibernatingTroll.label"><s>suspicious stone</s><r>подозрительный камень</r></e>
+  <e k="D" t="IncidentDef" key="DA_HibernatingTroll.letterLabel"><s>strange stone formation</s><r>странное каменное образование</r></e>
+  <e k="D" t="IncidentDef" key="DA_HibernatingTroll.letterText"><s>Strong winds brushed the soil, revealing a peculiar stone formation.</s><r>Сильный ветер коснулся почвы, обнажив своеобразное каменное образование.</r></e>
+  <e k="D" t="IncidentDef" key="DA_IroncasketBeetleSpawn.label"><s>ironcasket beetle spawn</s><r>отродье жука-железной шкатулки</r></e>
+  <e k="D" t="IncidentDef" key="DA_LeviathanSpawn.label"><s>leviathan sighting</s><r>наблюдение левиафана</r></e>
+  <e k="D" t="IncidentDef" key="DA_LeviathanSpawnNest.label"><s>leviathan sighting</s><r>наблюдение левиафана</r></e>
+  <e k="D" t="IncidentDef" key="DA_MigratingRockTroll.label"><s>rock troll emergence</s><r>появление рок-тролля</r></e>
+  <e k="D" t="IncidentDef" key="DA_SilveryMoleSpawn.label"><s>silvery mole spawn</s><r>икра серебристых кротов</r></e>
+  <e k="D" t="IncidentDef" key="DA_SnaptoadFrogletSpawn.label"><s>snaptoad froglet sighting</s><r>наблюдение за лягушкой Snaptoad</r></e>
+  <e k="D" t="IncidentDef" key="DA_SnaptoadSpawn.label"><s>snaptoad sighting</s><r>наблюдение за оснапжабой</r></e>
+  <e k="D" t="IncidentDef" key="DA_TrollBurrow_Incident.label"><s>troll burrow</s><r>нора тролля</r></e>
+  <e k="D" t="IncidentDef" key="DA_TrollBurrow_Incident.letterLabel"><s>troll burrow formed</s><r>образовалась нора тролля</r></e>
+  <e k="D" t="IncidentDef" key="DA_TrollBurrow_Incident.letterText"><s>Trolls have dug their way out from underground and created troll burrows.</s><r>Тролли выкопали выход из-под земли и создали тролльи норы.</r></e>
+  <e k="D" t="IncidentDef" key="DA_TrollOutbreak_Incident.label"><s>pale scourge</s><r>бледный бич</r></e>
+  <e k="D" t="IncidentDef" key="DA_TrollOutbreak_Incident.letterLabel"><s>pale scourge</s><r>бледный бич</r></e>
+  <e k="D" t="IncidentDef" key="DA_TrollWander_Incident.label"><s>hungry trolls</s><r>голодные тролли</r></e>
+  <e k="D" t="IncidentDef" key="DA_TrollWander_Incident.letterLabel"><s>wandering pale trolls</s><r>блуждающие бледные тролли</r></e>
+  <e k="D" t="IncidentDef" key="DA_TrollWander_Incident.letterText"><s>A group of hungry trolls have wandered into the area.</s><r>Группа голодных троллей забрела в этот район.</r></e>
+  <e k="D" t="JobDef" key="BloodSucker.reportString"><s>sucking from TargetA.</s><r>сосать из TargetA.</r></e>
+  <e k="D" t="JobDef" key="DA_HuntAndReturn.reportString"><s>hunting TargetA.</s><r>охота TargetA.</r></e>
+  <e k="D" t="LandmarkDef" key="DA_SnaptoadSpawningPools.label"><s>snaptoad spawning pools</s><r>нерестилища Snaptoad</r></e>
+  <e k="D" t="MentalStateDef" key="ManhunterAttackColony.baseInspectLine"><s>Maddened: Manhunter</s><r>Безумный: Охотник на людей</r></e>
+  <e k="D" t="MentalStateDef" key="ManhunterAttackColony.beginLetter"><s>{0} has become a manhunter!</s><r>{0} стал охотником за людьми!</r></e>
+  <e k="D" t="MentalStateDef" key="ManhunterAttackColony.label"><s>manhunter</s><r>охотник за людьми</r></e>
+  <e k="D" t="MentalStateDef" key="ManhunterAttackColony.recoveryMessage"><s>{0}'s manhunting bloodlust has come to an end.</s><r>Кровожадность {0} подошла к концу.</r></e>
+  <e k="D" t="NeedDef" key="DA_Chemical_Milk.description"><s>Because of a regal milk addiction, this person needs to regularly consume regal milk to avoid withdrawal symptoms.</s><r>Из-за пристрастия к королевскому молоку этому человеку необходимо регулярно употреблять королевское молоко, чтобы избежать абстинентного синдрома.</r></e>
+  <e k="D" t="NeedDef" key="DA_Chemical_Milk.label"><s>regal milk</s><r>королевское молоко</r></e>
+  <e k="D" t="NeedDef" key="DA_Chemical_RedInk.description"><s>Because of an red tear addiction, this person needs to regularly consume the venom to avoid withdrawal symptoms.</s><r>Из-за пристрастия к красным слезам этому человеку необходимо регулярно употреблять яд, чтобы избежать абстинентного синдрома.</r></e>
+  <e k="D" t="NeedDef" key="DA_Chemical_RedInk.label"><s>red ink</s><r>красные чернила</r></e>
+  <e k="D" t="NegativeFishingOutcomeDef" key="DA_AngryLeviathan.letterLabel"><s>Enraged Leviathan</s><r>Разъяренный Левиафан</r></e>
+  <e k="D" t="NegativeFishingOutcomeDef" key="DA_AngryLeviathan.letterText"><s>While fishing, {PAWN_pronoun} saw a large shadow beneath the surface. Suddenly it bursted out of the water, {PAWN_nameDef} came face to face with a giant leviathan crab !</s><r>Во время рыбалки {PAWN_pronoun} увидел под поверхностью большую тень. Внезапно он вырвался из воды, {PAWN_nameDef} столкнулся лицом к лицу с гигантским крабом-левиафаном!</r></e>
+  <e k="D" t="NegativeFishingOutcomeDef" key="DA_ConfusedHatchling.letterLabel"><s>Leviathan Hatchling</s><r>Детеныш левиафана</r></e>
+  <e k="D" t="NegativeFishingOutcomeDef" key="DA_ConfusedHatchling.letterText"><s>Reeling in {PAWN_possessive} catch after a fierce battle with what {PAWN_pronoun} presumed to be a fish, {PAWN_nameDef} came face to face with a leviathan hatchling!</s><r>Вытащив {PAWN_possessive} улов после ожесточенной битвы с тем, что {PAWN_pronoun} предполагалось за рыбу, {PAWN_nameDef} столкнулся лицом к лицу с детенышем левиафана!</r></e>
+  <e k="D" t="NegativeFishingOutcomeDef" key="DA_FrogletAttack.letterLabel"><s>Froglet Attack</s><r>Атака лягушки</r></e>
+  <e k="D" t="NegativeFishingOutcomeDef" key="DA_FrogletAttack.letterText"><s>Reeling in {PAWN_possessive} catch after a fierce battle with what {PAWN_pronoun} presumed to be a fish, {PAWN_nameDef} came face to face with a very angry giant snaptoad froglet!
+
+The maddened animal turned manhunter and will try and hunt your colonists until it becomes exhausted.</s><r>Вытащив {PAWN_possessive} улов после ожесточенной битвы с тем, что {PAWN_pronoun} предположительно было рыбой, {PAWN_nameDef} столкнулся лицом к лицу с очень злой гигантской лягушкой-жабой! 
+
+Обезумевшее животное превратилось в охотника на людей и будет пытаться охотиться на ваших колонистов, пока не устанет.</r></e>
+  <e k="D" t="NegativeFishingOutcomeDef" key="DA_TadpoleBite.letterLabel"><s>Snapping tadpole bite</s><r>Щелкающий укус головастика</r></e>
+  <e k="D" t="NegativeFishingOutcomeDef" key="DA_TadpoleBite.letterText"><s>While reaching out for {PAWN_possessive} catch, {PAWN_nameDef} was bitten by a snapping tadpole!
+
+The the fish was lost in the commotion.</s><r>Пытаясь поймать {PAWN_possessive} улов, {PAWN_nameDef} был укушен щелкающим головастиком!
+
+Рыба потерялась в суматохе.</r></e>
+  <e k="D" t="PawnKindDef" key="DA_ArcticOwlcat.label"><s>arctic owlcat</s><r>арктическая совакошка</r></e>
+  <e k="D" t="PawnKindDef" key="DA_ArcticOwlcat.lifeStages.0.label"><s>owlkitten</s><r>совакотенок</r></e>
+  <e k="D" t="PawnKindDef" key="DA_Barog.label"><s>barogoth</s><r>барагот</r></e>
+  <e k="D" t="PawnKindDef" key="DA_Barog.lifeStages.0.label"><s>barogoth newt</s><r>бароготский тритон</r></e>
+  <e k="D" t="PawnKindDef" key="DA_Barog.lifeStages.0.labelPlural"><s>barogoth newts</s><r>бароготские тритоны</r></e>
+  <e k="D" t="PawnKindDef" key="DA_BeardedTroll.label"><s>bearded troll</s><r>бородатый тролль</r></e>
+  <e k="D" t="PawnKindDef" key="DA_BlackScribe.label"><s>black scribe</s><r>черный писец</r></e>
+  <e k="D" t="PawnKindDef" key="DA_BlackScribe.lifeStages.0.label"><s>black scribe scorpling</s><r>черный писец</r></e>
+  <e k="D" t="PawnKindDef" key="DA_BlackScribe.lifeStages.0.labelPlural"><s>black scribe scorplings</s><r>черные писцы</r></e>
+  <e k="D" t="PawnKindDef" key="DA_Crestel.label"><s>crestel</s><r>хребет</r></e>
+  <e k="D" t="PawnKindDef" key="DA_Crestel.lifeStages.0.label"><s>crestel chick</s><r>крестельская цыпочка</r></e>
+  <e k="D" t="PawnKindDef" key="DA_Crestel.lifeStages.0.labelPlural"><s>crestel chicks</s><r>цыплята-крестель</r></e>
+  <e k="D" t="PawnKindDef" key="DA_DwarvenMuffton.label"><s>dwarven muffton</s><r>гномий маффтон</r></e>
+  <e k="D" t="PawnKindDef" key="DA_ForestOwlcat.label"><s>forest owlcat</s><r>лесная совакот</r></e>
+  <e k="D" t="PawnKindDef" key="DA_ForestOwlcat.lifeStages.0.label"><s>owlkitten</s><r>совакотенок</r></e>
+  <e k="D" t="PawnKindDef" key="DA_Goldilox.label"><s>goldilox</s><r>золотодилокс</r></e>
+  <e k="D" t="PawnKindDef" key="DA_Goldilox.lifeStages.0.label"><s>goldilox calf</s><r>золотой теленок</r></e>
+  <e k="D" t="PawnKindDef" key="DA_Goldilox.lifeStages.0.labelPlural"><s>goldilox calves</s><r>телята золотодилокса</r></e>
+  <e k="D" t="PawnKindDef" key="DA_ImperialRedhound.label"><s>imperial redhound</s><r>имперская редхаунд</r></e>
+  <e k="D" t="PawnKindDef" key="DA_ImperialRedhound.lifeStages.0.label"><s>imperial redhound puppy</s><r>щенок императорской редхаунда</r></e>
+  <e k="D" t="PawnKindDef" key="DA_ImperialRedhound.lifeStages.0.labelPlural"><s>imperial redhound puppies</s><r>щенки императорской редхаунда</r></e>
+  <e k="D" t="PawnKindDef" key="DA_IroncasketBeetle.label"><s>ironcasket beetle</s><r>железный жук-шкатулка</r></e>
+  <e k="D" t="PawnKindDef" key="DA_IroncasketBeetle.lifeStages.0.label"><s>ironcasket nugget</s><r>самородок из железной шкатулки</r></e>
+  <e k="D" t="PawnKindDef" key="DA_IroncasketBeetle.lifeStages.0.labelPlural"><s>ironcasket nuggets</s><r>самородки из железной шкатулки</r></e>
+  <e k="D" t="PawnKindDef" key="DA_Karabal.label"><s>karabal</s><r>карабал</r></e>
+  <e k="D" t="PawnKindDef" key="DA_Karabal.lifeStages.0.label"><s>karabal puppy</s><r>щенок карабала</r></e>
+  <e k="D" t="PawnKindDef" key="DA_Karabal.lifeStages.0.labelPlural"><s>karabal puppies</s><r>щенки карабала</r></e>
+  <e k="D" t="PawnKindDef" key="DA_LeviathanCrab.label"><s>leviathan crab</s><r>краб-левиафан</r></e>
+  <e k="D" t="PawnKindDef" key="DA_LeviathanCrab.lifeStages.0.label"><s>leviathan juvenile</s><r>левиафан несовершеннолетний</r></e>
+  <e k="D" t="PawnKindDef" key="DA_NorthernDrog.label"><s>northern drog</s><r>северный дрог</r></e>
+  <e k="D" t="PawnKindDef" key="DA_NorthernDrog.lifeStages.0.label"><s>drog shaunt</s><r>дрог шаунт</r></e>
+  <e k="D" t="PawnKindDef" key="DA_NorthernDrog.lifeStages.0.labelPlural"><s>drog shaunts</s><r>дрог-шунты</r></e>
+  <e k="D" t="PawnKindDef" key="DA_Phrak.label"><s>phrak</s><r>фрак</r></e>
+  <e k="D" t="PawnKindDef" key="DA_Phrak.lifeStages.0.label"><s>phrak nymphling</s><r>нимфа Фрак</r></e>
+  <e k="D" t="PawnKindDef" key="DA_Phrak.lifeStages.0.labelPlural"><s>phrak nymphlings</s><r>фрак нимфелек</r></e>
+  <e k="D" t="PawnKindDef" key="DA_Pilgrim.label"><s>pilgrim</s><r>паломник</r></e>
+  <e k="D" t="PawnKindDef" key="DA_Pilgrim.lifeStages.0.label"><s>pilgrim chick</s><r>птенец-пилигрим</r></e>
+  <e k="D" t="PawnKindDef" key="DA_Pilgrim.lifeStages.0.labelPlural"><s>pilgrim chicks</s><r>птенцы-пилигримы</r></e>
+  <e k="D" t="PawnKindDef" key="DA_RedhornedLarpah.label"><s>red-horned larpah</s><r>краснорогая ларпа</r></e>
+  <e k="D" t="PawnKindDef" key="DA_RockTroll.label"><s>rock troll</s><r>рок-тролль</r></e>
+  <e k="D" t="PawnKindDef" key="DA_SilverMole.label"><s>silver mole</s><r>серебряная родинка</r></e>
+  <e k="D" t="PawnKindDef" key="DA_Snaptoad.label"><s>giant snaptoad</s><r>гигантская жаба</r></e>
+  <e k="D" t="PawnKindDef" key="DA_Snaptoad.lifeStages.0.label"><s>giant snaptoad froglet</s><r>гигантская лягушка-жаба</r></e>
+  <e k="D" t="PawnKindDef" key="DA_Snaptoad.lifeStages.0.labelPlural"><s>snaptoad froglets</s><r>лягушки оснапжабы</r></e>
+  <e k="D" t="PawnKindDef" key="DA_SnowTaraal.label"><s>snow taraal</s><r>снежный тарал</r></e>
+  <e k="D" t="PawnKindDef" key="DA_SnowTaraal.lifeStages.0.label"><s>cub</s><r>детеныш</r></e>
+  <e k="D" t="PawnKindDef" key="DA_Taraal.label"><s>taraal</s><r>тараал</r></e>
+  <e k="D" t="PawnKindDef" key="DA_Taraal.lifeStages.0.label"><s>cub</s><r>детеныш</r></e>
+  <e k="D" t="RecipeDef" key="DA_Make_Karhan.description"><s>Stir muffton milk for a long period of time until fermentation, resulting in a alcoholic drink called karhan.</s><r>Размешивайте маффтонное молоко в течение длительного периода времени до брожения, в результате чего получается алкогольный напиток под названием кархан.</r></e>
+  <e k="D" t="RecipeDef" key="DA_Make_Karhan.ingredients.0.filter.customSummary"><s>muffton milk</s><r>маффтонное молоко</r></e>
+  <e k="D" t="RecipeDef" key="DA_Make_Karhan.jobString"><s>stirring muffton milk.</s><r>помешивая маффтоновое молоко.</r></e>
+  <e k="D" t="RecipeDef" key="DA_Make_Karhan.label"><s>stir muffton milk</s><r>перемешать маффтоновое молоко</r></e>
+  <e k="D" t="RecipeDef" key="DA_Make_ScarletScent.description"><s>Extract the bone marrow of a pair of larpah antlers and mix it with various herbs in order to create scarlet scent, a potent battle drug.</s><r>Извлеките костный мозг пары рогов ларпы и смешайте его с различными травами, чтобы создать алый аромат — мощное боевое снадобье.</r></e>
+  <e k="D" t="RecipeDef" key="DA_Make_ScarletScent.ingredients.0.filter.customSummary"><s>larpah antlers</s><r>рога ларпы</r></e>
+  <e k="D" t="RecipeDef" key="DA_Make_ScarletScent.jobString"><s>Mixing scarlet scent</s><r>Смешивание алого аромата</r></e>
+  <e k="D" t="RecipeDef" key="DA_Make_ScarletScent.label"><s>Mixing scarlet scent</s><r>Смешивание алого аромата</r></e>
+  <e k="D" t="RecipeDef" key="DA_SmeltGoldwool.description"><s>Forge gold by smelting goldwool.</s><r>Куйте золото, плавя золотую шерсть.</r></e>
+  <e k="D" t="RecipeDef" key="DA_SmeltGoldwool.ingredients.0.filter.customSummary"><s>goldwool</s><r>золотая шерсть</r></e>
+  <e k="D" t="RecipeDef" key="DA_SmeltGoldwool.jobString"><s>Forging gold from goldwool.</s><r>Ковка золота из золотой шерсти.</r></e>
+  <e k="D" t="RecipeDef" key="DA_SmeltGoldwool.label"><s>forge gold from goldwool</s><r>выковать золото из золотой шерсти</r></e>
+  <e k="D" t="RecipeDef" key="DA_SmeltGoldwoolBulk.description"><s>Forge gold by smelting goldwool.</s><r>Куйте золото, плавя золотую шерсть.</r></e>
+  <e k="D" t="RecipeDef" key="DA_SmeltGoldwoolBulk.ingredients.0.filter.customSummary"><s>goldwool</s><r>золотая шерсть</r></e>
+  <e k="D" t="RecipeDef" key="DA_SmeltGoldwoolBulk.jobString"><s>Forging gold from goldwool.</s><r>Ковка золота из золотой шерсти.</r></e>
+  <e k="D" t="RecipeDef" key="DA_SmeltGoldwoolBulk.label"><s>forge gold from goldwool x50</s><r>выковать золото из золотой шерсти x50</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_DA_FreshTrollBurrow.label"><s>troll burrow (проект)</s><r>troll burrow (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_DA_GnawedBones.label"><s>gnawed remains (проект)</s><r>gnawed remains (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_DA_HibernatingRockTroll.label"><s>strange stone formation (проект)</s><r>странное каменное образование (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_DA_TrollBurrow.label"><s>troll burrow (проект)</s><r>troll burrow (проект)</r></e>
+  <e k="D" t="ThingDef" key="DA_ArcticOwlcat.description"><s>A strange creature combining the features of a feline and that of an owl. The nimble predator referred only as owlcats can be commonly found hunting and nesting in the woodlands. Their long elegant wings are vestigial and primarly serve in the mating season, in order to attract new partners or to scare off predators by appearing bigger than they are.
+
+Adapted to the frozen climates, the arctic owlcat can be seen wandering the white landscapes in search of preys, only to seek shelter in the nearby forests when winter comes..</s><r>Странное существо, сочетающее в себе черты кошки и совы. Проворного хищника, называемого только совой, часто можно встретить охотящимся и гнездящимся в лесах. Их длинные элегантные крылья рудиментарны и в основном служат в брачный период, чтобы привлечь новых партнеров или отпугнуть хищников, выглядя крупнее, чем они есть на самом деле.
+
+Приспособленную к холодному климату, арктическую сову-кошку можно увидеть бродящей по белым ландшафтам в поисках добычи, а когда наступает зима, она ищет убежище в близлежащих лесах.</r></e>
+  <e k="D" t="ThingDef" key="DA_ArcticOwlcat.label"><s>arctic owlcat</s><r>арктическая совакошка</r></e>
+  <e k="D" t="ThingDef" key="DA_ArcticOwlcat.tools.0.label"><s>left claw</s><r>левый коготь</r></e>
+  <e k="D" t="ThingDef" key="DA_ArcticOwlcat.tools.1.label"><s>right claw</s><r>правая клешня</r></e>
+  <e k="D" t="ThingDef" key="DA_ArcticOwlcat.tools.2.label"><s>beak</s><r>клюв</r></e>
+  <e k="D" t="ThingDef" key="DA_ArcticOwlcat.tools.3.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="DA_Barog.description"><s>A large herbivorous amphibian that thrives in humid environments. Barogoth are often found near swamps and wetlands, where they will mate and lay eggs for the great majority of their lives. Quite docile when tamed, they are regularly used as pack animals.
+
+Barogoth secrete a thick oily liquid that can be collected and used as a medicinal ointment. While applied on the body, it increase one's recovery against diseases and physical traumas.</s><r>Крупное травоядное амфибия, обитающее во влажной среде. Бароготов часто можно встретить возле болот и водно-болотных угодий, где они спариваются и откладывают яйца большую часть своей жизни. Довольно послушные при приручении, их регулярно используют в качестве вьючных животных.
+
+Бароготы выделяют густую маслянистую жидкость, которую можно собирать и использовать в качестве лечебной мази. При нанесении на тело он ускоряет выздоровление от болезней и физических травм.</r></e>
+  <e k="D" t="ThingDef" key="DA_Barog.label"><s>barogoth</s><r>барагот</r></e>
+  <e k="D" t="ThingDef" key="DA_BarogOil.description"><s>The potent oil extracted from a barogoth, it is often applied on the body to help the body recover from various diseases and traumas.</s><r>Мощное масло, добываемое из барогота, часто наносится на тело, чтобы помочь организму восстановиться после различных заболеваний и травм.</r></e>
+  <e k="D" t="ThingDef" key="DA_BarogOil.ingestible.ingestCommandString"><s>Apply {0}</s><r>Применить {0}</r></e>
+  <e k="D" t="ThingDef" key="DA_BarogOil.ingestible.ingestReportString"><s>Applying {0}.</s><r>Применяем {0}.</r></e>
+  <e k="D" t="ThingDef" key="DA_BarogOil.label"><s>barogoth oil</s><r>бароготское масло</r></e>
+  <e k="D" t="ThingDef" key="DA_BeardedTroll.description"><s>This large, eyeless predator roams the frigid landscape, constantly in search of food. During winter, they often retreat deep into underground burrows, to feast on the many corpses they hoarded throughout the rest of the year. Relentless and capable of quickly regenerating its wounds, it allows the trolls to take down creatures much stronger than itself.
+
+Trolls spread quickly and are considered a dangerous pest as they frequently attack caravans and travelers. However their hide and delicious meat makes them a target of many hunters.</s><r>Этот большой безглазый хищник бродит по холодному ландшафту, постоянно в поисках еды. Зимой они часто уходят глубоко в подземные норы, чтобы полакомиться множеством трупов, которые они накопили в течение остальной части года. Безжалостный и способный быстро восстанавливать свои раны, он позволяет троллям уничтожать существ, намного более сильных, чем он сам.
+
+Тролли быстро распространяются и считаются опасными вредителями, поскольку они часто нападают на караваны и путешественников. Однако их шкура и вкусное мясо делают их целью многих охотников.</r></e>
+  <e k="D" t="ThingDef" key="DA_BeardedTroll.label"><s>bearded troll</s><r>бородатый тролль</r></e>
+  <e k="D" t="ThingDef" key="DA_BlackChitin.description"><s>The inky dark chitin of a black scribe. While hard and difficult to work with, it provides remarkable protection and insulation.</s><r>Чернильно-темный хитин черного писца. Несмотря на то, что с ним трудно и трудно работать, он обеспечивает замечательную защиту и изоляцию.</r></e>
+  <e k="D" t="ThingDef" key="DA_BlackChitin.label"><s>black chitin</s><r>черный хитин</r></e>
+  <e k="D" t="ThingDef" key="DA_BlackScribe.description"><s>A shade amongst the scorching sands. The black scribe is a deadly insectoid capable of taking down creatures much larger than itself with its dreadful sting. The name of scribe comes from its feather-like stinger, composed of countless small quills that it uses to quickly inject a toxic venom, which greatly weakens its prey.
+
+It’s venom can be safely extracted every few days, and while the toxin is incredibly dangerous, it procures a sensastion of bliss when consumed in small doses. Making it a highly sought-after drug.</s><r>Тень среди раскалённого песка. Черный писец — смертоносный инсектоид, способный своим ужасным жалом уничтожать существ, намного превосходящих его самого. Имя писца происходит от его похожего на перо жала, состоящего из бесчисленных маленьких игл, которые он использует для быстрого введения токсичного яда, который значительно ослабляет его добычу.
+
+Яд можно безопасно извлекать каждые несколько дней, и хотя токсин невероятно опасен, он вызывает ощущение блаженства при употреблении в небольших дозах. Это делает его очень востребованным препаратом.</r></e>
+  <e k="D" t="ThingDef" key="DA_BlackScribe.label"><s>black scribe</s><r>черный писец</r></e>
+  <e k="D" t="ThingDef" key="DA_Crestel.description"><s>One of the largest flightless birds, and the north's apex predator. The crestel is a fearsome beast that can completely paralyze unfortunate victims for a short duration with its venomous beak, rendering them helpless against its attacks. Despite their delicate look, the crestel's feathers are harder than stone, serving as natural armor.
+
+Its vicious nature and unusual appearance perpetuates numerous myths- legends of a beast capable of turning flesh to stone with its gaze. Some also believe the crestel to be a bad omen, a sign of the coming end, and the start of a new age.</s><r>Одна из крупнейших нелетающих птиц и главный хищник севера. Крестель — грозный зверь, который своим ядовитым клювом может на короткое время полностью парализовать несчастных жертв, делая их беспомощными перед его атаками. Несмотря на нежный вид, перья гребеля твёрже камня и служат естественной броней.
+
+Его порочный характер и необычный внешний вид увековечивают многочисленные мифы-легенды о звере, способном своим взглядом превращать плоть в камень. Некоторые также считают, что крестель — плохое предзнаменование, знак приближающегося конца и начала новой эпохи.</r></e>
+  <e k="D" t="ThingDef" key="DA_Crestel.label"><s>crestel</s><r>хребет</r></e>
+  <e k="D" t="ThingDef" key="DA_DrogRug.description"><s>A trophy marking the victory over a northern drog. This impressive rug is luxurious and exceptionally warm, but watch out for the tusks.</s><r>Трофей, знаменующий победу над северным дрогом. Этот впечатляющий ковер роскошный и исключительно теплый, но будьте осторожны с бивнями.</r></e>
+  <e k="D" t="ThingDef" key="DA_DrogRug.label"><s>northern drog rug (3x3)</s><r>коврик северный дрог (3х3)</r></e>
+  <e k="D" t="ThingDef" key="DA_DwarvenMuffton.description"><s>The dwarven muffton is sheep-like herbivore known for its warm brown wool and gigantic horns. Herds can be often seen hopping around in the cold northern mountains where they live most of the year. Prideful and with a firey temperament, the males tends to fight by ramming their heads until one or the other is killed.
+
+There are tales of a stoneborn king who fought countless battles on the back of a dwarven muffton. This legend gave rise to a tradition among certain clans, in which upon reaching puberty each stoneborn would be given a baby muffton.</s><r>Гномий маффтон — травоядное животное, похожее на овцу, известное своей теплой коричневой шерстью и гигантскими рогами. Стада часто можно увидеть скачущими в холодных северных горах, где они живут большую часть года. Гордые и вспыльчивые самцы склонны сражаться, тараня головы, пока один или другой не будет убит.
+
+Существуют истории о камнерожденном короле, который провел бесчисленные сражения на спине дварфийского маффтона. Эта легенда породила среди некоторых кланов традицию, согласно которой по достижении половой зрелости каждому камнерожденному давали детскую муфту.</r></e>
+  <e k="D" t="ThingDef" key="DA_DwarvenMuffton.label"><s>dwarven muffton</s><r>гномий маффтон</r></e>
+  <e k="D" t="ThingDef" key="DA_EmperorPearls.description"><s>Large pearl-like outgrowths formed out of polished chitin, extracted from the claw of a fully grown leviathan. Quite the valuable trophy.</s><r>Большие жемчужные выросты образовались из полированного хитина, извлеченного из когтя взрослого левиафана. Довольно ценный трофей.</r></e>
+  <e k="D" t="ThingDef" key="DA_EmperorPearls.label"><s>emperor pearls</s><r>императорский жемчуг</r></e>
+  <e k="D" t="ThingDef" key="DA_FermentingMufftonMilk.description"><s>Fermenting muffton milk that needs to be stirred regularly in order to produce karhan.</s><r>Брожение маффтонного молока, которое необходимо регулярно помешивать, чтобы получить кархан.</r></e>
+  <e k="D" t="ThingDef" key="DA_FermentingMufftonMilk.label"><s>fermenting muffton milk</s><r>сквашивание маффтонного молока</r></e>
+  <e k="D" t="ThingDef" key="DA_Filth_BlueFeathers.label"><s>blue feathers</s><r>синие перья</r></e>
+  <e k="D" t="ThingDef" key="DA_Filth_GnawedBones.label"><s>gnawed bones</s><r>обглоданные кости</r></e>
+  <e k="D" t="ThingDef" key="DA_Fish_SnappingTadpole.description"><s>The larval stage of giant snaptoad. Their spongy flesh tastes of mud and little else, but is nevertheless considered a delicacy in some cultures.</s><r>Личиночная стадия гигантской жабы. Их губчатая плоть имеет вкус грязи и ничего другого, но, тем не менее, в некоторых культурах она считается деликатесом.</r></e>
+  <e k="D" t="ThingDef" key="DA_Fish_SnappingTadpole.label"><s>snapping tadpole</s><r>щелкающий головастик</r></e>
+  <e k="D" t="ThingDef" key="DA_ForestOwlcat.description"><s>A strange creature combining the features of a feline and that of an owl. The nimble predator referred only as owlcats can be commonly found hunting and nesting in the woodlands. Their long elegant wings are vestigial and primarly serve in the mating season, in order to attract new partners or to scare off predators by appearing bigger than they are.
+
+Some hunters have taken a liking to owlcats for their ability to quickly track and hunt rodents.</s><r>Странное существо, сочетающее в себе черты кошки и совы. Проворного хищника, называемого только совой, часто можно встретить охотящимся и гнездящимся в лесах. Их длинные элегантные крылья рудиментарны и в основном служат в брачный период, чтобы привлечь новых партнеров или отпугнуть хищников, выглядя крупнее, чем они есть на самом деле.
+
+Некоторым охотникам совы полюбились за их способность быстро выслеживать и охотиться на грызунов.</r></e>
+  <e k="D" t="ThingDef" key="DA_ForestOwlcat.label"><s>forest owlcat</s><r>лесная совакот</r></e>
+  <e k="D" t="ThingDef" key="DA_ForestOwlcat.tools.0.label"><s>left claw</s><r>левый коготь</r></e>
+  <e k="D" t="ThingDef" key="DA_ForestOwlcat.tools.1.label"><s>right claw</s><r>правая клешня</r></e>
+  <e k="D" t="ThingDef" key="DA_ForestOwlcat.tools.2.label"><s>beak</s><r>клюв</r></e>
+  <e k="D" t="ThingDef" key="DA_ForestOwlcat.tools.3.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="DA_FreshTrollBurrow.description"><s>A large troll burrow that runs deep underground. Growling and scratching can be heard from within. This one is freshly dug.</s><r>Большая нора троллей, уходящая глубоко под землю. Изнутри слышно рычание и царапанье. Этот свежевыкопанный.</r></e>
+  <e k="D" t="ThingDef" key="DA_FreshTrollBurrow.label"><s>troll burrow</s><r>нора тролля</r></e>
+  <e k="D" t="ThingDef" key="DA_GiantBone.description"><s>A giant and robust bone that came from a large creature. Commonly used for armors and weapons because of its durability.</s><r>Гигантская и крепкая кость, принадлежащая большому существу. Обычно используется для изготовления доспехов и оружия из-за своей долговечности.</r></e>
+  <e k="D" t="ThingDef" key="DA_GiantBone.label"><s>giant bone</s><r>гигантская кость</r></e>
+  <e k="D" t="ThingDef" key="DA_GiantRock.label"><s>giant rock</s><r>гигантский камень</r></e>
+  <e k="D" t="ThingDef" key="DA_GnawedBones.description"><s>Skeletal remains covered with teeth dents. Often signifying the presence of a nearby troll nest.</s><r>Скелетные останки покрыты зубными вмятинами. Часто означает присутствие поблизости гнезда троллей.</r></e>
+  <e k="D" t="ThingDef" key="DA_GnawedBones.label"><s>gnawed remains</s><r>обглоданные останки</r></e>
+  <e k="D" t="ThingDef" key="DA_Goldilox.description"><s>Tales are told of a gleaming giant gilding the very earth it walks upon, making a king out of the poorest serf with the treasure left in its wake. Many such myths surround the fabled goldilox, a legendary beast who roams the world. While peaceful by nature, goldilox is a fierce defender, trampling any who incur its wrath beneath golden hooves.
+
+The few who ever managed to tame the beast were rewarded with a rich and creamy milk, and its glistening wool rumored to be made out of genuine gold.</s><r>Рассказывают о блестящем гиганте, золотищем саму землю, по которому он ходит, и сделавшем короля из беднейшего крепостного с сокровищами, оставленными на его пути. Множество подобных мифов окружает легендарного Златилокса, легендарного зверя, бродящего по миру. Хотя золотодилокс миролюбив по своей природе, он является яростным защитником, попирающим золотыми копытами любого, кто навлечет на себя его гнев.
+
+Немногие, кому когда-либо удалось приручить зверя, были вознаграждены густым сливочным молоком, а его блестящая шерсть, по слухам, была сделана из настоящего золота.</r></e>
+  <e k="D" t="ThingDef" key="DA_Goldilox.label"><s>goldilox</s><r>золотодилокс</r></e>
+  <e k="D" t="ThingDef" key="DA_GoldiloxHorn.label"><s>goldilox horn</s><r>рог золотодилокса</r></e>
+  <e k="D" t="ThingDef" key="DA_HibernatingRockTroll.comps.1.earlyEmergeLetterLabel"><s>Rock troll sighted</s><r>Обнаружен каменный тролль</r></e>
+  <e k="D" t="ThingDef" key="DA_HibernatingRockTroll.comps.1.earlyEmergeLetterText"><s>A large quake occured and a rock troll emerged ! Stories of the beast are told from far and wide. Walls of stone turned into rubble and entire villages ravaged by its wrath. Taking it down will be no small feat.</s><r>Произошло сильное землетрясение, и появился каменный тролль! Истории о звере рассказывают отовсюду. Каменные стены превратились в руины, а его гнев опустошил целые деревни. Снести его будет немалым подвигом.</r></e>
+  <e k="D" t="ThingDef" key="DA_HibernatingRockTroll.comps.2.letterLabel"><s>Strange stone formation</s><r>Странное каменное образование</r></e>
+  <e k="D" t="ThingDef" key="DA_HibernatingRockTroll.comps.2.letterText"><s>{PAWN_nameDef} has noticed a seemingly large chunk of stone emerging from the earth. Valuable minerals could be found within.
+
+A small thumping can be heard from beneath.</s><r>{PAWN_nameDef} заметил, казалось бы, большой кусок камня, выходящий из земли. Внутри можно найти ценные минералы.
+
+ Из-под них слышен небольшой стук.</r></e>
+  <e k="D" t="ThingDef" key="DA_HibernatingRockTroll.description"><s>A large jagged rock formation.</s><r>Большое зазубренное скальное образование.</r></e>
+  <e k="D" t="ThingDef" key="DA_HibernatingRockTroll.label"><s>strange stone formation</s><r>странное каменное образование</r></e>
+  <e k="D" t="ThingDef" key="DA_ImperialRedhound.description"><s>Nearly the size of a bear, the imperial redhound is the largest dog breed in the world. Trained to protect and serve kings, they are seen as pure and noble with an undying loyalty, even capable of overpowering the fiercest of men with their prodigious strength.
+
+Redhounds are clever beasts, and their intelligence is known throughout the lands, as they are capable of following even the most complex of orders. With only a few sanctioned kennel-masters allowed to breed them, it makes them a rare sight outside of a noble court.</s><r>Императорская редхаунд размером почти с медведя — самая крупная порода собак в мире. Обученные защищать королей и служить им, они считаются чистыми и благородными, с бессмертной преданностью, способными даже одолеть самых свирепых людей своей потрясающей силой.
+
+Редхаунды — умные звери, и их интеллект известен во всех странах, поскольку они способны выполнять даже самые сложные приказы. Поскольку лишь немногим санкционированным владельцам питомников разрешено их разводить, это делает их редким зрелищем за пределами благородного двора.</r></e>
+  <e k="D" t="ThingDef" key="DA_ImperialRedhound.label"><s>imperial redhound</s><r>имперская редхаунд</r></e>
+  <e k="D" t="ThingDef" key="DA_IroncasketBeetle.description"><s>A large beetle covered in iron-like carapace. Fearful and reclusive, these peculiar insectoids burrow into ore deposits to give birth, where their young can stay safe and absorb the minerals necessary for formation of their metallic shells.
+
+Experienced quarry overseers often hire hunters to track ironcasket beetle nests, as their shells can be extracted for a hassle-free source of steel.</s><r>Большой жук, покрытый железным панцирем. Боящиеся и замкнутые, эти своеобразные инсектоиды зарываются в рудные залежи, чтобы дать потомство, где их детеныши могут оставаться в безопасности и поглощать минералы, необходимые для формирования их металлических панцирей.
+
+Опытные надзиратели карьеров часто нанимают охотников, чтобы выследить гнезда жуков-жуков в железных шкатулях, поскольку их панцири можно легко извлечь и получить беспроблемный источник стали.</r></e>
+  <e k="D" t="ThingDef" key="DA_IroncasketBeetle.label"><s>ironcasket beetle</s><r>железный жук-шкатулка</r></e>
+  <e k="D" t="ThingDef" key="DA_IroncasketBeetle.tools.0.label"><s>mandibles</s><r>челюсти</r></e>
+  <e k="D" t="ThingDef" key="DA_IroncasketBeetle.tools.1.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="DA_Karabal.description"><s>A large nocturnal bat-like creature who lives in the arid wastes of the world. They primarily feed on blood, which they suck off sleeping animals when twilight descends on the cold dunes.
+
+While weaker and smaller than a wolf, the karabal makes up for its size with its bite, injecting an anti-coagulant venom that greatly increases the threat of blood loss.</s><r>Большое ночное существо, похожее на летучую мышь, живущее в засушливых пустошах мира. В основном они питаются кровью, которую высасывают из спящих животных, когда сумерки опускаются на холодные дюны.
+
+Хотя карабал слабее и меньше волка, он компенсирует свой размер укусом, впрыскивая антикоагулянтный яд, который значительно увеличивает угрозу кровопотери.</r></e>
+  <e k="D" t="ThingDef" key="DA_Karabal.label"><s>karabal</s><r>карабал</r></e>
+  <e k="D" t="ThingDef" key="DA_Karabal.tools.0.label"><s>bloodsucker</s><r>кровосос</r></e>
+  <e k="D" t="ThingDef" key="DA_Karabal.tools.1.label"><s>left claw</s><r>левый коготь</r></e>
+  <e k="D" t="ThingDef" key="DA_Karabal.tools.2.label"><s>right claw</s><r>правая клешня</r></e>
+  <e k="D" t="ThingDef" key="DA_Karabal.tools.3.label"><s>bleedfangs</s><r>кровоточащие клыки</r></e>
+  <e k="D" t="ThingDef" key="DA_Karabal.tools.4.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="DA_Karhan.description"><s>Muffton milk which has been stirred and fermented for a extended duration. While not as alcoholic as other beverages excessive consumption can lead to alcohol blackouts and, over time, addiction.</s><r>Маффтонное молоко, которое перемешивали и ферментировали в течение длительного времени. Несмотря на то, что он не такой алкогольный, как другие напитки, чрезмерное его употребление может привести к отключению алкоголя и со временем к зависимости.</r></e>
+  <e k="D" t="ThingDef" key="DA_Karhan.ingestible.ingestCommandString"><s>Drink {0}</s><r>Выпей {0}</r></e>
+  <e k="D" t="ThingDef" key="DA_Karhan.ingestible.ingestReportString"><s>Drinking {0}.</s><r>Пью {0}.</r></e>
+  <e k="D" t="ThingDef" key="DA_Karhan.label"><s>karhan</s><r>ругать</r></e>
+  <e k="D" t="ThingDef" key="DA_LarpahAntlers.description"><s>A set of valuable antlers belonging to a larpah. Some tribes use the marrow found inside the bone to concoct a precious mixture.</s><r>Набор ценных рогов ларпы. Некоторые племена используют костный мозг, находящийся внутри кости, для приготовления драгоценной смеси.</r></e>
+  <e k="D" t="ThingDef" key="DA_LarpahAntlers.label"><s>larpah antlers</s><r>рога ларпы</r></e>
+  <e k="D" t="ThingDef" key="DA_LarpahRug.description"><s>A trophy marking the victory over a red-horned larpah. The warm and durable leather of the larpah makes for the perfect rug, but beware of its antlers.</s><r>Трофей, знаменующий победу над краснорогой ларпой. Теплая и прочная кожа ларпы может стать идеальным ковриком, но остерегайтесь ее рогов.</r></e>
+  <e k="D" t="ThingDef" key="DA_LarpahRug.label"><s>red-horned larpah rug (1x1)</s><r>коврик из ларпы краснорогий (1x1)</r></e>
+  <e k="D" t="ThingDef" key="DA_LarpahRugB.description"><s>A trophy marking the victory over a red-horned larpah. The warm and durable leather of the larpah makes for the perfect rug, but beware of its antlers.</s><r>Трофей, знаменующий победу над краснорогой ларпой. Теплая и прочная кожа ларпы может стать идеальным ковриком, но остерегайтесь ее рогов.</r></e>
+  <e k="D" t="ThingDef" key="DA_LarpahRugB.label"><s>white red-horned larpah rug (1x1)</s><r>белый ковер из ларпы с красным рогом (1x1)</r></e>
+  <e k="D" t="ThingDef" key="DA_Leather_Barog.description"><s>The spongy green hide of a barogoth. While good at regulating temperature in hot and humid climates, it does not protect much.</s><r>Губчатая зеленая шкура барогота. Хотя он хорошо регулирует температуру в жарком и влажном климате, он не особо защищает.</r></e>
+  <e k="D" t="ThingDef" key="DA_Leather_Barog.label"><s>spongy hide</s><r>губчатая шкура</r></e>
+  <e k="D" t="ThingDef" key="DA_Leather_Crestel.description"><s>A thin pelt covered in numerous blue feathers. Incredibly hard by nature, they however shatter quite easily against blunt shocks.</s><r>Тонкая шкурка, покрытая многочисленными синими перьями. Невероятно твердые по своей природе, они, однако, довольно легко разрушаются от тупого удара.</r></e>
+  <e k="D" t="ThingDef" key="DA_Leather_Crestel.label"><s>crestel stonefeather</s><r>крестель</r></e>
+  <e k="D" t="ThingDef" key="DA_Leather_Drog.description"><s>Heavy pelt of a drog. Very insulating and durable. Often used by northern clans to keep themselves warm during the harshest of winters.</s><r>Тяжелая шкура драги. Очень изолирующий и прочный. Часто используется северными кланами, чтобы согреться в самые суровые зимы.</r></e>
+  <e k="D" t="ThingDef" key="DA_Leather_Drog.label"><s>drogpelt</s><r>пускает слюни</r></e>
+  <e k="D" t="ThingDef" key="DA_Leather_Karabal.description"><s>The purpley leather of a karabal. Good at temperature regulation..</s><r>Пурпурная кожа карабала. Хорошо регулирует температуру..</r></e>
+  <e k="D" t="ThingDef" key="DA_Leather_Karabal.label"><s>karabal leather</s><r>карабальская кожа</r></e>
+  <e k="D" t="ThingDef" key="DA_Leather_Larpah.description"><s>The soft yet robust white pelt of a red-horned larpah. Used for the highest-craft for its insulation and strength.</s><r>Мягкая, но прочная белая шкура краснорогой ларпы. Используется для самых высоких ремесел из-за своей изоляции и прочности.</r></e>
+  <e k="D" t="ThingDef" key="DA_Leather_Larpah.label"><s>larpah whitefur</s><r>ларпа</r></e>
+  <e k="D" t="ThingDef" key="DA_Leather_RockTroll.description"><s>The incredibly heavy and durable pelt of a rock troll. It is as hard as a chainmail and requires tremendous work to shape.</s><r>Невероятно тяжелая и прочная шкура каменного тролля. Он тверд, как кольчуга, и его придание формы требует огромной работы.</r></e>
+  <e k="D" t="ThingDef" key="DA_Leather_RockTroll.label"><s>hardened pelt</s><r>закаленная шкура</r></e>
+  <e k="D" t="ThingDef" key="DA_Leather_SilverMole.description"><s>Bright sheets of a silvery mole. It is delicate, but luxurious.</s><r>Яркие листы серебристой родинки. Он нежный, но роскошный.</r></e>
+  <e k="D" t="ThingDef" key="DA_Leather_SilverMole.label"><s>silverfur</s><r>серебристый мех</r></e>
+  <e k="D" t="ThingDef" key="DA_Leather_Snaptoad.description"><s>The warty hide of a giant snaptoad. Tough and well-insulating, but very ugly.</s><r>Бородавчатая шкура гигантской жабы. Прочный и хорошо изолирующий, но очень некрасивый.</r></e>
+  <e k="D" t="ThingDef" key="DA_Leather_Snaptoad.label"><s>warty hide</s><r>бородавчатая шкура</r></e>
+  <e k="D" t="ThingDef" key="DA_Leather_Troll.description"><s>The strong pelt of a troll. Very weak to fire but exceptionally durable.</s><r>Крепкая шкура тролля. Очень слабый к огню, но исключительно прочный.</r></e>
+  <e k="D" t="ThingDef" key="DA_Leather_Troll.label"><s>trollpelt</s><r>тролли</r></e>
+  <e k="D" t="ThingDef" key="DA_LeviathanChitin.description"><s>The rigid blue chitin of a leviathan crab. While incredibly hard on itself, it can be softened and used as a substitute to leather by boiling it long enough.</s><r>Твердый синий хитин краба-левиафана. Несмотря на то, что он невероятно тверд сам по себе, его можно смягчить и использовать в качестве заменителя кожи, если прокипятить его достаточно долго.</r></e>
+  <e k="D" t="ThingDef" key="DA_LeviathanChitin.label"><s>leviathan hardchitin</s><r>левиафан хардчитин</r></e>
+  <e k="D" t="ThingDef" key="DA_LeviathanCrab.description"><s>A giant crustacean who lives most of its life under the cold blanket of the sea. When the tide is low, leviathans may wander inland to prey on the unfortunate using their massive claw.n
+\Some courageous fishermen have made a habit out of hunting for leviathan juveniles, as their flesh can last a long time without spoiling away.</s><r>Гигантское ракообразное, живущее большую часть своей жизни под холодным морским покровом. Во время отлива левиафаны могут бродить вглубь суши, чтобы охотиться на несчастных, используя свои огромные когти.n
+\Некоторые отважные рыбаки взяли за привычку охотиться на молодых левиафанов, поскольку их плоть может сохраняться долгое время, не портясь.</r></e>
+  <e k="D" t="ThingDef" key="DA_LeviathanCrab.label"><s>leviathan</s><r>левиафан</r></e>
+  <e k="D" t="ThingDef" key="DA_LeviathanCrab.tools.0.label"><s>right claw</s><r>правая клешня</r></e>
+  <e k="D" t="ThingDef" key="DA_LeviathanCrab.tools.1.label"><s>giant claw</s><r>гигантский коготь</r></e>
+  <e k="D" t="ThingDef" key="DA_LeviathanCrab.tools.2.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="DA_LeviathanStripes.description"><s>Raw stripes of meat from a leviathan crab.
+
+Shattering their dense shell to extract the meat is a long and tedious process, what comes of it is a salty and pale looking meat. Takes a long time to rot.</s><r>Сырые полоски мяса краба-левиафана.
+
+Разрушение плотного панциря для извлечения мяса — долгий и утомительный процесс, в результате получается соленое и бледное на вид мясо. Гнить нужно долго.</r></e>
+  <e k="D" t="ThingDef" key="DA_LeviathanStripes.label"><s>leviathan whitestripe</s><r>левиафан</r></e>
+  <e k="D" t="ThingDef" key="DA_MineableSteelBeetle.comps.0.earlyEmergeLetterLabel"><s>Wild ironcasket beetle</s><r>Дикий жук-железной шкатулки</r></e>
+  <e k="D" t="ThingDef" key="DA_MineableSteelBeetle.comps.0.earlyEmergeLetterText"><s>One of the ore deposit started to move frenetically. It appears that it was infested by a ironcasket beetle. The confused insectoid is now fleeing in panic.</s><r>Одно из рудных месторождений начало бешено двигаться. Судя по всему, он был заражен жуком-железной шкатулкой. Растерянный инсектоид в панике убегает.</r></e>
+  <e k="D" t="ThingDef" key="DA_MineableSteelBeetle.description"><s>The remains of some ancient, collapsed structure. Rich in steel.</s><r>Остатки какого-то древнего, рухнувшего сооружения. Богат сталью.</r></e>
+  <e k="D" t="ThingDef" key="DA_MineableSteelBeetle.label"><s>compacted steel</s><r>уплотненная сталь</r></e>
+  <e k="D" t="ThingDef" key="DA_Mote_Muckbile.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="DA_Mote_RedFumes.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="DA_Mote_Screeching.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="DA_MufftonMilk.description"><s>The strong and pungent milk of a dwarven muffton. It is rather acidic and leaves a sour aftertaste if eaten raw, fortunately it loose most of its acidity when cooked.</s><r>Крепкое и острое молоко дварфийского маффтона. Он довольно кислый и оставляет кислое послевкусие, если его есть сырым, но, к счастью, при приготовлении он теряет большую часть своей кислотности.</r></e>
+  <e k="D" t="ThingDef" key="DA_MufftonMilk.label"><s>muffton milk</s><r>маффтонное молоко</r></e>
+  <e k="D" t="ThingDef" key="DA_NorthernDrog.description"><s>The colossal northern cousin of the wild boar. The drog is a gigantic dendrovore that roams the colder regions of the world where it can be seen tearing down trees to feed on with it's massive tusks. Territorial by nature, it will not hesitate to crush anything that earns its ire.
+
+Despite its impressive size and strength, the drog is often hunted for it's thick fur and valuable tusks.</s><r>Колоссальный северный родственник дикого кабана. Дрог — это гигантский дендровор, который бродит по холодным регионам мира, где его можно увидеть срывающим деревья, чтобы питаться своими массивными клыками. Территориальный по своей природе, он без колебаний сокрушит все, что вызывает его гнев.
+
+Несмотря на впечатляющие размеры и силу, на дроса часто охотятся из-за его густого меха и ценных клыков.</r></e>
+  <e k="D" t="ThingDef" key="DA_NorthernDrog.label"><s>northern drog</s><r>северный дрог</r></e>
+  <e k="D" t="ThingDef" key="DA_PetrifyingGland.description"><s>A large gland extracted from a Crestel. It oozes a thick and potent venom capable of completely paralysing the muscles and nerves.</s><r>Большая железа, извлеченная из крестела. Он источает густой и мощный яд, способный полностью парализовать мышцы и нервы.</r></e>
+  <e k="D" t="ThingDef" key="DA_PetrifyingGland.label"><s>petrifying gland</s><r>окаменевшая железа</r></e>
+  <e k="D" t="ThingDef" key="DA_Phrak.description"><s>The buzzing pest of the marshy groves. The phrak is a mosquito-like insectoid that hunts using it's large rostrum. While not particularly armored, it makes up for with its agility and quick reflexes, outmaneuvering even the most trained of fighters. They spread by laying numerous eggs in bodies of water, making swamps a perfect habitat for them.
+
+Phraks can use a special organ near their abdomen to shoot a volley of toxic barbpikes in order to quickly take out hostile threats from afar.</s><r>Жужжащий вредитель болотных рощ. Фрак — это похожий на комара инсектоид, который охотится, используя свой большой рострум. Несмотря на то, что он не особенно бронирован, он компенсирует это своей ловкостью и быстрой реакцией, превосходя маневр даже самых тренированных бойцов. Они распространяются, откладывая многочисленные яйца в водоемах, что делает болота идеальной средой обитания для них.
+
+Фраксы могут использовать специальный орган возле своего брюшка, чтобы стрелять залпом токсичных щук, чтобы быстро устранять враждебные угрозы издалека.</r></e>
+  <e k="D" t="ThingDef" key="DA_Phrak.label"><s>phrak</s><r>фрак</r></e>
+  <e k="D" t="ThingDef" key="DA_Pilgrim.description"><s>A large avian often seen striding amidst the dunes. The pilgrims were given their name after their long migration periods which can last months as they travel from one desert to the next.
+
+Pilgrims are often domesticated by the southern tribes to serve as mounts and for their eggs which provides nutrition in the harsh desert conditions.</s><r>Большую птицу часто можно увидеть шагающей среди дюн. Паломники получили свое имя в честь длительных периодов миграции, которые могут длиться месяцами, когда они путешествуют из одной пустыни в другую.
+
+Южные племена часто приручают паломников в качестве ездовых животных и для получения яиц, которые обеспечивают питание в суровых условиях пустыни.</r></e>
+  <e k="D" t="ThingDef" key="DA_Pilgrim.label"><s>pilgrim</s><r>паломник</r></e>
+  <e k="D" t="ThingDef" key="DA_Proj_MuckbileSpew.label"><s>muckbile</s><r>гадость</r></e>
+  <e k="D" t="ThingDef" key="DA_RedTear.description"><s>A droplet of red ink extracted from the venom gland of a black scribe, often consumed by pouring it on an eye. While dangerous, it procures a feeling of euphoria in small doses.</s><r>Капля красных чернил, извлеченная из ядовитой железы черного писца, которую часто выливают на глаз. Хотя это и опасно, в малых дозах оно вызывает чувство эйфории.</r></e>
+  <e k="D" t="ThingDef" key="DA_RedTear.ingestible.ingestCommandString"><s>Pour {0}</s><r>Налейте {0}</r></e>
+  <e k="D" t="ThingDef" key="DA_RedTear.ingestible.ingestReportString"><s>Pouring {0}.</s><r>Заливка {0}.</r></e>
+  <e k="D" t="ThingDef" key="DA_RedTear.label"><s>red tear</s><r>красная слеза</r></e>
+  <e k="D" t="ThingDef" key="DA_RedhornedLarpah.description"><s>An elusive and deceitful creature, the red-horned larpah is a large leporidae with tall brown antlers protruding from it's head. While it may look gentle, larpah's apperence belies its predatory, fierce nature. As they grow older, a thick layer of dried blood from past battles coats their horns, earning them the moniker of &quot;red-horned&quot;.
+
+Deadly and tough for its size, its aggressiveness rarely discourages hunters from trying their luck at slaying the beast for its durable pelt and valuable antlers, which can be turned into a powerful mixture.</s><r>Неуловимое и коварное существо, краснорогая ларпа — это большое зайцеобразное животное с высокими коричневыми рогами, торчащими из головы. Несмотря на то, что ларпа может выглядеть нежным, внешний вид ларпы противоречит ее хищной и жестокой натуре. Когда они подрастают, их рога покрываются толстым слоем засохшей крови из прошлых сражений, за что их прозвали «краснорогими».
+
+Смертоносный и крепкий из-за своего размера, его агрессивность редко мешает охотникам попытать счастья в убийстве зверя из-за его прочной шкуры и ценных рогов, которые можно превратить в мощную смесь.</r></e>
+  <e k="D" t="ThingDef" key="DA_RedhornedLarpah.label"><s>red-horned larpah</s><r>краснорогая ларпа</r></e>
+  <e k="D" t="ThingDef" key="DA_RedhornedLarpah.tools.0.label"><s>horn</s><r>рог</r></e>
+  <e k="D" t="ThingDef" key="DA_RegalMilk.description"><s>The rich and creamy milk of a goldilox. While it taste better raw, it still maintain some of its flavors when cooked.</s><r>Насыщенное сливочное молоко золотодилокса. Хотя в сыром виде он вкуснее, при приготовлении он все равно сохраняет некоторые свои вкусовые качества.</r></e>
+  <e k="D" t="ThingDef" key="DA_RegalMilk.label"><s>regal milk</s><r>королевское молоко</r></e>
+  <e k="D" t="ThingDef" key="DA_RockTroll.description"><s>The rock troll is a colossal, eyeless creature often found living in caves and underground chasms. Much more reclusive than its northern cousins, the rock troll will only surface from its underground lair when provoked.
+
+Lacking regenerative abilities, the rock troll makes up for it through a strange process known as self-petrification. Any open wound will almost immediately be closed by ultra-fast blood clotting that ossifies soon after, creating dense stone-like formations that provide the beast with temporary ablative armor.</s><r>Скальный тролль — огромное безглазое существо, которое часто встречается в пещерах и подземных расщелинах. Гораздо более замкнутый, чем его северные собратья, каменный тролль выходит из своего подземного логова только тогда, когда его спровоцируют.
+
+Недостаток регенеративных способностей каменный тролль компенсирует это странным процессом, известным как самоокаменение. Любая открытая рана почти сразу закрывается сверхбыстрым свертыванием крови, которая вскоре после этого окостенеет, создавая плотные камнеподобные образования, обеспечивающие зверю временную абляционную броню.</r></e>
+  <e k="D" t="ThingDef" key="DA_RockTroll.label"><s>rock troll</s><r>рок-тролль</r></e>
+  <e k="D" t="ThingDef" key="DA_RockTroll.tools.0.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="DA_RockTroll.tools.1.label"><s>left claw</s><r>левый коготь</r></e>
+  <e k="D" t="ThingDef" key="DA_RockTroll.tools.2.label"><s>right claw</s><r>правая клешня</r></e>
+  <e k="D" t="ThingDef" key="DA_Sangonite.description"><s>The petrified blood of a rock troll. Sangonite is a exceedingly hard and dense material which can be shaped into weapons and armors given the right amount of heat.
+
+The sangonite carapace of a rock troll is often shaped by countless battles, as they fight for territory. Some even say that the mountains themselves are colossal trolls which existed ever since the first dust settled on the earth.</s><r>Окаменевшая кровь каменного тролля. Сангонит — чрезвычайно твердый и плотный материал, из которого при правильном количестве тепла можно формовать оружие и доспехи.
+
+Сангонитовый панцирь каменного тролля часто формируется в результате бесчисленных сражений, когда они сражаются за территорию. Некоторые даже говорят, что сами горы — это колоссальные тролли, существовавшие с тех пор, как на землю осела первая пыль.</r></e>
+  <e k="D" t="ThingDef" key="DA_Sangonite.label"><s>sangonite</s><r>сангонит</r></e>
+  <e k="D" t="ThingDef" key="DA_ScarletScent.description"><s>A red mixture of bone marrow extracted from the antlers of a larpah and several herbs. It is consumed by burning the concoction and inhaling the fumes, which drastically increase one's abilities and strength.
+
+While the powerful drug is non-addictive, it can lead to a uncontrollable frenzy.</s><r>Красная смесь костного мозга, извлеченная из рогов ларпы и некоторых трав. Его употребляют путем сжигания смеси и вдыхания паров, что резко увеличивает способности и силу.
+
+Хотя мощный препарат не вызывает привыкания, он может привести к неконтролируемому безумию.</r></e>
+  <e k="D" t="ThingDef" key="DA_ScarletScent.ingestible.ingestCommandString"><s>Inhale {0}</s><r>Вдохните {0}</r></e>
+  <e k="D" t="ThingDef" key="DA_ScarletScent.ingestible.ingestReportString"><s>Inhaling {0}.</s><r>Вдыхаем {0}.</r></e>
+  <e k="D" t="ThingDef" key="DA_ScarletScent.label"><s>scarlet scent</s><r>алый аромат</r></e>
+  <e k="D" t="ThingDef" key="DA_Shot_Phrak.label"><s>toxic barbpike</s><r>токсичный барбус</r></e>
+  <e k="D" t="ThingDef" key="DA_SilverMole.description"><s>A small burrowing mammal with glistening silver fur. Elusive and skittish, the silver mole can rarely be seen outside the safety of its underground den deep in the mountains.
+
+Many woodsmen make a habit of patrolling silver mole habitats, hoping to catch the critter while it digs for its favourite food - white truffles, rare mushrooms with sublime taste that grows under stony soils.</s><r>Небольшое роющее млекопитающее с блестящим серебристым мехом. Неуловимого и пугливого серебряного крота редко можно увидеть за пределами его безопасного подземного логова глубоко в горах.
+
+Многие лесники имеют привычку патрулировать места обитания серебряного крота, надеясь поймать животное, пока оно копает свою любимую еду - белые трюфели, редкие грибы с великолепным вкусом, которые растут на каменистых почвах.</r></e>
+  <e k="D" t="ThingDef" key="DA_SilverMole.label"><s>silver mole</s><r>серебряная родинка</r></e>
+  <e k="D" t="ThingDef" key="DA_SilverMole.tools.0.label"><s>left claw</s><r>левый коготь</r></e>
+  <e k="D" t="ThingDef" key="DA_SilverMole.tools.1.label"><s>right claw</s><r>правая клешня</r></e>
+  <e k="D" t="ThingDef" key="DA_SilverMole.tools.3.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="DA_Snaptoad.description"><s>An enormous, carnivorous amphibian reigning as swamplands' apex predator. The tooth-filled maw that earned giant snaptoad its moniker can easily crush bone, and unhinge to swallow smaller prey whole after a leaping ambush from between the reeds. Its dentition, unique among contemporary amphibians, leads to speculation among scholars about whether giant snaptoad is a true toad, or an unrelated amphibian that convergently developed toad-like traits.
+
+Giant snaptoads practice a rare form of child rearing called gastric brooding: upon fertilization, the eggs are immediately swallowed by the female and stored in a special chamber in their stomach. There, the tadpoles can safely hatch and develop, regurgitated by their parent only once they have transformed into froglets. However, in rare cases, the practice is omitted, and the tadpoles are left to fend for themselves in marshy waters.</s><r>Огромная плотоядная амфибия, правящая хищником болот. Наполненная зубами пасть, за что получила свое прозвище гигантская жаба, может легко раздробить кость и расшатать кость, чтобы проглотить более мелкую добычу целиком после прыжковой засады между камышами. Ее зубной ряд, уникальный среди современных земноводных, заставляет ученых размышлять о том, является ли гигантская оснастка настоящей жабой или неродственной амфибией, у которой конвергентно развились жабоподобные черты. Гигантские оснастки практикуют редкую форму выращивания детей, называемую вынашиванием в желудке: после оплодотворения яйца немедленно проглатываются самкой и сохраняются в специальной камере в желудке. Там головастики могут безопасно вылупиться и развиваться, их родитель отрыгивает их только после того, как они превратятся в лягушек. Однако в редких случаях эту практику пропускают, и головастиков оставляют на произвол судьбы в болотистых водах.</r></e>
+  <e k="D" t="ThingDef" key="DA_Snaptoad.label"><s>giant snaptoad</s><r>гигантская жаба</r></e>
+  <e k="D" t="ThingDef" key="DA_Snaptoad.tools.0.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="DA_SnowTaraal.description"><s>A cousin of the common taraal adapted to frozen climates. They wander in the frigid wastelands in search of carcasses from animals taken by the frost and snow hares for the majority of the year.
+
+When the wind grows colder and the snow thickens, the snow taraals leave the northern ices to seek shelter in the mountains where they will hibernate.</s><r>Двоюродный брат тараала обыкновенного, приспособленный к замерзшему климату. Большую часть года они бродят по холодным пустошам в поисках трупов животных, захваченных морозом, и зайцев-беляков.
+
+Когда ветер становится холоднее и снег сгущается, снежные тараалы покидают северные льды в поисках убежища в горах, где они впадают в спячку.</r></e>
+  <e k="D" t="ThingDef" key="DA_SnowTaraal.label"><s>snow taraal</s><r>снежный тарал</r></e>
+  <e k="D" t="ThingDef" key="DA_SnowTaraal.tools.0.label"><s>left claw</s><r>левый коготь</r></e>
+  <e k="D" t="ThingDef" key="DA_SnowTaraal.tools.1.label"><s>right claw</s><r>правая клешня</r></e>
+  <e k="D" t="ThingDef" key="DA_SnowTaraal.tools.3.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="DA_Taraal.description"><s>The taraal, also known as great land owl is a huge omnivorous bird that dwells in the many forests of the world. They primarily eat fish, and can be often seen near rivers and lakes in search of their favourite prey. In its absence, the taraal will not hesitate to use its immense, bear-like strength to hunt live prey instead..
+
+When the wind grows cold and the first snows begin, taraals leave their forests to seek shelter in the mountains where they will hibernate.</s><r>Тараал, также известный как большая сухопутная сова, — огромная всеядная птица, обитающая во многих лесах мира. В основном они питаются рыбой, и их часто можно увидеть возле рек и озер в поисках любимой добычи. В его отсутствие тараал без колебаний использует свою огромную медвежью силу для охоты на живую добычу..
+
+Когда ветер становится холодным и выпадает первый снег, тараалы покидают свои леса в поисках убежища в горах, где они впадают в спячку.</r></e>
+  <e k="D" t="ThingDef" key="DA_Taraal.label"><s>taraal</s><r>тараал</r></e>
+  <e k="D" t="ThingDef" key="DA_Taraal.tools.0.label"><s>left claw</s><r>левый коготь</r></e>
+  <e k="D" t="ThingDef" key="DA_Taraal.tools.1.label"><s>right claw</s><r>правая клешня</r></e>
+  <e k="D" t="ThingDef" key="DA_Taraal.tools.3.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="DA_TrollBurrow.comps.8.letterLabel"><s>Troll burrow</s><r>Нора тролля</r></e>
+  <e k="D" t="ThingDef" key="DA_TrollBurrow.comps.8.letterText"><s>{PAWN_nameDef} has noticed a large burrow nearby, most likely a troll nest.
+
+Trolls are voracious predators by nature and should be avoided.</s><r>{PAWN_nameDef} заметил неподалеку большую нору, скорее всего, гнездо троллей.
+
+Тролли по своей природе являются прожорливыми хищниками, и их следует избегать.</r></e>
+  <e k="D" t="ThingDef" key="DA_TrollBurrow.description"><s>A large troll burrow that runs deep underground. Growling and scratching can be heard from within.</s><r>Большая нора троллей, уходящая глубоко под землю. Изнутри слышно рычание и царапанье.</r></e>
+  <e k="D" t="ThingDef" key="DA_TrollBurrow.label"><s>troll burrow</s><r>нора тролля</r></e>
+  <e k="D" t="ThingDef" key="DA_TrollMeat.description"><s>Raw slab of meat from a troll.
+
+Exceptionally tender, juicy and quite nutritious, just be sure to remove the fur first.</s><r>Сырой кусок мяса тролля.
+
+Очень нежный, сочный и довольно питательный, только не забудьте предварительно снять шкурку.</r></e>
+  <e k="D" t="ThingDef" key="DA_TrollMeat.label"><s>troll slab</s><r>плита тролля</r></e>
+  <e k="D" t="ThingDef" key="DA_TrollRug.description"><s>A trophy marking the victory over a bearded troll. The warm and durable leather of the troll makes for the perfect rug, but beware of the teeth.</s><r>Трофей, означающий победу над бородатым троллем. Из теплой и прочной кожи тролля получится идеальный коврик, но остерегайтесь зубов.</r></e>
+  <e k="D" t="ThingDef" key="DA_TrollRug.label"><s>bearded troll rug (2x2)</s><r>коврик бородатый тролль (2х2)</r></e>
+  <e k="D" t="ThingDef" key="DA_UnfinishedScarlentScent.description"><s>Unfinished scarlet scent that is still in the mixing process.</s><r>Незавершенный алый аромат, который все еще находится в процессе сведения.</r></e>
+  <e k="D" t="ThingDef" key="DA_UnfinishedScarlentScent.label"><s>unfinished scarlet scent</s><r>незавершённый алый аромат</r></e>
+  <e k="D" t="ThingDef" key="DA_WhiteTruffle.description"><s>Often growing beneath stony soil, the white truffles are a rare delicacy in high demand for their unique taste.</s><r>Белые трюфели, часто растущие под каменистой почвой, представляют собой редкий деликатес, пользующийся большим спросом благодаря своему уникальному вкусу.</r></e>
+  <e k="D" t="ThingDef" key="DA_WhiteTruffle.label"><s>white truffle</s><r>белый трюфель</r></e>
+  <e k="D" t="ThingDef" key="DA_WoolGoldilox.description"><s>The gilded wool of a goldilox. While not particularly good for insulation or durable, it is exceptionally beautiful.
+
+With sufficient heat, it can be melted and forged into pure gold.</s><r>Позолоченная шерсть золотодилокса. Хотя он не особенно хорош с точки зрения изоляции и долговечен, он исключительно красив.
+
+При достаточном нагреве его можно расплавить и выковать в чистое золото.</r></e>
+  <e k="D" t="ThingDef" key="DA_WoolGoldilox.label"><s>goldwool</s><r>золотая шерсть</r></e>
+  <e k="D" t="ThingDef" key="DA_WoolMuffton.description"><s>The brown wool of a dwarven muffton. Exceptionally warm and durable.</s><r>Коричневая шерсть гномьего маффтона. Исключительно теплый и прочный.</r></e>
+  <e k="D" t="ThingDef" key="DA_WoolMuffton.label"><s>muffton wool</s><r>маффтоновая шерсть</r></e>
+  <e k="D" t="ThingDef" key="EggArcticOwlcatFertilized.description"><s>A fertilized owlcat egg. If all goes well, it should hatch into a owlkitten. It is very nutritious and can be eaten raw, but it's much better cooked.</s><r>Оплодотворенное яйцо совы-кошки. Если все пойдет хорошо, из него должен вылупиться совенок. Он очень питателен, его можно есть сырым, но в приготовленном виде его гораздо полезнее.</r></e>
+  <e k="D" t="ThingDef" key="EggArcticOwlcatFertilized.label"><s>arctic owlcat egg (fert.)</s><r>яйцо арктической совы-кошки (ферт.)</r></e>
+  <e k="D" t="ThingDef" key="EggArcticOwlcatUnfertilized.description"><s>The prickly egg of an owlcat, mimicing the features of a pinecone. It can be eaten raw but it's much better cooked.</s><r>Колючее яйцо совника, имитирующее черты сосновой шишки. Его можно есть сырым, но в приготовленном виде он гораздо вкуснее.</r></e>
+  <e k="D" t="ThingDef" key="EggArcticOwlcatUnfertilized.label"><s>arctic owlcat egg (unfert.)</s><r>яйцо арктической совы-кошки (неферт.)</r></e>
+  <e k="D" t="ThingDef" key="EggBarogFertilized.description"><s>A fertilized barogoth egg. If all goes well, it should hatch into a barogoth newt. It can be eaten raw, but it's much better cooked.</s><r>Оплодотворенное яйцо барогота. Если все пойдет хорошо, из него должен вылупиться тритон-барогот. Его можно есть сырым, но приготовленным он гораздо вкуснее.</r></e>
+  <e k="D" t="ThingDef" key="EggBarogFertilized.label"><s>barogoth egg (fert.)</s><r>яйцо парогота (верт.)</r></e>
+  <e k="D" t="ThingDef" key="EggBarogUnfertilized.description"><s>The unfertilized egg of a barogoth. It can be eaten raw, but it's much, much better cooked.</s><r>Неоплодотворенная яйцеклетка барогота. Его можно есть сырым, но приготовленным он гораздо вкуснее.</r></e>
+  <e k="D" t="ThingDef" key="EggBarogUnfertilized.label"><s>barogoth egg (unfert.)</s><r>яйцо барогота (неферт.)</r></e>
+  <e k="D" t="ThingDef" key="EggCrestelFertilized.description"><s>A fertilized crestel egg. If all goes well, it should hatch into a crestel chick. It can be eaten raw, but it's much better cooked.</s><r>Оплодотворенная яйцеклетка гребеля. Если все пойдет хорошо, из него должен вылупиться птенец гребела. Его можно есть сырым, но приготовленным он гораздо вкуснее.</r></e>
+  <e k="D" t="ThingDef" key="EggCrestelFertilized.label"><s>petrified egg (fert.)</s><r>окаменевшее яйцо (ферт.)</r></e>
+  <e k="D" t="ThingDef" key="EggCrestelUnfertilized.description"><s>A large crestel egg with a thick rocky shell that serves as a natural disguise. It can be eaten raw, but it's much, much better cooked.</s><r>Большое яйцо-гребель с толстой каменистой скорлупой, служащей естественной маскировкой. Его можно есть сырым, но приготовленным он гораздо вкуснее.</r></e>
+  <e k="D" t="ThingDef" key="EggCrestelUnfertilized.label"><s>petrified egg (unfert.)</s><r>окаменевшее яйцо (неоплодотворенное).</r></e>
+  <e k="D" t="ThingDef" key="EggOwlcatFertilized.description"><s>A fertilized owlcat egg. If all goes well, it should hatch into a owlkitten. It is very nutritious and can be eaten raw, but it's much better cooked.</s><r>Оплодотворенное яйцо совы-кошки. Если все пойдет хорошо, из него должен вылупиться совенок. Он очень питателен, его можно есть сырым, но в приготовленном виде его гораздо полезнее.</r></e>
+  <e k="D" t="ThingDef" key="EggOwlcatFertilized.label"><s>forest owlcat egg (fert.)</s><r>яйцо лесной совы, кота (ферт.)</r></e>
+  <e k="D" t="ThingDef" key="EggOwlcatUnfertilized.description"><s>The prickly egg of an owlcat, mimicing the features of a pinecone. It can be eaten raw but it's much better cooked.</s><r>Колючее яйцо совника, имитирующее черты сосновой шишки. Его можно есть сырым, но в приготовленном виде он гораздо вкуснее.</r></e>
+  <e k="D" t="ThingDef" key="EggOwlcatUnfertilized.label"><s>forest owlcat egg (unfert.)</s><r>яйцо лесной совы-кота (неферт.)</r></e>
+  <e k="D" t="ThingDef" key="EggPhrakFertilized.description"><s>A fertilized phrak egg. If all goes well, it should hatch into a phrak larvling. It can be eaten raw, but it's much better cooked.</s><r>Оплодотворенная яйцеклетка фрака. Если все пойдет хорошо, из него должен вылупиться личинка фрака. Его можно есть сырым, но приготовленным он гораздо вкуснее.</r></e>
+  <e k="D" t="ThingDef" key="EggPhrakFertilized.label"><s>phrak egg (fert.)</s><r>фрак яйцо (ферт.)</r></e>
+  <e k="D" t="ThingDef" key="EggPhrakUnfertilized.description"><s>The sticky egg of a phrak. It can be eaten raw, but it's much, much better cooked.</s><r>Липкое яйцо фрака. Его можно есть сырым, но приготовленным он гораздо вкуснее.</r></e>
+  <e k="D" t="ThingDef" key="EggPhrakUnfertilized.label"><s>phrak egg (unfert.)</s><r>яйцо фрак (неферт.)</r></e>
+  <e k="D" t="ThingDef" key="EggPilgrimFertilized.description"><s>A fertilized pilgrim egg. If all goes well, it should hatch into a pilgrim chick. It can be eaten raw, but it's much better cooked.</s><r>Оплодотворенное яйцо паломника. Если все пойдет хорошо, из него должен вылупиться птенец-паломник. Его можно есть сырым, но приготовленным он гораздо вкуснее.</r></e>
+  <e k="D" t="ThingDef" key="EggPilgrimFertilized.label"><s>pilgrim egg (fert.)</s><r>яйцо паломника (ферт.)</r></e>
+  <e k="D" t="ThingDef" key="EggPilgrimUnfertilized.description"><s>The sand-colored egg of a pilgrim. It can be eaten raw, but it's much, much better cooked.</s><r>Яйцо паломника песочного цвета. Его можно есть сырым, но приготовленным он гораздо вкуснее.</r></e>
+  <e k="D" t="ThingDef" key="EggPilgrimUnfertilized.label"><s>pilgrim egg (unfert.)</s><r>яйцо паломника (неферт.)</r></e>
+  <e k="D" t="ThingDef" key="EggSnowTaraalFertilized.description"><s>A fertilized taraal egg. If all goes well, it should hatch into a taraal cub. It is very nutritious and can be eaten raw, but it's much better cooked.</s><r>Оплодотворенная яйцеклетка тараала. Если все пойдет хорошо, из него должен вылупиться детеныш тараала. Он очень питателен, его можно есть сырым, но в приготовленном виде его гораздо полезнее.</r></e>
+  <e k="D" t="ThingDef" key="EggSnowTaraalFertilized.label"><s>snow taraal egg (fert.)</s><r>снежное яйцо (ферт.)</r></e>
+  <e k="D" t="ThingDef" key="EggSnowTaraalUnfertilized.description"><s>A large and heavy taraal egg. It is very nutritious and can be eaten raw, but it's much, much better cooked.</s><r>Большое и тяжелое яйцо тараала. Оно очень питательно, и его можно есть сырым, но приготовленным его гораздо полезнее.</r></e>
+  <e k="D" t="ThingDef" key="EggSnowTaraalUnfertilized.label"><s>snow taraal (unfert.)</s><r>снежный тараал (унферт.)</r></e>
+  <e k="D" t="ThingDef" key="EggTaraalFertilized.description"><s>A fertilized taraal egg. If all goes well, it should hatch into a taraal cub. It is very nutritious and can be eaten raw, but it's much better cooked.</s><r>Оплодотворенная яйцеклетка тараала. Если все пойдет хорошо, из него должен вылупиться детеныш тараала. Он очень питателен, его можно есть сырым, но в приготовленном виде его гораздо полезнее.</r></e>
+  <e k="D" t="ThingDef" key="EggTaraalFertilized.label"><s>taraal egg (fert.)</s><r>яичный желток (ферт.)</r></e>
+  <e k="D" t="ThingDef" key="EggTaraalUnfertilized.description"><s>A large and heavy taraal egg. It is very nutritious and can be eaten raw, but it's much, much better cooked.</s><r>Большое и тяжелое яйцо тараала. Оно очень питательно, и его можно есть сырым, но приготовленным его гораздо полезнее.</r></e>
+  <e k="D" t="ThingDef" key="EggTaraalUnfertilized.label"><s>taraal egg (unfert.)</s><r>яйцо Тараал (неферт.)</r></e>
+  <e k="D" t="ThingDef" key="Mote_SilverySparkle.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThoughtDef" key="DA_AteCookedTrollMeat.stages.0.description"><s>I ate a delicious meal prepared with troll meat. It felt amazing.</s><r>Я съел вкусную еду, приготовленную из мяса тролля. Это было потрясающе.</r></e>
+  <e k="D" t="ThoughtDef" key="DA_AteCookedTrollMeat.stages.0.label"><s>ate cooked troll meat</s><r>съел приготовленное мясо тролля</r></e>
+  <e k="D" t="ThoughtDef" key="DA_AteCookedWhiteTruffle.stages.0.description"><s>I ate a delicate white mushroom. The sublime taste accompanies my food perfectly.</s><r>Я съел нежный белый гриб. Возвышенный вкус прекрасно дополняет мою еду.</r></e>
+  <e k="D" t="ThoughtDef" key="DA_AteCookedWhiteTruffle.stages.0.label"><s>ate cooked white truffle</s><r>съел приготовленный белый трюфель</r></e>
+  <e k="D" t="ThoughtDef" key="DA_AteRawTrollMeat.stages.0.description"><s>I ate some raw troll meat. It could be worse but it would be better if it was cooked.</s><r>Я съел немного сырого мяса тролля. Могло быть и хуже, но было бы лучше, если бы его приготовили.</r></e>
+  <e k="D" t="ThoughtDef" key="DA_AteRawTrollMeat.stages.0.label"><s>ate troll meat</s><r>съел мясо тролля</r></e>
+  <e k="D" t="ThoughtDef" key="DA_AteWhiteTruffle.stages.0.description"><s>I ate a delicate white mushroom. While it would taste much better cooked and prepared, it tasted very good by itself.</s><r>Я съел нежный белый гриб. Хотя приготовленное и приготовленное блюдо было бы намного вкуснее, оно само по себе было очень приятным на вкус.</r></e>
+  <e k="D" t="ThoughtDef" key="DA_AteWhiteTruffle.stages.0.label"><s>ate raw white truffle</s><r>съел сырой белый трюфель</r></e>
+  <e k="D" t="ThoughtDef" key="DA_CookedRegalMilk.stages.0.description"><s>I ate a meal containing regal milk, it really elevated the savors.</s><r>Я съел еду, содержащую королевское молоко, оно действительно усилило вкус.</r></e>
+  <e k="D" t="ThoughtDef" key="DA_CookedRegalMilk.stages.0.label"><s>ate cooked regal milk</s><r>съел приготовленное королевское молоко</r></e>
+  <e k="D" t="ThoughtDef" key="DA_DrankMufftonMilk.stages.0.description"><s>I drank muffton milk. The sharp, pungent flavor leaves a bad aftertaste.</s><r>Я пил маффтоновое молоко. Острый, острый вкус оставляет неприятное послевкусие.</r></e>
+  <e k="D" t="ThoughtDef" key="DA_DrankMufftonMilk.stages.0.label"><s>drank muffton milk</s><r>выпил маффтоновое молоко</r></e>
+  <e k="D" t="ThoughtDef" key="DA_DrankRegalMilk.stages.0.description"><s>I drank exquisite milk. The slight buttery notes and creamy texture were amazing.</s><r>Я пил изысканное молоко. Легкие маслянистые нотки и кремовая текстура были потрясающими.</r></e>
+  <e k="D" t="ThoughtDef" key="DA_DrankRegalMilk.stages.0.label"><s>drank regal milk</s><r>пил королевское молоко</r></e>
+  <e k="D" t="ThoughtDef" key="DA_MilkWithdrawal.stages.1.description"><s>Everything is tasteless, i desire nothing more than a drop of regal milk.</s><r>Все безвкусно, мне не хочется ничего, кроме капли царственного молока.</r></e>
+  <e k="D" t="ThoughtDef" key="DA_MilkWithdrawal.stages.1.label"><s>milk withdrawal</s><r>отказ от молока</r></e>
+  <e k="D" t="ThoughtDef" key="DA_RedTearHigh.stages.0.description"><s>That droplet makes me feel warm, the sensation is strange but relaxing.</s><r>Эта капля заставляет меня чувствовать тепло, ощущение странное, но расслабляющее.</r></e>
+  <e k="D" t="ThoughtDef" key="DA_RedTearHigh.stages.0.label"><s>red warmth</s><r>красное тепло</r></e>
+  <e k="D" t="ThoughtDef" key="DA_RedTearHigh.stages.1.description"><s>My eyes start to redden and the burning sensation feels more present, but it's not that unpleasant.</s><r>Мои глаза начинают краснеть, и ощущение жжения усиливается, но это не так уж и неприятно.</r></e>
+  <e k="D" t="ThoughtDef" key="DA_RedTearHigh.stages.1.label"><s>red burn</s><r>красный ожог</r></e>
+  <e k="D" t="ThoughtDef" key="DA_RedTearHigh.stages.2.description"><s>My eyes are crying and i feel as if a simple cut would feel as painful as a torn limb.</s><r>Мои глаза плачут, и мне кажется, что простой порез будет таким же болезненным, как оторванная конечность.</r></e>
+  <e k="D" t="ThoughtDef" key="DA_RedTearHigh.stages.2.label"><s>red scorch</s><r>красный ожог</r></e>
+  <e k="D" t="ThoughtDef" key="DA_RedTearHigh.stages.3.description"><s>Everythig hurts, from moving to breathing, make it stop !</s><r>Все болит, от движения до дыхания, прекрати!</r></e>
+  <e k="D" t="ThoughtDef" key="DA_RedTearHigh.stages.3.label"><s>red blister</s><r>красный волдырь</r></e>
+  <e k="D" t="ThoughtDef" key="DA_RedTearWithdrawal.stages.1.description"><s>I feel cold, as if all warmth from my body was stripped away.</s><r>Мне холодно, как будто из моего тела ушло все тепло.</r></e>
+  <e k="D" t="ThoughtDef" key="DA_RedTearWithdrawal.stages.1.label"><s>red ink withdrawal</s><r>вывод красных чернил</r></e>
+  <e k="D" t="ThoughtDef" key="DA_ScarletScentHigh.stages.0.description"><s>I feel my own blood boiling, i feel powerful.</s><r>Я чувствую, как моя собственная кровь кипит, я чувствую себя сильным.</r></e>
+  <e k="D" t="ThoughtDef" key="DA_ScarletScentHigh.stages.0.label"><s>clouded by the scarlet fumes</s><r>окутанный алыми испарениями</r></e>
+  <e k="D" t="ThoughtDef" key="DA_UnnervingPresence.stages.0.description"><s>The growls coming from beneath the soil and echoing through their burrows are making me anxious.</s><r>Рычание, доносившееся из-под земли и эхом разносившееся по их норам, заставляет меня беспокоиться.</r></e>
+  <e k="D" t="ThoughtDef" key="DA_UnnervingPresence.stages.0.label"><s>unnerving presence</s><r>нервирующее присутствие</r></e>
+  <e k="D" t="TileMutatorDef" key="DA_LeviathanNest.description"><s>This coast is home to a leviathan nest deep beneath the water surface. The large crustaceans are more common and can attack if disturbed.</s><r>Это побережье является домом для гнезда левиафана глубоко под поверхностью воды. Крупные ракообразные встречаются чаще и могут напасть, если их потревожить.</r></e>
+  <e k="D" t="TileMutatorDef" key="DA_LeviathanNest.label"><s>leviathan nestbed</s><r>гнездо левиафана</r></e>
+  <e k="D" t="TileMutatorDef" key="DA_SnaptoadBreedingGrounds.description"><s>A wetland used by giant snaptoads as spawning pools. Its waters teem with the dangerous amphibians and their offsprings.</s><r>Водно-болотное угодье, используемое гигантскими жабами в качестве нерестилищ. Его воды кишат опасными земноводными и их потомками.</r></e>
+  <e k="D" t="TileMutatorDef" key="DA_SnaptoadBreedingGrounds.label"><s>snaptoad breeding grounds</s><r>места размножения оснапжаб</r></e>
+  <e k="D" t="ToolCapacityDef" key="DA_CrestelBite.label"><s>petrifying bite</s><r>окаменевающий укус</r></e>
+  <e k="D" t="ToolCapacityDef" key="DA_DemolishTroll.label"><s>demolish</s><r>снести</r></e>
+  <e k="D" t="ToolCapacityDef" key="DA_KarabalBite.label"><s>karabal bite</s><r>укус карабао</r></e>
+  <e k="D" t="ToolCapacityDef" key="DA_Quillsting.label"><s>quill-sting</s><r>гусиное жало</r></e>
+  <e k="D" t="ToolCapacityDef" key="DA_Rambash.label"><s>ram-bash</s><r>баран-баш</r></e>
+  <e k="D" t="ToolCapacityDef" key="DA_ToadDevour.label"><s>devour</s><r>пожирать</r></e>
+  <e k="D" t="TrainableDef" key="DA_BoulderThrow.description"><s>Command the animal to use its strenght in order to rip a large boulder and throw it.</s><r>Прикажите животному использовать свою силу, чтобы оторвать большой валун и бросить его.</r></e>
+  <e k="D" t="TrainableDef" key="DA_BoulderThrow.label"><s>boulder throw</s><r>бросок валуна</r></e>
+  <e k="D" t="TrainableDef" key="DA_CrushingSlam.description"><s>Command the animal to use its arms to smash the ground in order to damage and destabilize nearby hostiles.</s><r>Прикажите животному использовать свои руки, чтобы разбить землю, чтобы нанести урон и дестабилизировать ближайших противников.</r></e>
+  <e k="D" t="TrainableDef" key="DA_CrushingSlam.label"><s>crushing slam</s><r>сокрушительный удар</r></e>
+  <e k="D" t="TrainableDef" key="DA_MuckbileSpew.description"><s>Command the animal to spew muckbile over an area slowing and slightly damaging hostiles.</s><r>Прикажите животному извергнуть гадость в определенную область, замедляя и слегка нанося урон противникам.</r></e>
+  <e k="D" t="TrainableDef" key="DA_MuckbileSpew.label"><s>muckbile spew</s><r>гадость извергает</r></e>
+  <e k="D" t="TrainableDef" key="DA_StunningScreech.description"><s>Command the animal to screech in order to stun nearby hostiles.</s><r>Прикажите животному визжать, чтобы оглушить ближайших врагов.</r></e>
+  <e k="D" t="TrainableDef" key="DA_StunningScreech.label"><s>stunning screech</s><r>потрясающий визг</r></e>
+  <e k="D" t="TrollSettings" key="DA_TrollSettings.label"><s>troll settings</s><r>настройки тролля</r></e>
+  <e k="K" key="DA_BarogOil"><s>Barogoth oil</s><r>Бароготское масло</r></e>
+  <e k="K" key="DA_RedInk"><s>Red ink production</s><r>Производство красных чернил</r></e>
+  <e k="K" key="LetterGoldiloxPasses"><s>Goldiloxen have wandered into the area.
+
+You can try taming these magnificent beasts to secure a supply of rich milk and valuable golden wool, or hunt them for meat and horns.
+
+They will leave in a few days.</s><r>Златилоксены забрели в этот район.
+
+Вы можете попытаться приручить этих великолепных зверей, чтобы получить запасы богатого молока и ценной золотой шерсти, или поохотиться на них ради мяса и рогов.
+
+Они уйдут через несколько дней.</r></e>
+  <e k="K" key="LetterLabelGoldiloxPasses"><s>goldilox wanders into the area</s><r>голдилокс забредает в этот район</r></e>
+</AutoTranslateCache>
