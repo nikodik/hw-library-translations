@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="octodecoy.vvnewharvest.compatpatches" name="VV - New Harvest: Compatibility Patches" language="Russian" version="1">
+  <e k="D" t="DesignatorDropdownGroupDef" key="VV_NHCP_NewHarvestFloors.label"><s>New Harvest Floors</s><r>Новые полы для сбора урожая</r></e>
+  <e k="D" t="GauranlenTreeModeDef" key="VV_NHCP_Cedarmaker.description"><s>A slow, bumbling caste of dryad which specializes in cedar wood production. Together with its Gauranlen tree, this dryad can generate a cedar-like material on an ongoing basis. However, it is slow and ineffective at work or combat.</s><r>Медлительная, неуклюжая каста дриад, специализирующаяся на производстве кедровой древесины. Вместе со своим деревом Гауранлен эта дриада может постоянно генерировать кедровый материал. Однако он медлителен и неэффективен в работе или бою.</r></e>
+  <e k="D" t="GauranlenTreeModeDef" key="VV_NHCP_Cedarmaker.label"><s>cedarmaker</s><r>производитель кедра</r></e>
+  <e k="D" t="GauranlenTreeModeDef" key="VV_NHCP_Ebonymaker.description"><s>A slow, bumbling caste of dryad which specializes in ebony wood production. Together with its Gauranlen tree, this dryad can generate a ebony-like material on an ongoing basis. However, it is slow and ineffective at work or combat.</s><r>Медленная, неуклюжая каста дриад, специализирующаяся на производстве эбеновой древесины. Вместе со своим деревом Гауранлен эта дриада может постоянно генерировать материал, похожий на черное дерево. Однако он медлителен и неэффективен в работе или бою.</r></e>
+  <e k="D" t="GauranlenTreeModeDef" key="VV_NHCP_Ebonymaker.label"><s>ebonymaker</s><r>производитель черного дерева</r></e>
+  <e k="D" t="GauranlenTreeModeDef" key="VV_NHCP_Mahoganymaker.description"><s>A slow, bumbling caste of dryad which specializes in mahogany wood production. Together with its Gauranlen tree, this dryad can generate a mahogany-like material on an ongoing basis. However, it is slow and ineffective at work or combat.</s><r>Медлительная, неуклюжая каста дриад, специализирующаяся на производстве красного дерева. Вместе со своим деревом Гауранлен эта дриада может постоянно генерировать материал, похожий на красное дерево. Однако он медлителен и неэффективен в работе или бою.</r></e>
+  <e k="D" t="GauranlenTreeModeDef" key="VV_NHCP_Mahoganymaker.label"><s>mahoganymaker</s><r>мастер красного дерева</r></e>
+  <e k="D" t="GauranlenTreeModeDef" key="VV_NHCP_Rosewoodmaker.description"><s>A slow, bumbling caste of dryad which specializes in rosewood wood production. Together with its Gauranlen tree, this dryad can generate a rosewood-like material on an ongoing basis. However, it is slow and ineffective at work or combat.</s><r>Медленная, неуклюжая каста дриад, специализирующаяся на производстве древесины палисандра. Вместе со своим деревом Гауранлен эта дриада может постоянно генерировать материал, похожий на палисандр. Однако он медлителен и неэффективен в работе или бою.</r></e>
+  <e k="D" t="GauranlenTreeModeDef" key="VV_NHCP_Rosewoodmaker.label"><s>rosewoodmaker</s><r>мастер по розовому дереву</r></e>
+  <e k="D" t="HediffDef" key="VV_NHCP_NourishedPet.description"><s>Animal is nourished and will nuzzle more often.</s><r>Животное сыто и будет чаще обнюхивать.</r></e>
+  <e k="D" t="HediffDef" key="VV_NHCP_NourishedPet.label"><s>Nourished</s><r>Питательный</r></e>
+  <e k="D" t="HediffDef" key="VV_VCE_ConsumedMapleSyrup.description"><s>Maple syrup is a sweet, amber-colored syrup made by boiling down the sap of sugar maple trees. It has a rich, caramel-like flavor with hints of vanilla and toffee.</s><r>Кленовый сироп — сладкий сироп янтарного цвета, приготовленный путем вываривания сока сахарного клена. Имеет насыщенный карамельный вкус с оттенками ванили и ириски.</r></e>
+  <e k="D" t="HediffDef" key="VV_VCE_ConsumedMapleSyrup.label"><s>consumed maple syrup (from meal)</s><r>потреблял кленовый сироп (из еды)</r></e>
+  <e k="D" t="IngestionAffectedHediffsDef" key="NHCP_IngestionAffectedHediffsDefList.label"><s>HediffDefs that count as food poisoning.</s><r>HediffDefs, которые считаются пищевым отравлением.</r></e>
+  <e k="D" t="PawnKindDef" key="VV_NHCP_Dryad_Cedarmaker.label"><s>cedarmaker dryad</s><r>кедровая дриада</r></e>
+  <e k="D" t="PawnKindDef" key="VV_NHCP_Dryad_Ebonymaker.label"><s>ebonymaker dryad</s><r>дриада, делающая черное дерево</r></e>
+  <e k="D" t="PawnKindDef" key="VV_NHCP_Dryad_Mahoganymaker.label"><s>mahoganymaker dryad</s><r>дриада из красного дерева</r></e>
+  <e k="D" t="PawnKindDef" key="VV_NHCP_Dryad_Rosewoodmaker.label"><s>rosewoodmaker dryad</s><r>дриада-изготовитель розового дерева</r></e>
+  <e k="D" t="RecipeDef" key="VV_NHCP_ConvertNewHarvestWoodToWood.description"><s>Convert specialty logs to generic logs.
+
+50 specialty logs into 50 generic logs.</s><r>Преобразуйте специальные журналы в общие журналы.
+
+50 специальных журналов в 50 общих журналов.</r></e>
+  <e k="D" t="RecipeDef" key="VV_NHCP_ConvertNewHarvestWoodToWood.ingredients.0.filter.customSummary"><s>ebony wood, mahogany wood, rosewood, cedar wood, lacquered wood</s><r>эбеновое дерево, красное дерево, палисандр, кедр, лакированная древесина</r></e>
+  <e k="D" t="RecipeDef" key="VV_NHCP_ConvertNewHarvestWoodToWood.jobString"><s>Chopping wood.</s><r>Рубка дров.</r></e>
+  <e k="D" t="RecipeDef" key="VV_NHCP_ConvertNewHarvestWoodToWood.label"><s>convert specialty logs to generic logs</s><r>конвертировать специальные журналы в общие журналы</r></e>
+  <e k="D" t="RecipeDef" key="VV_NHCP_MakeMapleSyrup.description"><s>Boil the sweet sap from the sugar maple into a delicious syrup ready to be put on top of everything. 
+Requires a ratio of 10 sap to 1 syrup, but it sure is worth it!</s><r>Сварите сладкий сок сахарного клена и превратите его в восхитительный сироп, готовый к употреблению поверх всего. 
+Требуется соотношение 10 сока к 1 сиропу, но оно того стоит!</r></e>
+  <e k="D" t="RecipeDef" key="VV_NHCP_MakeMapleSyrup.ingredients.0.filter.customSummary"><s>maple sap</s><r>кленовый сок</r></e>
+  <e k="D" t="RecipeDef" key="VV_NHCP_MakeMapleSyrup.jobString"><s>Boiling sap.</s><r>Кипящий сок.</r></e>
+  <e k="D" t="RecipeDef" key="VV_NHCP_MakeMapleSyrup.label"><s>make maple syrup x1</s><r>приготовить кленовый сироп x1</r></e>
+  <e k="D" t="RecipeDef" key="VV_NHCP_MakeMapleSyrupBulk.description"><s>Boil the sweet sap from the sugar maple into a delicious syrup ready to be put on top of everything. 
+Requires a ratio of 10 sap to 1 syrup, but it sure is worth it!</s><r>Сварите сладкий сок сахарного клена и превратите его в восхитительный сироп, готовый к употреблению поверх всего. 
+Требуется соотношение 10 сока к 1 сиропу, но оно того стоит!</r></e>
+  <e k="D" t="RecipeDef" key="VV_NHCP_MakeMapleSyrupBulk.ingredients.0.filter.customSummary"><s>maple sap</s><r>кленовый сок</r></e>
+  <e k="D" t="RecipeDef" key="VV_NHCP_MakeMapleSyrupBulk.jobString"><s>Boiling sap.</s><r>Кипящий сок.</r></e>
+  <e k="D" t="RecipeDef" key="VV_NHCP_MakeMapleSyrupBulk.label"><s>make maple syrup x20</s><r>приготовить кленовый сироп x20</r></e>
+  <e k="D" t="RecipeDef" key="VV_NHCP_MixHay.description"><s>Convert specialty hay to generic hay.
+
+50 specialty hay into 50 generic hay.</s><r>Преобразуйте специальное сено в обычное сено.
+
+50 специального сена в 50 универсального сена.</r></e>
+  <e k="D" t="RecipeDef" key="VV_NHCP_MixHay.ingredients.0.filter.customSummary"><s>alfalfa hay, clover hay, timothy hay</s><r>сено люцерны, сено клевера, сено тимофеевки</r></e>
+  <e k="D" t="RecipeDef" key="VV_NHCP_MixHay.jobString"><s>Mixing hay.</s><r>Перемешивание сена.</r></e>
+  <e k="D" t="RecipeDef" key="VV_NHCP_MixHay.label"><s>convert specialty hay to generic hay</s><r>конвертировать специализированное сено в обычное сено</r></e>
+  <e k="D" t="TabCategoryDef" key="VV_NHCP_BehaviorsTab.label"><s>behaviors</s><r>поведение</r></e>
+  <e k="D" t="TabCategoryDef" key="VV_NHCP_CategoriesTab.label"><s>categories</s><r>категории</r></e>
+  <e k="D" t="TabCategoryDef" key="VV_NHCP_CommonalityTab.label"><s>commonality</s><r>общность</r></e>
+  <e k="D" t="TabCategoryDef" key="VV_NHCP_CraftingTab.label"><s>crafting</s><r>создание</r></e>
+  <e k="D" t="TabCategoryDef" key="VV_NHCP_FloorsTab.label"><s>floors</s><r>полы</r></e>
+  <e k="D" t="TabCategoryDef" key="VV_NHCP_FuelTab.label"><s>fuel</s><r>топливо</r></e>
+  <e k="D" t="TabCategoryDef" key="VV_NHCP_GeneralTab.label"><s>general</s><r>общий</r></e>
+  <e k="D" t="TabCategoryDef" key="VV_NHCP_MiscTab.label"><s>miscellaneous</s><r>разнообразный</r></e>
+  <e k="D" t="TabCategoryDef" key="VV_NHCP_VisualsTab.label"><s>visuals</s><r>визуальные эффекты</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_Boards_Totemic_Cedar.description"><s>Fine wood boards decorated in a totemic style.</s><r>Прекрасные деревянные доски, оформленные в тотемическом стиле.</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_Boards_Totemic_Cedar.label"><s>cedar totemic boards</s><r>тотемические доски из кедра</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_Boards_Totemic_Ebony.description"><s>Fine wood boards decorated in a totemic style.</s><r>Прекрасные деревянные доски, оформленные в тотемическом стиле.</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_Boards_Totemic_Ebony.label"><s>ebony totemic boards</s><r>тотемические доски из черного дерева</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_Boards_Totemic_Lacquer.description"><s>Fine wood boards decorated in a totemic style.</s><r>Прекрасные деревянные доски, оформленные в тотемическом стиле.</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_Boards_Totemic_Lacquer.label"><s>lacquered wood totemic boards</s><r>тотемические доски из лакированного дерева</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_Boards_Totemic_Mahogany.description"><s>Fine wood boards decorated in a totemic style.</s><r>Прекрасные деревянные доски, оформленные в тотемическом стиле.</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_Boards_Totemic_Mahogany.label"><s>mahogany totemic boards</s><r>тотемические доски из красного дерева</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_Boards_Totemic_Rosewood.description"><s>Fine wood boards decorated in a totemic style.</s><r>Прекрасные деревянные доски, оформленные в тотемическом стиле.</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_Boards_Totemic_Rosewood.label"><s>rosewood totemic boards</s><r>тотемические доски из палисандра</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_CedarPlankFloor.description"><s>Wood plank flooring for that warm, homey feeling. While it is quick to lay, it is also very flammable.</s><r>Деревянный пол создает ощущение тепла и домашнего уюта. Несмотря на то, что его быстро укладывать, он также очень легко воспламеняется.</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_CedarPlankFloor.label"><s>cedar laminate floor</s><r>ламинат из кедра</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_Cedar_Bridge.description"><s>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</s><r>Плоская деревянная поверхность на опорных балках, которую можно возводить над водой. На мостах можно строить легкие конструкции, но будьте осторожны — мосты хрупкие. Если мост упадет, то и здания на его вершине упадут.</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_Cedar_Bridge.label"><s>cedar bridge</s><r>кедровый мост</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_EbonyPlankFloor.description"><s>Wood plank flooring for that warm, homey feeling. While it is quick to lay, it is also very flammable.</s><r>Деревянный пол создает ощущение тепла и домашнего уюта. Несмотря на то, что его быстро укладывать, он также очень легко воспламеняется.</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_EbonyPlankFloor.label"><s>ebony laminate floor</s><r>пол из ламината черного дерева</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_Ebony_Bridge.description"><s>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</s><r>Плоская деревянная поверхность на опорных балках, которую можно возводить над водой. На мостах можно строить легкие конструкции, но будьте осторожны — мосты хрупкие. Если мост упадет, то и здания на его вершине упадут.</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_Ebony_Bridge.label"><s>ebony bridge</s><r>эбеновый мост</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_LacquerPlankFloor.description"><s>Wood plank flooring for that warm, homey feeling. While it is quick to lay, it is also very flammable.</s><r>Деревянный пол создает ощущение тепла и домашнего уюта. Несмотря на то, что его быстро укладывать, он также очень легко воспламеняется.</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_LacquerPlankFloor.label"><s>lacquered wood laminate floor</s><r>пол из лакированного деревянного ламината</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_Lacquer_Bridge.description"><s>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</s><r>Плоская деревянная поверхность на опорных балках, которую можно возводить над водой. На мостах можно строить легкие конструкции, но будьте осторожны — мосты хрупкие. Если мост упадет, то и здания на его вершине упадут.</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_Lacquer_Bridge.label"><s>lacquered wood bridge</s><r>мост из лакированного дерева</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_MahoganyPlankFloor.description"><s>Wood plank flooring for that warm, homey feeling. While it is quick to lay, it is also very flammable.</s><r>Деревянный пол создает ощущение тепла и домашнего уюта. Несмотря на то, что его быстро укладывать, он также очень легко воспламеняется.</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_MahoganyPlankFloor.label"><s>mahogany laminate floor</s><r>пол из ламината красного дерева</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_Mahogany_Bridge.description"><s>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</s><r>Плоская деревянная поверхность на опорных балках, которую можно возводить над водой. На мостах можно строить легкие конструкции, но будьте осторожны — мосты хрупкие. Если мост упадет, то и здания на его вершине упадут.</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_Mahogany_Bridge.label"><s>mahogany bridge</s><r>мост из красного дерева</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_RosewoodPlankFloor.description"><s>Wood plank flooring for that warm, homey feeling. While it is quick to lay, it is also very flammable.</s><r>Деревянный пол создает ощущение тепла и домашнего уюта. Несмотря на то, что его быстро укладывать, он также очень легко воспламеняется.</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_RosewoodPlankFloor.label"><s>rosewood laminate floor</s><r>ламинат из розового дерева</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_Rosewood_Bridge.description"><s>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</s><r>Плоская деревянная поверхность на опорных балках, которую можно возводить над водой. На мостах можно строить легкие конструкции, но будьте осторожны — мосты хрупкие. Если мост упадет, то и здания на его вершине упадут.</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_Rosewood_Bridge.label"><s>rosewood bridge</s><r>палисандровый мост</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_VFEArch_FineWoodenFloorCedar.description"><s>Beautiful wooden parquet, made with no compromises, for expressing economic status. Slow to construct.</s><r>Красивый деревянный паркет, изготовленный без компромиссов, для выражения экономического статуса. Медленно строить.</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_VFEArch_FineWoodenFloorCedar.label"><s>cedar vinyl fine wooden floor</s><r>виниловый изысканный деревянный пол из кедра</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_VFEArch_FineWoodenFloorEbony.description"><s>Beautiful wooden parquet, made with no compromises, for expressing economic status. Slow to construct.</s><r>Красивый деревянный паркет, изготовленный без компромиссов, для выражения экономического статуса. Медленно строить.</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_VFEArch_FineWoodenFloorEbony.label"><s>ebony vinyl fine wooden floor</s><r>виниловый изысканный деревянный пол из черного дерева</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_VFEArch_FineWoodenFloorLacquer.description"><s>Beautiful wooden parquet, made with no compromises, for expressing economic status. Slow to construct.</s><r>Красивый деревянный паркет, изготовленный без компромиссов, для выражения экономического статуса. Медленно строить.</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_VFEArch_FineWoodenFloorLacquer.label"><s>lacquered wood vinyl fine wooden floor</s><r>из винила из лакированной древесины изысканный деревянный пол</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_VFEArch_FineWoodenFloorMahogany.description"><s>Beautiful wooden parquet, made with no compromises, for expressing economic status. Slow to construct.</s><r>Красивый деревянный паркет, изготовленный без компромиссов, для выражения экономического статуса. Медленно строить.</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_VFEArch_FineWoodenFloorMahogany.label"><s>mahogany vinyl fine wooden floor</s><r>виниловый изысканный деревянный пол из красного дерева</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_VFEArch_FineWoodenFloorRosewood.description"><s>Beautiful wooden parquet, made with no compromises, for expressing economic status. Slow to construct.</s><r>Красивый деревянный паркет, изготовленный без компромиссов, для выражения экономического статуса. Медленно строить.</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_VFEArch_FineWoodenFloorRosewood.label"><s>rosewood vinyl fine wooden floor</s><r>виниловый изысканный деревянный пол из палисандра</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_VFEArch_WoodenParquetCedar.description"><s>Beautifully laid down wooden flooring for that posh, fancy feeling. Whilst beautiful, it takes a long time to lay down and is also very flammable.</s><r>Красиво уложенный деревянный пол создает ощущение роскоши и роскоши. Несмотря на то, что он красив, он требует много времени для укладки, а также очень легко воспламеняется.</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_VFEArch_WoodenParquetCedar.label"><s>cedar laminate wooden parquet</s><r>ламинат из кедра, деревянный паркет</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_VFEArch_WoodenParquetEbony.description"><s>Beautifully laid down wooden flooring for that posh, fancy feeling. Whilst beautiful, it takes a long time to lay down and is also very flammable.</s><r>Красиво уложенный деревянный пол создает ощущение роскоши и роскоши. Несмотря на то, что он красив, он требует много времени для укладки, а также очень легко воспламеняется.</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_VFEArch_WoodenParquetEbony.label"><s>ebony laminate wooden parquet</s><r>паркет из ламината из черного дерева</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_VFEArch_WoodenParquetLacquer.description"><s>Beautifully laid down wooden flooring for that posh, fancy feeling. Whilst beautiful, it takes a long time to lay down and is also very flammable.</s><r>Красиво уложенный деревянный пол создает ощущение роскоши и роскоши. Несмотря на то, что он красив, он требует много времени для укладки, а также очень легко воспламеняется.</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_VFEArch_WoodenParquetLacquer.label"><s>lacquered wood laminate wooden parquet</s><r>из лакированной древесины из ламината из дерева</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_VFEArch_WoodenParquetMahogany.description"><s>Beautifully laid down wooden flooring for that posh, fancy feeling. Whilst beautiful, it takes a long time to lay down and is also very flammable.</s><r>Красиво уложенный деревянный пол создает ощущение роскоши и роскоши. Несмотря на то, что он красив, он требует много времени для укладки, а также очень легко воспламеняется.</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_VFEArch_WoodenParquetMahogany.label"><s>mahogany laminate wooden parquet</s><r>ламинат из красного дерева, паркет из дерева</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_VFEArch_WoodenParquetRosewood.description"><s>Beautifully laid down wooden flooring for that posh, fancy feeling. Whilst beautiful, it takes a long time to lay down and is also very flammable.</s><r>Красиво уложенный деревянный пол создает ощущение роскоши и роскоши. Несмотря на то, что он красив, он требует много времени для укладки, а также очень легко воспламеняется.</r></e>
+  <e k="D" t="TerrainDef" key="VV_NHCP_VFEArch_WoodenParquetRosewood.label"><s>rosewood laminate wooden parquet</s><r>ламинат из палисандра деревянный паркет</r></e>
+  <e k="D" t="ThingCategoryDef" key="VV_NHCP_DummyCategory_AnimalFoods.label"><s>Animal Food</s><r>Еда для животных</r></e>
+  <e k="D" t="ThingCategoryDef" key="VV_NHCP_DummyCategory_Fruit.label"><s>Fruit</s><r>Фрукты</r></e>
+  <e k="D" t="ThingCategoryDef" key="VV_NHCP_DummyCategory_Fungus.label"><s>Fungus</s><r>Грибок</r></e>
+  <e k="D" t="ThingCategoryDef" key="VV_NHCP_DummyCategory_Grains.label"><s>Grains</s><r>Зерна</r></e>
+  <e k="D" t="ThingCategoryDef" key="VV_NHCP_DummyCategory_Nuts.label"><s>Nuts and Seeds</s><r>Орехи и семена</r></e>
+  <e k="D" t="ThingCategoryDef" key="VV_NHCP_DummyCategory_Vegetables.label"><s>Vegetables</s><r>Овощи</r></e>
+  <e k="D" t="ThingDef" key="VV_MapleSyrup.description"><s>Sweet, thick syrup collected from the sugar maple tree. Delicious and highly valued.</s><r>Сладкий, густой сироп, собранный с дерева сахарного клена. Вкусно и высоко ценится.</r></e>
+  <e k="D" t="ThingDef" key="VV_MapleSyrup.label"><s>maple syrup</s><r>кленовый сироп</r></e>
+  <e k="D" t="ThingDef" key="VV_NHCP_AquaticReedPlant.description"><s>Unlike its cousin that has been bred to thrive outside of marshes, this type requires marshy, water-logged ground, and produces a smaller usable yield but in a shorter amount of time. It is valued for its strong stalks, which are valuable materials for construction and crafting.</s><r>В отличие от своего родственника, который был выведен для процветания за пределами болот, этот тип требует болотистой, заболоченной почвы и дает меньший полезный урожай, но за более короткий промежуток времени. Его ценят за крепкие стебли, которые являются ценным материалом для строительства и ремесел.</r></e>
+  <e k="D" t="ThingDef" key="VV_NHCP_AquaticReedPlant.label"><s>aquatic reed plant</s><r>водное тростниковое растение</r></e>
+  <e k="D" t="ThingDef" key="VV_NHCP_Dryad_Cedarmaker.description"><s>A slow, bumbling caste of dryad which specializes in cedar wood production. Together with its Gauranlen tree, this dryad can generate a cedar wood-like material on an ongoing basis. However, it is slow and ineffective at work or combat.
+
+In general, dryads are mammal-like creatures that have a symbiotic relationship with the Gauranlen tree. They reproduce together with their tree, which contains a hidden dryad queen. Dryads can morph into various specialized castes.</s><r>Медлительная, неуклюжая каста дриад, специализирующаяся на производстве кедровой древесины. Вместе со своим деревом Гауранлен эта дриада может постоянно генерировать материал, похожий на кедровое дерево. Однако он медлителен и неэффективен в работе или бою.
+
+В целом дриады — это млекопитающие существа, находящиеся в симбиотических отношениях с деревом Гауранлен. Они размножаются вместе со своим деревом, в котором скрыта королева дриад. Дриады могут трансформироваться в различные специализированные касты.</r></e>
+  <e k="D" t="ThingDef" key="VV_NHCP_Dryad_Cedarmaker.label"><s>cedarmaker dryad</s><r>кедровая дриада</r></e>
+  <e k="D" t="ThingDef" key="VV_NHCP_Dryad_Cedarmaker.tools.0.label"><s>left claw</s><r>левый коготь</r></e>
+  <e k="D" t="ThingDef" key="VV_NHCP_Dryad_Cedarmaker.tools.1.label"><s>right claw</s><r>правая клешня</r></e>
+  <e k="D" t="ThingDef" key="VV_NHCP_Dryad_Cedarmaker.tools.3.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="VV_NHCP_Dryad_Ebonymaker.description"><s>A slow, bumbling caste of dryad which specializes in ebony wood production. Together with its Gauranlen tree, this dryad can generate a ebony wood-like material on an ongoing basis. However, it is slow and ineffective at work or combat.
+
+In general, dryads are mammal-like creatures that have a symbiotic relationship with the Gauranlen tree. They reproduce together with their tree, which contains a hidden dryad queen. Dryads can morph into various specialized castes.</s><r>Медленная, неуклюжая каста дриад, специализирующаяся на производстве эбеновой древесины. Вместе со своим деревом Гауранлен эта дриада может постоянно генерировать материал, похожий на черное дерево. Однако он медлителен и неэффективен в работе или бою.
+
+В целом дриады — это млекопитающие существа, находящиеся в симбиотических отношениях с деревом Гауранлен. Они размножаются вместе со своим деревом, в котором скрыта королева дриад. Дриады могут трансформироваться в различные специализированные касты.</r></e>
+  <e k="D" t="ThingDef" key="VV_NHCP_Dryad_Ebonymaker.label"><s>ebonymaker dryad</s><r>дриада, делающая черное дерево</r></e>
+  <e k="D" t="ThingDef" key="VV_NHCP_Dryad_Ebonymaker.tools.0.label"><s>left claw</s><r>левый коготь</r></e>
+  <e k="D" t="ThingDef" key="VV_NHCP_Dryad_Ebonymaker.tools.1.label"><s>right claw</s><r>правая клешня</r></e>
+  <e k="D" t="ThingDef" key="VV_NHCP_Dryad_Ebonymaker.tools.3.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="VV_NHCP_Dryad_Mahoganymaker.description"><s>A slow, bumbling caste of dryad which specializes in mahogany wood production. Together with its Gauranlen tree, this dryad can generate a mahogany wood-like material on an ongoing basis. However, it is slow and ineffective at work or combat.
+
+In general, dryads are mammal-like creatures that have a symbiotic relationship with the Gauranlen tree. They reproduce together with their tree, which contains a hidden dryad queen. Dryads can morph into various specialized castes.</s><r>Медлительная, неуклюжая каста дриад, специализирующаяся на производстве красного дерева. Вместе со своим деревом Гауранлен эта дриада может постоянно генерировать материал, похожий на красное дерево. Однако он медлителен и неэффективен в работе или бою.
+
+В целом дриады — это млекопитающие существа, находящиеся в симбиотических отношениях с деревом Гауранлен. Они размножаются вместе со своим деревом, в котором скрыта королева дриад. Дриады могут трансформироваться в различные специализированные касты.</r></e>
+  <e k="D" t="ThingDef" key="VV_NHCP_Dryad_Mahoganymaker.label"><s>mahoganymaker dryad</s><r>дриада из красного дерева</r></e>
+  <e k="D" t="ThingDef" key="VV_NHCP_Dryad_Mahoganymaker.tools.0.label"><s>left claw</s><r>левый коготь</r></e>
+  <e k="D" t="ThingDef" key="VV_NHCP_Dryad_Mahoganymaker.tools.1.label"><s>right claw</s><r>правая клешня</r></e>
+  <e k="D" t="ThingDef" key="VV_NHCP_Dryad_Mahoganymaker.tools.3.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="VV_NHCP_Dryad_Rosewoodmaker.description"><s>A slow, bumbling caste of dryad which specializes in rosewood wood production. Together with its Gauranlen tree, this dryad can generate a rosewood wood-like material on an ongoing basis. However, it is slow and ineffective at work or combat.
+
+In general, dryads are mammal-like creatures that have a symbiotic relationship with the Gauranlen tree. They reproduce together with their tree, which contains a hidden dryad queen. Dryads can morph into various specialized castes.</s><r>Медленная, неуклюжая каста дриад, специализирующаяся на производстве древесины палисандра. Вместе со своим деревом Гауранлен эта дриада может постоянно генерировать материал, похожий на палисандровое дерево. Однако он медлителен и неэффективен в работе или бою.
+
+В целом дриады — это млекопитающие существа, находящиеся в симбиотических отношениях с деревом Гауранлен. Они размножаются вместе со своим деревом, в котором скрыта королева дриад. Дриады могут трансформироваться в различные специализированные касты.</r></e>
+  <e k="D" t="ThingDef" key="VV_NHCP_Dryad_Rosewoodmaker.label"><s>rosewoodmaker dryad</s><r>дриада-изготовитель розового дерева</r></e>
+  <e k="D" t="ThingDef" key="VV_NHCP_Dryad_Rosewoodmaker.tools.0.label"><s>left claw</s><r>левый коготь</r></e>
+  <e k="D" t="ThingDef" key="VV_NHCP_Dryad_Rosewoodmaker.tools.1.label"><s>right claw</s><r>правая клешня</r></e>
+  <e k="D" t="ThingDef" key="VV_NHCP_Dryad_Rosewoodmaker.tools.3.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="VV_NHCP_MapleSap.description"><s>Slightly sweet, watery fluid that flows from a sugar maple tree, typically collected in late winter and early spring to produce maple syrup.</s><r>Слегка сладкая водянистая жидкость, вытекающая из сахарного клена, которую обычно собирают в конце зимы и начале весны для производства кленового сиропа.</r></e>
+  <e k="D" t="ThingDef" key="VV_NHCP_MapleSap.label"><s>maple sap</s><r>кленовый сок</r></e>
+  <e k="D" t="ThoughtDef" key="VV_NHCP_ConsumedMapleSyrup.stages.0.description"><s>Sweet, sticky goodness.</s><r>Сладкое, липкое совершенство.</r></e>
+  <e k="D" t="ThoughtDef" key="VV_NHCP_ConsumedMapleSyrup.stages.0.label"><s>consumed maple syrup</s><r>потреблял кленовый сироп</r></e>
+  <e k="D" t="ThoughtDef" key="VV_NHCP_ConsumedMapleSyrupFromMeal.stages.0.description"><s>Sweet, sticky goodness.</s><r>Сладкое, липкое совершенство.</r></e>
+  <e k="D" t="ThoughtDef" key="VV_NHCP_ConsumedMapleSyrupFromMeal.stages.0.label"><s>consumed maple syrup (from meal)</s><r>потреблял кленовый сироп (из еды)</r></e>
+  <e k="D" t="WorkGiverDef" key="VV_NHCP_DoBillsAlchemyCooking.gerund"><s>crafting at</s><r>ремесло в</r></e>
+  <e k="D" t="WorkGiverDef" key="VV_NHCP_DoBillsAlchemyCooking.label"><s>craft decoction</s><r>крафтовый отвар</r></e>
+  <e k="D" t="WorkGiverDef" key="VV_NHCP_DoBillsAlchemyCooking.verb"><s>crafting</s><r>создание</r></e>
+  <e k="K" key="NHCP.AdjusterLabel_NourishedHediffSeverity"><s>Time Between Attempts</s><r>Время между попытками</r></e>
+  <e k="K" key="NHCP.AdjusterLabel_TicksBetweenTruffleDigAttempts"><s>Ticks Between Dig Attempts</s><r>Тики между попытками раскопок</r></e>
+  <e k="K" key="NHCP.AdjusterTooltip_NourishedHediffSeverity"><s>The average amount of game hours between nuzzle attempts while nourished.
+A smaller number means more attempts.</s><r>Среднее количество игровых часов между попытками прикоснуться носом во время кормления.
+Меньшее число означает больше попыток.</r></e>
+  <e k="K" key="NHCP.AdjusterTooltip_TicksBetweenTruffleDigAttempts"><s>Ticks that must pass before an animal attempts to dig for truffles.
+2500 ticks = 1 game hour; 60000 ticks = 1 game day.</s><r>Тики, которые должны пройти, прежде чем животное попытается выкопать трюфели.
+2500 тиков = 1 игровой час; 60000 тиков = 1 игровой день.</r></e>
+  <e k="K" key="NHCP.Button_ApplyToStuff"><s>Apply to stuff</s><r>Применить к материалу</r></e>
+  <e k="K" key="NHCP.Button_ApplyToThing"><s>Apply to thing</s><r>Применить к вещи</r></e>
+  <e k="K" key="NHCP.Button_AreYouSure"><s>Are you sure?</s><r>Вы уверены?</r></e>
+  <e k="K" key="NHCP.Button_CategoryResetInfo"><s>Things that originate in this category will moved back to it, and things that do not will be moved back to their respective categories, if applicable.</s><r>Вещи, происходящие из этой категории, будут перемещены обратно в нее, а вещи, которые этого не делают, будут возвращены в соответствующие категории, если это применимо.</r></e>
+  <e k="K" key="NHCP.Button_EditCategoryContents"><s>Edit Contents...</s><r>Редактировать содержимое...</r></e>
+  <e k="K" key="NHCP.Button_RevertToDefault"><s>Revert To Default</s><r>Вернуться к настройкам по умолчанию</r></e>
+  <e k="K" key="NHCP.CheckboxLabel_AddAquaticReedsToBiomes"><s>Add New Harvest Reeds To Biomes</s><r>Добавьте новые трости для сбора урожая в биомы</r></e>
+  <e k="K" key="NHCP.CheckboxLabel_AddHayConversionRecipe"><s>Add Convert Hay Recipe</s><r>Добавить рецепт конвертированного сена</r></e>
+  <e k="K" key="NHCP.CheckboxLabel_AddMapleSyrupChain"><s>Add Maple Syrup Production</s><r>Добавить производство кленового сиропа</r></e>
+  <e k="K" key="NHCP.CheckboxLabel_AddMoreWoodFloors"><s>Add More Wood Floors</s><r>Добавьте больше деревянных полов</r></e>
+  <e k="K" key="NHCP.CheckboxLabel_AddNourishedHediffFromAnimalFood"><s>Nourished Animals Nuzzle More Often</s><r>Кормленные животные чаще нюхают нос</r></e>
+  <e k="K" key="NHCP.CheckboxLabel_AddTruffleDiggingBehavior"><s>Add Truffle Digging Behavior</s><r>Добавьте поведение при выкапывании трюфелей</r></e>
+  <e k="K" key="NHCP.CheckboxLabel_AddWoodConversionRecipe"><s>Add Convert Wood Recipe</s><r>Добавить рецепт преобразования древесины</r></e>
+  <e k="K" key="NHCP.CheckboxLabel_AddWoodDryads"><s>Add New Harvest Wood Dryads</s><r>Добавить новый урожай лесных дриад</r></e>
+  <e k="K" key="NHCP.CheckboxLabel_BaseWoodFloorsToDropdowns"><s>Base Wood Floors To Dropdowns</s><r>Базовые деревянные полы и раскрывающиеся списки</r></e>
+  <e k="K" key="NHCP.CheckboxLabel_ChangeAnimalFoodRecipes"><s>Change Animal Food Recipes</s><r>Измените рецепты корма для животных</r></e>
+  <e k="K" key="NHCP.CheckboxLabel_GrainsProduceVCEFlourOnly"><s>Harvest Flour Instead Of Grain</s><r>Собирайте муку вместо зерна</r></e>
+  <e k="K" key="NHCP.CheckboxLabel_GrainsProduceVCEFlourSecondary"><s>Grains Produce Vanilla Cooking Expanded Flour</s><r>Зерна производят ваниль. Кулинарная вспученная мука.</r></e>
+  <e k="K" key="NHCP.CheckboxLabel_HayNeedsCooling"><s>Hay Needs Cooling</s><r>Сену нужно охлаждение</r></e>
+  <e k="K" key="NHCP.CheckboxLabel_Logging"><s>Logging</s><r>Ведение журнала</r></e>
+  <e k="K" key="NHCP.CheckboxLabel_MergeCategory"><s>Merge &quot;{0}&quot; Categories</s><r>Объединить категории «{0}»</r></e>
+  <e k="K" key="NHCP.CheckboxLabel_ModWoodFloorsToDropdowns"><s>Mod Wood Floors To Dropdowns</s><r>Мод «Деревянные полы» в раскрывающиеся списки</r></e>
+  <e k="K" key="NHCP.CheckboxLabel_MoveDrinksToVBECategory"><s>Move Medicinal Drinks Into Vanilla Brewing Expanded Category</s><r>Переместить лечебные напитки в расширенную категорию ванильного пивоварения</r></e>
+  <e k="K" key="NHCP.CheckboxLabel_NewHarvestNonWoodFloorsToDropdown"><s>New Harvest Non-Wood Floors To Dropdown</s><r>Новые недеревянные полы урожая в раскрывающемся списке</r></e>
+  <e k="K" key="NHCP.CheckboxLabel_NewHarvestWoodFloorsToDropdowns"><s>New Harvest Wood Floors To Dropdowns</s><r>Новые полы из древесины урожая в выпадающие списки</r></e>
+  <e k="K" key="NHCP.CheckboxLabel_ResourceReadout"><s>Show As Resource Readout Root</s><r>Показать как корень считывания ресурса</r></e>
+  <e k="K" key="NHCP.CheckboxLabel_TreatFungusPoisoningLikeFoodPoisoning"><s>Treat Mushroom Poisoning Like Food Poisoning</s><r>Относитесь к отравлению грибами как к пищевому отравлению.</r></e>
+  <e k="K" key="NHCP.CheckboxLabel_TruffleGizmoRequiresTraining"><s>Command Toggle Requires Training</s><r>Переключение команд требует обучения</r></e>
+  <e k="K" key="NHCP.CheckboxLabel_TruffleSpawnsForbidden"><s>Spawned Truffles Are Forbidden</s><r>Порожденные трюфели запрещены</r></e>
+  <e k="K" key="NHCP.CheckboxLabel_UseVanillaLogGraphic"><s>Use Vanilla Log Graphics:</s><r>Используйте Vanilla Log Graphics:</r></e>
+  <e k="K" key="NHCP.CheckboxTooltip_AddAquaticReedsToBiomes"><s>Adds aquatic New Harvest reeds to biomes containing Odyssey reeds at 25% their frequency.</s><r>Добавляет водные тростники Нового урожая в биомы, содержащие тростники Одиссеи, с частотой 25% от их частоты.</r></e>
+  <e k="K" key="NHCP.CheckboxTooltip_AddHayConversionRecipe"><s>Adds a Crafting Spot recipe to convert 50 New Harvest hay into base game hay.</s><r>Добавляет рецепт места крафта, позволяющий превратить 50 сено нового урожая в сено из базовой игры.</r></e>
+  <e k="K" key="NHCP.CheckboxTooltip_AddMapleSyrupChain"><s>If enabled, New Harvest's Sugar Maple trees will produce Maple Sap which must be boiled into Maple Syrup, instead of Maple Syrup coming directly from the trees.
+Maple Sap can be boiled wherever meals can be cooked.</s><r>Если эта опция включена, деревья сахарного клена New Harvest будут производить кленовый сок, который необходимо варить в кленовом сиропе, а не в кленовом сиропе, получаемом непосредственно с деревьев.
+Кленовый сок можно варить везде, где можно приготовить еду.</r></e>
+  <e k="K" key="NHCP.CheckboxTooltip_AddMoreWoodFloors"><s>Add more floors using New Harvest wood.</s><r>Добавьте больше этажей, используя древесину New Harvest.</r></e>
+  <e k="K" key="NHCP.CheckboxTooltip_AddNourishedHediffFromAnimalFood"><s>If enabled, animals that eat New Harvest's Fodder Mix or Protein Kibble will become nourished causing them to nuzzle more often for a period of time.
+The animal must be capable of nuzzling.</s><r>Если эта функция включена, животные, которые едят кормовую смесь или протеиновые гранулы New Harvest, будут насыщаться, заставляя их чаще обнюхивать нос в течение определенного периода времени.
+Животное должно быть способно обнюхивать.</r></e>
+  <e k="K" key="NHCP.CheckboxTooltip_AddTruffleDiggingBehavior"><s>Allows tamed pigs and dogs to dig up truffles when on diggable natural terrain.</s><r>Позволяет прирученным свиньям и собакам выкапывать трюфели на естественной местности, которую можно копать.</r></e>
+  <e k="K" key="NHCP.CheckboxTooltip_AddWoodConversionRecipe"><s>Adds a Crafting Spot recipe to convert 50 New Harvest wood into base game wood.</s><r>Добавляет рецепт места крафта, позволяющий превратить 50 единиц древесины нового урожая в древесину из базовой игры.</r></e>
+  <e k="K" key="NHCP.CheckboxTooltip_AddWoodDryads"><s>Add new dryad types to make cedar, ebony, mahogany or rosewood logs.</s><r>Добавляйте новые типы дриад, чтобы делать бревна из кедра, черного, красного дерева или палисандра.</r></e>
+  <e k="K" key="NHCP.CheckboxTooltip_BaseWoodFloorsToDropdowns"><s>Group base wood floors in a dropdown.</s><r>Сгруппируйте базовые деревянные полы в раскрывающемся списке.</r></e>
+  <e k="K" key="NHCP.CheckboxTooltip_ChangeAnimalFoodRecipes"><s>If enabled, New Harvest's Fodder Mix and Protein Kibble recipes can be crafted using a wider range of ingredients.</s><r>Если этот параметр включен, рецепты кормовых смесей и протеиновых гранул New Harvest можно создавать с использованием более широкого спектра ингредиентов.</r></e>
+  <e k="K" key="NHCP.CheckboxTooltip_GrainsProduceVCEFlourOnly"><s>Grain plants are harvested for flour only - no grain is produced at all.
+The percentage above still applies, measured against the plant's normal grain yield.
+(Example: Amaranth plants will produce {0} flour and no grain)
+
+Warning: the grain items themselves become unobtainable from farming. Any recipe that consumes them loses its renewable source.</s><r>Зерновые растения собирают только для получения муки - зерно не производится вообще.
+Процент, указанный выше, по-прежнему применяется и измеряется относительно нормального урожая зерна растения.
+(Пример: растения амаранта производят {0} муки и не производят зерна)
+
+Предупреждение: сами зерновые элементы становятся недоступными при сельском хозяйстве. Любой рецепт, в котором они используются, теряет свой возобновляемый источник.</r></e>
+  <e k="K" key="NHCP.CheckboxTooltip_GrainsProduceVCEFlourSecondary"><s>New Harvest grain plants will produce Vanilla Cooking Expanded flour as a secondary output, at the percentage of their grain yield set below.
+(Example: Amaranth plants will produce {0} amaranth grain and {1} flour)</s><r>Зерновые заводы New Harvest будут производить вспученную муку Vanilla Cooking в качестве вторичной продукции в процентном отношении к их урожайности зерна, указанному ниже.
+ (Пример: заводы по производству амаранта будут производить {0} зерна амаранта и {1} муки)</r></e>
+  <e k="K" key="NHCP.CheckboxTooltip_GrainsProduceVCEFlourSecondaryReplaced"><s>New Harvest grain plants will be harvested for Vanilla Cooking Expanded flour instead of grain, at the percentage of their normal grain yield set below.
+(Example: Amaranth plants will produce {0} flour and no grain)</s><r>Зерновые растения нового урожая будут собираться для производства вспученной муки Vanilla Cooking вместо зерна в процентном отношении к их обычному выходу зерна, указанному ниже. 
+ (Пример: растения амаранта будут производить {0} муки и не давать зерна).</r></e>
+  <e k="K" key="NHCP.CheckboxTooltip_HayNeedsCooling"><s>If disabled, removes the need to refrigerate New Harvest hay.
+It will instead just deteriorate if outdoors.</s><r>Если отключено, отпадает необходимость хранить сено New Harvest в холодильнике.
+Вместо этого оно просто портится, если находится на открытом воздухе.</r></e>
+  <e k="K" key="NHCP.CheckboxTooltip_Logging"><s>Logs some information, mostly on game start.
+You probably don't want it on.</s><r>Записывает некоторую информацию, в основном при запуске игры.
+Вероятно, вам это не нужно.</r></e>
+  <e k="K" key="NHCP.CheckboxTooltip_MergeCategory"><s>[EXPERIMENTAL] Creates a {0} category and gathers New Harvest {1} into it, along with matching items from other mods, attempting to replace their original &quot;{1}&quot; categories.</s><r>[EXPERIMENTAL] Создает категорию {0} и собирает в нее New Harvest {1} вместе с соответствующими предметами из других модов, пытаясь заменить их исходные категории «{1}».</r></e>
+  <e k="K" key="NHCP.CheckboxTooltip_ModWoodFloorsToDropdowns"><s>Group mod-added wood floors in dropdowns.</s><r>Групповые модные деревянные полы добавлены в раскрывающиеся списки.</r></e>
+  <e k="K" key="NHCP.CheckboxTooltip_MoveDrinksToVBECategory"><s>Move New Harvest medicinal drinks to Vanilla Brewing Expanded's non-alcoholic category.</s><r>Переместить лечебные напитки New Harvest в безалкогольную категорию Vanilla Brewing Expanded.</r></e>
+  <e k="K" key="NHCP.CheckboxTooltip_NewHarvestNonWoodFloorsToDropdown"><s>Group New Harvest non-wood floors in a single dropdown.</s><r>Сгруппируйте недеревянные полы New Harvest в одном раскрывающемся списке.</r></e>
+  <e k="K" key="NHCP.CheckboxTooltip_NewHarvestWoodFloorsToDropdowns"><s>Group New Harvest wood floors into dropdowns.</s><r>Сгруппируйте деревянные полы New Harvest в раскрывающиеся списки.</r></e>
+  <e k="K" key="NHCP.CheckboxTooltip_ResourceReadout"><s>Shows the {0} category as a primary resource on the resource readout.</s><r>Показывает категорию {0} в качестве основного ресурса в показаниях ресурсов.</r></e>
+  <e k="K" key="NHCP.CheckboxTooltip_TreatFungusPoisoningLikeFoodPoisoning"><s>If enabled, pawns with genes, hediffs, or traits that reduce food poisoning chance also reduce the chance of new poison effects from New Harvest mushrooms that have poison effects.</s><r>Если эта функция включена, пешки с генами, хедиффами или чертами, которые уменьшают вероятность пищевого отравления, также уменьшают вероятность новых эффектов отравления от грибов Нового урожая, которые имеют ядовитые эффекты.</r></e>
+  <e k="K" key="NHCP.CheckboxTooltip_TruffleGizmoRequiresTraining"><s>If enabled, animals must be trained in Obedience, Dig, or Forage to receive the truffle digging command toggle. Otherwise, all tamed animals will always have the toggle.</s><r>Если этот параметр включен, животные должны быть обучены послушанию, копанию или добыче корма, чтобы получить переключатель команды копания трюфелей. В противном случае у всех прирученных животных всегда будет переключатель.</r></e>
+  <e k="K" key="NHCP.CheckboxTooltip_TruffleSpawnsForbidden"><s>If enabled, truffles found by animals will spawn forbidden.</s><r>Если эта опция включена, трюфели, найденные животными, будут запрещены.</r></e>
+  <e k="K" key="NHCP.CheckboxTooltip_UseVanillaLogGraphic"><s>Makes New Harvest Logs use colored vanilla log textures.</s><r>Заставляет бревна нового урожая использовать цветные текстуры ванильных бревен.</r></e>
+  <e k="K" key="NHCP.DisableDigging"><s>Disable digging for truffles</s><r>Отключить поиск трюфелей</r></e>
+  <e k="K" key="NHCP.DisableDiggingDesc"><s>Disable this animal's ability to dig for truffles.</s><r>Отключите способность этого животного выкапывать трюфели.</r></e>
+  <e k="K" key="NHCP.EditCategory_AllEntries"><s>all entries</s><r>все записи</r></e>
+  <e k="K" key="NHCP.EditCategory_MoveHere"><s>Remove from {0} and add here</s><r>Удалить из {0} и добавить сюда</r></e>
+  <e k="K" key="NHCP.EditCategory_MoveHint"><s>Right click to remove from {0} and add here.</s><r>Щелкните правой кнопкой мыши, чтобы удалить из {0} и добавить сюда.</r></e>
+  <e k="K" key="NHCP.EditCategory_OwnedBy"><s>In: {0}</s><r>In: {0}</r></e>
+  <e k="K" key="NHCP.EditCategory_RightClickHint"><s>Right click to reset this entry.
+Shift + right click to reset all entries.</s><r>Щелкните правой кнопкой мыши, чтобы сбросить эту запись.
+Shift + щелчок правой кнопкой мыши, чтобы сбросить все записи.</r></e>
+  <e k="K" key="NHCP.EditCategory_SearchTypes"><s>Search by defName, label or category.</s><r>Поиск по defName, метке или категории.</r></e>
+  <e k="K" key="NHCP.EnableDigging"><s>Enable digging for truffles</s><r>Включить поиск трюфелей</r></e>
+  <e k="K" key="NHCP.EnableDiggingDesc"><s>Enable this animal's ability to dig for truffles.</s><r>Включите способность этого животного добывать трюфели.</r></e>
+  <e k="K" key="NHCP.FoundTruffle"><s>{PAWN_nameFull} found {TRUFFLE_label}!</s><r>{PAWN_nameFull} найдено {TRUFFLE_label}!</r></e>
+  <e k="K" key="NHCP.General_AnimalFoods"><s>Animal Foods</s><r>Продукты животного происхождения</r></e>
+  <e k="K" key="NHCP.General_Default"><s>Default: {0}</s><r>По умолчанию: {0}</r></e>
+  <e k="K" key="NHCP.General_Enabled"><s>Enabled</s><r>Включено</r></e>
+  <e k="K" key="NHCP.General_Fruit"><s>Fruit</s><r>Фрукты</r></e>
+  <e k="K" key="NHCP.General_Fungus"><s>Fungus</s><r>Грибок</r></e>
+  <e k="K" key="NHCP.General_Grains"><s>Grains</s><r>Зерна</r></e>
+  <e k="K" key="NHCP.General_Information"><s>Information</s><r>Информация</r></e>
+  <e k="K" key="NHCP.General_InstalledModules"><s>Installed modules:</s><r>Установленные модули:</r></e>
+  <e k="K" key="NHCP.General_ModName"><s>VV - New Harvest</s><r>ВВ - Новый урожай</r></e>
+  <e k="K" key="NHCP.General_Nuts"><s>Nuts</s><r>Орехи</r></e>
+  <e k="K" key="NHCP.General_Reset"><s>Reset {0}</s><r>Сброс {0}</r></e>
+  <e k="K" key="NHCP.General_ResetTabConfirm"><s>Reset all &quot;{0}&quot; settings to their defaults?</s><r>Сбросить все настройки «{0}» до значений по умолчанию?</r></e>
+  <e k="K" key="NHCP.General_RestartRequired"><s>{0} indicates that a restart is required for the change or changes to apply.</s><r>{0} указывает, что для применения изменения или изменений требуется перезагрузка.</r></e>
+  <e k="K" key="NHCP.General_RevertedColorToDefault"><s>Reverted color for {0} to default.</s><r>Цвет для {0} восстановлен по умолчанию.</r></e>
+  <e k="K" key="NHCP.General_RightClickToReset"><s>You can right click on tabs or settings to reset them.</s><r>Вы можете щелкнуть правой кнопкой мыши по вкладкам или настройкам, чтобы сбросить их.</r></e>
+  <e k="K" key="NHCP.General_Setting"><s>setting</s><r>параметр</r></e>
+  <e k="K" key="NHCP.General_ThingHasNoDefaultColor"><s>Color is white, which means no tint at all.</s><r>Цвет белый, что означает отсутствие оттенка вообще.</r></e>
+  <e k="K" key="NHCP.General_Vegetables"><s>Vegetables</s><r>Овощи</r></e>
+  <e k="K" key="NHCP.General_Version"><s>Version: {0}</s><r>Версия: {0}</r></e>
+  <e k="K" key="NHCP.Label_ChooseMaterial"><s>Choose a material</s><r>Выберите материал</r></e>
+  <e k="K" key="NHCP.Label_DefaultColor"><s>Default color</s><r>Цвет по умолчанию</r></e>
+  <e k="K" key="NHCP.OFF"><s>OFF</s><r>ВЫКЛЮЧЕННЫЙ</r></e>
+  <e k="K" key="NHCP.ON"><s>ON</s><r>НА</r></e>
+  <e k="K" key="NHCP.RangeLabel_NourishedHediffDuration"><s>Duration</s><r>Продолжительность</r></e>
+  <e k="K" key="NHCP.RangeLabel_TruffleAmountRange"><s>Truffle Amount Range</s><r>Диапазон количества трюфелей</r></e>
+  <e k="K" key="NHCP.RangeLabel_TruffleDiggingChanceRange"><s>Success Chance Range</s><r>Диапазон шансов на успех</r></e>
+  <e k="K" key="NHCP.RangeTooltip_NourishedHediffDuration"><s>The amount of ticks that the animal remains nourished.
+A random number within this range will be chosen when the animal becomes nourished.
+2500 ticks = 1 game hour; 60000 ticks = 1 game day.</s><r>Количество тиков, в течение которых животное остается накормленным.
+Случайное число в этом диапазоне будет выбрано, когда животное станет накормленным.
+2500 тиков = 1 игровой час; 60000 тиков = 1 игровой день.</r></e>
+  <e k="K" key="NHCP.RangeTooltip_TruffleAmountRange"><s>Range of truffles spawned when a dig attempt succeeds.</s><r>Диапазон трюфелей появляется при успешной попытке раскопок.</r></e>
+  <e k="K" key="NHCP.RangeTooltip_TruffleDiggingChanceRange"><s>Chance to successfully spawn a truffle on each dig attempt.
+The maximum value is used first, then reduced by 'Chance Reduction Per Animal'.
+The final chance will not fall below the minimum.</s><r>Шанс успешно создать трюфель при каждой попытке раскопок.
+Сначала используется максимальное значение, затем уменьшается на «Уменьшение шанса на животное».
+Окончательный шанс не упадет ниже минимума.</r></e>
+  <e k="K" key="NHCP.SectionLabel_FallColorTreesSection"><s>Fall Color Trees</s><r>Деревья Цвета Осени</r></e>
+  <e k="K" key="NHCP.SectionLabel_FallColorTreesSectionSub"><s>Choose trees that will display fall colors.</s><r>Выбирайте деревья, которые будут окрашены в осенние цвета.</r></e>
+  <e k="K" key="NHCP.SectionLabel_GeneralSection"><s>General</s><r>Общий</r></e>
+  <e k="K" key="NHCP.SectionLabel_MaterialColorsSection"><s>Material Colors</s><r>Цвета материалов</r></e>
+  <e k="K" key="NHCP.SectionLabel_MaterialColorsSectionSub"><s>Choose RGB (0-255) color values for materials.
+Keep in mind that most things are drawn with no tint in mind (255,255,255 (white)).
+Thing is the actual item, like a wood log. Stuff is made out of the item, like a wall.</s><r>Выберите значения цвета RGB (0–255) для материалов.
+Имейте в виду, что большинство объектов нарисованы без учета оттенка (255,255,255 (белый)).
+Вещь — это реальный предмет, например бревно. Вещи сделаны из предмета, как стена.</r></e>
+  <e k="K" key="NHCP.SliderLabel_ApparelCommonality"><s>Apparel</s><r>Одежда</r></e>
+  <e k="K" key="NHCP.SliderLabel_BaseCommonality"><s>Base</s><r>База</r></e>
+  <e k="K" key="NHCP.SliderLabel_Commonality"><s>Commonality</s><r>Общность</r></e>
+  <e k="K" key="NHCP.SliderLabel_GrainFlourOutputPercent"><s>Flour Output (% Of Normal Grain Yield)</s><r>Выход муки (% от нормального выхода зерна)</r></e>
+  <e k="K" key="NHCP.SliderLabel_StructureCommonality"><s>Structures</s><r>Структуры</r></e>
+  <e k="K" key="NHCP.SliderLabel_TruffleDiggingChanceReduction"><s>Chance Reduction Per Animal</s><r>Снижение шанса на животное</r></e>
+  <e k="K" key="NHCP.SliderLabel_WeaponCommonality"><s>Weapons</s><r>Оружие</r></e>
+  <e k="K" key="NHCP.SliderTooltip_ApparelCommonality"><s>How often this material is chosen for apparel worn by generated pawns. Apparel in trader stock or quest rewards uses Base instead.
+Right-click to reset to this material's default.</s><r>Как часто этот материал выбирают для одежды созданных пешек. Вместо этого для одежды на складе торговца или в наградах за квесты используется «Базовый».
+Щелкните правой кнопкой мыши, чтобы сбросить настройки этого материала по умолчанию.</r></e>
+  <e k="K" key="NHCP.SliderTooltip_BaseCommonality"><s>The reference point the three settings below scale from. Alone controls everything they do NOT reach: trader stock, quest and reward generation, and Vanilla Expanded Framework's own structure generator.
+0 turns this material off everywhere, including the three settings below - they have nothing to scale.
+Right-click to reset to this material's default.</s><r>Отсчетная точка, от которой масштабируются три параметра ниже. В одиночку контролирует все, чего они НЕ достигают: товар торговца, генерацию квестов и наград, а также собственный генератор структур Vanilla Expanded Framework.
+0 отключает этот материал везде, включая три настройки ниже — им нечего масштабировать.
+Щелкните правой кнопкой мыши, чтобы сбросить настройки этого материала по умолчанию.</r></e>
+  <e k="K" key="NHCP.SliderTooltip_Commonality"><s>The value written directly onto this material. Every weighted pick in the game reads it - buildings, weapons, apparel, trader stock, quests. 0 turns this material off everywhere; nothing will pick it.
+Right-click to reset to this material's default.</s><r>Значение, записанное непосредственно на этом материале. Это читается на каждом взвешенном выборе в игре — здания, оружие, одежда, товар торговца, квесты. 0 отключает этот материал везде; ничто его не выберет.
+Щелкните правой кнопкой мыши, чтобы вернуться к настройкам по умолчанию для этого материала.</r></e>
+  <e k="K" key="NHCP.SliderTooltip_CommonalityDisabledByZeroBase"><s>Disabled because Base is 0. Raise Base above 0 to use this setting; the value kept here comes back with it.</s><r>Отключено, поскольку значение Base равно 0. Чтобы использовать этот параметр, поднимите значение Base выше 0; ценность, хранящаяся здесь, возвращается вместе с ним.</r></e>
+  <e k="K" key="NHCP.SliderTooltip_GrainFlourOutputPercent"><s>How much flour a grain plant produces, as a percentage of the grain it would normally yield.
+
+100% = one flour per grain.
+50% = half as much flour as grain.
+200% = twice as much flour as grain.</s><r>Сколько муки производит зерновой завод, в процентах от зерна, которое он обычно дает.
+
+100% = одна мука на зерно.
+50% = вдвое меньше муки, чем зерна.
+200% = вдвое больше муки, чем зерна.</r></e>
+  <e k="K" key="NHCP.SliderTooltip_StructureCommonality"><s>How often this material is chosen for generated buildings and furniture - except Vanilla Expanded Framework's own structure generator, which uses Base instead.
+Right-click to reset to this material's default.</s><r>Как часто этот материал выбирается для генерируемых зданий и мебели - за исключением собственного генератора структур Vanilla Expanded Framework, который вместо этого использует Base.
+Щелкните правой кнопкой мыши, чтобы сбросить настройки этого материала по умолчанию.</r></e>
+  <e k="K" key="NHCP.SliderTooltip_TruffleDiggingChanceReduction"><s>Amount the success chance is reduced for each animal capable of digging truffles.</s><r>Размер шанса на успех уменьшается для каждого животного, способного копать трюфели.</r></e>
+  <e k="K" key="NHCP.SliderTooltip_WeaponCommonality"><s>How often this material is chosen for weapons carried by generated pawns. Weapons in trader stock or quest rewards use Base instead.
+Right-click to reset to this material's default.</s><r>Как часто этот материал выбирается для оружия, которое носят сгенерированные пешки. Вместо этого оружие в ассортименте торговца или награды за квесты используют «Базовый».
+Щелкните правой кнопкой мыши, чтобы сбросить настройки этого материала по умолчанию.</r></e>
+  <e k="K" key="NHCP.TabSubLabel_CommonalityDescription"><s>Commonality is a WEIGHT, not a percentage - the game compares a material's value against every other material's before picking one, so what matters is the value relative to everything else, not the number by itself.
+Vanilla reference points: Gold 0.02, Plasteel 0.05, Leather 0.10-0.24, Wood and Steel 1.0, Cloth 1.4.
+0 means never picked by any weighted choice - safe to use as a hard &quot;off&quot; switch. 100 (roughly 100x Wood) means picked almost every time, but never truly guaranteed - it still has to beat whatever else is competing, and the share it gets shrinks as more materials are available.
+A few generators (e.g. some default-stuff fallbacks) pick without weighting commonality at all, so even a material set to 0 can occasionally still turn up there.</s><r>Общность — это ВЕС, а не процент — игра сравнивает ценность материала со всеми остальными материалами перед выбором одного, поэтому значение имеет значение относительно всего остального, а не число само по себе. 
+Опорные точки ванили: золото 0,02, пласталь 0,05, кожа 0,10–0,24, дерево и сталь 1,0, ткань 1,4.
+0 означает, что никогда не выбирается любой взвешенный выбор - безопасно использовать в качестве жесткого выключателя. 100 (примерно в 100 раз больше древесины) означает, что выбирается почти каждый раз, но никогда по-настоящему не гарантируется - он все равно должен превзойти все остальные конкурирующие материалы, и доля, которую он получает, уменьшается по мере того, как становится доступно больше материалов.</r></e>
+  <e k="K" key="NHCP.TabSubLabel_FuelDescription"><s>Enabled things can be used as fuel.</s><r>Включенные вещи можно использовать в качестве топлива.</r></e>
+  <e k="K" key="NHCP.Title_EditCategoryChildren"><s>Edit {0} Contents</s><r>Редактировать {0} Содержание</r></e>
+  <e k="K" key="NHCP.Tooltip_Brightness"><s>Brightness</s><r>Яркость</r></e>
+  <e k="K" key="NHCP.Tooltip_ChangeCategoryName"><s>Change name of &quot;{0}&quot; category</s><r>Изменить название категории «{0}»</r></e>
+  <e k="K" key="NHCP.Tooltip_EditCategoryContents"><s>Choose which things belong to the {0} category.
+Only available while merging is enabled for the category.</s><r>Выберите, какие вещи относятся к категории {0}.
+Доступно только в том случае, если для категории включено объединение.</r></e>
+  <e k="K" key="NHCP.Tooltip_SwatchRGB"><s>R: {0} G: {1} B: {2}</s><r>Р: {0} Г: {1} Б: {2}</r></e>
+</AutoTranslateCache>
