@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="chairheir.vperunesmith" name="Vanilla Psycasts Expanded - Runesmith" language="Russian" version="1">
+  <e k="D" t="AbilityDef" key="VPER_Etch_Runecircle.description"><s>Draws a standard runecircle on the ground at the targeted location. While it does nothing on its own, it acts as a foci for all the non-Runecircle etching abilities of the Runesmith. Records 50% of the user's Psychic Sensitivity as Psychic Charge, which empowers future psycasts involving this Runecircle.</s><r>Рисует стандартный рунный круг на земле в указанном месте. Хотя он ничего не делает сам по себе, он действует как фокус для всех способностей Рунного Кузнеца по гравированию, не связанных с Руническим кругом. Записывает 50% психической чувствительности пользователя в виде психического заряда, который усиливает будущие психокасты с участием этого Рунного круга.</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Etch_Runecircle.jobReportString"><s>Using ability: {0}</s><r>Использование способности: {0}</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Etch_Runecircle.label"><s>etch runecircle</s><r>гравировать рунный круг</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Etch_Runecircle.verbProperties.label"><s>etch runecircle</s><r>гравировать рунный круг</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Etch_Runecircle_Greater.description"><s>Draws a greater runecircle on the ground at the targeted location. While it does nothing on its own, it acts as a foci for all the non-Runecircle etching abilities of the Runesmith. Records a whopping 150% of the user's Psychic Sensitivity as Psychic Charge, which massively empowers future psycasts involving this Runecircle.</s><r>Рисует большой рунный круг на земле в указанном месте. Хотя он ничего не делает сам по себе, он действует как фокус для всех способностей Рунного Кузнеца по гравированию, не связанных с Руническим кругом. Записывает колоссальные 150% психической чувствительности пользователя в виде психического заряда, что значительно усиливает будущие психокасты с участием этого Рунного круга.</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Etch_Runecircle_Greater.jobReportString"><s>Using ability: {0}</s><r>Использование способности: {0}</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Etch_Runecircle_Greater.label"><s>etch greater runecircle</s><r>вытравить больший рунный круг</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Etch_Runecircle_Greater.verbProperties.label"><s>etch greater runecircle</s><r>вытравить больший рунный круг</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Invoke_Defense.description"><s>Invoke a Runecircle's power, adding its Psychic Charge to the pawn's Psychic Sensitivity for the purposes of the psycast. This will force the Runecircle to recharge.
+
+Engraves the mental rune of Ehwaz in the minds of all entities within a large radius of the targeted Runecircle. Decreases the damage taken of all the afflicted for 120 seconds, increased by an additional second per 1% Psychic Sensitivity over 100%.</s><r>Призовите силу Рунического круга, добавив его психический заряд к психической чувствительности пешки для целей психокаста. Это заставит Рунический круг перезарядиться.
+
+Выгравирует ментальную руну Эваз в сознании всех существ в большом радиусе целевого Рунного круга. Уменьшает урон, получаемый всеми пораженными объектами, на 120 секунд, увеличиваясь на дополнительную секунду за каждый 1% психической чувствительности сверх 100%.</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Invoke_Defense.jobReportString"><s>Using ability: {0}</s><r>Использование способности: {0}</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Invoke_Defense.label"><s>invoke: Algiz</s><r>вызвать: Альгиз</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Invoke_Defense.verbProperties.label"><s>invoke: Algiz</s><r>вызвать: Альгиз</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Invoke_Explosion.description"><s>Invoke a Runecircle's power, adding its Psychic Charge to the pawn's Psychic Sensitivity for the purposes of the psycast. This will force the Runecircle to recharge.
+
+Engraves the physical rune of Sowilo in the air, promptly causing a large, fiery explosion. Deals 15 damage, increased by 1 per 8% Psychic Sensitivity over 100%. Notably, has a larger radius than other invocations.</s><r>Призовите силу Рунического круга, добавив его психический заряд к психической чувствительности пешки для целей психокаста. Это заставит Рунический круг перезарядиться.
+
+Гравирует физическую руну Совило в воздухе, мгновенно вызывая большой огненный взрыв. Наносит 15 единиц урона, увеличивающийся на 1 за каждые 8% психической чувствительности свыше 100%. Примечательно, что имеет больший радиус, чем другие вызовы.</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Invoke_Explosion.jobReportString"><s>Using ability: {0}</s><r>Использование способности: {0}</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Invoke_Explosion.label"><s>invoke: Sowilo</s><r>вызвать: Совило</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Invoke_Explosion.verbProperties.label"><s>invoke: Sowilo</s><r>вызвать: Совило</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Invoke_Heal.description"><s>Invoke a Runecircle's power, adding its Psychic Charge to the pawn's Psychic Sensitivity for the purposes of the psycast. This will force the Runecircle to recharge.
+
+Engraves the mental rune of Berkana in the bodies of all entities within a large radius of the targeted Runecircle. Restores 30 HP to each pawn in the area, increased by 1 per 10% Psychic Sensitivity over 100%.
+
+This instant healing is strenuous, and will provide a quadrum-long minor work speed penalty. While this debuff is active, the pawn cannot be healed by this psycast.</s><r>Призовите силу Рунического круга, добавив его психический заряд к психической чувствительности пешки для целей психокаста. Это заставит Рунический круг перезарядиться.
+
+Выгравирует мысленную руну Беркана в телах всех существ в большом радиусе целевого Рунного круга. Восстанавливает 30 HP каждой пешке в области, увеличивается на 1 за каждые 10% психической чувствительности свыше 100%.
+
+Это мгновенное исцеление требует усилий и дает небольшой штраф к скорости работы на квадрум. Пока этот дебафф активен, пешка не может быть исцелена этим психокастом.</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Invoke_Heal.jobReportString"><s>Using ability: {0}</s><r>Использование способности: {0}</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Invoke_Heal.label"><s>invoke: Berkana</s><r>вызвать: Причина</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Invoke_Heal.verbProperties.label"><s>invoke: Berkana</s><r>вызвать: Причина</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Invoke_Speed.description"><s>Invoke a Runecircle's power, adding its Psychic Charge to the pawn's Psychic Sensitivity for the purposes of the psycast. This will force the Runecircle to recharge.
+
+Engraves the mental rune of Ehwaz in the minds of all entities within a large radius of the targeted Runecircle. Increases the movement speed of all the afflicted for 120 seconds, increased by an additional second per 1% Psychic Sensitivity over 100%.</s><r>Призовите силу Рунического круга, добавив его психический заряд к психической чувствительности пешки для целей психокаста. Это заставит Рунический круг перезарядиться.
+
+Выгравирует ментальную руну Эваз в сознании всех существ в большом радиусе целевого Рунного круга. Увеличивает скорость передвижения всех пораженных на 120 секунд, увеличиваясь на дополнительную секунду за каждый 1% психической чувствительности сверх 100%.</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Invoke_Speed.jobReportString"><s>Using ability: {0}</s><r>Использование способности: {0}</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Invoke_Speed.label"><s>invoke: Ehwaz</s><r>вызвать: Эваз</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Invoke_Speed.verbProperties.label"><s>invoke: Ehwaz</s><r>вызвать: Эваз</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Invoke_Stun.description"><s>Invoke a Runecircle's power, adding its Psychic Charge to the pawn's Psychic Sensitivity for the purposes of the psycast. This will force the Runecircle to recharge.
+
+Engraves the mental rune of Hagalaz in the minds of all entities within a large radius of the targeted Runecircle. Stuns all the afflicted for 5 seconds, increased by an additional second per 50% Psychic Sensitivity over 100%.</s><r>Призовите силу Рунического круга, добавив его психический заряд к психической чувствительности пешки для целей психокаста. Это заставит Рунический круг перезарядиться.
+
+Выгравирует мысленную руну Хагалаз в сознании всех существ в большом радиусе целевого Рунного круга. Оглушает всех пораженных на 5 секунд, увеличивается на дополнительную секунду за каждые 50% психической чувствительности свыше 100%.</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Invoke_Stun.jobReportString"><s>Using ability: {0}</s><r>Использование способности: {0}</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Invoke_Stun.label"><s>invoke: Hagalaz</s><r>призывать: Хагалаз</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Invoke_Stun.verbProperties.label"><s>invoke: Hagalaz</s><r>призывать: Хагалаз</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Invoke_Summon.description"><s>Invoke a Runecircle's power, adding its Psychic Charge to the pawn's Psychic Sensitivity for the purposes of the psycast. This will force the Runecircle to recharge.
+
+Engraves the physical rune of Mannaz in the air, summoning the spirits of fallen warriors to aid you in combat for a short time. Spawns one spirit, and one extra per 100% Psychic Sensitivity over 100%. Maximum of 5 Spirits per summoning.</s><r>Призовите силу Рунического круга, добавив его психический заряд к психической чувствительности пешки для целей психокаста. Это заставит Рунический круг перезарядиться.
+
+Выгравирует физическую руну Манназ в воздухе, призывая на короткое время духи павших воинов на помощь вам в бою. Создает одного духа и еще одного за каждые 100% психической чувствительности выше 100%. Максимум 5 Духов за один призыв.</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Invoke_Summon.jobReportString"><s>Using ability: {0}</s><r>Использование способности: {0}</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Invoke_Summon.label"><s>invoke: Mannaz</s><r>призывать: Манназ</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Invoke_Summon.verbProperties.label"><s>invoke: Mannaz</s><r>призывать: Манназ</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Invoke_Turret.description"><s>Invoke a Runecircle's power, adding its Psychic Charge to the pawn's Psychic Sensitivity for the purposes of the psycast. This will force the Runecircle to recharge.
+
+Engraves the physical rune of Isa in the air, freezing its moisture and creating a defensive obelisk that blasts frost at hostiles. The obelisk will spawn on a random adjacent empty tile near the Runecircle- if there is no empty tile, this will permanently destroy the Runecircle. Grows stronger at 150%, 200%, 300%, and 400% Psychic Sensitivity.</s><r>Призовите силу Рунического круга, добавив его психический заряд к психической чувствительности пешки для целей психокаста. Это заставит Рунический круг перезарядиться.
+
+Гравирует физическую руну Исы в воздухе, замораживая ее влагу и создавая защитный обелиск, который обрушивает на врагов мороз. Обелиск появится на случайной соседней пустой плитке рядом с Руническим кругом. Если пустой плитки нет, Рунный круг будет навсегда уничтожен. Становится сильнее при 150%, 200%, 300% и 400% психической чувствительности.</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Invoke_Turret.jobReportString"><s>Using ability: {0}</s><r>Использование способности: {0}</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Invoke_Turret.label"><s>invoke: Isa</s><r>вызвать: Иса</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Invoke_Turret.verbProperties.label"><s>invoke: Isa</s><r>вызвать: Иса</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Invoke_Wrath.description"><s>Invoke a Runecircle's power, adding its Psychic Charge to the pawn's Psychic Sensitivity for the purposes of the psycast. This will force the Runecircle to recharge.
+
+Engraves the mental rune of Teiwaz in the minds of all entities within a large radius of the targeted Runecircle. Boosts the melee prowess of all the afflicted for 120 seconds, increased by an additional second per 1% Psychic Sensitivity over 100%.</s><r>Призовите силу Рунического круга, добавив его психический заряд к психической чувствительности пешки для целей психокаста. Это заставит Рунический круг перезарядиться.
+
+Гравирует мысленную руну Тейваз в сознании всех существ в большом радиусе целевого Рунного круга. Повышает мастерство ближнего боя всех пораженных на 120 секунд, увеличиваясь на дополнительную секунду за каждый 1% психической чувствительности сверх 100%.</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Invoke_Wrath.jobReportString"><s>Using ability: {0}</s><r>Использование способности: {0}</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Invoke_Wrath.label"><s>invoke: Teiwaz</s><r>вызвать: Тейваз</r></e>
+  <e k="D" t="AbilityDef" key="VPER_Invoke_Wrath.verbProperties.label"><s>invoke: Teiwaz</s><r>вызвать: Тейваз</r></e>
+  <e k="D" t="BodyDef" key="VPER_SpiritBody.corePart.parts.1.customLabel"><s>left spirit arm</s><r>левая духовная рука</r></e>
+  <e k="D" t="BodyDef" key="VPER_SpiritBody.corePart.parts.1.parts.0.customLabel"><s>left spirit hand</s><r>левая рука духа</r></e>
+  <e k="D" t="BodyDef" key="VPER_SpiritBody.corePart.parts.2.customLabel"><s>right spirit arm</s><r>правая духовная рука</r></e>
+  <e k="D" t="BodyDef" key="VPER_SpiritBody.corePart.parts.2.parts.0.customLabel"><s>right spirit hand</s><r>правая рука духа</r></e>
+  <e k="D" t="BodyDef" key="VPER_SpiritBody.label"><s>spirit</s><r>дух</r></e>
+  <e k="D" t="BodyPartDef" key="VPER_SpiritArm.label"><s>spirit arm</s><r>духовная рука</r></e>
+  <e k="D" t="BodyPartDef" key="VPER_SpiritHand.label"><s>spirit hand</s><r>рука духа</r></e>
+  <e k="D" t="BodyPartDef" key="VPER_SpiritHead.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="BodyPartDef" key="VPER_SpiritMassLower.label"><s>lower spirit mass</s><r>нижняя духовная масса</r></e>
+  <e k="D" t="BodyPartDef" key="VPER_SpiritMassUpper.label"><s>upper spirit mass</s><r>верхняя спиртовая масса</r></e>
+  <e k="D" t="BodyPartDef" key="VPER_SpiritRune.label"><s>mannaz rune</s><r>руна манназ</r></e>
+  <e k="D" t="DamageDef" key="VPER_SlowFragile_Frostbite.deathMessage"><s>{0} has succumbed to frostbite.</s><r>{0} скончался от обморожения.</r></e>
+  <e k="D" t="DamageDef" key="VPER_SlowFragile_Frostbite.label"><s>frostbite</s><r>обморожение</r></e>
+  <e k="D" t="DamageDef" key="VPER_Slow_Frostbite.deathMessage"><s>{0} has succumbed to frostbite.</s><r>{0} скончался от обморожения.</r></e>
+  <e k="D" t="DamageDef" key="VPER_Slow_Frostbite.label"><s>frostbite</s><r>обморожение</r></e>
+  <e k="D" t="HediffDef" key="VPER_Healing_Ban.description"><s>The mentally-engraved rune of Berkana was used to restore this pawn's health some time ago. However, this has left them feeling slightly drained.
+
+While this effect lingers, the pawn cannot be healed by the effects of Invoke: Berkana.</s><r>Некоторое время назад мысленно выгравированная руна Берканы была использована для восстановления здоровья этой пешки. Однако из-за этого они чувствуют себя слегка истощенными.
+
+Пока этот эффект сохраняется, пешку нельзя исцелить эффектами Призыва: Беркана.</r></e>
+  <e k="D" t="HediffDef" key="VPER_Healing_Ban.label"><s>healing exhaustion</s><r>исцеление от усталости</r></e>
+  <e k="D" t="HediffDef" key="VPER_Runecircle_Defense.description"><s>The mentally-engraved rune of Algiz is reducing the damage this pawn takes.</s><r>Мысленно выгравированная руна Альгиза уменьшает урон, получаемый этой пешкой.</r></e>
+  <e k="D" t="HediffDef" key="VPER_Runecircle_Defense.label"><s>engraved Algiz</s><r>гравировка Альгиз</r></e>
+  <e k="D" t="HediffDef" key="VPER_Runecircle_Melee.description"><s>The mentally-engraved rune of Teiwaz is boosting this pawn's melee prowess.</s><r>Мысленно выгравированная руна Тейваза повышает мастерство этой пешки в ближнем бою.</r></e>
+  <e k="D" t="HediffDef" key="VPER_Runecircle_Melee.label"><s>engraved Teiwaz</s><r>гравировка Тейваз</r></e>
+  <e k="D" t="HediffDef" key="VPER_Runecircle_Speed.description"><s>The mentally-engraved rune of Ehwaz is boosting the speed of this pawn.</s><r>Мысленно выгравированная руна Эваза увеличивает скорость этой пешки.</r></e>
+  <e k="D" t="HediffDef" key="VPER_Runecircle_Speed.label"><s>engraved Ehwaz</s><r>гравировка Эваз</r></e>
+  <e k="D" t="HediffDef" key="VPER_Slow.description"><s>Clinging frost is slowing down the movement of this pawn.</s><r>Цепкий мороз замедляет движение этой пешки.</r></e>
+  <e k="D" t="HediffDef" key="VPER_Slow.label"><s>clinging frost</s><r>цепкий мороз</r></e>
+  <e k="D" t="HediffDef" key="VPER_SlowFragile.description"><s>Clinging ice is slowing down the movement of this pawn and causing them to take increased damage.</s><r>Прилипший лед замедляет движение этой пешки и заставляет ее получать повышенный урон.</r></e>
+  <e k="D" t="HediffDef" key="VPER_SlowFragile.label"><s>clinging ice</s><r>цепляющийся лед</r></e>
+  <e k="D" t="PawnKindDef" key="VPER_WarriorSpirit.label"><s>warrior spirit</s><r>дух воина</r></e>
+  <e k="D" t="PsycasterPathDef" key="VPER_Runesmith.description"><s>Runesmiths create Runecircles, which they Invoke from a distance to perform powerful effects that buff allies or destroy enemies.</s><r>Кузнецы рун создают рунные круги, которые они призывают на расстоянии, чтобы оказывать мощные эффекты, усиливающие союзников или уничтожающие врагов.</r></e>
+  <e k="D" t="PsycasterPathDef" key="VPER_Runesmith.label"><s>runesmith</s><r>рунный кузнец</r></e>
+  <e k="D" t="PsycasterPathDef" key="VPER_Runesmith.tooltip"><s>Runesmiths make use of ancient nordic runecircles, carving them into the ground and imbuing them with psychic power. They may then call upon the powers imbued within the runes, calling upon one of eight physical or mental runes to shape the forces of nature, or engrave ancient power into their companions.</s><r>Кузнецы рун используют древние нордические рунические круги, вырезая их в земле и наполняя психической силой. Затем они могут призвать силы, заложенные в рунах, призвав одну из восьми физических или ментальных рун, чтобы сформировать силы природы или запечатлеть древнюю силу в своих спутниках.</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_VPER_Runecircle_Constructible.label"><s>crude runecircle (проект)</s><r>грубый рунный круг (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_VPER_Runecircle_Greater.label"><s>greater runecircle (проект)</s><r>большой рунный круг (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_VPER_Runecircle_Standard.label"><s>standard runecircle (проект)</s><r>стандартный рунный круг (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_VPER_Turret_Monolith_1Tier.label"><s>isa obelisk, tier 1 (проект)</s><r>isa obelisk, tier 1 (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_VPER_Turret_Monolith_2Tier.label"><s>isa obelisk, tier 2 (проект)</s><r>isa obelisk, tier 2 (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_VPER_Turret_Monolith_3Tier.label"><s>isa obelisk, tier 3 (проект)</s><r>isa obelisk, tier 3 (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_VPER_Turret_Monolith_4Tier.label"><s>isa obelisk, tier 4 (проект)</s><r>isa obelisk, tier 4 (проект)</r></e>
+  <e k="D" t="ThingDef" key="Blueprint_Install_VPER_Turret_Monolith_5Tier.label"><s>isa obelisk, tier 5 (проект)</s><r>isa obelisk, tier 5 (проект)</r></e>
+  <e k="D" t="ThingDef" key="VPER_Bullet_Obelisk.label"><s>obelisk iceblast</s><r>обелиск ледяной взрыв</r></e>
+  <e k="D" t="ThingDef" key="VPER_Bullet_Obelisk_Slow.label"><s>obelisk iceblast</s><r>обелиск ледяной взрыв</r></e>
+  <e k="D" t="ThingDef" key="VPER_Bullet_Obelisk_SlowFragile.label"><s>obelisk iceblast</s><r>обелиск ледяной взрыв</r></e>
+  <e k="D" t="ThingDef" key="VPER_Filth_Ectoplasm.label"><s>ectoplasm</s><r>эктоплазма</r></e>
+  <e k="D" t="ThingDef" key="VPER_Gun_Monolith_1Tier.description"><s>A weak rune that fires icy blasts.</s><r>Слабая руна, стреляющая ледяными зарядами.</r></e>
+  <e k="D" t="ThingDef" key="VPER_Gun_Monolith_1Tier.label"><s>isa rune</s><r>руны Иса</r></e>
+  <e k="D" t="ThingDef" key="VPER_Gun_Monolith_1Tier.verbs.0.label"><s>isa rune</s><r>руны Иса</r></e>
+  <e k="D" t="ThingDef" key="VPER_Gun_Monolith_2Tier.description"><s>A rune that fires icy blasts.</s><r>Руна, стреляющая ледяными зарядами.</r></e>
+  <e k="D" t="ThingDef" key="VPER_Gun_Monolith_2Tier.label"><s>isa rune</s><r>руны Иса</r></e>
+  <e k="D" t="ThingDef" key="VPER_Gun_Monolith_2Tier.verbs.0.label"><s>isa rune</s><r>руны Иса</r></e>
+  <e k="D" t="ThingDef" key="VPER_Gun_Monolith_3Tier.description"><s>A powerful rune that fires icy blasts.</s><r>Мощная руна, стреляющая ледяными зарядами.</r></e>
+  <e k="D" t="ThingDef" key="VPER_Gun_Monolith_3Tier.label"><s>isa rune</s><r>руны Иса</r></e>
+  <e k="D" t="ThingDef" key="VPER_Gun_Monolith_3Tier.verbs.0.label"><s>isa rune</s><r>руны Иса</r></e>
+  <e k="D" t="ThingDef" key="VPER_Gun_Monolith_4Tier.description"><s>A very powerful rune that fires icy blasts.</s><r>Очень мощная руна, стреляющая ледяными зарядами.</r></e>
+  <e k="D" t="ThingDef" key="VPER_Gun_Monolith_4Tier.label"><s>isa rune</s><r>руны Иса</r></e>
+  <e k="D" t="ThingDef" key="VPER_Gun_Monolith_4Tier.verbs.0.label"><s>isa rune</s><r>руны Иса</r></e>
+  <e k="D" t="ThingDef" key="VPER_Gun_Monolith_5Tier.description"><s>An excessively powerful rune that fires icy blasts.</s><r>Чрезвычайно мощная руна, стреляющая ледяными зарядами.</r></e>
+  <e k="D" t="ThingDef" key="VPER_Gun_Monolith_5Tier.label"><s>isa rune</s><r>руны Иса</r></e>
+  <e k="D" t="ThingDef" key="VPER_Gun_Monolith_5Tier.verbs.0.label"><s>isa rune</s><r>руны Иса</r></e>
+  <e k="D" t="ThingDef" key="VPER_MeleeWeapon_RunesmithBattleaxe.description"><s>A hefty battleaxe commonly used by Runesmiths. While still quite effective at cleaving limbs and splitting skulls, the runes engraved into the axe provide a sizeable boost to psychic sensitivity, almost comparable to that of an eltex staff. However, this comes at the cost of the axe not helping with the dispersion of neural heat, unlike other eltex-threaded equipment.</s><r>Здоровенный боевой топор, обычно используемый кузнецами рун. Хотя руны, выгравированные на топоре, по-прежнему весьма эффективны при рассечении конечностей и раскалывании черепов, они значительно повышают психическую чувствительность, почти сравнимую с таковой у эльтексного посоха. Однако за это приходится платить тем, что топор не помогает рассеивать нервное тепло, в отличие от другого оборудования с элтексной резьбой.</r></e>
+  <e k="D" t="ThingDef" key="VPER_MeleeWeapon_RunesmithBattleaxe.label"><s>runesmith battleaxe</s><r>боевой топор кузнеца рун</r></e>
+  <e k="D" t="ThingDef" key="VPER_RuneAlgiz_Particle.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="VPER_RuneEhwaz_Particle.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="VPER_RuneTeiwaz_Particle.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="VPER_Runecircle_Constructible.description"><s>An ancient runecircle used by Psycasters known as &quot;Runesmiths&quot;. These Runecircles are the basis of the Runesmithing art, acting as a foci for nearly all of their psycasting abilities.
+
+This particular runecircle was etched by hand, without psychic assistance. As a result, it doesn't boost the effectiveness of whatever psycast makes use of it. Still, it can be useful as a temporary solution for an overworked Runesmith.
+
+After being used to Invoke a rune, the Runecircle will fall apart, making it single use.</s><r>Древний рунический круг, используемый психопатами, известными как «Кузнецы рун». Эти рунные круги являются основой искусства кузнечного дела, выступая в качестве фокуса почти всех их психических способностей.
+
+Этот конкретный рунный круг был выгравирован вручную, без экстрасенсорной помощи. В результате это не повышает эффективность любого психокаста, который его использует. Тем не менее, он может быть полезен в качестве временного решения для переутомленного рунного кузнеца.
+
+После использования для призыва руны Рунный круг развалится, и его можно будет использовать только один раз.</r></e>
+  <e k="D" t="ThingDef" key="VPER_Runecircle_Constructible.label"><s>crude runecircle</s><r>грубый рунический круг</r></e>
+  <e k="D" t="ThingDef" key="VPER_Runecircle_Greater.description"><s>An ancient runecircle used by Psycasters known as &quot;Runesmiths&quot;. These Runecircles are the basis of the Runesmithing art, acting as a foci for nearly all of their psycasting abilities.
+
+This particular runecircle is of immaculate make, the culmination of the Runesmithing art. Though it takes a long time to enscribe, it's imbued with a whopping 150% of the Runesmith's Psychic Sensitivity as Psychic Charge.
+
+After being used to Invoke a rune, the Runecircle will need to recharge for 15 days.</s><r>Древний рунический круг, используемый психопатами, известными как «Кузнецы рун». Эти рунические круги являются основой искусства изготовления рун, выступая в качестве фокуса почти всех их психозаклинательных способностей.
+
+Этот конкретный рунный круг имеет безупречную конструкцию и является кульминацией искусства изготовления рун. Хотя написание занимает много времени, он наделен колоссальными 150% психической чувствительности кузнеца рун в виде психического заряда.
+
+После использования для призыва руны Рунический круг необходимо будет перезаряжать в течение 15 дней.</r></e>
+  <e k="D" t="ThingDef" key="VPER_Runecircle_Greater.label"><s>greater runecircle</s><r>большой рунный круг</r></e>
+  <e k="D" t="ThingDef" key="VPER_Runecircle_Standard.description"><s>An ancient runecircle used by Psycasters known as &quot;Runesmiths&quot;. These Runecircles are the basis of the Runesmithing art, acting as a foci for nearly all of their psycasting abilities.
+
+This particular runecircle is of a standard make, and used by Runesmiths all over the Rim. It takes a few hours for a Runesmith to enscribe this type of circle, but it holds 50% of their Psychic Sensitivity as Psychic Charge.
+
+After being used to Invoke a rune, the Runecircle will need to recharge for 10 days.</s><r>Древний рунический круг, используемый психопатами, известными как «Кузнецы рун». Эти рунные круги являются основой искусства изготовления рун, выступая в качестве фокуса почти для всех их психозаклинательных способностей.
+
+Этот конкретный рунный круг имеет стандартную конструкцию и используется кузнецами рун по всему Кольцу. Руническому кузнецу требуется несколько часов, чтобы начертать этот тип круга, но он сохраняет 50% его психической чувствительности в виде психического заряда.
+
+После использования для призыва руны Рунический круг необходимо будет перезаряжать в течение 10 дней.</r></e>
+  <e k="D" t="ThingDef" key="VPER_Runecircle_Standard.label"><s>standard runecircle</s><r>стандартный рунный круг</r></e>
+  <e k="D" t="ThingDef" key="VPER_Turret_Monolith_1Tier.comps.1.countdownLabel"><s>Melts in</s><r>Тает в</r></e>
+  <e k="D" t="ThingDef" key="VPER_Turret_Monolith_1Tier.description"><s>A summoned ice monolith, manifested through the physical rune of Isa. Fires at nearby foes until it the rune destabilizes, causing the construct to melt.
+
+Created with less than 150% Psychic Sensitivity, this monolith was almost certainly created with a basic, uncharged Runecircle. Still, it should be enough to fend off at least a few foes.</s><r>Призванный ледяной монолит, проявленный через физическую руну Исы. Стреляет по ближайшим противникам до тех пор, пока руна не дестабилизируется, вызывая плавление конструкции.
+
+Созданный с психической чувствительностью менее 150%, этот монолит почти наверняка был создан из базового незаряженного рунного круга. Тем не менее, этого должно быть достаточно, чтобы отбиться хотя бы от нескольких противников.</r></e>
+  <e k="D" t="ThingDef" key="VPER_Turret_Monolith_1Tier.label"><s>isa obelisk, tier 1</s><r>обелиск Иса, ярус 1</r></e>
+  <e k="D" t="ThingDef" key="VPER_Turret_Monolith_2Tier.comps.1.countdownLabel"><s>Melts in</s><r>Тает в</r></e>
+  <e k="D" t="ThingDef" key="VPER_Turret_Monolith_2Tier.description"><s>A summoned ice monolith, manifested through the physical rune of Isa. Fires at nearby foes until it the rune destabilizes, causing the construct to melt.
+
+Created with Psychic Sensitivity between 150% and 199%, this monolith still leaves something to be desired. Boasts improved durability, range, burst shots, and accuracy when compared to the first tier.</s><r>Призванный ледяной монолит, проявленный через физическую руну Исы. Стреляет по противникам поблизости, пока руна не дестабилизируется, вызывая плавление конструкции.
+
+Созданный с психической чувствительностью от 150% до 199%, этот монолит по-прежнему оставляет желать лучшего. Обладает улучшенной прочностью, дальностью стрельбы, серийной стрельбой и точностью по сравнению с первым уровнем.</r></e>
+  <e k="D" t="ThingDef" key="VPER_Turret_Monolith_2Tier.label"><s>isa obelisk, tier 2</s><r>обелиск Иса, ярус 2</r></e>
+  <e k="D" t="ThingDef" key="VPER_Turret_Monolith_3Tier.comps.1.countdownLabel"><s>Melts in</s><r>Тает в</r></e>
+  <e k="D" t="ThingDef" key="VPER_Turret_Monolith_3Tier.description"><s>A summoned ice monolith, manifested through the physical rune of Isa. Fires at nearby foes until it the rune destabilizes, causing the construct to melt.
+
+Created with Psychic Sensitivity between 200% and 299%, this monolith is fairly powerful and will handle most scenarios. Has even higher stats than the previous tier, and the icy blasts now cling to targets on hit, slowing them down.</s><r>Призванный ледяной монолит, проявленный через физическую руну Исы. Стреляет по ближайшим противникам до тех пор, пока руна не дестабилизируется, вызывая плавление конструкции.
+
+Созданный с психической чувствительностью от 200% до 299%, этот монолит довольно мощный и справится с большинством сценариев. Имеет еще более высокие характеристики, чем предыдущий уровень, а ледяные взрывы теперь цепляются за цели при попадании, замедляя их.</r></e>
+  <e k="D" t="ThingDef" key="VPER_Turret_Monolith_3Tier.label"><s>isa obelisk, tier 3</s><r>обелиск Иса, уровень 3</r></e>
+  <e k="D" t="ThingDef" key="VPER_Turret_Monolith_4Tier.comps.1.countdownLabel"><s>Melts in</s><r>Тает в</r></e>
+  <e k="D" t="ThingDef" key="VPER_Turret_Monolith_4Tier.description"><s>A summoned ice monolith, manifested through the physical rune of Isa. Fires at nearby foes until it the rune destabilizes, causing the construct to melt.
+
+Created with Psychic Sensitivity between 300% and 399%, this monolith is almost perfect. Even now, the stats are improved when compared to the previous iteration of obelisk.</s><r>Призванный ледяной монолит, проявленный через физическую руну Исы. Стреляет по ближайшим противникам до тех пор, пока руна не дестабилизируется, вызывая плавление конструкции.
+
+Созданный с психической чувствительностью от 300% до 399%, этот монолит почти идеален. Даже сейчас статистика улучшена по сравнению с предыдущей версией обелиска.</r></e>
+  <e k="D" t="ThingDef" key="VPER_Turret_Monolith_4Tier.label"><s>isa obelisk, tier 4</s><r>обелиск Иса, уровень 4</r></e>
+  <e k="D" t="ThingDef" key="VPER_Turret_Monolith_5Tier.comps.1.countdownLabel"><s>Melts in</s><r>Тает в</r></e>
+  <e k="D" t="ThingDef" key="VPER_Turret_Monolith_5Tier.description"><s>A summoned ice monolith, manifested through the physical rune of Isa. Fires at nearby foes until it the rune destabilizes, causing the construct to melt.
+
+Created with Psychic Sensitivity at or over 400%, this monolith embodies the oncoming blizzard. Has the highest stats of any monolith, firing bursts of five icicles that both slow foes and make them vulnerable to further damage.</s><r>Призванный ледяной монолит, проявленный через физическую руну Исы. Стреляет по ближайшим противникам до тех пор, пока руна не дестабилизируется, заставляя конструкцию расплавиться.
+
+Созданный с психической чувствительностью 400% или выше, этот монолит олицетворяет надвигающуюся метель. Имеет самые высокие характеристики среди всех монолитов: стреляет очередями из пяти сосулек, которые одновременно замедляют противников и делают их уязвимыми для дальнейшего урона.</r></e>
+  <e k="D" t="ThingDef" key="VPER_Turret_Monolith_5Tier.label"><s>isa obelisk, tier 5</s><r>обелиск Иса, 5 уровень</r></e>
+  <e k="D" t="ThingDef" key="VPER_WarriorSpirit.description"><s>A spirit summoned from beyond this realm, presumably of a Runesmith who had previously fallen in glorious combat. A fairly durable melee combatant that severs limbs with their trusty battleaxe that's followed them from one life to the afterlife. Their physical rune of Mannaz defines their existence, so a single blow to their rune can banish them from this realm.</s><r>Дух, вызванный из-за пределов этого мира, предположительно кузнеца рун, ранее павшего в славном бою. Довольно стойкий боец ​​ближнего боя, который отрубает конечности своим верным боевым топором, который сопровождал его из одной жизни в загробную. Их физическая руна Манназ определяет их существование, поэтому единственный удар по руне может изгнать их из этого мира.</r></e>
+  <e k="D" t="ThingDef" key="VPER_WarriorSpirit.label"><s>warrior spirit</s><r>дух воина</r></e>
+  <e k="K" key="VPER_Days"><s> days</s><r> дни</r></e>
+  <e k="K" key="VPER_MustTargetRuneCircle"><s>Must target a Runecircle.</s><r>Должен быть нацелен на Рунический круг.</r></e>
+  <e k="K" key="VPER_PsychicChargeIndicator"><s>Psychic Charge: </s><r>Психический заряд: </r></e>
+  <e k="K" key="VPER_RechargeIndicatorCharging"><s>Circle recharges in: </s><r>Круг пополняется за: </r></e>
+  <e k="K" key="VPER_RechargeIndicatorReady"><s>Circle ready</s><r>Круг готов</r></e>
+  <e k="K" key="VPER_RuneCircleNotCharged"><s>This Runecircle is not charged.</s><r>Этот рунный круг не заряжается.</r></e>
+</AutoTranslateCache>
