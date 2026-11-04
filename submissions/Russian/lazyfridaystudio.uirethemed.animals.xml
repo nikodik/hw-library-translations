@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="lazyfridaystudio.uirethemed.animals" name="[LFS] UI Rethemed - Animals" language="Russian" version="1">
+  <e k="K" key="UIRethemedAnimals_ActOnAll"><s>Change all {0} animals</s><r>Изменить всех {0} животных</r></e>
+  <e k="K" key="UIRethemedAnimals_ActOnOne"><s>Change {0}</s><r>Изменить {0}</r></e>
+  <e k="K" key="UIRethemedAnimals_ActOnPicked"><s>Change {0} picked</s><r>Изменение {0} выбрано</r></e>
+  <e k="K" key="UIRethemedAnimals_ActOnShown"><s>Change all {0} shown</s><r>Изменить все показанные {0}</r></e>
+  <e k="K" key="UIRethemedAnimals_AnimalCount"><s>{0} animals</s><r>{0} животные</r></e>
+  <e k="K" key="UIRethemedAnimals_Animals"><s>Animals</s><r>Животные</r></e>
+  <e k="K" key="UIRethemedAnimals_AreaColour"><s>Change colour</s><r>Изменить цвет</r></e>
+  <e k="K" key="UIRethemedAnimals_AreaColourTip"><s>Pick the colour this area shows in.</s><r>Выберите цвет, которым будет отображаться эта область.</r></e>
+  <e k="K" key="UIRethemedAnimals_AreaCopyTip"><s>Make a new area covering the same cells.</s><r>Создайте новую область, охватывающую те же ячейки.</r></e>
+  <e k="K" key="UIRethemedAnimals_AreaDeleteTip"><s>Remove this area. Colonists and animals restricted to it become unrestricted.</s><r>Удалите эту область. Колонисты и животные, ограниченные в нем, становятся неограниченными.</r></e>
+  <e k="K" key="UIRethemedAnimals_AreaExpandTip"><s>Paint more of this area on the map.</s><r>Нарисуйте больше этой области на карте.</r></e>
+  <e k="K" key="UIRethemedAnimals_AreaInvertTip"><s>Swap what's in this area with what's out of it, across the whole map.</s><r>Поменяйте местами то, что находится в этой области, на то, что за ее пределами, по всей карте.</r></e>
+  <e k="K" key="UIRethemedAnimals_AreaRenameTip"><s>Give this area a new name.</s><r>Дайте этой области новое имя.</r></e>
+  <e k="K" key="UIRethemedAnimals_AreaShrinkTip"><s>Erase parts of this area on the map.</s><r>Сотрите части этой области на карте.</r></e>
+  <e k="K" key="UIRethemedAnimals_AreaTip"><s>Click to choose where this animal is kept.</s><r>Нажмите, чтобы выбрать, где содержится это животное.</r></e>
+  <e k="K" key="UIRethemedAnimals_Ascending"><s>Ascending</s><r>Восходящий</r></e>
+  <e k="K" key="UIRethemedAnimals_AscendingTip"><s>Lowest first.</s><r>Сначала самый низкий.</r></e>
+  <e k="K" key="UIRethemedAnimals_AutoSlaughterTip"><s>Set how many of each animal to keep. Any over the limit are slaughtered.</s><r>Установите, сколько каждого животного нужно оставить. Всех, кто превышает лимит, забивают.</r></e>
+  <e k="K" key="UIRethemedAnimals_BulkNoneTip"><s>No animals are shown, so there's nothing to change.</s><r>Животные не показаны, поэтому менять нечего.</r></e>
+  <e k="K" key="UIRethemedAnimals_BulkTip"><s>The buttons here change every one of these animals at once. Pick animals in the list, or filter it, to choose which.</s><r>Кнопки здесь меняют каждого из этих животных одновременно. Выберите животных в списке или отфильтруйте его, чтобы выбрать какое.</r></e>
+  <e k="K" key="UIRethemedAnimals_Bulk_Area"><s>Area</s><r>Область</r></e>
+  <e k="K" key="UIRethemedAnimals_Bulk_AreaTip"><s>Keep these animals to one area. Penned animals aren't changed.</s><r>Держите этих животных в одном месте. Животные в загоне не меняются.</r></e>
+  <e k="K" key="UIRethemedAnimals_Bulk_Master"><s>Master</s><r>Владелец</r></e>
+  <e k="K" key="UIRethemedAnimals_Bulk_MasterTip"><s>Give these animals a master. Only those who've learned obedience are changed, and only with a colonist who can handle them.</s><r>Отдайте этим животным хозяина. Меняют только тех, кто научился послушанию, и только с колонистом, который с ними справится.</r></e>
+  <e k="K" key="UIRethemedAnimals_Bulk_Medical"><s>Medical care</s><r>Медицинская помощь</r></e>
+  <e k="K" key="UIRethemedAnimals_Bulk_MedicalTip"><s>Set the medical care these animals get.</s><r>Установите медицинскую помощь, которую получают эти животные.</r></e>
+  <e k="K" key="UIRethemedAnimals_Bulk_Orders"><s>Training and orders</s><r>Обучение и заказы</r></e>
+  <e k="K" key="UIRethemedAnimals_Bulk_OrdersTip"><s>Turn a tick on or off for all of these animals, from training to slaughter.</s><r>Включите или выключите галочку для всех этих животных, от дрессировки до убоя.</r></e>
+  <e k="K" key="UIRethemedAnimals_CantBeMaster"><s>This colonist can't handle any of these animals.</s><r>Этот колонист не может справиться ни с одним из этих животных.</r></e>
+  <e k="K" key="UIRethemedAnimals_Card_Bonds"><s>Bonds</s><r>Облигации</r></e>
+  <e k="K" key="UIRethemedAnimals_Card_Condition"><s>Condition</s><r>Состояние</r></e>
+  <e k="K" key="UIRethemedAnimals_Card_Orders"><s>Care and orders</s><r>Уход и порядки</r></e>
+  <e k="K" key="UIRethemedAnimals_Card_Production"><s>Production</s><r>Производство</r></e>
+  <e k="K" key="UIRethemedAnimals_Card_Training"><s>Training</s><r>Обучение</r></e>
+  <e k="K" key="UIRethemedAnimals_Card_Worth"><s>Upkeep and worth</s><r>Содержание и ценность</r></e>
+  <e k="K" key="UIRethemedAnimals_ChoiceSearchHint"><s>Search...</s><r>Поиск...</r></e>
+  <e k="K" key="UIRethemedAnimals_ClearLimit"><s>Remove this limit</s><r>Удалить это ограничение</r></e>
+  <e k="K" key="UIRethemedAnimals_ClearLimits"><s>Clear limits</s><r>Четкие ограничения</r></e>
+  <e k="K" key="UIRethemedAnimals_ClearLimitsConfirm"><s>Remove every auto-slaughter limit on this map?</s><r>Убрать все ограничения на автоматическое убийство на этой карте?</r></e>
+  <e k="K" key="UIRethemedAnimals_ClearLimitsTip"><s>Remove every limit on this map.</s><r>Уберите все ограничения на этой карте.</r></e>
+  <e k="K" key="UIRethemedAnimals_ClearPicked"><s>Clear picked</s><r>Очистить выбранный</r></e>
+  <e k="K" key="UIRethemedAnimals_ClearPickedTip"><s>Go back to acting on every animal shown.</s><r>Вернитесь к действию над каждым показанным животным.</r></e>
+  <e k="K" key="UIRethemedAnimals_Col_Food"><s>Food</s><r>Еда</r></e>
+  <e k="K" key="UIRethemedAnimals_Col_FoodTip"><s>How full each animal is.</s><r>Насколько сыто каждое животное.</r></e>
+  <e k="K" key="UIRethemedAnimals_Col_Health"><s>Health</s><r>Здоровье</r></e>
+  <e k="K" key="UIRethemedAnimals_Col_HealthTip"><s>How close each animal is to full health.</s><r>Насколько близко каждое животное к полному здоровью.</r></e>
+  <e k="K" key="UIRethemedAnimals_Col_Orders"><s>Orders</s><r>Заказы</r></e>
+  <e k="K" key="UIRethemedAnimals_Col_OrdersTip"><s>What each animal is set to do, such as following its master or being slaughtered. Set it in the details.</s><r>Что каждое животное собирается делать, например, следовать за своим хозяином или быть зарезанным. Укажите это в деталях.</r></e>
+  <e k="K" key="UIRethemedAnimals_Col_Product"><s>Production</s><r>Производство</r></e>
+  <e k="K" key="UIRethemedAnimals_Col_ProductTip"><s>How close wool or milk is to ready, or the next egg.</s><r>Насколько близка к готовности шерсть или молоко или следующее яйцо.</r></e>
+  <e k="K" key="UIRethemedAnimals_Col_Training"><s>Training</s><r>Обучение</r></e>
+  <e k="K" key="UIRethemedAnimals_Col_TrainingTip"><s>What each animal has learned, bright, and is still learning, dim. Set it in the details.</s><r>То, чему каждое животное научилось, яркое, и все еще учится, смутное. Укажите это в деталях.</r></e>
+  <e k="K" key="UIRethemedAnimals_Columns"><s>Columns</s><r>Столбцы</r></e>
+  <e k="K" key="UIRethemedAnimals_ColumnsHint"><s>Every column of the table, in order, with the ones mods add. Drag them into order or hide the ones you don't use. Production leaves itself out while no animal here makes anything.</s><r>Каждый столбец таблицы по порядку, с добавлением модов. Перетащите их по порядку или скройте те, которые вы не используете. Производство не учитывает себя, а ни одно животное здесь ничего не производит.</r></e>
+  <e k="K" key="UIRethemedAnimals_ConfirmOrder"><s>{0}: {1} animals. Are you sure?</s><r>{0}: {1} животные. Вы уверены?</r></e>
+  <e k="K" key="UIRethemedAnimals_Descending"><s>Descending</s><r>По убыванию</r></e>
+  <e k="K" key="UIRethemedAnimals_DescendingTip"><s>Highest first.</s><r>Самый высокий в первую очередь.</r></e>
+  <e k="K" key="UIRethemedAnimals_Details"><s>Details</s><r>Подробности</r></e>
+  <e k="K" key="UIRethemedAnimals_Drag"><s>Drag to move</s><r>Перетащите, чтобы переместить</r></e>
+  <e k="K" key="UIRethemedAnimals_DragTip"><s>Hold and drag this row up or down the list. Let go off the list to leave it where it was.</s><r>Удерживайте и перетащите эту строку вверх или вниз по списку. Отпустите список, чтобы оставить его там, где он был.</r></e>
+  <e k="K" key="UIRethemedAnimals_Filters"><s>Filters</s><r>Фильтры</r></e>
+  <e k="K" key="UIRethemedAnimals_FollowDrafted"><s>Follow when drafted</s><r>Подписаться, когда будет составлен</r></e>
+  <e k="K" key="UIRethemedAnimals_FollowFieldwork"><s>Follow on field work</s><r>Следите за полевой работой</r></e>
+  <e k="K" key="UIRethemedAnimals_Going"><s>Going</s><r>Идущий</r></e>
+  <e k="K" key="UIRethemedAnimals_GoingList"><s>Next to go: {0}</s><r>Дальше: {0}</r></e>
+  <e k="K" key="UIRethemedAnimals_GoingTip"><s>How many are over a limit, so will be slaughtered when a handler is free.</s><r>Сколько из них превысило лимит, столько и будет забито, когда проводник освободится.</r></e>
+  <e k="K" key="UIRethemedAnimals_GroupAverageTip"><s>The average of the {0} animals in this group.</s><r>Среднее значение {0} животных в этой группе.</r></e>
+  <e k="K" key="UIRethemedAnimals_GroupBy"><s>Group by</s><r>Группировать по</r></e>
+  <e k="K" key="UIRethemedAnimals_GroupByTip"><s>Choose what the list's groups are.</s><r>Выберите группы списка.</r></e>
+  <e k="K" key="UIRethemedAnimals_GroupBy_Area"><s>Area</s><r>Область</r></e>
+  <e k="K" key="UIRethemedAnimals_GroupBy_Master"><s>Master</s><r>Владелец</r></e>
+  <e k="K" key="UIRethemedAnimals_GroupBy_None"><s>No headings</s><r>Нет заголовков</r></e>
+  <e k="K" key="UIRethemedAnimals_GroupBy_Species"><s>Species</s><r>Разновидность</r></e>
+  <e k="K" key="UIRethemedAnimals_GroupBy_Stage"><s>Life stage</s><r>Жизненный этап</r></e>
+  <e k="K" key="UIRethemedAnimals_GroupRowTip"><s>Click to fold or open this group.</s><r>Нажмите, чтобы свернуть или открыть эту группу.</r></e>
+  <e k="K" key="UIRethemedAnimals_Group_Age"><s>Age</s><r>Возраст</r></e>
+  <e k="K" key="UIRethemedAnimals_Group_Areas"><s>Kept in</s><r>Хранится в</r></e>
+  <e k="K" key="UIRethemedAnimals_Group_Kinds"><s>Animals</s><r>Животные</r></e>
+  <e k="K" key="UIRethemedAnimals_Group_Orders"><s>Orders</s><r>Заказы</r></e>
+  <e k="K" key="UIRethemedAnimals_Group_Sex"><s>Sex</s><r>Секс</r></e>
+  <e k="K" key="UIRethemedAnimals_Group_Traits"><s>Traits</s><r>Функции</r></e>
+  <e k="K" key="UIRethemedAnimals_HealthTip"><s>How close this animal is to full health.</s><r>Насколько близко это животное к полному здоровью.</r></e>
+  <e k="K" key="UIRethemedAnimals_Hide"><s>Hide</s><r>Скрывать</r></e>
+  <e k="K" key="UIRethemedAnimals_HideTip"><s>Leave this column out of the table.</s><r>Оставьте этот столбец вне таблицы.</r></e>
+  <e k="K" key="UIRethemedAnimals_InfoCard"><s>Info card</s><r>Информационная карта</r></e>
+  <e k="K" key="UIRethemedAnimals_InfoCardTip"><s>Open the game's info card for this animal.</s><r>Откройте информационную карточку игры для этого животного.</r></e>
+  <e k="K" key="UIRethemedAnimals_KindTip"><s>Show only {0}, so the buttons under the list act on all of them.</s><r>Показывать только {0}, чтобы кнопки под списком действовали на все из них.</r></e>
+  <e k="K" key="UIRethemedAnimals_Learned"><s>Learned: {0}</s><r>Выучено: {0}</r></e>
+  <e k="K" key="UIRethemedAnimals_Learning"><s>Learning: {0}</s><r>Обучение: {0}</r></e>
+  <e k="K" key="UIRethemedAnimals_Locate"><s>Go to on the map</s><r>Перейти на карту</r></e>
+  <e k="K" key="UIRethemedAnimals_LocateTip"><s>Close this tab and go to this animal on the map.</s><r>Закройте эту вкладку и перейдите к этому животному на карте.</r></e>
+  <e k="K" key="UIRethemedAnimals_ManageAreasTip"><s>Make, rename, recolour and remove the areas you can keep animals to.</s><r>Создавайте, переименовывайте, перекрашивайте и удаляйте места, где вы можете держать животных.</r></e>
+  <e k="K" key="UIRethemedAnimals_Mark_Culled"><s>Next to go</s><r>Дальше идти</r></e>
+  <e k="K" key="UIRethemedAnimals_Mark_CulledTip"><s>Over an auto-slaughter limit: a handler will slaughter this animal when free.</s><r>Превышение лимита автоматического убоя: проводник зарежет это животное, когда оно будет освобождено.</r></e>
+  <e k="K" key="UIRethemedAnimals_Mark_Release"><s>Release</s><r>Выпускать</r></e>
+  <e k="K" key="UIRethemedAnimals_Mark_ReleaseTip"><s>Marked to be released to the wild.</s><r>Отмечен для выпуска в дикую природу.</r></e>
+  <e k="K" key="UIRethemedAnimals_Mark_Slaughter"><s>Slaughter</s><r>Убой</r></e>
+  <e k="K" key="UIRethemedAnimals_Mark_SlaughterTip"><s>Marked for slaughter.</s><r>Отмечено для убоя.</r></e>
+  <e k="K" key="UIRethemedAnimals_Mark_Unmarked"><s>No orders</s><r>Нет заказов</r></e>
+  <e k="K" key="UIRethemedAnimals_Mark_UnmarkedTip"><s>Not marked for anything, and under every auto-slaughter limit.</s><r>Ничем не отмечены и под каждым лимитом автоубоя.</r></e>
+  <e k="K" key="UIRethemedAnimals_MasterNoneNote"><s>Follows no one</s><r>Никого не следует</r></e>
+  <e k="K" key="UIRethemedAnimals_MasterNote"><s>{0} {1} · master of {2}</s><r>{0} {1} · мастер {2}</r></e>
+  <e k="K" key="UIRethemedAnimals_MasterSome"><s>Can handle {0} of these {1} animals. The others stay as they are.</s><r>Может справиться с {0} из этих {1} животных. Остальные остаются такими, как есть.</r></e>
+  <e k="K" key="UIRethemedAnimals_MasterTip"><s>Click to choose who this animal follows.</s><r>Нажмите, чтобы выбрать, за кем следует это животное.</r></e>
+  <e k="K" key="UIRethemedAnimals_MenuAnimals"><s>{0} animals</s><r>{0} животные</r></e>
+  <e k="K" key="UIRethemedAnimals_MenuFor"><s>{0} for {1}</s><r>{0} для {1}</r></e>
+  <e k="K" key="UIRethemedAnimals_Menu_CareLevel"><s>Care level</s><r>Уровень ухода</r></e>
+  <e k="K" key="UIRethemedAnimals_Menu_Colonists"><s>Colonists</s><r>Колонисты</r></e>
+  <e k="K" key="UIRethemedAnimals_Menu_Mixed"><s>Mixed</s><r>Смешанный</r></e>
+  <e k="K" key="UIRethemedAnimals_Menu_Obedient"><s>{0} of {1} obedient</s><r>{0} из {1} послушный</r></e>
+  <e k="K" key="UIRethemedAnimals_Menu_Orders"><s>Orders</s><r>Заказы</r></e>
+  <e k="K" key="UIRethemedAnimals_Menu_Training"><s>Training</s><r>Обучение</r></e>
+  <e k="K" key="UIRethemedAnimals_ModName"><s>UI Rethemed - Animals</s><r>Обновленный интерфейс — Животные</r></e>
+  <e k="K" key="UIRethemedAnimals_MoveDown"><s>Move down</s><r>Двигаться вниз</r></e>
+  <e k="K" key="UIRethemedAnimals_MoveDownTip"><s>Ctrl-click to send it to the bottom of the list.</s><r>Щелкните, удерживая клавишу Ctrl, чтобы отправить его в конец списка.</r></e>
+  <e k="K" key="UIRethemedAnimals_MoveUp"><s>Move up</s><r>Вверх</r></e>
+  <e k="K" key="UIRethemedAnimals_MoveUpTip"><s>Ctrl-click to send it to the top of the list.</s><r>Щелкните, удерживая клавишу Ctrl, чтобы отправить его в начало списка.</r></e>
+  <e k="K" key="UIRethemedAnimals_Name"><s>Name</s><r>Имя</r></e>
+  <e k="K" key="UIRethemedAnimals_NewAreaTip"><s>Add an empty area, ready to paint on the map.</s><r>Добавьте на карту пустую область, готовую к рисованию.</r></e>
+  <e k="K" key="UIRethemedAnimals_NextToGo"><s>Next to go</s><r>Дальше идти</r></e>
+  <e k="K" key="UIRethemedAnimals_NoAnimals"><s>The colony has no animals here yet.</s><r>В колонии пока нет животных.</r></e>
+  <e k="K" key="UIRethemedAnimals_NoAreaAnimals"><s>None of these animals can be kept to an area.</s><r>Ни одно из этих животных нельзя держать на территории.</r></e>
+  <e k="K" key="UIRethemedAnimals_NoAreas"><s>No areas yet. Make one with New area.</s><r>Районов пока нет. Сделайте один с Новой областью.</r></e>
+  <e k="K" key="UIRethemedAnimals_NoLimitsShown"><s>Nothing to show. Turn off &quot;Only animals you have&quot; or search for one.</s><r>Нечего показывать. Отключите параметр «Только животные, которые у вас есть» или найдите его.</r></e>
+  <e k="K" key="UIRethemedAnimals_NoLimitsTip"><s>No limits are set on this map.</s><r>На этой карте не установлены ограничения.</r></e>
+  <e k="K" key="UIRethemedAnimals_NoMaster"><s>No master</s><r>Нет мастера</r></e>
+  <e k="K" key="UIRethemedAnimals_NoOrder"><s>None of these animals can have this.</s><r>Ни у одного из этих животных такого быть не может.</r></e>
+  <e k="K" key="UIRethemedAnimals_NoTrainedAnimals"><s>None of these animals have learned obedience.</s><r>Ни одно из этих животных не научилось послушанию.</r></e>
+  <e k="K" key="UIRethemedAnimals_NoneShown"><s>No animals match these filters.</s><r>Ни одно животное не соответствует этим фильтрам.</r></e>
+  <e k="K" key="UIRethemedAnimals_OneAnimal"><s>1 animal</s><r>1 животное</r></e>
+  <e k="K" key="UIRethemedAnimals_OnlyOwned"><s>Only animals you have</s><r>Только животные у тебя есть</r></e>
+  <e k="K" key="UIRethemedAnimals_OnlyOwnedTip"><s>List only the animals the colony has here or has limits set for. A search still finds every animal.</s><r>Перечислите только животных, которые есть в колонии или для которых установлены ограничения. Поиски все еще находят каждое животное.</r></e>
+  <e k="K" key="UIRethemedAnimals_OpenSettings"><s>Settings</s><r>Настройки</r></e>
+  <e k="K" key="UIRethemedAnimals_Order"><s>Order</s><r>Заказ</r></e>
+  <e k="K" key="UIRethemedAnimals_PartFailed"><s>A themed window hit a problem, so the game's own is back until you restart: {0}</s><r>В тематическом окне возникла проблема, поэтому игра возвращается до перезапуска: {0}</r></e>
+  <e k="K" key="UIRethemedAnimals_PenAnimals"><s>Pen animals</s><r>Животные в загоне</r></e>
+  <e k="K" key="UIRethemedAnimals_PenAnimalsTip"><s>Farm animals, handled with rope and kept in pens. Areas don't apply to them.</s><r>Сельскохозяйственные животные, которых обрабатывают веревками и содержат в загонах. Районы к ним не относятся.</r></e>
+  <e k="K" key="UIRethemedAnimals_PickAnimal"><s>Pick an animal to see more.</s><r>Выберите животное, чтобы увидеть больше.</r></e>
+  <e k="K" key="UIRethemedAnimals_PickGroup"><s>Pick all of these</s><r>Выбери все это</r></e>
+  <e k="K" key="UIRethemedAnimals_PickGroupTip"><s>Pick everyone in this group, so the buttons under the list act on them. Click again to drop them.</s><r>Выберите всех в этой группе, чтобы кнопки под списком действовали на них. Нажмите еще раз, чтобы удалить их.</r></e>
+  <e k="K" key="UIRethemedAnimals_RandomizeTip"><s>Pick a new name at random.</s><r>Выберите новое имя наугад.</r></e>
+  <e k="K" key="UIRethemedAnimals_Rename"><s>Rename</s><r>Переименовать</r></e>
+  <e k="K" key="UIRethemedAnimals_RenameTip"><s>Give this animal a new name.</s><r>Дайте этому животному новое имя.</r></e>
+  <e k="K" key="UIRethemedAnimals_Reset"><s>Clear filters</s><r>Очистить фильтры</r></e>
+  <e k="K" key="UIRethemedAnimals_ResetColumns"><s>Reset columns</s><r>Сбросить столбцы</r></e>
+  <e k="K" key="UIRethemedAnimals_ResetColumnsConfirm"><s>Put every column back where the game has it, and show them all?</s><r>Вернуть все столбцы туда, где они есть в игре, и показать их всем?</r></e>
+  <e k="K" key="UIRethemedAnimals_ResetColumnsTip"><s>Put every column back where the game has it, and show them all.</s><r>Верните каждый столбец туда, где он есть в игре, и покажите им все.</r></e>
+  <e k="K" key="UIRethemedAnimals_ResetTip"><s>Show every animal again.</s><r>Покажите каждое животное еще раз.</r></e>
+  <e k="K" key="UIRethemedAnimals_RowTip"><s>Click to pick. Control-click adds to what's picked, shift-click adds a run of animals.
+
+Double-click to go to it on the map. Right-click for more.</s><r>Нажмите, чтобы выбрать. Щелчок при нажатой клавише Control добавляет к выбранному, щелчок при нажатой клавише Shift добавляет группу животных.
+
+Дважды щелкните, чтобы перейти к нему на карте. Щелкните правой кнопкой мыши, чтобы увидеть больше.</r></e>
+  <e k="K" key="UIRethemedAnimals_Search"><s>Search</s><r>Поиск</r></e>
+  <e k="K" key="UIRethemedAnimals_SearchFound"><s>{0} found</s><r>{0} найдено</r></e>
+  <e k="K" key="UIRethemedAnimals_SearchHint"><s>Search animals...</s><r>Найдите животных...</r></e>
+  <e k="K" key="UIRethemedAnimals_SearchTip"><s>Looks through each animal's name, kind, master and area. Every word must match.</s><r>Просматривает имя, вид, хозяина и территорию каждого животного. Каждое слово должно совпадать.</r></e>
+  <e k="K" key="UIRethemedAnimals_Settings_AnimalsTab"><s>Animals tab</s><r>Вкладка «Животные»</r></e>
+  <e k="K" key="UIRethemedAnimals_Settings_AnimalsTabTip"><s>Show the themed Animals tab in place of the game's.</s><r>Покажите тематическую вкладку «Животные» вместо игры.</r></e>
+  <e k="K" key="UIRethemedAnimals_Settings_Animations"><s>Animations</s><r>Анимации</r></e>
+  <e k="K" key="UIRethemedAnimals_Settings_AnimationsTip"><s>Fade hovers, drift the honeycomb and run the title bar's line out as the tab opens.</s><r>Затухание наведения, перемещение сот и вывод строки заголовка при открытии вкладки.</r></e>
+  <e k="K" key="UIRethemedAnimals_Settings_Details"><s>Details</s><r>Подробности</r></e>
+  <e k="K" key="UIRethemedAnimals_Settings_DetailsTip"><s>Show the picked animal's details on the right. They leave themselves off when the window is too narrow.</s><r>Покажите информацию о выбранном животном справа. Они отключаются, когда окно слишком узкое.</r></e>
+  <e k="K" key="UIRethemedAnimals_Settings_Filters"><s>Filters</s><r>Фильтры</r></e>
+  <e k="K" key="UIRethemedAnimals_Settings_FiltersTip"><s>Show the filters on the left. They leave themselves off when the window is too narrow.</s><r>Показать фильтры слева. Они отключаются, когда окно слишком узкое.</r></e>
+  <e k="K" key="UIRethemedAnimals_Settings_Height"><s>Window height: {0}</s><r>Высота окна: {0}</r></e>
+  <e k="K" key="UIRethemedAnimals_Settings_HeightTip"><s>How tall the tab is. It's never taller than the screen.</s><r>Насколько высока вкладка. Он никогда не бывает выше экрана.</r></e>
+  <e k="K" key="UIRethemedAnimals_Settings_Parts"><s>What to theme</s><r>Что темы</r></e>
+  <e k="K" key="UIRethemedAnimals_Settings_Replaced"><s>{0} has its own Animals window, so the themed tab stays out of its way.</s><r>{0} имеет собственное окно «Животные», поэтому тематическая вкладка не мешает.</r></e>
+  <e k="K" key="UIRethemedAnimals_Settings_SettingsGear"><s>Settings gear on title bars</s><r>Настройки шестеренки в заголовках</r></e>
+  <e k="K" key="UIRethemedAnimals_Settings_SettingsGearTip"><s>Show a gear beside the close button that opens these settings.</s><r>Покажите шестеренку рядом с кнопкой закрытия, которая открывает эти настройки.</r></e>
+  <e k="K" key="UIRethemedAnimals_Settings_Style"><s>Style</s><r>Стиль</r></e>
+  <e k="K" key="UIRethemedAnimals_Settings_ThemedWindows"><s>Themed windows</s><r>Тематические окна</r></e>
+  <e k="K" key="UIRethemedAnimals_Settings_ThemedWindowsTip"><s>Show the Manage Areas, Auto-slaughter and rename windows in the theme. A mod that changes one of them keeps the game's window.</s><r>Отображение окон «Управление областями», «Автозакрытие» и «Переименование» в теме. Мод, изменяющий один из них, сохраняет окно игры.</r></e>
+  <e k="K" key="UIRethemedAnimals_Settings_Width"><s>Window width: {0}</s><r>Ширина окна: {0}</r></e>
+  <e k="K" key="UIRethemedAnimals_Settings_WidthTip"><s>How wide the tab is. It's never wider than the screen.</s><r>Насколько широка вкладка. Он никогда не бывает шире экрана.</r></e>
+  <e k="K" key="UIRethemedAnimals_Sex_Female"><s>Female</s><r>Женский</r></e>
+  <e k="K" key="UIRethemedAnimals_Sex_Male"><s>Male</s><r>Мужской</r></e>
+  <e k="K" key="UIRethemedAnimals_Show"><s>Show</s><r>Показывать</r></e>
+  <e k="K" key="UIRethemedAnimals_ShownOf"><s>{0} of {1} shown</s><r>показано {0} из {1}</r></e>
+  <e k="K" key="UIRethemedAnimals_SlaughterSearchHint"><s>Search all animals...</s><r>Обыскать всех животных...</r></e>
+  <e k="K" key="UIRethemedAnimals_SortAgainTip"><s>Click to sort by this, and again to turn it round.</s><r>Нажмите, чтобы отсортировать по этому значению, и еще раз, чтобы перевернуть его.</r></e>
+  <e k="K" key="UIRethemedAnimals_SortButtonTip"><s>Sorted by {0}, {1}. Grouped by {2}.</s><r>Сортировка по {0}, {1}. Сгруппировано по {2}.</r></e>
+  <e k="K" key="UIRethemedAnimals_SortBy"><s>Sort by</s><r>Сортировать по</r></e>
+  <e k="K" key="UIRethemedAnimals_SortDefault"><s>Default</s><r>По умолчанию</r></e>
+  <e k="K" key="UIRethemedAnimals_SortMenu"><s>Sort and group</s><r>Сортировка и группировка</r></e>
+  <e k="K" key="UIRethemedAnimals_SortTip"><s>Click to sort by this column, again to reverse it, and again to go back to the usual order.</s><r>Нажмите, чтобы отсортировать по этому столбцу, еще раз, чтобы изменить его, и еще раз, чтобы вернуться к обычному порядку.</r></e>
+  <e k="K" key="UIRethemedAnimals_Stage_Adult"><s>Adult</s><r>Взрослый</r></e>
+  <e k="K" key="UIRethemedAnimals_Stage_AdultTip"><s>Old enough to breed.</s><r>Достаточно взрослый, чтобы размножаться.</r></e>
+  <e k="K" key="UIRethemedAnimals_Stage_Young"><s>Young</s><r>Молодой</r></e>
+  <e k="K" key="UIRethemedAnimals_Stage_YoungTip"><s>Not old enough to breed.</s><r>Недостаточно взрослый для размножения.</r></e>
+  <e k="K" key="UIRethemedAnimals_Stat_Animals"><s>Animals</s><r>Животные</r></e>
+  <e k="K" key="UIRethemedAnimals_Stat_AnimalsTip"><s>How many animals the colony has on this map.</s><r>Сколько животных в колонии указано на этой карте.</r></e>
+  <e k="K" key="UIRethemedAnimals_Stat_BondedTip"><s>How many are bonded to a colonist.</s><r>Сколько из них связаны с колонистами.</r></e>
+  <e k="K" key="UIRethemedAnimals_Stat_Nutrition"><s>Nutrition a day</s><r>Питание в день</r></e>
+  <e k="K" key="UIRethemedAnimals_Stat_NutritionOne"><s>Nutrition a day</s><r>Питание в день</r></e>
+  <e k="K" key="UIRethemedAnimals_Stat_NutritionOneTip"><s>How much nutrition this animal eats in a day at its current hunger rate.</s><r>Сколько питательных веществ это животное съедает за день при нынешнем уровне голода.</r></e>
+  <e k="K" key="UIRethemedAnimals_Stat_NutritionTip"><s>How much nutrition the whole herd eats in a day at their current hunger rate. One pack of hay or kibble is 0.05 per piece; a meal is 0.9.</s><r>Сколько питательных веществ все стадо съедает за день при нынешнем уровне голода. Одна пачка сена или корма — 0,05 за штуку; обед 0,9.</r></e>
+  <e k="K" key="UIRethemedAnimals_Stat_PregnantTip"><s>How many are pregnant.</s><r>Сколько беременных.</r></e>
+  <e k="K" key="UIRethemedAnimals_Stat_ToGo"><s>To be slaughtered</s><r>Быть убитым</r></e>
+  <e k="K" key="UIRethemedAnimals_Stat_ToGoTip"><s>{0} marked for slaughter, and {1} over an auto-slaughter limit.</s><r>{0} отмечено для убоя, и {1} превышение предела автоматического убоя.</r></e>
+  <e k="K" key="UIRethemedAnimals_Stat_TrainedTip"><s>How many have learned obedience, so can have a master.</s><r>Сколько научилось послушанию, столько может иметь и господин.</r></e>
+  <e k="K" key="UIRethemedAnimals_Stat_Value"><s>Herd value</s><r>Стоимость стада</r></e>
+  <e k="K" key="UIRethemedAnimals_Stat_ValueOne"><s>Market value</s><r>Рыночная стоимость</r></e>
+  <e k="K" key="UIRethemedAnimals_Stat_ValueOneTip"><s>What this animal is worth.</s><r>Чего стоит это животное.</r></e>
+  <e k="K" key="UIRethemedAnimals_Stat_ValueTip"><s>What every animal on this map is worth together, in silver.</s><r>Сколько стоит каждое животное на этой карте вместе взятое, в серебре.</r></e>
+  <e k="K" key="UIRethemedAnimals_TabFailed"><s>The themed Animals tab hit a problem, so the game's own is back until you restart: {0}</s><r>На тематической вкладке «Животные» возникла проблема, поэтому игра вернулась до тех пор, пока вы не перезапустите ее: {0}</r></e>
+  <e k="K" key="UIRethemedAnimals_Title"><s>Animals</s><r>Животные</r></e>
+  <e k="K" key="UIRethemedAnimals_TrainSteps"><s>Trained {0} of {1} steps.</s><r>Выполнено {0} из {1} шагов.</r></e>
+  <e k="K" key="UIRethemedAnimals_TraitCycleTip"><s>Click to show only these, again to hide them, and again to stop filtering.</s><r>Нажмите, чтобы отобразить только их, еще раз, чтобы скрыть их, и еще раз, чтобы прекратить фильтрацию.</r></e>
+  <e k="K" key="UIRethemedAnimals_Trait_Bonded"><s>Bonded</s><r>Связанный</r></e>
+  <e k="K" key="UIRethemedAnimals_Trait_BondedTip"><s>Bonded to a colonist.</s><r>Привязан к колонисту.</r></e>
+  <e k="K" key="UIRethemedAnimals_Trait_Hurt"><s>Hurt</s><r>Повредить</r></e>
+  <e k="K" key="UIRethemedAnimals_Trait_HurtTip"><s>Below full health, or needing tending.</s><r>Здоровье ниже полного или нуждается в уходе.</r></e>
+  <e k="K" key="UIRethemedAnimals_Trait_Pregnant"><s>Pregnant</s><r>Беременная</r></e>
+  <e k="K" key="UIRethemedAnimals_Trait_PregnantTip"><s>Carrying young, as far as anyone can tell.</s><r>Насколько можно судить, вынашивает детенышей.</r></e>
+  <e k="K" key="UIRethemedAnimals_Trait_Sterile"><s>Sterile</s><r>Стерильный</r></e>
+  <e k="K" key="UIRethemedAnimals_Trait_SterileTip"><s>Can't have young.</s><r>Нельзя иметь молодых.</r></e>
+  <e k="K" key="UIRethemedAnimals_Trait_Trained"><s>Obedient</s><r>Покорный</r></e>
+  <e k="K" key="UIRethemedAnimals_Trait_TrainedTip"><s>Has learned obedience, so can have a master.</s><r>Научился послушанию, поэтому может стать хозяином.</r></e>
+</AutoTranslateCache>
