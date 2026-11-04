@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="lazyfridaystudio.uirethemed.factions" name="[LFS] UI Rethemed - Factions" language="Russian" version="1">
+  <e k="D" t="FactionBadgeDef" key="UIRethemedFactions_FactionStability_Fracturing.description"><s>This faction's stability is fracturing: it may break apart.</s><r>Стабильность этой фракции рушится: она может распасться.</r></e>
+  <e k="D" t="FactionBadgeDef" key="UIRethemedFactions_FactionStability_Fracturing.label"><s>fracturing</s><r>разрыв</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_AirTerritories.label"><s>airspace</s><r>воздушное пространство</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_AirTerritories.rows.0.description"><s>You may fly through this faction's airspace.</s><r>Вы можете летать через воздушное пространство этой фракции.</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_AirTerritories.rows.0.format"><s>Active</s><r>Активный</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_AirTerritories.rows.0.label"><s>transit permit</s><r>разрешение на транзит</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_AirTerritories.rows.1.description"><s>How many more flights your permit covers.</s><r>Сколько еще полетов покрывает ваше разрешение.</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_AirTerritories.rows.1.label"><s>passes left</s><r>проходит влево</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_FactionStability.label"><s>stability</s><r>стабильность</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_FactionStability.rows.0.description"><s>How firmly this faction holds together. Killing, kidnapping, recruiting or converting those who hold its power shakes it.</s><r>Насколько прочно держится эта фракция. Убийства, похищения, вербовка или обращение тех, кто обладает властью, потрясают его.</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_FactionStability.rows.0.format"><s>{0}, stable</s><r>{0}, стабильный</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_FactionStability.rows.0.label"><s>stability</s><r>стабильность</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_FactionStability.rows.1.description"><s>How firmly this faction holds together. Killing, kidnapping, recruiting or converting those who hold its power shakes it.</s><r>Насколько прочно держится эта фракция. Убийства, похищения, вербовка или обращение тех, кто обладает властью, потрясают его.</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_FactionStability.rows.1.format"><s>{0}, uneasy</s><r>{0}, тревожно</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_FactionStability.rows.1.label"><s>stability</s><r>стабильность</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_FactionStability.rows.2.description"><s>How firmly this faction holds together. Killing, kidnapping, recruiting or converting those who hold its power shakes it.</s><r>Насколько прочно держится эта фракция. Убийства, похищения, вербовка или обращение тех, кто обладает властью, потрясают его.</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_FactionStability.rows.2.format"><s>{0}, unrest</s><r>{0}, беспорядки</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_FactionStability.rows.2.label"><s>stability</s><r>стабильность</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_FactionStability.rows.3.description"><s>How firmly this faction holds together. Killing, kidnapping, recruiting or converting those who hold its power shakes it.</s><r>Насколько прочно держится эта фракция. Убийства, похищения, вербовка или обращение тех, кто обладает властью, потрясают его.</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_FactionStability.rows.3.format"><s>{0}, collapsing</s><r>{0}, схлопывание</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_FactionStability.rows.3.label"><s>stability</s><r>стабильность</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_FactionStability.rows.4.description"><s>Where its stability settles if nothing shakes it.</s><r>Где стабилизируется его стабильность, если его ничто не поколеблет.</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_FactionStability.rows.4.label"><s>baseline</s><r>базовый уровень</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_FactionStability.rows.4.value"><s>LeadershipExpandedFactionStability.WorldComponent_FactionStability:Instance.GetData(faction, false).baseline</s><r>LeadershipExpandedFactionStability.WorldComponent_FactionStability:Instance.GetData(faction, false).baseline</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_FactionStability.rows.5.description"><s>The faction this one broke away from.</s><r>Фракция, от которой этот откололся.</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_FactionStability.rows.5.label"><s>split from</s><r>отделиться от</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_FactionStability.rows.5.showWhen"><s>LeadershipExpandedFactionStability.WorldComponent_FactionStability:Instance.GetData(faction, false).fluidSplinter</s><r>LeadershipExpandedFactionStability.WorldComponent_FactionStability:Instance.GetData(faction, false).fluidSplinter</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_FactionStability.rows.5.value"><s>LeadershipExpandedFactionStability.WorldComponent_FactionStability:Instance.GetData(faction, false).splinterParentName</s><r>LeadershipExpandedFactionStability.WorldComponent_FactionStability:Instance.GetData(faction, false).splinterParentName</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_IdeologyLeadership.label"><s>statecraft</s><r>управление государством</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_IdeologyLeadership.rows.0.description"><s>Pacts in force with this faction.</s><r>Действующие пакты с этой фракцией.</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_IdeologyLeadership.rows.0.label"><s>pacts</s><r>пакты</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_IdeologyLeadership.rows.0.value"><s>PactType:Values.where(LeadershipManager:Component.HasPact(faction, each)).join()</s><r>PactType:Values.where(LeadershipManager:Component.HasPact(фракция, каждый)).join()</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_IdeologyLeadership.rows.1.description"><s>Your agents placed with this faction.</s><r>Ваши агенты размещены в этой фракции.</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_IdeologyLeadership.rows.1.label"><s>agents placed</s><r>агенты размещены</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_IdeologyLeadership.rows.1.value"><s>AgentKind:Values.where(LeadershipManager:Component.HasAgent(faction, each)).join()</s><r>AgentKind:Values.where(LeadershipManager:Component.HasAgent(фракция, каждый)).join()</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_RoadsOfTheRim.label"><s>road construction</s><r>дорожное строительство</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_RoadsOfTheRim.rows.0.description"><s>This faction is helping to build one of your roads. Their help costs goodwill when the work finishes.</s><r>Эта фракция помогает строить одну из ваших дорог. Их помощь стоит доброй воли после завершения работы.</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_RoadsOfTheRim.rows.0.format"><s>Helping now</s><r>Помогаю сейчас</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_RoadsOfTheRim.rows.0.label"><s>road crews</s><r>дорожные бригады</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_RoadsOfTheRim.rows.1.description"><s>This faction helped with a road recently, and can't again for a while.</s><r>Эта фракция недавно помогала с дорогой и какое-то время больше не сможет.</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_RoadsOfTheRim.rows.1.format"><s>In {0} days</s><r>Через {0} дней</r></e>
+  <e k="D" t="FactionCardDef" key="UIRethemedFactions_RoadsOfTheRim.rows.1.label"><s>road crews</s><r>дорожные бригады</r></e>
+  <e k="D" t="FactionSummaryDef" key="UIRethemedFactions_RoadsOfTheRim_Sites.description"><s>Road construction sites underway on the world map.</s><r>На карте мира ведутся дорожно-строительные работы.</r></e>
+  <e k="D" t="FactionSummaryDef" key="UIRethemedFactions_RoadsOfTheRim_Sites.label"><s>road sites</s><r>дорожные площадки</r></e>
+  <e k="D" t="FactionSummaryDef" key="UIRethemedFactions_VFETribals_Cornerstones_Stat.description"><s>Points you have to spend on cornerstones.</s><r>Очки, которые вам придется потратить на краеугольные камни.</r></e>
+  <e k="D" t="FactionSummaryDef" key="UIRethemedFactions_VFETribals_Cornerstones_Stat.label"><s>cornerstone points</s><r>краеугольные точки</r></e>
+  <e k="D" t="FactionSummaryDef" key="UIRethemedFactions_VFETribals_Cornerstones_Stat.lines.0.label"><s>era</s><r>эпоха</r></e>
+  <e k="D" t="FactionSummaryDef" key="UIRethemedFactions_VFETribals_Cornerstones_Stat.lines.1.label"><s>cornerstones</s><r>краеугольные камни</r></e>
+  <e k="D" t="FactionTrendDef" key="UIRethemedFactions_FactionStability_Trend.label"><s>stability</s><r>стабильность</r></e>
+  <e k="D" t="TitleBarSpaceDef" key="UIRethemedFactions_VFETribals_Cornerstones.label"><s>cornerstones</s><r>краеугольные камни</r></e>
+  <e k="K" key="UIRethemedFactions_Capital"><s>Capital</s><r>Капитал</r></e>
+  <e k="K" key="UIRethemedFactions_Card_Actions"><s>Actions</s><r>Действия</r></e>
+  <e k="K" key="UIRethemedFactions_Card_Colonists"><s>People</s><r>Люди</r></e>
+  <e k="K" key="UIRethemedFactions_Card_Comms"><s>Comms console</s><r>Консоль связи</r></e>
+  <e k="K" key="UIRethemedFactions_Card_FromCapital"><s>From the capital</s><r>Из столицы</r></e>
+  <e k="K" key="UIRethemedFactions_Card_FromYou"><s>From your nearest colony</s><r>Из ближайшей колонии</r></e>
+  <e k="K" key="UIRethemedFactions_Card_HintJump"><s>Click to jump to it on the world map.</s><r>Нажмите, чтобы перейти к нему на карте мира.</r></e>
+  <e k="K" key="UIRethemedFactions_Card_Ideoligion"><s>Ideoligion</s><r>Идеолигия</r></e>
+  <e k="K" key="UIRethemedFactions_Card_Nearest"><s>Nearest to you</s><r>Ближайший к вам</r></e>
+  <e k="K" key="UIRethemedFactions_Card_Relations"><s>Relations</s><r>Отношения</r></e>
+  <e k="K" key="UIRethemedFactions_Card_Trade"><s>Trader</s><r>Трейдер</r></e>
+  <e k="K" key="UIRethemedFactions_Card_TradeNew"><s>Not visited yet</s><r>Еще не посетил</r></e>
+  <e k="K" key="UIRethemedFactions_Card_TradeRestocked"><s>Restocked</s><r>Пополнено</r></e>
+  <e k="K" key="UIRethemedFactions_Card_TradeRestocks"><s>Restocks in {0}</s><r>Пополнение запасов через {0}</r></e>
+  <e k="K" key="UIRethemedFactions_Card_With"><s>With {0}</s><r>С {0}</r></e>
+  <e k="K" key="UIRethemedFactions_Col_Faction"><s>Faction</s><r>Фракция</r></e>
+  <e k="K" key="UIRethemedFactions_Col_Settlements"><s>Settlements</s><r>Поселения</r></e>
+  <e k="K" key="UIRethemedFactions_Col_Tech"><s>Tech</s><r>Технология</r></e>
+  <e k="K" key="UIRethemedFactions_Details"><s>Details</s><r>Подробности</r></e>
+  <e k="K" key="UIRethemedFactions_DriftDown"><s>Drifting down</s><r>Дрейф вниз</r></e>
+  <e k="K" key="UIRethemedFactions_DriftUp"><s>Drifting up</s><r>Дрейфующий вверх</r></e>
+  <e k="K" key="UIRethemedFactions_Factions"><s>Factions</s><r>Фракции</r></e>
+  <e k="K" key="UIRethemedFactions_Favor"><s>{0} favor</s><r>{0} благосклонность</r></e>
+  <e k="K" key="UIRethemedFactions_Filters"><s>Filters</s><r>Фильтры</r></e>
+  <e k="K" key="UIRethemedFactions_FiltersTip"><s>Sort and filter the factions. Click again to go back to the list.</s><r>Сортируйте и фильтруйте фракции. Нажмите еще раз, чтобы вернуться к списку.</r></e>
+  <e k="K" key="UIRethemedFactions_GoodwillNote"><s>Outside its natural range, goodwill slowly drifts back towards it. Hostile at {0} and below, allies at {1} and above; either way they turn neutral again at 0. The bar's marker shows goodwill, the small arrow under it natural goodwill.</s><r>За пределами своего естественного диапазона добрая воля медленно возвращается к нему. Враждебны на {0} и ниже, союзники на {1} и выше; в любом случае они снова становятся нейтральными при 0. Маркер на полосе показывает доброжелательность, а маленькая стрелка под ним — естественную доброжелательность.</r></e>
+  <e k="K" key="UIRethemedFactions_GraphHint"><s>Drag to move, scroll to zoom. Click a settlement to go to it.</s><r>Перетащите, чтобы переместить, прокрутите, чтобы увеличить. Нажмите на поселение, чтобы перейти к нему.</r></e>
+  <e k="K" key="UIRethemedFactions_Group_Dev"><s>Dev</s><r>Дев</r></e>
+  <e k="K" key="UIRethemedFactions_Group_Sort"><s>Sort by</s><r>Сортировать по</r></e>
+  <e k="K" key="UIRethemedFactions_Group_Standing"><s>Standing</s><r>Стоя</r></e>
+  <e k="K" key="UIRethemedFactions_Group_Tech"><s>Tech level</s><r>Технический уровень</r></e>
+  <e k="K" key="UIRethemedFactions_Group_Traits"><s>Traits</s><r>Функции</r></e>
+  <e k="K" key="UIRethemedFactions_Guest"><s>Guest</s><r>Гость</r></e>
+  <e k="K" key="UIRethemedFactions_HeldTip"><s>{0}, of {1}, is with you. Click to jump to them.</s><r>{0} из {1} с тобой. Нажмите, чтобы перейти к ним.</r></e>
+  <e k="K" key="UIRethemedFactions_Hidden"><s>Hidden</s><r>Скрытый</r></e>
+  <e k="K" key="UIRethemedFactions_HiddenTip"><s>A hidden faction, listed only because dev mode's &quot;Show hidden&quot; is on.</s><r>Скрытая фракция, указанная только потому, что в режиме разработки включена опция «Показать скрытую».</r></e>
+  <e k="K" key="UIRethemedFactions_IdeoOpenTip"><s>Click to open this ideoligion.</s><r>Нажмите, чтобы открыть эту идеологию.</r></e>
+  <e k="K" key="UIRethemedFactions_InfoCard"><s>Info</s><r>Информация</r></e>
+  <e k="K" key="UIRethemedFactions_InfoCardTip"><s>Open the info card for {0}.</s><r>Откройте информационную карточку {0}.</r></e>
+  <e k="K" key="UIRethemedFactions_Kidnapped"><s>Held by them</s><r>Удерживаемые ими</r></e>
+  <e k="K" key="UIRethemedFactions_KidnappedTip"><s>{0} was kidnapped by {1}. Click for their info card.</s><r>{0} был похищен {1}. Нажмите, чтобы просмотреть их информационную карточку.</r></e>
+  <e k="K" key="UIRethemedFactions_LeaderTip"><s>{0} of {1}. Click for their info card.</s><r>{0} из {1}. Нажмите, чтобы просмотреть их информационную карточку.</r></e>
+  <e k="K" key="UIRethemedFactions_Max"><s>max {0}</s><r>максимум {0}</r></e>
+  <e k="K" key="UIRethemedFactions_Memes"><s>Memes</s><r>Мемы</r></e>
+  <e k="K" key="UIRethemedFactions_MinorIdeosLabel"><s>Also follow</s><r>Также подписывайтесь</r></e>
+  <e k="K" key="UIRethemedFactions_ModName"><s>UI Rethemed - Factions</s><r>Обновленный интерфейс — фракции</r></e>
+  <e k="K" key="UIRethemedFactions_MoreSettlements"><s>{0} more</s><r>{0} ещё</r></e>
+  <e k="K" key="UIRethemedFactions_NoSettlements"><s>No settlements</s><r>Нет поселений</r></e>
+  <e k="K" key="UIRethemedFactions_NoneShown"><s>No factions match the filters.</s><r>Ни одна фракция не соответствует фильтрам.</r></e>
+  <e k="K" key="UIRethemedFactions_Page_Overview"><s>Overview</s><r>Обзор</r></e>
+  <e k="K" key="UIRethemedFactions_Page_OverviewTip"><s>The faction in the middle with who it knows around it, coloured by how they stand, and how it has been doing.</s><r>Фракция посередине и ее знакомые вокруг нее, окрашенные тем, как они стоят и как у нее дела.</r></e>
+  <e k="K" key="UIRethemedFactions_Page_Settlements"><s>Settlements</s><r>Поселения</r></e>
+  <e k="K" key="UIRethemedFactions_Page_SettlementsTip"><s>The faction's capital in the middle and its settlements around it, in the direction they really lie and further out the further they are.</s><r>Столица фракции посередине и поселения вокруг нее, в том направлении, в котором они действительно расположены, и чем дальше, тем дальше они находятся.</r></e>
+  <e k="K" key="UIRethemedFactions_PickFaction"><s>Pick a faction on the left.</s><r>Выберите фракцию слева.</r></e>
+  <e k="K" key="UIRethemedFactions_PickTip"><s>Click to see this faction.</s><r>Нажмите, чтобы увидеть эту фракцию.</r></e>
+  <e k="K" key="UIRethemedFactions_PinTip"><s>Pinned factions stay at the top of the list. Saved with this game.</s><r>Закрепленные фракции остаются вверху списка. Сохранено вместе с этой игрой.</r></e>
+  <e k="K" key="UIRethemedFactions_Pinned"><s>Pinned</s><r>Закреплено</r></e>
+  <e k="K" key="UIRethemedFactions_Prisoner"><s>Prisoner</s><r>Узник</r></e>
+  <e k="K" key="UIRethemedFactions_QuestOffered"><s>Offered</s><r>Предложенный</r></e>
+  <e k="K" key="UIRethemedFactions_QuestOfferedTip"><s>Offered, not yet accepted: {0}.</s><r>Предлагается, еще не принято: {0}.</r></e>
+  <e k="K" key="UIRethemedFactions_QuestOngoing"><s>Under way</s><r>В пути</r></e>
+  <e k="K" key="UIRethemedFactions_QuestOngoingTip"><s>Accepted and under way.</s><r>Принято и в процессе.</r></e>
+  <e k="K" key="UIRethemedFactions_QuestOpenTip"><s>Click to open it in the Quests tab.</s><r>Нажмите, чтобы открыть его во вкладке «Квесты».</r></e>
+  <e k="K" key="UIRethemedFactions_Range"><s>{0} to {1}</s><r>от {0} до {1}</r></e>
+  <e k="K" key="UIRethemedFactions_RelationStripTip"><s>The other factions this one is {0} with.</s><r>Другие фракции, с которыми этот {0}.</r></e>
+  <e k="K" key="UIRethemedFactions_RequestNo"><s>Not now</s><r>Не сейчас</r></e>
+  <e k="K" key="UIRethemedFactions_RequestReady"><s>Ready</s><r>Готовый</r></e>
+  <e k="K" key="UIRethemedFactions_RequestReadyTip"><s>Ready to ask for from a comms console.</s><r>Готов запросить через консоль связи.</r></e>
+  <e k="K" key="UIRethemedFactions_RequestWaitTip"><s>Can be asked again in {0}.</s><r>Можно задать еще раз в {0}.</r></e>
+  <e k="K" key="UIRethemedFactions_Request_Aid"><s>Military aid</s><r>Военная помощь</r></e>
+  <e k="K" key="UIRethemedFactions_Request_AidNot"><s>Only allies send military aid.</s><r>Только союзники отправляют военную помощь.</r></e>
+  <e k="K" key="UIRethemedFactions_Request_AidTip"><s>Call on them for soldiers, from a comms console. It costs some goodwill.</s><r>Вызовите солдат, используя консоль связи. Это стоит некоторой доброй воли.</r></e>
+  <e k="K" key="UIRethemedFactions_Request_Orbital"><s>Orbital trader</s><r>Орбитальный торговец</r></e>
+  <e k="K" key="UIRethemedFactions_Request_OrbitalNot"><s>Not while they're hostile.</s><r>Нет, пока они враждебны.</r></e>
+  <e k="K" key="UIRethemedFactions_Request_OrbitalTip"><s>Ask them to send a trade ship into orbit, from a comms console. It costs some goodwill.</s><r>Попросите их отправить торговый корабль на орбиту через консоль связи. Это стоит некоторой доброй воли.</r></e>
+  <e k="K" key="UIRethemedFactions_Request_Trader"><s>Trade caravan</s><r>Торговый караван</r></e>
+  <e k="K" key="UIRethemedFactions_Request_TraderNot"><s>Not while they're hostile.</s><r>Нет, пока они враждебны.</r></e>
+  <e k="K" key="UIRethemedFactions_Request_TraderTip"><s>Ask them to send a trade caravan, from a comms console. It costs some goodwill.</s><r>Попросите их отправить торговый караван через консоль связи. Это стоит некоторой доброй воли.</r></e>
+  <e k="K" key="UIRethemedFactions_Reset"><s>Reset</s><r>Перезагрузить</r></e>
+  <e k="K" key="UIRethemedFactions_ResetTip"><s>Clear the search and every filter.</s><r>Очистите поиск и все фильтры.</r></e>
+  <e k="K" key="UIRethemedFactions_ResetView"><s>Reset view</s><r>Сбросить вид</r></e>
+  <e k="K" key="UIRethemedFactions_ResetViewTip"><s>Put the map back where it started.</s><r>Верните карту туда, где она началась.</r></e>
+  <e k="K" key="UIRethemedFactions_SearchFound"><s>{0} found</s><r>{0} найдено</r></e>
+  <e k="K" key="UIRethemedFactions_SearchHint"><s>Search factions, leaders, settlements...</s><r>Поиск фракций, лидеров, поселений...</r></e>
+  <e k="K" key="UIRethemedFactions_Settings_CentreColumn"><s>map</s><r>карта</r></e>
+  <e k="K" key="UIRethemedFactions_Settings_FactionsTab"><s>Factions tab</s><r>Вкладка «Фракции»</r></e>
+  <e k="K" key="UIRethemedFactions_Settings_FactionsTabTip"><s>Replaces the Factions tab's list with a bigger themed window: your factions on the left, the one picked as a live map of bubbles in the middle, and everything about it on the right, including why its goodwill is where it is. Untick to get vanilla's list back.</s><r>Заменяет список на вкладке «Фракции» более крупным тематическим окном: ваши фракции слева, та, которая выбрана в виде живой карты с пузырьками посередине, и все о ней справа, включая то, почему ее доброжелательность находится там, где она есть. Снимите флажок, чтобы вернуть список ванили.</r></e>
+  <e k="K" key="UIRethemedFactions_Settings_LeftColumn"><s>factions</s><r>фракции</r></e>
+  <e k="K" key="UIRethemedFactions_Settings_Parts"><s>Parts</s><r>Части</r></e>
+  <e k="K" key="UIRethemedFactions_Settings_RightColumn"><s>details</s><r>подробности</r></e>
+  <e k="K" key="UIRethemedFactions_Settings_StyleInCore"><s>Animations and the settings gear are in UI Rethemed - Core's settings.</s><r>Анимации и настройки находятся в UI Rethemed — настройки ядра.</r></e>
+  <e k="K" key="UIRethemedFactions_Settings_StyleInCoreTip"><s>They're shared by every UI Rethemed mod, so they're set once, in Core.</s><r>Они используются всеми модами UI Rethemed, поэтому устанавливаются один раз в Core.</r></e>
+  <e k="K" key="UIRethemedFactions_Settings_TabName"><s>Factions tab</s><r>Вкладка «Фракции»</r></e>
+  <e k="K" key="UIRethemedFactions_ShowAll"><s>Show hidden</s><r>Показать скрытое</r></e>
+  <e k="K" key="UIRethemedFactions_ShowAllTip"><s>Vanilla's dev &quot;Show all&quot;: lists the hidden factions too (the count is how many there are).</s><r>Разработчик Vanilla «Показать все»: также перечисляет скрытые фракции (количество их).</r></e>
+  <e k="K" key="UIRethemedFactions_ShownOf"><s>Showing {0} of {1}</s><r>Показаны {0} из {1}</r></e>
+  <e k="K" key="UIRethemedFactions_SortTip"><s>Click to sort by this, again to reverse, and again for the usual order.</s><r>Нажмите, чтобы отсортировать по этому значению, еще раз, чтобы отменить, и еще раз, чтобы установить обычный порядок.</r></e>
+  <e k="K" key="UIRethemedFactions_Standing_Ally"><s>Ally</s><r>Союзник</r></e>
+  <e k="K" key="UIRethemedFactions_Standing_AllyTip"><s>Goodwill of {1} or more. Allies may send help, trade and visit, and you can call for military aid. They stay allies until goodwill falls to 0.</s><r>Гудвилл {1} или более. Союзники могут посылать помощь, торговать и посещать, а вы можете призывать военную помощь. Они остаются союзниками до тех пор, пока уровень доброжелательности не упадет до 0.</r></e>
+  <e k="K" key="UIRethemedFactions_Standing_Hostile"><s>Hostile</s><r>Враждебный</r></e>
+  <e k="K" key="UIRethemedFactions_Standing_HostileTip"><s>Goodwill of {0} or less. They raid you and won't trade. They stay hostile until goodwill rises back to 0.</s><r>Гудвилл {0} или меньше. Они нападают на вас и не будут торговать. Они остаются враждебными до тех пор, пока уровень доброжелательности не вернется к 0.</r></e>
+  <e k="K" key="UIRethemedFactions_Standing_Neutral"><s>Neutral</s><r>Нейтральный</r></e>
+  <e k="K" key="UIRethemedFactions_Standing_NeutralTip"><s>Neither friend nor foe: they'll trade and visit. Goodwill of {0} or less makes them hostile, {1} or more makes them allies.</s><r>Ни друг, ни враг: будут торговать и ходить в гости. Доброжелательность {0} или меньше делает их враждебными, {1} и выше делает их союзниками.</r></e>
+  <e k="K" key="UIRethemedFactions_Standing_PermanentEnemy"><s>Always hostile</s><r>Всегда враждебно</r></e>
+  <e k="K" key="UIRethemedFactions_Standing_PermanentEnemyTip"><s>This faction has no goodwill with you: it is always hostile, and nothing you do changes that.</s><r>Эта фракция не имеет к вам никакой доброй воли: она всегда враждебна, и никакие ваши действия этого не изменят.</r></e>
+  <e k="K" key="UIRethemedFactions_TabPart"><s>The Factions tab</s><r>Вкладка «Фракции»</r></e>
+  <e k="K" key="UIRethemedFactions_TagHeldTip"><s>Other factions' people you hold: prisoners and guests.</s><r>У вас есть люди других фракций: пленники и гости.</r></e>
+  <e k="K" key="UIRethemedFactions_TagKidnappedTip"><s>Your colonists held by other factions.</s><r>Ваши колонисты принадлежат другим фракциям.</r></e>
+  <e k="K" key="UIRethemedFactions_TagQuestsTip"><s>Quests offered or under way that involve a faction.</s><r>Предлагаются или выполняются квесты, в которых участвует фракция.</r></e>
+  <e k="K" key="UIRethemedFactions_TechTip"><s>Tech level: {0}. It shapes their weapons and gear, what their traders carry and how strong their raids are.</s><r>Технический уровень: {0}. Это влияет на их оружие и снаряжение, на то, что носят их торговцы и насколько сильны их рейды.</r></e>
+  <e k="K" key="UIRethemedFactions_Tiles"><s>{0} tiles</s><r>{0} плитки</r></e>
+  <e k="K" key="UIRethemedFactions_Times"><s>{0} x{1}</s><r>{0} х{1}</r></e>
+  <e k="K" key="UIRethemedFactions_Title"><s>Factions</s><r>Фракции</r></e>
+  <e k="K" key="UIRethemedFactions_TitledTip"><s>{0}: {1}, with {2} favor from {3}. Click to jump to them.</s><r>{0}: {1}, с благосклонностью {2} от {3}. Нажмите, чтобы перейти к ним.</r></e>
+  <e k="K" key="UIRethemedFactions_Towards"><s>to {0}</s><r>до {0}</r></e>
+  <e k="K" key="UIRethemedFactions_TraitCycleTip"><s>Click to show only factions with this, again to show only factions without it, and again to stop filtering.</s><r>Нажмите, чтобы показать только фракции с этим параметром, еще раз, чтобы отобразить только фракции без него, и еще раз, чтобы прекратить фильтрацию.</r></e>
+  <e k="K" key="UIRethemedFactions_Trait_Defeated"><s>Defeated</s><r>Побежден</r></e>
+  <e k="K" key="UIRethemedFactions_Trait_DefeatedTip"><s>Defeated: none of their settlements are left.</s><r>Побеждены: ни одного их поселения не осталось.</r></e>
+  <e k="K" key="UIRethemedFactions_Trait_Held"><s>You hold theirs</s><r>Ты держишь их</r></e>
+  <e k="K" key="UIRethemedFactions_Trait_HeldTip"><s>You hold some of their people, as prisoners or guests. Releasing prisoners raises goodwill.</s><r>Вы держите некоторых из их людей в качестве пленников или гостей. Освобождение заключенных повышает доброжелательность.</r></e>
+  <e k="K" key="UIRethemedFactions_Trait_Kidnapped"><s>Hold colonists</s><r>Удерживайте колонистов</r></e>
+  <e k="K" key="UIRethemedFactions_Trait_KidnappedTip"><s>They hold colonists of yours they kidnapped.</s><r>Они держат ваших колонистов, которых они похитили.</r></e>
+  <e k="K" key="UIRethemedFactions_Trait_Quests"><s>Quests</s><r>Квесты</r></e>
+  <e k="K" key="UIRethemedFactions_Trait_QuestsTip"><s>Quests offered or under way that involve them.</s><r>Предлагаются или реализуются квесты, в которых они участвуют.</r></e>
+  <e k="K" key="UIRethemedFactions_Trait_Titles"><s>Titles</s><r>Титулы</r></e>
+  <e k="K" key="UIRethemedFactions_Trait_TitlesTip"><s>Your colonists hold titles or favor from them.</s><r>Ваши колонисты имеют от них титулы или благосклонность.</r></e>
+  <e k="K" key="UIRethemedFactions_Trait_Trade"><s>Open to trade</s><r>Открыт для торговли</r></e>
+  <e k="K" key="UIRethemedFactions_Trait_TradeTip"><s>Not hostile, with settlements to visit or traders you can ask for.</s><r>Не враждебный, есть поселения, которые стоит посетить, или торговцы, которых вы можете попросить.</r></e>
+  <e k="K" key="UIRethemedFactions_TrendNoGoodwill"><s>This faction has no goodwill to track.</s><r>У этой фракции нет никакой доброй воли, которую можно было бы отслеживать.</r></e>
+  <e k="K" key="UIRethemedFactions_XenotypeTip"><s>{0} of their people.</s><r>{0} своих людей.</r></e>
+  <e k="K" key="UIRethemedFactions_Xenotypes"><s>Xenotypes</s><r>Ксенотипы</r></e>
+  <e k="K" key="UIRethemedFactions_You"><s>You</s><r>Ты</r></e>
+</AutoTranslateCache>
