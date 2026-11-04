@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="arkymn.performanceesmolas" name="Performance Esmolas" language="Russian" version="1">
+  <e k="K" key="AddStat"><s>Add Stat</s><r>Добавить статистику</r></e>
+  <e k="K" key="AddStatPrompt"><s>Enter stat name</s><r>Введите название статистики</r></e>
+  <e k="K" key="Beauty"><s>Beauty</s><r>Красота</r></e>
+  <e k="K" key="BeautyOutdoors"><s>BeautyOutdoors</s><r>КрасотаНа Открытом Воздухе</r></e>
+  <e k="K" key="BedRestEffectiveness"><s>BedRestEffectiveness</s><r>КроватьОтдыхЭффективность</r></e>
+  <e k="K" key="BuildingOptimization"><s>Building Tick Optimization</s><r>Оптимизация тиков</r></e>
+  <e k="K" key="BuildingOptimizationInitialized"><s>[Performance Esmolas] Building tick optimization initialized.</s><r>[Производительность Эсмоласа] Инициирована оптимизация тактов здания.</r></e>
+  <e k="K" key="BuildingOptimizationTooltip"><s>Throttles tick processing for Bioferrite Harvesters, Sleep Accelerators, and Neural Superchargers to run at lower tick frequencies.</s><r>Регулирует обработку тиков для биоферритовых сборщиков, ускорителей сна и нейронных нагнетателей, чтобы они работали на более низких частотах тиков.</r></e>
+  <e k="K" key="ComfyTemperatureMax"><s>ComfyTemperatureMax</s><r>КомфортнаяТемператураМакс</r></e>
+  <e k="K" key="ComfyTemperatureMin"><s>ComfyTemperatureMin</s><r>КомфортнаяТемператураМин</r></e>
+  <e k="K" key="Debug"><s>Debug</s><r>Отлаживать</r></e>
+  <e k="K" key="DeleteStat"><s>Delete</s><r>Удалить</r></e>
+  <e k="K" key="DeteriorationRate"><s>DeteriorationRate</s><r>Скорость ухудшения</r></e>
+  <e k="K" key="DoorOpenSpeed"><s>DoorOpenSpeed</s><r>ДверьОткрытьСкорость</r></e>
+  <e k="K" key="Experimental"><s>Experimental</s><r>Экспериментальный</r></e>
+  <e k="K" key="Hours"><s>Hours</s><r>Часы</r></e>
+  <e k="K" key="IdeoManagerThrottle"><s>World Ideologies Throttle</s><r>Мировые идеологии дросселируют</r></e>
+  <e k="K" key="IdeoManagerThrottleInitialized"><s>[Performance Esmolas] World ideologies throttle initialized.</s><r>[Выступление Эсмола] Мировые идеологии задушили.</r></e>
+  <e k="K" key="IdeoManagerThrottleTooltip"><s>When you have many factions with many mods that add different precepts, rituals and roles, the ideoligion calculations for world factions start to become expensive.
+
+This toggle throttles world ideoligions to tick at a lower frequency when calculating things related to them.
+
+This is usually unnoticeable in gameplay but may be best to disable if other factions rituals are relevant for your playthrough.</s><r>Когда у вас много фракций со множеством модов, которые добавляют разные заповеди, ритуалы и роли, расчеты идеологий для мировых фракций начинают становиться дорогими.
+
+Этот переключатель ограничивает частоту мировых идеологий при расчете вещей, связанных с ними.
+
+Это обычно незаметно в игровом процессе, но лучше всего отключить, если ритуалы других фракций актуальны для ваше прохождение.</r></e>
+  <e k="K" key="InitializingPlantSwayOptimization"><s>Initializing plant sway optimization lists</s><r>Инициализация списков оптимизации раскачивания установки</r></e>
+  <e k="K" key="Insulation_Cold"><s>Insulation_Cold</s><r>Изоляция_Холод</r></e>
+  <e k="K" key="Insulation_Heat"><s>Insulation_Heat</s><r>Изоляция_Тепло</r></e>
+  <e k="K" key="MarketValueIgnoreHp"><s>MarketValueIgnoreHp</s><r>РынокЗначениеИгнорироватьHp</r></e>
+  <e k="K" key="MaxNutrition"><s>MaxNutrition</s><r>МаксПитание</r></e>
+  <e k="K" key="MechBandwidth"><s>MechBandwidth</s><r>МехПропускная способность</r></e>
+  <e k="K" key="MechFormingSpeed"><s>MechFormingSpeed</s><r>МехФормированиеСкорость</r></e>
+  <e k="K" key="MeditationComfortPatchFailed"><s>[Performance Esmolas] Failed to patch Meditation comfort gain.</s><r>[Производительность Эсмола] Не удалось исправить усиление комфорта от медитации.</r></e>
+  <e k="K" key="MeditationJoyPatchFailed"><s>[Performance Esmolas] Failed to patch Meditation joy gain.</s><r>[Производительность Эсмола] Не удалось исправить усиление радости от медитации.</r></e>
+  <e k="K" key="MeditationNotifyCleanupFailed"><s>[Performance Esmolas] Could not find the original Notify_Meditated call to remove.</s><r>[Производительность Эсмоласа] Не удалось найти исходный вызов Notify_Meditated, который нужно удалить.</r></e>
+  <e k="K" key="MeditationPsyfocusPatchFailed"><s>[Performance Esmolas] Failed to patch Meditation psyfocus gain.</s><r>[Производительность Эсмола] Не удалось исправить усиление психофокуса от медитации.</r></e>
+  <e k="K" key="MeditationSkillPatchFailed"><s>[Performance Esmolas] Failed to patch Meditation skill learning rate.</s><r>[Производительность Эсмола] Не удалось исправить скорость обучения навыку Медитации.</r></e>
+  <e k="K" key="MeditationThrottle"><s>Meditation Throttle (Requires restart)</s><r>Дроссель для медитации (требуется перезапуск)</r></e>
+  <e k="K" key="MeditationThrottleInitialized"><s>[Performance Esmolas] Meditation throttle initialized.</s><r>[Выступление Эсмола] Дроссель медитации инициализирован.</r></e>
+  <e k="K" key="MeditationThrottleTooltip"><s>Usually meditation is only a minor problem. However, if you have Vanilla Psycasts Expanded (or similar mods), the meditation calculations become too expensive. In that case, activating this will lead to a great performance boost.
+
+You can still keep it on even without meditation mods without issues, though.</s><r>Обычно медитация представляет собой лишь незначительную проблему. Однако, если у вас есть Vanilla Psycasts Expanded (или подобные моды), расчеты медитации становятся слишком дорогими. В этом случае активация этого параметра приведет к значительному повышению производительности.
+
+Однако вы все равно можете без проблем оставить его включенным даже без модов для медитации.</r></e>
+  <e k="K" key="MeleeDamageFactor"><s>MeleeDamageFactor</s><r>Фактор Урона в ближнем бою</r></e>
+  <e k="K" key="MentalBreakThreshold"><s>MentalBreakThreshold</s><r>Ментальный БрейкПорог</r></e>
+  <e k="K" key="MothballOptimization"><s>Mothball Optimization</s><r>Оптимизация на консервации</r></e>
+  <e k="K" key="MothballOptimizationInitialized"><s>[Performance Esmolas] Mothball optimization initialized.</s><r>[Производительность Эсмолас] Инициализирована оптимизация нафталина.</r></e>
+  <e k="K" key="MothballOptimizationTooltip"><s>Mothballing a pawn essentially freezes them in time to save performance.
+
+In the base game, almost any health condition prevents a pawn from being mothballed. A raider that escaped your map with a bad back will consume almost the same tps as your colonists.
+
+This patch is based on the one from performance fish. It acts as a whitelist to allow mothballing many more pawns with non-lethal conditions (Especially modded ones that the game wasn't prepared to handle).
+
+ Large performance increase, but certain slow conditions, like pregnancy and sleeping sickness (for world pawns, not yours), will not progress while mothballed. But who cares? Not me ¯\_(ツ)_/¯</s><r>Консервация пешки по сути замораживает ее во времени, чтобы сохранить производительность.
+
+В базовой игре практически любое состояние здоровья не позволяет законсервировать пешку. Рейдер, сбежавший с вашей карты с больной спиной, будет потреблять почти столько же времени в секунду, что и ваши колонисты.
+
+Этот патч основан на патче от Performance Fish. Он действует как белый список, позволяющий законсервировать гораздо больше пешек с несмертельными условиями (особенно модифицированных, к которым игра не была готова).
+
+ Большой прирост производительности, но некоторые медленные состояния, такие как беременность и сонная болезнь (для мировых пешек, а не для ваших), не будут прогрессировать, пока законсервированы. Но кого это волнует? Не я ¯\_(ツ)_/¯</r></e>
+  <e k="K" key="PainShockThreshold"><s>PainShockThreshold</s><r>БольШокПорог</r></e>
+  <e k="K" key="PerformanceEsmolas"><s>Performance Esmolas</s><r>Производительность милостыни</r></e>
+  <e k="K" key="PlantSwayOptimization"><s>Plant Sway Optimization (Requires restart)</s><r>Оптимизация раскачивания растений (требуется перезапуск)</r></e>
+  <e k="K" key="PlantSwayOptimizationInitialized"><s>[Performance Esmolas] Plant swaying optimization initialized.</s><r>[Производительность Эсмола] Инициализирована оптимизация раскачивания растений.</r></e>
+  <e k="K" key="PlantSwayOptimizationTooltip"><s>Improves plant swaying performance by skipping swaying calculations for graphics not in use.
+
+Useful even in Desert/Tundras, as the game tries to sway every plant type even when your map has none.</s><r>Улучшает производительность раскачивания растений, пропуская расчеты раскачивания для неиспользуемой графики.
+
+Полезно даже в пустыне/тундре, так как игра пытается раскачивать каждый тип растений, даже если на вашей карте их нет.</r></e>
+  <e k="K" key="PsychicSensitivity"><s>PsychicSensitivity</s><r>Психическая чувствительность</r></e>
+  <e k="K" key="ResearchSpeed"><s>ResearchSpeed</s><r>Скорость исследования</r></e>
+  <e k="K" key="ResetToDefaults"><s>Reset to defaults</s><r>Сбросить настройки по умолчанию</r></e>
+  <e k="K" key="RevertedPawns"><s>[Performance Esmolas] Reverted {0} pawns from mothball state due to patch disable.</s><r>[Производительность Эсмола] {0} пешки возвращены из состояния консервации из-за отключения патча.</r></e>
+  <e k="K" key="StatCacheThrottle"><s>Statistics Cache</s><r>Кэш статистики</r></e>
+  <e k="K" key="StatCacheThrottleInitialized"><s>[Performance Esmolas] Stats cache initialized.</s><r>[Производительность Эсмоласа] Кэш статистики инициализирован.</r></e>
+  <e k="K" key="StatCacheThrottleTooltip"><s>Increases the time the cache of some stats stays relevant. This makes those stats update less frequently. For example: 60 ticks is one second at 1x speed.
+
+You can add new stats that may be lagging your game if you know what you are doing. You can look them up using performance analyzer.
+
+Changing the cache time adjusts it instantly, but adding or removing a stat requires a restart.</s><r>Увеличивает время, в течение которого кеш некоторой статистики остается актуальным. Благодаря этому статистика обновляется реже. Например: 60 тиков — это одна секунда при скорости 1x.
+
+Вы можете добавить новую статистику, которая может отставать от вашей игры, если вы знаете, что делаете. Вы можете найти их с помощью анализатора производительности.
+
+Изменение времени кэширования приводит к мгновенной настройке, но добавление или удаление статистики требует перезагрузки.</r></e>
+  <e k="K" key="StatCacheThrottling"><s>Change Cache Settings</s><r>Изменить настройки кэша</r></e>
+  <e k="K" key="StaticContainerOptimization"><s>Static Container Optimization (Requires save reload)</s><r>Оптимизация статического контейнера (требуется перезагрузка сохранения)</r></e>
+  <e k="K" key="StaticContainerOptimizationInitialized"><s>[Performance Esmolas] Static container optimization initialized.</s><r>[Производительность Эсмоласа] Инициализирована оптимизация статического контейнера.</r></e>
+  <e k="K" key="StaticContainerOptimizationTooltip"><s>Prevents Outfit Stands and Bookcases from ticking every frame in tickListNormal. Eliminates 100% of tick overhead for stored static items.</s><r>Предотвращает пометку стендов для экипировки и книжных шкафов в каждом кадре в TicketListNormal. Устраняет 100 % накладных расходов на хранение статических элементов.</r></e>
+  <e k="K" key="TerrorSource"><s>TerrorSource</s><r>ТеррорИсточник</r></e>
+  <e k="K" key="Ticks"><s>Ticks</s><r>Клещи</r></e>
+  <e k="K" key="VacuumResistance"><s>VacuumResistance</s><r>Вакуумное сопротивление</r></e>
+  <e k="K" key="VanillaAnimaGrassPatchFailed"><s>[Performance Esmolas] Failed to patch vanilla Anima grass progress.</s><r>[Производительность Эсмоласа] Не удалось исправить прогресс ванильной травы Анимы.</r></e>
+  <e k="K" key="VleAncientAnimaTreeDefMissing"><s>[Performance Esmolas] Found the VLE meditation patch, but its Ancient Anima tree definition is missing.</s><r>[Выступление Эсмоласа] Найден патч для медитации VLE, ​​но определение его дерева Древней Анимы отсутствует.</r></e>
+  <e k="K" key="WastepacksPerRecharge"><s>WastepacksPerRecharge</s><r>Пакеты отходовЗа перезарядку</r></e>
+  <e k="K" key="WorkSpeedGlobal"><s>WorkSpeedGlobal</s><r>РаботаСкоростьГлобальный</r></e>
+  <e k="K" key="WorkTableWorkSpeedFactor"><s>WorkTableWorkSpeedFactor</s><r>WorkTableWorkSpeedFactor</r></e>
+</AutoTranslateCache>
