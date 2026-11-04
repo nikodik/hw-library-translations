@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="tsa.worlddominationexperimental" name="World Domination 2.0" language="Russian" version="1">
+  <e k="K" key="TSA_WD_WarehouseTab_AutoInclude_Food"><s>Include food</s><r>Включить еду</r></e>
+  <e k="K" key="TSA_WD_WarehouseTab_AutoInclude_Medicine"><s>Include medicine</s><r>Включить лекарства</r></e>
+  <e k="K" key="TSA_WD_WarehouseTab_AutoInclude_Weapons"><s>Include weapons and ammo</s><r>Включите оружие и боеприпасы</r></e>
+  <e k="K" key="TSA_WD_WarehouseTab_AutoOff"><s>Off</s><r>Выключенный</r></e>
+  <e k="K" key="TSA_WD_WarehouseTab_AutoOn"><s>On</s><r>На</r></e>
+  <e k="K" key="TSA_WD_WarehouseTab_AutoTo"><s>To {0}</s><r>До {0}</r></e>
+  <e k="K" key="TSA_WD_WarehouseTab_ColGoods"><s>Goods</s><r>Товары</r></e>
+  <e k="K" key="TSA_WD_WarehouseTab_ColShipAmt"><s>Send</s><r>Отправлять</r></e>
+  <e k="K" key="TSA_WD_WarehouseTab_ConvertFood"><s>Convert to virtual food</s><r>Превратить в виртуальную еду</r></e>
+  <e k="K" key="TSA_WD_WarehouseTab_ConvertFoodNone"><s>Check food rows in the list to convert. Needs free food supply capacity.</s><r>Проверьте строки продуктов питания в списке, чтобы их преобразовать. Нужны свободные мощности по снабжению продовольствием.</r></e>
+  <e k="K" key="TSA_WD_WarehouseTab_ConvertFoodTip"><s>Converts checked food rows at their send amounts into virtual food at this outpost, up to free food supply capacity. Unchecked stock stays as items.</s><r>Преобразует проверенные ряды еды в их отправленном количестве в виртуальную еду на этом аванпосте, вплоть до свободного запаса еды. Непроверенный запас остается как товар.</r></e>
+  <e k="K" key="TSA_WD_WarehouseTab_ConvertedFood"><s>Converted {0} nutrition into virtual food at {1}.</s><r>Преобразовал {0} питание в виртуальную еду на {1}.</r></e>
+  <e k="K" key="TSA_WD_WarehouseTab_DestRulesTip"><s>Gear, food and drugs may go to any player outpost, colony or warehouse. Other goods only to a colony or another warehouse. Virtual food only to another player outpost. Daily auto delivery skips gear, food, drugs and medicine unless included in its menu.</s><r>Снаряжение, еда и лекарства могут быть отправлены на любой аванпост, колонию или склад игрока. Остальные товары только в колонию или на другой склад. Виртуальная еда только на аванпост другого игрока. Ежедневная автодоставка пропускает снаряжение, еду, лекарства и лекарства, если они не включены в ее меню.</r></e>
+  <e k="K" key="TSA_WD_WarehouseTab_FilterAll"><s>All</s><r>Все</r></e>
+  <e k="K" key="TSA_WD_WarehouseTab_FilterFood"><s>Food</s><r>Еда</r></e>
+  <e k="K" key="TSA_WD_WarehouseTab_FilterGoodsTip"><s>Show all goods, food only, or non-food only.</s><r>Показать все товары, только продукты питания или только непродовольственные товары.</r></e>
+  <e k="K" key="TSA_WD_WarehouseTab_FilterGoodsTitle"><s>Filter goods</s><r>Фильтровать товары</r></e>
+  <e k="K" key="TSA_WD_WarehouseTab_FilterNonfood"><s>Non-food</s><r>Непродовольственные товары</r></e>
+  <e k="K" key="TSA_WD_WarehouseTab_Label"><s>Storage</s><r>Хранилище</r></e>
+  <e k="K" key="TSA_WD_WarehouseTab_RegularDest"><s>Destination: {0}</s><r>Пункт назначения: {0}</r></e>
+  <e k="K" key="TSA_WD_WarehouseTab_RowDailyAuto"><s>Daily auto delivery</s><r>Ежедневная автодоставка</r></e>
+  <e k="K" key="TSA_WD_WarehouseTab_RowDeliveryType"><s>Delivery type:</s><r>Тип доставки:</r></e>
+  <e k="K" key="TSA_WD_WarehouseTab_SearchHint"><s>Search…</s><r>Поиск…</r></e>
+  <e k="K" key="TSA_WD_WarehouseTab_SearchTip"><s>Filter goods list by name.</s><r>Фильтровать список товаров по названию.</r></e>
+  <e k="K" key="TSA_WD_WarehouseTab_ShipDest"><s>Ship destination: {0}</s><r>Пункт назначения: {0}</r></e>
+  <e k="K" key="TSA_WD_WarehouseTab_ShipNow"><s>Ship Now</s><r>Отправить сейчас</r></e>
+  <e k="K" key="TSA_WD_WarehouseTab_Title"><s>Warehouse inventory</s><r>Складской инвентарь</r></e>
+  <e k="K" key="TSA_WD_WarehouseTab_VirtualFood"><s>Virtual food</s><r>Виртуальная еда</r></e>
+  <e k="K" key="TSA_WD_WarehouseTab_VirtualFoodDetail"><s>Warehouse food supply: {0}. At least {1} must stay here. Shippable now: {2}. Can be mixed with physical food; destinations are player outposts only (not the colony).</s><r>Склад продовольствия: {0}. По крайней мере {1} должен остаться здесь. Возможна доставка сейчас: {2}. Можно смешивать с физической пищей; пунктами назначения являются только аванпосты игроков (а не колония).</r></e>
+  <e k="K" key="TSA_WD_Warehouse_AdHocInvalidDestGoods"><s>Those goods can only go to a player colony or warehouse.</s><r>Эти товары могут быть отправлены только в колонию или склад игрока.</r></e>
+  <e k="K" key="TSA_WD_Warehouse_AdHocInvalidDestVirtual"><s>Virtual food can only go to another player outpost.</s><r>Виртуальная еда может попасть только на аванпост другого игрока.</r></e>
+  <e k="K" key="TSA_WD_Warehouse_AutoShip"><s>Auto ship once per day</s><r>Автоматическая отправка один раз в день</r></e>
+  <e k="K" key="TSA_WD_Warehouse_AutoShipDesc"><s>When enabled, this warehouse ships its physical stock to the set destination once per day. Gear, food, drugs and medicine stay unless included in the delivery menu. Virtual food is not included. Travel uses the Land vs Drop Pod delivery mode on this warehouse. Requires a ship destination and enough outpost strength for the delivery cost.</s><r>Если эта опция включена, этот склад отгружает свой физический запас в указанный пункт назначения один раз в день. Снаряжение, еда, лекарства и медикаменты остаются, если они не включены в меню доставки. Виртуальная еда не включена. На этом складе Travel использует режим доставки Land vs Drop Pod. Требуется пункт назначения корабля и достаточная сила аванпоста для оплаты стоимости доставки.</r></e>
+  <e k="K" key="TSA_WD_Warehouse_AutoShipInsufficientStrength"><s>{0} could not auto-ship: not enough strength for a delivery.</s><r>{0} не удалось выполнить автодоставку: недостаточно сил для доставки.</r></e>
+  <e k="K" key="TSA_WD_Warehouse_CaravanDeposit"><s>Stored {0} caravan item(s) at {1}.</s><r>Хранится {0} предметов в караване в {1}.</r></e>
+  <e k="K" key="TSA_WD_Warehouse_ClearDeliveryDest"><s>Clear delivery destination</s><r>Очистить пункт доставки</r></e>
+  <e k="K" key="TSA_WD_Warehouse_ClearDeliveryDestDesc"><s>Revert to shipping to the nearest player colony.</s><r>Вернитесь к доставке в ближайшую колонию игроков.</r></e>
+  <e k="K" key="TSA_WD_Warehouse_ClearDeliveryDestGizmo"><s>Clear delivery: {0}</s><r>Четкая доставка: {0}</r></e>
+  <e k="K" key="TSA_WD_Warehouse_ClearShipDest"><s>Clear ship destination</s><r>Очистить пункт назначения корабля</r></e>
+  <e k="K" key="TSA_WD_Warehouse_ClearShipDestDesc"><s>Remove the configured ship destination.</s><r>Удалите настроенный пункт назначения доставки.</r></e>
+  <e k="K" key="TSA_WD_Warehouse_ClearShipDestGizmo"><s>Clear ship to: {0}</s><r>Очистить отправку в: {0}</r></e>
+  <e k="K" key="TSA_WD_Warehouse_DeliveryDestCleared"><s>Delivery destination cleared; using nearest colony.</s><r>Место доставки очищено; используя ближайшую колонию.</r></e>
+  <e k="K" key="TSA_WD_Warehouse_DeliveryDestCurrent"><s>Current: {0}</s><r>Текущий: {0}</r></e>
+  <e k="K" key="TSA_WD_Warehouse_DeliveryDestGizmo"><s>Delivery: {0}</s><r>Доставка: {0}</r></e>
+  <e k="K" key="TSA_WD_Warehouse_DeliveryDestInspect"><s>Delivery destination: {0}</s><r>Пункт доставки: {0}</r></e>
+  <e k="K" key="TSA_WD_Warehouse_DeliveryDestSet"><s>Deliveries will go to {0}.</s><r>Доставка будет осуществляться в {0}.</r></e>
+  <e k="K" key="TSA_WD_Warehouse_DestKind_Colony"><s>Colony</s><r>Колония</r></e>
+  <e k="K" key="TSA_WD_Warehouse_DestKind_Outpost"><s>Outpost</s><r>Застава</r></e>
+  <e k="K" key="TSA_WD_Warehouse_DestKind_Warehouse"><s>Warehouse Outpost</s><r>Складская застава</r></e>
+  <e k="K" key="TSA_WD_Warehouse_DestNone"><s>nearest colony</s><r>ближайшая колония</r></e>
+  <e k="K" key="TSA_WD_Warehouse_DestNotPlanetSurface"><s>Delivery must stay on the planet surface.</s><r>Доставка должна оставаться на поверхности планеты.</r></e>
+  <e k="K" key="TSA_WD_Warehouse_DestNotPlayerSite"><s>Choose a player colony or player outpost.</s><r>Выберите колонию игрока или аванпост игрока.</r></e>
+  <e k="K" key="TSA_WD_Warehouse_DestSameAsOrigin"><s>Destination cannot be the same as the origin.</s><r>Пункт назначения не может совпадать с пунктом отправления.</r></e>
+  <e k="K" key="TSA_WD_Warehouse_DestUnavailable"><s>That destination is no longer available.</s><r>Этот пункт назначения больше не доступен.</r></e>
+  <e k="K" key="TSA_WD_Warehouse_GoodsArrived_Letter"><s>Items from {0} have arrived at {1}:</s><r>Товары из {0} прибыли в {1}:</r></e>
+  <e k="K" key="TSA_WD_Warehouse_GoodsArrived_LetterLabel"><s>Goods arrived: {0}</s><r>Товар прибыл: {0}</r></e>
+  <e k="K" key="TSA_WD_Warehouse_InspectAuraBoost"><s>Production boost to nearby Outposts: {0}%</s><r>Увеличение производства на близлежащих аванпостах: {0}%</r></e>
+  <e k="K" key="TSA_WD_Warehouse_InspectEmpty"><s>Storage empty.</s><r>Хранилище пусто.</r></e>
+  <e k="K" key="TSA_WD_Warehouse_InspectStock"><s>{0} item types in storage.</s><r>{0} типы предметов на складе.</r></e>
+  <e k="K" key="TSA_WD_Warehouse_InvalidDestination"><s>Invalid delivery destination.</s><r>Неверный пункт назначения доставки.</r></e>
+  <e k="K" key="TSA_WD_Warehouse_PodDeposit"><s>Stored {0} item stack(s) at {1}.</s><r>Хранится {0} стопок предметов в {1}.</r></e>
+  <e k="K" key="TSA_WD_Warehouse_SetDeliveryDest"><s>Set delivery destination</s><r>Установить пункт доставки</r></e>
+  <e k="K" key="TSA_WD_Warehouse_SetDeliveryDestDesc"><s>Choose a player warehouse or colony map. Cycle deliveries from this outpost go there instead of the nearest colony.</s><r>Выберите склад игрока или карту колонии. Велосипедные поставки с этой заставы идут туда, а не в ближайшую колонию.</r></e>
+  <e k="K" key="TSA_WD_Warehouse_SetShipDest"><s>Set ship destination</s><r>Установить пункт назначения корабля</r></e>
+  <e k="K" key="TSA_WD_Warehouse_SetShipDestDesc"><s>Choose a player warehouse or colony for manual outbound shipments.</s><r>Выберите склад игрока или колонию для исходящих поставок вручную.</r></e>
+  <e k="K" key="TSA_WD_Warehouse_ShipConfirm"><s>Launch shipment</s><r>Запуск отгрузки</r></e>
+  <e k="K" key="TSA_WD_Warehouse_ShipDestCleared"><s>Ship destination cleared.</s><r>Пункт назначения корабля очищен.</r></e>
+  <e k="K" key="TSA_WD_Warehouse_ShipDestGizmo"><s>Ship to: {0}</s><r>Доставка в: {0}</r></e>
+  <e k="K" key="TSA_WD_Warehouse_ShipDestInspect"><s>Ship destination: {0}</s><r>Пункт назначения: {0}</r></e>
+  <e k="K" key="TSA_WD_Warehouse_ShipDestSet"><s>Shipments will go to {0}.</s><r>Отгрузки будут отправлены в {0}.</r></e>
+  <e k="K" key="TSA_WD_Warehouse_ShipDialogDest"><s>Destination: {0}</s><r>Пункт назначения: {0}</r></e>
+  <e k="K" key="TSA_WD_Warehouse_ShipDialogTitle"><s>Ship from warehouse</s><r>Отгрузка со склада</r></e>
+  <e k="K" key="TSA_WD_Warehouse_ShipEmpty"><s>Nothing in storage.</s><r>Ничего на складе.</r></e>
+  <e k="K" key="TSA_WD_Warehouse_ShipGoods"><s>Ship goods</s><r>Отгрузка товаров</r></e>
+  <e k="K" key="TSA_WD_Warehouse_ShipGoodsDesc"><s>Choose items to send to the configured ship destination.</s><r>Выберите предметы для отправки в настроенный пункт назначения.</r></e>
+  <e k="K" key="TSA_WD_Warehouse_ShipInsufficient"><s>Not enough stock for that shipment.</s><r>Недостаточно товара для этой поставки.</r></e>
+  <e k="K" key="TSA_WD_Warehouse_ShipInsufficientVirtual"><s>Not enough virtual food to ship (warehouse must keep a reserve).</s><r>Недостаточно виртуальной еды для отправки (на складе должен быть запас).</r></e>
+  <e k="K" key="TSA_WD_Warehouse_ShipLaunched"><s>Shipment launched to {0}.</s><r>Отгрузка начата в {0}.</r></e>
+  <e k="K" key="TSA_WD_Warehouse_ShipLaunchedDropPod"><s>Drop pod shipment launched toward {0}.</s><r>Отгрузка десантных капсул запущена в направлении {0}.</r></e>
+  <e k="K" key="TSA_WD_Warehouse_ShipNeedsDest"><s>Set a ship destination first.</s><r>Сначала установите пункт назначения корабля.</r></e>
+  <e k="K" key="TSA_WD_Warehouse_ShipNothingSelected"><s>Select at least one stack to ship.</s><r>Выберите хотя бы одну стопку для отправки.</r></e>
+  <e k="K" key="TSA_WD_Warehouse_ShipViaCaravan"><s>Launch via caravan</s><r>Запуск через караван</r></e>
+  <e k="K" key="TSA_WD_Warehouse_ShipViaCaravanDesc"><s>Send a normal outpost delivery caravan along the world route. Goods arrive at the map edge or your delivery spot.</s><r>Отправьте обычный караван доставки заставы по мировому маршруту. Товары прибывают на край карты или в место доставки.</r></e>
+  <e k="K" key="TSA_WD_Warehouse_ShipViaCaravanNow"><s>Ship via caravan now</s><r>Отправка караваном прямо сейчас</r></e>
+  <e k="K" key="TSA_WD_Warehouse_ShipViaDropPod"><s>Launch via drop pod</s><r>Запуск через дроппод</r></e>
+  <e k="K" key="TSA_WD_Warehouse_ShipViaDropPodDesc"><s>Launch a fast straight-line pod shipment. Goods arrive by drop pod at the colony map edge, your delivery spot, or the target warehouse.</s><r>Запустите быструю прямую доставку капсул. Товары доставляются в капсулах на край карты колонии, в место доставки или на целевой склад.</r></e>
+  <e k="K" key="TSA_WD_Warehouse_ShipViaDropPodNow"><s>Ship via drop pod now</s><r>Отправьте через капсулу прямо сейчас</r></e>
+  <e k="K" key="TSA_WD_WinChance"><s>Success Probability</s><r>Вероятность успеха</r></e>
+  <e k="K" key="TSA_WD_Won"><s>won</s><r>выиграл</r></e>
+  <e k="K" key="TSA_WD_WorldDominationWindows"><s>World Domination Windows</s><r>Окна мирового господства</r></e>
+  <e k="K" key="TSA_WD_WorldMapOverlayHoldKey"><s>World map overlay hold key</s><r>Клавиша удержания наложения карты мира</r></e>
+  <e k="K" key="TSA_WD_WorldMapOverlayHoldKey_Tooltip"><s>Hold this key and press A for Your Pawns, X for the WD main tab, S for World Stats, D for Diplomacy, Y for Prisoners, F for Outpost Overview, G for Active Travelers, or V for All Gear. On the world map, also press 1–7 to toggle WD overlays (blocked tiles, fertility, animals, fish, mining, movement, pollution), or Q/W/E/R/T for Highlight Relationships, Highlight Player, settlement tier labels, road blocks and traps, and outpost labels.</s><r>Удерживайте эту клавишу и нажмите A для «Ваших пешек», X для главной вкладки WD, S для мировой статистики, D для дипломатии, Y для пленников, F для обзора аванпоста, G для активных путешественников или V для всего снаряжения. На карте мира также нажимайте 1–7, чтобы переключить наложения WD (заблокированные плитки, плодородие, животные, рыба, добыча полезных ископаемых, движение, загрязнение) или Q/W/E/R/T для выделения отношений, выделения игрока, меток уровней поселений, блокпостов и ловушек, а также меток аванпостов.</r></e>
+  <e k="K" key="TSA_WD_WorldMap_AddBlockedTiles"><s>Mark tiles NPCs may not fortify</s><r>Отметить плитки, которые NPC не могут укреплять</r></e>
+  <e k="K" key="TSA_WD_WorldMap_AddBlockedTilesTip"><s>Click tiles one by one to mark them. Allies (and neutrals if enabled) cannot place new fortifications there. Right-click or Esc to stop.</s><r>Нажмите плитки одну за другой, чтобы отметить их. Союзники (и нейтральные страны, если они включены) не могут размещать там новые укрепления. Щелкните правой кнопкой мыши или Esc, чтобы остановить.</r></e>
+  <e k="K" key="TSA_WD_WorldMap_BlockedTilesDisabledTip"><s>Enable &quot;mark tiles where allies may not build fortifications&quot; under World Actions → NPC Fortify.</s><r>Включите «отмечать плитки, на которых союзники не могут строить укрепления» в разделе «Мировые действия» → «Укрепление NPC».</r></e>
+  <e k="K" key="TSA_WD_WorldMap_ChangeNotes"><s>Change notes</s><r>Изменение примечаний</r></e>
+  <e k="K" key="TSA_WD_WorldMap_ChangeNotesTip"><s>Opens the World Domination update / change log.</s><r>Открывает журнал обновлений/изменений World Domination.</r></e>
+  <e k="K" key="TSA_WD_WorldMap_HotkeyLine"><s>Hotkey: {0}</s><r>Горячая клавиша: {0}</r></e>
+  <e k="K" key="TSA_WD_WorldMap_MenuTooltip"><s>World Domination map tools</s><r>Инструменты карты мирового господства</r></e>
+  <e k="K" key="TSA_WD_WorldMap_NoFortifyMarks"><s>No-fortify marks</s><r>Знаки без укрепления</r></e>
+  <e k="K" key="TSA_WD_WorldMap_NoFortifyMarksTip"><s>Show marks, or add and remove blocked tiles one click at a time.</s><r>Покажите метки или добавляйте и удаляйте заблокированные плитки одним щелчком мыши.</r></e>
+  <e k="K" key="TSA_WD_WorldMap_OutpostLabels"><s>Outpost labels</s><r>Этикетки аванпостов</r></e>
+  <e k="K" key="TSA_WD_WorldMap_OutpostLabelsNotify"><s>Outpost labels: {0}</s><r>Метки аванпостов: {0}</r></e>
+  <e k="K" key="TSA_WD_WorldMap_OutpostLabelsTip"><s>Show current food, current strength, outpost name, raid cooldown, or nothing over player outposts.</s><r>Показывать текущую еду, текущую силу, название аванпоста, время восстановления рейда или ничего над аванпостами игроков.</r></e>
+  <e k="K" key="TSA_WD_WorldMap_OutpostSimulation"><s>Establish outpost simulation</s><r>Создать симуляцию заставы</r></e>
+  <e k="K" key="TSA_WD_WorldMap_OutpostSimulationTip"><s>Click a world tile to preview establishing an outpost there (e.g. whether fertility is high enough for a farming outpost). Also shows material cost per outpost so you do not need to send a caravan only to find out you are missing resources.</s><r>Щелкните плитку мира, чтобы просмотреть создание там аванпоста (например, достаточно ли высока рождаемость для фермерского аванпоста). Также показывает стоимость материалов на аванпост, поэтому вам не нужно отправлять караван только для того, чтобы узнать, что вам не хватает ресурсов.</r></e>
+  <e k="K" key="TSA_WD_WorldMap_OverlayAnimalAbundance"><s>Animal Abundance</s><r>Численность животных</r></e>
+  <e k="K" key="TSA_WD_WorldMap_OverlayAnimalAbundanceTip"><s>Shows animal abundance around the cursor. Useful for hunting outposts.
+
+Colors (hover %):
+• Red: 0–35% (poor)
+• Orange/Yellow: 36–70%
+• Green: 71–100%
+• Purple: over 100% (best; mutators can push higher)
+
+Only one tile overlay can be active; click again to turn it off.</s><r>Показывает численность животных вокруг курсора. Полезно для охотничьих аванпостов.
+
+Цвета (наведите %):
+• Красный: 0–35% (плохо)
+• Оранжевый/Желтый: 36–70%
+• Зеленый: 71–100%
+• Фиолетовый: более 100% (лучше всего; мутаторы могут толкать выше)
+
+Только одно наложение плитки может быть активным; нажмите еще раз, чтобы выключить его.</r></e>
+  <e k="K" key="TSA_WD_WorldMap_OverlayFertility"><s>Fertility</s><r>Фертильность</r></e>
+  <e k="K" key="TSA_WD_WorldMap_OverlayFertilityTip"><s>Shows tile fertility around the cursor. Useful for farms and ranches.
+
+Colors (hover %):
+• Red: 0–35% (poor)
+• Orange/Yellow: 36–70%
+• Green: 71–100%
+• Purple: over 100% (best; mutators can push higher)
+
+Only one tile overlay can be active; click again to turn it off.</s><r>Показывает плодородие плитки вокруг курсора. Полезно для ферм и ранчо.
+
+Цвета (наведите указатель мыши %):
+• Красный: 0–35% (плохо)
+• Оранжевый/Желтый: 36–70%
+• Зеленый: 71–100%
+• Фиолетовый: более 100 % (лучше всего; мутаторы могут толкать выше)
+
+Только одно наложение плитки может быть активным; нажмите еще раз, чтобы выключить его.</r></e>
+  <e k="K" key="TSA_WD_WorldMap_OverlayFishAbundance"><s>Fish Stocks</s><r>Рыбные запасы</r></e>
+  <e k="K" key="TSA_WD_WorldMap_OverlayFishAbundanceTip"><s>Shows fish stocks around the cursor. Useful for fishing outposts (ocean coasts only).
+
+Colors (hover %):
+• Red: 0–35% (poor)
+• Orange/Yellow: 36–70%
+• Green: 71–100%
+• Purple: over 100% (best; mutators can push higher)
+
+Only one tile overlay can be active; click again to turn it off.</s><r>Показывает запасы рыбы вокруг курсора. Полезно для рыболовных аванпостов (только океанское побережье).
+
+Цвета (при наведении %):
+• Красный: 0–35% (плохо)
+• Оранжевый/Желтый: 36–70%
+• Зеленый: 71–100%
+• Фиолетовый: более 100% (лучше всего; мутаторы могут подниматься выше)
+
+Может быть активным только одно наложение плитки; нажмите еще раз, чтобы выключить его.</r></e>
+  <e k="K" key="TSA_WD_WorldMap_OverlayIgnoresOutpostUpgrades"><s>Overlays do not take into account Outpost upgrades but only the world tile as is.</s><r>Наложения не учитывают улучшения Аванпоста, а учитывают только тайл мира как есть.</r></e>
+  <e k="K" key="TSA_WD_WorldMap_OverlayMiningEfficiency"><s>Mining Efficiency</s><r>Эффективность майнинга</r></e>
+  <e k="K" key="TSA_WD_WorldMap_OverlayMiningEfficiencyTip"><s>Shows mining efficiency around the cursor. Useful for mining outposts.
+
+Colors (hover %):
+• Red: 0–35% (poor)
+• Orange/Yellow: 36–70%
+• Green: 71–100%
+• Purple: over 100% (best; mutators can push higher)
+
+Only one tile overlay can be active; click again to turn it off.</s><r>Показывает эффективность майнинга вокруг курсора. Полезно для горнодобывающих аванпостов.
+
+Цвета (наведите %):
+• Красный: 0–35% (плохо)
+• Оранжевый/Желтый: 36–70%
+• Зеленый: 71–100%
+• Фиолетовый: более 100% (лучше всего; мутаторы могут толкать выше)
+
+Только одно наложение плитки может быть активным; нажмите еще раз, чтобы выключить его.</r></e>
+  <e k="K" key="TSA_WD_WorldMap_OverlayMovementDifficulty"><s>Movement cost</s><r>Стоимость движения</r></e>
+  <e k="K" key="TSA_WD_WorldMap_OverlayMovementDifficultyTip"><s>Shows world travel cost around the cursor (terrain × road multipliers, then road-block penalties). Same scale as vanilla world movement; lower is faster.
+
+Colors:
+• Purple: 0–0.59 (fastest)
+• Green: 0.6–1.49
+• Yellow: 1.5–2.49
+• Red: 2.5–3.49
+• Dark red: 3.5+
+• Black: impassable
+
+Only one tile overlay can be active; click again to turn it off.</s><r>Показывает стоимость путешествия по всему миру вокруг курсора (множители местности × дороги, затем штрафы за блокировку дорог). Тот же масштаб, что и у ванильного мирового движения; чем ниже, тем быстрее.
+
+Цвета:
+• Фиолетовый: 0–0,59 (самый быстрый)
+• Зеленый: 0,6–1,49
+• Желтый: 1,5–2,49
+• Красный: 2,5–3,49
+• Темно-красный: 3.5+
+• Черный: непроходимо
+
+Может быть активным только одно наложение плитки; нажмите еще раз, чтобы выключить его.</r></e>
+  <e k="K" key="TSA_WD_WorldMap_OverlayMovementDifficulty_Hover"><s>Movement cost: {0}</s><r>Стоимость движения: {0}</r></e>
+  <e k="K" key="TSA_WD_WorldMap_OverlayMovementDifficulty_Impassable"><s>Impassable</s><r>Непроходимый</r></e>
+  <e k="K" key="TSA_WD_WorldMap_OverlayPollution"><s>Pollution</s><r>Загрязнение</r></e>
+  <e k="K" key="TSA_WD_WorldMap_OverlayPollutionTip"><s>Shows Biotech tile pollution around the cursor. Useful for planning Decontamination Crew missions.
+
+Colors (hover %):
+• Green: 0%
+• Light green: 1–20%
+• Yellow: 21–40%
+• Orange: 41–69%
+• Red: 70–100%
+
+Only one tile overlay can be active; click again to turn it off. Requires Biotech.</s><r>Показывает загрязнение биотехнологической плитки вокруг курсора. Полезно для планирования миссий бригады дезактивации.
+
+Цвета (наведите указатель мыши%):
+• Зеленый: 0%
+• Светло-зеленый: 1–20%
+• Желтый: 21–40%
+• Оранжевый: 41–69%
+• Красный: 70–100%
+
+Может быть активным только одно наложение плитки; нажмите еще раз, чтобы выключить его. Требуется биотехнология.</r></e>
+  <e k="K" key="TSA_WD_WorldMap_OverlayPollution_Hover"><s>Pollution: {0}%</s><r>Загрязнение: {0}%</r></e>
+  <e k="K" key="TSA_WD_WorldMap_ProductivityOverlayNotifyLabel"><s>{0} overlay</s><r>{0} наложение</r></e>
+  <e k="K" key="TSA_WD_WorldMap_RaidProtectionDays"><s>{0} Days</s><r>{0} Дней</r></e>
+  <e k="K" key="TSA_WD_WorldMap_Raidable"><s>Raidable</s><r>Можно совершить рейд</r></e>
+  <e k="K" key="TSA_WD_WorldMap_RemoveBlockedTiles"><s>Remove tiles NPCs may not fortify</s><r>Удалить плитки, которые NPC не могут укреплять.</r></e>
+  <e k="K" key="TSA_WD_WorldMap_RemoveBlockedTilesTip"><s>Click marked tiles one by one to clear them. Right-click or Esc to stop.</s><r>Нажимайте на отмеченные плитки одну за другой, чтобы очистить их. Щелкните правой кнопкой мыши или Esc, чтобы остановить.</r></e>
+  <e k="K" key="TSA_WD_WorldMap_SectionOutpostLabels"><s>-- Outpost labels --</s><r>-- Ярлыки аванпостов --</r></e>
+  <e k="K" key="TSA_WD_WorldMap_SectionProductivityOverlays"><s>-- World Tile Overlays --</s><r>-- Наложения плиток мира --</r></e>
+  <e k="K" key="TSA_WD_WorldMap_ToggleActivated"><s>{0} activated</s><r>{0} активировано</r></e>
+  <e k="K" key="TSA_WD_WorldMap_ToggleCaravanBlockedTiles"><s>Blocked tiles overlay</s><r>Наложение заблокированных плиток</r></e>
+  <e k="K" key="TSA_WD_WorldMap_ToggleCaravanBlockedTilesTip"><s>By default an outpost needs several free tiles of space from settlements and other outposts. When this overlay is on, blocked tiles around the cursor are hatched in the blocking faction's color (dark grey if none). Overlapping claims pick one faction consistently.</s><r>По умолчанию аванпосту требуется несколько свободных клеток от поселений и других аванпостов. Когда это наложение включено, заблокированные плитки вокруг курсора заштрихованы цветом блокирующей фракции (темно-серым, если его нет). Перекрывающиеся претензии последовательно выбирают одну фракцию.</r></e>
+  <e k="K" key="TSA_WD_WorldMap_ToggleDeactivated"><s>{0} deactivated</s><r>{0} деактивировано</r></e>
+  <e k="K" key="TSA_WD_WorldMap_ToggleFortifyBlacklist"><s>Blocked tiles for NPC Fortification</s><r>Заблокированные плитки для укреплений NPC</r></e>
+  <e k="K" key="TSA_WD_WorldMap_ToggleFortifyBlacklistTip"><s>Show tiles marked so allies (and neutrals if enabled) may not place new road blocks or traps. Existing forts stay until you Remove fortifications. Marks also show while using the mark/remove tools.</s><r>Покажите плитки, отмеченные таким образом, чтобы союзники (и нейтральные страны, если они включены) не могли размещать новые дорожные блоки или ловушки. Существующие форты остаются до тех пор, пока вы не удалите укрепления. Метки также отображаются при использовании инструментов пометки/удаления.</r></e>
+  <e k="K" key="TSA_WD_WorldMap_TogglePlayerUnderlays"><s>Highlight Player</s><r>Выделить игрока</r></e>
+  <e k="K" key="TSA_WD_WorldMap_TogglePlayerUnderlaysTip"><s>Semi-transparent cyan discs under your colonies, outposts, caravans, and travelers. Size scales with zoom. Hidden at the same far zoom as settlement tier labels. A star means that this outpost or colony is currently being targeted by an enemy raid caravan.</s><r>Полупрозрачные голубые диски под вашими колониями, аванпостами, караванами и путешественниками. Размер масштабируется с увеличением. Скрыто на том же расстоянии, что и метки уровней поселений. Звезда означает, что этот аванпост или колония в настоящее время является целью вражеского рейдового каравана.</r></e>
+  <e k="K" key="TSA_WD_WorldMap_ToggleRelationUnderlays"><s>Highlight Relationships</s><r>Выделите отношения</r></e>
+  <e k="K" key="TSA_WD_WorldMap_ToggleRelationUnderlaysRelative"><s>Relationships based on Selection</s><r>Отношения, основанные на отборе</r></e>
+  <e k="K" key="TSA_WD_WorldMap_ToggleRelationUnderlaysRelativeTip"><s>When on (and Highlight Relationships is on), discs show hostile, neutral, or allied relative to the selected NPC settlement or traveler. With no valid selection, they use your colony as usual. Purple raid warnings stay based on threats to you.</s><r>Когда включено (и включена опция «Выделить отношения»), на дисках отображается враждебность, нейтральность или союзность по отношению к выбранному поселению NPC или путешественнику. Без действительного выбора они используют вашу колонию как обычно. Фиолетовые предупреждения о рейдах по-прежнему основаны на угрозах для вас.</r></e>
+  <e k="K" key="TSA_WD_WorldMap_ToggleRelationUnderlaysTip"><s>Semi-transparent discs over settlements and travelers: red hostile, grey neutral, green allied. Purple marks enemy raid caravans targeting your colony or a player outpost. Size scales with zoom. Hidden at the same far zoom as settlement tier labels.
+
+A star marks a WD quest target</s><r>Полупрозрачные диски над поселениями и путешественниками: красный враждебный, серый нейтральный, зеленый союзный. Фиолетовым отмечены вражеские караваны, нацеленные на вашу колонию или аванпост игрока. Размер масштабируется с увеличением. Скрыто на том же расстоянии, что и метки уровней поселений.
+
+Звездочка отмечает цель квеста WD.</r></e>
+  <e k="K" key="TSA_WD_WorldMap_ToggleRoadBlocksAndTraps"><s>Road blocks, traps, AT, buildings, and trenches</s><r>Дорожные заграждения, ловушки, ПТ, здания и траншеи</r></e>
+  <e k="K" key="TSA_WD_WorldMap_ToggleRoadBlocksAndTrapsTip"><s>Toggle road-block, spike-trap / caltrops, AT Turret, advanced building, and trench visuals on the world map. Overlay icons also hide when zoomed out.</s><r>Переключите блокпост, ловушку с шипами / колтропы, противотанковую турель, продвинутое здание и визуальные эффекты траншей на карте мира. Значки наложения также скрываются при уменьшении масштаба.</r></e>
+  <e k="K" key="TSA_WD_WorldMap_ToggleSettlementTypeIcons"><s>Settlement type icons</s><r>Значки типов поселений</r></e>
+  <e k="K" key="TSA_WD_WorldMap_ToggleSettlementTypeIconsTip"><s>On: subtype art. Off: faction icons.</s><r>Включено: подтип ст. Выключено: значки фракций.</r></e>
+  <e k="K" key="TSA_WD_WorldMap_ToggleStrengthTexts"><s>Show offensive Strength</s><r>Проявите наступательную силу</r></e>
+  <e k="K" key="TSA_WD_WorldMap_ToggleStrengthTextsTip"><s>Current Offensive Strength. Does NOT include Defensive Strength.</s><r>Текущая сила нападения. НЕ включает защитную силу.</r></e>
+  <e k="K" key="TSA_WD_WorldMap_ToggleTierTexts"><s>Settlement tier labels</s><r>Ярлыки уровней расчетов</r></e>
+  <e k="K" key="TSA_WD_WorldMap_ToggleTierTextsTip"><s>Toggle the T1–T4 labels shown over NPC settlements.</s><r>Переключите метки T1–T4, отображаемые над поселениями NPC.</r></e>
+  <e k="K" key="TSA_WD_WorldObjectStats_Headline"><s>Combat stats: {0}</s><r>Боевая статистика: {0}</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_Allegiances"><s>WD Faction scope and Allegiances</s><r>Объем фракций WD и их принадлежность</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_AllegiancesSubtitle"><s>Edit NPC relationships for this world. Optional freeze lasts {0} days (same as random diplomacy).</s><r>Редактируйте отношения с NPC для этого мира. Опциональная заморозка длится {0} дней (так же, как и случайная дипломатия).</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_AllegiancesSubtitleNoFreeze"><s>Edit faction participation and allegiances between pairs. Lock NPC pairs to block random WD diplomacy.</s><r>Редактируйте участие фракций и лояльность между парами. Блокируйте пары NPC, чтобы заблокировать случайную дипломатию WD.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_AllegiancesTitle"><s>World Allegiances</s><r>Мировая преданность</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_AllegiancesTooltip"><s>Opens faction participation (WD Actions, MapGen, Storyteller) and per-pair allegiances.</s><r>Открывает участие фракций (WD Actions, MapGen, Storyteller) и лояльность для каждой пары.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_BiomePenalty"><s>Penalize bad biomes</s><r>Наказывайте плохие биомы</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_BiomePenaltyTooltip"><s>On Recreate, reduce how often settlements land on ice or barren desert. At 0 those tiles are treated like any other. At 100 none are used. Mid values cut the chance proportionally (50 means half as likely).</s><r>При воссоздании уменьшите частоту высадки поселений на льду или в бесплодной пустыне. При значении 0 эти плитки рассматриваются как любые другие. При 100 ни один не используется. Средние значения уменьшают вероятность пропорционально (50 означает половину вероятности).</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_ButtonTooltip"><s>Open World Domination World Setup. Drag to move this icon.</s><r>Настройка мира доминирования в открытом мире. Перетащите, чтобы переместить этот значок.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_ClickSettlementHint"><s>Click a settlement on the world map.</s><r>Нажмите на поселение на карте мира.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_Coherence"><s>Cluster chance</s><r>Шанс кластера</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_CoherenceClustered"><s>Coherent</s><r>Последовательный</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_CoherenceRandom"><s>Random</s><r>Случайный</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_CoherenceTooltip"><s>Chance to join an existing same-faction cluster when recreating. Low = start new settlements under Spacing only. High = pack into clusters (up to Max per cluster).</s><r>Шанс присоединиться к существующему кластеру той же фракции при воссоздании. Низкий = начинать новые поселения только с интервалом. Высокий = упаковывать в кластеры (до максимума на кластер).</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_DestroyBridgeDone"><s>Bridge destroyed.</s><r>Мост разрушен.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_DestroyBridgeHint"><s>Click a bridge bank or bridged water tile to destroy that bridge.</s><r>Нажмите на берег моста или на плитку с водным мостом, чтобы разрушить этот мост.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_DestroyBridgeNone"><s>No WD bridge on that tile.</s><r>На этой плитке нет моста WD.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_DestroyFortsOnRecreate"><s>Destroy fortifications on recreation</s><r>Разрушайте укрепления на отдыхе</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_DestroyFortsOnRecreateTip"><s>When on, recreating settlements also removes NPC road blocks, spike traps, and AT turrets. Player sites are not affected.</s><r>При включении воссоздания поселений также удаляются дорожные заграждения NPC, ловушки с шипами и противотанковые турели. Сайты игроков не затронуты.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_FactionMissing"><s>Faction missing.</s><r>Фракция отсутствует.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_FactionShares"><s>Faction shares</s><r>Доли фракций</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_FactionSharesTip"><s>Drag each faction share. Percents and settlement counts update from the total share pool and the Number of settlements slider.</s><r>Перетащите каждую долю фракции. Проценты и количество расчетов обновляются на основе общего пула акций и ползунка «Количество расчетов».</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_FactionSharesTitle"><s>Faction settlement shares</s><r>Доли расчета фракций</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_FactionSharesTooltip"><s>Change how many settlements each faction gets on recreate. Starts from the world gen mix.</s><r>Измените количество поселений, которые каждая фракция получит при воссоздании. Начинается с микса генерации мира.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_FactionShares_Empty"><s>No eligible NPC factions on this world.</s><r>В этом мире нет подходящих фракций NPC.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_FactionShares_Equal"><s>Equal shares</s><r>Равные доли</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_FactionShares_EqualTip"><s>Set every eligible faction to the same share weight so each gets an equal slice of the settlement total.</s><r>Установите для каждой подходящей фракции одинаковый вес доли, чтобы каждая получала равную долю от общей суммы поселения.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_FactionShares_H_Count"><s>Settlements</s><r>Поселения</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_FactionShares_H_Faction"><s>Faction</s><r>Фракция</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_FactionShares_H_Share"><s>Share</s><r>Делиться</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_FactionShares_Reset"><s>Reset to world gen</s><r>Сброс к генерации мира</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_FreezeOnApply"><s>Freeze {0} days</s><r>Заморозить на {0} дней</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_FreezeOnApplyTooltip"><s>When checked, Neutral / Allied / Hostile also apply a {0}-day freeze so random WD diplomacy will not change that pair during the freeze.</s><r>Если этот флажок установлен, нейтральные/союзные/враждебные также применяют заморозку на {0} дней, поэтому случайная дипломатия WD не изменит эту пару во время заморозки.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_GoodwillFieldTooltip"><s>Type goodwill (-100 to {0}) and press Enter. Ally sets +75, Hostile sets -75, Neutral sets 0. Upper limit matches Max goodwill in mod settings.</s><r>Введите гудвил (от -100 до {0}) и нажмите Enter. Союзник устанавливает +75, Враждебный устанавливает -75, Нейтральный устанавливает 0. Верхний предел соответствует максимальному уровню доброй воли в настройках мода.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_InvalidTile"><s>That tile is not valid.</s><r>Эта плитка недействительна.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_MaxPerCluster"><s>Max settlements per cluster</s><r>Максимальное количество поселений на кластер</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_MaxPerClusterTooltip"><s>When recreating, same-faction settlements that pack together may not exceed this count in one cluster. Extra settlements start a new cluster.</s><r>При воссоздании поселения одной фракции, объединенные вместе, не могут превышать это количество в одном кластере. Дополнительные поселения начинают новый кластер.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_MinClusterDistance"><s>Min distance between clusters</s><r>Минимальное расстояние между кластерами</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_MinClusterDistanceTooltip"><s>Extra separation when starting a new same-faction cluster because the previous one is full or a join failed. Not applied when Cluster chance simply chooses not to join. At 0, off. Default 20.</s><r>Дополнительное разделение при запуске нового кластера той же фракции, поскольку предыдущий заполнен или присоединение не удалось. Не применяется, если Кластерный шанс просто решает не присоединяться. В 0, выкл. По умолчанию 20.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_NeedSettlement"><s>Click a settlement or WD outpost.</s><r>Щелкните поселение или аванпост WD.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_NoAdvBuildingDefs"><s>No advanced building defs loaded.</s><r>Никакие расширенные характеристики зданий не загружены.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_NoFactions"><s>No placeable factions found.</s><r>Размещаемых фракций не найдено.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_NoRoadBlockKinds"><s>No placeable road block kinds.</s><r>Нет размещаемых видов дорожных блоков.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_OtherFactionDistance"><s>Distance to other factions</s><r>Расстояние до других фракций</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_OtherFactionDistanceTooltip"><s>Extra gap beyond Spacing when the neighbor is another faction. At 0, other factions use Spacing only. At 100, adds 3× the establishment minimum on top of Spacing.</s><r>Дополнительный разрыв за пределами интервала, когда соседом является другая фракция. При значении 0 другие фракции используют только пространство. При значении 100 добавляется 3-кратный минимальный минимум к интервалу.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_PermanentlyHostile"><s>Permanently hostile</s><r>Постоянно враждебный</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_PlaceAdvBuildingDone"><s>Placed {0} for {1} on tile {2}.</s><r>Размещен {0} вместо {1} на плитке {2}.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_PlaceAdvBuildingDuplicate"><s>{0} already owns a {1}.</s><r>{0} уже владеет {1}.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_PlaceAdvBuildingHint"><s>Click an NPC settlement to place a {0} nearby. Right-click or Esc to stop.</s><r>Нажмите на поселение NPC, чтобы разместить рядом {0}. Щелкните правой кнопкой мыши или Esc, чтобы остановить.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_PlaceAdvBuildingNeedNpc"><s>Click an NPC settlement (not player).</s><r>Щелкните поселение NPC (не игрока).</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_PlaceAdvBuildingNoTile"><s>No buildable tile within range.</s><r>В пределах досягаемости нет строительной плитки.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_PlaceBridgeDone"><s>Bridge placed.</s><r>Мост установлен.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_PlaceBridgeFailed"><s>Could not place a bridge there.</s><r>Не удалось разместить там мост.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_PlaceBridgeHint"><s>Click the near bank, then the far bank.</s><r>Нажмите ближайший берег, затем дальний берег.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_PlaceBridgePickEnd"><s>Now click the far bank.</s><r>Теперь нажмите на дальний берег.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_PlaceFortifyDone"><s>Placed.</s><r>Размещено.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_PlaceFortifyFailed"><s>Could not place there.</s><r>Не удалось разместить там.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_PlaceFortifyHint"><s>Click tiles to place. Right-click or Esc to stop.</s><r>Нажмите плитки, чтобы разместить. Щелкните правой кнопкой мыши или Esc, чтобы остановить.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_PlaceRoadDone"><s>Road placed along the path.</s><r>Дорога расположена вдоль пути.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_PlaceRoadHint"><s>Click the start tile, then the end tile.</s><r>Нажмите на начальную плитку, затем на конечную плитку.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_PlaceRoadPickEnd"><s>Now click the end tile.</s><r>Теперь щелкните конечную плитку.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_PlaceSettlementHint"><s>Click tiles to place {0} settlements for {1}. Right-click or Esc to stop.</s><r>Щелкайте по плиткам, чтобы разместить {0} поселений для {1}. Щелкните правой кнопкой мыши или Esc, чтобы остановить.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_PlacedSettlement"><s>Placed {0} {1} settlement on tile {2}.</s><r>Размещено поселение {0} {1} на тайле {2}.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_Recreate"><s>Recreate Settlements</s><r>Воссоздать поселения</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_RecreateConfirmEmpty"><s>There are no NPC settlements from world gen to recreate.</s><r>Нет поселений NPC из генерации мира, которые можно было бы воссоздать.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_RecreateConfirmFooter"><s>NPC road blocks, traps, and AT turrets are cleared. Player sites are left alone.</s><r>Дорожные заграждения, ловушки и противотанковые турели NPC очищены. Сайты игроков остаются в покое.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_RecreateConfirmFooterKeepForts"><s>NPC road blocks, traps, and AT turrets stay in place. Player sites are left alone.</s><r>Дорожные заграждения, ловушки и противотанковые турели NPC остаются на месте. Сайты игроков остаются в покое.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_RecreateConfirmHeader"><s>Recreate all NPC settlements?
+
+Will place:</s><r>Воссоздать все поселения NPC?
+
+Разместит:</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_RecreateConfirmTotal"><s>Total: {0} (world gen had {1})</s><r>Итого: {0} (в мире было {1})</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_RecreateDone"><s>Recreated {0} settlements.</s><r>Воссозданы поселения {0}.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_RecreatePartial"><s>Recreated {0} settlements. Skipped {1} (no valid tiles left).</s><r>Воссозданы поселения {0}. Пропущен {1} (не осталось действительных плиток).</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_RecreateResultError"><s>Settlement recreation failed. Check Player.log for details.</s><r>Воссоздать поселение не удалось. Проверьте Player.log для получения подробной информации.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_RecreateResultFactionAbort"><s>{0}: stopped after {1} consecutive failures (no valid tiles).</s><r>{0}: остановлено после {1} последовательных сбоев (нет действительных плиток).</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_RecreateResultFull"><s>Placed all {0} settlements.</s><r>Размещены все {0} поселения.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_RecreateResultPartial"><s>Tried to place {0} settlements from your settings. Placed {1}. {2} could not be placed — no valid tiles at current spacing and faction rules.</s><r>Попробовал разместить {0} поселений из ваших настроек. Размещен {1}. {2} невозможно разместить — нет действительных плиток с текущим расстоянием и правилами фракции.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_RecreateResultTitle"><s>Settlement recreation complete</s><r>Воссоздание поселения завершено</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_RecreateTooltip"><s>Destroy all NPC settlements and place them again using the count, spacing, faction density, and distance to other factions in this section. Uses your minimum settlement distance setting. Fortifications follow the destroy-on-recreation toggle.</s><r>Уничтожьте все поселения NPC и разместите их снова, используя количество, расстояние, плотность фракций и расстояние до других фракций в этом разделе. Использует настройку минимального расчетного расстояния. Укрепления следуют за переключателем разрушения при воссоздании.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_RelAllied"><s>Allied</s><r>Союзник</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_RelHostile"><s>Hostile</s><r>Враждебный</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_RelNeutral"><s>Neutral</s><r>Нейтральный</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_RelationFailed"><s>Could not change that relationship (missing relation data).</s><r>Не удалось изменить эту связь (отсутствуют данные связи).</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_RemoveFortifyDone"><s>Removed fortification.</s><r>Убрано укрепление.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_RemoveFortifyHint"><s>Click a road block, trap, AT turret, or advanced building to remove it.</s><r>Нажмите на блокпост, ловушку, противотанковую турель или современное здание, чтобы удалить его.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_RemoveFortifyNone"><s>Nothing to remove on that tile.</s><r>На этой плитке нечего удалять.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_RemoveRoadDone"><s>Removed {0} road links.</s><r>Удалены дорожные развязки {0}.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_RemoveRoadHint"><s>Click a tile with roads to strip its land road links (bridges are left alone).</s><r>Нажмите на плитку с дорогами, чтобы лишить ее наземных дорог (мосты останутся в покое).</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_RemoveRoadNone"><s>No roads on that tile.</s><r>На этой плитке нет дорог.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_RemoveSettlementDone"><s>Removed {0}.</s><r>Удален {0}.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_RemoveSettlementHint"><s>Click an NPC settlement to remove it. Right-click or Esc to stop.</s><r>Нажмите на поселение NPC, чтобы удалить его. Щелкните правой кнопкой мыши или Esc, чтобы остановить.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_RemoveSettlementPlayer"><s>Player sites cannot be removed here.</s><r>Сайты игроков здесь удалить нельзя.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_ResetAllegiancesDefault"><s>Reset Allegiances to default</s><r>Сбросить верность по умолчанию</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_ResetAllegiancesDefaultTooltip"><s>Restore every listed pair to that faction pair's natural starting goodwill.</s><r>Восстановите каждую указанную пару до естественной стартовой репутации этой пары фракций.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_ResetAllegiancesDone"><s>Allegiances restored to defaults.</s><r>Приверженность восстановлена ​​до значений по умолчанию.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_RoadAsphalt"><s>Asphalt road</s><r>Асфальтированная дорога</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_RoadDefMissing"><s>No road definition found.</s><r>Определение дороги не найдено.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_RoadDirt"><s>Dirt road</s><r>Грунтовая дорога</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_RoadNeedTwoTiles"><s>Pick two different tiles.</s><r>Выберите две разные плитки.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_RoadNoPath"><s>No path between those tiles.</s><r>Между этими плитками нет пути.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_RoadStone"><s>Stone road</s><r>Каменная дорога</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_SectionDiplomacy"><s>Diplomacy</s><r>Дипломатия</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_SectionDistribution"><s>Settlement Distribution</s><r>Распределение расчетов</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_SectionGeneral"><s>General Settings</s><r>Общие настройки</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_SectionLayout"><s>Manual Settlement Adjustments</s><r>Ручные корректировки расчетов</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_SectionRoadsFortify"><s>Roads and Fortifications</s><r>Дороги и укрепления</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_SectionTools"><s>Placement tools</s><r>Инструменты размещения</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_SettlementCount"><s>Number of settlements</s><r>Количество населенных пунктов</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_SettlementCountTooltip"><s>How many NPC settlements to place on Recreate. Default is the count from vanilla world gen. Faction shares (Faction shares button) decide how that total is split.</s><r>Сколько поселений NPC разместить на Recreate. По умолчанию используется счетчик из генерации ванильного мира. Доли фракций (кнопка «Доли фракций») определяют, как будет делиться эта сумма.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_Spacing"><s>Spacing</s><r>Расстояние</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_SpacingClose"><s>Close</s><r>Закрывать</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_SpacingSpread"><s>Spread Out</s><r>Распространение</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_SpacingTooltip"><s>Minimum gap between settlements (same or other faction). Scales with the slider, up to 4× the establishment minimum distance at 100%.</s><r>Минимальный разрыв между поселениями (той же или другой фракции). Масштабируется с помощью ползунка до 4-х кратного минимального установленного расстояния при 100%.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_SpawnFailed"><s>Could not place settlement.</s><r>Не удалось разместить поселение.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_StrengthChanged"><s>{0} strength is now {1} ({2}).</s><r>Сила {0} теперь равна {1} ({2}).</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_Subtitle"><s>Adjust settlements, roads, and allegiances before you settle.</s><r>Прежде чем поселиться, настройте поселения, дороги и присягу.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_TierChanged"><s>{0} is now {1}.</s><r>{0} теперь {1}.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_TierLikelihood"><s>Settlement tiers</s><r>Уровни расчетов</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_TierLikelihoodTooltip"><s>Edit how often new settlements roll each tier. The next recreate uses these weights.</s><r>Измените частоту появления новых поселений на каждом уровне. При следующем воссоздании используются эти веса.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_TileInvalidSettlement"><s>Tile {0} cannot host a settlement.</s><r>На плитке {0} не может быть поселения.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_TileOccupied"><s>Tile {0} already has a world object.</s><r>Плитка {0} уже имеет мировой объект.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_Title"><s>WD: World Setup</s><r>WD: Настройка мира</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_TooClose"><s>Too close to another settlement or outpost.</s><r>Слишком близко к другому поселению или заставе.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_ToolAdvBuilding"><s>Place Advanced Building</s><r>Разместить продвинутое здание</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_ToolDestroyBridge"><s>Destroy Bridge</s><r>Уничтожить мост</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_ToolPlaceBridge"><s>Place Bridge</s><r>Плейс-Бридж</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_ToolPlaceRoad"><s>Place Road</s><r>Плейс-Роуд</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_ToolPlaceSettlement"><s>Place Settlement</s><r>Место поселения</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_ToolRemoveFortify"><s>Remove fortification here</s><r>Удалить укрепление здесь</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_ToolRemoveRoad"><s>Remove Road</s><r>Удалить дорогу</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_ToolRemoveSettlement"><s>Remove Settlement</s><r>Удалить поселение</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_ToolRoadBlock"><s>Place Road Block</s><r>Разместить дорожный блок</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_ToolStrengthMinus"><s>Reduce Strength -100</s><r>Уменьшить силу -100</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_ToolStrengthPlus"><s>Increase Strength +100</s><r>Увеличение силы +100</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_ToolTierDown"><s>Reduce Tier</s><r>Понизить уровень</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_ToolTierUp"><s>Increase Tier</s><r>Повысить уровень</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_ToolTrap"><s>Place Trap</s><r>Разместить ловушку</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_ToolTurret"><s>Place AT Turret</s><r>Разместите AT-турель</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_ToolsHeader"><s>Placement tools</s><r>Инструменты размещения</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_WorldMissing"><s>World is not ready.</s><r>Мир не готов.</r></e>
+  <e k="K" key="TSA_WD_WorldStats"><s>World Stats</s><r>Мировая статистика</r></e>
+  <e k="K" key="TSA_WD_WorldThreatTier_Critical"><s>Critical</s><r>Критический</r></e>
+  <e k="K" key="TSA_WD_WorldThreatTier_Heightened"><s>Heightened</s><r>Повышенный</r></e>
+  <e k="K" key="TSA_WD_WorldThreatTier_High"><s>High</s><r>Высокий</r></e>
+  <e k="K" key="TSA_WD_WorldThreatTier_Low"><s>Low</s><r>Низкий</r></e>
+  <e k="K" key="TSA_WD_WorldThreatTier_Moderate"><s>Moderate</s><r>Умеренный</r></e>
+  <e k="K" key="TSA_WD_WorldThreatTier_None"><s>None</s><r>Никто</r></e>
+  <e k="K" key="TSA_WD_WorldThreat_ClampTooltip"><s>Actual raid points will be clamped between {0} and {1} of the current storyteller raid points: {2}.</s><r>Фактические рейдовые очки будут ограничены между {0} и {1} текущими рейдовыми очками рассказчика: {2}.</r></e>
+  <e k="K" key="TSA_WD_WorldThreat_ClampTooltip_Staged"><s>Actual raid points will be clamped between {0} and {1} of the current storyteller raid points ({3}): {2}.</s><r>Фактические рейдовые очки будут ограничены между {0} и {1} текущими рейдовыми очками рассказчика ({3}): {2}.</r></e>
+  <e k="K" key="TSA_WD_ZealAttritionBuff"><s>Expansion Zeal</s><r>Рвение к расширению</r></e>
+  <e k="K" key="TS_WD_CaravanRaidAlwaysUseStrength"><s>Always use Strength as Raid points</s><r>Всегда используйте силу в качестве очков рейда.</r></e>
+  <e k="K" key="TS_WD_CaravanRaidAlwaysUseStrengthTooltip"><s>Strictly uses the raid points of a caravan when a raid on the colony happens or when your caravan clashes with a NPC caravan.</s><r>Строго использует рейдовые очки каравана, когда происходит набег на колонию или когда ваш караван сталкивается с караваном NPC.</r></e>
+  <e k="K" key="TS_WD_CaravanRaidMaxFrac"><s>Maximum fraction of storyteller threat</s><r>Максимальная доля угрозы рассказчика</r></e>
+  <e k="K" key="TS_WD_CaravanRaidMaxFracTooltip"><s>Ceiling for raid points: storyteller threat baseline × this value (slider up to 50×). Effective strength cannot exceed this when spawning the raid. If strength is inside the band, no clamping is applied.</s><r>Потолок рейдовых очков: базовый уровень угрозы рассказчика × это значение (ползунок до 50×). Эффективная сила не может превышать это значение при создании рейда. Если прочность находится внутри ленты, зажим не применяется.</r></e>
+  <e k="K" key="TS_WD_CaravanRaidMinFrac"><s>Minimum fraction of storyteller threat</s><r>Минимальная доля угрозы рассказчика</r></e>
+  <e k="K" key="TS_WD_CaravanRaidMinFracTooltip"><s>Floor for raid points: storyteller threat baseline × this value. Effective traveler/caravan strength (after travel efficiency) cannot spawn a raid below this. On interception, baseline is usually your strongest player colony map, not the empty encounter map.</s><r>Минимальное количество очков рейда: базовый уровень угрозы рассказчика × это значение. Эффективная сила путешественника/каравана (после эффективности путешествия) не может создать рейд ниже этого значения. При перехвате базовой линией обычно является карта колонии вашего сильнейшего игрока, а не пустая карта столкновения.</r></e>
+  <e k="K" key="TS_WD_Log_FactionLabel"><s>Faction: {0}</s><r>Фракция: {0}</r></e>
+  <e k="K" key="TS_WD_OutpostDefenseAlwaysUseStrength"><s>Always use Strength for manual outpost defense</s><r>Всегда используйте Силу для ручной защиты аванпоста.</r></e>
+  <e k="K" key="TS_WD_OutpostDefenseAlwaysUseStrengthTooltip"><s>When on, manual outpost defense map fights use traveler strength as raid points with no storyteller band clamp. When off, the same floor and ceiling as other WD raids apply. Colony raids and caravan clashes use the setting above.</s><r>Когда эта функция включена, ручные бои на карте защиты аванпоста используют силу путешественника в качестве точек рейда без зажима ленты рассказчика. В выключенном состоянии применяются те же пол и потолок, что и в других рейдах WD. Набеги на колонии и столкновения караванов используют описанную выше настройку.</r></e>
+  <e k="K" key="TS_WD_RaidClamp_EarlyMax"><s>Max Early Game</s><r>Макс Ранняя Игра</r></e>
+  <e k="K" key="TS_WD_RaidClamp_EarlyMaxTooltip"><s>Storyteller-threat ceiling while escalation is Early. Default 130%.</s><r>Максимальный уровень угрозы рассказчика при эскалации — ранний. По умолчанию 130%.</r></e>
+  <e k="K" key="TS_WD_RaidClamp_EarlyMin"><s>Min Early Game</s><r>Минимальная ранняя игра</r></e>
+  <e k="K" key="TS_WD_RaidClamp_EarlyMinTooltip"><s>Storyteller-threat floor while escalation is Early (before Mid Game thresholds).</s><r>Минимальный уровень угрозы рассказчика при эскалации на ранней стадии (до пороговых значений середины игры).</r></e>
+  <e k="K" key="TS_WD_RaidClamp_EscalationOffHint"><s>Mid/Late Game scaling is off. The single min/max pair below is active. Enable Mid Game and Late Game in that settings page to use Early / Mid / Late bands.</s><r>Масштабирование в середине/поздней игре отключено. Одна пара мин/макс ниже активна. Включите Mid Game и Late Game на этой странице настроек, чтобы использовать диапазоны Early/Mid/Late.</r></e>
+  <e k="K" key="TS_WD_RaidClamp_LateMax"><s>Max Late Game</s><r>Макс Поздняя Игра</r></e>
+  <e k="K" key="TS_WD_RaidClamp_LateMaxTooltip"><s>Storyteller-threat ceiling while Late Game is active. Default 230%.</s><r>Максимальный уровень угрозы рассказчикам во время поздней игры. По умолчанию 230%.</r></e>
+  <e k="K" key="TS_WD_RaidClamp_LateMin"><s>Min Late Game</s><r>Минимальная поздняя игра</r></e>
+  <e k="K" key="TS_WD_RaidClamp_LateMinTooltip"><s>Storyteller-threat floor while Late Game is active.</s><r>Этаж угрозы рассказчика во время поздней игры.</r></e>
+  <e k="K" key="TS_WD_RaidClamp_MidMax"><s>Max Mid Game</s><r>Макс в середине игры</r></e>
+  <e k="K" key="TS_WD_RaidClamp_MidMaxTooltip"><s>Storyteller-threat ceiling while Mid Game is active. Default 180%.</s><r>Потолок угрозы рассказчика в середине игры. По умолчанию 180%.</r></e>
+  <e k="K" key="TS_WD_RaidClamp_MidMin"><s>Min Mid Game</s><r>Минимальная середина игры</r></e>
+  <e k="K" key="TS_WD_RaidClamp_MidMinTooltip"><s>Storyteller-threat floor while Mid Game is active.</s><r>Этаж угрозы рассказчика, пока активна середина игры.</r></e>
+  <e k="K" key="TS_WD_RaidClamp_ScaleWithEscalation"><s>Scale with mid and late game difficulty</s><r>Масштабируйте сложность в середине и конце игры.</r></e>
+  <e k="K" key="TS_WD_RaidClamp_ScaleWithEscalationTooltip"><s>When on (and Mid/Late Game is enabled), raid point floor and ceiling use separate Early / Mid / Late bands from your current escalation stage. When Mid/Late Game is disabled, the single min/max pair below is used instead.</s><r>Когда включено (и включена «Средняя/Поздняя игра»), пол и потолок рейдовой точки используют отдельные полосы «Ранний», «Средний» и «Поздний» из вашей текущей стадии эскалации. Когда «Средняя/Поздняя игра» отключена, вместо нее используется одна пара мин/макс, указанная ниже.</r></e>
+  <e k="K" key="TS_WD_Threat_AllowNonWdStorytellerRaids"><s>Allow storyteller raids from non-WD factions</s><r>Разрешить рейды рассказчиков из фракций, не принадлежащих к WD.</r></e>
+  <e k="K" key="TS_WD_Threat_AllowNonWdStorytellerRaidsTooltip"><s>When enabled, vanilla storyteller raids can still come from factions not controlled by World Domination, such as factions without physical WD settlements on the planet. Disable this to restore the old behavior and block all random storyteller enemy raids.</s><r>Если эта функция включена, ванильные рейды рассказчиков по-прежнему могут исходить от фракций, не контролируемых Мировым господством, например фракций, не имеющих физических поселений WD на планете. Отключите это, чтобы восстановить старое поведение и заблокировать все случайные вражеские рейды рассказчиков.</r></e>
+  <e k="K" key="TS_WD_Threat_BlockStorytellerRaids"><s>Block storyteller raids (only World Domination raids)</s><r>Блокировать рейды рассказчиков (только рейды «Мировое господство»)</r></e>
+  <e k="K" key="TS_WD_Threat_BlockStorytellerRaidsTooltip"><s>When enabled, random enemy raids from the vanilla storyteller are blocked for WD-managed factions. Raids from World Domination (world map), quests, comms, dev tools, and other scripted incidents (including those flagged as forced or tied to a quest) are not blocked.</s><r>Если эта функция включена, случайные вражеские рейды из ванильного рассказчика блокируются для фракций, управляемых WD. Рейды World Domination (карта мира), квесты, связь, инструменты разработки и другие скриптовые инциденты (включая те, которые помечены как вынужденные или привязанные к квесту) не блокируются.</r></e>
+  <e k="K" key="TS_WD_Threat_MaxPoints"><s>Max Raid Points</s><r>Максимальное количество рейдовых очков</r></e>
+  <e k="K" key="TS_WD_Threat_MaxPointsTooltip"><s>The absolute ceiling for raid points used by some WD reinforcement-style spawns. Vanilla storyteller raid points are not scaled by this page.</s><r>Абсолютный потолок для рейдовых точек, используемый некоторыми спавнами в стиле подкрепления WD. Очки рейда ванильного рассказчика не масштабируются на этой странице.</r></e>
+  <e k="K" key="TS_WD_Threat_MinPoints"><s>Min Raid Points</s><r>Минимальное количество рейдовых очков</r></e>
+  <e k="K" key="TS_WD_Threat_MinPointsTooltip"><s>The absolute floor for raid points in those same WD flows. Very low values can prevent spawning enemies.</s><r>Абсолютный минимум рейдовых очков в тех же потоках WD. Очень низкие значения могут предотвратить появление врагов.</r></e>
+  <e k="K" key="TS_WD_Threat_NoGoodwillHostiles"><s>No Goodwill from Hostile factions on Settlement Conquest</s><r>Никакой доброй воли со стороны враждебных фракций при завоевании поселения.</r></e>
+  <e k="K" key="TS_WD_Threat_NoGoodwillHostilesTooltip"><s>When enabled, conquering a settlement will not grant goodwill with factions that are hostile to you. Only non-hostile factions can gain goodwill from your conquests.</s><r>Если эта функция включена, завоевание поселения не принесет благосклонности к враждебным вам фракциям. Только невраждебные фракции могут получить пользу от ваших завоеваний.</r></e>
+  <e k="K" key="TS_WD_Threat_Reset"><s>Reset this page to Defaults</s><r>Сбросить эту страницу к настройкам по умолчанию</r></e>
+</AutoTranslateCache>
