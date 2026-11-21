@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="grimworld.talonoftheemperor" name="GrimWorld 40,000 - Talons of the Emperor [SweetBriana 1.7]" language="Russian" version="1">
+  <e k="D" t="FactionDef" key="GW_TotE_TalonsOfTheEmperor.description"><s>A Shield-Company of the Adeptus Custodes, the former bodyguard force to the late God-Emperor of Mankind. Stoic and unyielding, their equipment surpasses even the Adeptus Astartes, their auramite plates weathering any attack and their ancient weapons overwhelming their foes.</s><r>Щитовая рота Адептус Кустодес, бывших телохранителей покойного Бога-Императора Человечества. Стойкое и непреклонное, их снаряжение превосходит даже Адептус Астартес, их аурамитовые пластины выдерживают любую атаку, а их древнее оружие подавляет врагов.</r></e>
+  <e k="D" t="FactionDef" key="GW_TotE_TalonsOfTheEmperor.fixedName"><s>The Talons of the Emperor</s><r>Когти Императора</r></e>
+  <e k="D" t="FactionDef" key="GW_TotE_TalonsOfTheEmperor.label"><s>Talons of the Emperor</s><r>Когти Императора</r></e>
+  <e k="D" t="FactionDef" key="GW_TotE_TalonsOfTheEmperor.leaderTitle"><s>captain general</s><r>капитан-генерал</r></e>
+  <e k="D" t="FactionDef" key="GW_TotE_TalonsOfTheEmperor.messageDefendersAttacking"><s>{0} from {1} are attacking your {2}.</s><r>{0} из {1} атакуют ваш {2}.</r></e>
+  <e k="D" t="FactionDef" key="GW_TotE_TalonsOfTheEmperor.pawnSingular"><s>imperial</s><r>имперский</r></e>
+  <e k="D" t="FactionDef" key="GW_TotE_TalonsOfTheEmperor.pawnsPlural"><s>imperials</s><r>империалы</r></e>
+  <e k="D" t="HediffDef" key="GW40k_SS_InspiredByVexilla.description"><s>The Magisterium Vexilla rallies nearby warriors to greater feats of battle.</s><r>Магистериум Вексилла сплачивает ближайших воинов на великие боевые подвиги.</r></e>
+  <e k="D" t="HediffDef" key="GW40k_SS_InspiredByVexilla.label"><s>inspired by vexilla</s><r>вдохновленный Вексиллой</r></e>
+  <e k="D" t="HediffDef" key="GW40k_SS_VexillaAura.description"><s>This pawn carries a Magisterium Vexilla, projecting an inspirational aura across the battlefield.</s><r>Эта пешка несет Магистериум Вексилла, излучающий вдохновляющую ауру на поле битвы.</r></e>
+  <e k="D" t="HediffDef" key="GW40k_SS_VexillaAura.label"><s>vexilla aura</s><r>флаги на ветру</r></e>
+  <e k="D" t="HediffDef" key="GW_CaptainParry.description"><s>a parry window</s><r>окно парирования</r></e>
+  <e k="D" t="HediffDef" key="GW_CaptainParry.label"><s>Parry window(praesidium)</s><r>Окно парирования (президиум)</r></e>
+  <e k="D" t="HediffDef" key="GW_PraesidiumParry.description"><s>a parry window</s><r>окно парирования</r></e>
+  <e k="D" t="HediffDef" key="GW_PraesidiumParry.label"><s>Parry window(praesidium)</s><r>Окно парирования (президиум)</r></e>
+  <e k="D" t="PaletteDef" key="GW_CS_BackpackChapterPalettes.palettes.2.name"><s>Solar Watch</s><r>Солнечные часы</r></e>
+  <e k="D" t="PawnKindDef" key="GW_TotE_Allarus.label"><s>allarus</s><r>алларус</r></e>
+  <e k="D" t="PawnKindDef" key="GW_TotE_Castellan.label"><s>castellan</s><r>кастелян</r></e>
+  <e k="D" t="PawnKindDef" key="GW_TotE_Castellan_Leader.label"><s>castellan leader</s><r>лидер кастеляна</r></e>
+  <e k="D" t="PawnKindDef" key="GW_TotE_CustodesGuard.label"><s>custodes guard</s><r>стражник</r></e>
+  <e k="D" t="PawnKindDef" key="GW_TotE_CustodesWarden.label"><s>custodes warden</s><r>начальник тюрьмы</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.description"><s>Produce heavy Auramite-plated suits of Terminator Armor, worn by the Allarus Custodians.</s><r>Произведите тяжелые терминаторские доспехи, покрытые аурамитом, которые носят хранители Алларуса.</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.0"><s>subject-&gt;innovation's path</s><r>subject-&gt;путь инноваций</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.1"><s>subject_story-&gt;unveiled simple truths behind complex phenomena</s><r>subject_story-&gt;раскрыл простые истины, стоящие за сложными явлениями</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.10"><s>subject-&gt;seeds of tomorrow</s><r>subject-&gt;семена завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.11"><s>subject_story-&gt;planted ideas that would grow into transformative solutions</s><r>subject_story-&gt;посадил идеи, которые переросли в преобразующие решения</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.12"><s>subject_story-&gt;cultivated a garden of knowledge, ripe with potential</s><r>subject_story-&gt;возделывал сад знаний, полный потенциала</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.13"><s>subject_story-&gt;nurtured the roots of change with care and foresight</s><r>subject_story-&gt;заботливо и дальновидно взращивали корни перемен</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.14"><s>subject_gerund-&gt;sowing the future with today’s discoveries</s><r>subject_gerund-&gt;сея будущее с сегодняшними открытиями</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.15"><s>subject-&gt;the ripple of curiosity</s><r>subject-&gt;волна любопытства</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.16"><s>subject_story-&gt;set forth waves of inquiry that echoed through time</s><r>subject_story-&gt;излагать волны исследований, которые эхом отдавались во времени</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.17"><s>subject_story-&gt;dropped pebbles of innovation into the pond of knowledge</s><r>subject_story-&gt;бросил камешки инноваций в пруд знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.18"><s>subject_story-&gt;watched as one question led to another, expanding the circle of understanding</s><r>subject_story-&gt;наблюдал, как один вопрос влек за собой другой, расширяя круг понимания</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.19"><s>subject_gerund-&gt;casting stones to create waves of progress</s><r>subject_gerund-&gt;бросать камни для создания волн прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.2"><s>subject_story-&gt;simplified the intricate to make way for practical applications</s><r>subject_story-&gt;упростил сложную задачу, освободив место для практического применения</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.20"><s>subject-&gt;the alchemy of progress</s><r>subject-&gt;алхимия прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.21"><s>subject_story-&gt;merged disparate disciplines to unlock new realms of possibility</s><r>subject_story-&gt;объединили разрозненные дисциплины, чтобы открыть новые сферы возможностей</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.22"><s>subject_story-&gt;turned the impossible into the inevitable through sheer ingenuity</s><r>subject_story-&gt;превратил невозможное в неизбежное благодаря своей изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.23"><s>subject_story-&gt;crafted solutions that reshaped the understanding of what's achievable</s><r>subject_story-&gt;разработанные решения, которые изменили понимание того, что достижимо</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.24"><s>subject_gerund-&gt;blending science and magic into the fabric of reality</s><r>subject_gerund-&gt;смешивание науки и магии в ткань реальности</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.25"><s>subject-&gt;the tapestry of discovery</s><r>subject-&gt;гобелен открытий</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.26"><s>subject_story-&gt;wove together threads of knowledge from the four corners of the world</s><r>subject_story-&gt;сплели воедино нити знаний из четырех уголков мира</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.27"><s>subject_story-&gt;revealed patterns in the chaos, charting paths to untold innovations</s><r>subject_story-&gt;выявил закономерности в хаосе, проложив пути к неисчислимым инновациям</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.28"><s>subject_story-&gt;embroidered the annals of history with tales of serendipitous breakthroughs</s><r>subject_story-&gt;украсили анналы истории рассказами о счастливых открытиях</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.29"><s>subject_gerund-&gt;weaving the future from the loom of the present</s><r>subject_gerund-&gt;плетение будущего на станке настоящего</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.3"><s>subject_story-&gt;harnessed basic principles to achieve remarkable feats</s><r>subject_story-&gt;использовал основные принципы для достижения выдающихся подвигов</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.30"><s>subject-&gt;the crucible of creation</s><r>subject-&gt;тигель творения</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.31"><s>subject_story-&gt;fused raw elements into the building blocks of tomorrow</s><r>subject_story-&gt;соединил необработанные элементы в строительные блоки завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.32"><s>subject_story-&gt;tempered the fires of creativity to forge unprecedented technologies</s><r>subject_story-&gt;умерил огонь творчества, чтобы создать беспрецедентные технологии</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.33"><s>subject_story-&gt;quenched the thirst for knowledge with the elixir of invention</s><r>subject_story-&gt;утолил жажду знаний эликсиром изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.34"><s>subject_gerund-&gt;molding the raw materials of today into the artifacts of the future</s><r>subject_gerund-&gt;превращение сегодняшнего сырья в артефакты будущего</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.35"><s>subject-&gt;the beacon of enlightenment</s><r>subject-&gt;маяк просвещения</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.36"><s>subject_story-&gt;illuminated the dark corners of ignorance, guiding the way forward</s><r>subject_story-&gt;освещал темные уголки невежества, указывая путь вперед</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.37"><s>subject_story-&gt;cast light on the unknown, making the unseen visible to curious minds</s><r>subject_story-&gt;пролить свет на неизведанное, сделать невидимое видимым для любопытных умов</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.38"><s>subject_story-&gt;ignited the flames of curiosity, kindling a worldwide pursuit of understanding</s><r>subject_story-&gt;зажег пламя любопытства, разжигая стремление к пониманию во всем мире.</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.39"><s>subject_gerund-&gt;lighting the torches of progress and knowledge</s><r>subject_gerund-&gt;зажигая факелы прогресса и знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.4"><s>subject_gerund-&gt;streamlining the essence of discovery</s><r>subject_gerund-&gt;оптимизация сути открытия</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.40"><s>subject-&gt;the frontier of knowledge</s><r>subject-&gt;граница знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.41"><s>subject_story-&gt;crossed new horizons in the pursuit of understanding</s><r>subject_story-&gt;пересек новые горизонты в поисках понимания</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.42"><s>subject_story-&gt;challenged the status quo with groundbreaking theories</s><r>subject_story-&gt;бросил вызов статус-кво с помощью новаторских теорий</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.43"><s>subject_story-&gt;merged ancient wisdom with modern technology for innovative solutions</s><r>subject_story-&gt;объединили древнюю мудрость с современными технологиями для инновационных решений</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.44"><s>subject_gerund-&gt;pushing the boundaries of science and art</s><r>subject_gerund-&gt;расширяя границы науки и искусства</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.45"><s>subject-&gt;the essence of innovation</s><r>subject-&gt;суть инноваций</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.46"><s>subject_story-&gt;transformed everyday materials into extraordinary tools</s><r>subject_story-&gt;превратил повседневные материалы в необычные инструменты</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.47"><s>subject_story-&gt;paved the way for future generations with sustainable practices</s><r>subject_story-&gt;проложили путь будущим поколениям с помощью устойчивых методов</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.48"><s>subject_story-&gt;harnessed the power of nature to fuel new advancements</s><r>subject_story-&gt;использовали силу природы для стимулирования новых достижений</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.49"><s>subject_gerund-&gt;fostering an ecosystem of creativity and progress</s><r>subject_gerund-&gt;содействие развитию экосистемы творчества и прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.5"><s>subject-&gt;building blocks of progress</s><r>subject-&gt;строительные блоки прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.50"><s>subject-&gt;the architects of tomorrow</s><r>subject-&gt;архитекторы завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.51"><s>subject_story-&gt;built the foundations for a utopia where technology serves all</s><r>subject_story-&gt;заложил основы утопии, где технологии служат всем</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.52"><s>subject_story-&gt;envisioned a future where harmony between technology and nature thrives</s><r>subject_story-&gt;представлял будущее, в котором процветает гармония между технологиями и природой</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.53"><s>subject_story-&gt;crafted tools that empower humanity to reach its fullest potential</s><r>subject_story-&gt;созданные инструменты, которые позволяют человечеству полностью раскрыть свой потенциал</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.54"><s>subject_gerund-&gt;laying the keystones for future landscapes</s><r>subject_gerund-&gt;закладываем краеугольные камни для будущих пейзажей</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.55"><s>subject-&gt;exploratory leaps</s><r>subject-&gt;исследовательские прыжки</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.56"><s>subject_story-&gt;stepped boldly into uncharted territories of knowledge</s><r>subject_story-&gt;смело шагнул на неизведанные территории знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.57"><s>subject_story-&gt;bridged the gap between the known and the unknown</s><r>subject_story-&gt;преодолел разрыв между известным и неизвестным</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.58"><s>subject_story-&gt;ventured where curiosity dared to lead</s><r>subject_story-&gt;рискнул туда, где любопытство осмелилось привести</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.59"><s>subject_gerund-&gt;embarking on journeys of discovery</s><r>subject_gerund-&gt;отправляясь в путешествие открытий</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.6"><s>subject_story-&gt;laid the groundwork for monumental leaps forward</s><r>subject_story-&gt;заложил основу для монументального скачка вперед</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.60"><s>subject-&gt;the essence of ingenuity</s><r>subject-&gt;суть изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.61"><s>subject_story-&gt;transformed challenges into opportunities for growth</s><r>subject_story-&gt;превратил проблемы в возможности для роста</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.62"><s>subject_story-&gt;applied creative thinking to overcome traditional obstacles</s><r>subject_story-&gt;применил творческое мышление для преодоления традиционных препятствий</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.63"><s>subject_story-&gt;crafted elegant solutions with a blend of art and science</s><r>subject_story-&gt;созданные элегантные решения, сочетающие искусство и науку</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.64"><s>subject_gerund-&gt;unlocking potential through innovation</s><r>subject_gerund-&gt;раскрытие потенциала через инновации</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.65"><s>subject-&gt;knowledge’s harvest</s><r>subject-&gt;урожай знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.66"><s>subject_story-&gt;gathered insights as one reaps the fields at harvest</s><r>subject_story-&gt;собирал идеи, когда собираешь урожай на полях</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.67"><s>subject_story-&gt;cultivated a bounty of understanding from the seeds of inquiry</s><r>subject_story-&gt;вырастил щедрость понимания из семян исследования</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.68"><s>subject_story-&gt;shared the fruits of research with the world</s><r>subject_story-&gt;поделился плодами исследований со всем миром</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.69"><s>subject_gerund-&gt;reaping the rewards of relentless curiosity</s><r>subject_gerund-&gt;пожинать плоды неустанного любопытства</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.7"><s>subject_story-&gt;connected dots across disciplines to reveal new insights</s><r>subject_story-&gt;связали точки между дисциплинами, чтобы выявить новые идеи</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.70"><s>subject-&gt;the puzzle of progress</s><r>subject-&gt;загадка прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.71"><s>subject_story-&gt;assembled the pieces of mystery to reveal the big picture</s><r>subject_story-&gt;собрал кусочки тайны, чтобы раскрыть общую картину</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.72"><s>subject_story-&gt;matched theory with practice to solve longstanding puzzles</s><r>subject_story-&gt;сочетать теорию с практикой для решения давних загадок</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.73"><s>subject_story-&gt;uncovered hidden connections that unlocked new possibilities</s><r>subject_story-&gt;раскрыл скрытые связи, которые открыли новые возможности</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.74"><s>subject_gerund-&gt;piecing together the elements of advancement</s><r>subject_gerund-&gt;собираем воедино элементы продвижения</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.8"><s>subject_story-&gt;crafted the foundation upon which future innovations stand</s><r>subject_story-&gt;создали основу, на которой стоят будущие инновации</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.generalRules.rulesStrings.9"><s>subject_gerund-&gt;laying down the keystones of advancement</s><r>subject_gerund-&gt;закладывая краеугольные камни продвижения</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Allarus.label"><s>Allarus terminator</s><r>Аллер терминатор</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.description"><s>Recreate the Castellan Plate, the armor of Captain-General Trajann Valoris, leader of the Adeptus Custodes.</s><r>Воссоздайте кастелянскую броню — доспехи генерал-капитана Траяна Валориса, лидера Адептус Кустодес.</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.0"><s>subject-&gt;innovation's path</s><r>subject-&gt;путь инноваций</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.1"><s>subject_story-&gt;unveiled simple truths behind complex phenomena</s><r>subject_story-&gt;раскрыл простые истины, стоящие за сложными явлениями</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.10"><s>subject-&gt;seeds of tomorrow</s><r>subject-&gt;семена завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.11"><s>subject_story-&gt;planted ideas that would grow into transformative solutions</s><r>subject_story-&gt;посадил идеи, которые переросли в преобразующие решения</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.12"><s>subject_story-&gt;cultivated a garden of knowledge, ripe with potential</s><r>subject_story-&gt;возделывал сад знаний, полный потенциала</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.13"><s>subject_story-&gt;nurtured the roots of change with care and foresight</s><r>subject_story-&gt;заботливо и дальновидно взращивали корни перемен</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.14"><s>subject_gerund-&gt;sowing the future with today’s discoveries</s><r>subject_gerund-&gt;сея будущее с сегодняшними открытиями</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.15"><s>subject-&gt;the ripple of curiosity</s><r>subject-&gt;волна любопытства</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.16"><s>subject_story-&gt;set forth waves of inquiry that echoed through time</s><r>subject_story-&gt;излагать волны исследований, которые эхом отдавались во времени</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.17"><s>subject_story-&gt;dropped pebbles of innovation into the pond of knowledge</s><r>subject_story-&gt;бросил камешки инноваций в пруд знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.18"><s>subject_story-&gt;watched as one question led to another, expanding the circle of understanding</s><r>subject_story-&gt;наблюдал, как один вопрос влек за собой другой, расширяя круг понимания</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.19"><s>subject_gerund-&gt;casting stones to create waves of progress</s><r>subject_gerund-&gt;бросать камни для создания волн прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.2"><s>subject_story-&gt;simplified the intricate to make way for practical applications</s><r>subject_story-&gt;упростил сложную задачу, освободив место для практического применения</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.20"><s>subject-&gt;the alchemy of progress</s><r>subject-&gt;алхимия прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.21"><s>subject_story-&gt;merged disparate disciplines to unlock new realms of possibility</s><r>subject_story-&gt;объединили разрозненные дисциплины, чтобы открыть новые сферы возможностей</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.22"><s>subject_story-&gt;turned the impossible into the inevitable through sheer ingenuity</s><r>subject_story-&gt;превратил невозможное в неизбежное благодаря своей изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.23"><s>subject_story-&gt;crafted solutions that reshaped the understanding of what's achievable</s><r>subject_story-&gt;разработанные решения, которые изменили понимание того, что достижимо</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.24"><s>subject_gerund-&gt;blending science and magic into the fabric of reality</s><r>subject_gerund-&gt;смешивание науки и магии в ткань реальности</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.25"><s>subject-&gt;the tapestry of discovery</s><r>subject-&gt;гобелен открытий</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.26"><s>subject_story-&gt;wove together threads of knowledge from the four corners of the world</s><r>subject_story-&gt;сплели воедино нити знаний из четырех уголков мира</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.27"><s>subject_story-&gt;revealed patterns in the chaos, charting paths to untold innovations</s><r>subject_story-&gt;выявил закономерности в хаосе, проложив пути к неисчислимым инновациям</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.28"><s>subject_story-&gt;embroidered the annals of history with tales of serendipitous breakthroughs</s><r>subject_story-&gt;украсили анналы истории рассказами о счастливых открытиях</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.29"><s>subject_gerund-&gt;weaving the future from the loom of the present</s><r>subject_gerund-&gt;плетение будущего на станке настоящего</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.3"><s>subject_story-&gt;harnessed basic principles to achieve remarkable feats</s><r>subject_story-&gt;использовал основные принципы для достижения выдающихся подвигов</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.30"><s>subject-&gt;the crucible of creation</s><r>subject-&gt;тигель творения</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.31"><s>subject_story-&gt;fused raw elements into the building blocks of tomorrow</s><r>subject_story-&gt;соединил необработанные элементы в строительные блоки завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.32"><s>subject_story-&gt;tempered the fires of creativity to forge unprecedented technologies</s><r>subject_story-&gt;умерил огонь творчества, чтобы создать беспрецедентные технологии</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.33"><s>subject_story-&gt;quenched the thirst for knowledge with the elixir of invention</s><r>subject_story-&gt;утолил жажду знаний эликсиром изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.34"><s>subject_gerund-&gt;molding the raw materials of today into the artifacts of the future</s><r>subject_gerund-&gt;превращение сегодняшнего сырья в артефакты будущего</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.35"><s>subject-&gt;the beacon of enlightenment</s><r>subject-&gt;маяк просвещения</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.36"><s>subject_story-&gt;illuminated the dark corners of ignorance, guiding the way forward</s><r>subject_story-&gt;освещал темные уголки невежества, указывая путь вперед</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.37"><s>subject_story-&gt;cast light on the unknown, making the unseen visible to curious minds</s><r>subject_story-&gt;пролить свет на неизведанное, сделать невидимое видимым для любопытных умов</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.38"><s>subject_story-&gt;ignited the flames of curiosity, kindling a worldwide pursuit of understanding</s><r>subject_story-&gt;зажег пламя любопытства, разжигая стремление к пониманию во всем мире.</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.39"><s>subject_gerund-&gt;lighting the torches of progress and knowledge</s><r>subject_gerund-&gt;зажигая факелы прогресса и знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.4"><s>subject_gerund-&gt;streamlining the essence of discovery</s><r>subject_gerund-&gt;оптимизация сути открытия</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.40"><s>subject-&gt;the frontier of knowledge</s><r>subject-&gt;граница знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.41"><s>subject_story-&gt;crossed new horizons in the pursuit of understanding</s><r>subject_story-&gt;пересек новые горизонты в поисках понимания</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.42"><s>subject_story-&gt;challenged the status quo with groundbreaking theories</s><r>subject_story-&gt;бросил вызов статус-кво с помощью новаторских теорий</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.43"><s>subject_story-&gt;merged ancient wisdom with modern technology for innovative solutions</s><r>subject_story-&gt;объединили древнюю мудрость с современными технологиями для инновационных решений</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.44"><s>subject_gerund-&gt;pushing the boundaries of science and art</s><r>subject_gerund-&gt;расширяя границы науки и искусства</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.45"><s>subject-&gt;the essence of innovation</s><r>subject-&gt;суть инноваций</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.46"><s>subject_story-&gt;transformed everyday materials into extraordinary tools</s><r>subject_story-&gt;превратил повседневные материалы в необычные инструменты</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.47"><s>subject_story-&gt;paved the way for future generations with sustainable practices</s><r>subject_story-&gt;проложили путь будущим поколениям с помощью устойчивых методов</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.48"><s>subject_story-&gt;harnessed the power of nature to fuel new advancements</s><r>subject_story-&gt;использовали силу природы для стимулирования новых достижений</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.49"><s>subject_gerund-&gt;fostering an ecosystem of creativity and progress</s><r>subject_gerund-&gt;содействие развитию экосистемы творчества и прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.5"><s>subject-&gt;building blocks of progress</s><r>subject-&gt;строительные блоки прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.50"><s>subject-&gt;the architects of tomorrow</s><r>subject-&gt;архитекторы завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.51"><s>subject_story-&gt;built the foundations for a utopia where technology serves all</s><r>subject_story-&gt;заложил основы утопии, где технологии служат всем</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.52"><s>subject_story-&gt;envisioned a future where harmony between technology and nature thrives</s><r>subject_story-&gt;представлял будущее, в котором процветает гармония между технологиями и природой</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.53"><s>subject_story-&gt;crafted tools that empower humanity to reach its fullest potential</s><r>subject_story-&gt;созданные инструменты, которые позволяют человечеству полностью раскрыть свой потенциал</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.54"><s>subject_gerund-&gt;laying the keystones for future landscapes</s><r>subject_gerund-&gt;закладываем краеугольные камни для будущих пейзажей</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.55"><s>subject-&gt;exploratory leaps</s><r>subject-&gt;исследовательские прыжки</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.56"><s>subject_story-&gt;stepped boldly into uncharted territories of knowledge</s><r>subject_story-&gt;смело шагнул на неизведанные территории знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.57"><s>subject_story-&gt;bridged the gap between the known and the unknown</s><r>subject_story-&gt;преодолел разрыв между известным и неизвестным</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.58"><s>subject_story-&gt;ventured where curiosity dared to lead</s><r>subject_story-&gt;рискнул туда, где любопытство осмелилось привести</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.59"><s>subject_gerund-&gt;embarking on journeys of discovery</s><r>subject_gerund-&gt;отправляясь в путешествие открытий</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.6"><s>subject_story-&gt;laid the groundwork for monumental leaps forward</s><r>subject_story-&gt;заложил основу для монументального скачка вперед</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.60"><s>subject-&gt;the essence of ingenuity</s><r>subject-&gt;суть изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.61"><s>subject_story-&gt;transformed challenges into opportunities for growth</s><r>subject_story-&gt;превратил проблемы в возможности для роста</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.62"><s>subject_story-&gt;applied creative thinking to overcome traditional obstacles</s><r>subject_story-&gt;применил творческое мышление для преодоления традиционных препятствий</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.63"><s>subject_story-&gt;crafted elegant solutions with a blend of art and science</s><r>subject_story-&gt;созданные элегантные решения, сочетающие искусство и науку</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.64"><s>subject_gerund-&gt;unlocking potential through innovation</s><r>subject_gerund-&gt;раскрытие потенциала через инновации</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.65"><s>subject-&gt;knowledge’s harvest</s><r>subject-&gt;урожай знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.66"><s>subject_story-&gt;gathered insights as one reaps the fields at harvest</s><r>subject_story-&gt;собирал идеи, когда собираешь урожай на полях</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.67"><s>subject_story-&gt;cultivated a bounty of understanding from the seeds of inquiry</s><r>subject_story-&gt;вырастил щедрость понимания из семян исследования</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.68"><s>subject_story-&gt;shared the fruits of research with the world</s><r>subject_story-&gt;поделился плодами исследований со всем миром</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.69"><s>subject_gerund-&gt;reaping the rewards of relentless curiosity</s><r>subject_gerund-&gt;пожинать плоды неустанного любопытства</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.7"><s>subject_story-&gt;connected dots across disciplines to reveal new insights</s><r>subject_story-&gt;связали точки между дисциплинами, чтобы выявить новые идеи</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.70"><s>subject-&gt;the puzzle of progress</s><r>subject-&gt;загадка прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.71"><s>subject_story-&gt;assembled the pieces of mystery to reveal the big picture</s><r>subject_story-&gt;собрал кусочки тайны, чтобы раскрыть общую картину</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.72"><s>subject_story-&gt;matched theory with practice to solve longstanding puzzles</s><r>subject_story-&gt;сочетать теорию с практикой для решения давних загадок</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.73"><s>subject_story-&gt;uncovered hidden connections that unlocked new possibilities</s><r>subject_story-&gt;раскрыл скрытые связи, которые открыли новые возможности</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.74"><s>subject_gerund-&gt;piecing together the elements of advancement</s><r>subject_gerund-&gt;собираем воедино элементы продвижения</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.8"><s>subject_story-&gt;crafted the foundation upon which future innovations stand</s><r>subject_story-&gt;создали основу, на которой стоят будущие инновации</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.generalRules.rulesStrings.9"><s>subject_gerund-&gt;laying down the keystones of advancement</s><r>subject_gerund-&gt;закладывая краеугольные камни продвижения</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_Castellan.label"><s>Castellan</s><r>Кастелян</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.description"><s>Recover schematics for the armor and weapons of the Adeptus Custodes, the bodyguard force of the God-Emperor of Mankind.</s><r>Найдите чертежи доспехов и оружия Адептус Кустодес, телохранителей Бога-Императора Человечества.</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.0"><s>subject-&gt;innovation's path</s><r>subject-&gt;путь инноваций</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.1"><s>subject_story-&gt;unveiled simple truths behind complex phenomena</s><r>subject_story-&gt;раскрыл простые истины, стоящие за сложными явлениями</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.10"><s>subject-&gt;seeds of tomorrow</s><r>subject-&gt;семена завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.11"><s>subject_story-&gt;planted ideas that would grow into transformative solutions</s><r>subject_story-&gt;посадил идеи, которые переросли в преобразующие решения</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.12"><s>subject_story-&gt;cultivated a garden of knowledge, ripe with potential</s><r>subject_story-&gt;возделывал сад знаний, полный потенциала</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.13"><s>subject_story-&gt;nurtured the roots of change with care and foresight</s><r>subject_story-&gt;заботливо и дальновидно взращивали корни перемен</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.14"><s>subject_gerund-&gt;sowing the future with today’s discoveries</s><r>subject_gerund-&gt;сея будущее с сегодняшними открытиями</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.15"><s>subject-&gt;the ripple of curiosity</s><r>subject-&gt;волна любопытства</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.16"><s>subject_story-&gt;set forth waves of inquiry that echoed through time</s><r>subject_story-&gt;излагать волны исследований, которые эхом отдавались во времени</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.17"><s>subject_story-&gt;dropped pebbles of innovation into the pond of knowledge</s><r>subject_story-&gt;бросил камешки инноваций в пруд знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.18"><s>subject_story-&gt;watched as one question led to another, expanding the circle of understanding</s><r>subject_story-&gt;наблюдал, как один вопрос влек за собой другой, расширяя круг понимания</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.19"><s>subject_gerund-&gt;casting stones to create waves of progress</s><r>subject_gerund-&gt;бросать камни для создания волн прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.2"><s>subject_story-&gt;simplified the intricate to make way for practical applications</s><r>subject_story-&gt;упростил сложную задачу, освободив место для практического применения</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.20"><s>subject-&gt;the alchemy of progress</s><r>subject-&gt;алхимия прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.21"><s>subject_story-&gt;merged disparate disciplines to unlock new realms of possibility</s><r>subject_story-&gt;объединили разрозненные дисциплины, чтобы открыть новые сферы возможностей</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.22"><s>subject_story-&gt;turned the impossible into the inevitable through sheer ingenuity</s><r>subject_story-&gt;превратил невозможное в неизбежное благодаря своей изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.23"><s>subject_story-&gt;crafted solutions that reshaped the understanding of what's achievable</s><r>subject_story-&gt;разработанные решения, которые изменили понимание того, что достижимо</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.24"><s>subject_gerund-&gt;blending science and magic into the fabric of reality</s><r>subject_gerund-&gt;смешивание науки и магии в ткань реальности</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.25"><s>subject-&gt;the tapestry of discovery</s><r>subject-&gt;гобелен открытий</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.26"><s>subject_story-&gt;wove together threads of knowledge from the four corners of the world</s><r>subject_story-&gt;сплели воедино нити знаний из четырех уголков мира</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.27"><s>subject_story-&gt;revealed patterns in the chaos, charting paths to untold innovations</s><r>subject_story-&gt;выявил закономерности в хаосе, проложив пути к неисчислимым инновациям</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.28"><s>subject_story-&gt;embroidered the annals of history with tales of serendipitous breakthroughs</s><r>subject_story-&gt;украсили анналы истории рассказами о счастливых открытиях</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.29"><s>subject_gerund-&gt;weaving the future from the loom of the present</s><r>subject_gerund-&gt;плетение будущего на станке настоящего</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.3"><s>subject_story-&gt;harnessed basic principles to achieve remarkable feats</s><r>subject_story-&gt;использовал основные принципы для достижения выдающихся подвигов</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.30"><s>subject-&gt;the crucible of creation</s><r>subject-&gt;тигель творения</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.31"><s>subject_story-&gt;fused raw elements into the building blocks of tomorrow</s><r>subject_story-&gt;соединил необработанные элементы в строительные блоки завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.32"><s>subject_story-&gt;tempered the fires of creativity to forge unprecedented technologies</s><r>subject_story-&gt;умерил огонь творчества, чтобы создать беспрецедентные технологии</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.33"><s>subject_story-&gt;quenched the thirst for knowledge with the elixir of invention</s><r>subject_story-&gt;утолил жажду знаний эликсиром изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.34"><s>subject_gerund-&gt;molding the raw materials of today into the artifacts of the future</s><r>subject_gerund-&gt;превращение сегодняшнего сырья в артефакты будущего</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.35"><s>subject-&gt;the beacon of enlightenment</s><r>subject-&gt;маяк просвещения</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.36"><s>subject_story-&gt;illuminated the dark corners of ignorance, guiding the way forward</s><r>subject_story-&gt;освещал темные уголки невежества, указывая путь вперед</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.37"><s>subject_story-&gt;cast light on the unknown, making the unseen visible to curious minds</s><r>subject_story-&gt;пролить свет на неизведанное, сделать невидимое видимым для любопытных умов</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.38"><s>subject_story-&gt;ignited the flames of curiosity, kindling a worldwide pursuit of understanding</s><r>subject_story-&gt;зажег пламя любопытства, разжигая стремление к пониманию во всем мире.</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.39"><s>subject_gerund-&gt;lighting the torches of progress and knowledge</s><r>subject_gerund-&gt;зажигая факелы прогресса и знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.4"><s>subject_gerund-&gt;streamlining the essence of discovery</s><r>subject_gerund-&gt;оптимизация сути открытия</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.40"><s>subject-&gt;the frontier of knowledge</s><r>subject-&gt;граница знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.41"><s>subject_story-&gt;crossed new horizons in the pursuit of understanding</s><r>subject_story-&gt;пересек новые горизонты в поисках понимания</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.42"><s>subject_story-&gt;challenged the status quo with groundbreaking theories</s><r>subject_story-&gt;бросил вызов статус-кво с помощью новаторских теорий</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.43"><s>subject_story-&gt;merged ancient wisdom with modern technology for innovative solutions</s><r>subject_story-&gt;объединили древнюю мудрость с современными технологиями для инновационных решений</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.44"><s>subject_gerund-&gt;pushing the boundaries of science and art</s><r>subject_gerund-&gt;расширяя границы науки и искусства</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.45"><s>subject-&gt;the essence of innovation</s><r>subject-&gt;суть инноваций</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.46"><s>subject_story-&gt;transformed everyday materials into extraordinary tools</s><r>subject_story-&gt;превратил повседневные материалы в необычные инструменты</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.47"><s>subject_story-&gt;paved the way for future generations with sustainable practices</s><r>subject_story-&gt;проложили путь будущим поколениям с помощью устойчивых методов</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.48"><s>subject_story-&gt;harnessed the power of nature to fuel new advancements</s><r>subject_story-&gt;использовали силу природы для стимулирования новых достижений</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.49"><s>subject_gerund-&gt;fostering an ecosystem of creativity and progress</s><r>subject_gerund-&gt;содействие развитию экосистемы творчества и прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.5"><s>subject-&gt;building blocks of progress</s><r>subject-&gt;строительные блоки прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.50"><s>subject-&gt;the architects of tomorrow</s><r>subject-&gt;архитекторы завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.51"><s>subject_story-&gt;built the foundations for a utopia where technology serves all</s><r>subject_story-&gt;заложил основы утопии, где технологии служат всем</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.52"><s>subject_story-&gt;envisioned a future where harmony between technology and nature thrives</s><r>subject_story-&gt;представлял будущее, в котором процветает гармония между технологиями и природой</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.53"><s>subject_story-&gt;crafted tools that empower humanity to reach its fullest potential</s><r>subject_story-&gt;созданные инструменты, которые позволяют человечеству полностью раскрыть свой потенциал</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.54"><s>subject_gerund-&gt;laying the keystones for future landscapes</s><r>subject_gerund-&gt;закладываем краеугольные камни для будущих пейзажей</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.55"><s>subject-&gt;exploratory leaps</s><r>subject-&gt;исследовательские прыжки</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.56"><s>subject_story-&gt;stepped boldly into uncharted territories of knowledge</s><r>subject_story-&gt;смело шагнул на неизведанные территории знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.57"><s>subject_story-&gt;bridged the gap between the known and the unknown</s><r>subject_story-&gt;преодолел разрыв между известным и неизвестным</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.58"><s>subject_story-&gt;ventured where curiosity dared to lead</s><r>subject_story-&gt;рискнул туда, где любопытство осмелилось привести</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.59"><s>subject_gerund-&gt;embarking on journeys of discovery</s><r>subject_gerund-&gt;отправляясь в путешествие открытий</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.6"><s>subject_story-&gt;laid the groundwork for monumental leaps forward</s><r>subject_story-&gt;заложил основу для монументального скачка вперед</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.60"><s>subject-&gt;the essence of ingenuity</s><r>subject-&gt;суть изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.61"><s>subject_story-&gt;transformed challenges into opportunities for growth</s><r>subject_story-&gt;превратил проблемы в возможности для роста</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.62"><s>subject_story-&gt;applied creative thinking to overcome traditional obstacles</s><r>subject_story-&gt;применил творческое мышление для преодоления традиционных препятствий</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.63"><s>subject_story-&gt;crafted elegant solutions with a blend of art and science</s><r>subject_story-&gt;созданные элегантные решения, сочетающие искусство и науку</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.64"><s>subject_gerund-&gt;unlocking potential through innovation</s><r>subject_gerund-&gt;раскрытие потенциала через инновации</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.65"><s>subject-&gt;knowledge’s harvest</s><r>subject-&gt;урожай знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.66"><s>subject_story-&gt;gathered insights as one reaps the fields at harvest</s><r>subject_story-&gt;собирал идеи, когда собираешь урожай на полях</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.67"><s>subject_story-&gt;cultivated a bounty of understanding from the seeds of inquiry</s><r>subject_story-&gt;вырастил щедрость понимания из семян исследования</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.68"><s>subject_story-&gt;shared the fruits of research with the world</s><r>subject_story-&gt;поделился плодами исследований со всем миром</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.69"><s>subject_gerund-&gt;reaping the rewards of relentless curiosity</s><r>subject_gerund-&gt;пожинать плоды неустанного любопытства</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.7"><s>subject_story-&gt;connected dots across disciplines to reveal new insights</s><r>subject_story-&gt;связали точки между дисциплинами, чтобы выявить новые идеи</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.70"><s>subject-&gt;the puzzle of progress</s><r>subject-&gt;загадка прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.71"><s>subject_story-&gt;assembled the pieces of mystery to reveal the big picture</s><r>subject_story-&gt;собрал кусочки тайны, чтобы раскрыть общую картину</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.72"><s>subject_story-&gt;matched theory with practice to solve longstanding puzzles</s><r>subject_story-&gt;сочетать теорию с практикой для решения давних загадок</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.73"><s>subject_story-&gt;uncovered hidden connections that unlocked new possibilities</s><r>subject_story-&gt;раскрыл скрытые связи, которые открыли новые возможности</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.74"><s>subject_gerund-&gt;piecing together the elements of advancement</s><r>subject_gerund-&gt;собираем воедино элементы продвижения</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.8"><s>subject_story-&gt;crafted the foundation upon which future innovations stand</s><r>subject_story-&gt;создали основу, на которой стоят будущие инновации</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.generalRules.rulesStrings.9"><s>subject_gerund-&gt;laying down the keystones of advancement</s><r>subject_gerund-&gt;закладывая краеугольные камни продвижения</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesFabrication.label"><s>Custodes fabrication</s><r>Изготовление кустодов</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.description"><s>Begin production of equipment for the battleline Hykanatoi, also known as the Custodian Guard.</s><r>Начать производство снаряжения для боевой линии Гиканатой, также известной как Кустодианская гвардия.</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.0"><s>subject-&gt;innovation's path</s><r>subject-&gt;путь инноваций</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.1"><s>subject_story-&gt;unveiled simple truths behind complex phenomena</s><r>subject_story-&gt;раскрыл простые истины, стоящие за сложными явлениями</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.10"><s>subject-&gt;seeds of tomorrow</s><r>subject-&gt;семена завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.11"><s>subject_story-&gt;planted ideas that would grow into transformative solutions</s><r>subject_story-&gt;посадил идеи, которые переросли в преобразующие решения</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.12"><s>subject_story-&gt;cultivated a garden of knowledge, ripe with potential</s><r>subject_story-&gt;возделывал сад знаний, полный потенциала</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.13"><s>subject_story-&gt;nurtured the roots of change with care and foresight</s><r>subject_story-&gt;заботливо и дальновидно взращивали корни перемен</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.14"><s>subject_gerund-&gt;sowing the future with today’s discoveries</s><r>subject_gerund-&gt;сея будущее с сегодняшними открытиями</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.15"><s>subject-&gt;the ripple of curiosity</s><r>subject-&gt;волна любопытства</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.16"><s>subject_story-&gt;set forth waves of inquiry that echoed through time</s><r>subject_story-&gt;излагать волны исследований, которые эхом отдавались во времени</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.17"><s>subject_story-&gt;dropped pebbles of innovation into the pond of knowledge</s><r>subject_story-&gt;бросил камешки инноваций в пруд знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.18"><s>subject_story-&gt;watched as one question led to another, expanding the circle of understanding</s><r>subject_story-&gt;наблюдал, как один вопрос влек за собой другой, расширяя круг понимания</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.19"><s>subject_gerund-&gt;casting stones to create waves of progress</s><r>subject_gerund-&gt;бросать камни для создания волн прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.2"><s>subject_story-&gt;simplified the intricate to make way for practical applications</s><r>subject_story-&gt;упростил сложную задачу, освободив место для практического применения</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.20"><s>subject-&gt;the alchemy of progress</s><r>subject-&gt;алхимия прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.21"><s>subject_story-&gt;merged disparate disciplines to unlock new realms of possibility</s><r>subject_story-&gt;объединили разрозненные дисциплины, чтобы открыть новые сферы возможностей</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.22"><s>subject_story-&gt;turned the impossible into the inevitable through sheer ingenuity</s><r>subject_story-&gt;превратил невозможное в неизбежное благодаря своей изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.23"><s>subject_story-&gt;crafted solutions that reshaped the understanding of what's achievable</s><r>subject_story-&gt;разработанные решения, которые изменили понимание того, что достижимо</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.24"><s>subject_gerund-&gt;blending science and magic into the fabric of reality</s><r>subject_gerund-&gt;смешивание науки и магии в ткань реальности</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.25"><s>subject-&gt;the tapestry of discovery</s><r>subject-&gt;гобелен открытий</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.26"><s>subject_story-&gt;wove together threads of knowledge from the four corners of the world</s><r>subject_story-&gt;сплели воедино нити знаний из четырех уголков мира</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.27"><s>subject_story-&gt;revealed patterns in the chaos, charting paths to untold innovations</s><r>subject_story-&gt;выявил закономерности в хаосе, проложив пути к неисчислимым инновациям</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.28"><s>subject_story-&gt;embroidered the annals of history with tales of serendipitous breakthroughs</s><r>subject_story-&gt;украсили анналы истории рассказами о счастливых открытиях</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.29"><s>subject_gerund-&gt;weaving the future from the loom of the present</s><r>subject_gerund-&gt;плетение будущего на станке настоящего</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.3"><s>subject_story-&gt;harnessed basic principles to achieve remarkable feats</s><r>subject_story-&gt;использовал основные принципы для достижения выдающихся подвигов</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.30"><s>subject-&gt;the crucible of creation</s><r>subject-&gt;тигель творения</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.31"><s>subject_story-&gt;fused raw elements into the building blocks of tomorrow</s><r>subject_story-&gt;соединил необработанные элементы в строительные блоки завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.32"><s>subject_story-&gt;tempered the fires of creativity to forge unprecedented technologies</s><r>subject_story-&gt;умерил огонь творчества, чтобы создать беспрецедентные технологии</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.33"><s>subject_story-&gt;quenched the thirst for knowledge with the elixir of invention</s><r>subject_story-&gt;утолил жажду знаний эликсиром изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.34"><s>subject_gerund-&gt;molding the raw materials of today into the artifacts of the future</s><r>subject_gerund-&gt;превращение сегодняшнего сырья в артефакты будущего</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.35"><s>subject-&gt;the beacon of enlightenment</s><r>subject-&gt;маяк просвещения</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.36"><s>subject_story-&gt;illuminated the dark corners of ignorance, guiding the way forward</s><r>subject_story-&gt;освещал темные уголки невежества, указывая путь вперед</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.37"><s>subject_story-&gt;cast light on the unknown, making the unseen visible to curious minds</s><r>subject_story-&gt;пролить свет на неизведанное, сделать невидимое видимым для любопытных умов</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.38"><s>subject_story-&gt;ignited the flames of curiosity, kindling a worldwide pursuit of understanding</s><r>subject_story-&gt;зажег пламя любопытства, разжигая стремление к пониманию во всем мире.</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.39"><s>subject_gerund-&gt;lighting the torches of progress and knowledge</s><r>subject_gerund-&gt;зажигая факелы прогресса и знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.4"><s>subject_gerund-&gt;streamlining the essence of discovery</s><r>subject_gerund-&gt;оптимизация сути открытия</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.40"><s>subject-&gt;the frontier of knowledge</s><r>subject-&gt;граница знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.41"><s>subject_story-&gt;crossed new horizons in the pursuit of understanding</s><r>subject_story-&gt;пересек новые горизонты в поисках понимания</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.42"><s>subject_story-&gt;challenged the status quo with groundbreaking theories</s><r>subject_story-&gt;бросил вызов статус-кво с помощью новаторских теорий</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.43"><s>subject_story-&gt;merged ancient wisdom with modern technology for innovative solutions</s><r>subject_story-&gt;объединили древнюю мудрость с современными технологиями для инновационных решений</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.44"><s>subject_gerund-&gt;pushing the boundaries of science and art</s><r>subject_gerund-&gt;расширяя границы науки и искусства</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.45"><s>subject-&gt;the essence of innovation</s><r>subject-&gt;суть инноваций</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.46"><s>subject_story-&gt;transformed everyday materials into extraordinary tools</s><r>subject_story-&gt;превратил повседневные материалы в необычные инструменты</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.47"><s>subject_story-&gt;paved the way for future generations with sustainable practices</s><r>subject_story-&gt;проложили путь будущим поколениям с помощью устойчивых методов</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.48"><s>subject_story-&gt;harnessed the power of nature to fuel new advancements</s><r>subject_story-&gt;использовали силу природы для стимулирования новых достижений</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.49"><s>subject_gerund-&gt;fostering an ecosystem of creativity and progress</s><r>subject_gerund-&gt;содействие развитию экосистемы творчества и прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.5"><s>subject-&gt;building blocks of progress</s><r>subject-&gt;строительные блоки прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.50"><s>subject-&gt;the architects of tomorrow</s><r>subject-&gt;архитекторы завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.51"><s>subject_story-&gt;built the foundations for a utopia where technology serves all</s><r>subject_story-&gt;заложил основы утопии, где технологии служат всем</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.52"><s>subject_story-&gt;envisioned a future where harmony between technology and nature thrives</s><r>subject_story-&gt;представлял будущее, в котором процветает гармония между технологиями и природой</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.53"><s>subject_story-&gt;crafted tools that empower humanity to reach its fullest potential</s><r>subject_story-&gt;созданные инструменты, которые позволяют человечеству полностью раскрыть свой потенциал</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.54"><s>subject_gerund-&gt;laying the keystones for future landscapes</s><r>subject_gerund-&gt;закладываем краеугольные камни для будущих пейзажей</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.55"><s>subject-&gt;exploratory leaps</s><r>subject-&gt;исследовательские прыжки</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.56"><s>subject_story-&gt;stepped boldly into uncharted territories of knowledge</s><r>subject_story-&gt;смело шагнул на неизведанные территории знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.57"><s>subject_story-&gt;bridged the gap between the known and the unknown</s><r>subject_story-&gt;преодолел разрыв между известным и неизвестным</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.58"><s>subject_story-&gt;ventured where curiosity dared to lead</s><r>subject_story-&gt;рискнул туда, где любопытство осмелилось привести</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.59"><s>subject_gerund-&gt;embarking on journeys of discovery</s><r>subject_gerund-&gt;отправляясь в путешествие открытий</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.6"><s>subject_story-&gt;laid the groundwork for monumental leaps forward</s><r>subject_story-&gt;заложил основу для монументального скачка вперед</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.60"><s>subject-&gt;the essence of ingenuity</s><r>subject-&gt;суть изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.61"><s>subject_story-&gt;transformed challenges into opportunities for growth</s><r>subject_story-&gt;превратил проблемы в возможности для роста</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.62"><s>subject_story-&gt;applied creative thinking to overcome traditional obstacles</s><r>subject_story-&gt;применил творческое мышление для преодоления традиционных препятствий</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.63"><s>subject_story-&gt;crafted elegant solutions with a blend of art and science</s><r>subject_story-&gt;созданные элегантные решения, сочетающие искусство и науку</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.64"><s>subject_gerund-&gt;unlocking potential through innovation</s><r>subject_gerund-&gt;раскрытие потенциала через инновации</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.65"><s>subject-&gt;knowledge’s harvest</s><r>subject-&gt;урожай знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.66"><s>subject_story-&gt;gathered insights as one reaps the fields at harvest</s><r>subject_story-&gt;собирал идеи, когда собираешь урожай на полях</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.67"><s>subject_story-&gt;cultivated a bounty of understanding from the seeds of inquiry</s><r>subject_story-&gt;вырастил щедрость понимания из семян исследования</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.68"><s>subject_story-&gt;shared the fruits of research with the world</s><r>subject_story-&gt;поделился плодами исследований со всем миром</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.69"><s>subject_gerund-&gt;reaping the rewards of relentless curiosity</s><r>subject_gerund-&gt;пожинать плоды неустанного любопытства</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.7"><s>subject_story-&gt;connected dots across disciplines to reveal new insights</s><r>subject_story-&gt;связали точки между дисциплинами, чтобы выявить новые идеи</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.70"><s>subject-&gt;the puzzle of progress</s><r>subject-&gt;загадка прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.71"><s>subject_story-&gt;assembled the pieces of mystery to reveal the big picture</s><r>subject_story-&gt;собрал кусочки тайны, чтобы раскрыть общую картину</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.72"><s>subject_story-&gt;matched theory with practice to solve longstanding puzzles</s><r>subject_story-&gt;сочетать теорию с практикой для решения давних загадок</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.73"><s>subject_story-&gt;uncovered hidden connections that unlocked new possibilities</s><r>subject_story-&gt;раскрыл скрытые связи, которые открыли новые возможности</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.74"><s>subject_gerund-&gt;piecing together the elements of advancement</s><r>subject_gerund-&gt;собираем воедино элементы продвижения</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.8"><s>subject_story-&gt;crafted the foundation upon which future innovations stand</s><r>subject_story-&gt;создали основу, на которой стоят будущие инновации</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.generalRules.rulesStrings.9"><s>subject_gerund-&gt;laying down the keystones of advancement</s><r>subject_gerund-&gt;закладывая краеугольные камни продвижения</r></e>
+  <e k="D" t="ResearchProjectDef" key="GW_TotE_CustodesGuard.label"><s>Custodian guard</s><r>Хранитель-охранник</r></e>
+  <e k="D" t="ThingDef" key="GM_TotE_ShieldPraesidium.label"><s>Praesidium Shield</s><r>Защитный щит</r></e>
+  <e k="D" t="ThingDef" key="GM_TotE_ShieldSCaptain.label"><s>S-Captain Shield</s><r>S-Капитан Щит</r></e>
+  <e k="D" t="ThingDef" key="GW40k_SS_VexillaAuraMote.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="GW_CalastrusTank.&lt;CompPropsVehicleTurrets&gt;k__BackingField.turrets.0.gizmoLabel"><s>Primary Cannons</s><r>Основные пушки</r></e>
+  <e k="D" t="ThingDef" key="GW_CalastrusTank.&lt;CompPropsVehicleTurrets&gt;k__BackingField.turrets.1.gizmoLabel"><s>Frontal Turret</s><r>Фронтальная турель</r></e>
+  <e k="D" t="ThingDef" key="GW_CalastrusTank.components.1.label"><s>Ammo Rack</s><r>Стойка для боеприпасов</r></e>
+  <e k="D" t="ThingDef" key="GW_CalastrusTank.components.10.label"><s>Steering Apparatus</s><r>Рулевой аппарат</r></e>
+  <e k="D" t="ThingDef" key="GW_CalastrusTank.components.2.label"><s>Left Hover Rack</s><r>Левая стойка для наведения</r></e>
+  <e k="D" t="ThingDef" key="GW_CalastrusTank.components.3.label"><s>Right Hover Rack</s><r>Правая стойка наведения</r></e>
+  <e k="D" t="ThingDef" key="GW_CalastrusTank.components.4.label"><s>Front Armor Plating</s><r>Передняя броня</r></e>
+  <e k="D" t="ThingDef" key="GW_CalastrusTank.components.5.label"><s>Left Armor Plating</s><r>Левая броня</r></e>
+  <e k="D" t="ThingDef" key="GW_CalastrusTank.components.6.label"><s>Right Armor Plating</s><r>Правая броня</r></e>
+  <e k="D" t="ThingDef" key="GW_CalastrusTank.components.7.label"><s>Rear Armor Plating</s><r>Задняя броня</r></e>
+  <e k="D" t="ThingDef" key="GW_CalastrusTank.components.8.label"><s>Fuel Tank</s><r>Топливный бак</r></e>
+  <e k="D" t="ThingDef" key="GW_CalastrusTank.description"><s>The Caladius is an ancient design of Imperial grav-tank, used exclusively by the Legio Custodes during the Horus Heresy. The heaviest vehicle the Custodians fielded, this giant but surprisingly-manoeuvrable tank could hover over rough terrain, blast Traitor armor to pieces with its twin-linked Iliastus Accelerator Cannons, and blow holes in escorting infantry with its two Lastrum Bolt Cannons. 
+
+This vehicle design was supposed to have been lost to time. The presence of this vehicle has been noted with considerable alarm by the Imperial fleet in orbit - while the tech-priests reflexively claim that it is just a pale imitation or &quot;tainted&quot; in some way, the oldest Marines and Custodians have gazed upon it with clear recognition of what it truly is. 
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x2, Passenger x12
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Uranium</s><r>Каладиус — это древняя конструкция имперского гравитанка, использовавшаяся исключительно Легио Кустодес во время Ереси Хоруса. Самая тяжелая машина, которую использовали кустодии, этот гигантский, но удивительно маневренный танк мог парить над пересеченной местностью, разносить броню предателей на куски с помощью спаренных ускорительных пушек «Илиаст» и пробивать дыры в сопровождающей пехоте своими двумя болт-пушками «Ластрум». 
+
+ Предполагалось, что конструкция этого автомобиля затерялась во времени. Присутствие этого транспортного средства было с большой тревогой отмечено Имперским флотом на орбите — в то время как техножрецы рефлекторно заявляют, что это всего лишь бледная имитация или в некотором роде «испорченная», старейшие морские пехотинцы и кустодии смотрели на него с ясным пониманием того, чем оно является на самом деле. 
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель х1, Стрелок х2, Пассажир х12
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Уран</r></e>
+  <e k="D" t="ThingDef" key="GW_CalastrusTank.label"><s>Caladius</s><r>Каладиус</r></e>
+  <e k="D" t="ThingDef" key="GW_CalastrusTank.properties.roles.1.label"><s>Cannon Operator</s><r>Оператор пушки</r></e>
+  <e k="D" t="ThingDef" key="GW_CalastrusTank_Blueprint.description"><s>The Caladius is an ancient design of Imperial grav-tank, used exclusively by the Legio Custodes during the Horus Heresy. The heaviest vehicle the Custodians fielded, this giant but surprisingly-manoeuvrable tank could hover over rough terrain, blast Traitor armor to pieces with its twin-linked Iliastus Accelerator Cannons, and blow holes in escorting infantry with its two Lastrum Bolt Cannons. 
+
+This vehicle design was supposed to have been lost to time. The presence of this vehicle has been noted with considerable alarm by the Imperial fleet in orbit - while the tech-priests reflexively claim that it is just a pale imitation or &quot;tainted&quot; in some way, the oldest Marines and Custodians have gazed upon it with clear recognition of what it truly is. 
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x2, Passenger x12
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Каладиус — это древняя конструкция имперского гравитанка, использовавшаяся исключительно Легио Кустодес во время Ереси Хоруса. Самая тяжелая машина, которую использовали кустодии, этот гигантский, но удивительно маневренный танк мог парить над пересеченной местностью, разносить броню предателей на куски с помощью спаренных ускорительных пушек «Илиаст» и пробивать дыры в сопровождающей пехоте своими двумя болт-пушками «Ластрум». 
+
+ Предполагалось, что конструкция этого автомобиля затерялась во времени. Присутствие этого транспортного средства было с большой тревогой отмечено Имперским флотом на орбите — в то время как техножрецы рефлекторно заявляют, что это всего лишь бледная имитация или в некотором роде «испорченная», старейшие морские пехотинцы и кустодии смотрели на него с ясным пониманием того, чем оно является на самом деле. 
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель х1, Стрелок х2, Пассажир х12
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="GW_CalastrusTank_Blueprint.label"><s>Caladius</s><r>Каладиус</r></e>
+  <e k="D" t="ThingDef" key="GW_Calastruslas.description"><s>Arachnus heavy blaze cannon is a super-powered, turret-mounted lascannon that fires intensely concentrated high-energy beams, capable of annihilating heavily armored vehicles and fortified positions with devastating precision.</s><r>Тяжелая огненная пушка «Арахнус» — это сверхмощная турельная лазпушка, стреляющая концентрированными высокоэнергетическими лучами, способная с разрушительной точностью уничтожать тяжелобронированную технику и укрепленные позиции.</r></e>
+  <e k="D" t="ThingDef" key="GW_Calastruslas.label"><s>Accelerator cannon shot</s><r>Выстрел из ускорительной пушки</r></e>
+  <e k="D" t="ThingDef" key="GW_DawnEagleBike.&lt;CompPropsVehicleTurrets&gt;k__BackingField.turrets.0.gizmoLabel"><s>Main Turret</s><r>Главная турель</r></e>
+  <e k="D" t="ThingDef" key="GW_DawnEagleBike.components.2.label"><s>Front Armor Plating</s><r>Передняя броня</r></e>
+  <e k="D" t="ThingDef" key="GW_DawnEagleBike.components.3.label"><s>Left Armor Plating</s><r>Левая броня</r></e>
+  <e k="D" t="ThingDef" key="GW_DawnEagleBike.components.4.label"><s>Right Armor Plating</s><r>Правая броня</r></e>
+  <e k="D" t="ThingDef" key="GW_DawnEagleBike.components.5.label"><s>Rear Armor Plating</s><r>Задняя броня</r></e>
+  <e k="D" t="ThingDef" key="GW_DawnEagleBike.components.6.label"><s>Fuel Tank</s><r>Топливный бак</r></e>
+  <e k="D" t="ThingDef" key="GW_DawnEagleBike.components.8.label"><s>Steering Apparatus</s><r>Рулевой аппарат</r></e>
+  <e k="D" t="ThingDef" key="GW_DawnEagleBike.description"><s>An advanced, Heresy-era jetbike, built to the specifications of Vertus Praetors of the Legio Custodes. Fast and nimble, these jetbikes are suitable for cross-country travel and high-speed skirmishing, weaving in and out of the terrain with grace and elegance. 
+
+This particular version is armed with a Hurricane Bolter modified to accept 0.998 cal bolts, giving it more than enough firepower to shred enemy infantry. 
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1 
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Uranium</s><r>Усовершенствованный реактивный мотоцикл эпохи Ереси, созданный по спецификациям Вертус Преторс из Легио Кустодес. Быстрые и маневренные, эти гидроциклы подходят для путешествий по пересеченной местности и скоростных перестрелок, преодолевая бездорожье с изяществом и элегантностью. 
+
+Эта конкретная версия вооружена болтером Hurricane, модифицированным для приема болтов калибра 0,998, что дает ему более чем достаточную огневую мощь, чтобы уничтожить вражескую пехоту. 
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1 
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Уран</r></e>
+  <e k="D" t="ThingDef" key="GW_DawnEagleBike.label"><s>Dawn Eagle JetBike</s><r>Реактивный мотоцикл Dawn Eagle</r></e>
+  <e k="D" t="ThingDef" key="GW_DawnEagleBike_Blueprint.description"><s>An advanced, Heresy-era jetbike, built to the specifications of Vertus Praetors of the Legio Custodes. Fast and nimble, these jetbikes are suitable for cross-country travel and high-speed skirmishing, weaving in and out of the terrain with grace and elegance. 
+
+This particular version is armed with a Hurricane Bolter modified to accept 0.998 cal bolts, giving it more than enough firepower to shred enemy infantry. 
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1 
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Усовершенствованный реактивный мотоцикл эпохи Ереси, созданный по спецификациям Вертус Преторс из Легио Кустодес. Быстрые и маневренные, эти гидроциклы подходят для путешествий по пересеченной местности и скоростных перестрелок, преодолевая бездорожье с изяществом и элегантностью. 
+
+Эта конкретная версия вооружена болтером Hurricane, модифицированным для приема болтов калибра 0,998, что дает ему более чем достаточную огневую мощь, чтобы уничтожить вражескую пехоту. 
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1 
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="GW_DawnEagleBike_Blueprint.label"><s>Dawneagle Jetbike</s><r>Джетбайк Даунигл</r></e>
+  <e k="D" t="ThingDef" key="GW_Orionlas.description"><s>Arachnus heavy blaze cannon is a super-powered, turret-mounted lascannon that fires intensely concentrated high-energy beams, capable of annihilating heavily armored vehicles and fortified positions with devastating precision.</s><r>Тяжелая огненная пушка «Арахнус» — это сверхмощная турельная лазпушка, стреляющая концентрированными высокоэнергетическими лучами, способная с разрушительной точностью уничтожать тяжелобронированную технику и укрепленные позиции.</r></e>
+  <e k="D" t="ThingDef" key="GW_Orionlas.label"><s>Heavy Blaze Cannon shot</s><r>Выстрел из тяжелой огненной пушки</r></e>
+  <e k="D" t="ThingDef" key="GW_SM_ImperialWardenrBackpack_PawnFlyer.label"><s>flying</s><r>летающий</r></e>
+  <e k="D" t="ThingDef" key="GW_SM_TalonOfTheEmperor_ArmorBench.description"><s>A workbench for assembling the armor of the Talons of the Emperor. 
+
+The working of auramite is a painstaking process, only to be trusted to the greatest artificers. But if made well, the resulting armor can weather assault that would reduce mere ceramite to dust.</s><r>Верстак для сборки доспехов Когтей Императора. 
+
+Обработка аурамита — кропотливый процесс, который можно доверить только величайшим мастерам. Но если все сделано правильно, полученная броня сможет выдержать нападение, которое превратит простой керамит в пыль.</r></e>
+  <e k="D" t="ThingDef" key="GW_SM_TalonOfTheEmperor_ArmorBench.label"><s>Talons of the Emperor armor workbench</s><r>Верстак для брони «Когти Императора»</r></e>
+  <e k="D" t="ThingDef" key="GW_SM_TalonOfTheEmperor_WeaponBench.description"><s>A workbench for assembling the weapons of the Talons of the Emperor. 
+
+Some weapons are mundane, but exquisitely-crafted. Others are black boxes, with its deepest mechanics a mystery to even the Imperium’s greatest minds. All, however, are deadly in the extreme.</s><r>Верстак для сборки оружия Когтей Императора. 
+
+Некоторые виды оружия просты, но сделаны изысканно. Другие представляют собой черные ящики, глубочайшая механика которых остается загадкой даже для величайших умов Империума. Однако все они смертельно опасны.</r></e>
+  <e k="D" t="ThingDef" key="GW_SM_TalonOfTheEmperor_WeaponBench.label"><s>Talons of the Emperor weapon workbench</s><r>Верстак для оружия «Когти Императора»</r></e>
+  <e k="D" t="ThingDef" key="GW_TOE_GuardianSpearBolterProjectile.label"><s>Guardian Spear bolt</s><r>Стрела копья стража</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_AdrathicSpear.comps.5.weaponsToSwitch.0.description"><s>Swap to Ranged</s><r>Переключиться на дальний бой</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_AdrathicSpear.description"><s>A variant on the traditional Guardian Spear, the Adrasite Spear combines the same power spear with an adrathic weapon - a gun that fires a disintegrating beam to destroy targets at the molecular level. 
+
+Adrathic weapons are a relic of the Dark Age of Technology. When the Emperor unified Terra, long before the Imperium came to be, He had all Adrathic Weapons given to Him on pain of death. Such is their power that only the Adeptus Custodes have wielded them since, and neither the ancient Mechanicum or the Adeptus Mechanicus were granted access to their secrets.</s><r>Вариант традиционного Копья Стража, Адраситовое Копье сочетает в себе то же силовое копье с адратическим оружием — пистолетом, стреляющим распадающимся лучом для уничтожения целей на молекулярном уровне. 
+
+Адратическое оружие — это пережиток Темной Эры Технологий. Когда Император объединил Терру, задолго до возникновения Империума, Ему под страхом смерти было передано все адратическое оружие. Их сила такова, что с тех пор ими владели только Адептус Кустодес, и ни древние Механикум, ни Адептус Механикус не имели доступа к их секретам.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_AdrathicSpear.label"><s>Adrathic Spear</s><r>Адратическое копье</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_AdrathicSpear.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_AdrathicSpear.tools.1.label"><s>shaft</s><r>вал</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_AdrathicSpear.tools.2.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_AdrathicSpearProjectile.label"><s>Adrathic Spear beam</s><r>Луч адратического копья</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_AdrathicSpearR.comps.6.weaponsToSwitch.0.description"><s>Swap to Melee</s><r>Переключиться на ближний бой</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_AdrathicSpearR.description"><s>A variant on the traditional Guardian Spear, the Adrasite Spear combines the same power spear with an adrathic weapon - a gun that fires a disintegrating beam to destroy targets at the molecular level. 
+
+Adrathic weapons are a relic of the Dark Age of Technology. When the Emperor unified Terra, long before the Imperium came to be, He had all Adrathic Weapons given to Him on pain of death. Such is their power that only the Adeptus Custodes have wielded them since, and neither the ancient Mechanicum or the Adeptus Mechanicus were granted access to their secrets.</s><r>Вариант традиционного Копья Стража, Адраситовое Копье сочетает в себе то же силовое копье с адратическим оружием — пистолетом, стреляющим распадающимся лучом для уничтожения целей на молекулярном уровне. 
+
+Адратическое оружие — это пережиток Темной Эры Технологий. Когда Император объединил Терру, задолго до возникновения Империума, Ему под страхом смерти было передано все адратическое оружие. Их сила такова, что с тех пор ими владели только Адептус Кустодес, и ни древние Механикум, ни Адептус Механикус не имели доступа к их секретам.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_AdrathicSpearR.label"><s>Adrathic Spear (ranged)</s><r>Адратическое копье (дальнего боя)</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_AdrathicSpearR.verbs.0.label"><s>Adrathic Spear (ranged)</s><r>Адратическое копье (дальнего боя)</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Adrathic_Destructor.description"><s>A twin-linked, pistol-sized adrathic weapon used by Aquilon Terminators of the Adeptus Custodes. Few targets can withstand even a single shot from an adrathic weapon, as their molecular bonds are instantly broken. 
+
+Strictly speaking, the Adrasite Spear also uses an Adrathic Destructor as a secondary weapon. However, the spear version is only single-barrelled.</s><r>Двойное адратическое оружие размером с пистолет, используемое терминаторами-аквилонами Адептус Кустодес. Немногие цели могут выдержать даже один выстрел из адратического оружия, поскольку их молекулярные связи мгновенно разрываются. 
+
+Строго говоря, Адраситовое Копье также использует Адратический Деструктор в качестве вторичного оружия. Однако версия копья только одноствольная.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Adrathic_Destructor.label"><s>Adrathic destructor</s><r>Адратический деструктор</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Adrathic_Destructor.tools.0.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Adrathic_Destructor.verbs.0.label"><s>Adrathic destructor</s><r>Адратический деструктор</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Adrathic_Destructor_Bullet.description"><s>a laser</s><r>лазер</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Adrathic_Destructor_Bullet.label"><s>Laser</s><r>Лазер</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_AllarusArmor.description"><s>A suit of Terminator Power Armor, crafted from auramite for the Allarus Custodians of the Adeptus Custodes. Stronger even than their ceramite cousins, the protection provided by this armor exceeds that of some armored vehicles. 
+
+Allarus Terminators are tasked with exterminating high-value targets in the field. Such is their relentlessness that the Allarus Terminator armor used to contain short-range teleporters for pursuing their foes - unfortunately, that technology is now now heavily damaged due to the Warp disaster, as is that of their wrist-mounted Balistus Grenade Launchers.</s><r>Комплект терминаторской силовой брони, изготовленный из аурамита для хранителей Алларус из Адептус Кустодес. Эта броня сильнее даже своих керамитовых собратьев, а защита, обеспечиваемая ею, превосходит защиту некоторых бронемашин. 
+
+Терминаторам Алларус поручено уничтожать важные цели на местах. Их неустанность настолько велика, что броня Терминатора Алларуса раньше содержала телепорты ближнего действия для преследования своих врагов - к сожалению, эта технология теперь серьезно повреждена из-за катастрофы в Варпе, как и технология их наручных гранатометов Балистус.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_AllarusArmor.label"><s>Allarus Terminator armor</s><r>Полная терминаторская броня.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_AllarusHelmet.description"><s>A strong helmet, built for the Allarus Terminators. It is highly protective due to its auramite build, well-suited for deep striking towards the enemy's leaders. 
+
+The Custodians, unlike their Space Marine cousins, rarely remove their helmets, as they wish to remain a faceless and solid wall of auramite. Custodians of the Imperial Palace are sometimes mistaken for ornate golden statues or a mere ceremonial guard, but any threat that should foolishly present themselves will usually not live long enough to regret it.</s><r>Прочный шлем, созданный для Терминаторов Алларус. Он обладает высокой защитой благодаря своему аурамитовому строению и хорошо подходит для нанесения глубоких ударов по лидерам противника. 
+
+Кустодианы, в отличие от своих собратьев-космических десантников, редко снимают шлемы, так как хотят оставаться безликой и сплошной стеной из аурамита. Хранителей Императорского дворца иногда принимают за богато украшенные золотые статуи или за простую церемониальную стражу, но любая угроза, возникшая по глупости, обычно не проживет достаточно долго, чтобы пожалеть об этом.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_AllarusHelmet.label"><s>Allarus Terminator helmet</s><r>Шлем Терминатора Аллуса</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_AllarusShoulder.description"><s>Reinforced shoulder pads fit for an Allarus Terminator. They are surely strong enough to shoulder the heaviest of burdens. 
+
+The Captain-General of the Adeptus Custodes handpicks every Allarus Terminator, both for aggression and control. The Allarus Custodians strike with incredible yet controlled rage, overcoming any force opposing them - tales of them single-handedly fighting whole armies are not uncommon.</s><r>Усиленные наплечники подходят для Терминатора Алларус. Они, несомненно, достаточно сильны, чтобы взять на себя самое тяжелое бремя. 
+
+Капитан-генерал Адептус Кустодес тщательно отбирает каждого Терминатора Алларус, как с точки зрения агрессии, так и контроля. Кустодианцы Алларуса наносят удары с невероятной, но контролируемой яростью, преодолевая любую противостоящую им силу — рассказы о том, как они в одиночку сражались с целыми армиями, не редкость.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_AllarusShoulder.label"><s>Allarus Terminator shoulder pads</s><r>Наплечники Алларус Терминатор</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_BladeChampHelmet.description"><s>An auramite-plated helmet worn by a Custodian Blade Champion. Against the most threatening foes the enemy can muster, great protection is required. 
+
+The Blade Champion is second-in-command of a Shield Company, second to the Shield-Captain. While their Captain maintains control of the main force, Blade Champions can be found leading smaller detachments into battle, plunging deep into the enemy's ranks.</s><r>Шлем, покрытый аурамитом, который носит чемпион-кустодий клинка. Против самых опасных противников, которых может собрать враг, требуется надежная защита. 
+
+Чемпион Клинка — второй командир Щитовой роты после Щитового капитана. В то время как их капитан сохраняет контроль над основными силами, Чемпионы Клинка могут вести в бой более мелкие отряды, погружаясь глубоко в ряды врага.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_BladeChampHelmet.label"><s>Blade Champion helmet</s><r>Шлем Чемпиона Клинка</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_BladeOfChamp.description"><s>Special Power Armor crafted for Blade Champions of the Adeptus Custodes. 
+
+The task of a Blade Champion is to seek and slay the enemy's commanders and heroes. For this task, they are bestowed with the mighty Vaultsword, and the expertise needed to wield them to great effect. Many names are inscribed upon the Tome Eternal, every one of them belonging to a Blade Champion.</s><r>Особая силовая броня, созданная для чемпионов клинка Адептус Кустодес. 
+
+Задача Чемпиона Клинка — искать и уничтожать вражеских командиров и героев. Для этой задачи им дан могучий Меч Хранилища и опыт, необходимый для эффективного владения им. На Вечном Томе написано множество имен, каждое из которых принадлежит Чемпиону Клинка.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_BladeOfChamp.label"><s>Blade Champion armor</s><r>Броня Чемпиона Клинка</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Bolt_Caliver.description"><s>An ancient boltgun of the Adeptus Custodes, firing a deadly burst of high-explosive bolts rivalling the power of a heavy bolter.
+
+Only the finest weapons are provided to the Golden Legion, for it is they who face some of the deadliest threats on a daily basis.</s><r>Древний болтер Адептус Кустодес, стреляющий смертоносной очередью осколочно-фугасных болтов, способной соперничать по мощности с тяжелым болтером.
+
+Золотому Легиону предоставляется только самое лучшее оружие, поскольку именно они ежедневно сталкиваются с самыми смертоносными угрозами.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Bolt_Caliver.label"><s>Bolt caliver</s><r>Болт Каливер</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Bolt_Caliver.tools.0.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Bolt_Caliver.tools.1.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Bolt_Caliver.verbs.0.label"><s>Bolt caliver</s><r>Болт Каливер</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Bolt_Caliver_Bullet.label"><s>bolt</s><r>болт</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Bolt_Kinetic_Destructor.label"><s>shot</s><r>выстрелил</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_CastellanArmor.description"><s>A replica of the Castellan Plate, an ancient and legendary suit of Custodian Power Armor. The auramite armor plating can shrug off almost any threat (especially with the Refraction Field reinforcement provided by the Auramite Halo device), and the lion-hide cloak is strengthened with adamantium thread - it flows like cloth, but cannot be pierced or cut by any normal weapon. 
+
+The true Castellan Plate is worn by Trajann Valoris, the Captain-General of the Adeptus Custodes. Unusually for a Custodian, he believed in offensive defense - sallying forth to destroy threats to the Imperium before they could threaten the Throneworld. 
+
+He rose to power during the Years of Madness, a crisis on Terra that saw two successive Captain-Generals dead or gone, a massive spike in dangerous cultist activity, and a widespread maddening of servitors in the Dark Cells that forced wholesale euthanization.</s><r>Копия кастелянского доспеха, древнего и легендарного комплекта силовой брони кустодиана. Аурамитовая броня способна отразить практически любую угрозу (особенно благодаря усилению поля преломления, обеспечиваемому устройством «Аурамитовый ореол»), а плащ из львиной шкуры усилен адамантиевой нитью — она течет, как ткань, но не может быть пробита или разрезана обычным оружием. 
+
+Настоящую латы Кастеляна носит Траянн Валорис, генерал-капитан Адептус Кустодес. Что было необычно для кустодия, он верил в наступательную оборону – вылазку, чтобы уничтожить угрозы Империуму до того, как они смогут угрожать Тронному миру. 
+
+Он пришел к власти во время Годов Безумия, кризиса на Терре, в результате которого два последовательных капитана-генерала погибли или ушли из жизни, массовый всплеск опасной культистской деятельности и повсеместное безумие сервиторов в Темных камерах, что привело к массовой эвтаназии.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_CastellanArmor.label"><s>Castellan Plate</s><r>Кастелянская пластина</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_CastellanAxe.comps.5.weaponsToSwitch.0.description"><s>Swap to Ranged</s><r>Переключиться на дальний бой</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_CastellanAxe.description"><s>A large, two-handed axe used by the Adeptus Custodes. As well as cleaving through the enemy with the power field-enhanced blade, the Bolt Caster integrated into the weapon also makes short work of enemies out of reach.
+
+It is heresy for the Adeptus Administratum to record the Custodians ever losing a battle. Officially, any warzone that the Custodians are deployed in is deemed an Imperial victory, even before they have arrived.</s><r>Большой двуручный топор, используемый Адептус Кустодес. Помимо того, что он прорезает врага с помощью усиленного силовым полем клинка, встроенный в оружие заклинатель болтов также быстро расправляется с врагами вне досягаемости. Официально любая военная зона, в которой развернуты кустодии, считается победой Империи, даже до того, как они прибыли.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_CastellanAxe.label"><s>Castellan Axe</s><r>Кастелянский топор</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_CastellanAxe.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_CastellanAxe.tools.1.label"><s>shaft</s><r>вал</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_CastellanAxe.tools.2.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_CastellanAxeProjectile.label"><s>Castellan Axe bolt</s><r>Болт Кастелянского топора</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_CastellanAxeR.comps.6.weaponsToSwitch.0.description"><s>Swap to Melee</s><r>Переключиться на ближний бой</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_CastellanAxeR.description"><s>A large, two-handed axe used by the Adeptus Custodes. As well as cleaving through the enemy with the power field-enhanced blade, the Bolt Caster integrated into the weapon also makes short work of enemies out of reach.
+
+It is heresy for the Adeptus Administratum to record the Custodians ever losing a battle. Officially, any warzone that the Custodians are deployed in is deemed an Imperial victory, even before they have arrived.</s><r>Большой двуручный топор, используемый Адептус Кустодес. Помимо того, что он прорезает врага с помощью усиленного силовым полем клинка, встроенный в оружие заклинатель болтов также быстро расправляется с врагами вне досягаемости. Официально любая военная зона, в которой развернуты кустодии, считается победой Империи, даже до того, как они прибыли.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_CastellanAxeR.label"><s>Castellan Axe (ranged)</s><r>Кастелянский топор (дальнего боя)</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_CastellanAxeR.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_CastellanAxeR.verbs.0.label"><s>Castellan Axe (ranged)</s><r>Кастелянский топор (дальнего боя)</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_CastellanPlateHelmet.description"><s>An auramite Power Armor helmet supposed to be worn with the Castellan Plate. While it is typically not worn, as the Captain-General usually shows his face to inspire other Custodians, it can still provide excellent protection against all threats. 
+
+After serving in the Allarus Terminators, a young Trajann Valoris was made a Companion - the three hundred elite Custodians assigned as the Emperor's personal guard. However, due to his desire to take the initiative against the Great Enemy, he lasted only twenty-two years before becoming a Shield-Captain - and, a few centuries later, rising to the rank of Captain-General.</s><r>Аурамитовый шлем силовой брони, который следует носить с латами кастеляна. Хотя его обычно не носят, поскольку капитан-генерал обычно показывает свое лицо, чтобы вдохновить других кустодианцев, он все же может обеспечить отличную защиту от всех угроз. 
+
+После службы в Терминаторах Алларус молодой Траянн Валорис стал Соратником — тремястами элитными Кустодианами, назначенными личной охраной Императора. Однако из-за своего желания взять на себя инициативу против Великого Врага он продержался всего двадцать два года, прежде чем стал щит-капитаном, а несколько столетий спустя дослужился до звания капитан-генерала.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_CastellanPlateHelmet.label"><s>Castellan Plate helmet</s><r>Кастелянский латный шлем</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_CastellanPlateShoulder.description"><s>The shoulder pads of the Castellan Plate, the armor of Trajann Valoris. To symbolize his leadership of the Adeptus Custodes, the right shoulder bears a giant, auramite depiction of a lion's head. 
+
+Even before becoming the Captain-General, Trajann Valoris was an exceptional man. As an Allarus Custodian, he was the first person to have ever won the Blood Games twice - had he been an enemy, the Emperor would have met an untimely demise twice over.</s><r>Наплечники кастелянского доспеха, доспех Траяна Валориса. Чтобы символизировать его лидерство в Адептус Кустодес, на правом плече находится гигантское аурамитовое изображение головы льва. 
+
+Еще до того, как стать капитаном-генералом, Траянн Валорис был исключительным человеком. Как Хранитель Алларуса, он был первым человеком, дважды выигравшим Кровавые игры — если бы он был врагом, Император дважды встретил бы безвременную кончину.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_CastellanPlateShoulder.label"><s>Castellan Plate shoulder pads</s><r>Кастелянские латные наплечники</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_CustodesGuardArmor.description"><s>A suit of Power Armor built for the Adeptus Custodes, the right hand of the Talons of the Emperor. Built from the golden material known as Auramite, its strength greatly exceeds that of a Space Marine's equivalent armor.
+
+The Adeptus Custodes are, among other names, also known as the Ten Thousand. For most of their history, stretching back to the Unification Wars on Terra, there have indeed been ten thousand of them. However, during the War Within the Webway, the fighting was so brutal that their number was reduced down to a mere thousand, though they eventually recovered.</s><r>Костюм силовой брони, созданный для Адептус Кустодес, правой руки Когтей Императора. Изготовленный из золотого материала, известного как аурамит, его сила значительно превышает силу эквивалентной брони космического десантника.
+
+Адептус Кустодес, среди других имен, также известны как Десять Тысяч. На протяжении большей части их истории, начиная с Войн Объединения на Терре, их действительно было десять тысяч. Однако во время Войны в Паутине бои были настолько жестокими, что их число сократилось до тысячи, хотя в конце концов они выздоровели.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_CustodesGuardArmor.label"><s>Custodian Shield Host armor</s><r>Броня хранителя щита</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_CustodesGuardHelmet.description"><s>A helmet worn by the battleline Custodian Guard, also known as the Hykanatoi. The red plume on top of the helmet inspires joy in their allies and fear in their enemies, for now they must face the might of the Adeptus Custodes. 
+
+Some might be surprised to find women among the Ten Thousand - not that they would be able to tell from the faceless, statuesque golden giants. While the Space Marine creation process is indeed male-exclusive, the more tailored process for Custodians allows for the worthiest of women to join their ranks… though they too will face all of the same challenges.</s><r>Шлем, который носят боевые стражи-кустодианы, также известные как Хиканатои. Красное перо на вершине шлема вселяет радость в союзников и страх в врагов, поскольку теперь им предстоит столкнуться с мощью Адептус Кустодес. 
+
+Некоторые могут быть удивлены, обнаружив женщин среди Десяти Тысяч, но они не смогут отличить их от безликих, статных золотых гигантов. Хотя процесс создания космических десантников действительно предназначен исключительно для мужчин, более адаптированный процесс для Хранителей позволяет самым достойным женщинам вступать в их ряды… хотя они тоже столкнутся со всеми теми же проблемами.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_CustodesGuardHelmet.label"><s>Custodes Shield Host helmet</s><r>Шлем Хозяина Щита Кустодес</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_CustodesGuardShoulder.description"><s>Auramite shoulder pads befitting of a standard Custodian. On the right shoulder is a depiction of the Imperial Aquila, while the colors on the left shoulder denote which Shield Company or Shield Host the wearer belongs to. 
+
+Each suit of Custodian armor is a custom build, perfect for each wearer. The wearer's name is even inscribed on the inside of the suit.</s><r>Аурамитовые наплечники, подобающие стандартному Кустодиану. На правом плече изображена Императорская Аквила, а цвета на левом плече обозначают, к какой Щитовой роте или Щитовому воинству принадлежит владелец. 
+
+Каждый комплект брони Кустодиана создается по индивидуальному заказу и идеально подходит для каждого владельца. Имя владельца даже написано на внутренней стороне костюма.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_CustodesGuardShoulder.label"><s>Custodes Shield Host shoulder pads</s><r>Наплечники воина щита Кустодес</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_CustodesWardenArmor.description"><s>The Power Armor of a Custodian Warden, an elite warrior even among the Ten Thousand. Like the intended wearer, the Warden's armor is a cut above that of a regular Custodian's armor, and the red robe symbolizes their status. 
+
+A Custodian must have at least five centuries of continuous service to become a Warden. Every oath sworn by a new Warden is personally written after a year of meditation, upon which they receive their characteristic red robe.</s><r>Силовая броня хранителя-кустодия, элитного воина даже среди Десяти тысяч. Как и предполагаемый владелец, броня Стража на голову выше доспехов обычного Кустодиана, а красная мантия символизирует их статус. 
+
+ Чтобы стать Стражем, Хранитель должен иметь как минимум пять столетий непрерывной службы. Каждая клятва, которую приносит новый Страж, пишется лично после года медитации, после чего он получает свою характерную красную мантию.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_CustodesWardenArmor.label"><s>Custodian Warden armor</s><r>Доспехи хранителя-кустодиана</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_CustodesWardenHelmet.description"><s>The helmet of a Custodian Warden. It is roughly similar to that of the Hykanatoi, and is wrought of just as much quality, if not more. 
+
+Never shall the Adeptus Custodes cease their protection of the Emperor. The thought of failure simply does not cross their mind.</s><r>Шлем Кустодиана-Стража. Он примерно похож на тот, что был у Гиканатоев, и сделан такого же качества, если не лучше. 
+
+Никогда Адептус Кустодес не прекратят свою защиту Императора. Мысль о неудаче просто не приходит им в голову.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_CustodesWardenHelmet.label"><s>Custodes Warden helmet</s><r>Шлем стража Кустодес</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_CustodesWardenShoulder.description"><s>The shoulder pads of a Custodian Warden, similar to that of the Custodian Guard. The auramite plates can withstand a great amount of firepower. 
+
+The oaths sworn by a Custodian Warden are taken with the greatest seriousness. To break them would be utterly unthinkable, and each Warden draws strength from their will to keep them.</s><r>Наплечники кустодианского стража, аналогичные наплечникам кустодианского стража. Аурамитовые пластины могут выдержать большую огневую мощь. 
+
+Клятвы, данные Кустодианом-Стражем, принимаются с величайшей серьёзностью. Сломить их было бы совершенно немыслимо, и каждый Страж черпает силу из своего желания сохранить их.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_CustodesWardenShoulder.label"><s>Custodes Warden shoulder pads</s><r>Наплечники Custodes Warden</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_EyeOfTheEmperor.description"><s>A light suit of Power Armor worn on rare occasion by an Eye of the Emperor. 
+
+Eyes of the Emperor are Custodians that have &quot;retired&quot;, due to advanced age or grievous, permanent wounds. Their role is to watch the galaxy for threats that may endanger the Emperor, and to report any such threats to the Captain-General of the Adeptus Custodes.</s><r>Легкий комплект силовой брони, который в редких случаях носил Око Императора. 
+
+Глаза Императора — это Хранители, вышедшие на пенсию из-за преклонного возраста или тяжелых, неизлечимых ран. Их роль — наблюдать за галактикой на предмет угроз, которые могут поставить под угрозу Императора, и сообщать о любых таких угрозах Генерал-капитану Адептус Кустодес.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_EyeOfTheEmperor.label"><s>Eye of the Emperor armor</s><r>Броня Глаза Императора</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_EyeOfTheEmperorHelmet.description"><s>A light Power Armor helmet, combined with a hood - suitable for an Eye of the Emperor. 
+
+Though they are no longer suited to the regular ranks of the Adeptus Custodes, an Eye of the Emperor retains their biological and genetic enhancements. Many Eyes could still slay a Chaos Space Marine man-to-man, and are more than a match for the majority of the everyday threats an Imperial underhive citizen sees.</s><r>Легкий шлем Силовой Брони в сочетании с капюшоном - подходит для Ока Императора. 
+
+Хотя они больше не подходят для обычных рядов Адептус Кустодес, Око Императора сохраняет свои биологические и генетические улучшения. Многие Глаза все еще могут сразить космодесантника Хаоса в рукопашной, и они более чем способны справиться с большинством повседневных угроз, с которыми сталкивается гражданин Имперского подулья.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_EyeOfTheEmperorHelmet.label"><s>Eye of the Emperor helmet</s><r>Шлем Глаза Императора</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_EyeoftheEmperorShoulder.description"><s>The shoulder pads of an Eye of the Emperor. Lightweight and comfortable, allowing even a battle-scarred former Custodian to fight while wearing it. 
+
+All Eyes of the Emperor works in the shadows, but their methods vary. Some Eyes work alone, while others cultivate their own spy networks.</s><r>Наплечники Ока Императора. Легкий и удобный, позволяющий сражаться в нем даже израненному в боях бывшему Кустодиану. 
+
+Все Глаза Императора работают в тени, но их методы различаются. Некоторые Глаза работают в одиночку, а другие развивают собственные шпионские сети.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_EyeoftheEmperorShoulder.label"><s>Eye of the Emperor shoulder pads</s><r>Наплечники «Глаз Императора»</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Firepike.description"><s>An incredibly powerful flamer that can unleash a surprisingly long-ranged wave of promethium. That which is not totally consumed by the fire is thrown into panic and disarray. 
+
+Rarely seen among even the Adeptus Custodes, Incendium Firepikes saw action in the Webway, the Eldar Warp travel network that was once joined by a portal of the Emperor’s own making. A secret of the utmost importance, the “Emperor’s Great Work” was subverted during the Horus Heresy, and the then-Legio Custodes fought a grueling battle against the daemonic hordes before the portal was finally closed. 
+
+It only remains closed through the Emperor’s power.</s><r>Невероятно мощный огнемет, способный высвободить волну прометия на удивление дальнего действия. То, что не полностью сгорает в огне, погружается в панику и беспорядок. 
+
+Редко встречающиеся даже среди Адептус Кустодес, Огненные Пики Огненные Пики видели действие в Паутине, туристической сети эльдарского варпа, к которой когда-то присоединился портал, созданный самим Императором. Тайна первостепенной важности, «Великое дело Императора», была раскрыта во время Ереси Хоруса, и тогдашний Легио Кустодес вел изнурительную битву с демоническими ордами, прежде чем портал был окончательно закрыт. 
+
+Он остаётся закрытым только благодаря власти Императора.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Firepike.label"><s>Incendium firepike</s><r>Огонь из огненной пики</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Firepike.tools.0.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Firepike.tools.1.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Firepike.verbs.0.label"><s>Incendium firepike</s><r>Огонь из огненной пики</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_GuardianSpear.comps.5.weaponsToSwitch.0.description"><s>Swap to Ranged</s><r>Переключиться на дальний бой</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_GuardianSpear.description"><s>The traditional armament of the Adeptus Custodes, the Guardian Spear is a “combi-weapon” - a combination of two weapons in one. The golden spear's head is coated in a disruptive power field, allowing it to pierce through heavy armor, while the integrated Bolt Caster lays down heavy fire on more distant enemies. 
+
+Many combi-weapons exist in the Imperium of Man. For example, the basic “Combi-bolter”, often seen in the Great Crusade and Horus Heresy eras, was simply two bolters attached side-to-side. Unlike the later Storm Bolters, they were only attached together later, not in the first place.</s><r>Традиционное вооружение Адептус Кустодес, Копье Стража представляет собой «комби-оружие» — сочетание двух видов оружия в одном. Наконечник золотого копья покрыт разрушительным силовым полем, что позволяет ему пробивать тяжелую броню, а встроенный заклинатель болтов ведет сильный огонь по более удаленным врагам. 
+
+В Империуме Человечества существует множество комбинированного оружия. Например, базовый «Комби-болтер», часто встречавшийся в эпоху Великого крестового похода и Ереси Хоруса, представлял собой просто два болтера, прикрепленных друг к другу. В отличие от более поздних штурм-болтеров, они были соединены вместе позже, а не в первую очередь.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_GuardianSpear.label"><s>Guardian Spear</s><r>Копье Стража</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_GuardianSpear.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_GuardianSpear.tools.1.label"><s>shaft</s><r>вал</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_GuardianSpear.tools.2.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_GuardianSpearR.comps.6.weaponsToSwitch.0.description"><s>Swap to Melee</s><r>Переключиться на ближний бой</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_GuardianSpearR.description"><s>The traditional armament of the Adeptus Custodes, the Guardian Spear is a “combi-weapon” - a combination of two weapons in one. The golden spear's head is coated in a disruptive power field, allowing it to pierce through heavy armor, while the integrated Bolt Caster lays down heavy fire on more distant enemies. 
+
+Many combi-weapons exist in the Imperium of Man. For example, the basic “Combi-bolter”, often seen in the Great Crusade and Horus Heresy eras, was simply two bolters attached side-to-side. Unlike the later Storm Bolters, they were only attached together later, not in the first place.</s><r>Традиционное вооружение Адептус Кустодес, Копье Стража представляет собой «комби-оружие» — сочетание двух видов оружия в одном. Наконечник золотого копья покрыт разрушительным силовым полем, что позволяет ему пробивать тяжелую броню, а встроенный заклинатель болтов ведет сильный огонь по более удаленным врагам. 
+
+В Империуме Человечества существует множество комбинированного оружия. Например, базовый «Комби-болтер», часто встречавшийся в эпоху Великого крестового похода и Ереси Хоруса, представлял собой просто два болтера, прикрепленных друг к другу. В отличие от более поздних штурм-болтеров, они были соединены вместе позже, а не в первую очередь.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_GuardianSpearR.label"><s>Guardian Spear (ranged)</s><r>Копье Стража (дальнего боя)</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_GuardianSpearR.verbs.0.label"><s>Guardian Spear (ranged)</s><r>Копье Стража (дальнего боя)</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Kinetic_Destructor.description"><s>An archeotech pistol used only by the Venatari jump-infantry of the Adeptus Custodes. Hailing from the Dark Age of Technology, the sheer power of each Kinetic Destroyer is akin to that of a plasma weapon, without the risks of overheating and other drawbacks.
+
+Also known as Emperor's hunting eagles, the Venatari swoop from the sky and rain death upon their hapless foes.</s><r>Археотехнологический пистолет, используемый только прыжковой пехотой Венатари Адептус Кустодес. Родом из Темного века технологий, каждый Кинетический Разрушитель по своей мощи близок к мощи плазменного оружия, без риска перегрева и других недостатков.
+
+Также известные как охотничьи орлы Императора, Венатари пикируют с неба и обрушивают смерть на своих незадачливых врагов.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Kinetic_Destructor.label"><s>Kinetic destroyer</s><r>Кинетический разрушитель</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Kinetic_Destructor.tools.0.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Kinetic_Destructor.tools.1.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Kinetic_Destructor.verbs.0.label"><s>Kinetic destroyer</s><r>Кинетический разрушитель</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_MeltaSpear.comps.5.weaponsToSwitch.0.description"><s>Swap to Ranged</s><r>Переключиться на дальний бой</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_MeltaSpear.description"><s>A combi-weapon, consisting of a disruptive power field around the spear’s head and an integrated melta beam, which fires a blast of energy from a nuclear fusion reaction. The end result is a weapon well-suited to close combat, making a mockery of any armor the enemy possesses. 
+
+A wise Space Marine once likened the Adeptus Custodes to lone wolves, compared to the Adeptus Astartes being a pack of war dogs. While the combat prowess of a Custodian far exceeds any single Space Marine, their only flaw is fighting as individuals rather than as a unit - in other words, a lack of real teamwork.</s><r>Комбинированное оружие, состоящее из разрушительного энергетического поля вокруг наконечника копья и встроенного мелта-луча, который выпускает заряд энергии в результате реакции ядерного синтеза. Конечным результатом является оружие, хорошо подходящее для ближнего боя, превращающее в насмешку любую броню, которой обладает враг. 
+
+Один мудрый космический десантник однажды сравнил Адептус Кустодес с одинокими волками, а Адептус Астартес — со стаей боевых псов. Хотя боевое мастерство Кустодия намного превосходит любого отдельно взятого космического десантника, их единственным недостатком является то, что они сражаются индивидуально, а не как единое целое, другими словами, отсутствие настоящей командной работы.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_MeltaSpear.label"><s>Pyrithite Spear</s><r>Пирититовое копье</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_MeltaSpear.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_MeltaSpear.tools.1.label"><s>shaft</s><r>вал</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_MeltaSpear.tools.2.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_MeltaSpearProjectile.description"><s>melta beam</s><r>дайджест-луч</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_MeltaSpearProjectile.label"><s>Pyrithite Spear beam</s><r>Луч пиритового копья</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_MeltaSpearR.comps.6.weaponsToSwitch.0.description"><s>Swap to Melee</s><r>Переключиться на ближний бой</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_MeltaSpearR.description"><s>A combi-weapon, consisting of a disruptive power field around the spear’s head and an integrated melta beam, which fires a blast of energy from a nuclear fusion reaction. The end result is a weapon well-suited to close combat, making a mockery of any armor the enemy possesses. 
+
+A wise Space Marine once likened the Adeptus Custodes to lone wolves, compared to the Adeptus Astartes being a pack of war dogs. While the combat prowess of a Custodian far exceeds any single Space Marine, their only flaw is fighting as individuals rather than as a unit - in other words, a lack of real teamwork.</s><r>Комбинированное оружие, состоящее из разрушительного энергетического поля вокруг наконечника копья и встроенного мелта-луча, который выпускает заряд энергии в результате реакции ядерного синтеза. Конечным результатом является оружие, хорошо подходящее для ближнего боя, превращающее в насмешку любую броню, которой обладает враг. 
+
+Один мудрый космический десантник однажды сравнил Адептус Кустодес с одинокими волками, а Адептус Астартес — со стаей боевых псов. Хотя боевое мастерство Кустодия намного превосходит любого отдельно взятого космического десантника, их единственным недостатком является то, что они сражаются индивидуально, а не как единое целое, другими словами, отсутствие настоящей командной работы.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_MeltaSpearR.label"><s>Pyrithite Spear (ranged)</s><r>Пирититовое копье (дальнего боя)</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_MeltaSpearR.verbs.0.label"><s>Pyrithite Spear (ranged)</s><r>Пирититовое копье (дальнего боя)</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Misericordia.description"><s>Also known as the “blade of mercy”, the Misericordia is a long dagger/short sword carried by the Adeptus Custodes. A piece of archeotechnology from the Age of Strife, it uses no disruptive power field, but instead the blade itself is imbued with “micromolecular dissonator spirits”, allowing it to punch through thick armor. 
+
+During the Age of Strife, it was infamous as a symbol of the tyranny of the techno-barbarian warlords. When Terra was unified by the Emperor, the Misericordia became a symbol of the Emperors judgement instead - which, depending on your viewpoint, may be the same thing.</s><r>Мизерикордия, также известная как «клинок милосердия», представляет собой длинный кинжал/короткий меч, который носят Адептус Кустодес. Образец археотехнологии Эпохи Раздора, он не использует разрушительного силового поля, но вместо этого сам клинок пропитан «микромолекулярными духами-диссонаторами», что позволяет ему пробивать толстую броню. 
+
+В Эпоху Раздора он был печально известен как символ тирании техно-варварских военачальников. Когда Терра была объединена Императором, Мизерикордия вместо этого стала символом суда Императора, что, в зависимости от вашей точки зрения, может быть одним и тем же.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Misericordia.label"><s>Misericordia</s><r>Мизерикордия</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Misericordia.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Misericordia.tools.1.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Misericordia.tools.2.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_SOSBolter.description"><s>An ancient and ornate boltgun design, used by the Sisters of Silence during the Horus Heresy. They could be found in the hands of Questora cadres of the Chamber of Judgement and Eradicators cadres of the Chamber of Vigilance. 
+
+The Silent Sisterhood were no slouches during the Age of Darkness, regularly being fielded against the legions of Chaos and the Traitor forces who followed them. Since all daemons are beings of the Warp and the Traitor sorcerors called upon the Immaterium for their powers, the Sisters were a very strong counter against them.
+
+&lt;color=#bb8f04&gt;Damage scales with psy sensitivity of target.&lt;/color&gt;</s><r>Древний богато украшенный болтер, использовавшийся Сестрами Безмолвия во время Ереси Хоруса. Их можно было найти в руках кадров Квесторы из Палаты Правосудия и кадров Искоренителей из Палаты Бдительности. 
+
+Безмолвное Сестричество не дремало в Эпоху Тьмы, регулярно выступая против легионов Хаоса и последовавших за ними сил Предателей. Поскольку все демоны являются существами Варпа, а колдуны-предатели призвали Имматериум для получения своих сил, Сестры были очень сильным противодействием им.
+
+&lt;color=#bb8f04&gt;Урон масштабируется в зависимости от пси-чувствительности цели.&lt;/color&gt;</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_SOSBolter.label"><s>Vratine Bolter</s><r>Вратине Болтер</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_SOSBolter.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_SOSBolter.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_SOSBolter.verbs.0.label"><s>Vratine Bolter</s><r>Вратине Болтер</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_SOSBolter_Bullet.label"><s>bolt</s><r>болт</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_SagittarumHelmet.description"><s>An uncommon helmet worn by Sagittarum Custodians of the Adeptus Custodes. The Sagittarum Guard are a rarer type of Custodian, focusing on delivering heavy firepower from longer ranges, like the various fire support squads of the Adeptus Astartes. 
+
+During the Great Crusade and Horus Heresy, they stood guard on the outermost perimeter of the Imperial Palace, on guard for any invader. However, they became a rare Sight in the 41st Millennium.</s><r>Необычный шлем, который носят хранители Сагиттарума Адептус Кустодес. Страж Стрелец — более редкий тип кустодиев, специализирующийся на доставке тяжелой огневой мощи с больших дистанций, как и различные отряды огневой поддержки Адептус Астартес. 
+
+Во время Великого крестового похода и Ереси Хоруса они стояли на страже внешнего периметра Императорского дворца, охраняя любого захватчика. Однако в 41-м тысячелетии они стали редкостью.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_SagittarumHelmet.label"><s>Sagittarum helmet</s><r>Шлем стрел</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Sentinel_Blade.description"><s>A special type of power sword, used only by the Adeptus Custodes. Not only is the broadsword's blade strong enough to cut through a Terminators armor. 
+
+Despite their size, Sentinel Blades are wielded one-handed, an ability granted by the exceptional strength of Custodians. They are often wielded with Storm Shields, providing a good balance of offence and defence.</s><r>Особый тип силового меча, используемый только Адептус Кустодес. Лезвие палаша не только достаточно прочное, чтобы пробить броню Терминатора. 
+
+Несмотря на свой размер, Клинки Стража владеют одной рукой, и эта способность дарована исключительной силой Кустодианов. Их часто используют вместе со штормовыми щитами, обеспечивая хороший баланс нападения и защиты.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Sentinel_Blade.label"><s>Sentinel blade</s><r>Сторожевой клинок</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Sentinel_Blade.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Sentinel_Blade.tools.1.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Sentinel_Blade.tools.2.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_ShieldCaptainShoulder.description"><s>Power Armor shoulder pads of a Shield-Captain. Highly ornamented, but certainly not ornamental. 
+
+A Shield-Captain is not merely a warrior - few command officers are, as they have to navigate command centre politics and butter up the occasional noble or Inquisitor. However, Shield-Captains must manoeuvre around the highest of the high - the nobles of Holy Terra - and the stakes are far greater than one's own career or life.</s><r>Наплечники силовой брони щит-капитана. Богато орнаментирован, но явно не декоративен. 
+
+Щит-капитан — это не просто воин, немногие командиры таковыми являются, поскольку им приходится ориентироваться в политике командного центра и время от времени подмазывать дворянина или инквизитора. Однако щит-капитанам приходится маневрировать вокруг высших из высших слоев общества — дворян Святой Терры — и ставки гораздо выше, чем собственная карьера или жизнь.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_ShieldCaptainShoulder.label"><s>Shield Captain shoulder pads</s><r>Наплечники щитового капитана</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_ShieldCaptianHelmet.description"><s>The helmet of a Shield-Captain of the Adeptus Custodes, with extra markings to symbolise their rank. 
+
+Shield-Captains are the leaders of Shield Companies, the standard tactical formation of the Adeptus Custodes - multiple Shield Companies form a Shield Host. However, their organisation is conducted with surprising looseness, with Shield Companies being formed and disbanded as needed, and Shield-Captains have even been known to command each other as the situation requires. 
+
+Custodians do not require orders to fall in line, nor rank to command - every Custodian knows their place and respects each others' authority.</s><r>Шлем щит-капитана Адептус Кустодес с дополнительными отметинами, символизирующими его ранг. 
+
+Щитовые роты — лидеры Щитовых рот, стандартного тактического формирования Адептус Кустодес — несколько Щитовых рот образуют Щитовое Воинство. Однако их организация осуществляется с удивительной свободой: роты щитов формируются и расформировываются по мере необходимости, а капитаны щитов, как известно, даже командуют друг другом в зависимости от ситуации. 
+
+Хранителям не нужны приказы и звание для командования — каждый Хранитель знает свое место и уважает авторитет друг друга.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_ShieldCaptianHelmet.label"><s>Shield Captain helmet</s><r>Шлем щитового капитана</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_SisterOfSilence.description"><s>A suit of Power Armor built for the Sisters of Silence, the left hand of the Talons of the Emperor. While it is of smaller stature than the Custodian equivalent, it is just as finely-crafted, and similarly protective. 
+
+The Sister of Silence are an ancient order of Blanks - a form of mutant that is utterly abhorrent to the Warp and to psykery. As such, the Sisterhood makes for excellent hunters of daemons and witches, as well as managing the psyker harvest of the Black Ships.</s><r>Костюм Силовой Брони, созданный для Сестер Безмолвия, левой руки Когтей Императора. Несмотря на то, что он меньше по размеру, чем аналог Кустодиана, он столь же искусно изготовлен и обеспечивает такую ​​же защиту. 
+
+Сестры Безмолвия — древний орден Бланков — форма мутантов, совершенно ненавистная Варпу и псайкерии. Таким образом, Сестринство является отличными охотниками на демонов и ведьм, а также управляет добычей псайкеров на Черных Кораблях.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_SisterOfSilence.label"><s>Sister of Silence armor</s><r>Доспехи сестры безмолвия</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_SoSHelmetA.description"><s>The mask of a Silent Sister. Traditionally, the mouth of a Sister is always covered, representing their vow of silence. 
+
+Sisters of Silence primarily communicate in their own sign language, known as &quot;Thoughtmark&quot;. Very few outside of the Sisters of Silence and the Adeptus Custodes can understand it - Sisters of a particularly sarcastic bent amuse themselves by signing to Space Marines and Imperial Guardsmen whom they know full well do not understand them.</s><r>Маска Безмолвной сестры. Традиционно рот сестры всегда прикрыт, что символизирует обет молчания. 
+
+Сестры Безмолвия в основном общаются на своем собственном языке жестов, известном как «Мысленный знак». Очень немногие за пределами Сестёр Безмолвия и Адептус Кустодес могут это понять – Сестры с особенно саркастическими наклонностями развлекаются, подписываясь на Космических Десантников и Имперских Гвардейцев, которых они прекрасно знают, не понимают их.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_SoSHelmetA.label"><s>Sister of Silence helmet (a)</s><r>Шлем Сестры Тишины (а)</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_SoSHelmetB.description"><s>The helmet of a Silent Sister. Traditionally, the mouth of a Sister is always covered, representing their vow of silence. 
+
+Sisters of Silence primarily communicate in their own sign language, known as &quot;Thoughtmark&quot;. Very few outside of the Sisters of Silence and the Adeptus Custodes can understand it - Sisters of a particularly sarcastic bent amuse themselves by signing to Space Marines and Imperial Guardsmen whom they know full well do not understand them.</s><r>Шлем Безмолвной Сестры. Традиционно рот сестры всегда прикрыт, что символизирует обет молчания. 
+
+Сестры Безмолвия в основном общаются на своем собственном языке жестов, известном как «Мысленный знак». Очень немногие за пределами Сестёр Безмолвия и Адептус Кустодес могут это понять – Сестры с особенно саркастическими наклонностями развлекаются, подписываясь на Космических Десантников и Имперских Гвардейцев, которых они прекрасно знают, не понимают их.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_SoSHelmetB.label"><s>Sister of Silence helmet (b)</s><r>Шлем Сестры Тишины (б)</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_SoSShoulder.description"><s>Shoulder pads belonging to a Sister of Silence. Though they are physically less capable than their Custodian counterparts, they are still elite warriors and incredibly dangerous even to non-psykers. 
+
+Part of the reason that Blanks are so rare in the galaxy is social ostracism, for Blanks radiate an air of wrongness - or soullessness - about them through no fault of their own. Blank children have been shunned by their communities and even their own families, even to the point of their death by neglect.</s><r>Наплечники, принадлежащие Сестре Безмолвия. Хотя физически они менее способны, чем их собратья-кустодианцы, они по-прежнему являются элитными воинами и невероятно опасны даже для тех, кто не является псайкером. 
+
+Отчасти причина того, что Бланки так редки в галактике, - это социальный остракизм, поскольку Бланки излучают вокруг себя атмосферу неправильности - или бездушности - не по своей вине. Их общины и даже их собственные семьи избегали пустых детей, вплоть до их смерти из-за пренебрежения.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_SoSShoulder.label"><s>Sister of Silence shoulder pads</s><r>Наплечники сестры тишины</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_SoSSword.description"><s>A two-handed power sword wielded by Sisters of Silence. Edged with special silica glass, as hard as diamond, it can deliver a deadly blow to an armored foe with the right technique. 
+
+A certain Execution Blade, named &quot;Veracity&quot;, was once wielded by the Emperor of Mankind Himself, but was passed down to Knight-Commander Jenetia Krole some time before the Horus Heresy. She was an exceptionally powerful Blank - so much so that combined with the Onyx Cloak she wore, she was nearly invisible to daemons and normal humans alike.
+
+&lt;color=#bb8f04&gt;Damage scales with psy sensitivity of target.&lt;/color&gt;
+		
+Minimum Psychic Sensitivity on target: 100%
+		
+Bonus damage: 5%
+		
+Apply Bonus every 20% psychic sensitivity above 100%</s><r>Двуручный силовой меч, которым владеют Сестры Безмолвия. Обрамленный специальным кварцевым стеклом, твердым, как алмаз, он может нанести смертельный удар бронированному противнику при правильной технике. 
+
+Некий Клинок Казни, названный «Правда», когда-то принадлежал Самому Императору Человечества, но был передан Рыцарю-Командору Дженетии Кроле незадолго до Ереси Хоруса. Она была исключительно мощным Бланком - настолько, что в сочетании с ониксовым плащом она была почти невидима как для демонов, так и для обычных людей.
+
+&lt;color=#bb8f04&gt;Урон зависит от пси-чувствительности цели.&lt;/color&gt;
+ 
+Минимальная психическая чувствительность цели: 100%
+ 
+Бонусный урон: 5%
+ 
+Применять бонус каждые 20% психической чувствительности выше 100%.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_SoSSword.label"><s>Executioner Greatblade</s><r>Большой клинок Палача</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_SoSSword.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_SoSSword.tools.1.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_SoSSword.tools.2.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Vaultsword.description"><s>A special type of ancient powersword wielded only by Blade Champions of the Adeptus Custodes. Wielded in the Hurricanis style, the Vaultsword can output an incredible storm of deadly, armor-penetrating strikes. 
+
+Vaultswords are a piece of “archeotech”, not to be confused with the archotechs of the rimworlds. “Archeotech” is an Imperial term linked to “archeology”; it means once-lost technology that was recovered from ancient times, such as the Dark Age of Technology.</s><r>Особый тип древнего силового меча, которым владеют только Чемпионы Клинка Адептус Кустодес. Меч Хранилища, владеющий стилем Урагана, может нанести невероятный шквал смертоносных, проникающих сквозь броню ударов. 
+
+Vaultswords — это часть «археотеха», не путать с архотехами краевых миров. «Археотех» — имперский термин, связанный с «археологией»; это означает некогда утерянную технологию, которая была восстановлена ​​с древних времен, таких как Темный век технологий.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Vaultsword.label"><s>Vaultsword</s><r>Меч-Хранилище</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Vaultsword.tools.0.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Vaultsword.tools.1.label"><s>blade</s><r>лезвие</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_VenatariBackpack.comps.5.chargeNoun"><s>jump</s><r>прыгать</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_VenatariBackpack.comps.5.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_VenatariBackpack.description"><s>Vanatari jump pack is compact, personal propulsion units that allow rapid aerial movement, granting elite warriors exceptional mobility, close-range assault capability, and the ability to strike from unexpected angles.</s><r>Прыжковый ранец Ванатари — это компактные персональные двигательные установки, которые позволяют быстро перемещаться по воздуху, предоставляя элитным воинам исключительную мобильность, способность атаковать с близкого расстояния и возможность наносить удары с неожиданных углов.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_VenatariBackpack.label"><s>Vanatari jump pack</s><r>Прыжковый ранец Ванатари</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_VenatariBackpack.verbs.0.label"><s>jump</s><r>прыгать</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_VenatariHelmet.description"><s>A lightweight but still very protective battle mask, worn by the Venatari jump-infantry of the Adeptus Custodes.
+
+Each Venatari is a highly-skilled veteran of the Blood Games, a special wargame practiced by the Adeptus Custodes. Certain Custodians are tasked with mock-assassinating the Emperor, allowing them to find and exploit security weaknesses which can then be patched. Some Blood Games have been known to last years - one Custodian, Calladayce Taurovalia Kesh, ended her Blood Game after over two years when she was caught trying to teleport a cyclonic warhead into the Emperor's throne room.</s><r>Легкая, но при этом очень защитная боевая маска, которую носят прыжковая пехота Венатари Адептус Кустодес.
+
+Каждый венатари — высококвалифицированный ветеран Кровавых игр, особой военной игры, практикуемой Адептус Кустодес. Некоторым кустодианам поручено инсценировать убийство Императора, что позволяет им находить и использовать слабые места в системе безопасности, которые затем можно исправить. Известно, что некоторые Кровавые Игры проводились в течение последних лет - одна Кустодиан, Калладейс Тауровалия Кеш, прекратила свою Кровавую Игру спустя более двух лет, когда ее поймали при попытке телепортировать циклоническую боеголовку в тронный зал Императора.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_VenatariHelmet.label"><s>Venatari mask</s><r>Маска венатари</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Vexilla.description"><s>A battle-standard held by the Adeptus Custodes, properly called a “Magisterium Vexilla”. As well as serving as a solid melee weapon to crush an enemy’s skull, it also seems to inspire nearby allies to fight harder than normal, increasing speed and strength. Whether that effect is through pure inspiration and belief or the presence of mysterious technology is unknown. 
+
+Some secrets are kept even from the Adeptus Mechanicus. Some of those were kept in the Tower Aquilane, the headquarters of the Adeptus Custodes.</s><r>Боевой штандарт Адептус Кустодес, правильно называемый «Магистериум Вексилла». Помимо того, что он служит надежным оружием ближнего боя, способным раздробить череп врага, он также, кажется, вдохновляет ближайших союзников сражаться сильнее, чем обычно, увеличивая скорость и силу. Неизвестно, является ли этот эффект чистым вдохновением и верой или присутствием таинственной технологии. 
+
+Некоторые секреты хранятся даже от Адептус Механикус. Некоторые из них хранились в Башне Аквилан, штаб-квартире Адептус Кустодес.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Vexilla.label"><s>Magisterium Vexilla</s><r>Обучающие баннеры</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Vexilla.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_Vexilla.tools.1.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_WatchersAxe.comps.5.weaponsToSwitch.0.description"><s>Swap to Ranged</s><r>Переключиться на дальний бой</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_WatchersAxe.description"><s>The Watcher's Axe is an ancient power axe, combined with a master-crafted boltgun named the “Eagle's Scream”. A unique version of the Castellan Axe, it crackles with golden lightning, and its swing is said to be so powerful that even a Chaos-empowered Dreadnought was once cleaved in twain with a single stroke. 
+
+The true Watcher’s Axe is wielded by Captain-General Trajann Valoris. This is a mere replica, but well-crafted enough that it holds great power of its own.</s><r>Топор Наблюдателя — это древний силовой топор, соединенный с мастерски изготовленным болтером под названием «Крик Орла». Уникальная версия Топора Кастеляна, он сверкает золотыми молниями, а его удар, как говорят, настолько силен, что даже дредноут, наделенный силой Хаоса, однажды был расколот надвое одним ударом. 
+
+Настоящим Топором Наблюдателя владеет капитан-генерал Траянн Валорис. Это всего лишь копия, но достаточно хорошо сделанная, чтобы обладать огромной силой.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_WatchersAxe.label"><s>Watcher's Axe</s><r>Топор наблюдателя</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_WatchersAxe.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_WatchersAxe.tools.1.label"><s>shaft</s><r>вал</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_WatchersAxe.tools.2.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_WatchersAxeProjectile.label"><s>Watcher's Axe bolt</s><r>Болт топора наблюдателя</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_WatchersAxeR.comps.6.weaponsToSwitch.0.description"><s>Swap to Melee</s><r>Переключиться на ближний бой</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_WatchersAxeR.description"><s>The Watcher's Axe is an ancient power axe, combined with a master-crafted boltgun named the “Eagle's Scream”. A unique version of the Castellan Axe, it crackles with golden lightning, and its swing is said to be so powerful that even a Chaos-empowered Dreadnought was once cleaved in twain with a single stroke. 
+
+The true Watcher’s Axe is wielded by Captain-General Trajann Valoris. This is a mere replica, but well-crafted enough that it holds great power of its own.</s><r>Топор Наблюдателя — это древний силовой топор, соединенный с мастерски изготовленным болтером под названием «Крик Орла». Уникальная версия Топора Кастеляна, он сверкает золотыми молниями, а его удар, как говорят, настолько силен, что даже дредноут, наделенный силой Хаоса, однажды был расколот надвое одним ударом. 
+
+Настоящим Топором Наблюдателя владеет генерал-капитан Траянн Валорис. Это всего лишь копия, но достаточно хорошо сделанная, чтобы обладать огромной силой.</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_WatchersAxeR.label"><s>Watcher's Axe (ranged)</s><r>Топор наблюдателя (дальнего боя)</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_WatchersAxeR.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="GW_TotE_WatchersAxeR.verbs.0.label"><s>Watcher's Axe (ranged)</s><r>Топор наблюдателя (дальнего боя)</r></e>
+  <e k="D" t="ThingDef" key="OrionGunshipbuild.description"><s>A heavy gunship employed by the Heresy-era Legio Custodes. While its Arachnus Blaze Cannons unleash hellish laser-fire on the enemy, and its Lastrum Bolt Cannons perforate the survivors, its complement of twenty-four Custodian infantry can deploy to take control of the area and sweep away any remaining opposition. 
+
+If the Imperial forces should recover any vehicles of their own design from the &quot;techno-barbarians&quot; of the rimworld, they often retain them for further use or to be brought back to Imperial space in the future. The Custodians are particularly keen on capturing these gunships, as well as Caladius tanks - once the holy rituals and blessings of the Omnissiah are applied, those vehicles are quickly squirreled away in Adeptus Custodes voidships, for thorough examination on the Throneworld. 
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Тяжелый боевой корабль, используемый Легио Кустодес времен Ереси. В то время как его огневые пушки «Арахнус» обрушивают адский лазерный огонь на врага, а его болтовые пушки «Ластрум» пронзают выживших, его отряд из двадцати четырех пехотинцев-кустодианцев может развернуться, чтобы взять под контроль территорию и смести оставшееся сопротивление. 
+
+Если имперские силы заберут какие-либо транспортные средства собственной разработки у «техноварваров» периферийного мира, они часто сохраняют их для дальнейшего использования или для возвращения в имперское пространство в будущем. Кустодианцы особенно заинтересованы в захвате этих боевых кораблей, а также танков «Каладиус» — после применения священных ритуалов и благословений Омниссии эти машины быстро отправляются на пустотные корабли Адептус Кустодес для тщательного изучения в Тронном мире. 
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="OrionGunshipbuild.label"><s>Orion Gunship</s><r>Боевой корабль Орион</r></e>
+  <e k="D" t="ThingDef" key="OrionGunshippawn.&lt;CompPropsVehicleTurrets&gt;k__BackingField.turrets.0.gizmoLabel"><s>Heavy Blaze Cannon</s><r>Тяжелая огненная пушка</r></e>
+  <e k="D" t="ThingDef" key="OrionGunshippawn.&lt;CompPropsVehicleTurrets&gt;k__BackingField.turrets.1.gizmoLabel"><s>Heavy Blaze Cannon</s><r>Тяжелая огненная пушка</r></e>
+  <e k="D" t="ThingDef" key="OrionGunshippawn.&lt;CompPropsVehicleTurrets&gt;k__BackingField.turrets.2.gizmoLabel"><s>Heavy Cannons</s><r>Тяжелые пушки</r></e>
+  <e k="D" t="ThingDef" key="OrionGunshippawn.&lt;CompPropsVehicleTurrets&gt;k__BackingField.turrets.3.gizmoLabel"><s>Heavy Cannons</s><r>Тяжелые пушки</r></e>
+  <e k="D" t="ThingDef" key="OrionGunshippawn.components.0.label"><s>Vector Turbofans Center</s><r>Центр «Векторные турбовентиляторные двигатели»</r></e>
+  <e k="D" t="ThingDef" key="OrionGunshippawn.components.1.label"><s>Vector Turbofans Left</s><r>Векторные турбовентиляторные двигатели слева</r></e>
+  <e k="D" t="ThingDef" key="OrionGunshippawn.components.2.label"><s>Vector Turbofans Right
+</s><r>Векторные турбовентиляторные двигатели Right
+</r></e>
+  <e k="D" t="ThingDef" key="OrionGunshippawn.components.3.label"><s>Right Wings</s><r>Правые крылья</r></e>
+  <e k="D" t="ThingDef" key="OrionGunshippawn.components.4.label"><s>Left Wings</s><r>Левые крылья</r></e>
+  <e k="D" t="ThingDef" key="OrionGunshippawn.components.5.label"><s>Primary Composite Plating</s><r>Первичное композитное покрытие</r></e>
+  <e k="D" t="ThingDef" key="OrionGunshippawn.description"><s>A heavy gunship employed by the Heresy-era Legio Custodes. While its Arachnus Blaze Cannons unleash hellish laser-fire on the enemy, and its Lastrum Bolt Cannons perforate the survivors, its complement of twenty-four Custodian infantry can deploy to take control of the area and sweep away any remaining opposition. 
+
+If the Imperial forces should recover any vehicles of their own design from the &quot;techno-barbarians&quot; of the rimworld, they often retain them for further use or to be brought back to Imperial space in the future. The Custodians are particularly keen on capturing these gunships, as well as Caladius tanks - once the holy rituals and blessings of the Omnissiah are applied, those vehicles are quickly squirreled away in Adeptus Custodes voidships, for thorough examination on the Throneworld. 
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Pilots x1 Passengers x24
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Uranium</s><r>Тяжелый боевой корабль, используемый Легио Кустодес времен Ереси. В то время как его огневые пушки «Арахнус» обрушивают адский лазерный огонь на врага, а его болтовые пушки «Ластрум» пронзают выживших, его отряд из двадцати четырех пехотинцев-кустодианцев может развернуться, чтобы взять под контроль территорию и смести оставшееся сопротивление. 
+
+Если имперские силы заберут какие-либо транспортные средства собственной разработки у «техноварваров» периферийного мира, они часто сохраняют их для дальнейшего использования или для возвращения в имперское пространство в будущем. Кустодианцы особенно заинтересованы в захвате этих боевых кораблей, а также танков «Каладиус» — после применения священных ритуалов и благословений Омниссии эти машины быстро отправляются на пустотные корабли Адептус Кустодес для тщательного изучения в Тронном мире. 
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Пилоты x1 Пассажиры x24
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Уран</r></e>
+  <e k="D" t="ThingDef" key="OrionGunshippawn.graphicData.cachedRGBGraphic.path"><s>Things/Vehicles/Orion Gunship/OrionGunship</s><r>Вещи/Транспорт/Orion Gunship/OrionGunship</r></e>
+  <e k="D" t="ThingDef" key="OrionGunshippawn.label"><s>Orion Gunship</s><r>Боевой корабль Орион</r></e>
+  <e k="D" t="TraderKindDef" key="GW_TotE_TraderBase.label"><s>custodes trader</s><r>предать охрану</r></e>
+  <e k="D" t="VehicleTurretDef" key="GW_CalastrusTank_Lasgun.description"><s>A twinlinked Lascannon, faster than singles, but suffers from worse overheating.</s><r>Спаренная лазпушка быстрее одиночной, но сильнее перегревается.</r></e>
+  <e k="D" t="VehicleTurretDef" key="GW_CalastrusTank_Lasgun.gizmoDescription"><s>Select a target.
+
+Fire for effect.</s><r>Выберите цель.
+
+Стреляйте по эффекту.</r></e>
+  <e k="D" t="VehicleTurretDef" key="GW_CalastrusTank_Lasgun.label"><s>lasgun</s><r>лазган</r></e>
+  <e k="D" t="VehicleTurretDef" key="GW_CalstrusTank_twinBolter.description"><s>bolt.</s><r>болт.</r></e>
+  <e k="D" t="VehicleTurretDef" key="GW_CalstrusTank_twinBolter.gizmoDescription"><s>Select a target.
+
+Fire for effect.</s><r>Выберите цель.
+
+Стреляйте по эффекту.</r></e>
+  <e k="D" t="VehicleTurretDef" key="GW_CalstrusTank_twinBolter.label"><s>Twin Heavy Bolter</s><r>Двойной тяжелый болтер</r></e>
+  <e k="D" t="VehicleTurretDef" key="GW_DawnEagleBike_Main.description"><s>A fixed, front-mounted hurricane bolter. Fires 0.998 cal bolts.</s><r>Стационарный передний болтер-ураган. Стреляет болтами калибра 0,998.</r></e>
+  <e k="D" t="VehicleTurretDef" key="GW_DawnEagleBike_Main.gizmoDescription"><s>Select a target.
+
+Fire for effect.</s><r>Выберите цель.
+
+Стреляйте по эффекту.</r></e>
+  <e k="D" t="VehicleTurretDef" key="GW_DawnEagleBike_Main.label"><s>Hurricane Bolter</s><r>Ураган Болтер</r></e>
+  <e k="D" t="VehicleTurretDef" key="GW_Orion_Bolter.description"><s>The Heavy Bolter, a formidable weapon in the Warhammer 40,000 universe, is often mounted on vehicles to enhance their firepower. This versatile weapon, characterized by its rapid and powerful firepower, serves as a potent anti-infantry and suppressive tool on the battlefield. When mounted on a vehicle, it becomes a symbol of mobile and devastating firepower, capable of mowing down enemy infantry and providing valuable support in diverse combat scenarios.</s><r>Тяжелый болтер, грозное оружие во вселенной Warhammer 40,000, часто устанавливается на транспортные средства для повышения их огневой мощи. Это универсальное оружие, отличающееся своей быстрой и мощной огневой мощью, служит мощным средством борьбы с пехотой и средством подавления на поле боя. Установленный на транспортном средстве, он становится символом мобильной и разрушительной огневой мощи, способной скосить вражескую пехоту и оказать ценную поддержку в различных боевых сценариях.</r></e>
+  <e k="D" t="VehicleTurretDef" key="GW_Orion_Bolter.gizmoDescription"><s>Select a target.
+
+Fire for effect.</s><r>Выберите цель.
+
+Стреляйте по эффекту.</r></e>
+  <e k="D" t="VehicleTurretDef" key="GW_Orion_Bolter.label"><s>Bolt cannons</s><r>Болт-пушки</r></e>
+  <e k="D" t="VehicleTurretDef" key="GW_Orion_Lascannon.description"><s>Heavy blaze cannons are turret-mounted lascannons that fire concentrated, high-energy beams, designed to pierce heavily armored vehicles and fortified positions with precision.</s><r>Тяжелые огненные пушки — это установленные на башне лазпушки, стреляющие концентрированными высокоэнергетическими лучами и предназначенные для точного пробития тяжелобронированной техники и укреплённых позиций.</r></e>
+  <e k="D" t="VehicleTurretDef" key="GW_Orion_Lascannon.gizmoDescription"><s>Select a target.
+
+Fire for effect.</s><r>Выберите цель.
+
+Стреляйте по эффекту.</r></e>
+  <e k="D" t="VehicleTurretDef" key="GW_Orion_Lascannon.label"><s>Heavy Blaze Cannons</s><r>Тяжелые огненные пушки</r></e>
+  <e k="D" t="WorkGiverDef" key="DoBillsTalonOfTheEmperorArmorBench.gerund"><s>fabricating things at</s><r>изготовление вещей в</r></e>
+  <e k="D" t="WorkGiverDef" key="DoBillsTalonOfTheEmperorArmorBench.label"><s>fabricate things</s><r>фабриковать вещи</r></e>
+  <e k="D" t="WorkGiverDef" key="DoBillsTalonOfTheEmperorArmorBench.verb"><s>fabricate</s><r>выдумывать</r></e>
+</AutoTranslateCache>
