@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="vanillaexpanded.vplantsemore" name="Vanilla Plants Expanded - More Plants" language="Russian" version="1">
+  <e k="D" t="RecipeDef" key="VCE_Make_ChemfuelFromCanola.description"><s>Make a batch of chemfuel by extracting biofuel from canola flowers.</s><r>Сделайте партию химического топлива, извлекая биотопливо из цветов канолы.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_Make_ChemfuelFromCanola.jobString"><s>Refining chemfuel from canola.</s><r>Переработка химического топлива из канолы.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_Make_ChemfuelFromCanola.label"><s>make chemfuel from canola</s><r>сделать химическое топливо из канолы</r></e>
+  <e k="D" t="RecipeDef" key="VCE_Make_Kibble_Moss.description"><s>Make animal kibble by combining raw meat and moss. This recipe is slightly more efficient than using hay.</s><r>Приготовьте корм для животных, смешав сырое мясо и мох. Этот рецепт немного более эффективен, чем использование сена.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_Make_Kibble_Moss.jobString"><s>Making kibble from moss.</s><r>Делаем корм из мха.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_Make_Kibble_Moss.label"><s>make kibble from moss</s><r>сделать корм из мха</r></e>
+  <e k="D" t="RecipeDef" key="VCE_MilkFromAlmonds.description"><s>Extract vegetable milk from almonds. This milk can be used in any recipe that asks for milk.
+
+Vegetable milks are generally inefficient, as a lot of nutrition is lost in the process.</s><r>Экстракт растительного молока из миндаля. Это молоко можно использовать в любом рецепте, в котором требуется молоко.
+
+Растительное молоко, как правило, неэффективно, так как при этом теряется много питательных веществ.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_MilkFromAlmonds.jobString"><s>Extracting milk from almonds.</s><r>Получение молока из миндаля.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_MilkFromAlmonds.label"><s>extract milk from almonds</s><r>извлечь молоко из миндаля</r></e>
+  <e k="D" t="RecipeDef" key="VCE_MilkFromCoconuts.description"><s>Extract vegetable milk from coconuts. This milk can be used in any recipe that asks for milk.
+
+Vegetable milks are generally inefficient, as a lot of nutrition is lost in the process.</s><r>Извлеките растительное молоко из кокосов. Это молоко можно использовать в любом рецепте, в котором требуется молоко.
+
+Растительное молоко, как правило, неэффективно, так как при этом теряется много питательных веществ.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_MilkFromCoconuts.jobString"><s>Extracting milk from coconuts.</s><r>Получение молока из кокосов.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_MilkFromCoconuts.label"><s>extract milk from coconuts</s><r>извлечь молоко из кокосов</r></e>
+  <e k="D" t="RecipeDef" key="VCE_MilkFromOats.description"><s>Extract vegetable milk from oats. This milk can be used in any recipe that asks for milk.
+
+Vegetable milks are generally inefficient, as a lot of nutrition is lost in the process.</s><r>Извлеките растительное молоко из овса. Это молоко можно использовать в любом рецепте, в котором требуется молоко.
+
+Растительное молоко, как правило, неэффективно, так как при этом теряется много питательных веществ.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_MilkFromOats.jobString"><s>Extracting milk from oats.</s><r>Получение молока из овса.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_MilkFromOats.label"><s>extract milk from oats</s><r>извлечь молоко из овса</r></e>
+  <e k="D" t="RecipeDef" key="VCE_MilkFromRice.description"><s>Extract vegetable milk from rice. This milk can be used in any recipe that asks for milk.
+
+Rice is very inefficient when converted into milk, and a lot of nutrition is lost in the process.</s><r>Извлеките растительное молоко из риса. Это молоко можно использовать в любом рецепте, в котором требуется молоко.
+
+Рис очень неэффективен при превращении в молоко, и при этом теряется много питательных веществ.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_MilkFromRice.jobString"><s>Extracting milk from rice.</s><r>Получение молока из риса.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_MilkFromRice.label"><s>extract milk from rice</s><r>извлечь молоко из риса</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.description"><s>Vegetable milk extraction allows the colonists to extract milk from rice, oats, almonds, coconuts and soybeans.</s><r>Экстракция растительного молока позволяет колонистам получать молоко из риса, овса, миндаля, кокосов и соевых бобов.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.0"><s>subject-&gt;innovation's path</s><r>subject-&gt;путь инноваций</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.1"><s>subject_story-&gt;unveiled simple truths behind complex phenomena</s><r>subject_story-&gt;раскрыл простые истины, стоящие за сложными явлениями</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.10"><s>subject-&gt;seeds of tomorrow</s><r>subject-&gt;семена завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.11"><s>subject_story-&gt;planted ideas that would grow into transformative solutions</s><r>subject_story-&gt;посадил идеи, которые переросли в преобразующие решения</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.12"><s>subject_story-&gt;cultivated a garden of knowledge, ripe with potential</s><r>subject_story-&gt;возделывал сад знаний, полный потенциала</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.13"><s>subject_story-&gt;nurtured the roots of change with care and foresight</s><r>subject_story-&gt;заботливо и дальновидно взращивали корни перемен</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.14"><s>subject_gerund-&gt;sowing the future with today’s discoveries</s><r>subject_gerund-&gt;сея будущее с сегодняшними открытиями</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.15"><s>subject-&gt;the ripple of curiosity</s><r>subject-&gt;волна любопытства</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.16"><s>subject_story-&gt;set forth waves of inquiry that echoed through time</s><r>subject_story-&gt;излагать волны исследований, которые эхом отдавались во времени</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.17"><s>subject_story-&gt;dropped pebbles of innovation into the pond of knowledge</s><r>subject_story-&gt;бросил камешки инноваций в пруд знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.18"><s>subject_story-&gt;watched as one question led to another, expanding the circle of understanding</s><r>subject_story-&gt;наблюдал, как один вопрос влек за собой другой, расширяя круг понимания</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.19"><s>subject_gerund-&gt;casting stones to create waves of progress</s><r>subject_gerund-&gt;бросать камни для создания волн прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.2"><s>subject_story-&gt;simplified the intricate to make way for practical applications</s><r>subject_story-&gt;упростил сложную задачу, освободив место для практического применения</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.20"><s>subject-&gt;the alchemy of progress</s><r>subject-&gt;алхимия прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.21"><s>subject_story-&gt;merged disparate disciplines to unlock new realms of possibility</s><r>subject_story-&gt;объединили разрозненные дисциплины, чтобы открыть новые сферы возможностей</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.22"><s>subject_story-&gt;turned the impossible into the inevitable through sheer ingenuity</s><r>subject_story-&gt;превратил невозможное в неизбежное благодаря своей изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.23"><s>subject_story-&gt;crafted solutions that reshaped the understanding of what's achievable</s><r>subject_story-&gt;разработанные решения, которые изменили понимание того, что достижимо</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.24"><s>subject_gerund-&gt;blending science and magic into the fabric of reality</s><r>subject_gerund-&gt;смешивание науки и магии в ткань реальности</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.25"><s>subject-&gt;the tapestry of discovery</s><r>subject-&gt;гобелен открытий</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.26"><s>subject_story-&gt;wove together threads of knowledge from the four corners of the world</s><r>subject_story-&gt;сплели воедино нити знаний из четырех уголков мира</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.27"><s>subject_story-&gt;revealed patterns in the chaos, charting paths to untold innovations</s><r>subject_story-&gt;выявил закономерности в хаосе, проложив пути к неисчислимым инновациям</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.28"><s>subject_story-&gt;embroidered the annals of history with tales of serendipitous breakthroughs</s><r>subject_story-&gt;украсили анналы истории рассказами о счастливых открытиях</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.29"><s>subject_gerund-&gt;weaving the future from the loom of the present</s><r>subject_gerund-&gt;плетение будущего на станке настоящего</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.3"><s>subject_story-&gt;harnessed basic principles to achieve remarkable feats</s><r>subject_story-&gt;использовал основные принципы для достижения выдающихся подвигов</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.30"><s>subject-&gt;the crucible of creation</s><r>subject-&gt;тигель творения</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.31"><s>subject_story-&gt;fused raw elements into the building blocks of tomorrow</s><r>subject_story-&gt;соединил необработанные элементы в строительные блоки завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.32"><s>subject_story-&gt;tempered the fires of creativity to forge unprecedented technologies</s><r>subject_story-&gt;умерил огонь творчества, чтобы создать беспрецедентные технологии</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.33"><s>subject_story-&gt;quenched the thirst for knowledge with the elixir of invention</s><r>subject_story-&gt;утолил жажду знаний эликсиром изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.34"><s>subject_gerund-&gt;molding the raw materials of today into the artifacts of the future</s><r>subject_gerund-&gt;превращение сегодняшнего сырья в артефакты будущего</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.35"><s>subject-&gt;the beacon of enlightenment</s><r>subject-&gt;маяк просвещения</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.36"><s>subject_story-&gt;illuminated the dark corners of ignorance, guiding the way forward</s><r>subject_story-&gt;освещал темные уголки невежества, указывая путь вперед</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.37"><s>subject_story-&gt;cast light on the unknown, making the unseen visible to curious minds</s><r>subject_story-&gt;пролить свет на неизведанное, сделать невидимое видимым для любопытных умов</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.38"><s>subject_story-&gt;ignited the flames of curiosity, kindling a worldwide pursuit of understanding</s><r>subject_story-&gt;зажег пламя любопытства, разжигая стремление к пониманию во всем мире.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.39"><s>subject_gerund-&gt;lighting the torches of progress and knowledge</s><r>subject_gerund-&gt;зажигая факелы прогресса и знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.4"><s>subject_gerund-&gt;streamlining the essence of discovery</s><r>subject_gerund-&gt;оптимизация сути открытия</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.40"><s>subject-&gt;the frontier of knowledge</s><r>subject-&gt;граница знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.41"><s>subject_story-&gt;crossed new horizons in the pursuit of understanding</s><r>subject_story-&gt;пересек новые горизонты в поисках понимания</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.42"><s>subject_story-&gt;challenged the status quo with groundbreaking theories</s><r>subject_story-&gt;бросил вызов статус-кво с помощью новаторских теорий</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.43"><s>subject_story-&gt;merged ancient wisdom with modern technology for innovative solutions</s><r>subject_story-&gt;объединили древнюю мудрость с современными технологиями для инновационных решений</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.44"><s>subject_gerund-&gt;pushing the boundaries of science and art</s><r>subject_gerund-&gt;расширяя границы науки и искусства</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.45"><s>subject-&gt;the essence of innovation</s><r>subject-&gt;суть инноваций</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.46"><s>subject_story-&gt;transformed everyday materials into extraordinary tools</s><r>subject_story-&gt;превратил повседневные материалы в необычные инструменты</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.47"><s>subject_story-&gt;paved the way for future generations with sustainable practices</s><r>subject_story-&gt;проложили путь будущим поколениям с помощью устойчивых методов</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.48"><s>subject_story-&gt;harnessed the power of nature to fuel new advancements</s><r>subject_story-&gt;использовали силу природы для стимулирования новых достижений</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.49"><s>subject_gerund-&gt;fostering an ecosystem of creativity and progress</s><r>subject_gerund-&gt;содействие развитию экосистемы творчества и прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.5"><s>subject-&gt;building blocks of progress</s><r>subject-&gt;строительные блоки прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.50"><s>subject-&gt;the architects of tomorrow</s><r>subject-&gt;архитекторы завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.51"><s>subject_story-&gt;built the foundations for a utopia where technology serves all</s><r>subject_story-&gt;заложил основы утопии, где технологии служат всем</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.52"><s>subject_story-&gt;envisioned a future where harmony between technology and nature thrives</s><r>subject_story-&gt;представлял будущее, в котором процветает гармония между технологиями и природой</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.53"><s>subject_story-&gt;crafted tools that empower humanity to reach its fullest potential</s><r>subject_story-&gt;созданные инструменты, которые позволяют человечеству полностью раскрыть свой потенциал</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.54"><s>subject_gerund-&gt;laying the keystones for future landscapes</s><r>subject_gerund-&gt;закладываем краеугольные камни для будущих пейзажей</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.55"><s>subject-&gt;exploratory leaps</s><r>subject-&gt;исследовательские прыжки</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.56"><s>subject_story-&gt;stepped boldly into uncharted territories of knowledge</s><r>subject_story-&gt;смело шагнул на неизведанные территории знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.57"><s>subject_story-&gt;bridged the gap between the known and the unknown</s><r>subject_story-&gt;преодолел разрыв между известным и неизвестным</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.58"><s>subject_story-&gt;ventured where curiosity dared to lead</s><r>subject_story-&gt;рискнул туда, где любопытство осмелилось привести</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.59"><s>subject_gerund-&gt;embarking on journeys of discovery</s><r>subject_gerund-&gt;отправляясь в путешествие открытий</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.6"><s>subject_story-&gt;laid the groundwork for monumental leaps forward</s><r>subject_story-&gt;заложил основу для монументального скачка вперед</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.60"><s>subject-&gt;the essence of ingenuity</s><r>subject-&gt;суть изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.61"><s>subject_story-&gt;transformed challenges into opportunities for growth</s><r>subject_story-&gt;превратил проблемы в возможности для роста</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.62"><s>subject_story-&gt;applied creative thinking to overcome traditional obstacles</s><r>subject_story-&gt;применил творческое мышление для преодоления традиционных препятствий</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.63"><s>subject_story-&gt;crafted elegant solutions with a blend of art and science</s><r>subject_story-&gt;созданные элегантные решения, сочетающие искусство и науку</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.64"><s>subject_gerund-&gt;unlocking potential through innovation</s><r>subject_gerund-&gt;раскрытие потенциала через инновации</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.65"><s>subject-&gt;knowledge’s harvest</s><r>subject-&gt;урожай знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.66"><s>subject_story-&gt;gathered insights as one reaps the fields at harvest</s><r>subject_story-&gt;собирал идеи, когда собираешь урожай на полях</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.67"><s>subject_story-&gt;cultivated a bounty of understanding from the seeds of inquiry</s><r>subject_story-&gt;вырастил щедрость понимания из семян исследования</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.68"><s>subject_story-&gt;shared the fruits of research with the world</s><r>subject_story-&gt;поделился плодами исследований со всем миром</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.69"><s>subject_gerund-&gt;reaping the rewards of relentless curiosity</s><r>subject_gerund-&gt;пожинать плоды неустанного любопытства</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.7"><s>subject_story-&gt;connected dots across disciplines to reveal new insights</s><r>subject_story-&gt;связали точки между дисциплинами, чтобы выявить новые идеи</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.70"><s>subject-&gt;the puzzle of progress</s><r>subject-&gt;загадка прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.71"><s>subject_story-&gt;assembled the pieces of mystery to reveal the big picture</s><r>subject_story-&gt;собрал кусочки тайны, чтобы раскрыть общую картину</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.72"><s>subject_story-&gt;matched theory with practice to solve longstanding puzzles</s><r>subject_story-&gt;сочетать теорию с практикой для решения давних загадок</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.73"><s>subject_story-&gt;uncovered hidden connections that unlocked new possibilities</s><r>subject_story-&gt;раскрыл скрытые связи, которые открыли новые возможности</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.74"><s>subject_gerund-&gt;piecing together the elements of advancement</s><r>subject_gerund-&gt;собираем воедино элементы продвижения</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.8"><s>subject_story-&gt;crafted the foundation upon which future innovations stand</s><r>subject_story-&gt;создали основу, на которой стоят будущие инновации</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.generalRules.rulesStrings.9"><s>subject_gerund-&gt;laying down the keystones of advancement</s><r>subject_gerund-&gt;закладывая краеугольные камни продвижения</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_VegMilkExtraction.label"><s>vegetable milk</s><r>растительное молоко</r></e>
+  <e k="D" t="ThingCategoryDef" key="VCE_Flowers.label"><s>flowers</s><r>цветы</r></e>
+  <e k="D" t="ThingDef" key="VCE_AloeVera.description"><s>A herb with succulent leaves that are arranged in a rosette. The leaves are grey to green and sometimes have white spots on their surfaces. They have sharp, pinkish spines along their edges and are the source of a colourless gel that is used in many medicinal products.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Aloe vera is only growable in sandy growing zones, which ignore fertility. These plants will however take a long time to sow and harvest, basically exchanging colonist work for growing plants in a normally unused space. Aloe vera is a source of herbal medicine.</s><r>Трава с сочными листьями, расположенными в розетке. Листья от серого до зеленого цвета, иногда на поверхности имеются белые пятна. Они имеют острые розоватые шипы по краям и являются источником бесцветного геля, который используется во многих лекарственных средствах.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Алоэ вера можно выращивать только в песчаных зонах выращивания, которые игнорируют плодородие. Однако для посева и сбора этих растений потребуется много времени, в результате чего работа колонистов будет заменена выращиванием растений в обычно неиспользуемом пространстве. Алоэ вера является источником лекарственных трав.</r></e>
+  <e k="D" t="ThingDef" key="VCE_AloeVera.label"><s>aloe vera plant</s><r>растение алоэ вера</r></e>
+  <e k="D" t="ThingDef" key="VCE_Barley.description"><s>A cereal grain that people can use in bread, beverages, stews, and other dishes. As a whole grain, barley provides fiber, vitamins, and minerals. It has been genetically engineered to gently break into flour with a mere touch.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Barley is a &quot;dual crop&quot;, in the sense that it produces both flour and hay.</s><r>Зерно злака, которое можно использовать в хлебе, напитках, рагу и других блюдах. Цельное зерно ячменя содержит клетчатку, витамины и минералы. Он был генетически спроектирован так, чтобы одним прикосновением мягко превращаться в муку.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Ячмень — это «двойная культура», в том смысле, что он производит и муку, и сено.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Barley.label"><s>maris otter barley plant</s><r>растение ячменя Марис Оттер</r></e>
+  <e k="D" t="ThingDef" key="VCE_Beans.label"><s>green bean plant</s><r>зеленая фасоль</r></e>
+  <e k="D" t="ThingDef" key="VCE_BellPepper.description"><s>Also known as sweet peppers, bell peppers are technically nightshades and part of the capsicum family, but they are the only chili pepper that carries a recessive gene that stops any capsaicin from being made in the fruit, thus making them not spicy.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; On average, 25% of bell peppers will mature into yellow peppers, while 75% will mature into red peppers. The former are more nutritive. If planted in large numbers this results in increased average yield.</s><r>Also known as sweet peppers, bell peppers are technically nightshades and part of the capsicum family, but they are the only chili pepper that carries a recessive gene that stops any capsaicin from being made in the fruit, thus making them not spicy.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; On average, 25% of bell peppers will mature into yellow peppers, while 75% will созревают в красный перец. Первые более питательны. Если посадить в больших количествах, это приведет к увеличению средней урожайности.</r></e>
+  <e k="D" t="ThingDef" key="VCE_BellPepper.label"><s>bell pepper plant</s><r>растение болгарского перца</r></e>
+  <e k="D" t="ThingDef" key="VCE_BrusselsSprout.description"><s>A form of cabbage grown for its edible buds called &quot;sprouts&quot;. Brussels sprouts usually are eaten cooked, and the small young sprouts have a more delicate flavour than older ones.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Contrary to other plants, brussels sprouts thrive in snow, and receive a considerable boost to growth if snowing, AS LONG AS it is also growth season (they won't grow or be able to be planted otherwise). They won't die due to cold.</s><r>Вид капусты, выращиваемый ради съедобных почек, называемых «ростками». Брюссельскую капусту обычно едят приготовленной, и маленькие молодые капусты имеют более нежный вкус, чем более старые.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; В отличие от других растений, брюссельская капуста прекрасно себя чувствует в снегу и получает значительный импульс к росту, если идет снег, ПОКА идет сезон роста (в противном случае они не будут расти или их нельзя будет сажать). Они не умрут от холода.</r></e>
+  <e k="D" t="ThingDef" key="VCE_BrusselsSprout.label"><s>brussels sprout plant</s><r>растение брюссельской капусты</r></e>
+  <e k="D" t="ThingDef" key="VCE_Buckwheat.description"><s>A pseudocereal cultivated for its grain-like seeds. Its white flowers are produced in terminal clusters and after pòllination turn into triangular-shaped seeds that are enclosed by a tough dark brown or gray rind.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Buckwheat is very resistant to fire, and this variety has been modified to be completely non-flammable.</s><r>Псевдозерновые культуры, выращиваемые из-за семян, похожих на зерна. Его белые цветки образуются в конечных гроздьях и после опыления превращаются в семена треугольной формы, окруженные жесткой темно-коричневой или серой кожурой.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Гречиха очень устойчива к огню, и этот сорт был модифицирован, чтобы сделать его полностью негорючим.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Buckwheat.label"><s>buckwheat plant</s><r>гречневый завод</r></e>
+  <e k="D" t="ThingDef" key="VCE_ButternutSquash.description"><s>A vine plant that produces a vegetable with a sweet, nutty taste similar to that of a pumpkin. It has tan-yellow skin and orange fleshy pulp with a compartment of seeds in the blossom end.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Butternut squash is only growable in sandy growing zones, which ignore fertility. These plants will however take a long time to sow and harvest, basically exchanging colonist work for growing plants in a normally unused space. Butternut squash takes a long time to grow.</s><r>Виноградное растение, из которого получаются овощи со сладким ореховым вкусом, похожим на вкус тыквы. У него желто-коричневая кожица и оранжевая мясистая мякоть с отделением семян на конце цветка.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Мускатную тыкву можно выращивать только в песчаных зонах выращивания, которые игнорируют плодородие. Однако для посева и сбора этих растений потребуется много времени, в результате чего работа колонистов будет заменена выращиванием растений в обычно неиспользуемом пространстве. Мускатная тыква растет долго.</r></e>
+  <e k="D" t="ThingDef" key="VCE_ButternutSquash.label"><s>butternut squash plant</s><r>растение мускатной тыквы</r></e>
+  <e k="D" t="ThingDef" key="VCE_Canola.description"><s>A bright-yellow flowering variety of the rapeseed, cultivated mainly for its oil-rich seed.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Canola, though not directly edible, can be very efficiently converted into chemfuel at a refinery.</s><r>Ярко-желтый цветущий сорт рапса, выращиваемый в основном ради богатых маслом семян.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Канола, хотя и не съедобна напрямую, на нефтеперерабатывающем заводе может быть очень эффективно переработана в химическое топливо.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Canola.label"><s>canola plant</s><r>растение рапса</r></e>
+  <e k="D" t="ThingDef" key="VCE_Carrot.description"><s>A herbaceous plant of the Apiaceae family that produces an edible taproot. An erect rosette of doubly compound, finely divided leaves develops above ground, while the edible carrot and attached roots are below.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Companion planting: carrots will grow faster if green beans are cultivated in the same map (up to 30% faster if 100 are found).</s><r>Травянистое растение семейства Зонтичные, имеющее съедобный стержневой корень. Прямостоячая розетка из вдвойне сложных, мелко разделенных листьев развивается над землей, а съедобная морковь и прикрепленные корни находятся внизу.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Посадка-компаньон: морковь будет расти быстрее, если на той же карте выращивать зеленую фасоль (до 30% быстрее, если найдено 100 штук).</r></e>
+  <e k="D" t="ThingDef" key="VCE_Carrot.label"><s>danvers carrot plant</s><r>растение моркови Дэнверса</r></e>
+  <e k="D" t="ThingDef" key="VCE_Cassava.description"><s>A tuberous edible plant also called manioc, mandioca, or yuca. They have a mild nutty taste and are commonly eaten as root vegetables in stews or as side dishes. Cassava roots are a versatile vegetable that can be used to produce flour, breads, tapioca, a laundry starch, and an alcoholic beverage.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Cassava grows best in tropical, warm and humid climates. As such, it will receive a considerable growth bonus if the weather is foggy.</s><r>Клубневое съедобное растение, также называемое маниоком, мандиокой или юкой. Они имеют мягкий ореховый вкус, и их обычно едят в качестве корнеплодов в рагу или в качестве гарниров. Корни маниоки — универсальный овощ, который можно использовать для производства муки, хлеба, тапиоки, крахмала для стирки и алкогольных напитков.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Маниока лучше всего растет в тропическом, теплом и влажном климате. Таким образом, он получит значительный бонус к росту, если погода будет туманной.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Cassava.label"><s>cassava plant</s><r>растение маниоки</r></e>
+  <e k="D" t="ThingDef" key="VCE_Celery.description"><s>A vegetable consisting of a long fibrous stalk tapering into leaves. The leaves are strongly flavored and are used less often, either as a flavoring in soups and stews or as a dried herb. Celery is a staple in many soups.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Celery has a very long growth period (almost a full year!). If it can be kept alive all that time, it produces greater yield than corn.</s><r>Овощ, состоящий из длинного волокнистого стебля, сужающегося к листьям. Листья имеют сильный аромат и используются реже либо в качестве ароматизатора в супах и тушеных блюдах, либо в виде сушеной травы. Сельдерей является основным продуктом многих супов.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; У сельдерея очень длительный период роста (почти целый год!). Если его можно поддерживать в живых все это время, он даст больший урожай, чем кукуруза.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Celery.label"><s>celery plant</s><r>сельдерей</r></e>
+  <e k="D" t="ThingDef" key="VCE_Chickpea.description"><s>One of the earliest cultivated legumes, widely grown for its nutritious seeds. These are high in fibre and protein and are a good source of iron, phosphorus, and folic acid.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Chickpeas grow quite fast and have good yield, but they require a LOT of space to be stored (this may be negated by stack-increasing mods, you dirty cheater, but it's up to you to decide to mess up the game's balance).</s><r>Одна из первых культивируемых бобовых культур, широко выращиваемая из-за ее питательных семян. Он богат клетчаткой и белком и является хорошим источником железа, фосфора и фолиевой кислоты.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Нут растет довольно быстро и дает хороший урожай, но для его хранения требуется МНОГО места (это может быть сведено на нет модами, увеличивающими стек, ты грязный мошенник, но тебе решать испортить игру). баланс).</r></e>
+  <e k="D" t="ThingDef" key="VCE_Chickpea.label"><s>chickpea plant</s><r>растение нута</r></e>
+  <e k="D" t="ThingDef" key="VCE_CoconutPalm.description"><s>A palm tree cultivated extensively in tropical areas for its edible fruit, the coconut. Coconut palms flourish best close to the sea on low-lying areas a few feet above high water.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; All fruit trees take about four times as much space as regular crops, take a long time to grow and produce fruits that can be eaten raw. They aren't destroyed after harvesting but have a limited lifespan and will eventually need to be replanted.
+
+Coconut palms are only growable in sandy growing zones, which ignore fertility. These plants will however take a long time to sow and harvest, basically exchanging colonist work for growing plants in a normally unused space.
+
+Coconut palms receive a growth bonus if sea water tiles are found in a 6 tile radius. Coconuts can be used as fruits or processed into milk.</s><r>Пальма, широко выращиваемая в тропических регионах из-за съедобных плодов — кокоса. Кокосовые пальмы лучше всего растут вблизи моря, на низменных участках в нескольких футах над уровнем воды.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Все фруктовые деревья занимают примерно в четыре раза больше места, чем обычные культуры, требуют много времени, чтобы вырасти и дать плоды, которые можно есть сырыми. Они не уничтожаются после сбора урожая, но имеют ограниченный срок службы, и в конечном итоге их придется пересаживать.
+
+Кокосовые пальмы можно выращивать только в песчаных зонах выращивания, которые игнорируют плодородие. Однако для посева и сбора этих растений потребуется много времени, по сути, работа колонистов заменяется выращиванием растений в обычно неиспользуемом пространстве.
+
+Кокосовые пальмы получают бонус роста, если плитки с морской водой находятся в радиусе 6 плиток. Кокосы можно использовать как фрукты или перерабатывать в молоко.</r></e>
+  <e k="D" t="ThingDef" key="VCE_CoconutPalm.label"><s>coconut palm</s><r>кокосовая пальма</r></e>
+  <e k="D" t="ThingDef" key="VCE_Cucumber.description"><s>A sprawling vine with large leaves and curling tendrils, triangular prickly hairy leaves and yellow flowers. Produces a fruit that is a long thin vegetable with hard green skin and wet transparent flesh. 
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Cucumbers are only growable in sandy growing zones, which ignore fertility. These plants will however take a long time to sow and harvest, basically exchanging colonist work for growing plants in a normally unused space. Cucumbers grow quite fast, providing little yield but in a short period. They can be eaten raw.</s><r>Раскидистая лиана с большими листьями и вьющимися усиками, треугольными колючими волосистыми листьями и желтыми цветками. Плод представляет собой длинный тонкий овощ с твердой зеленой кожицей и влажной прозрачной мякотью. 
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Огурцы можно выращивать только в песчаных зонах выращивания, которые игнорируют плодородие. Однако для посева и сбора этих растений потребуется много времени, в результате чего работа колонистов будет заменена выращиванием растений в обычно неиспользуемом пространстве. Огурцы растут довольно быстро, давая небольшой урожай, но за короткий период. Их можно есть сырыми.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Cucumber.label"><s>bush champion cucumber plant</s><r>растение огурца-чемпиона по кустам</r></e>
+  <e k="D" t="ThingDef" key="VCE_FragrantbloomRose.description"><s>A unique rose variety cultivated for its intense, captivating scent, perfect for making perfumes and other aromatic products.</s><r>Уникальный сорт розы, выращенный из-за ее интенсивного, чарующего аромата, идеально подходящего для изготовления духов и других ароматических продуктов.</r></e>
+  <e k="D" t="ThingDef" key="VCE_FragrantbloomRose.label"><s>fragrantbloom rose</s><r>ароматноцветущая роза</r></e>
+  <e k="D" t="ThingDef" key="VCE_Garlic.description"><s>A plant with long, flat grasslike leaves forming a stalk, which rises directly from the flower bulb, the part of the plant used as food and medicine. The bulb is made up of many smaller cloves covered with a papery skin.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Garlic has very little yield, but can grow in almost any terrain and takes an obscene time to rot, as dried garlic can be used to cook too.</s><r>Растение с длинными, плоскими, похожими на траву листьями, образующими стебель, который поднимается прямо из цветочной луковицы — части растения, используемой в пищу и в качестве лекарства. Луковица состоит из множества более мелких зубчиков, покрытых бумажной кожицей.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; У чеснока очень мало урожая, но он может расти практически на любой местности, и для его гниения требуется неприлично много времени, поскольку сушеный чеснок можно использовать и для приготовления пищи.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Garlic.label"><s>garlic plant</s><r>чеснок</r></e>
+  <e k="D" t="ThingDef" key="VCE_Healshroom.description"><s>A slow-growing mushroom which yields herbal medicine when harvested. Sowing and harvesting healshroom are both very labor-intensive tasks because of its fragility. It can grow on fungal gravel, but only in darkness - exposing it to any kind of light, including darklights, will kill it.</s><r>Медленно растущий гриб, из которого при сборе получаются лекарственные травы. Посев и сбор целебного гриба — очень трудоемкие задачи из-за его хрупкости. Он может расти на грибковом гравии, но только в темноте — воздействие любого света, включая темный, убьет его.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Healshroom.label"><s>healshroom</s><r>лечебныйгриб</r></e>
+  <e k="D" t="ThingDef" key="VCE_Hyacinth.description"><s>A vibrant, sweet-smelling flower with a fresh, green fragrance that adds depth to gardens and perfumes alike.</s><r>Яркий, сладко пахнущий цветок со свежим зеленым ароматом, который придает глубину как садам, так и парфюмерии.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Hyacinth.label"><s>hyacinth</s><r>гиацинт</r></e>
+  <e k="D" t="ThingDef" key="VCE_Jasmine.description"><s>A vibrant, sweet-smelling flower with a fresh, green fragrance that adds depth to gardens and perfumes alike.</s><r>Яркий, сладко пахнущий цветок со свежим зеленым ароматом, который придает глубину как садам, так и парфюмерии.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Jasmine.label"><s>jasmine</s><r>жасмин</r></e>
+  <e k="D" t="ThingDef" key="VCE_Lavender.description"><s>A fragrant, purple-flowered plant known for its calming scent and ornamental beauty.</s><r>Ароматное растение с фиолетовыми цветками, известное своим успокаивающим ароматом и декоративной красотой.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Lavender.label"><s>lavender</s><r>лаванда</r></e>
+  <e k="D" t="ThingDef" key="VCE_Lettuce.description"><s>A leaf vegetable commonly eaten fresh and served as the base of green salads. Lettuce is generally a rich source of vitamins K and A.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Lettuce can be eaten raw like strawberries, but needs to be grown in shade: outside, but under roof. It won't grow inside.</s><r>Листовой овощ, который обычно едят свежим и используют в качестве основы для зеленых салатов. Салат, как правило, является богатым источником витаминов К и А.
+
+&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt; Салат можно есть сырым, как клубнику, но его нужно выращивать в тени: на улице, но под крышей. Оно не будет расти внутри.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Lettuce.label"><s>lettuce plant</s><r>салатное растение</r></e>
+  <e k="D" t="ThingDef" key="VCE_Lily.description"><s>A striking flower with a rich, sweet, and sometimes spicy fragrance that fills any space with elegance.</s><r>Яркий цветок с насыщенным, сладким, а иногда и пряным ароматом, наполняющий элегантностью любое пространство.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Lily.label"><s>lily</s><r>лили</r></e>
+  <e k="D" t="ThingDef" key="VCE_Lotus.description"><s>Sometimes colloquially called a water lily, lotus plants are adapted to grow in the flood plains of slow-moving rivers and delta areas. Lotus rhizomes have a crunchy texture with sweet-tangy flavours and can be deep-fried, stir-fried, or stuffed with meats or preserved fruits.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Lotus is only growable in aquatic growing zones, which ignore fertility. These plants will however take a long time to sow and harvest, basically exchanging colonist work for growing plants in a normally unused space. Lotus takes a long time to grow.</s><r>Растения лотоса, которые иногда в просторечии называют кувшинкой, приспособлены к росту в поймах медленно текущих рек и в дельтах. Корневища лотоса имеют хрустящую текстуру, сладко-острый вкус и могут быть обжарены во фритюре, обжарены или начинены мясом или консервированными фруктами.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Лотос можно выращивать только в водных зонах выращивания, где не учитывается плодородие. Однако для посева и сбора этих растений потребуется много времени, в результате чего работа колонистов будет заменена выращиванием растений в обычно неиспользуемом пространстве. Лотосу требуется много времени, чтобы вырасти.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Lotus.label"><s>lotus plant</s><r>лотос</r></e>
+  <e k="D" t="ThingDef" key="VCE_Mangoes.description"><s>An oval fruit, vividly coloured with shades of red and yellow. The single large seed is flattened, and the flesh that surrounds it is yellow to orange in colour, juicy, and of distinctive sweet-spicy flavour.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Mangoes cannot be frozen or they get destroyed. The game won't be smart enough to detect this, so disable them from freezers.</s><r>Плод овальной формы, ярко окрашенный в оттенки красного и желтого. Единственное большое семя сплюснуто, а окружающая его мякоть имеет цвет от желтого до оранжевого, сочная и имеет характерный сладко-пряный вкус.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Манго нельзя заморозить или уничтожить. Игра не будет достаточно умна, чтобы обнаружить это, поэтому отключите их от морозильников.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Mangoes.label"><s>mangoes</s><r>манго</r></e>
+  <e k="D" t="ThingDef" key="VCE_Melon.description"><s>A plant producing a sweet, edible, and fleshy fruit of considerable size. Melons are usually cultivated in warm regions.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Melons are only growable in sandy growing zones, which ignore fertility. These plants will however take a long time to sow and harvest, basically exchanging colonist work for growing plants in a normally unused space. Melons need a lot of space, blocking sowing in adjacent spaces, but harvesting them can't fail</s><r>Растение, дающее сладкие, съедобные и мясистые плоды значительных размеров. Дыни обычно выращивают в теплых регионах.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Дыни можно выращивать только в песчаных зонах выращивания, которые игнорируют плодородие. Однако для посева и сбора этих растений потребуется много времени, в результате чего работа колонистов будет заменена выращиванием растений в обычно неиспользуемом пространстве. Дыням нужно много места, блокируя посев на прилегающих пространствах, но собрать их урожай не получится.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Melon.label"><s>honeydew melon plant</s><r>растение дыни медвяной росы</r></e>
+  <e k="D" t="ThingDef" key="VCE_Moss.description"><s>A nutrient-rich moss that can be used to feed cave animals, but not humans. It can grow on fungal gravel, but only in darkness - exposing it to any kind of light, including darklights, will kill it.</s><r>Богатый питательными веществами мох, который можно использовать в качестве корма для пещерных животных, но не для людей. Он может расти на грибковом гравии, но только в темноте — воздействие любого света, включая темный, убьет его.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Moss.label"><s>cave moss</s><r>пещерный мох</r></e>
+  <e k="D" t="ThingDef" key="VCE_Oats.description"><s>The oat, sometimes called the common oat, is a species of cereal grain grown for its seed, which is known by the same name. Oats have numerous uses in gastronomy, and they can also be turned into vegetable milk.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Oat has low yield, but it is very versatile, being a &quot;dual crop&quot;, in the sense that it produces both flour and oats which can be either used as a vegetable or turned into milk.</s><r>Овес, иногда называемый обыкновенным овсом, представляет собой разновидность зерновых культур, выращиваемых ради семян, известных под тем же названием. Овес имеет множество применений в гастрономии, а также его можно превратить в растительное молоко.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Овес имеет низкую урожайность, но он очень универсален, будучи «двойной культурой», в том смысле, что из него производят и муку, и овес, который можно использовать как овощ или превращать в молоко.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Oats.label"><s>reins oat plant</s><r>поводья овсяного завода</r></e>
+  <e k="D" t="ThingDef" key="VCE_Okra.description"><s>A flowering plant in the mallow family valued for its edible green seed pods, which are famously known for their slimy or sticky texture when cut open. Okra is a powerhouse of valuable nutrients.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Okra is very, VERY resistant to damage. Okra plants will take less damage from prolonged lack of light, and will regenerate damage caused by any other means.</s><r>Цветущее растение семейства мальвовых, ценимое за съедобные зеленые семенные коробочки, которые известны своей слизистой или липкой текстурой при разрезании. Бамия — кладезь ценных питательных веществ.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Бамия очень, ОЧЕНЬ устойчива к повреждениям. Растения бамии меньше пострадают от длительного отсутствия света и восстановят повреждения, нанесенные любыми другими способами.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Okra.label"><s>okra plant</s><r>завод бамии</r></e>
+  <e k="D" t="ThingDef" key="VCE_Orchid.description"><s>A delicate and exotic bloom with a subtle, sweet scent that varies by species, often used in sophisticated perfumes.</s><r>Нежный и экзотический цветок с тонким, сладким ароматом, который варьируется в зависимости от вида, часто используется в изысканных духах.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Orchid.label"><s>orchid</s><r>орхидея</r></e>
+  <e k="D" t="ThingDef" key="VCE_Peanut.description"><s>A plant that produces seeds with an oblong shape and a papery seed coat. Similar in taste and nutritional profile to tree nuts such as walnuts and almonds, but technically a legume.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; This genetically modified variety of peanuts is sown by throwing the seeds haphazardly on the growing zone, and as such the plants will automatically be planted in the adjacent tiles 75% of the time, reducing the total amount of sowing work needed. Useful!</s><r>Растение, дающее семена продолговатой формы с бумажной семенной оболочкой. По вкусу и питательным свойствам он похож на древесные орехи, такие как грецкие орехи и миндаль, но технически является бобовым.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Этот генетически модифицированный сорт арахиса высевается путем беспорядочного разбрасывания семян в зону выращивания, и поэтому растения автоматически высаживаются на соседних плитках в 75% случаев, уменьшая общее количество объем необходимых посевных работ. Полезный!</r></e>
+  <e k="D" t="ThingDef" key="VCE_Peanut.label"><s>peanut plant</s><r>арахисовое растение</r></e>
+  <e k="D" t="ThingDef" key="VCE_PeanutSecondary.description"><s>A plant that produces seeds with an oblong shape and a papery seed coat. Similar in taste and nutritional profile to tree nuts such as walnuts and almonds, but technically a legume.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; This genetically modified variety of peanuts is sown by throwing the seeds haphazardly on the growing zone, and as such the plants will automatically be planted in the adjacent tiles 75% of the time, reducing the total amount of sowing work needed. Useful!</s><r>Растение, дающее семена продолговатой формы с бумажной семенной оболочкой. По вкусу и питательным свойствам он похож на древесные орехи, такие как грецкие орехи и миндаль, но технически является бобовым.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Этот генетически модифицированный сорт арахиса высевается путем беспорядочного разбрасывания семян в зону выращивания, и поэтому растения автоматически высаживаются на соседних плитках в 75% случаев, уменьшая общее количество объем необходимых посевных работ. Полезный!</r></e>
+  <e k="D" t="ThingDef" key="VCE_PeanutSecondary.label"><s>secondary peanut plant</s><r>вторичное растение арахиса</r></e>
+  <e k="D" t="ThingDef" key="VCE_Pineapple.description"><s>A sweet tropical fruit with a tough leathery skin and spiky leaves on top. The word pineapple was first used to mean &quot;pine cone,&quot; and the fruit was given this name because of its resemblance to a large pine cone.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Pineapples have a very long growth period, but they are very nutritive, taking up less space in stockpiles.</s><r>Сладкий тропический фрукт с жесткой кожурой и колючими листьями сверху. Слово «ананас» впервые использовалось в значении «сосновая шишка», а фрукт получил это название из-за его сходства с большой сосновой шишкой.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Ананасы имеют очень длительный период роста, но они очень питательны и занимают меньше места в запасах.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Pineapple.label"><s>pineapple plant</s><r>ананас</r></e>
+  <e k="D" t="ThingDef" key="VCE_Plumeria.description"><s>A tropical flower with a fruity, sweet, and creamy fragrance, perfect for creating a lush, warm atmosphere.</s><r>Тропический цветок с фруктовым, сладким и сливочным ароматом, идеально подходящий для создания пышной и теплой атмосферы.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Plumeria.label"><s>plumeria</s><r>плюмерия</r></e>
+  <e k="D" t="ThingDef" key="VCE_Radish.description"><s>An edible root vegetable that is very easy to grow and quick to harvest. Radishes are often planted by novice gardeners.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; This genetically modified radish has a very short growth period (less than 2 days). This means it is an effective crop if you need small amounts of food FAST, and the sowing and harvesting work will be the most important factor.</s><r>Съедобный корнеплод, который очень легко выращивать и быстро собирать. Редис часто сажают начинающие садоводы.
+
+&lt;color=#E5E54C&gt;Геймплейный эффект:&lt;/color&gt; У этой генетически модифицированной редиски очень короткий период роста (менее 2 дней). Это означает, что это эффективная культура, если вам нужно БЫСТРО небольшое количество еды, и наиболее важным фактором будут посевные и уборочные работы.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Radish.label"><s>radish plant</s><r>редис растение</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawAlmonds.description"><s>An oval shaped drupe often eaten on its own, raw or toasted, though it can also be used as a component of various dishes. A wide range of classic sweets feature almonds as a central ingredient.</s><r>Костянку овальной формы часто едят отдельно, в сыром или поджаренном виде, хотя ее также можно использовать как компонент различных блюд. В широком ассортименте классических сладостей миндаль является центральным ингредиентом.</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawAlmonds.label"><s>almonds</s><r>миндаль</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawAvocado.description"><s>A green or nearly black coloured fruit with a large seed or pit in the center. Avocados have a very mild, creamy texture. Hipsters love them.</s><r>Плод зеленого или почти черного цвета с большим семенем или косточкой в ​​центре. Авокадо имеет очень мягкую кремовую текстуру. Хипстеры их любят.</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawAvocado.label"><s>avocados</s><r>авокадо</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawBeans.description"><s>Young, unripe fruits of a cultivar of the common bean. They can be steamed, boiled, stir-fried, or baked. They are commonly cooked in other dishes such as soups, stews, and casseroles. Green beans can also be pickled, much like cucumbers are.</s><r>Молодые, незрелые плоды сорта фасоли обыкновенной. Их можно готовить на пару, варить, жарить или запекать. Их обычно готовят в других блюдах, таких как супы, тушеные блюда и запеканки. Зеленую фасоль также можно мариновать, как и огурцы.</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawBeans.label"><s>green beans</s><r>зеленая фасоль</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawBellPeppers.description"><s>Also known as sweet peppers, bell peppers are technically nightshades and part of the capsicum family, but they are the only chili pepper that carries a recessive gene that stops any capsaicin from being made in the fruit, thus making them not spicy.</s><r>Болгарский перец, также известный как сладкий перец, технически относится к пасленовым и относится к семейству стручковых перцев, но это единственный перец чили, несущий рецессивный ген, который предотвращает образование капсаицина в плодах, что делает его не острым.</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawBellPeppers.label"><s>red bell peppers</s><r>красный болгарский перец</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawBrusselsSprouts.description"><s>A form of cabbage grown for its edible buds called &quot;sprouts&quot;. Brussels sprouts usually are eaten cooked, and the small young sprouts have a more delicate flavour than older ones.</s><r>Вид капусты, выращиваемый ради съедобных почек, называемых «ростками». Брюссельскую капусту обычно едят приготовленной, а маленькие молодые капусты имеют более нежный вкус, чем старые.</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawBrusselsSprouts.label"><s>brussels sprouts</s><r>брюссельская капуста</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawBuckwheat.description"><s>A pseudocereal cultivated for its grain-like seeds. Its white flowers are produced in terminal clusters and after pòllination turn into triangular-shaped seeds that are enclosed by a tough dark brown or gray rind.</s><r>Псевдозерновые культуры, выращиваемые из-за семян, похожих на зерна. Его белые цветки образуются в концевых гроздьях и после опыления превращаются в семена треугольной формы, окруженные жесткой темно-коричневой или серой кожурой.</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawBuckwheat.label"><s>buckwheat</s><r>гречка</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawButternutSquash.description"><s>A vegetable with a sweet, nutty taste similar to that of a pumpkin. It has tan-yellow skin and orange fleshy pulp with a compartment of seeds in the blossom end.</s><r>Овощ со сладким ореховым вкусом, похожим на тыквенный. У него коричнево-желтая кожица и оранжевая мясистая мякоть с отделением для семян на конце цветка.</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawButternutSquash.label"><s>butternut squashes</s><r>мускатные тыквы</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawCanola.description"><s>A bright-yellow flowering variety of the rapeseed, cultivated mainly for its oil-rich seed.</s><r>Ярко-желтый цветущий сорт рапса, выращиваемый в основном из-за богатых маслом семян.</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawCanola.label"><s>canola flowers</s><r>цветы канолы</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawCarrot.description"><s>A root vegetable, typically orange in color, though purple, black, red, white, and yellow cultivars exist. A versatile food that can be chopped and boiled, fried or steamed, cooked in soups and stews, as well as used for baby and pet foods.</s><r>Корнеплод, обычно оранжевого цвета, хотя существуют фиолетовые, черные, красные, белые и желтые сорта. Универсальная пища, которую можно измельчать и варить, жарить или готовить на пару, готовить в супах и тушеных блюдах, а также использовать в качестве корма для детей и домашних животных.</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawCarrot.label"><s>danvers carrots</s><r>дэнверс морковь</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawCassava.description"><s>A tuberous edible plant also called manioc, mandioca, or yuca. They have a mild nutty taste and are commonly eaten as root vegetables in stews or as side dishes. Cassava roots are a versatile vegetable that can be used to produce flour, breads, tapioca, a laundry starch, and an alcoholic beverage.</s><r>Клубневое съедобное растение, также называемое маниоком, мандиокой или юкой. Они имеют мягкий ореховый вкус, и их обычно едят в качестве корнеплодов в рагу или в качестве гарниров. Корни маниоки — универсальный овощ, который можно использовать для производства муки, хлеба, тапиоки, крахмала для стирки и алкогольных напитков.</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawCassava.label"><s>cassavas</s><r>маниоки</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawCelery.description"><s>A vegetable consisting of a long fibrous stalk tapering into leaves. The leaves are strongly flavored and are used less often, either as a flavoring in soups and stews or as a dried herb. Celery is a staple in many soups.</s><r>Овощ, состоящий из длинного волокнистого стебля, сужающегося к листьям. Листья имеют сильный аромат и используются реже либо в качестве ароматизатора в супах и тушеных блюдах, либо в виде сушеной травы. Сельдерей является основным продуктом многих супов.</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawCelery.label"><s>celery</s><r>сельдерей</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawChickpeas.description"><s>One of the earliest cultivated legumes. Chickpeas are high in fibre and protein and are a good source of iron, phosphorus, and folic acid.</s><r>Одна из первых культивируемых бобовых культур. Нут богат клетчаткой и белком и является хорошим источником железа, фосфора и фолиевой кислоты.</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawChickpeas.label"><s>chickpeas</s><r>нут</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawCoconut.description"><s>The edible fruit of the coconut palm. Coconut flesh is high in fat and can be dried or eaten fresh or processed into coconut milk or coconut oil. The liquid of the nut, known as coconut water, is used in beverages.</s><r>Съедобные плоды кокосовой пальмы. Мякоть кокоса отличается высоким содержанием жира, ее можно сушить, есть свежей или перерабатывать в кокосовое молоко или кокосовое масло. Жидкость ореха, известная как кокосовая вода, используется в напитках.</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawCoconut.label"><s>coconuts</s><r>кокосы</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawCucumber.description"><s>A long thin vegetable with hard green skin and wet transparent flesh. Can be eaten raw.</s><r>Длинный тонкий овощ с твердой зеленой кожицей и влажной прозрачной мякотью. Можно есть сырыми.</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawCucumber.label"><s>bush champion cucumbers</s><r>огурцы-чемпионы куста</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawGarlic.description"><s>A very old crop which is cultivated for its bulb, formed in the base of the leaves. It is highly appreciated in cooking for its pungent and characteristic taste.</s><r>Очень старая культура, которую выращивают ради луковицы, образующейся в основании листьев. Он высоко ценится в кулинарии за острый и характерный вкус.</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawGarlic.label"><s>garlic cloves</s><r>зубчики чеснока</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawLettuce.description"><s>A leaf vegetable commonly eaten fresh and served as the base of green salads. Lettuce is generally a rich source of vitamins K and A.</s><r>Листовой овощ, который обычно едят свежим и используют в качестве основы для зеленых салатов. Салат, как правило, является богатым источником витаминов К и А.</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawLettuce.label"><s>lettuce</s><r>латук</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawLotus.description"><s>The seeds of the lotus plant. They are packed with nutritional elements which make them an excellent choice for a healthy diet, with a high content of proteins, carbohydrates, and vitamins.</s><r>Семена растения лотоса. Они богаты питательными элементами, что делает их отличным выбором для здорового питания, с высоким содержанием белков, углеводов и витаминов.</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawLotus.label"><s>lotus seeds</s><r>семена лотоса</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawMelon.description"><s>A sweet, edible, and fleshy fruit of considerable size. Melons are usually cultivated in warm regions.</s><r>Сладкий, съедобный и мясистый плод значительного размера. Дыни обычно выращивают в теплых регионах.</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawMelon.label"><s>honeydew melons</s><r>дыни</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawMoss.description"><s>A nutrient-rich moss that can be used to feed cave animals, but not humans.</s><r>Богатый питательными веществами мох, который можно использовать в качестве корма для пещерных животных, но не для людей.</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawMoss.label"><s>cave moss</s><r>пещерный мох</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawOats.description"><s>The grain of the oat plant. Oats have numerous uses in foods; most commonly, they are rolled or crushed into oatmeal. Oatmeal is chiefly eaten as porridge, but may also be used in a variety of baked goods. Oats are also used for production of milk substitutes.</s><r>Зерно растения овса. Овес имеет множество применений в пищевых продуктах; чаще всего их раскатывают или измельчают в овсянку. Овсянку в основном едят в виде каши, но ее также можно использовать в разнообразной выпечке. Овес также используется для производства заменителей молока.</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawOats.label"><s>reins oats</s><r>поводья овса</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawOkra.description"><s>Edible green seed pods, famously known for their slimy or sticky texture when cut open. Okra is a powerhouse of valuable nutrients.</s><r>Съедобные зеленые семенные коробочки, известные своей слизистой или липкой текстурой при разрезании. Бамия — кладезь ценных питательных веществ.</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawOkra.label"><s>okra</s><r>бамия</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawOlives.description"><s>A small, egg-shaped black or green fruit that is used as food or for making oil. Olives freshly picked from the tree contain oleuropein, which makes the fruit unpalatable for immediate consumption. They must be brined or fermented to be used.</s><r>Небольшой черный или зеленый фрукт яйцевидной формы, который используется в пищу или для приготовления масла. Свежесорванные с дерева оливки содержат олеуропеин, который делает плоды невкусными для немедленного употребления. Для использования их необходимо рассолить или ферментировать.</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawOlives.label"><s>olives</s><r>оливки</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawPeanut.description"><s>Seeds with an oblong shape and a papery seed coat. Similar in taste and nutritional profile to tree nuts such as walnuts and almonds, but technically a legume.</s><r>Семена продолговатой формы с бумажной оболочкой. По вкусу и питательной ценности он похож на древесные орехи, такие как грецкие орехи и миндаль, но технически является бобовым.</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawPeanut.label"><s>peanuts</s><r>арахис</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawPineapple.description"><s>A sweet tropical fruit with a tough leathery skin and spiky leaves on top. The word pineapple was first used to mean &quot;pine cone,&quot; and the fruit was given this name because of its resemblance to a large pine cone.</s><r>Сладкий тропический фрукт с жесткой кожурой и колючими листьями сверху. Слово «ананас» впервые использовалось в значении «сосновая шишка», а это название фрукт получил из-за его сходства с большой сосновой шишкой.</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawPineapple.label"><s>pineapples</s><r>ананасы</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawRadish.description"><s>An edible root vegetable that is very easy to grow and quick to harvest. Radishes are often planted by novice gardeners.</s><r>Съедобный корнеплод, который очень легко выращивать и быстро собирать. Редис часто сажают начинающие садоводы.</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawRadish.label"><s>radishes</s><r>редис</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawSunflower.description"><s>The seeds of the sunflower plant are more commonly eaten as a snack than as part of a meal. They can also be used as garnishes or ingredients in various recipes.</s><r>Семена подсолнечника чаще едят в качестве закуски, чем как часть еды. Их также можно использовать в качестве гарнира или ингредиента в различных рецептах.</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawSunflower.label"><s>sunflower seeds</s><r>семечки подсолнечника</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawSweetPotatoes.description"><s>Large, starchy, sweet-tasting (tasting similar to pumpkin), tuberous roots that are used as a root vegetable. The sweet potato is distantly related to the common potato.</s><r>Большие, крахмалистые, сладкие на вкус (по вкусу похожие на тыквенные) клубневидные корни, которые используются в качестве корнеплода. Сладкий картофель имеет отдаленное отношение к обычному картофелю.</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawSweetPotatoes.label"><s>sweet potatoes</s><r>сладкий картофель</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawTaro.description"><s>A starchy root vegetable. It has a brown outer skin and white flesh with purple specks throughout. When cooked, it has a mildly sweet taste and a texture similar to potato.</s><r>Крахмалистый корнеплод. У него коричневая внешняя кожица и белая мякоть с фиолетовыми пятнышками по всей поверхности. В приготовленном виде он имеет слегка сладкий вкус и текстуру, похожую на картофель.</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawTaro.label"><s>taro roots</s><r>корни таро</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawWaterChestnut.description"><s>Small, rounded corms with a crisp, white flesh that may be eaten slightly boiled, or grilled.</s><r>Маленькие округлые клубнелуковицы с хрустящей белой мякотью, которую можно есть слегка отваренной или приготовленной на гриле.</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawWaterChestnut.label"><s>water chestnuts</s><r>водяные каштаны</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawWatercress.description"><s>A green leaf vegetable rich in vitamins and minerals and from the same family as kale and broccoli.</s><r>Зеленый листовой овощ, богатый витаминами и минералами, из того же семейства, что капуста и брокколи.</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawWatercress.label"><s>watercress leaves</s><r>листья кресс-салата</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawYellowBellPeppers.description"><s>Also known as sweet peppers, bell peppers are technically nightshades and part of the capsicum family, but they are the only chili pepper that carries a recessive gene that stops any capsaicin from being made in the fruit, thus making them not spicy.</s><r>Болгарский перец, также известный как сладкий перец, технически относится к пасленовым и относится к семейству стручковых перцев, но это единственный перец чили, несущий рецессивный ген, который предотвращает образование капсаицина в плодах, что делает его не острым.</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawYellowBellPeppers.label"><s>yellow bell peppers</s><r>желтый болгарский перец</r></e>
+  <e k="D" t="ThingDef" key="VCE_Rye.description"><s>A plant that grows well in much poorer soils than those necessary for most cereal grains. Thus, it is an especially valuable crop in regions where the soil has sand or peat. It has been genetically engineered to gently break into flour with a mere touch.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Rye is only growable in sandy growing zones, which ignore fertility. These plants will however take a long time to sow and harvest, basically exchanging colonist work for growing plants in a normally unused space. Rye needs to be grown away from large bodies of water (water within 10 tiles of it will stop its growth).</s><r>Растение, которое хорошо растет на гораздо более бедных почвах, чем те, которые необходимы для большинства зерновых культур. Таким образом, это особенно ценная культура в регионах, где почва песчаная или торфяная. Он был генетически спроектирован так, чтобы одним прикосновением мягко превращаться в муку.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Рожь можно выращивать только в песчаных зонах выращивания, которые игнорируют плодородие. Однако для посева и сбора этих растений потребуется много времени, в результате чего работа колонистов будет заменена выращиванием растений в обычно неиспользуемом пространстве. Рожь необходимо выращивать вдали от больших водоемов (вода в пределах 10 клеток от нее остановит ее рост).</r></e>
+  <e k="D" t="ThingDef" key="VCE_Rye.label"><s>rye plant</s><r>рожь растение</r></e>
+  <e k="D" t="ThingDef" key="VCE_Sorghum.description"><s>A drought resistant cereal used for food, animal fodder, the production of alcoholic beverages, and biofuels. Sorghum grain is gluten free, high in resistant starch, and more abundant and diverse phenolic compounds compared to other major cereal crops.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Sorghum stalks can grow to up to 2.5 meters in height, and grow very close together. A sorghum field can be used as quite effective cover.</s><r>Засухоустойчивый злак, используемый в пищу, корм для животных, производство алкогольных напитков и биотоплива. Зерно сорго не содержит глютена, отличается высоким содержанием резистентного крахмала и более обильными и разнообразными фенольными соединениями по сравнению с другими основными зерновыми культурами.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Стебли сорго могут вырасти до 2,5 метров в высоту и расти очень близко друг к другу. Поле сорго можно использовать как весьма эффективное укрытие.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Sorghum.label"><s>maleek sorghum plant</s><r>растение ангельского сорго</r></e>
+  <e k="D" t="ThingDef" key="VCE_Sunflower.description"><s>A large crop used for its edible oil and edible fruits. The name sunflower may derive from the flower's head's shape, which resembles the sun.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Sunflowers grow 30% faster in equatorial regions. The size of the equatorial region depends on the planet's overall temperature: below 15º for Normal, below 35º for Warm, below 65º for Hot and all the planet for Very Hot. Planets with below Normal temperature are considered to have no equator.</s><r>Большой урожай, используемый для получения пищевого масла и съедобных плодов. Название «подсолнух» может происходить от формы головки цветка, напоминающей солнце.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; В экваториальных регионах подсолнухи растут на 30% быстрее. Размер экваториальной области зависит от общей температуры планеты: ниже 15° для нормальной, ниже 35° для тёплой, ниже 65° для горячей и всей планеты для очень горячей. Считается, что планеты с температурой ниже нормальной не имеют экватора.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Sunflower.label"><s>sunflower plant</s><r>подсолнечник</r></e>
+  <e k="D" t="ThingDef" key="VCE_SweetPotato.description"><s>A plant with large, starchy, sweet-tasting (tasting similar to pumpkin), tuberous roots that are used as a root vegetable. The sweet potato is distantly related to the common potato.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Sweet potatoes show a marked preference for rocky soils, flourishing on them. Rich soils are actually detrimental to them. They do not tolerate frost, growing best at an average temperature of 24 °C, and receiving penalties under 20ºC.</s><r>Растение с большими, крахмалистыми, сладкими на вкус (по вкусу похожими на тыкву) клубневыми корнями, которые используются в качестве корнеплода. Сладкий картофель отдаленно связан с обычным картофелем.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Сладкий картофель явно предпочитает каменистые почвы и процветает на них. Богатые почвы на самом деле губительны для них. Они не переносят морозов, лучше всего растут при средней температуре 24 °C и получают штрафы при температуре ниже 20 °C.</r></e>
+  <e k="D" t="ThingDef" key="VCE_SweetPotato.label"><s>sweet potato plant</s><r>растение сладкого картофеля</r></e>
+  <e k="D" t="ThingDef" key="VCE_Taro.description"><s>A tropical plant grown primarily for its edible corm, a root vegetable. Taro is one of the few crops that can be grown under flooded conditions, with the base of the plant always under water. This is due to air spaces in the petiole, which permit underwater gaseous exchange with the atmosphere.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Taro is only growable in aquatic growing zones, which ignore fertility. These plants will however take a long time to sow and harvest, basically exchanging colonist work for growing plants in a normally unused space. Taro is the baseline aquatic plant.</s><r>Тропическое растение, выращиваемое в первую очередь ради съедобной клубнелуковицы — корнеплода. Таро — одна из немногих культур, которые можно выращивать в затопленных условиях, при этом основание растения всегда находится под водой. Это связано с наличием воздушных пространств в черешке, которые обеспечивают подводный газообмен с атмосферой.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Таро можно выращивать только в водных зонах выращивания, которые игнорируют плодородие. Однако для посева и сбора этих растений потребуется много времени, в результате чего работа колонистов будет заменена выращиванием растений в обычно неиспользуемом пространстве. Таро – базовое водное растение.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Taro.label"><s>taro plant</s><r>растение таро</r></e>
+  <e k="D" t="ThingDef" key="VCE_Tinctshroom.description"><s>A genetically-engineered mushroom which secretes a self-altering dye. This dye can be coaxed into different colors and used to dye apparel. It can grow on fungal gravel, but only in darkness - exposing it to any kind of light, including darklights, will kill it.</s><r>Генно-инженерный гриб, выделяющий самоизменяющийся краситель. Из этого красителя можно получить разные цвета и использовать его для окраски одежды. Он может расти на грибковом гравии, но только в темноте — воздействие любого света, включая темный, убьет его.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Tinctshroom.label"><s>tinctshroom</s><r>оттенокгриб</r></e>
+  <e k="D" t="ThingDef" key="VCE_TreeAlmond.description"><s>A deciduous tree cultivated for its fruit, almonds. The sweet almond can be eaten plain or be used as ingredient in desserts and confectioneries. The trees are strikingly beautiful when in flower; they produce fragrant, five-petaled, light pink to white flowers.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; All fruit trees take about four times as much space as regular crops, take a long time to grow and produce fruits that can be eaten raw. They aren't destroyed after harvesting but have a limited lifespan and will eventually need to be replanted.
+
+Almond trees are beautiful, but they require water to be present in a 6 tile radius to grow properly. Almonds can be used as fruits or processed into milk.</s><r>Лиственное дерево, выращиваемое ради плодов миндаля. Сладкий миндаль можно есть просто так или использовать в качестве ингредиента в десертах и ​​кондитерских изделиях. Цветущие деревья поразительно красивы; они дают ароматные пятилепестковые цветы от светло-розового до белого цвета.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Все фруктовые деревья занимают примерно в четыре раза больше места, чем обычные культуры, долго растут и дают плоды, которые можно есть сырыми. Они не уничтожаются после сбора урожая, но имеют ограниченный срок службы, и в конечном итоге их придется пересаживать.
+
+Миндальные деревья прекрасны, но для правильного роста им требуется присутствие воды в радиусе 6 клеток. Миндаль можно использовать как фрукты или перерабатывать в молоко.</r></e>
+  <e k="D" t="ThingDef" key="VCE_TreeAlmond.label"><s>almond tree</s><r>миндальное дерево</r></e>
+  <e k="D" t="ThingDef" key="VCE_TreeAvocado.description"><s>An evergreen tree with thick, leathery leaves that produces perfect white, ivory to yellow flowers. The fruit has a large seed or pit in the center and may be green or nearly black.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Avocado trees take a notoriously long period to mature and produce their fruits. If they can be kept alive all that time, they produce greater yield than other fruit trees. Plus if you install the Coffees and Teas mod and pair them with Pumpkin Spice Coffee you can have your dream RimWorld Hipster experience!</s><r>Вечнозеленое дерево с толстыми кожистыми листьями, на которых растут идеальные белые цветы от цвета слоновой кости до желтого цвета. Плод имеет большое семя или косточку в центре и может быть зеленым или почти черным.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Деревьям авокадо требуется очень много времени, чтобы созреть и дать плоды. Если их можно поддерживать в живых все это время, они дадут больший урожай, чем другие фруктовые деревья. Кроме того, если вы установите мод Coffees and Teas и соедините его с Pumpkin Spice Coffee, вы сможете получить хипстерский опыт RimWorld своей мечты!</r></e>
+  <e k="D" t="ThingDef" key="VCE_TreeAvocado.label"><s>avocado tree</s><r>дерево авокадо</r></e>
+  <e k="D" t="ThingDef" key="VCE_TreeMango.description"><s>A tropical evergreen tree that produces oval fruits, vividly coloured with shades of red and yellow. The single large seed is flattened, and the flesh that surrounds it is yellow to orange in colour, juicy, and of distinctive sweet-spicy flavour.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; All fruit trees take about four times as much space as regular crops, take a long time to grow and produce fruits that can be eaten raw. They aren't destroyed after harvesting but have a limited lifespan and will eventually need to be replanted.
+
+Mango trees have very good yield, but mangoes cannot be frozen or they get destroyed. The game won't be smart enough to detect this, so disable them from freezers.</s><r>Тропическое вечнозеленое дерево, дающее овальные плоды яркой окраски с оттенками красного и желтого. Единственное большое семя сплюснуто, а окружающая его мякоть имеет цвет от желтого до оранжевого, сочная и имеет характерный сладко-пряный вкус.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Все фруктовые деревья занимают примерно в четыре раза больше места, чем обычные культуры, требуют много времени, чтобы вырасти и дать плоды, которые можно есть сырыми. Они не уничтожаются после сбора урожая, но имеют ограниченный срок службы, и в конечном итоге их придется пересаживать.
+
+Деревья манго дают очень хороший урожай, но манго нельзя замораживать или они уничтожаются. Игра не будет достаточно умна, чтобы обнаружить это, поэтому отключите их от морозильников.</r></e>
+  <e k="D" t="ThingDef" key="VCE_TreeMango.label"><s>mango tree</s><r>дерево манго</r></e>
+  <e k="D" t="ThingDef" key="VCE_TreeOlive.description"><s>A subtropical broad-leaved evergreen tree. Its leaves, leathery and lance-shaped, are dark green above and silvery on the underside and are paired opposite each other on the twig. The wood is resistant to decay. If the top dies back, a new trunk will often arise from the roots.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Interestingly, olive trees show a marked preference for rocky soils, flourishing on them. Rich soils are actually detrimental to them. They will also live for a very, very long time, far longer than other produce trees. Contrary to other tree produce, olives can't be eaten raw.</s><r>Субтропическое широколиственное вечнозеленое дерево. Его листья кожистые, копьевидные, темно-зеленые сверху и серебристые с нижней стороны, расположены на ветке попарно друг напротив друга. Древесина устойчива к гниению. Если верхушка отмирает, из корней часто возникает новый ствол.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Интересно, что оливковые деревья отдают явное предпочтение каменистым почвам и цветут на них. Богатые почвы на самом деле губительны для них. Они также будут жить очень и очень долго, намного дольше, чем другие плодовые деревья. В отличие от других древесных продуктов, оливки нельзя есть сырыми.</r></e>
+  <e k="D" t="ThingDef" key="VCE_TreeOlive.label"><s>olive tree</s><r>оливковое дерево</r></e>
+  <e k="D" t="ThingDef" key="VCE_Tulip.description"><s>A beautiful but mild-scented flower known more for its vibrant colors than its fragrance.</s><r>Красивый, но со слабым ароматом цветок, известный больше своими яркими цветами, чем ароматом.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Tulip.label"><s>tulip</s><r>тюльпан</r></e>
+  <e k="D" t="ThingDef" key="VCE_Vanilla.description"><s>Delicate, creamy-white flowers with a light, sweet fragrance. While the flowers are beautiful, it’s the pods they produce that are prized for their warm, rich scent. We put some vanilla in your Vanilla Expanded so you can expand vanilla while you vanilla your expansion.</s><r>Нежные, кремово-белые цветы с легким, сладким ароматом. Хотя цветы прекрасны, именно стручки, которые они производят, ценятся за свой теплый, насыщенный аромат. Мы добавили немного ванили в ваше дополнение Vanilla Expanded, чтобы вы могли расширять ваниль, пока вы ванили свое расширение.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Vanilla.label"><s>vanilla</s><r>ваниль</r></e>
+  <e k="D" t="ThingDef" key="VCE_VegMilkExtractor.description"><s>A small work station containing a presser and an industrial decanter centrifuge to separate vegetable extract from mash. The high G-forces generated by the decanter centrifuge allow you to extract vegetable milk from rice, almonds, coconuts, oats and soybeans.</s><r>Небольшая рабочая станция, содержащая пресс и промышленную декантерную центрифугу для отделения растительного экстракта от сусла. Высокие перегрузки, создаваемые декантерной центрифугой, позволяют извлекать растительное молоко из риса, миндаля, кокосов, овса и соевых бобов.</r></e>
+  <e k="D" t="ThingDef" key="VCE_VegMilkExtractor.label"><s>vegetable milk extractor</s><r>экстрактор растительного молока</r></e>
+  <e k="D" t="ThingDef" key="VCE_Violet.description"><s>A soft, powdery, and sweet-smelling flower, often used to add a gentle floral note to perfumes.</s><r>Мягкий, пудровый и сладко пахнущий цветок, часто используемый для придания нежных цветочных нот духам.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Violet.label"><s>violet</s><r>фиолетовый</r></e>
+  <e k="D" t="ThingDef" key="VCE_WaterChestnut.description"><s>An aquatic vegetable that grows in marshes, under water, in the mud. It has stem-like, tubular green leaves, and small, rounded corms with a crisp, white flesh that may be eaten raw, slightly boiled, or grilled.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Water chestnut is only growable in aquatic growing zones, which ignore fertility. These plants will however take a long time to sow and harvest, basically exchanging colonist work for growing plants in a normally unused space. Water chestnut grows 30% faster in the heat (37-60ºC).</s><r>Водный овощ, растущий на болотах, под водой, в иле. У него стеблеобразные трубчатые зеленые листья и маленькие округлые клубнелуковицы с хрустящей белой мякотью, которую можно есть сырой, слегка отваренной или приготовленной на гриле.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Водяной каштан можно выращивать только в водных зонах выращивания, где не учитывается плодородие. Однако для посева и сбора этих растений потребуется много времени, в результате чего работа колонистов будет заменена выращиванием растений в обычно неиспользуемом пространстве. Водяной каштан растет на 30% быстрее в жару (37-60°C).</r></e>
+  <e k="D" t="ThingDef" key="VCE_WaterChestnut.label"><s>water chestnut plant</s><r>водяной каштан</r></e>
+  <e k="D" t="ThingDef" key="VCE_Watercress.description"><s>Watercress is a rapidly growing, perennial plant. It is one of the oldest known leaf vegetables consumed by humans. Watercress and many of its relatives are noteworthy for their piquant flavors.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Watercress is only growable in aquatic growing zones, which ignore fertility. These plants will however take a long time to sow and harvest, basically exchanging colonist work for growing plants in a normally unused space. Watercress grows faster than taro but needs a lot of space, blocking sowing in adjacent spaces.</s><r>Кресс-салат – быстрорастущее многолетнее растение. Это один из старейших известных листовых овощей, потребляемых человеком. Кресс-салат и многие его родственники примечательны своим пикантным вкусом.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Кресс-салат можно выращивать только в водных зонах выращивания, которые игнорируют плодородие. Однако для посева и сбора этих растений потребуется много времени, в результате чего работа колонистов будет заменена выращиванием растений в обычно неиспользуемом пространстве. Кресс-салат растет быстрее, чем таро, но ему нужно много места, что затрудняет посев на соседних участках.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Watercress.label"><s>watercress plant</s><r>кресс-салат</r></e>
+  <e k="D" t="ThingDef" key="VCE_YellowBellPepper.label"><s>bell pepper plant</s><r>растение болгарского перца</r></e>
+  <e k="D" t="ThingDef" key="VCE_YlangYlang.description"><s>A highly fragrant, sweet, and rich flower, prized for its use in exotic and sensual perfumes.</s><r>Очень ароматный, сладкий и насыщенный цветок, ценимый за использование в экзотических и чувственных духах.</r></e>
+  <e k="D" t="ThingDef" key="VCE_YlangYlang.label"><s>ylang-Ylang</s><r>иланг-иланг</r></e>
+  <e k="D" t="WorkGiverDef" key="VCE_DoBillsVegMilkExtractor.gerund"><s>extracting vegetable milk at</s><r>добыча растительного молока в</r></e>
+  <e k="D" t="WorkGiverDef" key="VCE_DoBillsVegMilkExtractor.label"><s>extract vegetable milks</s><r>экстракт растительного молока</r></e>
+  <e k="D" t="WorkGiverDef" key="VCE_DoBillsVegMilkExtractor.verb"><s>extract vegetable milk</s><r>экстракт растительного молока</r></e>
+  <e k="D" t="WorkGiverDef" key="VCE_HarvestAquatic.gerund"><s>harvesting aquatic</s><r>сбор водных ресурсов</r></e>
+  <e k="D" t="WorkGiverDef" key="VCE_HarvestAquatic.label"><s>harvest aquatic crops</s><r>собирать водные культуры</r></e>
+  <e k="D" t="WorkGiverDef" key="VCE_HarvestAquatic.verb"><s>harvest aquatic</s><r>урожай водных</r></e>
+  <e k="D" t="WorkGiverDef" key="VCE_HarvestFlowerGarden.gerund"><s>harvesting flowers</s><r>сбор цветов</r></e>
+  <e k="D" t="WorkGiverDef" key="VCE_HarvestFlowerGarden.label"><s>harvest flowers</s><r>собирать цветы</r></e>
+  <e k="D" t="WorkGiverDef" key="VCE_HarvestFlowerGarden.verb"><s>harvest flowers</s><r>собирать цветы</r></e>
+  <e k="D" t="WorkGiverDef" key="VCE_HarvestSandy.gerund"><s>harvesting sand</s><r>сбор песка</r></e>
+  <e k="D" t="WorkGiverDef" key="VCE_HarvestSandy.label"><s>harvest sand crops</s><r>собирать урожай песка</r></e>
+  <e k="D" t="WorkGiverDef" key="VCE_HarvestSandy.verb"><s>harvest sand</s><r>собирать песок</r></e>
+  <e k="D" t="WorkGiverDef" key="VCE_SowAquatic.gerund"><s>sowing aquatic</s><r>посев водных</r></e>
+  <e k="D" t="WorkGiverDef" key="VCE_SowAquatic.label"><s>sow aquatic crops</s><r>сеять водные культуры</r></e>
+  <e k="D" t="WorkGiverDef" key="VCE_SowAquatic.verb"><s>sow aquatic</s><r>сеять водную</r></e>
+  <e k="D" t="WorkGiverDef" key="VCE_SowFlowerGarden.gerund"><s>sowing flowers</s><r>посев цветов</r></e>
+  <e k="D" t="WorkGiverDef" key="VCE_SowFlowerGarden.label"><s>sow flowers</s><r>сеять цветы</r></e>
+  <e k="D" t="WorkGiverDef" key="VCE_SowFlowerGarden.verb"><s>sow flowers</s><r>сеять цветы</r></e>
+  <e k="D" t="WorkGiverDef" key="VCE_SowSandy.gerund"><s>sowing sand</s><r>посевной песок</r></e>
+  <e k="D" t="WorkGiverDef" key="VCE_SowSandy.label"><s>sow sand crops</s><r>сеять песчаные культуры</r></e>
+  <e k="D" t="WorkGiverDef" key="VCE_SowSandy.verb"><s>sow sand</s><r>сеять песок</r></e>
+  <e k="K" key="VCE_AquaticGrowingZone"><s>Aquatic growing zone</s><r>Зона водного выращивания</r></e>
+  <e k="K" key="VCE_AquaticGrowingZoneDesc"><s>Create a zone where your colonists will try to grow aquatic plants. Aquatic plants ignore terrain fertility but take a very long time to sow and harvest.
+
+These zones can't be placed on oceanic (salty) water.</s><r>Создайте зону, где ваши колонисты будут пытаться выращивать водные растения. Водные растения игнорируют плодородие местности, но их посев и сбор урожая занимают очень много времени.
+
+Эти зоны нельзя размещать в океанической (соленой) воде.</r></e>
+  <e k="K" key="VCE_BeansNearby"><s>Green beans planted nearby: {0}/100</s><r>Рядом посажена зеленая фасоль: {0}/100</r></e>
+  <e k="K" key="VCE_CarrotsNearby"><s>Carrots planted nearby: {0}/100</s><r>Рядом посажена морковь: {0}/100</r></e>
+  <e k="K" key="VCE_FlowerGardenGrowingZone"><s>Flower garden zone</s><r>Зона цветника</r></e>
+  <e k="K" key="VCE_FlowerGardenGrowingZoneDesc"><s>Create a zone where your colonists will try to grow decorative flowers.</s><r>Создайте зону, где ваши колонисты будут пытаться выращивать декоративные цветы.</r></e>
+  <e k="K" key="VCE_SandyGrowingZone"><s>Sand growing zone</s><r>Зона выращивания песка</r></e>
+  <e k="K" key="VCE_SandyGrowingZoneDesc"><s>Create a zone where your colonists will try to grow sandy terrain plants. Sand plants ignore terrain fertility but take a very long time to sow and harvest.</s><r>Создайте зону, где ваши колонисты будут пытаться выращивать растения песчаной местности. Песчаные растения игнорируют плодородие местности, но их посев и сбор урожая занимают очень много времени.</r></e>
+</AutoTranslateCache>
