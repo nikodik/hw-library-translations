@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="choco.mapgenai" name="MapGen AI" language="Russian" version="1">
+  <e k="K" key="MapGenAI_Button"><s>✦ AI Map Gen</s><r>✦ Генерация карт ИИ</r></e>
+  <e k="K" key="MapGenAI_Cancel"><s>Cancel</s><r>Отмена</r></e>
+  <e k="K" key="MapGenAI_DialogCancelled"><s>Dialog cancelled — parameters reset, preview restored</s><r>Диалог отменен — параметры сброшены, предварительный просмотр восстановлен.</r></e>
+  <e k="K" key="MapGenAI_Generate"><s>Generate with these settings</s><r>Сгенерировать с этими настройками</r></e>
+  <e k="K" key="MapGenAI_ModifyHint"><s>Press the button below to generate, or modify via chat.</s><r>Нажмите кнопку ниже, чтобы сгенерировать или изменить в чате.</r></e>
+  <e k="K" key="MapGenAI_MutatorCoastalOnly"><s>[!] [{0}] is only available on coastal tiles and was removed.</s><r>[!] [{0}] доступен только на прибрежных клетках и был удален.</r></e>
+  <e k="K" key="MapGenAI_MutatorLabel"><s>{0}(label:{1}{2})</s><r>{0}(метка:{1}{2})</r></e>
+  <e k="K" key="MapGenAI_MutatorLoadFailed"><s>  (Failed to load mutator list)</s><r>  (Не удалось загрузить список мутаторов)</r></e>
+  <e k="K" key="MapGenAI_MutatorNotFound"><s>[!] '{0}' is not a valid terrain feature and was removed.</s><r>[!] «{0}» не является допустимым объектом местности и был удален.</r></e>
+  <e k="K" key="MapGenAI_MutatorRiverOnly"><s>[!] [{0}] is only available on tiles with a river and was removed.</s><r>[!] [{0}] доступен только на клетках с рекой и был удален.</r></e>
+  <e k="K" key="MapGenAI_No"><s>No</s><r>Нет</r></e>
+  <e k="K" key="MapGenAI_NoMutatorsAvailable"><s>  (No special terrain features available for this tile)</s><r>  (Для этого тайла не доступны специальные особенности местности)</r></e>
+  <e k="K" key="MapGenAI_NoPresets"><s>No saved presets.</s><r>Нет сохраненных пресетов.</r></e>
+  <e k="K" key="MapGenAI_NoResponse"><s>No response. Please check your API key.</s><r>Никакого ответа. Пожалуйста, проверьте свой ключ API.</r></e>
+  <e k="K" key="MapGenAI_OdysseyRequired"><s>  (Special terrain features require the Odyssey DLC. Without Odyssey, mutators like lakes/hot springs/fjords are unavailable.)</s><r>  (Особые особенности местности требуют DLC «Одиссея». Без «Одиссеи» мутаторы, такие как озера/горячие источники/фьорды, недоступны.)</r></e>
+  <e k="K" key="MapGenAI_ParamsSaved"><s>MapGen AI: Parameters saved. They will be applied when you start the map.</s><r>MapGen AI: параметры сохранены. Они будут применены при запуске карты.</r></e>
+  <e k="K" key="MapGenAI_ParamsSet"><s>Map parameters have been set.</s><r>Параметры карты заданы.</r></e>
+  <e k="K" key="MapGenAI_PresetDeletedMsg"><s>Preset &quot;{0}&quot; has been deleted.</s><r>Предустановка «{0}» удалена.</r></e>
+  <e k="K" key="MapGenAI_PresetLoad"><s>Load</s><r>Нагрузка</r></e>
+  <e k="K" key="MapGenAI_PresetLoadFailed"><s>Failed to load preset &quot;{0}&quot;.</s><r>Не удалось загрузить пресет «{0}».</r></e>
+  <e k="K" key="MapGenAI_PresetLoadedMsg"><s>Loaded preset &quot;{0}&quot;.
+Hills={1}, Amount={2}, Trees={3}, Animals={4}, River={5}, Caves={6}, Geysers={7}</s><r>Загружен пресет &quot;{0}&quot;.
+Холмы={1}, Количество={2}, Деревья={3}, Животные={4}, Река={5}, Пещеры={6}, Гейзеры={7}</r></e>
+  <e k="K" key="MapGenAI_PresetNamePrompt"><s>Enter preset name:</s><r>Введите имя пресета:</r></e>
+  <e k="K" key="MapGenAI_PresetSave"><s>Save</s><r>Сохранять</r></e>
+  <e k="K" key="MapGenAI_PresetSavedMsg"><s>Preset &quot;{0}&quot; has been saved.</s><r>Предустановка «{0}» сохранена.</r></e>
+  <e k="K" key="MapGenAI_Requesting"><s>Requesting LLM...</s><r>Запрос на получение степени LLM...</r></e>
+  <e k="K" key="MapGenAI_Reset"><s>Reset</s><r>Перезагрузить</r></e>
+  <e k="K" key="MapGenAI_RiverNone"><s>None</s><r>Никто</r></e>
+  <e k="K" key="MapGenAI_RiverOceanLink"><s> (connected to ocean/lake)</s><r> (связан с океаном/озером)</r></e>
+  <e k="K" key="MapGenAI_RiverPresent"><s>Present</s><r>Подарок</r></e>
+  <e k="K" key="MapGenAI_Save"><s>Save</s><r>Сохранять</r></e>
+  <e k="K" key="MapGenAI_Send"><s>Send</s><r>Отправлять</r></e>
+  <e k="K" key="MapGenAI_Settings_CloudConfig"><s>Cloud API Configuration</s><r>Конфигурация облачного API</r></e>
+  <e k="K" key="MapGenAI_Settings_CloudConfigDesc"><s>If multiple APIs are enabled, the system tries them in order. If one fails, the next is tried automatically.</s><r>Если включено несколько API, система пробует их по порядку. Если один из них терпит неудачу, автоматически пробуется следующий.</r></e>
+  <e k="K" key="MapGenAI_Settings_CloudService"><s>Cloud Service</s><r>Облачный сервис</r></e>
+  <e k="K" key="MapGenAI_Settings_CloudServiceDesc"><s>Use online AI services such as Google AI and OpenAI. Requires internet and an API key.</s><r>Используйте онлайн-сервисы искусственного интеллекта, такие как Google AI и OpenAI. Требуется Интернет и ключ API.</r></e>
+  <e k="K" key="MapGenAI_Settings_ColApiKey"><s>API Key / URL</s><r>Ключ API / URL-адрес</r></e>
+  <e k="K" key="MapGenAI_Settings_ColEnabled"><s>Enabled</s><r>Включено</r></e>
+  <e k="K" key="MapGenAI_Settings_ColModel"><s>Model</s><r>Модель</r></e>
+  <e k="K" key="MapGenAI_Settings_ColService"><s>Service</s><r>Услуга</r></e>
+  <e k="K" key="MapGenAI_Settings_Collapse"><s>▲ Collapse (current: {0})</s><r>▲ Свернуть (текущее: {0})</r></e>
+  <e k="K" key="MapGenAI_Settings_FetchError"><s>Error: {0}</s><r>Ошибка: {0}</r></e>
+  <e k="K" key="MapGenAI_Settings_FetchModels"><s>Fetch model list</s><r>Получить список моделей</r></e>
+  <e k="K" key="MapGenAI_Settings_GeminiKey"><s>Gemini API Key</s><r>API-ключ Близнецов</r></e>
+  <e k="K" key="MapGenAI_Settings_GetFreeKey"><s>Get Free API Key</s><r>Получите бесплатный ключ API</r></e>
+  <e k="K" key="MapGenAI_Settings_Loading"><s>Loading...</s><r>Загрузка...</r></e>
+  <e k="K" key="MapGenAI_Settings_LocalProvider"><s>Local (Ollama / LM Studio)</s><r>Локальный (Оллама / LM Studio)</r></e>
+  <e k="K" key="MapGenAI_Settings_LocalService"><s>Local Service</s><r>Местная служба</r></e>
+  <e k="K" key="MapGenAI_Settings_LocalServiceDesc"><s>Use a local AI server (Ollama, LM Studio, etc.) running on your computer. Must support OpenAI API.</s><r>Используйте локальный сервер AI (Ollama, LM Studio и т. д.), работающий на вашем компьютере. Должен поддерживать OpenAI API.</r></e>
+  <e k="K" key="MapGenAI_Settings_LocalUrl"><s>Local server URL</s><r>URL-адрес локального сервера</r></e>
+  <e k="K" key="MapGenAI_Settings_ModelRequestFailed"><s>Could not load models. Check credentials, connection and access, then retry. You can also enter a model ID directly.</s><r>Не удалось загрузить модели. Проверьте учетные данные, соединение и доступ, затем повторите попытку. Вы также можете ввести идентификатор модели напрямую.</r></e>
+  <e k="K" key="MapGenAI_Settings_ModelsLoaded"><s>✓ {0} models loaded</s><r>✓ {0} моделей загружено</r></e>
+  <e k="K" key="MapGenAI_Settings_NoModels"><s>The available model list is empty.</s><r>Список доступных моделей пуст.</r></e>
+  <e k="K" key="MapGenAI_Settings_OpenAIKey"><s>OpenAI API Key</s><r>API-ключ OpenAI</r></e>
+  <e k="K" key="MapGenAI_Settings_OpenRouterKey"><s>OpenRouter API Key</s><r>API-ключ OpenRouter</r></e>
+  <e k="K" key="MapGenAI_Settings_Provider"><s>LLM Provider</s><r>LLM-провайдер</r></e>
+  <e k="K" key="MapGenAI_Settings_SelectModel"><s>▼ Select model (current: {0})</s><r>▼ Выберите модель (текущая: {0})</r></e>
+  <e k="K" key="MapGenAI_Settings_SimpleDesc"><s>Uses gemini-3.8-flash by default. You can change the model below.</s><r>По умолчанию используется Gemini-3.8-flash. Вы можете изменить модель ниже.</r></e>
+  <e k="K" key="MapGenAI_Settings_SwitchAdvanced"><s>Switch to Advanced Settings</s><r>Переключиться на дополнительные настройки</r></e>
+  <e k="K" key="MapGenAI_Settings_SwitchSimple"><s>Switch to Simple Settings</s><r>Переключиться на простые настройки</r></e>
+  <e k="K" key="MapGenAI_Title"><s>MapGen AI</s><r>MapGen AI</r></e>
+  <e k="K" key="MapGenAI_Undo"><s>Undo</s><r>Отменить</r></e>
+  <e k="K" key="MapGenAI_Unknown"><s>Unknown</s><r>Неизвестный</r></e>
+  <e k="K" key="MapGenAI_Waiting"><s>Waiting for AI response</s><r>Ожидание ответа ИИ</r></e>
+  <e k="K" key="MapGenAI_Welcome"><s>Describe a map directly, or use the buttons above to get suggestions!
+Start right away, or answer a few preference questions.
+
+Get recommendations:
+  &quot;Suggest landscapes for this tile.&quot;
+Click an image to zoom; choose its number to apply.
+No match? Use New suggestions or Select none.
+Before choosing: &quot;Make option 2 more natural.&quot;
+
+Create your own:
+  &quot;A natural mountain ring with a southern exit.&quot;
+  &quot;A central lake, northern mountains and open land south.&quot;
+Then refine: &quot;Fill 70% of the ring's interior with rich soil.&quot;</s><r>Опишите карту напрямую или используйте кнопки выше, чтобы получить предложения!
+Начните прямо сейчас или ответьте на несколько вопросов о предпочтениях.
+
+Получите рекомендации:
+ «Предложите пейзажи для этой плитки».
+Нажмите изображение, чтобы увеличить его; выберите его номер, чтобы подать заявку.
+Нет совпадения? Используйте «Новые предложения» или выберите «Нет».
+Перед выбором: «Сделать вариант 2 более естественным».
+
+Создайте свой собственный:
+ «Естественное горное кольцо с южным выходом».
+ «Центральное озеро, северные горы и открытая земля на юге».
+Затем уточните: «Заполните 70% внутренней части кольца богатой почвой».</r></e>
+  <e k="K" key="MapGenAI_Yes"><s>Yes</s><r>Да</r></e>
+</AutoTranslateCache>
