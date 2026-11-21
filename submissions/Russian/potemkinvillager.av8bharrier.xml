@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="potemkinvillager.av8bharrier" name="Harrier VTOL Attack Aircraft" language="Russian" version="1">
+  <e k="D" t="AmmoSetDef" key="AmmoSet_Harrier57mmRocket.label"><s>57mm Rocket</s><r>57-мм ракета</r></e>
+  <e k="D" t="AmmoSetDef" key="AmmoSet_Mongoose57mmRocket.label"><s>57mm Rocket</s><r>57-мм ракета</r></e>
+  <e k="D" t="DamageDef" key="Mongoose_RocketPenetrator.deathMessage"><s>{0} has been killed by a rocket penetrator.</s><r>{0} был убит ракетным снарядом.</r></e>
+  <e k="D" t="DamageDef" key="Mongoose_RocketPenetrator.label"><s>rocket penetrator</s><r>ракетный пенетратор</r></e>
+  <e k="D" t="DesignatorDropdownGroupDef" key="FWA_TakeoffPoints.label"><s>take-off point</s><r>точка взлета</r></e>
+  <e k="D" t="HediffDef" key="Harrier_ChlorineExposure.description"><s>Chlorine gas has burned this creature's eyes, mouth and airways. It brings pain, coughing, choking and vomiting, and enough of it leaves them unable to stand. It wears off over about a day.</s><r>Газообразный хлор обжег глаза, рот и дыхательные пути этого существа. Это приносит боль, кашель, удушье и рвоту, и в достаточном количестве они не могут стоять. Стирается примерно за сутки.</r></e>
+  <e k="D" t="HediffDef" key="Harrier_ChlorineExposure.label"><s>chlorine exposure</s><r>воздействие хлора</r></e>
+  <e k="D" t="HediffDef" key="Harrier_ChlorineExposure.stages.0.label"><s>irritated</s><r>раздраженный</r></e>
+  <e k="D" t="HediffDef" key="Harrier_ChlorineExposure.stages.1.label"><s>choking</s><r>удушье</r></e>
+  <e k="D" t="HediffDef" key="Harrier_ChlorineExposure.stages.2.label"><s>incapacitated</s><r>недееспособный</r></e>
+  <e k="D" t="HediffDef" key="Mongoose_PenetratorWound.comps.3.instantlyPermanentLabel"><s>permanent penetrator wound</s><r>необратимое проникающее ранение</r></e>
+  <e k="D" t="HediffDef" key="Mongoose_PenetratorWound.comps.3.permanentLabel"><s>old penetrator wound</s><r>старая проникающая рана</r></e>
+  <e k="D" t="HediffDef" key="Mongoose_PenetratorWound.description"><s>A deep wound torn by the solid penetrator of an armour-piercing rocket.</s><r>Глубокая рана, разорванная твердым проникающим снарядом бронебойной ракеты.</r></e>
+  <e k="D" t="HediffDef" key="Mongoose_PenetratorWound.injuryProps.destroyedLabel"><s>Torn off</s><r>Оторван</r></e>
+  <e k="D" t="HediffDef" key="Mongoose_PenetratorWound.injuryProps.destroyedOutLabel"><s>Torn out</s><r>Вырванный</r></e>
+  <e k="D" t="HediffDef" key="Mongoose_PenetratorWound.label"><s>penetrator wound</s><r>проникающее ранение</r></e>
+  <e k="D" t="HediffDef" key="Mongoose_PenetratorWound.labelNoun"><s>a penetrator wound</s><r>проникающее ранение</r></e>
+  <e k="D" t="HediffDef" key="Mongoose_PenetratorWound.labelNounPretty"><s>{0} in the {1}</s><r>{0} в {1}</r></e>
+  <e k="D" t="HistoryEventDef" key="Harrier_UsedChemicalWeapons.label"><s>used chemical weapons</s><r>использовал химическое оружие</r></e>
+  <e k="D" t="JobDef" key="FWA_AutoLand.reportString"><s>landing.</s><r>посадка.</r></e>
+  <e k="D" t="JobDef" key="FWA_FlyToCell.reportString"><s>flying.</s><r>летающий.</r></e>
+  <e k="D" t="JobDef" key="FWA_LandAtCell.reportString"><s>landing.</s><r>посадка.</r></e>
+  <e k="D" t="JobDef" key="FWA_LandHere.reportString"><s>landing.</s><r>посадка.</r></e>
+  <e k="D" t="JobDef" key="FWA_Launch.reportString"><s>launching.</s><r>запуск.</r></e>
+  <e k="D" t="JobDef" key="FWA_RearmVehicle.reportString"><s>rearming TargetB.</s><r>перевооружение TargetB.</r></e>
+  <e k="D" t="JobDef" key="Harrier_LoadBombParts.reportString"><s>loading bomb parts into TargetB.</s><r>загрузка частей бомбы в TargetB.</r></e>
+  <e k="D" t="KeyBindingDef" key="FWA_BoardNearby.label"><s>aircraft board nearby</s><r>борт самолета поблизости</r></e>
+  <e k="D" t="KeyBindingDef" key="FWA_DisembarkCrew.label"><s>aircraft disembark crew</s><r>высадка экипажа самолета</r></e>
+  <e k="D" t="KeyBindingDef" key="FWA_TakeOffLand.label"><s>aircraft take off / land</s><r>самолет взлетает/приземляется</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_Mongoose57mmRocket_AP.description"><s>Craft 5 57mm (AP) rockets.</s><r>Изготовьте 5 ракет калибра 57 мм (AP).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_Mongoose57mmRocket_AP.jobString"><s>Making 57mm (AP) rockets.</s><r>Изготовление 57-мм ракет (AP).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_Mongoose57mmRocket_AP.label"><s>make 57mm (AP) rockets x5</s><r>сделать 57-мм (AP) ракеты x5</r></e>
+  <e k="D" t="ThingDef" key="Ammo_Mongoose57mmRocket_AP.description"><s>An unguided 57mm rocket with a solid steel penetrator instead of a warhead. Defeats light and medium armour by impact alone.
+
+Бронебойный:
+Имеет упрочненный стальной бронебойный сердечник для увеличения проникновения в броню.</s><r>An unguided 57mm rocket with a solid steel penetrator instead of a warhead. Defeats light and medium armour by impact alone.
+
+Бронебойный:
+Имеет упрочненный стальной бронебойный сердечник для увеличения проникновения в броню.</r></e>
+  <e k="D" t="ThingDef" key="Ammo_Mongoose57mmRocket_AP.label"><s>57mm rocket (AP)</s><r>57-мм ракета (АП)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Harrier57mmRocket_AP.label"><s>57mm rocket (AP)</s><r>57-мм ракета (АП)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Harrier57mmRocket_HE.label"><s>57mm rocket (HE)</s><r>57-мм ракета (ОФ)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Harrier57mmRocket_HEAT.label"><s>57mm rocket (HEAT)</s><r>57-мм ракета (кумулятивная)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Harrier_25mm.label"><s>auto-cannon shell</s><r>снаряд для автоматической пушки</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Harrier_Rocket.label"><s>57 mm rocket</s><r>57-мм ракета</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Mongoose57mmRocket_AP.label"><s>57mm rocket (AP)</s><r>57-мм ракета (АП)</r></e>
+  <e k="D" t="ThingDef" key="FWA_AircraftParkingSpot.description"><s>A painted landing and parking pad for an aircraft: it parks centred on the pad with its nose toward the arrow on the rim. Assign an aircraft to it; after a landing or a sortie that aircraft comes here by itself and shuts down. Each pad shows its own number, 1 to 9. Pads can't overlap; leave room for the whole aircraft around it.</s><r>Окрашенная посадочная и стояночная площадка для самолета: он паркуется по центру площадки носом к стрелке на ободе. Назначьте ему самолет; после приземления или вылета этот самолет сам приходит сюда и отключается. На каждом пэде отображается свой номер от 1 до 9. Пэды не могут перекрываться; оставьте место для всего самолета вокруг себя.</r></e>
+  <e k="D" t="ThingDef" key="FWA_AircraftParkingSpot.label"><s>aircraft parking spot</s><r>место для стоянки самолетов</r></e>
+  <e k="D" t="ThingDef" key="FWA_Bomb500lb.description"><s>A 500 lb (227 kg) Mk. 82 general-purpose high-explosive aircraft bomb. Too heavy to carry more than one at a time; colonists load it onto a landed aircraft's bomb rack.</s><r>500 фунтов (227 кг) Mk. 82 универсальные фугасные авиабомбы общего назначения. Слишком тяжелый, чтобы носить с собой более одного одновременно; колонисты загружают его на бомбодержатель приземлившегося самолета.</r></e>
+  <e k="D" t="ThingDef" key="FWA_Bomb500lb.label"><s>Mk. 82 HE</s><r>Мк. 82 ОН</r></e>
+  <e k="D" t="ThingDef" key="FWA_Projectile_Bomb500lb.label"><s>500 lb bomb</s><r>500-фунтовая бомба</r></e>
+  <e k="D" t="ThingDef" key="FWA_RunwayBeacon.description"><s>A flush-mounted runway marker light. Place four on the corner tiles of a rectangle to mark a runway: fixed-wing aircraft take off from and land on marked runways only, and the strip inside must be built floor or smoothed stone with no roof. Aircraft taxi straight over it.</s><r>Габаритный фонарь взлетно-посадочной полосы, монтируемый заподлицо. Поместите четыре плитки в углах прямоугольника, чтобы обозначить взлетно-посадочную полосу: самолеты взлетают и приземляются только с отмеченных взлетно-посадочных полос, а полоса внутри должна быть построена из пола или гладкого камня без крыши. Самолет рулит прямо над ним.</r></e>
+  <e k="D" t="ThingDef" key="FWA_RunwayBeacon.label"><s>runway beacon</s><r>маяк взлетно-посадочной полосы</r></e>
+  <e k="D" t="ThingDef" key="FWA_ShotFlash.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="FWA_ShotFlash_UnderVehicle.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="FWA_TakeoffPoint.description"><s>Painted threshold stripes at the end of a runway, with the runway's number: an aircraft lines up centred on the stripes with its nose toward the number, ready to roll. The aircraft's Line up button taxis to the nearest take-off point it can use. Place it inside a beacon runway with the whole strip ahead of it clear. Comes in three widths (5x3, 7x3 and 9x3) to match your runway; they work the same. Every take-off point on the map, whatever its size, gets its own number, 1 to 9.</s><r>Окрашенные пороговые полосы в конце взлетно-посадочной полосы с номером взлетно-посадочной полосы: самолет выстраивается в линию по центру полос носом к номеру, готовый к развороту. Кнопка выстраивания в ряд на самолете подруливает к ближайшей точке взлета, которую он может использовать. Разместите его внутри взлетно-посадочной полосы с маяками так, чтобы вся полоса перед ним была свободна. Доступен в трех вариантах ширины (5x3, 7x3 и 9x3), подходящих для вашей взлетно-посадочной полосы; они работают одинаково. Каждая точка взлета на карте, независимо от ее размера, имеет свой номер от 1 до 9.</r></e>
+  <e k="D" t="ThingDef" key="FWA_TakeoffPoint.label"><s>take-off point (5x3)</s><r>точка взлета (5х3)</r></e>
+  <e k="D" t="ThingDef" key="FWA_TakeoffPointNineWide.description"><s>Painted threshold stripes at the end of a runway, with the runway's number: an aircraft lines up centred on the stripes with its nose toward the number, ready to roll. The aircraft's Line up button taxis to the nearest take-off point it can use. Place it inside a beacon runway with the whole strip ahead of it clear. Comes in three widths (5x3, 7x3 and 9x3) to match your runway; they work the same. Every take-off point on the map, whatever its size, gets its own number, 1 to 9.</s><r>Окрашенные пороговые полосы в конце взлетно-посадочной полосы с номером взлетно-посадочной полосы: самолет выстраивается в линию по центру полос носом к номеру, готовый к развороту. Кнопка выстраивания в ряд на самолете подруливает к ближайшей точке взлета, которую он может использовать. Разместите его внутри взлетно-посадочной полосы с маяками так, чтобы вся полоса перед ним была свободна. Доступен в трех вариантах ширины (5x3, 7x3 и 9x3), подходящих для вашей взлетно-посадочной полосы; они работают одинаково. Каждая точка взлета на карте, независимо от ее размера, имеет свой номер от 1 до 9.</r></e>
+  <e k="D" t="ThingDef" key="FWA_TakeoffPointNineWide.label"><s>take-off point (9x3)</s><r>точка взлета (9х3)</r></e>
+  <e k="D" t="ThingDef" key="FWA_TakeoffPointSevenWide.description"><s>Painted threshold stripes at the end of a runway, with the runway's number: an aircraft lines up centred on the stripes with its nose toward the number, ready to roll. The aircraft's Line up button taxis to the nearest take-off point it can use. Place it inside a beacon runway with the whole strip ahead of it clear. Comes in three widths (5x3, 7x3 and 9x3) to match your runway; they work the same. Every take-off point on the map, whatever its size, gets its own number, 1 to 9.</s><r>Окрашенные пороговые полосы в конце взлетно-посадочной полосы с номером взлетно-посадочной полосы: самолет выстраивается в линию по центру полос носом к номеру, готовый к развороту. Кнопка выстраивания в ряд на самолете подруливает к ближайшей точке взлета, которую он может использовать. Разместите его внутри взлетно-посадочной полосы с маяками так, чтобы вся полоса перед ним была свободна. Доступен в трех вариантах ширины (5x3, 7x3 и 9x3), подходящих для вашей взлетно-посадочной полосы; они работают одинаково. Каждая точка взлета на карте, независимо от ее размера, имеет свой номер от 1 до 9.</r></e>
+  <e k="D" t="ThingDef" key="FWA_TakeoffPointSevenWide.label"><s>take-off point (7x3)</s><r>точка взлета (7х3)</r></e>
+  <e k="D" t="ThingDef" key="Harrier_AirShell25mm.label"><s>auto-cannon shell</s><r>снаряд для автоматической пушки</r></e>
+  <e k="D" t="ThingDef" key="Harrier_Jet.&lt;CompPropsVehicleTurrets&gt;k__BackingField.turrets.0.gizmoLabel"><s>57 mm rockets</s><r>57-мм ракеты</r></e>
+  <e k="D" t="ThingDef" key="Harrier_Jet.&lt;CompPropsVehicleTurrets&gt;k__BackingField.turrets.1.gizmoLabel"><s>Mk. 82 bombs</s><r>Мк. 82 бомбы</r></e>
+  <e k="D" t="ThingDef" key="Harrier_Jet.components.3.label"><s>wing fuel tanks</s><r>крыльевые топливные баки</r></e>
+  <e k="D" t="ThingDef" key="Harrier_Jet.description"><s>A single-seat V/STOL attack jet. It takes off from a short beacon-marked runway, flies as a fixed-wing aircraft, and lands vertically almost anywhere its footprint fits, unless its engine is too badly damaged to hover. Rocket pods and bombs are both used on attack runs placed on the map.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Pilot x1
+&lt;color=#bb8f04&gt;Armament:&lt;/color&gt; 2 rocket pods (32 rockets, 16 a pass), 4 x Mk. 82 HE bombs, a GAU-12/U 25 mm rotary cannon (300 rounds). Refits: drop tanks in place of the rocket pods, 6 bombs, or a pair of Mk. 84 special bombs (incendiary, EMP, smoke, poison gas or chlorine gas)
+&lt;color=#bb8f04&gt;Rearming:&lt;/color&gt; On the ground only, from the colony's storage
+&lt;color=#bb8f04&gt;Ammunition:&lt;/color&gt;
+ - Rocket pods: 57mm rockets (HE, HEAT or AP)
+ - Bombs: Mk. 82 HE (machining table)
+ - Mk. 84 refits: Mk. 84 Incendiary, EMP or Smoke bombs; Poison Gas or Chlorine Gas bombs with Biotech (machining table)
+ - Cannon: 25x137 мм (AP, БЗ, ОФ, БОПС)
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Одноместный штурмовик V/STOL. Он взлетает с короткой взлетно-посадочной полосы, отмеченной маяками, летает как самолет и приземляется вертикально почти везде, где его площадь соответствует, если только его двигатель не слишком сильно поврежден, чтобы зависать. Ракетные блоки и бомбы используются при атаке, размещенной на карте.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Пилот x1
+&lt;color=#bb8f04&gt;Вооружение:&lt;/color&gt; 2 ракетные блоки (32 ракеты, 16 заходов), 4 x Mk. 82 фугасные бомбы, 25-мм поворотная пушка ГАУ-12/У (300 снарядов). Модернизация: сброс баков вместо ракетных блоков, 6 бомб или пара Mk. 84 специальные бомбы (зажигательные, ЭМИ, дымовые, отравляющие или хлорные)
+&lt;color=#bb8f04&gt;Перевооружение:&lt;/color&gt; Только на земле, со склада колонии
+&lt;color=#bb8f04&gt;Боекомплект:&lt;/color&gt;
+ - Ракетные блоки: 57-мм ракеты (HE, HEAT или AP)
+ — Бомбы: Mk. 82 HE (стол механический)
+ - Mk. 84 ремонта: Mk. 84 Зажигательные, ЭМИ или дымовые шашки; Бомбы с отравляющим или хлорным газом с биотехнологией (стол для обработки)
+ - Пушка: 25х137 мм (АП, БЗ, ОФ, БОПС)
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="Harrier_Jet.label"><s>Harrier Jump Jet</s><r>Харриер Джамп Джет</r></e>
+  <e k="D" t="ThingDef" key="Harrier_Jet_Blueprint.description"><s>A single-seat V/STOL attack jet. Short runway take-off, fixed-wing flight, vertical landing. Rocket pods, four 500 lb bombs and a 25 mm cannon; refits for drop tanks or six bombs.</s><r>Одноместный штурмовик V/STOL. Взлет с короткой взлетно-посадочной полосы, полет на самолете, вертикальная посадка. Ракетные блоки, четыре 500-фунтовые бомбы и 25-мм пушка; переоборудование под сбросные баки или шесть бомб.</r></e>
+  <e k="D" t="ThingDef" key="Harrier_Jet_Blueprint.label"><s>Harrier Jump Jet</s><r>Харриер Джамп Джет</r></e>
+  <e k="D" t="ThingDef" key="Harrier_Mk84Bomb_Chlorine.description"><s>A 2,000 lb chlorine gas bomb that leaves a wide choking cloud which burns eyes, mouths and lungs.</s><r>Хлорная бомба массой 2000 фунтов, оставляющая широкое удушающее облако, обжигающее глаза, рот и легкие.</r></e>
+  <e k="D" t="ThingDef" key="Harrier_Mk84Bomb_Chlorine.label"><s>Mk. 84: Chlorine Gas</s><r>Мк. 84: Газообразный хлор</r></e>
+  <e k="D" t="ThingDef" key="Harrier_Mk84Bomb_EMP.description"><s>A 2,000 lb EMP bomb that gives one wide electromagnetic pulse.</s><r>ЭМИ-бомба массой 2000 фунтов, дающая один широкий электромагнитный импульс.</r></e>
+  <e k="D" t="ThingDef" key="Harrier_Mk84Bomb_EMP.label"><s>Mk. 84: EMP</s><r>Мк. 84: ЭМИ</r></e>
+  <e k="D" t="ThingDef" key="Harrier_Mk84Bomb_Incendiary.description"><s>A 2,000 lb incendiary bomb that rolls a wave of burning prometheum down a long strip.</s><r>Зажигательная бомба массой 2000 фунтов, катящая волну горящего прометея по длинной полосе.</r></e>
+  <e k="D" t="ThingDef" key="Harrier_Mk84Bomb_Incendiary.label"><s>Mk. 84: Incendiary</s><r>Мк. 84: Зажигательный</r></e>
+  <e k="D" t="ThingDef" key="Harrier_Mk84Bomb_Smoke.description"><s>A 2,000 lb smoke bomb that lays a wide, lasting screen of blind smoke.</s><r>Дымовая шашка весом 2000 фунтов, создающая широкую и продолжительную завесу слепого дыма.</r></e>
+  <e k="D" t="ThingDef" key="Harrier_Mk84Bomb_Smoke.label"><s>Mk. 84: Smoke</s><r>Мк. 84: Дым</r></e>
+  <e k="D" t="ThingDef" key="Harrier_Mk84Bomb_ToxGas.description"><s>A 2,000 lb tox bomb that leaves a dense, lasting cloud of tox gas.</s><r>Токсичная бомба весом 2000 фунтов, оставляющая плотное и продолжительное облако токсичного газа.</r></e>
+  <e k="D" t="ThingDef" key="Harrier_Mk84Bomb_ToxGas.label"><s>Mk. 84: Poison Gas</s><r>Мк. 84: Ядовитый газ</r></e>
+  <e k="D" t="ThingDef" key="Harrier_Mk84ChemCloud.label"><s>chemical cloud</s><r>химическое облако</r></e>
+  <e k="D" t="ThingDef" key="Harrier_Mk84FireWave.label"><s>fire wave</s><r>огненная волна</r></e>
+  <e k="D" t="ThingDef" key="Harrier_Mk84GasCanister.label"><s>bomb gas canister</s><r>баллончик с бомбовым газом</r></e>
+  <e k="D" t="ThingDef" key="Harrier_Projectile_Mk82Bomb.label"><s>Mk. 82 bomb</s><r>Мк. 82 бомбы</r></e>
+  <e k="D" t="ThingDef" key="Harrier_Projectile_Mk84Chlorine.label"><s>Mk. 84 chlorine gas bomb</s><r>Мк. 84 хлорная газовая бомба</r></e>
+  <e k="D" t="ThingDef" key="Harrier_Projectile_Mk84EMP.label"><s>Mk. 84 EMP bomb</s><r>Мк. 84 ЭМИ-бомба</r></e>
+  <e k="D" t="ThingDef" key="Harrier_Projectile_Mk84Incendiary.label"><s>Mk. 84 incendiary bomb</s><r>Мк. 84 зажигательная бомба</r></e>
+  <e k="D" t="ThingDef" key="Harrier_Projectile_Mk84Smoke.label"><s>Mk. 84 smoke bomb</s><r>Мк. 84 дымовая шашка</r></e>
+  <e k="D" t="ThingDef" key="Harrier_Projectile_Mk84ToxGas.label"><s>Mk. 84 poison gas bomb</s><r>Мк. 84 бомба с отравляющим газом</r></e>
+  <e k="D" t="ThoughtDef" key="Harrier_UsedChemicalWeapons.stages.0.description"><s>Our aircraft dropped banned chemical weapons. It sits badly with me.</s><r>Наша авиация сбросила запрещенное химическое оружие. Мне оно плохо сидит.</r></e>
+  <e k="D" t="ThoughtDef" key="Harrier_UsedChemicalWeapons.stages.0.label"><s>we used chemical weapons</s><r>мы использовали химическое оружие</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Harrier_UpgradeTree.modExtensions.0.groupLabel"><s>CHOOSE ONE</s><r>ВЫБЕРИТЕ ОДИН</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Harrier_UpgradeTree.nodes.0.description"><s>Two rocket pods on the inner pylons and four 500 lb bombs outboard, as built; fitting it takes off any refit.
+Rearm: 57 mm rockets and 500 lb bombs, made at the machining table.</s><r>Две ракетные установки на внутренних пилонах и четыре 500-фунтовые бомбы снаружи в заводском состоянии; установка требует любого ремонта.
+Перевооружение: 57-мм ракеты и 500-фунтовые бомбы, изготовленные на обрабатывающем столе.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Harrier_UpgradeTree.nodes.0.label"><s>Standard Loadout</s><r>Стандартное снаряжение</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Harrier_UpgradeTree.nodes.1.description"><s>Swaps the rocket pods on the inner pylons for two external fuel tanks: 60% more fuel, for longer flights. Keeps the four bombs.
+Rearm: 500 lb bombs, made at the machining table.</s><r>Заменяет ракетные блоки на внутренних пилонах на два внешних топливных бака: на 60 % больше топлива для более длительных полетов. Вмещает четыре бомбы.
+Перевооружение: 500-фунтовые бомбы, изготовленные на обрабатывающем столе.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Harrier_UpgradeTree.nodes.1.label"><s>Drop Tanks</s><r>Дроп-танки</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Harrier_UpgradeTree.nodes.2.description"><s>Swaps the rocket pods for a third pair of 500 lb bombs on the inner pylons: six bombs, three under each wing.
+Rearm: 500 lb bombs, made at the machining table.</s><r>Заменяет ракетные блоки на третью пару 500-фунтовых бомб на внутренних пилонах: шесть бомб, по три под каждым крылом.
+Перевооружение: 500-фунтовые бомбы, изготовленные на обрабатывающем столе.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Harrier_UpgradeTree.nodes.2.label"><s>Six-Bomb Load</s><r>Шестибомбовая нагрузка</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Harrier_UpgradeTree.nodes.2.upgrades.0.turrets.0.gizmoLabel"><s>Mk. 82 bombs</s><r>Мк. 82 бомбы</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Harrier_UpgradeTree.nodes.3.description"><s>Swaps the rocket pods for a pair of incendiary bombs that roll a wave of fire down a long strip.
+Rearm: &quot;Mk. 84: Incendiary&quot; bombs, made at the machining table.
+Необходимое исследование: Мины.</s><r>Заменяет ракетные блоки на пару зажигательных бомб, катящих волну огня по длинной полосе.
+Перевооружение: бомбы «Mk. 84: Зажигательные», изготовленные на обрабатывающем столе.
+Необходимое исследование: Мины.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Harrier_UpgradeTree.nodes.3.label"><s>Incendiary Bombs</s><r>Зажигательные бомбы</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Harrier_UpgradeTree.nodes.3.upgrades.1.turrets.0.gizmoLabel"><s>Mk. 84 incendiary</s><r>Мк. 84 зажигательный</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Harrier_UpgradeTree.nodes.4.description"><s>Swaps the rocket pods for a pair of EMP bombs that give one wide pulse.
+Rearm: &quot;Mk. 84: EMP&quot; bombs, made at the machining table.
+Необходимое исследование: Основы микроэлектроники.</s><r>Swaps the rocket pods for a pair of EMP bombs that give one wide pulse.
+Rearm: &quot;Mk. 84: EMP&quot; bombs, made at the machining table.
+Необходимое исследование: Основы микроэлектроники.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Harrier_UpgradeTree.nodes.4.label"><s>EMP Bombs</s><r>ЭМИ-бомбы</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Harrier_UpgradeTree.nodes.4.upgrades.1.turrets.0.gizmoLabel"><s>Mk. 84 EMP</s><r>Мк. 84 ЭМИ</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Harrier_UpgradeTree.nodes.5.description"><s>Swaps the rocket pods for a pair of smoke bombs that lay a wide screen of blind smoke.
+Rearm: &quot;Mk. 84: Smoke&quot; bombs, made at the machining table.
+Необходимое исследование: Дымовые ранцы.</s><r>Заменяет ракетные блоки на пару дымовых шашек, создающих широкую завесу слепого дыма.
+Перевооружение: бомбы «Mk.84: Дымовые», изготовленные на обрабатывающем столе.
+Необходимое исследование: Дымовые ранцы.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Harrier_UpgradeTree.nodes.5.label"><s>Smoke Bombs</s><r>Дымовые шашки</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Harrier_UpgradeTree.nodes.5.upgrades.1.turrets.0.gizmoLabel"><s>Mk. 84 smoke</s><r>Мк. 84 дым</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Harrier_UpgradeTree.nodes.6.description"><s>Plasteel plates over the airframe, engine bay and wing tanks: 25% more armour everywhere except the canopy. The extra weight means 15% more fuel used. Can be fitted with any loadout.</s><r>Пластины из пластали над фюзеляжем, моторным отсеком и крыльевыми баками: на 25% больше брони везде, кроме фонаря. Дополнительный вес означает увеличение расхода топлива на 15%. Возможна комплектация любой нагрузкой.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Harrier_UpgradeTree.nodes.6.label"><s>Plasteel Armour</s><r>Пластальная броня</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Harrier_UpgradeTree.nodes.7.description"><s>Swaps the rocket pods for a pair of tox bombs that leave a dense cloud of tox gas.
+Rearm: 75 steel and 2 wastepacks per bomb.
+Необходимое исследование: Токсичный газ.</s><r>Swaps the rocket pods for a pair of tox bombs that leave a dense cloud of tox gas.
+Rearm: 75 steel and 2 wastepacks per bomb.
+Необходимое исследование: Токсичный газ.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Harrier_UpgradeTree.nodes.7.label"><s>Tox Bombs</s><r>Токсические бомбы</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Harrier_UpgradeTree.nodes.7.upgrades.1.turrets.0.gizmoLabel"><s>Tox bombs</s><r>Токсические бомбы</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Harrier_UpgradeTree.nodes.8.description"><s>Swaps the rocket pods for a pair of chlorine gas bombs that choke and burn everyone in a wide cloud.
+Rearm: 75 steel, 25 chemfuel and 1 wastepack per bomb.
+Необходимое исследование: Токсичный газ.</s><r>Swaps the rocket pods for a pair of chlorine gas bombs that choke and burn everyone in a wide cloud.
+Rearm: 75 steel, 25 chemfuel and 1 wastepack per bomb.
+Необходимое исследование: Токсичный газ.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Harrier_UpgradeTree.nodes.8.label"><s>Chlorine Gas Bombs</s><r>Хлорные бомбы</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Harrier_UpgradeTree.nodes.8.upgrades.1.turrets.0.gizmoLabel"><s>Chlorine bombs</s><r>Хлорные бомбы</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_Bombs.description"><s>Four Mk. 82 HE bombs on the outer pylons, dropped in pairs on level bomb runs: place the run, and the Harrier lines up and releases over the target. All four on one pass (two pairs down the target), or one pair per pass. Rearmed only on the ground, with Mk. 82 HE bombs from storage (made at the machining table).</s><r>Четыре Мк. 82 фугасные бомбы на внешних пилонах, сбрасываемые парами при горизонтальном заходе бомб: сделайте заход, и «Харриер» выстроится в линию и нанесет удар над целью. Все четверо за один пас (две пары до цели) или одна пара за пас. Перевооружался только на земле, на Mk. 82 фугасные бомбы со склада (сделаны на станке).</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_Bombs.fireModes.0.label"><s>All bombs on one pass</s><r>Все бомбы за один проход</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_Bombs.fireModes.1.label"><s>One pair per pass</s><r>Одна пара за проход</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_Bombs.gizmoDescription"><s>Select a target.
+
+Fire for effect.</s><r>Выберите цель.
+
+Стреляйте по эффекту.</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_Bombs.label"><s>Mk. 82 bombs</s><r>Мк. 82 бомбы</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_Bombs6.description"><s>Six Mk. 82 HE bombs, three under each wing, dropped in pairs on level bomb runs: place the run, and the Harrier lines up and releases over the target. All six on one pass (three pairs down the target), or one pair per pass. Rearmed only on the ground, with Mk. 82 HE bombs from storage (made at the machining table).</s><r>Шесть Мк. 82 фугасные бомбы, по три под каждым крылом, сбрасываются парами при горизонтальном заходе бомб: сделайте заход, и «Харриер» выстроится в линию и нанесет удар над целью. Все шесть за один пас (три пары до цели) или одна пара за пас. Перевооружался только на земле, на Mk. 82 фугасные бомбы со склада (сделаны на станке).</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_Bombs6.fireModes.0.label"><s>All bombs on one pass</s><r>Все бомбы за один проход</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_Bombs6.fireModes.1.label"><s>One pair per pass</s><r>Одна пара за проход</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_Bombs6.gizmoDescription"><s>Select a target.
+
+Fire for effect.</s><r>Выберите цель.
+
+Стреляйте по эффекту.</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_Bombs6.label"><s>Mk. 82 bombs</s><r>Мк. 82 бомбы</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_GunPack.description"><s>A GAU-12/U Equalizer, a five-barrel 25 mm rotary cannon in a pod under the fuselage, fed from a second pod holding 300 25x137mm rounds, enough for five strafe runs. It is used only on strafe runs: pick a target, and the aircraft lines up on it and walks a stream of shells down a 20-cell path from 9 cells short of the target to 10 beyond, 3 shells into every cell; the shells fired around the target are aimed at the target itself. The path follows a moving target throughout the burst. Click for a straight-in run, or press on the target and drag to choose the direction of attack. 60 shells a pass. Pick an aircraft in flight instead and the Harrier chases it, firing 60-shell bursts aimed ahead of it, and comes round again until it is down. Rearmed only on the ground, with 25x137mm NATO rounds from storage.</s><r>ГАУ-12/У «Уравнитель» — пятиствольная 25-мм поворотная пушка в контейнере под фюзеляжем, питаемая из второго контейнера, вмещающего 300 снарядов калибра 25x137 мм, чего достаточно для пяти залпов. Он используется только при обстреле: выбирает цель, самолет выстраивается на ней и проводит поток снарядов по пути из 20 ячеек от 9 ячеек до цели до 10 за ее пределами, по 3 снаряда в каждую ячейку; снаряды, выпущенные вокруг цели, нацелены на саму цель. Путь следует за движущейся целью на протяжении всей серии. Нажмите, чтобы бежать прямо, или нажмите на цель и перетащите ее, чтобы выбрать направление атаки. 60 снарядов за проход. Вместо этого выберите летящий самолет, и «Харриер» преследует его, выпустив вперед 60 очередей снарядов, и снова разворачивается, пока не упадет. Перевооружается только на земле, патронами 25х137 мм НАТО со склада.</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_GunPack.label"><s>GAU-12/U Equalizer</s><r>Эквалайзер ГАУ-12/У</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_Mk84Chlorine.description"><s>Two chlorine gas bombs that leave a wide choking cloud which burns eyes, mouths and lungs; rearmed with Mk. 84: Chlorine Gas bombs.</s><r>Две хлорные бомбы, оставляющие широкое удушающее облако, обжигающее глаза, рты и легкие; перевооружен на Mk. 84: Хлорные бомбы.</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_Mk84Chlorine.fireModes.0.label"><s>One pair per pass</s><r>Одна пара за проход</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_Mk84Chlorine.gizmoDescription"><s>Select a target.
+
+Fire for effect.</s><r>Выберите цель.
+
+Стреляйте по эффекту.</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_Mk84Chlorine.label"><s>Mk. 84 chlorine gas bombs</s><r>Мк. 84 хлорных бомбы</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_Mk84EMP.description"><s>Two EMP bombs that give one wide pulse, stunning mechanoids and turrets and knocking out shields and power; rearmed with Mk. 84: EMP bombs.</s><r>Две ЭМИ-бомбы, дающие один широкий импульс, оглушающие механоидов и турели, выбивающие щиты и энергию; перевооружен на Mk. 84: ЭМИ-бомбы.</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_Mk84EMP.fireModes.0.label"><s>One pair per pass</s><r>Одна пара за проход</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_Mk84EMP.gizmoDescription"><s>Select a target.
+
+Fire for effect.</s><r>Выберите цель.
+
+Стреляйте по эффекту.</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_Mk84EMP.label"><s>Mk. 84 EMP bombs</s><r>Мк. 84 ЭМИ-бомбы</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_Mk84Incendiary.description"><s>Two incendiary bombs that roll a wave of burning prometheum down a long, wide strip; rearmed with Mk. 84: Incendiary bombs.</s><r>Две зажигательные бомбы, катящие волну горящего прометея по длинной широкой полосе; перевооружен на Mk. 84: Зажигательные бомбы.</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_Mk84Incendiary.fireModes.0.label"><s>One pair per pass</s><r>Одна пара за проход</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_Mk84Incendiary.gizmoDescription"><s>Select a target.
+
+Fire for effect.</s><r>Выберите цель.
+
+Стреляйте по эффекту.</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_Mk84Incendiary.label"><s>Mk. 84 incendiary bombs</s><r>Мк. 84 зажигательные бомбы</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_Mk84Smoke.description"><s>Two smoke bombs that lay a wide, lasting screen of blind smoke; rearmed with Mk. 84: Smoke bombs.</s><r>Две дымовые шашки, создающие широкую и продолжительную завесу слепого дыма; перевооружен на Mk. 84: Дымовые шашки.</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_Mk84Smoke.fireModes.0.label"><s>One pair per pass</s><r>Одна пара за проход</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_Mk84Smoke.gizmoDescription"><s>Select a target.
+
+Fire for effect.</s><r>Выберите цель.
+
+Стреляйте по эффекту.</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_Mk84Smoke.label"><s>Mk. 84 smoke bombs</s><r>Мк. 84 дымовые шашки</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_Mk84ToxGas.description"><s>Two tox bombs that leave a dense, lasting cloud of tox gas; rearmed with Mk. 84: Poison Gas bombs.</s><r>Две токсические бомбы, оставляющие плотное и стойкое облако токсичного газа; перевооружен на Mk. 84: Бомбы с ядовитым газом.</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_Mk84ToxGas.fireModes.0.label"><s>One pair per pass</s><r>Одна пара за проход</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_Mk84ToxGas.gizmoDescription"><s>Select a target.
+
+Fire for effect.</s><r>Выберите цель.
+
+Стреляйте по эффекту.</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_Mk84ToxGas.label"><s>Mk. 84 poison gas bombs</s><r>Мк. 84 бомбы с отравляющим газом</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_RocketPods.description"><s>Two underwing pods of 16 unguided rockets each. Place a rocket run on the map as for a bomb run: the Harrier lines up on a long straight run-in and fires 16 rockets in pairs down a strip 5 cells wide, then pulls straight off. With Repeat runs ticked it comes round again while rockets remain, 2 passes on a full load. Rearmed only on the ground, with 57mm rockets from storage: AP (Simple Launchers research), HE or HEAT (Advanced Launchers research).</s><r>Две подкрыльевые блоки по 16 неуправляемых ракет каждая. Разместите на карте запуск ракеты, как для запуска бомбы: «Харриер» выстраивается в линию на длинном прямом заезде и запускает 16 ракет парами по полосе шириной 5 клеток, а затем резко уезжает. Если отмечена галочка «Повторить запуск», он снова запускается, пока остаются ракеты, 2 прохода при полной нагрузке. Перевооружается только на земле, 57-мм ракетами со склада: AP (исследование простых пусковых установок), HE или HEAT (исследование усовершенствованных пусковых установок).</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_RocketPods.fireModes.0.label"><s>Salvo: 16 rockets per pass</s><r>Залп: 16 ракет за проход</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_RocketPods.gizmoDescription"><s>Select a target.
+
+Fire for effect.</s><r>Выберите цель.
+
+Стреляйте по эффекту.</r></e>
+  <e k="D" t="VehicleTurretDef" key="Harrier_RocketPods.label"><s>57 mm rocket pods</s><r>57-мм ракетные блоки</r></e>
+  <e k="D" t="WorkGiverDef" key="FWA_RearmVehicle.gerund"><s>rearming</s><r>перевооружение</r></e>
+  <e k="D" t="WorkGiverDef" key="FWA_RearmVehicle.label"><s>rearm aircraft</s><r>перевооружить самолет</r></e>
+  <e k="D" t="WorkGiverDef" key="FWA_RearmVehicle.verb"><s>rearm</s><r>перевооружать</r></e>
+  <e k="D" t="WorkGiverDef" key="Harrier_ClearParkingPad.gerund"><s>moving items off a parking pad</s><r>перемещение предметов с парковочной площадки</r></e>
+  <e k="D" t="WorkGiverDef" key="Harrier_ClearParkingPad.label"><s>clear parking pads</s><r>прозрачные парковочные площадки</r></e>
+  <e k="D" t="WorkGiverDef" key="Harrier_ClearParkingPad.verb"><s>move</s><r>двигаться</r></e>
+  <e k="D" t="WorkGiverDef" key="Harrier_LoadBombParts.gerund"><s>loading bomb parts into</s><r>загрузка частей бомбы в</r></e>
+  <e k="D" t="WorkGiverDef" key="Harrier_LoadBombParts.label"><s>load bomb parts</s><r>загрузить части бомбы</r></e>
+  <e k="D" t="WorkGiverDef" key="Harrier_LoadBombParts.verb"><s>load bomb parts into</s><r>загрузить части бомбы в</r></e>
+  <e k="K" key="AlreadyLaunching"><s>Already launching.</s><r>Уже запускаю.</r></e>
+  <e k="K" key="FWA_AircraftArrived"><s>Aircraft arrived.</s><r>Самолет прибыл.</r></e>
+  <e k="K" key="FWA_AttackBoxEdge"><s>too close to the map edge</s><r>слишком близко к краю карты</r></e>
+  <e k="K" key="FWA_AttackBoxFriendly"><s>warning, {0} friendly in the box</s><r>предупреждение, {0} дружелюбный в квадрате</r></e>
+  <e k="K" key="FWA_AttackBoxRoof"><s>under a mountain roof</s><r>под горной крышей</r></e>
+  <e k="K" key="FWA_AttackRunNeedsFlight"><s>{0} must be flying to make an attack run.</s><r>{0} должен летать, чтобы совершить атаку.</r></e>
+  <e k="K" key="FWA_AttackRunNoAmmo"><s>No ammunition left in the {0}. Land to rearm.</s><r>No ammunition left in the {0}. Земля для перевооружения.</r></e>
+  <e k="K" key="FWA_AttackRunNoCrew"><s>No pilot to fire.</s><r>Нет пилота, который мог бы стрелять.</r></e>
+  <e k="K" key="FWA_AttackRunOutEdge"><s>too close to the map edge to pull away: the aircraft needs about {0} cells of straight flight past the start. Turn the arrow (drag, or Q/E) or move the run in from the edge</s><r>слишком близко к краю карты, чтобы оторваться: самолету нужно около {0} ячеек прямого полета после старта. Поверните стрелку (перетащите или Q/E) или переместите забег от края</r></e>
+  <e k="K" key="FWA_AutoLandBombsDesc"><s>When every primary munition (bombs, rockets) has been used, return to base. Turret and cannon ammunition doesn't count. The attack run in progress is flown out first.
+
+Over a colony: land on the runway this aircraft took off from, in the opposite direction, or on the nearest clear beacon runway if that one is gone, blocked or has no room for the approach.
+
+On a sortie: fly home over the world map and land there.</s><r>Когда все основные боеприпасы (бомбы, ракеты) будут использованы, вернитесь на базу. Turret and cannon ammunition doesn't count. Идущая атака вылетает первой.
+
+Над колонией: приземлитесь на взлетно-посадочной полосе, с которой взлетел этот самолет, в противоположном направлении или на ближайшей взлетно-посадочной полосе, свободной от маяка, если она отсутствует, заблокирована или не имеет места для захода на посадку.
+
+На вылете: летите домой по карте мира и приземляйтесь там.</r></e>
+  <e k="K" key="FWA_AutoLandBombsGone"><s>{0}: munitions spent, returning to land.</s><r>{0}: боеприпасы израсходованы, возвращаются на сушу.</r></e>
+  <e k="K" key="FWA_AutoLandBombsLabel"><s>Return when munitions spent</s><r>Возврат, когда израсходованы боеприпасы</r></e>
+  <e k="K" key="FWA_AutoLandDesc"><s>Land to the saved landing spot at {0}. Right-click to clear the saved spot.</s><r>Приземлитесь в сохраненной точке приземления в точке {0}. Щелкните правой кнопкой мыши, чтобы очистить сохраненное место.</r></e>
+  <e k="K" key="FWA_AutoLandLabel"><s>Auto land</s><r>Авто земля</r></e>
+  <e k="K" key="FWA_AutoLandNoRunway"><s>{0}: there is no clear beacon runway to land on. The approach needs about {1} cells of open map before the runway's end. Circling.</s><r>{0}: нет свободной взлетно-посадочной полосы с маяками, на которую можно было бы приземлиться. Для захода на посадку требуется около {1} ячеек открытой карты до конца взлетно-посадочной полосы. Кружение.</r></e>
+  <e k="K" key="FWA_AutoLandNoRunwayArrived"><s>{0}: arrived, but there is no clear beacon runway to land on. The approach needs about {1} cells of open map before the runway's end. Circling.</s><r>{0}: прибыл, но нет свободной взлетно-посадочной полосы, на которую можно было бы приземлиться. Для захода на посадку требуется около {1} ячеек открытой карты до конца взлетно-посадочной полосы. Кружение.</r></e>
+  <e k="K" key="FWA_AutoLandingStarted"><s>{0}: auto landing at {1}.</s><r>{0}: автоматическая посадка в {1}.</r></e>
+  <e k="K" key="FWA_AutoTargetDesc"><s>Automatically acquire hostile targets in weapon range and fire arc.</s><r>Автоматически захватывайте враждебные цели в радиусе действия оружия и на дуге огня.</r></e>
+  <e k="K" key="FWA_AutoTargetLabel"><s>Auto target</s><r>Автоматическая цель</r></e>
+  <e k="K" key="FWA_BeaconFitsNone"><s>no aircraft yet</s><r>самолета еще нет</r></e>
+  <e k="K" key="FWA_BeaconNoRunway"><s>Not part of a runway yet. Four beacons on the corner tiles of a rectangle mark one.</s><r>Not part of a runway yet. Четыре маяка на угловых плитках прямоугольника обозначают один.</r></e>
+  <e k="K" key="FWA_BeaconRunway"><s>Runway {0} × {1} cells. Long and wide enough for: {2}.</s><r>Ячейки ВПП {0} × {1}. Достаточно длинный и широкий для: {2}.</r></e>
+  <e k="K" key="FWA_BoardCrewDesc"><s>Assign pawns to aircraft crew seats.</s><r>Распределите пешки по местам экипажа самолета.</r></e>
+  <e k="K" key="FWA_BoardCrewLabel"><s>Board crew</s><r>Бортовой экипаж</r></e>
+  <e k="K" key="FWA_BoardCrewOption"><s>{0} as {1} ({2}/{3})</s><r>{0} как {1} ({2}/{3})</r></e>
+  <e k="K" key="FWA_BoardNearbyDesc"><s>Board nearby pawns into this vehicle.</s><r>Посадите ближайших пешек в эту машину.</r></e>
+  <e k="K" key="FWA_BoardNearbyLabel"><s>Board nearby</s><r>Доска поблизости</r></e>
+  <e k="K" key="FWA_BoardNearbyLandingDesc"><s>Land if needed, then order nearby pawns to board this vehicle.</s><r>Приземлитесь, если необходимо, а затем прикажите ближайшим пешкам сесть на эту машину.</r></e>
+  <e k="K" key="FWA_BoardNearbyLandingLabel"><s>Board nearby</s><r>Доска поблизости</r></e>
+  <e k="K" key="FWA_BombRunDesc"><s>Bomb with the {0}. Click where the bombs should land and drag north, east, south or west for the way to fly; Q and E turn it; a plain click takes the side nearest the aircraft's approach. All {1} bombs are released together and land side by side across the arrow. The rings show how far each blast reaches, a radius of about {2} cells. Colonists and buildings inside a ring are marked in yellow but don't stop the run. Not under mountain roofs.</s><r>Бомба с {0}. Нажмите, где должны приземлиться бомбы, и потяните их на север, восток, юг или запад, чтобы полететь; Q и E поворачивают его; простой щелчок выбирает сторону, ближайшую к самолету. Все бомбы {1} выбрасываются вместе и приземляются рядом друг с другом поперек стрелы. Кольца показывают, как далеко простирается каждый взрыв, радиус около {2} клеток. Колонисты и здания внутри кольца отмечены желтым, но не останавливают бег. Not under mountain roofs.</r></e>
+  <e k="K" key="FWA_BombRunDescPair"><s>Bomb with the {0}: {1} of the {2} bombs on this run (release set to pairs), side by side {3} cells apart across the arrow, on the clicked cell. Click where they should land and drag north, east, south or west for the way to fly; Q and E turn it; a plain click takes the side nearest the aircraft's approach. The rings show how far each blast reaches, a radius of about {4} cells. Colonists and buildings inside a ring are marked in yellow but don't stop the run. Not under mountain roofs.</s><r>Бомба с помощью {0}: {1} из {2} бомб в этом забеге (сброс установлен на пары), расположенных рядом ячеек {3}, разделенных стрелкой, на ячейке, на которую щелкнули. Нажмите, где они должны приземлиться, и перетащите их на север, восток, юг или запад, чтобы выбрать способ полета; Q и E поворачивают его; простой щелчок выбирает сторону, ближайшую к самолету. Кольца показывают, как далеко простирается каждый взрыв, радиус около {4} клеток. Колонисты и здания внутри кольца отмечены желтым, но не останавливают бег. Не под горными крышами.</r></e>
+  <e k="K" key="FWA_BombRunDescSalvo"><s>Bomb with the {0}. Click where the bombs should land and drag north, east, south or west for the way to fly; Q and E turn it; a plain click takes the side nearest the aircraft's approach. The {1} bombs are released {2} at a time, in {3} salvos one after another down the arrow, {4} cells apart, centred on the clicked cell. Each bomb slows as it falls, so the aircraft is clear before it bursts. The rings show how far each blast reaches, a radius of about {5} cells. Colonists and buildings inside a ring are marked in yellow but don't stop the run. Not under mountain roofs.</s><r>Бомба с {0}. Нажмите, где должны приземлиться бомбы, и потяните их на север, восток, юг или запад, чтобы полететь; Q и E поворачивают его; простой щелчок выбирает сторону, ближайшую к самолету. Бомбы {1} выпускаются {2} за раз, залпами {3} одна за другой вниз по стрелке, на расстоянии {4} ячеек друг от друга, в центре выбранной ячейки. Каждая бомба замедляется при падении, поэтому самолет успевает уйти до того, как она взорвется. Кольца показывают, как далеко простирается каждый взрыв, радиус около {5} клеток. Колонисты и здания внутри кольца отмечены желтым, но не останавливают бег. Не под горными крышами.</r></e>
+  <e k="K" key="FWA_BombRunLabel"><s>Bomb</s><r>Бомбить</r></e>
+  <e k="K" key="FWA_CancelRunDesc"><s>Call off the attack run and keep circling.</s><r>Отмените атаку и продолжайте кружить.</r></e>
+  <e k="K" key="FWA_CancelRunLabel"><s>Cancel run</s><r>Отменить запуск</r></e>
+  <e k="K" key="FWA_CannotBoardAirborne"><s>{0} is airborne.</s><r>{0} находится в воздухе.</r></e>
+  <e k="K" key="FWA_CannotBoardOrLoadAirborne"><s>{0} can only board pawns or load cargo while grounded.</s><r>{0} может садиться на пешек или загружать груз только при заземлении.</r></e>
+  <e k="K" key="FWA_CannotDisembarkCrewAirborne"><s>{0} can only disembark crew while grounded.</s><r>{0} может высадить экипаж только при заземлении.</r></e>
+  <e k="K" key="FWA_CannotDisembarkPilotAirborne"><s>{0}'s pilot cannot disembark while airborne.</s><r>Пилот {0} не может высадиться в воздухе.</r></e>
+  <e k="K" key="FWA_CannotLandBlocked"><s>{0}: landing area is blocked.</s><r>{0}: зона приземления заблокирована.</r></e>
+  <e k="K" key="FWA_CannotLandRunway"><s>{0} can't land there. Pick the touchdown cell and drag along the runway. {1}</s><r>{0} не может там приземлиться. Выберите ячейку приземления и перетащите ее вдоль взлетно-посадочной полосы. {1}</r></e>
+  <e k="K" key="FWA_CannotTurnBlocked"><s>{0} can't turn here: {1} is in the way.</s><r>{0} здесь повернуть нельзя: {1} мешает.</r></e>
+  <e k="K" key="FWA_CannotTurnHere"><s>{0} has no room to turn here.</s><r>{0} здесь некуда повернуться.</r></e>
+  <e k="K" key="FWA_ClearLandingSpotLabel"><s>Clear saved landing spot at {0}</s><r>Очистить сохраненную точку приземления в {0}.</r></e>
+  <e k="K" key="FWA_ClearLandingSpotNone"><s>No saved landing spot for this map.</s><r>Для этой карты не сохранено место приземления.</r></e>
+  <e k="K" key="FWA_ClearWeaponTargetDesc"><s>Stop aircraft weapons from firing at the current target.</s><r>Остановить авиационное вооружение от стрельбы по текущей цели.</r></e>
+  <e k="K" key="FWA_ClearWeaponTargetLabel"><s>Clear weapon target</s><r>Очистить цель оружия</r></e>
+  <e k="K" key="FWA_CrashDestroyed"><s>{0}: destroyed during landing.</s><r>{0}: уничтожен при приземлении.</r></e>
+  <e k="K" key="FWA_CrashLanding"><s>{0}: crash landed after taking {1} collision damage.</s><r>{0}: совершил аварийную посадку после получения {1} урона от столкновения.</r></e>
+  <e k="K" key="FWA_CrewCannotChangeNow"><s>Crew can only board or disembark while the aircraft is grounded.</s><r>Экипаж может садиться или высаживаться только тогда, когда самолет стоит на земле.</r></e>
+  <e k="K" key="FWA_CrewNoCandidates"><s>No available pawns for {0}.</s><r>Нет доступных пешек для {0}.</r></e>
+  <e k="K" key="FWA_DisembarkCrewDesc"><s>Land if needed, then disembark passenger-role pawns. Press again before landing to include gunner roles.</s><r>Приземлитесь, если необходимо, затем высадите пешек в роли пассажиров. Нажмите еще раз перед приземлением, чтобы включить роли стрелка.</r></e>
+  <e k="K" key="FWA_DisembarkCrewLabel"><s>Disembark crew</s><r>Высадка экипажа</r></e>
+  <e k="K" key="FWA_DiveRunLabel"><s>Dive bomb</s><r>Пикирующая бомба</r></e>
+  <e k="K" key="FWA_EmergencyLanding"><s>{0}: out of fuel, emergency landing.</s><r>{0}: закончилось топливо, аварийная посадка.</r></e>
+  <e k="K" key="FWA_EnterMapAtEdge"><s>Enter {0} at map edge</s><r>Введите {0} на краю карты.</r></e>
+  <e k="K" key="FWA_FlyRaidOn"><s>Fly a raid on {0}</s><r>Совершите налет на {0}</r></e>
+  <e k="K" key="FWA_FlySortieTo"><s>Fly a sortie to {0}</s><r>Совершите вылет в {0}</r></e>
+  <e k="K" key="FWA_GoAround"><s>{0} missed the approach and is going around.</s><r>{0} пропустил подход и идет в обход.</r></e>
+  <e k="K" key="FWA_LandAtColony"><s>Land at {0}</s><r>Приземлитесь в {0}</r></e>
+  <e k="K" key="FWA_LandDesc"><s>Land at the aircraft's current position.</s><r>Приземлитесь в текущем положении самолета.</r></e>
+  <e k="K" key="FWA_LandLabel"><s>Land</s><r>Земля</r></e>
+  <e k="K" key="FWA_LandingRunwayClear"><s>Runway clear: touches down here, rolls toward the arrow</s><r>Взлетно-посадочная полоса свободна: приземляется здесь, катится к стрелке.</r></e>
+  <e k="K" key="FWA_LandingSpotCleared"><s>{0}: landing spot cleared.</s><r>{0}: место приземления очищено.</r></e>
+  <e k="K" key="FWA_LandingSpotInvalid"><s>{0}: saved landing spot is no longer valid.</s><r>{0}: сохраненное место приземления больше не действительно.</r></e>
+  <e k="K" key="FWA_LandingSpotSaved"><s>{0}: landing spot saved at {1}.</s><r>{0}: место приземления сохранено в {1}.</r></e>
+  <e k="K" key="FWA_LaunchToWorldLabel"><s>Launch to World Map</s><r>Запуск на карту мира</r></e>
+  <e k="K" key="FWA_LineUpCantReach"><s>{0} can't taxi to the take-off position from here.</s><r>{0} отсюда не может подрулить к взлетной позиции.</r></e>
+  <e k="K" key="FWA_LineUpDesc"><s>Taxi to a take-off position and turn down the runway, ready to take off. It uses the nearest take-off point marker this aircraft can take off from; with none, the nearest end of a beacon runway it fits, tail at the runway's edge. The engines are started if they are off.</s><r>Выруливайте на взлетную позицию и поверните на взлетно-посадочную полосу, приготовьтесь к взлету. Он использует ближайший маркер точки взлета, из которой может взлететь этот самолет; без него, ближайший конец взлетно-посадочной полосы с маяком подходит, хвост у края взлетно-посадочной полосы. Двигатели запускаются, если они выключены.</r></e>
+  <e k="K" key="FWA_LineUpDone"><s>{0}: lined up, ready for take-off.</s><r>{0}: выстроен в линию, готов к взлету.</r></e>
+  <e k="K" key="FWA_LineUpLabel"><s>Line up</s><r>Расстановка</r></e>
+  <e k="K" key="FWA_LineUpMarkersBlocked"><s>{0} can't use any take-off point here: {1}</s><r>{0} здесь нельзя использовать какую-либо точку взлета: {1}</r></e>
+  <e k="K" key="FWA_LineUpNoRunway"><s>{0} has no clear beacon runway it fits on this map.</s><r>У {0} нет четкой взлетно-посадочной полосы с маяком, которая бы соответствовала этой карте.</r></e>
+  <e k="K" key="FWA_LineUpToMarker"><s>{0}: taxiing to the take-off point.</s><r>{0}: руление к точке взлета.</r></e>
+  <e k="K" key="FWA_LineUpToRunwayEnd"><s>{0}: taxiing to the end of the runway.</s><r>{0}: руление до конца ВПП.</r></e>
+  <e k="K" key="FWA_LoiterHere"><s>{0} will circle here</s><r>{0} будет кружиться здесь</r></e>
+  <e k="K" key="FWA_MoveOrder"><s>{0}: moving to {1}.</s><r>{0}: переход к {1}.</r></e>
+  <e k="K" key="FWA_NeedsRunwayToLand"><s>{0} needs a runway to land: use Land and drag along the runway.</s><r>Для приземления {0} нужна взлетно-посадочная полоса: используйте «Приземление» и перетащите его вдоль взлетно-посадочной полосы.</r></e>
+  <e k="K" key="FWA_NoCrewToDisembark"><s>No passenger or gunner pawns aboard.</s><r>На борту нет ни пассажиров, ни стрелков.</r></e>
+  <e k="K" key="FWA_NoNearbyPawnsToBoard"><s>No nearby pawns can board.</s><r>Никакие ближайшие пешки не могут подняться на борт.</r></e>
+  <e k="K" key="FWA_NoVehicleDefsLetterLabel"><s>Fixed-Wing Aircraft Framework: no aircraft found</s><r>Структура самолета с неподвижным крылом: самолет не найден</r></e>
+  <e k="K" key="FWA_NoVehicleDefsLetterText"><s>Fixed-Wing Aircraft Framework is enabled, but no loaded vehicle defs use it. If you removed the aircraft mod that depended on it, you may also want to remove the framework from your mod list.</s><r>Структура самолета с неподвижным крылом включена, но определения загруженных транспортных средств ее не используют. Если вы удалили мод самолета, который от него зависел, вы также можете удалить фреймворк из списка модов.</r></e>
+  <e k="K" key="FWA_OrbitClockwiseLabel"><s>Orbit: clockwise</s><r>Орбита: по часовой стрелке</r></e>
+  <e k="K" key="FWA_OrbitCounterLabel"><s>Orbit: counter-clockwise</s><r>Орбита: против часовой стрелки</r></e>
+  <e k="K" key="FWA_OrbitDesc"><s>Switch the direction this aircraft circles its target.</s><r>Измените направление полета самолета вокруг цели.</r></e>
+  <e k="K" key="FWA_ParkingAssignDesc"><s>Choose the aircraft parking spot this aircraft uses: click a spot on the map. Right-click to clear it.
+
+After every landing the aircraft taxis to its spot, turns to face the way the spot's arrow points, and shuts down its engines. With no spot on this map it taxis back to the cell it took off from, facing down the runway again.</s><r>Выберите место стоянки самолета, которое использует этот самолет: щелкните место на карте. Щелкните правой кнопкой мыши, чтобы очистить его.
+
+После каждой приземления самолет подруливает к месту, поворачивается лицом в ту сторону, куда указывает стрелка места, и выключает двигатели. Не имея места на этой карте, он выруливает обратно в ячейку, из которой вылетел, снова лицом к взлетно-посадочной полосе.</r></e>
+  <e k="K" key="FWA_ParkingAssignLabel"><s>Parking spot</s><r>Парковочное место</r></e>
+  <e k="K" key="FWA_ParkingAssigned"><s>Assigned to: {0}</s><r>Назначено: {0}</r></e>
+  <e k="K" key="FWA_ParkingAssignedMessage"><s>{0} will park here.</s><r>{0} припаркуется здесь.</r></e>
+  <e k="K" key="FWA_ParkingCantReach"><s>{0} can't taxi to its parking place from here.</s><r>{0} отсюда не может подрулить к своей стоянке.</r></e>
+  <e k="K" key="FWA_ParkingCurrentNone"><s>No spot assigned: it returns to where it took off.</s><r>Место не назначено: он возвращается туда, откуда взлетел.</r></e>
+  <e k="K" key="FWA_ParkingCurrentSpot"><s>Current spot: at {1} ({0}).</s><r>Текущая точка: {1} ({0}).</r></e>
+  <e k="K" key="FWA_ParkingNoAircraft"><s>No fixed-wing aircraft on this map.</s><r>На этой карте нет самолетов.</r></e>
+  <e k="K" key="FWA_ParkingSpotAssignDesc"><s>Choose the aircraft that parks here. Each spot holds one aircraft; assigning another moves the first one off it.</s><r>Выберите самолет, который припаркуется здесь. На каждом месте находится один самолет; назначение другого удаляет первый из него.</r></e>
+  <e k="K" key="FWA_ParkingUnassign"><s>Unassign {0}</s><r>Отменить назначение {0}</r></e>
+  <e k="K" key="FWA_ParkingUnassigned"><s>No aircraft assigned.</s><r>Ни один самолет не назначен.</r></e>
+  <e k="K" key="FWA_RTBArrivedHome"><s>{0}: home, landing.</s><r>{0}: дом, посадка.</r></e>
+  <e k="K" key="FWA_RTBBingo"><s>{0}: bingo fuel, returning to {1}.</s><r>{0}: топливо для бинго, возвращение к {1}.</r></e>
+  <e k="K" key="FWA_RTBDesc"><s>On a sortie: break off at once, even mid-run, and fly home over the world map, then land on a beacon runway there.
+
+Over a colony: land now on the best beacon runway, the takeoff runway reversed if it's here.</s><r>При вылете: сразу прервитесь, даже на середине пути, и летите домой по карте мира, а затем приземлитесь на взлетно-посадочной полосе там.</r></e>
+  <e k="K" key="FWA_RTBLabel"><s>Return to base</s><r>Вернуться на базу</r></e>
+  <e k="K" key="FWA_RTBLandingHere"><s>{0}: landing on the best runway.</s><r>{0}: приземление на лучшую взлетно-посадочную полосу.</r></e>
+  <e k="K" key="FWA_RTBMunitions"><s>{0}: munitions spent, returning to {1}.</s><r>{0}: израсходованные боеприпасы возвращаются к {1}.</r></e>
+  <e k="K" key="FWA_RTBNoHome"><s>{0} can't return to base: no colony has a beacon runway it fits. Circling.</s><r>{0} не может вернуться на базу: ни одна колония не имеет подходящей взлетно-посадочной полосы. Кружение.</r></e>
+  <e k="K" key="FWA_RTBNoHomeShort"><s>No colony with a beacon runway this aircraft fits.</s><r>Ни для одной колонии с взлетно-посадочной полосой этот самолет не подойдет.</r></e>
+  <e k="K" key="FWA_RTBOrdered"><s>{0}: returning to {1}.</s><r>{0}: возврат к {1}.</r></e>
+  <e k="K" key="FWA_RaidArrived"><s>{0} is over {1}. It circles the middle of the map; give it attacks. It returns to base when its munitions are spent or its fuel runs low.</s><r>{0} закончилось {1}. Он окружает середину карты; нападайте на него. Он возвращается на базу, когда у него израсходованы боеприпасы или заканчивается топливо.</r></e>
+  <e k="K" key="FWA_ReleaseFullLabel"><s>Release: full load</s><r>Выпуск: полная загрузка</r></e>
+  <e k="K" key="FWA_ReleaseModeDesc"><s>How much of the {0} goes on each bomb run. Click to switch.
+
+Full load: all {2} bombs on one run, {1} at a time in quick succession down the target.
+Pairs: only {1} bombs per run, so the rack lasts for several runs.</s><r>Сколько {0} уходит на каждый запуск бомбы. Нажмите, чтобы переключиться.
+
+Полная загрузка: все {2} бомбы за один заход, {1} одновременно в быстрой последовательности вниз по цели.
+Пары: только {1} бомбы за один заход, поэтому стойки хватает на несколько заходов.</r></e>
+  <e k="K" key="FWA_ReleasePairsLabel"><s>Release: {0} per pass</s><r>Релиз: {0} за проход</r></e>
+  <e k="K" key="FWA_RepeatRunsDesc"><s>After each run, go round and repeat it on the same target until the weapon is empty, the target is gone or the run can no longer be flown. Applies to all this aircraft's weapons. Cancel run or any move order stops it.</s><r>После каждого забега обходите и повторяйте его на той же цели, пока оружие не опустеет, цель не исчезнет или забег больше не будет возможен. Применяется ко всему вооружению этого самолета. Отмените бег, или любой приказ о движении остановит его.</r></e>
+  <e k="K" key="FWA_RepeatRunsLabel"><s>Repeat runs</s><r>Повторите прогоны</r></e>
+  <e k="K" key="FWA_RoughLandingAbandoned"><s>{0}: the landing ground is gone and there is nowhere to put down here. Landing abandoned; circling.</s><r>{0}: посадочной площадки больше нет и приземляться здесь негде. Посадка заброшена; кружить.</r></e>
+  <e k="K" key="FWA_RoughLandingDone"><s>{0} made a rough landing: the airframe is damaged, {1} crew hurt.</s><r>{0} совершил жесткую посадку: поврежден планер, {1} экипаж пострадал.</r></e>
+  <e k="K" key="FWA_RoughLandingImpossible"><s>{0} can't land here: {1}, and the ground is too obstructed even for a rough landing ({2}).</s><r>{0} не может приземлиться здесь: {1}, а земля слишком засыпана даже для грубого приземления ({2}).</r></e>
+  <e k="K" key="FWA_RoughLandingStarted"><s>{0}: no usable runway ({1}). Making a rough landing: expect damage and possible crew injuries.</s><r>{0}: нет пригодной к использованию взлетно-посадочной полосы ({1}). Совершаем жесткую посадку: ожидайте повреждений и возможных травм экипажа.</r></e>
+  <e k="K" key="FWA_RoughLandingSwitched"><s>{0}: the runway is no longer usable ({1}). Committing to a rough landing.</s><r>{0}: взлетно-посадочная полоса больше не пригодна для использования ({1}). Готовимся к жесткой посадке.</r></e>
+  <e k="K" key="FWA_RoughLandingTargeter"><s>Rough landing ({0}): {1}</s><r>Грубая посадка ({0}): {1}</r></e>
+  <e k="K" key="FWA_RoughProblemTerrain"><s>impassable ground ({0})</s><r>непроходимая земля ({0})</r></e>
+  <e k="K" key="FWA_RoughSeverityHeavy"><s>rough ground, heavy damage likely, crew may be hurt</s><r>неровная местность, возможны серьезные повреждения, экипаж может пострадать</r></e>
+  <e k="K" key="FWA_RoughSeverityLight"><s>open ground, light damage likely</s><r>открытая местность, возможны легкие повреждения</r></e>
+  <e k="K" key="FWA_RoughSeveritySevere"><s>trees or buildings in the way, severe damage, crew likely hurt</s><r>деревья или здания на пути, серьезные повреждения, вероятнее всего, пострадал экипаж</r></e>
+  <e k="K" key="FWA_RunwayDiagonal"><s>{0} must face north, east, south or west along a runway to take off.</s><r>{0} должен быть обращен на север, восток, юг или запад вдоль взлетно-посадочной полосы для взлета.</r></e>
+  <e k="K" key="FWA_RunwayInvalid"><s>{0} needs a runway {1} cells long and {2} cells wide ahead of its nose: {3}.</s><r>{0} нужна взлетно-посадочная полоса длиной {1} и шириной {2} перед носом: {3}.</r></e>
+  <e k="K" key="FWA_RunwayProblemBlocked"><s>{0} is in the way</s><r>{0} мешает</r></e>
+  <e k="K" key="FWA_RunwayProblemEdge"><s>the runway runs off the map</s><r>взлетно-посадочная полоса уходит за пределы карты</r></e>
+  <e k="K" key="FWA_RunwayProblemFog"><s>part of it is unexplored</s><r>часть его неисследована</r></e>
+  <e k="K" key="FWA_RunwayProblemNoBeacons"><s>there is no marked runway: place four runway beacons on the corner tiles of a rectangle</s><r>нет обозначенной взлетно-посадочной полосы: поместите четыре маяка взлетно-посадочной полосы на угловые плитки прямоугольника.</r></e>
+  <e k="K" key="FWA_RunwayProblemOutsideBeacons"><s>it is not inside a runway marked by four runway beacons</s><r>он не находится внутри взлетно-посадочной полосы, отмеченной четырьмя взлетно-посадочными маяками</r></e>
+  <e k="K" key="FWA_RunwayProblemRoof"><s>part of it is roofed</s><r>часть его покрыта крышей</r></e>
+  <e k="K" key="FWA_RunwayProblemSurface"><s>some cells are not a built floor or smoothed rock</s><r>некоторые камеры не представляют собой построенный пол или выровненный камень</r></e>
+  <e k="K" key="FWA_SaveLandingSpotDesc"><s>Save this aircraft's current position and facing as its landing spot for this map.</s><r>Сохраните текущее положение и направление полета этого самолета в качестве места посадки на этой карте.</r></e>
+  <e k="K" key="FWA_SaveLandingSpotLabel"><s>Save landing spot</s><r>Сохранить место посадки</r></e>
+  <e k="K" key="FWA_SetWeaponTargetDesc"><s>Choose a target for the aircraft weapons.</s><r>Выберите цель для вооружения самолета.</r></e>
+  <e k="K" key="FWA_SetWeaponTargetLabel"><s>Set weapon target</s><r>Установить цель оружия</r></e>
+  <e k="K" key="FWA_SortieArrived"><s>{0}: on station. It will circle here until given orders, and returns to base when its munitions are spent or its fuel runs low.</s><r>{0}: на станции. Он будет кружить здесь до получения приказа и вернется на базу, когда у него израсходуются боеприпасы или закончится топливо.</r></e>
+  <e k="K" key="FWA_SortieDesc"><s>Send this aircraft on a strike: opens the world map to pick a target. A site whose map is already open: it circles a point you choose. A faction base or a site with no map yet: it raids, opening the map and arriving over it from the edge. It takes off from this runway if it is parked, and returns to base when its munitions are spent, its fuel runs low, or you order it.
+
+To fly to another colony instead, use Launch to World Map.</s><r>Отправьте этот самолет в атаку: открывает карту мира, чтобы выбрать цель. Сайт, карта которого уже открыта: она обводит выбранную вами точку. База фракции или участок без карты: он совершает набег, открывая карту и заходя на нее с края. Он взлетает с этой взлетно-посадочной полосы, если он припаркован, и возвращается на базу, когда у него израсходованы боеприпасы, заканчивается топливо или вы его заказываете.
+
+Чтобы вместо этого полететь в другую колонию, используйте «Запуск на карту мира».</r></e>
+  <e k="K" key="FWA_SortieLabel"><s>Sortie</s><r>Вылазка</r></e>
+  <e k="K" key="FWA_SortieNeedsOpenMap"><s>{0} can only fly to a colony, a site or a faction base, not an empty tile.</s><r>{0} может лететь только в колонию, на территорию или на базу фракции, а не на пустую клетку.</r></e>
+  <e k="K" key="FWA_SortieNoTargets"><s>No map is open to strike. Send a caravan to attack a site or accept a quest first.</s><r>Ни одна карта не открыта для удара. Отправьте караван атаковать объект или сначала примите квест.</r></e>
+  <e k="K" key="FWA_SortieNotEnoughFuel"><s>{0} needs {1} fuel for this sortie (there and back, a minute over the target and a 10% reserve) and has {2}.</s><r>{0} необходимо {1} топлива для этого вылета (туда и обратно, минута превышения цели и 10% запас) и имеет {2}.</r></e>
+  <e k="K" key="FWA_SortieOnlyStrike"><s>A sortie strikes a site, not a colony. To fly {0} to a colony, use Launch to World Map.</s><r>Вылазка поражает объект, а не колонию. Чтобы перелететь {0} в колонию, используйте «Запуск на карту мира».</r></e>
+  <e k="K" key="FWA_StrafeRunDesc"><s>Strafe a box with the {0}. Press where the run starts and drag north, east, south or west for the way to fly through it ({1} × {2} cells); Q and E turn it; a plain click takes the side nearest the aircraft's approach. The aircraft positions itself, lines up, then sweeps a long burst down the length of the box before circling it. Each pass uses a lot of ammunition. Colonists and buildings in the box are marked in yellow but don't stop the run. Not under mountain roofs.</s><r>Обстреляйте коробку с помощью {0}. Нажмите на место начала забега и перетащите его на север, восток, юг или запад, чтобы пролететь через него (ячейки {1} × {2}); Q и E поворачивают его; простой щелчок выбирает сторону, ближайшую к самолету. Самолет занимает позицию, выстраивается в линию, затем производит длинную очередь по всей длине ящика, прежде чем облететь его. На каждый проход расходуется много боеприпасов. Колонисты и здания в поле отмечены желтым, но не останавливают бег. Не под горными крышами.</r></e>
+  <e k="K" key="FWA_StrafeRunLabel"><s>Strafe</s><r>Стрейф</r></e>
+  <e k="K" key="FWA_TakeOffDesc"><s>Start the aircraft and enter flight mode.</s><r>Запустите дрон и войдите в режим полета.</r></e>
+  <e k="K" key="FWA_TakeOffLabel"><s>Take off</s><r>Снимать</r></e>
+  <e k="K" key="FWA_TakeoffPointInspect"><s>Take-off point: aircraft line up here facing {0}.</s><r>Точка взлета: здесь выстраиваются самолеты лицом к {0}.</r></e>
+  <e k="K" key="FWA_TurnDesc"><s>Turn the parked aircraft in place to the next heading (north, east, south or west) to line up on a runway. Left-click turns clockwise, right-click counter-clockwise.</s><r>Поверните припаркованный самолет на месте в следующем направлении (север, восток, юг или запад), чтобы выровняться на взлетно-посадочной полосе. Щелчок левой кнопкой мыши поворачивается по часовой стрелке, щелчок правой кнопкой мыши — против часовой стрелки.</r></e>
+  <e k="K" key="FWA_TurnLabel"><s>Turn 90°</s><r>Поворот на 90°</r></e>
+  <e k="K" key="FWA_WeaponTargetSet"><s>{0}: weapon target set.</s><r>{0}: набор целей для оружия.</r></e>
+  <e k="K" key="Harrier_AboardVehicle"><s>aboard {VEHICLE}</s><r>на борту {VEHICLE}</r></e>
+  <e k="K" key="Harrier_AirAttackTarget"><s>Chase {0} and fire at it</s><r>Преследуйте {0} и стреляйте в него.</r></e>
+  <e k="K" key="Harrier_AirGunEmpty"><s>{0}: autocannon empty or unmanned. Breaking off the air attack.</s><r>{0}: автопушка пустая или беспилотная. Отражение воздушной атаки.</r></e>
+  <e k="K" key="Harrier_AirTargetGone"><s>{0}: {1} is down. Breaking off.</s><r>{0}: {1} не работает. Разрыв.</r></e>
+  <e k="K" key="Harrier_AirTargetLanded"><s>{0}: {1} has landed. Breaking off the air attack.</s><r>{0}: {1} приземлился. Отражение воздушной атаки.</r></e>
+  <e k="K" key="Harrier_BombCookingOff"><s>A {0} is cooking off and about to explode!</s><r>{0} готовится и вот-вот взорвется!</r></e>
+  <e k="K" key="Harrier_BombWick"><s>Cooking off: about to explode!</s><r>Готовим: вот-вот взорвусь!</r></e>
+  <e k="K" key="Harrier_CancelVerticalLandingDesc"><s>Call off the vertical landing and keep flying.</s><r>Отмените вертикальную посадку и продолжайте полет.</r></e>
+  <e k="K" key="Harrier_CancelVerticalLandingLabel"><s>Cancel vertical landing</s><r>Отменить вертикальную посадку</r></e>
+  <e k="K" key="Harrier_ChemicalWeaponsUsed"><s>Banned chemical weapons used: goodwill -1 with {COUNT} factions.</s><r>Использовано запрещенное химическое оружие: доброжелательность -1 при {COUNT} фракциях.</r></e>
+  <e k="K" key="Harrier_CockpitCrash"><s>{0}'s cockpit was destroyed with nowhere to land, and it crashed.</s><r>Кабина {0} была разрушена, приземлиться было некуда, и он разбился.</r></e>
+  <e k="K" key="Harrier_CockpitCrashLanding"><s>{0}'s cockpit was destroyed: it crash-landed.</s><r>Кабина {0} была разрушена: он совершил аварийную посадку.</r></e>
+  <e k="K" key="Harrier_CockpitDestroyed"><s>The cockpit is destroyed. Repair it first.</s><r>Кабина разрушена. Сначала отремонтируйте его.</r></e>
+  <e k="K" key="Harrier_CookOffExploded"><s>{0} has exploded.</s><r>{0} взорвался.</r></e>
+  <e k="K" key="Harrier_CookOffStarted"><s>{0}'s airframe is breaking up and on fire. It is going to explode!</s><r>Планер {0} разваливается и горит. Он собирается взорваться!</r></e>
+  <e k="K" key="Harrier_EngineCrash"><s>{0} lost its engine with nowhere to land, and crashed.</s><r>{0} потерял двигатель, некуда приземлиться, и разбился.</r></e>
+  <e k="K" key="Harrier_EngineLostLanding"><s>{0} has lost its engine and made an emergency landing.</s><r>{0} потерял двигатель и совершил вынужденную посадку.</r></e>
+  <e k="K" key="Harrier_EngineTooDamagedToHover"><s>Engine below {0}%: can't hover.</s><r>Двигатель ниже {0}%: зависание невозможно.</r></e>
+  <e k="K" key="Harrier_HoverAbortedBlocked"><s>{0}: landing spot blocked.</s><r>{0}: место приземления заблокировано.</r></e>
+  <e k="K" key="Harrier_HoverAbortedEngine"><s>{0}: engine too weak to hover. Landing called off.</s><r>{0}: двигатель слишком слаб для зависания. Посадка отменена.</r></e>
+  <e k="K" key="Harrier_LandElsewhereDesc"><s>Pick a different landing spot. Possible until the aircraft turns onto its final approach.</s><r>Выберите другое место для посадки. Возможно до тех пор, пока самолет не развернется на конечном этапе захода на посадку.</r></e>
+  <e k="K" key="Harrier_LandElsewhereLabel"><s>Land elsewhere</s><r>Земля в другом месте</r></e>
+  <e k="K" key="Harrier_LandingFreeSpot"><s>{0}: no runway, so landing vertically on a free parking spot (now assigned to it).</s><r>{0}: взлетно-посадочной полосы нет, поэтому приземляемся вертикально на свободное парковочное место (теперь закрепленное за ним).</r></e>
+  <e k="K" key="Harrier_LandingTooLate"><s>{0}: on final approach, too late to change the landing spot.</s><r>{0}: на конечном этапе захода на посадку слишком поздно менять точку приземления.</r></e>
+  <e k="K" key="Harrier_NoPlantsOnPad"><s>Nothing grows on a parking pad.</s><r>На парковочной площадке ничего не растет.</r></e>
+  <e k="K" key="Harrier_NodeResearch"><s>Research needed: {0}.</s><r>Необходимое исследование: {0}.</r></e>
+  <e k="K" key="Harrier_PadNumber"><s>Pad number: {0}</s><r>Номер площадки: {0}</r></e>
+  <e k="K" key="Harrier_PadTooClose"><s>Too close to another parking pad.</s><r>Слишком близко к другой парковочной площадке.</r></e>
+  <e k="K" key="Harrier_PilotLost"><s>{0} has lost its pilot and is going down.</s><r>{0} потерял пилота и идет ко дну.</r></e>
+  <e k="K" key="Harrier_PilotLostCrash"><s>{0} has crashed and exploded.</s><r>{0} разбился и взорвался.</r></e>
+  <e k="K" key="Harrier_ReportBoundFor"><s>flying to {PLACE}.</s><r>летим в {PLACE}.</r></e>
+  <e k="K" key="Harrier_ReportLeaving"><s>leaving the area.</s><r>покидая территорию.</r></e>
+  <e k="K" key="Harrier_ReportReturning"><s>returning to base at {PLACE}.</s><r>возвращаемся на базу в {PLACE}.</r></e>
+  <e k="K" key="Harrier_ReportRun"><s>attacking with {WEAPON}.</s><r>атакуя с помощью {WEAPON}.</r></e>
+  <e k="K" key="Harrier_ReportRunLiningUp"><s>lining up an attack run with {WEAPON}.</s><r>выстраивая атаку с помощью {WEAPON}.</r></e>
+  <e k="K" key="Harrier_ReportRunLiningUpOn"><s>lining up an attack on {TARGET} with {WEAPON}.</s><r>совмещая атаку на {TARGET} с {WEAPON}.</r></e>
+  <e k="K" key="Harrier_ReportRunOn"><s>attacking {TARGET} with {WEAPON}.</s><r>атакуя {TARGET} с помощью {WEAPON}.</r></e>
+  <e k="K" key="Harrier_ReportRunWeaponUnknown"><s>its weapons</s><r>его оружие</r></e>
+  <e k="K" key="Harrier_ReturnVertical"><s>{0}: landing at parking spot.</s><r>{0}: приземление на парковочном месте.</r></e>
+  <e k="K" key="Harrier_RoughLandingEngine"><s>{0}: engine wrecked in the rough landing. Repair it before taxiing.</s><r>{0}: двигатель сломался при грубой посадке. Отремонтируйте его перед рулением.</r></e>
+  <e k="K" key="Harrier_StrafeCellsSkipped"><s>{0} cells under a mountain roof or off the map (red) will be skipped</s><r>{0} ячейки под крышей горы или за пределами карты (красный) будут пропущены</r></e>
+  <e k="K" key="Harrier_StrafeNeedsTarget"><s>Pick a target for the strafe run: a raider, animal, vehicle or building. Bare ground can't be strafed.</s><r>Выберите цель для обстрела: рейдер, животное, транспортное средство или здание. Голую землю обстреливать невозможно.</r></e>
+  <e k="K" key="Harrier_StrafeTarget"><s>Strafe {0}</s><r>Стрейф {0}</r></e>
+  <e k="K" key="Harrier_StrafeTargetRoofed"><s>{0} is under a mountain roof: the guns can't reach it.</s><r>{0} находится под крышей горы: орудия не могут до него добраться.</r></e>
+  <e k="K" key="Harrier_TakeoffNumber"><s>Runway number: {0}</s><r>Номер взлетно-посадочной полосы: {0}</r></e>
+  <e k="K" key="Harrier_TakeoffTooClose"><s>Too close to another take-off point.</s><r>Слишком близко к другой точке взлета.</r></e>
+  <e k="K" key="Harrier_VerticalLandingDesc"><s>Place the landing spot and turn it with the rotate keys, or click and drag to face it. The Harrier flies there, slows into a hover and lands vertically: no runway needed, only open, unroofed ground its footprint fits. Once down it taxis to its parking spot, if it has one. Not available with the engine below 40%.</s><r>Разместите точку приземления и поверните ее с помощью клавиш поворота или щелкните и перетащите лицом к ней. «Харриер» летит туда, замедляется и приземляется вертикально: взлетно-посадочная полоса не нужна, только открытая, некрытая земля, по размеру которой он подходит. Спустившись вниз, он подруливает к месту парковки, если оно есть. Недоступно при мощности двигателя ниже 40%.</r></e>
+  <e k="K" key="Harrier_VerticalLandingLabel"><s>Vertical landing</s><r>Вертикальная посадка</r></e>
+</AutoTranslateCache>
