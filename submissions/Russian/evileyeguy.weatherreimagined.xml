@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="evileyeguy.weatherreimagined" name="Weather Reimagined" language="Russian" version="1">
+  <e k="D" t="JobDef" key="WR_BreakIce.reportString"><s>breaking ice.</s><r>ломая лед.</r></e>
+  <e k="D" t="TerrainDef" key="WR_Ice.description"><s>A frozen layer over shallow water. It thaws when it gets warmer.</s><r>Замерзший слой на мелководье. Он тает, когда становится теплее.</r></e>
+  <e k="D" t="TerrainDef" key="WR_Ice.label"><s>ice</s><r>лед</r></e>
+  <e k="D" t="TerrainDef" key="WR_IceDeep.description"><s>A frozen layer over deep water. It thaws when it gets warmer.</s><r>Замерзший слой над глубокой водой. Он тает, когда становится теплее.</r></e>
+  <e k="D" t="TerrainDef" key="WR_IceDeep.label"><s>ice</s><r>лед</r></e>
+  <e k="D" t="WorkGiverDef" key="WR_BreakIce.gerund"><s>breaking ice at</s><r>ломать лед в</r></e>
+  <e k="D" t="WorkGiverDef" key="WR_BreakIce.label"><s>break ice</s><r>сломать лед</r></e>
+  <e k="D" t="WorkGiverDef" key="WR_BreakIce.verb"><s>break ice</s><r>сломать лед</r></e>
+  <e k="K" key="LivingFire_ModName"><s>Weather Reimagined</s><r>Переосмысление погоды</r></e>
+  <e k="K" key="LivingFire_Style"><s>Flame style</s><r>Стиль пламени</r></e>
+  <e k="K" key="LivingFire_StyleMix"><s>Style 2</s><r>Стиль 2</r></e>
+  <e k="K" key="LivingFire_StyleMixTip"><s>Clear color bands with a soft edge and a dark rim.</s><r>Прозрачные цветные полосы с мягким краем и темным ободком.</r></e>
+  <e k="K" key="LivingFire_StyleRealistic"><s>Style 3</s><r>Стиль 3</r></e>
+  <e k="K" key="LivingFire_StyleRealisticTip"><s>Soft, flickering flames with glowing color gradients.</s><r>Мягкое, мерцающее пламя со светящимися цветовыми градиентами.</r></e>
+  <e k="K" key="LivingFire_StyleSimple"><s>Style 1</s><r>Стиль 1</r></e>
+  <e k="K" key="LivingFire_StyleSimpleTip"><s>Flat flames in three colors with clean outlines, close to the vanilla art style.</s><r>Плоское пламя трех цветов с чистыми очертаниями, близкое к стилю ванильного искусства.</r></e>
+  <e k="K" key="LivingFire_StyleVanilla"><s>Vanilla</s><r>Ваниль</r></e>
+  <e k="K" key="LivingFire_StyleVanillaTip"><s>The original RimWorld fire, unchanged.</s><r>Оригинальный огонь RimWorld, без изменений.</r></e>
+  <e k="K" key="WR_Animation"><s>Fire animation</s><r>Огненная анимация</r></e>
+  <e k="K" key="WR_AnimationDesc"><s>Frames per flame: 8, 12 or 16. Fewer frames flicker more coarsely and need less memory.</s><r>Кадров на пламя: 8, 12 или 16. Меньшее количество кадров мерцает более грубо и требует меньше памяти.</r></e>
+  <e k="K" key="WR_Aurora"><s>Aurora</s><r>Аврора</r></e>
+  <e k="K" key="WR_Blizzard"><s>Blizzard</s><r>Метель</r></e>
+  <e k="K" key="WR_BloodRain"><s>Blood rain</s><r>Кровавый дождь</r></e>
+  <e k="K" key="WR_BreakIce"><s>Break ice</s><r>Разбить лед</r></e>
+  <e k="K" key="WR_BreakIceDesc"><s>Designate ice to be broken up, opening the water beneath it again.</s><r>Назначьте лед, который нужно разбить, снова открыв воду под ним.</r></e>
+  <e k="K" key="WR_BreakIceNeedsIce"><s>Must be designated on ice.</s><r>Должен быть обозначен на льду.</r></e>
+  <e k="K" key="WR_BurningPawns"><s>Burning pawns</s><r>Горящие пешки</r></e>
+  <e k="K" key="WR_Busy"><s>Weather Reimagined: {0}</s><r>Переосмысление погоды: {0}</r></e>
+  <e k="K" key="WR_Busy_Flames"><s>preparing flames</s><r>подготовка пламени</r></e>
+  <e k="K" key="WR_Busy_Shadows"><s>preparing shadows</s><r>готовим тени</r></e>
+  <e k="K" key="WR_Busy_Snow"><s>preparing snow for plants</s><r>подготовка снега для растений</r></e>
+  <e k="K" key="WR_Cache"><s>Cache</s><r>Кэш</r></e>
+  <e k="K" key="WR_CacheClear"><s>Clear cache</s><r>Очистить кеш</r></e>
+  <e k="K" key="WR_CacheDesc"><s>Finished textures are kept on disk and load faster on the next start.</s><r>Готовые текстуры сохраняются на диске и при следующем запуске загружаются быстрее.</r></e>
+  <e k="K" key="WR_CacheLimit"><s>At most</s><r>Максимум</r></e>
+  <e k="K" key="WR_CacheLimitDesc"><s>If the cache grows larger, the oldest textures are dropped. At least 64 MB. After a complete pregeneration the limit is raised so that everything is kept.</s><r>Если кэш увеличивается, самые старые текстуры удаляются. Не менее 64 МБ. После полной предварительной генерации предел повышается, чтобы все сохранилось.</r></e>
+  <e k="K" key="WR_CacheLimitUnit"><s>MB</s><r>МБ</r></e>
+  <e k="K" key="WR_CacheSize"><s>Cache: {0} MB</s><r>Кэш: {0} МБ</r></e>
+  <e k="K" key="WR_ChangeRebuilds"><s>A change recalculates snow and flames. This can take a few seconds.</s><r>Изменение пересчитывает снег и пламя. Это может занять несколько секунд.</r></e>
+  <e k="K" key="WR_CompatDesc"><s>Listed are the effects that an active mod draws as well. By default both are shown. Without the tick at Weather Reimagined, the original weather of the game is drawn instead. Without the tick at the other mod, its effect is switched off during this weather.</s><r>Перечислены эффекты, которые также рисует активный мод. По умолчанию отображаются оба. Без галочки в Weather Reimagined вместо нее рисуется исходная погода в игре. Без галочки на другом моде его эффект в такую ​​погоду отключается.</r></e>
+  <e k="K" key="WR_CompatFogBanks"><s>Pooling fog</s><r>Объединение тумана</r></e>
+  <e k="K" key="WR_CompatLightning"><s>Lightning effects</s><r>Эффекты молнии</r></e>
+  <e k="K" key="WR_CompatNone"><s>No active mod draws the same weather effects.</s><r>Ни один активный мод не создает таких же погодных эффектов.</r></e>
+  <e k="K" key="WR_CompatOwn"><s>Weather Reimagined</s><r>Переосмысление погоды</r></e>
+  <e k="K" key="WR_CompatRainSplash"><s>Raindrop splashes</s><r>Брызги дождя</r></e>
+  <e k="K" key="WR_CompatShadows"><s>Shadows</s><r>Тени</r></e>
+  <e k="K" key="WR_CompatShadowsDesc"><s>Weather Reimagined and {0} both draw shadows. Only the chosen mod draws the shadows of buildings, trees, plants and pawns. The position of the sun and the light of {0} are kept either way.</s><r>Weather Reimagined и {0} рисуют тени. Только выбранный мод рисует тени зданий, деревьев, растений и пешек. Положение солнца и свет {0} сохраняются в любом случае.</r></e>
+  <e k="K" key="WR_CompatSnowflakes"><s>Snowflakes</s><r>Снежинки</r></e>
+  <e k="K" key="WR_CompatTitle"><s>Effects that other mods draw as well</s><r>Эффекты, которые рисуют и другие моды</r></e>
+  <e k="K" key="WR_Custom"><s>Custom</s><r>Обычай</r></e>
+  <e k="K" key="WR_FirstStartCancel"><s>Cancel</s><r>Отмена</r></e>
+  <e k="K" key="WR_FirstStartDone"><s>Done. All textures are in the cache.</s><r>Сделанный. Все текстуры находятся в кеше.</r></e>
+  <e k="K" key="WR_FirstStartLater"><s>You can cancel at any time. Missing textures are created at the next game start or in the mod settings under General. Finished textures are kept.</s><r>Вы можете отменить подписку в любое время. Недостающие текстуры создаются при следующем запуске игры или в настройках мода в разделе «Общие». Готовые текстуры сохраняются.</r></e>
+  <e k="K" key="WR_FirstStartRemaining"><s>about {0} min left</s><r>осталось около {0} минуты</r></e>
+  <e k="K" key="WR_FirstStartText"><s>Snow textures and flames for plants are created once and stored. Everything else is created in game and kept as well.</s><r>Текстуры снега и пламя для растений создаются один раз и сохраняются. Все остальное создается в игре и также сохраняется.</r></e>
+  <e k="K" key="WR_FirstStartTitle"><s>Weather Reimagined: preparing textures</s><r>Weather Reimagined: подготовка текстур</r></e>
+  <e k="K" key="WR_FlameFrames"><s>Animation length</s><r>Длина анимации</r></e>
+  <e k="K" key="WR_FlameFramesDesc"><s>Frames per flame. 12 frames repeat every 0.7 s, 24 every 1.4 s, 48 every 2.7 s. More frames need more memory, and after a change all flames are prepared again, which takes noticeably longer at the next start.</s><r>Кадров на пламя. 12 кадров повторяются каждые 0,7 с, 24 — каждые 1,4 с, 48 — каждые 2,7 с. Большему количеству кадров требуется больше памяти, и после изменения все пламя подготавливается заново, что при следующем запуске занимает заметно больше времени.</r></e>
+  <e k="K" key="WR_FlameQuality"><s>Flame quality</s><r>Качество пламени</r></e>
+  <e k="K" key="WR_FlameQualityDesc"><s>Low: one simple flame, scaled to the size of the object. Medium: own flame shape for trees and walls. High: own flame shape for everything, uses the most memory. Hearths and torches are not affected.</s><r>Низкий: одно простое пламя, масштабированное по размеру объекта. Средний: собственная форма пламени для деревьев и стен. Высокий: собственная форма пламени для всего, использует больше всего памяти. Очаги и факелы не затрагиваются.</r></e>
+  <e k="K" key="WR_FlameResolution"><s>Flame resolution</s><r>Разрешение пламени</r></e>
+  <e k="K" key="WR_FlameResolutionDesc"><s>Sharpness of the flames. A burning tree is drawn at about 64, 128 or 256 pixels. Each level up needs about four times the memory.</s><r>Острота пламени. Горящее дерево рисуется размером примерно 64, 128 или 256 пикселей. Для каждого повышения уровня требуется примерно в четыре раза больше памяти.</r></e>
+  <e k="K" key="WR_FlamesOffDesc"><s>Off means these flames look like vanilla again. Fires on the ground, on trees and on buildings stay new.</s><r>Выключение означает, что пламя снова выглядит как ваниль. Пожары на земле, деревьях и зданиях остаются новыми.</r></e>
+  <e k="K" key="WR_FlamesWhere"><s>Where flames are redrawn</s><r>Где пламя перерисовывается</r></e>
+  <e k="K" key="WR_Fog"><s>Fog</s><r>Туман</r></e>
+  <e k="K" key="WR_FogDensity"><s>Fog density</s><r>Плотность тумана</r></e>
+  <e k="K" key="WR_FogNote"><s>Under RimWorld 1.7, vanilla shows nothing for fog and hazes. Switched off, no fog is visible there at all.</s><r>В RimWorld 1.7 ваниль ничего не показывает в отношении тумана и дымки. В выключенном состоянии тумана там вообще не видно.</r></e>
+  <e k="K" key="WR_FreezingWater"><s>Freezing water</s><r>Замерзающая вода</r></e>
+  <e k="K" key="WR_FreezingWaterDesc"><s>In frost, lakes and shallow and deep water freeze from the shore, rivers and the sea only in places along the shore. Ice can be walked on. Under Orders it can be removed with &quot;Break ice&quot;, with Medieval Overhaul this yields ice blocks. Off means no new ice forms, existing ice thaws normally.</s><r>В мороз озера, мелководье и глубоководье замерзают у берега, реки и море лишь местами вдоль берега. По льду можно ходить. По приказу его можно удалить с помощью «Разбить лед», при использовании «Средневековного капитального ремонта» можно получить ледяные глыбы. Выключение означает, что новый лед не образуется, существующий лед тает нормально.</r></e>
+  <e k="K" key="WR_Graphics"><s>Graphics</s><r>Графика</r></e>
+  <e k="K" key="WR_GraphicsDesc"><s>Sets snow quality, flame resolution, flame quality and fire animation together. Custom: the values below match no level. Processing power, weather density and the on/off switches are not changed.</s><r>Устанавливает качество снега, разрешение пламени, качество пламени и анимацию огня. Пользовательский: значения ниже не соответствуют ни одному уровню. Мощность обработки, плотность погоды и переключатели включения/выключения не изменяются.</r></e>
+  <e k="K" key="WR_GroupFog"><s>Fog and haze</s><r>Туман и дымка</r></e>
+  <e k="K" key="WR_GroupRain"><s>Rain</s><r>Дождь</r></e>
+  <e k="K" key="WR_GroupSky"><s>Sky</s><r>Небо</r></e>
+  <e k="K" key="WR_GroupSnow"><s>Snow</s><r>Снег</r></e>
+  <e k="K" key="WR_GroupStorm"><s>Thunderstorm</s><r>Гроза</r></e>
+  <e k="K" key="WR_HideIndoorWeather"><s>Hide weather under roofs</s><r>Скрыть погоду под крышами</r></e>
+  <e k="K" key="WR_HideIndoorWeatherDesc"><s>On: rain, snow and fog no longer show under built roofs and eaves. Off: the weather shows everywhere. Under mountains only with the option below.</s><r>Включено: дождь, снег и туман больше не видны под построенными крышами и карнизами. Выкл: погода показывает везде. Под горами только с опцией ниже.</r></e>
+  <e k="K" key="WR_HideWeatherMountains"><s>Also under mountains</s><r>Также под горами</r></e>
+  <e k="K" key="WR_HideWeatherMountainsDesc"><s>On: the weather is also hidden under mountain roofs, for example in bases dug into a mountain.</s><r>Вкл.: погода также спрятана под горными крышами, например на базах, врытых в гору.</r></e>
+  <e k="K" key="WR_High"><s>High</s><r>Высокий</r></e>
+  <e k="K" key="WR_Lightning"><s>Lightning</s><r>Молния</r></e>
+  <e k="K" key="WR_Low"><s>Low</s><r>Низкий</r></e>
+  <e k="K" key="WR_Medium"><s>Medium</s><r>Середина</r></e>
+  <e k="K" key="WR_NewsClose"><s>Got it</s><r>Понятно</r></e>
+  <e k="K" key="WR_NewsSettings"><s>Open mod settings</s><r>Открыть настройки мода</r></e>
+  <e k="K" key="WR_NewsShow"><s>Show latest news</s><r>Показать последние новости</r></e>
+  <e k="K" key="WR_NewsTitle"><s>Weather Reimagined: News</s><r>Переосмысление погоды: Новости</r></e>
+  <e k="K" key="WR_News_1"><s>Shadows under a roof
+Pawns and animals now cast shadows under a roof as well. Indoors the shadow comes from the nearest light source and is weaker than outdoors. Furniture and buildings cast no shadow indoors.
+The option &quot;Pawns and animals cast shadows indoors&quot; is switched on by default and can be switched off in the mod settings.
+
+Fog
+During fog no shadows are drawn, also not around light sources.
+
+Shadow settings
+Shadows have their own tab &quot;Shadows&quot; in the mod settings. There it can be set separately what casts a shadow: trees, bushes, objects, items, pawns, animals and torches at night. The length of tree shadows can be set with a slider.
+
+Combat Extended
+Snow on plants is now compatible with Combat Extended. The error that kept pawns from moving on snowy maps is fixed.</s><r>Тени под крышей
+Пешки и животные теперь отбрасывают тени и под крышей. В помещении тень исходит от ближайшего источника света и слабее, чем на улице. Мебель и здания не отбрасывают тени в помещении.
+Опция «Пешки и животные отбрасывают тени в помещении» включена по умолчанию и может быть отключена в настройках мода.
+
+Туман
+Во время тумана тени не отрисовываются, в том числе вокруг источников света.
+
+Настройки теней
+Тени имеют свою вкладку &quot;Тени&quot; в настройках мода. Там можно отдельно задать то, что отбрасывает тень: деревья, кусты, предметы, предметы, пешки, животные и факелы ночью. Длину теней деревьев можно установить с помощью ползунка.
+
+Combat Extended
+Снег на растениях теперь совместим с Combat Extended. Исправлена ​​ошибка, из-за которой пешки не могли двигаться на заснеженных картах.</r></e>
+  <e k="K" key="WR_OtherHaze"><s>Other hazes</s><r>Другие дымки</r></e>
+  <e k="K" key="WR_OtherHazeDesc"><s>Blood fog, death pall, ash pall, blind fog, sandstorm</s><r>Кровавый туман, смертельный покров, пепельный покров, слепой туман, песчаная буря</r></e>
+  <e k="K" key="WR_Pregen"><s>Pregenerate textures</s><r>Предварительная генерация текстур</r></e>
+  <e k="K" key="WR_PregenCancel"><s>Cancel</s><r>Отмена</r></e>
+  <e k="K" key="WR_PregenDesc"><s>Generates the snow and flames for all plants now. Takes about a minute and keeps running when the window is closed. You can cancel at any time: missing textures are then created in game when they are needed.</s><r>Теперь генерирует снег и пламя для всех растений. Занимает около минуты и продолжает работать, даже когда окно закрыто. Вы можете отменить действие в любой момент: недостающие текстуры будут созданы в игре, когда они потребуются.</r></e>
+  <e k="K" key="WR_PrepareMap"><s>Prepare the map while loading</s><r>Подготовьте карту при загрузке</r></e>
+  <e k="K" key="WR_PrepareMapDesc"><s>After loading a save, the loading screen stays up until snow on trees, bushes, items and eaves and the shadow shapes are ready, so nothing pops in afterwards. Takes a few seconds on large snowy maps.</s><r>После загрузки сохранения экран загрузки остается включенным до тех пор, пока на деревьях, кустах, предметах и ​​карнизах не выпадет снег, а формы теней не будут готовы, поэтому после этого ничего не появляется. На больших заснеженных картах занимает несколько секунд.</r></e>
+  <e k="K" key="WR_PreparingMap"><s>Weather Reimagined: preparing the map</s><r>Переосмысление погоды: подготовка карты</r></e>
+  <e k="K" key="WR_PreparingMapProgress"><s>Weather Reimagined: preparing snow and shadows on the map ({0} / {1})</s><r>Weather Reimagined: подготовка снега и теней на карте ({0} / {1})</r></e>
+  <e k="K" key="WR_PreviewDesc"><s>The preview shows real flames from the game. Click a picture to choose the style.</s><r>В превью показано настоящее пламя из игры. Нажмите на картинку, чтобы выбрать стиль.</r></e>
+  <e k="K" key="WR_ProgressBar"><s>Progress bar</s><r>Индикатор выполнения</r></e>
+  <e k="K" key="WR_ProgressBarDesc"><s>Shows a small bar at the top of the screen while Weather Reimagined prepares snow, flames or shadows in the background. The game keeps running either way.</s><r>Показывает небольшую полосу в верхней части экрана, в то время как Weather Reimagined готовит снег, пламя или тени на заднем плане. Игра продолжает работать в любом случае.</r></e>
+  <e k="K" key="WR_ProgressBarShow"><s>Show progress bar</s><r>Показать индикатор выполнения</r></e>
+  <e k="K" key="WR_Quality"><s>Quality</s><r>Качество</r></e>
+  <e k="K" key="WR_Rain"><s>Rain</s><r>Дождь</r></e>
+  <e k="K" key="WR_RemoveIce"><s>Remove ice now</s><r>Удалить лед сейчас</r></e>
+  <e k="K" key="WR_RemoveIceDesc"><s>Turns all ice made by this mod back into water on every map. Use this before removing the mod, otherwise the ice turns into soil.</s><r>Превращает весь лед, созданный этим модом, обратно в воду на каждой карте. Используйте это перед удалением мода, иначе лед превратится в почву.</r></e>
+  <e k="K" key="WR_ResetTab"><s>Reset to default</s><r>Сбросить настройки по умолчанию</r></e>
+  <e k="K" key="WR_ShadowAnimals"><s>Animals cast shadows</s><r>Животные отбрасывают тени</r></e>
+  <e k="K" key="WR_ShadowBushes"><s>Bushes cast shadows</s><r>Кусты отбрасывают тени</r></e>
+  <e k="K" key="WR_ShadowIndoors"><s>Pawns and animals cast shadows indoors</s><r>Пешки и животные отбрасывают тени в помещении</r></e>
+  <e k="K" key="WR_ShadowItems"><s>Items cast shadows</s><r>Предметы отбрасывают тени</r></e>
+  <e k="K" key="WR_ShadowObjects"><s>Objects cast shadows</s><r>Предметы отбрасывают тени</r></e>
+  <e k="K" key="WR_ShadowPawns"><s>Pawns cast shadows</s><r>Пешки отбрасывают тени</r></e>
+  <e k="K" key="WR_ShadowTorches"><s>Torches cast shadows at night</s><r>Факелы отбрасывают тени ночью</r></e>
+  <e k="K" key="WR_ShadowTrees"><s>Trees cast shadows</s><r>Деревья отбрасывают тени</r></e>
+  <e k="K" key="WR_ShadowsHandedOver"><s>The shadows are drawn by {0}. The settings on this page take effect again when Weather Reimagined is chosen for the shadows on the Compatibility page.</s><r>Тени рисуются {0}. Настройки на этой странице снова вступают в силу, когда для теней на странице совместимости выбран вариант Weather Reimagined.</r></e>
+  <e k="K" key="WR_SnowBuildings"><s>Furniture and buildings</s><r>Мебель и здания</r></e>
+  <e k="K" key="WR_SnowBushes"><s>Bushes and flowers</s><r>Кусты и цветы</r></e>
+  <e k="K" key="WR_SnowEaves"><s>Eaves</s><r>Карнизы</r></e>
+  <e k="K" key="WR_SnowGentle"><s>Light snow</s><r>Легкий снег</r></e>
+  <e k="K" key="WR_SnowHard"><s>Heavy snow</s><r>Сильный снегопад</r></e>
+  <e k="K" key="WR_SnowItems"><s>Items on the ground</s><r>Предметы на земле</r></e>
+  <e k="K" key="WR_SnowLowLater"><s>Snow has no low setting yet.</s><r>У снега еще нет низких настроек.</r></e>
+  <e k="K" key="WR_SnowOffDesc"><s>Off means snow looks like vanilla there again. How much snow falls and stays never changes.</s><r>Выкл. означает, что снег снова выглядит как ваниль. Сколько снега выпадает и остается, никогда не меняется.</r></e>
+  <e k="K" key="WR_SnowOn"><s>Snow lies on</s><r>Снег лежит на</r></e>
+  <e k="K" key="WR_SnowQuality"><s>Snow quality</s><r>Качество снега</r></e>
+  <e k="K" key="WR_SnowQualityDesc"><s>Sharpness of snow and eaves. Snow on a tree: 256, 512 or 1024 pixels, on smaller things 128, 256 or 512. Each level up needs about four times the video memory.</s><r>Резкость снега и карниза. Снег на дереве: 256, 512 или 1024 пикселей, на меньших объектах 128, 256 или 512. На каждый уровень требуется примерно в четыре раза больше видеопамяти.</r></e>
+  <e k="K" key="WR_SnowRefresh"><s>Snow refresh</s><r>Обновление снега</r></e>
+  <e k="K" key="WR_SnowRefreshDesc"><s>How often snow on plants, things and eaves visibly adjusts while it snows or thaws. Vanilla updates constantly. Higher values save a lot of FPS while thawing and in large colonies, but the snow changes in small steps. Ground snow stays smooth.</s><r>Как часто снег на растениях, вещах и карнизах заметно выравнивается, пока идет снег или тает. Ванилла постоянно обновляется. Более высокие значения экономят много FPS при оттаивании и в больших колониях, но снег меняется небольшими шагами. Земляной снег остается гладким.</r></e>
+  <e k="K" key="WR_SnowRefreshValue"><s>every {0} s</s><r>каждые {0} с</r></e>
+  <e k="K" key="WR_SnowRefreshVanilla"><s>Vanilla (instant)</s><r>Ваниль (растворимая)</r></e>
+  <e k="K" key="WR_SnowShader"><s>Snow on trees via shader (faster)</s><r>Снег на деревьях через шейдер (быстрее)</r></e>
+  <e k="K" key="WR_SnowStages"><s>Snow stages</s><r>Снежные этапы</r></e>
+  <e k="K" key="WR_SnowStagesDesc"><s>How many steps the snow has until it lies fully: 2 to 5. The stages follow the game's snow display; with 5 stages: trace, thin, medium, thick, full, at 10 %, 33 %, 55 %, 78 % and 100 % snow. Only for trees and eaves, not for bushes, furniture or items. More stages make the transition finer. For trees they cost cache and pregeneration time, 5 stages are about 1.7 times as many tree images as 3. Eaves cost no cache. New stages are created in game when needed.</s><r>Сколько шагов пройдет снег, пока он не ляжет полностью: от 2 до 5. Этапы соответствуют отображению снега в игре; с 5 ступенями: след, тонкий, средний, толстый, полный, при 10 %, 33 %, 55 %, 78 % и 100 % снега. Только для деревьев и карнизов, а не для кустов, мебели или предметов. Большее количество этапов делает переход более тонким. Для деревьев они требуют кэша и времени предварительной генерации, 5 этапов примерно в 1,7 раза больше изображений деревьев, чем 3. Карнизы не требуют кэша. Новые этапы создаются в игре по мере необходимости.</r></e>
+  <e k="K" key="WR_SnowStagesEaves"><s>Eaves</s><r>Карнизы</r></e>
+  <e k="K" key="WR_SnowStagesTrees"><s>Trees</s><r>Деревья</r></e>
+  <e k="K" key="WR_SnowStagesValue"><s>{0} stages</s><r>{0} этапы</r></e>
+  <e k="K" key="WR_SnowTrees"><s>Trees</s><r>Деревья</r></e>
+  <e k="K" key="WR_SnowWalls"><s>Ground snow up to walls</s><r>Земляной снег до стен</r></e>
+  <e k="K" key="WR_SoftShadows"><s>Soft shadows</s><r>Мягкие тени</r></e>
+  <e k="K" key="WR_StatusLine"><s>WR {0} / {1}</s><r>WR {0} / {1}</r></e>
+  <e k="K" key="WR_StatusLineDesc"><s>Shows a short line &quot;WR x / y&quot; at the bottom right, above the date and weather readout, while Weather Reimagined prepares snow, flames or shadows in the background. The colour tells what is being prepared, hover over it for details.</s><r>Показывает короткую строку «WR x / y» справа внизу, над датой и показаниями погоды, а Weather Reimagined готовит снег, пламя или тени на заднем плане. Цвет рассказывает, что готовится, наведите на него курсор, чтобы узнать подробности.</r></e>
+  <e k="K" key="WR_StatusLineShow"><s>Show status line</s><r>Показать строку состояния</r></e>
+  <e k="K" key="WR_StrengthDesc"><s>The slider sets how dense the weather is drawn: 25 to 200 %. Above 100 % a second layer is added. Gameplay does not change.</s><r>Ползунок задает плотность прорисовки погоды: от 25 до 200 %. Выше 100 % добавляется второй слой. Геймплей не меняется.</r></e>
+  <e k="K" key="WR_TabCompat"><s>Compatibility</s><r>Совместимость</r></e>
+  <e k="K" key="WR_TabFire"><s>Fire</s><r>Огонь</r></e>
+  <e k="K" key="WR_TabGeneral"><s>General</s><r>Общий</r></e>
+  <e k="K" key="WR_TabShadows"><s>Shadows</s><r>Тени</r></e>
+  <e k="K" key="WR_TabSnow"><s>Snow</s><r>Снег</r></e>
+  <e k="K" key="WR_TabWeather"><s>Weather</s><r>Погода</r></e>
+  <e k="K" key="WR_Torches"><s>Torches, stoves and fireplaces</s><r>Факелы, печи и камины</r></e>
+  <e k="K" key="WR_TorrentialRain"><s>Torrential rain</s><r>Проливной дождь</r></e>
+  <e k="K" key="WR_ToxRain"><s>Toxic rain</s><r>Токсичный дождь</r></e>
+  <e k="K" key="WR_TreeShadowLength"><s>Tree shadow length</s><r>Длина тени дерева</r></e>
+  <e k="K" key="WR_Weathers"><s>Redrawn weather</s><r>Перерисованная погода</r></e>
+  <e k="K" key="WR_Workers"><s>Processing power</s><r>Вычислительная мощность</r></e>
+  <e k="K" key="WR_WorkersDesc"><s>Background threads for snow and eaves. On this PC: {0}, {1} or {2}. More threads finish the snow faster.</s><r>Фоновые нитки для снега и карниза. На этом ПК: {0}, {1} или {2}. Чем больше нитей, тем быстрее достанется снег.</r></e>
+</AutoTranslateCache>
