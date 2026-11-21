@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="chaoticenrico.fogcolorchanger" name="Fog Color Changer" language="Russian" version="1">
+  <e k="K" key="FCC.AutomaticBlur"><s>Blur: {0} tiles</s><r>Размытие: {0} плиток</r></e>
+  <e k="K" key="FCC.AutomaticBlurTooltip"><s>Blend nearby block colors over a wider area. 0 disables spatial blur; higher values make transitions softer. Default: 2 tiles.</s><r>Смешайте цвета соседних блоков на более широкой области. 0 отключает пространственное размытие; более высокие значения делают переходы более мягкими. По умолчанию: 2 плитки.</r></e>
+  <e k="K" key="FCC.AutomaticBrightness"><s>Brightness multiplier: {0}x</s><r>Множитель яркости: {0}x</r></e>
+  <e k="K" key="FCC.AutomaticBrightnessTooltip"><s>Adjust the brightness of the automatically sampled color. 1x keeps it unchanged; higher values brighten it. Day and night lighting still applies. Default: 0.75x.</s><r>Отрегулируйте яркость автоматически выбранного цвета. 1x сохраняет его без изменений; более высокие значения делают его ярче. Дневное и ночное освещение по-прежнему применяется. По умолчанию: 0,75x.</r></e>
+  <e k="K" key="FCC.AutomaticSaturation"><s>Saturation multiplier: {0}x</s><r>Множитель насыщенности: {0}x</r></e>
+  <e k="K" key="FCC.AutomaticSaturationTooltip"><s>Adjust the saturation of the automatically sampled color. 1x keeps it unchanged; lower values make it greyer and higher values make it more colorful.</s><r>Отрегулируйте насыщенность автоматически выбранного цвета. 1x сохраняет его без изменений; более низкие значения делают его более серым, а более высокие значения делают его более красочным.</r></e>
+  <e k="K" key="FCC.Brightness"><s>Brightness: {0}</s><r>Яркость: {0}</r></e>
+  <e k="K" key="FCC.Hue"><s>Hue: {0}</s><r>Оттенок: {0}</r></e>
+  <e k="K" key="FCC.ModeAutomatic"><s>Automatic</s><r>Автоматический</r></e>
+  <e k="K" key="FCC.ModeLabel"><s>Fog color change:</s><r>Изменение цвета тумана:</r></e>
+  <e k="K" key="FCC.ModeManual"><s>Manual</s><r>Руководство</r></e>
+  <e k="K" key="FCC.ModeOff"><s>Off</s><r>Выключенный</r></e>
+  <e k="K" key="FCC.PreviewTooltip"><s>Color preview (before lighting): RGB {0}, {1}, {2}
+Automatic shows a representative map color here; fog matches the nearest revealed block at each location.</s><r>Предварительный просмотр цвета (до освещения): RGB {0}, {1}, {2}
+Автоматически показывает здесь репрезентативный цвет карты; туман соответствует ближайшему обнаруженному блоку в каждой локации.</r></e>
+  <e k="K" key="FCC.ResetColor"><s>Reset defaults</s><r>Сбросить настройки по умолчанию</r></e>
+  <e k="K" key="FCC.ResetMultipliers"><s>Reset defaults</s><r>Сбросить настройки по умолчанию</r></e>
+  <e k="K" key="FCC.Saturation"><s>Saturation: {0}</s><r>Насыщенность: {0}</r></e>
+  <e k="K" key="FCC.SettingsTitle"><s>Fog Color Changer</s><r>Устройство смены цвета тумана</r></e>
+</AutoTranslateCache>
