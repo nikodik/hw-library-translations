@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="evileyeguy.custombaseframework" name="Custom Base Framework" language="Russian" version="1">
+  <e k="K" key="CBF_Pw_MinTotalTip"><s>All skill levels together reach at least this value.</s><r>Все уровни навыков вместе достигают как минимум этого значения.</r></e>
+  <e k="K" key="CBF_Pw_NewKind"><s>New pawn kind</s><r>Новый вид пешки</r></e>
+  <e k="K" key="CBF_Pw_NoFaults"><s>No errors, same check as when the game loads.</s><r>Ошибок нет, проверка та же, что и при загрузке игры.</r></e>
+  <e k="K" key="CBF_Pw_NoGearYet"><s>No fixed gear yet. Turn off &quot;hide empty&quot; and click a free cell in the grid.</s><r>Фиксированной передачи пока нет. Отключите «скрыть пустое» и щелкните свободную ячейку в сетке.</r></e>
+  <e k="K" key="CBF_Pw_PickOne"><s>Pick a pawn kind or pawn list on the left.</s><r>Выберите тип пешки или список пешек слева.</r></e>
+  <e k="K" key="CBF_Pw_Place"><s>Place pawn</s><r>Поместите пешку</r></e>
+  <e k="K" key="CBF_Pw_ProjectTip"><s>Only pawn kinds and lists from the selected mod.</s><r>Только виды и списки пешек из выбранного мода.</r></e>
+  <e k="K" key="CBF_Pw_RadiusTip"><s>How far the pawns spread around their spot.</s><r>Насколько далеко пешки разошлись по своей позиции.</r></e>
+  <e k="K" key="CBF_Pw_Role_Guard"><s>Guard</s><r>Сторожить</r></e>
+  <e k="K" key="CBF_Pw_Role_Gunner"><s>Gunner</s><r>Наводчик</r></e>
+  <e k="K" key="CBF_Pw_Role_Sentry"><s>Post</s><r>Почта</r></e>
+  <e k="K" key="CBF_Pw_Role_Sleeper"><s>Sleeper</s><r>Спальное место</r></e>
+  <e k="K" key="CBF_Pw_Stage"><s>Tech level</s><r>Технический уровень</r></e>
+  <e k="K" key="CBF_Pw_StageAuto"><s>from gear</s><r>из передач</r></e>
+  <e k="K" key="CBF_Pw_StageTip"><s>The tech level this list counts as. &quot;from gear&quot; works it out from the weapons and apparel of each pawn kind. Set a level when the gear does not fit, for example tribal warriors with medieval leather who should appear in a tribal camp. The settlement then draws from the whole list without looking at the gear. The log warns when the level is above that of the settlement.</s><r>Технический уровень, который учитывается в этом списке. «Из снаряжения» рассчитывается из оружия и одежды каждого типа пешек. Установите уровень, когда снаряжение не подходит, например воинам племени в средневековой коже, которые должны появиться в лагере племени. Затем поселение выбирается из всего списка, не глядя на снаряжение. Журнал предупреждает, когда уровень превышает уровень поселения.</r></e>
+  <e k="K" key="CBF_Pw_Swap"><s>Swap</s><r>Менять</r></e>
+  <e k="K" key="CBF_Pw_SwapPick"><s>Swap piece</s><r>Обменять кусок</r></e>
+  <e k="K" key="CBF_Pw_SwapTip"><s>Replaces the piece with another one that fits the same layers. Material, quality and color stay where possible.</s><r>Заменяет фрагмент на другой, подходящий к тем же слоям. Материал, качество и цвет остаются там, где это возможно.</r></e>
+  <e k="K" key="CBF_Pw_Tags"><s>Tags</s><r>Теги</r></e>
+  <e k="K" key="CBF_Pw_TechBecause"><s>{0}, because of {1}</s><r>{0}, из-за {1}</r></e>
+  <e k="K" key="CBF_Pw_TechTip"><s>The tech level decides which settlements this pawn appears in. It comes from the most advanced gear.</s><r>Технический уровень определяет, в каких поселениях появится эта пешка. Она происходит из самого продвинутого снаряжения.</r></e>
+  <e k="K" key="CBF_Pw_TileTip"><s>Click opens the pawn kind.</s><r>Щелчок открывает вид пешки.</r></e>
+  <e k="K" key="CBF_Pw_UsedBy"><s>Used by</s><r>Используется</r></e>
+  <e k="K" key="CBF_Qu_AnyHostile"><s>Any hostile faction</s><r>Любая враждебная фракция</r></e>
+  <e k="K" key="CBF_Qu_Art_Gefangene_befreien"><s>Free prisoners</s><r>Свободные заключенные</r></e>
+  <e k="K" key="CBF_Qu_Art_Gefangene_befreienTip"><s>A site where enemies hold people of the quest giver captive.</s><r>Место, где враги держат в плену людей квестодателя.</r></e>
+  <e k="K" key="CBF_Qu_Art_Monsterjagd"><s>Monster hunt</s><r>Охота на монстров</r></e>
+  <e k="K" key="CBF_Qu_Art_MonsterjagdTip"><s>Ruins without a faction, held by creatures from a pawn list, such as a troll.</s><r>Руины без фракции, принадлежащие существам из списка пешек, например троллям.</r></e>
+  <e k="K" key="CBF_Qu_Art_Ort_raeumen"><s>Clear a site</s><r>Очистить сайт</r></e>
+  <e k="K" key="CBF_Qu_Art_Ort_raeumenTip"><s>A settlement held by enemies. Drive them out; afterwards the player picks goodwill or the loot.</s><r>Поселение, удерживаемое врагами. Выгоните их; после этого игрок выбирает доброжелательность или добычу.</r></e>
+  <e k="K" key="CBF_Qu_Art_Ort_verteidigen"><s>Defend a site</s><r>Защитить сайт</r></e>
+  <e k="K" key="CBF_Qu_Art_Ort_verteidigenTip"><s>A settlement under attack. Help the defenders; the quest fails if they fall.</s><r>Поселение под атакой. Помогите защитникам; квест провалится, если они упадут.</r></e>
+  <e k="K" key="CBF_Qu_Art_Verlies_erkunden"><s>Explore a dungeon</s><r>Исследуйте подземелье</r></e>
+  <e k="K" key="CBF_Qu_Art_Verlies_erkundenTip"><s>A dungeon with levels. Clear it or reach the bottom.</s><r>Подземелье с уровнями. Очистите его или доберитесь до дна.</r></e>
+  <e k="K" key="CBF_Qu_ByPlan"><s>Fixed type</s><r>Фиксированный тип</r></e>
+  <e k="K" key="CBF_Qu_ByTags"><s>By site tag</s><r>По тегу сайта</r></e>
+  <e k="K" key="CBF_Qu_CannotRun"><s>The quest cannot start right now. Usually a friendly faction with a leader and a matching settlement type is missing.</s><r>Квест не может начаться прямо сейчас. Обычно дружественная фракция с лидером и соответствующим типом поселения отсутствует.</r></e>
+  <e k="K" key="CBF_Qu_CreaturesEdit"><s>Edit</s><r>Редактировать</r></e>
+  <e k="K" key="CBF_Qu_CreaturesNew"><s>+ Creatures</s><r>+ Существа</r></e>
+  <e k="K" key="CBF_Qu_CreaturesTip"><s>Opens the same picker as for pen animals: search, filter by kind and mod, pictures. The chosen creatures are saved as a pawn list.</s><r>Открывает тот же выбор, что и для животных в загоне: поиск, фильтр по виду и моду, изображения. Выбранные существа сохраняются в виде списка пешек.</r></e>
+  <e k="K" key="CBF_Qu_F_APPROACHING_REPORT"><s>Caravan report</s><r>Отчет о караване</r></e>
+  <e k="K" key="CBF_Qu_F_APPROACHING_REPORTTip"><s>Shown while the caravan is on its way. {0} is the site.</s><r>Показан во время пути каравана. {0} — сайт.</r></e>
+  <e k="K" key="CBF_Qu_F_APPROACH_ORDER"><s>Caravan order</s><r>Заказ каравана</r></e>
+  <e k="K" key="CBF_Qu_F_APPROACH_ORDERTip"><s>Order in the caravan menu. {0} is the site.</s><r>Заказ в караван-меню. {0} — сайт.</r></e>
+  <e k="K" key="CBF_Qu_F_ARRIVED_LETTER"><s>Arrival letter</s><r>Письмо о прибытии</r></e>
+  <e k="K" key="CBF_Qu_F_ARRIVED_LETTERTip"><s>Letter when the caravan arrives.</s><r>Письмо, когда прибудет караван.</r></e>
+  <e k="K" key="CBF_Qu_F_ARRIVED_LETTER_DEF"><s>Arrival letter type</s><r>Тип письма о прибытии</r></e>
+  <e k="K" key="CBF_Qu_F_ARRIVED_LETTER_DEFTip"><s>Colour and sound of the arrival letter.</s><r>Цвет и звук письма о прибытии.</r></e>
+  <e k="K" key="CBF_Qu_F_CREATURES"><s>Creatures</s><r>Существа</r></e>
+  <e k="K" key="CBF_Qu_F_CREATURESTip"><s>Pawn list of the creatures. Each entry is one creature.</s><r>Закладной список существ. Каждая запись представляет собой одно существо.</r></e>
+  <e k="K" key="CBF_Qu_F_DESCRIPTION"><s>Site description</s><r>Описание сайта</r></e>
+  <e k="K" key="CBF_Qu_F_DESCRIPTIONTip"><s>Shown when the site is selected on the world map.</s><r>Отображается, когда сайт выбран на карте мира.</r></e>
+  <e k="K" key="CBF_Qu_F_EXIT_DAYS"><s>Days after success</s><r>Дни после успеха</r></e>
+  <e k="K" key="CBF_Qu_F_EXIT_DAYSTip"><s>Days until the map closes after success.</s><r>Дни до закрытия карты после успеха.</r></e>
+  <e k="K" key="CBF_Qu_F_EXPIRE_DAYS"><s>Offer days</s><r>Предложение дней</r></e>
+  <e k="K" key="CBF_Qu_F_EXPIRE_DAYSTip"><s>Days until an offer that was not accepted expires, as a range.</s><r>Дни до истечения срока действия предложения, которое не было принято, в виде диапазона.</r></e>
+  <e k="K" key="CBF_Qu_F_GOAL_SIGNAL"><s>Goal</s><r>Цель</r></e>
+  <e k="K" key="CBF_Qu_F_GOAL_SIGNALTip"><s>When the dungeon quest is done. Cleared: no hostile pawn is left standing on the site or any level, sleeping ones included, and no hostile turret remains. Bottom reached: a colonist enters the deepest level.</s><r>Когда квест в подземелье выполнен. Очищено: на площадке или на любом уровне не осталось ни одной враждебной пешки, включая спящих, и не осталось ни одной вражеской турели. Дно достигнуто: колонист попадает на самый глубокий уровень.</r></e>
+  <e k="K" key="CBF_Qu_F_GOODWILL_FACTION"><s>Goodwill if returned</s><r>Доброжелательность в случае возврата</r></e>
+  <e k="K" key="CBF_Qu_F_GOODWILL_FACTIONTip"><s>Goodwill when the player hands the site back to its owners.</s><r>Доброжелательность, когда игрок возвращает сайт его владельцам.</r></e>
+  <e k="K" key="CBF_Qu_F_GOODWILL_LOOT"><s>Goodwill if looted</s><r>Доброжелательность в случае разграбления</r></e>
+  <e k="K" key="CBF_Qu_F_GOODWILL_LOOTTip"><s>Goodwill when the player keeps the loot.</s><r>Доброжелательность, когда игрок оставляет добычу себе.</r></e>
+  <e k="K" key="CBF_Qu_F_GOODWILL_PER_1000_SILVER"><s>Goodwill loss per 1000 silver</s><r>Убыток гудвилла на 1000 серебра</r></e>
+  <e k="K" key="CBF_Qu_F_GOODWILL_PER_1000_SILVERTip"><s>Goodwill lost for every 1000 silver worth of goods taken.</s><r>Потеря репутации за каждые взятые товары на сумму 1000 серебра.</r></e>
+  <e k="K" key="CBF_Qu_F_LABEL"><s>Site name</s><r>Название сайта</r></e>
+  <e k="K" key="CBF_Qu_F_LABELTip"><s>Name of the site on the world map.</s><r>Название объекта на карте мира.</r></e>
+  <e k="K" key="CBF_Qu_F_LETTER_EXPIRED_LABEL"><s>Expiry letter title</s><r>Название письма об истечении срока действия</r></e>
+  <e k="K" key="CBF_Qu_F_LETTER_EXPIRED_LABELTip"><s>Title of the letter when the site disappears unused.</s><r>Заголовок письма при исчезновении сайта неиспользованным.</r></e>
+  <e k="K" key="CBF_Qu_F_LETTER_EXPIRED_TEXT"><s>Expiry letter text</s><r>Текст письма об истечении срока действия</r></e>
+  <e k="K" key="CBF_Qu_F_LETTER_EXPIRED_TEXTTip"><s>Text of the letter when the site disappears unused.</s><r>Текст письма при исчезновении сайта неиспользованным.</r></e>
+  <e k="K" key="CBF_Qu_F_LETTER_FAILED_LABEL"><s>Failure letter title</s><r>Название письма об отказе</r></e>
+  <e k="K" key="CBF_Qu_F_LETTER_FAILED_LABELTip"><s>Title of the letter when the player leaves too early.</s><r>Название письма, когда игрок уходит слишком рано.</r></e>
+  <e k="K" key="CBF_Qu_F_LETTER_FAILED_TEXT"><s>Failure letter text</s><r>Текст письма об отказе</r></e>
+  <e k="K" key="CBF_Qu_F_LETTER_FAILED_TEXTTip"><s>Text of the letter when the player leaves too early.</s><r>Текст письма, когда игрок уходит слишком рано.</r></e>
+  <e k="K" key="CBF_Qu_F_LETTER_FALLEN_LABEL"><s>Defenders fallen title</s><r>Защитники потеряли титул</r></e>
+  <e k="K" key="CBF_Qu_F_LETTER_FALLEN_LABELTip"><s>Title of the letter when the defenders fall.</s><r>Название письма, когда защитники падают.</r></e>
+  <e k="K" key="CBF_Qu_F_LETTER_FALLEN_TEXT"><s>Defenders fallen text</s><r>Павший текст защитников</r></e>
+  <e k="K" key="CBF_Qu_F_LETTER_FALLEN_TEXTTip"><s>Text of the letter when the defenders fall.</s><r>Текст письма, когда защитники падают.</r></e>
+  <e k="K" key="CBF_Qu_F_LETTER_LOST_LABEL"><s>Prisoners lost title</s><r>Заключенные потеряли титул</r></e>
+  <e k="K" key="CBF_Qu_F_LETTER_LOST_LABELTip"><s>Title of the letter when all prisoners are dead.</s><r>Название письма, когда все заключенные мертвы.</r></e>
+  <e k="K" key="CBF_Qu_F_LETTER_LOST_TEXT"><s>Prisoners lost text</s><r>Заключенные потеряли текст</r></e>
+  <e k="K" key="CBF_Qu_F_LETTER_LOST_TEXTTip"><s>Text of the letter when all prisoners are dead.</s><r>Текст письма, когда все заключенные мертвы.</r></e>
+  <e k="K" key="CBF_Qu_F_LETTER_SUCCESS_LABEL"><s>Success letter title</s><r>Название письма об успехе</r></e>
+  <e k="K" key="CBF_Qu_F_LETTER_SUCCESS_LABELTip"><s>Title of the reward letter.</s><r>Название письма о вознаграждении.</r></e>
+  <e k="K" key="CBF_Qu_F_LETTER_SUCCESS_TEXT"><s>Success letter text</s><r>Текст письма об успехе</r></e>
+  <e k="K" key="CBF_Qu_F_LETTER_SUCCESS_TEXTTip"><s>Text of the reward letter.</s><r>Текст письма о вознаграждении.</r></e>
+  <e k="K" key="CBF_Qu_F_OCCUPIERS"><s>Occupiers</s><r>Оккупанты</r></e>
+  <e k="K" key="CBF_Qu_F_OCCUPIERSTip"><s>Factions that may hold the site. Empty means any hostile human faction.</s><r>Фракции, которые могут владеть этим местом. Пустой означает любую враждебную человеческую фракцию.</r></e>
+  <e k="K" key="CBF_Qu_F_PLAN"><s>Dungeon</s><r>Подземелье</r></e>
+  <e k="K" key="CBF_Qu_F_PLANTip"><s>The dungeon plan of the site.</s><r>План подземелья участка.</r></e>
+  <e k="K" key="CBF_Qu_F_POINTS_FACTOR"><s>Enemy strength</s><r>Сила врага</r></e>
+  <e k="K" key="CBF_Qu_F_POINTS_FACTORTip"><s>Factor on the threat points for the enemies on the site.</s><r>Учитывайте точки угрозы для врагов на площадке.</r></e>
+  <e k="K" key="CBF_Qu_F_PRISONERS"><s>Prisoners</s><r>Заключенные</r></e>
+  <e k="K" key="CBF_Qu_F_PRISONERSTip"><s>Number of prisoners as a range, for example 2~4.</s><r>Число заключенных в диапазоне, например 2–4.</r></e>
+  <e k="K" key="CBF_Qu_F_QUEST_DESCRIPTION"><s>Quest text</s><r>Текст квеста</r></e>
+  <e k="K" key="CBF_Qu_F_QUEST_DESCRIPTIONTip"><s>Text of the quest offer. Grammar tags such as [asker_nameFull] are allowed.</s><r>Текст квест-предложения. Допускаются грамматические теги, такие как [asker_nameFull].</r></e>
+  <e k="K" key="CBF_Qu_F_QUEST_NAME"><s>Quest name</s><r>Название квеста</r></e>
+  <e k="K" key="CBF_Qu_F_QUEST_NAMETip"><s>Name in the quest list. Grammar tags such as [asker_nameDef] are allowed.</s><r>Имя в списке квестов. Допускаются грамматические теги, такие как [asker_nameDef].</r></e>
+  <e k="K" key="CBF_Qu_F_REWARD"><s>Reward</s><r>Награда</r></e>
+  <e k="K" key="CBF_Qu_F_REWARDTip"><s>Factor on the usual quest reward.</s><r>Учтите обычную награду за квест.</r></e>
+  <e k="K" key="CBF_Qu_F_RUIN"><s>Ruin state</s><r>Состояние руин</r></e>
+  <e k="K" key="CBF_Qu_F_RUINTip"><s>Damage and occupation of the site, see Quests, Ruins.</s><r>Повреждения и оккупация объекта см. Квесты, Руины.</r></e>
+  <e k="K" key="CBF_Qu_F_RUIN_PARENT"><s>Ruin base</s><r>Руинная база</r></e>
+  <e k="K" key="CBF_Qu_F_RUIN_PARENTTip"><s>The ruin rules the own ruin of the quest starts from.</s><r>Руины правил, с которых начинается собственное разрушение квеста.</r></e>
+  <e k="K" key="CBF_Qu_F_SELECTION_WEIGHT"><s>Frequency</s><r>Частота</r></e>
+  <e k="K" key="CBF_Qu_F_SELECTION_WEIGHTTip"><s>How often the storyteller picks this quest. 0 switches it off.</s><r>Как часто рассказчик выбирает этот квест. 0 отключает его.</r></e>
+  <e k="K" key="CBF_Qu_F_SITE_PLAN"><s>Settlement type</s><r>Тип расчета</r></e>
+  <e k="K" key="CBF_Qu_F_SITE_PLANTip"><s>Which CBF settlement is built: one fixed type, or any type with a matching site tag.</s><r>Какой поселок CBF строится: одного фиксированного типа или любого типа с соответствующим тегом сайта.</r></e>
+  <e k="K" key="CBF_Qu_F_SITE_TEXTURE"><s>Map icon</s><r>Значок карты</r></e>
+  <e k="K" key="CBF_Qu_F_SITE_TEXTURETip"><s>Icon of the site on the world map.</s><r>Иконка сайта на карте мира.</r></e>
+  <e k="K" key="CBF_Qu_F_THREAT_MIN"><s>Minimum threat</s><r>Минимальная угроза</r></e>
+  <e k="K" key="CBF_Qu_F_THREAT_MINTip"><s>The quest only appears from these threat points on.</s><r>Квест появляется только с этих точек угрозы.</r></e>
+  <e k="K" key="CBF_Qu_F_TIMEOUT_DAYS_MAX"><s>Site days max</s><r>Максимум дней сайта</r></e>
+  <e k="K" key="CBF_Qu_F_TIMEOUT_DAYS_MAXTip"><s>Longest time the site stays on the map without a visit.</s><r>Максимальное время пребывания сайта на карте без посещения.</r></e>
+  <e k="K" key="CBF_Qu_F_TIMEOUT_DAYS_MIN"><s>Site days min</s><r>Сайт дней мин</r></e>
+  <e k="K" key="CBF_Qu_F_TIMEOUT_DAYS_MINTip"><s>Shortest time the site stays on the map without a visit.</s><r>Кратчайшее время пребывания сайта на карте без посещения.</r></e>
+  <e k="K" key="CBF_Qu_G_Arrival"><s>Arrival</s><r>Прибытие</r></e>
+  <e k="K" key="CBF_Qu_G_Enemies"><s>Enemies</s><r>Враги</r></e>
+  <e k="K" key="CBF_Qu_G_Expiry"><s>Expiry</s><r>Срок действия</r></e>
+  <e k="K" key="CBF_Qu_G_Failure"><s>Failure</s><r>Отказ</r></e>
+  <e k="K" key="CBF_Qu_G_General"><s>General</s><r>Общий</r></e>
+  <e k="K" key="CBF_Qu_G_Offer"><s>Offer</s><r>Предложение</r></e>
+  <e k="K" key="CBF_Qu_G_Reward"><s>Reward</s><r>Награда</r></e>
+  <e k="K" key="CBF_Qu_G_Site"><s>Site</s><r>Сайт</r></e>
+  <e k="K" key="CBF_Qu_G_Success"><s>Success</s><r>Успех</r></e>
+  <e k="K" key="CBF_Qu_G_Texts"><s>Texts and letters</s><r>Тексты и письма</r></e>
+  <e k="K" key="CBF_Qu_G_Timing"><s>Timing</s><r>Тайминг</r></e>
+  <e k="K" key="CBF_Qu_GenFailed"><s>The quest could not be created here, for example because no site tile or quest giver was found.</s><r>Здесь не удалось создать квест, например, потому, что не был найден ни фрагмент сайта, ни источник квеста.</r></e>
+  <e k="K" key="CBF_Qu_Goal_DungeonBottomReached"><s>Bottom level reached</s><r>Достигнут нижний уровень</r></e>
+  <e k="K" key="CBF_Qu_Goal_DungeonCleared"><s>Dungeon cleared</s><r>Подземелье очищено</r></e>
+  <e k="K" key="CBF_Qu_Kind"><s>Quest kind</s><r>Вид квеста</r></e>
+  <e k="K" key="CBF_Qu_NeedCreatures"><s>Choose creatures first.</s><r>Сначала выберите существ.</r></e>
+  <e k="K" key="CBF_Qu_NeedGame"><s>Only in a running game.</s><r>Только в запущенной игре.</r></e>
+  <e k="K" key="CBF_Qu_NeedPlan"><s>Choose a settlement type first.</s><r>Сначала выберите тип расчета.</r></e>
+  <e k="K" key="CBF_Qu_NeedRestart"><s>Saved in this session. Restart the game so the quest loads with all its parts.</s><r>Сохранено в этом сеансе. Перезапустите игру, чтобы квест загрузился со всеми его частями.</r></e>
+  <e k="K" key="CBF_Qu_NeedRuin"><s>Choose a ruin state first.</s><r>Сначала выберите состояние разрушения.</r></e>
+  <e k="K" key="CBF_Qu_NewTip"><s>Create a new quest from a quest kind.</s><r>Создайте новый квест из типа квеста.</r></e>
+  <e k="K" key="CBF_Qu_NoTemplate"><s>No template for {0} found.</s><r>Шаблон для {0} не найден.</r></e>
+  <e k="K" key="CBF_Qu_NotLoaded"><s>The quest is not loaded yet. Restart the game.</s><r>Квест еще не загружен. Перезапустите игру.</r></e>
+  <e k="K" key="CBF_Qu_Pic_Camp"><s>Camp</s><r>Лагерь</r></e>
+  <e k="K" key="CBF_Qu_Pic_Manhunters"><s>Monsters</s><r>Монстры</r></e>
+  <e k="K" key="CBF_Qu_Pic_Outpost"><s>Outpost</s><r>Застава</r></e>
+  <e k="K" key="CBF_Qu_Pic_Prisoner"><s>Prisoner</s><r>Узник</r></e>
+  <e k="K" key="CBF_Qu_Pic_Ruin"><s>Destroyed settlement</s><r>Разрушенное поселение</r></e>
+  <e k="K" key="CBF_Qu_Pic_Turrets"><s>Fortified</s><r>Укрепленный</r></e>
+  <e k="K" key="CBF_Qu_PickKind"><s>Quest kind</s><r>Вид квеста</r></e>
+  <e k="K" key="CBF_Qu_Plan"><s>Settlement type</s><r>Тип расчета</r></e>
+  <e k="K" key="CBF_Qu_RP_CBF_Ruin_Basis"><s>Plain (no damage)</s><r>Обычный (без повреждений)</r></e>
+  <e k="K" key="CBF_Qu_RP_CBF_Ruin_Raided"><s>Raided</s><r>Совершил набег</r></e>
+  <e k="K" key="CBF_Qu_RightHint"><s>Saving writes the quest, its site and world object into Defs/CustomBaseFramework/Quests of your mod.</s><r>При сохранении квест, его сайт и объект мира записываются в Defs/CustomBaseFramework/Quests вашего мода.</r></e>
+  <e k="K" key="CBF_Qu_SaveFirst"><s>Save the quest first.</s><r>Сначала сохраните квест.</r></e>
+  <e k="K" key="CBF_Qu_Tags"><s>Site tags</s><r>Теги сайта</r></e>
+  <e k="K" key="CBF_Qu_TagsTip"><s>Any settlement type with one of these site tags can be built. The number shows how many types carry the tag.</s><r>Можно построить любой тип поселения с одним из этих тегов сайта. Число показывает, сколько типов имеют этот тег.</r></e>
+  <e k="K" key="CBF_Qu_Trigger"><s>Trigger now</s><r>Запустить сейчас</r></e>
+  <e k="K" key="CBF_Qu_TriggerTip"><s>Offers this quest in the running game at the current threat points.</s><r>Предлагает этот квест в текущей игре в текущих точках угрозы.</r></e>
+  <e k="K" key="CBF_Qu_Triggered"><s>{0} offered.</s><r>{0} предлагается.</r></e>
+  <e k="K" key="CBF_Quest_KeinOrt"><s>No raided settlement on the world map.</s><r>На карте мира нет рейдированных поселений.</r></e>
+  <e k="K" key="CBF_Quest_Ortsgut_Inspect"><s>Belongs to {0} again. Taking items costs goodwill.</s><r>Опять принадлежит {0}. Взятие предметов стоит доброй воли.</r></e>
+  <e k="K" key="CBF_Quest_Ortsgut_Inspect_Eigen"><s>Belongs to {0}. Taking items costs goodwill.</s><r>Принадлежит {0}. Взятие предметов стоит доброй воли.</r></e>
+  <e k="K" key="CBF_Quest_Wahl_Beute"><s>Take what is left (+{0} goodwill)</s><r>Возьмите то, что осталось (+{0} доброжелательность)</r></e>
+  <e k="K" key="CBF_Quest_Wahl_Fraktion"><s>Leave it to the lord (+{0} goodwill)</s><r>Предоставьте это лорду (+{0} добрая воля)</r></e>
+  <e k="K" key="CBF_Quest_Wahl_Label"><s>Settlement freed</s><r>Поселение освобождено</r></e>
+  <e k="K" key="CBF_Quest_Wahl_Text"><s>The bandits are defeated. {0} of {1} thanks you.
+
+Leave the settlement to the lord: +{3} goodwill. Everything still in the settlement belongs to {1} again. Taking items or claiming buildings there costs goodwill. Items your colonists already carry count as taken.
+
+Take what is left: +{4} goodwill. The settlement stays with the bandits and you can loot freely.
+
+If you leave the map without deciding, you take what is left.</s><r>Бандиты побеждены. {0} из {1} спасибо.
+
+Оставьте урегулирование лорду: +{3} доброй воли. Все, что осталось в поселении, снова принадлежит {1}. Взятие предметов или требование зданий там стоит доброй воли. Предметы, которые уже есть у ваших колонистов, считаются взятыми.
+
+Возьмите то, что осталось: +{4} доброй воли. Поселение остается за бандитами, и вы можете свободно грабить.
+
+Если вы покинете карту, не приняв решения, вы заберете то, что осталось.</r></e>
+  <e k="K" key="CBF_Radius"><s>Radius</s><r>Радиус</r></e>
+  <e k="K" key="CBF_Range"><s>{0} to {1}</s><r>от {0} до {1}</r></e>
+  <e k="K" key="CBF_RegionIncomplete"><s>{0} (incomplete)</s><r>{0} (неполный)</r></e>
+  <e k="K" key="CBF_RegionRemove"><s>Remove cells</s><r>Удалить ячейки</r></e>
+  <e k="K" key="CBF_RegionRemoveDesc"><s>Drag over cells to take them out of a piece again.</s><r>Перетаскивайте ячейки, чтобы снова отделить их от части.</r></e>
+  <e k="K" key="CBF_Remove"><s>Remove</s><r>Удалять</r></e>
+  <e k="K" key="CBF_RemovedDistrict"><s>District {0} removed</s><r>Район {0} удален.</r></e>
+  <e k="K" key="CBF_RemovedFrom"><s>{0} removed from {1}</s><r>{0} удалено из {1}</r></e>
+  <e k="K" key="CBF_RemovedFromList"><s>removed {0} from {1}</s><r>удалено {0} из {1}</r></e>
+  <e k="K" key="CBF_Rename"><s>Rename</s><r>Переименовать</r></e>
+  <e k="K" key="CBF_RenameFailed"><s>{0} could not be renamed because a file involved could not be written. Everything is back as before, details in the log.</s><r>{0} не удалось переименовать, поскольку соответствующий файл не удалось записать. Все вернулось на круги своя, подробности в логе.</r></e>
+  <e k="K" key="CBF_RenameTo"><s>Rename {0} to:</s><r>Переименуйте {0} в:</r></e>
+  <e k="K" key="CBF_Renamed"><s>Renamed to {0}.</s><r>Переименован в {0}.</r></e>
+  <e k="K" key="CBF_ReplaceSameAsTarget"><s>Replacement and target are the same.</s><r>Замена и цель те же.</r></e>
+  <e k="K" key="CBF_ReportCopied"><s>Summary copied.</s><r>Резюме скопировано.</r></e>
+  <e k="K" key="CBF_ReportCopy"><s>Copy summary</s><r>Копировать сводку</r></e>
+  <e k="K" key="CBF_ReportFolderLine"><s>Report folder: {0}</s><r>Папка отчета: {0}</r></e>
+  <e k="K" key="CBF_ReportHead"><s>Error report</s><r>Отчет об ошибках</r></e>
+  <e k="K" key="CBF_ReportHelp"><s>If a settlement could not be generated, CBF writes a report with the terrain and the log. Open the folder of the latest report and attach Bericht.txt and Gelaende.gel to your bug report, for example in a comment on the Steam Workshop page.</s><r>Если поселение не удалось создать, CBF пишет отчет с указанием местности и журнала. Откройте папку с последним отчетом и прикрепите файлы Bericht.txt и Gelaende.gel к отчету об ошибке, например, в комментарии на странице Мастерской Steam.</r></e>
+  <e k="K" key="CBF_ReportOpenFolder"><s>Open report folder</s><r>Открыть папку с отчетами</r></e>
+  <e k="K" key="CBF_ReserveGround"><s>Reserve building ground before the rock</s><r>Резервная площадка под застройку перед скалой</r></e>
+  <e k="K" key="CBF_ReserveGroundHelp"><s>Before RimWorld places the rock, the edge of the mountain recedes where the settlement will stand, and only far enough for it to fit. The shape of the mountain is kept, the rest of the map is untouched. Off means the settlement has to make do with the terrain as grown and can fail on rocky tiles.</s><r>Прежде чем RimWorld разместит камень, край горы отступает там, где будет стоять поселение, и лишь настолько, чтобы оно могло поместиться. Форма горы сохранена, остальная часть карты нетронута. Выкл. означает, что поселение должно довольствоваться заросшей местностью и может потерпеть неудачу на каменистых плитках.</r></e>
+  <e k="K" key="CBF_RiafTakeOver"><s>Build A Rim of Ice and Fire holdings with CBF</s><r>Постройте владения «Кольцо льда и пламени» с помощью CBF</r></e>
+  <e k="K" key="CBF_RiafTakeOverHelp"><s>CBF builds the houses and walls of villages, towns and garrisons from A Rim of Ice and Fire when a plan with a matching riafHolding exists. Defenders, levies, residents and stores stay with A Rim of Ice and Fire. Off: A Rim of Ice and Fire builds its holdings itself.</s><r>CBF строит дома и стены деревень, городов и гарнизонов из «Кольца льда и пламени», когда существует план с соответствующим riafHolding. Защитники, ополченцы, жители и магазины остаются в Кольце Льда и Пламени. Выключено: Кольцо Льда и Пламени само строит свои владения.</r></e>
+  <e k="K" key="CBF_RimdexDefTip"><s>Show in Rimdex</s><r>Показать в Римдексе</r></e>
+  <e k="K" key="CBF_RoadEdgesDefault"><s>Empty, so the whole road uses the surface above.</s><r>Пустой, поэтому вся дорога использует поверхность выше.</r></e>
+  <e k="K" key="CBF_RoadsDefault"><s>Empty, so the standard surface is used.</s><r>Пустой, поэтому используется стандартная поверхность.</r></e>
+  <e k="K" key="CBF_Role"><s>Role</s><r>Роль</r></e>
+  <e k="K" key="CBF_RoleCrew"><s>mans artillery</s><r>мужская артиллерия</r></e>
+  <e k="K" key="CBF_RoleCrewDesc"><s>Mans the nearest mannable artillery piece and stays there. Needs are ignored.</s><r>Укомплектовывает ближайшее артиллерийское орудие и остается там. Потребности игнорируются.</r></e>
+  <e k="K" key="CBF_RoleGuard"><s>guard</s><r>сторожить</r></e>
+  <e k="K" key="CBF_RoleGuardDesc"><s>Joins the settlement garrison. Does not flee alone and moves out with the assault.</s><r>Присоединяется к гарнизону поселения. Не убегает в одиночку и уходит с штурмом.</r></e>
+  <e k="K" key="CBF_RolePost"><s>holds position</s><r>удерживает позицию</r></e>
+  <e k="K" key="CBF_RolePostDesc"><s>Holds this spot and defends it. Does not move out, does not fall back. For towers and gatehouses.</s><r>Удерживает это место и защищает его. Не съезжает, не падает назад. Для башен и сторожек.</r></e>
+  <e k="K" key="CBF_RoleSleeper"><s>sleeps</s><r>спит</r></e>
+  <e k="K" key="CBF_RoleSleeperDesc"><s>Lies asleep at the spawn anchor and wakes when the colony comes close or makes noise, then attacks. For ancient dangers.</s><r>Спит на якоре и просыпается, когда колония приближается или шумит, а затем атакует. Для древних опасностей.</r></e>
+  <e k="K" key="CBF_RoleTip_BRIDGE"><s>Floor for bridges over water.</s><r>Пол для мостиков через воду.</r></e>
+  <e k="K" key="CBF_RoleTip_CONDUIT"><s>Power conduit between buildings.</s><r>Электропроводка между зданиями.</r></e>
+  <e k="K" key="CBF_RoleTip_CONDUIT_ROAD"><s>Conduit where it runs under roads.</s><r>Трубопровод, проходящий под дорогами.</r></e>
+  <e k="K" key="CBF_RoleTip_CONDUIT_WATER"><s>Conduit where it crosses water.</s><r>Трубопровод в месте пересечения воды.</r></e>
+  <e k="K" key="CBF_RoleTip_CONTAINER"><s>Crates and other containers for loot.</s><r>Ящики и другие контейнеры для добычи.</r></e>
+  <e k="K" key="CBF_RoleTip_CROP"><s>Plant on the fields.</s><r>Сажать на полях.</r></e>
+  <e k="K" key="CBF_RoleTip_DOOR"><s>Doors of buildings and doors in the wall, on the walkway, in towers and posterns.</s><r>Двери зданий и двери в стене, на проходе, в башнях и потернах.</r></e>
+  <e k="K" key="CBF_RoleTip_DOOR_SECRET"><s>Door at the end of a secret passage in a dungeon. Should look like the wall around it. Without an entry the normal door stays.</s><r>Дверь в конце секретного прохода в темнице. Должно быть похоже на стену вокруг него. Без входа остается нормальная дверь.</r></e>
+  <e k="K" key="CBF_RoleTip_EMBRASURE"><s>Arrow slits and embrasures in walls and towers.</s><r>Прорези для стрел и амбразуры в стенах и башнях.</r></e>
+  <e k="K" key="CBF_RoleTip_FENCE"><s>Fences around pens and fields.</s><r>Заборы вокруг загонов и полей.</r></e>
+  <e k="K" key="CBF_RoleTip_FENCE_GATE"><s>Gate in a fence.</s><r>Ворота в заборе.</r></e>
+  <e k="K" key="CBF_RoleTip_FLOOR_DIRT"><s>Bare, trodden ground.</s><r>Голая, утоптанная земля.</r></e>
+  <e k="K" key="CBF_RoleTip_FLOOR_FIELD"><s>Soil under the fields.</s><r>Почва под полями.</r></e>
+  <e k="K" key="CBF_RoleTip_FLOOR_FINE"><s>Floor for fine rooms such as halls and temples.</s><r>Пол для прекрасных помещений, таких как залы и храмы.</r></e>
+  <e k="K" key="CBF_RoleTip_FLOOR_INTERIOR"><s>Usual floor inside buildings.</s><r>Обычный пол внутри зданий.</r></e>
+  <e k="K" key="CBF_RoleTip_FLOOR_ROAD"><s>Roads, when the ward names no roads of its own.</s><r>Дороги, когда приход не называет собственных дорог.</r></e>
+  <e k="K" key="CBF_RoleTip_FLOOR_ROAD_EDGE"><s>Strip along the edge of the roads.</s><r>Полоса вдоль края дороги.</r></e>
+  <e k="K" key="CBF_RoleTip_FLOOR_ROUGH"><s>Floor for simple rooms such as barns and workshops.</s><r>Пол для простых помещений, таких как сараи и мастерские.</r></e>
+  <e k="K" key="CBF_RoleTip_FURNITURE"><s>General furniture.</s><r>Общая мебель.</r></e>
+  <e k="K" key="CBF_RoleTip_GATE"><s>Gate in a wall passage without a gatehouse.</s><r>Ворота в стенном проходе без сторожки.</r></e>
+  <e k="K" key="CBF_RoleTip_LIGHT"><s>Lamps and torches.</s><r>Лампы и факелы.</r></e>
+  <e k="K" key="CBF_RoleTip_PEN_MARKER"><s>Marker that turns a fenced area into an animal pen.</s><r>Маркер, превращающий огороженную территорию в загон для животных.</r></e>
+  <e k="K" key="CBF_RoleTip_PILLAR"><s>Pillars and columns inside buildings.</s><r>Столбы и колонны внутри зданий.</r></e>
+  <e k="K" key="CBF_RoleTip_ROOF"><s>Roof over the buildings.</s><r>Крыша над зданиями.</r></e>
+  <e k="K" key="CBF_RoleTip_ROOF_THIN"><s>Thin roof, for sheds and open halls.</s><r>Тонкая кровля, для навесов и открытых залов.</r></e>
+  <e k="K" key="CBF_RoleTip_WALL"><s>Outer walls of buildings and the settlement wall.</s><r>Наружные стены зданий и поселковая стена.</r></e>
+  <e k="K" key="CBF_RoleTip_WALL_INNER"><s>Walls inside buildings between rooms.</s><r>Стены внутри зданий между комнатами.</r></e>
+  <e k="K" key="CBF_RoleTip_WINDOW"><s>Windows in building walls.</s><r>Окна в стенах зданий.</r></e>
+  <e k="K" key="CBF_Role_BRIDGE"><s>Bridge</s><r>Мост</r></e>
+  <e k="K" key="CBF_Role_CONDUIT"><s>Conduit</s><r>Проводник</r></e>
+  <e k="K" key="CBF_Role_CONDUIT_ROAD"><s>Conduit under roads</s><r>Трубопровод под дорогой</r></e>
+  <e k="K" key="CBF_Role_CONDUIT_WATER"><s>Conduit under water</s><r>Трубопровод под водой</r></e>
+  <e k="K" key="CBF_Role_CONTAINER"><s>Container</s><r>Контейнер</r></e>
+  <e k="K" key="CBF_Role_CROP"><s>Crop</s><r>Обрезать</r></e>
+  <e k="K" key="CBF_Role_DOOR"><s>Door</s><r>Дверь</r></e>
+  <e k="K" key="CBF_Role_DOOR_SECRET"><s>Secret door</s><r>Секретная дверь</r></e>
+  <e k="K" key="CBF_Role_EMBRASURE"><s>Embrasure</s><r>Амбразура</r></e>
+  <e k="K" key="CBF_Role_FENCE"><s>Fence</s><r>Изгородь</r></e>
+  <e k="K" key="CBF_Role_FENCE_GATE"><s>Fence gate</s><r>Заборные ворота</r></e>
+  <e k="K" key="CBF_Role_FLOOR_DIRT"><s>Dirt floor</s><r>Земляной пол</r></e>
+  <e k="K" key="CBF_Role_FLOOR_FIELD"><s>Field soil</s><r>Полевая почва</r></e>
+  <e k="K" key="CBF_Role_FLOOR_FINE"><s>Fine floor</s><r>Прекрасный пол</r></e>
+  <e k="K" key="CBF_Role_FLOOR_INTERIOR"><s>Interior floor</s><r>Внутренний пол</r></e>
+  <e k="K" key="CBF_Role_FLOOR_ROAD"><s>Road</s><r>Дорога</r></e>
+  <e k="K" key="CBF_Role_FLOOR_ROAD_EDGE"><s>Road edge</s><r>Край дороги</r></e>
+  <e k="K" key="CBF_Role_FLOOR_ROUGH"><s>Rough floor</s><r>Черновой пол</r></e>
+  <e k="K" key="CBF_Role_FURNITURE"><s>Furniture</s><r>Мебель</r></e>
+  <e k="K" key="CBF_Role_GATE"><s>Gate</s><r>Ворота</r></e>
+  <e k="K" key="CBF_Role_LIGHT"><s>Light</s><r>Свет</r></e>
+  <e k="K" key="CBF_Role_PEN_MARKER"><s>Pen marker</s><r>Красивые маркеры</r></e>
+  <e k="K" key="CBF_Role_PILLAR"><s>Pillar</s><r>Таблетки</r></e>
+  <e k="K" key="CBF_Role_ROOF"><s>Roof</s><r>Крыша</r></e>
+  <e k="K" key="CBF_Role_ROOF_THIN"><s>Thin roof</s><r>Тонкая крыша</r></e>
+  <e k="K" key="CBF_Role_WALL"><s>Wall</s><r>Стена</r></e>
+  <e k="K" key="CBF_Role_WALL_INNER"><s>Inner wall</s><r>Внутренняя стена</r></e>
+  <e k="K" key="CBF_Role_WINDOW"><s>Window</s><r>Окно</r></e>
+  <e k="K" key="CBF_Ru_Creatures"><s>Creatures</s><r>Существа</r></e>
+  <e k="K" key="CBF_Ru_CreaturesTip"><s>A pawn list. Each entry spawns exactly one pawn, weights do not count. Animals come as manhunters.</s><r>Список залога. Каждая запись порождает ровно одну пешку, веса не учитываются. Животные приходят как охотники за людьми.</r></e>
+  <e k="K" key="CBF_Ru_EachOne"><s>Each entry of the list is one pawn. One troll is a list with one entry, three wolves are three entries.</s><r>Каждая запись в списке представляет собой одну пешку. Один тролль — это список с одной записью, три волка — это три записи.</r></e>
+  <e k="K" key="CBF_Ru_Hint"><s>Who holds a quest ruin. The other ruin fields stay in the XML file.</s><r>Кто держит квест руины. Остальные поля разрушения остаются в XML-файле.</r></e>
+  <e k="K" key="CBF_Ru_ListEmpty"><s>The pawn list is empty, nothing spawns.</s><r>Список пешек пуст, ничего не спавнится.</r></e>
+  <e k="K" key="CBF_Ru_NoCreatures"><s>No creatures. The occupation above decides who holds the ruin.</s><r>Никаких существ. Вышеупомянутая оккупация решает, кому принадлежат руины.</r></e>
+  <e k="K" key="CBF_Ru_NoNew"><s>New ruins are set up in XML for now.</s><r>Новые руины на данный момент настроены в XML.</r></e>
+  <e k="K" key="CBF_Ru_Occ_Animals"><s>Wild animals</s><r>Дикие животные</r></e>
+  <e k="K" key="CBF_Ru_Occ_AnimalsTip"><s>Aggressive animals of the biome hold the ruin as manhunters, scaled by the threat points of the site.</s><r>Агрессивные животные биома держат руины как охотники за людьми, масштабируясь по опасным точкам этого места.</r></e>
+  <e k="K" key="CBF_Ru_Occ_Builder"><s>Original owners</s><r>Первоначальные владельцы</r></e>
+  <e k="K" key="CBF_Ru_Occ_BuilderTip"><s>The faction that built the place still holds it.</s><r>Фракция, построившая это место, до сих пор владеет им.</r></e>
+  <e k="K" key="CBF_Ru_Occ_None"><s>Nobody</s><r>Никто</r></e>
+  <e k="K" key="CBF_Ru_Occ_NoneTip"><s>The ruin stays empty.</s><r>Руины остаются пустыми.</r></e>
+  <e k="K" key="CBF_Ru_Occ_Occupier"><s>Occupiers</s><r>Оккупанты</r></e>
+  <e k="K" key="CBF_Ru_Occ_OccupierTip"><s>The conquering faction holds the ruin, drawn from raid points.</s><r>Фракция-завоеватель удерживает руины, полученные из рейдовых точек.</r></e>
+  <e k="K" key="CBF_Ru_Occupation"><s>Occupation</s><r>Занятие</r></e>
+  <e k="K" key="CBF_Ru_OpenNone"><s>Pick a pawn list first.</s><r>Сначала выберите список залогов.</r></e>
+  <e k="K" key="CBF_Ru_OpenTip"><s>Open the pawn list in the Pawn tab.</s><r>Откройте список пешек на вкладке Pawn.</r></e>
+  <e k="K" key="CBF_Ru_Replaces"><s>The creatures replace the occupation above.</s><r>Существа заменяют занятие, указанное выше.</r></e>
+  <e k="K" key="CBF_Ru_RightHint"><s>Saving changes only occupation and creatures in the ruin's file.</s><r>Сохранение меняет только род занятий и существ в файле руин.</r></e>
+  <e k="K" key="CBF_Ru_Spawns"><s>Spawns</s><r>Спавнится</r></e>
+  <e k="K" key="CBF_RuralAnyHouse"><s>Any small house or farmstead</s><r>Любой небольшой дом или усадьба</r></e>
+  <e k="K" key="CBF_RuralAsIs"><s>as the map has it</s><r>как это показано на карте</r></e>
+  <e k="K" key="CBF_RuralAsIsTip"><s>Leave whatever the map already has there. Pick something else to force it, for example packed dirt for a trampled pen.</s><r>Оставьте там все, что уже есть на карте. Выберите что-нибудь еще, чтобы усилить его, например, утрамбованную землю для растоптанной ручки.</r></e>
+  <e k="K" key="CBF_RuralChooseAnimals"><s>Choose animal list</s><r>Выберите список животных</r></e>
+  <e k="K" key="CBF_RuralChoosePlant"><s>Choose crop</s><r>Выберите урожай</r></e>
+  <e k="K" key="CBF_S_AddBuilding"><s>+ Building</s><r>+ Здание</r></e>
+  <e k="K" key="CBF_S_AddCondition"><s>+ Requirement</s><r>+ Требование</r></e>
+  <e k="K" key="CBF_S_AddDistrict"><s>+ District</s><r>+ Район</r></e>
+  <e k="K" key="CBF_S_AddEmplacement"><s>+ Emplacement</s><r>+ Размещение</r></e>
+  <e k="K" key="CBF_S_AddFaction"><s>+ Faction or category</s><r>+ Фракция или категория</r></e>
+  <e k="K" key="CBF_S_AddField"><s>+ Field</s><r>+ Поле</r></e>
+  <e k="K" key="CBF_S_AddGatehouse"><s>+ Gatehouse</s><r>+ Сторожка</r></e>
+  <e k="K" key="CBF_S_AddMine"><s>+ Mine</s><r>+ Мой</r></e>
+  <e k="K" key="CBF_S_AddModByHand"><s>+ by hand</s><r>+ вручную</r></e>
+  <e k="K" key="CBF_S_AddOutwork"><s>+ Obstacle</s><r>+ Препятствие</r></e>
+  <e k="K" key="CBF_S_AddPawnList"><s>+ Pawn list</s><r>+ Список пешек</r></e>
+  <e k="K" key="CBF_S_AddPen"><s>+ Pen</s><r>+ Ручка</r></e>
+  <e k="K" key="CBF_S_AddWall"><s>+ Wall piece</s><r>+ Настенный элемент</r></e>
+  <e k="K" key="CBF_S_AddWardTip"><s>Add a ward this settlement type does not have yet.</s><r>Добавьте район, которого еще нет в этом типе поселения.</r></e>
+  <e k="K" key="CBF_S_CampKindAdd"><s>Add camp type...</s><r>Добавить тип лагеря...</r></e>
+  <e k="K" key="CBF_S_CampKinds"><s>Camp types</s><r>Типы лагерей</r></e>
+  <e k="K" key="CBF_S_CampKindsNone"><s>none</s><r>никто</r></e>
+  <e k="K" key="CBF_S_CampKindsTip"><s>Quest sites this camp plan builds, for example bandit camps, outposts or work sites. Only used for settlements of the kind camp.</s><r>Квестовые площадки, которые строит этот план лагеря, например бандитские лагеря, аванпосты или рабочие места. Используется только для поселений типа лагеря.</r></e>
+  <e k="K" key="CBF_S_CatShort"><s>Cat.</s><r>Кот.</r></e>
+  <e k="K" key="CBF_S_CoreShapeLast"><s>At least one shape stays selected.</s><r>По крайней мере одна фигура остается выбранной.</r></e>
+  <e k="K" key="CBF_S_CoreShapes"><s>Old town shapes</s><r>Формы старого города</r></e>
+  <e k="K" key="CBF_S_CoreShapesAll"><s>All shapes allowed. Click a shape to exclude it.</s><r>Разрешены все формы. Щелкните фигуру, чтобы исключить ее.</r></e>
+  <e k="K" key="CBF_S_CoreSize"><s>Core size</s><r>Размер ядра</r></e>
+  <e k="K" key="CBF_S_CoreSizeTip"><s>Edge length of the settlement core in cells, as a range. The suburb and the countryside grow around it.</s><r>Длина ребра расчетного ядра в ячейках в диапазоне. Вокруг него растут пригород и сельская местность.</r></e>
+  <e k="K" key="CBF_S_CoreWall"><s>Core {0} to {1} · wall {2}</s><r>Ядро от {0} до {1} · стена {2}</r></e>
+  <e k="K" key="CBF_S_CropListGone"><s>The crop list {0} in {1} does not exist.</s><r>Список культур {0} в {1} не существует.</r></e>
+  <e k="K" key="CBF_S_CropListNew"><s>New crop list in the Lists tab</s><r>Новый список культур на вкладке «Списки»</r></e>
+  <e k="K" key="CBF_S_CropListNone"><s>No crop list created yet</s><r>Список обрезков еще не создан</r></e>
+  <e k="K" key="CBF_S_CropListPenTip"><s>Picks a crop list for the pen's growth.</s><r>Выбирает список культур по росту пера.</r></e>
+  <e k="K" key="CBF_S_CropListPick"><s>Choose a crop list</s><r>Выберите список обрезков</r></e>
+  <e k="K" key="CBF_S_CropListTip"><s>Picks a crop list from the Lists tab. The field then draws its plants from it by weight; the individually chosen plants only serve as fallback.</s><r>Выбирает список культур на вкладке «Списки». Затем поле вытягивает с себя растения по весу; индивидуально выбранные растения служат лишь запасным вариантом.</r></e>
+  <e k="K" key="CBF_S_CropSingle"><s>single plants</s><r>одиночные растения</r></e>
+  <e k="K" key="CBF_S_DarkPlants"><s>Fields inside the mountain are dark. These plants do not grow there: {0}. Choose plants that grow in the dark, such as mushrooms.</s><r>Поля внутри горы темны. Там не растут эти растения: {0}. Выбирайте растения, которые растут в темноте, например грибы.</r></e>
+  <e k="K" key="CBF_S_Deco"><s>Street decor</s><r>Уличный декор</r></e>
+  <e k="K" key="CBF_S_DecoAdded"><s>Street decor added</s><r>Добавлен уличный декор</r></e>
+  <e k="K" key="CBF_S_DecoChanged"><s>Street decor changed</s><r>Уличный декор изменился</r></e>
+  <e k="K" key="CBF_S_DecoCount"><s>{0} entries</s><r>{0} записей</r></e>
+  <e k="K" key="CBF_S_DecoEdge"><s>Edge</s><r>Край</r></e>
+  <e k="K" key="CBF_S_DecoEditList"><s>Open the object list and see or change what it places.</s><r>Откройте список объектов и посмотрите или измените то, что он помещает.</r></e>
+  <e k="K" key="CBF_S_DecoEmptyList"><s>empty, nothing is placed</s><r>пусто, ничего не размещено</r></e>
+  <e k="K" key="CBF_S_DecoF_Along"><s>along the road</s><r>по дороге</r></e>
+  <e k="K" key="CBF_S_DecoF_Auto"><s>automatic</s><r>автоматический</r></e>
+  <e k="K" key="CBF_S_DecoF_None"><s>any</s><r>любой</r></e>
+  <e k="K" key="CBF_S_DecoF_Road"><s>towards the road</s><r>к дороге</r></e>
+  <e k="K" key="CBF_S_DecoFacingTip"><s>Which way the things face.</s><r>В какую сторону обстоят дела.</r></e>
+  <e k="K" key="CBF_S_DecoMax"><s>Max</s><r>Макс</r></e>
+  <e k="K" key="CBF_S_DecoMaxTip"><s>At most this many per ward. 0 means no limit.</s><r>Максимум такое количество на отделение. 0 означает отсутствие ограничений.</r></e>
+  <e k="K" key="CBF_S_DecoNone"><s>none</s><r>никто</r></e>
+  <e k="K" key="CBF_S_DecoOwn"><s>Own entry</s><r>Собственный вход</r></e>
+  <e k="K" key="CBF_S_DecoOwnTip"><s>Pick a piece, a category or an object list yourself.</s><r>Выберите произведение, категорию или список объектов самостоятельно.</r></e>
+  <e k="K" key="CBF_S_DecoPick"><s>pick …</s><r>выбирать …</r></e>
+  <e k="K" key="CBF_S_DecoPickList"><s>Object list …</s><r>Список объектов…</r></e>
+  <e k="K" key="CBF_S_DecoPickPiece"><s>Piece or category …</s><r>Произведение или категория…</r></e>
+  <e k="K" key="CBF_S_DecoPlaceTip"><s>Edge: beside the road. Road: on the road itself.</s><r>Край: рядом с дорогой. Дорога: на самой дороге.</r></e>
+  <e k="K" key="CBF_S_DecoRoad"><s>Road</s><r>Дорога</r></e>
+  <e k="K" key="CBF_S_DecoSketchEmpty"><s>No street decor yet. Add a template below.</s><r>Уличного декора пока нет. Добавьте шаблон ниже.</r></e>
+  <e k="K" key="CBF_S_DecoSketchTip"><s>Sketch of a stretch of road with the entries below in their colours. Spacing and max are shown roughly.</s><r>Эскиз участка дороги с записями ниже в соответствующих цветах. Интервал и максимум показаны примерно.</r></e>
+  <e k="K" key="CBF_S_DecoSpacing"><s>Spacing</s><r>Расстояние</r></e>
+  <e k="K" key="CBF_S_DecoSpacingTip"><s>Cells between two placements, as a range. Smaller means denser.</s><r>Ячейки между двумя местами размещения в виде диапазона. Меньше – значит плотнее.</r></e>
+  <e k="K" key="CBF_S_DecoSpawns"><s>places: {0}</s><r>места: {0}</r></e>
+  <e k="K" key="CBF_S_DecoSpawnsMore"><s>places: {0} and more ({1})</s><r>мест: {0} и более ({1})</r></e>
+  <e k="K" key="CBF_S_DecoT_Light"><s>Light</s><r>Свет</r></e>
+  <e k="K" key="CBF_S_DecoT_LightTip"><s>Adds a street light entry at the edge with matching spacing, then lets you pick or create the object list.</s><r>Добавляет запись уличного фонаря по краю с соответствующим интервалом, а затем позволяет выбрать или создать список объектов.</r></e>
+  <e k="K" key="CBF_S_DecoT_Piece"><s>Piece</s><r>Кусок</r></e>
+  <e k="K" key="CBF_S_DecoT_PieceTip"><s>Adds an entry for small street pieces, at most 2, then lets you pick a piece or category.</s><r>Добавляет запись для небольших уличных фрагментов, максимум 2, а затем позволяет выбрать фрагмент или категорию.</r></e>
+  <e k="K" key="CBF_S_DecoT_Road"><s>Road</s><r>Дорога</r></e>
+  <e k="K" key="CBF_S_DecoT_RoadTip"><s>Adds an entry on the road, at most 3, then lets you pick or create the object list.</s><r>Добавляет запись на дороге, максимум 3, затем позволяет выбрать или создать список объектов.</r></e>
+  <e k="K" key="CBF_S_DecoT_Side"><s>Edge</s><r>Край</r></e>
+  <e k="K" key="CBF_S_DecoT_SideTip"><s>Adds an entry for benches, barrels and crates at the edge, then lets you pick or create the object list.</s><r>Добавляет запись о скамейках, бочках и ящиках на краю, а затем позволяет выбрать или создать список объектов.</r></e>
+  <e k="K" key="CBF_S_DecoT_Sign"><s>Sign</s><r>Знак</r></e>
+  <e k="K" key="CBF_S_DecoT_SignTip"><s>Adds a sign entry at the edge with wide spacing, then lets you pick or create the object list.</s><r>Добавляет запись знака по краю с большим интервалом, а затем позволяет выбрать или создать список объектов.</r></e>
+  <e k="K" key="CBF_S_DecoTemplates"><s>Template:</s><r>Шаблон:</r></e>
+  <e k="K" key="CBF_S_DecoWhatTip"><s>A piece, a piece category or an object list. Single things go into an object list.</s><r>Часть, категория части или список объектов. Отдельные объекты попадают в список объектов.</r></e>
+  <e k="K" key="CBF_S_DistrictNr"><s>District {0}</s><r>Район {0}</r></e>
+  <e k="K" key="CBF_S_DistrictPlacement"><s>Location of the district</s><r>Расположение района</r></e>
+  <e k="K" key="CBF_S_DistrictPlacementTip"><s>Where the district starts. Tick what it should lie near. Several ticks count equally, the district seeks a spot that suits all of them. Nothing ticked: it starts at a random spot away from the other districts.</s><r>С чего начинается район. Отметьте галочкой то, рядом с чем оно должно лежать. Несколько галочек имеют равное значение, район ищет место, которое устроит их всех. Ничего особенного: все начинается в случайном месте, вдали от других районов.</r></e>
+  <e k="K" key="CBF_S_Districts"><s>Districts</s><r>Районы</r></e>
+  <e k="K" key="CBF_S_Emplacements"><s>Emplacements</s><r>Места размещения</r></e>
+  <e k="K" key="CBF_S_EntryCondition"><s>Requires</s><r>Требует</r></e>
+  <e k="K" key="CBF_S_EntryIdeo"><s>Ideoligion</s><r>Идеолигия</r></e>
+  <e k="K" key="CBF_S_EntryIdeoCount"><s>{0} conditions</s><r>{0} условия</r></e>
+  <e k="K" key="CBF_S_EntryType"><s>Type</s><r>Тип</r></e>
+  <e k="K" key="CBF_S_Excluded"><s>Excluded</s><r>Исключено</r></e>
+  <e k="K" key="CBF_S_FactionOverviewTip"><s>Shows for each faction which settlements it gets and how often.</s><r>Показывает для каждой фракции, какие поселения она получает и как часто.</r></e>
+  <e k="K" key="CBF_S_Factions"><s>Factions</s><r>Фракции</r></e>
+  <e k="K" key="CBF_S_FactionsTip"><s>Factions or faction categories that explicitly get this settlement.</s><r>Фракции или категории фракций, которые явно получают это урегулирование.</r></e>
+  <e k="K" key="CBF_S_FarmHouses"><s>Farmsteads</s><r>Усадьбы</r></e>
+  <e k="K" key="CBF_S_FarmHousesTip"><s>Which pieces the field is laid around, for example a wind turbine or a mill. Without a choice the planner uses small houses and farmsteads.</s><r>Вокруг каких частей расставлено поле, например ветряк или мельница. Без выбора проектировщик использует небольшие дома и усадьбы.</r></e>
+  <e k="K" key="CBF_S_Field"><s>Field</s><r>Поле</r></e>
+  <e k="K" key="CBF_S_FieldNoPlants"><s>A field in {0} has no plants yet.</s><r>На поле в {0} пока нет растений.</r></e>
+  <e k="K" key="CBF_S_FieldsNoEffect"><s>Fields only take effect in the suburb and the countryside. They are not placed in this ward.</s><r>Поля действуют только в пригороде и сельской местности. Их не помещают в эту палату.</r></e>
+  <e k="K" key="CBF_S_FitsFactions"><s>Fits {0} factions</s><r>Подходит для {0} фракций.</r></e>
+  <e k="K" key="CBF_S_FooterHint"><s>Right-click a tech level to pick it and all higher ones</s><r>Щелкните правой кнопкой мыши технический уровень, чтобы выбрать его и все более высокие уровни.</r></e>
+  <e k="K" key="CBF_S_ForAll"><s>For all factions of these levels</s><r>Для всех фракций этих уровней</r></e>
+  <e k="K" key="CBF_S_Fortification"><s>Fortification</s><r>Фортификация</r></e>
+  <e k="K" key="CBF_S_FromList"><s>from list {0}</s><r>из списка {0}</r></e>
+  <e k="K" key="CBF_S_FromPoints"><s>from points</s><r>из точек</r></e>
+  <e k="K" key="CBF_S_Garrison"><s>Garrison</s><r>Гарнизон</r></e>
+  <e k="K" key="CBF_S_GarrisonAnchors"><s>Pawn anchors count against the budget</s><r>Залог ломбарда учитывается в бюджете</r></e>
+  <e k="K" key="CBF_S_GarrisonAnchorsTip"><s>How much of the points of pawns from pawn anchors in the pieces is taken from the budget. At 100 % every anchored pawn replaces a bought one, at 0 % anchored pawns come on top.</s><r>Сколько очков пешек от пешечных якорей в фигурах берется из бюджета. При 100 % каждая закрепленная пешка заменяет купленную, при 0 % закрепленные пешки выходят на первое место.</r></e>
+  <e k="K" key="CBF_S_GarrisonEntriesHint"><s>Set fixed pawns in the garrison entries of the wards: tick active, then min, max and weight.</s><r>Установите фиксированные пешки в гарнизонных записях вардов: отметьте активные, затем мин, макс и вес.</r></e>
+  <e k="K" key="CBF_S_GarrisonEntriesHintDungeon"><s>Set fixed pawns in the garrison entries of the levels: tick active, then min, max and weight.</s><r>Установите фиксированные пешки в записях гарнизонов на уровнях: отметьте активные, затем мин, макс и вес.</r></e>
+  <e k="K" key="CBF_S_GarrisonExample"><s>Raid {0}: {1} points</s><r>Рейд {0}: {1} очков</r></e>
+  <e k="K" key="CBF_S_GarrisonExampleNow"><s>now ({0}): {1} points</s><r>сейчас ({0}): {1} очков</r></e>
+  <e k="K" key="CBF_S_GarrisonFactor"><s>Garrison factor</s><r>Гарнизонный фактор</r></e>
+  <e k="K" key="CBF_S_GarrisonFactorHint"><s>× raid points (0 to 5), 0 = minimum only</s><r>× рейдовые очки (от 0 до 5), 0 = только минимум</r></e>
+  <e k="K" key="CBF_S_GarrisonFactorTip"><s>Factor on your colony's raid points, the points the storyteller would spend on a raid right now. The place buys its defenders with them, but never for less than the minimum points. Decimals are allowed, such as 0.5 for a village or 1.5 for a large city. Applies when you enter the map.</s><r>Учитывайте очки рейда вашей колонии, очки, которые рассказчик потратил бы на рейд прямо сейчас. Место покупает вместе с ними своих защитников, но никогда не меньше, чем за минимальное количество очков. Допускаются десятичные дроби, например 0,5 для деревни или 1,5 для большого города. Применяется при входе на карту.</r></e>
+  <e k="K" key="CBF_S_GarrisonMinPoints"><s>Minimum points</s><r>Минимум баллов</r></e>
+  <e k="K" key="CBF_S_GarrisonMinPointsTip"><s>The place always spends at least this many points on defenders, however poor the colony is.</s><r>Место всегда тратит как минимум столько очков на защитников, какой бы бедной ни была колония.</r></e>
+  <e k="K" key="CBF_S_GarrisonOff"><s>Garrison factor 0: garrison entries are fixed counts as before.</s><r>Коэффициент гарнизона 0: количество входов в гарнизоны, как и раньше, фиксированное.</r></e>
+  <e k="K" key="CBF_S_GarrisonShare"><s>Share per ward</s><r>Доля на палату</r></e>
+  <e k="K" key="CBF_S_GarrisonShareAuto"><s>Share automatically by size</s><r>Автоматически делиться по размеру</r></e>
+  <e k="K" key="CBF_S_GarrisonShareAutoDungeon"><s>Share automatically, rising towards the bottom</s><r>Поделиться автоматически, поднимаясь вниз</r></e>
+  <e k="K" key="CBF_S_GarrisonShareAutoTip"><s>Untick to set the shares yourself.</s><r>Снимите флажок, чтобы установить доли самостоятельно.</r></e>
+  <e k="K" key="CBF_S_GarrisonShareAutoTipDungeon"><s>Ticked, deeper levels get more defenders, the deepest the most. Untick to set the shares yourself.</s><r>Отмечено, что на более глубоких уровнях появляется больше защитников, причем на самых глубоких — больше всего. Снимите флажок, чтобы установить доли самостоятельно.</r></e>
+  <e k="K" key="CBF_S_GarrisonShareBySize"><s>by size</s><r>по размеру</r></e>
+  <e k="K" key="CBF_S_GarrisonShareDungeon"><s>Share per level</s><r>Доля за уровень</r></e>
+  <e k="K" key="CBF_S_GarrisonShareRest"><s>The last ward gets the rest up to 100%.</s><r>Последний подопечный получает остальное до 100%.</r></e>
+  <e k="K" key="CBF_S_GarrisonShareRestDungeon"><s>The last level gets the rest up to 100%.</s><r>Последний уровень получает остальное до 100%.</r></e>
+  <e k="K" key="CBF_S_GarrisonShareTip"><s>How the bought defenders are spread over the wards. The last ward always gets the rest up to 100%. Raising a ward takes from the last ward first, then from the others from the top.</s><r>Как раскиданы по подопечным купленные защитники. Последний вард всегда получает остаток до 100%. Для поднятия варда сначала берется последний вард, затем остальные сверху.</r></e>
+  <e k="K" key="CBF_S_GarrisonShareTipDungeon"><s>How the bought defenders of the whole dungeon are spread over its levels. The budget is set once when the first level is entered. The last level always gets the rest up to 100%. Raising a level takes from the last level first, then from the others from the top. A level repeated ×n gets its share once per repetition; the shares are then scaled to 100%.</s><r>Как раскиданы по его уровням купленные защитники всего подземелья. Бюджет задается один раз при входе на первый уровень. Последний уровень всегда получает остаток до 100%. Повышение уровня берется сначала с последнего уровня, затем с остальных сверху. Уровень, повторенный ×n, получает свою долю один раз за повторение; затем доли масштабируются до 100%.</r></e>
+  <e k="K" key="CBF_S_Gate"><s>Door</s><r>Дверь</r></e>
+  <e k="K" key="CBF_S_GateFromMaterialList"><s>from material list</s><r>из списка материалов</r></e>
+  <e k="K" key="CBF_S_GateTip"><s>The door for the passages in this ward's wall. Empty takes the door from the material list. Gatehouses are set under Fortification.</s><r>Дверь для проходов в стене этой палаты. Пустой берет дверь из списка материалов. Сторожки расположены под укреплениями.</r></e>
+  <e k="K" key="CBF_S_GateWithoutWall"><s>Without a wall there is no gate a gatehouse could fit into. Emplacements still work, the planner puts them on the outline of the town.</s><r>Без стены нет ворот, в которые могла бы вписаться сторожка. Огневые позиции еще работают, планировщик наносит их на контур города.</r></e>
+  <e k="K" key="CBF_S_Gatehouses"><s>Gatehouses</s><r>Сторожки</r></e>
+  <e k="K" key="CBF_S_General"><s>General</s><r>Общий</r></e>
+  <e k="K" key="CBF_S_Ground"><s>Roads and ground</s><r>Дороги и земля</r></e>
+  <e k="K" key="CBF_S_GroundNatural"><s>natural</s><r>естественный</r></e>
+  <e k="K" key="CBF_S_Growth"><s>Growth</s><r>Рост</r></e>
+  <e k="K" key="CBF_S_Herd"><s>Herd</s><r>Стадо</r></e>
+  <e k="K" key="CBF_S_IdeoAddWith"><s>Only with meme or precept...</s><r>Только с мемом или заповедью...</r></e>
+  <e k="K" key="CBF_S_IdeoAddWithout"><s>Not with meme or precept...</s><r>Не с мемом или заповедью...</r></e>
+  <e k="K" key="CBF_S_IdeoEntryTip"><s>Ideoligion condition: this entry is only built when the faction's ideoligion has, or lacks, the chosen memes or precepts.</s><r>Условие идеологии: эта запись создается только в том случае, если в идеологии фракции есть или отсутствуют выбранные мемы или заповеди.</r></e>
+  <e k="K" key="CBF_S_IdeoMemes"><s>Memes</s><r>Мемы</r></e>
+  <e k="K" key="CBF_S_IdeoPrecepts"><s>Precepts</s><r>Заповеди</r></e>
+  <e k="K" key="CBF_S_IdeoStyle"><s>Ideoligion style</s><r>Идеологический стиль</r></e>
+  <e k="K" key="CBF_S_IdeoStyleTip"><s>Furniture gets the style of the owning faction's ideoligion.</s><r>Мебель приобретает стиль идеологии владеющей фракции.</r></e>
+  <e k="K" key="CBF_S_IdeoWith"><s>only with {0}</s><r>только с {0}</r></e>
+  <e k="K" key="CBF_S_IdeoWithout"><s>not with {0}</s><r>не с {0}</r></e>
+  <e k="K" key="CBF_S_Kind"><s>Kind of place</s><r>Вид места</r></e>
+  <e k="K" key="CBF_S_KindTip"><s>Click switches to the next kind.</s><r>Щелчок переключает на следующий вид.</r></e>
+  <e k="K" key="CBF_S_Label"><s>Label</s><r>Этикетка</r></e>
+  <e k="K" key="CBF_S_ListGone"><s>The pawn list {0} no longer exists.</s><r>Список пешек {0} больше не существует.</r></e>
+  <e k="K" key="CBF_S_LocCenterTip"><s>The district starts as close to the middle of its ward as possible.</s><r>Район начинается как можно ближе к середине своего округа.</r></e>
+  <e k="K" key="CBF_S_LocGateTip"><s>The district starts close to a gate.</s><r>Район начинается недалеко от ворот.</r></e>
+  <e k="K" key="CBF_S_LocMainTip"><s>The district starts along the main road.</s><r>Район начинается вдоль главной дороги.</r></e>
+  <e k="K" key="CBF_S_LocWallTip"><s>The district starts close to the wall of its ward.</s><r>Район начинается недалеко от стены своего прихода.</r></e>
+  <e k="K" key="CBF_S_MapSize"><s>Map size</s><r>Размер карты</r></e>
+  <e k="K" key="CBF_S_MapSizeTip"><s>Edge length of the map this settlement type asks for, 150 to 400. The larger of this and the world setting is used.</s><r>Длина края карты, которую требует этот тип поселения, составляет от 150 до 400. Используется большее значение и настройка мира.</r></e>
+  <e k="K" key="CBF_S_MaterialList"><s>Material list</s><r>Список материалов</r></e>
+  <e k="K" key="CBF_S_MaterialListNone"><s>No material list chosen. Without one this settlement type is switched off.</s><r>Список материалов не выбран. Без него данный тип расчета отключается.</r></e>
+  <e k="K" key="CBF_S_MaterialListTip"><s>The material list decides which walls, floors, doors and other things the pieces of this settlement type get.</s><r>Список материалов определяет, какие стены, полы, двери и другие вещи получат части этого типа поселения.</r></e>
+  <e k="K" key="CBF_S_MaterialListUnusable"><s>This material list is unusable, critical roles find no thing.</s><r>Этот список материалов непригоден для использования, критические роли ничего не находят.</r></e>
+  <e k="K" key="CBF_S_MergeTip"><s>Merges the patch files written by the editor into one.</s><r>Объединяет файлы патчей, написанные редактором, в один.</r></e>
+  <e k="K" key="CBF_S_Mine"><s>Mine</s><r>Мой</r></e>
+  <e k="K" key="CBF_S_MineChamberSize"><s>Chamber size</s><r>Размер камеры</r></e>
+  <e k="K" key="CBF_S_MineChambers"><s>Chambers</s><r>Чемберс</r></e>
+  <e k="K" key="CBF_S_MineHuts"><s>Starts at</s><r>Начинается в</r></e>
+  <e k="K" key="CBF_S_MineHutsAny"><s>any building</s><r>любое здание</r></e>
+  <e k="K" key="CBF_S_MineHutsTip"><s>Categories of the buildings the mine may start from. Empty: any building of the district.</s><r>Категории зданий, из которых может начинаться шахта. Пусто: любое здание района.</r></e>
+  <e k="K" key="CBF_S_MineLength"><s>Length</s><r>Длина</r></e>
+  <e k="K" key="CBF_S_MineLumps"><s>Rock chunks</s><r>Кусочки камня</r></e>
+  <e k="K" key="CBF_S_MineOre"><s>Ore</s><r>Руда</r></e>
+  <e k="K" key="CBF_S_MineOreNone"><s>no ore</s><r>нет часов</r></e>
+  <e k="K" key="CBF_S_MineOreShare"><s>Ore share</s><r>Доля руды</r></e>
+  <e k="K" key="CBF_S_MineOreShareTip"><s>Share of rock cells along the mine that become ore, from 0 to 1.</s><r>Доля ячеек горных пород вдоль рудника, которые становятся рудой, от 0 до 1.</r></e>
+  <e k="K" key="CBF_S_MinePlace_Chamber"><s>chamber</s><r>камера</r></e>
+  <e k="K" key="CBF_S_MinePlace_ChamberTip"><s>In a chamber at the end of a tunnel. Small things stand by the wall.</s><r>В камере в конце туннеля. Мелкие вещи стоят у стены.</r></e>
+  <e k="K" key="CBF_S_MinePlace_Entrance"><s>entrance</s><r>вход</r></e>
+  <e k="K" key="CBF_S_MinePlace_EntranceTip"><s>On the first cells of the tunnel, right behind the mine entrance at the hut.</s><r>На первых клетках тоннеля, сразу за входом в шахту у хижины.</r></e>
+  <e k="K" key="CBF_S_MinePlace_Tunnel"><s>tunnel</s><r>туннель</r></e>
+  <e k="K" key="CBF_S_MinePlace_TunnelTip"><s>Along the tunnels, only where the tunnel is wide enough to pass by.</s><r>По туннелям, только там, где туннель достаточно широк, чтобы пройти мимо.</r></e>
+  <e k="K" key="CBF_S_MineThings"><s>Things</s><r>Вещи</r></e>
+  <e k="K" key="CBF_S_MineThingsNone"><s>none</s><r>никто</r></e>
+  <e k="K" key="CBF_S_MineThingsTip"><s>Things in the mine. Click to open the window where you enter them by place.</s><r>Вещи в шахте. Нажмите, чтобы открыть окно, где вы вводите их по местам.</r></e>
+  <e k="K" key="CBF_S_MineTip"><s>A mine dug into the rock from a building of this district: a tunnel with chambers.</s><r>От здания этого района в скале вырыта мина: тоннель с камерами.</r></e>
+  <e k="K" key="CBF_S_MineWidth"><s>Width</s><r>Ширина</r></e>
+  <e k="K" key="CBF_S_ModsAuto"><s>{0}, automatic</s><r>{0}, автоматический</r></e>
+  <e k="K" key="CBF_S_MountainMantle"><s>Rock mantle</s><r>Каменная мантия</r></e>
+  <e k="K" key="CBF_S_MountainMantleDefault"><s>0 = standard {0} for a mountain city</s><r>0 = стандарт {0} для горного города</r></e>
+  <e k="K" key="CBF_S_MountainMantleNone"><s>0 = no mountain</s><r>0 = нет горы</r></e>
+  <e k="K" key="CBF_S_MountainMantleTip"><s>Minimum rock thickness around old town and suburb, 0 to {0}. A mountain city uses {1} when this is 0. Other types only get a mountain when this is set.</s><r>Минимальная толщина породы вокруг старого города и пригорода: от 0 до {0}. Горный город использует {1}, когда этот параметр равен 0. Другие типы получают гору только тогда, когда этот параметр установлен.</r></e>
+  <e k="K" key="CBF_S_NDistricts"><s>{0} districts</s><r>{0} районов</r></e>
+  <e k="K" key="CBF_S_NFields"><s>{0} fields</s><r>{0} поля</r></e>
+  <e k="K" key="CBF_S_NPens"><s>{0} pens</s><r>{0} ручки</r></e>
+  <e k="K" key="CBF_S_NetAll"><s>All allowed. Click a variant to exclude it.</s><r>Все разрешено. Нажмите на вариант, чтобы исключить его.</r></e>
+  <e k="K" key="CBF_S_NetLast"><s>At least one variant stays selected.</s><r>По крайней мере один вариант остается выбранным.</r></e>
+  <e k="K" key="CBF_S_NetRoads"><s>Street network</s><r>Уличная сеть</r></e>
+  <e k="K" key="CBF_S_NetShapes"><s>Town shapes</s><r>Формы города</r></e>
+  <e k="K" key="CBF_S_NewTip"><s>Create a new settlement. It gets town, suburb and countryside.</s><r>Создайте новое поселение. Это город, пригород и сельская местность.</r></e>
+  <e k="K" key="CBF_S_NoFactionFits"><s>No faction gets this settlement. Pick a tech level with For all factions or add a faction.</s><r>Ни одна фракция не получит это поселение. Выберите технический уровень с помощью «Для всех фракций» или добавьте фракцию.</r></e>
+  <e k="K" key="CBF_S_NoFortModern"><s>not possible for modern towns</s><r>невозможно для современных городов</r></e>
+  <e k="K" key="CBF_S_NoFortRural"><s>not possible in the countryside</s><r>невозможно в сельской местности</r></e>
+  <e k="K" key="CBF_S_NoTechLevel"><s>No tech level</s><r>Нет технического уровня</r></e>
+  <e k="K" key="CBF_S_NoWall"><s>no wall</s><r>нет стены</r></e>
+  <e k="K" key="CBF_S_NoWdLoot"><s>No WD loot</s><r>Нет лута WD</r></e>
+  <e k="K" key="CBF_S_NoWdLootTip"><s>Switches off the extra loot World Domination 2.0 adds to settlements of this type.</s><r>Отключает дополнительную добычу, которую World Domination 2.0 добавляет в поселения этого типа.</r></e>
+  <e k="K" key="CBF_S_NoneYet"><s>none yet</s><r>пока нет</r></e>
+  <e k="K" key="CBF_S_OneDistrict"><s>1 district</s><r>1 район</r></e>
+  <e k="K" key="CBF_S_OpenFileTip"><s>Opens the settlement's file in your text editor. The editor reloads changes made there on its own.</s><r>Открывает файл поселения в текстовом редакторе. Редактор самостоятельно перезагрузит внесенные там изменения.</r></e>
+  <e k="K" key="CBF_S_OutworkGone"><s>The outwork entry {0} names no existing piece and no existing category.</s><r>Запись внешней работы {0} не называет ни существующего произведения, ни существующей категории.</r></e>
+  <e k="K" key="CBF_S_OutworkNoPiece"><s>An outwork entry names no piece and no category.</s><r>В записи надстройки не упоминается ни произведение, ни категория.</r></e>
+  <e k="K" key="CBF_S_Outworks"><s>Outworks</s><r>Надстройки</r></e>
+  <e k="K" key="CBF_S_OutworksNone"><s>No obstacles in front of this ward.</s><r>Никаких препятствий перед этим отделением нет.</r></e>
+  <e k="K" key="CBF_S_OwDistance"><s>Distance</s><r>Расстояние</r></e>
+  <e k="K" key="CBF_S_OwGate"><s>Gate clearance</s><r>Зазор ворот</r></e>
+  <e k="K" key="CBF_S_OwRun"><s>Group length</s><r>Длина группы</r></e>
+  <e k="K" key="CBF_S_OwSpacing"><s>Gap</s><r>Зазор</r></e>
+  <e k="K" key="CBF_S_OwnerAlle"><s>For all factions of these levels</s><r>Для всех фракций этих уровней</r></e>
+  <e k="K" key="CBF_S_OwnerAlleTip"><s>This plan applies to every faction whose tech level is ticked, unless that faction has plans of its own through faction tags. Its own plans always win.</s><r>Этот план применяется к каждой фракции, чей технический уровень отмечен галочкой, если только у этой фракции нет собственных планов через теги фракции. Собственные планы всегда побеждают.</r></e>
+  <e k="K" key="CBF_S_OwnerFraktionen"><s>Factions</s><r>Фракции</r></e>
+  <e k="K" key="CBF_S_OwnerFraktionenTip"><s>Only the factions or faction categories listed below get this settlement.</s><r>Только фракции или категории фракций, перечисленные ниже, получают это соглашение.</r></e>
+  <e k="K" key="CBF_S_OwnerKeine"><s>none</s><r>никто</r></e>
+  <e k="K" key="CBF_S_OwnerKeineInfo"><s>Only quests and sites can use this settlement.</s><r>Только квесты и сайты могут использовать это поселение.</r></e>
+  <e k="K" key="CBF_S_OwnerKeineTip"><s>No faction gets this settlement. Only quests and sites can use it.</s><r>Ни одна фракция не получит это поселение. Его могут использовать только квесты и сайты.</r></e>
+  <e k="K" key="CBF_S_Pen"><s>Pen</s><r>Ручка</r></e>
+  <e k="K" key="CBF_S_PenNoAnimals"><s>A pen in {0} has no animals yet.</s><r>В загоне в {0} пока нет животных.</r></e>
+  <e k="K" key="CBF_S_PensNoEffect"><s>Pens only take effect in the countryside. They are not placed in this ward.</s><r>Ручки действуют только в сельской местности. Их не помещают в эту палату.</r></e>
+  <e k="K" key="CBF_S_PickOne"><s>Pick a settlement on the left.</s><r>Выберите поселение слева.</r></e>
+  <e k="K" key="CBF_S_PieceOrCategory"><s>Piece or category</s><r>Часть или категория</r></e>
+  <e k="K" key="CBF_S_PlanBiomes"><s>Biomes</s><r>Биомы</r></e>
+  <e k="K" key="CBF_S_PlanBiomesTip"><s>The settlement type only appears on tiles of these biomes, for example only in deserts. Empty means all biomes.</s><r>Тип поселения появляется только на плитках этих биомов, например, только в пустынях. Пустой означает все биомы.</r></e>
+  <e k="K" key="CBF_S_PlanHilliness"><s>Hilliness</s><r>Холмистость</r></e>
+  <e k="K" key="CBF_S_PlanHillinessTip"><s>How hilly the tile is on the world map: flat, small hills, large hills or mountainous. The settlement type only appears at the chosen levels. Empty means all.</s><r>Насколько холмистый участок на карте мира: ровный, небольшие холмы, большие холмы или гористый. Тип поселения появляется только на выбранных уровнях. Пусто означает все.</r></e>
+  <e k="K" key="CBF_S_PlanIdeoAny"><s>any</s><r>любой</r></e>
+  <e k="K" key="CBF_S_PlanIdeoNoDlc"><s>Needs Ideology. Without the DLC this condition is ignored.</s><r>Нужна идеология. Без DLC это условие игнорируется.</r></e>
+  <e k="K" key="CBF_S_PlanIdeoWith"><s>Ideoligion has</s><r>Идеолигия имеет</r></e>
+  <e k="K" key="CBF_S_PlanIdeoWithTip"><s>Only factions whose main ideoligion has at least one of these memes or precepts get this settlement type. Example: tunneler for a mountain city. Empty means all factions.</s><r>Этот тип поселения получают только фракции, чья основная идеология содержит хотя бы один из этих мемов или заповедей. Пример: туннелепроходец горного города. Пусто означает все фракции.</r></e>
+  <e k="K" key="CBF_S_PlanIdeoWithout"><s>Ideoligion lacks</s><r>Идеологии не хватает</r></e>
+  <e k="K" key="CBF_S_PlanIdeoWithoutTip"><s>Factions whose main ideoligion has one of these memes or precepts never get this settlement type. Empty means no restriction.</s><r>Фракции, чья основная идеология содержит один из этих мемов или заповедей, никогда не получают поселения этого типа. Пусто означает отсутствие ограничений.</r></e>
+  <e k="K" key="CBF_S_PlanLandforms"><s>Landforms</s><r>Формы рельефа</r></e>
+  <e k="K" key="CBF_S_PlanLandformsTip"><s>Features of the tile such as coast, river, lake, valley or canyon. The settlement type only appears if the tile has at least one of them. Empty means any.</s><r>Особенности плитки, такие как побережье, река, озеро, долина или каньон. Тип поселения появляется только в том случае, если на тайле есть хотя бы один из них. Пустой означает любой.</r></e>
+  <e k="K" key="CBF_S_PlanLoosen"><s>The type only appears where all conditions apply. Without the Ideology DLC, ideoligion conditions are ignored.</s><r>Тип появляется только в том случае, если применимы все условия. Без DLC «Идеология» условия идеологии игнорируются.</r></e>
+  <e k="K" key="CBF_S_PlanNotBiomes"><s>Not in biomes</s><r>Не в биомах</r></e>
+  <e k="K" key="CBF_S_PlanNotBiomesTip"><s>The settlement type never appears on tiles of these biomes.</s><r>Тип поселения никогда не появляется на плитках этих биомов.</r></e>
+  <e k="K" key="CBF_S_PlanNotLandforms"><s>Not with landform</s><r>Не с формой рельефа</r></e>
+  <e k="K" key="CBF_S_PlanNotLandformsTip"><s>The settlement type never appears on tiles with one of these landforms.</s><r>Тип поселения никогда не появляется на плитках с одной из этих форм рельефа.</r></e>
+  <e k="K" key="CBF_S_PlanRuin"><s>Build as ruin</s><r>Строить как руины</r></e>
+  <e k="K" key="CBF_S_PlanRuinNone"><s>no ruin</s><r>никаких разрушений</r></e>
+  <e k="K" key="CBF_S_PlanRuinTip"><s>Builds every place of this type as a ruin: walls torn down, rooms burnt out, roofs partly collapsed, overgrown. The faction still lives there. Plundered means little loot, not plundered means the loot stays. A ruin from a quest or site takes precedence.</s><r>Любое место такого типа строит как руины: стены снесены, комнаты сожжены, крыши частично обрушены, заросли. Фракция до сих пор живет там. Разграблено – значит мало добычи, не разграблено – значит добыча останется. Руины из квеста или места имеют приоритет.</r></e>
+  <e k="K" key="CBF_S_PlanWhere"><s>Appears only if</s><r>Появляется только если</r></e>
+  <e k="K" key="CBF_S_PlanWhereTip"><s>Conditions for this settlement type. Empty rows restrict nothing.</s><r>Условия для данного типа поселения. Пустые строки ничего не ограничивают.</r></e>
+  <e k="K" key="CBF_S_PowerAuto"><s>Added automatically</s><r>Добавлено автоматически</r></e>
+  <e k="K" key="CBF_S_PowerAutoNone"><s>nothing, the plan covers itself</s><r>ничего, план накрывается сам собой</r></e>
+  <e k="K" key="CBF_S_PowerAutoTip"><s>After building, the planner adds generators until safe generation reaches {0} times the turret load, and above {3} W of load up to {2} battery stores until the storage lasts {1} days. The figures here are an estimate: it counts the smallest generator and battery store piece, while the planner may use other pieces at build time if space is short.</s><r>После строительства планировщик добавляет генераторы до тех пор, пока безопасная генерация не достигнет {0}-кратной нагрузки турели и нагрузки выше {3} Вт до {2} аккумуляторных батарей, пока срок хранения не продлится {1} дней. Приведенные здесь цифры являются приблизительными: учитываются наименьшие детали генератора и аккумулятора, а проектировщик может использовать другие детали во время сборки, если места мало.</r></e>
+  <e k="K" key="CBF_S_PowerAutoUnavailable"><s>nothing, no suitable generator or battery store piece is available</s><r>ничего, подходящего генератора или аккумулятора нет в наличии</r></e>
+  <e k="K" key="CBF_S_PowerAutoValue"><s>estimate, worst case {0} W missing: generator pieces: {1}, single generators: {2}, battery stores: {3}</s><r>оценка, наихудший случай {0} Не хватает Вт: части генератора: {1}, отдельные генераторы: {2}, запасы аккумуляторов: {3}</r></e>
+  <e k="K" key="CBF_S_PowerFailed"><s>Power balance could not be calculated: {0}</s><r>Не удалось рассчитать баланс мощности: {0}</r></e>
+  <e k="K" key="CBF_S_PowerLoad"><s>Turret load</s><r>Загрузка башни</r></e>
+  <e k="K" key="CBF_S_PowerLoadTip"><s>Sum of all powered defences: turrets, buildings in the Security category and shield generators.</s><r>Сумма всей активной защиты: турелей, зданий категории «Безопасность» и генераторов щита.</r></e>
+  <e k="K" key="CBF_S_PowerNone"><s>No powered defences in the plan.</s><r>Никакой энергетической защиты в плане нет.</r></e>
+  <e k="K" key="CBF_S_PowerPreview"><s>Preview</s><r>Предварительный просмотр</r></e>
+  <e k="K" key="CBF_S_PowerPreviewTip"><s>Counted in the map preview above, before the automatic additions.</s><r>Учитывается при предварительном просмотре карты выше, до автоматического добавления.</r></e>
+  <e k="K" key="CBF_S_PowerPreviewValue"><s>towers: {0}, turret load: {1} W, safe: {2} W, storage: {3} Wd</s><r>башни: {0}, нагрузка на турель: {1} Вт, безопасность: {2} Вт, хранилище: {3} Вт</r></e>
+  <e k="K" key="CBF_S_PowerRangeW"><s>{0} to {1} W</s><r>{0} — это {1} Вт</r></e>
+  <e k="K" key="CBF_S_PowerRangeWOne"><s>{0} W</s><r>{0} Вт</r></e>
+  <e k="K" key="CBF_S_PowerRangeWd"><s>{0} to {1} Wd</s><r>от {0} до {1} Вд</r></e>
+  <e k="K" key="CBF_S_PowerRangeWdOne"><s>{0} Wd</s><r>{0} Вд</r></e>
+  <e k="K" key="CBF_S_PowerRuntime"><s>Battery runtime</s><r>Время работы от батареи</r></e>
+  <e k="K" key="CBF_S_PowerRuntimeNoLoadValue"><s>no load in the best case, {0} days worst case</s><r>в лучшем случае нет нагрузки, в худшем случае {0} дней</r></e>
+  <e k="K" key="CBF_S_PowerRuntimeTip"><s>How long the batteries carry the turret load on their own. Best case: most storage, lowest load. Worst case: least storage, highest load.</s><r>Как долго батареи несут башенную нагрузку самостоятельно. В лучшем случае: больше места для хранения, наименьшая нагрузка. Худший случай: меньше места для хранения, максимальная нагрузка.</r></e>
+  <e k="K" key="CBF_S_PowerRuntimeValue"><s>{0} days best case, {1} days worst case</s><r>{0} дней в лучшем случае, {1} дней в худшем случае</r></e>
+  <e k="K" key="CBF_S_PowerSafe"><s>Safe generation</s><r>Безопасное поколение</r></e>
+  <e k="K" key="CBF_S_PowerSafeTip"><s>Generators that run day and night: fuel generators and fixed plants. Solar and wind do not count.</s><r>Генераторы, работающие днем ​​и ночью: топливные генераторы и стационарные установки. Солнечная энергия и ветер не в счет.</r></e>
+  <e k="K" key="CBF_S_PowerSolarWind"><s>Solar and wind</s><r>Солнечная и ветровая энергия</r></e>
+  <e k="K" key="CBF_S_PowerSolarWindTip"><s>Not counted as safe generation. Solar delivers nothing at night, wind depends on the weather.</s><r>Не считается безопасным поколением. Солнечная энергия ночью ничего не дает, ветер зависит от погоды.</r></e>
+  <e k="K" key="CBF_S_PowerSolarWindValue"><s>solar up to {0} W by day, 0 W at night; wind 0 to {1} W</s><r>солнечная до {0} Вт днем, 0 Вт ночью; ветер от 0 до {1} Вт</r></e>
+  <e k="K" key="CBF_S_PowerStorage"><s>Storage</s><r>Хранилище</r></e>
+  <e k="K" key="CBF_S_PowerStorageTip"><s>Sum of the battery capacity.</s><r>Сумма емкости аккумулятора.</r></e>
+  <e k="K" key="CBF_S_PowerTowers"><s>towers estimated: {0} to {1}</s><r>оценка башен: от {0} до {1}</r></e>
+  <e k="K" key="CBF_S_PowerTowersTip"><s>Towers without a fixed count are placed by the planner along the wall. Their number is estimated from the core size: {0} to {1}.</s><r>Башни без фиксированного количества размещаются проектировщиком вдоль стены. Их количество оценивается по размеру ядра: от {0} до {1}.</r></e>
+  <e k="K" key="CBF_S_PowerWarnBattery"><s>Even with the automatic additions the storage lasts less than {0} days in the worst case, plan batteries.</s><r>Даже при автоматическом добавлении срок хранения составляет менее {0} дней, в худшем случае планируйте батареи.</r></e>
+  <e k="K" key="CBF_S_PowerWarnGen"><s>Even with the automatic additions the power is not enough in the worst case, plan more generators.</s><r>Даже при автоматическом добавлении мощности будет недостаточно, в худшем случае запланируйте больше генераторов.</r></e>
+  <e k="K" key="CBF_S_PreviewOff"><s>Hide preview</s><r>Скрыть предварительный просмотр</r></e>
+  <e k="K" key="CBF_S_PreviewOn"><s>Show preview</s><r>Показать предварительный просмотр</r></e>
+  <e k="K" key="CBF_S_PreviewWindowTip"><s>Opens the preview large in its own window, with legend and tally.</s><r>Открывает предварительный просмотр в большом окне в отдельном окне с легендой и подсчетом.</r></e>
+  <e k="K" key="CBF_S_Priority"><s>Priority</s><r>Приоритет</r></e>
+  <e k="K" key="CBF_S_PriorityTip"><s>Which entry gets space first. With equal priority the previous order applies (minimum count, size). Low entries may stay below their minimum when space runs out.</s><r>Какая запись получит место первой. С равным приоритетом применяется предыдущий порядок (минимальное количество, размер). Низкие записи могут оставаться ниже минимального значения, когда место заканчивается.</r></e>
+  <e k="K" key="CBF_S_RangeOrder"><s>The minimum is larger than the maximum.</s><r>Минимум больше максимума.</r></e>
+  <e k="K" key="CBF_S_RangeOutside"><s>A value is outside the allowed range of {0} to {1}.</s><r>Значение находится за пределами допустимого диапазона от {0} до {1}.</r></e>
+  <e k="K" key="CBF_S_RemoveDistrict"><s>Remove district</s><r>Удалить район</r></e>
+  <e k="K" key="CBF_S_RequiredFor"><s>for {0}</s><r>для {0}</r></e>
+  <e k="K" key="CBF_S_RequiresChip"><s>{0} of {1}</s><r>{0} из {1}</r></e>
+  <e k="K" key="CBF_S_RequiresClear"><s>Remove condition</s><r>Удалить условие</r></e>
+  <e k="K" key="CBF_S_RequiresCountText"><s>At least {0} of {1}</s><r>Не менее {0} из {1}</r></e>
+  <e k="K" key="CBF_S_RequiresCountWrong"><s>The count {0} does not fit {1} chosen names. It must be between 1 and {1}.</s><r>Число {0} не соответствует {1} выбранным именам. Оно должно быть между 1 и {1}.</r></e>
+  <e k="K" key="CBF_S_RequiresCycle"><s>Cycle: these entries need each other and are never built.</s><r>Цикл: эти записи нужны друг другу и никогда не создаются.</r></e>
+  <e k="K" key="CBF_S_RequiresNone"><s>no condition</s><r>нет условий</r></e>
+  <e k="K" key="CBF_S_RequiresPick"><s>Pick pieces or categories</s><r>Выберите фрагменты или категории</r></e>
+  <e k="K" key="CBF_S_RequiresTip"><s>Condition: this entry is only built if enough of the chosen pieces or categories stand in the whole settlement. Each name counts once. Conditional entries are planned after the others. If the condition is not met, the entry is dropped, even with priority Critical. Dungeons have no conditions.</s><r>Условие: эта запись создается только в том случае, если во всем поселении имеется достаточное количество выбранных частей или категорий. Каждое имя имеет значение один раз. Условные записи планируются после остальных. Если условие не выполняется, запись удаляется, даже с приоритетом Критический. В подземельях нет условий.</r></e>
+  <e k="K" key="CBF_S_RequiresUnknown"><s>Unknown name: {0}. This condition is never met.</s><r>Неизвестное имя: {0}. Это условие никогда не выполняется.</r></e>
+  <e k="K" key="CBF_S_Reroll"><s>Reroll</s><r>Переролл</r></e>
+  <e k="K" key="CBF_S_RerollTip"><s>Recalculates the preview with a new seed.</s><r>Пересчитывает предварительный просмотр с новым начальным значением.</r></e>
+  <e k="K" key="CBF_S_RiafGarrison"><s>Garrison</s><r>Гарнизон</r></e>
+  <e k="K" key="CBF_S_RiafHolding"><s>RIAF holding</s><r>Холдинг РМАФ</r></e>
+  <e k="K" key="CBF_S_RiafHoldingTip"><s>Makes this settlement type the plan for villages, towns or garrisons of A Rim of Ice and Fire. CBF then builds the houses and walls of such holdings; defenders, levies, residents and stores stay with A Rim of Ice and Fire. A type with a holding kind is not used for normal settlements.</s><r>Делает это поселение типом для деревень, городов или гарнизонов Края Льда и Огня. Затем CBF строит дома и стены таких владений; защитники, ополченцы, жители и магазины остаются в Крае Льда и Пламени. Тип с видом холдинга не используется для обычных расчетов.</r></e>
+  <e k="K" key="CBF_S_RiafNone"><s>None</s><r>Никто</r></e>
+  <e k="K" key="CBF_S_RiafTown"><s>Town</s><r>Город</r></e>
+  <e k="K" key="CBF_S_RiafVillage"><s>Village</s><r>Деревня</r></e>
+  <e k="K" key="CBF_S_ShowPieces"><s>Show pieces</s><r>Показать кусочки</r></e>
+  <e k="K" key="CBF_S_Soil"><s>Soil</s><r>Земля</r></e>
+  <e k="K" key="CBF_S_Standard"><s>default</s><r>по умолчанию</r></e>
+  <e k="K" key="CBF_S_SuburbIslands"><s>Suburb areas</s><r>Пригородные районы</r></e>
+  <e k="K" key="CBF_S_SuburbOnly"><s>only with a suburb</s><r>только с пригородом</r></e>
+  <e k="K" key="CBF_S_SuburbOnlyTip"><s>These fields only apply to settlement types with a suburb ward. Add a suburb ward under Wards to use them.</s><r>Эти поля применимы только к типам поселений с пригородным районом. Чтобы использовать их, добавьте пригородный вард в разделе «Обереги».</r></e>
+  <e k="K" key="CBF_S_SuburbRing"><s>Suburb as ring</s><r>Пригород как кольцо</r></e>
+  <e k="K" key="CBF_S_SuburbRingTip"><s>Only for a suburb wall with a walkway (depth 3 or more). On: the suburb becomes a closed ring around the town. Off: the suburb stays as separate areas on the sides, as many as Suburb areas allows. With Suburb areas at 0 the ring stays.</s><r>Только для дачной стены с проходом (глубиной 3 и более). Дальше: пригород превращается в замкнутое кольцо вокруг города. Выключено: пригород остается отдельными областями по бокам, столько, сколько позволяет пригород. Если для пригородных зон установлено значение 0, кольцо останется.</r></e>
+  <e k="K" key="CBF_S_TabBasics"><s>Basics</s><r>Основы</r></e>
+  <e k="K" key="CBF_S_TabBasicsTip"><s>What the place looks like: name, kind, material list, sizes, suburb, ruin, map icon.</s><r>Как выглядит это место: название, вид, список материалов, размеры, пригород, руины, значок на карте.</r></e>
+  <e k="K" key="CBF_S_TabGarrison"><s>Garrison</s><r>Гарнизон</r></e>
+  <e k="K" key="CBF_S_TabGarrisonTip"><s>How many defenders the place has: minimum points, wealth factor and share per ward.</s><r>Сколько защитников у места: минимальное количество очков, коэффициент богатства и доля на приход.</r></e>
+  <e k="K" key="CBF_S_TabMods"><s>Mods</s><r>Моды</r></e>
+  <e k="K" key="CBF_S_TabModsTip"><s>Required mods, takeover, World Domination, A Rim of Ice and Fire and camp types.</s><r>Требуемые моды, захват, мировое господство, кольцо льда и пламени и типы лагерей.</r></e>
+  <e k="K" key="CBF_S_TabPlacement"><s>Placement</s><r>Размещение</r></e>
+  <e k="K" key="CBF_S_TabPlacementTip"><s>Who gets the place and where it appears: tech levels, factions, weight and conditions.</s><r>Кому достаётся место и где оно появляется: техуровни, фракции, вес и условия.</r></e>
+  <e k="K" key="CBF_S_TabPower"><s>Power</s><r>Власть</r></e>
+  <e k="K" key="CBF_S_TabPowerTip"><s>Power balance of the plan for powered defences: turret load, safe generation, storage. Minimum: every slot with the most frugal piece at its minimum count. Maximum: every slot with the hungriest piece at its maximum count.</s><r>Баланс мощности плана энергетической защиты: загрузка башни, безопасная генерация, хранение. Минимум: каждый слот с самым скромным элементом при минимальном количестве. Максимум: каждый слот с максимальным количеством самой голодной фигуры.</r></e>
+  <e k="K" key="CBF_S_TakeoverOff"><s>Off</s><r>Выключенный</r></e>
+  <e k="K" key="CBF_S_TakeoverOn"><s>On</s><r>На</r></e>
+  <e k="K" key="CBF_S_TechLevels"><s>Tech levels</s><r>Технические уровни</r></e>
+  <e k="K" key="CBF_S_TreeShare"><s>Tree share</s><r>Доля дерева</r></e>
+  <e k="K" key="CBF_S_TreeShareTip"><s>Share of the wild trees inside the settlement that stay standing when it is built, from 0 to 1. 0 clears them all.</s><r>Доля диких деревьев внутри поселения, которые остаются стоять после его постройки, от 0 до 1. 0 удаляет их все.</r></e>
+  <e k="K" key="CBF_S_UnknownEntry"><s>{0} does not exist. The entry is skipped.</s><r>{0} не существует. Запись пропускается.</r></e>
+  <e k="K" key="CBF_S_UnsavedSwitch"><s>{0} has unsaved changes. Switch anyway?</s><r>{0} имеет несохраненные изменения. Все равно переключиться?</r></e>
+  <e k="K" key="CBF_S_WallN"><s>wall {0}</s><r>стена {0}</r></e>
+  <e k="K" key="CBF_S_Walls"><s>Walls</s><r>Стены</r></e>
+  <e k="K" key="CBF_S_WardKind_Castle"><s>Castle</s><r>Замок</r></e>
+  <e k="K" key="CBF_S_WardKind_Rural"><s>Countryside</s><r>Сельская местность</r></e>
+  <e k="K" key="CBF_S_WardKind_Suburb"><s>Suburb</s><r>Пригород</r></e>
+  <e k="K" key="CBF_S_WardKind_Town"><s>Town</s><r>Город</r></e>
+  <e k="K" key="CBF_S_WdStage"><s>WD tier</s><r>Уровень WD</r></e>
+  <e k="K" key="CBF_S_WdStageNone"><s>No tier</s><r>Нет уровня</r></e>
+  <e k="K" key="CBF_S_WdStageRange"><s>{0} to {1}</s><r>от {0} до {1}</r></e>
+  <e k="K" key="CBF_S_WdStageTip"><s>World Domination tier 1 to 4 this settlement type stands for. A World Domination settlement of this tier prefers it among the types its faction may get. 0 means no tier.</s><r>Этот тип поселения соответствует уровням мирового господства с 1 по 4. Поселение Мирового Господства этого уровня предпочитает его среди типов, которые может получить его фракция. 0 означает отсутствие уровня.</r></e>
+  <e k="K" key="CBF_S_WdType"><s>WD type</s><r>Тип ВД</r></e>
+  <e k="K" key="CBF_S_WdTypeAny"><s>Any type</s><r>Любой тип</r></e>
+  <e k="K" key="CBF_S_WdTypeTip"><s>World Domination settlement types this plan stands for, such as mining camp or slave village. Only types of the chosen tier are offered. Empty means any type.</s><r>Типы поселений мирового господства, которые обозначает этот план, например, шахтерский лагерь или деревня рабов. Предлагаются только типы выбранного уровня. Пустой означает любой тип.</r></e>
+  <e k="K" key="CBF_S_Weight"><s>Weight</s><r>Масса</r></e>
+  <e k="K" key="CBF_S_WeightFromCategory"><s>Category entries have no weight of their own here. The pieces of the category are drawn by their own weights.</s><r>Записи категорий не имеют здесь собственного веса. Части категории рисуются по собственному весу.</r></e>
+  <e k="K" key="CBF_S_WeightHint"><s>against other settlements of the same faction</s><r>против других поселений той же фракции</r></e>
+  <e k="K" key="CBF_S_WeightShort"><s>Wt.</s><r>Вес</r></e>
+  <e k="K" key="CBF_S_WeightShortTip"><s>Weight against the other entries of this ward.</s><r>Вес по сравнению с другими записями в этом отделении.</r></e>
+  <e k="K" key="CBF_S_WholeTown"><s>Whole place</s><r>Целое место</r></e>
+  <e k="K" key="CBF_S_WorldIcon"><s>World map icon</s><r>Значок карты мира</r></e>
+  <e k="K" key="CBF_Save"><s>Save</s><r>Сохранять</r></e>
+  <e k="K" key="CBF_SaveAsPatch"><s>Save as patch</s><r>Сохранить как патч</r></e>
+  <e k="K" key="CBF_SaveAsPatchTip"><s>This belongs to another mod. Your changes are saved as a patch in your own mod; the original stays untouched. Only the changed fields and list entries are patched, and every change checks first that its target exists.</s><r>Это принадлежит другому моду. Ваши изменения сохраняются как патч в вашем собственном моде; оригинал остается нетронутым. Исправляются только измененные поля и записи списка, и каждое изменение сначала проверяет, существует ли его цель.</r></e>
+  <e k="K" key="CBF_Saved"><s>{0} saved.</s><r>{0} сохранено.</r></e>
+  <e k="K" key="CBF_SavedAsPatch"><s>{0} saved as patch: {1}</s><r>{0} сохранен как патч: {1}</r></e>
+  <e k="K" key="CBF_Scen_GameStart"><s>Your group has reached an abandoned settlement. Walls are broken, roofs have fallen in and trees grow through the floors.
+
+The buildings belong to no one. Claim them to use them.
+
+Be careful when you search the ruins. Not everything here is dead.</s><r>Ваша группа достигла заброшенного поселения. Стены сломаны, крыши обвалились, а сквозь полы растут деревья.
+
+Здания никому не принадлежат. Попросите их использовать их.
+
+Будьте осторожны, обыскивая руины. Не все здесь мертво.</r></e>
+  <e k="K" key="CBF_Scen_MapSize"><s>Map size (at least {0} for this settlement type)</s><r>Размер карты (не менее {0} для этого типа поселения)</r></e>
+  <e k="K" key="CBF_Scen_MapSizeTooSmall"><s>The map size must be at least {0}.</s><r>Размер карты должен быть не менее {0}.</r></e>
+  <e k="K" key="CBF_Scen_PageText"><s>Choose the settlement type of the ruin you start in. Only types that match the tech level of your faction are listed.</s><r>Выберите тип поселения руин, в которых вы начинаете. В списке указаны только те типы, которые соответствуют технологическому уровню вашей фракции.</r></e>
+  <e k="K" key="CBF_Scen_PageTitle"><s>Settlement ruin</s><r>Разрушение поселения</r></e>
+  <e k="K" key="CBF_Scen_PlanRandom"><s>Random settlement type for the player faction</s><r>Случайный тип поселения для фракции игрока</r></e>
+  <e k="K" key="CBF_Scen_Ruin"><s>Ruin: {0}</s><r>Руины: {0}</r></e>
+  <e k="K" key="CBF_Scen_SleeperPoints"><s>Threat points of the sleepers: {0}</s><r>Точки угрозы шпал: {0}</r></e>
+  <e k="K" key="CBF_Scen_Sleepers_Animals"><s>Sleeping animals</s><r>Спящие животные</r></e>
+  <e k="K" key="CBF_Scen_Sleepers_Both"><s>Sleeping raiders and animals</s><r>Спящие рейдеры и животные</r></e>
+  <e k="K" key="CBF_Scen_Sleepers_None"><s>No sleeping enemies</s><r>Никаких спящих врагов</r></e>
+  <e k="K" key="CBF_Scen_Sleepers_Raiders"><s>Sleeping raiders</s><r>Спящие рейдеры</r></e>
+  <e k="K" key="CBF_Scen_Summary"><s>Start in the ruins of a settlement ({0}). {1}.</s><r>Начните с руин поселения ({0}). {1}.</r></e>
+  <e k="K" key="CBF_Search"><s>Search...</s><r>Поиск...</r></e>
+  <e k="K" key="CBF_SearchSite"><s>Search site</s><r>Поиск по сайту</r></e>
+  <e k="K" key="CBF_SearchSiteDesc"><s>Marks every closed container on this settlement for opening. Colonists then open them one by one.</s><r>Помечает каждый закрытый контейнер в этом поселении для открытия. Затем колонисты открывают их один за другим.</r></e>
+  <e k="K" key="CBF_SearchSiteDone"><s>{0} containers marked for opening.</s><r>{0} контейнеры, отмеченные для открытия.</r></e>
+  <e k="K" key="CBF_SearchSiteEnemies"><s>Hostiles are still standing on the map.</s><r>Враги все еще стоят на карте.</r></e>
+  <e k="K" key="CBF_SearchSiteFog"><s>{0} more lie in unexplored rooms. Press again once they are explored.</s><r>Еще {0} лежат в неисследованных комнатах. Нажмите еще раз, как только они будут исследованы.</r></e>
+  <e k="K" key="CBF_SearchSiteNone"><s>No closed containers left to mark.</s><r>Закрытых контейнеров для маркировки не осталось.</r></e>
+  <e k="K" key="CBF_SettlementSize"><s>Settlement size: {0}%</s><r>Размер расчета: {0}%</r></e>
+  <e k="K" key="CBF_SettlementSizeHelp"><s>How large the settlements of Custom Base Framework are built. 100% is the full size and the default. Lower values shrink the core, the number of buildings, fields and pens and the garrison by the same share. Walls and towers follow the smaller outline, required buildings stay. Applies to villages, towns and cities, not to camps and dungeons, and only to settlements generated from now on.</s><r>Насколько велики поселения Custom Base Framework. 100% — это полный размер и значение по умолчанию. Более низкие значения уменьшают ядро, количество зданий, полей и загонов, а также гарнизон на ту же долю. Стены и башни повторяют меньший контур, необходимые постройки остаются. Применяется к деревням, поселкам и городам, а не к лагерям и подземельям, а только к поселениям, создаваемым с этого момента.</r></e>
+  <e k="K" key="CBF_ShowContents"><s>Show what is inside</s><r>Покажи, что внутри</r></e>
+  <e k="K" key="CBF_ShowHelp"><s>Help for this section</s><r>Помощь по этому разделу</r></e>
+  <e k="K" key="CBF_ShowPiecesTip"><s>Shows which pieces {0} covers. Click one to open it.</s><r>Показывает, какие части {0} покрывает. Нажмите один, чтобы открыть его.</r></e>
+  <e k="K" key="CBF_ShowProjectFolder"><s>Show mod folder</s><r>Показать папку мода</r></e>
+  <e k="K" key="CBF_ShowingN"><s>{0} shown</s><r>{0} показано</r></e>
+  <e k="K" key="CBF_Si_ByCamp"><s>Already built by CBF through the camp plan {0} (camp types). Change it there.</s><r>Уже построен CBF по плану лагеря {0} (типы лагерей). Поменяй там.</r></e>
+  <e k="K" key="CBF_Si_ByOther"><s>Already built by CBF with {0}, set by another file. Change it there.</s><r>Уже построен CBF с {0}, заданным другим файлом. Поменяй там.</r></e>
+  <e k="K" key="CBF_Si_GoalReplaced"><s>A replaced step probably builds the quest goal. Without it, loot, prisoners or buildings the quest needs are missing. Better leave it unchecked; CBF then builds in addition and keeps the goal area free.</s><r>Замененный шаг, вероятно, создает цель квеста. Без него добыча, пленники или здания, необходимые для квеста, отсутствуют. Лучше оставьте это без контроля; Затем CBF строит дополнительно и сохраняет площадь ворот свободной.</r></e>
+  <e k="K" key="CBF_Si_GoalStepTip"><s>This step probably builds the quest goal, such as loot, a prisoner or a special building. If it is replaced, the goal is missing and the quest may not be completable.</s><r>На этом этапе, вероятно, создается цель квеста, например добыча, пленник или специальное здание. Если его заменить, цель отсутствует и квест может оказаться невыполнимым.</r></e>
+  <e k="K" key="CBF_Si_Hint"><s>Which CBF settlement type a quest site builds when it is entered.</s><r>Какой тип поселения CBF строит квестовый сайт при входе в него.</r></e>
+  <e k="K" key="CBF_Si_NeedPlan"><s>Pick a settlement type first.</s><r>Сначала выберите тип поселения.</r></e>
+  <e k="K" key="CBF_Si_NoNew"><s>Sites come from quests and mods, they cannot be created here.</s><r>Сайты бывают из квестов и модов, их здесь создавать нельзя.</r></e>
+  <e k="K" key="CBF_Si_NoPlan"><s>None</s><r>Никто</r></e>
+  <e k="K" key="CBF_Si_NoRuin"><s>Intact</s><r>Нетронутый</r></e>
+  <e k="K" key="CBF_Si_NoSteps"><s>This site has no map steps of its own. CBF adds its own step.</s><r>На этом сайте нет собственных шагов на карте. CBF добавляет свой собственный шаг.</r></e>
+  <e k="K" key="CBF_Si_NothingReplaced"><s>No step replaced: CBF adds its own step, and the existing steps build as well.</s><r>Ни один шаг не заменяется: CBF добавляет свой собственный шаг, а также строятся существующие шаги.</r></e>
+  <e k="K" key="CBF_Si_Occupier"><s>Occupiers cannot be chosen for quests of other mods. The quest picks the faction itself.</s><r>Оккупантов нельзя выбирать для квестов других модов. Квест выбирает саму фракцию.</r></e>
+  <e k="K" key="CBF_Si_OpenNone"><s>Pick one first.</s><r>Сначала выберите один.</r></e>
+  <e k="K" key="CBF_Si_Plan"><s>Settlement type</s><r>Тип расчета</r></e>
+  <e k="K" key="CBF_Si_PlanTip"><s>The settlement type the site builds. None leaves the site as it is.</s><r>Тип поселения, которое строит сайт. Никто не оставляет сайт таким, какой он есть.</r></e>
+  <e k="K" key="CBF_Si_Preview"><s>{0}, intact.</s><r>{0}, неповрежденный.</r></e>
+  <e k="K" key="CBF_Si_PreviewRuin"><s>{0}, as ruin: {1}.</s><r>{0}, как разорение: {1}.</r></e>
+  <e k="K" key="CBF_Si_ReplaceTip"><s>Ticked: CBF replaces this step, so it no longer builds. Unticked steps keep running next to the CBF settlement.</s><r>Отмечено: CBF заменяет этот шаг, поэтому сборка больше не выполняется. Рядом с поселком CBF продолжают идти неотмеченные ступени.</r></e>
+  <e k="K" key="CBF_Si_RightHint"><s>Saving writes CBF_Sites.xml into Defs and Patches of your mod. The editor applies the change at once; replaced steps of other mods only come back after a restart.</s><r>При сохранении CBF_Sites.xml записывается в определения и патчи вашего мода. Редактор сразу же применяет изменение; замененные шаги других модов возвращаются только после перезапуска.</r></e>
+  <e k="K" key="CBF_Si_Ruin"><s>Ruin state</s><r>Состояние руин</r></e>
+  <e k="K" key="CBF_Si_RuinTip"><s>Optional damage and occupation from a ruin. Opens in Lists, Ruins.</s><r>Необязательный урон и оккупация из руин. Открывается в Списках, Руинах.</r></e>
+  <e k="K" key="CBF_Si_Spawns"><s>Appears</s><r>Появляется</r></e>
+  <e k="K" key="CBF_Si_Steps"><s>Map steps of this site</s><r>Карта шагов этого сайта</r></e>
+  <e k="K" key="CBF_Size"><s>Size</s><r>Размер</r></e>
+  <e k="K" key="CBF_SizeLarge"><s>Large</s><r>Большой</r></e>
+  <e k="K" key="CBF_SizeMedium"><s>Medium</s><r>Середина</r></e>
+  <e k="K" key="CBF_SizeSmall"><s>Small</s><r>Маленький</r></e>
+  <e k="K" key="CBF_SocketType"><s>Socket type</s><r>Тип розетки</r></e>
+  <e k="K" key="CBF_SocketTypeTip"><s>What the generator puts here when something docks: door, open arch, cave opening or secret passage.</s><r>Что сюда помещает генератор, когда что-то стыкуется: дверь, открытая арка, проход в пещеру или секретный проход.</r></e>
+  <e k="K" key="CBF_SocketType_Arch"><s>Arch</s><r>Арка</r></e>
+  <e k="K" key="CBF_SocketType_Cave"><s>Cave</s><r>Пещера</r></e>
+  <e k="K" key="CBF_SocketType_Door"><s>Door</s><r>Дверь</r></e>
+  <e k="K" key="CBF_SocketType_Secret"><s>Secret</s><r>Секрет</r></e>
+  <e k="K" key="CBF_SocketWidth"><s>Width</s><r>Ширина</r></e>
+  <e k="K" key="CBF_SocketWidthTip"><s>Width of the opening in cells, 1 to 5. Only sockets of the same width connect.</s><r>Ширина проема в ячейках от 1 до 5. Подключаются только розетки одинаковой ширины.</r></e>
+  <e k="K" key="CBF_StillUsedBy"><s>{0} is still used by {1} definition(s): {2}</s><r>{0} по-прежнему используется в определениях {1}: {2}</r></e>
+  <e k="K" key="CBF_StressBuilding"><s>Stress test: building settlement</s><r>Стресс-тест: строительный расчет</r></e>
+  <e k="K" key="CBF_StressCount"><s>How many settlements (at most {0})</s><r>Сколько населенных пунктов (максимум {0})</r></e>
+  <e k="K" key="CBF_StressDone"><s>Stress test done: {0} built, {1} failed. Folder: {2}</s><r>Стресс-тест пройден: {0} построен, {1} провален. Папка: {2}</r></e>
+  <e k="K" key="CBF_StressHead"><s>Stress test</s><r>Стресс-тест</r></e>
+  <e k="K" key="CBF_StressHelp"><s>Generates several settlements in a row with exactly these settings. Each one is captured as an image; terrain file and image land together in one folder under CBF-Stresstest.</s><r>Генерирует несколько поселений подряд именно с такими настройками. Каждый из них запечатлен как изображение; Файл местности и изображение помещаются вместе в одну папку под CBF-Stresstest.</r></e>
+  <e k="K" key="CBF_StressIdle"><s>No stress test is running.</s><r>Ни один стресс-тест не проводится.</r></e>
+  <e k="K" key="CBF_StressRunning"><s>Stress test running</s><r>Стресс-тест проходит</r></e>
+  <e k="K" key="CBF_StressStart"><s>Start stress test</s><r>Начать стресс-тест</r></e>
+  <e k="K" key="CBF_Sw_Animals"><s>Animals</s><r>Животные</r></e>
+  <e k="K" key="CBF_Sw_AnimalsTip"><s>Also shows animals from pens and vermin. The fallback rule always leaves them unchanged.</s><r>Также показаны животные из загонов и паразиты. Резервное правило всегда оставляет их без изменений.</r></e>
+  <e k="K" key="CBF_Sw_AnyUnit"><s>Unit from all mods …</s><r>Юнит из всех модов…</r></e>
+  <e k="K" key="CBF_Sw_DefLine"><s>{0} from {1}, priority {2}, {3} units, {4} things</s><r>{0} из {1}, приоритет {2}, {3} единиц, {4} вещей</r></e>
+  <e k="K" key="CBF_Sw_FactionInfo"><s>{0} · {1} own units</s><r>{0} · {1} собственные подразделения</r></e>
+  <e k="K" key="CBF_Sw_Flag"><s>Faction flag</s><r>Флаг фракции</r></e>
+  <e k="K" key="CBF_Sw_FlagAdd"><s>+ Object list</s><r>+ Список объектов</r></e>
+  <e k="K" key="CBF_Sw_FlagHint"><s>Object lists for flag anchors. Each settlement of this faction shows one of these lists, and all its settlements show the same one. Without an entry, the object list set at the anchor is used.</s><r>Списки объектов для привязок флагов. Каждое поселение этой фракции показывает один из этих списков, и все его поселения показывают один и тот же. Без записи используется список объектов, установленный в привязке.</r></e>
+  <e k="K" key="CBF_Sw_FlagKeepOne"><s>A flag from another mod needs at least one list. Add another list first, then remove this one.</s><r>Для флага из другого мода необходим хотя бы один список. Сначала добавьте еще один список, затем удалите этот.</r></e>
+  <e k="K" key="CBF_Sw_FlagMissing"><s>The object list {0} does not exist. It is skipped.</s><r>Список объектов {0} не существует. Оно пропускается.</r></e>
+  <e k="K" key="CBF_Sw_FlagNew"><s>+ Own flag</s><r>+ Свой флаг</r></e>
+  <e k="K" key="CBF_Sw_FlagNewTip"><s>Creates a flag for this faction in your mod and picks its first object list.</s><r>Создает флаг для этой фракции в вашем моде и выбирает ее первый список объектов.</r></e>
+  <e k="K" key="CBF_Sw_FlagNone"><s>This faction has no flag yet.</s><r>У этой фракции еще нет флага.</r></e>
+  <e k="K" key="CBF_Sw_FlagPatch"><s>From {0}. Changes are saved as a patch in your mod.</s><r>С {0}. Изменения сохраняются в виде патча в вашем моде.</r></e>
+  <e k="K" key="CBF_Sw_FlagPick"><s>Pick an object list</s><r>Выберите список объектов</r></e>
+  <e k="K" key="CBF_Sw_FooterHint"><s>Saving writes a file of its own into your mod.</s><r>Сохранение записывает в ваш мод собственный файл.</r></e>
+  <e k="K" key="CBF_Sw_ForeignFile"><s>{0} is not in your mod and is not changed.</s><r>{0} нет в вашем моде и не изменяется.</r></e>
+  <e k="K" key="CBF_Sw_From"><s>General</s><r>Общий</r></e>
+  <e k="K" key="CBF_Sw_FromOther"><s>{0} (from {1})</s><r>{0} (от {1})</r></e>
+  <e k="K" key="CBF_Sw_FromOtherTip"><s>Rule {0} from {1}, priority {2}. View only. A rule of your own with higher priority wins.</s><r>Правило {0} из {1}, приоритет {2}. Только просмотр. Ваше собственное правило с более высоким приоритетом побеждает.</r></e>
+  <e k="K" key="CBF_Sw_NoOther"><s>None.</s><r>Никто.</r></e>
+  <e k="K" key="CBF_Sw_NoOwnYet"><s>Your mod has no rule for this faction yet. It is created in a file of its own on the first save.</s><r>В вашем моде пока нет правил для этой фракции. Он создается в отдельном файле при первом сохранении.</r></e>
+  <e k="K" key="CBF_Sw_NoSwap"><s>no swap</s><r>нет обмена</r></e>
+  <e k="K" key="CBF_Sw_Nothing"><s>Nothing found.</s><r>Ничего не найдено.</r></e>
+  <e k="K" key="CBF_Sw_NothingToWrite"><s>Nothing to write.</s><r>Нечего писать.</r></e>
+  <e k="K" key="CBF_Sw_OnlyWithRule"><s>Only with rule</s><r>Только с правилом</r></e>
+  <e k="K" key="CBF_Sw_OtherHint"><s>Rules of other mods are only shown, never changed. To override one, give your rule a higher priority.</s><r>Правила других модов только показаны и никогда не менялись. Чтобы отменить одно из них, присвойте правилу более высокий приоритет.</r></e>
+  <e k="K" key="CBF_Sw_OtherLine"><s>{0}, priority {1}, {2} units, {3} things</s><r>{0}, приоритет {1}, {2} единицы, {3} вещи</r></e>
+  <e k="K" key="CBF_Sw_OtherRules"><s>Rules of other mods</s><r>Правила других модов</r></e>
+  <e k="K" key="CBF_Sw_OwnMod"><s>your mod</s><r>твой мод</r></e>
+  <e k="K" key="CBF_Sw_OwnRule"><s>Your rule</s><r>Ваше правило</r></e>
+  <e k="K" key="CBF_Sw_PickFaction"><s>Pick a faction on the left.</s><r>Выберите фракцию слева.</r></e>
+  <e k="K" key="CBF_Sw_PickThing"><s>Pick a thing</s><r>Выберите вещь</r></e>
+  <e k="K" key="CBF_Sw_PickThingTip"><s>Pick a target</s><r>Выберите цель</r></e>
+  <e k="K" key="CBF_Sw_PickUnit"><s>Pick a unit</s><r>Выберите единицу измерения</r></e>
+  <e k="K" key="CBF_Sw_PickUnitMore"><s>Pick another target</s><r>Выберите другую цель</r></e>
+  <e k="K" key="CBF_Sw_PickUnitTip"><s>Add a target</s><r>Добавить цель</r></e>
+  <e k="K" key="CBF_Sw_Priority"><s>Priority</s><r>Приоритет</r></e>
+  <e k="K" key="CBF_Sw_PriorityTip"><s>If several rules exist for the same faction, the one with the highest priority applies per unit or thing.</s><r>Если для одной и той же фракции существует несколько правил, к единице или предмету применяется то, у которого самый высокий приоритет.</r></e>
+  <e k="K" key="CBF_Sw_RuleCount"><s>{0} units, {1} things</s><r>{0} единиц, {1} вещей</r></e>
+  <e k="K" key="CBF_Sw_Rules"><s>Rules</s><r>Правила</r></e>
+  <e k="K" key="CBF_Sw_Share"><s>{0} % of cases</s><r>{0} % случаев</r></e>
+  <e k="K" key="CBF_Sw_Stays"><s>stays</s><r>остается</r></e>
+  <e k="K" key="CBF_Sw_TargetMod"><s>Saved in</s><r>Сохранено в</r></e>
+  <e k="K" key="CBF_Sw_Things"><s>Things ({0})</s><r>Вещи ({0})</r></e>
+  <e k="K" key="CBF_Sw_ThingsHint"><s>All things from pieces and object lists, such as banners. For each row, pick what this faction places instead.</s><r>Все вещи из частей и списков объектов, например баннеры. Для каждого ряда выберите, что вместо этого разместит эта фракция.</r></e>
+  <e k="K" key="CBF_Sw_To"><s>Becomes for this faction</s><r>Становится для этой фракции</r></e>
+  <e k="K" key="CBF_Sw_Units"><s>Units ({0})</s><r>Единицы ({0})</r></e>
+  <e k="K" key="CBF_Sw_UnitsHint"><s>All units from pawn lists and pieces. For each row, pick who this faction sends instead. Several targets are drawn by weight.</s><r>Все юниты из пешечных списков и фигур. Для каждого ряда выберите, кого вместо этого отправит эта фракция. Несколько мишеней нарисованы по весу.</r></e>
+  <e k="K" key="CBF_Sw_WeightTip"><s>Weight against the other targets of this row.</s><r>Вес по сравнению с другими целями в этом ряду.</r></e>
+  <e k="K" key="CBF_Sw_WithSwap"><s>With swap</s><r>С свопом</r></e>
+  <e k="K" key="CBF_Sw_WithoutRule"><s>Without rule</s><r>Без правила</r></e>
+  <e k="K" key="CBF_Sw_WithoutRuleTip"><s>What this faction would get without a rule of its own, by the framework's fallback rule.</s><r>То, что эта фракция получила бы без собственного правила, благодаря резервному правилу структуры.</r></e>
+  <e k="K" key="CBF_Sz_CategoryAddTip"><s>Add a category.</s><r>Добавьте категорию.</r></e>
+  <e k="K" key="CBF_Sz_CategoryRemoveTip"><s>Click to remove.</s><r>Нажмите, чтобы удалить.</r></e>
+  <e k="K" key="CBF_Sz_Dangers"><s>Ancient dangers</s><r>Древние опасности</r></e>
+  <e k="K" key="CBF_Sz_ExtraCategories"><s>Extra categories</s><r>Дополнительные категории</r></e>
+  <e k="K" key="CBF_Sz_ExtraCategoriesTip"><s>Categories under CBF_AncientDangerScenario whose pieces also count in this scenario. Pieces under CBF_AncientDanger always count.</s><r>Категории в CBF_AncientDangerScenario, части которых также учитываются в этом сценарии. Фигуры ниже CBF_AncientDanger всегда учитываются.</r></e>
+  <e k="K" key="CBF_Sz_Fallback"><s>If nothing fits</s><r>Если ничего не подходит</r></e>
+  <e k="K" key="CBF_Sz_FallbackOff"><s>Build RimWorld's ancient danger when no own piece fits the site (only with Own only)</s><r>Постройте древнюю опасность RimWorld, когда ни одна деталь не подходит к месту (только с помощью только Own)</r></e>
+  <e k="K" key="CBF_Sz_FallbackText"><s>Build RimWorld's ancient danger when no own piece fits the site</s><r>Создайте древнюю опасность RimWorld, когда ни одна деталь не подходит для этого места.</r></e>
+  <e k="K" key="CBF_Sz_FallbackTip"><s>On: the site gets RimWorld's ancient danger. Off: the site stays empty.</s><r>Включено: сайт получает древнюю опасность RimWorld. Выкл.: сайт остается пустым.</r></e>
+  <e k="K" key="CBF_Sz_FootPatch"><s>Saves as a patch for {0}.</s><r>Сохраняется как патч для {0}.</r></e>
+  <e k="K" key="CBF_Sz_FootSaved"><s>No unsaved change.</s><r>Нет несохраненных изменений.</r></e>
+  <e k="K" key="CBF_Sz_FootYours"><s>Change it in RimWorld's scenario editor.</s><r>Измените его в редакторе сценариев RimWorld.</r></e>
+  <e k="K" key="CBF_Sz_Head"><s>Scenario · {0} · {1}</s><r>Сценарий · {0} · {1}</r></e>
+  <e k="K" key="CBF_Sz_HeadYours"><s>Your scenario · set in RimWorld's scenario editor</s><r>Ваш сценарий · установленный в редакторе сценариев RimWorld</r></e>
+  <e k="K" key="CBF_Sz_InGame"><s>scenario editor</s><r>редактор сценариев</r></e>
+  <e k="K" key="CBF_Sz_Mode"><s>Mode</s><r>Режим</r></e>
+  <e k="K" key="CBF_Sz_ModeText_None"><s>No ancient dangers on any map of this scenario.</s><r>Ни на одной карте этого сценария нет древних опасностей.</r></e>
+  <e k="K" key="CBF_Sz_ModeText_OwnOnly"><s>Only CBF pieces. RimWorld's own ancient danger is only built as a fallback.</s><r>Только детали CBF. Древняя опасность RimWorld создана лишь как запасной вариант.</r></e>
+  <e k="K" key="CBF_Sz_ModeText_VanillaAndOwn"><s>RimWorld's ancient dangers and the CBF pieces are rolled together.</s><r>Древние опасности RimWorld и части CBF собраны воедино.</r></e>
+  <e k="K" key="CBF_Sz_Mode_None"><s>None</s><r>Никто</r></e>
+  <e k="K" key="CBF_Sz_Mode_OwnOnly"><s>Own only</s><r>Только собственный</r></e>
+  <e k="K" key="CBF_Sz_Mode_VanillaAndOwn"><s>Vanilla + own</s><r>Ванильный + собственный</r></e>
+  <e k="K" key="CBF_Sz_NoProject"><s>Open a project first. The patch goes into its mod folder.</s><r>Сначала откройте проект. Патч лежит в папке с модом.</r></e>
+  <e k="K" key="CBF_Sz_NoScenarioCategories"><s>There is no further category under CBF_AncientDangerScenario. Create one in the Categories tab with that parent.</s><r>В CBF_AncientDangerScenario больше нет категории. Создайте его на вкладке «Категории» с этим родителем.</r></e>
+  <e k="K" key="CBF_Sz_OnlyUnder"><s>only categories under {0}</s><r>только категории ниже {0}</r></e>
+  <e k="K" key="CBF_Sz_PickOne"><s>Pick a scenario on the left.</s><r>Выберите сценарий слева.</r></e>
+  <e k="K" key="CBF_Sz_Pool"><s>What a site can become</s><r>Каким может стать сайт</r></e>
+  <e k="K" key="CBF_Sz_PoolEmpty"><s>No CBF piece yet. Add pieces in the Dangers tab.</s><r>Детали CBF пока нет. Добавьте фрагменты на вкладке «Опасности».</r></e>
+  <e k="K" key="CBF_Sz_PoolFallbackOff"><s>When the rolled site is too small for every own piece, the site stays empty.</s><r>Когда свернутый участок слишком мал для каждого отдельного куска, участок остается пустым.</r></e>
+  <e k="K" key="CBF_Sz_PoolFallbackOn"><s>When the rolled site is too small for every own piece, RimWorld's own ancient danger is built instead.</s><r>Когда раскатанная площадка слишком мала для каждой отдельной части, вместо нее создается собственная древняя опасность RimWorld.</r></e>
+  <e k="K" key="CBF_Sz_PoolJumpTip"><s>Open this ancient danger.</s><r>Откройте эту древнюю опасность.</r></e>
+  <e k="K" key="CBF_Sz_PoolNone"><s>Nothing. The step is skipped on every map of this scenario.</s><r>Ничего. Этот шаг пропускается на каждой карте этого сценария.</r></e>
+  <e k="K" key="CBF_Sz_PoolNote"><s>Only pieces that fit the rolled site take part in the roll. RimWorld's own fits every site.</s><r>В прокатке принимают участие только куски, соответствующие раскатанному участку. Собственный RimWorld подходит для любого сайта.</r></e>
+  <e k="K" key="CBF_Sz_PoolRight"><s>share per site</s><r>поделиться на сайт</r></e>
+  <e k="K" key="CBF_Sz_PoolShare"><s>Share</s><r>Делиться</r></e>
+  <e k="K" key="CBF_Sz_PoolSite"><s>Site size</s><r>Размер сайта</r></e>
+  <e k="K" key="CBF_Sz_PoolVanilla"><s>RimWorld ancient danger</s><r>Древняя опасность RimWorld</r></e>
+  <e k="K" key="CBF_Sz_PoolWeight"><s>Weight</s><r>Масса</r></e>
+  <e k="K" key="CBF_Sz_SaveFailed"><s>Patch for {0} not written: {1}</s><r>Патч для {0} не написан: {1}</r></e>
+  <e k="K" key="CBF_Sz_StateChanged"><s>changed, saved as a patch</s><r>изменено, сохранено как патч</r></e>
+  <e k="K" key="CBF_Sz_StateDefault"><s>no CBF part, defaults apply</s><r>нет части CBF, применяются значения по умолчанию</r></e>
+  <e k="K" key="CBF_Sz_StateSet"><s>CBF part set</s><r>Комплект деталей CBF</r></e>
+  <e k="K" key="CBF_Sz_UnknownMod"><s>Unknown mod</s><r>Неизвестный мод</r></e>
+  <e k="K" key="CBF_Sz_VanillaEditor"><s>Same setting in RimWorld's scenario editor</s><r>Те же настройки в редакторе сценариев RimWorld.</r></e>
+  <e k="K" key="CBF_Sz_VanillaEditorText"><s>Players set it there for their own scenarios. For scenarios of other mods, Save here writes a patch into your mod that only applies when that mod is loaded.</s><r>Игроки устанавливают его там для своих собственных сценариев. Для сценариев других модов «Сохранить здесь» записывает в ваш мод патч, который применяется только при загрузке этого мода.</r></e>
+  <e k="K" key="CBF_Sz_VanillaWeight"><s>Vanilla weight</s><r>Ванильный вес</r></e>
+  <e k="K" key="CBF_Sz_VanillaWeightNote"><s>against the weight of each CBF piece</s><r>относительно веса каждой детали CBF</r></e>
+  <e k="K" key="CBF_Sz_VanillaWeightOff"><s>Only with Vanilla + own.</s><r>Только с Ванилью + собственной.</r></e>
+  <e k="K" key="CBF_Sz_VanillaWeightTip"><s>How often RimWorld's own ancient danger is rolled against the CBF pieces.</s><r>Как часто древняя опасность RimWorld сталкивается с фигурами CBF.</r></e>
+  <e k="K" key="CBF_Sz_Yours"><s>Your scenarios</s><r>Ваши сценарии</r></e>
+  <e k="K" key="CBF_Sz_YoursNone"><s>None saved</s><r>Ничего не сохранено</r></e>
+  <e k="K" key="CBF_Sz_YoursText"><s>Scenarios you made in game are files, not defs. Set the ancient dangers there, in RimWorld's scenario editor, with the part Ancient dangers (CBF). Here you only see the result.</s><r>Сценарии, которые вы создали в игре, представляют собой файлы, а не определения. Установите древние опасности там, в редакторе сценариев RimWorld, с помощью части Древние опасности (CBF). Здесь вы видите только результат.</r></e>
+  <e k="K" key="CBF_TDesc_area"><s>Mark cells as belonging to the piece.</s><r>Отметьте ячейки как принадлежащие фрагменту.</r></e>
+  <e k="K" key="CBF_TDesc_build"><s>Finds a matching tile on the world map and places a settlement from this plan there.</s><r>Находит подходящий тайл на карте мира и размещает там поселение из этого плана.</r></e>
+  <e k="K" key="CBF_TDesc_check"><s>Runs the full export check on this area without writing anything. Export refuses while errors remain.</s><r>Запускает полную проверку экспорта в этой области, ничего не записывая. Экспорт отказывается, пока ошибки остаются.</r></e>
+  <e k="K" key="CBF_TDesc_cut"><s>Take cells back out of the piece.</s><r>Возьмите клетки обратно из куска.</r></e>
+  <e k="K" key="CBF_TDesc_export"><s>Write the marked area back to its file.</s><r>Запишите отмеченную область обратно в ее файл.</r></e>
+  <e k="K" key="CBF_TDesc_exportCopy"><s>Save it as a new piece with its own name in your mod. The original stays as it is.</s><r>Сохраните его как новую деталь с собственным именем в своем моде. Оригинал остается таким, какой он есть.</r></e>
+  <e k="K" key="CBF_TDesc_exportPatch"><s>This piece belongs to another mod. The export saves your changes as a patch in your own mod, the original file stays untouched.</s><r>Эта часть принадлежит другому моду. При экспорте ваши изменения сохраняются в виде патча в вашем собственном моде, исходный файл остается нетронутым.</r></e>
+  <e k="K" key="CBF_TDesc_leer"><s>Paint blank cells: the cell belongs to the piece, but nothing is built there.</s><r>Закрасьте пустые клетки: ячейка принадлежит фрагменту, но в ней ничего не построено.</r></e>
+  <e k="K" key="CBF_TDesc_leerweg"><s>Removes blank cells and puts the covered floor back.</s><r>Удаляет пустые ячейки и ставит на место закрытый пол.</r></e>
+  <e k="K" key="CBF_TDesc_save"><s>Write the settlement back into its file. Districts, styles, towers, gatehouses and factions. Everything else in the file stays untouched.</s><r>Запишите урегулирование обратно в его файл. Районы, стили, башни, сторожки и фракции. Все остальное в файле остается нетронутым.</r></e>
+  <e k="K" key="CBF_T_build"><s>Build</s><r>Строить</r></e>
+  <e k="K" key="CBF_T_preview"><s>Preview</s><r>Предварительный просмотр</r></e>
+  <e k="K" key="CBF_TabEditor"><s>Editor</s><r>Редактор</r></e>
+  <e k="K" key="CBF_TabFailed"><s>This tab could not be drawn: {0}. Details are in the log.</s><r>Эту вкладку невозможно нарисовать: {0}. Подробности в журнале.</r></e>
+  <e k="K" key="CBF_TabGame"><s>Game</s><r>Игра</r></e>
+  <e k="K" key="CBF_TabReport"><s>Bug report</s><r>Отчет об ошибке</r></e>
+  <e k="K" key="CBF_Tab_Categories"><s>Categories</s><r>Категории</r></e>
+  <e k="K" key="CBF_Tab_Dangers"><s>Dangers</s><r>Опасности</r></e>
+  <e k="K" key="CBF_Tab_Dungeons"><s>Dungeons</s><r>Подземелья</r></e>
+  <e k="K" key="CBF_Tab_Lists"><s>Lists</s><r>Списки</r></e>
+  <e k="K" key="CBF_Tab_Loot"><s>Loot</s><r>Лут</r></e>
+  <e k="K" key="CBF_Tab_Pawn"><s>Pawn</s><r>Пешка</r></e>
+  <e k="K" key="CBF_Tab_Piece"><s>Piece</s><r>Кусок</r></e>
+  <e k="K" key="CBF_Tab_Quests"><s>Quests</s><r>Квесты</r></e>
+  <e k="K" key="CBF_Tab_Scenarios"><s>Scenarios</s><r>Сценарии</r></e>
+  <e k="K" key="CBF_Tab_Settlement"><s>Settlement</s><r>Урегулирование</r></e>
+  <e k="K" key="CBF_Tab_Swap"><s>Unit swap</s><r>Обмен юнитов</r></e>
+  <e k="K" key="CBF_Table"><s>Table</s><r>Стол</r></e>
+  <e k="K" key="CBF_TagCreated"><s>Category {0} created.</s><r>Категория {0} создана.</r></e>
+  <e k="K" key="CBF_TagMissing"><s>{0} (category missing)</s><r>{0} (категория отсутствует)</r></e>
+  <e k="K" key="CBF_TakeoverChanged"><s>Changed. Takes effect after a restart.</s><r>Измененный. Вступает в силу после перезапуска.</r></e>
+  <e k="K" key="CBF_TakeoverDisable"><s>Hand faction bases back</s><r>Возврат баз фракций назад</r></e>
+  <e k="K" key="CBF_TakeoverEnable"><s>Take over faction bases</s><r>Захватите базы фракций</r></e>
+  <e k="K" key="CBF_TakeoverOff"><s>Faction bases are still built by RimWorld. Nothing you assign here will show up.</s><r>Базы фракций по-прежнему создаются RimWorld. Ничего из того, что вы здесь назначите, не появится.</r></e>
+  <e k="K" key="CBF_TakeoverOffHint"><s>Nothing here has any effect in game until this is switched on.</s><r>Ничто здесь не имеет никакого эффекта в игре, пока это не включено.</r></e>
+  <e k="K" key="CBF_TakeoverOn"><s>RimWorld hands faction bases to the CBF generator.</s><r>RimWorld передает базы фракций генератору CBF.</r></e>
+  <e k="K" key="CBF_TakeoverOnHint"><s>CBF builds faction bases where a settlement type matches. All others get RimWorlds own settlement, not an empty map.</s><r>CBF строит базы фракций, где соответствует тип поселения. Все остальные получают собственное поселение RimWorlds, а не пустую карту.</r></e>
+  <e k="K" key="CBF_TakeoverPath"><s>Written to {0} in the selected mod.</s><r>Записывается в {0} в выбранном моде.</r></e>
+  <e k="K" key="CBF_TechLevelButtonTip"><s>Click switches this level. Right click selects this level and all above.</s><r>Щелчок переключает этот уровень. Щелчок правой кнопкой мыши выбирает этот уровень и все выше.</r></e>
+  <e k="K" key="CBF_TechLevelsTip"><s>Which ages this settlement fits. Pawn lists draw at this level first and step down one level at a time if nobody fits.</s><r>Какому возрасту соответствует это поселение. Списки пешек сначала рисуются на этом уровне, а затем понижаются на один уровень, если никто не подходит.</r></e>
+  <e k="K" key="CBF_TechNone"><s>no tech level</s><r>нет технического уровня</r></e>
+  <e k="K" key="CBF_Template"><s>template</s><r>шаблон</r></e>
+  <e k="K" key="CBF_Tend_Allowed"><s>Allowed</s><r>Допустимый</r></e>
+  <e k="K" key="CBF_Tend_Avoid"><s>Avoid</s><r>Избегать</r></e>
+  <e k="K" key="CBF_Tend_Forbidden"><s>Forbidden</s><r>Запрещенный</r></e>
+  <e k="K" key="CBF_Tend_Preferred"><s>Preferred</s><r>Предпочтительный</r></e>
+  <e k="K" key="CBF_Tend_Required"><s>Required</s><r>Необходимый</r></e>
+  <e k="K" key="CBF_Tend_StronglyPreferred"><s>Strongly preferred</s><r>Настоятельно предпочтительно</r></e>
+  <e k="K" key="CBF_TileNormal"><s>Normal</s><r>Нормальный</r></e>
+  <e k="K" key="CBF_TilesMatching"><s>{0} matching tiles found</s><r>{0} найдены подходящие плитки</r></e>
+  <e k="K" key="CBF_TilesNoneHelp"><s>No tile on this world meets all of these at once. Loosen one condition.</s><r>Ни одна плитка в этом мире не соответствует всем этим одновременно. Ослабьте одно условие.</r></e>
+  <e k="K" key="CBF_Type_DungeonProfileDef"><s>Dungeon profile</s><r>Профиль подземелья</r></e>
+  <e k="K" key="CBF_Type_EinheitentauschDef"><s>Swap rule</s><r>Правило обмена</r></e>
+  <e k="K" key="CBF_Type_LootBuildingCategoryDef"><s>Object list</s><r>Список объектов</r></e>
+  <e k="K" key="CBF_Type_LootTableDef"><s>Loot table</s><r>Таблица добычи</r></e>
+  <e k="K" key="CBF_Type_PawnListDef"><s>Unit list</s><r>Список юнитов</r></e>
+  <e k="K" key="CBF_Type_PieceCategoryDef"><s>Category</s><r>Категория</r></e>
+  <e k="K" key="CBF_Type_PieceDef"><s>Piece</s><r>Кусок</r></e>
+  <e k="K" key="CBF_Type_RuinDef"><s>Ruin</s><r>Руины</r></e>
+  <e k="K" key="CBF_Type_SettlementPlanDef"><s>Settlement type</s><r>Тип расчета</r></e>
+  <e k="K" key="CBF_Type_UnitSwapDef"><s>Unit swap</s><r>Обмен юнитов</r></e>
+  <e k="K" key="CBF_Type_WallProfileDef"><s>Wall profile</s><r>Настенный профиль</r></e>
+  <e k="K" key="CBF_UndoBoundary"><s>Everything on {0} has been undone. One more step takes you back to {1}.</s><r>Все, что было на {0}, было отменено. Еще один шаг вернет вас обратно к {1}.</r></e>
+  <e k="K" key="CBF_UndoDefDeleted"><s>{0} has been deleted since. This step can no longer be undone or redone.</s><r>{0} с тех пор был удален. Этот шаг больше нельзя отменить или повторить.</r></e>
+  <e k="K" key="CBF_UninstallButton"><s>Remove CBF data from this save</s><r>Удалите данные CBF из этого сохранения.</r></e>
+  <e k="K" key="CBF_UninstallCheckClean"><s>Check: nothing from CBF is left in this game.</s><r>Проверка: в этой игре от CBF ничего не осталось.</r></e>
+  <e k="K" key="CBF_UninstallCheckRest"><s>Check: {0} CBF entries are still left. Run the button again.</s><r>Проверьте: {0} записи CBF еще остались. Запустите кнопку еще раз.</r></e>
+  <e k="K" key="CBF_UninstallConfirm"><s>This removes all CBF data from the loaded game: quests, map data, containers and settlement plans. It cannot be undone.
+
+Afterwards save immediately, quit the game and then remove the mod. As long as CBF stays active, the world map and new maps bring CBF data back.</s><r>При этом из загруженной игры удаляются все данные CBF: квесты, данные карты, контейнеры и планы поселений. Его нельзя отменить.
+
+После этого немедленно сохранитесь, выйдите из игры и удалите мод. Пока CBF остается активным, карта мира и новые карты возвращают данные CBF.</r></e>
+  <e k="K" key="CBF_UninstallDone"><s>CBF data removed from {0} places.
+
+Save now, quit the game and remove the mod.</s><r>Данные CBF удалены из {0} мест.
+
+Сохраните сейчас, выйдите из игры и удалите мод.</r></e>
+  <e k="K" key="CBF_UninstallHead"><s>Remove CBF from this save</s><r>Удалите CBF из этого сохранения.</r></e>
+  <e k="K" key="CBF_UninstallHelp"><s>Removes all CBF data from the loaded game so the mod can be uninstalled safely. Settlements remain. Containers are replaced by their original furniture, their contents end up on the ground.</s><r>Удаляет все данные CBF из загруженной игры, чтобы мод можно было безопасно удалить. Поселения остаются. Контейнеры заменяются оригинальной мебелью, их содержимое оказывается на земле.</r></e>
+  <e k="K" key="CBF_UninstallNeedGame"><s>Only available in a loaded game.</s><r>Доступно только в загруженной игре.</r></e>
+  <e k="K" key="CBF_UninstallStepComponents"><s>{0} map components removed</s><r>{0} компоненты карты удалены.</r></e>
+  <e k="K" key="CBF_UninstallStepContainers"><s>{0} containers replaced by their original furniture, contents on the ground</s><r>{0} контейнеры заменены оригинальной мебелью, содержимое на земле</r></e>
+  <e k="K" key="CBF_UninstallStepGenerator"><s>{0} maps switched to the vanilla map generator</s><r>{0} карты переключены на ванильный генератор карт</r></e>
+  <e k="K" key="CBF_UninstallStepLords"><s>{0} defender groups handed to vanilla defence</s><r>{0} групп защитников передано в ванильную защиту</r></e>
+  <e k="K" key="CBF_UninstallStepPawns"><s>{0} pawns switched to a vanilla pawn kind</s><r>{0} пешки заменены на ванильные пешки</r></e>
+  <e k="K" key="CBF_UninstallStepPlans"><s>{0} world places without CBF plan</s><r>{0} мест в мире без плана CBF</r></e>
+  <e k="K" key="CBF_UninstallStepQuestParts"><s>{0} CBF quest parts removed from other quests</s><r>{0} Части квеста CBF удалены из других квестов.</r></e>
+  <e k="K" key="CBF_UninstallStepQuests"><s>{0} CBF quests ended and removed</s><r>{0} Квесты CBF завершены и удалены.</r></e>
+  <e k="K" key="CBF_UninstallStepSites"><s>{0} CBF site parts removed</s><r>{0} Части сайта CBF удалены.</r></e>
+  <e k="K" key="CBF_UninstallStepStuffFallback"><s>{0} replacement pieces use the default material because the original material was missing</s><r>{0} в запасных частях используется материал по умолчанию, поскольку исходный материал отсутствовал.</r></e>
+  <e k="K" key="CBF_UninstallStepSupports"><s>{0} mine supports replaced by columns</s><r>{0} шахтные опоры заменены колоннами</r></e>
+  <e k="K" key="CBF_UninstallStepTerrain"><s>{0} cells with CBF terrain reset</s><r>{0} ячейки со сбросом ландшафта CBF</r></e>
+  <e k="K" key="CBF_UninstallStepThings"><s>{0} other CBF things removed</s><r>{0} другие вещи CBF удалены</r></e>
+  <e k="K" key="CBF_UninstallStepWalls"><s>{0} CBF walls replaced by walls of the same material</s><r>{0} Стены из CBF заменены стенами из того же материала.</r></e>
+  <e k="K" key="CBF_Unique"><s>Unique</s><r>Уникальный</r></e>
+  <e k="K" key="CBF_UniqueTip"><s>The piece appears at most once per settlement.</s><r>Часть появляется не более одного раза за поселение.</r></e>
+  <e k="K" key="CBF_UnmarkTemplate"><s>No longer a template</s><r>Больше не шаблон</r></e>
+  <e k="K" key="CBF_UnsavedWarning"><s>{0} has unexported changes.</s><r>{0} содержит неэкспортированные изменения.</r></e>
+  <e k="K" key="CBF_UploadNoReport"><s>No error report found yet.</s><r>Отчет об ошибке пока не найден.</r></e>
+  <e k="K" key="CBF_UsedByNobody"><s>Nothing names this list, so it is never rolled.</s><r>Ничто не называет этот список, поэтому он никогда не обновляется.</r></e>
+  <e k="K" key="CBF_Vanilla"><s>Vanilla</s><r>Ваниль</r></e>
+  <e k="K" key="CBF_Verlies_Aufstieg"><s>Send up</s><r>Отправить</r></e>
+  <e k="K" key="CBF_Verlies_AufstiegDesc"><s>Every pawn of yours on this level climbs up through all stairs on its own until it reaches the surface map.</s><r>Каждая ваша пешка на этом уровне самостоятельно поднимается по всем лестницам, пока не достигнет карты поверхности.</r></e>
+  <e k="K" key="CBF_Verlies_AufstiegNiemand"><s>Nobody here could climb up.</s><r>Здесь никто не мог подняться.</r></e>
+  <e k="K" key="CBF_Verlies_Fernauswahl"><s>{0} people on the other level stay queued. Click a destination here and they will come over.</s><r>{0} человек на другом уровне стоят в очереди. Нажмите здесь пункт назначения, и они придут.</r></e>
+  <e k="K" key="CBF_Verlies_Fernersatz"><s>{0} only gets close by, the clicked cell cannot be reached.</s><r>{0} только приближается, до ячейки, на которую щелкнули, невозможно добраться.</r></e>
+  <e k="K" key="CBF_Verlies_Fernkeinweg"><s>{0} cannot find a path to the clicked destination.</s><r>{0} не может найти путь к выбранному пункту назначения.</r></e>
+  <e k="K" key="CBF_Verlies_Fernziel"><s>{0} climbs up and then walks there.</s><r>{0} взбирается наверх и идет туда.</r></e>
+  <e k="K" key="CBF_Verlies_Hinab"><s>View level below</s><r>Посмотреть уровень ниже</r></e>
+  <e k="K" key="CBF_Verlies_HinabDesc"><s>Switches the view to the level below. The selected people stay queued: right click there sends them down and to the clicked destination.</s><r>Переключает вид на уровень ниже. Выбранные люди остаются в очереди: щелчок правой кнопкой мыши отправляет их вниз и в выбранный пункт назначения.</r></e>
+  <e k="K" key="CBF_Verlies_Hinauf"><s>View level above</s><r>Посмотреть уровень выше</r></e>
+  <e k="K" key="CBF_Verlies_HinaufDesc"><s>Switches the view to the level above. The selected people stay queued: right click there sends them up and to the clicked destination.</s><r>Переключает вид на уровень выше. Выбранные люди остаются в очереди: щелчок правой кнопкой мыши отправляет их вверх и в выбранный пункт назначения.</r></e>
+  <e k="K" key="CBF_Verlies_Karawane"><s>Form caravan</s><r>Форма каравана</r></e>
+  <e k="K" key="CBF_Verlies_KarawaneDesc"><s>Forms a caravan from every level of this dungeon. People and loot from each level can be chosen and are taken immediately. Only possible once no enemy remains on any level.</s><r>Формирует караван с каждого уровня этого подземелья. Люди и добыча с каждого уровня могут быть выбраны и забраны немедленно. Это возможно только в том случае, если ни на одном уровне не останется врагов.</r></e>
+  <e k="K" key="CBF_Verlies_Planen"><s>Planning the dungeon...</s><r>Планируем подземелье...</r></e>
+  <e k="K" key="CBF_Verlies_Vorgemerkt"><s>{0} queued, click a destination</s><r>{0} в очереди, щелкните пункт назначения</r></e>
+  <e k="K" key="CBF_WallOrderTip"><s>The order in which wall pieces are built. The strip always shows the same number of cells, whatever the percentages.</s><r>Порядок возведения частей стены. На полосе всегда отображается одинаковое количество ячеек, независимо от процентного соотношения.</r></e>
+  <e k="K" key="CBF_WallPart_Gatehouse"><s>gatehouse</s><r>сторожка</r></e>
+  <e k="K" key="CBF_WallPart_Segment"><s>wall segment</s><r>сегмент стены</r></e>
+  <e k="K" key="CBF_WallPart_Tower"><s>tower</s><r>башня</r></e>
+  <e k="K" key="CBF_WallsFromProfile"><s>Empty, so the wall profile {0} decides: {1}</s><r>Пусто, поэтому профиль стены {0} решает: {1}</r></e>
+  <e k="K" key="CBF_WallsNoProfile"><s>Empty, and there is no wall profile for this style and thickness. The settlement gets the generic wall.</s><r>Пустой, и нет настенного профиля для такого стиля и толщины. Поселение получит родовую стену.</r></e>
+  <e k="K" key="CBF_WantNo"><s>No</s><r>Нет</r></e>
+  <e k="K" key="CBF_WantYes"><s>Yes</s><r>Да</r></e>
+  <e k="K" key="CBF_WdLootShare"><s>Loot in World Domination settlements: {0}% planned CBF loot, {1}% World Domination loot</s><r>Добыча в поселениях мирового господства: {0}% запланированной добычи CBF, {1}% добычи мирового господства.</r></e>
+  <e k="K" key="CBF_WdLootShareHelp"><s>100%: every container keeps the loot of its CBF or Medieval Overhaul table, World Domination loot is off. 0%: the general containers get World Domination's loot budget, as World Domination would. In between, that share of the containers keeps its planned loot. The rest shares the full World Domination budget, and each of them gets at least one item. There is never less loot than at 0%.</s><r>100%: в каждом контейнере сохраняется добыча из таблицы CBF или Средневекового капитального ремонта, добыча за «Мировое господство» отключена. 0%: общие контейнеры получают бюджет добычи World Domination, как и World Domination. Между тем, в этой части контейнеров хранится запланированная добыча. Остальные разделяют полный бюджет Мирового господства, и каждый из них получает хотя бы один предмет. Лута никогда не бывает меньше, чем при 0%.</r></e>
+  <e k="K" key="CBF_WdTakeOver"><s>Build World Domination settlements with CBF</s><r>Постройте поселения мирового господства с помощью CBF</r></e>
+  <e k="K" key="CBF_WdTakeOverHelp"><s>CBF replaces the layouts of World Domination 2.0 and picks the settlement type by the World Domination tier. Off: CBF leaves World Domination settlements alone.</s><r>CBF заменяет макеты World Domination 2.0 и выбирает тип поселения по уровню World Domination. Выключено: CBF оставляет в покое поселения мирового господства.</r></e>
+  <e k="K" key="CBF_Weight"><s>weight</s><r>масса</r></e>
+  <e k="K" key="CBF_WeightHint"><s>The faction overview shows what this means in percent per faction.</s><r>Обзор фракций показывает, что это означает в процентах на фракцию.</r></e>
+  <e k="K" key="CBF_WeightTip"><s>How often this settlement is picked among all settlements a faction can get. 0 counts as 1.</s><r>Как часто это поселение выбирается среди всех поселений, которые может получить фракция. 0 считается за 1.</r></e>
+  <e k="K" key="CBF_WikiSectionTip"><s>Opens the part of the guide that explains this section.</s><r>Открывает часть руководства, объясняющую этот раздел.</r></e>
+  <e k="K" key="CBF_WorldBuilt"><s>{0} placed for {1} as {2} in {3}. Generating the map now.</s><r>{0} помещен для {1} как {2} в {3}. Генерируем карту сейчас.</r></e>
+  <e k="K" key="CBF_WorldFactionPick"><s>Choose a faction</s><r>Выберите фракцию</r></e>
+  <e k="K" key="CBF_WorldHidden"><s>(hidden)</s><r>(скрытый)</r></e>
+  <e k="K" key="CBF_WorldIconVanillaTip"><s>No own image. The settlement shows the image of its faction.</s><r>Нет собственного имиджа. В поселении отображается изображение своей фракции.</r></e>
+  <e k="K" key="CBF_WorldMaterialList"><s>Materials: {0}</s><r>Материалы: {0}</r></e>
+  <e k="K" key="CBF_WorldNoComp"><s>{0} carries no CBF plan component, the type was not stored.</s><r>{0} не содержит компонента плана CBF, тип не был сохранен.</r></e>
+  <e k="K" key="CBF_WorldNoFaction"><s>No faction available.</s><r>Нет доступных фракций.</r></e>
+  <e k="K" key="CBF_WorldNoObject"><s>No settlement on that tile.</s><r>На этой плитке нет поселений.</r></e>
+  <e k="K" key="CBF_WorldParts"><s>{0} district(s), {1}</s><r>{0} район(ы), {1}</r></e>
+  <e k="K" key="CBF_WorldPlaced"><s>{0} placed for {1}. Type: {2}</s><r>{0} размещено на {1}. Тип: {2}</r></e>
+  <e k="K" key="CBF_WorldPlan"><s>Settlement type: {0}</s><r>Тип расчета: {0}</r></e>
+  <e k="K" key="CBF_WorldPlanClear"><s>Forget, roll again on next look</s><r>Забудь, повтори попытку при следующем просмотре</r></e>
+  <e k="K" key="CBF_WorldPlanCleared"><s>{0} has no settlement type any more.</s><r>{0} больше не имеет типа расчета.</r></e>
+  <e k="K" key="CBF_WorldPlanFixed"><s>{0} is now {1}, stored in the save.</s><r>{0} теперь равно {1} и хранится в сохранении.</r></e>
+  <e k="K" key="CBF_WorldPlanForeign"><s>[not assigned to this faction]</s><r>[не принадлежит этой фракции]</r></e>
+  <e k="K" key="CBF_WorldPlanPick"><s>Choose a settlement type</s><r>Выберите тип поселения</r></e>
+  <e k="K" key="CBF_WorldPlanRandom"><s>Random, by assignment</s><r>Случайно, по заданию</r></e>
+  <e k="K" key="CBF_WorldTileBad"><s>No usable tile under the cursor.</s><r>Под курсором нет пригодной для использования плитки.</r></e>
+  <e k="K" key="CBF_WorldVanilla"><s>[vanilla map]</s><r>[ванильная карта]</r></e>
+  <e k="K" key="CBF_WorldWalled"><s>walled</s><r>обнесенный стеной</r></e>
+  <e k="K" key="CBF_WriteFailed"><s>Writing failed, see log.</s><r>Запись не удалась, см. журнал.</r></e>
+  <e k="K" key="CBF_WriteFailedReason"><s>Writing failed: {0}</s><r>Ошибка записи: {0}</r></e>
+  <e k="K" key="CBF_Yes"><s>yes</s><r>да</r></e>
+  <e k="K" key="CBF_ZonePieceDesc"><s>Mark an area that a piece is exported from. Adjacent marks merge into one.</s><r>Отметьте область, из которой экспортируется фрагмент. Соседние отметки сливаются в одну.</r></e>
+</AutoTranslateCache>
