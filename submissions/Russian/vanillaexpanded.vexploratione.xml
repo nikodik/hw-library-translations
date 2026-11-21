@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="vanillaexpanded.vexploratione" name="Vanilla Landmarks Expanded" language="Russian" version="1">
+  <e k="D" t="GameConditionDef" key="VEE_ColossalFauna.description"><s>All fauna in this area is much larger than usual.</s><r>Вся фауна в этой местности значительно крупнее обычной.</r></e>
+  <e k="D" t="GameConditionDef" key="VEE_ColossalFauna.label"><s>colossal fauna</s><r>колоссальная фауна</r></e>
+  <e k="D" t="GameConditionDef" key="VEE_FertileRainsGameCondition.description"><s>Unusually nutrient-rich rainfall is sweeping across the region, boosting plant growth for its duration.</s><r>Необычно богатые питательными веществами осадки проносятся по региону, стимулируя рост растений на протяжении всего региона.</r></e>
+  <e k="D" t="GameConditionDef" key="VEE_FertileRainsGameCondition.endMessage"><s>The fertile rain is ending.</s><r>Благодатный дождь заканчивается.</r></e>
+  <e k="D" t="GameConditionDef" key="VEE_FertileRainsGameCondition.label"><s>fertile rain</s><r>плодородный дождь</r></e>
+  <e k="D" t="GameConditionDef" key="VEE_GeomagneticStorm.description"><s>An intense geomagnetic event blankets the region, completely disabling all electrical devices.</s><r>Интенсивное геомагнитное событие охватило регион, полностью отключив все электрические устройства.</r></e>
+  <e k="D" t="GameConditionDef" key="VEE_GeomagneticStorm.label"><s>geomagnetic storm</s><r>геомагнитная буря</r></e>
+  <e k="D" t="GameConditionDef" key="VEE_Microfauna.description"><s>All fauna in this area is much smaller than usual.</s><r>Вся фауна в этой местности гораздо мельче обычной.</r></e>
+  <e k="D" t="GameConditionDef" key="VEE_Microfauna.label"><s>microfauna</s><r>микрофауна</r></e>
+  <e k="D" t="GameConditionDef" key="VEE_NoWind.description"><s>Winds are almost completely absent in this area.</s><r>Ветры в этом районе почти полностью отсутствуют.</r></e>
+  <e k="D" t="GameConditionDef" key="VEE_NoWind.label"><s>no wind</s><r>без ветра</r></e>
+  <e k="D" t="GameConditionDef" key="VEE_RagingWind.description"><s>Winds are extraordinarily stronger in this area.</s><r>Ветры в этом районе необычайно сильные.</r></e>
+  <e k="D" t="GameConditionDef" key="VEE_RagingWind.label"><s>raging winds</s><r>бушующие ветры</r></e>
+  <e k="D" t="GameConditionDef" key="VEE_RottenStench.description"><s>Acrid vapors seep from the ground, blanketing the area in a foul smell that burns the lungs and sours the mood.</s><r>Едкие пары просачиваются из-под земли, окутывая местность неприятным запахом, который обжигает легкие и портит настроение.</r></e>
+  <e k="D" t="GameConditionDef" key="VEE_RottenStench.label"><s>rotten stench</s><r>гнилое зловоние</r></e>
+  <e k="D" t="GameConditionDef" key="VEE_SkygazingSpot.description"><s>A serene atmospheric phenomenon encourages colonists to spend more time gazing at the sky. Increases the chance of skygazing and boosts the joy it provides.</s><r>Безмятежное атмосферное явление побуждает колонистов проводить больше времени, глядя на небо. Увеличивает вероятность наблюдения за небом и усиливает радость, которую это доставляет.</r></e>
+  <e k="D" t="GameConditionDef" key="VEE_SkygazingSpot.label"><s>skygazing spot</s><r>место для наблюдения за небом</r></e>
+  <e k="D" t="GameConditionDef" key="VEE_TidalFlooding.description"><s>In this extremely flat coastal plain the tides push far inland, regularly submerging large stretches of land.</s><r>На этой чрезвычайно плоской прибрежной равнине приливы продвигаются далеко вглубь суши, регулярно затапливая большие участки суши.</r></e>
+  <e k="D" t="GameConditionDef" key="VEE_TidalFlooding.label"><s>tidal flooding</s><r>приливное наводнение</r></e>
+  <e k="D" t="HediffDef" key="VEE_AnimaPearlsHediff.description"><s>Eating some anima pearls has provided a small psychic sensitivity boost.</s><r>Употребление в пищу жемчуга анимы немного повысило психическую чувствительность.</r></e>
+  <e k="D" t="HediffDef" key="VEE_AnimaPearlsHediff.label"><s>psychic sensitivity boost</s><r>повышение психической чувствительности</r></e>
+  <e k="D" t="HediffDef" key="VEE_ColossalFauna.description"><s>This animal is larger than usual.</s><r>Это животное крупнее обычного.</r></e>
+  <e k="D" t="HediffDef" key="VEE_ColossalFauna.label"><s>colossal animal</s><r>колоссальное животное</r></e>
+  <e k="D" t="HediffDef" key="VEE_DustStorm.description"><s>A dust storm is making vision practically impossible in this region.</s><r>Пыльная буря делает видение в этом регионе практически невозможным.</r></e>
+  <e k="D" t="HediffDef" key="VEE_DustStorm.label"><s>affected by dust storm</s><r>пострадал от пыльной бури</r></e>
+  <e k="D" t="HediffDef" key="VEE_Microfauna.description"><s>This animal is smaller than usual.</s><r>Это животное меньше обычного.</r></e>
+  <e k="D" t="HediffDef" key="VEE_Microfauna.label"><s>microfauna</s><r>микрофауна</r></e>
+  <e k="D" t="HediffDef" key="VEE_QuicksandHediff.description"><s>Moving through quicksand. Greatly reduces movement speed.</s><r>Движение по зыбучим пескам. Сильно снижает скорость передвижения.</r></e>
+  <e k="D" t="HediffDef" key="VEE_QuicksandHediff.label"><s>traversing quicksand</s><r>пересекая зыбучие пески</r></e>
+  <e k="D" t="HediffDef" key="VEE_RottenStench.description"><s>Acrid vapors seep from the ground, blanketing the area in a foul smell that burns the lungs and sours the mood.</s><r>Едкие пары просачиваются из-под земли, окутывая местность неприятным запахом, который обжигает легкие и портит настроение.</r></e>
+  <e k="D" t="HediffDef" key="VEE_RottenStench.label"><s>rotten stench</s><r>гнилое зловоние</r></e>
+  <e k="D" t="IncidentDef" key="VEE_Alphabeavers.label"><s>alphabeavers</s><r>альфабобры</r></e>
+  <e k="D" t="IncidentDef" key="VEE_Aurora.label"><s>aurora</s><r>полярное сияние</r></e>
+  <e k="D" t="IncidentDef" key="VEE_Aurora.letterLabel"><s>Aurora</s><r>Аврора</r></e>
+  <e k="D" t="IncidentDef" key="VEE_FertileRains.label"><s>fertile rains</s><r>плодородные дожди</r></e>
+  <e k="D" t="IncidentDef" key="VEE_FertileRains.letterLabel"><s>Fertile Rains</s><r>Плодородные дожди</r></e>
+  <e k="D" t="IncidentDef" key="VEE_FertileRains.letterText"><s>Unusually nutrient-rich rainfall is sweeping across the region, boosting plant growth for its duration.</s><r>Необычно богатые питательными веществами осадки проносятся по региону, стимулируя рост растений на протяжении всего региона.</r></e>
+  <e k="D" t="IncidentDef" key="VEE_Infestation.label"><s>infestation</s><r>заражение</r></e>
+  <e k="D" t="IncidentDef" key="VEE_Infestation.letterLabel"><s>Infestation</s><r>Заражение</r></e>
+  <e k="D" t="IncidentDef" key="VEE_Infestation.letterText"><s>Giant insects are tunneling towards you! They will break through in a few seconds and plant hives.
+
+The hives will spawn more insects and more hives.
+
+If you don't want the insects to infest the whole area, destroy the hives. But beware - the bugs will defend their home.</s><r>Гигантские насекомые тянутся к вам! Они прорвутся через несколько секунд и посадят ульи.
+
+Ульи будут порождать всё больше насекомых и больше ульев.
+
+Если вы не хотите, чтобы насекомые заполонили всю территорию, уничтожьте ульи. Но будьте осторожны – жуки будут защищать свой дом.</r></e>
+  <e k="D" t="IncidentDef" key="VEE_MigratoryHerds.label"><s>herd migration</s><r>миграция стада</r></e>
+  <e k="D" t="IncidentDef" key="VEE_MigratoryHerds.letterLabel"><s>Animal migration: {0}</s><r>Миграция животных: {0}</r></e>
+  <e k="D" t="IncidentDef" key="VEE_MigratoryHerds.letterText"><s>A group of {0} is passing through the area.
+
+They won't attack unless provoked.</s><r>Группа из {0} проходит через этот район.
+
+Они не будут атаковать, если их не спровоцировать.</r></e>
+  <e k="D" t="IncidentDef" key="VEE_TidalFloodingIncident.label"><s>tidal flooding</s><r>приливное наводнение</r></e>
+  <e k="D" t="IncidentDef" key="VEE_TornadoAlley.label"><s>tornado</s><r>торнадо</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_AbandonedFarmland.label"><s>abandoned farmlands</s><r>заброшенные сельскохозяйственные угодья</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_AlluvialFan.label"><s>alluvial fan</s><r>аллювиальный конус</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_AnimaCoast.label"><s>anima coast</s><r>оживить побережье</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_AnimaForest.label"><s>anima forest</s><r>анима лес</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_AuburnForest.label"><s>auburn forest</s><r>каштановый лес</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_BasaltCape.label"><s>basalt cape</s><r>базальтовая накидка</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_BloomingFields.label"><s>blooming fields</s><r>цветущие поля</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_BurnedForest.label"><s>burned forest</s><r>сожженный лес</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_CactusFields.label"><s>cactus fields</s><r>поля кактусов</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_CalmBasin.label"><s>calm basin</s><r>спокойный бассейн</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_Cenotes.label"><s>cenotes</s><r>сеноты</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_ContaminatedCoast.label"><s>contaminated coast</s><r>загрязненное побережье</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_ContaminatedReservoir.label"><s>contaminated reservoir</s><r>загрязненный резервуар</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_ContaminatedRiver.label"><s>contaminated river</s><r>загрязненная река</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_CoralReef.label"><s>coral reef</s><r>коралловый риф</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_CradleOfLife.label"><s>cradle of life</s><r>колыбель жизни</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_CraterLake.label"><s>crater lake</s><r>кратерное озеро</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_DetachedIceberg.label"><s>detached iceberg</s><r>отдельный айсберг</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_DriftwoodShore.label"><s>driftwood shore</s><r>берег коряг</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_DryRiver.label"><s>dry river</s><r>сухая река</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_DustBowl.label"><s>dust bowl</s><r>пылесборник</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_FleshPits.label"><s>flesh pits</s><r>flesh pits</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_FloodPlains.label"><s>flood plains</s><r>поймы</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_GlacialMoraine.label"><s>glacial moraine</s><r>ледниковая морена</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_GravelBeach.label"><s>gravel beach</s><r>галечный пляж</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_IceAndFire.label"><s>ice and fire</s><r>лед и пламя</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_IceSpires.label"><s>ice spires</s><r>ледяные шпили</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_JaggedRocks.label"><s>jagged rocks</s><r>зазубренные камни</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_LaurelForest.label"><s>laurel forest</s><r>лавровый лес</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_LittoralDunes.label"><s>littoral dunes</s><r>прибрежные дюны</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_LoneIsland.label"><s>lone island</s><r>одинокий остров</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_LoneIslandWithLake.label"><s>central lake island</s><r>остров центрального озера</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_LoneIslandWithMountain.label"><s>resurgent island</s><r>возрождающийся остров</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_LushLavaFields.label"><s>lush lava fields</s><r>пышные лавовые поля</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_Mangrove.label"><s>mangrove</s><r>мангровые заросли</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_MeteorCrater.label"><s>meteor crater</s><r>метеоритный кратер</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_Moor.label"><s>moor</s><r>пришвартоваться</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_PebbleDunes.label"><s>pebble dunes</s><r>галечные дюны</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_PermafrostBasin.label"><s>permafrost basin</s><r>бассейн вечной мерзлоты</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_QuicksandDunes.label"><s>quicksand dunes</s><r>зыбучие дюны</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_QuicksandPits.label"><s>quicksand pits</s><r>ямы с зыбучим песком</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_RedDesert.label"><s>red sand desert</s><r>пустыня с красным песком</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_RelictDelta.label"><s>relict delta</s><r>реликтовая дельта</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_ResurgentCaldera.label"><s>resurgent caldera</s><r>возрождающаяся кальдера</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_RisingWaters.label"><s>rising waters</s><r>подъем воды</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_RockRidge.label"><s>rock ridge</s><r>скальный хребет</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_SaltPlains.label"><s>salt plains</s><r>соляные равнины</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_SerpentineCanyons.label"><s>serpentine canyons</s><r>змеевидные каньоны</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_Sinkholes.label"><s>sinkholes</s><r>воронки</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_StagnantRivulet.label"><s>stagnant rivulet</s><r>стоячая речка</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_StoneForest.label"><s>stone forest</s><r>каменный лес</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_SulfuricLake.label"><s>sulfuric lake</s><r>серное озеро</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_SulfuricRiver.label"><s>sulfuric river</s><r>серная река</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_TemperateGrasslands.label"><s>temperate grasslands</s><r>умеренные луга</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_ToxicCrater.label"><s>toxic crater lake</s><r>токсичное кратерное озеро</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_TropicalBeach.label"><s>tropical beach</s><r>тропический пляж</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_VolcanicSandDesert.label"><s>volcanic sand desert</s><r>пустыня с вулканическим песком</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_Volcano.label"><s>volcano</s><r>вулкан</r></e>
+  <e k="D" t="LandmarkDef" key="VEE_WindBlownPlateau.label"><s>wind-blown plateau</s><r>продуваемое ветром плато</r></e>
+  <e k="D" t="ModDef" key="VEE_OptionalFeatures.description"><s>VE Framework optional features for Vanilla Landmarks Expanded</s><r>Расширены дополнительные функции VE Framework для Vanilla Landmarks</r></e>
+  <e k="D" t="ModDef" key="VEE_OptionalFeatures.label"><s>Vanilla Landmarks Expanded</s><r>Расширенные достопримечательности Vanilla</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_AbandonedFarmlands.rulePack.rulesStrings.0"><s>r_name(p=0.2)-&gt;[NamePerson]'s [terrain_word]</s><r>r_name(p=0.2)-&gt;[NamePerson] [terrain_word]</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_AbandonedFarmlands.rulePack.rulesStrings.1"><s>terrain_word(p=2)-&gt;abandoned farmlands</s><r>terrain_word(p=2)-&gt;заброшенные сельскохозяйственные угодья</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_AbandonedFarmlands.rulePack.rulesStrings.2"><s>terrain_word-&gt;forgotten fields</s><r>terrain_word-&gt;забытые поля</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_AbandonedFarmlands.rulePack.rulesStrings.3"><s>terrain_word-&gt;derelict croplands</s><r>terrain_word-&gt;заброшенные пахотные земли</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_AbandonedFarmlands.rulePack.rulesStrings.4"><s>terrain_word-&gt;overgrown farms</s><r>terrain_word-&gt;заросшие фермы</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_AbandonedFarmlands.rulePack.rulesStrings.5"><s>terrain_word-&gt;fallow plains</s><r>terrain_word-&gt;залежные равнины</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_AlluvialFan.rulePack.rulesStrings.0"><s>r_name(p=0.2)-&gt;[NamePerson]'s [terrain_word]</s><r>r_name(p=0.2)-&gt;[NamePerson] [terrain_word]</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_AlluvialFan.rulePack.rulesStrings.1"><s>terrain_word(p=2)-&gt;alluvial fan</s><r>terrain_word(p=2)-&gt;аллювиальный конус</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_AlluvialFan.rulePack.rulesStrings.2"><s>terrain_word-&gt;sediment fan</s><r>terrain_word-&gt;осадочный вентилятор</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_AlluvialFan.rulePack.rulesStrings.3"><s>terrain_word-&gt;river spillplain</s><r>terrain_word-&gt;пойма реки</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_AlluvialFan.rulePack.rulesStrings.4"><s>terrain_word-&gt;depositional flats</s><r>terrain_word-&gt;отложения</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_AnimaCoast.rulePack.rulesStrings.0"><s>r_name(p=0.2)-&gt;[NamePerson]'s [terrain_word]</s><r>r_name(p=0.2)-&gt;[NamePerson] [terrain_word]</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_AnimaCoast.rulePack.rulesStrings.1"><s>terrain_word(p=3)-&gt;anima coast</s><r>terrain_word(p=3)-&gt;оживить побережье</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_AnimaCoast.rulePack.rulesStrings.2"><s>terrain_word-&gt;anima shoreline</s><r>terrain_word-&gt;береговая линия анимы</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_AnimaCoast.rulePack.rulesStrings.3"><s>terrain_word-&gt;spirit-touched coast</s><r>terrain_word-&gt;тронутое духом побережье</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_AnimaCoast.rulePack.rulesStrings.4"><s>terrain_word-&gt;anima forest shore</s><r>terrain_word-&gt;анима лесной берег</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_AnimaCoast.rulePack.rulesStrings.5"><s>terrain_word-&gt;glowing coastal grove</s><r>terrain_word-&gt;светящаяся прибрежная роща</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_AnimaForest.rulePack.rulesStrings.0"><s>r_name(p=0.2)-&gt;[NamePerson]'s [terrain_word]</s><r>r_name(p=0.2)-&gt;[NamePerson] [terrain_word]</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_AnimaForest.rulePack.rulesStrings.1"><s>terrain_word(p=3)-&gt;anima forest</s><r>terrain_word(p=3)-&gt;анима лес</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_AnimaForest.rulePack.rulesStrings.2"><s>terrain_word(p=2)-&gt;anima woods</s><r>terrain_word(p=2)-&gt;анима Вудс</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_AnimaForest.rulePack.rulesStrings.3"><s>terrain_word-&gt;psychoactive forest</s><r>terrain_word-&gt;психоактивный лес</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_AnimaForest.rulePack.rulesStrings.4"><s>terrain_word-&gt;glowleaf grove</s><r>terrain_word-&gt;роща светящихся листьев</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_AnimaForest.rulePack.rulesStrings.5"><s>terrain_word-&gt;whispering anima trees</s><r>terrain_word-&gt;шепчущие деревья анимы</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_AnimaForest.rulePack.rulesStrings.6"><s>terrain_word-&gt;lucent woodland</s><r>terrain_word-&gt;прозрачный лесной массив</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_AuburnForest.rulePack.rulesStrings.0"><s>terrain_word-&gt;auburn woods</s><r>terrain_word-&gt;темно-каштановый лес</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_AuburnForest.rulePack.rulesStrings.1"><s>terrain_word-&gt;auburn forest</s><r>terrain_word-&gt;каштановый лес</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_AuburnForest.rulePack.rulesStrings.2"><s>terrain_word-&gt;auburn grove</s><r>terrain_word-&gt;темно-рыжая роща</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_AuburnForest.rulePack.rulesStrings.3"><s>terrain_word-&gt;auburn woodland</s><r>terrain_word-&gt;темно-рыжий лес</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_AuburnForest.rulePack.rulesStrings.4"><s>terrain_word-&gt;auburn thicket</s><r>terrain_word-&gt;темно-каштановые заросли</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_BasaltCape.rulePack.rulesStrings.0"><s>terrain_word-&gt;basalt cape</s><r>terrain_word-&gt;базальтовая накидка</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_BasaltCape.rulePack.rulesStrings.1"><s>terrain_word-&gt;basalt headland</s><r>terrain_word-&gt;базальтовый мыс</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_BasaltCape.rulePack.rulesStrings.2"><s>terrain_word-&gt;black stone promontory</s><r>terrain_word-&gt;мыс из черного камня</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_BasaltCape.rulePack.rulesStrings.3"><s>terrain_word-&gt;volcanic headland</s><r>terrain_word-&gt;вулканический мыс</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_BasaltCape.rulePack.rulesStrings.4"><s>terrain_word-&gt;basalt cliffs</s><r>terrain_word-&gt;базальтовые скалы</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_BloomingFields.rulePack.rulesStrings.0"><s>r_name(p=0.2)-&gt;[NamePerson]'s [terrain_word]</s><r>r_name(p=0.2)-&gt;[NamePerson] [terrain_word]</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_BloomingFields.rulePack.rulesStrings.1"><s>terrain_word(p=2)-&gt;wildflower meadow</s><r>terrain_word(p=2)-&gt;луг с полевыми цветами</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_BloomingFields.rulePack.rulesStrings.2"><s>terrain_word-&gt;blooming field</s><r>terrain_word-&gt;цветущее поле</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_BloomingFields.rulePack.rulesStrings.3"><s>terrain_word-&gt;floral plain</s><r>terrain_word-&gt;цветочная равнина</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_BloomingFields.rulePack.rulesStrings.4"><s>terrain_word-&gt;petal-covered grasslands</s><r>terrain_word-&gt;луга, покрытые лепестками</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_BurnedForest.rulePack.rulesStrings.0"><s>r_name(p=0.2)-&gt;[NamePerson]'s [terrain_word]</s><r>r_name(p=0.2)-&gt;[NamePerson] [terrain_word]</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_BurnedForest.rulePack.rulesStrings.1"><s>terrain_word(p=2)-&gt;burned forest</s><r>terrain_word(p=2)-&gt;сожженный лес</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_BurnedForest.rulePack.rulesStrings.2"><s>terrain_word-&gt;charred forest</s><r>terrain_word-&gt;обугленный лес</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_BurnedForest.rulePack.rulesStrings.3"><s>terrain_word-&gt;burnt woodland</s><r>terrain_word-&gt;сгоревший лес</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_BurnedForest.rulePack.rulesStrings.4"><s>terrain_word-&gt;scorched grove</s><r>terrain_word-&gt;выжженная роща</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_CactusFields.rulePack.rulesStrings.0"><s>r_name(p=0.2)-&gt;[NamePerson]'s [terrain_word]</s><r>r_name(p=0.2)-&gt;[NamePerson] [terrain_word]</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_CactusFields.rulePack.rulesStrings.1"><s>terrain_word(p=2)-&gt;cactus field</s><r>terrain_word(p=2)-&gt;поле кактусов</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_CactusFields.rulePack.rulesStrings.2"><s>terrain_word-&gt;xerophile garden</s><r>terrain_word-&gt;ксерофильный сад</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_CactusFields.rulePack.rulesStrings.3"><s>terrain_word-&gt;cactus plain</s><r>terrain_word-&gt;кактус равнина</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_CactusFields.rulePack.rulesStrings.4"><s>terrain_word-&gt;spinebrush flats</s><r>terrain_word-&gt;балетки с гребешками</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_CactusFields.rulePack.rulesStrings.5"><s>terrain_word-&gt;thorned lowlands</s><r>terrain_word-&gt;колючие низины</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_CactusFields.rulePack.rulesStrings.6"><s>terrain_word-&gt;prickled desert</s><r>terrain_word-&gt;колючая пустыня</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_CalmBasin.rulePack.rulesStrings.0"><s>terrain_word(p=3)-&gt;calm basin</s><r>terrain_word(p=3)-&gt;спокойный бассейн</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_CalmBasin.rulePack.rulesStrings.1"><s>terrain_word-&gt;silent basin</s><r>terrain_word-&gt;тихий бассейн</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_CalmBasin.rulePack.rulesStrings.2"><s>terrain_word-&gt;windless hollow</s><r>terrain_word-&gt;безветренная лощина</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_Canyons.rulePack.rulesStrings.0"><s>r_name(p=0.2)-&gt;[NamePerson]'s [terrain_word]</s><r>r_name(p=0.2)-&gt;[NamePerson] [terrain_word]</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_Canyons.rulePack.rulesStrings.1"><s>terrain_word(p=2)-&gt;canyons</s><r>terrain_word(p=2)-&gt;каньоны</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_Cenotes.rulePack.rulesStrings.0"><s>terrain_word-&gt;cenote field</s><r>terrain_word-&gt;поле сенотов</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_Cenotes.rulePack.rulesStrings.1"><s>terrain_word-&gt;cenote lakes</s><r>terrain_word-&gt;сеноты озера</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_Cenotes.rulePack.rulesStrings.2"><s>terrain_word-&gt;collapsed limestone pools</s><r>terrain_word-&gt;обрушившиеся известняковые бассейны</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_Cenotes.rulePack.rulesStrings.3"><s>terrain_word-&gt;water-filled cenotes</s><r>terrain_word-&gt;наполненные водой сеноты</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_Cenotes.rulePack.rulesStrings.4"><s>terrain_word-&gt;karst hollows</s><r>terrain_word-&gt;карстовые впадины</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_CentralLakeIsland.rulePack.rulesStrings.0"><s>terrain_word(p=3)-&gt;lake island</s><r>terrain_word(p=3)-&gt;остров озера</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_CentralLakeIsland.rulePack.rulesStrings.1"><s>terrain_word-&gt;isle of waters</s><r>terrain_word-&gt;остров вод</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_CentralLakeIsland.rulePack.rulesStrings.2"><s>terrain_word-&gt;ringed lake isle</s><r>terrain_word-&gt;остров с кольцевым озером</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_CentralLakeIsland.rulePack.rulesStrings.3"><s>terrain_word-&gt;inland lake island</s><r>terrain_word-&gt;остров внутреннего озера</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_ContaminatedCoast.rulePack.rulesStrings.0"><s>r_name(p=0.2)-&gt;[NamePerson]'s [terrain_word]</s><r>r_name(p=0.2)-&gt;[NamePerson] [terrain_word]</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_ContaminatedCoast.rulePack.rulesStrings.1"><s>terrain_word(p=2)-&gt;contaminated coast</s><r>terrain_word(p=2)-&gt;загрязненное побережье</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_ContaminatedCoast.rulePack.rulesStrings.2"><s>terrain_word-&gt;irradiated shoreline</s><r>terrain_word-&gt;облученная береговая линия</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_ContaminatedCoast.rulePack.rulesStrings.3"><s>terrain_word-&gt;radioactive shallows</s><r>terrain_word-&gt;радиоактивные отмели</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_ContaminatedCoast.rulePack.rulesStrings.4"><s>terrain_word-&gt;glowwater coast</s><r>terrain_word-&gt;светящееся побережье</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_ContaminatedCoast.rulePack.rulesStrings.5"><s>terrain_word-&gt;radioactive beachfront</s><r>terrain_word-&gt;радиоактивный пляж</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_ContaminatedReservoir.rulePack.rulesStrings.0"><s>r_name(p=0.2)-&gt;[NamePerson]'s [terrain_word]</s><r>r_name(p=0.2)-&gt;[NamePerson] [terrain_word]</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_ContaminatedReservoir.rulePack.rulesStrings.1"><s>terrain_word(p=2)-&gt;contaminated reservoir</s><r>terrain_word(p=2)-&gt;загрязненный резервуар</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_ContaminatedReservoir.rulePack.rulesStrings.2"><s>terrain_word-&gt;irradiated lake</s><r>terrain_word-&gt;облученное озеро</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_ContaminatedReservoir.rulePack.rulesStrings.3"><s>terrain_word-&gt;radioactive waters</s><r>terrain_word-&gt;радиоактивные воды</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_ContaminatedReservoir.rulePack.rulesStrings.4"><s>terrain_word-&gt;glowwater basin</s><r>terrain_word-&gt;бассейн светящейся воды</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_ContaminatedReservoir.rulePack.rulesStrings.5"><s>terrain_word-&gt;radioactive lakebed</s><r>terrain_word-&gt;радиоактивное дно озера</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_ContaminatedRiver.rulePack.rulesStrings.0"><s>r_name(p=0.2)-&gt;[NamePerson]'s [terrain_word]</s><r>r_name(p=0.2)-&gt;[NamePerson] [terrain_word]</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_ContaminatedRiver.rulePack.rulesStrings.1"><s>terrain_word(p=2)-&gt;contaminated river</s><r>terrain_word(p=2)-&gt;загрязненная река</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_ContaminatedRiver.rulePack.rulesStrings.2"><s>terrain_word-&gt;irradiated river</s><r>terrain_word-&gt;облученная река</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_ContaminatedRiver.rulePack.rulesStrings.3"><s>terrain_word-&gt;radioactive waters</s><r>terrain_word-&gt;радиоактивные воды</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_ContaminatedRiver.rulePack.rulesStrings.4"><s>terrain_word-&gt;glowwater stream</s><r>terrain_word-&gt;поток светящейся воды</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_ContaminatedRiver.rulePack.rulesStrings.5"><s>terrain_word-&gt;radioactive riverbed</s><r>terrain_word-&gt;радиоактивное русло реки</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_CoralReef.rulePack.rulesStrings.0"><s>r_name(p=0.2)-&gt;[NamePerson]'s [terrain_word]</s><r>r_name(p=0.2)-&gt;[NamePerson] [terrain_word]</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_CoralReef.rulePack.rulesStrings.1"><s>terrain_word(p=2)-&gt;coral reef</s><r>terrain_word(p=2)-&gt;коралловый риф</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_CoralReef.rulePack.rulesStrings.2"><s>terrain_word-&gt;coral shoal</s><r>terrain_word-&gt;коралловая отмель</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_CoralReef.rulePack.rulesStrings.3"><s>terrain_word-&gt;reef formation</s><r>terrain_word-&gt;образование рифа</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_CoralReef.rulePack.rulesStrings.4"><s>terrain_word-&gt;barrier reef</s><r>terrain_word-&gt;барьерный риф</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_CoralReef.rulePack.rulesStrings.5"><s>terrain_word-&gt;fringing reef</s><r>terrain_word-&gt;окаймляющий риф</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_CradleOfLife.rulePack.rulesStrings.0"><s>r_name(p=0.2)-&gt;[NamePerson]'s [terrain_word]</s><r>r_name(p=0.2)-&gt;[NamePerson] [terrain_word]</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_CradleOfLife.rulePack.rulesStrings.1"><s>terrain_word(p=3)-&gt;cradle of life</s><r>terrain_word(p=3)-&gt;колыбель жизни</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_CradleOfLife.rulePack.rulesStrings.2"><s>terrain_word(p=2)-&gt;life basin</s><r>terrain_word(p=2)-&gt;бассейн жизни</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_CradleOfLife.rulePack.rulesStrings.3"><s>terrain_word-&gt;verdant cradle</s><r>terrain_word-&gt;зеленая колыбель</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_CradleOfLife.rulePack.rulesStrings.4"><s>terrain_word-&gt;genesis hollow</s><r>terrain_word-&gt;бытие полое</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_CradleOfLife.rulePack.rulesStrings.5"><s>terrain_word-&gt;primeval basin</s><r>terrain_word-&gt;первобытный бассейн</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_CraterLake.rulePack.rulesStrings.0"><s>terrain_word(p=3)-&gt;crater lake</s><r>terrain_word(p=3)-&gt;кратерное озеро</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_CraterLake.rulePack.rulesStrings.1"><s>terrain_word-&gt;caldera lake</s><r>terrain_word-&gt;кальдерное озеро</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_CraterLake.rulePack.rulesStrings.2"><s>terrain_word-&gt;impact lake</s><r>terrain_word-&gt;ударное озеро</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_DetachedIceberg.rulePack.rulesStrings.0"><s>terrain_word-&gt;drift iceberg</s><r>terrain_word-&gt;дрейфующий айсберг</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_DetachedIceberg.rulePack.rulesStrings.1"><s>terrain_word-&gt;pack ice mass</s><r>terrain_word-&gt;масса пакового льда</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_DetachedIceberg.rulePack.rulesStrings.2"><s>terrain_word-&gt;floating ice</s><r>terrain_word-&gt;плавучий лед</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_DriftwoodShore.rulePack.rulesStrings.0"><s>r_name(p=0.2)-&gt;[NamePerson]'s [terrain_word]</s><r>r_name(p=0.2)-&gt;[NamePerson] [terrain_word]</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_DriftwoodShore.rulePack.rulesStrings.1"><s>terrain_word(p=2)-&gt;driftwood shore</s><r>terrain_word(p=2)-&gt;берег коряг</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_DriftwoodShore.rulePack.rulesStrings.2"><s>terrain_word-&gt;driftwood coast</s><r>terrain_word-&gt;берег коряг</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_DriftwoodShore.rulePack.rulesStrings.3"><s>terrain_word-&gt;wreckwood beach</s><r>terrain_word-&gt;пляж затонувших кораблей</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_DriftwoodShore.rulePack.rulesStrings.4"><s>terrain_word-&gt;tidal woodline</s><r>terrain_word-&gt;приливная линия леса</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_DriftwoodShore.rulePack.rulesStrings.5"><s>terrain_word-&gt;bleached timber shore</s><r>terrain_word-&gt;берег из беленой древесины</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_DryRiver.rulePack.rulesStrings.0"><s>terrain_word-&gt;dry river</s><r>terrain_word-&gt;сухая река</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_DryRiver.rulePack.rulesStrings.1"><s>terrain_word-&gt;sand river</s><r>terrain_word-&gt;песчаная река</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_DryRiver.rulePack.rulesStrings.2"><s>terrain_word-&gt;barren river</s><r>terrain_word-&gt;бесплодная река</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_DustBowl.rulePack.rulesStrings.0"><s>r_name(p=0.2)-&gt;[NamePerson]'s [terrain_word]</s><r>r_name(p=0.2)-&gt;[NamePerson] [terrain_word]</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_DustBowl.rulePack.rulesStrings.1"><s>terrain_word(p=2)-&gt;dust bowl</s><r>terrain_word(p=2)-&gt;пылесборник</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_DustBowl.rulePack.rulesStrings.2"><s>terrain_word-&gt;depression</s><r>terrain_word-&gt;депрессия</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_DustBowl.rulePack.rulesStrings.3"><s>terrain_word-&gt;blasted expanse</s><r>terrain_word-&gt;взорванное пространство</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_DustBowl.rulePack.rulesStrings.4"><s>terrain_word-&gt;parched barrens</s><r>terrain_word-&gt;пересохшие пустоши</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_DustBowl.rulePack.rulesStrings.5"><s>terrain_word-&gt;scorched dustplain</s><r>terrain_word-&gt;выжженная пыльная равнина</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_FleshPits.rulePack.rulesStrings.0"><s>terrain_word-&gt;flesh pits</s><r>terrain_word-&gt;flesh pits</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_FleshPits.rulePack.rulesStrings.1"><s>terrain_word-&gt;anomalous caverns</s><r>terrain_word-&gt;аномальные пещеры</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_FleshPits.rulePack.rulesStrings.2"><s>terrain_word-&gt;flesh pit expanse</s><r>terrain_word-&gt;flesh pit expanse</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_FloodPlains.rulePack.rulesStrings.0"><s>r_name(p=0.2)-&gt;[NamePerson]'s [terrain_word]</s><r>r_name(p=0.2)-&gt;[NamePerson] [terrain_word]</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_FloodPlains.rulePack.rulesStrings.1"><s>terrain_word(p=2)-&gt;flood plain</s><r>terrain_word(p=2)-&gt;пойма</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_FloodPlains.rulePack.rulesStrings.2"><s>terrain_word-&gt;river floodlands</s><r>terrain_word-&gt;речные поймы</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_FloodPlains.rulePack.rulesStrings.3"><s>terrain_word-&gt;alluvial plain</s><r>terrain_word-&gt;аллювиальная равнина</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_FloodPlains.rulePack.rulesStrings.4"><s>terrain_word-&gt;seasonal floodplain</s><r>terrain_word-&gt;сезонная пойма</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_FloodPlains.rulePack.rulesStrings.5"><s>terrain_word-&gt;silt-rich lowlands</s><r>terrain_word-&gt;богатые илом низменности</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_GlacialMoraine.rulePack.rulesStrings.0"><s>terrain_word-&gt;glacial moraine</s><r>terrain_word-&gt;ледниковая морена</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_GlacialMoraine.rulePack.rulesStrings.1"><s>terrain_word-&gt;ice-pushed ridge</s><r>terrain_word-&gt;ледяной хребет</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_GlacialMoraine.rulePack.rulesStrings.2"><s>terrain_word-&gt;stone-strewn moraine</s><r>terrain_word-&gt;усыпанная камнями морена</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_GlacialMoraine.rulePack.rulesStrings.3"><s>terrain_word-&gt;frozen debris fields</s><r>terrain_word-&gt;поля замерзшего мусора</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_GlacialMoraine.rulePack.rulesStrings.4"><s>terrain_word-&gt;glacial rubble ridges</s><r>terrain_word-&gt;ледниковые хребты</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_GravelBeach.rulePack.rulesStrings.0"><s>terrain_word-&gt;gravel shore</s><r>terrain_word-&gt;гравийный берег</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_GravelBeach.rulePack.rulesStrings.1"><s>terrain_word-&gt;shingle coast</s><r>terrain_word-&gt;галечный берег</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_GravelBeach.rulePack.rulesStrings.2"><s>terrain_word-&gt;stone-littered beach</s><r>terrain_word-&gt;каменный пляж</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_GravelBeach.rulePack.rulesStrings.3"><s>terrain_word-&gt;pebble strand</s><r>terrain_word-&gt;галька</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_GravelBeach.rulePack.rulesStrings.4"><s>terrain_word-&gt;rocky shoreline</s><r>terrain_word-&gt;скалистая береговая линия</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_IceAndFireIsland.rulePack.rulesStrings.0"><s>terrain_word(p=3)-&gt;ice and fire island</s><r>terrain_word(p=3)-&gt;остров льда и огня</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_IceAndFireIsland.rulePack.rulesStrings.1"><s>terrain_word-&gt;frozen caldera</s><r>terrain_word-&gt;замороженная кальдера</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_IceAndFireIsland.rulePack.rulesStrings.2"><s>terrain_word-&gt;glacial fire isle</s><r>terrain_word-&gt;ледниковый огненный остров</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_IceAndFireIsland.rulePack.rulesStrings.3"><s>terrain_word-&gt;polar volcano isle</s><r>terrain_word-&gt;остров полярного вулкана</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_IceSpires.rulePack.rulesStrings.0"><s>terrain_word-&gt;ice spires</s><r>terrain_word-&gt;ледяные шпили</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_IceSpires.rulePack.rulesStrings.1"><s>terrain_word-&gt;frozen spire field</s><r>terrain_word-&gt;замерзшее шпильное поле</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_IceSpires.rulePack.rulesStrings.2"><s>terrain_word-&gt;glacial pinnacles</s><r>terrain_word-&gt;ледниковые вершины</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_IceSpires.rulePack.rulesStrings.3"><s>terrain_word-&gt;ice needle plains</s><r>terrain_word-&gt;равнины ледяных игл</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_IceSpires.rulePack.rulesStrings.4"><s>terrain_word-&gt;frosted towers</s><r>terrain_word-&gt;матовые башни</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_ImpactCrater.rulePack.rulesStrings.0"><s>terrain_word(p=3)-&gt;impact crater</s><r>terrain_word(p=3)-&gt;ударный кратер</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_ImpactCrater.rulePack.rulesStrings.1"><s>terrain_word-&gt;meteor crater</s><r>terrain_word-&gt;метеоритный кратер</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_ImpactCrater.rulePack.rulesStrings.2"><s>terrain_word-&gt;impact basin</s><r>terrain_word-&gt;ударный бассейн</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_JaggedRocks.rulePack.rulesStrings.0"><s>r_name(p=0.2)-&gt;[NamePerson]'s [terrain_word]</s><r>r_name(p=0.2)-&gt;[NamePerson] [terrain_word]</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_JaggedRocks.rulePack.rulesStrings.1"><s>terrain_word(p=2)-&gt;jagged rocks</s><r>terrain_word(p=2)-&gt;зазубренные камни</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_JaggedRocks.rulePack.rulesStrings.2"><s>terrain_word-&gt;jagged ridges</s><r>terrain_word-&gt;неровные гребни</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_LaurelForest.rulePack.rulesStrings.0"><s>terrain_word-&gt;laurel forest</s><r>terrain_word-&gt;лавровый лес</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_LaurelForest.rulePack.rulesStrings.1"><s>terrain_word-&gt;evergreen cloud forest</s><r>terrain_word-&gt;вечнозеленый облачный лес</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_LaurelForest.rulePack.rulesStrings.2"><s>terrain_word-&gt;mist-laden woodland</s><r>terrain_word-&gt;туманный лесной массив</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_LaurelForest.rulePack.rulesStrings.3"><s>terrain_word-&gt;humid evergreen forest</s><r>terrain_word-&gt;влажный вечнозеленый лес</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_LaurelForest.rulePack.rulesStrings.4"><s>terrain_word-&gt;broadleaf evergreen woods</s><r>terrain_word-&gt;широколиственные вечнозеленые леса</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_LittoralDunes.rulePack.rulesStrings.0"><s>terrain_word-&gt;littoral dunes</s><r>terrain_word-&gt;прибрежные дюны</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_LittoralDunes.rulePack.rulesStrings.1"><s>terrain_word-&gt;coastal sand dunes</s><r>terrain_word-&gt;прибрежные песчаные дюны</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_LittoralDunes.rulePack.rulesStrings.2"><s>terrain_word-&gt;shoreline dune fields</s><r>terrain_word-&gt;береговая линия, дюнные поля</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_LittoralDunes.rulePack.rulesStrings.3"><s>terrain_word-&gt;wind-sculpted coast</s><r>terrain_word-&gt;обдуваемый ветром берег</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_LittoralDunes.rulePack.rulesStrings.4"><s>terrain_word-&gt;beach dune ridges</s><r>terrain_word-&gt;гряды пляжных дюн</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_LoneIsland.rulePack.rulesStrings.0"><s>terrain_word(p=3)-&gt;lone island</s><r>terrain_word(p=3)-&gt;одинокий остров</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_LoneIsland.rulePack.rulesStrings.1"><s>terrain_word-&gt;isolated isle</s><r>terrain_word-&gt;изолированный остров</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_LoneIsland.rulePack.rulesStrings.2"><s>terrain_word-&gt;detached island</s><r>terrain_word-&gt;отдельный остров</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_LoneIsland.rulePack.rulesStrings.3"><s>terrain_word-&gt;solitary isle</s><r>terrain_word-&gt;уединенный остров</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_LushLavaFields.rulePack.rulesStrings.0"><s>terrain_word-&gt;lush lava fields</s><r>terrain_word-&gt;пышные лавовые поля</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_LushLavaFields.rulePack.rulesStrings.1"><s>terrain_word-&gt;vegetated lava plain</s><r>terrain_word-&gt;поросшая лавой равнина</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_LushLavaFields.rulePack.rulesStrings.2"><s>terrain_word-&gt;green volcanic flats</s><r>terrain_word-&gt;зеленые вулканические равнины</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_LushLavaFields.rulePack.rulesStrings.3"><s>terrain_word-&gt;overgrown basalt fields</s><r>terrain_word-&gt;заросшие базальтовые поля</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_LushLavaFields.rulePack.rulesStrings.4"><s>terrain_word-&gt;life-bound lava flows</s><r>terrain_word-&gt;связанные с жизнью потоки лавы</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_Mangrove.rulePack.rulesStrings.0"><s>r_name(p=0.2)-&gt;[NamePerson]'s [terrain_word]</s><r>r_name(p=0.2)-&gt;[NamePerson] [terrain_word]</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_Mangrove.rulePack.rulesStrings.1"><s>terrain_word(p=2)-&gt;mangrove</s><r>terrain_word(p=2)-&gt;мангровые заросли</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_Mangrove.rulePack.rulesStrings.2"><s>terrain_word-&gt;tidal forest</s><r>terrain_word-&gt;приливной лес</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_Mangrove.rulePack.rulesStrings.3"><s>terrain_word-&gt;mangal</s><r>terrain_word-&gt;мангал</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_Mangrove.rulePack.rulesStrings.4"><s>terrain_word-&gt;brackish swamp</s><r>terrain_word-&gt;солоноватое болото</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_Mangrove.rulePack.rulesStrings.5"><s>terrain_word-&gt;saltmire thicket</s><r>terrain_word-&gt;заросли солончака</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_Mangrove.rulePack.rulesStrings.6"><s>terrain_word-&gt;saltwater forest</s><r>terrain_word-&gt;морской лес</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_Moor.rulePack.rulesStrings.0"><s>terrain_word-&gt;moor</s><r>terrain_word-&gt;пришвартоваться</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_Moor.rulePack.rulesStrings.1"><s>terrain_word-&gt;open heath</s><r>terrain_word-&gt;открытая пустошь</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_Moor.rulePack.rulesStrings.2"><s>terrain_word-&gt;windswept moorland</s><r>terrain_word-&gt;продуваемая всеми ветрами вересковая пустошь</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_Moor.rulePack.rulesStrings.3"><s>terrain_word-&gt;heather plain</s><r>terrain_word-&gt;вересковая равнина</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_Moor.rulePack.rulesStrings.4"><s>terrain_word-&gt;peaty uplands</s><r>terrain_word-&gt;торфяные возвышенности</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_PebbleDunes.rulePack.rulesStrings.0"><s>terrain_word-&gt;pebble dunes</s><r>terrain_word-&gt;галечные дюны</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_PebbleDunes.rulePack.rulesStrings.1"><s>terrain_word-&gt;shingle dunes</s><r>terrain_word-&gt;галечные дюны</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_PebbleDunes.rulePack.rulesStrings.2"><s>terrain_word-&gt;gravel drifts</s><r>terrain_word-&gt;гравийные заносы</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_PebbleDunes.rulePack.rulesStrings.3"><s>terrain_word-&gt;stone-swept ridges</s><r>terrain_word-&gt;каменные хребты</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_PebbleDunes.rulePack.rulesStrings.4"><s>terrain_word-&gt;rolling pebble fields</s><r>terrain_word-&gt;холмистые галечные поля</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_PermafrostBasin.rulePack.rulesStrings.0"><s>terrain_word-&gt;permafrost basin</s><r>terrain_word-&gt;бассейн вечной мерзлоты</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_PermafrostBasin.rulePack.rulesStrings.1"><s>terrain_word-&gt;frozen lowland</s><r>terrain_word-&gt;замерзшая низменность</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_PermafrostBasin.rulePack.rulesStrings.2"><s>terrain_word-&gt;ice-locked tundra</s><r>terrain_word-&gt;скованная льдом тундра</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_PermafrostBasin.rulePack.rulesStrings.3"><s>terrain_word-&gt;frostbound basin</s><r>terrain_word-&gt;замерзший бассейн</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_PermafrostBasin.rulePack.rulesStrings.4"><s>terrain_word-&gt;perennial frost tundra</s><r>terrain_word-&gt;многолетняя морозная тундра</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_QuicksandDunes.rulePack.rulesStrings.0"><s>terrain_word(p=4)-&gt;quicksand dunes</s><r>terrain_word(p=4)-&gt;зыбучие дюны</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_QuicksandDunes.rulePack.rulesStrings.1"><s>terrain_word-&gt;sinking dunes</s><r>terrain_word-&gt;тонущие дюны</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_QuicksandDunes.rulePack.rulesStrings.2"><s>terrain_word-&gt;loose earth dunes</s><r>terrain_word-&gt;рыхлые земляные дюны</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_QuicksandDunes.rulePack.rulesStrings.3"><s>terrain_word-&gt;unstable dunes</s><r>terrain_word-&gt;нестабильные дюны</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_QuicksandPits.rulePack.rulesStrings.0"><s>terrain_word(p=4)-&gt;quicksand pits</s><r>terrain_word(p=4)-&gt;ямы с зыбучим песком</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_QuicksandPits.rulePack.rulesStrings.1"><s>terrain_word-&gt;sinking sands</s><r>terrain_word-&gt;тонущие пески</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_QuicksandPits.rulePack.rulesStrings.2"><s>terrain_word-&gt;loose earth pockets</s><r>terrain_word-&gt;свободные земные карманы</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_QuicksandPits.rulePack.rulesStrings.3"><s>terrain_word-&gt;unstable ground</s><r>terrain_word-&gt;неустойчивая почва</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_RedSandDesert.rulePack.rulesStrings.0"><s>terrain_word-&gt;red sand desert</s><r>terrain_word-&gt;пустыня с красным песком</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_RedSandDesert.rulePack.rulesStrings.1"><s>terrain_word-&gt;crimson desert</s><r>terrain_word-&gt;малиновая пустыня</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_RedSandDesert.rulePack.rulesStrings.2"><s>terrain_word-&gt;rust-colored desert</s><r>terrain_word-&gt;пустыня цвета ржавчины</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_RedSandDesert.rulePack.rulesStrings.3"><s>terrain_word-&gt;iron-rich desert</s><r>terrain_word-&gt;богатая железом пустыня</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_RelictDelta.rulePack.rulesStrings.0"><s>terrain_word(p=2)-&gt;relict delta</s><r>terrain_word(p=2)-&gt;реликтовая дельта</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_RelictDelta.rulePack.rulesStrings.1"><s>terrain_word-&gt;abandoned delta</s><r>terrain_word-&gt;заброшенная дельта</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_RelictDelta.rulePack.rulesStrings.2"><s>terrain_word-&gt;desiccated delta</s><r>terrain_word-&gt;высушенная дельта</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_RelictDelta.rulePack.rulesStrings.3"><s>terrain_word-&gt;silt delta</s><r>terrain_word-&gt;все еще дельта</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_RelictDelta.rulePack.rulesStrings.4"><s>terrain_word-&gt;braided flats</s><r>terrain_word-&gt;плетеные балетки</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_ResurgentCaldera.rulePack.rulesStrings.0"><s>terrain_word(p=3)-&gt;resurgent caldera</s><r>terrain_word(p=3)-&gt;возрождающаяся кальдера</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_ResurgentCaldera.rulePack.rulesStrings.1"><s>terrain_word-&gt;uplifted caldera</s><r>terrain_word-&gt;поднятая кальдера</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_ResurgentCaldera.rulePack.rulesStrings.2"><s>terrain_word-&gt;central dome caldera</s><r>terrain_word-&gt;центральный купол кальдеры</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_ResurgentIsland.rulePack.rulesStrings.0"><s>terrain_word(p=3)-&gt;resurgent island</s><r>terrain_word(p=3)-&gt;возрождающийся остров</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_ResurgentIsland.rulePack.rulesStrings.1"><s>terrain_word-&gt;uplifted island</s><r>terrain_word-&gt;поднятый остров</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_ResurgentIsland.rulePack.rulesStrings.2"><s>terrain_word-&gt;central peak isle</s><r>terrain_word-&gt;остров центрального пика</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_ResurgentIsland.rulePack.rulesStrings.3"><s>terrain_word-&gt;emergent island</s><r>terrain_word-&gt;возникающий остров</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_Ridges.rulePack.rulesStrings.0"><s>terrain_word(p=4)-&gt;ridge</s><r>terrain_word(p=4)-&gt;хребет</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_Ridges.rulePack.rulesStrings.1"><s>terrain_word-&gt;crest</s><r>terrain_word-&gt;гребень</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_Ridges.rulePack.rulesStrings.2"><s>terrain_word-&gt;spine</s><r>terrain_word-&gt;позвоночник</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_RisingWaters.rulePack.rulesStrings.0"><s>terrain_word-&gt;rising waters</s><r>terrain_word-&gt;подъем воды</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_RisingWaters.rulePack.rulesStrings.1"><s>terrain_word-&gt;tidal flats</s><r>terrain_word-&gt;приливные отмели</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_RisingWaters.rulePack.rulesStrings.2"><s>terrain_word-&gt;flooded lowlands</s><r>terrain_word-&gt;затопленные низины</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_RisingWaters.rulePack.rulesStrings.3"><s>terrain_word-&gt;tidal floodplain</s><r>terrain_word-&gt;приливная пойма</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_RisingWaters.rulePack.rulesStrings.4"><s>terrain_word-&gt;inundated coast</s><r>terrain_word-&gt;затопленное побережье</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_SaltPlains.rulePack.rulesStrings.0"><s>terrain_word-&gt;salt plain</s><r>terrain_word-&gt;соляная равнина</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_SaltPlains.rulePack.rulesStrings.1"><s>terrain_word-&gt;desiccated ocean</s><r>terrain_word-&gt;высохший океан</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_SaltPlains.rulePack.rulesStrings.2"><s>terrain_word-&gt;evaporation plain</s><r>terrain_word-&gt;испарительная равнина</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_SaltPlains.rulePack.rulesStrings.3"><s>terrain_word-&gt;saline flats</s><r>terrain_word-&gt;солончаки</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_SaltPlains.rulePack.rulesStrings.4"><s>terrain_word-&gt;white barrens</s><r>terrain_word-&gt;белые пустоши</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_Sinkholes.rulePack.rulesStrings.0"><s>terrain_word-&gt;sinkholes</s><r>terrain_word-&gt;воронки</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_Sinkholes.rulePack.rulesStrings.1"><s>terrain_word-&gt;collapsed ground</s><r>terrain_word-&gt;рухнувшая земля</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_Sinkholes.rulePack.rulesStrings.2"><s>terrain_word-&gt;subsurface hollows</s><r>terrain_word-&gt;подземные впадины</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_Sinkholes.rulePack.rulesStrings.3"><s>terrain_word-&gt;broken lowlands</s><r>terrain_word-&gt;сломанные низменности</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_StagnantRivulet.rulePack.rulesStrings.0"><s>terrain_word(p=2)-&gt;stagnant rivulet</s><r>terrain_word(p=2)-&gt;стоячая речка</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_StagnantRivulet.rulePack.rulesStrings.1"><s>terrain_word-&gt;stilled stream</s><r>terrain_word-&gt;успокоившийся поток</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_StagnantRivulet.rulePack.rulesStrings.2"><s>terrain_word-&gt;sluggish rivulet</s><r>terrain_word-&gt;ленивая речушка</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_StagnantRivulet.rulePack.rulesStrings.3"><s>terrain_word-&gt;standing channel</s><r>terrain_word-&gt;стоячий канал</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_StagnantRivulet.rulePack.rulesStrings.4"><s>terrain_word-&gt;silted creek</s><r>terrain_word-&gt;заиленный ручей</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_StoneForest.rulePack.rulesStrings.0"><s>terrain_word-&gt;jagged stone grove</s><r>terrain_word-&gt;зубчатая каменная роща</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_StoneForest.rulePack.rulesStrings.1"><s>terrain_word-&gt;pillar-strewn expanse</s><r>terrain_word-&gt;пространство, усеянное колоннами</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_StoneForest.rulePack.rulesStrings.2"><s>terrain_word-&gt;rocky spire field</s><r>terrain_word-&gt;поле скалистого шпиля</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_StoneForest.rulePack.rulesStrings.3"><s>terrain_word-&gt;shattered monoliths</s><r>terrain_word-&gt;разрушенные монолиты</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_StoneForest.rulePack.rulesStrings.4"><s>terrain_word-&gt;craggy stone thicket</s><r>terrain_word-&gt;скалистая каменная заросль</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_SulfuricLake.rulePack.rulesStrings.0"><s>r_name(p=0.2)-&gt;[NamePerson]'s [terrain_word]</s><r>r_name(p=0.2)-&gt;[NamePerson] [terrain_word]</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_SulfuricLake.rulePack.rulesStrings.1"><s>terrain_word(p=2)-&gt;sulfuric lake</s><r>terrain_word(p=2)-&gt;серное озеро</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_SulfuricLake.rulePack.rulesStrings.2"><s>terrain_word-&gt;acidic basin</s><r>terrain_word-&gt;кислый бассейн</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_SulfuricLake.rulePack.rulesStrings.3"><s>terrain_word-&gt;sulfur spring</s><r>terrain_word-&gt;серный источник</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_SulfuricLake.rulePack.rulesStrings.4"><s>terrain_word-&gt;stinging waters</s><r>terrain_word-&gt;жгучая вода</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_SulfuricLake.rulePack.rulesStrings.5"><s>terrain_word-&gt;stinkpool</s><r>terrain_word-&gt;вонючая лужа</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_SulfuricLake.rulePack.rulesStrings.6"><s>terrain_word-&gt;yellowmire</s><r>terrain_word-&gt;йеллоумир</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_SulfuricRiver.rulePack.rulesStrings.0"><s>r_name(p=0.2)-&gt;[NamePerson]'s [terrain_word]</s><r>r_name(p=0.2)-&gt;[NamePerson] [terrain_word]</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_SulfuricRiver.rulePack.rulesStrings.1"><s>terrain_word(p=2)-&gt;sulfuric river</s><r>terrain_word(p=2)-&gt;серная река</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_SulfuricRiver.rulePack.rulesStrings.2"><s>terrain_word-&gt;acidic stream</s><r>terrain_word-&gt;кислый поток</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_SulfuricRiver.rulePack.rulesStrings.3"><s>terrain_word-&gt;sulfur flow</s><r>terrain_word-&gt;поток серы</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_SulfuricRiver.rulePack.rulesStrings.4"><s>terrain_word-&gt;stinging waters</s><r>terrain_word-&gt;жгучая вода</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_SulfuricRiver.rulePack.rulesStrings.5"><s>terrain_word-&gt;reeking river</s><r>terrain_word-&gt;вонючая река</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_SulfuricRiver.rulePack.rulesStrings.6"><s>terrain_word-&gt;yellow run</s><r>terrain_word-&gt;желтый бег</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_TemperateGrasslands.rulePack.rulesStrings.0"><s>terrain_word-&gt;temperate grasslands</s><r>terrain_word-&gt;умеренные луга</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_TemperateGrasslands.rulePack.rulesStrings.1"><s>terrain_word-&gt;open plains</s><r>terrain_word-&gt;открытые равнины</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_TemperateGrasslands.rulePack.rulesStrings.2"><s>terrain_word-&gt;rolling grasslands</s><r>terrain_word-&gt;холмистые луга</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_TemperateGrasslands.rulePack.rulesStrings.3"><s>terrain_word-&gt;wind-swept prairie</s><r>terrain_word-&gt;продуваемая ветрами прерия</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_TemperateGrasslands.rulePack.rulesStrings.4"><s>terrain_word-&gt;broad meadowlands</s><r>terrain_word-&gt;широкие луга</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_ToxicCraterLake.rulePack.rulesStrings.0"><s>terrain_word(p=3)-&gt;toxic crater lake</s><r>terrain_word(p=3)-&gt;токсичное кратерное озеро</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_ToxicCraterLake.rulePack.rulesStrings.1"><s>terrain_word-&gt;poisoned caldera</s><r>terrain_word-&gt;отравленная кальдера</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_ToxicCraterLake.rulePack.rulesStrings.2"><s>terrain_word-&gt;toxic basin</s><r>terrain_word-&gt;токсичный бассейн</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_TropicalBeach.rulePack.rulesStrings.0"><s>terrain_word-&gt;tropical beach</s><r>terrain_word-&gt;тропический пляж</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_TropicalBeach.rulePack.rulesStrings.1"><s>terrain_word-&gt;palm-lined shore</s><r>terrain_word-&gt;берег, окруженный пальмами</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_TropicalBeach.rulePack.rulesStrings.2"><s>terrain_word-&gt;warm coastal strand</s><r>terrain_word-&gt;теплый прибрежный берег</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_TropicalBeach.rulePack.rulesStrings.3"><s>terrain_word-&gt;sunlit shoreline</s><r>terrain_word-&gt;освещенная солнцем береговая линия</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_TropicalBeach.rulePack.rulesStrings.4"><s>terrain_word-&gt;tropical seaboard</s><r>terrain_word-&gt;тропическое побережье</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_VolcanicSandDesert.rulePack.rulesStrings.0"><s>terrain_word-&gt;volcanic sand desert</s><r>terrain_word-&gt;пустыня с вулканическим песком</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_VolcanicSandDesert.rulePack.rulesStrings.1"><s>terrain_word-&gt;black sand wastes</s><r>terrain_word-&gt;отходы черного песка</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_VolcanicSandDesert.rulePack.rulesStrings.2"><s>terrain_word-&gt;black desert</s><r>terrain_word-&gt;черная пустыня</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_VolcanicSandDesert.rulePack.rulesStrings.3"><s>terrain_word-&gt;obsidian sands</s><r>terrain_word-&gt;обсидиановые пески</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_Volcano.rulePack.rulesStrings.0"><s>terrain_word(p=3)-&gt;volcano</s><r>terrain_word(p=3)-&gt;вулкан</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_Volcano.rulePack.rulesStrings.1"><s>terrain_word-&gt;lava caldera</s><r>terrain_word-&gt;кальдера лавы</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_Volcano.rulePack.rulesStrings.2"><s>terrain_word-&gt;molten crater</s><r>terrain_word-&gt;расплавленный кратер</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_WindBlownPlateau.rulePack.rulesStrings.0"><s>terrain_word-&gt;wind-blown plateau</s><r>terrain_word-&gt;продуваемое ветром плато</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_WindBlownPlateau.rulePack.rulesStrings.1"><s>terrain_word-&gt;windswept mesa</s><r>terrain_word-&gt;продуваемая всеми ветрами Меса</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_WindBlownPlateau.rulePack.rulesStrings.2"><s>terrain_word-&gt;exposed rise</s><r>terrain_word-&gt;открытый рост</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_WindBlownPlateau.rulePack.rulesStrings.3"><s>terrain_word-&gt;gusted tableland</s><r>terrain_word-&gt;попробовал плоскогорье</r></e>
+  <e k="D" t="RulePackDef" key="VEE_NamerLandmark_WindBlownPlateau.rulePack.rulesStrings.4"><s>terrain_word-&gt;barren butte</s><r>terrain_word-&gt;бесплодный холм</r></e>
+  <e k="D" t="TerrainDef" key="VEE_AnimaCrackedSoil.label"><s>cracked anima soil</s><r>потрескавшаяся почва анимы</r></e>
+  <e k="D" t="TerrainDef" key="VEE_AnimaCrackedSoil.tools.0.label"><s>mud</s><r>грязь</r></e>
+  <e k="D" t="TerrainDef" key="VEE_AnimaSand.label"><s>anima sand</s><r>анима песок</r></e>
+  <e k="D" t="TerrainDef" key="VEE_AnimaSand.tools.0.label"><s>sand</s><r>песок</r></e>
+  <e k="D" t="TerrainDef" key="VEE_AnimaSoftSand.label"><s>soft anima sand</s><r>мягкий анима-песок</r></e>
+  <e k="D" t="TerrainDef" key="VEE_AnimaSoftSand.tools.0.label"><s>sand</s><r>песок</r></e>
+  <e k="D" t="TerrainDef" key="VEE_AnimaSoil.label"><s>anima soil</s><r>анима-почва</r></e>
+  <e k="D" t="TerrainDef" key="VEE_AnimaSoil.tools.0.label"><s>dirt</s><r>грязь</r></e>
+  <e k="D" t="TerrainDef" key="VEE_AnimaSoilRich.label"><s>enchanted anima soil</s><r>зачарованная почва анимы</r></e>
+  <e k="D" t="TerrainDef" key="VEE_AnimaSoilRich.tools.0.label"><s>dirt</s><r>грязь</r></e>
+  <e k="D" t="TerrainDef" key="VEE_AnimaWaterDeep.label"><s>deep anima water</s><r>глубокая вода анимы</r></e>
+  <e k="D" t="TerrainDef" key="VEE_AnimaWaterDeep.tools.0.label"><s>water</s><r>вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_AnimaWaterMovingChestDeep.label"><s>chest-deep moving anima water</s><r>движущаяся по грудь анима вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_AnimaWaterMovingChestDeep.tools.0.label"><s>water</s><r>вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_AnimaWaterMovingShallow.label"><s>shallow moving anima water</s><r>мелкая движущаяся вода анимы</r></e>
+  <e k="D" t="TerrainDef" key="VEE_AnimaWaterMovingShallow.tools.0.label"><s>water</s><r>вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_AnimaWaterOceanDeep.label"><s>deep anima ocean water</s><r>глубокая анима океанская вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_AnimaWaterOceanDeep.tools.0.label"><s>water</s><r>вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_AnimaWaterOceanShallow.label"><s>shallow ocean anima water</s><r>мелкий океан анима вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_AnimaWaterOceanShallow.tools.0.label"><s>water</s><r>вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_AnimaWaterShallow.label"><s>shallow anima water</s><r>мелкая вода анимы</r></e>
+  <e k="D" t="TerrainDef" key="VEE_AnimaWaterShallow.tools.0.label"><s>water</s><r>вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_Basalt.label"><s>basalt</s><r>базальт</r></e>
+  <e k="D" t="TerrainDef" key="VEE_BurntForestSoil.label"><s>burnt forest soil</s><r>сожженная лесная почва</r></e>
+  <e k="D" t="TerrainDef" key="VEE_DryRiverBank.label"><s>dry river bank</s><r>сухой берег реки</r></e>
+  <e k="D" t="TerrainDef" key="VEE_DryRiverBank.tools.0.label"><s>sand</s><r>песок</r></e>
+  <e k="D" t="TerrainDef" key="VEE_DryRiverBed.label"><s>dry river bed</s><r>русло высохшей реки</r></e>
+  <e k="D" t="TerrainDef" key="VEE_DryRiverBed.tools.0.label"><s>sand</s><r>песок</r></e>
+  <e k="D" t="TerrainDef" key="VEE_FertileRiverbank.label"><s>fertile riverbank</s><r>плодородный берег реки</r></e>
+  <e k="D" t="TerrainDef" key="VEE_FertileRiverbank.tools.0.label"><s>dirt</s><r>грязь</r></e>
+  <e k="D" t="TerrainDef" key="VEE_GravelBeach.label"><s>gravel beach</s><r>галечный пляж</r></e>
+  <e k="D" t="TerrainDef" key="VEE_GravelBeach.tools.0.label"><s>gravel</s><r>гравий</r></e>
+  <e k="D" t="TerrainDef" key="VEE_IrradiatedOceanWaterDeep.label"><s>irradiated deep ocean water</s><r>облученная глубокоокеанская вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_IrradiatedOceanWaterDeep.tools.0.label"><s>water</s><r>вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_IrradiatedSoil.label"><s>irradiated soil</s><r>облученная почва</r></e>
+  <e k="D" t="TerrainDef" key="VEE_IrradiatedSoil.tools.0.label"><s>sand</s><r>песок</r></e>
+  <e k="D" t="TerrainDef" key="VEE_IrradiatedWaterDeep.label"><s>irradiated deep water</s><r>облученная глубокая вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_IrradiatedWaterDeep.tools.0.label"><s>water</s><r>вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_IrradiatedWaterDeepMovingChestDeep.label"><s>irradiated chest-deep moving water</s><r>облученная движущаяся вода по грудь</r></e>
+  <e k="D" t="TerrainDef" key="VEE_IrradiatedWaterDeepMovingChestDeep.tools.0.label"><s>water</s><r>вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_IrradiatedWaterFlood.label"><s>irradiated shallow floodwater</s><r>облученная мелководная паводковая вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_IrradiatedWaterFlood.tools.0.label"><s>water</s><r>вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_IrradiatedWaterMovingShallow.label"><s>irradiated shallow moving water</s><r>облученная мелкая движущаяся вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_IrradiatedWaterMovingShallow.tools.0.label"><s>water</s><r>вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_IrradiatedWaterOceanShallow.label"><s>irradiated shallow ocean water</s><r>облученная мелководная океанская вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_IrradiatedWaterOceanShallow.tools.0.label"><s>water</s><r>вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_IrradiatedWaterShallow.label"><s>irradiated shallow water</s><r>облученное мелководье</r></e>
+  <e k="D" t="TerrainDef" key="VEE_IrradiatedWaterShallow.tools.0.label"><s>water</s><r>вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_LittoralDuneSand.label"><s>littoral dune sand</s><r>прибрежный дюнный песок</r></e>
+  <e k="D" t="TerrainDef" key="VEE_LittoralDuneSand.tools.0.label"><s>sand</s><r>песок</r></e>
+  <e k="D" t="TerrainDef" key="VEE_MossySoil.label"><s>mossy soil</s><r>мшистая почва</r></e>
+  <e k="D" t="TerrainDef" key="VEE_PebbleDunes.label"><s>loose pebbles</s><r>рыхлая галька</r></e>
+  <e k="D" t="TerrainDef" key="VEE_PebbleDunes.tools.0.label"><s>gravel</s><r>гравий</r></e>
+  <e k="D" t="TerrainDef" key="VEE_Quicksand.label"><s>quicksand</s><r>зыбучие пески</r></e>
+  <e k="D" t="TerrainDef" key="VEE_RedSand.label"><s>red sand</s><r>красный песок</r></e>
+  <e k="D" t="TerrainDef" key="VEE_RedSand.tools.0.label"><s>sand</s><r>песок</r></e>
+  <e k="D" t="TerrainDef" key="VEE_RedSoftSand.label"><s>red soft sand</s><r>красный мягкий песок</r></e>
+  <e k="D" t="TerrainDef" key="VEE_RedSoftSand.tools.0.label"><s>sand</s><r>песок</r></e>
+  <e k="D" t="TerrainDef" key="VEE_RuinedFarmland.label"><s>ruined farmland</s><r>разрушенные сельскохозяйственные угодья</r></e>
+  <e k="D" t="TerrainDef" key="VEE_RuinedFarmland.tools.0.label"><s>gravel</s><r>гравий</r></e>
+  <e k="D" t="TerrainDef" key="VEE_Salt.label"><s>salt</s><r>соль</r></e>
+  <e k="D" t="TerrainDef" key="VEE_Salt.tools.0.label"><s>sand</s><r>песок</r></e>
+  <e k="D" t="TerrainDef" key="VEE_SaltySand.label"><s>salty sand</s><r>соленый песок</r></e>
+  <e k="D" t="TerrainDef" key="VEE_SaltySand.tools.0.label"><s>sand</s><r>песок</r></e>
+  <e k="D" t="TerrainDef" key="VEE_SoftVolcanicSand.label"><s>volcanic soft sand</s><r>вулканический мягкий песок</r></e>
+  <e k="D" t="TerrainDef" key="VEE_SoftVolcanicSand.tools.0.label"><s>sand</s><r>песок</r></e>
+  <e k="D" t="TerrainDef" key="VEE_StagnantRiverWater.label"><s>stagnant river water</s><r>стоячая речная вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_StagnantRiverWater.tools.0.label"><s>water</s><r>вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_StagnantRiverWater.tools.1.label"><s>mud</s><r>грязь</r></e>
+  <e k="D" t="TerrainDef" key="VEE_SulfuricWaterDeep.label"><s>sulfuric deep water</s><r>серная глубокая вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_SulfuricWaterDeep.tools.0.label"><s>water</s><r>вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_SulfuricWaterDeepMovingChestDeep.label"><s>sulfuric chest-deep moving water</s><r>серная движущаяся вода по грудь</r></e>
+  <e k="D" t="TerrainDef" key="VEE_SulfuricWaterDeepMovingChestDeep.tools.0.label"><s>water</s><r>вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_SulfuricWaterFlood.label"><s>sulfuric shallow floodwater</s><r>серная мелководная паводковая вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_SulfuricWaterFlood.tools.0.label"><s>water</s><r>вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_SulfuricWaterMovingShallow.label"><s>sulfuric shallow moving water</s><r>серная мелкая движущаяся вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_SulfuricWaterMovingShallow.tools.0.label"><s>water</s><r>вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_SulfuricWaterShallow.label"><s>sulfuric shallow water</s><r>серное мелководье</r></e>
+  <e k="D" t="TerrainDef" key="VEE_SulfuricWaterShallow.tools.0.label"><s>water</s><r>вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_SwampyWaterMovingChestDeep.label"><s>chest-deep swampy moving water</s><r>по грудь болотистая движущаяся вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_SwampyWaterMovingChestDeep.tools.0.label"><s>water</s><r>вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_SwampyWaterMovingShallow.label"><s>shallow swampy moving water</s><r>мелкая болотистая движущаяся вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_SwampyWaterMovingShallow.tools.0.label"><s>water</s><r>вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_TidalFloodwater.label"><s>tidal floodwater</s><r>приливная паводковая вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_TidalFloodwater.tools.0.label"><s>water</s><r>вода</r></e>
+  <e k="D" t="TerrainDef" key="VEE_TropicalBeachSand.label"><s>tropical beach sand</s><r>тропический пляжный песок</r></e>
+  <e k="D" t="TerrainDef" key="VEE_TropicalBeachSand.tools.0.label"><s>sand</s><r>песок</r></e>
+  <e k="D" t="TerrainDef" key="VEE_VolcanicAsh.label"><s>impact regolith</s><r>ударный реголит</r></e>
+  <e k="D" t="TerrainDef" key="VEE_VolcanicSand.label"><s>volcanic sand</s><r>вулканический песок</r></e>
+  <e k="D" t="TerrainDef" key="VEE_VolcanicSand.tools.0.label"><s>sand</s><r>песок</r></e>
+  <e k="D" t="TerrainDef" key="VEE_VolcanicSoilRich.label"><s>rich volcanic soil</s><r>богатая вулканическая почва</r></e>
+  <e k="D" t="TerrainDef" key="VEE_VolcanicSoilRich.tools.0.label"><s>dirt</s><r>грязь</r></e>
+  <e k="D" t="ThingDef" key="VEE_AnimaPearls.description"><s>A smooth, lustrous pearl formed within anima blossoms, faintly humming with psychic resonance. Anima pearls can be consumed to increase psychic sensitivity for some time.</s><r>Гладкая блестящая жемчужина, образовавшаяся внутри цветущей анимы, слабо гудит от психического резонанса. Жемчуг Анима можно употреблять для повышения психической чувствительности на некоторое время.</r></e>
+  <e k="D" t="ThingDef" key="VEE_AnimaPearls.label"><s>anima pearl</s><r>анима жемчужина</r></e>
+  <e k="D" t="ThingDef" key="VEE_ButtercupFlower.description"><s>A beautiful wild flower.</s><r>Красивый полевой цветок.</r></e>
+  <e k="D" t="ThingDef" key="VEE_ButtercupFlower.label"><s>buttercup</s><r>лютик</r></e>
+  <e k="D" t="ThingDef" key="VEE_Cenote.description"><s>A deep, water filled sinkhole carved into the stone. The surface appears calm. Due to its depth, it can't be filled.</s><r>В камне высечена глубокая, заполненная водой воронка. Поверхность кажется спокойной. Из-за своей глубины его невозможно заполнить.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Cenote.label"><s>cenote</s><r>сенот</r></e>
+  <e k="D" t="ThingDef" key="VEE_Cenote_Small.description"><s>A deep, water filled sinkhole carved into the stone. The surface appears calm. Due to its depth, it can't be filled.</s><r>В камне высечена глубокая, заполненная водой воронка. Поверхность кажется спокойной. Из-за своей глубины его невозможно заполнить.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Cenote_Small.label"><s>small cenote</s><r>небольшой сенот</r></e>
+  <e k="D" t="ThingDef" key="VEE_Coral.description"><s>A colorful, calcified colony of tiny marine organisms, forming intricate reef structures teeming with life.</s><r>Красочная кальцинированная колония крошечных морских организмов, образующая сложные рифовые структуры, изобилующие жизнью.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Coral.label"><s>coral</s><r>коралл</r></e>
+  <e k="D" t="ThingDef" key="VEE_DayBoomshroom.description"><s>These mushrooms produce volatile chemicals as a defensive measure. They can be harvested for chemfuel. However, this must be done with extreme caution, as the mushrooms can explode if they're destroyed.
+
+Glitterworld researchers have used genetic material from boomshrooms to bioengineer a number of chemfuel-producing animals.</s><r>Эти грибы производят летучие химические вещества в качестве защитной меры. Их можно собирать для получения химического топлива. Однако это следует делать с особой осторожностью, так как грибы могут взорваться, если их уничтожить.
+
+Исследователи Glitterworld использовали генетический материал грибов для биоинженерии ряда животных, производящих химическое топливо.</r></e>
+  <e k="D" t="ThingDef" key="VEE_DayBoomshroom.label"><s>light-resistant boomshroom</s><r>светостойкий бумгриб</r></e>
+  <e k="D" t="ThingDef" key="VEE_DayPsilocap.description"><s>A fungus that gives off hallucinogenic spores. Standing next to them is enough to produce mild hallucinations. Psilocaps can be harvested and ingested to produce a vivid sensory experience that increases the user's mood.</s><r>Гриб, выделяющий галлюциногенные споры. Достаточно стоять рядом с ними, чтобы вызвать легкие галлюцинации. Псилокапы можно собрать и проглотить, чтобы получить яркие сенсорные ощущения, повышающие настроение пользователя.</r></e>
+  <e k="D" t="ThingDef" key="VEE_DayPsilocap.label"><s>light-resistant psilocap</s><r>светостойкий псилокап</r></e>
+  <e k="D" t="ThingDef" key="VEE_DayWillowgill.description"><s>A tall spindly slow-growing mushroom with gills that droop like a willow tree.</s><r>Высокий, веретенообразный, медленно растущий гриб с свисающими жабрами, как у ивы.</r></e>
+  <e k="D" t="ThingDef" key="VEE_DayWillowgill.label"><s>light-resistant willowgill</s><r>светоустойчивая ива жаберная</r></e>
+  <e k="D" t="ThingDef" key="VEE_DeadlifeMote.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="VEE_DeadlifeVent.description"><s>A sinister geyser that exhales eerie, ash-like dust, capable of reawakening the dead under its influence.</s><r>Зловещий гейзер, выдыхающий жуткую, похожую на пепел пыль, способный пробуждать мертвых под своим воздействием.</r></e>
+  <e k="D" t="ThingDef" key="VEE_DeadlifeVent.label"><s>deadlife geyser</s><r>мертвый гейзер</r></e>
+  <e k="D" t="ThingDef" key="VEE_DenseSnow.description"><s>A heavy, compacted layer of snow that resists movement and muffles sound. Can be mined to remove it.</s><r>Тяжелый уплотненный слой снега, препятствующий движению и заглушающий звук. Можно добыть, чтобы удалить его.</r></e>
+  <e k="D" t="ThingDef" key="VEE_DenseSnow.label"><s>solid snow</s><r>сплошной снег</r></e>
+  <e k="D" t="ThingDef" key="VEE_DriftwoodChunk.description"><s>A sun-bleached fragment of wood, smoothed by waves and time, carried ashore from some distant and unknown origin.</s><r>Выбеленный солнцем кусок дерева, сглаженный волнами и временем, вынесенный на берег из какого-то далекого и неизвестного происхождения.</r></e>
+  <e k="D" t="ThingDef" key="VEE_DriftwoodChunk.label"><s>driftwood</s><r>коряги</r></e>
+  <e k="D" t="ThingDef" key="VEE_DryWheat.description"><s>An amber cereal plant that takes almost an entire growing season to come to fruition. This wheat has been subjected to drought conditions for too long and has wilted away.</s><r>Янтарное злаковое растение, которому требуется почти весь вегетационный период, чтобы дать плоды. Эта пшеница слишком долго подвергалась засухе и завяла.</r></e>
+  <e k="D" t="ThingDef" key="VEE_DryWheat.label"><s>dry wheat</s><r>сухая пшеница</r></e>
+  <e k="D" t="ThingDef" key="VEE_Filth_Seashells.label"><s>seashells</s><r>ракушки</r></e>
+  <e k="D" t="ThingDef" key="VEE_ForgetMeNot.description"><s>A beautiful wild flower.</s><r>Красивый полевой цветок.</r></e>
+  <e k="D" t="ThingDef" key="VEE_ForgetMeNot.label"><s>forget-me-not</s><r>незабудка</r></e>
+  <e k="D" t="ThingDef" key="VEE_Gorse.description"><s>A spiny, evergreen shrub covered in bright yellow flowers. Its thick, tangled branches provide shelter while resisting wind and harsh conditions.</s><r>Колючий вечнозеленый кустарник, покрытый ярко-желтыми цветками. Его толстые, спутанные ветви обеспечивают укрытие, сопротивляясь ветру и суровым погодным условиям.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Gorse.label"><s>gorse</s><r>утесник</r></e>
+  <e k="D" t="ThingDef" key="VEE_Heather.description"><s>A low, flowering shrub with dense clusters of tiny blooms. It carpets the landscape with muted colors and weathers wind and exposure with ease.</s><r>Невысокий цветущий кустарник с густыми соцветиями мелких цветков. Он покрывает пейзаж приглушенными цветами и легко выдерживает ветер и воздействие атмосферных воздействий.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Heather.label"><s>heather</s><r>вереск</r></e>
+  <e k="D" t="ThingDef" key="VEE_InertPitGate.description"><s>A massive, foreboding hole that connects the surface with a dark network of underground caves. It is possible to climb down into the caverns below.</s><r>Массивная зловещая дыра, соединяющая поверхность с темной сетью подземных пещер. Можно спуститься в пещеры внизу.</r></e>
+  <e k="D" t="ThingDef" key="VEE_InertPitGate.label"><s>pit gate</s><r>ворота ямы</r></e>
+  <e k="D" t="ThingDef" key="VEE_InertPitGate.portal.enteredLetterLabel"><s>Fleshbeast lair</s><r>Логово плотского зверя</r></e>
+  <e k="D" t="ThingDef" key="VEE_InertPitGate.portal.enteredLetterText"><s>In the depths of the pit gate, you have discovered a massive cavern system infested with fleshbeasts.
+
+The cavern system is clogged with masses of living flesh that block your progress. Attack the fleshmass to destroy it.
+
+The entire cavern system seems unstable. If you find what lies behind the fleshmass, you may be able to collapse the tunnels and close the pit gate.</s><r>В глубине ворот ямы вы обнаружили огромную систему пещер, кишащую тварями из плоти.
+
+Система пещер забита массами живой плоти, которые блокируют ваше продвижение. Атакуйте массу плоти, чтобы уничтожить ее.
+
+Вся система пещер кажется нестабильной. Если вы найдете то, что скрывается за массой плоти, возможно, вам удастся обрушить туннели и закрыть ворота ямы.</r></e>
+  <e k="D" t="ThingDef" key="VEE_JadeChunk.description"><s>A chunk of jadeite. It can be deconstructed to acquire some jade.</s><r>Кусок жадеита. Его можно разобрать, чтобы получить немного нефрита.</r></e>
+  <e k="D" t="ThingDef" key="VEE_JadeChunk.label"><s>jadeite chunk</s><r>кусок жадеита</r></e>
+  <e k="D" t="ThingDef" key="VEE_Knapweed.description"><s>A robust, weedy, wild plant.</s><r>Сильное, сорное, дикорастущее растение.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Knapweed.label"><s>knapweed</s><r>василек</r></e>
+  <e k="D" t="ThingDef" key="VEE_Loosestrife.description"><s>A beautiful herbaceous perennial wild plant.</s><r>Красивое травянистое многолетнее дикорастущее растение.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Loosestrife.label"><s>loosestrife</s><r>вербейник</r></e>
+  <e k="D" t="ThingDef" key="VEE_Mangrove.description"><s>A salt-tolerant tree adapted to life in brackish wetlands. Its tangled roots anchor it in shifting mud and provide shelter for aquatic life.</s><r>Солеустойчивое дерево, приспособленное к жизни в солоноватых водно-болотных угодьях. Его запутанные корни закрепляют его в подвижной грязи и служат убежищем для водных обитателей.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Mangrove.label"><s>mangrove</s><r>мангровые заросли</r></e>
+  <e k="D" t="ThingDef" key="VEE_Mangrove_ChoppedStump.description"><s>A stump left behind after a mangrove tree has been felled. The stump can be extracted but yields very little usable wood. Left outdoors, the stump will deteriorate in time.</s><r>Пень, оставшийся после сруба мангрового дерева. Пень можно извлечь, но в результате получается очень мало полезной древесины. Оставленный на открытом воздухе, пень со временем придет в негодность.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Mangrove_ChoppedStump.label"><s>mangrove chopped stump</s><r>измельченный пень мангрового дерева</r></e>
+  <e k="D" t="ThingDef" key="VEE_Mangrove_SmashedStump.description"><s>The remnants of a mangrove tree destroyed by damage. It's ugly. The stump can be extracted but yields very little usable wood. Left outdoors, the stump will deteriorate in time.</s><r>Остатки мангрового дерева, разрушенные повреждениями. Это некрасиво. Пень можно извлечь, но в результате получается очень мало полезной древесины. Оставленный на открытом воздухе, пень со временем придет в негодность.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Mangrove_SmashedStump.label"><s>mangrove smashed stump</s><r>разбитый пень мангрового дерева</r></e>
+  <e k="D" t="ThingDef" key="VEE_MineableComponentSpacer.description"><s>Advanced ancient electronics, compacted over time. Can be mined for useful advanced components.</s><r>Передовая древняя электроника, уплотненная с течением времени. Можно добыть полезные продвинутые компоненты.</r></e>
+  <e k="D" t="ThingDef" key="VEE_MineableComponentSpacer.label"><s>advanced compacted machinery</s><r>современное оборудование для уплотнения</r></e>
+  <e k="D" t="ThingDef" key="VEE_MineableJadeite.description"><s>A silicate mineral in the pyroxene family that is one of the two forms of jade.</s><r>Силикатный минерал семейства пироксенов, одна из двух форм нефрита.</r></e>
+  <e k="D" t="ThingDef" key="VEE_MineableJadeite.label"><s>jadeite</s><r>жадеит</r></e>
+  <e k="D" t="ThingDef" key="VEE_ObsidianChunk.description"><s>A chunk of obsidian. It can be deconstructed to acquire some obsidian.</s><r>Кусок обсидиана. Его можно разобрать, чтобы получить немного обсидиана.</r></e>
+  <e k="D" t="ThingDef" key="VEE_ObsidianChunk.label"><s>obsidian chunk</s><r>кусок обсидиана</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_AnimaBell.description"><s>Clumps of vines that burst through the soil to bloom into beautiful flowers. Believed to be part of great collective roots that spread deep under the terrain which occasionally breach the surface to pollinate. The attractive qualities of the flowers encourage humans not to remove them.</s><r>Кусты виноградных лоз, пробивающихся сквозь почву, расцветают прекрасными цветами. Считается, что это часть огромных коллективных корней, которые распространяются глубоко под землей и время от времени выходят на поверхность для опыления. Привлекательные качества цветов побуждают людей не удалять их.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_AnimaBell.label"><s>anima bell</s><r>анима колокол</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_AnimaBrambles.description"><s>Thorny, fast-growing vines infused with faint anima energy. Their barbs are humming softly to the touch.</s><r>Колючие, быстрорастущие лозы, наполненные слабой энергией анимы. Их шипы мягко гудят на ощупь.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_AnimaBrambles.label"><s>anima brambles</s><r>анима ежевика</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_AnimaBush.description"><s>A short shrub. Does talk, but only when you're not around.</s><r>Невысокий кустарник. Разговаривает, но только когда тебя нет рядом.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_AnimaBush.label"><s>anima bush</s><r>анима куст</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_AnimaHeartBlossom.description"><s>A delicate, softly glowing flower that blooms near anima trees, resonating faintly with psychic energy. Can be harvested to acquire anima pearls.</s><r>Нежный, мягко светящийся цветок, расцветающий возле деревьев анимы, слабо резонирующий с психической энергией. Собирая его, можно получить жемчуг анимы.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_AnimaHeartBlossom.label"><s>anima heart blossom</s><r>цветение сердца анимы</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_AnimaHusk.description"><s>A withered anima tree whose bark has hardened into a gray, lifeless shell under relentless pollution. Its psychic presence is muted and distorted, yet a stubborn echo of anima still clings to the husk, refusing to fully fade.</s><r>Засохшее дерево анимы, кора которого под постоянным загрязнением превратилась в серую безжизненную оболочку. Его психическое присутствие приглушено и искажено, но упрямое эхо анимы все еще цепляется за оболочку, отказываясь полностью исчезнуть.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_AnimaHusk.label"><s>anima husk</s><r>анима помни</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_AnimaRoot.description"><s>Pale, twisting roots shot through with a soft inner glow, drawn from anima-touched soil. Can be harvested for wood.</s><r>Бледные, извилистые корни излучали мягкое внутреннее сияние, исходящее из почвы, затронутой анимой. Можно собирать на древесину.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_AnimaRoot.label"><s>anima root</s><r>корень анимы</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_BarrelCactus.description"><s>A large cactus native to arid Earth environments. Though it is not a tree, it yields a small amount of fibrous material that can be used like wood.</s><r>Большой кактус, произрастающий в засушливых условиях Земли. Хотя это не дерево, из него получается небольшое количество волокнистого материала, который можно использовать как древесину.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_BarrelCactus.label"><s>barrel cactus</s><r>бочка кактуса</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_BeavertailCactus.description"><s>A large cactus native to arid Earth environments. Though it is not a tree, it yields a small amount of fibrous material that can be used like wood.</s><r>Большой кактус, произрастающий в засушливых условиях Земли. Хотя это не дерево, из него получается небольшое количество волокнистого материала, который можно использовать как древесину.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_BeavertailCactus.label"><s>beavertail cactus</s><r>кактус бобровый хвост</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_ChollaCactus.description"><s>A large cactus native to arid Earth environments. Though it is not a tree, it yields a small amount of fibrous material that can be used like wood.</s><r>Большой кактус, произрастающий в засушливых условиях Земли. Хотя это не дерево, из него получается небольшое количество волокнистого материала, который можно использовать как древесину.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_ChollaCactus.label"><s>cholla cactus</s><r>кактус Чолла</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_DatePalm.description"><s>A tall palm thriving along warm coasts, bearing clusters of sweet, energy-rich fruit. Its deep roots and flexible trunk help it withstand salt spray and coastal winds.</s><r>Высокая пальма, растущая вдоль теплых берегов и приносящая грозди сладких, богатых энергией фруктов. Его глубокие корни и гибкий ствол помогают ему противостоять соленым брызгам и прибрежным ветрам.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_DatePalm.label"><s>date palm</s><r>финиковая пальма</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_FakeAnimaTree.description"><s>An anima-touched tree. It lacks the psychic potency of a true anima tree, but still hums faintly with psychic life.</s><r>Дерево, затронутое анимой. Ему не хватает психической силы настоящего дерева анимы, но он все еще слабо гудит психической жизнью.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_FakeAnimaTree.label"><s>anima tree</s><r>дерево анимы</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_Fern.description"><s>A shade-loving plant with broad fronds that spreads across damp forest floors and sheltered ground.</s><r>Тенелюбивое растение с широкими листьями, которое распространяется по влажным лесным подстилкам и защищенным местам.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_Fern.label"><s>fern</s><r>папоротник</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_Firewood.description"><s>A hardy tree adapted to grow on volcanic ground. It is among the first plants to colonize cooled lava, helping life return to the black stone.</s><r>Выносливое дерево, приспособленное к произрастанию на вулканической почве. Это одно из первых растений, заселивших остывшую лаву, помогая жизни вернуться в черный камень.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_Firewood.label"><s>firewood tree</s><r>дерево дров</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_Firewood_ChoppedStump.description"><s>A stump left behind after a firewood tree has been felled. The stump can be extracted but yields very little usable wood. Left outdoors, the stump will deteriorate in time.</s><r>Пень, оставшийся после сруба дров. Пень можно извлечь, но в результате получается очень мало полезной древесины. Оставленный на открытом воздухе, пень со временем придет в негодность.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_Firewood_ChoppedStump.label"><s>chopped stump</s><r>рубленый пень</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_Firewood_SmashedStump.description"><s>The remnants of a firewood tree destroyed by damage. It's ugly. The stump can be extracted but yields very little usable wood. Left outdoors, the stump will deteriorate in time.</s><r>Остатки дров дерева, уничтоженные повреждениями. Это некрасиво. Пень можно извлечь, но в результате получается очень мало полезной древесины. Оставленный на открытом воздухе, пень со временем придет в негодность.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_Firewood_SmashedStump.label"><s>smashed stump</s><r>разбитый пень</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_GnarledPine.description"><s>A twisted, weathered pine shaped by wind and poor soil. Its gnarled branches and sparse needles give it a rugged, enduring appearance.</s><r>Искривленная, выветрившаяся сосна, сформированная ветром и бедной почвой. Корявые ветви и редкая хвоя придают ему суровый и прочный вид.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_GnarledPine.label"><s>gnarled pine tree</s><r>корявая сосна</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_GrandAnimaTree.description"><s>A grand anima-touched tree. It lacks the psychic potency of a true anima tree, but still hums faintly with psychic life.</s><r>Великое дерево, окутанное анимой. Ему не хватает психической силы настоящего дерева анимы, но он все еще слабо гудит психической жизнью.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_GrandAnimaTree.label"><s>grand anima tree</s><r>большое дерево анимы</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_HedgehogCactus.description"><s>A large cactus native to arid Earth environments. Though it is not a tree, it yields a small amount of fibrous material that can be used like wood.</s><r>Большой кактус, произрастающий в засушливых условиях Земли. Хотя это не дерево, из него получается небольшое количество волокнистого материала, который можно использовать как древесину.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_HedgehogCactus.label"><s>hedgehog cactus</s><r>еж кактус</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_HoodiaCactus.description"><s>A large cactus native to arid Earth environments. Though it is not a tree, it yields a small amount of fibrous material that can be used like wood.</s><r>Большой кактус, произрастающий в засушливых условиях Земли. Хотя это не дерево, из него получается небольшое количество волокнистого материала, который можно использовать как древесину.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_HoodiaCactus.label"><s>hoodia cactus</s><r>худия кактус</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_JuniperBush.description"><s>A hardy, low-growing bush with aromatic needles and dense berries. Its branches twist and spread, enduring harsh winds and exposed conditions.</s><r>Выносливый, низкорослый куст с ароматной хвоей и плотными ягодами. Его ветви скручиваются и раздвигаются, выдерживая резкие ветры и открытые условия.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_JuniperBush.label"><s>juniper bush</s><r>куст можжевельника</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_Laurel.description"><s>An evergreen broadleaf tree with dense foliage and aromatic leaves, well adapted to mild, humid climates.</s><r>Вечнозеленое широколиственное дерево с густой листвой и ароматными листьями, хорошо приспособленное к мягкому и влажному климату.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_Laurel.label"><s>laurel tree</s><r>лавровое дерево</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_LaurelTree_ChoppedStump.description"><s>A stump left behind after a laurel tree has been felled. The stump can be extracted but yields very little usable wood. Left outdoors, the stump will deteriorate in time.</s><r>Пень, оставшийся после сруба лаврового дерева. Пень можно извлечь, но в результате получается очень мало полезной древесины. Оставленный на открытом воздухе, пень со временем придет в негодность.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_LaurelTree_ChoppedStump.label"><s>chopped stump</s><r>рубленый пень</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_LaurelTree_SmashedStump.description"><s>The remnants of a laurel tree destroyed by damage. It's ugly. The stump can be extracted but yields very little usable wood. Left outdoors, the stump will deteriorate in time.</s><r>Остатки лаврового дерева, разрушенные повреждениями. Это некрасиво. Пень можно извлечь, но в результате получается очень мало полезной древесины. Оставленный на открытом воздухе, пень со временем придет в негодность.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_LaurelTree_SmashedStump.label"><s>smashed stump</s><r>разбитый пень</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_MysticCap.description"><s>A small, vividly colored mushroom with a faintly iridescent cap. Can be harvested for raw fungus.</s><r>Небольшой, ярко окрашенный гриб со слегка переливающейся шляпкой. Можно собирать сырой гриб.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_MysticCap.label"><s>mystic cap</s><r>мистическая шапка</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_OrganPipeCactus.description"><s>A large cactus native to arid Earth environments. Though it is not a tree, it yields a small amount of fibrous material that can be used like wood.</s><r>Большой кактус, произрастающий в засушливых условиях Земли. Хотя это не дерево, из него получается небольшое количество волокнистого материала, который можно использовать как древесину.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_OrganPipeCactus.label"><s>organ pipe cactus</s><r>органная трубка кактус</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_ScrewPine.description"><s>A hardy coastal tree with spiraled leaves and exposed roots, adapted to wind, salt, and shifting sand.</s><r>Выносливое прибрежное дерево со спиральными листьями и открытыми корнями, приспособленное к ветру, соли и зыбучему песку.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_ScrewPine.label"><s>screw pine</s><r>винтовая сосна</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_ScrewPine_ChoppedStump.description"><s>A stump left behind after a screw pine has been felled. The stump can be extracted but yields very little usable wood. Left outdoors, the stump will deteriorate in time.</s><r>Пень, оставшийся после спиливания винтовой сосны. Пень можно извлечь, но в результате получается очень мало полезной древесины. Оставленный на открытом воздухе, пень со временем придет в негодность.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_ScrewPine_ChoppedStump.label"><s>chopped stump</s><r>рубленый пень</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_ScrewPine_SmashedStump.description"><s>The remnants of a screw pine destroyed by damage. It's ugly. The stump can be extracted but yields very little usable wood. Left outdoors, the stump will deteriorate in time.</s><r>Остатки винтовой сосны, разрушенные повреждениями. Это некрасиво. Пень можно извлечь, но в результате получается очень мало полезной древесины. Оставленный на открытом воздухе, пень со временем придет в негодность.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_ScrewPine_SmashedStump.label"><s>smashed stump</s><r>разбитый пень</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_TreeAnima_Ancient.comps.3.enoughPlantsLetterLabel"><s>About: Ancient anima tree linking</s><r>О фильме: Связь с древним деревом анимы.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_TreeAnima_Ancient.comps.3.enoughPlantsLetterText"><s>The ancient anima tree now has {0} anima grass around it. This is enough for a tribal person to begin their first linking ritual!
+
+The linking ritual gives a level of psylink and the ability to use psychic powers. Upgrading to a higher level requires 20 grass.
+
+The anima grass requirements for linking rituals to upgrade psycasters are:
+
+{1}
+
+Note: Only those with the nature focus type can meditate to or link with ancient anima trees. You can see a person's focus types by looking at their info card with the 'i' button.</s><r>Вокруг древнего дерева анимы теперь {0} травы анимы. Этого достаточно, чтобы член племени начал свой первый ритуал связи!
+
+Ритуал связи дает определенный уровень пси-связи и способность использовать психические силы. Для повышения уровня требуется 20 трав.
+
+Требования к траве анимы для связывания ритуалов по улучшению психастеров:
+
+{1}
+
+Примечание: Только те, у кого есть тип фокуса на природе, могут медитировать или связываться с древними деревьями анимы. Вы можете увидеть типы фокуса человека, просмотрев его информационную карточку с помощью кнопки «i».</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_TreeAnima_Ancient.comps.4.message"><s>The ancient anima tree has died and emitted a disturbing psychic scream.</s><r>Древнее дерево анимы умерло и издало тревожный психический крик.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_TreeAnima_Ancient.description"><s>A huge rare tree with warm, skin-smooth bark and long iridescent leaves. Infused with bioluminescent micro-organisms, ancient anima trees develop a unique form of psychic symbiosis with surrounding lifeforms.
+
+If a person (psycaster or not) meditates near an ancient anima tree, it will grow anima grass around its base. Once enough grass is grown, it becomes possible to carry out a psychic linking ritual with the tree and upgrade a person's psychic powers. Only tribal peoples know the secret of this ritual. Tribal psycasters are also able to draw psyfocus from ancient anima trees while meditating to them.
+
+Ancient anima trees' psychic properties are weakened if artificial structures are placed nearby. They refuse to be caged or studied, and must remain part of nature.
+
+Most tribes believe that ancient anima trees are not simply trees, but are rather the physical extremities of a single world spirit.</s><r>Огромное редкое дерево с теплой, гладкой корой и длинными переливающимися листьями. Наполненные биолюминесцентными микроорганизмами, древние деревья анимы развивают уникальную форму психического симбиоза с окружающими формами жизни.
+
+Если человек (псикастер или нет) медитирует возле древнего дерева анимы, вокруг его основания вырастет трава анимы. Как только вырастет достаточное количество травы, становится возможным провести ритуал психической связи с деревом и повысить психические способности человека. Только племенные народы знают тайну этого ритуала. Племенные псикастеры также способны извлекать психофокус из древних деревьев анимы во время медитации на них.
+
+Психические свойства древних деревьев анимы ослабляются, если рядом расположены искусственные конструкции. Они отказываются находиться в клетке или изучаться и должны оставаться частью природы.
+
+Большинство племен верят, что древние деревья анимы — это не просто деревья, а скорее физические крайности единого мирового духа.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_TreeAnima_Ancient.label"><s>ancient anima tree</s><r>древнее дерево анимы</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_TreeBirch_Auburn.description"><s>A temperate-biome tree known for its thin, white, paper-like bark.</s><r>Дерево умеренного биома, известное своей тонкой белой корой, похожей на бумагу.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_TreeBirch_Auburn.label"><s>auburn birch tree</s><r>каштановая береза</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_TreeMaple_Auburn.description"><s>A common medium-sized tree, easily identifiable by its distinct three-pointed leaf.</s><r>Обычное дерево среднего размера, легко узнаваемое по отчетливому трехконечному листу.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_TreeMaple_Auburn.label"><s>auburn maple tree</s><r>темно-рыжий клен</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_TreeOak_Auburn.description"><s>A hardwood tree. Oaks take a long time to grow, but their wood is so strong that 'oak' is used as a metaphor for strength across many cultures.</s><r>Твердое дерево. Дубам требуется много времени, чтобы вырасти, но их древесина настолько прочна, что во многих культурах слово «дуб» используется как метафора силы.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_TreeOak_Auburn.label"><s>auburn oak tree</s><r>каштановый дуб</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_TreePoplar_Auburn.description"><s>A softwood tree that grows very fast. Unfortunately, its wood is weak and so it yields less useful material than hardwood trees.</s><r>Дерево хвойных пород, которое растет очень быстро. К сожалению, его древесина слабая и поэтому дает меньше полезного материала, чем лиственные деревья.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_TreePoplar_Auburn.label"><s>auburn poplar tree</s><r>каштановый тополь</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_YoungAnimaTree.description"><s>A small anima-touched tree. It lacks the psychic potency of a true anima tree, but still hums faintly with psychic life.</s><r>Небольшое дерево, тронутое анимой. Ему не хватает психической силы настоящего дерева анимы, но он все еще слабо гудит психической жизнью.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Plant_YoungAnimaTree.label"><s>anima sapling</s><r>саженец анимы</r></e>
+  <e k="D" t="ThingDef" key="VEE_RadioactiveBarrel.description"><s>A rusted barrel leaking discarded nuclear fuel.</s><r>Ржавая бочка, из которой вытекает выброшенное ядерное топливо.</r></e>
+  <e k="D" t="ThingDef" key="VEE_RadioactiveBarrel.label"><s>radioactive barrel</s><r>радиоактивная бочка</r></e>
+  <e k="D" t="ThingDef" key="VEE_RawDates.description"><s>Raw dates. Nice to eat, even when raw. They are sweet, nutrient-rich fruit harvested from date palms. They keep well in warm climates and provide a reliable source of energy.</s><r>Сырые финики. Приятно есть, даже сырым. Это сладкие, богатые питательными веществами фрукты, собранные с финиковых пальм. Они хорошо сохраняются в теплом климате и являются надежным источником энергии.</r></e>
+  <e k="D" t="ThingDef" key="VEE_RawDates.label"><s>dates</s><r>даты</r></e>
+  <e k="D" t="ThingDef" key="VEE_RotstinkMote.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="VEE_RotstinkVent.description"><s>A foul geyser that intermittently belches clouds of corpse-born miasma, choking the air with the stench of decay.</s><r>Грязный гейзер, периодически извергающий облака миазмов, рожденных трупами, удушающий воздух зловонием разложения.</r></e>
+  <e k="D" t="ThingDef" key="VEE_RotstinkVent.label"><s>rotstink geyser</s><r>rotstink geyser</r></e>
+  <e k="D" t="ThingDef" key="VEE_Sinkhole.description"><s>A sudden collapse in the ground forming a deep, unstable pit, often exposing bare rock beneath the surface.</s><r>Внезапное обрушение земли образует глубокую нестабильную яму, часто обнажая голую скалу под поверхностью.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Sinkhole.label"><s>sinkhole</s><r>воронка</r></e>
+  <e k="D" t="ThingDef" key="VEE_SmokeMote.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="VEE_SmokeVent.description"><s>A smoldering fissure that intermittently exhales thick, acrid smoke, reducing visibility and choking the lungs.</s><r>Тлеющая трещина, из которой периодически выходит густой едкий дым, ухудшающий видимость и задыхающийся.</r></e>
+  <e k="D" t="ThingDef" key="VEE_SmokeVent.label"><s>smoke geyser</s><r>дымовой гейзер</r></e>
+  <e k="D" t="ThingDef" key="VEE_SmoothedJadeite.description"><s>A silicate mineral in the pyroxene family that is one of the two forms of jade.</s><r>Силикатный минерал семейства пироксенов, одна из двух форм нефрита.</r></e>
+  <e k="D" t="ThingDef" key="VEE_SmoothedJadeite.label"><s>smoothed jadeite</s><r>гладкий жадеит</r></e>
+  <e k="D" t="ThingDef" key="VEE_SulfurVent.description"><s>A naturally-occurring break in the ground from which sulfuric gases escape. The gas produced on these fissures stinks of rotten eggs.</s><r>Естественный разрыв в земле, из которого выходят серные газы. Газ, образующийся в этих трещинах, воняет тухлыми яйцами.</r></e>
+  <e k="D" t="ThingDef" key="VEE_SulfurVent.label"><s>sulfur fissure</s><r>серная трещина</r></e>
+  <e k="D" t="ThingDef" key="VEE_ToxicMote.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="VEE_ToxicVent.description"><s>A volatile fissure that periodically spews noxious green gas, poisoning the air and sickening anything that breathes it.</s><r>Летучая трещина, периодически извергающая ядовитый зеленый газ, отравляющий воздух и вызывающий тошноту у всего, что ею дышит.</r></e>
+  <e k="D" t="ThingDef" key="VEE_ToxicVent.label"><s>toxic geyser</s><r>токсичный гейзер</r></e>
+  <e k="D" t="ThoughtDef" key="VEE_DustStorm.stages.0.description"><s>This dust gets everywhere!</s><r>Эта пыль проникает повсюду!</r></e>
+  <e k="D" t="ThoughtDef" key="VEE_DustStorm.stages.0.label"><s>dust storm</s><r>пыльная буря</r></e>
+  <e k="D" t="ThoughtDef" key="VEE_IrradiatedWater.stages.0.description"><s>I can feel my cells screaming in pain.</s><r>Я чувствую, как мои клетки кричат ​​от боли.</r></e>
+  <e k="D" t="ThoughtDef" key="VEE_IrradiatedWater.stages.0.label"><s>irradiated water</s><r>облученная вода</r></e>
+  <e k="D" t="ThoughtDef" key="VEE_Quicksand.stages.0.description"><s>It's like moving through molasses...</s><r>Это как двигаться по патоке...</r></e>
+  <e k="D" t="ThoughtDef" key="VEE_Quicksand.stages.0.label"><s>traversing quicksand</s><r>пересекая зыбучие пески</r></e>
+  <e k="D" t="ThoughtDef" key="VEE_RottenStench.stages.0.description"><s>The whole region stinks.</s><r>Весь регион воняет.</r></e>
+  <e k="D" t="ThoughtDef" key="VEE_RottenStench.stages.0.label"><s>rotten stench</s><r>гнилое зловоние</r></e>
+  <e k="D" t="ThoughtDef" key="VEE_SulfuricWater.stages.0.description"><s>The rotten egg smell of this rancid water in unbearable.</s><r>Запах тухлых яиц и прогорклой воды невыносим.</r></e>
+  <e k="D" t="ThoughtDef" key="VEE_SulfuricWater.stages.0.label"><s>sulfuric water</s><r>серная вода</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_AbandonedFarmland.description"><s>This region contains ancient farms that were abandoned long ago due to the presence of droughts.</s><r>В этом регионе находятся древние фермы, давно заброшенные из-за засухи.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_AbandonedFarmland.label"><s>abandoned farmland</s><r>заброшенные сельскохозяйственные угодья</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_AbundantPredators.description"><s>Animals considered predators appear in greater numbers here.</s><r>Животные, считающиеся хищниками, появляются здесь в большем количестве.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_AbundantPredators.label"><s>abundant predators</s><r>многочисленные хищники</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_AbundantPrey.description"><s>Animals considered prey appear in greater numbers here.</s><r>Животные, считающиеся добычей, здесь появляются в большем количестве.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_AbundantPrey.label"><s>abundant prey</s><r>обильная добыча</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_AggressiveHerds.description"><s>Animals in this region have increased manhunter on damage chances.</s><r>Животные в этом регионе имеют повышенный шанс нанести урон охотнику за людьми.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_AggressiveHerds.label"><s>aggressive herds</s><r>агрессивные стада</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_AlluvialFan.description"><s>A broad, fan-shaped spread of rich sediment deposited where flowing water from a river slows and disperses across the land.</s><r>Широкое, веерообразное распространение богатых отложений, отложившихся там, где течение воды из реки замедляется и рассеивается по земле.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_AlluvialFan.label"><s>aluvial fan</s><r>аллювиальный конус</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Alphabeavers.description"><s>Alphabeavers have been spotted in this region.</s><r>В этом регионе были замечены альфабобры.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Alphabeavers.label"><s>alphabeavers</s><r>альфабобры</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_AnimaFauna.description"><s>The placid environment of the anima forest attracts some anima-touched animals.</s><r>Спокойная обстановка леса анимы привлекает некоторых животных, затронутых анимой.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_AnimaFauna.label"><s>anima fauna</s><r>фауна души</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_AnimaFlora.description"><s>This region contains a dense forest with anima trees and lesser anima growths, quietly resonating with psychic energy. The air feels attentive, as if the land itself is listening.</s><r>В этом регионе есть густой лес с деревьями анимы и меньшими порослями анимы, тихо резонирующими с психической энергией. Воздух кажется внимательным, как будто сама земля слушает.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_AnimaFlora.label"><s>anima flora</s><r>анима флора</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_AnimaSoils.description"><s>This area contains soil infused with latent anima energy, subtly influencing plants, animals, and minds.</s><r>Эта область содержит почву, пропитанную скрытой энергией анимы, тонко влияющей на растения, животных и разум.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_AnimaSoils.label"><s>anima soils</s><r>анима-почвы</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_AnimaSoils_Coast.description"><s>This area contains soil infused with latent anima energy, subtly influencing plants, animals, and minds.</s><r>Эта область содержит почву, пропитанную скрытой энергией анимы, тонко влияющей на растения, животных и разум.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_AnimaSoils_Coast.label"><s>anima soils</s><r>анима-почвы</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_AuburnTree_Birches.description"><s>In this forested area many trees remain locked in shades of red and gold, as if autumn never fully passes.</s><r>В этой лесной зоне многие деревья по-прежнему окрашены в оттенки красного и золотого, как будто осень никогда не проходит полностью.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_AuburnTree_Birches.label"><s>auburn birches</s><r>каштановые берёзы</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_AuburnTree_Maples.description"><s>In this forested area many trees remain locked in shades of red and gold, as if autumn never fully passes.</s><r>В этой лесной зоне многие деревья по-прежнему окрашены в оттенки красного и золотого, как будто осень никогда не проходит полностью.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_AuburnTree_Maples.label"><s>auburn maples</s><r>темно-каштановые клены</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_AuburnTree_Oaks.description"><s>In this forested area many trees remain locked in shades of red and gold, as if autumn never fully passes.</s><r>В этой лесной зоне многие деревья по-прежнему окрашены в оттенки красного и золотого, как будто осень никогда не проходит полностью.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_AuburnTree_Oaks.label"><s>auburn oaks</s><r>каштановые дубы</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_AuburnTree_Poplars.description"><s>In this forested area many trees remain locked in shades of red and gold, as if autumn never fully passes.</s><r>В этой лесной зоне многие деревья по-прежнему окрашены в оттенки красного и золотого, как будто осень никогда не проходит полностью.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_AuburnTree_Poplars.label"><s>auburn poplars</s><r>каштановые тополя</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_BasaltCape.description"><s>A jutting headland of dark basalt, fractured into sharp columns by ancient lava flows. Rich in volcanic rocks.</s><r>Выступающий мыс из темного базальта, разбитый на острые колонны древними потоками лавы. Богат вулканическими породами.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_BasaltCape.label"><s>basalt cape</s><r>базальтовая накидка</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Blooming_Buttercup.description"><s>This area can grow a large number of colorful wild buttercups.</s><r>На этой территории может расти большое количество красочных диких лютиков.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Blooming_Buttercup.label"><s>blooming buttercups</s><r>цветущие лютики</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Blooming_ForgetMeNot.description"><s>This area can grow a large number of colorful wild forget-me-nots.</s><r>На этой территории может расти большое количество красочных диких незабудок.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Blooming_ForgetMeNot.label"><s>blooming forget-me-nots</s><r>цветущие незабудки</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Blooming_Knapweed.description"><s>This area can grow a large number of colorful wild knapweed.</s><r>На этой территории растет большое количество красочного дикого василька.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Blooming_Knapweed.label"><s>blooming knapweed</s><r>цветущий василек</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Blooming_Loosestrife.description"><s>This area can grow a large number of colorful wild loosestrife.</s><r>На этой территории может произрастать большое количество красочных диких вербейников.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Blooming_Loosestrife.label"><s>blooming loosestrife</s><r>цветущий вербейник</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_BombardedSurface.description"><s>This region was subject to orbital or artillery bombardment in a past long gone, and the craters from that bombardment are still present.</s><r>В далеком прошлом этот регион подвергался орбитальным или артиллерийским бомбардировкам, и кратеры от этих бомбардировок сохранились до сих пор.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_BombardedSurface.label"><s>bombarded surface</s><r>бомбардируемая поверхность</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_BurnedForest.description"><s>A forested area that has been recently affected by a severe wildfire.</s><r>Лесной массив, недавно пострадавший от сильного лесного пожара.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_BurnedForest.label"><s>burned forest</s><r>сожженный лес</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Cactus_Barrel.description"><s>This area can grow a large number of wild barrel cacti.</s><r>На этой территории может расти большое количество диких бочковых кактусов.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Cactus_Barrel.label"><s>barrel cacti</s><r>бочонок кактусов</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Cactus_Beavertail.description"><s>This area can grow a large number of wild beavertail cacti.</s><r>На этой территории может расти большое количество диких кактусов бобра.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Cactus_Beavertail.label"><s>beavertail cacti</s><r>кактусы бобрового хвоста</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Cactus_Hedgehog.description"><s>This area can grow a large number of wild hedgehog cacti.</s><r>На этой территории может расти большое количество диких кактусов-ежей.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Cactus_Hedgehog.label"><s>hedgehog cacti</s><r>кактусы ёжика</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Cactus_OrganPipe.description"><s>This area can grow a large number of wild organ pipe cacti.</s><r>На этой территории может расти большое количество диких кактусов-органотрубок.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Cactus_OrganPipe.label"><s>organ pipe cacti</s><r>органная трубка кактусы</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_CalmBasin.description"><s>A wide, shallow crater filled with fine, undisturbed sand. Shielded from the wind by its sloped rim, the basin remains eerily still.</s><r>Широкий неглубокий кратер, наполненный мелким нетронутым песком. Защищенный от ветра своим наклонным краем, бассейн остается пугающе неподвижным.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_CalmBasin.label"><s>calm basin</s><r>спокойный бассейн</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Cenotes.description"><s>A scattered network of deep, water-filled sinkholes formed by collapsed stone.</s><r>Разбросанная сеть глубоких, заполненных водой провалов, образованных обрушившимся камнем.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Cenotes.label"><s>cenotes</s><r>сеноты</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_ColossalFauna.description"><s>All fauna in this area is much larger than usual.</s><r>Вся фауна в этой местности значительно крупнее обычной.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_ColossalFauna.label"><s>colossal fauna</s><r>колоссальная фауна</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_ContaminatedCoast.description"><s>A stretch of shoreline where irradiated waters lap against the land, poisoning the shallows and disrupting all nearby life.</s><r>Участок береговой линии, где облученные воды плещутся о землю, отравляя мелководье и разрушая всю близлежащую жизнь.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_ContaminatedCoast.label"><s>contaminated coast</s><r>загрязненное побережье</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_ContaminatedReservoir.description"><s>A stagnant body of water saturated with lingering radiation, its depths unsafe for drinking or fishing and its shores hostile to life.</s><r>Стоячий водоем, насыщенный сохраняющейся радиацией, его глубины небезопасны для питья и рыбалки, а берега враждебны жизни.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_ContaminatedReservoir.label"><s>contaminated reservoir</s><r>загрязненный резервуар</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_ContaminatedRiver.description"><s>A flowing waterway tainted by lingering radiation, spreading contamination downstream and rendering its waters unsafe for use.</s><r>Текущий водный путь, зараженный сохраняющейся радиацией, распространяет загрязнение вниз по течению и делает его воды небезопасными для использования.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_ContaminatedRiver.label"><s>contaminated river</s><r>загрязненная река</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_CoralReef.description"><s>A large atoll separated from the shore with a ring of corals growing around it.</s><r>От берега отделился большой атолл, вокруг которого растет кольцо кораллов.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_CoralReef.label"><s>coral reef</s><r>коралловый риф</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_CraterLake.description"><s>A vast ring of rocky walls encircles a serene, deep-blue lake.</s><r>Огромное кольцо скалистых стен окружает безмятежное темно-синее озеро.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_CraterLake.label"><s>crater lake</s><r>кратерное озеро</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_DeadlifeVents.description"><s>Sinister geysers that exhale eerie, ash-like dust—capable of reawakening the dead under its haunting influence.</s><r>Зловещие гейзеры, выдыхающие жуткую, похожую на пепел пыль, способные пробуждать мертвых под своим призрачным влиянием.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_DeadlifeVents.label"><s>deadlife geysers</s><r>мертвые гейзеры</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_DeepOreDevoid.description"><s>This area is so poor in deep ores that they are almost non-existant.</s><r>Эта область настолько бедна глубокими рудами, что их практически нет.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_DeepOreDevoid.label"><s>no deep ores</s><r>нет глубоких руд</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_DeepOrePoor.description"><s>This area is poor in deep ores, decreasing the yield of deep drills by 25%.</s><r>Этот район беден глубокими рудами, что снижает производительность глубоких буров на 25%.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_DeepOrePoor.label"><s>deep ore poor</s><r>глубокая бедность руды</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_DeepOreRich.description"><s>This area is rich in deep ores, increasing the yield of deep drills by 25%.</s><r>Эта область богата глубокими рудами, что увеличивает производительность глубоких буров на 25%.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_DeepOreRich.label"><s>deep ore rich</s><r>глубокая руда, богатая</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_DeepSnow.description"><s>This region is covered in heavy, compacted layers of snow that resist movement and muffle sound.</s><r>Этот регион покрыт тяжелыми уплотненными слоями снега, которые препятствуют движению и заглушают звук.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_DeepSnow.label"><s>solid snow</s><r>сплошной снег</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_DetachedIceberg.description"><s>A floating mass of ice, detached from the larger ice sheet and quite distant from the shore.</s><r>Плавающая масса льда, оторванная от большего ледяного покрова и довольно далекая от берега.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_DetachedIceberg.label"><s>detached iceberg</s><r>отдельный айсберг</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_DistressedWildlife.description"><s>All animals in this region have increased wildness.</s><r>Все животные в этом регионе обладают повышенной дикостью.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_DistressedWildlife.label"><s>distressed wildlife</s><r>обеспокоенная дикая природа</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_DomesticatedEscapees.description"><s>Farm animals like chickens, pigs, and cows will appear in the wild in small herds, remnants of lost settlements or farms.</s><r>Сельскохозяйственные животные, такие как куры, свиньи и коровы, появятся в дикой природе небольшими стадами, остатками потерянных поселений или ферм.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_DomesticatedEscapees.label"><s>domesticated escapees</s><r>прирученные беглецы</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_DriftwoodShore.description"><s>A stretch of coastline littered with bleached logs and broken timber, deposited by tides and storms from distant shores.</s><r>Участок береговой линии, усеянный выбеленными бревнами и сломанной древесиной, оставленной приливами и штормами с далеких берегов.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_DriftwoodShore.label"><s>driftwood</s><r>коряги</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_DryRiver.description"><s>A section of this river that has dried up, presumably due to absence of precipitation up-river.</s><r>Пересохший участок этой реки, предположительно из-за отсутствия осадков в верховьях.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_DryRiver.label"><s>dry river</s><r>сухая река</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_DustBowl.description"><s>A sun-scorched wasteland choked with dust and dry winds. Vegetation is nearly gone, and relentless sandstorms make survival harsh and unforgiving.</s><r>Выжженная солнцем пустошь, задыхающаяся от пыли и суховеев. Растительность почти исчезла, а безжалостные песчаные бури делают выживание суровым и беспощадным.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_DustBowl.label"><s>dust bowl</s><r>пылесборник</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_DustStorms.description"><s>Dust storms that impede vision are much stronger in this area.</s><r>Пыльные бури, ухудшающие зрение, в этой местности гораздо сильнее.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_DustStorms.label"><s>dust storms</s><r>пыльные бури</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_EasyToTraverse.description"><s>Certain geographical features in this region make it easier to traverse.</s><r>Определенные географические особенности этого региона облегчают путешествие.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_EasyToTraverse.label"><s>easy to traverse</s><r>легко пройти</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_FeralKinship.description"><s>All animals in this region have a decreased wildness.</s><r>Все животные в этом регионе имеют пониженную дикость.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_FeralKinship.label"><s>feral kinship</s><r>дикое родство</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_FertileRains.description"><s>This region is subject to unusually nutrient-rich rainfall, boosting plant growth for its duration.</s><r>В этом регионе выпадают необычайно богатые питательными веществами осадки, которые на протяжении всего периода их выпадения стимулируют рост растений.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_FertileRains.label"><s>fertile rains</s><r>плодородные дожди</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Fertility_Reduced.description"><s>This area contains no fertile soils.</s><r>На этой территории нет плодородных почв.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Fertility_Reduced.label"><s>decreased soil fertility</s><r>снижение плодородия почвы</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_FirewoodTrees.description"><s>This region is rich in firewood trees, adapted to fertile volcanic terrain.</s><r>Этот регион богат дровами, приспособленными к плодородной вулканической местности.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_FirewoodTrees.label"><s>firewood trees</s><r>дрова деревья</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_FleshPits.description"><s>A scattered network of anomalous cave entrances, leading to a subterranean realm of pulsating flesh and grotesque abominations.</s><r>Разрозненная сеть аномальных входов в пещеры, ведущая в подземное царство пульсирующей плоти и гротескных мерзостей.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_FleshPits.label"><s>flesh pits</s><r>flesh pits</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_FloodPlains.description"><s>A low-lying stretch of land shaped by seasonal flooding, where nutrient-rich waters periodically spill over the banks and retreat, leaving fertile soil in their wake.</s><r>Низменный участок земли, образовавшийся в результате сезонных наводнений, где богатые питательными веществами воды периодически выходят из берегов и отступают, оставляя за собой плодородную почву.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_FloodPlains.label"><s>flood plains</s><r>поймы</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_FrequentAuroras.description"><s>Auroras happen much more often in this region.</s><r>В этом регионе полярные сияния случаются гораздо чаще.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_FrequentAuroras.label"><s>frequent auroras</s><r>он часто посещает рассветы</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_GeomagneticStorm.description"><s>An intense geomagnetic event blankets the region, completely disabling all electrical devices.</s><r>Интенсивное геомагнитное событие охватило регион, полностью отключив все электрические устройства.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_GeomagneticStorm.label"><s>geomagnetic storm</s><r>геомагнитная буря</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_GlacialMoraine.description"><s>Long ridges of rock and sediment left behind by retreating ice. The ground is uneven and unstable, full of ponds of melted glacial water.</s><r>Длинные гряды камней и отложений, оставленные отступающим льдом. Земля неровная и неустойчивая, полна прудов с талой ледниковой водой.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_GlacialMoraine.label"><s>glacial moraine</s><r>ледниковая морена</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_GravelBeach.description"><s>A harsh shoreline of loose gravel and rounded stones, where waves grind rock against rock.</s><r>Суровая береговая линия из рыхлого гравия и округлых камней, где волны шлифуют скалы о скалы.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_GravelBeach.label"><s>gravel beach</s><r>галечный пляж</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_HardToTraverse.description"><s>Certain geographical features in this region make it harder to traverse.</s><r>Определенные географические особенности этого региона затрудняют его перемещение.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_HardToTraverse.label"><s>hard to traverse</s><r>трудно пройти</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_IceAndFire.description"><s>A floating mass of ice, with an active lava lake inside. It doesn't get more metal than this.</s><r>Плавающая масса льда с активным лавовым озером внутри. Больше металла здесь не найти.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_IceAndFire.label"><s>ice and fire</s><r>лед и пламя</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_IceSpires.description"><s>Tall, narrow columns of ice rise from the frozen ground, shaped by wind and extreme cold.</s><r>Высокие, узкие столбы льда поднимаются из мерзлой земли, сформированные ветром и сильным холодом.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_IceSpires.label"><s>ice spires</s><r>ледяные шпили</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_IncreasedDiseases.description"><s>Diseases are 25% more common in this region.</s><r>Заболевания в этом регионе распространены на 25% чаще.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_IncreasedDiseases.label"><s>increased diseases</s><r>рост заболеваний</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_IncreasedInfestations.description"><s>Insectoid infestations are more common in this region.</s><r>В этом регионе чаще встречаются инсектоидные инвазии.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_IncreasedInfestations.label"><s>increased infestations</s><r>увеличение заражения</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_JadeChunks.description"><s>This area contains small deposits of jadeite.</s><r>На этой территории имеются небольшие залежи жадеита.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_JadeChunks.label"><s>jadeite chunks</s><r>куски жадеита</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_JadeiteMountains.description"><s>The stone found in this region is a jade rich mineral.</s><r>Камень, найденный в этом регионе, представляет собой минерал, богатый нефритом.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_JadeiteMountains.label"><s>jadeite mountains</s><r>жадеитовые горы</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_JaggedRocks.description"><s>Thin rock ridges criss cross this region.</s><r>Этот регион пересекают тонкие скальные хребты.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_JaggedRocks.label"><s>jagged rocks</s><r>зазубренные камни</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_LargeRiverBanks.description"><s>The river present in this region has larger banks.</s><r>Река, присутствующая в этом регионе, имеет более крупные берега.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_LargeRiverBanks.label"><s>large river banks</s><r>большие речные берега</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_LargerRegion.description"><s>This region is 30% larger than usual.</s><r>Этот регион на 30% больше обычного.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_LargerRegion.label"><s>larger region</s><r>больший регион</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_LaurelForest.description"><s>A dense evergreen forest thriving in mild temperatures and constant humidity. Broad-leaved trees trap moisture from passing clouds, keeping the ground shaded and damp year-round.</s><r>Густой вечнозеленый лес, процветающий при умеренных температурах и постоянной влажности. Широколиственные деревья задерживают влагу от проходящих облаков, сохраняя землю в тени и влажной круглый год.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_LaurelForest.label"><s>laurel forest</s><r>лавровый лес</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_LessSolarPower.description"><s>Insolation is weaker in this area, reducing the output of solar power by 25%.</s><r>В этой области инсоляция слабее, что снижает выработку солнечной энергии на 25%.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_LessSolarPower.label"><s>reduced solar exposure</s><r>снижение солнечного воздействия</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_LittoralDunes.description"><s>A band of fertile, wind-shaped dunes running along the shoreline, built from sand pulled inland from the sea.</s><r>Полоса плодородных дюн в форме ветра, протянувшаяся вдоль береговой линии, построена из песка, доставленного вглубь суши с моря.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_LittoralDunes.label"><s>littoral dunes</s><r>прибрежные дюны</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_LoneIsland.description"><s>A large island separated from the shore.</s><r>От берега отделился большой остров.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_LoneIsland.label"><s>detached coastal island</s><r>отдельный прибрежный остров</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_LoneIslandWithLake.description"><s>A large island separated from the shore with a freshwater lake inside it.</s><r>Большой остров, отделенный от берега, с пресноводным озером внутри него.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_LoneIslandWithLake.label"><s>central lake island</s><r>остров центрального озера</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_LoneIslandWithMountain.description"><s>A large island separated from the shore with a tall peak in its center.</s><r>Большой остров, отделенный от берега, с высокой вершиной в центре.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_LoneIslandWithMountain.label"><s>resurgent island</s><r>возрождающийся остров</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_LushLavaFields.description"><s>Ancient lava flows broken by cracks and cooled rock now support dense vegetation. Heat lingers beneath the surface, creating a strange landscape where living growth spreads across black stone.</s><r>Древние потоки лавы, разбитые трещинами и остывшими скалами, теперь поддерживают густую растительность. Тепло задерживается под поверхностью, создавая странный ландшафт, где живая растительность распространяется по черному камню.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_LushLavaFields.label"><s>lush lava fields</s><r>пышные лавовые поля</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_MangroveTerrain.description"><s>Large interconnected backish water pools dominate the area.</s><r>На территории доминируют большие соединенные между собой бассейны с обратной водой.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_MangroveTerrain.label"><s>coastal wetland</s><r>прибрежное водно-болотное угодье</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_MangroveTrees.description"><s>This area is filled with large amounts of mangrove trees whose roots can thrive in brackish water.</s><r>Эта территория заполнена большим количеством мангровых деревьев, корни которых могут расти в солоноватой воде.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_MangroveTrees.label"><s>mangrove trees</s><r>мангровые деревья</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_MarineSanctuary.description"><s>Coastal animals appear in greater numbers here.</s><r>Прибрежные животные здесь появляются в большем количестве.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_MarineSanctuary.label"><s>marine sanctuary</s><r>морской заповедник</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_MechanoidShipChunks.description"><s>Chunks of a crashed mechanoid ship are found around this region.</s><r>Вокруг этого региона найдены обломки разбившегося корабля-механоида.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_MechanoidShipChunks.label"><s>mechanoid chunks</s><r>куски механоида</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Megafauna.description"><s>This region has an abundance of megafauna, brought back to life by genetic engineering.</s><r>В этом регионе изобилует мегафауна, возрожденная к жизни с помощью генной инженерии.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Megafauna.label"><s>abundant megafauna</s><r>богатая мегафауна</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_MeteorCrater.description"><s>A vast impact site with jagged rocky edges and a debris-littered basin.</s><r>Огромное место падения с неровными скалистыми краями и заваленной обломками котловиной.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_MeteorCrater.label"><s>meteor crater</s><r>метеоритный кратер</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Microfauna.description"><s>All fauna in this area is much smaller than usual.</s><r>Вся фауна в этой местности гораздо мельче обычной.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Microfauna.label"><s>microfauna</s><r>микрофауна</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_MigratoryHerds.description"><s>Groups of herd animals will periodically cross this region.</s><r>Группы стадных животных будут периодически пересекать этот регион.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_MigratoryHerds.label"><s>migratory herds</s><r>мигрирующие стада</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_MineableComponentSpacer.description"><s>This area has deposits of advanced ancient machinery, which can be mined for advanced components.</s><r>В этой области есть залежи передового древнего оборудования, из которого можно получить современные компоненты.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_MineableComponentSpacer.label"><s>advanced component deposits</s><r>предварительные депозиты компонентов</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_MineralDevoid.label"><s>mineral devoid</s><r>минерал лишен</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Moor.description"><s>An open, windswept landscape of low shrubs and grasses growing over waterlogged soil. The ground is peaty and uneven, shaped by constant exposure and poor drainage.</s><r>Открытый, продуваемый всеми ветрами ландшафт с низкими кустарниками и травами, растущими на заболоченной почве. Почва торфянистая и неровная, сформированная из-за постоянной обнаженности и плохого дренажа.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Moor.label"><s>moor</s><r>пришвартоваться</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_MoorFlora.description"><s>This region is rich in low, hardy shrubs and grasses mingled with twisted, gnarled pines, all adapted to acidic, waterlogged soil and constant wind.</s><r>Этот регион богат низкими, выносливыми кустарниками и травами, смешанными с искривленными, корявыми соснами, приспособленными к кислой, заболоченной почве и постоянному ветру.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_MoorFlora.label"><s>moor plants</s><r>болотные растения</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_MoreSolarPower.description"><s>Insolation is stronger in this area, increasing the output of solar power by 25%.</s><r>В этой области инсоляция сильнее, что увеличивает выработку солнечной энергии на 25%.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_MoreSolarPower.label"><s>increased solar exposure</s><r>повышенное солнечное воздействие</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Mossy.description"><s>This area contains large patches of mossy soil.</s><r>Эта территория содержит большие участки мшистой почвы.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Mossy.label"><s>mossy</s><r>мшистый</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Mycelium.description"><s>A variety of light-resistant mushrooms similar to the ones growing in glowforests are common in this area.</s><r>В этой местности распространены разнообразные светоустойчивые грибы, похожие на те, что растут в светящихся лесах.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Mycelium.label"><s>mycelium</s><r>мицелий</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_NaturalAerie.description"><s>Flying animals appear in greater numbers here.</s><r>Летающие животные здесь появляются в большем количестве.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_NaturalAerie.label"><s>natural aerie</s><r>естественное гнездо</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_NoDiseases.description"><s>Diseases very rarely strike in this region, making them almost a nonexistent threat.</s><r>Болезни очень редко поражают этот регион, что делает их практически несуществующей угрозой.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_NoDiseases.label"><s>no diseases</s><r>никаких болезней</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_NoTrees.description"><s>Trees of any kind do not grow here naturally.</s><r>Никакие деревья здесь не растут в природе.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_NoTrees.label"><s>lack of trees</s><r>отсутствие деревьев</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_NoWind.description"><s>Winds are virtually absent in this region.</s><r>Ветры в этом регионе практически отсутствуют.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_NoWind.label"><s>no wind</s><r>без ветра</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_NobleSteeds.description"><s>Horses and Donkeys will appear in this area.</s><r>В этой области появятся лошади и ослы.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_NobleSteeds.label"><s>noble steeds</s><r>благородные кони</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_NocturnalFauna.description"><s>Nocturnal and crepuscular animals appear in greater numbers here.</s><r>Здесь в большем количестве появляются ночные и сумеречные животные.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_NocturnalFauna.label"><s>nocturnal fauna</s><r>ночная фауна</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_ObsidianChunks.description"><s>This area contains small chunks of obsidian.</s><r>Эта область содержит небольшие куски обсидиана.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_ObsidianChunks.label"><s>obsidian chunks</s><r>куски обсидиана</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_PebbleDunes.description"><s>Low dunes of rounded pebbles shaped by constant wind and shifting ground.</s><r>Низкие дюны из округлой гальки, сформированные постоянным ветром и подвижной почвой.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_PebbleDunes.label"><s>pebble dunes</s><r>галечные дюны</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_PermafrostBasin.description"><s>A shallow basin where the ground remains permanently frozen beneath a thin surface thaw.</s><r>Неглубокий бассейн, где земля остается постоянно замороженной под тонкой оттаивающей поверхностью.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_PermafrostBasin.label"><s>permafrost basin</s><r>бассейн вечной мерзлоты</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_PlantLife_Decimated.description"><s>Plant life is extremely scarce here.</s><r>Растительный мир здесь крайне скуден.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_PlantLife_Decimated.label"><s>decimated</s><r>уничтожен</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_PlantLife_Overgrown.description"><s>Plant life is extremely more abundant here.</s><r>Растительный мир здесь чрезвычайно богат.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_PlantLife_Overgrown.label"><s>overgrown</s><r>заросший</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_PlentifulGrass.description"><s>Grass is very common in this region.</s><r>Трава очень распространена в этом регионе.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_PlentifulGrass.label"><s>plentiful grass</s><r>обильная трава</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_PoisonousFlora.description"><s>Harvesting any flora in this area will cause toxic buildup. Crops planted by colonists won't be affected.</s><r>Сбор любой флоры в этой области приведет к накоплению токсичных веществ. Посевы, посаженные колонистами, не пострадают.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_PoisonousFlora.label"><s>poisonous flora</s><r>ядовитая флора</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_QuicksandDunes.description"><s>A barren expanse of sand and shallow quicksand that impedes movement. This area is extremely inhospitable.</s><r>Бесплодное пространство песка и мелкого зыбучего песка, затрудняющее движение. Эта местность крайне негостеприимна.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_QuicksandDunes.label"><s>quicksand dunes</s><r>зыбучие дюны</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_QuicksandPits.description"><s>This region contains pools of shallow quicksand that impede movement.</s><r>В этом регионе есть лужи мелкого зыбучего песка, затрудняющие передвижение.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_QuicksandPits.label"><s>quicksand pits</s><r>ямы с зыбучим песком</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_RagingWind.description"><s>Winds are extraordinarily stronger in this area.</s><r>Ветры в этом районе необычайно сильные.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_RagingWind.label"><s>raging winds</s><r>бушующие ветры</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_RedDesert.description"><s>A vast desert of iron-rich sand, stained red by the slow grinding of ancient stone.</s><r>Обширная пустыня богатого железом песка, окрашенного в красный цвет от медленного шлифования древнего камня.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_RedDesert.label"><s>red desert</s><r>красная пустыня</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_RedDesertPlants.description"><s>This region contains some cacti adapted to the red sands.</s><r>В этом регионе есть кактусы, приспособленные к красным пескам.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_RedDesertPlants.label"><s>red desert cacti</s><r>красные пустынные кактусы</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_ReducedDiseases.description"><s>Diseases are 25% less common in this region.</s><r>Заболевания в этом регионе встречаются на 25% реже.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_ReducedDiseases.label"><s>reduced diseases</s><r>снижение заболеваемости</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_ReducedPredators.description"><s>Animals considered predators appear in lesser numbers here.</s><r>Животные, считающиеся хищниками, здесь встречаются в меньшем количестве.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_ReducedPredators.label"><s>reduced predators</s><r>уменьшенные хищники</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_ReducedPrey.description"><s>Animals considered prey appear in lesser numbers here.</s><r>Животные, считающиеся добычей, здесь появляются в меньшем количестве.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_ReducedPrey.label"><s>reduced prey</s><r>уменьшенная добыча</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_RelictDelta.description"><s>A fan of dried channels and silt deposits, shaped by a river that once split and flowed here long ago.</s><r>Веер высохших каналов и иловых отложений, образованный рекой, которая когда-то когда-то разделилась и текла здесь давным-давно.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_RelictDelta.label"><s>relict delta</s><r>реликтовая дельта</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_ResurgentCaldera.description"><s>Ancient volcanic collapse zone with steep crater walls, a central rocky dome, and echoes of past eruptions.</s><r>Зона древнего вулканического обрушения с крутыми стенами кратера, центральным скалистым куполом и отголосками прошлых извержений.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_ResurgentCaldera.label"><s>resurgent caldera</s><r>возрождающаяся кальдера</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_RisingWaters.description"><s>An extremely flat coastal plain where the tides push far inland. Large stretches of land are regularly submerged.</s><r>Чрезвычайно плоская прибрежная равнина, где приливы уходят далеко вглубь суши. Большие участки суши регулярно оказываются под водой.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_RisingWaters.label"><s>rising waters</s><r>подъем воды</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_RockRidge.description"><s>A rock ridge separating this region in two.</s><r>Скальный хребет, разделяющий этот регион на две части.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_RockRidge.label"><s>rock ridge</s><r>скальный хребет</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_RodentPlagues.description"><s>This area is infested with rats.</s><r>Эта территория кишит крысами.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_RodentPlagues.label"><s>rodent plagues</s><r>нашествие грызунов</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_RotstinkVents.description"><s>Foul geysers that intermittently belch clouds of corpse-born miasma, choking the air with the stench of decay.</s><r>Грязные гейзеры, периодически извергающие облака миазмов, рожденных трупами, удушающие воздух зловонием разложения.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_RotstinkVents.label"><s>rotstink geysers</s><r>красные вонючие гейзеры</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_RottenStench.description"><s>Acrid vapors seep from the ground, blanketing the area in a foul smell that burns the lungs and sours the mood.</s><r>Едкие пары просачиваются из-под земли, окутывая местность неприятным запахом, который обжигает легкие и портит настроение.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_RottenStench.label"><s>rotten stench</s><r>гнилое зловоние</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_SaltPlains.description"><s>The dried surface of an inland ocean. Sterile and hard to traverse.</s><r>Высушенная поверхность внутреннего океана. Стерильный и труднопроходимый.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_SaltPlains.label"><s>salt plains</s><r>соляные равнины</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Sandstorms.description"><s>Sandstorms are much more frequent in this area.</s><r>Песчаные бури в этом районе случаются гораздо чаще.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Sandstorms.label"><s>sandstorms</s><r>песчаные бури</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_SerpentineCanyons.description"><s>Geological movement has caused several deep fissures in this mountain.</s><r>Геологическое движение вызвало несколько глубоких трещин в этой горе.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_SerpentineCanyons.label"><s>serpentine canyons</s><r>змеевидные каньоны</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Sinkholes.description"><s>This region contains several collapses in the ground forming deep, unstable pits, often exposing bare rock beneath the surface.</s><r>В этом регионе есть несколько провалов в земле, образующих глубокие нестабильные ямы, часто обнажающие голую породу под поверхностью.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Sinkholes.label"><s>sinkholes</s><r>воронки</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_SkygazingSpot.description"><s>A serene atmospheric phenomenon encourages colonists to spend more time gazing at the sky. Increases the chance of skygazing and boosts the joy it provides.</s><r>Безмятежное атмосферное явление побуждает колонистов проводить больше времени, глядя на небо. Увеличивает вероятность наблюдения за небом и усиливает радость, которую это доставляет.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_SkygazingSpot.label"><s>skygazing spot</s><r>место для наблюдения за небом</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_SmallerRegion.description"><s>This region is 30% smaller than usual.</s><r>Этот регион на 30% меньше обычного.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_SmallerRegion.label"><s>smaller region</s><r>меньший регион</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_SmokeVents.description"><s>Smoldering fissures that intermittently exhale thick, acrid smoke, reducing visibility and choking the lungs.</s><r>Тлеющие трещины, периодически выдыхающие густой едкий дым, ухудшающий видимость и задыхающийся легкие.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_SmokeVents.label"><s>smoke geysers</s><r>дымовые гейзеры</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_StagnantRivulet.description"><s>A slow-moving river where water barely flows, its course clogged with silt and shallow pools.</s><r>Медленно текущая река, вода в которой почти не течет, ее русло забито илом и мелкими лужами.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_StagnantRivulet.label"><s>stagnant rivulet</s><r>стоячая речка</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_SteamGeysers_Decreased.description"><s>Steam geysers are absent from this area.</s><r>Паровые гейзеры в этом районе отсутствуют.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_SteamGeysers_Decreased.label"><s>no geothermal activity</s><r>нет геотермальной активности</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_StoneForest.description"><s>A strange expanse of towering stone spires and jagged rock formations, rising like gigantic, petrified trees from the ground.</s><r>Странное пространство с высокими каменными шпилями и зазубренными скальными образованиями, возвышающимися над землей, как гигантские окаменелые деревья.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_StoneForest.label"><s>stone forest</s><r>каменный лес</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_StrongerTides.description"><s>Tides in this region are particularly strong, increasing output of tidal generators by 40%.</s><r>Приливы в этом регионе особенно сильны, что увеличивает мощность приливных генераторов на 40%.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_StrongerTides.label"><s>stronger tides</s><r>более сильные приливы</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_SulfuricLake.description"><s>A stagnant volcanic lake with a strong, foul sulfuric odor. While the water is very mildly toxic, the surrounding soil is rich in nutrients, supporting hardy, sulfur-tolerant plant life.</s><r>Застойное вулканическое озеро с сильным неприятным серным запахом. Хотя вода очень умеренно токсична, окружающая почва богата питательными веществами, поддерживающими выносливую, устойчивую к сере растительную жизнь.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_SulfuricLake.label"><s>sulfuric lake</s><r>серное озеро</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_SulfuricRiver.description"><s>A foul-smelling river carrying acidic, sulfur-laden waters, its banks scorched and inhospitable to most forms of life.</s><r>Река с неприятным запахом, несущая кислые, насыщенные серой воды, ее берега выжжены и неприветливы для большинства форм жизни.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_SulfuricRiver.label"><s>sulfuric river</s><r>серная река</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_TornadoAlley.description"><s>Frequent and intense tornadoes sweep through this region, threatening the colony.</s><r>По этому региону проносятся частые и интенсивные торнадо, угрожающие колонии.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_TornadoAlley.label"><s>tornado alley</s><r>аллея торнадо</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_ToxicCrater.description"><s>A blasted ring of stone surrounds a stagnant, foul-smelling pool. The water glows faintly...</s><r>Кольцо из взорванного камня окружает застойную, зловонную лужу. Вода слабо светится...</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_ToxicCrater.label"><s>toxic crater</s><r>токсичный кратер</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_ToxicVents.description"><s>Volatile fissures that periodically spew noxious green gas, poisoning the air and sickening anything that breathes it.</s><r>Летучие трещины, периодически извергающие ядовитый зеленый газ, отравляющий воздух и вызывающий тошноту у всего, что им дышит.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_ToxicVents.label"><s>toxic geysers</s><r>токсичные гейзеры</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_TropicalBeach.description"><s>A warm coastal region shaped by steady tides and seasonal storms. Sandy beaches and shallow waters support dense vegetation along the shoreline.</s><r>Теплый прибрежный регион, сформированный постоянными приливами и сезонными штормами. Песчаные пляжи и мелководье поддерживают густую растительность вдоль береговой линии.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_TropicalBeach.label"><s>tropical beach</s><r>тропический пляж</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_TropicalBeachFlora.description"><s>This region is rich in palm trees, including cocoa trees, screw pines and date palms.</s><r>Этот регион богат пальмами, в том числе какао-деревьями, винтовыми соснами и финиковыми пальмами.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_TropicalBeachFlora.label"><s>tropical beach flora</s><r>тропическая пляжная флора</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_VenomousEcosystem.description"><s>Venomous animals appear in greater numbers here.</s><r>Ядовитые животные здесь появляются в большем количестве.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_VenomousEcosystem.label"><s>venomous ecosystem</s><r>ядовитая экосистема</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_VolcanicRichSoil.description"><s>This area has patches of volcanic soil that have higher than average fertility.</s><r>В этой области есть участки вулканической почвы с плодородием выше среднего.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_VolcanicRichSoil.label"><s>rich volcanic soil</s><r>богатая вулканическая почва</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_VolcanicSandDesert.description"><s>A barren desert of black volcanic sand, born from long-dead eruptions.</s><r>Бесплодная пустыня черного вулканического песка, рожденная в результате давно завершившихся извержений.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_VolcanicSandDesert.label"><s>volcanic sand desert</s><r>пустыня с вулканическим песком</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_VolcanicSandDesertFlora.description"><s>This region contains some cacti adapted to the volcanic sands, and an absence of grass.</s><r>В этом регионе есть кактусы, приспособленные к вулканическим пескам, и нет травы.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_VolcanicSandDesertFlora.label"><s>volcanic sand flora</s><r>флора вулканического песка</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Volcano.description"><s>Charred stone ridges form the rim of an ancient caldera, its heart glowing with molten fury.</s><r>Обугленные каменные хребты образуют край древней кальдеры, ее сердце пылает расплавленной яростью.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_Volcano.label"><s>volcano</s><r>вулкан</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_WanderingCompanions.description"><s>Animals are more used to humans in this region, making it easier for colonists to bond with them.</s><r>Животные в этом регионе более привыкли к людям, что облегчает колонистам связь с ними.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_WanderingCompanions.label"><s>wandering companions</s><r>странствующие товарищи</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_WildCereals.description"><s>This area can grow a large number of wild cereals.</s><r>На этой территории можно выращивать большое количество дикорастущих злаков.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_WildCereals.label"><s>wild cereals</s><r>дикие злаки</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_WildFruitTrees.description"><s>This area can grow a large number of wild {0}.</s><r>На этой территории может произрастать большое количество диких {0}.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_WildFruitTrees.label"><s>wild fruit trees</s><r>дикие фруктовые деревья</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_WildRice.description"><s>This area can grow a large number of wild {0}.</s><r>На этой территории может произрастать большое количество диких {0}.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_WildRice.label"><s>wild rice</s><r>дикий рис</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_WildWheat.description"><s>This area can grow a large number of wild {0}.</s><r>На этой территории может произрастать большое количество диких {0}.</r></e>
+  <e k="D" t="TileMutatorDef" key="VEE_WildWheat.label"><s>wild wheat</s><r>дикая пшеница</r></e>
+  <e k="D" t="WeatherDef" key="VEE_DustStorm.description"><s>A choking wall of wind-driven dust sweeps across the land, reducing visibility, slowing movement, and scouring anything left exposed.</s><r>Удушающая стена принесенной ветром пыли проносится по земле, ухудшая видимость, замедляя движение и очищая все, что осталось незащищенным.</r></e>
+  <e k="D" t="WeatherDef" key="VEE_DustStorm.label"><s>dust storm</s><r>пыльная буря</r></e>
+  <e k="D" t="WeatherDef" key="VEE_FertileRains.description"><s>Unusually nutrient-rich rainfall is sweeping across the region, boosting plant growth for its duration.</s><r>Необычно богатые питательными веществами осадки проносятся по региону, стимулируя рост растений на протяжении всего региона.</r></e>
+  <e k="D" t="WeatherDef" key="VEE_FertileRains.label"><s>fertile rain</s><r>плодородный дождь</r></e>
+  <e k="K" key="VEE_LetterLabelTornado"><s>Tornado touching down!</s><r>Торнадо приземляется!</r></e>
+  <e k="K" key="VEE_LetterTornado"><s>A dangerous and highly destructive tornado has formed and is descending upon the colony! There is no way to get rid of the tornado, so buckle down and prepare to ride it out!</s><r>Сформировался опасный и чрезвычайно разрушительный торнадо, который обрушивается на колонию! Избавиться от торнадо невозможно, так что пристегнитесь и приготовьтесь пережить его!</r></e>
+  <e k="K" key="VEE_MineralDevoid"><s>devoid of {MINERAL_label}</s><r>лишен {MINERAL_label}</r></e>
+  <e k="K" key="VEE_MineralDevoidDescription"><s>This area has a complete lack of {MINERAL_label} deposits. Other resource ores are however twice as common.</s><r>В этом районе полное отсутствие {MINERAL_label} месторождений. Однако другие ресурсные руды встречаются в два раза чаще.</r></e>
+</AutoTranslateCache>
