@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="aoba.fortress.industrial.nucleardawn" name="Fortification Industrial -Nuclear Dawn" language="Russian" version="1">
+  <e k="D" t="AmmoCategoryDef" key="FT_Shell_Nuclear.description"><s>An artillery fired fission nuclear ordance.</s><r>Артиллерия выпустила ядерный снаряд деления.</r></e>
+  <e k="D" t="AmmoCategoryDef" key="FT_Shell_Nuclear.label"><s>nuclear shell</s><r>ядерный снаряд</r></e>
+  <e k="D" t="GameConditionDef" key="FTND_Flashstorm.description"><s>A freak localized storm is blasting a small area with repeated lightning strikes.</s><r>Необычный локальный шторм обрушивается на небольшую территорию повторяющимися ударами молний.</r></e>
+  <e k="D" t="GameConditionDef" key="FTND_Flashstorm.endMessage"><s>The electromagnetic storm is over.</s><r>Электромагнитная буря закончилась.</r></e>
+  <e k="D" t="GameConditionDef" key="FTND_Flashstorm.label"><s>electromagnetic storm</s><r>электромагнитная буря</r></e>
+  <e k="D" t="GameConditionDef" key="FTND_Flashstorm.letterText"><s>A freak localized flashstorm is striking a small area with lightning. This can cause massive fires.</s><r>Необычная локальная вспышка поразила небольшую территорию молниями. Это может стать причиной масштабных пожаров.</r></e>
+  <e k="D" t="GameConditionDef" key="FTND_NuclearFallout.description"><s>A plume of radioactive fallout is slowly settling over this entire region. Any living thing not under a roof will be slowly poisoned, and items left outside will corrode.</s><r>Шлейф радиоактивных осадков медленно оседает на весь регион. Любое живое существо, находящееся вне крыши, будет медленно отравляться, а предметы, оставленные снаружи, будут подвергаться коррозии.</r></e>
+  <e k="D" t="GameConditionDef" key="FTND_NuclearFallout.descriptionFuture"><s>a cloud of toxic fallout will blanket the area around [map_definite] for [gameConditionDuration_duration], killing outdoor plant and animal life</s><r>облако токсичных осадков покроет территорию вокруг [map_definite] на [gameConditionDuration_duration], убивая растения и животных на открытом воздухе.</r></e>
+  <e k="D" t="GameConditionDef" key="FTND_NuclearFallout.endMessage"><s>The worst of the toxic fallout has settled.</s><r>Самые тяжелые последствия токсичных осадков уже улажены.</r></e>
+  <e k="D" t="GameConditionDef" key="FTND_NuclearFallout.label"><s>nuclear fallout</s><r>ядерные осадки</r></e>
+  <e k="D" t="GameConditionDef" key="FTND_NuclearFallout.letterText"><s>A plume of radioactive fallout is settling over this entire region.
+
+Any person or creature not under a roof will be slowly sickened by the toxic dust settling out of the atmosphere.
+
+It will last for anywhere between a few days to over a quadrum.</s><r>Шлейф радиоактивных осадков окутывает весь этот регион.
+
+Любой человек или существо, не находящееся под крышей, будет медленно заболевать от токсичной пыли, оседающей из атмосферы.
+
+Это продлится от нескольких дней до более четвероногих.</r></e>
+  <e k="D" t="GameConditionDef" key="FTND_NuclearFlare.description"><s>A Nuclear electromagnetic pulse occurs in the area. The electromagnetic interference will prevent most electrical devices from working.</s><r>В этом районе возникает ядерный электромагнитный импульс. Электромагнитные помехи препятствуют работе большинства электрических устройств.</r></e>
+  <e k="D" t="GameConditionDef" key="FTND_NuclearFlare.endMessage"><s>The electromagnetic pulse is ending.</s><r>Электромагнитный импульс заканчивается.</r></e>
+  <e k="D" t="GameConditionDef" key="FTND_NuclearFlare.label"><s>electromagnetic pulse</s><r>электромагнитный импульс</r></e>
+  <e k="D" t="GameConditionDef" key="FTND_NuclearFlare.letterText"><s>A Nuclear electromagnetic pulse has occured.
+
+The intense radiation will shut down all electrical devices.
+
+It should pass in about a day.</s><r>Произошел ядерный электромагнитный импульс.
+
+Интенсивное излучение отключит все электрические устройства.
+
+Оно должно пройти примерно через день.</r></e>
+  <e k="D" t="GameConditionDef" key="FTND_NuclearWinter.description"><s>A nuclear explosion has occurred and massive quantities of ash have spewed into the atmosphere., significantly reducing the amount of light which reaches the surface. Temperatures will be colder and plants will grow slower.</s><r>Произошел ядерный взрыв, и огромное количество пепла вылетело в атмосферу, что значительно уменьшило количество света, достигающего поверхности. Температура понизится, и растения будут расти медленнее.</r></e>
+  <e k="D" t="GameConditionDef" key="FTND_NuclearWinter.descriptionFuture"><s>a layer of ash will be desposited in the upper atmosphere, reducing sunlight around [map_definite] for [gameConditionDuration_duration], seriously harming the local ecosystem</s><r>слой пепла будет осаждаться в верхних слоях атмосферы, что уменьшит солнечный свет примерно на [map_definite] на [gameConditionDuration_duration], что нанесет серьезный вред местной экосистеме.</r></e>
+  <e k="D" t="GameConditionDef" key="FTND_NuclearWinter.endMessage"><s>Most of the ash has settled.</s><r>Большая часть пепла осела.</r></e>
+  <e k="D" t="GameConditionDef" key="FTND_NuclearWinter.label"><s>nuclear winter</s><r>ядерная зима</r></e>
+  <e k="D" t="GameConditionDef" key="FTND_NuclearWinter.letterText"><s>A nuclear explosion has occurred and massive quantities of ash have spewed into the atmosphere..
+
+Ash in the atmosphere will obscure the sun. Temperatures will drop and plants will suffer for lack of sunlight. It could pass in a few weeks, or it might last many quadrums.</s><r>Произошел ядерный взрыв, и в атмосферу вылетело огромное количество пепла..
+
+Пепел в атмосфере затмит солнце. Температура упадет, и растения пострадают из-за недостатка солнечного света. Это может пройти через несколько недель или может длиться много четвероногих костей.</r></e>
+  <e k="D" t="RecipeDef" key="FTND_Dismantle_NukeLauncher.description"><s>dismantle a single-use recoilless nuke launcher.</s><r>демонтировать одноразовую безоткатную ядерную пусковую установку.</r></e>
+  <e k="D" t="RecipeDef" key="FTND_Dismantle_NukeLauncher.jobString"><s>assembling warhead.</s><r>сборка боеголовки.</r></e>
+  <e k="D" t="RecipeDef" key="FTND_Dismantle_NukeLauncher.label"><s>dismantle nuclear launcher</s><r>демонтировать ядерную пусковую установку</r></e>
+  <e k="D" t="RecipeDef" key="FTND_Make_NukeLauncher.description"><s>assemble a single-use recoilless nuke launcher.</s><r>собрать одноразовую безоткатную ядерную пусковую установку.</r></e>
+  <e k="D" t="RecipeDef" key="FTND_Make_NukeLauncher.jobString"><s>assembling warhead.</s><r>сборка боеголовки.</r></e>
+  <e k="D" t="RecipeDef" key="FTND_Make_NukeLauncher.label"><s>assemble nuclear launcher</s><r>собрать ядерную пусковую установку</r></e>
+  <e k="D" t="RecipeDef" key="FTND_Make_UraniumCompound.description"><s>Separation uranium compound by centrifuge for enrichment proccess.</s><r>Разделение соединений урана центрифугой для процесса обогащения.</r></e>
+  <e k="D" t="RecipeDef" key="FTND_Make_UraniumCompound.jobString"><s>Separating uranium.</s><r>Разделение урана.</r></e>
+  <e k="D" t="RecipeDef" key="FTND_Make_UraniumCompound.label"><s>spilt uranium compound</s><r>разлитое соединение урана</r></e>
+  <e k="D" t="RecipeDef" key="FT_Dismantle_NuclearWarhead.description"><s>dismantle nuclear warhead and restore peace to this terrible world...</s><r>демонтировать ядерную боеголовку и восстановить мир в этом ужасном мире...</r></e>
+  <e k="D" t="RecipeDef" key="FT_Dismantle_NuclearWarhead.jobString"><s>dismantling warhead.</s><r>демонтаж боеголовки.</r></e>
+  <e k="D" t="RecipeDef" key="FT_Dismantle_NuclearWarhead.label"><s>dismantle nuclear warhead</s><r>демонтировать ядерную боеголовку</r></e>
+  <e k="D" t="RecipeDef" key="FT_Dismantle_NuclearWarhead_B.description"><s>dismantle 105mm nuclear warhead and restore peace to this terrible world...</s><r>демонтировать 105-мм ядерную боеголовку и восстановить мир в этом ужасном мире...</r></e>
+  <e k="D" t="RecipeDef" key="FT_Dismantle_NuclearWarhead_B.jobString"><s>dismantling warhead.</s><r>демонтаж боеголовки.</r></e>
+  <e k="D" t="RecipeDef" key="FT_Dismantle_NuclearWarhead_B.label"><s>dismantle 105mm nuclear warhead</s><r>демонтировать 105-мм ядерную боеголовку</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_RA_SplitUranium.description"><s>Separate the Uranium into enriched uranium and depleted uranium with the standard for Rimatomics companies.</s><r>Разделите уран на обогащенный и обедненный уран в соответствии со стандартом компаний Rimatomics.</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_RA_SplitUranium.jobString"><s>Spliting uranium.</s><r>Расщепление урана.</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_RA_SplitUranium.label"><s>Split uranium for Rimatomics company</s><r>Сплит урана для компании Rimatomics</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_SplitUranium.description"><s>Separate the Uranium into enriched uranium and depleted uranium.</s><r>Разделите уран на обогащенный и обедненный уран.</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_SplitUranium.jobString"><s>Spliting uranium.</s><r>Расщепление урана.</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_SplitUranium.label"><s>Split uranium</s><r>Сплит урана</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_105x607mmRCannonShell_FT_Nuke.description"><s>assemble nuclear warhead by enriched uranium.</s><r>собрать ядерную боеголовку из обогащенного урана.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_105x607mmRCannonShell_FT_Nuke.jobString"><s>assembling warhead.</s><r>сборка боеголовки.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_105x607mmRCannonShell_FT_Nuke.label"><s>assemble nuclear warhead</s><r>собрать ядерную боеголовку</r></e>
+  <e k="D" t="RecipeDef" key="MakeFT_Shell_NuclearWarhead.description"><s>assemble nuclear warhead by enriched uranium.</s><r>собрать ядерную боеголовку из обогащенного урана.</r></e>
+  <e k="D" t="RecipeDef" key="MakeFT_Shell_NuclearWarhead.jobString"><s>assembling warhead.</s><r>сборка боеголовки.</r></e>
+  <e k="D" t="RecipeDef" key="MakeFT_Shell_NuclearWarhead.label"><s>assemble nuclear warhead</s><r>собрать ядерную боеголовку</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_NuclearDawn.description"><s>A somewhat strange disk, the accompanying paper explains that the disk contains information about the extraction and use of an ultra-efficient energy source.</s><r>Несколько странный диск, в сопроводительном документе поясняется, что диск содержит информацию о добыче и использовании сверхэффективного источника энергии.</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_NuclearDawn.discoveredLetterTitle"><s>Data Disk: Nuclear Dawn</s><r>Диск с данными: Nuclear Dawn</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_NuclearDawn.generalRules.rulesStrings.0"><s>subject-&gt;nuclear warfare</s><r>subject-&gt;ядерная война</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_NuclearDawn.generalRules.rulesStrings.1"><s>subject-&gt;uranium refining</s><r>subject-&gt;переработка урана</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_NuclearDawn.generalRules.rulesStrings.10"><s>subject_gerund-&gt;powering up a city</s><r>subject_gerund-&gt;наполнение города энергией</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_NuclearDawn.generalRules.rulesStrings.2"><s>subject-&gt;nuclear power</s><r>subject-&gt;ядерная энергетика</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_NuclearDawn.generalRules.rulesStrings.3"><s>subject_story-&gt;included a schematic of large Sector mass spectrometer</s><r>subject_story-&gt;включена схема большого секторного масс-спектрометра.</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_NuclearDawn.generalRules.rulesStrings.4"><s>subject_story-&gt;repeatedly mentioned that nuclear enegry is an inevitable civilization filter.</s><r>subject_story-&gt;неоднократно упоминалось, что ядерная энергетика является неизбежным фильтром цивилизации.</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_NuclearDawn.generalRules.rulesStrings.5"><s>subject_story-&gt;wrote many messy notes in the margins about the antimatter industries' energy monopoly.</s><r>subject_story-&gt;написал на полях множество беспорядочных заметок об энергетической монополии отраслей антиматерии.</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_NuclearDawn.generalRules.rulesStrings.6"><s>subject_story-&gt;constantly conveys to people that nuclear shouldn't be forbidden.</s><r>subject_story-&gt;постоянно доносит до людей, что ядерное оружие нельзя запрещать.</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_NuclearDawn.generalRules.rulesStrings.7"><s>subject_story-&gt;attached a brand logo sticker from Nara Industries on title</s><r>subject_story-&gt;прикрепил к названию наклейку с логотипом бренда Nara Industries.</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_NuclearDawn.generalRules.rulesStrings.8"><s>subject_story-&gt;summarized in great detail How to transform nuclear fuel rods into nuclear weapon in the face of invasion by high-tech armies</s><r>subject_story-&gt;очень подробно резюмировано Как превратить ядерные топливные стержни в ядерное оружие перед лицом вторжения высокотехнологичных армий</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_NuclearDawn.generalRules.rulesStrings.9"><s>subject_gerund-&gt;enrich uranium refining</s><r>subject_gerund-&gt;обогатить переработку урана</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_NuclearDawn.label"><s>Data:Nuclear Dawn</s><r>Данные:Ядерный рассвет</r></e>
+  <e k="D" t="SettingsMenuDef" key="FTND_SettingMenu.label"><s>Fortification - Nuclear Dawn</s><r>Укрепление - Ядерный рассвет</r></e>
+  <e k="D" t="SettingsMenuDef" key="FTND_SettingMenu.settings.0.cachedText"><s>All changes needs a restart to apply!</s><r>Для применения всех изменений требуется перезагрузка!</r></e>
+  <e k="D" t="SettingsMenuDef" key="FTND_SettingMenu.settings.0.text"><s>All changes needs a restart to apply!</s><r>Для применения всех изменений требуется перезагрузка!</r></e>
+  <e k="D" t="SettingsMenuDef" key="FTND_SettingMenu.settings.1.label"><s>Remove nuclear launcher</s><r>Удалить ядерную пусковую установку</r></e>
+  <e k="D" t="SettingsMenuDef" key="FTND_SettingMenu.settings.2.label"><s>nuclear explosion from a peaceful world, so the impact side-effect will lesser.</s><r>ядерный взрыв из мирного мира, поэтому побочный эффект будет меньше.</r></e>
+  <e k="D" t="SettingsMenuDef" key="FTND_SettingMenu.settings.3.cachedText"><s>even with nuclear launcher removed, you can still using mortar nuke...and so did enemy.</s><r>даже если ядерная пусковая установка снята, вы все равно можете использовать ядерный миномет... и противник тоже.</r></e>
+  <e k="D" t="SettingsMenuDef" key="FTND_SettingMenu.settings.3.text"><s>even with nuclear launcher removed, you can still using mortar nuke...and so did enemy.</s><r>даже если ядерная пусковая установка снята, вы все равно можете использовать ядерный миномет... и противник тоже.</r></e>
+  <e k="D" t="ThingDef" key="Ammo_105x607mmRCannonShell_FT_Nuke.description"><s>High-caliber recoilless rifle shells, typically used by large recoilless rifles.
+
+Nuclear shell:
+An artillery fired fission nuclear ordance.
+
+Используются в:</s><r>Крупнокалиберные безоткатные снаряды, обычно используемые в крупных безоткатных орудиях.
+
+Ядерная оболочка:
+Артиллерия выпустила ядерный заряд деления.
+
+Используются в:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_105x607mmRCannonShell_FT_Nuke.label"><s>105x607mmR cannon shell (Nuclear)</s><r>Снаряд пушки 105x607 ммR (Ядерный)</r></e>
+  <e k="D" t="ThingDef" key="FTND_NukeLauncher.description"><s>A single-use recoilless launcher produced using a lathe, which is designed to fire an N-45 nuclear shell known as codename: chibby. Good against large groups of soft targets or a massive Fortified.
+
+ As a single-use massive destruction weapon it may lead to friendly fire quite commonly, be aware of use.</s><r>Одноразовая безоткатная пусковая установка, изготовленная на токарном станке и предназначенная для стрельбы ядерным снарядом Н-45, известным под кодовым названием: Чибби. Хорош против больших групп слабых целей или массивных укреплений.
+
+ Как одноразовое оружие массового поражения, оно довольно часто может привести к дружественному огню, будьте осторожны с его использованием.</r></e>
+  <e k="D" t="ThingDef" key="FTND_NukeLauncher.label"><s>nuclear launcher</s><r>ядерная пусковая установка</r></e>
+  <e k="D" t="ThingDef" key="FTND_NukeLauncher.tools.0.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="FTND_NukeLauncher.verbs.0.label"><s>nuclear launcher</s><r>ядерная пусковая установка</r></e>
+  <e k="D" t="ThingDef" key="FT_Bullet_NuclearWarhead.label"><s>nuclear warhead</s><r>ядерная боеголовка</r></e>
+  <e k="D" t="ThingDef" key="FT_Bullet_NuclearWarhead_CE.label"><s>155mm Howitzer shell (Nuclear)</s><r>Снаряд 155-мм гаубицы (ядерный)</r></e>
+  <e k="D" t="ThingDef" key="FT_Bullet_NuclearWarhead_CEAmmoDetonation.label"><s>155mm Howitzer shell (Nuclear)</s><r>Снаряд 155-мм гаубицы (ядерный)</r></e>
+  <e k="D" t="ThingDef" key="FT_Bullet_NuclearWarhead_CE_directfire.label"><s>155mm Howitzer shell (Nuclear)</s><r>Снаряд 155-мм гаубицы (ядерный)</r></e>
+  <e k="D" t="ThingDef" key="FT_Centrifuge.description"><s>Calutron, A large Sector mass spectrometer which requires electricity from a whole colony to drive, uses an electric field to accelerate particle impact and deflection extract natural uranium to enriched uranium and by-product depleted uranium.</s><r>Калутрон, большой секторный масс-спектрометр, для работы которого требуется электричество всей колонии, использует электрическое поле для ускорения удара и отклонения частиц, извлекая природный уран в обогащенный уран и побочный продукт - обедненный уран.</r></e>
+  <e k="D" t="ThingDef" key="FT_Centrifuge.label"><s>Calutron</s><r>Калутрон</r></e>
+  <e k="D" t="ThingDef" key="FT_DepletedUranium.description"><s>A dark, heavy metal which is the by-product of Enriched Uranium. Also the shell material in common Mid-World Warfare, its extreme density and hardness make it good for making the blade, armor, and ammunition</s><r>Темный тяжелый металл, являющийся побочным продуктом обогащенного урана. Кроме того, материал корпуса, типичный для Mid-World Warfare, его чрезвычайная плотность и твердость делают его подходящим для изготовления клинка, брони и боеприпасов.</r></e>
+  <e k="D" t="ThingDef" key="FT_DepletedUranium.label"><s>Depleted Uranium</s><r>Обедненный уран</r></e>
+  <e k="D" t="ThingDef" key="FT_EnrichedUranium.description"><s>a highly enriched nuclear-weapon-grade uranium that can be made into a nuclear warhead, a common weapon in Mid-world comparable to an anti-gram warhead.</s><r>высокообогащенный уран, пригодный для ядерного оружия, из которого можно сделать ядерную боеголовку, распространенное оружие в Среднем мире, сравнимое с антиграммовой боеголовкой.</r></e>
+  <e k="D" t="ThingDef" key="FT_EnrichedUranium.label"><s>Enriched Uranium</s><r>Обогащенный уран</r></e>
+  <e k="D" t="ThingDef" key="FT_MOX.description"><s>Mixed oxide fuel, commonly referred to as MOX fuel, is nuclear fuel that contains more than one oxide of fissile material, usually consisting of plutonium blended with natural uranium.</s><r>Смешанное оксидное топливо, обычно называемое МОХ-топливом, представляет собой ядерное топливо, содержащее более одного оксида делящегося материала, обычно состоящего из плутония, смешанного с природным ураном.</r></e>
+  <e k="D" t="ThingDef" key="FT_MOX.label"><s>MOX fuel</s><r>МОКС-топливо</r></e>
+  <e k="D" t="ThingDef" key="FT_RTG.description"><s>radioisotope thermoelectric generator which generates free energy forever(relatively) without using fuel. A free energy source that can be produced with basic technical knowledge of nuclear.</s><r>радиоизотопный термоэлектрический генератор, который вечно (относительно) генерирует бесплатную энергию без использования топлива. Свободный источник энергии, который можно производить, обладая базовыми техническими знаниями в области ядерной энергетики.</r></e>
+  <e k="D" t="ThingDef" key="FT_RTG.label"><s>R.T.G.</s><r>Р.Т.Г.</r></e>
+  <e k="D" t="ThingDef" key="FT_Reactor.description"><s>A compact-designed full automatic nuclear reactor for the far-colony base, very reliable in safety and stability.</s><r>Полностью автоматический ядерный реактор компактной конструкции для базы далекой колонии, очень надежный с точки зрения безопасности и стабильности.</r></e>
+  <e k="D" t="ThingDef" key="FT_Reactor.label"><s>Nuclear Reactor</s><r>Ядерный реактор</r></e>
+  <e k="D" t="ThingDef" key="FT_UraniumOutput.description"><s>a product that can seperate into enriched uranium and depleted uranium on the lathe</s><r>продукт, который можно разделить на обогащенный и обедненный уран на токарном станке</r></e>
+  <e k="D" t="ThingDef" key="FT_UraniumOutput.label"><s>Separation Uranium</s><r>Разделение урана</r></e>
+  <e k="D" t="ThingDef" key="Projectile_105x607mmRCannonShell_FT_Nuke.label"><s>105x607mmR cannon shell (Nuclear)</s><r>Снаряд пушки 105x607 ммR (Ядерный)</r></e>
+  <e k="D" t="ThingDef" key="Projectile_Rocket_FT_Nuke.label"><s>Nuclear rocket</s><r>Ядерная ракета</r></e>
+  <e k="D" t="WorkGiverDef" key="FTND_OperateAutonomous.gerund"><s>Operating at</s><r>Работаем в</r></e>
+  <e k="D" t="WorkGiverDef" key="FTND_OperateAutonomous.label"><s>Operate Machine</s><r>Управление машиной</r></e>
+  <e k="D" t="WorkGiverDef" key="FTND_OperateAutonomous.verb"><s>Operate</s><r>Работать</r></e>
+</AutoTranslateCache>
