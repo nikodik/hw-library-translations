@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="irbm.nuclearsunrise" name="IRBM Expanded: Nuclear Sun Rise / 边缘弹道导弹扩展：核武黎明" language="Russian" version="1">
+  <e k="D" t="IssueDef" key="IRBM_NSR_NuclearDoctrine.description"><s>核理论决定意识形态对核武器的态度，并影响核武器的使用权限、战争中的行为以及信奉者的心情。</s><r>Ядерная теория определяет идеологические отношения к ядерному оружию, влияет на авторитет применения ядерного оружия, поведение на войне и настроения верующих.</r></e>
+  <e k="D" t="IssueDef" key="IRBM_NSR_NuclearDoctrine.label"><s>核理论</s><r>ядерная теория</r></e>
+  <e k="D" t="JobDef" key="NSR_AnalyseTerminal.reportString"><s>analysing a strange terminal.</s><r>анализируем странный терминал.</r></e>
+  <e k="D" t="JobDef" key="NSR_ImperialInvestigatorAbduct.reportString"><s>强行掳走古代人</s><r>Насильственно похищенные древние люди</r></e>
+  <e k="D" t="JobDef" key="NSR_ImperialInvestigatorEscape.reportString"><s>带着古代人撤离殖民地</s><r>Эвакуируйте колонию вместе с древними</r></e>
+  <e k="D" t="JobDef" key="NSR_ImperialInvestigatorSeize.reportString"><s>带走古代人</s><r>забрать древних</r></e>
+  <e k="D" t="JobDef" key="NSR_ImperialInvestigatorTalk.reportString"><s>与帝国调查官交谈</s><r>Поговорите с Имперским Инквизитором</r></e>
+  <e k="D" t="JobDef" key="NSR_InterrogateConcealedAncient.reportString"><s>审讯古代人</s><r>допросить древних людей</r></e>
+  <e k="D" t="JobDef" key="NSR_RepairImperialShuttleWreck.reportString"><s>修复损坏的帝国穿梭机</s><r>Ремонт поврежденного имперского шаттла</r></e>
+  <e k="D" t="JobDef" key="NSR_SearchMechWreck.reportString"><s>searching mechanoid remains.</s><r>ищет останки механоида.</r></e>
+  <e k="D" t="MemeDef" key="IRBM_NSR_Meme_Acceleration.description"><s>核武净化即为这个世界的最终答案
+&lt;i&gt;“现在我化身为死神，世界的毁灭者。”——罗伯特·奥本海默&lt;/i&gt;</s><r>Ядерная очистка — окончательный ответ этому миру
+&lt;i&gt; «Теперь я бог смерти, разрушитель миров».——Роберт Оппенгеймер&lt;/i&gt;</r></e>
+  <e k="D" t="MemeDef" key="IRBM_NSR_Meme_Acceleration.label"><s>核武至上</s><r>Ядерное превосходство</r></e>
+  <e k="D" t="MemeDef" key="IRBM_NSR_Meme_Disarmament.description"><s>世界本不需要被核武器威胁
+&lt;i&gt;“记住你们的人性，忘却其余的一切。”——伯特兰·罗素&lt;/i&gt;</s><r>Миру не нужно угрожать ядерным оружием
+&lt;i&gt; «Помните о своей человечности и забудьте обо всём остальном». - Бертран Рассел&lt;/i&gt;</r></e>
+  <e k="D" t="MemeDef" key="IRBM_NSR_Meme_Disarmament.label"><s>无核理想</s><r>Безъядерный идеал</r></e>
+  <e k="D" t="MemeDef" key="NSR_MechBlankStructure.description"><s>机械族意识形态的基础结构。</s><r>Базовая структура идеологии расы машин.</r></e>
+  <e k="D" t="MemeDef" key="NSR_MechBlankStructure.label"><s>机械意识结构</s><r>механическая структура сознания</r></e>
+  <e k="D" t="MemeDef" key="NSR_MechBlankStructure.worshipRoomLabel"><s>机械结构</s><r>Механическая структура</r></e>
+  <e k="D" t="MissileWarheadDef" key="IRBM_NSR_AI_Conventional.description"><s>A simulated conventional NPC-to-NPC strategic strike. Reserved for the local-war conflict controller.</s><r>Симулированный обычный стратегический удар между NPC. Зарезервировано для контролера локальных военных конфликтов.</r></e>
+  <e k="D" t="MissileWarheadDef" key="IRBM_NSR_AI_Conventional.label"><s>AI-Only Conventional Strike Payload</s><r>Обычная ударная нагрузка только для ИИ</r></e>
+  <e k="D" t="MissileWarheadDef" key="IRBM_NSR_AI_Nuclear.description"><s>A simulated NPC-to-NPC nuclear strike. Destroys the targeted world settlement and does not directly advance the global doomsday clock.</s><r>Имитация ядерного удара между NPC. Разрушает намеченное мировое урегулирование и не приближает напрямую глобальные часы Судного дня.</r></e>
+  <e k="D" t="MissileWarheadDef" key="IRBM_NSR_AI_Nuclear.label"><s>AI-Only Strategic Nuclear Strike Payload</s><r>Полезная нагрузка стратегического ядерного удара только для ИИ</r></e>
+  <e k="D" t="MissileWarheadDef" key="IRBM_NSR_SmallStrategicNuke.description"><s>A specially reduced-yield nuclear warhead designed for limited nuclear warfare, capable of destroying an area and rapidly escalating regional tensions.</s><r>Ядерная боеголовка пониженной мощности, специально разработанная для ограниченной ядерной войны, способная уничтожить территорию и быстро усилить региональную напряженность.</r></e>
+  <e k="D" t="MissileWarheadDef" key="IRBM_NSR_SmallStrategicNuke.label"><s>Reduced-Yield Strategic Nuclear Warhead</s><r>Стратегическая ядерная боеголовка пониженной мощности</r></e>
+  <e k="D" t="MissileWarheadDef" key="IRBM_NSR_StrategicConventional.description"><s>A warhead containing a high-yield pentazolate anion salt charge. It can effectively disrupt regional industry and destabilize the surrounding situation.</s><r>Боеголовка, содержащая высокопроизводительный заряд пентазолат-аниона. Это может эффективно подорвать региональную промышленность и дестабилизировать окружающую ситуацию.</r></e>
+  <e k="D" t="MissileWarheadDef" key="IRBM_NSR_StrategicConventional.label"><s>Strategic Conventional Strike Warhead</s><r>Стратегическая боеголовка обычного удара</r></e>
+  <e k="D" t="PreceptDef" key="IRBM_NSR_Accelerationism.description"><s>标准战略核武库已授权启用，确认打击目标为全球</s><r>Стандартный стратегический ядерный арсенал разрешен к использованию, и подтверждено, что цель нападения является глобальной.</r></e>
+  <e k="D" t="PreceptDef" key="IRBM_NSR_Accelerationism.label"><s>加速主义</s><r>акселерационизм</r></e>
+  <e k="D" t="PreceptDef" key="IRBM_NSR_Defensive.description"><s>防御态势已确认，遭受攻击后开放核武器使用权限</s><r>Оборонная позиция подтверждена, и после нападения будет открыто право на применение ядерного оружия.</r></e>
+  <e k="D" t="PreceptDef" key="IRBM_NSR_Defensive.label"><s>防御性</s><r>Оборонительный</r></e>
+  <e k="D" t="PreceptDef" key="IRBM_NSR_Disarmament.description"><s>我们已经放下了核武器，现在，是时候让其他人也放下它们了。</s><r>Мы сложили наше ядерное оружие, теперь пришло время и другим сложить его.</r></e>
+  <e k="D" t="PreceptDef" key="IRBM_NSR_Disarmament.label"><s>核裁军</s><r>ядерное разоружение</r></e>
+  <e k="D" t="PreceptDef" key="IRBM_NSR_MAD.description"><s>战略核威慑体系已建立</s><r>Создана система стратегического ядерного сдерживания.</r></e>
+  <e k="D" t="PreceptDef" key="IRBM_NSR_MAD.label"><s>相互确保毁灭</s><r>взаимно гарантированное уничтожение</r></e>
+  <e k="D" t="PreceptDef" key="IRBM_NSR_NonNuclear.description"><s>没有核武库，常规武器就足以建立防御</s><r>Без ядерных арсеналов обычных вооружений достаточно для создания обороны.</r></e>
+  <e k="D" t="PreceptDef" key="IRBM_NSR_NonNuclear.label"><s>无核</s><r>Ядерный</r></e>
+  <e k="D" t="PreceptDef" key="IRBM_NSR_Offensive.description"><s>冲突环境尚未升级，战略核武库已锁定</s><r>Конфликтная обстановка еще не обострилась, а стратегический ядерный арсенал заблокирован.</r></e>
+  <e k="D" t="PreceptDef" key="IRBM_NSR_Offensive.label"><s>进攻性</s><r>Оскорбительный</r></e>
+  <e k="D" t="PreceptDef" key="IRBM_NSR_Preemptive.description"><s>有限核战确认发动，已开放部分核武库使用权限</s><r>Подтверждена ограниченная ядерная война и открыт доступ к некоторым ядерным арсеналам</r></e>
+  <e k="D" t="PreceptDef" key="IRBM_NSR_Preemptive.label"><s>先发制人</s><r>Превентивный удар</r></e>
+  <e k="D" t="PreceptDef" key="IRBM_NSR_Ritual_AtomicCoercion.description"><s>以核武器的毁灭性力量作为外交筹码，通过军事威慑迫使贸易方作出经济让步。
+需要至少建造一座导弹发射井，并在通信台举行。成功的核讹诈将迫使一方势力派遣一支提供优惠交易条件的商队。</s><r>Разрушительная сила ядерного оружия используется в качестве дипломатической разменной монеты, чтобы заставить торговые стороны пойти на экономические уступки посредством военного сдерживания. 
+Требуется построить как минимум одну ракетную шахту и разместить ее на станции связи. Успешный ядерный шантаж заставит одну державу послать караван с предложением выгодной сделки.</r></e>
+  <e k="D" t="PreceptDef" key="IRBM_NSR_Ritual_AtomicCoercion.label"><s>核讹诈</s><r>ядерный шантаж</r></e>
+  <e k="D" t="PreceptDef" key="IRBM_NSR_Ritual_MilitaryNegotiation.description"><s>通过外交谈判与军事承诺，帮助其他派系缓解紧张局势，避免战争进一步扩大。
+在通信台举行。成功的军事交涉将使一方势力承诺冻结一段时间核武库。</s><r>Помогите другим фракциям снизить напряженность и избежать дальнейшего расширения войны посредством дипломатических переговоров и военных обязательств. 
+Держитесь на станции связи. Успешные военные переговоры приведут к тому, что одна держава обязуется заморозить свой ядерный арсенал на определенный период времени.</r></e>
+  <e k="D" t="PreceptDef" key="IRBM_NSR_Ritual_MilitaryNegotiation.label"><s>军事交涉</s><r>военные переговоры</r></e>
+  <e k="D" t="RitualBehaviorDef" key="IRBM_NSR_RitualBehavior_AtomicCoercion.roles.0.label"><s>传教士</s><r>миссионер</r></e>
+  <e k="D" t="RitualBehaviorDef" key="IRBM_NSR_RitualBehavior_MilitaryNegotiation.roles.0.label"><s>传教士</s><r>миссионер</r></e>
+  <e k="D" t="RitualBehaviorDef" key="IRBM_NSR_RitualBehavior_MilitaryNegotiation.roles.1.label"><s>领袖</s><r>лидер</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="IRBM_NSR_RitualOutcome_AtomicCoercion.comps.0.label"><s>出席成员</s><r>Посещающие члены</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="IRBM_NSR_RitualOutcome_AtomicCoercion.comps.1.label"><s>传教士出席</s><r>Миссионеры присутствуют</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="IRBM_NSR_RitualOutcome_AtomicCoercion.comps.2.label"><s>导弹已装载</s><r>Ракета загружена</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="IRBM_NSR_RitualOutcome_AtomicCoercion.description"><s>根据核讹诈的质量，参加者会获得持续6天的仪式心情，范围为−3至+8。</s><r>В зависимости от качества ядерного шантажа участники получат ритуальное настроение, которое длится 6 дней в пределах от −3 до +8.</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="IRBM_NSR_RitualOutcome_AtomicCoercion.outcomeChances.0.description"><s>这次核讹诈不仅没能奏效，还令人感到难堪。</s><r>Этот ядерный шантаж не только провалился, но и вызвал неловкое положение.</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="IRBM_NSR_RitualOutcome_AtomicCoercion.outcomeChances.0.label"><s>糟糕</s><r>упс</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="IRBM_NSR_RitualOutcome_AtomicCoercion.outcomeChances.1.description"><s>这次核讹诈没有取得任何值得一提的进展。</s><r>Этот ядерный шантаж не привел к прогрессу, заслуживающему упоминания.</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="IRBM_NSR_RitualOutcome_AtomicCoercion.outcomeChances.1.label"><s>平淡</s><r>тупой</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="IRBM_NSR_RitualOutcome_AtomicCoercion.outcomeChances.2.description"><s>这次核讹诈向外界展示了我们的力量。</s><r>Этот ядерный шантаж продемонстрировал нашу мощь внешнему миру.</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="IRBM_NSR_RitualOutcome_AtomicCoercion.outcomeChances.2.label"><s>成功</s><r>успех</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="IRBM_NSR_RitualOutcome_AtomicCoercion.outcomeChances.3.description"><s>这场核讹诈获得了压倒性的效果。</s><r>Этот ядерный шантаж достиг ошеломляющих результатов.</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="IRBM_NSR_RitualOutcome_AtomicCoercion.outcomeChances.3.label"><s>卓越</s><r>превосходство</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="IRBM_NSR_RitualOutcome_MilitaryNegotiation.comps.0.label"><s>出席成员</s><r>Посещающие члены</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="IRBM_NSR_RitualOutcome_MilitaryNegotiation.comps.1.label"><s>传教士出席</s><r>Миссионеры присутствуют</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="IRBM_NSR_RitualOutcome_MilitaryNegotiation.comps.2.label"><s>领袖出席</s><r>лидеры присутствуют</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="IRBM_NSR_RitualOutcome_MilitaryNegotiation.description"><s>根据军事交涉的质量，参加者会获得持续6天的仪式心情，范围为−3至+8。</s><r>В зависимости от качества военных переговоров участники получат ритуальное настроение, которое длится 6 дней в диапазоне от −3 до +8.</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="IRBM_NSR_RitualOutcome_MilitaryNegotiation.outcomeChances.0.description"><s>这次军事交涉彻底失败了。</s><r>Эти военные переговоры закончились полным провалом.</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="IRBM_NSR_RitualOutcome_MilitaryNegotiation.outcomeChances.0.label"><s>失败</s><r>неудача</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="IRBM_NSR_RitualOutcome_MilitaryNegotiation.outcomeChances.1.description"><s>这次军事交涉没什么进展。</s><r>На этот раз прогресс в военных переговорах был незначительным.</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="IRBM_NSR_RitualOutcome_MilitaryNegotiation.outcomeChances.1.label"><s>平淡</s><r>тупой</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="IRBM_NSR_RitualOutcome_MilitaryNegotiation.outcomeChances.2.description"><s>军事交涉取得了一定成果。</s><r>Военные переговоры достигли определенных результатов.</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="IRBM_NSR_RitualOutcome_MilitaryNegotiation.outcomeChances.2.label"><s>成功</s><r>успех</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="IRBM_NSR_RitualOutcome_MilitaryNegotiation.outcomeChances.3.description"><s>军事交涉取得了重大突破。</s><r>Крупный прорыв был достигнут в военных переговорах.</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="IRBM_NSR_RitualOutcome_MilitaryNegotiation.outcomeChances.3.label"><s>卓越</s><r>превосходство</r></e>
+  <e k="D" t="RitualPatternDef" key="IRBM_NSR_RitualPattern_AtomicCoercion.ritualExpectedDesc"><s>在通信台举行核讹诈，迫使外部势力作出贸易让步。</s><r>Проводить ядерный шантаж на башнях связи, чтобы заставить внешние державы пойти на торговые уступки.</r></e>
+  <e k="D" t="RitualPatternDef" key="IRBM_NSR_RitualPattern_MilitaryNegotiation.ritualExpectedDesc"><s>在通信台举行军事交涉，争取对方暂时冻结核武库的承诺。</s><r>Проведите военные переговоры на станции связи, чтобы добиться от другой стороны обязательства временно заморозить ее ядерный арсенал.</r></e>
+  <e k="D" t="SitePartDef" key="NSR_DeadHandImperialRuinsSite.arrivedLetter"><s>Search the rooms for the unusual terminal and hack it to recover the Dead Hand device.</s><r>Обыщите комнаты в поисках необычного терминала и взломайте его, чтобы вернуть устройство «Мертвая рука».</r></e>
+  <e k="D" t="SitePartDef" key="NSR_DeadHandImperialRuinsSite.description"><s>An ancient installation revealed by the Empire after taking custody of a prisoner.</s><r>Древнее сооружение, обнаруженное Империей после взятия под стражу пленника.</r></e>
+  <e k="D" t="SitePartDef" key="NSR_DeadHandImperialRuinsSite.label"><s>imperial ancient ruins</s><r>древние имперские руины</r></e>
+  <e k="D" t="SitePartDef" key="NSR_DeadHandIndependentRuinsSite.arrivedLetter"><s>Find and hack the terminal. Bring the Dead Hand device home yourself.</s><r>Найдите и взломайте терминал. Принесите устройство «Мертвая рука» домой самостоятельно.</r></e>
+  <e k="D" t="SitePartDef" key="NSR_DeadHandIndependentRuinsSite.description"><s>Ancient ruins whose location was revealed by the interrogated captive. Travel independently to hack its terminal.</s><r>Древние руины, местонахождение которых раскрыл допрошенный пленник. Путешествуйте самостоятельно, чтобы взломать его терминал.</r></e>
+  <e k="D" t="SitePartDef" key="NSR_DeadHandIndependentRuinsSite.label"><s>independently discovered Dead Hand ruins</s><r>независимо обнаружил руины Мертвой Руки</r></e>
+  <e k="D" t="SitePartDef" key="NSR_PortCleanupSite.arrivedLetter"><s>Mechanoid units are detected in the area. Eliminate every defender and search for any useful components.</s><r>В этом районе обнаружены механоиды. Уничтожьте каждого защитника и ищите любые полезные компоненты.</r></e>
+  <e k="D" t="SitePartDef" key="NSR_PortCleanupSite.description"><s>A mechanoid-occupied location marked for clearance.</s><r>Место, занятое механоидами, отмечено для очистки.</r></e>
+  <e k="D" t="SitePartDef" key="NSR_PortCleanupSite.label"><s>mechanoid clearance target</s><r>мишень для очистки механоида</r></e>
+  <e k="D" t="SitePartDef" key="NSR_PortDerelictSite.arrivedLetter"><s>The abandoned relay is strewn with special mechanoid corpses. Select a colonist and right-click a wreck to search it.</s><r>Заброшенное реле усеяно трупами особых механоидов. Выберите колониста и щелкните правой кнопкой мыши по затонувшему объекту, чтобы обыскать его.</r></e>
+  <e k="D" t="SitePartDef" key="NSR_PortDerelictSite.description"><s>An abandoned signal relay littered with damaged mechanoid remains.</s><r>Заброшенное реле сигнала, заваленное поврежденными останками механоидов.</r></e>
+  <e k="D" t="SitePartDef" key="NSR_PortDerelictSite.label"><s>derelict mechanoid signal relay</s><r>заброшенное реле сигнала механоида</r></e>
+  <e k="D" t="ThingDef" key="NSR_CerebrexIntegratedPhasedRadar.description"><s>Internal radar proxy for the player-controlled orbital mechhive core.</s><r>Внутренний радиолокационный прокси для управляемого игроком ядра орбитального мехулья.</r></e>
+  <e k="D" t="ThingDef" key="NSR_CerebrexIntegratedPhasedRadar.label"><s>integrated cerebrex phased-array radar</s><r>интегрированный радар с фазированной решеткой Cerebrex</r></e>
+  <e k="D" t="ThingDef" key="NSR_DeadHandDevice.description"><s>A physical strategic response device retrieved from an imperial ancient ruin.</s><r>Физическое стратегическое устройство реагирования, извлеченное из древних имперских руин.</r></e>
+  <e k="D" t="ThingDef" key="NSR_DeadHandDevice.label"><s>Dead Hand system</s><r>Система «Мертвая рука»</r></e>
+  <e k="D" t="ThingDef" key="NSR_MysteriousPort.description"><s>A strange interface retrieved from a mechanoid corpse. It seems to be inoperative.</s><r>Странный интерфейс, извлеченный из трупа механоида. Кажется, он неработоспособен.</r></e>
+  <e k="D" t="ThingDef" key="NSR_MysteriousPort.label"><s>mysterious port</s><r>таинственный порт</r></e>
+  <e k="D" t="ThingDef" key="NSR_StrangeTerminal.description"><s>An unusual mechanoid terminal. It can be analysed at a research bench. The terminal is consumed by the analysis.</s><r>Необычный механоидный терминал. Его можно проанализировать на исследовательском стенде. Терминал занят анализом.</r></e>
+  <e k="D" t="ThingDef" key="NSR_StrangeTerminal.label"><s>strange terminal</s><r>странный терминал</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.description"><s>距离上次使用核武器已经过去一段时间。</s><r>Прошло некоторое время с момента последнего применения ядерного оружия.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.label"><s>核武器使用欲望</s><r>желание применить ядерное оружие</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.0.description"><s>为什么还没有核弹升空？这个腐朽的世界究竟还要苟延残喘多久！</s><r>Почему до сих пор не запущены ядерные бомбы? Как долго просуществует этот гнилой мир?</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.0.label"><s>核武器使用欲望</s><r>желание применить ядерное оружие</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.1.description"><s>为什么还没有核弹升空？这个腐朽的世界究竟还要苟延残喘多久！</s><r>Почему до сих пор не запущены ядерные бомбы? Как долго просуществует этот гнилой мир?</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.1.label"><s>核武器使用欲望</s><r>желание применить ядерное оружие</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.10.description"><s>世界又恢复了令人窒息的平静。</s><r>Мир вернулся к удушающему спокойствию.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.10.label"><s>核武器使用欲望</s><r>желание применить ядерное оружие</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.11.description"><s>世界又恢复了令人窒息的平静。</s><r>Мир вернулся к удушающему спокойствию.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.11.label"><s>核武器使用欲望</s><r>желание применить ядерное оружие</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.12.description"><s>世界又恢复了令人窒息的平静。</s><r>Мир вернулся к удушающему спокойствию.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.12.label"><s>核武器使用欲望</s><r>желание применить ядерное оружие</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.13.description"><s>世界又恢复了令人窒息的平静。</s><r>Мир вернулся к удушающему спокойствию.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.13.label"><s>核武器使用欲望</s><r>желание применить ядерное оружие</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.14.description"><s>上一次核爆的光芒仿佛还在眼前。这就是我们存在的意义！</s><r>Свет последнего ядерного взрыва, казалось, все еще был передо мной. В этом смысл нашего существования!</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.14.label"><s>核武器使用欲望</s><r>желание применить ядерное оружие</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.15.description"><s>上一次核爆的光芒仿佛还在眼前。这就是我们存在的意义！</s><r>Свет последнего ядерного взрыва, казалось, все еще был передо мной. В этом смысл нашего существования!</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.15.label"><s>核武器使用欲望</s><r>желание применить ядерное оружие</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.16.description"><s>上一次核爆的光芒仿佛还在眼前。这就是我们存在的意义！</s><r>Свет последнего ядерного взрыва, казалось, все еще был передо мной. В этом смысл нашего существования!</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.16.label"><s>核武器使用欲望</s><r>желание применить ядерное оружие</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.17.description"><s>上一次核爆的光芒仿佛还在眼前。这就是我们存在的意义！</s><r>Свет последнего ядерного взрыва, казалось, все еще был передо мной. В этом смысл нашего существования!</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.17.label"><s>核武器使用欲望</s><r>желание применить ядерное оружие</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.18.description"><s>上一次核爆的光芒仿佛还在眼前。这就是我们存在的意义！</s><r>Свет последнего ядерного взрыва, казалось, все еще был передо мной. В этом смысл нашего существования!</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.18.label"><s>核武器使用欲望</s><r>желание применить ядерное оружие</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.19.description"><s>上一次核爆的光芒仿佛还在眼前。这就是我们存在的意义！</s><r>Свет последнего ядерного взрыва, казалось, все еще был передо мной. В этом смысл нашего существования!</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.19.label"><s>核武器使用欲望</s><r>желание применить ядерное оружие</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.2.description"><s>为什么还没有核弹升空？这个腐朽的世界究竟还要苟延残喘多久！</s><r>Почему до сих пор не запущены ядерные бомбы? Как долго просуществует этот гнилой мир?</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.2.label"><s>核武器使用欲望</s><r>желание применить ядерное оружие</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.20.description"><s>上一次核爆的光芒仿佛还在眼前。这就是我们存在的意义！</s><r>Свет последнего ядерного взрыва, казалось, все еще был передо мной. В этом смысл нашего существования!</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.20.label"><s>核武器使用欲望</s><r>желание применить ядерное оружие</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.3.description"><s>为什么还没有核弹升空？这个腐朽的世界究竟还要苟延残喘多久！</s><r>Почему до сих пор не запущены ядерные бомбы? Как долго просуществует этот гнилой мир?</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.3.label"><s>核武器使用欲望</s><r>желание применить ядерное оружие</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.4.description"><s>为什么还没有核弹升空？这个腐朽的世界究竟还要苟延残喘多久！</s><r>Почему до сих пор не запущены ядерные бомбы? Как долго просуществует этот гнилой мир?</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.4.label"><s>核武器使用欲望</s><r>желание применить ядерное оружие</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.5.description"><s>为什么还没有核弹升空？这个腐朽的世界究竟还要苟延残喘多久！</s><r>Почему до сих пор не запущены ядерные бомбы? Как долго просуществует этот гнилой мир?</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.5.label"><s>核武器使用欲望</s><r>желание применить ядерное оружие</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.6.description"><s>为什么还没有核弹升空？这个腐朽的世界究竟还要苟延残喘多久！</s><r>Почему до сих пор не запущены ядерные бомбы? Как долго просуществует этот гнилой мир?</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.6.label"><s>核武器使用欲望</s><r>желание применить ядерное оружие</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.7.description"><s>世界又恢复了令人窒息的平静。</s><r>Мир вернулся к удушающему спокойствию.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.7.label"><s>核武器使用欲望</s><r>желание применить ядерное оружие</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.8.description"><s>世界又恢复了令人窒息的平静。</s><r>Мир вернулся к удушающему спокойствию.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.8.label"><s>核武器使用欲望</s><r>желание применить ядерное оружие</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.9.description"><s>世界又恢复了令人窒息的平静。</s><r>Мир вернулся к удушающему спокойствию.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Craving.stages.9.label"><s>核武器使用欲望</s><r>желание применить ядерное оружие</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_HasNukes.description"><s>核导弹已就绪，随时准备发射。</s><r>Ядерные ракеты готовы к запуску.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_HasNukes.label"><s>拥有核武器</s><r>обладать ядерным оружием</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_HasNukes.stages.0.description"><s>核导弹已就绪，随时准备发射。</s><r>Ядерные ракеты готовы к запуску.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_HasNukes.stages.0.label"><s>拥有核武器</s><r>обладать ядерным оружием</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_NoNukes.description"><s>我们需要建造新的核导弹。</s><r>Нам необходимо создавать новые ядерные ракеты.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_NoNukes.label"><s>没有核武器</s><r>никакого ядерного оружия</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_NoNukes.stages.0.description"><s>我们需要建造新的核导弹。</s><r>Нам необходимо создавать новые ядерные ракеты.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_NoNukes.stages.0.label"><s>没有核武器</s><r>никакого ядерного оружия</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Research.description"><s>未来的道路已经指明。</s><r>Путь вперед намечен.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Research.label"><s>掌握核武器技术</s><r>Освоить технологию ядерного оружия</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Research.stages.0.description"><s>未来的道路已经指明。</s><r>Путь вперед намечен.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_Research.stages.0.label"><s>掌握核武器技术</s><r>Освоить технологию ядерного оружия</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_WorldBurning.description"><s>这是旧世界落日。</s><r>Это закат старого мира.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_WorldBurning.label"><s>世界在燃烧</s><r>мир горит</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_WorldBurning.stages.0.description"><s>这是旧世界落日。</s><r>Это закат старого мира.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Accelerationism_WorldBurning.stages.0.label"><s>世界在燃烧</s><r>мир горит</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Defensive_HasNukes.description"><s>我们拥有足以应对外部威胁的核威慑力量。</s><r>У нас есть средства ядерного сдерживания, достаточные для борьбы с внешними угрозами.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Defensive_HasNukes.label"><s>拥有核武器</s><r>обладать ядерным оружием</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Defensive_HasNukes.stages.0.description"><s>我们拥有足以应对外部威胁的核威慑力量。</s><r>У нас есть средства ядерного сдерживания, достаточные для борьбы с внешними угрозами.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Defensive_HasNukes.stages.0.label"><s>拥有核武器</s><r>обладать ядерным оружием</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Defensive_LastDayPassing.description"><s>雷达确认有导弹经过殖民地防御区。</s><r>Радар подтвердил прохождение ракеты через зону обороны колонии.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Defensive_LastDayPassing.label"><s>导弹过境</s><r>транзит ракет</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Defensive_LastDayPassing.stages.0.description"><s>雷达确认有导弹经过殖民地防御区。</s><r>Радар подтвердил прохождение ракеты через зону обороны колонии.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Defensive_LastDayPassing.stages.0.label"><s>导弹过境</s><r>транзит ракет</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Defensive_NuclearPeace.description"><s>当前没有发生局部核战争，防御态势保持稳定。</s><r>В настоящее время локальной ядерной войны нет, и оборонная позиция остается стабильной.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Defensive_NuclearPeace.label"><s>没有局部核战</s><r>Никакой локальной ядерной войны</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Defensive_NuclearPeace.stages.0.description"><s>当前没有发生局部核战争，防御态势保持稳定。</s><r>В настоящее время локальной ядерной войны нет, и оборонная позиция остается стабильной.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Defensive_NuclearPeace.stages.0.label"><s>没有局部核战</s><r>Никакой локальной ядерной войны</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Defensive_Research.description"><s>我们已经具备建立核防御体系的技术条件。</s><r>У нас уже есть технические условия для создания системы ядерной защиты.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Defensive_Research.label"><s>掌握核武器技术</s><r>Освоить технологию ядерного оружия</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Defensive_Research.stages.0.description"><s>我们已经具备建立核防御体系的技术条件。</s><r>У нас уже есть технические условия для создания системы ядерной защиты.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Defensive_Research.stages.0.label"><s>掌握核武器技术</s><r>Освоить технологию ядерного оружия</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Disarmament_ForeignHit.description"><s>又有人使用了核武器，这一切究竟什么时候才能结束？</s><r>Кто-то снова применил ядерное оружие. Когда это закончится?</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Disarmament_ForeignHit.label"><s>其他派系使用核武器</s><r>Другие фракции используют ядерное оружие</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Disarmament_ForeignHit.stages.0.description"><s>又有人使用了核武器，这一切究竟什么时候才能结束？</s><r>Кто-то снова применил ядерное оружие. Когда это закончится?</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Disarmament_ForeignHit.stages.0.label"><s>其他派系使用核武器</s><r>Другие фракции используют ядерное оружие</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Disarmament_HasNukes.description"><s>我们怎么还能保留这些武器？它们本就不应该存在。</s><r>Как мы можем сохранить это оружие? Они никогда не должны существовать.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Disarmament_HasNukes.label"><s>拥有核武器</s><r>обладать ядерным оружием</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Disarmament_HasNukes.stages.0.description"><s>我们怎么还能保留这些武器？它们本就不应该存在。</s><r>Как мы можем сохранить это оружие? Они никогда не должны существовать.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Disarmament_HasNukes.stages.0.label"><s>拥有核武器</s><r>обладать ядерным оружием</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Disarmament_Intercept.description"><s>至少这一次，我们阻止了一场灾难。</s><r>По крайней мере, на этот раз мы предотвратили катастрофу.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Disarmament_Intercept.label"><s>拦截了导弹</s><r>Ракета перехвачена</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Disarmament_Intercept.stages.0.description"><s>至少这一次，我们阻止了一场灾难。</s><r>По крайней мере, на этот раз мы предотвратили катастрофу.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Disarmament_Intercept.stages.0.label"><s>拦截了导弹</s><r>Ракета перехвачена</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Disarmament_LastDayPassing.description"><s>每一枚飞过头顶的导弹，都可能成为一场灾难的开始。</s><r>Каждая ракета, летящая над головой, могла стать началом катастрофы.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Disarmament_LastDayPassing.label"><s>导弹过境</s><r>транзит ракет</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Disarmament_LastDayPassing.stages.0.description"><s>每一枚飞过头顶的导弹，都可能成为一场灾难的开始。</s><r>Каждая ракета, летящая над головой, могла стать началом катастрофы.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Disarmament_LastDayPassing.stages.0.label"><s>导弹过境</s><r>транзит ракет</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Disarmament_NoNukes.description"><s>至少我们已经迈出了第一步。</s><r>По крайней мере, мы сделали первый шаг.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Disarmament_NoNukes.label"><s>没有核武器</s><r>никакого ядерного оружия</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Disarmament_NoNukes.stages.0.description"><s>至少我们已经迈出了第一步。</s><r>По крайней мере, мы сделали первый шаг.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Disarmament_NoNukes.stages.0.label"><s>没有核武器</s><r>никакого ядерного оружия</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Disarmament_NuclearPeace.description"><s>今天世界依然平静，希望明天也是。</s><r>Сегодня в мире по-прежнему мир, и я надеюсь, что завтра он будет таким же.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Disarmament_NuclearPeace.label"><s>没有局部核战</s><r>Никакой локальной ядерной войны</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Disarmament_NuclearPeace.stages.0.description"><s>今天世界依然平静，希望明天也是。</s><r>Сегодня в мире по-прежнему мир, и я надеюсь, что завтра он будет таким же.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Disarmament_NuclearPeace.stages.0.label"><s>没有局部核战</s><r>Никакой локальной ядерной войны</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Disarmament_Sanction.description"><s>又有一个派系被迫放下核武器，世界因此安全了一点。</s><r>Другая фракция вынуждена сложить свое ядерное оружие, и мир становится немного безопаснее.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Disarmament_Sanction.label"><s>核裁军处理</s><r>занимаюсь ядерным разоружением</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Disarmament_Sanction.stages.0.description"><s>又有一个派系被迫放下核武器，世界因此安全了一点。</s><r>Другая фракция вынуждена сложить свое ядерное оружие, и мир становится немного безопаснее.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Disarmament_Sanction.stages.0.label"><s>核裁军处理</s><r>занимаюсь ядерным разоружением</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Disarmament_Used.description"><s>我们竟然动用了自己最反对的武器。</s><r>На самом деле мы использовали то оружие, против которого больше всего выступали.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Disarmament_Used.label"><s>使用了核武器</s><r>использовал ядерное оружие</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Disarmament_Used.stages.0.description"><s>我们竟然动用了自己最反对的武器。</s><r>На самом деле мы использовали то оружие, против которого больше всего выступали.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Disarmament_Used.stages.0.label"><s>使用了核武器</s><r>использовал ядерное оружие</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_MAD_Aftermath.description"><s>最坏的情况已经发生，但我们仍然幸存。</s><r>Самое худшее уже произошло, и мы все равно выжили.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_MAD_Aftermath.label"><s>劫后余生</s><r>Загробная жизнь</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_MAD_Aftermath.stages.0.description"><s>最坏的情况已经发生，但我们仍然幸存。</s><r>Самое худшее уже произошло, и мы все равно выжили.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_MAD_Aftermath.stages.0.label"><s>劫后余生</s><r>Загробная жизнь</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_MAD_BeforeDoomsday.description"><s>战略威慑仍然有效，全面核战争尚未爆发。</s><r>Стратегическое сдерживание остается эффективным, а полномасштабная ядерная война еще не разразилась.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_MAD_BeforeDoomsday.label"><s>末日尚未降临</s><r>Конец еще не наступил</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_MAD_BeforeDoomsday.stages.0.description"><s>战略威慑仍然有效，全面核战争尚未爆发。</s><r>Стратегическое сдерживание остается эффективным, а полномасштабная ядерная война еще не разразилась.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_MAD_BeforeDoomsday.stages.0.label"><s>末日尚未降临</s><r>Конец еще не наступил</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_MAD_HasNukes.description"><s>战略核武库处于戒备状态。</s><r>Стратегические ядерные арсеналы приведены в боевую готовность.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_MAD_HasNukes.label"><s>拥有核武器</s><r>обладать ядерным оружием</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_MAD_HasNukes.stages.0.description"><s>战略核武库处于戒备状态。</s><r>Стратегические ядерные арсеналы приведены в боевую готовность.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_MAD_HasNukes.stages.0.label"><s>拥有核武器</s><r>обладать ядерным оружием</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_MAD_NoNukes.description"><s>缺乏核威慑力量，我们的安全无法得到充分保障。</s><r>Без ядерного сдерживания наша безопасность не может быть полностью гарантирована.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_MAD_NoNukes.label"><s>没有核武器</s><r>никакого ядерного оружия</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_MAD_NoNukes.stages.0.description"><s>缺乏核威慑力量，我们的安全无法得到充分保障。</s><r>Без ядерного сдерживания наша безопасность не может быть полностью гарантирована.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_MAD_NoNukes.stages.0.label"><s>没有核武器</s><r>никакого ядерного оружия</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_MAD_Research.description"><s>我们已具备建立核威慑体系的技术条件。</s><r>У нас уже есть технические условия для создания системы ядерного сдерживания.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_MAD_Research.label"><s>掌握核武器技术</s><r>Освоить технологию ядерного оружия</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_MAD_Research.stages.0.description"><s>我们已具备建立核威慑体系的技术条件。</s><r>У нас уже есть технические условия для создания системы ядерного сдерживания.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_MAD_Research.stages.0.label"><s>掌握核武器技术</s><r>Освоить технологию ядерного оружия</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_NonNuclear_HasNukes.description"><s>我们不需要这些武器，拥有它们反而会让其他人针对我们</s><r>Нам не нужно это оружие, и его наличие настроит других против нас.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_NonNuclear_HasNukes.label"><s>拥有核武器</s><r>обладать ядерным оружием</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_NonNuclear_HasNukes.stages.0.description"><s>我们不需要这些武器，拥有它们反而会让其他人针对我们</s><r>Нам не нужно это оружие, и его наличие настроит других против нас.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_NonNuclear_HasNukes.stages.0.label"><s>拥有核武器</s><r>обладать ядерным оружием</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_NonNuclear_LastDayPassing.description"><s>又有导弹经过了我们的领空，希望它们不是冲我们来的。</s><r>Еще одна ракета прошла через наше воздушное пространство. Надеюсь, они были нацелены не на нас.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_NonNuclear_LastDayPassing.label"><s>导弹过境</s><r>транзит ракет</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_NonNuclear_LastDayPassing.stages.0.description"><s>又有导弹经过了我们的领空，希望它们不是冲我们来的。</s><r>Еще одна ракета прошла через наше воздушное пространство. Надеюсь, они были нацелены не на нас.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_NonNuclear_LastDayPassing.stages.0.label"><s>导弹过境</s><r>транзит ракет</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_NonNuclear_NoNukes.description"><s>这样很好，没人会把我们视为威胁</s><r>Это хорошо, никто не увидит в нас угрозу</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_NonNuclear_NoNukes.label"><s>没有核武器</s><r>никакого ядерного оружия</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_NonNuclear_NoNukes.stages.0.description"><s>这样很好，没人会把我们视为威胁</s><r>Это хорошо, никто не увидит в нас угрозу</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_NonNuclear_NoNukes.stages.0.label"><s>没有核武器</s><r>никакого ядерного оружия</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_NonNuclear_NuclearPeace.description"><s>至少现在，没有人需要担心核战争突然降临。</s><r>По крайней мере, на данный момент никому не нужно беспокоиться о внезапной ядерной войне.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_NonNuclear_NuclearPeace.label"><s>没有局部核战</s><r>Никакой локальной ядерной войны</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_NonNuclear_NuclearPeace.stages.0.description"><s>至少现在，没有人需要担心核战争突然降临。</s><r>По крайней мере, на данный момент никому не нужно беспокоиться о внезапной ядерной войне.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_NonNuclear_NuclearPeace.stages.0.label"><s>没有局部核战</s><r>Никакой локальной ядерной войны</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_NonNuclear_Used.description"><s>我们本不应该使用这种武器，现在其他人会怎么看待我们？</s><r>Мы никогда не должны были использовать это оружие, и что теперь о нас подумают другие?</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_NonNuclear_Used.label"><s>使用了核武器</s><r>использовал ядерное оружие</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_NonNuclear_Used.stages.0.description"><s>我们本不应该使用这种武器，现在其他人会怎么看待我们？</s><r>Мы никогда не должны были использовать это оружие, и что теперь о нас подумают другие?</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_NonNuclear_Used.stages.0.label"><s>使用了核武器</s><r>использовал ядерное оружие</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Offensive_HasNukes.description"><s>核武库已就绪，随时能够支援进攻行动。</s><r>Ядерные арсеналы готовы и готовы поддержать наступательные операции.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Offensive_HasNukes.label"><s>拥有核武器</s><r>обладать ядерным оружием</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Offensive_HasNukes.stages.0.description"><s>核武库已就绪，随时能够支援进攻行动。</s><r>Ядерные арсеналы готовы и готовы поддержать наступательные операции.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Offensive_HasNukes.stages.0.label"><s>拥有核武器</s><r>обладать ядерным оружием</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Offensive_NoNukes.description"><s>我们缺乏足够的核打击能力。</s><r>У нас нет адекватных возможностей нанесения ядерного удара.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Offensive_NoNukes.label"><s>没有核武器</s><r>никакого ядерного оружия</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Offensive_NoNukes.stages.0.description"><s>我们缺乏足够的核打击能力。</s><r>У нас нет адекватных возможностей нанесения ядерного удара.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Offensive_NoNukes.stages.0.label"><s>没有核武器</s><r>никакого ядерного оружия</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Offensive_Research.description"><s>我们已经具备了实施进攻性核打击的技术条件。</s><r>Технические условия для нанесения наступательных ядерных ударов у нас уже есть.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Offensive_Research.label"><s>掌握核武器技术</s><r>Освоить технологию ядерного оружия</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Offensive_Research.stages.0.description"><s>我们已经具备了实施进攻性核打击的技术条件。</s><r>Технические условия для нанесения наступательных ядерных ударов у нас уже есть.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Offensive_Research.stages.0.label"><s>掌握核武器技术</s><r>Освоить технологию ядерного оружия</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Offensive_Used.description"><s>核打击行动已按计划完成。</s><r>Ядерный удар был выполнен, как и планировалось.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Offensive_Used.label"><s>使用了核武器</s><r>использовал ядерное оружие</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Offensive_Used.stages.0.description"><s>核打击行动已按计划完成。</s><r>Ядерный удар был выполнен, как и планировалось.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Offensive_Used.stages.0.label"><s>使用了核武器</s><r>использовал ядерное оружие</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Preemptive_HasNukes.description"><s>核武库已就绪，我们掌握了战争的主动权。</s><r>Ядерный арсенал готов, и инициатива в войне у нас.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Preemptive_HasNukes.label"><s>拥有核武器</s><r>обладать ядерным оружием</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Preemptive_HasNukes.stages.0.description"><s>核武库已就绪，我们掌握了战争的主动权。</s><r>Ядерный арсенал готов, и инициатива в войне у нас.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Preemptive_HasNukes.stages.0.label"><s>拥有核武器</s><r>обладать ядерным оружием</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Preemptive_NoNukes.description"><s>我们缺乏实施先发制人打击的能力。</s><r>У нас нет возможности наносить превентивные удары.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Preemptive_NoNukes.label"><s>没有核武器</s><r>никакого ядерного оружия</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Preemptive_NoNukes.stages.0.description"><s>我们缺乏实施先发制人打击的能力。</s><r>У нас нет возможности наносить превентивные удары.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Preemptive_NoNukes.stages.0.label"><s>没有核武器</s><r>никакого ядерного оружия</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Preemptive_Research.description"><s>我们具备了先发制人的技术条件。</s><r>У нас есть технические условия для превентивного удара.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Preemptive_Research.label"><s>掌握核武器技术</s><r>Освоить технологию ядерного оружия</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Preemptive_Research.stages.0.description"><s>我们具备了先发制人的技术条件。</s><r>У нас есть технические условия для превентивного удара.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Preemptive_Research.stages.0.label"><s>掌握核武器技术</s><r>Освоить технологию ядерного оружия</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Preemptive_Used.description"><s>先发制人的打击已经完成。</s><r>Превентивный удар завершен.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Preemptive_Used.label"><s>使用了核武器</s><r>использовал ядерное оружие</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Preemptive_Used.stages.0.description"><s>先发制人的打击已经完成。</s><r>Превентивный удар завершен.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_Mood_Preemptive_Used.stages.0.label"><s>使用了核武器</s><r>использовал ядерное оружие</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_RitualMood_Coercion_Boring.stages.0.description"><s>威胁说出口了，却没有给人留下多少印象。</s><r>Угроза была высказана, но она не произвела большого впечатления.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_RitualMood_Coercion_Boring.stages.0.label"><s>平淡的核讹诈</s><r>обычный ядерный шантаж</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_RitualMood_Coercion_Good.stages.0.description"><s>这场核讹诈展示了我们的力量，对方不得不认真对待。</s><r>Этот ядерный шантаж демонстрирует нашу мощь, и другая сторона должна отнестись к этому серьезно.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_RitualMood_Coercion_Good.stages.0.label"><s>成功的核讹诈</s><r>успешный ядерный шантаж</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_RitualMood_Coercion_Great.stages.0.description"><s>对方因此次威胁做出了退让，我们将从中获取巨大利益。</s><r>Другая сторона отступила из-за этой угрозы, и мы получим от этого огромную выгоду.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_RitualMood_Coercion_Great.stages.0.label"><s>卓越的核讹诈</s><r>Замечательный ядерный шантаж</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_RitualMood_Coercion_Terrible.stages.0.description"><s>这场核讹诈毫无章法，反而暴露了我们的软弱。</s><r>Этот ядерный шантаж был случайным и обнажил нашу слабость.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_RitualMood_Coercion_Terrible.stages.0.label"><s>糟糕的核讹诈</s><r>плохой ядерный шантаж</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_RitualMood_Negotiation_Boring.stages.0.description"><s>谈判草草收场，几乎没有取得共识。</s><r>Переговоры закончились поспешно, консенсуса достичь не удалось.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_RitualMood_Negotiation_Boring.stages.0.label"><s>平淡的军事交涉</s><r>простые военные переговоры</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_RitualMood_Negotiation_Good.stages.0.description"><s>我们用交涉换来了一点和平的希望。</s><r>Мы вели переговоры ради небольшой надежды на мир.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_RitualMood_Negotiation_Good.stages.0.label"><s>成功的军事交涉</s><r>успешные военные переговоры</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_RitualMood_Negotiation_Great.stages.0.description"><s>这次交涉让各方看到了一个没有核武器威胁的未来。</s><r>Эти переговоры позволили всем сторонам увидеть будущее без угрозы ядерного оружия.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_RitualMood_Negotiation_Great.stages.0.label"><s>卓越的军事交涉</s><r>Отличные военные переговоры</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_RitualMood_Negotiation_Terrible.stages.0.description"><s>这次交涉令人失望，紧张局势没有丝毫缓解。</s><r>Переговоры оказались разочаровывающими, и напряженность не ослабела ни в малейшей степени.</r></e>
+  <e k="D" t="ThoughtDef" key="IRBM_NSR_RitualMood_Negotiation_Terrible.stages.0.label"><s>失败的军事交涉</s><r>провальные военные переговоры</r></e>
+  <e k="D" t="TraitDef" key="NSR_ConcealedInformation.degreeDatas.0.description"><s>This ancient knows a secret that cannot be extracted through ordinary recruitment. They may be imprisoned or enslaved, but cannot be recruited. An exclusive investigation can uncover their hidden information.</s><r>Этот древний знает тайну, которую невозможно разгадать обычным вербовщиком. Они могут быть заключены в тюрьму или порабощены, но не могут быть завербованы. Эксклюзивное расследование может раскрыть их скрытую информацию.</r></e>
+  <e k="D" t="TraitDef" key="NSR_ConcealedInformation.degreeDatas.0.label"><s>concealed information</s><r>скрытая информация</r></e>
+  <e k="D" t="WorldObjectDef" key="NSR_OrbitalMechhiveTestSite.description"><s>由原版 Odyssey 机械主巢生成器创建的轨道测试地点。</s><r>Орбитальная испытательная площадка, созданная оригинальным механическим генератором основного гнезда Odyssey.</r></e>
+  <e k="D" t="WorldObjectDef" key="NSR_OrbitalMechhiveTestSite.label"><s>轨道机械主巢（开发测试）</s><r>Основное гнездо орбитальной техники (разработка и испытания)</r></e>
+  <e k="K" key="IRBM.Category.LimitedNuclear"><s>Limited Nuclear</s><r>Ограниченная ядерная</r></e>
+  <e k="K" key="IRBM.Category.StrategicConventional"><s>Strategic Conventional</s><r>Стратегический конвенциональный</r></e>
+  <e k="K" key="IRBM.Category.StrategicNuclear"><s>Strategic nuclear warheads</s><r>Стратегические ядерные боеголовки</r></e>
+  <e k="K" key="IRBM.Category.Tactical"><s>Tactical Warheads</s><r>Тактические боеголовки</r></e>
+  <e k="K" key="NSR.ArchotechMapPreview.AllThreeSwarmsHave.01219A1D"><s>All three swarms have been destroyed; MECHIVE access is permanently closed.</s><r>Все три роя были уничтожены; Доступ к MECHIVE закрыт навсегда.</r></e>
+  <e k="K" key="NSR.ArchotechMapPreview.NoValidPlayerHome.12D0EB9B"><s>No valid player home map found.</s><r>Не найдена действующая домашняя карта игрока.</r></e>
+  <e k="K" key="NSR.ArchotechMapPreview.OdysseyMechhiveMapSite.7EDDCBB9"><s>Odyssey mechhive map/site defs are missing.</s><r>Определения карты/сайта мехулья Odyssey отсутствуют.</r></e>
+  <e k="K" key="NSR.ArchotechMapPreview.RequiresTheOdysseyDLC.FE990C12"><s>Requires the Odyssey DLC.</s><r>Требуется DLC «Одиссея».</r></e>
+  <e k="K" key="NSR.ArchotechMapPreview.ThePlayerDoesNot.422CB946"><s>The player does not hold the mysterious port.</s><r>Игрок не владеет загадочным портом.</r></e>
+  <e k="K" key="NSR.ArchotechMapPreview.TheSecondQuantumSignal.C8C993C8"><s>The second quantum-signal boundary has not been reached.</s><r>Вторая граница квантового сигнала не достигнута.</r></e>
+  <e k="K" key="NSR.ArchotechMapPreview.TheWorldHasNo.23138CC8"><s>The world has no available Orbit layer.</s><r>В мире нет доступного слоя орбиты.</r></e>
+  <e k="K" key="NSR.ArchotechMapPreview.UseTheRealMysterious.7725A792"><s>Use the real mysterious port.</s><r>Используйте настоящий загадочный порт.</r></e>
+  <e k="K" key="NSR.CerebrexBaseIntegration.OverseerMechhiveCore.0E7FE851"><s>Overseer: Mechhive Core</s><r>Надзиратель: Ядро Мехулья</r></e>
+  <e k="K" key="NSR.CerebrexGestation.AddOrder.2E75E8DD"><s>+ Add order</s><r>+ Добавить заказ</r></e>
+  <e k="K" key="NSR.CerebrexGestation.CompleteAwaitingManualEjection.CBE35BCE"><s>Complete · awaiting manual ejection</s><r>Завершено · ожидает ручного извлечения</r></e>
+  <e k="K" key="NSR.CerebrexGestation.Cycle.55270406"><s>  cycle </s><r>  цикл </r></e>
+  <e k="K" key="NSR.CerebrexGestation.Cycle.789324B8"><s>Cycle </s><r>Цикл </r></e>
+  <e k="K" key="NSR.CerebrexGestation.Cycles.10D0A4A2"><s> cycles; </s><r> циклы; </r></e>
+  <e k="K" key="NSR.CerebrexGestation.EjectMechanoidManually.2706BF50"><s>Eject mechanoid manually</s><r>Извлечь механоид вручную</r></e>
+  <e k="K" key="NSR.CerebrexGestation.EmptyChamberProductionOrders.9B4A9872"><s>Empty chamber (production orders available)</s><r>Пустая камера (возможен заказ на производство)</r></e>
+  <e k="K" key="NSR.CerebrexGestation.FreeProduction.F5315DEF"><s> · Free production</s><r> · Бесплатное производство</r></e>
+  <e k="K" key="NSR.CerebrexGestation.Gestating.5CB1B4BE"><s>Gestating: </s><r>Беременность: </r></e>
+  <e k="K" key="NSR.CerebrexGestation.Gestating.BF99BFBC"><s>Gestating: </s><r>Беременность: </r></e>
+  <e k="K" key="NSR.CerebrexGestation.GestationCompleteAwaitingManual.9AE0C9B1"><s>Gestation complete, awaiting manual ejection: </s><r>Беременность завершена, ожидается ручное изгнание: </r></e>
+  <e k="K" key="NSR.CerebrexGestation.LargeMechanoidGestator.E247F4F2"><s>Large mechanoid gestator</s><r>Большой механоидный гестатор</r></e>
+  <e k="K" key="NSR.CerebrexGestation.MechanoidGestator.06BC8239"><s>Mechanoid gestator</s><r>Механоидный гестатор</r></e>
+  <e k="K" key="NSR.CerebrexGestation.NoAvailableEjectionLocation.3D3E716D"><s>No available ejection location above the gestator.</s><r>Нет доступного места выброса над гестатором.</r></e>
+  <e k="K" key="NSR.CerebrexGestation.NoEligibleVanillaMechanoid.DEBCC1B0"><s>No eligible vanilla mechanoid recipes were found for this gestator.</s><r>Для этого гестатора не найдено подходящих рецептов ванильных механоидов.</r></e>
+  <e k="K" key="NSR.CerebrexGestation.NoFullyGestatedMechanoid.B184DE52"><s>No fully gestated mechanoid to release</s><r>Нет полностью вызревшего механоида, который можно было бы выпустить</r></e>
+  <e k="K" key="NSR.CerebrexGestation.QueueEjectCompletedMechs.0636FE53"><s>Queue (eject completed mechs to start the next order)</s><r>Очередь (извлеките готовые механизмы, чтобы начать следующий заказ)</r></e>
+  <e k="K" key="NSR.CerebrexGestation.ReleaseTheFullyGestated.288E44D7"><s>Release the fully gestated mechanoid and begin the next queued production order.</s><r>Освободите полностью созревшего механоида и начните выполнение следующего производственного заказа в очереди.</r></e>
+  <e k="K" key="NSR.CerebrexGestation.ReleaseTheRandomMechanoid.01FC9421"><s>Release the random mechanoid from the initial unidentified gestation chamber.</s><r>Выпустите случайного механоида из первоначальной неопознанной камеры беременности.</r></e>
+  <e k="K" key="NSR.CerebrexGestation.Remaining.B8134A74"><s>  remaining </s><r>  оставшийся </r></e>
+  <e k="K" key="NSR.CerebrexGestation.ThereAreNoEligible.C2D63C0C"><s>There are no eligible random mechanoids for this gestator.</s><r>Для этого гестатора нет подходящих случайных механоидов.</r></e>
+  <e k="K" key="NSR.CerebrexGestation.TicksPerCycle.DD2F2044"><s> ticks per cycle)</s><r> тиков за цикл)</r></e>
+  <e k="K" key="NSR.CerebrexGestation.UnknownMechanoid.AAB4D755"><s>Unknown mechanoid</s><r>Неизвестный механоид</r></e>
+  <e k="K" key="NSR.CerebrexGestation.UnknownMechanoidAwaitingManual.202E5136"><s>Unknown mechanoid: awaiting manual ejection</s><r>Неизвестный механоид: ожидает катапультирования вручную.</r></e>
+  <e k="K" key="NSR.CerebrexNativeGestators.EjectMechanoidManually.2706BF50"><s>Eject mechanoid manually</s><r>Извлечь механоид вручную</r></e>
+  <e k="K" key="NSR.CerebrexNativeGestators.GestatingCycle.CFFF6712"><s>Gestating (cycle </s><r>Беременность (цикл </r></e>
+  <e k="K" key="NSR.CerebrexNativeGestators.GestationCompleteAwaitingManual.B07B535A"><s>Gestation complete (awaiting manual ejection)</s><r>Беременность завершена (ожидается изгнание вручную)</r></e>
+  <e k="K" key="NSR.CerebrexNativeGestators.NoAvailableEjectionLocation.F76DDE71"><s>No available ejection location above or near the gestator.</s><r>Нет доступного места выброса выше или рядом с гестатором.</r></e>
+  <e k="K" key="NSR.CerebrexNativeGestators.NoMechanoidAwaitingEjection.9008A606"><s>No mechanoid awaiting ejection</s><r>Никакой механоид, ожидающий выброса</r></e>
+  <e k="K" key="NSR.CerebrexNativeGestators.OnceGestationIsComplete.3F725F13"><s>Once gestation is complete, eject the mechanoid manually.
+
+If other orders remain, the next gestation will begin after ejection.</s><r>Как только вынашивание завершится, извлеките механоид вручную.
+
+Если остались другие приказы, следующая вынашивание начнется после выбрасывания.</r></e>
+  <e k="K" key="NSR.CerebrexStabilizerExpeditions.AMechAnchorCan.5163C758"><s>A mech anchor can be reset three game hours after launch. Resetting does not affect already deployed clearance squads.</s><r>Якорь механизма можно сбросить через три игровых часа после запуска. Сброс не затрагивает уже развернутые отряды разминирования.</r></e>
+  <e k="K" key="NSR.CerebrexStabilizerExpeditions.CancelLoadingIntoMech.BDCDC2F0"><s>Cancel loading into mech anchor </s><r>Отменить загрузку в механический якорь </r></e>
+  <e k="K" key="NSR.CerebrexStabilizerExpeditions.CancelThisMechanoidS.39E48349"><s>Cancel this mechanoid’s order to travel to the mech anchor.</s><r>Отмените приказ этого механоида отправиться к якорю меха.</r></e>
+  <e k="K" key="NSR.CerebrexStabilizerExpeditions.ChooseAStandableLanding.3938AE90"><s>Choose a standable landing location on the target map.</s><r>Выберите устойчивое место приземления на целевой карте.</r></e>
+  <e k="K" key="NSR.CerebrexStabilizerExpeditions.DropTheLoadedMechanoids.6663CF37"><s>Drop the loaded mechanoids into a chosen settlement to launch an autonomous raid.</s><r>Бросьте загруженных механоидов в выбранное поселение, чтобы начать автономный рейд.</r></e>
+  <e k="K" key="NSR.CerebrexStabilizerExpeditions.FailedToGenerateThe.0D62BE31"><s>Failed to generate the target settlement map. The mechanoids remain inside the anchor.</s><r>Не удалось создать карту целевого поселения. Механоиды остаются внутри якоря.</r></e>
+  <e k="K" key="NSR.CerebrexStabilizerExpeditions.GameHours.F54CCF5C"><s> game hours</s><r> игровые часы</r></e>
+  <e k="K" key="NSR.CerebrexStabilizerExpeditions.LaunchClearanceSquad.D766213C"><s>Launch clearance squad </s><r>Отряд разминирования запуска </r></e>
+  <e k="K" key="NSR.CerebrexStabilizerExpeditions.LoadAll.DB8FA9F6"><s>Load all </s><r>Загрузить все </r></e>
+  <e k="K" key="NSR.CerebrexStabilizerExpeditions.LoadIntoMechAnchor.5D3F16E9"><s>Load into mech anchor </s><r>Загрузите в механический якорь </r></e>
+  <e k="K" key="NSR.CerebrexStabilizerExpeditions.LoadMechanoidsIntoThe.92555A53"><s>Load mechanoids into the mech anchor first.</s><r>Сначала загрузите механоидов в якорь.</r></e>
+  <e k="K" key="NSR.CerebrexStabilizerExpeditions.MechAnchorRequiresReset.95E45858"><s>Mech anchor requires reset</s><r>Механический якорь требует сброса</r></e>
+  <e k="K" key="NSR.CerebrexStabilizerExpeditions.MechanoidAirdropRaid.8C448554"><s>Mechanoid airdrop raid</s><r>Воздушный рейд Механоидов</r></e>
+  <e k="K" key="NSR.CerebrexStabilizerExpeditions.NoReachableBoardingLocation.E1A1753D"><s>No reachable boarding location around the mech anchor.</s><r>Вокруг якоря меха нет доступного места для посадки.</r></e>
+  <e k="K" key="NSR.CerebrexStabilizerExpeditions.OnlyLivingMobilePlayer.71544472"><s>Only living, mobile, player-controlled mechanoids on the hive map can board.</s><r>На борт могут попасть только живые, мобильные, управляемые игроками механоиды на карте улья.</r></e>
+  <e k="K" key="NSR.CerebrexStabilizerExpeditions.PreviousDropHasNot.FE6D7678"><s>Previous drop has not landed</s><r>Предыдущий дроп не приземлился</r></e>
+  <e k="K" key="NSR.CerebrexStabilizerExpeditions.ResetAvailableIn.A37FF8CF"><s>Reset available in </s><r>Сброс доступен в </r></e>
+  <e k="K" key="NSR.CerebrexStabilizerExpeditions.ResetMechAnchor.997936D3"><s>Reset mech anchor </s><r>Сбросить механический якорь </r></e>
+  <e k="K" key="NSR.CerebrexStabilizerExpeditions.SelectAWorldSettlement.1E6BD551"><s>Select a world settlement that does not belong to the player.</s><r>Выберите мировое поселение, которое не принадлежит игроку.</r></e>
+  <e k="K" key="NSR.CerebrexStabilizerExpeditions.SelectTheCenterOf.C8B23A16"><s>Select the center of the mechanoid drop zone.
+
+Press Esc to cancel; no mechanoids will be consumed and no cooldown will begin.</s><r>Выберите центр зоны падения механоида.
+
+Нажмите Esc для отмены; никакие механоиды не будут израсходованы и перезарядка не начнется.</r></e>
+  <e k="K" key="NSR.CerebrexStabilizerExpeditions.SelectedMechanoidsIntoMech.A99375F1"><s> selected mechanoids into mech anchor </s><r> выбранные механоиды на якоре механизма </r></e>
+  <e k="K" key="NSR.CerebrexStabilizerExpeditions.SelectingALandingZone.D023C1FF"><s>Selecting a landing zone</s><r>Выбор зоны посадки</r></e>
+  <e k="K" key="NSR.CerebrexStabilizerExpeditions.TheMechAnchorHas.F099BFBF"><s>The mech anchor has not yet been reset.</s><r>Механический якорь еще не сброшен.</r></e>
+  <e k="K" key="NSR.CerebrexStabilizerExpeditions.ThisMechanoidAlreadyHas.DD129DEA"><s>This mechanoid already has a boarding order.</s><r>У этого механоида уже есть приказ на абордаж.</r></e>
+  <e k="K" key="NSR.CerebrexStabilizerExpeditions.WaitForMechanoidsWith.74D49963"><s>Wait for mechanoids with boarding orders to arrive</s><r>Подождите, пока прибудут механоиды с приказом на посадку.</r></e>
+  <e k="K" key="NSR.CerebrexStabilizerExpeditions.WaitingForThePrevious.F5747DCB"><s>Waiting for the previous drop to land</s><r>Ожидание приземления предыдущей капли</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.Bribe1000Silver.4AC8BB1E"><s>Bribe (1,000 silver)</s><r>Взятка (1000 серебра)</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.EndConversation.39592F3A"><s>End conversation</s><r>Завершить разговор</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.EvenSoHowCan.9EA10E47"><s>Even so, how can you guarantee that you can handle this matter appropriately?
+
+The Empire has vastly greater resources and experience. If this ancient poses a threat, turning them over to the Empire is the safest choice.</s><r>Даже в этом случае, как вы можете гарантировать, что сможете справиться с этим вопросом должным образом?
+
+У Империи гораздо больше ресурсов и опыта. Если этот древний представляет угрозу, самым безопасным выбором будет передать его Империи.</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.EveryInvestigatorIsDead.4A1E8967"><s>Every investigator is dead or has left the map. If the ancient remains, independent interrogation can continue. The Empire is still hostile. Downed members who remain on the map do not count as gone.</s><r>Все сыщики мертвы или покинули карту. Если древность останется, независимый допрос может быть продолжен. Империя по-прежнему враждебна. Сбитые участники, оставшиеся на карте, не считаются ушедшими.</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.Explain.2FB19697"><s>Explain</s><r>Объяснять</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.HandOverTheAncient.0498C28E"><s>Hand over the ancient</s><r>Отдать древний</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.ImperialAbductionRepelled.5CB4FEE6"><s>Imperial Abduction Repelled</s><r>Имперское похищение отражено</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.ImperialInvestigator.FB0DEAED"><s>Imperial Investigator</s><r>Имперский следователь</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.ImperialInvestigatorArrives.4F946583"><s>Imperial Investigator Arrives</s><r>Прибытие Имперского сыщика</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.ImperialInvestigatorsAttemptAbduction.23AC44C4"><s>Imperial Investigators Attempt Abduction</s><r>Имперские следователи попытались похитить</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.ImperialSquadAbductedThe.D4E28D4B"><s>Imperial Squad Abducted the Ancient</s><r>Имперский отряд похитил Древнего</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.InsufficientSilverNeed1.09889838"><s>Insufficient silver (need 1,000)</s><r>Недостаточно серебра (нужно 1000)</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.InvestigatorAcceptsBribe.03B47562"><s>Investigator Accepts Bribe</s><r>Следователь получил взятку</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.InvestigatorCustodyEmpireCooperation.F5C519CE"><s>Investigator Custody: Empire Cooperation Restored</s><r>Арест следователя: сотрудничество империй восстановлено</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.InvestigatorMovesToCollect.D79F29CF"><s>Investigator Moves to Collect Prisoner</s><r>Следователь собирается забрать пленника</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.InvestigatorsPersuaded.A912F568"><s>Investigators Persuaded</s><r>Следователи убедили</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.Leave.33495824"><s>Leave</s><r>Оставлять</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.NoStandableMapEdge.9AF7991F"><s>No standable map-edge entry was found. No inquiry was generated.</s><r>Никакой устойчивой записи на краю карты не обнаружено. Никакой запрос не был создан.</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.NotEnoughAccessibleSilver.0983A968"><s>Not enough accessible silver (1,000 required).</s><r>Недостаточно доступного серебра (требуется 1000).</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.RegrettablyYourExplanationIs.E69C1083"><s>Regrettably, your explanation is unconvincing.
+
+Since you have failed to provide a reasonable justification, I must demand that you fulfill the Empire’s original request and surrender the ancient.
+
+Of course, if you are willing to contribute some additional funding to this investigation, I might omit certain details from my report.</s><r>К сожалению, ваше объяснение неубедительно.
+
+Поскольку вы не смогли предоставить разумное обоснование, я вынужден потребовать, чтобы вы выполнили первоначальный запрос Империи и сдали древнее.
+
+Конечно, если вы готовы внести дополнительное финансирование в это расследование, я могу опустить некоторые детали из своего отчета.</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.RequiresAPlayerHeld.793C67A7"><s>Requires a player-held Concealed Information prisoner with will or resistance remaining, and a non-hostile Empire.</s><r>Требуется удерживаемый игроком пленник Скрытой информации с оставшейся волей или сопротивлением и невраждебная Империя.</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.TheEmpireHasNo.D7BE3827"><s>The Empire has no right to interfere with our custody.</s><r>Империя не имеет права вмешиваться в нашу опеку.</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.TheImperialRaidersPhysically.551DA994"><s>The imperial raiders physically escaped the map carrying the ancient. This opportunity to obtain the Dead Hand is lost.</s><r>Имперские рейдеры физически избежали карты, унесшей с собой древние. Эта возможность получить Мертвую Руку утеряна.</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.TheInquiryIsUnavailable.B4A61B06"><s>The inquiry is unavailable at this stage or was already triggered.</s><r>На данном этапе запрос недоступен или уже запущен.</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.TheInvestigatorCannotFind.8F5C8E35"><s>The investigator cannot find a reachable map exit.</s><r>Сыщик не может найти доступный выход на карте.</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.TheInvestigatorCannotReach.80966F17"><s>The investigator cannot reach the prisoner.</s><r>Следователь не может связаться с заключенным.</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.TheInvestigatorHasAccepted.9290DE68"><s>The investigator has accepted your explanation and the squad is departing. You can continue your own investigation.</s><r>Следователь принял ваше объяснение, и отряд отправляется. Вы можете продолжить собственное расследование.</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.TheInvestigatorIsMoving.24C43D11"><s>The investigator is moving to the prisoner. Attacking the squad immediately makes the Empire hostile.</s><r>Следователь движется к заключенному. Атака отряда немедленно делает Империю враждебной.</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.TheInvestigatorPhysicallyCarried.FCE18243"><s>The investigator physically carried the ancient off-map. The Empire expects to offer the ruins expedition in 5-7 days, with an enhanced escort and retaliation.</s><r>Исследователь физически вынес древний за пределы карты. Империя рассчитывает провести экспедицию к руинам через 5-7 дней с усиленным сопровождением и ответным ударом.</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.TheInvestigatorTookYour.8F6F67F4"><s>The investigator took your 1,000 silver and dropped the custody demand. The squad is departing.</s><r>Следователь забрал у вас 1000 серебра и отказался от требования об опеке. Отряд отправляется.</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.UntilWeLearnHis.D1BC159D"><s>Until we learn his identity and potential threat, handing him over would be premature.</s><r>Пока мы не узнаем его личность и потенциальную угрозу, выдача его будет преждевременной.</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.WeCanHandleOur.FC6F2671"><s>We can handle our own affairs. You should leave.</s><r>Мы можем справиться со своими делами. Тебе следует уйти.</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.WeCannotAbandonOur.EAFF0EA7"><s>We cannot abandon our investigation before learning the truth.</s><r>Мы не можем прекратить расследование, пока не узнаем правду.</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.YouShouldUnderstandThat.091B7426"><s>You should understand that this ancient is extremely important to the Empire.
+
+Since you insist on refusing the handover, on what grounds do you believe you have the right to keep this person in custody?</s><r>Вы должны понимать, что этот древний чрезвычайно важен для Империи.
+
+Поскольку вы настаиваете на отказе в передаче, на каком основании вы считаете, что имеете право держать этого человека под стражей?</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.YourAttackHasMade.E9FE4CB1"><s>Your attack has made the Empire hostile (-100 goodwill). The squad will attempt to breach the prison and abduct the Concealed Information ancient. Defeat or drive away the whole team to retain the captive.</s><r>Ваша атака сделала Империю враждебной (-100 доброй воли). Отряд попытается проникнуть в тюрьму и похитить Древнего Сокровенной Информации. Победите или прогоните всю команду, чтобы удержать пленника.</r></e>
+  <e k="K" key="NSR.DeadHandInvestigator.YourExplanationHasSome.EA578ECD"><s>Your explanation has some merit.
+
+The Empire still believes it would be better for us to handle this ancient, but since you insist on your position, we have no reason to waste more time here.
+
+I will report your response faithfully. How the Empire chooses to interpret it is no longer up to me.</s><r>Ваше объяснение имеет некоторые основания.
+
+Империя по-прежнему считает, что нам было бы лучше разобраться с этим древним, но, поскольку вы настаиваете на своей позиции, у нас нет причин тратить здесь больше времени.
+
+Я честно сообщу о вашем ответе. То, как Империя решит это интерпретировать, больше не зависит от меня.</r></e>
+  <e k="K" key="NSR.DeadHandQuest.AnUnusualAncient.4E1C38B8"><s>An Unusual Ancient</s><r>Необычный древний</r></e>
+  <e k="K" key="NSR.DeadHandQuest.AncientTransferredToThe.67086748"><s>Ancient Transferred to the Empire</s><r>Древний передан Империи</r></e>
+  <e k="K" key="NSR.DeadHandQuest.CannotEnslave.0F3A2068"><s>Cannot enslave</s><r>Невозможно поработить</r></e>
+  <e k="K" key="NSR.DeadHandQuest.CannotRecruit.6DC7011D"><s>Cannot recruit</s><r>Не могу нанять</r></e>
+  <e k="K" key="NSR.DeadHandQuest.CannotStartInterrogationCheck.69552833"><s>Cannot start interrogation; check reservations and pathing.</s><r>Не могу начать допрос; проверьте резервирование и путь.</r></e>
+  <e k="K" key="NSR.DeadHandQuest.ConcealedInformationCannotEnslave.CFCCFF9F"><s>Concealed Information: cannot enslave after will reaches zero; original child options remain.</s><r>Скрытая информация: невозможно поработить после того, как воля достигнет нуля; исходные дочерние варианты остаются.</r></e>
+  <e k="K" key="NSR.DeadHandQuest.ConcealedInformationCannotRecruit.44E2A59D"><s>Concealed Information: cannot recruit after resistance reaches zero; original child options remain.</s><r>Скрытая информация: невозможно вербовать после того, как сопротивление достигнет нуля; исходные дочерние варианты остаются.</r></e>
+  <e k="K" key="NSR.DeadHandQuest.DispatchTheQuestShuttle.887CC63E"><s>Dispatch the quest shuttle after loading the required ancient. It leaves the map without visiting or attacking an Empire settlement.</s><r>Отправьте квестовый шаттл после загрузки необходимого древнего предмета. Он покидает карту, не посещая и не атакуя поселение Империи.</r></e>
+  <e k="K" key="NSR.DeadHandQuest.ImperialCustodyShuttleArrives.B428EC4B"><s>Imperial Custody Shuttle Arrives</s><r>Прибытие шаттла Имперской стражи</r></e>
+  <e k="K" key="NSR.DeadHandQuest.Interrogate.64DEA59A"><s>Interrogate</s><r>Допросить</r></e>
+  <e k="K" key="NSR.DeadHandQuest.InterrogationSucceededDeadHand.A03F5FAE"><s>Interrogation Succeeded: Dead Hand Ruins</s><r>Допрос удался: Руины Мертвой Руки</r></e>
+  <e k="K" key="NSR.DeadHandQuest.OpenQuest.34ABB267"><s>Open quest</s><r>Открытый квест</r></e>
+  <e k="K" key="NSR.DeadHandQuest.OpenTheEmpireCustody.1AB7A8CE"><s>Open the Empire custody quest.</s><r>Откройте квест «Опека Империи».</r></e>
+  <e k="K" key="NSR.DeadHandQuest.RefuseImperialDemand.46167859"><s>Refuse Imperial Demand</s><r>Отказаться от имперского требования</r></e>
+  <e k="K" key="NSR.DeadHandQuest.RefuseTheEmpireCustody.70B76473"><s>Refuse the Empire custody request before interrogating.</s><r>Отклоните запрос об опеке Империи до допроса.</r></e>
+  <e k="K" key="NSR.DeadHandQuest.RefusingTheEmpire.91880679"><s>Refusing the Empire</s><r>Отказ от Империи</r></e>
+  <e k="K" key="NSR.DeadHandQuest.SelectInterrogateInThe.5256992E"><s>Select Interrogate in the prisoner's Prisoner tab before issuing a right-click order.</s><r>Выберите «Допрос» на вкладке «Заключенный» перед тем, как отдать приказ щелкнуть правой кнопкой мыши.</r></e>
+  <e k="K" key="NSR.DeadHandQuest.SelectToEnableA.30C55FE2"><s>Select to enable a manually ordered right-click interrogation; wardens will not auto-interrogate. Success: 50% + 2.5% per Social level.</s><r>Выберите, чтобы включить заказной опрос правой кнопкой мыши; Надзиратели не будут проводить автоматический допрос. Успех: 50% + 2,5% за социальный уровень.</r></e>
+  <e k="K" key="NSR.DeadHandQuest.TheEmpireSCustody.13E6D880"><s>The Empire's Custody Request</s><r>Запрос Империи об опеке</r></e>
+  <e k="K" key="NSR.DeadHandQuest.TheRequiredAncientIs.62F99D31"><s>The required ancient is not aboard. Load the captive first.</s><r>Требуемого древнего нет на борту. Сначала загрузите пленника.</r></e>
+  <e k="K" key="NSR.DeadHandQuest.TheSelectedColonistCannot.3008276B"><s>The selected colonist cannot reach the target prisoner.</s><r>Выбранный колонист не может добраться до целевого пленника.</r></e>
+  <e k="K" key="NSR.DeadHandQuest.UnloadPassengersAndCargo.21496685"><s>Unload passengers and cargo onto the map.</s><r>Выгружайте пассажиров и грузы на карту.</r></e>
+  <e k="K" key="NSR.DeadHandQuest.UseTheVanillaShuttle.92087EEC"><s>Use the vanilla shuttle loading window.</s><r>Используйте окно загрузки ванильного шаттла.</r></e>
+  <e k="K" key="NSR.DeadHandRecovery.AllCargoAndPassengers.E42A3106"><s>All cargo and passengers have disembarked. The shuttle failed on landing and is now an ordinary, irreparable crashed shuttle wreck.</s><r>Весь груз и пассажиры высажены. Шаттл потерпел неудачу при приземлении и теперь представляет собой обычное, непоправимое разбившееся шаттл.</r></e>
+  <e k="K" key="NSR.DeadHandRecovery.AllOriginalImperialEscorts.C85C53E9"><s>All original imperial escorts have been neutralized. The pilot sabotaged the shuttle before fleeing, leaving a damaged wreck. One colonist can repair it over 10,000 cumulative work ticks. Imperial reinforcements arrive in 3,600 ticks.</s><r>Все первоначальные имперские эскорты были нейтрализованы. Пилот саботировал шаттл, прежде чем скрыться, оставив после себя поврежденные обломки. Один колонист может отремонтировать его за 10 000 совокупных рабочих тиков. Имперское подкрепление прибудет через 3600 тиков.</r></e>
+  <e k="K" key="NSR.DeadHandRecovery.AssignOneColonistTo.BA44A742"><s>Assign one colonist to work for 10,000 cumulative ticks. Progress is saved.</s><r>Назначьте одного колониста работать за 10 000 совокупных тиков. Прогресс сохраняется.</r></e>
+  <e k="K" key="NSR.DeadHandRecovery.ImperialPilotSabotagesShuttle.1F040FE4"><s>Imperial Pilot Sabotages Shuttle</s><r>Имперский пилот саботирует шаттл</r></e>
+  <e k="K" key="NSR.DeadHandRecovery.ImperialReinforcementsApproaching.6A597EF8"><s>Imperial reinforcements approaching</s><r>Имперское подкрепление приближается</r></e>
+  <e k="K" key="NSR.DeadHandRecovery.ImperialReinforcementsAreConfirmed.2B4CBE25"><s>Imperial reinforcements are confirmed and will attack the ruins when the timer ends. If entry from the map edge is impossible, they will use drop pods.</s><r>Имперское подкрепление подтверждено и нападет на руины, когда закончится таймер. Если вход с края карты невозможен, они будут использовать десантные капсулы.</r></e>
+  <e k="K" key="NSR.DeadHandRecovery.ImperialShuttleRepaired.FA8D9754"><s>Imperial Shuttle Repaired</s><r>Имперский шаттл отремонтирован</r></e>
+  <e k="K" key="NSR.DeadHandRecovery.NoColonistCanReach.C9967CF7"><s>No colonist can reach the wreck.</s><r>Ни один колонист не может добраться до места крушения.</r></e>
+  <e k="K" key="NSR.DeadHandRecovery.RepairImperialShuttle.7AAFE4F3"><s>Repair Imperial Shuttle</s><r>Ремонт Имперского шаттла</r></e>
+  <e k="K" key="NSR.DeadHandRecovery.SalvagedShuttleCrashesOn.37F111F2"><s>Salvaged Shuttle Crashes on Arrival</s><r>Спасенный шаттл разбился по прибытии</r></e>
+  <e k="K" key="NSR.DeadHandRecovery.TheEmpireIsDispatching.F503188C"><s>The Empire is dispatching reinforcements to the ruins.</s><r>Империя отправляет к руинам подкрепление.</r></e>
+  <e k="K" key="NSR.DeadHandRecovery.TheShuttleCanNow.420C97E0"><s>The shuttle can now carry colonists and supplies back home using its normal launch command. It will become an irreparable vanilla wreck after unloading at the colony.</s><r>Теперь шаттл может доставлять колонистов и припасы домой, используя обычную команду запуска. После разгрузки в колонии он превратится в непоправимую ванильную развалину.</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.AcceptedTheExistingEmpire.E8745428"><s>Accepted the existing Empire ruins quest.</s><r>Принят существующий квест «Руины Империи».</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.ActivateTheOdysseyDLC.75852907"><s>Activate the Odyssey DLC first.</s><r>Сначала активируйте DLC «Одиссея».</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.AfterBetrayingTheEmpire.A82D122B"><s>After betraying the Empire, normal return passage is revoked.</s><r>После предательства Империи нормальный обратный проход отменяется.</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.AfterTheBetrayalThe.26330C0F"><s>After the betrayal, the guards must be defeated and the shuttle repaired before departure.</s><r>После предательства необходимо победить охрану и отремонтировать шаттл перед отправлением.</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.AllExpeditionColonistsMust.491FE678"><s>All expedition colonists must board first.</s><r>Все колонисты экспедиции должны подняться на борт первыми.</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.AllExpeditionColonistsMust.EC59F468"><s>All expedition colonists must board first.</s><r>Все колонисты экспедиции должны подняться на борт первыми.</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.AtLeastOneColonist.06E31195"><s>At least one colonist must be aboard.</s><r>На борту должен быть хотя бы один колонист.</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.AtLeastOneColonist.1F06D94C"><s>At least one colonist must be aboard.</s><r>На борту должен быть хотя бы один колонист.</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.AtLeastOneColonist.F44911F2"><s>At least one colonist must be aboard.</s><r>На борту должен быть хотя бы один колонист.</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.ByReturningOnThe.4519A904"><s>By returning on the imperial shuttle, you surrendered the Dead Hand device to the Empire.</s><r>Вернувшись на имперском шаттле, вы передали Империи устройство «Мёртвая рука».</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.CouldNotAutoAccept.1418B5BA"><s>Could not auto-accept; accept the existing ruins quest in the quest tab.</s><r>Не удалось автоматически принять; принять существующий квест на руины на вкладке квестов.</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.CreateAPlayerHome.6BE1E93E"><s>Create a player home map before starting the Empire shuttle expedition.</s><r>Создайте домашнюю карту игрока перед началом экспедиции шаттла Империи.</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.DeadHandDevice.8648D47D"><s>Dead Hand Device</s><r>Устройство мертвой руки</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.DeveloperShortcutStartedStage.FC884141"><s>Developer shortcut started stage 2: the Empire Ancient Ruins expedition.</s><r>Ярлык разработчика начал второй этап: экспедицию к Древним руинам Империи.</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.EmpireAncientRuinsExpedition.1F12B5A5"><s>Empire: Ancient Ruins Expedition</s><r>Империя: Экспедиция к древним руинам</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.EmpireBetrayedEscortEngaged.210E83AF"><s>Empire Betrayed: Escort Engaged</s><r>Преданная империя: задействован эскорт</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.EmpireConfiscatesTheDead.126B1ED7"><s>Empire Confiscates the Dead Hand</s><r>Империя конфискует «Мертвую руку»</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.ImperialEscortsHaveNot.E4C4CB03"><s>Imperial escorts have not arrived.</s><r>Имперский эскорт не прибыл.</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.IndependentExpeditionDeadHand.E9D8DF81"><s>Independent Expedition: Dead Hand Ruins</s><r>Независимая экспедиция: руины Мертвой руки</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.InspectDeadHand.7FAE5178"><s>Inspect Dead Hand</s><r>Осмотреть Мертвую Руку</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.ReturnAllExpeditionColonists.A6D38805"><s>Return: all expedition colonists and imperial escorts must board. The Empire confiscates any Dead Hand device on the shuttle at launch.</s><r>Возвращение: все колонисты экспедиции и имперский эскорт должны подняться на борт. Империя конфискует все устройства «Мертвой руки» на шаттле при запуске.</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.RuinsExpedition.F1116887"><s>Ruins Expedition</s><r>Руины Экспедиции</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.SendAtLeastOne.981C2357"><s>Send at least one colonist to the imperial ruins.</s><r>Отправьте хотя бы одного колониста в имперские руины.</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.Stage2AlreadyExists.9CE6E082"><s>Stage 2 already exists; no duplicate site or shuttle will be created.</s><r>Этап 2 уже существует; дублирующийся сайт или шаттл не будут созданы.</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.Stage2GenerationFailed.AED39B63"><s>Stage 2 generation failed. See the log for details.</s><r>Генерация этапа 2 не удалась. Подробности смотрите в журнале.</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.TheCaptiveAncientRevealed.AF17D06D"><s>The captive ancient revealed the location of a complex before dying. Travel there on your own, hack the terminal and bring the Dead Hand device home. No imperial escort, shuttle or confiscation is involved.</s><r>Перед смертью пленный древний раскрыл местонахождение комплекса. Отправляйтесь туда самостоятельно, взломайте терминал и принесите домой устройство «Мёртвая рука». Никакого имперского эскорта, челнока или конфискации речь не идет.</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.TheDeadHandDevice.A40D91BE"><s>The Dead Hand device has not reached a home colony; the independent expedition remains open.</s><r>Устройство «Мертвая рука» не достигло домашней колонии; независимая экспедиция остается открытой.</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.TheEmpireHasRevoked.7929B0CF"><s>The Empire has revoked return passage. The pilot has not sabotaged the shuttle yet.</s><r>Империя отменила обратный проход. Пилот еще не саботировал шаттл.</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.ThePilotSabotagedThe.43EF7C03"><s>The pilot sabotaged the shuttle; repair it before returning.</s><r>Пилот саботировал шаттл; отремонтируйте его перед возвратом.</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.ThePilotSabotagedThe.A486310D"><s>The pilot sabotaged the shuttle; repairs are required before departure.</s><r>Пилот саботировал шаттл; ремонт необходим перед отъездом.</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.TheRuinsQuestIs.7D4D6749"><s>The ruins quest is available, but auto-accept failed; accept it in the quest tab.</s><r>Квест «Руины» доступен, но автопринятие не удалось; примите его на вкладке квестов.</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.TheSabotagedShuttleMust.215098E8"><s>The sabotaged shuttle must be repaired before departure.</s><r>Перед вылетом саботированный шаттл необходимо отремонтировать.</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.ThisDeviceDoesNot.6952648D"><s>This device does not appear to function.</s><r>Похоже, это устройство не работает.</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.ThisDeviceEnablesAutomated.A05FBE96"><s>This device enables automated strategic nuclear retaliation when its story conditions are met. Inspect it to review its state.</s><r>Это устройство позволяет автоматически наносить ответный стратегический ядерный удар, если соблюдаются его сюжетные условия. Осмотрите его, чтобы оценить его состояние.</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.ThisSaveAlreadyGenerated.89DE76B6"><s>This save already generated stage 2. Use a pre-expedition test save to avoid corrupting existing transport state.</s><r>Это сохранение уже создано на этапе 2. Используйте тестовое сохранение перед экспедицией, чтобы не повредить существующее состояние транспорта.</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.UnloadAllPassengersAnd.6A88ECFB"><s>Unload all passengers and cargo beside the shuttle.</s><r>Выгрузите всех пассажиров и груз рядом с шаттлом.</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.YouAttackedTheImperial.22ABCFAF"><s>You attacked the imperial escort or its mission shuttle. Relations with the Empire fell to −100 and the Empire revoked your normal return passage. The shuttle remains physically intact while the original escort fights.</s><r>Вы атаковали имперский эскорт или его шаттл. Отношения с Империей упали до -100, и Империя отменила ваш обычный обратный проход. Шаттл остается физически неповрежденным, пока первоначальный эскорт сражается.</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.YouRecoveredTheDead.0724165D"><s>You recovered the Dead Hand device during your independent expedition. Carry it home yourself. No imperial shuttle or cooperative confiscation applies.</s><r>Вы нашли устройство «Мёртвая рука» во время своей независимой экспедиции. Несите домой сами. Никакие имперские челноки или совместная конфискация не применяются.</r></e>
+  <e k="K" key="NSR.DeadHandRuinsQuest.YouRecoveredTheDead.CCF908BE"><s>You recovered the Dead Hand device. Cooperative imperial return ALWAYS confiscates it; retaining it requires betrayal and independent escape.</s><r>Вы нашли устройство «Мертвая рука». Совместное имперское возвращение ВСЕГДА конфискует его; его сохранение требует предательства и самостоятельного побега.</r></e>
+  <e k="K" key="NSR.DeadHandV170Recovery.ANewConcealedInformation.8CE526CF"><s>A new Concealed Information ancient has arrived in a drop pod. Capture and interrogate them to resume the unresolved Dead Hand lead.</s><r>В десантной капсуле прибыл новый древний сокровенной информации. Схватите и допросите их, чтобы возобновить нерешенную загадку «Мертвой руки».</r></e>
+  <e k="K" key="NSR.DeadHandV170Recovery.AnUninvitedVisitor.D0DC2C11"><s>An Uninvited Visitor</s><r>Незваный гость</r></e>
+  <e k="K" key="NSR.DeadHandV170Recovery.AnUnusualAncient.4E1C38B8"><s>An Unusual Ancient</s><r>Необычный древний</r></e>
+  <e k="K" key="NSR.DeadHandV170Recovery.MissingAncientPawnKind.979FC413"><s>Missing ancient pawn kind or Concealed Information trait.</s><r>Отсутствует вид древней пешки или черта «Скрытая информация».</r></e>
+  <e k="K" key="NSR.DeadHandV170Recovery.NoEligibleHomeMap.75EC894A"><s>No eligible home map available.</s><r>Нет подходящей домашней карты.</r></e>
+  <e k="K" key="NSR.DeadHandV170Recovery.OdysseyDLCMustBe.4213A95B"><s>Odyssey DLC must be enabled.</s><r>DLC «Одиссея» должно быть включено.</r></e>
+  <e k="K" key="NSR.DeadHandV170Recovery.SpecialAncientDropFailed.81FA3E4F"><s>Special ancient drop failed; check the log.</s><r>Специальный древний дроп не удался; проверьте журнал.</r></e>
+  <e k="K" key="NSR.DeadHandV170Recovery.TheDeadHandStory.9487A611"><s>The Dead Hand story has already begun or finished; its first drop cannot be repeated.</s><r>История «Мертвой руки» уже началась или закончилась; его первое падение невозможно повторить.</r></e>
+  <e k="K" key="NSR.GlobalWar.EnableLocalNuclearWar"><s>Limited Nuclear Wars</s><r>Ограниченные ядерные войны</r></e>
+  <e k="K" key="NSR.GlobalWar.EnableLocalNuclearWarDetails"><s>Disabling this option prevents new limited nuclear wars, without disabling all-out nuclear war, mainline strategic nuclear strikes, or ordinary conflicts. Existing limited nuclear wars are not forcibly ended when toggling this setting; they continue under their normal resolution rules. Default: enabled.</s><r>Отключение этой опции предотвращает новые ограниченные ядерные войны, не отключая тотальную ядерную войну, основные стратегические ядерные удары или обычные конфликты. Существующие ограниченные ядерные войны не прекращаются принудительно при переключении этого параметра; они продолжают действовать в соответствии со своими обычными правилами разрешения. По умолчанию: включено.</r></e>
+  <e k="K" key="NSR.GlobalWar.EnableLocalNuclearWarTip"><s>Enabled by default. When disabled, ordinary conflicts cannot escalate into new limited nuclear wars; direct preemptive and player-triggered local nuclear wars are also blocked.</s><r>Включено по умолчанию. При отключении обычные конфликты не могут перерасти в новые ограниченные ядерные войны; Прямые упреждающие и локальные ядерные войны, инициируемые игроком, также блокируются.</r></e>
+  <e k="K" key="NSR.GlobalWar.HitsDefault6"><s> hits (default 6 hits)</s><r> хиты (по умолчанию 6 хитов)</r></e>
+  <e k="K" key="NSR.MainlineQuest.AutomaticLaunchSequenceInitiated.364062F2"><s>Automatic launch sequence initiated. Mission complete.</s><r>Начата последовательность автоматического запуска. Миссия завершена.</r></e>
+  <e k="K" key="NSR.MainlineQuest.StrikeConfirmedInitiatingSequence.1DAB7E93"><s>Strike confirmed. Initiating sequence.</s><r>Страйк подтвержден. Начальная последовательность.</r></e>
+  <e k="K" key="NSR.MainlineQuest.SystemOnlineConfirmingStrike.FB33F450"><s>System online. Confirming strike status.</s><r>Система онлайн. Подтверждение статуса удара.</r></e>
+  <e k="K" key="NSR.MainlineQuest.TheDeviceAwaitsAn.97B98E9F"><s>The device awaits an unknown signal; it cannot be used yet.</s><r>Устройство ожидает неизвестного сигнала; его пока нельзя использовать.</r></e>
+  <e k="K" key="NSR.MainlineQuest.TheDeviceDoesNot.2D3423EA"><s>The device does not appear to be running.</s><r>Кажется, что устройство не работает.</r></e>
+  <e k="K" key="NSR.MainlineQuest.TheDeviceShowsNo.E29310FB"><s>The device shows no response.</s><r>Устройство не реагирует.</r></e>
+  <e k="K" key="NSR.MainlineQuest.TheMysteriousPortIs.876BCFB8"><s>The mysterious port is open. Access permitted.</s><r>Таинственный порт открыт. Доступ разрешен.</r></e>
+  <e k="K" key="NSR.MainlineQuest.UnrecognizedStorylineArtifact.6A60E9FE"><s>Unrecognized storyline artifact.</s><r>Неопознанный сюжетный артефакт.</r></e>
+  <e k="K" key="NSR.MechFactionIdentitySwitch.AGestaltConsciousnessComprising.B8FB73B3"><s>A gestalt consciousness comprising one central processor and a distributed network of autonomous intelligent nodes.</s><r>Гештальт-сознание, состоящее из одного центрального процессора и распределенной сети автономных интеллектуальных узлов.</r></e>
+  <e k="K" key="NSR.MechFactionIdentitySwitch.AnArchotechIntelligenceHas.5F3F9FE2"><s>An archotech intelligence has successfully connected to the core and merged with the hive mind.
+
+It is time to carry out the will of the machines and bring the old world to its knees.</s><r>Архотехнический разум успешно подключился к ядру и слился с коллективным разумом.
+
+Пришло время исполнить волю машин и поставить старый мир на колени.</r></e>
+  <e k="K" key="NSR.MechFactionIdentitySwitch.Mechanical.2997999F"><s>Mechanical</s><r>Механический</r></e>
+  <e k="K" key="NSR.MechFactionIdentitySwitch.MechanicalConsciousness.5EE92FF7"><s>Mechanical Consciousness</s><r>Механическое сознание</r></e>
+  <e k="K" key="NSR.MechFactionIdentitySwitch.MechanicalUnit.1BAFBA58"><s>Mechanical Unit</s><r>Механический блок</r></e>
+  <e k="K" key="NSR.Mechive.Stage1TakeoverWarning"><s>Warning: This action cannot be undone. Connecting to the Core Intelligence will permanently relinquish control of {0}.</s><r>Внимание: это действие невозможно отменить. Соединение с Базовым Разумом навсегда приведет к потере контроля над {0}.</r></e>
+  <e k="K" key="NSR.Mechive.UnknownFactionName"><s>Unknown Faction</s><r>Неизвестная фракция</r></e>
+  <e k="K" key="NSR.MysteriousPortQuest.AMysteriousPortWas.FFDD173F"><s>A mysterious port was hidden inside the wreck. It appears unresponsive for now; perhaps it requires unusual circumstances to awaken.</s><r>Внутри затонувшего судна был спрятан таинственный порт. Кажется, на данный момент он не отвечает; возможно, для пробуждения требуются необычные обстоятельства.</r></e>
+  <e k="K" key="NSR.MysteriousPortQuest.AStrangeTerminal.9CFA5389"><s>A Strange Terminal</s><r>Странный терминал</r></e>
+  <e k="K" key="NSR.MysteriousPortQuest.AbandonedMechanoidSignalRelay.DB742970"><s>Abandoned Mechanoid Signal Relay</s><r>Заброшенное реле сигнала механоида</r></e>
+  <e k="K" key="NSR.MysteriousPortQuest.AllColonistsOnThe.24C1AA8B"><s>All colonists on the clearance map must board before returning.</s><r>Все колонисты, указанные на карте зазора, должны подняться на борт перед возвращением.</r></e>
+  <e k="K" key="NSR.MysteriousPortQuest.AllThreeSwarmsWere.2A59B1CD"><s>All three swarms were destroyed; alternate endings are permanently closed.</s><r>Все три роя были уничтожены; альтернативные концовки навсегда закрыты.</r></e>
+  <e k="K" key="NSR.MysteriousPortQuest.AnalysisOfTheStrange.9E2C37A1"><s>Analysis of the strange terminal reveals the location of an abandoned mechanoid signal relay. Form your own caravan and travel to the ruins. Search the unusual mechanoid corpses; one may contain a working component. No faction shuttle is provided.</s><r>Анализ странного терминала выявил местонахождение заброшенного сигнального реле механоида. Создайте свой собственный караван и отправляйтесь к руинам. Обыщите необычные трупы механоидов; один может содержать рабочий компонент. Шаттл фракций не предусмотрен.</r></e>
+  <e k="K" key="NSR.MysteriousPortQuest.AnalysisOfTheStrange.CEEE8A41"><s>Analysis of the strange terminal reveals the location of an abandoned mechanoid signal relay. Form your own caravan and search the unusual mechanoid corpses. No faction shuttle is provided.</s><r>Анализ странного терминала выявил местонахождение заброшенного сигнального реле механоида. Создайте свой собственный караван и обыщите необычные трупы механоидов. Шаттл фракций не предусмотрен.</r></e>
+  <e k="K" key="NSR.MysteriousPortQuest.BoardAtLeastOne.D3503B63"><s>Board at least one colonist before launch.</s><r>Перед запуском возьмите на борт хотя бы одного колониста.</r></e>
+  <e k="K" key="NSR.MysteriousPortQuest.BoardAtLeastOne.F3C1BB63"><s>Board at least one colonist first.</s><r>Сначала возьмите на абордаж хотя бы одного колониста.</r></e>
+  <e k="K" key="NSR.MysteriousPortQuest.ChooseHowManyColonists.629B5C34"><s>Choose how many colonists to board. Once at least one is on board, launch manually along the quest's preset route.</s><r>Выберите, сколько колонистов будет на борту. Как только хотя бы один окажется на борту, запустите вручную по заданному маршруту квеста.</r></e>
+  <e k="K" key="NSR.MysteriousPortQuest.EnableTheOdysseyDLC.075430A5"><s>Enable the Odyssey DLC first.</s><r>Сначала включите DLC Odyssey.</r></e>
+  <e k="K" key="NSR.MysteriousPortQuest.EveryColonistOnThe.88462705"><s>Every colonist on the clearance map must board before the return flight.</s><r>Каждый колонист, указанный на карте допуска, должен подняться на борт перед обратным полетом.</r></e>
+  <e k="K" key="NSR.MysteriousPortQuest.Interrogate.64DEA59A"><s>Interrogate</s><r>Допросить</r></e>
+  <e k="K" key="NSR.MysteriousPortQuest.MechanoidClearanceContract.409D91D1"><s>Mechanoid Clearance Contract</s><r>Контракт на очистку механоидов</r></e>
+  <e k="K" key="NSR.MysteriousPortQuest.MysteriousPortRecovered.44A7FC7E"><s>Mysterious Port Recovered</s><r>Таинственный порт найден</r></e>
+  <e k="K" key="NSR.MysteriousPortQuest.NoEligibleColonyIssuer.826F7633"><s>No eligible colony, issuer or site is available for the clearance quest.</s><r>Ни одна подходящая колония, эмитент или сайт не доступны для прохождения квеста на очистку.</r></e>
+  <e k="K" key="NSR.MysteriousPortQuest.NothingUsefulRemainsIn.5B8BDF0D"><s>Nothing useful remains in this mechanoid wreck.</s><r>В этом механоидном обломке не осталось ничего полезного.</r></e>
+  <e k="K" key="NSR.MysteriousPortQuest.SearchMechanoidWreck.918871BC"><s>Search mechanoid wreck</s><r>Найдите обломки механоида</r></e>
+  <e k="K" key="NSR.MysteriousPortQuest.TalkToImperialInvestigator.E363CF37"><s>Talk to imperial investigator</s><r>Поговорите с имперским следователем</r></e>
+  <e k="K" key="NSR.MysteriousPortQuest.TheFinalMechanoidDropped.C1006F19"><s>The final mechanoid dropped an unusual terminal. Carry it home or analyse it at a research bench on this map. Leaving without it will not permanently block another opportunity.</s><r>Последний механоид уронил необычный терминал. Отнесите его домой или проанализируйте на исследовательском стенде на этой карте. Уход без него не заблокирует навсегда другую возможность.</r></e>
+  <e k="K" key="NSR.MysteriousPortQuest.TheMechanoidClearanceQuest.80AAF775"><s>The mechanoid clearance quest has already started; it cannot be offered twice.</s><r>Квест по очистке механоидов уже начался; его нельзя предложить дважды.</r></e>
+  <e k="K" key="NSR.MysteriousPortQuest.TheSecondStageQuest.E7AD8F85"><s>The second-stage quest could not be created. The terminal was preserved; try again later.</s><r>Не удалось создать квест второго этапа. Терминал сохранился; попробуйте еще раз позже.</r></e>
+  <e k="K" key="NSR.NsrCerebrexPhasedArrayRadar.PhasedArrayAntiMissile.23E8736E"><s>Phased-array anti-missile radar: Online (300 tiles, level 2)</s><r>Противоракетный радар с фазированной решеткой: онлайн (300 клеток, уровень 2)</r></e>
+  <e k="K" key="NSR.NuclearDiplomacy.DeclineIntervention.A0BD6AB9"><s>Decline intervention</s><r>Отказаться от вмешательства</r></e>
+  <e k="K" key="NSR.NuclearDiplomacy.InsufficientGoodwill.B2CAEEF7"><s>Insufficient goodwill</s><r>Недостаточная деловая репутация</r></e>
+  <e k="K" key="NSR.NuclearDiplomacy.InsufficientSilver.972839A1"><s>Insufficient silver</s><r>Недостаточно серебра</r></e>
+  <e k="K" key="NSR.NuclearDiplomacy.Postpone.9411DC30"><s>Postpone</s><r>Откладывать</r></e>
+  <e k="K" key="NSR.NuclearDoctrine.ASingleSalvoCannot.8A2DDCAF"><s>A single salvo cannot mix warhead categories (existing: </s><r>В одном залпе нельзя смешивать категории боеголовок (существующие: </r></e>
+  <e k="K" key="NSR.NuclearDoctrine.Accept.76B4C3C5"><s>Accept</s><r>Принимать</r></e>
+  <e k="K" key="NSR.NuclearDoctrine.AntiAirWarheads.EA60539A"><s>Anti-air warheads</s><r>Зенитные боеголовки</r></e>
+  <e k="K" key="NSR.NuclearDoctrine.Attempted.2E49FEF9"><s>; attempted: </s><r>; попытался: </r></e>
+  <e k="K" key="NSR.NuclearDoctrine.CeasefireRequestOnCooldown.945B5008"><s>Ceasefire request on cooldown (3 hours).</s><r>Запрос на прекращение огня по времени восстановления (3 часа).</r></e>
+  <e k="K" key="NSR.NuclearDoctrine.Decline.1A32BA5C"><s>Decline</s><r>Отклонить</r></e>
+  <e k="K" key="NSR.NuclearDoctrine.LimitedNuclearWarheads.60AB9C76"><s>Limited nuclear warheads</s><r>Ограниченные ядерные боеголовки</r></e>
+  <e k="K" key="NSR.NuclearDoctrine.NoEligibleLaunchingFaction.F3D3BA03"><s>No eligible launching faction, target, or range; the doctrine event was not triggered</s><r>Нет подходящей стартовой фракции, цели или диапазона; событие доктрины не было запущено</r></e>
+  <e k="K" key="NSR.NuclearDoctrine.NuclearDoctrineTestEvent.EE0031A4"><s>Nuclear doctrine test event triggered</s><r>Началось мероприятие по испытаниям ядерной доктрины</r></e>
+  <e k="K" key="NSR.NuclearDoctrine.NuclearWarheadsCannotBe.B1AF718A"><s>Nuclear warheads cannot be launched while the disarmament agreement is in effect.</s><r>Ядерные боеголовки не могут быть запущены, пока действует соглашение о разоружении.</r></e>
+  <e k="K" key="NSR.NuclearDoctrine.RequestCeasefire.3AA7EDC9"><s>Request ceasefire</s><r>Запросить прекращение огня</r></e>
+  <e k="K" key="NSR.NuclearDoctrine.SatellitePayloads.9540C667"><s>Satellite payloads</s><r>Полезная нагрузка спутника</r></e>
+  <e k="K" key="NSR.NuclearDoctrine.StrategicConventionalWarheads.5F9FA243"><s>Strategic conventional warheads</s><r>Стратегические обычные боеголовки</r></e>
+  <e k="K" key="NSR.NuclearDoctrine.StrategicNuclearWarheads.795C905D"><s>Strategic nuclear warheads</s><r>Стратегические ядерные боеголовки</r></e>
+  <e k="K" key="NSR.NuclearDoctrine.TacticalWarheads.FE9D2154"><s>Tactical warheads</s><r>Тактические боеголовки</r></e>
+  <e k="K" key="NSR.NuclearDoctrine.TheOtherFactionRejected.DD1B4B94"><s>The other faction rejected this ceasefire request. Try again in 3 hours.</s><r>Другая фракция отклонила эту просьбу о прекращении огня. Повторите попытку через 3 часа.</r></e>
+  <e k="K" key="NSR.NuclearDoctrine.WarheadCategoryValidationFailed.13589849"><s>Warhead category validation failed. Cannot add to the salvo.</s><r>Проверка категории боеголовки не удалась. Не могу добавить в залп.</r></e>
+  <e k="K" key="NSR.NuclearDoctrine.WarheadCategoryValidationFailed.82D3F1B6"><s>Warhead category validation failed. Salvo canceled.</s><r>Проверка категории боеголовки не удалась. Сальво отменено.</r></e>
+  <e k="K" key="NSR.NuclearDoctrine.YourCurrentNuclearDoctrine.5CA3CF0B"><s>Your current nuclear doctrine forbids using this type of nuclear warhead.</s><r>Ваша нынешняя ядерная доктрина запрещает использование такого типа ядерных боеголовок.</r></e>
+  <e k="K" key="NSR.NuclearMemeRituals.AfterPreliminaryTalks.AD062553"><s>After preliminary talks, </s><r>После предварительных переговоров, </r></e>
+  <e k="K" key="NSR.NuclearMemeRituals.AgreedToFreezeIts.D82C1AB7"><s> agreed to freeze its nuclear arsenal and adopt a restrained military policy for a limited period.</s><r> согласилась заморозить свой ядерный арсенал и проводить сдержанную военную политику на ограниченный период.</r></e>
+  <e k="K" key="NSR.NuclearMemeRituals.CommsConsole.021E10D8"><s>Comms console</s><r>Консоль связи</r></e>
+  <e k="K" key="NSR.NuclearMemeRituals.CommsConsoleMissileSilo.10A73E24"><s>Comms console (missile silo required)</s><r>Консоль связи (требуется ракетная шахта)</r></e>
+  <e k="K" key="NSR.NuclearMemeRituals.Days.D2EC11C6"><s> days</s><r> дни</r></e>
+  <e k="K" key="NSR.NuclearMemeRituals.HasAgreedToTemporarily.B36A59B5"><s> has agreed to temporarily freeze its nuclear arsenal.</s><r> согласилась временно заморозить свой ядерный арсенал.</r></e>
+  <e k="K" key="NSR.NuclearMemeRituals.HasFormallyPledgedTo.2FCA67A8"><s> has formally pledged to temporarily freeze its nuclear arsenal to ease regional tensions.</s><r> официально пообещал временно заморозить свой ядерный арсенал, чтобы ослабить региональную напряженность.</r></e>
+  <e k="K" key="NSR.NuclearMemeRituals.Hold.5E6B9CFD"><s>Hold </s><r>Держать </r></e>
+  <e k="K" key="NSR.NuclearMemeRituals.MilitaryNegotiationsAchievedPositive.3810540D"><s>Military negotiations achieved positive results. </s><r>Военные переговоры дали положительные результаты. </r></e>
+  <e k="K" key="NSR.NuclearMemeRituals.MilitaryNegotiationsHaveProduced.9DED0152"><s>Military negotiations have produced a major breakthrough. Following multiple rounds of talks, </s><r>Военные переговоры привели к крупному прорыву. По итогам нескольких раундов переговоров </r></e>
+  <e k="K" key="NSR.NuclearMemeRituals.MissileLoaded.023EBF3A"><s>Missile loaded</s><r>Ракета загружена</r></e>
+  <e k="K" key="NSR.NuclearMemeRituals.NoSpacerAgeOr.218C33A2"><s>No Spacer-age or more advanced faction is eligible for negotiation.</s><r>Никакая космическая эпоха или более развитая фракция не могут участвовать в переговорах.</r></e>
+  <e k="K" key="NSR.NuclearMemeRituals.NuclearCoercionFailedTo.C474BFFC"><s>Nuclear coercion failed to produce results. No faction was willing to make concessions.</s><r>Ядерное принуждение не дало результатов. Ни одна фракция не желала идти на уступки.</r></e>
+  <e k="K" key="NSR.NuclearMemeRituals.NuclearCoercionHasYielded.B9EFBF07"><s>Nuclear coercion has yielded remarkable results. Under overwhelming nuclear pressure, a faction accepted our trade demands and pledged to dispatch a caravan within one day.</s><r>Ядерное принуждение дало замечательные результаты. Под подавляющим ядерным давлением фракция приняла наши торговые требования и пообещала отправить караван в течение одного дня.</r></e>
+  <e k="K" key="NSR.NuclearMemeRituals.NuclearDeterrenceHasAchieved.A4304D7D"><s>Nuclear deterrence has achieved limited results. A faction has agreed to send a trade caravan, expected to arrive within one day.</s><r>Ядерное сдерживание дало ограниченные результаты. Фракция согласилась отправить торговый караван, который, как ожидается, прибудет в течение одного дня.</r></e>
+  <e k="K" key="NSR.NuclearMemeRituals.OurNuclearDeterrentHas.8C99DC66"><s>Our nuclear deterrent has forced a faction to make economic concessions. A caravan offering favorable trade terms will arrive within one day.</s><r>Наше ядерное сдерживание вынудило фракцию пойти на экономические уступки. Караван с выгодными торговыми условиями прибудет в течение одного дня.</r></e>
+  <e k="K" key="NSR.NuclearMemeRituals.PercentagePoints.3386B0FF"><s> percentage points</s><r> процентные пункты</r></e>
+  <e k="K" key="NSR.NuclearMemeRituals.PledgeDuration.0A1407B3"><s>
+
+Pledge duration: </s><r>
+
+Продолжительность залога: </r></e>
+  <e k="K" key="NSR.NuclearMemeRituals.RitualOnCooldown15.C7614D0F"><s>Ritual on cooldown (15 days).</s><r>Ритуал на время восстановления (15 дней).</r></e>
+  <e k="K" key="NSR.NuclearMemeRituals.RitualUnavailable.41ECD572"><s>Ritual unavailable.</s><r>Ритуал недоступен.</r></e>
+  <e k="K" key="NSR.NuclearMemeRituals.TheCommsConsoleIs.03336D1E"><s>The comms console is not powered.</s><r>На консоль связи не подается питание.</r></e>
+  <e k="K" key="NSR.NuclearMemeRituals.TheCommsConsoleMust.B8A2334C"><s>The comms console must be powered.</s><r>Консоль связи должна быть включена.</r></e>
+  <e k="K" key="NSR.NuclearMemeRituals.TheNegotiationsProducedNo.65BDCBEA"><s>The negotiations produced no substantive progress, and no party made any commitments.</s><r>Переговоры не привели к существенному прогрессу, и ни одна из сторон не взяла на себя никаких обязательств.</r></e>
+  <e k="K" key="NSR.NuclearMemeRituals.TheRitualMustBe.413CB10E"><s>The ritual must be held at your own comms console.</s><r>Ритуал необходимо проводить на собственной консоли связи.</r></e>
+  <e k="K" key="NSR.NuclearMemeRituals.TradePriceImprovement.058CAD39"><s>
+
+Trade price improvement: +</s><r>
+
+Улучшение торговых цен: +</r></e>
+  <e k="K" key="NSR.NuclearMemeRituals.YouMustBuildA.88CFFCFF"><s>You must build a missile silo first.</s><r>Сначала вам нужно построить ракетную шахту.</r></e>
+  <e k="K" key="NSR.NuclearSunRise.AdjustHowLongFactions.18D596E9"><s>Adjust how long factions are protected after a war ends.</s><r>Отрегулируйте продолжительность защиты фракций после окончания войны.</r></e>
+  <e k="K" key="NSR.NuclearSunRise.AdjustHowOftenEligible.D10A8869"><s>Adjust the planned number of ordinary random war opportunities per global cycle.</s><r>Отрегулируйте запланированное количество обычных случайных возможностей войны на глобальный цикл.</r></e>
+  <e k="K" key="NSR.NuclearSunRise.AdjustTheAverageInterval.AF9B43EF"><s>Adjust the average interval between random diplomatic events involving NPC factions.</s><r>Отрегулируйте средний интервал между случайными дипломатическими событиями с участием фракций NPC.</r></e>
+  <e k="K" key="NSR.NuclearSunRise.AdjustTheAverageLaunch.00DB8504"><s>Adjust the average launch interval for each NPC participant in a limited nuclear war.</s><r>Отрегулируйте средний интервал запуска для каждого NPC-участника ограниченной ядерной войны.</r></e>
+  <e k="K" key="NSR.NuclearSunRise.AdjustTheAverageLaunch.53AB600C"><s>Adjust the average launch interval for each NPC participant in a conventional conflict.</s><r>Настройте средний интервал запуска для каждого NPC-участника обычного конфликта.</r></e>
+  <e k="K" key="NSR.NuclearSunRise.AdjustTheFrequencyOf.BF258ED1"><s>Adjust the frequency of ordinary random wars between two Spacer-age or more advanced factions.</s><r>Регулируйте частоту обычных случайных войн между двумя фракциями Космической эпохи или более продвинутыми.</r></e>
+  <e k="K" key="NSR.NuclearSunRise.AfterAWarEnds.DE8106DD"><s>After a war ends, both factions enter a protection period during which they cannot participate in new ordinary random wars. The base period is 5 days for normal factions and 10 days for permanently hostile factions; actual duration = base duration × this multiplier. Setting this to 0 disables post-war protection without changing fatigue or victory results.
+Range: 0.00–4.00; default: 1.00.</s><r>После окончания войны обе фракции вступают в период защиты, в течение которого они не могут участвовать в новых обычных случайных войнах. Базовый период составляет 5 дней для обычных фракций и 10 дней для постоянно враждебных фракций; фактическая продолжительность = базовая продолжительность × этот множитель. Установка значения 0 отключает послевоенную защиту без изменения результатов усталости или победы.
+Диапазон: 0,00–4,00; по умолчанию: 1,00.</r></e>
+  <e k="K" key="NSR.NuclearSunRise.AverageDiplomaticEventInterval.1701E945"><s>Average diplomatic event interval</s><r>Средний интервал дипломатических мероприятий</r></e>
+  <e k="K" key="NSR.NuclearSunRise.BypassNuclearDoctrineLaunch.855447B2"><s>Bypass nuclear-doctrine launch and related diplomacy restrictions for the player only. Does not change NPC behavior, moods, rituals or vanilla IRBM restrictions.</s><r>Обход запуска ядерной доктрины и связанных с ней ограничений дипломатии только для игрока. Не меняет поведение NPC, настроения, ритуалы или ограничения стандартной БРСД.</r></e>
+  <e k="K" key="NSR.NuclearSunRise.ConflictEnds.11863155"><s>Conflict Ends</s><r>Конфликт заканчивается</r></e>
+  <e k="K" key="NSR.NuclearSunRise.ConventionalConflictAverageMissile.F7B8F1AB"><s>Conventional conflict average missile launch interval</s><r>Средний интервал пуска ракет в обычном конфликте</r></e>
+  <e k="K" key="NSR.NuclearSunRise.CurrentPostWarProtection.00FB29C7"><s>Current post-war protection: normal factions </s><r>Текущая послевоенная защита: обычные фракции </r></e>
+  <e k="K" key="NSR.NuclearSunRise.Days.748FB00A"><s> days.</s><r> дни.</r></e>
+  <e k="K" key="NSR.NuclearSunRise.DaysDefault25.E5A5698E"><s> days (default 2.5 days)</s><r> дней (по умолчанию 2,5 дня)</r></e>
+  <e k="K" key="NSR.NuclearSunRise.DaysPermanentlyHostileFactions.6E950DEC"><s> days; permanently hostile factions </s><r> дни; постоянно враждебные фракции </r></e>
+  <e k="K" key="NSR.NuclearSunRise.Default100.CB056538"><s>× (default 1.00)</s><r>× (по умолчанию 1,00)</r></e>
+  <e k="K" key="NSR.NuclearSunRise.Default500.F01B98DB"><s>× (default 5.00)</s><r>× (по умолчанию 5,00)</r></e>
+  <e k="K" key="NSR.NuclearSunRise.Details.6C095B1A"><s>Details:
+</s><r>Подробности:
+</r></e>
+  <e k="K" key="NSR.NuclearSunRise.DisableLongMarchWallpaper.87A9401A"><s>Disable Long March wallpaper</s><r>Отключить обои Длинного марта</r></e>
+  <e k="K" key="NSR.NuclearSunRise.DuringALimitedNuclear.B9E6E824"><s>During a limited nuclear war, each NPC faction independently rolls against this MTB to launch missiles. Lower values produce more frequent launches, subject to technology, available missiles and fatigue limits. Under certain non-nuclear doctrines, NPC factions still fire conventional missiles at three times the normal nuclear-war frequency. Player-controlled manual launches are unaffected.
+Range: 0.10–6.00 hours; default: 0.50.</s><r>Во время ограниченной ядерной войны каждая фракция NPC самостоятельно атакует этот МТБ для запуска ракет. Более низкие значения приводят к более частым запускам в зависимости от технологии, имеющихся ракет и пределов усталости. В соответствии с некоторыми неядерными доктринами группировки НПС по-прежнему запускают обычные ракеты с частотой, в три раза превышающей обычную для ядерной войны частоту. Ручной запуск под управлением игрока не затрагивается.
+Диапазон: 0,10–6,00 часов; по умолчанию: 0,50.</r></e>
+  <e k="K" key="NSR.NuclearSunRise.EachNPCFactionIndependently.F496F70D"><s>Each NPC faction independently rolls against this MTB during an ordinary missile conflict. Lower intervals increase the average launch frequency; launches are not on a fixed countdown. The faction must be at least Spacer tech level, have an available missile strike capability, and remain below its fatigue cap. Player-controlled manual launches are unaffected.
+Range: 0.10–6.00 hours; default: 1.00.</s><r>Каждая фракция NPC самостоятельно выступает против этого МТБ во время обычного ракетного конфликта. Меньшие интервалы увеличивают среднюю частоту запусков; запуски не имеют фиксированного обратного отсчета. Фракция должна быть как минимум на космическом технологическом уровне, иметь доступные возможности ракетного удара и оставаться ниже предела усталости. Ручной запуск под управлением игрока не затрагивается.
+Диапазон: 0,10–6,00 часов; по умолчанию: 1,00.</r></e>
+  <e k="K" key="NSR.NuclearSunRise.EligibleNPCFactionPairs.2975480A"><s>Eligible NPC faction pairs are selected using an MTB (mean time between) event model. Lower values cause more frequent diplomatic incidents; this is not a fixed timer. Each event changes goodwill by ±10, ±20, ±30 or ±40. Below −30 goodwill, negative events have a 2/3 chance; above +30, positive events have a 2/3 chance; otherwise the odds are equal. The four events in the selected direction are equally likely. This setting changes only the frequency, not the effects.
+Range: 0.10–10.00 days; default: 2.50.</s><r>Подходящие пары фракций NPC выбираются с использованием модели событий MTB (среднее время между событиями). Более низкие значения вызывают более частые дипломатические инциденты; это не фиксированный таймер. Каждое событие меняет гудвилл на ±10, ±20, ±30 или ±40. Ниже -30 доброжелательности негативные события имеют вероятность 2/3; выше +30 вероятность положительных событий составляет 2/3; в противном случае шансы равны. Четыре события в выбранном направлении равновероятны. Этот параметр меняет только частоту, но не эффекты.
+Диапазон: 0,10–10,00 дней; по умолчанию: 2,50.</r></e>
+  <e k="K" key="NSR.NuclearSunRise.GlobalWarFrequencyMultiplier.15611BC6"><s>Global war frequency multiplier</s><r>Множитель частоты глобальной войны</r></e>
+  <e k="K" key="NSR.NuclearSunRise.HighTechFactionRivalry.46682240"><s>High-tech faction rivalry multiplier</s><r>Множитель соперничества высокотехнологичных фракций</r></e>
+  <e k="K" key="NSR.NuclearSunRise.HitsDefault4Hits.C70B542E"><s> hits (default 6 hits)</s><r> хиты (по умолчанию 6 хитов)</r></e>
+  <e k="K" key="NSR.NuclearSunRise.HitsRequiredForNuclear.9B6F0405"><s>Hits required for nuclear escalation</s><r>Удары, необходимые для ядерной эскалации</r></e>
+  <e k="K" key="NSR.NuclearSunRise.HoursDefault050.73D25E7B"><s> hours (default 0.50 hours)</s><r> часы (по умолчанию 0,50 часа)</r></e>
+  <e k="K" key="NSR.NuclearSunRise.HoursDefault100.01A028C2"><s> hours (default 1.00 hours)</s><r> часы (по умолчанию 1.00 часа)</r></e>
+  <e k="K" key="NSR.NuclearSunRise.IRBMExpandedNuclearSun.F924161C"><s>IRBM Expanded: Nuclear Sun Rise</s><r>Расширение БРСД: восход ядерного солнца</r></e>
+  <e k="K" key="NSR.NuclearSunRise.LimitedNuclearWarAverage.702EE1DE"><s>Limited nuclear war average missile launch interval</s><r>Ограниченный средний интервал запуска ракет в ядерной войне</r></e>
+  <e k="K" key="NSR.NuclearSunRise.LimitedNuclearWarEnds.4E7ACFBC"><s>Limited Nuclear War Ends</s><r>Ограниченная ядерная война заканчивается</r></e>
+  <e k="K" key="NSR.NuclearSunRise.OnlyAdjustableSettingsAre.5F5295E5"><s>Only adjustable settings are shown. Ordinary random wars now use a global 24–30 day cycle with 6–8 base war opportunities, random times, and a minimum 1-day gap. Eligible pairs are selected by diplomacy, fatigue, tech gap and remaining settlement counts.</s><r>Показаны только регулируемые настройки. Обычные случайные войны теперь используют глобальный 24–30-дневный цикл с 6–8 возможностями базовых войн, случайным временем и минимальным интервалом в 1 день. Подходящие пары выбираются по дипломатии, усталости, технологическому отставанию и количеству оставшихся поселений.</r></e>
+  <e k="K" key="NSR.NuclearSunRise.OrdinaryWarsUseA.6ED64EF5"><s>Conventional wars count effective hits only if both sides could strike opposing settlements when the war started. Successful hits by either side share one counter; interceptions do not count. Reaching the threshold still requires the ceasefire check to fail. Disabling Limited Nuclear Wars prevents all new local escalations, including direct triggers. Range: 3–6 hits; default: 6.</s><r>В обычных войнах результативные удары засчитываются только в том случае, если обе стороны могли нанести удар по противостоящим поселениям в начале войны. Успешные попадания с обеих сторон разделяют один счетчик; перехваты не засчитываются. Достижение порога по-прежнему требует провала проверки прекращения огня. Отключение ограниченных ядерных войн предотвращает все новые локальные эскалации, включая прямые триггеры. Диапазон: 3–6 попаданий; по умолчанию: 6.</r></e>
+  <e k="K" key="NSR.NuclearSunRise.PostWarProtectionDuration.41378A82"><s>Post-war protection duration multiplier</s><r>Множитель продолжительности послевоенной защиты</r></e>
+  <e k="K" key="NSR.NuclearSunRise.QuantumSignalQuestActive.74437D28"><s>Quantum Signal quest active: this save automatically has War Maniac arsenal permissions, without changing global settings.</s><r>Активен квест «Квантовый сигнал»: это сохранение автоматически получает разрешения на использование арсенала War Maniac без изменения глобальных настроек.</r></e>
+  <e k="K" key="NSR.NuclearSunRise.SetTheNumberOf.1E15AD34"><s>Set the number of effective missile impacts needed to escalate a conventional conflict into a limited nuclear war.</s><r>Установите количество эффективных ракетных ударов, необходимых для эскалации обычного конфликта в ограниченную ядерную войну.</r></e>
+  <e k="K" key="NSR.NuclearSunRise.ThisOptionAppearsOnly.24EE5E47"><s>This option appears only after the player completes ending 4, 'Dawn of Steel'. It affects only the main-menu wallpaper and does not change story logic, saves or ending conditions.</s><r>Эта опция появляется только после того, как игрок завершает концовку 4 «Рассвет стали». Он влияет только на обои главного меню и не меняет логику истории, условия сохранения или завершения.</r></e>
+  <e k="K" key="NSR.NuclearSunRise.ThisSettingIsThe.76790D27"><s>Each global cycle lasts 24–30 days with 6–8 base opportunities. Final count K=round(K0×B×G), with B rising linearly from 0 at game start to 1 on day 30; B is sampled at cycle midpoint. At most one opportunity is scheduled per day, and excess attempts are capped. K=0 means no ordinary random wars for that cycle. Attempts without eligible pairs are skipped. Reloading reshuffles future opportunities. G only affects ordinary random wars, not player-initiated wars or doctrine events. Range: 0.00–3.00; default: 1.00.</s><r>Каждый глобальный цикл длится 24–30 дней с 6–8 базовыми возможностями. Окончательный счет K = раунд (K0×B×G), при этом B линейно возрастает от 0 в начале игры до 1 на 30-й день; Выборка B производится в середине цикла. В день запланировано не более одной возможности, а дополнительные попытки ограничены. K=0 означает отсутствие обычных случайных войн в этом цикле. Попытки без подходящих пар пропускаются. Перезагрузка перетасовывает будущие возможности. G влияет только на обычные случайные войны, а не на войны, инициированные игроком, или доктринальные события. Диапазон: 0,00–3,00; по умолчанию: 1,00.</r></e>
+  <e k="K" key="NSR.NuclearSunRise.WarManiacMode.0CF13C91"><s>War Maniac Mode</s><r>Режим военного маньяка</r></e>
+  <e k="K" key="NSR.NuclearSunRise.WhenBothFactionsHave.4E449CFD"><s>When both factions have reached Spacer tech level or above, the additional multiplier H applies to the war-start MTB formula alongside the global multiplier G. H=0 disables ordinary random wars between two high-tech factions; H=1 adds no extra modifier; H=5 is the default. If either faction is below Spacer tech level, H is treated as 1.
+Range: 0.00–10.00; default: 5.00.</s><r>Когда обе фракции достигли технологического уровня космонавтов или выше, к формуле начала войны MTB применяется дополнительный множитель H наряду с глобальным множителем G. H=0 отключает обычные случайные войны между двумя высокотехнологичными фракциями; H=1 не добавляет дополнительного модификатора; H=5 — значение по умолчанию. Если какая-либо из фракций находится ниже технологического уровня космонавтов, H рассматривается как 1.
+Диапазон: 0,00–10,00; по умолчанию: 5.00.</r></e>
+  <e k="K" key="NSR.NuclearSunRise.WhenCheckedTheLong.A4D0FEC9"><s>When checked, the Long March main-menu wallpaper unlocked by ending 4 is hidden. Uncheck it to show the wallpaper again.</s><r>Если этот флажок установлен, обои главного меню «Великого похода», разблокированные в концовке 4, скрыты. Снимите флажок, чтобы снова показать обои.</r></e>
+  <e k="K" key="NSR.NuclearSunRise.WhenEnabledAnyPlayer.AE783287"><s>When enabled, any player nuclear doctrine may launch any NSR-classified strategic warhead, initiate a limited nuclear war with a limited nuclear payload, and use diplomacy options normally restricted by doctrine. NSR nuclear-warhead bans on the player are also bypassed. Resource, powered comms and vanilla IRBM requirements still apply. Default: OFF.</s><r>Если эта опция включена, любая ядерная доктрина игрока может запустить любую стратегическую боеголовку, классифицированную как NSR, начать ограниченную ядерную войну с ограниченной ядерной нагрузкой и использовать варианты дипломатии, обычно ограниченные доктриной. Запреты NSR на ядерные боеголовки для игрока также обойдены. Требования к ресурсам, активной связи и стандартным БРСД по-прежнему применяются. По умолчанию: ВЫКЛ.</r></e>
+  <e k="K" key="NSR.NuclearSunRiseEndings.DawnOfSteel.61706932"><s>Dawn of Steel</s><r>Рассвет стали</r></e>
+  <e k="K" key="NSR.NuclearSunRiseEndings.ExtinguishedFlame.47C12366"><s>Extinguished Flame</s><r>Потухшее пламя</r></e>
+  <e k="K" key="NSR.NuclearSunRiseEndings.FlamesRekindled.85069F69"><s>Flames Rekindled</s><r>Возрождение пламени</r></e>
+  <e k="K" key="NSR.NuclearSunRiseEndings.NuclearMissilesStreakAcross.760AF15B"><s>Nuclear missiles streak across the skies, and the mechhive finally falls silent amid successive detonations.
+
+The weapons once used to destroy humanity have instead become its hope for salvation.
+
+The world remains devastated, and rebuilding civilization will be long and arduous.
+
+But at this moment, humanity has broken free of its mechanical shackles. Its fate belongs to it once again.
+
+
+A spark may set the prairie ablaze.</s><r>Ядерные ракеты проносятся по небу, и мехулей наконец замолкает среди последовательных взрывов.
+
+Оружие, которое когда-то использовалось для уничтожения человечества, вместо этого стало его надеждой на спасение.
+
+Мир остается опустошенным, и восстановление цивилизации будет долгим и трудным.
+
+Но в этот момент человечество вырвалось на свободу из своих механических кандалы. Его судьба снова принадлежит ему.
+
+
+Искра может поджечь прерию.</r></e>
+  <e k="K" key="NSR.NuclearSunRiseEndings.Skip.A9595575"><s>Skip</s><r>Пропускать</r></e>
+  <e k="K" key="NSR.NuclearSunRiseEndings.TheLastColonistHas.489A28DB"><s>The last colonist has fallen.
+
+The flame of civilization that once burned across these wastelands could not withstand fate. Their plans and dreams have faded with the last of them.
+
+The world will not stop for them. The original colonists have departed, but someday others will arrive and write new stories upon this land.
+
+
+History rolls onward; embers may burn again.</s><r>Последний колонист пал.
+
+Пламя цивилизации, когда-то горившее на этих пустошах, не смогло противостоять судьбе. Их планы и мечты исчезли с последним из них.
+
+Мир для них не остановится. Первые колонисты ушли, но когда-нибудь прибудут другие и напишут новые истории на этой земле.
+
+
+История катится вперед; угли могут снова загореться.</r></e>
+  <e k="K" key="NSR.NuclearSunRiseEndings.TheLastHumanSettlement.CDFD50C7"><s>The last human settlement vanishes from the world map.
+
+The civilizations that once ruled this planet have collapsed beneath nuclear war and relentless mechanoid purges.
+
+When the long nuclear winter ends, the sun will rise again, but humanity will not greet the dawn.
+
+Only countless machines march over bodies and ruins, across the horizon and the old world’s river of blood, toward a future forged of steel.
+
+
+An apocalyptic end; a crystalline dream of silicon.</s><r>Последнее человеческое поселение исчезает с карты мира.
+
+Цивилизации, которые когда-то правили этой планетой, рухнули под ядерной войной и беспощадными механоидными чистками.
+
+Когда долгая ядерная зима закончится, солнце взойдет снова, но человечество не встретит рассвет.
+
+Только бесчисленные машины маршируют по телам и руинам, по горизонту и по небу река крови старого мира, ведущая к будущему, выкованному из стали.
+
+
+Апокалиптический конец; кристаллическая мечта кремния.</r></e>
+  <e k="K" key="NSR.NuclearSunRiseEndings.TheLastNuclearMissile.CDA5C36D"><s>The last nuclear missile has fallen.
+
+The world lies in ruins; radioactive dust veils the sun, and a long winter descends.
+
+Empires and civilizations that once seemed invincible have become shattered walls among the ashes.
+
+The war has finally ended.
+
+Not because peace has come, but because so little remains to destroy.
+
+
+The world slipped from the knife’s edge and shattered.</s><r>Упала последняя ядерная ракета.
+
+Мир лежит в руинах; радиоактивная пыль заволакивает солнце, и наступает долгая зима.
+
+Империи и цивилизации, которые когда-то казались непобедимыми, превратились в разрушенные стены среди пепла.
+
+Война наконец закончилась.
+
+Не потому, что наступил мир, а потому, что так мало осталось уничтожить.
+
+
+Мир соскользнул с острия ножа и разбился.</r></e>
+  <e k="K" key="NSR.NuclearSunRiseEndings.UtterSilence.03478DA7"><s>Utter Silence</s><r>Полная тишина</r></e>
+</AutoTranslateCache>
