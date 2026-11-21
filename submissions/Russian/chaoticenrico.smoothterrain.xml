@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="chaoticenrico.smoothterrain" name="Smooth Terrain" language="Russian" version="1">
+  <e k="K" key="ST_Add"><s>Add</s><r>Добавлять</r></e>
+  <e k="K" key="ST_AddExclusion"><s>Add terrain...</s><r>Добавьте местность...</r></e>
+  <e k="K" key="ST_AddPairsFromMap"><s>Add from current map</s><r>Добавить с текущей карты</r></e>
+  <e k="K" key="ST_AddPairsFromMap_Added"><s>Added {0} blending pair(s) from this map. Use &quot;Smooth current map&quot; to apply them here.</s><r>Добавлены пары смешивания {0} с этой карты. Используйте «Сглаженную текущую карту», ​​чтобы применить их здесь.</r></e>
+  <e k="K" key="ST_AddPairsFromMap_None"><s>Every terrain pair on this map is already listed.</s><r>Каждая пара местности на этой карте уже указана.</r></e>
+  <e k="K" key="ST_BlendStyle"><s>Blending style</s><r>Стиль смешивания</r></e>
+  <e k="K" key="ST_BlendStyle_Recommended"><s>{0} (recommended)</s><r>{0} (рекомендуется)</r></e>
+  <e k="K" key="ST_BlendingPairs"><s>Blending pairs</s><r>Смешивание пар</r></e>
+  <e k="K" key="ST_BlendingPairs_Tip"><s>Only these pairs of terrain blend into each other.</s><r>Только эти пары местности сливаются друг с другом.</r></e>
+  <e k="K" key="ST_EdgeStylesUpdated"><s>Terrain edge styles updated.</s><r>Обновлены стили краев местности.</r></e>
+  <e k="K" key="ST_EnableAutoSmoothing"><s>Smooth new maps automatically</s><r>Автоматическое сглаживание новых карт</r></e>
+  <e k="K" key="ST_EnableAutoSmoothing_Desc"><s>Newly generated maps get smoothed terrain corners.</s><r>На новых картах углы местности сглажены.</r></e>
+  <e k="K" key="ST_Exclusions"><s>Excluded terrains</s><r>Исключенные территории</r></e>
+  <e k="K" key="ST_Exclusions_Tip"><s>These terrains never blend.</s><r>Эти местности никогда не смешиваются.</r></e>
+  <e k="K" key="ST_FilterDropdowns"><s>Only list natural and water terrains</s><r>Перечисляйте только естественные и водные ландшафты</r></e>
+  <e k="K" key="ST_FilterDropdowns_Desc"><s>Limits the terrain pickers below to natural and water terrains.</s><r>Ограничивает выбор местности ниже естественными и водными ландшафтами.</r></e>
+  <e k="K" key="ST_HardEdges"><s>Use hard edge rendering for natural terrains</s><r>Используйте рендеринг с жесткими краями для естественных ландшафтов.</r></e>
+  <e k="K" key="ST_HardEdges_Desc"><s>Makes the edges between natural terrains sharp and distinct, to conflict less with the diagonal floors.</s><r>Делает границы между естественными ландшафтами резкими и отчетливыми, чтобы меньше конфликтовать с диагональными этажами.</r></e>
+  <e k="K" key="ST_KeepSmooth"><s>Keep map smooth as it changes</s><r>Сохраняйте плавность карты при ее изменении</r></e>
+  <e k="K" key="ST_KeepSmooth_Desc"><s>Smooths corners again if the landscape changes during play, once the area has settled.</s><r>Снова сглаживает углы, если ландшафт меняется во время игры, как только область стабилизируется.</r></e>
+  <e k="K" key="ST_ModTitle"><s>Smooth Terrain</s><r>Гладкая местность</r></e>
+  <e k="K" key="ST_NoMap_Tip"><s>Needs a loaded map.</s><r>Нужна загруженная карта.</r></e>
+  <e k="K" key="ST_PairMode"><s>Blend</s><r>Смешивать</r></e>
+  <e k="K" key="ST_PairMode_Auto"><s>All natural terrains</s><r>Все природные территории</r></e>
+  <e k="K" key="ST_PairMode_Manual"><s>Chosen pairs</s><r>Выбранные пары</r></e>
+  <e k="K" key="ST_Remove"><s>Remove</s><r>Удалять</r></e>
+  <e k="K" key="ST_ResetExclusions"><s>Reset to defaults</s><r>Сбросить настройки по умолчанию</r></e>
+  <e k="K" key="ST_ResetPairs"><s>Reset to defaults</s><r>Сбросить настройки по умолчанию</r></e>
+  <e k="K" key="ST_SelectTerrain"><s>Select terrain...</s><r>Выберите местность...</r></e>
+  <e k="K" key="ST_SmoothMap"><s>Smooth current map</s><r>Сглаженная текущая карта</r></e>
+  <e k="K" key="ST_SmoothMap_Done"><s>Smoothed the current map.</s><r>Сгладила текущую карту.</r></e>
+  <e k="K" key="ST_UnsmoothMap"><s>Unsmooth current map</s><r>Негладкая текущая карта</r></e>
+  <e k="K" key="ST_UnsmoothMap_Done"><s>Unsmoothed the current map.</s><r>Не сглажена текущая карта.</r></e>
+</AutoTranslateCache>
