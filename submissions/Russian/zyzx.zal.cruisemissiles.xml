@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="zyzx.zal.cruisemissiles" name="Cruise Missiles(Adjustable Properties Version)" language="Russian" version="1">
+  <e k="D" t="EffecterDef" key="CM_Nuke_Fusion_Shell_Explosion.label"><s>fusion shell explosion</s><r>взрыв термоядерной оболочки</r></e>
+  <e k="D" t="EffecterDef" key="CM_Peacekeeper_MK1_Impact.label"><s>peacekeeper mk1 implosion pulse</s><r>имплозивный импульс Peacekeeper Mk1</r></e>
+  <e k="D" t="JobDef" key="CM_LoadCruiseMissile.reportString"><s>loading cruise missile TargetA.</s><r>заряжание крылатой ракеты TargetA.</r></e>
+  <e k="D" t="ThingCategoryDef" key="CruiseMissiles.label"><s>cruise missiles</s><r>крылатые ракеты</r></e>
+  <e k="D" t="ThingDef" key="CM_Building_MissileDefense.comps.2.outOfFuelMessage"><s>Out of ammo</s><r>Закончились патроны</r></e>
+  <e k="D" t="ThingDef" key="CM_Building_MissileDefense.description"><s>A large map-wide anti-missile interception system. Prioritizes intercepting enemy missiles across the map. Can strike enemy units globally, ignoring walls.
+Consumes Steel as ammo (1 Steel = 1 missile). Magazine capacity: 36 missiles.
+
+Warning: Must be built outdoors, otherwise missiles will hit the roof!</s><r>Большая система противоракетного перехвата, охватывающая всю карту. Приоритет отдается перехвату вражеских ракет на карте. Может поражать вражеские юниты по всему миру, игнорируя стены.
+Потребляет сталь в качестве боеприпасов (1 сталь = 1 ракета). Емкость магазина: 36 ракет.
+
+Внимание: необходимо строить на открытом воздухе, иначе ракеты поразят крышу!</r></e>
+  <e k="D" t="ThingDef" key="CM_Building_MissileDefense.label"><s>Anti-missile system</s><r>Противоракетная система</r></e>
+  <e k="D" t="ThingDef" key="CM_Bullet_MissileDefense.label"><s>interceptor missile</s><r>ракета-перехватчик</r></e>
+  <e k="D" t="ThingDef" key="CM_Gun_MissileDefense.label"><s>interceptor launcher</s><r>пусковая установка-перехватчик</r></e>
+  <e k="D" t="ThingDef" key="CM_Gun_MissileDefense.verbs.0.label"><s>interceptor launcher</s><r>пусковая установка-перехватчик</r></e>
+  <e k="D" t="ThingDef" key="CM_Launcher_Mobile.description"><s>A manned system for launching of cruise missiles. Allows you to hit anything on the map with surgical precision. Of course, the missile costs more than mortar shell, but usually it is cheaper to launch one missile instead of a dozen shells.
+
+Capable of targeting other areas of the world within a relatively large radius.</s><r>Пилотируемый комплекс запуска крылатых ракет. Позволяет поразить все на карте с хирургической точностью. Конечно, ракета стоит дороже, чем минометный снаряд, но обычно дешевле запустить одну ракету вместо дюжины снарядов.
+
+Способна поражать другие районы мира в относительно большом радиусе.</r></e>
+  <e k="D" t="ThingDef" key="CM_Launcher_Mobile.label"><s>Cruise Missile Launcher (mobile)</s><r>Пусковая установка крылатых ракет (мобильная)</r></e>
+  <e k="D" t="ThingDef" key="CM_Launcher_MobileTurret.description"><s>A system for launching cruise missiles.</s><r>Система запуска крылатых ракет.</r></e>
+  <e k="D" t="ThingDef" key="CM_Launcher_MobileTurret.label"><s>cruise missle launcher</s><r>крылатая ракетная установка</r></e>
+  <e k="D" t="ThingDef" key="CM_Launcher_MobileTurret.verbs.0.label"><s>cruise missle launcher</s><r>крылатая ракетная установка</r></e>
+  <e k="D" t="ThingDef" key="CM_Launcher_Stationary.description"><s>A manned system for launching of cruise missiles. Allows you to hit anything with surgical precision. Of course, the missile costs more than mortar shell, but usually it is cheaper to launch one missile instead of a dozen shells. This version is a stationary - it takes three times more time to build, but also is much more resistant to damage. 
+
+Capable of targeting other areas of the world within a relatively large radius.</s><r>Пилотируемый комплекс запуска крылатых ракет. Позволяет поразить что угодно с хирургической точностью. Конечно, ракета стоит дороже, чем минометный снаряд, но обычно дешевле запустить одну ракету вместо десятка снарядов. Эта версия является стационарной — на ее постройку уходит в три раза больше времени, но при этом она гораздо более устойчива к повреждениям. 
+
+Возможность атаковать другие регионы мира в относительно большом радиусе.</r></e>
+  <e k="D" t="ThingDef" key="CM_Launcher_Stationary.label"><s>Cruise Missile Launcher (stationary)</s><r>Пусковая установка крылатых ракет (стационарная)</r></e>
+  <e k="D" t="ThingDef" key="CM_Launcher_StationaryTurret.description"><s>A system for launching cruise missiles.</s><r>Система запуска крылатых ракет.</r></e>
+  <e k="D" t="ThingDef" key="CM_Launcher_StationaryTurret.label"><s>stationary cruise missle launcher</s><r>стационарная крылатая ракетная установка</r></e>
+  <e k="D" t="ThingDef" key="CM_Launcher_StationaryTurret.verbs.0.label"><s>stationary cruise missle launcher</s><r>стационарная крылатая ракетная установка</r></e>
+  <e k="D" t="ThingDef" key="CM_Visual_SAM_Bullet.label"><s>SAM interceptor</s><r>ЗРК-перехватчик</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_Antigrain.description"><s>A cruise missile with antigrain warhead. Thanks to airburst, it will cover even more territory than antigrain mortar shell. Should be fired from launcher. Explodes when damaged.</s><r>Крылатая ракета с противозерновой боевой частью. Благодаря воздушному взрыву он охватит даже большую территорию, чем противозерновой миномет. Стрелять надо из лаунчера. Взрывается при повреждении.</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_Antigrain.label"><s>antimatter cruise missile</s><r>крылатая ракета на антивеществе</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_Antigrain_Bullet.label"><s>antimatter cruise missile</s><r>крылатая ракета на антивеществе</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_BunkerBuster.description"><s>A cruise missile designed to penetrate deep underground before detonating. Capable of instantly collapsing Anomaly pit gates. Against normal targets, it acts as a highly concentrated explosive. Should be fired from launcher. Explodes when damaged.</s><r>Крылатая ракета, предназначенная для проникновения глубоко под землю перед взрывом. Способен мгновенно разрушить ворота ямы Аномалии. Против обычных целей он действует как высококонцентрированная взрывчатка. Стрелять надо из лаунчера. Взрывается при повреждении.</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_BunkerBuster.label"><s>bunker buster cruise missile</s><r>крылатая ракета для разрушения бункеров</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_BunkerBuster_Bullet.label"><s>bunker buster cruise missile</s><r>крылатая ракета для разрушения бункеров</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_Cluster.description"><s>A cruise missile that scatters 32 sub-munitions after the first impact. Shared texture with HE variant.</s><r>Крылатая ракета, разбрасывающая 32 суббоеприпаса после первого попадания. Общая текстура с вариантом HE.</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_Cluster.label"><s>cluster cruise missile</s><r>кассетная крылатая ракета</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_Cluster_Bullet.label"><s>cluster cruise missile</s><r>кассетная крылатая ракета</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_EMP.description"><s>A cruise missile with an EMP warhead. This type of warhead is supposed to be used against mechanoids. Should be fired from launcher. Explodes when damaged.</s><r>Крылатая ракета с ЭМИ-боеголовкой. Этот тип боеголовки предполагается использовать против механоидов. Стрелять надо из лаунчера. Взрывается при повреждении.</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_EMP.label"><s>EMP cruise missile</s><r>Крылатая ракета ЭМИ</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_EMP_Bullet.label"><s>EMP cruise missile</s><r>Крылатая ракета ЭМИ</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_HE.description"><s>A cruise missile with high-explosive warhead. Deals a lot of damage, but in a small radius. This type of warheads is supposed to be used against vehicles, pillboxes, and other similar things. Should be fired from launcher. Explodes when damaged.</s><r>Крылатая ракета с фугасной боевой частью. Наносит много урона, но в небольшом радиусе. Этот тип боеголовок предполагается использовать против транспортных средств, дотов и других подобных объектов. Стрелять надо из лаунчера. Взрывается при повреждении.</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_HE.label"><s>HE cruise missile</s><r>Крылатая ракета ОФ</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_HE_Bullet.label"><s>high-explosive cruise missile</s><r>фугасная крылатая ракета</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_Incendiary.description"><s>A cruise missile with an incendiary warhead. Creates a massive fire upon impact. Shared texture with HE variant.</s><r>Крылатая ракета с зажигательной боевой частью. При ударе создает сильный пожар. Общая текстура с вариантом HE.</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_Incendiary.label"><s>incendiary cruise missile</s><r>зажигательная крылатая ракета</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_Incendiary_Bullet.label"><s>incendiary cruise missile</s><r>зажигательная крылатая ракета</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_Mine.description"><s>A cruise missile that deploys 9 HE-IEDs over a wide area. Effective for area denial. Should be fired from launcher.</s><r>Крылатая ракета, которая развертывает 9 фугасных СВУ на большой территории. Эффективен для запрета области. Стрелять надо из лаунчера.</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_Mine.label"><s>minelaying cruise missile</s><r>крылатая ракета для постановки мин</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_Mine_Bullet.label"><s>minelaying cruise missile</s><r>крылатая ракета для постановки мин</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_PeacekeeperMK1_Bullet.label"><s>peacekeeper cruise missile MK1</s><r>крылатая ракета «Миротворец» МК1</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_PeacekeeperMKII.description"><s>A missile designed to maintain peace on the Rimworld through absolute erasure. Vaporizes everything within 35 radius, excluding thick rock roofs.</s><r>Ракета, предназначенная для поддержания мира в Крайнем мире посредством полного уничтожения. Испаряет все в радиусе 35, за исключением толстых каменных крыш.</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_PeacekeeperMKII.label"><s>peacekeeper cruise missile</s><r>крылатая ракета «Миротворец»</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_PeacekeeperMKIII.description"><s>The ultimate peacekeeper. It provides better peacekeeping effects and a larger peacekeeping radius, erasing everything including thick mountain roofs.</s><r>Настоящий миротворец. Это обеспечивает лучший миротворческий эффект и больший радиус миротворчества, стирая все, включая толстые горные крыши.</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_PeacekeeperMKIII.label"><s>peacekeeper cruise missile MKII</s><r>крылатая ракета «Миротворец» MKII</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_PeacekeeperMKIII_Bullet.label"><s>peacekeeper cruise missile MKII</s><r>крылатая ракета «Миротворец» MKII</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_PeacekeeperMKII_Bullet.label"><s>peacekeeper cruise missile</s><r>крылатая ракета «Миротворец»</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_PeacekeeperMKOne.description"><s>A nuclear cruise missile based on the small nuclear warhead.</s><r>Ядерная крылатая ракета на базе малой ядерной боеголовки.</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_PeacekeeperMKOne.label"><s>peacekeeper cruise missile MK1</s><r>крылатая ракета «Миротворец» МК1</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_Smoke.description"><s>A cruise missile with a smoke warhead. Creates a massive smokescreen upon impact, blocking line of sight over a wide area.</s><r>Крылатая ракета с дымовой боевой частью. При ударе создает массивную дымовую завесу, блокируя линию обзора на большой площади.</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_Smoke.label"><s>smoke cruise missile</s><r>дымовая крылатая ракета</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_Smoke_Bullet.label"><s>smoke cruise missile</s><r>дымовая крылатая ракета</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_Thermobaric.description"><s>A cruise missile with thermobaric warhead. Its large blast will not do a lot of damage by itself, but after the blast there will be a giant fire. It means that most of the living creatures will be at least ignited and shall get some burns - probably, a lot of burns. Allows to burn an entire village in the middle of a jungle with only one shot. Should be fired from launcher. Explodes when damaged.</s><r>Крылатая ракета с термобарической боевой частью. Его мощный взрыв сам по себе не нанесет большого ущерба, но после взрыва возникнет гигантский пожар. Это значит, что большая часть живности как минимум воспламенится и получит ожоги - возможно, ожоги большие. Позволяет сжечь целую деревню посреди джунглей всего одним выстрелом. Стрелять надо из лаунчера. Взрывается при повреждении.</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_Thermobaric.label"><s>thermobaric cruise missile</s><r>термобарическая крылатая ракета</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_Thermobaric_Bullet.label"><s>thermobaric cruise missile</s><r>термобарическая крылатая ракета</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_Tox.description"><s>A cruise missile with a toxic gas warhead. Should be fired from launcher. Explodes when damaged.</s><r>Крылатая ракета с боеголовкой из токсичного газа. Стрелять надо из лаунчера. Взрывается при повреждении.</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_Tox.label"><s>toxic cruise missile</s><r>токсичная крылатая ракета</r></e>
+  <e k="D" t="ThingDef" key="CruiseMissile_Tox_Bullet.label"><s>toxic cruise missile</s><r>токсичная крылатая ракета</r></e>
+  <e k="D" t="ThingDef" key="DelayedClusterSpawner.label"><s>missile controller</s><r>диспетчер ракеты</r></e>
+  <e k="D" t="ThingDef" key="DelayedMineSpawner.label"><s>mine spawner</s><r>шахтный спаунер</r></e>
+  <e k="D" t="WorkGiverDef" key="CM_WG_LoadCruiseMissile.gerund"><s>loading</s><r>загрузка</r></e>
+  <e k="D" t="WorkGiverDef" key="CM_WG_LoadCruiseMissile.label"><s>load cruise missile</s><r>загрузить крылатую ракету</r></e>
+  <e k="D" t="WorkGiverDef" key="CM_WG_LoadCruiseMissile.verb"><s>load</s><r>нагрузка</r></e>
+  <e k="K" key="CM_AirDefenseDetails"><s>Anti-Missile System Settings</s><r>Настройки противоракетной системы</r></e>
+  <e k="K" key="CM_AirDefenseMaxRange"><s>Maximum Range</s><r>Максимальная дальность</r></e>
+  <e k="K" key="CM_AirDefenseMinRange"><s>Minimum Range</s><r>Минимальный диапазон</r></e>
+  <e k="K" key="CM_AlreadyLoaded"><s>Already Loaded</s><r>Уже загружено</r></e>
+  <e k="K" key="CM_ApplyBtn"><s>Apply Now</s><r>Подать заявку сейчас</r></e>
+  <e k="K" key="CM_ApplyDesc"><s>Apply changes (takes effect immediately in-game).</s><r>Применить изменения (вступают в силу немедленно в игре).</r></e>
+  <e k="K" key="CM_Beauty"><s>Beauty</s><r>Красота</r></e>
+  <e k="K" key="CM_BurstCount"><s>Burst Count</s><r>Количество импульсов</r></e>
+  <e k="K" key="CM_CEActive"><s>Combat Extended detected - CE compatibility is active. Explosion radius is limited to {0} by the engine radial pattern.</s><r>Обнаружен Combat Extended — активна совместимость с CE. Радиус взрыва ограничен {0} радиальной диаграммой направленности двигателя.</r></e>
+  <e k="K" key="CM_CENotActive"><s>Combat Extended not detected - running with vanilla mechanics.</s><r>Combat Extended не обнаружен — работает с ванильной механикой.</r></e>
+  <e k="K" key="CM_CannotLoadNoMissile"><s>Cannot Load (No available cruise missiles found)</s><r>Невозможно загрузить (доступные крылатые ракеты не найдены)</r></e>
+  <e k="K" key="CM_CaravanAnnihilated"><s>A devastating strike completely annihilated caravan {0}!</s><r>Разрушительный удар полностью уничтожил караван {0}!</r></e>
+  <e k="K" key="CM_CaravanIntercepted"><s>Missiles intercepted caravan {0}.</s><r>Ракеты перехватили караван {0}.</r></e>
+  <e k="K" key="CM_ClusterCount"><s>Submunition Count</s><r>Количество суббоеприпасов</r></e>
+  <e k="K" key="CM_ClusterSpread"><s>Submunition Spread Radius</s><r>Радиус разброса суббоеприпасов</r></e>
+  <e k="K" key="CM_CooldownTime"><s>Cooldown Time</s><r>Время восстановления</r></e>
+  <e k="K" key="CM_DamageValue"><s>Base Damage</s><r>Базовый урон</r></e>
+  <e k="K" key="CM_DesignateStrikeCoord"><s>Designate Strike Coordinates</s><r>Обозначьте координаты удара</r></e>
+  <e k="K" key="CM_DropPodInterceptCount"><s>Drop Pod Intercepts Per Round</s><r>Перехваты десантных капсул за раунд</r></e>
+  <e k="K" key="CM_EnableEnemyAirDefense"><s>Enable Enemy Air Defense</s><r>Включить ПВО противника</r></e>
+  <e k="K" key="CM_EnableEnemyAirDefenseDesc"><s>Enemy settlements have a chance to intercept player &quot;cross-map cruise missiles&quot; and spawn physical anti-air structures during encounters.</s><r>У вражеских поселений есть шанс перехватить «крылатые ракеты, расположенные по карте», и создать физические противовоздушные сооружения во время столкновений.</r></e>
+  <e k="K" key="CM_EnableEnemyLaunchers"><s>Enable Enemy Missile Threats</s><r>Включить вражеские ракетные угрозы</r></e>
+  <e k="K" key="CM_EnableEnemyLaunchersDesc"><s>When enabled, enemy raid events may deploy cruise missile launchers on the map. Enemy settlements no longer spawn launchers; settlements only have a chance to spawn air defense systems.</s><r>Если эта функция включена, во время рейдов противника на карте могут быть размещены пусковые установки крылатых ракет. Во вражеских поселениях больше не появляются пусковые установки; поселения имеют шанс только создать системы ПВО.</r></e>
+  <e k="K" key="CM_EnemyAirDefenseChance"><s>Enemy Air Defense Chance (%)</s><r>Шанс противовоздушной обороны противника (%)</r></e>
+  <e k="K" key="CM_EnemyAutoReload"><s>Enemy Void Ammo Generation</s><r>Генерация боеприпасов для врага в Бездне</r></e>
+  <e k="K" key="CM_EnemyAutoReloadDesc"><s>When enabled, non-player faction missile launchers will automatically replenish missiles when depleted; anti-air systems will also automatically refill steel ammunition.</s><r>Если эта функция включена, ракетные пусковые установки неигровых фракций будут автоматически пополнять ракеты при их истощении; Системы ПВО также будут автоматически дозаправлять стальные боеприпасы.</r></e>
+  <e k="K" key="CM_EnemyLauncherChance"><s>Enemy Missile Deployment Chance (%)</s><r>Шанс размещения вражеской ракеты (%)</r></e>
+  <e k="K" key="CM_ForcedTargetOutOfRange"><s>Forced attack target is out of range, automatically canceled.</s><r>Цель принудительной атаки находится вне зоны действия и автоматически отменяется.</r></e>
+  <e k="K" key="CM_FriendlyFireBase"><s>Why are you bombing your own settlement?</s><r>Зачем вы бомбите собственное поселение?</r></e>
+  <e k="K" key="CM_FullSalvoDesc"><s>Forces the launcher to fire all loaded ammunition at the target area, then automatically stops once the magazine is empty.</s><r>Заставляет пусковую установку выстрелить всеми заряженными боеприпасами в целевую область, а затем автоматически останавливается, как только магазин опустошается.</r></e>
+  <e k="K" key="CM_FullSalvoLabel"><s>Full Salvo</s><r>Полное сохранение</r></e>
+  <e k="K" key="CM_GlobalSettings"><s>Global Settings</s><r>Глобальные настройки</r></e>
+  <e k="K" key="CM_GroundAttackDamage"><s>Ground Attack Damage</s><r>Урон от наземной атаки</r></e>
+  <e k="K" key="CM_GroundAttack_Desc"><s>When enabled, this building automatically targets and attacks ground enemies. When disabled, it focuses solely on air interception.</s><r>При включении это здание автоматически нацеливается на наземных врагов и атакует их. При отключении он фокусируется исключительно на перехвате воздуха.</r></e>
+  <e k="K" key="CM_GroundAttack_Label"><s>Ground Attack</s><r>Наземная атака</r></e>
+  <e k="K" key="CM_HitEmptyArea"><s>Missiles struck an uninhabited area, no valuable targets found.</s><r>Ракеты поразили необитаемую территорию, ценных целей не обнаружено.</r></e>
+  <e k="K" key="CM_IgnoreThickRoofTargets"><s>Ignore Thick Roof Targets</s><r>Игнорировать цели с толстой крышей</r></e>
+  <e k="K" key="CM_IgnoreThickRoofTargetsDesc"><s>When enabled, radar can forcibly lock onto targets hiding under thick rock roofs. Recommended for use with bunker busters and Peacekeeper MK3 - other missiles will only blow up on the rock layer and do nothing.</s><r>При включении радар может принудительно захватывать цели, скрывающиеся под толстыми каменными крышами. Рекомендуется для использования с бункеровщиками и Peacekeeper MK3 — другие ракеты взрываются только на слое камня и ничего не делают.</r></e>
+  <e k="K" key="CM_InterceptDropPods_Desc"><s>When enabled, this building automatically attacks all hostile drop pods within range, destroying them mid-air. The number of interceptions is determined by the &quot;Drop Pod Intercepts Per Round&quot; mod setting.</s><r>При включении это здание автоматически атакует все враждебные десантные капсулы в радиусе действия, уничтожая их в воздухе. Количество перехватов определяется настройкой мода «Перехватов десантных капсул за раунд».</r></e>
+  <e k="K" key="CM_InterceptDropPods_Label"><s>Intercept Drop Pods</s><r>Перехватывающие десантные капсулы</r></e>
+  <e k="K" key="CM_InterceptProjectiles_Desc"><s>When enabled, this building intercepts enemy missiles, mortar shells and other projectiles within range. When disabled, it no longer intercepts projectiles.</s><r>При включении это здание перехватывает вражеские ракеты, минометные снаряды и другие снаряды в пределах досягаемости. При отключении он больше не перехватывает снаряды.</r></e>
+  <e k="K" key="CM_InterceptProjectiles_Label"><s>Intercept Projectiles</s><r>Перехват снарядов</r></e>
+  <e k="K" key="CM_LauncherDetails"><s>Launcher Parameters</s><r>Параметры лаунчера</r></e>
+  <e k="K" key="CM_LoadMissile"><s>Load Missile</s><r>Загрузить ракету</r></e>
+  <e k="K" key="CM_MK2DestroyEverything"><s>MK2 Destroy Everything</s><r>МК2 уничтожить все</r></e>
+  <e k="K" key="CM_MK2DestroyEverythingDesc"><s>When enabled, MK2 will ignore all game rules and erase all objects (including indestructible quest items).</s><r>При включении MK2 будет игнорировать все правила игры и стирать все объекты (включая неразрушимые квестовые предметы).</r></e>
+  <e k="K" key="CM_MK3DestroyEverything"><s>MK3 Destroy Everything</s><r>МК3 Уничтожить всё</r></e>
+  <e k="K" key="CM_MK3DestroyEverythingDesc"><s>When enabled, MK3 will ignore all game rules and erase all objects (including indestructible quest items).</s><r>При включении MK3 будет игнорировать все правила игры и стирать все объекты (включая неразрушимые квестовые предметы).</r></e>
+  <e k="K" key="CM_MagazineCapacity"><s>Magazine Capacity</s><r>Емкость магазина</r></e>
+  <e k="K" key="CM_MaxHitPoints"><s>Durability (Max HP)</s><r>Прочность (Макс. HP)</r></e>
+  <e k="K" key="CM_MinRange"><s>Minimum Range</s><r>Минимальный диапазон</r></e>
+  <e k="K" key="CM_MissileArrivedLocal"><s>Cruise missiles have entered the target area, beginning continuous strike (total {0}).</s><r>Крылатые ракеты вошли в район цели, начав непрерывный удар (всего {0}).</r></e>
+  <e k="K" key="CM_MissileDetails"><s>Missile Parameters</s><r>Параметры ракеты</r></e>
+  <e k="K" key="CM_ModName"><s>Cruise Missile</s><r>Крылатая ракета</r></e>
+  <e k="K" key="CM_NoProjectileLoaded"><s>No projectile loaded</s><r>Снаряд не загружен</r></e>
+  <e k="K" key="CM_PitGateDestroyed"><s>The pit gate has been completely collapsed and buried from the surface by bunker busters!</s><r>Ворота ямы были полностью разрушены и засыпаны разрушителями бункеров!</r></e>
+  <e k="K" key="CM_PowerConsumption"><s>Power Consumption (negative = generate)</s><r>Потребляемая мощность (отрицательная = генерировать)</r></e>
+  <e k="K" key="CM_RadiusValue"><s>Explosion Radius</s><r>Радиус взрыва</r></e>
+  <e k="K" key="CM_ResetBtn"><s>Reset to Default</s><r>Сбросить настройки по умолчанию</r></e>
+  <e k="K" key="CM_ResetDesc"><s>Restore all parameters to factory settings.</s><r>Восстановите все параметры к заводским настройкам.</r></e>
+  <e k="K" key="CM_SettlementAnnihilated"><s>The superweapon completely erased {0}'s settlement from the map, leaving nothing behind!</s><r>Супероружие полностью стерло поселение {0} с карты, не оставив после себя ничего!</r></e>
+  <e k="K" key="CM_SettlementDamaged"><s>Missiles struck {0}'s settlement, causing severe damage.</s><r>Ракеты поразили поселение {0}, причинив серьёзный ущерб.</r></e>
+  <e k="K" key="CM_SettlementDestroyed"><s>Missiles completely destroyed {0}'s settlement!</s><r>Ракеты полностью разрушили поселение {0}!</r></e>
+  <e k="K" key="CM_SingleForceAttackDesc"><s>Forces the launcher to launch one strike at the target area (completing one set burst cycle), then automatically cancels the forced attack state to conserve ammunition.</s><r>Заставляет пусковую установку нанести один удар по целевой области (завершая один установленный цикл очереди), а затем автоматически отменяет состояние принудительной атаки для экономии боеприпасов.</r></e>
+  <e k="K" key="CM_SingleForceAttackLabel"><s>Single-Round Force Attack</s><r>Однораундовая силовая атака</r></e>
+  <e k="K" key="CM_SiteDestroyed"><s>Target complex {0} has been destroyed by long-range firepower.</s><r>Комплекс Target {0} уничтожен огневой мощью дальнего действия.</r></e>
+  <e k="K" key="CM_StopForceAttackDesc"><s>Clear forced attack target and resume automatic target acquisition.</s><r>Очистите цель принудительной атаки и возобновите автоматическое обнаружение цели.</r></e>
+  <e k="K" key="CM_StopForceAttackLabel"><s>Stop Force Attack</s><r>Остановить силовую атаку</r></e>
+  <e k="K" key="CM_StrikeBaseDestroyChance"><s>Base Destroy Chance (%)</s><r>Базовый шанс уничтожения (%)</r></e>
+  <e k="K" key="CM_StrikeChancePerBurst"><s>Bonus per Burst Shot (%)</s><r>Бонус за серийный выстрел (%)</r></e>
+  <e k="K" key="CM_StrikeMaxDestroyChance"><s>Destroy Chance Cap (%)</s><r>Уничтожить предел шанса (%)</r></e>
+  <e k="K" key="CM_StrikeSiteDestroyChance"><s>Site Base Destroy Chance (%)</s><r>Шанс уничтожения базы сайта (%)</r></e>
+  <e k="K" key="CM_SubDamageValue"><s>Submunition Damage</s><r>Урон суббоеприпасов</r></e>
+  <e k="K" key="CM_SubRadiusValue"><s>Submunition Radius</s><r>Радиус суббоеприпаса</r></e>
+  <e k="K" key="CM_SyncAttackFreeAmmo"><s>Coordinated Attack Free Ammo</s><r>Бесплатные боеприпасы для скоординированной атаки</r></e>
+  <e k="K" key="CM_SyncAttackFreeAmmoDesc"><s>When enabled, secondary turrets called to fire through the fire coordination mechanism will no longer consume their own missile stock.</s><r>Если эта опция включена, второстепенные турели, вызванные для стрельбы через механизм координации огня, больше не будут расходовать собственный запас ракет.</r></e>
+  <e k="K" key="CM_SyncAttackLabel"><s>Fire Control Data Link</s><r>Канал передачи данных управления огнем</r></e>
+  <e k="K" key="CM_TargetCaravanDestroyed"><s>Target caravan no longer exists.</s><r>Target каравана больше не существует.</r></e>
+  <e k="K" key="CM_TrackingStrength"><s>Missile Tracking Strength</s><r>Сила отслеживания ракет</r></e>
+  <e k="K" key="CM_UnmannedMode"><s>Unmanned Mode</s><r>Беспилотный режим</r></e>
+  <e k="K" key="CM_UnmannedModeDesc"><s>When enabled, launchers will automatically acquire targets and fire, and colonists will automatically reload missiles instead of standing nearby to operate continuously.</s><r>Если эта функция включена, пусковые установки будут автоматически захватывать цели и вести огонь, а колонисты будут автоматически перезаряжать ракеты вместо того, чтобы стоять рядом и действовать непрерывно.</r></e>
+  <e k="K" key="CM_WS_CaravanAnnihilated_1"><s>Devastation fell from the sky, and caravan {0} vanished along with its footprints.</s><r>Разрушения обрушились с неба, и караван {0} исчез вместе со своими следами.</r></e>
+  <e k="K" key="CM_WS_CaravanAnnihilated_10"><s>{0} vanished in the white light of the blast; no marker remains on the world map.</s><r>{0} исчез в белом свете взрыва; на карте мира не осталось ни одного маркера.</r></e>
+  <e k="K" key="CM_WS_CaravanAnnihilated_11"><s>The superweapon erased {0} and every possibility it carried.</s><r>Супероружие стерло {0} и все возможности, которые оно содержало.</r></e>
+  <e k="K" key="CM_WS_CaravanAnnihilated_12"><s>There is no sign of {0} left. Only the sand remembers that someone walked here.</s><r>Знака {0} не осталось. Только песок помнит, что здесь кто-то ходил.</r></e>
+  <e k="K" key="CM_WS_CaravanAnnihilated_2"><s>{0} was erased by the superweapon; the trade road has one less familiar set of names.</s><r>{0} было стёрто супероружием; у торговой дороги есть еще один менее знакомый набор названий.</r></e>
+  <e k="K" key="CM_WS_CaravanAnnihilated_3"><s>One warhead rewrote the itinerary of {0}: the final stop is ash.</s><r>Одна боеголовка переписала маршрут {0}: конечная остановка — пепел.</r></e>
+  <e k="K" key="CM_WS_CaravanAnnihilated_4"><s>{0} vaporised in the flash; baggage scattered on the ground with no one to claim it.</s><r>{0} испаряется во вспышке; Багаж разбросан по земле, и никто не сможет его забрать.</r></e>
+  <e k="K" key="CM_WS_CaravanAnnihilated_5"><s>A high-yield airburst covered {0}, flattening the entire column.</s><r>Мощный воздушный взрыв накрыл {0}, сплющив всю колонну.</r></e>
+  <e k="K" key="CM_WS_CaravanAnnihilated_6"><s>Every member of {0} lost their tomorrow in the same second.</s><r>Каждый участник {0} потерял свое завтра в одну и ту же секунду.</r></e>
+  <e k="K" key="CM_WS_CaravanAnnihilated_7"><s>After the strike, the only trace of {0} is a scorched travel route.</s><r>После удара единственным следом {0} является выжженный маршрут передвижения.</r></e>
+  <e k="K" key="CM_WS_CaravanAnnihilated_8"><s>{0} was erased completely; not even the pack animals outran the shockwave.</s><r>{0} полностью стерт; даже вьючные животные не смогли убежать от ударной волны.</r></e>
+  <e k="K" key="CM_WS_CaravanAnnihilated_9"><s>That caravan, {0}, will never make another camp.</s><r>Этот караван, {0}, никогда больше не разобьет лагерь.</r></e>
+  <e k="K" key="CM_WS_CaravanHit_1"><s>Missiles hit caravan {0}; the column scattered in the explosion.</s><r>Ракеты попали в караван {0}; колонна разлетелась взрывом.</r></e>
+  <e k="K" key="CM_WS_CaravanHit_10"><s>{0} was hit; those still alive can only keep walking on luck.</s><r>{0} был поражен; те, кто еще жив, могут продолжать идти только по счастливой случайности.</r></e>
+  <e k="K" key="CM_WS_CaravanHit_11"><s>The missile's greetings were delivered to {0}, at the cost of several lives.</s><r>Приветствие ракеты было доставлено в {0} ценой нескольких жизней.</r></e>
+  <e k="K" key="CM_WS_CaravanHit_12"><s>{0} regrouped in the smoke. They will remember that sound.</s><r>{0} перегруппировались в дыму. Они запомнят этот звук.</r></e>
+  <e k="K" key="CM_WS_CaravanHit_2"><s>{0} was struck by a high-speed warhead — heavy losses, but not wiped out.</s><r>{0} был поражен высокоскоростной боеголовкой — большие потери, но не уничтожены.</r></e>
+  <e k="K" key="CM_WS_CaravanHit_3"><s>The strike landed in the middle of {0}; pack animals bolted in panic across the wilds.</s><r>Удар пришелся на середину {0}; вьючные животные в панике метались по дебрям.</r></e>
+  <e k="K" key="CM_WS_CaravanHit_4"><s>{0}'s column was blown apart; survivors drag the wounded onward.</s><r>Колонна {0} была разорвана на части; выжившие тащат раненых вперед.</r></e>
+  <e k="K" key="CM_WS_CaravanHit_5"><s>The cruise missile taught {0} a brutal lesson: the sky is not safe either.</s><r>Крылатая ракета преподала {0} жестокий урок: небо тоже небезопасно.</r></e>
+  <e k="K" key="CM_WS_CaravanHit_6"><s>The convoy of {0} was torn open, cargo spilled across the ground.</s><r>Конвой {0} был разорван, груз рассыпался по земле.</r></e>
+  <e k="K" key="CM_WS_CaravanHit_7"><s>The warhead went off in the ranks of {0}; the screams were carried off by the wind.</s><r>Боеголовка взорвалась в рядах {0}; крики унес ветер.</r></e>
+  <e k="K" key="CM_WS_CaravanHit_8"><s>{0} came under air attack; the veterans in the column started missing the mountain roads.</s><r>{0} подвергся воздушной атаке; ветераны в колонне начали скучать по горным дорогам.</r></e>
+  <e k="K" key="CM_WS_CaravanHit_9"><s>The strike mauled {0} badly, but did not finish the column.</s><r>Удар сильно повредил {0}, но не добил колонну.</r></e>
+  <e k="K" key="CM_WS_EmptyLand_1"><s>The missile dove into the empty night and bloomed into a silent flower — there was nothing living for miles.</s><r>Ракета нырнула в пустую ночь и расцвела молчаливым цветком — на мили вокруг не было ничего живого.</r></e>
+  <e k="K" key="CM_WS_EmptyLand_10"><s>The missile left one last message on the wasteland: there was nothing here.</s><r>Ракета оставила на пустыре последнее сообщение: здесь ничего не было.</r></e>
+  <e k="K" key="CM_WS_EmptyLand_11"><s>The blast radius was empty — not even a stone worth destroying.</s><r>Радиус взрыва был пуст — не было даже камня, который стоило бы уничтожить.</r></e>
+  <e k="K" key="CM_WS_EmptyLand_12"><s>Another one wasted on empty ground. The squirrels in the corner of the map object.</s><r>Еще один потерян на пустой земле. Белки в углу объекта карты.</r></e>
+  <e k="K" key="CM_WS_EmptyLand_2"><s>The warhead landed in a stretch of wild grass and startled a few rabbits. That was all.</s><r>Боеголовка упала на участок дикой травы и напугала нескольких кроликов. Вот и все.</r></e>
+  <e k="K" key="CM_WS_EmptyLand_3"><s>An expensive cruise missile bought you one perfect crater. The engineers would applaud.</s><r>Дорогая крылатая ракета подарила вам один идеальный кратер. Инженеры бы аплодировали.</r></e>
+  <e k="K" key="CM_WS_EmptyLand_4"><s>Only a tumbleweed stood at the target coordinates. It survived.</s><r>Лишь перекати-поле стояло по координатам цели. Оно выжило.</r></e>
+  <e k="K" key="CM_WS_EmptyLand_5"><s>Smoke rose from the impact point, then the plains wind carried it away in one breath.</s><r>Дым поднялся от места удара, затем равнинный ветер унес его на одном дыхании.</r></e>
+  <e k="K" key="CM_WS_EmptyLand_6"><s>The missile vented its fury on open wilderness, turning the soil inside out.</s><r>Ракета выплеснула свою ярость на пустыню, вывернув почву наизнанку.</r></e>
+  <e k="K" key="CM_WS_EmptyLand_7"><s>In that empty land the explosion travelled far and found no one to listen.</s><r>В этой пустой земле взрыв распространился далеко и не нашел никого, кто мог бы его услышать.</r></e>
+  <e k="K" key="CM_WS_EmptyLand_8"><s>A scorched shrub at the crater's edge is the sole trophy of this strike.</s><r>Выжженный куст на краю кратера — единственный трофей этого удара.</r></e>
+  <e k="K" key="CM_WS_EmptyLand_9"><s>You bombed a meadow. The grass will grow back.</s><r>Вы разбомбили луг. Трава вырастет снова.</r></e>
+  <e k="K" key="CM_WS_EmptyWater_1"><s>The warhead smashed into the sea, throwing up a column of water — and then nothing happened.</s><r>Боеголовка врезалась в море, выбрасывая столб воды — и дальше ничего не произошло.</r></e>
+  <e k="K" key="CM_WS_EmptyWater_10"><s>The missile gave itself to the ocean, and the ocean did not even say thank you.</s><r>Ракета отдалась океану, а океан даже спасибо не сказал.</r></e>
+  <e k="K" key="CM_WS_EmptyWater_11"><s>The spray fell, the surface went calm, and the strike achieved nothing.</s><r>Брызги упали, поверхность успокоилась, и удар ни к чему не привел.</r></e>
+  <e k="K" key="CM_WS_EmptyWater_12"><s>The target coordinate lies in open water. Nothing but waves to hit.</s><r>Координата цели лежит в открытой воде. Ничего, кроме волн, чтобы ударить.</r></e>
+  <e k="K" key="CM_WS_EmptyWater_2"><s>The deep swallowed the missile and barely bothered to bubble.</s><r>Пучина поглотила ракету и едва удосужилась пузыриться.</r></e>
+  <e k="K" key="CM_WS_EmptyWater_3"><s>The blast raised a wave; seconds later the sea closed over it as if nothing had happened.</s><r>Взрыв поднял волну; секунды спустя море сомкнулось над ним, как ни в чем не бывало.</r></e>
+  <e k="K" key="CM_WS_EmptyWater_4"><s>The missile kissed the ocean surface. The price was a school of startled fish.</s><r>Ракета коснулась поверхности океана. Ценой стал косяк испуганной рыбы.</r></e>
+  <e k="K" key="CM_WS_EmptyWater_5"><s>On the chart the impact point is just a coordinate. There was nothing in the water worth destroying.</s><r>На графике точка удара — это просто координата. В воде не было ничего, что стоило бы уничтожить.</r></e>
+  <e k="K" key="CM_WS_EmptyWater_6"><s>The sea cooled the missile down and buried it for free.</s><r>Море охладило ракету и бесплатно захоронило ее.</r></e>
+  <e k="K" key="CM_WS_EmptyWater_7"><s>A cloud of steam rose and dispersed; the gulls watched a free fireworks show from afar.</s><r>Облако пара поднялось и рассеялось; чайки издалека наблюдали за бесплатным фейерверком.</r></e>
+  <e k="K" key="CM_WS_EmptyWater_8"><s>The warhead detonated in the shallows and muddied a patch of water. That is all.</s><r>Боеголовка взорвалась на мелководье и замутила участок воды. Вот и все.</r></e>
+  <e k="K" key="CM_WS_EmptyWater_9"><s>Somewhere on the seabed there is a new hole. Only the ripples can testify.</s><r>Где-то на морском дне появилась новая дыра. Только рябь может свидетельствовать.</r></e>
+  <e k="K" key="CM_WS_FriendlyFire_1"><s>You dropped missiles on your own settlement. The residents of {0} send their regards.</s><r>Вы сбросили ракеты на свое поселение. Жители {0} передают привет.</r></e>
+  <e k="K" key="CM_WS_FriendlyFire_10"><s>The IFF code of {0} reads &quot;friendly&quot;. The missile turned and left.</s><r>Код IFF {0} означает «дружественный». Ракета развернулась и улетела.</r></e>
+  <e k="K" key="CM_WS_FriendlyFire_11"><s>The missile informs you: {0} uses your own banner. This one does not count.</s><r>Ракета сообщает вам: {0} использует ваш собственный баннер. Этот не в счет.</r></e>
+  <e k="K" key="CM_WS_FriendlyFire_12"><s>A historic accident was barely avoided at {0}. The safety interlock did the heavy lifting.</s><r>Историческую аварию едва удалось избежать в {0}. Блокировка безопасности сделала тяжелую работу.</r></e>
+  <e k="K" key="CM_WS_FriendlyFire_2"><s>Strong condemnation: the target {0} is your own territory, and the warhead was forced to detonate on the outskirts at the last moment.</s><r>Резкое осуждение: цель {0} — ваша собственная территория, а боеголовка была вынуждена взорваться на окраине в последний момент.</r></e>
+  <e k="K" key="CM_WS_FriendlyFire_3"><s>Fire control aborted in a hurry and avoided an epic friendly-fire incident ({0}).</s><r>Управление огнем было поспешно прервано и позволило избежать эпического инцидента с дружественным огнем ({0}).</r></e>
+  <e k="K" key="CM_WS_FriendlyFire_4"><s>The missile hesitated for a second over {0}, then was detonated safely.</s><r>Ракета секунду колебалась над {0}, а затем благополучно взорвалась.</r></e>
+  <e k="K" key="CM_WS_FriendlyFire_5"><s>Are you sure you want to bomb {0}? The system answered for you: no.</s><r>Вы уверены, что хотите взорвать {0}? Система ответила за вас: нет.</r></e>
+  <e k="K" key="CM_WS_FriendlyFire_6"><s>The targeting computer asked a soul-searching question: {0} flies our own flag, all right?</s><r>Компьютер наведения задал душераздирающий вопрос: {0} развевает наш собственный флаг, ясно?</r></e>
+  <e k="K" key="CM_WS_FriendlyFire_7"><s>The warhead carved an arc at the edge of {0} and turned back to self-destruct. Thank goodness.</s><r>Боеголовка вырезала дугу на краю {0} и повернулась обратно, чтобы самоуничтожиться. Слава богу.</r></e>
+  <e k="K" key="CM_WS_FriendlyFire_8"><s>Strike order denied: {0} is your own holding. Please treasure it.</s><r>Приказ на забастовку отклонен: {0} — ваш собственный холдинг. Пожалуйста, цените это.</r></e>
+  <e k="K" key="CM_WS_FriendlyFire_9"><s>The fire-control officer moved his finger off the launch key. The residents of {0} owe him their lives.</s><r>Офицер управления огнем убрал палец с клавиши запуска. Жители {0} обязаны ему жизнью.</r></e>
+  <e k="K" key="CM_WS_Intercepted_1"><s>The anti-missile system of {0} fired first, and the missile broke into fireworks in mid-air.</s><r>Противоракетная система {0} выстрелила первой, и ракета взорвалась фейерверком в воздухе.</r></e>
+  <e k="K" key="CM_WS_Intercepted_10"><s>The trajectory ended above {0}; the air defence saved you an argument.</s><r>Траектория закончилась выше {0}; ПВО спасло вас от спора.</r></e>
+  <e k="K" key="CM_WS_Intercepted_11"><s>The radar of {0} had it locked long ago. The interception took two seconds.</s><r>Радар {0} уже давно заблокировал его. Перехват занял две секунды.</r></e>
+  <e k="K" key="CM_WS_Intercepted_12"><s>The strike was swallowed by the air-defence net of {0}, leaving only static.</s><r>Удар был поглощен сетью ПВО {0}, оставив лишь помехи.</r></e>
+  <e k="K" key="CM_WS_Intercepted_2"><s>The warhead was called out inside the air-defence envelope of {0} and disintegrated in flight.</s><r>Боеголовка вышла из зоны действия ПВО {0} и распалась в полете.</r></e>
+  <e k="K" key="CM_WS_Intercepted_3"><s>Interceptors from {0} caught your missile above the clouds.</s><r>Перехватчики из {0} поймали вашу ракету над облаками.</r></e>
+  <e k="K" key="CM_WS_Intercepted_4"><s>Warning lights came on; the missile defence net of {0} swallowed this strike whole.</s><r>Загорелись сигнальные огни; Сеть противоракетной обороны {0} поглотила этот удар целиком.</r></e>
+  <e k="K" key="CM_WS_Intercepted_5"><s>Your missile charged into the air-defence fire net of {0}, and then there was nothing.</s><r>Ваша ракета попала в огневую сеть ПВО {0}, а затем ничего не произошло.</r></e>
+  <e k="K" key="CM_WS_Intercepted_6"><s>The air defence of {0} proved unexpectedly agile; the warhead was shot down.</s><r>ПВО {0} оказалась неожиданно гибкой; боеголовка была сбита.</r></e>
+  <e k="K" key="CM_WS_Intercepted_7"><s>Interception successful — an unwelcome cloud appeared in the sky over {0}.</s><r>Перехват успешен — в небе над {0} появилось нежелательное облако.</r></e>
+  <e k="K" key="CM_WS_Intercepted_8"><s>The missile was destroyed off the coast of {0}, fragments scattering everywhere.</s><r>Ракета была уничтожена у берегов {0}, ее осколки разлетелись повсюду.</r></e>
+  <e k="K" key="CM_WS_Intercepted_9"><s>The interceptor array of {0} ran at full load and stopped your strike dead.</s><r>Массив перехватчиков {0} работал на полную нагрузку и остановил ваш удар.</r></e>
+  <e k="K" key="CM_WS_OutpostDamaged_1"><s>{0} took a hit. The walls are charred, but the banner still flies.</s><r>{0} получил удар. Стены обуглены, но знамя все еще развевается.</r></e>
+  <e k="K" key="CM_WS_OutpostDamaged_10"><s>The strike did not destroy {0}; that outpost still flickers on the map.</s><r>Удар не уничтожил {0}; этот аванпост все еще мелькает на карте.</r></e>
+  <e k="K" key="CM_WS_OutpostDamaged_11"><s>The perimeter wall of {0} is breached, but it is far from being flattened.</s><r>Стена по периметру {0} прорвана, но еще далека от выравнивания.</r></e>
+  <e k="K" key="CM_WS_OutpostDamaged_12"><s>The ammo was spent and {0} is still there. Bring more next time.</s><r>Боеприпасы были израсходованы, а {0} все еще здесь. Принесите больше в следующий раз.</r></e>
+  <e k="K" key="CM_WS_OutpostDamaged_2"><s>The strike detonated on the outskirts of {0}; the core area was missed.</s><r>Удар произошел на окраине {0}; основная область была пропущена.</r></e>
+  <e k="K" key="CM_WS_OutpostDamaged_3"><s>The watchtower at {0} collapsed, but its main building is still breathing.</s><r>Сторожевая башня в {0} рухнула, но ее главное здание все еще дышит.</r></e>
+  <e k="K" key="CM_WS_OutpostDamaged_4"><s>The missile skimmed the roof of {0}, leaving a scar rather than an ending.</s><r>Ракета пролетела над крышей {0}, оставив вместо окончания шрам.</r></e>
+  <e k="K" key="CM_WS_OutpostDamaged_5"><s>A corner of {0} was torn away, and someone is clearly still moving inside.</s><r>Угол {0} был оторван, и внутри явно кто-то все еще движется.</r></e>
+  <e k="K" key="CM_WS_OutpostDamaged_6"><s>This strike merely added a few more shell marks to {0}.</s><r>Этот удар лишь добавил еще несколько отметок от снарядов к {0}.</r></e>
+  <e k="K" key="CM_WS_OutpostDamaged_7"><s>{0} took the strike and still stands amid the dust.</s><r>{0} принял на себя удар и до сих пор стоит среди пыли.</r></e>
+  <e k="K" key="CM_WS_OutpostDamaged_8"><s>The warhead went off at the edge of {0}, failing to reach anything vital.</s><r>Боеголовка взорвалась на границе {0}, не достигнув ничего жизненно важного.</r></e>
+  <e k="K" key="CM_WS_OutpostDamaged_9"><s>{0} is badly damaged but stubbornly refuses to leave the map.</s><r>{0} сильно поврежден, но упорно отказывается покидать карту.</r></e>
+  <e k="K" key="CM_WS_OutpostDestroyed_1"><s>The outpost called {0} has been crossed off the map.</s><r>Аванпост под названием {0} был вычеркнут с карты.</r></e>
+  <e k="K" key="CM_WS_OutpostDestroyed_10"><s>The missile extinguished a coordinate named {0}. Nothing lives there now.</s><r>Ракета погасила координату {0}. Сейчас там ничего не живет.</r></e>
+  <e k="K" key="CM_WS_OutpostDestroyed_11"><s>{0} has been destroyed, leaving only a field of red-hot wreckage.</s><r>{0} был разрушен, оставив лишь поле раскалённых обломков.</r></e>
+  <e k="K" key="CM_WS_OutpostDestroyed_12"><s>The outpost {0} vanished from the map like an eraser had passed over it.</s><r>Аванпост {0} исчез с карты, как будто по нему прошел ластик.</r></e>
+  <e k="K" key="CM_WS_OutpostDestroyed_2"><s>The missile found {0} and wiped it cleanly off the world map.</s><r>Ракета нашла {0} и полностью стерла его с карты мира.</r></e>
+  <e k="K" key="CM_WS_OutpostDestroyed_3"><s>{0} came apart under the strike; no supply will ever be delivered there again.</s><r>{0} развалилось под ударом; никакие поставки туда больше никогда не будут доставлены.</r></e>
+  <e k="K" key="CM_WS_OutpostDestroyed_4"><s>Long-range fire hit {0}; the structures there are now scorched earth.</s><r>Огонь дальнего действия поразил {0}; постройки там теперь представляют собой выжженную землю.</r></e>
+  <e k="K" key="CM_WS_OutpostDestroyed_5"><s>{0} was taken out in one shot; that little icon on the map is gone.</s><r>{0} был уничтожен одним выстрелом; этот маленький значок на карте исчез.</r></e>
+  <e k="K" key="CM_WS_OutpostDestroyed_6"><s>The warhead landed in {0}. Minutes later, only fire and smoke remained.</s><r>Боеголовка приземлилась в {0}. Через несколько минут остались только огонь и дым.</r></e>
+  <e k="K" key="CM_WS_OutpostDestroyed_7"><s>{0} was cleared out entirely, leaving a blank spot on the world map.</s><r>{0} был полностью уничтожен, оставив пустое место на карте мира.</r></e>
+  <e k="K" key="CM_WS_OutpostDestroyed_8"><s>That outpost, {0}, did not survive this saturation strike.</s><r>Этот аванпост, {0}, не пережил удара насыщения.</r></e>
+  <e k="K" key="CM_WS_OutpostDestroyed_9"><s>{0} was erased from the world, along with every supply stored there.</s><r>{0} был стерт из мира вместе со всеми хранившимися там запасами.</r></e>
+  <e k="K" key="CM_WS_SettlementAnnihilated_1"><s>The superweapon erased {0}; the world now has one fewer place name.</s><r>Супероружие стерло {0}; в мире теперь на одно географическое название меньше.</r></e>
+  <e k="K" key="CM_WS_SettlementAnnihilated_10"><s>The superweapon made {0} vanish like a hallucination, with scorched earth as the only proof.</s><r>Супероружие заставило {0} исчезнуть, как галлюцинация, единственным доказательством чего стала выжженная земля.</r></e>
+  <e k="K" key="CM_WS_SettlementAnnihilated_11"><s>{0} was torn out of the world by the roots; even its name was blown apart.</s><r>{0} был вырван из мира с корнем; даже его название было разрушено.</r></e>
+  <e k="K" key="CM_WS_SettlementAnnihilated_12"><s>{0} no longer exists. That scar on the map is its entire legacy.</s><r>{0} больше не существует. Этот шрам на карте – все ее наследие.</r></e>
+  <e k="K" key="CM_WS_SettlementAnnihilated_2"><s>Every building in {0} disappeared in the same instant, leaving only the echo of a shockwave.</s><r>Все здания в {0} исчезли в одно и то же мгновение, оставив лишь эхо ударной волны.</r></e>
+  <e k="K" key="CM_WS_SettlementAnnihilated_3"><s>Devastation came to {0}, and the whole settlement was scraped off the surface.</s><r>Разрушения достигли {0}, и всё поселение было соскоблено с поверхности.</r></e>
+  <e k="K" key="CM_WS_SettlementAnnihilated_4"><s>{0} was vaporised completely; it would not even leave you ruins to look at.</s><r>{0} полностью испарился; оно даже не оставит вам руин, на которые можно было бы смотреть.</r></e>
+  <e k="K" key="CM_WS_SettlementAnnihilated_5"><s>A high-yield warhead turned {0} into a steaming, gaping crater.</s><r>Мощная боеголовка превратила {0} в дымящийся зияющий кратер.</r></e>
+  <e k="K" key="CM_WS_SettlementAnnihilated_6"><s>{0} was erased in the flash, leaving only a scorched dot on the map.</s><r>{0} стерлось во вспышке, оставив на карте только выжженную точку.</r></e>
+  <e k="K" key="CM_WS_SettlementAnnihilated_7"><s>Seen from above, {0} has become a quiet patch of black.</s><r>Если смотреть сверху, {0} превратился в тихое черное пятно.</r></e>
+  <e k="K" key="CM_WS_SettlementAnnihilated_8"><s>{0} was &quot;deleted&quot;. Enemy archives will record the cause as unknown.</s><r>{0} был «удален». Вражеские архивы запишут причину как неизвестную.</r></e>
+  <e k="K" key="CM_WS_SettlementAnnihilated_9"><s>After the strike, even the foundations of {0} had melted into glass.</s><r>После удара даже фундамент {0} превратился в стекло.</r></e>
+  <e k="K" key="CM_WS_SettlementDamaged_1"><s>Missiles hit {0}; fire lit the sky, but the settlement still stands.</s><r>Ракеты попали в {0}; огонь осветил небо, но поселение все еще стоит.</r></e>
+  <e k="K" key="CM_WS_SettlementDamaged_10"><s>{0} is damaged. Sirens have replaced the flag signals, but it is still there.</s><r>{0} поврежден. Сирены заменили сигналы флага, но он все еще существует.</r></e>
+  <e k="K" key="CM_WS_SettlementDamaged_11"><s>The outer wall of {0} is breached; the main structure refuses to collapse.</s><r>Внешняя стена {0} прорвана; основная конструкция отказывается разрушаться.</r></e>
+  <e k="K" key="CM_WS_SettlementDamaged_12"><s>The strike is over. {0} still flickers on the map — just with a lot more scorching.</s><r>Забастовка окончена. {0} все еще мерцает на карте, только уже более паляще.</r></e>
+  <e k="K" key="CM_WS_SettlementDamaged_2"><s>{0} took a full salvo — badly damaged, but not destroyed.</s><r>{0} получил полный залп — сильно поврежден, но не уничтожен.</r></e>
+  <e k="K" key="CM_WS_SettlementDamaged_3"><s>The strike tore open the outer defence line of {0}, yet the depth was untouched.</s><r>Удар прорвал внешнюю линию обороны {0}, но глубина осталась нетронутой.</r></e>
+  <e k="K" key="CM_WS_SettlementDamaged_4"><s>The roofs of {0} collapsed, but its skeleton is still holding on.</s><r>Крыши {0} рухнули, но его скелет все еще держится.</r></e>
+  <e k="K" key="CM_WS_SettlementDamaged_5"><s>The explosion went off at the edge of {0}; the core buildings escaped.</s><r>Взрыв произошел на границе {0}; основные здания сбежали.</r></e>
+  <e k="K" key="CM_WS_SettlementDamaged_6"><s>{0} was left buried in dust, but it clearly has not fallen.</s><r>{0} остался погребенным в пыли, но явно не упал.</r></e>
+  <e k="K" key="CM_WS_SettlementDamaged_7"><s>This strike merely added a few craters to the cityscape of {0}.</s><r>Этот удар лишь добавил несколько кратеров к городскому пейзажу {0}.</r></e>
+  <e k="K" key="CM_WS_SettlementDamaged_8"><s>{0} took a saturation strike and remains intact amid its ruins.</s><r>{0} получил удар насыщения и остался нетронутым среди руин.</r></e>
+  <e k="K" key="CM_WS_SettlementDamaged_9"><s>The missiles failed to destroy {0} — they did their best.</s><r>Ракетам не удалось уничтожить {0} — они сделали все, что могли.</r></e>
+  <e k="K" key="CM_WS_SettlementDestroyed_1"><s>Missiles saturated {0}; the whole settlement became fire and ruins.</s><r>Ракеты насыщены {0}; все поселение превратилось в огонь и руины.</r></e>
+  <e k="K" key="CM_WS_SettlementDestroyed_10"><s>{0} has been destroyed. The report will read &quot;target does not exist&quot;.</s><r>{0} был уничтожен. В отчете будет написано «Цель не существует».</r></e>
+  <e k="K" key="CM_WS_SettlementDestroyed_11"><s>The missiles finished their task. {0} is now just a place name.</s><r>Ракеты выполнили свою задачу. {0} теперь просто название места.</r></e>
+  <e k="K" key="CM_WS_SettlementDestroyed_12"><s>The core of {0} was blown through; the settlement is declared dead.</s><r>Ядро {0} было прорвано; поселение объявлено мертвым.</r></e>
+  <e k="K" key="CM_WS_SettlementDestroyed_2"><s>{0} came apart in a chain of explosions; its defence line collapsed completely.</s><r>{0} распалась в цепочке взрывов; линия его обороны полностью рухнула.</r></e>
+  <e k="K" key="CM_WS_SettlementDestroyed_3"><s>The strike destroyed {0}; the survivors only had time to carry away their fear.</s><r>Удар уничтожил {0}; выжившие успели только унести свой страх.</r></e>
+  <e k="K" key="CM_WS_SettlementDestroyed_4"><s>The buildings of {0} were pulled down one by one, the sky blackened with smoke.</s><r>Здания {0} рушились одно за другим, небо почернело от дыма.</r></e>
+  <e k="K" key="CM_WS_SettlementDestroyed_5"><s>Missiles hit {0} in a vital spot; the settlement is written off.</s><r>Ракеты попали в {0} в жизненно важную точку; расчет списан.</r></e>
+  <e k="K" key="CM_WS_SettlementDestroyed_6"><s>{0} burned down to charcoal under the strike, its defences gone.</s><r>{0} сгорел дотла под ударом, его защита исчезла.</r></e>
+  <e k="K" key="CM_WS_SettlementDestroyed_7"><s>After one salvo, {0} is nothing but smoking, broken walls.</s><r>После одного залпа {0} представляет собой не что иное, как дымящиеся разбитые стены.</r></e>
+  <e k="K" key="CM_WS_SettlementDestroyed_8"><s>When the banner of {0} fell, the whole settlement was on fire.</s><r>Когда знамя {0} пало, все поселение загорелось.</r></e>
+  <e k="K" key="CM_WS_SettlementDestroyed_9"><s>The strike wiped half of {0} off the map; the rest is all ruins.</s><r>Забастовка стерла с карты половину {0}; все остальное — руины.</r></e>
+  <e k="K" key="CM_WS_SiteAnnihilated_1"><s>The superweapon flattened {0}; that complex now exists only as a legend on the map.</s><r>Супероружие сплющилось {0}; сейчас этот комплекс существует только в виде легенды на карте.</r></e>
+  <e k="K" key="CM_WS_SiteAnnihilated_10"><s>{0} was melted into scorched earth; even its shadow was blasted away.</s><r>{0} расплавился в выжженную землю; даже его тень была уничтожена.</r></e>
+  <e k="K" key="CM_WS_SiteAnnihilated_11"><s>That complex, {0}, no longer exists — only a dead silence remains.</s><r>Этого комплекса, {0}, больше не существует — остается только мертвая тишина.</r></e>
+  <e k="K" key="CM_WS_SiteAnnihilated_12"><s>{0} was cleanly &quot;deleted&quot;. The crater is its only tombstone.</s><r>{0} был полностью «удален». Кратер является его единственным надгробием.</r></e>
+  <e k="K" key="CM_WS_SiteAnnihilated_2"><s>{0} was wiped off the surface whole, not even an outline left behind.</s><r>{0} полностью стерлось с поверхности, не осталось даже контура.</r></e>
+  <e k="K" key="CM_WS_SiteAnnihilated_3"><s>Devastation descended, and everything in {0} was pressed into powder by the shockwave.</s><r>Начались разрушения, и все в {0} было превращено в порошок ударной волной.</r></e>
+  <e k="K" key="CM_WS_SiteAnnihilated_4"><s>Every wall of {0} vanished at once in the flash, as if it had never been built.</s><r>Каждая стена {0} мгновенно исчезла во вспышке, как будто ее никогда и не строили.</r></e>
+  <e k="K" key="CM_WS_SiteAnnihilated_5"><s>After the strike, all that remains of {0} is a circle burned to glass.</s><r>После удара все, что осталось от {0}, — это выжженный до стекла круг.</r></e>
+  <e k="K" key="CM_WS_SiteAnnihilated_6"><s>{0} was erased utterly; survey teams will find only blackened flatland.</s><r>{0} был полностью стерт; исследовательские группы обнаружат только почерневшую равнину.</r></e>
+  <e k="K" key="CM_WS_SiteAnnihilated_7"><s>A high-yield warhead sent {0} and its foundations into history.</s><r>Мощная боеголовка отправила {0} и его основы в историю.</r></e>
+  <e k="K" key="CM_WS_SiteAnnihilated_8"><s>{0} exited the map in milliseconds. Impressive efficiency.</s><r>{0} покинул карту через миллисекунды. Впечатляющая эффективность.</r></e>
+  <e k="K" key="CM_WS_SiteAnnihilated_9"><s>When the shockwave passed, there were no bricks left to find at {0}.</s><r>Когда ударная волна прошла, в {0} не осталось кирпичей.</r></e>
+  <e k="K" key="CM_WS_SiteDamaged_1"><s>Missiles hit {0}; a corner of wall came down, but the main structure stubbornly stands.</s><r>Ракеты попали в {0}; угол стены обрушился, но основная конструкция упорно стоит.</r></e>
+  <e k="K" key="CM_WS_SiteDamaged_10"><s>{0} is damaged, but it will clearly take several more hits to bring it down.</s><r>{0} поврежден, но, очевидно, потребуется еще несколько ударов, чтобы его вывести из строя.</r></e>
+  <e k="K" key="CM_WS_SiteDamaged_11"><s>The strike only tore the roof off {0}; whatever is below is still there.</s><r>Удар лишь снес крышу {0}; все, что внизу, все еще здесь.</r></e>
+  <e k="K" key="CM_WS_SiteDamaged_12"><s>{0} weathered this blow, smoke rising from the breach.</s><r>{0} выдержал этот удар, из пролома поднялся дым.</r></e>
+  <e k="K" key="CM_WS_SiteDamaged_2"><s>{0} was punched open, and the defenders inside are probably cursing.</s><r>{0} был пробит, и защитники внутри, вероятно, ругаются.</r></e>
+  <e k="K" key="CM_WS_SiteDamaged_3"><s>The warhead detonated on the outskirts of {0}, failing to reach the core.</s><r>Боеголовка взорвалась на окраине {0}, не сумев достичь ядра.</r></e>
+  <e k="K" key="CM_WS_SiteDamaged_4"><s>{0} took a hit. It is burning, but clearly not collapsed.</s><r>{0} получил удар. Он горит, но явно не рухнул.</r></e>
+  <e k="K" key="CM_WS_SiteDamaged_5"><s>This round only grazed the edge of {0}; the ruins are smaller than expected.</s><r>Этот раунд лишь задел границу {0}; руины меньше, чем ожидалось.</r></e>
+  <e k="K" key="CM_WS_SiteDamaged_6"><s>{0} took the strike and shows clear damage, but intact structures remain.</s><r>{0} принял на себя удар и имеет явные повреждения, но постройки остались нетронутыми.</r></e>
+  <e k="K" key="CM_WS_SiteDamaged_7"><s>The blast tore open the outer wall of {0} without penetrating deeper.</s><r>Взрыв разорвал внешнюю стену {0}, не проникнув глубже.</r></e>
+  <e k="K" key="CM_WS_SiteDamaged_8"><s>{0} was left in a cloud of dust, yet its main body still stands.</s><r>{0} остался в облаке пыли, но его основная часть все еще стоит.</r></e>
+  <e k="K" key="CM_WS_SiteDamaged_9"><s>The crater fell short of the vital point in {0}; the target was not destroyed.</s><r>Кратер не достиг жизненно важной точки в {0}; цель не была уничтожена.</r></e>
+  <e k="K" key="CM_WS_SiteDestroyed_1"><s>Long-range fire covered {0} precisely; the structures came apart in a chain of explosions.</s><r>Дальний огонь охватывал точно {0}; конструкции развалились в результате цепочки взрывов.</r></e>
+  <e k="K" key="CM_WS_SiteDestroyed_10"><s>The walls of {0} caved inward and buried everything beneath the ruins.</s><r>Стены {0} прогнулись внутрь и погребли все под руинами.</r></e>
+  <e k="K" key="CM_WS_SiteDestroyed_11"><s>The cruise missile did its job. {0} is now a historical term.</s><r>Крылатая ракета сделала свое дело. {0} теперь является историческим термином.</r></e>
+  <e k="K" key="CM_WS_SiteDestroyed_12"><s>{0} was destroyed completely; scouts will report &quot;no signs of life&quot;.</s><r>{0} был полностью разрушен; разведчики сообщат: «нет признаков жизни».</r></e>
+  <e k="K" key="CM_WS_SiteDestroyed_2"><s>The defences of {0} could not take this round — only ruins remain.</s><r>Оборона {0} не смогла выдержать этот раунд — остались одни руины.</r></e>
+  <e k="K" key="CM_WS_SiteDestroyed_3"><s>Missiles punched through the roof; sympathetic detonation inside collapsed {0} in moments.</s><r>Ракеты пробили крышу; симпатическая детонация внутри рухнула на {0} за считанные секунды.</r></e>
+  <e k="K" key="CM_WS_SiteDestroyed_4"><s>{0} was dismantled into spare parts, and nobody plans to reassemble it.</s><r>{0} разобрали на запчасти, и собирать его никто не планирует.</r></e>
+  <e k="K" key="CM_WS_SiteDestroyed_5"><s>After the strike, {0} is broken walls and burning beams.</s><r>После удара {0} — это разрушенные стены и горящие балки.</r></e>
+  <e k="K" key="CM_WS_SiteDestroyed_6"><s>The buildings of {0} were pulled down one by one, as if by a giant hand.</s><r>Здания {0} рушились одно за другим, словно гигантской рукой.</r></e>
+  <e k="K" key="CM_WS_SiteDestroyed_7"><s>Secondary explosions spread from the heart of {0}, and the whole complex fell.</s><r>Вторичные взрывы распространились из сердца {0}, и весь комплекс рухнул.</r></e>
+  <e k="K" key="CM_WS_SiteDestroyed_8"><s>{0} was hit in a vital spot; structural integrity dropped to zero instantly.</s><r>{0} получил удар в жизненно важное место; Структурная целостность мгновенно упала до нуля.</r></e>
+  <e k="K" key="CM_WS_SiteDestroyed_9"><s>The mushroom cloud over the impact point announced that {0} is written off.</s><r>Грибовидное облако над точкой падения возвестило о том, что {0} списано.</r></e>
+  <e k="K" key="CM_WS_TargetGone_1"><s>There is nothing at the coordinates; target {0} vanished into history long ago.</s><r>По координатам ничего нет; цель {0} давно исчезла в истории.</r></e>
+  <e k="K" key="CM_WS_TargetGone_10"><s>{0} is no longer on the map — your intelligence was one step behind.</s><r>{0} больше нет на карте — ваш интеллект отставал на шаг.</r></e>
+  <e k="K" key="CM_WS_TargetGone_11"><s>By the time the warhead arrived, {0} was already old news.</s><r>К моменту прибытия боеголовки {0} уже была старой новостью.</r></e>
+  <e k="K" key="CM_WS_TargetGone_12"><s>The coordinates of {0} are empty. The strike routine terminated automatically.</s><r>Координаты {0} пусты. Процедура забастовки автоматически завершилась.</r></e>
+  <e k="K" key="CM_WS_TargetGone_2"><s>{0} has been gone for a while. The missile made the trip for nothing.</s><r>{0} уже давно нет. Ракета совершила полет зря.</r></e>
+  <e k="K" key="CM_WS_TargetGone_3"><s>The fire-control target list updated too slowly: {0} no longer exists.</s><r>Список целей управления огнем обновлялся слишком медленно: {0} больше не существует.</r></e>
+  <e k="K" key="CM_WS_TargetGone_4"><s>The strike coordinate is just open ground now. {0} left the stage long ago.</s><r>Координата удара сейчас — открытая местность. {0} давно покинул сцену.</r></e>
+  <e k="K" key="CM_WS_TargetGone_5"><s>{0} is gone. The missile could only salute the empty air.</s><r>{0} пропал. Ракета могла лишь приветствовать пустой воздух.</r></e>
+  <e k="K" key="CM_WS_TargetGone_6"><s>You aimed at {0}, but it ceased to exist after the previous strike.</s><r>Вы нацелились на {0}, но после предыдущего удара он перестал существовать.</r></e>
+  <e k="K" key="CM_WS_TargetGone_7"><s>Target {0} was already removed by other forces. Strike cancelled.</s><r>Target {0} уже были удалены другими силами. Забастовка отменена.</r></e>
+  <e k="K" key="CM_WS_TargetGone_8"><s>Only sand remains where {0} stood. The missile turned back grudgingly.</s><r>На месте {0} остался только песок. Ракета неохотно повернулась назад.</r></e>
+  <e k="K" key="CM_WS_TargetGone_9"><s>The guidance system found no trace of {0} and simply dispersed on the spot.</s><r>Система наведения не обнаружила следов {0} и просто разошлась на месте.</r></e>
+  <e k="K" key="CM_WorldStrikeDesc"><s>Launch missiles to a designated location on the world map.</s><r>Запустите ракеты в указанное место на карте мира.</r></e>
+  <e k="K" key="CM_WorldStrikeIntercepted"><s>Your cross-map missile strike was intercepted by {0}'s anti-missile system!</s><r>Ваш ракетный удар по карте был перехвачен противоракетной системой {0}!</r></e>
+  <e k="K" key="CM_WorldStrikeLabel"><s>Global Strike</s><r>Глобальная забастовка</r></e>
+  <e k="K" key="CM_WorldStrikeSettings"><s>Cross-Map Strike Chances</s><r>Шансы на попадание на разных картах</r></e>
+</AutoTranslateCache>
