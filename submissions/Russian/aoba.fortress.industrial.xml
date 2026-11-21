@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="aoba.fortress.industrial" name="Fortifications - Industrial" language="Russian" version="1">
+  <e k="D" t="AmmoCategoryDef" key="FT_Canister.description"><s>Canister</s><r>Канистра</r></e>
+  <e k="D" t="AmmoCategoryDef" key="FT_Canister.label"><s>Canister</s><r>Канистра</r></e>
+  <e k="D" t="AmmoCategoryDef" key="FT_HESH.description"><s>HESH</s><r>ХЭШ</r></e>
+  <e k="D" t="AmmoCategoryDef" key="FT_HESH.label"><s>HESH</s><r>ХЭШ</r></e>
+  <e k="D" t="AmmoCategoryDef" key="FT_SAPHE.description"><s>SAPHE</s><r>САПХЕ</r></e>
+  <e k="D" t="AmmoCategoryDef" key="FT_SAPHE.label"><s>SAPHE</s><r>САПХЕ</r></e>
+  <e k="D" t="AmmoCategoryDef" key="FT_Shrapnel.description"><s>Shrapnel</s><r>Шрапнель</r></e>
+  <e k="D" t="AmmoCategoryDef" key="FT_Shrapnel.label"><s>Shrapnel</s><r>Шрапнель</r></e>
+  <e k="D" t="AmmoSetDef" key="AmmoSet_128x958mmR.label"><s>128mm Cannon shells</s><r>Снаряды 128-мм пушки</r></e>
+  <e k="D" t="AmmoSetDef" key="AmmoSet_128x958mmR_HV.label"><s>128mm Anti-Tank Cannon shells</s><r>Снаряды 128-мм противотанковой пушки</r></e>
+  <e k="D" t="AmmoSetDef" key="AmmoSet_FT_105mmHowitzerShell.label"><s>105mm Howitzer shells</s><r>105-мм гаубичные снаряды</r></e>
+  <e k="D" t="AmmoSetDef" key="AmmoSet_FT_105mmHowitzerShell_directfire.label"><s>105mm Howitzer shells</s><r>105-мм гаубичные снаряды</r></e>
+  <e k="D" t="AmmoSetDef" key="AmmoSet_FT_155mmHowitzerShell.label"><s>155mm Howitzer shells</s><r>155-мм гаубичные снаряды</r></e>
+  <e k="D" t="AmmoSetDef" key="AmmoSet_FT_155mmHowitzerShell_directfire.label"><s>155mm Howitzer shells</s><r>155-мм гаубичные снаряды</r></e>
+  <e k="D" t="AmmoSetDef" key="AmmoSet_FT_15cmNebelwerfer.label"><s>15cm Nebelwerfer Rockets</s><r>15-см ракеты Небельверфер</r></e>
+  <e k="D" t="AmmoSetDef" key="AmmoSet_FT_15cmNebelwerfer_directfire.label"><s>15cm Nebelwerfer Rockets</s><r>15-см ракеты Небельверфер</r></e>
+  <e k="D" t="AmmoSetDef" key="AmmoSet_FT_37x223mmR.label"><s>37x223mmR</s><r>37x223ммR</r></e>
+  <e k="D" t="DamageDef" key="HESH_ShockWave.deathMessage"><s>{0} 被衝擊波震碎了</s><r>{0} был разрушен ударной волной</r></e>
+  <e k="D" t="DamageDef" key="HESH_ShockWave.label"><s>shock wave</s><r>ударная волна</r></e>
+  <e k="D" t="DesignatorDropdownGroupDef" key="FT_ConcreteBarriers.label"><s>concrete barriers</s><r>бетонные барьеры</r></e>
+  <e k="D" t="DesignatorDropdownGroupDef" key="FT_Floor_Concrete.label"><s>Concrete floor</s><r>Бетонный пол</r></e>
+  <e k="D" t="HediffDef" key="FT_ShellShock.description"><s>A psychological trauma caused by prolonged exposure to explosions and intense combat. Victims experience reduced focus, delayed reactions, and impaired combat effectiveness.</s><r>Психологическая травма, вызванная длительным воздействием взрывов и интенсивным боем. Жертвы испытывают снижение концентрации внимания, задержку реакции и снижение боевой эффективности.</r></e>
+  <e k="D" t="HediffDef" key="FT_ShellShock.label"><s>shell shock</s><r>контузия</r></e>
+  <e k="D" t="HediffDef" key="FT_ShellShock.stages.0.label"><s>initial</s><r>исходный</r></e>
+  <e k="D" t="HediffDef" key="FT_ShellShock.stages.1.label"><s>initial</s><r>исходный</r></e>
+  <e k="D" t="HediffDef" key="FT_ShellShock.stages.2.label"><s>minor</s><r>незначительный</r></e>
+  <e k="D" t="HediffDef" key="FT_ShellShock.stages.3.label"><s>serious</s><r>серьезный</r></e>
+  <e k="D" t="HediffDef" key="FT_ShellShock.stages.4.label"><s>catatonic</s><r>кататонический</r></e>
+  <e k="D" t="HediffDef" key="FT_ShellShock.stages.5.label"><s>extreme</s><r>крайний</r></e>
+  <e k="D" t="JobDef" key="FT_EnterBunkerFacility.reportString"><s>Entering facility</s><r>Вход в объект</r></e>
+  <e k="D" t="JobDef" key="FT_UseRadio.reportString"><s>Listening to the radio.</s><r>Прослушивание радио.</r></e>
+  <e k="D" t="JoyKindDef" key="FT_RadioTuning.label"><s>Radio listening</s><r>Прослушивание радио</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_ComponentIndustrial.description"><s>Machines a component on a lathe. Requires more time and resources than standard fabrication.</s><r>Обрабатывает деталь на токарном станке. Требует больше времени и ресурсов, чем стандартное изготовление.</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_ComponentIndustrial.jobString"><s>Machining component.</s><r>Обрабатывающий компонент.</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_ComponentIndustrial.label"><s>make component</s><r>сделать компонент</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_ComponentIndustrial_Bulk.description"><s>Machines four components on a lathe. Requires more time and resources than standard fabrication.</s><r>Обрабатывает четыре детали на токарном станке. Требует больше времени и ресурсов, чем стандартное изготовление.</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_ComponentIndustrial_Bulk.jobString"><s>Machining component.</s><r>Обрабатывающий компонент.</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_ComponentIndustrial_Bulk.label"><s>make component x4</s><r>сделать компонент x4</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_ConcreteByBlock.description"><s>Crush various stone blocks into dust to be made into concrete.</s><r>Раздавите различные каменные блоки в пыль, чтобы превратить их в бетон.</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_ConcreteByBlock.jobString"><s>making concrete from material</s><r>изготовление бетона из материала</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_ConcreteByBlock.label"><s>Make concrete from stone blocks</s><r>Сделать бетон из каменных блоков</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_ConcreteByChunk.description"><s>Crush stone chunks into dust to be made into concrete.</s><r>Раздавите куски камня в пыль, чтобы превратить их в бетон.</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_ConcreteByChunk.jobString"><s>making concrete from material</s><r>изготовление бетона из материала</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_ConcreteByChunk.label"><s>Make concrete from stone chunk</s><r>Сделать бетон из куска камня</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_ConcreteByStonyJunks.description"><s>Crush stony junk to turn it into concrete. The junk material must not be burnable or smeltable.</s><r>Раздавите каменный мусор, чтобы превратить его в бетон. Мусорный материал не должен быть горючим или плавящимся.</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_ConcreteByStonyJunks.jobString"><s>making concrete from material</s><r>изготовление бетона из материала</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_ConcreteByStonyJunks.label"><s>Make concrete from junk</s><r>Сделать бетон из мусора</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_ConcreteCompressed.description"><s>Pack concrete bags for storage and advanced construction purposes.</s><r>Упакуйте бетонные мешки для хранения и дополнительных строительных целей.</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_ConcreteCompressed.jobString"><s>Packing concrete.</s><r>Упаковка бетона.</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_ConcreteCompressed.label"><s>Pack concrete</s><r>Упаковочный бетон</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_ConcreteWood.description"><s>Mixes cloth fibers with concrete to produce lightweight cement planks. Fireproof, but less durable than solid concrete.</s><r>Смешивает волокна ткани с бетоном для получения легких цементных досок. Пожаробезопасен, но менее прочен, чем монолитный бетон.</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_ConcreteWood.jobString"><s>making concrete.</s><r>изготовление бетона.</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_ConcreteWood.label"><s>make prefab concrete</s><r>сделать сборный бетон</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_Dye.description"><s>Synthesize dye from chemfuel.</s><r>Синтезируйте краситель из химического топлива.</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_Dye.jobString"><s>Synthesizing dye.</s><r>Синтезирующий краситель.</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_Dye.label"><s>synthesize 5 dye</s><r>синтезировать 5 красителей</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_Neutroamine.description"><s>Synthesize neutroamine from raw meat.</s><r>Синтезируйте нейтроамин из сырого мяса.</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_Neutroamine.jobString"><s>Synthesizing neutroamine.</s><r>Синтез нейтроамина.</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_Neutroamine.label"><s>synthesize 5 neutroamine</s><r>синтезировать 5 нейтроамин</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_ReinforcedBarrel.description"><s>Machines a reinforced gun barrel designed to withstand high pressures using a lathe.</s><r>На токарном станке обрабатывается усиленный ствол орудия, рассчитанный на выдерживание высокого давления.</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_ReinforcedBarrel.jobString"><s>Machining a reinforced barrel.</s><r>Обработка усиленного ствола.</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_ReinforcedBarrel.label"><s>make reinforced barrel</s><r>сделать усиленный ствол</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_ReinforcedConcrete.description"><s>Reinforce concrete with steel rebar to create a stronger material, serving as a metallic material alternative.</s><r>Укрепите бетон стальной арматурой, чтобы создать более прочный материал, который станет альтернативой металлическому материалу.</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_ReinforcedConcrete.jobString"><s>Making rebar concrete.</s><r>Изготовление арматурного бетона.</r></e>
+  <e k="D" t="RecipeDef" key="FT_Make_ReinforcedConcrete.label"><s>make rebar concrete</s><r>сделать арматуру бетонной</r></e>
+  <e k="D" t="RecipeDef" key="FT_Unpack_ConcreteCompressed.description"><s>Unpack concrete bags for general usage.</s><r>Распакуйте бетонные мешки для общего использования.</r></e>
+  <e k="D" t="RecipeDef" key="FT_Unpack_ConcreteCompressed.jobString"><s>Unpacking concrete.</s><r>Распаковка бетона.</r></e>
+  <e k="D" t="RecipeDef" key="FT_Unpack_ConcreteCompressed.label"><s>Unpack concrete</s><r>Распаковать бетон</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_128x958mmR_AP.description"><s>Craft 2 128x958mmR (AP) cannon shells.</s><r>Изготовьте 2 снаряда для пушки 128x958 ммR (AP).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_128x958mmR_AP.jobString"><s>Making 128mm (AP) cannon shells.</s><r>Изготовление снарядов для 128-мм пушек.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_128x958mmR_AP.label"><s>make 128x958mmR (AP) cannon shells x2</s><r>изготовить снаряды для пушки 128x958mmR (AP) x2</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_128x958mmR_APHE.description"><s>Craft 2 128x958mmR (APHE) cannon shells.</s><r>Изготовьте 2 артиллерийских снаряда 128x958 ммR (APHE).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_128x958mmR_APHE.jobString"><s>Making 128x958mmR (APHE) cannon shells.</s><r>Изготовление снарядов для пушек калибра 128х958ммR (APHE).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_128x958mmR_APHE.label"><s>make 128x958mmR (APHE) cannon shells x2</s><r>изготовить снаряды для пушки 128x958mmR (APHE) x2</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_128x958mmR_EMP.description"><s>Craft 2 128x958mmR (EMP) cannon shells.</s><r>Изготовьте 2 снаряда для пушки 128x958 ммR (ЭМИ).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_128x958mmR_EMP.jobString"><s>Making 128x958mmR (EMP) cannon shells.</s><r>Изготовление снарядов для пушек 128х958ммR (ЭМИ).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_128x958mmR_EMP.label"><s>make 128x958mmR (EMP) cannon shells x2</s><r>изготовить снаряды для пушки 128х958ммR (ЭМИ) x2</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_128x958mmR_HE.description"><s>Craft 2 128x958mmR (HE) cannon shells.</s><r>Изготовьте 2 снаряда для пушки 128x958 ммR (HE).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_128x958mmR_HE.jobString"><s>Making 128x958mmR (HE) cannon shells.</s><r>Изготовление снарядов для пушек 128х958ммR(HE).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_128x958mmR_HE.label"><s>make 128x958mmR (HE) cannon shells x2</s><r>изготовить снаряды для пушки 128x958mmR (HE) x2</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_15cmNebelwerfer_EMP.description"><s>Craft a 15cm Nebelwerfer EMP rockets.</s><r>Создайте 15-сантиметровую ЭМИ-ракету Nebelwerfer.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_15cmNebelwerfer_EMP.jobString"><s>Making 15cm Nebelwerfer EMP rockets.</s><r>Изготовление 15-сантиметровых ЭМИ-ракет Nebelwerfer.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_15cmNebelwerfer_EMP.label"><s>make 15cm Nebelwerfer EMP rocket</s><r>сделать 15-сантиметровую ЭМИ-ракету Nebelwerfer</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_15cmNebelwerfer_Smoke.description"><s>Craft a 15cm Nebelwerfer smoke rockets.</s><r>Создайте 15-сантиметровые дымовые ракеты Nebelwerfer.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_15cmNebelwerfer_Smoke.jobString"><s>Making 15cm Nebelwerfer smoke rockets.</s><r>Изготовление 15-сантиметровых дымовых ракет Nebelwerfer.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_15cmNebelwerfer_Smoke.label"><s>make 15cm Nebelwerfer smoke rocket</s><r>сделать 15-сантиметровую дымовую ракету Nebelwerfer</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_15cmNebelwerfer_Toxic.description"><s>Craft a 15cm Nebelwerfer toxic rockets.</s><r>Создайте 15-сантиметровую токсичную ракету Nebelwerfer.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_15cmNebelwerfer_Toxic.jobString"><s>Making 15cm Nebelwerfer toxic rockets.</s><r>Изготовление 15-сантиметровых токсичных ракет Nebelwerfer.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_15cmNebelwerfer_Toxic.label"><s>make 15cm Nebelwerfer toxic rocket</s><r>сделать 15-сантиметровую токсичную ракету Nebelwerfer</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_37x223mmR_AP-HE.description"><s>Craft 25 37x223mmR (AP-HE) cartridges.</s><r>Изготовьте 25 патронов 37x223 ммR (AP-HE).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_37x223mmR_AP-HE.jobString"><s>Making 37x223mmR (AP-HE) cartridges.</s><r>Изготовление патронов 37х223ммR (AP-HE).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_37x223mmR_AP-HE.label"><s>make 37x223mmR (AP-HE) cartridge x25</s><r>изготовить патрон 37х223ммR (AP-HE) х25</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_37x223mmR_APDS.description"><s>Craft 25 37x223mmR (sabot) cartridges.</s><r>Изготовьте 25 патронов 37x223mmR (подкалиберные).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_37x223mmR_APDS.jobString"><s>Making 37x223mmR (sabot) cartridges.</s><r>Изготовление патронов 37х223ммR (подкалиберные).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_37x223mmR_APDS.label"><s>make 37x223mmR (sabot) cartridge x25</s><r>сделать патрон 37х223ммR (подкалиберный) х25</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_37x223mmR_Canister.description"><s>Craft 25 37x223mmR (canister) cartridges.</s><r>Изготовьте 25 патронов 37x223 ммR (канистра).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_37x223mmR_Canister.jobString"><s>Making 37x223mmR (canister) cartridges.</s><r>Изготовление патронов 37х223ммR (канистровые).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_37x223mmR_Canister.label"><s>make 37x223mmR (canister) cartridge x25</s><r>сделать патрон 37х223ммR (канистра) х25</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_37x223mmR_EMP.description"><s>Craft 25 37x223mmR (EMP) cartridges.</s><r>Изготовьте 25 патронов 37x223 ммR (ЭМИ).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_37x223mmR_EMP.jobString"><s>Making 37x223mmR (EMP) cartridges.</s><r>Изготовление патронов 37х223ммR (ЭМИ).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_37x223mmR_EMP.label"><s>make 37x223mmR (EMP) cartridge x25</s><r>изготовить патрон 37х223ммR (ЭМИ) х25</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_37x223mmR_Incendiary.description"><s>Craft 25 37x223mmR (incendiary) cartridges.</s><r>Изготовьте 25 патронов 37х223ммR (зажигательные).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_37x223mmR_Incendiary.jobString"><s>Making 37x223mmR (incendiary) cartridges.</s><r>Изготовление патронов 37х223ммR (зажигательных).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_37x223mmR_Incendiary.label"><s>make 37x223mmR (incendiary) cartridge x25</s><r>изготовить патрон 37х223ммR (зажигательный) х25</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_37x223mmR_Shrapnel.description"><s>Craft 25 37x223mmR (shrapnel) cartridges.</s><r>Изготовьте 25 патронов 37х223ммR (шрапнель).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_37x223mmR_Shrapnel.jobString"><s>Making 37x223mmR (shrapnel) cartridges.</s><r>Изготовление патронов 37х223ммR (шрапнельных).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_37x223mmR_Shrapnel.label"><s>make 37x223mmR (shrapnel) cartridge x25</s><r>сделать патрон 37х223ммR (шрапнельный) х25</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Chemistry.description"><s>Build a chemistry table for artifically synthesizing complex compounds such as neutroamine for use in various industrial applications.</s><r>Создайте химическую таблицу для искусственного синтеза сложных соединений, таких как нейтроамин, для использования в различных промышленных целях.</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Chemistry.generalRules.rulesStrings.0"><s>subject-&gt;chemistry</s><r>subject-&gt;химия</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Chemistry.generalRules.rulesStrings.1"><s>subject-&gt;modern alchemy</s><r>subject-&gt;современная алхимия</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Chemistry.generalRules.rulesStrings.10"><s>subject_gerund-&gt;calculating mix ratio of FSX</s><r>subject_gerund-&gt;расчет соотношения смеси FSX</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Chemistry.generalRules.rulesStrings.2"><s>subject-&gt;material sorcery</s><r>subject-&gt;материальное колдовство</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Chemistry.generalRules.rulesStrings.3"><s>subject_story-&gt;said that Chemistry is the most cursed subject, bar none</s><r>subject_story-&gt;сказал, что химия — самый проклятый предмет, без исключения</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Chemistry.generalRules.rulesStrings.4"><s>subject_story-&gt;mentioned that chemical reaction formula for synthesizing neutroamine is [censored]</s><r>subject_story-&gt;упомянул, что формула химической реакции синтеза нейтроамина равна [censored]</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Chemistry.generalRules.rulesStrings.5"><s>subject_story-&gt;wrote many messy notes in the margins of the schematic</s><r>subject_story-&gt;написал много беспорядочных пометок на полях схемы</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Chemistry.generalRules.rulesStrings.6"><s>subject_story-&gt;said that chemistry is way more science than alchemy, at least it can make gold in real</s><r>subject_story-&gt;сказал, что химия - это гораздо большая наука, чем алхимия, по крайней мере, она может реально добывать золото.</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Chemistry.generalRules.rulesStrings.7"><s>subject_story-&gt;warned readers to stay away from anyone holding a torch or pitchfork</s><r>subject_story-&gt;предупредил читателей держаться подальше от тех, кто держит факел или вилы</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Chemistry.generalRules.rulesStrings.8"><s>subject_story-&gt;included a complete periodic table of chemical elements, claiming it would save readers from 127 years of detours.</s><r>subject_story-&gt;включал полную периодическую таблицу химических элементов, утверждая, что это избавит читателей от 127 лет обходных путей.</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Chemistry.generalRules.rulesStrings.9"><s>subject_gerund-&gt;synthesizing neutroamine</s><r>subject_gerund-&gt;синтез нейтроамина</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Chemistry.label"><s>chemistry</s><r>химия</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Concrete.description"><s>Research industrial concrete, a very durable stony material used for various engineering applications and infrastructure.</s><r>Исследуйте промышленный бетон, очень прочный каменный материал, используемый для различных инженерных целей и инфраструктуры.</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Concrete.generalRules.rulesStrings.0"><s>subject-&gt;concrete</s><r>subject-&gt;конкретный</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Concrete.generalRules.rulesStrings.1"><s>subject-&gt;industrial building material</s><r>subject-&gt;промышленный строительный материал</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Concrete.generalRules.rulesStrings.10"><s>subject_gerund-&gt;calculating mix ratio</s><r>subject_gerund-&gt;расчет соотношения смеси</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Concrete.generalRules.rulesStrings.2"><s>subject-&gt;civil engineering</s><r>subject-&gt;гражданское строительство</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Concrete.generalRules.rulesStrings.3"><s>subject_story-&gt;said that &quot;cement das conk-creet baybee&quot;</s><r>subject_story-&gt;сказал, что «цемент дас конк-крит Бэйби»</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Concrete.generalRules.rulesStrings.4"><s>subject_story-&gt;mentioned that concrete will only strong when supported by a flexible frame such as metal or wood.</s><r>subject_story-&gt;упоминалось, что бетон будет прочным только тогда, когда его поддерживает гибкий каркас, такой как металл или дерево.</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Concrete.generalRules.rulesStrings.5"><s>subject_story-&gt;wrote many messy notes in the margins of the schematic</s><r>subject_story-&gt;написал много беспорядочных пометок на полях схемы</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Concrete.generalRules.rulesStrings.6"><s>subject_story-&gt;constantly conveys to people that everything can be made of concrete in the colony</s><r>subject_story-&gt;постоянно доносит до людей, что в колонии все можно сделать из бетона</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Concrete.generalRules.rulesStrings.7"><s>subject_story-&gt;attached a brand logo from Nara Industries</s><r>subject_story-&gt;прикрепил логотип бренда от Nara Industries</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Concrete.generalRules.rulesStrings.8"><s>subject_story-&gt;summarized das conk-creet baybee</s><r>subject_story-&gt;в общем, ты даешь конк-крит Бэйби</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Concrete.generalRules.rulesStrings.9"><s>subject_gerund-&gt;carrying cement bags</s><r>subject_gerund-&gt;носить мешки с цементом</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Concrete.label"><s>concrete</s><r>конкретный</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_ENIAC.description"><s>Electronic Numerical Integrator And Computer, also known as ENIAC is an early Turing-complete general-purpose digital computer able to solve &quot;a large class of numerical problems&quot; through reprogramming. Crude and power-hungry but indispensable for research purposes.</s><r>Электронный числовой интегратор и компьютер, также известный как ENIAC, представляет собой ранний полный по Тьюрингу цифровой компьютер общего назначения, способный решать «большой класс числовых задач» посредством перепрограммирования. Грубый и энергоемкий, но незаменимый для исследовательских целей.</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_ENIAC.discoveredLetterTitle"><s>Data Disk: ENIAC</s><r>Диск с данными: ENIAC</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_ENIAC.generalRules.rulesStrings.0"><s>subject-&gt;electronic computer</s><r>subject-&gt;электронный компьютер</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_ENIAC.generalRules.rulesStrings.1"><s>subject-&gt;vacuum tube replace</s><r>subject-&gt;замена вакуумной трубки</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_ENIAC.generalRules.rulesStrings.10"><s>subject_story-&gt;summarized in great detail the manufacturing techniques and processes involved in producing vacuum tube computers.</s><r>subject_story-&gt;очень подробно обобщил производственные технологии и процессы, используемые при производстве ламповых компьютеров.</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_ENIAC.generalRules.rulesStrings.11"><s>subject_gerund-&gt;computer engineering</s><r>subject_gerund-&gt;компьютерная инженерия</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_ENIAC.generalRules.rulesStrings.12"><s>subject_gerund-&gt;vacuum tube manufacturing</s><r>subject_gerund-&gt;производство вакуумных трубок</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_ENIAC.generalRules.rulesStrings.2"><s>subject-&gt;integrator design</s><r>subject-&gt;интеграторный дизайн</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_ENIAC.generalRules.rulesStrings.3"><s>subject-&gt;turing-complete</s><r>subject-&gt;полный по Тьюрингу</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_ENIAC.generalRules.rulesStrings.4"><s>subject-&gt;digital computer</s><r>subject-&gt;цифровой компьютер</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_ENIAC.generalRules.rulesStrings.5"><s>subject_story-&gt;included a strange data disc in the schematic</s><r>subject_story-&gt;включил в схему странный диск с данными</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_ENIAC.generalRules.rulesStrings.6"><s>subject_story-&gt;repeatedly mentioned that the invention of the vacuum tube was the cornerstone of computer technology</s><r>subject_story-&gt;неоднократно упоминалось, что изобретение электронной лампы стало краеугольным камнем компьютерных технологий.</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_ENIAC.generalRules.rulesStrings.7"><s>subject_story-&gt;wrote many messy notes in the margins of the schematic</s><r>subject_story-&gt;написал много беспорядочных пометок на полях схемы</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_ENIAC.generalRules.rulesStrings.8"><s>subject_story-&gt;constantly conveys to people that computers are omnipotent gods</s><r>subject_story-&gt;постоянно доносит до людей, что компьютеры — всемогущие боги</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_ENIAC.generalRules.rulesStrings.9"><s>subject_story-&gt;attached a brand logo sticker from Nara Industries on machine</s><r>subject_story-&gt;прикрепил на машину наклейку с логотипом бренда Nara Industries</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_ENIAC.label"><s>ENIAC</s><r>ЭНИАК</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_HeavyArtillery.description"><s>Construct heavy artillery pieces to enhance the firepower of your defenses even further.</s><r>Создавайте тяжелые артиллерийские орудия, чтобы еще больше повысить огневую мощь своей обороны.</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_HeavyArtillery.generalRules.rulesStrings.0"><s>subject-&gt;Ballistic</s><r>subject-&gt;Баллистический</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_HeavyArtillery.generalRules.rulesStrings.1"><s>subject-&gt;Artillery</s><r>subject-&gt;Артиллерия</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_HeavyArtillery.generalRules.rulesStrings.10"><s>subject_gerund-&gt;ballistic table calculating</s><r>subject_gerund-&gt;баллистическая таблица расчета</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_HeavyArtillery.generalRules.rulesStrings.2"><s>subject-&gt;Heavy Cannon</s><r>subject-&gt;Тяжелая пушка</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_HeavyArtillery.generalRules.rulesStrings.3"><s>subject_story-&gt;included a full design blueprint in schematic</s><r>subject_story-&gt;включен полный проект в схему</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_HeavyArtillery.generalRules.rulesStrings.4"><s>subject_story-&gt;mentioned that the processing accuracy of the barrel will greatly affect the accuracy of artillery</s><r>subject_story-&gt;упоминалось, что точность обработки ствола сильно повлияет на точность артиллерии</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_HeavyArtillery.generalRules.rulesStrings.5"><s>subject_story-&gt;wrote many messy notes in the margins of the schematic</s><r>subject_story-&gt;написал много беспорядочных пометок на полях схемы</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_HeavyArtillery.generalRules.rulesStrings.6"><s>subject_story-&gt;constantly conveys to people that a faction's territorial waters are the range of their coastal artillery</s><r>subject_story-&gt;постоянно доносит до людей, что территориальные воды фракции — это радиус действия ее береговой артиллерии</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_HeavyArtillery.generalRules.rulesStrings.7"><s>subject_story-&gt;attached a brand logo from Nara Industries on the schematic cover</s><r>subject_story-&gt;на обложку-схему прикрепил логотип бренда Nara Industries</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_HeavyArtillery.generalRules.rulesStrings.8"><s>subject_story-&gt;summarized that caliber is justice</s><r>subject_story-&gt;резюмировал, что калибр - это справедливость</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_HeavyArtillery.generalRules.rulesStrings.9"><s>subject_gerund-&gt;cannon designing</s><r>subject_gerund-&gt;проектирование пушки</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_HeavyArtillery.label"><s>heavy artillery</s><r>тяжелая артиллерия</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_IndustrialCannon.description"><s>Make use of reinforced barrels to construct anti-tank guns and anti-aircraft guns.</s><r>Используйте усиленные стволы для создания противотанковых и зенитных орудий.</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_IndustrialCannon.generalRules.rulesStrings.0"><s>subject-&gt;infantry cannon</s><r>subject-&gt;пехотная пушка</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_IndustrialCannon.generalRules.rulesStrings.1"><s>subject-&gt;anti vehicle weaponry</s><r>subject-&gt;противотранспортное вооружение</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_IndustrialCannon.generalRules.rulesStrings.10"><s>subject_gerund-&gt;ballistic table calculating</s><r>subject_gerund-&gt;баллистическая таблица расчета</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_IndustrialCannon.generalRules.rulesStrings.2"><s>subject-&gt;interior ballistics</s><r>subject-&gt;внутренняя баллистика</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_IndustrialCannon.generalRules.rulesStrings.3"><s>subject_story-&gt;included a full design blueprint in schematic</s><r>subject_story-&gt;включен полный проект в схему</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_IndustrialCannon.generalRules.rulesStrings.4"><s>subject_story-&gt;mentioned that the processing accuracy of the barrel will greatly affect the accuracy of artillery</s><r>subject_story-&gt;упоминалось, что точность обработки ствола сильно повлияет на точность артиллерии</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_IndustrialCannon.generalRules.rulesStrings.5"><s>subject_story-&gt;wrote many messy notes in the margins of the schematic</s><r>subject_story-&gt;написал много беспорядочных пометок на полях схемы</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_IndustrialCannon.generalRules.rulesStrings.6"><s>subject_story-&gt;constantly conveys to people that one day armored vehicles and tanks will be a threat to base defense</s><r>subject_story-&gt;постоянно доносит до людей, что однажды бронетехника и танки станут угрозой обороне базы</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_IndustrialCannon.generalRules.rulesStrings.7"><s>subject_story-&gt;attached an advertisement from Nara Industries on the schematic cover</s><r>subject_story-&gt;на обложке схемы прикрепил рекламу Nara Industries</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_IndustrialCannon.generalRules.rulesStrings.8"><s>subject_story-&gt;summarized that using AA guns to shoot at infantry, while unethical, does not violate the laws of war</s><r>subject_story-&gt;резюмировал, что использование зенитных орудий для стрельбы по пехоте хоть и неэтично, но не нарушает законов войны</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_IndustrialCannon.generalRules.rulesStrings.9"><s>subject_gerund-&gt;cannon designing</s><r>subject_gerund-&gt;проектирование пушки</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_IndustrialCannon.label"><s>industrial cannons</s><r>промышленные пушки</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Lathe.description"><s>Build lathes for crafting components without the need for advanced fabrication tools and create previously uncraftable reinforced barrels for use in various defensive weapons.</s><r>Стройте токарные станки для изготовления компонентов без необходимости использования передовых инструментов и создавайте ранее не поддающиеся изготовлению усиленные стволы для использования в различном оборонительном оружии.</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Lathe.generalRules.rulesStrings.0"><s>subject-&gt;machine tools</s><r>subject-&gt;станки</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Lathe.generalRules.rulesStrings.1"><s>subject-&gt;metal cutting</s><r>subject-&gt;резка металла</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Lathe.generalRules.rulesStrings.10"><s>subject_gerund-&gt;lathe manufacturing</s><r>subject_gerund-&gt;токарное производство</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Lathe.generalRules.rulesStrings.2"><s>subject-&gt;lathe repair</s><r>subject-&gt;ремонт токарного станка</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Lathe.generalRules.rulesStrings.3"><s>subject_story-&gt;included a full design blueprint in schematic</s><r>subject_story-&gt;включен полный проект в схему</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Lathe.generalRules.rulesStrings.4"><s>subject_story-&gt;mentioned that the advent of the lathe can change the way a society's industrial production</s><r>subject_story-&gt;упомянул, что появление токарных станков может изменить способ промышленного производства в обществе.</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Lathe.generalRules.rulesStrings.5"><s>subject_story-&gt;wrote many messy notes in the margins of the schematic</s><r>subject_story-&gt;написал много беспорядочных пометок на полях схемы</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Lathe.generalRules.rulesStrings.6"><s>subject_story-&gt;constantly conveys to people that Advanced production can drive social progress</s><r>subject_story-&gt;постоянно доносит до людей, что передовое производство может способствовать социальному прогрессу</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Lathe.generalRules.rulesStrings.7"><s>subject_story-&gt;attached a brand logo sticker from Nara Industries on machine</s><r>subject_story-&gt;прикрепил на машину наклейку с логотипом бренда Nara Industries</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Lathe.generalRules.rulesStrings.8"><s>subject_story-&gt;summarized in great detail the importance of processing tungsten steel as a lathe tool</s><r>subject_story-&gt;очень подробно резюмировал важность обработки вольфрамовой стали токарным инструментом</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Lathe.generalRules.rulesStrings.9"><s>subject_gerund-&gt;cold metal working</s><r>subject_gerund-&gt;холодная обработка металла</r></e>
+  <e k="D" t="ResearchProjectDef" key="FT_Lathe.label"><s>industrial lathe</s><r>промышленный токарный станок</r></e>
+  <e k="D" t="ResearchTabDef" key="HeavyIndustry.generalDescription"><s>Heavy industry and those technologies are the basis of mass production and the key to progress of human society.</s><r>Тяжелая промышленность и эти технологии являются основой массового производства и ключом к прогрессу человеческого общества.</r></e>
+  <e k="D" t="ResearchTabDef" key="HeavyIndustry.generalTitle"><s>Heavy industries</s><r>Тяжелая промышленность</r></e>
+  <e k="D" t="ResearchTabDef" key="HeavyIndustry.label"><s>Heavy industry</s><r>Тяжелая промышленность</r></e>
+  <e k="D" t="SettingsMenuDef" key="FTFI_SettingMenu.label"><s>Fortifications - Industrial</s><r>Укрепления - Промышленные</r></e>
+  <e k="D" t="SettingsMenuDef" key="FTFI_SettingMenu.settings.0.cachedText"><s>All changes needs a restart to apply!</s><r>Для применения всех изменений требуется перезагрузка!</r></e>
+  <e k="D" t="SettingsMenuDef" key="FTFI_SettingMenu.settings.0.text"><s>All changes needs a restart to apply!</s><r>Для применения всех изменений требуется перезагрузка!</r></e>
+  <e k="D" t="SettingsMenuDef" key="FTFI_SettingMenu.settings.1.label"><s>Remove rebar concrete in-game.</s><r>Удалить арматурный бетон в игре.</r></e>
+  <e k="D" t="SettingsMenuDef" key="FTFI_SettingMenu.settings.2.label"><s>Remove fiber concrete plank in-game.</s><r>Удалите плиту из фибробетона в игре.</r></e>
+  <e k="D" t="SettingsMenuDef" key="FTFI_SettingMenu.settings.3.label"><s>Remove ENIAC as research prerequisite.</s><r>Удалить ENIAC как необходимое условие исследования.</r></e>
+  <e k="D" t="SettingsMenuDef" key="FTFI_SettingMenu.settings.4.label"><s>Remove Lathe as research prerequisite.</s><r>Удалите токарный станок как необходимое условие исследования.</r></e>
+  <e k="D" t="TerrainDef" key="FT_Concrete.description"><s>Concrete laid down as pathways for pedestrians and vehicles. Quick to lay, but neutral in terms of looks.</s><r>Бетонирование уложено в качестве дорожек для пешеходов и транспортных средств. Быстро укладывается, но выглядит нейтрально.</r></e>
+  <e k="D" t="TerrainDef" key="FT_Concrete.label"><s>concrete path</s><r>бетонная дорожка</r></e>
+  <e k="D" t="TerrainDef" key="FT_ConcreteTile.description"><s>Concrete tiles. Cheap, but neutral in terms of looks and slow to build.</s><r>Бетонные плитки. Дешево, но нейтрально с точки зрения внешнего вида и медленно строится.</r></e>
+  <e k="D" t="TerrainDef" key="FT_ConcreteTile.label"><s>concrete tile</s><r>бетонная плитка</r></e>
+  <e k="D" t="TerrainDef" key="FT_FineConcreteTile.description"><s>Tiles made with architectural concrete, it looks nice even though its still concrete. Slow to construct.</s><r>Плитка из архитектурного бетона выглядит красиво, хотя она все еще бетонная. Медленно строить.</r></e>
+  <e k="D" t="TerrainDef" key="FT_FineConcreteTile.label"><s>fine concrete tile</s><r>тонкая бетонная плитка</r></e>
+  <e k="D" t="TerrainDef" key="FT_FlagstoneConcrete.description"><s>Roughly-cut stone tiles. These are not beautiful, but they make good surfaces for roads and outdoor walkways. Deconstructing flagstone yields no resources.</s><r>Каменная плитка грубой резки. Они некрасивы, но из них получается хорошее покрытие для дорог и пешеходных дорожек. Разбор каменной плиты не дает никаких ресурсов.</r></e>
+  <e k="D" t="TerrainDef" key="FT_FlagstoneConcrete.label"><s>concrete flagstone</s><r>бетонная плита</r></e>
+  <e k="D" t="TerrainDef" key="FT_PlankFloor.description"><s>Prefab concrete laid down in a wood-like pattern, for that warm, homey feeling. While it is quick to lay, it is not flammable due to material used.</s><r>Сборный бетон, уложенный под дерево, создает ощущение тепла и домашнего уюта. Несмотря на то, что его быстро укладывать, он не воспламеняется из-за используемого материала.</r></e>
+  <e k="D" t="TerrainDef" key="FT_PlankFloor.label"><s>wood-like concrete floor</s><r>бетонный пол под дерево</r></e>
+  <e k="D" t="TerrainDef" key="FT_TileStoneConcrete.description"><s>Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay.</s><r>Тщательно вырезанная и подогнанная каменная плитка создает ощущение замка. Они красивы на вид, но укладываются долго.</r></e>
+  <e k="D" t="TerrainDef" key="FT_TileStoneConcrete.label"><s>concrete tile</s><r>бетонная плитка</r></e>
+  <e k="D" t="TerrainDef" key="VFEArch_BridgeConcrete.description"><s>Stone Bridges are structures that can be built on water. Bridges allow more rapid movement across water. Once built, they can support many structures, including heavy structures and any type of wall. Bridges allow for easier building in swampy biomes.
+
+Can be made out of any stone blocks.</s><r>Каменные мосты — это сооружения, которые можно построить на воде. Мосты позволяют более быстро передвигаться по воде. После постройки они могут поддерживать множество конструкций, включая тяжелые конструкции и стены любого типа. Мосты облегчают строительство в болотистых биомах.
+
+Можно сделать из любых каменных блоков.</r></e>
+  <e k="D" t="TerrainDef" key="VFEArch_BridgeConcrete.label"><s>concrete bridge</s><r>бетонный мост</r></e>
+  <e k="D" t="TerrainDef" key="VFEArch_BridgeSteelConcrete.description"><s>Steel Bridges are structures that can be built on water. Bridges allow more rapid movement across water. Once built, they can support many structures, including heavy structures and any other type of wall. Steel bridges are extremely durable. Bridges allow for easier building in swampy biomes.</s><r>Стальные мосты — это конструкции, которые можно построить на воде. Мосты позволяют более быстро передвигаться по воде. После постройки они могут поддерживать множество конструкций, включая тяжелые конструкции и стены любого другого типа. Стальные мосты чрезвычайно долговечны. Мосты облегчают строительство в болотистых биомах.</r></e>
+  <e k="D" t="TerrainDef" key="VFEArch_BridgeSteelConcrete.label"><s>reinforced concrete bridge</s><r>железобетонный мост</r></e>
+  <e k="D" t="TerrainDef" key="VFEArch_CobblestoneFloorConcrete.description"><s>Random-size stone tiles for a rustical, castle feeling. Take less time to construct than ordinary stone tiles and don’t require stone cutting expertise, but lack the beauty of the polished design.</s><r>Каменная плитка произвольного размера для создания атмосферы замка в деревенском стиле. Изготовление занимает меньше времени, чем изготовление обычной каменной плитки, и не требует навыков резки камня, но не обладает красотой полированного дизайна.</r></e>
+  <e k="D" t="TerrainDef" key="VFEArch_CobblestoneFloorConcrete.label"><s>concrete cobblestone floor</s><r>бетонный пол из булыжника</r></e>
+  <e k="D" t="TerrainDef" key="VFEArch_PolishedStoneFloorConcrete.description"><s>Fancy, polished stone tiles for an elegant, mansion-like look. Don’t take nearly as long to lay down as the finer stone floors, but require a lot of resources. They are incredibly beautiful to look at.</s><r>Необычная полированная каменная плитка придает элегантный вид особняку. Укладка не занимает столько времени, как укладка более тонких каменных полов, но требует много ресурсов. Они невероятно красивы на вид.</r></e>
+  <e k="D" t="TerrainDef" key="VFEArch_PolishedStoneFloorConcrete.label"><s>concrete polished stone floor</s><r>бетонный пол из полированного камня</r></e>
+  <e k="D" t="TerrainDef" key="VFEArch_SlabsConcrete.description"><s>Large slabs of stone laid at random for that temple-like look. Beautiful to look at, they take a lot of work to place down and use up large amounts of resources.</s><r>Большие каменные плиты, уложенные в случайном порядке, придавали храму вид. Они красивы на вид, их размещение требует много усилий и требует большого количества ресурсов.</r></e>
+  <e k="D" t="TerrainDef" key="VFEArch_SlabsConcrete.label"><s>concrete slabs</s><r>бетонные плиты</r></e>
+  <e k="D" t="TerrainDef" key="VFEArch_WoodPlankFloorConcrete.description"><s>concrete prefab plank flooring instead of wooden, for that warm, homey feeling(not really). While it is still quick to lay,but non-flammable.</s><r>бетонный сборный дощатый пол вместо деревянного, для создания теплого домашнего уюта (не совсем). Хотя он еще быстро укладывается, но негорюч.</r></e>
+  <e k="D" t="TerrainDef" key="VFEArch_WoodPlankFloorConcrete.label"><s>plank concrete floor</s><r>дощатый бетонный пол</r></e>
+  <e k="D" t="TerrainDef" key="VFEArch_WoodenParquetConcrete.description"><s>using concrete prefab plank for that beautifully laid down flooring. Whilst beautiful, it takes a long time to lay down but non-flammable.</s><r>используя бетонные сборные доски для красиво уложенного пола. Несмотря на то, что он красив, требует много времени для укладки, но негорюч.</r></e>
+  <e k="D" t="TerrainDef" key="VFEArch_WoodenParquetConcrete.label"><s>concrete parquet</s><r>бетонный паркет</r></e>
+  <e k="D" t="ThingCategoryDef" key="Ammo128x958mmR.label"><s>128mm cannon shell</s><r>снаряд 128-мм пушки</r></e>
+  <e k="D" t="ThingDef" key="Ammo_128x958mmR_AP.label"><s>128x958mmR cannon shell (AP)</s><r>128х958-мм пушечный снаряд (АП)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_128x958mmR_APHE.label"><s>128x958mmR cannon shell (APHE)</s><r>128х958-мм пушечный снаряд (APHE)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_128x958mmR_EMP.label"><s>128x958mmR cannon shell (EMP)</s><r>Снаряд пушки 128x958 ммR (ЭМИ)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_128x958mmR_HE.label"><s>128x958mmR cannon shell (HE)</s><r>Снаряд пушки 128x958 ммR (ОФ)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_15cmNebelwerfer_EMP.label"><s>15cm Nebelwerfer Rocket (EMP)</s><r>15-см ракета Небельверфер (ЭМИ)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_15cmNebelwerfer_Smoke.description"><s>15cm heavy rocket typically used in multi-barrel rocket artillery launchers.
+
+Smoke:
+Filled with a smoke-producing agent. Explodes on impact to generate a thick smokescreen.
+
+Используются в:</s><r>Тяжелая ракета диаметром 15 см, обычно используемая в многоствольных реактивных артиллерийских установках.
+
+Дым:
+Наполнен дымообразующим веществом. Взрывается при ударе, создавая густую дымовую завесу.
+
+Используются в:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_15cmNebelwerfer_Smoke.label"><s>15cm Nebelwerfer Rocket (Smoke)</s><r>15-см ракета Nebelwerfer (дымовая)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_15cmNebelwerfer_Toxic.description"><s>15cm heavy rocket typically used in multi-barrel rocket artillery launchers.
+
+Toxic:
+Filled with tox gas, a caustic agent that burns the lungs and eyes. Continued exposure to it results in toxic buildup which can be lethal.
+
+Используются в:</s><r>Тяжелая ракета диаметром 15 см, обычно используемая в многоствольных реактивных артиллерийских установках.
+
+Токсично:
+Наполнен токсичным газом, едким веществом, вызывающим ожоги легких и глаз. Продолжительное воздействие этого вещества приводит к накоплению токсичных веществ, которые могут быть смертельными.
+
+Используются в:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_15cmNebelwerfer_Toxic.label"><s>15cm Nebelwerfer Rocket (Toxic)</s><r>15-см ракета Небельверфер (токсичная)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_37x223mmR_AP-HE.description"><s>Medium caliber cannon shell used by light, quick-firing anti-tank guns.
+
+SAPHE:
+SAPHE
+
+Используются в:</s><r>Снаряд пушки среднего калибра, используемый легкими, скорострельными противотанковыми пушками.
+
+КОРЕНЬ:
+КОРЕНЬ
+
+Испутся в:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_37x223mmR_AP-HE.label"><s>37x223mmR cartridge (AP-HE)</s><r>Патрон 37x223ммR (AP-HE)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_37x223mmR_APDS.label"><s>37x223mmR cartridge (sabot)</s><r>Патрон 37х223ммR (подкалиберный)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_37x223mmR_Canister.description"><s>Medium caliber cannon shell used by light, quick-firing anti-tank guns.
+
+Canister:
+Canister
+
+Используются в:</s><r>Снаряд пушки среднего калибра, используемый легкими, скорострельными противотанковыми пушками.
+
+Канистра:
+Канистра
+
+Используются в:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_37x223mmR_Canister.label"><s>37x223mmR cartridge (canister)</s><r>Патрон 37х223ммR (канистра)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_37x223mmR_EMP.label"><s>37x223mmR cartridge (EMP)</s><r>Патрон 37х223ммР (ЭМИ)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_37x223mmR_Incendiary.label"><s>37x223mmR cartridge (incendiary)</s><r>Патрон 37х223ммR (зажигательный)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_37x223mmR_Shrapnel.description"><s>Medium caliber cannon shell used by light, quick-firing anti-tank guns.
+
+Shrapnel:
+Shrapnel
+
+Используются в:</s><r>Снаряд пушки среднего калибра, используемый легкими, скорострельными противотанковыми пушками.
+
+Шрапнель:
+Шрапнель
+
+Используются в:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_37x223mmR_Shrapnel.label"><s>37x223mmR cartridge (shrapnel)</s><r>Патрон 37х223ммR (осколочный)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_128x958mmR_AP.label"><s>128x958mmR cannon shell (AP)</s><r>128х958-мм пушечный снаряд (АП)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_128x958mmR_APHE.label"><s>128x958mmR cannon shell (APHE)</s><r>128х958-мм пушечный снаряд (APHE)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_128x958mmR_APHE_HV.label"><s>128x958mmR cannon shell (APHE)</s><r>128х958-мм пушечный снаряд (APHE)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_128x958mmR_AP_HV.label"><s>128x958mmR cannon shell (AP)</s><r>128х958-мм пушечный снаряд (АП)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_128x958mmR_EMP.label"><s>128x958mmR cannon shell (EMP)</s><r>Снаряд пушки 128x958 ммR (ЭМИ)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_128x958mmR_HE.label"><s>128x958mmR cannon shell (HE)</s><r>Снаряд пушки 128x958 ммR (ОФ)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_105mmHowitzerShell_Airburst.label"><s>105mm Howitzer shell (Airburst)</s><r>105-мм снаряд гаубицы (воздушный взрыв)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_105mmHowitzerShell_Airburst_directfire.label"><s>105mm Howitzer shell (Airburst)</s><r>105-мм снаряд гаубицы (воздушный взрыв)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_105mmHowitzerShell_EMP.label"><s>105mm Howitzer shell (EMP)</s><r>105-мм гаубичный снаряд (ЭМИ)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_105mmHowitzerShell_EMP_directfire.label"><s>105mm Howitzer shell (EMP)</s><r>105-мм гаубичный снаряд (ЭМИ)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_105mmHowitzerShell_HE.label"><s>105mm Howitzer shell (HE)</s><r>105-мм снаряд гаубицы (ОФ)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_105mmHowitzerShell_HE_directfire.label"><s>105mm Howitzer shell (HE)</s><r>105-мм снаряд гаубицы (ОФ)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_105mmHowitzerShell_Incendiary.label"><s>105mm Howitzer shell (Incendiary)</s><r>105-мм гаубичный снаряд (зажигательный)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_105mmHowitzerShell_Incendiary_directfire.label"><s>105mm Howitzer shell (Incendiary)</s><r>105-мм гаубичный снаряд (зажигательный)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_105mmHowitzerShell_Smoke.label"><s>105mm Howitzer shell (Smoke)</s><r>Снаряд 105-мм гаубицы (Дымчатый)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_105mmHowitzerShell_Smoke_directfire.label"><s>105mm Howitzer shell (Smoke)</s><r>Снаряд 105-мм гаубицы (Дымчатый)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_155mmHowitzerShell_Airburst.label"><s>155mm Howitzer shell (Airburst)</s><r>Снаряд 155-мм гаубицы (воздушный взрыв)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_155mmHowitzerShell_Airburst_directfire.label"><s>155mm Howitzer shell (Airburst)</s><r>Снаряд 155-мм гаубицы (воздушный взрыв)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_155mmHowitzerShell_Anti.label"><s>155mm Howitzer shell (Anti)</s><r>Снаряд 155-мм гаубицы (ПТ)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_155mmHowitzerShell_Anti.modExtensions.0.genericLabel"><s>mortar shell (Anti)</s><r>минометный снаряд (Анти)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_155mmHowitzerShell_Anti_directfire.label"><s>155mm Howitzer shell (Anti)</s><r>Снаряд 155-мм гаубицы (ПТ)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_155mmHowitzerShell_Anti_directfire.modExtensions.0.genericLabel"><s>mortar shell (Anti)</s><r>минометный снаряд (Анти)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_155mmHowitzerShell_EMP.label"><s>155mm Howitzer shell (EMP)</s><r>155-мм гаубичный снаряд (ЭМИ)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_155mmHowitzerShell_EMP_directfire.label"><s>155mm Howitzer shell (EMP)</s><r>155-мм гаубичный снаряд (ЭМИ)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_155mmHowitzerShell_HE.label"><s>155mm Howitzer shell (HE)</s><r>155-мм снаряд гаубицы (ОФ)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_155mmHowitzerShell_HE_directfire.label"><s>155mm Howitzer shell (HE)</s><r>155-мм снаряд гаубицы (ОФ)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_155mmHowitzerShell_Incendiary.label"><s>155mm Howitzer shell (Incendiary)</s><r>Снаряд 155-мм гаубицы (зажигательный)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_155mmHowitzerShell_Incendiary_directfire.label"><s>155mm Howitzer shell (Incendiary)</s><r>Снаряд 155-мм гаубицы (зажигательный)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_155mmHowitzerShell_Smoke.label"><s>155mm Howitzer shell (Smoke)</s><r>Снаряд 155-мм гаубицы (Дымовой)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_155mmHowitzerShell_Smoke_directfire.label"><s>155mm Howitzer shell (Smoke)</s><r>Снаряд 155-мм гаубицы (Дымовой)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_15cmNebelwerfer_EMP.label"><s>15cm Nebelwerfer Rocket (EMP)</s><r>15-см ракета Небельверфер (ЭМИ)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_15cmNebelwerfer_EMP_directfire.label"><s>15cm Nebelwerfer Rocket (EMP)</s><r>15-см ракета Небельверфер (ЭМИ)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_15cmNebelwerfer_HE.label"><s>15cm Nebelwerfer Rocket (HE)</s><r>15-см ракета Небельверфер (ОН)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_15cmNebelwerfer_HE_directfire.label"><s>15cm Nebelwerfer Rocket (HE)</s><r>15-см ракета Небельверфер (ОН)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_15cmNebelwerfer_Smoke.label"><s>15cm Nebelwerfer Rocket (Smoke)</s><r>15-см ракета Nebelwerfer (дымовая)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_15cmNebelwerfer_Smoke_directfire.label"><s>15cm Nebelwerfer Rocket (Smoke)</s><r>15-см ракета Nebelwerfer (дымовая)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_15cmNebelwerfer_Toxic.label"><s>15cm Nebelwerfer Rocket (Toxic)</s><r>15-см ракета Небельверфер (токсичная)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_15cmNebelwerfer_Toxic_directfire.label"><s>15cm Nebelwerfer Rocket (Toxic)</s><r>15-см ракета Небельверфер (токсичная)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_37x223mmR_AP-HE.label"><s>37x223mmR shell (AP-HE)</s><r>Снаряд 37x223 ммR (AP-HE)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_37x223mmR_AP.label"><s>37x223mmR shell (AP)</s><r>Снаряд 37x223 ммR (AP)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_37x223mmR_APDS.label"><s>37x223mmR shell (APDS)</s><r>Снаряд 37x223 ммR (APDS)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_37x223mmR_Canister.label"><s>37x223mmR shell (Canister)</s><r>Снаряд 37х223ммR (Канистра)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_37x223mmR_EMP.label"><s>37x223mmR shell (EMP)</s><r>Снаряд 37x223ммR (ЭМИ)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_37x223mmR_HE.label"><s>37x223mmR shell (HE)</s><r>Снаряд 37x223 ммR (ОФ)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_37x223mmR_Incendiary.label"><s>37x223mmR shell (incendiary)</s><r>Снаряд 37х223ммR (зажигательный)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_FT_37x223mmR_Shrapnel.label"><s>37x223mmR shell (Shrapnel)</s><r>Снаряд 37х223ммR (Осколочный)</r></e>
+  <e k="D" t="ThingDef" key="FTC_SpotterLight_Gun.description"><s>A manned artillery scope with radio. Useful to coordinate artillery strikes.
+
+Using this on a target will mark it, removing the indirect fire penalty from any artillery pieces targeting it. Additionally, any directed fire will use the aiming accuracy and efficiency of the spotter, rather than the artillery operator to determine final accuracy.</s><r>Пилотируемый артиллерийский прицел с радиосвязью. Полезно для координации артиллерийских ударов.
+
+Использование этого на цели помечает ее, снимая штраф с закрытых позиций для любых артиллерийских орудий, нацеленных на нее. Кроме того, при любом направленном огне для определения окончательной точности будет учитываться точность и эффективность прицеливания корректировщика, а не артиллерийского оператора.</r></e>
+  <e k="D" t="ThingDef" key="FTC_SpotterLight_Gun.label"><s>portable artillery spotter</s><r>переносной артиллерийский корректировщик</r></e>
+  <e k="D" t="ThingDef" key="FTC_SpotterLight_Gun.verbs.0.label"><s>portable artillery spotter</s><r>переносной артиллерийский корректировщик</r></e>
+  <e k="D" t="ThingDef" key="FTC_SpotterLight_Turret.comps.2.useLabel"><s>Pick up {0_label}</s><r>Возьмите {0_label}</r></e>
+  <e k="D" t="ThingDef" key="FTC_SpotterLight_Turret.description"><s>A manned artillery scope with a radio. Useful to coordinate artillery strikes.
+
+Using this on a target will mark it, removing the indirect fire penalty from any artillery pieces targeting it. Additionally, any directed fire will use the aiming accuracy and efficiency of the spotter, rather than the artillery operator to determine final accuracy.</s><r>Пилотируемый артиллерийский прицел с радиостанцией. Полезно для координации артиллерийских ударов.
+
+Использование этого на цели помечает ее, снимая штраф с закрытых позиций для любых артиллерийских орудий, нацеленных на нее. Кроме того, при любом направленном огне для определения окончательной точности будет учитываться точность и эффективность прицеливания корректировщика, а не артиллерийского оператора.</r></e>
+  <e k="D" t="ThingDef" key="FTC_SpotterLight_Turret.label"><s>portable artillery spotter</s><r>переносной артиллерийский корректировщик</r></e>
+  <e k="D" t="ThingDef" key="FT_AntennaTower.description"><s>The antenna tower serves as both trade beacon and mechanoid command relay.
+
+The inner circle responsible for acting as trade beacon while the outer circle is the radius of command range. In addition, it can broadcast signals to attract orbital trader ships toward your colony.</s><r>Антенная вышка служит одновременно торговым маяком и ретранслятором команд механоидов.
+
+Внутренний круг отвечает за работу торгового маяка, а внешний круг — это радиус дальности командования. Кроме того, он может передавать сигналы для привлечения орбитальных торговых кораблей к вашей колонии.</r></e>
+  <e k="D" t="ThingDef" key="FT_AntennaTower.label"><s>antenna tower</s><r>антенная башня</r></e>
+  <e k="D" t="ThingDef" key="FT_Artillery_Mortar.description"><s>60mm mortar gun.</s><r>60-мм миномет.</r></e>
+  <e k="D" t="ThingDef" key="FT_Artillery_Mortar.label"><s>60mm mortar</s><r>60-мм миномет</r></e>
+  <e k="D" t="ThingDef" key="FT_Artillery_Mortar.verbs.0.label"><s>60mm mortar</s><r>60-мм миномет</r></e>
+  <e k="D" t="ThingDef" key="FT_AutoCannon.description"><s>A 20mm autocannon mounted on a tripod.</s><r>20-мм автоматическая пушка, установленная на треноге.</r></e>
+  <e k="D" t="ThingDef" key="FT_AutoCannon.label"><s>autocannon</s><r>автопушка</r></e>
+  <e k="D" t="ThingDef" key="FT_Barrier.description"><s>Heavy, prefab concrete walls that block vehicles and provide cover. Straight configuration.</s><r>Тяжелые сборные бетонные стены, блокирующие транспортные средства и обеспечивающие укрытие. Прямая конфигурация.</r></e>
+  <e k="D" t="ThingDef" key="FT_Barrier.label"><s>concrete barrier</s><r>бетонный барьер</r></e>
+  <e k="D" t="ThingDef" key="FT_BarrierDiagonal.description"><s>Heavy, prefab concrete walls that block vehicles and provide cover. Diagonal configuration.</s><r>Тяжелые сборные бетонные стены, блокирующие транспортные средства и обеспечивающие укрытие. Диагональная конфигурация.</r></e>
+  <e k="D" t="ThingDef" key="FT_BarrierDiagonal.label"><s>diagonal concrete barrier</s><r>диагональный бетонный барьер</r></e>
+  <e k="D" t="ThingDef" key="FT_BlocksConcrete.description"><s>Bags of concrete dust. Concrete is a very durable building material used in many industrial applications, but ugly to look at.</s><r>Мешки с бетонной пылью. Бетон — очень прочный строительный материал, используемый во многих отраслях промышленности, но уродливый на вид.</r></e>
+  <e k="D" t="ThingDef" key="FT_BlocksConcrete.label"><s>concrete</s><r>конкретный</r></e>
+  <e k="D" t="ThingDef" key="FT_BlocksConcrete.stuffProps.stuffAdjective"><s>concrete</s><r>конкретный</r></e>
+  <e k="D" t="ThingDef" key="FT_Bullet_NuclearWarhead_CE_II.label"><s>155mm Howitzer shell (Nuclear)</s><r>Снаряд 155-мм гаубицы (ядерный)</r></e>
+  <e k="D" t="ThingDef" key="FT_Bullet_NuclearWarhead_CE_directfire_II.label"><s>155mm Howitzer shell (Nuclear)</s><r>Снаряд 155-мм гаубицы (ядерный)</r></e>
+  <e k="D" t="ThingDef" key="FT_ConcreteCompressed.description"><s>Compressed bags of solid concrete dust. They are packed together for more efficient storage. Traders may be interested in this.</s><r>Сжатые мешки с твердой бетонной пылью. Они упакованы вместе для более эффективного хранения. Трейдеры могут быть в этом заинтересованы.</r></e>
+  <e k="D" t="ThingDef" key="FT_ConcreteCompressed.label"><s>packed concrete</s><r>уплотненный бетон</r></e>
+  <e k="D" t="ThingDef" key="FT_ENIAC.description"><s>Also known as the Electronic Numerical Integrator And Computer, it is a massive early electronic computer used for complex calculations. Consumes enormous amounts of power.
+Increases research speed when placed near hi-tech research bench and unlocks new research projects from reading the Disk. Each hi-tech research bench can connect up to 4 ENIACs.</s><r>Этот массивный ранний электронный компьютер, также известный как электронный цифровой интегратор и компьютер, использовался для сложных вычислений. Потребляет огромное количество энергии.
+Увеличивает скорость исследований, если находится рядом с высокотехнологичным исследовательским стендом, и открывает новые исследовательские проекты при чтении Диска. К каждому высокотехнологичному исследовательскому стенду можно подключить до 4 ENIAC.</r></e>
+  <e k="D" t="ThingDef" key="FT_ENIAC.label"><s>ENIAC</s><r>ЭНИАК</r></e>
+  <e k="D" t="ThingDef" key="FT_FirefoamPopper.comps.0.useLabel"><s>Trigger {0_label}</s><r>Триггер {0_label}</r></e>
+  <e k="D" t="ThingDef" key="FT_FirefoamPopper.description"><s>When it detects fire, this safety device pops and sprays a fire-retardant foam in a circular field around itself. Can also be triggered manually.</s><r>При обнаружении возгорания это защитное устройство срабатывает и распыляет вокруг себя огнезащитную пену. Также можно запустить вручную.</r></e>
+  <e k="D" t="ThingDef" key="FT_FirefoamPopper.label"><s>hydrant</s><r>гидрант</r></e>
+  <e k="D" t="ThingDef" key="FT_FuelGenerator.description"><s>Produces power by consuming chemfuel. Must be periodically refueled by hand. This generator can be carried around and reinstalled anywhere.</s><r>Производит энергию, потребляя химическое топливо. Необходимо периодически заправляться вручную. Этот генератор можно носить с собой и переустанавливать где угодно.</r></e>
+  <e k="D" t="ThingDef" key="FT_FuelGenerator.label"><s>mobile chemfuel powered generator</s><r>мобильный генератор на химическом топливе</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_Autocannon.description"><s>A 20mm autocannon on a tripod.</s><r>20-мм автоматическая пушка на треноге.</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_Autocannon.label"><s>autocannon</s><r>автопушка</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_Autocannon.verbs.0.label"><s>autocannon</s><r>автопушка</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_Autocannon_Twin.description"><s>A 20mm twin-barreled autocannon mounted on a towed carriage.</s><r>20-мм двухствольная автоматическая пушка, установленная на буксируемом лафете.</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_Autocannon_Twin.label"><s>twin-barreled autocannon</s><r>двуствольная автоматическая пушка</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_Autocannon_Twin.verbs.0.label"><s>twin-barreled autocannon</s><r>двуствольная автоматическая пушка</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_MG.description"><s>Full powered cartridge automated gun inside a defensive structure.</s><r>Полнофункциональная автоматическая пушка с патронами внутри оборонительного сооружения.</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_MG.label"><s>medium turret gun</s><r>средняя турельная пушка</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_MG.verbs.0.label"><s>medium turret gun</s><r>средняя турельная пушка</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_QuadMG.description"><s>Four Maxim machine guns linked together.</s><r>Четыре пулемета «Максим», соединенные вместе.</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_QuadMG.label"><s>quadruple machine guns</s><r>счетверенные пулеметы</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_QuadMG.verbs.0.label"><s>quadruple machine guns</s><r>счетверенные пулеметы</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_Recoilless.description"><s>An M40 105mm recoilless rifle mounted on a tripod.</s><r>Безоткатное орудие М40 калибра 105 мм, установленное на треноге.</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_Recoilless.label"><s>recoilless rifle</s><r>безоткатное ружье</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_Recoilless.verbs.0.label"><s>recoilless rifle</s><r>безоткатное ружье</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_TurretAA.description"><s>A 20mm autocannon mounted on a stationary emplacement.</s><r>20-мм автоматическая пушка, установленная на стационарной огневой точке.</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_TurretAA.label"><s>anti-air gun</s><r>зенитная пушка</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_TurretAA.verbs.0.label"><s>anti-air gun</s><r>зенитная пушка</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_TurretAT.description"><s>A 37mm anti-tank cannon mounted on a stationary emplacement.</s><r>37-мм противотанковая пушка, установленная на стационарной огневой точке.</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_TurretAT.label"><s>37mm anti-tank gun</s><r>37-мм противотанковая пушка</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_TurretAT.verbs.0.label"><s>37mm anti-tank gun</s><r>37-мм противотанковая пушка</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_TurretAT_Plus.description"><s>A 76mm anti-tank cannon mounted on a stationary emplacement.</s><r>76-мм противотанковая пушка, установленная на стационарной огневой точке.</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_TurretAT_Plus.label"><s>76mm anti-tank gun</s><r>76-мм противотанковая пушка</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_TurretAT_Plus.verbs.0.label"><s>76mm anti-tank gun</s><r>76-мм противотанковая пушка</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_TurretEmpero.description"><s>A powerful 155mm artillery cannon.</s><r>Мощная 155-мм артиллерийская пушка.</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_TurretEmpero.label"><s>155mm howitzer</s><r>155-мм гаубица</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_TurretEmpero.verbs.0.label"><s>155mm howitzer</s><r>155-мм гаубица</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_TurretHeavyFlak.description"><s>128mm Flak cannon on a stationary emplacement.</s><r>128-мм зенитная пушка на стационарной огневой позиции.</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_TurretHeavyFlak.label"><s>heavy flak gun</s><r>тяжелая зенитная пушка</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_TurretHeavyFlak.verbs.0.label"><s>heavy flak gun</s><r>тяжелая зенитная пушка</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_TurretHexMortar.description"><s>A multi-barreled rocket artillery launcher, arranged for rapid salvo fire.</s><r>Многоствольная реактивная артиллерийская установка, предназначенная для скоростного залпового огня.</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_TurretHexMortar.label"><s>multi-barrel rocket launcher</s><r>многоствольная ракетная установка</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_TurretHexMortar.verbs.0.label"><s>multi-barrel rocket launcher</s><r>многоствольная ракетная установка</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_TurretPrince.description"><s>Artillery cannon chambered for 105mm howitzer shells.</s><r>Артиллерийская пушка под патрон 105-мм гаубичного снаряда.</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_TurretPrince.label"><s>105mm howitzer</s><r>105-мм гаубица</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_TurretPrince.verbs.0.label"><s>105mm howitzer</s><r>105-мм гаубица</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_TurretQuadAA.description"><s>Quad-mounted 20mm autocannons mounted on a stationary emplacement.</s><r>Счетверенные 20-мм автопушки, установленные на стационарной огневой точке.</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_TurretQuadAA.label"><s>quad anti-air gun</s><r>счетверенная зенитная пушка</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_TurretQuadAA.verbs.0.label"><s>quad anti-air gun</s><r>счетверенная зенитная пушка</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_TurretUltraHeavyAT.description"><s>128mm anti-tank cannon on a stationary emplacement.</s><r>128-мм противотанковая пушка на стационарной огневой позиции.</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_TurretUltraHeavyAT.label"><s>Heavy anti-tank gun</s><r>Тяжелая противотанковая пушка</r></e>
+  <e k="D" t="ThingDef" key="FT_Gun_TurretUltraHeavyAT.verbs.0.label"><s>Heavy anti-tank gun</s><r>Тяжелая противотанковая пушка</r></e>
+  <e k="D" t="ThingDef" key="FT_Maxim4M.description"><s>Antique machine guns in a linked quadruple configuration mounted on a tripod. Features an overall very high capacity of 800 rounds for sustained suppressive fire.</s><r>Антикварные пулеметы в связанной счетверенной конфигурации, установленные на треноге. Имеет очень большую вместимость — 800 патронов для устойчивого подавляющего огня.</r></e>
+  <e k="D" t="ThingDef" key="FT_Maxim4M.label"><s>quad-mounted machine gun</s><r>счетверенный пулемет</r></e>
+  <e k="D" t="ThingDef" key="FT_MinifiedTurret.comps.2.useLabel"><s>Pick up {0_label}</s><r>Возьмите {0_label}</r></e>
+  <e k="D" t="ThingDef" key="FT_MinifiedTurret.label"><s>minified turret</s><r>уменьшенная турель</r></e>
+  <e k="D" t="ThingDef" key="FT_Radio.comps.4.useLabel"><s>Summon diabolus threat</s><r>Вызвать дьявольскую угрозу</r></e>
+  <e k="D" t="ThingDef" key="FT_Radio.description"><s>Allows radio contact with other factions and orbital traders. When placed on unroofed tiles, it can search for minerals like a long-range mineral scanner.
+Must be directly connected to conduits to power it up.</s><r>Позволяет радиосвязь с другими фракциями и орбитальными торговцами. При размещении на плитке без крыши он может искать минералы, как сканер минералов дальнего действия.
+Для подачи питания его необходимо напрямую подключить к трубопроводам.</r></e>
+  <e k="D" t="ThingDef" key="FT_Radio.label"><s>radio terminal</s><r>радиотерминал</r></e>
+  <e k="D" t="ThingDef" key="FT_RecoillessGun.description"><s>A 105mm recoilless rifle mounted on a tripod. Lightweight anti-armor solution.</s><r>Безоткатное орудие калибра 105 мм, установленное на треноге. Легкое противоброневое решение.</r></e>
+  <e k="D" t="ThingDef" key="FT_RecoillessGun.label"><s>recoilless rifle</s><r>безоткатное ружье</r></e>
+  <e k="D" t="ThingDef" key="FT_ReinforcedConcreteBag.description"><s>Heavy bags of concrete dust reinforced with steel bars. Rebar concrete is a stronger building material than concrete, but ugly to look at.</s><r>Тяжелые мешки с бетонной пылью, укрепленные стальными прутьями. Арматурный бетон — более прочный строительный материал, чем бетон, но он уродлив на вид.</r></e>
+  <e k="D" t="ThingDef" key="FT_ReinforcedConcreteBag.label"><s>rebar concrete</s><r>арматурный бетон</r></e>
+  <e k="D" t="ThingDef" key="FT_ReinforcedConcreteBag.stuffProps.stuffAdjective"><s>concrete</s><r>конкретный</r></e>
+  <e k="D" t="ThingDef" key="FT_Sandbag.description"><s>Bags of locally-sourced dirt or sand, stacked for use as cover. More well-stacked than regular sandbags, resulting in additional integrity.</s><r>Мешки с землей или песком местного происхождения, сложенные в стопку для использования в качестве укрытия. Лучше укладываются, чем обычные мешки с песком, что обеспечивает дополнительную целостность.</r></e>
+  <e k="D" t="ThingDef" key="FT_Sandbag.label"><s>military sandbag</s><r>военный мешок с песком</r></e>
+  <e k="D" t="ThingDef" key="FT_Schematic.description"><s>A book which describes technology and methods for creating and using it. Reading schematics can help unlock new technologies.</s><r>Книга, в которой описаны технологии и методы их создания и использования. Чтение схем может помочь открыть новые технологии.</r></e>
+  <e k="D" t="ThingDef" key="FT_Schematic.label"><s>schematic</s><r>схематический</r></e>
+  <e k="D" t="ThingDef" key="FT_TableChemistry.description"><s>A table that can artificially synthesize compounds such as Neutroamine.</s><r>Стол, с помощью которого можно искусственно синтезировать такие соединения, как нейтроамин.</r></e>
+  <e k="D" t="ThingDef" key="FT_TableChemistry.label"><s>Chemistry Table</s><r>Таблица химии</r></e>
+  <e k="D" t="ThingDef" key="FT_TableConcreteMixer.description"><s>A machine that crushes and mixes stony materials into concrete dusts</s><r>Машина, которая измельчает и смешивает каменные материалы с бетонной пылью.</r></e>
+  <e k="D" t="ThingDef" key="FT_TableConcreteMixer.label"><s>Concrete mixer</s><r>Бетономешалка</r></e>
+  <e k="D" t="ThingDef" key="FT_TableLathe.description"><s>A machine that rotates a workpiece about an axis of rotation to perform various operations.</s><r>Станок, вращающий заготовку вокруг оси вращения для выполнения различных операций.</r></e>
+  <e k="D" t="ThingDef" key="FT_TableLathe.label"><s>Lathe</s><r>Токарный станок</r></e>
+  <e k="D" t="ThingDef" key="FT_TankTrap.description"><s>A pyramidal anti-tank obstacle built to impede the movement of tanks and mechanised infantry.</s><r>Пирамидальное противотанковое заграждение, построенное для затруднения движения танков и мотопехоты.</r></e>
+  <e k="D" t="ThingDef" key="FT_TankTrap.label"><s>tank trap</s><r>танк-ловушка</r></e>
+  <e k="D" t="ThingDef" key="FT_Tetrapods.description"><s>A wave-dissipating concrete block used to prevent erosion caused by weather and longshore drift, primarily to enforce coastal structures such as seawalls and breakwaters.</s><r>Бетонный блок, рассеивающий волны, используемый для предотвращения эрозии, вызванной погодными условиями и прибрежным дрейфом, в первую очередь для укрепления прибрежных сооружений, таких как дамбы и волнорезы.</r></e>
+  <e k="D" t="ThingDef" key="FT_Tetrapods.label"><s>tetrapod</s><r>четвероногий</r></e>
+  <e k="D" t="ThingDef" key="FT_TurretAA.description"><s>A single-barrel autocannon designed for short-range air defense. Effective against low-flying aircraft and lightly armored surface targets.</s><r>Одноствольная автопушка, предназначенная для ПВО ближнего действия. Эффективен против низколетящих самолетов и легкобронированных надводных целей.</r></e>
+  <e k="D" t="ThingDef" key="FT_TurretAA.label"><s>anti-air gun</s><r>зенитная пушка</r></e>
+  <e k="D" t="ThingDef" key="FT_TurretAT.description"><s>A versatile, light anti-tank cannon capable of firing a variety of high-velocity rounds.</s><r>Универсальная легкая противотанковая пушка, способная стрелять разнообразными высокоскоростными снарядами.</r></e>
+  <e k="D" t="ThingDef" key="FT_TurretAT.label"><s>37mm anti-tank gun</s><r>37-мм противотанковая пушка</r></e>
+  <e k="D" t="ThingDef" key="FT_TurretAT_Plus.description"><s>A medium caliber anti-tank gun capable of penetrating thick armor at long ranges.</s><r>Противотанковая пушка среднего калибра, способная пробивать толстую броню на больших дистанциях.</r></e>
+  <e k="D" t="ThingDef" key="FT_TurretAT_Plus.label"><s>76mm anti-tank gun</s><r>76-мм противотанковая пушка</r></e>
+  <e k="D" t="ThingDef" key="FT_TurretAutoCannon_Twin.description"><s>A twin-barreled autocannon mounted on a towed emplacement, designed for defense against low-flying aircraft.</s><r>Двухствольная автопушка, установленная на буксируемой огневой точке, предназначена для защиты от низколетящих самолетов.</r></e>
+  <e k="D" t="ThingDef" key="FT_TurretAutoCannon_Twin.label"><s>twin anti-air autocannon</s><r>спаренная зенитная автоматическая пушка</r></e>
+  <e k="D" t="ThingDef" key="FT_TurretEmpero.description"><s>A heavy artillery piece for indirect fire at extreme ranges. Due to the very high muzzle velocity of the weapon system, it has a large minimum range.
+Can fire nuclear warhead shells. Practice extreme caution when using these.
+
+The 155 mm howitzer NK-30 “Empero” is a reliable artillery system developed by Interstellar Industries Complex Nara to provide support for pre-industrial worlds unable to withstand mechanoid invasions.</s><r>Тяжелое артиллерийское орудие для ведения огня с закрытых позиций на больших дистанциях. Из-за очень высокой начальной скорости системы вооружения она имеет большую минимальную дальность действия.
+Может стрелять снарядами с ядерными боеголовками. Соблюдайте предельную осторожность при их использовании.
+
+155-мм гаубица НК-30 «Эмперо» — надежная артиллерийская система, разработанная Межзвездным промышленным комплексом Нара для поддержки доиндустриальных миров, неспособных противостоять вторжениям механоидов.</r></e>
+  <e k="D" t="ThingDef" key="FT_TurretEmpero.label"><s>heavy howitzer</s><r>тяжелая гаубица</r></e>
+  <e k="D" t="ThingDef" key="FT_TurretHeavyFlak.description"><s>Old school heavy anti-aircraft gun. Ineffective against modern aviation but still popular in pre-industrial worlds against hardened targets like bunkers and vehicles.</s><r>Тяжелая зенитная установка старой школы. Неэффективен против современной авиации, но все еще популярен в доиндустриальных мирах против защищенных целей, таких как бункеры и транспортные средства.</r></e>
+  <e k="D" t="ThingDef" key="FT_TurretHeavyFlak.label"><s>Heavy flak gun</s><r>Тяжелая зенитная пушка</r></e>
+  <e k="D" t="ThingDef" key="FT_TurretHexMortar.description"><s>A manned, stationary rocket artillery system for indirect saturation fire. Launches short, high-dispersion rocket salvos.</s><r>Пилотируемая стационарная реактивно-артиллерийская система для ведения огня с закрытых позиций. Выпускает короткие ракетные залпы с высоким рассеиванием.</r></e>
+  <e k="D" t="ThingDef" key="FT_TurretHexMortar.label"><s>multi-barrel rocket launcher</s><r>многоствольная ракетная установка</r></e>
+  <e k="D" t="ThingDef" key="FT_TurretPrince.description"><s>A lightweight 105 mm howitzer for indirect fire at extended ranges. Due to the high muzzle velocity of the weapon system, it has a fairly large minimum range. 
+
+Designated the NK-33L “Prince”, it was developed by Interstellar Industries Complex Nara where mobility and precision are needed in uneven, difficult terrain.</s><r>Легкая 105-мм гаубица для ведения огня с закрытых позиций на больших дистанциях. Благодаря высокой начальной скорости система вооружения имеет достаточно большую минимальную дальность стрельбы. 
+
+Названный НК-33Л «Принц», он был разработан Межзвездным промышленным комплексом Нара, где необходимы мобильность и точность на неровной и сложной местности.</r></e>
+  <e k="D" t="ThingDef" key="FT_TurretPrince.label"><s>field howitzer</s><r>полевая гаубица</r></e>
+  <e k="D" t="ThingDef" key="FT_TurretQuadAA.description"><s>A quad-barrel anti-air autocannon designed for short-range air defense. Effective against low-flying aircraft and lightly armored surface targets.</s><r>Четырехствольная зенитная автопушка, предназначенная для противовоздушной обороны ближнего действия. Эффективен против низколетящих самолетов и легкобронированных надводных целей.</r></e>
+  <e k="D" t="ThingDef" key="FT_TurretQuadAA.label"><s>quad anti-air gun</s><r>счетверенная зенитная пушка</r></e>
+  <e k="D" t="ThingDef" key="FT_TurretUltraHeavyAT.description"><s>An old school heavy anti-tank gun. Highly effective against heavily armored targets, it still is one of the more popular choices for rimworlders fighting against mechanized opponents despite being an antiquated design.</s><r>Тяжелая противотанковая пушка старой школы. Обладая высокой эффективностью против тяжелобронированных целей, он по-прежнему остается одним из наиболее популярных вариантов среди жителей Кольца, сражающихся с механизированными противниками, несмотря на устаревшую конструкцию.</r></e>
+  <e k="D" t="ThingDef" key="FT_TurretUltraHeavyAT.label"><s>Heavy anti-tank gun</s><r>Тяжелая противотанковая пушка</r></e>
+  <e k="D" t="ThingDef" key="FT_Turret_BunkerC.description"><s>An automatic turret equipped with a full powered cartridge machine gun, encased within a reinforced defensive position. Constructed from stone materials.
+Its dumb AI brain can't be directly controlled, so beware of friendly fire.</s><r>Автоматическая турель, оснащенная полноценным патронным пулеметом, заключенная в усиленную оборонительную позицию. Построен из каменных материалов.
+Его тупым ИИ-мозгом невозможно управлять напрямую, поэтому остерегайтесь дружественного огня.</r></e>
+  <e k="D" t="ThingDef" key="FT_Turret_BunkerC.label"><s>auto-turret bunker</s><r>автотурельный бункер</r></e>
+  <e k="D" t="ThingDef" key="FT_Turret_BunkerF.description"><s>An automatic turret equipped with a full powered cartridge machine gun, encased within a basic defensive position. Constructed from fabric materials. Its dumb AI brain can't be directly controlled, so beware of friendly fire.</s><r>Автоматическая турель, оснащенная полнофункциональным патронным пулеметом, расположенная на основной оборонительной позиции. Изготовлен из тканевых материалов. Его тупой ИИ-мозг не может управляться напрямую, поэтому остерегайтесь дружественного огня.</r></e>
+  <e k="D" t="ThingDef" key="FT_Turret_BunkerF.label"><s>auto-turret military sandbag nest</s><r>военное гнездо из мешков с песком с автоматической турелью</r></e>
+  <e k="D" t="ThingDef" key="FT_Turret_BunkerL.description"><s>An automatic turret equipped with a full powered cartridge machine gun, encased within a basic defensive position. Constructed from leathery materials. 
+Its dumb AI brain can't be directly controlled, so beware of friendly fire.</s><r>Автоматическая турель, оснащенная полнофункциональным патронным пулеметом, расположенная на основной оборонительной позиции. Изготовлен из кожаных материалов. 
+Его тупым ИИ-мозгом невозможно управлять напрямую, поэтому остерегайтесь дружественного огня.</r></e>
+  <e k="D" t="ThingDef" key="FT_Turret_BunkerL.label"><s>auto-turret sandbag nest</s><r>гнездо из мешков с песком с автоматической турелью</r></e>
+  <e k="D" t="ThingDef" key="FT_Turret_BunkerM.description"><s>An automatic turret equipped with a full powered cartridge machine gun, encased within a reinforced defensive position. Constructed from metallic materials. 
+Its dumb AI brain can't be directly controlled, so beware of friendly fire.</s><r>Автоматическая турель, оснащенная полноценным патронным пулеметом, заключенная в усиленную оборонительную позицию. Изготовлен из металлических материалов. 
+Его тупым ИИ-мозгом невозможно управлять напрямую, поэтому остерегайтесь дружественного огня.</r></e>
+  <e k="D" t="ThingDef" key="FT_Turret_BunkerM.label"><s>auto-turret bunker</s><r>автотурельный бункер</r></e>
+  <e k="D" t="ThingDef" key="FT_Turret_Mortar.comps.2.useLabel"><s>Pick up {0_label}</s><r>Возьмите {0_label}</r></e>
+  <e k="D" t="ThingDef" key="FT_Turret_Mortar.description"><s>A compact and lightweight 60mm field mortar for indirect fire. It has a shorter range compared to larger caliber equivalents, but has increased rate of fire and portability.</s><r>Компактный и легкий полевой миномет калибра 60 мм для ведения огня с закрытых позиций. Он имеет меньшую дальность стрельбы по сравнению с аналогами большего калибра, но имеет повышенную скорострельность и портативность.</r></e>
+  <e k="D" t="ThingDef" key="FT_Turret_Mortar.label"><s>60mm infantry mortar</s><r>60-мм пехотный миномет</r></e>
+  <e k="D" t="ThingDef" key="FT_WallSandbag.description"><s>Bags of locally-sourced dirt or sand, stacked for use as walls. More well-stacked than regular sandbags, resulting in additional integrity. Unable to hold a roof.</s><r>Мешки с землей или песком местного происхождения, сложенные стопками для использования в качестве стен. Лучше укладываются, чем обычные мешки с песком, что обеспечивает дополнительную целостность. Невозможно удержать крышу.</r></e>
+  <e k="D" t="ThingDef" key="FT_WallSandbag.label"><s>military sandbag wall</s><r>военная стена из мешков с песком</r></e>
+  <e k="D" t="ThingDef" key="FT_WoodConcrete.description"><s>Plank-shaped concrete blocks that allow for fast construction like wood, but fireproof and durable.</s><r>Бетонные блоки в форме досок, позволяющие быстро строить, как деревянные, но пожаробезопасные и прочные.</r></e>
+  <e k="D" t="ThingDef" key="FT_WoodConcrete.label"><s>prefab concrete</s><r>сборный бетон</r></e>
+  <e k="D" t="ThingDef" key="FT_WoodConcrete.stuffProps.stuffAdjective"><s>concrete</s><r>конкретный</r></e>
+  <e k="D" t="ThingDef" key="Fragment_FT_ShrapnelPellet.label"><s>shrapnel pellet</s><r>шрапнельная пуля</r></e>
+  <e k="D" t="ThingDef" key="Fragment_FT_Spark.label"><s>spark</s><r>искра</r></e>
+  <e k="D" t="ThingDef" key="Mote_CasingEject.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="Shell_15cmNbW_Toxic_Releasing.label"><s>15cmNbW tox shell</s><r>Токсичный снаряд толщиной 15 смNbW</r></e>
+  <e k="D" t="ThingDef" key="Shell_15cmNbW_Toxic_Releasing_Water.label"><s>15cmNbW tox shell</s><r>Токсичный снаряд толщиной 15 смNbW</r></e>
+  <e k="D" t="WorkGiverDef" key="FT_Operate.gerund"><s>Operating at</s><r>Работаем в</r></e>
+  <e k="D" t="WorkGiverDef" key="FT_Operate.label"><s>Operate machine</s><r>Управляйте машиной</r></e>
+  <e k="D" t="WorkGiverDef" key="FT_Operate.verb"><s>Operate</s><r>Работать</r></e>
+  <e k="D" t="WorkGiverDef" key="FT_Synthesizing.gerund"><s>synthesizing at</s><r>синтезируя в</r></e>
+  <e k="D" t="WorkGiverDef" key="FT_Synthesizing.label"><s>Synthesizing compound</s><r>Синтезирование соединения</r></e>
+  <e k="D" t="WorkGiverDef" key="FT_Synthesizing.verb"><s>smith</s><r>смит</r></e>
+  <e k="D" t="WorkGiverDef" key="RadioScan.gerund"><s>scanning at</s><r>сканирование в</r></e>
+  <e k="D" t="WorkGiverDef" key="RadioScan.label"><s>adjust radio frequency to scan</s><r>настроить радиочастоту для сканирования</r></e>
+  <e k="D" t="WorkGiverDef" key="RadioScan.verb"><s>scan</s><r>сканировать</r></e>
+  <e k="K" key="FTF_CurrentOperator"><s>Operator:</s><r>Оператор:</r></e>
+  <e k="K" key="FTF_RequireOperator"><s>Requires operator</s><r>Требуется оператор</r></e>
+  <e k="K" key="FT_BillRequires_MarketValue"><s>Requires total price to exceed {0}</s><r>Требуется, чтобы общая цена превышала {0}</r></e>
+  <e k="K" key="FT_BillRequires_Mass"><s>Requires total quality exceeding {0}</s><r>Требуется общее качество выше {0}.</r></e>
+  <e k="K" key="FT_BunkerFacility_EnterText"><s>Enter fortification</s><r>Войти в укрепление</r></e>
+  <e k="K" key="FT_BunkerFacility_ExitText"><s>Exit fortification</s><r>Выходное укрепление</r></e>
+  <e k="K" key="FT_CannotPlaceWithoutWall"><s>Needs to be placed on the wall or door.</s><r>Необходимо разместить на стене или двери.</r></e>
+  <e k="K" key="FT_DisabledUndrafted"><s>Not drafted</s><r>Не составлен</r></e>
+  <e k="K" key="FT_MinifiedDeployable_Selected_area_blocked"><s>Position blocked</s><r>Позиция заблокирована</r></e>
+  <e k="K" key="FT_MustOnACoverBuilding"><s>Needs to be placed on cover.</s><r>Необходимо разместить на крышке.</r></e>
+  <e k="K" key="FT_NoEnoughFuel"><s>Not enough fuel</s><r>Недостаточно топлива</r></e>
+  <e k="K" key="FT_NotCooldown"><s>Unable to start: cooldown in progress</s><r>Невозможно запустить: идет перезарядка.</r></e>
+  <e k="K" key="FT_NotFueled"><s>No fuel</s><r>Это было не топливо</r></e>
+  <e k="K" key="FT_StartWarmup"><s>Start broadcast</s><r>Начать трансляцию</r></e>
+  <e k="K" key="FT_StopWarmup"><s>Stop broadcast</s><r>Остановить трансляцию</r></e>
+  <e k="K" key="FT_WillCooldownAt"><s>Will complete cooling down at:</s><r>Завершит охлаждение в:</r></e>
+  <e k="K" key="FT_WillReadyAt"><s>Will complete broadcast at:</s><r>Завершится трансляция по адресу:</r></e>
+</AutoTranslateCache>
