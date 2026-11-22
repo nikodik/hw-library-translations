@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="petetimessix.simplesidearms" name="Simple sidearms" language="Russian" version="1">
+  <e k="D" t="ConceptDef" key="Concept_CEOverride.helpText"><s>Combat Extended is loaded. SimpleSidearms inventory management functionality is disabled.</s><r>Combat Extended загружен. Функция управления запасами SimpleSidearms отключена.</r></e>
+  <e k="D" t="ConceptDef" key="Concept_CEOverride.label"><s>SS: CE patch</s><r>СС: патч CE</r></e>
+  <e k="D" t="ConceptDef" key="Concept_SidearmsDropping.helpText"><s>Sidearms with a gray background are currently in a colonists inventory and eligible for use. Right click to drop.</s><r>Пистолет с серым фоном в настоящее время находится в инвентаре колонистов и доступен для использования. Щелкните правой кнопкой мыши, чтобы бросить.</r></e>
+  <e k="D" t="ConceptDef" key="Concept_SidearmsDropping.label"><s>SS: Dropping sidearms</s><r>СС: Бросить оружие</r></e>
+  <e k="D" t="ConceptDef" key="Concept_SidearmsMissing.helpText"><s>Sidearms with a dark purple background are currently missing from a colonists loadout. They will attempt to replace them at earliest opportunity, assuming any can be found. Right click to forget about the sidearm.</s><r>В арсенале колонистов в настоящее время отсутствует личное оружие с темно-фиолетовым фоном. Они попытаются заменить их при первой же возможности, если таковые удастся найти. Щелкните правой кнопкой мыши, чтобы забыть о пистолете.</r></e>
+  <e k="D" t="ConceptDef" key="Concept_SidearmsMissing.label"><s>SS: Missing sidearms</s><r>СС: Пропало оружие</r></e>
+  <e k="D" t="ConceptDef" key="Concept_SimpleSidearmsAdvancedDrafted.helpText"><s>Left click a carried weapon while drafted to force its use until end of combat. 
+
+Note that most changes to sidearm loadout require the pawn to not be drafted.</s><r>Щелкните левой кнопкой мыши по носимому оружию, пока оно поднято, чтобы заставить его использовать его до конца боя. 
+
+Обратите внимание, что большинство изменений в снаряжении пистолета требуют, чтобы пешка не была выбрана.</r></e>
+  <e k="D" t="ConceptDef" key="Concept_SimpleSidearmsAdvancedDrafted.label"><s>SS: Advanced controls (drafted)</s><r>СС: Расширенные элементы управления (проект)</r></e>
+  <e k="D" t="ConceptDef" key="Concept_SimpleSidearmsAdvancedMelee.helpText"><s>Left click a carried melee weapon to set it as the preferred ranged weapon. The colonist will always use this weapon when weapon preference is set to melee (or skill on a colonist more skilled with melee weapons) and when forced into close combat. 
+
+Click a preferred melee weapon again to force its use at all times. 
+
+Right click to remove forced use/preference.</s><r>Щелкните левой кнопкой мыши по носимому оружию ближнего боя, чтобы сделать его предпочтительным оружием дальнего боя. Колонист всегда будет использовать это оружие, когда предпочтение оружия установлено на ближний бой (или навык для колониста, более опытного в обращении с оружием ближнего боя) и когда он вынужден вступить в ближний бой. 
+
+Нажмите на предпочитаемое оружие ближнего боя еще раз, чтобы принудительно использовать его постоянно. 
+
+Щелкните правой кнопкой мыши, чтобы удалить принудительное использование/предпочтение.</r></e>
+  <e k="D" t="ConceptDef" key="Concept_SimpleSidearmsAdvancedMelee.label"><s>SS: Advanced controls (melee)</s><r>SS: Расширенное управление (ближний бой)</r></e>
+  <e k="D" t="ConceptDef" key="Concept_SimpleSidearmsAdvancedRanged.helpText"><s>Left click a carried ranged weapon to set it as the default ranged weapon. If the colonist weapon preference is set to ranged (or skill on a colonist more skilled with ranged weapons), this weapon will be what the colonist equips when not in active combat. It will also be used while hunting. 
+
+Click a default ranged weapon again to force its use regardless of range/DPS. 
+
+Right click to remove forced use/default status.</s><r>Щелкните левой кнопкой мыши по носимому дальнобойному оружию, чтобы установить его в качестве оружия дальнего боя по умолчанию. Если в качестве оружия колониста выбрано оружие дальнего боя (или умение колониста, более опытного в обращении с оружием дальнего боя), это оружие будет тем оружием, которое колонист использует, когда не участвует в активном бою. Он также будет использоваться во время охоты. 
+
+Снова щелкните оружие дальнего боя по умолчанию, чтобы заставить его использовать независимо от дальности/Урона. 
+
+Щелкните правой кнопкой мыши, чтобы удалить статус принудительного использования/по умолчанию.</r></e>
+  <e k="D" t="ConceptDef" key="Concept_SimpleSidearmsAdvancedRanged.label"><s>SS: Advanced controls (ranged)</s><r>СС: расширенное управление (дальнее)</r></e>
+  <e k="D" t="ConceptDef" key="Concept_SimpleSidearmsBasic.helpText"><s>Simple Sidearms
+
+In order to equip weapons as sidearms, rightclick them and select the Equip as sidearm option.
+
+By default, colonists will use whichever weapon type they are best skilled with or passionate about. Ranged weapon users will also switch to a melee weapon when engaged in close combat. This behaviour can be altered in the mod settings.</s><r>Простое личное оружие
+
+Чтобы использовать оружие в качестве личного оружия, щелкните его правой кнопкой мыши и выберите опцию «Оснастить как личное оружие».
+
+По умолчанию колонисты будут использовать тот тип оружия, которым они лучше всего владеют или которым увлекаются. Пользователи оружия дальнего боя также перейдут на оружие ближнего боя в ближнем бою. Это поведение можно изменить в настройках мода.</r></e>
+  <e k="D" t="ConceptDef" key="Concept_SimpleSidearmsBasic.label"><s>SS: Sidearms</s><r>СС: Пистолеты</r></e>
+  <e k="D" t="ConceptDef" key="Concept_SimpleSidearmsLosingWeapons.helpText"><s>Depending on the settings, Simple Sidearms can cause colonists to drop their weapons in a variety of situations (default is attacks in melee). Don't worry - your colonists will retrieve their weapons after the fight. 
+
+This is a customizable feature - take a look in the mod settings dialog to learn more.</s><r>В зависимости от настроек «Простое личное оружие» может заставить колонистов бросить оружие в различных ситуациях (по умолчанию — атаки в ближнем бою). Не волнуйтесь: ваши колонисты заберут свое оружие после боя. 
+
+Это настраиваемая функция — загляните в диалоговое окно настроек мода, чтобы узнать больше.</r></e>
+  <e k="D" t="ConceptDef" key="Concept_SimpleSidearmsLosingWeapons.label"><s>SS: Losing weapons</s><r>СС: Потеря оружия</r></e>
+  <e k="D" t="ConceptDef" key="Concept_SimpleSidearmsPreference.helpText"><s>Colonists can have sidearm use configured on an individual basis. The options are: 
+Use ranged weapons
+Use weapons colonist is passionate about or skilled with 
+Use melee weapons</s><r>Колонисты могут настроить использование личного оружия на индивидуальной основе. Возможные варианты: 
+Использовать оружие дальнего боя
+Использовать оружие, которым колонист увлекается или умеет обращаться с ним 
+Использовать оружие ближнего боя</r></e>
+  <e k="D" t="ConceptDef" key="Concept_SimpleSidearmsPreference.label"><s>SS: Weapon preference</s><r>СС: Предпочтение оружия</r></e>
+  <e k="D" t="JobDef" key="EquipSecondary.reportString"><s>equipping TargetA as sidearm.</s><r>экипировав TargetA в качестве личного оружия.</r></e>
+  <e k="D" t="JobDef" key="ReequipSecondary.reportString"><s>re-equipping TargetA as sidearm.</s><r>переоборудование TargetA в личное оружие.</r></e>
+  <e k="D" t="JobDef" key="ReequipSecondaryCombat.reportString"><s>re-equipping TargetA as sidearm.</s><r>переоборудование TargetA в личное оружие.</r></e>
+  <e k="K" key="ActiveTab_option_Allowances"><s>Limits</s><r>Пределы</r></e>
+  <e k="K" key="ActiveTab_option_Automation"><s>Triggers</s><r>Триггеры</r></e>
+  <e k="K" key="ActiveTab_option_Misc"><s>Misc.</s><r>Разное.</r></e>
+  <e k="K" key="ActiveTab_option_Presets"><s>Presets</s><r>Пресеты</r></e>
+  <e k="K" key="ActiveTab_option_Spawning"><s>Spawns</s><r>Спавнится</r></e>
+  <e k="K" key="ActiveTab_title"><s>Configuration tabs</s><r>Вкладки конфигурации</r></e>
+  <e k="K" key="Alert_MissingPrimary_desc"><s>These colonists are missing their primary weapon:
+
+{0}</s><r>У этих колонистов отсутствует основное оружие:
+
+{0}</r></e>
+  <e k="K" key="Alert_MissingPrimary_label"><s>Colonist missing primary weapon</s><r>У колониста отсутствует основное оружие</r></e>
+  <e k="K" key="Alert_MissingSidearm_desc"><s>These colonists are missing one or more of their sidearms:
+
+{0}</s><r>У этих колонистов отсутствует одно или несколько видов личного оружия:
+
+{0}</r></e>
+  <e k="K" key="Alert_MissingSidearm_label"><s>Colonist missing sidearm</s><r>У колониста отсутствует пистолет</r></e>
+  <e k="K" key="AllowBlockedWeaponUse_desc"><s>Allow usage of weapons that are normally blocked (such as persona weapons, biocoded weapons, and Ideology role-restricted weapons) - see XKCD #1172</s><r>Разрешить использование оружия, которое обычно блокируется (например, персональное оружие, биокодированное оружие и оружие с ограниченным ролью идеологии) — см. XKCD № 1172.</r></e>
+  <e k="K" key="AllowBlockedWeaponUse_title"><s>Allow use of blocked weapons</s><r>Разрешить использование заблокированного оружия</r></e>
+  <e k="K" key="AsSidearm"><s> as sidearm</s><r> как личное оружие</r></e>
+  <e k="K" key="AsTool"><s> as tool</s><r> как инструмент</r></e>
+  <e k="K" key="CEOverrideInfo_title"><s>Disabled in favor of CE's system.</s><r>Отключено в пользу системы CE.</r></e>
+  <e k="K" key="CQCAutoSwitch_desc"><s>Should pawns switch to their melee sidearms when attacked in melee?</s><r>Должны ли пешки переключаться на оружие ближнего боя при атаке в ближнем бою?</r></e>
+  <e k="K" key="CQCAutoSwitch_title"><s>Melee combat autoswitch</s><r>Автопереключение ближнего боя</r></e>
+  <e k="K" key="CQCFistSwitch_desc"><s>Should pawns switch even when they are not using a weapon?</s><r>Должны ли пешки переключаться, даже если они не используют оружие?</r></e>
+  <e k="K" key="CQCFistSwitch_title"><s>Unarmed combat autoswitch</s><r>Автопереключение боя без оружия</r></e>
+  <e k="K" key="CQCTargetOnly_desc"><s>Should pawns only react to attacks from their current target?</s><r>Должны ли пешки реагировать только на атаки своей текущей цели?</r></e>
+  <e k="K" key="CQCTargetOnly_title"><s>Switch only on attacks from target</s><r>Включать только атаки с цели</r></e>
+  <e k="K" key="ColonistDefaultWeaponMode_desc"><s>The default weapon preference mode for player-controlled pawns.</s><r>Режим предпочтения оружия по умолчанию для пешек, управляемых игроком.</r></e>
+  <e k="K" key="ColonistDefaultWeaponMode_title"><s>Colonist default weapon mode</s><r>Режим оружия колониста по умолчанию</r></e>
+  <e k="K" key="ConsideredSidearms"><s>Sidearms</s><r>Пистолеты</r></e>
+  <e k="K" key="DrawSidearm_blocked"><s>Weapon unusable</s><r>Оружие непригодно для использования</r></e>
+  <e k="K" key="DrawSidearm_gizmoTitle"><s>Sidearms</s><r>Пистолеты</r></e>
+  <e k="K" key="DrawSidearm_gizmoTooltipForced"><s>Right click to remove forced use of {0}.</s><r>Щелкните правой кнопкой мыши, чтобы удалить принудительное использование {0}.</r></e>
+  <e k="K" key="DrawSidearm_gizmoTooltipForcedWhileDrafted"><s>Right click to remove forced use of {0}.</s><r>Щелкните правой кнопкой мыши, чтобы удалить принудительное использование {0}.</r></e>
+  <e k="K" key="DrawSidearm_gizmoTooltipMelee"><s>Left click to set {0} as preferred melee weapon.
+Right click to drop {0}.</s><r>Щелкните левой кнопкой мыши, чтобы установить {0} в качестве предпочтительного оружия ближнего боя. 
+Щелкните правой кнопкой мыши, чтобы бросить {0}.</r></e>
+  <e k="K" key="DrawSidearm_gizmoTooltipMeleePreferred"><s>Left click to force use of {0}.
+Right click to remove melee weapon preference of {0}.</s><r>Щелкните левой кнопкой мыши, чтобы принудительно использовать {0}.
+. Щелкните правой кнопкой мыши, чтобы удалить предпочтение оружия ближнего боя {0}.</r></e>
+  <e k="K" key="DrawSidearm_gizmoTooltipMemory"><s>Right click to forget about {0}.</s><r>Щелкните правой кнопкой мыши, чтобы забыть о {0}.</r></e>
+  <e k="K" key="DrawSidearm_gizmoTooltipMemoryWhileDrafted"><s>No interaction while drafted.</s><r>Никакого взаимодействия во время драфта.</r></e>
+  <e k="K" key="DrawSidearm_gizmoTooltipRanged"><s>Left click to set {0} as default ranged weapon.
+Right click to drop {0}.</s><r>Щелкните левой кнопкой мыши, чтобы установить {0} в качестве оружия дальнего боя по умолчанию. 
+Щелкните правой кнопкой мыши, чтобы отбросить {0}.</r></e>
+  <e k="K" key="DrawSidearm_gizmoTooltipRangedDefault"><s>Left click to force use of {0}.
+Right click to unset {0} as default ranged weapon.</s><r>Щелкните левой кнопкой мыши, чтобы принудительно использовать {0}.
+. Щелкните правой кнопкой мыши, чтобы отменить настройку {0} в качестве оружия дальнего боя по умолчанию.</r></e>
+  <e k="K" key="DrawSidearm_gizmoTooltipUnarmed"><s>Left click to set unarmed combat as preferred melee option.</s><r>Щелкните левой кнопкой мыши, чтобы установить рукопашный бой в качестве предпочтительного варианта ближнего боя.</r></e>
+  <e k="K" key="DrawSidearm_gizmoTooltipUnarmedForced"><s>Right click to remove forced use of unarmed combat.</s><r>Щелкните правой кнопкой мыши, чтобы удалить принудительное использование рукопашного боя.</r></e>
+  <e k="K" key="DrawSidearm_gizmoTooltipUnarmedForcedWhileDrafted"><s>Right click to remove forced use of unarmed combat.</s><r>Щелкните правой кнопкой мыши, чтобы удалить принудительное использование рукопашного боя.</r></e>
+  <e k="K" key="DrawSidearm_gizmoTooltipUnarmedPreferred"><s>Left click to force use of unarmed combat. 
+Right click to remove unarmed combat as preferred melee option.</s><r>Щелкните левой кнопкой мыши, чтобы принудительно использовать рукопашный бой. 
+Щелкните правой кнопкой мыши, чтобы удалить рукопашный бой как предпочтительный вариант рукопашного боя.</r></e>
+  <e k="K" key="DrawSidearm_gizmoTooltipUnarmedWhileDrafted"><s>Left click to force use of unarmed combat until end of combat.</s><r>Щелкните левой кнопкой мыши, чтобы принудительно использовать рукопашный бой до конца боя.</r></e>
+  <e k="K" key="DrawSidearm_gizmoTooltipWhileDrafted"><s>Left click to force use of {0} until end of combat.</s><r>Щелкните левой кнопкой мыши, чтобы принудительно использовать {0} до конца боя.</r></e>
+  <e k="K" key="DropMode_desc"><s>In which situations might pawns fumble and drop their weapon instead of moving it to their inventory?</s><r>В каких ситуациях пешки могут возиться и ронять свое оружие вместо того, чтобы переместить его в свой инвентарь?</r></e>
+  <e k="K" key="DropMode_option_Always"><s>Always</s><r>Всегда</r></e>
+  <e k="K" key="DropMode_option_InCombat"><s>In combat</s><r>В бою</r></e>
+  <e k="K" key="DropMode_option_InDistress"><s>In distress</s><r>В беде</r></e>
+  <e k="K" key="DropMode_option_Never"><s>Never</s><r>Никогда</r></e>
+  <e k="K" key="DropMode_option_Panic"><s>In distress</s><r>В беде</r></e>
+  <e k="K" key="DropMode_option_PanicOrRange"><s>In combat</s><r>В бою</r></e>
+  <e k="K" key="DropMode_title"><s>Weapon fumble criteria</s><r>Критерии поиска оружия</r></e>
+  <e k="K" key="FirstTimeSettingsWarning"><s>First time running Simple Sidearms?
+
+This icon indicates the mod's settings have not been configured yet. It will go away when the settings menu is first accessed.
+
+Click to go to settings now.</s><r>Впервые запускаете Simple Sidearms?
+
+Этот значок указывает на то, что настройки мода еще не настроены. Оно исчезнет при первом входе в меню настроек.
+
+Нажмите, чтобы перейти к настройкам сейчас.</r></e>
+  <e k="K" key="FumbleRecoveryChance_hint"><s>Vertical axis is chance to avoid fumbling
+Horizontal axis is melee or ranged skill (whichever is better)</s><r>Вертикальная ось — это шанс избежать неловкости
+Горизонтальная ось — это навыки ближнего или дальнего боя (в зависимости от того, что лучше)</r></e>
+  <e k="K" key="FumbleRecoveryChance_title"><s>Chance to avoid weapon fumble</s><r>Шанс избежать урона от оружия</r></e>
+  <e k="K" key="Fumbled"><s>Fumble!</s><r>Шарить!</r></e>
+  <e k="K" key="Fumbled_dev"><s>Fumble! ({0})</s><r>Шарить! ({0})</r></e>
+  <e k="K" key="HideSidearmsInCaravanDialogs_desc"><s>Hide sideams in caravan dialogs, to prevent accidentaly selling them. (Experimental, implemented by XT-0xFF @Github)</s><r>Скрывайте боковые товары в диалогах каравана, чтобы их случайно не продать. (Экспериментальный вариант, реализованный XT-0xFF @Github)</r></e>
+  <e k="K" key="HideSidearmsInCaravanDialogs_title"><s>Hide sidearms in caravan dialogs</s><r>Скрыть личное оружие в диалогах каравана</r></e>
+  <e k="K" key="LimitCarryInfo_title"><s>Always limited by pawn's carry capacity</s><r>Всегда ограничен грузоподъемностью пешки.</r></e>
+  <e k="K" key="LimitModeAmountMelee_desc"><s>What restrictions are there on all melee sidearms.</s><r>Какие ограничения существуют для всего оружия ближнего боя.</r></e>
+  <e k="K" key="LimitModeAmountMelee_title"><s>Total melee sidearms limit mode</s><r>Режим ограничения общего количества оружия ближнего боя</r></e>
+  <e k="K" key="LimitModeAmountRanged_desc"><s>What restrictions are there on all ranged sidearms.</s><r>Какие ограничения существуют для всего дальнобойного оружия.</r></e>
+  <e k="K" key="LimitModeAmountRanged_title"><s>Total ranged sidearms limit mode</s><r>Режим ограничения общего количества оружия дальнего боя</r></e>
+  <e k="K" key="LimitModeAmountTotal_desc"><s>What restrictions are there on all sidearms.</s><r>Какие ограничения есть на все виды оружия.</r></e>
+  <e k="K" key="LimitModeAmountTotal_title"><s>Total sidearms limit mode</s><r>Режим ограничения общего количества оружия</r></e>
+  <e k="K" key="LimitModeAmount_desc"><s>What restrictions are there on all sidearms.</s><r>Какие ограничения есть на все виды оружия.</r></e>
+  <e k="K" key="LimitModeAmount_option_AbsoluteWeight"><s>Mass absolute</s><r>Масса абсолютная</r></e>
+  <e k="K" key="LimitModeAmount_option_None"><s>No limit</s><r>Без ограничений</r></e>
+  <e k="K" key="LimitModeAmount_option_RelativeWeight"><s>Mass relative</s><r>Массовый относительный</r></e>
+  <e k="K" key="LimitModeAmount_option_Slots"><s>Slots</s><r>Слоты</r></e>
+  <e k="K" key="LimitModeAmount_title"><s>Total sidearms limit mode</s><r>Режим ограничения общего количества оружия</r></e>
+  <e k="K" key="LimitModeSingleMelee_desc"><s>What restrictions are there on individual melee sidearms.</s><r>Какие ограничения существуют для индивидуального оружия ближнего боя.</r></e>
+  <e k="K" key="LimitModeSingleMelee_title"><s>Single melee sidearm limit mode</s><r>Режим ограничения для одного оружия ближнего боя</r></e>
+  <e k="K" key="LimitModeSingleRanged_desc"><s>What restrictions are there on individual ranged sidearms.</s><r>Какие ограничения существуют для отдельного оружия дальнего боя.</r></e>
+  <e k="K" key="LimitModeSingleRanged_title"><s>Single ranged sidearm limit mode</s><r>Режим ограничения для одного дальнобойного оружия</r></e>
+  <e k="K" key="LimitModeSingle_desc"><s>What restrictions are there on individual sidearms.</s><r>Какие ограничения существуют на индивидуальное оружие.</r></e>
+  <e k="K" key="LimitModeSingle_option_AbsoluteWeight"><s>Mass absolute</s><r>Масса абсолютная</r></e>
+  <e k="K" key="LimitModeSingle_option_None"><s>No limit</s><r>Без ограничений</r></e>
+  <e k="K" key="LimitModeSingle_option_RelativeWeight"><s>Mass relative</s><r>Массовый относительный</r></e>
+  <e k="K" key="LimitModeSingle_option_Selection"><s>Specific weapons</s><r>Специфическое оружие</r></e>
+  <e k="K" key="LimitModeSingle_title"><s>Single sidearm limit mode</s><r>Режим ограничения одного бокового оружия</r></e>
+  <e k="K" key="LockedWeaponSwitch"><s>Cannot autoswitch (ranged)</s><r>Невозможно автопереключение (дальний бой)</r></e>
+  <e k="K" key="MaximumMassAmountAbsolute_desc"><s>Maximum total mass of sidearms a pawn can carry.</s><r>Максимальная общая масса личного оружия, которую может нести пешка.</r></e>
+  <e k="K" key="MaximumMassAmountAbsolute_title"><s>Max. mass of sidearms</s><r>Макс. масса личного оружия</r></e>
+  <e k="K" key="MaximumMassAmountRelative_desc"><s>Maximum total mass of sidearms a pawn can carry relative to their carry capacity.</s><r>Максимальная общая масса личного оружия, которую пешка может нести, относительно их грузоподъемности.</r></e>
+  <e k="K" key="MaximumMassAmountRelative_hint"><s>Listing assumes standard carry capacity of 35 kg</s><r>В листинге указана стандартная грузоподъемность 35 кг.</r></e>
+  <e k="K" key="MaximumMassAmountRelative_title"><s>Max. mass of sidearms</s><r>Макс. масса личного оружия</r></e>
+  <e k="K" key="MaximumMassSingleAbsolute_desc"><s>Maximum mass of a single sidearm a pawn can carry.</s><r>Максимальная масса одного оружия, которую может нести пешка.</r></e>
+  <e k="K" key="MaximumMassSingleAbsolute_title"><s>Max. mass per sidearm</s><r>Макс. масса оружия</r></e>
+  <e k="K" key="MaximumMassSingleRelative_desc"><s>Maximum mass of a single sidearm a pawn can carry relative to their carry capacity.</s><r>Максимальная масса одного пистолета, которую может нести пешка, относительно ее грузоподъемности.</r></e>
+  <e k="K" key="MaximumMassSingleRelative_title"><s>Max. mass per sidearm</s><r>Макс. масса оружия</r></e>
+  <e k="K" key="MaximumSlots_desc"><s>How many sidearms can a pawn carry.</s><r>Сколько огнестрельного оружия может нести пешка.</r></e>
+  <e k="K" key="MaximumSlots_title"><s>Slots</s><r>Слоты</r></e>
+  <e k="K" key="NPCDefaultWeaponMode_desc"><s>The default weapon preference mode for NPC pawns.</s><r>Режим предпочтения оружия по умолчанию для пешек NPC.</r></e>
+  <e k="K" key="NPCDefaultWeaponMode_title"><s>NPC default weapon mode</s><r>Стандартный режим оружия NPC</r></e>
+  <e k="K" key="NonTribalWeapons"><s>Not tribal</s><r>Не племенной</r></e>
+  <e k="K" key="NotConsideredSidearms"><s>Not sidearms</s><r>Не личное оружие</r></e>
+  <e k="K" key="OptimalMelee_desc"><s>Should pawns automatically switch to a higher DPS melee weapon?</s><r>Должны ли пешки автоматически переключаться на оружие ближнего боя с более высоким ДПС?</r></e>
+  <e k="K" key="OptimalMelee_title"><s>Use best melee weapon</s><r>Используйте лучшее оружие ближнего боя</r></e>
+  <e k="K" key="PreserveInventoryInCaravans_desc"><s>Keep sidearms in the right inventory when returning from caravans. (Experimental, implemented by XT-0xFF @Github)</s><r>Возвращаясь из караванов, держите оружие в нужном инвентаре. (Экспериментальный вариант, реализованный XT-0xFF @Github)</r></e>
+  <e k="K" key="PreserveInventoryInCaravans_title"><s>Preserve sideams through caravans</s><r>Сохраняйте боковые пути через караваны</r></e>
+  <e k="K" key="Preset0_desc"><s>All options disabled. Good base for configurations that use only a small portion of the mod's features.</s><r>Все опции отключены. Хорошая база для конфигураций, использующих лишь небольшую часть возможностей мода.</r></e>
+  <e k="K" key="Preset0_title"><s>Disabled</s><r>Неполноценный</r></e>
+  <e k="K" key="Preset1_desc"><s>Allows equipping sidearms, but nothing else. Essentially a convenient inventory extension.</s><r>Позволяет экипировать личное оружие, но не более того. По сути удобное расширение инвентаря.</r></e>
+  <e k="K" key="Preset1_title"><s>Loadout only</s><r>Только выгрузка</r></e>
+  <e k="K" key="Preset1half_desc"><s>Allows a single light weapon as a sidearm.</s><r>Позволяет использовать одно легкое оружие в качестве личного оружия.</r></e>
+  <e k="K" key="Preset1half_title"><s>Lite</s><r>Лайт</r></e>
+  <e k="K" key="Preset2_desc"><s>A simple setup. Pawns can use a few light weapons and will attempt to use them in appropriate situations.</s><r>Простая установка. Пешки могут использовать небольшое количество легкого оружия и будут пытаться использовать его в соответствующих ситуациях.</r></e>
+  <e k="K" key="Preset2_title"><s>Basic</s><r>Базовый</r></e>
+  <e k="K" key="Preset3_desc"><s>Pawns get more creative with their weapon selection, but still remain within what one would expect possible from regular people trying to survive on a dangerous rimworld.</s><r>Пешки становятся более изобретательными в выборе оружия, но при этом остаются в пределах того, что можно было бы ожидать от обычных людей, пытающихся выжить в опасном мире-кольце.</r></e>
+  <e k="K" key="Preset3_title"><s>Advanced</s><r>Передовой</r></e>
+  <e k="K" key="Preset4_desc"><s>Bring all of it! Minigun? Bring two! Spears? I've got a whole collection in my backpack!</s><r>Принесите все это! Миниган? Принесите два! Спирс? У меня в рюкзаке целая коллекция!</r></e>
+  <e k="K" key="Preset4_title"><s>Excessive</s><r>Излишний</r></e>
+  <e k="K" key="Preset5_desc"><s>Melee sidearms for everyone.</s><r>Оружие ближнего боя для всех.</r></e>
+  <e k="K" key="Preset5_title"><s>Brawler mode</s><r>Режим скандалиста</r></e>
+  <e k="K" key="PresetCustom_desc"><s>Custom settings. Automatically selected upon making a change.</s><r>Пользовательские настройки. Автоматически выбирается при внесении изменений.</r></e>
+  <e k="K" key="PresetCustom_title"><s>Custom</s><r>Обычай</r></e>
+  <e k="K" key="PresetExport_label"><s>Copy active config to clipboard</s><r>Скопировать активную конфигурацию в буфер обмена</r></e>
+  <e k="K" key="Preset_option_Advanced"><s>Advanced</s><r>Передовой</r></e>
+  <e k="K" key="Preset_option_Basic"><s>Basic</s><r>Базовый</r></e>
+  <e k="K" key="Preset_option_Brawler"><s>Brawler</s><r>Скандалист</r></e>
+  <e k="K" key="Preset_option_Custom"><s>Custom</s><r>Обычай</r></e>
+  <e k="K" key="Preset_option_Disabled"><s>Disabled</s><r>Неполноценный</r></e>
+  <e k="K" key="Preset_option_Excessive"><s>Excessive</s><r>Излишний</r></e>
+  <e k="K" key="Preset_option_Lite"><s>Lite</s><r>Лайт</r></e>
+  <e k="K" key="Preset_option_LoadoutOnly"><s>Loadout only</s><r>Только выгрузка</r></e>
+  <e k="K" key="Preset_option_NoneApplied"><s>None</s><r>Никто</r></e>
+  <e k="K" key="PrimaryWeaponMode_option_ByGenerated"><s>By primary</s><r>По первичному</r></e>
+  <e k="K" key="PrimaryWeaponMode_option_BySkill"><s>By skill</s><r>По навыкам</r></e>
+  <e k="K" key="PrimaryWeaponMode_option_Melee"><s>Melee</s><r>Ближний бой</r></e>
+  <e k="K" key="PrimaryWeaponMode_option_Ranged"><s>Ranged</s><r>Дальний бой</r></e>
+  <e k="K" key="RangedCombatAutoSwitchMaxWarmup_desc"><s>What is the threshold after which a pawn will refuse to interrupt their attack to switch to a sidearm?</s><r>Каков порог, после которого пешка откажется прерывать атаку и переключиться на личное оружие?</r></e>
+  <e k="K" key="RangedCombatAutoSwitchMaxWarmup_title"><s>Maximum warmup percentage</s><r>Максимальный процент прогрева</r></e>
+  <e k="K" key="RangedCombatAutoSwitch_desc"><s>Should pawns switch to range-appropriate ranged sidearms when attacking at range?</s><r>Должны ли пешки переключаться на подходящее для дальности оружие при атаке на расстоянии?</r></e>
+  <e k="K" key="RangedCombatAutoSwitch_title"><s>Use best ranged weapon</s><r>Используйте лучшее оружие дальнего боя</r></e>
+  <e k="K" key="ReEquipBest_desc"><s>Auto-re-equip will find the best weapon available (instead of the closest)</s><r>Автоматическое перевооружение найдет лучшее доступное оружие (вместо ближайшего)</r></e>
+  <e k="K" key="ReEquipBest_title"><s>Re-equip best available</s><r>Перевооружить лучшее, что есть</r></e>
+  <e k="K" key="ReEquipInCombat_desc"><s>Auto-re-equip weapons even in combat, when not actively fighting.</s><r>Автоматическое перевооружение оружия даже в бою, когда он не активно сражается.</r></e>
+  <e k="K" key="ReEquipInCombat_title"><s>Re-equip during combat</s><r>Перевооружение во время боя</r></e>
+  <e k="K" key="ReEquipOutOfCombat_desc"><s>After having dropped a weapon, auto-re-equip it after combat once out of immediate danger.</s><r>После того, как вы уронили оружие, автоматически перевооружите его после боя, когда вы находитесь вне непосредственной опасности.</r></e>
+  <e k="K" key="ReEquipOutOfCombat_title"><s>Re-equip dropped weapons</s><r>Перевооружить выпавшее оружие</r></e>
+  <e k="K" key="SS_CanEquipAsOffand"><s>Left click on the offhand icon to equip {0} as offhand weapon.</s><r>Щелкните левой кнопкой мыши по значку левой руки, чтобы использовать {0} в качестве оружия для левой руки.</r></e>
+  <e k="K" key="SS_EquipAsOffand"><s>Left click on the offhand icon to equip {0} as offhand weapon.</s><r>Щелкните левой кнопкой мыши по значку левой руки, чтобы использовать {0} в качестве оружия для левой руки.</r></e>
+  <e k="K" key="SS_EquipOffandFail_AlreadyHoldingShield"><s>Cannot equip {0} as offhand weapon - already holding {1}.</s><r>Невозможно использовать {0} как дополнительное оружие — уже есть {1}.</r></e>
+  <e k="K" key="SS_EquipOffandFail_NoPrimary"><s>Cannot equip {0} as offhand weapon - need a primary weapon to pair it with first.</s><r>Невозможно использовать {0} в качестве дополнительного оружия — сначала нужно основное оружие, с которым можно его соединить.</r></e>
+  <e k="K" key="SS_EquipOffandFail_PrimaryTwoHanded"><s>Cannot equip {0} as offhand weapon - {1} is a two-handed weapon.</s><r>Невозможно использовать {0} как дополнительное оружие — {1} — двуручное оружие.</r></e>
+  <e k="K" key="SS_EquipWarning_CannotUseWithShield"><s>Using {0} will prevent use of {1}.</s><r>Использование {0} предотвратит использование {1}.</r></e>
+  <e k="K" key="SS_EquipWarning_WillUnequipOffhand"><s>Equipping {0} will unequip offhand {1}.</s><r>Экипировка {0} приведет к снятию с руки {1}.</r></e>
+  <e k="K" key="SeparateModes_desc"><s>Should melee and ranged weapons have shared or separate restrictions?</s><r>Должно ли оружие ближнего и дальнего боя иметь общие или отдельные ограничения?</r></e>
+  <e k="K" key="SeparateModes_title"><s>Split melee/ranged</s><r>Разделение ближнего/дальнего боя</r></e>
+  <e k="K" key="ShowAlertsMissingSidearm_desc"><s>Show alerts for colonists that remember having sidearms that they no longer have and can't find a replacement for.</s><r>Показывайте оповещения колонистам, которые помнят, что у них есть оружие, которого у них больше нет, и которые не могут найти замену.</r></e>
+  <e k="K" key="ShowAlertsMissingSidearm_title"><s>Show missing sidearm alerts</s><r>Показать оповещения об отсутствующем оружии</r></e>
+  <e k="K" key="ShowBrainscope_desc"><s>Show a dev tool gizmo that reveals the selected pawns internal state.</s><r>Покажите инструмент разработчика, который показывает внутреннее состояние выбранных пешек.</r></e>
+  <e k="K" key="ShowBrainscope_title"><s>Show Brainscope</s><r>Показать Brainscope</r></e>
+  <e k="K" key="SidearmBudgetDropoff_desc"><s>The amount by which the budget is reduced by per additional sidearm.</s><r>Сумма, на которую уменьшается бюджет за каждое дополнительное оружие.</r></e>
+  <e k="K" key="SidearmBudgetDropoff_title"><s>Additional sidearm budget reduction</s><r>Дополнительное сокращение бюджета на оружие</r></e>
+  <e k="K" key="SidearmBudgetMultiplier_desc"><s>The amount of money a sidearm can be worth, based on the default primary weapon.</s><r>Сумма денег, которую может стоить личное оружие, исходя из основного оружия по умолчанию.</r></e>
+  <e k="K" key="SidearmBudgetMultiplier_title"><s>Sidearm budget multiplier</s><r>Множитель бюджета Sidearm</r></e>
+  <e k="K" key="SidearmPickupFail_AllSlotsFull"><s>Slots full</s><r>Слоты заполнены</r></e>
+  <e k="K" key="SidearmPickupFail_MeleeSlotsFull"><s>Melee slots full</s><r>Слоты для ближнего боя заполнены</r></e>
+  <e k="K" key="SidearmPickupFail_NoFreeSpace"><s>No free space</s><r>Нет свободного места</r></e>
+  <e k="K" key="SidearmPickupFail_NotASidearm"><s>Not a sidearm</s><r>Не личное оружие</r></e>
+  <e k="K" key="SidearmPickupFail_NotASidearmMelee"><s>Not a sidearm</s><r>Не личное оружие</r></e>
+  <e k="K" key="SidearmPickupFail_NotASidearmRanged"><s>Not a sidearm</s><r>Не личное оружие</r></e>
+  <e k="K" key="SidearmPickupFail_NotAToolForPacifist"><s>Not a tool. {0} is incapable of violence.</s><r>Не инструмент. {0} не способен на насилие.</r></e>
+  <e k="K" key="SidearmPickupFail_NotYetBladelinkBonded"><s>Not yet bonded</s><r>Еще не связаны</r></e>
+  <e k="K" key="SidearmPickupFail_RangedSlotsFull"><s>Ranged slots full</s><r>Слоты дальнего боя заполнены</r></e>
+  <e k="K" key="SidearmPickupFail_SidearmsTooHeavyInTotal"><s>Loadout too heavy</s><r>Нагрузка слишком тяжелая</r></e>
+  <e k="K" key="SidearmPickupFail_SidearmsTooHeavyMelee"><s>Melee loadout too heavy</s><r>Снаряжение ближнего боя слишком тяжелое</r></e>
+  <e k="K" key="SidearmPickupFail_SidearmsTooHeavyRanged"><s>Ranged loadout too heavy</s><r>Снаряжение дальнего боя слишком тяжелое.</r></e>
+  <e k="K" key="SidearmPickupFail_TooHeavyForSidearm"><s>Too heavy for a sidearm</s><r>Слишком тяжелый для пистолета</r></e>
+  <e k="K" key="SidearmPickupFail_TooHeavyForSidearmMelee"><s>Too heavy for a melee sidearm</s><r>Слишком тяжелый для оружия ближнего боя.</r></e>
+  <e k="K" key="SidearmPickupFail_TooHeavyForSidearmRanged"><s>Too heavy for a ranged sidearm</s><r>Слишком тяжелый для дальнобойного оружия.</r></e>
+  <e k="K" key="SidearmPickupPass"><s>No issue</s><r>Нет проблем</r></e>
+  <e k="K" key="SidearmPreference_Melee"><s>Use melee weapons.</s><r>Используйте оружие ближнего боя.</r></e>
+  <e k="K" key="SidearmPreference_Ranged"><s>Use ranged weapons.</s><r>Используйте оружие дальнего боя.</r></e>
+  <e k="K" key="SidearmPreference_Skill"><s>Use weapons according to own skill or passion.</s><r>Используйте оружие в соответствии со своими навыками или страстью.</r></e>
+  <e k="K" key="SidearmSelection_title"><s>Sidearm selection</s><r>Выбор оружия</r></e>
+  <e k="K" key="SidearmSpawnChanceDropoff_desc"><s>The amount by which the chance to spawn a sidearm is reduced by per additional sidearm.</s><r>Сумма, на которую снижается вероятность появления дополнительного оружия, увеличивается на каждое дополнительное оружие.</r></e>
+  <e k="K" key="SidearmSpawnChanceDropoff_title"><s>Additional spawn chance reduction</s><r>Дополнительное снижение шанса появления</r></e>
+  <e k="K" key="SidearmSpawnChance_desc"><s>The chance for any pawn that spawns with a weapon to also have a sidearm.</s><r>Шанс для любой пешки, которая появляется с оружием, также иметь личное оружие.</r></e>
+  <e k="K" key="SidearmSpawnChance_title"><s>Sidearm spawn chance</s><r>Шанс появления пистолета</r></e>
+  <e k="K" key="SidearmsEnableNeolithicExtension_desc"><s>Allow more weapons to be used as sidearms by tribals.</s><r>Разрешить племенам использовать больше оружия в качестве личного оружия.</r></e>
+  <e k="K" key="SidearmsEnableNeolithicExtension_title"><s>Extend neolithic sidearms</s><r>Расширение неолитического оружия</r></e>
+  <e k="K" key="SidearmsNeolithicExtension_title"><s>Sidearms considered neolithic</s><r>Пистолетное оружие считается неолитическим</r></e>
+  <e k="K" key="SidearmsPlaySounds_desc"><s>Play sounds when swapping weapons.</s><r>Воспроизведение звуков при смене оружия.</r></e>
+  <e k="K" key="SidearmsPlaySounds_title"><s>Play sounds</s><r>Воспроизведение звуков</r></e>
+  <e k="K" key="SimpleSidearms_ModTitle"><s>Simple Sidearms</s><r>Простое оружие</r></e>
+  <e k="K" key="SingleshotAutoSwitch_desc"><s>Should pawns switch to sidearms after expending single-use weapons?</s><r>Должны ли пешки переключаться на личное оружие после израсходования одноразового оружия?</r></e>
+  <e k="K" key="SingleshotAutoSwitch_title"><s>Singleshot autoswitch</s><r>Автопереключение одиночного выстрела</r></e>
+  <e k="K" key="SkipDangerousWeapons_desc"><s>Disallow auto-equip of dangerous weapons (molotov cocktails, frag grenades, rocket launchers, etc.)</s><r>Запретить автоматическое экипирование опасного оружия (коктейлей Молотова, осколочных гранат, гранатометов и т. д.)</r></e>
+  <e k="K" key="SkipDangerousWeapons_title"><s>Skip dangerous weapons</s><r>Пропустить опасное оружие</r></e>
+  <e k="K" key="SkipEMPWeapons_desc"><s>Disallow auto-equip of EMP weapons (note that pawns will only consider auto-equipping these when fighting mechanoids anyway).</s><r>Запретить автоматическое оснащение ЭМИ-оружием (обратите внимание, что пешки в любом случае будут рассматривать возможность автоматического оснащения его только во время борьбы с механоидами).</r></e>
+  <e k="K" key="SkipEMPWeapons_title"><s>Skip EMP weapons</s><r>Пропустить ЭМИ-оружие</r></e>
+  <e k="K" key="SpeedSelectionBiasMelee_desc"><s>Pawn bias towards selecting weapons with faster attack speed.</s><r>Пешка склоняется к выбору оружия с более высокой скоростью атаки.</r></e>
+  <e k="K" key="SpeedSelectionBiasMelee_title"><s>Speed bias (melee)</s><r>Смещение скорости (ближний бой)</r></e>
+  <e k="K" key="SpeedSelectionBiasRanged_desc"><s>Pawn bias towards selecting weapons with faster warmup.</s><r>Пешка склоняется к выбору оружия с более быстрым разогревом.</r></e>
+  <e k="K" key="SpeedSelectionBiasRanged_title"><s>Speed bias (ranged)</s><r>Смещение скорости (диапазон)</r></e>
+  <e k="K" key="ToolAutoSwitch_desc"><s>Should pawns switch tools/weapons with statboosts for their current job?</s><r>Должны ли пешки менять инструменты/оружие с повышением характеристик для своей текущей работы?</r></e>
+  <e k="K" key="ToolAutoSwitch_title"><s>Tool use autoswitch</s><r>Автопереключение использования инструмента</r></e>
+  <e k="K" key="TribalWeapons"><s>Tribal</s><r>Племенной</r></e>
+  <e k="K" key="UnlockedWeaponSwitch"><s>Can autoswitch (ranged)</s><r>Может автопереключение (дальнего боя)</r></e>
+  <e k="K" key="WeaponListKind_option_Both"><s>Both</s><r>Оба</r></e>
+  <e k="K" key="WeaponListKind_option_Melee"><s>Melee</s><r>Ближний бой</r></e>
+  <e k="K" key="WeaponListKind_option_Ranged"><s>Ranged</s><r>Дальний бой</r></e>
+  <e k="K" key="WeaponMatch_desc"><s>These are the weapons that match the given criteria.</s><r>Это оружие, соответствующее заданным критериям.</r></e>
+  <e k="K" key="WeaponSwitchAutolockOff"><s>Off</s><r>Выключенный</r></e>
+  <e k="K" key="WeaponSwitchAutolockOn"><s>Lock autoswitch on draw</s><r>Блокировка автопереключения при вытягивании</r></e>
+</AutoTranslateCache>
