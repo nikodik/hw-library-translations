@@ -1,0 +1,1325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="oskarpotocki.vanillavehiclesexpanded" name="Vanilla Vehicles Expanded" language="Russian" version="1">
+  <e k="D" t="IssueDef" key="VVE_Acceleration.label"><s>acceleration</s><r>ускорение</r></e>
+  <e k="D" t="IssueDef" key="VVE_Driving.label"><s>driving</s><r>вождение</r></e>
+  <e k="D" t="IssueDef" key="VVE_Flying.label"><s>flying</s><r>летающий</r></e>
+  <e k="D" t="IssueDef" key="VVE_FuelEfficiency.label"><s>fuel efficiency</s><r>топливная экономичность</r></e>
+  <e k="D" t="IssueDef" key="VVE_ImpactDamage.label"><s>impact damage</s><r>ущерб от удара</r></e>
+  <e k="D" t="IssueDef" key="VVE_MaxSpeed.label"><s>max speed</s><r>максимальная скорость</r></e>
+  <e k="D" t="IssueDef" key="VVE_Sailing.label"><s>Sailing</s><r>Парусный спорт</r></e>
+  <e k="D" t="IssueDef" key="VVE_VehicleRepairs.label"><s>vehicle repairs</s><r>ремонт автомобилей</r></e>
+  <e k="D" t="JobDef" key="VVE_CloseGarage.reportString"><s>closing garage.</s><r>закрытие гаража.</r></e>
+  <e k="D" t="JobDef" key="VVE_OpenGarage.reportString"><s>opening garage.</s><r>открытие гаража.</r></e>
+  <e k="D" t="JobDef" key="VVE_RestoreWreck.reportString"><s>restoring TargetA.</s><r>восстанавливая TargetA.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Nauticals.description"><s>Embracing the vastness of the waters offers a deep connection to life's mysteries.</s><r>Охват необъятных вод предлагает глубокую связь с тайнами жизни.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Nauticals.descriptionMaker.rules.rulesStrings.0"><s>creation(tag=meme_Nauticals)        -&gt;[deity0_name] made all of [deity0_possessive] followers look to the endless seas.</s><r>creation(tag=meme_Nauticals)        -&gt;[deity0_name] заставил всех последователей [deity0_possessive] посмотреть на бескрайние моря.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Nauticals.descriptionMaker.rules.rulesStrings.1"><s>episode(uses=1,tag=meme_Nauticals)  -&gt;Speaking to the believers, [deity0_name] said: &quot;Only by conquering the seas will you reach true enlightening&quot;.</s><r>episode(uses=1,tag=meme_Nauticals)  -&gt;Обращаясь к верующим, [deity0_name] сказал: «Только покорив моря, вы достигнете истинного просветления».</r></e>
+  <e k="D" t="MemeDef" key="VVE_Nauticals.descriptionMaker.rules.rulesStrings.10"><s>lessonReinforcement(tag=meme_Nauticals) -&gt;We will come upon our enemies from the untamed waters, like swift and divine justice.</s><r>lessonReinforcement(tag=meme_Nauticals) -&gt;Мы придем к нашим врагам из диких вод, как быстрое и божественное правосудие.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Nauticals.descriptionMaker.rules.rulesStrings.11"><s>archistBasis(tag=meme_Nauticals)    -&gt;The Archotechs' pure minds are fluid like water, beings of fickleness and changeability.</s><r>archistBasis(tag=meme_Nauticals)    -&gt;Чистые разумы Архотехов текучи, как вода, существа непостоянны и изменчивы.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Nauticals.descriptionMaker.rules.rulesStrings.12"><s>archistFact(tag=meme_Nauticals)     -&gt;By sailing the seas we pay hommage to their unpredictable and capricious nature.</s><r>archistFact(tag=meme_Nauticals)     -&gt;Путешествуя по морям, мы отдаем дань уважения их непредсказуемой и капризной природе.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Nauticals.descriptionMaker.rules.rulesStrings.13"><s>archistProphecy(tag=meme_Nauticals) -&gt;[inTheEnd], only those who transcend the limits of the earth will also be able to transcend their physical bodies.</s><r>archistProphecy(tag=meme_Nauticals) -&gt;[inTheEnd], только те, кто преодолеет пределы земли, смогут выйти за пределы своего физического тела.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Nauticals.descriptionMaker.rules.rulesStrings.14"><s>animistBasis(tag=meme_Nauticals)    -&gt;The spirits teach us that the unpredictability of the seas holds the secret to a pure existence.</s><r>animistBasis(tag=meme_Nauticals)    -&gt;Духи учат нас, что в непредсказуемости морей скрыт секрет чистого существования.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Nauticals.descriptionMaker.rules.rulesStrings.15"><s>animistFact(tag=meme_Nauticals)     -&gt;Only by sailing the seas can we get closer to the spirits.</s><r>animistFact(tag=meme_Nauticals)     -&gt;Только путешествуя по морям, мы можем приблизиться к духам.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Nauticals.descriptionMaker.rules.rulesStrings.16"><s>animistProphecy(tag=meme_Nauticals) -&gt;[itIsSaid] only those who transcend the limits of the earth will also be able to commune with the spiritual world.</s><r>animistProphecy(tag=meme_Nauticals) -&gt;[itIsSaid] только те, кто преодолеет пределы земли, смогут общаться с духовным миром.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Nauticals.descriptionMaker.rules.rulesStrings.2"><s>intro(tag=meme_Nauticals)           -&gt;[place_summary] [place_name] was always fraught with conflict. The [memberNamePlural] were besieged constantly by their foes, and this deeply saddened [deity0_name].</s><r>intro(tag=meme_Nauticals)           -&gt;[place_summary] [place_name] всегда было чревато конфликтами. [memberNamePlural] постоянно подвергались осаде со стороны врагов, и это глубоко печалило [deity0_name].</r></e>
+  <e k="D" t="MemeDef" key="VVE_Nauticals.descriptionMaker.rules.rulesStrings.3"><s>conflict(tag=meme_Nauticals)        -&gt;[deity0_name] witnessed the contant assaults of a terrible [foeLeader], a war leader, and [deity0_pronoun] decided to give sails to [deity0_possessive] followers, so that they could sail the seas to avoid and ambush their enemies.</s><r>conflict(tag=meme_Nauticals)        -&gt;[deity0_name] стал свидетелем постоянных нападений ужасного [foeLeader], военного лидера, и [deity0_pronoun] решил дать паруса последователям [deity0_possessive], чтобы они могли плавать по морям, чтобы избежать врагов и устроить засаду.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Nauticals.descriptionMaker.rules.rulesStrings.4"><s>founderJoin(tag=meme_Nauticals)     -&gt;[founderName], the greatest among our navigators, was warned of the [foeLeader]'s plan by [deity0_name], and when [foeLeader_pronoun] assaulted them a huge navy of enormous vessels was ready and waiting for [foeLeader_objective].</s><r>founderJoin(tag=meme_Nauticals)     -&gt;[founderName], величайший среди наших навигаторов, был предупрежден о плане [foeLeader] [deity0_name], и когда [foeLeader_pronoun] атаковал их, огромный флот огромных кораблей был готов и ждал [foeLeader_objective].</r></e>
+  <e k="D" t="MemeDef" key="VVE_Nauticals.descriptionMaker.rules.rulesStrings.5"><s>victory(tag=meme_Nauticals)         -&gt;The [foeLeader] was swiftly attacked from the seas, all in [deity0_name]'s name.</s><r>victory(tag=meme_Nauticals)         -&gt;[foeLeader] был быстро атакован с моря, и все это во имя [deity0_name].</r></e>
+  <e k="D" t="MemeDef" key="VVE_Nauticals.descriptionMaker.rules.rulesStrings.6"><s>setup(tag=meme_Nauticals)           -&gt;[founderName] was a navigators, the best of [founder_possessive] class. [founder_pronoun] spent decades of [founder_possessive] life sailing in all kinds of vessels, both civilian and military.</s><r>setup(tag=meme_Nauticals)           -&gt;[founderName] был штурманом, лучшим из класса [founder_possessive]. [founder_pronoun] провел десятилетия [founder_possessive] жизни, плавая на самых разных судах, как гражданских, так и военных.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Nauticals.descriptionMaker.rules.rulesStrings.7"><s>story(uses=1,tag=meme_Nauticals)    -&gt;[founderName] understood better than anyone else that true freedom lies in sailing the seas, for the waters may be capricious, but they are also fair.</s><r>story(uses=1,tag=meme_Nauticals)    -&gt;[founderName] лучше, чем кто-либо другой, понимал, что истинная свобода заключается в плавании по морям, ибо воды могут быть капризными, но они также и справедливы.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Nauticals.descriptionMaker.rules.rulesStrings.8"><s>lessonIntro(tag=meme_Nauticals)         -&gt;The ancient navigators of Earth were absolutely right. They taught us that</s><r>lessonIntro(tag=meme_Nauticals)         -&gt;Древние мореплаватели Земли были абсолютно правы. Они научили нас этому</r></e>
+  <e k="D" t="MemeDef" key="VVE_Nauticals.descriptionMaker.rules.rulesStrings.9"><s>lesson(tag=meme_Nauticals)              -&gt;the only true freedom lies in sailing the endless seas</s><r>lesson(tag=meme_Nauticals)              -&gt;единственная истинная свобода заключается в плавании по бескрайним морям</r></e>
+  <e k="D" t="MemeDef" key="VVE_Nauticals.generalRules.rulesStrings.0"><s>memeAdjective-&gt;sailing</s><r>memeAdjective-&gt;парусный спорт</r></e>
+  <e k="D" t="MemeDef" key="VVE_Nauticals.generalRules.rulesStrings.1"><s>memeAdjective-&gt;navigating</s><r>memeAdjective-&gt;навигация</r></e>
+  <e k="D" t="MemeDef" key="VVE_Nauticals.generalRules.rulesStrings.2"><s>memeAdjective-&gt;seaworthy</s><r>memeAdjective-&gt;мореходный</r></e>
+  <e k="D" t="MemeDef" key="VVE_Nauticals.generalRules.rulesStrings.3"><s>memeLeaderNoun-&gt;navigator</s><r>memeLeaderNoun-&gt;штурман</r></e>
+  <e k="D" t="MemeDef" key="VVE_Nauticals.generalRules.rulesStrings.4"><s>memeMoralist-&gt;water seer</s><r>memeMoralist-&gt;водный провидец</r></e>
+  <e k="D" t="MemeDef" key="VVE_Nauticals.generalRules.rulesStrings.5"><s>memeConcept-&gt;sailing</s><r>memeConcept-&gt;парусный спорт</r></e>
+  <e k="D" t="MemeDef" key="VVE_Nauticals.label"><s>nauticals</s><r>мореплавание</r></e>
+  <e k="D" t="MemeDef" key="VVE_Nauticals.symbolPacks.0.adjective"><s>nautical</s><r>морской</r></e>
+  <e k="D" t="MemeDef" key="VVE_Nauticals.symbolPacks.0.ideoName"><s>Nauticals</s><r>Морское судоходство</r></e>
+  <e k="D" t="MemeDef" key="VVE_Nauticals.symbolPacks.0.member"><s>seaman</s><r>моряк</r></e>
+  <e k="D" t="MemeDef" key="VVE_Nauticals.symbolPacks.0.theme"><s>nauticals</s><r>мореплавание</r></e>
+  <e k="D" t="MemeDef" key="VVE_Roadragers.description"><s>For us, the road is sacred, and vehicular dominance is both a belief and a testament to our power. We view the roar of our engines and the rush of asphalt beneath our tires as sacred.</s><r>Для нас дорога священна, а доминирование транспортных средств — это одновременно вера и свидетельство нашей силы. Мы считаем рев наших двигателей и шорох асфальта под нашими шинами священным.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Roadragers.descriptionMaker.rules.rulesStrings.0"><s>creation(tag=meme_Roadragers)        -&gt;[deity0_name] cared only for the roar of the engines. [deity0_pronoun] ordered all the faithful to hit the road.</s><r>creation(tag=meme_Roadragers)        -&gt;[deity0_name] волновал только рев двигателей. [deity0_pronoun] приказал всем верующим отправиться в путь.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Roadragers.descriptionMaker.rules.rulesStrings.1"><s>episode(uses=1,tag=meme_Roadragers)  -&gt;Speaking to [deity0_possessive] believers, [deity0_name] said: &quot;I myself will carry you through the gates of Valhalla. You shall ride eternal, shiny and chrome!&quot;.</s><r>episode(uses=1,tag=meme_Roadragers)  -&gt;Обращаясь к верующим [deity0_possessive], [deity0_name] сказал: «Я сам пронесу вас через врата Валгаллы. Вы будете ездить вечно, блестяще и хромировано!».</r></e>
+  <e k="D" t="MemeDef" key="VVE_Roadragers.descriptionMaker.rules.rulesStrings.10"><s>lessonReinforcement(tag=meme_Roadragers) -&gt;I myself will carry you through the gates of Valhalla. You shall ride eternal, shiny and chrome!</s><r>lessonReinforcement(tag=meme_Roadragers) -&gt;Я сам проведу тебя через врата Валгаллы. Ты будешь ездить вечно, блестяще и хромировано!</r></e>
+  <e k="D" t="MemeDef" key="VVE_Roadragers.descriptionMaker.rules.rulesStrings.11"><s>archistBasis(tag=meme_Roadragers)    -&gt;The Archotechs understand that power is not just a means to an end. Power is an end on itself.</s><r>archistBasis(tag=meme_Roadragers)    -&gt;Архотехи понимают, что власть — это не просто средство для достижения цели. Власть – это самоцель.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Roadragers.descriptionMaker.rules.rulesStrings.12"><s>archistFact(tag=meme_Roadragers)     -&gt;The Archotechs will stand in awe of the powerful roar of our engines. It is by their hand we will rise from the ashes of this world.</s><r>archistFact(tag=meme_Roadragers)     -&gt;Архотехи будут в восторге от мощного рева наших двигателей. Именно их рукой мы восстанем из пепла этого мира.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Roadragers.descriptionMaker.rules.rulesStrings.13"><s>archistProphecy(tag=meme_Roadragers) -&gt;[inTheEnd], they will carry us through the gates of Valhalla. We shall ride eternal, shiny and chrome!</s><r>archistProphecy(tag=meme_Roadragers) -&gt;[inTheEnd], они пронесут нас через врата Валгаллы. Будем кататься вечно, блестящие и хромированные!</r></e>
+  <e k="D" t="MemeDef" key="VVE_Roadragers.descriptionMaker.rules.rulesStrings.14"><s>animistBasis(tag=meme_Roadragers)    -&gt;The spirits understand that power is not just a means to an end. Power is an end on itself.</s><r>animistBasis(tag=meme_Roadragers)    -&gt;Духи понимают, что сила — это не просто средство для достижения цели. Власть – это самоцель.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Roadragers.descriptionMaker.rules.rulesStrings.15"><s>animistFact(tag=meme_Roadragers)     -&gt;It is by their hand we will rise from the ashes of this world.</s><r>animistFact(tag=meme_Roadragers)     -&gt;Именно их рукой мы восстанем из пепла этого мира.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Roadragers.descriptionMaker.rules.rulesStrings.16"><s>animistProphecy(tag=meme_Roadragers) -&gt;[itIsSaid] only those who let the roar of their engines be heard above all else will be carried by the spirits through the gates of Valhalla. They shall ride eternal, shiny and chrome!</s><r>animistProphecy(tag=meme_Roadragers) -&gt;[itIsSaid] только те, кто позволяет реву своих двигателей быть слышен превыше всего, будут пронесены духами через врата Валгаллы. Они будут ездить вечно, блестящие и хромированные!</r></e>
+  <e k="D" t="MemeDef" key="VVE_Roadragers.descriptionMaker.rules.rulesStrings.2"><s>intro(tag=meme_Roadragers)           -&gt;[place_summary] [place_name] glistened with the fresh engine oil that had dripped from our sacred vehicles, a testament of [deity0_name]'s glory.</s><r>intro(tag=meme_Roadragers)           -&gt;[place_summary] [place_name] блестело от свежего моторного масла, капавшего с наших священных транспортных средств, — свидетельство славы [deity0_name].</r></e>
+  <e k="D" t="MemeDef" key="VVE_Roadragers.descriptionMaker.rules.rulesStrings.3"><s>conflict(tag=meme_Roadragers)        -&gt;A rabid [foeLeader], wanting to get [foeLeader_possessive] hands on our cars, tried to attack with the help of [foeLeader_possessive] many [foeSoldiers].</s><r>conflict(tag=meme_Roadragers)        -&gt;Бешеный [foeLeader], желая заполучить [foeLeader_possessive] наши машины, пытался атаковать с помощью [foeLeader_possessive] множества [foeSoldiers].</r></e>
+  <e k="D" t="MemeDef" key="VVE_Roadragers.descriptionMaker.rules.rulesStrings.4"><s>founderJoin(tag=meme_Roadragers)     -&gt;[deity0_name] bestowed our founder, [founderName], with the [relic0_name], and [founder_pronoun] used it to annoint and augment the V8 engine of his custom-made Road Raging car, resisting the onslaught.</s><r>founderJoin(tag=meme_Roadragers)     -&gt;[deity0_name] наградил нашего основателя [founderName] знаком [relic0_name], а [founder_pronoun] использовал его, чтобы улучшить и усовершенствовать двигатель V8 своего изготовленного на заказ автомобиля Road Raging, сопротивляясь натиску.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Roadragers.descriptionMaker.rules.rulesStrings.5"><s>victory(tag=meme_Roadragers)         -&gt;The massacre was sublime. [founderName] slaughtered countless enemies, and we celebrated by hitting the road mounted on all our vehicles.</s><r>victory(tag=meme_Roadragers)         -&gt;Резня была грандиозной. [founderName] уничтожили бесчисленное количество врагов, и мы отпраздновали это, отправившись в путь на всех наших транспортных средствах.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Roadragers.descriptionMaker.rules.rulesStrings.6"><s>setup(tag=meme_Roadragers)           -&gt;[founderName] understood that the roar of an engine is the only true measure of power.</s><r>setup(tag=meme_Roadragers)           -&gt;[founderName] понял, что рев двигателя — единственное истинное мерило мощности.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Roadragers.descriptionMaker.rules.rulesStrings.7"><s>story(uses=1,tag=meme_Roadragers)    -&gt;[founderName] always repeated the same lesson over and over again: &quot;I myself will carry you through the gates of Valhalla. You shall ride eternal, shiny and chrome!&quot;.</s><r>story(uses=1,tag=meme_Roadragers)    -&gt;[founderName] всегда повторял один и тот же урок снова и снова: «Я сам пронесу тебя через врата Валгаллы. Ты будешь ездить вечно, блестяще и хромировано!».</r></e>
+  <e k="D" t="MemeDef" key="VVE_Roadragers.descriptionMaker.rules.rulesStrings.8"><s>lessonIntro(tag=meme_Roadragers)         -&gt;It is only by the roar of our engines that one arrives at pleasure. You need to understand that</s><r>lessonIntro(tag=meme_Roadragers)         -&gt;Только ревом наших моторов можно получить удовольствие. Вам нужно это понять</r></e>
+  <e k="D" t="MemeDef" key="VVE_Roadragers.descriptionMaker.rules.rulesStrings.9"><s>lesson(tag=meme_Roadragers)              -&gt;I am your redeemer. It is by my hand you will rise from the ashes of this world</s><r>lesson(tag=meme_Roadragers)              -&gt;Я твой искупитель. Моей рукой ты восстанешь из пепла этого мира.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Roadragers.generalRules.rulesStrings.0"><s>memeAdjective-&gt;roadraging</s><r>memeAdjective-&gt;бушующая дорога</r></e>
+  <e k="D" t="MemeDef" key="VVE_Roadragers.generalRules.rulesStrings.1"><s>memeAdjective-&gt;marauding</s><r>memeAdjective-&gt;мародерство</r></e>
+  <e k="D" t="MemeDef" key="VVE_Roadragers.generalRules.rulesStrings.2"><s>memeAdjective-&gt;mad maxing</s><r>memeAdjective-&gt;безумный максинг</r></e>
+  <e k="D" t="MemeDef" key="VVE_Roadragers.generalRules.rulesStrings.3"><s>memeLeaderNoun-&gt;warlord</s><r>memeLeaderNoun-&gt;военачальник</r></e>
+  <e k="D" t="MemeDef" key="VVE_Roadragers.generalRules.rulesStrings.4"><s>memeMoralist-&gt;octane priest</s><r>memeMoralist-&gt;октановый священник</r></e>
+  <e k="D" t="MemeDef" key="VVE_Roadragers.generalRules.rulesStrings.5"><s>memeConcept-&gt;cars</s><r>memeConcept-&gt;автомобили</r></e>
+  <e k="D" t="MemeDef" key="VVE_Roadragers.label"><s>roadragers</s><r>разбойники</r></e>
+  <e k="D" t="MemeDef" key="VVE_Roadragers.symbolPacks.0.adjective"><s>roadraging</s><r>бушующая дорога</r></e>
+  <e k="D" t="MemeDef" key="VVE_Roadragers.symbolPacks.0.ideoName"><s>Roadragers</s><r>Дорожные бешенцы</r></e>
+  <e k="D" t="MemeDef" key="VVE_Roadragers.symbolPacks.0.member"><s>roadrager</s><r>разбойник</r></e>
+  <e k="D" t="MemeDef" key="VVE_Roadragers.symbolPacks.0.theme"><s>roadraging</s><r>бушующая дорога</r></e>
+  <e k="D" t="MemeDef" key="VVE_Skyseekers.description"><s>Elevation, both physical and spiritual, is achieved by soaring through the skies.</s><r>Возвышение, как физическое, так и духовное, достигается восхождением в небо.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Skyseekers.descriptionMaker.rules.rulesStrings.0"><s>creation(tag=meme_Skyseekers)        -&gt;[deity0_name] made all of [deity0_possessive] followers look to the endless skies.</s><r>creation(tag=meme_Skyseekers)        -&gt;[deity0_name] заставил всех последователей [deity0_possessive] посмотреть в бескрайнее небо.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Skyseekers.descriptionMaker.rules.rulesStrings.1"><s>episode(uses=1,tag=meme_Skyseekers)  -&gt;Speaking to the believers, [deity0_name] said: &quot;Only by conquering the skies will you reach true enlightening&quot;.</s><r>episode(uses=1,tag=meme_Skyseekers)  -&gt;Обращаясь к верующим, [deity0_name] сказал: «Только покорив небеса, вы достигнете истинного просветления».</r></e>
+  <e k="D" t="MemeDef" key="VVE_Skyseekers.descriptionMaker.rules.rulesStrings.10"><s>lessonReinforcement(tag=meme_Skyseekers) -&gt;We will come upon our enemies from the unreachable skies, like swift and divine justice.</s><r>lessonReinforcement(tag=meme_Skyseekers) -&gt;Мы придем к нашим врагам с недосягаемых небес, как быстрое и божественное правосудие.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Skyseekers.descriptionMaker.rules.rulesStrings.11"><s>archistBasis(tag=meme_Skyseekers)    -&gt;Archotechs are pure minds, beings of the sky.</s><r>archistBasis(tag=meme_Skyseekers)    -&gt;Архотехи — это чистые разумы, существа неба.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Skyseekers.descriptionMaker.rules.rulesStrings.12"><s>archistFact(tag=meme_Skyseekers)     -&gt;By soaring the skies we get closer to the Archotechs.</s><r>archistFact(tag=meme_Skyseekers)     -&gt;Поднявшись в небо, мы приближаемся к Архотехам.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Skyseekers.descriptionMaker.rules.rulesStrings.13"><s>archistProphecy(tag=meme_Skyseekers) -&gt;[inTheEnd], only those who transcend the limits of the earth will also be able to transcend their physical bodies.</s><r>archistProphecy(tag=meme_Skyseekers) -&gt;[inTheEnd], только те, кто преодолеет пределы земли, смогут выйти за пределы своего физического тела.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Skyseekers.descriptionMaker.rules.rulesStrings.14"><s>animistBasis(tag=meme_Skyseekers)    -&gt;The spirits teach us that the endless skies hold the secret to a pure existence.</s><r>animistBasis(tag=meme_Skyseekers)    -&gt;Духи учат нас, что бескрайние небеса хранят секрет чистого существования.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Skyseekers.descriptionMaker.rules.rulesStrings.15"><s>animistFact(tag=meme_Skyseekers)     -&gt;Only by soaring the skies can we get closer to the spirits.</s><r>animistFact(tag=meme_Skyseekers)     -&gt;Только воспарив в небо, мы сможем приблизиться к духам.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Skyseekers.descriptionMaker.rules.rulesStrings.16"><s>animistProphecy(tag=meme_Skyseekers) -&gt;[itIsSaid] only those who transcend the limits of the earth will also be able to commune with the spiritual world.</s><r>animistProphecy(tag=meme_Skyseekers) -&gt;[itIsSaid] только те, кто преодолеет пределы земли, смогут общаться с духовным миром.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Skyseekers.descriptionMaker.rules.rulesStrings.2"><s>intro(tag=meme_Skyseekers)           -&gt;[place_summary] [place_name] was always fraught with conflict. The [memberNamePlural] were besieged constantly by their foes, and this deeply saddened [deity0_name].</s><r>intro(tag=meme_Skyseekers)           -&gt;[place_summary] [place_name] всегда было чревато конфликтами. [memberNamePlural] постоянно подвергались осаде со стороны врагов, и это глубоко печалило [deity0_name].</r></e>
+  <e k="D" t="MemeDef" key="VVE_Skyseekers.descriptionMaker.rules.rulesStrings.3"><s>conflict(tag=meme_Skyseekers)        -&gt;[deity0_name] witnessed the contant assaults of a terrible [foeLeader], a war leader, and [deity0_pronoun] decided to give winged vessels to [deity0_possessive] followers, so that they could soar the skies above their enemies.</s><r>conflict(tag=meme_Skyseekers)        -&gt;[deity0_name] стал свидетелем постоянных нападений ужасного [foeLeader], военного лидера, и [deity0_pronoun] решил дать крылатые корабли последователям [deity0_possessive], чтобы они могли парить в небе над своими врагами.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Skyseekers.descriptionMaker.rules.rulesStrings.4"><s>founderJoin(tag=meme_Skyseekers)     -&gt;[founderName], the greatest among our aviators, was warned of the [foeLeader]'s plan by [deity0_name], and when [foeLeader_pronoun] assaulted them a huge squadron of fighters was ready and waiting for [foeLeader_objective].</s><r>founderJoin(tag=meme_Skyseekers)     -&gt;[founderName], величайший среди наших авиаторов, был предупрежден о плане [foeLeader] [deity0_name], и когда [foeLeader_pronoun] атаковал их, огромная эскадрилья истребителей была готова и ждала [foeLeader_objective].</r></e>
+  <e k="D" t="MemeDef" key="VVE_Skyseekers.descriptionMaker.rules.rulesStrings.5"><s>victory(tag=meme_Skyseekers)         -&gt;The [foeLeader] was swiftly bombarded from the sky, all in [deity0_name]'s name.</s><r>victory(tag=meme_Skyseekers)         -&gt;[foeLeader] был быстро обстрелян с неба, и всё во имя [deity0_name].</r></e>
+  <e k="D" t="MemeDef" key="VVE_Skyseekers.descriptionMaker.rules.rulesStrings.6"><s>setup(tag=meme_Skyseekers)           -&gt;[founderName] was a pilot, the best of [founder_possessive] class. [founder_pronoun] spent decades of [founder_possessive] life flying all kinds of aircraft, both civilian and military.</s><r>setup(tag=meme_Skyseekers)           -&gt;[founderName] был пилотом, лучшим в классе [founder_possessive]. [founder_pronoun] провел десятилетия [founder_possessive] жизни, управляя всевозможными самолетами, как гражданскими, так и военными.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Skyseekers.descriptionMaker.rules.rulesStrings.7"><s>story(uses=1,tag=meme_Skyseekers)    -&gt;[founderName] understood better than anyone else that true freedom lies in soaring the endless skies, far above any problems.</s><r>story(uses=1,tag=meme_Skyseekers)    -&gt;[founderName] понимал лучше, чем кто-либо другой, что истинная свобода заключается в парении в бескрайних небесах, намного выше любых проблем.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Skyseekers.descriptionMaker.rules.rulesStrings.8"><s>lessonIntro(tag=meme_Skyseekers)         -&gt;The ancient aviators of Earth were absolutely right. They taught us that</s><r>lessonIntro(tag=meme_Skyseekers)         -&gt;Древние авиаторы Земли были абсолютно правы. Они научили нас этому</r></e>
+  <e k="D" t="MemeDef" key="VVE_Skyseekers.descriptionMaker.rules.rulesStrings.9"><s>lesson(tag=meme_Skyseekers)              -&gt;the only true freedom lies in soaring the endless skies</s><r>lesson(tag=meme_Skyseekers)              -&gt;единственная истинная свобода заключается в парении в бескрайних небесах</r></e>
+  <e k="D" t="MemeDef" key="VVE_Skyseekers.generalRules.rulesStrings.0"><s>memeAdjective-&gt;flying</s><r>memeAdjective-&gt;летающий</r></e>
+  <e k="D" t="MemeDef" key="VVE_Skyseekers.generalRules.rulesStrings.1"><s>memeAdjective-&gt;soaring</s><r>memeAdjective-&gt;парящий</r></e>
+  <e k="D" t="MemeDef" key="VVE_Skyseekers.generalRules.rulesStrings.2"><s>memeAdjective-&gt;free</s><r>memeAdjective-&gt;бесплатно</r></e>
+  <e k="D" t="MemeDef" key="VVE_Skyseekers.generalRules.rulesStrings.3"><s>memeLeaderNoun-&gt;aviator</s><r>memeLeaderNoun-&gt;летчик</r></e>
+  <e k="D" t="MemeDef" key="VVE_Skyseekers.generalRules.rulesStrings.4"><s>memeMoralist-&gt;skyseer</s><r>memeMoralist-&gt;зритель неба</r></e>
+  <e k="D" t="MemeDef" key="VVE_Skyseekers.generalRules.rulesStrings.5"><s>memeConcept-&gt;flying</s><r>memeConcept-&gt;летающий</r></e>
+  <e k="D" t="MemeDef" key="VVE_Skyseekers.label"><s>skyseekers</s><r>искатели неба</r></e>
+  <e k="D" t="MemeDef" key="VVE_Skyseekers.symbolPacks.0.adjective"><s>skyseeker</s><r>искатель облаков</r></e>
+  <e k="D" t="MemeDef" key="VVE_Skyseekers.symbolPacks.0.ideoName"><s>Skyseekers</s><r>Искатели неба</r></e>
+  <e k="D" t="MemeDef" key="VVE_Skyseekers.symbolPacks.0.member"><s>pilot</s><r>пилот</r></e>
+  <e k="D" t="MemeDef" key="VVE_Skyseekers.symbolPacks.0.theme"><s>skyseekers</s><r>искатели неба</r></e>
+  <e k="D" t="MemeDef" key="VVE_Travelers.description"><s>The world is vast and meant to be explored in all its facets.</s><r>Мир огромен и предназначен для изучения во всех его аспектах.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Travelers.descriptionMaker.rules.rulesStrings.0"><s>creation(tag=meme_Traveler)        -&gt;[deity0_name] wrote [deity0_possessive] commandments in eleven plasteel tablets. The fifth commandment read: &quot;I shall not refrain from exploring the world.&quot;</s><r>creation(tag=meme_Traveler)        -&gt;[deity0_name] написал [deity0_possessive] заповеди на одиннадцати пласталевых табличках. Пятая заповедь гласила: «Я не буду уклоняться от исследования мира».</r></e>
+  <e k="D" t="MemeDef" key="VVE_Travelers.descriptionMaker.rules.rulesStrings.1"><s>episode(uses=1,tag=meme_Traveler)  -&gt;In accordance with [deity0_name]'s precepts, we happily traveled abroad, away from our settlements, to see all our world has to offer.</s><r>episode(uses=1,tag=meme_Traveler)  -&gt;В соответствии с заветами [deity0_name], мы с радостью отправились за границу, вдали от наших поселений, чтобы увидеть все, что может предложить наш мир.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Travelers.descriptionMaker.rules.rulesStrings.10"><s>lessonReinforcement(tag=meme_Traveler) -&gt;Only true explorers can never be caught unawares.</s><r>lessonReinforcement(tag=meme_Traveler) -&gt;Только истинных исследователей никогда нельзя застать врасплох.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Travelers.descriptionMaker.rules.rulesStrings.11"><s>archistBasis(tag=meme_Traveler)    -&gt;Archotechs are always aware of everything. Being unaware of your surroundings is almost obscene to them.</s><r>archistBasis(tag=meme_Traveler)    -&gt;Архотехи всегда всё в курсе. Не знать, что происходит вокруг, для них почти непристойно.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Travelers.descriptionMaker.rules.rulesStrings.12"><s>archistFact(tag=meme_Traveler)     -&gt;The archotechs teach us that exploring and travelling are a path to transcendence.</s><r>archistFact(tag=meme_Traveler)     -&gt;Архотехи учат нас, что исследования и путешествия — это путь к трансцендентности.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Travelers.descriptionMaker.rules.rulesStrings.13"><s>archistProphecy(tag=meme_Traveler) -&gt;[inTheEnd], those who spend their whole lives hiding won't transcend, while those who are infused by wanderlust will join the archotechs.</s><r>archistProphecy(tag=meme_Traveler) -&gt;[inTheEnd], те, кто всю жизнь скрывается, не превзойдут, а те, кто охвачен страстью к путешествиям, присоединятся к архотехам.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Travelers.descriptionMaker.rules.rulesStrings.14"><s>animistBasis(tag=meme_Traveler)    -&gt;Spirits govern everything, from the most abstract concepts to concrete ones. Specifically, each place has its own spirit, and that's why discovering and traveling to all these places brings us closer to the spirits.</s><r>animistBasis(tag=meme_Traveler)    -&gt;Духи управляют всем, от самых абстрактных понятий до конкретных. В частности, у каждого места есть свой дух, и именно поэтому открытие всех этих мест и путешествие по ним приближает нас к духам.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Travelers.descriptionMaker.rules.rulesStrings.15"><s>animistFact(tag=meme_Traveler)     -&gt;The spirit of wanderlust is a powerful one, and instills one with a passion for freedom, for exploration: you never know what the road ahead may bring.</s><r>animistFact(tag=meme_Traveler)     -&gt;Дух страсти к путешествиям силен и вселяет в человека страсть к свободе, к исследованиям: никогда не знаешь, что может принести предстоящая дорога.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Travelers.descriptionMaker.rules.rulesStrings.16"><s>animistProphecy(tag=meme_Traveler) -&gt;[itIsSaid] only those who are able to live without roots and roam free can truly appease the spirits.</s><r>animistProphecy(tag=meme_Traveler) -&gt;[itIsSaid] по-настоящему умилостивить духов может только тот, кто способен жить без корней и свободно бродить.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Travelers.descriptionMaker.rules.rulesStrings.2"><s>intro(tag=meme_Traveler)           -&gt;The [memberNamePlural] were restless, for [deity0_name] had commanded them to explore the surrounding lands, and they were tired of roaming around living off the land.</s><r>intro(tag=meme_Traveler)           -&gt;[memberNamePlural] были беспокойны, поскольку [deity0_name] приказал им исследовать окружающие земли, и они устали скитаться и жить за счет земли.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Travelers.descriptionMaker.rules.rulesStrings.3"><s>conflict(tag=meme_Traveler)        -&gt;One of the elders wanted to defy [deity0_name]'s commandments, and close the settlements for further exploration.</s><r>conflict(tag=meme_Traveler)        -&gt;Один из старейшин хотел бросить вызов заповедям [deity0_name] и закрыть поселения для дальнейшего исследования.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Travelers.descriptionMaker.rules.rulesStrings.4"><s>founderJoin(tag=meme_Traveler)     -&gt;[founderName], the Great Explorer, grew tired of the insolence of the elder, and usurped his power. From that point on, the [memberNamePlural] would be the most skilled explorers in the land, venturing far away.</s><r>founderJoin(tag=meme_Traveler)     -&gt;[founderName], Великий Исследователь, устал от наглости старейшины и узурпировал его власть. С этого момента [memberNamePlural] станут самыми опытными исследователями на земле, отправляющимися далеко.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Travelers.descriptionMaker.rules.rulesStrings.5"><s>victory(tag=meme_Traveler)         -&gt;It was thus that we became enamoured with wanderlust, and traveled the whole world exploring even its farther confines.</s><r>victory(tag=meme_Traveler)         -&gt;Так мы увлеклись страстью к путешествиям и путешествовали по всему миру, исследуя даже его дальние пределы.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Travelers.descriptionMaker.rules.rulesStrings.6"><s>setup(tag=meme_Traveler)           -&gt;[founderName] was a skilled explorer. [founder_pronoun] longed for discovery, travelling to the farther confiens of the world.</s><r>setup(tag=meme_Traveler)           -&gt;[founderName] был опытным исследователем. [founder_pronoun] жаждал открытий, путешествуя в самые дальние уголки мира.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Travelers.descriptionMaker.rules.rulesStrings.7"><s>story(uses=1,tag=meme_Traveler)    -&gt;Seeking the thrill of adventure, [founderName] assembled a small group of [founder_possessive] followers and chartered a ship to travel to the Rim. [founder_possessive] discoveries were the stuff of legend, mapping a plethora of strange new worlds and new civilizations, boldly going where... errr, sorry, got carried away a bit there.</s><r>story(uses=1,tag=meme_Traveler)    -&gt;В поисках острых ощущений от приключений [founderName] собрал небольшую группу из последователей [founder_possessive] и зафрахтовал корабль для путешествия к Краю. [founder_possessive] открытия стали легендой, они нанесли на карту множество странных новых миров и новых цивилизаций, смело идя туда, куда... эээ, извини, я немного увлекся.</r></e>
+  <e k="D" t="MemeDef" key="VVE_Travelers.descriptionMaker.rules.rulesStrings.8"><s>lessonIntro(tag=meme_Traveler)         -&gt;Humans fear the unknown, it's a fact. It is abundantly clear that</s><r>lessonIntro(tag=meme_Traveler)         -&gt;Люди боятся неизвестного, это факт. Совершенно очевидно, что</r></e>
+  <e k="D" t="MemeDef" key="VVE_Travelers.descriptionMaker.rules.rulesStrings.9"><s>lesson(tag=meme_Traveler)              -&gt;we need to explore our surroundings. Being unaware of what is around us is a recipe for disaster </s><r>lesson(tag=meme_Traveler)              -&gt;нам нужно исследовать наше окружение. Незнание того, что происходит вокруг нас, — верный путь к катастрофе. </r></e>
+  <e k="D" t="MemeDef" key="VVE_Travelers.generalRules.rulesStrings.0"><s>memeAdjective-&gt;explorer</s><r>memeAdjective-&gt;исследователь</r></e>
+  <e k="D" t="MemeDef" key="VVE_Travelers.generalRules.rulesStrings.1"><s>memeAdjective-&gt;travelling</s><r>memeAdjective-&gt;путешествие</r></e>
+  <e k="D" t="MemeDef" key="VVE_Travelers.generalRules.rulesStrings.2"><s>memeAdjective-&gt;transient</s><r>memeAdjective-&gt;преходящий</r></e>
+  <e k="D" t="MemeDef" key="VVE_Travelers.generalRules.rulesStrings.3"><s>memeConcept-&gt;travelling</s><r>memeConcept-&gt;путешествие</r></e>
+  <e k="D" t="MemeDef" key="VVE_Travelers.generalRules.rulesStrings.4"><s>memeLeaderNoun-&gt;explorer</s><r>memeLeaderNoun-&gt;исследователь</r></e>
+  <e k="D" t="MemeDef" key="VVE_Travelers.generalRules.rulesStrings.5"><s>memeLeaderNoun-&gt;traveler</s><r>memeLeaderNoun-&gt;путешественник</r></e>
+  <e k="D" t="MemeDef" key="VVE_Travelers.label"><s>travelers</s><r>путешественники</r></e>
+  <e k="D" t="MemeDef" key="VVE_Travelers.symbolPacks.0.adjective"><s>traveler</s><r>путешественник</r></e>
+  <e k="D" t="MemeDef" key="VVE_Travelers.symbolPacks.0.ideoName"><s>Travelers</s><r>Путешественники</r></e>
+  <e k="D" t="MemeDef" key="VVE_Travelers.symbolPacks.0.member"><s>traveler</s><r>путешественник</r></e>
+  <e k="D" t="MemeDef" key="VVE_Travelers.symbolPacks.0.theme"><s>travelling</s><r>путешествие</r></e>
+  <e k="D" t="PatternDef" key="VVE_8bit.label"><s>8 Bit</s><r>8 бит</r></e>
+  <e k="D" t="PatternDef" key="VVE_Blocky.label"><s>Blocky</s><r>Блочный</r></e>
+  <e k="D" t="PatternDef" key="VVE_CallOfDuty.label"><s>CallOfDuty</s><r>Чувство долга</r></e>
+  <e k="D" t="PatternDef" key="VVE_Dots.label"><s>Dots</s><r>Точки</r></e>
+  <e k="D" t="PatternDef" key="VVE_GeometricGrunge.label"><s>Geometric Grunge</s><r>Геометрический гранж</r></e>
+  <e k="D" t="PatternDef" key="VVE_Gloss.label"><s>Gloss</s><r>Блеск</r></e>
+  <e k="D" t="PatternDef" key="VVE_Grunge.label"><s>Grunge</s><r>Гранж</r></e>
+  <e k="D" t="PatternDef" key="VVE_Marble.label"><s>Marble</s><r>Мрамор</r></e>
+  <e k="D" t="PatternDef" key="VVE_Painted.label"><s>Painted</s><r>Окрашенный</r></e>
+  <e k="D" t="PatternDef" key="VVE_Processor.label"><s>Processor</s><r>Процессор</r></e>
+  <e k="D" t="PatternDef" key="VVE_Reactive.label"><s>Reactive</s><r>Реактивный</r></e>
+  <e k="D" t="PatternDef" key="VVE_Rocky.label"><s>Rocky</s><r>Рокки</r></e>
+  <e k="D" t="PatternDef" key="VVE_Savannah.label"><s>Savannah</s><r>Саванна</r></e>
+  <e k="D" t="PatternDef" key="VVE_Shine.label"><s>Shine</s><r>Светить</r></e>
+  <e k="D" t="PatternDef" key="VVE_Smudges.label"><s>Smudges</s><r>Пятна</r></e>
+  <e k="D" t="PatternDef" key="VVE_Splatter.label"><s>Splatter</s><r>Брызги</r></e>
+  <e k="D" t="PatternDef" key="VVE_Stamped.label"><s>Stamped</s><r>Штампованный</r></e>
+  <e k="D" t="PatternDef" key="VVE_Streaky.label"><s>Streaky</s><r>Полосатый</r></e>
+  <e k="D" t="PatternDef" key="VVE_Vinyl.label"><s>Vinyl</s><r>Винил</r></e>
+  <e k="D" t="PatternDef" key="VVE_Wildcat.label"><s>Wildcat</s><r>Дикая кошка</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Acceleration_High.description"><s>With swift acceleration, we move forward in leaps, seizing the day with passion.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;
+ - All vehicles have World Speed Multiplier: x1.25</s><r>С быстрым ускорением мы движемся вперед скачками, захватывая день со страстью.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;
+ - Все транспортные средства имеют мировой множитель скорости: x1,25.</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Acceleration_High.label"><s>high</s><r>высокий</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Acceleration_Standard.description"><s>Our vehicles move with balance, neither too fast nor too slow.</s><r>Наши машины движутся сбалансированно, не слишком быстро и не слишком медленно.</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Acceleration_Standard.label"><s>standard</s><r>стандартный</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Acceleration_SundayDriver.description"><s>A measured pace keeps the world in balance and grants us time to savor the journey.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;
+ - All vehicles have World Speed Multiplier: x0.8</s><r>Размеренный темп поддерживает баланс мира и дает нам время насладиться путешествием.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;
+ - Все транспортные средства имеют мировой множитель скорости: x0,8.</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Acceleration_SundayDriver.label"><s>sunday driver</s><r>воскресный водитель</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Driving_Allowed.description"><s>Navigating the world in vehicles is an accepted practice in our community.</s><r>Путешествовать по миру на транспортных средствах — общепринятая практика в нашем сообществе.</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Driving_Allowed.label"><s>allowed</s><r>допустимый</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Driving_Approved.comps.0.description"><s>Driven a land vehicle</s><r>Управлял наземным транспортным средством</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Driving_Approved.description"><s>Every drive on land affirms our shared spirit and joy.</s><r>Каждая поездка по суше подтверждает наш общий дух и радость.</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Driving_Approved.label"><s>approved</s><r>одобренный</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Driving_Forbidden.description"><s>To traverse the land in vehicles is a violation of our core beliefs.</s><r>Передвигаться по земле на транспортных средствах — это нарушение наших основных убеждений.</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Driving_Forbidden.label"><s>forbidden</s><r>запрещенный</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Driving_Horrible.comps.0.description"><s>Driven a land vehicle</s><r>Управлял наземным транспортным средством</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Driving_Horrible.description"><s>We see setting foot in a land vehicle as a profound offense to our values.</s><r>Мы считаем, что садиться в наземный транспорт — это глубокое оскорбление наших ценностей.</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Driving_Horrible.label"><s>horrible</s><r>ужасный</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Driving_Required.comps.1.thoughtStageDescriptions.0"><s>Roadrage (1 days without driving)</s><r>Дорога (1 день без вождения)</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Driving_Required.comps.1.thoughtStageDescriptions.1"><s>Roadrage (5 days without driving)</s><r>Roadrage (5 дней без вождения)</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Driving_Required.comps.1.thoughtStageDescriptions.2"><s>Roadrage (10 days without driving)</s><r>Roadrage (10 дней без вождения)</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Driving_Required.comps.1.thoughtStageDescriptions.3"><s>Roadrage (20 days without driving)</s><r>Roadrage (20 дней без вождения)</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Driving_Required.description"><s>Our people believe in the necessity of movement, to not drive is to neglect one's duty to oneself.</s><r>Наш народ верит в необходимость движения, не ездить — значит пренебрегать своим долгом перед самим собой.</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Driving_Required.label"><s>required</s><r>необходимый</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Flying_Allowed.description"><s>The skies are open to us, as they should be for all who wish to traverse them.</s><r>Небо открыто для нас, как и должно быть для всех, кто желает пересечь его.</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Flying_Allowed.label"><s>allowed</s><r>допустимый</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Flying_Approved.comps.0.description"><s>Travelled in an air vehicle</s><r>Путешествовал на воздушном транспорте</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Flying_Approved.description"><s>We hold that flying brings us collectively closer to the divine.</s><r>Мы считаем, что полет приближает нас к божественному.</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Flying_Approved.label"><s>approved</s><r>одобренный</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Flying_Forbidden.description"><s>To soar through the skies is an affront to our traditions and beliefs.</s><r>Взлететь в небо — это оскорбление наших традиций и убеждений.</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Flying_Forbidden.label"><s>forbidden</s><r>запрещенный</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Flying_Horrible.comps.0.description"><s>Travelled in an air vehicle</s><r>Путешествовал на воздушном транспорте</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Flying_Horrible.description"><s>We believe taking to the skies disrupts the natural balance.</s><r>Мы считаем, что полет в небо нарушает естественный баланс.</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Flying_Horrible.label"><s>horrible</s><r>ужасный</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Flying_Required.comps.1.thoughtStageDescriptions.0"><s>Aerophilia (1 days without flying)</s><r>Аэрофилия (1 день без полетов)</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Flying_Required.comps.1.thoughtStageDescriptions.1"><s>Aerophilia (5 days without flying)</s><r>Аэрофилия (5 дней без полетов)</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Flying_Required.comps.1.thoughtStageDescriptions.2"><s>Aerophilia (10 days without flying)</s><r>Аэрофилия (10 дней без полетов)</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Flying_Required.comps.1.thoughtStageDescriptions.3"><s>Aerophilia (20 days without flying)</s><r>Аэрофилия (20 дней без полетов)</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Flying_Required.description"><s>The purity of spirit is found amongst the clouds; one must experience the freedom of flight regularly.</s><r>Чистота духа находится среди облаков; нужно регулярно испытывать свободу полета.</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Flying_Required.label"><s>required</s><r>необходимый</r></e>
+  <e k="D" t="PreceptDef" key="VVE_FuelEfficiency_Efficient.description"><s>Our vehicles are optimized for minimal fuel usage.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;
+ - This precept decreases FuelConsumptionRate (if present) on the vehicle by 50%.</s><r>Наши транспортные средства оптимизированы для минимального расхода топлива.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;
+ — Это правило уменьшает показатель расхода топлива (если он присутствует) на транспортном средстве на 50%.</r></e>
+  <e k="D" t="PreceptDef" key="VVE_FuelEfficiency_Efficient.label"><s>efficient</s><r>эффективный</r></e>
+  <e k="D" t="PreceptDef" key="VVE_FuelEfficiency_Inefficient.description"><s>Our vehicles have a higher fuel appetite.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;
+ - This precept increases FuelConsumptionRate (if present) on the vehicle by 50%.</s><r>У наших транспортных средств более высокий расход топлива.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;
+ — Это правило увеличивает показатель расхода топлива (если он присутствует) на транспортном средстве на 50%.</r></e>
+  <e k="D" t="PreceptDef" key="VVE_FuelEfficiency_Inefficient.label"><s>inefficient</s><r>неэффективный</r></e>
+  <e k="D" t="PreceptDef" key="VVE_FuelEfficiency_Standard.description"><s>Our fuel consumption remains traditional.</s><r>Наш расход топлива остается традиционным.</r></e>
+  <e k="D" t="PreceptDef" key="VVE_FuelEfficiency_Standard.label"><s>standard</s><r>стандартный</r></e>
+  <e k="D" t="PreceptDef" key="VVE_ImpactDamage_High.description"><s>In our belief, a vehicle's power is truly felt in its formidable impact.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;
+ - Damage done via driving people over is further multiplied by x1.25</s><r>По нашему мнению, мощь транспортного средства действительно ощущается в его огромном воздействии.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;
+ — Урон, нанесенный в результате переезда людей, дополнительно умножается на x1,25.</r></e>
+  <e k="D" t="PreceptDef" key="VVE_ImpactDamage_High.label"><s>high</s><r>высокий</r></e>
+  <e k="D" t="PreceptDef" key="VVE_MaxSpeed_Increased.description"><s>We cherish vehicles that transcend traditional limits.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;
+ -  Maximum speed of vehicles is increased by a multiplier of x1.2.</s><r>Мы ценим транспортные средства, выходящие за рамки традиционных ограничений.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;
+ — Максимальная скорость транспортных средств увеличивается с коэффициентом x1,2.</r></e>
+  <e k="D" t="PreceptDef" key="VVE_MaxSpeed_Increased.label"><s>increased</s><r>повысился</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Sailing_Allowed.description"><s>The oceans and rivers are pathways we are permitted to tread, so long as we respect their depths.</s><r>Океаны и реки — это пути, по которым нам разрешено идти, если мы уважаем их глубины.</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Sailing_Allowed.label"><s>allowed</s><r>допустимый</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Sailing_Approved.comps.0.description"><s>Sailed in a sea vehicle</s><r>Плыл на морском транспортном средстве</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Sailing_Approved.description"><s>We hold that Sailing brings us collectively closer to the divine.</s><r>Мы считаем, что парусный спорт приближает нас к божественному.</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Sailing_Approved.label"><s>approved</s><r>одобренный</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Sailing_Forbidden.description"><s>The sacred waters must not be disrupted with our vessels.</s><r>Наши сосуды не должны нарушать священные воды.</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Sailing_Forbidden.label"><s>forbidden</s><r>запрещенный</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Sailing_Horrible.comps.0.description"><s>Sailed in a sea vehicle</s><r>Плыл на морском транспортном средстве</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Sailing_Horrible.description"><s>We hold the waters sacred; to sail them feels deeply wrong to us.</s><r>Мы считаем воды священными; плавание по ним кажется нам глубоко неправильным.</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Sailing_Horrible.label"><s>horrible</s><r>ужасный</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Sailing_Required.comps.1.thoughtStageDescriptions.0"><s>Sirens' call (1 days without Sailing)</s><r>Зов сирен (1 день без плавания)</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Sailing_Required.comps.1.thoughtStageDescriptions.1"><s>Sirens' call (5 days without Sailing)</s><r>Зов сирен (5 дней без плавания)</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Sailing_Required.comps.1.thoughtStageDescriptions.2"><s>Sirens' call (10 days without Sailing)</s><r>Зов сирен (10 дней без плавания)</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Sailing_Required.comps.1.thoughtStageDescriptions.3"><s>Sirens' call (20 days without Sailing)</s><r>Зов сирен (20 дней без плавания)</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Sailing_Required.description"><s>Our souls are intertwined with the rhythms of the waters; we must sail to truly be alive.</s><r>Наши души переплетены с ритмами вод; мы должны плыть, чтобы по-настоящему выжить.</r></e>
+  <e k="D" t="PreceptDef" key="VVE_Sailing_Required.label"><s>required</s><r>необходимый</r></e>
+  <e k="D" t="PreceptDef" key="VVE_SmallSpaces_Horrible.description"><s>Being in tight quarters is an affront to our freedoms.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;
+ - Doubles negative thoughts about small spaces. Positive thoughts about spacious areas are unaffected.</s><r>Находиться в тесноте — это оскорбление нашей свободы.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;
+ — Удваивает негативные мысли о маленьких пространствах. Позитивные мысли о просторных помещениях остаются неизменными.</r></e>
+  <e k="D" t="PreceptDef" key="VVE_SmallSpaces_Horrible.label"><s>horrible</s><r>ужасный</r></e>
+  <e k="D" t="PreceptDef" key="VVE_VehicleRepairs_Fast.description"><s>We mend with urgency, understanding the vital role our vehicles play in our lives.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;
+ - Adds +1 to Repair Job Limitations on a vehicle (as long as &quot;Multiple pawns per job&quot; is active in Mod settings).</s><r>Мы ремонтируем в срочном порядке, понимая жизненно важную роль, которую наши транспортные средства играют в нашей жизни.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;
+ — Добавляет +1 к ограничениям ремонтных работ на транспортном средстве (пока в настройках мода активно «Несколько пешек на одно задание»).</r></e>
+  <e k="D" t="PreceptDef" key="VVE_VehicleRepairs_Fast.label"><s>fast</s><r>быстрый</r></e>
+  <e k="D" t="PreceptDef" key="VVE_VehicleRepairs_Slow.description"><s>Repairs are a careful ritual, not to be rushed, but to be performed with reverence.</s><r>Ремонт — это тщательный ритуал, который не следует торопить, а выполнять с благоговением.</r></e>
+  <e k="D" t="PreceptDef" key="VVE_VehicleRepairs_Slow.label"><s>slow</s><r>медленный</r></e>
+  <e k="D" t="PreceptDef" key="VVE_VehicleRepairs_Standard.description"><s>Our approach to repairs is balanced, ensuring vehicles are restored to their rightful state.</s><r>Наш подход к ремонту взвешенный, гарантируя восстановление транспортных средств до законного состояния.</r></e>
+  <e k="D" t="PreceptDef" key="VVE_VehicleRepairs_Standard.label"><s>standard</s><r>стандартный</r></e>
+  <e k="D" t="ResearchProjectDef" key="VVE_AerialVehicles.description"><s>Learn to construct vehicles capable of travelling above the ground, such as a mosquito helicopter and a smuggler cargo airplane.</s><r>Научитесь конструировать транспортные средства, способные передвигаться по земле, например вертолет-москит и грузовой самолет для контрабандистов.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VVE_AerialVehicles.generalRules.rulesStrings.0"><s>subject-&gt;flying machines</s><r>subject-&gt;летающие машины</r></e>
+  <e k="D" t="ResearchProjectDef" key="VVE_AerialVehicles.generalRules.rulesStrings.1"><s>subject_story-&gt;created helicopters and cargo planes to fly over obstacles</s><r>subject_story-&gt;создали вертолеты и грузовые самолеты для перелета препятствий</r></e>
+  <e k="D" t="ResearchProjectDef" key="VVE_AerialVehicles.generalRules.rulesStrings.2"><s>subject_story-&gt;opened up new ways to explore and trade</s><r>subject_story-&gt;открыл новые способы исследования и торговли</r></e>
+  <e k="D" t="ResearchProjectDef" key="VVE_AerialVehicles.generalRules.rulesStrings.3"><s>subject_story-&gt;made air travel possible, changing how we see the world</s><r>subject_story-&gt;сделали возможными авиаперелеты, изменив наш взгляд на мир</r></e>
+  <e k="D" t="ResearchProjectDef" key="VVE_AerialVehicles.generalRules.rulesStrings.4"><s>subject_gerund-&gt;taking to the skies</s><r>subject_gerund-&gt;поднимаясь в небо</r></e>
+  <e k="D" t="ResearchProjectDef" key="VVE_AerialVehicles.label"><s>aerial vehicles</s><r>летательные аппараты</r></e>
+  <e k="D" t="ResearchProjectDef" key="VVE_BasicVehicles.description"><s>Learn to construct basic, inefficient vehicles, from prowler buggy to roadkill single-person tanks.</s><r>Научитесь конструировать простые, неэффективные транспортные средства: от багги-бродяги до одноместных танков-убийц.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VVE_BasicVehicles.generalRules.rulesStrings.0"><s>subject-&gt;first vehicles</s><r>subject-&gt;первые автомобили</r></e>
+  <e k="D" t="ResearchProjectDef" key="VVE_BasicVehicles.generalRules.rulesStrings.1"><s>subject_story-&gt;started making simple vehicles like buggies and single-person tanks</s><r>subject_story-&gt;начали делать простые транспортные средства, такие как багги и одноместные танки</r></e>
+  <e k="D" t="ResearchProjectDef" key="VVE_BasicVehicles.generalRules.rulesStrings.2"><s>subject_story-&gt;changed how far we could go and what we could carry</s><r>subject_story-&gt;изменилось, как далеко мы можем пойти и что мы можем нести</r></e>
+  <e k="D" t="ResearchProjectDef" key="VVE_BasicVehicles.generalRules.rulesStrings.3"><s>subject_story-&gt;made travel faster than ever before</s><r>subject_story-&gt;сделало путешествие быстрее, чем когда-либо прежде</r></e>
+  <e k="D" t="ResearchProjectDef" key="VVE_BasicVehicles.generalRules.rulesStrings.4"><s>subject_gerund-&gt;inventing new ways to move</s><r>subject_gerund-&gt;изобретая новые способы передвижения</r></e>
+  <e k="D" t="ResearchProjectDef" key="VVE_BasicVehicles.label"><s>basic vehicles</s><r>базовые транспортные средства</r></e>
+  <e k="D" t="ResearchProjectDef" key="VVE_CombatVehicles.description"><s>Learn to construct complex combat vehicles, such as bulldog battle tanks, tango armored personnel carriers and warbird combat airplanes.</s><r>Научитесь конструировать сложные боевые машины, такие как боевые танки «Бульдог», бронетранспортеры «Танго» и боевые самолеты «Боевые птицы».</r></e>
+  <e k="D" t="ResearchProjectDef" key="VVE_CombatVehicles.generalRules.rulesStrings.0"><s>subject-&gt;war vehicles</s><r>subject-&gt;военные машины</r></e>
+  <e k="D" t="ResearchProjectDef" key="VVE_CombatVehicles.generalRules.rulesStrings.1"><s>subject_story-&gt;made powerful combat vehicles like tanks and armored planes</s><r>subject_story-&gt;создавали мощные боевые машины, такие как танки и бронированные самолеты.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VVE_CombatVehicles.generalRules.rulesStrings.2"><s>subject_story-&gt;vehicles could now fight and defend in wars</s><r>subject_story-&gt;транспортные средства теперь могут сражаться и защищаться в войнах</r></e>
+  <e k="D" t="ResearchProjectDef" key="VVE_CombatVehicles.generalRules.rulesStrings.3"><s>subject_story-&gt;changed how battles are fought with these new machines</s><r>subject_story-&gt;изменился способ ведения боя с использованием этих новых машин</r></e>
+  <e k="D" t="ResearchProjectDef" key="VVE_CombatVehicles.generalRules.rulesStrings.4"><s>subject_gerund-&gt;building for battle</s><r>subject_gerund-&gt;здание для боя</r></e>
+  <e k="D" t="ResearchProjectDef" key="VVE_CombatVehicles.label"><s>combat vehicles</s><r>боевые машины</r></e>
+  <e k="D" t="ResearchProjectDef" key="VVE_ComplexVehicles.description"><s>Learn to construct complex vehicles, such as wagons, roadrunners and snatchers, using the components you can easily fabricate.</s><r>Научитесь конструировать сложные транспортные средства, такие как фургоны, дорожные бегуны и похитители, используя компоненты, которые вы можете легко изготовить.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VVE_ComplexVehicles.generalRules.rulesStrings.0"><s>subject-&gt;better vehicles</s><r>subject-&gt;лучшие транспортные средства</r></e>
+  <e k="D" t="ResearchProjectDef" key="VVE_ComplexVehicles.generalRules.rulesStrings.1"><s>subject_story-&gt;built more complex vehicles like wagons and fast cars</s><r>subject_story-&gt;построены более сложные транспортные средства, такие как фургоны и быстрые автомобили</r></e>
+  <e k="D" t="ResearchProjectDef" key="VVE_ComplexVehicles.generalRules.rulesStrings.2"><s>subject_story-&gt;made it easier to move things and people over long distances</s><r>subject_story-&gt;облегчило перемещение вещей и людей на большие расстояния</r></e>
+  <e k="D" t="ResearchProjectDef" key="VVE_ComplexVehicles.generalRules.rulesStrings.3"><s>subject_story-&gt;vehicles became more useful and versatile</s><r>subject_story-&gt;транспортные средства стали более полезными и универсальными</r></e>
+  <e k="D" t="ResearchProjectDef" key="VVE_ComplexVehicles.generalRules.rulesStrings.4"><s>subject_gerund-&gt;improving our rides</s><r>subject_gerund-&gt;улучшение наших поездок</r></e>
+  <e k="D" t="ResearchProjectDef" key="VVE_ComplexVehicles.label"><s>complex vehicles</s><r>сложные транспортные средства</r></e>
+  <e k="D" t="ResearchTabDef" key="Vehicles.label"><s>Vehicles</s><r>Транспортные средства</r></e>
+  <e k="D" t="ThingCategoryDef" key="VVE_CarParts.label"><s>car parts</s><r>автозапчасти</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Bulldog_MainTurret.label"><s>high-explosive shell</s><r>осколочно-фугасный снаряд</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Roadkill_MainTurret.label"><s>high-explosive shell</s><r>осколочно-фугасный снаряд</r></e>
+  <e k="D" t="ThingDef" key="Rocket_Scytheman_MainTurret.label"><s>swarmer rocket</s><r>роющая ракета</r></e>
+  <e k="D" t="ThingDef" key="VVE_BangBus.components.1.label"><s>Front left wheel</s><r>Переднее левое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_BangBus.components.11.label"><s>Front bumper</s><r>Передний бампер</r></e>
+  <e k="D" t="ThingDef" key="VVE_BangBus.components.12.label"><s>Rear bumper</s><r>Задний бампер</r></e>
+  <e k="D" t="ThingDef" key="VVE_BangBus.components.15.label"><s>Steering wheel</s><r>Рулевое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_BangBus.components.2.label"><s>Front right wheel</s><r>Переднее правое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_BangBus.components.3.label"><s>Back left wheel</s><r>Заднее левое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_BangBus.components.4.label"><s>Back right wheel</s><r>Заднее правое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_BangBus.components.5.label"><s>Front left suspension</s><r>Передняя левая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_BangBus.components.6.label"><s>Front right suspension</s><r>Передняя правая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_BangBus.components.8.label"><s>Left side panel</s><r>Левая боковая панель</r></e>
+  <e k="D" t="ThingDef" key="VVE_BangBus.components.9.label"><s>Right side panel</s><r>Правая боковая панель</r></e>
+  <e k="D" t="ThingDef" key="VVE_BangBus.description"><s>A basic passenger transport, the Bangbus is a relatively cheap piece of machinery to construct to transport people across roads of flat terrain. Not recommended to use in the winter season or in snowy terrain, or both, as the light plates of armour that protect the passengers similarly negatively affects its acceleration.
+
+Similar to other tier 1 vehicles, this is a gas guzzler and best used for medium distances.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x5
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Базовый пассажирский транспорт Bangbus представляет собой относительно дешевую технику, предназначенную для перевозки людей по дорогам с ровной местностью. Не рекомендуется использовать зимой или на заснеженной местности, или и то, и другое, так как легкие пластины брони, защищающие пассажиров, также негативно влияют на его ускорение.
+
+Подобно другим машинам 1-го уровня, это пожиратель бензина, который лучше всего использовать на средних дистанциях.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Пассажир x5
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_BangBus.label"><s>Bang Bus</s><r>Автобус взрыва</r></e>
+  <e k="D" t="ThingDef" key="VVE_BangBus.properties.roles.2.label"><s>rear passenger</s><r>задний пассажир</r></e>
+  <e k="D" t="ThingDef" key="VVE_BangBus_Blueprint.description"><s>A basic passenger transport, the Bangbus is a relatively cheap piece of machinery to construct to transport people across roads of flat terrain. Not recommended to use in the winter season or in snowy terrain, or both, as the light plates of armour that protect the passengers similarly negatively affects its acceleration.
+
+Similar to other tier 1 vehicles, this is a gas guzzler and best used for medium distances.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x5
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Базовый пассажирский транспорт Bangbus представляет собой относительно дешевую технику, предназначенную для перевозки людей по дорогам с ровной местностью. Не рекомендуется использовать зимой или на заснеженной местности, или и то, и другое, так как легкие пластины брони, защищающие пассажиров, также негативно влияют на его ускорение.
+
+Подобно другим машинам 1-го уровня, это пожиратель бензина, который лучше всего использовать на средних дистанциях.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Пассажир x5
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_BangBus_Blueprint.label"><s>Bang Bus</s><r>Автобус взрыва</r></e>
+  <e k="D" t="ThingDef" key="VVE_Bulldog.&lt;CompPropsVehicleTurrets&gt;k__BackingField.turrets.0.gizmoLabel"><s>Main turret</s><r>Главная башня</r></e>
+  <e k="D" t="ThingDef" key="VVE_Bulldog.components.1.label"><s>Left track</s><r>Левый путь</r></e>
+  <e k="D" t="ThingDef" key="VVE_Bulldog.components.10.label"><s>Right armor plating</s><r>Правая броня</r></e>
+  <e k="D" t="ThingDef" key="VVE_Bulldog.components.11.label"><s>Rear armor plating</s><r>Задняя броневая обшивка</r></e>
+  <e k="D" t="ThingDef" key="VVE_Bulldog.components.14.label"><s>Steering apparatus</s><r>Рулевой аппарат</r></e>
+  <e k="D" t="ThingDef" key="VVE_Bulldog.components.2.label"><s>Right track</s><r>Правильный путь</r></e>
+  <e k="D" t="ThingDef" key="VVE_Bulldog.components.3.label"><s>Front left drive sprocket</s><r>Передняя левая ведущая звездочка</r></e>
+  <e k="D" t="ThingDef" key="VVE_Bulldog.components.4.label"><s>Front right drive sprocket</s><r>Передняя правая ведущая звездочка</r></e>
+  <e k="D" t="ThingDef" key="VVE_Bulldog.components.5.label"><s>Back left drive sprocket</s><r>Задняя левая ведущая звездочка</r></e>
+  <e k="D" t="ThingDef" key="VVE_Bulldog.components.6.label"><s>Back right drive sprocket</s><r>Задняя правая ведущая звездочка</r></e>
+  <e k="D" t="ThingDef" key="VVE_Bulldog.components.8.label"><s>Front armor plating</s><r>Передняя броня</r></e>
+  <e k="D" t="ThingDef" key="VVE_Bulldog.components.9.label"><s>Left armor plating</s><r>Левая броня</r></e>
+  <e k="D" t="ThingDef" key="VVE_Bulldog.description"><s>A general main battle tank, the Bulldog is an improved combat vehicle that performs well in any engagement. Performs better in less favourable terrain with all sides armoured, the thinnest plating being at the rear near the engine.
+
+Different to other tier 2 vehicles, this has regular fuel efficiency and is quite visible, which is still an improvement over the tier 1 tank.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Общий основной боевой танк «Бульдог» представляет собой улучшенную боевую машину, которая хорошо себя проявляет в любом бою. Лучше работает на менее благоприятной местности, со всех сторон бронирован, самая тонкая обшивка находится сзади, рядом с двигателем.
+
+В отличие от других машин 2-го уровня, имеет обычную топливную экономичность и хорошо заметен, что по-прежнему является улучшением по сравнению с танком 1-го уровня.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Наводчик x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Bulldog.label"><s>Bulldog</s><r>Бульдог</r></e>
+  <e k="D" t="ThingDef" key="VVE_Bulldog_Blueprint.description"><s>A general main battle tank, the Bulldog is an improved combat vehicle that performs well in any engagement. Performs better in less favourable terrain with all sides armoured, the thinnest plating being at the rear near the engine.
+
+Different to other tier 2 vehicles, this has regular fuel efficiency and is quite visible, which is still an improvement over the tier 1 tank.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Общий основной боевой танк «Бульдог» представляет собой улучшенную боевую машину, которая хорошо себя проявляет в любом бою. Лучше работает на менее благоприятной местности, со всех сторон бронирован, самая тонкая обшивка находится сзади, рядом с двигателем.
+
+В отличие от других машин 2-го уровня, имеет обычную топливную экономичность и хорошо заметен, что по-прежнему является улучшением по сравнению с танком 1-го уровня.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Наводчик x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Bulldog_Blueprint.label"><s>Bulldog</s><r>Бульдог</r></e>
+  <e k="D" t="ThingDef" key="VVE_Bullet_Bunsen.label"><s>spew</s><r>извергать</r></e>
+  <e k="D" t="ThingDef" key="VVE_Bunsen.&lt;CompPropsVehicleTurrets&gt;k__BackingField.turrets.0.gizmoLabel"><s>Main Turret</s><r>Главная турель</r></e>
+  <e k="D" t="ThingDef" key="VVE_Bunsen.components.1.label"><s>Left track</s><r>Левый путь</r></e>
+  <e k="D" t="ThingDef" key="VVE_Bunsen.components.10.label"><s>Front armor plating</s><r>Передняя броня</r></e>
+  <e k="D" t="ThingDef" key="VVE_Bunsen.components.11.label"><s>Back armor plating</s><r>Задняя броня</r></e>
+  <e k="D" t="ThingDef" key="VVE_Bunsen.components.14.label"><s>Steering apparatus</s><r>Рулевой аппарат</r></e>
+  <e k="D" t="ThingDef" key="VVE_Bunsen.components.2.label"><s>Right track</s><r>Правильный путь</r></e>
+  <e k="D" t="ThingDef" key="VVE_Bunsen.components.3.label"><s>Front left drive sprocket</s><r>Передняя левая ведущая звездочка</r></e>
+  <e k="D" t="ThingDef" key="VVE_Bunsen.components.4.label"><s>Front right drive sprocket</s><r>Передняя правая ведущая звездочка</r></e>
+  <e k="D" t="ThingDef" key="VVE_Bunsen.components.5.label"><s>Back left drive sprocket</s><r>Задняя левая ведущая звездочка</r></e>
+  <e k="D" t="ThingDef" key="VVE_Bunsen.components.6.label"><s>Back right drive sprocket</s><r>Задняя правая ведущая звездочка</r></e>
+  <e k="D" t="ThingDef" key="VVE_Bunsen.components.8.label"><s>Left armor plating</s><r>Левая броня</r></e>
+  <e k="D" t="ThingDef" key="VVE_Bunsen.components.9.label"><s>Right armor plating</s><r>Правая броня</r></e>
+  <e k="D" t="ThingDef" key="VVE_Bunsen.description"><s>A basic light tank, the Bunsen is a modified armoured vehicle suited for taking on enemy fortifications and exposed infantry. Special light plating to prevent self-immolation, combined with its main weapon drawing directly from its enlarged fuel tanks, leave it a very precarious model to field.
+
+Similar to other tier 1 vehicles, this is a gas guzzler and best used for medium distances, however it’s also less fuel efficient on the world map.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Базовый легкий танк «Бунзен» представляет собой модифицированную бронемашину, подходящую для борьбы с укреплениями противника и незащищенной пехотой. Специальная легкая обшивка для предотвращения самосожжения в сочетании с тем, что основное оружие извлекается непосредственно из увеличенных топливных баков, делает эту модель очень опасной для боевых действий.
+
+Подобно другим машинам уровня 1, это пожиратель бензина, который лучше всего использовать на средних дистанциях, однако он также менее экономичен по топливу в мире. карта.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Наводчик x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Bunsen.label"><s>Bunsen</s><r>Бунзен</r></e>
+  <e k="D" t="ThingDef" key="VVE_Bunsen_Blueprint.description"><s>A basic light tank, the Bunsen is a modified armoured vehicle suited for taking on enemy fortifications and exposed infantry. Special light plating to prevent self-immolation, combined with its main weapon drawing directly from its enlarged fuel tanks, leave it a very precarious model to field.
+
+Similar to other tier 1 vehicles, this is a gas guzzler and best used for medium distances, however it’s also less fuel efficient on the world map.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Базовый легкий танк «Бунзен» представляет собой модифицированную бронемашину, подходящую для борьбы с укреплениями противника и незащищенной пехотой. Специальная легкая обшивка для предотвращения самосожжения в сочетании с тем, что основное оружие извлекается непосредственно из увеличенных топливных баков, делает эту модель очень опасной для боевых действий.
+
+Подобно другим машинам уровня 1, это пожиратель бензина, который лучше всего использовать на средних дистанциях, однако он также менее экономичен по топливу в мире. карта.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Наводчик x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Bunsen_Blueprint.label"><s>Bunsen</s><r>Бунзен</r></e>
+  <e k="D" t="ThingDef" key="VVE_CarAlternator.description"><s>The alternator is an extremely vital engine part for any vehicle that has electrical systems. Some very basic systems can get away and some more complex vehicles can require more than one.</s><r>Генератор является чрезвычайно важной частью двигателя любого автомобиля, оснащенного электрическими системами. Некоторые очень простые системы могут обойтись без использования, а для некоторых более сложных транспортных средств может потребоваться более одной.</r></e>
+  <e k="D" t="ThingDef" key="VVE_CarAlternator.label"><s>car alternator</s><r>автомобильный генератор</r></e>
+  <e k="D" t="ThingDef" key="VVE_CarBattery.description"><s>An insulated rechargeable battery and wiring which powers numerous electronic functions. Acts as a surge protector for electronic systems and multiple batteries can augment or even replace a vehicle's engine.</s><r>Изолированная аккумуляторная батарея и проводка, обеспечивающая питание многочисленных электронных функций. Действует как сетевой фильтр для электронных систем, а несколько аккумуляторов могут дополнить или даже заменить двигатель автомобиля.</r></e>
+  <e k="D" t="ThingDef" key="VVE_CarBattery.label"><s>car battery</s><r>автомобильный аккумулятор</r></e>
+  <e k="D" t="ThingDef" key="VVE_CarExhaust.description"><s>A series of pipes, catalysts and fittings that transfer the exhaust from the car engine away from the driver’s cabin. Engines that will be put under a lot of strain require more exhausts.</s><r>Ряд трубок, катализаторов и фитингов, которые переносят выхлопные газы двигателя автомобиля из кабины водителя. Двигатели, которые будут подвергаться большим нагрузкам, требуют большего количества выхлопных газов.</r></e>
+  <e k="D" t="ThingDef" key="VVE_CarExhaust.label"><s>car exhaust</s><r>выхлоп автомобиля</r></e>
+  <e k="D" t="ThingDef" key="VVE_CarFuelTank.description"><s>Carefully manufactured fuel storage and injection systems. Ideal for vehicles that require greater fuel capacity or even increased fuel consumption without increasing the likelihood of gas leaks or engine damage.</s><r>Тщательно изготовленные системы хранения и впрыска топлива. Идеально подходит для автомобилей, которым требуется больший запас топлива или даже повышенный расход топлива без увеличения вероятности утечек газа или повреждения двигателя.</r></e>
+  <e k="D" t="ThingDef" key="VVE_CarFuelTank.label"><s>car fuel tank</s><r>топливный бак автомобиля</r></e>
+  <e k="D" t="ThingDef" key="VVE_CarRadiator.description"><s>A series of pipes, tubes, fans, pumps, and the radiator itself, ready to be installed in a vehicle that is expected to endure heavy loads. The harder the engine will have to work, the more radiators required to keep it cool.</s><r>Ряд трубок, трубок, вентиляторов, насосов и самого радиатора, готовые к установке в автомобиль, способный выдерживать большие нагрузки. Чем интенсивнее придется работать двигателю, тем больше радиаторов потребуется для его охлаждения.</r></e>
+  <e k="D" t="ThingDef" key="VVE_CarRadiator.label"><s>car radiator</s><r>автомобильный радиатор</r></e>
+  <e k="D" t="ThingDef" key="VVE_CarSuspension.description"><s>A series of transmissions, springs and shock absorbers that redirect or reduce forces transferred through the wheels. Generally, the greater the mass and cargo capacity of the vehicle, the more suspensions are needed.</s><r>Ряд трансмиссий, пружин и амортизаторов, которые перенаправляют или уменьшают силы, передаваемые через колеса. Как правило, чем больше масса и грузоподъемность автомобиля, тем больше подвесок требуется.</r></e>
+  <e k="D" t="ThingDef" key="VVE_CarSuspension.label"><s>car suspension</s><r>подвеска автомобиля</r></e>
+  <e k="D" t="ThingDef" key="VVE_CarTransmission.description"><s>A dedicated, automatic transmission system delicately machined from hardened and durable materials. Due to its comparatively complex design, these are required in vehicles that require immense torque or excessive rotational speeds.</s><r>Специальная автоматическая трансмиссия, деликатно изготовленная из закаленных и долговечных материалов. Из-за своей сравнительно сложной конструкции они необходимы в транспортных средствах, которым требуется огромный крутящий момент или чрезмерная скорость вращения.</r></e>
+  <e k="D" t="ThingDef" key="VVE_CarTransmission.label"><s>car transmission</s><r>трансмиссия автомобиля</r></e>
+  <e k="D" t="ThingDef" key="VVE_CarWheel.description"><s>One of the most ancient technologies developed by man, the wheel takes the power from the engine and translates it into movement. As wheels have to not only move the vehicle in whichever direction necessary but also withstand the combined weight, larger and heavier vehicles can need several or dozens of them.</s><r>Одна из древнейших технологий, разработанных человеком, колесо забирает мощность двигателя и преобразует ее в движение. Поскольку колеса должны не только перемещать автомобиль в любом необходимом направлении, но и выдерживать общий вес, более крупным и тяжелым транспортным средствам может потребоваться несколько или десятки таких колес.</r></e>
+  <e k="D" t="ThingDef" key="VVE_CarWheel.label"><s>car wheel</s><r>колесо автомобиля</r></e>
+  <e k="D" t="ThingDef" key="VVE_CarWiring.description"><s>Reinforced and machined wiring parts to improve electricity conduction. Typically required in vehicles that have a lot of synchronized or delicate electronic systems.</s><r>Усиленные и обработанные детали проводки для улучшения проводимости электричества. Обычно требуется в автомобилях с большим количеством синхронизированных или чувствительных электронных систем.</r></e>
+  <e k="D" t="ThingDef" key="VVE_CarWiring.label"><s>car wiring</s><r>проводка автомобиля</r></e>
+  <e k="D" t="ThingDef" key="VVE_Charley.components.0.label"><s>Front wheel</s><r>Переднее колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Charley.components.1.label"><s>Back wheel</s><r>Заднее колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Charley.components.3.label"><s>Front suspension</s><r>Передняя подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Charley.components.4.label"><s>Back suspension</s><r>Задняя подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Charley.description"><s>A general motorcycle, the Charley is a very effective single-person vehicle with a small cargo capacity. Performs well on any road except during winter season or snowy terrain, or both, with an increased speed on the world map.
+
+Similar to other tier 2 vehicles, this has double fuel efficiency on the world map which makes them more efficient than tier 1 vehicles. They are also less visible due to improved manufacturing.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Мотоцикл общего назначения Charley представляет собой очень эффективное одноместное транспортное средство с небольшой грузоподъемностью. Хорошо работает на любой дороге, за исключением зимнего сезона и заснеженной местности, или того и другого, с повышенной скоростью на карте мира.
+
+Как и другие машины 2-го уровня, они имеют двойную топливную экономичность на карте мира, что делает их более эффективными, чем машины 1-го уровня. Они также менее заметны из-за улучшенного производства.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Charley.label"><s>Charley</s><r>Чарли</r></e>
+  <e k="D" t="ThingDef" key="VVE_Charley_Blueprint.description"><s>A general motorcycle, the Charley is a very effective single-person vehicle with a small cargo capacity. Performs well on any road except during winter season or snowy terrain, or both, with an increased speed on the world map.
+
+Similar to other tier 2 vehicles, this has double fuel efficiency on the world map which makes them more efficient than tier 1 vehicles. They are also less visible due to improved manufacturing.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Мотоцикл общего назначения Charley представляет собой очень эффективное одноместное транспортное средство с небольшой грузоподъемностью. Хорошо работает на любой дороге, за исключением зимнего сезона и заснеженной местности, или того и другого, с повышенной скоростью на карте мира.
+
+Как и другие машины 2-го уровня, они имеют двойную топливную экономичность на карте мира, что делает их более эффективными, чем машины 1-го уровня. Они также менее заметны из-за улучшенного производства.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Charley_Blueprint.label"><s>Charley</s><r>Чарли</r></e>
+  <e k="D" t="ThingDef" key="VVE_Dinghy.components.1.label"><s>Left side panel</s><r>Левая боковая панель</r></e>
+  <e k="D" t="ThingDef" key="VVE_Dinghy.components.2.label"><s>Right side panel</s><r>Правая боковая панель</r></e>
+  <e k="D" t="ThingDef" key="VVE_Dinghy.description"><s>A very basic motorised boat, the Dingy is an incredibly cheap and discrete method of transportation over water. Has a good cargo capacity, however it is likely to get frozen solid in the winter times and moves slowly on rivers. The exposed rear-mounted engine is vulnerable to attacks and the hull plating should not be expected to wither projectile weapons.
+
+Similar to other tier 1 vehicles, this is a gas guzzler and best used for medium distances.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x5
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Очень простая моторная лодка Dingy — невероятно дешевый и незаметный способ передвижения по воде. Имеет хорошую грузоподъемность, однако зимой подвержен замерзанию и медленно передвигается по рекам. Открытый задний двигатель уязвим для атак, и не следует ожидать, что обшивка корпуса испортит снаряды.
+
+Подобно другим машинам уровня 1, это пожиратель бензина, который лучше всего использовать на средних дистанциях.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, пассажир x5
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Dinghy.label"><s>Dinghy</s><r>Шлюпка</r></e>
+  <e k="D" t="ThingDef" key="VVE_Dinghy.properties.roles.1.label"><s>passenger 1</s><r>пассажир 1</r></e>
+  <e k="D" t="ThingDef" key="VVE_Dinghy.properties.roles.2.label"><s>passenger 2</s><r>пассажир 2</r></e>
+  <e k="D" t="ThingDef" key="VVE_Dinghy.properties.roles.3.label"><s>passenger 3</s><r>пассажир 3</r></e>
+  <e k="D" t="ThingDef" key="VVE_Dinghy.properties.roles.4.label"><s>passenger 4</s><r>пассажир 4</r></e>
+  <e k="D" t="ThingDef" key="VVE_Dinghy.properties.roles.5.label"><s>passenger 5</s><r>пассажир 5</r></e>
+  <e k="D" t="ThingDef" key="VVE_Dinghy_Blueprint.description"><s>A very basic motorised boat, the Dingy is an incredibly cheap and discrete method of transportation over water. Has a good cargo capacity, however it is likely to get frozen solid in the winter times and moves slowly on rivers. The exposed rear-mounted engine is vulnerable to attacks and the hull plating should not be expected to wither projectile weapons.
+
+Similar to other tier 1 vehicles, this is a gas guzzler and best used for medium distances.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x5
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Очень простая моторная лодка Dingy — невероятно дешевый и незаметный способ передвижения по воде. Имеет хорошую грузоподъемность, однако зимой подвержен замерзанию и медленно передвигается по рекам. Открытый задний двигатель уязвим для атак, и не следует ожидать, что обшивка корпуса испортит снаряды.
+
+Подобно другим машинам уровня 1, это пожиратель бензина, который лучше всего использовать на средних дистанциях.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, пассажир x5
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Dinghy_Blueprint.label"><s>Dinghy</s><r>Шлюпка</r></e>
+  <e k="D" t="ThingDef" key="VVE_Dirtbike.components.0.label"><s>Front wheel</s><r>Переднее колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Dirtbike.components.1.label"><s>Back wheel</s><r>Заднее колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Dirtbike.components.3.label"><s>Front suspension</s><r>Передняя подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Dirtbike.components.4.label"><s>Back suspension</s><r>Задняя подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Dirtbike.description"><s>A basic off-road motorcycle, the Dirtbike is a very cheap vehicle that allows a single user to travel quickly, efficiently and quietly. Incredibly light and practically paper-thin on armour, it performs poorly in the winter or in the snow, or both, and has absolutely no cargo capacity.
+
+Similar to other tier 1 vehicles, this is a gas guzzler and best used for medium distances.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Базовый внедорожный мотоцикл Dirtbike — очень дешевое транспортное средство, позволяющее одному пользователю передвигаться быстро, эффективно и бесшумно. Невероятно легкий и практически тонкий по броне, он плохо работает зимой или на снегу, или и то и другое, и не имеет абсолютно никакой грузоподъемности.
+
+Подобно другим машинам 1-го уровня, это пожиратель бензина, который лучше всего использовать на средних дистанциях.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Dirtbike.label"><s>Dirtbike</s><r>Грязевой велосипед</r></e>
+  <e k="D" t="ThingDef" key="VVE_Dirtbike_Blueprint.description"><s>A basic off-road motorcycle, the Dirtbike is a very cheap vehicle that allows a single user to travel quickly, efficiently and quietly. Incredibly light and practically paper-thin on armour, it performs poorly in the winter or in the snow, or both, and has absolutely no cargo capacity.
+
+Similar to other tier 1 vehicles, this is a gas guzzler and best used for medium distances.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Базовый внедорожный мотоцикл Dirtbike — очень дешевое транспортное средство, позволяющее одному пользователю передвигаться быстро, эффективно и бесшумно. Невероятно легкий и практически тонкий по броне, он плохо работает зимой или на снегу, или и то и другое, и не имеет абсолютно никакой грузоподъемности.
+
+Подобно другим машинам 1-го уровня, это пожиратель бензина, который лучше всего использовать на средних дистанциях.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Dirtbike_Blueprint.label"><s>Dirtbike</s><r>Грязевой велосипед</r></e>
+  <e k="D" t="ThingDef" key="VVE_EngineBlock.description"><s>Literally the part that gets a vehicle moving in the first place, no vehicle can be assembled without one. Exceedingly large or heavy vehicles could require more than one.</s><r>Это буквально деталь, которая в первую очередь приводит в движение автомобиль, без нее невозможно собрать ни одно транспортное средство. Чрезвычайно большим или тяжелым транспортным средствам может потребоваться более одного.</r></e>
+  <e k="D" t="ThingDef" key="VVE_EngineBlock.label"><s>engine block</s><r>блок двигателя</r></e>
+  <e k="D" t="ThingDef" key="VVE_Frog.components.1.label"><s>First thruster</s><r>Первый двигатель</r></e>
+  <e k="D" t="ThingDef" key="VVE_Frog.components.2.label"><s>Second thruster</s><r>Второе подруливающее устройство</r></e>
+  <e k="D" t="ThingDef" key="VVE_Frog.components.3.label"><s>Third thruster</s><r>Третий двигатель</r></e>
+  <e k="D" t="ThingDef" key="VVE_Frog.description"><s>A basic reusable transport pod, the Frog is a relatively cheap vehicle that is the first option when it comes to flying without crashing into the ground. Several times faster than conventional transport pods with acceptable armour for its single passenger, making it an ideal ambush vehicle.
+
+Even worse than other tier 1 vehicles, fuel efficiency isn’t a thing with this transportation. Care must be taken to either refuel at the landing site or travel with enough spare fuel to make the trip back.
+
+Being a flying vehicle, it is extremely obvious when on the move.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Базовая многоразовая транспортная капсула «Лягушка» — относительно дешевое транспортное средство, которое является первым вариантом, когда речь идет о полете без столкновения с землей. В несколько раз быстрее, чем обычные транспортные капсулы, с приемлемой броней для одного пассажира, что делает его идеальным транспортным средством для засад.
+
+Даже хуже, чем у других транспортных средств первого уровня, топливная экономичность не имеет значения для этого транспорта. Необходимо позаботиться либо о дозаправке на месте приземления, либо о поездке с достаточным количеством запасного топлива, чтобы вернуться обратно.
+
+ Поскольку это летательный аппарат, это чрезвычайно очевидно в движении.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Frog.label"><s>Frog</s><r>Лягушка</r></e>
+  <e k="D" t="ThingDef" key="VVE_Frog_Blueprint.description"><s>A basic reusable transport pod, the Frog is a relatively cheap vehicle that is the first option when it comes to flying without crashing into the ground. Several times faster than conventional transport pods with acceptable armour for its single passenger, making it an ideal ambush vehicle.
+
+Even worse than other tier 1 vehicles, fuel efficiency isn’t a thing with this transportation. Care must be taken to either refuel at the landing site or travel with enough spare fuel to make the trip back.
+
+Being a flying vehicle, it is extremely obvious when on the move.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Базовая многоразовая транспортная капсула «Лягушка» — относительно дешевое транспортное средство, которое является первым вариантом, когда речь идет о полете без столкновения с землей. В несколько раз быстрее, чем обычные транспортные капсулы, с приемлемой броней для одного пассажира, что делает его идеальным транспортным средством для засад.
+
+Даже хуже, чем у других транспортных средств первого уровня, топливная экономичность не имеет значения для этого транспорта. Необходимо позаботиться либо о дозаправке на месте приземления, либо о поездке с достаточным количеством запасного топлива, чтобы вернуться обратно.
+
+ Поскольку это летательный аппарат, это чрезвычайно очевидно в движении.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Frog_Blueprint.label"><s>Frog</s><r>Лягушка</r></e>
+  <e k="D" t="ThingDef" key="VVE_GarageAutoDoor.description"><s>Divides rooms. Electric-powered operation allows the door to open without manual interaction, letting vehicles through.</s><r>Разделяет комнаты. Электрический привод позволяет двери открываться без ручного вмешательства, пропуская транспортные средства.</r></e>
+  <e k="D" t="ThingDef" key="VVE_GarageAutoDoor.label"><s>auto garage door (1x4)</s><r>ворота гаража (1x4)</r></e>
+  <e k="D" t="ThingDef" key="VVE_GarageAutoDoorLarge.description"><s>Divides rooms. Electric-powered operation allows the door to open without manual interaction, letting vehicles through.</s><r>Разделяет комнаты. Электрический привод позволяет двери открываться без ручного вмешательства, пропуская транспортные средства.</r></e>
+  <e k="D" t="ThingDef" key="VVE_GarageAutoDoorLarge.label"><s>auto garage door (1x5)</s><r>ворота гаража (1x5)</r></e>
+  <e k="D" t="ThingDef" key="VVE_GarageAutoDoorLargeOpened.description"><s>Divides rooms. Electric-powered operation allows the door to open without manual interaction, letting vehicles through.</s><r>Разделяет комнаты. Электрический привод позволяет двери открываться без ручного вмешательства, пропуская транспортные средства.</r></e>
+  <e k="D" t="ThingDef" key="VVE_GarageAutoDoorLargeOpened.label"><s>auto garage door (1x5)</s><r>ворота гаража (1x5)</r></e>
+  <e k="D" t="ThingDef" key="VVE_GarageAutoDoorOpened.description"><s>Divides rooms. Electric-powered operation allows the door to open without manual interaction, letting vehicles through.</s><r>Разделяет комнаты. Электрический привод позволяет двери открываться без ручного вмешательства, пропуская транспортные средства.</r></e>
+  <e k="D" t="ThingDef" key="VVE_GarageAutoDoorOpened.label"><s>auto garage door (1x4)</s><r>ворота гаража (1x4)</r></e>
+  <e k="D" t="ThingDef" key="VVE_GarageBench.description"><s>A specialised work station for assembling vehicle parts. For those that are desperate, rusted cars and engine blocks can be salvaged for any remaining working parts.</s><r>Специализированное рабочее место для сборки деталей автомобилей. Для тех, кто в отчаянии, можно спасти ржавые автомобили и блоки двигателей, чтобы получить оставшиеся рабочие детали.</r></e>
+  <e k="D" t="ThingDef" key="VVE_GarageBench.label"><s>garage bench</s><r>гаражная скамейка</r></e>
+  <e k="D" t="ThingDef" key="VVE_GarageCabinet.description"><s>A handy cabinet that contains a whole bunch of extra tools of various sizes and functions. Increases work speed when placed near a garage bench. One bench can use up to two garage cabinets.</s><r>Удобный шкаф, в котором собрана целая куча дополнительных инструментов разного размера и назначения. Увеличивает скорость работы при размещении рядом со скамейкой в ​​гараже. На одну скамейку можно поставить до двух гаражных шкафов.</r></e>
+  <e k="D" t="ThingDef" key="VVE_GarageCabinet.label"><s>garage cabinet</s><r>гаражный шкаф</r></e>
+  <e k="D" t="ThingDef" key="VVE_GarageDoor.description"><s>Divides rooms. Manual operation allows people to open it, letting vehicles through.</s><r>Разделяет комнаты. Ручное управление позволяет людям открывать его, пропуская транспортные средства.</r></e>
+  <e k="D" t="ThingDef" key="VVE_GarageDoor.label"><s>garage door (1x4)</s><r>ворота гаража (1х4)</r></e>
+  <e k="D" t="ThingDef" key="VVE_GarageDoorLarge.description"><s>Divides rooms. Manual operation allows people to open it, letting vehicles through.</s><r>Разделяет комнаты. Ручное управление позволяет людям открывать его, пропуская транспортные средства.</r></e>
+  <e k="D" t="ThingDef" key="VVE_GarageDoorLarge.label"><s>garage door (1x5)</s><r>ворота гаража (1x5)</r></e>
+  <e k="D" t="ThingDef" key="VVE_GarageDoorLargeOpened.description"><s>Divides rooms. Manual operation allows people to open it, letting vehicles through.</s><r>Разделяет комнаты. Ручное управление позволяет людям открывать его, пропуская транспортные средства.</r></e>
+  <e k="D" t="ThingDef" key="VVE_GarageDoorLargeOpened.label"><s>garage door (1x5)</s><r>ворота гаража (1x5)</r></e>
+  <e k="D" t="ThingDef" key="VVE_GarageDoorOpened.description"><s>Divides rooms. Manual operation allows people to open it, letting vehicles through.</s><r>Разделяет комнаты. Ручное управление позволяет людям открывать его, пропуская транспортные средства.</r></e>
+  <e k="D" t="ThingDef" key="VVE_GarageDoorOpened.label"><s>garage door (1x4)</s><r>ворота гаража (1х4)</r></e>
+  <e k="D" t="ThingDef" key="VVE_Highwayman.&lt;CompPropsVehicleTurrets&gt;k__BackingField.turrets.0.gizmoLabel"><s>Main turret</s><r>Главная башня</r></e>
+  <e k="D" t="ThingDef" key="VVE_Highwayman.components.1.label"><s>Front left wheel</s><r>Переднее левое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Highwayman.components.10.label"><s>Front armor plating</s><r>Передняя броня</r></e>
+  <e k="D" t="ThingDef" key="VVE_Highwayman.components.11.label"><s>Left armor plating</s><r>Левая броня</r></e>
+  <e k="D" t="ThingDef" key="VVE_Highwayman.components.12.label"><s>Right armor plating</s><r>Правая броня</r></e>
+  <e k="D" t="ThingDef" key="VVE_Highwayman.components.14.label"><s>Front bumper</s><r>Передний бампер</r></e>
+  <e k="D" t="ThingDef" key="VVE_Highwayman.components.17.label"><s>Steering wheel</s><r>Рулевое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Highwayman.components.2.label"><s>Front right wheel</s><r>Переднее правое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Highwayman.components.3.label"><s>Back left wheel</s><r>Заднее левое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Highwayman.components.4.label"><s>Back right wheel</s><r>Заднее правое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Highwayman.components.5.label"><s>Front left suspension</s><r>Передняя левая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Highwayman.components.6.label"><s>Front right suspension</s><r>Передняя правая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Highwayman.components.7.label"><s>Back left suspension</s><r>Задняя левая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Highwayman.components.8.label"><s>Back right suspension</s><r>Задняя правая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Highwayman.description"><s>A basic infantry fighting vehicle, the Highwayman is the cheapest weaponized option for transporting three people. Hardened against small-arms fire but very vulnerable at the rear, intended to provide mobile fire support for infantry and travel quickly along paved roads.
+
+Similar to other tier 1 vehicles, this is a gas guzzler and best used for medium distances, however it’s also less fuel efficient on the world map.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Базовая боевая машина пехоты Highwayman — самый дешевый вариант вооружения для перевозки трех человек. Защищен от огня стрелкового оружия, но очень уязвим в тылу, предназначен для мобильной огневой поддержки пехоты и быстрого передвижения по дорогам с твердым покрытием.
+
+Подобно другим машинам 1-го уровня, это бензопожиратель, который лучше всего использовать на средних дистанциях, однако он менее экономичен на карте мира.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Стрелок x1, Пассажир x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Highwayman.label"><s>Highwayman</s><r>Разбойник</r></e>
+  <e k="D" t="ThingDef" key="VVE_Highwayman_Blueprint.description"><s>A basic infantry fighting vehicle, the Highwayman is the cheapest weaponized option for transporting three people. Hardened against small-arms fire but very vulnerable at the rear, intended to provide mobile fire support for infantry and travel quickly along paved roads.
+
+Similar to other tier 1 vehicles, this is a gas guzzler and best used for medium distances, however it’s also less fuel efficient on the world map.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Базовая боевая машина пехоты Highwayman — самый дешевый вариант вооружения для перевозки трех человек. Защищен от огня стрелкового оружия, но очень уязвим в тылу, предназначен для мобильной огневой поддержки пехоты и быстрого передвижения по дорогам с твердым покрытием.
+
+Подобно другим машинам 1-го уровня, это бензопожиратель, который лучше всего использовать на средних дистанциях, однако он менее экономичен на карте мира.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Стрелок x1, Пассажир x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Highwayman_Blueprint.label"><s>Highwayman</s><r>Разбойник</r></e>
+  <e k="D" t="ThingDef" key="VVE_Mosquito.components.0.label"><s>Left landing skid</s><r>Левый посадочный салазок</r></e>
+  <e k="D" t="ThingDef" key="VVE_Mosquito.components.1.label"><s>Right landing skid</s><r>Правый посадочный салазок</r></e>
+  <e k="D" t="ThingDef" key="VVE_Mosquito.components.11.label"><s>Rotor mast</s><r>Роторная мачта</r></e>
+  <e k="D" t="ThingDef" key="VVE_Mosquito.components.2.label"><s>Left horizontal stabilizer</s><r>Левый горизонтальный стабилизатор</r></e>
+  <e k="D" t="ThingDef" key="VVE_Mosquito.components.3.label"><s>Right horizontal stabilizer</s><r>Правый горизонтальный стабилизатор</r></e>
+  <e k="D" t="ThingDef" key="VVE_Mosquito.components.5.label"><s>Fuel intake</s><r>Забор топлива</r></e>
+  <e k="D" t="ThingDef" key="VVE_Mosquito.components.8.label"><s>Left side panel</s><r>Левая боковая панель</r></e>
+  <e k="D" t="ThingDef" key="VVE_Mosquito.components.9.label"><s>Right side panel</s><r>Правая боковая панель</r></e>
+  <e k="D" t="ThingDef" key="VVE_Mosquito.description"><s>A general-purpose aircraft, the Mosquito is an extremely fast and mobile mode of transportation. While it doesn’t require a landing strip, it is slower than aeroplanes and has less cargo capacity.
+
+Similar to other tier 2 vehicles, this has double fuel efficiency on the world map which makes them more efficient than tier 1 vehicles.
+
+Being a flying vehicle, it is extremely obvious when on the move.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Pilot x1, Passenger x3
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Самолет общего назначения «Москит» представляет собой чрезвычайно быстрый и мобильный вид транспорта. Хотя для него не требуется взлетно-посадочная полоса, он медленнее, чем самолеты, и имеет меньшую грузоподъемность.
+
+Подобно другим транспортным средствам уровня 2, он имеет двойную топливную экономичность на карте мира, что делает их более эффективными, чем транспортные средства уровня 1.
+
+Будучи летающим транспортным средством, это чрезвычайно очевидно на карте мира. ход.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Пилот x1, Пассажир x3
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Mosquito.label"><s>Mosquito</s><r>Комар</r></e>
+  <e k="D" t="ThingDef" key="VVE_Mosquito_Blueprint.description"><s>A general-purpose aircraft, the Mosquito is an extremely fast and mobile mode of transportation. While it doesn’t require a landing strip, it is slower than aeroplanes and has less cargo capacity.
+
+Similar to other tier 2 vehicles, this has double fuel efficiency on the world map which makes them more efficient than tier 1 vehicles.
+
+Being a flying vehicle, it is extremely obvious when on the move.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Pilot x1, Passenger x3
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Самолет общего назначения «Москит» представляет собой чрезвычайно быстрый и мобильный вид транспорта. Хотя для него не требуется взлетно-посадочная полоса, он медленнее, чем самолеты, и имеет меньшую грузоподъемность.
+
+Подобно другим транспортным средствам уровня 2, он имеет двойную топливную экономичность на карте мира, что делает их более эффективными, чем транспортные средства уровня 1.
+
+Будучи летающим транспортным средством, это чрезвычайно очевидно на карте мира. ход.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Пилот x1, Пассажир x3
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Mosquito_Blueprint.label"><s>Mosquito</s><r>Комар</r></e>
+  <e k="D" t="ThingDef" key="VVE_Mule.components.1.label"><s>Front left wheel</s><r>Переднее левое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Mule.components.10.label"><s>Left side panel</s><r>Левая боковая панель</r></e>
+  <e k="D" t="ThingDef" key="VVE_Mule.components.11.label"><s>Right side panel</s><r>Правая боковая панель</r></e>
+  <e k="D" t="ThingDef" key="VVE_Mule.components.13.label"><s>Front bumper</s><r>Передний бампер</r></e>
+  <e k="D" t="ThingDef" key="VVE_Mule.components.14.label"><s>Rear bumper</s><r>Задний бампер</r></e>
+  <e k="D" t="ThingDef" key="VVE_Mule.components.17.label"><s>Steering wheel</s><r>Рулевое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Mule.components.2.label"><s>Front right wheel</s><r>Переднее правое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Mule.components.3.label"><s>Back left wheel</s><r>Заднее левое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Mule.components.4.label"><s>Back right wheel</s><r>Заднее правое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Mule.components.5.label"><s>Front left suspension</s><r>Передняя левая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Mule.components.6.label"><s>Front right suspension</s><r>Передняя правая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Mule.components.7.label"><s>Back left suspension</s><r>Задняя левая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Mule.components.8.label"><s>Back right suspension</s><r>Задняя правая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Mule.description"><s>A basic cargo transport, the Mule is a relatively cheap vehicle that can carry a large amount of cargo across smooth roads of flat terrain. Not recommended to use in the winter season or in snowy terrain, or both, and it is very lightly armoured to save weight.
+
+Similar to other tier 1 vehicles, this is a gas guzzler and best used for medium distances. Unlike other tier 1 vehicles, this one performs better on the world map by being slightly faster and more fuel efficient.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Базовый грузовой транспорт, Мул — относительно дешевое транспортное средство, способное перевозить большое количество грузов по ровным дорогам и равнинной местности. Не рекомендуется использовать зимой или на заснеженной местности, или и то, и другое, и для экономии веса он очень легко бронирован.
+
+Подобно другим машинам 1-го уровня, это пожиратель бензина, который лучше всего использовать на средних дистанциях. В отличие от других транспортных средств уровня 1, этот лучше работает на карте мира, будучи немного быстрее и более экономичным.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Пассажир x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Mule.label"><s>Mule</s><r>Мул</r></e>
+  <e k="D" t="ThingDef" key="VVE_Mule_Blueprint.description"><s>A basic cargo transport, the Mule is a relatively cheap vehicle that can carry a large amount of cargo across smooth roads of flat terrain. Not recommended to use in the winter season or in snowy terrain, or both, and it is very lightly armoured to save weight.
+
+Similar to other tier 1 vehicles, this is a gas guzzler and best used for medium distances. Unlike other tier 1 vehicles, this one performs better on the world map by being slightly faster and more fuel efficient.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Базовый грузовой транспорт, Мул — относительно дешевое транспортное средство, способное перевозить большое количество грузов по ровным дорогам и равнинной местности. Не рекомендуется использовать зимой или на заснеженной местности, или и то, и другое, и для экономии веса он очень легко бронирован.
+
+Подобно другим машинам 1-го уровня, это пожиратель бензина, который лучше всего использовать на средних дистанциях. В отличие от других транспортных средств уровня 1, этот лучше работает на карте мира, будучи немного быстрее и более экономичным.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Пассажир x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Mule_Blueprint.label"><s>Mule</s><r>Мул</r></e>
+  <e k="D" t="ThingDef" key="VVE_Prowler.components.1.label"><s>Front left wheel</s><r>Переднее левое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Prowler.components.10.label"><s>Left side panel</s><r>Левая боковая панель</r></e>
+  <e k="D" t="ThingDef" key="VVE_Prowler.components.11.label"><s>Right side panel</s><r>Правая боковая панель</r></e>
+  <e k="D" t="ThingDef" key="VVE_Prowler.components.13.label"><s>Front bumper</s><r>Передний бампер</r></e>
+  <e k="D" t="ThingDef" key="VVE_Prowler.components.14.label"><s>Rear bumper</s><r>Задний бампер</r></e>
+  <e k="D" t="ThingDef" key="VVE_Prowler.components.17.label"><s>Steering wheel</s><r>Рулевое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Prowler.components.2.label"><s>Front right wheel</s><r>Переднее правое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Prowler.components.3.label"><s>Back left wheel</s><r>Заднее левое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Prowler.components.4.label"><s>Back right wheel</s><r>Заднее правое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Prowler.components.5.label"><s>Front left suspension</s><r>Передняя левая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Prowler.components.6.label"><s>Front right suspension</s><r>Передняя правая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Prowler.components.7.label"><s>Back left suspension</s><r>Задняя левая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Prowler.components.8.label"><s>Back right suspension</s><r>Задняя правая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Prowler.description"><s>A basic off-road exploration vehicle, the Prowler is relatively cheap to construct and is an effective all-weather option for efficient travel over steep terrain. Very lightly armoured with a vulnerable rear-mounted engine, it’s best to keep this single-user automobile away from combat.
+
+Similar to other tier 1 vehicles, this is a gas guzzler and best used for medium distances.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Базовый внедорожник для разведки, Prowler относительно дешев в изготовлении и является эффективным всепогодным вариантом для эффективного передвижения по крутой местности. Очень легкобронированный, с уязвимым задним расположением двигателя, лучше всего держать этот однопользовательский автомобиль подальше от боя.
+
+Подобно другим машинам 1-го уровня, это пожиратель бензина, который лучше всего использовать на средних дистанциях.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Prowler.label"><s>Prowler</s><r>Бродяга</r></e>
+  <e k="D" t="ThingDef" key="VVE_Prowler_Blueprint.description"><s>A basic off-road exploration vehicle, the Prowler is relatively cheap to construct and is an effective all-weather option for efficient travel over steep terrain. Very lightly armoured with a vulnerable rear-mounted engine, it’s best to keep this single-user automobile away from combat.
+
+Similar to other tier 1 vehicles, this is a gas guzzler and best used for medium distances.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Базовый внедорожник для разведки, Prowler относительно дешев в изготовлении и является эффективным всепогодным вариантом для эффективного передвижения по крутой местности. Очень легкобронированный, с уязвимым задним расположением двигателя, лучше всего держать этот однопользовательский автомобиль подальше от боя.
+
+Подобно другим машинам 1-го уровня, это пожиратель бензина, который лучше всего использовать на средних дистанциях.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Prowler_Blueprint.label"><s>Prowler</s><r>Бродяга</r></e>
+  <e k="D" t="ThingDef" key="VVE_RefuelingPump.description"><s>A refueling pump that will automatically refuel chemfuel-powered vehicles standing on the interaction spot. Needs to be filled with chemfuel.</s><r>Заправочный насос, который будет автоматически заправлять транспортные средства, работающие на химтопливе, стоящие на месте взаимодействия. Необходимо заправить химтопливом.</r></e>
+  <e k="D" t="ThingDef" key="VVE_RefuelingPump.label"><s>refueling pump</s><r>заправочный насос</r></e>
+  <e k="D" t="ThingDef" key="VVE_Roadkill.&lt;CompPropsVehicleTurrets&gt;k__BackingField.turrets.0.gizmoLabel"><s>Main turret</s><r>Главная башня</r></e>
+  <e k="D" t="ThingDef" key="VVE_Roadkill.components.1.label"><s>Left track</s><r>Левый путь</r></e>
+  <e k="D" t="ThingDef" key="VVE_Roadkill.components.10.label"><s>Front armor plating</s><r>Передняя броня</r></e>
+  <e k="D" t="ThingDef" key="VVE_Roadkill.components.13.label"><s>Steering apparatus</s><r>Рулевой аппарат</r></e>
+  <e k="D" t="ThingDef" key="VVE_Roadkill.components.2.label"><s>Right track</s><r>Правильный путь</r></e>
+  <e k="D" t="ThingDef" key="VVE_Roadkill.components.3.label"><s>Front left drive sprocket</s><r>Передняя левая ведущая звездочка</r></e>
+  <e k="D" t="ThingDef" key="VVE_Roadkill.components.4.label"><s>Front right drive sprocket</s><r>Передняя правая ведущая звездочка</r></e>
+  <e k="D" t="ThingDef" key="VVE_Roadkill.components.5.label"><s>Back left drive sprocket</s><r>Задняя левая ведущая звездочка</r></e>
+  <e k="D" t="ThingDef" key="VVE_Roadkill.components.6.label"><s>Back right drive sprocket</s><r>Задняя правая ведущая звездочка</r></e>
+  <e k="D" t="ThingDef" key="VVE_Roadkill.components.8.label"><s>Left armor plating</s><r>Левая броня</r></e>
+  <e k="D" t="ThingDef" key="VVE_Roadkill.components.9.label"><s>Right armor plating</s><r>Правая броня</r></e>
+  <e k="D" t="ThingDef" key="VVE_Roadkill.description"><s>A basic medium tank, the Roadkill is a comparatively cheap armoured vehicle suited for short engagements. Very respectfully armoured from frontal attacks, however side attacks can disable movement and the exposed rear-mounted engine makes it vulnerable to flanking.
+
+While other tier 1 vehicles are gas guzzlers, this one burns through fuel at an alarming rate and is extremely slow to repair.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Базовый средний танк Roadkill — сравнительно дешевая бронемашина, подходящая для коротких боев. Очень достойно защищен от лобовых атак, однако боковые атаки могут блокировать движение, а открытый задний двигатель делает его уязвимым для обхода с фланга.
+
+В то время как другие машины уровня 1 являются пожирателями бензина, эта машина сжигает топливо с угрожающей скоростью и очень медленно поддается ремонту.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Roadkill.label"><s>Roadkill</s><r>ДТП</r></e>
+  <e k="D" t="ThingDef" key="VVE_Roadkill_Blueprint.description"><s>A basic medium tank, the Roadkill is a comparatively cheap armoured vehicle suited for short engagements. Very respectfully armoured from frontal attacks, however side attacks can disable movement and the exposed rear-mounted engine makes it vulnerable to flanking.
+
+While other tier 1 vehicles are gas guzzlers, this one burns through fuel at an alarming rate and is extremely slow to repair.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Базовый средний танк Roadkill — сравнительно дешевая бронемашина, подходящая для коротких боев. Очень достойно защищен от лобовых атак, однако боковые атаки могут блокировать движение, а открытый задний двигатель делает его уязвимым для обхода с фланга.
+
+В то время как другие машины уровня 1 являются пожирателями бензина, эта машина сжигает топливо с угрожающей скоростью и очень медленно поддается ремонту.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Roadkill_Blueprint.label"><s>Roadkill</s><r>ДТП</r></e>
+  <e k="D" t="ThingDef" key="VVE_Roadrunner.components.1.label"><s>Front left wheel</s><r>Переднее левое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Roadrunner.components.10.label"><s>Left side panel</s><r>Левая боковая панель</r></e>
+  <e k="D" t="ThingDef" key="VVE_Roadrunner.components.11.label"><s>Right side panel</s><r>Правая боковая панель</r></e>
+  <e k="D" t="ThingDef" key="VVE_Roadrunner.components.13.label"><s>Front bumper</s><r>Передний бампер</r></e>
+  <e k="D" t="ThingDef" key="VVE_Roadrunner.components.14.label"><s>Rear bumper</s><r>Задний бампер</r></e>
+  <e k="D" t="ThingDef" key="VVE_Roadrunner.components.17.label"><s>Steering wheel</s><r>Рулевое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Roadrunner.components.2.label"><s>Front right wheel</s><r>Переднее правое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Roadrunner.components.3.label"><s>Back left wheel</s><r>Заднее левое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Roadrunner.components.4.label"><s>Back right wheel</s><r>Заднее правое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Roadrunner.components.5.label"><s>Front left suspension</s><r>Передняя левая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Roadrunner.components.6.label"><s>Front right suspension</s><r>Передняя правая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Roadrunner.components.7.label"><s>Back left suspension</s><r>Задняя левая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Roadrunner.components.8.label"><s>Back right suspension</s><r>Задняя правая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Roadrunner.description"><s>A general cargo transporter, the Roadrunner is an excellent vehicle for getting a lot of material from one location to another. Best suited on flat roads and will struggle somewhat on hills, snow or winter tiles.
+
+Similar to other tier 2 vehicles, this has double fuel efficiency on the world map which makes them more efficient than tier 1 vehicles. They are also less visible due to improved manufacturing.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Транспортер генеральных грузов Roadrunner — отличное транспортное средство для перевозки большого количества материалов из одного места в другое. Лучше всего подходят для ровных дорог и будут испытывать трудности на холмах, снегу или зимних плитках.
+
+Как и другие машины 2-го уровня, они имеют двойную топливную экономичность на карте мира, что делает их более эффективными, чем машины 1-го уровня. Они также менее заметны из-за улучшенного производства.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Пассажир x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Roadrunner.label"><s>Roadrunner</s><r>Роудраннер</r></e>
+  <e k="D" t="ThingDef" key="VVE_Roadrunner_Blueprint.description"><s>A general cargo transporter, the Roadrunner is an excellent vehicle for getting a lot of material from one location to another. Best suited on flat roads and will struggle somewhat on hills, snow or winter tiles.
+
+Similar to other tier 2 vehicles, this has double fuel efficiency on the world map which makes them more efficient than tier 1 vehicles. They are also less visible due to improved manufacturing.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Транспортер генеральных грузов Roadrunner — отличное транспортное средство для перевозки большого количества материалов из одного места в другое. Лучше всего подходят для ровных дорог и будут испытывать трудности на холмах, снегу или зимних плитках.
+
+Как и другие машины 2-го уровня, они имеют двойную топливную экономичность на карте мира, что делает их более эффективными, чем машины 1-го уровня. Они также менее заметны из-за улучшенного производства.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Пассажир x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Roadrunner_Blueprint.label"><s>Roadrunner</s><r>Роудраннер</r></e>
+  <e k="D" t="ThingDef" key="VVE_Scytheman.&lt;CompPropsVehicleTurrets&gt;k__BackingField.turrets.0.gizmoLabel"><s>Rocket salvo</s><r>Ракетный сейф</r></e>
+  <e k="D" t="ThingDef" key="VVE_Scytheman.components.1.label"><s>Front left wheel</s><r>Переднее левое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Scytheman.components.10.label"><s>Middle right suspension</s><r>Средняя правая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Scytheman.components.11.label"><s>Back left suspension</s><r>Задняя левая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Scytheman.components.12.label"><s>Back right suspension</s><r>Задняя правая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Scytheman.components.14.label"><s>Left side panel</s><r>Левая боковая панель</r></e>
+  <e k="D" t="ThingDef" key="VVE_Scytheman.components.15.label"><s>Right side panel</s><r>Правая боковая панель</r></e>
+  <e k="D" t="ThingDef" key="VVE_Scytheman.components.18.label"><s>Steering wheel</s><r>Рулевое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Scytheman.components.2.label"><s>Front right wheel</s><r>Переднее правое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Scytheman.components.3.label"><s>Middle left wheel</s><r>Среднее левое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Scytheman.components.4.label"><s>Middle right wheel</s><r>Среднее правое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Scytheman.components.5.label"><s>Back left wheel</s><r>Заднее левое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Scytheman.components.6.label"><s>Back right wheel</s><r>Заднее правое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Scytheman.components.7.label"><s>Front left suspension</s><r>Передняя левая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Scytheman.components.8.label"><s>Front right suspension</s><r>Передняя правая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Scytheman.components.9.label"><s>Middle left suspension</s><r>Средняя левая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Scytheman.description"><s>A juryrigged multiple rocket launcher system, the Scytheman is a repurposed farming vehicle intended to saturate a location with inaccurate volleys of explosives. Due to the design, it is not intended to fire successive volleys or be exposed to enemy fire.
+
+Similar to other tier 1 vehicles, this is a gas guzzler and best used for medium distances. Performs worse in the winter but slightly better on the flat, open road.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Система залпового огня «Кос» представляет собой перепрофилированную сельскохозяйственную машину, предназначенную для насыщения локации неточными залпами взрывчатки. Из-за конструкции он не предназначен для ведения последовательных залпов или попадания под огонь противника.
+
+Как и другие машины 1-го уровня, это пожиратель бензина, который лучше всего использовать на средних дистанциях. Зимой ведет себя хуже, но немного лучше на ровной открытой дороге.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Scytheman.label"><s>Scytheman</s><r>Косой</r></e>
+  <e k="D" t="ThingDef" key="VVE_Scytheman_Blueprint.description"><s>A juryrigged multiple rocket launcher system, the Scytheman is a repurposed farming vehicle intended to saturate a location with inaccurate volleys of explosives. Due to the design, it is not intended to fire successive volleys or be exposed to enemy fire.
+
+Similar to other tier 1 vehicles, this is a gas guzzler and best used for medium distances. Performs worse in the winter but slightly better on the flat, open road.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Система залпового огня «Кос» представляет собой перепрофилированную сельскохозяйственную машину, предназначенную для насыщения локации неточными залпами взрывчатки. Из-за конструкции он не предназначен для ведения последовательных залпов или попадания под огонь противника.
+
+Как и другие машины 1-го уровня, это пожиратель бензина, который лучше всего использовать на средних дистанциях. Зимой ведет себя хуже, но немного лучше на ровной открытой дороге.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Scytheman_Blueprint.label"><s>Scytheman</s><r>Косой</r></e>
+  <e k="D" t="ThingDef" key="VVE_Smuggler.components.1.label"><s>Left landing wheel</s><r>Левое посадочное колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Smuggler.components.11.label"><s>Left wing</s><r>Левое крыло</r></e>
+  <e k="D" t="ThingDef" key="VVE_Smuggler.components.12.label"><s>Right wing</s><r>Правое крыло</r></e>
+  <e k="D" t="ThingDef" key="VVE_Smuggler.components.2.label"><s>Right landing wheel</s><r>Правое посадочное колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Smuggler.components.3.label"><s>Central landing wheel</s><r>Центральное посадочное колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Smuggler.components.4.label"><s>Left horizontal stabilizer</s><r>Левый горизонтальный стабилизатор</r></e>
+  <e k="D" t="ThingDef" key="VVE_Smuggler.components.5.label"><s>Right horizontal stabilizer</s><r>Правый горизонтальный стабилизатор</r></e>
+  <e k="D" t="ThingDef" key="VVE_Smuggler.components.6.label"><s>Fuel intake</s><r>Забор топлива</r></e>
+  <e k="D" t="ThingDef" key="VVE_Smuggler.description"><s>A general-purpose aircraft, the Smuggler is an extremely fast and effective mode of transportation. While it is faster and can carry more cargo than helicopters, it requires a landing strip to both take off and land.
+
+Different to other tier 2 vehicles, this has regular fuel efficiency on the world map but moves significantly faster in return.
+
+Being a flying vehicle, it is extremely obvious when on the move.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Pilot x1, Passenger x3
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Самолет общего назначения «Контрабандист» — чрезвычайно быстрый и эффективный вид транспорта. Хотя он быстрее и может перевозить больше груза, чем вертолеты, ему требуется взлетно-посадочная полоса как для взлета, так и для приземления.
+
+В отличие от других транспортных средств уровня 2, он имеет обычную топливную экономичность на карте мира, но взамен движется значительно быстрее.
+
+ Будучи летающим транспортным средством, это чрезвычайно очевидно на карте мира. ход.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Пилот x1, Пассажир x3
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Smuggler.label"><s>Smuggler</s><r>Контрабандист</r></e>
+  <e k="D" t="ThingDef" key="VVE_Smuggler_Blueprint.description"><s>A general-purpose aircraft, the Smuggler is an extremely fast and effective mode of transportation. While it is faster and can carry more cargo than helicopters, it requires a landing strip to both take off and land.
+
+Different to other tier 2 vehicles, this has regular fuel efficiency on the world map but moves significantly faster in return.
+
+Being a flying vehicle, it is extremely obvious when on the move.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Pilot x1, Passenger x3
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Самолет общего назначения «Контрабандист» — чрезвычайно быстрый и эффективный вид транспорта. Хотя он быстрее и может перевозить больше груза, чем вертолеты, ему требуется взлетно-посадочная полоса как для взлета, так и для приземления.
+
+В отличие от других транспортных средств уровня 2, он имеет обычную топливную экономичность на карте мира, но взамен движется значительно быстрее.
+
+ Будучи летающим транспортным средством, это чрезвычайно очевидно на карте мира. ход.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Пилот x1, Пассажир x3
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Smuggler_Blueprint.label"><s>Smuggler</s><r>Контрабандист</r></e>
+  <e k="D" t="ThingDef" key="VVE_Snatcher.components.1.label"><s>Front left wheel</s><r>Переднее левое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Snatcher.components.11.label"><s>Front bumper</s><r>Передний бампер</r></e>
+  <e k="D" t="ThingDef" key="VVE_Snatcher.components.12.label"><s>Rear bumper</s><r>Задний бампер</r></e>
+  <e k="D" t="ThingDef" key="VVE_Snatcher.components.15.label"><s>Steering wheel</s><r>Рулевое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Snatcher.components.2.label"><s>Front right wheel</s><r>Переднее правое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Snatcher.components.3.label"><s>Back left wheel</s><r>Заднее левое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Snatcher.components.4.label"><s>Back right wheel</s><r>Заднее правое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Snatcher.components.5.label"><s>Front left suspension</s><r>Передняя левая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Snatcher.components.6.label"><s>Front right suspension</s><r>Передняя правая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Snatcher.components.8.label"><s>Left side panel</s><r>Левая боковая панель</r></e>
+  <e k="D" t="ThingDef" key="VVE_Snatcher.components.9.label"><s>Right side panel</s><r>Правая боковая панель</r></e>
+  <e k="D" t="ThingDef" key="VVE_Snatcher.description"><s>A general passenger transport, the Snatcher is a solid vehicle for transporting people to different locations. Best suited on flat roads and will seriously struggle in snow or on hills.
+
+Similar to other tier 2 vehicles, this has double fuel efficiency on the world map which makes them more efficient than tier 1 vehicles. They are also less visible due to improved manufacturing.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x5
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Пассажирский транспорт общего назначения Snatcher представляет собой надежное транспортное средство для перевозки людей в разные места. Лучше всего подходят для ровных дорог и будут серьезно бороться с снегом или на холмах.
+
+Как и другие машины 2-го уровня, они имеют двойную топливную экономичность на карте мира, что делает их более эффективными, чем машины 1-го уровня. Они также менее заметны из-за улучшенного производства.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Пассажир x5
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Snatcher.label"><s>Snatcher</s><r>Похититель</r></e>
+  <e k="D" t="ThingDef" key="VVE_Snatcher_Blueprint.description"><s>A general passenger transport, the Snatcher is a solid vehicle for transporting people to different locations. Best suited on flat roads and will seriously struggle in snow or on hills.
+
+Similar to other tier 2 vehicles, this has double fuel efficiency on the world map which makes them more efficient than tier 1 vehicles. They are also less visible due to improved manufacturing.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x5
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Пассажирский транспорт общего назначения Snatcher представляет собой надежное транспортное средство для перевозки людей в разные места. Лучше всего подходят для ровных дорог и будут серьезно бороться с снегом или на холмах.
+
+Как и другие машины 2-го уровня, они имеют двойную топливную экономичность на карте мира, что делает их более эффективными, чем машины 1-го уровня. Они также менее заметны из-за улучшенного производства.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Пассажир x5
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Snatcher_Blueprint.label"><s>Snatcher</s><r>Похититель</r></e>
+  <e k="D" t="ThingDef" key="VVE_Tango.&lt;CompPropsVehicleTurrets&gt;k__BackingField.turrets.0.gizmoLabel"><s>Main turret</s><r>Главная башня</r></e>
+  <e k="D" t="ThingDef" key="VVE_Tango.components.1.label"><s>Left track</s><r>Левый путь</r></e>
+  <e k="D" t="ThingDef" key="VVE_Tango.components.10.label"><s>Right armor plating</s><r>Правая броня</r></e>
+  <e k="D" t="ThingDef" key="VVE_Tango.components.11.label"><s>Rear armor plating</s><r>Задняя броневая обшивка</r></e>
+  <e k="D" t="ThingDef" key="VVE_Tango.components.14.label"><s>Steering apparatus</s><r>Рулевой аппарат</r></e>
+  <e k="D" t="ThingDef" key="VVE_Tango.components.2.label"><s>Right track</s><r>Правильный путь</r></e>
+  <e k="D" t="ThingDef" key="VVE_Tango.components.3.label"><s>Front left drive sprocket</s><r>Передняя левая ведущая звездочка</r></e>
+  <e k="D" t="ThingDef" key="VVE_Tango.components.4.label"><s>Front right drive sprocket</s><r>Передняя правая ведущая звездочка</r></e>
+  <e k="D" t="ThingDef" key="VVE_Tango.components.5.label"><s>Back left drive sprocket</s><r>Задняя левая ведущая звездочка</r></e>
+  <e k="D" t="ThingDef" key="VVE_Tango.components.6.label"><s>Back right drive sprocket</s><r>Задняя правая ведущая звездочка</r></e>
+  <e k="D" t="ThingDef" key="VVE_Tango.components.8.label"><s>Front armor plating</s><r>Передняя броня</r></e>
+  <e k="D" t="ThingDef" key="VVE_Tango.components.9.label"><s>Left armor plating</s><r>Левая броня</r></e>
+  <e k="D" t="ThingDef" key="VVE_Tango.description"><s>A general purpose armoured personnel carrier, the Tango is a slow but hardy troop transport. Ample cargo holds, hardened armour, all-terrain capability and a turret that can fire either mobile or stationary, the main downside is fuel consumption and slightly thinner plating on the rear.
+
+Different to other tier 2 vehicles, this has regular fuel efficiency and is quite visible, its high fuel consumption rate putting a limit on the effective range.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x4
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Бронетранспортер общего назначения «Танго» — медленный, но выносливый десантный транспорт. Обширные грузовые отсеки, усиленная броня, вездеходность и башня, которая может вести огонь как в мобильном, так и в стационарном режиме. Основным недостатком является расход топлива и немного более тонкая обшивка задней части.
+
+В отличие от других машин 2-го уровня, она имеет обычную топливную экономичность и вполне заметна, ее высокий расход топлива ограничивает эффективность дальность действия.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Стрелок x1, Пассажир x4
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Tango.label"><s>Tango</s><r>Танго</r></e>
+  <e k="D" t="ThingDef" key="VVE_Tango_Blueprint.description"><s>A general purpose armoured personnel carrier, the Tango is a slow but hardy troop transport. Ample cargo holds, hardened armour, all-terrain capability and a turret that can fire either mobile or stationary, the main downside is fuel consumption and slightly thinner plating on the rear.
+
+Different to other tier 2 vehicles, this has regular fuel efficiency and is quite visible, its high fuel consumption rate putting a limit on the effective range.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x4
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Бронетранспортер общего назначения «Танго» — медленный, но выносливый десантный транспорт. Обширные грузовые отсеки, усиленная броня, вездеходность и башня, которая может вести огонь как в мобильном, так и в стационарном режиме. Основным недостатком является расход топлива и немного более тонкая обшивка задней части.
+
+В отличие от других машин 2-го уровня, она имеет обычную топливную экономичность и вполне заметна, ее высокий расход топлива ограничивает эффективность дальность действия.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Стрелок x1, Пассажир x4
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Tango_Blueprint.label"><s>Tango</s><r>Танго</r></e>
+  <e k="D" t="ThingDef" key="VVE_TankTrap.description"><s>A defensive fortification for stopping vehicles. Provides small amount of cover and can be walked through on foot, but is not traversable by vehicles.</s><r>Оборонительное укрепление для остановки техники. Обеспечивает небольшое укрытие, по нему можно пройти пешком, но по нему нельзя проехать на транспортных средствах.</r></e>
+  <e k="D" t="ThingDef" key="VVE_TankTrap.label"><s>tank trap</s><r>танк-ловушка</r></e>
+  <e k="D" t="ThingDef" key="VVE_Toad.&lt;CompPropsVehicleTurrets&gt;k__BackingField.turrets.0.gizmoLabel"><s>Main turret</s><r>Главная башня</r></e>
+  <e k="D" t="ThingDef" key="VVE_Toad.components.1.label"><s>First thruster</s><r>Первый двигатель</r></e>
+  <e k="D" t="ThingDef" key="VVE_Toad.components.2.label"><s>Second thruster</s><r>Второе подруливающее устройство</r></e>
+  <e k="D" t="ThingDef" key="VVE_Toad.components.3.label"><s>Third thruster</s><r>Третий двигатель</r></e>
+  <e k="D" t="ThingDef" key="VVE_Toad.components.4.label"><s>Fourth thruster</s><r>Четвертый двигатель</r></e>
+  <e k="D" t="ThingDef" key="VVE_Toad.description"><s>A squad and mortar deployment pod, the Toad is a somewhat expensive vehicle to quickly mount a siege on a nearby locale without exposing your gunners to danger. With more armour than a tank and a design made to be deployed from orbit, it makes for a semi-disposable assault vehicle.
+
+Fuel efficiency is not the design of this vehicle, consider only deploying on short distances with enough fuel to make it back.
+
+Being a flying vehicle, it is extremely obvious when on the move.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Operator x1, Passenger x3
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Модуль для развертывания отделения и минометов, «Жаба» — довольно дорогое транспортное средство, позволяющее быстро организовать осаду близлежащего региона, не подвергая опасности своих артиллеристов. Обладая большей броней, чем у танка, и конструкцией, предназначенной для развертывания с орбиты, он представляет собой полуразовую боевую машину.
+
+Эффективность использования топлива не является конструкцией этой машины, рассмотрите возможность развертывания только на коротких дистанциях с достаточным количеством топлива, чтобы вернуться обратно.
+
+ Будучи летающим транспортным средством, это чрезвычайно очевидно, когда он находится на ход.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Оператор x1, Пассажир x3
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Toad.label"><s>Toad</s><r>Жаба</r></e>
+  <e k="D" t="ThingDef" key="VVE_Toad_Blueprint.description"><s>A squad and mortar deployment pod, the Toad is a somewhat expensive vehicle to quickly mount a siege on a nearby locale without exposing your gunners to danger. With more armour than a tank and a design made to be deployed from orbit, it makes for a semi-disposable assault vehicle.
+
+Fuel efficiency is not the design of this vehicle, consider only deploying on short distances with enough fuel to make it back.
+
+Being a flying vehicle, it is extremely obvious when on the move.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Operator x1, Passenger x3
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Модуль для развертывания отделения и минометов, «Жаба» — довольно дорогое транспортное средство, позволяющее быстро организовать осаду близлежащего региона, не подвергая опасности своих артиллеристов. Обладая большей броней, чем у танка, и конструкцией, предназначенной для развертывания с орбиты, он представляет собой полуразовую боевую машину.
+
+Эффективность использования топлива не является конструкцией этой машины, рассмотрите возможность развертывания только на коротких дистанциях с достаточным количеством топлива, чтобы вернуться обратно.
+
+ Будучи летающим транспортным средством, это чрезвычайно очевидно, когда он находится на ход.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Оператор x1, Пассажир x3
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Toad_Blueprint.label"><s>Toad</s><r>Жаба</r></e>
+  <e k="D" t="ThingDef" key="VVE_Traveller.components.1.label"><s>Front left wheel</s><r>Переднее левое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Traveller.components.10.label"><s>Left side panel</s><r>Левая боковая панель</r></e>
+  <e k="D" t="ThingDef" key="VVE_Traveller.components.11.label"><s>Right side panel</s><r>Правая боковая панель</r></e>
+  <e k="D" t="ThingDef" key="VVE_Traveller.components.13.label"><s>Front bumper</s><r>Передний бампер</r></e>
+  <e k="D" t="ThingDef" key="VVE_Traveller.components.14.label"><s>Rear bumper</s><r>Задний бампер</r></e>
+  <e k="D" t="ThingDef" key="VVE_Traveller.components.17.label"><s>Steering wheel</s><r>Рулевое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Traveller.components.2.label"><s>Front right wheel</s><r>Переднее правое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Traveller.components.3.label"><s>Back left wheel</s><r>Заднее левое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Traveller.components.4.label"><s>Back right wheel</s><r>Заднее правое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Traveller.components.5.label"><s>Front left suspension</s><r>Передняя левая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Traveller.components.6.label"><s>Front right suspension</s><r>Передняя правая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Traveller.components.7.label"><s>Back left suspension</s><r>Задняя левая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Traveller.components.8.label"><s>Back right suspension</s><r>Задняя правая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Traveller.description"><s>A basic road vehicle suited for flat terrain, the Traveller is a relatively cheap and fast option that still performs quite amicably in cold weather and snowy conditions. The light armour and exposed front-mounted engine leans to its cadence of running away from trouble rather than towards it.
+
+Similar to other tier 1 vehicles, this is a gas guzzler and best used for medium distances. The extra speed and acceleration make it even less fuel-efficient as well as more time-consuming to repair.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Базовый дорожный автомобиль, подходящий для равнинной местности, Traveler — относительно дешевый и быстрый вариант, который по-прежнему довольно дружно ведет себя в холодную погоду и в снежную погоду. Легкая броня и открытый передний двигатель позволяют ему убегать от неприятностей, а не приближаться к ним.
+
+Подобно другим машинам первого уровня, это пожиратель бензина, который лучше всего использовать на средних дистанциях. Дополнительная скорость и ускорение делают его еще менее экономичным, а также требуют больше времени на ремонт.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Пассажир x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Traveller.label"><s>Traveller</s><r>Путешественник</r></e>
+  <e k="D" t="ThingDef" key="VVE_Traveller_Blueprint.description"><s>A basic road vehicle suited for flat terrain, the Traveller is a relatively cheap and fast option that still performs quite amicably in cold weather and snowy conditions. The light armour and exposed front-mounted engine leans to its cadence of running away from trouble rather than towards it.
+
+Similar to other tier 1 vehicles, this is a gas guzzler and best used for medium distances. The extra speed and acceleration make it even less fuel-efficient as well as more time-consuming to repair.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Базовый дорожный автомобиль, подходящий для равнинной местности, Traveler — относительно дешевый и быстрый вариант, который по-прежнему довольно дружно ведет себя в холодную погоду и в снежную погоду. Легкая броня и открытый передний двигатель позволяют ему убегать от неприятностей, а не приближаться к ним.
+
+Подобно другим машинам первого уровня, это пожиратель бензина, который лучше всего использовать на средних дистанциях. Дополнительная скорость и ускорение делают его еще менее экономичным, а также требуют больше времени на ремонт.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Пассажир x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Traveller_Blueprint.label"><s>Traveller</s><r>Путешественник</r></e>
+  <e k="D" t="ThingDef" key="VVE_Trawler.components.1.label"><s>Left side panel</s><r>Левая боковая панель</r></e>
+  <e k="D" t="ThingDef" key="VVE_Trawler.components.2.label"><s>Right side panel</s><r>Правая боковая панель</r></e>
+  <e k="D" t="ThingDef" key="VVE_Trawler.description"><s>A general-purpose boat, the Trawler is an effective long distance transportation across open waters. Performs rather poorly on rivers and has to travel slowly during the winter season.
+
+Similar to other tier 2 vehicles, this has double fuel efficiency on the world map which makes them more efficient than tier 1 vehicles. They are also less visible due to improved manufacturing.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Лодка общего назначения «Траулер» представляет собой эффективное средство передвижения на дальние расстояния по открытой воде. Довольно плохо ведет себя на реках, и в зимний сезон приходится передвигаться медленно.
+
+Как и другие машины 2-го уровня, они имеют двойную топливную экономичность на карте мира, что делает их более эффективными, чем машины 1-го уровня. Они также менее заметны из-за улучшенного производства.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Пассажир x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Trawler.label"><s>Trawler</s><r>Траулер</r></e>
+  <e k="D" t="ThingDef" key="VVE_Trawler_Blueprint.description"><s>A general-purpose boat, the Trawler is an effective long distance transportation across open waters. Performs rather poorly on rivers and has to travel slowly during the winter season.
+
+Similar to other tier 2 vehicles, this has double fuel efficiency on the world map which makes them more efficient than tier 1 vehicles. They are also less visible due to improved manufacturing.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Лодка общего назначения «Траулер» представляет собой эффективное средство передвижения на дальние расстояния по открытой воде. Довольно плохо ведет себя на реках, и в зимний сезон приходится передвигаться медленно.
+
+Как и другие машины 2-го уровня, они имеют двойную топливную экономичность на карте мира, что делает их более эффективными, чем машины 1-го уровня. Они также менее заметны из-за улучшенного производства.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Пассажир x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Trawler_Blueprint.label"><s>Trawler</s><r>Траулер</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wagon.components.1.label"><s>Front left wheel</s><r>Переднее левое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wagon.components.10.label"><s>Left side panel</s><r>Левая боковая панель</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wagon.components.11.label"><s>Right side panel</s><r>Правая боковая панель</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wagon.components.13.label"><s>Front bumper</s><r>Передний бампер</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wagon.components.14.label"><s>Rear bumper</s><r>Задний бампер</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wagon.components.17.label"><s>Steering wheel</s><r>Рулевое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wagon.components.2.label"><s>Front right wheel</s><r>Переднее правое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wagon.components.3.label"><s>Back left wheel</s><r>Заднее левое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wagon.components.4.label"><s>Back right wheel</s><r>Заднее правое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wagon.components.5.label"><s>Front left suspension</s><r>Передняя левая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wagon.components.6.label"><s>Front right suspension</s><r>Передняя правая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wagon.components.7.label"><s>Back left suspension</s><r>Задняя левая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wagon.components.8.label"><s>Back right suspension</s><r>Задняя правая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wagon.description"><s>A general all-rounder vehicle, the Wagon performs well in all categories with a good cargo and passenger capacity. Best suited on flat roads and will struggle somewhat on hills, snow or winter tiles.
+
+Similar to other tier 2 vehicles, this has double fuel efficiency on the world map which makes them more efficient than tier 1 vehicles. They are also less visible due to improved manufacturing.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x3
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Универсальный автомобиль Wagon хорошо работает во всех категориях, обладая хорошей грузо- и пассажироподъемностью. Лучше всего подходят для ровных дорог и будут испытывать трудности на холмах, снегу или зимних плитках.
+
+Как и другие машины 2-го уровня, они имеют двойную топливную экономичность на карте мира, что делает их более эффективными, чем машины 1-го уровня. Они также менее заметны из-за улучшенного производства.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Пассажир x3
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wagon.label"><s>Wagon</s><r>Вагон</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wagon_Blueprint.description"><s>A general all-rounder vehicle, the Wagon performs well in all categories with a good cargo and passenger capacity. Best suited on flat roads and will struggle somewhat on hills, snow or winter tiles.
+
+Similar to other tier 2 vehicles, this has double fuel efficiency on the world map which makes them more efficient than tier 1 vehicles. They are also less visible due to improved manufacturing.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x3
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Универсальный автомобиль Wagon хорошо работает во всех категориях, обладая хорошей грузо- и пассажироподъемностью. Лучше всего подходят для ровных дорог и будут испытывать трудности на холмах, снегу или зимних плитках.
+
+Как и другие машины 2-го уровня, они имеют двойную топливную экономичность на карте мира, что делает их более эффективными, чем машины 1-го уровня. Они также менее заметны из-за улучшенного производства.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Пассажир x3
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wagon_Blueprint.label"><s>Wagon</s><r>Вагон</r></e>
+  <e k="D" t="ThingDef" key="VVE_Warbird.components.1.label"><s>Left landing wheel</s><r>Левое посадочное колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Warbird.components.11.label"><s>Left wing</s><r>Левое крыло</r></e>
+  <e k="D" t="ThingDef" key="VVE_Warbird.components.12.label"><s>Right wing</s><r>Правое крыло</r></e>
+  <e k="D" t="ThingDef" key="VVE_Warbird.components.2.label"><s>Right landing wheel</s><r>Правое посадочное колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Warbird.components.3.label"><s>Central landing wheel</s><r>Центральное посадочное колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Warbird.components.4.label"><s>Left horizontal stabilizer</s><r>Левый горизонтальный стабилизатор</r></e>
+  <e k="D" t="ThingDef" key="VVE_Warbird.components.5.label"><s>Right horizontal stabilizer</s><r>Правый горизонтальный стабилизатор</r></e>
+  <e k="D" t="ThingDef" key="VVE_Warbird.components.6.label"><s>Fuel intake</s><r>Забор топлива</r></e>
+  <e k="D" t="ThingDef" key="VVE_Warbird.description"><s>A general-purpose fighter plane, the Warbird is an incredibly fast and effective attack craft. With minimal cargo intended for holding maintenance equipment and fuel, its primary purpose is to engage other aircraft and initiate strafing manoeuvres.
+
+Different to other tier 2 vehicles, this has regular fuel efficiency on the world map but moves significantly faster in return.
+
+Being a flying vehicle, it is extremely obvious when on the move.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Pilot x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Универсальный истребитель Warbird — невероятно быстрый и эффективный штурмовик. При минимальном объеме груза, предназначенного для хранения оборудования и топлива для технического обслуживания, его основная цель — вступить в бой с другими самолетами и инициировать маневры по обстрелу.
+
+В отличие от других транспортных средств уровня 2, он имеет обычную топливную экономичность на карте мира, но взамен движется значительно быстрее.
+
+ Будучи летающим транспортным средством, это чрезвычайно очевидно на карте мира. ход.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Пилот x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Warbird.label"><s>Warbird</s><r>Боевая птица</r></e>
+  <e k="D" t="ThingDef" key="VVE_Warbird_Blueprint.description"><s>A general-purpose fighter plane, the Warbird is an incredibly fast and effective attack craft. With minimal cargo intended for holding maintenance equipment and fuel, its primary purpose is to engage other aircraft and initiate strafing manoeuvres.
+
+Different to other tier 2 vehicles, this has regular fuel efficiency on the world map but moves significantly faster in return.
+
+Being a flying vehicle, it is extremely obvious when on the move.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Pilot x1
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Универсальный истребитель Warbird — невероятно быстрый и эффективный штурмовик. При минимальном объеме груза, предназначенного для хранения оборудования и топлива для технического обслуживания, его основная цель — вступить в бой с другими самолетами и инициировать маневры по обстрелу.
+
+В отличие от других транспортных средств уровня 2, он имеет обычную топливную экономичность на карте мира, но взамен движется значительно быстрее.
+
+ Будучи летающим транспортным средством, это чрезвычайно очевидно на карте мира. ход.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Пилот x1
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Warbird_Blueprint.label"><s>Warbird</s><r>Боевая птица</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent.components.1.label"><s>Front left wheel</s><r>Переднее левое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent.components.10.label"><s>Middle right suspension</s><r>Средняя правая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent.components.11.label"><s>Back left suspension</s><r>Задняя левая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent.components.12.label"><s>Back right suspension</s><r>Задняя правая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent.components.14.label"><s>Left side panel</s><r>Левая боковая панель</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent.components.15.label"><s>Right side panel</s><r>Правая боковая панель</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent.components.16.label"><s>Left chemtank</s><r>Левый химтанк</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent.components.17.label"><s>Right chemtank</s><r>Правый химтанк</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent.components.18.label"><s>Left back panel</s><r>Левая задняя панель</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent.components.19.label"><s>Right back panel</s><r>Правая задняя панель</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent.components.2.label"><s>Front right wheel</s><r>Переднее правое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent.components.20.label"><s>Front bumper</s><r>Передний бампер</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent.components.21.label"><s>Rear bumper</s><r>Задний бампер</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent.components.24.label"><s>Steering wheel</s><r>Рулевое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent.components.3.label"><s>Middle left wheel</s><r>Среднее левое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent.components.4.label"><s>Middle right wheel</s><r>Среднее правое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent.components.5.label"><s>Back left wheel</s><r>Заднее левое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent.components.6.label"><s>Back right wheel</s><r>Заднее правое колесо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent.components.7.label"><s>Front left suspension</s><r>Передняя левая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent.components.8.label"><s>Front right suspension</s><r>Передняя правая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent.components.9.label"><s>Middle left suspension</s><r>Средняя левая подвеска</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent.description"><s>A military-grade all-purpose transporter, the Wisent is a powerful truck capable of transporting both plentiful cargo and soldiers into hostile territory. Terrible fuel economy, however it can quickly navigate through rough terrain.
+
+Counter to other tier 2 vehicles, this is less efficient but more effective when travelling away from roads. Passengers sitting in the back will be exposed to enemy fire and the armour plating is only suited for minimal small arms fire.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x7
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Универсальный транспортер военного уровня Wisent — мощный грузовик, способный перевозить как большое количество грузов, так и солдат на вражескую территорию. Ужасная экономия топлива, однако он может быстро перемещаться по пересеченной местности.
+
+В отличие от других транспортных средств 2-го уровня, это менее эффективно, но более эффективно при движении вдали от дорог. Пассажиры, сидящие сзади, будут подвергаться вражескому огню, а броня пригодна только для минимального огня из стрелкового оружия.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Пассажир x7
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent.label"><s>Wisent</s><r>Бизон</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent.properties.roles.1.label"><s>passenger 1</s><r>пассажир 1</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent.properties.roles.2.label"><s>passenger 2</s><r>пассажир 2</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent.properties.roles.3.label"><s>passenger 3</s><r>пассажир 3</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent.properties.roles.4.label"><s>passenger 4</s><r>пассажир 4</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent.properties.roles.5.label"><s>passenger 5</s><r>пассажир 5</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent.properties.roles.6.label"><s>passenger 6</s><r>пассажир 6</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent.properties.roles.7.label"><s>passenger 7</s><r>пассажир 7</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent.properties.roles.8.label"><s>passenger 8</s><r>пассажир 8</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent.properties.roles.9.label"><s>passenger 9</s><r>пассажир 9</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent_Blueprint.description"><s>A military-grade all-purpose transporter, the Wisent is a powerful truck capable of transporting both plentiful cargo and soldiers into hostile territory. Terrible fuel economy, however it can quickly navigate through rough terrain.
+
+Counter to other tier 2 vehicles, this is less efficient but more effective when travelling away from roads. Passengers sitting in the back will be exposed to enemy fire and the armour plating is only suited for minimal small arms fire.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x7
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Универсальный транспортер военного уровня Wisent — мощный грузовик, способный перевозить как большое количество грузов, так и солдат на вражескую территорию. Ужасная экономия топлива, однако он может быстро перемещаться по пересеченной местности.
+
+В отличие от других транспортных средств 2-го уровня, это менее эффективно, но более эффективно при движении вдали от дорог. Пассажиры, сидящие сзади, будут подвергаться вражескому огню, а броня пригодна только для минимального огня из стрелкового оружия.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Пассажир x7
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="VVE_Wisent_Blueprint.label"><s>Wisent</s><r>Бизон</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Driving_Approved.stages.0.description"><s>I was in a land vehicle. I loved it.</s><r>Я был в наземном транспортном средстве. Мне это понравилось.</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Driving_Approved.stages.0.label"><s>drove a land vehicle</s><r>водил наземный транспорт</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Driving_Horrible.stages.0.description"><s>I was in a land vehicle. It was horrible.</s><r>Я был в наземном транспортном средстве. Это было ужасно.</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Driving_Horrible.stages.0.label"><s>drove a land vehicle</s><r>водил наземный транспорт</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Driving_Required.stages.0.description"><s>It has been a lil while since I've been at the wheel of a land vehicle.</s><r>Давненько я не сидел за рулем наземного транспорта.</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Driving_Required.stages.0.label"><s>roadrage (more than 1 day)</s><r>дорожное происшествие (более 1 дня)</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Driving_Required.stages.1.description"><s>I need to drive, I'm getting very antsy.</s><r>Мне нужно водить машину, я очень нервничаю.</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Driving_Required.stages.1.label"><s>roadrage (more than 5 days)</s><r>дорожно-транспортное происшествие (более 5 дней)</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Driving_Required.stages.2.description"><s>Enough is enough, I'm feeling the call of the road! I want to drive!</s><r>Хватит, я чувствую зов дороги! Я хочу водить машину!</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Driving_Required.stages.2.label"><s>roadrage (more than 10 days)</s><r>дорожно-транспортное происшествие (более 10 дней)</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Driving_Required.stages.3.description"><s>I AM THE ONE THAT RUNS FROM BOTH THE LIVING AND THE DEAD! GIVE ME MY CAR!</s><r>Я ТО, КОТОРЫЙ БЕГИТ ОТ ЖИВЫХ И МЕРТВЫХ! ДАЙ МНЕ МАШИНУ!</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Driving_Required.stages.3.label"><s>roadrage (more than 20 days)</s><r>дорожное происшествие (более 20 дней)</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Flying_Approved.stages.0.description"><s>I was in an air vehicle. I loved it.</s><r>Я был в воздушном транспортном средстве. Мне это понравилось.</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Flying_Approved.stages.0.label"><s>boarded an air vehicle</s><r>сел в летательный аппарат</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Flying_Horrible.stages.0.description"><s>I was in a flying vehicle. It was horrible.</s><r>Я был в летающем аппарате. Это было ужасно.</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Flying_Horrible.stages.0.label"><s>boarded an air vehicle</s><r>сел в летательный аппарат</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Flying_Required.stages.0.description"><s>It has been a lil while since I've soared the skies.</s><r>Прошло немного времени с тех пор, как я парил в небе.</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Flying_Required.stages.0.label"><s>aerophilia (more than 1 day)</s><r>аэрофилия (более 1 дня)</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Flying_Required.stages.1.description"><s>I need to fly, I'm getting very antsy.</s><r>Мне нужно лететь, я очень нервничаю.</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Flying_Required.stages.1.label"><s>aerophilia (more than 5 days)</s><r>аэрофилия (более 5 дней)</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Flying_Required.stages.2.description"><s>Enough is enough, I'm feeling the call of the open skies! I want to fly!</s><r>Хватит, я чувствую зов открытого неба! Я хочу летать!</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Flying_Required.stages.2.label"><s>aerophilia (more than 10 days)</s><r>аэрофилия (более 10 дней)</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Flying_Required.stages.3.description"><s>ICARUS FLEW TOO CLOSE TO THE SUN, BUT I'M GONNA CATAPULT YOU THERE IF I CAN'T FLY SOON!</s><r>ИКАРУС ПРОЛЕТ СЛИШКОМ БЛИЗКО К СОЛНЦУ, НО Я КАТАПУЛИРУЮ ТЕБЯ ТУДА, ЕСЛИ НЕ МОГУ СКОРО ЛЕТАТЬ!</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Flying_Required.stages.3.label"><s>aerophilia (more than 20 days)</s><r>аэрофилия (более 20 дней)</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_NeedRoomSize_Horrible.stages.0.description"><s>This space is so tiny. I feel like a rat in a cage.</s><r>Это пространство такое крошечное. Я чувствую себя крысой в клетке.</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_NeedRoomSize_Horrible.stages.0.label"><s>confined interior</s><r>ограниченный интерьер</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_NeedRoomSize_Horrible.stages.1.description"><s>This room is too small. I wish I had more space to move around and breathe.</s><r>Этот номер слишком тесный. Мне бы хотелось иметь больше места, чтобы двигаться и дышать.</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_NeedRoomSize_Horrible.stages.1.label"><s>cramped interior</s><r>тесный салон</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_NeedRoomSize_Horrible.stages.2.description"><s>This room is so expansive, I feel free.</s><r>Эта комната настолько просторная, что я чувствую себя свободным.</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_NeedRoomSize_Horrible.stages.2.label"><s>spacious interior</s><r>просторный салон</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Sailing_Approved.stages.0.description"><s>I was in a sea vessel. I loved it.</s><r>Я был на морском судне. Мне это понравилось.</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Sailing_Approved.stages.0.label"><s>sailed in a sea vessel</s><r>плыл на морском судне</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Sailing_Horrible.stages.0.description"><s>I was in a sailing vehicle. It was horrible</s><r>Я был на паруснике. Это было ужасно</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Sailing_Horrible.stages.0.label"><s>sailed in a sea vessel</s><r>плыл на морском судне</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Sailing_Required.stages.0.description"><s>It has been a lil while since I've ridden the waves.</s><r>Прошло немного времени с тех пор, как я катался на волнах.</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Sailing_Required.stages.0.label"><s>sirens' call (more than 1 day)</s><r>вызов сирен (более 1 дня)</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Sailing_Required.stages.1.description"><s>I need to sail, I'm getting very antsy.</s><r>Мне нужно плыть, я очень нервничаю.</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Sailing_Required.stages.1.label"><s>sirens' call (more than 5 days)</s><r>вызов сирен (более 5 дней)</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Sailing_Required.stages.2.description"><s>Enough is enough, I'm feeling the call of the open seas! I want to sail!</s><r>Хватит, я чувствую зов открытого моря! Я хочу плыть!</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Sailing_Required.stages.2.label"><s>sirens' call (more than 10 days)</s><r>вызов сирен (более 10 дней)</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Sailing_Required.stages.3.description"><s>I AM THE MASTER OF MY FATE! I AM THE CAPTAIN OF MY SOUL! I MUST SAIL THE SEAS!</s><r>Я ХОЗЯИН СВОЕЙ СУДЬБЫ! Я КАПИТАН СВОЕЙ ДУШИ! Я ДОЛЖЕН ПЕРЕПЛАВАТЬ ПО МОРЯМ!</r></e>
+  <e k="D" t="ThoughtDef" key="VVE_Sailing_Required.stages.3.label"><s>sirens' call (more than 20 days)</s><r>вызов сирен (более 20 дней)</r></e>
+  <e k="D" t="VehicleStatDef" key="AccelerationRate.description"><s>The rate at which the car accelerate, in cells per second. Higher rate means the vehicle will accelerate to its maximum speed faster. This also affects deceleration rate, which is double the acceleration rate.</s><r>Скорость, с которой автомобиль ускоряется, в ячейках в секунду. Более высокая скорость означает, что автомобиль будет быстрее разгоняться до максимальной скорости. Это также влияет на скорость замедления, которая вдвое превышает скорость ускорения.</r></e>
+  <e k="D" t="VehicleStatDef" key="AccelerationRate.formatString"><s>{0} c/s²</s><r>{0} к/с²</r></e>
+  <e k="D" t="VehicleStatDef" key="AccelerationRate.label"><s>Acceleration rate</s><r>Скорость ускорения</r></e>
+  <e k="D" t="VehicleTurretDef" key="Bulldog_MainTurret.description"><s>A large, long range cannon capable of firing explosive shells over medium distance. Usually mounted on Bulldog tanks.</s><r>Большая дальнобойная пушка, способная стрелять разрывными снарядами на средние дистанции. Обычно устанавливается на танки Bulldog.</r></e>
+  <e k="D" t="VehicleTurretDef" key="Bulldog_MainTurret.fireModes.0.label"><s>Single Shot</s><r>Одиночный выстрел</r></e>
+  <e k="D" t="VehicleTurretDef" key="Bulldog_MainTurret.gizmoDescription"><s>Select a target.
+
+Fire for effect.</s><r>Выберите цель.
+
+Стреляйте по эффекту.</r></e>
+  <e k="D" t="VehicleTurretDef" key="Bulldog_MainTurret.label"><s>bulldog cannon</s><r>бульдог-пушка</r></e>
+  <e k="D" t="VehicleTurretDef" key="Highwayman_MainTurret.description"><s>A lightly-armored twin-linked miniturret cannon. Usually mounted on Highwaymen armored personnel carriers. Needs to be reloaded with steel. Can only fire over short range, but doesn’t have any issues with firing at enemies that engage the vehicle in melee.</s><r>Легкобронированная спаренная минитурельная пушка. Обычно устанавливается на бронетранспортеры Highwaymen. Необходимо перезарядить сталь. Может вести огонь только на коротких дистанциях, но не имеет проблем со стрельбой по врагам, которые вступили в бой с машиной в ближнем бою.</r></e>
+  <e k="D" t="VehicleTurretDef" key="Highwayman_MainTurret.gizmoDescription"><s>Select a target.
+
+Fire for effect.</s><r>Выберите цель.
+
+Стреляйте по эффекту.</r></e>
+  <e k="D" t="VehicleTurretDef" key="Highwayman_MainTurret.label"><s>highwayman turret</s><r>разбойник турель</r></e>
+  <e k="D" t="VehicleTurretDef" key="Roadkill_MainTurret.description"><s>A cannon capable of firing explosive tank shells over medium distance. Usually mounted on Roadkill tanks. Needs to be reloaded with steel. Can’t fire whilst moving. Has a decent range, but can’t target enemies too close.</s><r>Пушка, способная стрелять разрывными танковыми снарядами на среднюю дистанцию. Обычно устанавливается на танки Roadkill. Необходимо перезарядить сталь. Невозможно стрелять во время движения. Имеет приличную дальность действия, но не может атаковать врагов слишком близко.</r></e>
+  <e k="D" t="VehicleTurretDef" key="Roadkill_MainTurret.fireModes.0.label"><s>Single Shot</s><r>Одиночный выстрел</r></e>
+  <e k="D" t="VehicleTurretDef" key="Roadkill_MainTurret.gizmoDescription"><s>Select a target.
+
+Fire for effect.</s><r>Выберите цель.
+
+Стреляйте по эффекту.</r></e>
+  <e k="D" t="VehicleTurretDef" key="Roadkill_MainTurret.label"><s>roadkill cannon</s><r>дорожно-транспортная пушка</r></e>
+  <e k="D" t="VehicleTurretDef" key="Scytheman_MainTurret.description"><s>An inaccurate launcher capable of firing two barrages of rockets covering a large area. The turret does not fire until someone orders it to fire. It is very effective against large groups of weaker combatants, but less effective against small numbers of armored targets. Extensive firing may overheat and disable the turret.</s><r>Неточная пусковая установка, способная произвести два залпа ракет, охватывающих большую площадь. Турель не стреляет, пока кто-нибудь не прикажет ей стрелять. Он очень эффективен против больших групп более слабых бойцов, но менее эффективен против небольшого количества бронированных целей. Интенсивная стрельба может привести к перегреву и выводу башни из строя.</r></e>
+  <e k="D" t="VehicleTurretDef" key="Scytheman_MainTurret.gizmoDescription"><s>Select a target.
+
+Fire for effect.</s><r>Выберите цель.
+
+Стреляйте по эффекту.</r></e>
+  <e k="D" t="VehicleTurretDef" key="Scytheman_MainTurret.label"><s>Rocket swarm turret</s><r>Ракетная турель</r></e>
+  <e k="D" t="VehicleTurretDef" key="Tango_MainTurret.description"><s>A heavy automatic turret mounted on a Tango APC. Its large-caliber shells do heavy damage over significant ranges, but it’s inaccurate and uses up a lot of ammo.</s><r>Тяжелая автоматическая турель, установленная на БТР Tango. Его крупнокалиберные снаряды наносят большой урон на значительных дистанциях, но они неточны и расходуют много боеприпасов.</r></e>
+  <e k="D" t="VehicleTurretDef" key="Tango_MainTurret.gizmoDescription"><s>Select a target.
+
+Fire for effect.</s><r>Выберите цель.
+
+Стреляйте по эффекту.</r></e>
+  <e k="D" t="VehicleTurretDef" key="Tango_MainTurret.label"><s>tango autocannon</s><r>танго автопушка</r></e>
+  <e k="D" t="VehicleTurretDef" key="Toad_MainTurret.description"><s>A mortar turret that launches all kinds of shells, typically mounted on Toad siege pods. While it can inflict devastating damage, the mortar's inherent inaccuracy makes it more useful for attacking large fortifications than groups of enemies in the field.</s><r>Минометная турель, запускающая все виды снарядов, обычно устанавливается на осадных капсулах «Жаба». Хотя он может нанести разрушительный урон, присущая миномету неточность делает его более полезным для атаки крупных укреплений, чем групп врагов в поле.</r></e>
+  <e k="D" t="VehicleTurretDef" key="Toad_MainTurret.gizmoDescription"><s>Select a target.
+
+Fire for effect.</s><r>Выберите цель.
+
+Стреляйте по эффекту.</r></e>
+  <e k="D" t="VehicleTurretDef" key="Toad_MainTurret.label"><s>toad artillery</s><r>жабья артиллерия</r></e>
+  <e k="D" t="VehicleTurretDef" key="VVE_Bunsen_MainTurret.description"><s>A lightly-armored medium range flamethrower turret usually mounted on bunsen tanks. Takes fuel directly from the chemtank of the vehicle. Quite devastating against infantry, bunsen flamethrower struggles against armored targets.</s><r>Легкобронированная огнеметная башня средней дальности, обычно устанавливаемая на танки Бунзена. Забирает топливо непосредственно из химбака автомобиля. Достаточно разрушительно действует против пехоты, огнемет Бунзена борется с бронированными целями.</r></e>
+  <e k="D" t="VehicleTurretDef" key="VVE_Bunsen_MainTurret.gizmoDescription"><s>Select a target.
+
+Fire for effect.</s><r>Выберите цель.
+
+Стреляйте по эффекту.</r></e>
+  <e k="D" t="VehicleTurretDef" key="VVE_Bunsen_MainTurret.label"><s>bunsen flamethrower</s><r>огнемет Бунзена</r></e>
+  <e k="D" t="WorkGiverDef" key="VVE_CloseGarages.gerund"><s>closing garage</s><r>закрытие гаража</r></e>
+  <e k="D" t="WorkGiverDef" key="VVE_CloseGarages.label"><s>close garages</s><r>закрыть гаражи</r></e>
+  <e k="D" t="WorkGiverDef" key="VVE_CloseGarages.verb"><s>close garage</s><r>закрыть гараж</r></e>
+  <e k="D" t="WorkGiverDef" key="VVE_DoBillsGarageBench.gerund"><s>working at</s><r>работаю в</r></e>
+  <e k="D" t="WorkGiverDef" key="VVE_DoBillsGarageBench.label"><s>make things at garage bench</s><r>делать вещи на скамейке в гараже</r></e>
+  <e k="D" t="WorkGiverDef" key="VVE_DoBillsGarageBench.verb"><s>work</s><r>работа</r></e>
+  <e k="D" t="WorkGiverDef" key="VVE_OpenGarages.gerund"><s>opening garage</s><r>открытие гаража</r></e>
+  <e k="D" t="WorkGiverDef" key="VVE_OpenGarages.label"><s>open garages</s><r>открытые гаражи</r></e>
+  <e k="D" t="WorkGiverDef" key="VVE_OpenGarages.verb"><s>open garage</s><r>открытый гараж</r></e>
+  <e k="D" t="WorkGiverDef" key="VVE_RestoreWreck.gerund"><s>restoring</s><r>восстановление</r></e>
+  <e k="D" t="WorkGiverDef" key="VVE_RestoreWreck.label"><s>restore vehicle wrecks</s><r>восстанавливать остатки автомобилей</r></e>
+  <e k="D" t="WorkGiverDef" key="VVE_RestoreWreck.verb"><s>restore</s><r>восстановить</r></e>
+  <e k="K" key="VVE_AccelerationHigh"><s>Acceleration: high precept</s><r>Ускорение: высокая заповедь</r></e>
+  <e k="K" key="VVE_AccelerationSundayDriver"><s>Acceleration: sunday driver precept</s><r>Ускорение: воскресное правило водителя</r></e>
+  <e k="K" key="VVE_CannotBeResearched"><s>{0} cannot be researched until you find and restore a wreck of that vehicle.</s><r>{0} нельзя исследовать, пока вы не найдете и не восстановите обломки этого транспортного средства.</r></e>
+  <e k="K" key="VVE_CannotReloadFullAmmo"><s>Can't reload {0} with {1} (full ammo)</s><r>Невозможно перезарядить {0} с помощью {1} (полный боекомплект)</r></e>
+  <e k="K" key="VVE_CannotReloadNotEnoughAmmo"><s>Can't reload {0} with {1} (not enough {1})</s><r>Невозможно перезагрузить {0} с помощью {1} (недостаточно {1})</r></e>
+  <e k="K" key="VVE_Close"><s>Close</s><r>Закрывать</r></e>
+  <e k="K" key="VVE_CloseDescription"><s>Designate the garage door to be closed.</s><r>Укажите дверь гаража, которую нужно закрыть.</r></e>
+  <e k="K" key="VVE_CloseDescription_AutoDoor"><s>Close the auto garage door.</s><r>Закройте дверь гаража.</r></e>
+  <e k="K" key="VVE_HandbrakeDealsDamage"><s>Handbrake deals damage</s><r>Ручной тормоз наносит урон</r></e>
+  <e k="K" key="VVE_HandbrakeWarning"><s>{VEHICLE_nameDef} will not have enough room to decelerate and will need to use the handbrake. This will cause damage to the tires.</s><r>{VEHICLE_nameDef} не будет достаточно места для замедления, и ему придется использовать ручной тормоз. Это приведет к повреждению шин.</r></e>
+  <e k="K" key="VVE_MaxSpeed_Increased"><s>Max speed: increased precept</s><r>Максимальная скорость: увеличена заповедь</r></e>
+  <e k="K" key="VVE_Open"><s>Open</s><r>Открыть</r></e>
+  <e k="K" key="VVE_OpenDescription"><s>Designate the garage door to be opened.</s><r>Укажите дверь гаража, которую нужно открыть.</r></e>
+  <e k="K" key="VVE_OpenDescription_AutoDoor"><s>Open the auto garage door.</s><r>Откройте дверь гаража.</r></e>
+  <e k="K" key="VVE_Reload"><s>Reload {0} with {AMMO_label}</s><r>Перезагрузите {0} с помощью {AMMO_label}.</r></e>
+  <e k="K" key="VVE_RestoreWreck"><s>Restore wreck</s><r>Восстановить обломки</r></e>
+  <e k="K" key="VVE_RestoreWreckDesc"><s>Deliver necessary vehicle components to restore this wreck completely, turning it into a working vehicle.</s><r>Доставьте необходимые компоненты автомобиля, чтобы полностью восстановить эту аварию и превратить ее в работающую машину.</r></e>
+  <e k="K" key="VVE_StatsReport_AccelerationRate"><s>Acceleration rate: {0}
+Current speed: {1} c/s</s><r>Скорость ускорения: {0}
+Текущая скорость: {1} с/с</r></e>
+  <e k="K" key="VVE_Tier0"><s>Tier 0</s><r>Уровень 0</r></e>
+  <e k="K" key="VVE_Tier0Desc"><s>Tier 0 vehicles are the most basic and easiest to access. They don't require resources to be constructed, or research project to be researched, or neither.</s><r>Машины уровня 0 являются самыми простыми и доступными. Они не требуют ресурсов для строительства или исследования исследовательского проекта, или ничего подобного.</r></e>
+  <e k="K" key="VVE_Tier1"><s>Tier 1</s><r>Уровень 1</r></e>
+  <e k="K" key="VVE_Tier1Desc"><s>Tier 1 vehicles require a basic research project and a low resource cost in order to be constructed. They are inefficient, not ideal, have a lot of drawbacks, but they are cheap and available early in the game.</s><r>Для создания техники уровня 1 требуется базовый исследовательский проект и низкая стоимость ресурсов. Они неэффективны, не идеальны, имеют массу недостатков, но дешевы и доступны на ранних этапах игры.</r></e>
+  <e k="K" key="VVE_Tier2"><s>Tier 2</s><r>Уровень 2</r></e>
+  <e k="K" key="VVE_Tier2Desc"><s>Tier 2 vehicles are locked behind more specialised research projects and require resources that are only available later in the game. Tier 2 is considered to be the 'baseline' of all vehicles.</s><r>Машины 2-го уровня привязаны к более специализированным исследовательским проектам и требуют ресурсов, которые доступны только позже в игре. Уровень 2 считается «базовым» для всех машин.</r></e>
+  <e k="K" key="VVE_Tier3"><s>Tier 3</s><r>Уровень 3</r></e>
+  <e k="K" key="VVE_Tier3Desc"><s>Tier 3 vehicles are only obtainable if a specific condition is met - for example, they are first found in their wrecked form and restored. They require late game resources and generally serve a very specific purpose.</s><r>Машины 3 уровня можно получить только при выполнении определенного условия — например, сначала их найти в разбитом виде и восстановить. Они требуют ресурсов на поздней стадии игры и, как правило, служат очень конкретной цели.</r></e>
+  <e k="K" key="VVE_Tier4"><s>Tier 3</s><r>Уровень 3</r></e>
+  <e k="K" key="VVE_Tier4Desc"><s>Tier 4 vehicles are not able to be constructed by the player, but they can still be found, purchased or otherwise spawned. They generally represent technology beyond of what's achievable in the Rimworld setting.</s><r>Транспортные средства 4-го уровня не могут быть построены игроком, но их все равно можно найти, купить или создать иным образом. Обычно они представляют собой технологии, выходящие за рамки того, что достижимо в сеттинге Rimworld.</r></e>
+  <e k="K" key="VVE_VehicleObstructingClosingGarage"><s>Vehicle is blocking garage.</s><r>Автомобиль блокирует гараж.</r></e>
+  <e k="K" key="VVE_VehicleTier"><s>Tier</s><r>Уровень</r></e>
+  <e k="K" key="VVE_WreckNotRestored"><s>{0} not yet found and restored</s><r>{0} еще не найден и не восстановлен</r></e>
+</AutoTranslateCache>
