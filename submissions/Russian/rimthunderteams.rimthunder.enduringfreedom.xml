@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="rimthunderteams.rimthunder.enduringfreedom" name="RimThunder - Enduring Freedom" language="Russian" version="1">
+  <e k="D" t="AmmoSetDef" key="AmmoSet_FGM148Javelin.label"><s>Javelin ATGM</s><r>ПТУР «Джавелин»</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_Javelin_HEAT.description"><s>Craft 5 Javelin Missiles.</s><r>Создайте 5 ракет «Джавелин».</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_Javelin_HEAT.jobString"><s>Making 5 Javelin Missiles.</s><r>Изготовление 5 ракет «Джавелин».</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_Javelin_HEAT.label"><s>Make Javelin Missiles x5</s><r>Сделать ракеты «Джавелин» x5</r></e>
+  <e k="D" t="RecipeDef" key="RT_Make_M1078_LMTV_Blueprint.description"><s>assemble M1078 LMTV.</s><r>собрать М1078 ЛМТВ.</r></e>
+  <e k="D" t="RecipeDef" key="RT_Make_M1078_LMTV_Blueprint.jobString"><s>vehicle assembling.</s><r>сборка автомобиля.</r></e>
+  <e k="D" t="RecipeDef" key="RT_Make_M1078_LMTV_Blueprint.label"><s>assemble M1078 LMTV</s><r>собрать М1078 ЛМТВ</r></e>
+  <e k="D" t="RecipeDef" key="RT_Make_MATV_Vehicle_Blueprint.description"><s>assemble Oshkosh M-ATV.</s><r>собрать Ошкош М-ATV.</r></e>
+  <e k="D" t="RecipeDef" key="RT_Make_MATV_Vehicle_Blueprint.jobString"><s>vehicle assembling.</s><r>сборка автомобиля.</r></e>
+  <e k="D" t="RecipeDef" key="RT_Make_MATV_Vehicle_Blueprint.label"><s>assemble Oshkosh M-ATV</s><r>собрать Oshkosh M-ATV</r></e>
+  <e k="D" t="RetextureDef" key="RT_LMTV_Cargo.label"><s>LMTV Cargo</s><r>ЛМТВ Груз</r></e>
+  <e k="D" t="RetextureDef" key="RT_MATV_Armed.label"><s>MATV Armed</s><r>МАТВ Вооруженный</r></e>
+  <e k="D" t="RetextureDef" key="RT_MTV_Cargo.label"><s>MTV Cargo</s><r>МТВ Карго</r></e>
+  <e k="D" t="RetextureDef" key="RT_MTV_Passenger.label"><s>MTV Passenger</s><r>МТВ Пассажир</r></e>
+  <e k="D" t="ThingCategoryDef" key="AmmoFGM148Javelin.label"><s>Javelin ATGM</s><r>ПТУР «Джавелин»</r></e>
+  <e k="D" t="ThingDef" key="Ammo_Javelin_HEAT.label"><s>Javelin AntiTank missile(HEAT)</s><r>Противотанковая ракета Джавелин (HEAT)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Javelin_HEAT.label"><s>Javelin AntiTank missile(HEAT)</s><r>Противотанковая ракета Джавелин (HEAT)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Mk19_grenade.label"><s>40mm Mk19grenade</s><r>40-мм граната Мк19</r></e>
+  <e k="D" t="ThingDef" key="RT_Bullet_M230LFShell.label"><s>high-explosive shell</s><r>осколочно-фугасный снаряд</r></e>
+  <e k="D" t="ThingDef" key="RT_JavelinMissile.label"><s>high-explosive missile</s><r>фугасная ракета</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV.components.1.label"><s>left front suspensions</s><r>левая передняя подвеска</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV.components.10.label"><s>right rear Wheels</s><r>задние правые колеса</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV.components.11.label"><s>engine hood</s><r>капот двигателя</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV.components.13.label"><s>cargo hold</s><r>грузовой отсек</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV.components.14.label"><s>left door panel</s><r>левая дверная панель</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV.components.15.label"><s>right door panel</s><r>правая дверная панель</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV.components.16.label"><s>backup tyre</s><r>резервная шина</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV.components.17.label"><s>front bumper</s><r>передний бампер</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV.components.18.label"><s>rear bumper</s><r>задний бампер</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV.components.2.label"><s>right front suspensions</s><r>правая передняя подвеска</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV.components.21.label"><s>steering wheel</s><r>руль</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV.components.3.label"><s>left rear suspensions</s><r>левая задняя подвеска</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV.components.4.label"><s>right rear suspensions</s><r>правая задняя подвеска</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV.components.5.label"><s>gear box</s><r>коробка передач</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV.components.6.label"><s>fuel tank</s><r>топливный бак</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV.components.7.label"><s>left front Wheels</s><r>левые передние колеса</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV.components.8.label"><s>right front Wheels</s><r>правые передние колеса</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV.components.9.label"><s>left rear wheels</s><r>левые задние колеса</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV.description"><s>A Medium Tactical Truck with 2.5 tons capacity, can switch between 4x4 and 6x6.</s><r>Средний тактический грузовик грузоподъемностью 2,5 тонны может переключаться между колесной формулой 4x4 и 6x6.</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV.label"><s>M1078 LMTV</s><r>М1078 ЛМТВ</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV.properties.roles.1.label"><s>Passenger 1</s><r>Пассажир 1</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV.properties.roles.10.label"><s>Passenger 10</s><r>Пассажир 10</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV.properties.roles.11.label"><s>Passenger 11</s><r>Пассажир 11</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV.properties.roles.12.label"><s>Passenger 12</s><r>Пассажир 12</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV.properties.roles.2.label"><s>Passenger 2</s><r>Пассажир 2</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV.properties.roles.3.label"><s>Passenger 3</s><r>Пассажир 3</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV.properties.roles.4.label"><s>Passenger 4</s><r>Пассажир 4</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV.properties.roles.5.label"><s>Passenger 5</s><r>Пассажир 5</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV.properties.roles.6.label"><s>Passenger 6</s><r>Пассажир 6</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV.properties.roles.7.label"><s>Passenger 7</s><r>Пассажир 7</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV.properties.roles.8.label"><s>Passenger 8</s><r>Пассажир 8</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV.properties.roles.9.label"><s>Passenger 9</s><r>Пассажир 9</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV_Blueprint.description"><s>A Medium Tactical Truck with 2.5 tons capacity, can switch between 4x4 and 6x6.</s><r>Средний тактический грузовик грузоподъемностью 2,5 тонны может переключаться между колесной формулой 4x4 и 6x6.</r></e>
+  <e k="D" t="ThingDef" key="RT_M1078_LMTV_Blueprint.label"><s>M1078 LMTV</s><r>М1078 ЛМТВ</r></e>
+  <e k="D" t="ThingDef" key="RT_MATV_Vehicle.components.1.label"><s>left front suspensions</s><r>левая передняя подвеска</r></e>
+  <e k="D" t="ThingDef" key="RT_MATV_Vehicle.components.10.label"><s>right rear Wheels</s><r>задние правые колеса</r></e>
+  <e k="D" t="ThingDef" key="RT_MATV_Vehicle.components.11.label"><s>engine hood</s><r>капот двигателя</r></e>
+  <e k="D" t="ThingDef" key="RT_MATV_Vehicle.components.13.label"><s>left door panel</s><r>левая дверная панель</r></e>
+  <e k="D" t="ThingDef" key="RT_MATV_Vehicle.components.14.label"><s>right door panel</s><r>правая дверная панель</r></e>
+  <e k="D" t="ThingDef" key="RT_MATV_Vehicle.components.15.label"><s>backup tyre</s><r>резервная шина</r></e>
+  <e k="D" t="ThingDef" key="RT_MATV_Vehicle.components.16.label"><s>front bumper</s><r>передний бампер</r></e>
+  <e k="D" t="ThingDef" key="RT_MATV_Vehicle.components.17.label"><s>rear bumper</s><r>задний бампер</r></e>
+  <e k="D" t="ThingDef" key="RT_MATV_Vehicle.components.2.label"><s>right front suspensions</s><r>правая передняя подвеска</r></e>
+  <e k="D" t="ThingDef" key="RT_MATV_Vehicle.components.20.label"><s>steering wheel</s><r>руль</r></e>
+  <e k="D" t="ThingDef" key="RT_MATV_Vehicle.components.3.label"><s>left rear suspensions</s><r>левая задняя подвеска</r></e>
+  <e k="D" t="ThingDef" key="RT_MATV_Vehicle.components.4.label"><s>right rear suspensions</s><r>правая задняя подвеска</r></e>
+  <e k="D" t="ThingDef" key="RT_MATV_Vehicle.components.5.label"><s>gear box</s><r>коробка передач</r></e>
+  <e k="D" t="ThingDef" key="RT_MATV_Vehicle.components.6.label"><s>fuel tank</s><r>топливный бак</r></e>
+  <e k="D" t="ThingDef" key="RT_MATV_Vehicle.components.7.label"><s>left front Wheels</s><r>левые передние колеса</r></e>
+  <e k="D" t="ThingDef" key="RT_MATV_Vehicle.components.8.label"><s>right front Wheels</s><r>правые передние колеса</r></e>
+  <e k="D" t="ThingDef" key="RT_MATV_Vehicle.components.9.label"><s>left rear wheels</s><r>левые задние колеса</r></e>
+  <e k="D" t="ThingDef" key="RT_MATV_Vehicle.description"><s>A mine-resistant ambush protected vehicle designed for war-zone transport, with different arms.</s><r>Миннозащищенная машина, предназначенная для перевозки в зоне боевых действий, с различным вооружением.</r></e>
+  <e k="D" t="ThingDef" key="RT_MATV_Vehicle.label"><s>Oshkosh M-ATV</s><r>Ошкош М-АТВ</r></e>
+  <e k="D" t="ThingDef" key="RT_MATV_Vehicle_Blueprint.description"><s>A mine-resistant ambush protected vehicle designed for war-zone transport, with different arms.</s><r>Миннозащищенная машина, предназначенная для перевозки в зоне боевых действий, с различным вооружением.</r></e>
+  <e k="D" t="ThingDef" key="RT_MATV_Vehicle_Blueprint.label"><s>Oshkosh M-ATV</s><r>Ошкош М-АТВ</r></e>
+  <e k="D" t="ThingDef" key="RT_TOW2Missile.label"><s>high-explosive missile</s><r>фугасная ракета</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_LMTV_Vehicle_UpgradeTree.nodes.0.description"><s>Switch to cargo transport.</s><r>Переключитесь на грузовой транспорт.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_LMTV_Vehicle_UpgradeTree.nodes.0.label"><s>LMTV Cargo</s><r>ЛМТВ Груз</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.0.label"><s>Passenger 1</s><r>Пассажир 1</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.1.label"><s>Passenger 2</s><r>Пассажир 2</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.10.label"><s>Passenger 11</s><r>Пассажир 11</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.11.label"><s>Passenger 12</s><r>Пассажир 12</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.2.label"><s>Passenger 3</s><r>Пассажир 3</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.3.label"><s>Passenger 4</s><r>Пассажир 4</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.4.label"><s>Passenger 5</s><r>Пассажир 5</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.5.label"><s>Passenger 6</s><r>Пассажир 6</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.6.label"><s>Passenger 7</s><r>Пассажир 7</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.7.label"><s>Passenger 8</s><r>Пассажир 8</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.8.label"><s>Passenger 9</s><r>Пассажир 9</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.9.label"><s>Passenger 10</s><r>Пассажир 10</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_LMTV_Vehicle_UpgradeTree.nodes.1.description"><s>Upgrade to M1083 6x6 MTV with better capacity.</s><r>Обновление до M1083 6x6 MTV с большей грузоподъемностью.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_LMTV_Vehicle_UpgradeTree.nodes.1.label"><s>MTV Cargo</s><r>МТВ Карго</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.0.label"><s>Passenger 1</s><r>Пассажир 1</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.1.label"><s>Passenger 2</s><r>Пассажир 2</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.10.label"><s>Passenger 11</s><r>Пассажир 11</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.11.label"><s>Passenger 12</s><r>Пассажир 12</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.2.label"><s>Passenger 3</s><r>Пассажир 3</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.3.label"><s>Passenger 4</s><r>Пассажир 4</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.4.label"><s>Passenger 5</s><r>Пассажир 5</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.5.label"><s>Passenger 6</s><r>Пассажир 6</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.6.label"><s>Passenger 7</s><r>Пассажир 7</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.7.label"><s>Passenger 8</s><r>Пассажир 8</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.8.label"><s>Passenger 9</s><r>Пассажир 9</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.9.label"><s>Passenger 10</s><r>Пассажир 10</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_LMTV_Vehicle_UpgradeTree.nodes.2.description"><s>Upgrade to M1083 6x6 MTV with better capacity.</s><r>Обновление до M1083 6x6 MTV с большей грузоподъемностью.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_LMTV_Vehicle_UpgradeTree.nodes.2.label"><s>MTV Passenger</s><r>МТВ Пассажир</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_MATV_Vehicle_UpgradeTree.nodes.0.description"><s>Add M134 RWS on the top of the vehicle.</s><r>Добавьте M134 RWS на верхнюю часть машины.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_MATV_Vehicle_UpgradeTree.nodes.0.label"><s>M134 RWS</s><r>М134 РВС</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_MATV_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.0.gizmoLabel"><s>Main Turret</s><r>Главная турель</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_MATV_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.0.key"><s>M134 RWS</s><r>М134 РВС</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_MATV_Vehicle_UpgradeTree.nodes.1.description"><s>Add M230LF RWS on the top of the vehicle.</s><r>Добавьте M230LF RWS на верхнюю часть автомобиля.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_MATV_Vehicle_UpgradeTree.nodes.1.label"><s>M230LF RWS</s><r>M230LF РВС</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_MATV_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.0.gizmoLabel"><s>Main Turret</s><r>Главная турель</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_MATV_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.0.key"><s>M230LF RWS</s><r>M230LF РВС</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_MATV_Vehicle_UpgradeTree.nodes.2.description"><s>Add M2HB RWS on the top of the vehicle.</s><r>Добавьте M2HB RWS на верхнюю часть автомобиля.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_MATV_Vehicle_UpgradeTree.nodes.2.label"><s>M2HB RWS</s><r>М2ХБ РВС</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_MATV_Vehicle_UpgradeTree.nodes.2.upgrades.0.turrets.0.gizmoLabel"><s>Main Turret</s><r>Главная турель</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_MATV_Vehicle_UpgradeTree.nodes.2.upgrades.0.turrets.0.key"><s>M2HB RWS</s><r>М2ХБ РВС</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_MATV_Vehicle_UpgradeTree.nodes.3.description"><s>Add M2HB RWS with Javelin launcher on the top of the vehicle.</s><r>Добавьте M2HB RWS с пусковой установкой Javelin на верхнюю часть машины.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_MATV_Vehicle_UpgradeTree.nodes.3.label"><s>M2HB RWS+Javelin</s><r>M2HB RWS+Джавелин</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_MATV_Vehicle_UpgradeTree.nodes.3.upgrades.0.turrets.0.gizmoLabel"><s>Main Turret</s><r>Главная турель</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_MATV_Vehicle_UpgradeTree.nodes.3.upgrades.0.turrets.0.key"><s>M2HB RWSA</s><r>M2HB РУСА</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_MATV_Vehicle_UpgradeTree.nodes.3.upgrades.0.turrets.1.parentKey"><s>M2HB RWSA</s><r>M2HB РУСА</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_MATV_Vehicle_UpgradeTree.nodes.4.description"><s>Add Mk19 RWS on the top of the vehicle.</s><r>Добавьте Mk19 RWS на верхнюю часть машины.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_MATV_Vehicle_UpgradeTree.nodes.4.label"><s>Mk19 RWS</s><r>Мк19 РВС</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_MATV_Vehicle_UpgradeTree.nodes.4.upgrades.0.turrets.0.gizmoLabel"><s>Main Turret</s><r>Главная турель</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_MATV_Vehicle_UpgradeTree.nodes.4.upgrades.0.turrets.0.key"><s>Mk19 RWS</s><r>Мк19 РВС</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_MATV_Vehicle_UpgradeTree.nodes.5.description"><s>Add Mk19 RWS with Javelin launcher on the top of the vehicle.</s><r>Добавьте Mk19 RWS с пусковой установкой Javelin на верхнюю часть машины.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_MATV_Vehicle_UpgradeTree.nodes.5.label"><s>Mk19 RWS+Javelin</s><r>Mk19 RWS+Джавелин</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_MATV_Vehicle_UpgradeTree.nodes.5.upgrades.0.turrets.0.gizmoLabel"><s>Main Turret</s><r>Главная турель</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_MATV_Vehicle_UpgradeTree.nodes.5.upgrades.0.turrets.0.key"><s>Mk19 RWSA</s><r>Мк19 РВСА</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_MATV_Vehicle_UpgradeTree.nodes.5.upgrades.0.turrets.1.parentKey"><s>Mk19 RWSA</s><r>Мк19 РВСА</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_MATV_Vehicle_UpgradeTree.nodes.6.description"><s>Add TOW Launcher on the top of the vehicle.</s><r>Добавьте TOW Launcher на верхнюю часть автомобиля.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_MATV_Vehicle_UpgradeTree.nodes.6.label"><s>TOW Turret</s><r>TOW Турель</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_MATV_Vehicle_UpgradeTree.nodes.6.upgrades.0.turrets.0.gizmoLabel"><s>Main Turret</s><r>Главная турель</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_MATV_Vehicle_UpgradeTree.nodes.7.description"><s>Add Mk19 Grenade Launcher on the top of the vehicle.</s><r>Добавьте гранатомет Mk19 на верхнюю часть машины.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_MATV_Vehicle_UpgradeTree.nodes.7.label"><s>Mk19 Turret</s><r>Башня Мк19</r></e>
+  <e k="D" t="UpgradeTreeDef" key="RT_MATV_Vehicle_UpgradeTree.nodes.7.upgrades.0.turrets.0.gizmoLabel"><s>Main Turret</s><r>Главная турель</r></e>
+  <e k="D" t="VehicleTurretDef" key="RT_Javelin_Turret.gizmoDescription"><s>Select a target.
+
+Fire for effect.</s><r>Выберите цель.
+
+Стреляйте по эффекту.</r></e>
+  <e k="D" t="VehicleTurretDef" key="RT_Javelin_Turret.label"><s>Javelin missile</s><r>Ракета Джавелин</r></e>
+  <e k="D" t="VehicleTurretDef" key="RT_MATV_M134_Turret.gizmoDescription"><s>Select a target.
+
+Fire for effect.</s><r>Выберите цель.
+
+Стреляйте по эффекту.</r></e>
+  <e k="D" t="VehicleTurretDef" key="RT_MATV_M134_Turret.label"><s>m134 minigun</s><r>миниган М134</r></e>
+  <e k="D" t="VehicleTurretDef" key="RT_MATV_M230LF_Turret.gizmoDescription"><s>Select a target.
+
+Fire for effect.</s><r>Выберите цель.
+
+Стреляйте по эффекту.</r></e>
+  <e k="D" t="VehicleTurretDef" key="RT_MATV_M230LF_Turret.label"><s>M230LF</s><r>М230ЛФ</r></e>
+  <e k="D" t="VehicleTurretDef" key="RT_MATV_RWSMTurret.gizmoDescription"><s>Select a target.
+
+Fire for effect.</s><r>Выберите цель.
+
+Стреляйте по эффекту.</r></e>
+  <e k="D" t="VehicleTurretDef" key="RT_MATV_RWSMTurret.label"><s>M2HB RWS+Javelin</s><r>M2HB RWS+Джавелин</r></e>
+  <e k="D" t="VehicleTurretDef" key="RT_MATV_RWSTurret.gizmoDescription"><s>Select a target.
+
+Fire for effect.</s><r>Выберите цель.
+
+Стреляйте по эффекту.</r></e>
+  <e k="D" t="VehicleTurretDef" key="RT_MATV_RWSTurret.label"><s>M2HB RWS</s><r>М2ХБ РВС</r></e>
+  <e k="D" t="VehicleTurretDef" key="RT_Mk19RWSM_Turret.gizmoDescription"><s>Select a target.
+
+Fire for effect.</s><r>Выберите цель.
+
+Стреляйте по эффекту.</r></e>
+  <e k="D" t="VehicleTurretDef" key="RT_Mk19RWSM_Turret.label"><s>Mk19 RWS+Javelin</s><r>Mk19 RWS+Джавелин</r></e>
+  <e k="D" t="VehicleTurretDef" key="RT_Mk19RWS_Turret.gizmoDescription"><s>Select a target.
+
+Fire for effect.</s><r>Выберите цель.
+
+Стреляйте по эффекту.</r></e>
+  <e k="D" t="VehicleTurretDef" key="RT_Mk19RWS_Turret.label"><s>Mk19 RWS</s><r>Мк19 РВС</r></e>
+  <e k="D" t="VehicleTurretDef" key="RT_Mk19_Turret.gizmoDescription"><s>Select a target.
+
+Fire for effect.</s><r>Выберите цель.
+
+Стреляйте по эффекту.</r></e>
+  <e k="D" t="VehicleTurretDef" key="RT_Mk19_Turret.label"><s>Mk19 grenade launcher</s><r>Гранатомет Мк19</r></e>
+  <e k="D" t="VehicleTurretDef" key="RT_TOW2_Turret.gizmoDescription"><s>Select a target.
+
+Fire for effect.</s><r>Выберите цель.
+
+Стреляйте по эффекту.</r></e>
+  <e k="D" t="VehicleTurretDef" key="RT_TOW2_Turret.label"><s>TOW2 missile</s><r>Ракета TOW2</r></e>
+</AutoTranslateCache>
