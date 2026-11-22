@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="smashphil.vehicleframework" name="Vehicle Framework" language="Russian" version="1">
+  <e k="D" t="AerialVehicleArrivalModeDef" key="CenterDrop.textEnemy"><s>A group of {0} from {1} have dropped in right on top of you!</s><r>Группа {0} из {1} упала прямо на вас!</r></e>
+  <e k="D" t="AerialVehicleArrivalModeDef" key="CenterDrop.textFriendly"><s>A group of friendly {0} from {1} have dropped in right on top of you!</s><r>Группа дружественных {0} из {1} прилетела прямо на вас!</r></e>
+  <e k="D" t="AerialVehicleArrivalModeDef" key="CenterDrop.textWillArrive"><s>{0_pawnsPluralDef} will arrive in a shuttle right on top of you.</s><r>{0_pawnsPluralDef} прибудет на шаттле прямо над вами.</r></e>
+  <e k="D" t="AerialVehicleArrivalModeDef" key="EdgeDrop.textEnemy"><s>A group of {0} from {1} have arrived in a shuttle nearby.</s><r>Группа {0} из {1} прибыла на шаттле неподалеку.</r></e>
+  <e k="D" t="AerialVehicleArrivalModeDef" key="EdgeDrop.textFriendly"><s>A group of friendly {0} from {1} have arrived in a shuttle nearby.</s><r>Группа дружелюбных {0} из {1} прибыла на шаттле неподалеку.</r></e>
+  <e k="D" t="AerialVehicleArrivalModeDef" key="EdgeDrop.textWillArrive"><s>{0_pawnsPluralDef} will arrive in a shuttle.</s><r>{0_pawnsPluralDef} прибудет на шаттле.</r></e>
+  <e k="D" t="AnimationParameterDef" key="VF_ReadyForLanding.label"><s>Ready to Landing</s><r>Готов к посадке</r></e>
+  <e k="D" t="AnimationParameterDef" key="VF_ReadyForTakeoff.label"><s>Ready to Takeoff</s><r>Готов к взлету</r></e>
+  <e k="D" t="AnimationParameterDef" key="VF_VehicleIsDisabled.label"><s>Is Disabled</s><r>Отключено</r></e>
+  <e k="D" t="AnimationParameterDef" key="VF_VehicleIsIgnitionOn.label"><s>Is Drafted</s><r>Составлен</r></e>
+  <e k="D" t="AnimationParameterDef" key="VF_VehicleIsLanding.label"><s>Is Landing</s><r>Приземляется</r></e>
+  <e k="D" t="AnimationParameterDef" key="VF_VehicleIsLoitering.label"><s>Is Loitering</s><r>Слоняется</r></e>
+  <e k="D" t="AnimationParameterDef" key="VF_VehicleIsMoving.label"><s>Is Moving</s><r>Движется</r></e>
+  <e k="D" t="AnimationParameterDef" key="VF_VehicleIsTakingOff.label"><s>Is TakingOff</s><r>Взлетает</r></e>
+  <e k="D" t="BodyPartDef" key="emptyBody.label"><s>body</s><r>тело</r></e>
+  <e k="D" t="DesignationCategoryDef" key="VF_Vehicles.label"><s>Other</s><r>Другой</r></e>
+  <e k="D" t="DesignationDef" key="DisassembleVehicle.label"><s>Disassemble Vehicle</s><r>Разобрать автомобиль</r></e>
+  <e k="D" t="HistoryEventDef" key="VF_BoardAirVehicle.label"><s>boarding air vehicle</s><r>посадка на летательный аппарат</r></e>
+  <e k="D" t="HistoryEventDef" key="VF_BoardLandVehicle.label"><s>boarding land vehicle</s><r>посадка в наземный транспорт</r></e>
+  <e k="D" t="HistoryEventDef" key="VF_BoardSeaVehicle.label"><s>boarding sea vehicle</s><r>посадка на морской корабль</r></e>
+  <e k="D" t="HistoryEventDef" key="VF_BoardUniversalVehicle.label"><s>boarding universal vehicle</s><r>посадка на универсальный автомобиль</r></e>
+  <e k="D" t="HistoryEventDef" key="VF_BoardedAirVehicle.label"><s>boarded air vehicle</s><r>посадочный летательный аппарат</r></e>
+  <e k="D" t="HistoryEventDef" key="VF_BoardedLandVehicle.label"><s>boarded land vehicle</s><r>посадочный наземный транспорт</r></e>
+  <e k="D" t="HistoryEventDef" key="VF_BoardedSeaVehicle.label"><s>boarded sea vehicle</s><r>морской корабль на борту</r></e>
+  <e k="D" t="HistoryEventDef" key="VF_BoardedUniversalVehicle.label"><s>boarded universal vehicle</s><r>универсальный автомобиль на борту</r></e>
+  <e k="D" t="IncidentDef" key="ShuttleCrashed.label"><s>Shuttle Downed</s><r>Шаттл сбит</r></e>
+  <e k="D" t="IndicatorDef" key="VF_Explosive.label"><s>Explosive</s><r>Взрывоопасный</r></e>
+  <e k="D" t="IndicatorDef" key="VF_Leaker.label"><s>Leaks Fuel</s><r>Утечки топлива</r></e>
+  <e k="D" t="JobDef" key="Board.reportString"><s>Entering TargetA.</s><r>Вводим TargetA.</r></e>
+  <e k="D" t="JobDef" key="CarryItemToVehicle.reportString"><s>Loading TargetA onto TargetB</s><r>Загрузка TargetA на TargetB</r></e>
+  <e k="D" t="JobDef" key="CarryPawnToVehicle.reportString"><s>Carrying TargetA to TargetB.</s><r>Перенос от TargetA до TargetB.</r></e>
+  <e k="D" t="JobDef" key="DeployVehicle.reportString"><s>Deploying.</s><r>Развертывание.</r></e>
+  <e k="D" t="JobDef" key="DisassembleVehicle.reportString"><s>Disassembling TargetA.</s><r>Разборка TargetA.</r></e>
+  <e k="D" t="JobDef" key="EscortVehicle.reportString"><s>Escorting TargetA.</s><r>Сопровождение TargetA.</r></e>
+  <e k="D" t="JobDef" key="FollowVehicle.reportString"><s>Following TargetA.</s><r>После TargetA.</r></e>
+  <e k="D" t="JobDef" key="IdleVehicle.reportString"><s>Idle.</s><r>Праздный.</r></e>
+  <e k="D" t="JobDef" key="IdleVehicleDeSpawned.reportString"><s>Idle.</s><r>Праздный.</r></e>
+  <e k="D" t="JobDef" key="LoadUpgradeMaterials.reportString"><s>Loading upgrade materials into TargetB.</s><r>Загрузка материалов для улучшения в TargetB.</r></e>
+  <e k="D" t="JobDef" key="LoadVehicle.reportString"><s>Loading TargetA onto TargetB</s><r>Загрузка TargetA на TargetB</r></e>
+  <e k="D" t="JobDef" key="PaintVehicle.reportString"><s>Painting TargetA.</s><r>Картина TargetA.</r></e>
+  <e k="D" t="JobDef" key="PrepareCaravan_GatheringVehicle.reportString"><s>Loading cargo for TargetB.</s><r>Погрузка груза на TargetB.</r></e>
+  <e k="D" t="JobDef" key="RefuelVehicle.reportString"><s>Refueling TargetA</s><r>Заправка TargetA</r></e>
+  <e k="D" t="JobDef" key="RefuelVehicleAtomic.reportString"><s>Refueling TargetA</s><r>Заправка TargetA</r></e>
+  <e k="D" t="JobDef" key="RemoveFuelFromVehicle.reportString"><s>Emptying TargetA</s><r>Опорожнение TargetA</r></e>
+  <e k="D" t="JobDef" key="RepairVehicle.reportString"><s>Repairing TargetA.</s><r>Ремонт TargetA.</r></e>
+  <e k="D" t="JobDef" key="RopeAnimalToVehicle.reportString"><s>Roping {0} to TargetA.</s><r>Привязка {0} к TargetA.</r></e>
+  <e k="D" t="JobDef" key="SabotageVehicle.reportString"><s>Sabotaging TargetA.</s><r>Саботаж TargetA.</r></e>
+  <e k="D" t="JobDef" key="UpgradeVehicle.reportString"><s>Working on TargetA.</s><r>Работаем над TargetA.</r></e>
+  <e k="D" t="JobDef" key="VF_CapturePawnToVehicle.reportString"><s>Capturing TargetA in TargetB.</s><r>Захват TargetA в TargetB.</r></e>
+  <e k="D" t="JobDef" key="VF_JoinVehicleLord.reportString"><s>Doing something.</s><r>Что-то делаю.</r></e>
+  <e k="D" t="JobDef" key="VF_RescuePawnToVehicle.reportString"><s>Carrying TargetA to TargetB.</s><r>Перенос от TargetA до TargetB.</r></e>
+  <e k="D" t="KeyBindingDef" key="VF_DebugSettings.label"><s>Debug Settings</s><r>Настройки отладки</r></e>
+  <e k="D" t="KeyBindingDef" key="VF_QuickStartMenu.label"><s>Quick Start Menu</s><r>Меню быстрого запуска</r></e>
+  <e k="D" t="KeyBindingDef" key="VF_RestartGame.label"><s>Quick Restart</s><r>Быстрый перезапуск</r></e>
+  <e k="D" t="PatternDef" key="Abstract_Large.label"><s>Abstract Large</s><r>Аннотация Большой</r></e>
+  <e k="D" t="PatternDef" key="Abstract_Medium.label"><s>Abstract Medium</s><r>Абстрактная среда</r></e>
+  <e k="D" t="PatternDef" key="Default.label"><s>Default</s><r>По умолчанию</r></e>
+  <e k="D" t="PatternDef" key="Digital.label"><s>Digital</s><r>Цифровой</r></e>
+  <e k="D" t="PatternDef" key="Hearts.label"><s>Hearts</s><r>Сердца</r></e>
+  <e k="D" t="PatternDef" key="Hexagon.label"><s>Hexagon</s><r>Шестиугольник</r></e>
+  <e k="D" t="PatternDef" key="Jungle.label"><s>Jungle</s><r>Джунгли</r></e>
+  <e k="D" t="PatternDef" key="Lizard.label"><s>Lizard</s><r>Ящерица</r></e>
+  <e k="D" t="PatternDef" key="Panther.label"><s>Panther</s><r>Пантера</r></e>
+  <e k="D" t="PatternDef" key="Polygon.label"><s>Polygon</s><r>Полигон</r></e>
+  <e k="D" t="PatternDef" key="Rusty.label"><s>Rusty</s><r>Расти</r></e>
+  <e k="D" t="PatternDef" key="Tiger.label"><s>Tiger</s><r>Тигр</r></e>
+  <e k="D" t="PatternDef" key="TigerStripes.label"><s>Tiger Stripes</s><r>Тигровые полосы</r></e>
+  <e k="D" t="PatternDef" key="Waves.label"><s>Waves</s><r>Волны</r></e>
+  <e k="D" t="PatternDef" key="Woodland.label"><s>Woodland</s><r>Вудленд</r></e>
+  <e k="D" t="PatternDef" key="ZigZag.label"><s>Zig Zag</s><r>Зигзаг</r></e>
+  <e k="D" t="PawnsArrivalModeDef" key="ParatrooperDrop.textEnemy"><s>A group of {0} from {1} are parachuting nearby.</s><r>Группа {0} из {1} прыгает с парашютом неподалеку.</r></e>
+  <e k="D" t="PawnsArrivalModeDef" key="ParatrooperDrop.textFriendly"><s>A group of friendly {0} from {1} are parachuting nearby.</s><r>Группа дружественных {0} из {1} прыгает с парашютом неподалеку.</r></e>
+  <e k="D" t="PawnsArrivalModeDef" key="ParatrooperDrop.textWillArrive"><s>{0_pawnsPluralDef} will drop from above.</s><r>{0_pawnsPluralDef} упадет сверху.</r></e>
+  <e k="D" t="ScenPartDef" key="StartingVehicle.label"><s>start with vehicle(s)</s><r>начните с автомобиля(ов)</r></e>
+  <e k="D" t="StatCategoryDef" key="VehicleAerial.label"><s>Aerial</s><r>Воздушный</r></e>
+  <e k="D" t="StatCategoryDef" key="VehicleBasics.label"><s>Basics</s><r>Основы</r></e>
+  <e k="D" t="StatCategoryDef" key="VehicleBasicsImportant.label"><s>Basics</s><r>Основы</r></e>
+  <e k="D" t="StatCategoryDef" key="VehicleCombat.label"><s>Combat</s><r>Бой</r></e>
+  <e k="D" t="StatCategoryDef" key="VehicleRefuelable.label"><s>Refuelable</s><r>Перезаправляемый</r></e>
+  <e k="D" t="StatCategoryDef" key="VehicleTurrets.label"><s>Turrets</s><r>Турели</r></e>
+  <e k="D" t="StatUpgradeCategoryDef" key="BuildingCollisionMultiplier.label"><s>Impact Damage</s><r>Ударный урон</r></e>
+  <e k="D" t="StatUpgradeCategoryDef" key="BuildingCollisionRecoilMultiplier.label"><s>Impact Damage Received</s><r>Получен урон от удара</r></e>
+  <e k="D" t="StatUpgradeCategoryDef" key="ChargeRate.formatString"><s>{0} /day</s><r>{0} /день</r></e>
+  <e k="D" t="StatUpgradeCategoryDef" key="ChargeRate.label"><s>Charge Rate</s><r>Ставка заряда</r></e>
+  <e k="D" t="StatUpgradeCategoryDef" key="DischargeRate.formatString"><s>{0} /day</s><r>{0} /день</r></e>
+  <e k="D" t="StatUpgradeCategoryDef" key="DischargeRate.label"><s>Discharge Rate</s><r>Скорость разряда</r></e>
+  <e k="D" t="StatUpgradeCategoryDef" key="FuelCapacity.label"><s>Fuel Capacity</s><r>Запас топлива</r></e>
+  <e k="D" t="StatUpgradeCategoryDef" key="FuelConsumptionRate.formatString"><s>{0}/day</s><r>{0}/день</r></e>
+  <e k="D" t="StatUpgradeCategoryDef" key="FuelConsumptionRate.label"><s>Fuel Consumption</s><r>Расход топлива</r></e>
+  <e k="D" t="StatUpgradeCategoryDef" key="OffRoadMultiplier.label"><s>Off Road Cost</s><r>Стоимость бездорожья</r></e>
+  <e k="D" t="StatUpgradeCategoryDef" key="PawnCollisionMultiplier.label"><s>Impact Damage</s><r>Ударный урон</r></e>
+  <e k="D" t="StatUpgradeCategoryDef" key="PawnCollisionRecoilMultiplier.label"><s>Impact Damage Received</s><r>Получен урон от удара</r></e>
+  <e k="D" t="StatUpgradeCategoryDef" key="WinterCostMultiplier.label"><s>Winter Cost</s><r>Зимняя стоимость</r></e>
+  <e k="D" t="StatUpgradeCategoryDef" key="WorldSpeedMultiplier.label"><s>World Speed</s><r>Мировая скорость</r></e>
+  <e k="D" t="ThingDef" key="Airdrop.label"><s>Airdrop</s><r>Аирдроп</r></e>
+  <e k="D" t="ThingDef" key="AirdropPackage.label"><s>Airdrop</s><r>Аирдроп</r></e>
+  <e k="D" t="ThingDef" key="AirdropParatrooper.label"><s>Paratrooper</s><r>Десантник</r></e>
+  <e k="D" t="ThingDef" key="MoteFishingNet.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="MoteLaunchedTurret.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="Mote_ArtilleryExhaust.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="Mote_ArtilleryExhaustThick.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="Mote_CannonFlash.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="Mote_CannonPlume.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="Mote_CannonSmoke.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="Mote_ChimneySmoke.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="Mote_RocketSmoke_Long.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="Mote_RocketSmoke_Low.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="Mote_Smoke_CannonSmall.label"><s>smoke</s><r>курить</r></e>
+  <e k="D" t="ThingDef" key="ProjectileSkyfaller.label"><s>Projectile skyfaller</s><r>Снаряд Скайфоллера</r></e>
+  <e k="D" t="TransferableSorterDef" key="CargoCapacity.label"><s>cargo capacity</s><r>грузоподъемность</r></e>
+  <e k="D" t="TransferableSorterDef" key="MoveSpeed.label"><s>move speed</s><r>скорость перемещения</r></e>
+  <e k="D" t="TransferableSorterDef" key="Type.label"><s>type</s><r>тип</r></e>
+  <e k="D" t="VehicleStatDef" key="BodyIntegrity.description"><s>The average of all vehicle parts' health. If the integrity of the vehicle reaches 0, it will disintegrate into a fraction of its build cost.</s><r>Среднее состояние всех частей автомобиля. Если целостность транспортного средства достигнет 0, оно распадется на часть стоимости сборки.</r></e>
+  <e k="D" t="VehicleStatDef" key="BodyIntegrity.label"><s>Body integrity</s><r>Целостность тела</r></e>
+  <e k="D" t="VehicleStatDef" key="CargoCapacity.description"><s>Amount of weight this vehicle can carry as cargo.</s><r>Вес, который данное транспортное средство может перевозить в качестве груза.</r></e>
+  <e k="D" t="VehicleStatDef" key="CargoCapacity.formatString"><s>{0} kg</s><r>{0} кг</r></e>
+  <e k="D" t="VehicleStatDef" key="CargoCapacity.label"><s>Cargo</s><r>Груз</r></e>
+  <e k="D" t="VehicleStatDef" key="FlightControl.description"><s>Capacity of vehicle for flight.  If value reaches 0, the vehicle will be forced to crash land.</s><r>Вместимость автомобиля для полета.  Если значение достигнет 0, транспортное средство будет вынуждено совершить аварийную посадку.</r></e>
+  <e k="D" t="VehicleStatDef" key="FlightControl.label"><s>Flight Control</s><r>Управление полетом</r></e>
+  <e k="D" t="VehicleStatDef" key="FlightSpeed.description"><s>Speed of movement on the world map while flying.</s><r>Скорость передвижения по карте мира во время полета.</r></e>
+  <e k="D" t="VehicleStatDef" key="FlightSpeed.formatString"><s>{0} t/s</s><r>{0} т/с</r></e>
+  <e k="D" t="VehicleStatDef" key="FlightSpeed.label"><s>Flight Speed</s><r>Скорость полета</r></e>
+  <e k="D" t="VehicleStatDef" key="Mass.description"><s>The physical mass of this vehicle.</s><r>Физическая масса данного транспортного средства.</r></e>
+  <e k="D" t="VehicleStatDef" key="Mass.formatString"><s>{0} kg</s><r>{0} кг</r></e>
+  <e k="D" t="VehicleStatDef" key="Mass.label"><s>Mass</s><r>Масса</r></e>
+  <e k="D" t="VehicleStatDef" key="MoveSpeed.description"><s>Speed of movement in cells per second.</s><r>Скорость движения клеток в секунду.</r></e>
+  <e k="D" t="VehicleStatDef" key="MoveSpeed.formatString"><s>{0} c/s</s><r>{0} к/с</r></e>
+  <e k="D" t="VehicleStatDef" key="MoveSpeed.label"><s>Move speed</s><r>Скорость перемещения</r></e>
+  <e k="D" t="VehicleStatDef" key="RepairRate.description"><s>The amount of health that is repaired per second.</s><r>Количество здоровья, которое восстанавливается в секунду.</r></e>
+  <e k="D" t="VehicleStatDef" key="RepairRate.formatString"><s>{0} hp/s</s><r>{0} л.с./с</r></e>
+  <e k="D" t="VehicleStatDef" key="RepairRate.label"><s>Repair rate</s><r>Стоимость ремонта</r></e>
+  <e k="D" t="VehicleStatDef" key="WorkToSabotage.description"><s>The base amount of work it takes to sabotage a vehicle.</s><r>Базовый объем работы, необходимый для саботажа транспортного средства.</r></e>
+  <e k="D" t="VehicleStatDef" key="WorkToSabotage.label"><s>Work to sabotage</s><r>Работать на саботаж</r></e>
+  <e k="D" t="WorkGiverDef" key="DisassembleVehicle.gerund"><s>disassembling</s><r>разборка</r></e>
+  <e k="D" t="WorkGiverDef" key="DisassembleVehicle.label"><s>disassemble vehicle</s><r>разобрать автомобиль</r></e>
+  <e k="D" t="WorkGiverDef" key="DisassembleVehicle.verb"><s>disassemble</s><r>разобрать</r></e>
+  <e k="D" t="WorkGiverDef" key="HelpPackVehicleCaravan.gerund"><s>packing</s><r>упаковка</r></e>
+  <e k="D" t="WorkGiverDef" key="HelpPackVehicleCaravan.label"><s>pack vehicle</s><r>вьючное транспортное средство</r></e>
+  <e k="D" t="WorkGiverDef" key="HelpPackVehicleCaravan.verb"><s>pack</s><r>пакет</r></e>
+  <e k="D" t="WorkGiverDef" key="LoadUpgradeMaterials.gerund"><s>loading</s><r>загрузка</r></e>
+  <e k="D" t="WorkGiverDef" key="LoadUpgradeMaterials.label"><s>load materials</s><r>загрузка материалов</r></e>
+  <e k="D" t="WorkGiverDef" key="LoadUpgradeMaterials.verb"><s>load</s><r>нагрузка</r></e>
+  <e k="D" t="WorkGiverDef" key="PackVehicle.gerund"><s>packing</s><r>упаковка</r></e>
+  <e k="D" t="WorkGiverDef" key="PackVehicle.label"><s>pack vehicle</s><r>вьючное транспортное средство</r></e>
+  <e k="D" t="WorkGiverDef" key="PackVehicle.verb"><s>pack</s><r>пакет</r></e>
+  <e k="D" t="WorkGiverDef" key="PackVehicleTurret.gerund"><s>packing</s><r>упаковка</r></e>
+  <e k="D" t="WorkGiverDef" key="PackVehicleTurret.label"><s>pack vehicle</s><r>вьючное транспортное средство</r></e>
+  <e k="D" t="WorkGiverDef" key="PackVehicleTurret.verb"><s>pack</s><r>пакет</r></e>
+  <e k="D" t="WorkGiverDef" key="PaintVehicle.gerund"><s>painting</s><r>рисование</r></e>
+  <e k="D" t="WorkGiverDef" key="PaintVehicle.label"><s>paint vehicle</s><r>покрасить автомобиль</r></e>
+  <e k="D" t="WorkGiverDef" key="PaintVehicle.verb"><s>paint</s><r>краска</r></e>
+  <e k="D" t="WorkGiverDef" key="RefuelVehicle.gerund"><s>refueling</s><r>дозаправка</r></e>
+  <e k="D" t="WorkGiverDef" key="RefuelVehicle.label"><s>refuel vehicle</s><r>заправить автомобиль</r></e>
+  <e k="D" t="WorkGiverDef" key="RefuelVehicle.verb"><s>refuel</s><r>заправиться</r></e>
+  <e k="D" t="WorkGiverDef" key="RemoveFuelFromVehicle.gerund"><s>emptying</s><r>опорожнение</r></e>
+  <e k="D" t="WorkGiverDef" key="RemoveFuelFromVehicle.label"><s>remove fuel from vehicle</s><r>слить топливо из автомобиля</r></e>
+  <e k="D" t="WorkGiverDef" key="RemoveFuelFromVehicle.verb"><s>refuel</s><r>заправиться</r></e>
+  <e k="D" t="WorkGiverDef" key="RepairVehicle.gerund"><s>repairing</s><r>ремонт</r></e>
+  <e k="D" t="WorkGiverDef" key="RepairVehicle.label"><s>repair vehicle</s><r>ремонт автомобиля</r></e>
+  <e k="D" t="WorkGiverDef" key="RepairVehicle.verb"><s>repair</s><r>ремонт</r></e>
+  <e k="D" t="WorkGiverDef" key="WorkOnUpgrade.gerund"><s>upgrading</s><r>модернизация</r></e>
+  <e k="D" t="WorkGiverDef" key="WorkOnUpgrade.label"><s>work on upgrade</s><r>работа над обновлением</r></e>
+  <e k="D" t="WorkGiverDef" key="WorkOnUpgrade.verb"><s>upgrade</s><r>обновление</r></e>
+  <e k="D" t="WorldObjectDef" key="AerialVehicle.description"><s>An aerial vehicle capable of flight on the world map.</s><r>Летательный аппарат, способный летать по карте мира.</r></e>
+  <e k="D" t="WorldObjectDef" key="AerialVehicle.label"><s>Aerial Vehicle</s><r>Воздушный транспорт</r></e>
+  <e k="D" t="WorldObjectDef" key="CrashedShipSite.description"><s>A recently downed aerial vehicle with possible survivors.</s><r>Недавно сбитый летательный аппарат, возможно, выжившие.</r></e>
+  <e k="D" t="WorldObjectDef" key="CrashedShipSite.label"><s>Crash Site</s><r>Место крушения</r></e>
+  <e k="D" t="WorldObjectDef" key="DebugSettlement.description"><s>Debug</s><r>Отлаживать</r></e>
+  <e k="D" t="WorldObjectDef" key="DebugSettlement.label"><s>Original Location</s><r>Исходное местоположение</r></e>
+  <e k="D" t="WorldObjectDef" key="FlakProjectile.label"><s>Flak Projectile</s><r>Зенитный снаряд</r></e>
+  <e k="D" t="WorldObjectDef" key="StashedVehicle.description"><s>Stashed vehicles.</s><r>Спрятанные автомобили.</r></e>
+  <e k="D" t="WorldObjectDef" key="StashedVehicle.label"><s>Stashed Vehicle</s><r>Спрятанный автомобиль</r></e>
+  <e k="D" t="WorldObjectDef" key="VehicleCaravan.description"><s>A group of traveling people with vehicles.</s><r>Группа путешествующих людей на транспортных средствах.</r></e>
+  <e k="D" t="WorldObjectDef" key="VehicleCaravan.label"><s>Vehicle Caravan</s><r>Автомобиль Караван</r></e>
+  <e k="K" key="Automatic"><s>Automatic</s><r>Автоматический</r></e>
+  <e k="K" key="Combat"><s>Combat</s><r>Бой</r></e>
+  <e k="K" key="DriverNeeded"><s>Colonist Driven</s><r>Колонист управляемый</r></e>
+  <e k="K" key="Manual"><s>Manual</s><r>Руководство</r></e>
+  <e k="K" key="Misc"><s>Other</s><r>Другой</r></e>
+  <e k="K" key="NoDriverNeeded"><s>AI Driven</s><r>Управляемый искусственным интеллектом</r></e>
+  <e k="K" key="Opportunistic"><s>Opportunistic</s><r>Оппортунистический</r></e>
+  <e k="K" key="ST_AddAnimationEvent"><s>Add event</s><r>Добавить событие</r></e>
+  <e k="K" key="ST_AddKey"><s>Add Key</s><r>Добавить ключ</r></e>
+  <e k="K" key="ST_AddKeyFrame"><s>Add keyframe</s><r>Добавить ключевой кадр</r></e>
+  <e k="K" key="ST_AddProperty"><s>Add Property</s><r>Добавить недвижимость</r></e>
+  <e k="K" key="ST_AnimationWindow"><s>Animator</s><r>Аниматор</r></e>
+  <e k="K" key="ST_Conditions"><s>Conditions</s><r>Условия</r></e>
+  <e k="K" key="ST_ControllerWindow"><s>Controller</s><r>Контроллер</r></e>
+  <e k="K" key="ST_Copy"><s>Copy</s><r>Копировать</r></e>
+  <e k="K" key="ST_CreateBlendTree"><s>Create new BlendTree in State</s><r>Создайте новый BlendTree в State</r></e>
+  <e k="K" key="ST_CreateNewClip"><s>Create New Clip...</s><r>Создать новый клип...</r></e>
+  <e k="K" key="ST_CreateState"><s>Create State</s><r>Создать состояние</r></e>
+  <e k="K" key="ST_CreateSubState"><s>Create Sub-State Machine</s><r>Создать подгосударственный автомат</r></e>
+  <e k="K" key="ST_CurvesTab"><s>Curves</s><r>Кривые</r></e>
+  <e k="K" key="ST_CycleOffset"><s>Cycle Offset</s><r>Смещение цикла</r></e>
+  <e k="K" key="ST_Delete"><s>Delete</s><r>Удалить</r></e>
+  <e k="K" key="ST_DopesheetTab"><s>Dopesheet</s><r>Допинг-лист</r></e>
+  <e k="K" key="ST_Injected"><s>Injected</s><r>Введенный</r></e>
+  <e k="K" key="ST_Layers"><s>Layers</s><r>Слои</r></e>
+  <e k="K" key="ST_Loop"><s>Loop</s><r>Петля</r></e>
+  <e k="K" key="ST_MakeTransition"><s>Make Transition</s><r>Сделать переход</r></e>
+  <e k="K" key="ST_Mirror"><s>Mirror</s><r>Зеркало</r></e>
+  <e k="K" key="ST_MotionFile"><s>Motion</s><r>Движение</r></e>
+  <e k="K" key="ST_MotionSpeed"><s>Speed</s><r>Скорость</r></e>
+  <e k="K" key="ST_MotionSpeedMultiplier"><s>Multiplier</s><r>Множитель</r></e>
+  <e k="K" key="ST_MotionTime"><s>Motion Time</s><r>Время движения</r></e>
+  <e k="K" key="ST_NoControllerParameters"><s>No Controller Parameters</s><r>Нет параметров контроллера</r></e>
+  <e k="K" key="ST_NoFunctionSelected"><s>No Function Selected</s><r>Функция не выбрана</r></e>
+  <e k="K" key="ST_Parameters"><s>Parameters</s><r>Параметры</r></e>
+  <e k="K" key="ST_Paste"><s>Paste</s><r>Вставить</r></e>
+  <e k="K" key="ST_PauseAnimationTooltip"><s>Pause the animation</s><r>Приостановить анимацию</r></e>
+  <e k="K" key="ST_PlayAnimationTooltip"><s>Play the animation</s><r>Воспроизвести анимацию</r></e>
+  <e k="K" key="ST_PreviewAnimation"><s>Preview</s><r>Предварительный просмотр</r></e>
+  <e k="K" key="ST_PreviewAnimationTooltip"><s>Enable/disable preview mode of entity's animation in-game</s><r>Включить/отключить режим предварительного просмотра анимации объекта в игре.</r></e>
+  <e k="K" key="ST_RemoveKey"><s>Delete Key</s><r>Удалить ключ</r></e>
+  <e k="K" key="ST_RemoveProperties"><s>Remove Properties</s><r>Удалить свойства</r></e>
+  <e k="K" key="ST_SetStateDefault"><s>Set as Layer Default State</s><r>Установить как состояние слоя по умолчанию</r></e>
+  <e k="K" key="ST_SkipFrameBeginningTooltip"><s>Go to the beginning of the animation</s><r>Перейти к началу анимации</r></e>
+  <e k="K" key="ST_SkipFrameEndTooltip"><s>Go to the end of the animation</s><r>Перейти к концу анимации</r></e>
+  <e k="K" key="ST_SkipFrameNextTooltip"><s>Go to next keyframe</s><r>Перейти к следующему ключевому кадру</r></e>
+  <e k="K" key="ST_SkipFramePreviousTooltip"><s>Go to previous keyframe</s><r>Перейти к предыдущему ключевому кадру</r></e>
+  <e k="K" key="ST_TransitionList"><s>Transitions</s><r>Переходы</r></e>
+  <e k="K" key="ST_TransitionMute"><s>Mute</s><r>Немой</r></e>
+  <e k="K" key="ST_TransitionSolo"><s>Solo</s><r>Соло</r></e>
+  <e k="K" key="ST_UnsupportedType"><s>UnsupportedType</s><r>Неподдерживаемый тип</r></e>
+  <e k="K" key="ST_WriteDefaults"><s>Write Defaults</s><r>Запись значений по умолчанию</r></e>
+  <e k="K" key="Trader"><s>Trader</s><r>Трейдер</r></e>
+  <e k="K" key="Transport"><s>Transport</s><r>Транспорт</r></e>
+  <e k="K" key="VF_ActivityIconOnBoardShip"><s>Onboard {0}</s><r>На борту {0}</r></e>
+  <e k="K" key="VF_AddToRole"><s>Add</s><r>Добавлять</r></e>
+  <e k="K" key="VF_AdjustCoastWeight"><s>Coastal weight</s><r>Прибрежный вес</r></e>
+  <e k="K" key="VF_AdjustRiverWeight"><s>River weight</s><r>Вес реки</r></e>
+  <e k="K" key="VF_AdjustSettlementRadius"><s>Settlement Relocation</s><r>Переезд поселения</r></e>
+  <e k="K" key="VF_AdjustSettlementRadiusTooltip"><s>Adjust settlements to nearby features for vehicle travel.</s><r>Приспособьте поселения к близлежащим объектам для поездок на автомобиле.</r></e>
+  <e k="K" key="VF_AerialReconSite"><s>Recon</s><r>Разведка</r></e>
+  <e k="K" key="VF_AerialVehicleArrived"><s>{0} has arrived at their destination.</s><r>{0} прибыл в пункт назначения.</r></e>
+  <e k="K" key="VF_AerialVehicleEffects"><s>Aerial Vehicle Effects</s><r>Эффекты воздушного транспорта</r></e>
+  <e k="K" key="VF_AerialVehicleEffectsTooltip"><s>When aerial vehicles takeoff and land, spawn flecks and render overlay textures.</s><r>Когда летательные аппараты взлетают и приземляются, появляются пятна и накладываются текстуры.</r></e>
+  <e k="K" key="VF_AerialVehicleLaunchNotValid"><s>Unable to launch, conditions are not suitable.</s><r>Невозможно запустить, условия не подходящие.</r></e>
+  <e k="K" key="VF_AerialVehicleLeft"><s>{0} has left the map.</s><r>{0} покинул карту.</r></e>
+  <e k="K" key="VF_AerialVehicles"><s>Aerial</s><r>Воздушный</r></e>
+  <e k="K" key="VF_AirDefensesActive"><s>Air Defenses</s><r>ПВО</r></e>
+  <e k="K" key="VF_AirDefensesActiveTooltip"><s>Certain world objects are able to utilize air defenses to shoot down nearby aircraft.</s><r>Некоторые объекты мира могут использовать средства противовоздушной обороны, чтобы сбивать близлежащие самолеты.</r></e>
+  <e k="K" key="VF_AmbientHeat"><s>Ambient Heat</s><r>Окружающее тепло</r></e>
+  <e k="K" key="VF_AmbientHeatTooltip"><s>Heat emitted when fuel is being consumed.</s><r>Тепло, выделяющееся при расходе топлива.</r></e>
+  <e k="K" key="VF_ApplyButton"><s>Apply</s><r>Применять</r></e>
+  <e k="K" key="VF_AssignFailure"><s>Failed to assign seats. {0}</s><r>Не удалось распределить места. {0}</r></e>
+  <e k="K" key="VF_Assigned"><s>Assigned</s><r>Назначенный</r></e>
+  <e k="K" key="VF_AttackAndTargetLanding"><s>Attack {0}: Choose Landing</s><r>Атака {0}: выберите приземление.</r></e>
+  <e k="K" key="VF_AutoAssign"><s>Autofill</s><r>Автозаполнение</r></e>
+  <e k="K" key="VF_AutoRefuelPercent"><s>Auto Refuel %</s><r>Автоматическая заправка %</r></e>
+  <e k="K" key="VF_AutoRefuelPercentTooltip"><s>Colonists will attempt to refuel the vehicle when fuel gets below this percent.</s><r>Колонисты попытаются заправить машину, когда уровень топлива упадет ниже этого процента.</r></e>
+  <e k="K" key="VF_AutoTargetingDisabled"><s>AutoTargeting is not allowed for this turret.</s><r>Для этой турели не разрешен автотаргетинг.</r></e>
+  <e k="K" key="VF_BaseArmorRating"><s>Base armor rating: {0}</s><r>Базовый рейтинг брони: {0}</r></e>
+  <e k="K" key="VF_BeachGenMultiplier"><s>Beach Size Multiplier</s><r>Множитель размера пляжа</r></e>
+  <e k="K" key="VF_BeachGenMultiplierTooltip"><s>Increase the amount of water on the coastline.</s><r>Увеличьте количество воды на береговой линии.</r></e>
+  <e k="K" key="VF_BoardFailureNonCombatant"><s>{0} is incapable of violence</s><r>{0} не способен на насилие</r></e>
+  <e k="K" key="VF_BoardFailureTooMany"><s>Too many selected</s><r>Слишком много выбрано</r></e>
+  <e k="K" key="VF_BoardVehicle"><s>Board as {0}  [{1}]</s><r>Доска как {0} [{1}]</r></e>
+  <e k="K" key="VF_BoardVehicleGroup"><s>Board {0}</s><r>Доска {0}</r></e>
+  <e k="K" key="VF_BoardVehicleGroupFail"><s>Cannot board {0}. {1}</s><r>Невозможно подняться на борт {0}. {1}</r></e>
+  <e k="K" key="VF_BoatSunk"><s>Boat Sunk</s><r>Лодка затонула</r></e>
+  <e k="K" key="VF_BoatSunkDesc"><s>{0} has sunk to the depths of the ocean.</s><r>{0} погрузился в глубины океана.</r></e>
+  <e k="K" key="VF_BoatSunkWithPawnsDesc"><s>{0} has sunk to the depths of the ocean. 
+
+It has taken the following pawns down with it:
+{1}</s><r>{0} погрузился в глубины океана. 
+
+Он забрал с собой следующие пешки:
+{1}</r></e>
+  <e k="K" key="VF_BurstDisabledFromCrash"><s>RimWorld crashed while attempting to load Vehicle Framework's external burst library.  It has been disabled to prevent further crashes, but can re-enabled from the mod settings.  This won't affect gameplay, the external burst library is only for performance.</s><r>Ошибка RimWorld при попытке загрузить внешнюю библиотеку пакетов Vehicle Framework.  Он был отключен, чтобы предотвратить дальнейшие сбои, но его можно повторно включить в настройках мода.  Это не повлияет на игровой процесс, внешняя библиотека Burst предназначена только для повышения производительности.</r></e>
+  <e k="K" key="VF_CanAdaptToEMP"><s>Can Adapt</s><r>Может адаптироваться</r></e>
+  <e k="K" key="VF_CanAdaptToEMPTooltip"><s>Can adapt to emp damage and become temporarily immune from stuns.</s><r>Может адаптироваться к урону от ЭМ и стать временно невосприимчивым к оглушению.</r></e>
+  <e k="K" key="VF_CanCaravan"><s>Caravan</s><r>Караван</r></e>
+  <e k="K" key="VF_CanCaravanTooltip"><s>Vehicle is able to be taken on caravans.</s><r>Транспортное средство можно перевозить в караванах.</r></e>
+  <e k="K" key="VF_CanRoofPunch"><s>Can Roof Punch</s><r>Может ли пробойник крыши</r></e>
+  <e k="K" key="VF_CanRoofPunchTooltip"><s>Vehicle can punch through roofs when landing.</s><r>Транспортное средство может пробить крышу при приземлении.</r></e>
+  <e k="K" key="VF_CancelUpgrade"><s>Cancel the upgrade that is in progress for {0}.</s><r>Отмените обновление, которое выполняется для {0}.</r></e>
+  <e k="K" key="VF_CannotAddToCargo"><s>{0} cannot be added to cargo.</s><r>{0} нельзя добавить к грузу.</r></e>
+  <e k="K" key="VF_CannotFit"><s>{0_labelShort} cannot reach destination. Not enough space.</s><r>{0_labelShort} не может достичь пункта назначения. Недостаточно места.</r></e>
+  <e k="K" key="VF_CannotLaunchImmobile"><s>{0} cannot launch without being able to move.</s><r>{0} не может запуститься, не имея возможности двигаться.</r></e>
+  <e k="K" key="VF_CannotLaunchOverEncumbered"><s>{0} cannot launch while over-encumbered.</s><r>{0} не может запуститься, если он перегружен.</r></e>
+  <e k="K" key="VF_CannotLaunchRotated"><s>{0} cannot launch at an angle.</s><r>{0} не может запускаться под углом.</r></e>
+  <e k="K" key="VF_CannotLaunchWhileMoving"><s>Cannot launch while {0} is moving.</s><r>Невозможно запустить, пока {0} движется.</r></e>
+  <e k="K" key="VF_CannotMoveToCell"><s>{0} cannot reach this area.</s><r>{0} не может достичь этой области.</r></e>
+  <e k="K" key="VF_CantAssignVehicle"><s>Not enough pawns for {0}.</s><r>Недостаточно пешек для {0}.</r></e>
+  <e k="K" key="VF_CantEnterVehicle_IdeoligionForbids"><s>Can't enter vehicle. Forbidden by ideoligion.</s><r>Не могу войти в транспортное средство. Запрещено идеологией.</r></e>
+  <e k="K" key="VF_CantLoadInVehicle"><s>Cannot load {0_labelShort} in {1_labelShort}</s><r>Невозможно загрузить {0_labelShort} в {1_labelShort}</r></e>
+  <e k="K" key="VF_CantMergeAerialVehicle"><s>Cannot merge aerial vehicles.</s><r>Невозможно объединить летательные аппараты.</r></e>
+  <e k="K" key="VF_CantRefuelWhileFlying"><s>Cannot refuel {0} while inflight.</s><r>Невозможно дозаправить {0} во время полета.</r></e>
+  <e k="K" key="VF_CaravanCantMove"><s>Unable to move.</s><r>Невозможно двигаться.</r></e>
+  <e k="K" key="VF_CaravanCantReachExit"><s>Unable to reach map edge.</s><r>Невозможно достичь края карты.</r></e>
+  <e k="K" key="VF_CaravanDisabled"><s>Caravaning disabled.</s><r>Караванинг отключен.</r></e>
+  <e k="K" key="VF_CaravanMustHaveAtLeastOneVehicle"><s>Must have at least 1 vehicle selected in order to choose a route.</s><r>Для выбора маршрута необходимо выбрать хотя бы 1 транспортное средство.</r></e>
+  <e k="K" key="VF_CaravanMustHaveEnoughPawnsToOperate"><s>Not enough Pawns selected to set sail. Need {0}</s><r>Недостаточно выбрано пешек, чтобы отправиться в плавание. Нужно {0}</r></e>
+  <e k="K" key="VF_CaravanMustHaveEnoughSpaceOnShip"><s>Not enough space on ships to house all pawns.</s><r>На кораблях недостаточно места, чтобы разместить всех пешек.</r></e>
+  <e k="K" key="VF_CaravanTerminatedNoVehicles"><s>Caravan process has been terminated. No vehicles remain.</s><r>Караванный процесс прекращен. Транспортных средств не осталось.</r></e>
+  <e k="K" key="VF_Caravan_Cargo"><s>Cargo</s><r>Груз</r></e>
+  <e k="K" key="VF_Caravan_Dismounted"><s>Dismounted</s><r>Спешенный</r></e>
+  <e k="K" key="VF_Caravan_MoveSpeed"><s>Amount of tiles traveled in 1 day.</s><r>Количество плиток, пройденных за 1 день.</r></e>
+  <e k="K" key="VF_Cargo"><s>Cargo</s><r>Груз</r></e>
+  <e k="K" key="VF_CarryToVehicle"><s>Carry {0_labelShort} to {1_labelShort}</s><r>Перенесите {0_labelShort} в {1_labelShort}</r></e>
+  <e k="K" key="VF_ChanceToRunOverFriendlies"><s>Friendly Fire Chance</s><r>Шанс дружественного огня</r></e>
+  <e k="K" key="VF_ChanceToRunOverFriendliesTooltip"><s>Chance to run over friendly pawns.</s><r>Шанс наехать на дружественные пешки.</r></e>
+  <e k="K" key="VF_ClearSeats"><s>Clear</s><r>Прозрачный</r></e>
+  <e k="K" key="VF_CollisionMultiplier"><s>Pawn Damage</s><r>Пешка урона</r></e>
+  <e k="K" key="VF_CollisionMultiplierTooltip"><s>Multiplier for damage applied to pawns being run over by vehicles.</s><r>Множитель урона, нанесенного пешкам, которых переехала техника.</r></e>
+  <e k="K" key="VF_CollisionVehicleMultiplier"><s>Vehicle Damage</s><r>Повреждения автомобиля</r></e>
+  <e k="K" key="VF_CollisionVehicleMultiplierTooltip"><s>Multiplier for damage applied to the vehicle when running over a pawn.</s><r>Множитель урона, нанесенного транспортному средству при наезде на пешку.</r></e>
+  <e k="K" key="VF_Colonists"><s>Colonists</s><r>Колонисты</r></e>
+  <e k="K" key="VF_ColorOne"><s>Color 1</s><r>Цвет 1</r></e>
+  <e k="K" key="VF_ColorPickerHex"><s>Hex</s><r>Шестигранник</r></e>
+  <e k="K" key="VF_ColorThree"><s>Color 3</s><r>Цвет 3</r></e>
+  <e k="K" key="VF_ColorTwo"><s>Color 2</s><r>Цвет 2</r></e>
+  <e k="K" key="VF_CombatPower"><s>Combat Power</s><r>Боевая мощь</r></e>
+  <e k="K" key="VF_CombatPowerTooltip"><s>Combat points vehicle costs in order to generate in an event.</s><r>Затраты боевых очков на транспортное средство для получения в событии.</r></e>
+  <e k="K" key="VF_CombatSettings"><s>Combat</s><r>Бой</r></e>
+  <e k="K" key="VF_CommandAttackDockDisable"><s>Cannot attack {0} while docked.</s><r>Невозможно атаковать {0}, пока он пристыкован.</r></e>
+  <e k="K" key="VF_CommandDisembark"><s>Stash vehicles</s><r>Тайник транспортных средств</r></e>
+  <e k="K" key="VF_CommandDisembarkDesc"><s>Leave all vehicles behind and go on foot.  Vehicles will remain on the world map for up to 20-30 days.</s><r>Оставьте все транспортные средства и идите пешком.  Транспорт останется на карте мира до 20-30 дней.</r></e>
+  <e k="K" key="VF_CommandDisembarkImpassableBiome"><s>Cannot disembark, tile is impassable for colonists.</s><r>Невозможно высадиться, клетка непроходима для колонистов.</r></e>
+  <e k="K" key="VF_CommandFormVehicleCaravan"><s>Form Vehicle Caravan</s><r>Форма автомобиля Караван</r></e>
+  <e k="K" key="VF_CommandFormVehicleCaravanDesc"><s>Form caravan with vehicles included.</s><r>Сформируйте караван с включенными транспортными средствами.</r></e>
+  <e k="K" key="VF_CommandReformVehicleCaravan"><s>Reform Vehicle Caravan</s><r>Реформа Автомобильного Каравана</r></e>
+  <e k="K" key="VF_CommandReformVehicleCaravanDesc"><s>Reform vehicle caravan with vehicles selected.</s><r>Реформировать автоприцеп с выбранными транспортными средствами.</r></e>
+  <e k="K" key="VF_CommandTradeDockDisable"><s>Cannot trade with {0}. Must dock boat first</s><r>Невозможно торговать с {0}. Сначала необходимо пришвартовать лодку</r></e>
+  <e k="K" key="VF_ComponentArmor"><s>Armor</s><r>Броня</r></e>
+  <e k="K" key="VF_ComponentClickMoreInfoTooltip"><s>Click for detailed information.</s><r>Нажмите для получения подробной информации.</r></e>
+  <e k="K" key="VF_ComponentEfficiency"><s>Efficiency</s><r>Эффективность</r></e>
+  <e k="K" key="VF_ComponentHealth"><s>Health</s><r>Здоровье</r></e>
+  <e k="K" key="VF_ConfirmationCancelLanding"><s>Cancel landing in this map? Aerial vehicle will be kicked out to the world map.</s><r>Отменить посадку на этой карте? Летательный аппарат будет выброшен на карту мира.</r></e>
+  <e k="K" key="VF_ControlInFlight"><s>Control in Flight</s><r>Управление в полете</r></e>
+  <e k="K" key="VF_ControlInFlightTooltip"><s>Control the aerial vehicle while it is in flight. Allows for changing of flight paths midflight, choosing your landing after loading a map, and strafing maps that have not yet been loaded.</s><r>Управляйте летательным аппаратом во время его полета. Позволяет менять траектории полета во время полета, выбирать место посадки после загрузки карты и обстреливать еще не загруженные карты.</r></e>
+  <e k="K" key="VF_CrewCount"><s>Crew</s><r>Экипаж</r></e>
+  <e k="K" key="VF_CrewCountDesc"><s>Number of crew and passengers that can fit inside of this vehicle.</s><r>Количество экипажа и пассажиров, которые могут поместиться внутри этого автомобиля.</r></e>
+  <e k="K" key="VF_CustomShaders"><s>Use RGB Shaders</s><r>Используйте RGB-шейдеры</r></e>
+  <e k="K" key="VF_CustomShadersTooltip"><s>Enable use of custom shaders provided by the framework.</s><r>Включите использование пользовательских шейдеров, предоставляемых платформой.</r></e>
+  <e k="K" key="VF_DebugDisabledTooltip"><s>Disabled for all Vehicles at this time.</s><r>В настоящее время отключено для всех транспортных средств.</r></e>
+  <e k="K" key="VF_DelayOnLanding"><s>Delay on Landing</s><r>Задержка при посадке</r></e>
+  <e k="K" key="VF_DelayOnLandingTooltip"><s>When an aerial vehicle lands the deployment of all pawns will be delayed.</s><r>Когда летательный аппарат приземлится, размещение всех пешек будет отложено.</r></e>
+  <e k="K" key="VF_DelaySeconds"><s>seconds</s><r>секунды</r></e>
+  <e k="K" key="VF_Deploy"><s>Deploy</s><r>Развертывать</r></e>
+  <e k="K" key="VF_DeployDescription"><s>Deploy vehicle to enable use of turrets.</s><r>Разверните транспортное средство, чтобы можно было использовать турели.</r></e>
+  <e k="K" key="VF_DeployOnLanding"><s>Deploy on Landing</s><r>Развертывание на приземлении</r></e>
+  <e k="K" key="VF_DeployOnLandingTooltip"><s>When an aerial vehicle lands all pawns onboard will be unloaded.</s><r>Когда летательный аппарат приземлится, все пешки на борту будут выгружены.</r></e>
+  <e k="K" key="VF_DeployTime"><s>Deploy Time</s><r>Время развертывания</r></e>
+  <e k="K" key="VF_Depth"><s>Depth</s><r>Глубина</r></e>
+  <e k="K" key="VF_Depth_External"><s>External</s><r>Внешний</r></e>
+  <e k="K" key="VF_Depth_Internal"><s>Internal</s><r>Внутренний</r></e>
+  <e k="K" key="VF_Depth_Undefined"><s>Undefined</s><r>Неопределенный</r></e>
+  <e k="K" key="VF_DevMode"><s>DevMode</s><r>Режим разработчика</r></e>
+  <e k="K" key="VF_DevMode_DebugDraftAnyVehicle"><s>Draft Any Vehicle</s><r>Проект любого автомобиля</r></e>
+  <e k="K" key="VF_DevMode_DebugDraftAnyVehicleTooltip"><s>Be able to draft and move any vehicle regardless of passengers. Useful for empty boats in deep water or if you want to expedite testing.</s><r>Уметь проектировать и перемещать любое транспортное средство независимо от пассажиров. Полезно для пустых лодок на глубокой воде или если вы хотите ускорить тестирование.</r></e>
+  <e k="K" key="VF_DevMode_DebugDrawBumpers"><s>Draw Vehicle Bumpers</s><r>Рисуем бамперы автомобилей</r></e>
+  <e k="K" key="VF_DevMode_DebugDrawBumpersTooltip"><s>Draw cells immediately in front of vehicle that will indicate when the vehicle &quot;bumps&quot; into something and halts pathing.</s><r>Нарисуйте ячейки непосредственно перед транспортным средством, которые будут указывать, когда транспортное средство «врезается» во что-то и прекращает движение.</r></e>
+  <e k="K" key="VF_DevMode_DebugDrawFleePoints"><s>Draw Flee Points</s><r>Нарисуйте очки бегства</r></e>
+  <e k="K" key="VF_DevMode_DebugDrawFleePointsTooltip"><s>Draw pawns' attempts to flee from incoming vehicle collisions.</s><r>Нарисуйте попытки пешек убежать от приближающихся столкновений транспортных средств.</r></e>
+  <e k="K" key="VF_DevMode_DebugDrawGrid"><s>Draw Debug Grid</s><r>Рисовать сетку отладки</r></e>
+  <e k="K" key="VF_DevMode_DebugDrawGridTooltip"><s>Draws debug grid values for the selected type.</s><r>Рисует значения сетки отладки для выбранного типа.</r></e>
+  <e k="K" key="VF_DevMode_DebugDrawHitbox"><s>Draw Hitbox</s><r>Нарисовать хитбокс</r></e>
+  <e k="K" key="VF_DevMode_DebugDrawHitboxTooltip"><s>Draw vehicle's hitbox by highlighting the map cells the vehicle occupies.</s><r>Нарисуйте хитбокс автомобиля, выделив ячейки карты, которые он занимает.</r></e>
+  <e k="K" key="VF_DevMode_DebugDrawLordMeetingPoint"><s>Draw Lord Meeting Point</s><r>Нарисуйте место встречи лорда</r></e>
+  <e k="K" key="VF_DevMode_DebugDrawLordMeetingPointTooltip"><s>Highlights the cell where the Form Vehicle Caravan meeting point has been set.</s><r>Выделяет ячейку, в которой установлена ​​точка встречи Form Vehicle Caravan.</r></e>
+  <e k="K" key="VF_DevMode_DebugDrawPathfinderSearch"><s>Draw Pathfinder Search</s><r>Нарисовать Pathfinder Поиск</r></e>
+  <e k="K" key="VF_DevMode_DebugDrawPathfinderSearchTooltip"><s>Draws Pathfinder search as it opens and closes nodes searching for a path.  Will also show chunk search if Hierarchal Pathfinding is enabled. Pathfinder is intentionally slowed down in order to clearly show the process, as the async search is too fast in most cases to view.</s><r>Отрисовывает поиск Pathfinder при открытии и закрытии узлов поиска пути.  Также будет отображаться поиск фрагментов, если включен иерархический поиск пути. Pathfinder намеренно замедлен, чтобы наглядно показать процесс, поскольку асинхронный поиск в большинстве случаев слишком быстр для просмотра.</r></e>
+  <e k="K" key="VF_DevMode_DebugDrawUpgradeNodeGrid"><s>Draw UpgradeTree Grid</s><r>Нарисовать сетку дерева обновления</r></e>
+  <e k="K" key="VF_DevMode_DebugDrawUpgradeNodeGridTooltip"><s>Draw UpgradeTree grid for placement on (x,y) axis.</s><r>Нарисуйте сетку UpgradeTree для размещения на оси (x,y).</r></e>
+  <e k="K" key="VF_DevMode_DebugDrawVehiclePathingCosts"><s>Draw Path Costs</s><r>Стоимость пути рисования</r></e>
+  <e k="K" key="VF_DevMode_DebugDrawVehiclePathingCostsTooltip"><s>Draw costs per cell/tile calculated from pathfinder. Shows accumulated path cost.</s><r>Стоимость рисования на ячейку/плиту рассчитывается с помощью Pathfinder. Показывает накопленную стоимость пути.</r></e>
+  <e k="K" key="VF_DevMode_DebugDrawVehicleTracks"><s>Draw VehicleTracks</s><r>Рисовать следы транспортных средств</r></e>
+  <e k="K" key="VF_DevMode_DebugDrawVehicleTracksTooltip"><s>Draw cells occupied by vehicle's &quot;VehicleTracks&quot; which mark what cells will end up being damaged per move action.</s><r>Нарисуйте ячейки, занятые «VehicleTracks» транспортного средства, которые отмечают, какие ячейки будут повреждены в результате действия движения.</r></e>
+  <e k="K" key="VF_DevMode_DebugInstantSendOff"><s>Instant Aerial Launch</s><r>Мгновенный запуск с воздуха</r></e>
+  <e k="K" key="VF_DevMode_DebugInstantSendOffTooltip"><s>Instantly send aerial vehicles to the map, skipping animations and any other misc. wait time.</s><r>Мгновенно отправляйте летательные аппараты на карту, пропуская анимацию и прочее. время ожидания.</r></e>
+  <e k="K" key="VF_DevMode_DebugLogging"><s>Log debug information.</s><r>Записывать отладочную информацию.</r></e>
+  <e k="K" key="VF_DevMode_DebugLoggingTooltip"><s>Enable message logging to output specific values and pieces of information useful for debugging Vehicles. Use only if you're making a Vehicle add-on.</s><r>Включите ведение журнала сообщений для вывода определенных значений и фрагментов информации, полезных для отладки транспортных средств. Используйте только в том случае, если вы создаете надстройку «Транспортное средство».</r></e>
+  <e k="K" key="VF_DevMode_DebugPathfinderDebugging"><s>Local Pathing</s><r>Локальный путь</r></e>
+  <e k="K" key="VF_DevMode_DebugPathfinderDebuggingTooltip"><s>Open menu for debugging various outputs of pathfinding (both cell based and region based)</s><r>Открытое меню для отладки различных результатов поиска пути (как на основе ячейки, так и на основе региона)</r></e>
+  <e k="K" key="VF_DevMode_DebugShootAnyTurret"><s>Shoot Any Turret</s><r>Стреляйте в любую турель</r></e>
+  <e k="K" key="VF_DevMode_DebugShootAnyTurretTooltip"><s>Be able to shoot any turret regardless if the turret is being operated.</s><r>Уметь стрелять в любую турель независимо от того, используется ли она.</r></e>
+  <e k="K" key="VF_DevMode_DebugSpawnVehiclesGodMode"><s>Spawn Vehicle Buildings (god mode)</s><r>Создание транспортных построек (режим бога)</r></e>
+  <e k="K" key="VF_DevMode_DebugSpawnVehiclesGodModeTooltip"><s>Vehicle blueprints being placed in godmode will spawn the Building variant as opposed to generating a VehiclePawn for spawning.</s><r>Чертежи транспортных средств, помещенные в режим бога, будут порождать вариант здания, а не создавать VehiclePawn для появления.</r></e>
+  <e k="K" key="VF_DevMode_DebugWorldPathfinderDebugging"><s>World Pathing</s><r>Мировой путь</r></e>
+  <e k="K" key="VF_DevMode_DebugWorldPathfinderDebuggingTooltip"><s>Open menu for debugging WorldPathGrid for any VehicleDef.</s><r>Открыть меню для отладки WorldPathGrid для любого VehicleDef.</r></e>
+  <e k="K" key="VF_DevMode_Drawers"><s>Visual Help</s><r>Визуальная помощь</r></e>
+  <e k="K" key="VF_DevMode_GraphEditor"><s>Graph Editor</s><r>Редактор графиков</r></e>
+  <e k="K" key="VF_DevMode_LogThreadActivity"><s>Log Thread Activity</s><r>Журнал активности потока</r></e>
+  <e k="K" key="VF_DevMode_LogThreadActivityTooltip"><s>Log ongoing async actions on the dedicated thread of the current map in view.</s><r>Регистрируйте текущие асинхронные действия в выделенном потоке текущей карты.</r></e>
+  <e k="K" key="VF_DevMode_Logging"><s>Logging</s><r>Ведение журнала</r></e>
+  <e k="K" key="VF_DevMode_OpenQuickTestSettings"><s>Quick Test Menu</s><r>Меню быстрого тестирования</r></e>
+  <e k="K" key="VF_DevMode_Pathing"><s>Pathing</s><r>Путь</r></e>
+  <e k="K" key="VF_DevMode_ResetAll"><s>Reset All Settings</s><r>Сбросить все настройки</r></e>
+  <e k="K" key="VF_DevMode_ResetAllConfirmation"><s>Are you sure you want to reset all settings to original values? If you were locked out of the Mod Settings from an exception, you will need to restart after the reset.</s><r>Вы уверены, что хотите сбросить все настройки до исходных значений? Если вы были заблокированы в настройках мода из-за исключения, вам потребуется перезагрузить компьютер после сброса.</r></e>
+  <e k="K" key="VF_DevMode_ResetAllVehicles"><s>Reset All Vehicles</s><r>Сбросить все транспортные средства</r></e>
+  <e k="K" key="VF_DevMode_ResetPage"><s>Reset Page</s><r>Сбросить страницу</r></e>
+  <e k="K" key="VF_DevMode_ResetVehicle"><s>Reset {0}</s><r>Сброс {0}</r></e>
+  <e k="K" key="VF_DevMode_ShowRecentNews"><s>Show Most Recent News</s><r>Показать самые последние новости</r></e>
+  <e k="K" key="VF_DevMode_Troubleshooting"><s>Troubleshooting</s><r>Поиск неисправностей</r></e>
+  <e k="K" key="VF_DiagonalVehicleRendering"><s>Allow Diagonal Rendering</s><r>Разрешить диагональный рендеринг</r></e>
+  <e k="K" key="VF_DiagonalVehicleRenderingTooltip"><s>Vehicles that support diagonal rendering will do so when set to diagonal rotations (NorthEast, SouthEast, SouthWest, NorthWest)</s><r>Транспортные средства, поддерживающие диагональный рендеринг, будут делать это, если для них установлено диагональное вращение (Северо-Восток, Юго-Восток, Юго-Запад, Северо-Запад).</r></e>
+  <e k="K" key="VF_DisabledByVehicleUpgrading"><s>{0} is being upgraded.</s><r>{0} обновляется.</r></e>
+  <e k="K" key="VF_DisabledFromOtherNode"><s>Inaccessible, disabled from other upgrade.</s><r>Недоступно, отключено при другом обновлении.</r></e>
+  <e k="K" key="VF_DisabledMultipleModsDependencyTooltip"><s>Disabled. Compatible mods not in active mod list: {0}</s><r>Неполноценный. Совместимые моды, которых нет в списке активных модов: {0}</r></e>
+  <e k="K" key="VF_DisabledSingleModDependencyTooltip"><s>Disabled. Compatible mod not in active mod list: {0}</s><r>Неполноценный. Совместимый мод отсутствует в списке активных модов: {0}</r></e>
+  <e k="K" key="VF_DischargePerTick"><s>Discharge Rate</s><r>Скорость разряда</r></e>
+  <e k="K" key="VF_DischargePerTickTooltip"><s>Amount per tick in which battery loses its charge.</s><r>Количество за тик, в течение которого батарея теряет заряд.</r></e>
+  <e k="K" key="VF_DisembarkAllPawns"><s>Unload everyone</s><r>Разгрузить всех</r></e>
+  <e k="K" key="VF_DisembarkNoExit"><s>Unable to exit vehicle. No valid cells to exit onto.</s><r>Невозможно выйти из автомобиля. Нет допустимых ячеек для выхода.</r></e>
+  <e k="K" key="VF_DisembarkSinglePawn"><s>Unload {0}</s><r>Выгрузить {0}</r></e>
+  <e k="K" key="VF_DockToCaravan"><s>Items to Take</s><r>Предметы, которые нужно взять</r></e>
+  <e k="K" key="VF_DoubleClickShuttleTarget"><s>Click to Confirm Destination</s><r>Нажмите, чтобы подтвердить пункт назначения</r></e>
+  <e k="K" key="VF_DraftVehicleDesc"><s>Drafts vehicle allowing it to move. This will consume fuel if applicable even if the vehicle is idle.</s><r>Тяга автомобиля позволяет ему двигаться. Это приведет к расходу топлива, если это применимо, даже если автомобиль находится на холостом ходу.</r></e>
+  <e k="K" key="VF_DrawLandingGhost"><s>Draw Landing Spot</s><r>Нарисовать место приземления</r></e>
+  <e k="K" key="VF_DrawLandingGhostTooltip"><s>Draws a transparent 'blueprint' where an aerial vehicle is landing.</s><r>Рисует прозрачный «план» места приземления летательного аппарата.</r></e>
+  <e k="K" key="VF_DynamicDrawing"><s>Dynamic Drawing</s><r>Динамическое рисование</r></e>
+  <e k="K" key="VF_DynamicDrawingTooltip"><s>Render aerial vehicles on the world map when zoomed in.</s><r>Рендеринг летательных аппаратов на карте мира при увеличении.</r></e>
+  <e k="K" key="VF_EMPStuns"><s>EMP Stuns</s><r>ЭМИ-оглушения</r></e>
+  <e k="K" key="VF_EMPStunsTooltip"><s>EMP weapons will temporarily disable this vehicle.</s><r>ЭМИ-оружие временно выведет из строя эту машину.</r></e>
+  <e k="K" key="VF_EditPawnOverlayRendererTooltip"><s>Edit Pawn Overlay</s><r>Редактировать наложение пешки</r></e>
+  <e k="K" key="VF_EfficiencyEffector"><s>Stats Effected</s><r>Статистика изменена</r></e>
+  <e k="K" key="VF_ElectricFlick"><s>Toggle connecting to the power grid.</s><r>Переключить подключение к электросети.</r></e>
+  <e k="K" key="VF_ElectricFlickDesc"><s>When on top of a power conduit, this connects to the power grid and transfers energy to recharge its battery.
+
+Currently connected: {0}</s><r>Находясь наверху силового кабеля, он подключается к электросети и передает энергию для подзарядки аккумулятора.
+
+В настоящее время подключено: {0}</r></e>
+  <e k="K" key="VF_Electricity"><s>Electricity</s><r>Электричество</r></e>
+  <e k="K" key="VF_EnableButtonTooltip"><s>If disabled this vehicle will not be available in-game. Applies to both the player and NPC factions.</s><r>Если этот параметр отключен, этот автомобиль не будет доступен в игре. Применяется как к игрокам, так и к фракциям NPC.</r></e>
+  <e k="K" key="VF_ExplosiveComponent"><s>Explosive</s><r>Взрывоопасный</r></e>
+  <e k="K" key="VF_ExplosiveDamageMultiplier"><s>Explosive Damage Multiplier</s><r>Множитель взрывного урона</r></e>
+  <e k="K" key="VF_FireModes"><s>Firing Modes</s><r>Режимы стрельбы</r></e>
+  <e k="K" key="VF_FireModesTooltip"><s>Rates of fire this turret can be set to.</s><r>Скорострельность этой турели может быть установлена.</r></e>
+  <e k="K" key="VF_Fishing"><s>Fishing</s><r>Рыбалка</r></e>
+  <e k="K" key="VF_FishingEnabled"><s>Can Fish</s><r>Можно ловить рыбу</r></e>
+  <e k="K" key="VF_FishingEnabledTooltip"><s>Enables fishing when stationary over water.</s><r>Позволяет ловить рыбу, находясь над водой.</r></e>
+  <e k="K" key="VF_FishingInVehicle"><s>Fishing from {0}.</s><r>Рыбалка от {0}.</r></e>
+  <e k="K" key="VF_FishingInactive"><s>Fishing (Inactive)</s><r>Рыбалка (Неактивно)</r></e>
+  <e k="K" key="VF_FishingMultiplier"><s>Fishing Multiplier</s><r>Рыболовный множитель</r></e>
+  <e k="K" key="VF_FishingMultiplierTooltip"><s>Adjust the amount of fish gathered from fishing boat.</s><r>Отрегулируйте количество рыбы, выловленной с рыбацкой лодки.</r></e>
+  <e k="K" key="VF_FishingSkill"><s>Fishing Skill</s><r>Рыболовный навык</r></e>
+  <e k="K" key="VF_FishingSkillTooltip"><s>How much exp is given by fishing on a boat</s><r>Сколько опыта дает рыбалка на лодке</r></e>
+  <e k="K" key="VF_FlightPathMaxNodes"><s>Maximum nodes for {0}'s flight path has been reached.</s><r>Достигнуто максимальное количество узлов для траектории полета {0}.</r></e>
+  <e k="K" key="VF_ForceLeaveCaravan"><s>Force to Leave</s><r>Заставить уйти</r></e>
+  <e k="K" key="VF_ForceLeaveCaravanDesc"><s>Force Vehicle Caravan to leave the map. Will skip loading whatever items are not currently onboard</s><r>Заставьте автомобильный караван покинуть карту. Пропустит загрузку всех элементов, которых в данный момент нет на борту.</r></e>
+  <e k="K" key="VF_ForceLeaveConfirmation"><s>Crew is preparing to leave.</s><r>Экипаж готовится к выходу.</r></e>
+  <e k="K" key="VF_FormingCaravanStatus_BoardVehicles"><s>Boarding.</s><r>Посадка.</r></e>
+  <e k="K" key="VF_FormingCaravanStatus_BoardVehicles_Pause"><s>Boarding. (waiting)</s><r>Посадка. (ожидающий)</r></e>
+  <e k="K" key="VF_FormingCaravanStatus_Leaving_Vehicles"><s>Leaving.</s><r>Уход.</r></e>
+  <e k="K" key="VF_FormingCaravanStatus_Leaving_Vehicles_Pause"><s>Leaving. (waiting)</s><r>Уход. (ожидающий)</r></e>
+  <e k="K" key="VF_FormingCaravanStatus_RopingAnimals"><s>Roping animals to vehicles.</s><r>Привязывание животных к транспортным средствам.</r></e>
+  <e k="K" key="VF_FormingCaravanStatus_RopingAnimals_Pause"><s>Roping animals to vehicles. (waiting)</s><r>Привязывание животных к транспортным средствам. (ожидающий)</r></e>
+  <e k="K" key="VF_Fuel"><s>Fuel</s><r>Топливо</r></e>
+  <e k="K" key="VF_FuelCapacity"><s>Fuel Capacity</s><r>Запас топлива</r></e>
+  <e k="K" key="VF_FuelCapacityTooltip"><s>Amount of fuel that can be stored</s><r>Количество топлива, которое можно хранить</r></e>
+  <e k="K" key="VF_FuelConsumptionRate"><s>Fuel Consumption Rate</s><r>Норма расхода топлива</r></e>
+  <e k="K" key="VF_FuelConsumptionRateTooltip"><s>Fuel consumed per day.  Idle vehicles consume 50% less fuel.</s><r>Расход топлива за сутки.  Неработающие автомобили потребляют на 50% меньше топлива.</r></e>
+  <e k="K" key="VF_FuelConsumptionRateWorldMultiplier"><s>Fuel World %</s><r>Топливный мир %</r></e>
+  <e k="K" key="VF_FuelConsumptionRateWorldMultiplierTooltip"><s>Fuel consumption multiplier on the world map</s><r>Множитель расхода топлива на карте мира</r></e>
+  <e k="K" key="VF_FuelConsumptionWorld"><s>Fuel Consumption %</s><r>Расход топлива %</r></e>
+  <e k="K" key="VF_FuelConsumptionWorldTooltip"><s>Fuel consumption multiplier on the world map.</s><r>Множитель расхода топлива на карте мира.</r></e>
+  <e k="K" key="VF_FuelType"><s>Fuel Type</s><r>Тип топлива</r></e>
+  <e k="K" key="VF_FuelTypeDesc"><s>What resource this vehicle consumes in order to operate.</s><r>Какой ресурс потребляет данное транспортное средство для работы.</r></e>
+  <e k="K" key="VF_FueledTravelPropertes"><s>Fuel</s><r>Топливо</r></e>
+  <e k="K" key="VF_GearForward"><s>Forward</s><r>Вперед</r></e>
+  <e k="K" key="VF_GearReverse"><s>Reverse</s><r>Обеспечить регресс</r></e>
+  <e k="K" key="VF_GeneratingPathData"><s>Generating Vehicle PathData</s><r>Генерация данных о пути транспортного средства</r></e>
+  <e k="K" key="VF_GeneratingPathGrids"><s>Generating PathGrids</s><r>Генерация PathGrids</r></e>
+  <e k="K" key="VF_GeneratingRegions"><s>Generating Vehicle Regions</s><r>Генерация регионов транспортных средств</r></e>
+  <e k="K" key="VF_GizmoDisabledTooltip"><s>Disabled in the mod settings.</s><r>Отключено в настройках мода.</r></e>
+  <e k="K" key="VF_GraphicsSettings"><s>Graphics</s><r>Графика</r></e>
+  <e k="K" key="VF_HandlerNotEnoughRoom"><s>Failed to add {0} to {1}. No more space available.</s><r>Не удалось добавить {0} к {1}. Больше места нет.</r></e>
+  <e k="K" key="VF_HaulPawnToVehicle"><s>Load into {0_labelShort}</s><r>Загрузить в {0_labelShort}</r></e>
+  <e k="K" key="VF_IdleInVehicle"><s>These colonists are sitting idly in a vehicle:
+{0}
+
+You should probably find them something productive to do.</s><r>Эти колонисты без дела сидят в машине:
+{0}
+
+Наверное, вам стоит найти им какое-нибудь продуктивное занятие.</r></e>
+  <e k="K" key="VF_ImpassableBiome"><s>Biome impassable for this vehicle.</s><r>Биом непроходим для этой машины.</r></e>
+  <e k="K" key="VF_IncapableStatusForRole"><s>{0} is incapable of fulfilling this role.</s><r>{0} не способен выполнять эту роль.</r></e>
+  <e k="K" key="VF_IncidentCrashedSiteLabel_Crashing"><s>{0} Crash Landed</s><r>{0} Аварийная посадка</r></e>
+  <e k="K" key="VF_IncidentCrashedSiteLabel_ShotDown"><s>{1} Shot Down {0}</s><r>{1} Сбитый {0}</r></e>
+  <e k="K" key="VF_IncidentCrashedSiteReason_FlightControl"><s>Lost all flight control</s><r>Потерял весь контроль над полетом</r></e>
+  <e k="K" key="VF_IncidentCrashedSiteReason_OutOfFuel"><s>Ran out of fuel</s><r>Закончилось топливо</r></e>
+  <e k="K" key="VF_IncidentCrashedSite_Crashing"><s>{0} has crashed.</s><r>{0} разбился.</r></e>
+  <e k="K" key="VF_IncidentCrashedSite_ShotDown"><s>{0} has been shot down by {1}.</s><r>{0} был сбит {1}.</r></e>
+  <e k="K" key="VF_IncidentReasonLister"><s>
+
+Reason:
+ {0}</s><r>
+
+Причина:
+ {0}</r></e>
+  <e k="K" key="VF_Instant"><s>Instant</s><r>Мгновенный</r></e>
+  <e k="K" key="VF_InvalidName"><s>Name invalid for Vehicle.</s><r>Недопустимое имя для транспортного средства.</r></e>
+  <e k="K" key="VF_IsIncapableOfRamming"><s>Ram {0}</s><r>Рам {0}</r></e>
+  <e k="K" key="VF_JobLimitations"><s>Max Workers per Job</s><r>Макс. количество работников на работу</r></e>
+  <e k="K" key="VF_JobSettings"><s>Job Settings</s><r>Настройки задания</r></e>
+  <e k="K" key="VF_LandAndSeaRoutePlannerRestriction"><s>Cannot plan route for both Sea and Land vehicles. Paths will not register.</s><r>Невозможно спланировать маршрут для морских и наземных транспортных средств. Пути не будут регистрироваться.</r></e>
+  <e k="K" key="VF_LandVehicleCenter"><s>Land in {0} in center.</s><r>Приземлитесь в точке {0} в центре.</r></e>
+  <e k="K" key="VF_LandVehicleEdge"><s>Land in {0} at edge of map.</s><r>Приземлитесь в точке {0} на краю карты.</r></e>
+  <e k="K" key="VF_LandVehicleHere"><s>Land Vehicle Here</s><r>Наземный транспорт здесь</r></e>
+  <e k="K" key="VF_LandVehicleTargetedLanding"><s>Land in {0} and choose landing spot.</s><r>Приземлитесь в {0} и выберите место приземления.</r></e>
+  <e k="K" key="VF_LaunchFixedMaxDistance"><s>Fixed Max Distance</s><r>Фиксированное максимальное расстояние</r></e>
+  <e k="K" key="VF_LaunchFixedMaxDistanceDisabled"><s>None</s><r>Никто</r></e>
+  <e k="K" key="VF_LaunchFixedMaxDistanceTooltip"><s>Set a fixed max distance this vehicle can fly regardless of fuel level.</s><r>Установите фиксированное максимальное расстояние, которое может пролететь этот автомобиль независимо от уровня топлива.</r></e>
+  <e k="K" key="VF_LaunchOutOfFuel"><s>Cannot launch. Out of Fuel.</s><r>Не могу запустить. Закончилось топливо.</r></e>
+  <e k="K" key="VF_LauncherProperties"><s>Launch Properties</s><r>Запустить свойства</r></e>
+  <e k="K" key="VF_LeaveVehicleBehindCaravan"><s>Are you sure you want to leave Vehicles behind? Vehicles left behind: {0}</s><r>Вы уверены, что хотите оставить «Транспортные средства»? Оставленная техника: {0}</r></e>
+  <e k="K" key="VF_ListSearchText"><s>Search...</s><r>Поиск...</r></e>
+  <e k="K" key="VF_LoadCargo"><s>Load cargo</s><r>Загрузить груз</r></e>
+  <e k="K" key="VF_MagazineCapacity"><s>Magazine Capacity</s><r>Емкость магазина</r></e>
+  <e k="K" key="VF_MagazineCapacityTooltip"><s>How many shots this turret can shoot before having to reload.</s><r>Сколько выстрелов может произвести эта турель без перезарядки.</r></e>
+  <e k="K" key="VF_MainSettings"><s>Main</s><r>Основной</r></e>
+  <e k="K" key="VF_ManhunterTargetsVehicle"><s>Manhunter Targets</s><r>Цели Охотников за людьми</r></e>
+  <e k="K" key="VF_ManhunterTargetsVehicleTooltip"><s>Manhunter animals will target this vehicle if any colonist is inside. If the vehicle is empty, it will not be targeted.</s><r>Животные-охотники нападут на эту машину, если внутри окажется кто-нибудь из колонистов. Если машина пуста, она не будет атакована.</r></e>
+  <e k="K" key="VF_MaxAltitude"><s>Max Altitude</s><r>Максимальная высота</r></e>
+  <e k="K" key="VF_MaxAltitudeTooltip"><s>Maximum altitude this vehicle can achieve when in flight.</s><r>Максимальная высота, которую может достичь этот аппарат в полете.</r></e>
+  <e k="K" key="VF_MaxFallRate"><s>Max Fall Rate</s><r>Максимальная скорость падения</r></e>
+  <e k="K" key="VF_MaxFallRateTooltip"><s>Max amount this vehicle will descend when shot down or out of fuel.</s><r>Максимальная величина, на которую этот автомобиль опустится в случае сбития или отсутствия топлива.</r></e>
+  <e k="K" key="VF_MaxRange"><s>Max Range</s><r>Макс. дальность</r></e>
+  <e k="K" key="VF_MaxRangeTooltip"><s>The maximum range of this turret.</s><r>Максимальная дальность стрельбы этой турели.</r></e>
+  <e k="K" key="VF_MaxWorkers"><s>Max Workers</s><r>Макс Рабочие</r></e>
+  <e k="K" key="VF_MeleeDamageMultiplier"><s>Melee Damage Multiplier</s><r>Множитель урона в ближнем бою</r></e>
+  <e k="K" key="VF_MinRange"><s>Min Range</s><r>Мой диапазон</r></e>
+  <e k="K" key="VF_MinRangeTooltip"><s>The minimum range of this turret.</s><r>Минимальная дальность стрельбы этой турели.</r></e>
+  <e k="K" key="VF_MissingPrerequisiteUpgrade"><s>Missing prerequisites.</s><r>Недостающие предпосылки.</r></e>
+  <e k="K" key="VF_ModifiableSettings"><s>Modifiable Settings</s><r>Изменяемые настройки</r></e>
+  <e k="K" key="VF_ModifiableSettingsTooltip"><s>Toggle Modifiable Settings. Restarting with this disabled will bypass generation of modifiable settings.
+	
+Determines whether Vehicles should use values from the mod settings or Defs</s><r>Переключите изменяемые настройки. Перезапуск с отключенным параметром позволит избежать генерации изменяемых настроек.
+ 
+Определяет, должны ли транспортные средства использовать значения из настроек мода или Defs.</r></e>
+  <e k="K" key="VF_MovementPermissions"><s>Control Type</s><r>Тип управления</r></e>
+  <e k="K" key="VF_MultiplePawnsPerJob"><s>Multi-Pawn Jobs</s><r>Работа с несколькими пешками</r></e>
+  <e k="K" key="VF_MultiplePawnsPerJobTooltip"><s>Allows vehicle related jobs to allow more than 1 pawn to reserve and work on it. Max allowed pawns determined by modders.</s><r>Позволяет выполнять задания, связанные с транспортными средствами, позволяя зарезервировать и работать над ними более чем 1 пешке. Максимально разрешенное количество пешек определяется моддерами.</r></e>
+  <e k="K" key="VF_MultiplierFromOffRoad"><s>Multiplier from off road: {0}</s><r>Множитель от бездорожья: {0}</r></e>
+  <e k="K" key="VF_MultiplierFromRoad"><s>Multiplier from road: {0}</s><r>Множитель от дороги: {0}</r></e>
+  <e k="K" key="VF_MustAssignEnoughToVehicle"><s>Must assign enough colonists to man vehicle.</s><r>Необходимо назначить достаточное количество колонистов для перевозки людей.</r></e>
+  <e k="K" key="VF_MustBeDeployed"><s>Must be deployed.</s><r>Должен быть развернут.</r></e>
+  <e k="K" key="VF_MustBeUndeployed"><s>Must be undeployed.</s><r>Должно быть неразвернуто.</r></e>
+  <e k="K" key="VF_MustSelectColorPalette"><s>Must have a palette selected to save over.</s><r>Должна быть выбрана палитра для сохранения.</r></e>
+  <e k="K" key="VF_MustTargetLanding"><s>A landing destination must be chosen.</s><r>Необходимо выбрать место посадки.</r></e>
+  <e k="K" key="VF_Nameable"><s>Can Assign Name</s><r>Можно назначить имя</r></e>
+  <e k="K" key="VF_NameableTooltip"><s>Allow naming of this vehicle. Name will appear over the vehicle and will replace the displayed label.</s><r>Разрешить присвоение имени этому автомобилю. Имя появится над автомобилем и заменит отображаемую метку.</r></e>
+  <e k="K" key="VF_NavigationType"><s>Navigation</s><r>Навигация</r></e>
+  <e k="K" key="VF_NavigationTypeTooltip"><s>Navigation category for the World Map. Dictates when the Vehicle may move on the World Map.</s><r>Категория навигации для карты мира. Определяет, когда Транспортное средство может двигаться по карте мира.</r></e>
+  <e k="K" key="VF_NoAmmoAvailable"><s>No ammo available in inventory.</s><r>В инвентаре нет патронов.</r></e>
+  <e k="K" key="VF_NoAmmoLoadedTurret"><s>No ammo loaded.</s><r>Боеприпасы не заряжены.</r></e>
+  <e k="K" key="VF_NoFishAtSpot"><s>No fish at this location.</s><r>В этом месте рыбы нет.</r></e>
+  <e k="K" key="VF_NoFishermenTooltip"><s>No colonists onboard that are capable of fishing.</s><r>На борту нет колонистов, способных ловить рыбу.</r></e>
+  <e k="K" key="VF_NoFlightSpeed"><s>Unable to launch with Flight Speed = 0</s><r>Невозможно запустить со скоростью полета = 0.</r></e>
+  <e k="K" key="VF_NoFuelInVehicle"><s>No fuel in {0}.</s><r>Нет топлива в {0}.</r></e>
+  <e k="K" key="VF_NoFuelReturnTrip"><s>No return trip</s><r>Нет обратного пути</r></e>
+  <e k="K" key="VF_NoPathForVehicle"><s>{0_labelShort} cannot reach destination.</s><r>{0_labelShort} не может достичь пункта назначения.</r></e>
+  <e k="K" key="VF_NoRoleAvailable"><s>No seat available.</s><r>Нет свободных мест.</r></e>
+  <e k="K" key="VF_NoSpaceFlight"><s>{0} is incapable of space flight.</s><r>{0} не способен к космическим полетам.</r></e>
+  <e k="K" key="VF_NonUpgradeableSettingsTooltip"><s>This vehicle cannot be upgraded.</s><r>Этот автомобиль не может быть улучшен.</r></e>
+  <e k="K" key="VF_NotElectricPowered"><s>Not electric powered.</s><r>Не электрический.</r></e>
+  <e k="K" key="VF_NotEnoughCrew"><s>Not enough colonists to operate {0_labelShort}.</s><r>Недостаточно колонистов для управления {0_labelShort}.</r></e>
+  <e k="K" key="VF_NotEnoughCrewFor"><s>Not enough colonists in {0_labelShort} to operate {1}.</s><r>В {0_labelShort} недостаточно колонистов для управления {1}.</r></e>
+  <e k="K" key="VF_NotEnoughFuel"><s>Out of range</s><r>Вне диапазона</r></e>
+  <e k="K" key="VF_NotEnoughToOperate"><s>Cannot move. Needs more crew in order to operate.</s><r>Не могу двигаться. Для работы требуется больше экипажа.</r></e>
+  <e k="K" key="VF_OffRoadMultiplier"><s>Off Road Multiplier</s><r>Множитель для бездорожья</r></e>
+  <e k="K" key="VF_OffRoadMultiplierTooltip"><s>PathCost multiplier for traveling on roads.</s><r>Множитель PathCost для передвижения по дорогам.</r></e>
+  <e k="K" key="VF_OkName"><s>Confirm name</s><r>Подтвердите имя</r></e>
+  <e k="K" key="VF_OutOfFood"><s>No food in {0} with Pawns onboard.</s><r>В {0} нет еды с пешками на борту.</r></e>
+  <e k="K" key="VF_OutOfFuel"><s>Cannot move. {0} needs more fuel.</s><r>Не могу двигаться. {0} нужно больше топлива.</r></e>
+  <e k="K" key="VF_OverrideDrawColor"><s>Override Draw Color</s><r>Переопределить цвет рисования</r></e>
+  <e k="K" key="VF_OverrideDrawColorTooltip"><s>When any upgrade is applied that comes with a pattern or draw color, the previous paint job will be overridden.</s><r>При применении любого обновления, которое включает в себя узор или цвет рисования, предыдущее задание по рисованию будет переопределено.</r></e>
+  <e k="K" key="VF_PackingSpotNotFound"><s>Packing Spot was not found for Vehicle caravan. It is recommended you place a Packing Spot from Misc.</s><r>Место упаковки для автомобиля-фургона не найдено. Рекомендуется разместить место для упаковки вещей из раздела «Разное».</r></e>
+  <e k="K" key="VF_PaintableDesc"><s>Vehicle can be painted through color menu.</s><r>Транспортное средство можно раскрасить через меню цветов.</r></e>
+  <e k="K" key="VF_PassiveWaterWaves"><s>Passive Water Waves</s><r>Пассивные водные волны</r></e>
+  <e k="K" key="VF_PassiveWaterWavesTooltip"><s>Generate passive waves when boat is idle.</s><r>Генерируйте пассивные волны, когда лодка простаивает.</r></e>
+  <e k="K" key="VF_PatternDisplacementX"><s>Displacement X</s><r>Смещение X</r></e>
+  <e k="K" key="VF_PatternDisplacementXTooltip"><s>Moves texture along the horizontal axis.</s><r>Перемещает текстуру по горизонтальной оси.</r></e>
+  <e k="K" key="VF_PatternDisplacementY"><s>Displacement Y</s><r>Смещение Y</r></e>
+  <e k="K" key="VF_PatternDisplacementYTooltip"><s>Moves texture along the vertical axis.</s><r>Перемещает текстуру вдоль вертикальной оси.</r></e>
+  <e k="K" key="VF_PatternZoom"><s>Zoom</s><r>Увеличить</r></e>
+  <e k="K" key="VF_PatternZoomTooltip"><s>Scale the pattern up or down.</s><r>Масштабируйте узор вверх или вниз.</r></e>
+  <e k="K" key="VF_Patterns"><s>Patterns</s><r>Узоры</r></e>
+  <e k="K" key="VF_PawnBoardedFormingCaravan"><s>{0} has boarded the {1} and is ready for departure.</s><r>{0} сел на борт {1} и готов к вылету.</r></e>
+  <e k="K" key="VF_PawnsLeftBehindConfirm"><s>Not enough seats</s><r>Недостаточно мест</r></e>
+  <e k="K" key="VF_PawnsLeftBehindConfirmDesc"><s>Leave</s><r>Оставлять</r></e>
+  <e k="K" key="VF_PerDay"><s>/ day</s><r>/ день</r></e>
+  <e k="K" key="VF_PerformanceSettings"><s>Performance</s><r>Производительность</r></e>
+  <e k="K" key="VF_Properties"><s>Properties</s><r>Характеристики</r></e>
+  <e k="K" key="VF_RandomVehicle"><s>Random Vehicle</s><r>Случайный автомобиль</r></e>
+  <e k="K" key="VF_RangedDamageMultiplier"><s>Ranged Damage Multiplier</s><r>Множитель урона дальнего боя</r></e>
+  <e k="K" key="VF_RateOfClimb"><s>Rate of Climb</s><r>Скорость набора высоты</r></e>
+  <e k="K" key="VF_RateOfClimbTooltip"><s>Amount the vehicle ascends per tick.</s><r>Сумма подъема транспортного средства за такт.</r></e>
+  <e k="K" key="VF_RateOfFire"><s>Rate of fire</s><r>Скорострельность</r></e>
+  <e k="K" key="VF_RateOfFireValue"><s>{0} rounds / minute</s><r>{0} выстрелов в минуту</r></e>
+  <e k="K" key="VF_RecolorDefaultMaskTooltip"><s>Change default pattern</s><r>Изменить шаблон по умолчанию</r></e>
+  <e k="K" key="VF_RecolorTooltip"><s>Paint vehicle</s><r>Покраска автомобиля</r></e>
+  <e k="K" key="VF_ReconDistance"><s>Recon Distance</s><r>Расстояние разведки</r></e>
+  <e k="K" key="VF_ReconDistanceTooltip"><s>Distance in tiles the shuttle will be able to perform recon of a site or settlement.</s><r>Расстояние в клетках, на котором шаттл сможет выполнить разведку местности или поселения.</r></e>
+  <e k="K" key="VF_RecoverVehicles"><s>Recover vehicles</s><r>Восстановление транспортных средств</r></e>
+  <e k="K" key="VF_RefuelFromInventoryCount"><s>Refuel {0}x {1}</s><r>Заправиться {0}x {1}</r></e>
+  <e k="K" key="VF_RefuelFromInventoryDesc"><s>Refuel {0} using fuel stored in cargo.</s><r>Заправьте {0} топливом, хранящимся в грузе.</r></e>
+  <e k="K" key="VF_ReinforcementsArrived"><s>{0} has arrived with reinforcements to investigate the crash site.</s><r>{0} прибыл с подкреплением для исследования места крушения.</r></e>
+  <e k="K" key="VF_ReinforcementsArrivedLabel"><s>Reinforcements</s><r>Подкрепления</r></e>
+  <e k="K" key="VF_ReloadTime"><s>Reload Time</s><r>Время перезарядки</r></e>
+  <e k="K" key="VF_ReloadTimeTooltip"><s>Amount of time it takes to reload this turret.</s><r>Количество времени, необходимое для перезарядки этой турели.</r></e>
+  <e k="K" key="VF_ReloadTimeValue"><s>{0}s</s><r>{0}с</r></e>
+  <e k="K" key="VF_ReloadVehicleTurret"><s>Reload</s><r>Перезагрузить</r></e>
+  <e k="K" key="VF_RemoveFromRole"><s>Remove</s><r>Удалять</r></e>
+  <e k="K" key="VF_RemoveName"><s>Remove name</s><r>Удалить имя</r></e>
+  <e k="K" key="VF_RemoveUpgrade"><s>Remove</s><r>Удалять</r></e>
+  <e k="K" key="VF_RenameVehicleTooltip"><s>Assign or clear name.</s><r>Назначьте или очистите имя.</r></e>
+  <e k="K" key="VF_RescueToVehicle"><s>Rescue {0_labelShort} to {1_labelShort}</s><r>Спасите от {0_labelShort} до {1_labelShort}.</r></e>
+  <e k="K" key="VF_ResetColorPalettes"><s>Reset All Palettes</s><r>Сбросить все палитры</r></e>
+  <e k="K" key="VF_ResetColorPalettesConfirmation"><s>Are you sure you want to reset all saved palettes back to default settings? This action cannot be undone.</s><r>Вы уверены, что хотите сбросить все сохраненные палитры к настройкам по умолчанию? Это действие невозможно отменить.</r></e>
+  <e k="K" key="VF_RiverGenMultiplier"><s>River Size Multiplier</s><r>Множитель размера реки</r></e>
+  <e k="K" key="VF_RiverGenMultiplierTooltip"><s>Increase the width of rivers on maps.</s><r>Увеличьте ширину рек на картах.</r></e>
+  <e k="K" key="VF_RoadBiomeCostPathing"><s>Ignore Biomes on Roads</s><r>Игнорировать биомы на дорогах</r></e>
+  <e k="K" key="VF_RoadBiomeCostPathingTooltip"><s>Vehicle Caravans moving over roads on the world map ignore biome path costs.</s><r>Караваны транспортных средств, движущиеся по дорогам на карте мира, игнорируют стоимость пути в биоме.</r></e>
+  <e k="K" key="VF_RoadType_Avoid"><s>Avoid</s><r>Избегать</r></e>
+  <e k="K" key="VF_RoadType_Prioritize"><s>Prioritize</s><r>Расставить приоритеты</r></e>
+  <e k="K" key="VF_RoadZoneClear"><s>Clear road area</s><r>Очистить дорогу</r></e>
+  <e k="K" key="VF_RoadZoneClearDesc"><s>Removes road zone. Vehicles will no longer have modified movement over the area.</s><r>Удаляет дорожную зону. Транспортные средства больше не будут иметь измененное движение по области.</r></e>
+  <e k="K" key="VF_RoadZoneExpand"><s>Road area</s><r>Дорожная зона</r></e>
+  <e k="K" key="VF_RoadZoneExpandDesc"><s>Create an area where vehicles will prioritize or avoid moving through.
+
+'Prioritize' areas applied on the edge of the map will designate where vehicle caravans should enter from.</s><r>Создайте зону, по которой транспортные средства будут иметь приоритет или избегать движения.
+
+ Области «Приоритезация», нанесенные на край карты, будут обозначать, откуда должны въезжать караваны транспортных средств.</r></e>
+  <e k="K" key="VF_RocketsBurnRadius"><s>Rockets Burn</s><r>Ракеты горят</r></e>
+  <e k="K" key="VF_RocketsBurnRadiusTooltip"><s>Allow aerial vehicles which support this feature to burn all things within a small radius upon takeoff and landing.</s><r>Разрешить летательным аппаратам, поддерживающим эту функцию, сжигать все в небольшом радиусе при взлете и приземлении.</r></e>
+  <e k="K" key="VF_Rotatable"><s>Rotatable</s><r>Вращающийся</r></e>
+  <e k="K" key="VF_RotatableTooltip"><s>Whether turret can rotate to aim toward its target, or is static and can only shoot in the direction it's facing.</s><r>Может ли турель вращаться, чтобы нацелиться на цель, или она статична и может стрелять только в том направлении, в котором смотрит.</r></e>
+  <e k="K" key="VF_RotateVehicleRendering"><s>Rotate vehicle</s><r>Повернуть автомобиль</r></e>
+  <e k="K" key="VF_RotationSpeed"><s>Rotation Speed</s><r>Скорость вращения</r></e>
+  <e k="K" key="VF_RotationSpeedTooltip"><s>How quickly this turret rotates to face its target.</s><r>Как быстро эта турель вращается навстречу своей цели.</r></e>
+  <e k="K" key="VF_RotationSpeedValue"><s>{0} deg/s</s><r>{0} ты/ы</r></e>
+  <e k="K" key="VF_RoutePlannerButtonTip"><s>Click to enter the planning mode for Vehicles where you can select specific vehicles you own, and plan your journey. Pathing is adjusted based on the vehicles selected.</s><r>Нажмите, чтобы войти в режим планирования транспортных средств, где вы можете выбрать конкретные транспортные средства, которыми вы владеете, и спланировать свое путешествие. Путь корректируется в зависимости от выбранных транспортных средств.</r></e>
+  <e k="K" key="VF_RoutePlannerToggleVehicleDefs"><s>VehicleDefs</s><r>Транспортное средствоDefs</r></e>
+  <e k="K" key="VF_RoutePlannerToggleVehicles"><s>Vehicles</s><r>Транспортные средства</r></e>
+  <e k="K" key="VF_RunOverPawns"><s>Run Over Pawns</s><r>Перебежать пешки</r></e>
+  <e k="K" key="VF_RunOverPawnsTooltip"><s>Vehicles can run over pawns and apply blunt damage based on mass and speed.</s><r>Транспортные средства могут наезжать на пешек и наносить тупой урон в зависимости от массы и скорости.</r></e>
+  <e k="K" key="VF_Sailing"><s>Sailing</s><r>Парусный спорт</r></e>
+  <e k="K" key="VF_SaveColorPalette"><s>Save Palette</s><r>Сохранить палитру</r></e>
+  <e k="K" key="VF_SaveableFieldDisabledConditionTooltip"><s>Disabled. {0}</s><r>Неполноценный. {0}</r></e>
+  <e k="K" key="VF_SaveableFieldDisabledTooltip"><s>Disabled for this Vehicle Type.</s><r>Отключено для этого типа транспортного средства.</r></e>
+  <e k="K" key="VF_SaveableFieldLockedTooltip"><s>Setting is locked for this Vehicle.</s><r>Настройка заблокирована для этого автомобиля.</r></e>
+  <e k="K" key="VF_SelectVehiclesForPlanner"><s>Select vehicles</s><r>Выберите транспортные средства</r></e>
+  <e k="K" key="VF_SetReloadLevel"><s>Set auto-reloading level for to {0}.</s><r>Установите уровень автоматической перезагрузки на {0}.</r></e>
+  <e k="K" key="VF_SetReloadLevelTooltip"><s>Configure Ammo Level</s><r>Настроить уровень боеприпасов</r></e>
+  <e k="K" key="VF_SettingsDisabledTooltip"><s>Settings have been locked for this vehicle and cannot be modified.</s><r>Настройки для этого автомобиля заблокированы и не могут быть изменены.</r></e>
+  <e k="K" key="VF_SettingsGeneral"><s>General</s><r>Общий</r></e>
+  <e k="K" key="VF_ShellExplosionsOnWater"><s>Reduce Explosions on Water</s><r>Уменьшить взрывы на воде</r></e>
+  <e k="K" key="VF_ShellExplosionsOnWaterTooltip"><s>Explosive shells over water have their explosion radius reduced and sound effect changed to a splash.</s><r>Радиус взрыва разрывных снарядов над водой уменьшен, а звуковой эффект изменен на всплеск.</r></e>
+  <e k="K" key="VF_ShotGroup"><s>Shot Group</s><r>Группа выстрелов</r></e>
+  <e k="K" key="VF_ShotGroupValue"><s>{0} cells</s><r>{0} ячейки</r></e>
+  <e k="K" key="VF_ShotsPerBurst"><s>Shots per burst</s><r>Выстрелов за очередь</r></e>
+  <e k="K" key="VF_ShowAllItemsOnMap"><s>Show All Items On Map</s><r>Показать все объекты на карте</r></e>
+  <e k="K" key="VF_ShowVehicleProperties"><s>Show Properties</s><r>Показать свойства</r></e>
+  <e k="K" key="VF_SignalJamming"><s>Signal Jammer</s><r>Подавитель сигнала</r></e>
+  <e k="K" key="VF_SignalJammingTooltip"><s>Vehicle is capable of jamming signals in order to visit certain orbital platforms.</s><r>Аппарат способен глушить сигналы для посещения определенных орбитальных платформ.</r></e>
+  <e k="K" key="VF_Skins"><s>Skins</s><r>Скины</r></e>
+  <e k="K" key="VF_SmoothVehiclePathing"><s>Smooth Vehicle Paths</s><r>Плавные траектории движения транспортных средств</r></e>
+  <e k="K" key="VF_SmoothVehiclePathingTooltip"><s>Vehicle pathing will have an additional &quot;turn&quot; cost, preventing unnecessary zig zag patterns from shortest path.</s><r>Прохождение траектории транспортного средства будет иметь дополнительную стоимость «поворота», предотвращая ненужные зигзагообразные образы на кратчайшем пути.</r></e>
+  <e k="K" key="VF_SpaceFlight"><s>Space Faring</s><r>Космическое путешествие</r></e>
+  <e k="K" key="VF_SpaceFlightTooltip"><s>Vehicle is capable of launching to and taking off from space objects.</s><r>Транспортное средство способно запускать и взлетать с космических объектов.</r></e>
+  <e k="K" key="VF_StartFishing"><s>Fish</s><r>Рыба</r></e>
+  <e k="K" key="VF_StartFishingDesc"><s>Gather fish from the water.</s><r>Собирайте рыбу из воды.</r></e>
+  <e k="K" key="VF_StartVehicleRoutePlanner"><s>Start route</s><r>Начать маршрут</r></e>
+  <e k="K" key="VF_StatsReport_CargoWeight"><s>Cargo: {0}</s><r>Груз: {0}</r></e>
+  <e k="K" key="VF_StatsReport_Deployed"><s>Deployed</s><r>Развернуто</r></e>
+  <e k="K" key="VF_StopVehicle"><s>Stop</s><r>Останавливаться</r></e>
+  <e k="K" key="VF_StopVehicleDesc"><s>Stop the vehicle immediately.</s><r>Немедленно остановите автомобиль.</r></e>
+  <e k="K" key="VF_StrafeRun"><s>Strafe</s><r>Стрейф</r></e>
+  <e k="K" key="VF_SwapColors"><s>Cycle colors between each other.
+
+ColorOne &gt; ColorTwo &gt; ColorThree</s><r>Циклически переключать цвета между собой.
+
+ColorOne &gt; ColorTwo &gt; ColorThree.</r></e>
+  <e k="K" key="VF_TabCargo"><s>Cargo</s><r>Груз</r></e>
+  <e k="K" key="VF_TabComponents"><s>Health</s><r>Здоровье</r></e>
+  <e k="K" key="VF_TabPassengers"><s>Pawns</s><r>Пешки</r></e>
+  <e k="K" key="VF_TabUpgrades"><s>Customize</s><r>Настроить</r></e>
+  <e k="K" key="VF_TargetFuelConfigurable"><s>Fuel Level Configurable</s><r>Уровень топлива настраивается</r></e>
+  <e k="K" key="VF_TargetFuelConfigurableTooltip"><s>Max fuel level can be configured.</s><r>Максимальный уровень топлива можно настроить.</r></e>
+  <e k="K" key="VF_TicksPerCharge"><s>Charge Rate</s><r>Ставка заряда</r></e>
+  <e k="K" key="VF_TicksPerChargeTooltip"><s>Charge amount per tick applied to battery.</s><r>Сумма заряда за тик, применяемая к аккумулятору.</r></e>
+  <e k="K" key="VF_ToggleAutoTargeting"><s>Toggle automatic targeting</s><r>Переключить автоматический таргетинг</r></e>
+  <e k="K" key="VF_ToggleAutoTargetingDesc"><s>This determines whether the turret will automatically target enemies.  If enabled, any enemies within range will be engaged.
+
+Automatic targeting is currently {0}.</s><r>Это определяет, будет ли турель автоматически нацеливаться на врагов.  Если эта функция включена, все враги в радиусе действия будут атакованы.
+
+В настоящее время автоматическое наведение — {0}.</r></e>
+  <e k="K" key="VF_ToggleRepairVehicle"><s>Repair Vehicles</s><r>Ремонт автомобилей</r></e>
+  <e k="K" key="VF_ToggleRepairVehicleDesc"><s>Rest and perform repairs on vehicles inside the caravan</s><r>Отдых и ремонт транспортных средств внутри каравана.</r></e>
+  <e k="K" key="VF_TransferToVehicle_Cancel"><s>Cancel transfer</s><r>Отменить передачу</r></e>
+  <e k="K" key="VF_TransferToVehicle_Cancel_Desc"><s>Cancel transfer of selected thing(s) to any vehicle's cargo.</s><r>Отменить передачу выбранных вещей в груз любого транспортного средства.</r></e>
+  <e k="K" key="VF_TransferToVehicle_Order"><s>Transfer to vehicle</s><r>Трансфер в транспортное средство</r></e>
+  <e k="K" key="VF_TransferToVehicle_Order_Desc"><s>Transfer selected thing(s) to the target vehicle's cargo.</s><r>Перенесите выбранные вещи в груз целевого транспортного средства.</r></e>
+  <e k="K" key="VF_TurretComponentDisabled"><s>{0} needs repairs.</s><r>{0} требует ремонта.</r></e>
+  <e k="K" key="VF_TurretOverheatMechanics"><s>Turret Overheating</s><r>Перегрев турели</r></e>
+  <e k="K" key="VF_TurretOverheatMechanicsTooltip"><s>Some turrets have overheat mechanics to prevent nonstop firing without consequences. Keep this enabled?</s><r>Некоторые турели имеют механику перегрева, предотвращающую непрерывную стрельбу без последствий. Оставить это включенным?</r></e>
+  <e k="K" key="VF_Undeploy"><s>Undeploy</s><r>Отменить развертывание</r></e>
+  <e k="K" key="VF_UndraftVehicle"><s>Turn off</s><r>Выключать</r></e>
+  <e k="K" key="VF_UndraftVehicleDesc"><s>Undrafts vehicle, disabling the consumption of fuel and disallowing movement.</s><r>Разворачивает автомобиль, отключая расход топлива и запрещая движение.</r></e>
+  <e k="K" key="VF_Upgrade"><s>Upgrade</s><r>Обновление</r></e>
+  <e k="K" key="VF_UpgradeInProgress"><s>Cannot draft while {0} is upgrading.</s><r>Невозможно составить черновик, пока {0} обновляется.</r></e>
+  <e k="K" key="VF_Upgradeable"><s>Upgradeable</s><r>Обновляемый</r></e>
+  <e k="K" key="VF_UpgradeableDesc"><s>Vehicle can be modifed through an upgrade tree</s><r>Транспортное средство можно модифицировать с помощью дерева улучшений.</r></e>
+  <e k="K" key="VF_Upgrades"><s>Upgrades</s><r>Обновления</r></e>
+  <e k="K" key="VF_UseBurstLib"><s>Use Burst</s><r>Используйте взрыв</r></e>
+  <e k="K" key="VF_UseBurstLibTooltip"><s>Load external burst library for better performance.</s><r>Загрузите внешнюю пакетную библиотеку для повышения производительности.</r></e>
+  <e k="K" key="VF_UseHandBrakes"><s>Use Hand Brakes</s><r>Используйте ручные тормоза</r></e>
+  <e k="K" key="VF_UseHandBrakesTooltip"><s>Vehicles will apply hand brakes when signaled to stop, decelerating faster at the cost of some health.</s><r>Транспортные средства будут включать ручные тормоза при получении сигнала об остановке, замедляясь быстрее за счет некоторого здоровья.</r></e>
+  <e k="K" key="VF_VehicleAgeReadout"><s>Produced: {0}</s><r>Произведено: {0}</r></e>
+  <e k="K" key="VF_VehicleCannotStun"><s>Vehicle has no stunnable components.</s><r>Транспортное средство не имеет оглушающих компонентов.</r></e>
+  <e k="K" key="VF_VehicleCaravanMentalBreakMovementRole"><s>{0} is no longer able to operate their role for the vehicle caravan.</s><r>{0} больше не может выполнять свою роль в караване транспортных средств.</r></e>
+  <e k="K" key="VF_VehicleDisabled"><s>Disabled</s><r>Неполноценный</r></e>
+  <e k="K" key="VF_VehicleEnabled"><s>Enabled</s><r>Включено</r></e>
+  <e k="K" key="VF_VehicleFuelCost"><s>Fuel: {0}</s><r>Топливо: {0}</r></e>
+  <e k="K" key="VF_VehicleFullyFueled"><s>{0} is already fully fueled.</s><r>{0} уже полностью заправлен.</r></e>
+  <e k="K" key="VF_VehicleImmobileDeployed"><s>{0_labelShort} is deployed and unable to move.</s><r>{0_labelShort} развернут и не может двигаться.</r></e>
+  <e k="K" key="VF_VehiclePlayerOnly"><s>Player Only</s><r>Только игрок</r></e>
+  <e k="K" key="VF_VehicleRaiderOnly"><s>NPC Only</s><r>Только NPC</r></e>
+  <e k="K" key="VF_VehicleRestriction_Stationary"><s>Cannot fire while moving.</s><r>Невозможно стрелять во время движения.</r></e>
+  <e k="K" key="VF_VehicleStats"><s>Stats</s><r>Статистика</r></e>
+  <e k="K" key="VF_VehicleTracksFull"><s>Full</s><r>Полный</r></e>
+  <e k="K" key="VF_VehicleTracksNone"><s>None</s><r>Никто</r></e>
+  <e k="K" key="VF_VehicleTracksVanilla"><s>Vanilla</s><r>Ваниль</r></e>
+  <e k="K" key="VF_VehicleTurrets"><s>Vehicle Turrets</s><r>Транспортные турели</r></e>
+  <e k="K" key="VF_VehicleTurrets_NoAmmoToReload"><s>No usable ammo.</s><r>Нет пригодных для использования боеприпасов.</r></e>
+  <e k="K" key="VF_VehicleUnableToMove"><s>{0_labelShort} is unable to move.</s><r>{0_labelShort} не может двигаться.</r></e>
+  <e k="K" key="VF_Vehicles"><s>Vehicles</s><r>Транспортные средства</r></e>
+  <e k="K" key="VF_WarmupTime"><s>Warmup Time</s><r>Время разминки</r></e>
+  <e k="K" key="VF_WarmupTimeTooltip"><s>Amount of time it takes for this turret to shoot.</s><r>Количество времени, необходимое этой турели для выстрела.</r></e>
+  <e k="K" key="VF_WarmupTimeValue"><s>{0}s</s><r>{0}с</r></e>
+  <e k="K" key="VF_WillRequireRestart"><s>This action requires a restart to take effect.</s><r>Для вступления этого действия в силу требуется перезагрузка.</r></e>
+  <e k="K" key="VF_WinterSpeedMultiplier"><s>Winter Speed Multiplier</s><r>Зимний множитель скорости</r></e>
+  <e k="K" key="VF_WinterSpeedMultiplierTooltip"><s>PathCost multiplier for traveling during winter.</s><r>Множитель PathCost для путешествий зимой.</r></e>
+  <e k="K" key="VF_WorldMapGen"><s>World/Map Generation</s><r>Генерация мира/карты</r></e>
+  <e k="K" key="VF_WorldSpeedMultiplier"><s>World Speed Multiplier</s><r>Мировой множитель скорости</r></e>
+  <e k="K" key="VF_WorldSpeedMultiplierTooltip"><s>Multiplier to MoveSpeed when on the world map in a caravan.</s><r>Множитель скорости перемещения при нахождении на карте мира в караване.</r></e>
+  <e k="K" key="VF_WorldTiles"><s>tiles</s><r>плитка</r></e>
+  <e k="K" key="VF_draftLabel"><s>Start Engine</s><r>Запустить двигатель</r></e>
+  <e k="K" key="VF_healthLabel_Beached"><s>Beached</s><r>Выброшен на берег</r></e>
+  <e k="K" key="VF_healthLabel_Dead"><s>Ruined</s><r>Разрушенный</r></e>
+  <e k="K" key="VF_healthLabel_Healthy"><s>Operational</s><r>Оперативный</r></e>
+  <e k="K" key="VF_healthLabel_Immobile"><s>Inoperable</s><r>Неработоспособный</r></e>
+  <e k="K" key="VF_healthLabel_Injured"><s>Needs Repairs</s><r>Требует ремонта</r></e>
+  <e k="K" key="VehicleFramework"><s>Vehicle Framework</s><r>Каркас автомобиля</r></e>
+</AutoTranslateCache>
