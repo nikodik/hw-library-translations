@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="potemkinvillager.mongooseattackhelicopter" name="Mongoose Attack Helicopter" language="Russian" version="1">
+  <e k="D" t="DamageDef" key="Mongoose_MissileStrike.deathMessage"><s>{0} has been killed by a missile.</s><r>{0} был убит ракетой.</r></e>
+  <e k="D" t="DamageDef" key="Mongoose_MissileStrike.label"><s>missile strike</s><r>ракетный удар</r></e>
+  <e k="D" t="HediffDef" key="Mongoose_MissileWound.comps.3.instantlyPermanentLabel"><s>permanent missile wound</s><r>необратимое ракетное ранение</r></e>
+  <e k="D" t="HediffDef" key="Mongoose_MissileWound.comps.3.permanentLabel"><s>missile scar</s><r>шрам от ракеты</r></e>
+  <e k="D" t="HediffDef" key="Mongoose_MissileWound.description"><s>A wound torn by a missile warhead's shaped-charge jet and fragments.</s><r>Рана, разорванная кумулятивной струей и осколками боеголовки ракеты.</r></e>
+  <e k="D" t="HediffDef" key="Mongoose_MissileWound.injuryProps.destroyedLabel"><s>Blown off</s><r>Сдулся</r></e>
+  <e k="D" t="HediffDef" key="Mongoose_MissileWound.injuryProps.destroyedOutLabel"><s>Blown out</s><r>Выдувается</r></e>
+  <e k="D" t="HediffDef" key="Mongoose_MissileWound.label"><s>missile wound</s><r>ракетное ранение</r></e>
+  <e k="D" t="HediffDef" key="Mongoose_MissileWound.labelNoun"><s>a missile wound</s><r>ракетное ранение</r></e>
+  <e k="D" t="HediffDef" key="Mongoose_MissileWound.labelNounPretty"><s>{0} in the {1}</s><r>{0} в {1}</r></e>
+  <e k="D" t="JobDef" key="Mongoose_RearmVehicle.reportString"><s>rearming TargetB.</s><r>перевооружение TargetB.</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Mongoose_20mm.label"><s>20 mm shell</s><r>снаряд 20 мм</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Mongoose_762mm.label"><s>7.62 mm bullet</s><r>Пуля 7,62 мм</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Mongoose_Missile.label"><s>Hellfire missile</s><r>Ракета Адского Пламени</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Mongoose_Rocket.label"><s>rocket</s><r>ракета</r></e>
+  <e k="D" t="ThingDef" key="Mongoose_Ammo_HellfireMissile.description"><s>A 178 mm guided anti-armour missile for helicopter launch rails, with a tandem shaped-charge warhead that defeats the heaviest vehicle armour. Heavy and bulky: up to 8 to a stack. Colonists load it onto a landed helicopter's missile rails.</s><r>178-мм управляемая противоброневая ракета для пусковых установок вертолетов с тандемной кумулятивной боевой частью, способная пробивать самую тяжелую броню техники. Тяжелый и громоздкий: до 8 штук в стопке. Колонисты загружают его на ракетные рельсы приземлившегося вертолета.</r></e>
+  <e k="D" t="ThingDef" key="Mongoose_Ammo_HellfireMissile.label"><s>AGM-114 Hellfire missile</s><r>Ракета AGM-114 «Хеллфайр»</r></e>
+  <e k="D" t="ThingDef" key="Mongoose_AttackHelicopter.&lt;CompPropsVehicleTurrets&gt;k__BackingField.turrets.0.gizmoLabel"><s>M197 cannon (primary)</s><r>Пушка М197 (основная)</r></e>
+  <e k="D" t="ThingDef" key="Mongoose_AttackHelicopter.&lt;CompPropsVehicleTurrets&gt;k__BackingField.turrets.1.gizmoLabel"><s>57 mm rockets (secondary)</s><r>57-мм ракеты (второстепенные)</r></e>
+  <e k="D" t="ThingDef" key="Mongoose_AttackHelicopter.components.2.label"><s>starboard engine</s><r>правый двигатель</r></e>
+  <e k="D" t="ThingDef" key="Mongoose_AttackHelicopter.components.3.label"><s>port engine</s><r>левый двигатель</r></e>
+  <e k="D" t="ThingDef" key="Mongoose_AttackHelicopter.components.4.label"><s>fuel tank</s><r>топливный бак</r></e>
+  <e k="D" t="ThingDef" key="Mongoose_AttackHelicopter.description"><s>A twin-seat attack helicopter. The pilot flies while the gunner works a 20 mm rotary cannon in the nose turret and two pods of unguided rockets. Lands wherever its footprint fits and flies across the map under its own power.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Pilot x1, Gunner x1
+&lt;color=#bb8f04&gt;Armament:&lt;/color&gt; 20 mm rotary nose cannon (400 rounds), rocket pods (24 rockets)
+&lt;color=#bb8f04&gt;Rearming:&lt;/color&gt; On the ground only, from the colony's storage
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Двухместный ударный вертолет. Пилот летит, а наводчик управляет 20-мм поворотной пушкой в ​​носовой турели и двумя блоками неуправляемых ракет. Приземляется везде, где находится его зона действия, и летает по карте своим ходом.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Пилот x1, Наводчик x1
+&lt;color=#bb8f04&gt;Вооружение:&lt;/color&gt; 20-мм поворотная носовая пушка (400 снарядов), ракетные блоки (24 ракеты)
+&lt;color=#bb8f04&gt;Перевооружение:&lt;/color&gt; Только на земле, со склада колонии
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="Mongoose_AttackHelicopter.label"><s>Mongoose</s><r>Мангуста</r></e>
+  <e k="D" t="ThingDef" key="Mongoose_AttackHelicopter_Blueprint.description"><s>A twin-seat attack helicopter. The pilot flies while the gunner works a 20 mm rotary cannon in the nose turret and two pods of unguided rockets. Lands wherever its footprint fits and flies across the map under its own power.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Pilot x1, Gunner x1
+&lt;color=#bb8f04&gt;Armament:&lt;/color&gt; 20 mm rotary nose cannon (400 rounds), rocket pods (24 rockets)
+&lt;color=#bb8f04&gt;Rearming:&lt;/color&gt; On the ground only, from the colony's storage
+&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</s><r>Двухместный ударный вертолет. Пилот летит, а наводчик управляет 20-мм поворотной пушкой в ​​носовой турели и двумя блоками неуправляемых ракет. Приземляется везде, где находится его зона действия, и летает по карте своим ходом.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Пилот x1, Наводчик x1
+&lt;color=#bb8f04&gt;Вооружение:&lt;/color&gt; 20-мм поворотная носовая пушка (400 снарядов), ракетные блоки (24 ракеты)
+&lt;color=#bb8f04&gt;Перевооружение:&lt;/color&gt; Только на земле, со склада колонии
+&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химическое топливо</r></e>
+  <e k="D" t="ThingDef" key="Mongoose_AttackHelicopter_Blueprint.label"><s>Mongoose</s><r>Мангуста</r></e>
+  <e k="D" t="ThingDef" key="Mongoose_LogWeapon_ChinCannon.label"><s>M197 cannon</s><r>Пушка М197</r></e>
+  <e k="D" t="ThingDef" key="Mongoose_LogWeapon_GunPods.label"><s>TMP-5 gun pods</s><r>Кондукторные установки ТМП-5</r></e>
+  <e k="D" t="ThingDef" key="Mongoose_LogWeapon_Missiles.label"><s>Hellfire missile</s><r>Ракета Адского Пламени</r></e>
+  <e k="D" t="ThingDef" key="Mongoose_LogWeapon_RocketPods.label"><s>57 mm rocket pod</s><r>57-мм ракетная установка</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Mongoose_UpgradeTree.nodes.0.description"><s>Plasteel plates add about 20% armour, at 60 kg extra weight.</s><r>Пластилевые пластины добавляют около 20% брони, прибавляя 60 кг дополнительного веса.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Mongoose_UpgradeTree.nodes.0.label"><s>Plasteel Armour</s><r>Пластальная броня</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Mongoose_UpgradeTree.nodes.1.description"><s>Extra tanks raise fuel capacity from 250 to 400.</s><r>Дополнительные баки увеличивают запас топлива с 250 до 400.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Mongoose_UpgradeTree.nodes.1.label"><s>Ferry Tanks</s><r>Паромные танки</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Mongoose_UpgradeTree.nodes.2.description"><s>Four AGM-114 Hellfire missiles under the wings, fired by the gunner.</s><r>Четыре ракеты AGM-114 Hellfire под крыльями, выпущенные наводчиком.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Mongoose_UpgradeTree.nodes.2.label"><s>Hellfire Rails</s><r>Рельсы Адского Пламени</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Mongoose_UpgradeTree.nodes.2.upgrades.1.turrets.0.gizmoLabel"><s>Hellfires (secondary)</s><r>Адское пламя (вторичное)</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Mongoose_UpgradeTree.nodes.3.description"><s>Twin 7.62x51mm NATO machine gun pods under the wings, fired by the gunner.</s><r>Двойные установки для пулеметов НАТО калибра 7,62x51 мм под крыльями, стреляющие наводчиком.</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Mongoose_UpgradeTree.nodes.3.label"><s>TMP-5 Gun Pods</s><r>Контейнеры ТМП-5</r></e>
+  <e k="D" t="UpgradeTreeDef" key="Mongoose_UpgradeTree.nodes.3.upgrades.1.turrets.0.gizmoLabel"><s>TMP-5 pods (secondary)</s><r>Блоки ТМП-5 (вторичные)</r></e>
+  <e k="D" t="VehicleTurretDef" key="Mongoose_ChinCannon.description"><s>An M197 20 mm three-barrel rotary cannon in the nose turret, slaved to its sensor pod and fed from a 400-round magazine. Traverses 90 degrees either side of the bow independently of the helicopter's heading. Rearmed only on the ground, by colonists bringing 20x102mm NATO ammunition from storage.</s><r>Трехствольная поворотная пушка M197 калибра 20 мм в носовой турели, подключенная к сенсорному блоку и питающаяся из магазина на 400 патронов. Поворачивается на 90 градусов в обе стороны от носовой части независимо от курса вертолета. Перевооружается только на земле, колонистами, приносящими со складов боеприпасы НАТО 20х102 мм.</r></e>
+  <e k="D" t="VehicleTurretDef" key="Mongoose_ChinCannon.gizmoDescription"><s>Select a target.
+
+Fire for effect.</s><r>Выберите цель.
+
+Стреляйте по эффекту.</r></e>
+  <e k="D" t="VehicleTurretDef" key="Mongoose_ChinCannon.label"><s>M197 20 mm cannon</s><r>20-мм пушка М197</r></e>
+  <e k="D" t="VehicleTurretDef" key="Mongoose_GunPods.description"><s>Twin 7.62x51mm NATO machine guns in each wing pod, 400 rounds per pod. Fixed forward. Rearmed on the ground with 7.62x51mm NATO.</s><r>Два пулемета НАТО калибра 7,62х51 мм в каждой крыльевой гондоле, боезапас по 400 патронов в каждой. Фиксированный вперед. Перевооружен на земле патронами 7,62х51 мм НАТО.</r></e>
+  <e k="D" t="VehicleTurretDef" key="Mongoose_GunPods.fireModes.1.label"><s>Long burst</s><r>Длинная очередь</r></e>
+  <e k="D" t="VehicleTurretDef" key="Mongoose_GunPods.gizmoDescription"><s>Select a target.
+
+Fire for effect.</s><r>Выберите цель.
+
+Стреляйте по эффекту.</r></e>
+  <e k="D" t="VehicleTurretDef" key="Mongoose_GunPods.label"><s>TMP-5 gun pods</s><r>Кондукторные установки ТМП-5</r></e>
+  <e k="D" t="VehicleTurretDef" key="Mongoose_Missiles.description"><s>Four AGM-114 Hellfire missiles under the wings, fired outer pair first. They home on the target, out to 72 cells. Rearmed on the ground with Hellfire missiles.</s><r>Четыре ракеты AGM-114 Hellfire под крыльями, первой выпущена внешняя пара. Они приближаются к цели, к 72 камерам. Перевооружен на земле ракетами «Хеллфайр».</r></e>
+  <e k="D" t="VehicleTurretDef" key="Mongoose_Missiles.gizmoDescription"><s>Select a target.
+
+Fire for effect.</s><r>Выберите цель.
+
+Стреляйте по эффекту.</r></e>
+  <e k="D" t="VehicleTurretDef" key="Mongoose_Missiles.label"><s>Hellfire missiles</s><r>Ракеты Адского Пламени</r></e>
+  <e k="D" t="VehicleTurretDef" key="Mongoose_RocketPods.description"><s>Two pods of unguided 57 mm rockets, fired alternately from port and starboard. Rearmed only on the ground, by colonists bringing 57 mm rockets from storage. The pods are fixed forward, so the helicopter turns to bring them to bear. Unguided rockets scatter more the farther they fly.</s><r>Две установки неуправляемых 57-мм ракет, выпущенные поочередно с левого и правого борта. Перевооружается только на земле, колонистами, приносящими со складов 57-мм ракеты. Гондолы зафиксированы вперед, поэтому вертолет поворачивается, чтобы навести их на цель. Неуправляемые ракеты разлетаются сильнее, чем дальше они летят.</r></e>
+  <e k="D" t="VehicleTurretDef" key="Mongoose_RocketPods.gizmoDescription"><s>Select a target.
+
+Fire for effect.</s><r>Выберите цель.
+
+Стреляйте по эффекту.</r></e>
+  <e k="D" t="VehicleTurretDef" key="Mongoose_RocketPods.label"><s>57 mm rocket pods</s><r>57-мм ракетные блоки</r></e>
+  <e k="D" t="WorkGiverDef" key="Mongoose_RearmVehicle.gerund"><s>rearming</s><r>перевооружение</r></e>
+  <e k="D" t="WorkGiverDef" key="Mongoose_RearmVehicle.label"><s>rearm aircraft</s><r>перевооружить самолет</r></e>
+  <e k="D" t="WorkGiverDef" key="Mongoose_RearmVehicle.verb"><s>rearm</s><r>перевооружать</r></e>
+</AutoTranslateCache>
