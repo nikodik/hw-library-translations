@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="rabiosus.vtolvehicle" name="VTOL Vehicle" language="Russian" version="1">
+  <e k="D" t="JobDef" key="VTOLVehicle_AutoLand.reportString"><s>landing.</s><r>посадка.</r></e>
+  <e k="D" t="JobDef" key="VTOLVehicle_FlyToCell.reportString"><s>flying.</s><r>летающий.</r></e>
+  <e k="D" t="JobDef" key="VTOLVehicle_LandAtCell.reportString"><s>landing.</s><r>посадка.</r></e>
+  <e k="D" t="JobDef" key="VTOLVehicle_LandHere.reportString"><s>landing.</s><r>посадка.</r></e>
+  <e k="D" t="JobDef" key="VTOLVehicle_Launch.reportString"><s>launching.</s><r>запуск.</r></e>
+  <e k="D" t="KeyBindingDef" key="VTOLVehicle_BoardNearby.label"><s>VTOL board nearby</s><r>Табло вертикального взлета и посадки поблизости</r></e>
+  <e k="D" t="KeyBindingDef" key="VTOLVehicle_DisembarkCrew.label"><s>VTOL disembark crew</s><r>Высадка экипажа СВВП</r></e>
+  <e k="D" t="KeyBindingDef" key="VTOLVehicle_TakeOffLand.label"><s>VTOL take off / land</s><r>СВВП взлет/посадка</r></e>
+  <e k="D" t="ThingDef" key="VTOLVehicle_ShotFlash.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="VTOLVehicle_ShotFlash_UnderVehicle.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="K" key="AlreadyLaunching"><s>Already launching.</s><r>Уже запускаю.</r></e>
+  <e k="K" key="VTOL_AircraftArrived"><s>Aircraft arrived.</s><r>Самолет прибыл.</r></e>
+  <e k="K" key="VTOL_AutoLandDesc"><s>Land to the saved landing spot at {0}. Right-click to clear the saved spot.</s><r>Приземлитесь в сохраненной точке приземления в точке {0}. Щелкните правой кнопкой мыши, чтобы очистить сохраненное место.</r></e>
+  <e k="K" key="VTOL_AutoLandLabel"><s>Auto land</s><r>Авто земля</r></e>
+  <e k="K" key="VTOL_AutoTargetDesc"><s>Automatically acquire hostile targets in weapon range and fire arc.</s><r>Автоматически захватывайте враждебные цели в радиусе действия оружия и на дуге огня.</r></e>
+  <e k="K" key="VTOL_AutoTargetLabel"><s>Auto target</s><r>Автоматическая цель</r></e>
+  <e k="K" key="VTOL_BoardCrewDesc"><s>Assign pawns to aircraft crew seats.</s><r>Распределите пешки по местам экипажа самолета.</r></e>
+  <e k="K" key="VTOL_BoardCrewLabel"><s>Board crew</s><r>Бортовой экипаж</r></e>
+  <e k="K" key="VTOL_BoardCrewOption"><s>{0} as {1} ({2}/{3})</s><r>{0} как {1} ({2}/{3})</r></e>
+  <e k="K" key="VTOL_BoardNearbyDesc"><s>Board nearby pawns into this vehicle.</s><r>Посадите ближайших пешек в эту машину.</r></e>
+  <e k="K" key="VTOL_BoardNearbyLabel"><s>Board nearby</s><r>Доска поблизости</r></e>
+  <e k="K" key="VTOL_BoardNearbyLandingDesc"><s>Land if needed, then order nearby pawns to board this vehicle.</s><r>Приземлитесь, если необходимо, а затем прикажите ближайшим пешкам сесть на эту машину.</r></e>
+  <e k="K" key="VTOL_BoardNearbyLandingLabel"><s>Board nearby</s><r>Доска поблизости</r></e>
+  <e k="K" key="VTOL_CannotBoardAirborne"><s>{0} is airborne.</s><r>{0} находится в воздухе.</r></e>
+  <e k="K" key="VTOL_CannotBoardOrLoadAirborne"><s>{0} can only board pawns or load cargo while grounded.</s><r>{0} может садиться на пешек или загружать груз только при заземлении.</r></e>
+  <e k="K" key="VTOL_CannotDisembarkCrewAirborne"><s>{0} can only disembark crew while grounded.</s><r>{0} может высадить экипаж только при заземлении.</r></e>
+  <e k="K" key="VTOL_CannotDisembarkPilotAirborne"><s>{0}'s pilot cannot disembark while airborne.</s><r>Пилот {0} не может высадиться в воздухе.</r></e>
+  <e k="K" key="VTOL_CannotLandBlocked"><s>{0}: landing area is blocked.</s><r>{0}: зона приземления заблокирована.</r></e>
+  <e k="K" key="VTOL_ClearLandingSpotLabel"><s>Clear saved landing spot at {0}</s><r>Очистить сохраненную точку приземления в {0}.</r></e>
+  <e k="K" key="VTOL_ClearLandingSpotNone"><s>No saved landing spot for this map.</s><r>Для этой карты не сохранено место приземления.</r></e>
+  <e k="K" key="VTOL_ClearWeaponTargetDesc"><s>Stop aircraft weapons from firing at the current target.</s><r>Остановить авиационное вооружение от стрельбы по текущей цели.</r></e>
+  <e k="K" key="VTOL_ClearWeaponTargetLabel"><s>Clear weapon target</s><r>Очистить цель оружия</r></e>
+  <e k="K" key="VTOL_CrewCannotChangeNow"><s>Crew can only board or disembark while the aircraft is grounded.</s><r>Экипаж может садиться или высаживаться только тогда, когда самолет стоит на земле.</r></e>
+  <e k="K" key="VTOL_CrewNoCandidates"><s>No available pawns for {0}.</s><r>Нет доступных пешек для {0}.</r></e>
+  <e k="K" key="VTOL_DisembarkCrewDesc"><s>Land if needed, then disembark passenger-role pawns. Press again before landing to include gunner roles.</s><r>Приземлитесь, если необходимо, затем высадите пешек в роли пассажиров. Нажмите еще раз перед приземлением, чтобы включить роли стрелка.</r></e>
+  <e k="K" key="VTOL_DisembarkCrewLabel"><s>Disembark crew</s><r>Высадка экипажа</r></e>
+  <e k="K" key="VTOL_EnterMapAtEdge"><s>Enter {0} at map edge</s><r>Введите {0} на краю карты.</r></e>
+  <e k="K" key="VTOL_LandDesc"><s>Land at the aircraft's current position.</s><r>Приземлитесь в текущем положении самолета.</r></e>
+  <e k="K" key="VTOL_LandLabel"><s>Land</s><r>Земля</r></e>
+  <e k="K" key="VTOL_LandingSpotCleared"><s>{0}: landing spot cleared.</s><r>{0}: место приземления очищено.</r></e>
+  <e k="K" key="VTOL_LandingSpotInvalid"><s>{0}: saved landing spot is no longer valid.</s><r>{0}: сохраненное место приземления больше не действительно.</r></e>
+  <e k="K" key="VTOL_LandingSpotSaved"><s>{0}: landing spot saved at {1}.</s><r>{0}: место приземления сохранено в {1}.</r></e>
+  <e k="K" key="VTOL_MoveOrder"><s>{0}: moving to {1}.</s><r>{0}: переход к {1}.</r></e>
+  <e k="K" key="VTOL_NoCrewToDisembark"><s>No passenger or gunner pawns aboard.</s><r>На борту нет ни пассажиров, ни стрелков.</r></e>
+  <e k="K" key="VTOL_NoNearbyPawnsToBoard"><s>No nearby pawns can board.</s><r>Никакие ближайшие пешки не могут подняться на борт.</r></e>
+  <e k="K" key="VTOL_NoVehicleDefsLetterLabel"><s>VTOL Vehicle: no aircraft found</s><r>Автомобиль вертикального взлета и посадки: самолет не найден</r></e>
+  <e k="K" key="VTOL_NoVehicleDefsLetterText"><s>VTOL Vehicle is enabled, but no loaded vehicle defs use VtolVehiclePawn. If you removed the aircraft mod that depended on VTOL Vehicle, you may also want to remove VTOL Vehicle from your mod list.</s><r>Транспортное средство вертикального взлета и посадки включено, но определения загруженного транспортного средства не используют VtolVehiclePawn. Если вы удалили мод самолета, который зависел от транспортного средства вертикального взлета и посадки, вы также можете удалить автомобиль вертикального взлета и посадки из своего списка модов.</r></e>
+  <e k="K" key="VTOL_SaveLandingSpotDesc"><s>Save this aircraft's current position and facing as its landing spot for this map.</s><r>Сохраните текущее положение и направление полета этого самолета в качестве места посадки на этой карте.</r></e>
+  <e k="K" key="VTOL_SaveLandingSpotLabel"><s>Save landing spot</s><r>Сохранить место посадки</r></e>
+  <e k="K" key="VTOL_SetWeaponTargetDesc"><s>Choose a target for the aircraft weapons.</s><r>Выберите цель для вооружения самолета.</r></e>
+  <e k="K" key="VTOL_SetWeaponTargetLabel"><s>Set weapon target</s><r>Установить цель оружия</r></e>
+  <e k="K" key="VTOL_TakeOffDesc"><s>Start the aircraft and enter flight mode.</s><r>Запустите дрон и войдите в режим полета.</r></e>
+  <e k="K" key="VTOL_TakeOffLabel"><s>Take off</s><r>Снимать</r></e>
+  <e k="K" key="VTOL_WeaponTargetSet"><s>{0}: weapon target set.</s><r>{0}: набор целей для оружия.</r></e>
+</AutoTranslateCache>
