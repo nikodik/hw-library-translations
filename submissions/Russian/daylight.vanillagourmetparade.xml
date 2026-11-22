@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="daylight.vanillagourmetparade" name="Vanilla Gourmet Parade" language="Russian" version="1">
+  <e k="D" t="HediffDef" key="AteMealMedicPack.description"><s>Medical packaged meal improves the body's resilience.</s><r>Медицинская фасованная еда повышает сопротивляемость организма.</r></e>
+  <e k="D" t="HediffDef" key="AteMealMedicPack.label"><s>Benefits of Medical packaged meal</s><r>Преимущества упакованного медицинского питания</r></e>
+  <e k="D" t="HediffDef" key="AteMealMedicPack.stages.0.label"><s>Now improving</s><r>Сейчас улучшается</r></e>
+  <e k="D" t="HediffDef" key="AteMealSoldierPack.description"><s>Combatant packaged meal improves physical performance.</s><r>Боевой фасованный обед повышает физическую работоспособность.</r></e>
+  <e k="D" t="HediffDef" key="AteMealSoldierPack.label"><s>Benefits of Combatant packaged meal</s><r>Преимущества упакованного питания Combatant</r></e>
+  <e k="D" t="HediffDef" key="AteMealSoldierPack.stages.0.label"><s>Now improving</s><r>Сейчас улучшается</r></e>
+  <e k="D" t="HediffDef" key="AteVPBabyFood.description"><s>Comprehensive nutritional food has excellent nutritional efficiency.</s><r>Комплексное питательное питание обладает превосходной питательной эффективностью.</r></e>
+  <e k="D" t="HediffDef" key="AteVPBabyFood.label"><s>Benefits of Comprehensive nutritional food</s><r>Преимущества комплексного диетического питания</r></e>
+  <e k="D" t="HediffDef" key="AteVPBabyFood.stages.0.label"><s>Nutritional food</s><r>Диетическое питание</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGPDeluxeMeal.description"><s>Cook a Large bowl of meat and vegetables from rice or corn, egg, meat and vegetables.</s><r>Приготовьте большую миску мяса и овощей из риса или кукурузы, яиц, мяса и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGPDeluxeMeal.jobString"><s>Cooking a Large bowl of meat and vegetables.</s><r>Готовим большую миску с мясом и овощами.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGPDeluxeMeal.label"><s>cook Large bowl of meat and vegetables x1</s><r>повар Большая миска с мясом и овощами x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGPDeluxeMealBulk.description"><s>Cook 2 Large bowls of meat and vegetables from rice or corn, egg, meat and vegetables.</s><r>Приготовьте 2 большие миски мяса и овощей из риса или кукурузы, яиц, мяса и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGPDeluxeMealBulk.jobString"><s>Cooking 2 Large bowls of meat and vegetables.</s><r>Готовим 2 большие миски с мясом и овощами.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGPDeluxeMealBulk.label"><s>cook Large bowl of meat and vegetables x2</s><r>повар Большая миска с мясом и овощами x2</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGPGrandMeal.description"><s>Cook a Heaped rice with meat on top from rice, meat and small amount of vegetables.</s><r>Приготовьте рис с горкой и мясом сверху из риса, мяса и небольшого количества овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGPGrandMeal.jobString"><s>Cooking a Heaped rice with meat on top.</s><r>Готовим рис с горкой и мясом сверху.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGPGrandMeal.label"><s>cook Heaped rice with meat on top x1</s><r>приготовить Рис с горкой и мясом сверху x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGPGrandMealBulk.description"><s>Cook 2 Heaped rice with meat on top from rice, meat and small amount of vegetables.</s><r>Приготовьте 2 риса с горкой и мясом сверху из риса, мяса и небольшого количества овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGPGrandMealBulk.jobString"><s>Cooking 2 Heaped rice with meat on top.</s><r>Приготовление 2. Рис с горкой, сверху мясо.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGPGrandMealBulk.label"><s>cook Heaped rice with meat on top x2</s><r>приготовить Рис с горкой и мясом сверху x2</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Assortedmeatdish.description"><s>Cook a Assorted meat dish. An assortment of grilled, fried, skewered and other meats.</s><r>Приготовьте мясное блюдо «Ассорти». Ассортимент мяса на гриле, жареного, шашлыка и другого мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Assortedmeatdish.jobString"><s>Cooking Assorted meat dish.</s><r>Приготовление мясного блюда «Ассорти».</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Assortedmeatdish.label"><s>cook Assorted meat dish x1</s><r>приготовить мясное ассорти x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_AssortedmeatdishBulk.description"><s>Cook 4 Assorted meat dish. An assortment of grilled, fried, skewered and other meats.</s><r>Приготовьте 4 блюда из мясного ассорти. Ассортимент мяса на гриле, жареного, шашлыка и другого мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_AssortedmeatdishBulk.jobString"><s>Cooking 4 Assorted meat dish.</s><r>Приготовление 4 мясного блюда «Ассорти».</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_AssortedmeatdishBulk.label"><s>cook Assorted meat dish x4</s><r>приготовить мясное ассорти x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_BabyFood.description"><s>Make baby food, a nutritionally balanced milk and vegetarian mash for babies. While easy to make in large quantities, only babies appreciate its bland taste and mushy texture.</s><r>Приготовьте детское питание — питательно-сбалансированную молочно-вегетарианскую пюре для малышей. Хотя его легко приготовить в больших количествах, только дети оценят его мягкий вкус и мягкую текстуру.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_BabyFood.jobString"><s>Cooking Comprehensive nutritional food.</s><r>Кулинария Полноценное питательное питание.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_BabyFood.label"><s>cook Comprehensive nutritional food for baby x10</s><r>приготовить Комплексное питательное питание для ребенка х10</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_BabyFoodBulk.description"><s>Make baby food, a nutritionally balanced milk and vegetarian mash for babies. While easy to make in large quantities, only babies appreciate its bland taste and mushy texture.</s><r>Приготовьте детское питание — питательно-сбалансированную молочно-вегетарианскую пюре для малышей. Хотя его легко приготовить в больших количествах, только дети оценят его мягкий вкус и мягкую текстуру.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_BabyFoodBulk.jobString"><s>Cooking Comprehensive nutritional food.</s><r>Кулинария Полноценное питательное питание.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_BabyFoodBulk.label"><s>cook Comprehensive nutritional food for baby x40</s><r>приготовить Комплексное питательное питание для ребенка х40</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Bakedpudding.description"><s>Cook 5 Baked puddings from eggs and milk.</s><r>Приготовьте 5 запеканок из яиц и молока.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Bakedpudding.jobString"><s>Cooking 5 Baked puddings.</s><r>Готовим 5 запеканок.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Bakedpudding.label"><s>cook Baked pudding x5</s><r>приготовить Запеканку х5</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Berrypie.description"><s>Cook a Berry pie from rice or corn,Berries,eggs and milk.</s><r>Приготовьте Ягодный пирог из риса или кукурузы,Ягод,яиц и молока.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Berrypie.jobString"><s>Cooking Berry pie.</s><r>Готовим ягодный пирог.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Berrypie.label"><s>cook Berry pie x1</s><r>приготовить Ягодный пирог x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_BerrypieBulk.description"><s>Cook 4 Berry pies from rice or corn,Berries,eggs and milk.</s><r>Приготовьте 4 ягодных пирога из риса или кукурузы,ягод,яиц и молока.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_BerrypieBulk.jobString"><s>Cooking 4 Berry pies.</s><r>Готовим 4 ягодных пирога.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_BerrypieBulk.label"><s>cook Berry pie x4</s><r>приготовить Ягодный пирог x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Bitterballen.description"><s>Cook Bitterballen from potatoes, meat and other vegetables.</s><r>Приготовьте биттербален из картофеля, мяса и других овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Bitterballen.jobString"><s>Cooking Bitterballen.</s><r>Приготовление Биттербаллена.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Bitterballen.label"><s>cook Bitterballen x1</s><r>повар Биттербаллен x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_BitterballenBulk.description"><s>Cook 4 Bitterballen from potatoes, meat and other vegetables.</s><r>Приготовьте 4 биттербаллена из картофеля, мяса и других овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_BitterballenBulk.jobString"><s>Cooking 4 Bitterballen.</s><r>Готовим 4 биттербаллена.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_BitterballenBulk.label"><s>cook Bitterballen x4</s><r>повар Биттербаллен x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Boiledmeat.description"><s>Cook a Boiled meat from meats.</s><r>Приготовьте отварное мясо из мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Boiledmeat.jobString"><s>Cooking Boiled meat.</s><r>Приготовление Вареного мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Boiledmeat.label"><s>cook Boiled meat x1</s><r>приготовить Вареное мясо x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_BoiledmeatBulk.description"><s>Cook 4 Boiled meats from meats.</s><r>Приготовить 4 отварных блюда из мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_BoiledmeatBulk.jobString"><s>Cooking 4 Boiled meats.</s><r>Приготовление 4 Вареного мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_BoiledmeatBulk.label"><s>cook Boiled meat x4</s><r>приготовить Вареное мясо x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Boiledpotato.description"><s>Cook a Boiled potato from potatoes.</s><r>Приготовить отварную картошку из картофеля.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Boiledpotato.jobString"><s>Cooking Boiled potato.</s><r>Приготовление Отварной картофель.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Boiledpotato.label"><s>cook Boiled potato x1</s><r>приготовить Отварной картофель x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_BoiledpotatoBulk.description"><s>Cook 4 Boiled potatoes from potatoes.</s><r>Приготовить 4 Отварные картошки из картофеля.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_BoiledpotatoBulk.jobString"><s>Cooking 4 Boiled potatoes.</s><r>Приготовление 4. Отварной картофель.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_BoiledpotatoBulk.label"><s>cook Boiled potato x4</s><r>приготовить Отварной картофель x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_BraisedShankMeat.description"><s>Cook a Braised Shank Meat from shank part of raw meat and vegetables.</s><r>Приготовьте тушеную рульку из голяшки сырого мяса и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_BraisedShankMeat.jobString"><s>Cooking a Braised Shank Meat.</s><r>Приготовление тушеной голяшки.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_BraisedShankMeat.label"><s>cook Braised Shank Meat x1</s><r>приготовить тушеную голяшку x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_BraisedShankMeatBulk.description"><s>Cook 4 Braised Shank Meat from shank part of raw meat and vegetables.</s><r>Приготовьте 4 тушеные рульки из голяшки сырого мяса и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_BraisedShankMeatBulk.jobString"><s>Cooking 4 Braised Shank Meat.</s><r>Приготовление 4 тушеных голяшек.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_BraisedShankMeatBulk.label"><s>cook Braised Shank Meat x4</s><r>приготовить тушеную голяшку x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanBooiledeggs.description"><s>Prepare a Canned boiled eggs from raw eggs. Sufficient heating time is necessary.</s><r>Приготовьте консервированные вареные яйца из сырых яиц. Необходимо достаточное время нагрева.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanBooiledeggs.jobString"><s>Cooking canned boiled eggs.</s><r>Приготовление консервированных вареных яиц.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanBooiledeggs.label"><s>cook Canned boiled eggs x1</s><r>приготовить Консервированные вареные яйца x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanBooiledeggsBulk.description"><s>Prepare four Canned boiled eggs from raw eggs. Sufficient heating time is necessary.</s><r>Приготовьте четыре вареных консервированных яйца из сырых яиц. Необходимо достаточное время нагрева.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanBooiledeggsBulk.jobString"><s>Cooking 4 canned boiled eggs.</s><r>Готовим 4 консервированных вареных яйца.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanBooiledeggsBulk.label"><s>cook Canned boiled eggs x4</s><r>приготовить Консервированные вареные яйца x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanBread.description"><s>Prepare a Canned bread from corn and rice. Sufficient heating time is necessary.</s><r>Приготовьте консервированный хлеб из кукурузы и риса. Необходимо достаточное время нагрева.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanBread.jobString"><s>Cooking canned bread.</s><r>Готовим консервированный хлеб.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanBread.label"><s>cook Canned bread x1</s><r>приготовить Консервированный хлеб x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanBreadBulk.description"><s>Prepare four Canned breads from corn and rice. Sufficient heating time is necessary.</s><r>Приготовьте четыре консервированных хлеба из кукурузы и риса. Необходимо достаточное время нагрева.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanBreadBulk.jobString"><s>Cooking 4 canned breads.</s><r>Готовим 4 консервированных хлеба.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanBreadBulk.label"><s>cook Canned bread x4</s><r>приготовить Консервированный хлеб x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanCheesecake.description"><s>Prepare a Canned cheesecake from rice or corn and milk. Sufficient heating time is necessary.</s><r>Приготовьте консервированный чизкейк из риса или кукурузы и молока. Необходимо достаточное время нагрева.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanCheesecake.jobString"><s>Cooking canned cheesecake.</s><r>Готовим консервированный чизкейк.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanCheesecake.label"><s>cook Canned cheesecake x1</s><r>приготовить Чизкейк консервированный х1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanCheesecakeBulk.description"><s>Prepare four Canned cheesecakes from rice or corn and milk. Sufficient heating time is necessary.</s><r>Приготовьте четыре консервированных сырника из риса или кукурузы и молока. Необходимо достаточное время нагрева.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanCheesecakeBulk.jobString"><s>Cooking 4 canned cheesecakes.</s><r>Готовим 4 консервированных сырника.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanCheesecakeBulk.label"><s>cook Canned cheesecake x4</s><r>приготовить Чизкейк консервированный х4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanMeatstew.description"><s>Prepare a Canned meat stew from meats and vegetables. Sufficient heating time is necessary.</s><r>Приготовьте тушеную мясную консерву из мяса и овощей. Необходимо достаточное время нагрева.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanMeatstew.jobString"><s>Cooking canned meat stew.</s><r>Готовим мясные тушеные консервы.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanMeatstew.label"><s>cook Canned meat stew x1</s><r>приготовить Рагу из мясных консервов x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanMeatstewBulk.description"><s>Prepare four Canned meat stews from meats and vegetables. Sufficient heating time is necessary.</s><r>Приготовьте четыре тушеные мясные консервы из мяса и овощей. Необходимо достаточное время нагрева.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanMeatstewBulk.jobString"><s>Cooking 4 canned meat stews.</s><r>Готовим 4 тушеных мясных консервы.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanMeatstewBulk.label"><s>cook Canned meat stew x4</s><r>приготовить тушенку из мясных консервов x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanMilkstew.description"><s>Prepare a Canned milk stew from potatoes or corn,meats and milk. Sufficient heating time is necessary.</s><r>Приготовьте молочную тушенку из картофеля или кукурузы, мяса и молока. Необходимо достаточное время нагрева.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanMilkstew.jobString"><s>Cooking canned milk stew.</s><r>Готовим молочную рагу из консервов.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanMilkstew.label"><s>cook Canned milk stew x1</s><r>приготовить Рагу из консервированного молока x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanMilkstewBulk.description"><s>Prepare four Canned milk stew from potatoes or corn,meats and milk. Sufficient heating time is necessary.</s><r>Приготовьте четыре молочных тушеных консервы из картофеля или кукурузы, мяса и молока. Необходимо достаточное время нагрева.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanMilkstewBulk.jobString"><s>Cooking 4 canned milk stews.</s><r>Готовим 4 молочных консервированных рагу.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanMilkstewBulk.label"><s>cook Canned milk stew x4</s><r>приготовить тушеное молоко с консервами x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Canfish.description"><s>Prepare a Canned braised fish from raw fish and vegetables. Sufficient heating time is necessary.</s><r>Приготовьте тушеную рыбную консерву из сырой рыбы и овощей. Необходимо достаточное время нагрева.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Canfish.jobString"><s>Cooking canned braised fish.</s><r>Приготовление консервированной тушеной рыбы.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Canfish.label"><s>cook Canned braised fish x1</s><r>повар Консервы тушеные рыбные x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanfishBulk.description"><s>Prepare 4 Canned braised fishes from raw fish and vegetables. Sufficient heating time is necessary.</s><r>Приготовьте 4 тушеные рыбные консервы из сырой рыбы и овощей. Необходимо достаточное время нагрева.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanfishBulk.jobString"><s>Cooking 4 canned braised fishes.</s><r>Готовим 4 консервированные тушеные рыбы.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanfishBulk.label"><s>cook Canned braised fish x4</s><r>повар Консервы тушеные рыбные x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Canmeatball.description"><s>Prepare a Canned meatball from raw meat. Sufficient heating time is necessary.</s><r>Приготовьте консервированную тефтельку из сырого мяса. Необходимо достаточное время нагрева.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Canmeatball.jobString"><s>Cooking canned meatball.</s><r>Готовим консервированные котлеты.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Canmeatball.label"><s>cook Canned meatball x1</s><r>приготовить Консервированные фрикадельки x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanmeatballBulk.description"><s>Prepare 4 Canned meatballs from raw meat. Sufficient heating time is necessary.</s><r>Приготовьте 4 консервированные фрикадельки из сырого мяса. Необходимо достаточное время нагрева.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanmeatballBulk.jobString"><s>Cooking 4 canned meatballs.</s><r>Готовим 4 консервированные тефтели.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanmeatballBulk.label"><s>cook Canned meatball x4</s><r>приготовить Консервированные фрикадельки x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Canpotato.description"><s>Prepare a Canned german fries from potatoes and meat. Sufficient heating time is necessary.</s><r>Приготовьте консервированную картошку фри из картофеля и мяса. Необходимо достаточное время нагрева.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Canpotato.jobString"><s>Cooking canned german fries .</s><r>Приготовление консервированного немецкого картофеля фри.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Canpotato.label"><s>cook Canned german fries x1</s><r>повар Консервированный картофель фри x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanpotatoBulk.description"><s>Prepare 4 Canned german fries from potatoes and meat. Sufficient heating time is necessary.</s><r>Приготовьте 4 консервированные картошки фри из картофеля и мяса. Необходимо достаточное время нагрева.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanpotatoBulk.jobString"><s>Cooking 4 canned german fries .</s><r>Готовим 4 консервированных картофеля фри.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CanpotatoBulk.label"><s>cook Canned german fries x4</s><r>повар консервированный картофель фри x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Cansoup.description"><s>Prepare a Canned soup from vegetables and meat or animal products. Sufficient heating time is necessary.</s><r>Приготовьте консервированный суп из овощей и мяса или продуктов животного происхождения. Необходимо достаточное время нагрева.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Cansoup.jobString"><s>Cooking canned soup .</s><r>Готовим консервированный суп.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Cansoup.label"><s>cook Canned soup x1</s><r>приготовить консервированный суп x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CansoupBulk.description"><s>Prepare 4 Canned soup from vegetables and meat or animal products. Sufficient heating time is necessary.</s><r>Приготовьте 4 консервированных супа из овощей и мяса или продуктов животного происхождения. Необходимо достаточное время нагрева.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CansoupBulk.jobString"><s>Cooking 4 canned soup .</s><r>Готовим 4 консервированных супа.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CansoupBulk.label"><s>cook Canned soup x4</s><r>приготовить консервированный суп x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CheesePasta.description"><s>Cook a Cheese pasta from rice and milk.</s><r>Приготовьте сырную пасту из риса и молока.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CheesePasta.jobString"><s>Cooking Cheese pasta.</s><r>Приготовление сырной пасты.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CheesePasta.label"><s>cook Cheese pasta x1</s><r>приготовить макароны с сыром x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CheesePastaBulk.description"><s>Cook 4 Cheese pasta from rice and milk.</s><r>Приготовьте 4 сырных макароны из риса и молока.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CheesePastaBulk.jobString"><s>Cooking 4 Cheese pasta.</s><r>Готовим макароны с 4 сырами.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CheesePastaBulk.label"><s>cook Cheese pasta x4</s><r>приготовить макароны с сыром x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Cheesecake.description"><s>Cook a Cheesecake from rice or corn and milk.</s><r>Приготовьте чизкейк из риса или кукурузы и молока.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Cheesecake.jobString"><s>Cooking Cheesecake.</s><r>Готовим чизкейк.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Cheesecake.label"><s>cook Cheesecake x1</s><r>приготовить Чизкейк x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CheesecakeBulk.description"><s>Cook 4 Cheesecakes from rice or corn and milk.</s><r>Приготовьте 4 сырника из риса или кукурузы и молока.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CheesecakeBulk.jobString"><s>Cooking 4 Cheesecakes.</s><r>Готовим 4 сырника.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CheesecakeBulk.label"><s>cook Cheesecake x4</s><r>приготовить Чизкейк x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Cheesetoast.description"><s>Cook Cheese toast from rice or corn, and milk.</s><r>Приготовьте сырные тосты из риса или кукурузы и молока.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Cheesetoast.jobString"><s>Cooking Cheese toast.</s><r>Приготовление сырных тостов.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Cheesetoast.label"><s>cook Cheese toast x1</s><r>приготовить сырный тост x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CheesetoastBulk.description"><s>Cook 4 Cheese toast from rice or corn, and milk.</s><r>Приготовьте 4 сырных тоста из риса или кукурузы и молока.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CheesetoastBulk.jobString"><s>Cooking 4 Cheese toast.</s><r>Готовим тост с 4 сырами.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CheesetoastBulk.label"><s>cook Cheese toast x4</s><r>приготовить сырные тосты x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Chocolatedoughnut.description"><s>Cook a Chocolate doughnut from rice or corn and chocolates.</s><r>Приготовьте шоколадный пончик из риса или кукурузы и шоколадных конфет.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Chocolatedoughnut.jobString"><s>Cooking Chocolate doughnut.</s><r>Готовим шоколадный пончик.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Chocolatedoughnut.label"><s>cook Chocolate doughnut x1</s><r>приготовить шоколадный пончик x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_ChocolatedoughnutBulk.description"><s>Cook 4 Chocolate doughnuts from rice or corn and chocolates.</s><r>Приготовьте 4 шоколадных пончика из риса или кукурузы и шоколада.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_ChocolatedoughnutBulk.jobString"><s>Cooking 4 Chocolate doughnuts.</s><r>Готовим 4 шоколадных пончика.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_ChocolatedoughnutBulk.label"><s>cook Chocolate doughnut x4</s><r>приготовить Шоколадный пончик x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Churrasco.description"><s>Cook a Churrasco from meats.</s><r>Приготовьте Чурраско из мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Churrasco.jobString"><s>Cooking Churrasco.</s><r>Готовим Чурраско.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Churrasco.label"><s>cook Churrasco x1</s><r>приготовить барбекю x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_ChurrascoBulk.description"><s>Cook 4 Churrascos from meats.</s><r>Приготовьте 4 чураско из мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_ChurrascoBulk.jobString"><s>Cooking 4 Churrascos.</s><r>Готовим 4 чураско.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_ChurrascoBulk.label"><s>cook Churrasco x4</s><r>повар Чурраско x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Conecreamsoup.description"><s>Cook Cone cream soup from corn and milk.</s><r>Приготовьте крем-суп «Шишка» из кукурузы и молока.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Conecreamsoup.jobString"><s>Cooking Cone cream soup.</s><r>Готовим крем-суп Конус.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Conecreamsoup.label"><s>cook Cone cream soup x1</s><r>приготовить крем-суп Конус x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_ConecreamsoupBulk.description"><s>Cook 4 Cone cream soup from corn and milk.</s><r>Приготовьте крем-суп «4 конуса» из кукурузы и молока.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_ConecreamsoupBulk.jobString"><s>Cooking 4 Cone cream soup.</s><r>Готовим крем-суп «4 конуса».</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_ConecreamsoupBulk.label"><s>cook Cone cream soup x4</s><r>приготовить крем-суп Конус x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Cornbread.description"><s>Cook a Cornbread from corn.</s><r>Приготовьте кукурузный хлеб из кукурузы.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Cornbread.jobString"><s>Cooking Cornbread.</s><r>Приготовление кукурузного хлеба.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Cornbread.label"><s>cook Cornbread x1</s><r>приготовить кукурузный хлеб x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CornbreadBulk.description"><s>Cook 4 Cornbreads from corn.</s><r>Приготовьте 4 кукурузных хлебца.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CornbreadBulk.jobString"><s>Cooking 4 Cornbreads.</s><r>Готовим 4 кукурузных хлеба.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CornbreadBulk.label"><s>cook Cornbread x4</s><r>приготовить кукурузный хлеб x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Cottagecheese.description"><s>Cook a Cottage cheese from milk.</s><r>Приготовьте творог из молока.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Cottagecheese.jobString"><s>Cooking Cottage cheese.</s><r>Приготовление Творог.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Cottagecheese.label"><s>cook Cottage cheese x1</s><r>приготовить Творог х1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CottagecheeseBulk.description"><s>Cook 4 Cottage cheeses from milk.</s><r>Приготовьте 4 творога из молока.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CottagecheeseBulk.jobString"><s>Cooking 4 Cottage cheeses.</s><r>Готовим 4 творога.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CottagecheeseBulk.label"><s>cook Cottage cheese x4</s><r>приготовить Творог х4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Croquette.description"><s>Cook a Croquette from potatoes and corn or rice.</s><r>Приготовьте крокеты из картофеля и кукурузы или риса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Croquette.jobString"><s>Cooking Croquette.</s><r>Приготовление крокета.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Croquette.label"><s>cook Croquette x1</s><r>приготовить крокеты x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CroquetteBulk.description"><s>Cook 4 Croquettes from potatoes and corn or rice.</s><r>Приготовьте 4 крокета из картофеля и кукурузы или риса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CroquetteBulk.jobString"><s>Cooking 4 Croquettes.</s><r>Готовим 4 крокета.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_CroquetteBulk.label"><s>cook Croquette x4</s><r>приготовить крокеты x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Dria.description"><s>Cook a Doria from rice,milk,vegetables and meats.</s><r>Приготовьте Дориа из риса, молока, овощей и мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Dria.jobString"><s>Cooking Doria.</s><r>Готовим Дорию.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Dria.label"><s>cook Doria x1</s><r>повар Дория x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_DriaBulk.description"><s>Cook 4 Dorias from rice,milk,vegetables and meats.</s><r>Приготовьте 4 дории из риса, молока, овощей и мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_DriaBulk.jobString"><s>Cooking 4 Dorias.</s><r>Готовим 4 Дориа.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_DriaBulk.label"><s>cook Doria x4</s><r>повар Дория x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Eggsbenedict.description"><s>Cook a Eggs benedict from rice or corn,meats and eggs.</s><r>Приготовьте яйца Бенедикт из риса или кукурузы, мяса и яиц.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Eggsbenedict.jobString"><s>Cooking Eggs benedict.</s><r>Приготовление яиц Бенедикт.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Eggsbenedict.label"><s>cook Eggs benedict x1</s><r>приготовить Яйца Бенедикт x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_EggsbenedictBulk.description"><s>Cook 4 Eggs benedicts from rice or corn meats and eggs.</s><r>Приготовьте 4 яйца-бенедикты из риса или кукурузы, мяса и яиц.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_EggsbenedictBulk.jobString"><s>Cooking 4 Eggs benedict.</s><r>Приготовление 4 яиц Бенедикт.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_EggsbenedictBulk.label"><s>cook Eggs benedict x4</s><r>приготовить Яйца Бенедикт x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Eggtoast.description"><s>Cook Egg toast from rice or corn, and egg.</s><r>Приготовьте яичный тост из риса или кукурузы и яйца.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Eggtoast.jobString"><s>Cooking Egg toast.</s><r>Приготовление яичного тоста.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Eggtoast.label"><s>cook Egg toast x1</s><r>приготовить яичный тост x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_EggtoastBulk.description"><s>Cook 4 Egg toast from rice or corn, and egg.</s><r>Приготовьте тост из 4 яиц из риса или кукурузы и яйца.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_EggtoastBulk.jobString"><s>Cooking 4 Egg toast.</s><r>Приготовление тоста из 4 яиц.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_EggtoastBulk.label"><s>cook Egg toast x4</s><r>приготовить яичный тост x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_FishAndChips.description"><s>Cook a Fish and chips from fish and potatos.</s><r>Приготовьте рыбу с жареным картофелем из рыбы и картофеля.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_FishAndChips.jobString"><s>Cooking a Fish and chips.</s><r>Приготовление рыбы с жареным картофелем.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_FishAndChips.label"><s>cook Fish and chips x1</s><r>приготовить рыбу с жареным картофелем x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_FishAndChipsBulk.description"><s>Cook 4 Fish and chips from fish and potatos.</s><r>Приготовьте 4 фиша с жареным картофелем из рыбы и картофеля.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_FishAndChipsBulk.jobString"><s>Cooking 4 Fish and chips.</s><r>Готовим 4 рыбы с жареным картофелем.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_FishAndChipsBulk.label"><s>cook Fish and chips x4</s><r>приготовить рыбу с жареным картофелем x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_FishTacos.description"><s>Cook a Fish tacos from fish and vegetables.</s><r>Приготовьте рыбные тако из рыбы и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_FishTacos.jobString"><s>Cooking a Fish tacos.</s><r>Приготовление рыбных тако.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_FishTacos.label"><s>cook Fish tacos x1</s><r>приготовить рыбные тако x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_FishTacosBulk.description"><s>Cook 4 Fish tacos from fish and vegetables.</s><r>Приготовьте 4 рыбных тако из рыбы и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_FishTacosBulk.jobString"><s>Cooking 4 Fish tacos.</s><r>Готовим 4 рыбных тако.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_FishTacosBulk.label"><s>cook Fish tacos x4</s><r>приготовить рыбные тако x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Frenchdip.description"><s>Cook a French dip sandwich from rawmeat, rice or corn and other vegetables.</s><r>Приготовьте французский сэндвич с сырым мясом, рисом или кукурузой и другими овощами.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Frenchdip.jobString"><s>Cooking a French dip sandwich.</s><r>Приготовление французского дип-сэндвича.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Frenchdip.label"><s>cook French dip sandwich x1</s><r>приготовить французский сэндвич с соусом x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_FrenchdipBulk.description"><s>Cook 4 French dip sandwich from rawmeat,  rice or corn and other vegetables.</s><r>Приготовьте 4 французских сэндвича с сырым мясом, рисом или кукурузой и другими овощами.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_FrenchdipBulk.jobString"><s>Cooking 4 French dip sandwich.</s><r>Готовим 4 французских сэндвича.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_FrenchdipBulk.label"><s>cook French dip sandwich x4</s><r>приготовить французский сэндвич с соусом x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_FriedCMD.description"><s>Cook Fried corn and meat dumplings from corn and meat.</s><r>Приготовьте жареную кукурузу и пельмени из кукурузы и мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_FriedCMD.jobString"><s>Cooking Fried corn and meat dumplings.</s><r>Приготовление Жареная кукуруза и пельмени.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_FriedCMD.label"><s>cook Fried corn and meat dumplings x1</s><r>повар Жареная кукуруза и пельмени x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_FriedCMDBulk.description"><s>Cook 4 Fried corn and meat dumplings from corn and meat.</s><r>Приготовьте 4 Жареные кукурузно-мясные пельмени из кукурузы и мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_FriedCMDBulk.jobString"><s>Cooking Fried corn and meat dumplings.</s><r>Приготовление Жареная кукуруза и пельмени.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_FriedCMDBulk.label"><s>cook Fried corn and meat dumplings x4</s><r>повар Жареная кукуруза и пельмени x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Friedegg.description"><s>Cook a Fried egg from eggs.</s><r>Приготовьте яичницу из яиц.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Friedegg.jobString"><s>Cooking Fried egg.</s><r>Приготовление жареного яйца.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Friedegg.label"><s>cook Fried egg x1</s><r>приготовить жареное яйцо x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_FriedeggBulk.description"><s>Cook 4 Fried eggs from eggss.</s><r>Приготовьте 4 яичницы из яиц.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_FriedeggBulk.jobString"><s>Cooking 4 Fried egg.</s><r>Приготовление 4 Яичница-глазунья.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_FriedeggBulk.label"><s>cook Fried egg x4</s><r>приготовить жареное яйцо x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Friedpotatoandcorn.description"><s>Cook Fried potato and corn potato and raw meat.</s><r>Приготовьте жареный картофель, кукурузный картофель и сырое мясо.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Friedpotatoandcorn.jobString"><s>Cooking Fried potato and corn.</s><r>Приготовление Жареный картофель и кукуруза.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Friedpotatoandcorn.label"><s>cook Fried potato and corn x1</s><r>приготовить Жареный картофель и кукурузу x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_FriedpotatoandcornBulk.description"><s>Cook 4 Fried potato and corn potato and raw meat.</s><r>Приготовьте 4 Жареный картофель, кукурузный картофель и сырое мясо.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_FriedpotatoandcornBulk.jobString"><s>Cooking 4 Fried potato and corn.</s><r>Приготовление 4 Жареная картошка и кукуруза.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_FriedpotatoandcornBulk.label"><s>cook Fried potato and corn x4</s><r>приготовить Жареный картофель и кукурузу x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_GermanFries.description"><s>Cook German Fries from potatoes and meat.</s><r>Приготовьте картофель фри из картофеля и мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_GermanFries.jobString"><s>Cooking German Fries.</s><r>Приготовление картофеля фри по-немецки.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_GermanFries.label"><s>cook German Fries x1</s><r>приготовить немецкий картофель фри x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_GermanFriesBulk.description"><s>Cook 4 German Fries from potatoes and meat.</s><r>Приготовьте 4 картофеля фри из картофеля и мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_GermanFriesBulk.jobString"><s>Cooking 4 German Fries.</s><r>Готовим 4 картофеля фри по-немецки.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_GermanFriesBulk.label"><s>cook German Fries x4</s><r>приготовить немецкий картофель фри x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Gnocchi.description"><s>Cook a Gnocchi from potatoes and other vegetables or animal products.</s><r>Приготовьте ньокки из картофеля и других овощей или продуктов животного происхождения.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Gnocchi.jobString"><s>Cooking Croquette.</s><r>Приготовление крокета.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Gnocchi.label"><s>cook Gnocchi x1</s><r>приготовить ньокки x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_GnocchiBulk.description"><s>Cook 4 Gnocchi from potatoes and other vegetables or animal products.</s><r>Приготовьте 4 ньокки из картофеля и других овощей или продуктов животного происхождения.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_GnocchiBulk.jobString"><s>Cooking 4 Croquette.</s><r>Готовим 4 крокета.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_GnocchiBulk.label"><s>cook Gnocchi x4</s><r>приготовить ньокки x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Gratin.description"><s>Cook a Gratin from rice or corn, milk,vegetables and meats.</s><r>Приготовьте гратен из риса или кукурузы, молока, овощей и мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Gratin.jobString"><s>Cooking Gratin.</s><r>Приготовление Гратена.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Gratin.label"><s>cook Gratin x1</s><r>приготовить гратен x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_GratinBulk.description"><s>Cook 4 Gratins from rice or corn, milk,vegetables and meats.</s><r>Приготовьте 4 запеканки из риса или кукурузы, молока, овощей и мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_GratinBulk.jobString"><s>Cooking 4 Gratins.</s><r>Готовим 4 гратена.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_GratinBulk.label"><s>cook Gratin x4</s><r>приготовить гратен x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Grilledriceball.description"><s>Cook a Grilled rice ball from rice.</s><r>Приготовьте рисовые шарики на гриле из риса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Grilledriceball.jobString"><s>Cooking Grilled rice ball.</s><r>Приготовление Рисовых шариков на гриле.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Grilledriceball.label"><s>cook Grilled rice ball x1</s><r>повар Жареные рисовые шарики x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_GrilledriceballBulk.description"><s>Cook 4 Grilled rice balls from rice.</s><r>Приготовьте из риса 4 рисовых шарика на гриле.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_GrilledriceballBulk.jobString"><s>Cooking 4 Grilled rice balls.</s><r>Приготовление 4 рисовых шариков на гриле.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_GrilledriceballBulk.label"><s>cook Grilled rice ball x4</s><r>повар Жареные рисовые шарики x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Hamburger.description"><s>Cook a Hamburger from rice or corn, and meat, milk and vegetable.</s><r>Приготовьте гамбургер из риса или кукурузы, а также мяса, молока и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Hamburger.jobString"><s>Cooking Hamburger.</s><r>Готовим гамбургер.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Hamburger.label"><s>cook Hamburger x1</s><r>приготовить гамбургер x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_HamburgerBulk.description"><s>Cook 4 Hamburgers from rice or corn, and meat, milk and vegetable.</s><r>Приготовьте 4 гамбургера из риса или кукурузы, а также мяса, молока и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_HamburgerBulk.jobString"><s>Cooking 4 Hamburgers.</s><r>Готовим 4 гамбургера.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_HamburgerBulk.label"><s>cook Hamburger x4</s><r>приготовить гамбургер x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Hamburgersteak.description"><s>Cook a Hamburger steak from meats and vegetables.</s><r>Приготовьте стейк «Гамбургер» из мяса и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Hamburgersteak.jobString"><s>Cooking Hamburger steak.</s><r>Готовим стейк-гамбургер.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Hamburgersteak.label"><s>cook Hamburger steak x1</s><r>приготовить стейк для гамбургера x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_HamburgersteakBulk.description"><s>Cook 4 Hamburger steaks from meats and vegetables.</s><r>Приготовьте 4 стейка для гамбургеров из мяса и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_HamburgersteakBulk.jobString"><s>Cooking Hamburger steaks.</s><r>Приготовление стейков для гамбургеров.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_HamburgersteakBulk.label"><s>cook Hamburger steak x4</s><r>приготовить стейк для гамбургера x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_HuevosRancheros.description"><s>Cook a Huevos rancheros from corn, egg and vegetables.</s><r>Приготовьте ранчеро Huevos из кукурузы, яиц и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_HuevosRancheros.jobString"><s>Cooking Huevos rancheros.</s><r>Приготовление ранчеро Хуэвос.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_HuevosRancheros.label"><s>cook Huevos rancheros x1</s><r>повар Хуэвос ранчерос x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_HuevosRancherosBulk.description"><s>Cook 4 Huevos rancheros from corn, egg and vegetables.</s><r>Приготовьте 4 ранчеро Huevos из кукурузы, яиц и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_HuevosRancherosBulk.jobString"><s>Cooking 4 Huevos rancheros.</s><r>Приготовление 4 ранчеро Уэвос.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_HuevosRancherosBulk.label"><s>cook Huevos rancheros x4</s><r>повар Хуэвос ранчерос x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_InsectSteak.description"><s>Cook a Insect steak from Insect meats.</s><r>Приготовьте стейк из мяса насекомых.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_InsectSteak.jobString"><s>Cooking Insect steak.</s><r>Приготовление стейка из насекомых.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_InsectSteak.label"><s>cook Insect steak x1</s><r>приготовить стейк из насекомых x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_InsectSteakBulk.description"><s>Cook 4 Insect steaks from Insect meats.</s><r>Приготовьте 4 стейка насекомых из мяса насекомых.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_InsectSteakBulk.jobString"><s>Cooking 4 Insect steaks.</s><r>Приготовление 4 стейков насекомых.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_InsectSteakBulk.label"><s>cook Insect steak x4</s><r>приготовить стейк из насекомых x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Jambalaya.description"><s>Cook a Jambalaya from rice, vegetables and rawmeats.</s><r>Приготовьте джамбалайю из риса, овощей и сырого мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Jambalaya.jobString"><s>Cooking Jambalaya.</s><r>Готовим Джамбалайю.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Jambalaya.label"><s>cook Jambalaya x1</s><r>приготовить Джамбалайю x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_JambalayaBulk.description"><s>Cook 4 Jambalayas from rice, vegetables and rawmeats.</s><r>Приготовьте 4 джамбалайи из риса, овощей и сырого мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_JambalayaBulk.jobString"><s>Cooking 4 Jambalayas.</s><r>Готовим 4 джамбалая.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_JambalayaBulk.label"><s>cook Jambalaya x4</s><r>повар Джамбалайя x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_KatsuDonEgg.description"><s>Cook a Katsudon with egg from rice,meats,eggs and vegetables.</s><r>Приготовьте кацудон с яйцом из риса, мяса, яиц и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_KatsuDonEgg.jobString"><s>Cooking Katsudon.</s><r>Приготовление Кацудона.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_KatsuDonEgg.label"><s>cook Katsudon with egg x1</s><r>приготовить Кацудон с яйцом x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_KatsuDonEggBulk.description"><s>Cook 4 Katsudons with egg from rice,meats,eggs and vegetables.</s><r>Приготовьте 4 кацудона с яйцом из риса, мяса, яиц и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_KatsuDonEggBulk.jobString"><s>Cooking 4  Katsudons.</s><r>Готовим 4 Кацудона.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_KatsuDonEggBulk.label"><s>cook Katsudon with egg x4</s><r>приготовить Кацудон с яйцом х4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_KatsuDonsauce.description"><s>Cook a Katsudon with sauce from rice,meats and vegetables.</s><r>Приготовьте Кацудон с соусом из риса, мяса и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_KatsuDonsauce.jobString"><s>Cooking Katsudon.</s><r>Приготовление Кацудона.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_KatsuDonsauce.label"><s>cook Katsudon with sauce x1</s><r>приготовить Кацудон с соусом х1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_KatsuDonsauceBulk.description"><s>Cook 4 Katsudons with sauce from rice,meats,eggs and vegetables.</s><r>Приготовьте 4 кацудона с соусом из риса, мяса, яиц и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_KatsuDonsauceBulk.jobString"><s>Cooking 4  Katsudons.</s><r>Готовим 4 Кацудона.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_KatsuDonsauceBulk.label"><s>cook Katsudon with sauce x4</s><r>приготовить Кацудон с соусом х4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_KhaoManGai.description"><s>Cook a Khao Man Gai from rawmeat, rice and other vegetables.</s><r>Приготовьте Кхао Ман Гай из сырого мяса, риса и других овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_KhaoManGai.jobString"><s>Cooking a Khao Man Gai.</s><r>Приготовление Кхао Ман Гай.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_KhaoManGai.label"><s>cook Khao Man Gai x1</s><r>повар Као Ман Гай x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_KhaoManGaiBulk.description"><s>Cook 4 Khao Man Gai from rawmeat, rice and other vegetables.</s><r>Приготовьте 4 Кхао Ман Гай из сырого мяса, риса и других овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_KhaoManGaiBulk.jobString"><s>Cooking 4 Khao Man Gai.</s><r>Готовим 4 Кхао Ман Гай.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_KhaoManGaiBulk.label"><s>cook Khao Man Gai x4</s><r>повар Кхао Ман Гай x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_LocoMoco.description"><s>Cook a Loco Moco from rice, egg, rawmeat and vegetables.</s><r>Приготовьте локо-моко из риса, яиц, сырого мяса и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_LocoMoco.jobString"><s>Cooking Loco Moco.</s><r>Готовим Локо Моко.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_LocoMoco.label"><s>cook Loco Moco x1</s><r>повар Локо Моко x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_LocoMocoBulk.description"><s>Cook 4 Loco Moco from rice, egg, rawmeat and vegetables.</s><r>Приготовьте 4 Локо Моко из риса, яиц, сырого мяса и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_LocoMocoBulk.jobString"><s>Cooking 4 Loco Moco.</s><r>Готовим 4 Локо Моко.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_LocoMocoBulk.label"><s>cook Loco Moco x4</s><r>повар Локо Моко x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_LuRouFan.description"><s>Cook a LuRouFan from rice,meats,eggs and vegetables.</s><r>Приготовьте ЛуРоуФан из риса, мяса, яиц и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_LuRouFan.jobString"><s>Cooking LuRouFan.</s><r>Готовим ЛуРоуФан.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_LuRouFan.label"><s>cook LuRouFan x1</s><r>повар ЛуРоуФан x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_LuRouFanBulk.description"><s>Cook 4 LuRouFans from rice,meats,eggs and vegetables.</s><r>Приготовьте 4 ЛуРоуФана из риса, мяса, яиц и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_LuRouFanBulk.jobString"><s>Cooking 4 LuRouFans.</s><r>Готовим 4 ЛуРоуФана.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_LuRouFanBulk.label"><s>cook LuRouFan x4</s><r>повар ЛуРоуФан x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MealMedicPack.description"><s>Prepare a packaged meal for medical from a combination of Delicious packaged survival meal and Herbal medicine.</s><r>Приготовьте упакованную еду для медицинских целей, сочетая вкусную упакованную еду для выживания и лекарственные травы.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MealMedicPack.jobString"><s>Cooking Medical packaged meal.</s><r>Приготовление медицинской упакованной еды.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MealMedicPack.label"><s>cook Medical packaged meal x1</s><r>готовить медицинскую упакованную еду x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MealMedicPackBulk.description"><s>Prepare 4 packaged meals for medical from a combination of Delicious packaged survival meal and Herbal medicine.</s><r>Приготовьте 4 упакованных медицинских блюда из комбинации вкусной упакованной еды для выживания и травяных лекарств.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MealMedicPackBulk.jobString"><s>Cooking 4 Medical packaged meals.</s><r>Приготовление 4-х лечебных комплексных обедов.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MealMedicPackBulk.label"><s>cook Medical packaged meal x4</s><r>готовить медицинскую упакованную еду x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MealSoldierPack.description"><s>Prepare a packaged survival meal for combatants from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</s><r>Приготовьте упакованную еду выживания для комбатантов из сочетания мясных и растительных ингредиентов. Большая часть ингредиентов теряется в процессе консервации.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MealSoldierPack.jobString"><s>Cooking Combatant packaged meal.</s><r>Приготовление комбатантской фасованной еды.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MealSoldierPack.label"><s>cook Combatant packaged meal x1</s><r>готовить упакованную еду «Боевой» x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MealSoldierPackBulk.description"><s>Prepare 4 packaged survival meals for combatants from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</s><r>Приготовьте для комбатантов 4 упакованных обеда выживания из мясных и растительных ингредиентов. Большая часть ингредиентов теряется в процессе консервации.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MealSoldierPackBulk.jobString"><s>Cooking 4 Combatant packaged meals.</s><r>Приготовление 4-х Боевых комплексных обедов.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MealSoldierPackBulk.label"><s>cook Combatant packaged meal x4</s><r>приготовить упакованную еду «Боевой» x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MealSurvivalPack.description"><s>Prepare a delicious packaged survival meal from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</s><r>Приготовьте вкусную упакованную еду для выживания из сочетания мясных и растительных ингредиентов. Большая часть ингредиентов теряется в процессе консервации.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MealSurvivalPack.jobString"><s>Cooking Delicious packaged survival meal.</s><r>Приготовление вкусной упакованной еды для выживания.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MealSurvivalPack.label"><s>cook Delicious packaged survival meal x1</s><r>готовить вкусную упакованную еду для выживания x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MealSurvivalPackBulk.description"><s>Prepare 4 delicious packaged survival meals from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</s><r>Приготовьте 4 вкусных упакованных обеда для выживания из сочетания мясных и растительных ингредиентов. Большая часть ингредиентов теряется в процессе консервации.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MealSurvivalPackBulk.jobString"><s>Cooking 4 Delicious packaged survival meals.</s><r>Приготовление 4 вкусных упакованных обедов для выживания.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MealSurvivalPackBulk.label"><s>cook Delicious packaged survival meal x4</s><r>готовить вкусную упакованную еду для выживания x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MeatApotatoSJstyle.description"><s>Cook Meat and potato stew from potatoes and meat.</s><r>Приготовить Мясно-картофельное рагу из картофеля и мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MeatApotatoSJstyle.jobString"><s>Cooking Meat and potato stew Japanese style.</s><r>Приготовление тушеного мяса и картофеля по-японски.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MeatApotatoSJstyle.label"><s>cook Meat and potato stew Japanese style x1</s><r>приготовить Тушеное мясо и картофель по-японски x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MeatApotatoSJstyleBulk.description"><s>Cook 4 Meat and potato stew from potatoes and meat.</s><r>Готовим 4 Мясно-картофельное рагу из картофеля и мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MeatApotatoSJstyleBulk.jobString"><s>Cooking 4 Meat and potato stew Japanese style.</s><r>Приготовление 4 Тушеное мясо с картошкой по-японски.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MeatApotatoSJstyleBulk.label"><s>cook Meat and potato stew Japanese style x4</s><r>приготовить Тушеное мясо и картофель по-японски x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MeatWrappedRiceBall.description"><s>Cook a Meat wrapped rice ball from meats and rice.</s><r>Приготовьте рисовые шарики в мясной обертке из мяса и риса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MeatWrappedRiceBall.jobString"><s>Cooking Meat wrapped rice ball.</s><r>Приготовление рисовых шариков в мясной упаковке.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MeatWrappedRiceBall.label"><s>cook Meat wrapped rice ball x1</s><r>приготовить рисовые шарики в мясной упаковке x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MeatWrappedRiceBallBulk.description"><s>Cook 4 Meat wrapped rice balls from meats and rice.</s><r>Приготовьте 4 рисовых шарика в мясной обертке из мяса и риса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MeatWrappedRiceBallBulk.jobString"><s>Cooking 4 Meat wrapped rice balls.</s><r>Приготовление 4 рисовых шариков в мясной упаковке.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MeatWrappedRiceBallBulk.label"><s>cook Meat wrapped rice ball x4</s><r>приготовить рисовые шарики в мясной упаковке x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Meatball.description"><s>Cook a Meatball from meats.</s><r>Приготовьте фрикадельку из мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Meatball.jobString"><s>Cooking Meatball.</s><r>Готовим фрикадельки.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Meatball.label"><s>cook Meatball x1</s><r>приготовить фрикадельку x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MeatballBulk.description"><s>Cook 4 Meatballs from meats.</s><r>Приготовьте 4 фрикадельки из мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MeatballBulk.jobString"><s>Cooking 4 Meatball.</s><r>Готовим 4 фрикадельки.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MeatballBulk.label"><s>cook Meatball x4</s><r>приготовить Фрикадельку x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Meatloaf.description"><s>Cook a Meatloaf from rawmeat, eggs and vegetables.</s><r>Приготовьте мясной рулет из сырого мяса, яиц и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Meatloaf.jobString"><s>Cooking a Meatloaf.</s><r>Приготовление мясного рулета.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Meatloaf.label"><s>cook Meatloaf x1</s><r>приготовить мясной рулет x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MeatloafBulk.description"><s>Cook 4 Meatloaf from rawmeat, eggs and vegetables.</s><r>Приготовьте 4 мясных рулета из сырого мяса, яиц и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MeatloafBulk.jobString"><s>Cooking 4 Meatloaf.</s><r>Готовим 4 мясных рулета.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MeatloafBulk.label"><s>cook Meatloaf x4</s><r>приготовить мясной рулет x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Meatpie.description"><s>Cook a Meat pie from rice or corn,meats,eggs and milk.</s><r>Приготовьте мясной пирог из риса или кукурузы, мяса, яиц и молока.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Meatpie.jobString"><s>Cooking Meat pie.</s><r>Готовим мясной пирог.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Meatpie.label"><s>cook Meat pie x1</s><r>приготовить мясной пирог x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MeatpieBulk.description"><s>Cook 4 Meat pies from rice or corn,meats,eggs and milk.</s><r>Приготовьте 4 мясных пирога из риса или кукурузы, мяса, яиц и молока.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MeatpieBulk.jobString"><s>Cooking 4 Meat pies.</s><r>Готовим 4 мясных пирога.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MeatpieBulk.label"><s>cook Meatpie x4</s><r>приготовить мясной пирог x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Meattoast.description"><s>Cook Meat toast from rice or corn, and raw meat.</s><r>Приготовьте мясные тосты из риса или кукурузы и сырого мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Meattoast.jobString"><s>Cooking Meat toast.</s><r>Приготовление мясных тостов.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Meattoast.label"><s>cook Meat toast x1</s><r>приготовить мясной тост x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MeattoastBulk.description"><s>Cook 4 Meat toast from rice or corn, and raw meat.</s><r>Приготовьте 4 мясных тоста из риса или кукурузы и сырого мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MeattoastBulk.jobString"><s>Cooking 4 Meat toast.</s><r>Приготовление 4 мясных тостов.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MeattoastBulk.label"><s>cook Meat toast x4</s><r>приготовить мясной тост x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MincedMeatCutlet.description"><s>Cook a Minced meat cutlet from rice or corn, vegetables and rawmeats.</s><r>Приготовьте котлету из фарша из риса или кукурузы, овощей и сырого мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MincedMeatCutlet.jobString"><s>Cooking Minced meat cutlet.</s><r>Приготовление котлет из фарша.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MincedMeatCutlet.label"><s>cook Minced meat cutlet x1</s><r>приготовить Котлеты из фарша х1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MincedMeatCutletBulk.description"><s>Cook 4 Minced meat cutlets from rice or corn, vegetables and rawmeats.</s><r>Приготовьте 4 котлеты из фарша из риса или кукурузы, овощей и сырого мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MincedMeatCutletBulk.jobString"><s>Cooking 4 Minced meat cutlets.</s><r>Готовим 4 котлеты из фарша.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MincedMeatCutletBulk.label"><s>cook Minced meat cutlet x4</s><r>приготовить Котлеты из фарша х4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Mincedeggrice.description"><s>Cook Minced egg rice from rice and egg.</s><r>Приготовьте рисовый фарш из риса и яйца.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Mincedeggrice.jobString"><s>Cooking Minced egg rice.</s><r>Приготовление риса с яичным фаршем.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Mincedeggrice.label"><s>cook Minced egg rice x1</s><r>приготовить рисовый фарш из яиц x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MincedeggriceBulk.description"><s>Cook 4 Minced egg rice from rice and egg.</s><r>Из риса и яйца сварить 4 яичных фарша.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MincedeggriceBulk.jobString"><s>Cooking 4 Minced egg rice.</s><r>Готовим рисовый фарш из 4 яиц.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MincedeggriceBulk.label"><s>cook Minced egg rice x4</s><r>приготовить рисовый фарш из яиц x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Mincedmeatrice.description"><s>Cook Minced meat rice from rice and meat.</s><r>Приготовить рисовый фарш из риса и мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Mincedmeatrice.jobString"><s>Cooking Minced meat rice.</s><r>Приготовление рисового фарша.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Mincedmeatrice.label"><s>cook Minced meat rice x1</s><r>приготовить рисовый фарш x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MincedmeatriceBulk.description"><s>Cook 4 Minced meat rice from rice and meat.</s><r>Приготовьте 4 рисовых фарша из риса и мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MincedmeatriceBulk.jobString"><s>Cooking 4 Minced meat rice.</s><r>Готовим 4 рисовых фарша.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MincedmeatriceBulk.label"><s>cook Minced meat rice x4</s><r>приготовить мясной фарш с рисом x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Musakka.description"><s>Cook a Musakka from vegetable and raw meat.</s><r>Приготовьте Мусакку из овощей и сырого мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Musakka.jobString"><s>Cooking a Musakka.</s><r>Приготовление Мусакки.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Musakka.label"><s>cook Musakka x1</s><r>повар Моисей x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MusakkaBulk.description"><s>Cook 4 Musakka from vegetable and raw meat.</s><r>Приготовьте 4 мусакки из овощей и сырого мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MusakkaBulk.jobString"><s>Cooking 4 Musakka.</s><r>Готовим 4 Мусакку.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_MusakkaBulk.label"><s>cook Musakka x4</s><r>повар Мусакка x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Nasigoreng.description"><s>Cook a Nasi goreng from rawmeat, egg, rice and other vegetables.</s><r>Приготовьте наси горенг из сырого мяса, яиц, риса и других овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Nasigoreng.jobString"><s>Cooking a Nasi goreng.</s><r>Готовим жареный рис.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Nasigoreng.label"><s>cook Nasi goreng x1</s><r>приготовить жареный рис x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_NasigorengBulk.description"><s>Cook 4 Nasi goreng from rawmeat, egg, rice and other vegetables.</s><r>Приготовьте 4 наси горенга из сырого мяса, яиц, риса и других овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_NasigorengBulk.jobString"><s>Cooking 4 Nasi goreng.</s><r>Приготовление 4 Жареный рис.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_NasigorengBulk.label"><s>cook Nasi goreng x4</s><r>приготовить жареный рис x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Nstylemeatballs.description"><s>Cook Norwegian-style meatballs from potatoes and meat.</s><r>Приготовьте котлеты по-норвежски из картофеля и мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Nstylemeatballs.jobString"><s>Cooking Norwegian-style meatballs.</s><r>Готовим котлеты по-норвежски.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Nstylemeatballs.label"><s>cook Norwegian-style meatballs x1</s><r>приготовить фрикадельки по-норвежски x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_NstylemeatballsBulk.description"><s>Cook 4 Norwegian-style meatballs from potatoes and meat.</s><r>Приготовьте 4 котлеты по-норвежски из картофеля и мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_NstylemeatballsBulk.jobString"><s>Cooking 4 Norwegian-style meatballs.</s><r>Готовим 4 котлеты по-норвежски.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_NstylemeatballsBulk.label"><s>cook Norwegian-style meatballs x4</s><r>приготовить фрикадельки по-норвежски x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Omelettet.description"><s>Cook a Omelettet from vegetables or rawmeat and eggs.</s><r>Приготовьте омлет из овощей или сырого мяса и яиц.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Omelettet.jobString"><s>Cooking Omelettet.</s><r>Готовим омлет.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Omelettet.label"><s>cook Omelettet x1</s><r>приготовить омлет x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_OmelettetBulk.description"><s>Cook 4 Omelettets from vegetables or rawmeat and eggs.</s><r>Приготовьте 4 омлета из овощей или сырого мяса и яиц.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_OmelettetBulk.jobString"><s>Cooking 4 Omelettet.</s><r>Готовим 4 омлета.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_OmelettetBulk.label"><s>cook Omelettet x4</s><r>приготовить омлет x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PaellaValenciana.description"><s>Cook a Paella valenciana from rawmeat, rice,corn and potato.</s><r>Приготовьте валенсийскую паэлью из сырого мяса, риса, кукурузы и картофеля.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PaellaValenciana.jobString"><s>Cooking a Paella valenciana.</s><r>Приготовление валенсийской паэльи.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PaellaValenciana.label"><s>cook Paella valencianax1</s><r>готовить паэлью валенсианакс1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PaellaValencianaBulk.description"><s>Cook 4 Paella valenciana from rawmeat, rice,corn and potato.</s><r>Приготовьте 4 валенсийские паэльи из сырого мяса, риса, кукурузы и картофеля.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PaellaValencianaBulk.jobString"><s>Cooking 4 Paella valenciana.</s><r>Готовим 4 валенсийские паэльи.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PaellaValencianaBulk.label"><s>cook Paella valencianax4</s><r>повар Паэлья Валенсианаx4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PancakewithBulk.description"><s>Cook 4 Pancakes with berry sauce from rice or corn, berries,milk and eggs.</s><r>Приготовьте 4 блинчика с ягодным соусом из риса или кукурузы, ягод, молока и яиц.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PancakewithBulk.jobString"><s>Cooking 4 Pancakes with berry sauce.</s><r>Готовим 4 блинчика с ягодным соусом.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PancakewithBulk.label"><s>cook Pancake with berry sauce x4</s><r>приготовить Блинчик с ягодным соусом х4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Pancakewithb.description"><s>Cook a Pancake with berry sauce from rice or corn, berries,milk and eggs.</s><r>Приготовьте блинчик с ягодным соусом из риса или кукурузы, ягод, молока и яиц.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Pancakewithb.jobString"><s>Cooking Pancake with berry sauce.</s><r>Готовим блинчик с ягодным соусом.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Pancakewithb.label"><s>cook Pancake with berry sauce x1</s><r>приготовить Блинчик с ягодным соусом х1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Piccata.description"><s>Cook a Piccata from rawmeats and eggs.</s><r>Приготовьте Пиккату из сырого мяса и яиц.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Piccata.jobString"><s>Cooking Piccata.</s><r>Готовим Пиккату.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Piccata.label"><s>cook Piccata x1</s><r>приготовить Пиккату x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PiccataBulk.description"><s>Cook 4 Piccatas from rawmeats and eggs.</s><r>Приготовьте 4 пиккаты из сырого мяса и яиц.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PiccataBulk.jobString"><s>Cooking 4 Piccatas.</s><r>Приготовление 4 пиккат.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PiccataBulk.label"><s>cook Piccata x4</s><r>готовить Пиккату x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Pilaf.description"><s>Cook a Pilaf from rice, rawmeat, and vegetables.</s><r>Приготовьте плов из риса, сырого мяса и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Pilaf.jobString"><s>Cooking Pilaf.</s><r>Приготовление плова.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Pilaf.label"><s>cook Pilaf x1</s><r>приготовить Плов х1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PilafBulk.description"><s>Cook 4 Pilaf from rice, rawmeat, and vegetables.</s><r>Приготовьте 4 плова из риса, сырого мяса и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PilafBulk.jobString"><s>Cooking 4 Pilaf.</s><r>Готовим 4 плова.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PilafBulk.label"><s>cook Pilaf x4</s><r>приготовить Плов х4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Pizza.description"><s>Cook a Pizza from rice or corn,milk and meat.</s><r>Приготовьте пиццу из риса или кукурузы, молока и мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Pizza.jobString"><s>Cooking Pizza.</s><r>Готовим пиццу.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Pizza.label"><s>cook Pizza x1</s><r>приготовить пиццу x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PizzaBulk.description"><s>Cook 4 Pizzas from rice or corn,milk and meat.</s><r>Приготовьте 4 пиццы из риса или кукурузы, молока и мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PizzaBulk.jobString"><s>Cooking 4 Pizzas.</s><r>Готовим 4 пиццы.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PizzaBulk.label"><s>cook Pizza x4</s><r>приготовить пиццу x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Polenta.description"><s>Cook a Polenta from corn, and raw food.</s><r>Приготовьте поленту из кукурузы и сырых продуктов.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Polenta.jobString"><s>Cooking Polenta.</s><r>Приготовление Поленты.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Polenta.label"><s>cook Polenta x1</s><r>приготовить Поленту x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PolentaBulk.description"><s>Cook 4 Polenta from corn, and raw food.</s><r>Приготовьте 4 поленты из кукурузы и сырых продуктов.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PolentaBulk.jobString"><s>Cooking 4 Polenta.</s><r>Готовим 4 Поленты.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PolentaBulk.label"><s>cook Polenta x4</s><r>приготовить Поленту x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Popcorn.description"><s>Cook a Popcorn from corn.</s><r>Приготовьте попкорн из кукурузы.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Popcorn.jobString"><s>Cooking Popcorn.</s><r>Готовим попкорн.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Popcorn.label"><s>cook Popcorn x1</s><r>приготовить попкорн x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PopcornBulk.description"><s>Cook 4 Popcorns from corn.</s><r>Приготовьте 4 попкорна из кукурузы.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PopcornBulk.jobString"><s>Cooking 4 Popcorns.</s><r>Готовим 4 попкорна.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PopcornBulk.label"><s>cook Popcorn x4</s><r>приготовить попкорн x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Potagesoup.description"><s>Cook a Potage soup from corn and potatos.</s><r>Приготовьте суп-пюре из кукурузы и картофеля.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Potagesoup.jobString"><s>Cooking Potage soup.</s><r>Приготовление картофельного супа.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Potagesoup.label"><s>cook Potage soup x1</s><r>приготовить Суп-суп x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PotagesoupBulk.description"><s>Cook 4 Potage soups from corn and potatos.</s><r>Приготовьте 4 супа-пюре из кукурузы и картофеля.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PotagesoupBulk.jobString"><s>Cooking 4 Potage soups.</s><r>Готовим 4 картофельных супа.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PotagesoupBulk.label"><s>cook Potage soup x4</s><r>приготовить картофельный суп x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PotatoGalette.description"><s>Cook a Potato galette potato and raw meat.</s><r>Приготовьте картофельную галету с картофелем и сырым мясом.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PotatoGalette.jobString"><s>Cooking a Potato galette.</s><r>Приготовление Картофельной галеты.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PotatoGalette.label"><s>cook Potato galette x1</s><r>приготовить Картофельную галету x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PotatoGaletteBulk.description"><s>Cook 4 Potato galette potato and raw meat.</s><r>Приготовьте 4 картофеля. Галетта из картофеля и сырого мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PotatoGaletteBulk.jobString"><s>Cooking 4 Potato galette.</s><r>Приготовление 4 Картофельных галет.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PotatoGaletteBulk.label"><s>cook Potato galette x4</s><r>приготовить Картофельную галету x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Potatobutter.description"><s>Cook a Potato butter from potatoes and milk.</s><r>Приготовьте картофельное масло из картофеля и молока.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Potatobutter.jobString"><s>Cooking Potato butter.</s><r>Приготовление Картофельного масла.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Potatobutter.label"><s>cook Potato butter x1</s><r>приготовить картофельное масло x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PotatobutterBulk.description"><s>Cook 4 Potato butters from potatoes and milk.</s><r>Приготовьте 4 картофельных масла из картофеля и молока.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PotatobutterBulk.jobString"><s>Cooking 4 Potato butters.</s><r>Готовим 4 картофельных масла.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PotatobutterBulk.label"><s>cook Potato butter x4</s><r>приготовить картофельное масло x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Potatodumplings.description"><s>Cook a Potato dumplings from potatoes.</s><r>Приготовьте клецки из картофеля.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Potatodumplings.jobString"><s>Cooking Potato dumplings.</s><r>Приготовление картофельных кнедликов.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Potatodumplings.label"><s>cook Potato dumplings x1</s><r>приготовить Картофельные пельмени x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PotatodumplingsBulk.description"><s>Cook 4 Potato dumplings from potatoes.</s><r>Приготовьте 4 клецки из картофеля.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PotatodumplingsBulk.jobString"><s>Cooking 4 Potato dumplings.</s><r>Готовим 4 картофельных кнедлика.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PotatodumplingsBulk.label"><s>cook Potato dumplings x4</s><r>приготовить Картофельные пельмени x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Potaufeu.description"><s>Cook a Pot-au-feu from rawmeat and vegetables.</s><r>Приготовьте Пот-о-фе из сырого мяса и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Potaufeu.jobString"><s>Cooking a Pot-au-feu.</s><r>Приготовление Пот-о-фе.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Potaufeu.label"><s>cook Pot-au-feu x1</s><r>приготовить Пот-о-фе x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PotaufeuBulk.description"><s>Cook 4 Pot-au-feu from rawmeat and vegetables.</s><r>Приготовьте 4 горшочка из сырого мяса и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PotaufeuBulk.jobString"><s>Cooking 4 Pot-au-feu.</s><r>Приготовление 4 Пот-о-фе.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PotaufeuBulk.label"><s>cook Pot-au-feu x4</s><r>приготовить Пот-о-фе x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Pyttipanna.description"><s>Cook a Pyttipanna from potatos, rawmeat, egg, and other vegetables.</s><r>Приготовьте питтипанна из картофеля, сырого мяса, яиц и других овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Pyttipanna.jobString"><s>Cooking a Pyttipanna.</s><r>Приготовление Питипанны.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Pyttipanna.label"><s>cook Pyttipanna x1</s><r>готовить сковороду для лужи x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PyttipannaBulk.description"><s>Cook 4 Pyttipanna from potatos, rawmeat, egg, and other vegetables.</s><r>Приготовьте 4 питтипанна из картофеля, сырого мяса, яиц и других овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PyttipannaBulk.jobString"><s>Cooking 4 Pyttipanna.</s><r>Приготовление 4 сковороды для луж.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_PyttipannaBulk.label"><s>cook Pyttipanna x4</s><r>готовить кастрюлю с лужей x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Ricebread.description"><s>Cook a Ricebread from rice.</s><r>Приготовьте рисовый хлебец из риса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Ricebread.jobString"><s>Cooking Ricebread.</s><r>Приготовление рисового хлеба.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Ricebread.label"><s>cook Ricebread x1</s><r>приготовить рисовый хлеб x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_RicebreadBulk.description"><s>Cook 4 Ricebreads from rice.</s><r>Приготовьте 4 рисовых хлебца из риса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_RicebreadBulk.jobString"><s>Cooking 4 Ricebreads.</s><r>Приготовление 4 рисовых хлебцев.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_RicebreadBulk.label"><s>cook Ricebread x4</s><r>приготовить рисовый хлеб x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Ricecakefilled.description"><s>Cook 5 Rice cakes filled with berry jam from rice,berries and milk.</s><r>Приготовьте 5 рисовых лепешек с ягодным джемом из риса, ягод и молока.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Ricecakefilled.jobString"><s>Cooking 5 Rice cakes filled with berry jam.</s><r>Приготовление 5 Рисовых лепешек с начинкой из ягодного джема.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Ricecakefilled.label"><s>cook Rice cake filled with berry jam x5</s><r>приготовить Рисовый пирог с ягодным джемом x5</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Riceporridge.description"><s>Cook a Rice porridge from rice.</s><r>Приготовьте рисовую кашу из риса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Riceporridge.jobString"><s>Cooking Rice porridge.</s><r>Приготовление Рисовой каши.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Riceporridge.label"><s>cook Rice porridge x1</s><r>приготовить рисовую кашу x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_RiceporridgeBulk.description"><s>Cook 4 Rice porridges from rice.</s><r>Приготовьте 4 рисовые каши из риса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_RiceporridgeBulk.jobString"><s>Cooking 4 Rice porridges.</s><r>Готовим 4 рисовые каши.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_RiceporridgeBulk.label"><s>cook Rice porridge x4</s><r>приготовить рисовую кашу x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Risotto.description"><s>Cook a Risotto from rice, vegetables and milk.</s><r>Приготовьте ризотто из риса, овощей и молока.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Risotto.jobString"><s>Cooking Risotto.</s><r>Приготовление ризотто.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Risotto.label"><s>cook Risotto x1</s><r>приготовить ризотто x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_RisottoBulk.description"><s>Cook 4 Risottos from rice, vegetables and milk.</s><r>Приготовьте 4 ризотто из риса, овощей и молока.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_RisottoBulk.jobString"><s>Cooking 4 Risottos.</s><r>Готовим 4 ризотто.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_RisottoBulk.label"><s>cook Risotto x4</s><r>приготовить ризотто x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Roastedcorn.description"><s>Cook a Roasted corn from corn.</s><r>Приготовьте жареную кукурузу из кукурузы.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Roastedcorn.jobString"><s>Cooking Roasted corn.</s><r>Приготовление жареной кукурузы.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Roastedcorn.label"><s>cook Roasted corn x1</s><r>приготовить жареную кукурузу x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_RoastedcornBulk.description"><s>Cook 4 Roasted corns from corn.</s><r>Приготовьте 4 жареных кукурузы.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_RoastedcornBulk.jobString"><s>Cooking 4 Roasted corns.</s><r>Готовим 4 жареные кукурузы.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_RoastedcornBulk.label"><s>cook Roasted corn x4</s><r>приготовить жареную кукурузу x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_SauteedFish.description"><s>Cook a Sauteed fish from fish.</s><r>Приготовить тушеную рыбу из рыбы.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_SauteedFish.jobString"><s>Cooking Sauteed fish.</s><r>Приготовление жареной рыбы.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_SauteedFish.label"><s>cook Sauteed fish x1</s><r>приготовить жареную рыбу x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_SauteedFishBulk.description"><s>Cook 4 Sauteed fish from fish.</s><r>Приготовьте 4 тушеные рыбки из рыбы.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_SauteedFishBulk.jobString"><s>Cooking 4 Sauteed fish.</s><r>Готовим 4 тушеные рыбы.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_SauteedFishBulk.label"><s>cook Sauteed fish x4</s><r>приготовить жареную рыбу x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_ScotchEgg.description"><s>Cook a Scotch egg from rawmeat, eggs and vegetables.</s><r>Приготовьте яйцо по-шотландски из сырого мяса, яиц и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_ScotchEgg.jobString"><s>Cooking a Scotch egg.</s><r>Готовим яйцо по-шотландски.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_ScotchEgg.label"><s>cook Scotch egg x1</s><r>приготовить яйцо по-шотландски x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_ScotchEggBulk.description"><s>Cook 4 Scotch egg from rawmeat, eggs and vegetables.</s><r>Приготовьте 4 яйца по-шотландски из сырого мяса, яиц и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_ScotchEggBulk.jobString"><s>Cooking 4 Scotch egg.</s><r>Готовим 4 яйца по-шотландски.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_ScotchEggBulk.label"><s>cook Scotch egg x4</s><r>приготовить яйцо по-шотландски x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Shallowfrypotato.description"><s>Cook a Shallow fry potato from potatoes.</s><r>Приготовьте из картофеля неглубокую жарку.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Shallowfrypotato.jobString"><s>Cooking Shallow fry potato.</s><r>Приготовление Картофель мелко обжарить.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Shallowfrypotato.label"><s>cook Shallow fry potato x1</s><r>приготовить Картофель неглубокого обжаривания x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_ShallowfrypotatoBulk.description"><s>Cook 4 Shallow fry potatoes from potatoes.</s><r>Приготовить 4 шт. Неглубоко обжарить из картофеля.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_ShallowfrypotatoBulk.jobString"><s>Cooking 4 Shallow fry potatoes.</s><r>Приготовление 4. Картофель неглубоко обжарить.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_ShallowfrypotatoBulk.label"><s>cook Shallow fry potato x4</s><r>приготовить неглубокий жареный картофель x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Shepherdspie.description"><s>Cook a Shepherd's pie from potato and meat.</s><r>Приготовьте пастуший пирог из картофеля и мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Shepherdspie.jobString"><s>Cooking Shepherd's pie.</s><r>Готовим пастуший пирог.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Shepherdspie.label"><s>cook Shepherd's pie x1</s><r>приготовить пастуший пирог x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_ShepherdspieBulk.description"><s>Cook 4 Shepherd's pies from potato and meat.</s><r>Приготовьте 4 пастушьих пирога из картофеля и мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_ShepherdspieBulk.jobString"><s>Cooking 4 Shepherd's pies.</s><r>Готовим 4 пастушьих пирога.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_ShepherdspieBulk.label"><s>cook Shepherd's pie x4</s><r>приготовить пастушеский пирог x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Shkmeruli.description"><s>Cook a Shkmeruli from rawmeat, milk and vegetables.</s><r>Приготовьте шкмерули из сырого мяса, молока и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Shkmeruli.jobString"><s>Cooking a Shkmeruli.</s><r>Приготовление Шкмерули.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Shkmeruli.label"><s>cook Shkmeruli x1</s><r>повар Шкмерули х1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_ShkmeruliBulk.description"><s>Cook 4 Shkmeruli from rawmeat, milk and vegetables.</s><r>Приготовьте 4 шкмерули из сырого мяса, молока и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_ShkmeruliBulk.jobString"><s>Cooking 4 Shkmeruli.</s><r>Готовим 4 Шкмерули.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_ShkmeruliBulk.label"><s>cook Shkmeruli x4</s><r>повар Шкмерули х4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Smeatvegelargebowl.description"><s>Cook a Stir-fried meat and vegetables in a large bowl from meats and vegetables.</s><r>Приготовьте обжаренное мясо и овощи в большой миске из мяса и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Smeatvegelargebowl.jobString"><s>Cooking Stir-fried meat and vegetables in a large bowl.</s><r>Приготовление Обжаренное мясо и овощи в большой миске.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Smeatvegelargebowl.label"><s>cook Stir-fried meat and vegetables in a large bowl x1</s><r>приготовить обжаренное мясо и овощи в большой миске x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_SmeatvegelargebowlBulk.description"><s>Cook 4 Stir-fried meat and vegetables in a large bowl from meats and vegetables.</s><r>Приготовьте 4 обжаренных мяса и овощей в большой миске из мяса и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_SmeatvegelargebowlBulk.jobString"><s>Cooking 4 Stir-fried meat and vegetables in a large bowl.</s><r>Приготовление 4 Обжаренные мясо и овощи в большой миске.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_SmeatvegelargebowlBulk.label"><s>cook Stir-fried meat and vegetables in a large bowl x4</s><r>приготовить обжаренное мясо и овощи в большой миске x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Soupingredients.description"><s>Cook 4 Soups from vegetables and rawmeat.</s><r>Приготовьте 4 супа из овощей и сырого мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Soupingredients.jobString"><s>Cooking Soup.</s><r>Приготовление супа.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Soupingredients.label"><s>cook Soup with lots of ingredients x1</s><r>приготовить суп с большим количеством ингредиентов x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_SoupingredientsBulk.description"><s>Cook 4 Soups from vegetables and rawmeat.</s><r>Приготовьте 4 супа из овощей и сырого мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_SoupingredientsBulk.jobString"><s>Cooking 4 Soups.</s><r>Готовим 4 супа.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_SoupingredientsBulk.label"><s>cook Soup with lots of ingredients x4</s><r>приготовить суп с большим количеством ингредиентов x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Steaktower.description"><s>Cook a Steaks tower. Grilled meats are piled up like a tower.</s><r>Приготовьте башню из стейков. Жареное мясо сложено башней.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Steaktower.jobString"><s>Cooking Steak tower.</s><r>Приготовление стейк-башни.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Steaktower.label"><s>cook Steak tower x1</s><r>готовить стейк-башню x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_SteaktowerBulk.description"><s>Cook 4 Steaks towers. Grilled meats are piled up like a tower.</s><r>Приготовьте 4 стейка-башни. Жареное мясо сложено башней.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_SteaktowerBulk.jobString"><s>Cooking 4 Steak towers.</s><r>Готовим 4 стейк-башни.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_SteaktowerBulk.label"><s>cook Steak tower x4</s><r>готовить стейк-башню x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Stew.description"><s>Cook a Stew from potatoes or corn,meats and milk.</s><r>Приготовьте рагу из картофеля или кукурузы, мяса и молока.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Stew.jobString"><s>Cooking Stew.</s><r>Приготовление рагу.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Stew.label"><s>cook Stew x1</s><r>приготовить рагу x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_StewBulk.description"><s>Cook 4 Stews from potatoes or corn,meats and milk.</s><r>Приготовьте 4 рагу из картофеля или кукурузы, мяса и молока.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_StewBulk.jobString"><s>Cooking 4 Stews.</s><r>Готовим 4 рагу.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_StewBulk.label"><s>cook Stew x4</s><r>приготовить рагу x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Swissroll.description"><s>Cook 5 Swissrolls from rice or corn, berries, milk and chocolates.</s><r>Приготовьте 5 рулетов из риса или кукурузы, ягод, молока и шоколада.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Swissroll.jobString"><s>Cooking 5 Swissrolls.</s><r>Готовим 5 рулетов.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Swissroll.label"><s>cook Swissroll x5</s><r>приготовить Свиссролл x5</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_ThaiSoftBoiledRice.description"><s>Cook a Thai soft-boiled rice from rice , meat and vegetables.</s><r>Приготовьте тайский рис всмятку из риса, мяса и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_ThaiSoftBoiledRice.jobString"><s>Cooking Thai soft-boiled rice.</s><r>Приготовление тайского риса всмятку.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_ThaiSoftBoiledRice.label"><s>cook Thai soft-boiled rice x1</s><r>приготовить тайский рис всмятку х1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_ThaiSoftBoiledRiceBulk.description"><s>Cook 4 Thai soft-boiled rice from rice , meat and vegetables.</s><r>Приготовьте 4 тайских риса всмятку из риса, мяса и овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_ThaiSoftBoiledRiceBulk.jobString"><s>Cooking 4 Thai soft-boiled rice.</s><r>Готовим 4 тайских риса всмятку.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_ThaiSoftBoiledRiceBulk.label"><s>cook Thai soft-boiled rice x4</s><r>приготовить тайский рис всмятку х4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Thrumbosandwich.description"><s>Cook a Thrumbo meat cutlet sandwich from rice or corn,eggs and Thrumbo meat.</s><r>Приготовьте бутерброд с мясной котлетой Трумбо из риса или кукурузы, яиц и мяса Трумбо.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Thrumbosandwich.jobString"><s>Cooking Thrumbo meat cutlet sandwich.</s><r>Готовим бутерброд с мясной котлетой Трамбо.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Thrumbosandwich.label"><s>cook Thrumbo meat cutlet sandwich x1</s><r>приготовить сэндвич с мясной котлетой Тромбо x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_ThrumbosandwichBulk.description"><s>Cook 4 Thrumbo meat cutlet sandwiches from rice or corn,eggs and Thrumbo meat.</s><r>Приготовьте 4 бутерброда с мясными котлетами Трумбо из риса или кукурузы, яиц и мяса Трумбо.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_ThrumbosandwichBulk.jobString"><s>Cooking 4 Thrumbo meat cutlet sandwiches.</s><r>Готовим 4 бутерброда с мясными котлетами Трумбо.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_ThrumbosandwichBulk.label"><s>cook Thrumbo meat cutlet sandwich x4</s><r>повар Тромбо сэндвич с мясной котлетой x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_TsukimiUdon.description"><s>Cook a Tsukimi Udon from rice, potatoes and raw egg.</s><r>Приготовьте Цукими Удон из риса, картофеля и сырого яйца.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_TsukimiUdon.jobString"><s>Cooking Tsukimi Udon.</s><r>Приготовление Цукими Удон.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_TsukimiUdon.label"><s>cook Tsukimi Udon x1</s><r>повар Цукими Удон x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_TsukimiUdonBulk.description"><s>Cook 4 Tsukimi Udons from rice, potatoes and raw egg.</s><r>Приготовьте 4 цукими удона из риса, картофеля и сырого яйца.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_TsukimiUdonBulk.jobString"><s>Cooking 4 Tsukimi Udons.</s><r>Приготовление 4 цукими удонов.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_TsukimiUdonBulk.label"><s>cook Tsukimi Udon x4</s><r>повар Цукими Удон x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Udon.description"><s>Cook a Udon from rice and potatoes.</s><r>Приготовьте удон из риса и картофеля.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Udon.jobString"><s>Cooking Udon.</s><r>Приготовление Удона.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Udon.label"><s>cook Udon x1</s><r>приготовить Удон x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_UdonBulk.description"><s>Cook 4 Udons from rice and potatoes.</s><r>Приготовьте 4 удона из риса и картофеля.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_UdonBulk.jobString"><s>Cooking 4 Udon.</s><r>Готовим 4 Удона.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_UdonBulk.label"><s>cook Udon x4</s><r>приготовить удон x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_VegeRoll.description"><s>Cook a Vege roll from rice or corn, and other vegetable.</s><r>Приготовьте овощной ролл из риса или кукурузы и других овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_VegeRoll.jobString"><s>Cooking Vege roll.</s><r>Готовим овощной ролл.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_VegeRoll.label"><s>cook Vege roll x1</s><r>приготовить овощной ролл x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_VegeRollBulk.description"><s>Cook 4 Vege rolls from rice or corn, and other vegetable.</s><r>Приготовьте 4 овощных рулета из риса или кукурузы и других овощей.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_VegeRollBulk.jobString"><s>Cooking 4 Vege rolls.</s><r>Готовим 4 овощных ролла.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_VegeRollBulk.label"><s>cook Vege roll x4</s><r>приготовить овощной ролл x4</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Vegetablesfriedrice.description"><s>Cook a Stir-fried vegetables and fried rice set from rice, vegetables and rawmeat.</s><r>Приготовьте жареные овощи и жареный рис из риса, овощей и сырого мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Vegetablesfriedrice.jobString"><s>Cooking Stir-fried vegetables and fried rice set.</s><r>Приготовление Жареные овощи и жареный рис.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_Vegetablesfriedrice.label"><s>cook Stir-fried vegetables and fried rice set x1</s><r>набор жареных овощей и жареного риса x1</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_VegetablesfriedriceBulk.description"><s>Cook 4 Stir-fried vegetables and fried rice sets from rice, vegetables and rawmeat.</s><r>Приготовьте 4 набора обжаренных овощей и жареного риса из риса, овощей и сырого мяса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_VegetablesfriedriceBulk.jobString"><s>Cooking 4 Stir-fried vegetables and fried rice sets.</s><r>Приготовление 4-х наборов из жареных овощей и жареного риса.</r></e>
+  <e k="D" t="RecipeDef" key="Cook_VAGP_VegetablesfriedriceBulk.label"><s>cook Stir-fried vegetables and fried rice sets x4</s><r>приготовить наборы жареных овощей и жареного риса x4</r></e>
+  <e k="D" t="ThingCategoryDef" key="RLE_ConservMealCat.label"><s>conservative meals(GP)</s><r>консервативное питание (GP)</r></e>
+  <e k="D" t="ThingCategoryDef" key="RLE_FineMealCat.label"><s>fine meals(GP)</s><r>изысканные блюда (GP)</r></e>
+  <e k="D" t="ThingCategoryDef" key="RLE_LavishMealCat.label"><s>lavish meals(GP)</s><r>обильная еда (GP)</r></e>
+  <e k="D" t="ThingCategoryDef" key="RLE_SPSurvMealCat.label"><s>special survival meal (GP)</s><r>специальная еда для выживания (GP)</r></e>
+  <e k="D" t="ThingCategoryDef" key="RLE_SimpleMealCat.label"><s>simple meals(GP)</s><r>простые блюда (GP)</r></e>
+  <e k="D" t="ThingCategoryDef" key="RLE_SweetMealCat.label"><s>sweet meals(GP)</s><r>сладкие блюда (GP)</r></e>
+  <e k="D" t="ThingDef" key="VAGPAssortedmeatdish.description"><s>Assorted meat dish (Lavish Meal)</s><r>Мясное ассорти (Lavish Meal)</r></e>
+  <e k="D" t="ThingDef" key="VAGPAssortedmeatdish.label"><s>Assorted meat dish</s><r>Ассорти мясных блюд</r></e>
+  <e k="D" t="ThingDef" key="VAGPBabyFood.description"><s>Nutritional food for babies made from vegetable paste mixed with milk and heated.Less burden on the gastrointestinal tract and more efficient nutritional intake. Not so tasty for children and adults with developed taste buds.
+The decrease in satiety value slows down for a while.</s><r>Диетическое питание для детей, приготовленное из растительной пасты, смешанной с молоком и нагретой. Меньшая нагрузка на желудочно-кишечный тракт и более эффективное поступление питательных веществ. Не так вкусно для детей и взрослых с развитыми вкусовыми рецепторами.
+Снижение показателя сытости на некоторое время замедляется.</r></e>
+  <e k="D" t="ThingDef" key="VAGPBabyFood.label"><s>Comprehensive nutritional food for baby</s><r>Полноценное питательное питание для ребенка</r></e>
+  <e k="D" t="ThingDef" key="VAGPBakedpudding.description"><s>Baked pudding(Sweet Meal)</s><r>Запеканка(Сладкая еда)</r></e>
+  <e k="D" t="ThingDef" key="VAGPBakedpudding.label"><s>Baked pudding</s><r>Запеканка</r></e>
+  <e k="D" t="ThingDef" key="VAGPBerrypie.description"><s>Berry pie(Lavish Meal)</s><r>Ягодный пирог (Щедрый обед)</r></e>
+  <e k="D" t="ThingDef" key="VAGPBerrypie.label"><s>Berry pie</s><r>Ягодный пирог</r></e>
+  <e k="D" t="ThingDef" key="VAGPBitterballen.description"><s>Bitterballen (Fine Meal)</s><r>Биттербален (изысканная еда)</r></e>
+  <e k="D" t="ThingDef" key="VAGPBitterballen.label"><s>Bitterballen</s><r>Биттербален</r></e>
+  <e k="D" t="ThingDef" key="VAGPBoiledmeat.description"><s>Boiled meat(Conservative Meal)</s><r>Вареное мясо (консервативное питание)</r></e>
+  <e k="D" t="ThingDef" key="VAGPBoiledmeat.label"><s>Boiled meat</s><r>Вареное мясо</r></e>
+  <e k="D" t="ThingDef" key="VAGPBoiledpotato.description"><s>Boiled potato(Conservative Meal)</s><r>Картошка отварная (консервативное блюдо)</r></e>
+  <e k="D" t="ThingDef" key="VAGPBoiledpotato.label"><s>Boiled potato</s><r>Картофель отварной</r></e>
+  <e k="D" t="ThingDef" key="VAGPBraisedShankMeat.description"><s>Braised Shank Meat(Lavish Meal)</s><r>Тушеная голяшка (щедрая еда)</r></e>
+  <e k="D" t="ThingDef" key="VAGPBraisedShankMeat.label"><s>Braised Shank Meat</s><r>Тушеная голяшка</r></e>
+  <e k="D" t="ThingDef" key="VAGPCanBooiledeggs.description"><s>Canned boiled eggs(Special Survival Meal). Since they are well heated, there is no risk of food poisoning.</s><r>Консервированные вареные яйца (специальная еда для выживания). Поскольку они хорошо разогреваются, риска пищевого отравления нет.</r></e>
+  <e k="D" t="ThingDef" key="VAGPCanBooiledeggs.label"><s>Canned boiled eggs</s><r>Консервированные вареные яйца</r></e>
+  <e k="D" t="ThingDef" key="VAGPCanBread.description"><s>Canned bread(Special Survival Meal). Since they are well heated, there is no risk of food poisoning.</s><r>Консервированный хлеб (специальная еда для выживания). Поскольку они хорошо разогреваются, риска пищевого отравления нет.</r></e>
+  <e k="D" t="ThingDef" key="VAGPCanBread.label"><s>Canned bread</s><r>Консервированный хлеб</r></e>
+  <e k="D" t="ThingDef" key="VAGPCanCheesecake.description"><s>Canned cheesecake(Special Survival Meal). Since they are well heated, there is no risk of food poisoning.</s><r>Консервированный чизкейк (специальный обед для выживания). Поскольку они хорошо разогреваются, риска пищевого отравления нет.</r></e>
+  <e k="D" t="ThingDef" key="VAGPCanCheesecake.label"><s>Canned cheesecake</s><r>Консервированный чизкейк</r></e>
+  <e k="D" t="ThingDef" key="VAGPCanMeatstew.description"><s>Canned meat stew(Special Survival Meal). Since they are well heated, there is no risk of food poisoning.</s><r>Консервы тушеные мясные (Специальная еда для выживания). Поскольку они хорошо разогреваются, риска пищевого отравления нет.</r></e>
+  <e k="D" t="ThingDef" key="VAGPCanMeatstew.label"><s>Canned meat stew</s><r>Консервы мясные тушеные</r></e>
+  <e k="D" t="ThingDef" key="VAGPCanMilkstew.description"><s>Canned milk stew(Special Survival Meal). Since they are well heated, there is no risk of food poisoning.</s><r>Консервированное молочное рагу (специальная еда для выживания). Поскольку они хорошо разогреваются, риска пищевого отравления нет.</r></e>
+  <e k="D" t="ThingDef" key="VAGPCanMilkstew.label"><s>Canned milk stew</s><r>Консервированное молочное рагу</r></e>
+  <e k="D" t="ThingDef" key="VAGPCanfish.description"><s>Canned braised fish(Special Survival Meal). Since they are well heated, there is no risk of food poisoning.</s><r>Консервы из тушеной рыбы (специальный обед для выживания). Поскольку они хорошо разогреваются, риска пищевого отравления нет.</r></e>
+  <e k="D" t="ThingDef" key="VAGPCanfish.label"><s>Canned braised fish</s><r>Консервы тушеные рыбные</r></e>
+  <e k="D" t="ThingDef" key="VAGPCanmeatball.description"><s>Canned meatball(Special Survival Meal). Since they are well heated, there is no risk of food poisoning.</s><r>Консервированные фрикадельки (специальная еда для выживания). Поскольку они хорошо разогреваются, риска пищевого отравления нет.</r></e>
+  <e k="D" t="ThingDef" key="VAGPCanmeatball.label"><s>Canned meatball</s><r>Консервированные фрикадельки</r></e>
+  <e k="D" t="ThingDef" key="VAGPCanpotato.description"><s>Canned german fries(Special Survival Meal). Since they are well heated, there is no risk of food poisoning.</s><r>Консервированный картофель фри (специальное питание для выживания). Поскольку они хорошо разогреваются, риска пищевого отравления нет.</r></e>
+  <e k="D" t="ThingDef" key="VAGPCanpotato.label"><s>Canned german fries</s><r>Консервированный картофель фри по-немецки</r></e>
+  <e k="D" t="ThingDef" key="VAGPCansoup.description"><s>Canned soup(Special Survival Meal). Since they are well heated, there is no risk of food poisoning.</s><r>Консервированный суп (специальная еда для выживания). Поскольку они хорошо разогреваются, риска пищевого отравления нет.</r></e>
+  <e k="D" t="ThingDef" key="VAGPCansoup.label"><s>Canned soup</s><r>Консервированный суп</r></e>
+  <e k="D" t="ThingDef" key="VAGPCheesePasta.description"><s>Cheese pasta(Fine Meal)</s><r>Сырная паста(Fine Meal)</r></e>
+  <e k="D" t="ThingDef" key="VAGPCheesePasta.label"><s>Cheese pasta</s><r>Сырная паста</r></e>
+  <e k="D" t="ThingDef" key="VAGPCheesecake.description"><s>Cheesecake(Fine Meal)</s><r>Чизкейк(Изысканное блюдо)</r></e>
+  <e k="D" t="ThingDef" key="VAGPCheesecake.label"><s>Cheesecake</s><r>Чизкейк</r></e>
+  <e k="D" t="ThingDef" key="VAGPCheesetoast.description"><s>Cheese toast (Fine Meal)</s><r>Сырный тост (Fine Meal)</r></e>
+  <e k="D" t="ThingDef" key="VAGPCheesetoast.label"><s>Cheese toast</s><r>Сырный тост</r></e>
+  <e k="D" t="ThingDef" key="VAGPChocolatedoughnut.description"><s>Chocolate doughnut(Fine Meal)</s><r>Шоколадный пончик(Fine Meal)</r></e>
+  <e k="D" t="ThingDef" key="VAGPChocolatedoughnut.label"><s>Chocolate doughnut</s><r>Шоколадный пончик</r></e>
+  <e k="D" t="ThingDef" key="VAGPChurrasco.description"><s>Churrasco(Simple Meal)</s><r>Барбекю (простая еда)</r></e>
+  <e k="D" t="ThingDef" key="VAGPChurrasco.label"><s>Churrasco</s><r>Барбекю</r></e>
+  <e k="D" t="ThingDef" key="VAGPConecreamsoup.description"><s>Cone cream soup (Fine Meal)</s><r>Суп-крем Конус (Fine Meal)</r></e>
+  <e k="D" t="ThingDef" key="VAGPConecreamsoup.label"><s>Cone cream soup</s><r>Конус-крем-суп</r></e>
+  <e k="D" t="ThingDef" key="VAGPCornbread.description"><s>Cornbread(Simple Meal)</s><r>Кукурузный хлеб (простая еда)</r></e>
+  <e k="D" t="ThingDef" key="VAGPCornbread.label"><s>Cornbread</s><r>Кукурузный хлеб</r></e>
+  <e k="D" t="ThingDef" key="VAGPCottagecheese.description"><s>Cottage cheese(Simple Meal)</s><r>Творог (Простое блюдо)</r></e>
+  <e k="D" t="ThingDef" key="VAGPCottagecheese.label"><s>Cottage cheese</s><r>Творог</r></e>
+  <e k="D" t="ThingDef" key="VAGPCroquette.description"><s>Croquette (Fine Meal)</s><r>Крокет (Изысканное блюдо)</r></e>
+  <e k="D" t="ThingDef" key="VAGPCroquette.label"><s>Croquette</s><r>Крокет</r></e>
+  <e k="D" t="ThingDef" key="VAGPDeluxeMeal.description"><s>Large bowl of meat and vegetables(Lavish Meal in Extra size)</s><r>Большая миска с мясом и овощами (Роскошный обед в дополнительном размере)</r></e>
+  <e k="D" t="ThingDef" key="VAGPDeluxeMeal.label"><s>Large bowl of meat and vegetables</s><r>Большая миска с мясом и овощами</r></e>
+  <e k="D" t="ThingDef" key="VAGPDria.description"><s>Doria(Rice casserole with white sauce)(Lavish Meal)</s><r>Дориа(Рисовая запеканка с белым соусом)(Щедрый обед)</r></e>
+  <e k="D" t="ThingDef" key="VAGPDria.label"><s>Doria(Rice casserole with white sauce)</s><r>Дориа (рисовая запеканка с белым соусом)</r></e>
+  <e k="D" t="ThingDef" key="VAGPEggsbenedict.description"><s>Eggs benedict(Fine Meal)</s><r>Яйца Бенедикт(Fine Meal)</r></e>
+  <e k="D" t="ThingDef" key="VAGPEggsbenedict.label"><s>Eggs benedict</s><r>Яйца Бенедикт</r></e>
+  <e k="D" t="ThingDef" key="VAGPEggtoast.description"><s>Egg toast (Fine Meal)</s><r>Яичный тост (Fine Meal)</r></e>
+  <e k="D" t="ThingDef" key="VAGPEggtoast.label"><s>Egg toast</s><r>Яичный тост</r></e>
+  <e k="D" t="ThingDef" key="VAGPFishAndChips.description"><s>Fish and chips(Lavish Meal)</s><r>Рыба с жареным картофелем (щедрый обед)</r></e>
+  <e k="D" t="ThingDef" key="VAGPFishAndChips.label"><s>Fish and chips</s><r>Рыба с жареным картофелем</r></e>
+  <e k="D" t="ThingDef" key="VAGPFishTacos.description"><s>Fish tacos(Lavish Meal)</s><r>Рыбные тако (щедрый обед)</r></e>
+  <e k="D" t="ThingDef" key="VAGPFishTacos.label"><s>Fish tacos</s><r>Рыбные тако</r></e>
+  <e k="D" t="ThingDef" key="VAGPFrenchdip.description"><s>French dip sandwich (Lavish Meal)</s><r>Французский сэндвич с соусом (Lavish Meal)</r></e>
+  <e k="D" t="ThingDef" key="VAGPFrenchdip.label"><s>French dip sandwich</s><r>Французский дип-сэндвич</r></e>
+  <e k="D" t="ThingDef" key="VAGPFriedCMD.description"><s>Fried corn and meat dumplings (Fine Meal)</s><r>Жареная кукуруза и пельмени (Fine Meal)</r></e>
+  <e k="D" t="ThingDef" key="VAGPFriedCMD.label"><s>Fried corn and meat dumplings</s><r>Жареная кукуруза и пельмени</r></e>
+  <e k="D" t="ThingDef" key="VAGPFriedegg.description"><s>Fried egg(Simple Meal)</s><r>Жареное яйцо (простое блюдо)</r></e>
+  <e k="D" t="ThingDef" key="VAGPFriedegg.label"><s>Fried egg</s><r>Жареное яйцо</r></e>
+  <e k="D" t="ThingDef" key="VAGPFriedpotatoandcorn.description"><s>Fried potato and corn(Fine Meal)</s><r>Жареная картошка и кукуруза(Fine Meal)</r></e>
+  <e k="D" t="ThingDef" key="VAGPFriedpotatoandcorn.label"><s>Fried potato and corn</s><r>Жареный картофель и кукуруза</r></e>
+  <e k="D" t="ThingDef" key="VAGPGermanFries.description"><s>German Fries (Fine Meal)</s><r>Немецкий картофель фри (изысканная еда)</r></e>
+  <e k="D" t="ThingDef" key="VAGPGermanFries.label"><s>German Fries</s><r>Немецкий картофель фри</r></e>
+  <e k="D" t="ThingDef" key="VAGPGnocchi.description"><s>Gnocchi (Fine Meal)</s><r>Ньокки (Изысканная еда)</r></e>
+  <e k="D" t="ThingDef" key="VAGPGnocchi.label"><s>Gnocchi</s><r>Ньокки</r></e>
+  <e k="D" t="ThingDef" key="VAGPGrandMeal.description"><s>Heaped rice with meat on top(Lavish Meal in Extra size)</s><r>Рис с горкой и мясом сверху (Щедрая еда в дополнительном размере)</r></e>
+  <e k="D" t="ThingDef" key="VAGPGrandMeal.label"><s>Heaped rice with meat on top</s><r>Рис с горкой и мясом сверху</r></e>
+  <e k="D" t="ThingDef" key="VAGPGratin.description"><s>Gratin(Lavish Meal)</s><r>Гратен (щедрый обед)</r></e>
+  <e k="D" t="ThingDef" key="VAGPGratin.label"><s>Gratin</s><r>Гратен</r></e>
+  <e k="D" t="ThingDef" key="VAGPGrilledriceball.description"><s>Grilled rice ball(Simple Meal)</s><r>Жареные рисовые шарики (простое блюдо)</r></e>
+  <e k="D" t="ThingDef" key="VAGPGrilledriceball.label"><s>Grilled rice ball</s><r>Жареный рисовый шарик</r></e>
+  <e k="D" t="ThingDef" key="VAGPHamburger.description"><s>Hamburger (Lavish Meal)</s><r>Гамбургер (щедрый обед)</r></e>
+  <e k="D" t="ThingDef" key="VAGPHamburger.label"><s>Hamburger</s><r>Гамбургер</r></e>
+  <e k="D" t="ThingDef" key="VAGPHamburgersteak.description"><s>Hamburger steak(Fine Meal)</s><r>Гамбургер-стейк(Fine Meal)</r></e>
+  <e k="D" t="ThingDef" key="VAGPHamburgersteak.label"><s>Hamburger steak</s><r>Гамбургер стейк</r></e>
+  <e k="D" t="ThingDef" key="VAGPHuevosRancheros.description"><s>Huevos rancheros (Lavish Meal)</s><r>Huevos rancheros (обильная еда)</r></e>
+  <e k="D" t="ThingDef" key="VAGPHuevosRancheros.label"><s>Huevos rancheros</s><r>Яйца Ранчеро</r></e>
+  <e k="D" t="ThingDef" key="VAGPInsectSteak.description"><s>Insect steak(Simple Meal)</s><r>Стейк из насекомых (простая еда)</r></e>
+  <e k="D" t="ThingDef" key="VAGPInsectSteak.label"><s>Insect steak</s><r>Стейк из насекомых</r></e>
+  <e k="D" t="ThingDef" key="VAGPJambalaya.description"><s>Jambalaya(Lavish Meal)</s><r>Джамбалайя (обильная еда)</r></e>
+  <e k="D" t="ThingDef" key="VAGPJambalaya.label"><s>Jambalaya</s><r>Джамбалайя</r></e>
+  <e k="D" t="ThingDef" key="VAGPKatsuDonEgg.description"><s>Katsudon with egg(Meat cutlet on rice with egg) (Lavish Meal)</s><r>Кацудон с яйцом(Мясная котлета на рисе с яйцом) (Щедрый обед)</r></e>
+  <e k="D" t="ThingDef" key="VAGPKatsuDonEgg.label"><s>Katsudon with egg</s><r>Кацудон с яйцом</r></e>
+  <e k="D" t="ThingDef" key="VAGPKatsuDonsauce.description"><s>Katsudon with sauce(Meat cutlet on rice with sauce) (Lavish Meal)</s><r>Кацудон с соусом(Мясная котлета на рисе с соусом) (Щедрая еда)</r></e>
+  <e k="D" t="ThingDef" key="VAGPKatsuDonsauce.label"><s>Katsudon with sauce</s><r>Кацудон с соусом</r></e>
+  <e k="D" t="ThingDef" key="VAGPKhaoManGai.description"><s>Khao Man Gai (Lavish Meal)</s><r>Кхао Ман Гай (обильная еда)</r></e>
+  <e k="D" t="ThingDef" key="VAGPKhaoManGai.label"><s>Khao Man Gai</s><r>Као Ман Гай</r></e>
+  <e k="D" t="ThingDef" key="VAGPLocoMoco.description"><s>Loco Moco (Lavish Meal)</s><r>Локо Моко (обильная еда)</r></e>
+  <e k="D" t="ThingDef" key="VAGPLocoMoco.label"><s>Loco Moco</s><r>Сумасшедший Моко</r></e>
+  <e k="D" t="ThingDef" key="VAGPLuRouFan.description"><s>LuRouFan(Braised meat on rice)(Lavish Meal)</s><r>ЛуРоуФан(Тушеное мясо на рисе)(Щедрый обед)</r></e>
+  <e k="D" t="ThingDef" key="VAGPLuRouFan.label"><s>LuRouFan(Braised meat on rice)</s><r>ЛуРоуФан(Тушеное мясо на рисе)</r></e>
+  <e k="D" t="ThingDef" key="VAGPMealMedicPack.description"><s>A high-quality packaged meal, manufactured for medical use. While it never rots, it can still deteriorate if left outside. Aids in the recovery from illness and bleeding.(Special Survival Meal)</s><r>Высококачественная упакованная еда, предназначенная для медицинского использования. Хотя он никогда не гниет, он все равно может испортиться, если оставить его снаружи. Помогает в восстановлении после болезни и кровотечения. (Специальное питание для выживания)</r></e>
+  <e k="D" t="ThingDef" key="VAGPMealMedicPack.label"><s>Medical packaged meal</s><r>Медицинский упакованный обед</r></e>
+  <e k="D" t="ThingDef" key="VAGPMealSoldierPack.description"><s>A high-quality packaged meal, manufactured For combatants. While it never rots, it can still deteriorate if left outside. Various body functions are temporarily increased. This is a highly functional food product that uses only carefully selected parts of the food with high nutritional value.(Special Survival Meal)</s><r>Высококачественная фасованная еда, изготовленная для комбатантов. Хотя он никогда не гниет, он все равно может испортиться, если оставить его снаружи. Различные функции организма временно усиливаются. Это высокофункциональный пищевой продукт, в котором используются только тщательно отобранные части пищи с высокой питательной ценностью. (Специальное питание для выживания)</r></e>
+  <e k="D" t="ThingDef" key="VAGPMealSoldierPack.label"><s>Combatant packaged meal</s><r>Боевой упакованный обед</r></e>
+  <e k="D" t="ThingDef" key="VAGPMealSurvivalPack.description"><s>A high-quality packaged meal, manufactured for use in survival situations. While it never rots, it can still deteriorate if left outside. Great for traveling. Also, it's delicious.(Special Survival Meal)</s><r>Высококачественная упакованная еда, созданная для использования в ситуациях выживания. Хотя он никогда не гниет, он все равно может испортиться, если оставить его снаружи. Отлично подходит для путешествий. А еще это вкусно. (Специальная еда для выживания)</r></e>
+  <e k="D" t="ThingDef" key="VAGPMealSurvivalPack.label"><s>Delicious packaged survival meal</s><r>Вкусная упакованная еда для выживания</r></e>
+  <e k="D" t="ThingDef" key="VAGPMeatApotatoSJstyle.description"><s>Meat and potato stew Japanese style (Fine Meal)</s><r>Тушеное мясо с картошкой по-японски (Fine Meal)</r></e>
+  <e k="D" t="ThingDef" key="VAGPMeatApotatoSJstyle.label"><s>Meat and potato stew Japanese style</s><r>Мясно-картофельное рагу по-японски</r></e>
+  <e k="D" t="ThingDef" key="VAGPMeatWrappedRiceBall.description"><s>Meat wrapped rice ball(Fine Meal)</s><r>Рисовые шарики в мясной упаковке (Fine Meal)</r></e>
+  <e k="D" t="ThingDef" key="VAGPMeatWrappedRiceBall.label"><s>Meat wrapped rice ball</s><r>Рисовые шарики в мясной упаковке</r></e>
+  <e k="D" t="ThingDef" key="VAGPMeatball.description"><s>Meatball(Simple Meal)</s><r>Фрикаделька (Простая еда)</r></e>
+  <e k="D" t="ThingDef" key="VAGPMeatball.label"><s>Meatball</s><r>Фрикаделька</r></e>
+  <e k="D" t="ThingDef" key="VAGPMeatloaf.description"><s>Meatloaf (Lavish Meal)</s><r>Мясной рулет (щедрая еда)</r></e>
+  <e k="D" t="ThingDef" key="VAGPMeatloaf.label"><s>Meatloaf</s><r>Мясной рулет</r></e>
+  <e k="D" t="ThingDef" key="VAGPMeatpie.description"><s>Meat pie(Lavish Meal)</s><r>Мясной пирог (Щедрый обед)</r></e>
+  <e k="D" t="ThingDef" key="VAGPMeatpie.label"><s>Meat pie</s><r>Мясной пирог</r></e>
+  <e k="D" t="ThingDef" key="VAGPMeattoast.description"><s>Meat toast (Fine Meal)</s><r>Мясной тост (Fine Meal)</r></e>
+  <e k="D" t="ThingDef" key="VAGPMeattoast.label"><s>Meat toast</s><r>Мясной тост</r></e>
+  <e k="D" t="ThingDef" key="VAGPMincedMeatCutlet.description"><s>Minced meat cutlet(Lavish Meal)</s><r>Котлета из фарша(Щедрая еда)</r></e>
+  <e k="D" t="ThingDef" key="VAGPMincedMeatCutlet.label"><s>Minced meat cutlet</s><r>Котлета из мясного фарша</r></e>
+  <e k="D" t="ThingDef" key="VAGPMincedeggrice.description"><s>Minced egg rice (Fine Meal)</s><r>Рисовый фарш с яйцом (Fine Meal)</r></e>
+  <e k="D" t="ThingDef" key="VAGPMincedeggrice.label"><s>Minced egg rice</s><r>Рисовый фарш с яйцом</r></e>
+  <e k="D" t="ThingDef" key="VAGPMincedmeatrice.description"><s>Minced meat rice (Fine Meal)</s><r>Рисовый фарш (Fine Meal)</r></e>
+  <e k="D" t="ThingDef" key="VAGPMincedmeatrice.label"><s>Minced meat rice</s><r>Рисовый фарш</r></e>
+  <e k="D" t="ThingDef" key="VAGPMusakka.description"><s>Musakka(Fine Meal)</s><r>Мусакка (Изысканная еда)</r></e>
+  <e k="D" t="ThingDef" key="VAGPMusakka.label"><s>Musakka</s><r>Мусакка</r></e>
+  <e k="D" t="ThingDef" key="VAGPNasigoreng.description"><s>Nasi goreng (Lavish Meal)</s><r>Жареный рис (щедрая еда)</r></e>
+  <e k="D" t="ThingDef" key="VAGPNasigoreng.label"><s>Nasi goreng</s><r>Жареный рис</r></e>
+  <e k="D" t="ThingDef" key="VAGPNstylemeatballs.description"><s>Norwegian-style meatballs (Fine Meal)</s><r>Фрикадельки по-норвежски (Fine Meal)</r></e>
+  <e k="D" t="ThingDef" key="VAGPNstylemeatballs.label"><s>Norwegian-style meatballs</s><r>Котлеты по-норвежски</r></e>
+  <e k="D" t="ThingDef" key="VAGPOmelettet.description"><s>Omelettet(Fine Meal)</s><r>Омлет (Изысканное блюдо)</r></e>
+  <e k="D" t="ThingDef" key="VAGPOmelettet.label"><s>Omelettet</s><r>Омлет</r></e>
+  <e k="D" t="ThingDef" key="VAGPPaellaValenciana.description"><s>Paella valenciana (Lavish Meal)</s><r>Валенсийская паэлья (щедрая еда)</r></e>
+  <e k="D" t="ThingDef" key="VAGPPaellaValenciana.label"><s>Paella valenciana</s><r>Валенсийская паэлья</r></e>
+  <e k="D" t="ThingDef" key="VAGPPancakewithb.description"><s>Pancake with berry saucet(Fine Meal)</s><r>Блинчик с ягодным соусом(Fine Meal)</r></e>
+  <e k="D" t="ThingDef" key="VAGPPancakewithb.label"><s>Pancake with berry sauce</s><r>Блинчик с ягодным соусом</r></e>
+  <e k="D" t="ThingDef" key="VAGPPiccata.description"><s>Piccata(Fine Meal)</s><r>Изысканная еда</r></e>
+  <e k="D" t="ThingDef" key="VAGPPiccata.label"><s>Piccata</s><r>Рубленый</r></e>
+  <e k="D" t="ThingDef" key="VAGPPilaf.description"><s>Pilaf (Lavish Meal)</s><r>Плов (щедрый обед)</r></e>
+  <e k="D" t="ThingDef" key="VAGPPilaf.label"><s>Pilaf</s><r>Плов</r></e>
+  <e k="D" t="ThingDef" key="VAGPPizza.description"><s>Pizza(Lavish Meal)</s><r>Пицца (щедрый обед)</r></e>
+  <e k="D" t="ThingDef" key="VAGPPizza.label"><s>Pizza</s><r>Пицца</r></e>
+  <e k="D" t="ThingDef" key="VAGPPolenta.description"><s>Polenta (Fine Meal)</s><r>Полента (изысканное блюдо)</r></e>
+  <e k="D" t="ThingDef" key="VAGPPolenta.label"><s>Polenta</s><r>Полента</r></e>
+  <e k="D" t="ThingDef" key="VAGPPopcorn.description"><s>Popcorn(Conservative Meal)</s><r>Попкорн (консервативное блюдо)</r></e>
+  <e k="D" t="ThingDef" key="VAGPPopcorn.label"><s>Popcorn</s><r>Попкорн</r></e>
+  <e k="D" t="ThingDef" key="VAGPPotagesoup.description"><s>Potage soup(Fine Meal)</s><r>Картофельный суп(Fine Meal)</r></e>
+  <e k="D" t="ThingDef" key="VAGPPotagesoup.label"><s>Potage soup</s><r>Суп-суп</r></e>
+  <e k="D" t="ThingDef" key="VAGPPotatoGalette.description"><s>Potato galette(Fine Meal)</s><r>Картофельная галета(Изысканное блюдо)</r></e>
+  <e k="D" t="ThingDef" key="VAGPPotatoGalette.label"><s>Potato galette</s><r>Картофельная галета</r></e>
+  <e k="D" t="ThingDef" key="VAGPPotatobutter.description"><s>Potato butter(Fine Meal)</s><r>Картофельное масло (Fine Meal)</r></e>
+  <e k="D" t="ThingDef" key="VAGPPotatobutter.label"><s>Potato butter</s><r>Картофельное масло</r></e>
+  <e k="D" t="ThingDef" key="VAGPPotatodumplings.description"><s>Potato dumplings(Simple Meal)</s><r>Картофельные пельмени (Простое блюдо)</r></e>
+  <e k="D" t="ThingDef" key="VAGPPotatodumplings.label"><s>Potato dumplings</s><r>Картофельные клецки</r></e>
+  <e k="D" t="ThingDef" key="VAGPPotaufeu.description"><s>Pot-au-feu(Lavish Meal)</s><r>Щедрая еда</r></e>
+  <e k="D" t="ThingDef" key="VAGPPotaufeu.label"><s>Pot-au-feu</s><r>Тушить</r></e>
+  <e k="D" t="ThingDef" key="VAGPPyttipanna.description"><s>Pyttipanna (Lavish Meal)</s><r>Щедрая еда</r></e>
+  <e k="D" t="ThingDef" key="VAGPPyttipanna.label"><s>Pyttipanna</s><r>Сковорода для лужи</r></e>
+  <e k="D" t="ThingDef" key="VAGPRicebread.description"><s>Ricebread(Simple Meal)</s><r>Рисовый хлеб (простая еда)</r></e>
+  <e k="D" t="ThingDef" key="VAGPRicebread.label"><s>Ricebread</s><r>Рисовый хлеб</r></e>
+  <e k="D" t="ThingDef" key="VAGPRicecakefilled.description"><s>Rice cake filled with berry jam(Sweet Meal)</s><r>Рисовая лепешка с ягодным вареньем(Сладкая еда)</r></e>
+  <e k="D" t="ThingDef" key="VAGPRicecakefilled.label"><s>Rice cake filled with berry jam</s><r>Рисовый пирог с ягодным джемом</r></e>
+  <e k="D" t="ThingDef" key="VAGPRiceporridge.description"><s>Rice porridge(Conservative Meal)</s><r>Рисовая каша (консервативное питание)</r></e>
+  <e k="D" t="ThingDef" key="VAGPRiceporridge.label"><s>Rice porridge</s><r>Рисовая каша</r></e>
+  <e k="D" t="ThingDef" key="VAGPRisotto.description"><s>Risotto(Fine Meal)</s><r>Ризотто(Изысканное блюдо)</r></e>
+  <e k="D" t="ThingDef" key="VAGPRisotto.label"><s>Risotto</s><r>Ризотто</r></e>
+  <e k="D" t="ThingDef" key="VAGPRoastedcorn.description"><s>Roasted corn(Conservative Meal)</s><r>Жареная кукуруза (консервативное питание)</r></e>
+  <e k="D" t="ThingDef" key="VAGPRoastedcorn.label"><s>Roasted corn</s><r>Жареная кукуруза</r></e>
+  <e k="D" t="ThingDef" key="VAGPSauteedFish.description"><s>Sauteed fish(Simple Meal)</s><r>Жареная рыба (Простое блюдо)</r></e>
+  <e k="D" t="ThingDef" key="VAGPSauteedFish.label"><s>Sauteed fish</s><r>Жареная рыба</r></e>
+  <e k="D" t="ThingDef" key="VAGPScotchEgg.description"><s>Scotch egg(Lavish Meal)</s><r>Яйцо по-шотландски (щедрый обед)</r></e>
+  <e k="D" t="ThingDef" key="VAGPScotchEgg.label"><s>Scotch egg</s><r>Яйцо по-шотландски</r></e>
+  <e k="D" t="ThingDef" key="VAGPShallowfrypotato.description"><s>Shallow fry potato(Simple Meal)</s><r>Картошка для жарки (простая еда)</r></e>
+  <e k="D" t="ThingDef" key="VAGPShallowfrypotato.label"><s>Shallow fry potato</s><r>Мелко обжаренный картофель</r></e>
+  <e k="D" t="ThingDef" key="VAGPShepherdspie.description"><s>Shepherd's pie (Lavish Meal)</s><r>Пастушеский пирог (Щедрый обед)</r></e>
+  <e k="D" t="ThingDef" key="VAGPShepherdspie.label"><s>Shepherd's pie</s><r>Пастуший пирог</r></e>
+  <e k="D" t="ThingDef" key="VAGPShkmeruli.description"><s>Shkmeruli (Lavish Meal)</s><r>Шкмерули (Щедрый обед)</r></e>
+  <e k="D" t="ThingDef" key="VAGPShkmeruli.label"><s>Shkmeruli</s><r>Shkmeruli</r></e>
+  <e k="D" t="ThingDef" key="VAGPSmeatvegelargebowl.description"><s>Stir-fried meat and vegetables in a large bowl(Fine Meal)</s><r>Жареное мясо и овощи в большой миске (Fine Meal)</r></e>
+  <e k="D" t="ThingDef" key="VAGPSmeatvegelargebowl.label"><s>Stir-fried meat and vegetables in a large bowl</s><r>Жареное мясо и овощи в большой миске</r></e>
+  <e k="D" t="ThingDef" key="VAGPSoupingredients.description"><s>Soup with lots of ingredients(Lavish Meal)</s><r>Суп с большим количеством ингредиентов (Щедрая еда)</r></e>
+  <e k="D" t="ThingDef" key="VAGPSoupingredients.label"><s>Soup with lots of ingredients</s><r>Суп с большим количеством ингредиентов</r></e>
+  <e k="D" t="ThingDef" key="VAGPSteaktower.description"><s>Steak tower(Lavish Meal)</s><r>Стейк-тауэр (щедрая еда)</r></e>
+  <e k="D" t="ThingDef" key="VAGPSteaktower.label"><s>Steak tower</s><r>Стейк-башня</r></e>
+  <e k="D" t="ThingDef" key="VAGPStew.description"><s>Stew(Lavish Meal)</s><r>Тушеное мясо (щедрая еда)</r></e>
+  <e k="D" t="ThingDef" key="VAGPStew.label"><s>Stew</s><r>Тушить</r></e>
+  <e k="D" t="ThingDef" key="VAGPSwissroll.description"><s>Swissroll(Chocolate and berry)(Sweet Meal)</s><r>Свиссролл(Шоколадно-ягодный)(Сладкая закуска)</r></e>
+  <e k="D" t="ThingDef" key="VAGPSwissroll.label"><s>Swissroll(Chocolate and berry)</s><r>Свиссролл(Шоколадно-ягодный)</r></e>
+  <e k="D" t="ThingDef" key="VAGPThaiSoftBoiledRice.description"><s>Thai soft-boiled rice (Lavish Meal)</s><r>Тайский рис всмятку (Lavish Meal)</r></e>
+  <e k="D" t="ThingDef" key="VAGPThaiSoftBoiledRice.label"><s>Thai soft-boiled rice</s><r>Тайский рис всмятку</r></e>
+  <e k="D" t="ThingDef" key="VAGPThrumboomeatcutletsandwich.description"><s>Thrumbo meat cutlet sandwich(Lavish Meal)</s><r>Сэндвич с мясной котлетой Трумбо (Livish Meal)</r></e>
+  <e k="D" t="ThingDef" key="VAGPThrumboomeatcutletsandwich.label"><s>Thrumbo meat cutlet sandwich</s><r>Сэндвич с мясной котлетой Трумбо</r></e>
+  <e k="D" t="ThingDef" key="VAGPTsukimiUdon.description"><s>Tsukimi Udon(Udon noodle soup with raw egg) (Lavish Meal)</s><r>Цукими Удон (суп с лапшой Удон и сырым яйцом) (Обильная еда)</r></e>
+  <e k="D" t="ThingDef" key="VAGPTsukimiUdon.label"><s>Tsukimi Udon</s><r>Цукими Удон</r></e>
+  <e k="D" t="ThingDef" key="VAGPUdon.description"><s>Udon (thick Japanese wheat noodles/Udon noodle soup)(Fine Meal)</s><r>Удон (толстая японская пшеничная лапша/суп с лапшой Удон) (Изысканное блюдо)</r></e>
+  <e k="D" t="ThingDef" key="VAGPUdon.label"><s>Kake Udon</s><r>Ты Удон</r></e>
+  <e k="D" t="ThingDef" key="VAGPVegeRoll.description"><s>Vege roll(Vegetable roll)(Fine Meal)</s><r>Веге ролл(Овощной ролл)(Изысканное блюдо)</r></e>
+  <e k="D" t="ThingDef" key="VAGPVegeRoll.label"><s>Vege roll</s><r>Овощной ролл</r></e>
+  <e k="D" t="ThingDef" key="VAGPVegetablesfriedrice.description"><s>Stir-fried vegetables and fried rice(Lavish Meal)</s><r>Жареные овощи и жареный рис (Щедрый обед)</r></e>
+  <e k="D" t="ThingDef" key="VAGPVegetablesfriedrice.label"><s>Stir-fried vegetables and fried rice set</s><r>Набор жареных овощей и жареного риса</r></e>
+  <e k="D" t="ThoughtDef" key="AteVAGPDeluxeMeal.stages.0.description"><s>I ate enough lavish meal to fill me up!</s><r>Я съел достаточно обильной еды, чтобы насытиться!</r></e>
+  <e k="D" t="ThoughtDef" key="AteVAGPDeluxeMeal.stages.0.label"><s>ate Large bowl of meat and vegetables</s><r>съел большую тарелку мяса и овощей</r></e>
+  <e k="D" t="ThoughtDef" key="AteVAGPSimple.stages.0.description"><s>I'm full.</s><r>Я сыт.</r></e>
+  <e k="D" t="ThoughtDef" key="AteVAGPSimple.stages.0.label"><s>ate Simple meal</s><r>ел простую еду</r></e>
+  <e k="D" t="ThoughtDef" key="AteVAGPThrymbomeatcutletsandwich.stages.0.description"><s>That sandwich was Perfect! My body is full of power!</s><r>Этот бутерброд был прекрасен! Мое тело полно силы!</r></e>
+  <e k="D" t="ThoughtDef" key="AteVAGPThrymbomeatcutletsandwich.stages.0.label"><s>ate Thrymbo meat cutlet sandwich</s><r>съел бутерброд с мясной котлетой Тримбо</r></e>
+</AutoTranslateCache>
