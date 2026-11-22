@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="tlupatac.vehicleammosupply" name="Vehicle Ammo Supply" language="Russian" version="1">
+  <e k="D" t="JobDef" key="VAS_LoadCargoLoadout.reportString"><s>loading TargetA onto TargetB.</s><r>загрузка TargetA на TargetB.</r></e>
+  <e k="D" t="WorkGiverDef" key="VAS_LoadCargoLoadout.gerund"><s>loading</s><r>загрузка</r></e>
+  <e k="D" t="WorkGiverDef" key="VAS_LoadCargoLoadout.label"><s>load vehicle cargo</s><r>загрузить автомобильный груз</r></e>
+  <e k="D" t="WorkGiverDef" key="VAS_LoadCargoLoadout.verb"><s>load</s><r>нагрузка</r></e>
+  <e k="K" key="VAS_CargoLoadoutClear"><s>Clear all</s><r>Очистить все</r></e>
+  <e k="K" key="VAS_CargoLoadoutHelp"><s>Enter a target count for each ammo type. Pawns assigned to hauling will load ammo into the cargo until the target is reached. Leave blank or 0 to not load it.</s><r>Введите целевое количество для каждого типа боеприпасов. Пешки, назначенные для перевозки, будут загружать боеприпасы в груз, пока цель не будет достигнута. Оставьте пустым или 0, чтобы не загружать его.</r></e>
+  <e k="K" key="VAS_CargoLoadoutInCargo"><s>In cargo: {0}</s><r>В грузе: {0}</r></e>
+  <e k="K" key="VAS_CargoLoadoutMass"><s>Planned mass: {0} / {1} kg</s><r>Планируемая масса: {0} / {1} кг.</r></e>
+  <e k="K" key="VAS_CargoLoadoutNoResults"><s>No matching ammo.</s><r>Нет подходящих патронов.</r></e>
+  <e k="K" key="VAS_CargoLoadoutShowConfigured"><s>Show configured only</s><r>Показать только настроенные</r></e>
+  <e k="K" key="VAS_CargoLoadoutTitle"><s>Auto-load cargo: {0}</s><r>Автозагрузка груза: {0}</r></e>
+  <e k="K" key="VAS_CargoLoadoutTurretAmmoTip"><s>Usable by this vehicle's turrets.</s><r>Используется турелями этой машины.</r></e>
+  <e k="K" key="VAS_CommandCargoLoadoutDesc"><s>Set which ammo and how much of it this vehicle should carry. Haulers will bring the specified ammo from storage until the target count is reached.</s><r>Установите, какие боеприпасы и сколько их должно нести это транспортное средство. Грузчики будут доставлять указанные боеприпасы из хранилища до тех пор, пока не будет достигнуто заданное количество.</r></e>
+  <e k="K" key="VAS_CommandCargoLoadoutLabel"><s>Auto-load cargo</s><r>Автозагрузка груза</r></e>
+  <e k="K" key="VAS_CommandSupplyDesc"><s>When enabled, ammunition in this vehicle's cargo is instantly transferred to friendly vehicles within {0} cells whose turrets are below their reload level.
+
+If this vehicle has turrets, it keeps enough ammo to meet its own reload level.</s><r>При включении боеприпасы в грузе этой машины мгновенно передаются дружественным машинам в пределах {0} ячеек, турели которых находятся ниже уровня перезарядки. 
+
+Если у этой машины есть турели, она сохраняет достаточно боеприпасов для достижения собственного уровня перезарядки.</r></e>
+  <e k="K" key="VAS_CommandSupplyDescCE"><s>Combat Extended: colonists within range also receive the ammo set in their loadout, up to the loadout count and their carrying capacity. Friendly mechanoids receive ammo up to the magazine count set with &quot;Set magazine count&quot;.</s><r>Расширенный бой: колонисты в радиусе действия также получают набор боеприпасов в своем снаряжении, в зависимости от количества снаряжения и его грузоподъемности. Дружественные механоиды получают боеприпасы в пределах количества магазинов, заданного с помощью параметра «Установить количество магазинов».</r></e>
+  <e k="K" key="VAS_CommandSupplyLabel"><s>Ammo supply</s><r>Запас боеприпасов</r></e>
+</AutoTranslateCache>
