@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="oskarpotocki.vanillafactionsexpanded.core" name="Vanilla Expanded Framework" language="Russian" version="1">
+  <e k="D" t="AbilityDef" key="VEF_ControlledBlinking.description"><s>Override the creature's usual erratic blinking, allowing a directed way to blink to a chosen location within range.</s><r>Отмените обычное беспорядочное моргание существа, позволяя направленно мигать в выбранное место в пределах досягаемости.</r></e>
+  <e k="D" t="AbilityDef" key="VEF_ControlledBlinking.label"><s>controlled blinking</s><r>контролируемое моргание</r></e>
+  <e k="D" t="AbilityDef" key="VEF_ControlledDetonation.description"><s>Willingly trigger a powerful self-destructive explosion, sacrificing this animal in a final act that unleashes all stored volatile compounds in a devastating blast.</s><r>Добровольно вызовите мощный саморазрушительный взрыв, принося в жертву это животное в заключительном акте, который высвобождает все накопленные летучие соединения в разрушительном взрыве.</r></e>
+  <e k="D" t="AbilityDef" key="VEF_ControlledDetonation.label"><s>controlled detonation</s><r>контролируемая детонация</r></e>
+  <e k="D" t="AbilityDef" key="VEF_ControlledInvisibility.description"><s>Shroud the animal in a veil of controlled invisibility, vanishing from sight while retaining full awareness and precision.</s><r>Окутайте животное завесой контролируемой невидимости, исчезнув из поля зрения, сохраняя при этом полную осознанность и точность.</r></e>
+  <e k="D" t="AbilityDef" key="VEF_ControlledInvisibility.label"><s>controlled invisibility</s><r>контролируемая невидимость</r></e>
+  <e k="D" t="ApparelLayerDef" key="VFEC_OuterShell.label"><s>on top</s><r>сверху</r></e>
+  <e k="D" t="DamageDef" key="VEF_PermanentBurn.deathMessage"><s>{0} has been killed by burning.</s><r>{0} погиб в результате сожжения.</r></e>
+  <e k="D" t="DamageDef" key="VEF_PermanentBurn.label"><s>permanent burn</s><r>постоянный ожог</r></e>
+  <e k="D" t="DamageDef" key="VEF_SecondaryAcidBurn.deathMessage"><s>{0} has been corroded to death.</s><r>{0} проржавело насмерть.</r></e>
+  <e k="D" t="DamageDef" key="VEF_SecondaryAcidBurn.label"><s>acid burn</s><r>кислотный ожог</r></e>
+  <e k="D" t="HediffDef" key="VEF_AcidBuildup.description"><s>A splash of acid that continues to cause burn wounds for quite some time after the initial attack.</s><r>Выплеск кислоты, который продолжает вызывать ожоги в течение некоторого времени после первого нападения.</r></e>
+  <e k="D" t="HediffDef" key="VEF_AcidBuildup.label"><s>acid burn</s><r>кислотный ожог</r></e>
+  <e k="D" t="HediffDef" key="VEF_AcidBuildup.stages.0.label"><s>minor, receiving burns</s><r>незначительный, получивший ожоги</r></e>
+  <e k="D" t="HediffDef" key="VEF_AcidBuildup.stages.1.label"><s>moderate, receiving burns</s><r>средней степени тяжести, получившие ожоги</r></e>
+  <e k="D" t="HediffDef" key="VEF_AcidBuildup.stages.2.label"><s>serious, receiving burns</s><r>серьезно, получив ожоги</r></e>
+  <e k="D" t="HediffDef" key="VEF_AcidBurn.comps.3.permanentLabel"><s>acid burn scar</s><r>шрам от кислотного ожога</r></e>
+  <e k="D" t="HediffDef" key="VEF_AcidBurn.description"><s>An acid burn.</s><r>Кислотный ожог.</r></e>
+  <e k="D" t="HediffDef" key="VEF_AcidBurn.label"><s>acid burn</s><r>кислотный ожог</r></e>
+  <e k="D" t="HediffDef" key="VEF_AcidBurn.labelNoun"><s>an acid burn</s><r>кислотный ожог</r></e>
+  <e k="D" t="HediffDef" key="VEF_AcidBurn.labelNounPretty"><s>{0} in the {1}</s><r>{0} в {1}</r></e>
+  <e k="D" t="HediffDef" key="VEF_ControlledInvisibility.description"><s>Shrouded in a veil of controlled invisibility.</s><r>Окутан завесой управляемой невидимости.</r></e>
+  <e k="D" t="HediffDef" key="VEF_ControlledInvisibility.label"><s>invisibility</s><r>невидимость</r></e>
+  <e k="D" t="HediffDef" key="VEF_Kamikaze.description"><s>Boom.</s><r>Бум.</r></e>
+  <e k="D" t="HediffDef" key="VEF_Kamikaze.label"><s>sudden detonation</s><r>внезапная детонация</r></e>
+  <e k="D" t="HediffDef" key="VEF_Kamikaze.stages.0.label"><s>initial-hidden</s><r>начально-скрытый</r></e>
+  <e k="D" t="HediffDef" key="VEF_Kamikaze.stages.1.label"><s>critical</s><r>критический</r></e>
+  <e k="D" t="HediffDef" key="VEF_LightSustenance.description"><s>This creature feeds on sunlight. Inadequate levels of light will kill it.</s><r>Это существо питается солнечным светом. Недостаточный уровень света убьет его.</r></e>
+  <e k="D" t="HediffDef" key="VEF_LightSustenance.label"><s>level of sunlight</s><r>уровень солнечного света</r></e>
+  <e k="D" t="HediffDef" key="VEF_LightSustenance.stages.0.label"><s>adequate light</s><r>достаточный свет</r></e>
+  <e k="D" t="HediffDef" key="VEF_LightSustenance.stages.1.label"><s>poor light levels</s><r>плохой уровень освещенности</r></e>
+  <e k="D" t="HediffDef" key="VEF_LightSustenance.stages.2.label"><s>very low light levels</s><r>очень низкий уровень освещенности</r></e>
+  <e k="D" t="HediffDef" key="VEF_LightSustenance.stages.3.label"><s>lack of sunlight</s><r>недостаток солнечного света</r></e>
+  <e k="D" t="HediffDef" key="VEF_LightSustenance.stages.4.label"><s>extreme lack of sustenance</s><r>крайняя нехватка средств к существованию</r></e>
+  <e k="D" t="HediffDef" key="VEF_PermanentBurn.comps.2.permanentLabel"><s>permanent burn</s><r>постоянный ожог</r></e>
+  <e k="D" t="HediffDef" key="VEF_PermanentBurn.description"><s>A permanent burn scar that cannot be treated.</s><r>Неизлечимый шрам от ожога, который невозможно вылечить.</r></e>
+  <e k="D" t="HediffDef" key="VEF_PermanentBurn.injuryProps.destroyedLabel"><s>Burned off</s><r>Сгорел</r></e>
+  <e k="D" t="HediffDef" key="VEF_PermanentBurn.injuryProps.destroyedOutLabel"><s>Burned out</s><r>Сгорел</r></e>
+  <e k="D" t="HediffDef" key="VEF_PermanentBurn.label"><s>permanent burn</s><r>постоянный ожог</r></e>
+  <e k="D" t="HediffDef" key="VEF_PermanentBurn.labelNoun"><s>a permanent burn</s><r>постоянный ожог</r></e>
+  <e k="D" t="HediffDef" key="VEF_PermanentBurn.labelNounPretty"><s>{0} in the {1}</s><r>{0} в {1}</r></e>
+  <e k="D" t="HediffDef" key="VEF_StillbornAnimal.description"><s>This animal died due to non-specific complications during pregnancy.</s><r>Это животное погибло из-за неспецифических осложнений во время беременности.</r></e>
+  <e k="D" t="HediffDef" key="VEF_StillbornAnimal.label"><s>stillborn animal</s><r>мертворожденное животное</r></e>
+  <e k="D" t="HediffDef" key="VEF_ToxicBuildup.description"><s>Toxins in the bloodstream. This can come from various sources, including environmental toxins, venomous bites, or poisoned weapons.
+
+At high doses, toxic buildup is lethal. Even at low doses, it can generate cancers.
+
+Contrary to base game toxic buildup, creatures who die with this toxic damage can be eaten.</s><r>Токсины в кровотоке. Это может происходить из различных источников, включая токсины окружающей среды, ядовитые укусы или отравленное оружие.
+
+При высоких дозах накопление токсинов смертельно. Даже в низких дозах он может вызвать рак.
+
+В отличие от накопления токсичных веществ в базовой игре, существ, которые умирают от этого токсичного повреждения, можно съесть.</r></e>
+  <e k="D" t="HediffDef" key="VEF_ToxicBuildup.label"><s>toxic buildup</s><r>токсичное накопление</r></e>
+  <e k="D" t="HediffDef" key="VEF_ToxicBuildup.stages.0.label"><s>initial</s><r>исходный</r></e>
+  <e k="D" t="HediffDef" key="VEF_ToxicBuildup.stages.1.label"><s>initial</s><r>исходный</r></e>
+  <e k="D" t="HediffDef" key="VEF_ToxicBuildup.stages.2.label"><s>minor</s><r>незначительный</r></e>
+  <e k="D" t="HediffDef" key="VEF_ToxicBuildup.stages.3.label"><s>moderate</s><r>умеренный</r></e>
+  <e k="D" t="HediffDef" key="VEF_ToxicBuildup.stages.4.label"><s>serious</s><r>серьезный</r></e>
+  <e k="D" t="HediffDef" key="VEF_ToxicBuildup.stages.5.label"><s>extreme</s><r>крайний</r></e>
+  <e k="D" t="IncidentDef" key="VSE_Reinforcements.label"><s>reinforcements</s><r>подкрепления</r></e>
+  <e k="D" t="JobDef" key="BetterReload.reportString"><s>reloading TargetA.</s><r>перезагрузка TargetA.</r></e>
+  <e k="D" t="JobDef" key="KCSG_GoToPassage.reportString"><s>entering TargetA.</s><r>введя TargetA.</r></e>
+  <e k="D" t="JobDef" key="PS_BringToProcessor.reportString"><s>bringing TargetB to TargetA.</s><r>переводя TargetB в TargetA.</r></e>
+  <e k="D" t="JobDef" key="PS_DrainFromMarkedStorage.reportString"><s>draining out of TargetA.</s><r>вытекает из TargetA.</r></e>
+  <e k="D" t="JobDef" key="PS_FillStorage.reportString"><s>filling TargetA.</s><r>заполнение TargetA.</r></e>
+  <e k="D" t="JobDef" key="PS_PickUpProcessor.reportString"><s>picking up from TargetA.</s><r>самовывоз с TargetA.</r></e>
+  <e k="D" t="JobDef" key="ReloadFromInventory.reportString"><s>reloading TargetA.</s><r>перезагрузка TargetA.</r></e>
+  <e k="D" t="JobDef" key="Unload.reportString"><s>unloading TargetA.</s><r>разгрузка TargetA.</r></e>
+  <e k="D" t="JobDef" key="VEF_AnimalResource.reportString"><s>gathering animal resource from TargetA.</s><r>сбор животных ресурсов из TargetA.</r></e>
+  <e k="D" t="JobDef" key="VEF_AutoNutrition.reportString"><s>eating.</s><r>еда.</r></e>
+  <e k="D" t="JobDef" key="VEF_BeatCustomFire.reportString"><s>beating fire out.</s><r>тушить огонь.</r></e>
+  <e k="D" t="JobDef" key="VEF_CustomizeItem.reportString"><s>customizing TargetA.</s><r>настройка TargetA.</r></e>
+  <e k="D" t="JobDef" key="VEF_DestroyItem.reportString"><s>destroying an item.</s><r>уничтожение предмета.</r></e>
+  <e k="D" t="JobDef" key="VEF_ExtinguishCustomFireSelf.reportString"><s>extinguishing self.</s><r>тушить себя.</r></e>
+  <e k="D" t="JobDef" key="VEF_ExtinguishCustomFiresNearby.reportString"><s>extinguishing fires nearby.</s><r>тушить пожары поблизости.</r></e>
+  <e k="D" t="JobDef" key="VEF_ExtractFlower.reportString"><s>extracting a flower.</s><r>извлекая цветок.</r></e>
+  <e k="D" t="JobDef" key="VEF_FleeAndCowerShort.reportString"><s>fleeing.</s><r>бегство.</r></e>
+  <e k="D" t="JobDef" key="VEF_IngestWeird.reportString"><s>consuming TargetA.</s><r>потребляя TargetA.</r></e>
+  <e k="D" t="JobDef" key="VEF_LayExplodingEgg.reportString"><s>laying egg.</s><r>откладываю яйцо.</r></e>
+  <e k="D" t="JobDef" key="VEF_RefuelSecondary.reportString"><s>refueling TargetA with ammunition.</s><r>дозаправка TargetA боеприпасами.</r></e>
+  <e k="D" t="JobDef" key="VEF_ReloadWeaponTrait.reportString"><s>reloading TargetA.</s><r>перезагрузка TargetA.</r></e>
+  <e k="D" t="JobDef" key="VEF_RemoveWeeds.reportString"><s>removing weeds.</s><r>удаление сорняков.</r></e>
+  <e k="D" t="JobDef" key="VEF_UseDoorTeleporter.reportString"><s>using TargetA to teleport to TargetB</s><r>используя TargetA, чтобы телепортироваться в TargetB</r></e>
+  <e k="D" t="JobDef" key="VFEA_GotoTargetAndUseAbility.reportString"><s>Doing something.</s><r>Что-то делаю.</r></e>
+  <e k="D" t="JobDef" key="VFEA_StandAndFaceTarget.reportString"><s>standing.</s><r>стоя.</r></e>
+  <e k="D" t="JobDef" key="VFEA_UseAbility.reportString"><s>Doing something.</s><r>Что-то делаю.</r></e>
+  <e k="D" t="JobDef" key="VFEA_UseAbilityUninterruptible.reportString"><s>Doing something.</s><r>Что-то делаю.</r></e>
+  <e k="D" t="JobDef" key="VFEC_EquipShield.reportString"><s>equipping TargetA.</s><r>оснащение TargetA.</r></e>
+  <e k="D" t="JobDef" key="VFEC_LeaveMap.reportString"><s>leaving.</s><r>уход.</r></e>
+  <e k="D" t="JobDef" key="VFE_Loot.reportString"><s>looting TargetA.</s><r>грабеж TargetA.</r></e>
+  <e k="D" t="JobDef" key="VFE_StudyBuilding.reportString"><s>studying TargetA.</s><r>изучаю TargetA.</r></e>
+  <e k="D" t="KeyBindingDef" key="VFE_Dev_Restart.label"><s>restart game</s><r>перезапустить игру</r></e>
+  <e k="D" t="MentalStateDef" key="VEF_XenophobicRage.baseInspectLine"><s>Mental state: Xenophobic rage</s><r>Психическое состояние: ксенофобская ярость.</r></e>
+  <e k="D" t="MentalStateDef" key="VEF_XenophobicRage.beginLetter"><s>{0} has flown into a xenophobic rage.
+
+[PAWN_pronoun] has decided to kill {1}.</s><r>{0} впал в ксенофобскую ярость.
+
+[PAWN_pronoun] решил убить {1}.</r></e>
+  <e k="D" t="MentalStateDef" key="VEF_XenophobicRage.label"><s>xenophobic rage</s><r>ксенофобская ярость</r></e>
+  <e k="D" t="MentalStateDef" key="VEF_XenophobicRage.recoveryMessage"><s>{0} is no longer in a xenophobic rage.</s><r>{0} больше не находится в ксенофобской ярости.</r></e>
+  <e k="D" t="OptionalFeaturesDef" key="VFE_AnimalGenesMechanics.description"><s>This optional feature adds all the patches required for the Animal Genes system to work.</s><r>Эта дополнительная функция добавляет все исправления, необходимые для работы системы Animal Genes.</r></e>
+  <e k="D" t="OptionalFeaturesDef" key="VFE_IdeoFloatMenuPlus.description"><s>This optional feature extends the menus in the Ideo creation screen, allowing search and scroll bars. Used by VE Memes and Alpha Memes.</s><r>Эта дополнительная функция расширяет меню на экране создания идеи, позволяя использовать полосы поиска и прокрутки. Используется VE Memes и Alpha Memes.</r></e>
+  <e k="D" t="OptionalFeaturesDef" key="VFE_TileMutatorMechanics.description"><s>This optional feature adds a Def extension, TileMutatorExtension, to add new tile mutator mechanics for Odyssey.</s><r>Эта дополнительная функция добавляет расширение Def, TileMutatorExtension, которое добавляет новую механику мутатора тайлов для Odyssey.</r></e>
+  <e k="D" t="OptionalFeaturesDef" key="VFE_WeaponTraitDefMechanics.description"><s>This optional feature adds a Def extension to WeaponTraitDefs to allow for new unique weapon behaviours.</s><r>Эта дополнительная функция добавляет расширение Def к WeaponTraitDefs, позволяющее использовать новое уникальное поведение оружия.</r></e>
+  <e k="D" t="PawnRenderTreeDef" key="VEF_GraphicByStyleRenderTree.root.children.0.children.3.debugLabel"><s>Carried thing</s><r>Несущая вещь</r></e>
+  <e k="D" t="PawnRenderTreeDef" key="VEF_GraphicByTerrainRenderTree.root.children.0.children.3.debugLabel"><s>Carried thing</s><r>Несущая вещь</r></e>
+  <e k="D" t="RulePackDef" key="VEF_DamageEvent_Charge.rulePack.rulesStrings.0"><s>damage_source-&gt;A [charging] animal [crushed]</s><r>damage_source-&gt;[charging] животное [crushed]</r></e>
+  <e k="D" t="RulePackDef" key="VEF_DamageEvent_Charge.rulePack.rulesStrings.1"><s>destroyed_present(p=3)-&gt;tearing off</s><r>destroyed_present(p=3)-&gt;отрывая</r></e>
+  <e k="D" t="RulePackDef" key="VEF_DamageEvent_Charge.rulePack.rulesStrings.2"><s>charging-&gt;charging</s><r>charging-&gt;зарядка</r></e>
+  <e k="D" t="RulePackDef" key="VEF_DamageEvent_Charge.rulePack.rulesStrings.3"><s>charging-&gt;passing</s><r>charging-&gt;прохождение</r></e>
+  <e k="D" t="RulePackDef" key="VEF_DamageEvent_Charge.rulePack.rulesStrings.4"><s>crushed(p=8)-&gt;crushed</s><r>crushed(p=8)-&gt;раздавленный</r></e>
+  <e k="D" t="RulePackDef" key="VEF_DamageEvent_Charge.rulePack.rulesStrings.5"><s>crushed-&gt;pulverized</s><r>crushed-&gt;распыленный</r></e>
+  <e k="D" t="RulePackDef" key="VEF_DamageEvent_Charge.rulePack.rulesStrings.6"><s>crushed-&gt;squashed</s><r>crushed-&gt;раздавленный</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.0"><s>subject-&gt;innovation's path</s><r>subject-&gt;путь инноваций</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.1"><s>subject_story-&gt;unveiled simple truths behind complex phenomena</s><r>subject_story-&gt;раскрыл простые истины, стоящие за сложными явлениями</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.10"><s>subject-&gt;seeds of tomorrow</s><r>subject-&gt;семена завтрашнего дня</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.11"><s>subject_story-&gt;planted ideas that would grow into transformative solutions</s><r>subject_story-&gt;посадил идеи, которые переросли в преобразующие решения</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.12"><s>subject_story-&gt;cultivated a garden of knowledge, ripe with potential</s><r>subject_story-&gt;возделывал сад знаний, полный потенциала</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.13"><s>subject_story-&gt;nurtured the roots of change with care and foresight</s><r>subject_story-&gt;заботливо и дальновидно взращивали корни перемен</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.14"><s>subject_gerund-&gt;sowing the future with today’s discoveries</s><r>subject_gerund-&gt;сея будущее с сегодняшними открытиями</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.15"><s>subject-&gt;the ripple of curiosity</s><r>subject-&gt;волна любопытства</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.16"><s>subject_story-&gt;set forth waves of inquiry that echoed through time</s><r>subject_story-&gt;излагать волны исследований, которые эхом отдавались во времени</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.17"><s>subject_story-&gt;dropped pebbles of innovation into the pond of knowledge</s><r>subject_story-&gt;бросил камешки инноваций в пруд знаний</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.18"><s>subject_story-&gt;watched as one question led to another, expanding the circle of understanding</s><r>subject_story-&gt;наблюдал, как один вопрос влек за собой другой, расширяя круг понимания</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.19"><s>subject_gerund-&gt;casting stones to create waves of progress</s><r>subject_gerund-&gt;бросать камни для создания волн прогресса</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.2"><s>subject_story-&gt;simplified the intricate to make way for practical applications</s><r>subject_story-&gt;упростил сложную задачу, освободив место для практического применения</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.20"><s>subject-&gt;the alchemy of progress</s><r>subject-&gt;алхимия прогресса</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.21"><s>subject_story-&gt;merged disparate disciplines to unlock new realms of possibility</s><r>subject_story-&gt;объединили разрозненные дисциплины, чтобы открыть новые сферы возможностей</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.22"><s>subject_story-&gt;turned the impossible into the inevitable through sheer ingenuity</s><r>subject_story-&gt;превратил невозможное в неизбежное благодаря своей изобретательности</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.23"><s>subject_story-&gt;crafted solutions that reshaped the understanding of what's achievable</s><r>subject_story-&gt;разработанные решения, которые изменили понимание того, что достижимо</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.24"><s>subject_gerund-&gt;blending science and magic into the fabric of reality</s><r>subject_gerund-&gt;смешивание науки и магии в ткань реальности</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.25"><s>subject-&gt;the tapestry of discovery</s><r>subject-&gt;гобелен открытий</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.26"><s>subject_story-&gt;wove together threads of knowledge from the four corners of the world</s><r>subject_story-&gt;сплели воедино нити знаний из четырех уголков мира</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.27"><s>subject_story-&gt;revealed patterns in the chaos, charting paths to untold innovations</s><r>subject_story-&gt;выявил закономерности в хаосе, проложив пути к неисчислимым инновациям</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.28"><s>subject_story-&gt;embroidered the annals of history with tales of serendipitous breakthroughs</s><r>subject_story-&gt;украсили анналы истории рассказами о счастливых открытиях</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.29"><s>subject_gerund-&gt;weaving the future from the loom of the present</s><r>subject_gerund-&gt;плетение будущего на станке настоящего</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.3"><s>subject_story-&gt;harnessed basic principles to achieve remarkable feats</s><r>subject_story-&gt;использовал основные принципы для достижения выдающихся подвигов</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.30"><s>subject-&gt;the crucible of creation</s><r>subject-&gt;тигель творения</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.31"><s>subject_story-&gt;fused raw elements into the building blocks of tomorrow</s><r>subject_story-&gt;соединил необработанные элементы в строительные блоки завтрашнего дня</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.32"><s>subject_story-&gt;tempered the fires of creativity to forge unprecedented technologies</s><r>subject_story-&gt;умерил огонь творчества, чтобы создать беспрецедентные технологии</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.33"><s>subject_story-&gt;quenched the thirst for knowledge with the elixir of invention</s><r>subject_story-&gt;утолил жажду знаний эликсиром изобретательности</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.34"><s>subject_gerund-&gt;molding the raw materials of today into the artifacts of the future</s><r>subject_gerund-&gt;превращение сегодняшнего сырья в артефакты будущего</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.35"><s>subject-&gt;the beacon of enlightenment</s><r>subject-&gt;маяк просвещения</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.36"><s>subject_story-&gt;illuminated the dark corners of ignorance, guiding the way forward</s><r>subject_story-&gt;освещал темные уголки невежества, указывая путь вперед</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.37"><s>subject_story-&gt;cast light on the unknown, making the unseen visible to curious minds</s><r>subject_story-&gt;пролить свет на неизведанное, сделать невидимое видимым для любопытных умов</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.38"><s>subject_story-&gt;ignited the flames of curiosity, kindling a worldwide pursuit of understanding</s><r>subject_story-&gt;зажег пламя любопытства, разжигая стремление к пониманию во всем мире.</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.39"><s>subject_gerund-&gt;lighting the torches of progress and knowledge</s><r>subject_gerund-&gt;зажигая факелы прогресса и знаний</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.4"><s>subject_gerund-&gt;streamlining the essence of discovery</s><r>subject_gerund-&gt;оптимизация сути открытия</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.40"><s>subject-&gt;the frontier of knowledge</s><r>subject-&gt;граница знаний</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.41"><s>subject_story-&gt;crossed new horizons in the pursuit of understanding</s><r>subject_story-&gt;пересек новые горизонты в поисках понимания</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.42"><s>subject_story-&gt;challenged the status quo with groundbreaking theories</s><r>subject_story-&gt;бросил вызов статус-кво с помощью новаторских теорий</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.43"><s>subject_story-&gt;merged ancient wisdom with modern technology for innovative solutions</s><r>subject_story-&gt;объединили древнюю мудрость с современными технологиями для инновационных решений</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.44"><s>subject_gerund-&gt;pushing the boundaries of science and art</s><r>subject_gerund-&gt;расширяя границы науки и искусства</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.45"><s>subject-&gt;the essence of innovation</s><r>subject-&gt;суть инноваций</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.46"><s>subject_story-&gt;transformed everyday materials into extraordinary tools</s><r>subject_story-&gt;превратил повседневные материалы в необычные инструменты</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.47"><s>subject_story-&gt;paved the way for future generations with sustainable practices</s><r>subject_story-&gt;проложили путь будущим поколениям с помощью устойчивых методов</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.48"><s>subject_story-&gt;harnessed the power of nature to fuel new advancements</s><r>subject_story-&gt;использовали силу природы для стимулирования новых достижений</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.49"><s>subject_gerund-&gt;fostering an ecosystem of creativity and progress</s><r>subject_gerund-&gt;содействие развитию экосистемы творчества и прогресса</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.5"><s>subject-&gt;building blocks of progress</s><r>subject-&gt;строительные блоки прогресса</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.50"><s>subject-&gt;the architects of tomorrow</s><r>subject-&gt;архитекторы завтрашнего дня</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.51"><s>subject_story-&gt;built the foundations for a utopia where technology serves all</s><r>subject_story-&gt;заложил основы утопии, где технологии служат всем</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.52"><s>subject_story-&gt;envisioned a future where harmony between technology and nature thrives</s><r>subject_story-&gt;представлял будущее, в котором процветает гармония между технологиями и природой</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.53"><s>subject_story-&gt;crafted tools that empower humanity to reach its fullest potential</s><r>subject_story-&gt;созданные инструменты, которые позволяют человечеству полностью раскрыть свой потенциал</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.54"><s>subject_gerund-&gt;laying the keystones for future landscapes</s><r>subject_gerund-&gt;закладываем краеугольные камни для будущих пейзажей</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.55"><s>subject-&gt;exploratory leaps</s><r>subject-&gt;исследовательские прыжки</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.56"><s>subject_story-&gt;stepped boldly into uncharted territories of knowledge</s><r>subject_story-&gt;смело шагнул на неизведанные территории знаний</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.57"><s>subject_story-&gt;bridged the gap between the known and the unknown</s><r>subject_story-&gt;преодолел разрыв между известным и неизвестным</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.58"><s>subject_story-&gt;ventured where curiosity dared to lead</s><r>subject_story-&gt;рискнул туда, где любопытство осмелилось привести</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.59"><s>subject_gerund-&gt;embarking on journeys of discovery</s><r>subject_gerund-&gt;отправляясь в путешествие открытий</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.6"><s>subject_story-&gt;laid the groundwork for monumental leaps forward</s><r>subject_story-&gt;заложил основу для монументального скачка вперед</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.60"><s>subject-&gt;the essence of ingenuity</s><r>subject-&gt;суть изобретательности</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.61"><s>subject_story-&gt;transformed challenges into opportunities for growth</s><r>subject_story-&gt;превратил проблемы в возможности для роста</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.62"><s>subject_story-&gt;applied creative thinking to overcome traditional obstacles</s><r>subject_story-&gt;применил творческое мышление для преодоления традиционных препятствий</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.63"><s>subject_story-&gt;crafted elegant solutions with a blend of art and science</s><r>subject_story-&gt;созданные элегантные решения, сочетающие искусство и науку</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.64"><s>subject_gerund-&gt;unlocking potential through innovation</s><r>subject_gerund-&gt;раскрытие потенциала через инновации</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.65"><s>subject-&gt;knowledge’s harvest</s><r>subject-&gt;урожай знаний</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.66"><s>subject_story-&gt;gathered insights as one reaps the fields at harvest</s><r>subject_story-&gt;собирал идеи, когда собираешь урожай на полях</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.67"><s>subject_story-&gt;cultivated a bounty of understanding from the seeds of inquiry</s><r>subject_story-&gt;вырастил щедрость понимания из семян исследования</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.68"><s>subject_story-&gt;shared the fruits of research with the world</s><r>subject_story-&gt;поделился плодами исследований со всем миром</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.69"><s>subject_gerund-&gt;reaping the rewards of relentless curiosity</s><r>subject_gerund-&gt;пожинать плоды неустанного любопытства</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.7"><s>subject_story-&gt;connected dots across disciplines to reveal new insights</s><r>subject_story-&gt;связали точки между дисциплинами, чтобы выявить новые идеи</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.70"><s>subject-&gt;the puzzle of progress</s><r>subject-&gt;загадка прогресса</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.71"><s>subject_story-&gt;assembled the pieces of mystery to reveal the big picture</s><r>subject_story-&gt;собрал кусочки тайны, чтобы раскрыть общую картину</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.72"><s>subject_story-&gt;matched theory with practice to solve longstanding puzzles</s><r>subject_story-&gt;сочетать теорию с практикой для решения давних загадок</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.73"><s>subject_story-&gt;uncovered hidden connections that unlocked new possibilities</s><r>subject_story-&gt;раскрыл скрытые связи, которые открыли новые возможности</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.74"><s>subject_gerund-&gt;piecing together the elements of advancement</s><r>subject_gerund-&gt;собираем воедино элементы продвижения</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.8"><s>subject_story-&gt;crafted the foundation upon which future innovations stand</s><r>subject_story-&gt;создали основу, на которой стоят будущие инновации</r></e>
+  <e k="D" t="RulePackDef" key="VEF_Description_Schematic_Defaults.rulePack.rulesStrings.9"><s>subject_gerund-&gt;laying down the keystones of advancement</s><r>subject_gerund-&gt;закладывая краеугольные камни продвижения</r></e>
+  <e k="D" t="ScenPartDef" key="VFEC_AddStartingStructure.label"><s>add custom structure to starting map</s><r>добавить пользовательскую структуру к стартовой карте</r></e>
+  <e k="D" t="ScenPartDef" key="VFEC_ForcedFactionGoodwill.label"><s>forced faction relations</s><r>принудительные отношения между фракциями</r></e>
+  <e k="D" t="ScenPartDef" key="VFEC_PlayerPawnsArriveMethodEdge.label"><s>pawn arrive method</s><r>метод поступления пешки</r></e>
+  <e k="D" t="SitePartDef" key="KCSG_EnnemiesPresence.description"><s>Enemies are present in this place.</s><r>В этом месте присутствуют враги.</r></e>
+  <e k="D" t="SitePartDef" key="KCSG_EnnemiesPresence.label"><s>enemies present</s><r>враги присутствуют</r></e>
+  <e k="D" t="StatCategoryDef" key="VFE_EquippedStatFactors.label"><s>Factors when equipped</s><r>Факторы при оснащении</r></e>
+  <e k="D" t="StatDef" key="VEF_AnimalProductIntervalFactor.description"><s>A multiplier on the interval of time needed for this animal to produce special animal products.</s><r>Множитель интервала времени, необходимого данному животному для производства особых продуктов животного происхождения.</r></e>
+  <e k="D" t="StatDef" key="VEF_AnimalProductIntervalFactor.label"><s>animal product interval factor</s><r>коэффициент интервала продуктов животного происхождения</r></e>
+  <e k="D" t="StatDef" key="VEF_AnimalProductYieldFactor.description"><s>A multiplier on the amount of special animal products produced by this animal.</s><r>Множитель количества особых продуктов животного происхождения, производимых этим животным.</r></e>
+  <e k="D" t="StatDef" key="VEF_AnimalProductYieldFactor.label"><s>animal product yield factor</s><r>коэффициент выхода животноводческой продукции</r></e>
+  <e k="D" t="StatDef" key="VEF_BodySize_Multiplier.description"><s>Increases the size of the pawn by a multiple of their current size</s><r>Увеличивает размер пешки в несколько раз по сравнению с ее текущим размером.</r></e>
+  <e k="D" t="StatDef" key="VEF_BodySize_Multiplier.label"><s>body size multiplier</s><r>множитель размера тела</r></e>
+  <e k="D" t="StatDef" key="VEF_BodySize_Offset.description"><s>Increases the size of the pawn relative to their current size</s><r>Увеличивает размер пешки относительно ее текущего размера.</r></e>
+  <e k="D" t="StatDef" key="VEF_BodySize_Offset.label"><s>body size offset</s><r>смещение размера тела</r></e>
+  <e k="D" t="StatDef" key="VEF_BuildingBreakdownFactor.description"><s>A multiplier on how often this building breaks down.</s><r>Множитель того, как часто это здание ломается.</r></e>
+  <e k="D" t="StatDef" key="VEF_BuildingBreakdownFactor.label"><s>breakdown factor</s><r>коэффициент разрушения</r></e>
+  <e k="D" t="StatDef" key="VEF_BuildingLearningRateOffset.description"><s>A multiplier on how quickly children learn during lessons which are assisted by this.</s><r>Множитель того, насколько быстро дети учатся на уроках, которым это способствует.</r></e>
+  <e k="D" t="StatDef" key="VEF_BuildingLearningRateOffset.label"><s>learning rate</s><r>скорость обучения</r></e>
+  <e k="D" t="StatDef" key="VEF_BuildingMaxOverclockFactor.description"><s>A multiplier on the maximum possible overclock of a factory.</s><r>Множитель на максимально возможный заводской разгон.</r></e>
+  <e k="D" t="StatDef" key="VEF_BuildingMaxOverclockFactor.label"><s>maximum overclock factor</s><r>максимальный коэффициент разгона</r></e>
+  <e k="D" t="StatDef" key="VEF_CosmeticBodySize_Multiplier.description"><s>Increases the size of the pawn by a multiple of their current size</s><r>Увеличивает размер пешки в несколько раз по сравнению с ее текущим размером.</r></e>
+  <e k="D" t="StatDef" key="VEF_CosmeticBodySize_Multiplier.label"><s>cosmetic body size multiplier</s><r>косметический множитель размера тела</r></e>
+  <e k="D" t="StatDef" key="VEF_CosmeticBodySize_Offset.description"><s>Increases the size of the pawn relative to their current size</s><r>Увеличивает размер пешки относительно ее текущего размера.</r></e>
+  <e k="D" t="StatDef" key="VEF_CosmeticBodySize_Offset.label"><s>cosmetic body size offset</s><r>косметическое смещение размера тела</r></e>
+  <e k="D" t="StatDef" key="VEF_EnergyShieldEnergyMaxBuilding.description"><s>The maximum energy the shield can have. More energy allows the shield to absorb more damage.</s><r>Максимальная энергия, которую может иметь щит. Больше энергии позволяет щиту поглощать больше урона.</r></e>
+  <e k="D" t="StatDef" key="VEF_EnergyShieldEnergyMaxBuilding.label"><s>shield max energy</s><r>максимальная энергия щита</r></e>
+  <e k="D" t="StatDef" key="VEF_EnergyShieldEnergyMaxFactor.description"><s>Factor of the maximum shield energy that the user can boost through various means.</s><r>Коэффициент максимальной энергии щита, которую пользователь может повысить различными способами.</r></e>
+  <e k="D" t="StatDef" key="VEF_EnergyShieldEnergyMaxFactor.label"><s>Shield max energy factor</s><r>Максимальный энергетический коэффициент щита</r></e>
+  <e k="D" t="StatDef" key="VEF_EnergyShieldEnergyMaxOffset.description"><s>Offset of the maximum shield energy that the user can boost through various means.</s><r>Смещение максимальной энергии щита, которую пользователь может повысить различными способами.</r></e>
+  <e k="D" t="StatDef" key="VEF_EnergyShieldEnergyMaxOffset.label"><s>Shield max energy offset</s><r>Смещение максимальной энергии щита</r></e>
+  <e k="D" t="StatDef" key="VEF_EnergyShieldRadiusApparel.description"><s>The area covered when the energy shield is active.</s><r>Область, охватываемая, когда активен энергетический щит.</r></e>
+  <e k="D" t="StatDef" key="VEF_EnergyShieldRadiusApparel.formatString"><s>{0} c</s><r>{0} с</r></e>
+  <e k="D" t="StatDef" key="VEF_EnergyShieldRadiusApparel.label"><s>shield radius</s><r>радиус щита</r></e>
+  <e k="D" t="StatDef" key="VEF_EnergyShieldRadiusBuilding.description"><s>The radius of the energy shield protection.</s><r>Радиус защиты энергетическим щитом.</r></e>
+  <e k="D" t="StatDef" key="VEF_EnergyShieldRadiusBuilding.formatString"><s>{0} c</s><r>{0} с</r></e>
+  <e k="D" t="StatDef" key="VEF_EnergyShieldRadiusBuilding.label"><s>shield radius</s><r>радиус щита</r></e>
+  <e k="D" t="StatDef" key="VEF_EnergyShieldRechargeRateBuilding.description"><s>The rate at which the shield recharges energy per second, as long as it is not broken.</s><r>Скорость, с которой щит перезаряжает энергию в секунду, пока он не сломан.</r></e>
+  <e k="D" t="StatDef" key="VEF_EnergyShieldRechargeRateBuilding.formatString"><s>{0}/s</s><r>{0}/с</r></e>
+  <e k="D" t="StatDef" key="VEF_EnergyShieldRechargeRateBuilding.label"><s>shield recharge rate</s><r>скорость перезарядки щита</r></e>
+  <e k="D" t="StatDef" key="VEF_FactoryHeatPerSecondFactor.description"><s>A multiplier on the heat per second produced by a factory.</s><r>Множитель количества тепла в секунду, производимого заводом.</r></e>
+  <e k="D" t="StatDef" key="VEF_FactoryHeatPerSecondFactor.label"><s>heat per second factor</s><r>коэффициент тепла в секунду</r></e>
+  <e k="D" t="StatDef" key="VEF_FoodCapacityMultiplier.description"><s>Increases the size of the pawn's hunger bar. This does not affect hunger</s><r>Увеличивает размер шкалы голода пешки. Это не влияет на голод</r></e>
+  <e k="D" t="StatDef" key="VEF_FoodCapacityMultiplier.label"><s>body food capacity multiplier</s><r>множитель способности организма к питанию</r></e>
+  <e k="D" t="StatDef" key="VEF_GaussProjectileDamageModifier.description"><s>How much the damage dealt is modified (as a percentage of the base damage) for each previously hit target.</s><r>Насколько изменяется нанесенный урон (в процентах от базового урона) для каждой ранее пораженной цели.</r></e>
+  <e k="D" t="StatDef" key="VEF_GaussProjectileDamageModifier.label"><s>piercing damage modifier</s><r>модификатор колющего урона</r></e>
+  <e k="D" t="StatDef" key="VEF_GrowthPointMultiplier.description"><s>Increases the amount of growth points accumulated by children when learning</s><r>Увеличивает количество точек роста, накапливаемых детьми при обучении.</r></e>
+  <e k="D" t="StatDef" key="VEF_GrowthPointMultiplier.label"><s>growth point multiplier</s><r>множитель точки роста</r></e>
+  <e k="D" t="StatDef" key="VEF_HeadSize_Cosmetic.label"><s>head size multiplier</s><r>множитель размера головы</r></e>
+  <e k="D" t="StatDef" key="VEF_HeatstrokeBuildupMultiplier.description"><s>A factor on how fast heatstroke will be gained.</s><r>Фактор того, насколько быстро будет получен тепловой удар.</r></e>
+  <e k="D" t="StatDef" key="VEF_HeatstrokeBuildupMultiplier.label"><s>Heatstroke buildup multiplier</s><r>Множитель накопления теплового удара</r></e>
+  <e k="D" t="StatDef" key="VEF_MTBLovinFactor.description"><s>A factor of the mean time between (MTB) this person looking for some lovin'.</s><r>Часть среднего времени между (MTB) этим человеком, ищущим любви.</r></e>
+  <e k="D" t="StatDef" key="VEF_MTBLovinFactor.label"><s>MTB Lovin Factor</s><r>МТБ Ловин Фактор</r></e>
+  <e k="D" t="StatDef" key="VEF_MassCarryCapacity.description"><s>Total mass carrying capacity of the pawn in caravans.</s><r>Общая грузоподъемность пешки в караванах.</r></e>
+  <e k="D" t="StatDef" key="VEF_MassCarryCapacity.formatString"><s>{0} kg</s><r>{0} кг</r></e>
+  <e k="D" t="StatDef" key="VEF_MassCarryCapacity.formatStringUnfinalized"><s>{0} kg</s><r>{0} кг</r></e>
+  <e k="D" t="StatDef" key="VEF_MassCarryCapacity.label"><s>Mass carry capacity</s><r>Грузоподъемность</r></e>
+  <e k="D" t="StatDef" key="VEF_MeleeAttackDamageFactor.description"><s>A multiplier on melee attack damage.</s><r>Множитель урона от атак в ближнем бою.</r></e>
+  <e k="D" t="StatDef" key="VEF_MeleeAttackDamageFactor.label"><s>melee attack damage factor</s><r>коэффициент урона от рукопашной атаки</r></e>
+  <e k="D" t="StatDef" key="VEF_MeleeWeaponRange.description"><s>The range of this melee weapon.</s><r>Дальность этого оружия ближнего боя.</r></e>
+  <e k="D" t="StatDef" key="VEF_MeleeWeaponRange.label"><s>melee weapon range</s><r>дальность оружия ближнего боя</r></e>
+  <e k="D" t="StatDef" key="VEF_NegativeThoughtDurationFactor.description"><s>The duration of negative thoughts is multiplied by this value.</s><r>Продолжительность негативных мыслей умножается на это значение.</r></e>
+  <e k="D" t="StatDef" key="VEF_NegativeThoughtDurationFactor.label"><s>thought duration factor - negative</s><r>коэффициент продолжительности мысли - отрицательный</r></e>
+  <e k="D" t="StatDef" key="VEF_NeutralThoughtDurationFactor.description"><s>The duration of neutral thoughts is multiplied by this value.</s><r>Продолжительность нейтральных мыслей умножается на это значение.</r></e>
+  <e k="D" t="StatDef" key="VEF_NeutralThoughtDurationFactor.label"><s>thought duration factor - neutral</s><r>фактор продолжительности мысли - нейтральный</r></e>
+  <e k="D" t="StatDef" key="VEF_PawnRenderPosOffset.description"><s>Modifies the pawn's rendered position in y-axis.</s><r>Изменяет отображаемое положение пешки по оси Y.</r></e>
+  <e k="D" t="StatDef" key="VEF_PawnRenderPosOffset.label"><s>pawn render offset</s><r>смещение рендеринга пешки</r></e>
+  <e k="D" t="StatDef" key="VEF_PositiveThoughtDurationFactor.description"><s>The duration of positive thoughts is multiplied by this value.</s><r>Продолжительность позитивных мыслей умножается на это значение.</r></e>
+  <e k="D" t="StatDef" key="VEF_PositiveThoughtDurationFactor.label"><s>thought duration factor - positive</s><r>коэффициент продолжительности мысли - положительный</r></e>
+  <e k="D" t="StatDef" key="VEF_RangeAttackDamageFactor.description"><s>A multiplier on range attack damage.</s><r>Множитель урона от дальней атаки.</r></e>
+  <e k="D" t="StatDef" key="VEF_RangeAttackDamageFactor.label"><s>range attack damage factor</s><r>коэффициент урона от дальней атаки</r></e>
+  <e k="D" t="StatDef" key="VEF_RangedCooldownFactor.description"><s>The cooldown on ranged weapons of the wearer is multiplied by this value.</s><r>Время восстановления оружия дальнего боя владельца умножается на это значение.</r></e>
+  <e k="D" t="StatDef" key="VEF_RangedCooldownFactor.label"><s>ranged cooldown factor</s><r>коэффициент перезарядки дальнего боя</r></e>
+  <e k="D" t="StatDef" key="VEF_RangedDodgeChance.description"><s>Chance to dodge a ranged attack that would've otherwise hit, or (if negative) get hit by a ranged attack that was meant for a different target.</s><r>Шанс увернуться от дальней атаки, которая в противном случае была бы поражена, или (если отрицательный) получить удар от дальней атаки, предназначенной для другой цели.</r></e>
+  <e k="D" t="StatDef" key="VEF_RangedDodgeChance.label"><s>ranged dodge chance</s><r>шанс уклонения на дальнем расстоянии</r></e>
+  <e k="D" t="StatDef" key="VEF_VerbRangeFactor.description"><s>The range on weapons is multiplied by this value.</s><r>Дальность оружия умножается на это значение.</r></e>
+  <e k="D" t="StatDef" key="VEF_VerbRangeFactor.label"><s>weapon range factor</s><r>коэффициент дальности оружия</r></e>
+  <e k="D" t="StatDef" key="VEF_VerbRangeFactor.labelForFullStatList"><s>weapon range factor (people)</s><r>коэффициент дальности оружия (чел.)</r></e>
+  <e k="D" t="StatDef" key="VRE_HealthFromGenesScale.description"><s>Base health multiplier of this animal due to its genes and attributes.</s><r>Базовый множитель здоровья этого животного, обусловленный его генами и атрибутами.</r></e>
+  <e k="D" t="StatDef" key="VRE_HealthFromGenesScale.label"><s>base health multiplier</s><r>базовый множитель здоровья</r></e>
+  <e k="D" t="TerrainDef" key="VEF_NullTerrain.label"><s>null terrain</s><r>нулевой рельеф</r></e>
+  <e k="D" t="TerrainDef" key="VEF_PrefabBorderBlue.label"><s>prefab border (blue)</s><r>сборный бордюр (синий)</r></e>
+  <e k="D" t="TerrainDef" key="VEF_PrefabBorderGreen.label"><s>prefab border (green)</s><r>сборный бордюр (зеленый)</r></e>
+  <e k="D" t="TerrainDef" key="VEF_PrefabBorderRed.label"><s>prefab border (red)</s><r>сборный бордюр (красный)</r></e>
+  <e k="D" t="TerrainDef" key="VEF_PrefabBorderWhite.label"><s>prefab border (white)</s><r>сборный бордюр (белый)</r></e>
+  <e k="D" t="TerrainDef" key="VEF_PrefabBorderYellow.label"><s>prefab border (yellow)</s><r>сборный бордюр (желтый)</r></e>
+  <e k="D" t="ThingCategoryDef" key="VFEC_Shields.label"><s>shields</s><r>щиты</r></e>
+  <e k="D" t="ThingDef" key="KCSG_LongMote_DustPuff.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="KCSG_PowerConduit.description"><s>A burried bundle of electrical cables for moving power around.</s><r>Закопанный пучок электрических кабелей для подачи электроэнергии.</r></e>
+  <e k="D" t="ThingDef" key="KCSG_PowerConduit.label"><s>power conduit</s><r>силовой канал</r></e>
+  <e k="D" t="ThingDef" key="Mote_FTSmoketrail.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="Mote_GreenSmoketrail.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="Mote_Smoketrail.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="VEF_BaseCustomSparkSpark.label"><s>spark</s><r>искра</r></e>
+  <e k="D" t="ThingDef" key="VEF_Charger.label"><s>flying</s><r>летающий</r></e>
+  <e k="D" t="ThingDef" key="VEF_FlintlockSmoke.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="VEF_OutpostDeliverySpot.description"><s>Designates a spot for items from outposts to be delivered to.</s><r>Обозначает место для доставки предметов с аванпостов.</r></e>
+  <e k="D" t="ThingDef" key="VEF_OutpostDeliverySpot.label"><s>outpost delivery spot</s><r>место доставки заставы</r></e>
+  <e k="D" t="ThingDef" key="VFEA_AbilityFlyer.label"><s>flying</s><r>летающий</r></e>
+  <e k="D" t="ThingDef" key="VFEA_AbilityFlyer_Charge.label"><s>flying</s><r>летающий</r></e>
+  <e k="D" t="ThingDef" key="VPEF_MinifiedFlower.label"><s>minified flower</s><r>миниатюрный цветок</r></e>
+  <e k="D" t="TrainableDef" key="VEF_Beastmastery.description"><s>Train and attune this animal to your will, granting direct control over their movements and actions through a powerful bond of dominance and trust.</s><r>Тренируйте и настраивайте это животное по своей воле, предоставляя ему прямой контроль над его движениями и действиями через мощную связь доминирования и доверия.</r></e>
+  <e k="D" t="TrainableDef" key="VEF_Beastmastery.label"><s>beastmastery</s><r>повеление зверей</r></e>
+  <e k="D" t="TrainableDef" key="VEF_ControlledBlinking.description"><s>Override the creature's usual erratic blinking, allowing a directed way to blink to a chosen location within range.</s><r>Отмените обычное беспорядочное моргание существа, позволяя направленно мигать в выбранное место в пределах досягаемости.</r></e>
+  <e k="D" t="TrainableDef" key="VEF_ControlledBlinking.label"><s>controlled blinking</s><r>контролируемое моргание</r></e>
+  <e k="D" t="TrainableDef" key="VEF_ControlledCorpseDecay.description"><s>Teach the animal to control its corpse decaying abilities.</s><r>Научите животное контролировать способность разлагать труп.</r></e>
+  <e k="D" t="TrainableDef" key="VEF_ControlledCorpseDecay.label"><s>controlled corpse decay</s><r>контролируемое разложение трупа</r></e>
+  <e k="D" t="TrainableDef" key="VEF_ControlledDetonation.description"><s>The animal can willingly trigger a powerful self-destructive explosion, sacrificing itself in a final act that unleashes all stored volatile compounds in a devastating blast.</s><r>Животное может добровольно вызвать мощный саморазрушительный взрыв, жертвуя собой в последнем акте, который высвобождает все накопленные летучие соединения в разрушительном взрыве.</r></e>
+  <e k="D" t="TrainableDef" key="VEF_ControlledDetonation.label"><s>controlled detonation</s><r>контролируемая детонация</r></e>
+  <e k="D" t="TrainableDef" key="VEF_ControlledInvisibility.description"><s>The animal can willingly shroud itself in a veil of controlled invisibility, vanishing from sight while retaining full awareness and precision.</s><r>Животное может охотно окутать себя завесой контролируемой невидимости, исчезая из поля зрения, сохраняя при этом полную осознанность и точность.</r></e>
+  <e k="D" t="TrainableDef" key="VEF_ControlledInvisibility.label"><s>controlled invisibility</s><r>контролируемая невидимость</r></e>
+  <e k="D" t="TrainableDef" key="VEF_CycleSeverance.description"><s>Suppress the natural reproduction cycle, preventing the release of offspring and completely negating the creature’s asexual reproduction.</s><r>Подавить естественный цикл размножения, не допуская выхода потомства и полностью сводя на нет бесполое размножение существа.</r></e>
+  <e k="D" t="TrainableDef" key="VEF_CycleSeverance.label"><s>cycle severance</s><r>разрыв цикла</r></e>
+  <e k="D" t="TrainableDef" key="VEF_DiggingDiscipline.description"><s>Teach the animal to control its terrain digging abilities.</s><r>Научите животное контролировать свои способности рыть землю.</r></e>
+  <e k="D" t="TrainableDef" key="VEF_DiggingDiscipline.label"><s>digging discipline</s><r>дисциплина копания</r></e>
+  <e k="D" t="TrainableDef" key="VEF_FumeRegulation.description"><s>Teach the animal to control its gas production abilities.</s><r>Научите животное контролировать свои способности выделять газ.</r></e>
+  <e k="D" t="TrainableDef" key="VEF_FumeRegulation.label"><s>fume regulation</s><r>регулирование дыма</r></e>
+  <e k="D" t="WorkGiverDef" key="PS_BringToProcessor.gerund"><s>bringing ingredients to</s><r>доставляем ингредиенты в</r></e>
+  <e k="D" t="WorkGiverDef" key="PS_BringToProcessor.label"><s>bring ingredient to processor</s><r>доставить ингредиент в процессор</r></e>
+  <e k="D" t="WorkGiverDef" key="PS_BringToProcessor.verb"><s>bring ingredients to</s><r>принести ингредиенты в</r></e>
+  <e k="D" t="WorkGiverDef" key="PS_DrainOutOfStorage.gerund"><s>draining out of storage</s><r>слив из хранилища</r></e>
+  <e k="D" t="WorkGiverDef" key="PS_DrainOutOfStorage.label"><s>drain out of storage</s><r>опорожнить хранилище</r></e>
+  <e k="D" t="WorkGiverDef" key="PS_DrainOutOfStorage.verb"><s>drain out of storage</s><r>опорожнить хранилище</r></e>
+  <e k="D" t="WorkGiverDef" key="PS_FillStorage.gerund"><s>filling storage</s><r>заполнение хранилища</r></e>
+  <e k="D" t="WorkGiverDef" key="PS_FillStorage.label"><s>fill storage</s><r>заполнить хранилище</r></e>
+  <e k="D" t="WorkGiverDef" key="PS_FillStorage.verb"><s>fill storage</s><r>заполнить хранилище</r></e>
+  <e k="D" t="WorkGiverDef" key="PS_PickUpProcessor.gerund"><s>picking up result from</s><r>получение результата от</r></e>
+  <e k="D" t="WorkGiverDef" key="PS_PickUpProcessor.label"><s>pick up result from processor</s><r>получить результат от процессора</r></e>
+  <e k="D" t="WorkGiverDef" key="PS_PickUpProcessor.verb"><s>pick up result from</s><r>получить результат от</r></e>
+  <e k="D" t="WorkGiverDef" key="VEF_AnimalResource.gerund"><s>gathering animal resource from</s><r>сбор животных ресурсов из</r></e>
+  <e k="D" t="WorkGiverDef" key="VEF_AnimalResource.label"><s>gather animal resource</s><r>собирать ресурсы животных</r></e>
+  <e k="D" t="WorkGiverDef" key="VEF_AnimalResource.verb"><s>gather animal resource from</s><r>собирать ресурсы животных из</r></e>
+  <e k="D" t="WorkGiverDef" key="VEF_Art_ConstructDeliverResourcesToBlueprints.gerund"><s>working on</s><r>работаю над</r></e>
+  <e k="D" t="WorkGiverDef" key="VEF_Art_ConstructDeliverResourcesToBlueprints.label"><s>deliver resources to blueprints</s><r>доставлять ресурсы в чертежи</r></e>
+  <e k="D" t="WorkGiverDef" key="VEF_Art_ConstructDeliverResourcesToBlueprints.verb"><s>work on</s><r>работать над</r></e>
+  <e k="D" t="WorkGiverDef" key="VEF_Art_ConstructDeliverResourcesToFrames.gerund"><s>working on</s><r>работаю над</r></e>
+  <e k="D" t="WorkGiverDef" key="VEF_Art_ConstructDeliverResourcesToFrames.label"><s>deliver resources to frames</s><r>доставлять ресурсы во фреймы</r></e>
+  <e k="D" t="WorkGiverDef" key="VEF_Art_ConstructDeliverResourcesToFrames.verb"><s>work on</s><r>работать над</r></e>
+  <e k="D" t="WorkGiverDef" key="VEF_Art_ConstructFinishFrames.gerund"><s>working on</s><r>работаю над</r></e>
+  <e k="D" t="WorkGiverDef" key="VEF_Art_ConstructFinishFrames.label"><s>construct placed frames</s><r>построить размещенные кадры</r></e>
+  <e k="D" t="WorkGiverDef" key="VEF_Art_ConstructFinishFrames.verb"><s>work on</s><r>работать над</r></e>
+  <e k="D" t="WorkGiverDef" key="VEF_DestroyItems.gerund"><s>destroying items</s><r>уничтожение предметов</r></e>
+  <e k="D" t="WorkGiverDef" key="VEF_DestroyItems.label"><s>destroy items</s><r>уничтожать предметы</r></e>
+  <e k="D" t="WorkGiverDef" key="VEF_DestroyItems.verb"><s>destroy items</s><r>уничтожать предметы</r></e>
+  <e k="D" t="WorkGiverDef" key="VEF_ExtractFlower.gerund"><s>extracting</s><r>извлечение</r></e>
+  <e k="D" t="WorkGiverDef" key="VEF_ExtractFlower.label"><s>extract flower</s><r>экстракт цветка</r></e>
+  <e k="D" t="WorkGiverDef" key="VEF_ExtractFlower.verb"><s>extract</s><r>извлекать</r></e>
+  <e k="D" t="WorkGiverDef" key="VEF_FightCustomFire.gerund"><s>extinguishing</s><r>тушение</r></e>
+  <e k="D" t="WorkGiverDef" key="VEF_FightCustomFire.label"><s>fight fires</s><r>тушить пожары</r></e>
+  <e k="D" t="WorkGiverDef" key="VEF_FightCustomFire.verb"><s>extinguish</s><r>гасить</r></e>
+  <e k="D" t="WorkGiverDef" key="VEF_RefuelSecondary.gerund"><s>refueling</s><r>дозаправка</r></e>
+  <e k="D" t="WorkGiverDef" key="VEF_RefuelSecondary.label"><s>refuel ammunition</s><r>заправить боеприпасы</r></e>
+  <e k="D" t="WorkGiverDef" key="VEF_RefuelSecondary.verb"><s>refuel</s><r>заправиться</r></e>
+  <e k="D" t="WorkGiverDef" key="VEF_RemoveWeeds.gerund"><s>removing weeds</s><r>удаление сорняков</r></e>
+  <e k="D" t="WorkGiverDef" key="VEF_RemoveWeeds.label"><s>remove weeds</s><r>удалять сорняки</r></e>
+  <e k="D" t="WorkGiverDef" key="VEF_RemoveWeeds.verb"><s>remove weeds</s><r>удалять сорняки</r></e>
+  <e k="D" t="WorkGiverDef" key="VFE_Loot.gerund"><s>looting</s><r>грабеж</r></e>
+  <e k="D" t="WorkGiverDef" key="VFE_Loot.label"><s>loot objects</s><r>предметы грабежа</r></e>
+  <e k="D" t="WorkGiverDef" key="VFE_Loot.verb"><s>loot</s><r>грабить</r></e>
+  <e k="D" t="WorkGiverDef" key="VFE_StudyBuilding.gerund"><s>studying</s><r>изучение</r></e>
+  <e k="D" t="WorkGiverDef" key="VFE_StudyBuilding.label"><s>study a building</s><r>изучить здание</r></e>
+  <e k="D" t="WorkGiverDef" key="VFE_StudyBuilding.verb"><s>study</s><r>изучать</r></e>
+  <e k="D" t="WorldObjectDef" key="KCSG_UndergroundRoom.description"><s>An underground room.</s><r>Подземная комната.</r></e>
+  <e k="D" t="WorldObjectDef" key="KCSG_UndergroundRoom.label"><s>underground room</s><r>подземная комната</r></e>
+  <e k="K" key="AskForPopUp"><s>Add faction(s)</s><r>Добавить фракцию(и)</r></e>
+  <e k="K" key="AskForPopUpExplained"><s>Click this to be asked for each faction if you want it to be added to your game</s><r>Нажмите на эту кнопку, чтобы получить запрос о каждой фракции, если вы хотите, чтобы она была добавлена ​​в вашу игру.</r></e>
+  <e k="K" key="CSGLog"><s>Enable structure generation debugging log: </s><r>Включите журнал отладки генерации структуры: </r></e>
+  <e k="K" key="CSGTitle"><s>Custom structure generation:</s><r>Генерация пользовательской структуры:</r></e>
+  <e k="K" key="CanAddXFaction"><s>{0} faction(s) can be added to your current save</s><r>{0} фракцию(и) можно добавить в ваше текущее сохранение.</r></e>
+  <e k="K" key="FDTitle"><s>Faction Discovery</s><r>Открытие фракции</r></e>
+  <e k="K" key="IP_BringIngredients"><s>Bring Ingredients</s><r>Принесите ингредиенты</r></e>
+  <e k="K" key="IP_BringIngredientsDesc"><s>Bring ingredients to start the process</s><r>Принесите ингредиенты, чтобы начать процесс</r></e>
+  <e k="K" key="IP_CancelIngredients"><s>Cancel Bringing Ingredients</s><r>Отменить внесение ингредиентов</r></e>
+  <e k="K" key="IP_CancelIngredientsDesc"><s>Cancel Bringing Ingredients to this building</s><r>Отменить доставку ингредиентов в это здание</r></e>
+  <e k="K" key="IP_CantFindThing"><s>No items of that kind ({0}) found in this map</s><r>На этой карте не найдено предметов такого типа ({0}).</r></e>
+  <e k="K" key="IP_ChooseIngredient"><s>Choose Ingredient</s><r>Выберите ингредиент</r></e>
+  <e k="K" key="IP_ChooseIngredientFourth"><s>Choose Fourth Ingredient</s><r>Выберите четвертый ингредиент</r></e>
+  <e k="K" key="IP_ChooseIngredientSecond"><s>Choose Second Ingredient</s><r>Выберите второй ингредиент</r></e>
+  <e k="K" key="IP_ChooseIngredientThird"><s>Choose Third Ingredient</s><r>Выберите третий ингредиент</r></e>
+  <e k="K" key="IP_ChooseOutput"><s>Choose Output</s><r>Выберите вывод</r></e>
+  <e k="K" key="IP_ChooseQualityAuto"><s>Choose Auto Quality</s><r>Выберите автоматическое качество</r></e>
+  <e k="K" key="IP_FilledWith"><s>{0} is filled with {1}</s><r>{0} заполнено {1}</r></e>
+  <e k="K" key="IP_FilledWithFourth"><s>{0}'s 4th slot is filled with {1}</s><r>Четвертый слот {0} заполнен {1}</r></e>
+  <e k="K" key="IP_FilledWithSecond"><s>{0}'s 2nd slot is filled with {1}</s><r>Второй слот {0} заполнен {1}</r></e>
+  <e k="K" key="IP_FilledWithThird"><s>{0}'s 3rd slot is filled with {1}</s><r>Третий слот {0} заполнен {1}</r></e>
+  <e k="K" key="IP_GenericProductFinished"><s>A product has finished processing and is waiting for pickup</s><r>Товар завершил обработку и ожидает самовывоза</r></e>
+  <e k="K" key="IP_IngredientImproperlyDefined"><s>One of the ingredients has been improperly defined to work with the item processor, contact the mod's author</s><r>Один из ингредиентов неправильно определен для работы с процессором предметов, свяжитесь с автором мода.</r></e>
+  <e k="K" key="IP_IngredientPercentage"><s> (filled at {0} of {1})</s><r> (заполняется в {0} из {1})</r></e>
+  <e k="K" key="IP_InsertFirstItemDesc"><s>Insert</s><r>Вставлять</r></e>
+  <e k="K" key="IP_InsertFourthItemDesc"><s>Insert</s><r>Вставлять</r></e>
+  <e k="K" key="IP_InsertSecondItemDesc"><s>Insert</s><r>Вставлять</r></e>
+  <e k="K" key="IP_InsertThirdItemDesc"><s>Insert</s><r>Вставлять</r></e>
+  <e k="K" key="IP_InsertVariable"><s>Insert {0}</s><r>Вставьте {0}</r></e>
+  <e k="K" key="IP_InsertVariableSecond"><s>Insert {0} in 2nd slot</s><r>Вставьте {0} во 2-й слот.</r></e>
+  <e k="K" key="IP_InsertVariableThird"><s>Insert {0} in 3rd slot</s><r>Вставьте {0} в третий слот.</r></e>
+  <e k="K" key="IP_IsEmpty"><s>{0} is empty</s><r>{0} пусто</r></e>
+  <e k="K" key="IP_ItRains"><s>The process in this machine is being interrupted due to inclement weather and will be spoiled soon</s><r>Процесс в этой машине прерван из-за ненастной погоды и скоро будет испорчен.</r></e>
+  <e k="K" key="IP_LightDestroysWarning"><s>{0} needs to have an adequate light level to start working</s><r>{0} должен иметь достаточный уровень освещенности, чтобы начать работу</r></e>
+  <e k="K" key="IP_NoCombination"><s>No combination found for these ingredients</s><r>Комбинации этих ингредиентов не найдено</r></e>
+  <e k="K" key="IP_NoFuelDestroysWarning"><s>{0} needs to be fueled to start working</s><r>{0} необходимо заправить, чтобы начать работать</r></e>
+  <e k="K" key="IP_NoIngredientFound"><s>No ingredient found on map</s><r>На карте не найден ингредиент</r></e>
+  <e k="K" key="IP_NoPowerDestroysInitialWarning"><s>The result is spoiling due to a power failure in the item processor</s><r>Результат портится из-за сбоя питания в процессоре предмета.</r></e>
+  <e k="K" key="IP_NoPowerDestroysMessage"><s>The result has spoiled due to a power failure in the item processor</s><r>Результат испорчен из-за сбоя питания в процессоре предмета.</r></e>
+  <e k="K" key="IP_NoPowerDestroysWarning"><s>{0} needs to be powered to start working</s><r>{0} необходимо подать питание, чтобы начать работу</r></e>
+  <e k="K" key="IP_NoRecipesHere"><s>No modded recipes found for this factory</s><r>Для этой фабрики не найдено модифицированных рецептов.</r></e>
+  <e k="K" key="IP_Output"><s>Output {0}</s><r>Выход {0}</r></e>
+  <e k="K" key="IP_OutputDesc"><s>Processor will output {0}. It needs to be fed {1}</s><r>Процессор выведет {0}. Его нужно кормить {1}</r></e>
+  <e k="K" key="IP_OutputVariable"><s>Output {0} from {1}</s><r>Вывод {0} из {1}</r></e>
+  <e k="K" key="IP_OutsideLightRange"><s>The process in this machine is being interrupted due to an inadequate level of light and will be spoiled soon</s><r>Процесс в этой машине прерывается из-за недостаточного уровня освещенности и скоро будет испорчен.</r></e>
+  <e k="K" key="IP_OverThreshold"><s> Waiting for output to clear. Output limit is {0}</s><r> Ожидание очистки вывода. Предел вывода: {0}</r></e>
+  <e k="K" key="IP_ProcessingInProgress"><s>{0} is processing {1}. {2} will be ready with {3} quality in {4}</s><r>{0} обрабатывает {1}. {2} будет готово с качеством {3} в {4}</r></e>
+  <e k="K" key="IP_ProcessingInProgressNoQuality"><s>{0} is processing {1}. {2} will be ready in {3}</s><r>{0} обрабатывает {1}. {2} будет готово через {3}</r></e>
+  <e k="K" key="IP_ProcessorPaused"><s>{0} is paused: </s><r>{0} поставлен на паузу: </r></e>
+  <e k="K" key="IP_ProcessorWorking"><s>{0} is working: </s><r>{0} работает: </r></e>
+  <e k="K" key="IP_ProductWaiting"><s>Waiting for pickup</s><r>Ожидание получения</r></e>
+  <e k="K" key="IP_QualityAutoEstablished"><s>Auto Quality, product will be extracted at quality level: {0}</s><r>Автоматическое качество, продукт будет извлечен на уровне качества: {0}.</r></e>
+  <e k="K" key="IP_QualityAutoIs"><s>Auto Quality: {0}</s><r>Авто качество: {0}</r></e>
+  <e k="K" key="IP_QualityAutoNot"><s>Disable Auto Quality</s><r>Отключить автоматическое качество</r></e>
+  <e k="K" key="IP_RainDestroysWarning"><s>{0} needs to not be raining to start working</s><r>{0} чтобы начать работу, не должно идти дождя</r></e>
+  <e k="K" key="IP_RemoveProduct"><s>Remove {0} ({1})</s><r>Удалить {0} ({1})</r></e>
+  <e k="K" key="IP_RemoveProductDesc"><s>Remove {0} from the {1}. The product will be ready at the present quality level ({2})</s><r>Удалите {0} из {1}. Продукт будет готов на текущем уровне качества ({2}).</r></e>
+  <e k="K" key="IP_ResetFullAuto"><s>Reset Machine</s><r>Сбросить машину</r></e>
+  <e k="K" key="IP_ResetFullAutoDesc"><s>Fully resets the machine and makes it stop. Warning, it will destroy the process and the input items</s><r>Полностью перезагружает машину и останавливает ее. Внимание, это уничтожит процесс и элементы ввода.</r></e>
+  <e k="K" key="IP_ResetSemiautomatic"><s>Reset Recipes</s><r>Сбросить рецепты</r></e>
+  <e k="K" key="IP_ResetSemiautomaticDesc"><s>This will reset the building after the current product is finished, so a new input ingredient can be chosen</s><r>Это приведет к сбросу здания после того, как текущий продукт будет готов, и можно будет выбрать новый входной ингредиент.</r></e>
+  <e k="K" key="IP_SetAutoQuality"><s>Set quality for product extraction. When the product reaches this quality, a colonist will automatically retrieve it and carry it to an stockpile if available. If not set, products will be extracted manually, or at Legendary quality.</s><r>Установите качество для извлечения продукта. Когда продукт достигнет этого качества, колонист автоматически заберет его и отнесет на склад, если таковой имеется. Если не установлено, продукты будут извлекаться вручную или с легендарным качеством.</r></e>
+  <e k="K" key="IP_SpoiledDueToLight"><s>The product in this machine has spoiled due to an inadequate level of light</s><r>Продукт в этой машине испортился из-за недостаточного уровня освещенности.</r></e>
+  <e k="K" key="IP_SpoiledDueToRain"><s>The product in this machine has spoiled due to inclement weather</s><r>Продукт в этой машине испортился из-за ненастной погоды.</r></e>
+  <e k="K" key="IP_SpoiledDueToWrongTemp"><s>The product has spoiled due to an unsuitable temperature. Needs between {0} and {1} ºC</s><r>Товар испортился из-за неподходящей температуры. Потребности от {0} до {1} ºC.</r></e>
+  <e k="K" key="IP_TempRangeInThisMachine"><s>Current process needs a temperature between {0} and {1} ºC</s><r>Для текущего процесса необходима температура от {0} до {1} ºC.</r></e>
+  <e k="K" key="IP_TemperatureDestroysWarning"><s>{0} needs to have an adequate temperature ({1} - {2}) to start working</s><r>{0} должна иметь достаточную температуру ({1} - {2}), чтобы начать работу.</r></e>
+  <e k="K" key="IP_ToggleAuto"><s>Auto Ingredient Acquiring</s><r>Автоматическое приобретение ингредиентов</r></e>
+  <e k="K" key="IP_ToggleAutoDesc"><s>If set to active, this building will automatically grab ingredients from adjacent hoppers, and automatically start working again once the product is removed. If not, colonists will haul the ingredients to the building, and it will need to be activated manually once refilled</s><r>Если этот параметр активен, это здание будет автоматически захватывать ингредиенты из соседних бункеров и автоматически возобновлять работу, как только продукт будет удален. В противном случае колонисты доставят ингредиенты в здание, и после пополнения их нужно будет активировать вручную.</r></e>
+  <e k="K" key="IP_TogglePause"><s>Pause / Restart</s><r>Пауза/Перезапуск</r></e>
+  <e k="K" key="IP_TogglePauseDesc"><s>Pause / Restart this machine's processing</s><r>Приостановить/перезапустить обработку на этом компьютере</r></e>
+  <e k="K" key="IP_WrongTemp"><s>The process in this machine is being interrupted due to an unsuitable temperature and will be spoiled soon</s><r>Процесс в этой машине прерывается из-за неподходящей температуры и скоро будет испорчен.</r></e>
+  <e k="K" key="KCSG.Add"><s>Add</s><r>Добавлять</r></e>
+  <e k="K" key="KCSG.AllowFoggedPosition"><s>Allow fogged position</s><r>Разрешить затуманенное положение</r></e>
+  <e k="K" key="KCSG.CantEnter"><s>Cannot enter {0}</s><r>Невозможно ввести {0}</r></e>
+  <e k="K" key="KCSG.Enter"><s>Enter {0}</s><r>Введите {0}</r></e>
+  <e k="K" key="KCSG.Mapcontains"><s>Map contains</s><r>Карта содержит</r></e>
+  <e k="K" key="KCSG.Remove"><s>Remove</s><r>Удалять</r></e>
+  <e k="K" key="KCSG.SpawnNearCenter"><s>Spawn near center</s><r>Спавнится рядом с центром</r></e>
+  <e k="K" key="KCSG.SpawnPartOfEnnemyFaction"><s>Spawn part of ennemy faction</s><r>Создать часть вражеской фракции</r></e>
+  <e k="K" key="MVCF.Cooldown"><s>Still on cooldown. {0} left.</s><r>Все еще на перезарядке. {0} осталось.</r></e>
+  <e k="K" key="MVCF.Setting"><s>Multi-Verb Combat Framework</s><r>Система многоглагольного боя</r></e>
+  <e k="K" key="MVCF.Settings.Debug"><s>Developer Mode</s><r>Режим разработчика</r></e>
+  <e k="K" key="MVCF.Settings.LogLevel"><s>Log level:</s><r>Уровень журнала:</r></e>
+  <e k="K" key="MVCF.Settings.LogLevel.Important"><s>Important</s><r>Важный</r></e>
+  <e k="K" key="MVCF.Settings.LogLevel.Info"><s>Info</s><r>Информация</r></e>
+  <e k="K" key="MVCF.Settings.LogLevel.None"><s>None</s><r>Никто</r></e>
+  <e k="K" key="MVCF.Settings.LogLevel.Silly"><s>Silly</s><r>Глупый</r></e>
+  <e k="K" key="MVCF.Settings.LogLevel.Tick"><s>Tick</s><r>Галочка</r></e>
+  <e k="K" key="MVCF.Settings.LogLevel.Verbose"><s>Verbose</s><r>Многословный</r></e>
+  <e k="K" key="MVCF.Toggle"><s>Toggle {0}</s><r>Переключить {0}</r></e>
+  <e k="K" key="MVCF.ToggleAuto"><s>Toggle automatic usage</s><r>Переключить автоматическое использование</r></e>
+  <e k="K" key="MVCF.ToggleAutoReload"><s>Toggle automatic reloading while drafted</s><r>Включить автоматическую перезарядку во время драфта</r></e>
+  <e k="K" key="MVCF.ToggleUsing"><s>Toggle using {0} automatically</s><r>Переключиться автоматически с помощью {0}</r></e>
+  <e k="K" key="NeedRestart"><s>All settings need a restart to be applied</s><r>Для применения всех настроек требуется перезагрузка</r></e>
+  <e k="K" key="NeedToBeInGame"><s>You first need to load a save</s><r>Сначала нужно загрузить сохранение</r></e>
+  <e k="K" key="NocturnalAnimals.BodyClock"><s>Body clock</s><r>Телесные часы</r></e>
+  <e k="K" key="NocturnalAnimals.BodyClock_Crepuscular"><s>Crepuscular</s><r>Сумерки</r></e>
+  <e k="K" key="NocturnalAnimals.BodyClock_Description"><s>Determines when the animal sleeps and when it is awake.
+
+Diurnal animals sleep during the night and are awake during the day, while nocturnal animals sleep during the day and are awake during the night. Crepuscular animals are mainly active during dusk.</s><r>Определяет, когда животное спит, а когда бодрствует.
+
+Дневные животные спят ночью и бодрствуют днем, а ночные животные спят днем ​​и бодрствуют ночью. Сумеречные животные активны в основном в сумерках.</r></e>
+  <e k="K" key="NocturnalAnimals.BodyClock_Diurnal"><s>Diurnal</s><r>Дневной</r></e>
+  <e k="K" key="NocturnalAnimals.BodyClock_Nocturnal"><s>Nocturnal</s><r>Ночной</r></e>
+  <e k="K" key="Outposts.Abandoned"><s>Outpost abandoned</s><r>Застава заброшена</r></e>
+  <e k="K" key="Outposts.Abandoned.Desc"><s>{0} has been abonded due to having no one inside to run it. It will very quickly be looted and taken over by nature, leaving no trace it was ever there.</s><r>{0} был заброшен из-за того, что внутри не было никого, кто мог бы им управлять. Он очень быстро будет разграблен и захвачен природой, не оставив никаких следов своего пребывания там.</r></e>
+  <e k="K" key="Outposts.AddTo"><s>Add to outpost</s><r>Добавить в форпост</r></e>
+  <e k="K" key="Outposts.AddedFromTransportPods"><s>Your transport pods have arrived. {0} has been added to {1}.</s><r>Ваши транспортные капсулы прибыли. {0} добавлено к {1}.</r></e>
+  <e k="K" key="Outposts.AllowedBiomes"><s>Must be in one of the following biomes:</s><r>Должен находиться в одном из следующих биомов:</r></e>
+  <e k="K" key="Outposts.AlreadyPacking"><s>Already packing</s><r>Уже собираю вещи</r></e>
+  <e k="K" key="Outposts.CannotBeMade"><s>Cannot be made in {0}</s><r>Невозможно сделать в {0}</r></e>
+  <e k="K" key="Outposts.Command.Remove.Only1"><s>Cannot remove pawns: Only 1 inhabitant. If you want to remove this outpost, select &quot;Pack&quot;.</s><r>Невозможно удалить пешки: только 1 житель. Если вы хотите удалить этот аванпост, выберите «Упаковать».</r></e>
+  <e k="K" key="Outposts.Commands.AddPawn.Desc"><s>Transfer a pawn from this caravan to the outpost</s><r>Перенесите пешку из этого каравана на заставу</r></e>
+  <e k="K" key="Outposts.Commands.AddPawn.Label"><s>Add pawn</s><r>Добавить пешку</r></e>
+  <e k="K" key="Outposts.Commands.Create.Desc"><s>Create a new outpost using this caravan.</s><r>Создайте новый форпост, используя этот караван.</r></e>
+  <e k="K" key="Outposts.Commands.Create.Label"><s>Create outpost</s><r>Создать аванпост</r></e>
+  <e k="K" key="Outposts.Commands.DeliveryColony.Desc"><s>Select which colony will recieve the goods. Currently: {0}</s><r>Выберите, какая колония получит товары. В настоящее время: {0}</r></e>
+  <e k="K" key="Outposts.Commands.DeliveryColony.Label"><s>Delivery destination</s><r>Место доставки</r></e>
+  <e k="K" key="Outposts.Commands.GiveItems.Desc"><s>Take items from {0} and add them to the outpost</s><r>Возьмите предметы из {0} и добавьте их на аванпост.</r></e>
+  <e k="K" key="Outposts.Commands.GiveItems.Label"><s>Give items</s><r>Дайте предметы</r></e>
+  <e k="K" key="Outposts.Commands.Pack.Desc"><s>Begin packing this outpost back into a caravan</s><r>Начните упаковывать этот аванпост обратно в фургон.</r></e>
+  <e k="K" key="Outposts.Commands.Pack.Label"><s>Pack</s><r>Пакет</r></e>
+  <e k="K" key="Outposts.Commands.Remove.Desc"><s>Remove a pawn from this outpost into a new caravan</s><r>Уберите пешку с этого аванпоста в новый караван.</r></e>
+  <e k="K" key="Outposts.Commands.Remove.Label"><s>Remove pawn</s><r>Удалить пешку</r></e>
+  <e k="K" key="Outposts.Commands.StopPack.Desc"><s>Cancel packing this outpost into a caravan</s><r>Отменить упаковку этого аванпоста в караван.</r></e>
+  <e k="K" key="Outposts.Commands.StopPack.Label"><s>Stop packing</s><r>Хватит собирать вещи</r></e>
+  <e k="K" key="Outposts.Commands.TakeItems.Desc"><s>Take items from {0} and add them to the caravan</s><r>Возьмите предметы из {0} и добавьте их в караван.</r></e>
+  <e k="K" key="Outposts.Commands.TakeItems.Label"><s>Take items</s><r>Взять предметы</r></e>
+  <e k="K" key="Outposts.Contains"><s>Contains {0} pawns</s><r>Содержит {0} пешек</r></e>
+  <e k="K" key="Outposts.Dialog.Create"><s>Create</s><r>Создавать</r></e>
+  <e k="K" key="Outposts.DisallowedBiomes"><s>Cannot be in any of the following biomes:</s><r>Не может находиться ни в одном из следующих биомов:</r></e>
+  <e k="K" key="Outposts.Give"><s>Give</s><r>Давать</r></e>
+  <e k="K" key="Outposts.GrowingRequired"><s>Must have ability to grow plants</s><r>Должен иметь возможность выращивать растения</r></e>
+  <e k="K" key="Outposts.Letters.BattleWon.Captured"><s>We have managed to capture {0} in the aftermath</s><r>Нам удалось поймать {0} впоследствии.</r></e>
+  <e k="K" key="Outposts.Letters.BattleWon.Label"><s>Outpost battle won</s><r>Битва за заставу выиграна</r></e>
+  <e k="K" key="Outposts.Letters.BattleWon.Rescued"><s>We have managed to recover {0}'s body</s><r>Нам удалось вернуть тело {0}.</r></e>
+  <e k="K" key="Outposts.Letters.BattleWon.Secured"><s>We have secured: {0} worth of goods and weapons from the raiders</s><r>Мы забрали у рейдеров товаров и оружия на сумму {0}</r></e>
+  <e k="K" key="Outposts.Letters.BattleWon.Text"><s>We have successfully won the battle for {0}.{1}</s><r>Мы успешно выиграли битву за {0}.{1}</r></e>
+  <e k="K" key="Outposts.Letters.Items.Label"><s>Items From {0}</s><r>Предметы из {0}</r></e>
+  <e k="K" key="Outposts.Letters.Items.Text"><s>You have received the follow items from the outpost {0}:</s><r>Вы получили следующие предметы с аванпоста {0}:</r></e>
+  <e k="K" key="Outposts.Letters.Lost.Label"><s>Outpost lost</s><r>Застава потеряна</r></e>
+  <e k="K" key="Outposts.Letters.Lost.Text"><s>Regretfully, due to the deaths of all inhabitants, the outpost of {0} has been lost to us.</s><r>К сожалению, из-за гибели всех жителей форпост {0} для нас потерян.</r></e>
+  <e k="K" key="Outposts.MustHaveInCaravan"><s>Must have {0} in caravan</s><r>В караване должен быть {0}</r></e>
+  <e k="K" key="Outposts.NoValidPawns"><s>No valid pawns to add to outpost</s><r>Нет подходящих пешек для добавления на аванпост.</r></e>
+  <e k="K" key="Outposts.NotEnoughPawns"><s>Not enough pawns in caravan, need at least {0}</s><r>Недостаточно пешек в караване, нужно минимум {0}</r></e>
+  <e k="K" key="Outposts.NotSkilledEnough"><s>Pawns are not skilled enough, need a cumulative {0} skill of at least {1}</s><r>Пешки недостаточно опытны, им нужен совокупный навык {0} не менее {1}.</r></e>
+  <e k="K" key="Outposts.NumPawns"><s>Must have at least {0} pawns willing to join the outpost</s><r>Должно быть не менее {0} пешек, желающих присоединиться к аванпосту.</r></e>
+  <e k="K" key="Outposts.Packing"><s>Packing into caravan. Done in {0}</s><r>Упаковка в караван. Выполнено в {0}</r></e>
+  <e k="K" key="Outposts.RequiredSkill"><s>Cumulative {0} skill must be at least {1}</s><r>Совокупный навык {0} должен быть не ниже {1}.</r></e>
+  <e k="K" key="Outposts.RestingAt"><s>Resting at outpost {0}</s><r>Отдыхаем на заставе {0}</r></e>
+  <e k="K" key="Outposts.SendNonPawns"><s>Confirm sending items to the outpost? They will be permanently lost.</s><r>Подтвердить отправку предметов на аванпост? Они будут безвозвратно потеряны.</r></e>
+  <e k="K" key="Outposts.Setting.MinimumPawns"><s>Minimum Pawns to Create</s><r>Минимум пешек для создания</r></e>
+  <e k="K" key="Outposts.Setting.PackTime"><s>Pack Time</s><r>Время упаковки</r></e>
+  <e k="K" key="Outposts.Setting.ProductionTime"><s>Production Time</s><r>Срок изготовления</r></e>
+  <e k="K" key="Outposts.Setting.Range"><s>Range</s><r>Диапазон</r></e>
+  <e k="K" key="Outposts.Settings.DeliveryMethod"><s>Delivery method</s><r>Способ доставки</r></e>
+  <e k="K" key="Outposts.Settings.DeliveryMethod.ForcePods"><s>Always send drop pods</s><r>Всегда отправлять капсулы</r></e>
+  <e k="K" key="Outposts.Settings.DeliveryMethod.PackAnimal"><s>Send pack animal carrying items to colony</s><r>Отправьте вьючное животное с предметами в колонию.</r></e>
+  <e k="K" key="Outposts.Settings.DeliveryMethod.PackOrPods"><s>Pods if available, otherwise pack animal</s><r>Стручки, если есть, в противном случае вьючное животное.</r></e>
+  <e k="K" key="Outposts.Settings.DeliveryMethod.Store"><s>Store items at outpost</s><r>Храните предметы на заставе</r></e>
+  <e k="K" key="Outposts.Settings.DeliveryMethod.Teleport"><s>Teleport items to colony</s><r>Телепортировать предметы в колонию</r></e>
+  <e k="K" key="Outposts.Settings.DoRaids"><s>Enable Outpost Raids?</s><r>Включить рейды на аванпосты?</r></e>
+  <e k="K" key="Outposts.Settings.Multiplier.Production"><s>Gloabal Production Multiplier: {0}</s><r>Мультипликатор мирового производства: {0}</r></e>
+  <e k="K" key="Outposts.Settings.Multiplier.Time"><s>Global Time Multiplier: {0}</s><r>Глобальный множитель времени: {0}</r></e>
+  <e k="K" key="Outposts.Settings.Production"><s>Production Multiplier</s><r>Мультипликатор производства</r></e>
+  <e k="K" key="Outposts.Settings.RaidDifficulty"><s>Global Raid Difficulty Multiplier: {0}</s><r>Глобальный множитель сложности рейдов: {0}</r></e>
+  <e k="K" key="Outposts.Settings.RaidFrequency"><s>Raid Frequency Range</s><r>Диапазон частот рейдов</r></e>
+  <e k="K" key="Outposts.Settings.Title"><s>VE Framework - Outposts</s><r>VE Framework — Аванпосты</r></e>
+  <e k="K" key="Outposts.SkillChange"><s>Due to changes in skill level, {0} can no longer produce {1}</s><r>Из-за изменения уровня навыков {0} больше не может производить {1}.</r></e>
+  <e k="K" key="Outposts.Take"><s>Take</s><r>Брать</r></e>
+  <e k="K" key="Outposts.TooClose"><s>Too close to settlement or other outpost, must have at least 1 tile between them.</s><r>Слишком близко к поселению или другому аванпосту, между ними должен быть хотя бы 1 тайл.</r></e>
+  <e k="K" key="Outposts.TotalSkill"><s>Cumulative {0} skill: {1}</s><r>Совокупный навык {0}: {1}</r></e>
+  <e k="K" key="Outposts.WillProduce.0"><s>Will produce some items in {0}</s><r>Будет производить некоторые предметы в {0}</r></e>
+  <e k="K" key="Outposts.WillProduce.1"><s>Will produce {0} {1} in {2}</s><r>Произведет {0} {1} через {2}</r></e>
+  <e k="K" key="Outposts.WillProduce.2"><s>Will produce {0} {1} and {2} {3} in {4}</s><r>Произведет {0} {1} и {2} {3} в {4}</r></e>
+  <e k="K" key="Outposts.WillProduce.N"><s>Will produce the following in {0}:
+{1}</s><r>Произведет следующее в {0}:
+{1}</r></e>
+  <e k="K" key="PipeSystem_AddProcess"><s>Add process</s><r>Добавить процесс</r></e>
+  <e k="K" key="PipeSystem_AllowManualRefill"><s>Allow manual refill</s><r>Разрешить пополнение вручную</r></e>
+  <e k="K" key="PipeSystem_AllowManualRefillDesc"><s>Allow pawns to directly refill storage</s><r>Разрешить пешкам напрямую пополнять хранилище</r></e>
+  <e k="K" key="PipeSystem_AmountOut"><s>Maximum amount stored here: {0}</s><r>Максимальная сумма, хранящаяся здесь: {0}</r></e>
+  <e k="K" key="PipeSystem_AugmentStackDesc"><s>Augment output maximum stack size by 1.</s><r>Увеличить максимальный размер стека вывода на 1.</r></e>
+  <e k="K" key="PipeSystem_AugmentStackDescB"><s>Augment output maximum stack size by 10.</s><r>Увеличить максимальный размер стека вывода на 10.</r></e>
+  <e k="K" key="PipeSystem_CancelCurrentProcess"><s>Cancel current process</s><r>Отменить текущий процесс</r></e>
+  <e k="K" key="PipeSystem_CantExtract"><s>Can't extract: Tanks are full</s><r>Невозможно извлечь: резервуары полны.</r></e>
+  <e k="K" key="PipeSystem_CantPlaceHere"><s>{0} can only be placed on the {1} deposit. Use ground-penetrating scanner to find the deposits.</s><r>{0} можно разместить только на депозите {1}. Используйте геопроникающий сканер, чтобы найти залежи.</r></e>
+  <e k="K" key="PipeSystem_ChooseResult"><s>Choose result</s><r>Выберите результат</r></e>
+  <e k="K" key="PipeSystem_ChooseResultDesc"><s>Choose processor result.</s><r>Выберите результат процессора.</r></e>
+  <e k="K" key="PipeSystem_Consumption"><s>{0} consumption</s><r>{0} потребление</r></e>
+  <e k="K" key="PipeSystem_ConsumptionExplained"><s>The amount per day of {0} this building will draw from the {1} grid.</s><r>Сумма в день в размере {0}, которую это здание будет получать из сетки {1}.</r></e>
+  <e k="K" key="PipeSystem_ContentWillRot"><s>Content will rot in {0} due to a lack of power.</s><r>Содержимое сгниет в {0} из-за нехватки энергии.</r></e>
+  <e k="K" key="PipeSystem_CopyProcesses"><s>Copy processes</s><r>Копирование процессов</r></e>
+  <e k="K" key="PipeSystem_CurrentNotReachedAwful"><s>Process hasn't reached Awful quality yet</s><r>Процесс еще не достиг Ужасного качества</r></e>
+  <e k="K" key="PipeSystem_CurrentQuality"><s>Current quality: {0}</s><r>Текущее качество: {0}</r></e>
+  <e k="K" key="PipeSystem_DeconstructDesc"><s>Only deconstruct pipes part of the {0} network.</s><r>Деконструировать только трубы, входящие в сеть {0}.</r></e>
+  <e k="K" key="PipeSystem_DeconstructLabel"><s>Deconstruct {0} pipes</s><r>Разобрать трубы {0}</r></e>
+  <e k="K" key="PipeSystem_DecreaseStackDesc"><s>Decrease output maximum stack size by 1.</s><r>Уменьшите максимальный размер стека вывода на 1.</r></e>
+  <e k="K" key="PipeSystem_DecreaseStackDescB"><s>Decrease output maximum stack size by 10.</s><r>Уменьшите максимальный размер выходного стека на 10.</r></e>
+  <e k="K" key="PipeSystem_ExcessStored"><s>{0} net excess/stored in network: {1} {3}/d / {2} {3}</s><r>{0} чистый избыток/хранится в сети: {1} {3}/д / {2} {3}</r></e>
+  <e k="K" key="PipeSystem_ExtractAtCurrentQuality"><s>Extract at current quality</s><r>Извлечь в текущем качестве</r></e>
+  <e k="K" key="PipeSystem_ExtractAtCurrentQuality_Desc"><s>Extract the product at the current quality.</s><r>Извлеките продукт в текущем качестве.</r></e>
+  <e k="K" key="PipeSystem_ExtractingAtCurrent"><s>Extracting product at current quality</s><r>Извлечение продукта в текущем качестве</r></e>
+  <e k="K" key="PipeSystem_IdleConsumption"><s>{0} idle consumption</s><r>{0} потребление на холостом ходу</r></e>
+  <e k="K" key="PipeSystem_IdleConsumptionExplained"><s>The amount of {0} this building will draw from the {1} grid when idle.</s><r>Количество {0}, которое это здание будет получать из сетки {1} в режиме ожидания.</r></e>
+  <e k="K" key="PipeSystem_InterruptedByGillRot"><s>Can’t breed fish due to gill rot</s><r>Не могу разводить рыбу из-за жаберной гнили.</r></e>
+  <e k="K" key="PipeSystem_MakeProcess"><s>Make {0}</s><r>Сделайте {0}</r></e>
+  <e k="K" key="PipeSystem_MarkedToTransferContent"><s>Transfering content to other available storages...</s><r>Перенос контента в другие доступные хранилища...</r></e>
+  <e k="K" key="PipeSystem_MissingInputIngredients"><s>Missing inputs: {0}</s><r>Отсутствующие входные данные: {0}</r></e>
+  <e k="K" key="PipeSystem_NoProcess"><s>No current process</s><r>Нет текущего процесса</r></e>
+  <e k="K" key="PipeSystem_NoProcessAvailable"><s>No process available</s><r>Нет доступных процессов</r></e>
+  <e k="K" key="PipeSystem_NoStorageInNet"><s>No storage connected</s><r>Хранилище не подключено</r></e>
+  <e k="K" key="PipeSystem_NoStorageInNetDesc"><s>The following networks are not connected to any storage building, but need one:</s><r>Следующие сети не подключены ни к одному складскому зданию, но нуждаются в нем:</r></e>
+  <e k="K" key="PipeSystem_NotConnected"><s>Not connected to {0}.</s><r>Не подключен к {0}.</r></e>
+  <e k="K" key="PipeSystem_NotInRoomExplanation"><s>This processor is not situated in a room that counts as a {0}, and will receive a {1} penalty to its work speed. This will be recalculated once a process has started.</s><r>Этот процессор не расположен в комнате, которая считается {0}, и получит штраф {1} к скорости своей работы. Это значение будет пересчитано после запуска процесса.</r></e>
+  <e k="K" key="PipeSystem_NothingToPickUp"><s>Nothing to pick-up</s><r>Нечего забирать</r></e>
+  <e k="K" key="PipeSystem_NothingToRefill"><s>No thing to refill {0}</s><r>Нечего пополнять {0}</r></e>
+  <e k="K" key="PipeSystem_OrNet"><s>or {0} net</s><r>или {0} чистая</r></e>
+  <e k="K" key="PipeSystem_OutputFactoryHopperFull"><s>Output factory hopper too full (max {0} units)</s><r>Выходной заводской бункер слишком полон (макс. {0} единиц)</r></e>
+  <e k="K" key="PipeSystem_OutputFactoryHopperIncorrect"><s>Output factory hopper absent or not accepting item due to storage configuration.</s><r>Выходной заводской бункер отсутствует или не принимает товар из-за конфигурации хранилища.</r></e>
+  <e k="K" key="PipeSystem_OutputOnGround"><s>Can output on ground</s><r>Может выводиться на землю</r></e>
+  <e k="K" key="PipeSystem_OutputToNet"><s>{0} to net</s><r>{0} в нетто</r></e>
+  <e k="K" key="PipeSystem_PasteAllRecipes"><s>Paste all processes</s><r>Вставить все процессы</r></e>
+  <e k="K" key="PipeSystem_PasteAllRecipes_Desc"><s>Paste all copied processes into this processor. You can select multiple and the processes will be pasted to all of them.</s><r>Вставьте все скопированные процессы в этот процессор. Вы можете выбрать несколько, и процессы будут вставлены во все из них.</r></e>
+  <e k="K" key="PipeSystem_PasteProcesses"><s>Paste processes</s><r>Вставить процессы</r></e>
+  <e k="K" key="PipeSystem_ProcessNeedsAwfulAtLeast"><s>Process needs to advance at least until the Awful quality time, which is {0}</s><r>Процесс должен продвигаться как минимум до момента Ужасного качества, то есть {0}.</r></e>
+  <e k="K" key="PipeSystem_Processes"><s>Processes</s><r>Процессы</r></e>
+  <e k="K" key="PipeSystem_ProcessorBuffer"><s>Buffer: {0}</s><r>Буфер: {0}</r></e>
+  <e k="K" key="PipeSystem_Produce"><s>Produce {0} {1} from {2} {3}.</s><r>Произведите {0} {1} из {2} {3}.</r></e>
+  <e k="K" key="PipeSystem_ProduceLabel"><s>Produce {0} {1} using:</s><r>Произведите {0} {1}, используя:</r></e>
+  <e k="K" key="PipeSystem_Producing"><s>Producing {0} {1}. Cycle progress: {2}.</s><r>Производство {0} {1}. Ход цикла: {2}.</r></e>
+  <e k="K" key="PipeSystem_Product"><s>Product</s><r>Продукт</r></e>
+  <e k="K" key="PipeSystem_Production"><s>{0} production</s><r>{0} производство</r></e>
+  <e k="K" key="PipeSystem_ProductionExplained"><s>The amount per day of {0} this building will produce for the {1} grid.</s><r>Сумма {0}, которую это здание будет производить в день для сети {1}.</r></e>
+  <e k="K" key="PipeSystem_QualitySelector"><s>Select the quality at which this process will stop</s><r>Выберите качество, при котором этот процесс остановится.</r></e>
+  <e k="K" key="PipeSystem_ResourceLeft"><s>Amount left in deposit: {0}.</s><r>Оставшаяся сумма на депозите: {0}.</r></e>
+  <e k="K" key="PipeSystem_ResourceNeeded"><s>{0} needed:</s><r>{0} необходимо:</r></e>
+  <e k="K" key="PipeSystem_ResourceOutput"><s>{0} output:</s><r>{0} вывод:</r></e>
+  <e k="K" key="PipeSystem_ResourceStored"><s>{0} stored:</s><r>{0} сохранено:</r></e>
+  <e k="K" key="PipeSystem_StorageContentRotted"><s>{0} content rotted away due to a lack of power.</s><r>{0} контент сгнил из-за отсутствия питания.</r></e>
+  <e k="K" key="PipeSystem_Stored"><s>{0} stored in network:</s><r>{0} хранится в сети:</r></e>
+  <e k="K" key="PipeSystem_TransferContent"><s>Transfer storage content</s><r>Перенос содержимого хранилища</r></e>
+  <e k="K" key="PipeSystem_TransferContentDesc"><s>Transfer storage content to other available storages.</s><r>Перенесите содержимое хранилища в другие доступные хранилища.</r></e>
+  <e k="K" key="PipeSystem_ValveClosed"><s>Valve closed.</s><r>Клапан закрыт.</r></e>
+  <e k="K" key="PipeSystem_ValveOpened"><s>Valve opened.</s><r>Клапан открылся.</r></e>
+  <e k="K" key="PipeSystem_WorkSpeed"><s>work speed</s><r>скорость работы</r></e>
+  <e k="K" key="PipeSystem_XFromNet"><s>{0} from net</s><r>{0} из сети</r></e>
+  <e k="K" key="Reloading.Ammo"><s>Ammo: {0} / {1}</s><r>Боеприпасы: {0} / {1}</r></e>
+  <e k="K" key="Reloading.NoAmmo"><s>No Ammo</s><r>Нет патронов</r></e>
+  <e k="K" key="Reloading.Reload"><s>Reload {GEAR} with {AMMO_label}</s><r>Перезагрузите {GEAR} с помощью {AMMO_label}.</r></e>
+  <e k="K" key="Reloading.Unload"><s>Unload {GEAR_labelShort}</s><r>Выгрузить {GEAR_labelShort}</r></e>
+  <e k="K" key="TerrainTagVFEI2_Creep"><s>insect creep</s><r>насекомое ползет</r></e>
+  <e k="K" key="TerrainTagVFEI2_JellyFloor"><s>jellyfloor</s><r>желейный пол</r></e>
+  <e k="K" key="TerrainTagVFEI2_RoyalJellyFloor"><s>royal jellyfloor</s><r>маточное молочко</r></e>
+  <e k="K" key="VCE_AffectsAllAnimalMods"><s>These animal behaviours options will affect all animal mods that share code from the Vanilla Expanded Framework</s><r>Эти параметры поведения животных повлияют на все моды животных, использующие код из Vanilla Expanded Framework.</r></e>
+  <e k="K" key="VCE_AllowConditions"><s>Allow chronic health conditions in food (Diabetes, Cholesterol and High Blood Pressure)</s><r>Допускать хронические заболевания в пище (диабет, холестерин и высокое кровяное давление)</r></e>
+  <e k="K" key="VCE_AnimalParticlesOption"><s>Allow animal particles (gas and filth)</s><r>Допускать частицы животного происхождения (газ и грязь)</r></e>
+  <e k="K" key="VCE_AsexualReproductionOption"><s>Allow asexual reproduction</s><r>Разрешить бесполое размножение</r></e>
+  <e k="K" key="VCE_BlinkMechanicsOption"><s>Allow &quot;blink&quot; mechanics (for example, Skiphounds)</s><r>Разрешить механику «мигания» (например, Skiphounds)</r></e>
+  <e k="K" key="VCE_BuildPeriodicallyOption"><s>Allow animals building things (for example, beavers building dams)</s><r>Разрешить животным строить вещи (например, бобры строят плотины)</r></e>
+  <e k="K" key="VCE_ChargeBatteriesOption"><s>Allow animals recharging nearby batteries or refueling</s><r>Разрешайте животным заряжать близлежащие аккумуляторы или дозаправляться.</r></e>
+  <e k="K" key="VCE_CorpseDecayingEffectOption"><s>Allow corpse decaying mechanics (for example, Helixien slug's effect)</s><r>Разрешить механику разложения трупов (например, эффект пули Хеликсиена)</r></e>
+  <e k="K" key="VCE_DigPeriodicallyOption"><s>Allows animals digging for things periodically</s><r>Позволяет животным периодически копать вещи</r></e>
+  <e k="K" key="VCE_DigWhenHungryOption"><s>Allow digging when hungry mechanics (for example, Frostmites digging corpses)</s><r>Разрешить копать при голодной механике (например, Морозные клещи роют трупы)</r></e>
+  <e k="K" key="VCE_EffecterOption"><s>Allows animals causing hediffs, mental states or thoughts</s><r>Позволяет животным вызывать хедиффы, психические состояния или мысли.</r></e>
+  <e k="K" key="VCE_ExplodingEggsOption"><s>Allow animals' eggs that explode (such as dragons')</s><r>Разрешить взрываться яйцам животных (например, драконов)</r></e>
+  <e k="K" key="VCE_GraphicChangingOption"><s>Allow animals changing graphics (for example, Chameleon Yak)</s><r>Разрешить животным менять графику (например, Як-хамелеон)</r></e>
+  <e k="K" key="VCE_HoveringOption"><s>Allow animals &quot;hovering&quot;, ignoring terrain movement costs and waterstriding</s><r>Разрешить животным «зависать», игнорируя затраты на перемещение по местности и плавание по воде.</r></e>
+  <e k="K" key="VCE_InEquator"><s>In equatorial region, growing 30% faster.</s><r>В экваториальном регионе рост на 30% быстрее.</r></e>
+  <e k="K" key="VCE_MustBeInstalled"><s>Vanilla Cooking Expanded must be installed for these options to have any effect</s><r>Чтобы эти опции имели какой-либо эффект, необходимо установить Vanilla Cooking Expanded.</r></e>
+  <e k="K" key="VCE_NeedsShade"><s>This plant needs to grow in shade: outside, but under a roof.</s><r>Этому растению нужно расти в тени: на улице, но под крышей.</r></e>
+  <e k="K" key="VCE_NoSeaTilesNearby"><s>Too far away from the sea, no extra growth bonus</s><r>Слишком далеко от моря, нет дополнительного бонуса к росту.</r></e>
+  <e k="K" key="VCE_NoWaterNearby"><s>Lack of a body of water nearby is impeding this plant's growth</s><r>Отсутствие поблизости водоема препятствует росту этого растения.</r></e>
+  <e k="K" key="VCE_NotInEquator"><s>Not in equatorial region (in this planet, below {0} latitude). Growing normally.</s><r>Не в экваториальной области (на этой планете, ниже {0} широты). Растет нормально.</r></e>
+  <e k="K" key="VCE_NotPollinated"><s>No apiary found in a 6 tiles radius (calculated on sowing)</s><r>В радиусе 6 клеток пасеки не найдено (рассчитывается по посеву)</r></e>
+  <e k="K" key="VCE_Pollinated"><s>Apiary found nearby</s><r>Пасека найдена неподалеку</r></e>
+  <e k="K" key="VCE_RegenerationOption"><s>Allow health regeneration (active and passive)</s><r>Разрешить регенерацию здоровья (активную и пассивную)</r></e>
+  <e k="K" key="VCE_ResurrectionOption"><s>Allow animals to auto-resurrect (for example Phoenix Owlcat)</s><r>Разрешить животным автовоскрешение (например, Phoenix Owlcat)</r></e>
+  <e k="K" key="VCE_SeaTilesNearby"><s>{0} sea tiles nearby, providing {0}% growth bonus</s><r>{0} морских плиток поблизости, дающих бонус роста {0}%</r></e>
+  <e k="K" key="VCE_StoppedGrowthFertility"><s>Growth impossible due to too fertile terrain</s><r>Рост невозможен из-за слишком плодородной местности.</r></e>
+  <e k="K" key="VCE_StuntedGrowthFertility"><s>Growth reduced due to non-rocky terrain</s><r>Рост уменьшен из-за некаменистой местности.</r></e>
+  <e k="K" key="VCE_UntameableOption"><s>Allow some animals to be untameable</s><r>Разрешить некоторым животным быть неприручаемыми</r></e>
+  <e k="K" key="VCE_WaterNearby"><s>A body of water nearby is impeding this plant's growth</s><r>Водоем поблизости препятствует росту этого растения.</r></e>
+  <e k="K" key="VEF.AvailableContracts"><s>Available contracts: {0}</s><r>Доступные контракты: {0}</r></e>
+  <e k="K" key="VEF.AvailableSilver"><s>Available Silver: {0}</s><r>Доступное серебро: {0}</r></e>
+  <e k="K" key="VEF.Breakdown"><s>Breakdown</s><r>Авария</r></e>
+  <e k="K" key="VEF.Cancel"><s>Cancel</s><r>Отмена</r></e>
+  <e k="K" key="VEF.CancelContract"><s>Cancel Contract</s><r>Отменить контракт</r></e>
+  <e k="K" key="VEF.ChooseNumberOfUnits"><s>How many of that unit do you want to have?</s><r>Сколько таких единиц вы хотите иметь?</r></e>
+  <e k="K" key="VEF.CommandAttackMovingBaseDesc"><s>Attack this {0}.</s><r>Атакуйте это {0}.</r></e>
+  <e k="K" key="VEF.ContractInfo"><s>View contract with {0}</s><r>Посмотреть контракт с {0}</r></e>
+  <e k="K" key="VEF.ContractTitle"><s>Contract with {0}</s><r>Контракт с {0}</r></e>
+  <e k="K" key="VEF.Cost"><s>Cost to hire</s><r>Стоимость найма</r></e>
+  <e k="K" key="VEF.CustomizationTitle"><s>{0} Customization</s><r>{0} Кастомизация</r></e>
+  <e k="K" key="VEF.Customize"><s>Customize {0}</s><r>Настроить {0}</r></e>
+  <e k="K" key="VEF.DayAmount"><s>Amount of Days</s><r>Количество дней</r></e>
+  <e k="K" key="VEF.DisableModSourceReport"><s>Disable mod source reports</s><r>Отключить отчеты об источниках модов</r></e>
+  <e k="K" key="VEF.DoorLockDefault"><s>Default</s><r>По умолчанию</r></e>
+  <e k="K" key="VEF.DoorLockEveryone"><s>Everyone</s><r>Каждый</r></e>
+  <e k="K" key="VEF.DoorLockOnlyColonistsAndAnimals"><s>Only colonists and animals</s><r>Только колонисты и животные</r></e>
+  <e k="K" key="VEF.DoorLockOnlyColonistsAndAnimalsAndFriendlies"><s>Only colonists, animals and friendlies</s><r>Только колонисты, животные и друзья</r></e>
+  <e k="K" key="VEF.DoorLockOnlyDrafted"><s>Only drafted</s><r>Только составлено</r></e>
+  <e k="K" key="VEF.DoorLockState"><s>Current door lock policy &quot;{0}&quot;</s><r>Текущая политика дверных замков «{0}»</r></e>
+  <e k="K" key="VEF.DoorLockStateDesc"><s>Click to change current door lock policy.</s><r>Нажмите, чтобы изменить текущую политику блокировки дверей.</r></e>
+  <e k="K" key="VEF.DoorLockStatePowerOff"><s>Power is off. Impossible to change door lock policy.</s><r>Питание отключено. Невозможно изменить политику дверного замка.</r></e>
+  <e k="K" key="VEF.DraftHuntLabel"><s>Hunt</s><r>Охота</r></e>
+  <e k="K" key="VEF.Factions.Contraband_Booze_GiftIllegalWarning"><s>Gifting {ILLEGALTHING_label} to {ILLEGALFACTION_name} is against {FACTION_name} law. This may or may not affect your relations with them in the future</s><r>Дарение {ILLEGALTHING_label} {ILLEGALFACTION_name} противоречит закону {FACTION_name}. Это может повлиять, а может и не повлиять на ваши отношения с ними в будущем.</r></e>
+  <e k="K" key="VEF.Factions.Contraband_Booze_GiftWarning"><s>Gifting {ILLEGALTHING_label} is against {FACTION_name} law. This may or may not affect your relations with them in the future</s><r>Дарение {ILLEGALTHING_label} противоречит закону {FACTION_name}. Это может повлиять, а может и не повлиять на ваши отношения с ними в будущем.</r></e>
+  <e k="K" key="VEF.Factions.Contraband_Booze_LetterDescGift"><s>{FACTION_name} caught wind that you have been gifting {ILLEGALTHING_label} behind their back. They consider it to be against the law, and your relations have degraded</s><r>{FACTION_name} узнал, что вы дарили {ILLEGALTHING_label} за их спиной. Они считают это противозаконным и ваши отношения испортились.</r></e>
+  <e k="K" key="VEF.Factions.Contraband_Booze_LetterDescIllegalGift"><s>{FACTION_name} caught wind that you have been gifting {ILLEGALTHING_label} to {ILLEGALFACTION_name} behind their back. They consider it to be against the law, and your relations have degraded</s><r>{FACTION_name} пронюхали, что вы дарили от {ILLEGALTHING_label} до {ILLEGALFACTION_name} за их спиной. Они считают это противозаконным и ваши отношения испортились.</r></e>
+  <e k="K" key="VEF.Factions.Contraband_Booze_LetterDescIllegalSold"><s>{FACTION_name} caught wind that you have been selling {ILLEGALTHING_label} to {ILLEGALFACTION_name} behind their back. They consider it to be against the law, and your relations have degraded</s><r>{FACTION_name} пронюхали, что вы продавали от {ILLEGALTHING_label} до {ILLEGALFACTION_name} за их спиной. Они считают это противозаконным и ваши отношения испортились.</r></e>
+  <e k="K" key="VEF.Factions.Contraband_Booze_LetterDescSold"><s>{FACTION_name} caught wind that you have been selling {ILLEGALTHING_label} behind their back. They consider it to be against the law, and your relations have degraded</s><r>{FACTION_name} пронюхали, что вы продавали {ILLEGALTHING_label} за их спиной. Они считают это противозаконным и ваши отношения испортились.</r></e>
+  <e k="K" key="VEF.Factions.Contraband_Booze_LetterLabel"><s>{FACTION_name} angered</s><r>{FACTION_name} в ярости</r></e>
+  <e k="K" key="VEF.Factions.Contraband_Booze_RelationInfo"><s>Goodwill with {FACTION_name} is now {1}. (Changed by {2})</s><r>Гудвил с {FACTION_name} теперь равен {1}. (Изменено {2})</r></e>
+  <e k="K" key="VEF.Factions.Contraband_Booze_SellIllegalWarning"><s>Selling {ILLEGALTHING_label} to {ILLEGALFACTION_name} is against {FACTION_name} law. This may or may not affect your relations with them in the future</s><r>Продажа {ILLEGALTHING_label} до {ILLEGALFACTION_name} противоречит закону {FACTION_name}. Это может повлиять, а может и не повлиять на ваши отношения с ними в будущем.</r></e>
+  <e k="K" key="VEF.Factions.Contraband_Booze_SellWarning"><s>Selling {ILLEGALTHING_label} is against {FACTION_name} law. This may or may not affect your relations with them in the future</s><r>Продажа {ILLEGALTHING_label} противоречит закону {FACTION_name}. Это может повлиять, а может и не повлиять на ваши отношения с ними в будущем.</r></e>
+  <e k="K" key="VEF.Factions.FactionDef_Description_Contraband"><s>Trading details</s><r>Детали торговли</r></e>
+  <e k="K" key="VEF.Factions.FactionDef_Description_Negatives"><s>Negative goodwill from trading {0}</s><r>Отрицательный гудвилл от торговли {0}</r></e>
+  <e k="K" key="VEF.Factions.FactionDef_Description_Positives"><s>Positive goodwill from trading {0}</s><r>Положительный гудвил от торговли {0}</r></e>
+  <e k="K" key="VEF.Hire"><s>Hire {0}</s><r>Наймите {0}</r></e>
+  <e k="K" key="VEF.HireDesc"><s>Hire some {0} to help around the colony, for example with defense.</s><r>Наймите несколько {0}, чтобы они помогали в колонии, например, в обороне.</r></e>
+  <e k="K" key="VEF.HiringDesc"><s>You can hire {0} for any period of time.You can only have one contract active at a time, and you cannot mix and match the factions from which you hire.
+If hired {0} die on duty, you will incur an additional 5% increase to contract price per dead pirate on all future contracts for a full year.</s><r>Вы можете нанять {0} на любой период времени. Одновременно у вас может быть только один активный контракт, и вы не можете смешивать и подбирать фракции, из которых вы нанимаете.
+Если нанятый {0} умрет при исполнении служебных обязанностей, вы понесете дополнительное увеличение цены контракта на 5% за каждого мертвого пирата по всем будущим контрактам на полный год.</r></e>
+  <e k="K" key="VEF.HuntDescription"><s>While this is on characters will automatically move to engage nearby targets.
+
+You can right-click this button to toggle autofire for ALL abilities on the selected pawn.</s><r>Пока эта функция включена, персонажи будут автоматически двигаться, чтобы атаковать ближайшие цели.
+
+Вы можете щелкнуть эту кнопку правой кнопкой мыши, чтобы переключить автоматический огонь для ВСЕХ способностей выбранной пешки.</r></e>
+  <e k="K" key="VEF.LongTerm"><s>Long term contracts are significantly more expensive</s><r>Долгосрочные контракты значительно дороже</r></e>
+  <e k="K" key="VEF.MechsSection"><s>Mechanoids</s><r>Механоиды</r></e>
+  <e k="K" key="VEF.MinCapacityLevel"><s>min {MIN}%</s><r>мин {MIN}%</r></e>
+  <e k="K" key="VEF.Name"><s>Name</s><r>Имя</r></e>
+  <e k="K" key="VEF.NoRefund"><s>Cancelling your contract will not refund the silver you spent on it.</s><r>Отмена контракта не вернет потраченное на него серебро.</r></e>
+  <e k="K" key="VEF.PawnsList"><s>Contracted:</s><r>Контракт:</r></e>
+  <e k="K" key="VEF.QuestChainTooltip"><s>This quest is a part of a quest chain. Completing it may trigger continuation quests.
+
+{0}
+
+{1}</s><r>Этот квест является частью цепочки квестов. Завершение может вызвать продолжение квестов.
+
+{0}
+
+{1}</r></e>
+  <e k="K" key="VEF.RangedDodge.ShotReportReadout"><s>Dodge</s><r>Уклоняться</r></e>
+  <e k="K" key="VEF.RiskMult"><s>Risk multiplier</s><r>Множитель риска</r></e>
+  <e k="K" key="VEF.Shields.ExplanationTitle"><s>Set weapons to be usable or not usable with shields.</s><r>Установите оружие, которое можно или нельзя использовать со щитами.</r></e>
+  <e k="K" key="VEF.Shields.ResetModSettingsToDefault"><s>Reset mod settings to default</s><r>Сбросить настройки мода по умолчанию</r></e>
+  <e k="K" key="VEF.Shields.Search"><s>Search: </s><r>Поиск: </r></e>
+  <e k="K" key="VEF.Shields.ShowMeleeWeapons"><s>Show melee weapons</s><r>Показать холодное оружие</r></e>
+  <e k="K" key="VEF.Shields.ShowRangeWeapons"><s>Show range weapons</s><r>Показать дальнобойное оружие</r></e>
+  <e k="K" key="VEF.Spent"><s>Silver spent:</s><r>Серебра потрачено:</r></e>
+  <e k="K" key="VEF.TeleportTo"><s>Teleport to {0}</s><r>Телепортироваться в {0}</r></e>
+  <e k="K" key="VEF.TimeLeft"><s>Time remaining:</s><r>Оставшееся время:</r></e>
+  <e k="K" key="VEF.TotalMarketValueRange"><s>Market value range (base)</s><r>Диапазон рыночной стоимости (базовый)</r></e>
+  <e k="K" key="VEF.TotalMarketValueRange_Desc"><s>Total market value range (minimum and maximum) of the objects that can be found by opening this loot box.</s><r>Общий диапазон рыночной стоимости (минимальная и максимальная) объектов, которые можно найти, открыв этот ящик с добычей.</r></e>
+  <e k="K" key="VEF.TotalMarketValueRange_Quality"><s>Market value range (by quality)</s><r>Диапазон рыночной стоимости (по качеству)</r></e>
+  <e k="K" key="VEF.TotalMarketValueRange_Quality_Desc"><s>Total market value range (minimum and maximum) of the objects that can be found by opening this loot box. Box quality has modified the base value by a factor of {0}</s><r>Общий диапазон рыночной стоимости (минимальная и максимальная) объектов, которые можно найти, открыв этот ящик с добычей. Качество коробки изменило базовое значение в {0} раз.</r></e>
+  <e k="K" key="VEF.TotalPrice"><s>Total Price</s><r>Общая стоимость</r></e>
+  <e k="K" key="VEF.Value"><s>Value</s><r>Ценить</r></e>
+  <e k="K" key="VEF.Weapons.Stat_Thing_MaterialPerCharge"><s>Ammo per charge</s><r>Боеприпасы за заряд</r></e>
+  <e k="K" key="VEF.Weapons.Stat_Thing_MaterialPerCharge_Desc"><s>The amount of {0} per charge this ability needs to be recharged.</s><r>Сумма {0} за заряд, необходимая для перезарядки этой способности.</r></e>
+  <e k="K" key="VEF.Weapons.Stat_Thing_MaterialPerCharge_Value"><s>{0} {1} per charge (total {2} charges)</s><r>{0} {1} за заряд (всего {2} зарядов)</r></e>
+  <e k="K" key="VEF.WeatherDamages"><s>Weather damages</s><r>Погодные повреждения</r></e>
+  <e k="K" key="VEF_Always"><s>Always</s><r>Всегда</r></e>
+  <e k="K" key="VEF_AlwaysDesc"><s>Ores mined by pawns are always unforbidden</s><r>Руда, добытая пешками, всегда запрещена.</r></e>
+  <e k="K" key="VEF_AnimalProductIntervalFactorDetails"><s>Base special animal products interval for this animal is {0} days. Adjusted by its animal products interval factor this will result in {1} days instead. This value is capped at a minimum of 1 day.</s><r>Базовый интервал продажи специальных продуктов животного происхождения для этого животного составляет {0} дней. С поправкой на коэффициент интервала для продуктов животного происхождения вместо этого получится {1} дней. Это значение ограничено минимум 1 днем.</r></e>
+  <e k="K" key="VEF_AnimalProductYieldFactorDetails"><s>Base special animal products production for this animal is {0} {1}. Adjusted by its animal product yield factor this will result in {2} {1} instead.</s><r>Базовое производство специальных продуктов животного происхождения для этого животного составляет {0} {1}. С поправкой на коэффициент выхода продуктов животноводства это вместо этого приведет к {2} {1}.</r></e>
+  <e k="K" key="VEF_AnimalProductYieldFactorDetails_Random"><s>Base special animal products production for this animal is {0} of a selection of randomized or terrain dependent items. Adjusted by its animal product yield factor this will result in {1} units instead.</s><r>Базовое производство специальных продуктов животного происхождения для этого животного составляет {0} набора случайных или зависящих от местности предметов. С поправкой на коэффициент выхода продуктов животноводства это вместо этого даст {1} единиц.</r></e>
+  <e k="K" key="VEF_AnimalsSearch"><s>Search:</s><r>Поиск:</r></e>
+  <e k="K" key="VEF_AsexualCloning"><s>{0} has cloned itself.</s><r>{0} клонировал себя.</r></e>
+  <e k="K" key="VEF_AsexualHatched"><s>{0} has reproduced asexually.</s><r>{0} размножается бесполым путем.</r></e>
+  <e k="K" key="VEF_AsexualHatchedEgg"><s>{0} has sporulated.</s><r>{0} дал споры.</r></e>
+  <e k="K" key="VEF_BillRequiresMass"><s>Requires {0} Kg total mass</s><r>Требуется общая масса {0} кг.</r></e>
+  <e k="K" key="VEF_CustomStructureGeneration"><s>Custom Structure Generation:</s><r>Генерация пользовательской структуры:</r></e>
+  <e k="K" key="VEF_DigestionTime"><s>Will be consumed in {0}</s><r>Будет израсходовано через {0}</r></e>
+  <e k="K" key="VEF_DisableAnimal"><s>Disable {0}</s><r>Отключить {0}</r></e>
+  <e k="K" key="VEF_DisableCorpseDecaying"><s>Disable corpse decaying</s><r>Отключить разложение трупов</r></e>
+  <e k="K" key="VEF_DisableCorpseDecayingDesc"><s>Disable the constant corpse decaying ability of this animal.</s><r>Отключите способность этого животного постоянно разлагать трупы.</r></e>
+  <e k="K" key="VEF_DisableDigging"><s>Disable digging for food</s><r>Отключить поиск еды</r></e>
+  <e k="K" key="VEF_DisableDiggingDesc"><s>Disable the ability to dig the terrain for food of this animal.</s><r>Отключите возможность рыть местность в поисках еды этому животному.</r></e>
+  <e k="K" key="VEF_DisableGas"><s>Disable gas production</s><r>Отключить добычу газа</r></e>
+  <e k="K" key="VEF_DisableGasDesc"><s>Disable the ability to produce gas of this animal.</s><r>Отключите способность производить газ этого животного.</r></e>
+  <e k="K" key="VEF_DisableTextureCaching"><s>Disable Texture Caching</s><r>Отключить кэширование текстур</r></e>
+  <e k="K" key="VEF_EnableCorpseDecaying"><s>Enable corpse decaying</s><r>Включить разложение трупов</r></e>
+  <e k="K" key="VEF_EnableCorpseDecayingDesc"><s>Enable the constant corpse decaying ability of this animal.</s><r>Включите способность этого животного постоянно разлагать трупы.</r></e>
+  <e k="K" key="VEF_EnableDigging"><s>Enable digging for food</s><r>Включить поиск еды</r></e>
+  <e k="K" key="VEF_EnableDiggingDesc"><s>Enable the ability to dig the terrain for food of this animal.</s><r>Включите возможность рыть местность в поисках еды этому животному.</r></e>
+  <e k="K" key="VEF_EnableGas"><s>Enable gas production</s><r>Включить добычу газа</r></e>
+  <e k="K" key="VEF_EnableGasDesc"><s>Enable the ability to produce gas of this animal.</s><r>Включить возможность добывать газ этого животного.</r></e>
+  <e k="K" key="VEF_EnablePipeSystemNoStorageAlert"><s>Enable PipeSystem no storage alert</s><r>Включить предупреждение PipeSystem об отсутствии хранилища</r></e>
+  <e k="K" key="VEF_FactionDiscovery"><s>Faction Discovery</s><r>Открытие фракции</r></e>
+  <e k="K" key="VEF_GeneralTitle"><s>General</s><r>Общий</r></e>
+  <e k="K" key="VEF_HomeArea"><s>Home Area</s><r>Домашняя территория</r></e>
+  <e k="K" key="VEF_HomeAreaDesc"><s>Ores mined by pawns are only unforbidden if mined in the home area</s><r>Руда, добытая пешками, не запрещена только в том случае, если она добыта в домашней зоне.</r></e>
+  <e k="K" key="VEF_LetterLabelWeeds"><s>Weeds: {PLANTDEF_labelPlural}</s><r>Сорняки: {PLANTDEF_labelPlural}</r></e>
+  <e k="K" key="VEF_LetterWeeds"><s>Weeds have spread across your {PLANTDEF_labelPlural}, as well as other nearby blooming flowers, greatly affecting their beauty.
+
+You can order your colonists to remove the weeds, though it is a time consuming process.</s><r>Сорняки распространились по вашему {PLANTDEF_labelPlural}, а также по другим близлежащим цветущим цветам, сильно влияя на их красоту. 
+
+Вы можете приказать своим колонистам удалить сорняки, хотя это трудоемкий процесс.</r></e>
+  <e k="K" key="VEF_Never"><s>Never</s><r>Никогда</r></e>
+  <e k="K" key="VEF_NeverDesc"><s>Never unforbid mined ores (this is how the base game works for non-human pawns, such as animals and mechs)</s><r>Никогда не отменяйте запреты на добычу руды (так работает базовая игра для пешек, не являющихся людьми, таких как животные и механизмы).</r></e>
+  <e k="K" key="VEF_NotTameable"><s>This creature is untameable</s><r>Это существо невозможно приручить</r></e>
+  <e k="K" key="VEF_RangeAttackSpeedFactor"><s>Range Attack Speed Factor</s><r>Коэффициент скорости атаки по дальности</r></e>
+  <e k="K" key="VEF_StomachContents"><s>{0} creatures swallowed whole. </s><r>{0} существа проглатываются целиком. </r></e>
+  <e k="K" key="VEF_TPTitle"><s>Toggleable patches</s><r>Переключаемые патчи</r></e>
+  <e k="K" key="VEF_TerrainsNeedsDiggable"><s>The terrain needs to be diggable to do this</s><r>Для этого необходимо раскопать местность.</r></e>
+  <e k="K" key="VEF_TextureVariations"><s>Texture Variations:</s><r>Варианты текстур:</r></e>
+  <e k="K" key="VEF_TimeToDie"><s>Animal expires in: {0}</s><r>Срок действия животного истекает через: {0}</r></e>
+  <e k="K" key="VEF_TimeToMetamorphosis"><s>Time to metamorphosis: {0}</s><r>Время метаморфозы: {0}</r></e>
+  <e k="K" key="VEF_UnforbidMinedOres"><s>Unforbid mined ores</s><r>Незапретные добытые руды</r></e>
+  <e k="K" key="VEF_VerboseLogging"><s>Verbose logging</s><r>Подробное ведение журнала</r></e>
+  <e k="K" key="VEF_WarningEggExplodes"><s>Warning, this egg explodes when hatching!</s><r>Внимание, это яйцо взрывается при вылуплении!</r></e>
+  <e k="K" key="VEF_WhileCaravaning"><s>While caravaning, produces {0} {1} every: </s><r>Во время караванинга производит {0} {1} каждые: </r></e>
+  <e k="K" key="VFE.ChangeColorTo"><s>Change color to {0}</s><r>Измените цвет на {0}</r></e>
+  <e k="K" key="VFE.ChangeVisualDesc"><s>Set a specific visual for the building or item.</s><r>Установите конкретный визуальный эффект для здания или объекта.</r></e>
+  <e k="K" key="VFE.ChangeVisualLabel"><s>Change visual</s><r>Изменить визуальный элемент</r></e>
+  <e k="K" key="VFE.ColorSwitchPowerOff"><s>Power is off. Impossible to switch color.</s><r>Питание отключено. Невозможно переключить цвет.</r></e>
+  <e k="K" key="VFE.SwitchLightColor"><s>Switch light color</s><r>Переключить цвет света</r></e>
+  <e k="K" key="VFE.SwitchLightColorDesc"><s>Change current light colour.</s><r>Изменить текущий цвет света.</r></e>
+  <e k="K" key="VFEA.AbilityDisableReasonCooldown"><s>{0} is on cooldown for {1}</s><r>{0} находится на перезарядке в течение {1}.</r></e>
+  <e k="K" key="VFEA.AbilityDisableReasonGeneral"><s>{0} doesn't meet the requirements</s><r>{0} не соответствует требованиям</r></e>
+  <e k="K" key="VFEA.AbilityStatsDuration"><s>Duration</s><r>Продолжительность</r></e>
+  <e k="K" key="VFEA.AbilityStatsPower"><s>Power</s><r>Власть</r></e>
+  <e k="K" key="VFEA.MinRadius"><s>Minimum radius</s><r>Минимальный радиус</r></e>
+  <e k="K" key="VFEA.RClickToAuto"><s>Right-click to enable autocasting.</s><r>Щелкните правой кнопкой мыши, чтобы включить автотрансляцию.</r></e>
+  <e k="K" key="VFEA.RClickToNoAuto"><s>Right-click to disable autocasting.</s><r>Щелкните правой кнопкой мыши, чтобы отключить автокастинг.</r></e>
+  <e k="K" key="VFEA.TargetMustBeHostile"><s>Target must be hostile</s><r>Target должен быть враждебным</r></e>
+  <e k="K" key="VFECore.Advanced"><s>advanced</s><r>передовой</r></e>
+  <e k="K" key="VFECore.IsToo"><s>is too</s><r>слишком</r></e>
+  <e k="K" key="VFECore.Primitive"><s>primitive</s><r>примитивный</r></e>
+  <e k="K" key="VFECore.StatsReport_Powered"><s>Powered</s><r>Работает</r></e>
+  <e k="K" key="VFECore.StatsReport_Unpowered"><s>Unpowered</s><r>Без питания</r></e>
+  <e k="K" key="VFEM.CaravanMachineRanOutPower"><s>{MACHINE_nameDef} ran out of power, and was left behind.</s><r>У {MACHINE_nameDef} закончилась энергия, и он остался позади.</r></e>
+  <e k="K" key="VFEM.DroneGainsName"><s>The drone's name is now {0}.</s><r>Имя дрона теперь {0}.</r></e>
+  <e k="K" key="VFEMRideableMachineTip"><s>This droid is rideable. People in a caravan will ride the fastest available animals/droids, improving the speed of the caravan as a whole.</s><r>На этом дроиде можно ездить. Люди в караване будут ездить на самых быстрых животных/дроидах, увеличивая скорость каравана в целом.</r></e>
+  <e k="K" key="VFEMechAttachTurret"><s>Attach Turret</s><r>Прикрепить турель</r></e>
+  <e k="K" key="VFEMechAttachTurretDesc"><s>Construct a turret atop this mobile platform. This will require a colonist to deliver resources equal to that turret's normal construction cost.</s><r>Постройте турель на этой мобильной платформе. Для этого колонисту потребуется доставить ресурсы, равные обычной стоимости строительства этой турели.</r></e>
+  <e k="K" key="VFEMechForceRecharge"><s>Force Recharge</s><r>Принудительная перезарядка</r></e>
+  <e k="K" key="VFEMechForceRechargeDesc"><s>Order the associated machine to return to this platform for charging, regardless of its current battery level.</s><r>Прикажите связанной машине вернуться на эту платформу для зарядки, независимо от текущего уровня заряда батареи.</r></e>
+  <e k="K" key="VFEMechLowerRange"><s>Reduce range</s><r>Уменьшить диапазон</r></e>
+  <e k="K" key="VFEMechLowerRangeDesc"><s>Reduce the number of tiles this machine will travel.</s><r>Уменьшите количество плиток, которые проедет эта машина.</r></e>
+  <e k="K" key="VFEMechMachineDied"><s>Machine destroyed</s><r>Машина уничтожена</r></e>
+  <e k="K" key="VFEMechMachineDiedDesc"><s>One of your machines has been destroyed! You can dismantle its remains at a machining table. In order to construct a replacement, one of your colonists will need to deliver the following parts to its platform:
+
+{0}</s><r>Одна из ваших машин была уничтожена! Разобрать его остатки можно на обрабатывающем столе. Чтобы построить замену, одному из ваших колонистов нужно будет доставить на свою платформу следующие детали:
+
+{0}</r></e>
+  <e k="K" key="VFEMechMachineHitObstacle"><s>Machine has run into an obstacle!</s><r>Машина натолкнулась на препятствие!</r></e>
+  <e k="K" key="VFEMechNoResources"><s>Not enough resources</s><r>Недостаточно ресурсов</r></e>
+  <e k="K" key="VFEMechNoTurret"><s>No active mobile turret</s><r>Нет активной мобильной турели</r></e>
+  <e k="K" key="VFEMechRaiseRange"><s>Increase range</s><r>Увеличение дальности</r></e>
+  <e k="K" key="VFEMechRaiseRangeDesc"><s>Increase the number of tiles this machine will travel.</s><r>Увеличьте количество плиток, которые проедет эта машина.</r></e>
+  <e k="K" key="VFEMechReconstruct"><s>Needed to rebuild machine:</s><r>Для ремонта машины необходимо:</r></e>
+  <e k="K" key="VFEMechSetArea"><s>Set area</s><r>Установить область</r></e>
+  <e k="K" key="VFEMechSetAreaDesc"><s>Set the allowed area for all of this platform's associated machines.</s><r>Установите разрешенную область для всех компьютеров, связанных с этой платформой.</r></e>
+  <e k="K" key="VFEMechStartMachine"><s>Start machine</s><r>Запустить машину</r></e>
+  <e k="K" key="VFEMechStartMachineDesc"><s>Start this machine.</s><r>Запустите эту машину.</r></e>
+  <e k="K" key="VFEMechStopMachine"><s>Stop machine</s><r>Остановить машину</r></e>
+  <e k="K" key="VFEMechStopMachineDesc"><s>Stop this machine's progress and force it to return to base.</s><r>Остановите движение этой машины и заставьте ее вернуться на базу.</r></e>
+  <e k="K" key="VFEMechTurretResources"><s>Needed to construct turret:</s><r>Для постройки турели необходимо:</r></e>
+  <e k="K" key="VFE_AsexualReproductionDisabled"><s>Asexual reproduction disabled via mod options</s><r>Бесполое размножение отключено в настройках мода.</r></e>
+  <e k="K" key="VFE_ChangeGraphic"><s>Random Graphic</s><r>Случайная графика</r></e>
+  <e k="K" key="VFE_ChangeGraphicDesc"><s>Change Graphic of this building randomly between those available</s><r>Изменить графику этого здания случайным образом между доступными</r></e>
+  <e k="K" key="VFE_ChooseGraphic"><s>Choose Graphic</s><r>Выберите графику</r></e>
+  <e k="K" key="VFE_ChooseGraphicDesc"><s>Choose Graphic of this building via a menu with all available options</s><r>Выберите изображение этого здания через меню со всеми доступными опциями.</r></e>
+  <e k="K" key="VFE_ChooseMine"><s>Choose chunk type to drill</s><r>Выберите тип куска для бурения</r></e>
+  <e k="K" key="VFE_ChooseMineDesc"><s>Choose chunk type to drill. You can choose any of the map's rock types, or random</s><r>Выберите тип куска для сверления. Вы можете выбрать любой тип камней на карте или случайный</r></e>
+  <e k="K" key="VFE_ChunkRandomMine"><s>Drill for Random Chunks</s><r>Отработка случайных фрагментов</r></e>
+  <e k="K" key="VFE_ChunkToMine"><s>Drill for {0}</s><r>Дрель для {0}</r></e>
+  <e k="K" key="VFE_DeepDrillNo"><s>Deep drill cannot be used with {0}.</s><r>Глубокое сверло нельзя использовать с {0}.</r></e>
+  <e k="K" key="VFE_HideRandomizeButton"><s>Hide the &quot;Random Graphic&quot; and &quot;Choose Graphic&quot; buttons</s><r>Скрыть кнопки «Случайное изображение» и «Выбрать изображение».</r></e>
+  <e k="K" key="VFE_NeedsSand"><s>This building must be placed on sand</s><r>Это здание должно быть размещено на песке.</r></e>
+  <e k="K" key="VFE_NeedsWater"><s>This building must be placed on water</s><r>Это здание должно быть поставлено на воду</r></e>
+  <e k="K" key="VFE_NoGraphics"><s>This building doesn't have extra random graphics to choose from. Some modder added the comp class to the building without alternative graphics, which is weird</s><r>В этом здании нет дополнительной случайной графики на выбор. Какой-то моддер добавил в здание комп класс без альтернативной графики, что странно</r></e>
+  <e k="K" key="VFE_PleaseSelectOutput"><s>Select machine output</s><r>Выберите мощность машины</r></e>
+  <e k="K" key="VFE_RandomBuildingsDontStartRandom"><s>Make random graphics buildings NOT start randomized</s><r>Сделать случайные графические здания НЕ рандомизированными.</r></e>
+  <e k="K" key="VFE_RandomRock"><s>Random chunk</s><r>Случайный кусок</r></e>
+  <e k="K" key="VGE_EggHatched"><s>{0} has hatched from an egg!</s><r>{0} вылупился из яйца!</r></e>
+  <e k="K" key="VGE_EggHatchedLabel"><s>{0} hatched!</s><r>{0} вылупились!</r></e>
+  <e k="K" key="VGE_EggLaid"><s>{0} has laid an egg! Keep it warm and protected.</s><r>{0} снесла яйцо! Держите его в тепле и защищенности.</r></e>
+  <e k="K" key="VGE_EggLaidLabel"><s>{0} laid an egg!</s><r>{0} снесла яйцо!</r></e>
+  <e k="K" key="VGE_EggPregnancy"><s>{0}'s eggs have been fertilized! The egglaying process will continue until a fertile egg is laid.</s><r>Яйцеклетки {0} оплодотворены! Процесс откладки яиц будет продолжаться до тех пор, пока не будет отложено оплодотворенное яйцо.</r></e>
+  <e k="K" key="VGE_EggPregnancyLabel"><s>{0} fertilized!</s><r>{0} оплодотворенная!</r></e>
+  <e k="K" key="VGE_ForGenderOnly"><s>{0} only gene.</s><r>{0} только ген.</r></e>
+  <e k="K" key="VGE_Male_Egg"><s>Males don't lay eggs</s><r>Самцы не откладывают яйца</r></e>
+  <e k="K" key="VGE_PregnancyFactor"><s>Pregnancy factor gene: {0} gestation speed</s><r>Ген фактора беременности: {0} скорость беременности.</r></e>
+  <e k="K" key="VGE_StatsReport_AnyLightSensitivity"><s>light sensitivity</s><r>светочувствительность</r></e>
+  <e k="K" key="VGE_StatsReport_Armoured"><s>armoured</s><r>бронированный</r></e>
+  <e k="K" key="VGE_StatsReport_Below0"><s>below 0ºC</s><r>ниже 0°С</r></e>
+  <e k="K" key="VGE_StatsReport_ColonyMap"><s>on colony map</s><r>на карте колонии</r></e>
+  <e k="K" key="VGE_StatsReport_InDarkness"><s>below 50% lit</s><r>ниже 50% горит</r></e>
+  <e k="K" key="VGE_StatsReport_InGreatPain"><s>in great pain (&gt;20%)</s><r>сильная боль (&gt;20%)</r></e>
+  <e k="K" key="VGE_StatsReport_InLight"><s>above 50% lit</s><r>выше 50% горит</r></e>
+  <e k="K" key="VGE_StatsReport_InPain"><s>in pain</s><r>в боли</r></e>
+  <e k="K" key="VGE_StatsReport_InPlanet"><s>in the planet</s><r>на планете</r></e>
+  <e k="K" key="VGE_StatsReport_InPollution"><s>in polluted terrain</s><r>в загрязненной местности</r></e>
+  <e k="K" key="VGE_StatsReport_InSpace"><s>in Space</s><r>в космосе</r></e>
+  <e k="K" key="VGE_StatsReport_InVacuum"><s>in vacuum</s><r>в вакууме</r></e>
+  <e k="K" key="VGE_StatsReport_Inside"><s>indoors</s><r>в помещении</r></e>
+  <e k="K" key="VGE_StatsReport_NoSunlight"><s>no sunlight</s><r>нет солнечного света</r></e>
+  <e k="K" key="VGE_StatsReport_NotWater"><s>on dry land</s><r>на суше</r></e>
+  <e k="K" key="VGE_StatsReport_Outside"><s>outdoors</s><r>на открытом воздухе</r></e>
+  <e k="K" key="VGE_StatsReport_OutsideColonyMap"><s>outside colony map</s><r>карта внешней колонии</r></e>
+  <e k="K" key="VGE_StatsReport_Over40"><s>over 40ºC</s><r>выше 40°С</r></e>
+  <e k="K" key="VGE_StatsReport_Water"><s>on water</s><r>на воде</r></e>
+  <e k="K" key="VME_MessageNeedsThePairedMeme"><s>{0} needs one of the following memes to be chosen too to work: {1}</s><r>Для работы {0} также необходимо выбрать один из следующих мемов: {1}</r></e>
+  <e k="K" key="VPE_AgeBeautyModifier"><s>Age beauty modifier</s><r>Модификатор красоты возраста</r></e>
+  <e k="K" key="VPE_AgeBeautyModifier_Desc"><s>The beauty of this plant will increase by this amount for every year it is kept alive, up to a maximum of +{0}.</s><r>Красота этого растения будет увеличиваться на эту величину с каждым годом его сохранения в живых, максимум до +{0}.</r></e>
+  <e k="K" key="VPE_BeautyByAge"><s>Beauty by age: +{0}</s><r>Красота по возрасту: +{0}</r></e>
+  <e k="K" key="VPE_BeautyByBloming"><s>Beauty by blooming: x{0}</s><r>Красота благодаря цветению: x{0}</r></e>
+  <e k="K" key="VPE_BeautyByLeafless"><s>Leafless beauty: {0}</s><r>Безлистная красота: {0}</r></e>
+  <e k="K" key="VPE_BeautyByWeeds"><s>Beauty because of weeds: {0}</s><r>Красота из-за сорняков: {0}</r></e>
+  <e k="K" key="VPE_BloomBeautyModifier"><s>Bloom beauty modifier</s><r>Модификатор красоты Блума</r></e>
+  <e k="K" key="VPE_BloomBeautyModifier_Desc"><s>The beauty of this plant will be multiplied by this amount when in its blooming stage.</s><r>Красота этого растения будет умножена на эту величину на стадии цветения.</r></e>
+  <e k="K" key="VPE_BloomTemperatureMax"><s>Maximum bloom temperature</s><r>Максимальная температура цветения</r></e>
+  <e k="K" key="VPE_BloomTemperatureMax_Desc"><s>The maximum temperature the plant will need to be below to enter a blooming stage.
+
+{0}</s><r>Максимальная температура, ниже которой растение должно быть ниже, чтобы перейти в стадию цветения.
+
+{0}</r></e>
+  <e k="K" key="VPE_BloomTemperatureMin"><s>Minimum bloom temperature</s><r>Минимальная температура цветения</r></e>
+  <e k="K" key="VPE_BloomTemperatureMin_Desc"><s>The minimum temperature the plant will need to enter a blooming stage.
+
+{0}</s><r>Минимальная температура, необходимая растению для перехода в стадию цветения.
+
+{0}</r></e>
+  <e k="K" key="VPE_BloomingPeriod"><s>Blooming period</s><r>Период цветения</r></e>
+  <e k="K" key="VPE_BloomingPeriod_Desc"><s>This flower will enter a blooming stage in this period, or the equivalent in days of the year in permanent summer / winter.</s><r>Этот цветок вступит в стадию цветения в этот период или в эквивалентные дни года в постоянное лето/зиму.</r></e>
+  <e k="K" key="VPE_CanBloom"><s>If the blooming stops due to low temperature, this flower can enter a blooming stage again if the conditions improve.</s><r>Если цветение прекращается из-за низкой температуры, этот цветок может снова вступить в стадию цветения, если условия улучшатся.</r></e>
+  <e k="K" key="VPE_CancelExtractFlower"><s>Cancel extraction</s><r>Отменить извлечение</r></e>
+  <e k="K" key="VPE_CancelExtractFlower_Desc"><s>Cancel extracting this flower.</s><r>Отмените извлечение этого цветка.</r></e>
+  <e k="K" key="VPE_CancelWeedRemoval"><s>Cancel weed removal</s><r>Отменить удаление сорняков</r></e>
+  <e k="K" key="VPE_CancelWeedRemoval_Desc"><s>Cancel removing the weeds from this flower.</s><r>Отмените удаление сорняков с этого цветка.</r></e>
+  <e k="K" key="VPE_CantBloom"><s>If the blooming stops due to low temperature, this flower won't be able to bloom again until next year!</s><r>Если цветение прекратится из-за низкой температуры, этот цветок не сможет снова зацвести до следующего года!</r></e>
+  <e k="K" key="VPE_DeadlyColdTemperature"><s>Deadly cold temperature</s><r>Смертельно низкая температура</r></e>
+  <e k="K" key="VPE_DeadlyColdTemperature_Desc"><s>Below this temperature, the plant will start dying.</s><r>Ниже этой температуры растение начнет умирать.</r></e>
+  <e k="K" key="VPE_ExtractFlower"><s>Extract flower</s><r>Экстракт цветка</r></e>
+  <e k="K" key="VPE_ExtractFlower_Desc"><s>Extract this flower while keeping it alive, so that it can be replanted elsewhere.</s><r>Извлеките этот цветок, сохранив его живым, чтобы его можно было пересадить в другом месте.</r></e>
+  <e k="K" key="VPE_FlowerIsBlooming"><s>Flower is blooming</s><r>Цветок цветет</r></e>
+  <e k="K" key="VPE_LeaflessBeauty"><s>Leafless beauty</s><r>Безлистная красота</r></e>
+  <e k="K" key="VPE_LeaflessBeauty_Desc"><s>Blooming flowers are pretty ugly when leafless due to cold. They won't die just for being leafless, but their beauty will be greatly affected.</s><r>Цветущие цветы довольно некрасивы, когда из-за холода нет листьев. Они не умрут только потому, что у них нет листьев, но их красота сильно пострадает.</r></e>
+  <e k="K" key="VPE_MinifiedFlowerWillDieIn"><s>Extracted flower will die in {time} unless replanted.</s><r>Извлеченный цветок умрет через {time}, если его не пересадить.</r></e>
+  <e k="K" key="VPE_MustBeGrown"><s>Plant must be fully grown before you can add age to it</s><r>Растение должно вырасти полностью, прежде чем вы сможете добавить ему возраст.</r></e>
+  <e k="K" key="VPE_RealAge"><s>Age: {0}</s><r>Возраст: {0}</r></e>
+  <e k="K" key="VPE_RemoveWeeds"><s>Remove weeds</s><r>Удаление сорняков</r></e>
+  <e k="K" key="VPE_RemoveWeeds_Desc"><s>Remove the weeds that are negatively impacting this flower's beauty.</s><r>Удалите сорняки, которые негативно влияют на красоту этого цветка.</r></e>
+  <e k="K" key="VPE_ReplantFlower"><s>Replant</s><r>Пересадить</r></e>
+  <e k="K" key="VPE_ReplantFlower_Desc"><s>The flower is currently packaged up for storage and transport. Use this command to replant it in the new location.</s><r>В настоящее время цветок упакован для хранения и транспортировки. Используйте эту команду, чтобы пересадить его на новое место.</r></e>
+  <e k="K" key="VPE_TempTooHighForBlooming"><s>Temperature too high for blooming</s><r>Температура слишком высокая для цветения.</r></e>
+  <e k="K" key="VPE_TempTooLowForBlooming"><s>Temperature too low for blooming</s><r>Температура слишком низкая для цветения.</r></e>
+  <e k="K" key="VRE_AllowedPartners"><s>Allowed partners</s><r>Разрешенные партнеры</r></e>
+  <e k="K" key="VRE_AllowedPartnersDesc"><s>A list of all feratypes belonging to the {0} feratype family that this animal can make offspring with.</s><r>Список всех фератипов, принадлежащих к семейству фератипов {0}, от которых это животное может дать потомство.</r></e>
+  <e k="K" key="VRE_AnimalGenes"><s>Animal genes</s><r>Гены животных</r></e>
+  <e k="K" key="VRE_AnimalGenesDesc"><s>Genes present in this animal</s><r>Гены, присутствующие у этого животного</r></e>
+  <e k="K" key="VRE_AnimalGenesFeratypeDesc"><s>The genes associated with this feratype.</s><r>Гены, связанные с этим фератипом.</r></e>
+  <e k="K" key="VRE_AnimalIllness"><s>Animal illness MTB</s><r>Болезни животных МТБ</r></e>
+  <e k="K" key="VRE_AnimalTantrum"><s>Animal tantrum MTB</s><r>Истерика животных МТБ</r></e>
+  <e k="K" key="VRE_Days"><s>days</s><r>дни</r></e>
+  <e k="K" key="VRE_FamilyTag"><s>Gene family</s><r>Семья Джин</r></e>
+  <e k="K" key="VRE_Feratype"><s>Feratype</s><r>Тип Фера</r></e>
+  <e k="K" key="VRE_FeratypeFamily"><s>feratype family</s><r>семейство фератипов</r></e>
+  <e k="K" key="VRE_FeratypeFamilyDesc"><s>This feratype belongs to the {0} feratype family:
+
+{1}</s><r>Этот фератип принадлежит к семейству {0} фератипов: 
+
+{1}.</r></e>
+  <e k="K" key="VRE_LifespanFactor"><s>Lifespan</s><r>Продолжительность жизни</r></e>
+  <e k="K" key="VRE_LifespanFactorDesc"><s>Lifespan factor of this animal according to its genetic stability</s><r>Коэффициент продолжительности жизни этого животного в зависимости от его генетической стабильности.</r></e>
+  <e k="K" key="VRE_MoreInfoInInfoScreen"><s>More information is available on this feratype's information screen.</s><r>Более подробную информацию можно получить на информационном экране этого фератипа.</r></e>
+  <e k="K" key="VRE_NotPregnant"><s>This animal is not pregnant</s><r>Это животное не беременно</r></e>
+  <e k="K" key="VRE_PreventSlaughter"><s>Prevent slaughter</s><r>Предотвратить бойню</r></e>
+  <e k="K" key="VRE_PreventSlaughterDesc"><s>Prevent this animal from being slaughtered by the slaughter designation and the auto-slaughter system.</s><r>Предотвратите убой этого животного с помощью обозначения убоя и системы автоматического убоя.</r></e>
+  <e k="K" key="VRE_SpecializedGene"><s>Specialized gene</s><r>Специализированный ген</r></e>
+  <e k="K" key="VRE_SpecializedGeneDesc"><s>This gene is only inherited by offspring whose feratype contains a gene from this family.</s><r>Этот ген наследуется только потомством, фератип которого содержит ген из этого семейства.</r></e>
+  <e k="K" key="VRE_Stability"><s>Stability</s><r>Стабильность</r></e>
+  <e k="K" key="VRE_StabilityDesc"><s>Stability represents the complexity of an animal's genetic code and affecting predictability of gene inheritance.
+
+High stability ensures offspring typically inherit the average of their parents' genes, whereas low stability increases the likelihood that offspring will deviate from parental traits towards the natural median.</s><r>Стабильность представляет собой сложность генетического кода животного и влияет на предсказуемость наследования генов.
+
+Высокая стабильность гарантирует, что потомство обычно наследует среднее значение генов своих родителей, тогда как низкая стабильность увеличивает вероятность того, что потомство будет отклоняться от родительских признаков в сторону естественной медианы.</r></e>
+  <e k="K" key="VRE_StatsReport_Genes"><s>Relevant animal genes</s><r>Соответствующие гены животных</r></e>
+  <e k="K" key="VRE_StillbornDesc"><s>Your {0}, {1} gave birth to a stillborn offspring.</s><r>Ваши {0}, {1} родили мертворожденного потомства.</r></e>
+  <e k="K" key="VRE_StillbornLabel"><s>Stillborn {0}</s><r>Мертворожденный {0}</r></e>
+  <e k="K" key="VRE_TabAnimalGenes"><s>Genes</s><r>Гены</r></e>
+  <e k="K" key="VRE_Trainability"><s>Trainability set to</s><r>Обучаемость установлена ​​на</r></e>
+  <e k="K" key="VSE.CostGoodwill"><s>cost: {0} goodwill</s><r>стоимость: {0} гудвил</r></e>
+  <e k="K" key="VSE.Reinforcements"><s>Reinforcements</s><r>Подкрепления</r></e>
+  <e k="K" key="VSE.ReinforcementsDesc"><s>Seeing that your forces suffered losses, {FACTION_name} has decided to reinforce their raiding force</s><r>Видя, что ваши силы понесли потери, {FACTION_name} решил усилить свои рейдовые силы.</r></e>
+  <e k="K" key="VWE.CannotEquipHeavy"><s>Weapon requires powered armor</s><r>Оружие требует силовой брони</r></e>
+  <e k="K" key="VWEL_ToggleHotshotDesc"><s>Shots fired when standing still warm-up the weapon allowing for increased firing speed. Overheating can lead to detonation.</s><r>Выстрелы, произведенные стоя на месте, разогревают оружие, позволяя увеличить скорость стрельбы. Перегрев может привести к детонации.</r></e>
+  <e k="K" key="VWEL_ToggleHotshotLabel"><s>Weapon warm-up</s><r>Разминка оружия</r></e>
+  <e k="K" key="VanillaFactionsExpanded.AffectHiddenFactions"><s>Affect hidden</s><r>Влияние скрыто</r></e>
+  <e k="K" key="VanillaFactionsExpanded.AllFactions"><s>All factions</s><r>Все фракции</r></e>
+  <e k="K" key="VanillaFactionsExpanded.AllFactionsIncludingHidden"><s>All factions including hidden</s><r>Все фракции, включая скрытые</r></e>
+  <e k="K" key="VanillaFactionsExpanded.AlwaysHostile"><s>Always hostile</s><r>Всегда враждебно</r></e>
+  <e k="K" key="VanillaFactionsExpanded.AnUnknownMod"><s>an unknown mod</s><r>неизвестный мод</r></e>
+  <e k="K" key="VanillaFactionsExpanded.EquipShield"><s>Equip {0} as shield</s><r>Используйте {0} в качестве щита.</r></e>
+  <e k="K" key="VanillaFactionsExpanded.EquipWarningShieldUnusable"><s>(unusable with {0})</s><r>(невозможно использовать с {0})</r></e>
+  <e k="K" key="VanillaFactionsExpanded.EquipWarningShieldUnusableWithWeapon"><s>({0} will be unusable)</s><r>({0} будет непригодно для использования)</r></e>
+  <e k="K" key="VanillaFactionsExpanded.FactionButtonAdd"><s>Add the faction</s><r>Добавить фракцию</r></e>
+  <e k="K" key="VanillaFactionsExpanded.FactionButtonAddFull"><s>Add the faction with settlements</s><r>Добавить фракцию с поселениями</r></e>
+  <e k="K" key="VanillaFactionsExpanded.FactionButtonCancel"><s>Cancel</s><r>Отмена</r></e>
+  <e k="K" key="VanillaFactionsExpanded.FactionButtonIgnore"><s>Don't ask for this faction again</s><r>Больше не спрашивайте эту фракцию</r></e>
+  <e k="K" key="VanillaFactionsExpanded.FactionButtonSkip"><s>Do nothing</s><r>Ничего не делать</r></e>
+  <e k="K" key="VanillaFactionsExpanded.FactionButtonSpawn"><s>Spawn</s><r>Спавн</r></e>
+  <e k="K" key="VanillaFactionsExpanded.FactionDiscoveryRequired"><s>It is marked as required, and you must add it to the game.</s><r>Он помечен как обязательный, и его необходимо добавить в игру.</r></e>
+  <e k="K" key="VanillaFactionsExpanded.FactionFailedMessage"><s>Failed to generate this faction. It is recommended to try again, but you can now skip adding this faction. Skipping may cause issues.</s><r>Не удалось создать эту фракцию. Рекомендуется повторить попытку, но теперь вы можете пропустить добавление этой фракции. Пропуск может вызвать проблемы.</r></e>
+  <e k="K" key="VanillaFactionsExpanded.FactionMessageFailed"><s>Failed to add the faction.</s><r>Не удалось добавить фракцию.</r></e>
+  <e k="K" key="VanillaFactionsExpanded.FactionMessageFailedFull"><s>Failed to create a faction with settlements.</s><r>Не удалось создать фракцию с поселениями.</r></e>
+  <e k="K" key="VanillaFactionsExpanded.FactionMessageSuccess"><s>Added {FactionName}.</s><r>Добавлен {FactionName}.</r></e>
+  <e k="K" key="VanillaFactionsExpanded.FactionMessageSuccessFull"><s>Added {FactionName} with {Amount} settlements.</s><r>Добавлен {FactionName} с {Amount} поселениями.</r></e>
+  <e k="K" key="VanillaFactionsExpanded.FactionMinDistance"><s>The minimum distance from player bases (recommended are {0}): {1}</s><r>Минимальное расстояние от баз игроков (рекомендуется {0}): {1}</r></e>
+  <e k="K" key="VanillaFactionsExpanded.FactionRecommended"><s>{REQUIRED_multiple ? It is recommended to have at least {REQUIRED} factions of {FACTION} type, but currently there's only {COUNT}. : It is recommended to enable {FACTION}.}</s><r>{REQUIRED_multiple ? Рекомендуется иметь как минимум {REQUIRED} фракций типа {FACTION}, но на данный момент их только {COUNT}. : Рекомендуется включить {FACTION}.}</r></e>
+  <e k="K" key="VanillaFactionsExpanded.FactionRequired"><s>{FACTION} cannot be disabled{REQUIRED_multiple ? , you need at least {REQUIRED} factions of that type. : .}</s><r>{FACTION} нельзя отключить{REQUIRED_multiple ? , вам нужно как минимум {REQUIRED} фракций этого типа. : .}</r></e>
+  <e k="K" key="VanillaFactionsExpanded.FactionSelectOption"><s>Please select how to proceed:</s><r>Пожалуйста, выберите, как действовать:</r></e>
+  <e k="K" key="VanillaFactionsExpanded.FactionSettlementsToSpawn"><s>Settlements to spawn (recommended are {0}): {1}</s><r>Поселения для появления (рекомендуется {0}): {1}</r></e>
+  <e k="K" key="VanillaFactionsExpanded.FactionTitle"><s>New faction: {FactionName}</s><r>Новая фракция: {FactionName}</r></e>
+  <e k="K" key="VanillaFactionsExpanded.HiddenFactionInfo"><s>This is a hidden faction and won't show up in your faction list.</s><r>Это скрытая фракция, и она не будет отображаться в вашем списке фракций.</r></e>
+  <e k="K" key="VanillaFactionsExpanded.ModInfo"><s>This faction is added by {ModName} and not currently present in your game.</s><r>Эта фракция добавлена ​​{ModName} и в настоящее время не присутствует в вашей игре.</r></e>
+  <e k="K" key="VanillaFactionsExpanded.NaturalGoodwill"><s>Natural</s><r>Естественный</r></e>
+  <e k="K" key="VanillaFactionsExpanded.NonSpawningFactionInfo"><s>This faction is marked as non-spawning and you should probably just ignore it.</s><r>Эта фракция помечена как невозвращающаяся, и вам, вероятно, следует просто игнорировать ее.</r></e>
+  <e k="K" key="VanillaFactionsExpanded.NumberRange"><s>{0} to {1}</s><r>от {0} до {1}</r></e>
+  <e k="K" key="VanillaFactionsExpanded.Protects"><s>Protects</s><r>Защищает</r></e>
+  <e k="K" key="VanillaFactionsExpanded.Protects_Desc"><s>What body parts the shield protects.</s><r>Какие части тела защищает щит.</r></e>
+  <e k="K" key="VanillaFactionsExpanded.RequiredFactionInfo"><s>It is marked as required by {ModName}.</s><r>Он отмечен как требуемый {ModName}.</r></e>
+  <e k="K" key="VanillaFactionsExpanded.ScenPart_ForcedFactionRelations"><s>Faction relation modifiers</s><r>Модификаторы отношений фракций</r></e>
+  <e k="K" key="VanillaFactionsExpanded.StartingGoodwill"><s>Starting</s><r>Начало</r></e>
+  <e k="K" key="VanillaFactionsExpanded.UsableWithShield"><s>Usable with shields</s><r>Можно использовать со щитами.</r></e>
+  <e k="K" key="VanillaFactionsExpanded.UsableWithShield_Desc"><s>Whether or not this weapon can be used if the character also has a shield equipped.</s><r>Можно ли использовать это оружие, если у персонажа также есть щит.</r></e>
+  <e k="K" key="XPatchFound"><s>{0} patches found</s><r>Найдено {0} патчей</r></e>
+</AutoTranslateCache>
