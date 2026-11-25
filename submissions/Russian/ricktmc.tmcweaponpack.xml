@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="ricktmc.tmcweaponpack" name="TMC Weapon Pack - Continued" language="Russian" version="1">
+  <e k="D" t="AmmoCategoryDef" key="TMC_APSlug.description"><s>Shotgun shell with Armor-piercing slug.</s><r>Гильза для дробовика с бронебойной пулей.</r></e>
+  <e k="D" t="AmmoCategoryDef" key="TMC_APSlug.label"><s>Armor-Piercing Slug</s><r>Бронебойная пуля</r></e>
+  <e k="D" t="AmmoCategoryDef" key="TMC_ArmorPiercingPlasteel.description"><s>Armor-Piercing with Plasteel core, provide great penetration while still retaining some flesh damage.</s><r>Бронебойный предмет с пластальной сердцевиной обеспечивает отличное проникновение, сохраняя при этом некоторый урон плоти.</r></e>
+  <e k="D" t="AmmoCategoryDef" key="TMC_ArmorPiercingPlasteel.label"><s>Armor-Piercing Plasteel</s><r>Бронебойная пласталь</r></e>
+  <e k="D" t="AmmoSetDef" key="AmmoSet_Pzf3Grenade.label"><s>Pzf3 Grenades</s><r>Гранаты Pzf3</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_12Gauge_AP.description"><s>Craft 200 12 Gauge (AP Slug) shells.</s><r>Изготовьте 200 снарядов 12-го калибра (AP Slug).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_12Gauge_AP.jobString"><s>Making 12 Gauge (AP Slug) shells.</s><r>Изготовление гильз 12-го калибра (AP Slug).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_12Gauge_AP.label"><s>make 12 Gauge (AP Slug) cartridge x200</s><r>сделать патрон 12 калибра (AP Slug) x200</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_545x39mmSoviet_APP.description"><s>Craft 500 5.45x39mm Soviet (APP) cartridges.</s><r>Создать 500 советских патронов 5,45x39 мм.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_545x39mmSoviet_APP.jobString"><s>Making 5.45x39mm Soviet (APP) cartridges.</s><r>Изготовление советских патронов 5,45х39 мм.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_545x39mmSoviet_APP.label"><s>make 5.45x39mm Soviet (APP) cartridge x500</s><r>сделать патрон 5,45х39мм советский (АПП) х500</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_556x45mmNATO_APP.description"><s>Craft 500 5.56x45mm NATO (APP) cartridges.</s><r>Изготовьте 500 патронов 5,56х45 мм НАТО (APP).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_556x45mmNATO_APP.jobString"><s>Making 5.56x45mm NATO (APP) cartridges.</s><r>Изготовление патронов 5,56х45 мм НАТО (APP).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_556x45mmNATO_APP.label"><s>make 5.56x45mm NATO (APP) cartridge x500</s><r>изготовить патрон 5,56х45мм НАТО (APP) х500</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_762x39mmSoviet_APP.description"><s>Craft 500 7.62x39mm Soviet (APP) cartridges.</s><r>Создать 500 советских патронов 7,62х39 мм (АПП).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_762x39mmSoviet_APP.jobString"><s>Making 7.62x39mm Soviet (APP) cartridges.</s><r>Изготовление советских патронов 7,62х39 мм.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_762x39mmSoviet_APP.label"><s>make 7.62x39mm Soviet (APP) cartridge x500</s><r>сделать патрон 7,62х39мм советский (АПП) х500</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_762x51mmNATO_APP.description"><s>Craft 500 7.62x51mm NATO (APP) cartridges.</s><r>Изготовьте 500 патронов 7,62х51 мм НАТО (APP).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_762x51mmNATO_APP.jobString"><s>Making 7.62x51mm NATO (APP) cartridges.</s><r>Изготовление патронов 7,62х51 мм НАТО (APP).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_762x51mmNATO_APP.label"><s>make 7.62x51mm NATO (APP) cartridge x500</s><r>изготовить патрон 7,62х51мм НАТО (APP) х500</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_762x54mmR_APP.description"><s>Craft 500 762x54mmR (APP) cartridges.</s><r>Изготовьте 500 патронов 762x54 ммR (APP).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_762x54mmR_APP.jobString"><s>Making 762x54mmR (APP) cartridges.</s><r>Изготовление патронов 762x54mmR (APP).</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_762x54mmR_APP.label"><s>make 762x54mmR (APP) cartridge x500</s><r>сделать патрон 762x54mmR (APP) x500</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_Pzf3Grenade_HE.description"><s>Craft 5 Pzf3 HE grenades.</s><r>Создайте 5 фугасных гранат Pzf3.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_Pzf3Grenade_HE.jobString"><s>Making Pzf3 HE grenades.</s><r>Изготовление фугасных гранат Pzf3.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_Pzf3Grenade_HE.label"><s>make Pzf3 HE grenades x5</s><r>сделать 5 фугасных гранат Pzf3</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_Pzf3Grenade_HEAT.description"><s>Craft 5 Pzf3 HEAT grenades.</s><r>Создайте 5 кумулятивных гранат Pzf3.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_Pzf3Grenade_HEAT.jobString"><s>Making Pzf3 HEAT grenades.</s><r>Изготовление кумулятивной гранаты Pzf3.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_Pzf3Grenade_HEAT.label"><s>make Pzf3 HEAT grenades x5</s><r>сделать кумулятивные гранаты Pzf3 x5</r></e>
+  <e k="D" t="RecipeDef" key="MakeHGRGreande.description"><s>Craft 10 HGR grenades.</s><r>Создайте 10 гранат HGR.</r></e>
+  <e k="D" t="RecipeDef" key="MakeHGRGreande.jobString"><s>Making HGR grenades.</s><r>Изготовление гранат HGR.</r></e>
+  <e k="D" t="RecipeDef" key="MakeHGRGreande.label"><s>make HGR grenades x10</s><r>сделать гранаты HGR x10</r></e>
+  <e k="D" t="RecipeDef" key="MakeZaryaGrenade.description"><s>Craft 10 Zarya grenades.</s><r>Создайте 10 гранат «Заря».</r></e>
+  <e k="D" t="RecipeDef" key="MakeZaryaGrenade.jobString"><s>Making Zarya grenades.</s><r>Изготовление гранаты Заря.</r></e>
+  <e k="D" t="RecipeDef" key="MakeZaryaGrenade.label"><s>make Zarya grenades x10</s><r>сделать гранаты Заря x10</r></e>
+  <e k="D" t="ThingCategoryDef" key="AmmoPzf3Grenades.label"><s>Pzf3 grenades</s><r>Гранаты Пзф3</r></e>
+  <e k="D" t="ThingDef" key="Ammo_12Gauge_AP.description"><s>Extremely common shotgun caliber used in almost every application, from hunting over riot control to military firearms.
+
+Armor-Piercing Slug:
+Shotgun shell with Armor-piercing slug.
+
+Используются в:</s><r>Чрезвычайно распространенный калибр дробовика, используемый практически во всех сферах применения: от охоты и борьбы с беспорядками до военного огнестрельного оружия.
+
+Бронебойная пуля:
+Гильза для дробовика с бронебойной пулей.
+
+Используются в:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_12Gauge_AP.label"><s>12Gauge shell (AP Slug)</s><r>Оболочка 12 калибра (AP Slug)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_545x39mmSoviet_APP.description"><s>Small, high-velocity rifle bullet used in a variety of assault rifles.
+
+Armor-Piercing Plasteel:
+Armor-Piercing with Plasteel core, provide great penetration while still retaining some flesh damage.
+
+Используются в:</s><r>Маленькая, высокоскоростная винтовочная пуля, используемая в различных штурмовых винтовках.
+
+Бронебойная пласталь:
+ Бронебойные с сердечником из пластали обеспечивают отличное проникновение, сохраняя при этом некоторый урон плоти.
+
+Используются в:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_545x39mmSoviet_APP.label"><s>5.45x39mm Soviet cartridge (APP)</s><r>5,45х39мм советский патрон (АПП)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_556x45mmNATO_APP.description"><s>Small, high-velocity rifle bullet used in a variety of assault rifles.
+
+Armor-Piercing Plasteel:
+Armor-Piercing with Plasteel core, provide great penetration while still retaining some flesh damage.
+
+Используются в:</s><r>Маленькая, высокоскоростная винтовочная пуля, используемая в различных штурмовых винтовках.
+
+Бронебойная пласталь:
+ Бронебойные с сердечником из пластали обеспечивают отличное проникновение, сохраняя при этом некоторый урон плоти.
+
+Используются в:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_556x45mmNATO_APP.label"><s>5.56x45mm NATO cartridge (APP)</s><r>Патрон 5,56х45 мм НАТО (АПП)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_762x39mmSoviet_APP.description"><s>Intermediate rifle cartridge used by assault rifles and various other firearms.
+
+Armor-Piercing Plasteel:
+Armor-Piercing with Plasteel core, provide great penetration while still retaining some flesh damage.
+
+Используются в:</s><r>Промежуточный винтовочный патрон, используемый в штурмовых винтовках и другом огнестрельном оружии.
+
+Бронебойная пласталь:
+ Бронебойные с сердечником из пластали обеспечивают отличное проникновение, сохраняя при этом некоторый урон плоти.
+
+Используются в:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_762x39mmSoviet_APP.label"><s>7.62x39mm Soviet cartridge (APP)</s><r>7,62х39 мм советский патрон (АПП)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_762x51mmNATO_APP.description"><s>Large rifle bullet used in machine guns, sniper rifles, and various other infantry weapons.
+
+Armor-Piercing Plasteel:
+Armor-Piercing with Plasteel core, provide great penetration while still retaining some flesh damage.
+
+Используются в:</s><r>Крупная винтовочная пуля, используемая в пулеметах, снайперских винтовках и другом пехотном оружии.
+
+Бронебойная пласталь:
+ Бронебойные с сердечником из пластали обеспечивают отличное проникновение, сохраняя при этом некоторый урон плоти.
+
+Используются в:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_762x51mmNATO_APP.label"><s>7.62x51mm NATO cartridge (APP)</s><r>Патрон 7,62х51 мм НАТО (АПП)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_762x54mmR_APP.description"><s>Rimmed rifle cartridge used by numerous machine guns, bolt-action rifles, and other weapons.
+
+Armor-Piercing Plasteel:
+Armor-Piercing with Plasteel core, provide great penetration while still retaining some flesh damage.
+
+Используются в:</s><r>Винтовочный патрон с закраиной, используемый во многих пулеметах, винтовках с продольно-скользящим затвором и другом оружии.
+
+Бронебойная пласталь:
+ Бронебойные с сердечником из пластали обеспечивают отличное проникновение, сохраняя при этом некоторый урон плоти.
+
+Используются в:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_762x54mmR_APP.label"><s>762x54mmR cartridge (APP)</s><r>Патрон 762х54ммR (АПП)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_Pzf3Grenade_HE.description"><s>Rocket-propelled grenade designed for the Pzf3 launcher. After being fired a rocket motor kicks in to propel the grenade further.
+
+Осколочно-фугасная:
+При детонации создаёт облако высокоскоростных осколков, поражающих легкобронированные цели на большой площади.
+
+Используются в:</s><r>Rocket-propelled grenade designed for the Pzf3 launcher. After being fired a rocket motor kicks in to propel the grenade further.
+
+Осколочно-фугасная:
+При детонации создаёт облако высокоскоростных осколков, поражающих легкобронированные цели на большой площади.
+
+Используются в:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_Pzf3Grenade_HE.label"><s>Pzf3 grenade (HE)</s><r>Граната Pzf3 (ОФ)</r></e>
+  <e k="D" t="ThingDef" key="Ammo_Pzf3Grenade_HEAT.description"><s>Rocket-propelled grenade designed for the Pzf3 launcher. After being fired a rocket motor kicks in to propel the grenade further.
+
+Кумулятивная:
+При детонации создаёт кумулятивную струю, которая пробивает вражескую броню.
+
+Используются в:</s><r>Rocket-propelled grenade designed for the Pzf3 launcher. After being fired a rocket motor kicks in to propel the grenade further.
+
+Кумулятивная:
+При детонации создаёт кумулятивную струю, которая пробивает вражескую броню.
+
+Используются в:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_Pzf3Grenade_HEAT.label"><s>Pzf3 grenade (HEAT)</s><r>Граната Pzf3 (кумулятивная)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_12Gauge_AP.label"><s>12Gauge bullet (AP Slug)</s><r>Пуля 12-го калибра (AP Slug)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_545x39mmSoviet_APP.label"><s>5.45x39mm Soviet bullet (APP)</s><r>Советская пуля 5,45х39мм (АПП)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_556x45mmNATO_APP.label"><s>5.56mm NATO bullet (APP)</s><r>Пуля НАТО 5,56 мм (APP)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_762x39mmSoviet_APP.label"><s>7.62x39mm Soviet bullet (APP)</s><r>Советская пуля 7,62х39мм (АПП)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_762x51mmNATO_APP.label"><s>5.56mm NATO bullet (APP)</s><r>Пуля НАТО 5,56 мм (APP)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_762x54mmR_APP.label"><s>762x54mmR bullet (APP)</s><r>Пуля 762х54ммR (АПП)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_APslugShotgun.label"><s>shotgun blast</s><r>выстрел из дробовика</r></e>
+  <e k="D" t="ThingDef" key="Bullet_KS23Shotgun.label"><s>KS23 shotgun blast</s><r>Выстрел из дробовика KS23</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Pzf3Grenade_HE.label"><s>Pzf3 grenade (HE)</s><r>Граната Pzf3 (ОФ)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Pzf3Grenade_HEAT.label"><s>Pzf3 grenade (HEAT)</s><r>Граната Pzf3 (кумулятивная)</r></e>
+  <e k="D" t="ThingDef" key="Bullet_TMC_127MM.label"><s>12.7mm bullet</s><r>пуля 12,7 мм</r></e>
+  <e k="D" t="ThingDef" key="Bullet_TMC_45ACPPistol.label"><s>.45ACP bullet</s><r>Пуля .45ACP</r></e>
+  <e k="D" t="ThingDef" key="Bullet_TMC_556_AR.label"><s>assault rifle bullet</s><r>пуля из штурмовой винтовки</r></e>
+  <e k="D" t="ThingDef" key="Bullet_TMC_762_AR.label"><s>assault rifle bullet</s><r>пуля из штурмовой винтовки</r></e>
+  <e k="D" t="ThingDef" key="Bullet_TMC_9mmPistol.label"><s>9mm bullet</s><r>9-мм пуля</r></e>
+  <e k="D" t="ThingDef" key="Bullet_TMC_Revolver.label"><s>revolver bullet</s><r>револьверная пуля</r></e>
+  <e k="D" t="ThingDef" key="Bullet_TMC_SMG_45ACP.label"><s>.45ACP Bullet</s><r>Пуля .45ACP</r></e>
+  <e k="D" t="ThingDef" key="Bullet_TMC_SMG_47AP.label"><s>4.6x30mm Bullet</s><r>Пуля 4,6x30 мм</r></e>
+  <e k="D" t="ThingDef" key="Bullet_TMC_SMG_57AP.label"><s>5.7x28mm Bullet</s><r>Пуля 5,7x28 мм</r></e>
+  <e k="D" t="ThingDef" key="Bullet_TMC_SMG_9MM.label"><s>heavy SMG bullet</s><r>тяжелая пуля для пистолета-пулемета</r></e>
+  <e k="D" t="ThingDef" key="Bullet_TMC_SR_308NATO.label"><s>7.62x51mmNATO bullet</s><r>Пуля 7,62x51ммНАТО</r></e>
+  <e k="D" t="ThingDef" key="Bullet_TMC_SR_338Lapua.label"><s>.338 Lapua Magnum bullet</s><r>Пуля .338 Лапуа Магнум</r></e>
+  <e k="D" t="ThingDef" key="Bullet_TMC_SR_50CAL.label"><s>sniper rifle bullet</s><r>пуля снайперской винтовки</r></e>
+  <e k="D" t="ThingDef" key="TMCBullet_30MikeMike.label"><s>30mm Greande</s><r>30 мм Греанде</r></e>
+  <e k="D" t="ThingDef" key="TMCBullet_40MikeMike.label"><s>40MikeMike Greande</s><r>40МайкМайк Греанде</r></e>
+  <e k="D" t="ThingDef" key="TMCBullet_HoneyBee.label"><s>Honey Bee rocket</s><r>Ракета «Медоносная пчела»</r></e>
+  <e k="D" t="ThingDef" key="TMCBullet_ISW_39S.label"><s>7.62x39mm bullet</s><r>Пуля 7,62х39 мм.</r></e>
+  <e k="D" t="ThingDef" key="TMCBullet_ISW_54R.label"><s>7.62x54mmR bullet</s><r>Пуля 7,62x54 ммR</r></e>
+  <e k="D" t="ThingDef" key="TMCBullet_PZ.label"><s>Tank Fist rocket</s><r>Ракета «Танк Кулак»</r></e>
+  <e k="D" t="ThingDef" key="TMCBullet_RPG.label"><s>Guerrilla rocket</s><r>Партизанская ракета</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_ACR.description"><s>The Adaptive Combat Rifle (ACR) is a modular assault rifle designed by Magpul Industries of Austin, Texas, and known initially as the Masada.</s><r>Адаптивная боевая винтовка (ACR) — модульная штурмовая винтовка, разработанная компанией Magpul Industries из Остина, штат Техас, и первоначально известная как Masada.</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_ACR.label"><s>ACR</s><r>ACR</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_ACR.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_ACR.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_ACR.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_ACR.verbs.0.label"><s>ACR</s><r>ACR</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AK74M.description"><s>A AK chambered in 5.45x39mmSoviet, lighter and less recoil than the 7.62x39mm AKM. This modernized version comes with an optic to help user to aquire target better.</s><r>АК под советский патрон 5,45x39 мм, легче и имеет меньшую отдачу, чем АКМ 7,62x39 мм. Эта модернизированная версия оснащена оптикой, которая помогает пользователю лучше захватывать цель.</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AK74M.label"><s>AK74M</s><r>АК74М</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AK74M.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AK74M.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AK74M.verbs.0.label"><s>AK74M</s><r>АК74М</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AK74MKalash.description"><s>An AK74M using Zenitco attachments in it configuration.</s><r>АК74М с навесным оборудованием «Зенитко» в конфигурации.</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AK74MKalash.label"><s>AK74M &quot;Zenitco&quot;</s><r>АК74М &quot;Зенитко&quot;</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AK74MKalash.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AK74MKalash.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AK74MKalash.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AK74MKalash.verbs.0.label"><s>AK74M &quot;Zenitco&quot;</s><r>АК74М &quot;Зенитко&quot;</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AK74N.description"><s>A AK chambered in 5.45x39mmSoviet, lighter and less recoil than the 7.62x39mm AKM.</s><r>АК под советский патрон 5,45x39 мм, легче и имеет меньшую отдачу, чем АКМ 7,62x39 мм.</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AK74N.label"><s>AK74N</s><r>АК74Н</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AK74N.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AK74N.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AK74N.verbs.0.label"><s>AK74N</s><r>АК74Н</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AKIDEA.description"><s>Someone was enjoying their time at Interchange.</s><r>Кто-то развлекался на Развязке.</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AKIDEA.label"><s>AK74 IDEA</s><r>АК74 ИДЕЯ</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AKIDEA.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AKIDEA.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AKIDEA.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AKIDEA.verbs.0.label"><s>AK74 IDEA</s><r>АК74 ИДЕЯ</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AKMClassic.description"><s>The AKM (Russian: Автома́т Кала́шникова модернизи́рованный, tr. Avtomát Kalášnikova modernizírovannyj, lit. 'Kalashnikov's Automatic Rifle Modernised') is an assault rifle designed by Soviet small arms designer Mikhail Kalashnikov in 1959. It is the most ubiquitous rifle of the Kalashnikov rifles.</s><r>АКМ (русский: Автомат Калашникова модернизированный, тр. Автомат Калашникова модернизированный, букв. «Модернизированный автомат Калашникова») — штурмовая винтовка, разработанная советским конструктором стрелкового оружия Михаилом Калашниковым в 1959 году. Это самая распространенная винтовка из автоматов Калашникова.</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AKMClassic.label"><s>AKM Classic</s><r>АКМ Классик</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AKMClassic.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AKMClassic.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AKMClassic.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AKMClassic.verbs.0.label"><s>AKM Classic</s><r>АКМ Классик</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AUG.description"><s>The Steyr AUG (German: Armee-Universal-Gewehr, lit. 'universal army rifle') is an Austrian bullpup assault rifle chambered for the 5.56×45mm NATO intermediate cartridge, designed in the 1960s by Steyr-Daimler-Puch.</s><r>Steyr AUG (нем. Armee-Universal-Gewehr, букв. «универсальная армейская винтовка») — австрийская штурмовая винтовка булл-пап под промежуточный патрон НАТО 5,56×45 мм, разработанная в 1960-х годах компанией Steyr-Daimler-Puch.</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AUG.label"><s>AUG</s><r>АВГ</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AUG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AUG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AUG.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_AUG.verbs.0.label"><s>AUG</s><r>АВГ</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_BullKalash.description"><s>There was an attempt at bullpup-ing an AK.</s><r>Была попытка булл-папа из АК.</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_BullKalash.label"><s>Bull Kalash</s><r>Бычий Калаш</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_BullKalash.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_BullKalash.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_BullKalash.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_BullKalash.verbs.0.label"><s>Bull Kalash</s><r>Бычий Калаш</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_Continental.description"><s>Does not comes with a pencil, a F****** pencil.</s><r>В комплект не входит карандаш, чертов карандаш.</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_Continental.label"><s>Continental</s><r>Континентальный</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_Continental.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_Continental.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_Continental.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_Continental.verbs.0.label"><s>Continental</s><r>Континентальный</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_DesertRifleV2tmc.label"><s>M4 &quot;SOPMOD&quot;</s><r>М4 «СОПМОД»</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_DesertRifleV2tmc.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_DesertRifleV2tmc.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_DesertRifleV2tmc.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_DesertRifleV2tmc.verbs.0.label"><s>M4 &quot;SOPMOD&quot;</s><r>М4 «СОПМОД»</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_FNFAL.description"><s>The FAL (an acronym in French for Fusil Automatique Léger, translated in English: Light Automatic Rifle) is a battle rifle designed by Belgian small arms designer Dieudonné Saive and manufactured by FN Herstal (or simply known as FN). This one has a 16 inches barrel.</s><r>FAL (французская аббревиатура от Fusil Automatique Léger, что переводится на английский: Light Automatique Rifle) — боевая винтовка, разработанная бельгийским конструктором стрелкового оружия Дьедонне Сэйв и производимая компанией FN Herstal (или просто известной как FN). У этого ствол 16 дюймов.</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_FNFAL.label"><s>FN FAL 16''.</s><r>ФН ФАЛ 16 дюймов.</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_FNFAL.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_FNFAL.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_FNFAL.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_FNFAL.verbs.0.label"><s>FN FAL 16''.</s><r>ФН ФАЛ 16 дюймов.</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_G36tmc.description"><s>The Heckler and Koch G36 (Gewehr 36) is a 5.56×45mm assault rifle designed in the early 1990s by German company Heckler and Koch as a replacement for the heavier 7.62×51mm G3 battle rifle.</s><r>Heckler and Koch G36 (Gewehr 36) — штурмовая винтовка калибра 5,56×45 мм, разработанная в начале 1990-х годов немецкой компанией Heckler and Koch в качестве замены более тяжелой боевой винтовки G3 калибра 7,62×51 мм.</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_G36tmc.label"><s>G36</s><r>G36</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_G36tmc.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_G36tmc.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_G36tmc.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_G36tmc.verbs.0.label"><s>G36</s><r>G36</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_HK416tmc.description"><s>The Heckler and Koch HK416 is a gas-operated assault rifle that is chambered for the 5.56x45mm NATO cartridge. It is designed and manufactured by the German company Heckler and Koch.</s><r>Heckler and Koch HK416 — газовая штурмовая винтовка под патрон НАТО 5,56x45 мм. Он разработан и производится немецкой компанией Heckler and Koch.</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_HK416tmc.label"><s>HK416</s><r>НК416</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_HK416tmc.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_HK416tmc.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_HK416tmc.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_HK416tmc.verbs.0.label"><s>HK416</s><r>НК416</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_M16Combat.description"><s>The M16 rifle, officially designated Rifle, Caliber 5.56 mm, M16, is a family of military rifles adapted from the ArmaLite AR-15 rifle for the United States military. The original M16 rifle was a 5.56 mm assault rifle with a 20-round magazine.</s><r>Винтовка M16, официально обозначенная как Rifle, калибр 5,56 мм, M16, представляет собой семейство военных винтовок, адаптированных на основе винтовки ArmaLite AR-15 для вооруженных сил США. Оригинальная винтовка М16 представляла собой автомат калибра 5,56 мм с магазином на 20 патронов.</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_M16Combat.label"><s>M16</s><r>М16</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_M16Combat.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_M16Combat.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_M16Combat.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_M16Combat.verbs.0.label"><s>M16</s><r>М16</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_MDR.description"><s>The product of the US-based company Desert Tech LLC MDR rifle is a modular, multi-caliber weapon with compact bullpup layout. Barrel lengths and calibers can be changed by the end user within minutes with a minimum amount of tools. (Don`t look at me, I don`t know how to make that happen)</s><r>Винтовка MDR американской компании Desert Tech LLC представляет собой модульное мультикалиберное оружие компактной компоновки булл-пап. Длина ствола и калибр могут быть изменены конечным пользователем в течение нескольких минут с использованием минимального количества инструментов. (Не смотри на меня, я не знаю, как это сделать)</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_MDR.label"><s>MDR</s><r>МЛУ</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_MDR.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_MDR.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_MDR.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_AR_MDR.verbs.0.label"><s>MDR</s><r>МЛУ</r></e>
+  <e k="D" t="ThingDef" key="TMC_Bullet_Krd.label"><s>12.7mm  bullet</s><r>пуля 12,7 мм</r></e>
+  <e k="D" t="ThingDef" key="TMC_GL_GLM.description"><s>Greande Launcher Model 40, reusable.
+	A standard grenade launcher with a holographic sight and laser module to aid in aiming, suitable in clearing crowd with high-explosive rounds or clear a small room of insects (I really hate insects...).</s><r>Гранатомет, модель 40, многоразовый.
+ Стандартный гранатомет с голографическим прицелом и лазерным модулем для помощи в прицеливании, подходит для зачистки толпы осколочно-фугасными снарядами или очистки небольшой комнаты от насекомых (я очень ненавижу насекомых...).</r></e>
+  <e k="D" t="ThingDef" key="TMC_GL_GLM.label"><s>GL40</s><r>GL40</r></e>
+  <e k="D" t="ThingDef" key="TMC_GL_GLM.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_GL_GLM.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_GL_GLM.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_GL_GLM.verbs.0.label"><s>GL40</s><r>GL40</r></e>
+  <e k="D" t="ThingDef" key="TMC_GL_RTGL.description"><s>Revolver-type Greande Launcher, reusable.
+	A 6 shot greande launcher, provide mutilple shots down your target with the cost of smaller blast radius, slow reloading time and weight.Suitable for tight hallways,room clearing and insect cleaning ( I seriously hate insects....).</s><r>Гранатомет револьверного типа, многоразовый.
+ Гранатомет на 6 выстрелов, обеспечивает несколько выстрелов по вашей цели за счет меньшего радиуса взрыва, медленного времени перезарядки и веса. Подходит для узких коридоров, расчистки помещений и уборки насекомых (я серьезно ненавижу насекомых....).</r></e>
+  <e k="D" t="ThingDef" key="TMC_GL_RTGL.label"><s>RTGL</s><r>РТГЛ</r></e>
+  <e k="D" t="ThingDef" key="TMC_GL_RTGL.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_GL_RTGL.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_GL_RTGL.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_GL_RTGL.verbs.0.label"><s>RTGL</s><r>РТГЛ</r></e>
+  <e k="D" t="ThingDef" key="TMC_Gun_AGS.description"><s>A belt-fed automatic grenade launcher.</s><r>Автоматический гранатомет с ленточным питанием.</r></e>
+  <e k="D" t="ThingDef" key="TMC_Gun_AGS.label"><s>Automatic Grenade Launcher</s><r>Автоматический гранатомет</r></e>
+  <e k="D" t="ThingDef" key="TMC_Gun_AGS.verbs.0.label"><s>Automatic Grenade Launcher</s><r>Автоматический гранатомет</r></e>
+  <e k="D" t="ThingDef" key="TMC_Gun_HoneyBee.description"><s>A single-use rocket launcher.
+	A cheap rocket launcher that can only be fire once,after firing the user is required to dispose the empty tube.Lower range than regular rocket launcher but greater penetration and damage in it explosive charge.</s><r>Одноразовая ракетная установка.
+ Дешевая ракетная установка, из которой можно выстрелить только один раз, после выстрела пользователь должен утилизировать пустую трубку. Меньшая дальность действия, чем у обычной ракетной установки, но большее проникновение и урон от взрывного заряда.</r></e>
+  <e k="D" t="ThingDef" key="TMC_Gun_HoneyBee.label"><s>Honey Bee</s><r>Медоносная пчела</r></e>
+  <e k="D" t="ThingDef" key="TMC_Gun_HoneyBee.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_Gun_HoneyBee.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_Gun_HoneyBee.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_Gun_HoneyBee.verbs.0.label"><s>Honey Bee</s><r>Медоносная пчела</r></e>
+  <e k="D" t="ThingDef" key="TMC_Gun_Krd.description"><s>Krd heavy machine gun, need to mounted on a tripod.</s><r>Крупнокалиберный пулемет КРД, необходимо устанавливать на треногу.</r></e>
+  <e k="D" t="ThingDef" key="TMC_Gun_Krd.label"><s>Krd turret gun</s><r>Турельная пушка КРД</r></e>
+  <e k="D" t="ThingDef" key="TMC_Gun_Krd.verbs.0.label"><s>Krd turret gun</s><r>Турельная пушка КРД</r></e>
+  <e k="D" t="ThingDef" key="TMC_Gun_Tankfist.description"><s>A more advanced rocket launcher, lighter weight,longer range and provide a larger explosive charge inside it warhead.</s><r>Более совершенная ракетная установка, меньший вес, большая дальность действия и больший заряд взрывчатого вещества внутри боеголовки.</r></e>
+  <e k="D" t="ThingDef" key="TMC_Gun_Tankfist.label"><s>Panzerfaust 3</s><r>Панцерфауст 3</r></e>
+  <e k="D" t="ThingDef" key="TMC_Gun_Tankfist.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_Gun_Tankfist.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_Gun_Tankfist.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_Gun_Tankfist.verbs.0.label"><s>Panzerfaust 3</s><r>Панцерфауст 3</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_1911Aeroknox.label"><s>1911Aeroknox</s><r>1911Аэрокнокс</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_1911Aeroknox.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_1911Aeroknox.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_1911Aeroknox.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_1911Aeroknox.verbs.0.label"><s>1911Aeroknox</s><r>1911Аэрокнокс</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_M17a.label"><s>M17</s><r>М17</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_M17a.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_M17a.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_M17a.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_M17a.verbs.0.label"><s>M17</s><r>М17</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_M29a.description"><s>Small revolver for conceal carrying.</s><r>Маленький револьвер для скрытого ношения.</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_M29a.label"><s>M29</s><r>М29</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_M29a.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_M29a.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_M29a.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_M29a.verbs.0.label"><s>M29</s><r>М29</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_M9A3a.description"><s>Sneaky Sneaky.</s><r>Подлый Подлый.</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_M9A3a.label"><s>M9A3</s><r>М9А3</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_M9A3a.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_M9A3a.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_M9A3a.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_M9A3a.verbs.0.label"><s>M9A3</s><r>М9А3</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_MP443a.description"><s>Semi-Auto Pistol, very standard and not much to talk about.</s><r>Полуавтоматический пистолет, очень стандартный, о нем особо не о чем говорить.</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_MP443a.label"><s>MP443</s><r>МП443</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_MP443a.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_MP443a.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_MP443a.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_MP443a.verbs.0.label"><s>MP443</s><r>МП443</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_Makarov.description"><s>Semi-Auto Pistol, small size for conceal carry.</s><r>Полуавтоматический пистолет небольшого размера для скрытого ношения.</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_Makarov.label"><s>Makarov</s><r>Макаров</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_Makarov.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_Makarov.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_Makarov.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_Makarov.verbs.0.label"><s>Makarov</s><r>Макаров</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_MakarovDrummer.description"><s>Let`s throw concealment out of the window and have the ability to shoot 80 peas at your raiders.</s><r>Давайте выбросим укрытие из окна и получим возможность выстрелить в ваших рейдеров 80 горошин.</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_MakarovDrummer.label"><s>MakarovDrummer</s><r>МакаровБарабанщик</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_MakarovDrummer.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_MakarovDrummer.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_MakarovDrummer.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_MakarovDrummer.verbs.0.label"><s>MakarovDrummer</s><r>МакаровБарабанщик</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_P99tmc.description"><s>This is a pistol, the end.</s><r>Это пистолет, конец.</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_P99tmc.label"><s>P99</s><r>P99</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_P99tmc.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_P99tmc.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_P99tmc.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_HG_P99tmc.verbs.0.label"><s>P99</s><r>P99</r></e>
+  <e k="D" t="ThingDef" key="TMC_LMG_M240tmc.description"><s>A Machine Gun designed to deliver support fire.</s><r>Пулемет, предназначенный для ведения огневой поддержки.</r></e>
+  <e k="D" t="ThingDef" key="TMC_LMG_M240tmc.label"><s>M240</s><r>М240</r></e>
+  <e k="D" t="ThingDef" key="TMC_LMG_M240tmc.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_LMG_M240tmc.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_LMG_M240tmc.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_LMG_M240tmc.verbs.0.label"><s>M240</s><r>М240</r></e>
+  <e k="D" t="ThingDef" key="TMC_LMG_M249tmc.description"><s>A Machine Gun designed to deliver support fire.</s><r>Пулемет, предназначенный для ведения огневой поддержки.</r></e>
+  <e k="D" t="ThingDef" key="TMC_LMG_M249tmc.label"><s>M249</s><r>М249</r></e>
+  <e k="D" t="ThingDef" key="TMC_LMG_M249tmc.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_LMG_M249tmc.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_LMG_M249tmc.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_LMG_M249tmc.verbs.0.label"><s>M249</s><r>М249</r></e>
+  <e k="D" t="ThingDef" key="TMC_LMG_MG5tmc.description"><s>A Machine Gun designed to deliver support fire.</s><r>Пулемет, предназначенный для ведения огневой поддержки.</r></e>
+  <e k="D" t="ThingDef" key="TMC_LMG_MG5tmc.label"><s>MG5</s><r>МГ5</r></e>
+  <e k="D" t="ThingDef" key="TMC_LMG_MG5tmc.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_LMG_MG5tmc.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_LMG_MG5tmc.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_LMG_MG5tmc.verbs.0.label"><s>MG5</s><r>МГ5</r></e>
+  <e k="D" t="ThingDef" key="TMC_LMG_Pulemyot.description"><s>A gas-operated light machine gun. While it is somewhat unwieldy and inaccurate, its long bursts of fire are effective against groups of enemies.</s><r>Ручной газовый пулемет. Хотя он несколько громоздкий и неточный, его длинные очереди эффективны против групп врагов.</r></e>
+  <e k="D" t="ThingDef" key="TMC_LMG_Pulemyot.label"><s>PKM Pulemyot</s><r>ПКМ Пулемёт</r></e>
+  <e k="D" t="ThingDef" key="TMC_LMG_Pulemyot.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_LMG_Pulemyot.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_LMG_Pulemyot.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_LMG_Pulemyot.verbs.0.label"><s>PKM Pulemyot</s><r>ПКМ Пулемёт</r></e>
+  <e k="D" t="ThingDef" key="TMC_LMG_Rebel.description"><s>A gas-operated light machine gun. While it is somewhat unwieldy and inaccurate, its long bursts of fire are effective against groups of enemies.</s><r>Ручной газовый пулемет. Хотя он несколько громоздкий и неточный, его длинные очереди эффективны против групп врагов.</r></e>
+  <e k="D" t="ThingDef" key="TMC_LMG_Rebel.label"><s>RPK &quot;Rebel&quot;</s><r>РПК «Ребел»</r></e>
+  <e k="D" t="ThingDef" key="TMC_LMG_Rebel.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_LMG_Rebel.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_LMG_Rebel.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_LMG_Rebel.verbs.0.label"><s>RPK &quot;Rebel&quot;</s><r>РПК «Ребел»</r></e>
+  <e k="D" t="ThingDef" key="TMC_RPG_Guerrilla.description"><s>A simple yet effective re-usable rocket launcher, come with it own improvised sight.
+	Based of an ancient design, it is said the weapon was popular among insurgent factions.While it is cheap to produce, this weapon is very heavy and bulky.</s><r>Простая, но эффективная ракетная установка многоразового использования, оснащенная собственным импровизированным прицелом.
+ Основанное на древней конструкции, говорят, что это оружие было популярно среди повстанческих группировок. Несмотря на дешевизну производства, это оружие очень тяжелое и громоздкое.</r></e>
+  <e k="D" t="ThingDef" key="TMC_RPG_Guerrilla.label"><s>RPG-7 Guerrilla</s><r>РПГ-7 Партизан</r></e>
+  <e k="D" t="ThingDef" key="TMC_RPG_Guerrilla.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_RPG_Guerrilla.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_RPG_Guerrilla.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_RPG_Guerrilla.verbs.0.label"><s>RPG-7 Guerrilla</s><r>РПГ-7 Партизан</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_KS23tmc.description"><s>A large caliber shotgun, has higher damage but slower rate of fire.</s><r>Дробовик большого калибра, имеет более высокий урон, но более низкую скорострельность.</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_KS23tmc.label"><s>KS23</s><r>КС23</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_KS23tmc.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_KS23tmc.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_KS23tmc.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_KS23tmc.verbs.0.label"><s>KS23</s><r>КС23</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_M2Shotgun.description"><s>A Semi-auto shotgun that use armor-piercing slugs.</s><r>Полуавтоматический дробовик, в котором используются бронебойные пули.</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_M2Shotgun.label"><s>M2 Super 90 &quot;TTI&quot;</s><r>М2 Супер 90 «ТТИ»</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_M2Shotgun.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_M2Shotgun.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_M2Shotgun.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_M2Shotgun.verbs.0.label"><s>M2 Super 90 &quot;TTI&quot;</s><r>М2 Супер 90 «ТТИ»</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_M870tmc.description"><s>A pump-action shotgun.</s><r>Помповое ружье.</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_M870tmc.label"><s>M870</s><r>М870</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_M870tmc.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_M870tmc.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_M870tmc.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_M870tmc.verbs.0.label"><s>M870</s><r>М870</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_MP155ULTIMA.label"><s>MP155 &quot;ULTIMA&quot;</s><r>МП155 «УЛЬТИМА»</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_MP155ULTIMA.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_MP155ULTIMA.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_MP155ULTIMA.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_MP155ULTIMA.verbs.0.label"><s>MP155 &quot;ULTIMA&quot;</s><r>МП155 «УЛЬТИМА»</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_Model1887tmc.description"><s>A shotgun for using the lever-action system to feed a new shell instead of traditional pump.</s><r>Ружье с рычажной системой подачи нового патрона вместо традиционного помпового.</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_Model1887tmc.label"><s>Model 1887 Lever-action shotgun</s><r>Ружье рычажного действия образца 1887 г.</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_Model1887tmc.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_Model1887tmc.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_Model1887tmc.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_Model1887tmc.verbs.0.label"><s>Model 1887 Lever-action shotgun</s><r>Ружье рычажного действия образца 1887 г.</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_OnUShotgun.description"><s>A double barrel shotgun in the Over Under form.</s><r>Двуствольное ружье в форме Over Under.</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_OnUShotgun.label"><s>OnU Shotgun</s><r>ОНУ Дробовик</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_OnUShotgun.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_OnUShotgun.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_OnUShotgun.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_OnUShotgun.verbs.0.label"><s>OnU Shotgun</s><r>ОНУ Дробовик</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_Sawnoff.description"><s>A double-barrel shotgun that has it barrel and stock sawn down to a compact package.</s><r>Двуствольное ружье со стволом и прикладом, урезанными до компактного размера.</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_Sawnoff.label"><s>Sawnoff</s><r>Савнов</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_Sawnoff.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_Sawnoff.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_Sawnoff.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_Sawnoff.verbs.0.label"><s>Sawnoff</s><r>Савнов</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_Spas.label"><s>SPAS-12</s><r>СПАС-12</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_Spas.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_Spas.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_Spas.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_SG_Spas.verbs.0.label"><s>SPAS-12</s><r>СПАС-12</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_MP5SD.description"><s>Suppressed MP5....The end.</s><r>Подавлено МП5....Конец.</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_MP5SD.label"><s>MP5SD</s><r>МП5СД</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_MP5SD.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_MP5SD.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_MP5SD.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_MP5SD.verbs.0.label"><s>MP5SD</s><r>МП5СД</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_MP7tmc.label"><s>MP7</s><r>МП7</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_MP7tmc.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_MP7tmc.tools.1.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_MP7tmc.verbs.0.label"><s>MP7</s><r>МП7</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_MPX.label"><s>MPX</s><r>МПХ</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_MPX.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_MPX.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_MPX.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_MPX.verbs.0.label"><s>MPX</s><r>МПХ</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_P90tmc.label"><s>FN P90</s><r>Организация Объединенных Наций P90</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_P90tmc.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_P90tmc.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_P90tmc.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_P90tmc.verbs.0.label"><s>FN P90</s><r>Организация Объединенных Наций P90</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_PP19tmc.label"><s>PP19 Bizon</s><r>ПП19 Бизон</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_PP19tmc.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_PP19tmc.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_PP19tmc.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_PP19tmc.verbs.0.label"><s>PP19 Bizon</s><r>ПП19 Бизон</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_UMP45tmc.label"><s>UMP45</s><r>УМП45</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_UMP45tmc.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_UMP45tmc.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_UMP45tmc.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_UMP45tmc.verbs.0.label"><s>UMP45</s><r>УМП45</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_Vector9mm.label"><s>Vector 9mm</s><r>Вектор 9 мм</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_Vector9mm.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_Vector9mm.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_Vector9mm.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_Vector9mm.verbs.0.label"><s>Vector 9mm</s><r>Вектор 9 мм</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_VectorCRB.label"><s>Vector CRB</s><r>Вектор ЦРБ</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_VectorCRB.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_VectorCRB.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_VectorCRB.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_SMG_VectorCRB.verbs.0.label"><s>Vector CRB</s><r>Вектор ЦРБ</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_AWM388tmc.label"><s>AWM</s><r>ГРУДЬ</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_AWM388tmc.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_AWM388tmc.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_AWM388tmc.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_AWM388tmc.verbs.0.label"><s>AWM</s><r>ГРУДЬ</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_HacateII.label"><s>HacateII</s><r>Взломанный II</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_HacateII.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_HacateII.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_HacateII.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_HacateII.verbs.0.label"><s>HacateII</s><r>Взломанный II</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_M700Precison.label"><s>M700 Precison</s><r>М700 Прецизионность</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_M700Precison.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_M700Precison.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_M700Precison.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_M700Precison.verbs.0.label"><s>M700 Precison</s><r>М700 Прецизионность</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_M700tmc.label"><s>M700</s><r>М700</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_M700tmc.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_M700tmc.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_M700tmc.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_M700tmc.verbs.0.label"><s>M700</s><r>М700</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_MFourteenThermal.description"><s>A Semi-Auto Rifle chambered in .308 , equiped with a thermal scope for easier targeting, decent damage and accuracy but semi-auto only.(This weapon has NVG stats if Combat Extended is loaded).</s><r>Полуавтоматическая винтовка под патрон .308, оснащенная тепловизионным прицелом для облегчения прицеливания, приличного урона и точности, но только в полуавтоматическом режиме. (Это оружие имеет характеристики ПНВ, если загружено Combat Extended).</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_MFourteenThermal.label"><s>M14 (Thermal scope)</s><r>M14 (Тепловизионный прицел)</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_MFourteenThermal.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_MFourteenThermal.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_MFourteenThermal.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_MFourteenThermal.verbs.0.label"><s>M14 (Thermal scope)</s><r>M14 (Тепловизионный прицел)</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_MK17tmc.label"><s>MK17</s><r>МК17</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_MK17tmc.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_MK17tmc.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_MK17tmc.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_MK17tmc.verbs.0.label"><s>MK17</s><r>МК17</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_MKOneEightThermal.description"><s>A Semi-Auto Rifle chambered in .338 Lapua magnum, equiped with a thermal scope for easier targeting. Good damage and penetration but it size, semi-auto only, slow rate of fire and production cost hinders it ability in close range.(This weapon has NVG stats if Combat Extended is loaded).</s><r>Полуавтоматическая винтовка под патрон .338 Lapua Magnum, оснащенная тепловизионным прицелом для облегчения прицеливания. Хороший урон и пробиваемость, но его размер, только полуавтоматический режим, низкая скорострельность и стоимость производства препятствуют его способности работать на близком расстоянии. (Это оружие имеет характеристики ПНВ, если загружен Combat Extended).</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_MKOneEightThermal.label"><s>MK18 Mjolnir (Thermal scope)</s><r>MK18 Мьёльнир (Тепловизионный прицел)</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_MKOneEightThermal.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_MKOneEightThermal.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_MKOneEightThermal.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_MKOneEightThermal.verbs.0.label"><s>MK18 Mjolnir (Thermal scope)</s><r>MK18 Мьёльнир (Тепловизионный прицел)</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_MRAD.label"><s>MRAD</s><r>МИСТЕР</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_MRAD.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_MRAD.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_MRAD.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_MRAD.verbs.0.label"><s>MRAD</s><r>МИСТЕР</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_RFB.description"><s>A Semi-Auto Rifle chambered in .308 , equiped with a budget thermal sight for easier targeting at close range, decent damage and accuracy but semi-auto only and lack range compare to other DMRs.(This weapon has NVG stats if Combat Extended is loaded).</s><r>Полуавтоматическая винтовка под патрон .308, оснащенная бюджетным тепловизионным прицелом для облегчения прицеливания на близком расстоянии, приличного урона и точности, но только полуавтоматическая и недостаточная дальность по сравнению с другими DMR. (Это оружие имеет характеристики ПНВ, если загружен Combat Extended).</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_RFB.label"><s>RFB (Thermal Sight)</s><r>RFB (тепловизир)</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_RFB.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_RFB.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_RFB.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_RFB.verbs.0.label"><s>RFB (Thermal Sight)</s><r>RFB (тепловизир)</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_SKSOldNVG.description"><s>A regular SKS chambered in 7.62x39mm, equiped with a simple....very simple Night vision scope, while it allow better vision in dark area somewhat, one have to think about the drawbacks.(This weapon has NVG stats if Combat Extended is loaded).</s><r>Обычный СКС под патрон 7,62x39 мм, оснащенный простым....очень простым прицелом ночного видения, хотя он и обеспечивает несколько лучшее зрение в темной зоне, но нужно подумать о недостатках. (Это оружие имеет характеристики ПНВ, если загружен Combat Extended).</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_SKSOldNVG.label"><s>SKS (&quot;Budget&quot; NVG Scope)</s><r>СКС («Бюджетный» прицел ПНВ)</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_SKSOldNVG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_SKSOldNVG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_SKSOldNVG.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_SKSOldNVG.verbs.0.label"><s>SKS (&quot;Budget&quot; NVG Scope)</s><r>СКС («Бюджетный» прицел ПНВ)</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_SR25tmc.label"><s>SR25</s><r>СР25</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_SR25tmc.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_SR25tmc.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_SR25tmc.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_SR25tmc.verbs.0.label"><s>SR25</s><r>СР25</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_SRS.label"><s>SRS</s><r>СРС</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_SRS.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_SRS.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_SRS.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="TMC_SR_SRS.verbs.0.label"><s>SRS</s><r>СРС</r></e>
+  <e k="D" t="ThingDef" key="TMC_TurretShot_AGS.label"><s>30mm Grenade</s><r>30-мм граната</r></e>
+  <e k="D" t="ThingDef" key="TMC_Turret_AGS.description"><s>A mounted automatic grenade launcher, provide excellent area of effect damage with great rate of fire.</s><r>Установленный автоматический гранатомет обеспечивает превосходный урон по площади и высокую скорострельность.</r></e>
+  <e k="D" t="ThingDef" key="TMC_Turret_AGS.label"><s>Mounted AGS Turret</s><r>Установленная турель АГС</r></e>
+  <e k="D" t="ThingDef" key="TMC_Turret_Krd.description"><s>A mounted heavy machine gun , use 12.7mm rounds that are enough to penetrate thick armors.</s><r>Установленный крупнокалиберный пулемет использует патроны калибра 12,7 мм, которых достаточно, чтобы пробить толстую броню.</r></e>
+  <e k="D" t="ThingDef" key="TMC_Turret_Krd.label"><s>Mounted Krd Turret</s><r>Установленная турель Крд</r></e>
+  <e k="D" t="ThingDef" key="TableTMC.description"><s>A work station for producing TMC weapons.</s><r>Рабочая станция по производству оружия ТМС.</r></e>
+  <e k="D" t="ThingDef" key="TableTMC.label"><s>TMC Weapon Table</s><r>Таблица оружия ТМС</r></e>
+  <e k="D" t="WorkGiverDef" key="DoBillsMakeTMCGun.gerund"><s>crafting at</s><r>ремесло в</r></e>
+  <e k="D" t="WorkGiverDef" key="DoBillsMakeTMCGun.label"><s>make weapon</s><r>сделать оружие</r></e>
+  <e k="D" t="WorkGiverDef" key="DoBillsMakeTMCGun.verb"><s>craft</s><r>ремесло</r></e>
+</AutoTranslateCache>
