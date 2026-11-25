@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="tmc.eft.sharpstickretooled" name="[TMC] EFT Sharpsticks Retooled" language="Russian" version="1">
+  <e k="D" t="DamageDef" key="Cut_UnknownToxin.deathMessage"><s>{0} has been cut to death.</s><r>{0} был зарезан насмерть.</r></e>
+  <e k="D" t="DamageDef" key="Cut_UnknownToxin.label"><s>cut</s><r>резать</r></e>
+  <e k="D" t="DamageDef" key="Stab_UnknownToxin.deathMessage"><s>{0} has been stabbed to death.</s><r>{0} был зарезан.</r></e>
+  <e k="D" t="DamageDef" key="Stab_UnknownToxin.label"><s>stab</s><r>нанести удар</r></e>
+  <e k="D" t="HediffDef" key="UnknownToxicBuildup.description"><s>Unknown toxin courses through the bloodstream, delivered by a tainted cultist blade of unknown origin. Its effects steadily worsen over time, corrupting the body until properly treated.
+
+At high doses, toxic buildup is lethal. Even at low doses, it can generate cancers.
+
+If a creature dies with toxic buildup, there's a chance that they cannot be eaten. The higher the toxic buildup, the higher the chance.</s><r>Неизвестный токсин циркулирует в крови, доставленный испорченным культистским клинком неизвестного происхождения. Его воздействие со временем неуклонно ухудшается, разлагая организм до тех пор, пока не будет проведено правильное лечение.
+
+При высоких дозах накопление токсинов смертельно. Даже в низких дозах оно может вызвать рак.
+
+Если существо умирает от накопления токсичных веществ, есть вероятность, что его нельзя будет съесть. Чем выше накопление токсичных веществ, тем выше вероятность.</r></e>
+  <e k="D" t="HediffDef" key="UnknownToxicBuildup.label"><s>unknown toxic buildup</s><r>неизвестное токсичное скопление</r></e>
+  <e k="D" t="HediffDef" key="UnknownToxicBuildup.stages.0.label"><s>initial</s><r>исходный</r></e>
+  <e k="D" t="HediffDef" key="UnknownToxicBuildup.stages.1.label"><s>minor</s><r>незначительный</r></e>
+  <e k="D" t="HediffDef" key="UnknownToxicBuildup.stages.2.label"><s>moderate</s><r>умеренный</r></e>
+  <e k="D" t="HediffDef" key="UnknownToxicBuildup.stages.3.label"><s>serious</s><r>серьезный</r></e>
+  <e k="D" t="HediffDef" key="UnknownToxicBuildup.stages.4.label"><s>extreme</s><r>крайний</r></e>
+  <e k="D" t="ThingCategoryDef" key="TMC_EFTMelee.label"><s>EFT Melee</s><r>EFT в ближнем бою</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_APOKGladius.description"><s>&quot;Tactical Wasteland Gladius&quot; Tactical sword. Manufactured by APOK. Arena champion's prime melee weapon. Rumors are that this is the exact blade that gladiator Voron used to fight with. Or at least it looks like one.</s><r>«Тактический Гладиус Пустоши» Тактический меч. Производитель АПОК. Лучшее оружие ближнего боя чемпиона арены. Ходят слухи, что это именно тот клинок, которым сражался гладиатор Ворон. Или, по крайней мере, это похоже на него.</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_APOKGladius.label"><s>APOK Tactical Wasteland Gladius </s><r>APOK Тактический Wasteland Gladius </r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_APOKGladius.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_APOKGladius.tools.1.label"><s>blade</s><r>лезвие</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_APOKGladius.tools.2.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_Akula.description"><s>As dangerous as the fish it's named after.</s><r>Так же опасен, как и рыба, в честь которой он назван.</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_Akula.label"><s>Akula push dagger</s><r>Акула толкающий кинжал</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_Akula.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_Akula.tools.1.label"><s>blade</s><r>лезвие</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_Akula.tools.2.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_AntiqueAxe.description"><s>Antique axe with a damaged handle that belonged to the ancient clan of hatchlings called WYCC.</s><r>Антикварный топор с поврежденной ручкой, принадлежавший древнему клану детенышей WYCC.</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_AntiqueAxe.label"><s>Antique Axe</s><r>Античный топор</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_AntiqueAxe.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_AntiqueAxe.tools.1.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_BlackKnife.description"><s>The Bars A-2607 knife, forged of Damascus steel with a wenge handle and brass guard.</s><r>Нож Барс А-2607, выкован из дамасской стали, с рукояткой из венге и латунной гардой.</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_BlackKnife.label"><s>Bars A-2607 Damascus knife</s><r>Нож Дамасский Барс А-2607</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_BlackKnife.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_BlackKnife.tools.1.label"><s>blade</s><r>лезвие</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_BlackKnife.tools.2.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_BrownKnife.description"><s>A Bars knife A-2607, forged of 95x18 steel with fine wood handle and brass guard.You need 5 of these b*#@#$! on your way to get the Epsilon container.</s><r>Нож «Барс» А-2607, выкован из стали 95х18, с ручкой из ценного дерева и латунной гардой. Вам понадобится 5 таких б*#@#$! на пути к контейнеру Эпсилон.</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_BrownKnife.label"><s>Bars A-2607 Knife</s><r>Нож Барс А-2607</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_BrownKnife.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_BrownKnife.tools.1.label"><s>blade</s><r>лезвие</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_BrownKnife.tools.2.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_CampAxe.description"><s>Universal travel axe for use in field conditions or at the farm.</s><r>Универсальный туристический топор для использования в полевых условиях или на ферме.</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_CampAxe.label"><s>Camper Axe</s><r>Кемпер Топор</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_CampAxe.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_CampAxe.tools.1.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_ClowningKukri.description"><s>A 48 series tactical kukri manufactured by United Cutlery. Features a stainless steel blade and rubberized handle. A great addition to every &quot;true clowns&quot;!</s><r>Тактический кукри 48-й серии производства United Cutlery. Имеет лезвие из нержавеющей стали и прорезиненную ручку. Отличное дополнение для каждого «настоящего клоуна»!</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_ClowningKukri.label"><s>United Cutlery M48 Clowning Kukri </s><r>United Cutlery M48 Клоунада Кукри </r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_ClowningKukri.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_ClowningKukri.tools.1.label"><s>blade</s><r>лезвие</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_ClowningKukri.tools.2.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_CopBaton.description"><s>The PR-Taran baton with side handle is used by law enforcement agencies for protection and crowd control.</s><r>Дубинка ПР-Таран с боковой рукояткой используется правоохранительными органами для защиты и сдерживания толпы.</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_CopBaton.label"><s>PR-Taran police baton</s><r>PR-Таран полицейская дубинка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_CopBaton.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_CopBaton.tools.1.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_CrashAxe.description"><s>Designed as a tool for working with hard surfaces. Materials and construction are designed to provide optimal impact and strength. The head of the axe is made of 6AL4V titanium with a thickness of 2.85 inches.</s><r>Создан как инструмент для работы с твердыми поверхностями. Материалы и конструкция разработаны таким образом, чтобы обеспечить оптимальную ударную нагрузку и прочность. Головка топора изготовлена ​​из титана 6АЛ4В толщиной 2,85 дюйма.</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_CrashAxe.label"><s>Crash Axe</s><r>Аварийный топор</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_CrashAxe.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_CrashAxe.tools.1.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_Crowbar.description"><s>A reliable steel crowbar manufactured by Freeman company. Caution! May lead to Resonance Cascade.</s><r>Надежный стальной лом производства компании Freeman. Осторожность! Может привести к резонансному каскаду.</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_Crowbar.label"><s>Freeman Crowbar</s><r>Лом Фримена</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_Crowbar.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_Crowbar.tools.1.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_CultistKnife.description"><s>A knife of a strange shape and with strange signs, taken from the cultists. Seems like it is used as a ritual knife, but apparently it's not limited to this use. It has technological changes in the design intended for the use of toxic substances - it's better not to touch the blade.</s><r>Нож странной формы и со странными знаками, отобранный у культистов. Вроде бы его используют как ритуальный нож, но видимо этим применение не ограничивается. Имеет технологические изменения в конструкции, предназначенные для использования токсичных веществ – лезвие лучше не трогать.</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_CultistKnife.label"><s>Cultist Knife</s><r>Культистский нож</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_CultistKnife.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_CultistKnife.tools.1.label"><s>blade</s><r>лезвие</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_CultistKnife.tools.2.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_EODAxe.description"><s>A tactical tomahawk, multitool and breaching tool, all-in-one solution.</s><r>Тактический томагавк, многофункциональный инструмент и инструмент для взлома – универсальное решение.</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_EODAxe.label"><s>EOD Axe</s><r>Топор ОВП</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_EODAxe.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_EODAxe.tools.1.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_ERFulcrum.description"><s>Following on from the successful FULCRUM knife, Extrema Ratio developed a bayonet version of that design. Like the original FULCRUM, this bayonet is extremely versatile and strong. The tanto-shaped blade allows for large amounts of work and wear while still keeping a sharp edge at its exceedingly sturdy tip. This feature, combined with a sharp false edge, makes the knife retain sufficient combat penetration capability to engage targets covered in heavy clothing, padding, or soft ballistic protections. Thanks to its weight and top-heavy balancing, the FULCRUM BAYONET blade is suitable for hard work on the field.</s><r>Вслед за успешным ножом FULCRUM компания Extrema Ratio разработала штыковую версию этой конструкции. Как и оригинальный FULCRUM, этот штык чрезвычайно универсален и прочен. Лезвие в форме танто позволяет выполнять большую работу и изнашиваться, сохраняя при этом острую кромку на чрезвычайно прочном кончике. Эта особенность в сочетании с острой ложной кромкой позволяет ножу сохранять достаточную боевую проникающую способность для поражения целей, покрытых тяжелой одеждой, обивкой или мягкой баллистической защитой. Благодаря своему весу и сложной балансировке отвал FULCRUM BAYONET подходит для тяжелых работ в поле.</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_ERFulcrum.label"><s>ER FULCRUM bayonet</s><r>IS FULCRUM штык</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_ERFulcrum.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_ERFulcrum.tools.1.label"><s>blade</s><r>лезвие</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_ERFulcrum.tools.2.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_FinkaKnife.description"><s>A replica of the Soviet combat knife crafted by Norvinsk masters, based on Finnish and Swedish designs. Originally used as a utility tool and, when necessary, in combat, the Finka earned a reputation for simplicity and reliability. Its design provides a comfortable, secure grip. Today, it serves more as a collectible piece than a practical weapon.</s><r>Реплика советского боевого ножа, изготовленная норвинскими мастерами по финским и шведским образцам. Первоначально использовавшийся в качестве вспомогательного инструмента и, при необходимости, в бою, Finka заслужил репутацию простого и надежного оружия. Его конструкция обеспечивает удобный и надежный захват. Сегодня он служит скорее коллекционным предметом, чем практичным оружием.</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_FinkaKnife.label"><s>Finka Knife</s><r>Финка Нож</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_FinkaKnife.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_FinkaKnife.tools.1.label"><s>blade</s><r>лезвие</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_FinkaKnife.tools.2.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_MPLShovel.description"><s>MPL-50 (Malaya Pekhotnaya Lopata 50 - &quot;Small Infantry Spade 50&quot;) is a small spade invented by a Danish officer Mads Johan Buch Linnemann in 1869. While nominally an entrenching tool, MPL-50 saw a wide range of wartime applications ranging from a close quarters combat weapon to a cooking utensil.</s><r>MPL-50 (Малая Пехотная Лопата 50 — «Малая пехотная лопата 50») — небольшая лопата, изобретенная датским офицером Мадсом Йоханом Бухом Линнеманом в 1869 году. Хотя номинально MPL-50 была окопным инструментом, она нашла широкое применение в военное время: от оружия ближнего боя до кухонной утвари.</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_MPLShovel.label"><s>MPL Shovel</s><r>МПЛ Лопата</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_MPLShovel.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_MPLShovel.tools.1.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_MTwoTacSword.description"><s>The &quot;M-2&quot; short tactical sword, manufactured by Miller Bros. Blades.</s><r>Короткий тактический меч «М-2», производства Miller Bros. Blades.</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_MTwoTacSword.label"><s>Miller Bros. Blades M-2 Tactical Sword</s><r>Тактический меч Miller Bros. Blades M-2</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_MTwoTacSword.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_MTwoTacSword.tools.1.label"><s>blade</s><r>лезвие</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_MTwoTacSword.tools.2.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_RRPick.description"><s>A perfectly balanced ice axe, the tip is made of a single piece of hardened metal.</s><r>Идеально сбалансированный ледоруб, наконечник изготовлен из цельного куска закаленного металла.</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_RRPick.label"><s>Red Rebel ice pick</s><r>Ледоруб Red Rebel</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_RRPick.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_RRPick.tools.1.label"><s>blade</s><r>лезвие</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_RRPick.tools.2.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_SOGAxe.description"><s>SOG has combined its three best features: an extended cutting head, compact glass-reinforced nylon handle, and a metal butt cap on the end.</s><r>SOG объединил три свои лучшие особенности: удлиненную режущую головку, компактную рукоятку из нейлона, армированного стекловолокном, и металлический затыльник на конце.</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_SOGAxe.label"><s>SOG Axe</s><r>Ось СОГ</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_SOGAxe.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_SOGAxe.tools.1.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_SPMachete.description"><s>SP8 is a survival machete made of a single piece of high carbon steel. Manufactured by Ontario Knife Company.</s><r>SP8 — это мачете выживания, изготовленное из цельного куска высокоуглеродистой стали. Производство компании Ontario Knife.</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_SPMachete.label"><s>SP-8 Survival Machete</s><r>SP-8 Мачете выживания</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_SPMachete.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_SPMachete.tools.1.label"><s>blade</s><r>лезвие</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_SPMachete.tools.2.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_SixKhFive.description"><s>The so-called item 6H5 is a knife bayonet adopted in 1989 as a standard issue for use with AK74.</s><r>Так называемая деталь 6Н5 представляет собой ножевой штык, принятый в 1989 году в качестве штатного для использования с АК74.</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_SixKhFive.label"><s>6Kh5 Bayonet</s><r>Штык 6Х5</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_SixKhFive.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_SixKhFive.tools.1.label"><s>blade</s><r>лезвие</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_SixKhFive.tools.2.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_SledgeTag.description"><s>The hammer is coated with urethane which provides a &quot;thud&quot; using steel balls to cushion the impact and reduce the vibration recoil to the handle.</s><r>Молоток покрыт уретаном, который обеспечивает «стук» за счет использования стальных шариков, смягчающих удар и уменьшающих вибрацию отдачи рукоятки.</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_SledgeTag.label"><s>Superfors DB 2020 Dead Blow Hammer</s><r>Superfors DB 2020 Мертвый ударный молоток</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_SledgeTag.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_SledgeTag.tools.1.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_Taiga.description"><s>UVSR &quot;Device for carrying out rescue operations&quot; Taiga-1. A truly versatile survival tool. It is a weapon and a shovel and an axe and everything you can imagine. It was developed and produced in the USSR for various agencies.</s><r>УВСР «Прибор для проведения спасательных работ» Тайга-1. Действительно универсальный инструмент выживания. Это и оружие, и лопата, и топор, и все, что только можно себе представить. Он разрабатывался и производился в СССР для различных ведомств.</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_Taiga.label"><s>UVSR Taiga-1 survival machete</s><r>Мачете выживания УВСР Тайга-1</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_Taiga.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_Taiga.tools.1.label"><s>blade</s><r>лезвие</r></e>
+  <e k="D" t="ThingDef" key="TMC_EFTMelee_Taiga.tools.2.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ToolCapacityDef" key="Cut_UnknownToxin.label"><s>cut</s><r>резать</r></e>
+  <e k="D" t="ToolCapacityDef" key="Stab_UnknownToxin.label"><s>stab</s><r>нанести удар</r></e>
+</AutoTranslateCache>
