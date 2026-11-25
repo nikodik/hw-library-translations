@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="oskarpotocki.vfe.classical" name="Vanilla Factions Expanded - Classical" language="Russian" version="1">
+  <e k="D" t="ChemicalDef" key="VFEC_Opium.label"><s>opium</s><r>опиум</r></e>
+  <e k="D" t="CultureDef" key="VFEC_Roman.description"><s>An ancient culture common among republics.</s><r>Древняя культура, распространенная среди республик.</r></e>
+  <e k="D" t="CultureDef" key="VFEC_Roman.label"><s>roman</s><r>римский</r></e>
+  <e k="D" t="DamageDef" key="VFEC_ApparelDamage.deathMessage"><s>{0} has been damaged to death.</s><r>{0} был смертельно поврежден.</r></e>
+  <e k="D" t="DamageDef" key="VFEC_ApparelDamage.label"><s>apparel damage</s><r>повреждение одежды</r></e>
+  <e k="D" t="DesignatorDropdownGroupDef" key="VFEC_Mosaics.label"><s>mosaics</s><r>мозаика</r></e>
+  <e k="D" t="FactionDef" key="VFEC_CentralRepublic.description"><s>These people have been here a very long time. Their civilization started as a gathering of tribes, but quickly developed skills such as writing, masonry and civil service. 
+
+Despite their apparent technological weakness, the Republic can be dangerous enemies and valuable friends because of their skill with low-tech warfare, their numbers, and their hardiness.
+
+This particular part of the Republic holds production and city development in high regards. Gaining their support will unlock several perks focused on improving the wellbeing of the people.</s><r>Эти люди были здесь очень давно. Их цивилизация зародилась как объединение племен, но быстро развила такие навыки, как письмо, каменное дело и государственная служба. 
+
+Несмотря на очевидную технологическую слабость, Республика может быть опасными врагами и ценными друзьями из-за их навыков ведения низкотехнологичной войны, их численности и выносливости.
+
+Эта конкретная часть Республики высоко ценит производство и городское развитие. Заручившись их поддержкой, вы откроете несколько льгот, направленных на улучшение благосостояния людей.</r></e>
+  <e k="D" t="FactionDef" key="VFEC_CentralRepublic.label"><s>central republic</s><r>центральная республика</r></e>
+  <e k="D" t="FactionDef" key="VFEC_CentralRepublic.leaderTitle"><s>patrician</s><r>патриций</r></e>
+  <e k="D" t="FactionDef" key="VFEC_CentralRepublic.messageDefendersAttacking"><s>{0} from {1} are attacking your {2}.</s><r>{0} из {1} атакуют ваш {2}.</r></e>
+  <e k="D" t="FactionDef" key="VFEC_CentralRepublic.pawnSingular"><s>plebeian</s><r>плебей</r></e>
+  <e k="D" t="FactionDef" key="VFEC_CentralRepublic.pawnsPlural"><s>plebeians</s><r>плебеи</r></e>
+  <e k="D" t="FactionDef" key="VFEC_EasternRepublic.description"><s>These people have been here a very long time. Their civilization started as a gathering of tribes, but quickly developed skills such as writing, masonry and civil service. 
+
+Despite their apparent technological weakness, the Imperium can be dangerous enemies and valuable friends because of their skill with low-tech warfare, their numbers, and their hardiness.
+
+This particular part of the Republic values hard work and production over brawl and intellect. Gaining their support will unlock several perks focused on research and progress.</s><r>Эти люди были здесь очень давно. Их цивилизация зародилась как объединение племен, но быстро развила такие навыки, как письмо, каменное дело и государственная служба. 
+
+Несмотря на очевидную технологическую слабость, Империум может быть опасными врагами и ценными друзьями из-за их навыков ведения низкотехнологичной войны, их численности и выносливости.
+
+Эта особая часть Республики ценит упорный труд и производительность выше драки и интеллекта. Заручившись их поддержкой, вы откроете несколько льгот, ориентированных на исследования и прогресс.</r></e>
+  <e k="D" t="FactionDef" key="VFEC_EasternRepublic.label"><s>eastern republic</s><r>восточная республика</r></e>
+  <e k="D" t="FactionDef" key="VFEC_EasternRepublic.leaderTitle"><s>patrician</s><r>патриций</r></e>
+  <e k="D" t="FactionDef" key="VFEC_EasternRepublic.messageDefendersAttacking"><s>{0} from {1} are attacking your {2}.</s><r>{0} из {1} атакуют ваш {2}.</r></e>
+  <e k="D" t="FactionDef" key="VFEC_EasternRepublic.pawnSingular"><s>plebeian</s><r>плебей</r></e>
+  <e k="D" t="FactionDef" key="VFEC_EasternRepublic.pawnsPlural"><s>plebeians</s><r>плебеи</r></e>
+  <e k="D" t="FactionDef" key="VFEC_NewEmpire.description"><s>A new empire.</s><r>Новая империя.</r></e>
+  <e k="D" t="FactionDef" key="VFEC_NewEmpire.label"><s>New Empire</s><r>Новая Империя</r></e>
+  <e k="D" t="FactionDef" key="VFEC_NewEmpire.leaderTitle"><s>leader</s><r>лидер</r></e>
+  <e k="D" t="FactionDef" key="VFEC_NewEmpire.messageDefendersAttacking"><s>{0} from {1} are attacking your {2}.</s><r>{0} из {1} атакуют ваш {2}.</r></e>
+  <e k="D" t="FactionDef" key="VFEC_NewEmpire.pawnSingular"><s>plebeian</s><r>плебей</r></e>
+  <e k="D" t="FactionDef" key="VFEC_NewEmpire.pawnsPlural"><s>plebeians</s><r>плебеи</r></e>
+  <e k="D" t="FactionDef" key="VFEC_WesternRepublic.description"><s>These people have been here a very long time. Their civilization started as a gathering of tribes, but quickly developed skills such as writing, masonry and civil service. 
+
+Despite their apparent technological weakness, the Imperium can be dangerous enemies and valuable friends because of their skill with low-tech warfare, their numbers, and their hardiness.
+
+This particular part of the Republic considers honor and superiority in battle to be most valuable. Gaining their support will unlock several perks focused on warfare and military.</s><r>Эти люди были здесь очень давно. Их цивилизация зародилась как объединение племен, но быстро развила такие навыки, как письмо, каменное дело и государственная служба. 
+
+Несмотря на очевидную технологическую слабость, Империум может быть опасными врагами и ценными друзьями из-за их навыков ведения низкотехнологичной войны, их численности и выносливости.
+
+Эта конкретная часть Республики считает честь и превосходство в бою самым ценным. Заручившись их поддержкой, вы откроете несколько льгот, ориентированных на войну и вооруженные силы.</r></e>
+  <e k="D" t="FactionDef" key="VFEC_WesternRepublic.label"><s>western republic</s><r>западная республика</r></e>
+  <e k="D" t="FactionDef" key="VFEC_WesternRepublic.leaderTitle"><s>patrician</s><r>патриций</r></e>
+  <e k="D" t="FactionDef" key="VFEC_WesternRepublic.messageDefendersAttacking"><s>{0} from {1} are attacking your {2}.</s><r>{0} из {1} атакуют ваш {2}.</r></e>
+  <e k="D" t="FactionDef" key="VFEC_WesternRepublic.pawnSingular"><s>plebeian</s><r>плебей</r></e>
+  <e k="D" t="FactionDef" key="VFEC_WesternRepublic.pawnsPlural"><s>plebeians</s><r>плебеи</r></e>
+  <e k="D" t="HediffDef" key="VFEC_CenturionArmor.description"><s>The prescence of centurion armor encourages nearby allied fighters to fight through pain.</s><r>Наличие доспехов центурионов побуждает находящихся поблизости бойцов-союзников сражаться сквозь боль.</r></e>
+  <e k="D" t="HediffDef" key="VFEC_CenturionArmor.label"><s>centurion armor</s><r>доспехи центуриона</r></e>
+  <e k="D" t="HediffDef" key="VFEC_CenturionArmorBuff.description"><s>The ability to withstand pain is increased thanks to being near someone wearing centurion armor.</s><r>Способность противостоять боли увеличивается благодаря нахождению рядом с кем-то, носящим доспехи центуриона.</r></e>
+  <e k="D" t="HediffDef" key="VFEC_CenturionArmorBuff.label"><s>centurion armor buff</s><r>усиление брони центуриона</r></e>
+  <e k="D" t="HediffDef" key="VFEC_OpiumAddiction.description"><s>A chemical addiction to opium. Long-term presence of opium has caused neurological adaptations at the cellular level, so the brain can no longer function properly without the drug.
+
+Without regular doses of opium, withdrawal symptoms will begin. However, extended abstinence will force the brain to adapt back to its normal state, resolving the addiction.</s><r>Химическая зависимость от опиума. Длительное присутствие опиума вызвало неврологическую адаптацию на клеточном уровне, поэтому мозг больше не может нормально функционировать без препарата.
+
+Без регулярных доз опиума начнутся симптомы абстиненции. Однако длительное воздержание заставит мозг вернуться к нормальному состоянию, избавляя от зависимости.</r></e>
+  <e k="D" t="HediffDef" key="VFEC_OpiumAddiction.label"><s>opium addiction</s><r>опиумная зависимость</r></e>
+  <e k="D" t="HediffDef" key="VFEC_OpiumAddiction.stages.1.label"><s>withdrawal</s><r>снятие</r></e>
+  <e k="D" t="HediffDef" key="VFEC_OpiumHigh.description"><s>Active opium in the bloodstream. Dulls out pain completely.</s><r>Активный опиум в кровотоке. Полностью притупляет боль.</r></e>
+  <e k="D" t="HediffDef" key="VFEC_OpiumHigh.label"><s>high on opium</s><r>под высоким содержанием опиума</r></e>
+  <e k="D" t="HediffDef" key="VFEC_OpiumHigh.labelNoun"><s>an opium high</s><r>опийный кайф</r></e>
+  <e k="D" t="HediffDef" key="VFEC_OpiumTolerance.description"><s>A built-up tolerance to opium. The more severe this tolerance is, the more opium it takes to get the same effect.</s><r>Выработанная толерантность к опиуму. Чем жестче эта толерантность, тем больше опиума требуется для достижения того же эффекта.</r></e>
+  <e k="D" t="HediffDef" key="VFEC_OpiumTolerance.label"><s>opium tolerance</s><r>толерантность к опиуму</r></e>
+  <e k="D" t="HediffDef" key="VFEC_OpiumTolerance.stages.0.label"><s>small</s><r>маленький</r></e>
+  <e k="D" t="HediffDef" key="VFEC_OpiumTolerance.stages.1.label"><s>large</s><r>большой</r></e>
+  <e k="D" t="HediffDef" key="VFEC_OpiumTolerance.stages.2.label"><s>massive</s><r>массивный</r></e>
+  <e k="D" t="HistoryEventDef" key="VFEC_GainedFavor.label"><s>gained favor of all senators</s><r>завоевал благосклонность всех сенаторов</r></e>
+  <e k="D" t="HistoryEventDef" key="VOE_JoinHuntingOutpost.description"><s>join a hunting outpost</s><r>присоединиться к охотничьей заставе</r></e>
+  <e k="D" t="HistoryEventDef" key="VOE_JoinHuntingOutpost.label"><s>join hunting outpost</s><r>присоединиться к охотничьей заставе</r></e>
+  <e k="D" t="HistoryEventDef" key="VOE_JoinLoggingOutpost.description"><s>join a logging outpost</s><r>присоединиться к лесозаготовительной заставе</r></e>
+  <e k="D" t="HistoryEventDef" key="VOE_JoinLoggingOutpost.label"><s>join logging outpost</s><r>присоединиться к лесозаготовительной заставе</r></e>
+  <e k="D" t="JobDef" key="VFEC_Relax_Thermaebath.reportString"><s>relaxing in a bath.</s><r>расслабляюсь в ванне.</r></e>
+  <e k="D" t="JobDef" key="VFEC_SetupScorpion.label"><s>set up scorpion</s><r>настроить скорпиона</r></e>
+  <e k="D" t="JobDef" key="VFEC_SetupScorpion.reportString"><s>setting up scorpion</s><r>настройка скорпиона</r></e>
+  <e k="D" t="JobDef" key="VFEC_Stage_Performance.reportString"><s>performing on stage.</s><r>выступая на сцене.</r></e>
+  <e k="D" t="JobDef" key="VFEC_Stage_WatchPerformance.reportString"><s>watching a stage performance.</s><r>просмотр выступления на сцене.</r></e>
+  <e k="D" t="JoyKindDef" key="VFEC_Performance.label"><s>performing</s><r>выполнение</r></e>
+  <e k="D" t="JoyKindDef" key="VFEC_Relaxing_Bath.label"><s>bath relaxing</s><r>расслабляющая ванна</r></e>
+  <e k="D" t="NeedDef" key="VFEC_Chemical_Opium.description"><s>Because of an opium addiction, this person needs to regularly consume the drug to avoid withdrawal symptoms.</s><r>Из-за опиумной зависимости этому человеку необходимо регулярно употреблять наркотик, чтобы избежать абстинентного синдрома.</r></e>
+  <e k="D" t="NeedDef" key="VFEC_Chemical_Opium.label"><s>opium</s><r>опиум</r></e>
+  <e k="D" t="PawnKindDef" key="VFEC_Centurion.label"><s>centurion</s><r>центурион</r></e>
+  <e k="D" t="PawnKindDef" key="VFEC_Legionnaire.label"><s>legionnaire</s><r>легионер</r></e>
+  <e k="D" t="PawnKindDef" key="VFEC_Plebeian.label"><s>member</s><r>член</r></e>
+  <e k="D" t="PawnKindDef" key="VFEC_Praetorian.label"><s>praetorian</s><r>преторианец</r></e>
+  <e k="D" t="PawnKindDef" key="VFEC_RepublicArcher.label"><s>archer</s><r>лучник</r></e>
+  <e k="D" t="PawnKindDef" key="VFEC_RepublicAuxilia.label"><s>auxilia</s><r>помогает</r></e>
+  <e k="D" t="PawnKindDef" key="VFEC_RepublicSenator.label"><s>senator</s><r>сенатор</r></e>
+  <e k="D" t="PawnKindDef" key="VFEC_RepublicTrader.label"><s>trader</s><r>торговец</r></e>
+  <e k="D" t="PawnKindDef" key="VFEC_RepublicVillager.label"><s>villager</s><r>сельский житель</r></e>
+  <e k="D" t="PawnKindDef" key="VFEC_ScorpionOperator.label"><s>scorpion operator</s><r>оператор-скорпион</r></e>
+  <e k="D" t="PawnKindDef" key="VFEC_TownGuard.label"><s>town guard</s><r>городская стража</r></e>
+  <e k="D" t="PerkDef" key="ActaNonVerba.description"><s>Global work speed increased by 5%.</s><r>Глобальная скорость работы увеличилась на 5%.</r></e>
+  <e k="D" t="PerkDef" key="ActaNonVerba.label"><s>Acta Non Verba</s><r>Журнал, а не слова</r></e>
+  <e k="D" t="PerkDef" key="AleaIactaEst.description"><s>Pain threshold increased by 10%.</s><r>Болевой порог повышен на 10%.</r></e>
+  <e k="D" t="PerkDef" key="AleaIactaEst.label"><s>Alea Iacta Est</s><r>Азартная игра брошена</r></e>
+  <e k="D" t="PerkDef" key="AmorVincitOmnia.description"><s>Opinion of husband and wife is always locked at 100 and can never go down.</s><r>Мнение мужа и жены всегда зафиксировано на отметке 100 и никогда не может опуститься.</r></e>
+  <e k="D" t="PerkDef" key="AmorVincitOmnia.label"><s>Amor Vincit Omnia</s><r>Любовь побеждает все</r></e>
+  <e k="D" t="PerkDef" key="ArsLongaVitaBrevis.description"><s>Beauty of all sculptures and art pieces is multiplied by x1.25.</s><r>Красота всех скульптур и произведений искусства умножается на х1,25.</r></e>
+  <e k="D" t="PerkDef" key="ArsLongaVitaBrevis.label"><s>Ars Longa, Vita Brevis</s><r>Долгое искусство, короткая жизнь</r></e>
+  <e k="D" t="PerkDef" key="Auxilia.description"><s>Every time a raid occurs, there is a 25% chance a reinforcement legion will show up to help. After that, the reinforcement legion leaves the map.</s><r>Каждый раз, когда происходит рейд, есть 25% шанс, что на помощь придет легион подкрепления. После этого легион подкрепления покидает карту.</r></e>
+  <e k="D" t="PerkDef" key="Auxilia.label"><s>Auxilia</s><r>Помощь</r></e>
+  <e k="D" t="PerkDef" key="CarpeDiem.description"><s>Everyone gets +3 Mood buff</s><r>Каждый получает +3 бафф к настроению.</r></e>
+  <e k="D" t="PerkDef" key="CarpeDiem.label"><s>Carpe Diem</s><r>Лови момент</r></e>
+  <e k="D" t="PerkDef" key="ExitusActaProbat.description"><s>All negative mood thoughts last 10% shorter.</s><r>Все мысли о негативном настроении длятся на 10% короче.</r></e>
+  <e k="D" t="PerkDef" key="ExitusActaProbat.label"><s>Exitus Acta Probat</s><r>Выпуск журнальных тестов</r></e>
+  <e k="D" t="PerkDef" key="MensSanaInCorporeSano.description"><s>Global work speed increased by 10% if in positive mood.</s><r>Глобальная скорость работы увеличивается на 10% при хорошем настроении.</r></e>
+  <e k="D" t="PerkDef" key="MensSanaInCorporeSano.label"><s>Mens Sana In Corpore Sano</s><r>Здоровый дух в здоровом теле</r></e>
+  <e k="D" t="PerkDef" key="NaturaNonConstristatur.description"><s>Thoughts on Environment (Hot and Cold) are halved (instead of -8, for example, it's -4).</s><r>Мысли об Окружающей Среде (Горячее и Холодное) уменьшаются вдвое (вместо -8, например, -4).</r></e>
+  <e k="D" t="PerkDef" key="NaturaNonConstristatur.label"><s>Natura Non Constristatur</s><r>Природа не ограничена</r></e>
+  <e k="D" t="PerkDef" key="NilDesperandum.description"><s>Mental break threshold decreased by 10%.</s><r>Порог психического срыва снижен на 10%.</r></e>
+  <e k="D" t="PerkDef" key="NilDesperandum.label"><s>Nil Desperandum</s><r>Не от чего отчаиваться</r></e>
+  <e k="D" t="PerkDef" key="NonOmniaPossumusOmnes.description"><s>Global skill learning speed increased by 5%.</s><r>Глобальная скорость изучения навыков увеличена на 5%.</r></e>
+  <e k="D" t="PerkDef" key="NonOmniaPossumusOmnes.label"><s>Non Omnia Possumus Omnes</s><r>Мы не можем все сделать все это</r></e>
+  <e k="D" t="PerkDef" key="NosMorituriTeSalutant.description"><s>Mood thoughts for losing colonists, family members etc are halved.</s><r>Мысли о потере колонистов, членов семьи и т. д. уменьшаются вдвое.</r></e>
+  <e k="D" t="PerkDef" key="NosMorituriTeSalutant.label"><s>Nos Morituri Te Salutant</s><r>Мы умрем, приветствуем тебя</r></e>
+  <e k="D" t="PerkDef" key="PanemEtCircenses.description"><s>All positive mood thoughts last 20% longer.</s><r>Все мысли о позитивном настроении сохраняются на 20% дольше.</r></e>
+  <e k="D" t="PerkDef" key="PanemEtCircenses.label"><s>Panem Et Circenses</s><r>Хлеб и зрелища</r></e>
+  <e k="D" t="PerkDef" key="PecuniaNervusBelli.description"><s>Weapons of any kind receive 5% price improvement.</s><r>Оружие любого типа получает повышение цены на 5%.</r></e>
+  <e k="D" t="PerkDef" key="PecuniaNervusBelli.label"><s>Pecunia Nervus Belli</s><r>Война нервов Деньги</r></e>
+  <e k="D" t="PerkDef" key="Profectus.description"><s>Every so often a random research project that's achievable by the player (Player meets prerequisites) gets automatically unlocked.</s><r>Время от времени случайный исследовательский проект, достижимый игроком (игрок соответствует необходимым требованиям), автоматически разблокируется.</r></e>
+  <e k="D" t="PerkDef" key="Profectus.label"><s>Profectus</s><r>Он продолжал</r></e>
+  <e k="D" t="PerkDef" key="SiVisPacemParaBellum.description"><s>When colonist is drafted, mental breaks cannot happen.</s><r>Когда колониста призывают в армию, психических срывов произойти не может.</r></e>
+  <e k="D" t="PerkDef" key="SiVisPacemParaBellum.label"><s>Si Vis Pacem, Para Bellum</s><r>Хочешь мира, готовься к войне</r></e>
+  <e k="D" t="PerkDef" key="TimendiCausaEstNescire.description"><s>Research Speed increased by 5%.</s><r>Скорость исследования увеличена на 5%.</r></e>
+  <e k="D" t="PerkDef" key="TimendiCausaEstNescire.label"><s>Timendi Causa Est Nescire</s><r>Незнание – причина страха</r></e>
+  <e k="D" t="PerkDef" key="Tributum.description"><s>Gain annual silver donation equal to 5% of the player wealth. Prices at Central Republic vendors get halved.</s><r>Получайте ежегодное пожертвование серебра, равное 5% от богатства игрока. Цены у торговцев Центральной Республики снижены вдвое.</r></e>
+  <e k="D" t="PerkDef" key="Tributum.label"><s>Tributum</s><r>Дань уважения</r></e>
+  <e k="D" t="PerkDef" key="VeniVidiVici.description"><s>Any pawn from any of the three Republics will now be instantly recruitable.</s><r>Любую пешку из любой из трех республик теперь можно будет мгновенно нанять.</r></e>
+  <e k="D" t="PerkDef" key="VeniVidiVici.label"><s>Veni, Vidi, Vici</s><r>Пришёл, увидел, победил</r></e>
+  <e k="D" t="ProcessDef" key="VFEC_DryMeat.description"><s>Turns 75 meat into 75 jerky.</s><r>Превращает 75 мяса в вяленое мясо 75.</r></e>
+  <e k="D" t="ProcessDef" key="VFEC_DryMeat.label"><s>Dry meat into jerky</s><r>Сушеное мясо в вяленое мясо</r></e>
+  <e k="D" t="ProcessDef" key="VFEC_DryMeat.labelOverride"><s>Dry 75 meat into 75 jerky</s><r>Сушить 75 мяса в вяленое мясо 75</r></e>
+  <e k="D" t="ProcessDef" key="VFEC_PressConcrete.description"><s>Turns 1 chunk into 75 concrete.</s><r>Превращает 1 кусок в 75 бетона.</r></e>
+  <e k="D" t="ProcessDef" key="VFEC_PressConcrete.label"><s>Press chunks into concrete</s><r>Прессовать куски в бетон</r></e>
+  <e k="D" t="ProcessDef" key="VFEC_PressConcrete.labelOverride"><s>Press 1 chunk into 75 concrete</s><r>Вдавите 1 кусок в бетон 75</r></e>
+  <e k="D" t="ProcessDef" key="VFEC_ProcessCloth.description"><s>Turns 150 cloth into 150 tyrian.</s><r>Превращает 150 ткани в 150 тирианов.</r></e>
+  <e k="D" t="ProcessDef" key="VFEC_ProcessCloth.label"><s>Process cloth into tyrian</s><r>Переработка ткани в Тириан</r></e>
+  <e k="D" t="ProcessDef" key="VFEC_ProcessCloth.labelOverride"><s>Process 150 cloth into 150 tyrian</s><r>Переработать 150 ткани в 150 тирианов.</r></e>
+  <e k="D" t="RaidStrategyDef" key="VFEC_ScorpionRaid.arrivalTextEnemy"><s>It looks like they want to set up Scorpions nearby to fire on your colonists. You can try to wait them out - or go get them.</s><r>Похоже, они хотят разместить неподалеку «Скорпионов», которые будут стрелять по вашим колонистам. Вы можете попытаться переждать их или пойти за ними.</r></e>
+  <e k="D" t="RaidStrategyDef" key="VFEC_ScorpionRaid.arrivalTextFriendly"><s>It looks like they want to use scorpions to help you.</s><r>Похоже, они хотят использовать скорпионов, чтобы помочь вам.</r></e>
+  <e k="D" t="RaidStrategyDef" key="VFEC_ScorpionRaid.letterLabelEnemy"><s>Scorpion Raid</s><r>Скорпион Рейд</r></e>
+  <e k="D" t="RaidStrategyDef" key="VFEC_ScorpionRaid.letterLabelFriendly"><s>Friendlies</s><r>Товарищеские матчи</r></e>
+  <e k="D" t="RecipeDef" key="VFEC_Make_Bronze.description"><s>Make bronze using stone chunks and steel.</s><r>Сделайте бронзу, используя каменные куски и сталь.</r></e>
+  <e k="D" t="RecipeDef" key="VFEC_Make_Bronze.jobString"><s>Making bronze.</s><r>Изготовление бронзы.</r></e>
+  <e k="D" t="RecipeDef" key="VFEC_Make_Bronze.label"><s>make bronze</s><r>сделать бронзу</r></e>
+  <e k="D" t="RepublicDef" key="VFEC_Republic.label"><s>republic</s><r>республика</r></e>
+  <e k="D" t="RepublicDef" key="VFEC_Republic.letterLabel"><s>Republics United</s><r>Республики Соединенные</r></e>
+  <e k="D" t="RepublicDef" key="VFEC_Republic.letterText"><s>After gaining the support of all 3 parts of the republic, it has now united under your rule. You have now become Emperor.</s><r>Заручившись поддержкой всех трёх частей республики, она теперь объединилась под вашей властью. Теперь вы стали Императором.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_Beacons.description"><s>Build large wooden pyres, that when lit on fire are guaranteed to summon friendly reinforcements.</s><r>Стройте большие деревянные костры, которые при зажжении гарантированно вызовут дружественное подкрепление.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_Beacons.generalRules.rulesStrings.0"><s>subject-&gt;pyres of summoning</s><r>subject-&gt;костры призыва</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_Beacons.generalRules.rulesStrings.1"><s>subject_story-&gt;constructed large wooden pyres, a signal to the skies that calls forth allies to the battlefield</s><r>subject_story-&gt;построил большие деревянные костры, сигнал небесам, призывающий союзников на поле битвы.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_Beacons.generalRules.rulesStrings.2"><s>subject_gerund-&gt;binding the fates of allies with flames that guide them to the fray</s><r>subject_gerund-&gt;связывая судьбы союзников пламенем, которое ведет их в бой</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_Beacons.label"><s>beacons</s><r>маяки</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_BronzeWorking.description"><s>Mix steel with stone chunks to create slightly weaker metal in large quantities.</s><r>Смешайте сталь с кусками камня, чтобы в больших количествах получить немного более слабый металл.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_BronzeWorking.generalRules.rulesStrings.0"><s>subject-&gt;the alloy of antiquity</s><r>subject-&gt;сплав древности</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_BronzeWorking.generalRules.rulesStrings.1"><s>subject_story-&gt;discovered the alchemy of combining steel with stone to produce bronze, marking the dawn of a new era in metallurgy</s><r>subject_story-&gt;открыл алхимию соединения стали с камнем для производства бронзы, что ознаменовало начало новой эры в металлургии.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_BronzeWorking.generalRules.rulesStrings.2"><s>subject_gerund-&gt;ushering in an age where metal becomes the backbone of progress and power</s><r>subject_gerund-&gt;открывая эпоху, когда металл становится основой прогресса и власти</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_BronzeWorking.label"><s>bronze working</s><r>обработка бронзы</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_CementMaking.description"><s>Construct a cement press, which allows you to create extremely durable stone material out of stone chunks.</s><r>Постройте цементный пресс, который позволит создавать из каменных кусков чрезвычайно прочный каменный материал.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_CementMaking.generalRules.rulesStrings.0"><s>subject-&gt;the bedrock of civilization</s><r>subject-&gt;основа цивилизации</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_CementMaking.generalRules.rulesStrings.1"><s>subject_story-&gt;innovated the creation of cement, turning stone into the durable foundation upon which empires are built</s><r>subject_story-&gt;внедрил технологию создания цемента, превратив камень в прочный фундамент, на котором строятся империи.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_CementMaking.generalRules.rulesStrings.2"><s>subject_gerund-&gt;laying the groundwork for enduring structures and monuments with the strength of cement</s><r>subject_gerund-&gt;закладка фундамента для прочных сооружений и памятников с прочностью цемента</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_CementMaking.label"><s>cement making</s><r>производство цемента</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_CenturionArmor.description"><s>Smith suits of centurion armor, excellent for leading men into heroic battles.</s><r>Костюмы центурионов Смита, превосходные для того, чтобы вести людей в героические сражения.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_CenturionArmor.generalRules.rulesStrings.0"><s>subject-&gt;mantle of command</s><r>subject-&gt;мантия командования</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_CenturionArmor.generalRules.rulesStrings.1"><s>subject_story-&gt;smithed suits of centurion armor, imbuing leaders with both protection and a distinguished presence</s><r>subject_story-&gt;кованные доспехи центурионов, наделяющие лидеров защитой и выдающимся присутствием</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_CenturionArmor.generalRules.rulesStrings.2"><s>subject_gerund-&gt;clothing the ranks of leadership in armor befitting their valor and virtue</s><r>subject_gerund-&gt;одеть руководителей в доспехи, соответствующие их доблести и добродетели</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_CenturionArmor.label"><s>centurion armor</s><r>доспехи центуриона</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_CraftingBench.description"><s>Build a workbench for crafting simple things like clubs or bows.</s><r>Постройте верстак для изготовления простых вещей, таких как дубинки или луки.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_CraftingBench.generalRules.rulesStrings.0"><s>subject-&gt;the artisan's foundation</s><r>subject-&gt;фонд ремесленника</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_CraftingBench.generalRules.rulesStrings.1"><s>subject_story-&gt;established crafting benches as the heart of production, where raw materials are transformed into tools and treasures</s><r>subject_story-&gt;установили ремесленные станки как сердце производства, где сырье превращается в инструменты и сокровища</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_CraftingBench.generalRules.rulesStrings.2"><s>subject_gerund-&gt;carving the future with every crafted item, from the simplest club to the most precise bow</s><r>subject_gerund-&gt;создавая будущее с помощью каждого созданного предмета, от самой простой дубинки до самого точного лука</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_CraftingBench.label"><s>crafting bench</s><r>верстак</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_DramaAndComedy.description"><s>Perform various plays on the theatre stage as a recreational activity.</s><r>В качестве развлекательного занятия исполняйте различные спектакли на театральной сцене.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_DramaAndComedy.generalRules.rulesStrings.0"><s>subject-&gt;the stage of life</s><r>subject-&gt;этап жизни</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_DramaAndComedy.generalRules.rulesStrings.1"><s>subject_story-&gt;revived the timeless arts of drama and comedy, enriching the soul of the republic through performance and play</s><r>subject_story-&gt;возродил вневременное искусство драмы и комедии, обогатив душу республики посредством представлений и игр.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_DramaAndComedy.generalRules.rulesStrings.2"><s>subject_gerund-&gt;mirroring the human condition, from tragedy to farce, on the communal stage</s><r>subject_gerund-&gt;отражение человеческого положения, от трагедии до фарса, на общественной сцене</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_DramaAndComedy.label"><s>drama and comedy</s><r>драма и комедия</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_HeavyShieldMaking.description"><s>Create heavy scuta shields typically associated with legionnaires.</s><r>Создайте тяжелые щиты-скуты, которые обычно ассоциируются с легионерами.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_HeavyShieldMaking.generalRules.rulesStrings.0"><s>subject-&gt;bulwarks of the legion</s><r>subject-&gt;оплот легиона</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_HeavyShieldMaking.generalRules.rulesStrings.1"><s>subject_story-&gt;reinvigorated the tradition of heavy shield crafting, providing unmatched protection to those who hold the line</s><r>subject_story-&gt;возродил традицию изготовления тяжелых щитов, обеспечивая непревзойденную защиту тем, кто держит линию обороны.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_HeavyShieldMaking.generalRules.rulesStrings.2"><s>subject_gerund-&gt;forging the scuta shields, the steadfast guardians of the legionnaires</s><r>subject_gerund-&gt;куя щиты-скуты, стойкие стражи легионеров</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_HeavyShieldMaking.label"><s>heavy shield making</s><r>изготовление тяжелого щита</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_LegionaryArmaments.description"><s>Craft tents, javelins, spathas and daggers, constituting towards the legionary armory.</s><r>Изготовьте палатки, дротики, спаты и кинжалы, составляющие арсенал легионера.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_LegionaryArmaments.generalRules.rulesStrings.0"><s>subject-&gt;arsenal of the ancients</s><r>subject-&gt;арсенал древних</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_LegionaryArmaments.generalRules.rulesStrings.1"><s>subject_story-&gt;mastered the fabrication of javelins, spathas, and daggers, ensuring the legion's versatility and readiness in battle</s><r>subject_story-&gt;освоил изготовление копий, спат и кинжалов, обеспечив универсальность и боеготовность легиона</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_LegionaryArmaments.generalRules.rulesStrings.2"><s>subject_gerund-&gt;equipping the legions with a diverse armory for conquest and defense</s><r>subject_gerund-&gt;оснащение легионов разнообразным арсеналом для завоевания и защиты</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_LegionaryArmaments.label"><s>legionary armaments</s><r>легионерское вооружение</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_LegionnaireArmor.description"><s>Create heavy armor of legionaries, capable of withstanding a high degree of sharp damage.</s><r>Создайте тяжелую броню легионеров, способную выдержать высокую степень острого урона.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_LegionnaireArmor.generalRules.rulesStrings.0"><s>subject-&gt;the iron skin</s><r>subject-&gt;железная кожа</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_LegionnaireArmor.generalRules.rulesStrings.1"><s>subject_story-&gt;crafted heavy armor that turns warriors into indomitable forces on the battlefield, capable of withstanding the fiercest strikes</s><r>subject_story-&gt;создал тяжелую броню, которая превращает воинов в неукротимую силу на поле боя, способную выдержать самые жестокие удары.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_LegionnaireArmor.generalRules.rulesStrings.2"><s>subject_gerund-&gt;donning the legionnaires in armor that weaves invincibility with the threads of war</s><r>subject_gerund-&gt;облачение легионеров в доспехи, сплетающие непобедимость с нитями войны</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_LegionnaireArmor.label"><s>legionary armor</s><r>легионерская броня</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_MeatDrying.description"><s>Construct meat drying racks, allowing you to preserve meat and create a roman delicacy.</s><r>Постройте стеллажи для сушки мяса, позволяющие сохранить мясо и создать римский деликатес.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_MeatDrying.generalRules.rulesStrings.0"><s>subject-&gt;legacy of preservation</s><r>subject-&gt;наследие сохранения</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_MeatDrying.generalRules.rulesStrings.1"><s>subject_story-&gt;revived the ancient art of meat drying, securing sustenance and delighting palates with flavors honed by time</s><r>subject_story-&gt;возродили древнее искусство сушки мяса, обеспечивая пропитание и радуя вкусами, отточенными временем.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_MeatDrying.generalRules.rulesStrings.2"><s>subject_gerund-&gt;extending the bounty of the hunt through the wisdom of the ancients</s><r>subject_gerund-&gt;расширение награды охоты посредством мудрости древних</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_MeatDrying.label"><s>meat drying</s><r>сушка мяса</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_Mosaics.description"><s>Build excellent stone mosaics, utilising different colours and shapes to express beauty. Slow to construct.</s><r>Создавайте превосходные каменные мозаики, используя разные цвета и формы, чтобы выразить красоту. Медленно строить.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_Mosaics.generalRules.rulesStrings.0"><s>subject-&gt;mosaic of civilization</s><r>subject-&gt;мозаика цивилизации</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_Mosaics.generalRules.rulesStrings.1"><s>subject_story-&gt;crafted stone mosaics that capture the essence of beauty and narrative through color and form</s><r>subject_story-&gt;искусная каменная мозаика, передающая суть красоты и повествования посредством цвета и формы.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_Mosaics.generalRules.rulesStrings.2"><s>subject_gerund-&gt;embedding the story of a people in the very stones that pave their path</s><r>subject_gerund-&gt;вложение истории народа в те самые камни, которые выстилают его путь</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_Mosaics.label"><s>mosaics</s><r>мозаика</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_RoadBuilding.description"><s>Construct paths, dirt roads and stone roads directly on the world map, allowing for faster caravan travel.</s><r>Прокладывайте тропы, грунтовые и каменные дороги прямо на карте мира, чтобы караван мог путешествовать быстрее.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_RoadBuilding.generalRules.rulesStrings.0"><s>subject-&gt;pathways of progress</s><r>subject-&gt;пути прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_RoadBuilding.generalRules.rulesStrings.1"><s>subject_story-&gt;paved the way for civilization's expansion with the construction of roads, connecting communities and fostering trade</s><r>subject_story-&gt;проложил путь к расширению цивилизации за счет строительства дорог, соединения сообществ и развития торговли.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_RoadBuilding.generalRules.rulesStrings.2"><s>subject_gerund-&gt;tracing the arteries of trade and communication with each road built, propelling the civilization forward</s><r>subject_gerund-&gt;отслеживание торговых и коммуникационных артерий на каждой построенной дороге, продвигая цивилизацию вперед</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_RoadBuilding.label"><s>road building</s><r>строительство дороги</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_Scorpion.description"><s>Construct scorpions, a portable field artillery piece which doubles as a semi-automatic heavy crossbow.</s><r>Создайте скорпионов — портативное орудие полевой артиллерии, которое можно использовать и как полуавтоматический тяжелый арбалет.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_Scorpion.generalRules.rulesStrings.0"><s>subject-&gt;sting of the legion</s><r>subject-&gt;жало легиона</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_Scorpion.generalRules.rulesStrings.1"><s>subject_story-&gt;engineered scorpions, merging the precision of a crossbow with the destructive force of field artillery</s><r>subject_story-&gt;сконструированные скорпионы, сочетающие точность арбалета с разрушительной силой полевой артиллерии</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_Scorpion.generalRules.rulesStrings.2"><s>subject_gerund-&gt;unleashing the lethal precision of ancient war machines upon the modern battlefield</s><r>subject_gerund-&gt;раскрывая смертоносную точность древних боевых машин на современном поле боя</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_Scorpion.label"><s>scorpion</s><r>скорпион</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_TemperatureControl.description"><s>Make large passive coolers, a way to cool indoor spaces below freezing point without needing electricity, or hot stones, a primitive heater.</s><r>Сделайте большие пассивные охладители — способ охладить внутренние помещения ниже точки замерзания без необходимости использования электричества или раскаленные камни — примитивный обогреватель.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_TemperatureControl.generalRules.rulesStrings.0"><s>subject-&gt;masters of elements</s><r>subject-&gt;мастера стихий</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_TemperatureControl.generalRules.rulesStrings.1"><s>subject_story-&gt;harnessed natural methods to defy the whims of weather, creating spaces of comfort through passive coolers and hot stones</s><r>subject_story-&gt;использовали естественные методы, чтобы бросить вызов капризам погоды, создавая комфортные пространства с помощью пассивных охладителей и горячих камней.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_TemperatureControl.generalRules.rulesStrings.2"><s>subject_gerund-&gt;cultivating havens of warmth and coolness, in defiance of the external world</s><r>subject_gerund-&gt;культивирование приютов тепла и прохлады, вопреки внешнему миру</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_TemperatureControl.label"><s>temperature control</s><r>контроль температуры</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_Thermaebath.description"><s>Construct large thermaebath that uses steam geysers to warm up the water, allowing up to 8 people to bathe together with an occasional chance of group lovin’.</s><r>Постройте большую паровую баню, в которой для нагрева воды используются паровые гейзеры, что позволит купаться вместе до 8 человек, а также время от времени будет возможность пообщаться в группе.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_Thermaebath.generalRules.rulesStrings.0"><s>subject-&gt;sanctuaries of steam</s><r>subject-&gt;святилища пара</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_Thermaebath.generalRules.rulesStrings.1"><s>subject_story-&gt;constructed thermaebaths, communal havens of relaxation and warmth powered by the earth's breath</s><r>subject_story-&gt;построены термы, общественные приюты для релаксации и тепла, питаемые дыханием земли.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_Thermaebath.generalRules.rulesStrings.2"><s>subject_gerund-&gt;fostering communal well-being and intimacy in the embrace of nature's warmth</s><r>subject_gerund-&gt;содействие общественному благополучию и близости в объятиях тепла природы</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_Thermaebath.label"><s>thermaebath</s><r>паровая баня</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_Togas.description"><s>Craft togas, everyday wear of the citizens of the republic.</s><r>Ремесленные тоги - повседневная одежда жителей республики.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_Togas.generalRules.rulesStrings.0"><s>subject-&gt;the fabric of society</s><r>subject-&gt;ткань общества</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_Togas.generalRules.rulesStrings.1"><s>subject_story-&gt;reclaimed the elegance and simplicity of the toga, the symbol of citizenship and refined taste</s><r>subject_story-&gt;вернули элегантность и простоту тоги, символа гражданственности и изысканного вкуса.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_Togas.generalRules.rulesStrings.2"><s>subject_gerund-&gt;draping the republic in the dignity and grace of its ancestors</s><r>subject_gerund-&gt;облачение республики в достоинство и грацию ее предков</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_Togas.label"><s>togas</s><r>платья</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_TyrianProduction.description"><s>Create a tyrian farm - a river-bank structure that dyes cloth, which can then be extracted in the form of extremely valuable royal fabric.</s><r>Создайте тирийскую ферму — сооружение на берегу реки, которое красит ткань, из которой затем можно извлечь чрезвычайно ценную королевскую ткань.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_TyrianProduction.generalRules.rulesStrings.0"><s>subject-&gt;the hue of royalty</s><r>subject-&gt;королевский оттенок</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_TyrianProduction.generalRules.rulesStrings.1"><s>subject_story-&gt;cultivated tyrian farms along the riverbanks, mastering the art of dyeing cloth into royal fabric, a symbol of wealth and status</s><r>subject_story-&gt;возделывали тирийские фермы вдоль берегов рек, осваивая искусство окрашивания ткани в королевскую ткань, символ богатства и статуса.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_TyrianProduction.generalRules.rulesStrings.2"><s>subject_gerund-&gt;weaving the fabric of society with colors that command respect and admiration</s><r>subject_gerund-&gt;сплетение ткани общества с цветами, вызывающими уважение и восхищение</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_TyrianProduction.label"><s>tyrian production</s><r>тирианское производство</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_WoodfiredCrematorium.description"><s>Build a huge, wood-fired stone crematorium which vaporizes corpses with high temperatures.</s><r>Постройте огромный каменный крематорий на дровах, который испаряет трупы при высоких температурах.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_WoodfiredCrematorium.generalRules.rulesStrings.0"><s>subject-&gt;purification by flame</s><r>subject-&gt;очищение пламенем</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_WoodfiredCrematorium.generalRules.rulesStrings.1"><s>subject_story-&gt;conceived the wood-fired crematorium, a testament to dealing with the departed in a manner that respects both cultural customs and sanitation needs</s><r>subject_story-&gt;задумал дровяной крематорий, свидетельствующий о том, что с усопшими следует обращаться с уважением как к культурным обычаям, так и к санитарным потребностям.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_WoodfiredCrematorium.generalRules.rulesStrings.2"><s>subject_gerund-&gt;embracing the cycle of life and death through the elemental purity of fire</s><r>subject_gerund-&gt;охват цикла жизни и смерти через элементарную чистоту огня</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEC_WoodfiredCrematorium.label"><s>wood-fired crematorium</s><r>крематорий на дровах</r></e>
+  <e k="D" t="RoadBuildingDef" key="BuildDirtRoad.description"><s>Orders pawns in the caravan to clear foliage and tamp dirt to make a somewhat easily traversed dirt road.</s><r>Приказывает пешкам в караване расчистить листву и утрамбовать землю, чтобы проложить грунтовую дорогу, по которой можно было бы легко пройти.</r></e>
+  <e k="D" t="RoadBuildingDef" key="BuildDirtRoad.label"><s>Build Dirt road</s><r>Построить грунтовую дорогу</r></e>
+  <e k="D" t="RoadBuildingDef" key="BuildPath.description"><s>Orders pawns in the caravan to clear foliage to make a simple clear path.</s><r>Приказывает пешкам в караване расчистить листву, чтобы освободить простой путь.</r></e>
+  <e k="D" t="RoadBuildingDef" key="BuildPath.label"><s>Build Path</s><r>Путь сборки</r></e>
+  <e k="D" t="RoadBuildingDef" key="BuildStoneRoad.description"><s>Orders pawns in the caravan to clear foliage, then cut and place blocks to make an easily traversable stone road.</s><r>Приказывает пешкам в караване расчистить листву, затем разрезать и расставлять блоки, чтобы сделать легко проходимую каменную дорогу.</r></e>
+  <e k="D" t="RoadBuildingDef" key="BuildStoneRoad.label"><s>Build Stone road</s><r>Построить каменную дорогу</r></e>
+  <e k="D" t="RulePackDef" key="VFEC_LeaderTitleMaker_Classical.rulePack.rulesStrings.0"><s>r_leaderTitle-&gt;Senator</s><r>r_leaderTitle-&gt;Сенатор</r></e>
+  <e k="D" t="RulePackDef" key="VFEC_NamerFactionCentral.rulePack.rulesStrings.0"><s>r_name-&gt;Central Republic</s><r>r_name-&gt;Центральная Республика</r></e>
+  <e k="D" t="RulePackDef" key="VFEC_NamerFactionEastern.rulePack.rulesStrings.0"><s>r_name-&gt;Eastern Republic</s><r>r_name-&gt;Восточная Республика</r></e>
+  <e k="D" t="RulePackDef" key="VFEC_NamerFactionWestern.rulePack.rulesStrings.0"><s>r_name-&gt;Western Republic</s><r>r_name-&gt;Западная Республика</r></e>
+  <e k="D" t="ScenarioDef" key="VFEC_NewEmpire.description"><s>Squabbling in the senate and cutthroat politics left you with distaste for anything regarding the will of the people. You deserve so much more - as your blood is royal and your wreath is golden. You gathered a few of the senators that sided with you and left the comforts of the Republic. It is time you unite them on your terms, under your rule. Glory to the empire. Glory to the Emperor! 
+Note: Since you start being hostile to the Republic factions, this is a difficult scenario.</s><r>Ссоры в сенате и беспощадная политика вызвали у вас отвращение ко всему, что касается воли народа. Ты заслуживаешь гораздо большего – ведь твоя кровь царская, а твой венок золотой. Вы собрали нескольких сенаторов, которые встали на вашу сторону и покинули комфорт Республики. Пришло время объединить их на ваших условиях, под вашим правлением. Слава империи. Слава Императору! 
+Примечание: поскольку вы начинаете враждебно относиться к фракциям Республики, это сложный сценарий.</r></e>
+  <e k="D" t="ScenarioDef" key="VFEC_NewEmpire.label"><s>New Empire</s><r>Новая Империя</r></e>
+  <e k="D" t="ScenarioDef" key="VFEC_NewEmpire.scenario.description"><s>Squabbling in the senate and cutthroat politics left you with distaste for anything regarding the will of the people. You deserve so much more - as your blood is royal and your wreath is golden. You gathered a few of the senators that sided with you and left the comforts of the Republic. It is time you unite them on your terms, under your rule. Glory to the empire. Glory to the Emperor! 
+Note: Since you start being hostile to the Republic factions, this is a difficult scenario.</s><r>Ссоры в сенате и беспощадная политика вызвали у вас отвращение ко всему, что касается воли народа. Ты заслуживаешь гораздо большего – ведь твоя кровь царская, а твой венок золотой. Вы собрали нескольких сенаторов, которые встали на вашу сторону и покинули комфорт Республики. Пришло время объединить их на ваших условиях, под вашим правлением. Слава империи. Слава Императору! 
+Примечание: поскольку вы начинаете враждебно относиться к фракциям Республики, это сложный сценарий.</r></e>
+  <e k="D" t="ScenarioDef" key="VFEC_NewEmpire.scenario.name"><s>New Empire</s><r>Новая Империя</r></e>
+  <e k="D" t="ScenarioDef" key="VFEC_NewEmpire.scenario.parts.16.text"><s>Squabbling in the senate and cutthroat politics left you with distaste for anything regarding the will of the people. You deserve so much more - as your blood is royal and your wreath is golden. You gathered a few of the senators that sided with you and left the comforts of the Republic. It is time you unite them on your terms, under your rule.</s><r>Ссоры в сенате и беспощадная политика вызвали у вас отвращение ко всему, что касается воли народа. Ты заслуживаешь гораздо большего – ведь твоя кровь царская, а твой венок золотой. Вы собрали нескольких сенаторов, которые встали на вашу сторону и покинули комфорт Республики. Пришло время объединить их на ваших условиях, под вашим правлением.</r></e>
+  <e k="D" t="ScenarioDef" key="VFEC_NewEmpire.scenario.parts.17.structureLabel"><s>A small camp</s><r>Небольшой лагерь</r></e>
+  <e k="D" t="ScenarioDef" key="VFEC_NewEmpire.scenario.summary"><s>A gathering of nobility with a grand purpose. A default Classical experience.</s><r>Собрание знати с великой целью. Классическая версия по умолчанию.</r></e>
+  <e k="D" t="ScenPartDef" key="VFEC_Senators.label"><s>start with senators</s><r>начни с сенаторов</r></e>
+  <e k="D" t="StorytellerDef" key="VFEC_NeronNeolithic.description"><s>Neron Neolithic believes that to be worthy, one needs to be tested in fire. He will bombard you with a constant stream of threats and only give you a short moment to catch your breath, before striking you once again.</s><r>Нерон Неолит считает, что, чтобы стать достойным, нужно пройти испытание в огне. Он будет бомбардировать вас постоянным потоком угроз и даст вам лишь короткое время, чтобы отдышаться, прежде чем нанести еще один удар.</r></e>
+  <e k="D" t="StorytellerDef" key="VFEC_NeronNeolithic.label"><s>Neron Neolithic</s><r>Нерон Неолит</r></e>
+  <e k="D" t="TerrainDef" key="VFEC_BronzeTile.description"><s>Bronze tiles with special cleanliness-enhancing properties. Extra-clean rooms improve outcomes in hospitals and research labs. This tile is very slow to build.</s><r>Бронзовая плитка со специальными свойствами, улучшающими чистоту. Сверхчистые помещения улучшают результаты лечения в больницах и исследовательских лабораториях. Эта плитка строится очень медленно.</r></e>
+  <e k="D" t="TerrainDef" key="VFEC_BronzeTile.label"><s>bronze tile</s><r>бронзовая плитка</r></e>
+  <e k="D" t="TerrainDef" key="VFEC_FlagstoneConcrete.description"><s>Roughly-cut stone tiles. These are not beautiful, but they make good surfaces for roads and outdoor walkways. Deconstructing flagstone yields no resources.</s><r>Каменная плитка грубой резки. Они некрасивы, но из них получается хорошее покрытие для дорог и пешеходных дорожек. Разбор каменной плиты не дает никаких ресурсов.</r></e>
+  <e k="D" t="TerrainDef" key="VFEC_FlagstoneConcrete.label"><s>roman concrete flagstone</s><r>римская бетонная плита</r></e>
+  <e k="D" t="TerrainDef" key="VFEC_MosaicsGranite.description"><s>Painstakingly carved and laid floors, very beautiful to look at.</s><r>Кропотливо вырезанные и уложенные полы очень красивы на вид.</r></e>
+  <e k="D" t="TerrainDef" key="VFEC_MosaicsGranite.label"><s>granite mosaics</s><r>гранитная мозаика</r></e>
+  <e k="D" t="TerrainDef" key="VFEC_MosaicsLimestone.description"><s>Painstakingly carved and laid floors, very beautiful to look at.</s><r>Кропотливо вырезанные и уложенные полы очень красивы на вид.</r></e>
+  <e k="D" t="TerrainDef" key="VFEC_MosaicsLimestone.label"><s>limestone mosaics</s><r>мозаика из известняка</r></e>
+  <e k="D" t="TerrainDef" key="VFEC_MosaicsMarble.description"><s>Painstakingly carved and laid floors, very beautiful to look at.</s><r>Кропотливо вырезанные и уложенные полы очень красивы на вид.</r></e>
+  <e k="D" t="TerrainDef" key="VFEC_MosaicsMarble.label"><s>marble mosaics</s><r>мраморная мозаика</r></e>
+  <e k="D" t="TerrainDef" key="VFEC_MosaicsSandstone.description"><s>Painstakingly carved and laid floors, very beautiful to look at.</s><r>Кропотливо вырезанные и уложенные полы очень красивы на вид.</r></e>
+  <e k="D" t="TerrainDef" key="VFEC_MosaicsSandstone.label"><s>sandstone mosaics</s><r>мозаика из песчаника</r></e>
+  <e k="D" t="TerrainDef" key="VFEC_MosaicsSlate.description"><s>Painstakingly carved and laid floors, very beautiful to look at.</s><r>Кропотливо вырезанные и уложенные полы очень красивы на вид.</r></e>
+  <e k="D" t="TerrainDef" key="VFEC_MosaicsSlate.label"><s>slate mosaics</s><r>шиферная мозаика</r></e>
+  <e k="D" t="TerrainDef" key="VFEC_TileConcrete.description"><s>Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay.</s><r>Тщательно вырезанная и подогнанная каменная плитка создает ощущение замка. Они красивы на вид, но укладываются долго.</r></e>
+  <e k="D" t="TerrainDef" key="VFEC_TileConcrete.label"><s>roman concrete tile</s><r>римская бетонная плитка</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Apparel_CenturionArmor.comps.4.description"><s>Toggle buffing nearby allies, turn off when not in combat if performance is a concern</s><r>Переключить усиление ближайших союзников, отключить, когда он не в бою, если производительность вызывает беспокойство.</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Apparel_CenturionArmor.comps.4.label"><s>Toggle buff</s><r>Переключить усиление</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Apparel_CenturionArmor.description"><s>A carefully designed and decorated set of armor made from a series of reinforced metal or wooden sheets, forming somewhat of a carapace without sacrificing too much dexterity. Such armor is known to embolden one's mental fortitude.</s><r>Тщательно разработанный и декорированный комплект доспехов, изготовленный из ряда армированных металлических или деревянных листов, образующих своего рода панцирь, не жертвуя при этом слишком большой ловкостью. Известно, что такие доспехи придают смелость духу.</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Apparel_CenturionArmor.label"><s>centurion armor</s><r>доспехи центуриона</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Apparel_CenturionHelmet.description"><s>A carefully designed and decorated helmet made out of a single large piece of wood or metal. A wide open gap near the mouth and eyes allows full peripheral vision and unmuffled communication. This particular helmet includes accoutrement to inspire both its wearers and onlookers, when fighting side by side a centurion even pain itself seems dulled.</s><r>Тщательно спроектированный и украшенный шлем, сделанный из цельного большого куска дерева или металла. Широкий открытый промежуток возле рта и глаз обеспечивает полное периферийное зрение и беспрепятственное общение. Этот конкретный шлем включает в себя снаряжение, которое вдохновляет как его владельцев, так и зрителей: когда сражаешься плечом к плечу с центурионом, даже сама боль кажется притупленной.</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Apparel_CenturionHelmet.label"><s>centurion helmet</s><r>шлем центуриона</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Apparel_LegionnaireArmor.description"><s>A carefully designed set of armor made from a series of reinforced metal or wooden sheets, forming somewhat of a carapace without sacrificing too much dexterity. Such armor is known to embolden one's mental fortitude.</s><r>Тщательно разработанный комплект брони, сделанный из ряда армированных металлических или деревянных листов, образующих своего рода панцирь, не жертвуя при этом слишком большой ловкостью. Известно, что такие доспехи придают смелость духу.</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Apparel_LegionnaireArmor.label"><s>legionnaire armor</s><r>доспехи легионера</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Apparel_LegionnaireHelmet.description"><s>A carefully designed helmet made out of a single large piece of wood or metal. A wide open gap near the mouth and eyes allows full peripheral vision and unmuffled communication.</s><r>Тщательно разработанный шлем, сделанный из цельного большого куска дерева или металла. Широкий открытый промежуток возле рта и глаз обеспечивает полное периферийное зрение и беспрепятственное общение.</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Apparel_LegionnaireHelmet.label"><s>legionnaire helmet</s><r>шлем легионера</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Arrow_Scorpion.label"><s>scorpion arrow</s><r>стрела скорпиона</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Beacon.description"><s>A large pile of wood placed carefully utop a tall platform. Once lit, a slow burning fire will burn brightly for 3 days. Lighting such a beacon will signal to a friendly faction that your settlement is in need of help, auxiliary military engineers usually arrive shortly afterwards, they will both fight and build alongside you. Must be fully rebuilt after extinguishing. Help can only be requests once at a time, and only every 3 days.</s><r>Большая куча дров аккуратно уложена на высокую платформу. После зажигания медленно горящий огонь будет ярко гореть в течение 3 дней. Зажигание такого маяка будет сигналом дружественной фракции о том, что ваше поселение нуждается в помощи. Вскоре после этого обычно прибудут вспомогательные военные инженеры, которые будут сражаться и строить вместе с вами. Необходимо полностью восстановить после тушения. Помощь можно запрашивать только один раз и только раз в 3 дня.</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Beacon.label"><s>beacon</s><r>маяк</r></e>
+  <e k="D" t="ThingDef" key="VFEC_BlocksConcrete.description"><s>Sturdy, utilitarian cement blocks for crafting any sort of infrastructure. While not as durable as granite or as gorgeous as marble, it is a clear improvement over weaker materials such as slate or sandstone.</s><r>Прочные, практичные цементные блоки для создания любой инфраструктуры. Хотя он не так прочен, как гранит, и не так великолепен, как мрамор, он явно лучше, чем более слабые материалы, такие как сланец или песчаник.</r></e>
+  <e k="D" t="ThingDef" key="VFEC_BlocksConcrete.label"><s>roman concrete blocks</s><r>римские бетонные блоки</r></e>
+  <e k="D" t="ThingDef" key="VFEC_BlocksConcrete.stuffProps.stuffAdjective"><s>concrete</s><r>конкретный</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Bronze.description"><s>A metallic alloy made from steel and trace amounts of copper found in stones. Can be used for crafting armor or furnishings when steel is in low supply.</s><r>Металлический сплав, изготовленный из стали и незначительного количества меди, содержащейся в камнях. Может использоваться для изготовления брони или мебели, когда стали мало.</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Bronze.label"><s>bronze</s><r>бронза</r></e>
+  <e k="D" t="ThingDef" key="VFEC_ConcretePress.description"><s>A very strong, open stone basin meant to cure and shape a mixture of clay, sand, and powdered stone known as cement into blocks.</s><r>Очень прочная открытая каменная чаша, предназначенная для затвердевания и формирования блоков из смеси глины, песка и каменного порошка, известной как цемент.</r></e>
+  <e k="D" t="ThingDef" key="VFEC_ConcretePress.label"><s>cement press</s><r>цементный пресс</r></e>
+  <e k="D" t="ThingDef" key="VFEC_CraftingBench.description"><s>A simple bench stocked with equally simple tools meant to assist in the crafting of primitive goods and weapons.</s><r>Простая скамейка с такими же простыми инструментами, предназначенными для помощи в изготовлении примитивных товаров и оружия.</r></e>
+  <e k="D" t="ThingDef" key="VFEC_CraftingBench.label"><s>crafting bench</s><r>верстак</r></e>
+  <e k="D" t="ThingDef" key="VFEC_HeatStones.description"><s>A thin square box made of stone, perforated with tiny holes at the bottom and top. A small fire can be lit and sustained within. The stone container will slowly dissipate heat, allowing prolonged passive warmth.</s><r>Тонкая квадратная коробочка из камня, пронизанная крошечными отверстиями снизу и сверху. Внутри можно зажечь и поддерживать небольшой огонь. Каменный контейнер будет медленно рассеивать тепло, обеспечивая длительное пассивное тепло.</r></e>
+  <e k="D" t="ThingDef" key="VFEC_HeatStones.label"><s>heat stones</s><r>тепловые камни</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Javelin.description"><s>A long-tipped throwing spear specifically designed to break armor and shield alike.</s><r>Метательное копье с длинным наконечником, специально предназначенное для разрушения как доспехов, так и щитов.</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Javelin.label"><s>javelin</s><r>копье</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Javelin.tools.0.label"><s>shaft</s><r>вал</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Javelin.tools.1.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Javelin_Thrown.label"><s>javelin</s><r>копье</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Jerky.description"><s>Salty, chewy, thinly-sliced meat that will last indefinitely and tastes quite pleasant for what it is.</s><r>Соленое, жевательное, тонко нарезанное мясо, которое хранится бесконечно и имеет довольно приятный вкус.</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Jerky.label"><s>jerky</s><r>вяленый</r></e>
+  <e k="D" t="ThingDef" key="VFEC_LargePassiveCooler.description"><s>A sturdy unpowered cooler notably larger than the traditional variety, cools rooms to freezing via water evaporation. Will run out and self-destruct after several days.</s><r>Прочный кулер без электропитания, значительно больший по размеру, чем традиционный вариант, охлаждает помещения до температуры замерзания за счет испарения воды. Через несколько дней закончится и самоуничтожится.</r></e>
+  <e k="D" t="ThingDef" key="VFEC_LargePassiveCooler.label"><s>large passive cooler</s><r>большой пассивный охладитель</r></e>
+  <e k="D" t="ThingDef" key="VFEC_MeatDryingRack.description"><s>A solid wooden rack featuring a series of dangling metal hooks across a central beam meant to hang slabs of meat. Meat hung by it will very slowly air dry over time, allowing an indefinite form of preservation. The air drying process can be quickened by a warm environment.</s><r>Твердая деревянная стойка с рядом свисающих металлических крючков на центральной балке, предназначенных для подвешивания кусков мяса. Мясо, подвешенное на нем, со временем очень медленно высохнет на воздухе, что позволяет хранить его в неопределенной форме. Процесс высыхания на воздухе можно ускорить, если создать теплую среду.</r></e>
+  <e k="D" t="ThingDef" key="VFEC_MeatDryingRack.label"><s>meat drying rack</s><r>сушилка для мяса</r></e>
+  <e k="D" t="ThingDef" key="VFEC_MeleeWeapon_Dagger.description"><s>A simple, elongated knife capable of being swung quite quickly. Generally favored by assassins or used as a backup weapon should one be separated from their spear or spatha.</s><r>Простой удлиненный нож, которым можно довольно быстро размахиваться. Обычно его предпочитают убийцы или используют в качестве запасного оружия, если его отделить от копья или спаты.</r></e>
+  <e k="D" t="ThingDef" key="VFEC_MeleeWeapon_Dagger.label"><s>dagger</s><r>кинжал</r></e>
+  <e k="D" t="ThingDef" key="VFEC_MeleeWeapon_Dagger.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="VFEC_MeleeWeapon_Dagger.tools.1.label"><s>blade</s><r>лезвие</r></e>
+  <e k="D" t="ThingDef" key="VFEC_MeleeWeapon_Dagger.tools.2.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="VFEC_MeleeWeapon_Spatha.description"><s>A weighty shortsword meant to deliver piercing attacks as well as occasional slashing swipes. Many scholars consider such a weapon to be a slightly less effective precursor to the longsword.</s><r>Тяжелый короткий меч, предназначенный для нанесения колющих ударов, а также случайных рубящих ударов. Многие учёные считают такое оружие чуть менее эффективным предшественником длинного меча.</r></e>
+  <e k="D" t="ThingDef" key="VFEC_MeleeWeapon_Spatha.label"><s>spatha</s><r>лопата</r></e>
+  <e k="D" t="ThingDef" key="VFEC_MeleeWeapon_Spatha.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="VFEC_MeleeWeapon_Spatha.tools.1.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="VFEC_MeleeWeapon_Spatha.tools.2.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="VFEC_MoteCenturionLink.label"><s>centurion link</s><r>центурион ссылка</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Opium.description"><s>A particularly strong and very addictive painkiller capable of entirely nullifying one's pain. It is recommended that if one is to begin using this drug, they should become daily users, as withdrawal is extremely difficult to cope with and starts quickly.</s><r>Особенно сильное и вызывающее сильное привыкание обезболивающее, способное полностью свести на нет боль. Если кто-то собирается начать использовать этот препарат, рекомендуется стать его ежедневным употреблением, поскольку с абстинентным синдромом справиться чрезвычайно трудно, и он начинается быстро.</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Opium.ingestible.ingestCommandString"><s>Take {0}</s><r>Возьми {0}</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Opium.ingestible.ingestReportString"><s>Taking {0}.</s><r>Берём {0}.</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Opium.label"><s>opium</s><r>опиум</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Plant_Poppy.description"><s>A tiny, crimson flower that can be harvested for opium, a strong pain killing drug.</s><r>Крошечный малиновый цветок, из которого можно получить опиум, сильное обезболивающее.</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Plant_Poppy.label"><s>poppy</s><r>мак</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Tent.description"><s>A small, personal tent no larger than a single person bed. When pitched, such a tent will easily protect a pawn from elements such as heat or cold, however it’s not quite as restful, as one is still laying directly on the ground.</s><r>Небольшая личная палатка размером не больше односпальной кровати. Установленная такая палатка легко защитит пешку от таких элементов, как жара или холод, однако она не так спокойна, поскольку человек по-прежнему лежит прямо на земле.</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Tent.label"><s>tent</s><r>палатка</r></e>
+  <e k="D" t="ThingDef" key="VFEC_TheatreStage.description"><s>A lightly decorated wooden stage meant to provide area for props and actors both to create compelling scenes. Such performances are quite fun for both those on stage and those casting their eyes upon it.</s><r>Слегка декорированная деревянная сцена предназначена для размещения реквизита и актеров для создания захватывающих сцен. Такие выступления доставляют массу удовольствия как тем, кто находится на сцене, так и тем, кто смотрит на нее.</r></e>
+  <e k="D" t="ThingDef" key="VFEC_TheatreStage.label"><s>theatre stage</s><r>театральная сцена</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Thermaebath.description"><s>A very large, heated stone bath meant to be shared by several patrons. Provides a temporary respite from an otherwise discomforting world. When in high numbers, bathers are known to lose themselves in the moment and share more than they normally would.</s><r>Очень большая каменная ванна с подогревом, предназначенная для нескольких посетителей. Обеспечивает временную передышку от дискомфортного мира. Известно, что в большом количестве купающиеся теряются в данный момент и делятся больше, чем обычно.</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Thermaebath.label"><s>thermaebath</s><r>паровая баня</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Toga.description"><s>A semicircular, open-bottomed garment designed to cover the entire body and shoulders. While similar to tribal clothing the toga is generally made with a more delicate touch and presents itself as dignified everyday wear.</s><r>Полукруглая одежда с открытым низом, закрывающая все тело и плечи. Несмотря на то, что тога похожа на племенную одежду, она обычно изготавливается более деликатно и представляет собой достойную повседневную одежду.</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Toga.label"><s>toga</s><r>тога</r></e>
+  <e k="D" t="ThingDef" key="VFEC_TurretGun_Scorpion.description"><s>A ballista-like turret capable of firing rapidly when set up and manned. Very effective against enemy infantry.</s><r>Башня, похожая на баллисту, способная вести быструю стрельбу в установленном и укомплектованном состоянии. Очень эффективен против вражеской пехоты.</r></e>
+  <e k="D" t="ThingDef" key="VFEC_TurretGun_Scorpion.label"><s>scorpion</s><r>скорпион</r></e>
+  <e k="D" t="ThingDef" key="VFEC_TurretGun_Scorpion.verbs.0.label"><s>scorpion</s><r>скорпион</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Turret_Scorpion.description"><s>A ballista-like turret capable of firing rapidly when set up and manned. Very effective against enemy infantry.</s><r>Башня, похожая на баллисту, способная вести быструю стрельбу в установленном и укомплектованном состоянии. Очень эффективен против вражеской пехоты.</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Turret_Scorpion.label"><s>scorpion turret</s><r>скорпион турель</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Tyrian.description"><s>A bolt of very beautiful and luxurious violet cloth, perfect for clothing the distinguished.</s><r>Рулон очень красивой и роскошной фиолетовой ткани, идеально подходящей для одежды знатных людей.</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Tyrian.label"><s>tyrian</s><r>тириан</r></e>
+  <e k="D" t="ThingDef" key="VFEC_TyrianFarm.description"><s>A large wooden enclosure meant to be placed in shallow water and filled with cloth. A unique breed of snails found in many rimworlds are known to wash up and leave residue on the cloth contained within, dying it. Creates a small amount of royal fabric over time.</s><r>Большой деревянный загон, предназначенный для размещения на мелководье и наполненный тканью. Известно, что уникальная порода улиток, обитающая во многих кольцевых мирах, моет и оставляет остатки на ткани, содержащейся внутри, окрашивая ее. Со временем создает небольшое количество королевской ткани.</r></e>
+  <e k="D" t="ThingDef" key="VFEC_TyrianFarm.label"><s>tyrian farm</s><r>тирианская ферма</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Weapon_Scorpion.description"><s>A ballista-like turret capable of firing rapidly when set up and manned. Light enough to be used as a handheld weapon at the cost of firing speed, very effective against enemy infantry.</s><r>Башня, похожая на баллисту, способная вести быструю стрельбу в установленном и укомплектованном состоянии. Достаточно легкий, чтобы его можно было использовать в качестве ручного оружия за счет скорости стрельбы, очень эффективен против вражеской пехоты.</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Weapon_Scorpion.label"><s>scorpion</s><r>скорпион</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Weapon_Scorpion.verbs.0.label"><s>scorpion</s><r>скорпион</r></e>
+  <e k="D" t="ThingDef" key="VFEC_WoodFiredCrematorium.description"><s>A wood fired receptacle meant for disposal of unneeded junk or bodies.</s><r>Дровяной сосуд, предназначенный для утилизации ненужного мусора или тел.</r></e>
+  <e k="D" t="ThingDef" key="VFEC_WoodFiredCrematorium.label"><s>wood-fired crematorium</s><r>крематорий на дровах</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Wreath.description"><s>A polished metallic piece of headgear resembling laurels meant to signify wealth and status, equally appealing to both senators and nobles.</s><r>Полированный металлический головной убор, напоминающий лавры, обозначающий богатство и статус, одинаково привлекающий как сенаторов, так и дворян.</r></e>
+  <e k="D" t="ThingDef" key="VFEC_Wreath.label"><s>wreath</s><r>венок</r></e>
+  <e k="D" t="ThoughtDef" key="VFEC_CarpeDiem.stages.0.description"><s>I have to seize the day, for it can always be my last!</s><r>Я должен воспользоваться моментом, потому что он всегда может оказаться для меня последним!</r></e>
+  <e k="D" t="ThoughtDef" key="VFEC_CarpeDiem.stages.0.label"><s>Carpe Diem</s><r>Лови момент</r></e>
+  <e k="D" t="ThoughtDef" key="VFEC_OpiumHigh.stages.0.description"><s>I feel no pain! Let's do this!</s><r>Я не чувствую боли! Давайте сделаем это!</r></e>
+  <e k="D" t="ThoughtDef" key="VFEC_OpiumHigh.stages.0.label"><s>high on opium</s><r>под высоким содержанием опиума</r></e>
+  <e k="D" t="ThoughtDef" key="VFEC_OpiumWithdrawal.stages.1.description"><s>I'm really tired. Everything's so dull and the pain is so intense.</s><r>Я очень устал. Все так скучно, а боль такая сильная.</r></e>
+  <e k="D" t="ThoughtDef" key="VFEC_OpiumWithdrawal.stages.1.label"><s>opium withdrawal</s><r>отказ от опиума</r></e>
+  <e k="D" t="TraderKindDef" key="VFEC_Caravan_Republic_BulkGoods.label"><s>bulk goods trader</s><r>торговец оптовыми товарами</r></e>
+  <e k="D" t="TraderKindDef" key="VFEC_Caravan_Republic_Slaver.label"><s>slaver</s><r>работорговец</r></e>
+  <e k="D" t="TraderKindDef" key="VFEC_Caravan_Republic_WarMerchant.label"><s>war merchant</s><r>военный торговец</r></e>
+  <e k="D" t="TraderKindDef" key="VFEC_Visitor_Republic_Standard.label"><s>trader</s><r>торговец</r></e>
+  <e k="D" t="WorkGiverDef" key="VFEC_DoBillsUseCraftingBench.gerund"><s>crafting at</s><r>ремесло в</r></e>
+  <e k="D" t="WorkGiverDef" key="VFEC_DoBillsUseCraftingBench.label"><s>make things at crafting bench</s><r>делать вещи на верстаке</r></e>
+  <e k="D" t="WorkGiverDef" key="VFEC_DoBillsUseCraftingBench.verb"><s>craft</s><r>ремесло</r></e>
+  <e k="D" t="WorldObjectDef" key="Outpost_Farming.description"><s>Places a temporary, autonomously-led camp that specializes in sowing and harvesting easily-grown vegetation, cannot be placed on deserts. Once an ample amount is collected, a delivery will be made at the outskirts of a faction's primary colony.</s><r>Места временного автономного лагеря, специализирующегося на посеве и сборе легкорастущей растительности, не могут быть размещены в пустынях. Как только будет собрано достаточное количество, доставка будет осуществлена ​​на окраину основной колонии фракции.</r></e>
+  <e k="D" t="WorldObjectDef" key="Outpost_Farming.label"><s>farming outpost</s><r>фермерский форпост</r></e>
+  <e k="D" t="WorldObjectDef" key="Outpost_Farming.modExtensions.0.ChooseDesc"><s>Choose which plant this outpost should plant</s><r>Выберите, какое растение должен посадить этот аванпост.</r></e>
+  <e k="D" t="WorldObjectDef" key="Outpost_Farming.modExtensions.0.ChooseLabel"><s>Choose plant</s><r>Выбрать растение</r></e>
+  <e k="D" t="WorldObjectDef" key="Outpost_Hunting.description"><s>Places a temporary, autonomously-led camp that specializes in hunting and butchering wildlife. Once an ample amount is collected, a delivery will be made at the outskirts of a faction's primary colony.</s><r>Размещает временный автономный лагерь, специализирующийся на охоте и разделке диких животных. Как только будет собрано достаточное количество, доставка будет осуществлена ​​на окраину основной колонии фракции.</r></e>
+  <e k="D" t="WorldObjectDef" key="Outpost_Hunting.label"><s>hunting outpost</s><r>охотничья застава</r></e>
+  <e k="D" t="WorldObjectDef" key="Outpost_Hunting.modExtensions.0.ChooseDesc"><s>Choose what animal to hunt at this outpost</s><r>Выберите, на какое животное охотиться на этой заставе</r></e>
+  <e k="D" t="WorldObjectDef" key="Outpost_Hunting.modExtensions.0.ChooseLabel"><s>Hunting {0}</s><r>Охота {0}</r></e>
+  <e k="D" t="WorldObjectDef" key="Outpost_Logging.description"><s>Places a temporary, autonomously-led camp that specializes in collecting wood from trees in the areas, cannot be placed on deserts. Once an ample amount is collected, a delivery will be made at the outskirts of a faction's primary colony.</s><r>Места временного автономного лагеря, специализирующегося на сборе древесины с деревьев на местности, не могут быть размещены в пустынях. Как только будет собрано достаточное количество, доставка будет осуществлена ​​на окраину основной колонии фракции.</r></e>
+  <e k="D" t="WorldObjectDef" key="Outpost_Logging.label"><s>logging outpost</s><r>лесозаготовительная застава</r></e>
+  <e k="D" t="WorldObjectDef" key="Outpost_Mining.description"><s>Places a temporary, autonomously-led camp that specializes in collecting and processing stone or metal, can only be placed on hills or mountains. Once an ample amount is collected, a delivery will be made at the outskirts of a faction's primary colony.</s><r>Временный лагерь с автономным управлением, специализирующийся на сборе и обработке камня или металла, может быть размещен только на холмах или в горах. Как только будет собрано достаточное количество, доставка будет осуществлена ​​на окраину основной колонии фракции.</r></e>
+  <e k="D" t="WorldObjectDef" key="Outpost_Mining.label"><s>mining outpost</s><r>горнодобывающая застава</r></e>
+  <e k="D" t="WorldObjectDef" key="Outpost_Mining.modExtensions.0.ChooseDesc"><s>Click to change mining target.</s><r>Нажмите, чтобы изменить цель майнинга.</r></e>
+  <e k="D" t="WorldObjectDef" key="Outpost_Mining.modExtensions.0.ChooseLabel"><s>Mining {0}</s><r>Горное дело {0}</r></e>
+  <e k="K" key="Outposts.MustBeMade"><s>Must be made in the {0}</s><r>Должно быть сделано в {0}</r></e>
+  <e k="K" key="Outposts.MustBeMade.Hill"><s>Must be made in mountains or hills</s><r>Должно быть сделано в горах или холмах.</r></e>
+  <e k="K" key="Outposts.Settings.Animals"><s>Animals Importance</s><r>Значение животных</r></e>
+  <e k="K" key="Outposts.Settings.Leather"><s>Leather Multiplier</s><r>Кожаный множитель</r></e>
+  <e k="K" key="Outposts.Settings.Meat"><s>Meat Multiplier</s><r>Мясной множитель</r></e>
+  <e k="K" key="Outposts.Settings.NeedPods"><s>Need Transport Pods Tech to Deploy Reinforcements?</s><r>Нужна технология транспортных капсул для развертывания подкреплений?</r></e>
+  <e k="K" key="Outposts.Settings.Shooting"><s>Shooting Importance</s><r>Важность съемки</r></e>
+  <e k="K" key="Outposts.SkillTooLow"><s>Total skill too low, needs {0}</s><r>Общий навык слишком низкий, требуется {0}</r></e>
+  <e k="K" key="VFEC.BuildingRoad"><s>Building road: {0}, progress: {1}, ({2}/{3})</s><r>Строящаяся дорога: {0}, прогресс: {1}, ({2}/{3})</r></e>
+  <e k="K" key="VFEC.Cooldown"><s>Still on cooldown.</s><r>Все еще на перезарядке.</r></e>
+  <e k="K" key="VFEC.Letters.Donation"><s>Tribute Recieved from {0}</s><r>Дань получена от {0}</r></e>
+  <e k="K" key="VFEC.Letters.Donation.Desc"><s>{0} has provided tribute of {1}.</s><r>{0} предоставил дань в размере {1}.</r></e>
+  <e k="K" key="VFEC.Letters.Researched"><s>Technology Gained: {0}</s><r>Получено технологий: {0}</r></e>
+  <e k="K" key="VFEC.Letters.Researched.Desc"><s>{1} has recently made a breakthrough in their technological advancements, and they have shared the technology with you.
+Technology unlocked:
+{0}</s><r>{1} недавно совершили прорыв в своих технологических достижениях и поделились этой технологией с вами.
+Технология разблокирована:
+{0}</r></e>
+  <e k="K" key="VFEC.Letters.SenatorJoins"><s>Senator Joins: {0}</s><r>Сенатор присоединяется: {0}</r></e>
+  <e k="K" key="VFEC.Letters.SenatorJoins.Desc"><s>{0}, a senator from {1}, has agreed to join you. This has unlocked the perk {2}.</s><r>{0}, сенатор от {1}, согласился присоединиться к вам. Это разблокирует перк {2}.</r></e>
+  <e k="K" key="VFEC.Letters.SenatorJoins.Desc.All"><s>Since you now have all senators from {0}, you have now unlocked the perk {1}. Additionally, perks will no longer be lost if a senator dies.</s><r>Поскольку теперь у вас есть все сенаторы от {0}, вы разблокировали перк {1}. Кроме того, льготы больше не будут потеряны в случае смерти сенатора.</r></e>
+  <e k="K" key="VFEC.Letters.SenatorJoins.Desc.All.Research"><s>Finally, combining the knowledge of all {0} senators means you have automatically researched {1}.</s><r>Наконец, объединение знаний всех сенаторов {0} означает, что вы автоматически исследовали {1}.</r></e>
+  <e k="K" key="VFEC.Letters.SenatorJoins.Desc.Research"><s>They have also shared some knowledge with you, automatically researching {0}.</s><r>Они также поделились с вами некоторыми знаниями, автоматически исследуя {0}.</r></e>
+  <e k="K" key="VFEC.Letters.SenatorLost"><s>Senator Lost: {0}</s><r>Сенатор потерян: {0}</r></e>
+  <e k="K" key="VFEC.Letters.SenatorLost.Desc"><s>{0}, a senator from {1}, has died in your care. {1} will now elect a new senator, who you will have to gain the favor of. As such, the perk {2} has been lost.</s><r>{0}, сенатор от {1}, умер на вашем попечении. {1} теперь изберет нового сенатора, расположение которого вам придется завоевать. Таким образом, перк {2} был утерян.</r></e>
+  <e k="K" key="VFEC.LightTheBeacon"><s>Light the Beacon</s><r>Зажгите маяк</r></e>
+  <e k="K" key="VFEC.LightTheBeacon.Desc"><s>Light this beacon to call reinforcements.</s><r>Зажгите этот маяк, чтобы вызвать подкрепление.</r></e>
+  <e k="K" key="VFEC.NoAllies"><s>No allies.</s><r>Никаких союзников.</r></e>
+  <e k="K" key="VFEC.NoHostiles"><s>allies have no hostiles</s><r>у союзников нет врагов</r></e>
+  <e k="K" key="VFEC.NoReinforce"><s>No reinforcements available.</s><r>Подкрепления нет.</r></e>
+  <e k="K" key="VFEC.PerkUnlocked"><s>The perk {0} has been unlocked.</s><r>Перк {0} разблокирован.</r></e>
+  <e k="K" key="VFEC.ReinforcementLegionFailed"><s>Reinforcement legion is unable to assist: {0}.</s><r>Легион подкреплений не может помочь: {0}.</r></e>
+  <e k="K" key="VFEC.RoadFinished"><s>{0} has finished building {1}</s><r>{0} закончил строительство {1}</r></e>
+  <e k="K" key="VFEC.Scorpion.PickUp"><s>Pick up scorpion</s><r>Возьмите скорпиона</r></e>
+  <e k="K" key="VFEC.Scorpion.SetUp"><s>Set up scorpion</s><r>Настроить скорпиона</r></e>
+  <e k="K" key="VFEC.Senators.FavorOf"><s>Favor of {0}</s><r>Благосклонность {0}</r></e>
+  <e k="K" key="VFEC.Senators.FavorTip"><s>You will be favored by {0}, who will join your colony. This will activate their associated perk, along with automatically researching their associated project.</s><r>Вам будет благосклонен {0}, который присоединится к вашей колонии. Это активирует соответствующий перк, а также автоматически исследует связанный с ним проект.</r></e>
+  <e k="K" key="VFEC.Senators.GainFavor"><s>You gain the favor of Senator {0} from {1}.</s><r>Вы получаете благосклонность сенатора {0} из {1}.</r></e>
+  <e k="K" key="VFEC.Senators.Open"><s>Talk to senators</s><r>Поговорите с сенаторами</r></e>
+  <e k="K" key="VFEC.Senators.RequiresCaravan"><s>A caravan must be present at this settlement to access the senate.</s><r>Чтобы попасть в сенат, в этом поселении должен присутствовать караван.</r></e>
+  <e k="K" key="VFEC.TransferToColony"><s>Transfer to Colony</s><r>Трансфер в колонию</r></e>
+  <e k="K" key="VFEC.UI.AlreadyQuest"><s>Already have a quest for that senator.</s><r>Уже есть поиск этого сенатора.</r></e>
+  <e k="K" key="VFEC.UI.Bribe"><s>Bribe ({0} silver)</s><r>Взятка ({0} серебра)</r></e>
+  <e k="K" key="VFEC.UI.BribeReject"><s>{0} has rejected your bribe and can no longer be bribed.</s><r>{0} отклонил вашу взятку, и его больше нельзя подкупить.</r></e>
+  <e k="K" key="VFEC.UI.GainingFavor"><s>Gaining the favor of this senator will unlock:</s><r>Завоевание благосклонности этого сенатора откроет:</r></e>
+  <e k="K" key="VFEC.UI.GainingFavorAll"><s>Gaining the favor of all senators will unlock:</s><r>Завоевание благосклонности всех сенаторов откроет:</r></e>
+  <e k="K" key="VFEC.UI.Info"><s>Gaining favor of a senator will have that senator join your colony. Losing that senator will force you to impress a new one. As such, you should aim to keep them alive.
+
+Gain support of all the senators to unlock unique perks and eventually unite the Republics under your rule. Once you gain favor of all 5 senators of any Republic, the perks are yours forever, no matter what happens to Senators.</s><r>Если вы заслужите благосклонность сенатора, этот сенатор присоединится к вашей колонии. Потеря этого сенатора заставит вас произвести впечатление на нового. Таким образом, вы должны стремиться сохранить их жизнь.
+
+Заручитесь поддержкой всех сенаторов, чтобы разблокировать уникальные льготы и в конечном итоге объединить республики под своей властью. Как только вы заслужите благосклонность всех 5 сенаторов любой республики, привилегии станут вашими навсегда, что бы ни случилось с сенаторами.</r></e>
+  <e k="K" key="VFEC.UI.NoQuestsAvailable"><s>No quests available for this senator at the moment.</s><r>На данный момент квестов для этого сенатора нет.</r></e>
+  <e k="K" key="VFEC.UI.NotEnoughMoney"><s>You do not have enough money with you to do this.</s><r>У вас недостаточно денег для этого.</r></e>
+  <e k="K" key="VFEC.UI.Perk"><s>{0} perk</s><r>{0} перк</r></e>
+  <e k="K" key="VFEC.UI.ReQuest"><s>Request a quest</s><r>Запросить квест</r></e>
+  <e k="K" key="VFEC.UI.Research"><s>{0} research project</s><r>{0} исследовательский проект</r></e>
+  <e k="K" key="VFEC.UI.SenatorsInFavor"><s>Senators in favor: {0}/{1}</s><r>Сенаторы за: {0}/{1}</r></e>
+  <e k="K" key="VFEC.UI.SenatorsOf"><s>Senators of {0}</s><r>Сенаторы {0}</r></e>
+  <e k="K" key="VFEC.UI.ViewPerks"><s>View Perks</s><r>Посмотреть льготы</r></e>
+  <e k="K" key="VFEC.UI.ViewSenators"><s>View Senators</s><r>Посмотреть сенаторов</r></e>
+  <e k="K" key="VFEC.Unknown"><s>Unknown</s><r>Неизвестный</r></e>
+  <e k="K" key="VFEC_ConcretePressNotWorking"><s>This cement press is not working at the moment</s><r>Этот цементный пресс в данный момент не работает.</r></e>
+  <e k="K" key="VFEC_MeatDryingRackNotWorking"><s>This meat drying rack is not working at the moment</s><r>Эта сушилка для мяса в данный момент не работает.</r></e>
+  <e k="K" key="VFEC_TyrianFarmNotWorking"><s>This tyrian farm is not working at the moment</s><r>Эта тирийская ферма в данный момент не работает</r></e>
+</AutoTranslateCache>
