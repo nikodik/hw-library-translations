@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="rh2.bcd.casevac" name="[RH2] BCD: CASEVAC" language="Russian" version="1">
+  <e k="D" t="JobDef" key="CP_CasevacCapture.reportString"><s>capturing TargetA.</s><r>захват TargetA.</r></e>
+  <e k="D" t="JobDef" key="CP_CasevacRescue.reportString"><s>rescuing TargetA.</s><r>спасение TargetA.</r></e>
+  <e k="D" t="ThoughtDef" key="CP_RescuedMe.stages.0.description"><s>rescued me</s><r>спас меня</r></e>
+  <e k="D" t="ThoughtDef" key="CP_RescuedMe.stages.0.label"><s>rescued me</s><r>спас меня</r></e>
+  <e k="D" t="ThoughtDef" key="CP_RescuedTogether.stages.0.description"><s>This person and I worked together as a team to rescue someone.</s><r>Мы с этим человеком работали вместе как одна команда, чтобы кого-то спасти.</r></e>
+  <e k="D" t="ThoughtDef" key="CP_RescuedTogether.stages.0.label"><s>Rescued together</s><r>Спасены вместе</r></e>
+  <e k="D" t="WorkGiverDef" key="CP_CasevacRescue.gerund"><s>CASEVAC</s><r>КАСЕВАК</r></e>
+  <e k="D" t="WorkGiverDef" key="CP_CasevacRescue.label"><s>CASEVAC</s><r>КАСЕВАК</r></e>
+  <e k="D" t="WorkGiverDef" key="CP_CasevacRescue.verb"><s>CASEVAC</s><r>КАСЕВАК</r></e>
+  <e k="D" t="WorkTypeDef" key="CP_CasevacRescue.description"><s>CASEVAC</s><r>КАСЕВАК</r></e>
+  <e k="D" t="WorkTypeDef" key="CP_CasevacRescue.gerundLabel"><s>CASEVAC</s><r>КАСЕВАК</r></e>
+  <e k="D" t="WorkTypeDef" key="CP_CasevacRescue.labelShort"><s>CASEVAC</s><r>КАСЕВАК</r></e>
+  <e k="D" t="WorkTypeDef" key="CP_CasevacRescue.pawnLabel"><s>CASEVAC</s><r>КАСЕВАК</r></e>
+  <e k="D" t="WorkTypeDef" key="CP_CasevacRescue.verb"><s>CASEVAC</s><r>КАСЕВАК</r></e>
+  <e k="K" key="RH.CASEVAC"><s>CASEVAC {PAWN_nameDef}</s><r>КАСЕВАК {PAWN_nameDef}</r></e>
+</AutoTranslateCache>
