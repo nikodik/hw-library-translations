@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="leo.eventsexpanded" name="Leo - Events" language="Russian" version="1">
+  <e k="D" t="BodyDef" key="LE_AwakenedTree.corePart.customLabel"><s>trunk</s><r>ствол</r></e>
+  <e k="D" t="BodyDef" key="LE_AwakenedTree.corePart.parts.2.customLabel"><s>main stem</s><r>главный стебель</r></e>
+  <e k="D" t="BodyDef" key="LE_AwakenedTree.corePart.parts.4.customLabel"><s>front left root</s><r>передний левый корень</r></e>
+  <e k="D" t="BodyDef" key="LE_AwakenedTree.corePart.parts.5.customLabel"><s>front right root</s><r>передний правый корень</r></e>
+  <e k="D" t="BodyDef" key="LE_AwakenedTree.corePart.parts.6.customLabel"><s>rear root</s><r>задний корень</r></e>
+  <e k="D" t="BodyDef" key="LE_AwakenedTree.corePart.parts.8.customLabel"><s>left branch</s><r>левая ветка</r></e>
+  <e k="D" t="BodyDef" key="LE_AwakenedTree.corePart.parts.8.parts.0.customLabel"><s>left twigs</s><r>оставленные ветки</r></e>
+  <e k="D" t="BodyDef" key="LE_AwakenedTree.corePart.parts.9.customLabel"><s>right branch</s><r>правая ветвь</r></e>
+  <e k="D" t="BodyDef" key="LE_AwakenedTree.corePart.parts.9.parts.0.customLabel"><s>right twigs</s><r>правильные веточки</r></e>
+  <e k="D" t="BodyDef" key="LE_AwakenedTree.label"><s>awakened tree</s><r>проснувшееся дерево</r></e>
+  <e k="D" t="BodyPartDef" key="LE_Branch.label"><s>branch</s><r>ветвь</r></e>
+  <e k="D" t="BodyPartDef" key="LE_Canopy.label"><s>canopy</s><r>навес</r></e>
+  <e k="D" t="BodyPartDef" key="LE_Heartwood.label"><s>heartwood</s><r>сердцевина</r></e>
+  <e k="D" t="BodyPartDef" key="LE_RootLimb.label"><s>root</s><r>корень</r></e>
+  <e k="D" t="BodyPartDef" key="LE_TreeBark.label"><s>bark</s><r>лаять</r></e>
+  <e k="D" t="BodyPartDef" key="LE_TreeLeaves.label"><s>leaves</s><r>листья</r></e>
+  <e k="D" t="BodyPartDef" key="LE_Twigs.label"><s>twigs</s><r>ветки</r></e>
+  <e k="D" t="BodyPartDef" key="LE_VascularTissue.label"><s>vascular tissue</s><r>сосудистая ткань</r></e>
+  <e k="D" t="EntityCodexEntryDef" key="LE_AwakenedTree.label"><s>awakened tree</s><r>проснувшееся дерево</r></e>
+  <e k="D" t="EntityCodexEntryDef" key="LE_Mimic.label"><s>mimic</s><r>имитировать</r></e>
+  <e k="D" t="FleshTypeDef" key="LE_Woody.label"><s>woody</s><r>древесный</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ArchotechPsychosis.description"><s>An archotech high-frequency pulse of unknown origin has swept through the system. This signal seems to have bypassed the physical world entirely, altering only the higher-dimensional transcendent consciousness...</s><r>По системе пронесся архотехнический высокочастотный импульс неизвестного происхождения. Этот сигнал, кажется, полностью обошел физический мир, изменив только трансцендентное сознание более высокого измерения...</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ArchotechPsychosis.endMessage"><s>The archotech psychosis is ending.</s><r>Архотехнический психоз заканчивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ArchotechPsychosis.label"><s>archotech psychosis</s><r>архотехнический психоз</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ArchotechPsychosis.letterText"><s>An unknown archotech node has been activated. It possesses no physical lethality, nor does it inflict any actual disruption upon colonists.
+
+However, certain &quot;non-three-dimensional&quot; observation noises are being forcefully injected into the hyper-dimensional entity currently gazing down upon this land.
+
+Through the eyes of this transcendent consciousness, the world will appear to burn, infrastructure will seem to crumble, and phantom alarms of impending doom will echo in its mind.</s><r>Был активирован неизвестный архотехнический узел. Он не обладает физической смертоносностью и не причиняет никакого реального вреда колонистам.
+
+Однако определенные «нетрехмерные» шумы наблюдения принудительно вводятся в гиперпространственную сущность, в настоящее время смотрящую на эту землю.
+
+В глазах этого трансцендентного сознания мир будет казаться горящим, инфраструктура будет казаться рушащейся, и появятся фантомные сигналы тревоги о надвигающемся гибель отзовется в его сознании.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ArtisticRenaissance.description"><s>A world-wide surge of cultural appreciation skyrockets the market value of sculptures and art pieces.</s><r>Всемирный всплеск культурного признания резко увеличивает рыночную стоимость скульптур и произведений искусства.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ArtisticRenaissance.endMessage"><s>The artistic renaissance is fading.</s><r>Художественный ренессанс угасает.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ArtisticRenaissance.label"><s>artistic renaissance</s><r>художественный ренессанс</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ArtisticRenaissance.letterText"><s>A sudden golden age of cultural appreciation has swept through the regional trade networks.
+
+Wealthy collectors and interstellar merchants are paying premium prices for human creativity. Art pieces, sculptures, and fine crafts can now be sold for significantly higher prices than usual.
+
+The renaissance will last for several days. Empty your art storage and sell your stockpiled works to passing traders for maximum profit while demand peaks.</s><r>Внезапный золотой век культурного признания пронесся по региональным торговым сетям.
+
+Богатые коллекционеры и межзвездные торговцы платят высокие цены за человеческое творчество. Произведения искусства, скульптуры и изящные поделки теперь можно продавать значительно дороже, чем обычно.
+
+Возрождение продлится несколько дней. Опустошите свое хранилище произведений искусства и продайте накопленные произведения прохожим торговцам, чтобы получить максимальную прибыль, пока спрос достигает пика.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_AtmosphericAphrodisiac.description"><s>Something in the air of this planet seems to put people in the mood to reproduce.</s><r>Что-то в воздухе этой планеты, кажется, настраивает людей на размножение.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_AtmosphericAphrodisiac.endMessage"><s>The atmospheric aphrodisiac is ending.</s><r>Атмосферный афродизиак заканчивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_AtmosphericAphrodisiac.label"><s>atmospheric aphrodisiac</s><r>атмосферный афродизиак</r></e>
+  <e k="D" t="GameConditionDef" key="LE_AtmosphericAphrodisiac.letterText"><s>A heavy surge of natural airborne pheromones has drifted into the troposphere.
+
+This hormonal shift affects all biological entities in the area, making them far more prone to romantic advances and significantly increasing their drive to reproduce.
+
+The pheromone cloud will last for a few days. Manage your colonists' social environments carefully to control relationship dynamics and potential pregnancies.</s><r>Тяжелая волна естественных феромонов, переносимых по воздуху, достигла тропосферы.
+
+Этот гормональный сдвиг затрагивает все биологические существа в этом районе, делая их гораздо более склонными к романтическим заигрываниям и значительно усиливая их стремление к размножению.
+
+Облако феромонов продержится несколько дней. Тщательно управляйте социальной средой своих колонистов, чтобы контролировать динамику отношений и потенциальную беременность.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_AtmosphericExcitant.description"><s>Volatile bio-excitants saturate the air, boosting cellular metabolism to elevate consciousness and double natural healing rates.</s><r>Летучие биовозбудители насыщают воздух, ускоряя клеточный метаболизм, повышая сознание и удваивая скорость естественного выздоровления.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_AtmosphericExcitant.endMessage"><s>The atmospheric excitant is ending.</s><r>Атмосферный возбудитель заканчивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_AtmosphericExcitant.label"><s>atmospheric excitant</s><r>атмосферный возбудитель</r></e>
+  <e k="D" t="GameConditionDef" key="LE_AtmosphericExcitant.letterText"><s>An atmospheric wave rich in volatile bio-excitants has blanketed the region.
+
+Upon breathing these compounds, biological entities experience a rapid boost in metabolism. This elevates their general consciousness and doubles the natural healing rate of wounds and injuries.
+
+The excitant will dissipate after a few days.</s><r>Атмосферная волна, богатая летучими биовозбудителями, накрыла этот регион.
+
+Вдыхая эти соединения, биологические существа испытывают быстрое ускорение метаболизма. Это повышает их общее сознание и удваивает естественную скорость заживления ран и травм.
+
+Возбуждающее вещество исчезнет через несколько дней.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_AtmosphericHallucinogen.description"><s>Airborne psychoactive spores induce widespread mild hallucinations, amplifying colony mood while degrading global work speed.</s><r>Психоактивные споры, передающиеся по воздуху, вызывают широко распространенные легкие галлюцинации, усиливая настроение колонии и одновременно снижая глобальную скорость работы.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_AtmosphericHallucinogen.endMessage"><s>The atmospheric hallucinogen is ending.</s><r>Атмосферный галлюциноген заканчивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_AtmosphericHallucinogen.label"><s>atmospheric hallucinogen</s><r>атмосферный галлюциноген</r></e>
+  <e k="D" t="GameConditionDef" key="LE_AtmosphericHallucinogen.letterText"><s>The air of this planet contains a natural hallucinogen.
+
+While this does keep people happy, it also distracts people from other work.
+
+The spore cloud will hover over the region for a few days. Expect a significant drop in overall work speed across the settlement.</s><r>Воздух этой планеты содержит природный галлюциноген.
+
+Хотя это делает людей счастливыми, но также отвлекает людей от другой работы.
+
+Облако спор будет зависать над регионом в течение нескольких дней. Ожидайте значительного снижения общей скорости работы по всему поселению.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_DielectricInterference.description"><s>Anomalous environmental shifts alter localized dielectric constants, increasing polarization loss to depress the net efficiency of all power generators and batteries.</s><r>Аномальные изменения окружающей среды изменяют локализованную диэлектрическую проницаемость, увеличивая потери поляризации и снижая чистую эффективность всех генераторов энергии и батарей.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_DielectricInterference.endMessage"><s>The dielectric interference is ending.</s><r>Диэлектрические помехи заканчиваются.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_DielectricInterference.label"><s>dielectric interference</s><r>диэлектрические помехи</r></e>
+  <e k="D" t="GameConditionDef" key="LE_DielectricInterference.letterText"><s>An anomalous electromagnetic shift has distorted the localized dielectric continuum.
+
+This environmental aberration destabilizes molecular polarization within electrical infrastructures. Throughout the grid, power generators will experience severe efficiency choking due to heightened dielectric dielectric loss, while batteries suffer from systemic charge leakage.
+
+The degradation will persist for a few days. Minimize non-essential power loads to prevent grid-wide brownouts.</s><r>Аномальный электромагнитный сдвиг исказил локализованный диэлектрический континуум.
+
+Эта аберрация окружающей среды дестабилизирует молекулярную поляризацию в электрической инфраструктуре. По всей сети электрогенераторы будут испытывать серьезное снижение эффективности из-за повышенных диэлектрических потерь, а батареи страдают от системной утечки заряда.
+
+Ухудшение будет сохраняться в течение нескольких дней. Минимизируйте второстепенные силовые нагрузки, чтобы предотвратить отключения электроэнергии во всей сети.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_DielectricResonance.description"><s>Anomalous environmental shifts alter localized dielectric constants, minimizing polarization loss to enhance the net efficiency of all power generators and batteries.</s><r>Аномальные изменения окружающей среды изменяют локализованную диэлектрическую проницаемость, сводя к минимуму потери поляризации и повышая общий КПД всех генераторов энергии и батарей.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_DielectricResonance.endMessage"><s>The dielectric resonance is ending.</s><r>Диэлектрический резонанс заканчивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_DielectricResonance.label"><s>dielectric resonance</s><r>диэлектрический резонанс</r></e>
+  <e k="D" t="GameConditionDef" key="LE_DielectricResonance.letterText"><s>An anomalous electromagnetic shift has organized the localized dielectric continuum.
+
+This environmental alignment synchronizes molecular polarization within electrical infrastructures. Throughout the grid, power generators will experience severe efficiency boosting due to minimize dielectric loss, while batteries benefit from systemic charge buffering.
+
+The optimization will persist for a few days. Maximize high-consumption operations to leverage the temporary grid surplus.</s><r>Аномальный электромагнитный сдвиг организовал локализованный диэлектрический континуум.
+
+Это выравнивание окружающей среды синхронизирует молекулярную поляризацию внутри электрической инфраструктуры. По всей сети электрогенераторы значительно повысят эффективность благодаря минимизации диэлектрических потерь, а батареи получат выгоду от системной буферизации заряда.
+
+Оптимизация будет сохраняться в течение нескольких дней. Максимизируйте операции с высоким потреблением, чтобы использовать временный избыток сети.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_DimensionalJitter.description"><s>A high-frequency spatial instability causes localized collapses, causing entities to spontaneously teleport short distances.</s><r>Высокочастотная пространственная нестабильность вызывает локальные коллапсы, заставляя сущности спонтанно телепортироваться на короткие расстояния.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_DimensionalJitter.endMessage"><s>The spatial instability has stabilized.</s><r>Пространственная нестабильность стабилизировалась.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_DimensionalJitter.label"><s>dimensional jitter</s><r>размерный джиттер</r></e>
+  <e k="D" t="GameConditionDef" key="LE_DimensionalJitter.letterText"><s>A wave of high-frequency dimensional interference is sweeping across the region.
+
+Space-time coordinates are becoming fluid and unstable. Localized quantum micro-collapses will cause both biological and mechanical entities to randomly &quot;skip&quot; and teleport between nearby positions without warning.
+
+The interference will persist for a few days. Be prepared for tactical chaos, as positioning during combat or standard routines will be highly unpredictable.</s><r>По региону прокатывается волна высокочастотной пространственной интерференции.
+
+Пространственно-временные координаты становятся текучими и нестабильными. Локализованные квантовые микроколлапсы заставят как биологические, так и механические объекты беспорядочно «пропускать» и телепортироваться между близлежащими позициями без предупреждения.
+
+Вмешательство будет сохраняться в течение нескольких дней. Будьте готовы к тактическому хаосу, поскольку позиционирование во время боя или стандартных действий будет крайне непредсказуемым.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_DissipationEMP.description"><s>A peculiar quantum dissipation wave permeates local space, causing electromagnetic pulses to decay rapidly and significantly shortening the stun duration of mechanical targets.</s><r>Своеобразная волна квантовой диссипации пронизывает локальное пространство, вызывая быстрое затухание электромагнитных импульсов и значительно сокращая продолжительность оглушения механических целей.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_DissipationEMP.endMessage"><s>The EMP dissipation is ending.</s><r>Диссипация ЭМИ заканчивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_DissipationEMP.label"><s>EMP dissipation</s><r>Рассеяние ЭМИ</r></e>
+  <e k="D" t="GameConditionDef" key="LE_DissipationEMP.letterText"><s>A volatile energy dissipation anomaly has locked onto this sector.
+
+This damping field forces high-energy electromagnetic discharge to ground and diffuses almost instantly. Consequently、any mechanoids or electronic entities subjected to an EMP strike will experience accelerated dissipation of their overloaded internal charge, drastically reducing their downtime from stuns and system malfunctions.
+
+This interference will persist for several days. During this window, traditional EMP crowd-control measures will be highly ineffective.</s><r>В этом секторе зафиксировалась нестабильная аномалия рассеивания энергии.
+
+Это затухающее поле заставляет высокоэнергетический электромагнитный разряд заземлиться и почти мгновенно рассеивается. Следовательно, любые механоиды или электронные объекты, подвергшиеся удару ЭМИ, будут испытывать ускоренное рассеивание перегруженного внутреннего заряда, что резко сокращает время их простоя из-за оглушения и сбоев системы.
+
+Эти помехи будут сохраняться в течение нескольких дней. В это время традиционные меры по сдерживанию толпы ЭМИ будут крайне неэффективны.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_DrySpell.description"><s>A prolonged dry weather pattern forces clear skies, parching the land and reducing plant growth speed.</s><r>Длительная сухая погода приводит к ясному небу, высушиванию земли и снижению скорости роста растений.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_DrySpell.endMessage"><s>The dry spell has broken, and the air feels moist again.</s><r>Период засухи закончился, и воздух снова кажется влажным.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_DrySpell.label"><s>dry spell</s><r>засуха</r></e>
+  <e k="D" t="GameConditionDef" key="LE_DrySpell.letterText"><s>A prolonged dry spell has settled over the region, locking the weather to completely clear skies.
+
+The high atmospheric pressure prevents any cloud formation, parching the soil and stunting the development of all local vegetation. Plant growth speeds will be reduced across the map.
+
+The dry pattern will persist for a few days. Ensure your agricultural fields are well-maintained, and prepare for potential food shortages if the drought lingers.</s><r>В регионе установилась продолжительная засуха, не позволяющая погоде полностью очистить небо.
+
+Высокое атмосферное давление препятствует образованию облаков, высушивая почву и задерживая развитие всей местной растительности. Скорость роста растений по всей карте будет снижена.
+
+Засуха сохранится в течение нескольких дней. Убедитесь, что ваши сельскохозяйственные поля ухожены, и будьте готовы к потенциальной нехватке продовольствия, если засуха затянется.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_EconomicDepression.description"><s>A systemic failure in trade networks paralyzes the regional economy, devaluing your goods while inflating merchant prices.</s><r>Системный сбой в торговых сетях парализует региональную экономику, обесценивая ваши товары и одновременно повышая торговые цены.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_EconomicDepression.endMessage"><s>Economic indicators have stabilized.</s><r>Экономические показатели стабилизировались.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_EconomicDepression.label"><s>economic depression</s><r>экономическая депрессия</r></e>
+  <e k="D" t="GameConditionDef" key="LE_EconomicDepression.letterText"><s>A total collapse in regional trade networks has triggered a severe economic depression across the sector.
+
+Struggling with liquidity and supply chain panics, all orbital and surface traders will now offer extremely unfavorable exchange rates, demanding extortionate prices for their goods while heavily undervaluing yours.
+
+The depression will take a few days to resolve. Avoid making non-essential purchases or selling off valuable assets until market indicators stabilize.</s><r>Полный коллапс региональных торговых сетей вызвал серьезную экономическую депрессию во всем секторе.
+
+Сражаясь с паникой в ​​цепочках поставок и ликвидностью, все орбитальные и наземные торговцы теперь будут предлагать крайне невыгодные обменные курсы, требуя грабительских цен на свои товары, в то же время сильно недооценивая ваши.
+
+Депрессия займет несколько дней. Избегайте совершения несущественных покупок и распродажи ценных активов до стабилизации рыночных показателей.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_EmberFallout.description"><s>A cascade of glowing embers falls from the sky, threatening to ignite any flammable objects left unroofed.</s><r>С неба падает каскад тлеющих углей, угрожая воспламенить любые легковоспламеняющиеся предметы, оставленные без крыши.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_EmberFallout.endMessage"><s>The ember fallout is ending.</s><r>Выпадение углей заканчивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_EmberFallout.label"><s>ember fallout</s><r>осадки угольков</r></e>
+  <e k="D" t="GameConditionDef" key="LE_EmberFallout.letterText"><s>A dense cloud of burning, glowing embers has begun to rain down from the sky, bathing the entire landscape in a dull crimson light.
+
+The ambient heat from these embers poses a constant fire hazard. Any flammable items, wooden structures, or crops exposed directly to the sky run a continuous risk of spontaneously catching fire.
+
+The fallout will last for several days or more. Ensure all critical stockpiles are roofed, and keep your fire-fighting colonists ready to respond to outdoor ignitions.</s><r>Плотное облако горящих, светящихся углей начало падать с неба, заливая весь ландшафт тусклым малиновым светом.
+
+Окружающее тепло от этих углей представляет постоянную опасность пожара. Любые легковоспламеняющиеся предметы, деревянные конструкции или посевы, находящиеся прямо на небе, подвергаются постоянному риску самопроизвольного возгорания.
+
+Осадки будут длиться несколько дней и более. Убедитесь, что все критически важные запасы закрыты, и держите своих пожарных колонистов наготове к реагированию на возгорания на открытом воздухе.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_FavorableReputation.description"><s>Your settlement's widespread renown inspires goodwill among trade routes, granting better deals on all transactions.</s><r>Широкая известность вашего поселения вызывает доброжелательность среди торговых путей, обеспечивая более выгодные сделки по всем сделкам.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_FavorableReputation.endMessage"><s>Your settlement's favorable reputation is no longer the talk of the trade routes.</s><r>Благоприятная репутация вашего поселения больше не является предметом разговоров о торговых путях.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_FavorableReputation.label"><s>favorable reputation</s><r>благоприятная репутация</r></e>
+  <e k="D" t="GameConditionDef" key="LE_FavorableReputation.letterText"><s>Word of your settlement's great achievements and honorable conduct has spread far along the orbital trade lanes.
+
+Respectful merchants are eager to curry favor with your colony, and will offer significantly better prices on both things they sell to you and items they purchase from you.
+
+This renown will last for a few days. Take advantage of this economic windfall to purchase expensive materials or clear out excess stockpiles.</s><r>Слух о великих достижениях и благородном поведении вашего поселения распространился далеко по орбитальным торговым путям.
+
+Уважительные торговцы стремятся заслужить расположение вашей колонии и предложат значительно более выгодные цены как на вещи, которые они вам продают, так и на товары, которые они покупают у вас.
+
+Эта слава продлится несколько дней. Воспользуйтесь этой экономической удачей, чтобы закупить дорогие материалы или избавиться от лишних запасов.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_FeralNeurotoxin.description"><s>Airborne neurotoxin saturating the atmosphere. It paralyzes the pain receptors of local animals, driving them into a state of feral hyper-aggression.</s><r>Переносимый по воздуху нейротоксин, насыщающий атмосферу. Он парализует болевые рецепторы местных животных, доводя их до состояния дикой гиперагрессии.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_FeralNeurotoxin.endMessage"><s>The biochemical aerosol is dissipating.</s><r>Биохимический аэрозоль рассеивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_FeralNeurotoxin.label"><s>feral neurotoxin</s><r>дикий нейротоксин</r></e>
+  <e k="D" t="GameConditionDef" key="LE_FeralNeurotoxin.letterText"><s>Drifting silently across the region, a wave of airborne neurotoxin has saturated the atmosphere.
+
+The compound interacts exclusively with the neural pathways of local fauna. It anesthetizes their pain receptors and drastically lowers their threshold for entering a manhunting state.
+
+The toxin will linger for a few days. Exercise extreme caution when interacting with wildlife outdoors.</s><r>Бесшумно дрейфуя по региону, волна переносимого по воздуху нейротоксина насытила атмосферу.
+
+Соединение взаимодействует исключительно с нервными путями местной фауны. Он обезболивает их болевые рецепторы и резко снижает порог входа в состояние охоты.
+
+Токсин будет сохраняться в течение нескольких дней. Будьте предельно осторожны при общении с дикими животными на открытом воздухе.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_FireSupportBase.description"><s>A fire support base has been established in the region.
+
+Until destroyed, this site provides off-map bombardment to support hostile forces engaging your settlement.</s><r>В этом регионе создана база огневой поддержки.
+
+Пока эта точка не будет уничтожена, она обеспечивает бомбардировку за пределами карты для поддержки враждебных сил, атакующих ваше поселение.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_FireSupportBase.endMessage"><s>The fire support base has been neutralized.</s><r>База огневой поддержки нейтрализована.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_FireSupportBase.label"><s>fire support base</s><r>база огневой поддержки</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_BlindFog.description"><s>A heavy fog that reduces the accuracy of ranged weapons, as well as their maximum range.</s><r>Сильный туман, снижающий точность дальнобойного оружия, а также его максимальную дальность.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_BlindFog.endMessage"><s>The unnatural blind fog is ending.</s><r>Неестественный слепой туман заканчивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_BlindFog.label"><s>unnatural blind fog</s><r>неестественный слепой туман</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_BlindFog.letterText"><s>A localized atmospheric disturbance has begun, forcing the weather into an unnatural state for a period of time.</s><r>Началось локальное атмосферное возмущение, которое на какое-то время привело погоду в неестественное состояние.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_Blizzard.description"><s>Snow reduces the accuracy of ranged weapons, extinguishes fire, and slows people down.</s><r>Снег снижает точность дальнобойного оружия, тушит огонь и замедляет людей.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_Blizzard.endMessage"><s>The unnatural blizzard is ending.</s><r>Неестественная метель заканчивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_Blizzard.label"><s>unnatural blizzard</s><r>неестественная метель</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_Blizzard.letterText"><s>A localized atmospheric disturbance has begun, forcing the weather into an unnatural state for a period of time.</s><r>Началось локальное атмосферное возмущение, которое на какое-то время привело погоду в неестественное состояние.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_Clear.description"><s>A clear day. No penalties or modifiers.</s><r>Ясный день. Никаких штрафов и модификаторов.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_Clear.endMessage"><s>The unnatural clear is ending.</s><r>Неестественная ясность заканчивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_Clear.label"><s>unnatural clear</s><r>неестественно чистый</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_Clear.letterText"><s>A localized atmospheric disturbance has begun, forcing the weather into an unnatural state for a period of time.</s><r>Началось локальное атмосферное возмущение, которое на какое-то время привело погоду в неестественное состояние.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_DryThunderstorm.description"><s>Dry thunderstorms are dangerous because the lightning can start fires and there is no rain to put them out.</s><r>Сухие грозы опасны, потому что молния может вызвать пожар, а дождь не сможет его потушить.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_DryThunderstorm.endMessage"><s>The unnatural dry thunderstorm is ending.</s><r>Неестественная сухая гроза заканчивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_DryThunderstorm.label"><s>unnatural dry thunderstorm</s><r>неестественная сухая гроза</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_DryThunderstorm.letterText"><s>A localized atmospheric disturbance has begun, forcing the weather into an unnatural state for a period of time.</s><r>Началось локальное атмосферное возмущение, которое на какое-то время привело погоду в неестественное состояние.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_Fog.description"><s>Fog reduces the accuracy of ranged weapons.</s><r>Туман снижает точность оружия дальнего боя.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_Fog.endMessage"><s>The unnatural fog is ending.</s><r>Неестественный туман заканчивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_Fog.label"><s>unnatural fog</s><r>неестественный туман</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_Fog.letterText"><s>A localized atmospheric disturbance has begun, forcing the weather into an unnatural state for a period of time.</s><r>Началось локальное атмосферное возмущение, которое на какое-то время привело погоду в неестественное состояние.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_FoggyRain.description"><s>Reduces accuracy and movement speed.</s><r>Снижает точность и скорость передвижения.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_FoggyRain.endMessage"><s>The unnatural foggy rain is ending.</s><r>Неестественный туманный дождь заканчивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_FoggyRain.label"><s>unnatural foggy rain</s><r>неестественный туманный дождь</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_FoggyRain.letterText"><s>A localized atmospheric disturbance has begun, forcing the weather into an unnatural state for a period of time.</s><r>Началось локальное атмосферное возмущение, которое на какое-то время привело погоду в неестественное состояние.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_Overcast.description"><s>Thick clouds obscure the sky, reducing light levels.</s><r>Густые облака закрывают небо, снижая уровень освещенности.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_Overcast.endMessage"><s>The unnatural overcast is ending.</s><r>Неестественная пасмурность заканчивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_Overcast.label"><s>unnatural overcast</s><r>неестественная пасмурность</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_Overcast.letterText"><s>A localized atmospheric disturbance has begun, forcing the weather into an unnatural state for a period of time.</s><r>Началось локальное атмосферное возмущение, которое на какое-то время привело погоду в неестественное состояние.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_Rain.description"><s>Rain reduces the accuracy of ranged weapons, extinguishes fire, and slows people down.</s><r>Дождь снижает точность дальнобойного оружия, тушит огонь и замедляет людей.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_Rain.endMessage"><s>The unnatural rain is ending.</s><r>Неестественный дождь заканчивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_Rain.label"><s>unnatural rain</s><r>неестественный дождь</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_Rain.letterText"><s>A localized atmospheric disturbance has begun, forcing the weather into an unnatural state for a period of time.</s><r>Началось локальное атмосферное возмущение, которое на какое-то время привело погоду в неестественное состояние.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_RainyThunderstorm.description"><s>The lightning will start fires, but the rain will put it out. The rain also reduces movement speed and shooting accuracy.</s><r>Молния вызовет пожар, но дождь его потушит. Дождь также снижает скорость передвижения и точность стрельбы.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_RainyThunderstorm.endMessage"><s>The unnatural rainy thunderstorm is ending.</s><r>Неестественная дождливая гроза заканчивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_RainyThunderstorm.label"><s>unnatural rainy thunderstorm</s><r>неестественная дождливая гроза</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_RainyThunderstorm.letterText"><s>A localized atmospheric disturbance has begun, forcing the weather into an unnatural state for a period of time.</s><r>Началось локальное атмосферное возмущение, которое на какое-то время привело погоду в неестественное состояние.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_Sandstorm.description"><s>Sandstorms reduce the accuracy of ranged weapons, slow people down, and get sand everywhere.</s><r>Песчаные бури снижают точность оружия дальнего боя, замедляют людей и повсюду разносят песок.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_Sandstorm.endMessage"><s>The unnatural sandstorm is ending.</s><r>Неестественная песчаная буря заканчивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_Sandstorm.label"><s>unnatural sandstorm</s><r>неестественная песчаная буря</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_Sandstorm.letterText"><s>A localized atmospheric disturbance has begun, forcing the weather into an unnatural state for a period of time.</s><r>Началось локальное атмосферное возмущение, которое на какое-то время привело погоду в неестественное состояние.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_SnowGentle.description"><s>Snow reduces the accuracy of ranged weapons, extinguishes fire, and slows people down.</s><r>Снег снижает точность дальнобойного оружия, тушит огонь и замедляет людей.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_SnowGentle.endMessage"><s>The unnatural gentle snow is ending.</s><r>Неестественный нежный снег заканчивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_SnowGentle.label"><s>unnatural gentle snow</s><r>неестественный нежный снег</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_SnowGentle.letterText"><s>A localized atmospheric disturbance has begun, forcing the weather into an unnatural state for a period of time.</s><r>Началось локальное атмосферное возмущение, которое на какое-то время привело погоду в неестественное состояние.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_SnowHard.description"><s>Snow reduces the accuracy of ranged weapons, extinguishes fire, and slows people down.</s><r>Снег снижает точность дальнобойного оружия, тушит огонь и замедляет людей.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_SnowHard.endMessage"><s>The unnatural hard snow is ending.</s><r>Неестественный твердый снег заканчивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_SnowHard.label"><s>unnatural hard snow</s><r>неестественный твердый снег</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_SnowHard.letterText"><s>A localized atmospheric disturbance has begun, forcing the weather into an unnatural state for a period of time.</s><r>Началось локальное атмосферное возмущение, которое на какое-то время привело погоду в неестественное состояние.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_TorrentialRain.description"><s>Torrential rain causes flooding. It also reduces the accuracy of ranged weapons, extinguishes fire, and slows people down.</s><r>Проливной дождь вызвал наводнение. Также он снижает точность дальнобойного оружия, тушит огонь и замедляет людей.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_TorrentialRain.endMessage"><s>The unnatural torrential rain is ending.</s><r>Неестественный проливной дождь заканчивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_TorrentialRain.label"><s>unnatural torrential rain</s><r>неестественный проливной дождь</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_TorrentialRain.letterText"><s>A localized atmospheric disturbance has begun, forcing the weather into an unnatural state for a period of time.</s><r>Началось локальное атмосферное возмущение, которое на какое-то время привело погоду в неестественное состояние.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_ToxRain.description"><s>Tox rain makes creatures sick with toxic buildup. It also reduces the accuracy of ranged weapons, extinguishes fire, and slows people down.</s><r>Токсичный дождь делает существ больными из-за накопления токсичных веществ. Также он снижает точность дальнобойного оружия, тушит огонь и замедляет людей.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_ToxRain.endMessage"><s>The unnatural tox rain is ending.</s><r>Неестественный токсичный дождь заканчивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_ToxRain.label"><s>unnatural tox rain</s><r>неестественный токсичный дождь</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForceWeather_ToxRain.letterText"><s>A localized atmospheric disturbance has begun, forcing the weather into an unnatural state for a period of time.</s><r>Началось локальное атмосферное возмущение, которое на какое-то время привело погоду в неестественное состояние.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForwardOperatingBase.description"><s>A forward operating base has been established in the region.
+
+Until destroyed, this site periodically launches small raids to harass your settlement.</s><r>В регионе создана передовая оперативная база.
+
+Пока эта база не будет уничтожена, она периодически совершает небольшие рейды, чтобы беспокоить ваше поселение.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForwardOperatingBase.endMessage"><s>The forward operating base has been neutralized.</s><r>Передовая оперативная база нейтрализована.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_ForwardOperatingBase.label"><s>forward operating base</s><r>передовая оперативная база</r></e>
+  <e k="D" t="GameConditionDef" key="LE_GauranlenBloom.description"><s>A psychic harmony triggers a map-wide Gauranlen tree bloom, preventing connection decay and increasing pruning speed.</s><r>Психическая гармония вызывает цветение деревьев Гауранлен по всей карте, предотвращая распад связи и увеличивая скорость обрезки.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_GauranlenBloom.endMessage"><s>The gauranlen bloom is ending.</s><r>Цветение гауранлена заканчивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_GauranlenBloom.label"><s>gauranlen bloom</s><r>гауранлен Блум</r></e>
+  <e k="D" t="GameConditionDef" key="LE_GauranlenBloom.letterText"><s>The Gauranlen trees on this map have entered a rare state of synchronized, psychic-fueled bloom.
+
+The unique resonance locks the psychic bond of your tree-connectors. For the duration of this event, Gauranlen connection strength will not degrade over time, and the speed of all pruning work is significantly increased.
+
+The bloom will last for a few weeks. Use this opportunity to maximize your dryad counts or reassign your connector to other tasks temporarily without penalty.</s><r>Деревья Гауранлен на этой карте вошли в редкое состояние синхронизированного, подпитываемого психической энергией цветения.
+
+Уникальный резонанс фиксирует психическую связь между вашими древовидными соединителями. На время этого мероприятия прочность соединения Гауранлена не ухудшится с течением времени, а скорость всех работ по обрезке значительно увеличится.
+
+Цветение продлится несколько недель. Используйте эту возможность, чтобы максимизировать количество своих дриад или временно без штрафов переназначьте своего коннектора на другие задачи.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_GravityHigh.description"><s>A localized gravitational anomaly intensifies planetary pull, decreasing movement speed and carrying capacity.</s><r>Локализованная гравитационная аномалия усиливает планетарное притяжение, снижая скорость движения и грузоподъемность.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_GravityHigh.endMessage"><s>The gravity distortion is ending.</s><r>Гравитационное искажение заканчивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_GravityHigh.label"><s>high gravity</s><r>высокая гравитация</r></e>
+  <e k="D" t="GameConditionDef" key="LE_GravityHigh.letterText"><s>A massive gravitational anomaly has locked onto this region, warping the local planetary pull.
+
+Every action feels heavier as the increased weight strains biological muscles and mechanical machinery. Colonists will move slower and their maximum carrying capacity will be severely restricted.
+
+This compressed state will take several days to clear.</s><r>Массивная гравитационная аномалия захватила этот регион, искажая местное планетарное притяжение.
+
+Каждое действие кажется тяжелее, поскольку увеличенный вес напрягает биологические мышцы и механические механизмы. Колонисты будут двигаться медленнее, а их максимальная грузоподъемность будет сильно ограничена.
+
+На очистку этого сжатого состояния уйдет несколько дней.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_GravityLow.description"><s>A localized gravitational anomaly weakens planetary pull, increasing movement speed and carrying capacity.</s><r>Локализованная гравитационная аномалия ослабляет планетарное притяжение, увеличивая скорость движения и грузоподъемность.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_GravityLow.endMessage"><s>The gravity distortion is ending.</s><r>Гравитационное искажение заканчивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_GravityLow.label"><s>low gravity</s><r>низкая гравитация</r></e>
+  <e k="D" t="GameConditionDef" key="LE_GravityLow.letterText"><s>A massive gravitational anomaly has locked onto this region, warping the local planetary pull.
+
+Every action feels lighter as the reduced weight eases biological muscles and mechanical machinery. Colonists will move faster and their maximum carrying capacity will be greatly expanded.
+
+This liberated state will take several days to clear.</s><r>Массивная гравитационная аномалия захватила этот регион, искажая местное планетарное притяжение.
+
+Каждое действие кажется легче, поскольку уменьшенный вес облегчает работу биологических мускулов и механических механизмов. Колонисты будут двигаться быстрее, и их максимальная грузоподъемность будет значительно увеличена.
+
+Чтобы очистить это освобожденное государство, потребуется несколько дней.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_InfrasonicTremor.description"><s>Low-frequency vibrations propagate through the ground, depressing the consciousness and reflexes of local animals.</s><r>По земле распространяются низкочастотные вибрации, угнетающие сознание и рефлексы местных животных.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_InfrasonicTremor.endMessage"><s>The infrasonic tremor is subsiding.</s><r>Инфразвуковой тремор стихает.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_InfrasonicTremor.label"><s>infrasonic tremor</s><r>инфразвуковой тремор</r></e>
+  <e k="D" t="GameConditionDef" key="LE_InfrasonicTremor.letterText"><s>A deep, sustained infrasonic hum is vibrating through the ground.
+
+This tectonic tremor directly disrupts the nervous systems of local fauna. This disruption numbs their consciousness, causing a noticeable slowdown in movement and close-quarters combat reflexes.
+
+The tremor will pass within several days. Targets will remain sluggish and significantly easier to hunt or subdue until it ends.</s><r>Глубокий, продолжительный инфразвуковой гул пронизывает землю.
+
+Это тектоническое сотрясение напрямую разрушает нервную систему местной фауны. Это нарушение притупляет их сознание, вызывая заметное замедление движений и рефлексов ближнего боя.
+
+Дрожание пройдет в течение нескольких дней. Цели останутся вялыми, и их будет значительно легче выслеживать или подавлять, пока оно не закончится.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_InterdictionPoint.description"><s>A interdiction point has been established in the region.
+
+Until destroyed, this site blocks all neutral caravans and visitors traveling to your settlement.</s><r>В регионе установлен запретительный пункт.
+
+Пока он не будет уничтожен, этот участок блокирует все нейтральные караваны и посетителей, направляющихся в ваше поселение.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_InterdictionPoint.endMessage"><s>The interdiction has been lifted.</s><r>Запрет снят.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_InterdictionPoint.label"><s>interdiction point</s><r>запретительный пункт</r></e>
+  <e k="D" t="GameConditionDef" key="LE_MagneticDisruption.description"><s>The magnetic field of this planet is interfering with our electric workstations, greatly disrupting work and upsetting the populace.</s><r>Магнитное поле этой планеты мешает работе наших электрических рабочих станций, серьезно нарушая работу и расстраивая население.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_MagneticDisruption.endMessage"><s>The magnetic disruption is ending.</s><r>Магнитный сбой заканчивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_MagneticDisruption.label"><s>magnetic disruption</s><r>магнитное разрушение</r></e>
+  <e k="D" t="GameConditionDef" key="LE_MagneticDisruption.letterText"><s>The strong magnetic field around the settlement has caused some problems with electronic instruments on the surface, but recently the effect on our computers has been especially notable.
+
+So far, it is unknown what has caused this flare up, although we suspect it to be temporary.</s><r>Сильное магнитное поле вокруг поселения вызвало некоторые проблемы с электронными приборами на поверхности, но в последнее время влияние на наши компьютеры было особенно заметным.
+
+Пока неизвестно, что вызвало эту вспышку, хотя мы подозреваем, что она временная.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_MagneticMiracle.description"><s>Somehow, the magnetic field of this planet is interfering with our electric workstations, but rather than a simple disruption, it is actually making them more efficient!</s><r>Каким-то образом магнитное поле этой планеты мешает работе наших электрических рабочих станций, но вместо простого разрушения оно на самом деле делает их более эффективными!</r></e>
+  <e k="D" t="GameConditionDef" key="LE_MagneticMiracle.endMessage"><s>The magnetic miracle is ending.</s><r>Магнитное чудо заканчивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_MagneticMiracle.label"><s>magnetic miracle</s><r>магнитное чудо</r></e>
+  <e k="D" t="GameConditionDef" key="LE_MagneticMiracle.letterText"><s>The strong magnetic field around the settlement has been affecting computers on the surface recently.
+
+Oddly, this effect is not merely random interference, instead computers are actually working more efficiently than they should be. It's almost as if an outside force is lending a helping hand...</s><r>Сильное магнитное поле вокруг поселения в последнее время воздействует на компьютеры на поверхности.
+
+Как ни странно, этот эффект не является просто случайным вмешательством, вместо этого компьютеры на самом деле работают более эффективно, чем должны были бы. Как будто внешняя сила протягивает руку помощи...</r></e>
+  <e k="D" t="GameConditionDef" key="LE_MechaniteCloud.description"><s>A cloud of autonomous mechanites descends, mending outdoor structures while risking mechanite infections in unroofed biological hosts.</s><r>Облако автономных механитов спускается, чиня внешние конструкции, рискуя заразить механитами биологических носителей без крыши.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_MechaniteCloud.endMessage"><s>The mechanite cloud is dissipating.</s><r>Механитовое облако рассеивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_MechaniteCloud.label"><s>mechanite cloud</s><r>механитовое облако</r></e>
+  <e k="D" t="GameConditionDef" key="LE_MechaniteCloud.letterText"><s>A shimmering cloud of autonomous, microscopic mechanites has drifted into the local atmosphere.
+
+These rogue machines are programmed for structural maintenance, automatically mending damaged outdoor walls and furniture. However, they will also aggressively interface with biological hosts; colonists left exposed to the open sky risk contracting sensory or fibrous mechanite infections.
+
+This active state will persist for a few days. Restrict your colonists to roofed areas to avoid biological infection while exploiting the free structural repairs.</s><r>Мерцающее облако автономных микроскопических механитов дрейфовало в местную атмосферу.
+
+Эти мошеннические машины запрограммированы на обслуживание конструкций, автоматически ремонтируя поврежденные наружные стены и мебель. Однако они также будут агрессивно взаимодействовать с биологическими хозяевами; колонисты, оставленные под открытым небом, рискуют заразиться сенсорными или фиброзными механитными инфекциями.
+
+Это активное состояние будет сохраняться в течение нескольких дней. Ограничьте своих колонистов крытыми помещениями, чтобы избежать биологического заражения и использовать бесплатный структурный ремонт.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_MechanoidOverclock.description"><s>A localized microclimatic cooling anomaly enables hardware overclocking in mechanoids, increasing their consciousness, aiming coordination, and fire rates.</s><r>Локальная микроклиматическая аномалия охлаждения позволяет разогнать аппаратное обеспечение механоидов, повысить их сознание, координацию прицеливания и скорострельность.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_MechanoidOverclock.endMessage"><s>The mechanoid overclock is ending.</s><r>Разгон механоида подходит к концу.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_MechanoidOverclock.label"><s>mechanoid overclock</s><r>механоидный разгон</r></e>
+  <e k="D" t="GameConditionDef" key="LE_MechanoidOverclock.letterText"><s>A sudden microclimatic cooling anomaly has developed across the local environment.
+
+The optimized thermal conditions trigger automatic hardware overclocking across all mechanoid networks. Affected mechanoids will exhibit heightened systemic consciousness, razor-sharp aiming coordination, and accelerated weapon cooling rates.
+
+This hyper-reactive state will last for a few days. This creates a dangerous period where tactical caution is advised, as mechanical forces operate well above their baseline parameters.</s><r>В местной среде возникла внезапная аномалия микроклиматического охлаждения.
+
+Оптимизированные температурные условия вызывают автоматический разгон оборудования во всех сетях механоидов. Пораженные механоиды будут демонстрировать повышенное системное сознание, невероятную координацию прицеливания и ускоренную скорость охлаждения оружия.
+
+Это гиперреактивное состояние продлится несколько дней. Это создает опасный период, когда рекомендуется тактическая осторожность, поскольку механические силы действуют значительно выше своих базовых параметров.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_MechanoidThrottling.description"><s>A localized microclimatic thermal anomaly forces hardware throttling in mechanoids, decreasing their consciousness, aiming coordination, and fire rates.</s><r>Локальная микроклиматическая тепловая аномалия приводит к дросселированию оборудования механоидов, снижению их сознания, координации прицеливания и скорострельности.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_MechanoidThrottling.endMessage"><s>The mechanoid throttling is ending.</s><r>Механоидное дросселирование заканчивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_MechanoidThrottling.label"><s>mechanoid throttling</s><r>механоидное дросселирование</r></e>
+  <e k="D" t="GameConditionDef" key="LE_MechanoidThrottling.letterText"><s>A sudden microclimatic thermal anomaly has developed across the local environment.
+
+The degraded thermal conditions trigger automatic hardware throttling across all mechanoid networks. Affected mechanoids will suffer from diminished systemic consciousness, compromised aiming coordination, and decelerated weapon cooling rates.
+
+This sluggish-reactive state will last for a few days. This creates an excellent opportunity where proactive assault is advised, as mechanical forces operate well below their baseline parameters.</s><r>Внезапная микроклиматическая тепловая аномалия возникла в местной среде.
+
+Ухудшение температурных условий вызывает автоматическое аппаратное регулирование во всех сетях механоидов. Затронутые механоиды будут страдать от снижения системного сознания, нарушения координации прицеливания и замедления скорости охлаждения оружия.
+
+Это вялое реактивное состояние продлится несколько дней. Это создает прекрасную возможность, когда рекомендуется упреждающее нападение, поскольку механические силы действуют значительно ниже своих базовых параметров.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_NutrientSurge.description"><s>An influx of organic nutrients saturates the ecosystem, significantly increasing harvest yields from all plants.</s><r>Приток органических питательных веществ насыщает экосистему, значительно повышая урожайность всех растений.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_NutrientSurge.endMessage"><s>The nutrient surge has dissipated.</s><r>Прилив питательных веществ прекратился.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_NutrientSurge.label"><s>nutrient surge</s><r>всплеск питательных веществ</r></e>
+  <e k="D" t="GameConditionDef" key="LE_NutrientSurge.letterText"><s>A sudden influx of hyper-potent organic nutrients is flowing through the local soil and water tables.
+
+This sudden enrichment allows plants to develop dense, high-grade yields, meaning any agricultural or wild plant harvested during this period will produce significantly more food and materials.
+
+The nutrient surge will enrich the map for a few days. Order your growers to prioritize harvesting mature crops immediately to maximize your food reserves.</s><r>Внезапный приток сверхмощных органических питательных веществ проходит через местную почву и грунтовые воды.
+
+Это внезапное обогащение позволяет растениям давать плотные, высококачественные урожаи, а это означает, что любое сельскохозяйственное или дикое растение, собранное в этот период, даст значительно больше еды и материалов.
+
+Всплеск питательных веществ обогатит карту на несколько дней. Прикажите своим фермерам немедленно уделить первоочередное внимание сбору зрелых культур, чтобы максимально увеличить запасы продовольствия.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_NutrientSurge.startMessage"><s>A nutrient surge is enriching the soil. Harvests will be more bountiful.</s><r>Приток питательных веществ обогащает почву. Урожай будет более обильным.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_PsychicAggression.description"><s>Aggressive psychic signals sweep the region, increasing social conflict, violent impulses, and prisoner resistance.</s><r>Агрессивные психические сигналы охватывают регион, усиливая социальные конфликты, импульсы к насилию и сопротивление заключенных.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_PsychicAggression.endMessage"><s>The psychic aggression is ending.</s><r>Психическая агрессия заканчивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_PsychicAggression.label"><s>psychic aggression</s><r>психическая агрессия</r></e>
+  <e k="D" t="GameConditionDef" key="LE_PsychicAggression.letterText"><s>Psychic signals are filling the area, projecting feelings of aggression into the minds of everyone.
+
+Colonists will be quick to anger. They are twice as likely to start social fights. When they have mental breaks, they are twice as likely to choose an aggressive kind of break.
+
+The signals will blanket the region for several days. Keep problematic individuals separated and avoid heavy social interactions to minimize internal conflict.</s><r>Психические сигналы заполняют территорию, проецируя чувство агрессии в сознание каждого.
+
+Колонисты быстро разозлятся. Они в два раза чаще начинают социальные конфликты. Когда у них случаются умственные срывы, они в два раза чаще выбирают агрессивный тип перерыва.
+
+Сигналы будут окутывать регион в течение нескольких дней. Держите проблемных людей отдельно и избегайте тяжелых социальных взаимодействий, чтобы свести к минимуму внутренние конфликты.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_PsychicCalm.description"><s>Calming psychic signals sweep the region, quelling social conflict, violent impulses, and prisoner unrest.</s><r>Успокаивающие психические сигналы распространяются по региону, подавляя социальные конфликты, импульсы к насилию и волнения заключенных.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_PsychicCalm.endMessage"><s>The psychic calm is ending.</s><r>Психическое спокойствие заканчивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_PsychicCalm.label"><s>psychic calm</s><r>психическое спокойствие</r></e>
+  <e k="D" t="GameConditionDef" key="LE_PsychicCalm.letterText"><s>Psychic signals are filling the area, projecting feelings of calming into the minds of everyone.
+
+Colonists will feel calm in every situation and have a very placid demeanor. They will never start social fights or have aggressive mental breaks.
+
+The signals will blanket the region for several days.</s><r>Психические сигналы заполняют территорию, проецируя чувство спокойствия в умы всех.
+
+Колонисты будут чувствовать себя спокойно в любой ситуации и вести себя очень миролюбиво. Они никогда не начнут социальные драки или агрессивные психические срывы.
+
+Сигналы будут охватывать регион в течение нескольких дней.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_PsychicDeadzone.description"><s>An intense field of anti-psychic interference neutralizes psychic cognition, preventing the use of psycasts and psychic technology.</s><r>Интенсивное поле антипсихического вмешательства нейтрализует психическое познание, предотвращая использование психотерапевтов и экстрасенсорных технологий.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_PsychicDeadzone.endMessage"><s>The psychic deadzone is ending.</s><r>Психическая мёртвая зона заканчивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_PsychicDeadzone.label"><s>psychic deadzone</s><r>психическая мертвая зона</r></e>
+  <e k="D" t="GameConditionDef" key="LE_PsychicDeadzone.letterText"><s>A massive field of absolute anti-psychic interference has blanketed the region.
+
+The localized field completely dampens all psychic wavelengths, reducing the psychic sensitivity of all individuals to zero.
+
+The deadzone will take a few days to clear.</s><r>Массивное поле абсолютного антипсихического вмешательства окутало этот регион.
+
+Локализованное поле полностью гасит все психические волны, сводя психическую чувствительность всех людей к нулю.
+
+Чтобы очистить мертвую зону, потребуется несколько дней.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_PsychicEcho.description"><s>A localized psychic ripple amplifies emotional volatility, doubling the intensity of all thought-based mood modifiers.</s><r>Локализованная психическая пульсация усиливает эмоциональную нестабильность, удваивая интенсивность всех модификаторов настроения, основанных на мыслях.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_PsychicEcho.endMessage"><s>The psychic echo is ending.</s><r>Психическое эхо заканчивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_PsychicEcho.label"><s>psychic echo</s><r>психическое эхо</r></e>
+  <e k="D" t="GameConditionDef" key="LE_PsychicEcho.letterText"><s>A powerful psychic ripple is bouncing across the local area, acting as a cognitive amplifier for raw emotion.
+
+The echo distorts perceptions: positive thoughts will feel like pure bliss, while negative thoughts and pain will cut twice as deep. Every mood modifier, good or bad, has its impact doubled.
+
+The echo will persist for a few days. Keep your colony pampered and comfortable, as a single bad thought can spiral into an immediate mental break.</s><r>Мощная психическая пульсация распространяется по локальной области, действуя как когнитивный усилитель сырых эмоций.
+
+Эхо искажает восприятие: позитивные мысли будут ощущаться как чистое блаженство, тогда как негативные мысли и боль будут резать вдвое глубже. Влияние каждого модификатора настроения, хорошего или плохого, удваивается.
+
+Эхо будет сохраняться в течение нескольких дней. Держите свою колонию в уюте и комфорте, поскольку одна плохая мысль может привести к немедленному психическому срыву.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_RiseTreesInitial.description"><s>The trees are awakening, though they previously appeared dormant.</s><r>Деревья пробуждаются, хотя раньше казались спящими.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_RiseTreesInitial.endMessage"><s>The trees have fully awakened.</s><r>Деревья полностью проснулись.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_RiseTreesInitial.label"><s>initial rise of the trees</s><r>первоначальный рост деревьев</r></e>
+  <e k="D" t="GameConditionDef" key="LE_RiseTreesInitial.letterText"><s>The pawn has found that the trees are mobile to various degrees, though they previously appeared dormant.
+
+They clearly possess some form of rudimentary intelligence.</s><r>Пешка обнаружила, что деревья в разной степени подвижны, хотя раньше они казались спящими.
+
+Они явно обладают некоторой формой рудиментарного интеллекта.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_SubatomicTurbulence.description"><s>A cloud of exotic matter destabilizes advanced technologies. All equipment above the Industrial tech level suffers penalties to weapon cooldown, armor ratings, and energy shielding.</s><r>Облако экзотической материи дестабилизирует передовые технологии. Все оборудование выше промышленного технологического уровня имеет штрафы к перезарядке оружия, рейтингу брони и энергетической защите.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_SubatomicTurbulence.endMessage"><s>The subatomic turbulence is dissipating.</s><r>Субатомная турбулентность рассеивается.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_SubatomicTurbulence.label"><s>subatomic turbulence</s><r>субатомная турбулентность</r></e>
+  <e k="D" t="GameConditionDef" key="LE_SubatomicTurbulence.letterText"><s>A localized subatomic turbulence has begun. The chaotic particle flow is interfering with advanced computing and energy-directing machinery.
+
+High-precision weapons, advanced armors, and specialized tools will be weakened until the cloud passes.
+Industrial and primitive gear remain unaffected due to their simpler physical structures.
+
+The turbulence will pass in a few days.</s><r>Началась локализованная субатомная турбулентность. Хаотический поток частиц мешает работе передовых вычислительных и энергетических машин.
+
+Высокоточное оружие, усовершенствованная броня и специальные инструменты будут ослаблены, пока облако не пройдет.
+Промышленное и примитивное оборудование останется незатронутым из-за своей более простой физической структуры.
+
+Турбулентность пройдет через несколько дней.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_SubspaceNoise.description"><s>Intense subspace noise floods the regional spectrum, disrupting mechanoid diagnostic protocols and shortening their EMP adaptation immunity time.</s><r>Интенсивный подпространственный шум наводняет региональный спектр, нарушая протоколы диагностики механоидов и сокращая время их адаптации к ЭМИ.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_SubspaceNoise.endMessage"><s>The subspace noise has ceased.</s><r>Подпространственный шум прекратился.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_SubspaceNoise.label"><s>subspace noise</s><r>подпространственный шум</r></e>
+  <e k="D" t="GameConditionDef" key="LE_SubspaceNoise.letterText"><s>A cascading torrent of high-intensity subspace noise has blanketed the entire region.
+
+This chaotic frequency directly paralyzes the background algorithmic subroutines that mechanoids use to establish post-EMP electromagnetic barriers. Deprived of this safety buffer, mechanized hostile forces will be unable to maintain their adaptive immunity, allowing them to be restunned much sooner after an initial EMP strike.
+
+The subspace storm will rage for several days. This creates a critical tactical window to deploy high-frequency EMP armaments and neutralize localized mechanoid threats.</s><r>Каскадный поток высокоинтенсивного подпространственного шума накрыл весь регион.
+
+Эта хаотическая частота напрямую парализует фоновые алгоритмические подпрограммы, которые механоиды используют для установления электромагнитных барьеров после ЭМИ. Лишенные этого буфера безопасности, механизированные силы противника не смогут поддерживать свой адаптивный иммунитет, что позволит им быть повторно оглушенными гораздо раньше после первого удара ЭМИ.
+
+Подпространственный шторм будет бушевать несколько дней. Это создает критически важное тактическое окно для развертывания высокочастотного ЭМИ-вооружения и нейтрализации локализованных угроз механоидов.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_SupplyChainShortage.description"><s>A severe shipping disruption triggers a regional shortage of a specific category, highly inflating its market value.</s><r>Серьезные сбои в доставке вызывают региональный дефицит определенной категории, что сильно увеличивает ее рыночную стоимость.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_SupplyChainShortage.endMessage"><s>The supply chains have restored.</s><r>Цепочки поставок восстановились.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_SupplyChainShortage.label"><s>supply chain shortage</s><r>дефицит цепочки поставок</r></e>
+  <e k="D" t="GameConditionDef" key="LE_SupplyChainShortage.letterText"><s>A major disruption in regional shipping routes has caused a critical market shortage of {0}.
+
+Until supply lines are restored, the global market value for this category will skyrocket. Traders will demand a massive premium if you buy from them, but will also pay inflated prices for your stock.
+
+The shortage will persist for a few days. Check your stockpiles and liquidate any excess items of this category to passing traders for massive profits.</s><r>Серьезное нарушение региональных морских маршрутов привело к критическому дефициту рынка в размере {0}.
+
+. Пока не будут восстановлены линии поставок, глобальная рыночная стоимость этой категории будет стремительно расти. Трейдеры потребуют огромную премию, если вы купите у них, но также будут платить завышенные цены за ваши акции.
+
+Дефицит сохранится в течение нескольких дней. Проверьте свои запасы и ликвидируйте все лишние предметы этой категории проходящим торговцам, чтобы получить огромную прибыль.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_VegetativeSpurt.description"><s>A temporary shift in environmental variables optimizes soil conditions, significantly increasing plant growth speed.</s><r>Временный сдвиг переменных окружающей среды оптимизирует состояние почвы, значительно увеличивая скорость роста растений.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_VegetativeSpurt.endMessage"><s>The bountiful growth period has ended.</s><r>Период обильного роста закончился.</r></e>
+  <e k="D" t="GameConditionDef" key="LE_VegetativeSpurt.label"><s>vegetative spurt</s><r>вегетативный всплеск</r></e>
+  <e k="D" t="GameConditionDef" key="LE_VegetativeSpurt.letterText"><s>A wave of high organic vitality has swept through the local ecosystem.
+
+Environmental variables and atmospheric humidity are currently optimized for rapid plant development, unnaturally boosting the growth rates of all crops and wild flora.
+
+This surge of life will last for a few days. Take advantage of this window to sow slow-growing, high-yield crops that would normally take much longer to mature.</s><r>Волна высокой органической жизнеспособности прокатилась по местной экосистеме.
+
+Переменные окружающей среды и влажность воздуха в настоящее время оптимизированы для быстрого развития растений, неестественным образом ускоряя темпы роста всех сельскохозяйственных культур и дикой флоры.
+
+Этот всплеск жизни продлится несколько дней. Воспользуйтесь этим окном, чтобы посеять медленнорастущие высокоурожайные культуры, созревание которых обычно занимает гораздо больше времени.</r></e>
+  <e k="D" t="HediffDef" key="LE_AtmosphericAphrodisiac.description"><s>Something in the air of this planet seems to put people in the mood to reproduce.</s><r>Что-то в воздухе этой планеты, кажется, настраивает людей на размножение.</r></e>
+  <e k="D" t="HediffDef" key="LE_AtmosphericAphrodisiac.label"><s>atmospheric aphrodisiac</s><r>атмосферный афродизиак</r></e>
+  <e k="D" t="HediffDef" key="LE_AtmosphericExcitant.description"><s>Volatile bio-excitants saturate the air, boosting cellular metabolism to elevate consciousness and double natural healing rates.</s><r>Летучие биовозбудители насыщают воздух, ускоряя клеточный метаболизм, повышая сознание и удваивая скорость естественного выздоровления.</r></e>
+  <e k="D" t="HediffDef" key="LE_AtmosphericExcitant.label"><s>atmospheric excitant</s><r>атмосферный возбудитель</r></e>
+  <e k="D" t="HediffDef" key="LE_AtmosphericHallucinogen.description"><s>Airborne psychoactive spores induce widespread mild hallucinations, amplifying colony mood while degrading global work speed.</s><r>Психоактивные споры, передающиеся по воздуху, вызывают широко распространенные легкие галлюцинации, усиливая настроение колонии и одновременно снижая глобальную скорость работы.</r></e>
+  <e k="D" t="HediffDef" key="LE_AtmosphericHallucinogen.label"><s>atmospheric hallucinogen</s><r>атмосферный галлюциноген</r></e>
+  <e k="D" t="HediffDef" key="LE_BionicPlague.description"><s>A contagious biological pathogen that specifically targets the interface between organic nerve endings and synthetic neural-linkages.
+
+The virus coats artificial connectors with a bio-film that disrupts signal conductivity, effectively bottlenecking the performance of any bionic or prosthetic part.</s><r>Заразный биологический патоген, который специально поражает интерфейс между органическими нервными окончаниями и синтетическими нервными связями.
+
+Вирус покрывает искусственные разъемы биопленкой, которая нарушает проводимость сигнала, эффективно ограничивая работу любой бионической или протезной части.</r></e>
+  <e k="D" t="HediffDef" key="LE_BionicPlague.label"><s>bionic plague</s><r>бионическая чума</r></e>
+  <e k="D" t="HediffDef" key="LE_DancingPlague.description"><s>Induces feelings of exhilaration and an irresistible urge to dance, while suppressing fatigue.
+
+It seems to be fairly benign, however, as the self-preservation instincts prevent them from literally dancing themselves to death.</s><r>Вызывает чувство возбуждения и непреодолимое желание танцевать, одновременно подавляя усталость.
+
+Однако это кажется довольно безобидным, поскольку инстинкты самосохранения не позволяют им буквально танцевать до смерти.</r></e>
+  <e k="D" t="HediffDef" key="LE_DancingPlague.label"><s>dancing plague</s><r>танцующая чума</r></e>
+  <e k="D" t="HediffDef" key="LE_DancingPlague.stages.0.label"><s>exhilarated</s><r>воодушевленный</r></e>
+  <e k="D" t="HediffDef" key="LE_FeralNeurotoxin.description"><s>Airborne neurotoxin saturating the atmosphere. It paralyzes the pain receptors of local animals, driving them into a state of feral hyper-aggression.</s><r>Переносимый по воздуху нейротоксин, насыщающий атмосферу. Он парализует болевые рецепторы местных животных, доводя их до состояния дикой гиперагрессии.</r></e>
+  <e k="D" t="HediffDef" key="LE_FeralNeurotoxin.label"><s>feral neurotoxin</s><r>дикий нейротоксин</r></e>
+  <e k="D" t="HediffDef" key="LE_GauranlenBloom.description"><s>A psychic harmony triggers a map-wide Gauranlen tree bloom, preventing connection decay and increasing pruning speed.</s><r>Психическая гармония вызывает цветение деревьев Гауранлен по всей карте, предотвращая распад связи и увеличивая скорость обрезки.</r></e>
+  <e k="D" t="HediffDef" key="LE_GauranlenBloom.label"><s>gauranlen bloom</s><r>гауранлен Блум</r></e>
+  <e k="D" t="HediffDef" key="LE_GravityHigh.description"><s>A localized gravitational anomaly intensifies planetary pull, decreasing movement speed and carrying capacity.</s><r>Локализованная гравитационная аномалия усиливает планетарное притяжение, снижая скорость движения и грузоподъемность.</r></e>
+  <e k="D" t="HediffDef" key="LE_GravityHigh.label"><s>high gravity</s><r>высокая гравитация</r></e>
+  <e k="D" t="HediffDef" key="LE_GravityLow.description"><s>A localized gravitational anomaly weakens planetary pull, increasing movement speed and carrying capacity.</s><r>Локализованная гравитационная аномалия ослабляет планетарное притяжение, увеличивая скорость движения и грузоподъемность.</r></e>
+  <e k="D" t="HediffDef" key="LE_GravityLow.label"><s>low gravity</s><r>низкая гравитация</r></e>
+  <e k="D" t="HediffDef" key="LE_InfrasonicTremor.description"><s>Low-frequency vibrations propagate through the ground, depressing the consciousness and reflexes of local animals.</s><r>По земле распространяются низкочастотные вибрации, угнетающие сознание и рефлексы местных животных.</r></e>
+  <e k="D" t="HediffDef" key="LE_InfrasonicTremor.label"><s>infrasonic tremor</s><r>инфразвуковой тремор</r></e>
+  <e k="D" t="HediffDef" key="LE_MechanoidOverclock.description"><s>A localized microclimatic cooling anomaly enables hardware overclocking in mechanoids, increasing their consciousness, aiming coordination, and fire rates.</s><r>Локальная микроклиматическая аномалия охлаждения позволяет разогнать аппаратное обеспечение механоидов, повысить их сознание, координацию прицеливания и скорострельность.</r></e>
+  <e k="D" t="HediffDef" key="LE_MechanoidOverclock.label"><s>mechanoid overclock</s><r>механоидный разгон</r></e>
+  <e k="D" t="HediffDef" key="LE_MechanoidThrottling.description"><s>A localized microclimatic thermal anomaly forces hardware throttling in mechanoids, decreasing their consciousness, aiming coordination, and fire rates.</s><r>Локальная микроклиматическая тепловая аномалия приводит к дросселированию оборудования механоидов, снижению их сознания, координации прицеливания и скорострельности.</r></e>
+  <e k="D" t="HediffDef" key="LE_MechanoidThrottling.label"><s>mechanoid throttling</s><r>механоидное дросселирование</r></e>
+  <e k="D" t="HediffDef" key="LE_PsychicDeadzone.description"><s>An intense field of anti-psychic interference neutralizes psychic cognition, preventing the use of psycasts and psychic technology.</s><r>Интенсивное поле антипсихического вмешательства нейтрализует психическое познание, предотвращая использование психотерапевтов и экстрасенсорных технологий.</r></e>
+  <e k="D" t="HediffDef" key="LE_PsychicDeadzone.label"><s>psychic deadzone</s><r>психическая мертвая зона</r></e>
+  <e k="D" t="HediffDef" key="LE_RebelPlanExposed.description"><s>Rumors, informants, and fear have slowed the decline of suppression among slaves.</s><r>Слухи, информаторы и страх замедлили снижение притеснений среди рабов.</r></e>
+  <e k="D" t="HediffDef" key="LE_RebelPlanExposed.label"><s>rebel plan exposed</s><r>план повстанцев раскрыт</r></e>
+  <e k="D" t="HistoryEventDef" key="LE_ScandalousInsult.label"><s>scandalous insult</s><r>скандальное оскорбление</r></e>
+  <e k="D" t="IncidentDef" key="LE_AnimaBloom.label"><s>anima bloom</s><r>анима цветение</r></e>
+  <e k="D" t="IncidentDef" key="LE_AnimaBloom.letterLabel"><s>Anima bloom</s><r>Анима цветение</r></e>
+  <e k="D" t="IncidentDef" key="LE_AnimaBloom.letterText"><s>A sudden surge of psychic energy has caused the anima tree to bloom rapidly.
+
+{0} new anima grasses have sprouted around the tree.</s><r>Внезапный всплеск психической энергии заставил дерево анимы быстро зацвести.
+
+{0} вокруг дерева проросли новые травы анимы.</r></e>
+  <e k="D" t="IncidentDef" key="LE_ArchotechPsychosis.label"><s>archotech psychosis</s><r>архотехнический психоз</r></e>
+  <e k="D" t="IncidentDef" key="LE_ArchotechPsychosis.letterLabel"><s>Archotech psychosis</s><r>Архотехнический психоз</r></e>
+  <e k="D" t="IncidentDef" key="LE_ArtisticRenaissance.label"><s>artistic renaissance</s><r>художественный ренессанс</r></e>
+  <e k="D" t="IncidentDef" key="LE_ArtisticRenaissance.letterLabel"><s>Artistic renaissance</s><r>Художественный ренессанс</r></e>
+  <e k="D" t="IncidentDef" key="LE_AtmosphericAphrodisiac.label"><s>atmospheric aphrodisiac</s><r>атмосферный афродизиак</r></e>
+  <e k="D" t="IncidentDef" key="LE_AtmosphericAphrodisiac.letterLabel"><s>Atmospheric aphrodisiac</s><r>Атмосферный афродизиак</r></e>
+  <e k="D" t="IncidentDef" key="LE_AtmosphericExcitant.label"><s>atmospheric excitant</s><r>атмосферный возбудитель</r></e>
+  <e k="D" t="IncidentDef" key="LE_AtmosphericExcitant.letterLabel"><s>Atmospheric excitant</s><r>Атмосферный возбудитель</r></e>
+  <e k="D" t="IncidentDef" key="LE_AtmosphericHallucinogen.label"><s>atmospheric hallucinogen</s><r>атмосферный галлюциноген</r></e>
+  <e k="D" t="IncidentDef" key="LE_AtmosphericHallucinogen.letterLabel"><s>Atmospheric hallucinogen</s><r>Атмосферный галлюциноген</r></e>
+  <e k="D" t="IncidentDef" key="LE_BiomeExpansion.label"><s>biome expansion</s><r>расширение биома</r></e>
+  <e k="D" t="IncidentDef" key="LE_BiomeExpansion.letterLabel"><s>Biome expansion: {BIOME_label}</s><r>Расширение биома: {BIOME_label}</r></e>
+  <e k="D" t="IncidentDef" key="LE_BiomeExpansion.letterText"><s>A massive environmental shift has caused the {BIOME_label} to expand into neighboring regions.</s><r>Масштабный сдвиг в окружающей среде привел к тому, что {BIOME_label} распространился на соседние регионы.</r></e>
+  <e k="D" t="IncidentDef" key="LE_BlackMarket.label"><s>black market</s><r>черный рынок</r></e>
+  <e k="D" t="IncidentDef" key="LE_BlackMarket.letterLabel"><s>Black market</s><r>Черный рынок</r></e>
+  <e k="D" t="IncidentDef" key="LE_BlackMarket.letterText"><s>A temporary black market has set up camp nearby.
+
+These smugglers deal in high-value contraband and rare tech found nowhere else, though their prices are steep. Fearing orbital authorities, they will leave quickly. Assemble a caravan and move fast if you wish to trade.</s><r>Неподалеку разбил лагерь временный черный рынок.
+
+Эти контрабандисты торгуют дорогостоящей контрабандой и редкими технологиями, которые больше нигде не встречаются, хотя цены на них высоки. Опасаясь орбитальных властей, они быстро уйдут. Соберите караван и двигайтесь быстро, если хотите торговать.</r></e>
+  <e k="D" t="IncidentDef" key="LE_CargoPodsWastepack.label"><s>cargo pods (wastepack)</s><r>грузовые капсулы (мусор)</r></e>
+  <e k="D" t="IncidentDef" key="LE_CargoPodsWastepack.letterLabel"><s>Cargo pods (wastepack)</s><r>Грузовые капсулы (сбор мусора)</r></e>
+  <e k="D" t="IncidentDef" key="LE_CargoPodsWastepack.letterText"><s>The {FACTION_name} has sent toxic wastepacks to your colony.
+
+These heat-sealed packages will dissolve and pollute the terrain unless kept frozen. If burned or destroyed, they will release lethal tox gas.</s><r>{FACTION_name} отправил в вашу колонию пакеты с токсичными отходами.
+
+Эти термосвариваемые пакеты растворяются и загрязняют местность, если их не хранить в замороженном виде. Если их сжечь или уничтожить, они выпустят смертельный токсичный газ.</r></e>
+  <e k="D" t="IncidentDef" key="LE_DielectricInterference.label"><s>dielectric interference</s><r>диэлектрические помехи</r></e>
+  <e k="D" t="IncidentDef" key="LE_DielectricInterference.letterLabel"><s>Dielectric interference</s><r>Диэлектрические помехи</r></e>
+  <e k="D" t="IncidentDef" key="LE_DielectricResonance.label"><s>dielectric resonance</s><r>диэлектрический резонанс</r></e>
+  <e k="D" t="IncidentDef" key="LE_DielectricResonance.letterLabel"><s>Dielectric resonance</s><r>Диэлектрический резонанс</r></e>
+  <e k="D" t="IncidentDef" key="LE_DimensionalJitter.label"><s>dimensional jitter</s><r>размерный джиттер</r></e>
+  <e k="D" t="IncidentDef" key="LE_DimensionalJitter.letterLabel"><s>Dimensional jitter</s><r>Размерный джиттер</r></e>
+  <e k="D" t="IncidentDef" key="LE_Disease_BionicPlague.label"><s>bionic plague</s><r>бионическая чума</r></e>
+  <e k="D" t="IncidentDef" key="LE_Disease_BionicPlague.letterLabel"><s>Disease: Bionic plague</s><r>Болезнь: Бионическая чума.</r></e>
+  <e k="D" t="IncidentDef" key="LE_Disease_BionicPlague.letterText"><s>{0} of your {1} have gotten sick from {2}.
+
+Ensure you have a medical bed and a doctor. Make sure that they get proper treatment and spend as much time in bed as possible.
+
+The following {1} have gotten sick</s><r>{0} из {1} заболели от {2}.
+
+Убедитесь, что у вас есть медицинская койка и врач. Убедитесь, что они получают надлежащее лечение и проводят как можно больше времени в постели.
+
+Следующие {1} заболели.</r></e>
+  <e k="D" t="IncidentDef" key="LE_Disease_DancingPlague.label"><s>dancing plague</s><r>танцующая чума</r></e>
+  <e k="D" t="IncidentDef" key="LE_Disease_DancingPlague.letterLabel"><s>Disease: Dancing plague</s><r>Болезнь: Танцующая чума.</r></e>
+  <e k="D" t="IncidentDef" key="LE_Disease_DancingPlague.letterText"><s>{0} of your {1} have gotten sick from {2}.
+
+Ensure you have a medical bed and a doctor. Make sure that they get proper treatment and spend as much time in bed as possible.
+
+The following {1} have gotten sick</s><r>{0} из {1} заболели от {2}.
+
+Убедитесь, что у вас есть медицинская койка и врач. Убедитесь, что они получают надлежащее лечение и проводят как можно больше времени в постели.
+
+Следующие {1} заболели.</r></e>
+  <e k="D" t="IncidentDef" key="LE_DissipationEMP.label"><s>EMP Dissipation</s><r>Рассеяние ЭМИ</r></e>
+  <e k="D" t="IncidentDef" key="LE_DissipationEMP.letterLabel"><s>EMP Dissipation</s><r>Рассеяние ЭМИ</r></e>
+  <e k="D" t="IncidentDef" key="LE_DrySpell.label"><s>dry spell</s><r>засуха</r></e>
+  <e k="D" t="IncidentDef" key="LE_DrySpell.letterLabel"><s>Dry spell</s><r>Сухой период</r></e>
+  <e k="D" t="IncidentDef" key="LE_EconomicDepression.label"><s>economic depression</s><r>экономическая депрессия</r></e>
+  <e k="D" t="IncidentDef" key="LE_EconomicDepression.letterLabel"><s>Economic depression</s><r>Экономическая депрессия</r></e>
+  <e k="D" t="IncidentDef" key="LE_EmberFallout.label"><s>ember fallout</s><r>осадки угольков</r></e>
+  <e k="D" t="IncidentDef" key="LE_EmberFallout.letterLabel"><s>Ember fallout</s><r>Осадки Эмбера</r></e>
+  <e k="D" t="IncidentDef" key="LE_FavorableReputation.label"><s>favorable reputation</s><r>благоприятная репутация</r></e>
+  <e k="D" t="IncidentDef" key="LE_FavorableReputation.letterLabel"><s>Favorable reputation</s><r>Благоприятная репутация</r></e>
+  <e k="D" t="IncidentDef" key="LE_FeralNeurotoxin.label"><s>feral neurotoxin</s><r>дикий нейротоксин</r></e>
+  <e k="D" t="IncidentDef" key="LE_FeralNeurotoxin.letterLabel"><s>Feral neurotoxin</s><r>Дикий нейротоксин</r></e>
+  <e k="D" t="IncidentDef" key="LE_FireSupportBase.label"><s>fire support base</s><r>база огневой поддержки</r></e>
+  <e k="D" t="IncidentDef" key="LE_FireSupportBase.letterLabel"><s>Fire support base</s><r>База огневой поддержки</r></e>
+  <e k="D" t="IncidentDef" key="LE_FireSupportBase.letterText"><s>A {FACTION_name} fire support base has been established within tactical range.
+
+Until destroyed, this site provides off-map bombardment to support hostile forces engaging your settlement.</s><r>В пределах тактической дальности создана база огневой поддержки {FACTION_name}. 
+
+Пока она не будет уничтожена, эта площадка обеспечивает бомбардировку за пределами карты для поддержки враждебных сил, атакующих ваше поселение.</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForceWeather_BlindFog.label"><s>unnatural weather: blind fog</s><r>неестественная погода: слепой туман</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForceWeather_BlindFog.letterLabel"><s>Unnatural weather</s><r>Неестественная погода</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForceWeather_Blizzard.label"><s>unnatural weather: blizzard</s><r>неестественная погода: метель</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForceWeather_Blizzard.letterLabel"><s>Unnatural weather</s><r>Неестественная погода</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForceWeather_Clear.label"><s>unnatural weather: clear</s><r>неестественная погода: ясно</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForceWeather_Clear.letterLabel"><s>Unnatural weather</s><r>Неестественная погода</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForceWeather_DryThunderstorm.label"><s>unnatural weather: dry thunderstorm</s><r>неестественная погода: сухая гроза</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForceWeather_DryThunderstorm.letterLabel"><s>Unnatural weather</s><r>Неестественная погода</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForceWeather_Fog.label"><s>unnatural weather: fog</s><r>неестественная погода: туман</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForceWeather_Fog.letterLabel"><s>Unnatural weather</s><r>Неестественная погода</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForceWeather_FoggyRain.label"><s>unnatural weather: foggy rain</s><r>неестественная погода: туманный дождь</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForceWeather_FoggyRain.letterLabel"><s>Unnatural weather</s><r>Неестественная погода</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForceWeather_GrayPall.label"><s>unnatural weather: gray pall</s><r>неестественная погода: серый покров</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForceWeather_GrayPall.letterLabel"><s>Unnatural weather</s><r>Неестественная погода</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForceWeather_Overcast.label"><s>unnatural weather: overcast</s><r>неестественная погода: пасмурно</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForceWeather_Overcast.letterLabel"><s>Unnatural weather</s><r>Неестественная погода</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForceWeather_Rain.label"><s>unnatural weather: rain</s><r>неестественная погода: дождь</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForceWeather_Rain.letterLabel"><s>Unnatural weather</s><r>Неестественная погода</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForceWeather_RainyThunderstorm.label"><s>unnatural weather: rainy thunderstorm</s><r>неестественная погода: дождливая гроза</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForceWeather_RainyThunderstorm.letterLabel"><s>Unnatural weather</s><r>Неестественная погода</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForceWeather_Sandstorm.label"><s>unnatural weather: sandstorm</s><r>неестественная погода: песчаная буря</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForceWeather_Sandstorm.letterLabel"><s>Unnatural weather</s><r>Неестественная погода</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForceWeather_SnowGentle.label"><s>unnatural weather: gentle snow</s><r>неестественная погода: мягкий снег</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForceWeather_SnowGentle.letterLabel"><s>Unnatural weather</s><r>Неестественная погода</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForceWeather_SnowHard.label"><s>unnatural weather: hard snow</s><r>неестественная погода: твердый снег</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForceWeather_SnowHard.letterLabel"><s>Unnatural weather</s><r>Неестественная погода</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForceWeather_TorrentialRain.label"><s>unnatural weather: torrential rain</s><r>неестественная погода: проливной дождь</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForceWeather_TorrentialRain.letterLabel"><s>Unnatural weather</s><r>Неестественная погода</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForceWeather_ToxRain.label"><s>unnatural weather: tox rain</s><r>неестественная погода: токсичный дождь</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForceWeather_ToxRain.letterLabel"><s>Unnatural weather</s><r>Неестественная погода</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForceWeather_Windy.label"><s>unnatural weather: windy</s><r>неестественная погода: ветрено</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForceWeather_Windy.letterLabel"><s>Unnatural weather</s><r>Неестественная погода</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForwardOperatingBase.label"><s>forward operating base</s><r>передовая оперативная база</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForwardOperatingBase.letterLabel"><s>Forward operating base</s><r>Передовая оперативная база</r></e>
+  <e k="D" t="IncidentDef" key="LE_ForwardOperatingBase.letterText"><s>A {FACTION_name} forward operating base has been established within tactical range.
+
+Until destroyed, this site periodically launches small raids to harass your settlement.</s><r>Передовая оперативная база {FACTION_name} создана в пределах тактической дальности. 
+
+Пока эта база не будет уничтожена, она периодически совершает небольшие рейды, чтобы беспокоить ваше поселение.</r></e>
+  <e k="D" t="IncidentDef" key="LE_FrayedWires.label"><s>frayed wires</s><r>потертые провода</r></e>
+  <e k="D" t="IncidentDef" key="LE_FrayedWires.letterLabel"><s>Frayed wires</s><r>Потертые провода</r></e>
+  <e k="D" t="IncidentDef" key="LE_FrayedWires.letterText"><s>A conduit segment has suffered a thermal failure.
+
+Reconstruct the damaged segment to restore the power grid.</s><r>В сегменте кабелепровода произошел тепловой сбой.
+
+Восстановите поврежденный сегмент, чтобы восстановить энергосистему.</r></e>
+  <e k="D" t="IncidentDef" key="LE_GauranlenBloom.label"><s>gauranlen bloom</s><r>гауранлен Блум</r></e>
+  <e k="D" t="IncidentDef" key="LE_GauranlenBloom.letterLabel"><s>Gauranlen bloom</s><r>Гауранлен Блум</r></e>
+  <e k="D" t="IncidentDef" key="LE_Gift.label"><s>gift</s><r>подарок</r></e>
+  <e k="D" t="IncidentDef" key="LE_Gift.letterLabel"><s>A generous gift</s><r>Щедрый подарок</r></e>
+  <e k="D" t="IncidentDef" key="LE_Gift.letterText"><s>The {FACTION_name} has sent a small gift as a token of goodwill.</s><r>{FACTION_name} отправил небольшой подарок в знак доброй воли.</r></e>
+  <e k="D" t="IncidentDef" key="LE_GravityHigh.label"><s>high gravity</s><r>высокая гравитация</r></e>
+  <e k="D" t="IncidentDef" key="LE_GravityHigh.letterLabel"><s>High Gravity</s><r>Высокая гравитация</r></e>
+  <e k="D" t="IncidentDef" key="LE_GravityLow.label"><s>low gravity</s><r>низкая гравитация</r></e>
+  <e k="D" t="IncidentDef" key="LE_GravityLow.letterLabel"><s>Low Gravity</s><r>Низкая гравитация</r></e>
+  <e k="D" t="IncidentDef" key="LE_InfrasonicTremor.label"><s>infrasonic tremor</s><r>инфразвуковой тремор</r></e>
+  <e k="D" t="IncidentDef" key="LE_InfrasonicTremor.letterLabel"><s>Infrasonic tremor</s><r>Инфразвуковой тремор</r></e>
+  <e k="D" t="IncidentDef" key="LE_InterdictionPoint.label"><s>interdiction point</s><r>запретительный пункт</r></e>
+  <e k="D" t="IncidentDef" key="LE_InterdictionPoint.letterLabel"><s>Interdiction point</s><r>Запретный пункт</r></e>
+  <e k="D" t="IncidentDef" key="LE_InterdictionPoint.letterText"><s>A {FACTION_name} interdiction point has been established within tactical range.
+
+Until destroyed, this site blocks all neutral caravans and visitors traveling to your settlement.</s><r>В пределах тактической дальности установлена ​​точка запрета {FACTION_name}.
+
+Пока эта точка не будет уничтожена, она блокирует все нейтральные караваны и посетителей, направляющихся в ваше поселение.</r></e>
+  <e k="D" t="IncidentDef" key="LE_MagneticDisruption.label"><s>magnetic disruption</s><r>магнитное разрушение</r></e>
+  <e k="D" t="IncidentDef" key="LE_MagneticDisruption.letterLabel"><s>Magnetic disruption</s><r>Магнитное разрушение</r></e>
+  <e k="D" t="IncidentDef" key="LE_MagneticMiracle.label"><s>magnetic miracle</s><r>магнитное чудо</r></e>
+  <e k="D" t="IncidentDef" key="LE_MagneticMiracle.letterLabel"><s>Magnetic miracle</s><r>Магнитное чудо</r></e>
+  <e k="D" t="IncidentDef" key="LE_MassInspiration.label"><s>mass inspiration</s><r>массовое вдохновение</r></e>
+  <e k="D" t="IncidentDef" key="LE_MassInspiration.letterLabel"><s>Mass inspiration</s><r>Массовое вдохновение</r></e>
+  <e k="D" t="IncidentDef" key="LE_MassInspiration.letterText"><s>A mysterious psychic wave sweeps through the colony.
+
+The following colonists have simultaneously gained inspiration:
+{PAWNS}</s><r>Таинственная психическая волна проносится по колонии.
+
+Следующие колонисты одновременно получили вдохновение:
+{PAWNS}</r></e>
+  <e k="D" t="IncidentDef" key="LE_MechaniteCloud.label"><s>mechanite cloud</s><r>механитовое облако</r></e>
+  <e k="D" t="IncidentDef" key="LE_MechaniteCloud.letterLabel"><s>Mechanite cloud</s><r>Механитовое облако</r></e>
+  <e k="D" t="IncidentDef" key="LE_MechanoidOverclock.label"><s>mechanoid overclock</s><r>механоидный разгон</r></e>
+  <e k="D" t="IncidentDef" key="LE_MechanoidOverclock.letterLabel"><s>Mechanoid overclock</s><r>Механоидный разгон</r></e>
+  <e k="D" t="IncidentDef" key="LE_MechanoidThrottling.label"><s>mechanoid throttling</s><r>механоидное дросселирование</r></e>
+  <e k="D" t="IncidentDef" key="LE_MechanoidThrottling.letterLabel"><s>Mechanoid throttling</s><r>Механоидное дросселирование</r></e>
+  <e k="D" t="IncidentDef" key="LE_MedicineSpoiled.label"><s>medicine spoiled</s><r>лекарство испорчено</r></e>
+  <e k="D" t="IncidentDef" key="LE_MedicineSpoiled.letterLabel"><s>Medicine spoiled</s><r>Лекарство испорчено</r></e>
+  <e k="D" t="IncidentDef" key="LE_MedicineSpoiled.letterText"><s>A storage mishap or chemical instability has caused {COUNT}x {MEDICINE} to spoil.
+
+They are no longer usable and have been discarded.</s><r>Неправильное хранение или химическая нестабильность привели к порче {COUNT}x {MEDICINE}.
+
+Они больше не пригодны к использованию и были выброшены.</r></e>
+  <e k="D" t="IncidentDef" key="LE_MigratingForests.label"><s>migrating forests</s><r>мигрирующие леса</r></e>
+  <e k="D" t="IncidentDef" key="LE_MigratingForests.letterLabel"><s>Migrating forests</s><r>Мигрирующие леса</r></e>
+  <e k="D" t="IncidentDef" key="LE_MigratingForests.letterText"><s>The pawn has found that the trees are mobile to various degrees.
+
+Trees will slowly migrate to new areas richer in nutrients.</s><r>Пешка обнаружил, что деревья в разной степени подвижны.
+
+Деревья будут медленно мигрировать в новые районы, более богатые питательными веществами.</r></e>
+  <e k="D" t="IncidentDef" key="LE_Mimic.label"><s>mimic</s><r>имитировать</r></e>
+  <e k="D" t="IncidentDef" key="LE_Mimic.letterLabel"><s>Mimic</s><r>Подражать</r></e>
+  <e k="D" t="IncidentDef" key="LE_Mimic.letterText"><s>The object has twisted and reshaped itself into a hostile mimic!
+
+It is no longer a piece of furniture, but a predatory entity driven by a singular urge to hunt.</s><r>Объект исказился и превратился во враждебного мимикрия!
+
+Это больше не предмет мебели, а хищная сущность, движимая необычным желанием охотиться.</r></e>
+  <e k="D" t="IncidentDef" key="LE_NutrientRain.label"><s>nutrient rain</s><r>питательный дождь</r></e>
+  <e k="D" t="IncidentDef" key="LE_NutrientRain.letterLabel"><s>Nutrient rain</s><r>Питательный дождь</r></e>
+  <e k="D" t="IncidentDef" key="LE_NutrientRain.letterText"><s>A short, nutrient-rich rain is falling.
+
+The strange bio-catalysts in the water directly boost the growth of all plants on the map.</s><r>Идет короткий, богатый питательными веществами дождь.
+
+Странные биокатализаторы в воде напрямую ускоряют рост всех растений на карте.</r></e>
+  <e k="D" t="IncidentDef" key="LE_NutrientSurge.label"><s>nutrient surge</s><r>всплеск питательных веществ</r></e>
+  <e k="D" t="IncidentDef" key="LE_NutrientSurge.letterLabel"><s>Nutrient surge</s><r>Всплеск питательных веществ</r></e>
+  <e k="D" t="IncidentDef" key="LE_PowerDrain.label"><s>power drain</s><r>утечка энергии</r></e>
+  <e k="D" t="IncidentDef" key="LE_PowerDrain.letterLabel"><s>Power drain</s><r>Утечка энергии</r></e>
+  <e k="D" t="IncidentDef" key="LE_PowerDrain.letterText"><s>An internal fault has caused {COUNT} batteries to suffer a sudden discharge!
+
+Approximately {ENERGY} Wd of stored energy has leaked away into the ground.</s><r>Внутренняя неисправность привела к внезапному разряду {COUNT} батарей!
+
+Приблизительно {ENERGY} Вт накопленной энергии утекло в землю.</r></e>
+  <e k="D" t="IncidentDef" key="LE_PowerTrip.label"><s>power trip</s><r>энергетическое путешествие</r></e>
+  <e k="D" t="IncidentDef" key="LE_PowerTrip.letterLabel"><s>Power trip</s><r>Силовое путешествие</r></e>
+  <e k="D" t="IncidentDef" key="LE_PowerTrip.letterText"><s>A sudden voltage instability in the grid has triggered a safety protocol.
+
+{BUILDING_labelShort} has been automatically shut down to prevent hardware damage.</s><r>Внезапная нестабильность напряжения в сети вызвала срабатывание протокола безопасности.
+
+{BUILDING_labelShort} было автоматически отключено, чтобы предотвратить повреждение оборудования.</r></e>
+  <e k="D" t="IncidentDef" key="LE_PredatorPasses.label"><s>predator pass</s><r>проход хищника</r></e>
+  <e k="D" t="IncidentDef" key="LE_PredatorPasses.letterLabel"><s>Predator pass: {0}</s><r>Пропуск Хищника: {0}</r></e>
+  <e k="D" t="IncidentDef" key="LE_PredatorPasses.letterText"><s>A group of hungry {0} have wandered into the area.
+
+They won't attack unless provoked.
+
+{0} will leave the area in a few days.</s><r>Группа голодных {0} забрела в этот район.
+
+Они не нападут, если их не спровоцировать.
+
+{0} покинет этот район через несколько дней.</r></e>
+  <e k="D" t="IncidentDef" key="LE_PsychicAggression.label"><s>psychic aggression</s><r>психическая агрессия</r></e>
+  <e k="D" t="IncidentDef" key="LE_PsychicAggression.letterLabel"><s>Psychic aggression</s><r>Психическая агрессия</r></e>
+  <e k="D" t="IncidentDef" key="LE_PsychicCalm.label"><s>psychic calm</s><r>психическое спокойствие</r></e>
+  <e k="D" t="IncidentDef" key="LE_PsychicCalm.letterLabel"><s>Psychic calm</s><r>Психическое спокойствие</r></e>
+  <e k="D" t="IncidentDef" key="LE_PsychicDeadzone.label"><s>psychic deadzone</s><r>психическая мертвая зона</r></e>
+  <e k="D" t="IncidentDef" key="LE_PsychicDeadzone.letterLabel"><s>Psychic deadzone</s><r>Психическая мертвая зона</r></e>
+  <e k="D" t="IncidentDef" key="LE_PsychicEcho.label"><s>psychic echo</s><r>психическое эхо</r></e>
+  <e k="D" t="IncidentDef" key="LE_PsychicEcho.letterLabel"><s>Psychic echo</s><r>Психическое эхо</r></e>
+  <e k="D" t="IncidentDef" key="LE_PsychicLink.label"><s>psychic link</s><r>психическая связь</r></e>
+  <e k="D" t="IncidentDef" key="LE_PsychicLink.letterLabel"><s>Psychic link</s><r>Психическая связь</r></e>
+  <e k="D" t="IncidentDef" key="LE_PsychicLink.letterText"><s>{PAWN} get attention from a distant archotech superintelligence.
+
+They have received a psylink upgrade or unlocked a new psychic power.</s><r>{PAWN} привлечь внимание далёкого архотехнического сверхразума.
+
+Они получили обновление псилинка или разблокировали новую психическую силу.</r></e>
+  <e k="D" t="IncidentDef" key="LE_RaidEnemy_SanguophageHunter.label"><s>sanguophage hunter</s><r>охотник на сангофагов</r></e>
+  <e k="D" t="IncidentDef" key="LE_RatInfestation.label"><s>rat infestation</s><r>крысиное заражение</r></e>
+  <e k="D" t="IncidentDef" key="LE_RatInfestation.letterLabel"><s>Rat infestation</s><r>Заражение крысами</r></e>
+  <e k="D" t="IncidentDef" key="LE_RatInfestation.letterText"><s>Rats are swarming around stored food!</s><r>Крысы кишат вокруг хранящихся продуктов!</r></e>
+  <e k="D" t="IncidentDef" key="LE_RebelPlanExposed.label"><s>rebel plan exposed</s><r>план повстанцев раскрыт</r></e>
+  <e k="D" t="IncidentDef" key="LE_RebelPlanExposed.letterLabel"><s>Rebel plan exposed</s><r>План повстанцев раскрыт</r></e>
+  <e k="D" t="IncidentDef" key="LE_RebelPlanExposed.letterText"><s>{INFORMER_nameDef} secretly informed your overseers of a slave escape conspiracy.
+
+You tighten chains and increase patrols. The plot collapses before it begins, and suspicion spreads among the slaves.</s><r>{INFORMER_nameDef} тайно сообщил вашим надзирателям о заговоре по побегу рабов.
+
+Вы затягиваете цепи и увеличиваете патрули. Заговор рушится, не успев начаться, и подозрения распространяются среди рабов.</r></e>
+  <e k="D" t="IncidentDef" key="LE_ResearchBreakthrough.label"><s>research breakthrough</s><r>исследовательский прорыв</r></e>
+  <e k="D" t="IncidentDef" key="LE_ResearchBreakthrough.letterLabel"><s>Research breakthrough</s><r>Прорыв в исследованиях</r></e>
+  <e k="D" t="IncidentDef" key="LE_ResearchBreakthrough.letterText"><s>One of your researchers has had a sudden moment of clarity!
+
+Research on {PROJECT_label} has been accelerated by {PERCENT}.</s><r>У одного из ваших исследователей внезапно наступил момент ясности!
+
+Исследование {PROJECT_label} было ускорено на {PERCENT}.</r></e>
+  <e k="D" t="IncidentDef" key="LE_ResearchSetback.label"><s>research setback</s><r>неудача в исследовании</r></e>
+  <e k="D" t="IncidentDef" key="LE_ResearchSetback.letterLabel"><s>Research setback</s><r>Неудача в исследованиях</r></e>
+  <e k="D" t="IncidentDef" key="LE_ResearchSetback.letterText"><s>A major error was discovered in the recent findings for {PROJECT_label}, or critical records have been damaged beyond recovery.
+
+Research progress has been set back by {PERCENT} as the work must be painstakingly reconstructed.</s><r>В недавних выводах по {PROJECT_label} была обнаружена серьезная ошибка, или критически важные записи были повреждены и не подлежат восстановлению. 
+
+Прогресс исследований замедлился на {PERCENT}, поскольку работа должна быть тщательно реконструирована.</r></e>
+  <e k="D" t="IncidentDef" key="LE_RiseTrees.label"><s>rise of the trees</s><r>подъем деревьев</r></e>
+  <e k="D" t="IncidentDef" key="LE_RiseTrees.letterLabel"><s>Rise of the Trees</s><r>Восстание деревьев</r></e>
+  <e k="D" t="IncidentDef" key="LE_RiseTrees.letterText"><s>The trees have fully awakened!
+
+They clearly possess some form of rudimentary intelligence, and they have begun to systematically attack our settlements!</s><r>Деревья полностью пробудились!
+
+Они явно обладают некоторой формой рудиментарного интеллекта и начали систематически атаковать наши поселения!</r></e>
+  <e k="D" t="IncidentDef" key="LE_RiseTreesInitial.label"><s>initial rise of the trees</s><r>первоначальный рост деревьев</r></e>
+  <e k="D" t="IncidentDef" key="LE_RiseTreesInitial.letterLabel"><s>Initial Rise of the Trees</s><r>Первоначальное восстание деревьев</r></e>
+  <e k="D" t="IncidentDef" key="LE_ScandalousInsult.label"><s>scandalous insult</s><r>скандальное оскорбление</r></e>
+  <e k="D" t="IncidentDef" key="LE_ScandalousInsult.letterLabel"><s>Scandalous insult: {FACTION_name}</s><r>Скандальное оскорбление: {FACTION_name}</r></e>
+  <e k="D" t="IncidentDef" key="LE_ScandalousInsult.letterText"><s>Caught a delegate from {FACTION_name} in a rare blunder, letting slip their faction's true feelings about us to another, anonymous party.
+
+More than the usual political mud-slinging: these amount to an outright insult, as it appears we are the subjects of fierce ridicule amongst {FACTION_name} society.
+
+{FACTION} goodwill decreased by {CHANGE}.</s><r>Поймал делегата от {FACTION_name} на редкой ошибке, когда он рассказал об истинных чувствах своей фракции по отношению к нам другой, анонимной партии.
+
+Больше, чем обычная политическая грязь: это равносильно откровенному оскорблению, поскольку, похоже, мы являемся объектом жестоких насмешек в обществе {FACTION_name}.
+
+{FACTION} доброй воли уменьшилось на {CHANGE}.</r></e>
+  <e k="D" t="IncidentDef" key="LE_ShipCrash.label"><s>ship crash</s><r>крушение корабля</r></e>
+  <e k="D" t="IncidentDef" key="LE_ShipCrash.letterLabel"><s>Ship crash</s><r>Крушение корабля</r></e>
+  <e k="D" t="IncidentDef" key="LE_ShipCrash.letterText"><s>Mysterious orbital structures have broken apart, scattering wreckage across the surrounding area.
+
+One central escape pod has crashed nearby, revealing faint, unknown life signs. Incoming alerts indicate multiple secondary impacts across the map. Hostile units are clawing out of the debris. Prepare for an immediate confrontation.</s><r>Таинственные орбитальные структуры распались, разбросав обломки по окружающей территории.
+
+Неподалеку разбилась одна центральная спасательная капсула, обнажив слабые, неизвестные признаки жизни. Входящие оповещения указывают на многочисленные вторичные воздействия на карте. Враждебные отряды выкапываются из-под обломков. Готовьтесь к немедленной конфронтации.</r></e>
+  <e k="D" t="IncidentDef" key="LE_SilverShower.label"><s>silver shower</s><r>серебряный дождь</r></e>
+  <e k="D" t="IncidentDef" key="LE_SilverShower.letterLabel"><s>Silver shower</s><r>Серебряный душ</r></e>
+  <e k="D" t="IncidentDef" key="LE_SilverShower.letterText"><s>The shattered pod disintegrated in mid-air, and silver rained down across the map.</s><r>Разбитая капсула распалась в воздухе, и серебро потекло по карте.</r></e>
+  <e k="D" t="IncidentDef" key="LE_SubatomicTurbulence.label"><s>subatomic turbulence</s><r>субатомная турбулентность</r></e>
+  <e k="D" t="IncidentDef" key="LE_SubatomicTurbulence.letterLabel"><s>Subatomic turbulence</s><r>Субатомная турбулентность</r></e>
+  <e k="D" t="IncidentDef" key="LE_SubspaceNoise.label"><s>subspace noise</s><r>подпространственный шум</r></e>
+  <e k="D" t="IncidentDef" key="LE_SubspaceNoise.letterLabel"><s>Subspace noise</s><r>Подпространственный шум</r></e>
+  <e k="D" t="IncidentDef" key="LE_SuddenEpiphany.label"><s>sudden epiphany</s><r>внезапное прозрение</r></e>
+  <e k="D" t="IncidentDef" key="LE_SuddenEpiphany.letterLabel"><s>Sudden epiphany</s><r>Внезапное прозрение</r></e>
+  <e k="D" t="IncidentDef" key="LE_SuddenEpiphany.letterText"><s>{PAWN_labelShort} has experienced a sudden moment of clarity!
+
+By re-evaluating past experiences, {PAWN_labelShort}'s {SKILL_label} skill has increased from level {oldLEVEL} to {newLEVEL}.</s><r>{PAWN_labelShort} испытал внезапный момент ясности!
+
+Благодаря переоценке прошлого опыта, навык {SKILL_label} {PAWN_labelShort} увеличился с уровня {oldLEVEL} до {newLEVEL}.</r></e>
+  <e k="D" t="IncidentDef" key="LE_SupplyChainShortage.label"><s>supply chain shortage</s><r>дефицит цепочки поставок</r></e>
+  <e k="D" t="IncidentDef" key="LE_SupplyChainShortage.letterLabel"><s>Supply chain shortage</s><r>Дефицит цепочки поставок</r></e>
+  <e k="D" t="IncidentDef" key="LE_TurretMalfunction.label"><s>turret malfunction</s><r>неисправность башни</r></e>
+  <e k="D" t="IncidentDef" key="LE_TurretMalfunction.letterLabel"><s>Turret malfunction</s><r>Неисправность башни</r></e>
+  <e k="D" t="IncidentDef" key="LE_TurretMalfunction.letterText"><s>A short circuit has occurred in the defensive network.
+
+The automated turret defense system has suffered a friend-or-foe recognition failure.
+{0} unit(s) have temporarily turned hostile!</s><r>В защитной сети произошло короткое замыкание.
+
+В автоматизированной турельной системе защиты произошла ошибка распознавания «свой-чужой».
+{0} отряды временно стали враждебными!</r></e>
+  <e k="D" t="IncidentDef" key="LE_UnexpectedMineralSeams.label"><s>unexpected mineral seams</s><r>неожиданные минеральные пласты</r></e>
+  <e k="D" t="IncidentDef" key="LE_UnexpectedMineralSeams.letterLabel"><s>Unexpected mineral seams</s><r>Неожиданные минеральные швы</r></e>
+  <e k="D" t="IncidentDef" key="LE_UnexpectedMineralSeams.letterText"><s>{PAWN_labelShort} has hit a hollow pocket while operating the deep drill.
+
+A path to a subterranean mineral cave has been exposed!</s><r>{PAWN_labelShort} попал в полый карман во время работы с глубоким буром.
+
+Обнаружен путь к подземной минеральной пещере!</r></e>
+  <e k="D" t="IncidentDef" key="LE_VegetativeSpurt.label"><s>vegetative spurt</s><r>вегетативный всплеск</r></e>
+  <e k="D" t="IncidentDef" key="LE_VegetativeSpurt.letterLabel"><s>Vegetative spurt</s><r>Вегетативный рывок</r></e>
+  <e k="D" t="IncidentDef" key="LE_WashedUpFlotsam.label"><s>washed-up flotsam</s><r>выброшенный на берег обломок</r></e>
+  <e k="D" t="IncidentDef" key="LE_WashedUpFlotsam.letterLabel"><s>Washed-up flotsam</s><r>Вымытый обломок</r></e>
+  <e k="D" t="IncidentDef" key="LE_WashedUpFlotsam.letterText"><s>A collection of flotsam has washed up on the shore.
+
+It contains a grim mixture of supplies and remains, but movement among the wreckage suggests that some survivors — or perhaps something else — may still be present.</s><r>На берег выбросило кучу обломков.
+
+В нем содержится мрачная смесь припасов и останков, но движение среди обломков позволяет предположить, что некоторые выжившие — или, возможно, что-то еще — все еще могут присутствовать.</r></e>
+  <e k="D" t="JobDef" key="LE_Dance.reportString"><s>dancing.</s><r>танцы.</r></e>
+  <e k="D" t="JobDef" key="LE_Seal.reportString"><s>sealing TargetA.</s><r>уплотнение TargetA.</r></e>
+  <e k="D" t="MapGeneratorDef" key="LE_MineralSeams.label"><s>mineral seams</s><r>минеральные пласты</r></e>
+  <e k="D" t="MentalStateDef" key="LE_CompulsionDancing.baseInspectLine"><s>Mental state: Dancing</s><r>Психическое состояние: Танцы</r></e>
+  <e k="D" t="MentalStateDef" key="LE_CompulsionDancing.beginLetter"><s>{0} has begun dancing uncontrollably.</s><r>{0} начал бесконтрольно танцевать.</r></e>
+  <e k="D" t="MentalStateDef" key="LE_CompulsionDancing.beginLetterLabel"><s>confusion</s><r>путаница</r></e>
+  <e k="D" t="MentalStateDef" key="LE_CompulsionDancing.label"><s>compulsion dancing</s><r>принуждение к танцам</r></e>
+  <e k="D" t="MentalStateDef" key="LE_CompulsionDancing.recoveryMessage"><s>{0} is no longer Dancing.</s><r>{0} больше не Танцует.</r></e>
+  <e k="D" t="PawnKindDef" key="LE_AwakenedTree.label"><s>awakened tree</s><r>проснувшееся дерево</r></e>
+  <e k="D" t="PawnKindDef" key="LE_Mimic.label"><s>mimic</s><r>имитировать</r></e>
+  <e k="D" t="RaidStrategyDef" key="LE_ImmediateAttack_SanguophageHunter.arrivalTextEnemy"><s>Carrying incendiary weaponry, these zealots will target and ignite anyone with hemogenic genes. If a hemogenic pawn is downed, they will be executed on the spot.
+
+They are attacking immediately. Watch out for their scorched-earth tactics.</s><r>Вооруженные зажигательным оружием, эти фанатики нацелятся на любого, у кого есть гемогенные гены, и подожгут его. Если гемогенная пешка сбита, ее казнят на месте.
+
+Они атакуют немедленно. Остерегайтесь их тактики выжженной земли.</r></e>
+  <e k="D" t="RaidStrategyDef" key="LE_ImmediateAttack_SanguophageHunter.arrivalTextFriendly"><s>They are moving in to help you immediately.</s><r>Они немедленно прибудут, чтобы помочь вам.</r></e>
+  <e k="D" t="RaidStrategyDef" key="LE_ImmediateAttack_SanguophageHunter.letterLabelEnemy"><s>Sanguophage hunter</s><r>Охотник на сангофагов</r></e>
+  <e k="D" t="RaidStrategyDef" key="LE_ImmediateAttack_SanguophageHunter.letterLabelFriendly"><s>Friendlies</s><r>Товарищеские матчи</r></e>
+  <e k="D" t="SitePartDef" key="LE_FireSupportBase.description"><s>A fire support base.
+
+Until destroyed, this site provides off-map bombardment to support hostile forces engaging your settlement.</s><r>База огневой поддержки.
+
+Пока не уничтожена, эта площадка обеспечивает бомбардировку за пределами карты для поддержки враждебных сил, атакующих ваше поселение.</r></e>
+  <e k="D" t="SitePartDef" key="LE_FireSupportBase.label"><s>fire support base</s><r>база огневой поддержки</r></e>
+  <e k="D" t="SitePartDef" key="LE_ForwardOperatingBase.description"><s>A forward operating base.
+
+Until destroyed, this site periodically launches small raids to harass your settlement.</s><r>Передовая оперативная база.
+
+Пока это место не будет уничтожено, оно периодически совершает небольшие рейды, чтобы беспокоить ваше поселение.</r></e>
+  <e k="D" t="SitePartDef" key="LE_ForwardOperatingBase.label"><s>forward operating base</s><r>передовая оперативная база</r></e>
+  <e k="D" t="SitePartDef" key="LE_InterdictionPoint.description"><s>A interdiction point.
+
+Until destroyed, this site blocks all neutral caravans and visitors traveling to your settlement.</s><r>Точка запрета.
+
+Пока это место не будет уничтожено, оно блокирует все нейтральные караваны и посетителей, направляющихся в ваше поселение.</r></e>
+  <e k="D" t="SitePartDef" key="LE_InterdictionPoint.label"><s>interdiction point</s><r>запретительный пункт</r></e>
+  <e k="D" t="ThingDef" key="LE_AwakenedTree.comps.7.inspectString"><s>Emerged from {SOURCEPAWN_labelShort}.</s><r>Появился из {SOURCEPAWN_labelShort}.</r></e>
+  <e k="D" t="ThingDef" key="LE_AwakenedTree.description"><s>A tree that has gained self-awareness and the ability to move. Its trunk and massive branches can easily crush human bones. 
+
+Although it moves slowly, its physiological structure makes it extremely difficult to kill completely.</s><r>Дерево, обретшее самосознание и способность двигаться. Его ствол и массивные ветви легко могут раздробить человеческие кости. 
+
+Хотя он движется медленно, его физиологическая структура делает его чрезвычайно трудным для полного уничтожения.</r></e>
+  <e k="D" t="ThingDef" key="LE_AwakenedTree.label"><s>awakened tree</s><r>проснувшееся дерево</r></e>
+  <e k="D" t="ThingDef" key="LE_AwakenedTree.tools.0.label"><s>heavy branch</s><r>тяжелая ветка</r></e>
+  <e k="D" t="ThingDef" key="LE_AwakenedTree.tools.1.label"><s>twigs</s><r>ветки</r></e>
+  <e k="D" t="ThingDef" key="LE_AwakenedTree.tools.2.label"><s>roots</s><r>корни</r></e>
+  <e k="D" t="ThingDef" key="LE_AwakenedTree.tools.3.label"><s>trunk</s><r>ствол</r></e>
+  <e k="D" t="ThingDef" key="LE_Filth_TreeSap.label"><s>tree sap</s><r>древесный сок</r></e>
+  <e k="D" t="ThingDef" key="LE_FireSupportBase.label"><s>fire support base</s><r>база огневой поддержки</r></e>
+  <e k="D" t="ThingDef" key="LE_ForwardOperatingBase.label"><s>forward operating base</s><r>передовая оперативная база</r></e>
+  <e k="D" t="ThingDef" key="LE_InterdictionPoint.label"><s>interdiction point</s><r>запретительный пункт</r></e>
+  <e k="D" t="ThingDef" key="LE_Mimic.comps.15.inspectString"><s>Emerged from {SOURCEPAWN_labelShort}.</s><r>Появился из {SOURCEPAWN_labelShort}.</r></e>
+  <e k="D" t="ThingDef" key="LE_Mimic.description"><s>It is portrayed as being able to change its shape to disguise its body as an inanimate object, commonly a chest.</s><r>Он изображается способным менять свою форму, чтобы замаскировать свое тело под неодушевленный предмет, обычно сундук.</r></e>
+  <e k="D" t="ThingDef" key="LE_Mimic.label"><s>mimic</s><r>имитировать</r></e>
+  <e k="D" t="ThingDef" key="LE_Mimic.tools.0.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="LE_MineEntrance.comps.0.cannotSealLabel"><s>Cannot collapse</s><r>Невозможно свернуть</r></e>
+  <e k="D" t="ThingDef" key="LE_MineEntrance.comps.0.confirmSealText"><s>Collapsing the cave entrance is permanent. Anything or anyone left below will be lost forever.{0}
+
+Are you sure you want to continue?</s><r>Обрушение входа в пещеру является постоянным. Все или кто-либо, оставшийся внизу, будет потерян навсегда.{0}
+
+Вы уверены, что хотите продолжить?</r></e>
+  <e k="D" t="ThingDef" key="LE_MineEntrance.comps.0.sealCommandDesc"><s>Choose a colonist to permanently collapse the entrance. Anything or anyone left below will be lost forever.</s><r>Выберите колониста, чтобы навсегда разрушить вход. Все или кто-либо, оставшийся внизу, будет потерян навсегда.</r></e>
+  <e k="D" t="ThingDef" key="LE_MineEntrance.comps.0.sealCommandLabel"><s>Collapse cave entrance</s><r>Обрушить вход в пещеру</r></e>
+  <e k="D" t="ThingDef" key="LE_MineEntrance.description"><s>The entrance to a cave network. It is possible to climb down into the caves below.</s><r>Вход в сеть пещер. Можно спуститься в пещеры внизу.</r></e>
+  <e k="D" t="ThingDef" key="LE_MineEntrance.label"><s>cave entrance</s><r>вход в пещеру</r></e>
+  <e k="D" t="ThingDef" key="LE_MineEntrance.portal.enteredLetterLabel"><s>Mineral seams</s><r>Минеральные швы</r></e>
+  <e k="D" t="ThingDef" key="LE_MineEntrance.portal.enteredLetterText"><s>In the depths, you have discovered a massive cavern system infested with mineral veins.</s><r>В глубинах вы обнаружили массивную систему пещер, наполненную минеральными жилами.</r></e>
+  <e k="D" t="ThoughtDef" key="LE_AtmosphericHallucinogen.stages.0.description"><s>I feel so heavy... and so relaxed...</s><r>Я чувствую себя таким тяжелым... и таким расслабленным...</r></e>
+  <e k="D" t="ThoughtDef" key="LE_AtmosphericHallucinogen.stages.0.label"><s>anesthetic wooziness</s><r>наркозное головокружение</r></e>
+  <e k="D" t="TraderKindDef" key="LE_BlackMarket_Exotic.label"><s>black market</s><r>черный рынок</r></e>
+  <e k="D" t="WorldObjectDef" key="LE_Settlement_BlackMarket.description"><s>A makeshift settlement serving as a temporary black market for smugglers dealing in contraband and exotic equipment.
+
+Prices are high and they will disband at a moment's notice, but it remains an excellent opportunity to source rare items.</s><r>Импровизированное поселение, служащее временным черным рынком для контрабандистов, торгующих контрабандой и экзотическим оборудованием.
+
+Цены высоки, и они расформируются в любой момент, но это остается отличной возможностью добыть редкие предметы.</r></e>
+  <e k="D" t="WorldObjectDef" key="LE_Settlement_BlackMarket.label"><s>black market</s><r>черный рынок</r></e>
+  <e k="K" key="Leo.Events.AwakenedTree"><s>Awakened {0}</s><r>Пробуждение {0}</r></e>
+  <e k="K" key="Leo.Events.Disabled"><s>Disabled</s><r>Неполноценный</r></e>
+  <e k="K" key="Leo.Events.MessageSiegeBombardment"><s>The outpost is targeting {PAWN_labelShort} for bombardment!</s><r>Аванпост нацелен на бомбардировку {PAWN_labelShort}!</r></e>
+  <e k="K" key="Leo.Events.Mimic"><s>Mimic: {0}</s><r>Мимик: {0}</r></e>
+  <e k="K" key="Leo.Events.TurretMalfunctionAlert.Desc"><s>Some turrets have malfunctioned and turned hostile for the next few days.
+Click this alert to jump to a target.</s><r>Некоторые турели вышли из строя и стали враждебными на следующие несколько дней.
+Нажмите на это предупреждение, чтобы перейти к цели.</r></e>
+  <e k="K" key="Leo.Events.TurretMalfunctionAlert.Label"><s>Turret malfunction</s><r>Неисправность башни</r></e>
+  <e k="K" key="Leo.Events.checkPlayerTechLevel.Label"><s>Enable Player Tech Check</s><r>Включить техническую проверку игрока</r></e>
+  <e k="K" key="Leo.Events.checkPlayerTechLevel.Tooltip"><s>If enabled, the event will first check the player's tech level to see if it is allowed to occur.
+
+Note: In the vanilla game, the player faction's tech level is fixed by the scenario.</s><r>Если включено, событие сначала проверит технический уровень игрока, чтобы увидеть, разрешено ли это событие.
+
+Примечание: в ванильной игре технический уровень фракции игрока фиксируется сценарием.</r></e>
+</AutoTranslateCache>
