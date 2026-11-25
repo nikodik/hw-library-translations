@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="daz96050.combatextendedinfiniteammo" name="Combat Extended - Infinite Ammo (Continued)" language="Russian" version="1">
+  <e k="K" key="CEInfiniteAmmo_AmmoMode_Off"><s>Normal (No Infinite Ammo)</s><r>Нормальный (без бесконечных боеприпасов)</r></e>
+  <e k="K" key="CEInfiniteAmmo_AmmoMode_Off_Desc"><s>Ammo is consumed normally. No infinite ammo effects.</s><r>Боеприпасы расходуются нормально. Никаких бесконечных эффектов боеприпасов.</r></e>
+  <e k="K" key="CEInfiniteAmmo_AmmoMode_Title"><s>Ammo Mode</s><r>Режим боеприпасов</r></e>
+  <e k="K" key="CEInfiniteAmmo_BalanceCost_Title"><s>Ammo Recipe Cost Multiplier</s><r>Множитель стоимости рецепта боеприпасов</r></e>
+  <e k="K" key="CEInfiniteAmmo_BalanceMode_Desc"><s>Enables balance changes for infinite ammo mode. Only affects ammo that something actually gets infinite ammo for, e.g. mortar shells are left alone unless Infinite Mortar Ammo is on.</s><r>Включает изменения баланса для режима бесконечных боеприпасов. Влияет только на боеприпасы, для которых что-то действительно получает бесконечные боеприпасы, например. минометные снаряды остаются в покое, если не включена функция «Бесконечные боеприпасы для минометов».</r></e>
+  <e k="K" key="CEInfiniteAmmo_BalanceMode_Title"><s>Enable Ammo Rebalance</s><r>Включить ребаланс боеприпасов</r></e>
+  <e k="K" key="CEInfiniteAmmo_InfiniteAmmo_Desc"><s>Weapons do not consume any ammo as long as you have that ammo type in your inventory.</s><r>Оружие не потребляет боеприпасы, пока в вашем инвентаре есть боеприпасы этого типа.</r></e>
+  <e k="K" key="CEInfiniteAmmo_InfiniteAmmo_Title"><s>Infinite Ammo (No Reloading)</s><r>Бесконечные боеприпасы (без перезарядки)</r></e>
+  <e k="K" key="CEInfiniteAmmo_InfiniteGrenades_Desc"><s>Thrown weapons like grenades are not consumed on use.</s><r>Метательное оружие, такое как гранаты, не расходуется при использовании.</r></e>
+  <e k="K" key="CEInfiniteAmmo_InfiniteGrenades_Title"><s>Infinite Grenades / Thrown Weapons</s><r>Бесконечные гранаты/метательное оружие</r></e>
+  <e k="K" key="CEInfiniteAmmo_InfiniteMortarAmmo_Desc"><s>Mortars fire infinitely once loaded. Switching ammo types returns the old shell and consumes a new one. Requires initial loading.</s><r>Минометы стреляют бесконечно после загрузки. Переключение типов боеприпасов возвращает старую оболочку и потребляет новую. Требует первоначальной загрузки.</r></e>
+  <e k="K" key="CEInfiniteAmmo_InfiniteMortarAmmo_Title"><s>Infinite Mortar Ammo</s><r>Бесконечные патроны для минометов</r></e>
+  <e k="K" key="CEInfiniteAmmo_InfiniteReserve_Desc"><s>Weapons do not consume any ammo from the inventory but still need to reload. You have infinite reserve ammo as long as there is one in your inventory.</s><r>Оружие не расходует боеприпасы из инвентаря, но все равно требует перезарядки. У вас есть бесконечный запас боеприпасов, пока они есть в вашем инвентаре.</r></e>
+  <e k="K" key="CEInfiniteAmmo_InfiniteReserve_Title"><s>Infinite Reserve (With Reloading)</s><r>Бесконечный резерв (с перезарядкой)</r></e>
+  <e k="K" key="CEInfiniteAmmo_InfiniteTurretAmmo_Desc"><s>Turrets (excluding mortars) never run out of ammo. They still need to be loaded once initially.</s><r>У турелей (за исключением минометов) никогда не заканчиваются боеприпасы. Их все равно необходимо загрузить один раз изначально.</r></e>
+  <e k="K" key="CEInfiniteAmmo_InfiniteTurretAmmo_Title"><s>Infinite Turret Ammo</s><r>Бесконечные патроны для турелей</r></e>
+  <e k="K" key="CEInfiniteAmmo_LimitSpawns_Desc"><s>Prevents spawning multiple ammo items. Raids, drops, and loot will only spawn 1 of each ammo type.</s><r>Предотвращает появление нескольких предметов боеприпасов. В рейдах, дропах и добыче будет появляться только по одному боеприпасу каждого типа.</r></e>
+  <e k="K" key="CEInfiniteAmmo_LimitSpawns_Title"><s>Limit Ammo Spawns</s><r>Ограничить количество спавнов боеприпасов</r></e>
+  <e k="K" key="CEInfiniteAmmo_LimitStackSize_Desc"><s>Sets all ammo stack limits to 1.</s><r>Устанавливает все лимиты количества боеприпасов на 1.</r></e>
+  <e k="K" key="CEInfiniteAmmo_LimitStackSize_Title"><s>Limit Stack Size to 1</s><r>Ограничить размер стека до 1</r></e>
+  <e k="K" key="CEInfiniteAmmo_ModName"><s>CE Infinite Ammo</s><r>CE Бесконечные боеприпасы</r></e>
+  <e k="K" key="CEInfiniteAmmo_PlayerOnly_Desc"><s>Infinite ammo settings only apply to player-controlled pawns and turrets. Enemy factions will still consume ammo normally.</s><r>Настройки бесконечного боезапаса применяются только к пешкам и турелям, управляемым игроком. Вражеские фракции по-прежнему будут расходовать боеприпасы в обычном режиме.</r></e>
+  <e k="K" key="CEInfiniteAmmo_PlayerOnly_Title"><s>Player Faction Only</s><r>Только фракция игрока</r></e>
+  <e k="K" key="CEInfiniteAmmo_RequireAmmo_Desc"><s>When on, pawns need at least one round of an ammo type in their inventory to use it. When off, pawns can load any ammo type their weapon accepts without carrying any: pick the type from the reload button. Infinite Reserve still reloads.</s><r>Когда эта функция включена, пешкам необходим хотя бы один патрон соответствующего типа в инвентаре, чтобы использовать его. Когда этот параметр отключен, пешки могут заряжать любой тип боеприпасов, которые принимает их оружие, не неся их с собой: выберите тип с помощью кнопки перезарядки. Infinite Reserve все еще перезагружается.</r></e>
+  <e k="K" key="CEInfiniteAmmo_RequireAmmo_Title"><s>Require Ammo In Inventory</s><r>Требовать боеприпасы в инвентаре</r></e>
+  <e k="K" key="CEInfiniteAmmo_Settings_Header"><s>Infinite Ammo Settings</s><r>Бесконечные настройки боеприпасов</r></e>
+</AutoTranslateCache>
