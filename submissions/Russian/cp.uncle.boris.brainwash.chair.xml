@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="cp.uncle.boris.brainwash.chair" name="[RH2] Uncle Boris' - Brainwash Chair" language="Russian" version="1">
+  <e k="D" t="JobDef" key="RedHorse_LeadToBrainwashChair.reportString"><s>leading TargetA to TargetB.</s><r>ведущий от TargetA к TargetB.</r></e>
+  <e k="D" t="JobDef" key="RedHorse_LeadToBrainwashChairForPersonalityChange.reportString"><s>leading TargetA to TargetB.</s><r>ведущий от TargetA к TargetB.</r></e>
+  <e k="D" t="JobDef" key="RedHorse_StartBrainwashTelevision.reportString"><s>getting brainwashed by TargetA</s><r>TargetA промывает мозги</r></e>
+  <e k="D" t="JobDef" key="RedHorse_WatchBrainwashTelevision.reportString"><s>getting brainwashed by TargetA</s><r>TargetA промывает мозги</r></e>
+  <e k="D" t="PrisonerInteractionModeDef" key="RedHorse_Brainwash.description"><s>Wardens will lead them to a brainwash chair with a television for brainwashing.</s><r>Надзиратели отведут их к креслу для «промывания мозгов» с телевизором для «промывания мозгов».</r></e>
+  <e k="D" t="PrisonerInteractionModeDef" key="RedHorse_Brainwash.label"><s>brainwash reduce will</s><r>«промывание мозгов» сократит</r></e>
+  <e k="D" t="ThingDef" key="RH2_BrainwashChair.description"><s>A repurposed electric chair with restraints designed to be used for brainwashing. Subjects are to be restrained on the chair and subjected to mental trauma and psychological reprogramming to such a degree that their mind is altered.
+	
+Instructions:
+- Place the brainwash chair facing a television inside a closed room
+- Select your prisoner and choose the brainwash option
+
+
+After successful use, the subject will enter a catatonic state with their resistances and will broken.</s><r>Переделанный электрический стул с ограничителями, предназначенный для «промывания мозгов». Субъектов следует удерживать на стуле и подвергать психической травме и психологическому перепрограммированию до такой степени, чтобы их разум был изменен.
+ 
+Инструкции:
+- Поставьте кресло для «промывания мозгов» лицом к телевизору в закрытой комнате
+- Выберите своего заключенного и выберите вариант «промывания мозгов»
+
+
+После успешного использования субъект войдет в кататоническое состояние со своим сопротивлением и будет сломлен.</r></e>
+  <e k="D" t="ThingDef" key="RH2_BrainwashChair.label"><s>brainwash chair</s><r>стул для промывки мозгов</r></e>
+  <e k="D" t="WorkGiverDef" key="RedHorse_LeadToBrainwashChair.gerund"><s>leading to brainwash chair</s><r>ведущий к креслу для промывания мозгов</r></e>
+  <e k="D" t="WorkGiverDef" key="RedHorse_LeadToBrainwashChair.label"><s>lead to brainwash chair</s><r>привести к креслу для промывания мозгов</r></e>
+  <e k="D" t="WorkGiverDef" key="RedHorse_LeadToBrainwashChair.verb"><s>lead to brainwash chair</s><r>привести к креслу для промывания мозгов</r></e>
+  <e k="K" key="Brainwash_AllowModifyingBackstoriesDuringBrainwashing"><s>Allow modifying backstories</s><r>Разрешить изменение предыстории</r></e>
+  <e k="K" key="Brainwash_AllowModifyingSkillsDuringBrainwashing"><s>Allow modifying skill levels</s><r>Разрешить изменение уровней навыков</r></e>
+  <e k="K" key="Brainwash_AllowRemovingAddictions"><s>Allow removing addictions</s><r>Разрешить избавляться от зависимости</r></e>
+  <e k="K" key="Brainwash_Backstories"><s>Backstories</s><r>Предыстории</r></e>
+  <e k="K" key="Brainwash_ChangeOwnPersonality"><s>Change own personality</s><r>Изменить собственную личность</r></e>
+  <e k="K" key="Brainwash_ChangePersonality"><s>Change personality</s><r>Изменить личность</r></e>
+  <e k="K" key="Brainwash_CountOfTraitsToEdit"><s>Count of trait to edit: {0}</s><r>Количество черт для редактирования: {0}</r></e>
+  <e k="K" key="Brainwash_MessagePrisonerResistanceBroken"><s>Prisoner {PRISONER_labelShort}'s resistance has been broken by brainwashing.</s><r>Сопротивление узника {PRISONER_labelShort} было сломлено «промыванием мозгов».</r></e>
+  <e k="K" key="Brainwash_MessagePrisonerWillBroken"><s>Prisoner {0_nameDef}'s will has been broken by brainwashing.</s><r>Воля узника {0_nameDef} сломлена «промыванием мозгов».</r></e>
+  <e k="K" key="Brainwash_Passions"><s>Passions</s><r>Страсти</r></e>
+  <e k="K" key="Brainwash_PawnHavingBreakdown"><s>{PAWN_nameDef} is having a catatonic breakdown after being brainwashed.</s><r>У {PAWN_nameDef} кататонический срыв после «промывания мозгов».</r></e>
+  <e k="K" key="Brainwash_ReduceCertainty"><s>Reduce certainty to zero</s><r>Свести уверенность к нулю</r></e>
+  <e k="K" key="Brainwash_RemoveAddictions"><s>Remove addictions</s><r>Удалить зависимости</r></e>
+  <e k="K" key="Brainwash_Search"><s>Search</s><r>Поиск</r></e>
+  <e k="K" key="Brainwash_Select"><s>Select</s><r>Выбирать</r></e>
+  <e k="K" key="Brainwash_SelectBackstory"><s>Select backstory</s><r>Выберите предысторию</r></e>
+  <e k="K" key="Brainwash_SelectTrait"><s>Add trait</s><r>Добавить черту</r></e>
+  <e k="K" key="Brainwash_StartBrainwash"><s>Start brainwash</s><r>Начать «промывание мозгов»</r></e>
+  <e k="K" key="Brainwash_TakeForBrainwashPersonality"><s>Take for personality brainwash</s><r>Возьмите за промывку мозгов личности</r></e>
+</AutoTranslateCache>
