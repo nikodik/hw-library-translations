@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="vanillaexpanded.vcookestews" name="Vanilla Cooking Expanded - Stews" language="Russian" version="1">
+  <e k="D" t="ProcessDef" key="VCE_FineStewRecipe.description"><s>Turns an uncooked fine stew into 10 cooked fine stews.</s><r>Превращает сырое прекрасное рагу в 10 приготовленных изысканных рагу.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_FineStewRecipe.label"><s>Cook Fine Stew</s><r>Приготовить прекрасное рагу</r></e>
+  <e k="D" t="ProcessDef" key="VCE_LavishStewRecipe.description"><s>Turns an uncooked lavish stew into 10 cooked lavish stews.</s><r>Превращает сырое роскошное рагу в 10 приготовленных роскошных рагу.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_LavishStewRecipe.label"><s>Cook Lavish Stew</s><r>Приготовить обильное рагу</r></e>
+  <e k="D" t="ProcessDef" key="VCE_SimpleStewRecipe.description"><s>Turns an uncooked simple stew into 10 cooked simple stews.</s><r>Превращает сырое простое рагу в 10 приготовленных простых рагу.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_SimpleStewRecipe.label"><s>Cook Simple Stew</s><r>Приготовить простое рагу</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookStewFine.description"><s>Prepare a fine uncooked stew assembled with care from a wide selection of ingredients.</s><r>Приготовьте изысканное сырое рагу, тщательно приготовленное из широкого набора ингредиентов.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookStewFine.jobString"><s>Preparing fine stew.</s><r>Готовим прекрасное рагу.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookStewFine.label"><s>prepare fine stew</s><r>приготовить прекрасное рагу</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookStewLavish.description"><s>Prepare a lavish uncooked stew. A masterpiece of the culinary arts, this stew nourishes the body, mind, and soul.</s><r>Приготовьте обильное сырое рагу. Шедевр кулинарного искусства, это рагу питает тело, разум и душу.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookStewLavish.jobString"><s>Preparing lavish Stew.</s><r>Готовим пышное рагу.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookStewLavish.label"><s>prepare lavish stew</s><r>приготовить обильное рагу</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookStewSimple.description"><s>Prepare a simple uncooked stew quickly made from a few ingredients.</s><r>Быстро приготовьте простое сырое рагу из нескольких ингредиентов.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookStewSimple.jobString"><s>Preparing simple stew.</s><r>Готовим простое рагу.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookStewSimple.label"><s>prepare simple stew</s><r>приготовить простое рагу</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_StewCooking.description"><s>Stew is a form of a very nourishing meal, cooked in bulk over fire. This research also gives access to the wood-fired pot necessary to cook stews.</s><r>Тушеное мясо — это очень сытная еда, приготовленная в больших количествах на огне. Это исследование также дает доступ к дровяной кастрюле, необходимой для приготовления тушеных блюд.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_StewCooking.generalRules.rulesStrings.0"><s>subject-&gt;hearth and heart</s><r>subject-&gt;очаг и сердце</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_StewCooking.generalRules.rulesStrings.1"><s>subject_story-&gt;embraced the tradition of stew cooking, bringing together community and cuisine over the warmth of a shared pot</s><r>subject_story-&gt;принял традицию приготовления тушеного мяса, объединяя сообщество и кухню в тепле общей кастрюли.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_StewCooking.generalRules.rulesStrings.2"><s>subject_story-&gt;cultivated techniques to craft stews that are not only nourishing but carry the flavors of cultural heritage and togetherness</s><r>subject_story-&gt;культивированные методы приготовления тушеных блюд, которые не только питательны, но и несут в себе ароматы культурного наследия и единения.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_StewCooking.generalRules.rulesStrings.3"><s>subject_story-&gt;introduced the wood-fired pot, an essential tool for preparing these hearty meals in the traditional way</s><r>subject_story-&gt;представила дровяной горшок — незаменимый инструмент для приготовления сытных блюд традиционным способом.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_StewCooking.generalRules.rulesStrings.4"><s>subject_gerund-&gt;nurturing bodies and souls with the communal art of stew making</s><r>subject_gerund-&gt;питая тела и души с помощью коллективного искусства приготовления тушеного мяса</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_StewCooking.label"><s>stew cooking</s><r>приготовление тушеного мяса</r></e>
+  <e k="D" t="ThingCategoryDef" key="VCE_UncookedStews.label"><s>uncooked stews</s><r>сырое рагу</r></e>
+  <e k="D" t="ThingDef" key="VCE_CookedStewFine.description"><s>A complex stew assembled with care from a wide selection of ingredients.</s><r>Сложное рагу, тщательно приготовленное из широкого выбора ингредиентов.</r></e>
+  <e k="D" t="ThingDef" key="VCE_CookedStewFine.label"><s>fine stew</s><r>прекрасное рагу</r></e>
+  <e k="D" t="ThingDef" key="VCE_CookedStewLavish.description"><s>A masterpiece of the culinary arts, this stew nourishes the body, mind, and soul.</s><r>Шедевр кулинарного искусства, это рагу питает тело, разум и душу.</r></e>
+  <e k="D" t="ThingDef" key="VCE_CookedStewLavish.label"><s>lavish stew</s><r>щедрое рагу</r></e>
+  <e k="D" t="ThingDef" key="VCE_CookedStewSimple.description"><s>A simple stew slow cooked from a few ingredients.</s><r>Простое рагу, приготовленное на медленном огне из нескольких ингредиентов.</r></e>
+  <e k="D" t="ThingDef" key="VCE_CookedStewSimple.label"><s>simple stew</s><r>простое рагу</r></e>
+  <e k="D" t="ThingDef" key="VCE_StewPot.description"><s>A wood-fired stove with a top side perfectly indented for a large pot. The lack of need for electricity means this cooking apparatus is perfect for the rugged outdoorsman or medieval peasant alike. Stews are heartier and easier to cook than proper soups. Stews often meld into a singular flavor over long periods of time, perfect for gamey or “less enticing” meat products.
+
+This building gives off a significant amount of heat.
+
+Stew is slightly less nutrition-efficient than Soup, but requires only 2 days of cook time as opposed to Soup's 3.
+
+\As with most fueled buildings, this building consumes extra fuel when rained on. Keep it underneath a roof; remember that you can extend roofs past a wall without forming an enclosed room.</s><r>Дровяная печь, верхняя часть которой идеально подходит для большой кастрюли. Отсутствие необходимости в электричестве означает, что этот прибор для приготовления пищи идеально подходит как для суровых туристов, так и для средневековых крестьян. Тушеные блюда сытнее и их легче готовить, чем настоящие супы. Рагу часто приобретает уникальный вкус в течение длительного периода времени, что идеально подходит для дичи или «менее соблазнительных» мясных продуктов.
+
+Это здание выделяет значительное количество тепла.
+
+Тушеное мясо немного менее питательно, чем суп, но требует всего 2 дня приготовления в отличие от супа 3.
+
+\Как и большинство других блюд заправленные топливом здания, это здание потребляет дополнительное топливо во время дождя. Держите его под крышей; Помните, что вы можете расширить крышу за стену, не образуя закрытого помещения.</r></e>
+  <e k="D" t="ThingDef" key="VCE_StewPot.label"><s>stew pot</s><r>тушеная кастрюля</r></e>
+  <e k="D" t="ThingDef" key="VCE_UncookedStewFine.description"><s>An uncooked fine stew. This needs to be cooked in a stew pot to be edible.</s><r>Неприготовленное прекрасное рагу. Чтобы блюдо было съедобным, его нужно приготовить в кастрюле.</r></e>
+  <e k="D" t="ThingDef" key="VCE_UncookedStewFine.label"><s>uncooked fine stew</s><r>сырое прекрасное рагу</r></e>
+  <e k="D" t="ThingDef" key="VCE_UncookedStewLavish.description"><s>An uncooked lavish stew. This needs to be cooked in a stew pot to be edible.</s><r>Неприготовленное роскошное рагу. Чтобы блюдо было съедобным, его нужно приготовить в кастрюле.</r></e>
+  <e k="D" t="ThingDef" key="VCE_UncookedStewLavish.label"><s>uncooked lavish stew</s><r>сырое, щедрое рагу</r></e>
+  <e k="D" t="ThingDef" key="VCE_UncookedStewSimple.description"><s>An uncooked simple stew. This needs to be cooked in a stew pot to be edible.</s><r>Простое сырое рагу. Чтобы блюдо было съедобным, его нужно приготовить в кастрюле.</r></e>
+  <e k="D" t="ThingDef" key="VCE_UncookedStewSimple.label"><s>uncooked simple stew</s><r>простое сырое рагу</r></e>
+  <e k="K" key="VCE_CancelBringingStew"><s>Cancel Bringing Stew</s><r>Отменить принос тушеного мяса</r></e>
+  <e k="K" key="VCE_CancelBringingStewDesc"><s>Cancel bringing stew to the stew pot.</s><r>Отмените подачу тушеного мяса в кастрюлю для тушения.</r></e>
+  <e k="K" key="VCE_FinishedFineStew"><s>A fine stew is ready and waiting for pickup</s><r>Прекрасное рагу готово и ждет, когда его заберут.</r></e>
+  <e k="K" key="VCE_FinishedLavishStew"><s>A lavish stew is ready and waiting for pickup</s><r>Роскошное рагу готово и ждет, когда вас заберут.</r></e>
+  <e k="K" key="VCE_FinishedSimpleStew"><s>A simple stew is ready and waiting for pickup</s><r>Простое рагу готово и ждет самовывоза.</r></e>
+  <e k="K" key="VCE_InsertStewDesc"><s>Stew to Cook</s><r>Тушить, чтобы приготовить</r></e>
+  <e k="K" key="VCE_StartStewInsertion"><s>Bring Stew</s><r>Принесите рагу</r></e>
+  <e k="K" key="VCE_StartStewInsertionDesc"><s>Bring a stew to the stew pot to start cooking</s><r>Положите рагу в кастрюлю, чтобы начать готовить.</r></e>
+  <e k="K" key="VCE_StewFailurePower"><s>The stew has spoiled due to a lack of fuel in the stew pot</s><r>Тушенка испортилась из-за отсутствия топлива в кастрюле для тушения.</r></e>
+  <e k="K" key="VCE_StewFailurePowerWarning"><s>The stew is spoiling fast due to a lack of fuel in the stew pot</s><r>Тушенка быстро портится из-за отсутствия топлива в кастрюле.</r></e>
+</AutoTranslateCache>
