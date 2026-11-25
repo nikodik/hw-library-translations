@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="ferny.worldbuilder" name="Worldbuilder" language="Russian" version="1">
+  <e k="D" t="FeatureDef" key="WB_MapLabelFeature.description"><s>A custom text label placed on the world map.</s><r>Пользовательская текстовая метка, размещенная на карте мира.</r></e>
+  <e k="D" t="FeatureDef" key="WB_MapLabelFeature.label"><s>map label</s><r>метка карты</r></e>
+  <e k="D" t="ScenPartDef" key="WB_SpawnLandmarkOnGlobePercentage.description"><s>Spawns a specific type of landmark on a percentage of tiles across the entire world.</s><r>Создает определенный тип ориентира на определенном проценте плиток по всему миру.</r></e>
+  <e k="D" t="ScenPartDef" key="WB_SpawnLandmarkOnGlobePercentage.label"><s>spawn landmark on globe percentage</s><r>процент появления ориентира на земном шаре</r></e>
+  <e k="D" t="ScenPartDef" key="WB_SpawnLandmarkOnStartingTile.description"><s>Spawns a specific type of landmark on the player's starting tile.</s><r>Создает определенный тип ориентира на стартовой плитке игрока.</r></e>
+  <e k="D" t="ScenPartDef" key="WB_SpawnLandmarkOnStartingTile.label"><s>spawn landmark on starting tile</s><r>создать ориентир на стартовой плитке</r></e>
+  <e k="D" t="ScenPartDef" key="WB_StartInWorld.description"><s>Forces the game to start in a world generated from a specific preset, skipping the world selection screen.</s><r>Принудительно запускает игру в мире, созданном на основе определенной предустановки, пропуская экран выбора мира.</r></e>
+  <e k="D" t="ScenPartDef" key="WB_StartInWorld.label"><s>start in world</s><r>начать в мире</r></e>
+  <e k="D" t="ThingDef" key="WB_Storykeeper.description"><s>A collection of written records kept by your colony.</s><r>Коллекция письменных записей, хранящихся в вашей колонии.</r></e>
+  <e k="D" t="ThingDef" key="WB_Storykeeper.label"><s>storykeeper</s><r>рассказчик</r></e>
+  <e k="D" t="WorldObjectDef" key="WB_MapMarker.description"><s>A location marked on the map.</s><r>Место, отмеченное на карте.</r></e>
+  <e k="D" t="WorldObjectDef" key="WB_MapMarker.label"><s>marker</s><r>маркер</r></e>
+  <e k="K" key="WB_AddFactionFactionLabel"><s>Adding faction: {0}</s><r>Добавление фракции: {0}</r></e>
+  <e k="K" key="WB_AddFactionFailed"><s>Failed to add faction.</s><r>Не удалось добавить фракцию.</r></e>
+  <e k="K" key="WB_AddFactionMinDistance"><s>Min distance from player (recommended: {0}, current: {1})</s><r>Минимальное расстояние от игрока (рекомендуется: {0}, текущее: {1})</r></e>
+  <e k="K" key="WB_AddFactionSettlementsToSpawn"><s>Settlements to spawn (recommended: {0}, current: {1})</s><r>Поселения для появления (рекомендуется: {0}, текущий: {1})</r></e>
+  <e k="K" key="WB_AddFactionSpawn"><s>Spawn</s><r>Спавн</r></e>
+  <e k="K" key="WB_AddFactionSuccess"><s>Faction '{0}' added with {1} settlement(s).</s><r>Добавлена ​​фракция «{0}» с поселениями {1}.</r></e>
+  <e k="K" key="WB_AddMapTextButton"><s>Add text</s><r>Добавить текст</r></e>
+  <e k="K" key="WB_AllTechLevels"><s>All tech levels</s><r>Все технические уровни</r></e>
+  <e k="K" key="WB_AncientRoadDensity"><s>Ancient road density</s><r>Плотность древних дорог</r></e>
+  <e k="K" key="WB_AxialTilt"><s>Axial tilt</s><r>Осевой наклон</r></e>
+  <e k="K" key="WB_BiomeCommonalities"><s>Biome commonalities</s><r>Общие черты биомов</r></e>
+  <e k="K" key="WB_BiomeNotFound"><s>Biome not found: {0}</s><r>Биом не найден: {0}</r></e>
+  <e k="K" key="WB_Biomes"><s>Biomes</s><r>Биомы</r></e>
+  <e k="K" key="WB_BiomesTab"><s>Biomes</s><r>Биомы</r></e>
+  <e k="K" key="WB_ClimateTab"><s>Climate</s><r>Климат</r></e>
+  <e k="K" key="WB_ColonyCustomizeCulturalIconsLabel"><s>Cultural icons</s><r>Культурные иконы</r></e>
+  <e k="K" key="WB_ColonyCustomizeFactionIconsLabel"><s>Faction icons</s><r>Иконки фракций</r></e>
+  <e k="K" key="WB_ColonyCustomizeNameEmptyError"><s>Settlement name cannot be empty.</s><r>Название населенного пункта не может быть пустым.</r></e>
+  <e k="K" key="WB_ColonyCustomizeNameLabel"><s>Settlement name:</s><r>Название населенного пункта:</r></e>
+  <e k="K" key="WB_ColonyCustomizeSaveSuccess"><s>Colony customization saved.</s><r>Настройка колонии сохранена.</r></e>
+  <e k="K" key="WB_ColorChannelsHSV"><s>HSV</s><r>ВПГ</r></e>
+  <e k="K" key="WB_ColorChannelsRGB"><s>RGB</s><r>RGB</r></e>
+  <e k="K" key="WB_ColorHex"><s>Hex</s><r>Шестигранник</r></e>
+  <e k="K" key="WB_ColorHexInvalid"><s>The clipboard does not contain a valid hex color.</s><r>Буфер обмена не содержит допустимого шестнадцатеричного цвета.</r></e>
+  <e k="K" key="WB_ColorPalette"><s>Palette</s><r>Палитра</r></e>
+  <e k="K" key="WB_ColorRecent"><s>Recently used</s><r>Недавно использовано</r></e>
+  <e k="K" key="WB_ColorResetToOld"><s>Revert</s><r>Возвращаться</r></e>
+  <e k="K" key="WB_ColorRestoreOld"><s>Click to restore the original color.</s><r>Нажмите, чтобы восстановить исходный цвет.</r></e>
+  <e k="K" key="WB_CommonNo"><s>No</s><r>Нет</r></e>
+  <e k="K" key="WB_CommonNoDescription"><s>No description provided.</s><r>Описание не предоставлено.</r></e>
+  <e k="K" key="WB_CommonYes"><s>Yes</s><r>Да</r></e>
+  <e k="K" key="WB_Commonality"><s>Multiplier: </s><r>Множитель: </r></e>
+  <e k="K" key="WB_ConfirmDeleteSettlement"><s>Are you sure you want to delete {0}? This action cannot be undone.</s><r>Вы уверены, что хотите удалить {0}? Это действие невозможно отменить.</r></e>
+  <e k="K" key="WB_Copy"><s>Copy</s><r>Копировать</r></e>
+  <e k="K" key="WB_Coverage"><s>Coverage</s><r>Покрытие</r></e>
+  <e k="K" key="WB_CreateNewSettlement"><s>Place new settlements</s><r>Размещайте новые поселения</r></e>
+  <e k="K" key="WB_CreateOrEditWorldCopyPrefix"><s>Copy of </s><r>Копия </r></e>
+  <e k="K" key="WB_CreatePresetButton"><s>Create world</s><r>Создать мир</r></e>
+  <e k="K" key="WB_CreatePresetDescLabel"><s>Description:</s><r>Описание:</r></e>
+  <e k="K" key="WB_CreatePresetFlavorLabel"><s>Flavor image:</s><r>Изображение вкуса:</r></e>
+  <e k="K" key="WB_CreatePresetNameEmptyError"><s>World name cannot be empty.</s><r>Мировое имя не может быть пустым.</r></e>
+  <e k="K" key="WB_CreatePresetNameExistsError"><s>A world named '{0}' already exists.</s><r>Мир под названием «{0}» уже существует.</r></e>
+  <e k="K" key="WB_CreatePresetNameLabel"><s>World name:</s><r>Мировое имя:</r></e>
+  <e k="K" key="WB_CreatePresetNameReservedError"><s>World name '{0}' is reserved.</s><r>Мировое имя «{0}» зарезервировано.</r></e>
+  <e k="K" key="WB_CreatePresetOverwriteConfirm"><s>Creating a world with the name {0} will overwrite the existing world. Are you sure you want to continue?</s><r>Создание мира с именем {0} перезапишет существующий мир. Вы уверены, что хотите продолжить?</r></e>
+  <e k="K" key="WB_CreatePresetSaveFailed"><s>Failed to save world '{0}'.</s><r>Не удалось сохранить мир «{0}».</r></e>
+  <e k="K" key="WB_CreatePresetSaveSuccess"><s>World '{0}' saved successfully.</s><r>Мир «{0}» успешно сохранен.</r></e>
+  <e k="K" key="WB_CreatePresetThumbLabel"><s>Thumbnail:</s><r>Миниатюра:</r></e>
+  <e k="K" key="WB_CreatePresetTitle"><s>Create new world</s><r>Создать новый мир</r></e>
+  <e k="K" key="WB_CreatePresetUploadImageButton"><s>Upload image</s><r>Загрузить изображение</r></e>
+  <e k="K" key="WB_CreatePresetWorldSettingsButton"><s>World settings</s><r>Настройки мира</r></e>
+  <e k="K" key="WB_CreateWorldParamsConfirmUnlockSeedMessage"><s>Are you sure you want to change the seed? This world preset has defined terrain, and changing the seed will result in a different world being generated than intended by the preset.</s><r>Вы уверены, что хотите изменить семя? Эта предустановка мира имеет определённый ландшафт, и изменение начального числа приведет к созданию мира, отличного от задуманного предустановкой.</r></e>
+  <e k="K" key="WB_CreateWorldParamsConfirmUnlockSeedTitle"><s>Change World Seed?</s><r>Изменить семя мира?</r></e>
+  <e k="K" key="WB_Customize"><s>Customize</s><r>Настроить</r></e>
+  <e k="K" key="WB_CustomizeAppearance"><s>Appearance</s><r>Появление</r></e>
+  <e k="K" key="WB_CustomizeCulturalStyles"><s>Cultural styles</s><r>Культурные стили</r></e>
+  <e k="K" key="WB_CustomizeDefault"><s>Default</s><r>По умолчанию</r></e>
+  <e k="K" key="WB_CustomizeDescription"><s>Description:</s><r>Описание:</r></e>
+  <e k="K" key="WB_CustomizeDetail"><s>Detail</s><r>Деталь</r></e>
+  <e k="K" key="WB_CustomizeDetailTabExplanation"><s>Write the details of this thing.</s><r>Напишите подробности этого дела.</r></e>
+  <e k="K" key="WB_CustomizeDragHint"><s>Click and drag the preview to move the graphic in the world.</s><r>Нажмите и перетащите предварительный просмотр, чтобы переместить изображение в мире.</r></e>
+  <e k="K" key="WB_CustomizeEnableColoring"><s>Enable coloring?</s><r>Включить раскраску?</r></e>
+  <e k="K" key="WB_CustomizeFaction"><s>Faction</s><r>Фракция</r></e>
+  <e k="K" key="WB_CustomizeIncludeAdditionalDetails"><s>Include additional details (hp, quality, etc)</s><r>Укажите дополнительную информацию (мощность, качество и т. д.)</r></e>
+  <e k="K" key="WB_CustomizeIncludeMaterialInLabel"><s>Include material name</s><r>Укажите название материала</r></e>
+  <e k="K" key="WB_CustomizeLabel"><s>Label:</s><r>Этикетка:</r></e>
+  <e k="K" key="WB_CustomizeMap"><s>Map</s><r>Карта</r></e>
+  <e k="K" key="WB_CustomizeMirrorHorizontal"><s>Mirror horizontally</s><r>Зеркало горизонтально</r></e>
+  <e k="K" key="WB_CustomizeNarrative"><s>Narrative</s><r>Повествование</r></e>
+  <e k="K" key="WB_CustomizeNarrativeTabExplanation"><s>Write a narrative for this thing. This can be read using the &quot;view narrative&quot; button.</s><r>Напишите рассказ об этом предмете. Это можно прочитать, нажав кнопку «Просмотреть повествование».</r></e>
+  <e k="K" key="WB_CustomizeOpacity"><s>Opacity</s><r>Непрозрачность</r></e>
+  <e k="K" key="WB_CustomizePresetSaveFailed"><s>Failed to save customization default for {0} to world '{1}'.</s><r>Не удалось сохранить настройки по умолчанию для {0} в мире «{1}».</r></e>
+  <e k="K" key="WB_CustomizePresetSaveSuccess"><s>Customization default for {0} saved to world '{1}'.</s><r>Настройка по умолчанию для {0} сохранена в мире «{1}».</r></e>
+  <e k="K" key="WB_CustomizeRenderLayer"><s>Visual layer</s><r>Визуальный слой</r></e>
+  <e k="K" key="WB_CustomizeRenderOffset"><s>Visual offset</s><r>Визуальное смещение</r></e>
+  <e k="K" key="WB_CustomizeResetFactionDefault"><s>Reset player faction default for {0}</s><r>Сбросить настройки фракции игрока для {0}</r></e>
+  <e k="K" key="WB_CustomizeResetThing"><s>Reset</s><r>Перезагрузить</r></e>
+  <e k="K" key="WB_CustomizeResetThingSuccess"><s>Customization reset for selected {0}(s).</s><r>Сброс настроек для выбранных {0}(ов).</r></e>
+  <e k="K" key="WB_CustomizeRotation"><s>Rotation</s><r>Вращение</r></e>
+  <e k="K" key="WB_CustomizeRotationHint"><s>Click and drag to rotate. Hold Shift to snap to 45° angles.</s><r>Нажмите и перетащите, чтобы повернуть. Удерживайте Shift, чтобы привязать угол под углом 45°.</r></e>
+  <e k="K" key="WB_CustomizeSave"><s>Save</s><r>Сохранять</r></e>
+  <e k="K" key="WB_CustomizeSaveFactionDefault"><s>Save as player faction default</s><r>Сохранить как фракцию игрока по умолчанию</r></e>
+  <e k="K" key="WB_CustomizeSaveMapAll"><s>Save to all {0} present on map</s><r>Сохранить для всех {0}, присутствующих на карте.</r></e>
+  <e k="K" key="WB_CustomizeSaveToFaction"><s>Save to the faction</s><r>Сохранить во фракцию</r></e>
+  <e k="K" key="WB_CustomizeSaveToPreset"><s>Save to '{0}'</s><r>Сохранить в «{0}»</r></e>
+  <e k="K" key="WB_CustomizeSaveToPresetConfirm"><s>Save current customization for {0} as the default for the '{1}' world?</s><r>Сохранить текущую настройку для {0} как настройку по умолчанию для мира «{1}»?</r></e>
+  <e k="K" key="WB_CustomizeSaveToThisSettlement"><s>Save to this settlement</s><r>Сохранить в это поселение</r></e>
+  <e k="K" key="WB_CustomizeSetColor"><s>Set color</s><r>Установить цвет</r></e>
+  <e k="K" key="WB_CustomizeSize"><s>Size</s><r>Размер</r></e>
+  <e k="K" key="WB_CustomizeToggle"><s>Show customization button</s><r>Показать кнопку настройки</r></e>
+  <e k="K" key="WB_CustomizeUploadImage"><s>Upload image</s><r>Загрузить изображение</r></e>
+  <e k="K" key="WB_CustomizeVariations"><s>Variations</s><r>Вариации</r></e>
+  <e k="K" key="WB_CustomizeViewNarrative"><s>View narrative</s><r>Посмотреть повествование</r></e>
+  <e k="K" key="WB_CustomizeViewNarrativeDesc"><s>View the narrative text for this item.</s><r>Просмотрите текст описания этого элемента.</r></e>
+  <e k="K" key="WB_DefPickerCategories"><s>{0} categories · {1} of {2} entries expanded</s><r>{0} категорий · {1} из {2} записей расширено</r></e>
+  <e k="K" key="WB_DefPickerEntries"><s>{0} entries</s><r>{0} записей</r></e>
+  <e k="K" key="WB_DefPickerNoEntries"><s>No available definitions.</s><r>Нет доступных определений.</r></e>
+  <e k="K" key="WB_DefPickerNoMatches"><s>No matching definitions.</s><r>Нет подходящих определений.</r></e>
+  <e k="K" key="WB_DefPickerSearch"><s>Search</s><r>Поиск</r></e>
+  <e k="K" key="WB_DefPickerShown"><s>{0} of {1} shown</s><r>показано {0} из {1}</r></e>
+  <e k="K" key="WB_DefPickerSources"><s>{0} sources · {1} of {2} entries expanded</s><r>{0} источников · {1} из {2} записей расширено</r></e>
+  <e k="K" key="WB_DefPickerUnknownSource"><s>Unknown source</s><r>Неизвестный источник</r></e>
+  <e k="K" key="WB_DefaultPresetDescription"><s>Rimworlds are diverse worlds lacking in strong central government and low in population density. Because they’re not homogenized by a central government, they tend to see a lot of interaction between people of different technology levels, as travelers crash-land or ancient communities stumble out of their cryptosleep vaults. These planets are often at the rim of known space, hence the name. 
+
+The classic Rimworld experience.</s><r>Краевые миры — это разнообразные миры, в которых отсутствует сильное центральное правительство и низкая плотность населения. Поскольку они не гомогенизированы центральным правительством, они, как правило, видят множество взаимодействий между людьми с разными технологическими уровнями, когда путешественники терпят крушение или древние сообщества выскакивают из своих хранилищ криптосна. Эти планеты часто находятся на краю известного космоса, отсюда и название. 
+
+Классический опыт Rimworld.</r></e>
+  <e k="K" key="WB_DefaultPresetName"><s>Rimworld</s><r>Риммир</r></e>
+  <e k="K" key="WB_DeleteSettlement"><s>Delete settlement</s><r>Удалить поселение</r></e>
+  <e k="K" key="WB_DeleteSettlementConfirm"><s>Permanently delete {0}? This cannot be undone.</s><r>Удалить {0} навсегда? Это невозможно отменить.</r></e>
+  <e k="K" key="WB_DescriptionLabel"><s>Description:</s><r>Описание:</r></e>
+  <e k="K" key="WB_DifficultyLabel"><s>How difficult is your world to survive in?</s><r>Насколько сложен ваш мир для выживания?</r></e>
+  <e k="K" key="WB_DisableUndefinedBiomes"><s>Disable undefined biomes</s><r>Отключить неопределенные биомы</r></e>
+  <e k="K" key="WB_DisableUndefinedBiomes_Tooltip"><s>If enabled, any biomes not defined in this preset will have their commonality set to 0, preventing them from spawning.</s><r>Если этот параметр включен, для любых биомов, не определенных в этом пресете, общность будет установлена ​​на 0, что предотвратит их появление.</r></e>
+  <e k="K" key="WB_DisplayInColonistBar"><s>Display in colonist bar?</s><r>Отображать в баре колонистов?</r></e>
+  <e k="K" key="WB_DontShowAgain"><s>Don't show this again</s><r>Больше не показывать это</r></e>
+  <e k="K" key="WB_EditExistingWorldLabel"><s>Edit existing world</s><r>Редактировать существующий мир</r></e>
+  <e k="K" key="WB_EditMapText"><s>Edit map text</s><r>Редактировать текст карты</r></e>
+  <e k="K" key="WB_EditModeLeft"><s>{0} editing mode left.</s><r>{0} режим редактирования остался.</r></e>
+  <e k="K" key="WB_EditPopulation"><s>Edit population</s><r>Изменить население</r></e>
+  <e k="K" key="WB_EditRivers"><s>Edit rivers</s><r>Редактировать реки</r></e>
+  <e k="K" key="WB_EditRoads"><s>Edit roads</s><r>Редактировать дороги</r></e>
+  <e k="K" key="WB_FactionBaseCustomizeAllSaveSuccess"><s>Faction appearance saved for {0}.</s><r>Внешний вид фракции сохранен для {0}.</r></e>
+  <e k="K" key="WB_FactionBaseCustomizeIndividualSaveSuccess"><s>Faction base customization saved (individual).</s><r>Базовая настройка фракции сохранена (индивидуальная).</r></e>
+  <e k="K" key="WB_FactionColorLabel"><s>Faction color:</s><r>Цвет фракции:</r></e>
+  <e k="K" key="WB_FactionColorPicker"><s>Choose color</s><r>Выберите цвет</r></e>
+  <e k="K" key="WB_FactionCustomizationSaved"><s>Faction '{0}' customization saved.</s><r>Настройка фракции «{0}» сохранена.</r></e>
+  <e k="K" key="WB_FactionIconLabel"><s>Faction icon path:</s><r>Путь к значку фракции:</r></e>
+  <e k="K" key="WB_FactionIconSharedWarning"><s>Multiple factions of this type exist. Due to technical limitations, the icon will be shared by all factions of this type.</s><r>Существует несколько фракций этого типа. Из-за технических ограничений значок будет общим для всех фракций этого типа.</r></e>
+  <e k="K" key="WB_FactionNameEmptyError"><s>Faction name cannot be empty.</s><r>Название фракции не может быть пустым.</r></e>
+  <e k="K" key="WB_FactionNameLabel"><s>Faction name:</s><r>Название фракции:</r></e>
+  <e k="K" key="WB_FactionNoSettlements"><s>This faction has no settlements.</s><r>У этой фракции нет поселений.</r></e>
+  <e k="K" key="WB_FactionNotFound"><s>Faction not found: {0}</s><r>Фракция не найдена: {0}</r></e>
+  <e k="K" key="WB_FactionRemovedSuccess"><s>{0} has been successfully removed.</s><r>{0} успешно удален.</r></e>
+  <e k="K" key="WB_FactionRoadDensity"><s>Faction road density</s><r>Плотность дорог фракции</r></e>
+  <e k="K" key="WB_FactionSettlements"><s>Settlements ({0})</s><r>Поселения ({0})</r></e>
+  <e k="K" key="WB_FeatureNotFound"><s>Feature not found: {0}</s><r>Функция не найдена: {0}</r></e>
+  <e k="K" key="WB_FileSelectorCurrentPath"><s>Current Path: </s><r>Текущий путь: </r></e>
+  <e k="K" key="WB_FileSelectorUp"><s>.. (Up)</s><r>.. (Вверх)</r></e>
+  <e k="K" key="WB_FileSyncing"><s>File syncing</s><r>Синхронизация файлов</r></e>
+  <e k="K" key="WB_FileSyncingDescription"><s>Note: This will save all changes to this narrative to an external file of your choosing on your computer. This is useful for organizing written narratives about your world, but the information the game uses to store this narrative will be kept in Rimworld's file structure instead, with this sync only serving as a copy.</s><r>Примечание. Все изменения в этом повествовании будут сохранены во внешнем файле по вашему выбору на вашем компьютере. Это полезно для организации письменных повествований о вашем мире, но информация, которую игра использует для хранения этого повествования, вместо этого будет храниться в файловой структуре Rimworld, а эта синхронизация будет служить только копией.</r></e>
+  <e k="K" key="WB_GameplaySettings"><s>Gameplay settings</s><r>Настройки игрового процесса</r></e>
+  <e k="K" key="WB_Generate"><s>Generate</s><r>Генерировать</r></e>
+  <e k="K" key="WB_GeneratePreview"><s>Generate preview</s><r>Создать предварительный просмотр</r></e>
+  <e k="K" key="WB_GeneratingPreview"><s>Generating planet view, please wait.</s><r>Создается вид планеты, пожалуйста, подождите.</r></e>
+  <e k="K" key="WB_GizmoAddMarkerDesc"><s>Add a custom marker to this tile.</s><r>Добавьте к этой плитке пользовательский маркер.</r></e>
+  <e k="K" key="WB_GizmoAddMarkerLabel"><s>Add marker</s><r>Добавить маркер</r></e>
+  <e k="K" key="WB_GizmoCustomizeColonyDesc"><s>Open the customization menu for this colony.</s><r>Откройте меню настройки этой колонии.</r></e>
+  <e k="K" key="WB_GizmoCustomizeColonyLabel"><s>Customize</s><r>Настроить</r></e>
+  <e k="K" key="WB_GizmoCustomizeDesc"><s>Open customization menu for {0}.</s><r>Откройте меню настройки для {0}.</r></e>
+  <e k="K" key="WB_GizmoCustomizeLabel"><s>Customize</s><r>Настроить</r></e>
+  <e k="K" key="WB_GizmoCustomizeMarkerDesc"><s>Customize this map marker.</s><r>Настройте этот маркер на карте.</r></e>
+  <e k="K" key="WB_GizmoEraseMarkerDesc"><s>Remove this map marker.</s><r>Удалите этот маркер с карты.</r></e>
+  <e k="K" key="WB_GizmoEraseMarkerLabel"><s>Erase marker</s><r>Стереть маркер</r></e>
+  <e k="K" key="WB_HidePreview"><s>Show/hide world preview</s><r>Показать/скрыть предварительный просмотр мира</r></e>
+  <e k="K" key="WB_LandmarkNotFound"><s>Landmark not found: {0}</s><r>Ориентир не найден: {0}</r></e>
+  <e k="K" key="WB_Large"><s>Large</s><r>Большой</r></e>
+  <e k="K" key="WB_LoadPreset"><s>Load Preset</s><r>Загрузить пресет</r></e>
+  <e k="K" key="WB_ManageFactionsFactionAdded"><s>Faction '{0}' added to world.</s><r>В мир добавлена ​​фракция «{0}».</r></e>
+  <e k="K" key="WB_ManageFactionsSettlementCreated"><s>Settlement '{0}' created for {1}.</s><r>Поселение «{0}» создано для {1}.</r></e>
+  <e k="K" key="WB_ManageFactionsTitle"><s>Manage factions</s><r>Управление фракциями</r></e>
+  <e k="K" key="WB_MapEditorBiome"><s>Biome:</s><r>Биом:</r></e>
+  <e k="K" key="WB_MapEditorBiotechRequired"><s>Requires Biotech.</s><r>Требуется биотехнология.</r></e>
+  <e k="K" key="WB_MapEditorBrushProperties"><s>Current brush</s><r>Текущая кисть</r></e>
+  <e k="K" key="WB_MapEditorBrushSize"><s>Brush size</s><r>Размер кисти</r></e>
+  <e k="K" key="WB_MapEditorCopyTile"><s>Copy existing tile</s><r>Копировать существующую плитку</r></e>
+  <e k="K" key="WB_MapEditorEditPollution"><s>Edit pollution</s><r>Редактировать загрязнение</r></e>
+  <e k="K" key="WB_MapEditorLabel"><s>Map editor</s><r>Редактор карт</r></e>
+  <e k="K" key="WB_MapEditorLandmarkInvalidTile"><s>Landmark {0} cannot be placed on this tile type.</s><r>Ориентир {0} не может быть размещен на плитке этого типа.</r></e>
+  <e k="K" key="WB_MapEditorPaintBiomes"><s>Paint biomes</s><r>Краска биомов</r></e>
+  <e k="K" key="WB_MapEditorPaintFeatures"><s>Paint features</s><r>Особенности краски</r></e>
+  <e k="K" key="WB_MapEditorPaintLandmarks"><s>Paint landmarks</s><r>Раскрашивать достопримечательности</r></e>
+  <e k="K" key="WB_MapEditorPaintRockTypes"><s>Paint stone types</s><r>Виды красочного камня</r></e>
+  <e k="K" key="WB_MapEditorPaintTerrain"><s>Paint terrain</s><r>Краска местности</r></e>
+  <e k="K" key="WB_MapEditorPaintTile"><s>Paint tile</s><r>Краска плитки</r></e>
+  <e k="K" key="WB_MapEditorPollutionBrush"><s>Pollution brush</s><r>Кисть для загрязнения</r></e>
+  <e k="K" key="WB_MapEditorPollutionDescription"><s>Paint or erase world tile pollution using the current brush size.</s><r>Нарисуйте или сотрите загрязнение плитки мира, используя текущий размер кисти.</r></e>
+  <e k="K" key="WB_MapEditorPollutionEraser"><s>Pollution eraser</s><r>Ластик загрязнения</r></e>
+  <e k="K" key="WB_MapEditorSelectBiome"><s>Select biome</s><r>Выберите биом</r></e>
+  <e k="K" key="WB_MapEditorSelectLandmark"><s>Select landmark</s><r>Выберите ориентир</r></e>
+  <e k="K" key="WB_MapEditorSelectRockType"><s>Select stone type</s><r>Выберите тип камня</r></e>
+  <e k="K" key="WB_MapEditorSelectTileFeature"><s>Select tile feature</s><r>Выберите функцию плитки</r></e>
+  <e k="K" key="WB_MapEditorTerrain"><s>Terrain:</s><r>Местность:</r></e>
+  <e k="K" key="WB_MapEditorTerrainPropertiesNote"><s>Other terrain properties are determined by seed of map once painted onto new tiles.</s><r>Другие свойства местности определяются начальным значением карты, нанесенной на новые плитки.</r></e>
+  <e k="K" key="WB_MapMarkerNameEmptyError"><s>Marker name cannot be empty.</s><r>Имя маркера не может быть пустым.</r></e>
+  <e k="K" key="WB_MapMarkerNameLabel"><s>Marker name:</s><r>Название маркера:</r></e>
+  <e k="K" key="WB_MapMarkerSaveSuccess"><s>Marker customization saved.</s><r>Настройка маркера сохранена.</r></e>
+  <e k="K" key="WB_MapTextCanvasHint"><s>Click a label to select it. Drag to move, drag a corner to scale, drag the top handle to rotate. Double-click to rename. Hold Shift while scaling or rotating to snap.</s><r>Нажмите на метку, чтобы выбрать ее. Перетащите, чтобы переместить, перетащите угол, чтобы масштабировать, перетащите верхний маркер, чтобы повернуть. Дважды щелкните, чтобы переименовать. Удерживайте Shift во время масштабирования или вращения, чтобы привязать.</r></e>
+  <e k="K" key="WB_MapTextCanvasTitle"><s>Map text</s><r>Текст карты</r></e>
+  <e k="K" key="WB_MapTextDelete"><s>Delete text</s><r>Удалить текст</r></e>
+  <e k="K" key="WB_MapTextEditorRandomize"><s>Randomize</s><r>Рандомизировать</r></e>
+  <e k="K" key="WB_MapTextInvalidPosition"><s>Invalid position. Please enter a valid position.</s><r>Неверная позиция. Пожалуйста, введите действительную позицию.</r></e>
+  <e k="K" key="WB_MapTextList"><s>Text list</s><r>Текстовый список</r></e>
+  <e k="K" key="WB_MarkerErasedMessage"><s>Marker erased.</s><r>Маркер стерт.</r></e>
+  <e k="K" key="WB_MoreTab"><s>More</s><r>Более</r></e>
+  <e k="K" key="WB_MoreTabNoSettings"><s>This menu does not contain any settings with your current modlist. Mods can add settings here.</s><r>Это меню не содержит никаких настроек вашего текущего списка модов. Модеры могут добавлять сюда настройки.</r></e>
+  <e k="K" key="WB_MountainDensity"><s>Mountain density</s><r>Плотность гор</r></e>
+  <e k="K" key="WB_Narrative"><s>Narrative</s><r>Повествование</r></e>
+  <e k="K" key="WB_NarrativeFooter"><s>Click outside or press Esc to close.</s><r>Нажмите снаружи или нажмите Esc, чтобы закрыть.</r></e>
+  <e k="K" key="WB_NarrativeSkipHint"><s>Click to reveal the rest.</s><r>Нажмите, чтобы открыть остальное.</r></e>
+  <e k="K" key="WB_NarrativeSyncFailed"><s>Failed to sync file. Check log.</s><r>Не удалось синхронизировать файл. Проверьте журнал.</r></e>
+  <e k="K" key="WB_NarrativeSynced"><s>Narrative synced to external file.</s><r>Повествование синхронизировано с внешним файлом.</r></e>
+  <e k="K" key="WB_NewMapTextLabel"><s>New Map Text</s><r>Новый текст карты</r></e>
+  <e k="K" key="WB_NoPresetsFound"><s>No presets found.</s><r>Пресеты не найдены.</r></e>
+  <e k="K" key="WB_OpenStoryLibrary"><s>View entries</s><r>Посмотреть записи</r></e>
+  <e k="K" key="WB_OpenStoryLibraryDesc"><s>Open the storykeeper to view and manage entries.</s><r>Откройте Storykeeper для просмотра и управления записями.</r></e>
+  <e k="K" key="WB_Paste"><s>Paste</s><r>Вставить</r></e>
+  <e k="K" key="WB_PasteHex"><s>Paste HEX</s><r>Вставить HEX</r></e>
+  <e k="K" key="WB_PawnCustomizeAddPortraitLabel"><s>Add portrait</s><r>Добавить портрет</r></e>
+  <e k="K" key="WB_PawnCustomizeDefaultPresetSaveFailed"><s>Failed to save appearance/narrative default for {0} to world '{1}'.</s><r>Не удалось сохранить внешний вид/повествование по умолчанию для {0} в мире «{1}».</r></e>
+  <e k="K" key="WB_PawnCustomizeDefaultPresetSaveSuccess"><s>Appearance/narrative default for {0} saved to world '{1}'.</s><r>Внешний вид/повествование по умолчанию для {0} сохранено в мире «{1}».</r></e>
+  <e k="K" key="WB_PawnCustomizeMapActions"><s>Map</s><r>Карта</r></e>
+  <e k="K" key="WB_PawnCustomizePawnEditor"><s>Open editor</s><r>Открыть редактор</r></e>
+  <e k="K" key="WB_PawnCustomizePortraitUnavailable"><s>(Portrait Unavailable)</s><r>(Портрет недоступен)</r></e>
+  <e k="K" key="WB_PawnCustomizeResetNeedsSave"><s>You need to be inside a save for this to function.</s><r>Чтобы это работало, вам нужно находиться внутри сохранения.</r></e>
+  <e k="K" key="WB_PawnCustomizeResetSuccess"><s>Customization reset for {0}.</s><r>Сброс настроек для {0}.</r></e>
+  <e k="K" key="WB_PawnCustomizeSaveDefaultToPreset"><s>Save {0} default to '{1}'</s><r>Сохраните {0} по умолчанию как «{1}»</r></e>
+  <e k="K" key="WB_PawnCustomizeSaveDefaultToPresetConfirm"><s>Save current appearance and narrative as the default for {0} in the '{1}' world? (Name and description will not be saved)</s><r>Сохранить текущий внешний вид и повествование по умолчанию для {0} в мире «{1}»? (Имя и описание не сохранятся)</r></e>
+  <e k="K" key="WB_PawnCustomizeSaveMapAll"><s>Save to all {0} on current map</s><r>Сохранить во все {0} на текущей карте.</r></e>
+  <e k="K" key="WB_PawnCustomizeSaveSuccess"><s>Customization saved for {0}.</s><r>Кастомизация сохранена для {0}.</r></e>
+  <e k="K" key="WB_PawnCustomizeSaveToAllConfirm"><s>Save current customization to all pawns of kind '{0}' on all maps?</s><r>Сохранить текущую настройку для всех пешек типа «{0}» на всех картах?</r></e>
+  <e k="K" key="WB_PawnCustomizeSaveToAllSuccess"><s>Customization applied to {0} pawns of kind '{1}'.</s><r>Кастомизация применена к {0} пешкам типа «{1}».</r></e>
+  <e k="K" key="WB_PawnCustomizeUploadPortraitButton"><s>Upload portrait</s><r>Загрузить портрет</r></e>
+  <e k="K" key="WB_PlanetEditor"><s>Planet editor</s><r>Редактор планет</r></e>
+  <e k="K" key="WB_PlanetName"><s>Planet name</s><r>Название планеты</r></e>
+  <e k="K" key="WB_PlanetType"><s>Planet type</s><r>Тип планеты</r></e>
+  <e k="K" key="WB_PlanetTypeLabel"><s>What type of planet type would you call this? (ex: Rimworld, Animalworld)</s><r>Какой тип планеты вы бы это назвали? (например: Rimworld, Animalworld)</r></e>
+  <e k="K" key="WB_PopEditor_DisablePreferences"><s>Disable meme and precept preferences</s><r>Отключить настройки мемов и заповедей</r></e>
+  <e k="K" key="WB_PopEditor_DisablePreferencesDesc"><s>This will force the faction to not care about memes and precepts.</s><r>Это заставит фракцию не обращать внимания на мемы и заповеди.</r></e>
+  <e k="K" key="WB_PopEditor_ForceXenotype"><s>Enable forced xenotype override?</s><r>Включить принудительное переопределение ксенотипа?</r></e>
+  <e k="K" key="WB_PopEditor_ForceXenotypeDesc"><s>This will force xenotypes onto pawn types that already have defined xenotypes. This means potentially breaking intended design, but will let you customize xenotypes to a greater extent.</s><r>Это приведет к тому, что ксенотипы будут добавлены к типам пешек, у которых уже определены ксенотипы. Это означает потенциальное нарушение задуманного дизайна, но позволит вам в большей степени настраивать ксенотипы.</r></e>
+  <e k="K" key="WB_PopEditor_Ideoligion"><s>Ideoligion</s><r>Идеолигия</r></e>
+  <e k="K" key="WB_PopEditor_LeaderTitle"><s>Leader title</s><r>Титул лидера</r></e>
+  <e k="K" key="WB_PopEditor_PermanentEnemy"><s>Permanent enemy to player?</s><r>Постоянный враг игрока?</r></e>
+  <e k="K" key="WB_PopEditor_PluralMember"><s>Plural member name</s><r>Имя члена во множественном числе</r></e>
+  <e k="K" key="WB_PopEditor_Relations"><s>Relations with player</s><r>Отношения с игроком</r></e>
+  <e k="K" key="WB_PopEditor_SingularMember"><s>Singular member name</s><r>Имя члена в единственном числе</r></e>
+  <e k="K" key="WB_PopEditor_TechLevel"><s>Defined tech level</s><r>Определенный технологический уровень</r></e>
+  <e k="K" key="WB_PopEditor_XenotypeSaveWarning"><s>Values must add up to 100%. Click save to confirm.</s><r>Сумма значений должна составлять 100 %. Нажмите «Сохранить» для подтверждения.</r></e>
+  <e k="K" key="WB_PopEditor_Xenotypes"><s>Xenotypes</s><r>Ксенотипы</r></e>
+  <e k="K" key="WB_PopEditor_XenotypesTotal"><s>Total: {0}</s><r>Итого: {0}</r></e>
+  <e k="K" key="WB_Population"><s>Population</s><r>Население</r></e>
+  <e k="K" key="WB_PopulationSaveSuccess"><s>Population settings saved for {0}.</s><r>Настройки населения сохранены для {0}.</r></e>
+  <e k="K" key="WB_Recommended"><s>RECOMMENDED</s><r>РЕКОМЕНДУЕТСЯ</r></e>
+  <e k="K" key="WB_Relocate"><s>Relocate</s><r>Переместить</r></e>
+  <e k="K" key="WB_RelocateSettlementTip"><s>Pick a new tile for this settlement.</s><r>Выберите новую плитку для этого поселения.</r></e>
+  <e k="K" key="WB_RemoveFactionWarning"><s>Are you sure you want to remove {0}? This will erase the faction and all its settlements. Only do this before real gameplay starts.</s><r>Вы уверены, что хотите удалить {0}? Это сотрет фракцию и все ее поселения. Делайте это только до начала реального игрового процесса.</r></e>
+  <e k="K" key="WB_RemoveFactionWarningTitle"><s>Warning: Permanently removing faction</s><r>Предупреждение: удаление фракции навсегда.</r></e>
+  <e k="K" key="WB_ResetBiomesToDefault"><s>Reset commonalities</s><r>Сбросить общие черты</r></e>
+  <e k="K" key="WB_RimWorld"><s>Rimworld</s><r>Риммир</r></e>
+  <e k="K" key="WB_River"><s>River</s><r>Река</r></e>
+  <e k="K" key="WB_RiverDensity"><s>River density</s><r>Плотность реки</r></e>
+  <e k="K" key="WB_RiverEditModeEntered"><s>River editing mode: {0}. Left-click to draw, right-click to cancel or delete rivers, ESC to cancel.</s><r>Режим редактирования реки: {0}. Щелкните левой кнопкой мыши, чтобы нарисовать, щелкните правой кнопкой мыши, чтобы отменить или удалить реки, ESC, чтобы отменить.</r></e>
+  <e k="K" key="WB_Road"><s>Road</s><r>Дорога</r></e>
+  <e k="K" key="WB_RoadEditModeEntered"><s>Road editing mode: {0}. Left-click to draw, right-click to cancel or delete roads, ESC to cancel.</s><r>Режим редактирования дороги: {0}. Щелкните левой кнопкой мыши, чтобы нарисовать, щелкните правой кнопкой мыши, чтобы отменить или удалить дороги, ESC, чтобы отменить.</r></e>
+  <e k="K" key="WB_RotationLabel"><s>Rotation</s><r>Вращение</r></e>
+  <e k="K" key="WB_SaveAsWorldPresetLabel"><s>Save as new world</s><r>Сохранить как новый мир</r></e>
+  <e k="K" key="WB_SavePlanetGenParams"><s>Save planet generation parameters</s><r>Сохраняем параметры генерации планет</r></e>
+  <e k="K" key="WB_SavePlanetGenParams_Tooltip"><s>Save current planet generation settings (biomes, terrain, climate, etc.) to this world preset. Seed is excluded.</s><r>Сохраните текущие настройки генерации планет (биомы, ландшафт, климат и т. д.) в эту предустановку мира. Семена исключены.</r></e>
+  <e k="K" key="WB_SavePreset"><s>Save Preset</s><r>Сохранить предустановку</r></e>
+  <e k="K" key="WB_Scale"><s>Scale</s><r>Шкала</r></e>
+  <e k="K" key="WB_ScaleRequiresMLP"><s>N/A (Requires MLP)</s><r>Н/Д (требуется MLP)</r></e>
+  <e k="K" key="WB_ScenPartNotFound"><s>Scen part not found: {0}</s><r>Часть сцены не найдена: {0}</r></e>
+  <e k="K" key="WB_ScenPart_SpawnLandmarkOnGlobePercentage_Summary"><s>Spawn {0} on {1} of world tiles.</s><r>Создайте {0} на {1} плитках мира.</r></e>
+  <e k="K" key="WB_ScenPart_SpawnLandmarkOnStartingTile_Summary"><s>Spawn {0} on starting tile.</s><r>Создайте {0} на стартовой плитке.</r></e>
+  <e k="K" key="WB_ScenPart_StartInWorld_NoPresetSelected"><s>No world preset selected.</s><r>Мировая предустановка не выбрана.</r></e>
+  <e k="K" key="WB_ScenPart_StartInWorld_Summary"><s>Start in world: {0}</s><r>Начало в мире: {0}</r></e>
+  <e k="K" key="WB_ScoreOffset"><s>Offset: </s><r>Компенсировать: </r></e>
+  <e k="K" key="WB_SeaLevel"><s>Sea level</s><r>Уровень моря</r></e>
+  <e k="K" key="WB_Search"><s>Search...</s><r>Поиск...</r></e>
+  <e k="K" key="WB_Seed"><s>Seed</s><r>Семя</r></e>
+  <e k="K" key="WB_Select"><s>Select</s><r>Выбирать</r></e>
+  <e k="K" key="WB_SelectALandmark"><s>Select a landmark</s><r>Выберите ориентир</r></e>
+  <e k="K" key="WB_SelectAPreset"><s>Select a preset</s><r>Выберите предустановку</r></e>
+  <e k="K" key="WB_SelectFaction"><s>Select faction</s><r>Выберите фракцию</r></e>
+  <e k="K" key="WB_SelectFile"><s>Select file</s><r>Выберите файл</r></e>
+  <e k="K" key="WB_SelectPresetConfigurePlanetButton"><s>Configure planet</s><r>Настроить планету</r></e>
+  <e k="K" key="WB_SelectPresetCreateNewButton"><s>Create new world</s><r>Создать новый мир</r></e>
+  <e k="K" key="WB_SelectPresetSelectPrompt"><s>Select a world</s><r>Выберите мир</r></e>
+  <e k="K" key="WB_SelectPresetTitle"><s>Choose world</s><r>Выберите мир</r></e>
+  <e k="K" key="WB_SelectWorldToEditNoneFound"><s>No user-created worlds found.</s><r>Созданных пользователем миров не найдено.</r></e>
+  <e k="K" key="WB_SetFactionIcon"><s>Set faction's icons</s><r>Установить значки фракций</r></e>
+  <e k="K" key="WB_SetTerritoryColor"><s>Set territory color</s><r>Установить цвет территории</r></e>
+  <e k="K" key="WB_SettingsConfirmDeletePresetMessage"><s>Are you sure you want to permanently delete the world '{0}' and all associated data (images, etc.)? This cannot be undone.</s><r>Вы уверены, что хотите навсегда удалить мир «{0}» и все связанные с ним данные (изображения и т. д.)? Это невозможно отменить.</r></e>
+  <e k="K" key="WB_SettingsDeletePreset"><s>Delete world...</s><r>Удалить мир...</r></e>
+  <e k="K" key="WB_SettingsEnablePlanetGenOverhaul"><s>Enable planet generation menu overhaul</s><r>Включить переработку меню генерации планет</r></e>
+  <e k="K" key="WB_SettingsEnablePlanetGenOverhaulDesc"><s>If disabled, the game will use the vanilla planet generation screen.</s><r>Если отключено, игра будет использовать экран генерации ванильных планет.</r></e>
+  <e k="K" key="WB_SettingsGizmoVisibilitySection"><s>Customize button visibility:</s><r>Настройте видимость кнопок:</r></e>
+  <e k="K" key="WB_SettingsHideGizmoDraftedPawns"><s>Hide customize button on drafted pawns</s><r>Скрыть кнопку настройки на выбранных пешках</r></e>
+  <e k="K" key="WB_SettingsHideGizmoDraftedPawnsDesc"><s>Hides the customize gizmo while a pawn is drafted, so it does not crowd the combat controls</s><r>Скрывает штуковину настройки, пока выбрана пешка, поэтому она не загромождает элементы управления боем.</r></e>
+  <e k="K" key="WB_SettingsNoPresetsToDelete"><s>No user-created worlds available to delete.</s><r>Нет созданных пользователем миров, доступных для удаления.</r></e>
+  <e k="K" key="WB_SettingsPawnPortraitSize"><s>Pawn portrait size</s><r>Размер портрета пешки</r></e>
+  <e k="K" key="WB_SettingsPresetDeleteFailed"><s>Failed to delete world '{0}'.</s><r>Не удалось удалить мир «{0}».</r></e>
+  <e k="K" key="WB_SettingsPresetDeletedSuccess"><s>World '{0}' deleted successfully.</s><r>Мир «{0}» успешно удален.</r></e>
+  <e k="K" key="WB_SettingsResaveWorld"><s>Resave world</s><r>Пересохранить мир</r></e>
+  <e k="K" key="WB_SettingsResaveWorldDesc"><s>Resave the current world preset data.</s><r>Сохраните текущие данные настроек мира.</r></e>
+  <e k="K" key="WB_SettingsResetNeedsSave"><s>You need to be inside a save for this to function.</s><r>Чтобы это работало, вам нужно находиться внутри сохранения.</r></e>
+  <e k="K" key="WB_SettingsResetPlayerDefaults"><s>Reset save defaults</s><r>Сбросить настройки сохранения по умолчанию</r></e>
+  <e k="K" key="WB_SettingsResetPlayerDefaultsConfirm"><s>Are you sure you want to reset all player default customizations? This cannot be undone.</s><r>Вы уверены, что хотите сбросить все настройки игрока по умолчанию? Это невозможно отменить.</r></e>
+  <e k="K" key="WB_SettingsResetPlayerDefaultsDone"><s>Player default customizations reset.</s><r>Настройки игрока по умолчанию сброшены.</r></e>
+  <e k="K" key="WB_SettingsShowContentSourceOnScrollWindow"><s>Show content source on scroll window</s><r>Показывать источник контента в окне прокрутки</r></e>
+  <e k="K" key="WB_SettingsShowGizmoFactionBases"><s>Show customize button on faction bases</s><r>Показывать кнопку настройки на базах фракций</r></e>
+  <e k="K" key="WB_SettingsShowGizmoFactionBasesDesc"><s>Checkbox for if customize gizmo should be shown on faction bases</s><r>Флажок, указывающий, должна ли настройка гизмо отображаться на основе фракций.</r></e>
+  <e k="K" key="WB_SettingsShowGizmoMapMarkers"><s>Show customize button on map markers</s><r>Показывать кнопку настройки на маркерах карты</r></e>
+  <e k="K" key="WB_SettingsShowGizmoMapMarkersDesc"><s>Checkbox for if customize gizmo should be shown on map markers</s><r>Флажок, указывающий, должна ли настройка гизмо отображаться на маркерах карты.</r></e>
+  <e k="K" key="WB_SettingsShowGizmoPawns"><s>Show customize button on pawns</s><r>Показывать кнопку настройки на пешках</r></e>
+  <e k="K" key="WB_SettingsShowGizmoPawnsDesc"><s>Checkbox for if customize gizmo should be shown on pawns</s><r>Флажок, указывающий, должна ли на пешках отображаться настройка гизмо</r></e>
+  <e k="K" key="WB_SettingsShowGizmoPlayerColony"><s>Show customize button on player colony</s><r>Показывать кнопку настройки в колонии игроков</r></e>
+  <e k="K" key="WB_SettingsShowGizmoPlayerColonyDesc"><s>Checkbox for if customize gizmo should be shown on player colonies</s><r>Флажок, указывающий, должна ли настройка гизмо отображаться в колониях игроков.</r></e>
+  <e k="K" key="WB_SettingsShowGizmoThings"><s>Show customize button on things</s><r>Показывать кнопку настройки на вещах</r></e>
+  <e k="K" key="WB_SettingsShowGizmoThingsDesc"><s>Checkbox for if customize gizmo should be shown on things</s><r>Флажок, указывающий, должна ли на вещах отображаться настройка гизмо</r></e>
+  <e k="K" key="WB_SettingsUseVefVariationNames"><s>Use Vanilla Expanded variation names</s><r>Используйте расширенные имена вариантов Vanilla.</r></e>
+  <e k="K" key="WB_SettingsUseVefVariationNamesDesc"><s>When customizing a building that Vanilla Expanded Framework gives named textures, label the variations with those names instead of Variation 1, 2, 3. Some mods leave these names unhelpful or disorganized, so this is off by default.</s><r>При настройке здания, которому Vanilla Expanded Framework дает именованные текстуры, помечайте варианты этими именами вместо вариантов 1, 2, 3. Некоторые моды оставляют эти имена бесполезными или неорганизованными, поэтому по умолчанию они отключены.</r></e>
+  <e k="K" key="WB_SettlementDeleted"><s>{0} deleted.</s><r>{0} удалено.</r></e>
+  <e k="K" key="WB_SettlementJumpTip"><s>Click to view this settlement on the world map.</s><r>Нажмите, чтобы просмотреть это поселение на карте мира.</r></e>
+  <e k="K" key="WB_SettlementRelocated"><s>{0} has been relocated.</s><r>{0} было перемещено.</r></e>
+  <e k="K" key="WB_ShowHiddenFactions"><s>Show hidden factions</s><r>Показать скрытые фракции</r></e>
+  <e k="K" key="WB_SizeLabel"><s>Size</s><r>Размер</r></e>
+  <e k="K" key="WB_Small"><s>Small</s><r>Маленький</r></e>
+  <e k="K" key="WB_Story"><s>Entry</s><r>Вход</r></e>
+  <e k="K" key="WB_StoryChooseIcon"><s>Choose icon</s><r>Выберите значок</r></e>
+  <e k="K" key="WB_StoryCover"><s>Cover</s><r>Крышка</r></e>
+  <e k="K" key="WB_StoryEdit"><s>Edit entry</s><r>Изменить запись</r></e>
+  <e k="K" key="WB_StoryEditorDeleteConfirm"><s>Are you sure you want to delete this story? This cannot be undone.</s><r>Вы уверены, что хотите удалить эту историю? Это невозможно отменить.</r></e>
+  <e k="K" key="WB_StoryEditorSave"><s>Save entry</s><r>Сохранить запись</r></e>
+  <e k="K" key="WB_StoryEditorTitle"><s>Entry editor</s><r>Редактор записи</r></e>
+  <e k="K" key="WB_StoryLibraryCount"><s>{0} entries</s><r>{0} записей</r></e>
+  <e k="K" key="WB_StoryLibraryCreate"><s>Create entry</s><r>Создать запись</r></e>
+  <e k="K" key="WB_StoryLibraryEmpty"><s>The shelf is empty.</s><r>Полка пуста.</r></e>
+  <e k="K" key="WB_StoryLibraryTitle"><s>Storykeeper</s><r>Рассказчик</r></e>
+  <e k="K" key="WB_StoryNoIcon"><s>No icon</s><r>Нет значка</r></e>
+  <e k="K" key="WB_StoryNoIconsFound"><s>No icons match your search.</s><r>Нет значков, соответствующих вашему запросу.</r></e>
+  <e k="K" key="WB_StoryRead"><s>Read entry</s><r>Прочитать запись</r></e>
+  <e k="K" key="WB_StoryReorderHint"><s>Drag to reorder.</s><r>Перетащите, чтобы изменить порядок.</r></e>
+  <e k="K" key="WB_TechLevel"><s>Tech level</s><r>Технический уровень</r></e>
+  <e k="K" key="WB_TechLimit"><s>Tech limit</s><r>Технический лимит</r></e>
+  <e k="K" key="WB_TerrainTab"><s>Terrain</s><r>Местность</r></e>
+  <e k="K" key="WB_TerritoryColorLabel"><s>Territory color</s><r>Цвет территории</r></e>
+  <e k="K" key="WB_ThingCustomizeFactionDefaultReset"><s>Player faction default for {0} reset.</s><r>Фракция игрока по умолчанию для {0} сброшена.</r></e>
+  <e k="K" key="WB_ThingCustomizeNoFactionDefault"><s>No player faction default set for {0}.</s><r>Ни одна фракция игрока по умолчанию не установлена ​​для {0}.</r></e>
+  <e k="K" key="WB_ThingCustomizeNoVariations"><s>No variations available.</s><r>Нет доступных вариаций.</r></e>
+  <e k="K" key="WB_ThingCustomizeSaveFactionDefaultConfirm"><s>Are you sure you want to save as player faction default? This will apply these customizations to all future player-owned {0} and all existing player-owned {0}.</s><r>Вы уверены, что хотите сохранить фракцию игрока по умолчанию? Эти настройки будут применены ко всем будущим {0} и всем существующим {0}, принадлежащим игроку.</r></e>
+  <e k="K" key="WB_ThingCustomizeSaveMapAllConfirm"><s>Are you sure you want to save this customization to all instances of {0} on the current map?</s><r>Вы уверены, что хотите сохранить эту настройку для всех экземпляров {0} на текущей карте?</r></e>
+  <e k="K" key="WB_ThingCustomizeSaveSuccess"><s>Customization saved for selected {0}(s).</s><r>Настройка сохранена для выбранных {0}(ов).</r></e>
+  <e k="K" key="WB_ThingCustomizeVariationLabel"><s>Variation </s><r>Вариация </r></e>
+  <e k="K" key="WB_ThingNotFound"><s>Thing not found: {0}</s><r>Вещь не найдена: {0}</r></e>
+  <e k="K" key="WB_TileBrushAddFavorite"><s>Add to favorites.</s><r>Добавить в избранное.</r></e>
+  <e k="K" key="WB_TileBrushBrushDeactivated"><s>Tile brush deactivated.</s><r>Щетка для плитки отключена.</r></e>
+  <e k="K" key="WB_TileBrushBrushRadius"><s>Brush radius: {0}</s><r>Радиус кисти: {0}</r></e>
+  <e k="K" key="WB_TileBrushBrushShapeCircle"><s>Circle</s><r>Круг</r></e>
+  <e k="K" key="WB_TileBrushBrushShapeDropdown"><s>Brush shape: {0}</s><r>Форма кисти: {0}</r></e>
+  <e k="K" key="WB_TileBrushBrushShapeRectangle"><s>Rectangle</s><r>Прямоугольник</r></e>
+  <e k="K" key="WB_TileBrushBrushShapeRugged"><s>Rugged</s><r>Прочный</r></e>
+  <e k="K" key="WB_TileBrushClearSelection"><s>Clear</s><r>Прозрачный</r></e>
+  <e k="K" key="WB_TileBrushDensity"><s>Density: {0}</s><r>Плотность: {0}</r></e>
+  <e k="K" key="WB_TileBrushDepth"><s>Depth: {0}</s><r>Глубина: {0}</r></e>
+  <e k="K" key="WB_TileBrushDirectToolHint"><s>Use Paint or Eraser; this tool does not require a definition selection.</s><r>Используйте краску или ластик; этот инструмент не требует выбора определения.</r></e>
+  <e k="K" key="WB_TileBrushEraser"><s>Eraser</s><r>Ластик</r></e>
+  <e k="K" key="WB_TileBrushEyedropper"><s>Eyedropper</s><r>Пипетка</r></e>
+  <e k="K" key="WB_TileBrushFeatureDropdown"><s>Feature: {0}</s><r>Особенность: {0}</r></e>
+  <e k="K" key="WB_TileBrushFertility"><s>Fertility: {0}</s><r>Фертильность: {0}</r></e>
+  <e k="K" key="WB_TileBrushGrowth"><s>Growth: {0}</s><r>Рост: {0}</r></e>
+  <e k="K" key="WB_TileBrushNoSelection"><s>No valid selection</s><r>Нет действительного выбора</r></e>
+  <e k="K" key="WB_TileBrushNotApplicable"><s>not applicable</s><r>непригодный</r></e>
+  <e k="K" key="WB_TileBrushOpenLocalEditor"><s>Open the tile brush editor.</s><r>Откройте редактор мозаичных кистей.</r></e>
+  <e k="K" key="WB_TileBrushPaint"><s>Paint</s><r>Краска</r></e>
+  <e k="K" key="WB_TileBrushPartialUndo"><s>Some changes could not be restored because affected cells changed after the brush stroke or contained objects that cannot be recreated.</s><r>Некоторые изменения не удалось восстановить, поскольку затронутые ячейки изменились после мазка кисти или содержали объекты, которые невозможно воссоздать.</r></e>
+  <e k="K" key="WB_TileBrushRedo"><s>Redo</s><r>Повторить</r></e>
+  <e k="K" key="WB_TileBrushRemoveFavorite"><s>Remove from favorites.</s><r>Удалить из избранного.</r></e>
+  <e k="K" key="WB_TileBrushReplaceMode"><s>Replace mode</s><r>Режим замены</r></e>
+  <e k="K" key="WB_TileBrushSearch"><s>Search</s><r>Поиск</r></e>
+  <e k="K" key="WB_TileBrushSelectedDef"><s>Selected: {0}</s><r>Выбрано: {0}</r></e>
+  <e k="K" key="WB_TileBrushSelectedVegetation"><s>Selected vegetation: {0}</s><r>Выбранная растительность: {0}</r></e>
+  <e k="K" key="WB_TileBrushToolChunks"><s>Chunks</s><r>Куски</r></e>
+  <e k="K" key="WB_TileBrushToolMountains"><s>Mountains</s><r>Горы</r></e>
+  <e k="K" key="WB_TileBrushToolOres"><s>Ores</s><r>Руды</r></e>
+  <e k="K" key="WB_TileBrushToolPlants"><s>Plants</s><r>Растения</r></e>
+  <e k="K" key="WB_TileBrushToolPollution"><s>Pollution</s><r>Загрязнение</r></e>
+  <e k="K" key="WB_TileBrushToolSnow"><s>Snow</s><r>Снег</r></e>
+  <e k="K" key="WB_TileBrushToolTerrain"><s>Terrain</s><r>Местность</r></e>
+  <e k="K" key="WB_TileBrushToolTrees"><s>Trees</s><r>Деревья</r></e>
+  <e k="K" key="WB_TileBrushToolVegetationMix"><s>Vegetation mix</s><r>Растительная смесь</r></e>
+  <e k="K" key="WB_TileBrushToolWater"><s>Water</s><r>Вода</r></e>
+  <e k="K" key="WB_TileBrushUndo"><s>Undo</s><r>Отменить</r></e>
+  <e k="K" key="WB_TileCoordinates"><s>x: {0}, y: {1}</s><r>х: {0}, у: {1}</r></e>
+  <e k="K" key="WB_TileOccupied"><s>This tile is already occupied by another settlement.</s><r>Этот тайл уже занят другим поселением.</r></e>
+  <e k="K" key="WB_TransitionWorldExplanation"><s>This will allow you to change your world into another world. This will only affect things that a player used the &quot;save to world&quot; button on like visual aesthetics, labels, etc. But obviously won't affect anything that you have setup in the world creation menu, like terrain, enabled factions, etc.</s><r>Это позволит вам изменить свой мир в другой мир. Это повлияет только на то, что игрок использовал кнопку «Сохранить в мир», например визуальную эстетику, метки и т. д. Но, очевидно, не повлияет ни на что, что вы настроили в меню создания мира, например, на ландшафт, включенные фракции и т. д.</r></e>
+  <e k="K" key="WB_TransitionWorldLabel"><s>Transition world</s><r>Переходный мир</r></e>
+  <e k="K" key="WB_Unrestricted"><s>Unrestricted</s><r>Неограниченный</r></e>
+  <e k="K" key="WB_UnsavedChangesWarning"><s>You have unsaved changes. Are you sure you want to close without saving?</s><r>У вас есть несохраненные изменения. Вы уверены, что хотите закрыть без сохранения?</r></e>
+  <e k="K" key="WB_World"><s>World</s><r>Мир</r></e>
+  <e k="K" key="WB_WorldModifiers"><s>World modifiers</s><r>Модификаторы мира</r></e>
+  <e k="K" key="WB_WorldSettingsDataTab"><s>Data</s><r>Данные</r></e>
+  <e k="K" key="WB_WorldSettingsFactionsRequiredMsg"><s>Factions have been enabled as they are required for this option.</s><r>Фракции включены, поскольку они необходимы для этой опции.</r></e>
+  <e k="K" key="WB_WorldSettingsIdeologyRequiredMsg"><s>Ideology has been enabled as it is required for this option.</s><r>Идеология включена, поскольку это необходимо для этой опции.</r></e>
+  <e k="K" key="WB_WorldSettingsIncludedData"><s>Included data in world save</s><r>Включенные данные в сохранение мира</r></e>
+  <e k="K" key="WB_WorldSettingsModifiersTab"><s>Modifiers</s><r>Модификаторы</r></e>
+  <e k="K" key="WB_WorldSettingsSaveBases"><s>Save faction bases</s><r>Сохранить базы фракций</r></e>
+  <e k="K" key="WB_WorldSettingsSaveBasesTooltip"><s>Save details of all faction settlements, including name, description, narrative, and placement.</s><r>Сохраните подробную информацию о поселениях всех фракций, включая название, описание, повествование и размещение.</r></e>
+  <e k="K" key="WB_WorldSettingsSaveFactionCustomizations"><s>Save faction customizations</s><r>Сохранение настроек фракции</r></e>
+  <e k="K" key="WB_WorldSettingsSaveFactionCustomizationsTooltip"><s>Save faction-specific customizations such as custom names, descriptions, colors, icons, and population/xenotype settings.</s><r>Сохраняйте настройки, специфичные для фракции, такие как собственные имена, описания, цвета, значки и настройки населения/ксенотипа.</r></e>
+  <e k="K" key="WB_WorldSettingsSaveFactions"><s>Save enabled factions</s><r>Сохранить включенные фракции</r></e>
+  <e k="K" key="WB_WorldSettingsSaveFactionsTooltip"><s>Save the list of factions currently enabled in the save game.</s><r>Сохраните список фракций, активированных в данный момент, в сохраненной игре.</r></e>
+  <e k="K" key="WB_WorldSettingsSaveIdeologies"><s>Save ideologies</s><r>Сохранить идеологии</r></e>
+  <e k="K" key="WB_WorldSettingsSaveIdeologiesTooltip"><s>Save all details of NPC ideologies present on the planet.</s><r>Сохраните все детали идеологий NPC, присутствующих на планете.</r></e>
+  <e k="K" key="WB_WorldSettingsSaveMapMarkers"><s>Save map markers</s><r>Сохранение маркеров карты</r></e>
+  <e k="K" key="WB_WorldSettingsSaveMapMarkersTooltip"><s>Save custom map markers placed by the player.</s><r>Сохраняйте пользовательские маркеры карты, размещенные игроком.</r></e>
+  <e k="K" key="WB_WorldSettingsSaveMapText"><s>Save map text</s><r>Сохранить текст карты</r></e>
+  <e k="K" key="WB_WorldSettingsSaveMapTextTooltip"><s>Save custom map text labels placed by the player.</s><r>Сохраняйте пользовательские текстовые метки карты, размещенные игроком.</r></e>
+  <e k="K" key="WB_WorldSettingsSaveStorykeeperEntries"><s>Save storykeeper entries</s><r>Сохраняйте записи рассказчика</r></e>
+  <e k="K" key="WB_WorldSettingsSaveStorykeeperEntriesTooltip"><s>Save narrative entries made in the storykeeper log.</s><r>Сохраняйте записи повествования, сделанные в журнале рассказчика.</r></e>
+  <e k="K" key="WB_WorldSettingsSaveTerrain"><s>Save terrain</s><r>Сохранить местность</r></e>
+  <e k="K" key="WB_WorldSettingsSaveTerrainTooltip"><s>Save all planet features, including rivers, roads, and the seed.</s><r>Сохраните все объекты планеты, включая реки, дороги и семена.</r></e>
+  <e k="K" key="WB_WorldSettingsSaveWorldTechLevel"><s>Save world tech level</s><r>Сохранить мировой технологический уровень</r></e>
+  <e k="K" key="WB_WorldSettingsSaveWorldTechLevelTooltip"><s>If enabled, the world's tech level will be saved with this world.</s><r>Если эта опция включена, мировой технологический уровень будет сохранен вместе с этим миром.</r></e>
+  <e k="K" key="WB_WorldSettingsTitle"><s>World saving settings</s><r>Настройки сохранения мира</r></e>
+  <e k="K" key="WB_WorldType"><s>Planet type: {0}</s><r>Тип планеты: {0}</r></e>
+  <e k="K" key="WB_WorldbuilderNoPresetToResave"><s>Worldbuilder: No world preset loaded to resave to.</s><r>Worldbuilder: не загружены предустановки мира для повторного сохранения.</r></e>
+  <e k="K" key="WB_WorldbuilderResaveFailed"><s>Worldbuilder: Failed to resave world data to preset '{0}'. Check logs.</s><r>Worldbuilder: не удалось повторно сохранить данные мира в предустановленное значение «{0}». Проверьте журналы.</r></e>
+  <e k="K" key="WB_WorldbuilderResaveSuccess"><s>Worldbuilder: Successfully resaved world data to preset '{0}'.</s><r>Worldbuilder: данные мира успешно сохранены с предустановкой «{0}».</r></e>
+  <e k="K" key="WB_XPositionLabel"><s>X-Position</s><r>X-позиция</r></e>
+  <e k="K" key="WB_XenotypeTotalError"><s>Total xenotype commonality must sum to 100%.</s><r>Суммарная общность ксенотипов должна составлять 100%.</r></e>
+  <e k="K" key="WB_YPositionLabel"><s>Y-Position</s><r>Y-положение</r></e>
+</AutoTranslateCache>
