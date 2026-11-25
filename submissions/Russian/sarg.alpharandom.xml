@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="sarg.alpharandom" name="Alpha Random" language="Russian" version="1">
+  <e k="D" t="HediffDef" key="ARandom_ArchotechBoon.description"><s>This person has been blessed by an unknowable archotech entity.</s><r>Этот человек был благословлен непознаваемой архотехнической сущностью.</r></e>
+  <e k="D" t="HediffDef" key="ARandom_ArchotechBoon.label"><s>archotech boon</s><r>архотехнологическое благо</r></e>
+  <e k="D" t="StatDef" key="ARandom_ArchotechBoonChance.description"><s>The chance that this manipulator will trigger an archotech boon instead of a random event.</s><r>Вероятность того, что этот манипулятор активирует архотехнологический дар вместо случайного события.</r></e>
+  <e k="D" t="StatDef" key="ARandom_ArchotechBoonChance.label"><s>archotech boon chance</s><r>шанс на благо архотеха</r></e>
+  <e k="D" t="ThingCategoryDef" key="ARandom_FateDevices.label"><s>fate manipulation devices</s><r>устройства манипулирования судьбой</r></e>
+  <e k="D" t="ThingCategoryDef" key="ARandom_LootBoxes.label"><s>loot boxes</s><r>лутбоксы</r></e>
+  <e k="D" t="ThingDef" key="ARandom_ApparelLootBox.description"><s>A crate packed with clothing, armor pieces, and wearable gear.</s><r>Ящик, набитый одеждой, частями брони и носимым снаряжением.</r></e>
+  <e k="D" t="ThingDef" key="ARandom_ApparelLootBox.label"><s>apparel box</s><r>коробка для одежды</r></e>
+  <e k="D" t="ThingDef" key="ARandom_BooksBox.description"><s>A crate of books, manuals, and assorted written materials.</s><r>Ящик с книгами, руководствами и разнообразными письменными материалами.</r></e>
+  <e k="D" t="ThingDef" key="ARandom_BooksBox.label"><s>books box</s><r>коробка с книгами</r></e>
+  <e k="D" t="ThingDef" key="ARandom_DrinksBox.description"><s>A heavy box loaded with beer, spirits, and other beverages.</s><r>Тяжелая коробка с пивом, спиртными напитками и другими напитками.</r></e>
+  <e k="D" t="ThingDef" key="ARandom_DrinksBox.label"><s>drinks box</s><r>коробка для напитков</r></e>
+  <e k="D" t="ThingDef" key="ARandom_DrugsLootBox.description"><s>A secure container holding a mix of recreational and combat drugs.</s><r>Безопасный контейнер, содержащий смесь рекреационных и боевых наркотиков.</r></e>
+  <e k="D" t="ThingDef" key="ARandom_DrugsLootBox.label"><s>drugs box</s><r>коробка с наркотиками</r></e>
+  <e k="D" t="ThingDef" key="ARandom_FateManipulator.description"><s>A dormant archotech relic humming with unreadable potential. After lying inert for 1–10 days, it spontaneously reconfigures itself into one of three fully-formed fate manipulators, as if choosing its own destiny.</s><r>Спящая архотехническая реликвия, гудящая с нечитаемым потенциалом. Пролежав в инертном состоянии 1–10 дней, он спонтанно трансформируется в одного из трех полностью сформировавшихся манипуляторов судьбы, как бы выбирая свою судьбу.</r></e>
+  <e k="D" t="ThingDef" key="ARandom_FateManipulator.label"><s>inert archotech fate manipulator</s><r>инертный архотех манипулятор судьбы</r></e>
+  <e k="D" t="ThingDef" key="ARandom_FateManipulator_Benign.comps.0.useLabel"><s>Activate {0_label}</s><r>Активировать {0_label}</r></e>
+  <e k="D" t="ThingDef" key="ARandom_FateManipulator_Benign.description"><s>An archotech device tuned toward harmony. When activated, it subtly bends probability to trigger generally positive events: boons, inspirations, lucky breaks, or gentle twists of fate that favour the colony. Of course there is always a chance for something negative to pop up!</s><r>Архотехническое устройство, настроенное на гармонию. При активации он тонко изменяет вероятность, вызывая в целом положительные события: дары, вдохновение, счастливые случайности или мягкие повороты судьбы, которые благоприятствуют колонии. Конечно, всегда есть шанс, что всплывет что-то негативное!</r></e>
+  <e k="D" t="ThingDef" key="ARandom_FateManipulator_Benign.label"><s>benign archotech fate manipulator</s><r>доброкачественный архотех манипулятор судьбы</r></e>
+  <e k="D" t="ThingDef" key="ARandom_FateManipulator_Chaotic.comps.0.useLabel"><s>Activate {0_label}</s><r>Активировать {0_label}</r></e>
+  <e k="D" t="ThingDef" key="ARandom_FateManipulator_Chaotic.description"><s>A volatile anomaly of shifting patterns. When activated, it forces three completely random events, good, bad, or absurd, unleashing raw, unpredictable fate in rapid succession. &quot;But Sarg, you broke my game!&quot; Nu-uh, it was the archotechs!</s><r>Неустойчивая аномалия меняющихся моделей. При активации он вызывает три совершенно случайных события: хороших, плохих или абсурдных, быстро сменяющих друг друга. «Но Сарг, ты сломал мою игру!» Ну-у-у, это были архотехи!</r></e>
+  <e k="D" t="ThingDef" key="ARandom_FateManipulator_Chaotic.label"><s>chaotic archotech fate manipulator</s><r>хаотический архотех манипулятор судьбы</r></e>
+  <e k="D" t="ThingDef" key="ARandom_FateManipulator_Dark.comps.0.useLabel"><s>Activate {0_label}</s><r>Активировать {0_label}</r></e>
+  <e k="D" t="ThingDef" key="ARandom_FateManipulator_Dark.description"><s>A brooding construct that channels misfortune. Its activation guarantees negative events, accidents, threats and ominous omens, twisting probability toward suffering with cold archotech precision.
+
+&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; WHY would anyone use this? Well, there is a 15% chance an archotech boon will happen, instead of a random negative event. These boons have positive effects that can't be acquired otherwise.</s><r>Задумчивая конструкция, направляющая несчастье. Его активация гарантирует негативные события, несчастные случаи, угрозы и зловещие предзнаменования, превращая вероятность в страдания с холодной архотехнической точностью.
+
+&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; ЗАЧЕМ кому-то это использовать? Что ж, существует 15%-ная вероятность того, что произойдет благо от архотеха, а не случайное негативное событие. Эти дары имеют положительные эффекты, которые нельзя получить иначе.</r></e>
+  <e k="D" t="ThingDef" key="ARandom_FateManipulator_Dark.label"><s>dark archotech fate manipulator</s><r>манипулятор судьбы Dark Archotech</r></e>
+  <e k="D" t="ThingDef" key="ARandom_HemogenCrate.description"><s>A medical crate containing hemogen packs.</s><r>Медицинский ящик с упаковками гемогена.</r></e>
+  <e k="D" t="ThingDef" key="ARandom_HemogenCrate.label"><s>hemogen crate</s><r>ящик с гемогеном</r></e>
+  <e k="D" t="ThingDef" key="ARandom_LootBox.description"><s>A basic crate containing a random mix of low-value but useful items.</s><r>Обычный ящик, содержащий случайную смесь малоценных, но полезных предметов.</r></e>
+  <e k="D" t="ThingDef" key="ARandom_LootBox.label"><s>loot box</s><r>ящик с добычей</r></e>
+  <e k="D" t="ThingDef" key="ARandom_LootBox_High.description"><s>A premium crate packed with valuable goods and rare materials.</s><r>Премиальный ящик, наполненный ценными товарами и редкими материалами.</r></e>
+  <e k="D" t="ThingDef" key="ARandom_LootBox_High.label"><s>high-value loot box</s><r>ценный ящик с добычей</r></e>
+  <e k="D" t="ThingDef" key="ARandom_LootBox_SuperHigh.description"><s>An elite crate holding exceptionally valuable or powerful items.</s><r>Элитный ящик, содержащий исключительно ценные или мощные предметы.</r></e>
+  <e k="D" t="ThingDef" key="ARandom_LootBox_SuperHigh.label"><s>very high-value loot box</s><r>очень ценный ящик с добычей</r></e>
+  <e k="D" t="ThingDef" key="ARandom_MaterialsLootBox.description"><s>A box filled with an assorted mix of useful construction and crafting materials.</s><r>Коробка, наполненная разнообразными полезными строительными и ремесленными материалами.</r></e>
+  <e k="D" t="ThingDef" key="ARandom_MaterialsLootBox.label"><s>materials box</s><r>коробка с материалами</r></e>
+  <e k="D" t="ThingDef" key="ARandom_MealsBox.description"><s>A stocked food box containing prepared meals ready to eat.</s><r>Коробка с готовыми блюдами, готовыми к употреблению.</r></e>
+  <e k="D" t="ThingDef" key="ARandom_MealsBox.label"><s>meals box</s><r>коробка для еды</r></e>
+  <e k="D" t="ThingDef" key="ARandom_MedicineLootBox.description"><s>A sealed medical crate filled with useful drugs, bandages, and treatments.</s><r>Запечатанный медицинский ящик, наполненный полезными лекарствами, бинтами и лекарствами.</r></e>
+  <e k="D" t="ThingDef" key="ARandom_MedicineLootBox.label"><s>medicine box</s><r>аптечка</r></e>
+  <e k="D" t="ThingDef" key="ARandom_ProduceBox.description"><s>A supply crate filled with raw vegetable ingredients and fresh harvest goods.</s><r>Ящик с припасами, наполненный сырыми овощными ингредиентами и свежими продуктами.</r></e>
+  <e k="D" t="ThingDef" key="ARandom_ProduceBox.label"><s>produce box</s><r>производить коробку</r></e>
+  <e k="D" t="ThingDef" key="ARandom_ShellsLootBox.description"><s>A reinforced box containing mortar shells and other explosive ammo.</s><r>Усиленный ящик, содержащий минометные снаряды и другие взрывоопасные боеприпасы.</r></e>
+  <e k="D" t="ThingDef" key="ARandom_ShellsLootBox.label"><s>shells box</s><r>ящик для снарядов</r></e>
+  <e k="D" t="ThingDef" key="ARandom_TextilesLootBox.description"><s>A box stuffed with fabrics, leathers, and specialty textiles for crafting.</s><r>Коробка, наполненная тканями, кожей и специальным текстилем для рукоделия.</r></e>
+  <e k="D" t="ThingDef" key="ARandom_TextilesLootBox.label"><s>textiles box</s><r>текстильная коробка</r></e>
+  <e k="D" t="ThingDef" key="ARandom_TribalLootBox.description"><s>A simple crate of tribal tools, supplies, and traditional equipment.</s><r>Простой ящик с племенными инструментами, припасами и традиционным снаряжением.</r></e>
+  <e k="D" t="ThingDef" key="ARandom_TribalLootBox.label"><s>tribal box</s><r>племенная коробка</r></e>
+  <e k="D" t="ThingDef" key="ARandom_ValuablesLootBox.description"><s>A high-security container filled with rare, high-value goods.</s><r>Контейнер повышенной безопасности, наполненный редкими и дорогостоящими товарами.</r></e>
+  <e k="D" t="ThingDef" key="ARandom_ValuablesLootBox.label"><s>valuables box</s><r>ящик для ценностей</r></e>
+  <e k="D" t="ThingDef" key="ARandom_WeaponsBox.description"><s>A reinforced crate holding weapons from various tech levels.</s><r>Усиленный ящик с оружием различных технологических уровней.</r></e>
+  <e k="D" t="ThingDef" key="ARandom_WeaponsBox.label"><s>weapons box</s><r>ящик с оружием</r></e>
+  <e k="K" key="ARandom_AddLootboxesToRaiders"><s>Add random lootboxes to raiders</s><r>Добавить случайные лутбоксы рейдерам</r></e>
+  <e k="K" key="ARandom_AddLootboxesToRaidersDesc"><s>With this on, all raiders coming into your base have a chance to carry a random loot box.</s><r>Если это включено, все рейдеры, приходящие на вашу базу, смогут нести случайный ящик с добычей.</r></e>
+  <e k="K" key="ARandom_BoonChickens"><s>The archotechs... ▌egg 0101▌▌feather-collapse ▌▌[TIME] inexhaustible ███nesting [REDACTED] GRAVITY ▌▌do not.</s><r>Архотехи... ▌яйцо 0101▌▌схлопывание пера ▌▌[TIME] неисчерпаемое ████гнездо [REDACTED] ГРАВИТАЦИЯ ▌▌нет.</r></e>
+  <e k="K" key="ARandom_BoonCleaningRepairing"><s>The archotechs have cleaned filth and repaired buildings in the colony's home area!</s><r>Архотехи очистили от грязи и отремонтировали здания на территории колонии!</r></e>
+  <e k="K" key="ARandom_BoonGene"><s>The archotechs have mutated {0} with {1}!</s><r>Архотехи мутировали {0} на {1}!</r></e>
+  <e k="K" key="ARandom_BoonHediff"><s>The archotechs have blessed {0}!</s><r>Архотехи благословили {0}!</r></e>
+  <e k="K" key="ARandom_BoonInspiration"><s>The archotechs have inspired {0}!</s><r>Архотехи вдохновили {0}!</r></e>
+  <e k="K" key="ARandom_BoonMidasTouch"><s>The archotechs have turned {0}'s possessions into pure gold!</s><r>Архотехи превратили имущество {0} в чистое золото!</r></e>
+  <e k="K" key="ARandom_BoonQuality"><s>The archotechs have increased the quality of {0}'s equipment!</s><r>Архотехи повысили качество снаряжения {0}!</r></e>
+  <e k="K" key="ARandom_BoonSight"><s>The archotechs have given {0} preternatural sight! The whole map has been revealed.</s><r>Архотехи подарили {0} сверхъестественное зрение! Вся карта раскрыта.</r></e>
+  <e k="K" key="ARandom_BoonSkillsLearned"><s>The archotechs have blessed {0} with knowledge of {1}!</s><r>Архотехи благословили {0} знанием {1}!</r></e>
+  <e k="K" key="ARandom_BoonTraits"><s>The archotechs have completely reshuffled {0}'s personality!</s><r>Архотехи полностью изменили личность {0}!</r></e>
+  <e k="K" key="ARandom_IncidentCaused"><s>The {0} triggered the {1} event!</s><r>{0} вызвало событие {1}!</r></e>
+  <e k="K" key="ARandom_LootboxCommonality"><s>Raider lootbox chance</s><r>Шанс рейдерского лутбокса</r></e>
+  <e k="K" key="ARandom_LootboxCommonalityDesc"><s>By default, only 1% of raiders will arrive with a lootbox on their inventory, but you can tweak that.</s><r>По умолчанию только 1% рейдеров прибудет с лутбоксом в инвентаре, но вы можете это настроить.</r></e>
+  <e k="K" key="ARandom_NewManipulator"><s>An inert fate manipulator has transformed into a {0}!</s><r>Инертный манипулятор судьбой превратился в {0}!</r></e>
+  <e k="K" key="ARandom_Reset"><s>Reset</s><r>Перезагрузить</r></e>
+  <e k="K" key="ARandom_TotalMarketValueRange"><s>Market value range (base)</s><r>Диапазон рыночной стоимости (базовый)</r></e>
+  <e k="K" key="ARandom_TotalMarketValueRange_Desc"><s>Total market value range (minimum and maximum) of the objects that can be found by opening this loot box.</s><r>Общий диапазон рыночной стоимости (минимальная и максимальная) объектов, которые можно найти, открыв этот ящик с добычей.</r></e>
+  <e k="K" key="ARandom_TotalMarketValueRange_Quality"><s>Market value range (by quality)</s><r>Диапазон рыночной стоимости (по качеству)</r></e>
+  <e k="K" key="ARandom_TotalMarketValueRange_Quality_Desc"><s>Total market value range (minimum and maximum) of the objects that can be found by opening this loot box. Box quality has modified the base value by a factor of {0}</s><r>Общий диапазон рыночной стоимости (минимальная и максимальная) объектов, которые можно найти, открыв этот ящик с добычей. Качество коробки изменило базовое значение в {0} раз.</r></e>
+</AutoTranslateCache>
