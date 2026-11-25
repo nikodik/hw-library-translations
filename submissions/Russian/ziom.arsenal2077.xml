@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="ziom.arsenal2077" name="Arsenal - 2077" language="Russian" version="1">
+  <e k="D" t="AmmoSetDef" key="ARS_2077_AmmoSet_ErebusG.label"><s>Erebus</s><r>Эреб</r></e>
+  <e k="D" t="AmmoSetDef" key="ARS_2077_AmmoSet_HerMajestyG.label"><s>Her Majesty</s><r>Ее Величество</r></e>
+  <e k="D" t="AmmoSetDef" key="ARS_2077_AmmoSet_MancinellaG.label"><s>Mancinella</s><r>Левша</r></e>
+  <e k="D" t="AmmoSetDef" key="ARS_2077_AmmoSet_OspreyG.label"><s>Osprey 20x42mm</s><r>Скопа 20х42мм</r></e>
+  <e k="D" t="AmmoSetDef" key="ARS_2077_AmmoSet_Rail12G.label"><s>12mm railgun (2077)</s><r>12-мм рельсотрон (2077)</r></e>
+  <e k="D" t="AmmoSetDef" key="ARS_2077_AmmoSet_Rail6G.label"><s>6mm railgun (2077)</s><r>6-мм рельсотрон (2077)</r></e>
+  <e k="D" t="AmmoSetDef" key="ARS_2077_AmmoSet_Rail8G.label"><s>8mm railgun (2077)</s><r>8-мм рельсотрон (2077)</r></e>
+  <e k="D" t="AmmoSetDef" key="ARS_2077_AmmoSet_SlaughtG.label"><s>Slaught-O-Matic cartridge</s><r>Картридж Slaught-O-Matic</r></e>
+  <e k="D" t="AmmoSetDef" key="ARS_2077_AmmoSet_SmartAshuraG.label"><s>smart (Ashura)</s><r>умный (Ашура)</r></e>
+  <e k="D" t="AmmoSetDef" key="ARS_2077_AmmoSet_SmartBaXingG.label"><s>smart (Ba Xing Chong)</s><r>умный (Ба Син Чун)</r></e>
+  <e k="D" t="AmmoSetDef" key="ARS_2077_AmmoSet_SmartChaoG.label"><s>smart (Chao)</s><r>умный (Чао)</r></e>
+  <e k="D" t="AmmoSetDef" key="ARS_2077_AmmoSet_SmartDianG.label"><s>smart (Dian)</s><r>умный (Диан)</r></e>
+  <e k="D" t="AmmoSetDef" key="ARS_2077_AmmoSet_SmartHerculesG.label"><s>smart (Hercules)</s><r>умный (Геркулес)</r></e>
+  <e k="D" t="AmmoSetDef" key="ARS_2077_AmmoSet_SmartKappaG.label"><s>smart (Kappa)</s><r>умный (Каппа)</r></e>
+  <e k="D" t="AmmoSetDef" key="ARS_2077_AmmoSet_SmartPalicaG.label"><s>smart (Palica)</s><r>умный (палка)</r></e>
+  <e k="D" t="AmmoSetDef" key="ARS_2077_AmmoSet_SmartShingenG.label"><s>smart (Shingen)</s><r>умный (Сингэн)</r></e>
+  <e k="D" t="AmmoSetDef" key="ARS_2077_AmmoSet_SmartSidewinderG.label"><s>smart (Sidewinder)</s><r>умный (Сайдвиндер)</r></e>
+  <e k="D" t="AmmoSetDef" key="ARS_2077_AmmoSet_SmartSkippyG.label"><s>smart (Skippy)</s><r>умный (Скиппи)</r></e>
+  <e k="D" t="AmmoSetDef" key="ARS_2077_AmmoSet_SmartWardenG.label"><s>smart (Warden)</s><r>умный (Страж)</r></e>
+  <e k="D" t="AmmoSetDef" key="ARS_2077_AmmoSet_SmartYukimuraG.label"><s>smart (Yukimura)</s><r>умный (Юкимура)</r></e>
+  <e k="D" t="AmmoSetDef" key="ARS_2077_AmmoSet_SmartZhuoG.label"><s>smart (Zhuo)</s><r>умный (Чжо)</r></e>
+  <e k="D" t="DamageDef" key="ARS_2077_Dmg_MancinellaG.deathMessage"><s>{0} has been shot to death.</s><r>{0} был застрелен.</r></e>
+  <e k="D" t="DamageDef" key="ARS_2077_Dmg_MancinellaG.label"><s>toxic bullet</s><r>токсичная пуля</r></e>
+  <e k="D" t="DamageDef" key="ARS_2077_Dmg_Neurotoxin.deathMessage"><s>{0} has been poisoned to death.</s><r>{0} был отравлен насмерть.</r></e>
+  <e k="D" t="DamageDef" key="ARS_2077_Dmg_Neurotoxin.label"><s>neurotoxin</s><r>нейротоксин</r></e>
+  <e k="D" t="DamageDef" key="ARS_2077_Dmg_NeurotoxinThrown.deathMessage"><s>{0} has been poisoned to death.</s><r>{0} был отравлен насмерть.</r></e>
+  <e k="D" t="DamageDef" key="ARS_2077_Dmg_NeurotoxinThrown.label"><s>neurotoxin stab</s><r>укол нейротоксина</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Buff_Amstaff.description"><s>Stacking bonus from the Amstaff: kills and dismemberments stack move speed and damage.</s><r>Бонус суммирования от Амстаффа: убийства и расчленения суммируют скорость передвижения и урон.</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Buff_Amstaff.label"><s>Amstaff charge</s><r>Амстафф заряд</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Buff_BabyBoomer.description"><s>Stacking bonus from the Baby Boomer: consecutive blows stack damage.</s><r>Бонус суммирования от бэби-бумера: последовательные удары суммируют урон.</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Buff_BabyBoomer.label"><s>Baby Boomer charge</s><r>Бэби-бумер заряд</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Buff_Byakko.description"><s>Stacking bonus from the Byakko: kills stack melee accuracy and damage.</s><r>Бонус суммирования от Бьякко: убийства суммируют точность и урон в ближнем бою.</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Buff_Byakko.label"><s>Byakko charge</s><r>Бьякко заряд</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Buff_Catahoula.description"><s>Stacking bonus from the Catahoula: kills stack move speed and damage.</s><r>Бонус суммирования от Катахулы: уменьшает скорость передвижения и урон стека убийств.</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Buff_Catahoula.label"><s>Catahoula charge</s><r>Катаула заряд</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Buff_Chesapeake.description"><s>Stacking bonus from the Chesapeake: kills stack move speed and damage.</s><r>Бонус стека от Чесапика: уменьшает скорость передвижения и урон стека убийств.</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Buff_Chesapeake.label"><s>Chesapeake charge</s><r>Чесапикский заряд</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Buff_Chinook.description"><s>Stacking bonus from the Chinook: kills stack move speed and damage.</s><r>Бонус стека от «Чинука»: уменьшает скорость передвижения и урон стека убийств.</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Buff_Chinook.label"><s>Chinook charge</s><r>Чинук атакует</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Buff_Dezerter.description"><s>Stacking bonus from the Dezerter: a kill sets you ablaze for a while, but you move faster and take less damage.</s><r>Бонус суммирования от Дезертера: убийство поджигает вас на некоторое время, но вы двигаетесь быстрее и получаете меньше урона.</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Buff_Dezerter.label"><s>Dezerter charge</s><r>Дезертерная партия</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Buff_Foxhound.description"><s>Stacking bonus from the Foxhound: kills stack move speed and damage.</s><r>Бонус стака от Foxhound: уменьшает скорость передвижения и урон стека убийств.</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Buff_Foxhound.label"><s>Foxhound charge</s><r>Фоксхаунд заряд</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Buff_LaChingonaDorada.description"><s>Stacking bonus from the La Chingona Dorada: headshots stack damage.</s><r>Бонус суммирования от La Chingona Dorada: урон в голову суммируется.</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Buff_LaChingonaDorada.label"><s>La Chingona Dorada charge</s><r>Заряд Ла Чингона Дорада</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Buff_MoronLabe.description"><s>Stacking bonus from the Moron Labe: dismemberments stack accuracy and damage.</s><r>Бонус суммирования от Морон Лейб: расчленения суммируют точность и урон.</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Buff_MoronLabe.label"><s>Moron Labe charge</s><r>Обвинение Морона Лабе</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Buff_PitBull.description"><s>Stacking bonus from the Pit Bull: kills and dismemberments stack move speed and damage.</s><r>Бонус суммирования от Питбуля: убийства и расчленения суммируют скорость передвижения и урон.</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Buff_PitBull.label"><s>Pit Bull charge</s><r>Питбуль заряд</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Buff_Pizdets.description"><s>Stacking bonus from the Pizdets: sustained fire stacks damage.</s><r>Бонус суммирования от Пиздца: постоянный огонь накапливает урон.</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Buff_Rook.description"><s>Stacking bonus from the Rook: consecutive hits stack damage at the cost of accuracy.</s><r>Бонус суммирования от ладьи: последовательные попадания суммируют урон за счет точности.</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Buff_Rook.label"><s>Rook charge</s><r>Атака ладьи</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Buff_Seraph.description"><s>Stacking bonus from the Seraph: consecutive hits stack damage.</s><r>Бонус суммирования от Серафима: последовательные попадания суммируют урон.</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Buff_Seraph.label"><s>Seraph charge</s><r>Серафим атакует</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Buff_TheHeadsman.description"><s>Stacking bonus from the The Headsman: headshots stack accuracy.</s><r>Бонус суммирования от Палача: точность суммирования попаданий в голову.</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Buff_TheHeadsman.label"><s>The Headsman charge</s><r>Обвинение Палача</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Buff_WildDog.description"><s>Stacking bonus from the Wild Dog: consecutive hits stack damage.</s><r>Бонус суммирования от Дикой собаки: последовательные попадания суммируют урон.</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Buff_WildDog.label"><s>Wild Dog charge</s><r>Нападение дикой собаки</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Buff_Yasha.description"><s>Stacking bonus from the Yasha: a kill or headshot sharply cuts the aim time of the next shot and refunds a round.</s><r>Стакающийся бонус от Яши: убийство или выстрел в голову резко сокращает время прицеливания следующего выстрела и возвращает раунд.</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Buff_Yasha.label"><s>Yasha charge</s><r>Яша заряд</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Hediff_BladeStanceAuto.description"><s>Deflecting ranged fire with a raised blade.</s><r>Отражение дальнего огня поднятым клинком.</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Hediff_BladeStanceAuto.label"><s>blade stance</s><r>позиция лезвия</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Hediff_Blind.description"><s>Dazzled by a smart round: vision is badly reduced for a few seconds.</s><r>Ослеплен умным патроном: на несколько секунд сильно снижается зрение.</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Hediff_Blind.label"><s>blinded</s><r>ослепленный</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Hediff_Disabled.description"><s>A crippling cut has numbed the limbs: movement and manipulation are reduced for a few seconds.</s><r>Серьезный порез привел к онемению конечностей: движения и манипуляции ограничены на несколько секунд.</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Hediff_Disabled.label"><s>limb disabled</s><r>конечность отключена</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Hediff_Hobbled.description"><s>A limb-restricting round has locked up the legs: movement is badly reduced for a few seconds.</s><r>Ограничивающий конечности патрон заблокировал ноги: движение сильно ограничено на несколько секунд.</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Hediff_Hobbled.label"><s>hobbled</s><r>хромающий</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Hediff_Marked.description"><s>Scanned and tagged. Weak points are exposed: this creature takes more damage and is much worse at dodging.</s><r>Отсканировано и отмечено. Обнажаются слабые места: это существо получает больше урона и гораздо хуже уклоняется.</r></e>
+  <e k="D" t="HediffDef" key="ARS_2077_Hediff_Marked.label"><s>marked</s><r>отмеченный</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_AgaouThrownG.description"><s>Craft 10 Agaou throwing blades.</s><r>Создайте 10 метательных клинков Агау.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_AgaouThrownG.jobString"><s>Making Agaou throwing blades.</s><r>Создание Агау метания клинков.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_AgaouThrownG.label"><s>make Agaou x10</s><r>сделать Агау х10</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_BlueFangThrownG.description"><s>Craft 10 Blue Fang throwing blades.</s><r>Создайте 10 метательных клинков Синего Клыка.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_BlueFangThrownG.jobString"><s>Making Blue Fang throwing blades.</s><r>Изготовление метательных клинков Синего Клыка.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_BlueFangThrownG.label"><s>make Blue Fang x10</s><r>сделать Синий Клык x10</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_CharG.description"><s>Craft 10 CHAR Incendiary Grenades.</s><r>Создайте 10 зажигательных гранат CHAR.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_CharG.jobString"><s>Making CHAR Incendiary Grenades.</s><r>Изготовление зажигательных гранат CHAR.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_CharG.label"><s>make CHAR Incendiary Grenades x10</s><r>сделать зажигательные гранаты CHAR x10</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_ClawThrownG.description"><s>Craft 10 Claw throwing blades.</s><r>Изготовьте 10 метательных лезвий «когти».</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_ClawThrownG.jobString"><s>Making Claw throwing blades.</s><r>Изготовление метательных клинков «Коготь».</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_ClawThrownG.label"><s>make Claw x10</s><r>сделать коготь x10</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_EmpG.description"><s>Craft 10 EMP Grenades.</s><r>Создайте 10 ЭМИ-гранат.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_EmpG.jobString"><s>Making EMP Grenades.</s><r>Изготовление ЭМИ-гранат.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_EmpG.label"><s>make EMP Grenades x10</s><r>сделать ЭМИ-гранаты x10</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_FangThrownG.description"><s>Craft 10 Fang throwing blades.</s><r>Изготовьте 10 метательных лезвий «Клык».</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_FangThrownG.jobString"><s>Making Fang throwing blades.</s><r>Изготовление метательных клинков Клыка.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_FangThrownG.label"><s>make Fang x10</s><r>сделать Клык х10</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_FlashbangG.description"><s>Craft 10 X-22 Flashbang Grenades.</s><r>Создайте 10 светошумовых гранат X-22.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_FlashbangG.jobString"><s>Making X-22 Flashbang Grenades.</s><r>Изготовление светошумовой гранаты Х-22.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_FlashbangG.label"><s>make X-22 Flashbang Grenades x10</s><r>сделать светошумовую гранату X-22 (10 шт.)</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_FragG.description"><s>Craft 10 F-GX Frag Grenades.</s><r>Создайте 10 осколочных гранат F-GX.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_FragG.jobString"><s>Making F-GX Frag Grenades.</s><r>Изготовление осколочной гранаты F-GX.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_FragG.label"><s>make F-GX Frag Grenades x10</s><r>сделать осколочные гранаты F-GX x10</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_GashG.description"><s>Craft 10 GASH Antipersonnel Grenades.</s><r>Создайте 10 противопехотных гранат GASH.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_GashG.jobString"><s>Making GASH Antipersonnel Grenades.</s><r>Изготовление противопехотных гранат GASH.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_GashG.label"><s>make GASH Antipersonnel Grenades x10</s><r>сделать противопехотные гранаты GASH x10</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_HeadhunterThrownG.description"><s>Craft 10 Headhunter throwing blades.</s><r>Создайте 10 метательных клинков Охотника за головами.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_HeadhunterThrownG.jobString"><s>Making Headhunter throwing blades.</s><r>Делаем Охотника за головами, метающего клинки.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_HeadhunterThrownG.label"><s>make Headhunter x10</s><r>сделать Охотника за головами x10</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_KaikenThrownG.description"><s>Craft 10 Kaiken throwing blades.</s><r>Создайте 10 метательных клинков Кайкен.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_KaikenThrownG.jobString"><s>Making Kaiken throwing blades.</s><r>Изготовление метательных клинков Кайкен.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_KaikenThrownG.label"><s>make Kaiken x10</s><r>сделай всё в 10 раз</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_KnifeThrownG.description"><s>Craft 10 Knife throwing blades.</s><r>Изготовьте 10 лезвий для метания ножей.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_KnifeThrownG.jobString"><s>Making Knife throwing blades.</s><r>Изготовление метательных лезвий ножа.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_KnifeThrownG.label"><s>make Knife x10</s><r>сделать нож x10</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_MolodetsG.description"><s>Craft 10 MOLODETS BioHaz Grenades.</s><r>Создайте 10 гранат «МОЛОДЕЦ» BioHaz.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_MolodetsG.jobString"><s>Making MOLODETS BioHaz Grenades.</s><r>Making MOLODETS BioHaz Grenades.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_MolodetsG.label"><s>make MOLODETS BioHaz Grenades x10</s><r>make MOLODETS BioHaz Grenades x10</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_NehanThrownG.description"><s>Craft 10 Nehan throwing blades.</s><r>Создайте 10 метательных клинков Нехана.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_NehanThrownG.jobString"><s>Making Nehan throwing blades.</s><r>Заставляем Нехан метать клинки.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_NehanThrownG.label"><s>make Nehan x10</s><r>сделай Нехан х10</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_NeurotoxinKnifeThrownG.description"><s>Craft 10 Neurotoxin Knife throwing blades.</s><r>Изготовьте 10 лезвий для метательных ножей с нейротоксином.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_NeurotoxinKnifeThrownG.jobString"><s>Making Neurotoxin Knife throwing blades.</s><r>Изготовление метательных лезвий нейротоксинового ножа.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_NeurotoxinKnifeThrownG.label"><s>make Neurotoxin Knife x10</s><r>сделать нейротоксиновый нож x10</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_OzobsNoseG.description"><s>Craft 10 Ozob's Noses.</s><r>Создайте 10 носов Озоба.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_OzobsNoseG.jobString"><s>Making Ozob's Noses.</s><r>Делаем носы Озобу.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_OzobsNoseG.label"><s>make Ozob's Noses x10</s><r>сделать Носы Озоба x10</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_PunknifeThrownG.description"><s>Craft 10 Punknife throwing blades.</s><r>Создайте 10 метательных лезвий панк-ножа.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_PunknifeThrownG.jobString"><s>Making Punknife throwing blades.</s><r>Изготовление метательных лезвий Punknife.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_PunknifeThrownG.label"><s>make Punknife x10</s><r>сделать Панк-нож x10</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_ReconG.description"><s>Craft 10 Recon Grenades.</s><r>Создайте 10 разведывательных гранат.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_ReconG.jobString"><s>Making Recon Grenades.</s><r>Изготовление разведывательных гранат.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_ReconG.label"><s>make Recon Grenades x10</s><r>сделать разведывательные гранаты x10</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_SmokeG.description"><s>Craft 10 Smoke Grenades.</s><r>Создайте 10 дымовых гранат.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_SmokeG.jobString"><s>Making Smoke Grenades.</s><r>Изготовление дымовых гранат.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_SmokeG.label"><s>make Smoke Grenades x10</s><r>сделать дымовые гранаты x10</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_StingerThrownG.description"><s>Craft 10 Stinger throwing blades.</s><r>Создайте 10 метательных лезвий «Стингер».</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_StingerThrownG.jobString"><s>Making Stinger throwing blades.</s><r>Изготовление метательных клинков Stinger.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_StingerThrownG.label"><s>make Stinger x10</s><r>сделать Стингер х10</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_TomahawkThrownG.description"><s>Craft 10 Tomahawk throwing blades.</s><r>Создайте 10 метательных лезвий Томагавка.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_TomahawkThrownG.jobString"><s>Making Tomahawk throwing blades.</s><r>Изготовление метательных клинков Томагавк.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_2077_Make_TomahawkThrownG.label"><s>make Tomahawk x10</s><r>сделать Томагавк х10</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Ammo_SlaughtG.label"><s>Slaught-O-Matic cartridge</s><r>Картридж Slaught-O-Matic</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Gun_GashG.description"><s>The laser emitter of a GASH sentry.</s><r>Лазерный излучатель часового ГАШ.</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Gun_GashG.label"><s>GASH sentry laser</s><r>ГАСХ сторожевой лазер</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Gun_GashG.verbs.0.label"><s>GASH sentry laser</s><r>ГАСХ сторожевой лазер</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_ProjV_AgaouG.label"><s>Agaou (thrown)</s><r>Агау (брошенный)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_ProjV_BaXingGrenade.label"><s>Ba Xing Chong grenade</s><r>Граната Ба Син Чонг</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_ProjV_BlueFangG.label"><s>Blue Fang (thrown)</s><r>Синий Клык (брошенный)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_ProjV_ClawG.label"><s>Claw (thrown)</s><r>Коготь (брошенный)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_ProjV_Erebus.label"><s>Erebus round</s><r>Эреб круглый</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_ProjV_FangG.label"><s>Fang (thrown)</s><r>Клык (брошенный)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_ProjV_HeadhunterG.label"><s>Headhunter (thrown)</s><r>Охотник за головами (брошен)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_ProjV_HerMajesty.label"><s>Her Majesty round</s><r>Ее Величество раунд</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_ProjV_HerculesGrenade.label"><s>Hercules grenade</s><r>Граната Геркулеса</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_ProjV_Hypercritical.label"><s>Hypercritical round</s><r>Сверхкритический раунд</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_ProjV_KaikenG.label"><s>Kaiken (thrown)</s><r>Брошенный</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_ProjV_KnifeG.label"><s>Knife (thrown)</s><r>Нож (брошенный)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_ProjV_Mancinella.label"><s>Mancinella round</s><r>Манчинелла круглый</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_ProjV_NehanG.label"><s>Nehan (thrown)</s><r>Нехан (брошенный)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_ProjV_NeurotoxinKnifeG.label"><s>Neurotoxin Knife (thrown)</s><r>Нейротоксиновый нож (брошенный)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_ProjV_PunknifeG.label"><s>Punknife (thrown)</s><r>Панк-нож (брошенный)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_ProjV_Skippy_NL.label"><s>Skippy non-lethal round</s><r>Скиппи несмертельный патрон</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_ProjV_Smart_12Gauge.label"><s>smart 12 gauge shot</s><r>умный выстрел 12 калибра</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_ProjV_Smart_50BMG.label"><s>smart .50 BMG bullet</s><r>умная пуля .50 BMG</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_ProjV_Smart_Handgun.label"><s>smart handgun bullet</s><r>умная пуля из пистолета</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_ProjV_Smart_Rifle.label"><s>smart 5.56x45mm bullet</s><r>умная пуля 5,56х45мм</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_ProjV_StingerG.label"><s>Stinger (thrown)</s><r>Стингер (брошенный)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_ProjV_TomahawkG.label"><s>Tomahawk (thrown)</s><r>Томагавк (брошенный)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_AgaouThrownG.label"><s>Agaou (thrown)</s><r>Агау (брошенный)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_BlueFangThrownG.label"><s>Blue Fang (thrown)</s><r>Синий Клык (брошенный)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_CharG.label"><s>CHAR Incendiary Grenade</s><r>Зажигательная граната CHAR</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_ClawThrownG.label"><s>Claw (thrown)</s><r>Коготь (брошенный)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_EmpG.label"><s>EMP Grenade</s><r>ЭМИ-граната</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_Erebus_APG.label"><s>Erebus round (AP, 6 pellets)</s><r>Патрон Эреб (AP, 6 дробей)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_Erebus_FMJG.label"><s>Erebus round (FMJ, 6 pellets)</s><r>Патрон Эреб (FMJ, 6 дробей)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_Erebus_HPG.label"><s>Erebus round (HP, 6 pellets)</s><r>Патрон Эреб (HP, 6 дробинок)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_FangThrownG.label"><s>Fang (thrown)</s><r>Клык (брошенный)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_FlashbangG.label"><s>X-22 Flashbang Grenade</s><r>Световая граната X-22</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_FragG.label"><s>F-GX Frag Grenade</s><r>Осколочная граната F-GX</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_GashG.label"><s>GASH Antipersonnel Grenade</s><r>Противопехотная граната ГАШ</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_GashLaserCEG.label"><s>GASH laser</s><r>ГАСГ лазер</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_GashLaserG.label"><s>GASH laser</s><r>ГАСГ лазер</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_HeadhunterThrownG.label"><s>Headhunter (thrown)</s><r>Охотник за головами (брошен)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_HerMajesty_APG.label"><s>Her Majesty round (AP)</s><r>Ее Величество раунд (AP)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_HerMajesty_FMJG.label"><s>Her Majesty round (FMJ)</s><r>Раунд Ее Величества (FMJ)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_HerMajesty_HPG.label"><s>Her Majesty round (HP)</s><r>Ее Величество раунд (HP)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_HypercriticalLastG.label"><s>.338 Lapua last-round bullet</s><r>Пуля последнего патрона .338 Lapua</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_KaikenThrownG.label"><s>Kaiken (thrown)</s><r>Брошенный</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_KnifeThrownG.label"><s>Knife (thrown)</s><r>Нож (брошенный)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_Mancinella_APG.label"><s>Mancinella round (AP)</s><r>Манчинелла раунд (AP)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_Mancinella_FMJG.label"><s>Mancinella round (FMJ)</s><r>Манчинелла раунд (FMJ)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_Mancinella_HPG.label"><s>Mancinella round (HP)</s><r>Манчинелла раунд (HP)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_MolodetsG.label"><s>MOLODETS BioHaz Grenade</s><r>MOLODETS BioHaz Grenade</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_NehanThrownG.label"><s>Nehan (thrown)</s><r>Нехан (брошенный)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_NeurotoxinKnifeThrownG.label"><s>Neurotoxin Knife (thrown)</s><r>Нейротоксиновый нож (брошенный)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_OzobsNoseG.label"><s>Ozob's Nose</s><r>Нос Озоба</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_PunknifeThrownG.label"><s>Punknife (thrown)</s><r>Панк-нож (брошенный)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_Rail12G.label"><s>12mm railgun bullet (2077)</s><r>12-мм пуля рельсотрона (2077)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_Rail6G.label"><s>6mm railgun bullet (2077)</s><r>6-мм рельсотронная пуля (2077)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_Rail8G.label"><s>8mm railgun bullet (2077)</s><r>8-мм рельсотронная пуля (2077)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_ReconG.label"><s>Recon Grenade</s><r>Разведывательная граната</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartAshura_APG.label"><s>smart bullet (Ashura AP)</s><r>умная пуля (Ашура АП)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartAshura_FMJG.label"><s>smart bullet (Ashura FMJ)</s><r>умная пуля (Ашура FMJ)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartAshura_HPG.label"><s>smart bullet (Ashura HP)</s><r>умная пуля (Ашура ХП)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartBaXing_HEG.label"><s>smart grenade (Ba Xing Chong)</s><r>умная граната (Ба Син Чун)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartChao_APG.label"><s>smart bullet (Chao AP)</s><r>умная пуля (Чао АП)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartChao_FMJG.label"><s>smart bullet (Chao FMJ)</s><r>умная пуля (Чао FMJ)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartChao_HPG.label"><s>smart bullet (Chao HP)</s><r>умная пуля (Чао ХП)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartDian_APG.label"><s>smart bullet (Dian AP)</s><r>умная пуля (Диан АП)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartDian_FMJG.label"><s>smart bullet (Dian FMJ)</s><r>умная пуля (Диан FMJ)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartDian_HPG.label"><s>smart bullet (Dian HP)</s><r>умная пуля (Дянь Х.П.)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartHercules_APG.label"><s>smart bullet (Hercules AP)</s><r>умная пуля (Геркулес АП)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartHercules_HEG.label"><s>smart grenade (Hercules)</s><r>умная граната (Геркулес)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartHercules_IncG.label"><s>smart bullet (Hercules AP-I)</s><r>умная пуля (Геркулес АП-I)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartKappa_APG.label"><s>smart bullet (Kappa AP)</s><r>умная пуля (Каппа АП)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartKappa_FMJG.label"><s>smart bullet (Kappa FMJ)</s><r>умная пуля (Каппа FMJ)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartKappa_HPG.label"><s>smart bullet (Kappa HP)</s><r>умная пуля (Каппа HP)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartPalica_BuckG.label"><s>smart bullet (Palica Buck)</s><r>умная пуля (палка Бака)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartPalica_SlugG.label"><s>smart bullet (Palica Slug)</s><r>умная пуля (Слизняк)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartShingen_APG.label"><s>smart bullet (Shingen AP)</s><r>умная пуля (Синген АП)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartShingen_FMJG.label"><s>smart bullet (Shingen FMJ)</s><r>умная пуля (Сингэн FMJ)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartShingen_HPG.label"><s>smart bullet (Shingen HP)</s><r>умная пуля (Синген ХП)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartSidewinder_APG.label"><s>smart bullet (Sidewinder AP)</s><r>умная пуля (Sidewinder AP)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartSidewinder_FMJG.label"><s>smart bullet (Sidewinder FMJ)</s><r>умная пуля (Sidewinder FMJ)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartSidewinder_HPG.label"><s>smart bullet (Sidewinder HP)</s><r>умная пуля (Sidewinder HP)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartSkippyNL_NonLethalG.label"><s>smart bullet (Skippy non-lethal)</s><r>умная пуля (Скиппи несмертельная)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartSkippy_APG.label"><s>smart bullet (Skippy AP)</s><r>умная пуля (Скиппи АП)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartSkippy_FMJG.label"><s>smart bullet (Skippy FMJ)</s><r>умная пуля (Скиппи FMJ)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartSkippy_HPG.label"><s>smart bullet (Skippy HP)</s><r>умная пуля (Скиппи ХП)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartWarden_APG.label"><s>smart bullet (Warden AP)</s><r>умная пуля (Warden AP)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartWarden_FMJG.label"><s>smart bullet (Warden FMJ)</s><r>умная пуля (Warden FMJ)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartWarden_HPG.label"><s>smart bullet (Warden HP)</s><r>умная пуля (Warden HP)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartYukimura_APG.label"><s>smart bullet (Yukimura AP)</s><r>умная пуля (Юкимура АП)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartYukimura_FMJG.label"><s>smart bullet (Yukimura FMJ)</s><r>умная пуля (Юкимура FMJ)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartYukimura_HPG.label"><s>smart bullet (Yukimura HP)</s><r>умная пуля (Юкимура ХП)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartZhuo_BuckG.label"><s>smart bullet (Zhuo Buck)</s><r>умная пуля (Чжо Бак)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmartZhuo_SlugG.label"><s>smart bullet (Zhuo Slug)</s><r>умная пуля (Чжо Слизень)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_SmokeG.label"><s>Smoke Grenade</s><r>Дымовая граната</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_StingerThrownG.label"><s>Stinger (thrown)</s><r>Стингер (брошенный)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Proj_TomahawkThrownG.label"><s>Tomahawk (thrown)</s><r>Томагавк (брошенный)</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Turret_GashG.description"><s>A small deployed sentry that rakes nearby enemies with lasers, then burns out.</s><r>Небольшой развернутый часовой, который обстреливает ближайших врагов лазерами, а затем сгорает.</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_Turret_GashG.label"><s>GASH sentry</s><r>ГАШ часовой</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_grenade_CharG.tools.0.label"><s>Body</s><r>Тело</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_grenade_EmpG.tools.0.label"><s>Body</s><r>Тело</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_grenade_FlashbangG.tools.0.label"><s>Body</s><r>Тело</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_grenade_FragG.tools.0.label"><s>Body</s><r>Тело</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_grenade_GashG.tools.0.label"><s>Body</s><r>Тело</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_grenade_MolodetsG.tools.0.label"><s>Body</s><r>Тело</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_grenade_OzobsNoseG.tools.0.label"><s>Body</s><r>Тело</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_grenade_ReconG.tools.0.label"><s>Body</s><r>Тело</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_grenade_SmokeG.tools.0.label"><s>Body</s><r>Тело</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_AgaouG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_AgaouG.tools.1.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_BabyBoomerG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_BabyBoomerG.tools.1.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_BaseballBatG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_BaseballBatG.tools.1.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_BlackUnicornG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_BlackUnicornG.tools.1.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_BlackUnicornG.tools.2.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_BlueFangG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_BlueFangG.tools.1.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_BlueFangG.tools.2.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_BunkerCrowbarG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_BunkerCrowbarG.tools.1.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_ButchersCleaverG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_ButchersCleaverG.tools.1.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_ByakkoG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_ByakkoG.tools.1.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_ByakkoG.tools.2.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_CaretakersSpadeG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_CaretakersSpadeG.tools.1.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_ChefsKnifeG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_ChefsKnifeG.tools.1.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_ChefsKnifeG.tools.2.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_ClawG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_ClawG.tools.1.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_CocktailStickG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_CocktailStickG.tools.1.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_CocktailStickG.tools.2.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_CottonmouthG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_CottonmouthG.tools.1.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_CrowbarG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_CrowbarG.tools.1.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_CutOMaticG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_CutOMaticG.tools.1.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_ElectricBatonAlphaG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_ElectricBatonAlphaG.tools.1.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_ElectricBatonBetaG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_ElectricBatonBetaG.tools.1.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_ElectricBatonGammaG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_ElectricBatonGammaG.tools.1.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_ErrataG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_ErrataG.tools.1.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_ErrataG.tools.2.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_FangG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_FangG.tools.1.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_FangG.tools.2.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_GoldplatedBaseballBatG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_GoldplatedBaseballBatG.tools.1.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_GwynbleiddG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_GwynbleiddG.tools.1.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_GwynbleiddG.tools.2.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_HammerG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_HammerG.tools.1.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_HeadhunterG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_HeadhunterG.tools.1.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_HeadhunterG.tools.2.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_JinchumaruG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_JinchumaruG.tools.1.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_JinchumaruG.tools.2.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_KaikenG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_KaikenG.tools.1.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_KaikenG.tools.2.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_KanaboG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_KanaboG.tools.1.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_KatanaG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_KatanaG.tools.1.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_KatanaG.tools.2.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_KnifeG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_KnifeG.tools.1.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_KnifeG.tools.2.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_KukriG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_KukriG.tools.1.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_KukriG.tools.2.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_MacheteG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_MacheteG.tools.1.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_MacheteG.tools.2.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_MurphysLawG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_MurphysLawG.tools.1.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_NehanG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_NehanG.tools.1.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_NehanG.tools.2.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_NeurotoxinKnifeG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_NeurotoxinKnifeG.tools.1.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_NeurotoxinKnifeG.tools.2.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_PipeWrenchG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_PipeWrenchG.tools.1.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_PunknifeG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_PunknifeG.tools.1.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_PunknifeG.tools.2.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_RazorG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_RazorG.tools.1.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_RazorG.tools.2.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_SasquatchsHammerG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_SasquatchsHammerG.tools.1.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_SatoriG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_SatoriG.tools.1.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_SatoriG.tools.2.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_ScalpelG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_ScalpelG.tools.1.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_ScalpelG.tools.2.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_SteelPipeG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_SteelPipeG.tools.1.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_StingerG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_StingerG.tools.1.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_StingerG.tools.2.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_TinkerBellG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_TinkerBellG.tools.1.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_TireIronG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_TireIronG.tools.1.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_TomahawkG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_TomahawkG.tools.1.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_TsumetogiG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_TsumetogiG.tools.1.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_TsumetogiG.tools.2.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_VolkodavG.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_VolkodavG.tools.1.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_melee_VolkodavG.tools.2.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_DefenderG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_DefenderG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_DefenderG.verbs.0.label"><s>2077 M2067 Defender</s><r>2077 M2067 Защитник</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_Defender_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_Defender_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_Defender_Unique.comps.6.namerLabels.0"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_Defender_Unique.comps.6.namerLabels.1"><s>gun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_Defender_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_Defender_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_Defender_Unique.verbs.0.label"><s>unique 2077 M2067 Defender</s><r>уникальный 2077 M2067 Защитник</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_Hercules3AXG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_Hercules3AXG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_Hercules3AXG.verbs.0.label"><s>2077 Hercules 3AX</s><r>2077 Геркулес 3AX</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_MA70HBG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_MA70HBG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_MA70HBG.verbs.0.label"><s>2077 MA70 HB</s><r>2077 MA70 HB</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_MA70HB_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_MA70HB_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_MA70HB_Unique.comps.6.namerLabels.0"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_MA70HB_Unique.comps.6.namerLabels.1"><s>gun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_MA70HB_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_MA70HB_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_MA70HB_Unique.verbs.0.label"><s>unique 2077 MA70 HB</s><r>уникальный 2077 MA70 HB</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_Mk31HMGG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_Mk31HMGG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_Mk31HMGG.verbs.0.label"><s>2077 Mk.31 HMG</s><r>2077 Мк.31 HMG</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_Mk31HMG_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_Mk31HMG_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_Mk31HMG_Unique.comps.6.namerLabels.0"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_Mk31HMG_Unique.comps.6.namerLabels.1"><s>gun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_Mk31HMG_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_Mk31HMG_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_Mk31HMG_Unique.verbs.0.label"><s>unique 2077 Mk.31 HMG</s><r>уникальный пулемет 2077 Mk.31</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_WildDogG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_WildDogG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_mg_WildDogG.verbs.0.label"><s>2077 Wild Dog</s><r>2077 Дикая Собака</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_AmbitionG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_AmbitionG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_AmbitionG.verbs.0.label"><s>2077 Ambition</s><r>2077 Амбиции</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_AmnestyG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_AmnestyG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_AmnestyG.verbs.0.label"><s>2077 Amnesty</s><r>2077 Амнистия</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_ApparitionG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_ApparitionG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_ApparitionG.verbs.0.label"><s>2077 Apparition</s><r>2077 Явление</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_ArchangelG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_ArchangelG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_ArchangelG.verbs.0.label"><s>2077 Archangel</s><r>2077 Архангельск</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_BaldEagleG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_BaldEagleG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_BaldEagleG.verbs.0.label"><s>2077 Bald Eagle</s><r>2077 Белоголовый орлан</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_BuryaG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_BuryaG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_BuryaG.verbs.0.label"><s>2077 RT-46 Burya</s><r>2077 РТ-46 Буря</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Burya_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Burya_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Burya_Unique.comps.6.namerLabels.0"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Burya_Unique.comps.6.namerLabels.1"><s>sidearm</s><r>личное оружие</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Burya_Unique.comps.6.namerLabels.2"><s>handgun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Burya_Unique.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Burya_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Burya_Unique.verbs.0.label"><s>unique 2077 RT-46 Burya</s><r>уникальный 2077 РТ-46 Буря</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_CatahoulaG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_CatahoulaG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_CatahoulaG.verbs.0.label"><s>2077 Catahoula</s><r>2077 Катахула</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_ChaoG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_ChaoG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_ChaoG.verbs.0.label"><s>2077 A-22B Chao</s><r>2077 А-22Б Чао</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Chao_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Chao_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Chao_Unique.comps.6.namerLabels.0"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Chao_Unique.comps.6.namerLabels.1"><s>sidearm</s><r>личное оружие</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Chao_Unique.comps.6.namerLabels.2"><s>handgun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Chao_Unique.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Chao_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Chao_Unique.verbs.0.label"><s>unique 2077 A-22B Chao</s><r>уникальный 2077 А-22Б Чао</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_ChaosG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_ChaosG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_ChaosG.verbs.0.label"><s>2077 Chaos</s><r>2077 Хаос</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_CheetahG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_CheetahG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_CheetahG.verbs.0.label"><s>2077 Cheetah</s><r>2077 Гепард</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_ComradesHammerG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_ComradesHammerG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_ComradesHammerG.verbs.0.label"><s>2077 Comrade’s Hammer</s><r>2077 Товарищ Молот</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_CrashG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_CrashG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_CrashG.verbs.0.label"><s>2077 Crash</s><r>2077 Крушение</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_CrimestopperG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_CrimestopperG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_CrimestopperG.verbs.0.label"><s>2077 Crimestopper</s><r>2077 Преступник</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_DeathandTaxesG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_DeathandTaxesG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_DeathandTaxesG.verbs.0.label"><s>2077 Death and Taxes</s><r>2077 Смерть и налоги</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_DoomDoomG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_DoomDoomG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_DoomDoomG.verbs.0.label"><s>2077 Doom Doom</s><r>2077 Дум Дум</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_DyingNightG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_DyingNightG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_DyingNightG.verbs.0.label"><s>2077 Dying Night</s><r>2077 Умирающая ночь</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_GenjirohG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_GenjirohG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_GenjirohG.verbs.0.label"><s>2077 Genjiroh</s><r>2077 Генджиро</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_GrisGrisG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_GrisGrisG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_GrisGrisG.verbs.0.label"><s>2077 Gris-Gris</s><r>2077 Серо-Серый</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_GritG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_GritG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_GritG.verbs.0.label"><s>2077 HA-4 Grit</s><r>2077 HA-4 Зернистость</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Grit_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Grit_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Grit_Unique.comps.6.namerLabels.0"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Grit_Unique.comps.6.namerLabels.1"><s>sidearm</s><r>личное оружие</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Grit_Unique.comps.6.namerLabels.2"><s>handgun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Grit_Unique.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Grit_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Grit_Unique.verbs.0.label"><s>unique 2077 HA-4 Grit</s><r>уникальный 2077 HA-4 Grit</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_HerMajestyG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_HerMajestyG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_HerMajestyG.verbs.0.label"><s>2077 Her Majesty</s><r>2077 Ее Величество</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_KappaG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_KappaG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_KappaG.verbs.0.label"><s>2077 Kappa</s><r>2077 Каппа</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Kappa_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Kappa_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Kappa_Unique.comps.6.namerLabels.0"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Kappa_Unique.comps.6.namerLabels.1"><s>sidearm</s><r>личное оружие</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Kappa_Unique.comps.6.namerLabels.2"><s>handgun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Kappa_Unique.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Kappa_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Kappa_Unique.verbs.0.label"><s>unique 2077 Kappa</s><r>уникальный 2077 Каппа</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_KenshinG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_KenshinG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_KenshinG.verbs.0.label"><s>2077 JKE-X2 Kenshin</s><r>2077 JKE-X2 Кеншин</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Kenshin_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Kenshin_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Kenshin_Unique.comps.6.namerLabels.0"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Kenshin_Unique.comps.6.namerLabels.1"><s>sidearm</s><r>личное оружие</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Kenshin_Unique.comps.6.namerLabels.2"><s>handgun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Kenshin_Unique.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Kenshin_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Kenshin_Unique.verbs.0.label"><s>unique 2077 JKE-X2 Kenshin</s><r>уникальный 2077 JKE-X2 Кеншин</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_KongouG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_KongouG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_KongouG.verbs.0.label"><s>2077 Kongou</s><r>2077 Конго</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_LaChingonaDoradaG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_LaChingonaDoradaG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_LaChingonaDoradaG.verbs.0.label"><s>2077 La Chingona Dorada</s><r>2077 Золотая Чингона</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_LaikaG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_LaikaG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_LaikaG.verbs.0.label"><s>2077 Laika</s><r>2077 Время</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_LexingtonG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_LexingtonG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_LexingtonG.verbs.0.label"><s>2077 M-10AF Lexington</s><r>2077 М-10АФ Лексингтон</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Lexington_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Lexington_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Lexington_Unique.comps.6.namerLabels.0"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Lexington_Unique.comps.6.namerLabels.1"><s>sidearm</s><r>личное оружие</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Lexington_Unique.comps.6.namerLabels.2"><s>handgun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Lexington_Unique.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Lexington_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Lexington_Unique.verbs.0.label"><s>unique 2077 M-10AF Lexington</s><r>уникальный 2077 М-10АФ Лексингтон</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_LibertyG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_LibertyG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_LibertyG.verbs.0.label"><s>2077 Liberty</s><r>2077 Свобода</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Liberty_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Liberty_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Liberty_Unique.comps.6.namerLabels.0"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Liberty_Unique.comps.6.namerLabels.1"><s>sidearm</s><r>личное оружие</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Liberty_Unique.comps.6.namerLabels.2"><s>handgun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Liberty_Unique.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Liberty_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Liberty_Unique.verbs.0.label"><s>unique 2077 Liberty</s><r>уникальный 2077 Свобода</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_LizzieG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_LizzieG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_LizzieG.verbs.0.label"><s>2077 Lizzie</s><r>2077 Лиззи</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Malorian3516G.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Malorian3516G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Malorian3516G.verbs.0.label"><s>2077 Malorian Arms 3516</s><r>2077 Малорианское оружие 3516</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_MancinellaG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_MancinellaG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_MancinellaG.verbs.0.label"><s>2077 Mancinella</s><r>2077 Манчинелла</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_MetelG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_MetelG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_MetelG.verbs.0.label"><s>2077 Metel</s><r>2077 Металл</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Metel_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Metel_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Metel_Unique.comps.6.namerLabels.0"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Metel_Unique.comps.6.namerLabels.1"><s>sidearm</s><r>личное оружие</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Metel_Unique.comps.6.namerLabels.2"><s>handgun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Metel_Unique.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Metel_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Metel_Unique.verbs.0.label"><s>unique 2077 Metel</s><r>уникальный 2077 Метель</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_NovaG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_NovaG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_NovaG.verbs.0.label"><s>2077 DR-5 Nova</s><r>2077 ДР-5 Новый</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Nova_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Nova_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Nova_Unique.comps.6.namerLabels.0"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Nova_Unique.comps.6.namerLabels.1"><s>sidearm</s><r>личное оружие</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Nova_Unique.comps.6.namerLabels.2"><s>handgun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Nova_Unique.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Nova_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Nova_Unique.verbs.0.label"><s>unique 2077 DR-5 Nova</s><r>уникальный 2077 DR-5 Нова</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_NueG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_NueG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_NueG.verbs.0.label"><s>2077 Nue</s><r>2077 Нуэ</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Nue_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Nue_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Nue_Unique.comps.6.namerLabels.0"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Nue_Unique.comps.6.namerLabels.1"><s>sidearm</s><r>личное оружие</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Nue_Unique.comps.6.namerLabels.2"><s>handgun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Nue_Unique.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Nue_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Nue_Unique.verbs.0.label"><s>unique 2077 Nue</s><r>уникальный 2077 Нюдовый</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_OgouG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_OgouG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_OgouG.verbs.0.label"><s>2077 Ogou</s><r>2077 Огоо</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_OlReliableG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_OlReliableG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_OlReliableG.verbs.0.label"><s>2077 Ol' Reliable</s><r>2077 Старый Надежный</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_OmahaG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_OmahaG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_OmahaG.verbs.0.label"><s>2077 M-76E Omaha</s><r>2077 М-76Э Омаха</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Omaha_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Omaha_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Omaha_Unique.comps.6.namerLabels.0"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Omaha_Unique.comps.6.namerLabels.1"><s>sidearm</s><r>личное оружие</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Omaha_Unique.comps.6.namerLabels.2"><s>handgun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Omaha_Unique.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Omaha_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Omaha_Unique.verbs.0.label"><s>unique 2077 M-76E Omaha</s><r>уникальный 2077 М-76Э Омаха</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_OvertureG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_OvertureG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_OvertureG.verbs.0.label"><s>2077 Overture</s><r>2077 Увертюра</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Overture_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Overture_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Overture_Unique.comps.6.namerLabels.0"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Overture_Unique.comps.6.namerLabels.1"><s>sidearm</s><r>личное оружие</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Overture_Unique.comps.6.namerLabels.2"><s>handgun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Overture_Unique.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Overture_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Overture_Unique.verbs.0.label"><s>unique 2077 Overture</s><r>уникальная увертюра 2077 года</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_PariahG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_PariahG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_PariahG.verbs.0.label"><s>2077 Pariah</s><r>2077 Изгой</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_PlanBG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_PlanBG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_PlanBG.verbs.0.label"><s>2077 Plan B</s><r>2077 План Б</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_PrideG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_PrideG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_PrideG.verbs.0.label"><s>2077 Pride</s><r>2077 Гордость</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_QuasarG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_QuasarG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_QuasarG.verbs.0.label"><s>2077 DR-12 Quasar</s><r>2077 DR-12 Квазар</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Quasar_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Quasar_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Quasar_Unique.comps.6.namerLabels.0"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Quasar_Unique.comps.6.namerLabels.1"><s>sidearm</s><r>личное оружие</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Quasar_Unique.comps.6.namerLabels.2"><s>handgun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Quasar_Unique.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Quasar_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Quasar_Unique.verbs.0.label"><s>unique 2077 DR-12 Quasar</s><r>уникальный 2077 DR-12 Квазар</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_RiskitG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_RiskitG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_RiskitG.verbs.0.label"><s>2077 Riskit</s><r>2077 Риски</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_RookG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_RookG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_RookG.verbs.0.label"><s>2077 Rook</s><r>2077 Ладья</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_RoscoG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_RoscoG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_RoscoG.verbs.0.label"><s>2077 Rosco</s><r>2077 Роско</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_ScorchG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_ScorchG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_ScorchG.verbs.0.label"><s>2077 Scorch</s><r>2077 Ожог</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_SeraphG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_SeraphG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_SeraphG.verbs.0.label"><s>2077 Seraph</s><r>2077 Серафим</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_SkippyG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_SkippyG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_SkippyG.verbs.0.label"><s>2077 Skippy</s><r>2077 Скиппи</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_SlaughtOMaticG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_SlaughtOMaticG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_SlaughtOMaticG.verbs.0.label"><s>2077 Slaught-O-Matic</s><r>2077 Бойня-О-Матик</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_TaiganG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_TaiganG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_TaiganG.verbs.0.label"><s>2077 Taigan</s><r>2077 Тайган</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_TamayuraG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_TamayuraG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_TamayuraG.verbs.0.label"><s>2077 Tamayura</s><r>2077 Тамаюра</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Tamayura_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Tamayura_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Tamayura_Unique.comps.6.namerLabels.0"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Tamayura_Unique.comps.6.namerLabels.1"><s>sidearm</s><r>личное оружие</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Tamayura_Unique.comps.6.namerLabels.2"><s>handgun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Tamayura_Unique.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Tamayura_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Tamayura_Unique.verbs.0.label"><s>unique 2077 Tamayura</s><r>уникальный размер 2077</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_TiconG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_TiconG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_TiconG.verbs.0.label"><s>2077 Militech Ticon</s><r>2077 Милитех Тикон</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Ticon_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Ticon_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Ticon_Unique.comps.6.namerLabels.0"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Ticon_Unique.comps.6.namerLabels.1"><s>sidearm</s><r>личное оружие</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Ticon_Unique.comps.6.namerLabels.2"><s>handgun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Ticon_Unique.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Ticon_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Ticon_Unique.verbs.0.label"><s>unique 2077 Militech Ticon</s><r>уникальный 2077 Милитех Тикон</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_UnityG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_UnityG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_UnityG.verbs.0.label"><s>2077 Unity</s><r>2077 Единство</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Unity_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Unity_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Unity_Unique.comps.6.namerLabels.0"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Unity_Unique.comps.6.namerLabels.1"><s>sidearm</s><r>личное оружие</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Unity_Unique.comps.6.namerLabels.2"><s>handgun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Unity_Unique.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Unity_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Unity_Unique.verbs.0.label"><s>unique 2077 Unity</s><r>уникальный 2077 Единство</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_YukimuraG.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_YukimuraG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_YukimuraG.verbs.0.label"><s>2077 HJKE-11 Yukimura</s><r>2077 HJKE-11 Юкимура</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Yukimura_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Yukimura_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Yukimura_Unique.comps.6.namerLabels.0"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Yukimura_Unique.comps.6.namerLabels.1"><s>sidearm</s><r>личное оружие</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Yukimura_Unique.comps.6.namerLabels.2"><s>handgun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Yukimura_Unique.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Yukimura_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_pistol_Yukimura_Unique.verbs.0.label"><s>unique 2077 HJKE-11 Yukimura</s><r>уникальный 2077 HJKE-11 Юкимура</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_AchillesG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_AchillesG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_AchillesG.verbs.0.label"><s>2077 M-179E Achilles</s><r>2077 М-179Э Ахиллес</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Achilles_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Achilles_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Achilles_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Achilles_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Achilles_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Achilles_Unique.verbs.0.label"><s>unique 2077 M-179E Achilles</s><r>уникальный 2077 М-179Э Ахиллес</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_AjaxG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_AjaxG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_AjaxG.verbs.0.label"><s>2077 M251S Ajax</s><r>2077 M251S Аякс</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Ajax_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Ajax_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Ajax_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Ajax_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Ajax_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Ajax_Unique.verbs.0.label"><s>unique 2077 M251S Ajax</s><r>уникальный 2077 M251S Ajax</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_CarmenG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_CarmenG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_CarmenG.verbs.0.label"><s>2077 Carmen</s><r>2077 Кармен</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_ChinookG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_ChinookG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_ChinookG.verbs.0.label"><s>2077 Chinook</s><r>2077 Чинук</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_CopperheadG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_CopperheadG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_CopperheadG.verbs.0.label"><s>2077 D5 Copperhead</s><r>2077 D5 Медноголовый</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Copperhead_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Copperhead_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Copperhead_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Copperhead_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Copperhead_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Copperhead_Unique.verbs.0.label"><s>unique 2077 D5 Copperhead</s><r>уникальный 2077 D5 Copperhead</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_DividedWeStandG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_DividedWeStandG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_DividedWeStandG.verbs.0.label"><s>2077 Divided We Stand</s><r>2077 Разделенные мы стоим</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_HawkG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_HawkG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_HawkG.verbs.0.label"><s>2077 Hawk</s><r>2077 Ястреб</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_KyubiG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_KyubiG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_KyubiG.verbs.0.label"><s>2077 Kyubi</s><r>2077 Кьюби</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Kyubi_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Kyubi_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Kyubi_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Kyubi_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Kyubi_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Kyubi_Unique.verbs.0.label"><s>unique 2077 Kyubi</s><r>уникальный 2077 Кьюби</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_MasamuneG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_MasamuneG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_MasamuneG.verbs.0.label"><s>2077 HJSH-18 Masamune</s><r>2077 HJSH-18 Масамунэ</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Masamune_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Masamune_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Masamune_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Masamune_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Masamune_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Masamune_Unique.verbs.0.label"><s>unique 2077 HJSH-18 Masamune</s><r>сингл 2077 HJSH-18 Масамунэ</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_MoronLabeG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_MoronLabeG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_MoronLabeG.verbs.0.label"><s>2077 Moron Labe</s><r>2077 Дебил Лабе</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_NowakiG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_NowakiG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_NowakiG.verbs.0.label"><s>2077 Nowaki</s><r>2077 Новак</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Nowaki_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Nowaki_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Nowaki_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Nowaki_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Nowaki_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Nowaki_Unique.verbs.0.label"><s>unique 2077 Nowaki</s><r>уникальный 2077 Новаки</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_PitBullG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_PitBullG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_PitBullG.verbs.0.label"><s>2077 Pit Bull</s><r>2077 Питбуль</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_PrejudiceG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_PrejudiceG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_PrejudiceG.verbs.0.label"><s>2077 Prejudice</s><r>2077 Предубеждение</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Psalm116G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Psalm116G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Psalm116G.verbs.0.label"><s>2077 Psalm 11:6</s><r>2077 Псалом 11:6</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_SOR22G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_SOR22G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_SOR22G.verbs.0.label"><s>2077 SOR-22</s><r>2077 СОР-22</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_SOR22_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_SOR22_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_SOR22_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_SOR22_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_SOR22_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_SOR22_Unique.verbs.0.label"><s>unique 2077 SOR-22</s><r>уникальный 2077 СОР-22</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_SidewinderG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_SidewinderG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_SidewinderG.verbs.0.label"><s>2077 D5 Sidewinder</s><r>2077 D5 Сайдвиндер</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Sidewinder_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Sidewinder_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Sidewinder_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Sidewinder_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Sidewinder_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Sidewinder_Unique.verbs.0.label"><s>unique 2077 D5 Sidewinder</s><r>уникальный 2077 D5 Sidewinder</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_UmbraG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_UmbraG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_UmbraG.verbs.0.label"><s>2077 DA8 Umbra</s><r>2077 DA8 Тень</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Umbra_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Umbra_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Umbra_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Umbra_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Umbra_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_Umbra_Unique.verbs.0.label"><s>unique 2077 DA8 Umbra</s><r>уникальный 2077 DA8 Shadow</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_WidowMakerG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_WidowMakerG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_rifle_WidowMakerG.verbs.0.label"><s>2077 Widow Maker</s><r>2077 Создатель Вдов</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_AlabaiG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_AlabaiG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_AlabaiG.verbs.0.label"><s>2077 Alabai</s><r>2077 Да</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_AmstaffG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_AmstaffG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_AmstaffG.verbs.0.label"><s>2077 Amstaff</s><r>2077 Амстафф</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_BaXingChongG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_BaXingChongG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_BaXingChongG.verbs.0.label"><s>2077 Ba Xing Chong</s><r>2077 Ба Син Чун</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_BloodyMariaG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_BloodyMariaG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_BloodyMariaG.verbs.0.label"><s>2077 Bloody Maria</s><r>2077 Кровавая Мария</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_CarnageG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_CarnageG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_CarnageG.verbs.0.label"><s>2077 Carnage</s><r>2077 Резня</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Carnage_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Carnage_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Carnage_Unique.comps.6.namerLabels.0"><s>shotgun</s><r>дробовик</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Carnage_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Carnage_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Carnage_Unique.verbs.0.label"><s>unique 2077 Carnage</s><r>уникальный Карнаж 2077 года</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_CrusherG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_CrusherG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_CrusherG.verbs.0.label"><s>2077 Crusher</s><r>2077 Крушитель</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Crusher_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Crusher_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Crusher_Unique.comps.6.namerLabels.0"><s>shotgun</s><r>дробовик</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Crusher_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Crusher_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Crusher_Unique.verbs.0.label"><s>unique 2077 Crusher</s><r>уникальная дробилка 2077 года</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_DezerterG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_DezerterG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_DezerterG.verbs.0.label"><s>2077 Dezerter</s><r>2077 Десертерс</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_GutsG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_GutsG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_GutsG.verbs.0.label"><s>2077 Guts</s><r>2077 Кишки</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_IglaG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_IglaG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_IglaG.verbs.0.label"><s>2077 DB-4 Igla</s><r>2077 ДБ-4 Игла</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Igla_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Igla_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Igla_Unique.comps.6.namerLabels.0"><s>shotgun</s><r>дробовик</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Igla_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Igla_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Igla_Unique.verbs.0.label"><s>unique 2077 DB-4 Igla</s><r>уникальный 2077 ДБ-4 Игла</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_MoxG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_MoxG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_MoxG.verbs.0.label"><s>2077 Mox</s><r>2077 Мокс</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_OrderG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_OrderG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_OrderG.verbs.0.label"><s>2077 Order</s><r>2077 Приказ</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_PalicaG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_PalicaG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_PalicaG.verbs.0.label"><s>2077 DB-4 Palica</s><r>2077 ДБ-4 Летучая мышь</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Palica_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Palica_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Palica_Unique.comps.6.namerLabels.0"><s>shotgun</s><r>дробовик</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Palica_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Palica_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Palica_Unique.verbs.0.label"><s>unique 2077 DB-4 Palica</s><r>уникальная летучая мышь 2077 DB-4</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_PozharG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_PozharG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_PozharG.verbs.0.label"><s>2077 VST-37 Pozhar</s><r>2077 VST-37 Pozhar</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Pozhar_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Pozhar_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Pozhar_Unique.comps.6.namerLabels.0"><s>shotgun</s><r>дробовик</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Pozhar_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Pozhar_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Pozhar_Unique.verbs.0.label"><s>unique 2077 VST-37 Pozhar</s><r>unique 2077 VST-37 Pozhar</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_SataraG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_SataraG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_SataraG.verbs.0.label"><s>2077 DB-2 Satara</s><r>2077 ДБ-2 Сатара</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Satara_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Satara_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Satara_Unique.comps.6.namerLabels.0"><s>shotgun</s><r>дробовик</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Satara_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Satara_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Satara_Unique.verbs.0.label"><s>unique 2077 DB-2 Satara</s><r>уникальный 2077 ДБ-2 Сатара</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_TacticianG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_TacticianG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_TacticianG.verbs.0.label"><s>2077 M2038 Tactician</s><r>2077 M2038 Тактик</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Tactician_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Tactician_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Tactician_Unique.comps.6.namerLabels.0"><s>shotgun</s><r>дробовик</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Tactician_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Tactician_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Tactician_Unique.verbs.0.label"><s>unique 2077 M2038 Tactician</s><r>уникальный 2077 М2038 Тактик</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_TesteraG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_TesteraG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_TesteraG.verbs.0.label"><s>2077 DB-2 Testera</s><r>2077 Тестер ДБ-2</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Testera_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Testera_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Testera_Unique.comps.6.namerLabels.0"><s>shotgun</s><r>дробовик</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Testera_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Testera_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Testera_Unique.verbs.0.label"><s>unique 2077 DB-2 Testera</s><r>одиночный 2077 DB-2 будет тестироваться</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_TheHeadsmanG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_TheHeadsmanG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_TheHeadsmanG.verbs.0.label"><s>2077 The Headsman</s><r>2077 Палач</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_ZhuoG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_ZhuoG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_ZhuoG.verbs.0.label"><s>2077 L-69 Zhuo</s><r>2077 L-69 Чжо</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Zhuo_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Zhuo_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Zhuo_Unique.comps.6.namerLabels.0"><s>shotgun</s><r>дробовик</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Zhuo_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Zhuo_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_shotgun_Zhuo_Unique.verbs.0.label"><s>unique 2077 L-69 Zhuo</s><r>уникальный 2077 L-69 Чжо</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_ChesapeakeG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_ChesapeakeG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_ChesapeakeG.verbs.0.label"><s>2077 Chesapeake</s><r>2077 Чесапик</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_DianG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_DianG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_DianG.verbs.0.label"><s>2077 G-58 Dian</s><r>2077 G-58 Диан</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Dian_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Dian_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Dian_Unique.comps.6.namerLabels.0"><s>SMG</s><r>ППМ</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Dian_Unique.comps.6.namerLabels.1"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Dian_Unique.comps.6.namerLabels.2"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Dian_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Dian_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Dian_Unique.verbs.0.label"><s>unique 2077 G-58 Dian</s><r>уникальный 2077 G-58 Диан</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_ErebusG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_ErebusG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_ErebusG.verbs.0.label"><s>2077 Erebus</s><r>2077 Эреб</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_FenrirG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_FenrirG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_FenrirG.verbs.0.label"><s>2077 Fenrir</s><r>2077 Фенрир</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_GuillotineG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_GuillotineG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_GuillotineG.verbs.0.label"><s>2077 Guillotine</s><r>2077 Гильотина</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Guillotine_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Guillotine_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Guillotine_Unique.comps.6.namerLabels.0"><s>SMG</s><r>ППМ</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Guillotine_Unique.comps.6.namerLabels.1"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Guillotine_Unique.comps.6.namerLabels.2"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Guillotine_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Guillotine_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Guillotine_Unique.verbs.0.label"><s>unique 2077 Guillotine</s><r>уникальная гильотина 2077 года</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_PizdetsG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_PizdetsG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_ProblemSolverG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_ProblemSolverG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_ProblemSolverG.verbs.0.label"><s>2077 Problem Solver</s><r>2077 Решение проблем</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_PrototypeShingenMarkVG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_PrototypeShingenMarkVG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_PrototypeShingenMarkVG.verbs.0.label"><s>2077 Prototype Shingen Mark V</s><r>2077 Прототип Shingen Mark V</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_PulsarG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_PulsarG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_PulsarG.verbs.0.label"><s>2077 DS1 Pulsar</s><r>2077 ДС1 Пресс</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Pulsar_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Pulsar_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Pulsar_Unique.comps.6.namerLabels.0"><s>SMG</s><r>ППМ</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Pulsar_Unique.comps.6.namerLabels.1"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Pulsar_Unique.comps.6.namerLabels.2"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Pulsar_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Pulsar_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Pulsar_Unique.verbs.0.label"><s>unique 2077 DS1 Pulsar</s><r>уникальный 2077 DS1 Pulsar</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_RaijuG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_RaijuG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_RaijuG.verbs.0.label"><s>2077 Raiju</s><r>2077 Райджу</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_SaratogaG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_SaratogaG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_SaratogaG.verbs.0.label"><s>2077 M221 Saratoga</s><r>2077 M221 Саратога</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Saratoga_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Saratoga_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Saratoga_Unique.comps.6.namerLabels.0"><s>SMG</s><r>ППМ</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Saratoga_Unique.comps.6.namerLabels.1"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Saratoga_Unique.comps.6.namerLabels.2"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Saratoga_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Saratoga_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Saratoga_Unique.verbs.0.label"><s>unique 2077 M221 Saratoga</s><r>уникальный 2077 М221 Саратога</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_SenkohLXG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_SenkohLXG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_SenkohLXG.verbs.0.label"><s>2077 Senkoh LX</s><r>2077 Сэнко LX</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_SenkohLX_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_SenkohLX_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_SenkohLX_Unique.comps.6.namerLabels.0"><s>SMG</s><r>ППМ</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_SenkohLX_Unique.comps.6.namerLabels.1"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_SenkohLX_Unique.comps.6.namerLabels.2"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_SenkohLX_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_SenkohLX_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_SenkohLX_Unique.verbs.0.label"><s>unique 2077 Senkoh LX</s><r>уникальный 2077 Сэнко LX</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_ShigureG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_ShigureG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_ShigureG.verbs.0.label"><s>2077 Shigure</s><r>2077 Сигуре</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Shigure_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Shigure_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Shigure_Unique.comps.6.namerLabels.0"><s>SMG</s><r>ППМ</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Shigure_Unique.comps.6.namerLabels.1"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Shigure_Unique.comps.6.namerLabels.2"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Shigure_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Shigure_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Shigure_Unique.verbs.0.label"><s>unique 2077 Shigure</s><r>уникальный 2077 Сигурэ</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_ShingenG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_ShingenG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_ShingenG.verbs.0.label"><s>2077 TKI-20 Shingen</s><r>2077 ТКИ-20 Барьер</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Shingen_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Shingen_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Shingen_Unique.comps.6.namerLabels.0"><s>SMG</s><r>ППМ</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Shingen_Unique.comps.6.namerLabels.1"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Shingen_Unique.comps.6.namerLabels.2"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Shingen_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Shingen_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Shingen_Unique.verbs.0.label"><s>unique 2077 TKI-20 Shingen</s><r>уникальный 2077 TKI-20 Shingen</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_WardenG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_WardenG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_WardenG.verbs.0.label"><s>2077 HA-7 Warden</s><r>2077 HA-7 Страж</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Warden_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Warden_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Warden_Unique.comps.6.namerLabels.0"><s>SMG</s><r>ППМ</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Warden_Unique.comps.6.namerLabels.1"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Warden_Unique.comps.6.namerLabels.2"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Warden_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Warden_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_Warden_Unique.verbs.0.label"><s>unique 2077 HA-7 Warden</s><r>уникальный 2077 HA-7 Страж</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_YinglongG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_YinglongG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_smg_YinglongG.verbs.0.label"><s>2077 Yinglong</s><r>2077 Инлун</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_AshuraG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_AshuraG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_AshuraG.verbs.0.label"><s>2077 Ashura</s><r>2077 Ашура</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_Ashura_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_Ashura_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_Ashura_Unique.comps.6.namerLabels.0"><s>sniper</s><r>снайпер</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_Ashura_Unique.comps.6.namerLabels.1"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_Ashura_Unique.comps.6.namerLabels.2"><s>longshot</s><r>дальновидный</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_Ashura_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_Ashura_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_Ashura_Unique.verbs.0.label"><s>unique 2077 Ashura</s><r>уникальный 2077 Ашура</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_BorzayaG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_BorzayaG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_BorzayaG.verbs.0.label"><s>2077 Borzaya</s><r>2077 Борзая</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_BreakthroughG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_BreakthroughG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_BreakthroughG.verbs.0.label"><s>2077 Breakthrough</s><r>2077 Прорыв</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_FoxhoundG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_FoxhoundG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_FoxhoundG.verbs.0.label"><s>2077 Foxhound</s><r>2077 Фоксхаунд</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_HypercriticalG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_HypercriticalG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_HypercriticalG.verbs.0.label"><s>2077 Hypercritical</s><r>2077 Гиперкритичный</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_KolacG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_KolacG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_KolacG.verbs.0.label"><s>2077 Kolac</s><r>2077 Ставка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_Kolac_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_Kolac_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_Kolac_Unique.comps.6.namerLabels.0"><s>sniper</s><r>снайпер</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_Kolac_Unique.comps.6.namerLabels.1"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_Kolac_Unique.comps.6.namerLabels.2"><s>longshot</s><r>дальновидный</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_Kolac_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_Kolac_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_Kolac_Unique.verbs.0.label"><s>unique 2077 Kolac</s><r>сингл 2077 Колац</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_NekomataG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_NekomataG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_NekomataG.verbs.0.label"><s>2077 Nekomata</s><r>2077 Некомата</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_Nekomata_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_Nekomata_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_Nekomata_Unique.comps.6.namerLabels.0"><s>sniper</s><r>снайпер</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_Nekomata_Unique.comps.6.namerLabels.1"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_Nekomata_Unique.comps.6.namerLabels.2"><s>longshot</s><r>дальновидный</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_Nekomata_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_Nekomata_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_Nekomata_Unique.verbs.0.label"><s>unique 2077 Nekomata</s><r>уникальный 2077 Некомата</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_OFiveG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_OFiveG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_OFiveG.verbs.0.label"><s>2077 O'Five</s><r>2077 О'Пять</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_OspreyG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_OspreyG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_OspreyG.verbs.0.label"><s>2077 Osprey</s><r>2077 Скопа</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_OverwatchG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_OverwatchG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_OverwatchG.verbs.0.label"><s>2077 Overwatch</s><r>2077 Надзор</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_RasetsuG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_RasetsuG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_RasetsuG.verbs.0.label"><s>2077 Rasetsu</s><r>2077 Расэцу</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_SPT32GradG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_SPT32GradG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_SPT32GradG.verbs.0.label"><s>2077 SPT32 Grad</s><r>2077 СПТ32 Град</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_SPT32Grad_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_SPT32Grad_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_SPT32Grad_Unique.comps.6.namerLabels.0"><s>sniper</s><r>снайпер</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_SPT32Grad_Unique.comps.6.namerLabels.1"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_SPT32Grad_Unique.comps.6.namerLabels.2"><s>longshot</s><r>дальновидный</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_SPT32Grad_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_SPT32Grad_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_SPT32Grad_Unique.verbs.0.label"><s>unique 2077 SPT32 Grad</s><r>уникальный 2077 СПТ32 Град</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_SparkyG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_SparkyG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_SparkyG.verbs.0.label"><s>2077 Sparky</s><r>2077 Спарки</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_YashaG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_YashaG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_2077_sniper_YashaG.verbs.0.label"><s>2077 Yasha</s><r>2077 Песок</r></e>
+  <e k="D" t="WorkGiverDef" key="ARS_2077_DoBillsWorkbench.gerund"><s>working at</s><r>работаю в</r></e>
+  <e k="D" t="WorkGiverDef" key="ARS_2077_DoBillsWorkbench.label"><s>make Cyberpunk 2077 weapons</s><r>сделать оружие Cyberpunk 2077</r></e>
+  <e k="D" t="WorkGiverDef" key="ARS_2077_DoBillsWorkbench.verb"><s>work at</s><r>работать в</r></e>
+</AutoTranslateCache>
