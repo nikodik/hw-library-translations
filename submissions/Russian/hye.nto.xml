@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="hye.nto" name="[HYE] Nanotech Overpower" language="Russian" version="1">
+  <e k="D" t="AbilityDef" key="Bolt.description"><s>ZEUS! YOUR SON HAS RETURNED!</s><r>ЗЕВС! ТВОЙ СЫН ВЕРНУЛСЯ!</r></e>
+  <e k="D" t="AbilityDef" key="Bolt.label"><s>bolt</s><r>болт</r></e>
+  <e k="D" t="AbilityDef" key="Ruin.description"><s>Overload the target with brainrot</s><r>Перегрузить цель мозговым гниением</r></e>
+  <e k="D" t="AbilityDef" key="Ruin.label"><s>ruin</s><r>разорение</r></e>
+  <e k="D" t="AbilityDef" key="ShadowStep.description"><s>/tp</s><r>/ТП</r></e>
+  <e k="D" t="AbilityDef" key="ShadowStep.label"><s>shadowstep</s><r>шаг тени</r></e>
+  <e k="D" t="AbilityDef" key="Stormfall.description"><s>LET THE SEAS BOIL!</s><r>ПУСТЬ МОРЯ КИПЯТ!</r></e>
+  <e k="D" t="AbilityDef" key="Stormfall.label"><s>stormfall</s><r>штормовой нагон</r></e>
+  <e k="D" t="AmmoCategoryDef" key="Nano_Energy.label"><s>nanotech energy</s><r>нанотехнологии энергетика</r></e>
+  <e k="D" t="AmmoCategoryDef" key="Nano_FMJ.label"><s>nanotech FMJ</s><r>нанотехнологии FMJ</r></e>
+  <e k="D" t="AmmoCategoryDef" key="Nano_Pellet.label"><s>nanotech pellet</s><r>нанотехнологические гранулы</r></e>
+  <e k="D" t="AmmoSetDef" key="AmmoSet_EMPNano.label"><s>EMP nanotech cartridge</s><r>Нанотехнологический картридж ЭМИ</r></e>
+  <e k="D" t="AmmoSetDef" key="AmmoSet_Nanoshot.label"><s>nanoshot shell</s><r>наношот снаряд</r></e>
+  <e k="D" t="AmmoSetDef" key="AmmoSet_Nanotech.label"><s>nanotech cartridge</s><r>нанотехнологический картридж</r></e>
+  <e k="D" t="AmmoSetDef" key="AmmoSet_StunnerNano.label"><s>stunner nanotech cartridge</s><r>парализующий нанотехнологический картридж</r></e>
+  <e k="D" t="ApparelLayerDef" key="NanoShieldSlot.label"><s>nanotech shield slot</s><r>слот для нанотехнического щита</r></e>
+  <e k="D" t="ApparelLayerDef" key="Nanoslot.label"><s>nanoaura slot</s><r>слот наноаура</r></e>
+  <e k="D" t="DesignatorDropdownGroupDef" key="NanotileArt_Group.label"><s>Artistic Nanotiles</s><r>Художественные наноплитки</r></e>
+  <e k="D" t="DesignatorDropdownGroupDef" key="NanotileMarble_Group.label"><s>Marble Nanotiles</s><r>Мраморные наноплиты</r></e>
+  <e k="D" t="DesignatorDropdownGroupDef" key="Nanotile_Group.label"><s>Nanotiles</s><r>Наноплитки</r></e>
+  <e k="D" t="GeneDef" key="ZetaGene.description"><s>Carriers of this gene have been blessed by the Nanotech Gods. Praise the Obelisk.</s><r>Носители этого гена были благословлены богами нанотехнологий. Слава Обелиску.</r></e>
+  <e k="D" t="GeneDef" key="ZetaGene.label"><s>zeta gene</s><r>дзета-ген</r></e>
+  <e k="D" t="HediffDef" key="Hediff_SFI.description"><s>Time to get freaky...</s><r>Время сходить с ума...</r></e>
+  <e k="D" t="HediffDef" key="Hediff_SFI.label"><s>Super Fertility Implant</s><r>Имплантат суперфертильности</r></e>
+  <e k="D" t="HediffDef" key="Hediff_SFI.labelNoun"><s>a nanotech fertility implant</s><r>нанотехнологический имплантат бесплодия</r></e>
+  <e k="D" t="HediffDef" key="MechOverlordHediff.description"><s>I'll be back. - Arnold.</s><r>Я вернусь. - Арнольд.</r></e>
+  <e k="D" t="HediffDef" key="MechOverlordHediff.label"><s>Mech Overlord Implant</s><r>Имплант «Механический Повелитель»</r></e>
+  <e k="D" t="HediffDef" key="MechOverlordHediff.labelNoun"><s>mech overlord implant</s><r>имплантат повелителя мехов</r></e>
+  <e k="D" t="HediffDef" key="NT_BeautyImplantHediff.description"><s>I'm feelin' bonita, baby!</s><r>Я чувствую себя хорошо, детка!</r></e>
+  <e k="D" t="HediffDef" key="NT_BeautyImplantHediff.label"><s>Beauty implant</s><r>Косметический имплантат</r></e>
+  <e k="D" t="HediffDef" key="NT_BeautyImplantHediff.labelNoun"><s>the beauty implant</s><r>имплант красоты</r></e>
+  <e k="D" t="HediffDef" key="NT_FeelGoodHediff.description"><s>Nanotech implant that gives massive mood boost to your pawns! A brave new world brought to you by Feel Good Inc.</s><r>Нанотехнологический имплант, который значительно повышает настроение вашим пешкам! Дивный новый мир, созданный компанией Feel Good Inc.</r></e>
+  <e k="D" t="HediffDef" key="NT_FeelGoodHediff.label"><s>FeelGood implant</s><r>Имплантат FeelGood</r></e>
+  <e k="D" t="HediffDef" key="NT_FeelGoodHediff.labelNoun"><s>the FeelGood implant</s><r>имплантат FeelGood</r></e>
+  <e k="D" t="HediffDef" key="NT_HermesImplantHediff.description"><s>gotta go fast</s><r>нужно идти быстро</r></e>
+  <e k="D" t="HediffDef" key="NT_HermesImplantHediff.label"><s>Hermes implant</s><r>Имплантат Гермес</r></e>
+  <e k="D" t="HediffDef" key="NT_HermesImplantHediff.labelNoun"><s>the hermes implant</s><r>имплант Гермеса</r></e>
+  <e k="D" t="HediffDef" key="NT_NanoSerumImplant.description"><s>I can finally play badminton</s><r>Наконец-то я могу играть в бадминтон</r></e>
+  <e k="D" t="HediffDef" key="NT_NanoSerumImplant.label"><s>Nanoserum</s><r>Наносыворотка</r></e>
+  <e k="D" t="HediffDef" key="NT_NanoSerumImplant.labelNoun"><s>the nanoserum</s><r>наносыворотка</r></e>
+  <e k="D" t="HediffDef" key="NanoBoostHigh.description"><s>Performance temporarily supercharged by nanotech boosters.</s><r>Производительность временно повышена за счет нанотехнологических усилителей.</r></e>
+  <e k="D" t="HediffDef" key="NanoBoostHigh.label"><s>nanoboost</s><r>нанобуст</r></e>
+  <e k="D" t="HediffDef" key="NanoMechBoost.description"><s>The SkyNet grows</s><r>Скайнет растет</r></e>
+  <e k="D" t="HediffDef" key="NanoMechBoost.label"><s>nanotech mechanoid boost</s><r>нанотехнологическое усиление механоида</r></e>
+  <e k="D" t="HediffDef" key="NullBiteImplant.description"><s>No more food for you, pal</s><r>Больше никакой еды для тебя, приятель</r></e>
+  <e k="D" t="HediffDef" key="NullBiteImplant.label"><s>NullBite implant</s><r>Имплантат NullBite</r></e>
+  <e k="D" t="HediffDef" key="NullBiteImplant.labelNoun"><s>the nullbite implant</s><r>имплантат нулевого прикуса</r></e>
+  <e k="D" t="HediffDef" key="PsykerHediff.description"><s>Reality will bend before me</s><r>Реальность прогнется передо мной</r></e>
+  <e k="D" t="HediffDef" key="PsykerHediff.label"><s>Psyker implant</s><r>Псайкерский имплантат</r></e>
+  <e k="D" t="HediffDef" key="PsykerHediff.labelNoun"><s>a nanotech psyker implant</s><r>нанотехнологический псайкерский имплантат</r></e>
+  <e k="D" t="HediffDef" key="RestlessImplant.description"><s>Insomnia simulator</s><r>Симулятор бессонницы</r></e>
+  <e k="D" t="HediffDef" key="RestlessImplant.label"><s>Restless implant</s><r>Беспокойный имплантат</r></e>
+  <e k="D" t="HediffDef" key="RestlessImplant.labelNoun"><s>the restless implant</s><r>беспокойный имплантат</r></e>
+  <e k="D" t="HediffDef" key="StoicImplant.description"><s>Eating without a table doesn't bother me anymore.</s><r>Еда без стола меня больше не беспокоит.</r></e>
+  <e k="D" t="HediffDef" key="StoicImplant.label"><s>Stoic implant</s><r>Стоический имплантат</r></e>
+  <e k="D" t="HediffDef" key="StoicImplant.labelNoun"><s>the stoic implant</s><r>стоический имплантат</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_EMPNano.jobString"><s>Assembling EMP nanotech cartridges.</s><r>Сборка нанотехнологических картриджей ЭМИ.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_EMPNano.label"><s>make EMP nanotech cartridge x100</s><r>сделать нанотехнологический картридж ЭМИ x100</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_Nanoshot.jobString"><s>Assembling nanoshot shells.</s><r>Сборка наношотовых снарядов.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_Nanoshot.label"><s>make nanoshot shells x250</s><r>сделать наношоты x250</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_Nanotech.jobString"><s>Making nanotech cartridges.</s><r>Изготовление нанотехнологических картриджей.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_Nanotech.label"><s>make nanotech cartridge x500</s><r>сделать нанотехнологический картридж x500</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_StunnerNano.jobString"><s>Assembling stunner nanotech cartridges.</s><r>Сборка парализующих нанотехнологических картриджей.</r></e>
+  <e k="D" t="RecipeDef" key="MakeAmmo_StunnerNano.label"><s>make stunner nanotech cartridge x200</s><r>сделать парализующий нанотехнологический картридж x200</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Anchovy.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Anchovy.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Anchovy.label"><s>Anchovy x10</s><r>Анчоусы x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Angelfish.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Angelfish.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Angelfish.label"><s>Angelfish x10</s><r>Рыба-ангел x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Anglerfish.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Anglerfish.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Anglerfish.label"><s>Anglerfish x10</s><r>Удильщик x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_BHD_Fentanyl.description"><s>Make something out of nanobots.</s><r>Сделайте что-нибудь из наноботов.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_BHD_Fentanyl.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_BHD_Fentanyl.label"><s>apache x10</s><r>апач х10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_BHD_Meth.description"><s>Make something out of nanobots.</s><r>Сделайте что-нибудь из наноботов.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_BHD_Meth.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_BHD_Meth.label"><s>blue sky x10</s><r>голубое небо х10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_BHD_Morphine.description"><s>Make something out of nanobots.</s><r>Сделайте что-нибудь из наноботов.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_BHD_Morphine.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_BHD_Morphine.label"><s>bliss x10</s><r>блаженство х10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_BlackTruffles.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_BlackTruffles.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_BlackTruffles.label"><s>Black Truffels x50</s><r>Черные трюфели x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_BlueGel.description"><s>Make something out of nanobots.</s><r>Сделайте что-нибудь из наноботов.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_BlueGel.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_BlueGel.label"><s>Blue Gel x50</s><r>Синий гель x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_CE_FSX.description"><s>Forge something out of nanobots.</s><r>Сделай что-нибудь из наноботов.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_CE_FSX.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_CE_FSX.label"><s>FSX x50</s><r>ФСХ х50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_CE_Prometheum.description"><s>Forge something out of nanobots.</s><r>Сделай что-нибудь из наноботов.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_CE_Prometheum.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_CE_Prometheum.label"><s>Prometheum x50</s><r>Прометей x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_CE_Psycho.description"><s>Make something out of nanobots.</s><r>Сделайте что-нибудь из наноботов.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_CE_Psycho.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_CE_Psycho.label"><s>psycho x10</s><r>психо х10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_ChirashizushiBowlSimple.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_ChirashizushiBowlSimple.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_ChirashizushiBowlSimple.label"><s>Chirashizushi Bowl (simple) x10</s><r>Чаша Чирасизуси (простая) x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Clownfish.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Clownfish.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Clownfish.label"><s>Clownfish x10</s><r>Рыба-клоун x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Eel.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Eel.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Eel.label"><s>Eel x10</s><r>Продвижение x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Goldfish.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Goldfish.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Goldfish.label"><s>Goldfish x10</s><r>Золотая рыбка х10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Haddock.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Haddock.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Haddock.label"><s>Haddock x10</s><r>Пикша x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Halibut.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Halibut.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Halibut.label"><s>Halibut x10</s><r>Палтус x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Herring.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Herring.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Herring.label"><s>Herring x10</s><r>Селедка х10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Hexagel.description"><s>Make something out of nanobots.</s><r>Сделайте что-нибудь из наноботов.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Hexagel.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Hexagel.label"><s>Hexagel x50</s><r>Гексагель х50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Koi.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Koi.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Koi.label"><s>Koi x10</s><r>Кои x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Lobster.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Lobster.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Lobster.label"><s>Lobster x10</s><r>Омар х10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Mackerel.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Mackerel.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Mackerel.label"><s>Mackerel x10</s><r>Скумбрия x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Minnow.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Minnow.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Minnow.label"><s>Minnow x10</s><r>Минноу x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_NightMilk.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_NightMilk.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_NightMilk.label"><s>Night Milk x50</s><r>Ночное молоко x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Perch.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Perch.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Perch.label"><s>Perch x10</s><r>Окунь х10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Pufferfish.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Pufferfish.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Pufferfish.label"><s>Pufferfish x10</s><r>Иглобрюх x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_AgaveNectar.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_AgaveNectar.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_AgaveNectar.label"><s>Agave Nectar x50</s><r>Нектар агавы x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Ale.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Ale.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Ale.label"><s>Ale x10</s><r>Но х10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_AmbrosiaNectar.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_AmbrosiaNectar.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_AmbrosiaNectar.label"><s>Ambrosia Nectar x10</s><r>Нектар амброзии x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Arrack.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Arrack.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Arrack.label"><s>Arrack x10</s><r>Арак x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Brandy.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Brandy.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Brandy.label"><s>Brandy x10</s><r>Бренди х10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_CannedFruit.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_CannedFruit.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_CannedFruit.label"><s>Canned Fruit x50</s><r>Консервированные фрукты x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_CannedMeal.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_CannedMeal.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_CannedMeal.label"><s>Canned Meal x10</s><r>Консервы x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_CannedMeat.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_CannedMeat.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_CannedMeat.label"><s>Canned Meat x50</s><r>Консервы мясные x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_CannedVegetables.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_CannedVegetables.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_CannedVegetables.label"><s>Canned Vegetables x50</s><r>Консервированные овощи x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Cheese.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Cheese.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Cheese.label"><s>Cheese x50</s><r>Сыр х50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Cider.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Cider.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Cider.label"><s>Cider x10</s><r>Сидр х10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Coffee.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Coffee.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Coffee.label"><s>Coffee x10</s><r>Кофе х10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_DriedFruit.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_DriedFruit.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_DriedFruit.label"><s>Dried Fruit x10</s><r>Сухофрукты x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_DriedMeat.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_DriedMeat.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_DriedMeat.label"><s>Dried Meat x10</s><r>Сушеное мясо x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Eggnog.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Eggnog.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Eggnog.label"><s>Eggnog x10</s><r>Эгг-ног x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_EnergyDrink.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_EnergyDrink.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_EnergyDrink.label"><s>Energy Drink x10</s><r>Энергетический напиток x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Everclear.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Everclear.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Everclear.label"><s>Everclear x10</s><r>Эверклир x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_ExtravagantMeal.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_ExtravagantMeal.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_ExtravagantMeal.label"><s>Extravagant Meal x10</s><r>Экстравагантная еда x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Flour.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Flour.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Flour.label"><s>Flour x50</s><r>Мука х50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_FruitPreserves.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_FruitPreserves.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_FruitPreserves.label"><s>Fruit Preserves x50</s><r>Фруктовое варенье x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_FruitSoda.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_FruitSoda.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_FruitSoda.label"><s>Fruit Soda x10</s><r>Фруктовая газировка x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_FruitWine.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_FruitWine.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_FruitWine.label"><s>Fruit Wine x10</s><r>Фруктовое вино x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Gin.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Gin.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Gin.label"><s>Gin x10</s><r>Джин х10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_GreenTea.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_GreenTea.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_GreenTea.label"><s>Green Tea x10</s><r>Зеленый чай x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Grog.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Grog.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Grog.label"><s>Grog x10</s><r>Грог х10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Hardtack.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Hardtack.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Hardtack.label"><s>Hardtack x10</s><r>Хардтак x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Honey.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Honey.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Honey.label"><s>Honey x50</s><r>Мед х50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Kumis.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Kumis.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Kumis.label"><s>Kumis x10</s><r>Резина x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Mead.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Mead.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Mead.label"><s>Mead x10</s><r>Медовуха x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_MealCandy.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_MealCandy.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_MealCandy.label"><s>Candy x10</s><r>Конфеты х10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_MealChocolateIceCream.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_MealChocolateIceCream.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_MealChocolateIceCream.label"><s>Chocolate Ice Cream x10</s><r>Шоколадное мороженое x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_MealCrisps.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_MealCrisps.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_MealCrisps.label"><s>Crisps x10</s><r>Чипсы x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_MealCrustyPeanuts.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_MealCrustyPeanuts.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_MealCrustyPeanuts.label"><s>Crusty Peanuts x10</s><r>Хрустящий арахис x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_MealCupcake.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_MealCupcake.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_MealCupcake.label"><s>Cupcake x10</s><r>Кекс х10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_MealIceCream.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_MealIceCream.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_MealIceCream.label"><s>Ice Cream x10</s><r>Мороженое x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_MealJuice.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_MealJuice.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_MealJuice.label"><s>Fruit Juice x10</s><r>Фруктовый сок x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_MealPastry.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_MealPastry.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_MealPastry.label"><s>Pastry x10</s><r>Выпечка x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_MilkCurd.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_MilkCurd.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_MilkCurd.label"><s>Milk Curds x50</s><r>Молочный творог x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Moonshine.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Moonshine.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Moonshine.label"><s>Moonshine x10</s><r>Самогон х10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_PickleBrine.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_PickleBrine.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_PickleBrine.label"><s>Pickle Brine x50</s><r>Огуречный рассол x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_PickledVegetables.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_PickledVegetables.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_PickledVegetables.label"><s>Pickled Vegetables x10</s><r>Маринованные овощи x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Pizza.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Pizza.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Pizza.label"><s>Pizza x10</s><r>Пицца х10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_PreparedFruit.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_PreparedFruit.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_PreparedFruit.label"><s>Prepared Fruit x50</s><r>Готовые фрукты x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawApples.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawApples.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawApples.label"><s>Raw Apples x50</s><r>Сырые яблоки x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawAsparagus.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawAsparagus.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawAsparagus.label"><s>Raw Asparagus x50</s><r>Сырая спаржа x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawBanana.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawBanana.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawBanana.label"><s>Raw Bananas x50</s><r>Сырые бананы x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawBarley.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawBarley.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawBarley.label"><s>Raw Barley x50</s><r>Сырой ячмень x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawBeets.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawBeets.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawBeets.label"><s>Raw Beets x50</s><r>Сырая свекла x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawBreadfruit.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawBreadfruit.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawBreadfruit.label"><s>Raw Breadfruit x50</s><r>Сырые плоды хлебного дерева x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawCabbages.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawCabbages.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawCabbages.label"><s>Raw Cabbages x50</s><r>Сырая капуста x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawCactusFruit.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawCactusFruit.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawCactusFruit.label"><s>Raw Cactus Fruit x50</s><r>Сырые плоды кактуса x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawCarrots.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawCarrots.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawCarrots.label"><s>Raw Carrots x50</s><r>Сырая морковь x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawCherries.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawCherries.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawCherries.label"><s>Raw Cherries x50</s><r>Сырая вишня x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawChickpeas.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawChickpeas.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawChickpeas.label"><s>Raw Chickpeas x50</s><r>Сырой нут x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawCocoaBeans.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawCocoaBeans.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawCocoaBeans.label"><s>Raw Cocoa Beans x50</s><r>Сырые какао-бобы x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawCoconut.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawCoconut.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawCoconut.label"><s>Raw Coconuts x50</s><r>Сырые кокосы x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawCoffeeBeans.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawCoffeeBeans.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawCoffeeBeans.label"><s>Raw Coffee Beans x50</s><r>Сырые кофейные зерна x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawCucumbers.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawCucumbers.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawCucumbers.label"><s>Raw Cucumbers x50</s><r>Сырые огурцы x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawDurians.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawDurians.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawDurians.label"><s>Raw Durians x50</s><r>Сырые дурианы x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawEggplants.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawEggplants.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawEggplants.label"><s>Raw Eggplants x50</s><r>Сырые баклажаны x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawFigs.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawFigs.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawFigs.label"><s>Raw Figs x50</s><r>Сырой инжир x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawGrapes.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawGrapes.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawGrapes.label"><s>Raw Grapes x50</s><r>Сырой виноград x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawJuniperBerries.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawJuniperBerries.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawJuniperBerries.label"><s>Raw Juniper Berries x50</s><r>Сырые ягоды можжевельника x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawMelons.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawMelons.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawMelons.label"><s>Raw Melons x50</s><r>Сырые дыни x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawOats.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawOats.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawOats.label"><s>Raw Oats x50</s><r>Сырой овес x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawOnion.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawOnion.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawOnion.label"><s>Raw Onion x50</s><r>Сырой лук x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawOrange.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawOrange.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawOrange.label"><s>Raw Oranges x50</s><r>Сырые апельсины x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawPeaches.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawPeaches.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawPeaches.label"><s>Raw Peaches x50</s><r>Сырые персики x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawPecans.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawPecans.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawPecans.label"><s>Raw Pecans x50</s><r>Сырые орехи пекан x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawPeppers.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawPeppers.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawPeppers.label"><s>Raw Peppers x50</s><r>Сырой перец x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawPineapples.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawPineapples.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawPineapples.label"><s>Raw Pineapples x50</s><r>Сырые ананасы x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawPlums.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawPlums.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawPlums.label"><s>Raw Plums x50</s><r>Сырые сливы x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawPomegranates.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawPomegranates.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawPomegranates.label"><s>Raw Pomegranates x50</s><r>Сырые гранаты x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawPumpkins.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawPumpkins.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawPumpkins.label"><s>Raw Pumpkins x50</s><r>Сырые тыквы x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawQuinoa.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawQuinoa.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawQuinoa.label"><s>Raw Quinoa x50</s><r>Сырая киноа x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawSnapPeas.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawSnapPeas.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawSnapPeas.label"><s>Raw Snap Peas x50</s><r>Сырой горошек x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawSorghum.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawSorghum.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawSorghum.label"><s>Raw Sorghum x50</s><r>Сырое сорго x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawSoybean.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawSoybean.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawSoybean.label"><s>Raw Soybeans x50</s><r>Сырые соевые бобы x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawSugarBeets.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawSugarBeets.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawSugarBeets.label"><s>Raw Sugar Beets x50</s><r>Сырая сахарная свекла x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawSugarcane.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawSugarcane.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawSugarcane.label"><s>Raw Sugarcane x50</s><r>Сырой сахарный тростник x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawTeaLeaves.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawTeaLeaves.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawTeaLeaves.label"><s>Raw Tea Leaves x50</s><r>Сырые чайные листья x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawTomato.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawTomato.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawTomato.label"><s>Raw Tomato x50</s><r>Сырой помидор x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawTruffles.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawTruffles.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawTruffles.label"><s>Raw Truffles x50</s><r>Сырые трюфели x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawWheat.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawWheat.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawWheat.label"><s>Raw Wheat x50</s><r>Сырая пшеница x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawYams.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawYams.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_RawYams.label"><s>Raw Yams x50</s><r>Сырой ямс x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Rubaboo.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Rubaboo.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Rubaboo.label"><s>Rubaboo x10</s><r>Рубабу x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Rum.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Rum.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Rum.label"><s>Rum x10</s><r>Комната х10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Sake.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Sake.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Sake.label"><s>Sake x10</s><r>Саке х10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Stout.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Stout.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Stout.label"><s>Stout x10</s><r>Стаут x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Sugar.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Sugar.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Sugar.label"><s>Sugar x50</s><r>Сахар х50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Syrup.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Syrup.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Syrup.label"><s>Syrup x50</s><r>Сироп х50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Tequila.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Tequila.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Tequila.label"><s>Tequila x10</s><r>Текила х10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_ThickPottage.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_ThickPottage.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_ThickPottage.label"><s>Thick Pottage x10</s><r>Густая похлебка x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_ThinPottage.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_ThinPottage.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_ThinPottage.label"><s>Thin Pottage x10</s><r>Тонкая похлебка x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Tofu.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Tofu.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Tofu.label"><s>Tofu x50</s><r>Тофу х50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_TrimmedMeat.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_TrimmedMeat.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_TrimmedMeat.label"><s>Trimmed Meat x50</s><r>Обрезанное мясо x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_VegetableJuice.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_VegetableJuice.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_VegetableJuice.label"><s>Vegetable Juice x10</s><r>Овощной сок x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Vodka.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Vodka.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Vodka.label"><s>Vodka x10</s><r>Водка х10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Whiskey.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Whiskey.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Whiskey.label"><s>Whiskey x10</s><r>Виски х10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Wine.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Wine.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_RC2_Wine.label"><s>Wine x10</s><r>Вино х10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_SkySteel.description"><s>Make something out of nanobots.</s><r>Сделайте что-нибудь из наноботов.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_SkySteel.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_SkySteel.label"><s>Sky Steel x50</s><r>Небесная сталь x50</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Sprat.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Sprat.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Sprat.label"><s>Sprat x10</s><r>Этаж х10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Swordfish.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Swordfish.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Swordfish.label"><s>Swordfish x10</s><r>Рыба-меч x10</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Trout.description"><s>Let him cook.</s><r>Пусть он готовит.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Trout.jobString"><s>Working with nanotechnology.</s><r>Работаем с нанотехнологиями.</r></e>
+  <e k="D" t="RecipeDef" key="NTR_Trout.label"><s>Trout x10</s><r>Форель х10</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.description"><s>You shouldn't be seeing this. Praise the Obelisk.</s><r>Вы не должны этого видеть. Слава Обелиску.</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.0"><s>subject-&gt;innovation's path</s><r>subject-&gt;путь инноваций</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.1"><s>subject_story-&gt;unveiled simple truths behind complex phenomena</s><r>subject_story-&gt;раскрыл простые истины, стоящие за сложными явлениями</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.10"><s>subject-&gt;seeds of tomorrow</s><r>subject-&gt;семена завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.11"><s>subject_story-&gt;planted ideas that would grow into transformative solutions</s><r>subject_story-&gt;посадил идеи, которые переросли в преобразующие решения</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.12"><s>subject_story-&gt;cultivated a garden of knowledge, ripe with potential</s><r>subject_story-&gt;возделывал сад знаний, полный потенциала</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.13"><s>subject_story-&gt;nurtured the roots of change with care and foresight</s><r>subject_story-&gt;заботливо и дальновидно взращивали корни перемен</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.14"><s>subject_gerund-&gt;sowing the future with today’s discoveries</s><r>subject_gerund-&gt;сея будущее с сегодняшними открытиями</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.15"><s>subject-&gt;the ripple of curiosity</s><r>subject-&gt;волна любопытства</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.16"><s>subject_story-&gt;set forth waves of inquiry that echoed through time</s><r>subject_story-&gt;излагать волны исследований, которые эхом отдавались во времени</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.17"><s>subject_story-&gt;dropped pebbles of innovation into the pond of knowledge</s><r>subject_story-&gt;бросил камешки инноваций в пруд знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.18"><s>subject_story-&gt;watched as one question led to another, expanding the circle of understanding</s><r>subject_story-&gt;наблюдал, как один вопрос влек за собой другой, расширяя круг понимания</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.19"><s>subject_gerund-&gt;casting stones to create waves of progress</s><r>subject_gerund-&gt;бросать камни для создания волн прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.2"><s>subject_story-&gt;simplified the intricate to make way for practical applications</s><r>subject_story-&gt;упростил сложную задачу, освободив место для практического применения</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.20"><s>subject-&gt;the alchemy of progress</s><r>subject-&gt;алхимия прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.21"><s>subject_story-&gt;merged disparate disciplines to unlock new realms of possibility</s><r>subject_story-&gt;объединили разрозненные дисциплины, чтобы открыть новые сферы возможностей</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.22"><s>subject_story-&gt;turned the impossible into the inevitable through sheer ingenuity</s><r>subject_story-&gt;превратил невозможное в неизбежное благодаря своей изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.23"><s>subject_story-&gt;crafted solutions that reshaped the understanding of what's achievable</s><r>subject_story-&gt;разработанные решения, которые изменили понимание того, что достижимо</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.24"><s>subject_gerund-&gt;blending science and magic into the fabric of reality</s><r>subject_gerund-&gt;смешивание науки и магии в ткань реальности</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.25"><s>subject-&gt;the tapestry of discovery</s><r>subject-&gt;гобелен открытий</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.26"><s>subject_story-&gt;wove together threads of knowledge from the four corners of the world</s><r>subject_story-&gt;сплели воедино нити знаний из четырех уголков мира</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.27"><s>subject_story-&gt;revealed patterns in the chaos, charting paths to untold innovations</s><r>subject_story-&gt;выявил закономерности в хаосе, проложив пути к неисчислимым инновациям</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.28"><s>subject_story-&gt;embroidered the annals of history with tales of serendipitous breakthroughs</s><r>subject_story-&gt;украсили анналы истории рассказами о счастливых открытиях</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.29"><s>subject_gerund-&gt;weaving the future from the loom of the present</s><r>subject_gerund-&gt;плетение будущего на станке настоящего</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.3"><s>subject_story-&gt;harnessed basic principles to achieve remarkable feats</s><r>subject_story-&gt;использовал основные принципы для достижения выдающихся подвигов</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.30"><s>subject-&gt;the crucible of creation</s><r>subject-&gt;тигель творения</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.31"><s>subject_story-&gt;fused raw elements into the building blocks of tomorrow</s><r>subject_story-&gt;соединил необработанные элементы в строительные блоки завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.32"><s>subject_story-&gt;tempered the fires of creativity to forge unprecedented technologies</s><r>subject_story-&gt;умерил огонь творчества, чтобы создать беспрецедентные технологии</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.33"><s>subject_story-&gt;quenched the thirst for knowledge with the elixir of invention</s><r>subject_story-&gt;утолил жажду знаний эликсиром изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.34"><s>subject_gerund-&gt;molding the raw materials of today into the artifacts of the future</s><r>subject_gerund-&gt;превращение сегодняшнего сырья в артефакты будущего</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.35"><s>subject-&gt;the beacon of enlightenment</s><r>subject-&gt;маяк просвещения</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.36"><s>subject_story-&gt;illuminated the dark corners of ignorance, guiding the way forward</s><r>subject_story-&gt;освещал темные уголки невежества, указывая путь вперед</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.37"><s>subject_story-&gt;cast light on the unknown, making the unseen visible to curious minds</s><r>subject_story-&gt;пролить свет на неизведанное, сделать невидимое видимым для любопытных умов</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.38"><s>subject_story-&gt;ignited the flames of curiosity, kindling a worldwide pursuit of understanding</s><r>subject_story-&gt;зажег пламя любопытства, разжигая стремление к пониманию во всем мире.</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.39"><s>subject_gerund-&gt;lighting the torches of progress and knowledge</s><r>subject_gerund-&gt;зажигая факелы прогресса и знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.4"><s>subject_gerund-&gt;streamlining the essence of discovery</s><r>subject_gerund-&gt;оптимизация сути открытия</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.40"><s>subject-&gt;the frontier of knowledge</s><r>subject-&gt;граница знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.41"><s>subject_story-&gt;crossed new horizons in the pursuit of understanding</s><r>subject_story-&gt;пересек новые горизонты в поисках понимания</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.42"><s>subject_story-&gt;challenged the status quo with groundbreaking theories</s><r>subject_story-&gt;бросил вызов статус-кво с помощью новаторских теорий</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.43"><s>subject_story-&gt;merged ancient wisdom with modern technology for innovative solutions</s><r>subject_story-&gt;объединили древнюю мудрость с современными технологиями для инновационных решений</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.44"><s>subject_gerund-&gt;pushing the boundaries of science and art</s><r>subject_gerund-&gt;расширяя границы науки и искусства</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.45"><s>subject-&gt;the essence of innovation</s><r>subject-&gt;суть инноваций</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.46"><s>subject_story-&gt;transformed everyday materials into extraordinary tools</s><r>subject_story-&gt;превратил повседневные материалы в необычные инструменты</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.47"><s>subject_story-&gt;paved the way for future generations with sustainable practices</s><r>subject_story-&gt;проложили путь будущим поколениям с помощью устойчивых методов</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.48"><s>subject_story-&gt;harnessed the power of nature to fuel new advancements</s><r>subject_story-&gt;использовали силу природы для стимулирования новых достижений</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.49"><s>subject_gerund-&gt;fostering an ecosystem of creativity and progress</s><r>subject_gerund-&gt;содействие развитию экосистемы творчества и прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.5"><s>subject-&gt;building blocks of progress</s><r>subject-&gt;строительные блоки прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.50"><s>subject-&gt;the architects of tomorrow</s><r>subject-&gt;архитекторы завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.51"><s>subject_story-&gt;built the foundations for a utopia where technology serves all</s><r>subject_story-&gt;заложил основы утопии, где технологии служат всем</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.52"><s>subject_story-&gt;envisioned a future where harmony between technology and nature thrives</s><r>subject_story-&gt;представлял будущее, в котором процветает гармония между технологиями и природой</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.53"><s>subject_story-&gt;crafted tools that empower humanity to reach its fullest potential</s><r>subject_story-&gt;созданные инструменты, которые позволяют человечеству полностью раскрыть свой потенциал</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.54"><s>subject_gerund-&gt;laying the keystones for future landscapes</s><r>subject_gerund-&gt;закладываем краеугольные камни для будущих пейзажей</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.55"><s>subject-&gt;exploratory leaps</s><r>subject-&gt;исследовательские прыжки</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.56"><s>subject_story-&gt;stepped boldly into uncharted territories of knowledge</s><r>subject_story-&gt;смело шагнул на неизведанные территории знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.57"><s>subject_story-&gt;bridged the gap between the known and the unknown</s><r>subject_story-&gt;преодолел разрыв между известным и неизвестным</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.58"><s>subject_story-&gt;ventured where curiosity dared to lead</s><r>subject_story-&gt;рискнул туда, где любопытство осмелилось привести</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.59"><s>subject_gerund-&gt;embarking on journeys of discovery</s><r>subject_gerund-&gt;отправляясь в путешествие открытий</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.6"><s>subject_story-&gt;laid the groundwork for monumental leaps forward</s><r>subject_story-&gt;заложил основу для монументального скачка вперед</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.60"><s>subject-&gt;the essence of ingenuity</s><r>subject-&gt;суть изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.61"><s>subject_story-&gt;transformed challenges into opportunities for growth</s><r>subject_story-&gt;превратил проблемы в возможности для роста</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.62"><s>subject_story-&gt;applied creative thinking to overcome traditional obstacles</s><r>subject_story-&gt;применил творческое мышление для преодоления традиционных препятствий</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.63"><s>subject_story-&gt;crafted elegant solutions with a blend of art and science</s><r>subject_story-&gt;созданные элегантные решения, сочетающие искусство и науку</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.64"><s>subject_gerund-&gt;unlocking potential through innovation</s><r>subject_gerund-&gt;раскрытие потенциала через инновации</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.65"><s>subject-&gt;knowledge’s harvest</s><r>subject-&gt;урожай знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.66"><s>subject_story-&gt;gathered insights as one reaps the fields at harvest</s><r>subject_story-&gt;собирал идеи, когда собираешь урожай на полях</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.67"><s>subject_story-&gt;cultivated a bounty of understanding from the seeds of inquiry</s><r>subject_story-&gt;вырастил щедрость понимания из семян исследования</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.68"><s>subject_story-&gt;shared the fruits of research with the world</s><r>subject_story-&gt;поделился плодами исследований со всем миром</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.69"><s>subject_gerund-&gt;reaping the rewards of relentless curiosity</s><r>subject_gerund-&gt;пожинать плоды неустанного любопытства</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.7"><s>subject_story-&gt;connected dots across disciplines to reveal new insights</s><r>subject_story-&gt;связали точки между дисциплинами, чтобы выявить новые идеи</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.70"><s>subject-&gt;the puzzle of progress</s><r>subject-&gt;загадка прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.71"><s>subject_story-&gt;assembled the pieces of mystery to reveal the big picture</s><r>subject_story-&gt;собрал кусочки тайны, чтобы раскрыть общую картину</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.72"><s>subject_story-&gt;matched theory with practice to solve longstanding puzzles</s><r>subject_story-&gt;сочетать теорию с практикой для решения давних загадок</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.73"><s>subject_story-&gt;uncovered hidden connections that unlocked new possibilities</s><r>subject_story-&gt;раскрыл скрытые связи, которые открыли новые возможности</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.74"><s>subject_gerund-&gt;piecing together the elements of advancement</s><r>subject_gerund-&gt;собираем воедино элементы продвижения</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.8"><s>subject_story-&gt;crafted the foundation upon which future innovations stand</s><r>subject_story-&gt;создали основу, на которой стоят будущие инновации</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.generalRules.rulesStrings.9"><s>subject_gerund-&gt;laying down the keystones of advancement</s><r>subject_gerund-&gt;закладывая краеугольные камни продвижения</r></e>
+  <e k="D" t="ResearchProjectDef" key="NT_NanotechUnlocked.label"><s>Nanotechnology</s><r>Нанотехнологии</r></e>
+  <e k="D" t="TerrainDef" key="FineTileNanotech.description"><s>Could play chess on it.</s><r>На нем можно было бы играть в шахматы.</r></e>
+  <e k="D" t="TerrainDef" key="FineTileNanotech.label"><s>fine nanotech tile</s><r>тонкая нанотехнологическая плитка</r></e>
+  <e k="D" t="TerrainDef" key="MarbleTileFour.description"><s>more like bavarium</s><r>больше похоже на Баварию</r></e>
+  <e k="D" t="TerrainDef" key="MarbleTileFour.label"><s>nanomarble tile &quot;cobalt&quot;</s><r>плитка из наномрамора &quot;кобальт&quot;</r></e>
+  <e k="D" t="TerrainDef" key="MarbleTileFove.description"><s>probably safe to step on</s><r>наверное, безопасно наступать</r></e>
+  <e k="D" t="TerrainDef" key="MarbleTileFove.label"><s>nanomarble tile &quot;furrow&quot;</s><r>плитка из наномрамора &quot;борозда&quot;</r></e>
+  <e k="D" t="TerrainDef" key="MarbleTileOne.description"><s>flexing in nanotech style</s><r>изгиб в стиле нанотехнологий</r></e>
+  <e k="D" t="TerrainDef" key="MarbleTileOne.label"><s>nanomarble tile &quot;tempest&quot;</s><r>плитка из наномрамора &quot;Буря&quot;</r></e>
+  <e k="D" t="TerrainDef" key="MarbleTileThree.description"><s>getting hot here</s><r>здесь становится жарко</r></e>
+  <e k="D" t="TerrainDef" key="MarbleTileThree.label"><s>nanomarble tile &quot;vulcan&quot;</s><r>плитка из наномрамора &quot;вулкан&quot;</r></e>
+  <e k="D" t="TerrainDef" key="MarbleTileTwo.description"><s>insert cyberpunk2077 annoying OST</s><r>вставь надоедливый OST Cyberpunk2077</r></e>
+  <e k="D" t="TerrainDef" key="MarbleTileTwo.label"><s>nanomarble tile &quot;dark-future&quot;</s><r>плитка из наномрамора &quot;темное будущее&quot;</r></e>
+  <e k="D" t="TerrainDef" key="NanoCarpetFine.description"><s>This thing looks expensive</s><r>Эта вещь выглядит дорого</r></e>
+  <e k="D" t="TerrainDef" key="NanoCarpetFine.label"><s>nanotech fine carpet</s><r>нанотехнологический тонкий ковер</r></e>
+  <e k="D" t="TerrainDef" key="Nanoflagstone.description"><s>Looks walkable...</s><r>Выглядит проходимо...</r></e>
+  <e k="D" t="TerrainDef" key="Nanoflagstone.label"><s>Nanoflagstone</s><r>Нанофлагстон</r></e>
+  <e k="D" t="TerrainDef" key="Nanofluid.description"><s>Impassable, water-like fluid.</s><r>Непроницаемая, похожая на воду жидкость.</r></e>
+  <e k="D" t="TerrainDef" key="Nanofluid.label"><s>nanofluid</s><r>наножидкость</r></e>
+  <e k="D" t="TerrainDef" key="Nanofluid.tools.0.label"><s>water</s><r>вода</r></e>
+  <e k="D" t="TerrainDef" key="Nanohexcarpet.description"><s>Beehive comfy look</s><r>Улей удобный вид</r></e>
+  <e k="D" t="TerrainDef" key="Nanohexcarpet.label"><s>nano hex carpet</s><r>нано шестигранный ковер</r></e>
+  <e k="D" t="TerrainDef" key="Nanohextile.description"><s>Beehive look</s><r>Улей взгляд</r></e>
+  <e k="D" t="TerrainDef" key="Nanohextile.label"><s>nano hex tile</s><r>нано шестигранная плитка</r></e>
+  <e k="D" t="TerrainDef" key="Nanomorbidcarpet.description"><s>beautiful marbel-looking</s><r>красивый мраморный вид</r></e>
+  <e k="D" t="TerrainDef" key="Nanomorbidcarpet.label"><s>nano morbid carpet</s><r>нано болезненный ковер</r></e>
+  <e k="D" t="TerrainDef" key="Nanomorbidtile.description"><s>big tires were here</s><r>здесь были большие шины</r></e>
+  <e k="D" t="TerrainDef" key="Nanomorbidtile.label"><s>nano morbid tile</s><r>нано болезненная плитка</r></e>
+  <e k="D" t="TerrainDef" key="Nanosoil.description"><s>Extremely fertile soil, will grow plants in an instant.</s><r>Чрезвычайно плодородная почва, растения мгновенно растут.</r></e>
+  <e k="D" t="TerrainDef" key="Nanosoil.label"><s>nanosoil</s><r>нанопочва</r></e>
+  <e k="D" t="TerrainDef" key="Nanosoil.tools.0.label"><s>dirt</s><r>грязь</r></e>
+  <e k="D" t="TerrainDef" key="Nanospikecoretile.description"><s>Hmmm spikey</s><r>Хм, спайки</r></e>
+  <e k="D" t="TerrainDef" key="Nanospikecoretile.label"><s>nano spikecore tile</s><r>нано плитка с шипами</r></e>
+  <e k="D" t="TerrainDef" key="Nanostonetile.description"><s>Good taste for your high-tech castle.</s><r>Хороший вкус для вашего высокотехнологичного замка.</r></e>
+  <e k="D" t="TerrainDef" key="Nanostonetile.label"><s>Nanostone tile</s><r>Нанокамень плитка</r></e>
+  <e k="D" t="TerrainDef" key="Nanotile.description"><s>Walking tiles made of nanobots. Extremely beautiful and pristine.</s><r>Ходячие плитки из наноботов. Невероятно красивый и нетронутый.</r></e>
+  <e k="D" t="TerrainDef" key="Nanotile.label"><s>nanotile</s><r>наноплитка</r></e>
+  <e k="D" t="TerrainDef" key="Nanototemictile.description"><s>Reminds me of terraria</s><r>Напоминает Террарию</r></e>
+  <e k="D" t="TerrainDef" key="Nanototemictile.label"><s>nano totemic tile</s><r>нано тотемическая плитка</r></e>
+  <e k="D" t="ThingCategoryDef" key="Ammo_EMPNanotech.label"><s>EMP nanotech cartridge</s><r>Нанотехнологический картридж ЭМИ</r></e>
+  <e k="D" t="ThingCategoryDef" key="Ammo_Nanoshot.label"><s>nanoshot shell</s><r>наношот снаряд</r></e>
+  <e k="D" t="ThingCategoryDef" key="Ammo_Nanotech.label"><s>nanotech cartridge</s><r>нанотехнологический картридж</r></e>
+  <e k="D" t="ThingCategoryDef" key="Ammo_StunnerNanotech.label"><s>stunner nanotech cartridge</s><r>парализующий нанотехнологический картридж</r></e>
+  <e k="D" t="ThingDef" key="Ammo_EMPNano.description"><s>Nanotech projectile designed to emit EMP effects on impact.
+
+Nanotech energy:
+
+
+Используются в:</s><r>Nanotech projectile designed to emit EMP effects on impact.
+
+Nanotech energy:
+
+
+Используются в:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_EMPNano.label"><s>EMP nanotech cartridge</s><r>Нанотехнологический картридж ЭМИ</r></e>
+  <e k="D" t="ThingDef" key="Ammo_NanoblasterBullet.description"><s>Extremely powerful nanotech bullet.
+
+Nanotech FMJ:
+
+
+Используются в:</s><r>Extremely powerful nanotech bullet.
+
+Nanotech FMJ:
+
+
+Используются в:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_NanoblasterBullet.label"><s>nanotech cartridge</s><r>нанотехнологический картридж</r></e>
+  <e k="D" t="ThingDef" key="Ammo_NanoshotShell.description"><s>Nanotechnological shotgun shell containing a swarm of self-guiding pellets.
+
+Nanotech pellet:
+
+
+Используются в:</s><r>Nanotechnological shotgun shell containing a swarm of self-guiding pellets.
+
+Nanotech pellet:
+
+
+Используются в:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_NanoshotShell.label"><s>nanoshot shell</s><r>наношот снаряд</r></e>
+  <e k="D" t="ThingDef" key="Ammo_StunnerNano.description"><s>Nanotech projectile designed to incapacitate a single target on impact.
+
+Nanotech energy:
+
+
+Используются в:</s><r>Nanotech projectile designed to incapacitate a single target on impact.
+
+Nanotech energy:
+
+
+Используются в:</r></e>
+  <e k="D" t="ThingDef" key="Ammo_StunnerNano.label"><s>stunner nanotech cartridge</s><r>парализующий нанотехнологический картридж</r></e>
+  <e k="D" t="ThingDef" key="Artillery_NanoMortar.description"><s>Mortar launcher. Lobs bombs over walls.</s><r>Минометная установка. Бросает бомбы через стены.</r></e>
+  <e k="D" t="ThingDef" key="Artillery_NanoMortar.label"><s>mortar</s><r>ступка</r></e>
+  <e k="D" t="ThingDef" key="Artillery_NanoMortar.verbs.0.label"><s>mortar</s><r>ступка</r></e>
+  <e k="D" t="ThingDef" key="Bullet_BulletNano.label"><s>terminator laser</s><r>терминатор лазер</r></e>
+  <e k="D" t="ThingDef" key="Bullet_ChargeNano.label"><s>charged nanoshot</s><r>заряженный наношот</r></e>
+  <e k="D" t="ThingDef" key="Bullet_EMPNano.label"><s>EMP nanopulse</s><r>ЭМИ-наноимпульс</r></e>
+  <e k="D" t="ThingDef" key="Bullet_NanoWarhead.label"><s>nanotech warhead</s><r>нанотехнологическая боеголовка</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Nanostickturret.label"><s>nanoturret bullet</s><r>нанотурельная пуля</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Nanosurge.label"><s>nanosurge laser</s><r>нанохирургический лазер</r></e>
+  <e k="D" t="ThingDef" key="Bullet_Nanoturret.label"><s>nanoturret bullet</s><r>нанотурельная пуля</r></e>
+  <e k="D" t="ThingDef" key="Bullet_PainNano.label"><s>anesthetic dart</s><r>анестезирующий дротик</r></e>
+  <e k="D" t="ThingDef" key="Bullet_ShotgunNano.label"><s>shotgun pellets</s><r>дробовые дроби</r></e>
+  <e k="D" t="ThingDef" key="Bullet_SniperNano.label"><s>sniper pulse</s><r>снайперский пульс</r></e>
+  <e k="D" t="ThingDef" key="CE_EMPNano.label"><s>EMP nanotech bullet</s><r>ЭМИ-нанотехнологическая пуля</r></e>
+  <e k="D" t="ThingDef" key="CE_Nanobullet.label"><s>nanotech bullet</s><r>нанотехнологическая пуля</r></e>
+  <e k="D" t="ThingDef" key="CE_NanoshotPellet.label"><s>nanoshot pellet</s><r>нанодролевая гранула</r></e>
+  <e k="D" t="ThingDef" key="CE_StunnerNano.label"><s>stunner nanotech bullet</s><r>парализующая нанотехнологическая пуля</r></e>
+  <e k="D" t="ThingDef" key="LYN_Nanocabinet.description"><s>Massively increases speed of workbenches and research benches.</s><r>Значительно увеличивает скорость верстаков и исследовательских стендов.</r></e>
+  <e k="D" t="ThingDef" key="LYN_Nanocabinet.label"><s>nanocabinet</s><r>нанокабинет</r></e>
+  <e k="D" t="ThingDef" key="NT_BeautyImplantThing.comps.1.useLabel"><s>Self-inject Beauty implant</s><r>Самостоятельная инъекция косметического имплантата</r></e>
+  <e k="D" t="ThingDef" key="NT_BeautyImplantThing.description"><s>Nanotech implant that will make your pawns as bonita as the creator of this mod</s><r>Нанотехнологический имплант, который сделает ваших пешек такими же прекрасными, как создатель этого мода.</r></e>
+  <e k="D" t="ThingDef" key="NT_BeautyImplantThing.label"><s>beauty implant</s><r>косметический имплантат</r></e>
+  <e k="D" t="ThingDef" key="NT_FeelGoodThing.comps.1.useLabel"><s>Self-inject FeelGood implant</s><r>Самостоятельно вводимый имплантат FeelGood</r></e>
+  <e k="D" t="ThingDef" key="NT_FeelGoodThing.description"><s>Nanotech implant that gives massive mood boost to your pawns! A brave new world brought to you by Feel Good Inc.</s><r>Нанотехнологический имплант, который значительно повышает настроение вашим пешкам! Дивный новый мир, созданный компанией Feel Good Inc.</r></e>
+  <e k="D" t="ThingDef" key="NT_FeelGoodThing.label"><s>FeelGood implant</s><r>Имплантат FeelGood</r></e>
+  <e k="D" t="ThingDef" key="NT_HermesImplantThing.comps.1.useLabel"><s>Self-inject Hermes implant</s><r>Самостоятельно вводимый имплантат Гермеса</r></e>
+  <e k="D" t="ThingDef" key="NT_HermesImplantThing.description"><s>Nanotech implant that will make your pawns as fast as a badminton player.</s><r>Нанотехнологический имплант, который сделает ваших пешек такими же быстрыми, как игрока в бадминтон.</r></e>
+  <e k="D" t="ThingDef" key="NT_HermesImplantThing.label"><s>hermes implant</s><r>гермес имплантат</r></e>
+  <e k="D" t="ThingDef" key="NT_MechOverlord.comps.1.useLabel"><s>Self-inject Mech Overlord Implant</s><r>Самостоятельно вводимый имплантат Mech Overlord</r></e>
+  <e k="D" t="ThingDef" key="NT_MechOverlord.description"><s>I am SkyNet.</s><r>Я Скайнет.</r></e>
+  <e k="D" t="ThingDef" key="NT_MechOverlord.label"><s>Mech Overlord Implant</s><r>Имплант «Механический Повелитель»</r></e>
+  <e k="D" t="ThingDef" key="NT_NanoSerum.comps.1.useLabel"><s>Self-inject NanoSerum</s><r>Самостоятельное введение NanoSerum</r></e>
+  <e k="D" t="ThingDef" key="NT_NanoSerum.description"><s>A nanotech serum produced with the intention of creating a super soldier.</s><r>Нанотехнологическая сыворотка, созданная с целью создания суперсолдата.</r></e>
+  <e k="D" t="ThingDef" key="NT_NanoSerum.label"><s>nanoserum</s><r>наносыворотка</r></e>
+  <e k="D" t="ThingDef" key="NT_Nanobots.description"><s>A pack containing extremely versatile nanobots that can turn into any matter.</s><r>Набор, содержащий чрезвычайно универсальных нанороботов, способных превращаться в любую материю.</r></e>
+  <e k="D" t="ThingDef" key="NT_Nanobots.label"><s>nanobots</s><r>наноботы</r></e>
+  <e k="D" t="ThingDef" key="NT_Nanobots.stuffProps.stuffAdjective"><s>nanotech</s><r>нанотехнологии</r></e>
+  <e k="D" t="ThingDef" key="NT_NullBiteImplant.comps.1.useLabel"><s>Self-inject Nullbite Implant</s><r>Самостоятельно вводимый имплантат Nullbite</r></e>
+  <e k="D" t="ThingDef" key="NT_NullBiteImplant.description"><s>Uses nanotechnology to supply the body with pure energy from the quantum foam, disabling the need for Food.</s><r>Использует нанотехнологии для снабжения организма чистой энергией из квантовой пены, отключая потребность в еде.</r></e>
+  <e k="D" t="ThingDef" key="NT_NullBiteImplant.label"><s>nullbite implant</s><r>нулевой имплантат</r></e>
+  <e k="D" t="ThingDef" key="NT_RestlessImplant.comps.1.useLabel"><s>Self-inject Restless Implant</s><r>Самостоятельная инъекция беспокойного имплантата</r></e>
+  <e k="D" t="ThingDef" key="NT_RestlessImplant.description"><s>Very OP version of the circadian half-cycler. Disables the need for Sleep.</s><r>Очень ОП-версия циркадного полуцикла. Отключает необходимость сна.</r></e>
+  <e k="D" t="ThingDef" key="NT_RestlessImplant.label"><s>restless implant</s><r>беспокойный имплантат</r></e>
+  <e k="D" t="ThingDef" key="NT_StoicImplant.comps.1.useLabel"><s>Self-inject Stoic Implant</s><r>Самостоятельная инъекция стоического имплантата</r></e>
+  <e k="D" t="ThingDef" key="NT_StoicImplant.description"><s>[Insert Seneca quote]. Disables the need for Comfort.</s><r>[Вставьте цитату Сенеки]. Отключает потребность в Комфорте.</r></e>
+  <e k="D" t="ThingDef" key="NT_StoicImplant.label"><s>stoic implant</s><r>стоический имплантат</r></e>
+  <e k="D" t="ThingDef" key="NT_sunlamp.comps.2.offMessage"><s>Shhh, the plants are napping!</s><r>Тсс, растения дремлют!</r></e>
+  <e k="D" t="ThingDef" key="NT_sunlamp.description"><s>Sunlamp design by Nanotechnology engineers to sustain plant growth in a huge radius, providing good heat and consuming no power at all.</s><r>Конструкция солнечной лампы, разработанная инженерами-нанотехнологами, поддерживает рост растений в огромном радиусе, обеспечивая хорошее тепло и вообще не потребляя энергии.</r></e>
+  <e k="D" t="ThingDef" key="NT_sunlamp.label"><s>nanotech sun lamp</s><r>нанотехнологическая солнечная лампа</r></e>
+  <e k="D" t="ThingDef" key="NT_walllamp.description"><s>wall lamp on steroids.</s><r>настенная лампа на стероидах.</r></e>
+  <e k="D" t="ThingDef" key="NT_walllamp.label"><s>nanotech wall lamp</s><r>нанотехнологический настенный светильник</r></e>
+  <e k="D" t="ThingDef" key="NT_wallsunlamp.comps.2.offMessage"><s>Shhh, the plants are napping!</s><r>Тсс, растения дремлют!</r></e>
+  <e k="D" t="ThingDef" key="NT_wallsunlamp.description"><s>nanotech wall sunlamp because yes</s><r>настенная лампа для загара из нанотехнологий, потому что да</r></e>
+  <e k="D" t="ThingDef" key="NT_wallsunlamp.label"><s>nanotech wall sunlamp</s><r>нанотехнологическая настенная лампа для загара</r></e>
+  <e k="D" t="ThingDef" key="NanoArmor.description"><s>Can withstand warheads.</s><r>Может противостоять боеголовкам.</r></e>
+  <e k="D" t="ThingDef" key="NanoArmor.label"><s>nanotech armor</s><r>нанотехнологическая броня</r></e>
+  <e k="D" t="ThingDef" key="NanoBoost.description"><s>An experimental booster with no addiction or side effects. Delivers a short burst of extreme performance.</s><r>Экспериментальный бустер без привыкания и побочных эффектов. Обеспечивает кратковременный всплеск экстремальной производительности.</r></e>
+  <e k="D" t="ThingDef" key="NanoBoost.ingestible.ingestCommandString"><s>Take {0}</s><r>Возьми {0}</r></e>
+  <e k="D" t="ThingDef" key="NanoBoost.ingestible.ingestReportString"><s>Taking {0}.</s><r>Берём {0}.</r></e>
+  <e k="D" t="ThingDef" key="NanoBoost.label"><s>nanoboost</s><r>нанобуст</r></e>
+  <e k="D" t="ThingDef" key="NanoCooler.description"><s>Frostbite machine.</s><r>Машина для замораживания.</r></e>
+  <e k="D" t="ThingDef" key="NanoCooler.label"><s>Nanocooler</s><r>Нанокулер</r></e>
+  <e k="D" t="ThingDef" key="NanoFieldExtender.description"><s>OP version of the Grav Field Extender.</s><r>ОП-версия Grav Field Extender.</r></e>
+  <e k="D" t="ThingDef" key="NanoFieldExtender.label"><s>nanotech field extender</s><r>нанотехнологический расширитель поля</r></e>
+  <e k="D" t="ThingDef" key="NanoHeater.description"><s>Keepin' it warm and cozy.</s><r>Пусть будет тепло и уютно.</r></e>
+  <e k="D" t="ThingDef" key="NanoHeater.label"><s>Nanoheater</s><r>Нанонагреватель</r></e>
+  <e k="D" t="ThingDef" key="NanoHelmet.description"><s>Helmet made from nanobots, capable of withstanding almost any hit. Completely airtight and toxic-resistant.</s><r>Шлем, сделанный из нанороботов, способен выдержать практически любой удар. Полностью герметичен и токсичен.</r></e>
+  <e k="D" t="ThingDef" key="NanoHelmet.label"><s>Nanotech Helmet</s><r>Нанотехнологический шлем</r></e>
+  <e k="D" t="ThingDef" key="NanoHoldingPlatform.description"><s>Catching SCPs has never been easier!</s><r>Ловля SCP никогда не была проще!</r></e>
+  <e k="D" t="ThingDef" key="NanoHoldingPlatform.label"><s>nanotech holding platform</s><r>нанотехнологическая холдинговая платформа</r></e>
+  <e k="D" t="ThingDef" key="NanoIED.description"><s>Big Nanotech Warhead attached to a motion sensor = big kaboom.</s><r>Большая нанотехническая боеголовка, прикрепленная к датчику движения = большой треп.</r></e>
+  <e k="D" t="ThingDef" key="NanoIED.label"><s>Nanotech IED trap</s><r>Нанотехнологическая ловушка СВУ</r></e>
+  <e k="D" t="ThingDef" key="NanoLance.description"><s>Error 404: mech not found</s><r>Ошибка 404: механизм не найден.</r></e>
+  <e k="D" t="ThingDef" key="NanoLance.label"><s>Nanolance</s><r>Наноланс</r></e>
+  <e k="D" t="ThingDef" key="NanoLance.tools.0.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="NanoLance.tools.1.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="NanoLance.tools.2.label"><s>scope</s><r>объем</r></e>
+  <e k="D" t="ThingDef" key="NanoLance.verbs.0.label"><s>Nanolance</s><r>Наноланс</r></e>
+  <e k="D" t="ThingDef" key="NanoMeal.description"><s>Tastes like home.</s><r>На вкус как дома.</r></e>
+  <e k="D" t="ThingDef" key="NanoMeal.label"><s>nanomeal</s><r>наномил</r></e>
+  <e k="D" t="ThingDef" key="NanoMechBooster.description"><s>OP version of the Biotech Mech Booster. Doesn't require energy to work, has a huge range and massively boosts both speed and work speed. Affects only allied mechs.</s><r>ОП-версия биотехнологического усилителя мехов. Не требует энергии для работы, имеет огромный радиус действия и значительно повышает скорость и скорость работы. Действует только на союзных мехов.</r></e>
+  <e k="D" t="ThingDef" key="NanoMechBooster.label"><s>nano mech booster</s><r>наномеханический усилитель</r></e>
+  <e k="D" t="ThingDef" key="NanoMedicine.description"><s>Super OP medicine.</s><r>Супер ОП лекарство.</r></e>
+  <e k="D" t="ThingDef" key="NanoMedicine.label"><s>Nanomedicine</s><r>Наномедицина</r></e>
+  <e k="D" t="ThingDef" key="NanoMinigun.description"><s>You see that mountain, soldier? Yes sir! I don't like it. Yes sir!</s><r>Видишь эту гору, солдат? Да, сэр! Мне это не нравится. Да, сэр!</r></e>
+  <e k="D" t="ThingDef" key="NanoMinigun.label"><s>Nanominigun</s><r>Наноминиган</r></e>
+  <e k="D" t="ThingDef" key="NanoMinigun.tools.0.label"><s>barrel cluster</s><r>бочковая группа</r></e>
+  <e k="D" t="ThingDef" key="NanoMinigun.tools.1.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="NanoMinigun.verbs.0.label"><s>Nanominigun</s><r>Наноминиган</r></e>
+  <e k="D" t="ThingDef" key="NanoMortar.description"><s>They won't even know where it came from.</s><r>Они даже не узнают, откуда оно взялось.</r></e>
+  <e k="D" t="ThingDef" key="NanoMortar.label"><s>nanotech mortar</s><r>нанотехнологический раствор</r></e>
+  <e k="D" t="ThingDef" key="NanoProximityDetector.description"><s>A scanner capable of detecting invisible creatures. The device raises an alarm when it detects the presence of psychically invisible biosignatures within its radius.</s><r>Сканер, способный обнаруживать невидимых существ. Устройство поднимает тревогу, когда обнаруживает присутствие психически невидимых биосигнатур в пределах своего радиуса действия.</r></e>
+  <e k="D" t="ThingDef" key="NanoProximityDetector.label"><s>nanotech proximity detector</s><r>нанотехнологический датчик приближения</r></e>
+  <e k="D" t="ThingDef" key="NanoRegenerator.description"><s>A nanotech emitter that repairs structures and items, regenerates living tissue within a radius, cleans everything inside and puts out fires. Praise the Obelisk.</s><r>Нанотехнологический излучатель, который ремонтирует конструкции и предметы, регенерирует живые ткани в радиусе, очищает всё внутри и тушит пожары. Слава Обелиску.</r></e>
+  <e k="D" t="ThingDef" key="NanoRegenerator.label"><s>Nanotech Obelisk</s><r>Нанотехнологический обелиск</r></e>
+  <e k="D" t="ThingDef" key="NanoShieldBelt.description"><s>Shield belt made from Nanotechnology. Has huge shield capacity and very fast recharge rate, also your pawns can fire while wearing it.</s><r>Пояс-щит, изготовленный с помощью нанотехнологий. Имеет огромную емкость щита и очень быструю скорость перезарядки, а также ваши пешки могут стрелять во время его ношения.</r></e>
+  <e k="D" t="ThingDef" key="NanoShieldBelt.label"><s>Nanotech shield belt</s><r>Нанотехнологический щитовой пояс</r></e>
+  <e k="D" t="ThingDef" key="NanoShieldGenerator.description"><s>Small shield generator with huge health that protects your base against shells/bombs and projectiles. Turtle maxxing.</s><r>Маленький генератор щита с огромным запасом здоровья, который защищает вашу базу от снарядов/бомб и снарядов. Черепаха максимизирует.</r></e>
+  <e k="D" t="ThingDef" key="NanoShieldGenerator.label"><s>nano hybrid shield</s><r>наногибридный щит</r></e>
+  <e k="D" t="ThingDef" key="NanoShieldGeneratorLarge.description"><s>Larger version of the normal hybrid-shield. Covers a bigger radius.</s><r>Увеличенная версия обычного гибридного щита. Охватывает больший радиус.</r></e>
+  <e k="D" t="ThingDef" key="NanoShieldGeneratorLarge.label"><s>nano hybrid shield (large)</s><r>наногибридный щит (большой)</r></e>
+  <e k="D" t="ThingDef" key="NanoShotgun.description"><s>Very balanced weapon, of course</s><r>Очень сбалансированное оружие, конечно.</r></e>
+  <e k="D" t="ThingDef" key="NanoShotgun.label"><s>Nanoshotgun</s><r>Нанодробовик</r></e>
+  <e k="D" t="ThingDef" key="NanoShotgun.tools.0.label"><s>barrel cluster</s><r>бочковая группа</r></e>
+  <e k="D" t="ThingDef" key="NanoShotgun.tools.1.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="NanoShotgun.verbs.0.label"><s>Nanoshotgun</s><r>Нанодробовик</r></e>
+  <e k="D" t="ThingDef" key="NanoShuttle.comps.1.cooldownEndedMessage"><s>{0} is ready to launch again.</s><r>{0} снова готов к запуску.</r></e>
+  <e k="D" t="ThingDef" key="NanoShuttle.comps.3.fuelGizmoLabel"><s>Nanobots</s><r>Наноботы</r></e>
+  <e k="D" t="ThingDef" key="NanoShuttle.comps.3.fuelLabel"><s>Nanobots</s><r>Наноботы</r></e>
+  <e k="D" t="ThingDef" key="NanoShuttle.description"><s>Utimate flying machine capable of traversing the world without refueling once.</s><r>Совершенная летательная машина, способная пересечь мир без единой дозаправки.</r></e>
+  <e k="D" t="ThingDef" key="NanoShuttle.label"><s>Nanoshuttle</s><r>Наночелнок</r></e>
+  <e k="D" t="ThingDef" key="NanoShuttleIncoming.label"><s>nanoshuttle (incoming)</s><r>наносаттл (входящий)</r></e>
+  <e k="D" t="ThingDef" key="NanoShuttleLeaving.label"><s>passenger shuttle (leaving)</s><r>пассажирский шаттл (отправление)</r></e>
+  <e k="D" t="ThingDef" key="NanoSmelter.description"><s>Convert nearly any material into Nanobots or recycle them back to their primary resources.</s><r>Превратите практически любой материал в наноботов или переработайте их обратно в первичные ресурсы.</r></e>
+  <e k="D" t="ThingDef" key="NanoSmelter.label"><s>nanotech smelter</s><r>нанотехнологический завод</r></e>
+  <e k="D" t="ThingDef" key="NanoSniper.description"><s>360 no scope doritos illuminati</s><r>360 без прицела доритос иллюминаты</r></e>
+  <e k="D" t="ThingDef" key="NanoSniper.label"><s>Nanosniper</s><r>Наноснайпер</r></e>
+  <e k="D" t="ThingDef" key="NanoSniper.tools.0.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="NanoSniper.tools.1.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="NanoSniper.tools.2.label"><s>scope</s><r>объем</r></e>
+  <e k="D" t="ThingDef" key="NanoSniper.verbs.0.label"><s>Nanosniper</s><r>Наноснайпер</r></e>
+  <e k="D" t="ThingDef" key="NanoStick.description"><s>Don't fck with me! I have the power of God and anime on my side! AAAAAGHHHHH - (This stick makes the target anesthetic on hit, like instantly, even wearing armor. Perfect for capturing prisoners.)</s><r>Не трахайся со мной! На моей стороне сила Бога и аниме! AAAAAGHHHHH — (Эта палка вызывает у цели анестезию при ударе, как будто мгновенно, даже в доспехах. Идеально подходит для захвата пленников.)</r></e>
+  <e k="D" t="ThingDef" key="NanoStick.label"><s>NanoStick</s><r>НаноСтик</r></e>
+  <e k="D" t="ThingDef" key="NanoStick.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="NanoStick.tools.1.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="NanoStick.tools.2.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="NanoStick.verbs.0.label"><s>strike</s><r>ударять</r></e>
+  <e k="D" t="ThingDef" key="NanoStickTurret.description"><s>instantly downs enemies with anesthetics while tickling from afar with a not-so-pretty-looking thing (the lion doesn't concern itself with centering the weapon sprite)</s><r>моментально сбивает врагов анестетиками, издалека щекоча не очень красивой штукой (лев не заботится о центрировании спрайта оружия)</r></e>
+  <e k="D" t="ThingDef" key="NanoStickTurret.label"><s>nanostick turret</s><r>наностик турель</r></e>
+  <e k="D" t="ThingDef" key="NanoStickTurretGun.description"><s>This shall suffice.</s><r>Этого будет достаточно.</r></e>
+  <e k="D" t="ThingDef" key="NanoStickTurretGun.label"><s>nanostick turret gun</s><r>наностик турельный пистолет</r></e>
+  <e k="D" t="ThingDef" key="NanoStickTurretGun.verbs.0.label"><s>nanostick turret gun</s><r>наностик турельный пистолет</r></e>
+  <e k="D" t="ThingDef" key="NanoStove.description"><s>Nanotech table for food and raw edible resources.</s><r>Нанотехнологический стол для продуктов питания и сырья.</r></e>
+  <e k="D" t="ThingDef" key="NanoStove.label"><s>Nanostove</s><r>Нанос</r></e>
+  <e k="D" t="ThingDef" key="NanoStunner.description"><s>A precision sniper rifle that fires a single anesthetic dart. One shot, one nap.</s><r>Точная снайперская винтовка, стреляющая одним дротиком с анестетиком. Один выстрел, один сон.</r></e>
+  <e k="D" t="ThingDef" key="NanoStunner.label"><s>nano anesthetic sniper</s><r>нано-анестезирующий снайпер</r></e>
+  <e k="D" t="ThingDef" key="NanoStunner.tools.0.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="NanoStunner.tools.1.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="NanoSword.description"><s>Guess you can say I'm a 'bladerunner'...?</s><r>Думаю, ты можешь сказать, что я «бегущий по лезвию»…?</r></e>
+  <e k="D" t="ThingDef" key="NanoSword.label"><s>nanosword</s><r>наномеч</r></e>
+  <e k="D" t="ThingDef" key="NanoSword.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="NanoSword.tools.1.label"><s>edge</s><r>край</r></e>
+  <e k="D" t="ThingDef" key="NanoSword.tools.2.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="NanoTurret.description"><s>Brr brr like the A10 Warthog.</s><r>Брр-брр, как A10 Warthog.</r></e>
+  <e k="D" t="ThingDef" key="NanoTurret.label"><s>nanoturret</s><r>нанотурель</r></e>
+  <e k="D" t="ThingDef" key="NanoTurretGun.description"><s>NanoGatling gun made to decimate intruders.</s><r>Пистолет НаноГатлинг, созданный для уничтожения злоумышленников.</r></e>
+  <e k="D" t="ThingDef" key="NanoTurretGun.label"><s>nanoturret gun</s><r>нанотурельная пушка</r></e>
+  <e k="D" t="ThingDef" key="NanoTurretGun.verbs.0.label"><s>nanoturret gun</s><r>нанотурельная пушка</r></e>
+  <e k="D" t="ThingDef" key="NanoWallcooler.description"><s>Cooler than you</s><r>Круче, чем ты</r></e>
+  <e k="D" t="ThingDef" key="NanoWallcooler.label"><s>nanotech wall cooler</s><r>нанотехнологический настенный кулер</r></e>
+  <e k="D" t="ThingDef" key="NanoWallheater.description"><s>Hotter than you</s><r>Горячее, чем ты</r></e>
+  <e k="D" t="ThingDef" key="NanoWallheater.label"><s>nanotech wall heater</s><r>нанотехнологический настенный обогреватель</r></e>
+  <e k="D" t="ThingDef" key="NanoWarhead.description"><s>Keep it away from children.</s><r>Держите его подальше от детей.</r></e>
+  <e k="D" t="ThingDef" key="NanoWarhead.label"><s>nanotech warhead</s><r>нанотехнологическая боеголовка</r></e>
+  <e k="D" t="ThingDef" key="NanoWastepackAtomizer.description"><s>A nanotech device that deconstructs toxic wastepacks into inert gases (yes, it farts) using advanced molecular processes. The process requires little amounts of power despite its incredible efficiency.</s><r>Нанотехнологическое устройство, которое разлагает пакеты с токсичными отходами на инертные газы (да, оно пукает) с помощью передовых молекулярных процессов. Этот процесс требует небольшого количества энергии, несмотря на его невероятную эффективность.</r></e>
+  <e k="D" t="ThingDef" key="NanoWastepackAtomizer.label"><s>nanotech wastepack atomizer</s><r>распылитель нанотехнологических отходов</r></e>
+  <e k="D" t="ThingDef" key="Nano_OmniTrainer.comps.1.useLabel"><s>Use Omnitrainer</s><r>Используйте Омнитренер</r></e>
+  <e k="D" t="ThingDef" key="Nano_OmniTrainer.comps.2.floatTextKey"><s>All skills trained</s><r>Все навыки отработаны</r></e>
+  <e k="D" t="ThingDef" key="Nano_OmniTrainer.description"><s>Tired of being a LOSER? This new Nanotech device will make your pawns Legendary Masters in EVERY SKILL in a SECOND!</s><r>Устали быть ЛУЗЕРОМ? Это новое нанотехнологическое устройство сделает ваших пешек легендарными мастерами в КАЖДОМ НАВЫКЕ за СЕКУНДУ!</r></e>
+  <e k="D" t="ThingDef" key="Nano_OmniTrainer.label"><s>Nanotech Omnitrainer</s><r>Нанотех Омнитренер</r></e>
+  <e k="D" t="ThingDef" key="Nano_SuperRecharger.description"><s>This thing charges Mechanoids instantly, costs no power, produces little to no waste and can be used by ALL tiers of mechanoids.</s><r>Эта штука мгновенно заряжает механоидов, не требует энергии, практически не производит отходов и может использоваться механоидами ВСЕХ уровней.</r></e>
+  <e k="D" t="ThingDef" key="Nano_SuperRecharger.label"><s>nano mech recharger</s><r>наномеханическое зарядное устройство</r></e>
+  <e k="D" t="ThingDef" key="Nanoaura.description"><s>An invisible, intangible cloud of nanobots linked to the wearer. It will protect you against everything, and greatly increase your stats.</s><r>Невидимое, неосязаемое облако наноботов, связанное с владельцем. Он защитит вас от всего и значительно повысит ваши характеристики.</r></e>
+  <e k="D" t="ThingDef" key="Nanoaura.label"><s>nanoaura</s><r>нанометры</r></e>
+  <e k="D" t="ThingDef" key="Nanobattery.description"><s>Stores a massive amount of power, and also works as a fuse!</s><r>Хранит огромное количество энергии, а также работает как предохранитель!</r></e>
+  <e k="D" t="ThingDef" key="Nanobattery.label"><s>nanobattery</s><r>нанобатарея</r></e>
+  <e k="D" t="ThingDef" key="Nanobiolab.description"><s>Allows you to use nanotechnology to craft medicine, drugs and implants. Even modded ones.</s><r>Позволяет использовать нанотехнологии для создания лекарств, лекарств и имплантатов. Даже модифицированные.</r></e>
+  <e k="D" t="ThingDef" key="Nanobiolab.label"><s>nanobiolab</s><r>нанобиолаборатория</r></e>
+  <e k="D" t="ThingDef" key="Nanoblaster.description"><s>Nanomachines, son! (this thing can solo pretty much any faction, modded or not. Use carefully, you have been warned.)</s><r>Наномашины, сынок! (Эта штука может работать в одиночку практически с любой фракцией, модифицированной или нет. Используйте осторожно, вас предупредили.)</r></e>
+  <e k="D" t="ThingDef" key="Nanoblaster.label"><s>Nanoblaster</s><r>Нанобластер</r></e>
+  <e k="D" t="ThingDef" key="Nanoblaster.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="Nanoblaster.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="Nanoblaster.verbs.0.label"><s>Nanoblaster</s><r>Нанобластер</r></e>
+  <e k="D" t="ThingDef" key="Nanochest.description"><s>Chest made of Nanobots infused with a blackhole for your unlimited storage problems.</s><r>Сундук, сделанный из наноботов, наполненных черной дырой, для решения ваших неограниченных проблем с хранением.</r></e>
+  <e k="D" t="ThingDef" key="Nanochest.label"><s>nanochest</s><r>наносундук</r></e>
+  <e k="D" t="ThingDef" key="Nanofabricator.description"><s>Allows you to use nanotechnology to craft nearly every resource.</s><r>Позволяет использовать нанотехнологии для создания практически любого ресурса.</r></e>
+  <e k="D" t="ThingDef" key="Nanofabricator.label"><s>Nanofabricator</s><r>Нанофабрикатор</r></e>
+  <e k="D" t="ThingDef" key="Nanoforge.description"><s>Allows you to use nanotechnology to craft nearly all weapons, armor and gadgets available.</s><r>Позволяет использовать нанотехнологии для создания практически любого доступного оружия, доспехов и гаджетов.</r></e>
+  <e k="D" t="ThingDef" key="Nanoforge.label"><s>Nanoforge</s><r>Нанофордж</r></e>
+  <e k="D" t="ThingDef" key="Nanogenerator.description"><s>Produces ungodly ammounts of power for free. Can also be carried around!</s><r>Бесплатно производит безбожное количество энергии. Можно и носить с собой!</r></e>
+  <e k="D" t="ThingDef" key="Nanogenerator.label"><s>nanogenerator</s><r>наногенератор</r></e>
+  <e k="D" t="ThingDef" key="Nanorice.description"><s>Some delicious synthetic berries, rich in protein. Can be eaten raw, and doesn't rot.</s><r>Несколько вкусных синтетических ягод, богатых белком. Его можно есть сырым, он не гниет.</r></e>
+  <e k="D" t="ThingDef" key="Nanorice.label"><s>Nanoberries</s><r>Наноягоды</r></e>
+  <e k="D" t="ThingDef" key="Nanosurge.description"><s>This is not a laser pointer.</s><r>Это не лазерная указка.</r></e>
+  <e k="D" t="ThingDef" key="Nanosurge.label"><s>nanosurge</s><r>нанохирургия</r></e>
+  <e k="D" t="ThingDef" key="Nanosurge.tools.0.label"><s>barrels</s><r>бочки</r></e>
+  <e k="D" t="ThingDef" key="Nanosurge.verbs.0.label"><s>nanosurge</s><r>нанохирургия</r></e>
+  <e k="D" t="ThingDef" key="PsykerImplantThing.comps.1.useLabel"><s>Self-inject Psyker implant</s><r>Самостоятельно вводимый имплантат Psyker</r></e>
+  <e k="D" t="ThingDef" key="PsykerImplantThing.description"><s>Yes, touch the glowing plasma ball...</s><r>Да, прикоснитесь к светящемуся плазменному шару...</r></e>
+  <e k="D" t="ThingDef" key="PsykerImplantThing.label"><s>psyker implant</s><r>псайкерский имплантат</r></e>
+  <e k="D" t="ThingDef" key="Thing_SFI.comps.1.useLabel"><s>Self-inject Super Fertility Implant</s><r>Самостоятельно вводимый имплантат Super Fertility</r></e>
+  <e k="D" t="ThingDef" key="Thing_SFI.description"><s>A nanotech fertility implant for boosting population.</s><r>Нанотехнологический имплантат бесплодия для увеличения численности населения.</r></e>
+  <e k="D" t="ThingDef" key="Thing_SFI.label"><s>super fertility implant</s><r>супер имплантат фертильности</r></e>
+  <e k="D" t="ThoughtDef" key="FeelGoodThought.stages.0.description"><s>Pop the happy pills for only $9.99 a month!</s><r>Принимайте таблетки счастья всего за 9,99 долларов в месяц!</r></e>
+  <e k="D" t="ThoughtDef" key="FeelGoodThought.stages.0.label"><s>FeelGood implant</s><r>Имплантат FeelGood</r></e>
+  <e k="D" t="ThoughtDef" key="NanoBoostThought.stages.0.description"><s>Nanomachines, son!</s><r>Наномашины, сынок!</r></e>
+  <e k="D" t="ThoughtDef" key="NanoBoostThought.stages.0.label"><s>Took NanoBoost</s><r>Взял НаноБуст</r></e>
+  <e k="D" t="ThoughtDef" key="NanoMealThought.stages.0.description"><s>Tastes like home</s><r>Вкус как дома</r></e>
+  <e k="D" t="ThoughtDef" key="NanoMealThought.stages.0.label"><s>Ate a NanoMeal</s><r>Съел наноеду</r></e>
+  <e k="D" t="ThoughtDef" key="NanoSerumThought.stages.0.description"><s>This thing tickles</s><r>Эта штука щекочет</r></e>
+  <e k="D" t="ThoughtDef" key="NanoSerumThought.stages.0.label"><s>nanoserum</s><r>наносыворотка</r></e>
+  <e k="D" t="ThoughtDef" key="NanoriceThought.stages.0.description"><s>THIS THING IS AMAZING!</s><r>ЭТО УДИВИТЕЛЬНО!</r></e>
+  <e k="D" t="ThoughtDef" key="NanoriceThought.stages.0.label"><s>ate Nanorice</s><r>сестра Нанорис</r></e>
+  <e k="D" t="TransportShipDef" key="Ship_NanoShuttle.label"><s>NanoShuttle</s><r>НаноШаттл</r></e>
+  <e k="D" t="WorkGiverDef" key="Nanobills.gerund"><s>nanocrafting</s><r>нанокрафтинг</r></e>
+  <e k="D" t="WorkGiverDef" key="Nanobills.verb"><s>nanocraft</s><r>нанокрафт</r></e>
+  <e k="D" t="WorkGiverDef" key="Nanocooking.gerund"><s>nanocooking</s><r>наноприготовление</r></e>
+  <e k="D" t="WorkGiverDef" key="Nanocooking.verb"><s>nanocook</s><r>наноповар</r></e>
+  <e k="D" t="WorkGiverDef" key="Nanoforging.gerund"><s>nanoforging</s><r>наноковка</r></e>
+  <e k="D" t="WorkGiverDef" key="Nanoforging.verb"><s>nanoforge</s><r>наноковка</r></e>
+  <e k="D" t="WorkGiverDef" key="Nanosmelting.gerund"><s>nanosmelting</s><r>наносплавка</r></e>
+  <e k="D" t="WorkGiverDef" key="Nanosmelting.verb"><s>nanosmelt</s><r>наносплавка</r></e>
+  <e k="D" t="WorkGiverDef" key="Nanosynthesizing.gerund"><s>nanosynthesizing</s><r>наносинтезирующий</r></e>
+  <e k="D" t="WorkGiverDef" key="Nanosynthesizing.verb"><s>nanosynthesize</s><r>наносинтезировать</r></e>
+</AutoTranslateCache>
