@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="vanillaexpanded.vcooke" name="Vanilla Cooking Expanded" language="Russian" version="1">
+  <e k="D" t="HediffDef" key="VCE_AteGourmetMeal.description"><s>This colonist consumed an incredible food.</s><r>Этот колонист потреблял невероятную еду.</r></e>
+  <e k="D" t="HediffDef" key="VCE_AteGourmetMeal.label"><s>consumed gourmet food (from meal)</s><r>употребляемые деликатесы (из еды)</r></e>
+  <e k="D" t="HediffDef" key="VCE_ConsumedAgave.description"><s>A thin and semi-sweet syrup extracted from agave, known for its healing and anti-inflammatory properties. Gives a 15% immunity gain speed boost for 24 hours.</s><r>Жидкий полусладкий сироп из агавы, известный своими целебными и противовоспалительными свойствами. Дает повышение скорости иммунитета на 15% на 24 часа.</r></e>
+  <e k="D" t="HediffDef" key="VCE_ConsumedAgave.label"><s>consumed maguey syrup (from meal)</s><r>потреблял сироп магуи (из еды)</r></e>
+  <e k="D" t="HediffDef" key="VCE_ConsumedDigestibleResurrectorNanites.description"><s>Resurrector nanites will resurrect this person as long as they are active. The effect lasts for 12 hours.</s><r>Наниты-воскресители воскресят этого человека, пока они активны. Эффект сохраняется в течение 12 часов.</r></e>
+  <e k="D" t="HediffDef" key="VCE_ConsumedDigestibleResurrectorNanites.label"><s>consumed resurrector nanites (from meal)</s><r>потребляемые наниты-воскресители (из еды)</r></e>
+  <e k="D" t="HediffDef" key="VCE_ConsumedHotSauce.description"><s>Consumed a potent, spicy sauce made from blending and simmering chilis and other spices. While particularly strong hot sauces hurt at first, they are known to numb pain and work up a warm sweat shortly after consumption. Boosts pain resistance by 15% and cold temperature resistance by 10ºC for 12 hours.</s><r>Употреблял мощный острый соус, приготовленный из смешивания и кипячения перца чили и других специй. Хотя особенно острые острые соусы поначалу причиняют боль, известно, что они притупляют боль и вызывают появление теплого пота вскоре после употребления. Повышает устойчивость к боли на 15% и устойчивость к холоду на 10°C на 12 часов.</r></e>
+  <e k="D" t="HediffDef" key="VCE_ConsumedHotSauce.label"><s>consumed hot sauce (from meal)</s><r>употреблял острый соус (из еды)</r></e>
+  <e k="D" t="HediffDef" key="VCE_ConsumedMayo.description"><s>Mayo is a thick emulsion of egg, oil, and other herbs. Mayonnaise, while terrible for you, adds a pleasing tang and is very calorically dense. It lowers hunger rate by 15% for 12 hours.</s><r>Майонез — густая эмульсия яиц, масла и других трав. Майонез, хотя и ужасен для вас, придает приятный привкус и очень калорийен. Снижает уровень голода на 15% на 12 часов.</r></e>
+  <e k="D" t="HediffDef" key="VCE_ConsumedMayo.label"><s>consumed mayo (from meal)</s><r>употреблял майонез (во время еды)</r></e>
+  <e k="D" t="HediffDef" key="VCE_ConsumedSpices.description"><s>Consumed a variety of aromatic and pungent spices, increases manipulation stat by 5% for 12 hours.</s><r>Употребление различных ароматных и острых специй повышает характеристики манипуляции на 5% на 12 часов.</r></e>
+  <e k="D" t="HediffDef" key="VCE_ConsumedSpices.label"><s>consumed spices (from meal)</s><r>потребляемые специи (из еды)</r></e>
+  <e k="D" t="HediffDef" key="VCE_SugarRush.description"><s>Sugar is easily converted into energy by the body, which may result in a nice burst of energy. It increases moving stat by 15% for 12 hours.</s><r>Сахар легко преобразуется организмом в энергию, что может привести к хорошему приливу энергии. Увеличивает характеристики передвижения на 15% на 12 часов.</r></e>
+  <e k="D" t="HediffDef" key="VCE_SugarRush.label"><s>consumed brown sugar (from meal)</s><r>потребляемый коричневый сахар (из еды)</r></e>
+  <e k="D" t="HediffDef" key="VCE_WellFed.description"><s>I have eaten a delicious and filling grilled meat. It lowers hunger rate by 35% for 12 hours.</s><r>Я съел вкусное и сытное мясо на гриле. Снижает уровень голода на 35% на 12 часов.</r></e>
+  <e k="D" t="HediffDef" key="VCE_WellFed.label"><s>well fed (from grilled meal)</s><r>сытый (из жареной еды)</r></e>
+  <e k="D" t="HediffDef" key="VCE_WellFedFine.description"><s>I ate a delicious and filling grilled meat. Doing so lowers hunger rate by 35% for 12 hours.</s><r>Я ел вкусное и сытное мясо на гриле. Это снижает уровень голода на 35% на 12 часов.</r></e>
+  <e k="D" t="HediffDef" key="VCE_WellFedFine.label"><s>well fed (from grilled meal)</s><r>сытый (из жареной еды)</r></e>
+  <e k="D" t="HediffDef" key="VCE_WellFedGourmet.description"><s>I ate a delicious and filling grilled meat. Doing so lowers hunger rate by 35% for 12 hours.</s><r>Я ел вкусное и сытное мясо на гриле. Это снижает уровень голода на 35% на 12 часов.</r></e>
+  <e k="D" t="HediffDef" key="VCE_WellFedGourmet.label"><s>well fed (from grilled meal)</s><r>сытый (из жареной еды)</r></e>
+  <e k="D" t="HediffDef" key="VCE_WellFedLavish.description"><s>I ate a delicious and filling grilled meat. Doing so lowers hunger rate by 35% for 12 hours.</s><r>Я ел вкусное и сытное мясо на гриле. Это снижает уровень голода на 35% на 12 часов.</r></e>
+  <e k="D" t="HediffDef" key="VCE_WellFedLavish.label"><s>well fed (from grilled meal)</s><r>сытый (из жареной еды)</r></e>
+  <e k="D" t="HediffDef" key="VCE_WellFedSimple.description"><s>I ate a delicious and filling grilled meat. Doing so lowers hunger rate by 35% for 12 hours..</s><r>Я ел вкусное и сытное мясо на гриле. Это снижает уровень голода на 35% на 12 часов.</r></e>
+  <e k="D" t="HediffDef" key="VCE_WellFedSimple.label"><s>well fed (from grilled meal)</s><r>сытый (из жареной еды)</r></e>
+  <e k="D" t="JoyKindDef" key="VCE_Confectionery.label"><s>dessert consumption</s><r>потребление десерта</r></e>
+  <e k="D" t="ProcessDef" key="VCE_BearffaloMilkIntoCheese.description"><s>Turns 40 bearffalo milk into 25 cheese.</s><r>Превращает 40 медвежьего молока в 25 сыров.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_BearffaloMilkIntoCheese.label"><s>Bearffalo Milk into cheese</s><r>Bearffalo Молоко в сыр</r></e>
+  <e k="D" t="ProcessDef" key="VCE_BearffaloMilkIntoCheese.labelOverride"><s>Turn 40 bearffalo milk into 25 cheese.</s><r>Превратите 40 медвежьего молока в 25 сыров.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_BlueMilkIntoCheese.description"><s>Turns 40 blue milk into 25 cheese.</s><r>Превращает 40 синего молока в 25 сыров.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_BlueMilkIntoCheese.label"><s>Blue Milk into cheese</s><r>Голубое молоко в сыр</r></e>
+  <e k="D" t="ProcessDef" key="VCE_BlueMilkIntoCheese.labelOverride"><s>Turn 40 blue milk into 25 cheese.</s><r>Превратите 40 голубых молок в 25 сыров.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_ChickenffaloMilkIntoCheese.description"><s>Turns 100 chickenffalo milk into 25 cheese.</s><r>Превращает 100 куриного молока в 25 сыров.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_ChickenffaloMilkIntoCheese.label"><s>Chickenffalo Milk into cheese</s><r>Курицаффало Молоко в сыр</r></e>
+  <e k="D" t="ProcessDef" key="VCE_ChickenffaloMilkIntoCheese.labelOverride"><s>Turn 100 chickenffalo milk into 25 cheese.</s><r>Превратите 100 куриного молока в 25 сыров.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_FineSoupRecipe.description"><s>Turns an uncooked fine soup into 10 cooked fine soups.</s><r>Превращает сырой прекрасный суп в 10 приготовленных превосходных супов.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_FineSoupRecipe.label"><s>Cook Fine Soup</s><r>Приготовить изысканный суп</r></e>
+  <e k="D" t="ProcessDef" key="VCE_GourmetSoupRecipe.description"><s>Turns an uncooked gourmet soup into 10 cooked gourmet soups.</s><r>Превращает сырой изысканный суп в 10 готовых изысканных супов.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_GourmetSoupRecipe.label"><s>Cook Gourmet Soup</s><r>Приготовить суп для гурманов</r></e>
+  <e k="D" t="ProcessDef" key="VCE_GowMilkIntoCheese.description"><s>Turns 40 gow milk into 25 cheese.</s><r>Превращает 40 го молока в 25 сыров.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_GowMilkIntoCheese.label"><s>Gow Milk into cheese</s><r>Превратить молоко в сыр</r></e>
+  <e k="D" t="ProcessDef" key="VCE_GowMilkIntoCheese.labelOverride"><s>Turn 40 gow milk into 25 cheese.</s><r>Превратите 40 го молока в 25 сыров.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_JellyIntoCheese.description"><s>Turns 50 insect jelly into 25 cheese.</s><r>Превращает 50 желе из насекомых в 25 сыров.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_JellyIntoCheese.label"><s>Insect jelly into cheese</s><r>Желе из насекомых в сыре</r></e>
+  <e k="D" t="ProcessDef" key="VCE_JellyIntoCheese.labelOverride"><s>Turn 50 insect jelly into 25 cheese.</s><r>Превратите 50 желе из насекомых в 25 сыров.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_LavishSoupRecipe.description"><s>Turns an uncooked lavish soup into 10 cooked lavish soups.</s><r>Превращает сырой обильный суп в 10 приготовленных обильных супов.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_LavishSoupRecipe.label"><s>Cook Lavish Soup</s><r>Приготовить пышный суп</r></e>
+  <e k="D" t="ProcessDef" key="VCE_MechaMilkIntoCheese.description"><s>Turns 50 mecha milk into 25 cheese.</s><r>Превращает 50 меха-молоков в 25 сыров.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_MechaMilkIntoCheese.label"><s>Mecha Milk into cheese</s><r>Меха Молоко в сыр</r></e>
+  <e k="D" t="ProcessDef" key="VCE_MechaMilkIntoCheese.labelOverride"><s>Turn 50 mecha milk into 25 cheese.</s><r>Превратите 50 меха-молоков в 25 сыров.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_MilkIntoCheese.description"><s>Turns 50 milk into 25 cheese.</s><r>Превращает 50 молока в 25 сыров.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_MilkIntoCheese.label"><s>Milk into cheese</s><r>Молоко в сыр</r></e>
+  <e k="D" t="ProcessDef" key="VCE_MilkIntoCheese.labelOverride"><s>Turn 50 milk into 25 cheese.</s><r>Превратите 50 молока в 25 сыров.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_MuffalobearMilkIntoCheese.description"><s>Turns 62 muffalobear milk into 25 cheese.</s><r>Превращает 62 молока муффаломедведя в 25 сыров.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_MuffalobearMilkIntoCheese.label"><s>Muffalobear Milk into cheese</s><r>Молоко Муффалобера в сыр</r></e>
+  <e k="D" t="ProcessDef" key="VCE_MuffalobearMilkIntoCheese.labelOverride"><s>Turn 62 muffalobear milk into 25 cheese.</s><r>Превратите 62 молока муффаломедведя в 25 сыров.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_MuffalochickenMilkIntoCheese.description"><s>Turns 50 muffalochicken milk into 25 cheese.</s><r>Превращает 50 куриных муффало в 25 сыров.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_MuffalochickenMilkIntoCheese.label"><s>Muffalochicken Milk into cheese</s><r>Муффало-курица Молоко в сыре</r></e>
+  <e k="D" t="ProcessDef" key="VCE_MuffalochickenMilkIntoCheese.labelOverride"><s>Turn 50 muffalochicken milk into 25 cheese.</s><r>Превратите 50 куриных муффало в 25 сыров.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_NightMilkIntoCheese.description"><s>Turns 40 night milk into 25 cheese.</s><r>Превращает 40 ночных молока в 25 сыров.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_NightMilkIntoCheese.label"><s>Night Milk into cheese</s><r>Ночное молоко в сыр</r></e>
+  <e k="D" t="ProcessDef" key="VCE_NightMilkIntoCheese.labelOverride"><s>Turn 40 night milk into 25 cheese.</s><r>Превратите 40 ночных молок в 25 сыров.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_RatMilkIntoCheese.description"><s>Turns 40 rat milk into 25 cheese.</s><r>Превращает 40 крысиного молока в 25 сыров.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_RatMilkIntoCheese.label"><s>Rat Milk into cheese</s><r>Крысиное молоко в сыр</r></e>
+  <e k="D" t="ProcessDef" key="VCE_RatMilkIntoCheese.labelOverride"><s>Turn 40 rat milk into 25 cheese.</s><r>Превратите 40 крысиного молока в 25 сыров.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_SimpleSoupRecipe.description"><s>Turns an uncooked simple soup into 10 cooked simple soups.</s><r>Превращает сырой простой суп в 10 приготовленных простых супов.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_SimpleSoupRecipe.label"><s>Cook Simple Soup</s><r>Приготовить простой суп</r></e>
+  <e k="D" t="ProcessDef" key="VCE_ThrumffaloMilkIntoCheese.description"><s>Turns 12 thrumffalo milk into 25 cheese.</s><r>Превращает 12 молока Трумффало в 25 сыров.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_ThrumffaloMilkIntoCheese.label"><s>Thrumffalo Milk into cheese</s><r>Трумффало Молоко в сыр</r></e>
+  <e k="D" t="ProcessDef" key="VCE_ThrumffaloMilkIntoCheese.labelOverride"><s>Turn 12 thrumffalo milk into 25 cheese.</s><r>Превратите 12 молока Трумффало в 25 сыров.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_WeirdMilkIntoCheese.description"><s>Turns 62 weird milk into 25 cheese.</s><r>Превращает 62 странных молока в 25 сыров.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_WeirdMilkIntoCheese.label"><s>Weird Milk into cheese</s><r>Странное молоко в сыре</r></e>
+  <e k="D" t="ProcessDef" key="VCE_WeirdMilkIntoCheese.labelOverride"><s>Turn 62 weird milk into 25 cheese.</s><r>Превратите 62 странных молока в 25 сыров.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_WolffaloMilkIntoCheese.description"><s>Turns 125 wolffalo milk into 25 cheese.</s><r>Превращает 125 волчьего молока в 25 сыров.</r></e>
+  <e k="D" t="ProcessDef" key="VCE_WolffaloMilkIntoCheese.label"><s>Wolffalo Milk into cheese</s><r>Вольфало Молоко в сыр</r></e>
+  <e k="D" t="ProcessDef" key="VCE_WolffaloMilkIntoCheese.labelOverride"><s>Turn 125 wolffalo milk into 25 cheese.</s><r>Превратите 125 волчьего молока в 25 сыров.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_AgaveNectar.description"><s>Create agave nectar from agave. Agave nectar is a thin and semi-sweet nectar, known for its healing and anti-inflammatory properties.</s><r>Приготовьте нектар агавы из агавы. Нектар агавы — тонкий и полусладкий нектар, известный своими целебными и противовоспалительными свойствами.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_AgaveNectar.jobString"><s>Making agave nectar.</s><r>Приготовление нектара агавы.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_AgaveNectar.label"><s>make agave nectar</s><r>приготовить нектар агавы</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CanEggs.description"><s>Safely store boiled eggs in a steel can. Canning food extends its shelf life almost indefinitely.</s><r>Безопасно храните вареные яйца в стальной банке. Консервирование продуктов питания продлевает срок их хранения практически на неопределенный срок.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CanEggs.jobString"><s>Canning eggs.</s><r>Консервирование яиц.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CanEggs.label"><s>can eggs x20</s><r>банки яиц х20</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CanFish.description"><s>Safely store fish in a steel can. Canning food extends its shelf life almost indefinitely.</s><r>Безопасно храните рыбу в стальной банке. Консервирование продуктов питания продлевает срок их хранения практически на неопределенный срок.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CanFish.jobString"><s>Canning fish.</s><r>Консервирование рыбы.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CanFish.label"><s>can fish x20</s><r>можно ловить рыбу x20</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CanFruit.description"><s>Safely store fruit in a steel can. Canning food extends its shelf life almost indefinitely.
+
+Preserved fruit can be used in the production of desserts.</s><r>Безопасно храните фрукты в стальной банке. Консервирование продуктов питания продлевает срок их хранения практически на неопределенный срок.
+
+Консервированные фрукты можно использовать при производстве десертов.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CanFruit.jobString"><s>Canning fruit.</s><r>Консервирование фруктов.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CanFruit.label"><s>can fruit x20</s><r>можно фрукты х20</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CanMeats.description"><s>Safely store meat chunks in a steel can. Canning food extends its shelf life almost indefinitely.</s><r>Безопасно храните куски мяса в стальной банке. Консервирование продуктов питания продлевает срок их хранения практически на неопределенный срок.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CanMeats.jobString"><s>Canning meats.</s><r>Консервирование мяса.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CanMeats.label"><s>can meats x20</s><r>консервы с мясом х20</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CanProduce.description"><s>Safely store vegetables in a steel can. Canning food extends its shelf life almost indefinitely.</s><r>Безопасно храните овощи в стальной банке. Консервирование продуктов питания продлевает срок их хранения практически на неопределенный срок.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CanProduce.jobString"><s>Canning produce.</s><r>Консервная продукция.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CanProduce.label"><s>can produce x20</s><r>может произвести x20</r></e>
+  <e k="D" t="RecipeDef" key="VCE_ChocolateSyrup.description"><s>Create chocolate syrup from genetically modified chocolate. While still not good for you, chocolate syrup is not quite as bad as straight sugar.</s><r>Создайте шоколадный сироп из генетически модифицированного шоколада. Хотя шоколадный сироп по-прежнему не полезен, он не так плох, как обычный сахар.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_ChocolateSyrup.jobString"><s>Making chocolate syrup.</s><r>Приготовление шоколадного сиропа.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_ChocolateSyrup.label"><s>make chocolate syrup</s><r>приготовить шоколадный сироп</r></e>
+  <e k="D" t="RecipeDef" key="VCE_ChopCondiments.description"><s>Mix a batch of different condiments into a barely edible organic mass that can be fed to animals. Still better than supermarket pet food.</s><r>Смешайте партию разных приправ в едва съедобную органическую массу, которую можно скармливать животным. Все же лучше, чем корм для домашних животных из супермаркета.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_ChopCondiments.jobString"><s>Mixing condiments into kibble.</s><r>Смешиваем приправы с кусочками.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_ChopCondiments.label"><s>mix condiments into kibble</s><r>смешать приправы с кусочками</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookBakeFine.description"><s>Cook two complex bakes assembled with care from a wide selection of ingredients and flour.</s><r>Приготовьте две сложные выпечки, тщательно собранные из широкого выбора ингредиентов и муки.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookBakeFine.jobString"><s>Cooking fine bake x2.</s><r>Готовим мелкую запеканку x2.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookBakeFine.label"><s>cook fine bake x2</s><r>приготовить вкусную выпечку x2</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookBakeFineBulk.description"><s>Cook 8 complex bakes assembled with care from a wide selection of ingredients and flour.</s><r>Приготовьте 8 сложных выпечек, тщательно собранных из широкого выбора ингредиентов и муки.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookBakeFineBulk.jobString"><s>Cooking fine bake x8.</s><r>Готовим мелкую запеканку х8.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookBakeFineBulk.label"><s>cook fine bake x8</s><r>приготовить вкусную выпечку x8</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookBakeGourmet.description"><s>Cook two culinary works of art, characterized by refined, even elaborate preparation and presentation of an aesthetically balanced, albeit low quantity bake.
+
+This recipe does not allow mixed ingredients.</s><r>Приготовьте два кулинарных произведения, характеризующихся изысканным, даже тщательно продуманным приготовлением и подачей эстетически сбалансированной, хотя и небольшой выпечки.
+
+Этот рецепт не допускает смешивания ингредиентов.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookBakeGourmet.jobString"><s>Cooking gourmet bake x2.</s><r>Приготовление изысканной выпечки x2.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookBakeGourmet.label"><s>cook gourmet bake x2</s><r>приготовить изысканную запеканку x2</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookBakeLavish.description"><s>Cook two masterpieces of the culinary arts, these bakes nourish the body, mind, and soul.</s><r>Приготовьте два шедевра кулинарного искусства, эта выпечка питает тело, разум и душу.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookBakeLavish.jobString"><s>Cooking lavish bake x2.</s><r>Готовим пышную выпечку x2.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookBakeLavish.label"><s>cook lavish bake x2</s><r>приготовить обильную выпечку x2</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookBakeLavishBulk.description"><s>Cook 8 masterpieces of the culinary arts, these bakes nourish the body, mind, and soul.</s><r>Приготовьте 8 шедевров кулинарного искусства, эта выпечка питает тело, разум и душу.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookBakeLavishBulk.jobString"><s>Cooking lavish bake x8.</s><r>Готовим пышную выпечку х8.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookBakeLavishBulk.label"><s>cook lavish bake x8</s><r>приготовить обильную выпечку x8</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookBakeSimple.description"><s>Cook two simple bakes quickly cooked from flour.</s><r>Приготовьте две простые выпечки быстрого приготовления из муки.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookBakeSimple.jobString"><s>Cooking simple bake x2.</s><r>Готовим простую запеканку х2.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookBakeSimple.label"><s>cook simple bake x2</s><r>приготовить простую выпечку x2</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookBakeSimpleBulk.description"><s>Cook 8 simple bakes quickly cooked from flour.</s><r>Приготовьте 8 простых лепешек быстрого приготовления из муки.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookBakeSimpleBulk.jobString"><s>Cooking simple bake x8.</s><r>Готовим простую запеканку х8.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookBakeSimpleBulk.label"><s>cook simple bake x8</s><r>приготовить простую выпечку x8</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookDessertFine.description"><s>Cook a complex dessert assembled with care from a wide selection of ingredients.
+
+Note that because Chocolate has 0.10 nutrition per unit, some of it will be wasted while cooking this recipe. Consider using the bulk (x4) version of this recipe instead to avoid wastage.</s><r>Приготовьте сложный десерт, тщательно собранный из широкого набора ингредиентов.
+
+Обратите внимание: поскольку шоколад содержит 0,10 питательных веществ на единицу, часть его будет потрачена впустую при приготовлении по этому рецепту. Вместо этого рассмотрите возможность использования объемной (x4) версии этого рецепта, чтобы избежать потерь.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookDessertFine.jobString"><s>Cooking fine dessert.</s><r>Готовим прекрасный десерт.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookDessertFine.label"><s>cook fine dessert</s><r>приготовить прекрасный десерт</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookDessertFineBulk.description"><s>Cook 4 complex desserts assembled with care from a wide selection of ingredients.</s><r>Приготовьте 4 сложных десерта, тщательно собранных из широкого выбора ингредиентов.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookDessertFineBulk.jobString"><s>Cooking fine dessert x4.</s><r>Готовим прекрасный десерт x4.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookDessertFineBulk.label"><s>cook fine dessert x4</s><r>приготовить прекрасный десерт x4</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookDessertGourmet.description"><s>Cook a culinary work of art, characterized by refined, even elaborate preparation and presentation of an aesthetically balanced, albeit low quantity dessert.</s><r>Приготовьте кулинарное произведение искусства, характеризующееся изысканным, даже продуманным приготовлением и подачей эстетически сбалансированного, хотя и небольшого количества десерта.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookDessertGourmet.jobString"><s>Cooking gourmet dessert.</s><r>Готовим изысканный десерт.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookDessertGourmet.label"><s>cook gourmet dessert</s><r>приготовить изысканный десерт</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookDessertLavish.description"><s>Cook a masterpiece of the culinary arts, this dessert nourishes the body, mind, and soul.
+
+Note that because Chocolate has 0.10 nutrition per unit, some of it will be wasted while cooking this recipe. Consider using the bulk (x4) version of this recipe instead to avoid wastage.</s><r>Приготовьте шедевр кулинарного искусства, этот десерт питает тело, разум и душу.
+
+Обратите внимание, что, поскольку шоколад содержит 0,10 питательных веществ на единицу, часть его будет потрачена впустую при приготовлении по этому рецепту. Вместо этого рассмотрите возможность использования объемной (x4) версии этого рецепта, чтобы избежать потерь.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookDessertLavish.jobString"><s>Cooking lavish dessert.</s><r>Готовим роскошный десерт.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookDessertLavish.label"><s>cook lavish dessert</s><r>приготовить роскошный десерт</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookDessertLavishBulk.description"><s>Cook 4 masterpieces of the culinary arts, this dessert nourishes the body, mind, and soul.</s><r>Приготовьте 4 шедевра кулинарного искусства, этот десерт питает тело, разум и душу.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookDessertLavishBulk.jobString"><s>Cooking lavish dessert x4.</s><r>Готовим роскошный десерт х4.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookDessertLavishBulk.label"><s>cook lavish dessert x4</s><r>приготовить роскошный десерт x4</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookDessertSimple.description"><s>Cook a simple dessert quickly made from a few fruits and other ingredients.</s><r>Быстро приготовьте простой десерт из нескольких фруктов и других ингредиентов.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookDessertSimple.jobString"><s>Cooking simple dessert.</s><r>Готовим простой десерт.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookDessertSimple.label"><s>cook simple dessert</s><r>приготовить простой десерт</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookDessertSimpleBulk.description"><s>Cook 4 simple desserts quickly made from a few fruits and other ingredients.</s><r>Быстро приготовьте 4 простых десерта из нескольких фруктов и других ингредиентов.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookDessertSimpleBulk.jobString"><s>Cooking simple dessert x4.</s><r>Готовим простой десерт х4.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookDessertSimpleBulk.label"><s>cook simple dessert x4</s><r>приготовить простой десерт x4</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookGrillFine.description"><s>Cook a complex grill assembled with care from a wide selection of ingredients.</s><r>Приготовьте сложный гриль, тщательно собранный из широкого выбора ингредиентов.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookGrillFine.jobString"><s>Cooking fine grill.</s><r>Готовим отличный гриль.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookGrillFine.label"><s>cook fine grill</s><r>приготовить вкусный гриль</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookGrillFineBulk.description"><s>Cook 4 complex grills assembled with care from a wide selection of ingredients.</s><r>Приготовьте 4 сложных гриля, тщательно собранных из широкого выбора ингредиентов.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookGrillFineBulk.jobString"><s>Cooking fine grill x4.</s><r>Готовим мелкий гриль x4.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookGrillFineBulk.label"><s>cook fine grill x4</s><r>приготовить вкусный гриль x4</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookGrillGourmet.description"><s>Cook a culinary works of art, characterized by refined, even elaborate preparation and presentation of an aesthetically balanced, albeit low quantity grill.</s><r>Приготовьте кулинарное произведение искусства, характеризующееся изысканным, даже тщательно продуманным приготовлением и подачей на эстетически сбалансированном, хотя и небольшом количестве гриля.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookGrillGourmet.jobString"><s>Cooking gourmet grill.</s><r>Готовим изысканный гриль.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookGrillGourmet.label"><s>cook gourmet grill</s><r>приготовить изысканный гриль</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookGrillLavish.description"><s>Cook a masterpiece of the culinary arts, this grill nourishes the body, mind, and soul.</s><r>Приготовьте шедевр кулинарного искусства, этот гриль питает тело, разум и душу.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookGrillLavish.jobString"><s>Cooking lavish grill.</s><r>Готовим роскошный гриль.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookGrillLavish.label"><s>cook lavish grill</s><r>приготовить роскошный гриль</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookGrillLavishhBulk.description"><s>Cook 4 masterpieces of the culinary arts, these grills nourish the body, mind, and soul.</s><r>Приготовьте 4 шедевра кулинарного искусства, эти грили питают тело, разум и душу.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookGrillLavishhBulk.jobString"><s>Cooking lavish grill x4.</s><r>Готовим роскошный гриль x4.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookGrillLavishhBulk.label"><s>cook lavish grill x4</s><r>приготовить роскошный гриль x4</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookGrillSimple.description"><s>Cook two simple grills quickly cooked from a few meat ingredients.</s><r>Приготовьте два простых гриля, быстро приготовленных из нескольких мясных ингредиентов.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookGrillSimple.jobString"><s>Cooking simple grill.</s><r>Готовим простой гриль.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookGrillSimple.label"><s>cook simple grill</s><r>приготовить простой гриль</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookGrillSimpleBulk.description"><s>Cook 4 simple grills quickly cooked from a few meat ingredients.</s><r>Приготовьте 4 простых гриля, быстро приготовленных из нескольких мясных ингредиентов.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookGrillSimpleBulk.jobString"><s>Cooking simple grill x4.</s><r>Готовим простой гриль х4.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookGrillSimpleBulk.label"><s>cook simple grill x4</s><r>приготовить простой гриль x4</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookMealGourmet.description"><s>Cook a culinary work of art, characterized by refined, even elaborate preparation and presentation of an aesthetically balanced, albeit low quantity meal.</s><r>Приготовьте кулинарное произведение искусства, характеризующееся изысканным, даже продуманным приготовлением и подачей эстетически сбалансированного, хотя и небольшого количества блюда.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookMealGourmet.jobString"><s>Cooking gourmet meal.</s><r>Приготовление изысканной еды.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookMealGourmet.label"><s>cook gourmet meal</s><r>приготовить изысканную еду</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookSoupFine.description"><s>Prepare a fine uncooked soup assembled with care from a wide selection of ingredients.</s><r>Приготовьте прекрасный сырой суп, тщательно собранный из широкого выбора ингредиентов.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookSoupFine.jobString"><s>Preparing fine soup.</s><r>Готовим прекрасный суп.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookSoupFine.label"><s>prepare fine soup</s><r>приготовить вкусный суп</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookSoupGourmet.description"><s>Prepare a gourmet uncooked soup. A culinary work of art, characterized by refined, even elaborate preparation and presentation of an aesthetically balanced, albeit low quantity soup.
+
+This recipe does not allow mixed ingredients, and takes a long time to make.</s><r>Приготовьте изысканный сырой суп. Кулинарное произведение искусства, характеризующееся изысканным, даже тщательно продуманным приготовлением и подачей эстетически сбалансированного, хотя и небольшого количества супа.
+
+Этот рецепт не допускает смешивания ингредиентов, и его приготовление занимает много времени.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookSoupGourmet.jobString"><s>Preparing gourmet soup.</s><r>Готовим изысканный суп.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookSoupGourmet.label"><s>prepare gourmet soup</s><r>приготовить изысканный суп</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookSoupLavish.description"><s>Prepare a lavish uncooked soup. A masterpiece of the culinary arts, this soup nourishes the body, mind, and soul.</s><r>Приготовьте вкусный сырой суп. Шедевр кулинарного искусства, этот суп питает тело, разум и душу.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookSoupLavish.jobString"><s>Preparing lavish soup.</s><r>Готовим наваристый суп.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookSoupLavish.label"><s>prepare lavish soup</s><r>приготовить пышный суп</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookSoupSimple.description"><s>Prepare a simple uncooked soup quickly made from a few ingredients.</s><r>Быстро приготовьте простой сырой суп из нескольких ингредиентов.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookSoupSimple.jobString"><s>Preparing simple soup.</s><r>Готовим простой суп.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_CookSoupSimple.label"><s>prepare simple soup</s><r>приготовить простой суп</r></e>
+  <e k="D" t="RecipeDef" key="VCE_DeepFryFish.description"><s>Deep fry fish. Deep fried food is very tasty, but not very good for your health.</s><r>Рыбу обжарить во фритюре. Жареная еда очень вкусна, но не очень полезна для здоровья.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_DeepFryFish.jobString"><s>Deep frying fish.</s><r>Рыба во фритюре.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_DeepFryFish.label"><s>deep fry fish x20</s><r>жареная рыба х20</r></e>
+  <e k="D" t="RecipeDef" key="VCE_DeepFryMeats.description"><s>Deep fry large meat chunks. Deep fried food is very tasty, but not very good for your health.</s><r>Большие куски мяса обжарьте во фритюре. Жареная еда очень вкусна, но не очень полезна для здоровья.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_DeepFryMeats.jobString"><s>Deep frying meats.</s><r>Мясо во фритюре.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_DeepFryMeats.label"><s>deep fry meats x20</s><r>мясо во фритюре x20</r></e>
+  <e k="D" t="RecipeDef" key="VCE_DeepFryVegetables.description"><s>Deep fry vegetables. Deep fried food is very tasty, but not very good for your health.</s><r>Овощи обжарить во фритюре. Жареная еда очень вкусна, но не очень полезна для здоровья.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_DeepFryVegetables.jobString"><s>Deep frying vegetables.</s><r>Овощи во фритюре.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_DeepFryVegetables.label"><s>deep fry vegetables x20</s><r>овощи во фритюре x20</r></e>
+  <e k="D" t="RecipeDef" key="VCE_HotSauce.description"><s>Create hot sauce from peppers. A potent, spicy sauce made from blending and simmering chilis and other spices. While particularly strong hot sauces hurt at first, they are known to numb pain and work up a warm sweat shortly after consumption.</s><r>Приготовьте острый соус из перца. Мощный, острый соус, приготовленный из смеси и кипящего перца чили и других специй. Хотя особенно острые острые соусы поначалу причиняют боль, известно, что они притупляют боль и вызывают появление теплого пота вскоре после употребления.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_HotSauce.jobString"><s>Making hot sauce.</s><r>Приготовление острого соуса.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_HotSauce.label"><s>make hot sauce</s><r>приготовить острый соус</r></e>
+  <e k="D" t="RecipeDef" key="VCE_InsectJellyPreserves.description"><s>Create insect jelly preserves from insect jelly. Very rich and sweet, while being surprisingly healthy.</s><r>Приготовьте желе из насекомых из желе из насекомых. Очень насыщенный и сладкий, но при этом удивительно полезный.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_InsectJellyPreserves.jobString"><s>Making insect jelly preserves.</s><r>Приготовление желе из насекомых.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_InsectJellyPreserves.label"><s>make insect jelly preserves</s><r>приготовить желе из насекомых</r></e>
+  <e k="D" t="RecipeDef" key="VCE_Ketchup.description"><s>Create ketchup from tomatoes. A thick sauce made from stewing tomatoes, both salty and tangy in tandem with a sweet aftertaste. Perfect for meaty meals or fried foods.</s><r>Приготовьте кетчуп из помидоров. Густой соус из тушеных томатов, соленый и острый в тандеме со сладким послевкусием. Идеально подходит для мясных блюд или жареных блюд.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_Ketchup.jobString"><s>Making ketchup.</s><r>Приготовление кетчупа.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_Ketchup.label"><s>make ketchup</s><r>сделать кетчуп</r></e>
+  <e k="D" t="RecipeDef" key="VCE_MakeSalt.description"><s>Grind and process natural stone to extract edible salts from within stone chunks.
+
+Uses the Cooking skill.</s><r>Измельчайте и обрабатывайте натуральный камень, чтобы извлечь съедобные соли из кусков камня.
+
+Использует навык кулинарии.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_MakeSalt.jobString"><s>Making salt.</s><r>Изготовление соли.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_MakeSalt.label"><s>make salt</s><r>сделать соль</r></e>
+  <e k="D" t="RecipeDef" key="VCE_MakeSaltfromBlocks.description"><s>Grind and process natural stone to extract edible salts from within stone blocks.
+
+Uses the Cooking skill.</s><r>Измельчайте и обрабатывайте натуральный камень, чтобы извлечь съедобные соли из каменных блоков.
+
+Использует навык кулинарии.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_MakeSaltfromBlocks.jobString"><s>Making salt from blocks.</s><r>Изготовление соли из блоков.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_MakeSaltfromBlocks.label"><s>make salt (blocks)</s><r>сделать соль (блоки)</r></e>
+  <e k="D" t="RecipeDef" key="VCE_Mayo.description"><s>Create mayo from eggs. A thick emulsion of egg, oil, and other herbs. Mayonnaise, while terrible for you, adds a pleasing tang and is very calorically dense.</s><r>Приготовьте майонез из яиц. Густая эмульсия из яиц, масла и других трав. Майонез, хотя и ужасен для вас, придает приятный привкус и очень калорийен.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_Mayo.jobString"><s>Making mayo.</s><r>Делаем майонез.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_Mayo.label"><s>make mayo</s><r>сделать майонез</r></e>
+  <e k="D" t="RecipeDef" key="VCE_SmokeleafButter.description"><s>Create smokeleaf butter from smokeleaf and milk. A thickened, fatty substance made by churning milk into very thick cream, combining with smokeleaf oil and allowing it to set. Very unhealthy and hits quite a bit harder than a joint.</s><r>Приготовьте масло дымного листа из дымного листа и молока. Густое жирное вещество, получаемое путем сбивания молока в очень густые сливки, смешивания с маслом дымного листа и застывания. Очень вредно для здоровья и бьет немного сильнее, чем сустав.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_SmokeleafButter.jobString"><s>Making smokeleaf butter.</s><r>Приготовление масла из дымного листа.</r></e>
+  <e k="D" t="RecipeDef" key="VCE_SmokeleafButter.label"><s>make smokeleaf butter</s><r>сделать масло из дымного листа</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_Canning.description"><s>Canning is a method of preserving food in which the food contents are processed and sealed in an airtight container (jars like Mason jars, and steel and tin cans). Canning provides a shelf life of several years. A freeze-dried canned product, such as canned dried lentils, could last as long as 30 years in an edible state. This research gives access to the canning machine.</s><r>Консервирование — это метод консервирования продуктов питания, при котором содержимое продуктов обрабатывается и запечатывается в герметичный контейнер (банки, такие как банки Мейсона, а также стальные и жестяные банки). Консервирование обеспечивает срок хранения в несколько лет. Сублимированные консервированные продукты, такие как консервированная сушеная чечевица, могут храниться в съедобном состоянии до 30 лет. Это исследование дает доступ к консервной машине.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_Canning.generalRules.rulesStrings.0"><s>subject-&gt;the vaults of flavor</s><r>subject-&gt;хранилища вкуса</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_Canning.generalRules.rulesStrings.1"><s>subject_story-&gt;revolutionized food preservation through canning, extending the bounty of the harvest</s><r>subject_story-&gt;совершил революцию в сохранении продуктов питания путем консервирования, увеличив щедрость урожая</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_Canning.generalRules.rulesStrings.2"><s>subject_story-&gt;mastered the science of sealing freshness and taste, ensuring nourishment year-round</s><r>subject_story-&gt;освоил науку сохранения свежести и вкуса, обеспечивая питание круглый год</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_Canning.generalRules.rulesStrings.3"><s>subject_story-&gt;introduced the canning machine, a key to unlocking the potential of prolonged food storage</s><r>subject_story-&gt;представила консервную машину, ключ к раскрытию потенциала длительного хранения продуктов питания</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_Canning.generalRules.rulesStrings.4"><s>subject_gerund-&gt;preserving the essence of the seasons within every jar and can</s><r>subject_gerund-&gt;сохраняя суть времен года в каждой банке и может</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_Canning.label"><s>canning</s><r>консервирование</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_CheeseMaking.description"><s>Cheesemaking (or caseiculture) is the craft of making cheese. The production of cheese, like many other food preservation processes, allows the nutritional and economic value of milk to be preserved in concentrated form. Cheesemaking allows the production of the cheese with diverse flavors and consistencies. This research gives access to the cheese press.</s><r>Сыроделие (или казеоводство) — это ремесло изготовления сыра. Производство сыра, как и многие другие процессы консервирования пищевых продуктов, позволяет сохранить пищевую и экономическую ценность молока в концентрированной форме. Сыроварение позволяет производить сыр с разнообразными вкусами и консистенцией. Это исследование дает доступ к сырному прессу.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_CheeseMaking.generalRules.rulesStrings.0"><s>subject-&gt;alchemy of milk</s><r>subject-&gt;алхимия молока</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_CheeseMaking.generalRules.rulesStrings.1"><s>subject_story-&gt;transformed the humble origins of milk into the rich complexity of cheese</s><r>subject_story-&gt;превратили скромное происхождение молока в богатую сложность сыра</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_CheeseMaking.generalRules.rulesStrings.2"><s>subject_story-&gt;cultivated an array of cheeses, each a testament to the craft and culture of cheesemaking</s><r>subject_story-&gt;выращивал множество сыров, каждый из которых является свидетельством ремесла и культуры сыроделия.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_CheeseMaking.generalRules.rulesStrings.3"><s>subject_story-&gt;designed the cheese press, squeezing out new traditions and tastes from an ancient practice</s><r>subject_story-&gt;разработал пресс для сыра, выжимая из древней практики новые традиции и вкусы</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_CheeseMaking.generalRules.rulesStrings.4"><s>subject_gerund-&gt;crafting cultures and flavors in the artful creation of cheese</s><r>subject_gerund-&gt;создание культур и вкусов в искусном создании сыра</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_CheeseMaking.label"><s>cheese making</s><r>производство сыра</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_CondimentsResearch.description"><s>A condiment is a spice, sauce, or preparation that is added to food, either after or during cooking, to impart a specific flavor, to enhance the flavor, or to complement the dish. All condiments are created at the condiment prep table.</s><r>Приправа — это специя, соус или препарат, который добавляется в пищу после или во время приготовления для придания определенного вкуса, усиления вкуса или дополнения блюда. Все приправы создаются на столе для приготовления приправ.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_CondimentsResearch.generalRules.rulesStrings.0"><s>subject-&gt;flavors of distinction</s><r>subject-&gt;вкус отличия</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_CondimentsResearch.generalRules.rulesStrings.1"><s>subject_story-&gt;unlocked the secrets of enhancing flavor through the creation of diverse condiments</s><r>subject_story-&gt;раскрыл секреты улучшения вкуса за счет создания разнообразных приправ.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_CondimentsResearch.generalRules.rulesStrings.2"><s>subject_story-&gt;pioneered the use of herbs, spices, and sauces to transform simple meals into culinary experiences</s><r>subject_story-&gt;первым начал использовать травы, специи и соусы для превращения простых блюд в кулинарные шедевры.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_CondimentsResearch.generalRules.rulesStrings.3"><s>subject_story-&gt;cultivated a rich culture of taste, encouraging culinary experimentation and innovation</s><r>subject_story-&gt;культивировали богатую культуру вкуса, поощряя кулинарные эксперименты и инновации.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_CondimentsResearch.generalRules.rulesStrings.4"><s>subject_gerund-&gt;elevating the art of flavor through condiment mastery</s><r>subject_gerund-&gt;повышение искусства вкуса посредством мастерства приправ</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_CondimentsResearch.label"><s>food condiments</s><r>пищевые приправы</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_DeepFrying.description"><s>Deep frying (also referred to as deep fat frying) is a cooking method in which food is submerged in hot fat, most commonly oil, as opposed to the shallow oil used in conventional frying done in a frying pan. This research gives access to the deep fryer.</s><r>Жарка во фритюре (также называемая жаркой во фритюре) — это метод приготовления пищи, при котором продукты погружают в горячий жир, чаще всего в масло, в отличие от мелкого масла, используемого при обычной жарке на сковороде. Это исследование дает доступ к фритюрнице.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_DeepFrying.generalRules.rulesStrings.0"><s>subject-&gt;the golden crunch</s><r>subject-&gt;золотой хруст</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_DeepFrying.generalRules.rulesStrings.1"><s>subject_story-&gt;discovered the transformative effect of deep frying, enveloping foods in a crispy, golden exterior</s><r>subject_story-&gt;обнаружил преобразующий эффект жарки во фритюре, обволакивающей продукты хрустящей золотистой корочкой</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_DeepFrying.generalRules.rulesStrings.2"><s>subject_story-&gt;engineered the deep fryer, a marvel of culinary technology, to achieve consistent and perfect results</s><r>subject_story-&gt;разработал фритюрницу, чудо кулинарной техники, для достижения стабильных и отличных результатов.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_DeepFrying.generalRules.rulesStrings.3"><s>subject_story-&gt;elevated the simple act of frying into a culinary craft, celebrated across cultures</s><r>subject_story-&gt;превратил простой процесс жарки в кулинарное ремесло, прославляемое во всех культурах.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_DeepFrying.generalRules.rulesStrings.4"><s>subject_gerund-&gt;delving into the depths of flavor with the magic of deep frying</s><r>subject_gerund-&gt;погружаясь в глубину вкуса с помощью волшебства жарки во фритюре</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_DeepFrying.label"><s>deep frying</s><r>жарка во фритюре</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_Grilling.description"><s>Grilling is a form of cooking that involves dry heat applied to the surface of food, commonly from above, below or from the side. Grilling usually involves a significant amount of direct, radiant heat, and tends to be used for cooking meat and vegetables quickly. This research gives access to the grill.</s><r>Приготовление на гриле — это форма приготовления пищи, которая предполагает воздействие сухого тепла на поверхность пищи, обычно сверху, снизу или сбоку. Приготовление на гриле обычно требует значительного количества прямого лучистого тепла и, как правило, используется для быстрого приготовления мяса и овощей. Это исследование дает доступ к грилю.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_Grilling.generalRules.rulesStrings.0"><s>subject-&gt;the primal art of fire</s><r>subject-&gt;первобытное искусство огня</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_Grilling.generalRules.rulesStrings.1"><s>subject_story-&gt;embraced the primal connection between fire and food, perfecting the technique of grilling</s><r>subject_story-&gt;осознал первобытную связь между огнем и едой, усовершенствовав технику приготовления на гриле.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_Grilling.generalRules.rulesStrings.2"><s>subject_story-&gt;transformed the act of cooking into a celebration of flavor, texture, and aroma</s><r>subject_story-&gt;превратили процесс приготовления пищи в праздник вкуса, текстуры и аромата</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_Grilling.generalRules.rulesStrings.3"><s>subject_story-&gt;innovated with designs for grills that enhance the natural qualities of meats and vegetables</s><r>subject_story-&gt;инновационные конструкции для грилей, которые подчеркивают натуральные качества мяса и овощей</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_Grilling.generalRules.rulesStrings.4"><s>subject_gerund-&gt;searing perfection into every meal with the mastery of grilling</s><r>subject_gerund-&gt;привнесение совершенства в каждый прием пищи благодаря мастерству приготовления на гриле</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_Grilling.label"><s>grilling</s><r>гриль</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_SoupCooking.description"><s>Soup is a primarily liquid food, generally served warm or hot, that is made by combining ingredients of meat or vegetables with stock, or water. Hot soups are additionally characterized by boiling solid ingredients in liquids in a pot until the flavors are extracted. This research also gives access to the electric pot necessary to cook soups.</s><r>Суп — это преимущественно жидкая пища, обычно подаваемая в теплом или горячем виде, приготовленная путем объединения ингредиентов мяса или овощей с бульоном или водой. Горячие супы также характеризуются кипячением твердых ингредиентов в жидкости в кастрюле до полного извлечения ароматов. Это исследование также дает доступ к электрической кастрюле, необходимой для приготовления супов.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_SoupCooking.generalRules.rulesStrings.0"><s>subject-&gt;the essence of nourishment</s><r>subject-&gt;суть питания</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_SoupCooking.generalRules.rulesStrings.1"><s>subject_story-&gt;mastered the delicate balance of ingredients to create soups that comfort and heal</s><r>subject_story-&gt;освоила тонкий баланс ингредиентов для создания супов, которые успокаивают и лечат</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_SoupCooking.generalRules.rulesStrings.2"><s>subject_story-&gt;introduced the electric pot, revolutionizing soup preparation with efficiency and precision</s><r>subject_story-&gt;представила электрическую кастрюлю, совершив революцию в приготовлении супов, сделав ее более эффективной и точной.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_SoupCooking.generalRules.rulesStrings.3"><s>subject_story-&gt;expanded the culinary repertoire, exploring the depths of flavor achievable in liquid form</s><r>subject_story-&gt;расширил кулинарный репертуар, исследуя глубину вкуса, достижимую в жидкой форме</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_SoupCooking.generalRules.rulesStrings.4"><s>subject_gerund-&gt;crafting the soul of cuisine in every pot of soup</s><r>subject_gerund-&gt;создание души кухни в каждой кастрюле супа</r></e>
+  <e k="D" t="ResearchProjectDef" key="VCE_SoupCooking.label"><s>soup cooking</s><r>приготовление супа</r></e>
+  <e k="D" t="ResearchTabDef" key="VCE_Cooking.label"><s>Cooking Expanded</s><r>Кулинария расширенная</r></e>
+  <e k="D" t="StatDef" key="VCEF_FoodCondimentChance.description"><s>The chance that this colonist will add a random condiment to any crafted meal (except resurrector nanites).</s><r>Вероятность того, что этот колонист добавит случайную приправу к любому приготовленному блюду (кроме нанитов-воскресителей).</r></e>
+  <e k="D" t="StatDef" key="VCEF_FoodCondimentChance.label"><s>food condiment chance</s><r>шанс пищевой приправы</r></e>
+  <e k="D" t="StatDef" key="VCE_FoodImprovementChance.description"><s>The chance that this colonist will convert a crafted meal into a higher type (simple to fine, fine to lavish). Applies to bakes, grills and base game meals.</s><r>Шанс, что этот колонист превратит приготовленную еду в более высокий тип (от простого до прекрасного, от хорошего до роскошного). Применяется к выпечке, грилю и блюдам из основной игры.</r></e>
+  <e k="D" t="StatDef" key="VCE_FoodImprovementChance.label"><s>food improvement chance</s><r>шанс на улучшение еды</r></e>
+  <e k="D" t="ThingCategoryDef" key="VCE_Cheese.label"><s>aged cheese</s><r>выдержанный сыр</r></e>
+  <e k="D" t="ThingCategoryDef" key="VCE_Condiments.label"><s>condiments</s><r>приправы</r></e>
+  <e k="D" t="ThingCategoryDef" key="VCE_UncookedSoups.label"><s>uncooked soups</s><r>сырые супы</r></e>
+  <e k="D" t="ThingDef" key="VCE_AgaveNectar.description"><s>A thin and semi-sweet syrup extracted from agave, known for its healing and anti-inflammatory properties. Although healthier than sugar, its high fructose content may be harmful if taken constantly.</s><r>Жидкий полусладкий сироп из агавы, известный своими целебными и противовоспалительными свойствами. Хотя он полезнее сахара, его высокое содержание фруктозы может быть вредным, если принимать его постоянно.</r></e>
+  <e k="D" t="ThingDef" key="VCE_AgaveNectar.label"><s>maguey syrup</s><r>сироп магуи</r></e>
+  <e k="D" t="ThingDef" key="VCE_Allspice.description"><s>An anomalous, leafy vine bearing tiny unpalatable green fruits. When ground finely during cooking the fruits release a complex, peppery flavor, perfect for spicing dishes.</s><r>Аномальная листовая лоза, приносящая крошечные неприятные на вкус зеленые плоды. При мелком измельчении во время приготовления плоды приобретают сложный перечный вкус, идеально подходящий для приправы к блюдам.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Allspice.label"><s>allspice plant</s><r>душистый перец</r></e>
+  <e k="D" t="ThingDef" key="VCE_CannedAP.description"><s>Boiled eggs vacuum sealed and secured in a steel can effectively extending shelf life indefinitely. While edible cold right out of the can it's far more nourishing mixed into a meal and heated.
+
+Canned goods are intended as a way to preserve food and use it an an ingredient later, not as a final meal.</s><r>Вареные яйца запечатываются в вакууме и помещаются в стальную банку, что эффективно продлевает срок хранения на неопределенный срок. Хотя они съедобны в холодном виде прямо из банки, они гораздо более питательны, если их добавить в еду и разогреть.
+
+Консервы предназначены для сохранения продуктов питания и использования их в качестве ингредиента позже, а не в качестве последнего блюда.</r></e>
+  <e k="D" t="ThingDef" key="VCE_CannedAP.label"><s>canned eggs</s><r>консервированные яйца</r></e>
+  <e k="D" t="ThingDef" key="VCE_CannedFish.description"><s>Fish vacuum sealed and secured in a steel can effectively extending shelf life indefinitely. While edible cold right out of the can it's far more nourishing mixed into a meal and heated.
+
+Canned goods are intended as a way to preserve food and use it an an ingredient later, not as a final meal.</s><r>Рыба запечатана в вакууме и помещена в стальную банку, что эффективно продлевает срок хранения на неопределенный срок. Хотя они съедобны в холодном виде прямо из банки, они гораздо более питательны, если их добавить в еду и разогреть.
+
+Консервы предназначены для сохранения продуктов питания и использования их в качестве ингредиента позже, а не в качестве последнего блюда.</r></e>
+  <e k="D" t="ThingDef" key="VCE_CannedFish.label"><s>canned fish</s><r>консервы рыбные</r></e>
+  <e k="D" t="ThingDef" key="VCE_CannedFruit.description"><s>Cooked and preserved fruit in a hermetically sealed, durable container. Preserved food lasts indefinitely without refrigeration.
+
+Fruit differs from produce in that it is specifically required in the production of desserts.
+
+Canned goods are intended as a way to preserve food and use it an an ingredient later, not as a final meal.</s><r>Вареные и консервированные фрукты в герметично закрытой прочной таре. Консервированные продукты хранятся неопределенно долго без охлаждения.
+
+Фрукты отличаются от продуктов тем, что они особенно необходимы при производстве десертов.
+
+Консервы предназначены для сохранения продуктов питания и использования их в качестве ингредиента позже, а не в качестве финального блюда.</r></e>
+  <e k="D" t="ThingDef" key="VCE_CannedFruit.label"><s>canned fruit</s><r>консервированные фрукты</r></e>
+  <e k="D" t="ThingDef" key="VCE_CannedMeat.description"><s>Meat vacuum sealed and secured in a steel can effectively extending shelf life indefinitely. While edible cold right out of the can it's far more nourishing mixed into a meal and heated.
+
+Canned goods are intended as a way to preserve food and use it an an ingredient later, not as a final meal.</s><r>Мясо запаивается под вакуумом и помещается в стальную банку, что эффективно продлевает срок хранения на неопределенный срок. Хотя они съедобны в холодном виде прямо из банки, они гораздо более питательны, если их добавить в еду и разогреть.
+
+Консервы предназначены для сохранения продуктов питания и использования их в качестве ингредиента позже, а не в качестве последнего блюда.</r></e>
+  <e k="D" t="ThingDef" key="VCE_CannedMeat.label"><s>canned meat</s><r>консервы мясные</r></e>
+  <e k="D" t="ThingDef" key="VCE_CannedProduce.description"><s>Produce vacuum sealed and secured in a steel can effectively extending shelf life indefinitely. While edible cold right out of the can it's far more nourishing mixed into a meal and heated.
+
+Canned goods are intended as a way to preserve food and use it an an ingredient later, not as a final meal.</s><r>Производите продукцию в вакуумной упаковке и в стальной банке, что эффективно продлевает срок хранения на неопределенный срок. Хотя они съедобны в холодном виде прямо из банки, они гораздо более питательны, если их добавить в еду и разогреть.
+
+Консервы предназначены для сохранения продуктов питания и использования их в качестве ингредиента позже, а не в качестве последнего блюда.</r></e>
+  <e k="D" t="ThingDef" key="VCE_CannedProduce.label"><s>canned produce</s><r>консервы</r></e>
+  <e k="D" t="ThingDef" key="VCE_CanningMachine.description"><s>A canning machine is an appliance to store preserved food inside metallic cans. Each canning operation needs a certain amount of Steel.</s><r>Консервная машина — это устройство для хранения консервированных продуктов в металлических банках. Для каждой операции консервирования требуется определенное количество стали.</r></e>
+  <e k="D" t="ThingDef" key="VCE_CanningMachine.label"><s>canning machine</s><r>консервная машина</r></e>
+  <e k="D" t="ThingDef" key="VCE_Cheese.description"><s>Cheese is a dairy product, derived from milk and produced in a wide range of flavors, textures and forms by coagulation of the milk protein casein. Cheese is valued for its portability, long life, and high content of fat, protein, calcium, and phosphorus. It is more compact and has a longer shelf life than milk.
+
+&lt;color=#E5E54C&gt;Gameplay mechanics:&lt;/color&gt; Mood impact from consuming cheese will depend on quality, from -7 to +15.</s><r>Сыр — это молочный продукт, получаемый из молока и выпускаемый с широким спектром вкусов, текстур и форм путем коагуляции казеина молочного белка. Сыр ценят за портативность, долгий срок хранения и высокое содержание жира, белка, кальция и фосфора. Он более компактен и имеет более длительный срок хранения, чем молоко.
+
+&lt;color=#E5E54C&gt;Механика игрового процесса:&lt;/color&gt; Влияние на настроение от употребления сыра будет зависеть от качества, от -7 до +15.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Cheese.label"><s>cow cheese</s><r>коровий сыр</r></e>
+  <e k="D" t="ThingDef" key="VCE_CheesePress.description"><s>A cheese press is a device for pressing whey from curds when making cheese. Pressing influences the cheese's hardness and texture and will also determine the shape of the block or wheel of cheese. This press also works as a ripening chamber, so the longer the cheese is left ripening, the higher its quality will be.</s><r>Пресс для сыра – это устройство для прессования сыворотки из творога при изготовлении сыра. Прессование влияет на твердость и текстуру сыра, а также определяет форму сырного блока или круга. Этот пресс также работает как камера дозревания, поэтому чем дольше сыр будет созревать, тем выше будет его качество.</r></e>
+  <e k="D" t="ThingDef" key="VCE_CheesePress.label"><s>cheese press</s><r>пресс для сыра</r></e>
+  <e k="D" t="ThingDef" key="VCE_ChocolateSyrup.description"><s>A mixture of cocoa, water and sugar, forming a bitter-sweet pourable syrup, perfect for coating desserts. While still not good for you, chocolate syrup is not quite as bad as straight sugar.</s><r>Смесь какао, воды и сахара образует горько-сладкий текучий сироп, идеально подходящий для покрытия десертов. Хотя шоколадный сироп по-прежнему не полезен, он не так плох, как обычный сахар.</r></e>
+  <e k="D" t="ThingDef" key="VCE_ChocolateSyrup.label"><s>chocolate syrup</s><r>шоколадный сироп</r></e>
+  <e k="D" t="ThingDef" key="VCE_CondimentPrepTable.description"><s>A working table to cut, slice and prepare condiments used in gourmet recipes.</s><r>Рабочий стол для нарезки, нарезки и приготовления приправ, используемых в изысканных рецептах.</r></e>
+  <e k="D" t="ThingDef" key="VCE_CondimentPrepTable.label"><s>condiment prep table</s><r>стол для приготовления приправ</r></e>
+  <e k="D" t="ThingDef" key="VCE_CookedSoupFine.description"><s>A complex soup assembled with care from a wide selection of ingredients.</s><r>Сложный суп, тщательно собранный из широкого выбора ингредиентов.</r></e>
+  <e k="D" t="ThingDef" key="VCE_CookedSoupFine.label"><s>fine soup</s><r>прекрасный суп</r></e>
+  <e k="D" t="ThingDef" key="VCE_CookedSoupGourmet.description"><s>A culinary work of art, characterized by refined, even elaborate preparation and presentation of an aesthetically balanced, albeit low quantity soup.</s><r>Кулинарное произведение искусства, характеризующееся изысканным, даже тщательно продуманным приготовлением и подачей эстетически сбалансированного, хотя и небольшого количества супа.</r></e>
+  <e k="D" t="ThingDef" key="VCE_CookedSoupGourmet.label"><s>gourmet soup</s><r>изысканный суп</r></e>
+  <e k="D" t="ThingDef" key="VCE_CookedSoupLavish.description"><s>A masterpiece of the culinary arts, this soup nourishes the body, mind, and soul.</s><r>Шедевр кулинарного искусства, этот суп питает тело, разум и душу.</r></e>
+  <e k="D" t="ThingDef" key="VCE_CookedSoupLavish.label"><s>lavish soup</s><r>щедрый суп</r></e>
+  <e k="D" t="ThingDef" key="VCE_CookedSoupSimple.description"><s>A simple soup slow cooked from a few ingredients.</s><r>Простой суп, приготовленный на медленном огне из нескольких ингредиентов.</r></e>
+  <e k="D" t="ThingDef" key="VCE_CookedSoupSimple.label"><s>simple soup</s><r>простой суп</r></e>
+  <e k="D" t="ThingDef" key="VCE_DeepFriedBigMeat.description"><s>Meat tenderized then filleted, then rolled in a thick batter before being submerged in hot oil and fried. The end result is a crunchy, unhealthy yet tasty soul food - Not quite as filling as a meal, but very pleasing to eat. Deep frying meats in this matter reduces shelf life as well unless frozen.</s><r>Мясо размягчают, затем разделывают на филе, затем обваливают в густом тесте, а затем погружают в горячее масло и обжаривают. Конечным результатом является хрустящая, нездоровая, но вкусная еда для души. Не такая сытная, как обычная еда, но очень приятная для еды. В этом случае жарка мяса во фритюре также сокращает срок его хранения, если только оно не заморожено.</r></e>
+  <e k="D" t="ThingDef" key="VCE_DeepFriedBigMeat.label"><s>deep fried meat</s><r>жареное мясо</r></e>
+  <e k="D" t="ThingDef" key="VCE_DeepFriedFish.description"><s>Fish tenderized then filleted, then rolled in a thick batter before being submerged in hot oil and fried. The end result is a crunchy, unhealthy yet tasty soul food - Not quite as filling as a meal, but very pleasing to eat. Deep frying meats in this matter reduces shelf life as well unless frozen</s><r>Рыбу размягчают, затем разделывают на филе, затем обваливают в густом тесте, затем погружают в горячее масло и обжаривают. Конечным результатом является хрустящая, нездоровая, но вкусная еда для души. Не такая сытная, как обычная еда, но очень приятная для еды. Мясо во фритюре в этом случае также сокращает срок хранения, если оно не заморожено.</r></e>
+  <e k="D" t="ThingDef" key="VCE_DeepFriedFish.label"><s>deep fried fish</s><r>жареная рыба</r></e>
+  <e k="D" t="ThingDef" key="VCE_DeepFriedVegetables.description"><s>Vegetables julienned then patted dry before being dunked into hot oil until golden brown. As crispy and pleasing as they are, these deep fried treats are not as filling as a normal meal, nor as healthy. Deep frying vegetables in this matter reduces shelf life as well unless frozen.</s><r>Овощи нарезают соломкой, затем обсушивают и окунают в горячее масло до золотистого цвета. Какими бы хрустящими и приятными они ни были, эти жареные во фритюре угощения не так сытны, как обычная еда, и не так полезны. Жарка овощей во фритюре в этом случае также сокращает срок хранения, если только они не заморожены.</r></e>
+  <e k="D" t="ThingDef" key="VCE_DeepFriedVegetables.label"><s>deep fried vegetables</s><r>овощи во фритюре</r></e>
+  <e k="D" t="ThingDef" key="VCE_DeepFrier.description"><s>A deep fryer is a kitchen appliance used for deep frying. Deep frying is a method of cooking by submerging food into oil at high heat, typically between temperatures of 350 °F and 375 °F (175 °C to 190 °C).</s><r>Фритюрница — кухонный прибор, используемый для жарки во фритюре. Жарка во фритюре — это метод приготовления пищи путем погружения продуктов в масло при сильном огне, обычно при температуре от 350 ° F до 375 ° F (от 175 ° C до 190 ° C).</r></e>
+  <e k="D" t="ThingDef" key="VCE_DeepFrier.label"><s>deep fryer</s><r>фритюрница</r></e>
+  <e k="D" t="ThingDef" key="VCE_DigestibleResurrectorNanites.description"><s>An extremely high tech glitterworld concoction, unsafe to drink directly due to bitter taste and a mild case of intraventricular hemorrhaging. However, when cooked properly into food, these effects inexplicably seem nullified. Any pawns with this present upon death will immediately be revived as if by miracle.</s><r>Чрезвычайно высокотехнологичная смесь из мира блесток, которую небезопасно пить непосредственно из-за горького вкуса и легкого случая внутрижелудочкового кровоизлияния. Однако при правильном приготовлении пищи эти эффекты необъяснимым образом сводятся на нет. Любые пешки с этим подарком после смерти будут немедленно возрождены, словно чудом.</r></e>
+  <e k="D" t="ThingDef" key="VCE_DigestibleResurrectorNanites.label"><s>digestible resurrector nanites</s><r>перевариваемые наниты-воскресители</r></e>
+  <e k="D" t="ThingDef" key="VCE_ElectricPot.description"><s>An electric pot, also called a thermo pot, is a small appliance used for boiling water and maintaining it at a constant temperature. It is typically used to simmer soup over an extended period of time. Ingredients are submerged in water and left to cook over an extended period, allowing the flavors of the ingredients to gradually deepen and blend over time.
+
+Soup on an unpowered electric pot will spoil extremely rapidly. Beware of solar flares!</s><r>Электрическая кастрюля, также называемая термопотом, представляет собой небольшой прибор, используемый для кипячения воды и поддержания ее постоянной температуры. Обычно его используют для варки супа в течение длительного периода времени. Ингредиенты погружают в воду и оставляют готовиться в течение длительного периода, позволяя вкусам ингредиентов постепенно углубляться и смешиваться с течением времени.
+
+Суп в электрической кастрюле без электропитания испортится очень быстро. Остерегайтесь солнечных вспышек!</r></e>
+  <e k="D" t="ThingDef" key="VCE_ElectricPot.label"><s>electric pot</s><r>электрический горшок</r></e>
+  <e k="D" t="ThingDef" key="VCE_FineBake.description"><s>A complex bake assembled with care from a wide selection of ingredients and flour.</s><r>Сложная выпечка, тщательно собранная из широкого выбора ингредиентов и муки.</r></e>
+  <e k="D" t="ThingDef" key="VCE_FineBake.label"><s>fine bake</s><r>отличная выпечка</r></e>
+  <e k="D" t="ThingDef" key="VCE_FineDessert.description"><s>A complex dessert assembled with care from a wide selection of ingredients.</s><r>Сложный десерт, тщательно собранный из широкого выбора ингредиентов.</r></e>
+  <e k="D" t="ThingDef" key="VCE_FineDessert.label"><s>fine dessert</s><r>прекрасный десерт</r></e>
+  <e k="D" t="ThingDef" key="VCE_FineGrill.description"><s>A complex grilled meat assembled with care from a wide selection of ingredients. Very filling, grilled meats allow people to not feel hunger for a long time. Freezing them ruins this effect.</s><r>Сложное мясо на гриле, тщательно приготовленное из широкого выбора ингредиентов. Очень сытное мясо, приготовленное на гриле, позволяет человеку долгое время не чувствовать голода. Заморозка разрушает этот эффект.</r></e>
+  <e k="D" t="ThingDef" key="VCE_FineGrill.label"><s>fine grill</s><r>тонкий гриль</r></e>
+  <e k="D" t="ThingDef" key="VCE_Flour.description"><s>Spelt flour, ideal for use in baking. Spelt flour takes a very long time to go bad, if stored in a dry environment. It was produced by spelt that has been genetically engineered to gently break into flour with a mere touch.</s><r>Полбяная мука идеальна для использования в выпечке. Мука из полбы портится очень долго, если хранить ее в сухом месте. Его производят из полбы, которая была генетически модифицирована так, чтобы легко превращаться в муку одним прикосновением.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Flour.label"><s>spelt flour</s><r>мука из полбы</r></e>
+  <e k="D" t="ThingDef" key="VCE_GourmetBake.description"><s>A culinary work of art, characterized by refined, even elaborate preparation and presentation of an aesthetically balanced, albeit low quantity bake.</s><r>Кулинарное произведение искусства, характеризующееся изысканным, даже тщательно продуманным приготовлением и подачей эстетически сбалансированной выпечки, хотя и небольшого количества.</r></e>
+  <e k="D" t="ThingDef" key="VCE_GourmetBake.label"><s>gourmet bake</s><r>изысканная выпечка</r></e>
+  <e k="D" t="ThingDef" key="VCE_GourmetDessert.description"><s>A culinary work of art, characterized by refined, even elaborate preparation and presentation of an aesthetically balanced, albeit low quantity dessert.</s><r>Кулинарное произведение искусства, характеризующееся изысканным, даже продуманным приготовлением и подачей эстетически сбалансированного, хотя и небольшого количества десерта.</r></e>
+  <e k="D" t="ThingDef" key="VCE_GourmetDessert.label"><s>gourmet dessert</s><r>изысканный десерт</r></e>
+  <e k="D" t="ThingDef" key="VCE_GourmetGrill.description"><s>A culinary work of art, characterized by refined, even elaborate preparation and presentation of an aesthetically balanced, albeit low quantity grilled meat. Very filling, grilled meats allow people to not feel hunger for a long time. Freezing them ruins this effect.</s><r>Кулинарное произведение искусства, характеризующееся изысканным, даже тщательно продуманным приготовлением и подачей эстетически сбалансированного, хотя и небольшого количества мяса на гриле. Очень сытное мясо, приготовленное на гриле, позволяет человеку долгое время не чувствовать голода. Заморозка разрушает этот эффект.</r></e>
+  <e k="D" t="ThingDef" key="VCE_GourmetGrill.label"><s>gourmet grill</s><r>гриль для гурманов</r></e>
+  <e k="D" t="ThingDef" key="VCE_Grill.description"><s>A grill is a device that cooks food by applying heat from below. This is a wood fired grill that needs wood as fuel to work.</s><r>Гриль — это устройство, которое готовит пищу, нагревая ее снизу. Это дровяной гриль, для работы которого в качестве топлива требуются дрова.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Grill.label"><s>grill</s><r>гриль</r></e>
+  <e k="D" t="ThingDef" key="VCE_HotSauce.description"><s>A potent, spicy sauce made from blending and simmering chilis and other spices. While particularly strong hot sauces hurt at first, they are known to numb pain and work up a warm sweat shortly after consumption.</s><r>Мощный, острый соус, приготовленный из смеси и кипящего перца чили и других специй. Хотя особенно острые острые соусы поначалу причиняют боль, известно, что они притупляют боль и вызывают появление теплого пота вскоре после употребления.</r></e>
+  <e k="D" t="ThingDef" key="VCE_HotSauce.label"><s>hot sauce</s><r>острый соус</r></e>
+  <e k="D" t="ThingDef" key="VCE_InsectJellyPreserves.description"><s>Insect jelly cut with sweetener then sealed as a preserve. Very rich and sweet, while being surprisingly healthy.</s><r>Желе из насекомых, нарезанное подсластителем, затем запечатывается для консервации. Очень насыщенный и сладкий, но при этом удивительно полезный.</r></e>
+  <e k="D" t="ThingDef" key="VCE_InsectJellyPreserves.label"><s>insect jelly preserves</s><r>желе из насекомых</r></e>
+  <e k="D" t="ThingDef" key="VCE_Ketchup.description"><s>A thick sauce made from stewing tomatoes, both salty and tangy in tandem with a sweet aftertaste. Perfect for meaty meals or fried foods.</s><r>Густой соус из тушеных томатов, соленый и острый в тандеме со сладким послевкусием. Идеально подходит для мясных блюд или жареных блюд.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Ketchup.label"><s>ketchup</s><r>кетчуп</r></e>
+  <e k="D" t="ThingDef" key="VCE_LavishBake.description"><s>A masterpiece of the culinary arts, this bake nourishes the body, mind, and soul.</s><r>Эта выпечка, шедевр кулинарного искусства, питает тело, разум и душу.</r></e>
+  <e k="D" t="ThingDef" key="VCE_LavishBake.label"><s>lavish bake</s><r>щедрая выпечка</r></e>
+  <e k="D" t="ThingDef" key="VCE_LavishDessert.description"><s>A masterpiece of the culinary arts, this dessert nourishes the body, mind, and soul.</s><r>Шедевр кулинарного искусства, этот десерт питает тело, разум и душу.</r></e>
+  <e k="D" t="ThingDef" key="VCE_LavishDessert.label"><s>lavish dessert</s><r>щедрый десерт</r></e>
+  <e k="D" t="ThingDef" key="VCE_LavishGrill.description"><s>A masterpiece of the culinary arts, this grilled meat nourishes the body, mind, and soul. Very filling, grilled meats allow people to not feel hunger for a long time. Freezing them ruins this effect.</s><r>Шедевр кулинарного искусства, это мясо на гриле питает тело, разум и душу. Очень сытное мясо, приготовленное на гриле, позволяет человеку долгое время не чувствовать голода. Заморозка разрушает этот эффект.</r></e>
+  <e k="D" t="ThingDef" key="VCE_LavishGrill.label"><s>lavish grill</s><r>роскошный гриль</r></e>
+  <e k="D" t="ThingDef" key="VCE_Mayo.description"><s>A thick emulsion of egg, oil, and other herbs. Mayonnaise, while terrible for you, adds a pleasing tang and is very calorically dense.</s><r>Густая эмульсия из яиц, масла и других трав. Майонез, хотя и ужасен для вас, придает приятный привкус и очень калорийен.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Mayo.label"><s>mayo</s><r>майонез</r></e>
+  <e k="D" t="ThingDef" key="VCE_MealGourmet.description"><s>A culinary work of art, characterized by refined, even elaborate preparation and presentation.</s><r>Кулинарное произведение искусства, характеризующееся изысканной, даже тщательно продуманной подготовкой и подачей.</r></e>
+  <e k="D" t="ThingDef" key="VCE_MealGourmet.label"><s>gourmet meal</s><r>изысканная еда</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawSpices.description"><s>A variety of aromatic and pungent spices, adds several sharp notes on the tongue and puts a bit of a pep in your step.</s><r>Разнообразные ароматные и острые специи придают языку несколько острых ноток и придают бодрость походке.</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawSpices.label"><s>spices</s><r>специи</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawSugar.description"><s>Brown sugar is a sucrose sugar product with a distinctive brown color due to the presence of sugarcane molasses, and it adds a much desired sweetness. Sugar is easily converted into energy by the body, which may result in a nice burst of energy.</s><r>Коричневый сахар — это продукт из сахарозы, имеющий характерный коричневый цвет из-за присутствия патоки сахарного тростника и придающий столь желанную сладость. Сахар легко преобразуется организмом в энергию, что может привести к хорошему приливу энергии.</r></e>
+  <e k="D" t="ThingDef" key="VCE_RawSugar.label"><s>brown sugar</s><r>коричневый сахар</r></e>
+  <e k="D" t="ThingDef" key="VCE_RuinedFineGrill.description"><s>A complex grilled meat assembled with care from a wide selection of ingredients. This grill has been frozen, and as such it is still edible but much less filling. It won't provide the &quot;well fed&quot; buff.</s><r>Сложное мясо на гриле, тщательно приготовленное из широкого выбора ингредиентов. Этот гриль был заморожен, поэтому он все еще съедобен, но гораздо менее сытный. Это не даст баффа «Сытый».</r></e>
+  <e k="D" t="ThingDef" key="VCE_RuinedFineGrill.label"><s>ruined fine grill</s><r>испорченный гриль</r></e>
+  <e k="D" t="ThingDef" key="VCE_RuinedGourmetGrill.description"><s>A culinary work of art, characterized by refined, even elaborate preparation and presentation of an aesthetically balanced, albeit low quantity grilled meat. This grill has been frozen, and as such it is still edible but much less filling. It won't provide the &quot;well fed&quot; buff.</s><r>Кулинарное произведение искусства, характеризующееся изысканным, даже тщательно продуманным приготовлением и подачей эстетически сбалансированного, хотя и небольшого количества мяса на гриле. Этот гриль был заморожен, поэтому он все еще съедобен, но гораздо менее сытный. Это не даст баффа «Сытый».</r></e>
+  <e k="D" t="ThingDef" key="VCE_RuinedGourmetGrill.label"><s>ruined gourmet grill</s><r>испорченный гриль для гурманов</r></e>
+  <e k="D" t="ThingDef" key="VCE_RuinedLavishGrill.description"><s>A masterpiece of the culinary arts, this grilled meat nourishes the body, mind, and soul. This grill has been frozen, and as such it is still edible but much less filling. It won't provide the &quot;well fed&quot; buff.</s><r>Шедевр кулинарного искусства, это мясо на гриле питает тело, разум и душу. Этот гриль был заморожен, поэтому он все еще съедобен, но гораздо менее сытный. Это не даст баффа «Сытый».</r></e>
+  <e k="D" t="ThingDef" key="VCE_RuinedLavishGrill.label"><s>ruined lavish grill</s><r>испорченный роскошный гриль</r></e>
+  <e k="D" t="ThingDef" key="VCE_RuinedSimpleGrill.description"><s>A simple grilled meat cooked from a few ingredients. This grill has been frozen, and as such it is still edible but much less filling. It won't provide the &quot;well fed&quot; buff.</s><r>Простое мясо на гриле, приготовленное из нескольких ингредиентов. Этот гриль был заморожен, поэтому он все еще съедобен, но гораздо менее сытный. Это не даст баффа «Сытый».</r></e>
+  <e k="D" t="ThingDef" key="VCE_RuinedSimpleGrill.label"><s>ruined simple grill</s><r>испорченный простой гриль</r></e>
+  <e k="D" t="ThingDef" key="VCE_Salt.description"><s>Rock salt, like common salt, enhances the flavor profile of other ingredients it is cooked with.</s><r>Каменная соль, как и поваренная соль, улучшает вкус других ингредиентов, из которых она приготовлена.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Salt.label"><s>salt</s><r>соль</r></e>
+  <e k="D" t="ThingDef" key="VCE_SimpleBake.description"><s>A simple bake quickly cooked from a few ingredients and flour.</s><r>Простая выпечка, быстро приготовленная из нескольких ингредиентов и муки.</r></e>
+  <e k="D" t="ThingDef" key="VCE_SimpleBake.label"><s>simple bake</s><r>простая выпечка</r></e>
+  <e k="D" t="ThingDef" key="VCE_SimpleDessert.description"><s>A simple dessert quickly made from a few fruits and other ingredients.</s><r>Простой десерт, который быстро готовится из нескольких фруктов и других ингредиентов.</r></e>
+  <e k="D" t="ThingDef" key="VCE_SimpleDessert.label"><s>simple dessert</s><r>простой десерт</r></e>
+  <e k="D" t="ThingDef" key="VCE_SimpleGrill.description"><s>A simple grilled meat cooked from a few ingredients. Very filling, grilled meats allow people to not feel hunger for a long time. Freezing them ruins this effect.</s><r>Простое мясо на гриле, приготовленное из нескольких ингредиентов. Очень сытное мясо, приготовленное на гриле, позволяет человеку долгое время не чувствовать голода. Заморозка разрушает этот эффект.</r></e>
+  <e k="D" t="ThingDef" key="VCE_SimpleGrill.label"><s>simple grill</s><r>простой гриль</r></e>
+  <e k="D" t="ThingDef" key="VCE_SmokeleafButter.description"><s>A thickened, fatty substance made by churning milk into very thick cream, combining with smokeleaf oil and allowing it to set. Very unhealthy and hits quite a bit harder than a joint.</s><r>Густое жирное вещество, получаемое путем сбивания молока в очень густые сливки, смешивания с маслом дымного листа и застывания. Очень вредно для здоровья и бьет немного сильнее, чем сустав.</r></e>
+  <e k="D" t="ThingDef" key="VCE_SmokeleafButter.label"><s>smokeleaf butter</s><r>масло дымного листа</r></e>
+  <e k="D" t="ThingDef" key="VCE_Sugarcane.description"><s>A thick, tall, tropical grass with jointed stems. While not exactly the most nutritious thing to eat on its own, this genetically modified sugarcane is easily milled into sugar and then used for a variety of culinary creations - Particularly desserts.</s><r>Густая, высокая тропическая трава с членистыми стеблями. Хотя этот генетически модифицированный сахарный тростник не является самым питательным продуктом сам по себе, его легко перемалывать в сахар, а затем использовать для различных кулинарных творений, особенно десертов.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Sugarcane.label"><s>sugarcane plant</s><r>завод сахарного тростника</r></e>
+  <e k="D" t="ThingDef" key="VCE_UncookedSoupFine.description"><s>An uncooked fine soup. This needs to be cooked in an electric pot to be edible.</s><r>Сырой вкусный суп. Чтобы его можно было есть, его нужно готовить в электрической кастрюле.</r></e>
+  <e k="D" t="ThingDef" key="VCE_UncookedSoupFine.label"><s>uncooked fine soup</s><r>сырой вкусный суп</r></e>
+  <e k="D" t="ThingDef" key="VCE_UncookedSoupGourmet.description"><s>An uncooked gourmet soup. This needs to be cooked in an electric pot to be edible.</s><r>Неприготовленный изысканный суп. Чтобы его можно было есть, его нужно готовить в электрической кастрюле.</r></e>
+  <e k="D" t="ThingDef" key="VCE_UncookedSoupGourmet.label"><s>uncooked gourmet soup</s><r>сырой изысканный суп</r></e>
+  <e k="D" t="ThingDef" key="VCE_UncookedSoupLavish.description"><s>An uncooked lavish soup. This needs to be cooked in an electric pot to be edible.</s><r>Неприготовленный щедрый суп. Чтобы его можно было есть, его нужно готовить в электрической кастрюле.</r></e>
+  <e k="D" t="ThingDef" key="VCE_UncookedSoupLavish.label"><s>uncooked lavish soup</s><r>сырой щедрый суп</r></e>
+  <e k="D" t="ThingDef" key="VCE_UncookedSoupSimple.description"><s>An uncooked simple soup. This needs to be cooked in an electric pot to be edible.</s><r>Простой сырой суп. Чтобы его можно было есть, его нужно готовить в электрической кастрюле.</r></e>
+  <e k="D" t="ThingDef" key="VCE_UncookedSoupSimple.label"><s>uncooked simple soup</s><r>сырой простой суп</r></e>
+  <e k="D" t="ThingDef" key="VCE_Wheat.description"><s>Spelt is a species of wheat that has been cultivated since approximately 5000 BC. A good source of dietary fiber, protein (which it contains more of than common wheat), and vitamins and minerals. Spelt takes almost an entire growing season to come to fruition. While fragile and time-consuming, this cereal has been genetically engineered to gently break into flour with a mere touch.</s><r>Спельта — это разновидность пшеницы, которую выращивают примерно с 5000 г. до н. э. Хороший источник пищевых волокон, белка (которого содержится больше, чем в обычной пшенице), а также витаминов и минералов. Для того, чтобы спельта дала плоды, требуется почти весь вегетационный период. Несмотря на то, что эта крупа хрупкая и требует много времени, она была генетически модифицирована так, чтобы легко превращаться в муку одним прикосновением.</r></e>
+  <e k="D" t="ThingDef" key="VCE_Wheat.label"><s>spelt plant</s><r>растение полбы</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteCheese.stages.0.description"><s>I ate some poorly curdled milk with barely any cheese flavour. Disgusting.</s><r>Я съел немного плохо свернувшегося молока, почти без сырного привкуса. Отвратительный.</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteCheese.stages.0.label"><s>ate awful cheese</s><r>съел ужасный сыр</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteCheese.stages.1.description"><s>That cheese wasn't horrible but wasn't great either. The aftertaste was kind of gross.</s><r>Этот сыр не был ужасен, но и не очень хорош. Послевкусие было какое-то отвратительное.</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteCheese.stages.1.label"><s>ate poor cheese</s><r>съел плохой сыр</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteCheese.stages.2.description"><s>That was some alright cheese.</s><r>Это был нормальный сыр.</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteCheese.stages.2.label"><s>ate normal cheese</s><r>ел нормальный сыр</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteCheese.stages.3.description"><s>I ate some fine cheese. Delicious.</s><r>Я съел немного хорошего сыра. Вкусный.</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteCheese.stages.3.label"><s>ate good cheese</s><r>ел хороший сыр</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteCheese.stages.4.description"><s>I ate some fine cheese. You can tell when it has had a good amount of time to mature.</s><r>Я съел немного хорошего сыра. Вы можете сказать, когда у него было достаточно времени для созревания.</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteCheese.stages.4.label"><s>ate excellent cheese</s><r>съел отличный сыр</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteCheese.stages.5.description"><s>That cheese was simply amazing! It doesn't get much better than this.</s><r>Этот сыр был просто восхитительным! Это не может быть намного лучше, чем это.</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteCheese.stages.5.label"><s>ate masterwork cheese</s><r>съел шедевральный сыр</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteCheese.stages.6.description"><s>I've eaten quite possibly some of the best cheese I've ever tasted!</s><r>Я съел, возможно, один из лучших сыров, которые я когда-либо пробовал!</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteCheese.stages.6.label"><s>ate legendary cheese</s><r>съел легендарный сыр</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteFineDessert.stages.0.description"><s>That dessert was really good.</s><r>Этот десерт был действительно хорош.</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteFineDessert.stages.0.label"><s>ate fine dessert</s><r>съел прекрасный десерт</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteFineGrill.stages.0.description"><s>I ate a meaty meal with a few vegetables.</s><r>Я съел мясную еду с небольшим количеством овощей.</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteFineGrill.stages.0.label"><s>ate fine grill</s><r>съел отличный гриль</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteFriedGoods.stages.0.description"><s>Greasy food. Yum.</s><r>Жирная еда. Ням.</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteFriedGoods.stages.0.label"><s>ate deep fried food</s><r>ел жареную еду</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteGourmetDessert.stages.0.description"><s>My palate had never experienced such an explosion of flavor.</s><r>Такого взрыва вкуса мой вкус еще никогда не испытывал.</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteGourmetDessert.stages.0.label"><s>ate gourmet dessert</s><r>съел изысканный десерт</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteGourmetGrill.stages.0.description"><s>The meat melted in my mouth. Just incredible.</s><r>Мясо таяло во рту. Просто невероятно.</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteGourmetGrill.stages.0.label"><s>ate gourmet grill</s><r>съел изысканный гриль</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteGourmetMeal.stages.0.description"><s>A mindbending culinary experience. My palate has been gifted with sensations that are beyond this world.</s><r>Потрясающий кулинарный опыт. Мой вкус наделен ощущениями, выходящими за пределы этого мира.</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteGourmetMeal.stages.0.label"><s>ate gourmet meal</s><r>съел изысканную еду</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteLavishDessert.stages.0.description"><s>That dessert was delicious.</s><r>Этот десерт был восхитительным.</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteLavishDessert.stages.0.label"><s>ate lavish dessert</s><r>съел роскошный десерт</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteLavishGrill.stages.0.description"><s>I ate an incredible dish with expertly grilled meats and veggies. Delicious.</s><r>Я съел невероятное блюдо с искусно приготовленным на гриле мясом и овощами. Вкусный.</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteLavishGrill.stages.0.label"><s>ate lavish grill</s><r>съел щедрый гриль</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteSimpleDessert.stages.0.description"><s>That dessert was simple, but certainly tasty.</s><r>Десерт был простой, но, безусловно, вкусный.</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteSimpleDessert.stages.0.label"><s>ate simple dessert</s><r>съел простой десерт</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteSimpleGrill.stages.0.description"><s>A simple grill. Meh.</s><r>Простой гриль. Мех.</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_AteSimpleGrill.stages.0.label"><s>ate simple grill</s><r>ел простой гриль</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_ConsumedAgave.stages.0.description"><s>I ate some sweet agave nectar.</s><r>Я съел немного сладкого нектара агавы.</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_ConsumedAgave.stages.0.label"><s>consumed agave</s><r>потребляемая агава</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_ConsumedCannedGoods.stages.0.description"><s>Eating directly from a can is almost as bad as eating without a table.</s><r>Есть прямо из банки почти так же вредно, как есть без стола.</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_ConsumedCannedGoods.stages.0.label"><s>ate canned food</s><r>ел консервы</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_ConsumedChocolateSyrup.stages.0.description"><s>Chocolate is love.</s><r>Шоколад – это любовь.</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_ConsumedChocolateSyrup.stages.0.label"><s>consumed chocolate syrup</s><r>выпил шоколадный сироп</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_ConsumedDigestibleResurrectorNanites.stages.0.description"><s>I feel invincible!</s><r>Я чувствую себя непобедимым!</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_ConsumedDigestibleResurrectorNanites.stages.0.label"><s>resurrector nanites</s><r>воскрешающие наниты</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_ConsumedHotSauce.stages.0.description"><s>I absolutely hate that super strong hot sauce! Please give me more.</s><r>Я совершенно ненавижу этот суперкрепкий острый соус! Пожалуйста, дайте мне больше.</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_ConsumedHotSauce.stages.0.label"><s>hurts so good</s><r>так больно</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_ConsumedInsectJelly.stages.0.description"><s>What an incredibly sweet and rich taste.</s><r>Какой невероятно сладкий и насыщенный вкус.</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_ConsumedInsectJelly.stages.0.label"><s>consumed insect jelly preserves</s><r>потребляемые желе из насекомых</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_ConsumedKetchup.stages.0.description"><s>Delicious, sticky goodness.</s><r>Вкусная, липкая штука.</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_ConsumedKetchup.stages.0.label"><s>consumed ketchup</s><r>потребляемый кетчуп</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_ConsumedMayo.stages.0.description"><s>I ate some tangy mayo. Very filling.</s><r>Я съел немного острого майонеза. Очень сытно.</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_ConsumedMayo.stages.0.label"><s>consumed mayo</s><r>съеденный майонез</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_ConsumedSalt.stages.0.description"><s>A pinch of salt really enhances the flavours of a meal.</s><r>Щепотка соли действительно улучшает вкус блюда.</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_ConsumedSalt.stages.0.label"><s>consumed salt</s><r>потребляемая соль</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_ConsumedSpices.stages.0.description"><s>That meal was spicy.</s><r>Эта еда была острой.</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_ConsumedSpices.stages.0.label"><s>consumed spices</s><r>потребляемые специи</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_ConsumedSugar.stages.0.description"><s>Sugar is not love. But it can feel like it.</s><r>Сахар – это не любовь. Но такое ощущение может быть.</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_ConsumedSugar.stages.0.label"><s>consumed sugar</s><r>потребляемый сахар</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_SmokeleafButterHigh.stages.0.description"><s>I'm, like, stoned, man.</s><r>Я типа обкуренный, чувак.</r></e>
+  <e k="D" t="ThoughtDef" key="VCE_SmokeleafButterHigh.stages.0.label"><s>high on smokeleaf butter</s><r>много масла из дымного листа</r></e>
+  <e k="D" t="WorkGiverDef" key="VCE_DoBillsCanning.gerund"><s>canning food at</s><r>консервирование продуктов питания в</r></e>
+  <e k="D" t="WorkGiverDef" key="VCE_DoBillsCanning.label"><s>work at canning machine</s><r>работа на консервном станке</r></e>
+  <e k="D" t="WorkGiverDef" key="VCE_DoBillsCanning.verb"><s>can food</s><r>может еда</r></e>
+  <e k="D" t="WorkGiverDef" key="VCE_DoBillsFryer.gerund"><s>deep frying at</s><r>жарка во фритюре</r></e>
+  <e k="D" t="WorkGiverDef" key="VCE_DoBillsFryer.label"><s>cook at deep fryer</s><r>готовить во фритюрнице</r></e>
+  <e k="D" t="WorkGiverDef" key="VCE_DoBillsFryer.verb"><s>deep fry</s><r>фритюр</r></e>
+  <e k="D" t="WorkGiverDef" key="VCE_DoBillsGrill.gerund"><s>grilling at</s><r>гриль на</r></e>
+  <e k="D" t="WorkGiverDef" key="VCE_DoBillsGrill.label"><s>cook at grill</s><r>готовить на гриле</r></e>
+  <e k="D" t="WorkGiverDef" key="VCE_DoBillsGrill.verb"><s>grill</s><r>гриль</r></e>
+  <e k="D" t="WorkGiverDef" key="VCE_DoBillsPrep.gerund"><s>working on condiments at</s><r>работаю над приправами в</r></e>
+  <e k="D" t="WorkGiverDef" key="VCE_DoBillsPrep.label"><s>work on condiments at prep table</s><r>работа над приправами за подготовительным столом</r></e>
+  <e k="D" t="WorkGiverDef" key="VCE_DoBillsPrep.verb"><s>prep condiments</s><r>приготовить приправы</r></e>
+  <e k="K" key="VCE_CancelBringingMilk"><s>Cancel bringing milk</s><r>Отменить принос молока</r></e>
+  <e k="K" key="VCE_CancelBringingMilkDesc"><s>Cancel bringing milk to the cheese press.</s><r>Отмените подачу молока в пресс для сыра.</r></e>
+  <e k="K" key="VCE_CancelBringingSoup"><s>Cancel bringing soup</s><r>Отменить принос супа</r></e>
+  <e k="K" key="VCE_CancelBringingSoupDesc"><s>Cancel bringing soup to the electric pot.</s><r>Отмените подачу супа в электрическую кастрюлю.</r></e>
+  <e k="K" key="VCE_CheeseFinished"><s>A cheese has finished ripening in the cheese press</s><r>Сыр закончил созревание в сырном прессе.</r></e>
+  <e k="K" key="VCE_CheeseInProgress"><s>Cheese press is pressing {0}. It will be ready with {1} quality in {2}.</s><r>Пресс для сыра нажимает {0}. Он будет готов с качеством {1} через {2}.</r></e>
+  <e k="K" key="VCE_CheesePressEmpty"><s>Cheese press is empty right now.</s><r>Пресс для сыра сейчас пуст.</r></e>
+  <e k="K" key="VCE_CheesePressFilled"><s>Cheese press filled with {0}</s><r>Пресс для сыра, наполненный {0}</r></e>
+  <e k="K" key="VCE_CheesePressNotWorking"><s>This cheese press is not working at the moment</s><r>Этот пресс для сыра в данный момент не работает.</r></e>
+  <e k="K" key="VCE_CheesePressWorking"><s>Cheese press is working:</s><r>Пресс для сыра работает:</r></e>
+  <e k="K" key="VCE_CheeseReady"><s>This cheese has reached its desired degree of ripening and is waiting for pickup.</s><r>Этот сыр достиг желаемой степени созревания и ждет самовывоза.</r></e>
+  <e k="K" key="VCE_CholesterolDescDeepFried"><s>Consuming deep fried foods causes cholesterol. Each ingestion of such a meal will increase colonist's cholesterol by 1.5%.</s><r>Употребление жареной пищи приводит к повышению уровня холестерина. Каждый прием такой еды повышает уровень холестерина у колонистов на 1,5%.</r></e>
+  <e k="K" key="VCE_CholesterolEffect"><s>Cholesterol</s><r>Холестерин</r></e>
+  <e k="K" key="VCE_CholesterolEffectDesc"><s>Consuming meals that include this condiment causes cholesterol. Each ingestion of such a meal will increase colonist's cholesterol by 1%.</s><r>Употребление блюд, содержащих эту приправу, приводит к повышению уровня холестерина. Каждый прием такой еды повышает уровень холестерина у колонистов на 1%.</r></e>
+  <e k="K" key="VCE_CholesterolEffectDescDouble"><s>Consuming meals that include this condiment causes cholesterol. Each ingestion of such a meal will increase colonist's cholesterol by 2%.</s><r>Употребление блюд, содержащих эту приправу, приводит к повышению уровня холестерина. Каждый прием такой еды повышает уровень холестерина у колонистов на 2%.</r></e>
+  <e k="K" key="VCE_CholesterolEffectDescOneAndHalfPoint"><s>Consuming meals that include this condiment causes cholesterol. Each ingestion of such a meal will increase colonist's cholesterol by 1.5%.</s><r>Употребление блюд, содержащих эту приправу, приводит к повышению уровня холестерина. Каждый прием такой еды повышает уровень холестерина у колонистов на 1,5%.</r></e>
+  <e k="K" key="VCE_CondimentEffects"><s>Condiment effects</s><r>Эффекты приправы</r></e>
+  <e k="K" key="VCE_CondimentEffectsAgave"><s>Agave nectar is a thin and semi-sweet nectar, known for its healing and anti-inflammatory properties. Consuming meals that include this condiment gives a 15% immunity gain speed boost for 12 hours.</s><r>Нектар агавы — тонкий и полусладкий нектар, известный своими целебными и противовоспалительными свойствами. Употребление блюд, содержащих эту приправу, увеличивает скорость восстановления иммунитета на 15% на 12 часов.</r></e>
+  <e k="K" key="VCE_CondimentEffectsButter"><s>Consuming meals that include this condiment creates a smokeleaf high without addiction risks.</s><r>Употребление блюд, содержащих эту приправу, создает эффект дымного листа без риска привыкания.</r></e>
+  <e k="K" key="VCE_CondimentEffectsJelly"><s>Consuming meals that include this condiment increases mood by 10 for 12 hours.</s><r>Употребление блюд, содержащих эту приправу, повышает настроение на 10 на 12 часов.</r></e>
+  <e k="K" key="VCE_CondimentEffectsKetchup"><s>Consuming meals that include this condiment increases mood by 3 for 12 hours.</s><r>Употребление блюд, содержащих эту приправу, повышает настроение на 3 на 12 часов.</r></e>
+  <e k="K" key="VCE_CondimentEffectsMayo"><s>Mayonnaise, while terrible for you, adds a pleasing tang and is very calorically dense. Consuming meals that include this condiment lowers hunger rate by 15% for 12 hours.</s><r>Майонез, хотя и ужасен для вас, придает приятный привкус и очень калорийен. Употребление блюд, содержащих эту приправу, снижает уровень голода на 15% на 12 часов.</r></e>
+  <e k="K" key="VCE_CondimentEffectsNanites"><s>Consuming meals that include this condiment increases manipulation by 1% for 12 hours. The colonist will be resurrected if it is killed during that time.</s><r>Употребление блюд, содержащих эту приправу, увеличивает манипуляцию на 1% на 12 часов. Колонист воскреснет, если его убьют за это время.</r></e>
+  <e k="K" key="VCE_CondimentEffectsSalt"><s>Consuming meals that include this condiment increases mood by 5 for 12 hours.</s><r>Употребление блюд, содержащих эту приправу, повышает настроение на 5 на 12 часов.</r></e>
+  <e k="K" key="VCE_CondimentEffectsSauce"><s>While particularly strong hot sauces hurt at first, they are known to numb pain and work up a warm sweat shortly after consumption. Consuming meals that include this condiment boosts pain resistance by 15% and cold temperature resistance by 10ºC for 12 hours. Mood will be reduced by 3.</s><r>Хотя особенно острые острые соусы поначалу причиняют боль, известно, что они притупляют боль и вызывают появление теплого пота вскоре после употребления. Употребление блюд, содержащих эту приправу, повышает устойчивость к боли на 15% и устойчивость к холоду на 10°C на 12 часов. Настроение ухудшится на 3.</r></e>
+  <e k="K" key="VCE_CondimentEffectsSpices"><s>A variety of aromatic and pungent spices. Consuming meals that include this condiment increases manipulation stat by 10% for 12 hours.</s><r>Разнообразие ароматных и острых специй. Употребление блюд, содержащих эту приправу, увеличивает показатель манипуляции на 10% на 12 часов.</r></e>
+  <e k="K" key="VCE_CondimentEffectsSugar"><s>Sugar is easily converted into energy by the body, which may result in a nice burst of energy. Consuming meals that include this condiment increases moving stat by 15% for 12 hours.</s><r>Сахар легко преобразуется организмом в энергию, что может привести к хорошему приливу энергии. Употребление блюд, содержащих эту приправу, увеличивает показатель передвижения на 15% на 12 часов.</r></e>
+  <e k="K" key="VCE_CondimentEffectsSyrup"><s>Consuming meals that include this condiment increases mood by 7 for 12 hours.</s><r>Употребление блюд, содержащих эту приправу, повышает настроение на 7 на 12 часов.</r></e>
+  <e k="K" key="VCE_CondimentEffectsTitle"><s>Acting as condiment</s><r>Действует как приправа</r></e>
+  <e k="K" key="VCE_DiabetesDessertFineDesc"><s>Consuming this meal causes diabetes. Each ingestion of such a meal will increase colonist's diabetes by 1.5%.</s><r>Употребление этой еды вызывает диабет. Каждый прием такой еды увеличивает уровень диабета у колонистов на 1,5%.</r></e>
+  <e k="K" key="VCE_DiabetesDessertGourmetDesc"><s>Consuming this meal causes diabetes. Each ingestion of such a meal will increase colonist's diabetes by 3.5%.</s><r>Употребление этой еды вызывает диабет. Каждый прием такой еды увеличивает уровень диабета у колонистов на 3,5%.</r></e>
+  <e k="K" key="VCE_DiabetesDessertLavishDesc"><s>Consuming this meal causes diabetes. Each ingestion of such a meal will increase colonist's diabetes by 2.5%.</s><r>Употребление этой еды вызывает диабет. Каждый прием такой еды увеличивает уровень диабета у колонистов на 2,5%.</r></e>
+  <e k="K" key="VCE_DiabetesDessertSimpleDesc"><s>Consuming this meal causes diabetes. Each ingestion of such a meal will increase colonist's diabetes by 0.5%.</s><r>Употребление этой еды вызывает диабет. Каждый прием такой еды увеличивает уровень диабета у колонистов на 0,5%.</r></e>
+  <e k="K" key="VCE_DiabetesEffect"><s>Diabetes</s><r>Диабет</r></e>
+  <e k="K" key="VCE_DiabetesEffectDescHalfPoint"><s>Consuming meals that include this condiment causes diabetes. Each ingestion of such a meal will increase colonist's diabetes by 0.5%.</s><r>Употребление блюд, содержащих эту приправу, вызывает диабет. Каждый прием такой еды увеличивает уровень диабета у колонистов на 0,5%.</r></e>
+  <e k="K" key="VCE_DiabetesEffectDescOneAndHalfPoint"><s>Consuming meals that include this condiment causes diabetes. Each ingestion of such a meal will increase colonist's diabetes by 1.5%.</s><r>Употребление блюд, содержащих эту приправу, вызывает диабет. Каждый прием такой еды увеличивает уровень диабета у колонистов на 1,5%.</r></e>
+  <e k="K" key="VCE_DiabetesEffectDescThreeQuarterPoint"><s>Consuming meals that include this condiment causes diabetes. Each ingestion of such a meal will increase colonist's diabetes by 0.75%.</s><r>Употребление блюд, содержащих эту приправу, вызывает диабет. Каждый прием такой еды увеличивает уровень диабета у колонистов на 0,75%.</r></e>
+  <e k="K" key="VCE_Engage"><s>Cook soup</s><r>Приготовить суп</r></e>
+  <e k="K" key="VCE_EngageDesc"><s>Start cooking soup. This process takes 3 days and can't be interrupted, or the soup will be destroyed.</s><r>Начинаем варить суп. Этот процесс занимает 3 дня, и его нельзя прерывать, иначе суп испортится.</r></e>
+  <e k="K" key="VCE_EngageMilk"><s>Press into cheese</s><r>Прессовать сыр</r></e>
+  <e k="K" key="VCE_EngageMilkDesc"><s>Start pressing milk into cheese. This process takes a variable time and cheese will increase in quality with ripening. You can remove it at any time after the initial period.</s><r>Начните вдавливать молоко в сыр. Этот процесс занимает разное время, и качество сыра по мере созревания будет улучшаться. Вы можете удалить его в любой момент после начального периода.</r></e>
+  <e k="K" key="VCE_HealthEffects"><s>Health effects</s><r>Влияние на здоровье</r></e>
+  <e k="K" key="VCE_HighBloodPressureEffect"><s>High blood pressure</s><r>Повышенное артериальное давление</r></e>
+  <e k="K" key="VCE_HighBloodPressureEffectDesc"><s>Consuming meals that include this condiment causes high blood pressure. Each ingestion of such a meal will increase colonist's high blood pressure by 0.75%.</s><r>Употребление блюд, содержащих эту приправу, вызывает повышение кровяного давления. Каждый прием такой еды повысит высокое кровяное давление колониста на 0,75%.</r></e>
+  <e k="K" key="VCE_HighBloodPressureEffectDescCanned"><s>Consuming canned goods causes high blood pressure. Each ingestion of such a meal will increase colonist's high blood pressure by 1.5%.</s><r>Употребление консервированных продуктов вызывает повышение кровяного давления. Каждый прием такой еды повысит высокое кровяное давление колониста на 1,5%.</r></e>
+  <e k="K" key="VCE_InsertMilk"><s>Select milk</s><r>Выберите молоко</r></e>
+  <e k="K" key="VCE_InsertMilkDesc"><s>Select milk to press in the cheese press. Different milks might produce different types of cheese.</s><r>Выберите молоко для прессования в прессе для сыра. Из разного молока могут производиться разные виды сыра.</r></e>
+  <e k="K" key="VCE_InsertMilkVariable"><s>Insert {0}</s><r>Вставьте {0}</r></e>
+  <e k="K" key="VCE_InsertSoup"><s>insert soup</s><r>вставить суп</r></e>
+  <e k="K" key="VCE_InsertSoupDesc"><s>Soup to cook</s><r>Суп, который нужно приготовить</r></e>
+  <e k="K" key="VCE_MilkImproperlyDefined"><s>This milk has been improperly defined to work with the cheese press, contact the milk mod's author.</s><r>Это молоко было неправильно определено для работы с прессом для сыра. Свяжитесь с автором мода для молока.</r></e>
+  <e k="K" key="VCE_NoEffect"><s>No health effects</s><r>Никаких последствий для здоровья</r></e>
+  <e k="K" key="VCE_NoEffectDesc"><s>Consuming meals that include this condiment causes no negative health effects.</s><r>Употребление блюд, содержащих эту приправу, не оказывает негативного воздействия на здоровье.</r></e>
+  <e k="K" key="VCE_NoMilksFound"><s>No milks of that kind found in this map.</s><r>На этой карте такого молока не найдено.</r></e>
+  <e k="K" key="VCE_NoSoupsFound"><s>No soups of that kind found in this map.</s><r>На этой карте таких супов не обнаружено.</r></e>
+  <e k="K" key="VCE_NotPowered"><s>The electric pot is not powered</s><r>Электрокастрюля не подключена к электропитанию</r></e>
+  <e k="K" key="VCE_RemoveCheese"><s>Remove cheese ({0})</s><r>Удалить сыр ({0})</r></e>
+  <e k="K" key="VCE_RemoveCheeseDesc"><s>Remove cheese from the cheese press. The cheese will be ready at the present quality level ({0}).</s><r>Достаньте сыр из пресса для сыра. Сыр будет готов на текущем уровне качества ({0}).</r></e>
+  <e k="K" key="VCE_RemoveMilk"><s>Remove milk</s><r>Удалить молоко</r></e>
+  <e k="K" key="VCE_RemoveMilkDesc"><s>Remove the milk from the press. This can only be done before you start pressing it.</s><r>Достаньте молоко из пресса. Это можно сделать только до того, как вы начнете нажимать на нее.</r></e>
+  <e k="K" key="VCE_RemoveSoup"><s>Remove soup</s><r>Удалить суп</r></e>
+  <e k="K" key="VCE_RemoveSoupDesc"><s>Remove the soup from the pot. This can only be done before you start cooking it.</s><r>Достаньте суп из кастрюли. Это можно сделать только до того, как вы начнете его готовить.</r></e>
+  <e k="K" key="VCE_ResourcePercentage"><s> (filled at {0} of {1})</s><r> (заполняется в {0} из {1})</r></e>
+  <e k="K" key="VCE_SelectMilk"><s>Select a type of milk to be pressed.</s><r>Выберите тип молока для прессования.</r></e>
+  <e k="K" key="VCE_SelectSoup"><s>Select a type of soup to be cooked.</s><r>Выберите тип супа, который хотите приготовить.</r></e>
+  <e k="K" key="VCE_SoupFailurePower"><s>The soup has spoiled due to a power failure in the electric pot.</s><r>Суп испортился из-за отключения электроэнергии в электрокастрюле.</r></e>
+  <e k="K" key="VCE_SoupFailurePowerWarning"><s>The soup is spoiling fast due to a lack of fuel in the electric pot.</s><r>Суп быстро портится из-за отсутствия топлива в электрокастрюле.</r></e>
+  <e k="K" key="VCE_SoupFinished"><s>A soup has finished cooking in the electric pot.</s><r>Суп в электрической кастрюле закончился.</r></e>
+  <e k="K" key="VCE_SoupInProgress"><s>An {0} is cooking. It will be ready in {1}.</s><r>{0} готовит. Он будет готов через {1}.</r></e>
+  <e k="K" key="VCE_SoupPotNotWorking"><s>This electric pot is not working at the moment.</s><r>Этот электрический чайник в данный момент не работает.</r></e>
+  <e k="K" key="VCE_SoupReady"><s>A soup has finished cooking and is waiting for pickup.</s><r>Суп уже готов и ждет, когда его заберут.</r></e>
+  <e k="K" key="VCE_StartInsertion"><s>Bring soup</s><r>Принеси суп</r></e>
+  <e k="K" key="VCE_StartInsertionDesc"><s>Bring a soup to the electric pot to start cooking.</s><r>Поместите суп в электрическую кастрюлю, чтобы начать готовить.</r></e>
+  <e k="K" key="VCE_StartInsertionMilk"><s>Bring milk</s><r>Принесите молоко</r></e>
+  <e k="K" key="VCE_StartInsertionMilkDesc"><s>Bring milk to the cheese press to start pressing.</s><r>Поднесите молоко к прессу для сыра, чтобы начать прессование.</r></e>
+  <e k="K" key="VCE_UncookedSoupFine"><s>fine soup</s><r>прекрасный суп</r></e>
+  <e k="K" key="VCE_UncookedSoupFine_InsertSoup"><s>insert fine soup</s><r>вставить прекрасный суп</r></e>
+  <e k="K" key="VCE_UncookedSoupGourmet"><s>gourmet soup</s><r>изысканный суп</r></e>
+  <e k="K" key="VCE_UncookedSoupGourmet_InsertSoup"><s>insert gourmet soup</s><r>вставить изысканный суп</r></e>
+  <e k="K" key="VCE_UncookedSoupLavish"><s>lavish soup</s><r>щедрый суп</r></e>
+  <e k="K" key="VCE_UncookedSoupLavish_InsertSoup"><s>insert lavish soup</s><r>вставить щедрый суп</r></e>
+  <e k="K" key="VCE_UncookedSoupSimple"><s>simple soup</s><r>простой суп</r></e>
+  <e k="K" key="VCE_UncookedSoupSimple_InsertSoup"><s>insert simple soup</s><r>вставить простой суп</r></e>
+  <e k="K" key="VCE_WaitTillJobsEnd"><s>Wait until the soup has been brought to the electric pot, or cancel the job.</s><r>Подождите, пока суп будет перелит в электрическую кастрюлю, или отмените задание.</r></e>
+  <e k="K" key="VCE_WaitTillJobsEndMilk"><s>Wait until the milk has been brought to the cheese press, or cancel the job.</s><r>Подождите, пока молоко будет подано в пресс для сыра, или отмените задание.</r></e>
+</AutoTranslateCache>
