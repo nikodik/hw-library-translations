@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="ziom.arsenalsingapore" name="Arsenal - Singapore Weapon Pack" language="Russian" version="1">
+  <e k="D" t="DesignatorDropdownGroupDef" key="ARS_SG_Group_Defense.label"><s>Singapore defenses</s><r>Оборона Сингапура</r></e>
+  <e k="D" t="RecipeDef" key="ARS_SG_Make_SFG82G.description"><s>Craft 10 SFG 82 grenades.</s><r>Создайте 10 гранат SFG 82.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_SG_Make_SFG82G.jobString"><s>Making SFG 82 grenades.</s><r>Изготовление гранаты SFG 82.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_SG_Make_SFG82G.label"><s>make SFG 82 grenades x10</s><r>сделать гранаты SFG 82 x10</r></e>
+  <e k="D" t="RecipeDef" key="ARS_SG_Make_SFG87G.description"><s>Craft 10 SFG 87 grenades.</s><r>Создайте 10 гранат SFG 87.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_SG_Make_SFG87G.jobString"><s>Making SFG 87 grenades.</s><r>Изготовление гранаты SFG 87.</r></e>
+  <e k="D" t="RecipeDef" key="ARS_SG_Make_SFG87G.label"><s>make SFG 87 grenades x10</s><r>сделать гранаты SFG 87 x10</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_Gun_CIS40AGLG.description"><s>Gun assembly of the CIS 40AGL. Not usable by a person on its own.</s><r>Пистолет в сборе СНГ 40АГЛ. Не может быть использован человеком самостоятельно.</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_Gun_CIS40AGLG.label"><s>SG CIS 40AGL automatic grenade launcher gun</s><r>Автоматический гранатомет СГ СНГ 40АГЛ</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_Gun_CIS40AGLG.verbs.0.label"><s>SG CIS 40AGL automatic grenade launcher gun</s><r>Автоматический гранатомет СГ СНГ 40АГЛ</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_Gun_CIS50MGG.description"><s>Gun assembly of the CIS 50MG. Not usable by a person on its own.</s><r>Пистолет сборки СНГ 50МГ. Не может быть использован человеком самостоятельно.</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_Gun_CIS50MGG.label"><s>SG CIS 50MG heavy machine gun gun</s><r>Крупнокалиберный пулемет СГ СНГ 50МГ</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_Gun_CIS50MGG.verbs.0.label"><s>SG CIS 50MG heavy machine gun gun</s><r>Крупнокалиберный пулемет СГ СНГ 50МГ</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_Proj_SFG82G.label"><s>SFG 82</s><r>СФГ 82</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_Proj_SFG87G.label"><s>SFG 87</s><r>СФГ 87</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_Proj_launcher_MatadorP.label"><s>MATADOR rocket</s><r>Ракета МАТАДОР</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_AMEA510G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_AMEA510G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_AMEA510G.verbs.0.label"><s>AME-A510</s><r>АМЕ-А510</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_AMEA510_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_AMEA510_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_AMEA510_Unique.comps.6.namerLabels.0"><s>SMG</s><r>ППМ</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_AMEA510_Unique.comps.6.namerLabels.1"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_AMEA510_Unique.comps.6.namerLabels.2"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_AMEA510_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_AMEA510_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_AMEA510_Unique.verbs.0.label"><s>unique AME-A510</s><r>уникальный AME-A510</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_SAR21MMSCARBINEG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_SAR21MMSCARBINEG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_SAR21MMSCARBINEG.verbs.0.label"><s>SAR-21 MMS CARBINE</s><r>КАРАБИН САР-21 ММС</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_SAR21MMSCARBINE_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_SAR21MMSCARBINE_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_SAR21MMSCARBINE_Unique.comps.6.namerLabels.0"><s>SMG</s><r>ППМ</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_SAR21MMSCARBINE_Unique.comps.6.namerLabels.1"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_SAR21MMSCARBINE_Unique.comps.6.namerLabels.2"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_SAR21MMSCARBINE_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_SAR21MMSCARBINE_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_SAR21MMSCARBINE_Unique.verbs.0.label"><s>unique SAR-21 MMS CARBINE</s><r>уникальный карабин САР-21 ММС</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_SR88AcarbineG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_SR88AcarbineG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_SR88AcarbineG.verbs.0.label"><s>SR 88A carbine</s><r>Карабин СР 88А</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_SR88Acarbine_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_SR88Acarbine_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_SR88Acarbine_Unique.comps.6.namerLabels.0"><s>SMG</s><r>ППМ</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_SR88Acarbine_Unique.comps.6.namerLabels.1"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_SR88Acarbine_Unique.comps.6.namerLabels.2"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_SR88Acarbine_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_SR88Acarbine_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_SR88Acarbine_Unique.verbs.0.label"><s>unique SR 88A carbine</s><r>уникальный карабин СР 88А</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_SR88carbineG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_SR88carbineG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_SR88carbineG.verbs.0.label"><s>SR 88 carbine</s><r>Карабин СР 88</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_SR88carbine_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_SR88carbine_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_SR88carbine_Unique.comps.6.namerLabels.0"><s>SMG</s><r>ППМ</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_SR88carbine_Unique.comps.6.namerLabels.1"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_SR88carbine_Unique.comps.6.namerLabels.2"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_SR88carbine_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_SR88carbine_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_carbine_SR88carbine_Unique.verbs.0.label"><s>unique SR 88 carbine</s><r>уникальный карабин SR 88</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_grenade_SFG82G.tools.0.label"><s>Body</s><r>Тело</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_grenade_SFG87G.tools.0.label"><s>Body</s><r>Тело</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_launcher_CIS40GLG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_launcher_CIS40GLG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_launcher_CIS40GLG.verbs.0.label"><s>CIS 40GL</s><r>СНГ 40ГЛ</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_launcher_MATADORG.tools.0.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_launcher_MATADORG.verbs.0.label"><s>MATADOR</s><r>МАТАДОР</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_AMEA516LG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_AMEA516LG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_AMEA516LG.verbs.0.label"><s>AME-A516L</s><r>АМЕ-А516Л</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_AMEA516L_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_AMEA516L_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_AMEA516L_Unique.comps.6.namerLabels.0"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_AMEA516L_Unique.comps.6.namerLabels.1"><s>gun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_AMEA516L_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_AMEA516L_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_AMEA516L_Unique.verbs.0.label"><s>unique AME-A516L</s><r>одиночный AME-A516L</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_BR18LMGG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_BR18LMGG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_BR18LMGG.verbs.0.label"><s>BR18 LMG</s><r>BR18 Ручной пулемет</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_BR18LMG_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_BR18LMG_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_BR18LMG_Unique.comps.6.namerLabels.0"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_BR18LMG_Unique.comps.6.namerLabels.1"><s>gun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_BR18LMG_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_BR18LMG_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_BR18LMG_Unique.verbs.0.label"><s>unique BR18 LMG</s><r>уникальный пулемет BR18</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_ColtIAR6940ESGG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_ColtIAR6940ESGG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_ColtIAR6940ESGG.verbs.0.label"><s>Colt IAR 6940E-SG</s><r>Кольт IAR 6940E-SG</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_ColtIAR6940ESG_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_ColtIAR6940ESG_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_ColtIAR6940ESG_Unique.comps.6.namerLabels.0"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_ColtIAR6940ESG_Unique.comps.6.namerLabels.1"><s>gun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_ColtIAR6940ESG_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_ColtIAR6940ESG_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_ColtIAR6940ESG_Unique.verbs.0.label"><s>unique Colt IAR 6940E-SG</s><r>уникальный Кольт IAR 6940E-SG</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_SAR21LMGG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_SAR21LMGG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_SAR21LMGG.verbs.0.label"><s>SAR-21 LMG</s><r>САР-21 Ручной пулемет</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_SAR21LMG_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_SAR21LMG_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_SAR21LMG_Unique.comps.6.namerLabels.0"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_SAR21LMG_Unique.comps.6.namerLabels.1"><s>gun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_SAR21LMG_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_SAR21LMG_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_SAR21LMG_Unique.verbs.0.label"><s>unique SAR-21 LMG</s><r>уникальный пулемет САР-21</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_STKGPMGG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_STKGPMGG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_STKGPMGG.verbs.0.label"><s>STK GPMG</s><r>СТК ГПМГ</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_STKGPMG_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_STKGPMG_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_STKGPMG_Unique.comps.6.namerLabels.0"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_STKGPMG_Unique.comps.6.namerLabels.1"><s>gun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_STKGPMG_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_STKGPMG_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_STKGPMG_Unique.verbs.0.label"><s>unique STK GPMG</s><r>уникальный СТК ГПМГ</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk1G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk1G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk1G.verbs.0.label"><s>Ultimax 100 Mk 1</s><r>Ультимакс 100 Мк 1</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk1_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk1_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk1_Unique.comps.6.namerLabels.0"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk1_Unique.comps.6.namerLabels.1"><s>gun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk1_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk1_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk1_Unique.verbs.0.label"><s>unique Ultimax 100 Mk 1</s><r>уникальный Ultimax 100 Mk 1</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk2G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk2G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk2G.verbs.0.label"><s>Ultimax 100 Mk 2</s><r>Ультимакс 100 Мк 2</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk2_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk2_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk2_Unique.comps.6.namerLabels.0"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk2_Unique.comps.6.namerLabels.1"><s>gun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk2_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk2_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk2_Unique.verbs.0.label"><s>unique Ultimax 100 Mk 2</s><r>уникальный Ultimax 100 Mk 2</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk3CommandoG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk3CommandoG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk3CommandoG.verbs.0.label"><s>Ultimax 100 Mk3 Commando</s><r>Ultimax 100 Mk3 Коммандос</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk3Commando_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk3Commando_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk3Commando_Unique.comps.6.namerLabels.0"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk3Commando_Unique.comps.6.namerLabels.1"><s>gun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk3Commando_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk3Commando_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk3Commando_Unique.verbs.0.label"><s>unique Ultimax 100 Mk3 Commando</s><r>уникальный Ultimax 100 Mk3 Commando</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk3G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk3G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk3G.verbs.0.label"><s>Ultimax 100 Mk 3</s><r>Ультимакс 100 Мк 3</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk3_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk3_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk3_Unique.comps.6.namerLabels.0"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk3_Unique.comps.6.namerLabels.1"><s>gun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk3_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk3_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk3_Unique.verbs.0.label"><s>unique Ultimax 100 Mk 3</s><r>уникальный Ultimax 100 Mk 3</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk4G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk4G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk4G.verbs.0.label"><s>Ultimax 100 Mk 4</s><r>Ультимакс 100 Мк 4</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk4_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk4_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk4_Unique.comps.6.namerLabels.0"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk4_Unique.comps.6.namerLabels.1"><s>gun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk4_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk4_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk4_Unique.verbs.0.label"><s>unique Ultimax 100 Mk 4</s><r>уникальный Ultimax 100 Mk 4</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk5G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk5G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk5G.verbs.0.label"><s>Ultimax 100 Mk 5</s><r>Ультимакс 100 Мк 5</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk5_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk5_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk5_Unique.comps.6.namerLabels.0"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk5_Unique.comps.6.namerLabels.1"><s>gun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk5_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk5_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk5_Unique.verbs.0.label"><s>unique Ultimax 100 Mk 5</s><r>уникальный Ultimax 100 Mk 5</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk8G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk8G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk8G.verbs.0.label"><s>Ultimax 100 Mk8</s><r>Ультимакс 100 Мк8</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk8_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk8_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk8_Unique.comps.6.namerLabels.0"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk8_Unique.comps.6.namerLabels.1"><s>gun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk8_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk8_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk8_Unique.verbs.0.label"><s>unique Ultimax 100 Mk8</s><r>уникальный Ultimax 100 Mk8</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk9G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk9G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk9G.verbs.0.label"><s>Ultimax 100 Mk 9</s><r>Ультимакс 100 Мк 9</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk9_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk9_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk9_Unique.comps.6.namerLabels.0"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk9_Unique.comps.6.namerLabels.1"><s>gun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk9_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk9_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_mg_Ultimax100Mk9_Unique.verbs.0.label"><s>unique Ultimax 100 Mk 9</s><r>уникальный Ultimax 100 Mk 9</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_AMEA514G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_AMEA514G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_AMEA514G.verbs.0.label"><s>AME-A514</s><r>АМЕ-А514</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_AMEA514GLG.comps.0.standardLabel"><s>switch to rifle</s><r>переключиться на винтовку</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_AMEA514GLG.comps.0.underBarrelLabel"><s>switch to grenade launcher</s><r>переключиться на гранатомет</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_AMEA514GLG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_AMEA514GLG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_AMEA514GLG.verbs.0.label"><s>AME A514GL</s><r>АМЕ A514GL</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_AMEA514GL_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_AMEA514GL_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_AMEA514GL_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_AMEA514GL_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_AMEA514GL_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_AMEA514GL_Unique.verbs.0.label"><s>unique AME A514GL</s><r>уникальный AME A514GL</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_AMEA514_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_AMEA514_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_AMEA514_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_AMEA514_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_AMEA514_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_AMEA514_Unique.verbs.0.label"><s>unique AME-A514</s><r>уникальный AME-A514</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_AMEB514G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_AMEB514G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_AMEB514G.verbs.0.label"><s>AME-B514</s><r>АМЕ-B514</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_AMEB514_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_AMEB514_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_AMEB514_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_AMEB514_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_AMEB514_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_AMEB514_Unique.verbs.0.label"><s>unique AME-B514</s><r>уникальный AME-B514</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_BMCRG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_BMCRG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_BMCRG.verbs.0.label"><s>BMCR</s><r>БМКР</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_BMCR_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_BMCR_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_BMCR_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_BMCR_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_BMCR_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_BMCR_Unique.verbs.0.label"><s>unique BMCR</s><r>уникальный BMCR</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_BR18G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_BR18G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_BR18G.verbs.0.label"><s>BR18</s><r>БР18</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_BR18_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_BR18_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_BR18_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_BR18_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_BR18_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_BR18_Unique.verbs.0.label"><s>unique BR18</s><r>уникальный BR18</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_CMCRG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_CMCRG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_CMCRG.verbs.0.label"><s>CMCR</s><r>CMCR</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_CMCR_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_CMCR_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_CMCR_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_CMCR_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_CMCR_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_CMCR_Unique.verbs.0.label"><s>unique CMCR</s><r>уникальный CMCR</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_M16S1G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_M16S1G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_M16S1G.verbs.0.label"><s>M16S1</s><r>М16С1</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_M16S1_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_M16S1_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_M16S1_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_M16S1_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_M16S1_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_M16S1_Unique.verbs.0.label"><s>unique M16S1</s><r>уникальный М16С1</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_NextGenSARG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_NextGenSARG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_NextGenSARG.verbs.0.label"><s>Next Gen SAR</s><r>Новое поколение SAR</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_NextGenSAR_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_NextGenSAR_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_NextGenSAR_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_NextGenSAR_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_NextGenSAR_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_NextGenSAR_Unique.verbs.0.label"><s>unique Next Gen SAR</s><r>уникальный SAR нового поколения</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR2140GLG.comps.0.standardLabel"><s>switch to rifle</s><r>переключиться на винтовку</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR2140GLG.comps.0.underBarrelLabel"><s>switch to grenade launcher</s><r>переключиться на гранатомет</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR2140GLG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR2140GLG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR2140GLG.verbs.0.label"><s>SAR-21 (40GL)</s><r>САР-21 (40ГЛ)</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR2140GL_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR2140GL_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR2140GL_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR2140GL_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR2140GL_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR2140GL_Unique.verbs.0.label"><s>unique SAR-21 (40GL)</s><r>уникальный САР-21 (40ГЛ)</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21AG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21AG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21AG.verbs.0.label"><s>SAR-21A</s><r>САР-21А</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21A_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21A_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21A_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21A_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21A_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21A_Unique.verbs.0.label"><s>unique SAR-21A</s><r>уникальный САР-21А</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21G.verbs.0.label"><s>SAR-21</s><r>САР-21</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21LWCG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21LWCG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21LWCG.verbs.0.label"><s>SAR-21 LWC</s><r>САР-21 УДАЧА</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21LWC_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21LWC_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21LWC_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21LWC_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21LWC_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21LWC_Unique.verbs.0.label"><s>unique SAR-21 LWC</s><r>уникальный САР-21 ЛБК</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21M203G.comps.0.standardLabel"><s>switch to rifle</s><r>переключиться на винтовку</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21M203G.comps.0.underBarrelLabel"><s>switch to grenade launcher</s><r>переключиться на гранатомет</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21M203G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21M203G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21M203G.verbs.0.label"><s>SAR-21 M203</s><r>САР-21 М203</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21M203_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21M203_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21M203_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21M203_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21M203_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21M203_Unique.verbs.0.label"><s>unique SAR-21 M203</s><r>уникальный САР-21 М203</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21MMSG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21MMSG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21MMSG.verbs.0.label"><s>SAR-21 MMS</s><r>САР-21 ММС</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21MMS_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21MMS_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21MMS_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21MMS_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21MMS_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21MMS_Unique.verbs.0.label"><s>unique SAR-21 MMS</s><r>уникальный САР-21 ММС</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21PG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21PG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21PG.verbs.0.label"><s>SAR-21 P</s><r>САР-21 П</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21P_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21P_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21P_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21P_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21P_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21P_Unique.verbs.0.label"><s>unique SAR-21 P</s><r>уникальный САР-21 П</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR21_Unique.verbs.0.label"><s>unique SAR-21</s><r>уникальный САР-21</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR80G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR80G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR80G.verbs.0.label"><s>SAR-80</s><r>САР-80</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR80_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR80_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR80_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR80_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR80_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SAR80_Unique.verbs.0.label"><s>unique SAR-80</s><r>уникальный САР-80</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SR88AG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SR88AG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SR88AG.verbs.0.label"><s>SR 88A</s><r>СР 88А</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SR88A_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SR88A_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SR88A_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SR88A_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SR88A_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SR88A_Unique.verbs.0.label"><s>unique SR 88A</s><r>уникальный СР 88А</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SR88Aw40GLG.comps.0.standardLabel"><s>switch to rifle</s><r>переключиться на винтовку</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SR88Aw40GLG.comps.0.underBarrelLabel"><s>switch to grenade launcher</s><r>переключиться на гранатомет</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SR88Aw40GLG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SR88Aw40GLG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SR88Aw40GLG.verbs.0.label"><s>SR 88A w/40GL</s><r>СР 88А с 40ГЛ</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SR88Aw40GL_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SR88Aw40GL_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SR88Aw40GL_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SR88Aw40GL_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SR88Aw40GL_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SR88Aw40GL_Unique.verbs.0.label"><s>unique SR 88A w/40GL</s><r>уникальный SR 88A с 40GL</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SR88G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SR88G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SR88G.verbs.0.label"><s>SR 88</s><r>СР 88</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SR88_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SR88_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SR88_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SR88_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SR88_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SR88_Unique.verbs.0.label"><s>unique SR 88</s><r>уникальный СР 88</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_STKineticsNGCRBullpupG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_STKineticsNGCRBullpupG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_STKineticsNGCRBullpupG.verbs.0.label"><s>ST Kinetics NGCR Bullpup</s><r>ST Kinetics NGCR Буллпап</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_STKineticsNGCRBullpup_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_STKineticsNGCRBullpup_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_STKineticsNGCRBullpup_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_STKineticsNGCRBullpup_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_STKineticsNGCRBullpup_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_STKineticsNGCRBullpup_Unique.verbs.0.label"><s>unique ST Kinetics NGCR Bullpup</s><r>уникальный ST Kinetics NGCR Bullpup</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_STKineticsNGCRG.comps.0.standardLabel"><s>switch to rifle</s><r>переключиться на винтовку</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_STKineticsNGCRG.comps.0.underBarrelLabel"><s>switch to grenade launcher</s><r>переключиться на гранатомет</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_STKineticsNGCRG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_STKineticsNGCRG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_STKineticsNGCRG.verbs.0.label"><s>ST Kinetics NGCR</s><r>СТ Кинетика НГКР</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_STKineticsNGCR_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_STKineticsNGCR_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_STKineticsNGCR_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_STKineticsNGCR_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_STKineticsNGCR_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_STKineticsNGCR_Unique.verbs.0.label"><s>unique ST Kinetics NGCR</s><r>уникальный ST Kinetics NGCR</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_STKineticsSSWG.comps.0.standardLabel"><s>switch to rifle</s><r>переключиться на винтовку</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_STKineticsSSWG.comps.0.underBarrelLabel"><s>switch to grenade launcher</s><r>переключиться на гранатомет</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_STKineticsSSWG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_STKineticsSSWG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_STKineticsSSWG.verbs.0.label"><s>ST Kinetics SSW</s><r>СТ Кинетика СЮВ</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_STKineticsSSW_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_STKineticsSSW_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_STKineticsSSW_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_STKineticsSSW_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_STKineticsSSW_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_STKineticsSSW_Unique.verbs.0.label"><s>unique ST Kinetics SSW</s><r>уникальный ST Kinetics SSW</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SterlingSAR87G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SterlingSAR87G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SterlingSAR87G.verbs.0.label"><s>Sterling SAR-87</s><r>Стерлинг SAR-87</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SterlingSAR87_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SterlingSAR87_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SterlingSAR87_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SterlingSAR87_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SterlingSAR87_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_rifle_SterlingSAR87_Unique.verbs.0.label"><s>unique Sterling SAR-87</s><r>уникальный Sterling SAR-87</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_smg_STKineticsCPWG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_smg_STKineticsCPWG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_smg_STKineticsCPWG.verbs.0.label"><s>ST Kinetics CPW</s><r>СТ Кинетика CPW</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_smg_STKineticsCPW_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_smg_STKineticsCPW_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_smg_STKineticsCPW_Unique.comps.6.namerLabels.0"><s>SMG</s><r>ППМ</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_smg_STKineticsCPW_Unique.comps.6.namerLabels.1"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_smg_STKineticsCPW_Unique.comps.6.namerLabels.2"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_smg_STKineticsCPW_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_smg_STKineticsCPW_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_smg_STKineticsCPW_Unique.verbs.0.label"><s>unique ST Kinetics CPW</s><r>уникальный ST Kinetics CPW</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_sniper_AMEA520SSG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_sniper_AMEA520SSG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_sniper_AMEA520SSG.verbs.0.label"><s>AME A520SS</s><r>АМЕ А520СС</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_sniper_AMEA520SS_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_sniper_AMEA520SS_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_sniper_AMEA520SS_Unique.comps.6.namerLabels.0"><s>sniper</s><r>снайпер</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_sniper_AMEA520SS_Unique.comps.6.namerLabels.1"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_sniper_AMEA520SS_Unique.comps.6.namerLabels.2"><s>longshot</s><r>дальновидный</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_sniper_AMEA520SS_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_sniper_AMEA520SS_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_sniper_AMEA520SS_Unique.verbs.0.label"><s>unique AME A520SS</s><r>уникальный AME A520SS</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_sniper_SAR21SharpshooterG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_sniper_SAR21SharpshooterG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_sniper_SAR21SharpshooterG.verbs.0.label"><s>SAR-21 Sharpshooter</s><r>САР-21 Снайпер</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_sniper_SAR21Sharpshooter_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_sniper_SAR21Sharpshooter_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_sniper_SAR21Sharpshooter_Unique.comps.6.namerLabels.0"><s>sniper</s><r>снайпер</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_sniper_SAR21Sharpshooter_Unique.comps.6.namerLabels.1"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_sniper_SAR21Sharpshooter_Unique.comps.6.namerLabels.2"><s>longshot</s><r>дальновидный</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_sniper_SAR21Sharpshooter_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_sniper_SAR21Sharpshooter_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_SG_sniper_SAR21Sharpshooter_Unique.verbs.0.label"><s>unique SAR-21 Sharpshooter</s><r>уникальный САР-21 Снайпер</r></e>
+  <e k="D" t="ThingDef" key="Bullet_ARS_SG_Matador_HEAT.label"><s>MATADOR 90 mm rocket (HEAT)</s><r>90-мм ракета МАТАДОР (HEAT)</r></e>
+  <e k="D" t="WorkGiverDef" key="ARS_SG_DoBillsWorkbench.gerund"><s>working at</s><r>работаю в</r></e>
+  <e k="D" t="WorkGiverDef" key="ARS_SG_DoBillsWorkbench.label"><s>make Singaporean weapons</s><r>делать сингапурское оружие</r></e>
+  <e k="D" t="WorkGiverDef" key="ARS_SG_DoBillsWorkbench.verb"><s>work at</s><r>работать в</r></e>
+</AutoTranslateCache>
