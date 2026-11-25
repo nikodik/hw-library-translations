@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="hermitblue.directmapeditor" name="Direct Map Editor" language="Russian" version="1">
+  <e k="D" t="DesignationCategoryDef" key="DME_MapEditor.description"><s>Direct map-editing tools. Saving before major edits is strongly recommended.</s><r>Инструменты прямого редактирования карт. Настоятельно рекомендуется сохранять перед серьезными изменениями.</r></e>
+  <e k="D" t="DesignationCategoryDef" key="DME_MapEditor.label"><s>DME</s><r>ДМЕ</r></e>
+  <e k="K" key="DME_All"><s>All</s><r>Все</r></e>
+  <e k="K" key="DME_AllPlants"><s>All plants</s><r>Все растения</r></e>
+  <e k="K" key="DME_AreaErase"><s>Area Erase</s><r>Стереть область</r></e>
+  <e k="K" key="DME_AreaLimitHint"><s>To limit editing load, brush size is capped at 20 and rectangle edits are limited to 1,600 cells per operation.</s><r>Чтобы ограничить нагрузку на редактирование, размер кисти ограничен 20, а редактирование прямоугольников ограничено 1600 ячейками за операцию.</r></e>
+  <e k="K" key="DME_Brush"><s>Brush</s><r>Щетка</r></e>
+  <e k="K" key="DME_BrushErase"><s>Erase with brush</s><r>Стереть кистью</r></e>
+  <e k="K" key="DME_BrushShape"><s>Brush shape</s><r>Форма кисти</r></e>
+  <e k="K" key="DME_BrushSize"><s>Brush size</s><r>Размер кисти</r></e>
+  <e k="K" key="DME_Building"><s>Buildings</s><r>Здания</r></e>
+  <e k="K" key="DME_ByMod"><s>By Mod</s><r>По моду</r></e>
+  <e k="K" key="DME_CellStamp"><s>Place cell state</s><r>Поместите состояние ячейки</r></e>
+  <e k="K" key="DME_CircleBrush"><s>Circle</s><r>Круг</r></e>
+  <e k="K" key="DME_ClearHistory"><s>Clear history</s><r>Очистить историю</r></e>
+  <e k="K" key="DME_ClearPlantSelection"><s>Clear Selection</s><r>Очистить выбор</r></e>
+  <e k="K" key="DME_ClearPlantSelectionDesc"><s>Clears all plants selected for random placement. Other settings are not affected.</s><r>Удаляет все растения, выбранные для случайного размещения. Остальные настройки не затрагиваются.</r></e>
+  <e k="K" key="DME_Close"><s>Close</s><r>Закрывать</r></e>
+  <e k="K" key="DME_ConduitDesc"><s>Continuously place conduits by clicking or dragging. Right click on the map cancels the active tool. The power-grid overlay is shown while placing.</s><r>Постоянно размещайте трубопроводы, щелкая или перетаскивая их. Щелчок правой кнопкой мыши по карте отменяет активный инструмент. При размещении отображается наложение электросети.</r></e>
+  <e k="K" key="DME_CurrentAreaErase"><s>Configured Area Erase</s><r>Стирание настроенной области</r></e>
+  <e k="K" key="DME_CurrentAreaEraseDesc"><s>Use the erase targets, brush size and edit shape configured in DME. Left click starts Area Erase with the saved settings. Right click opens the shape/settings menu; choosing a shape changes the setting only. Right click on the map cancels the active tool.</s><r>Используйте цели стирания, размер кисти и форму редактирования, настроенные в DME. Щелчок левой кнопкой мыши запускает стирание области с сохраненными настройками. Щелчок правой кнопкой мыши открывает меню формы/настроек; выбор формы меняет только настройку. Щелчок правой кнопкой мыши по карте отменяет активный инструмент.</r></e>
+  <e k="K" key="DME_DeleteAll"><s>Erase all standard layers</s><r>Стереть все стандартные слои</r></e>
+  <e k="K" key="DME_DeleteBuilding"><s>Buildings</s><r>Здания</r></e>
+  <e k="K" key="DME_DeleteFloor"><s>Floors / terrain</s><r>Этажи/рельеф</r></e>
+  <e k="K" key="DME_DeleteFog"><s>Fog</s><r>Туман</r></e>
+  <e k="K" key="DME_DeleteItem"><s>Items</s><r>Предметы</r></e>
+  <e k="K" key="DME_DeletePlant"><s>Plants</s><r>Растения</r></e>
+  <e k="K" key="DME_DeletePowerLine"><s>Power lines</s><r>Линии электропередачи</r></e>
+  <e k="K" key="DME_DeleteRock"><s>Rocks / ores</s><r>Камни/руды</r></e>
+  <e k="K" key="DME_DeleteRoof"><s>Roofs</s><r>Крыши</r></e>
+  <e k="K" key="DME_DeleteTemporary"><s>Temporary terrain</s><r>Временная местность</r></e>
+  <e k="K" key="DME_Density"><s>Density</s><r>Плотность</r></e>
+  <e k="K" key="DME_Details"><s>Selection</s><r>Выбор</r></e>
+  <e k="K" key="DME_DoubleClickHint"><s>Click to show the selected object and its placement settings on the right.</s><r>Нажмите, чтобы отобразить выбранный объект и настройки его размещения справа.</r></e>
+  <e k="K" key="DME_Drag"><s>Drag placement</s><r>Перетащите размещение</r></e>
+  <e k="K" key="DME_EditEraseSettings"><s>Edit erase settings in DME</s><r>Редактировать настройки стирания в DME</r></e>
+  <e k="K" key="DME_Editor"><s>Map Editor</s><r>Редактор карт</r></e>
+  <e k="K" key="DME_EditorDesc"><s>Open the full Direct Map Editor. Browse and search loaded map content, then place or edit it directly. Saving before major edits is strongly recommended.</s><r>Откройте полную версию редактора Direct Map. Просматривайте и ищите загруженное содержимое карты, а затем размещайте или редактируйте его напрямую. Настоятельно рекомендуется сохранять перед серьезными изменениями.</r></e>
+  <e k="K" key="DME_Erase"><s>Erase</s><r>Стереть</r></e>
+  <e k="K" key="DME_EraseDesc"><s>Fine one-cell erase tool with drag support. Left click selects the tool. Right click opens the erase-target menu; choosing a target changes the setting only. Right click on the map cancels the active tool.</s><r>Прекрасный инструмент для стирания одной ячейки с поддержкой перетаскивания. Щелчок левой кнопкой мыши выбирает инструмент. Щелчок правой кнопкой мыши открывает меню цели стирания; выбор цели меняет только настройку. Щелчок правой кнопкой мыши по карте отменяет активный инструмент.</r></e>
+  <e k="K" key="DME_Eyedropper"><s>Eyedropper</s><r>Пипетка</r></e>
+  <e k="K" key="DME_EyedropperCell"><s>Copy cell state</s><r>Копировать состояние ячейки</r></e>
+  <e k="K" key="DME_EyedropperDesc"><s>Pick an existing map element and immediately switch to placing a matching element. Normal pick is the default. Right click opens the pick-mode menu: Normal pick, Pick plant, or Copy cell state. Items picked with Normal pick or Pick plant are added to usage history and can be selected again from Quick Place. Cell-state copies are not added to history. Choosing a menu option changes the setting only. Right click on the map cancels the active tool.</s><r>Выберите существующий элемент карты и сразу же переключитесь на размещение соответствующего элемента. Обычный выбор используется по умолчанию. Щелчок правой кнопкой мыши открывает меню режима выбора: «Обычный выбор», «Выбрать растение» или «Копировать состояние ячейки». Предметы, выбранные с помощью обычного выбора или выбора растения, добавляются в историю использования и могут быть выбраны снова из быстрого размещения. Копии состояний ячеек не добавляются в историю. Выбор пункта меню изменяет только настройку. Щелчок правой кнопкой мыши по карте отменяет активный инструмент.</r></e>
+  <e k="K" key="DME_EyedropperNormal"><s>Normal pick</s><r>Обычный выбор</r></e>
+  <e k="K" key="DME_EyedropperPlant"><s>Pick plant</s><r>Выбрать растение</r></e>
+  <e k="K" key="DME_FavDef"><s>☆ Favorite</s><r>☆ Любимый</r></e>
+  <e k="K" key="DME_FavVariant"><s>☆ Favorite with this material</s><r>☆ Любимый этот материал</r></e>
+  <e k="K" key="DME_Favorites"><s>★ Favorites</s><r>★ Избранное</r></e>
+  <e k="K" key="DME_Floors"><s>Floors</s><r>Этажи</r></e>
+  <e k="K" key="DME_FogAdd"><s>Add fog</s><r>Добавить туман</r></e>
+  <e k="K" key="DME_FogRemove"><s>Remove fog</s><r>Удалить туман</r></e>
+  <e k="K" key="DME_Furniture"><s>Furniture</s><r>Мебель</r></e>
+  <e k="K" key="DME_GridOff"><s>Grid: OFF</s><r>Сетка: ВЫКЛ.</r></e>
+  <e k="K" key="DME_GridOn"><s>Grid: ON</s><r>Сетка: ВКЛ.</r></e>
+  <e k="K" key="DME_History"><s>History</s><r>История</r></e>
+  <e k="K" key="DME_ListClickHint"><s>Click to show the selected object and its placement settings on the right.</s><r>Нажмите, чтобы отобразить выбранный объект и настройки его размещения справа.</r></e>
+  <e k="K" key="DME_MapRoof"><s>Map &amp; Roof</s><r>Карта и крыша</r></e>
+  <e k="K" key="DME_Medical"><s>Medical</s><r>Медицинский</r></e>
+  <e k="K" key="DME_Misc"><s>Misc</s><r>Разное</r></e>
+  <e k="K" key="DME_ModRoof"><s>Mod roofs</s><r>Модные крыши</r></e>
+  <e k="K" key="DME_Natural"><s>Natural</s><r>Естественный</r></e>
+  <e k="K" key="DME_NoPlantHere"><s>There is no plant to pick in this cell.</s><r>В этой ячейке нет растений, которые можно было бы сорвать.</r></e>
+  <e k="K" key="DME_Occupied"><s>The placement area is blocked.</s><r>Место размещения заблокировано.</r></e>
+  <e k="K" key="DME_Out"><s>Outside the map.</s><r>За пределами карты.</r></e>
+  <e k="K" key="DME_OverwriteEnable"><s>Overwrite placement (same category)</s><r>Перезаписать место размещения (та же категория)</r></e>
+  <e k="K" key="DME_PlaceBrush"><s>Place with brush</s><r>Нанесите кистью</r></e>
+  <e k="K" key="DME_PlaceHint"><s>Left click or drag to edit. Right click cancels the current edit tool.</s><r>Щелкните левой кнопкой мыши или перетащите, чтобы отредактировать. Щелчок правой кнопкой мыши отменяет текущий инструмент редактирования.</r></e>
+  <e k="K" key="DME_PlaceRectangle"><s>Place rectangle</s><r>Разместить прямоугольник</r></e>
+  <e k="K" key="DME_Plant"><s>Plants</s><r>Растения</r></e>
+  <e k="K" key="DME_PollutionAdd"><s>Add pollution</s><r>Добавить загрязнение</r></e>
+  <e k="K" key="DME_PollutionAddDesc"><s>Adds pollution to the selected cells. Requires Biotech.</s><r>Добавляет загрязнение к выбранным ячейкам. Требуется биотехнология.</r></e>
+  <e k="K" key="DME_PollutionRemove"><s>Remove pollution</s><r>Удалить загрязнения</r></e>
+  <e k="K" key="DME_PollutionRemoveDesc"><s>Removes pollution from the selected cells. Requires Biotech.</s><r>Удаляет загрязнения из выбранных ячеек. Требуется биотехнология.</r></e>
+  <e k="K" key="DME_Power"><s>Power</s><r>Власть</r></e>
+  <e k="K" key="DME_Production"><s>Production</s><r>Производство</r></e>
+  <e k="K" key="DME_QuickPlace"><s>Quick Place</s><r>Быстрое место</r></e>
+  <e k="K" key="DME_QuickPlaceDesc"><s>Quickly place items from a compact History/Favorites window without opening the main DME window. Rectangle, square-brush, and circle-brush modes are shown only for targets that support area placement; conduits use drag placement, while normal buildings and special objects use single placement. To limit editing load, brush size is capped at 20 and rectangle edits are limited to 1,600 cells.</s><r>Быстро размещайте элементы из компактного окна «История/Избранное», не открывая главное окно DME. Режимы «Прямоугольник», «квадратная кисть» и «круглая кисть» отображаются только для целей, поддерживающих размещение области; в трубопроводах используется перетаскивание, тогда как в обычных зданиях и специальных объектах используется одиночное размещение. Чтобы ограничить нагрузку на редактирование, размер кисти ограничен 20, а редактирование прямоугольников ограничено 1600 ячейками.</r></e>
+  <e k="K" key="DME_QuickPlaceItemTip"><s>Click to start placing with the current Quick Place settings.</s><r>Нажмите, чтобы начать размещение с текущими настройками быстрого размещения.</r></e>
+  <e k="K" key="DME_QuickPlaceMaterialMissingShort"><s>Material not selected</s><r>Материал не выбран</r></e>
+  <e k="K" key="DME_QuickPlaceMaterialMissingTip"><s>This object requires material selection, but no material is saved with this Favorite/History entry. Select a material in the Map Editor and save it with that material to use Quick Place.</s><r>Для этого объекта требуется выбор материала, но в этой записи избранного/истории материал не сохраняется. Выберите материал в редакторе карт и сохраните его вместе с этим материалом, чтобы использовать быстрое размещение.</r></e>
+  <e k="K" key="DME_RandomPlant"><s>Random placement</s><r>Случайное размещение</r></e>
+  <e k="K" key="DME_Recreation"><s>Recreation</s><r>Отдых</r></e>
+  <e k="K" key="DME_RectErase"><s>Erase rectangle</s><r>Стереть прямоугольник</r></e>
+  <e k="K" key="DME_RectHint"><s>Drag from the start cell to the end cell and release to apply. Rectangle edits are limited to 1,600 cells per operation. Right click cancels the current edit tool. </s><r>Перетащите курсор из начальной ячейки в конечную и отпустите, чтобы применить. Редактирование прямоугольника ограничено 1600 ячейками за операцию. Щелчок правой кнопкой мыши отменяет текущий инструмент редактирования. </r></e>
+  <e k="K" key="DME_Rectangle"><s>Rectangle</s><r>Прямоугольник</r></e>
+  <e k="K" key="DME_RectangleArea"><s>Rectangle area</s><r>Площадь прямоугольника</r></e>
+  <e k="K" key="DME_Redo"><s>Redo</s><r>Повторить</r></e>
+  <e k="K" key="DME_RedoDesc"><s>Redo an edit cancelled with Undo. Up to 20 operations are kept. This is an emergency recovery feature for editing mistakes; large or unusual edits may not restore perfectly. Operations over 5,000 cells are not stored. Saving before major map edits is strongly recommended.</s><r>Повторить редактирование, отмененное с помощью команды «Отменить». Сохраняется до 20 операций. Это функция экстренного восстановления ошибок редактирования; большие или необычные изменения могут не полностью восстановиться. Операции над 5000 ячейками не сохраняются. Настоятельно рекомендуется сохранять данные перед серьезными изменениями карты.</r></e>
+  <e k="K" key="DME_RedoHistory"><s>Redo history: {0} / {1}</s><r>История повторов: {0} / {1}</r></e>
+  <e k="K" key="DME_RemoveTemporary"><s>Remove temporary terrain</s><r>Удалить временный ландшафт</r></e>
+  <e k="K" key="DME_ResetToolbarWidths"><s>Reset Gizmo Widths</s><r>Сбросить ширину гизмо</r></e>
+  <e k="K" key="DME_Rock"><s>Rock &amp; Ore</s><r>Рок и руда</r></e>
+  <e k="K" key="DME_RoofRemove"><s>Remove roof</s><r>Снять крышу</r></e>
+  <e k="K" key="DME_Search"><s>Search</s><r>Поиск</r></e>
+  <e k="K" key="DME_Security"><s>Security</s><r>Безопасность</r></e>
+  <e k="K" key="DME_Select"><s>Select an entry from the list.</s><r>Выберите запись из списка.</r></e>
+  <e k="K" key="DME_SelectStuff"><s>Select material</s><r>Выберите материал</r></e>
+  <e k="K" key="DME_SelectedCount"><s>Selected</s><r>Выбрано</r></e>
+  <e k="K" key="DME_SettingEnabled"><s>Enable Direct Map Editor</s><r>Включить редактор Direct Map</r></e>
+  <e k="K" key="DME_SettingEnabledDesc"><s>When disabled, Direct Map Editor editing is turned off. The DME category remains visible, but its editing tools are hidden. Enabled by default.</s><r>Если этот параметр отключен, редактирование в редакторе Direct Map отключено. Категория DME остается видимой, но ее инструменты редактирования скрыты. Включено по умолчанию.</r></e>
+  <e k="K" key="DME_SettingSaveWarning"><s>Direct Map Editor changes the map immediately. Saving before major map edits is strongly recommended.</s><r>Редактор Direct Map немедленно меняет карту. Настоятельно рекомендуется сохранять данные перед серьезными изменениями карты.</r></e>
+  <e k="K" key="DME_SinglePlace"><s>Single placement</s><r>Одиночное размещение</r></e>
+  <e k="K" key="DME_SinglePlacement"><s>Single placement</s><r>Одиночное размещение</r></e>
+  <e k="K" key="DME_Smooth"><s>Smooth surface</s><r>Гладкая поверхность</r></e>
+  <e k="K" key="DME_SmoothDesc"><s>Smooths rough stone floors and natural rock walls where smoothing is supported.</s><r>Сглаживает грубые каменные полы и стены из натурального камня, где сглаживание поддерживается.</r></e>
+  <e k="K" key="DME_Special"><s>Special</s><r>Особенный</r></e>
+  <e k="K" key="DME_SpecialThing"><s>Special</s><r>Особенный</r></e>
+  <e k="K" key="DME_SpecialThingDesc"><s>Directly place supported natural or special map objects that do not normally appear in the building list. Press Q/E to rotate when rotation is supported.</s><r>Непосредственно размещайте поддерживаемые естественные или специальные объекты карты, которые обычно не отображаются в списке зданий. Нажмите Q/E, чтобы повернуть, если вращение поддерживается.</r></e>
+  <e k="K" key="DME_SquareBrush"><s>Square</s><r>Квадрат</r></e>
+  <e k="K" key="DME_Start"><s>Start placing</s><r>Начать размещение</r></e>
+  <e k="K" key="DME_Storage"><s>Storage</s><r>Хранилище</r></e>
+  <e k="K" key="DME_Terrain"><s>Floors &amp; Terrain</s><r>Полы и ландшафт</r></e>
+  <e k="K" key="DME_Title"><s>Direct Map Editor</s><r>Редактор прямых карт</r></e>
+  <e k="K" key="DME_ToolbarSettings"><s>Tool Settings</s><r>Настройки инструмента</r></e>
+  <e k="K" key="DME_ToolbarSettingsDesc"><s>Adjust the display width of each DME tool gizmo individually from level 1 to 10. Changes are applied immediately. Depending on UI scale and screen size, wider gizmos may wrap onto another row.</s><r>Отрегулируйте ширину отображения каждого инструмента DME индивидуально от уровня 1 до 10. Изменения применяются немедленно. В зависимости от масштаба пользовательского интерфейса и размера экрана более широкие вещицы могут переноситься на другую строку.</r></e>
+  <e k="K" key="DME_UnclaimBuildings"><s>Make Unclaimed</s><r>Сделать невостребованным</r></e>
+  <e k="K" key="DME_UnclaimBuildingsDesc"><s>Changes buildings currently owned by the player faction to Unclaimed.
+To restore ownership, use the vanilla game functions.
+If ownership still cannot be claimed for an object, try deleting it once and placing it again.</s><r>Изменяет здания, которые в настоящее время принадлежат фракции игрока, на невостребованные.
+Чтобы восстановить право собственности, используйте функции стандартной игры.
+Если право собственности на объект по-прежнему невозможно заявить, попробуйте удалить его один раз и разместить снова.</r></e>
+  <e k="K" key="DME_Undo"><s>Undo</s><r>Отменить</r></e>
+  <e k="K" key="DME_UndoDesc"><s>Undo the most recent edit. Up to 20 operations are kept. This is an emergency recovery feature for editing mistakes; large or unusual edits may not restore perfectly. Operations over 5,000 cells are not stored. Saving before major map edits is strongly recommended.</s><r>Отменить последнее редактирование. Сохраняется до 20 операций. Это функция экстренного восстановления ошибок редактирования; большие или необычные изменения могут не полностью восстановиться. Операции над 5000 ячейками не сохраняются. Настоятельно рекомендуется сохранять данные перед серьезными изменениями карты.</r></e>
+  <e k="K" key="DME_UndoHistory"><s>Undo history: {0} / {1}</s><r>Отменить историю: {0} / {1}</r></e>
+  <e k="K" key="DME_UndoTooLarge"><s>This edit is too large to undo. (History limit per operation: {0} cells)</s><r>Это изменение слишком велико, чтобы его можно было отменить. (Ограничение истории на операцию: {0} ячеек)</r></e>
+  <e k="K" key="DME_Unfavorite"><s>★ Remove favorite</s><r>★ Удалить избранное</r></e>
+  <e k="K" key="DME_VanillaRockRoof"><s>Vanilla rock roof</s><r>Ванильная каменная крыша</r></e>
+  <e k="K" key="DME_VanillaRoof"><s>Vanilla roof</s><r>Ванильная крыша</r></e>
+  <e k="K" key="DME_Wall"><s>Walls</s><r>Стены</r></e>
+  <e k="K" key="DME_WallsDoors"><s>Walls &amp; Doors</s><r>Стены и двери</r></e>
+  <e k="K" key="DME_Water"><s>Water</s><r>Вода</r></e>
+</AutoTranslateCache>
