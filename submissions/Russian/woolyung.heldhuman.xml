@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="woolyung.heldhuman" name="Held Human" language="Russian" version="1">
+  <e k="D" t="GeneCategoryDef" key="HumanResourceization.label"><s>human resourceization</s><r>кадровое обеспечение</r></e>
+  <e k="D" t="GeneDef" key="BioBattery.description"><s>Carriers of this gene experience an inexplicable flow of electrical energy. Electricity extraction is increased, but it comes with pain.</s><r>Носители этого гена испытывают необъяснимый поток электрической энергии. Извлечение электричества увеличивается, но сопровождается болью.</r></e>
+  <e k="D" t="GeneDef" key="BioBattery.label"><s>bio battery</s><r>био батарея</r></e>
+  <e k="D" t="GeneDef" key="BioBattery.labelShortAdj"><s>bio-battery</s><r>биобатарея</r></e>
+  <e k="D" t="GeneDef" key="BioBattery.symbolPack.prefixSymbols.0.symbol"><s>tingling</s><r>покалывание</r></e>
+  <e k="D" t="GeneDef" key="BioferriteTissue.description"><s>Carriers of this gene develop bioferrite tissue, reducing movement speed but allowing bioferrite extraction.</s><r>У носителей этого гена развивается биоферритная ткань, снижающая скорость движения, но позволяющая извлекать биоферрит.</r></e>
+  <e k="D" t="GeneDef" key="BioferriteTissue.label"><s>bioferrite tissue</s><r>биоферритная ткань</r></e>
+  <e k="D" t="GeneDef" key="BioferriteTissue.labelShortAdj"><s>bioferrite-tissue</s><r>биоферритная ткань</r></e>
+  <e k="D" t="GeneDef" key="BioferriteTissue.symbolPack.prefixSymbols.0.symbol"><s>thick</s><r>толстый</r></e>
+  <e k="D" t="GeneDef" key="FaintMind.description"><s>Carriers of this gene have a faint mind, reducing escape chance and consciousness.</s><r>Носители этого гена обладают слабым разумом, что снижает вероятность побега и сознание.</r></e>
+  <e k="D" t="GeneDef" key="FaintMind.label"><s>faint mind</s><r>слабый ум</r></e>
+  <e k="D" t="GeneDef" key="FaintMind.labelShortAdj"><s>faint-mind</s><r>слабоумный</r></e>
+  <e k="D" t="GeneDef" key="FaintMind.symbolPack.prefixSymbols.0.symbol"><s>faint</s><r>слабый</r></e>
+  <e k="D" t="GeneDef" key="LargeBioBattery.description"><s>Carriers of this gene experience an inexplicable flow of electrical energy. Electricity extraction is greatly increased, but it comes with pain.</s><r>Носители этого гена испытывают необъяснимый поток электрической энергии. Извлечение электричества значительно увеличивается, но сопровождается болью.</r></e>
+  <e k="D" t="GeneDef" key="LargeBioBattery.label"><s>large bio battery</s><r>большая биобатарея</r></e>
+  <e k="D" t="GeneDef" key="LargeBioBattery.labelShortAdj"><s>big-bio-battery</s><r>большая биобатарея</r></e>
+  <e k="D" t="GeneDef" key="LargeBioBattery.symbolPack.prefixSymbols.0.symbol"><s>tingling</s><r>покалывание</r></e>
+  <e k="D" t="GeneDef" key="VoidMind.description"><s>Carriers of this gene have a completely void mind, greatly reducing escape chance and consciousness.</s><r>Носители этого гена обладают полностью пустым разумом, что значительно снижает вероятность побега и сознание.</r></e>
+  <e k="D" t="GeneDef" key="VoidMind.label"><s>void mind</s><r>пустой разум</r></e>
+  <e k="D" t="GeneDef" key="VoidMind.labelShortAdj"><s>void-mind</s><r>пустотный ум</r></e>
+  <e k="D" t="GeneDef" key="VoidMind.symbolPack.prefixSymbols.0.symbol"><s>void</s><r>пустота</r></e>
+  <e k="D" t="InteractionDef" key="ConvertIdeoAttemptHeldHuman.label"><s>convert ideoligion attempt</s><r>попытка преобразовать идеологию</r></e>
+  <e k="D" t="InteractionDef" key="ConvertIdeoAttemptHeldHuman.logRulesInitiator.rulesStrings.0"><s>r_logentry-&gt;[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef] to [INITIATOR_possessive] own ideoligion.</s><r>r_logentry-&gt;[INITIATOR_nameDef] пытался преобразовать [RECIPIENT_nameDef] в [INITIATOR_possessive] собственную идеологию.</r></e>
+  <e k="D" t="JobDef" key="BloodfeedHeldHuman.reportString"><s>feeding on TargetA.</s><r>питаясь TargetA.</r></e>
+  <e k="D" t="JobDef" key="ExecuteHeldHuman.reportString"><s>executing TargetA.</s><r>выполнение TargetA.</r></e>
+  <e k="D" t="JobDef" key="FeedHeldHuman.reportString"><s>feeding TargetA to TargetB.</s><r>кормление от TargetA до TargetB.</r></e>
+  <e k="D" t="JobDef" key="HeldHumanAttemptRecruit.reportString"><s>attempting to recruit TargetA.</s><r>пытаюсь завербовать TargetA.</r></e>
+  <e k="D" t="JobDef" key="HeldHumanConvert.reportString"><s>converting TargetA.</s><r>конвертация TargetA.</r></e>
+  <e k="D" t="JobDef" key="HeldHumanEnslave.reportString"><s>enslaving TargetA.</s><r>порабощающий TargetA.</r></e>
+  <e k="D" t="JobDef" key="HeldHumanReduceWill.reportString"><s>reducing will of TargetA.</s><r>уменьшение воли TargetA.</r></e>
+  <e k="D" t="JobDef" key="OperateHeldHuman.reportString"><s>operating on TargetB by TargetA.</s><r>работает с TargetB по TargetA.</r></e>
+  <e k="D" t="JobDef" key="ReleaseHeldHuman.reportString"><s>releasing TargetB</s><r>отпуская TargetB</r></e>
+  <e k="D" t="JobDef" key="StripHeldHuman.reportString"><s>stripping TargetA.</s><r>зачистка TargetA.</r></e>
+  <e k="D" t="StatCategoryDef" key="HeldHumanStat.label"><s>Held human stat</s><r>Удерживаемая человеческая статистика</r></e>
+  <e k="D" t="StatDef" key="BioelectricCharge.description"><s>A multiplier factor for the power that can be generated from a held human.</s><r>Множитель силы, которую можно получить от удерживаемого человека.</r></e>
+  <e k="D" t="StatDef" key="BioelectricCharge.label"><s>bioelectric charge</s><r>биоэлектрический заряд</r></e>
+  <e k="D" t="StatDef" key="BioferriteDensity.description"><s>The amount of additional bioferrite that can be extracted from a held human.</s><r>Количество дополнительного биоферрита, которое можно извлечь из задержанного человека.</r></e>
+  <e k="D" t="StatDef" key="BioferriteDensity.label"><s>bioferrite density</s><r>плотность биоферрита</r></e>
+  <e k="D" t="StatDef" key="EscapeIntervalFactor.description"><s>Escape interval multiplier factor for held humans.</s><r>Множитель интервала побега для удерживаемых людей.</r></e>
+  <e k="D" t="StatDef" key="EscapeIntervalFactor.label"><s>escape interval factor</s><r>коэффициент интервала ускользания</r></e>
+  <e k="D" t="ThoughtDef" key="HaveBeenHeldHuman.stages.0.description"><s>I've been held with my limbs tied up like a entity.</s><r>Меня держали со связанными конечностями, как существо.</r></e>
+  <e k="D" t="ThoughtDef" key="HaveBeenHeldHuman.stages.0.label"><s>have been held</s><r>были проведены</r></e>
+  <e k="D" t="ThoughtDef" key="HeldHuman.stages.0.description"><s>I was caught with my limbs tied up.</s><r>Меня поймали со связанными конечностями.</r></e>
+  <e k="D" t="ThoughtDef" key="HeldHuman.stages.0.label"><s>held human</s><r>считался человеком</r></e>
+  <e k="D" t="ThoughtDef" key="HeldHuman.stages.1.description"><s>I've been tied up for too long. I can feel nothing.</s><r>Я слишком долго был связан. Я ничего не чувствую.</r></e>
+  <e k="D" t="ThoughtDef" key="HeldHuman.stages.1.label"><s>long-term held human</s><r>долгосрочно удерживаемый человек</r></e>
+  <e k="D" t="ThoughtDef" key="HeldHuman.stages.2.description"><s>I'm not a entity.</s><r>Я не сущность.</r></e>
+  <e k="D" t="ThoughtDef" key="HeldHuman.stages.2.label"><s>being treated as a entity</s><r>рассматриваться как сущность</r></e>
+  <e k="D" t="ThoughtDef" key="HeldHuman.stages.3.label"><s>human-like entity</s><r>человекоподобное существо</r></e>
+  <e k="D" t="WorkGiverDef" key="ChatWithHeldHuman.gerund"><s>chatting with</s><r>болтаю с</r></e>
+  <e k="D" t="WorkGiverDef" key="ChatWithHeldHuman.label"><s>chat with held human</s><r>пообщаться с задержанным человеком</r></e>
+  <e k="D" t="WorkGiverDef" key="ChatWithHeldHuman.verb"><s>chat with</s><r>пообщаться с</r></e>
+  <e k="D" t="WorkGiverDef" key="ConvertHeldHuman.gerund"><s>converting</s><r>преобразование</r></e>
+  <e k="D" t="WorkGiverDef" key="ConvertHeldHuman.label"><s>convert held human</s><r>конвертировать удерживаемого человека</r></e>
+  <e k="D" t="WorkGiverDef" key="ConvertHeldHuman.verb"><s>convert</s><r>конвертировать</r></e>
+  <e k="D" t="WorkGiverDef" key="EnslaveHeldHuman.gerund"><s>enslaving</s><r>порабощающий</r></e>
+  <e k="D" t="WorkGiverDef" key="EnslaveHeldHuman.label"><s>enslave held human</s><r>поработить удерживаемого человека</r></e>
+  <e k="D" t="WorkGiverDef" key="EnslaveHeldHuman.verb"><s>enslave</s><r>порабощать</r></e>
+  <e k="D" t="WorkGiverDef" key="ExecuteHeldHuman.gerund"><s>executing</s><r>выполнение</r></e>
+  <e k="D" t="WorkGiverDef" key="ExecuteHeldHuman.label"><s>execute held human</s><r>казнить задержанного человека</r></e>
+  <e k="D" t="WorkGiverDef" key="ExecuteHeldHuman.verb"><s>execute</s><r>выполнять</r></e>
+  <e k="D" t="WorkGiverDef" key="FeedHeldHuman.gerund"><s>feeding</s><r>кормление</r></e>
+  <e k="D" t="WorkGiverDef" key="FeedHeldHuman.label"><s>feed held humans</s><r>кормить содержащихся людей</r></e>
+  <e k="D" t="WorkGiverDef" key="FeedHeldHuman.verb"><s>feed</s><r>кормить</r></e>
+  <e k="D" t="WorkGiverDef" key="OperateHeldHuman.gerund"><s>operating on</s><r>работает на</r></e>
+  <e k="D" t="WorkGiverDef" key="OperateHeldHuman.label"><s>operate on held humans</s><r>оперировать задержанных людей</r></e>
+  <e k="D" t="WorkGiverDef" key="OperateHeldHuman.verb"><s>operate on</s><r>действовать на</r></e>
+  <e k="D" t="WorkGiverDef" key="ReleaseHeldHuman.gerund"><s>releasing</s><r>выпуск</r></e>
+  <e k="D" t="WorkGiverDef" key="ReleaseHeldHuman.label"><s>release held human</s><r>освободить удерживаемого человека</r></e>
+  <e k="D" t="WorkGiverDef" key="ReleaseHeldHuman.verb"><s>release</s><r>выпускать</r></e>
+  <e k="D" t="WorkGiverDef" key="StripHeldHuman.gerund"><s>stripping</s><r>зачистка</r></e>
+  <e k="D" t="WorkGiverDef" key="StripHeldHuman.label"><s>strip held human</s><r>раздеть человека</r></e>
+  <e k="D" t="WorkGiverDef" key="StripHeldHuman.verb"><s>strip</s><r>полоска</r></e>
+  <e k="K" key="heldHumanSetting.Button.Reset"><s>Reset</s><r>Перезагрузить</r></e>
+  <e k="K" key="heldHumanSetting.Checkbox.EnableBioferrite"><s>enable producing bioferrite</s><r>возможность производить биоферрит</r></e>
+  <e k="K" key="heldHumanSetting.Checkbox.EnableFood"><s>enable food</s><r>включить еду</r></e>
+  <e k="K" key="heldHumanSetting.Checkbox.EnableStudying"><s>enable studying</s><r>включить изучение</r></e>
+  <e k="K" key="heldHumanSetting.Label.NeedsDLC"><s>──── Needs &amp; DLC</s><r>──── Потребности и DLC</r></e>
+  <e k="K" key="heldHumanSetting.Label.ProductionStuding"><s>──── Production &amp; Studying</s><r>──── Производство и обучение</r></e>
+  <e k="K" key="heldHumanSetting.Label.Restart"><s>If you have modified the settings, restart the game.</s><r>Если вы изменили настройки, перезапустите игру.</r></e>
+  <e k="K" key="heldHumanSetting.Slider.AnomalyKnowledge"><s>anomaly knowledge ({0})</s><r>знание аномалий ({0})</r></e>
+  <e k="K" key="heldHumanSetting.Slider.BioferriteDensity"><s>bioferrite density ({0})</s><r>плотность биоферрита ({0})</r></e>
+  <e k="K" key="heldHumanSetting.Slider.FrequencyTicks"><s>research frequency ({0} ticks)</s><r>частота исследования ({0} тиков)</r></e>
+  <e k="K" key="heldHumanSetting.Slider.PowerGenerationFactor"><s>power generation factor ({0}%)</s><r>коэффициент выработки электроэнергии ({0}%)</r></e>
+  <e k="K" key="heldHumanStatDraw.BioferriteDensity"><s>additional bioferrite density</s><r>дополнительная плотность биоферрита</r></e>
+  <e k="K" key="heldHumanStatDraw.EscapeIntervalFactor"><s>escape interval factor</s><r>коэффициент интервала ускользания</r></e>
+</AutoTranslateCache>
