@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="rh.faction.the.ghosts" name="[RH] Faction: The Ghosts (Continued)" language="Russian" version="1">
+  <e k="D" t="CultureDef" key="RH_Ghost_Culture.description"><s>A broad collection of cultures common among mercenaries.</s><r>Широкий набор культур, распространенных среди наемников.</r></e>
+  <e k="D" t="CultureDef" key="RH_Ghost_Culture.label"><s>mercenary</s><r>наемник</r></e>
+  <e k="D" t="DamageDef" key="RNBomb.deathMessage"><s>{0} has died in an explosion.</s><r>{0} погиб в результате взрыва.</r></e>
+  <e k="D" t="DamageDef" key="RNBomb.label"><s>bomb</s><r>бомбить</r></e>
+  <e k="D" t="DamageDef" key="RNBullet_Charge.deathMessage"><s>{0} has been shot to death.</s><r>{0} был застрелен.</r></e>
+  <e k="D" t="DamageDef" key="RNBullet_Charge.label"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="DamageDef" key="RNChargeBomb.deathMessage"><s>{0} has died in an explosion.</s><r>{0} погиб в результате взрыва.</r></e>
+  <e k="D" t="DamageDef" key="RNChargeBomb.label"><s>energy discharge</s><r>разряд энергии</r></e>
+  <e k="D" t="DamageDef" key="RNSmoke.deathMessage"><s>{0} has been killed.</s><r>{0} был убит.</r></e>
+  <e k="D" t="DamageDef" key="RNSmoke.label"><s>smoke</s><r>курить</r></e>
+  <e k="D" t="FactionDef" key="RH_PlayerColony_TheGhosts.description"><s>A Task Force STALKER outpost.</s><r>Аванпост Оперативной группы СТАЛКЕР.</r></e>
+  <e k="D" t="FactionDef" key="RH_PlayerColony_TheGhosts.label"><s>The Ghosts</s><r>Призраки</r></e>
+  <e k="D" t="FactionDef" key="RH_PlayerColony_TheGhosts.leaderTitle"><s>leader</s><r>лидер</r></e>
+  <e k="D" t="FactionDef" key="RH_PlayerColony_TheGhosts.pawnSingular"><s>special forces</s><r>спецназ</r></e>
+  <e k="D" t="FactionDef" key="RH_PlayerColony_TheGhosts.pawnsPlural"><s>special forces</s><r>спецназ</r></e>
+  <e k="D" t="FactionDef" key="RH_TheGhosts.description"><s>The Ghosts, officially known as Task Force: STALKER. Composed of soldiers from Tier One Special Forces teams, not officially tied to any country, government or organization.
+
+It's unknown what brings this group here in this Rim planet of all places, without a given reason or story. According to civil outlanders, the Ghosts are looking for militias or other communities willing to bear arms. These masked individuals with their distinctive uniforms are oddly enough, offering cheap supplies to friendlies in order to give them a &quot;fighting chance&quot;.
+	
+Even when heavily outnumbered, they stay and defend with their lives. Under dead bodies of fallen comrades in the dark with nothing but blades or fists when the ammo runs out. That's how they earned their name &quot;Ghosts&quot;.</s><r>Призраки, официально известные как Оперативная группа: СТАЛКЕР. Состоит из солдат из команд спецназа первого уровня, официально не связанных с какой-либо страной, правительством или организацией.
+
+Неизвестно, что привело эту группу сюда, на эту планету Кольца, без какой-либо конкретной причины или истории. По словам гражданских чужеземцев, Призраки ищут ополченцев или другие общины, готовые взять на себя оружие. Эти люди в масках и своей характерной униформе, как ни странно, предлагают дружественным товарищам дешевые припасы, чтобы дать им «шанс на бой».
+ 
+Даже когда их значительно превосходят численностью, они остаются и защищаются ценой своих жизней. Под трупами павших товарищей в темноте, с одними клинками или кулаками, когда кончаются патроны. Именно поэтому они получили свое название «Призраки».</r></e>
+  <e k="D" t="FactionDef" key="RH_TheGhosts.fixedName"><s>The Ghosts</s><r>Призраки</r></e>
+  <e k="D" t="FactionDef" key="RH_TheGhosts.label"><s>counter stealth unit</s><r>противодействующее скрытное подразделение</r></e>
+  <e k="D" t="FactionDef" key="RH_TheGhosts.leaderTitle"><s>commander</s><r>командир</r></e>
+  <e k="D" t="FactionDef" key="RH_TheGhosts.pawnSingular"><s>special forces</s><r>спецназ</r></e>
+  <e k="D" t="FactionDef" key="RH_TheGhosts.pawnsPlural"><s>special forces</s><r>спецназ</r></e>
+  <e k="D" t="IncidentDef" key="CP_ContractorJoin_Ghosts.label"><s>special forces</s><r>спецназ</r></e>
+  <e k="D" t="IncidentDef" key="CP_ContractorJoin_Ghosts.letterLabel"><s>special forces</s><r>спецназ</r></e>
+  <e k="D" t="IncidentDef" key="CP_ContractorJoin_Ghosts.letterText"><s>A former [PAWN_kind] member of The Ghosts has arrived.
+
+[PAWN_pronoun] will stay in your colony as member of staff.</s><r>Прибыл бывший член [PAWN_kind] Призраков. 
+
+[PAWN_pronoun] останется в вашей колонии в качестве сотрудника.</r></e>
+  <e k="D" t="PawnKindDef" key="RH_Tactical_GermanShepherd.label"><s>german shepherd</s><r>немецкая овчарка</r></e>
+  <e k="D" t="PawnKindDef" key="RH_Tactical_GermanShepherd.labelPlural"><s>german shepherds</s><r>немецкие овчарки</r></e>
+  <e k="D" t="PawnKindDef" key="RH_Tactical_GermanShepherd.lifeStages.0.label"><s>shepherd puppy</s><r>щенок овчарки</r></e>
+  <e k="D" t="PawnKindDef" key="RH_Tactical_GermanShepherd.lifeStages.0.labelPlural"><s>shepherd puppies</s><r>щенки овчарки</r></e>
+  <e k="D" t="PawnKindDef" key="RH_TheGhosts_Assault.label"><s>special forces</s><r>спецназ</r></e>
+  <e k="D" t="PawnKindDef" key="RH_TheGhosts_Assault_TierII.label"><s>special forces</s><r>спецназ</r></e>
+  <e k="D" t="PawnKindDef" key="RH_TheGhosts_Boss.label"><s>commander</s><r>командир</r></e>
+  <e k="D" t="PawnKindDef" key="RH_TheGhosts_Boss.labelPlural"><s>commanders</s><r>командиры</r></e>
+  <e k="D" t="PawnKindDef" key="RH_TheGhosts_Elite.label"><s>special forces</s><r>спецназ</r></e>
+  <e k="D" t="PawnKindDef" key="RH_TheGhosts_Elite.labelPlural"><s>special forces</s><r>спецназ</r></e>
+  <e k="D" t="PawnKindDef" key="RH_TheGhosts_Grenadier.label"><s>special forces</s><r>спецназ</r></e>
+  <e k="D" t="PawnKindDef" key="RH_TheGhosts_Gunner.label"><s>special forces</s><r>спецназ</r></e>
+  <e k="D" t="PawnKindDef" key="RH_TheGhosts_Marksman.label"><s>special forces</s><r>спецназ</r></e>
+  <e k="D" t="PawnKindDef" key="RH_TheGhosts_Recon.label"><s>special forces</s><r>спецназ</r></e>
+  <e k="D" t="PawnKindDef" key="RH_TheGhosts_SMG.label"><s>special forces</s><r>спецназ</r></e>
+  <e k="D" t="PawnKindDef" key="RH_TheGhosts_SMG_TierII.label"><s>special forces</s><r>спецназ</r></e>
+  <e k="D" t="PawnKindDef" key="RH_TheGhosts_Scout.label"><s>special forces</s><r>спецназ</r></e>
+  <e k="D" t="PawnKindDef" key="RH_TheGhosts_Sniper.label"><s>special forces</s><r>спецназ</r></e>
+  <e k="D" t="PawnKindDef" key="RH_TheGhosts_Starter.label"><s>special forces</s><r>спецназ</r></e>
+  <e k="D" t="PawnKindDef" key="RH_TheGhosts_Trader.label"><s>quartermaster</s><r>интендант</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.description"><s>Develop blueprints for apparel worn by factions registered in &quot;Red Horse&quot; files.</s><r>Разработайте чертежи одежды фракций, зарегистрированных в файлах «Red Horse».</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.0"><s>subject-&gt;innovation's path</s><r>subject-&gt;путь инноваций</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.1"><s>subject_story-&gt;unveiled simple truths behind complex phenomena</s><r>subject_story-&gt;раскрыл простые истины, стоящие за сложными явлениями</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.10"><s>subject-&gt;seeds of tomorrow</s><r>subject-&gt;семена завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.11"><s>subject_story-&gt;planted ideas that would grow into transformative solutions</s><r>subject_story-&gt;посадил идеи, которые переросли в преобразующие решения</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.12"><s>subject_story-&gt;cultivated a garden of knowledge, ripe with potential</s><r>subject_story-&gt;возделывал сад знаний, полный потенциала</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.13"><s>subject_story-&gt;nurtured the roots of change with care and foresight</s><r>subject_story-&gt;заботливо и дальновидно взращивали корни перемен</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.14"><s>subject_gerund-&gt;sowing the future with today’s discoveries</s><r>subject_gerund-&gt;сея будущее с сегодняшними открытиями</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.15"><s>subject-&gt;the ripple of curiosity</s><r>subject-&gt;волна любопытства</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.16"><s>subject_story-&gt;set forth waves of inquiry that echoed through time</s><r>subject_story-&gt;излагать волны исследований, которые эхом отдавались во времени</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.17"><s>subject_story-&gt;dropped pebbles of innovation into the pond of knowledge</s><r>subject_story-&gt;бросил камешки инноваций в пруд знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.18"><s>subject_story-&gt;watched as one question led to another, expanding the circle of understanding</s><r>subject_story-&gt;наблюдал, как один вопрос влек за собой другой, расширяя круг понимания</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.19"><s>subject_gerund-&gt;casting stones to create waves of progress</s><r>subject_gerund-&gt;бросать камни для создания волн прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.2"><s>subject_story-&gt;simplified the intricate to make way for practical applications</s><r>subject_story-&gt;упростил сложную задачу, освободив место для практического применения</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.20"><s>subject-&gt;the alchemy of progress</s><r>subject-&gt;алхимия прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.21"><s>subject_story-&gt;merged disparate disciplines to unlock new realms of possibility</s><r>subject_story-&gt;объединили разрозненные дисциплины, чтобы открыть новые сферы возможностей</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.22"><s>subject_story-&gt;turned the impossible into the inevitable through sheer ingenuity</s><r>subject_story-&gt;превратил невозможное в неизбежное благодаря своей изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.23"><s>subject_story-&gt;crafted solutions that reshaped the understanding of what's achievable</s><r>subject_story-&gt;разработанные решения, которые изменили понимание того, что достижимо</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.24"><s>subject_gerund-&gt;blending science and magic into the fabric of reality</s><r>subject_gerund-&gt;смешивание науки и магии в ткань реальности</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.25"><s>subject-&gt;the tapestry of discovery</s><r>subject-&gt;гобелен открытий</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.26"><s>subject_story-&gt;wove together threads of knowledge from the four corners of the world</s><r>subject_story-&gt;сплели воедино нити знаний из четырех уголков мира</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.27"><s>subject_story-&gt;revealed patterns in the chaos, charting paths to untold innovations</s><r>subject_story-&gt;выявил закономерности в хаосе, проложив пути к неисчислимым инновациям</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.28"><s>subject_story-&gt;embroidered the annals of history with tales of serendipitous breakthroughs</s><r>subject_story-&gt;украсили анналы истории рассказами о счастливых открытиях</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.29"><s>subject_gerund-&gt;weaving the future from the loom of the present</s><r>subject_gerund-&gt;плетение будущего на станке настоящего</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.3"><s>subject_story-&gt;harnessed basic principles to achieve remarkable feats</s><r>subject_story-&gt;использовал основные принципы для достижения выдающихся подвигов</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.30"><s>subject-&gt;the crucible of creation</s><r>subject-&gt;тигель творения</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.31"><s>subject_story-&gt;fused raw elements into the building blocks of tomorrow</s><r>subject_story-&gt;соединил необработанные элементы в строительные блоки завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.32"><s>subject_story-&gt;tempered the fires of creativity to forge unprecedented technologies</s><r>subject_story-&gt;умерил огонь творчества, чтобы создать беспрецедентные технологии</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.33"><s>subject_story-&gt;quenched the thirst for knowledge with the elixir of invention</s><r>subject_story-&gt;утолил жажду знаний эликсиром изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.34"><s>subject_gerund-&gt;molding the raw materials of today into the artifacts of the future</s><r>subject_gerund-&gt;превращение сегодняшнего сырья в артефакты будущего</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.35"><s>subject-&gt;the beacon of enlightenment</s><r>subject-&gt;маяк просвещения</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.36"><s>subject_story-&gt;illuminated the dark corners of ignorance, guiding the way forward</s><r>subject_story-&gt;освещал темные уголки невежества, указывая путь вперед</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.37"><s>subject_story-&gt;cast light on the unknown, making the unseen visible to curious minds</s><r>subject_story-&gt;пролить свет на неизведанное, сделать невидимое видимым для любопытных умов</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.38"><s>subject_story-&gt;ignited the flames of curiosity, kindling a worldwide pursuit of understanding</s><r>subject_story-&gt;зажег пламя любопытства, разжигая стремление к пониманию во всем мире.</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.39"><s>subject_gerund-&gt;lighting the torches of progress and knowledge</s><r>subject_gerund-&gt;зажигая факелы прогресса и знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.4"><s>subject_gerund-&gt;streamlining the essence of discovery</s><r>subject_gerund-&gt;оптимизация сути открытия</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.40"><s>subject-&gt;the frontier of knowledge</s><r>subject-&gt;граница знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.41"><s>subject_story-&gt;crossed new horizons in the pursuit of understanding</s><r>subject_story-&gt;пересек новые горизонты в поисках понимания</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.42"><s>subject_story-&gt;challenged the status quo with groundbreaking theories</s><r>subject_story-&gt;бросил вызов статус-кво с помощью новаторских теорий</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.43"><s>subject_story-&gt;merged ancient wisdom with modern technology for innovative solutions</s><r>subject_story-&gt;объединили древнюю мудрость с современными технологиями для инновационных решений</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.44"><s>subject_gerund-&gt;pushing the boundaries of science and art</s><r>subject_gerund-&gt;расширяя границы науки и искусства</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.45"><s>subject-&gt;the essence of innovation</s><r>subject-&gt;суть инноваций</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.46"><s>subject_story-&gt;transformed everyday materials into extraordinary tools</s><r>subject_story-&gt;превратил повседневные материалы в необычные инструменты</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.47"><s>subject_story-&gt;paved the way for future generations with sustainable practices</s><r>subject_story-&gt;проложили путь будущим поколениям с помощью устойчивых методов</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.48"><s>subject_story-&gt;harnessed the power of nature to fuel new advancements</s><r>subject_story-&gt;использовали силу природы для стимулирования новых достижений</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.49"><s>subject_gerund-&gt;fostering an ecosystem of creativity and progress</s><r>subject_gerund-&gt;содействие развитию экосистемы творчества и прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.5"><s>subject-&gt;building blocks of progress</s><r>subject-&gt;строительные блоки прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.50"><s>subject-&gt;the architects of tomorrow</s><r>subject-&gt;архитекторы завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.51"><s>subject_story-&gt;built the foundations for a utopia where technology serves all</s><r>subject_story-&gt;заложил основы утопии, где технологии служат всем</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.52"><s>subject_story-&gt;envisioned a future where harmony between technology and nature thrives</s><r>subject_story-&gt;представлял будущее, в котором процветает гармония между технологиями и природой</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.53"><s>subject_story-&gt;crafted tools that empower humanity to reach its fullest potential</s><r>subject_story-&gt;созданные инструменты, которые позволяют человечеству полностью раскрыть свой потенциал</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.54"><s>subject_gerund-&gt;laying the keystones for future landscapes</s><r>subject_gerund-&gt;закладываем краеугольные камни для будущих пейзажей</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.55"><s>subject-&gt;exploratory leaps</s><r>subject-&gt;исследовательские прыжки</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.56"><s>subject_story-&gt;stepped boldly into uncharted territories of knowledge</s><r>subject_story-&gt;смело шагнул на неизведанные территории знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.57"><s>subject_story-&gt;bridged the gap between the known and the unknown</s><r>subject_story-&gt;преодолел разрыв между известным и неизвестным</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.58"><s>subject_story-&gt;ventured where curiosity dared to lead</s><r>subject_story-&gt;рискнул туда, где любопытство осмелилось привести</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.59"><s>subject_gerund-&gt;embarking on journeys of discovery</s><r>subject_gerund-&gt;отправляясь в путешествие открытий</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.6"><s>subject_story-&gt;laid the groundwork for monumental leaps forward</s><r>subject_story-&gt;заложил основу для монументального скачка вперед</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.60"><s>subject-&gt;the essence of ingenuity</s><r>subject-&gt;суть изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.61"><s>subject_story-&gt;transformed challenges into opportunities for growth</s><r>subject_story-&gt;превратил проблемы в возможности для роста</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.62"><s>subject_story-&gt;applied creative thinking to overcome traditional obstacles</s><r>subject_story-&gt;применил творческое мышление для преодоления традиционных препятствий</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.63"><s>subject_story-&gt;crafted elegant solutions with a blend of art and science</s><r>subject_story-&gt;созданные элегантные решения, сочетающие искусство и науку</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.64"><s>subject_gerund-&gt;unlocking potential through innovation</s><r>subject_gerund-&gt;раскрытие потенциала через инновации</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.65"><s>subject-&gt;knowledge’s harvest</s><r>subject-&gt;урожай знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.66"><s>subject_story-&gt;gathered insights as one reaps the fields at harvest</s><r>subject_story-&gt;собирал идеи, когда собираешь урожай на полях</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.67"><s>subject_story-&gt;cultivated a bounty of understanding from the seeds of inquiry</s><r>subject_story-&gt;вырастил щедрость понимания из семян исследования</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.68"><s>subject_story-&gt;shared the fruits of research with the world</s><r>subject_story-&gt;поделился плодами исследований со всем миром</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.69"><s>subject_gerund-&gt;reaping the rewards of relentless curiosity</s><r>subject_gerund-&gt;пожинать плоды неустанного любопытства</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.7"><s>subject_story-&gt;connected dots across disciplines to reveal new insights</s><r>subject_story-&gt;связали точки между дисциплинами, чтобы выявить новые идеи</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.70"><s>subject-&gt;the puzzle of progress</s><r>subject-&gt;загадка прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.71"><s>subject_story-&gt;assembled the pieces of mystery to reveal the big picture</s><r>subject_story-&gt;собрал кусочки тайны, чтобы раскрыть общую картину</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.72"><s>subject_story-&gt;matched theory with practice to solve longstanding puzzles</s><r>subject_story-&gt;сочетать теорию с практикой для решения давних загадок</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.73"><s>subject_story-&gt;uncovered hidden connections that unlocked new possibilities</s><r>subject_story-&gt;раскрыл скрытые связи, которые открыли новые возможности</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.74"><s>subject_gerund-&gt;piecing together the elements of advancement</s><r>subject_gerund-&gt;собираем воедино элементы продвижения</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.8"><s>subject_story-&gt;crafted the foundation upon which future innovations stand</s><r>subject_story-&gt;создали основу, на которой стоят будущие инновации</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.generalRules.rulesStrings.9"><s>subject_gerund-&gt;laying down the keystones of advancement</s><r>subject_gerund-&gt;закладывая краеугольные камни продвижения</r></e>
+  <e k="D" t="ResearchProjectDef" key="RHResearch_RHFaction_Uniforms.label"><s>Faction Uniforms</s><r>Униформа фракций</r></e>
+  <e k="D" t="ResearchTabDef" key="RH_TheTacticalTab.label"><s>Project Red Horse</s><r>Проект Красный Конь</r></e>
+  <e k="D" t="RulePackDef" key="LeaderTitleMaker_RHGhost.rulePack.rulesStrings.0"><s>r_leaderTitle-&gt;commanding officer</s><r>r_leaderTitle-&gt;командир</r></e>
+  <e k="D" t="RulePackDef" key="NamerIdeo_RHGhost.rulePack.rulesStrings.0"><s>r_ideoName-&gt;[141Adjective] patriotism</s><r>r_ideoName-&gt;[141Adjective] патриотизм</r></e>
+  <e k="D" t="RulePackDef" key="NamerIdeo_RHGhost.rulePack.rulesStrings.1"><s>r_ideoName-&gt;[141Adjective] democracy</s><r>r_ideoName-&gt;[141Adjective] демократия</r></e>
+  <e k="D" t="RulePackDef" key="NamerIdeo_RHGhost.rulePack.rulesStrings.10"><s>141Adjective-&gt;allied</s><r>141Adjective-&gt;союзный</r></e>
+  <e k="D" t="RulePackDef" key="NamerIdeo_RHGhost.rulePack.rulesStrings.11"><s>141Adjective-&gt;western</s><r>141Adjective-&gt;западный</r></e>
+  <e k="D" t="RulePackDef" key="NamerIdeo_RHGhost.rulePack.rulesStrings.12"><s>141Adjective-&gt;neo</s><r>141Adjective-&gt;нео</r></e>
+  <e k="D" t="RulePackDef" key="NamerIdeo_RHGhost.rulePack.rulesStrings.2"><s>r_ideoName-&gt;[141Adjective] republic</s><r>r_ideoName-&gt;[141Adjective] республика</r></e>
+  <e k="D" t="RulePackDef" key="NamerIdeo_RHGhost.rulePack.rulesStrings.3"><s>r_memberName-&gt;patriot</s><r>r_memberName-&gt;патриот</r></e>
+  <e k="D" t="RulePackDef" key="NamerIdeo_RHGhost.rulePack.rulesStrings.4"><s>r_ideoAdjective(priority=1)-&gt;military</s><r>r_ideoAdjective(priority=1)-&gt;военный</r></e>
+  <e k="D" t="RulePackDef" key="NamerIdeo_RHGhost.rulePack.rulesStrings.6"><s>genericCreed-&gt;creed</s><r>genericCreed-&gt;вера</r></e>
+  <e k="D" t="RulePackDef" key="NamerIdeo_RHGhost.rulePack.rulesStrings.7"><s>genericCreed-&gt;doctrine</s><r>genericCreed-&gt;доктрина</r></e>
+  <e k="D" t="RulePackDef" key="NamerIdeo_RHGhost.rulePack.rulesStrings.8"><s>genericCreed-&gt;way</s><r>genericCreed-&gt;способ</r></e>
+  <e k="D" t="RulePackDef" key="NamerIdeo_RHGhost.rulePack.rulesStrings.9"><s>genericCreed-&gt;path</s><r>genericCreed-&gt;путь</r></e>
+  <e k="D" t="ScenarioDef" key="RH_Scenario_TheGhosts.description"><s>Four ghost operators. You exist to haunt your enemies.
+
+Your world has fallen in the hands of mechanoids, The Ghosts are the remnants of some of the elite forces that have been wiped out.
+
+Your mission is to aid the Coalition into securing a place for your people into this brave new world.</s><r>Четыре оператора-призрака. Вы существуете, чтобы преследовать своих врагов.
+
+Ваш мир попал в руки механоидов. Призраки — это остатки некоторых элитных сил, которые были уничтожены.
+
+Ваша миссия — помочь Коалиции обеспечить место для вашего народа в этом дивном новом мире.</r></e>
+  <e k="D" t="ScenarioDef" key="RH_Scenario_TheGhosts.label"><s>Ghost Stories</s><r>Истории о призраках</r></e>
+  <e k="D" t="ScenarioDef" key="RH_Scenario_TheGhosts.scenario.description"><s>Four ghost operators. You exist to haunt your enemies.
+
+Your world has fallen in the hands of mechanoids, The Ghosts are the remnants of some of the elite forces that have been wiped out.
+
+Your mission is to aid the Coalition into securing a place for your people into this brave new world.</s><r>Четыре оператора-призрака. Вы существуете, чтобы преследовать своих врагов.
+
+Ваш мир попал в руки механоидов. Призраки — это остатки некоторых элитных сил, которые были уничтожены.
+
+Ваша миссия — помочь Коалиции обеспечить место для вашего народа в этом дивном новом мире.</r></e>
+  <e k="D" t="ScenarioDef" key="RH_Scenario_TheGhosts.scenario.name"><s>Ghost Stories</s><r>Истории о призраках</r></e>
+  <e k="D" t="ScenarioDef" key="RH_Scenario_TheGhosts.scenario.parts.15.text"><s>&quot;You look lost.&quot;
+
+Those were the first words you heard from a Ghost in a dreary pit, before your team was introduced to the brotherhood.
+
+Here they are now in a whole new world they do not know, turning their backs from a home that is broken beyond repair.
+
+You keep your enemies unaware of your existence, Ghosts who haunt and keep them from finding rest. It is your duty to provide a safe haven for your people, and it means another war on your hands.
+
+&quot;We are all we've got.&quot;</s><r>«Вы выглядите потерянными».
+
+Это были первые слова, которые вы услышали от Призрака в мрачной яме, прежде чем ваша команда была представлена Братству.
+
+И вот они теперь в совершенно новом мире, которого они не знают, отвернувшись от дома, который сломан и не подлежит восстановлению.
+
+Вы держите своих врагов в неведении о своем существовании, Призраки, которые преследовать и не давать им обрести покой. Ваш долг — обеспечить безопасное убежище для вашего народа, а это означает, что вам предстоит еще одна война.
+
+ «Мы — все, что у нас есть».</r></e>
+  <e k="D" t="ScenarioDef" key="RH_Scenario_TheGhosts.scenario.summary"><s>Four special forces, nicknamed &quot;Ghosts&quot; sent to the outer rim to bring hope for their people.</s><r>Четверо спецназовцев по прозвищу «Призраки» отправлены во внешнее кольцо, чтобы принести надежду своему народу.</r></e>
+  <e k="D" t="ThingCategoryDef" key="RHApparel_Belts.label"><s>accessories</s><r>аксессуары</r></e>
+  <e k="D" t="ThingCategoryDef" key="RHApparel_BodyArmor.label"><s>body armor</s><r>бронежилет</r></e>
+  <e k="D" t="ThingCategoryDef" key="RHApparel_Casual.label"><s>casual</s><r>повседневный</r></e>
+  <e k="D" t="ThingCategoryDef" key="RHApparel_Combat.label"><s>combat uniform</s><r>боевая форма</r></e>
+  <e k="D" t="ThingCategoryDef" key="RHApparel_Formal.label"><s>formal</s><r>формальный</r></e>
+  <e k="D" t="ThingCategoryDef" key="RHApparel_Main.label"><s>Red Horse apparel</s><r>Одежда Красной Лошади</r></e>
+  <e k="D" t="ThingCategoryDef" key="RHApparel_PoweredArmor.label"><s>powered armor</s><r>силовая броня</r></e>
+  <e k="D" t="ThingCategoryDef" key="RHApparel_ShellCasual.label"><s>casual jackets</s><r>повседневные куртки</r></e>
+  <e k="D" t="ThingCategoryDef" key="RHApparel_ShellCombat.label"><s>combat jackets</s><r>боевые куртки</r></e>
+  <e k="D" t="ThingCategoryDef" key="RHApparel_ShellFormal.label"><s>formal jackets</s><r>формальные куртки</r></e>
+  <e k="D" t="ThingCategoryDef" key="RHHeadgear_Hats.label"><s>hats</s><r>шляпы</r></e>
+  <e k="D" t="ThingCategoryDef" key="RHHeadgear_Helmets.label"><s>helmets</s><r>шлемы</r></e>
+  <e k="D" t="ThingCategoryDef" key="RHHeadgear_Main.label"><s>Red Horse headgear</s><r>Головной убор Красной Лошади</r></e>
+  <e k="D" t="ThingCategoryDef" key="RHHeadgear_Masks.label"><s>masks</s><r>маски</r></e>
+  <e k="D" t="ThingCategoryDef" key="RHHeadgear_PoweredArmorHelmets.label"><s>powered armor helmets</s><r>шлемы с силовой броней</r></e>
+  <e k="D" t="ThingCategoryDef" key="RN_AKStyle.label"><s>AK style rifle</s><r>И винтовочный стиль</r></e>
+  <e k="D" t="ThingCategoryDef" key="RN_AMR.label"><s>AMR</s><r>АМР</r></e>
+  <e k="D" t="ThingCategoryDef" key="RN_ARStyle.label"><s>AR style rifle</s><r>Винтовка в стиле AR</r></e>
+  <e k="D" t="ThingCategoryDef" key="RN_Airstrikes.label"><s>air support</s><r>поддержка с воздуха</r></e>
+  <e k="D" t="ThingCategoryDef" key="RN_AssaultRifle.label"><s>assault rifle</s><r>штурмовая винтовка</r></e>
+  <e k="D" t="ThingCategoryDef" key="RN_BoltAction.label"><s>bolt action</s><r>затвор</r></e>
+  <e k="D" t="ThingCategoryDef" key="RN_BullpupStyle.label"><s>bullpup rifle</s><r>винтовка буллпап</r></e>
+  <e k="D" t="ThingCategoryDef" key="RN_DMR.label"><s>DMR</s><r>ДМР</r></e>
+  <e k="D" t="ThingCategoryDef" key="RN_GrenadeLaunchers.label"><s>grenade launcher</s><r>гранатомет</r></e>
+  <e k="D" t="ThingCategoryDef" key="RN_Grenades.label"><s>lethal grenade</s><r>смертельная граната</r></e>
+  <e k="D" t="ThingCategoryDef" key="RN_GrenadesNL.label"><s>non-lethal grenade</s><r>несмертельная граната</r></e>
+  <e k="D" t="ThingCategoryDef" key="RN_LMGMain.label"><s>LMG and GPMG</s><r>ЛМГ и ГПМГ</r></e>
+  <e k="D" t="ThingCategoryDef" key="RN_MREFoodMeals.label"><s>MRE Rations</s><r>MRE Рационы</r></e>
+  <e k="D" t="ThingCategoryDef" key="RN_MeleeMain.label"><s>Rimmu-Nation Melee</s><r>Римму-Нация Ближний бой</r></e>
+  <e k="D" t="ThingCategoryDef" key="RN_MiscRanged.label"><s>blade and bow</s><r>клинок и лук</r></e>
+  <e k="D" t="ThingCategoryDef" key="RN_OldieRifle.label"><s>oldies</s><r>старички</r></e>
+  <e k="D" t="ThingCategoryDef" key="RN_OneTimeUseLaunchers.label"><s>one-use launcher</s><r>одноразовая пусковая установка</r></e>
+  <e k="D" t="ThingCategoryDef" key="RN_OneTimeUseThrown.label"><s>one-use explosive</s><r>одноразовое взрывчатое вещество</r></e>
+  <e k="D" t="ThingCategoryDef" key="RN_PDWMain.label"><s>SMG and PDW</s><r>SMG и PDW</r></e>
+  <e k="D" t="ThingCategoryDef" key="RN_Pistols.label"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingCategoryDef" key="RN_RangedMain.label"><s>Rimmu-Nation weapons</s><r>Оружие Римму-Нации</r></e>
+  <e k="D" t="ThingCategoryDef" key="RN_Revolvers.label"><s>revolver</s><r>револьвер</r></e>
+  <e k="D" t="ThingCategoryDef" key="RN_RocketLaunchers.label"><s>rocket launcher</s><r>ракетная установка</r></e>
+  <e k="D" t="ThingCategoryDef" key="RN_ShotgunsMain.label"><s>shotgun</s><r>дробовик</r></e>
+  <e k="D" t="ThingCategoryDef" key="RN_SpacerMain.label"><s>spacer</s><r>прокладка</r></e>
+  <e k="D" t="ThingDef" key="RH_Tactical_GermanShepherd.description"><s>Said to be the most intelligent and loyal dog ever, the German Shepherd or Alsatian is a working dog breed with good combat capabilities.</s><r>Немецкая овчарка или эльзасская овчарка считается самой умной и преданной собакой на свете. Это рабочая порода собак с хорошими боевыми способностями.</r></e>
+  <e k="D" t="ThingDef" key="RH_Tactical_GermanShepherd.label"><s>german shepherd</s><r>немецкая овчарка</r></e>
+  <e k="D" t="ThingDef" key="RH_Tactical_GermanShepherd.tools.0.label"><s>left claw</s><r>левый коготь</r></e>
+  <e k="D" t="ThingDef" key="RH_Tactical_GermanShepherd.tools.1.label"><s>right claw</s><r>правая клешня</r></e>
+  <e k="D" t="ThingDef" key="RH_Tactical_GermanShepherd.tools.3.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="RNApparel_511TacTec_Ghost.description"><s>The 5.11 company introduces TACTEC Plate Carrier. Initially marketed as weight vests to crossfitters, 5.11 found a way to sell the TacTec plate carriers to people who won't spend a moment in combat by convincing them that it's better to buy this plate carrier which costs hundreds of dollars (That's without the ballistic plates, by the way.) than to wear something else with weight.
+	
+Operators in the field who can't afford Crye Precision gear choose this alternative due to it's ergonomic and lightweight capabilities. The extra weight from the operator's wallet disappeared thanks to 5.11.</s><r>Компания 5.11 представляет пластинчатый носитель TACTEC. Первоначально продаваемая как грузовые жилеты для кроссфиттеров, 5.11 нашла способ продать держатели пластин TacTec людям, которые не хотят тратить ни минуты в бою, убедив их, что лучше купить этот держатель пластин, который стоит сотни долларов (кстати, без баллистических пластин), чем носить что-то еще с грузом.
+ 
+Операторы в полевых условиях, которые не могут позволить себе снаряжение Crye Precision, выбирают это альтернатива благодаря своей эргономичности и легкости. Лишний вес из кошелька оператора исчез благодаря 5.11.</r></e>
+  <e k="D" t="ThingDef" key="RNApparel_511TacTec_Ghost.label"><s>5.11 Tactec body armor (Ghosts)</s><r>5.11 Бронежилет Tactec (Призраки)</r></e>
+  <e k="D" t="ThingDef" key="RNApparel_ATACSLEXBoonie.description"><s>A boonie hat, also known as giggle hat, is a form of wide-brim hat commonly used by military forces. Its design is similar to a bucket hat but with a stiffer brim. Has A-TACS LE-X camo.</s><r>Шляпа-буни, также известная как шляпа-хихиканье, представляет собой разновидность широкополой шляпы, обычно используемой в вооруженных силах. Его конструкция похожа на шляпу-ведро, но с более жесткими полями. Имеет камуфляж A-TACS LE-X.</r></e>
+  <e k="D" t="ThingDef" key="RNApparel_ATACSLEXBoonie.label"><s>boonie hat A-TACS LE-X</s><r>шляпа-буни A-TACS LE-X</r></e>
+  <e k="D" t="ThingDef" key="RNApparel_Backpack_Tactical_SlingBlack.description"><s>A backpack for carrying things.. Tactically. Perfect for occassions where you can't help but show off the new kit to the third world tribals.  This time as a sling AND it's black!
+	
+Sure it's a bit more impractical to carry heavy stuff over one shoulder, but who cares? You look freakin' tactical as frick bro, especially now that it's black!</s><r>Рюкзак для переноски вещей.. Тактически. Идеально подходит для случаев, когда вы не можете не продемонстрировать новый комплект племенам третьего мира.  На этот раз в виде слинга И он черный!
+ 
+Конечно, носить тяжелые вещи на одном плече немного непрактично, но кого это волнует? Ты выглядишь чертовски тактично, как придурок, братан, особенно теперь, когда он черный!</r></e>
+  <e k="D" t="ThingDef" key="RNApparel_Backpack_Tactical_SlingBlack.label"><s>backpack tactical sling black</s><r>рюкзак тактический слинг черный</r></e>
+  <e k="D" t="ThingDef" key="RNApparel_Balaclava_Hunter.description"><s>An artistically terrifying ghost balaclava. Hides the wearer's face and makes them more confident.</s><r>Художественно устрашающая балаклава-призрак. Скрывает лицо владельца и делает его более уверенным.</r></e>
+  <e k="D" t="ThingDef" key="RNApparel_Balaclava_Hunter.label"><s>balaclava Hunter</s><r>балаклава охотник</r></e>
+  <e k="D" t="ThingDef" key="RNApparel_Balaclava_Logan.description"><s>An artistically terrifying ghost balaclava. Hides the wearer's face and makes them more confident.</s><r>Художественно устрашающая балаклава-призрак. Скрывает лицо владельца и делает его более уверенным.</r></e>
+  <e k="D" t="ThingDef" key="RNApparel_Balaclava_Logan.label"><s>balaclava Logan</s><r>логан балаклава</r></e>
+  <e k="D" t="ThingDef" key="RNApparel_Balaclava_Merrick.description"><s>An artistically terrifying ghost balaclava. Hides the wearer's face and makes them more confident.</s><r>Художественно устрашающая балаклава-призрак. Скрывает лицо владельца и делает его более уверенным.</r></e>
+  <e k="D" t="ThingDef" key="RNApparel_Balaclava_Merrick.label"><s>balaclava Merrick</s><r>балаклава Меррик</r></e>
+  <e k="D" t="ThingDef" key="RNApparel_Balaclava_Spook.description"><s>An artistically terrifying ghost balaclava. Hides the wearer's face and makes them more confident.</s><r>Художественно устрашающая балаклава-призрак. Скрывает лицо владельца и делает его более уверенным.</r></e>
+  <e k="D" t="ThingDef" key="RNApparel_Balaclava_Spook.label"><s>balaclava Spook</s><r>балаклава Призрак</r></e>
+  <e k="D" t="ThingDef" key="RNApparel_Balaclava_Wraith.description"><s>An artistically terrifying ghost balaclava. Hides the wearer's face and makes them more confident.</s><r>Художественно устрашающая балаклава-призрак. Скрывает лицо владельца и делает его более уверенным.</r></e>
+  <e k="D" t="ThingDef" key="RNApparel_Balaclava_Wraith.label"><s>balaclava Wraith</s><r>балаклава Призрак</r></e>
+  <e k="D" t="ThingDef" key="RNApparel_FASTHelmet_Keegan.description"><s>With its revolutionary ergonomic shell geometry, FAST is Ops-Core's most advanced line of helmets, providing the highest level of ballistic protection at the lightest weight. 
+	
+Designed for combat operations, these shells provide different ballistic protection levels and cuts to suit the range of mission and comms needs.</s><r>Благодаря революционной эргономичной геометрии корпуса FAST — это самая передовая линейка шлемов Ops-Core, обеспечивающая высочайший уровень баллистической защиты при минимальном весе. 
+ 
+Эти снаряды, предназначенные для боевых действий, обеспечивают различные уровни баллистической защиты и разрезы в соответствии с диапазоном задач и потребностями связи.</r></e>
+  <e k="D" t="ThingDef" key="RNApparel_FASTHelmet_Keegan.label"><s>FAST helmet Keegan</s><r>БЫСТРЫЙ шлем Киган</r></e>
+  <e k="D" t="ThingDef" key="RNApparel_MICHHelmet_Ajax.description"><s>The Modular Integrated Communications Helmet (MICH) is a U.S. combat helmet and one of several used by the U.S. military. It was developed by the United States Army Soldier Systems Center to be the next generation of protective combat helmets for use by the U.S. Army.</s><r>Модульный шлем интегрированной связи (MICH) — это боевой шлем США, один из нескольких, используемых военными США. Он был разработан Центром солдатских систем армии США как следующее поколение защитных боевых шлемов для использования в армии США.</r></e>
+  <e k="D" t="ThingDef" key="RNApparel_MICHHelmet_Ajax.label"><s>MICH helmet Ajax</s><r>MICH шлем Аякс</r></e>
+  <e k="D" t="ThingDef" key="RNApparel_MICHHelmet_Hesh.description"><s>The Modular Integrated Communications Helmet (MICH) is a U.S. combat helmet and one of several used by the U.S. military. It was developed by the United States Army Soldier Systems Center to be the next generation of protective combat helmets for use by the U.S. Army.</s><r>Модульный шлем интегрированной связи (MICH) — это боевой шлем США, один из нескольких, используемых военными США. Он был разработан Центром солдатских систем армии США как следующее поколение защитных боевых шлемов для использования в армии США.</r></e>
+  <e k="D" t="ThingDef" key="RNApparel_MICHHelmet_Hesh.label"><s>MICH helmet Hesh</s><r>Шлем MICH Хеш</r></e>
+  <e k="D" t="ThingDef" key="RNApparel_PTABravoHelmet_Grim.description"><s>The Pro-Tec A-Bravo, a series of helmets produced by the Pro-Tec company which originally designed sports helmets. 
+	
+This specific model is unavailable for public purchase during the modern era, only available for the U.S. Department of Defense to purchase in bulk for the U.S. Military or police. 
+According to the website: &quot;FOR U.S. MILITARY and FEDERAL DEPT ONLY. ORDERS WILL NOT BE ACCEPTED BY ANY OTHER PERSONNEL AT THIS TIME. MADE IN USA.&quot;</s><r>Pro-Tec A-Bravo — серия шлемов, производимая компанией Pro-Tec, которая изначально разрабатывала спортивные шлемы. 
+ 
+Эта конкретная модель недоступна для публичной покупки в современную эпоху, она доступна только для оптовых закупок Министерства обороны США для армии или полиции США. 
+Согласно веб-сайту: «ТОЛЬКО ДЛЯ ВОЕННОГО И ФЕДЕРАЛЬНОГО ДЕПАРТА США. В НАСТОЯЩЕЕ ВРЕМЯ ЗАКАЗЫ НЕ ПРИНИМАЮТСЯ НИКАКИМ ДРУГИМ ПЕРСОНАЛОМ. СДЕЛАНО В США».</r></e>
+  <e k="D" t="ThingDef" key="RNApparel_PTABravoHelmet_Grim.label"><s>PT A-Bravo helmet Grim</s><r>Шлем ПТ А-Браво Грим</r></e>
+  <e k="D" t="ThingDef" key="RNApparel_Parka_ATACSLEX.description"><s>A parka for staying warm in even the coldest of temperatures. Has the A-TACS LE-X camo.</s><r>Парка, которая согреет даже в самую холодную погоду. Имеет камуфляж A-TACS LE-X.</r></e>
+  <e k="D" t="ThingDef" key="RNApparel_Parka_ATACSLEX.label"><s>parka A-TACS LE-X</s><r>парка A-TACS LE-X</r></e>
+  <e k="D" t="ThingDef" key="RNApparel_combats_ATACSLEX.description"><s>A combat uniform, field uniform, or battledress, is a type of uniform used in combat, as opposed to dress uniforms worn in functions and parades. In American English, the term fatigues is often used, originally being a term for soldiers' work uniforms. 
+	
+The combat uniform is generally camouflaged, either in monochrome such as a shade of green or brown to approximate the background, or in a disruptive pattern.</s><r>Боевая форма, полевая форма или боевая форма — это тип униформы, используемой в бою, в отличие от парадной формы, которую носят на торжествах и парадах. В американском английском часто используется термин «униформа», первоначально обозначавший рабочую форму солдат. 
+ 
+Боевая униформа обычно замаскирована, либо одноцветная, например, с оттенком зеленого или коричневого, чтобы приблизиться к фону, либо имеет разрушительный узор.</r></e>
+  <e k="D" t="ThingDef" key="RNApparel_combats_ATACSLEX.label"><s>combat uniform A-TACS LE-X</s><r>боевая форма A-TACS LE-X</r></e>
+  <e k="D" t="ThingDef" key="RNApparel_combats_SmockATACSLEX.description"><s>Custom made, windproof coveralls with a hoodie for cold weather. It's also designed to reduce flammability for the wearer</s><r>Ветрозащитный комбинезон с капюшоном на заказ для холодной погоды. Он также разработан для уменьшения воспламеняемости пользователя.</r></e>
+  <e k="D" t="ThingDef" key="RNApparel_combats_SmockATACSLEX.label"><s>coveralls A-TACS LE-X</s><r>комбинезон A-TACS LE-X</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_127x108_Sniper.label"><s>12.7x108mm bullet</s><r>Пуля 12,7х108мм.</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_12Gauge_Shotgun.label"><s>shotgun blast</s><r>выстрел из дробовика</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_23x75mmR_Shotgun.label"><s>23x75mmR blast</s><r>23x75 ммR взрыв</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_303British_Rifle.label"><s> .303 British bullet</s><r> .303 Британская пуля</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_308Winchester_DMR.label"><s>.308 Winchester bullet</s><r>Пуля .308 Винчестер</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_308Winchester_Sniper.label"><s>.308 Winchester bullet</s><r>Пуля .308 Винчестер</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_32ACP_Pistol.label"><s>.32 ACP bullet</s><r>Пуля .32 АСР</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_338Lapua_Sniper.label"><s>.338 Lapua Magnum bullet</s><r>Пуля .338 Лапуа Магнум</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_357_Revolver.label"><s>.357 bullet</s><r>пуля .357</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_380_SMG.label"><s>.380 bullet</s><r>пуля .380</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_38Special_Pistol.label"><s>.38 bullet</s><r>.38 пуля</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_408Cheyenne_Sniper.label"><s>.408 Cheyenne bullet</s><r>Пуля .408 Шайенн</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_40SW_Pistol.label"><s>.40 SW bullet</s><r>Пуля .40 SW</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_40mmGrenade.label"><s>40x46mm grenade round</s><r>Гранатометный патрон 40х46 мм.</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_44Magnum_Pistol.label"><s>.44 Magnum bullet</s><r>Пуля .44 Магнум</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_454_Revolver.label"><s>.454 bullet</s><r>пуля .454</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_45ACPAP_Pistol.label"><s>.45 ACP AP bullet</s><r>Пуля .45 ACP AP</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_45ACP_Pistol.label"><s>.45 ACP bullet</s><r>Пуля .45 АСР</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_45Colt_Pistol.label"><s>.45 Colt bullet</s><r>Пуля .45 Кольта</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_46x30_Pistol.label"><s>4.6x30mm bullet</s><r>Пуля 4,6х30 мм.</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_50BMG_Sniper.label"><s>.50 BMG bullet</s><r>Пуля .50 БМГ</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_50_Pistol.label"><s>.50 bullet</s><r>.50 пуля</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_545x39_Rifle.label"><s>5.45x39mm bullet</s><r>Пуля 5,45х39 мм.</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_556x45_Rifle.label"><s>5.56x45mm bullet</s><r>Пуля 5,56х45 мм.</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_57_Pistol.label"><s>5.7x28mm bullet</s><r>Пуля 5,7х28 мм.</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_58x42mm_DMR.label"><s>5.8x42mm bullet</s><r>Пуля 5,8х42 мм.</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_762Tokarev_Pistol.label"><s>7.62x25mm Tokarev Parabellum bullet</s><r>Пуля Токарева Парабеллум 7,62х25 мм.</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_762_Revolver.label"><s>7.62x38mmR bullet</s><r>Пуля 7,62x38 ммR</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_762x39_DMR.label"><s>7.62x39R bullet</s><r>Пуля 7,62x39R</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_762x39_Rifle.label"><s>7.62x39R bullet</s><r>Пуля 7,62x39R</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_762x51mm_DMR.label"><s>7.62 NATO bullet</s><r>Пуля 7,62 НАТО</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_762x51mm_LMG.label"><s>7.62x51mm NATO bullet</s><r>Пуля НАТО 7,62х51 мм.</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_762x51mm_Sniper.label"><s>7.62 NATO bullet</s><r>Пуля 7,62 НАТО</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_762x54_DMR.label"><s>7.62x54mmR bullet</s><r>Пуля 7,62x54 ммR</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_762x54_LMG.label"><s>7.62x54mmR bullet</s><r>Пуля 7,62x54 ммR</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_762x54_Rifle.label"><s>7.62x54mmR bullet</s><r>Пуля 7,62x54 ммR</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_762x54_Sniper.label"><s>7.62x54mmR bullet</s><r>Пуля 7,62x54 ммR</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_792x57Mauser_DMR.label"><s>8mm Mauser bullet</s><r>8-мм пуля Маузера</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_792x57Mauser_Rifle.label"><s>8mm Mauser bullet</s><r>8-мм пуля Маузера</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_9MMAP_Pistol.label"><s>9x19mm Parabellum AP bullet</s><r>Бронебойная пуля Парабеллум 9х19 мм.</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_9MMMakarov_Pistol.label"><s>9x18mm Makarov bullet</s><r>Пуля Макарова 9х18 мм.</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_9MM_Pistol.label"><s>9x19mm Parabellum bullet</s><r>Пуля Парабеллум 9х19 мм.</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_9x39mmSP6_DMR.label"><s>9x39mm SP-6 bullet</s><r>Пуля 9х39 мм СП-6</r></e>
+  <e k="D" t="ThingDef" key="RNBullet_AACBlackout_PDW.label"><s>AAC blackout bullet</s><r>Затемняющая пуля AAC</r></e>
+  <e k="D" t="ThingDef" key="RNEx_M320GL.description"><s>M320 Grenade Launcher Module (GLM) is the U.S. military's designation for a new single-shot 40 mm grenade launcher system to replace the M203 for the U.S. Army, while other services initially kept using the older M203. The M320 uses the same High-Low Propulsion System as the M203.</s><r>Модуль гранатомета M320 (GLM) - это обозначение в вооруженных силах США новой однозарядной 40-мм гранатометной системы, призванной заменить M203 в армии США, в то время как другие службы первоначально продолжали использовать более старый M203. В M320 используется та же силовая установка High-Low, что и в M203.</r></e>
+  <e k="D" t="ThingDef" key="RNEx_M320GL.label"><s>M320</s><r>М320</r></e>
+  <e k="D" t="ThingDef" key="RNEx_M320GL.tools.0.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="RNEx_M320GL.verbs.0.label"><s>M320</s><r>М320</r></e>
+  <e k="D" t="ThingDef" key="RNGun_AKMTacticalAR.description"><s>The AKM (Russian: модернизи́рованный Автома́т Кала́шникова, tr. modernizírovanny Avtomát Kaláshnikova, lit. Modernized Kalashnikov Automatic Rifle) is a 7.62mm assault rifle designed by Mikhail Kalashnikov. It is a common modernized variant of the AK-47 rifle developed in the 1940s.
+
+Introduced into service with the Soviet Army in 1959, the AKM is the most ubiquitous variant of the entire AK series of firearms and it has found widespread use with most member states of the former Warsaw Pact and its African and Asian allies as well as being widely exported and produced in many other countries.
+
+It was officially replaced in Soviet frontline service by the AK-74 in the late 1970s, but remains in use worldwide.</s><r>АКМ (русский: модернизированный Автомат Калашникова, тр. модернизированный автомат Калашникова, букв. Модернизированный автомат Калашникова) — 7,62-мм автомат, разработанный Михаилом Калашниковым. Это распространенный модернизированный вариант автомата АК-47, разработанный в 1940-х годах.
+
+Принятый на вооружение Советской Армии в 1959 году, АКМ является наиболее распространенным вариантом всей серии огнестрельного оружия АК и нашел широкое применение в большинстве государств-членов бывшего Варшавского договора и их африканских и азиатских союзников, а также широко экспортируется и производится во многих других странах. страны.
+
+Официально на советской фронтовой службе он был заменен на АК-74 в конце 1970-х годов, но до сих пор используется во всем мире.</r></e>
+  <e k="D" t="ThingDef" key="RNGun_AKMTacticalAR.label"><s>AKM Tactical</s><r>АКМ Тактический</r></e>
+  <e k="D" t="ThingDef" key="RNGun_AKMTacticalAR.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="RNGun_AKMTacticalAR.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="RNGun_AKMTacticalAR.verbs.0.label"><s>AKM Tactical</s><r>АКМ Тактический</r></e>
+  <e k="D" t="ThingDef" key="RNGun_HK416SD_DEVGRU.description"><s>The Heckler and Koch HK416 is an assault rifle designed and manufactured by Heckler and Koch. Although its design is in large part based on the AR-15 class of weapons, specifically the Colt M4 carbine family issued to the U.S. military, it uses an HK-proprietary short-stroke gas piston system originally derived from the ArmaLite AR-18 (the same system was also used in Heckler and Koch's earlier G36 family of rifles). 
+
+It is the standard assault rifle of the French Armed Forces and Norwegian Armed Forces, and was the weapon used by SEAL Team Six to kill Osama Bin Laden in 2011.</s><r>Heckler and Koch HK416 — штурмовая винтовка, разработанная и изготовленная компанией Heckler and Koch. Хотя его конструкция во многом основана на классе оружия AR-15, в частности на семействе карабинов Colt M4, выпущенном для вооруженных сил США, в нем используется запатентованная HK газопоршневая система с коротким ходом, первоначально заимствованная из ArmaLite AR-18 (та же система также использовалась в более раннем семействе винтовок G36 Хеклера и Коха). 
+
+Это стандартная штурмовая винтовка французских и норвежских вооруженных сил, а также оружие, использованное шестой командой SEAL для убийства Усамы бен Ладена в 2011 году.</r></e>
+  <e k="D" t="ThingDef" key="RNGun_HK416SD_DEVGRU.label"><s>HK416 SD DEVGRU</s><r>HK416 SD ДЕВГРУ</r></e>
+  <e k="D" t="ThingDef" key="RNGun_HK416SD_DEVGRU.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="RNGun_HK416SD_DEVGRU.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="RNGun_HK416SD_DEVGRU.verbs.0.label"><s>HK416 SD DEVGRU</s><r>HK416 SD ДЕВГРУ</r></e>
+  <e k="D" t="ThingDef" key="RNGun_HK417DMR.description"><s>The Heckler and Koch HK417 is a battle rifle designed and manufactured by Heckler and Koch in Germany. It is the larger caliber version of the HK416, and chambered for the full-power 7.62×51mm NATO rifle cartridge. It is a gas-operated, selective fire rifle with a rotating bolt. 
+	
+The HK417 is intended for use in roles where the greater penetrative power, stopping power, and range of the 7.62×51mm cartridge are required.</s><r>Heckler and Koch HK417 — боевая винтовка, разработанная и изготовленная компанией Heckler and Koch в Германии. Это версия HK416 большего калибра, рассчитанная на полномощный винтовочный патрон НАТО 7,62 × 51 мм. Это газовая винтовка селективного огня с вращающимся затвором. 
+ 
+HK417 предназначен для использования там, где требуется большая проникающая способность, останавливающее действие и дальность действия патрона 7,62×51 мм.</r></e>
+  <e k="D" t="ThingDef" key="RNGun_HK417DMR.label"><s>HK417</s><r>НК417</r></e>
+  <e k="D" t="ThingDef" key="RNGun_HK417DMR.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="RNGun_HK417DMR.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="RNGun_HK417DMR.verbs.0.label"><s>HK417</s><r>НК417</r></e>
+  <e k="D" t="ThingDef" key="RNGun_HoneyBadgerGhosts_PDW.description"><s>The AAC Honey Badger is an integrally suppressed personal defense weapon based on the AR-15. It is chambered in .300 AAC Blackout and produced by Advanced Armament Corporation (AAC), a subsidiary of Remington Outdoor Company. The weapon is named after the honey badger.</s><r>AAC Honey Badger — это оружие индивидуальной защиты со встроенной глушителем, созданное на базе AR-15. Он выполнен под патрон .300 AAC Blackout и производится компанией Advanced Armament Corporation (AAC), дочерней компанией Remington Outdoor Company. Оружие названо в честь медоеда.</r></e>
+  <e k="D" t="ThingDef" key="RNGun_HoneyBadgerGhosts_PDW.label"><s>AAC Honey Badger Ghost</s><r>Призрак медоеда AAC</r></e>
+  <e k="D" t="ThingDef" key="RNGun_HoneyBadgerGhosts_PDW.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="RNGun_HoneyBadgerGhosts_PDW.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="RNGun_HoneyBadgerGhosts_PDW.verbs.0.label"><s>AAC Honey Badger Ghost</s><r>Призрак медоеда AAC</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M107AMR.description"><s>The Barrett M82, standardized by the U.S. military as the M107, is a recoil-operated, semi-automatic anti-materiel sniper system developed by the American Barrett Firearms Manufacturing company. Despite its designation as an anti-materiel rifle, it is used by some armed forces as an anti-personnel system. 
+	
+It is also called the Light Fifty for its .50 BMG (12.7×99mm NATO) chambering and significantly lighter weight compared to previous applications.</s><r>Barrett M82, стандартизированная в вооруженных силах США как M107, представляет собой полуавтоматическую противотанковую снайперскую систему с приводом от отдачи, разработанную американской компанией Barrett Firearms Manufacturing. Несмотря на свое обозначение как противотанковая винтовка, в некоторых вооруженных силах она используется в качестве противопехотной системы. 
+ 
+Его также называют Light Fifty из-за патронника .50 BMG (12,7×99 мм NATO) и значительно меньшего веса по сравнению с предыдущими моделями.</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M107AMR.label"><s>M107</s><r>М107</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M107AMR.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M107AMR.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M107AMR.verbs.0.label"><s>M107</s><r>М107</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M14EBRMilSpec.description"><s>The M14 rifle, officially the United States Rifle, 7.62 mm, M14, is an American automatic rifle that fires 7.62×51mm NATO (.308 in) ammunition. 
+	
+It became the standard-issued rifle for the U.S. military in 1959 replacing the M1 Garand rifle in the U.S. Army by 1961 and the U.S. Marine Corps by 1965 until being replaced by the M16 rifle beginning in 1964.</s><r>Винтовка M14, официально «Винтовка США», 7,62 мм, M14, — американская автоматическая винтовка, стреляющая боеприпасами НАТО 7,62×51 мм (0,308 дюйма). 
+ 
+Она стала стандартной винтовкой для вооруженных сил США в 1959 году, заменив винтовку M1 Garand в армии США к 1961 году и в Корпусе морской пехоты США к 1965 году, пока с 1964 года ее не заменила винтовка M16.</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M14EBRMilSpec.label"><s>M14 EBR MIL-SPEC</s><r>M14 EBR MIL-SPEC</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M14EBRMilSpec.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M14EBRMilSpec.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M14EBRMilSpec.verbs.0.label"><s>M14 EBR MIL-SPEC</s><r>M14 EBR MIL-SPEC</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M16A4MilSpec.description"><s>The M16 rifle, officially designated Rifle, Caliber 5.56 mm, M16, is a United States military adaptation of the ArmaLite AR-15 rifle. The original M16 was a 5.56mm automatic rifle with a 20-round magazine.
+
+In 1964, the M16 entered U.S. military service and the following year was deployed for jungle warfare operations during the Vietnam War. In 1969, the M16A1 replaced the M14 rifle to become the U.S. military's standard service rifle.</s><r>Винтовка M16, официально обозначенная как Rifle, калибр 5,56 мм, M16, представляет собой военную адаптацию винтовки ArmaLite AR-15 в США. Оригинальная M16 представляла собой автоматическую винтовку калибра 5,56 мм с магазином на 20 патронов.
+
+В 1964 году M16 поступила на военную службу США, а в следующем году была использована для боевых действий в джунглях во время войны во Вьетнаме. В 1969 году M16A1 заменила винтовку M14 и стала стандартной служебной винтовкой вооруженных сил США.</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M16A4MilSpec.label"><s>M16A4 MIL-SPEC</s><r>M16A4 MIL-SPEC</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M16A4MilSpec.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M16A4MilSpec.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M16A4MilSpec.verbs.0.label"><s>M16A4 MIL-SPEC</s><r>M16A4 MIL-SPEC</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M240B.description"><s>The M240, officially the Machine Gun, 7.62 mm, M240, is the US military designation for the FN MAG (&quot;Mitrailleuse A Gaz&quot; = Gas operated machine gun; alternatively, &quot;Mitrailleuse d'Appui General&quot; = machine gun, support, general) a family of belt-fed, gas-operated medium machine guns that chamber the 7.62×51mm NATO cartridge.</s><r>M240, официально Пулемет, 7,62 мм, M240, является военным обозначением в США FN MAG («Mitrailleuse A Gaz» = газовый пулемет; альтернативно, «Mitrailleuse d'Appui General» = пулемет, поддержка, генерал) семейства средних пулеметов с ленточным питанием и газовым приводом под патрон НАТО 7,62 × 51 мм.</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M240B.label"><s>M240B</s><r>М240Б</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M240B.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M240B.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M240B.verbs.0.label"><s>M240B</s><r>М240Б</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M249LMG.description"><s>The M249 light machine gun (LMG), formerly designated the M249 Squad Automatic Weapon (SAW) and formally written as Light Machine Gun, 5.56 mm, M249, is the American adaptation of the Belgian FN Minimi, a light machine gun manufactured by the Belgian company FN Herstal (FN).</s><r>Ручной пулемет М249 (LMG), ранее обозначавшийся как M249 Squad Automatic Weapon (SAW) и формально обозначавшийся как Light Machine Gun, 5,56 мм, M249, представляет собой американскую адаптацию бельгийского ручного пулемета FN Minimi, производимого бельгийской компанией FN Herstal (FN).</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M249LMG.label"><s>M249</s><r>М249</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M249LMG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M249LMG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M249LMG.verbs.0.label"><s>M249</s><r>М249</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M27IAR.description"><s>The M27 Infantry Automatic Rifle (IAR) is a lightweight, magazine-fed 5.56mm, select-fire weapon based on the Heckler and Koch HK416. It is used by the United States Marine Corps and is intended to enhance an automatic rifleman's maneuverability.
+	
+ In December 2017, the Marine Corps revealed a decision to equip every Marine in an infantry squad with the M27.</s><r>Пехотная автоматическая винтовка M27 (IAR) — это легкое оружие с магазинным питанием калибра 5,56 мм и возможностью выбора огня, созданное на основе винтовки Heckler and Koch HK416. Он используется Корпусом морской пехоты США и предназначен для повышения маневренности автоматического стрелка.
+ 
+ В декабре 2017 года Корпус морской пехоты объявил о решении вооружить каждого морского пехотинца в пехотном отделении М27.</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M27IAR.label"><s>M27 IAR</s><r>М27 СНОВА</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M27IAR.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M27IAR.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M27IAR.verbs.0.label"><s>M27 IAR</s><r>М27 СНОВА</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M27IAR_SD.description"><s>The M27 Infantry Automatic Rifle (IAR) is a lightweight, magazine-fed 5.56mm, select-fire weapon based on the Heckler and Koch HK416. It is used by the United States Marine Corps and is intended to enhance an automatic rifleman's maneuverability.
+	
+ In December 2017, the Marine Corps revealed a decision to equip every Marine in an infantry squad with the M27.</s><r>Пехотная автоматическая винтовка M27 (IAR) — это легкое оружие с магазинным питанием калибра 5,56 мм и возможностью выбора огня, созданное на основе винтовки Heckler and Koch HK416. Он используется Корпусом морской пехоты США и предназначен для повышения маневренности автоматического стрелка.
+ 
+ В декабре 2017 года Корпус морской пехоты объявил о решении вооружить каждого морского пехотинца в пехотном отделении М27.</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M27IAR_SD.label"><s>M27 IAR SD</s><r>М27 ИАР СД</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M27IAR_SD.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M27IAR_SD.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M27IAR_SD.verbs.0.label"><s>M27 IAR SD</s><r>М27 ИАР СД</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M39EMRMilSpec.description"><s>The M39 Enhanced Marksman Rifle is a semi-automatic, gas-operated designated marksman rifle chambered for the 7.62×51mm NATO cartridge. It is a modified and accurized version of the M14 rifle used by the United States military, in a similar vein to the Mk 14 Enhanced Battle Rifle. It is based on the United States Marine Corps Designated Marksman Rifle (DMR), which it replaced. 
+	
+It is manufactured by Sage International and maintained by the USMC's Precision Weapons Section.</s><r>M39 Enhanced Marksman Rifle — это полуавтоматическая газовая винтовка специального назначения под патрон НАТО 7,62×51 мм. Это модифицированная и усовершенствованная версия винтовки M14, используемой военными США, аналогично усовершенствованной боевой винтовке Mk 14. Он основан на стрелковой винтовке Корпуса морской пехоты США (DMR), которую он заменил. 
+ 
+Он производится компанией Sage International и обслуживается Отделом высокоточного оружия морской пехоты США.</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M39EMRMilSpec.label"><s>M39 EMR MIL-SPEC</s><r>M39 EMR MIL-SPEC</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M39EMRMilSpec.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M39EMRMilSpec.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M39EMRMilSpec.verbs.0.label"><s>M39 EMR MIL-SPEC</s><r>M39 EMR MIL-SPEC</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M4A1MilSpec.description"><s>The M4 carbine is a shorter and lighter variant of the M16A2 assault rifle. The M4 is a 5.56×45mm NATO, air-cooled, direct impingement gas-operated, magazine-fed carbine. It has a 14.5 in (370 mm) barrel and a telescoping stock.
+
+The M4 carbine is extensively used by the United States Armed Forces and is largely replacing the M16 rifle in United States Army and United States Marine Corps combat units as the primary infantry weapon and service rifle.</s><r>Карабин М4 — это укороченный и легкий вариант штурмовой винтовки М16А2. M4 представляет собой карабин НАТО калибра 5,56×45 мм с воздушным охлаждением, газоотводным механизмом прямого действия и магазинным питанием. Он имеет ствол диаметром 14,5 дюймов (370 мм) и телескопический приклад.
+
+Карабин M4 широко используется в Вооружённых силах США и в значительной степени заменяет винтовку M16 в боевых частях армии США и Корпуса морской пехоты США в качестве основного пехотного оружия и служебной винтовки.</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M4A1MilSpec.label"><s>M4A1 MIL-SPEC</s><r>M4A1 MIL-SPEC</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M4A1MilSpec.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M4A1MilSpec.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M4A1MilSpec.verbs.0.label"><s>M4A1 MIL-SPEC</s><r>M4A1 MIL-SPEC</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M4A1MilSpecSD.description"><s>The M4 carbine is a shorter and lighter variant of the M16A2 assault rifle. The M4 is a 5.56×45mm NATO, air-cooled, direct impingement gas-operated, magazine-fed carbine. It has a 14.5 in (370 mm) barrel and a telescoping stock.
+
+The M4 carbine is extensively used by the United States Armed Forces and is largely replacing the M16 rifle in United States Army and United States Marine Corps combat units as the primary infantry weapon and service rifle.</s><r>Карабин М4 — это укороченный и легкий вариант штурмовой винтовки М16А2. M4 представляет собой карабин НАТО калибра 5,56×45 мм с воздушным охлаждением, газоотводным механизмом прямого действия и магазинным питанием. Он имеет ствол диаметром 14,5 дюймов (370 мм) и телескопический приклад.
+
+Карабин M4 широко используется в Вооружённых силах США и в значительной степени заменяет винтовку M16 в боевых частях армии США и Корпуса морской пехоты США в качестве основного пехотного оружия и служебной винтовки.</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M4A1MilSpecSD.label"><s>M4A1 SD MIL-SPEC</s><r>M4A1 SD MIL-SPEC</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M4A1MilSpecSD.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M4A1MilSpecSD.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="RNGun_M4A1MilSpecSD.verbs.0.label"><s>M4A1 SD MIL-SPEC</s><r>M4A1 SD MIL-SPEC</r></e>
+  <e k="D" t="ThingDef" key="RNGun_MK48LMG.description"><s>The Mark 48, or Mk 48 is a lightweight belt-fed machine gun, firing 7.62×51mm NATO cartridges from a disintegrating belt of ammunition.
+
+It is manufactured by Fabrique Nationale Manufacturing, Inc., a division of FN Herstal based in the United States. The Mk 48 has been developed in conjunction with the U.S. Special Operations Command (USSOCOM), which has adopted the weapon and started its fielding process, beginning with special operations units.</s><r>Mark 48, или Mk 48, представляет собой легкий пулемет с ленточным питанием, стреляющий патронами НАТО калибра 7,62×51 мм из распадающейся ленты с боеприпасами.
+
+Он производится компанией Fabrique Nationale Manufacturing, Inc., подразделением FN Herstal, базирующимся в США. Mk 48 был разработан совместно с Командованием специальных операций США (USSOCOM), которое приняло это оружие на вооружение и начало процесс его применения, начиная с подразделений специальных операций.</r></e>
+  <e k="D" t="ThingDef" key="RNGun_MK48LMG.label"><s>Mk 48</s><r>Мк 48</r></e>
+  <e k="D" t="ThingDef" key="RNGun_MK48LMG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="RNGun_MK48LMG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="RNGun_MK48LMG.verbs.0.label"><s>Mk 48</s><r>Мк 48</r></e>
+  <e k="D" t="ThingDef" key="RNGun_MP5A3SD_PDW.description"><s>The MP5 (German: Maschinenpistole 5) is a 9mm submachine gun, developed in the 1960s by a team of engineers from the German small arms manufacturer Heckler and Koch GmbH (HK) of Oberndorf am Neckar. There are over 100 variants of the MP5, including some semi-automatic versions.
+
+The MP5 is one of the most widely used submachine guns in the world, having been adopted by 40 nations and numerous military, law enforcement, intelligence, and security organizations. It is widely used by SWAT teams in North America.
+
+In 1999, Heckler and Koch developed the Heckler and Koch UMP, the MP5's successor</s><r>MP5 (нем. Maschinenpistole 5) — 9-мм пистолет-пулемет, разработанный в 1960-х годах командой инженеров немецкого производителя стрелкового оружия Heckler and Koch GmbH (HK) из Оберндорфа-на-Неккаре. Существует более 100 вариантов MP5, включая несколько полуавтоматических версий.
+
+MP5 — один из наиболее широко используемых пистолетов-пулеметов в мире, принятый на вооружение 40 стран и многочисленных военных, правоохранительных, разведывательных и охранных организаций. Он широко используется группами спецназа в Северной Америке.
+
+В 1999 году Хеклер и Кох разработали Heckler and Koch UMP, преемника MP5.</r></e>
+  <e k="D" t="ThingDef" key="RNGun_MP5A3SD_PDW.label"><s>MP5A3 SD</s><r>МП5А3 СД</r></e>
+  <e k="D" t="ThingDef" key="RNGun_MP5A3SD_PDW.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="RNGun_MP5A3SD_PDW.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="RNGun_MP5A3SD_PDW.verbs.0.label"><s>MP5A3 SD</s><r>МП5А3 СД</r></e>
+  <e k="D" t="ThingDef" key="RNGun_VSSDMRMaverick.description"><s>The VSS (Russian: Винтовка Снайперская Специальная, Vintovka Snayperskaya Spetsialnaya or &quot;Special Sniper Rifle&quot;, GRAU designation 6P29), also called the Vintorez (&quot;thread cutter&quot;/&quot;tap&quot;), is a suppressed sniper rifle that uses a heavy subsonic 9×39mm SP5 cartridge and armor-piercing SP6 cartridge.
+	
+It was developed in the late 1980s by TsNIITochMash and manufactured by the Tula Arsenal. It is issued primarily to Spetsnaz units for undercover or clandestine operations, a role made evident by its ability to be stripped down for transport in a specially fitted briefcase</s><r>ВСС (русский: Винтовка Снайперская Специальная, Винтовка Снайперская Специальная или «Снайперская винтовка специальная», обозначение ГРАУ 6П29), также называемая Винторез («резьборез» / «метчик»), представляет собой снайперскую винтовку с глушителем, в которой используются тяжелый дозвуковой патрон 9 × 39 мм СП5 и бронебойный патрон СП6.
+ 
+Разработан в конце 1980-х годов ЦНИИТочМаш и производится Тульским арсеналом. Он выдается в первую очередь подразделениям спецназа для секретных или секретных операций, и эта роль очевидна из-за того, что его можно разобрать для транспортировки в специально приспособленном портфеле.</r></e>
+  <e k="D" t="ThingDef" key="RNGun_VSSDMRMaverick.label"><s>VSS Vintorez Maverick</s><r>ВСС Винторез Маверик</r></e>
+  <e k="D" t="ThingDef" key="RNGun_VSSDMRMaverick.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="RNGun_VSSDMRMaverick.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="RNGun_VSSDMRMaverick.verbs.0.label"><s>VSS Vintorez Maverick</s><r>ВСС Винторез Маверик</r></e>
+  <e k="D" t="ThingDef" key="RNMedicine_IFAK_Multicam.description"><s>Individual First Aid Kit. A kit of industrial-era medical equipment. It contains basic drugs, tools for suturing and bone setting, diagnostic devices, and various pads and fluids.</s><r>Индивидуальная аптечка. Комплект медицинского оборудования индустриальной эпохи. В нем содержатся основные препараты, инструменты для наложения швов и фиксации костей, диагностические приборы, а также различные прокладки и жидкости.</r></e>
+  <e k="D" t="ThingDef" key="RNMedicine_IFAK_Multicam.label"><s>IFAK</s><r>ИФАК</r></e>
+  <e k="D" t="ThingDef" key="RNMedicine_MedicBag.description"><s>A medic bag for paramedic use. A kit of industrial-era medical equipment. It contains basic drugs, tools for suturing and bone setting, diagnostic devices, various pads, various fluids and other specialist equipment for dealing with a variety of ailments.</s><r>Медицинская сумка для фельдшеров. Комплект медицинского оборудования индустриальной эпохи. Здесь собраны основные лекарства, инструменты для наложения швов и фиксации костей, диагностические приборы, различные прокладки, различные жидкости и другое специализированное оборудование для борьбы с самыми разными недугами.</r></e>
+  <e k="D" t="ThingDef" key="RNMedicine_MedicBag.label"><s>medic bag</s><r>медицинская сумка</r></e>
+  <e k="D" t="ThingDef" key="RNMote_BlastCharge.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="RNMote_BlastDry.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="RNMote_BlastExtinguisher.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="RN_BallisticKnife_Blade.label"><s>ballistic knife blade</s><r>лезвие баллистического ножа</r></e>
+  <e k="D" t="ThingDef" key="RN_MRE_USArmy.description"><s>Meal Ready to Eat. A high-quality packaged meal, manufactured for use in survival situations. While it never rots, it can still deteriorate if left outside. Great for traveling.</s><r>Еда готова к употреблению. Высококачественная упакованная еда, созданная для использования в ситуациях выживания. Хотя он никогда не гниет, он все равно может испортиться, если оставить его снаружи. Отлично подходит для путешествий.</r></e>
+  <e k="D" t="ThingDef" key="RN_MRE_USArmy.label"><s>MRE US Army</s><r>MRE Армия США</r></e>
+  <e k="D" t="ThoughtDef" key="AteUSArmyMREMeal.stages.0.description"><s>They say that in the army the chow is mighty fine, a biscuit jumped off the table and killed a friend of mine! HOOAH!
+		
+I'm just glad we're not eating the strange crap that Marines eat.</s><r>Говорят, в армии с едой очень хорошо, сухарь со стола спрыгнул и убил моего друга! УРА!
+ 
+Я просто рад, что мы не едим ту странную дрянь, которую едят морские пехотинцы.</r></e>
+  <e k="D" t="ThoughtDef" key="AteUSArmyMREMeal.stages.0.label"><s>ate US Army MRE</s><r>съел MRE армии США</r></e>
+  <e k="D" t="TraderKindDef" key="RHCaravan_Ghosts_MilitiaSupplier.label"><s>militia supplier</s><r>поставщик милиции</r></e>
+  <e k="D" t="TraderKindDef" key="RHVisitor_Ghosts_Standard.label"><s>trader</s><r>торговец</r></e>
+</AutoTranslateCache>
