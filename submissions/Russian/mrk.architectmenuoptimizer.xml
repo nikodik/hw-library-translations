@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="mrk.architectmenuoptimizer" name="Architect Menu Optimizer" language="Russian" version="1">
+  <e k="K" key="AMO_AmortizedVisibility"><s>Amortized visibility checks</s><r>Амортизированные проверки видимости</r></e>
+  <e k="K" key="AMO_AmortizedVisibilityDesc"><s>Spread visibility recalculation across multiple frames. Returns stale cached values for expired entries and refreshes a small batch each frame. Reduces per-frame spikes at the cost of slightly delayed visibility updates.</s><r>Распределите пересчет видимости по нескольким кадрам. Возвращает устаревшие кэшированные значения для записей с истекшим сроком действия и обновляет небольшой пакет в каждом кадре. Уменьшает покадровые всплески за счет незначительной задержки обновлений видимости.</r></e>
+  <e k="K" key="AMO_CacheGizmoGrid"><s>Cache button sorting</s><r>Сортировка кнопок кэша</r></e>
+  <e k="K" key="AMO_CacheGizmoGridDesc"><s>Cache the sorted order of buttons to avoid re-sorting every frame.</s><r>Кэшируйте отсортированный порядок кнопок, чтобы избежать повторной сортировки каждого кадра.</r></e>
+  <e k="K" key="AMO_CacheGizmoGrouping"><s>Cache gizmo grouping</s><r>Группировка гизмо кэша</r></e>
+  <e k="K" key="AMO_CacheGizmoGroupingDesc"><s>Reuse building button groups while their grouping state is unchanged. Custom grouping behavior falls back to the original calculation. Changes take effect immediately.</s><r>Повторно используйте группы кнопок построения, пока их состояние группировки не изменится. Пользовательское поведение группировки возвращается к исходному расчету. Изменения вступают в силу немедленно.</r></e>
+  <e k="K" key="AMO_CacheGizmoWidth"><s>Cache gizmo width</s><r>Ширина гизмо кэша</r></e>
+  <e k="K" key="AMO_CacheGizmoWidthDesc"><s>Reuse variable button widths within a frame for the same available width. Standard fixed-width buttons use their original calculation. Changes take effect immediately.</s><r>Повторно используйте кнопки переменной ширины внутри фрейма для получения той же доступной ширины. Стандартные кнопки фиксированной ширины используют исходный расчет. Изменения вступают в силу немедленно.</r></e>
+  <e k="K" key="AMO_CacheIconColor"><s>Cache icon colors</s><r>Цвета значков кэша</r></e>
+  <e k="K" key="AMO_CacheIconColorDesc"><s>Cache icon draw colors to avoid per-frame ideology/material color lookups.</s><r>Цвета значков кэша отображаются, чтобы избежать поиска идеологии/цвета материала для каждого кадра.</r></e>
+  <e k="K" key="AMO_CacheLabels"><s>Cache label text</s><r>Текст метки кэша</r></e>
+  <e k="K" key="AMO_CacheLabelsDesc"><s>Cache label strings to avoid per-frame memory allocation.</s><r>Кэшируйте строки меток, чтобы избежать выделения памяти для каждого кадра.</r></e>
+  <e k="K" key="AMO_CacheStuffDef"><s>Cache material lookups</s><r>Поиск материалов в кэше</r></e>
+  <e k="K" key="AMO_CacheStuffDefDesc"><s>Cache default material lookups to avoid enumerating all resources every frame.</s><r>Кэшируйте поиск материалов по умолчанию, чтобы избежать перечисления всех ресурсов в каждом кадре.</r></e>
+  <e k="K" key="AMO_CacheTextMeasure"><s>Cache text measurements</s><r>Кэшировать текстовые измерения</r></e>
+  <e k="K" key="AMO_CacheTextMeasureDesc"><s>Cache Text.CalcHeight/CalcSize results to avoid expensive Unity text layout calls.</s><r>Кэшируйте результаты Text.CalcHeight/CalcSize, чтобы избежать дорогостоящих вызовов макета текста Unity.</r></e>
+  <e k="K" key="AMO_CacheVisibility"><s>Cache visibility checks</s><r>Проверки видимости кэша</r></e>
+  <e k="K" key="AMO_CacheVisibilityDesc"><s>Cache research/prerequisite/PlaceWorker visibility checks for building designators. Highest impact optimization.</s><r>Кэшируйте исследования/предварительные требования/проверки видимости PlaceWorker для обозначений зданий. Максимальная оптимизация воздействия.</r></e>
+  <e k="K" key="AMO_CachesCleared"><s>All caches cleared.</s><r>Все кэши очищены.</r></e>
+  <e k="K" key="AMO_CategoriesPerPage"><s>Buttons per page: {0}</s><r>Кнопок на странице: {0}</r></e>
+  <e k="K" key="AMO_CategoryPage"><s>Next page {0}/{1} </s><r>Следующая страница {0}/{1} </r></e>
+  <e k="K" key="AMO_ClearAllCaches"><s>Clear All Caches</s><r>Очистить все кеши</r></e>
+  <e k="K" key="AMO_DebugMode"><s>Show cache statistics overlay</s><r>Показать наложение статистики кэша</r></e>
+  <e k="K" key="AMO_DebugModeDesc"><s>Display cache hit/miss rates in the architect menu for debugging.</s><r>Отображение показателей попаданий/промахов кэша в меню архитектора для отладки.</r></e>
+  <e k="K" key="AMO_EnableCategoryPagination"><s>Enable pagination for building main menu</s><r>Включить нумерацию страниц для создания главного меню</r></e>
+  <e k="K" key="AMO_EnableCategoryPaginationDesc"><s>Split the building main menu buttons into pages instead of showing all at once.</s><r>Разделите кнопки главного меню здания на страницы, а не показывайте все сразу.</r></e>
+  <e k="K" key="AMO_EnablePagination"><s>Enable pagination for building submenu</s><r>Включить нумерацию страниц для создания подменю</r></e>
+  <e k="K" key="AMO_EnablePaginationDesc"><s>Split building submenus with many buildings into pages instead of showing all at once.</s><r>Разделите подменю зданий с множеством зданий на страницы вместо того, чтобы показывать все сразу.</r></e>
+  <e k="K" key="AMO_EventDrivenInvalidation"><s>Event-driven cache invalidation</s><r>Аннулирование кэша, управляемое событиями</r></e>
+  <e k="K" key="AMO_EventDrivenInvalidationDesc"><s>Refresh visibility after difficulty changes, anomaly level changes, and hidden item discoveries. Cache expiry remains a fallback for other changes. Changes take effect immediately.</s><r>Обновляйте видимость после изменения сложности, изменения уровня аномалии и обнаружения скрытых предметов. Срок действия кэша остается запасным вариантом для других изменений. Изменения вступают в силу немедленно.</r></e>
+  <e k="K" key="AMO_ExperimentalDevModeOnly"><s>Enable developer mode to access experimental settings.</s><r>Включите режим разработчика, чтобы получить доступ к экспериментальным настройкам.</r></e>
+  <e k="K" key="AMO_ExperimentalWarning"><s>These features have not been thoroughly tested and may produce unexpected issues.</s><r>Эти функции не были тщательно протестированы и могут вызвать непредвиденные проблемы.</r></e>
+  <e k="K" key="AMO_ItemsPerPage"><s>Buildings per page: {0}</s><r>Зданий на странице: {0}</r></e>
+  <e k="K" key="AMO_PageGizmoDesc"><s>Switch to the next page of buildings.</s><r>Перейдите на следующую страницу зданий.</r></e>
+  <e k="K" key="AMO_SectionCacheTuning"><s>Cache Tuning</s><r>Настройка кэша</r></e>
+  <e k="K" key="AMO_SectionDebug"><s>Debug</s><r>Отлаживать</r></e>
+  <e k="K" key="AMO_SectionExperimental"><s>Experimental Optimizations</s><r>Экспериментальные оптимизации</r></e>
+  <e k="K" key="AMO_SectionPagination"><s>Pagination</s><r>Пагинация</r></e>
+  <e k="K" key="AMO_SectionPerformance"><s>Performance Optimizations</s><r>Оптимизация производительности</r></e>
+  <e k="K" key="AMO_SettingsCategory"><s>Architect Menu Optimizer</s><r>Оптимизатор меню архитектора</r></e>
+  <e k="K" key="AMO_ShowExperimentalButton"><s>Show experimental features</s><r>Показать экспериментальные функции</r></e>
+  <e k="K" key="AMO_StuffDefCacheMaxAge"><s>Material cache max age (ticks): {0}</s><r>Максимальный возраст кэша материалов (тиков): {0}</r></e>
+  <e k="K" key="AMO_VisibilityBatchSize"><s>Visibility batch size per frame: {0}</s><r>Размер пакета видимости на кадр: {0}</r></e>
+  <e k="K" key="AMO_VisibilityCacheMaxAge"><s>Visibility cache max age (ticks): {0}</s><r>Максимальный возраст кэша видимости (тики): {0}</r></e>
+</AutoTranslateCache>
