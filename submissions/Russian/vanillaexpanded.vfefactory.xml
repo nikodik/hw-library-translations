@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="vanillaexpanded.vfefactory" name="Vanilla Furniture Expanded - Factory" language="Russian" version="1">
+  <e k="D" t="AutoloomProcessTemplateDef" key="VFEFactory_Autoloom_.description"><s>Make {0} out of the materials inserted.</s><r>Сделайте {0} из вставленных материалов.</r></e>
+  <e k="D" t="AutoloomProcessTemplateDef" key="VFEFactory_Autoloom_.label"><s>Make {0}</s><r>Сделайте {0}</r></e>
+  <e k="D" t="DesignationCategoryDef" key="VFEFactory_Factories.description"><s>Factories that automate crafting tasks.</s><r>Фабрики, автоматизирующие производственные задачи.</r></e>
+  <e k="D" t="DesignationCategoryDef" key="VFEFactory_Factories.label"><s>Factory</s><r>Фабрика</r></e>
+  <e k="D" t="DrillableMetalsDef" key="VFEFactory_DrillableMetals.label"><s>Drillable metals</s><r>Сверлящиеся металлы</r></e>
+  <e k="D" t="FishProcessTemplateDef" key="VFEFactory_FishingProcess_.description"><s>Breed {0} in the fishfarm.</s><r>Разведите {0} на рыбной ферме.</r></e>
+  <e k="D" t="FishProcessTemplateDef" key="VFEFactory_FishingProcess_.label"><s>Breed {0}</s><r>Порода {0}</r></e>
+  <e k="D" t="FishProcessTemplateDef" key="VFEFactory_FishingProcess_.labelOverride"><s>Breed {0}</s><r>Порода {0}</r></e>
+  <e k="D" t="JobDef" key="VFEFactory_HaulFromConveyor.reportString"><s>hauling.</s><r>буксировка.</r></e>
+  <e k="D" t="MachiningProcessTemplateDef" key="VFEFactory_MachiningBay_.description"><s>Make {0} out of the materials inserted.</s><r>Сделайте {0} из вставленных материалов.</r></e>
+  <e k="D" t="MachiningProcessTemplateDef" key="VFEFactory_MachiningBay_.label"><s>Make {0}</s><r>Сделайте {0}</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_AlloyBronze.description"><s>Use intense heat to smelt and combine steel with minerals from a stone chunk to forge bronze alloy.</s><r>Используйте сильный жар, чтобы выплавить и соединить сталь с минералами из куска камня, чтобы выковать бронзовый сплав.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_AlloyBronze.label"><s>Alloy bronze from steel and stone chunks</s><r>Сплав бронзы из кусков стали и камня</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_AlloyBronze.labelOverride"><s>Alloy bronze from steel and stone chunks</s><r>Сплав бронзы из кусков стали и камня</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_AlloyGravlite.description"><s>Use intense heat to combine plasteel and vacstone, forging the ultra-light gravlite alloy.</s><r>Используйте сильный нагрев, чтобы соединить пласталь и вакстоун и получить сверхлегкий гравлитовый сплав.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_AlloyGravlite.label"><s>Alloy gravlite from vacstone and plasteel</s><r>Сплав гравлита из вакстоуна и пластали</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_AlloyGravlite.labelOverride"><s>Alloy gravlite from vacstone and plasteel</s><r>Сплав гравлита из вакстоуна и пластали</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_AlloyPlasteel.description"><s>Use high heat and pressure to alloy steel, chemfuel, and gold into pure plasteel.</s><r>Используйте высокую температуру и давление, чтобы превратить сталь, химическое топливо и золото в чистую пласталь.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_AlloyPlasteel.label"><s>Alloy plasteel from steel, chemfuel and gold</s><r>Легированная пласталь из стали, химтоплива и золота</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_AlloyPlasteel.labelOverride"><s>Alloy plasteel from steel, chemfuel and gold</s><r>Легированная пласталь из стали, химтоплива и золота</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_AlloySkySteel.description"><s>Use intense heat to smelt and combine steel with blue gel to forge sky steel.</s><r>Используйте сильный жар, чтобы выплавить сталь и соединить ее с синим гелем, чтобы выковать небесную сталь.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_AlloySkySteel.label"><s>Alloy sky steel</s><r>Легированная небесная сталь</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_AlloySkySteel.labelOverride"><s>Alloy sky steel</s><r>Легированная небесная сталь</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_AssembleAdvancedComponent.description"><s>Assemble an advanced component.</s><r>Соберите расширенный компонент.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_AssembleAdvancedComponent.label"><s>Make an advanced component</s><r>Сделать расширенный компонент</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_AssembleAdvancedComponent.labelOverride"><s>Make an advanced component</s><r>Сделать расширенный компонент</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_AssembleComponent.description"><s>Assemble a component.</s><r>Соберите компонент.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_AssembleComponent.label"><s>Make a component</s><r>Сделать компонент</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_AssembleComponent.labelOverride"><s>Make a component</s><r>Сделать компонент</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_BlueGel_To_Hexagel.description"><s>Make a crystallized cube of hexagel by compressing blue gel under high pressure.</s><r>Сделайте кристаллический куб гексагеля, сжимая синий гель под высоким давлением.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_BlueGel_To_Hexagel.label"><s>Compress blue gel into hexagel</s><r>Сжать синий гель в гексагель.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_BrewPsychiteTea.description"><s>Brew a batch of psychite tea from psychoid leaves.</s><r>Заварите психоидный чай из листьев психоида.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_BrewPsychiteTea.label"><s>Brew a batch of psychite tea</s><r>Заварите порцию психитового чая.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_BrewPsychiteTea.labelOverride"><s>Brew a batch of psychite tea</s><r>Заварите порцию психитового чая.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_BurnApparel.description"><s>Burn unwanted apparel to completely destroy it.</s><r>Сожгите ненужную одежду, чтобы полностью ее уничтожить.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_BurnApparel.label"><s>Burn apparel</s><r>Сжечь одежду</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_BurnApparel.labelOverride"><s>Burn apparel</s><r>Сжечь одежду</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_BurnDrug.description"><s>Burn unwanted drugs to completely destroy them.</s><r>Сжигайте ненужные лекарства, чтобы полностью их уничтожить.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_BurnDrug.label"><s>Burn drugs</s><r>Ожоговые препараты</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_BurnDrug.labelOverride"><s>Burn drugs</s><r>Ожоговые препараты</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_BurnWeapon.description"><s>Burn unwanted weapon to completely destroy it.</s><r>Сожгите ненужное оружие, чтобы полностью его уничтожить.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_BurnWeapon.label"><s>Burn weapon</s><r>Сжечь оружие</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_BurnWeapon.labelOverride"><s>Burn weapon</s><r>Сжечь оружие</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_CreateObsidian.description"><s>Use extreme heat and rapid cooling processes to transform unrefined stone chunks into obsidian.</s><r>Используйте сильные температуры и быстрые процессы охлаждения, чтобы превратить неочищенные куски камня в обсидиан.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_CreateObsidian.label"><s>Create obsidian from stone chunks</s><r>Создание обсидиана из кусков камня</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_CreateObsidian.labelOverride"><s>Create obsidian from stone chunks</s><r>Создание обсидиана из кусков камня</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_CremateAnimal.description"><s>Cremate an animal corpse to completely destroy it.</s><r>Кремируйте труп животного, чтобы полностью его уничтожить.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_CremateAnimal.label"><s>Cremate animal</s><r>Кремированное животное</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_CremateAnimal.labelOverride"><s>Cremate animal</s><r>Кремированное животное</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_CremateEntities.description"><s>Cremate an entity's corpse to completely destroy it.</s><r>Кремируйте труп сущности, чтобы полностью уничтожить его.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_CremateEntities.label"><s>Cremate entity</s><r>Кремировать сущность</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_CremateEntities.labelOverride"><s>Cremate entity</s><r>Кремировать сущность</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_CremateHumanlike.description"><s>Cremate a human corpse to completely destroy it.</s><r>Кремируйте труп человека, чтобы полностью его уничтожить.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_CremateHumanlike.label"><s>Cremate human</s><r>Кремированный человек</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_CremateHumanlike.labelOverride"><s>Cremate human</s><r>Кремированный человек</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_CremateHumanoidHybrids.description"><s>Cremate a humanoid hybrid's corpse to completely destroy it.</s><r>Кремируйте труп гуманоидного гибрида, чтобы полностью его уничтожить.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_CremateHumanoidHybrids.label"><s>Cremate humanoid hybrid</s><r>Кремировать гуманоидный гибрид</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_CremateHumanoidHybrids.labelOverride"><s>Cremate humanoid hybrid</s><r>Кремировать гуманоидный гибрид</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_CremateHybrids.description"><s>Cremate a paragon or hybrid's corpse to completely destroy it.</s><r>Кремируйте труп идеала или гибрида, чтобы полностью его уничтожить.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_CremateHybrids.label"><s>Cremate paragon or hybrid</s><r>Образец кремации или гибрид</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_CremateHybrids.labelOverride"><s>Cremate paragon or hybrid</s><r>Образец кремации или гибрид</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_DigForGraniteChunk.description"><s>Dig to harvest a granite chunk.</s><r>Выкопайте, чтобы собрать кусок гранита.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_DigForGraniteChunk.label"><s>Dig to harvest a granite chunk</s><r>Копайте, чтобы добыть кусок гранита</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_DigForLimestoneChunk.description"><s>Dig to harvest a limestone chunk.</s><r>Выкопайте, чтобы собрать кусок известняка.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_DigForLimestoneChunk.label"><s>Dig to harvest a limestone chunk</s><r>Копайте, чтобы собрать кусок известняка.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_DigForMarbleChunk.description"><s>Dig to harvest a marble chunk.</s><r>Копайте, чтобы собрать кусок мрамора.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_DigForMarbleChunk.label"><s>Dig to harvest a marble chunk</s><r>Копайте, чтобы собрать кусок мрамора.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_DigForMetals.description"><s>Dig for random metals. Type of metal extracted depends on the deep commonality of the resource. The amount depends on the usual yield of such a deposit.</s><r>Копайте случайные металлы. Тип добываемого металла зависит от глубокой общности ресурса. Сумма зависит от обычной доходности такого вклада.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_DigForMetals.label"><s>Dig for metals</s><r>Копать металлы</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_DigForMetals.labelOverride"><s>Dig for metals</s><r>Копать металлы</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_DigForSandstoneChunk.description"><s>Dig to harvest a sandstone chunk.</s><r>Выкопайте, чтобы собрать кусок песчаника.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_DigForSandstoneChunk.label"><s>Dig to harvest a sandstone chunk</s><r>Копайте, чтобы добыть кусок песчаника.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_DigForSlateChunk.description"><s>Dig to harvest a slate chunk.</s><r>Копайте, чтобы собрать кусок сланца.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_DigForSlateChunk.label"><s>Dig to harvest a slate chunk</s><r>Копайте, чтобы собрать кусок сланца</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeBabyFood.description"><s>Make baby food, a nutritionally balanced vegetarian mash for babies. While easy to make in large quantities, only babies appreciate its bland taste and mushy texture.</s><r>Приготовьте детское питание — питательно-сбалансированную вегетарианскую смесь для малышей. Хотя его легко приготовить в больших количествах, только дети оценят его мягкий вкус и мягкую текстуру.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeBabyFood.label"><s>Make baby food</s><r>Приготовить детское питание</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeBabyFood.labelOverride"><s>Make baby food</s><r>Приготовить детское питание</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeBeerFromHops.description"><s>Rapidly mash hops into wort, and then ferment into beer using automated processes.</s><r>Быстро разотрите хмель в сусло, а затем с помощью автоматизированных процессов сбраживайте пиво.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeBeerFromHops.label"><s>Make batch of beer from hops</s><r>Сделать партию пива из хмеля</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeBeerFromHops.labelOverride"><s>Make batch of beer from hops</s><r>Сделать партию пива из хмеля</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeCannedEggs.description"><s>Safely store boiled eggs in a steel can. Canning food extends its shelf life almost indefinitely. 20 cans will be produced per every nutrition consumed, so for example 4 chicken eggs and one steel will output 20 cans.</s><r>Безопасно храните вареные яйца в стальной банке. Консервирование продуктов питания продлевает срок их хранения практически на неопределенный срок. На каждый потребляемый продукт будет производиться 20 банок, поэтому, например, из 4 куриных яиц и одного стального яйца будет произведено 20 банок.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeCannedEggs.label"><s>Make canned eggs</s><r>Сделать консервированные яйца</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeCannedEggs.labelOverride"><s>Make canned eggs</s><r>Сделать консервированные яйца</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeCannedFish.description"><s>Safely store fish in a steel can. Canning food extends its shelf life almost indefinitely. 20 cans will be produced per every nutrition consumed, so for example 4 salmon and one steel will output 20 cans.</s><r>Безопасно храните рыбу в стальной банке. Консервирование продуктов питания продлевает срок их хранения практически на неопределенный срок. На каждое потребляемое питание будет производиться 20 банок, поэтому, например, 4 лосося и одна сталь дадут 20 банок.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeCannedFish.label"><s>Make canned fish</s><r>Сделать рыбные консервы</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeCannedFish.labelOverride"><s>Make canned fish</s><r>Сделать рыбные консервы</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeCannedFruit.description"><s>Safely store fruit in a steel can. Canning food extends its shelf life almost indefinitely. Preserved fruit can be used in the production of desserts. 20 cans will be produced per every nutrition consumed, so for example 20 apples plus one steel will output 20 cans.</s><r>Безопасно храните фрукты в стальной банке. Консервирование продуктов питания продлевает срок их хранения практически на неопределенный срок. Консервированные фрукты можно использовать при производстве десертов. На каждый потребляемый продукт будет производиться 20 банок, то есть, например, из 20 яблок плюс одна сталь будет производиться 20 банок.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeCannedFruit.label"><s>Make canned fruit</s><r>Сделать консервированные фрукты</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeCannedFruit.labelOverride"><s>Make canned fruit</s><r>Сделать консервированные фрукты</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeCannedMeat.description"><s>Safely store raw meat in a steel can. Canning extends its shelf life almost indefinitely. 20 cans will be produced per every nutrition consumed, so 20 meat plus one steel will output 20 cans.</s><r>Безопасно храните сырое мясо в стальной банке. Консервирование продлевает срок хранения практически на неопределенный срок. На каждый потребляемый продукт будет производиться 20 банок, поэтому из 20 мяса плюс одна сталь будет производиться 20 банок.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeCannedMeat.label"><s>Make canned meat</s><r>Сделать мясные консервы</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeCannedMeat.labelOverride"><s>Make canned meat</s><r>Сделать мясные консервы</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeCannedProduce.description"><s>Safely store vegetables in a steel can. Canning food extends its shelf life almost indefinitely. 20 cans will be produced per every nutrition consumed, so for example 20 corn plus one steel will output 20 cans.</s><r>Безопасно храните овощи в стальной банке. Консервирование продуктов питания продлевает срок их хранения практически на неопределенный срок. На каждое потребляемое питание будет производиться 20 банок, например, из 20 кукурузы плюс одна сталь будет производиться 20 банок.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeCannedProduce.label"><s>Make canned produce</s><r>Делать консервы</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeCannedProduce.labelOverride"><s>Make canned produce</s><r>Делать консервы</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeCannedSoup.description"><s>Safely store pre-cooked soup in steel cans. Canning food extends its shelf life almost indefinitely. Canned soup does not carry the benefits of being fine or lavish.</s><r>Безопасно храните предварительно приготовленный суп в стальных банках. Консервирование продуктов питания продлевает срок их хранения практически на неопределенный срок. Консервированный суп не несет в себе преимуществ хорошего или щедрого вкуса.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeCannedSoup.label"><s>Make canned soup</s><r>Приготовить консервированный суп</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeCannedSoup.labelOverride"><s>Make canned soup</s><r>Приготовить консервированный суп</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeChemfuelFromCanola.description"><s>Make a batch of chemfuel by extracting biofuel from canola flowers.</s><r>Сделайте партию химического топлива, извлекая биотопливо из цветов канолы.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeChemfuelFromCanola.label"><s>Make chemfuel from canola</s><r>Сделать химтопливо из канолы</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeChemfuelFromCanola.labelOverride"><s>Make chemfuel from canola</s><r>Сделать химтопливо из канолы</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeChemfuelFromOrganics.description"><s>Make a batch of chemfuel by extracting biofuel from organic feedstocks. Process will consume 30 food items and output 1 chemfuel per each 0.1 nutrition consumed. For example, 30 potatoes will produce 15 chemfuel, while 30 simple meals (0.9 nutrition) will produce 270 chemfuel.</s><r>Сделайте партию химического топлива, извлекая биотопливо из органического сырья. Процесс будет потреблять 30 продуктов питания и производить 1 химтопливо на каждые 0,1 потребленной пищи. Например, 30 картофелин дадут 15 химтоплива, а 30 простых приемов пищи (0,9 питания) дадут 270 химтоплива.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeChemfuelFromOrganics.label"><s>Make chemfuel from organics</s><r>Сделать химтопливо из органики</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeChemfuelFromOrganics.labelOverride"><s>Make chemfuel from organics</s><r>Сделать химтопливо из органики</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeChemfuelFromRedWood.description"><s>Make a batch of chemfuel by extracting and condensing wood gas from red wood logs.</s><r>Сделайте партию химического топлива, извлекая и конденсируя древесный газ из бревен красного дерева.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeChemfuelFromRedWood.label"><s>Make 25 chemfuel from 50 red wood logs</s><r>Сделайте 25 химтоплива из 50 бревен красного дерева.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeChemfuelFromRedWood.labelOverride"><s>Make chemfuel from red wood logs</s><r>Сделать химическое топливо из бревен красного дерева</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeChemfuelFromWood.description"><s>Make a batch of chemfuel by extracting and condensing wood gas from logs.</s><r>Сделайте партию химического топлива, извлекая и конденсируя древесный газ из бревен.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeChemfuelFromWood.label"><s>Make chemfuel from wood</s><r>Сделать химтопливо из древесины</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeChemfuelFromWood.labelOverride"><s>Make chemfuel from wood</s><r>Сделать химтопливо из древесины</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeChocoLiquor.description"><s>Ferment chocolate into chocolate liquor using automated processes.</s><r>Ферментируйте шоколад в шоколадный ликер, используя автоматизированные процессы.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeChocoLiquor.label"><s>Make batch of chocolate liquor</s><r>Приготовить порцию шоколадного ликера</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeChocoLiquor.labelOverride"><s>Make batch of chocolate liquor</s><r>Приготовить порцию шоколадного ликера</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeCoffeeLiquor.description"><s>Ferment coffee into coffee liquor using automated processes.</s><r>Ферментируйте кофе в кофейный ликер с помощью автоматизированных процессов.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeCoffeeLiquor.label"><s>Make batch of coffee liquor</s><r>Приготовьте порцию кофейного ликера</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeCoffeeLiquor.labelOverride"><s>Make batch of coffee liquor</s><r>Приготовьте порцию кофейного ликера</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeDeadlifeShells.description"><s>Use bioferrite to create deadlife shells.</s><r>Используйте биоферрит для создания мертвых оболочек.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeDeadlifeShells.label"><s>Make deadlife shells</s><r>Сделайте мертвые снаряды</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeEMPShells.description"><s>Combine steel and components to create EMP shells.</s><r>Объединяйте сталь и компоненты для создания ЭМИ-снарядов.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeEMPShells.label"><s>Make EMP shells</s><r>Делайте ЭМИ-снаряды</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeFirefoamShells.description"><s>Use steel to create firefoam shells.</s><r>Используйте сталь для создания пенопластовых оболочек.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeFirefoamShells.label"><s>Make firefoam shells</s><r>Сделать ракушки из пенопласта</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeGinFromBerries.description"><s>Rapidly mash raw berries into gin mush, and then ferment into gin using automated processes.</s><r>Быстро разотрите сырые ягоды в джиновую кашу, а затем с помощью автоматизированных процессов сбраживайте их в джин.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeGinFromBerries.label"><s>Make batch of gin from raw berries</s><r>Сделать порцию джина из сырых ягод</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeGinFromBerries.labelOverride"><s>Make batch of gin from raw berries</s><r>Сделать порцию джина из сырых ягод</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeHighExplosiveShells.description"><s>Combine steel and chemfuel to create high-explosive shells.</s><r>Объедините сталь и химическое топливо, чтобы создать осколочно-фугасные снаряды.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeHighExplosiveShells.label"><s>Make high-explosive shells</s><r>Делайте осколочно-фугасные снаряды</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeIncendiaryShells.description"><s>Combine steel and chemfuel to create incendiary shells.</s><r>Объедините сталь и химическое топливо, чтобы создать зажигательные снаряды.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeIncendiaryShells.label"><s>Make incendiary shells</s><r>Делайте зажигательные снаряды</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeKibble.description"><s>Make animal kibble by combining raw meat and plants. 24 kibble will be produced per every nutrition consumed, so 15 vegetable and 15 meat will output 36 kibble.</s><r>Приготовьте корм животного происхождения, соединив сырое мясо и растения. На каждый потребляемый продукт будет производиться 24 кусочка, поэтому 15 овощей и 15 мяса дадут 36 кусочков.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeKibble.label"><s>Make kibble</s><r>Сделать корм</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeKibble.labelOverride"><s>Make kibble</s><r>Сделать корм</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeKibbleFromHay.description"><s>Make animal kibble by combining raw meat and hay. Will always output 36 kibble.</s><r>Приготовьте корм для животных, смешав сырое мясо и сено. Всегда будет выводить 36 кусков.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeKibbleFromHay.label"><s>Make kibble from hay</s><r>Сделать корм из сена</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeKibbleFromHay.labelOverride"><s>Make kibble from hay</s><r>Сделать корм из сена</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeMassProducedMeal.description"><s>Cook straightforward, mass-produced meals from a combination of meat and plant ingredients. A total of 2 nutrition will make 4 mass-produced meals.</s><r>Готовьте простые блюда массового производства из сочетания мясных и растительных ингредиентов. Всего из 2-х блюд получится 4 блюда массового производства.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeMassProducedMeal.label"><s>Make mass-produced meals</s><r>Готовьте блюда массового производства</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeMassProducedMeal.labelOverride"><s>Make mass-produced meals</s><r>Готовьте блюда массового производства</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeMedicine.description"><s>Make a batch of medicine from cloth, herbal medicine and neutroamine.</s><r>Приготовьте лекарство из ткани, лекарственных трав и нейтроамина.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeMedicine.label"><s>Make batch of medicine</s><r>Сделать порцию лекарства</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeMedicine.labelOverride"><s>Make batch of medicine</s><r>Сделать порцию лекарства</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakePatchleather.description"><s>Make patchleather out of leather inserted.</s><r>Сделайте заплатку из кожаных вставок.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakePatchleather.label"><s>Make patchleather</s><r>Сделать заплатку из кожи</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakePemmican.description"><s>Make pemmican, a preserved combination of meat and plant food. It doesn't taste amazing, but lasts a long time without refrigeration. 32 pemmican will be produced per every nutrition consumed, so 5 vegetable and 5 meat will output 16 pemmican.</s><r>Приготовьте пеммикан — консервированную комбинацию мяса и растительной пищи. На вкус он не изумительный, но хранится долго без охлаждения. На каждый потребляемый продукт будет производиться 32 пеммикана, поэтому 5 овощей и 5 мяса дадут 16 пеммиканов.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakePemmican.label"><s>Make pemmican</s><r>Сделать пеммикан</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakePemmican.labelOverride"><s>Make pemmican</s><r>Сделать пеммикан</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakePumpkinCoffee.description"><s>Make pumpkin spice coffee, a cheap, mass produced generic coffee seeped in an array of spices, oddly excluding any actual pumpkin..</s><r>Приготовьте кофе с тыквенными специями, дешевый универсальный кофе массового производства, пропитанный множеством специй, странным образом исключая настоящую тыкву.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakePumpkinCoffee.label"><s>Make pumpkin spice coffee</s><r>Приготовьте кофе с тыквенными специями</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakePumpkinCoffee.labelOverride"><s>Make pumpkin spice coffee</s><r>Приготовьте кофе с тыквенными специями</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeSakeFromRice.description"><s>Rapidly mash raw rice and then ferment into sake using automated processes.</s><r>Быстро разомните сырой рис, а затем с помощью автоматизированных процессов сбраживайте его в саке.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeSakeFromRice.label"><s>Make batch of sake from raw rice</s><r>Приготовьте сакэ из сырого риса</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeSakeFromRice.labelOverride"><s>Make batch of sake from raw rice</s><r>Приготовьте сакэ из сырого риса</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeSimpleSoup.description"><s>Prepare a simple uncooked soup quickly made from a few ingredients.</s><r>Быстро приготовьте простой сырой суп из нескольких ингредиентов.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeSimpleSoup.label"><s>Prepare simple soup</s><r>Приготовьте простой суп</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeSimpleSoup.labelOverride"><s>Prepare simple soup</s><r>Приготовьте простой суп</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeSmokeShells.description"><s>Use steel to create smoke shells.</s><r>Используйте сталь для создания дымовых оболочек.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeSmokeShells.label"><s>Make smoke shells</s><r>Сделать дымовые снаряды</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeSoda.description"><s>Make soda syrup by diluting concentrated fruit juice and infusing it with carbonation.</s><r>Приготовьте газированный сироп, разбавив концентрированный фруктовый сок и настояв его при газировании.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeSoda.label"><s>Make batch of soda from juice</s><r>Сделать порцию газировки из сока</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeSoda.labelOverride"><s>Make batch of soda from juice</s><r>Сделать порцию газировки из сока</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeStoneBlocks.description"><s>Cut rock chunks into usable stone blocks.</s><r>Разрежьте куски камня на пригодные для использования каменные блоки.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeStoneBlocks.label"><s>Cut 20 blocks from a stone chunk</s><r>Вырежьте 20 блоков из куска камня.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeStoneBlocks.labelOverride"><s>Make any stone blocks</s><r>Сделать любые каменные блоки</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeSurvivalMeal.description"><s>Prepare packaged survival meals from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process. A total of 2.4 nutrition will make 4 survival meals.</s><r>Приготовьте упакованную еду для выживания из сочетания мясных и растительных ингредиентов. Большая часть ингредиентов теряется в процессе консервации. Всего из 2,4 питания получится 4 приема пищи для выживания.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeSurvivalMeal.label"><s>Make survival meal</s><r>Приготовь еду для выживания</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeSurvivalMeal.labelOverride"><s>Make survival meal</s><r>Приготовь еду для выживания</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeSynthread.description"><s>Weave synthread from cloth and synthetic fibers.</s><r>Плетём синнитку из ткани и синтетических волокон.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeSynthread.label"><s>Make synthread</s><r>Сделать синтезатор</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeTequilaFromAgave.description"><s>Rapidly mash agave into tequila must, and then ferment into tequila using automated processes.</s><r>Быстро разотрите агаву в текиловое сусло, а затем сбраживайте ее с помощью автоматизированных процессов.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeTequilaFromAgave.label"><s>Make batch of tequila from agave</s><r>Приготовьте партию текилы из агавы</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeTequilaFromAgave.labelOverride"><s>Make batch of tequila from agave</s><r>Приготовьте партию текилы из агавы</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeToxShells.description"><s>Combine steel and chemfuel to create tox shells.</s><r>Объедините сталь и химическое топливо, чтобы создать токсичные оболочки.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeToxShells.label"><s>Make tox shells</s><r>Сделать токсические снаряды</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeVodkaFromPotatoes.description"><s>Rapidly mash potatoes into vodka mash, and then ferment into vodka using automated processes.</s><r>Быстро разомните картофель в водочное пюре, а затем сбраживайте его в водку с помощью автоматизированных процессов.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeVodkaFromPotatoes.label"><s>Make batch of vodka from potatoes</s><r>Сделать порцию водки из картофеля</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeVodkaFromPotatoes.labelOverride"><s>Make batch of vodka from potatoes</s><r>Сделать порцию водки из картофеля</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeWhiskeyFromCorn.description"><s>Rapidly ferment corn into whisky mash, and then ferment into whisky using automated processes.</s><r>Быстро ферментируйте кукурузу в виски-пюре, а затем с помощью автоматизированных процессов превращайте ее в виски.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeWhiskeyFromCorn.label"><s>Make batch of whisky from corn</s><r>Сделать партию виски из кукурузы</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MakeWhiskeyFromCorn.labelOverride"><s>Make batch of whisky from corn</s><r>Сделать партию виски из кукурузы</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_Make_HexagelCore.description"><s>Craft hexagel cores using hexagel and uranium as a stabilizer.</s><r>Создайте гексагелевые ядра, используя гексагель и уран в качестве стабилизатора.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_Make_HexagelCore.label"><s>Make hexagel cores</s><r>Сделайте шестигранные ядра.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MinceCorpses.description"><s>Chop corpses into raw, edible minced meat suitable for cooking or further processing.</s><r>Трупы измельчить в сырой, съедобный фарш, пригодный для приготовления или дальнейшей переработки.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MinceCorpses.label"><s>Mince corpses</s><r>Измельчить трупы</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MinceCorpses.labelOverride"><s>Mince corpses</s><r>Измельчить трупы</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MinceEntityCorpses.description"><s>Chop entity corpses into twisted meat.</s><r>Измельчите трупы сущностей в искривленное мясо.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MinceEntityCorpses.label"><s>Mince entity corpses</s><r>Измельчить трупы сущностей</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MinceEntityCorpses.labelOverride"><s>Mince entity corpses</s><r>Измельчить трупы сущностей</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MinceHumanCorpses.description"><s>Chop human corpses into raw human meat. This may anger colonists, depending on their ideological beliefs. Equipment will all be discarded.</s><r>Измельчите человеческие трупы на сырое человеческое мясо. Это может разозлить колонистов, в зависимости от их идеологических убеждений. Все оборудование будет выброшено.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MinceHumanCorpses.label"><s>Mince human corpses</s><r>Измельчить человеческие трупы</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MinceHumanCorpses.labelOverride"><s>Mince human corpses</s><r>Измельчить человеческие трупы</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MinceHumanoidHybridCorpses.description"><s>Chop humanoid hybrid corpses into raw human meat. This may anger colonists, depending on their ideological beliefs.</s><r>Измельчите трупы гуманоидных гибридов на сырое человеческое мясо. Это может разозлить колонистов, в зависимости от их идеологических убеждений.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MinceHumanoidHybridCorpses.label"><s>Mince humanoid hybrid corpses</s><r>Измельчите гуманоидные гибридные трупы</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MinceHumanoidHybridCorpses.labelOverride"><s>Mince humanoid hybrid corpses</s><r>Измельчите гуманоидные гибридные трупы</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MinceHybridCorpses.description"><s>Chop hybrid corpses into raw, edible minced meat suitable for cooking or further processing.</s><r>Трупы гибридов измельчить в сырой съедобный фарш, пригодный для приготовления или дальнейшей переработки.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MinceHybridCorpses.label"><s>Mince hybrid corpses</s><r>Измельчить гибридные трупы</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MinceHybridCorpses.labelOverride"><s>Mince hybrid corpses</s><r>Измельчить гибридные трупы</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MinceInsectoidCorpses.description"><s>Chop insectoid corpses into raw insect meat.</s><r>Измельчите трупы инсектоидов на сырое мясо насекомых.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MinceInsectoidCorpses.label"><s>Mince insectoid corpses</s><r>Измельчите трупы инсектоидов</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_MinceInsectoidCorpses.labelOverride"><s>Mince insectoid corpses</s><r>Измельчите трупы инсектоидов</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_RefineUraniumCrystals.description"><s>Extract useful materials from unrefined uranium crystals.</s><r>Извлекайте полезные материалы из неочищенных кристаллов урана.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_RefineUraniumCrystals.label"><s>Refine uranium crystals</s><r>Очистка кристаллов урана</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_RollCigar.description"><s>Roll tobacco and gold into a cigar.</s><r>Сверните табак и золото в сигару.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_RollCigar.label"><s>Roll cigar</s><r>Рулонная сигара</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_RollCigar.labelOverride"><s>Roll cigar</s><r>Рулонная сигара</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_RollCigarettes.description"><s>Roll tobacco into cigarettes.</s><r>Сверните табак в сигареты.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_RollCigarettes.label"><s>Roll cigarettes</s><r>Сигареты в рулонах</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_RollCigarettes.labelOverride"><s>Roll cigarettes</s><r>Сигареты в рулонах</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_RollJoint.description"><s>Roll smokeleaf into a joint</s><r>Сверните дымчатый лист в сустав</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_RollJoint.label"><s>Roll smokeleaf joints</s><r>Рулонные соединения дымового листа</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_RollJoint.labelOverride"><s>Roll smokeleaf joints</s><r>Рулонные соединения дымового листа</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_ShredDrone.description"><s>Use various built-in tools and grinders to shred a drone into steel. 10 steel will be extracted per 1 body size of the drone.</s><r>Используйте различные встроенные инструменты и шлифовальные машины, чтобы измельчить дрон на сталь. На 1 размер корпуса дрона будет добыто 10 единиц стали.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_ShredDrone.label"><s>Shred drone</s><r>Измельчить дрон</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_ShredDrone.labelOverride"><s>Shred drone</s><r>Измельчить дрон</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_ShredMechanoid.description"><s>Use various built-in tools and grinders to shred a mechanoid into steel. 10 steel will be extracted per 1 body size of the mechanoid.</s><r>Используйте различные встроенные инструменты и шлифовальные машины, чтобы измельчить механоида на сталь. На 1 размер тела механоида будет извлечено 10 стали.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_ShredMechanoid.label"><s>Shred mechanoid</s><r>Шред-механоид</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_ShredMechanoid.labelOverride"><s>Shred mechanoid</s><r>Шред-механоид</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SmeltApparel.description"><s>Use heat and strong electromagnets to break down apparel into useful resources. This operation will output 25% of the materials used to craft the apparel, excluding any components or advanced components.</s><r>Используйте тепло и сильные электромагниты, чтобы превратить одежду в полезные ресурсы. В результате этой операции будет произведено 25% материалов, используемых для изготовления одежды, исключая любые компоненты или усовершенствованные компоненты.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SmeltApparel.label"><s>Smelt apparel</s><r>Нюхать одежду</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SmeltApparel.labelOverride"><s>Smelt apparel</s><r>Нюхать одежду</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SmeltMechanoid.description"><s>Use extreme heat to extract steel from mechanoid corpses. 10 steel will be extracted per 1 body size of the mechanoid.</s><r>Используйте сильный жар, чтобы извлечь сталь из трупов механоидов. На 1 размер тела механоида будет извлечено 10 стали.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SmeltMechanoid.label"><s>Smelt steel from mechanoid</s><r>Выплавить сталь из механоида</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SmeltMechanoid.labelOverride"><s>Smelt steel from mechanoid</s><r>Выплавить сталь из механоида</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SmeltMetalFromChunk.description"><s>Use heat and strong electromagnets to extract useful metal from stone chunks.</s><r>Используйте тепло и сильные электромагниты, чтобы извлечь полезный металл из каменных кусков.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SmeltMetalFromChunk.label"><s>Extract metal from stone chunk</s><r>Извлечь металл из каменного куска</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SmeltMetalFromChunk.labelOverride"><s>Extract metal from stone chunk</s><r>Извлечь металл из каменного куска</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SmeltMetalFromMechSlag.description"><s>Use heat and strong electromagnets to extract useful metal from mechanoid slag chunks.</s><r>Используйте тепло и сильные электромагниты, чтобы извлечь полезный металл из кусков механоидного шлака.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SmeltMetalFromMechSlag.label"><s>Smelt metal from mechanoid slag</s><r>Выплавка металла из механоидного шлака</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SmeltMetalFromMechSlag.labelOverride"><s>Smelt metal from mechanoid slag</s><r>Выплавка металла из механоидного шлака</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SmeltMetalFromSlag.description"><s>Use heat and strong electromagnets to extract useful metal from slag chunks.</s><r>Используйте тепло и сильные электромагниты, чтобы извлечь полезный металл из кусков шлака.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SmeltMetalFromSlag.label"><s>Smelt metal from slag</s><r>Выплавить металл из шлака</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SmeltMetalFromSlag.labelOverride"><s>Smelt metal from slag</s><r>Выплавить металл из шлака</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SmeltWeapon.description"><s>Use heat and strong electromagnets to break down weapons into useful resources. This operation will output 25% of the materials used to craft the weapon, excluding any components or advanced components.</s><r>Используйте тепло и сильные электромагниты, чтобы разложить оружие на полезные ресурсы. В результате этой операции будет получено 25% материалов, использованных для изготовления оружия, исключая любые компоненты или усовершенствованные компоненты.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SmeltWeapon.label"><s>Smelt weapons</s><r>Выплавить оружие</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SmeltWeapon.labelOverride"><s>Smelt weapons</s><r>Выплавить оружие</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SynthesizeFlake.description"><s>Synthesize a batch of flake from psychoid leaves.</s><r>Синтезируйте партию чешуек из листьев психоида.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SynthesizeFlake.label"><s>Synthesize a batch of flake</s><r>Синтезируйте партию хлопьев</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SynthesizeFlake.labelOverride"><s>Synthesize a batch of flake</s><r>Синтезируйте партию хлопьев</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SynthesizeGoJuice.description"><s>Synthesize a batch of go-juice from neutroamine and yayo.</s><r>Синтезируйте партию го-сока из нейтроамина и яйо.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SynthesizeGoJuice.label"><s>Synthesize a batch of go-juice</s><r>Синтезируйте партию сока</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SynthesizeGoJuice.labelOverride"><s>Synthesize a batch of go-juice</s><r>Синтезируйте партию сока</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SynthesizeNeutroamine.description"><s>Synthesize neutroamine from chemfuel and rendered animal fat.</s><r>Синтезируйте нейтроамин из химического топлива и переработанного животного жира.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SynthesizeNeutroamine.label"><s>Synthesize neutroamine</s><r>Синтезировать нейтроамин</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SynthesizeNeutroamine.labelOverride"><s>Synthesize neutroamine</s><r>Синтезировать нейтроамин</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SynthesizePenoxycyline.description"><s>Synthesize penoxycyline from neutroamine.</s><r>Синтезировать пеноксицилин из нейтроамина.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SynthesizePenoxycyline.label"><s>Synthesize penoxycyline</s><r>Синтезировать пеноксициклин</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SynthesizePenoxycyline.labelOverride"><s>Synthesize penoxycyline</s><r>Синтезировать пеноксициклин</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SynthesizeWakeUp.description"><s>Synthesize a batch of wake-up from neutroamine.</s><r>Синтезируйте партию пробуждения из нейтроамина.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SynthesizeWakeUp.label"><s>Synthesize a batch of wake-up</s><r>Синтезируйте партию пробуждения</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SynthesizeWakeUp.labelOverride"><s>Synthesize a batch of wake-up</s><r>Синтезируйте партию пробуждения</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SynthesizeYayo.description"><s>Synthesize a batch of yayo from psychoid leaves.</s><r>Синтезируйте партию яйо из листьев психоида.</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SynthesizeYayo.label"><s>Synthesize a batch of yayo</s><r>Синтезируйте партию яё</r></e>
+  <e k="D" t="ProcessDef" key="VFEFactory_SynthesizeYayo.labelOverride"><s>Synthesize a batch of yayo</s><r>Синтезируйте партию яё</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFE_BasicFactories.description"><s>Construct basic factories, conveyor belts with splitters, mergers, filters and underground conveyors, as well as factory hoppers to automate certain tasks around the colony.</s><r>Стройте базовые фабрики, конвейерные ленты с разделителями, слияниями, фильтрами и подземными конвейерами, а также заводские бункеры для автоматизации определенных задач в колонии.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFE_BasicFactories.generalRules.rulesStrings.0"><s>subject-&gt;industrial efficiency</s><r>subject-&gt;промышленная эффективность</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFE_BasicFactories.generalRules.rulesStrings.1"><s>subject_story-&gt;pioneered the first integrated production lines</s><r>subject_story-&gt;создал первые интегрированные производственные линии</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFE_BasicFactories.generalRules.rulesStrings.2"><s>subject_story-&gt;transformed a small workshop into a cornerstone of the industrial revolution</s><r>subject_story-&gt;превратил небольшую мастерскую в краеугольный камень промышленной революции</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFE_BasicFactories.generalRules.rulesStrings.3"><s>subject_story-&gt;saw beyond the chaos of factory floors to the beauty of synchronized machinery</s><r>subject_story-&gt;увидел за хаосом заводских цехов красоту синхронизированного оборудования</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFE_BasicFactories.generalRules.rulesStrings.4"><s>subject_gerund-&gt;laying the groundwork for modern manufacturing</s><r>subject_gerund-&gt;закладывая основу для современного производства</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFE_BasicFactories.label"><s>basic factories</s><r>основные заводы</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFE_ComplexFactories.description"><s>Construct complex, specific factories capable of manufacturing components, creating plasteel alloy and much more.</s><r>Стройте сложные, специфические заводы, способные производить компоненты, создавать сплавы из пластали и многое другое.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFE_ComplexFactories.generalRules.rulesStrings.0"><s>subject-&gt;automated fabrication</s><r>subject-&gt;автоматизированное производство</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFE_ComplexFactories.generalRules.rulesStrings.1"><s>subject_story-&gt;unveiled the potential of autonomous machines in electronics production</s><r>subject_story-&gt;представил потенциал автономных машин в производстве электроники</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFE_ComplexFactories.generalRules.rulesStrings.2"><s>subject_story-&gt;bridged the gap between raw materials and advanced technology</s><r>subject_story-&gt;преодолел разрыв между сырьем и передовыми технологиями</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFE_ComplexFactories.generalRules.rulesStrings.3"><s>subject_story-&gt;revolutionized the production of high-tech components and alloys, making them accessible to all</s><r>subject_story-&gt;произвели революцию в производстве высокотехнологичных компонентов и сплавов, сделав их доступными для всех.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFE_ComplexFactories.generalRules.rulesStrings.4"><s>subject_gerund-&gt;streamlining the creation of electronics and alloys</s><r>subject_gerund-&gt;оптимизация создания электроники и сплавов</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFE_ComplexFactories.label"><s>complex factories</s><r>сложные заводы</r></e>
+  <e k="D" t="ResearchTabDef" key="VanillaExpanded.label"><s>Vanilla Expanded</s><r>Ванильный расширенный</r></e>
+  <e k="D" t="RoomRoleDef" key="VFEFactory_FactoryRoom.label"><s>factory</s><r>фабрика</r></e>
+  <e k="D" t="TerrainAffordanceDef" key="FactoryFloor.label"><s>factory floor</s><r>заводской цех</r></e>
+  <e k="D" t="TerrainDef" key="VFEF_FactoryFloor.description"><s>Reinforced steel flooring capable of supporting factory buildings. Slow to traverse and ugly to look at.</s><r>Армированный стальной пол, способный выдерживать заводские здания. Медленно перемещаться и уродливо смотреть.</r></e>
+  <e k="D" t="TerrainDef" key="VFEF_FactoryFloor.label"><s>factory floor</s><r>заводской цех</r></e>
+  <e k="D" t="ThingCategoryDef" key="VFEFactory_FactoryCategory.label"><s>factories</s><r>заводы</r></e>
+  <e k="D" t="ThingDef" key="VCE_CannedSoup.description"><s>Soup sealed and secured in a steel can effectively extending shelf life indefinitely.</s><r>Суп запечатан и помещен в стальную банку, что эффективно продлевает срок хранения на неопределенный срок.</r></e>
+  <e k="D" t="ThingDef" key="VCE_CannedSoup.label"><s>canned soup</s><r>консервированный суп</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_Autofarmer.description"><s>A large, automated machine that combines the functions of a sower and harvester, moving back and forth across a designated outdoor zone to harvest mature plants and sow new crops. It deposits harvested goods into attached factory hoppers or drops them on the ground if hoppers are not present, and its operation can be set to automatically cycle once the majority of plants in the zone are fully grown.</s><r>Большая автоматизированная машина, сочетающая в себе функции сеялки и комбайна, перемещающаяся вперед и назад по обозначенной открытой зоне для сбора взрослых растений и посева новых культур. Он складывает собранный урожай в прикрепленные заводские бункеры или сбрасывает их на землю, если бункеров нет, и его работу можно настроить на автоматический цикл, как только большинство растений в зоне полностью вырастут.</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_Autofarmer.label"><s>autofarmer</s><r>автофермер</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_Autoloom.description"><s>An industrial-grade loom designed for the automatic production of textiles and apparel, it efficiently weaves materials like cloth and leather into various finished goods. It can only output goods of normal quality.
+
+Factory buildings need factory hoppers for input and output. They produce significant heat and consume much power, but can be overclocked for higher efficiency, increasing both heat generation and power consumption. Needs to be constructed on factory floor.</s><r>Промышленный ткацкий станок, предназначенный для автоматического производства текстиля и одежды. Он эффективно переплетает такие материалы, как ткань и кожа, в различные готовые изделия. Он может производить только товары нормального качества.
+
+Фабричным зданиям нужны заводские бункеры для ввода и вывода. Они выделяют значительное количество тепла и потребляют много энергии, но их можно разогнать для повышения эффективности, увеличивая как тепловыделение, так и энергопотребление. Необходимо построить на заводе.</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_Autoloom.label"><s>autoloom</s><r>автоматический ткацкий станок</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_AutomatedAlloyForge.description"><s>A colossal industrial furnace built to contain the immense heat and pressure needed to bond base materials into exotic alloys like plasteel.
+
+Factory buildings need factory hoppers for input and output. They produce significant heat and consume much power, but can be overclocked for higher efficiency, increasing both heat generation and power consumption. Needs to be constructed on factory floor.</s><r>Колоссальная промышленная печь, построенная так, чтобы выдерживать огромное тепло и давление, необходимые для соединения основных материалов в экзотические сплавы, такие как пласталь.
+
+Заводским зданиям нужны заводские бункеры для ввода и вывода. Они выделяют значительное количество тепла и потребляют много энергии, но их можно разогнать для повышения эффективности, увеличивая как тепловыделение, так и энергопотребление. Необходимо построить на заводе.</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_AutomatedAlloyForge.label"><s>automated alloy forge</s><r>автоматизированная кузница сплавов</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_AutomatedAmmunitionPress.description"><s>An industrial-grade press capable of automatically manufacturing various artillery shells from raw materials.
+
+Factory buildings need factory hoppers for input and output. They produce significant heat and consume much power, but can be overclocked for higher efficiency, increasing both heat generation and power consumption. Needs to be constructed on factory floor.</s><r>Пресс промышленного уровня, способный автоматически производить из сырья различные артиллерийские снаряды.
+
+Заводским зданиям нужны заводские бункеры для ввода и вывода. Они выделяют значительное количество тепла и потребляют много энергии, но их можно разогнать для повышения эффективности, увеличивая как тепловыделение, так и энергопотребление. Необходимо построить на заводе.</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_AutomatedAmmunitionPress.label"><s>automated ammunition press</s><r>автоматизированный пресс для боеприпасов</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_AutomatedAssembler.description"><s>An automated industrial machine for assembling complex items like components and advanced components.
+
+Factory buildings need factory hoppers for input and output. They produce significant heat and consume much power, but can be overclocked for higher efficiency, increasing both heat generation and power consumption. Needs to be constructed on factory floor.</s><r>Автоматизированная промышленная машина для сборки сложных изделий, таких как компоненты и усовершенствованные компоненты.
+
+Заводским зданиям нужны заводские бункеры для ввода и вывода. Они выделяют значительное количество тепла и потребляют много энергии, но их можно разогнать для повышения эффективности, увеличивая как тепловыделение, так и энергопотребление. Необходимо построить на заводе.</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_AutomatedAssembler.label"><s>automated assembler</s><r>автоматизированный ассемблер</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_AutomatedBiofuelRefinery.description"><s>Automatically refines biological matter like wood or plant matter into chemfuel.
+
+Factory buildings need factory hoppers for input and output. They produce significant heat and consume much power, but can be overclocked for higher efficiency, increasing both heat generation and power consumption. Needs to be constructed on factory floor.</s><r>Автоматически перерабатывает биологические вещества, такие как древесина или растительные вещества, в химическое топливо.
+
+Заводским зданиям нужны заводские бункеры для ввода и вывода. Они выделяют значительное количество тепла и потребляют много энергии, но их можно разогнать для повышения эффективности, увеличивая как тепловыделение, так и энергопотребление. Необходимо построить на заводе.</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_AutomatedBiofuelRefinery.label"><s>automated biofuel refinery</s><r>автоматизированный завод по переработке биотоплива</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_AutomatedCannery.description"><s>An automated industrial preserving system for the mass production of canned goods from various raw ingredients, requiring no manual labor.
+
+Factory buildings need factory hoppers for input and output. They produce significant heat and consume much power, but can be overclocked for higher efficiency, increasing both heat generation and power consumption. Needs to be constructed on factory floor.</s><r>Автоматизированная промышленная система консервирования для массового производства консервов из различного сырья, не требующая ручного труда.
+
+Заводским зданиям необходимы заводские бункеры для ввода и вывода. Они выделяют значительное количество тепла и потребляют много энергии, но их можно разогнать для повышения эффективности, увеличивая как тепловыделение, так и энергопотребление. Необходимо построить на заводе.</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_AutomatedCannery.label"><s>automated cannery</s><r>автоматизированный консервный завод</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_AutomatedCrematorium.description"><s>An industrial-grade furnace designed for the automated destruction of unwanted items, especially corpses and tainted apparel, using extreme heat.
+
+Factory buildings need factory hoppers for input and output. They produce significant heat and consume much power, but can be overclocked for higher efficiency, increasing both heat generation and power consumption. Needs to be constructed on factory floor.</s><r>Печь промышленного уровня, предназначенная для автоматического уничтожения ненужных предметов, особенно трупов и испорченной одежды, с использованием сильного тепла.
+
+Заводским зданиям нужны заводские бункеры для ввода и вывода. Они выделяют значительное количество тепла и потребляют много энергии, но их можно разогнать для повышения эффективности, увеличивая как тепловыделение, так и энергопотребление. Необходимо построить на заводе.</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_AutomatedCrematorium.label"><s>conveyor crematorium</s><r>конвейерный крематорий</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_AutomatedDistillery.description"><s>An automated industrial distilling system for the mass production of beer and spirits from raw crops, requiring no manual labor.
+
+Factory buildings need factory hoppers for input and output. They produce significant heat and consume much power. Needs to be constructed on factory floor.</s><r>Автоматизированная промышленная система дистилляции для массового производства пива и спиртных напитков из сырых сельскохозяйственных культур, не требующая ручного труда.
+
+Заводским зданиям нужны заводские бункеры для ввода и вывода. Они выделяют значительное количество тепла и потребляют много энергии. Необходимо построить на заводе.</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_AutomatedDistillery.label"><s>automated distillery</s><r>автоматизированный ликеро-водочный завод</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_AutomatedDrillPlatform.description"><s>An automated deep-crust drilling rig for extracting minerals from deep under the surface. Capable of extracting stone chunks, but also any metal it finds.
+
+Factory buildings need factory hoppers for input and output. They produce significant heat and consume much power, but can be overclocked for higher efficiency, increasing both heat generation and power consumption.</s><r>Автоматизированная буровая установка для добычи полезных ископаемых из недр. Способен извлекать каменные куски, а также любой найденный металл.
+
+Заводским зданиям нужны заводские бункеры для загрузки и вывода. Они выделяют значительное количество тепла и потребляют много энергии, но их можно разогнать для повышения эффективности, увеличивая как тепловыделение, так и энергопотребление.</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_AutomatedDrillPlatform.label"><s>automated drill platform</s><r>автоматизированная буровая платформа</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_AutomatedFishfarm.description"><s>An industrial fish breeding and harvesting facility designed to automatically extract fish from bodies of water with fish populations.
+
+Factory buildings need factory hoppers for input and output. Needs to be constructed in shallow water.</s><r>Промышленное предприятие по разведению и добыче рыбы, предназначенное для автоматического извлечения рыбы из водоемов с популяциями рыб.
+
+Заводским зданиям необходимы заводские бункеры для ввода и вывода. Необходимо строить на мелководье.</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_AutomatedFishfarm.label"><s>automated fishfarm</s><r>автоматизированная рыбная ферма</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_AutomatedMachiningBay.description"><s>An automated industrial facility designed for the precision manufacturing of various weapons, armor, and complex equipment. It can only output goods of normal quality.
+
+Factory buildings need factory hoppers for input and output. They produce significant heat and consume much power, but can be overclocked for higher efficiency, increasing both heat generation and power consumption. Needs to be constructed on factory floor.</s><r>Автоматизированный промышленный комплекс, предназначенный для точного изготовления различного оружия, бронетехники и сложного оборудования. Он может производить только товары нормального качества.
+
+Фабричным зданиям нужны заводские бункеры для ввода и вывода. Они выделяют значительное количество тепла и потребляют много энергии, но их можно разогнать для повышения эффективности, увеличивая как тепловыделение, так и энергопотребление. Необходимо построить на заводе.</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_AutomatedMachiningBay.label"><s>automated machining bay</s><r>автоматизированный участок механической обработки</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_AutomatedMasonrySaw.description"><s>An industrial machine capable of cutting stone chunks into usable blocks.
+
+Factory buildings need factory hoppers for input and output. They produce significant heat and consume much power, but can be overclocked for higher efficiency, increasing both heat generation and power consumption. Needs to be constructed on factory floor.</s><r>Промышленная машина, способная разрезать каменные куски на пригодные для использования блоки.
+
+Заводским зданиям нужны заводские бункеры для ввода и вывода. Они выделяют значительное количество тепла и потребляют много энергии, но их можно разогнать для повышения эффективности, увеличивая как тепловыделение, так и энергопотребление. Необходимо построить на заводе.</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_AutomatedMasonrySaw.label"><s>automated masonry saw</s><r>автоматизированная камнерезная пила</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_AutomatedMincer.description"><s>A series of automated saws and mincers capable of processing corpses into processed mince.
+
+Factory buildings need factory hoppers for input and output. They produce significant heat and consume much power, but can be overclocked for higher efficiency, increasing both heat generation and power consumption. Needs to be constructed on factory floor.</s><r>Ряд автоматических пил и мясорубок, способных перерабатывать трупы в переработанный фарш.
+
+Заводским зданиям нужны заводские бункеры для ввода и вывода. Они выделяют значительное количество тепла и потребляют много энергии, но их можно разогнать для повышения эффективности, увеличивая как тепловыделение, так и энергопотребление. Необходимо построить на заводе.</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_AutomatedMincer.label"><s>automated mincer</s><r>автоматизированная мясорубка</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_AutomatedSmelter.description"><s>Extracts usable metal from slag chunks, broken-down weapons, apparel, stone chunks, and mechanoid corpses using strong electromagnets and heat.
+
+Factory buildings need factory hoppers for input and output. They produce significant heat and consume much power, but can be overclocked for higher efficiency, increasing both heat generation and power consumption. Needs to be constructed on factory floor.</s><r>Извлекает пригодный для использования металл из кусков шлака, сломанного оружия, одежды, каменных кусков и трупов механоидов с помощью сильных электромагнитов и тепла.
+
+Заводским зданиям нужны заводские бункеры для ввода и вывода. Они выделяют значительное количество тепла и потребляют много энергии, но их можно разогнать для повышения эффективности, увеличивая как тепловыделение, так и энергопотребление. Необходимо построить на заводе.</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_AutomatedSmelter.label"><s>automated smelter</s><r>автоматизированный плавильный завод</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_Booster.description"><s>A sensitive micro-processor array designed to enhance the speed and efficiency of industrial factory buildings. It links with nearby factory machines to extend their maximum overclocking limit by an additional 100 percent, allowing for drastically increased production speeds. One factory can use up to three factory boosters.</s><r>Чувствительный массив микропроцессоров, предназначенный для повышения скорости и эффективности промышленных зданий. Он подключается к близлежащим заводским машинам, расширяя их максимальный предел разгона еще на 100 процентов, что позволяет значительно повысить скорость производства. Одна фабрика может использовать до трёх заводских бустеров.</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_Booster.label"><s>factory booster</s><r>заводской бустер</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_Conveyor.description"><s>A simple conveyor belt capable of moving an item from one place to the other. Due to safety reasons, items on the conveyor belt cannot be interacted with.</s><r>Простой конвейер, способный перемещать предмет из одного места в другое. Из соображений безопасности нельзя взаимодействовать с предметами на конвейерной ленте.</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_Conveyor.label"><s>conveyor</s><r>конвейер</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_ConveyorOven.description"><s>An industrial oven for the automated mass-production of simple, shelf-stable, and packaged meals.
+
+Factory buildings need factory hoppers for input and output. They produce significant heat and consume much power, but can be overclocked for higher efficiency, increasing both heat generation and power consumption. Needs to be constructed on factory floor.</s><r>Промышленная печь для автоматизированного массового производства простых, упакованных продуктов длительного хранения.
+
+Заводским зданиям нужны заводские бункеры для ввода и вывода. Они выделяют значительное количество тепла и потребляют много энергии, но их можно разогнать для повышения эффективности, увеличивая как тепловыделение, так и энергопотребление. Необходимо построить на заводе.</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_ConveyorOven.label"><s>conveyor oven</s><r>конвейерная печь</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_FactoryHopper.description"><s>Holds resources for use by factory machines.</s><r>Содержит ресурсы для использования заводскими машинами.</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_FactoryHopper.label"><s>Factory hopper</s><r>Заводской бункер</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_Heatsink.description"><s>A cooling system designed to draw excess heat away from industrial factory buildings. It links with nearby factory machines to reduce their total heat output by 25%, mitigating the risk of overheating and fire. One factory can use up to four factory heatsinks.</s><r>Система охлаждения, предназначенная для отвода избыточного тепла из промышленных зданий. Он связывается с расположенными поблизости заводскими машинами, чтобы снизить их общую тепловую мощность на 25 %, снижая риск перегрева и возгорания. На одном заводе может использоваться до четырех заводских радиаторов.</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_Heatsink.label"><s>factory heatsink</s><r>заводской радиатор</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_MassProducedMeal.description"><s>A mass-produced meal assembled by machine from processed ingredients.</s><r>Еда массового производства, собранная машиной из обработанных ингредиентов.</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_MassProducedMeal.label"><s>mass-produced meal</s><r>еда массового производства</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_MedicineGranulator.description"><s>An advanced pharmaceutical processor for the mass-production of basic medical supplies and drug batches from raw materials. It efficiently grinds, synthesizes, and packages items like medicine, psychite drugs, and smokeleaf joints.
+
+Factory buildings need factory hoppers for input and output. They produce significant heat and consume much power, but can be overclocked for higher efficiency, increasing both heat generation and power consumption. Needs to be constructed on factory floor.</s><r>Передовой фармацевтический процессор для массового производства основных медицинских товаров и партий лекарств из сырья. Он эффективно измельчает, синтезирует и упаковывает такие предметы, как лекарства, психотитные препараты и соединения дымовых листьев.
+
+Фабричным зданиям нужны заводские бункеры для ввода и вывода. Они выделяют значительное количество тепла и потребляют много энергии, но их можно разогнать для повышения эффективности, увеличивая как тепловыделение, так и энергопотребление. Необходимо построить на заводе.</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_MedicineGranulator.label"><s>medicine granulator</s><r>гранулятор лекарств</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_NeutroamineSynthesizer.description"><s>An advanced chemical facility designed for the automated synthesis of neutroamine from organic feedstocks. It operates by converting rendered animal fat and chemfuel into neutroamine.
+
+Factory buildings need factory hoppers for input and output. They produce significant heat and consume much power, but can be overclocked for higher efficiency, increasing both heat generation and power consumption. Needs to be constructed on factory floor.</s><r>Передовая химическая установка, предназначенная для автоматического синтеза нейтроамина из органического сырья. Он работает путем преобразования переработанного животного жира и химического топлива в нейтроамин.
+
+Заводским зданиям нужны заводские бункеры для ввода и вывода. Они выделяют значительное количество тепла и потребляют много энергии, но их можно разогнать для повышения эффективности, увеличивая как тепловыделение, так и энергопотребление. Необходимо построить на заводе.</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_NeutroamineSynthesizer.label"><s>neutroamine synthesizer</s><r>синтезатор нейтроаминов</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_ProcessedMince.description"><s>A block of heavily processed minced meat, safe to eat but with an unappetizing taste.</s><r>Кусок тщательно переработанного фарша, безопасный для употребления, но с неаппетитным вкусом.</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_ProcessedMince.label"><s>processed mince</s><r>обработанный фарш</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_UndergroundConveyorEntrance.description"><s>A simple entrance tunnel for the conveyor belt, allowing it to travel a short distance underground. Needs to be linked to a nearby underground conveyor exit to work.</s><r>Простой входной туннель для конвейерной ленты, позволяющий ей перемещаться на небольшое расстояние под землей. Для работы необходимо подключиться к ближайшему выходу подземного конвейера.</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_UndergroundConveyorEntrance.label"><s>underground conveyor entrance</s><r>вход в подземный конвейер</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_UndergroundConveyorExit.description"><s>A simple exit tunnel for the conveyor belt, allowing it to travel a short distance underground. Needs to be linked to a nearby underground conveyor entrance to work.</s><r>Простой выходной туннель для конвейерной ленты, позволяющий ей перемещаться на небольшое расстояние под землей. Для работы необходимо подключиться к ближайшему входу в подземный конвейер.</r></e>
+  <e k="D" t="ThingDef" key="VFEFactory_UndergroundConveyorExit.label"><s>underground conveyor exit</s><r>выход подземного конвейера</r></e>
+  <e k="D" t="ThoughtDef" key="VFEFactory_AteProcessedMince.stages.0.description"><s>I ate raw processed meat. It was cold, slimy, and deeply unpleasant.</s><r>Я ел сырое обработанное мясо. Оно было холодным, склизким и крайне неприятным.</r></e>
+  <e k="D" t="ThoughtDef" key="VFEFactory_AteProcessedMince.stages.0.label"><s>ate raw mince</s><r>ел сырой фарш</r></e>
+  <e k="D" t="ThoughtDef" key="VFEFactory_AteProcessedMinceIngredient.stages.0.description"><s>I ate cooked processed meat. It was edible, but the taste left much to be desired.</s><r>Я ел приготовленное обработанное мясо. Было съедобно, но вкус оставлял желать лучшего.</r></e>
+  <e k="D" t="ThoughtDef" key="VFEFactory_AteProcessedMinceIngredient.stages.0.label"><s>ate cooked mince</s><r>съел приготовленный фарш</r></e>
+  <e k="K" key="VFEFactory_AllowInserting"><s>Allow inserting</s><r>Разрешить вставку</r></e>
+  <e k="K" key="VFEFactory_AllowInsertingDesc"><s>Allow colonists to manually insert items into this factory hopper.</s><r>Разрешите колонистам вручную загружать предметы в этот заводской бункер.</r></e>
+  <e k="K" key="VFEFactory_AllowTaking"><s>Allow taking</s><r>Разрешить брать</r></e>
+  <e k="K" key="VFEFactory_AllowTakingDesc"><s>Allow colonists to take items from this factory hopper.</s><r>Разрешите колонистам брать предметы из этого заводского бункера.</r></e>
+  <e k="K" key="VFEFactory_AlreadyLinked"><s>Can't link: Already linked.</s><r>Невозможно связать: уже связано.</r></e>
+  <e k="K" key="VFEFactory_AutocycleWhenGrown"><s>Autocycle when grown</s><r>Автоцикл при выращивании</r></e>
+  <e k="K" key="VFEFactory_AutocycleWhenGrownDesc"><s>Enable or disable an automatic harvesting/sowing cycle when crops in the zone reach 100% maturity.</s><r>Включите или отключите автоматический цикл сбора урожая/посева, когда культуры в зоне достигают 100% зрелости.</r></e>
+  <e k="K" key="VFEFactory_AutofarmerObstructed"><s>Autofarmer cannot initiate due to a large object obstructing its path.</s><r>Автофермер не может начать работу, поскольку на его пути преграждает большой объект.</r></e>
+  <e k="K" key="VFEFactory_Autoharvesting"><s>Autoharvesting</s><r>Автосбор урожая</r></e>
+  <e k="K" key="VFEFactory_AutoharvestingDesc"><s>Enable or disable automatic harvesting and plant cutting in the designated zone.</s><r>Включите или отключите автоматический сбор урожая и обрезку растений в назначенной зоне.</r></e>
+  <e k="K" key="VFEFactory_Autosowing"><s>Autosowing</s><r>Автопосев</r></e>
+  <e k="K" key="VFEFactory_AutosowingDesc"><s>Enable or disable automatic sowing of the selected crop.</s><r>Включить или отключить автоматический посев выбранной культуры.</r></e>
+  <e k="K" key="VFEFactory_BabyFoodOutput"><s>10 baby food per 0.25 nutrition</s><r>10 детского питания на 0,25 питания</r></e>
+  <e k="K" key="VFEFactory_Butchery"><s>Meat of the corpse in the form of processed mince</s><r>Мясо трупа в виде переработанного фарша</r></e>
+  <e k="K" key="VFEFactory_ButcheryEntity"><s>Meat of the corpse in the form of twisted meat</s><r>Мясо трупа в виде перекрученного мяса</r></e>
+  <e k="K" key="VFEFactory_ButcheryHuman"><s>Meat of the corpse in the form of human meat</s><r>Мясо трупа в виде человеческого мяса</r></e>
+  <e k="K" key="VFEFactory_ButcheryInsect"><s>Meat of the corpse in the form of insect meat</s><r>Мясо трупа в виде мяса насекомых</r></e>
+  <e k="K" key="VFEFactory_CancelAutofarmer"><s>Cancel</s><r>Отмена</r></e>
+  <e k="K" key="VFEFactory_CancelAutofarmerDesc"><s>Cancel the process and have the autofarmer return to the platform.</s><r>Отмените процесс и верните автофермера на платформу.</r></e>
+  <e k="K" key="VFEFactory_CannotHaulFromConveyor"><s>Cannot haul from conveyor</s><r>Невозможно снять с конвейера</r></e>
+  <e k="K" key="VFEFactory_Cans"><s>20 cans per 1 nutrition</s><r>20 банок на 1 питание</r></e>
+  <e k="K" key="VFEFactory_CantLinkSelf"><s>Can't link: Cannot link to self.</s><r>Невозможно связать: Невозможно связать себя.</r></e>
+  <e k="K" key="VFEFactory_ChangeDirection"><s>Change direction</s><r>Изменить направление</r></e>
+  <e k="K" key="VFEFactory_ChangeDirectionDesc"><s>Change the direction of this conveyor belt.</s><r>Измените направление этой конвейерной ленты.</r></e>
+  <e k="K" key="VFEFactory_ChemfuelPerNutrition"><s>1 chemfuel per 0.1 nutrition</s><r>1 химтопливо на 0,1 питания</r></e>
+  <e k="K" key="VFEFactory_CommandBreakLink"><s>Break link</s><r>Разорвать ссылку</r></e>
+  <e k="K" key="VFEFactory_CommandBreakLinkDesc"><s>Unlink an underground conveyor entrance and exit, allowing for new links to be established.</s><r>Отсоедините вход и выход подземного конвейера, что позволит установить новые связи.</r></e>
+  <e k="K" key="VFEFactory_CommandCreateLink"><s>Create link</s><r>Создать ссылку</r></e>
+  <e k="K" key="VFEFactory_CommandCreateLinkDesc"><s>Link an underground conveyor entrance and exit together to allow items to pass.</s><r>Соедините вход и выход подземного конвейера вместе, чтобы предметы могли проходить.</r></e>
+  <e k="K" key="VFEFactory_CommandSelectLinked"><s>Select linked</s><r>Выберите связанный</r></e>
+  <e k="K" key="VFEFactory_CommandSelectLinkedDesc"><s>Show and select the linked structure.</s><r>Показать и выбрать связанную структуру.</r></e>
+  <e k="K" key="VFEFactory_ConnectionMissing"><s>Doesn't work due to missing link to an underground conveyor exit.</s><r>Не работает из-за отсутствия ссылки на выход из подземного конвейера.</r></e>
+  <e k="K" key="VFEFactory_DecreaseZone"><s>Decrease zone</s><r>Зона уменьшения</r></e>
+  <e k="K" key="VFEFactory_DecreaseZoneDesc"><s>Contract the zone in which autofarmer will harvest and sow crops.</s><r>Контрактируйте зону, в которой автофермер будет собирать и сеять урожай.</r></e>
+  <e k="K" key="VFEFactory_DirectionEast"><s>East</s><r>Восток</r></e>
+  <e k="K" key="VFEFactory_DirectionNorth"><s>North</s><r>Север</r></e>
+  <e k="K" key="VFEFactory_DirectionSouth"><s>South</s><r>Юг</r></e>
+  <e k="K" key="VFEFactory_DirectionWest"><s>West</s><r>Запад</r></e>
+  <e k="K" key="VFEFactory_FactoryNotWorking"><s>This factory is not working at the moment.</s><r>В настоящее время этот завод не работает.</r></e>
+  <e k="K" key="VFEFactory_FilterBelt"><s>filter belt</s><r>фильтрующий ремень</r></e>
+  <e k="K" key="VFEFactory_ForceHaul"><s>Force haul</s><r>Принудительная перевозка</r></e>
+  <e k="K" key="VFEFactory_HaulFromConveyor"><s>Haul from conveyor</s><r>Снять с конвейера</r></e>
+  <e k="K" key="VFEFactory_IncreaseZone"><s>Increase zone</s><r>Увеличить зону</r></e>
+  <e k="K" key="VFEFactory_IncreaseZoneDesc"><s>Extend the zone in which autofarmer will harvest and sow crops.</s><r>Расширьте зону, в которой автофермер будет собирать и сеять урожай.</r></e>
+  <e k="K" key="VFEFactory_InvalidConveyorConfiguration"><s>Invalid conveyor configuration: A conveyor cannot have 2 or more inputs and 2 or more outputs.</s><r>Неверная конфигурация конвейера: конвейер не может иметь 2 или более входов и 2 или более выходов.</r></e>
+  <e k="K" key="VFEFactory_ItemsUnderground"><s>Items underground: {0}</s><r>Предметы под землей: {0}</r></e>
+  <e k="K" key="VFEFactory_KibbleOutput"><s>24 kibble per 1 nutrition</s><r>24 кусочка на 1 корм</r></e>
+  <e k="K" key="VFEFactory_MasonryBlocks"><s>20 blocks of the same stone as the chunk used</s><r>20 блоков того же камня, что и использованный кусок.</r></e>
+  <e k="K" key="VFEFactory_MassProducedMealOutput"><s>4 meals per 2 nutrition</s><r>4-х разовое питание по 2 раза</r></e>
+  <e k="K" key="VFEFactory_MergerBelt"><s>merger belt</s><r>пояс слияния</r></e>
+  <e k="K" key="VFEFactory_Metals"><s>Random metals</s><r>Случайные металлы</r></e>
+  <e k="K" key="VFEFactory_NeedsFish"><s>Needs to be built on water that supports fish</s><r>Должен быть построен на воде, поддерживающей рыбу.</r></e>
+  <e k="K" key="VFEFactory_NeedsWater"><s>Needs to be built on water</s><r>Нужно строить на воде</r></e>
+  <e k="K" key="VFEFactory_NotValidTarget"><s>Can't link: {0} is not a valid link target.</s><r>Невозможно создать ссылку: {0} не является допустимой целью ссылки.</r></e>
+  <e k="K" key="VFEFactory_OutputOnLand"><s>Fish farm output needs to be on land</s><r>Продукция рыбоводства должна быть на суше</r></e>
+  <e k="K" key="VFEFactory_Overclock"><s>Overclock: {0}</s><r>Разгон: {0}</r></e>
+  <e k="K" key="VFEFactory_OverclockDesc"><s>Increase energy usage to operate at a faster rate. {0}</s><r>Увеличьте потребление энергии, чтобы работать быстрее. {0}</r></e>
+  <e k="K" key="VFEFactory_OverclockWindowLabel"><s>Overclock production</s><r>Разгон производства</r></e>
+  <e k="K" key="VFEFactory_PemmicanOutput"><s>32 pemmican per 1 nutrition</s><r>32 пеммикана на 1 корм</r></e>
+  <e k="K" key="VFEFactory_RandomFishAmount"><s>1 to 3 fish</s><r>от 1 до 3 рыб</r></e>
+  <e k="K" key="VFEFactory_RefuelingPort"><s>refueling port</s><r>заправочный порт</r></e>
+  <e k="K" key="VFEFactory_SplitterBelt"><s>splitter belt</s><r>разделительный ремень</r></e>
+  <e k="K" key="VFEFactory_StartAutofarmer"><s>Start</s><r>Начинать</r></e>
+  <e k="K" key="VFEFactory_StartAutofarmerDesc"><s>Initiate the autofarmer now. It will move through the designated zone, harvesting and sowing crops. It will return back to the autofarmer platform when done.</s><r>Запустите автофермер прямо сейчас. Он будет двигаться по обозначенной зоне, собирая и сея урожай. Когда закончите, он вернется обратно на платформу автофермера.</r></e>
+  <e k="K" key="VFEFactory_SteelPerBodySize"><s>10 steel per body size</s><r>10 стали на размер корпуса</r></e>
+  <e k="K" key="VFEFactory_SurvivalMealOutput"><s>4 meals per 2.4 nutrition</s><r>4-разовое питание по 2,4</r></e>
+  <e k="K" key="VFEFactory_TabSplitterFilter"><s>Filter</s><r>Фильтр</r></e>
+  <e k="K" key="VFEFactory_VariableOutput"><s>Variable output</s><r>Переменный выход</r></e>
+</AutoTranslateCache>
