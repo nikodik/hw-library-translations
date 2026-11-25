@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="ziom.arsenalroc" name="Arsenal - ROC" language="Russian" version="1">
+  <e k="D" t="AmmoSetDef" key="ARS_ROC_AmmoSet_117mmKungFeng.label"><s>117mm Kung Feng rocket</s><r>117-мм ракета «Кунг Фэн»</r></e>
+  <e k="D" t="AmmoSetDef" key="ARS_ROC_AmmoSet_180mmThunderbolt.label"><s>180mm Thunderbolt rocket</s><r>180-мм ракета «Тандерболт»</r></e>
+  <e k="D" t="RecipeDef" key="MakeARS_ROC_Ammo_117mmKungFeng_HE.description"><s>Craft 3 117mm (HE) rockets for the Kung Feng VI launcher.</s><r>Изготовьте 3 117-мм (HE) ракеты для пусковой установки Kung Feng VI.</r></e>
+  <e k="D" t="RecipeDef" key="MakeARS_ROC_Ammo_117mmKungFeng_HE.jobString"><s>Making 117mm (HE) rockets.</s><r>Изготовление 117-мм (ОФ) ракет.</r></e>
+  <e k="D" t="RecipeDef" key="MakeARS_ROC_Ammo_117mmKungFeng_HE.label"><s>make 117mm (HE) rockets x3</s><r>сделать 117-мм (ОФ) ракеты x3</r></e>
+  <e k="D" t="RecipeDef" key="MakeARS_ROC_Ammo_117mmKungFeng_Incendiary.description"><s>Craft 3 117mm (WP) rockets for the Kung Feng VI launcher.</s><r>Создайте 3 117-мм ракеты (WP) для пусковой установки Kung Feng VI.</r></e>
+  <e k="D" t="RecipeDef" key="MakeARS_ROC_Ammo_117mmKungFeng_Incendiary.jobString"><s>Making 117mm (WP) rockets.</s><r>Изготовление 117-мм ракет (WP).</r></e>
+  <e k="D" t="RecipeDef" key="MakeARS_ROC_Ammo_117mmKungFeng_Incendiary.label"><s>make 117mm (WP) rockets x3</s><r>сделать 117-мм (WP) ракеты x3</r></e>
+  <e k="D" t="RecipeDef" key="MakeARS_ROC_Ammo_180mmThunderbolt_HE.description"><s>Craft 2 180mm (HE) rockets for the Thunderbolt-2000 launcher.</s><r>Изготовьте 2 180-мм (ОФ) ракеты для пусковой установки «Тандерболт-2000».</r></e>
+  <e k="D" t="RecipeDef" key="MakeARS_ROC_Ammo_180mmThunderbolt_HE.jobString"><s>Making 180mm (HE) rockets.</s><r>Изготовление 180-мм (ОФ) ракет.</r></e>
+  <e k="D" t="RecipeDef" key="MakeARS_ROC_Ammo_180mmThunderbolt_HE.label"><s>make 180mm (HE) rockets x2</s><r>сделать 180-мм (ОФ) ракеты x2</r></e>
+  <e k="D" t="ThingCategoryDef" key="ARS_ROC_Ammo117mmRocket.label"><s>117mm rockets</s><r>117-мм ракеты</r></e>
+  <e k="D" t="ThingCategoryDef" key="ARS_ROC_Ammo180mmRocket.label"><s>180mm rockets</s><r>180-мм ракеты</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_Bullet_117mmKungFeng_HE.label"><s>117mm rocket (HE)</s><r>117-мм ракета (ОФ)</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_Bullet_117mmKungFeng_Incendiary.label"><s>117mm rocket (WP)</s><r>117-мм ракета (РМ)</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_Bullet_180mmThunderbolt_HE.label"><s>180mm rocket (HE)</s><r>180-мм ракета (ОФ)</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_Gun_KungFeng6G.verbs.0.label"><s>Kung Feng VI tube</s><r>Трубка Кунг Фэн VI</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_Gun_T82FG.verbs.0.label"><s>ROC T-82F cannons</s><r>Пушки ОКР Т-82Ф</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_Gun_Thunderbolt2000G.verbs.0.label"><s>Thunderbolt-2000 pods</s><r>Модули Thunderbolt-2000</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_Gun_XTR102G.verbs.0.label"><s>ROC XTR-102 cannon</s><r>Пушка ROC XTR-102</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_launcher_Kestrel1G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_launcher_Kestrel1G.tools.1.label"><s>tube</s><r>трубка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_launcher_Kestrel1G.verbs.0.label"><s>ROC Kestrel</s><r>РПЦ Пустельга</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_launcher_Kestrel2G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_launcher_Kestrel2G.tools.1.label"><s>tube</s><r>трубка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_launcher_Kestrel2G.verbs.0.label"><s>ROC Kestrel II</s><r>ОКР Пустельга II</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_mg_T74G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_mg_T74G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_mg_T74G.verbs.0.label"><s>ROC T74</s><r>РПЦ Т74</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_mg_T74_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_mg_T74_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_mg_T74_Unique.comps.6.namerLabels.0"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_mg_T74_Unique.comps.6.namerLabels.1"><s>gun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_mg_T74_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_mg_T74_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_mg_T74_Unique.verbs.0.label"><s>unique ROC T74</s><r>уникальный РПЦ Т74</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_mg_T75G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_mg_T75G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_mg_T75G.verbs.0.label"><s>ROC T75 LMG</s><r>РПЦ Т75 Ручной пулемет</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_mg_T75_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_mg_T75_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_mg_T75_Unique.comps.6.namerLabels.0"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_mg_T75_Unique.comps.6.namerLabels.1"><s>gun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_mg_T75_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_mg_T75_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_mg_T75_Unique.verbs.0.label"><s>unique ROC T75 LMG</s><r>уникальный РПЦ Т75 LMG</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_mg_Type57G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_mg_Type57G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_mg_Type57G.verbs.0.label"><s>ROC Type 57 MG</s><r>ОКР Тип 57 МГ</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_mg_Type57_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_mg_Type57_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_mg_Type57_Unique.comps.6.namerLabels.0"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_mg_Type57_Unique.comps.6.namerLabels.1"><s>gun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_mg_Type57_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_mg_Type57_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_mg_Type57_Unique.verbs.0.label"><s>unique ROC Type 57 MG</s><r>уникальный пулемет ОКР Тип 57</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_pistol_T75G.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_pistol_T75G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_pistol_T75G.verbs.0.label"><s>ROC T75 pistol</s><r>Пистолет РПЦ Т75</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_pistol_T75_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_pistol_T75_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_pistol_T75_Unique.comps.6.namerLabels.0"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_pistol_T75_Unique.comps.6.namerLabels.1"><s>sidearm</s><r>личное оружие</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_pistol_T75_Unique.comps.6.namerLabels.2"><s>handgun</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_pistol_T75_Unique.tools.0.label"><s>grip</s><r>схватить</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_pistol_T75_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_pistol_T75_Unique.verbs.0.label"><s>unique ROC T75 pistol</s><r>уникальный пистолет РПЦ Т75</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T112G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T112G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T112G.verbs.0.label"><s>ROC T112</s><r>РПЦ Т112</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T112_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T112_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T112_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T112_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T112_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T112_Unique.verbs.0.label"><s>unique ROC T112</s><r>уникальный РПЦ Т112</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T65K2G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T65K2G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T65K2G.verbs.0.label"><s>ROC T65K2</s><r>РПЦ Т65К2</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T65K2_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T65K2_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T65K2_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T65K2_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T65K2_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T65K2_Unique.verbs.0.label"><s>unique ROC T65K2</s><r>уникальный РПЦ Т65К2</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T68G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T68G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T68G.verbs.0.label"><s>ROC T68</s><r>РПЦ Т68</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T68_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T68_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T68_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T68_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T68_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T68_Unique.verbs.0.label"><s>unique ROC T68</s><r>одиночный РПЦ Т68</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T86G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T86G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T86G.verbs.0.label"><s>ROC T86 (T85)</s><r>РПЦ Т86 (Т85)</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T86_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T86_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T86_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T86_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T86_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T86_Unique.verbs.0.label"><s>unique ROC T86 (T85)</s><r>одноместный РПЦ Т86 (Т85)</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T91CQCG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T91CQCG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T91CQCG.verbs.0.label"><s>ROC T91 CQC</s><r>ОКР Т91 CQC</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T91CQC_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T91CQC_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T91CQC_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T91CQC_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T91CQC_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T91CQC_Unique.verbs.0.label"><s>unique ROC T91 CQC</s><r>уникальный РПЦ Т91 CQC</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T91G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T91G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T91G.verbs.0.label"><s>ROC T91</s><r>РПЦ Т91</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T91_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T91_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T91_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T91_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T91_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_T91_Unique.verbs.0.label"><s>unique ROC T91</s><r>уникальный РПЦ Т91</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_Type57AG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_Type57AG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_Type57AG.verbs.0.label"><s>ROC Type 57A</s><r>РПЦ Тип 57А</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_Type57A_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_Type57A_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_Type57A_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_Type57A_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_Type57A_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_Type57A_Unique.verbs.0.label"><s>unique ROC Type 57A</s><r>уникальная РПЦ Тип 57А</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_Type57G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_Type57G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_Type57G.verbs.0.label"><s>ROC Type 57</s><r>РПЦ Тип 57</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_Type57_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_Type57_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_Type57_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_Type57_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_Type57_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_Type57_Unique.verbs.0.label"><s>unique ROC Type 57</s><r>уникальный РПЦ Тип 57</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_XT105G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_XT105G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_XT105G.verbs.0.label"><s>ROC XT105</s><r>РОК XT105</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_XT105_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_XT105_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_XT105_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_XT105_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_XT105_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_XT105_Unique.verbs.0.label"><s>unique ROC XT105</s><r>уникальный ROC XT105</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_XT106G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_XT106G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_XT106G.verbs.0.label"><s>ROC XT106</s><r>РОК XT106</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_XT106_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_XT106_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_XT106_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_XT106_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_XT106_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_XT106_Unique.verbs.0.label"><s>unique ROC XT106</s><r>уникальный ROC XT106</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_XT97G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_XT97G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_XT97G.verbs.0.label"><s>ROC XT97</s><r>РПЦ XT97</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_XT97_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_XT97_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_XT97_Unique.comps.6.namerLabels.0"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_XT97_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_XT97_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_rifle_XT97_Unique.verbs.0.label"><s>unique ROC XT97</s><r>уникальный РПЦ XT97</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_smg_T77G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_smg_T77G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_smg_T77G.verbs.0.label"><s>ROC T77</s><r>РПЦ Т77</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_smg_T77_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_smg_T77_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_smg_T77_Unique.comps.6.namerLabels.0"><s>SMG</s><r>ППМ</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_smg_T77_Unique.comps.6.namerLabels.1"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_smg_T77_Unique.comps.6.namerLabels.2"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_smg_T77_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_smg_T77_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_smg_T77_Unique.verbs.0.label"><s>unique ROC T77</s><r>уникальный РПЦ Т77</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_smg_XT104G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_smg_XT104G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_smg_XT104G.verbs.0.label"><s>ROC XT104</s><r>РОК XT104</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_smg_XT104_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_smg_XT104_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_smg_XT104_Unique.comps.6.namerLabels.0"><s>SMG</s><r>ППМ</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_smg_XT104_Unique.comps.6.namerLabels.1"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_smg_XT104_Unique.comps.6.namerLabels.2"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_smg_XT104_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_smg_XT104_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_smg_XT104_Unique.verbs.0.label"><s>unique ROC XT104</s><r>уникальный ROC XT104</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_smg_XT106SMG.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_smg_XT106SMG.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_smg_XT106SMG.verbs.0.label"><s>ROC XT106 SMG</s><r>РПЦ XT106 SMG</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_smg_XT106SM_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_smg_XT106SM_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_smg_XT106SM_Unique.comps.6.namerLabels.0"><s>SMG</s><r>ППМ</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_smg_XT106SM_Unique.comps.6.namerLabels.1"><s>machine</s><r>машина</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_smg_XT106SM_Unique.comps.6.namerLabels.2"><s>pistol</s><r>пистолет</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_smg_XT106SM_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_smg_XT106SM_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_smg_XT106SM_Unique.verbs.0.label"><s>unique ROC XT106 SMG</s><r>уникальный пистолет-пулемет ROC XT106</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_T108G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_T108G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_T108G.verbs.0.label"><s>ROC T108</s><r>РПЦ Т108</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_T108_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_T108_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_T108_Unique.comps.6.namerLabels.0"><s>sniper</s><r>снайпер</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_T108_Unique.comps.6.namerLabels.1"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_T108_Unique.comps.6.namerLabels.2"><s>longshot</s><r>дальновидный</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_T108_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_T108_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_T108_Unique.verbs.0.label"><s>unique ROC T108</s><r>одиночный РПЦ Т108</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_T112G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_T112G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_T112G.verbs.0.label"><s>ROC T112 Anti-Materiel Rifle</s><r>Противоматериальная винтовка ROC T112</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_T112_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_T112_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_T112_Unique.comps.6.namerLabels.0"><s>sniper</s><r>снайпер</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_T112_Unique.comps.6.namerLabels.1"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_T112_Unique.comps.6.namerLabels.2"><s>longshot</s><r>дальновидный</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_T112_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_T112_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_T112_Unique.verbs.0.label"><s>unique ROC T112 Anti-Materiel Rifle</s><r>уникальная противоматериальная винтовка ROC T112</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_T93G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_T93G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_T93G.verbs.0.label"><s>ROC T93</s><r>РПЦ Т93</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_T93_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_T93_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_T93_Unique.comps.6.namerLabels.0"><s>sniper</s><r>снайпер</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_T93_Unique.comps.6.namerLabels.1"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_T93_Unique.comps.6.namerLabels.2"><s>longshot</s><r>дальновидный</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_T93_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_T93_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_T93_Unique.verbs.0.label"><s>unique ROC T93</s><r>одиночный РПЦ Т93</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_XT98G.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_XT98G.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_XT98G.verbs.0.label"><s>ROC XT98</s><r>РПЦ XT98</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_XT98_Unique.comps.0.chargeNoun"><s>charge</s><r>заряжать</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_XT98_Unique.comps.0.cooldownGerund"><s>on cooldown</s><r>на перезарядке</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_XT98_Unique.comps.6.namerLabels.0"><s>sniper</s><r>снайпер</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_XT98_Unique.comps.6.namerLabels.1"><s>rifle</s><r>винтовка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_XT98_Unique.comps.6.namerLabels.2"><s>longshot</s><r>дальновидный</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_XT98_Unique.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_XT98_Unique.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="ARS_ROC_sniper_XT98_Unique.verbs.0.label"><s>unique ROC XT98</s><r>уникальный РПЦ XT98</r></e>
+  <e k="D" t="WorkGiverDef" key="ARS_ROC_DoBillsWorkbench.gerund"><s>working at</s><r>работаю в</r></e>
+  <e k="D" t="WorkGiverDef" key="ARS_ROC_DoBillsWorkbench.label"><s>make ROC weapons</s><r>делать оружие РПЦ</r></e>
+  <e k="D" t="WorkGiverDef" key="ARS_ROC_DoBillsWorkbench.verb"><s>work at</s><r>работать в</r></e>
+</AutoTranslateCache>
