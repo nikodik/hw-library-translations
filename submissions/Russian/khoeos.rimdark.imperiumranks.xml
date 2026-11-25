@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="khoeos.rimdark.imperiumranks" name="Rimdark 40K - Ranks of the imperium" language="Russian" version="1">
+  <e k="D" t="AbilityDef" key="KHWH_Ability_PenitentConversion.description"><s>Offer one choice to a prisonner : serve the Emperor in the penal legions, or die.</s><r>Предложите заключенному один выбор: служить Императору в штрафных легионах или умереть.</r></e>
+  <e k="D" t="AbilityDef" key="KHWH_Ability_PenitentConversion.label"><s>serve or die</s><r>служить или умереть</r></e>
+  <e k="D" t="HediffDef" key="KHWH_SoulBound.description"><s>Bound to the Emperor's light in a sanctioning rite. The warp is open: thought can cross the void, in proportion to how true the binding held.</s><r>Привязан к свету Императора в санкционирующем обряде. Варп открыт: мысль может пересекать пустоту пропорционально тому, насколько верна связь.</r></e>
+  <e k="D" t="HediffDef" key="KHWH_SoulBound.label"><s>soul-bound</s><r>привязанный к душе</r></e>
+  <e k="D" t="HediffDef" key="KHWH_SoulBound.stages.0.label"><s>faint</s><r>слабый</r></e>
+  <e k="D" t="HediffDef" key="KHWH_SoulBound.stages.1.label"><s>true</s><r>истинный</r></e>
+  <e k="D" t="HediffDef" key="KHWH_SoulBound.stages.2.label"><s>transcendent</s><r>трансцендентный</r></e>
+  <e k="D" t="HediffDef" key="KHWH_WarpSight.description"><s>Does not see with the eyes but with the warp. Even blinded, this pawn perceives the world in proportion to their psychic sensitivity, and an exceptional psyker sees further than any human eye.</s><r>Видит не глазами, а варпом. Даже ослепленная, эта пешка воспринимает мир пропорционально своей психической чувствительности, а исключительный псайкер видит дальше, чем любой человеческий глаз.</r></e>
+  <e k="D" t="HediffDef" key="KHWH_WarpSight.label"><s>warp sight</s><r>варп-прицел</r></e>
+  <e k="D" t="PreceptDef" key="KHWH_Precept_SoulBinding.label"><s>soul binding</s><r>привязка души</r></e>
+  <e k="D" t="RankCategoryDef" key="KHWH_AstraMilitarumRankCategory.description"><s>Ranks of the Astra Militarum.</s><r>Звания Астра Милитарум.</r></e>
+  <e k="D" t="RankCategoryDef" key="KHWH_AstraMilitarumRankCategory.label"><s>Militarum</s><r>Солдат</r></e>
+  <e k="D" t="RankCategoryDef" key="KHWH_PsykerRankCategory.label"><s>Telepathica</s><r>Телепатика</r></e>
+  <e k="D" t="RankCategoryDef" key="KHWH_ScholaRankCategory.description"><s>Orphans trained to give their lives in the service of the Emperor.</s><r>Сироты, обученные отдать свою жизнь на службе Императору.</r></e>
+  <e k="D" t="RankCategoryDef" key="KHWH_ScholaRankCategory.label"><s>Ministorum</s><r>Министров</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRank2ndLieutenant.description"><s>Junior commissioned officer. First true rank of command, usually in charge of a squad or platoon.</s><r>Младший офицер. Первый настоящий командирский ранг, обычно командующий отделением или взводом.</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRank2ndLieutenant.label"><s>2nd Lieutenant</s><r>2-й лейтенант</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankCaptain.description"><s>Captains act as combat unit commanders, being more of a 'fighting role' than a leading one</s><r>Капитаны выступают в роли командиров боевых подразделений, выполняя скорее «боевую роль», чем ведущую.</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankCaptain.label"><s>Captain</s><r>Капитан</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankChirurgeon.description"><s>Guardsmen trained to give medical treatment to wounded in the field in the heat of combat.</s><r>Гвардейцы обучались оказанию медицинской помощи раненым в полевых условиях в пылу боя.</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankChirurgeon.label"><s>Chirurgeon</s><r>Хирургеон</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankColonel.description"><s>Commanding officer of an Imperial Guard Regiment. They are responsible for the troops and equipment under their command.</s><r>Командир полка Имперской Гвардии. Они несут ответственность за находящиеся под их началом войска и технику.</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankColonel.label"><s>Colonel</s><r>Полковник</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankConscript.description"><s>A civilian forcefully pressed into service with minimal preparation.</s><r>Гражданский человек, насильно принужденный к службе с минимальной подготовкой.</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankConscript.label"><s>Conscript</s><r>Призывник</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankCorporal.description"><s>Non-Commissioned Officer working with their commanding Sergeants in leading troops into battle and overseeing standard regimental operations.</s><r>Унтер-офицер, работающий со своими командующими сержантами, ведущий войска в бой и наблюдающий за стандартными операциями полка.</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankCorporal.label"><s>Corporal</s><r>Капрал</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankEngineer.description"><s>Combat Engineers are soldiers specialized in tunnelling, counter-mining, and engineering operations.</s><r>Боевые инженеры — это солдаты, специализирующиеся на прокладке туннелей, противоминных и инженерных операциях.</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankEngineer.label"><s>Engineer</s><r>Инженер</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankEngineerCorporal.description"><s>Non-Commissioned Officer working with their commanding Seargent in leading of engineering operations.</s><r>Унтер-офицер, работающий вместе со своим командиром сержантом в руководстве инженерными операциями.</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankEngineerCorporal.label"><s>Engineer Corporal</s><r>Инженер-капрал</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankEngineerSergeant.description"><s>Senior non-commissioned officer of the sappers, directing fortification, demolition and counter-mining work across the regiment.</s><r>Старший унтер-офицер сапёров, руководивший фортификационными, подрывными и противоминными работами в полку.</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankEngineerSergeant.label"><s>Engineer Sergeant</s><r>Инженер-сержант</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankEnsign.description"><s>Fresh entrant into the officer track. Still untested, undergoing basic leadership and tactical instruction</s><r>Новичок в офицерской карьере. Все еще не проверен, проходит базовое руководство и тактическое обучение.</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankEnsign.label"><s>Ensign</s><r>Прапорщик</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankGuardsman.description"><s>The standard rank of a trained soldier of the Imperial Guard</s><r>Стандартное звание обученного солдата Имперской Гвардии</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankGuardsman.label"><s>Guardsman</s><r>Гвардеец</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankHardenedVeteran.description"><s>Troopers of the Astra Militarum who have survived multiple battles and have become skilled and efficient warriors for the Emperor of Mankind</s><r>Солдаты Астра Милитарум, пережившие множество сражений и ставшие опытными и эффективными воинами Императора Человечества.</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankHardenedVeteran.label"><s>Hardened Veteran</s><r>Закаленный ветеран</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankLieutenant.description"><s>The most junior officer on the battlefield commanding Imperial Guard forces</s><r>Самый младший офицер на поле боя, командующий силами Имперской Гвардии.</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankLieutenant.label"><s>Lieutenant</s><r>Лейтенант</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankLogistician.description"><s>Strategic planner of supply</s><r>Стратегический планировщик поставок</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankLogistician.label"><s>Logistician</s><r>Логист</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankMajor.description"><s>Majors act as the second-in-command of a regiment.</s><r>Майоры действуют как заместители командира полка.</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankMajor.label"><s>Major</s><r>Главный</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankMarksman.description"><s>Soldier in training for long range engagement and precision shooting.</s><r>Солдат тренируется вести дальний бой и точную стрельбу.</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankMarksman.label"><s>Marksman</s><r>Стрелок</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankMedicaeMaster.description"><s>Chief medical authority</s><r>Главный медицинский орган</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankMedicaeMaster.label"><s>Master of Medicae</s><r>Магистр медицины</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankMedicaeOfficer.description"><s>Senior battlefield doctor</s><r>Старший боевой врач</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankMedicaeOfficer.label"><s>Medicae Officer</s><r>Медицинский офицер</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankOfficerCandidate.description"><s>Advanced trainee preparing for commission. Trusted with command simulations, drill instruction, or small auxiliary units under supervision.</s><r>Продвинутый стажер готовится к комиссии. Ему доверяют командное моделирование, обучение тренировкам или небольшие вспомогательные подразделения под наблюдением.</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankOfficerCandidate.label"><s>Officer Candidate</s><r>Кандидат в офицеры</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankQuartermaster.description"><s>Manages equipment and provisions</s><r>Управляет оборудованием и провизией</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankQuartermaster.label"><s>Quartermaster</s><r>Интендант</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankRecruit.description"><s>A civilian volunteer or drafted individual undergoing initial training</s><r>Гражданский волонтер или призывник, проходящий начальную подготовку.</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankRecruit.label"><s>Recruit</s><r>Набирать</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankScout.description"><s>Scouts are used for reconnaissance and to lead troops through difficult terrain.</s><r>Разведчики используются для разведки и ведения войск по труднопроходимой местности.</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankScout.label"><s>Scout</s><r>Скаут</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankScribe.description"><s>Record keeper and data handler</s><r>Хранитель записей и обработчик данных</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankScribe.label"><s>Scribe</s><r>Писец</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankSergeant.description"><s>Non-Commissioned Officer who carry out any tasks assigned to them by their officers and are essential to the running of the regiment.</s><r>Унтер-офицеры, которые выполняют любые задачи, порученные им офицерами, и необходимы для управления полком.</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankSergeant.label"><s>Sergeant</s><r>Сержант</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankSharpshooter.description"><s>Trained snipers of the Imperial Guard</s><r>Обученные снайперы Имперской Гвардии</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankSharpshooter.label"><s>Sharpshooter</s><r>Снайпер</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankSniper.description"><s>Expert in long range engagement, assassination and operation in hostile terrain. Often alone or leading an independent small squad.</s><r>Эксперт по ведению боя на дальних дистанциях, убийствам и действиям на враждебной местности. Часто в одиночку или возглавляет независимый небольшой отряд.</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankSniper.label"><s>Sniper</s><r>Снайпер</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankStormTrooper.description"><s>Specially-trained Guardsmen used to perform various types of special operations.</s><r>Специально обученные гвардейцы выполняли различные виды специальных операций.</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankStormTrooper.label"><s>Stormtrooper</s><r>Штурмовик</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankStormTrooperSergeant.description"><s>Non-Commissioned officer leading groups of stormtooper into various types of special operations.</s><r>Унтер-офицер, возглавляющий группы штурмовиков в различных видах спецопераций.</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankStormTrooperSergeant.label"><s>Stormtrooper Sergeant</s><r>Штурмовик-сержант</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankTrooper.description"><s>Standard infantryman who has completed basic training.</s><r>Стандартный пехотинец, прошедший базовую подготовку.</r></e>
+  <e k="D" t="RankDef" key="KHWH_AstraMilitarumRankTrooper.label"><s>Trooper</s><r>Солдат</r></e>
+  <e k="D" t="RankDef" key="KHWH_PenalRankExpendable.description"><s>They didn't die in their first battle, well officers don't want them to be alive anyway, and they like flesh walls.</s><r>Они не погибли в своем первом бою, ну, офицеры все равно не хотят, чтобы они были живы, а им нравятся стены из плоти.</r></e>
+  <e k="D" t="RankDef" key="KHWH_PenalRankExpendable.label"><s>Expendable</s><r>Расходный материал</r></e>
+  <e k="D" t="RankDef" key="KHWH_PenalRankGuardsman.description"><s>They didn't die in their first battle and are quite effective in combat. Even though they remain criminals, they are regarded somewhat more as full-fledged troopers.</s><r>Они не погибли в первом бою и весьма эффективны в бою. Несмотря на то, что они остаются преступниками, их рассматривают скорее как полноценных солдат.</r></e>
+  <e k="D" t="RankDef" key="KHWH_PenalRankGuardsman.label"><s>Guardsman</s><r>Гвардеец</r></e>
+  <e k="D" t="RankDef" key="KHWH_PenalRankHardenedCriminal.description"><s>Criminals of the penal legion who have survived multiple battles and have become skilled and efficient warriors</s><r>Преступники штрафного легиона, пережившие множество сражений и ставшие умелыми и боеспособными воинами.</r></e>
+  <e k="D" t="RankDef" key="KHWH_PenalRankHardenedCriminal.label"><s>Hardened Criminal</s><r>Закоренелый преступник</r></e>
+  <e k="D" t="RankDef" key="KHWH_PenalRankPenitent.description"><s>A criminal sentenced to serve in the penal legions for life. Most of them die in their first battle.</s><r>Преступник, приговоренный к пожизненной службе в штрафных легионах. Большинство из них погибают в первом бою.</r></e>
+  <e k="D" t="RankDef" key="KHWH_PenalRankPenitent.label"><s>Penitent</s><r>Кающийся</r></e>
+  <e k="D" t="RankDef" key="KHWH_PenalRankSuicideBomber.description"><s>They didn't die in their first battle, well officers don't want them to be alive anyway, and they like fireworks.</s><r>Они не погибли в первом же бою, ну, офицеры все равно не хотят, чтобы они были живы, а они любят фейерверки.</r></e>
+  <e k="D" t="RankDef" key="KHWH_PenalRankSuicideBomber.label"><s>Suicide Bomber</s><r>Террорист-смертник</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankAspirant.description"><s>Having proven themselves stable and humble, Aspirants are the next step in the path to becoming a sanctioned psyker</s><r>Проявив себя стабильными и скромными, кандидаты становятся следующим шагом на пути к тому, чтобы стать санкционированными псайкерами.</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankAspirant.label"><s>Aspirant</s><r>Кандидат</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankAstropath.description"><s>Astropath are psykers with a strong connexion to the warp, responsible for carrying out communication across the imperium. The soul bounding ritual can be started at a ritual spot. It does not always succeed</s><r>Астропаты — это псайкеры, имеющие сильную связь с варпом и отвечающие за связь по всему Империуму. Ритуал ограничения души можно начать в ритуальном месте. Это не всегда удается</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankAstropath.label"><s>Astropath</s><r>Астропат</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankAstropathTranscendent.description"><s>The Astropath Transcendent are rare psykers whose powers and very essence has been touched by the light of the God-Emperor Himself.</s><r>Трансцендентные Астропаты — редкие псайкеры, чьи силы и сама сущность были затронуты светом Самого Бога-Императора.</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankAstropathTranscendent.label"><s>Astropath Transcendent</s><r>Астропат Трансцендентный</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankAstropathTranscendent.newPawnCardTitle"><s>Astropath Transcendent</s><r>Астропат Трансцендентный</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankKnightCentura.description"><s>Knights-Centura are battlefield commanders of the Silent Sisterhood. They are the most experienced and veteran of the Oblivion Knights.</s><r>Рыцари-Центура — боевые командиры Безмолвного Сестринства. Они самые опытные и ветераны Рыцарей Обливиона.</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankKnightCentura.label"><s>Knight-Centura</s><r>Найт-Центура</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankLatentPsyker.description"><s>Individual with a connection to the Warp, though not necessarily aware of it.</s><r>Человек, имеющий связь с Варпом, хотя и не обязательно осознающий это.</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankLatentPsyker.label"><s>Latent Psyker</s><r>Скрытый псайкер</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankNavigator.description"><s>A Navigator is a particular psyker who possesses the Navigator Gene. This give the unique ability to navigate accurately through the warp.</s><r>Навигатор — особый псайкер, обладающий Геном Навигатора. Это дает уникальную возможность точно перемещаться по варпу.</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankNavigator.label"><s>Navigator</s><r>Навигатор</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankNavigatorPrimaris.description"><s>Navigator Primaris are usually an elder navigational officer who is in charge of leading a fleet</s><r>Штурман Примарис обычно является старшим офицером-штурманом, отвечающим за управление флотом.</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankNavigatorPrimaris.label"><s>Navigator Primaris</s><r>Примарис Навигатор</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankNovator.description"><s>Novators are the matriarchs and patriarchs of the Navigator Houses, who can either be the figurative parent or biological parent of the family.</s><r>Новаторы — матриархи и патриархи Домов Навигаторов, которые могут быть либо образными, либо биологическими родителями семьи.</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankNovator.label"><s>Novator</s><r>Новатор</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankNoviceSister.description"><s>A Novice-Sister was an aspirant to the order who had not yet taken the Oath of Tranquility.</s><r>Сестра-послушница — кандидатка в орден, еще не принявшая Клятву Спокойствия.</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankNoviceSister.label"><s>Novice-sister</s><r>Послушница-сестра</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankOblivionKnight.description"><s>An Oblivion Knight is a senior officer of the Sisters of Silence who commands other sisters of different ranks</s><r>Рыцарь Обливиона — старший офицер Сестер Безмолвия, командующий другими сестрами разных рангов.</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankOblivionKnight.label"><s>Oblivion Knight</s><r>Рыцарь забвения</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankPrimarisPsyker.description"><s>Primaris Psykers (also known as battle-psykers) are extremely powerful sanctioned psykers in the service of the Imperial Guard</s><r>Примарис-псайкеры (также известные как боевые псайкеры) — чрезвычайно могущественные санкционированные псайкеры на службе Имперской Гвардии.</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankPrimarisPsyker.label"><s>Primaris Psyker</s><r>Основной псайкер</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankPrimarisPsyker.newPawnCardTitle"><s>Primaris Psyker</s><r>Основной псайкер</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankProsecutor.description"><s>Prosecutors operate in more tactically flexible squads designed around longer-ranged combat. they specialize in open engagements against massed targets.</s><r>Прокуроры работают в более тактически гибких отрядах, созданных для боя на дальних дистанциях. они специализируются на открытых боях против массированных целей.</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankProsecutor.label"><s>Prosecutor</s><r>Прокурор</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankSanctionedPsyker.description"><s>A Sanctioned Psyker is a psyker who are a servant of the Imperium of Man, for they have the willpower to control their abilities and not become a danger to others</s><r>Санкционированный псайкер — это псайкер, служащий Империуму Человечества, поскольку он обладает силой воли, позволяющей контролировать свои способности и не становиться опасностью для других.</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankSanctionedPsyker.label"><s>Sanctioned Psyker</s><r>Санкционированный псайкер</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankSanctionite.description"><s>Sanctionites psykers found worthy to serve the Emperor rather than feed His appetite, yet even then, they must be constantly watched for weakness of the soul</s><r>Псайкеры-санкциониты признаны достойными служить Императору, а не утолять Его аппетит, но даже в этом случае за ними нужно постоянно следить на предмет слабости души.</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankSanctionite.label"><s>Sanctionite</s><r>Освятить</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankSisterCommander.description"><s>Also called the Sister-Commander, is't the most senior field officer within the order and serves as the overall commander of the entire Silent Sisterhood</s><r>Также называемая сестрой-командиром, она не является самым старшим полевым офицером в ордене и является главнокомандующим всего Безмолвного Сестринства.</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankSisterCommander.label"><s>Knight Commander</s><r>Рыцарь-командир</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankSisterCommander.newPawnCardTitle"><s>Sister Commander</s><r>Сестра-командир</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankSisterOfSilence.description"><s>A sister that has taken the Vow of Tranquility. They operated in three types of squads known as Seeker, Prosecutor, and Vigilator.</s><r>Сестра, принявшая обет спокойствия. Они действовали в трех типах отрядов, известных как «Искатель», «Прокурор» и «Бдительный».</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankSisterOfSilence.label"><s>Sister of Silence</s><r>Сестра тишины</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankVigilator.description"><s>Vigilators are the most experienced close-ranged specialists. In battle they are used to identify and eliminate key enemy forces at close quarters.</s><r>Вигилаторы — самые опытные специалисты ближнего боя. В бою они используются для выявления и уничтожения ключевых сил противника на близком расстоянии.</r></e>
+  <e k="D" t="RankDef" key="KHWH_PsykerRankVigilator.label"><s>Vigilator</s><r>Наблюдатель</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankAcolyte.description"><s>The first step of an Inquisitor in training, they learn how to extract information using torture under the direction of their mentor Inquisitor</s><r>Первый шаг в обучении Инквизитора: они учатся добывать информацию с помощью пыток под руководством своего наставника-Инквизитора.</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankAcolyte.label"><s>Acolyte</s><r>Послушник</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankCadet.description"><s>Graduated progena in training before candidating to specialized branch</s><r>Окончил прогенную подготовку перед поступлением в специализированное отделение.</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankCadet.label"><s>Cadet</s><r>Кадет</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankCadetCommissar.description"><s>Iron willed progena at the final stage of commissar's training, serving under a more experienced commissar.</s><r>Железная волевая прогена на заключительном этапе подготовки комиссара, служащая под началом более опытного комиссара.</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankCadetCommissar.label"><s>Cadet Commissar</s><r>Кадет-комиссар</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankCanoness.description"><s>Veteran Battle Sister who has risen through the ranks to command an entire order through their qualities of command, leadership and strategic knowledge</s><r>Боевая сестра-ветеран, которая поднялась по служебной лестнице и стала командовать всем орденом благодаря своим командным качествам, лидерству и стратегическим знаниям.</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankCanoness.label"><s>Canoness</s><r>Канонисса</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankCommissar.description"><s>Commissars are special Imperial officers assigned to a regiment to enforce discipline and devotion to the emperor.</s><r>Комиссары — это специальные имперские офицеры, приписанные к полку для обеспечения дисциплины и преданности императору.</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankCommissar.label"><s>Commissar</s><r>Комиссар</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankCommissarCaptain.description"><s>Commissar-Captain is a rarely-seen rank that is an intermediary position between a full commissar and a commissar-general.</s><r>Комиссар-капитан — редко встречающееся звание, являющееся промежуточной должностью между полным комиссаром и генерал-комиссаром.</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankCommissarCaptain.label"><s>Commissar Captain</s><r>Комиссар-капитан</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankCommissarGeneral.description"><s>The most senior known rank in the Commissariat, Commissars-General are highly experienced Commissars.</s><r>Генеральные комиссары - самое высокое известное звание в комиссариате - это очень опытные комиссары.</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankCommissarGeneral.label"><s>Commissar General</s><r>Генеральный комиссар</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankInquisitor.description"><s>Inquisitors are members of the Inquisition, the organisation responsible for investigating and dealing with all potential threats to the Imperium and to humanity.</s><r>Инквизиторы — члены Инквизиции, организации, ответственной за расследование и устранение всех потенциальных угроз Империуму и человечеству.</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankInquisitor.label"><s>Inquisitor</s><r>Инквизитор</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankInquisitorLord.description"><s>Also known as Lord Inquisitors or High Inquisitors, Inquisitor Lords exist to help maintain the integrity of the organisation, and to watch over and guide its members</s><r>Лорды-инквизиторы, также известные как лорды-инквизиторы или высшие инквизиторы, существуют для того, чтобы помогать поддерживать целостность организации, а также следить за ее членами и направлять их.</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankInquisitorLord.label"><s>Inquisitor Lord</s><r>Инквизитор Лорд</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankInquisitorLord.newPawnCardTitle"><s>Lord Inquisitor</s><r>Лорд-инквизитор</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankInterrogator.description"><s>The second stage for an Inquisitor in training. Interrogators are both capable and strong, having a tremendous will to survive battle alongside their mentors.</s><r>Второй этап обучения Инквизитора. Следователи одновременно способные и сильные, обладающие огромным желанием выжить в бою вместе со своими наставниками.</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankInterrogator.label"><s>Interrogator</s><r>Следователь</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankLordCommissar.description"><s>Higher ranked Commissars, promoted after exemplary battlefield service. Their battlefield heroics are the thing of legends for average Guardsman.</s><r>Комиссары более высокого ранга, получившие повышение после образцовой боевой службы. Их героизм на поле боя стал легендой для среднего гвардейца.</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankLordCommissar.label"><s>Lord Commissar</s><r>Лорд-комиссар</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankPalatine.description"><s>A Palatine is an Adepta Sororitas battlefield commander who works under a Canoness to coordinate their Order's forces</s><r>Палатин — полевой командир Адепта Сороритас, который работает под руководством канониссы и координирует силы своего Ордена.</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankPalatine.label"><s>Palatine</s><r>Палатин</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankProgena.description"><s>Orphan or noble children endoctrinated into the Schola Progenium to become elite warriors or brightest officers of the imperium.</s><r>Дети-сироты или благородные дети, которых индоктринировали в Схолу Прогениум, чтобы стать элитными воинами или самыми яркими офицерами Империума.</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankProgena.label"><s>Progena</s><r>Прогена</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankSister.description"><s>Fully fleged member of sisters of battle of the Adepta Sororitas, fighting arm of the Ecclesiarchy.</s><r>Полноправный член боевых сестер Адепта Сороритас, боевого подразделения Экклезиархии.</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankSister.label"><s>Sister</s><r>Сестра</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankSisterNovitiate.description"><s>Novitiates are female Progena of the Schola Progeniums, who have been selected to undergo training to join the Adepta Sororitas</s><r>Новициаты — женщины-прогены из Схолы Прогениум, отобранные для прохождения обучения для вступления в Адепта Сороритас.</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankSisterNovitiate.label"><s>Sister Novitiate</s><r>Сестра послушница</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankSisterSuperior.description"><s>Experienced sisters that may command squads of Seraphim or assigned to kill team units.</s><r>Опытные сестры, которые могут командовать отрядами Серафимов или назначаться для уничтожения отрядов команд.</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankSisterSuperior.label"><s>Sister Superior</s><r>Старшая сестра</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankTempestor.description"><s>Officer leading a squad of Tempestus Scions</s><r>Офицер, возглавляющий отряд Отпрысков Темпестуса</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankTempestor.label"><s>Tempestor</s><r>Темпестор</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankTempestorPrime.description"><s>Officer leading a platoon of Tempestus Scions promoted on battlefield record alone.</s><r>Офицер, возглавлявший взвод Отпрысков Темпестуса, получил повышение только за боевые заслуги.</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankTempestorPrime.label"><s>Tempestor Prime</s><r>Темпестор Прайм</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankTempestorPrime.newPawnCardTitle"><s>Tempestor Prime</s><r>Темпестор Прайм</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankTempestusAquillon.description"><s>Elite Scions specialized in mobile infantry, they often display a higher instance of violent tendencies, edging towards borderline sociopathy</s><r>Элитные Потомки специализируются на мобильной пехоте, они часто демонстрируют повышенную склонность к насилию, граничащую с граничащей с социопатией.</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankTempestusAquillon.label"><s>Aquillon</s><r>Аквилон</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankTempestusGrenadier.description"><s>Toughest and most skilled scion specialized in heavy combat.</s><r>Самый сильный и опытный отпрыск, специализирующийся на тяжелом бою.</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankTempestusGrenadier.label"><s>Grenadier</s><r>Гренадер</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankTempestusScion.description"><s>The Tempestus Scions are the very best that the Schola Progenium can offer and are trained as elite strike soldiers of the Astra Militarum.</s><r>Отпрыски Темпестуса — лучшее, что может предложить Схола Прогениум, и их готовят в качестве элитных ударных солдат Астра Милитарум.</r></e>
+  <e k="D" t="RankDef" key="KHWH_ScholaRankTempestusScion.label"><s>Tempestus Scion</s><r>Отпрыск Темпестуса</r></e>
+  <e k="D" t="RitualBehaviorDef" key="KHWH_SoulBindingBehavior.roles.0.label"><s>bound</s><r>граница</r></e>
+  <e k="D" t="RitualBehaviorDef" key="KHWH_SoulBindingBehavior.roles.0.missingDesc"><s>a sanctioned psyker who is not already soul-bound</s><r>санкционированный псайкер, который еще не связан душой</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="KHWH_SoulBindingOutcome.comps.0.label"><s>sanctioned psykers attending</s><r>присутствие санкционированных псайкеров</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="KHWH_SoulBindingOutcome.comps.1.label"><s>psychic strength of the subject</s><r>психическая сила субъекта</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="KHWH_SoulBindingOutcome.outcomeChances.0.description"><s>The {0} was clumsy, but the binding held.</s><r>{0} был неуклюжим, но привязка выдержала.</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="KHWH_SoulBindingOutcome.outcomeChances.0.label"><s>Clumsy</s><r>Неуклюжий</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="KHWH_SoulBindingOutcome.outcomeChances.1.description"><s>The {0} was solemn and true. A new voice joins the choir of the void.</s><r>{0} было торжественно и правдиво. К хору пустоты присоединяется новый голос.</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="KHWH_SoulBindingOutcome.outcomeChances.1.label"><s>Solemn</s><r>Торжественный</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="KHWH_SoulBindingOutcome.outcomeChances.2.description"><s>The {0} was transcendent. For a heartbeat, everyone present felt the warp brush against them.</s><r>{0} было трансцендентным. На мгновение все присутствующие почувствовали, как их коснулся варп.</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="KHWH_SoulBindingOutcome.outcomeChances.2.label"><s>Transcendent</s><r>Трансцендентный</r></e>
+  <e k="D" t="RitualPatternDef" key="KHWH_SoulBinding.ritualExpectedDesc"><s>Soul-binding is the ritual which protects and strengthens the soul of a Human psyker.</s><r>Связывание души — это ритуал, который защищает и укрепляет душу человека-псайкера.</r></e>
+  <e k="D" t="ThoughtDef" key="KHWH_SoulBinding_Clumsy.stages.0.description"><s>The soul binding was clumsy, but it was done.</s><r>Связывание души было неуклюжим, но оно было сделано.</r></e>
+  <e k="D" t="ThoughtDef" key="KHWH_SoulBinding_Clumsy.stages.0.label"><s>clumsy soul binding</s><r>неуклюжая привязка души</r></e>
+  <e k="D" t="ThoughtDef" key="KHWH_SoulBinding_Solemn.stages.0.description"><s>I witnessed the Emperor's light from afar.</s><r>Я был свидетелем света Императора издалека.</r></e>
+  <e k="D" t="ThoughtDef" key="KHWH_SoulBinding_Solemn.stages.0.label"><s>solemn soul binding</s><r>торжественное связывание души</r></e>
+  <e k="D" t="ThoughtDef" key="KHWH_SoulBinding_Transcendent.stages.0.description"><s>I felt the warp itself and the Emperor's light all around me. I will not forget it.</s><r>Я чувствовал вокруг себя сам варп и свет Императора. Я этого не забуду.</r></e>
+  <e k="D" t="ThoughtDef" key="KHWH_SoulBinding_Transcendent.stages.0.label"><s>transcendent soul binding</s><r>трансцендентная связь души</r></e>
+  <e k="K" key="KHWH.PenitentConversion.Chance"><s>Force to service: {0}</s><r>Принудительное обслуживание: {0}</r></e>
+  <e k="K" key="KHWH.PenitentConversion.Converted"><s>{0} breaks under {1} and is sentenced to serve in the penal legion ({2} chance).</s><r>{0} не превышает {1} и приговорен к службе в штрафном легионе (шанс {2}).</r></e>
+  <e k="K" key="KHWH.PenitentConversion.ConvertedLabel"><s>New Penitent</s><r>Новый кающийся</r></e>
+  <e k="K" key="KHWH.PenitentConversion.Executed"><s>{0} defies {1} to the last and is executed ({2} conversion chance).</s><r>{0} бросает вызов {1} до последнего и выполняется (шанс реализации {2}).</r></e>
+  <e k="K" key="KHWH.PenitentConversion.ExecutedLabel"><s>Prisoner executed</s><r>Заключенный казнен</r></e>
+  <e k="K" key="KHWH.RankSystem.ContinuationCategoryLocked"><s>{0} is not available for this pawn.</s><r>{0} недоступно для этой пешки.</r></e>
+  <e k="K" key="KHWH.RankSystem.ContinuationClickHint"><s>Click to open that tree on this rank.</s><r>Нажмите, чтобы открыть дерево этого ранга.</r></e>
+  <e k="K" key="KHWH.RankSystem.ContinuesInHeader"><s>Continues in {0}:</s><r>Продолжение в {0}:</r></e>
+  <e k="K" key="KHWH.RankSystem.GhostMore"><s>+{0} more</s><r>+{0} ещё</r></e>
+  <e k="K" key="KHWH.RankSystem.ReachableFromHeader"><s>Also reachable from {0}.</s><r>Также доступен из {0}.</r></e>
+  <e k="K" key="KHWH.RankSystem.SharedRankAlsoIn"><s>Shared rank: the branch continues in {0}.</s><r>Общий ранг: ветвь продолжается в {0}.</r></e>
+  <e k="K" key="KHWH.Ritual.AlreadyHasHediff"><s>Already {0}.</s><r>Уже {0}.</r></e>
+  <e k="K" key="KHWH.Ritual.MustHoldRank"><s>Must hold the rank of {0}.</s><r>Должен иметь ранг {0}.</r></e>
+  <e k="K" key="KHWH.SoulBinding.Failed"><s>the soul binding tore their mind</s><r>связывание души разорвало их разум</r></e>
+  <e k="K" key="KHWH.WarpSight.CapacityImpactor"><s>Warp sight ({0})</s><r>Варп-зрение ({0})</r></e>
+</AutoTranslateCache>
