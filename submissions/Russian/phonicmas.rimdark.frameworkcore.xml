@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="phonicmas.rimdark.frameworkcore" name="RimDark 40k - Framework" language="Russian" version="1">
+  <e k="D" t="ApparelLayerDef" key="BEWH_Shield.label"><s>shield</s><r>щит</r></e>
+  <e k="D" t="CustomizationTabDef" key="BEWH_ArmorAlternateBaseForms.description"><s>Alternate base textures for apparel.</s><r>Альтернативные базовые текстуры для одежды.</r></e>
+  <e k="D" t="CustomizationTabDef" key="BEWH_ArmorAlternateBaseForms.label"><s>Alternate base textures</s><r>Альтернативные базовые текстуры</r></e>
+  <e k="D" t="CustomizationTabDef" key="BEWH_ArmorColoring.description"><s>Armor coloring.</s><r>Раскраска брони.</r></e>
+  <e k="D" t="CustomizationTabDef" key="BEWH_ArmorColoring.label"><s>Armor Coloring</s><r>Раскраска брони</r></e>
+  <e k="D" t="CustomizationTabDef" key="BEWH_ArmorDecoration.description"><s>Deocrations for armor.</s><r>Орнаменты для доспехов.</r></e>
+  <e k="D" t="CustomizationTabDef" key="BEWH_ArmorDecoration.label"><s>Armor Decoration</s><r>Украшение доспехов</r></e>
+  <e k="D" t="CustomizationTabDef" key="BEWH_ArmorUpgrades.description"><s>Functional upgrades for armor. A decoration counts as an upgrade when it grants stats, abilities or anything else beyond appearance.</s><r>Функциональные улучшения брони. Украшение считается улучшением, если оно дает характеристики, способности или что-то еще, помимо внешнего вида.</r></e>
+  <e k="D" t="CustomizationTabDef" key="BEWH_ArmorUpgrades.label"><s>Armor Upgrades</s><r>Улучшения брони</r></e>
+  <e k="D" t="CustomizationTabDef" key="BEWH_PawnBodyColoring.description"><s>Body coloring for mechs and other non-humanlike pawns.</s><r>Раскраска тел для мехов и других нечеловеческих пешек.</r></e>
+  <e k="D" t="CustomizationTabDef" key="BEWH_PawnBodyColoring.label"><s>Body Coloring</s><r>Окраска тела</r></e>
+  <e k="D" t="CustomizationTabDef" key="BEWH_WeaponAlternateBaseForms.description"><s>Alternate base textures for weapons.</s><r>Альтернативные базовые текстуры оружия.</r></e>
+  <e k="D" t="CustomizationTabDef" key="BEWH_WeaponAlternateBaseForms.label"><s>Alternate base textures</s><r>Альтернативные базовые текстуры</r></e>
+  <e k="D" t="CustomizationTabDef" key="BEWH_WeaponColoring.description"><s>Weapon coloring.</s><r>Раскраска оружия.</r></e>
+  <e k="D" t="CustomizationTabDef" key="BEWH_WeaponColoring.label"><s>Weapon Coloring</s><r>Раскраска оружия</r></e>
+  <e k="D" t="CustomizationTabDef" key="BEWH_WeaponDecoration.description"><s>Decorations for weapon.</s><r>Украшения для оружия.</r></e>
+  <e k="D" t="CustomizationTabDef" key="BEWH_WeaponDecoration.label"><s>Weapon Decoration</s><r>Украшение оружия</r></e>
+  <e k="D" t="CustomizationTabDef" key="BEWH_WeaponUpgrades.description"><s>Functional upgrades for weapons. A decoration counts as an upgrade when it grants stats, abilities, tools or verbs.</s><r>Функциональные улучшения оружия. Украшение считается улучшением, если оно дает характеристики, способности, инструменты или глаголы.</r></e>
+  <e k="D" t="CustomizationTabDef" key="BEWH_WeaponUpgrades.label"><s>Weapon Upgrades</s><r>Улучшения оружия</r></e>
+  <e k="D" t="DamageDef" key="BEWH_WarpEnergy.deathMessage"><s>{0} has been horribly killed by exposure to the Warp.</s><r>{0} был ужасно убит воздействием варпа.</r></e>
+  <e k="D" t="DamageDef" key="BEWH_WarpEnergy.label"><s>warp burn</s><r>варп-ожог</r></e>
+  <e k="D" t="DamageDef" key="BEWH_WarpFlame.deathMessage"><s>{0} has warp-burned to death.</s><r>{0} сгорел в варпе заживо.</r></e>
+  <e k="D" t="DamageDef" key="BEWH_WarpFlame.label"><s>warp flame</s><r>варп-пламя</r></e>
+  <e k="D" t="DecorationTypeDef" key="BEWH_DecoCategory_Brims.label"><s>Brims</s><r>Поля</r></e>
+  <e k="D" t="DecorationTypeDef" key="BEWH_DecoCategory_Decals.label"><s>Decals</s><r>Наклейки</r></e>
+  <e k="D" t="DecorationTypeDef" key="BEWH_DecoCategory_Fabrics.label"><s>Fabrics</s><r>Ткани</r></e>
+  <e k="D" t="DecorationTypeDef" key="BEWH_DecoCategory_Grenades.label"><s>Grenades</s><r>Гранаты</r></e>
+  <e k="D" t="DecorationTypeDef" key="BEWH_DecoCategory_Halo.label"><s>Halos</s><r>Ореолы</r></e>
+  <e k="D" t="DecorationTypeDef" key="BEWH_DecoCategory_Insignia.label"><s>Insignia</s><r>Знаки отличия</r></e>
+  <e k="D" t="DecorationTypeDef" key="BEWH_DecoCategory_Internal.label"><s>Internal</s><r>Внутренний</r></e>
+  <e k="D" t="DecorationTypeDef" key="BEWH_DecoCategory_Misc.label"><s>Misc</s><r>Разное</r></e>
+  <e k="D" t="DecorationTypeDef" key="BEWH_DecoCategory_Pouches.label"><s>Pouches</s><r>Мешочки</r></e>
+  <e k="D" t="DecorationTypeDef" key="BEWH_DecoCategory_Pseals.label"><s>Purity Seals</s><r>Печати чистоты</r></e>
+  <e k="D" t="DecorationTypeDef" key="BEWH_DecoCategory_Relics.label"><s>Relics</s><r>Реликвии</r></e>
+  <e k="D" t="DecorationTypeDef" key="BEWH_DecoCategory_Shoulder.label"><s>Shoulder</s><r>Плечо</r></e>
+  <e k="D" t="DecorationTypeDef" key="BEWH_DecoCategory_Sights.label"><s>Sights</s><r>Достопримечательности</r></e>
+  <e k="D" t="DecorationTypeDef" key="BEWH_DecoCategory_Trinkets.label"><s>Trinkets</s><r>Брелки</r></e>
+  <e k="D" t="DecorationTypeDef" key="BEWH_DecoCategory_Wings.label"><s>Wings</s><r>Крылья</r></e>
+  <e k="D" t="DecorationTypeDef" key="BEWH_DecoCategory_Wraps.label"><s>Wraps</s><r>Обертывания</r></e>
+  <e k="D" t="DecorationTypeDef" key="BEWH_UndefinedType.label"><s>Undefined</s><r>Неопределенный</r></e>
+  <e k="D" t="DesignationCategoryDef" key="BEWH_RimDarkCategory.label"><s>Warhammer</s><r>Вархаммер</r></e>
+  <e k="D" t="GeneSlotCategoryDef" key="BEWH_GeneSlot_Body.label"><s>Body</s><r>Тело</r></e>
+  <e k="D" t="GeneSlotCategoryDef" key="BEWH_GeneSlot_Head.label"><s>Head</s><r>Голова</r></e>
+  <e k="D" t="GeneSlotCategoryDef" key="BEWH_GeneSlot_Undefined.label"><s>Other</s><r>Другой</r></e>
+  <e k="D" t="HediffDef" key="BEWH_WarpBurn.comps.2.permanentLabel"><s>warp burn scar</s><r>шрам от варп-ожога</r></e>
+  <e k="D" t="HediffDef" key="BEWH_WarpBurn.description"><s>A warp burn.</s><r>Варп-ожог.</r></e>
+  <e k="D" t="HediffDef" key="BEWH_WarpBurn.injuryProps.destroyedLabel"><s>Warp-burned off</s><r>Варп-сгорел</r></e>
+  <e k="D" t="HediffDef" key="BEWH_WarpBurn.injuryProps.destroyedOutLabel"><s>Warp-burned out</s><r>Варп-сгорел</r></e>
+  <e k="D" t="HediffDef" key="BEWH_WarpBurn.label"><s>warp burn</s><r>варп-ожог</r></e>
+  <e k="D" t="HediffDef" key="BEWH_WarpBurn.labelNoun"><s>a warp burn</s><r>варп-ожог</r></e>
+  <e k="D" t="HediffDef" key="BEWH_WarpBurn.labelNounPretty"><s>{0} in the {1}</s><r>{0} в {1}</r></e>
+  <e k="D" t="HediffDef" key="BEWH_WarpEnergyBurn.comps.3.permanentLabel"><s>burned scar</s><r>обожженный шрам</r></e>
+  <e k="D" t="HediffDef" key="BEWH_WarpEnergyBurn.description"><s>A burn cause by exposure to the Warp.</s><r>Ожог, вызванный воздействием варпа.</r></e>
+  <e k="D" t="HediffDef" key="BEWH_WarpEnergyBurn.injuryProps.destroyedLabel"><s>Burned off</s><r>Сгорел</r></e>
+  <e k="D" t="HediffDef" key="BEWH_WarpEnergyBurn.injuryProps.destroyedOutLabel"><s>Burned out</s><r>Сгорел</r></e>
+  <e k="D" t="HediffDef" key="BEWH_WarpEnergyBurn.label"><s>warp burn</s><r>варп-ожог</r></e>
+  <e k="D" t="HediffDef" key="BEWH_WarpEnergyBurn.labelNoun"><s>a warp burn</s><r>варп-ожог</r></e>
+  <e k="D" t="HediffDef" key="BEWH_WarpEnergyBurn.labelNounPretty"><s>{0} in the {1}</s><r>{0} в {1}</r></e>
+  <e k="D" t="JobDef" key="BEWH_ChangeAmmo.reportString"><s>Changing ammo for TargetA.</s><r>Меняем патроны на TargetA.</r></e>
+  <e k="D" t="JobDef" key="BEWH_OpenStylingStationDialogForApparelMultiColor.reportString"><s>Customizing apparel at TargetA.</s><r>Кастомизация одежды в TargetA.</r></e>
+  <e k="D" t="JobDef" key="BEWH_OpenStylingStationDialogForWeaponMultiColor.reportString"><s>Customizing weapon at TargetA.</s><r>Кастомизация оружия в TargetA.</r></e>
+  <e k="D" t="JoyKindDef" key="BEWH_RecreationFromSkill.label"><s>motivated work</s><r>мотивированная работа</r></e>
+  <e k="D" t="MaskDef" key="BEWH_DefaultMask.description"><s>Default</s><r>По умолчанию</r></e>
+  <e k="D" t="MaskDef" key="BEWH_DefaultMask.label"><s>Default</s><r>По умолчанию</r></e>
+  <e k="D" t="ResearchTabDef" key="BEWH_WH40kTab.generalDescription"><s>Unlock RimDark technologies.</s><r>Разблокируйте технологии RimDark.</r></e>
+  <e k="D" t="ResearchTabDef" key="BEWH_WH40kTab.generalTitle"><s>RimDark research projects</s><r>Исследовательские проекты RimDark</r></e>
+  <e k="D" t="ResearchTabDef" key="BEWH_WH40kTab.label"><s>RimDark 40k</s><r>РимДарк 40к</r></e>
+  <e k="D" t="RulePackDef" key="BEWH_NamerArtifactWeapon.rulePack.rulesStrings.10"><s>epithet-&gt;[noun] of [ANYPAWN_nameDef]</s><r>epithet-&gt;[noun] из [ANYPAWN_nameDef]</r></e>
+  <e k="D" t="RulePackDef" key="BEWH_NamerArtifactWeapon.rulePack.rulesStrings.11"><s>noun-&gt;Oath</s><r>noun-&gt;Клятва</r></e>
+  <e k="D" t="RulePackDef" key="BEWH_NamerArtifactWeapon.rulePack.rulesStrings.12"><s>noun-&gt;Vow</s><r>noun-&gt;Клятва</r></e>
+  <e k="D" t="RulePackDef" key="BEWH_NamerArtifactWeapon.rulePack.rulesStrings.13"><s>noun-&gt;Reckoning</s><r>noun-&gt;Расплата</r></e>
+  <e k="D" t="RulePackDef" key="BEWH_NamerArtifactWeapon.rulePack.rulesStrings.14"><s>noun-&gt;Answer</s><r>noun-&gt;Отвечать</r></e>
+  <e k="D" t="RulePackDef" key="BEWH_NamerArtifactWeapon.rulePack.rulesStrings.15"><s>noun-&gt;Verdict</s><r>noun-&gt;Вердикт</r></e>
+  <e k="D" t="RulePackDef" key="BEWH_NamerArtifactWeapon.rulePack.rulesStrings.16"><s>noun-&gt;Silence</s><r>noun-&gt;Тишина</r></e>
+  <e k="D" t="RulePackDef" key="BEWH_NamerArtifactWeapon.rulePack.rulesStrings.17"><s>noun-&gt;Ruin</s><r>noun-&gt;Руины</r></e>
+  <e k="D" t="RulePackDef" key="BEWH_NamerArtifactWeapon.rulePack.rulesStrings.18"><s>noun-&gt;Ember</s><r>noun-&gt;Эмбер</r></e>
+  <e k="D" t="RulePackDef" key="BEWH_NamerArtifactWeapon.rulePack.rulesStrings.19"><s>noun-&gt;Grave</s><r>noun-&gt;Могила</r></e>
+  <e k="D" t="RulePackDef" key="BEWH_NamerArtifactWeapon.rulePack.rulesStrings.2"><s>r_artifact_name-&gt;The [trait_adjective] [weapon_type]</s><r>r_artifact_name-&gt;[trait_adjective] [weapon_type]</r></e>
+  <e k="D" t="RulePackDef" key="BEWH_NamerArtifactWeapon.rulePack.rulesStrings.20"><s>noun-&gt;Hymn</s><r>noun-&gt;Гимн</r></e>
+  <e k="D" t="RulePackDef" key="BEWH_NamerArtifactWeapon.rulePack.rulesStrings.21"><s>noun-&gt;Fang</s><r>noun-&gt;Клык</r></e>
+  <e k="D" t="RulePackDef" key="BEWH_NamerArtifactWeapon.rulePack.rulesStrings.22"><s>noun-&gt;Talon</s><r>noun-&gt;Коготь</r></e>
+  <e k="D" t="RulePackDef" key="BEWH_NamerArtifactWeapon.rulePack.rulesStrings.23"><s>noun-&gt;Thorn</s><r>noun-&gt;Торн</r></e>
+  <e k="D" t="RulePackDef" key="BEWH_NamerArtifactWeapon.rulePack.rulesStrings.24"><s>noun-&gt;Dawn</s><r>noun-&gt;Рассвет</r></e>
+  <e k="D" t="RulePackDef" key="BEWH_NamerArtifactWeapon.rulePack.rulesStrings.25"><s>noun-&gt;Dusk</s><r>noun-&gt;Сумерки</r></e>
+  <e k="D" t="RulePackDef" key="BEWH_NamerArtifactWeapon.rulePack.rulesStrings.3"><s>r_artifact_name-&gt;[ANYPAWN_nameDef]'s [weapon_type]</s><r>r_artifact_name-&gt;[ANYPAWN_nameDef] [weapon_type]</r></e>
+  <e k="D" t="RulePackDef" key="BEWH_NamerArtifactWeapon.rulePack.rulesStrings.4"><s>r_artifact_name-&gt;[weapon_type] of [ANYPAWN_nameDef]</s><r>r_artifact_name-&gt;[weapon_type] из [ANYPAWN_nameDef]</r></e>
+  <e k="D" t="RulePackDef" key="BEWH_NamerArtifactWeapon.rulePack.rulesStrings.5"><s>r_artifact_name-&gt;[ANYPAWN_nameDef]'s [trait_adjective] [weapon_type]</s><r>r_artifact_name-&gt;[ANYPAWN_nameDef] [trait_adjective] [weapon_type]</r></e>
+  <e k="D" t="RulePackDef" key="BEWH_NamerArtifactWeapon.rulePack.rulesStrings.7"><s>r_artifact_name-&gt;The [epithet]</s><r>r_artifact_name-&gt;[epithet]</r></e>
+  <e k="D" t="RulePackDef" key="BEWH_NamerArtifactWeapon.rulePack.rulesStrings.8"><s>epithet-&gt;[trait_adjective] one</s><r>epithet-&gt;[trait_adjective] один</r></e>
+  <e k="D" t="ScenPartDef" key="BEWH_StartingPawnKindXenotype.description"><s>Extra starting pawn choices keep the xenotypes of their pawn kind instead of being baseliners.</s><r>Дополнительные стартовые пешки сохраняют ксенотипы своего типа пешек, а не являются базовыми.</r></e>
+  <e k="D" t="ScenPartDef" key="BEWH_StartingPawnKindXenotype.label"><s>starting pawn kind xenotypes</s><r>стартовая пешка, ксенотипы</r></e>
+  <e k="D" t="StatCategoryDef" key="BEWH_AlternateTextureFactors.label"><s>Alt. Factors</s><r>Альт. Факторы</r></e>
+  <e k="D" t="StatCategoryDef" key="BEWH_AlternateTextureOffsets.label"><s>Alt. Texture Offsets</s><r>Альт. Смещения текстур</r></e>
+  <e k="D" t="StatCategoryDef" key="BEWH_Customization.label"><s>Customization</s><r>Кастомизация</r></e>
+  <e k="D" t="StatCategoryDef" key="BEWH_DecorationFactors.label"><s>Customization Factors</s><r>Факторы настройки</r></e>
+  <e k="D" t="StatCategoryDef" key="BEWH_DecorationOffsets.label"><s>Customization Offsets</s><r>Смещения настройки</r></e>
+  <e k="D" t="StatCategoryDef" key="BEWH_Shields.label"><s>Shield</s><r>Щит</r></e>
+  <e k="D" t="StatCategoryDef" key="BEWH_Voidfaring.label"><s>Voidfaring</s><r>Пустота</r></e>
+  <e k="D" t="StatDef" key="BEWH_ArtificialPartsAffinityFactor.description"><s>A multiplier on how artificial parts affects the capacities of this pawn.</s><r>Множитель того, как искусственные детали влияют на возможности этой пешки.</r></e>
+  <e k="D" t="StatDef" key="BEWH_ArtificialPartsAffinityFactor.label"><s>artificial part affinity</s><r>искусственная близость частей</r></e>
+  <e k="D" t="StatDef" key="BEWH_GravEngineCooldownFactor.description"><s>A multiplier on how long a gravship's engine needs to recharge after this person helps bring it down. Lower is faster.
+
+Only the best crew member aboard counts - this does not stack. It is applied on top of the cooldown the launch ritual's quality already earned.
+
+Has no effect without the Odyssey expansion.</s><r>Множитель, определяющий, сколько времени потребуется перезарядке двигателя гравилета после того, как этот человек поможет его сбить. Ниже быстрее.
+
+Учитывается только лучший член экипажа на борту — это не суммируется. Он применяется поверх времени восстановления уже заработанного качества ритуала запуска.
+
+Не имеет эффекта без расширения «Одиссея».</r></e>
+  <e k="D" t="StatDef" key="BEWH_GravEngineCooldownFactor.label"><s>grav engine recharge</s><r>перезарядка гравитационного двигателя</r></e>
+  <e k="D" t="StatDef" key="BEWH_GravshipFuelEfficiency.description"><s>How much of a gravship's fuel burn this person saves while aboard it.
+
+Only the most efficient crew member aboard counts - this does not stack. Adds to the savings already provided by the ship's own components, capped at 90% total.
+
+Has no effect without the Odyssey expansion.</s><r>Сколько топлива гравлета сэкономит этот человек, находясь на его борту.
+
+Учитывается только самый эффективный член экипажа на борту — это не суммируется. Добавляет к экономии, уже обеспечиваемой собственными компонентами корабля, но не более 90%.
+
+Не имеет эффекта без расширения «Одиссея».</r></e>
+  <e k="D" t="StatDef" key="BEWH_GravshipFuelEfficiency.label"><s>gravship fuel efficiency</s><r>топливная экономичность гравшипа</r></e>
+  <e k="D" t="StatDef" key="BEWH_GravshipRangeOffset.description"><s>How many extra tiles a gravship can reach while this person is aboard it.
+
+Only the best crew member aboard counts - this does not stack.
+
+Has no effect without the Odyssey expansion.</s><r>Сколько дополнительных плиток может достичь гравий, пока этот человек находится на его борту.
+
+Учитывается только лучший член экипажа на борту — это не суммируется.
+
+Не имеет никакого эффекта без расширения «Одиссея».</r></e>
+  <e k="D" t="StatDef" key="BEWH_GravshipRangeOffset.label"><s>gravship range bonus</s><r>бонус за дальность действия гравитации</r></e>
+  <e k="D" t="StatDef" key="BEWH_InternalUpgradeSlots.description"><s>How many internal upgrades can be fitted inside this item at once.
+
+Internal upgrades change what the item does without changing how it looks. Each one takes up one or more slots.</s><r>Сколько внутренних улучшений можно разместить внутри этого предмета одновременно.
+
+Внутренние улучшения меняют функции предмета, не меняя его внешний вид. Каждый из них занимает один или несколько слотов.</r></e>
+  <e k="D" t="StatDef" key="BEWH_InternalUpgradeSlots.label"><s>internal upgrade slots</s><r>внутренние слоты для обновлений</r></e>
+  <e k="D" t="StatDef" key="BEWH_RankLearningFactor.description"><s>A multiplier on how much time spent as a rank a pawn needs before meeting days requirements.</s><r>Множитель, показывающий, сколько времени необходимо пешке в качестве ранга, прежде чем она сможет выполнить требования по дням.</r></e>
+  <e k="D" t="StatDef" key="BEWH_RankLearningFactor.label"><s>rank learning multiplier</s><r>множитель обучения ранга</r></e>
+  <e k="D" t="StatDef" key="BEWH_ShieldProficiency.description"><s>How well this person handles a shield.
+
+Multiplies the chance a worn shield stops an incoming attack. It has no effect without a shield.
+
+Improves with melee skill, and suffers from poor manipulation or sight.</s><r>Насколько хорошо этот человек обращается со щитом.
+
+Умножает шанс, что изношенный щит остановит входящую атаку. Без щита он не имеет эффекта.
+
+Улучшается с помощью навыков ближнего боя и страдает от плохого манипулирования или зрения.</r></e>
+  <e k="D" t="StatDef" key="BEWH_ShieldProficiency.label"><s>shield proficiency</s><r>владение щитом</r></e>
+  <e k="D" t="StatDef" key="BEWH_ShipEvasionSkillOffset.description"><s>How many effective levels of piloting skill this person adds to a spacefaring ship they are aboard, for the purpose of dodging incoming fire.
+
+Only the best crew member aboard counts - this does not stack. Diminishing past the equivalent of level 20, and worth nothing at all past 22.
+
+Has no effect without Save Our Ship 2.</s><r>Сколько эффективных уровней пилотирования этот человек добавляет к космическому кораблю, на борту которого он находится, с целью уклонения от встречного огня.
+
+Учитывается только лучший член экипажа на борту — это не суммируется. Уменьшается после уровня, эквивалентного 20, и вообще ничего не стоит после 22.
+
+Не имеет эффекта без «Спасите наш корабль 2».</r></e>
+  <e k="D" t="StatDef" key="BEWH_ShipEvasionSkillOffset.label"><s>void evasion</s><r>уклонение от пустоты</r></e>
+  <e k="D" t="StatDef" key="BEWH_ShipGunnerySkillOffset.description"><s>How many effective levels of gunnery skill this person adds to a spacefaring ship they are aboard, for the purpose of landing hits on an enemy vessel.
+
+Only the best crew member aboard counts - this does not stack. Worth nothing past the equivalent of level 20.
+
+Has no effect without Save Our Ship 2.</s><r>Сколько эффективных уровней артиллерийских навыков этот человек добавляет к космическому кораблю, на борту которого он находится, с целью нанесения ударов по вражескому кораблю.
+
+Учитывается только лучший член экипажа на борту — это не суммируется. Ничего не стоит выше уровня 20.
+
+Не имеет эффекта без «Спасите наш корабль 2».</r></e>
+  <e k="D" t="StatDef" key="BEWH_ShipGunnerySkillOffset.label"><s>void gunnery</s><r>пустотная артиллерийская стрельба</r></e>
+  <e k="D" t="ThoughtDef" key="BEWH_DevotionOpinion.stages.0.label"><s>rival faith</s><r>соперничающая вера</r></e>
+  <e k="K" key="BEWH.Framework.Ability.Charges"><s>Charges: {0} / {1}</s><r>Заряды: {0} / {1}</r></e>
+  <e k="K" key="BEWH.Framework.Ability.MustBeDownedOrInBed"><s>{0} must be downed or in bed</s><r>{0} должен быть пьян или лежать в постели</r></e>
+  <e k="K" key="BEWH.Framework.Ability.MustBePawn"><s>Must target a pawn</s><r>Необходимо нацелиться на пешку</r></e>
+  <e k="K" key="BEWH.Framework.AmmoChanger.BurstCount"><s>Shots per burst: {0}</s><r>Выстрелов за серию: {0}</r></e>
+  <e k="K" key="BEWH.Framework.AmmoChanger.CurrentlyEquipped"><s>Currently equipped.</s><r>На данный момент оборудован.</r></e>
+  <e k="K" key="BEWH.Framework.AmmoChanger.GizmoInfo"><s>Change the selected ammo type.
+
+Currently selected: {0}
+
+{1}</s><r>Изменить выбранный тип боеприпасов.
+
+Выбрано в данный момент: {0}
+
+{1}</r></e>
+  <e k="K" key="BEWH.Framework.AmmoChanger.Range"><s>Range: {0}</s><r>Диапазон: {0}</r></e>
+  <e k="K" key="BEWH.Framework.AmmoChanger.Warmup"><s>Warmup: {0}s</s><r>Разминка: {0}с</r></e>
+  <e k="K" key="BEWH.Framework.ApparelSet.Active"><s>(active)</s><r>(активный)</r></e>
+  <e k="K" key="BEWH.Framework.ApparelSet.Bonuses"><s>Set bonuses:</s><r>Бонусы набора:</r></e>
+  <e k="K" key="BEWH.Framework.ApparelSet.DecorationMembers"><s>Decorations:</s><r>Украшения:</r></e>
+  <e k="K" key="BEWH.Framework.ApparelSet.HighestTierOnly"><s>Only the highest reached bonus applies.</s><r>Применяется только самый высокий достигнутый бонус.</r></e>
+  <e k="K" key="BEWH.Framework.ApparelSet.PartOfSet"><s>Part of set: {0}</s><r>Часть набора: {0}</r></e>
+  <e k="K" key="BEWH.Framework.ApparelSet.RequiresDecorations"><s>Requires: {0}</s><r>Требуется: {0}</r></e>
+  <e k="K" key="BEWH.Framework.ApparelSet.RequiresWeapon"><s>Requires a set weapon</s><r>Требуется набор оружия</r></e>
+  <e k="K" key="BEWH.Framework.ApparelSet.StatLabel"><s>Set: {0}</s><r>Установить: {0}</r></e>
+  <e k="K" key="BEWH.Framework.ApparelSet.TierGained"><s>{0} has gained the {1} set bonus ({2}).</s><r>{0} получил бонус комплекта {1} ({2}).</r></e>
+  <e k="K" key="BEWH.Framework.ApparelSet.WeaponMembers"><s>Weapons:</s><r>Оружие:</r></e>
+  <e k="K" key="BEWH.Framework.Artifact.BearerKills"><s>{0} kills</s><r>{0} убийств</r></e>
+  <e k="K" key="BEWH.Framework.Artifact.Bearers"><s>Bearers</s><r>Носители</r></e>
+  <e k="K" key="BEWH.Framework.Artifact.BoundToArtifact"><s>Bound to the {0}</s><r>Привязан к {0}</r></e>
+  <e k="K" key="BEWH.Framework.Artifact.BurstShots"><s>Burst shots {0}</s><r>Серийная съемка {0}</r></e>
+  <e k="K" key="BEWH.Framework.Artifact.Condition.Kills"><s>Kills: {0} / {1}</s><r>Убийств: {0} / {1}</r></e>
+  <e k="K" key="BEWH.Framework.Artifact.Condition.KillsOfCategory"><s>{0} kills: {1} / {2}</s><r>{0} убийств: {1} / {2}</r></e>
+  <e k="K" key="BEWH.Framework.Artifact.Condition.Quality"><s>Quality of at least {0}</s><r>Качество не ниже {0}</r></e>
+  <e k="K" key="BEWH.Framework.Artifact.Condition.Wielder"><s>A worthy wielder</s><r>Достойный обладатель</r></e>
+  <e k="K" key="BEWH.Framework.Artifact.CurrentBearer"><s>(current)</s><r>(текущий)</r></e>
+  <e k="K" key="BEWH.Framework.Artifact.DamageOverride"><s>Damage type: {0}</s><r>Тип урона: {0}</r></e>
+  <e k="K" key="BEWH.Framework.Artifact.Dormant"><s>(dormant {0})</s><r>(спящий {0})</r></e>
+  <e k="K" key="BEWH.Framework.Artifact.DormantShort"><s>(dormant)</s><r>(спящий)</r></e>
+  <e k="K" key="BEWH.Framework.Artifact.DrawbackSuffix"><s>(drawback)</s><r>(недостаток)</r></e>
+  <e k="K" key="BEWH.Framework.Artifact.ExtraDamage"><s>Extra damage: {0} ({1})</s><r>Дополнительный урон: {0} ({1})</r></e>
+  <e k="K" key="BEWH.Framework.Artifact.KillCategory.Animal"><s>Animal</s><r>Животное</r></e>
+  <e k="K" key="BEWH.Framework.Artifact.KillCategory.Entity"><s>Entity</s><r>Сущность</r></e>
+  <e k="K" key="BEWH.Framework.Artifact.KillCategory.Humanlike"><s>Humanlike</s><r>Человекоподобный</r></e>
+  <e k="K" key="BEWH.Framework.Artifact.KillCategory.Mechanoid"><s>Mechanoid</s><r>Механоид</r></e>
+  <e k="K" key="BEWH.Framework.Artifact.KillCategory.Other"><s>Other</s><r>Другой</r></e>
+  <e k="K" key="BEWH.Framework.Artifact.KillsHeader"><s>Kills: {0}</s><r>Убийств: {0}</r></e>
+  <e k="K" key="BEWH.Framework.Artifact.NextStage"><s>Next stage requires:</s><r>Следующий этап требует:</r></e>
+  <e k="K" key="BEWH.Framework.Artifact.Range"><s>Range {0}</s><r>Диапазон {0}</r></e>
+  <e k="K" key="BEWH.Framework.Artifact.Stage"><s>Stage {0} of {1}</s><r>Этап {0} из {1}</r></e>
+  <e k="K" key="BEWH.Framework.Artifact.Tab"><s>Artifact</s><r>Артефакт</r></e>
+  <e k="K" key="BEWH.Framework.Artifact.Traits"><s>Traits</s><r>Функции</r></e>
+  <e k="K" key="BEWH.Framework.Artifact.TraitsStat"><s>{0} traits</s><r>{0} черты</r></e>
+  <e k="K" key="BEWH.Framework.Artifact.Warmup"><s>Warmup {0}s</s><r>Разминка {0}с</r></e>
+  <e k="K" key="BEWH.Framework.Artifact.Wielder"><s>Wielder</s><r>Владелец</r></e>
+  <e k="K" key="BEWH.Framework.Artifact.WielderUnworthy"><s>The current wielder does not meet this artifact's requirements. Its traits lie dormant.</s><r>Текущий владелец не соответствует требованиям этого артефакта. Его черты дремлют.</r></e>
+  <e k="K" key="BEWH.Framework.Common.MissingResearch"><s>Missing research: {0}</s><r>Отсутствующие исследования: {0}</r></e>
+  <e k="K" key="BEWH.Framework.CommonKeyword.ArmorPenetration"><s>armor penetration</s><r>бронепробитие</r></e>
+  <e k="K" key="BEWH.Framework.CommonKeyword.Damage"><s>damage</s><r>повреждать</r></e>
+  <e k="K" key="BEWH.Framework.CommonKeyword.Default"><s>Default</s><r>По умолчанию</r></e>
+  <e k="K" key="BEWH.Framework.CommonKeyword.None"><s>None</s><r>Никто</r></e>
+  <e k="K" key="BEWH.Framework.CommonKeyword.Reset"><s>Reset</s><r>Перезагрузить</r></e>
+  <e k="K" key="BEWH.Framework.CommonKeyword.StatFactor"><s>Stat Factor</s><r>Стат Фактор</r></e>
+  <e k="K" key="BEWH.Framework.CommonKeyword.StatOffset"><s>Stat Offset</s><r>Смещение штата</r></e>
+  <e k="K" key="BEWH.Framework.CommonKeywords.ModSettings"><s>mod settings</s><r>настройки мода</r></e>
+  <e k="K" key="BEWH.Framework.Comp.AbilityDisabledByCoveredPart"><s>Cannot use {0}, due to covered {1} by {2}</s><r>Невозможно использовать {0}, так как {1} покрыто {2}</r></e>
+  <e k="K" key="BEWH.Framework.Comp.CasterMissingRequiredRank"><s>Requires rank: {0}</s><r>Требуется ранг: {0}</r></e>
+  <e k="K" key="BEWH.Framework.Comp.DeterioratingOutsideContainer"><s>Deteriorates outside suitable container.</s><r>Разлагается вне подходящего контейнера.</r></e>
+  <e k="K" key="BEWH.Framework.Comp.ItemDeterioratingNotInContainer"><s>not in safe container</s><r>не в безопасном контейнере</r></e>
+  <e k="K" key="BEWH.Framework.Comp.PawnDoesNotHaveRequiredGene"><s>{0} does not have the {1} gene</s><r>{0} не имеет гена {1}</r></e>
+  <e k="K" key="BEWH.Framework.Comp.SuitableContainers"><s>Suitable containers:</s><r>Подходящие контейнеры:</r></e>
+  <e k="K" key="BEWH.Framework.Customization.Accept"><s>Accept</s><r>Принимать</r></e>
+  <e k="K" key="BEWH.Framework.Customization.AddedMeleeAttacks"><s>Added melee attacks</s><r>Добавлены атаки ближнего боя.</r></e>
+  <e k="K" key="BEWH.Framework.Customization.AdditionalLayers"><s>Additional layers</s><r>Дополнительные слои</r></e>
+  <e k="K" key="BEWH.Framework.Customization.AdditionalLayersDesc"><s>Apparel layers this item also occupies because of its fitted decorations. Apparel on these layers covering the same body parts cannot be worn with it.</s><r>Слои одежды, которые этот предмет также занимает, из-за его приталенных украшений. С ним нельзя носить одежду из этих слоев, закрывающую одни и те же части тела.</r></e>
+  <e k="K" key="BEWH.Framework.Customization.AlternativeBaseTexture"><s>Alt. Textures</s><r>Альт. Текстуры</r></e>
+  <e k="K" key="BEWH.Framework.Customization.ArmourDecorationFeature"><s>Customize armor</s><r>Настроить броню</r></e>
+  <e k="K" key="BEWH.Framework.Customization.BaseTexture"><s>Base Texture: </s><r>Базовая текстура: </r></e>
+  <e k="K" key="BEWH.Framework.Customization.BodyDecoration"><s>Body Decorations</s><r>Украшения для тела</r></e>
+  <e k="K" key="BEWH.Framework.Customization.ChooseCustomColour"><s>Click to select custom color</s><r>Нажмите, чтобы выбрать собственный цвет</r></e>
+  <e k="K" key="BEWH.Framework.Customization.ColorPreset"><s>Color Preset</s><r>Предустановка цвета</r></e>
+  <e k="K" key="BEWH.Framework.Customization.ColorPresetShort"><s>Col. Preset</s><r>Полковник Предустановка</r></e>
+  <e k="K" key="BEWH.Framework.Customization.ColorPresetShortDesc"><s>Select a color preset</s><r>Выберите предустановку цвета</r></e>
+  <e k="K" key="BEWH.Framework.Customization.ColoursLocked"><s>Colours locked: {0}</s><r>Цвета заблокированы: {0}</r></e>
+  <e k="K" key="BEWH.Framework.Customization.ConfirmCostOnly"><s>Applying these changes will cost:
+{0}</s><r>Применение этих изменений будет стоить:
+{0}</r></e>
+  <e k="K" key="BEWH.Framework.Customization.ConfirmOverride"><s>Are you sure you want to overwrite this preset?</s><r>Вы уверены, что хотите перезаписать эту предустановку?</r></e>
+  <e k="K" key="BEWH.Framework.Customization.ConfirmWork"><s>Applying these changes will cost:
+{0}
+
+and take {1} work at the station.</s><r>Применение этих изменений будет стоить: 
+{0}
+
+и потребуется {1} работы на станции.</r></e>
+  <e k="K" key="BEWH.Framework.Customization.Cost"><s>Cost</s><r>Расходы</r></e>
+  <e k="K" key="BEWH.Framework.Customization.CostLine"><s>- {0} x{1}</s><r>- {0} х{1}</r></e>
+  <e k="K" key="BEWH.Framework.Customization.CostNothing"><s>- nothing</s><r>- ничего</r></e>
+  <e k="K" key="BEWH.Framework.Customization.DebugCopy"><s>Debug Copy</s><r>Отладочная копия</r></e>
+  <e k="K" key="BEWH.Framework.Customization.DecorationLocked"><s>Locked: {0}. It cannot be removed here.</s><r>Заблокировано: {0}. Здесь его нельзя удалить.</r></e>
+  <e k="K" key="BEWH.Framework.Customization.DecorationPreset"><s>Preset</s><r>Предустановка</r></e>
+  <e k="K" key="BEWH.Framework.Customization.DecorationPresetDesc"><s>Select a decoration preset</s><r>Выберите набор настроек оформления</r></e>
+  <e k="K" key="BEWH.Framework.Customization.Edit"><s>Edit</s><r>Редактировать</r></e>
+  <e k="K" key="BEWH.Framework.Customization.EditDesc"><s>Create, overwrite or remove a preset</s><r>Создание, перезапись или удаление предустановки</r></e>
+  <e k="K" key="BEWH.Framework.Customization.EditPreset"><s>Edit Presets</s><r>Редактировать пресеты</r></e>
+  <e k="K" key="BEWH.Framework.Customization.EnterPresetName"><s>Enter name of new preset</s><r>Введите название нового пресета</r></e>
+  <e k="K" key="BEWH.Framework.Customization.Exit"><s>Exit</s><r>Выход</r></e>
+  <e k="K" key="BEWH.Framework.Customization.ExtraApparelLayers"><s>Also occupies apparel layer: {0}</s><r>Также занимает слой одежды: {0}</r></e>
+  <e k="K" key="BEWH.Framework.Customization.FittedDecorations"><s>Decorations fitted</s><r>Установлены украшения</r></e>
+  <e k="K" key="BEWH.Framework.Customization.FittedUpgrades"><s>Upgrades fitted</s><r>Установлены обновления</r></e>
+  <e k="K" key="BEWH.Framework.Customization.GlowDesc"><s>Toggle the glowing parts of this decoration. They stay lit in the dark.</s><r>Переключите светящиеся части этого украшения. Они остаются светящимися в темноте.</r></e>
+  <e k="K" key="BEWH.Framework.Customization.GlowOff"><s>Glow: Off</s><r>Свечение: Выкл.</r></e>
+  <e k="K" key="BEWH.Framework.Customization.GlowOn"><s>Glow: On</s><r>Свечение: Вкл.</r></e>
+  <e k="K" key="BEWH.Framework.Customization.Grants"><s>Grants:</s><r>Гранты:</r></e>
+  <e k="K" key="BEWH.Framework.Customization.GrantsCount"><s>{0} granted</s><r>{0} предоставлено</r></e>
+  <e k="K" key="BEWH.Framework.Customization.GrantsDesc"><s>Abilities and conditions given to the wearer or wielder while the item is equipped.</s><r>Способности и условия, предоставляемые владельцу или владельцу, пока предмет экипирован.</r></e>
+  <e k="K" key="BEWH.Framework.Customization.GrantsLabel"><s>Grants</s><r>Гранты</r></e>
+  <e k="K" key="BEWH.Framework.Customization.HelmetDecoration"><s>Helmet Decorations</s><r>Украшения для шлемов</r></e>
+  <e k="K" key="BEWH.Framework.Customization.IncompatibleWithCurrentAltBase"><s>Incompatible with currently selected texture</s><r>Несовместимо с выбранной в данный момент текстурой.</r></e>
+  <e k="K" key="BEWH.Framework.Customization.IncompatibleWithCurrentDecoration"><s>Incompatible with currently selected decoration: {0}</s><r>Несовместимо с выбранным в данный момент украшением: {0}</r></e>
+  <e k="K" key="BEWH.Framework.Customization.IncompatibleWithCurrentDecorations"><s>Incompatible with currently selected decorations: {0}</s><r>Несовместимо с выбранными в данный момент украшениями: {0}</r></e>
+  <e k="K" key="BEWH.Framework.Customization.IncompatibleWithLockedDecoration"><s>Incompatible with a locked decoration ({0})</s><r>Несовместимо с заблокированным украшением ({0}).</r></e>
+  <e k="K" key="BEWH.Framework.Customization.InfoCard.AppliesTo"><s>Applies to</s><r>Применяется к</r></e>
+  <e k="K" key="BEWH.Framework.Customization.InfoCard.AppliesToAll"><s>Any decoratable item</s><r>Любая декоративная вещь</r></e>
+  <e k="K" key="BEWH.Framework.Customization.InfoCard.AppliesToDesc"><s>The items this can be fitted to.</s><r>Предметы, на которые это можно установить.</r></e>
+  <e k="K" key="BEWH.Framework.Customization.InfoCard.CostDesc"><s>Materials used the first time this is fitted to an item. Refitting it to the same item is free.</s><r>Материалы, использованные при первой установке на предмет. Переустановка на тот же предмет бесплатна.</r></e>
+  <e k="K" key="BEWH.Framework.Customization.InfoCard.ItemCount"><s>{0} items</s><r>{0} предметов</r></e>
+  <e k="K" key="BEWH.Framework.Customization.InfoCard.RequiredResearch"><s>Required research</s><r>Требуемые исследования</r></e>
+  <e k="K" key="BEWH.Framework.Customization.InfoCard.RequiredResearchDesc"><s>Research the colony must finish before this can be fitted. Gear that already has it fitted keeps it.</s><r>Прежде чем его можно будет установить, колония должна закончить исследования. Снаряжение, на котором оно уже установлено, сохранит его.</r></e>
+  <e k="K" key="BEWH.Framework.Customization.InfoCard.WorkToFit"><s>Work to fit</s><r>Работайте, чтобы соответствовать</r></e>
+  <e k="K" key="BEWH.Framework.Customization.InfoCard.WorkToFitDesc"><s>The amount of work needed to fit this at a styling station.</s><r>Объем работы, необходимый для установки этого на станции укладки.</r></e>
+  <e k="K" key="BEWH.Framework.Customization.InfoCard.WorkToRemove"><s>Work to remove</s><r>Работайте над удалением</r></e>
+  <e k="K" key="BEWH.Framework.Customization.InfoCard.WorkToRemoveDesc"><s>The amount of work needed to remove this at a styling station.</s><r>Объем работы, необходимый для удаления этого на станции укладки.</r></e>
+  <e k="K" key="BEWH.Framework.Customization.Internal"><s>internal</s><r>внутренний</r></e>
+  <e k="K" key="BEWH.Framework.Customization.InternalSlots"><s>Internal slots</s><r>Внутренние слоты</r></e>
+  <e k="K" key="BEWH.Framework.Customization.InternalSlotsDesc"><s>How many of this item's internal upgrade slots are filled.</s><r>Сколько внутренних слотов для улучшений этого предмета заполнено.</r></e>
+  <e k="K" key="BEWH.Framework.Customization.InvalidBodytype"><s>Invalid bodytype</s><r>Неверный тип телосложения</r></e>
+  <e k="K" key="BEWH.Framework.Customization.ItemStats"><s>Item stats</s><r>Статистика предмета</r></e>
+  <e k="K" key="BEWH.Framework.Customization.Locked"><s>Not yet unlocked on this item. Fitting it costs the materials above, once.</s><r>Этот предмет еще не разблокирован. Его установка требует затрат материалов, указанных выше, один раз.</r></e>
+  <e k="K" key="BEWH.Framework.Customization.Mask"><s>Masks</s><r>Маски</r></e>
+  <e k="K" key="BEWH.Framework.Customization.MaskDesc"><s>Select a mask</s><r>Выберите маску</r></e>
+  <e k="K" key="BEWH.Framework.Customization.MissingGenes"><s>Missing Genes:</s><r>Недостающие гены:</r></e>
+  <e k="K" key="BEWH.Framework.Customization.MissingGenesOneAmong"><s>Missing one of these genes:</s><r>Отсутствие одного из этих генов:</r></e>
+  <e k="K" key="BEWH.Framework.Customization.MissingHediffs"><s>Missing Hediffs:</s><r>Пропавшие Хедиффы:</r></e>
+  <e k="K" key="BEWH.Framework.Customization.MissingRanks"><s>Missing Ranks:</s><r>Недостающие ранги:</r></e>
+  <e k="K" key="BEWH.Framework.Customization.MissingResource"><s>Not enough resources: missing {0} x{1}</s><r>Недостаточно ресурсов: отсутствует {0} x{1}.</r></e>
+  <e k="K" key="BEWH.Framework.Customization.MissingTraits"><s>Missing Traits:</s><r>Отсутствующие черты:</r></e>
+  <e k="K" key="BEWH.Framework.Customization.NewPreset"><s>[New Preset]</s><r>[Новый пресет]</r></e>
+  <e k="K" key="BEWH.Framework.Customization.NoInternalSlots"><s>No internal slots free ({0}/{1} used)</s><r>Нет свободных внутренних слотов ({0}/{1} используются)</r></e>
+  <e k="K" key="BEWH.Framework.Customization.NotEnoughResources"><s>Not enough resources</s><r>Недостаточно ресурсов</r></e>
+  <e k="K" key="BEWH.Framework.Customization.OtherEffects"><s>Other effects</s><r>Другие эффекты</r></e>
+  <e k="K" key="BEWH.Framework.Customization.OtherEffectsCount"><s>{0} effects</s><r>{0} эффекты</r></e>
+  <e k="K" key="BEWH.Framework.Customization.OverridePreset"><s>Overwrite {0} with currently selected colors</s><r>Перезаписать {0} выбранными в данный момент цветами.</r></e>
+  <e k="K" key="BEWH.Framework.Customization.PaintPawn"><s>paint</s><r>краска</r></e>
+  <e k="K" key="BEWH.Framework.Customization.PaintPawnDesc"><s>Change {PAWN_labelShort}'s colors and pattern. Free and instant.</s><r>Измените цвета и рисунок {PAWN_labelShort}. Бесплатно и мгновенно.</r></e>
+  <e k="K" key="BEWH.Framework.Customization.Precision"><s>Advanced</s><r>Передовой</r></e>
+  <e k="K" key="BEWH.Framework.Customization.PresetExists"><s>Already exists!</s><r>Уже существует!</r></e>
+  <e k="K" key="BEWH.Framework.Customization.PresetSkippedUnavailable"><s>Some decorations in this preset are not available: {0}</s><r>Некоторые украшения в этом пресете недоступны: {0}</r></e>
+  <e k="K" key="BEWH.Framework.Customization.PrimaryColor"><s>Primary</s><r>Начальный</r></e>
+  <e k="K" key="BEWH.Framework.Customization.RemoveAllDecorations"><s>Remove All</s><r>Удалить все</r></e>
+  <e k="K" key="BEWH.Framework.Customization.RequirementNotMet"><s>Requirements not met:
+</s><r>Требования не выполнены:
+</r></e>
+  <e k="K" key="BEWH.Framework.Customization.SecondaryColor"><s>Secondary</s><r>Вторичный</r></e>
+  <e k="K" key="BEWH.Framework.Customization.SetDefaultColor"><s>Set Default Colors</s><r>Установить цвета по умолчанию</r></e>
+  <e k="K" key="BEWH.Framework.Customization.SlotCost"><s>Internal slots used: {0}</s><r>Используемые внутренние слоты: {0}</r></e>
+  <e k="K" key="BEWH.Framework.Customization.SlotsUsed"><s>({0}/{1} slots)</s><r>(слоты {0}/{1})</r></e>
+  <e k="K" key="BEWH.Framework.Customization.TertiaryColor"><s>Tertiary</s><r>Третичный</r></e>
+  <e k="K" key="BEWH.Framework.Customization.Unlocked"><s>Already unlocked on this item. Refitting is free.</s><r>Этот предмет уже разблокирован. Переоборудование бесплатно.</r></e>
+  <e k="K" key="BEWH.Framework.Customization.UseParentColor"><s>Use Parent Colors</s><r>Использовать родительские цвета</r></e>
+  <e k="K" key="BEWH.Framework.Customization.WeaponDecorationFeature"><s>Customize weapon</s><r>Настроить оружие</r></e>
+  <e k="K" key="BEWH.Framework.Customization.WearerStats"><s>Wearer stats</s><r>Статистика владельца</r></e>
+  <e k="K" key="BEWH.Framework.Customization.WillRemoveApparel"><s>Fitting this will take off: {0}</s><r>Установка этого приведет к взлету: {0}</r></e>
+  <e k="K" key="BEWH.Framework.Customization.WorkAmount"><s>Work: {0} (removal {1})</s><r>Работа: {0} (удаление {1})</r></e>
+  <e k="K" key="BEWH.Framework.Customization.WouldReplaceLockedApparel"><s>Would take off locked apparel: {0}</s><r>Снял бы запертую одежду: {0}</r></e>
+  <e k="K" key="BEWH.Framework.Devotion.NoStanding"><s>No standing to purge.</s><r>Нет права на чистку.</r></e>
+  <e k="K" key="BEWH.Framework.Devotion.PurgeTooDeep"><s>Their devotion to {0} has passed the point where it can be purged.</s><r>Их преданность {0} прошла ту точку, когда ее можно очистить.</r></e>
+  <e k="K" key="BEWH.Framework.Devotion.TierLetterText"><s>{0} has reached {1} in the service of {2}.</s><r>{0} достигло {1} на службе {2}.</r></e>
+  <e k="K" key="BEWH.Framework.ExclusiveWear.MissingGene"><s>Does not have the {0} gene.</s><r>Не имеет гена {0}.</r></e>
+  <e k="K" key="BEWH.Framework.GeneCustomization.CannotPay"><s>Cannot apply {0}: {1}</s><r>Невозможно применить {0}: {1}</r></e>
+  <e k="K" key="BEWH.Framework.GeneCustomization.CurrentlyApplied"><s>Currently applied.</s><r>Применяется в настоящее время.</r></e>
+  <e k="K" key="BEWH.Framework.GeneCustomization.GivesAbilities"><s>Grants abilities:</s><r>Предоставляет способности:</r></e>
+  <e k="K" key="BEWH.Framework.GeneCustomization.GivesHediffs"><s>Grants:</s><r>Гранты:</r></e>
+  <e k="K" key="BEWH.Framework.GeneCustomization.GizmoDesc"><s>Open the gene customization dialog for {0}. Customizable genes can be given a different look and different effects, and matching variants grant set bonuses.</s><r>Откройте диалог настройки гена для {0}. Настраиваемым генам можно придать другой вид и разные эффекты, а совпадающие варианты дают бонусы набора.</r></e>
+  <e k="K" key="BEWH.Framework.GeneCustomization.GizmoLabel"><s>Customize genes</s><r>Настройте гены</r></e>
+  <e k="K" key="BEWH.Framework.GeneCustomization.GrantsLine"><s>Grants: {0}</s><r>Гранты: {0}</r></e>
+  <e k="K" key="BEWH.Framework.GeneCustomization.NoSets"><s>No sets apply to this pawn's genes.</s><r>К генам этой пешки не применимы никакие наборы.</r></e>
+  <e k="K" key="BEWH.Framework.GeneCustomization.NoSlots"><s>No customizable genes.</s><r>Никаких настраиваемых генов.</r></e>
+  <e k="K" key="BEWH.Framework.GeneCustomization.NoneTooltip"><s>The unmodified gene. Removes any applied variant from this slot.</s><r>Немодифицированный ген. Удаляет любой примененный вариант из этого слота.</r></e>
+  <e k="K" key="BEWH.Framework.GeneCustomization.NotOnMap"><s>Pawn must be on a map to pay this cost.</s><r>Чтобы оплатить эту стоимость, пешка должна быть на карте.</r></e>
+  <e k="K" key="BEWH.Framework.GeneCustomization.PartOfSets"><s>Part of:</s><r>Часть:</r></e>
+  <e k="K" key="BEWH.Framework.GeneCustomization.SelectSlot"><s>Select a gene on the left to see its variants.</s><r>Выберите ген слева, чтобы увидеть его варианты.</r></e>
+  <e k="K" key="BEWH.Framework.GeneCustomization.SetBonuses"><s>Set bonuses</s><r>Установить бонусы</r></e>
+  <e k="K" key="BEWH.Framework.GeneCustomization.SetMembers"><s>Pieces:</s><r>Куски:</r></e>
+  <e k="K" key="BEWH.Framework.GeneCustomization.TierPieces"><s>{0} pieces</s><r>{0} штук</r></e>
+  <e k="K" key="BEWH.Framework.GeneCustomization.TierRequires"><s>Requires {0} pieces of the set.</s><r>Требуется {0} предметов набора.</r></e>
+  <e k="K" key="BEWH.Framework.GeneCustomization.Title"><s>Gene customization: {0}</s><r>Настройка гена: {0}</r></e>
+  <e k="K" key="BEWH.Framework.GeneCustomization.UseHairColour"><s>Use hair colour</s><r>Используйте цвет волос</r></e>
+  <e k="K" key="BEWH.Framework.GeneCustomization.UseSkinColour"><s>Use skin colour</s><r>Используйте цвет кожи</r></e>
+  <e k="K" key="BEWH.Framework.GeneCustomization.VariantAvailable"><s>{0} can now apply the gene variant {1}.</s><r>{0} теперь может применять вариант гена {1}.</r></e>
+  <e k="K" key="BEWH.Framework.GeneCustomization.VariantsAvailable"><s>{0} can now apply the gene variants {1}.</s><r>{0} теперь может применять варианты гена {1}.</r></e>
+  <e k="K" key="BEWH.Framework.GeneCustomization.VariantsFor"><s>Variants: {0}</s><r>Варианты: {0}</r></e>
+  <e k="K" key="BEWH.Framework.ModSettings.AlwaysShowShields"><s>Always show worn shields</s><r>Всегда показывать изношенные щиты</r></e>
+  <e k="K" key="BEWH.Framework.ModSettings.AlwaysShowShieldsTooltip"><s>When off, worn shields are only drawn while the wearer is drafted, fighting or was recently attacked.</s><r>Если этот параметр отключен, изношенные щиты вытягиваются только тогда, когда владелец призван, сражается или недавно подвергся нападению.</r></e>
+  <e k="K" key="BEWH.Framework.ModSettings.AppearanceChangeWork"><s>Work for a colour or texture change: {0}</s><r>Работа над изменением цвета или текстуры: {0}</r></e>
+  <e k="K" key="BEWH.Framework.ModSettings.AppearanceChangeWorkTooltip"><s>Flat work charged when an item's colours, masks or base texture change. Charged once per item, no matter how many things were recoloured on it.</s><r>Плата за фиксированную работу взимается при изменении цвета, маски или базовой текстуры предмета. Взимается один раз за предмет, независимо от того, сколько вещей на нем было перекрашено.</r></e>
+  <e k="K" key="BEWH.Framework.ModSettings.ConfirmRankUnlock"><s>Confirm rank unlock with popup. (Looking at you butterfingers)</s><r>Подтвердите разблокировку ранга во всплывающем окне. (Смотрю на вас, бабочки)</r></e>
+  <e k="K" key="BEWH.Framework.ModSettings.DecorationCostEnabled"><s>Fitting decorations and upgrades cost materials</s><r>Установка украшений и апгрейдов, стоимость материалов</r></e>
+  <e k="K" key="BEWH.Framework.ModSettings.DecorationCostEnabledTooltip"><s>When on, a decoration with a cost has to be paid for once per item before it can be fitted. When off, everything is free to fit and nothing is ever charged. Independent of the work setting. Anything fitted while this is off stays permanently unlocked on that item, so turning it back on will not re-lock it.</s><r>Если эта опция включена, стоимость украшения должна быть оплачена один раз за каждый предмет, прежде чем его можно будет установить. В выключенном состоянии все можно разместить бесплатно и ничего не взимается. Независимость от условий работы. Все, что установлено, пока эта функция выключена, остается навсегда разблокированной для этого элемента, поэтому повторное включение не приведет к повторной блокировке.</r></e>
+  <e k="K" key="BEWH.Framework.ModSettings.DecorationWorkEnabled"><s>Fitting decorations and upgrades takes work</s><r>Установка украшений и улучшений требует усилий.</r></e>
+  <e k="K" key="BEWH.Framework.ModSettings.DecorationWorkEnabledTooltip"><s>When on, accepting changes at a station sends the pawn to work for the combined work amount, and any upgrade costs are paid when the work finishes. When off, changes apply instantly and cost nothing.</s><r>Если этот параметр включен, принятие изменений на станции отправляет пешку на работу за общую сумму работ, а любые затраты на обновление оплачиваются по завершении работы. Если параметр выключен, изменения применяются мгновенно и ничего не требуют.</r></e>
+  <e k="K" key="BEWH.Framework.ModSettings.DecorationsPerRow"><s>Decorations per row when customizing: {0}</s><r>Количество украшений в строке при настройке: {0}</r></e>
+  <e k="K" key="BEWH.Framework.ModSettings.DecorationsPerRowTooltip"><s>Amount of decorations shown when applying decorations on things. Icons and texts can become small and overlap wierdly if too many decorations per row.</s><r>Количество украшений отображается при нанесении украшений на вещи. Значки и текст могут стать маленькими и странно перекрываться, если в строке слишком много украшений.</r></e>
+  <e k="K" key="BEWH.Framework.ModSettings.MinimumWork"><s>Minimum work for any change: {0}</s><r>Минимальная работа для любого изменения: {0}</r></e>
+  <e k="K" key="BEWH.Framework.ModSettings.MinimumWorkTooltip"><s>No visit to the station takes less work than this, however small the change.</s><r>Ни один визит на станцию ​​не требует меньше усилий, чем этот, какой бы маленькой ни была разница.</r></e>
+  <e k="K" key="BEWH.Framework.ModSettings.ModName"><s>RimDark 40k - Framework - {0}</s><r>RimDark 40k - Фреймворк - {0}</r></e>
+  <e k="K" key="BEWH.Framework.ModSettings.NotifyGeneVariantAvailability"><s>Show a message when a new gene variant becomes available to a pawn</s><r>Показывать сообщение, когда пешке становится доступен новый вариант гена.</r></e>
+  <e k="K" key="BEWH.Framework.ModSettings.NotifyRankEligibility"><s>Show a message when a pawn becomes eligible for a new rank</s><r>Показывать сообщение, когда пешка получает право на новый ранг</r></e>
+  <e k="K" key="BEWH.Framework.ModSettings.RepairCostFactor"><s>Repair cost: {0} of crafting cost for a full repair</s><r>Стоимость ремонта: {0} стоимости изготовления полного ремонта.</r></e>
+  <e k="K" key="BEWH.Framework.ModSettings.RepairCostFactorTooltip"><s>How much of an item's crafting materials the repair station uses to restore it from no hit points to full. Repairs cost proportionally less the less damaged the item is.
+
+At 0%, repairs are free.
+
+Default: 50%</s><r>Сколько материалов для изготовления предмета использует ремонтная станция, чтобы восстановить его с нуля до полного. Стоимость ремонта пропорционально тем меньше, чем меньше поврежден предмет.
+
+При 0% ремонт бесплатен.
+
+По умолчанию: 50%</r></e>
+  <e k="K" key="BEWH.Framework.ModSettings.ShowCustomizationDebugOptions"><s>Show decoration debug options when customizing armor</s><r>Показывать параметры отладки украшения при настройке брони</r></e>
+  <e k="K" key="BEWH.Framework.ModSettings.ShowDecorationsOnGround"><s>Show decorations on unequipped armour and weapons</s><r>Показать украшения на неэкипированной броне и оружии.</r></e>
+  <e k="K" key="BEWH.Framework.ModSettings.ShowDecorationsOnGroundTooltip"><s>Draws fitted decorations on items lying on the ground, on shelves or being carried. Only items on screen are drawn, so the cost is small; turn off if a very large armoury slows things down.</s><r>Рисует встроенные украшения на предметах, лежащих на земле, на полках или переносимых. Рисуются только элементы на экране, поэтому затраты невелики; выключите, если очень большой арсенал замедляет работу.</r></e>
+  <e k="K" key="BEWH.Framework.ModSettings.ShowRankTab"><s>Always show Rank tab for player pawns. Will show even if no category or rank is available to the pawn</s><r>Всегда показывать вкладку «Ранг» для пешек игроков. Будет отображаться, даже если пешка не имеет ни одной категории или ранга.</r></e>
+  <e k="K" key="BEWH.Framework.PlacementLimit.OnlyOneBuildingAllowedPerMap"><s>You may only place one {0} per map.</s><r>Вы можете разместить только один {0} на карте.</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.Abilities"><s>Abilities</s><r>Способности</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.And"><s> and </s><r> и </r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.BridgeAlsoIn"><s>Also in {0}, where the tree continues</s><r>Также в {0}, где дерево продолжается.</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.BridgeCategoryLocked"><s>{0} is locked for this pawn.</s><r>{0} заблокировано для этой пешки.</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.BridgeClickHint"><s>Click to open {0}.</s><r>Нажмите, чтобы открыть {0}.</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.BridgeContinuesIn"><s>In {0}, this rank leads to:</s><r>В {0} этот ранг приводит к:</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.BridgeLeadsFrom"><s>In {0}, this rank comes after:</s><r>В {0} этот ранг идет после:</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.BridgeMore"><s>+{0} more</s><r>+{0} ещё</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.BridgeReachedFrom"><s>Also in {0}, which leads here</s><r>Также в {0}, что ведет сюда.</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.CategoryRequiredGene"><s>the {0} gene</s><r>ген {0}</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.CategoryRequiredHediff"><s>the {0} hediff</s><r>{0} хедифф</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.CategoryRequiredTitle"><s>the {0} title</s><r>заголовок {0}</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.CategoryRequiredTrait"><s>the {0} trait</s><r>черта {0}</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.CategoryRequiresLock"><s>Pawn may not have the following: </s><r>Залог не может иметь следующее: </r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.CategoryRequiresUnlock"><s>Pawn must have the following: </s><r>Залог должен иметь следующее: </r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.DaysSinceRankGiven"><s>{0} days since rank was given</s><r>{0} дней с момента присвоения ранга</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.DoesNotHaveRank"><s>{0} incapable of obtaining ranks</s><r>{0} неспособен получать звания</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.EligibleForRank"><s>{0} is now eligible for the rank {1}.</s><r>{0} теперь имеет право на ранг {1}.</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.EligibleForRanks"><s>{0} is now eligible for new ranks: {1}.</s><r>{0} теперь имеет право на новые ранги: {1}.</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.HaveAchievedRank"><s>Must have achieved the rank of {0}</s><r>Должно быть, достиг ранга {0}.</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.HaveBeenRankForDays"><s>Must have been a {0} for at least {1} days</s><r>Должно быть {0} в течение как минимум {1} дней.</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.Hediffs"><s>Hediffs</s><r>Хедиффы</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.IncompatibleRank"><s>Incompatible with the following ranks</s><r>Несовместим со следующими рангами</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.MaximumBiologicalAge"><s>Maximum: {0} years</s><r>Максимум: {0} лет</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.MinimumBiologicalAge"><s>Minimum: {0} years</s><r>Минимум: {0} лет</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.MustBeGender"><s>Must be {0}</s><r>Должно быть {0}</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.MustBeSlaveOfColony"><s>Slave of the colony</s><r>Раб колонии</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.NoCategorySelected"><s>No category selected.</s><r>Категория не выбрана.</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.NoRankSelected"><s>No rank selected.</s><r>Ранг не выбран.</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.NoUnlockedRanks"><s>{0} does not have any ranks</s><r>{0} не имеет рангов</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.NoUnlockedRanksOfCategory"><s>{0} does not have any ranks of category {1}</s><r>{0} не имеет рангов категории {1}</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.OtherEffects"><s>Other effects</s><r>Другие эффекты</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.PassionMod"><s>Passions</s><r>Страсти</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.PassionModAddOne"><s> - increase by one</s><r> - увеличить на единицу</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.PassionModDropAll"><s> - drop all</s><r> - бросить все</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.RankBonuses"><s>Bonuses from rank</s><r>Бонусы от ранга</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.RankDescription"><s>Description</s><r>Описание</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.RankLimitReached"><s>The colony already has as many of {0} as it is allowed.</s><r>В колонии уже имеется столько {0}, сколько разрешено.</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.RankLostOverLimit"><s>{PAWN_nameDef} lost the rank {RANK}: the colony already has as many as it is allowed.</s><r>{PAWN_nameDef} потерял ранг {RANK}: в колонии уже есть столько, сколько разрешено.</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.RankRequirements"><s>Requirements</s><r>Требования</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.RankTab"><s>Ranks</s><r>Звания</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.RankTooHigh"><s>{0} rank is too high to reset</s><r>{0} ранг слишком высок, чтобы его можно было сбросить.</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.RecreationFromSkill"><s>Recreation from skills</s><r>Отдых от навыков</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.RequirementsAge"><s>Biological age</s><r>Биологический возраст</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.RequirementsGender"><s>Gender</s><r>Пол</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.RequirementsGeneAll"><s>All of the following genes</s><r>Все следующие гены</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.RequirementsGeneAtLeastOne"><s>At least one of the following genes</s><r>По крайней мере один из следующих генов</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.RequirementsHediffAll"><s>All of the following hediffs</s><r>Все следующие хедиффы</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.RequirementsHediffAtLeastOne"><s>At least one of the following hediffs</s><r>По крайней мере один из следующих хедиффов</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.RequirementsLimit"><s>Only {0} may have this rank at a time. 
+Every{2} colonist will increase this limit by 1. Currently {1} exists.</s><r>Только {0} может иметь этот ранг одновременно. 
+Каждый{2} колонист увеличит этот предел на 1. В настоящее время существует {1}.</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.RequirementsLimitOnlyOneEver"><s>Only {0} may ever have this rank. Currently {1} exists.</s><r>Только {0} может иметь этот ранг. В настоящее время существует {1}.</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.RequirementsRanks"><s>All of the following ranks</s><r>Все следующие ранги</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.RequirementsRanksAtLeastOne"><s>At least one of the following ranks</s><r>По крайней мере один из следующих рангов</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.RequirementsSkills"><s>All of the following skills</s><r>Все следующие навыки</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.RequirementsStatus"><s>Status</s><r>Статус</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.RequirementsTitleAll"><s>All of the following titles</s><r>Все следующие названия</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.RequirementsTitleAtLeastOne"><s>At least one of the following titles</s><r>По крайней мере одно из следующих названий</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.RequirementsTraitAll"><s>All of the following traits</s><r>Все следующие черты</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.RequirementsTraitAtLeastOne"><s>At least one of the following traits</s><r>По крайней мере одна из следующих черт</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.Stats"><s>Stats</s><r>Статистика</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.TitleOfFaction"><s>{0} of {1}</s><r>{0} из {1}</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.TitleOrHigher"><s>{0} (or higher)</s><r>{0} (или выше)</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.TreeControlsHint"><s>Drag to move, scroll to zoom, double-click to reset</s><r>Перетащите, чтобы переместить, прокрутите, чтобы увеличить, дважды щелкните, чтобы сбросить настройки.</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.UnlockRank"><s>Unlock rank</s><r>Разблокировать ранг</r></e>
+  <e k="K" key="BEWH.Framework.RankSystem.UnlockRankConfirm"><s>Are you sure you want {0} to unlock the rank {1}?</s><r>Вы уверены, что хотите, чтобы {0} разблокировал ранг {1}?</r></e>
+  <e k="K" key="BEWH.Framework.Requirements.AtLeastCount"><s>At least {0} of the following</s><r>По крайней мере {0} из следующего</r></e>
+  <e k="K" key="BEWH.Framework.Requirements.BodyTypeAtLeastOne"><s>One of the following body types</s><r>Один из следующих типов телосложения</r></e>
+  <e k="K" key="BEWH.Framework.Requirements.ResearchAll"><s>All of the following research</s><r>Все последующие исследования</r></e>
+  <e k="K" key="BEWH.Framework.Requirements.ResearchAtLeastOne"><s>At least one of the following research</s><r>По крайней мере одно из следующих исследований</r></e>
+  <e k="K" key="BEWH.Framework.Requirements.SkillsAtLeastOne"><s>At least one of the following skills</s><r>По крайней мере один из следующих навыков</r></e>
+  <e k="K" key="BEWH.Framework.Requirements.SkillsSum"><s>Combined level of the following skills</s><r>Комбинированный уровень следующих навыков</r></e>
+  <e k="K" key="BEWH.Framework.Requirements.SkillsSumTotal"><s>Total: {0} (needs {1})</s><r>Итого: {0} (необходимо {1})</r></e>
+  <e k="K" key="BEWH.Framework.Shield.Bash.Inactive"><s>Shield unusable: {0}</s><r>Щит непригоден для использования: {0}</r></e>
+  <e k="K" key="BEWH.Framework.Shield.Bash.NoShield"><s>Needs a worn shield</s><r>Нужен изношенный щит</r></e>
+  <e k="K" key="BEWH.Framework.Shield.Blocked"><s>Blocked</s><r>Заблокировано</r></e>
+  <e k="K" key="BEWH.Framework.Shield.CounterBash"><s>Shield bash</s><r>Удар щитом</r></e>
+  <e k="K" key="BEWH.Framework.Shield.Inactive.Asleep"><s>asleep</s><r>спящий</r></e>
+  <e k="K" key="BEWH.Framework.Shield.Inactive.Downed"><s>downed</s><r>сбитый</r></e>
+  <e k="K" key="BEWH.Framework.Shield.Inactive.NoManipulation"><s>cannot manipulate</s><r>не могу манипулировать</r></e>
+  <e k="K" key="BEWH.Framework.Shield.Proficiency.Inactive"><s>Shield unusable: {0}</s><r>Щит непригоден для использования: {0}</r></e>
+  <e k="K" key="BEWH.Framework.Shield.Proficiency.NoShield"><s>No shield worn.</s><r>Щит не надет.</r></e>
+  <e k="K" key="BEWH.Framework.Shield.Proficiency.Worn"><s>Shield: {0}</s><r>Щит: {0}</r></e>
+  <e k="K" key="BEWH.Framework.Shield.Stat.ArmorRating"><s>Shield armor rating</s><r>Рейтинг брони щита</r></e>
+  <e k="K" key="BEWH.Framework.Shield.Stat.ArmorRatingDesc"><s>Armor penetration the shield shrugs off. Every point of penetration above this is taken directly off the block chance.</s><r>Пробитие брони щит отмахивается. Каждая точка проникновения выше этого значения снимается непосредственно с шанса блока.</r></e>
+  <e k="K" key="BEWH.Framework.Shield.Stat.BackArc"><s>Back arc</s><r>Задняя дуга</r></e>
+  <e k="K" key="BEWH.Framework.Shield.Stat.BackArcDesc"><s>Width of the zone behind the wearer that counts as the back.</s><r>Ширина зоны позади пользователя, которая считается спиной.</r></e>
+  <e k="K" key="BEWH.Framework.Shield.Stat.BackFactor"><s>Back protection</s><r>Защита спины</r></e>
+  <e k="K" key="BEWH.Framework.Shield.Stat.BackFactorDesc"><s>Multiplier on the block chance for attacks coming from behind the wearer.</s><r>Множитель шанса блока при атаке сзади владельца.</r></e>
+  <e k="K" key="BEWH.Framework.Shield.Stat.CounterBash"><s>Counter-bash chance</s><r>Шанс контратаки</r></e>
+  <e k="K" key="BEWH.Framework.Shield.Stat.CounterBashDesc"><s>Base chance that a blocked melee attack is answered with a shield bash that staggers the attacker. Multiplied by the wearer's shield proficiency.</s><r>Базовый шанс, что на заблокированную атаку ближнего боя ответят ударом щита, который ошеломит атакующего. Умножается на мастерство владения щитом владельца.</r></e>
+  <e k="K" key="BEWH.Framework.Shield.Stat.Explosions"><s>Blocks explosions</s><r>Блокирует взрывы</r></e>
+  <e k="K" key="BEWH.Framework.Shield.Stat.ExplosionsDesc"><s>Whether the shield can protect against explosions.</s><r>Сможет ли щит защитить от взрывов.</r></e>
+  <e k="K" key="BEWH.Framework.Shield.Stat.FrontArc"><s>Front arc</s><r>Передняя дуга</r></e>
+  <e k="K" key="BEWH.Framework.Shield.Stat.FrontArcDesc"><s>Width of the zone in front of the wearer that counts as the front. The sides cover whatever the front and back arcs leave.</s><r>Ширина зоны перед носителем, которая считается передней. Боковые стороны закрывают все, что оставляют передняя и задняя дуги.</r></e>
+  <e k="K" key="BEWH.Framework.Shield.Stat.FrontFactor"><s>Front protection</s><r>Передняя защита</r></e>
+  <e k="K" key="BEWH.Framework.Shield.Stat.FrontFactorDesc"><s>Multiplier on the block chance for attacks coming from in front of the wearer.</s><r>Множитель шанса блока при атаке, исходящей спереди владельца.</r></e>
+  <e k="K" key="BEWH.Framework.Shield.Stat.MaxBlock"><s>Maximum block chance</s><r>Максимальный шанс блока</r></e>
+  <e k="K" key="BEWH.Framework.Shield.Stat.MaxBlockDesc"><s>The block chance can never exceed this, however skilled the wearer.</s><r>Шанс блока никогда не может превысить это значение, каким бы опытным ни был владелец.</r></e>
+  <e k="K" key="BEWH.Framework.Shield.Stat.MeleeBlock"><s>Block chance (melee)</s><r>Шанс заблокировать (ближний бой)</r></e>
+  <e k="K" key="BEWH.Framework.Shield.Stat.MeleeBlockDesc"><s>Base chance to stop a melee attack outright. Multiplied by the zone the attack comes from and the wearer's shield proficiency, reduced when not drafted or fighting, and reduced by armor penetration above the shield's armor rating.</s><r>Базовый шанс полностью остановить рукопашную атаку. Умножается на зону, из которой исходит атака, и на владение щитом владельца, уменьшается, когда он не выбран или не сражается, и уменьшается, если пробивание брони превышает рейтинг брони щита.</r></e>
+  <e k="K" key="BEWH.Framework.Shield.Stat.OffSide"><s>Weapon-arm side</s><r>Сторона оружия-рукоятки</r></e>
+  <e k="K" key="BEWH.Framework.Shield.Stat.OffSideDesc"><s>Multiplier on side protection for the side the shield is not held on.</s><r>Множитель боковой защиты для той стороны, на которой не держится щит.</r></e>
+  <e k="K" key="BEWH.Framework.Shield.Stat.RangedBlock"><s>Block chance (ranged)</s><r>Шанс блока (дальнего боя)</r></e>
+  <e k="K" key="BEWH.Framework.Shield.Stat.RangedBlockDesc"><s>Base chance to stop a ranged attack or explosion outright. Modified the same way as the melee block chance.</s><r>Базовый шанс полностью остановить дальнюю атаку или взрыв. Изменяется так же, как и шанс блока в ближнем бою.</r></e>
+  <e k="K" key="BEWH.Framework.Shield.Stat.SideFactor"><s>Side protection</s><r>Боковая защита</r></e>
+  <e k="K" key="BEWH.Framework.Shield.Stat.SideFactorDesc"><s>Multiplier on the block chance for attacks coming from the wearer's side.</s><r>Множитель шанса блока атак со стороны владельца.</r></e>
+  <e k="K" key="BEWH.Framework.StatDamageScaling.Current"><s>Current from {0}: {1}</s><r>Ток от {0}: {1}</r></e>
+  <e k="K" key="BEWH.Framework.StatDamageScaling.CurvePoint"><s>at {0}: {1} damage</s><r>в {0}: {1} урона</r></e>
+  <e k="K" key="BEWH.Framework.StatDamageScaling.DamageTypes"><s>Only affects: {0}</s><r>Влияет только: {0}</r></e>
+  <e k="K" key="BEWH.Framework.StatDamageScaling.Desc"><s>This weapon's damage changes based on stats of its wielder or of what it hits. Scaling is applied before armor.</s><r>Урон этого оружия меняется в зависимости от характеристик его владельца или того, по чему оно поражает. Масштабирование применяется перед броней.</r></e>
+  <e k="K" key="BEWH.Framework.StatDamageScaling.EntryHeader"><s>{0} of the {1}:</s><r>{0} из {1}:</r></e>
+  <e k="K" key="BEWH.Framework.StatDamageScaling.Limit"><s>Total multiplier is limited to x{0} - x{1}.</s><r>Общий множитель ограничен значениями x{0} - x{1}.</r></e>
+  <e k="K" key="BEWH.Framework.StatDamageScaling.NonPawns"><s>Also applies to non-pawns.</s><r>Также относится к не пешкам.</r></e>
+  <e k="K" key="BEWH.Framework.StatDamageScaling.PerPoint"><s>{0} damage per point above {1}</s><r>{0} урона за очко выше {1}</r></e>
+  <e k="K" key="BEWH.Framework.StatDamageScaling.StatLabel"><s>Damage scaling</s><r>Масштабирование урона</r></e>
+  <e k="K" key="BEWH.Framework.StatDamageScaling.Target"><s>target</s><r>цель</r></e>
+  <e k="K" key="BEWH.Framework.StatDamageScaling.TargetDependent"><s>Target-based scaling depends on what is hit.</s><r>Масштабирование на основе Target зависит от объекта удара.</r></e>
+  <e k="K" key="BEWH.Framework.StatDamageScaling.Wielder"><s>wielder</s><r>владелец</r></e>
+  <e k="K" key="BEWH.Framework.StatReport.AlternateTexture"><s>Alternate Base Form</s><r>Альтернативная базовая форма</r></e>
+  <e k="K" key="BEWH.Framework.StatReport.Ammo"><s>Loaded ammunition</s><r>Загруженные боеприпасы</r></e>
+  <e k="K" key="BEWH.Framework.StatReport.ApparelSet"><s>Apparel sets</s><r>Комплекты одежды</r></e>
+  <e k="K" key="BEWH.Framework.StatReport.ArtifactTraits"><s>Artifact traits</s><r>Характеристики артефакта</r></e>
+  <e k="K" key="BEWH.Framework.StatReport.Decoration"><s>Decorations</s><r>Украшения</r></e>
+  <e k="K" key="BEWH.Framework.StatReport.Devotion"><s>Devotion</s><r>Преданность</r></e>
+  <e k="K" key="BEWH.Framework.StatReport.GeneCustomization"><s>Gene variants</s><r>Варианты генов</r></e>
+  <e k="K" key="BEWH.Framework.StatReport.Internal"><s>Internal</s><r>Внутренний</r></e>
+  <e k="K" key="BEWH.Framework.StatReport.Rank"><s>Ranks</s><r>Звания</r></e>
+  <e k="K" key="BEWH.Framework.StatReport.Total"><s>Total</s><r>Общий</r></e>
+  <e k="K" key="BEWH.Framework.Unbreakable.CannotEnslaveLetter"><s>Unbreakable Loyalty</s><r>Нерушимая верность</r></e>
+  <e k="K" key="BEWH.Framework.Unbreakable.CannotEnslaveMessage"><s>{1} tried to enslave {0}, but {0}'s unbreakable loyalty to their faction made them resist all attempts.
+
+{0} cannot be enslaved.</s><r>{1} пытались поработить {0}, но непоколебимая преданность {0} своей фракции заставила их сопротивляться всем попыткам. 
+
+{0} нельзя поработить.</r></e>
+  <e k="K" key="BEWH.Framework.Unbreakable.CannotRecruitLetter"><s>Unbreakable Loyalty</s><r>Нерушимая верность</r></e>
+  <e k="K" key="BEWH.Framework.Unbreakable.CannotRecruitMessage"><s>{1} tried to recruit {0}, but {0}'s unbreakable loyalty to their faction made them resist all attempts.
+
+{0} cannot be recruited.</s><r>{1} пытались завербовать {0}, но непоколебимая преданность {0} своей фракции заставила их сопротивляться всем попыткам. 
+
+{0} невозможно завербовать.</r></e>
+  <e k="K" key="BEWH.Framework.Voidfaring.CrewRangeOffset"><s>Crew aboard</s><r>Экипаж на борту</r></e>
+  <e k="K" key="BEWH.ModSettings.CheckVEFPatches"><s>Remember to check Vanilla Expanded Framework toggleable patches for more settings for this mod!</s><r>Не забудьте проверить переключаемые патчи Vanilla Expanded Framework, чтобы узнать больше настроек для этого мода!</r></e>
+  <e k="K" key="BEWH.ModSettings.TabCustomization"><s>Customization</s><r>Кастомизация</r></e>
+  <e k="K" key="BEWH.ModSettings.TabDebug"><s>Debug</s><r>Отлаживать</r></e>
+  <e k="K" key="BEWH.ModSettings.TabMain"><s>Main</s><r>Основной</r></e>
+  <e k="K" key="BEWH.ModSettings.TabMisc"><s>Misc</s><r>Разное</r></e>
+</AutoTranslateCache>
