@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="jarocks.securitydoorsexpanded" name="Security and Blast Doors Expanded" language="Russian" version="1">
+  <e k="D" t="JobDef" key="SDE_CloseVehicleDoorJob.reportString"><s>closing TargetA.</s><r>закрытие TargetA.</r></e>
+  <e k="D" t="JobDef" key="SDE_InstallVacBarrierJob.reportString"><s>installing vac barrier on TargetA.</s><r>установка вакуумного барьера на TargetA.</r></e>
+  <e k="D" t="JobDef" key="SDE_OpenVehicleDoorJob.reportString"><s>opening TargetA.</s><r>открытие TargetA.</r></e>
+  <e k="D" t="ResearchProjectDef" key="SDE_ArmoredSecurityDoors.description"><s>Build a heavily armored and blast resistant door. It's expensive, slow to open, and requires electricity, but it can take a tremendous amount of punishment before failing. The door requires walls on either side to function.</s><r>Постройте тяжелобронированную и взрывостойкую дверь. Он дорогой, медленно открывается и требует электричества, но, прежде чем он выйдет из строя, может потребоваться немало усилий. Для функционирования двери необходимы стены с обеих сторон.</r></e>
+  <e k="D" t="ResearchProjectDef" key="SDE_ArmoredSecurityDoors.generalRules.rulesStrings.0"><s>subject-&gt;blast door</s><r>subject-&gt;взрывная дверь</r></e>
+  <e k="D" t="ResearchProjectDef" key="SDE_ArmoredSecurityDoors.generalRules.rulesStrings.1"><s>subject_story-&gt;plated the vault doors of a planetary bank</s><r>subject_story-&gt;покрыл двери хранилища планетарного банка</r></e>
+  <e k="D" t="ResearchProjectDef" key="SDE_ArmoredSecurityDoors.generalRules.rulesStrings.2"><s>subject_story-&gt;hardened bunkers against mechanoid sieges</s><r>subject_story-&gt;укрепленные бункеры против осад механоидов</r></e>
+  <e k="D" t="ResearchProjectDef" key="SDE_ArmoredSecurityDoors.generalRules.rulesStrings.3"><s>subject_gerund-&gt;constructing blast doors</s><r>subject_gerund-&gt;изготовление противовзрывных дверей</r></e>
+  <e k="D" t="ResearchProjectDef" key="SDE_ArmoredSecurityDoors.label"><s>blast doors</s><r>взрывозащитные двери</r></e>
+  <e k="D" t="ThingDef" key="SDE_ArmoredSecurityDoor.description"><s>A heavily armored, blast-resistant door. It's expensive, slow to open, and requires electricity, but can take a tremendous amount of punishment before failing. The door requires walls on either side to function.</s><r>Тяжелобронированная, взрывозащищенная дверь. Он дорогой, медленно открывается и требует электричества, но может выдержать огромные нагрузки, прежде чем выйдет из строя. Для функционирования двери необходимы стены с обеих сторон.</r></e>
+  <e k="D" t="ThingDef" key="SDE_ArmoredSecurityDoor.label"><s>blast door (1x2)</s><r>взрывобезопасная дверь (1x2)</r></e>
+  <e k="D" t="ThingDef" key="SDE_ArmoredSecurityDoorLarge.description"><s>A heavily armored, blast-resistant door. It's expensive, slow to open, and requires electricity, but can take a tremendous amount of punishment before failing. The door requires walls on either side to function.</s><r>Тяжелобронированная, взрывозащищенная дверь. Он дорогой, медленно открывается и требует электричества, но может выдержать огромные нагрузки, прежде чем выйдет из строя. Для функционирования двери необходимы стены с обеих сторон.</r></e>
+  <e k="D" t="ThingDef" key="SDE_ArmoredSecurityDoorLarge.label"><s>blast door (1x3)</s><r>взрывобезопасная дверь (1x3)</r></e>
+  <e k="D" t="ThingDef" key="SDE_ArmoredSecurityDoorSmall.description"><s>A heavily armored, blast-resistant door. It's expensive, slow to open, and requires electricity, but can take a tremendous amount of punishment before failing.</s><r>Тяжелобронированная, взрывозащищенная дверь. Он дорогой, медленно открывается и требует электричества, но может выдержать огромные нагрузки, прежде чем выйдет из строя.</r></e>
+  <e k="D" t="ThingDef" key="SDE_ArmoredSecurityDoorSmall.label"><s>blast door (1x1)</s><r>взрывобезопасная дверь (1x1)</r></e>
+  <e k="D" t="ThingDef" key="SDE_ArmoredVehicleDoor.description"><s>A heavily armored, blast-resistant door that's wide enough for vehicles and crowds. It's expensive, slow to open, and requires electricity, but can take a tremendous amount of punishment before failing. The door requires walls on either side to function.</s><r>Тяжелобронированная, взрывоустойчивая дверь, достаточно широкая для транспортных средств и толпы. Он дорогой, медленно открывается и требует электричества, но может выдержать огромные нагрузки, прежде чем выйдет из строя. Для функционирования двери необходимы стены с обеих сторон.</r></e>
+  <e k="D" t="ThingDef" key="SDE_ArmoredVehicleDoor.label"><s>hangar blast door (1x5)</s><r>противовзрывная дверь ангара (1х5)</r></e>
+  <e k="D" t="ThingDef" key="SDE_DoorController.description"><s>A wall-mounted controller that boosts the opening speed of ajacent security and blast doors. Placing more than one boost module near the same door has no effect.</s><r>Настенный контроллер, который увеличивает скорость открытия соседних защитных и взрывозащитных дверей. Размещение более одного усилителя рядом с одной дверью не имеет никакого эффекта.</r></e>
+  <e k="D" t="ThingDef" key="SDE_DoorController.label"><s>door boost module</s><r>дверной усилительный модуль</r></e>
+  <e k="D" t="ThingDef" key="SDE_SecurityDoorLarge.description"><s>A heavily reinforced door. It's slow to open and requires electricity, but is very strong. It's a good choice if you want to keep something dangerous out - or in. The door requires walls on either side to function.</s><r>Сильно усиленная дверь. Он открывается медленно и требует электричества, но очень прочный. Это хороший выбор, если вы хотите, чтобы что-то опасное не попадало внутрь или наружу. Для функционирования двери необходимы стены с обеих сторон.</r></e>
+  <e k="D" t="ThingDef" key="SDE_SecurityDoorLarge.label"><s>security door (1x3)</s><r>бронированная дверь (1x3)</r></e>
+  <e k="D" t="ThingDef" key="SDE_SecurityDoorSmall.description"><s>A heavily reinforced door. It's slow to open and requires electricity, but is very strong. It's a good choice if you want to keep something dangerous out - or in.</s><r>Сильно усиленная дверь. Он открывается медленно и требует электричества, но очень прочный. Это хороший выбор, если вы хотите, чтобы что-то опасное не попадало внутрь или наружу.</r></e>
+  <e k="D" t="ThingDef" key="SDE_SecurityDoorSmall.label"><s>security door (1x1)</s><r>бронированная дверь (1x1)</r></e>
+  <e k="D" t="ThingDef" key="SDE_VehicleDoor.description"><s>A heavily reinforced door wide enough for vehicles and crowds. It's slow to open and requires electricity, but can take a tremendous amount of punishment before failing. The door requires walls on either side to function.</s><r>Сильно усиленная дверь, достаточно широкая для транспортных средств и толпы. Он открывается медленно и требует электричества, но может выдержать огромные нагрузки, прежде чем выйдет из строя. Для функционирования двери необходимы стены с обеих сторон.</r></e>
+  <e k="D" t="ThingDef" key="SDE_VehicleDoor.label"><s>hangar door (1x5)</s><r>дверь ангара (1х5)</r></e>
+  <e k="D" t="ThingDef" key="SDE_VehicleDoorBlocker.label"><s>vehicle door</s><r>дверь автомобиля</r></e>
+  <e k="D" t="WorkGiverDef" key="SDE_CloseVehicleDoorWG.gerund"><s>closing</s><r>закрытие</r></e>
+  <e k="D" t="WorkGiverDef" key="SDE_CloseVehicleDoorWG.label"><s>close hangar doors</s><r>закрыть двери ангара</r></e>
+  <e k="D" t="WorkGiverDef" key="SDE_CloseVehicleDoorWG.verb"><s>close</s><r>закрывать</r></e>
+  <e k="D" t="WorkGiverDef" key="SDE_InstallVacBarrierWG.gerund"><s>installing a vac barrier into</s><r>установка вакуумного барьера в</r></e>
+  <e k="D" t="WorkGiverDef" key="SDE_InstallVacBarrierWG.label"><s>install vac barrier</s><r>установить вакуумный барьер</r></e>
+  <e k="D" t="WorkGiverDef" key="SDE_InstallVacBarrierWG.verb"><s>install a vac barrier into</s><r>установить вакуумный барьер в</r></e>
+  <e k="D" t="WorkGiverDef" key="SDE_OpenVehicleDoorWG.gerund"><s>opening</s><r>открытие</r></e>
+  <e k="D" t="WorkGiverDef" key="SDE_OpenVehicleDoorWG.label"><s>open hangar doors</s><r>открытые двери ангара</r></e>
+  <e k="D" t="WorkGiverDef" key="SDE_OpenVehicleDoorWG.verb"><s>open</s><r>открыть</r></e>
+  <e k="K" key="SDE_BrokenDown"><s>broken down</s><r>сломанный</r></e>
+  <e k="K" key="SDE_BypassDrafted"><s>when drafted, </s><r>при составлении проекта, </r></e>
+  <e k="K" key="SDE_CancelVacBarrierInstall"><s>Cancel</s><r>Отмена</r></e>
+  <e k="K" key="SDE_CheckpointActive"><s>Active (required vacuum resistance: {0})</s><r>Активный (требуемое сопротивление вакууму: {0})</r></e>
+  <e k="K" key="SDE_CheckpointInactive"><s>Inactive</s><r>Неактивный</r></e>
+  <e k="K" key="SDE_DockingPoint"><s>Docking point</s><r>Точка стыковки</r></e>
+  <e k="K" key="SDE_DockingPointDesc"><s>Toggles whether this door is highlighted during gravship placement to assist with landings</s><r>Переключает, подсвечивается ли эта дверь во время размещения грави-корабля, чтобы облегчить приземление.</r></e>
+  <e k="K" key="SDE_Forbidden"><s>forbidden</s><r>запрещенный</r></e>
+  <e k="K" key="SDE_InstallNeeds"><s>Vac barrier install: needs {0} {1}</s><r>Установка вакуумного барьера: необходимо {0} {1}</r></e>
+  <e k="K" key="SDE_InstallVacBarrier"><s>Install vac barrier</s><r>Установить вакуумный барьер</r></e>
+  <e k="K" key="SDE_InstallVacBarrierDesc"><s>An integrated ultrasonic barrier that prevents depressurization in space. The field compresses air molecules near the threshold, preventing gases from escaping while allowing people to freely travel through it.
+
+Requires {0} gravlite panels.</s><r>Встроенный ультразвуковой барьер, предотвращающий разгерметизацию в космосе. Поле сжимает молекулы воздуха возле порога, предотвращая выход газов и позволяя людям свободно перемещаться через него.
+
+Требуются {0} гравлитовые панели.</r></e>
+  <e k="K" key="SDE_Installing"><s>Installing vac barrier: {0}</s><r>Установка вакуумного барьера: {0}</r></e>
+  <e k="K" key="SDE_LOTO"><s>lockout tagout</s><r>локаут</r></e>
+  <e k="K" key="SDE_LockMode"><s>Unpowered lockdown</s><r>Блокировка без питания</r></e>
+  <e k="K" key="SDE_LockModeDesc"><s>Prevents colonists from opening the door when it's unpowered.</s><r>Не позволяет колонистам открыть дверь, когда она обесточена.</r></e>
+  <e k="K" key="SDE_Lockdown"><s>Locked down: {0}</s><r>Заблокировано: {0}</r></e>
+  <e k="K" key="SDE_Locked"><s>locked</s><r>заперто</r></e>
+  <e k="K" key="SDE_Lockout"><s>security lockout</s><r>блокировка безопасности</r></e>
+  <e k="K" key="SDE_NeedGravlitePanels"><s>need {0} gravlite panels</s><r>нужны {0} гравлитовые панели</r></e>
+  <e k="K" key="SDE_NoPower"><s>no power</s><r>нет силы</r></e>
+  <e k="K" key="SDE_SettingDraftedBypass"><s>Drafted pawns bypass vac checkpoints:</s><r>Выбранные пешки обходят контрольные точки VAC:</r></e>
+  <e k="K" key="SDE_SettingDraftedBypassDesc"><s>Whether drafted colonists should ignore vacuum checkpoints, because who needs VacSuits after all?</s><r>Должны ли призванные колонисты игнорировать вакуумные контрольно-пропускные пункты, ведь кому в конце концов нужны вакуумные костюмы?</r></e>
+  <e k="K" key="SDE_SettingStatus"><s>Show door status:</s><r>Показать статус двери:</r></e>
+  <e k="K" key="SDE_SettingStatusDesc"><s>Displays holograms on doors which are locked down or have active vac checkpoints</s><r>Отображает голограммы на дверях, которые заперты или имеют активные контрольно-пропускные пункты.</r></e>
+  <e k="K" key="SDE_SettingVacEstimate"><s>Around {0} of resistance to vacuum exposure, with death in {1}.</s><r>Сопротивление воздействию вакуума составляет около {0}, смерть наступает через {1}.</r></e>
+  <e k="K" key="SDE_SettingVacResistant"><s>Full vacuum resistance.</s><r>Полная вакуумная стойкость.</r></e>
+  <e k="K" key="SDE_SettingVacThreshold"><s>Minimum vacuum resistance for Vac Checkpoint: {0}</s><r>Минимальное сопротивление вакууму для Vac Checkpoint: {0}</r></e>
+  <e k="K" key="SDE_VacBarrierActive"><s>Vac barrier active</s><r>Вакуумный барьер активен</r></e>
+  <e k="K" key="SDE_VacBarrierInstalled"><s>Vac barrier installed in {0}.</s><r>Вакуумный барьер установлен в {0}.</r></e>
+  <e k="K" key="SDE_VacCheckpoint"><s>Vac Checkpoint</s><r>Контрольно-пропускной пункт Вак</r></e>
+  <e k="K" key="SDE_VacCheckpointDesc"><s>A basic VacSuit check. Requires a minimum vacuum resistance of {0} to prevent unsuited colonists from wandering into the vacuum of space.
+
+Colonists will ignore this checkpoint {1} if both sides are pressurized, or in the event of a catastrophic hull breach.</s><r>Базовая проверка VacSuit. Требуется минимальное сопротивление вакууму {0}, чтобы предотвратить блуждание неподходящих колонистов в космическом вакууме. 
+
+Колонисты будут игнорировать эту контрольно-пропускную точку {1}, если обе стороны находятся под давлением или в случае катастрофического повреждения корпуса.</r></e>
+  <e k="K" key="SDE_VehicleDoorCancel"><s>Cancel</s><r>Отмена</r></e>
+  <e k="K" key="SDE_VehicleDoorClose"><s>Close door</s><r>Закрыть дверь</r></e>
+  <e k="K" key="SDE_VehicleDoorDisabledInoperable"><s>Inoperable</s><r>Неработоспособный</r></e>
+  <e k="K" key="SDE_VehicleDoorDisabledLockdown"><s>Locked down</s><r>Заблокировано</r></e>
+  <e k="K" key="SDE_VehicleDoorOpen"><s>Open door</s><r>Открытая дверь</r></e>
+  <e k="K" key="SDE_VehicleDoorStateBlocked"><s>Closing: door obstructed</s><r>Закрытие: дверь заблокирована</r></e>
+  <e k="K" key="SDE_VehicleDoorStateClosing"><s>Closing...</s><r>Закрытие...</r></e>
+  <e k="K" key="SDE_VehicleDoorStateOpening"><s>Opening...</s><r>Открытие...</r></e>
+</AutoTranslateCache>
