@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="cain.mapexpander" name="Map Expander" language="Russian" version="1">
+  <e k="K" key="MapExpander_AasbBudget"><s>The resized AASB2 column exceeds its enabled cell budget. Choose smaller floors, or explicitly disable AASB2's map-size clamp in its own settings.</s><r>Столбец AASB2 с измененным размером превышает включенный бюджет ячейки. Выбирайте этажи меньшего размера или явно отключите ограничение размера карты AASB2 в его собственных настройках.</r></e>
+  <e k="K" key="MapExpander_AasbConfirm"><s>This resizes all {0} AASB2 floors together and preserves the existing number of floors. The displayed dimensions are per floor. The backup preserves the entire original colony.</s><r>При этом размеры всех {0} этажей AASB2 изменяются вместе и сохраняется существующее количество этажей. Указанные размеры указаны на этаж. Резервная копия сохраняет всю исходную колонию.</r></e>
+  <e k="K" key="MapExpander_AasbCurrent"><s>AASB2: {0} floors, each {1} × {2}. Optional largest side per floor: {3}.</s><r>AASB2: {0} этажей, каждый {1} × {2}. Дополнительная наибольшая сторона на этаже: {3}.</r></e>
+  <e k="K" key="MapExpander_AasbGutterOccupied"><s>AASB2's separator space contains objects. Clear those objects before resizing the floors.</s><r>Разделительное пространство AASB2 содержит объекты. Очистите эти объекты, прежде чем изменять размер этажей.</r></e>
+  <e k="K" key="MapExpander_AasbNotes"><s>All existing floors resize together. The preview shows one floor; buildings, stairs, areas and terrain on every floor move together. Silver covers playable land across all floors; empty separator space is free. Sky and underground additions use AASB2's generation.</s><r>Все существующие этажи изменяются вместе. На предварительном просмотре показан один этаж; здания, лестницы, территории и ландшафт на каждом этаже перемещаются вместе. Серебро покрывает игровую землю на всех этажах; пустое место-разделитель свободно. Небесные и подземные дополнения используют поколение AASB2.</r></e>
+  <e k="K" key="MapExpander_AasbUnsupported"><s>This As above, So below II floor layout cannot be resized by this version. No resize has started.</s><r>Размер планировки этажа «Как выше» и «Так ниже II» в этой версии изменить невозможно. Изменение размера не началось.</r></e>
+  <e k="K" key="MapExpander_AreaBalance"><s>Added: {0} cells. Removed: {1} cells. Shrinkage credit offsets added land before the net silver balance is rounded.</s><r>Добавлено: {0} ячеек. Удалены: {1} ячеек. Уменьшение кредита компенсирует добавленную землю до округления чистого баланса серебра.</r></e>
+  <e k="K" key="MapExpander_BackupName"><s>{0} - before map expansion {1}</s><r>{0} - до расширения карты {1}</r></e>
+  <e k="K" key="MapExpander_BlockArea"><s>Area: {0}</s><r>Площадь: {0}</r></e>
+  <e k="K" key="MapExpander_BlockDesignation"><s>Designation: {0}</s><r>Обозначение: {0}</r></e>
+  <e k="K" key="MapExpander_BlockJob"><s>{0}: current or queued destination</s><r>{0}: текущий пункт назначения или пункт назначения в очереди.</r></e>
+  <e k="K" key="MapExpander_BlockRoof"><s>Constructed roof: {0}</s><r>Построенная крыша: {0}</r></e>
+  <e k="K" key="MapExpander_BlockZone"><s>Zone: {0}</s><r>Зона: {0}</r></e>
+  <e k="K" key="MapExpander_BlockersIntro"><s>{0} protected objects or locations block this trim. Every entry is listed below with its position. Jump to any entry, or use the letter targets to see arrows on the map. Removable entries need confirmation before deletion.</s><r>{0} защищенные объекты или локации блокируют эту обрезку. Каждая запись указана ниже с указанием ее позиции. Перейдите к любой записи или используйте буквенные метки, чтобы увидеть стрелки на карте. Удаление записей требует подтверждения перед удалением.</r></e>
+  <e k="K" key="MapExpander_BlockersTitle"><s>Map resize: objects and locations</s><r>Изменение размера карты: объекты и локации</r></e>
+  <e k="K" key="MapExpander_ButtonTip"><s>Expand map
+
+Add land to any side of this map: north, south, east or west. The game saves a backup first, then reloads with the bigger map and generates the new land.</s><r>Развернуть карту
+
+Добавьте землю в любую сторону этой карты: север, юг, восток или запад. Игра сначала сохраняет резервную копию, затем перезагружается с большей картой и генерирует новую землю.</r></e>
+  <e k="K" key="MapExpander_CleanupIntro"><s>Review all {0} removal or route-reset entries below. Confirming deletes natural land/resources, wild animals, filth, loose items, corpses that are not your own and unowned ruin remains inside the removed strips, and resets listed wild animal routes. Cancel leaves the map unchanged.</s><r>Просмотрите все записи об удалении {0} или сбросе маршрута ниже. При подтверждении удаляются природные земли/ресурсы, дикие животные, грязь, незакрепленные предметы, трупы, которые не являются вашими, и бесхозные руины остаются внутри удаленных полос, а также сбрасываются перечисленные маршруты диких животных. Отмена оставляет карту без изменений.</r></e>
+  <e k="K" key="MapExpander_ConfirmCleanup"><s>Confirm deletion and resize</s><r>Подтвердите удаление и измените размер.</r></e>
+  <e k="K" key="MapExpander_ConfirmCredit"><s>You receive {0} silver for the net land removed, placed near your colonists after resizing succeeds. The same per-cell rate applies to added and removed land; a net payout is rounded down.</s><r>Вы получаете {0} серебра за удаленную чистую землю, помещенную рядом с вашими колонистами после успешного изменения размера. Та же ставка за ячейку применяется к добавленным и удаленным землям; чистая выплата округляется в меньшую сторону.</r></e>
+  <e k="K" key="MapExpander_ConfirmPrice"><s>Net cost: {0} silver after shrinkage credit. Payment follows successful land generation. The backup keeps your original silver.</s><r>Чистая стоимость: {0} серебра после усадки. Оплата следует за успешным получением земли. Резервная копия сохраняет исходное серебро.</r></e>
+  <e k="K" key="MapExpander_CreditPaid"><s>Shrinkage paid {0} silver near your colonists.</s><r>Уменьшение принесет {0} серебра рядом с вашими колонистами.</r></e>
+  <e k="K" key="MapExpander_DialogCaution"><s>Expand when the map is calm. Expanding during raids, sieges, visits, quests or events (toxic fallout, eclipses and the like) has not been tested and may break them. If something goes wrong, load the backup save.</s><r>Разверните, когда карта успокоится. Расширение во время рейдов, осад, посещений, квестов или событий (токсичные осадки, затмения и тому подобное) не тестировалось и может их сломать. Если что-то пойдет не так, загрузите резервную копию.</r></e>
+  <e k="K" key="MapExpander_DialogClear"><s>Reset</s><r>Перезагрузить</r></e>
+  <e k="K" key="MapExpander_DialogConfirm"><s>Resize this map to {0} x {1}?
+
+The game will save a backup, reload, and generate any added land. This takes a moment.</s><r>Измените размер этой карты на {0} x {1}?
+
+Игра сохранит резервную копию, перезагрузится и создаст все добавленные земли. Это занимает некоторое время.</r></e>
+  <e k="K" key="MapExpander_DialogCredit"><s>Receive: {0} silver</s><r>Получите: {0} серебра.</r></e>
+  <e k="K" key="MapExpander_DialogCurrent"><s>Current map: {0} x {1} cells. Largest allowed side: {2} (mod settings).</s><r>Текущая карта: {0} x {1} ячеек. Наибольшая разрешенная сторона: {2} (настройки мода).</r></e>
+  <e k="K" key="MapExpander_DialogExpand"><s>Resize</s><r>Изменить размер</r></e>
+  <e k="K" key="MapExpander_DialogNewSize"><s>New size: {0} x {1}</s><r>Новый размер: {0} x {1}</r></e>
+  <e k="K" key="MapExpander_DialogNotes"><s>The game saves a backup of this colony, reloads it with the bigger map and generates the new land from the same world tile, so hills and mountains carry on across the edge. Everything you have stays where it is. The new land starts unexplored where mountains seal it off. A bigger map can run slower. Loading the backup brings the old map back.</s><r>Игра сохраняет резервную копию этой колонии, перезагружает ее с картой большего размера и генерирует новую землю из того же тайла мира, поэтому холмы и горы продолжаются по краю. Все, что у вас есть, остается там, где оно есть. Новая земля начинается неисследованной там, где ее закрывают горы. Большая карта может работать медленнее. Загрузка резервной копии возвращает старую карту.</r></e>
+  <e k="K" key="MapExpander_DialogPrice"><s>Cost: {0} silver (available: {1})</s><r>Стоимость: {0} серебра (доступно: {1})</r></e>
+  <e k="K" key="MapExpander_DialogTitle"><s>Resize map</s><r>Изменить размер карты</r></e>
+  <e k="K" key="MapExpander_DoneLabel"><s>Map resized</s><r>Размер карты изменен</r></e>
+  <e k="K" key="MapExpander_DoneText"><s>The map changed from {0} x {1} to {2} x {3}.
+
+The colony as it was is saved as &quot;{4}&quot;. The resized colony is saved as &quot;{5}&quot;.</s><r>Карта изменилась с {0} x {1} на {2} x {3}.
+
+Колония в том виде, в каком она была, сохраняется как «{4}». Колония с измененным размером сохраняется как «{5}».</r></e>
+  <e k="K" key="MapExpander_E"><s>E</s><r>Э</r></e>
+  <e k="K" key="MapExpander_East"><s>East</s><r>Восток</r></e>
+  <e k="K" key="MapExpander_ExpandedName"><s>{0} - expanded {1}</s><r>{0} - развернуто {1}</r></e>
+  <e k="K" key="MapExpander_FailedLabel"><s>Map expansion failed</s><r>Расширение карты не удалось</r></e>
+  <e k="K" key="MapExpander_FailedText"><s>The new land could not be completed. No successful expansion save was written. Load the backup &quot;{0}&quot; to restore your colony. See the log for the error.</s><r>Новая земля не могла быть завершена. Не было записано ни одного успешного сохранения расширения. Загрузите резервную копию «{0}», чтобы восстановить свою колонию. Посмотрите журнал ошибки.</r></e>
+  <e k="K" key="MapExpander_Generating"><s>Generating the new land</s><r>Создание новой земли</r></e>
+  <e k="K" key="MapExpander_Jump"><s>Jump to</s><r>Перейти к</r></e>
+  <e k="K" key="MapExpander_MustClear"><s>Blocked</s><r>Заблокировано</r></e>
+  <e k="K" key="MapExpander_N"><s>N</s><r>Н</r></e>
+  <e k="K" key="MapExpander_NoSizeLimit"><s>no optional limit</s><r>нет дополнительного ограничения</r></e>
+  <e k="K" key="MapExpander_North"><s>North</s><r>Север</r></e>
+  <e k="K" key="MapExpander_PaymentFailedLabel"><s>Map resize: silver settlement failed</s><r>Изменение размера карты: поселение серебра не удалось</r></e>
+  <e k="K" key="MapExpander_PaymentFailedText"><s>The land resize completed, but the silver charge or payout failed. No successful resized save was written. Load backup &quot;{0}&quot; before retrying to restore the original land and silver. See the log for the settlement error.</s><r>Изменение размера земли завершено, но не удалось произвести начисление или выплату серебра. Не было записано ни одного успешного сохранения с измененным размером. Загрузите резервную копию «{0}», прежде чем пытаться восстановить исходную землю и серебро. См. журнал ошибок расчета.</r></e>
+  <e k="K" key="MapExpander_PreviewKept"><s>retained land</s><r>сохраненная земля</r></e>
+  <e k="K" key="MapExpander_PreviewOld"><s>current map</s><r>текущая карта</r></e>
+  <e k="K" key="MapExpander_ProblemBusy"><s>A map expansion is already in progress.</s><r>Расширение карты уже ведется.</r></e>
+  <e k="K" key="MapExpander_ProblemGridCapacity"><s>The requested dimensions exceed the engine's integer grid-storage capacity. Choose a smaller size.</s><r>Запрошенные размеры превышают емкость целочисленной сетки движка. Выберите меньший размер.</r></e>
+  <e k="K" key="MapExpander_ProblemNoMap"><s>There is no map to expand.</s><r>Нет карты, которую можно было бы расширить.</r></e>
+  <e k="K" key="MapExpander_ProblemNoSaving"><s>Saving is not possible right now.</s><r>Сохранение сейчас невозможно.</r></e>
+  <e k="K" key="MapExpander_ProblemNotHome"><s>Only player home maps on the planet's surface can be expanded (not caravan, space or pocket maps).</s><r>Расширять можно только домашние карты игроков на поверхности планеты (не карты караванов, космоса или карманные карты).</r></e>
+  <e k="K" key="MapExpander_ProblemNothing"><s>Choose how much land to add or remove on at least one side.</s><r>Выберите, сколько земли добавить или удалить хотя бы с одной стороны.</r></e>
+  <e k="K" key="MapExpander_ProblemPatches"><s>Map Expander could not hook into this version of RimWorld, so expanding is switched off. See the log.</s><r>Map Expander не смог подключиться к этой версии RimWorld, поэтому расширение отключено. Смотрите журнал.</r></e>
+  <e k="K" key="MapExpander_ProblemSaveFailed"><s>The backup save could not be written, so the map was not expanded.</s><r>Резервное сохранение записать не удалось, поэтому карту не расширили.</r></e>
+  <e k="K" key="MapExpander_ProblemSilver"><s>Expansion costs {0} silver; {1} is available. Silver must be on this map, discovered and unforbidden.</s><r>Расширение стоит {0} серебра; {1} доступен. Серебро должно быть на этой карте, открытое и незапрещенное.</r></e>
+  <e k="K" key="MapExpander_ProblemTooBig"><s>No side may be longer than {0} cells (mod settings).</s><r>Ни одна сторона не может быть длиннее {0} ячеек (настройки мода).</r></e>
+  <e k="K" key="MapExpander_ProblemTooSmall"><s>Every map side must remain at least {0} cells long.</s><r>Каждая сторона карты должна иметь длину не менее {0} ячеек.</r></e>
+  <e k="K" key="MapExpander_ProblemTrimDetailed"><s>Protected objects or destinations block trimming. Open the full report to find and jump to every blocker.</s><r>Защищенные объекты или места назначения блокируют обрезку. Откройте полный отчет, чтобы найти и перейти к каждому блокирующему устройству.</r></e>
+  <e k="K" key="MapExpander_ResetWildJob"><s>{0}: reset wandering route (keep animal)</s><r>{0}: сбросить маршрут блуждания (оставить животное)</r></e>
+  <e k="K" key="MapExpander_ResultSaveFailed"><s>The map expanded, but its save could not be verified. Save the game manually before continuing. Your original colony is still in &quot;{0}&quot;. See the log for the error.</s><r>Карта расширилась, но ее сохранение не удалось проверить. Прежде чем продолжить, сохраните игру вручную. Ваша первоначальная колония все еще находится в «{0}». Посмотрите журнал ошибки.</r></e>
+  <e k="K" key="MapExpander_ReviewTitle"><s>Review removed land</s><r>Обзор удаленной земли</r></e>
+  <e k="K" key="MapExpander_RiskConfirm"><s>Expanding now has not been tested with:</s><r>Расширение сейчас не тестировалось с:</r></e>
+  <e k="K" key="MapExpander_RiskEvents"><s>Events are running: {0}.</s><r>События выполняются: {0}.</r></e>
+  <e k="K" key="MapExpander_RiskGroups"><s>Other groups are on this map: {0}.</s><r>Другие группы на этой карте: {0}.</r></e>
+  <e k="K" key="MapExpander_RiskHeader"><s>Not tested with what is going on right now:</s><r>Не проверено с тем, что происходит сейчас:</r></e>
+  <e k="K" key="MapExpander_RiskHostiles"><s>Hostiles are active on this map.</s><r>На этой карте активны враги.</r></e>
+  <e k="K" key="MapExpander_S"><s>S</s><r>С</r></e>
+  <e k="K" key="MapExpander_SettingsButton"><s>Show the expand button</s><r>Показать кнопку развернуть</r></e>
+  <e k="K" key="MapExpander_SettingsButtonTip"><s>Show the expand map button among the map controls in the bottom right corner.
+
+Default: on.</s><r>Показывать кнопку «Развернуть карту» среди элементов управления картой в правом нижнем углу.
+
+По умолчанию: включено.</r></e>
+  <e k="K" key="MapExpander_SettingsCategory"><s>Map Expander</s><r>Расширитель карты</r></e>
+  <e k="K" key="MapExpander_SettingsMaxSide"><s>Optional maximum side: {0} cells (0 = no limit)</s><r>Необязательная максимальная сторона: {0} ячеек (0 = нет ограничений)</r></e>
+  <e k="K" key="MapExpander_SettingsMaxSideTip"><s>Enter your own limit, or 0 to disable it. Custom starting sizes below 100 cells are supported. Existing saved limits are kept; new settings default to no limit. Large maps cost memory and performance. Engine grid-storage limits still apply.</s><r>Введите свой собственный лимит или 0, чтобы отключить его. Поддерживаются пользовательские начальные размеры ниже 100 ячеек. Существующие сохраненные лимиты сохраняются; новые настройки по умолчанию не имеют ограничений. Большие карты требуют памяти и производительности. Ограничения на объем памяти двигателя по-прежнему применяются.</r></e>
+  <e k="K" key="MapExpander_SettingsPaid"><s>Pay or receive silver when resizing</s><r>Платите или получайте серебро при изменении размера</r></e>
+  <e k="K" key="MapExpander_SettingsPaidTip"><s>Added land costs silver; removed land earns silver at the same rate. The net balance is rounded once (cost up, payout down). Uses discovered, unforbidden silver on this map. The backup keeps the original map and silver. Default: off.</s><r>Добавлена ​​стоимость земли серебром; удаленная земля приносит серебро по той же ставке. Чистый баланс округляется один раз (стоимость в большую сторону, выплата в меньшую). На этой карте используется обнаруженное незапрещенное серебро. Резервная копия сохраняет оригинальную карту и серебро. По умолчанию: выключено.</r></e>
+  <e k="K" key="MapExpander_SettingsPrice"><s>Silver per 100 cells added or removed: {0}</s><r>Серебро за каждые 100 добавленных или удаленных ячеек: {0}</r></e>
+  <e k="K" key="MapExpander_SettingsReset"><s>Reset to defaults</s><r>Сбросить настройки по умолчанию</r></e>
+  <e k="K" key="MapExpander_SettingsReveal"><s>Reveal new open land</s><r>Откройте новую открытую землю</r></e>
+  <e k="K" key="MapExpander_SettingsRevealTip"><s>Reveal open ground and water connected to explored land or the outer edge. Sealed mountain pockets stay unexplored. Turn this off when using exploration or fog-of-war mods such as Perspective Shift / CAI 5000, so they can control discovery.
+
+Default: on. This does not repair custom grids saved by other mods.</s><r>Покажите открытую местность и воду, соединенную с исследованной землей или внешним краем. Запечатанные горные карманы остаются неисследованными. Отключите это при использовании модов исследования или тумана войны, таких как Perspective Shift / CAI 5000, чтобы они могли контролировать обнаружение.
+
+По умолчанию: включено. Это не восстанавливает пользовательские сетки, сохраненные другими модами.</r></e>
+  <e k="K" key="MapExpander_SettingsWildlife"><s>Wild animals move into new land</s><r>Дикие животные переселяются на новую землю</r></e>
+  <e k="K" key="MapExpander_SettingsWildlifeTip"><s>Right after expanding, wild animals of the biome move into the new land, up to the biome's normal density. Off: they wander in over time, as usual.
+
+Default: on.</s><r>Сразу после расширения дикие животные биома переселяются на новую землю до нормальной плотности биома. Выкл.: они, как обычно, появляются со временем.
+
+По умолчанию: включено.</r></e>
+  <e k="K" key="MapExpander_ShowBlockers"><s>Full trim report</s><r>Полный отчет о обрезке</r></e>
+  <e k="K" key="MapExpander_South"><s>South</s><r>Юг</r></e>
+  <e k="K" key="MapExpander_TrimConfirm"><s>The reviewed objects and land in the removed strips will be permanently deleted from the resized map. The backup keeps the original map. Quest or mod locations may still refer to removed land. Wild animals kept on the map have invalid wandering routes reset.</s><r>Проверенные объекты и земли на удаленных полосах будут безвозвратно удалены с карты измененного размера. Резервная копия сохраняет исходную карту. Места квестов или модов по-прежнему могут относиться к удаленным землям. У диких животных, изображенных на карте, недействительные маршруты передвижения сброшены.</r></e>
+  <e k="K" key="MapExpander_TrimMode"><s>Default all sides to trimming</s><r>Обрезка всех сторон по умолчанию</r></e>
+  <e k="K" key="MapExpander_TrimNotes"><s>Red is discarded land, green is added land. Natural resources, wild animals, filth, loose items, corpses that are not your own and unowned ruin walls/roofs in removed strips are deleted only after review and confirmation. Protected objects and destinations must be cleared. Keep at least one cell of original land on each axis.</s><r>Красный — выброшенная земля, зеленый — добавленная земля. Природные ресурсы, дикие животные, грязь, сыпучие предметы, чужие трупы и бесхозные руины стен/крыш в удаленных полосах удаляются только после проверки и подтверждения. Охраняемые объекты и пункты назначения должны быть очищены. Сохраняйте хотя бы одну ячейку исходной земли на каждой оси.</r></e>
+  <e k="K" key="MapExpander_TrimSide"><s>Trim</s><r>Подрезать</r></e>
+  <e k="K" key="MapExpander_TrimTip"><s>Each side also has its own Trim checkbox. Combine trimming and adding land in one resize. Positive custom sizes are allowed; at least one cell of original land must remain on each axis.</s><r>У каждой стороны также есть свой флажок «Обрезать». Объедините обрезку и добавление земли в одном изменении размера. Допускаются положительные нестандартные размеры; на каждой оси должна оставаться хотя бы одна клетка исходной земли.</r></e>
+  <e k="K" key="MapExpander_W"><s>W</s><r>Вт</r></e>
+  <e k="K" key="MapExpander_West"><s>West</s><r>Запад</r></e>
+  <e k="K" key="MapExpander_WillRemove"><s>Remove / reset</s><r>Удалить/сбросить</r></e>
+</AutoTranslateCache>
