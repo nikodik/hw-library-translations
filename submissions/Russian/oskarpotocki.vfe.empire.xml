@@ -1,0 +1,1080 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="oskarpotocki.vfe.empire" name="Vanilla Factions Expanded - Empire" language="Russian" version="1">
+  <e k="D" t="AbilityDef" key="VFEE_BestowAcolyte.description"><s>Bestows the Acolyte title on a selected pawn. That pawn now has 13 honor. Can’t be cast on a pawn that’s already a Acolyte or higher. Has a 3 day cooldown.</s><r>Дает титул Послушника выбранной пешке. У этой пешки теперь 13 очков чести. Невозможно применить к пешке, которая уже является Послушником или выше. Имеет время восстановления 3 дня.</r></e>
+  <e k="D" t="AbilityDef" key="VFEE_BestowAcolyte.label"><s>bestow: Acolyte</s><r>дар: Послушник</r></e>
+  <e k="D" t="AbilityDef" key="VFEE_BestowBaron.description"><s>Bestows the Baron/Baroness title on a selected pawn. That pawn now has 45 honor. Can’t be cast on a pawn that’s already a Baron/Baroness or higher. Has a 3 day cooldown.</s><r>Дает титул барона/баронессы выбранной пешке. У этой пешки теперь 45 очков чести. Невозможно применить к пешке, которая уже является бароном/баронессой или выше. Имеет время восстановления 3 дня.</r></e>
+  <e k="D" t="AbilityDef" key="VFEE_BestowBaron.label"><s>bestow: Baron</s><r>дар: Барон</r></e>
+  <e k="D" t="AbilityDef" key="VFEE_BestowCount.description"><s>Bestows the Count/Countess title on a selected pawn. That pawn now has 45 honor. Can’t be cast on a pawn that’s already a Count/Countess or higher. Has a 3 day cooldown.</s><r>Дает титул графа/графини выбранной пешке. У этой пешки теперь 45 очков чести. Невозможно применить к пешке, которая уже является графом/графиней или выше. Имеет время восстановления 3 дня.</r></e>
+  <e k="D" t="AbilityDef" key="VFEE_BestowCount.label"><s>bestow: Count</s><r>дарить: Граф</r></e>
+  <e k="D" t="AbilityDef" key="VFEE_BestowFreeholder.description"><s>Bestows the Freeholder title on a selected pawn. That pawn receives 1 Honor. Can’t be cast on a pawn that’s already a Freeholder or higher. Has a 3 day cooldown.</s><r>Дает титул Фрихолдера выбранной пешке. Эта пешка получает 1 честь. Невозможно применить к пешке, которая уже является Фриголдером или выше. Имеет время восстановления 3 дня.</r></e>
+  <e k="D" t="AbilityDef" key="VFEE_BestowFreeholder.label"><s>bestow: Freeholder</s><r>дарить: Фриголдер</r></e>
+  <e k="D" t="AbilityDef" key="VFEE_BestowKnight.description"><s>Bestows the Knight/Dame title on a selected pawn. That pawn now has 21 honor. Can’t be cast on a pawn that’s already a Knight/Dame or higher. Has a 3 day cooldown.</s><r>Дает титул Рыцарь/Дама выбранной пешке. У этой пешки теперь 21 честь. Невозможно применить к пешке, которая уже является рыцарем/дамой или выше. Имеет время восстановления 3 дня.</r></e>
+  <e k="D" t="AbilityDef" key="VFEE_BestowKnight.label"><s>bestow: Knight</s><r>дар: Рыцарь</r></e>
+  <e k="D" t="AbilityDef" key="VFEE_BestowPraetor.description"><s>Bestows the Praetor title on a selected pawn. That pawn now has 31 honor. Can’t be cast on a pawn that’s already a Praetor or higher. Has a 3 day cooldown.</s><r>Дает титул Претора выбранной пешке. У этой пешки теперь 31 честь. Невозможно применить к пешке, которая уже является претором или выше. Имеет время восстановления 3 дня.</r></e>
+  <e k="D" t="AbilityDef" key="VFEE_BestowPraetor.label"><s>bestow: Praetor</s><r>дар: Претор</r></e>
+  <e k="D" t="AbilityDef" key="VFEE_BestowYeoman.description"><s>Bestows the Yeoman title on a selected pawn. That pawn now has 7 honor. Can’t be cast on a pawn that’s already a Yeoman or higher. Has a 3 day cooldown.</s><r>Дает титул Йомена выбранной пешке. У этой пешки теперь 7 очков чести. Невозможно применить к пешке, которая уже является йоменом или выше. Имеет время восстановления 3 дня.</r></e>
+  <e k="D" t="AbilityDef" key="VFEE_BestowYeoman.label"><s>bestow: Yeoman</s><r>дарить: Йомен</r></e>
+  <e k="D" t="AbilityDef" key="VFEE_RoyalAddress.description"><s>is giving a royal address from the throne.If all goes well, every titled participant will gain a small amount of honor, and they will gain honor for each titled participant. If it goes poorly, the speech will do social damage and will lose honor for each titled participant. The outcome depends on their social abilities. Imperial nobility currently residing in the area will join the speech and count as titled participants.</s><r>произносит королевский адрес с трона. Если все пойдет хорошо, каждый титулованный участник получит небольшое количество чести, и они получат честь за каждого титулованного участника. Если оно пройдет неудачно, выступление нанесет социальный ущерб и потеряет честь каждого титулованного участника. Результат зависит от их социальных способностей. Императорская знать, проживающая в настоящее время в этом районе, присоединится к речи и будет считаться титулованным участником.</r></e>
+  <e k="D" t="AbilityDef" key="VFEE_RoyalAddress.label"><s>royal address</s><r>королевский адрес</r></e>
+  <e k="D" t="DamageDef" key="VFEE_CutToxblade.deathMessage"><s>{0} has been cut to death.</s><r>{0} был зарезан насмерть.</r></e>
+  <e k="D" t="DamageDef" key="VFEE_CutToxblade.label"><s>cut</s><r>резать</r></e>
+  <e k="D" t="DamageDef" key="VFEE_Fletcher.deathMessage"><s>{0} has been shot to death.</s><r>{0} был застрелен.</r></e>
+  <e k="D" t="DamageDef" key="VFEE_Fletcher.label"><s>fletcher dart</s><r>флетчер Дартс</r></e>
+  <e k="D" t="DamageDef" key="VFEE_StabToxblade.deathMessage"><s>{0} has been stabbed to death.</s><r>{0} был зарезан.</r></e>
+  <e k="D" t="DamageDef" key="VFEE_StabToxblade.label"><s>stab</s><r>нанести удар</r></e>
+  <e k="D" t="ExpectationDef" key="VFEE_Stellar.label"><s>stellar</s><r>звездный</r></e>
+  <e k="D" t="FactionDef" key="VFEE_Deserters.description"><s>An organised group of imperial deserters who decided to actively disrupt the organisation of the Empire.</s><r>Организованная группа имперских дезертиров, решившая активно подорвать организацию Империи.</r></e>
+  <e k="D" t="FactionDef" key="VFEE_Deserters.fixedName"><s>Deserters</s><r>Дезертиры</r></e>
+  <e k="D" t="FactionDef" key="VFEE_Deserters.label"><s>deserters</s><r>дезертиры</r></e>
+  <e k="D" t="FactionDef" key="VFEE_Deserters.leaderTitle"><s>leader</s><r>лидер</r></e>
+  <e k="D" t="FactionDef" key="VFEE_Deserters.messageDefendersAttacking"><s>{0} from {1} are attacking your {2}.</s><r>{0} из {1} атакуют ваш {2}.</r></e>
+  <e k="D" t="FactionDef" key="VFEE_Deserters.pawnSingular"><s>deserter</s><r>дезертир</r></e>
+  <e k="D" t="FactionDef" key="VFEE_Deserters.pawnsPlural"><s>deserters</s><r>дезертиры</r></e>
+  <e k="D" t="FactionDef" key="VFEE_NewFamily.description"><s>A colony of a royal family.</s><r>Колония королевской семьи.</r></e>
+  <e k="D" t="FactionDef" key="VFEE_NewFamily.label"><s>New Family</s><r>Новая семья</r></e>
+  <e k="D" t="FactionDef" key="VFEE_NewFamily.leaderTitle"><s>leader</s><r>лидер</r></e>
+  <e k="D" t="FactionDef" key="VFEE_NewFamily.messageDefendersAttacking"><s>{0} from {1} are attacking your {2}.</s><r>{0} из {1} атакуют ваш {2}.</r></e>
+  <e k="D" t="FactionDef" key="VFEE_NewFamily.pawnSingular"><s>imperial</s><r>имперский</r></e>
+  <e k="D" t="FactionDef" key="VFEE_NewFamily.pawnsPlural"><s>imperials</s><r>империалы</r></e>
+  <e k="D" t="HediffDef" key="VFEE_AcidifierFletcher.description"><s>Acidifier mixture injected into veins through a fletcher dart. Causes extreme pain and nearly instant death through internal acid burns.</s><r>Подкисляющую смесь вводят в вены через дротик Флетчера. Вызывает сильную боль и почти мгновенную смерть от внутренних кислотных ожогов.</r></e>
+  <e k="D" t="HediffDef" key="VFEE_AcidifierFletcher.label"><s>acidifier</s><r>подкислитель</r></e>
+  <e k="D" t="HediffDef" key="VFEE_AcidifierToxblade.description"><s>Acidifier mixture injected into veins through a fletcher dart. Causes extreme pain and nearly instant death through internal acid burns.</s><r>Подкисляющую смесь вводят в вены через дротик Флетчера. Вызывает сильную боль и почти мгновенную смерть от внутренних кислотных ожогов.</r></e>
+  <e k="D" t="HediffDef" key="VFEE_AcidifierToxblade.label"><s>acidifier</s><r>подкислитель</r></e>
+  <e k="D" t="HediffDef" key="VFEE_CourtStimulant.description"><s>A stimulant the Imperial nobility take to stay sharp through a long ceremony. Until they leave the ceremony, they need no sleep.</s><r>Стимулятор, который принимает имперская знать, чтобы оставаться в форме во время длительной церемонии. Пока они не покинут церемонию, им не нужен сон.</r></e>
+  <e k="D" t="HediffDef" key="VFEE_CourtStimulant.label"><s>court stimulant</s><r>суд стимулятор</r></e>
+  <e k="D" t="HediffDef" key="VFEE_IngestedAperitif.description"><s>Infection and poison protection in the stomach, as well as an ability to consume additional meals for a higher mood buff.</s><r>Защита от инфекций и ядов в желудке, а также возможность употреблять дополнительную еду для улучшения настроения.</r></e>
+  <e k="D" t="HediffDef" key="VFEE_IngestedAperitif.label"><s>ingested aperitif</s><r>проглоченный аперитив</r></e>
+  <e k="D" t="HediffDef" key="VFEE_IngestedAperitif.labelNoun"><s>an aperitif ingestion</s><r>прием аперитива</r></e>
+  <e k="D" t="HistoryEventDef" key="VFEE_ChoseEmpire.label"><s>joined empire</s><r>присоединился к империи</r></e>
+  <e k="D" t="HonorDef" key="VFEE_Architect.description"><s>Construction skill never decays.</s><r>Строительное мастерство никогда не падает.</r></e>
+  <e k="D" t="HonorDef" key="VFEE_Architect.label"><s>The Architect</s><r>Архитектор</r></e>
+  <e k="D" t="HonorDef" key="VFEE_Artist.description"><s>Artistic skill never decays.</s><r>Художественное мастерство никогда не угасает.</r></e>
+  <e k="D" t="HonorDef" key="VFEE_Artist.label"><s>The Artist</s><r>Художник</r></e>
+  <e k="D" t="HonorDef" key="VFEE_Chef.description"><s>Cooking skill never decays.</s><r>Кулинарное мастерство никогда не падает.</r></e>
+  <e k="D" t="HonorDef" key="VFEE_Chef.label"><s>The Chef</s><r>Шеф-повар</r></e>
+  <e k="D" t="HonorDef" key="VFEE_ChildOf.description"><s>Opinion of {PARENT_labelShort} about {PAWN_labelShort} is locked at 100. Opinion of {PAWN_labelShort} about {PARENT_labelShort} is locked at 100.</s><r>Мнение {PARENT_labelShort} о {PAWN_labelShort} зафиксировано на уровне 100. Мнение {PAWN_labelShort} о {PARENT_labelShort} зафиксировано на уровне 100.</r></e>
+  <e k="D" t="HonorDef" key="VFEE_ChildOf.label"><s>{CHILD} of {PARENT_labelShort}</s><r>{CHILD} из {PARENT_labelShort}</r></e>
+  <e k="D" t="HonorDef" key="VFEE_Chosen.description"><s>+10 Opinion from every pawn of {FACTION_name}. +10 Opinion about every pawn of {FACTION_name}.</s><r>+10 Мнений от каждой пешки {FACTION_name}. +10 Мнение о каждой пешке {FACTION_name}.</r></e>
+  <e k="D" t="HonorDef" key="VFEE_Chosen.label"><s>Chosen of {FACTION_name}</s><r>Выбран из {FACTION_name}</r></e>
+  <e k="D" t="HonorDef" key="VFEE_Craftsman.description"><s>Crafting skill never decays.</s><r>Ремесленное мастерство никогда не падает.</r></e>
+  <e k="D" t="HonorDef" key="VFEE_Craftsman.label"><s>The Craftsman</s><r>Мастер</r></e>
+  <e k="D" t="HonorDef" key="VFEE_Destroyer.description"><s>+10% Trade Price Improvement with Enemies of {FACTION_name}.</s><r>+10% повышение цен в торговле с врагами {FACTION_name}.</r></e>
+  <e k="D" t="HonorDef" key="VFEE_Destroyer.label"><s>Destroyer of {FACTION_name}</s><r>Разрушитель {FACTION_name}</r></e>
+  <e k="D" t="HonorDef" key="VFEE_FirstOfName.description"><s>Every noble person has +5 opinion of this pawn.</s><r>Каждый благородный человек имеет +5 мнения об этой пешке.</r></e>
+  <e k="D" t="HonorDef" key="VFEE_FirstOfName.label"><s>First of {PAWN_possessive} Name</s><r>Первое из {PAWN_possessive} Имя</r></e>
+  <e k="D" t="HonorDef" key="VFEE_Gardener.description"><s>Plants skill never decays.</s><r>Навыки растений никогда не ослабевают.</r></e>
+  <e k="D" t="HonorDef" key="VFEE_Gardener.label"><s>The Gardener</s><r>Садовник</r></e>
+  <e k="D" t="HonorDef" key="VFEE_Healer.description"><s>Medicine skill never decays.</s><r>Навыки медицины никогда не ослабевают.</r></e>
+  <e k="D" t="HonorDef" key="VFEE_Healer.label"><s>The Healer</s><r>Целитель</r></e>
+  <e k="D" t="HonorDef" key="VFEE_Intellectual.description"><s>Intellectual skill never decays.</s><r>Интеллектуальные способности никогда не угасают.</r></e>
+  <e k="D" t="HonorDef" key="VFEE_Intellectual.label"><s>The Intellectual</s><r>Интеллектуальный</r></e>
+  <e k="D" t="HonorDef" key="VFEE_LordOf.description"><s>+1 Honor every 5 days when {PAWN_pronoun} is in {SETTLEMENT_label}.</s><r>+1 чести каждые 5 дней, когда {PAWN_pronoun} находится в {SETTLEMENT_label}.</r></e>
+  <e k="D" t="HonorDef" key="VFEE_LordOf.label"><s>{RANK} of {SETTLEMENT_label}</s><r>{RANK} из {SETTLEMENT_label}</r></e>
+  <e k="D" t="HonorDef" key="VFEE_Marksman.description"><s>Shooting skill never decays.</s><r>Навык стрельбы никогда не снижается.</r></e>
+  <e k="D" t="HonorDef" key="VFEE_Marksman.label"><s>The Marksman</s><r>Стрелок</r></e>
+  <e k="D" t="HonorDef" key="VFEE_Miner.description"><s>Mining skill never decays.</s><r>Навыки горного дела никогда не теряются.</r></e>
+  <e k="D" t="HonorDef" key="VFEE_Miner.label"><s>The Miner</s><r>Шахтер</r></e>
+  <e k="D" t="HonorDef" key="VFEE_Negotiator.description"><s>Social skill never decays.</s><r>Социальные навыки никогда не теряются.</r></e>
+  <e k="D" t="HonorDef" key="VFEE_Negotiator.label"><s>The Negotiator</s><r>Переговорщик</r></e>
+  <e k="D" t="HonorDef" key="VFEE_PatronOfArts.description"><s>+3 Honor after successful art exhibition</s><r>+3 чести после успешной художественной выставки</r></e>
+  <e k="D" t="HonorDef" key="VFEE_PatronOfArts.label"><s>Patron of Arts</s><r>Покровитель искусств</r></e>
+  <e k="D" t="HonorDef" key="VFEE_Rancher.description"><s>Animals skill never decays.</s><r>Мастерство животных никогда не снижается.</r></e>
+  <e k="D" t="HonorDef" key="VFEE_Rancher.label"><s>The Rancher</s><r>Владелец ранчо</r></e>
+  <e k="D" t="HonorDef" key="VFEE_RulerOf.description"><s>Tithe collection speed of {SETTLEMENT_label} is doubled.</s><r>Скорость сбора десятины {SETTLEMENT_label} увеличена вдвое.</r></e>
+  <e k="D" t="HonorDef" key="VFEE_RulerOf.label"><s>Ruler of {SETTLEMENT_label}</s><r>Правитель {SETTLEMENT_label}</r></e>
+  <e k="D" t="HonorDef" key="VFEE_TheGreat.description"><s>+5 mood</s><r>+5 настроение</r></e>
+  <e k="D" t="HonorDef" key="VFEE_TheGreat.label"><s>The Great</s><r>Великий</r></e>
+  <e k="D" t="HonorDef" key="VFEE_Warrior.description"><s>Melee skill never decays.</s><r>Навыки ближнего боя никогда не ослабевают.</r></e>
+  <e k="D" t="HonorDef" key="VFEE_Warrior.label"><s>The Warrior</s><r>Воин</r></e>
+  <e k="D" t="HonorDef" key="VFEE_WieldOfWeapon.description"><s>50% chance of +1 Honor for every kill with {WEAPON_label}.</s><r>50% шанс получить +1 честь за каждое убийство с помощью {WEAPON_label}.</r></e>
+  <e k="D" t="HonorDef" key="VFEE_WieldOfWeapon.label"><s>Wielder of the {WEAPON_label}</s><r>Обладатель {WEAPON_label}</r></e>
+  <e k="D" t="IncidentDef" key="VFEE_GiveQuest_EndGame_Stellarch.label"><s>stellarch ascent</s><r>звездное восхождение</r></e>
+  <e k="D" t="InteractionDef" key="VFEE_RoyalGossip.label"><s>royal gossip</s><r>королевские сплетни</r></e>
+  <e k="D" t="InteractionDef" key="VFEE_RoyalGossip.logRulesInitiator.rulesStrings.0"><s>r_logentry-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [THIRDPARTY_nameDef].</s><r>r_logentry-&gt;[INITIATOR_nameDef] и [RECIPIENT_nameDef] [talkedabout] [THIRDPARTY_nameDef].</r></e>
+  <e k="D" t="InteractionDef" key="VFEE_RoyalGossip.logRulesInitiator.rulesStrings.1"><s>r_logentry-&gt;[INITIATOR_nameDef] [talkedabout] [THIRDPARTY_nameDef] with [RECIPIENT_nameDef].</s><r>r_logentry-&gt;[INITIATOR_nameDef] [talkedabout] [THIRDPARTY_nameDef] с [RECIPIENT_nameDef].</r></e>
+  <e k="D" t="InteractionDef" key="VFEE_RoyalGossip.logRulesInitiator.rulesStrings.2"><s>talkedabout(p=4)-&gt;chatted about</s><r>talkedabout(p=4)-&gt;болтали о</r></e>
+  <e k="D" t="InteractionDef" key="VFEE_RoyalGossip.logRulesInitiator.rulesStrings.3"><s>talkedabout-&gt;shared a word about</s><r>talkedabout-&gt;поделился словом о</r></e>
+  <e k="D" t="InteractionDef" key="VFEE_RoyalGossip.logRulesInitiator.rulesStrings.4"><s>talkedabout-&gt;spoke about</s><r>talkedabout-&gt;говорил о</r></e>
+  <e k="D" t="InteractionDef" key="VFEE_RoyalGossip.logRulesInitiator.rulesStrings.5"><s>talkedabout-&gt;gabbed about</s><r>talkedabout-&gt;болтал о</r></e>
+  <e k="D" t="InteractionDef" key="VFEE_RoyalGossip.logRulesInitiator.rulesStrings.6"><s>talkedabout-&gt;talked about</s><r>talkedabout-&gt;говорил о</r></e>
+  <e k="D" t="InteractionDef" key="VFEE_RoyalGossip.logRulesInitiator.rulesStrings.7"><s>talkedabout-&gt;joked about</s><r>talkedabout-&gt;пошутил</r></e>
+  <e k="D" t="InteractionDef" key="VFEE_RoyalGossip.logRulesInitiator.rulesStrings.8"><s>talkedabout-&gt;quipped about</s><r>talkedabout-&gt;пошутил о</r></e>
+  <e k="D" t="JobDef" key="VFEE_ArtPresent.reportString"><s>Presenting TargetB.</s><r>Представляю TargetB.</r></e>
+  <e k="D" t="JobDef" key="VFEE_ArtSpectate.reportString"><s>Spectating TargetB.</s><r>Наблюдение TargetB.</r></e>
+  <e k="D" t="JobDef" key="VFEE_ArtStandBy.reportString"><s>waiting.</s><r>ожидающий.</r></e>
+  <e k="D" t="JobDef" key="VFEE_DefuseBomb.reportString"><s>defusing TargetA.</s><r>разрядка TargetA.</r></e>
+  <e k="D" t="JobDef" key="VFEE_DiscardMeal.reportString"><s>discarding TargetA</s><r>отбрасывая TargetA</r></e>
+  <e k="D" t="JobDef" key="VFEE_GiveHonor.reportString"><s>Honoring TargetB.</s><r>Чествование TargetB.</r></e>
+  <e k="D" t="JobDef" key="VFEE_ParadeGuardGoto.reportString"><s>Guarding.</s><r>Охрана.</r></e>
+  <e k="D" t="JobDef" key="VFEE_PlaceBomb.reportString"><s>placing bomb</s><r>установка бомбы</r></e>
+  <e k="D" t="JobDef" key="VFEE_PoisonMeal.reportString"><s>poisoning TargetA</s><r>отравление TargetA</r></e>
+  <e k="D" t="JobDef" key="VFEE_WaltzDip.reportString"><s>dancing with TargetB.</s><r>танцы с TargetB.</r></e>
+  <e k="D" t="JobDef" key="VFEE_WaltzDipped.reportString"><s>dancing with TargetA.</s><r>танцы с TargetA.</r></e>
+  <e k="D" t="JobDef" key="VFEE_WaltzGoTo.reportString"><s>dancing with TargetA.</s><r>танцы с TargetA.</r></e>
+  <e k="D" t="JobDef" key="VFEE_WaltzGoToStart.reportString"><s>going to my position.</s><r>иду на свою позицию.</r></e>
+  <e k="D" t="JobDef" key="VFEE_WaltzWait.reportString"><s>dancing with TargetA.</s><r>танцы с TargetA.</r></e>
+  <e k="D" t="JoyKindDef" key="VFEE_Research.label"><s>researching</s><r>исследование</r></e>
+  <e k="D" t="MainButtonDef" key="VFEE_Royalty.label"><s>royalty</s><r>роялти</r></e>
+  <e k="D" t="PawnKindDef" key="VFEE_Deserter.label"><s>deserter</s><r>дезертир</r></e>
+  <e k="D" t="PawnKindDef" key="VFEE_Empire_Fighter_Absolver.label"><s>absolver</s><r>освобождать</r></e>
+  <e k="D" t="PawnKindDef" key="VFEE_Empire_Royal_Archcount.label"><s>archcount</s><r>архикаунт</r></e>
+  <e k="D" t="PawnKindDef" key="VFEE_Empire_Royal_Archcount.labelFemale"><s>archcountess</s><r>эрцграфиня</r></e>
+  <e k="D" t="PawnKindDef" key="VFEE_Empire_Royal_Archduke.label"><s>archduke</s><r>эрцгерцог</r></e>
+  <e k="D" t="PawnKindDef" key="VFEE_Empire_Royal_Archduke.labelFemale"><s>archduchess</s><r>эрцгерцогиня</r></e>
+  <e k="D" t="PawnKindDef" key="VFEE_Empire_Royal_Despot.label"><s>despot</s><r>деспот</r></e>
+  <e k="D" t="PawnKindDef" key="VFEE_Empire_Royal_Emperor.label"><s>emperor</s><r>император</r></e>
+  <e k="D" t="PawnKindDef" key="VFEE_Empire_Royal_HighStellarch.label"><s>high stellarch</s><r>высокий звездарх</r></e>
+  <e k="D" t="PawnKindDef" key="VFEE_Empire_Royal_Magister.label"><s>magister</s><r>магистр</r></e>
+  <e k="D" t="PawnKindDef" key="VFEE_Empire_Royal_Marquess.label"><s>marquess</s><r>маркиз</r></e>
+  <e k="D" t="PawnKindDef" key="VFEE_Empire_Royal_Marquess.labelFemale"><s>marchioness</s><r>маркиза</r></e>
+  <e k="D" t="PawnKindDef" key="VFEE_Empire_Royal_Techfriar.label"><s>techfriar</s><r>технобрай</r></e>
+  <e k="D" t="PreceptDef" key="VFEE_BestowHonor.description"><s>Bestows honors upon a worthy pawn</s><r>Награждает почестями достойную пешку</r></e>
+  <e k="D" t="PreceptDef" key="VFEE_BestowHonor.label"><s>bestow honor</s><r>оказывать честь</r></e>
+  <e k="D" t="PreceptDef" key="VFEE_BestowTitle.description"><s>Bestows a royal title to a worthy pawn</s><r>Дарует королевский титул достойной пешке</r></e>
+  <e k="D" t="PreceptDef" key="VFEE_BestowTitle.label"><s>bestow title</s><r>даровать титул</r></e>
+  <e k="D" t="PreceptDef" key="VFEE_ParadePrecept.description"><s>A traditional ascension parade to send off the stellarch!</s><r>Традиционный парад вознесения в честь проводов звездарха!</r></e>
+  <e k="D" t="PreceptDef" key="VFEE_ParadePrecept.label"><s>Parade</s><r>Парад</r></e>
+  <e k="D" t="PreceptDef" key="VFEE_RoyalAddress.description"><s>Initiate a royal address from the throne. {ORGANIZER_labelShort} is giving a royal address from the throne.If all goes well, every titled participant will gain a small amount of honor, and {ORGANIZER_labelShort} will gain honor for each titled participant. If it goes poorly, the speech will do social damage and {ORGANIZER_labelShort} will lose honor for each titled participant. The outcome depends on {ORGANIZER_labelShort}'s social abilities. Imperial nobility currently residing in the area will join the speech and count as titled participants.</s><r>Инициируйте королевское обращение с трона. {ORGANIZER_labelShort} произносит королевский адрес с трона. Если всё пройдёт хорошо, каждый титулованный участник получит небольшое количество почёта, а {ORGANIZER_labelShort} получит почёт за каждого титулованного участника. Если все пройдет неудачно, выступление нанесет социальный ущерб и {ORGANIZER_labelShort} потеряет честь каждого титулованного участника. Результат зависит от социальных способностей {ORGANIZER_labelShort}. Императорская знать, проживающая в настоящее время в этом районе, присоединится к речи и будет считаться титулованным участником.</r></e>
+  <e k="D" t="PreceptDef" key="VFEE_RoyalAddress.label"><s>royal address</s><r>королевский адрес</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questContentRules.rulesStrings.0"><s>decidedToLeave-&gt;Your guests are leaving immediately, and will not remember this event fondly!</s><r>decidedToLeave-&gt;Ваши гости немедленно уезжают и не будут вспоминать об этом событии с любовью!</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questContentRules.rulesStrings.1"><s>oneOfThe-&gt;one of the nobles you invited to the art exhibit</s><r>oneOfThe-&gt;один из дворян, которых вы пригласили на художественную выставку</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questContentRules.rulesStrings.10"><s>letterIntroDeath-&gt;{SUBJECT_definite}, [oneOfThe], has died.</s><r>letterIntroDeath-&gt;{SUBJECT_definite}, [oneOfThe] умер.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questContentRules.rulesStrings.11"><s>lodgerDiedLeaveMapLetterLabel-&gt;[lodgersLabel] died: Departure</s><r>lodgerDiedLeaveMapLetterLabel-&gt;[lodgersLabel] умер: Отъезд</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questContentRules.rulesStrings.13"><s>letterIntroViolated-&gt;{SUBJECT_definite}, [oneOfThe], was violated by surgery.</s><r>letterIntroViolated-&gt;{SUBJECT_definite}, [oneOfThe], была нарушена хирургическим путем.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questContentRules.rulesStrings.14"><s>lodgerSurgeryVioLeaveMapLetterLabel-&gt;[lodgersLabel] violated: Departure</s><r>lodgerSurgeryVioLeaveMapLetterLabel-&gt;[lodgersLabel] нарушено: Вылет</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questContentRules.rulesStrings.16"><s>letterIntroKidnapped-&gt;{SUBJECT_definite}, [oneOfThe], was kidnapped.</s><r>letterIntroKidnapped-&gt;{SUBJECT_definite}, [oneOfThe] был похищен.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questContentRules.rulesStrings.17"><s>lodgerKidnappedLeaveMapLetterLabel-&gt;[lodgersLabel] kidnapped: Departure</s><r>lodgerKidnappedLeaveMapLetterLabel-&gt;[lodgersLabel] похищено: Отъезд</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questContentRules.rulesStrings.19"><s>letterIntroBanished-&gt;{SUBJECT_definite}, [oneOfThe], was banished.</s><r>letterIntroBanished-&gt;{SUBJECT_definite}, [oneOfThe] были изгнаны.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questContentRules.rulesStrings.2"><s>questOver-&gt;The quest '[resolvedQuestName]' is over.</s><r>questOver-&gt;Квест «[resolvedQuestName]» завершен.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questContentRules.rulesStrings.20"><s>lodgerBanishedLeaveMapLetterLabel-&gt;[lodgersLabel] banished: Departure</s><r>lodgerBanishedLeaveMapLetterLabel-&gt;[lodgersLabel] изгнано: Отъезд</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questContentRules.rulesStrings.22"><s>letterIntroPsychicRitualTarget-&gt;{SUBJECT_definite}, [oneOfThe], was the target of a psychic ritual.</s><r>letterIntroPsychicRitualTarget-&gt;{SUBJECT_definite}, [oneOfThe] были целью психического ритуала.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questContentRules.rulesStrings.23"><s>lodgerPsychicRitualTargetLabel-&gt;[lodgersLabel] violated: Departure</s><r>lodgerPsychicRitualTargetLabel-&gt;[lodgersLabel] нарушено: Вылет</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questContentRules.rulesStrings.25"><s>ShuttleDestroyedIntro-&gt;The shuttle has been destroyed.</s><r>ShuttleDestroyedIntro-&gt;Шаттл уничтожен.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questContentRules.rulesStrings.26"><s>ShuttleDestroyedLabel-&gt;Shuttle destroyed: Art exhibit cancelled</s><r>ShuttleDestroyedLabel-&gt;Шаттл разрушен: художественная выставка отменена</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questContentRules.rulesStrings.28"><s>raidArrivedLetterLabel-&gt;Deserter assassination attempt</s><r>raidArrivedLetterLabel-&gt;Попытка убийства дезертира</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questContentRules.rulesStrings.29"><s>raidArrivedLetterText-&gt;A group of deserters have arrived to attempt to disrupt the art exhibit and assassinate the royals.
+
+[asker_nameFull] does not care for the threat and demands the exhibit continues! [asker_pronoun] wants you to keep them safe and deal with the &quot;peasants&quot;.</s><r>raidArrivedLetterText-&gt;Группа дезертиров прибыла, чтобы попытаться сорвать художественную выставку и убить членов королевской семьи.
+
+[asker_nameFull] не обращает внимания на угрозу и требует продолжения выставки! [asker_pronoun] хочет, чтобы вы обеспечили их безопасность и разобрались с «крестьянами».</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questContentRules.rulesStrings.3"><s>CeremonyFailedLetterLabel-&gt;Art exhibit failed</s><r>CeremonyFailedLetterLabel-&gt;Художественная выставка провалилась</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questContentRules.rulesStrings.30"><s>ArtExhibitSuccessLetterLabel-&gt;Exhibit success</s><r>ArtExhibitSuccessLetterLabel-&gt;Демонстрируйте успех</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questContentRules.rulesStrings.31"><s>ArtExhibitSuccessLetterText-&gt;The shuttle has departed with [asker_nameFull] and [asker_possessive] guests. Overall the event was a success and everyone made it back safe.</s><r>ArtExhibitSuccessLetterText-&gt;Шаттл отправился с гостями [asker_nameFull] и [asker_possessive]. В целом мероприятие прошло успешно, и все вернулись благополучно.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questContentRules.rulesStrings.4"><s>CeremonyFailedLetterText-&gt;[asker_nameFull] is disappointed by your failure to make for an enjoyable exhibit. [asker_pronoun] is leaving with [asker_possessive] guests.</s><r>CeremonyFailedLetterText-&gt;[asker_nameFull] разочарован тем, что вам не удалось организовать приятную выставку. [asker_pronoun] уходит с [asker_possessive] гостями.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questContentRules.rulesStrings.5"><s>CeremonyTimeoutLetterLabel-&gt;Art exhibit failed</s><r>CeremonyTimeoutLetterLabel-&gt;Художественная выставка провалилась</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questContentRules.rulesStrings.6"><s>CeremonyTimeoutLetterText-&gt;[asker_nameFull] has grown tired of waiting for you to start the exhibit. [asker_pronoun] is leaving with [asker_possessive] guests.</s><r>CeremonyTimeoutLetterText-&gt;[asker_nameFull] устал ждать, пока вы начнете выставку. [asker_pronoun] уходит с [asker_possessive] гостями.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questContentRules.rulesStrings.7"><s>letterIntroArrested-&gt;You arrested {SUBJECT_definite}, [oneOfThe].</s><r>letterIntroArrested-&gt;Вы арестовали {SUBJECT_definite}, [oneOfThe].</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questContentRules.rulesStrings.8"><s>lodgerArrestedLeaveMapLetterLabel-&gt;[lodgersLabel] arrested: Departure</s><r>lodgerArrestedLeaveMapLetterLabel-&gt;[lodgersLabel] арестован: Отъезд</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questDescriptionAndNameRules.rulesStrings.0"><s>lodgersLabel-&gt;noble</s><r>lodgersLabel-&gt;благородный</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questDescriptionAndNameRules.rulesStrings.1"><s>lodgersLabelPlural-&gt;nobles</s><r>lodgersLabelPlural-&gt;дворяне</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questDescriptionAndNameRules.rulesStrings.10"><s>lodgersWasWere(nobleCount&gt;=2)-&gt;were</s><r>lodgersWasWere(nobleCount&gt;=2)-&gt;были</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questDescriptionAndNameRules.rulesStrings.11"><s>appreciateAppreciates(nobleCount==1)-&gt;appreciates</s><r>appreciateAppreciates(nobleCount==1)-&gt;ценит</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questDescriptionAndNameRules.rulesStrings.12"><s>appreciateAppreciates(nobleCount&gt;=2)-&gt;appreciate</s><r>appreciateAppreciates(nobleCount&gt;=2)-&gt;ценить</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questDescriptionAndNameRules.rulesStrings.13"><s>questDescription-&gt;[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], would like to come over with a few other noble people and gaze upon the works of art in your gallery. [asker_pronoun] requests [colonyHost_nameFull] hosts the occasion. This is a great opportunity for noble gossip and to build relations with other members of the imperial nobility.
+
+You are required to have a gallery present in your colony. If at any point the gallery is destroyed, the art exhibition will be called off.
+
+[asker_nameFull] has forwarded you a list of nobility that was invited to the exhibit and will arrive in the shuttle:
+
+[noblesDetailList]
+
+You will need to make sure the guests are safe and comfortable during the exhibition. If anything happens to any of the guests, the art exhibition will be cancelled.
+
+Deserters might use this opportunity to launch an assassination attempt.
+
+
+			</s><r>questDescription-&gt;[asker_nameFull], [asker_royalTitleInCurrentFaction] из [asker_faction_name], хотел бы прийти с несколькими другими знатными людьми и посмотреть на произведения искусства в вашей галерее. [asker_pronoun] запрашивает [colonyHost_nameFull] проводит мероприятие. Это прекрасная возможность для дворянских сплетен и налаживания отношений с другими представителями императорской знати.
+
+В вашей колонии обязательно должна быть галерея. Если в какой-то момент галерея будет разрушена, художественная выставка будет отменена.
+
+[asker_nameFull] отправил вам список знати, которая была приглашена на выставку и прибудет на шаттле:
+
+[noblesDetailList]
+
+Вам нужно будет убедиться, что гости будут в безопасности и комфортно во время выставки. Если что-нибудь случится с кем-либо из гостей, художественная выставка будет отменена.
+
+Дезертиры могут использовать эту возможность, чтобы совершить покушение.
+
+
+			</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questDescriptionAndNameRules.rulesStrings.3"><s>lodgersDef(nobleCount&gt;=2)-&gt;the [lodgersLabelPlural]</s><r>lodgersDef(nobleCount&gt;=2)-&gt;[lodgersLabelPlural]</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questDescriptionAndNameRules.rulesStrings.4"><s>joinerEnding-&gt;You'll be able to direct [lodgersDef] the same way you direct your own colonists.[specialNeedsExplanation]</s><r>joinerEnding-&gt;Вы сможете управлять [lodgersDef] так же, как вы управляете своими колонистами.[specialNeedsExplanation]</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questDescriptionAndNameRules.rulesStrings.6"><s>theirHisHer(nobleCount&gt;=2)-&gt;their</s><r>theirHisHer(nobleCount&gt;=2)-&gt;их</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questDescriptionAndNameRules.rulesStrings.8"><s>lodgersPronoun(nobleCount&gt;=2)-&gt;they</s><r>lodgersPronoun(nobleCount&gt;=2)-&gt;они</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questDescriptionAndNameRules.rulesStrings.9"><s>lodgersWasWere(nobleCount==1)-&gt;was</s><r>lodgersWasWere(nobleCount==1)-&gt;был</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questNameRules.rulesStrings.0"><s>questName-&gt;[lodgerIndef] desires an Art Exhibit</s><r>questName-&gt;[lodgerIndef] желает художественную выставку</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questNameRules.rulesStrings.1"><s>lodgerIndef-&gt;a royal</s><r>lodgerIndef-&gt;королевский</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_ArtExhibit.questNameRules.rulesStrings.2"><s>lodgerIndef-&gt;a noble</s><r>lodgerIndef-&gt;благородный</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_DelayedArtExhibitOutcome.questContentRules.rulesStrings.0"><s>rewardLetterLabel-&gt;Noble's gift</s><r>rewardLetterLabel-&gt;Благородный подарок</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_DelayedArtExhibitOutcome.questContentRules.rulesStrings.1"><s>rewardLetterText-&gt;[rewardGiver_nameDef] has contacted you. [rewardDelayTicks_duration] ago, you hosted a [outcome] art exhibit for [rewardGiver_objective].
+
+Since then, [rewardGiver_pronoun] has gotten back home safe, and is so appreciative that [rewardGiver_pronoun] wants to give you a personal gift. [rewardGiver_pronoun] is sending you the following via drop pod:
+
+[listOfRewards]</s><r>rewardLetterText-&gt;[rewardGiver_nameDef] связался с вами. [rewardDelayTicks_duration] назад вы устроили художественную выставку [outcome] для [rewardGiver_objective].
+
+С тех пор [rewardGiver_pronoun] благополучно вернулся домой и настолько благодарен, что [rewardGiver_pronoun] хочет сделать вам личный подарок. [rewardGiver_pronoun] отправляет вам через капсулу следующее:
+
+[listOfRewards]</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_DelayedArtExhibitOutcome.questDescriptionAndNameRules.rulesStrings.0"><s>questDescription-&gt;A delayed reward for hosting the art exhibit.</s><r>questDescription-&gt;Отложенное вознаграждение за проведение художественной выставки.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_DelayedArtExhibitOutcome.questNameRules.rulesStrings.0"><s>questName-&gt;Art Exhibit delayed reward</s><r>questName-&gt;Отсроченная награда за художественную выставку</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_DelayedGrandBallOutcome.questContentRules.rulesStrings.0"><s>rewardLetterLabel-&gt;Noble's gift</s><r>rewardLetterLabel-&gt;Благородный подарок</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_DelayedGrandBallOutcome.questContentRules.rulesStrings.1"><s>rewardLetterText-&gt;[rewardGiver_nameDef] has contacted you. [rewardDelayTicks_duration] ago, you hosted a [outcome] grand ball for [rewardGiver_objective].
+
+Since then, [rewardGiver_pronoun] has gotten back home safe, and is so appreciative that [rewardGiver_pronoun] wants to give you a personal gift. [rewardGiver_pronoun] is sending you the following via drop pod:
+
+[listOfRewards]</s><r>rewardLetterText-&gt;[rewardGiver_nameDef] связался с вами. [rewardDelayTicks_duration] назад вы устроили большой бал [outcome] для [rewardGiver_objective].
+
+С тех пор [rewardGiver_pronoun] благополучно вернулся домой и настолько благодарен, что [rewardGiver_pronoun] хочет сделать вам личный подарок. [rewardGiver_pronoun] отправляет вам через капсулу следующее:
+
+[listOfRewards]</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_DelayedGrandBallOutcome.questDescriptionAndNameRules.rulesStrings.0"><s>questDescription-&gt;A delayed reward for hosting the grand ball.</s><r>questDescription-&gt;Отсроченная награда за проведение большого бала.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_DelayedGrandBallOutcome.questNameRules.rulesStrings.0"><s>questName-&gt;Grand ball delayed reward</s><r>questName-&gt;Большой мяч с задержкой вознаграждения</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_DeserterHideout.questDescriptionRules.rulesStrings.0"><s>questDescription-&gt; [asker_nameFull], a [asker_royalTitleInCurrentFaction] of the [asker_faction_name] has informed us about a deserter hideout near [colonyName].
+
+Deserters are a group of ex-imperial soldiers and nobility who have decided to split away from the Great Hierarchy and adapt to the new, post-shattering life. They are considered public enemy number one.
+
+Apparently, [siteFaction_pawnsPlural] have been raiding imperial convoys.
+
+[asker_nameDef] is planning an aerial assault on the hideout, which is guarded by [enemiesCount] [enemiesLabel]. [asker_pronoun] wants you to provide [requiredPawnCount] soldiers to carry out the attack.
+
+[asker_pronoun] will send a shuttle to pick up your fighters, bring them to the attack site, and take them home afterward. They will be fed and medically tended en-route.
+
+Once the attack begins, you must defeat all enemies and turrets within [timeoutTime_duration].
+
+[asker_nameDef] will send [alliesCount] of their personal guards and place them under your command. [asker_pronoun] will not be unhappy if they are killed.
+		</s><r>questDescription-&gt; [asker_nameFull], [asker_royalTitleInCurrentFaction] из [asker_faction_name] сообщил нам о убежище дезертиров возле [colonyName].
+
+Дезертиры — это группа бывших имперских солдат и знати, которые решили отделиться от Великой Иерархии и адаптироваться к новой, пост-разрушительной жизни. Они считаются врагами общества номер один.
+
+По всей видимости, [siteFaction_pawnsPlural] совершают набеги на имперские конвои.
+
+[asker_nameDef] планирует нападение с воздуха на убежище, которое охраняют [enemiesCount] [enemiesLabel]. [asker_pronoun] хочет, чтобы вы предоставили [requiredPawnCount] солдат для проведения атаки. 
+
+[asker_pronoun] отправит шаттл, чтобы забрать ваших бойцов, доставить их к месту атаки, а затем отвезти домой. По пути их будут кормить и оказывать медицинскую помощь. 
+
+Как только начнется атака, вы должны победить всех врагов и турели в пределах [timeoutTime_duration]. 
+
+[asker_nameDef] отправит [alliesCount] своей личной охраны и отдаст их под ваше командование. [asker_pronoun] не будут недовольны, если их убьют.
+		</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_DeserterHideout.questNameRules.rulesStrings.0"><s>questName-&gt;The [bandit] [camp]</s><r>questName-&gt;[bandit] [camp]</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_DeserterHideout.questNameRules.rulesStrings.10"><s>bandit-&gt;Desperado</s><r>bandit-&gt;Отчаянный</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_DeserterHideout.questNameRules.rulesStrings.11"><s>bandit-&gt;Fugitive</s><r>bandit-&gt;Беглец</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_DeserterHideout.questNameRules.rulesStrings.12"><s>bandit-&gt;Marauder</s><r>bandit-&gt;Мародер</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_DeserterHideout.questNameRules.rulesStrings.13"><s>bandit-&gt;Robber</s><r>bandit-&gt;Грабитель</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_DeserterHideout.questNameRules.rulesStrings.14"><s>bandit-&gt;Brigand</s><r>bandit-&gt;Разбойник</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_DeserterHideout.questNameRules.rulesStrings.2"><s>questName-&gt;[asker_nameDef] and the [camp]</s><r>questName-&gt;[asker_nameDef] и [camp]</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_DeserterHideout.questNameRules.rulesStrings.3"><s>camp-&gt;Camp</s><r>camp-&gt;Лагерь</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_DeserterHideout.questNameRules.rulesStrings.4"><s>camp-&gt;Outpost</s><r>camp-&gt;Застава</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_DeserterHideout.questNameRules.rulesStrings.5"><s>camp-&gt;Lair</s><r>camp-&gt;Логово</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_DeserterHideout.questNameRules.rulesStrings.6"><s>camp-&gt;Encampment</s><r>camp-&gt;Лагерь</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_DeserterHideout.questNameRules.rulesStrings.7"><s>bandit-&gt;Bandit</s><r>bandit-&gt;Бандит</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_DeserterHideout.questNameRules.rulesStrings.8"><s>bandit-&gt;Raider</s><r>bandit-&gt;Рейдер</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_DeserterHideout.questNameRules.rulesStrings.9"><s>bandit-&gt;Outlaw</s><r>bandit-&gt;Преступник</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questContentRules.rulesStrings.1"><s>lastOrNot(nobleCount&gt;=2)-&gt;last</s><r>lastOrNot(nobleCount&gt;=2)-&gt;последний</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questContentRules.rulesStrings.10"><s>CeremonyTimeoutLetterText-&gt;[asker_nameFull] has grown tired of waiting for you to start the ball. [asker_pronoun] is leaving with [asker_possessive] guests.</s><r>CeremonyTimeoutLetterText-&gt;[asker_nameFull] устал ждать, пока вы начнете мяч. [asker_pronoun] уходит с [asker_possessive] гостями.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questContentRules.rulesStrings.11"><s>letterIntroArrested-&gt;You arrested {SUBJECT_definite}, [oneOfThe].</s><r>letterIntroArrested-&gt;Вы арестовали {SUBJECT_definite}, [oneOfThe].</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questContentRules.rulesStrings.12"><s>lodgerArrestedLeaveMapLetterLabel-&gt;[lodgersLabel] arrested: Departure</s><r>lodgerArrestedLeaveMapLetterLabel-&gt;[lodgersLabel] арестован: Отъезд</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questContentRules.rulesStrings.14"><s>letterIntroDeath-&gt;{SUBJECT_definite}, [oneOfThe], has died.</s><r>letterIntroDeath-&gt;{SUBJECT_definite}, [oneOfThe] умер.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questContentRules.rulesStrings.15"><s>lodgerDiedLeaveMapLetterLabel-&gt;[lodgersLabel] died: Departure</s><r>lodgerDiedLeaveMapLetterLabel-&gt;[lodgersLabel] умер: Отъезд</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questContentRules.rulesStrings.17"><s>letterIntroViolated-&gt;{SUBJECT_definite}, [oneOfThe], was violated by surgery.</s><r>letterIntroViolated-&gt;{SUBJECT_definite}, [oneOfThe], была нарушена хирургическим путем.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questContentRules.rulesStrings.18"><s>lodgerSurgeryVioLeaveMapLetterLabel-&gt;[lodgersLabel] violated: Departure</s><r>lodgerSurgeryVioLeaveMapLetterLabel-&gt;[lodgersLabel] нарушено: Вылет</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questContentRules.rulesStrings.20"><s>letterIntroKidnapped-&gt;{SUBJECT_definite}, [oneOfThe], was kidnapped.</s><r>letterIntroKidnapped-&gt;{SUBJECT_definite}, [oneOfThe] был похищен.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questContentRules.rulesStrings.21"><s>lodgerKidnappedLeaveMapLetterLabel-&gt;[lodgersLabel] kidnapped: Departure</s><r>lodgerKidnappedLeaveMapLetterLabel-&gt;[lodgersLabel] похищено: Отъезд</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questContentRules.rulesStrings.23"><s>letterIntroBanished-&gt;{SUBJECT_definite}, [oneOfThe], was banished.</s><r>letterIntroBanished-&gt;{SUBJECT_definite}, [oneOfThe] были изгнаны.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questContentRules.rulesStrings.24"><s>lodgerBanishedLeaveMapLetterLabel-&gt;[lodgersLabel] banished: Departure</s><r>lodgerBanishedLeaveMapLetterLabel-&gt;[lodgersLabel] изгнано: Отъезд</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questContentRules.rulesStrings.26"><s>letterIntroPsychicRitualTarget-&gt;{SUBJECT_definite}, [oneOfThe], was the target of a psychic ritual.</s><r>letterIntroPsychicRitualTarget-&gt;{SUBJECT_definite}, [oneOfThe] были целью психического ритуала.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questContentRules.rulesStrings.27"><s>lodgerPsychicRitualTargetLabel-&gt;[lodgersLabel] violated: Departure</s><r>lodgerPsychicRitualTargetLabel-&gt;[lodgersLabel] нарушено: Вылет</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questContentRules.rulesStrings.29"><s>ShuttleDestroyedIntro-&gt;The shuttle has been destroyed.</s><r>ShuttleDestroyedIntro-&gt;Шаттл уничтожен.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questContentRules.rulesStrings.30"><s>ShuttleDestroyedLabel-&gt;Shuttle destroyed: Ball cancelled</s><r>ShuttleDestroyedLabel-&gt;Шаттл уничтожен: мяч отменен</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questContentRules.rulesStrings.32"><s>raidArrivedLetterLabel-&gt;Deserter assassination attempt</s><r>raidArrivedLetterLabel-&gt;Попытка убийства дезертира</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questContentRules.rulesStrings.33"><s>raidArrivedLetterText-&gt;A group of deserters have arrived to attempt to disrupt the grand ball and assassinate the royals.
+
+[asker_nameFull] does not care for the threat and demands the ball continues! [asker_pronoun] wants you to keep them safe and deal with the &quot;peasants&quot;.</s><r>raidArrivedLetterText-&gt;Группа дезертиров прибыла, чтобы попытаться сорвать большой бал и убить членов королевской семьи.
+
+[asker_nameFull] не обращает внимания на угрозу и требует продолжения бала! [asker_pronoun] хочет, чтобы вы обеспечили их безопасность и разобрались с «крестьянами».</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questContentRules.rulesStrings.34"><s>BallSuccessLetterLetterLabel-&gt;Grand ball success</s><r>BallSuccessLetterLetterLabel-&gt;Большой успех на балу</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questContentRules.rulesStrings.35"><s>BallSuccessLetterText-&gt;The shuttle has departed with [asker_nameFull] and [asker_possessive] guests. Overall the event was a success and everyone made it back safe.</s><r>BallSuccessLetterText-&gt;Шаттл отправился с гостями [asker_nameFull] и [asker_possessive]. В целом мероприятие прошло успешно, и все вернулись благополучно.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questContentRules.rulesStrings.4"><s>decidedToLeave-&gt;Your guests are leaving immediately, and will not remember this event fondly!</s><r>decidedToLeave-&gt;Ваши гости немедленно уезжают и не будут вспоминать об этом событии с любовью!</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questContentRules.rulesStrings.5"><s>oneOfThe-&gt;one of the nobles you invited to the grand ball</s><r>oneOfThe-&gt;один из дворян, которых вы пригласили на большой бал</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questContentRules.rulesStrings.6"><s>questOver-&gt;The quest '[resolvedQuestName]' is over.</s><r>questOver-&gt;Квест «[resolvedQuestName]» завершен.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questContentRules.rulesStrings.7"><s>CeremonyFailedLetterLabel-&gt;Grand ball failed</s><r>CeremonyFailedLetterLabel-&gt;Большой бал не удался</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questContentRules.rulesStrings.8"><s>CeremonyFailedLetterText-&gt;[asker_nameFull] is disappointed by your failure to make for an enjoyable ball. [asker_pronoun] is leaving with [asker_possessive] guests.</s><r>CeremonyFailedLetterText-&gt;[asker_nameFull] разочарован тем, что вам не удалось доставить удовольствие мячу. [asker_pronoun] уходит с [asker_possessive] гостями.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questContentRules.rulesStrings.9"><s>CeremonyTimeoutLetterLabel-&gt;Grand ball failed</s><r>CeremonyTimeoutLetterLabel-&gt;Большой бал не удался</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questDescriptionAndNameRules.rulesStrings.0"><s>lodgersLabel-&gt;noble</s><r>lodgersLabel-&gt;благородный</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questDescriptionAndNameRules.rulesStrings.1"><s>lodgersLabelPlural-&gt;nobles</s><r>lodgersLabelPlural-&gt;дворяне</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questDescriptionAndNameRules.rulesStrings.10"><s>lodgersWasWere(nobleCount&gt;=2)-&gt;were</s><r>lodgersWasWere(nobleCount&gt;=2)-&gt;были</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questDescriptionAndNameRules.rulesStrings.11"><s>appreciateAppreciates(nobleCount==1)-&gt;appreciates</s><r>appreciateAppreciates(nobleCount==1)-&gt;ценит</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questDescriptionAndNameRules.rulesStrings.12"><s>appreciateAppreciates(nobleCount&gt;=2)-&gt;appreciate</s><r>appreciateAppreciates(nobleCount&gt;=2)-&gt;ценить</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questDescriptionAndNameRules.rulesStrings.13"><s>questDescription-&gt;[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], would like you to organise a grand ball. This is a great opportunity for noble gossip and to build relations with other members of the imperial nobility.
+
+You are required to have a ballroom present in your colony. If at any point the ballroom is destroyed or the instruments in it become unusable, the grand ball will be called off.
+
+[asker_nameFull] has forwarded you a list of nobility that was invited to the ball and will arrive in the shuttle:
+
+[noblesDetailList]
+
+You will need to make sure the guests are safe and comfortable during the ball. If anything happens to any of the guests, the grand ball will be cancelled.
+
+Deserters might use this opportunity to launch an assassination attempt.
+
+
+			</s><r>questDescription-&gt;[asker_nameFull], [asker_royalTitleInCurrentFaction] из [asker_faction_name], хотел бы, чтобы вы организовали большой бал. Это прекрасная возможность для дворянских сплетен и налаживания отношений с другими представителями императорской знати.
+
+В вашей колонии должен быть бальный зал. Если в какой-то момент бальный зал будет разрушен или инструменты в нем придут в негодность, большой бал будет отменен.
+
+[asker_nameFull] направил вам список знати, которая была приглашена на бал и прибудет на шаттле:
+
+[noblesDetailList]
+
+Вам нужно будет убедиться, что гости в безопасности и комфортно во время мяча. Если что-нибудь случится с кем-либо из гостей, большой бал будет отменен.
+
+Дезертиры могут использовать эту возможность, чтобы совершить покушение.
+
+
+			</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questDescriptionAndNameRules.rulesStrings.3"><s>lodgersDef(nobleCount&gt;=2)-&gt;the [lodgersLabelPlural]</s><r>lodgersDef(nobleCount&gt;=2)-&gt;[lodgersLabelPlural]</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questDescriptionAndNameRules.rulesStrings.4"><s>joinerEnding-&gt;You'll be able to direct [lodgersDef] the same way you direct your own colonists.[specialNeedsExplanation]</s><r>joinerEnding-&gt;Вы сможете управлять [lodgersDef] так же, как вы управляете своими колонистами.[specialNeedsExplanation]</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questDescriptionAndNameRules.rulesStrings.6"><s>theirHisHer(nobleCount&gt;=2)-&gt;their</s><r>theirHisHer(nobleCount&gt;=2)-&gt;их</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questDescriptionAndNameRules.rulesStrings.8"><s>lodgersPronoun(nobleCount&gt;=2)-&gt;they</s><r>lodgersPronoun(nobleCount&gt;=2)-&gt;они</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questDescriptionAndNameRules.rulesStrings.9"><s>lodgersWasWere(nobleCount==1)-&gt;was</s><r>lodgersWasWere(nobleCount==1)-&gt;был</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questNameRules.rulesStrings.0"><s>questName-&gt;[lodgerIndef] desires a grand ball</s><r>questName-&gt;[lodgerIndef] хочет большой бал</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questNameRules.rulesStrings.1"><s>lodgerIndef-&gt;a royal</s><r>lodgerIndef-&gt;королевский</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_GrandBall.questNameRules.rulesStrings.2"><s>lodgerIndef-&gt;a noble</s><r>lodgerIndef-&gt;благородный</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questContentRules.rulesStrings.1"><s>lastOrNot(nobleCount&gt;=2)-&gt;last</s><r>lastOrNot(nobleCount&gt;=2)-&gt;последний</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questContentRules.rulesStrings.11"><s>letterIntroDeath-&gt;{SUBJECT_definite}, [oneOfThe] has died.</s><r>letterIntroDeath-&gt;{SUBJECT_definite}, [oneOfThe] умерли.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questContentRules.rulesStrings.12"><s>lodgerDiedLeaveMapLetterLabel-&gt;[lodgersLabel] died: Departure</s><r>lodgerDiedLeaveMapLetterLabel-&gt;[lodgersLabel] умер: Отъезд</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questContentRules.rulesStrings.14"><s>letterIntroViolated-&gt;{SUBJECT_definite}, [oneOfThe], was violated by surgery.</s><r>letterIntroViolated-&gt;{SUBJECT_definite}, [oneOfThe], была нарушена хирургическим путем.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questContentRules.rulesStrings.15"><s>lodgerSurgeryVioLeaveMapLetterLabel-&gt;[lodgersLabel] Surgery: Departure</s><r>lodgerSurgeryVioLeaveMapLetterLabel-&gt;[lodgersLabel] Операция: Отъезд</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questContentRules.rulesStrings.17"><s>letterIntroKidnapped-&gt;{SUBJECT_definite}, [oneOfThe], was kidnapped.</s><r>letterIntroKidnapped-&gt;{SUBJECT_definite}, [oneOfThe] был похищен.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questContentRules.rulesStrings.18"><s>lodgerKidnappedLeaveMapLetterLabel-&gt;[lodgersLabel] Kidnapped: Departure</s><r>lodgerKidnappedLeaveMapLetterLabel-&gt;[lodgersLabel] Похищены: Отъезд</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questContentRules.rulesStrings.20"><s>letterIntroBanished-&gt;{SUBJECT_definite}, [oneOfThe], was banished.</s><r>letterIntroBanished-&gt;{SUBJECT_definite}, [oneOfThe] были изгнаны.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questContentRules.rulesStrings.21"><s>lodgerBanishedLeaveMapLetterLabel-&gt;[lodgersLabel] Banished: Departure</s><r>lodgerBanishedLeaveMapLetterLabel-&gt;[lodgersLabel] Изгнанные: Отъезд</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questContentRules.rulesStrings.23"><s>letterIntroPsychicRitualTarget-&gt;{SUBJECT_definite}, [oneOfThe], was the target of a psychic ritual.</s><r>letterIntroPsychicRitualTarget-&gt;{SUBJECT_definite}, [oneOfThe] были целью психического ритуала.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questContentRules.rulesStrings.24"><s>lodgerPsychicRitualTargetLabel-&gt;[lodgersLabel] Psychic Ritual: Departure</s><r>lodgerPsychicRitualTargetLabel-&gt;[lodgersLabel] Психический ритуал: Отъезд</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questContentRules.rulesStrings.26"><s>ShuttleDestroyedIntro-&gt;{SUBJECT_definite}, has been destroyed</s><r>ShuttleDestroyedIntro-&gt;{SUBJECT_definite}, уничтожен</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questContentRules.rulesStrings.27"><s>ShuttleDestroyedLabel-&gt;[lodgersLabel] Shuttle destroyed: Departure</s><r>ShuttleDestroyedLabel-&gt;[lodgersLabel] Шаттл уничтожен: Отбытие</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questContentRules.rulesStrings.29"><s>letterIntroBadMood-&gt;{SUBJECT_definite}, [oneOfThe], who you were charged to protect and keep happy, has been below the minimum mood of [lodgersMoodThreshold] too long.</s><r>letterIntroBadMood-&gt;{SUBJECT_definite}, [oneOfThe], которых вам было поручено защищать и поддерживать счастливыми, слишком долго находились в настроении ниже минимального [lodgersMoodThreshold].</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questContentRules.rulesStrings.30"><s>nobleUnhappyLetterLabel-&gt;[lodgersLabel] unhappy</s><r>nobleUnhappyLetterLabel-&gt;[lodgersLabel] несчастен</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questContentRules.rulesStrings.32"><s>lodgerLeftNotAllHealthyLetterLabel-&gt;[lodgersLabel] : untreated</s><r>lodgerLeftNotAllHealthyLetterLabel-&gt;[lodgersLabel]: необработанный</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questContentRules.rulesStrings.33"><s>lodgerLeftNotAllHealthyLetterText-&gt;[lodgersLabel] left the map with injuries and wll not have fond memories of their visit</s><r>lodgerLeftNotAllHealthyLetterText-&gt;[lodgersLabel] покинули карту с травмами и не сохранят приятных воспоминаний о своем визите</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questContentRules.rulesStrings.34"><s>LetterLabelShuttleArrived-&gt;Shuttle arrived</s><r>LetterLabelShuttleArrived-&gt;Шаттл прибыл</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questContentRules.rulesStrings.35"><s>LetterTextShuttleArrived-&gt;The shuttle has arrived to collect [asker_nameFull] and their court</s><r>LetterTextShuttleArrived-&gt;Шаттл прибыл, чтобы забрать [asker_nameFull] и их двор.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questContentRules.rulesStrings.36"><s>lodgersLeavingLetterLabel-&gt;[lodgersLabelSingularOrPlural] left healthy</s><r>lodgersLeavingLetterLabel-&gt;[lodgersLabelSingularOrPlural] остался здоровым</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questContentRules.rulesStrings.37"><s>lodgersLeavingLetterText-&gt;[asker_nameFull] thanks you for inviting them to stay at [map_definite] for these [questDurationTicks_duration].</s><r>lodgersLeavingLetterText-&gt;[asker_nameFull] благодарит вас за приглашение остановиться в [map_definite] ради этих [questDurationTicks_duration].</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questContentRules.rulesStrings.4"><s>decidedToLeave-&gt;[othersWillNotAccept], and {PAWNSALIVECOUNT_multiple ? have : has } decided to leave.</s><r>decidedToLeave-&gt;[othersWillNotAccept] и {PAWNSALIVECOUNT_multiple ? have : has } решили уйти.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questContentRules.rulesStrings.5"><s>othersWillNotAccept-&gt;The {PAWNSALIVECOUNT_multiple ? others are : last [lodgersLabel] is} not willing to accept this</s><r>othersWillNotAccept-&gt;{PAWNSALIVECOUNT_multiple ? others are : last [lodgersLabel] is} не желает это принимать.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questContentRules.rulesStrings.6"><s>oneOfThe-&gt;one of the nobles you invited to stay with you</s><r>oneOfThe-&gt;один из дворян, которых вы пригласили остаться с вами</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questContentRules.rulesStrings.7"><s>questOver-&gt;The quest '[resolvedQuestName]' is over.</s><r>questOver-&gt;Квест «[resolvedQuestName]» завершен.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questContentRules.rulesStrings.8"><s>letterIntroArrested-&gt;You arrested {SUBJECT_definite}, [oneOfThe].</s><r>letterIntroArrested-&gt;Вы арестовали {SUBJECT_definite}, [oneOfThe].</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questContentRules.rulesStrings.9"><s>lodgerArrestedLeaveMapLetterLabel-&gt;[lodgersLabel] arrested: Departure</s><r>lodgerArrestedLeaveMapLetterLabel-&gt;[lodgersLabel] арестован: Отъезд</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questDescriptionAndNameRules.rulesStrings.0"><s>lodgersLabel-&gt;noble</s><r>lodgersLabel-&gt;благородный</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questDescriptionAndNameRules.rulesStrings.1"><s>lodgersLabelPlural-&gt;nobles</s><r>lodgersLabelPlural-&gt;дворяне</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questDescriptionAndNameRules.rulesStrings.10"><s>lodgersPronoun(nobleCount&gt;=2)-&gt;they</s><r>lodgersPronoun(nobleCount&gt;=2)-&gt;они</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questDescriptionAndNameRules.rulesStrings.11"><s>lodgersWasWere(nobleCount==1)-&gt;was</s><r>lodgersWasWere(nobleCount==1)-&gt;был</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questDescriptionAndNameRules.rulesStrings.12"><s>lodgersWasWere(nobleCount&gt;=2)-&gt;were</s><r>lodgersWasWere(nobleCount&gt;=2)-&gt;были</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questDescriptionAndNameRules.rulesStrings.13"><s>appreciateAppreciates(nobleCount==1)-&gt;appreciates</s><r>appreciateAppreciates(nobleCount==1)-&gt;ценит</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questDescriptionAndNameRules.rulesStrings.14"><s>appreciateAppreciates(nobleCount&gt;=2)-&gt;appreciate</s><r>appreciateAppreciates(nobleCount&gt;=2)-&gt;ценить</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questDescriptionAndNameRules.rulesStrings.15"><s>questDescription(nobleCount==1)-&gt;[asker_nameFull], a [asker_royalTitleInCurrentFaction] of the [asker_faction_name] would like to perform a customary visit. Invite [asker_objective], satisfy [asker_possessive] royal needs for [shuttleDelayTicks_duration], and you will gain a large amount of honor. During their visit, you must keep their mood above [lodgersMoodThreshold_percent]. This means providing royal perquisites like a lavish bedroom.
+
+The [asker_royalTitleInCurrentFaction] will bring two of [asker_possessive] personal guards and place them under your command. You must house these guards, but the [asker_royalTitleInCurrentFaction] will not complain if they are killed or unhappy.
+
+You must keep the visitors at [map_definite] and not send them anywhere else. If you fail this quest or migrate, your relations with [asker_nameFull] will degrade and you will lose honor.</s><r>questDescription(nobleCount==1)-&gt;[asker_nameFull], [asker_royalTitleInCurrentFaction] из [asker_faction_name] хотели бы совершить обычный визит. Пригласите [asker_objective], удовлетворите [asker_possessive] королевские нужды на [shuttleDelayTicks_duration], и вы получите большое количество чести. Во время их визита вы должны поддерживать их настроение выше [lodgersMoodThreshold_percent]. Это означает предоставление королевских привилегий, таких как роскошная спальня. 
+
+ [asker_royalTitleInCurrentFaction] приведет двух из [asker_possessive] личных охранников и передаст их под ваше командование. Вы должны разместить этих охранников, но [asker_royalTitleInCurrentFaction] не будут жаловаться, если они будут убиты или несчастны. 
+
+Вы должны держать посетителей в [map_definite] и не отправлять их куда-либо еще. Если вы провалите этот квест или мигрируете, ваши отношения с [asker_nameFull] ухудшатся и вы потеряете честь.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questDescriptionAndNameRules.rulesStrings.16"><s>questDescription(nobleCount&gt;=2)-&gt;[asker_nameFull], a [asker_royalTitleInCurrentFaction] of the [asker_faction_name] would like to perform a customary visit. Invite [asker_objective], and [asker_possessive] royal court of [nobleCountLessOne] nobles and satisfy their royal needs for [shuttleDelayTicks_duration], and you will gain a large amount of honor.
+
+[asker_nameFull] has forwarded you a list of the nobility travelling with [asker_objective]:
+
+[noblesDetailList]
+
+During their visit, you must keep their mood above [lodgersMoodThreshold_percent]. This means providing royal perquisites like a lavish bedroom.
+
+The [asker_royalTitleInCurrentFaction] will bring two of [asker_possessive] personal guards and place them under your command. You must house these guards, but the [asker_royalTitleInCurrentFaction] will not complain if they are killed or unhappy.
+
+You must keep the visitors at [map_definite] and not send them anywhere else. If you fail this quest or migrate, your relations with [asker_nameFull] will degrade and you will lose honor.</s><r>questDescription(nobleCount&gt;=2)-&gt;[asker_nameFull], [asker_royalTitleInCurrentFaction] из [asker_faction_name] хотели бы совершить обычный визит. Пригласите [asker_objective] и [asker_possessive] королевский двор [nobleCountLessOne] и удовлетворите их королевские нужды на [shuttleDelayTicks_duration], и вы получите большое количество чести. 
+
+[asker_nameFull] отправил вам список дворян, путешествующих с [asker_objective]:
+
+[noblesDetailList]
+
+Во время их визита вы должны поддерживать их настроение выше [lodgersMoodThreshold_percent]. Это означает предоставление королевских привилегий, таких как роскошная спальня. 
+
+ [asker_royalTitleInCurrentFaction] приведет двух из [asker_possessive] личных охранников и передаст их под ваше командование. Вы должны разместить этих охранников, но [asker_royalTitleInCurrentFaction] не будут жаловаться, если они будут убиты или несчастны. 
+
+Вы должны держать посетителей в [map_definite] и не отправлять их куда-либо еще. Если вы провалите этот квест или мигрируете, ваши отношения с [asker_nameFull] ухудшатся и вы потеряете честь.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questDescriptionAndNameRules.rulesStrings.17"><s>allyAllies(lodgersCountMinusOne==1)-&gt;ally</s><r>allyAllies(lodgersCountMinusOne==1)-&gt;союзник</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questDescriptionAndNameRules.rulesStrings.18"><s>allyAllies(lodgersCountMinusOne&gt;=2)-&gt;allies</s><r>allyAllies(lodgersCountMinusOne&gt;=2)-&gt;союзники</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questDescriptionAndNameRules.rulesStrings.3"><s>lodgersDef(nobleCount&gt;=2)-&gt;the [lodgersLabelPlural]</s><r>lodgersDef(nobleCount&gt;=2)-&gt;[lodgersLabelPlural]</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questDescriptionAndNameRules.rulesStrings.4"><s>joinerEnding-&gt;You'll be able to direct [lodgersDef] the same way you direct your own colonists.[specialNeedsExplanation]</s><r>joinerEnding-&gt;Вы сможете управлять [lodgersDef] так же, как вы управляете своими колонистами.[specialNeedsExplanation]</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questDescriptionAndNameRules.rulesStrings.5"><s>specialNeedsExplanation(asker_royalInCurrentFaction==True,priority=1)-&gt; You'll need to satisfy any special royal needs the [lodgersLabelPlural] may have.</s><r>specialNeedsExplanation(asker_royalInCurrentFaction==True,priority=1)-&gt; Вам нужно будет удовлетворить любые особые королевские потребности, которые могут возникнуть у [lodgersLabelPlural].</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questDescriptionAndNameRules.rulesStrings.8"><s>theirHisHer(nobleCount&gt;=2)-&gt;their</s><r>theirHisHer(nobleCount&gt;=2)-&gt;их</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questNameRules.rulesStrings.0"><s>questName(sameQuestsCount==0)-&gt;[asker_nameDef]’s visit</s><r>questName(sameQuestsCount==0)-&gt;визит [asker_nameDef]</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questNameRules.rulesStrings.1"><s>questName-&gt;hosting [lodgerIndef]</s><r>questName-&gt;хостинг [lodgerIndef]</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questNameRules.rulesStrings.2"><s>questName-&gt;[lodgerIndef] visit</s><r>questName-&gt;[lodgerIndef] посетить</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questNameRules.rulesStrings.3"><s>lodgerIndef(nobleCount==1)-&gt;a royal</s><r>lodgerIndef(nobleCount==1)-&gt;королевский</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questNameRules.rulesStrings.4"><s>lodgerIndef(nobleCount==1)-&gt;a noble</s><r>lodgerIndef(nobleCount==1)-&gt;благородный</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questNameRules.rulesStrings.5"><s>lodgerIndef(nobleCount&gt;=2)-&gt;royals</s><r>lodgerIndef(nobleCount&gt;=2)-&gt;члены королевской семьи</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_NobleVisit.questNameRules.rulesStrings.6"><s>lodgerIndef(nobleCount&gt;=2)-&gt;nobles</s><r>lodgerIndef(nobleCount&gt;=2)-&gt;дворяне</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.1"><s>lastOrNot(nobleCount&gt;=2)-&gt;last</s><r>lastOrNot(nobleCount&gt;=2)-&gt;последний</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.10"><s>CeremonyTimeoutLetterText-&gt;[asker_nameFull] has grown tired of waiting for you to start the parade. [asker_pronoun] is leaving with [asker_possessive] guests.</s><r>CeremonyTimeoutLetterText-&gt;[asker_nameFull] устал ждать, пока ты начнешь парад. [asker_pronoun] уходит с [asker_possessive] гостями.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.11"><s>NoblesArriveLetterLabel-&gt;Parade nobles arriving</s><r>NoblesArriveLetterLabel-&gt;Парад дворян прибывает</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.12"><s>NoblesArriveLetterText-&gt;[asker_nameFull] and the nobility for [stellarch_nameDef]'s ascension parade are landing. Once they have gathered, select [asker_nameDef] to start the parade. They will not wait long.</s><r>NoblesArriveLetterText-&gt;[asker_nameFull] и знать для парада вознесения [stellarch_nameDef] высаживаются. Как только они соберутся, выберите [asker_nameDef], чтобы начать парад. Они не заставят себя долго ждать.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.13"><s>CountdownHostileLetterLabel-&gt;Parade called off</s><r>CountdownHostileLetterLabel-&gt;Парад отменен</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.14"><s>CountdownHostileLetterText-&gt;The Empire will not send its nobility to a colony it is at war with. [stellarch_nameDef]'s ascension parade is called off.</s><r>CountdownHostileLetterText-&gt;Империя не отправит свою знать в колонию, с которой она находится в состоянии войны. Парад вознесения [stellarch_nameDef] отменяется.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.15"><s>CountdownAwayLetterLabel-&gt;Parade called off</s><r>CountdownAwayLetterLabel-&gt;Парад отменен</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.16"><s>CountdownAwayLetterText-&gt;[asker_nameFull] waited a day for [stellarch_nameDef] to be at the colony to receive the nobility. The ascension parade is called off.</s><r>CountdownAwayLetterText-&gt;[asker_nameFull] ждал день, пока [stellarch_nameDef] прибудет в колонию для получения дворянства. Парад Вознесения отменяется.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.17"><s>CountdownPadLetterLabel-&gt;Parade called off</s><r>CountdownPadLetterLabel-&gt;Парад отменен</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.18"><s>CountdownPadLetterText-&gt;[asker_nameFull] waited a day for the colony's landing pad to be fit for the nobility's shuttle, and will not land it anywhere else. [stellarch_nameDef]'s ascension parade is called off.</s><r>CountdownPadLetterText-&gt;[asker_nameFull] ждал день, пока посадочная площадка колонии будет готова для шаттла дворянства, и больше нигде его не приземлит. Парад вознесения [stellarch_nameDef] отменяется.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.19"><s>CountdownThreatLetterLabel-&gt;Parade called off</s><r>CountdownThreatLetterLabel-&gt;Парад отменен</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.20"><s>CountdownThreatLetterText-&gt;[asker_nameFull] waited a day for the danger at the colony to pass, and will not land the nobility into it. [stellarch_nameDef]'s ascension parade is called off.</s><r>CountdownThreatLetterText-&gt;[asker_nameFull] подождал сутки, пока минует опасность в колонии, и не высадит в нее знать. Парад вознесения [stellarch_nameDef] отменяется.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.21"><s>letterIntroArrested-&gt;You arrested {SUBJECT_definite}, [oneOfThe].</s><r>letterIntroArrested-&gt;Вы арестовали {SUBJECT_definite}, [oneOfThe].</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.22"><s>lodgerArrestedLeaveMapLetterLabel-&gt;[lodgersLabel] arrested: Departure</s><r>lodgerArrestedLeaveMapLetterLabel-&gt;[lodgersLabel] арестован: Отъезд</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.24"><s>letterIntroDeath-&gt;{SUBJECT_definite}, [oneOfThe], has died.</s><r>letterIntroDeath-&gt;{SUBJECT_definite}, [oneOfThe] умер.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.25"><s>lodgerDiedLeaveMapLetterLabel-&gt;[lodgersLabel] died: Departure</s><r>lodgerDiedLeaveMapLetterLabel-&gt;[lodgersLabel] умер: Отъезд</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.27"><s>letterIntroViolated-&gt;{SUBJECT_definite}, [oneOfThe], was violated by surgery.</s><r>letterIntroViolated-&gt;{SUBJECT_definite}, [oneOfThe], была нарушена хирургическим путем.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.28"><s>lodgerSurgeryVioLeaveMapLetterLabel-&gt;[lodgersLabel] violated: Departure</s><r>lodgerSurgeryVioLeaveMapLetterLabel-&gt;[lodgersLabel] нарушено: Вылет</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.30"><s>letterIntroKidnapped-&gt;{SUBJECT_definite}, [oneOfThe], was kidnapped.</s><r>letterIntroKidnapped-&gt;{SUBJECT_definite}, [oneOfThe] был похищен.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.31"><s>lodgerKidnappedLeaveMapLetterLabel-&gt;[lodgersLabel] kidnapped: Departure</s><r>lodgerKidnappedLeaveMapLetterLabel-&gt;[lodgersLabel] похищено: Отъезд</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.33"><s>letterIntroBanished-&gt;{SUBJECT_definite}, [oneOfThe], was banished.</s><r>letterIntroBanished-&gt;{SUBJECT_definite}, [oneOfThe] были изгнаны.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.34"><s>lodgerBanishedLeaveMapLetterLabel-&gt;[lodgersLabel] banished: Departure</s><r>lodgerBanishedLeaveMapLetterLabel-&gt;[lodgersLabel] изгнано: Отъезд</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.36"><s>letterIntroPsychicRitualTarget-&gt;{SUBJECT_definite}, [oneOfThe], was the target of a psychic ritual.</s><r>letterIntroPsychicRitualTarget-&gt;{SUBJECT_definite}, [oneOfThe] были целью психического ритуала.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.37"><s>lodgerPsychicRitualTargetLabel-&gt;[lodgersLabel] violated: Departure</s><r>lodgerPsychicRitualTargetLabel-&gt;[lodgersLabel] нарушено: Вылет</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.39"><s>ShuttleDestroyedIntro-&gt;The shuttle has been destroyed.</s><r>ShuttleDestroyedIntro-&gt;Шаттл уничтожен.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.4"><s>decidedToLeave-&gt;Your guests are leaving immediately, and will not remember this event fondly!</s><r>decidedToLeave-&gt;Ваши гости немедленно уезжают и не будут вспоминать об этом событии с любовью!</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.40"><s>ShuttleDestroyedLabel-&gt;Shuttle destroyed: Parade failed</s><r>ShuttleDestroyedLabel-&gt;Шаттл уничтожен: парад провалился</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.42"><s>raidArrivedLetterLabel-&gt;Deserter assassination attempt</s><r>raidArrivedLetterLabel-&gt;Попытка убийства дезертира</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.43"><s>raidArrivedLetterText-&gt;A group of deserters have arrived to attempt to disrupt the parade and assassinate [stellarch_nameDef].
+
+The parade must not be interrupted for any reason!</s><r>raidArrivedLetterText-&gt;Группа дезертиров прибыла, чтобы попытаться сорвать парад и убить [stellarch_nameDef].
+
+ Парад нельзя прерывать ни по какой причине!</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.44"><s>ParadeSuccessLetterLetterLabel-&gt;Parade success</s><r>ParadeSuccessLetterLetterLabel-&gt;Успех парада</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.45"><s>ParadeSuccessLetterText-&gt;The shuttle is ready to depart with all those ascending with [stellarch_nameDef]. It will depart upon your command!</s><r>ParadeSuccessLetterText-&gt;Шаттл готов отправиться со всеми, кто поднимается с [stellarch_nameDef]. Он уйдет по вашей команде!</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.5"><s>oneOfThe-&gt;one of the nobles visiting for the parade</s><r>oneOfThe-&gt;один из дворян, присутствовавших на параде</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.6"><s>questOver-&gt;The quest '[resolvedQuestName]' is over.</s><r>questOver-&gt;Квест «[resolvedQuestName]» завершен.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.7"><s>CeremonyFailedLetterLabel-&gt;Parade failed</s><r>CeremonyFailedLetterLabel-&gt;Парад провалился</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.8"><s>CeremonyFailedLetterText-&gt;[asker_nameFull] is disappointed by your failure to make for an enjoyable parade. [asker_pronoun] is leaving with [asker_possessive] guests.</s><r>CeremonyFailedLetterText-&gt;[asker_nameFull] разочарован тем, что вам не удалось организовать приятный парад. [asker_pronoun] уходит с [asker_possessive] гостями.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questContentRules.rulesStrings.9"><s>CeremonyTimeoutLetterLabel-&gt;Parade failed</s><r>CeremonyTimeoutLetterLabel-&gt;Парад провалился</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questDescriptionAndNameRules.rulesStrings.0"><s>lodgersLabel-&gt;noble</s><r>lodgersLabel-&gt;благородный</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questDescriptionAndNameRules.rulesStrings.1"><s>lodgersLabelPlural-&gt;nobles</s><r>lodgersLabelPlural-&gt;дворяне</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questDescriptionAndNameRules.rulesStrings.10"><s>appreciateAppreciates(nobleCount==1)-&gt;appreciates</s><r>appreciateAppreciates(nobleCount==1)-&gt;ценит</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questDescriptionAndNameRules.rulesStrings.11"><s>appreciateAppreciates(nobleCount&gt;=2)-&gt;appreciate</s><r>appreciateAppreciates(nobleCount&gt;=2)-&gt;ценить</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questDescriptionAndNameRules.rulesStrings.12"><s>questDescription-&gt;[stellarch_nameFull] has reached the peak of what [stellarch_pronoun] can achieve from the surface of a rimworld. In order to progress further in the grand hierarchy and become the right hand of Emperor [emperor_nameFull], [stellarch_nameDef] needs to partake in a traditional ascension parade, after which [stellarch_pronoun] will depart on a shuttle and join the Emperor.
+
+A parade of this magnitude is bound to draw the attention of deserters.
+
+Once you accept this quest, you will have 5 days to prepare for the parade. Consider improving your defenses and working out contingency plans, as it is difficult to say which way the parade will move. At all times you will have to keep the parade safe from harm.
+
+Keep an eye on any rivals or enemies of [stellarch_nameDef], as they might decide it’s a good time to make a move and claim the power for themselves.
+
+The shuttle will arrive bringing the highest-ranking nobility to the parade. You will be responsible for providing the security for the event. After the parade starts, it will slowly move through the map for 12 hours, after which everyone, including [stellarch_nameDef], will board the shuttle and depart.
+
+
+
+			</s><r>questDescription-&gt;[stellarch_nameFull] достиг пика того, чего [stellarch_pronoun] может достичь с поверхности краевого мира. Чтобы продвинуться дальше в великой иерархии и стать правой рукой Императора, [emperor_nameFull], [stellarch_nameDef] необходимо принять участие в традиционном параде вознесения, после которого [stellarch_pronoun] отправится на шаттле и присоединится к Императору.
+
+Парад такого масштаба обязательно привлечет внимание дезертиров.
+
+Как только вы примете это квест, у вас будет 5 дней на подготовку к параду. Подумайте об улучшении своей защиты и разработке планов действий на случай непредвиденных обстоятельств, поскольку трудно предсказать, в какую сторону пойдет парад. Вам придется всегда охранять парад от вреда.
+
+Следите за соперниками или врагами [stellarch_nameDef], так как они могут решить, что сейчас подходящее время, чтобы сделать ход и заявить о своих правах.
+
+Прибудет шаттл, привезя на парад самых высокопоставленных дворян. Вы будете нести ответственность за обеспечение безопасности мероприятия. После начала парада он будет медленно перемещаться по карте в течение 12 часов, после чего все, включая [stellarch_nameDef], сядут на шаттл и уедут.
+
+
+
+			</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questDescriptionAndNameRules.rulesStrings.3"><s>lodgersDef(nobleCount&gt;=2)-&gt;the [lodgersLabelPlural]</s><r>lodgersDef(nobleCount&gt;=2)-&gt;[lodgersLabelPlural]</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questDescriptionAndNameRules.rulesStrings.5"><s>theirHisHer(nobleCount&gt;=2)-&gt;their</s><r>theirHisHer(nobleCount&gt;=2)-&gt;их</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questDescriptionAndNameRules.rulesStrings.7"><s>lodgersPronoun(nobleCount&gt;=2)-&gt;they</s><r>lodgersPronoun(nobleCount&gt;=2)-&gt;они</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questDescriptionAndNameRules.rulesStrings.8"><s>lodgersWasWere(nobleCount==1)-&gt;was</s><r>lodgersWasWere(nobleCount==1)-&gt;был</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questDescriptionAndNameRules.rulesStrings.9"><s>lodgersWasWere(nobleCount&gt;=2)-&gt;were</s><r>lodgersWasWere(nobleCount&gt;=2)-&gt;были</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Parade.questNameRules.rulesStrings.0"><s>questName-&gt;High Stellarch Ascension</s><r>questName-&gt;Вознесение Высокого Звездарха</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Permit_CallAbsolver.questDescriptionAndNameRules.rulesStrings.0"><s>questName-&gt;Absolver</s><r>questName-&gt;Оправдать</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Permit_CallAbsolver.root.nodes.11.node.nodes.0.label.slateRef"><s>Absolver died: {SUBJECT_definite}</s><r>Абсолвер умер: {SUBJECT_definite}</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Permit_CallAbsolver.root.nodes.11.node.nodes.0.text.slateRef"><s>An absolver sent to you by [permitFaction_name] has died. A replacement has been issued</s><r>Освободитель, посланный к вам [permitFaction_name], умер. Была выдана замена</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Permit_CallAbsolver.root.nodes.7.label.slateRef"><s>Absolver arrived</s><r>Абсолвер прибыл</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Permit_CallAbsolver.root.nodes.7.text.slateRef"><s>The absolver from [permitFaction_name] have arrived. A shuttle will come to collect them in [absolverDurationDays] days.</s><r>Освободитель из [permitFaction_name] прибыл. Шаттл заберет их через [absolverDurationDays] дня.</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Permit_CallAbsolver.root.nodes.9.node.nodes.1.inspectString.slateRef"><s>Should depart on shuttle</s><r>Должен отправиться на шаттле</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Permit_CallAbsolver.root.nodes.9.node.nodes.2.label.slateRef"><s>Shuttle arrived</s><r>Шаттл прибыл</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Permit_CallAbsolver.root.nodes.9.node.nodes.2.text.slateRef"><s>A shuttle has arrived to collect the absolver from [permitFaction_name].</s><r>Прибыл шаттл, чтобы забрать абсольвер из [permitFaction_name].</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Permit_CallTechfriar.questDescriptionAndNameRules.rulesStrings.0"><s>questName-&gt;Techfriar</s><r>questName-&gt;Техфрайар</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Permit_CallTechfriar.root.nodes.10.node.nodes.1.inspectString.slateRef"><s>Should depart on shuttle</s><r>Должен отправиться на шаттле</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Permit_CallTechfriar.root.nodes.10.node.nodes.2.label.slateRef"><s>Shuttle arrived</s><r>Шаттл прибыл</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Permit_CallTechfriar.root.nodes.10.node.nodes.2.text.slateRef"><s>A shuttle has arrived to collect the techfriar from [permitFaction_name].</s><r>Прибыл шаттл, чтобы забрать техномонаха из [permitFaction_name].</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Permit_CallTechfriar.root.nodes.13.node.nodes.0.label.slateRef"><s>Laborer died: {SUBJECT_definite}</s><r>Рабочий умер: {SUBJECT_definite}</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Permit_CallTechfriar.root.nodes.13.node.nodes.0.text.slateRef"><s>A laborer sent to you by [permitFaction_name] has died. Your goodwill with [permitFaction_name] has fallen by [goodwillPenaltyPawn].</s><r>Рабочий, посланный к вам [permitFaction_name], умер. Ваша репутация с [permitFaction_name] упала на [goodwillPenaltyPawn].</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Permit_CallTechfriar.root.nodes.8.label.slateRef"><s>Techfriar arrived</s><r>Техфрайар прибыл</r></e>
+  <e k="D" t="QuestScriptDef" key="VFEE_Permit_CallTechfriar.root.nodes.8.text.slateRef"><s>The techfriar from [permitFaction_name] have arrived. A shuttle will come to collect them in [techfriarDurationDays] days.</s><r>Технобрай из [permitFaction_name] прибыл. Шаттл заберет их через [techfriarDurationDays] дня.</r></e>
+  <e k="D" t="RaidStrategyDef" key="VFEE_Deserters.arrivalTextEnemy"><s>A group of imperial deserters have arrived in transport pods. They aim to cause chaos, and are landing scattered all over the area.
+Imperial deserters utilise powerful technology and psychic powers to undermine the Imperial rule.
+They aim to kill any title holders of {0}, including:
+{1}
+{2}
+They are attacking immediately.
+    </s><r>Группа имперских дезертиров прибыла на транспортных капсулах. Они стремятся вызвать хаос и высаживаются по всей территории.
+Имперские дезертиры используют мощные технологии и психические силы, чтобы подорвать имперское правление.
+Они стремятся убить всех обладателей титулов {0}, в том числе:
+{1}
+{2}
+Они атакуют немедленно.
+    </r></e>
+  <e k="D" t="RaidStrategyDef" key="VFEE_Deserters.arrivalTextFriendly"><s>They are moving in to help you immediately.</s><r>Они немедленно прибудут, чтобы помочь вам.</r></e>
+  <e k="D" t="RaidStrategyDef" key="VFEE_Deserters.description"><s>deserters</s><r>дезертиры</r></e>
+  <e k="D" t="RaidStrategyDef" key="VFEE_Deserters.label"><s>deserters</s><r>дезертиры</r></e>
+  <e k="D" t="RaidStrategyDef" key="VFEE_Deserters.letterLabelEnemy"><s>Raid (Deserters)</s><r>Рейд (Дезертиры)</r></e>
+  <e k="D" t="RaidStrategyDef" key="VFEE_Deserters.letterLabelFriendly"><s>Friendlies</s><r>Товарищеские матчи</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEE_JanissaryGear.description"><s>Craft janissary armor, light powered armor that’s commonly used by imperial recon troops. Note that these also require advanced components.</s><r>Создайте янычарскую броню, легкую силовую броню, которая обычно используется имперскими разведывательными войсками. Обратите внимание, что для этого также требуются дополнительные компоненты.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEE_JanissaryGear.generalRules.rulesStrings.0"><s>subject-&gt;elite warfare engineering</s><r>subject-&gt;элитная военная инженерия</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEE_JanissaryGear.generalRules.rulesStrings.1"><s>subject_story-&gt;designed armor that blended ancient warrior traditions with the pinnacle of modern defense technology</s><r>subject_story-&gt;разработал броню, сочетающую древние воинские традиции с вершиной современных оборонных технологий.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEE_JanissaryGear.generalRules.rulesStrings.2"><s>subject_story-&gt;equipped scouts with gear that turned the tide of covert operations</s><r>subject_story-&gt;оснастили разведчиков снаряжением, которое изменило ход тайных операций</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEE_JanissaryGear.generalRules.rulesStrings.3"><s>subject_story-&gt;created a legacy of warriors feared for both their prowess and their unparalleled equipment</s><r>subject_story-&gt;создал наследие воинов, которых боялись как за свое мастерство, так и за непревзойденное снаряжение.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEE_JanissaryGear.generalRules.rulesStrings.4"><s>subject_gerund-&gt;forging the future of military attire</s><r>subject_gerund-&gt;создавая будущее военной одежды</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEE_JanissaryGear.label"><s>janissary gear</s><r>янычарское снаряжение</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEE_NobleDecorations.description"><s>Build noble decorations like royal rugs, mirrors, grand chairs, imperial slabs, candelabras, and more.</s><r>Создавайте благородные украшения, такие как королевские ковры, зеркала, величественные стулья, императорские плиты, канделябры и многое другое.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEE_NobleDecorations.generalRules.rulesStrings.0"><s>subject-&gt;aristocratic elegance</s><r>subject-&gt;аристократическая элегантность</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEE_NobleDecorations.generalRules.rulesStrings.1"><s>subject_story-&gt;designed living spaces fit for kings and queens</s><r>subject_story-&gt;спроектированные жилые помещения, подходящие для королей и королев</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEE_NobleDecorations.generalRules.rulesStrings.2"><s>subject_story-&gt;brought beauty and luxury to the stark lives of the nobility</s><r>subject_story-&gt;привнес красоту и роскошь в суровую жизнь дворянства</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEE_NobleDecorations.generalRules.rulesStrings.3"><s>subject_story-&gt;set the standards for opulence in decor that lasted centuries</s><r>subject_story-&gt;установили стандарты богатства декора, которые сохранялись веками.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEE_NobleDecorations.generalRules.rulesStrings.4"><s>subject_gerund-&gt;elevating interiors to royal standards</s><r>subject_gerund-&gt;доведение интерьеров до королевских стандартов</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEE_NobleDecorations.label"><s>noble decorations</s><r>благородные украшения</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEE_PipeOrgans.description"><s>Craft the pipe organs, an incredibly advanced and intricate stationary musical instrument.</s><r>Создайте орган — невероятно продвинутый и сложный стационарный музыкальный инструмент.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEE_PipeOrgans.generalRules.rulesStrings.0"><s>subject-&gt;musical mastery</s><r>subject-&gt;музыкальное мастерство</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEE_PipeOrgans.generalRules.rulesStrings.1"><s>subject_story-&gt;crafted instruments that echoed through cathedrals and concert halls alike</s><r>subject_story-&gt;созданные инструменты, которые эхом раздавались как в соборах, так и в концертных залах</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEE_PipeOrgans.generalRules.rulesStrings.2"><s>subject_story-&gt;combined ancient lore with modern acoustics to create a symphony of sound</s><r>subject_story-&gt;объединили древние знания с современной акустикой, чтобы создать симфонию звука</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEE_PipeOrgans.generalRules.rulesStrings.3"><s>subject_story-&gt;invented an organ with pipes that mimicked the voice of the divine</s><r>subject_story-&gt;изобрел орган с трубами, имитирующими голос божества</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEE_PipeOrgans.generalRules.rulesStrings.4"><s>subject_gerund-&gt;harmonizing craftsmanship and artistry</s><r>subject_gerund-&gt;гармонизация мастерства и артистизма</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEE_PipeOrgans.label"><s>pipe organs</s><r>органы</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEE_StellicThrone.description"><s>Construct the most grand, most beautiful stellic throne for your high ranking nobility.</s><r>Постройте самый величественный и самый красивый стелический трон для своей высокопоставленной знати.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEE_StellicThrone.generalRules.rulesStrings.0"><s>subject-&gt;regal craftsmanship</s><r>subject-&gt;царственное мастерство</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEE_StellicThrone.generalRules.rulesStrings.1"><s>subject_story-&gt;forged a throne from the heart of a fallen star, symbolizing eternal rule</s><r>subject_story-&gt;выковал трон из сердца упавшей звезды, символизирующий вечное правление</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEE_StellicThrone.generalRules.rulesStrings.2"><s>subject_story-&gt;crafted not just a seat, but a legacy, ensuring the ruler's presence is felt even in absence</s><r>subject_story-&gt;создал не просто место, а наследие, гарантируя, что присутствие правителя ощущается даже в его отсутствие</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEE_StellicThrone.generalRules.rulesStrings.3"><s>subject_story-&gt;merged the art of smithing with celestial materials to create a throne worthy of legends</s><r>subject_story-&gt;объединили искусство кузнечного дела с небесными материалами, чтобы создать трон, достойный легенд.</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEE_StellicThrone.generalRules.rulesStrings.4"><s>subject_gerund-&gt;creating the pinnacle of nobility's power</s><r>subject_gerund-&gt;создание вершины дворянской власти</r></e>
+  <e k="D" t="ResearchProjectDef" key="VFEE_StellicThrone.label"><s>stellic throne</s><r>стелический трон</r></e>
+  <e k="D" t="RitualBehaviorDef" key="VFEE_BestowHonor_Behavior.roles.0.label"><s>bestower</s><r>даритель</r></e>
+  <e k="D" t="RitualBehaviorDef" key="VFEE_BestowHonor_Behavior.roles.1.label"><s>recipient</s><r>получатель</r></e>
+  <e k="D" t="RitualBehaviorDef" key="VFEE_BestowTitle_Behavior.roles.0.label"><s>organizer</s><r>организатор</r></e>
+  <e k="D" t="RitualBehaviorDef" key="VFEE_BestowTitle_Behavior.roles.1.label"><s>recipient</s><r>получатель</r></e>
+  <e k="D" t="RitualBehaviorDef" key="VFEE_BestowTitle_Behavior.stages.0.failTriggers.0.desc"><s>The organizer cannot reach the throne.</s><r>Организатор не может достичь трона.</r></e>
+  <e k="D" t="RitualBehaviorDef" key="VFEE_BestowTitle_Behavior.stages.0.failTriggers.1.desc"><s>The recipient cannot reach the throne.</s><r>Получатель не может достичь трона.</r></e>
+  <e k="D" t="RitualBehaviorDef" key="VFEE_Parade_Behavior.roles.0.label"><s>stellarch</s><r>звездарх</r></e>
+  <e k="D" t="RitualBehaviorDef" key="VFEE_Parade_Behavior.roles.1.label"><s>guard</s><r>сторожить</r></e>
+  <e k="D" t="RitualBehaviorDef" key="VFEE_Parade_Behavior.spectatorFilter.description"><s>Titled Nobles</s><r>Титулованные дворяне</r></e>
+  <e k="D" t="RitualBehaviorDef" key="VFEE_Parade_Behavior.spectatorGerund"><s>Nobles</s><r>Дворяне</r></e>
+  <e k="D" t="RitualBehaviorDef" key="VFEE_Parade_Behavior.spectatorsLabel"><s>Nobles</s><r>Дворяне</r></e>
+  <e k="D" t="RitualBehaviorDef" key="VFEE_RoyalAddres_Behavior.letterText"><s>{ORGANIZER_labelShort} is giving a royal address from the throne. 
+If all goes well, every titled participant will gain a small amount of honor, and {ORGANIZER_labelShort} will gain honor for each titled participant. If it goes poorly, the speech will do social damage and {ORGANIZER_labelShort} will lose honor for each titled participant. The outcome depends on {ORGANIZER_labelShort}'s social abilities. Imperial nobility currently residing in the area will join the speech and count as titled participants.</s><r>{ORGANIZER_labelShort} произносит королевский адрес с трона. 
+Если все пройдет хорошо, каждый титулованный участник получит небольшое количество чести, а {ORGANIZER_labelShort} получит честь за каждого титулованного участника. Если все пройдет неудачно, выступление нанесет социальный ущерб и {ORGANIZER_labelShort} потеряет честь каждого титулованного участника. Результат зависит от социальных способностей {ORGANIZER_labelShort}. Императорская знать, проживающая в настоящее время в этом районе, присоединится к речи и будет считаться титулованным участником.</r></e>
+  <e k="D" t="RitualBehaviorDef" key="VFEE_RoyalAddres_Behavior.letterTitle"><s>Royal address from the throne</s><r>Королевский адрес с трона</r></e>
+  <e k="D" t="RitualBehaviorDef" key="VFEE_RoyalAddres_Behavior.roles.0.label"><s>organizer</s><r>организатор</r></e>
+  <e k="D" t="RitualBehaviorDef" key="VFEE_RoyalAddres_Behavior.roles.1.label"><s>title holders</s><r>обладатели титула</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_ArtExhibit_Outcome.comps.0.label"><s>participant count</s><r>количество участников</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_ArtExhibit_Outcome.comps.1.label"><s>room impressiveness</s><r>впечатляющая комната</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_ArtExhibit_Outcome.description"><s>Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days.</s><r>В зависимости от качества ритуала участники будут иметь настроение от {MINMOOD} до {MAXMOOD} в течение {MOODDAYS} дней.</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_ArtExhibit_Outcome.outcomeChances.0.label"><s>Terrible</s><r>Ужасный</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_ArtExhibit_Outcome.outcomeChances.1.label"><s>Boring</s><r>Скучный</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_ArtExhibit_Outcome.outcomeChances.2.label"><s>Enjoyable</s><r>Приятный</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_ArtExhibit_Outcome.outcomeChances.3.label"><s>Amazing</s><r>Удивительный</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_BestowHonor_Outcome.comps.0.label"><s>test</s><r>тест</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_BestowHonor_Outcome.description"><s>{ORGANIZER} will gain {HONORS}.</s><r>{ORGANIZER} получит {HONORS}.</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_BestowTitle_Outcome.comps.0.label"><s>{PAWN_labelShort}'s social impact</s><r>Социальное влияние {PAWN_labelShort}</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_BestowTitle_Outcome.comps.0.labelAbstract"><s>recipient's social impact</s><r>социальное влияние получателя</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_BestowTitle_Outcome.comps.1.label"><s>participant count</s><r>количество участников</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_BestowTitle_Outcome.comps.2.label"><s>avaliable throne</s><r>доступный трон</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_BestowTitle_Outcome.description"><s>Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days.</s><r>В зависимости от качества ритуала участники будут иметь настроение от {MINMOOD} до {MAXMOOD} в течение {MOODDAYS} дней.</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_BestowTitle_Outcome.outcomeChances.0.label"><s>Awkward</s><r>Неуклюжий</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_BestowTitle_Outcome.outcomeChances.1.label"><s>Good</s><r>Хороший</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_BestowTitle_Outcome.outcomeChances.2.label"><s>Amazing</s><r>Удивительный</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_GrandBall_Outcome.comps.0.label"><s>participant count</s><r>количество участников</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_GrandBall_Outcome.comps.1.label"><s>room impressiveness</s><r>впечатляющая комната</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_GrandBall_Outcome.description"><s>Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days.</s><r>В зависимости от качества ритуала участники будут иметь настроение от {MINMOOD} до {MAXMOOD} в течение {MOODDAYS} дней.</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_GrandBall_Outcome.outcomeChances.0.label"><s>Terrible</s><r>Ужасный</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_GrandBall_Outcome.outcomeChances.1.label"><s>Boring</s><r>Скучный</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_GrandBall_Outcome.outcomeChances.2.label"><s>Enjoyable</s><r>Приятный</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_GrandBall_Outcome.outcomeChances.3.label"><s>Amazing</s><r>Удивительный</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_Parade_Outcome.description"><s>Upon completetion of the Parade the Stellarch and their chosen companions will ascend to serve the empire!</s><r>По завершении Парада Стелларх и их избранные спутники вознесутся на службу империи!</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_Parade_Outcome.outcomeChances.0.label"><s>Amazing</s><r>Удивительный</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_RoyalAddres_Outcome.comps.0.label"><s>{PAWN_labelShort}'s social impact</s><r>Социальное влияние {PAWN_labelShort}</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_RoyalAddres_Outcome.comps.0.labelAbstract"><s>speaker's social impact</s><r>социальное влияние оратора</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_RoyalAddres_Outcome.comps.1.label"><s>participant count</s><r>количество участников</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_RoyalAddres_Outcome.comps.2.label"><s>room impressiveness</s><r>впечатляющая комната</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_RoyalAddres_Outcome.description"><s>Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days.</s><r>В зависимости от качества ритуала участники будут иметь настроение от {MINMOOD} до {MAXMOOD} в течение {MOODDAYS} дней.</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_RoyalAddres_Outcome.outcomeChances.0.label"><s>Terrible</s><r>Ужасный</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_RoyalAddres_Outcome.outcomeChances.1.label"><s>Uninspiring</s><r>Скучный</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_RoyalAddres_Outcome.outcomeChances.2.label"><s>Encouraging</s><r>Поощрение</r></e>
+  <e k="D" t="RitualOutcomeEffectDef" key="VFEE_RoyalAddres_Outcome.outcomeChances.3.label"><s>Inspirational</s><r>Вдохновляющий</r></e>
+  <e k="D" t="RoomRoleDef" key="VFEE_Ballroom.label"><s>ballroom</s><r>бальный зал</r></e>
+  <e k="D" t="RoomRoleDef" key="VFEE_Gallery.label"><s>gallery</s><r>галерея</r></e>
+  <e k="D" t="RoyalTitleDef" key="VFEE_Archcount.description"><s>The Imperial title of archcount is bestowed upon those counts who have established impressive holdings, which are capable of supporting and entertaining important guests.</s><r>Императорский титул архиграфа присваивается тем графам, которые основали внушительные владения, способные обслуживать и принимать важных гостей.</r></e>
+  <e k="D" t="RoyalTitleDef" key="VFEE_Archcount.label"><s>archcount</s><r>архикаунт</r></e>
+  <e k="D" t="RoyalTitleDef" key="VFEE_Archcount.labelFemale"><s>archcountess</s><r>эрцграфиня</r></e>
+  <e k="D" t="RoyalTitleDef" key="VFEE_Archduke.description"><s>The Imperial title of archduke is bestowed upon dukes whose territory requires a competent retinue to maintain order. They are expected to host their own divisions as well as their training, and in peacetime can establish a minor House.</s><r>Императорский титул эрцгерцога присваивается герцогам, чья территория требует компетентной свиты для поддержания порядка. Ожидается, что они будут размещать свои собственные дивизии, а также проводить их обучение, а в мирное время могут создать второстепенный Дом.</r></e>
+  <e k="D" t="RoyalTitleDef" key="VFEE_Archduke.label"><s>archduke</s><r>эрцгерцог</r></e>
+  <e k="D" t="RoyalTitleDef" key="VFEE_Archduke.labelFemale"><s>archduchess</s><r>эрцгерцогиня</r></e>
+  <e k="D" t="RoyalTitleDef" key="VFEE_Despot.description"><s>The Imperial title of despot maintains dominion over a small star system of strategic importance. In the Empire, despots maintain an iron grip to ensure that resources continue to flow into Imperial coffers and factories, as their major House holds important administrative positions throughout the system of governance.</s><r>Имперский титул деспота сохраняет власть над небольшой звездной системой, имеющей стратегическое значение. В Империи деспоты поддерживают железную хватку, чтобы гарантировать, что ресурсы продолжают поступать в имперскую казну и на фабрики, поскольку их главный Дом занимает важные административные позиции во всей системе управления.</r></e>
+  <e k="D" t="RoyalTitleDef" key="VFEE_Despot.label"><s>despot</s><r>деспот</r></e>
+  <e k="D" t="RoyalTitleDef" key="VFEE_Despot.labelFemale"><s>despot</s><r>деспот</r></e>
+  <e k="D" t="RoyalTitleDef" key="VFEE_HighStellarch.description"><s>The Imperial title of high stellarch represents dominion over multiple star systems, and control of one of the powerful Houses in the Empire. They answer to no one except the emperor and are expected to not only maintain but also expand their influence across space. Very few are capable of receiving this title, even fewer wish to take on the responsibilities.</s><r>Имперский титул высшего звездарха означает власть над множеством звездных систем и контроль над одним из могущественных Домов Империи. Они не подчиняются никому, кроме императора, и ожидается, что они не только сохранят, но и расширят свое влияние в космосе. Очень немногие способны получить это звание, еще меньше желающих взять на себя ответственность.</r></e>
+  <e k="D" t="RoyalTitleDef" key="VFEE_HighStellarch.label"><s>high stellarch</s><r>высокий звездарх</r></e>
+  <e k="D" t="RoyalTitleDef" key="VFEE_Magister.description"><s>The Imperial title of magister is the middle rank of high nobility. In the Empire, a magister is expected to coordinate the vast military capabilities of the Empire, in both peace and wartime, commanding in the presence of the Emperor.</s><r>Императорский титул магистра — средний чин высшего дворянства. Ожидается, что в Империи магистр будет координировать огромные военные возможности Империи как в мирное, так и в военное время, командуя в присутствии Императора.</r></e>
+  <e k="D" t="RoyalTitleDef" key="VFEE_Magister.label"><s>magister</s><r>магистр</r></e>
+  <e k="D" t="RoyalTitleDef" key="VFEE_Magister.labelFemale"><s>magister</s><r>магистр</r></e>
+  <e k="D" t="RoyalTitleDef" key="VFEE_Marquess.description"><s>The Imperial title of marquess is the second highest of the middle nobility. In the Empire, they control colonies that border the edge of Imperial space. During wartime, they can field fleets that either prevent the enemy from penetrating the borders or be the anvil to the hammer of supporting friendlies.</s><r>Императорский титул маркиза — второй по величине среди среднего дворянства. В Империи они контролируют колонии, граничащие с границами имперского пространства. Во время войны они могут выставлять флоты, которые либо не позволяют противнику проникнуть через границы, либо становятся наковальней для молота поддержки своих союзников.</r></e>
+  <e k="D" t="RoyalTitleDef" key="VFEE_Marquess.label"><s>marquess</s><r>маркиз</r></e>
+  <e k="D" t="RoyalTitleDef" key="VFEE_Marquess.labelFemale"><s>marchioness</s><r>маркиза</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_BurnoutShieldDrop.description"><s>Call for a drop of a burnout low shield to aid you in battle. It activates where it lands and will last 30 seconds before deactivating.</s><r>Призовите падение низкого щита выгорания, чтобы помочь вам в бою. Он активируется там, где приземлится, и действует 30 секунд, прежде чем деактивируется.</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_BurnoutShieldDrop.label"><s>burnout shield drop</s><r>падение щита от выгорания</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_CallAbsolver.description"><s>Call an absolver to assist you for 4 days. This guildmember is a master assassin and will not perform any tasks other than killing. You can control him as though he is your own colonists. If an absolver dies, a new one will replace them immediately, inheriting the remaining contract time.</s><r>Позвоните абсольверу, чтобы он помог вам в течение 4 дней. Этот член гильдии является мастером-убийцей и не будет выполнять никаких задач, кроме убийства. Вы можете управлять им, как если бы он был вашим собственным колонистом. Если освободитель умирает, новый немедленно заменит его, унаследовав оставшееся время контракта.</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_CallAbsolver.label"><s>call absolver</s><r>позвонить освободить</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_CallCataphractPlatoon.description"><s>Call a group of 8 heavy cataphracts to aid you in battle.</s><r>Вызовите на помощь в бою группу из 8 тяжелых катафрактов.</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_CallCataphractPlatoon.label"><s>call cataphract platoon</s><r>вызвать взвод катафрактов</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_CallEvacShuttle.description"><s>Call an armed shuttle for your own use. It will transport colonists, items, and animals anywhere you like within 40 world tiles. It will stay in the area only for a brief moment.</s><r>Вызовите вооруженный шаттл для себя. Он будет перевозить колонистов, предметы и животных куда угодно в пределах 40 клеток мира. Он пробудет в этом районе лишь на короткое время.</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_CallEvacShuttle.label"><s>call evac shuttle</s><r>вызвать эвакуационный шаттл</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_CallImperialRegiment.description"><s>Call a group of 10 janissaries and 6 heavy cataphracts that will arrive in an armed shuttle, to aid you in battle. You cannot control them, but they will help you eliminate any threats in the area. They will leave after all threats are eliminated.</s><r>Вызовите группу из 10 янычар и 6 тяжелых катафрактов, которые прибудут на вооруженном шаттле, чтобы помочь вам в бою. Вы не можете контролировать их, но они помогут вам устранить любые угрозы в этом районе. Они уйдут после того, как будут устранены все угрозы.</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_CallImperialRegiment.label"><s>call imperial regiment</s><r>вызвать императорский полк</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_CallJanissaryPlatoon.description"><s>Call a group of 8 professional janissaries to aid you in battle.</s><r>Вызовите группу из 8 профессиональных янычар, чтобы они помогли вам в бою.</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_CallJanissaryPlatoon.label"><s>call janissary platoon</s><r>вызвать янычарский взвод</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_CallLaborerUnion.description"><s>Call a group of 12 laborers to assist you for 4 days. These workers can only do general labor tasks. You can control them as though they were your own colonists. You are required to keep them safe.</s><r>Вызовите группу из 12 рабочих, чтобы они помогали вам в течение 4 дней. Эти рабочие могут выполнять только общие трудовые задачи. Вы можете управлять ими, как если бы они были вашими колонистами. Вы обязаны обеспечить их безопасность.</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_CallLaborerUnion.label"><s>call laborer union</s><r>позвонить в профсоюз</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_CallOrbitalSlicingBeam.description"><s>Call an orbital slicing beam from an imperial flagship in orbit. This beam will travel in a direction specified by you, burning everything it touches.</s><r>Вызовите орбитальный разрезающий луч с имперского флагмана на орбите. Этот луч будет двигаться в указанном вами направлении, сжигая все, к чему прикасается.</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_CallOrbitalSlicingBeam.label"><s>call orbital slicing beam</s><r>вызвать орбитальный рассекающий луч</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_CallStellicGuards.description"><s>Call a group of 6 stellic guards, ranged and melee, to aid you in battle.</s><r>Вызовите группу из 6 стелических стражей, как дальнего, так и ближнего боя, чтобы они помогли вам в бою.</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_CallStellicGuards.label"><s>call stellic guards</s><r>вызвать звездную стражу</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_CallTechfriar.description"><s>Call a techfriar to assist you for 4 days. This guildmember can only do research-related tasks. You can control him as though he is your own colonists. You are required to keep him safe.</s><r>Позвоните техническому монаху, чтобы он помог вам в течение 4 дней. Этот член гильдии может выполнять только задачи, связанные с исследованиями. Вы можете управлять им, как если бы он был вашим собственным колонистом. Вы обязаны обеспечить его безопасность.</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_CallTechfriar.label"><s>call techfriar</s><r>позвони технару</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_CallTrooperPlatoon.description"><s>Call a group of 8 light troopers to aid you in battle.</s><r>Вызовите группу из 8 легких солдат, чтобы они помогли вам в бою.</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_CallTrooperPlatoon.label"><s>call trooper platoon</s><r>вызвать десантный взвод</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_ChemfuelDrop.description"><s>Call for a drop of 220 chemfuel.</s><r>Призовите сбросить 220 химтоплива.</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_ChemfuelDrop.label"><s>chemfuel drop</s><r>падение химического топлива</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_ClothDrop.description"><s>Call for a drop of 330 cloth.</s><r>Позвоните, чтобы получить 330 ткани.</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_ClothDrop.label"><s>cloth drop</s><r>капля ткани</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_ComponentDrop.description"><s>Call for a drop of 15 components.</s><r>Призовите дроп 15 компонентов.</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_ComponentDrop.label"><s>component drop</s><r>падение компонента</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_ComponentSpacerDrop.description"><s>Call for a drop of 3 advanced components.</s><r>Призовите выбросить 3 продвинутых компонента.</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_ComponentSpacerDrop.label"><s>advanced component drop</s><r>расширенное удаление компонентов</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_DevilstrandDrop.description"><s>Call for a drop of 90 devilstrand.</s><r>Позвоните, чтобы получить 90 девилстрандов.</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_DevilstrandDrop.label"><s>devilstrand drop</s><r>капля дьявольского берега</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_GoldDrop.description"><s>Call for a drop of 50 gold.</s><r>Призовите дроп в 50 золотых.</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_GoldDrop.label"><s>gold drop</s><r>золотая капля</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_HEShellsDrop.description"><s>Call for a drop of 10 high-explosive shells.</s><r>Вызовите сброс 10 фугасных снарядов.</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_HEShellsDrop.label"><s>shells drop</s><r>снаряды падают</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_HerbalMedDrop.description"><s>Call for a drop of 40 herbal medicine.</s><r>Позовите каплю 40 травяных лекарств.</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_HerbalMedDrop.label"><s>herbal med drop</s><r>травяные медицинские капли</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_HyperweaveDrop.description"><s>Call for a drop of 55 hyperweave.</s><r>Призовите сбросить 55 гипертканей.</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_HyperweaveDrop.label"><s>hyperweave drop</s><r>гиперткань</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_JadeDrop.description"><s>Call for a drop of 100 jade.</s><r>Позвоните, чтобы получить 100 нефритов.</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_JadeDrop.label"><s>jade drop</s><r>нефритовая капля</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_MedDrop.description"><s>Call for a drop of 25 medicine.</s><r>Вызовите каплю 25 лекарств.</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_MedDrop.label"><s>med drop</s><r>с каплями</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_NobleFoodDrop.description"><s>Call for a drop of 15 lavish meals.</s><r>Призовите 15 обильных обедов.</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_NobleFoodDrop.label"><s>noble food drop</s><r>благородная еда</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_PlasteelDrop.description"><s>Call for a drop of 55 plasteel.</s><r>Позвоните, чтобы получить пласталь 55.</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_PlasteelDrop.label"><s>plasteel drop</s><r>пластальная капля</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_StoneDrop.description"><s>Call for a drop of 500 random stone bricks.</s><r>Попросите выбросить 500 случайных каменных кирпичей.</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_StoneDrop.label"><s>stone drop</s><r>каменная капля</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_StrikerTurretDrop.description"><s>Call for a drop of three striker turrets to aid you in battle. After they fire all their ammo, striker turrets self-detonate.</s><r>Вызовите три ударные турели, которые помогут вам в бою. После того, как они расстреляют все свои боеприпасы, ударные турели самоподрываются.</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_StrikerTurretDrop.label"><s>striker drop</s><r>падение нападающего</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_SynthreadDrop.description"><s>Call for a drop of 125 synthread.</s><r>Вызовите дроп 125 синтреда.</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_SynthreadDrop.label"><s>synthread drop</s><r>капля синтетического потока</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_UraniumDrop.description"><s>Call for a drop of 80 uranium.</s><r>Призовите сбросить 80 урана.</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_UraniumDrop.label"><s>uranium drop</s><r>урановая капля</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_WoodDrop.description"><s>Call for a drop of 400 wood.</s><r>Позвоните, чтобы получить 400 дров.</r></e>
+  <e k="D" t="RoyalTitlePermitDef" key="VFEI_WoodDrop.label"><s>wood drop</s><r>капля дерева</r></e>
+  <e k="D" t="RoyaltyTabDef" key="VFEE_GreatHierarchy.description"><s>This screen allows you to view all members of the Empire faction. You can spend honor to invite them as visitors.</s><r>Этот экран позволяет вам просмотреть всех членов фракции Империи. Вы можете потратить честь пригласить их в гости.</r></e>
+  <e k="D" t="RoyaltyTabDef" key="VFEE_GreatHierarchy.label"><s>The Great Hierarchy</s><r>Великая Иерархия</r></e>
+  <e k="D" t="RoyaltyTabDef" key="VFEE_Honors.description"><s>This screen allows you to apply previously unlocked honorable titles to your colonists, providing them with unique but very specific perks.</s><r>Этот экран позволяет вам применять ранее разблокированные почетные титулы к вашим колонистам, предоставляя им уникальные, но очень специфические привилегии.</r></e>
+  <e k="D" t="RoyaltyTabDef" key="VFEE_Honors.label"><s>Honors</s><r>Почести</r></e>
+  <e k="D" t="RoyaltyTabDef" key="VFEE_Permits.description"><s>This screen allows you to customize and select permits for each of your noble people.</s><r>Этот экран позволяет вам настраивать и выбирать разрешения для каждого из ваших благородных людей.</r></e>
+  <e k="D" t="RoyaltyTabDef" key="VFEE_Permits.label"><s>Permits</s><r>Разрешения</r></e>
+  <e k="D" t="RoyaltyTabDef" key="VFEE_Vassalage.description"><s>This screen allows you to vassalize nearby Imperial bases to gain regular tithes from them.</s><r>Этот экран позволяет вам сделать вассальными близлежащие имперские базы, чтобы получать от них регулярную десятину.</r></e>
+  <e k="D" t="RoyaltyTabDef" key="VFEE_Vassalage.label"><s>Vassalage</s><r>Вассальная зависимость</r></e>
+  <e k="D" t="ScenarioDef" key="VFEE_NewFamily.description"><s>It was a long and quiet night when your entire life turned on its head. You are not sure if it was a deliberate sabotage by one of the family servants, a simple system malfunction or a well executed deserter strategy, but the mansion defense systems turned off as the clock struck midnight. When the gates swung wide, there was no time to call for aid - best you could do was hide.
+You heard the screams of your family and mansion workers as they were being slaughtered by the deserter strike team. You vowed to have your revenge, but until you make it out of this particular situation alive, your vows are all for nothing. You can either wait the raid out, use permits to call for reinforcements, or try running for the hills - the choice is yours. 
+Note: Since you start during a raid in progress, this is a difficult scenario.
+</s><r>Это была долгая и тихая ночь, когда вся твоя жизнь перевернулась с ног на голову. Вы не уверены, был ли это преднамеренный саботаж со стороны одного из семейных слуг, простой сбой системы или хорошо реализованная стратегия дезертира, но системы защиты особняка отключились, когда часы пробили полночь. Когда ворота распахнулись, не было времени позвать на помощь — лучшее, что вы могли сделать, это спрятаться.
+Вы слышали крики своей семьи и рабочих особняка, когда их убивала ударная группа дезертиров. Вы поклялись отомстить, но пока вы не выйдете из этой конкретной ситуации живым, ваши клятвы будут напрасны. Вы можете либо переждать рейд, использовать разрешения для вызова подкрепления, либо попробовать сбежать в холмы — выбор за вами. 
+Примечание: поскольку вы начинаете во время рейда, это сложный сценарий.
+</r></e>
+  <e k="D" t="ScenarioDef" key="VFEE_NewFamily.label"><s>New Family</s><r>Новая семья</r></e>
+  <e k="D" t="ScenarioDef" key="VFEE_NewFamily.scenario.description"><s>It was a long and quiet night when your entire life turned on its head. You are not sure if it was a deliberate sabotage by one of the family servants, a simple system malfunction or a well executed deserter strategy, but the mansion defense systems turned off as the clock struck midnight. When the gates swung wide, there was no time to call for aid - best you could do was hide.
+You heard the screams of your family and mansion workers as they were being slaughtered by the deserter strike team. You vowed to have your revenge, but until you make it out of this particular situation alive, your vows are all for nothing. You can either wait the raid out, use permits to call for reinforcements, or try running for the hills - the choice is yours. 
+Note: Since you start during a raid in progress, this is a difficult scenario.
+</s><r>Это была долгая и тихая ночь, когда вся твоя жизнь перевернулась с ног на голову. Вы не уверены, был ли это преднамеренный саботаж со стороны одного из семейных слуг, простой сбой системы или хорошо реализованная стратегия дезертира, но системы защиты особняка отключились, когда часы пробили полночь. Когда ворота распахнулись, не было времени позвать на помощь — лучшее, что вы могли сделать, это спрятаться.
+Вы слышали крики своей семьи и рабочих особняка, когда их убивала ударная группа дезертиров. Вы поклялись отомстить, но пока вы не выйдете из этой конкретной ситуации живым, ваши клятвы будут напрасны. Вы можете либо переждать рейд, использовать разрешения для вызова подкрепления, либо попробовать сбежать в холмы — выбор за вами. 
+Примечание: поскольку вы начинаете во время рейда, это сложный сценарий.
+</r></e>
+  <e k="D" t="ScenarioDef" key="VFEE_NewFamily.scenario.name"><s>New Family</s><r>Новая семья</r></e>
+  <e k="D" t="ScenarioDef" key="VFEE_NewFamily.scenario.parts.15.text"><s>It was a long and quiet night when your entire life turned on its head. You are not sure if it was a deliberate sabotage by one of the family servants, a simple system malfunction or a well executed deserter strategy, but the mansion defense systems turned off as the clock struck midnight. When the gates swung wide, there was no time to call for aid - best you could do was hide.
+You heard the screams of your family and mansion workers as they were being slaughtered by the deserter strike team. You vowed to have your revenge, but until you make it out of this particular situation alive, your vows are all for nothing. You can either wait the raid out, use permits to call for reinforcements, or try running for the hills - the choice is yours.</s><r>Это была долгая и тихая ночь, когда вся твоя жизнь перевернулась с ног на голову. Вы не уверены, был ли это преднамеренный саботаж со стороны одного из семейных слуг, простой сбой системы или хорошо реализованная стратегия дезертира, но системы защиты особняка отключились, когда часы пробили полночь. Когда ворота распахнулись, не было времени позвать на помощь — лучшее, что вы могли сделать, это спрятаться.
+Вы слышали крики своей семьи и рабочих особняка, когда их убивала ударная группа дезертиров. Вы поклялись отомстить, но пока вы не выйдете из этой конкретной ситуации живым, ваши клятвы будут напрасны. Вы можете либо переждать рейд, использовать разрешения для вызова подкрепления, либо попробовать сбежать в холмы — выбор за вами.</r></e>
+  <e k="D" t="ScenarioDef" key="VFEE_NewFamily.scenario.parts.16.structureLabel"><s>A royal villa</s><r>Королевская вилла</r></e>
+  <e k="D" t="ScenarioDef" key="VFEE_NewFamily.scenario.summary"><s>An imperial family in dire need of help. A classic VFE - Empire experience.</s><r>Императорская семья остро нуждается в помощи. Классический опыт VFE – Empire.</r></e>
+  <e k="D" t="ScenPartDef" key="VFEE_SpawnFamilyMembers.label"><s>spawn dead family members on map</s><r>спавнить мертвых членов семьи на карте</r></e>
+  <e k="D" t="ScenPartDef" key="VFEE_SpawnRaid.label"><s>spawn raid on map</s><r>спаун рейда на карте</r></e>
+  <e k="D" t="StorytellerDef" key="VFEE_AriadneArchduchess.description"><s>Ariadne got tired of the unpredictability of the nobility, and whilst she will create a story of increasing tension, she will force dangerous events on you as your wealth increases. After all, it’s not fun to kick someone while they’re down.</s><r>Ариадна устала от непредсказуемости знати, и хотя она будет создавать историю нарастающего напряжения, она будет навязывать вам опасные события по мере увеличения вашего богатства. В конце концов, невесело пинать кого-то, пока он лежит.</r></e>
+  <e k="D" t="StorytellerDef" key="VFEE_AriadneArchduchess.label"><s>Ariadne Archduchess</s><r>Ариадна, эрцгерцогиня</r></e>
+  <e k="D" t="TerrainDef" key="VFEE_ThickAsh.description"><s>Burned-out thick layer of ash and glass shards.</s><r>Сгоревший толстый слой пепла и осколков стекла.</r></e>
+  <e k="D" t="TerrainDef" key="VFEE_ThickAsh.label"><s>thick ash</s><r>густой пепел</r></e>
+  <e k="D" t="TerrorismTypeDef" key="VFEE_Assassination.description"><s>VFEE_Assassination</s><r>VFEE_Убийство</r></e>
+  <e k="D" t="TerrorismTypeDef" key="VFEE_Assassination.label"><s>VFEE_Assassination</s><r>VFEE_Убийство</r></e>
+  <e k="D" t="TerrorismTypeDef" key="VFEE_Bomb.description"><s>VFEE_Bomb</s><r>VFEE_Bomb</r></e>
+  <e k="D" t="TerrorismTypeDef" key="VFEE_Bomb.label"><s>VFEE_Bomb</s><r>VFEE_Bomb</r></e>
+  <e k="D" t="TerrorismTypeDef" key="VFEE_Poisoning.description"><s>VFEE_Poisoning</s><r>VFEE_Отравление</r></e>
+  <e k="D" t="TerrorismTypeDef" key="VFEE_Poisoning.label"><s>VFEE_Poisoning</s><r>VFEE_Отравление</r></e>
+  <e k="D" t="ThingDef" key="VEE_Gun_Fletcher.description"><s>An ultra-long range sniper rifle which fires fin-stabilized flechettes with acidifier injectors. Due to their lethality and danger of falling into enemy hands, they are always biocoded and will self-destruct if their owner either dies or is disarmed. Lethal to organics and almost useless against non-organics, such as mechanoids.
+
+Targets hit by these flechettes will be inflicted with an unstable variant of acidifier fluids, designed to dissolve the target from the inside rather than destroy their equipment. The acid will rampage through the target’s body and usually results in vital organs being dissolved, however lethality isn’t guaranteed.</s><r>Снайперская винтовка сверхдальнего радиуса действия, стреляющая стабилизированными оперением стрелами с инжекторами подкислителя. Из-за своей смертоносности и опасности попадания в руки врага они всегда биокодированы и самоуничтожатся, если их владелец умрет или будет обезоружен. Смертелен для органических веществ и почти бесполезен против неорганических существ, таких как механоиды.
+
+Цели, пораженные этими стрелами, будут поражены нестабильным вариантом подкисляющих жидкостей, предназначенных для растворения цели изнутри, а не для разрушения ее оборудования. Кислота будет буйствовать по телу цели и обычно приводит к растворению жизненно важных органов, однако летальность не гарантирована.</r></e>
+  <e k="D" t="ThingDef" key="VEE_Gun_Fletcher.label"><s>fletcher</s><r>флетчер</r></e>
+  <e k="D" t="ThingDef" key="VEE_Gun_Fletcher.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="VEE_Gun_Fletcher.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="VEE_Gun_Fletcher.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="VEE_Gun_Fletcher.verbs.0.label"><s>fletcher</s><r>флетчер</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Aperitif.description"><s>A non-alcoholic, pleasantly light, citrusy and slightly bitter aperitif that owes its flavors and aromas to sweet and bitter oranges, rhubarb, and imperial craftsmanship. Drinking it induces heavy but painless vomiting, completely clearing the stomach and taste buds. Aperitif recipe is kept secret by the Hospitality guilds of the Empire, and noone was quite able to recreate this fine delicacy on the rimworld surface.
+
+Imperial nobility loves aperitif for its ability to clear out food from the digestive system, allowing them to consume even more of the finest imperial food.</s><r>Безалкогольный, приятно легкий, цитрусовый и слегка горьковатый аперитив, обязанный своим вкусом и ароматом сладким и горьким апельсинам, ревеню и императорскому мастерству. Его употребление вызывает тяжелую, но безболезненную рвоту, полностью очищая желудок и вкусовые рецепторы. Рецепт аперитива хранится в секрете гильдий гостеприимства Империи, и никому не удалось воссоздать этот прекрасный деликатес на поверхности окружного мира.
+
+Имперская знать любит аперитив за его способность выводить пищу из пищеварительной системы, позволяя им потреблять еще больше лучших имперских блюд.</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Aperitif.ingestible.ingestCommandString"><s>Drink {0}</s><r>Выпей {0}</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Aperitif.ingestible.ingestReportString"><s>Drinking {0}.</s><r>Пью {0}.</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Aperitif.label"><s>aperitif</s><r>аперитив</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Apparel_AbsolverHelmet.description"><s>A high-tech helmet with a solid plasteel-weave shell and multi-spectrum sensors, which both feed telemetry data to the user and exterior shell. While it provides excellent protection, its primary purpose is to hide the user by using an intricate optical camouflage system while feeding firing solutions using real-time strategic information. Armor like this is only available to the Sophian Empire’s elite assassins due to limited production.</s><r>Высокотехнологичный шлем с прочной оболочкой из пластальной ткани и многоспектральными датчиками, которые передают телеметрические данные пользователю и внешней оболочке. Несмотря на то, что он обеспечивает отличную защиту, его основная цель — скрыть пользователя с помощью сложной системы оптического камуфляжа и одновременно подавать решения для стрельбы с использованием стратегической информации в реальном времени. Подобная броня доступна только элитным убийцам Софийской Империи из-за ограниченного производства.</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Apparel_AbsolverHelmet.label"><s>absolver helmet</s><r>абсольвер шлем</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Apparel_ArmorAbsolver.description"><s>A high-tech suit of powered armor with layered plasteel-weave plates and multi-spectrum sensors, which both feed telemetry data to the user and exterior shell. While it provides excellent protection, its primary purpose is to hide the user by using an intricate optical camouflage system while adjusting and assisting their movement. Armor like this is only available to the Sophian Empire’s elite assassins due to limited production.</s><r>Высокотехнологичный комплект силовой брони со слоистыми пласталевыми пластинами и мультиспектральными датчиками, которые передают телеметрические данные пользователю и внешней оболочке. Несмотря на то, что он обеспечивает отличную защиту, его основная цель — скрыть пользователя с помощью сложной системы оптического камуфляжа, одновременно регулируя и помогая его передвижению. Подобная броня доступна только элитным убийцам Софийской Империи из-за ограниченного производства.</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Apparel_ArmorAbsolver.label"><s>absolver armor</s><r>снять броню</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Apparel_ArmorDeserter.description"><s>A suit of heavy powered armor, built for maximum protection at the cost of mobility. Heavy layered plasteel-weave plates with solid ablative coatings stop all but the most well-aimed or powerful attacks. Neuro-memetic assistors prevent the suit's massive weight from immobilizing the wearer entirely, but the suit is still quite cumbersome.
+
+Originally an elaborate suit of prestige armor, this has been modified to make greater use of eltex weave in order to improve the performance of psycasters. This comes at a cost of removing interfering armor plating, but enhances psychic sensitivity and neural heat dissipation.</s><r>Костюм из тяжелой силовой брони, созданный для максимальной защиты за счет мобильности. Тяжелые многослойные пластины из пластальной ткани с твердым абляционным покрытием останавливают все атаки, кроме самых метких и мощных. Нейромеметические помощники не позволяют массивному весу костюма полностью обездвижить владельца, но костюм по-прежнему довольно громоздкий.
+
+Первоначально это был тщательно продуманный комплект престижной брони, но он был модифицирован, чтобы более широко использовать элтексное плетение для улучшения характеристик псикастеров. Это достигается за счет удаления мешающей брони, но повышает психическую чувствительность и рассеивание нервного тепла.</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Apparel_ArmorDeserter.label"><s>deserter armor</s><r>броня дезертира</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Apparel_DeserterHelmet.description"><s>A heavily-armored high-tech helmet, with a solid plasteel-weave shell and indirect visual system for non-frontal view angles. It protects against all but the most powerful or luckily-aimed shots.
+
+Originally a standard cataphract helmet, this has been modified to include a gunlink at the cost of removing the faceplate, sacrificing defense to improve offensive capabilities.</s><r>Высокотехнологичный шлем с тяжелой броней, прочной оболочкой из пласталевой ткани и системой непрямого обзора, обеспечивающей нефронтальный обзор. Он защищает от всех выстрелов, кроме самых мощных или удачно направленных.
+
+Первоначально это был стандартный шлем катафракта, но он был модифицирован, чтобы включать в себя ружье за ​​счет удаления лицевой панели, жертвуя защитой ради улучшения наступательных возможностей.</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Apparel_DeserterHelmet.label"><s>deserter helmet</s><r>пустынный шлем</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Apparel_JanissaryCuirass.description"><s>A set of pauldrons and neck guard that extends down the wearer’s chest made from layered plasteel-weave plates. While it offers high protection for those areas, it is more of a status symbol and is intended to be worn over clothing and under armor without affecting mobility.</s><r>Набор наплечников и наплечников, спускающихся до груди владельца, изготовленных из многослойных пластин пласталевого переплетения. Хотя он обеспечивает высокую защиту этих областей, он является скорее символом статуса и предназначен для ношения поверх одежды и под броней, не влияя на мобильность.</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Apparel_JanissaryCuirass.label"><s>janissary cuirass</s><r>янычарская кираса</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Apparel_JanissaryHelmet.description"><s>A high-tech armored helmet with a built-in status computer and a protective plasteel-weave plate.
+
+Includes a plasteel-plated gas mask that offers full protection against gas-related attacks, such as toxic environments.</s><r>Высокотехнологичный бронированный шлем со встроенным компьютером состояния и защитной пластиной из пласталевого полотна.
+
+В комплект входит противогаз с пласталевым покрытием, обеспечивающий полную защиту от газовых атак, например, от токсичных сред.</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Apparel_JanissaryHelmet.label"><s>janissary helmet</s><r>янычарский шлем</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Apparel_TechfriarCrown.description"><s>An exceedingly complex facemask fitted with advanced technology that is only known to high-ranking Sophian techpriests. Designed to be worn by designated researchers so that they can advance the empire’s needs without rest.
+
+The inlaid techprint will synchronize and stimulate the wearer’s brain when they are performing research, effectively doubling research speed as well as restoring their needs for rest and recreation.</s><r>Чрезвычайно сложная маска для лица, оснащенная передовой технологией, известной только высокопоставленным техножрецам Софии. Предназначен для ношения назначенными исследователями, чтобы они могли без отдыха удовлетворять потребности империи.
+
+Инкрустированный техотпечаток будет синхронизировать и стимулировать мозг владельца во время проведения исследований, эффективно удваивая скорость исследований, а также восстанавливая его потребность в отдыхе и развлечениях.</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Apparel_TechfriarCrown.label"><s>techfriar crown</s><r>корона технобрая</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Bomb.description"><s>A small, makeshift bomb. Can be easily defused if found on time.</s><r>Маленькая самодельная бомба. Легко обезвредить, если найти вовремя.</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Bomb.label"><s>bomb</s><r>бомбить</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Bullet_ChargeThumper.label"><s>thump charge</s><r>ударный заряд</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Bullet_FletcherDart.label"><s>fletcher dart</s><r>флетчер Дартс</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Candelabra.description"><s>An elaborate, artistic electrical standing lamp that lights an area. People need light to move and work at full speed.</s><r>Сложный, художественный электрический торшер, освещающий пространство. Людям нужен свет, чтобы двигаться и работать на полной скорости.</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Candelabra.label"><s>candelabra</s><r>канделябры</r></e>
+  <e k="D" t="ThingDef" key="VFEE_DropPodIncoming_Building.label"><s>drop pod (incoming)</s><r>десантная капсула (входящая)</r></e>
+  <e k="D" t="ThingDef" key="VFEE_GrandChair.description"><s>A comfortable and elegant chair, it is a work of art in itself. Can be used at tables, work stations, and elsewhere.</s><r>Удобное и элегантное кресло само по себе является произведением искусства. Можно использовать за столами, рабочими местами и в других местах.</r></e>
+  <e k="D" t="ThingDef" key="VFEE_GrandChair.label"><s>grand chair</s><r>большой стул</r></e>
+  <e k="D" t="ThingDef" key="VFEE_GrandRoyalRug.description"><s>A majestic rug with an imperial-style pattern, for decorating a floor.</s><r>Величественный ковер с узором в имперском стиле для украшения пола.</r></e>
+  <e k="D" t="ThingDef" key="VFEE_GrandRoyalRug.label"><s>grand royal rug</s><r>большой королевский ковер</r></e>
+  <e k="D" t="ThingDef" key="VFEE_GrandTable.description"><s>A luxurious, beautiful gold-inlaid table fit for the highborn, it is a work of art in itself. People eat off tables when chairs are placed facing them.</s><r>Роскошный, красивый, инкрустированный золотом стол, достойный знатных людей, сам по себе является произведением искусства. Люди едят за столом, когда стулья стоят напротив них.</r></e>
+  <e k="D" t="ThingDef" key="VFEE_GrandTable.label"><s>grand table</s><r>большой стол</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Gun_ChargeThumper.description"><s>A modified charged-shot assault shotgun that incorporates mechanoid technology. Recovered thump cannons have been reversed engineered to produce a portable ranged weapon capable of firing blunt projectiles. Quite powerful but short ranged, with high performance against structures and heavily armored targets.</s><r>Модифицированный штурмовой дробовик с заряженным зарядом, в котором используется механоидная технология. Найденные ударные пушки были переработаны для создания портативного оружия дальнего боя, способного стрелять тупыми снарядами. Довольно мощный, но малой дальности, с высокой эффективностью против построек и тяжелобронированных целей.</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Gun_ChargeThumper.label"><s>charge thumper</s><r>зарядный молоток</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Gun_ChargeThumper.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Gun_ChargeThumper.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Gun_ChargeThumper.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Gun_ChargeThumper.verbs.0.label"><s>charge thumper</s><r>зарядный молоток</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Gun_StrikerTurret.description"><s>A powerful turret mounted on the striker drop pod.</s><r>Мощная турель, установленная на ударной капсуле.</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Gun_StrikerTurret.label"><s>striker gun</s><r>нападающий пистолет</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Gun_StrikerTurret.verbs.0.label"><s>striker gun</s><r>нападающий пистолет</r></e>
+  <e k="D" t="ThingDef" key="VFEE_ImperialBanner.description"><s>A decorative strip of cloth hanging from a vertical wooden frame. Appropriate for royal rooms.</s><r>Декоративная полоска ткани, свисающая с вертикальной деревянной рамы. Подходит для королевских номеров.</r></e>
+  <e k="D" t="ThingDef" key="VFEE_ImperialBanner.label"><s>imperial banner</s><r>имперское знамя</r></e>
+  <e k="D" t="ThingDef" key="VFEE_ImperialSlab.description"><s>A stoney bas relief of imperial imagery for decorating a floor.</s><r>Каменный барельеф с имперскими образами для украшения пола.</r></e>
+  <e k="D" t="ThingDef" key="VFEE_ImperialSlab.label"><s>imperial slab</s><r>императорская плита</r></e>
+  <e k="D" t="ThingDef" key="VFEE_LargeRoyalRug.description"><s>An intricate rug with an imperial-style pattern, for decorating a floor.</s><r>Замысловатый ковер с узором в имперском стиле для украшения пола.</r></e>
+  <e k="D" t="ThingDef" key="VFEE_LargeRoyalRug.label"><s>large royal rug</s><r>большой королевский ковер</r></e>
+  <e k="D" t="ThingDef" key="VFEE_MeleeWeapon_Toxblade.description"><s>A defensive melee persona weapon usually assigned to every Imperial noble of rank Yeoman or above. While armor penetration is comparable to plasteel blades, the primary function is to dispense acidifer fluids and toxic vapors upon inflicted cuts. The effect only lasts a few seconds and is inflicted roughly half of the time due to the limited size of the weapon.</s><r>Защитное личное оружие ближнего боя, обычно присваиваемое каждому имперскому дворянину ранга Йомен или выше. Хотя бронепробиваемость сравнима с лезвиями из пластали, основная функция заключается в распределении кислотообразующих жидкостей и токсичных паров при нанесении порезов. Эффект длится всего несколько секунд и применяется примерно в половине случаев из-за ограниченного размера оружия.</r></e>
+  <e k="D" t="ThingDef" key="VFEE_MeleeWeapon_Toxblade.label"><s>toxblade</s><r>токсовый клинок</r></e>
+  <e k="D" t="ThingDef" key="VFEE_MeleeWeapon_Toxblade.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="VFEE_MeleeWeapon_Toxblade.tools.1.label"><s>blade</s><r>лезвие</r></e>
+  <e k="D" t="ThingDef" key="VFEE_MeleeWeapon_Toxblade.tools.2.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="VFEE_MeleeWeapon_ToxbladeBladelink.description"><s>A defensive melee persona weapon usually assigned to every Imperial noble of rank Yeoman or above. While armor penetration is comparable to plasteel blades, the primary function is to dispense acidifer fluids and toxic vapors upon inflicted cuts. The effect only lasts a few seconds and is inflicted roughly half of the time due to the limited size of the weapon.</s><r>Защитное личное оружие ближнего боя, обычно присваиваемое каждому имперскому дворянину ранга Йомен или выше. Хотя бронепробиваемость сравнима с лезвиями из пластали, основная функция заключается в распределении кислотообразующих жидкостей и токсичных паров при нанесении порезов. Эффект длится всего несколько секунд и применяется примерно в половине случаев из-за ограниченного размера оружия.</r></e>
+  <e k="D" t="ThingDef" key="VFEE_MeleeWeapon_ToxbladeBladelink.label"><s>persona toxblade</s><r>персонаж токсблейд</r></e>
+  <e k="D" t="ThingDef" key="VFEE_MeleeWeapon_ToxbladeBladelink.tools.0.label"><s>handle</s><r>ручка</r></e>
+  <e k="D" t="ThingDef" key="VFEE_MeleeWeapon_ToxbladeBladelink.tools.1.label"><s>blade</s><r>лезвие</r></e>
+  <e k="D" t="ThingDef" key="VFEE_MeleeWeapon_ToxbladeBladelink.tools.2.label"><s>point</s><r>точка</r></e>
+  <e k="D" t="ThingDef" key="VFEE_OrbitalSlicer.label"><s>orbital slicer</s><r>орбитальный слайсер</r></e>
+  <e k="D" t="ThingDef" key="VFEE_PipeOrgan.description"><s>An exceedingly complex stationary musical instrument crafted at a smithy. A series of tuned pipes are played from the keyboard which releases pressurized air to produce the desired pitch, which lasts as long as the key is pressed. The complex and intricate design, along with the unique sound it produces, make it an ideal apparatus for instigating concerts of the nobility as its music reaches far and wide.</s><r>Чрезвычайно сложный стационарный музыкальный инструмент, изготовленный в кузнице. На клавиатуре воспроизводится серия настроенных труб, из которых выпускается сжатый воздух для получения желаемой высоты звука, которая длится до тех пор, пока нажата клавиша. Сложная и замысловатая конструкция, а также уникальный звук, который он производит, делают его идеальным аппаратом для организации концертов знати, поскольку его музыка распространяется повсюду.</r></e>
+  <e k="D" t="ThingDef" key="VFEE_PipeOrgan.label"><s>organ</s><r>орган</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Poison.description"><s>text_todo</s><r>text_todo</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Poison.label"><s>poison</s><r>яд</r></e>
+  <e k="D" t="ThingDef" key="VFEE_RoyalMirror.description"><s>A beautiful and elegant mirror. Gives a small comfort bonus to all nearby beds. Placing more than one mirror near the same bed has no effect.</s><r>Красивое и элегантное зеркало. Дает небольшой бонус комфорта всем близлежащим кроватям. Размещение более одного зеркала возле одной кровати не имеет никакого эффекта.</r></e>
+  <e k="D" t="ThingDef" key="VFEE_RoyalMirror.label"><s>royal mirror</s><r>королевское зеркало</r></e>
+  <e k="D" t="ThingDef" key="VFEE_RoyalSculptureGrand.description"><s>A huge sculpture sized to dominate a room.</s><r>Огромная скульптура размером с доминанту в комнате.</r></e>
+  <e k="D" t="ThingDef" key="VFEE_RoyalSculptureGrand.label"><s>grand imperial sculpture</s><r>великая императорская скульптура</r></e>
+  <e k="D" t="ThingDef" key="VFEE_RoyalSculptureLarge.description"><s>A person-sized piece of material sculpted into an artistic form.</s><r>Кусок материала размером с человека, которому придана художественная форма.</r></e>
+  <e k="D" t="ThingDef" key="VFEE_RoyalSculptureLarge.label"><s>large imperial sculpture</s><r>большая императорская скульптура</r></e>
+  <e k="D" t="ThingDef" key="VFEE_RoyalSculptureSmall.description"><s>A torso-sized piece of material sculpted into an artistic form.</s><r>Кусок материала размером с туловище, которому придана художественная форма.</r></e>
+  <e k="D" t="ThingDef" key="VFEE_RoyalSculptureSmall.label"><s>small imperial sculpture</s><r>маленькая императорская скульптура</r></e>
+  <e k="D" t="ThingDef" key="VFEE_RoyalStool.description"><s>A luxurious gold-inlaid stool fit for the nobility. Can be used at tables, work stations, and elsewhere.</s><r>Роскошный табурет, инкрустированный золотом, достойный знати. Можно использовать за столами, рабочими местами и в других местах.</r></e>
+  <e k="D" t="ThingDef" key="VFEE_RoyalStool.label"><s>royal stool</s><r>королевский табурет</r></e>
+  <e k="D" t="ThingDef" key="VFEE_SteleSmall.description"><s>A slender, modest slab with limited engravings on the sides. Steles have been used since ancient times to memorialize individuals, battles, and other important events.</s><r>Тонкая, скромная плита с ограниченной гравировкой по бокам. Стелы использовались с древних времен для увековечивания памяти отдельных людей, сражений и других важных событий.</r></e>
+  <e k="D" t="ThingDef" key="VFEE_SteleSmall.label"><s>small stele</s><r>маленькая стела</r></e>
+  <e k="D" t="ThingDef" key="VFEE_StellicThrone.description"><s>A titanic, ornate chair, designed for a dignity-focused psycaster to sit and meditate. Reigning on a throne is a form of meditation that builds up psyfocus. For dignity psycasters, more impressive meditation thrones and thronerooms increase the rate of psyfocus gain.</s><r>Титаническое, богато украшенное кресло, предназначенное для того, чтобы псикастер, стремящийся к достоинству, мог сидеть и медитировать. Царствование на троне — это форма медитации, которая развивает психофокус. Для псайкастеров достоинства более впечатляющие троны и тронные залы для медитации увеличивают скорость получения психофокуса.</r></e>
+  <e k="D" t="ThingDef" key="VFEE_StellicThrone.label"><s>stellic meditation throne</s><r>звездный трон для медитации</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Turret_StrikerTurret.comps.2.countdownLabel"><s>deactivates after:</s><r>деактивируется после:</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Turret_StrikerTurret.description"><s>A redesigned cargo pod designed to bury stabilizing legs upon impact and deploy a powerful turret. Has a limited battery and ammunition pool, and will self-destruct if either run out or it is sufficiently damaged.</s><r>Модернизированная грузовая капсула, предназначенная для заглубления стабилизирующих опор при ударе и развертывания мощной турели. Имеет ограниченный запас батареи и боеприпасов и самоуничтожится, если они закончатся или будут достаточно повреждены.</r></e>
+  <e k="D" t="ThingDef" key="VFEE_Turret_StrikerTurret.label"><s>striker turret</s><r>ударяет по башне</r></e>
+  <e k="D" t="ThingDef" key="VFEE_UnfinishedOrgan.description"><s>An unfinished organ.</s><r>Незаконченный орган.</r></e>
+  <e k="D" t="ThingDef" key="VFEE_UnfinishedOrgan.label"><s>unfinished organ</s><r>незаконченный орган</r></e>
+  <e k="D" t="ThingDef" key="VFEI_ArmoredShuttle.description"><s>A spacer-tech imperial gunship designed for transit between surface and orbit, or between moons of a planetary system. Equipped with a twin-linked autocannon for ground support, these armored shuttles often land in the middle of the battlefield to extract stranded troops.</s><r>Имперский боевой корабль космической техники, предназначенный для транзита между поверхностью и орбитой или между спутниками планетной системы. Оснащенные спаренной автоматической пушкой для наземной поддержки, эти бронированные шаттлы часто приземляются посреди поля боя, чтобы эвакуировать застрявших войск.</r></e>
+  <e k="D" t="ThingDef" key="VFEI_ArmoredShuttle.label"><s>armored shuttle</s><r>бронированный шаттл</r></e>
+  <e k="D" t="ThingDef" key="VFEI_ArmoredShuttleIncoming.label"><s>armored shuttle (incoming)</s><r>бронированный шаттл (входящий)</r></e>
+  <e k="D" t="ThingDef" key="VFEI_ArmoredShuttleLeaving.label"><s>armored shuttle (leaving)</s><r>бронированный шаттл (уходящий)</r></e>
+  <e k="D" t="ThingDef" key="VFEI_TurretArmoredShuttle.description"><s>A powerful, twin-linked autocannon.</s><r>Мощная спаренная автопушка.</r></e>
+  <e k="D" t="ThingDef" key="VFEI_TurretArmoredShuttle.label"><s>double autocannon</s><r>двойная автопушка</r></e>
+  <e k="D" t="ThingDef" key="VFEI_TurretArmoredShuttle.verbs.0.label"><s>double autocannon</s><r>двойная автопушка</r></e>
+  <e k="D" t="ThingDef" key="VFE_Apparel_StellicRobe.description"><s>A glorious, long and flowing robe embroidered with intricately complex decorative designs.</s><r>Великолепное, длинное и струящееся одеяние, расшитое замысловатыми декоративными узорами.</r></e>
+  <e k="D" t="ThingDef" key="VFE_Apparel_StellicRobe.label"><s>stellic robe</s><r>стелический халат</r></e>
+  <e k="D" t="ThoughtDef" key="VFEE_AmazingBall.stages.0.description"><s>I had such an amazing time at that ball. It was everything I imagined and more!</s><r>Я прекрасно провел время на этом балу. Это было все, что я себе представлял, и даже больше!</r></e>
+  <e k="D" t="ThoughtDef" key="VFEE_AmazingBall.stages.0.label"><s>amazing ball</s><r>потрясающий мяч</r></e>
+  <e k="D" t="ThoughtDef" key="VFEE_AmazingExhibit.stages.0.description"><s>I couldn't believe art I've seen many times could still be so fascinating, and the royals were so interesting.</s><r>Я не мог поверить, что искусство, которое я видел много раз, может быть таким захватывающим, а члены королевской семьи такими интересными.</r></e>
+  <e k="D" t="ThoughtDef" key="VFEE_AmazingExhibit.stages.0.label"><s>amazing exhibit</s><r>удивительная выставка</r></e>
+  <e k="D" t="ThoughtDef" key="VFEE_BadVisit.stages.0.description"><s>I had a terrible time with that host.</s><r>Я ужасно провел время с этим хозяином.</r></e>
+  <e k="D" t="ThoughtDef" key="VFEE_BadVisit.stages.0.label"><s>terrible visit</s><r>ужасный визит</r></e>
+  <e k="D" t="ThoughtDef" key="VFEE_BoringBall.stages.0.description"><s>I was expecting a grand time. What I got was seriously lacking.</s><r>Я ожидал великолепно провести время. Того, что я получил, мне серьезно не хватало.</r></e>
+  <e k="D" t="ThoughtDef" key="VFEE_BoringBall.stages.0.label"><s>boring ball</s><r>скучный мяч</r></e>
+  <e k="D" t="ThoughtDef" key="VFEE_BoringExhibit.stages.0.description"><s>I was expecting a lot more interesting pieces, and better presentation.</s><r>Я ожидал гораздо более интересных произведений и лучшей подачи.</r></e>
+  <e k="D" t="ThoughtDef" key="VFEE_BoringExhibit.stages.0.label"><s>boring exhibit</s><r>скучная выставка</r></e>
+  <e k="D" t="ThoughtDef" key="VFEE_Chosen.stages.0.label"><s>Chosen</s><r>Избранный</r></e>
+  <e k="D" t="ThoughtDef" key="VFEE_EnjoyableBall.stages.0.description"><s>I had a great time dancing at that ball!</s><r>Я прекрасно провела время, танцуя на этом балу!</r></e>
+  <e k="D" t="ThoughtDef" key="VFEE_EnjoyableBall.stages.0.label"><s>enjoyable ball</s><r>приятный мяч</r></e>
+  <e k="D" t="ThoughtDef" key="VFEE_EnjoyableExhibit.stages.0.description"><s>It was really interesting seeing our collection displayed like this. Was a great time!</s><r>Было очень интересно увидеть нашу коллекцию в таком виде. Было прекрасное время!</r></e>
+  <e k="D" t="ThoughtDef" key="VFEE_EnjoyableExhibit.stages.0.label"><s>enjoyable exhibit</s><r>приятная выставка</r></e>
+  <e k="D" t="ThoughtDef" key="VFEE_FirstOfName.stages.0.description"><s>{OTHERPAWN_name} is the first of {OTHERPAWN_possessive} name.</s><r>{OTHERPAWN_name} — первое имя из {OTHERPAWN_possessive}.</r></e>
+  <e k="D" t="ThoughtDef" key="VFEE_FirstOfName.stages.0.label"><s>First of {OTHERPAWN_possessive} Name</s><r>Первое из {OTHERPAWN_possessive} Имя</r></e>
+  <e k="D" t="ThoughtDef" key="VFEE_LackingNobleCourt.stages.0.description"><s>My noble court is lacking. My title’s formal requirements should always be respected. I demand to be surrounded by: 
+
+{0}</s><r>Моего благородного двора не хватает. Формальные требования моего титула всегда должны соблюдаться. Я требую, чтобы меня окружали: 
+
+{0}</r></e>
+  <e k="D" t="ThoughtDef" key="VFEE_LackingNobleCourt.stages.0.label"><s>lacking noble court</s><r>не хватает дворянского двора</r></e>
+  <e k="D" t="ThoughtDef" key="VFEE_TerribleBall.stages.0.description"><s>I'm embarrassed to be a part of that train wreck. I just hope no one gossips about this.</s><r>Мне стыдно быть частью той крушения поезда. Я просто надеюсь, что никто не будет сплетничать об этом.</r></e>
+  <e k="D" t="ThoughtDef" key="VFEE_TerribleBall.stages.0.label"><s>terrible ball</s><r>ужасный мяч</r></e>
+  <e k="D" t="ThoughtDef" key="VFEE_TerribleExhibit.stages.0.description"><s>I'm embarrassed that we hosted such a terrible art exhibit. Our art will never be respected in the Empire now!</s><r>Мне стыдно, что мы устроили такую ​​ужасную художественную выставку. Наше искусство теперь никогда не будет уважаться в Империи!</r></e>
+  <e k="D" t="ThoughtDef" key="VFEE_TerribleExhibit.stages.0.label"><s>terrible exhibit</s><r>ужасная выставка</r></e>
+  <e k="D" t="ThoughtDef" key="VFEE_TheGreat.stages.0.description"><s>I am the recipient of the Great honor.</s><r>Я обладатель Большой чести.</r></e>
+  <e k="D" t="ThoughtDef" key="VFEE_TheGreat.stages.0.label"><s>Great honor</s><r>Большая честь</r></e>
+  <e k="D" t="ThoughtDef" key="VFEE_TitleBallroomRequirementsNotMet.stages.0.description"><s>I am {TITLE_indefinite} and I should have these items in my ballroom:
+
+{0}</s><r>Мне {TITLE_indefinite}, и в моем бальном зале должны быть следующие предметы:
+
+{0}</r></e>
+  <e k="D" t="ThoughtDef" key="VFEE_TitleBallroomRequirementsNotMet.stages.0.label"><s>undignified ballroom</s><r>недостойный бальный зал</r></e>
+  <e k="D" t="ThoughtDef" key="VFEE_TitleGalleryRequirementsNotMet.stages.0.description"><s>I am {TITLE_indefinite} and I should have these items in my gallery:
+
+{0}</s><r>Мне {TITLE_indefinite}, и в моей галерее должны быть эти предметы:
+
+{0}</r></e>
+  <e k="D" t="ThoughtDef" key="VFEE_TitleGalleryRequirementsNotMet.stages.0.label"><s>undignified gallery</s><r>недостойная галерея</r></e>
+  <e k="D" t="ThoughtDef" key="VFEE_TitleNoBallroom.stages.0.description"><s>What is a royal without a ballroom?</s><r>Какая королевская семья без бального зала?</r></e>
+  <e k="D" t="ThoughtDef" key="VFEE_TitleNoBallroom.stages.0.label"><s>no ballroom</s><r>нет бального зала</r></e>
+  <e k="D" t="ThoughtDef" key="VFEE_TitleNoGallery.stages.0.description"><s>What is a royal without a royal gallery?</s><r>Что такое королевская семья без королевской галереи?</r></e>
+  <e k="D" t="ThoughtDef" key="VFEE_TitleNoGallery.stages.0.label"><s>no gallery</s><r>нет галереи</r></e>
+  <e k="D" t="TitheTypeDef" key="VFEE_Farming.description"><s>This settlement produces survival meals for their overlord.</s><r>Это поселение производит еду для выживания для своего повелителя.</r></e>
+  <e k="D" t="TitheTypeDef" key="VFEE_Farming.label"><s>farming</s><r>сельское хозяйство</r></e>
+  <e k="D" t="TitheTypeDef" key="VFEE_Gold.description"><s>This settlement pays gold to their overlord.</s><r>Это поселение платит золото своему повелителю.</r></e>
+  <e k="D" t="TitheTypeDef" key="VFEE_Gold.label"><s>gold tax</s><r>налог на золото</r></e>
+  <e k="D" t="TitheTypeDef" key="VFEE_Honor.description"><s>This settlement provides honor to their overlord.</s><r>Это поселение оказывает честь своему повелителю.</r></e>
+  <e k="D" t="TitheTypeDef" key="VFEE_Honor.label"><s>honor tax</s><r>налог на честь</r></e>
+  <e k="D" t="TitheTypeDef" key="VFEE_Silver.description"><s>This settlement pays silver to their overlord.</s><r>Это поселение платит серебро своему повелителю.</r></e>
+  <e k="D" t="TitheTypeDef" key="VFEE_Silver.label"><s>silver tax</s><r>налог на серебро</r></e>
+  <e k="D" t="TitheTypeDef" key="VFEE_Slavery.description"><s>This settlement captures slaves for their overlord.</s><r>Это поселение захватывает рабов для своего повелителя.</r></e>
+  <e k="D" t="TitheTypeDef" key="VFEE_Slavery.label"><s>slavery</s><r>рабство</r></e>
+  <e k="D" t="TitheTypeDef" key="VFEE_Steel.description"><s>This settlement mines steel for their overlord.</s><r>Это поселение добывает сталь для своего повелителя.</r></e>
+  <e k="D" t="TitheTypeDef" key="VFEE_Steel.label"><s>steel mining</s><r>добыча стали</r></e>
+  <e k="D" t="TitheTypeDef" key="VFEE_Wood.description"><s>This settlement chops wood for their overlord.</s><r>Это поселение рубит дрова для своего повелителя.</r></e>
+  <e k="D" t="TitheTypeDef" key="VFEE_Wood.label"><s>wood cutting</s><r>резка дерева</r></e>
+  <e k="D" t="ToolCapacityDef" key="VFEE_CutToxblade.label"><s>cut</s><r>резать</r></e>
+  <e k="D" t="ToolCapacityDef" key="VFEE_StabToxblade.label"><s>stab</s><r>нанести удар</r></e>
+  <e k="D" t="TransportShipDef" key="VFEE_Ship_ArmoredShuttle.label"><s>armored shuttle</s><r>бронированный шаттл</r></e>
+  <e k="K" key="VFEE"><s>VFE - Empire</s><r>ВФЕ - Империя</r></e>
+  <e k="K" key="VFEE.ArtExhibit.Begin"><s>Host art exhibit</s><r>Провести художественную выставку</r></e>
+  <e k="K" key="VFEE.ArtExhibit.Cancel.Confirm"><s>There will be no opportunity to restart this ritual. Your guests will go home unhappy and the quest will be failed.</s><r>Возможности возобновить этот ритуал не будет. Ваши гости уйдут домой недовольными, и квест будет провален.</r></e>
+  <e k="K" key="VFEE.ArtExhibit.Cancel.Desc"><s>Cancel the art exhibit, sending everyone home and failing the quest.</s><r>Отмените художественную выставку, отправив всех домой и провалив квест.</r></e>
+  <e k="K" key="VFEE.ArtExhibit.Cancel.Label"><s>Cancel exhibit</s><r>Отменить выставку</r></e>
+  <e k="K" key="VFEE.ArtExhibit.ChooseParticipants"><s>Participants</s><r>Участники</r></e>
+  <e k="K" key="VFEE.ArtExhibit.Description"><s>An art expedition to only be attended by those with a royal title, to view your galley and gossip with eachother.</s><r>Художественная экспедиция, в которой смогут принять участие только те, кто имеет королевский титул, чтобы осмотреть вашу галеру и посплетничать друг с другом.</r></e>
+  <e k="K" key="VFEE.ArtExhibit.Label"><s>art exhibit</s><r>художественная выставка</r></e>
+  <e k="K" key="VFEE.ArtExhibit.Leave.Desc"><s>This pawn will leave the exhibit and will not be able to rejoin the festivities later.</s><r>Эта пешка покинет выставку и не сможет позже присоединиться к празднику.</r></e>
+  <e k="K" key="VFEE.ArtExhibit.Leave.Disabled"><s>The host cannot leave the exhibit.</s><r>Организатор не может покинуть выставку.</r></e>
+  <e k="K" key="VFEE.ArtExhibit.Leave.label"><s>Leave exhibit</s><r>Покинуть выставку</r></e>
+  <e k="K" key="VFEE.ArtExhibit.Waiting"><s>Your guests are waiting for you to start the art exhibit. They won't wait long, however.</s><r>Ваши гости ждут, когда вы начнете художественную выставку. Однако они не заставят себя долго ждать.</r></e>
+  <e k="K" key="VFEE.AssassinationSuccess"><s>Deserters are leaving as they have eliminated their target.</s><r>Дезертиры уходят, поскольку устранили свою цель.</r></e>
+  <e k="K" key="VFEE.BallroomRequirements"><s>Ballroom requirements</s><r>Требования к бальному залу</r></e>
+  <e k="K" key="VFEE.BallroomRequirements.DanceFloorToSmall"><s>a ballroom with an open dance floor of at least {0} tiles in front of an instrument</s><r>бальный зал с открытой танцполом размером не менее {0} плиток перед инструментом</r></e>
+  <e k="K" key="VFEE.BallroomRequirements.Unmet"><s>a ballroom that meets these requirements:
+
+{0}</s><r>бальный зал, отвечающий этим требованиям:
+
+{0}</r></e>
+  <e k="K" key="VFEE.ChangeCharacter"><s>Change character</s><r>Изменить персонажа</r></e>
+  <e k="K" key="VFEE.CourtRequirements"><s>Noble court requirements</s><r>Требования дворянского суда</r></e>
+  <e k="K" key="VFEE.Created"><s>{0} {1} created every day.</s><r>{0} {1} создается каждый день.</r></e>
+  <e k="K" key="VFEE.CreatedSpecial"><s>{0} {1} created every {2} days.</s><r>{0} {1} создается каждые {2} дня.</r></e>
+  <e k="K" key="VFEE.CurrentHonor"><s>Honor: {0}</s><r>Честь: {0}</r></e>
+  <e k="K" key="VFEE.CurrentTitle"><s>Current title: {0}</s><r>Текущий заголовок: {0}</r></e>
+  <e k="K" key="VFEE.DefuseBomb"><s>Defuse bomb</s><r>Обезвредить бомбу</r></e>
+  <e k="K" key="VFEE.Deliver"><s>Deliver</s><r>Доставлять</r></e>
+  <e k="K" key="VFEE.Deliver.DaysSpecific"><s>Every {0} days</s><r>Каждые {0} дней</r></e>
+  <e k="K" key="VFEE.Deliver.EveryQuadrum"><s>Every 15 days</s><r>Каждые 15 дней</r></e>
+  <e k="K" key="VFEE.Deliver.EveryWeek"><s>Every 7 days</s><r>Каждые 7 дней</r></e>
+  <e k="K" key="VFEE.Deliver.EveryYear"><s>Once a year</s><r>Раз в год</r></e>
+  <e k="K" key="VFEE.Deliver.Never"><s>Never (pause)</s><r>Никогда (пауза)</r></e>
+  <e k="K" key="VFEE.DeserterChance"><s>Terrorism Chance Multiplier</s><r>Множитель шанса терроризма</r></e>
+  <e k="K" key="VFEE.DevMode"><s>Developer mode</s><r>Режим разработчика</r></e>
+  <e k="K" key="VFEE.Discard"><s>Discard</s><r>Отказаться</r></e>
+  <e k="K" key="VFEE.ForcedFaction.Deserters.CannotDisable"><s>{FACTION} cannot be disabled as it's required by Vanilla Factions Expanded - Deserters.</s><r>{FACTION} нельзя отключить, поскольку этого требует Vanilla Factions Expanded — Deserters.</r></e>
+  <e k="K" key="VFEE.ForcedFaction.Empire.CannotDisable"><s>{FACTION} cannot be disabled as it's required by Vanilla Factions Expanded - Empire.</s><r>{FACTION} нельзя отключить, поскольку этого требует Vanilla Factions Expanded — Empire.</r></e>
+  <e k="K" key="VFEE.ForcedFaction.Empire.FactionDiscoveryMessage"><s>{FACTION} must be added to the game as it's required by Vanilla Factions Expanded - Empire.</s><r>{FACTION} необходимо добавить в игру, как того требует Vanilla Factions Expanded — Empire.</r></e>
+  <e k="K" key="VFEE.GalleryRequirements"><s>Gallery requirements</s><r>Требования к галерее</r></e>
+  <e k="K" key="VFEE.GalleryRequirements.Unmet"><s>a gallery that meets these requirements:
+
+{0}</s><r>галерея, отвечающая этим требованиям:
+
+{0}</r></e>
+  <e k="K" key="VFEE.GotDrug"><s>{0} has sent you a celebration package of aperitif!</s><r>{0} отправил вам праздничный пакет аперитива!</r></e>
+  <e k="K" key="VFEE.GrandBall.Begin"><s>Host grand ball</s><r>Принимающий большой бал</r></e>
+  <e k="K" key="VFEE.GrandBall.Cancel.Confirm"><s>There will be no opportunity to restart this ritual. Your guests will go home unhappy and the quest will be failed.</s><r>Возможности возобновить этот ритуал не будет. Ваши гости уйдут домой недовольными, и квест будет провален.</r></e>
+  <e k="K" key="VFEE.GrandBall.Cancel.Desc"><s>Cancel the grand ball, sending everyone home and failing the quest.</s><r>Отмените грандиозный бал, отправив всех домой и провалив квест.</r></e>
+  <e k="K" key="VFEE.GrandBall.Cancel.Label"><s>Cancel grand ball</s><r>Отменить большой бал</r></e>
+  <e k="K" key="VFEE.GrandBall.ChooseParticipants"><s>Participants</s><r>Участники</r></e>
+  <e k="K" key="VFEE.GrandBall.Description"><s>An exclusive ball to only be attended by those with a royal title, and a few who can play instruments</s><r>Эксклюзивный бал, на котором смогут присутствовать только те, кто имеет королевский титул, и те, кто умеет играть на инструментах.</r></e>
+  <e k="K" key="VFEE.GrandBall.Label"><s>grand ball</s><r>большой бал</r></e>
+  <e k="K" key="VFEE.GrandBall.Leave.Desc"><s>This pawn will leave the grand ball and will not be able to rejoin the festivities later.</s><r>Эта пешка покинет большой бал и не сможет позже присоединиться к празднику.</r></e>
+  <e k="K" key="VFEE.GrandBall.Leave.label"><s>Leave grand ball</s><r>Покинуть большой бал</r></e>
+  <e k="K" key="VFEE.GrandBall.Waiting"><s>Your guests are waiting for you to start the grand ball. They won't wait long, however.</s><r>Ваши гости ждут, когда вы начнете грандиозный бал. Однако они не заставят себя долго ждать.</r></e>
+  <e k="K" key="VFEE.Honor.Bestow"><s>Bestow Honor</s><r>Даровать честь</r></e>
+  <e k="K" key="VFEE.Honor.Bestow.Desc"><s>Bestow pending honors for this noble. Will give the following honors:
+{0}</s><r>Одарите этого аристократа ожидаемыми почестями. Вручит следующие награды:
+{0}</r></e>
+  <e k="K" key="VFEE.Honor.Bestow.Success"><s>{0} has been bestowed with their pending honors. They have gained:
+{0}</s><r>{0} были удостоены ожидаемых наград. Они получили:
+{0}</r></e>
+  <e k="K" key="VFEE.Honor.BestowPlural"><s>Bestow Honors</s><r>Вручить почести</r></e>
+  <e k="K" key="VFEE.Honor.NoHonors"><s>Must have pending honors to bestow.</s><r>Должно быть, есть ожидающие награды для вручения.</r></e>
+  <e k="K" key="VFEE.Honor.Pending"><s>This must be bestowed in a ceremony before it will become active.</s><r>Прежде чем он станет активным, его необходимо вручить на церемонии.</r></e>
+  <e k="K" key="VFEE.HonorGainedTitle"><s>1 Honor gained by {0} due to {1}</s><r>1 Честь получена {0} благодаря {1}</r></e>
+  <e k="K" key="VFEE.Honors"><s>Honors</s><r>Почести</r></e>
+  <e k="K" key="VFEE.Honors.Active"><s>These honors are active on your noble. Drag them to the right to remove them from this character.</s><r>Эти почести действительны для вашего дворянина. Перетащите их вправо, чтобы удалить их из этого персонажа.</r></e>
+  <e k="K" key="VFEE.Honors.Available"><s>These honors are available to be equipped on your nobles. Drag them to the left to activate them on the chosen noble.</s><r>Эти награды доступны для экипировки вашей знати. Перетащите их влево, чтобы активировать на выбранном дворянине.</r></e>
+  <e k="K" key="VFEE.Honors.RemoveAll"><s>Remove all honors</s><r>Удалить все почести</r></e>
+  <e k="K" key="VFEE.Honors.Reward"><s>you will gain the honor {0} to assign to a colonist</s><r>вы получите честь {0} назначить колониста</r></e>
+  <e k="K" key="VFEE.HonorsOf"><s>Honors of {0}, {1}</s><r>Награды {0}, {1}</r></e>
+  <e k="K" key="VFEE.InStockpile"><s>{0} in stockpile: {1}</s><r>{0} на складе: {1}</r></e>
+  <e k="K" key="VFEE.Invite"><s>Invite as visitor</s><r>Пригласить в качестве посетителя</r></e>
+  <e k="K" key="VFEE.InviteAs"><s>Invite as {0} (Cost: {1} honor)</s><r>Пригласить как {0} (Стоимость: {1} чести)</r></e>
+  <e k="K" key="VFEE.MustBeLordOf"><s>Must be lord of {0}</s><r>Должно быть, лорд {0}</r></e>
+  <e k="K" key="VFEE.MustHaveParent"><s>Must have a parent</s><r>Должен быть родитель</r></e>
+  <e k="K" key="VFEE.MustWield"><s>Must wield {0}</s><r>Необходимо владеть {0}</r></e>
+  <e k="K" key="VFEE.NoVassalize"><s>Can't vassalize: Too far away</s><r>Невозможно вассализировать: слишком далеко</r></e>
+  <e k="K" key="VFEE.NoblesPerTitle"><s>Nobles per title: {0}</s><r>Дворянство за титул: {0}</r></e>
+  <e k="K" key="VFEE.NoblesPerTitleDesc"><s>Responsible for the number of nobles in the hierarchy. By default, one noble for each title (16), not counting the very first one. The fewer nobles, the higher the performance, but the more boring the empire.
+
+Does not affect the already generated hierarchy.</s><r>Отвечает за количество дворян в иерархии. По умолчанию на каждый титул (16) по одному дворянину, не считая самого первого. Чем меньше дворян, тем выше показатели, но тем скучнее империя.
+
+Не влияет на уже созданную иерархию.</r></e>
+  <e k="K" key="VFEE.OR"><s>OR</s><r>ИЛИ</r></e>
+  <e k="K" key="VFEE.OfThe"><s>{0} of the {1}</s><r>{0} из {1}</r></e>
+  <e k="K" key="VFEE.Parade.Begin"><s>Host parade</s><r>Хозяин парада</r></e>
+  <e k="K" key="VFEE.Parade.CalledOffIn"><s>Called off in {0}</s><r>Отменено через {0}</r></e>
+  <e k="K" key="VFEE.Parade.CalledOffOn"><s>Unless the nobles can land first, the parade is called off on {0}.</s><r>Если дворяне не смогут приземлиться первыми, парад будет отменен {0}.</r></e>
+  <e k="K" key="VFEE.Parade.Cancel.Confirm"><s>There will be no opportunity to restart this ritual. Your guests will go home unhappy and the quest will be failed.</s><r>Возможности возобновить этот ритуал не будет. Ваши гости уйдут домой недовольными, и квест будет провален.</r></e>
+  <e k="K" key="VFEE.Parade.Cancel.Desc"><s>Cancel the parade, sending everyone home and failing the quest.</s><r>Отмените парад, отправив всех домой и провалив квест.</r></e>
+  <e k="K" key="VFEE.Parade.Cancel.Label"><s>Cancel parade</s><r>Отменить парад</r></e>
+  <e k="K" key="VFEE.Parade.ChooseParticipants"><s>Participants</s><r>Участники</r></e>
+  <e k="K" key="VFEE.Parade.Description"><s>A traditional ascension parade to send off the stellarch!</s><r>Традиционный парад вознесения в честь проводов звездарха!</r></e>
+  <e k="K" key="VFEE.Parade.EndGame.Ending"><s>The Imperial shuttle has carried {STELLARCH_nameDef} and everyone who ascended with {STELLARCH_objective} off this rimworld. From now on, {STELLARCH_pronoun} serves at the right hand of Emperor {EMPEROR_nameFull}.
+
+The colony remains, and its story goes on.</s><r>Имперский шаттл унес {STELLARCH_nameDef} и всех, кто поднялся с {STELLARCH_objective}, с этого краевого мира. Отныне {STELLARCH_pronoun} служит правой рукой Императора {EMPEROR_nameFull}.
+
+Колония остаётся, и её история продолжается.</r></e>
+  <e k="K" key="VFEE.Parade.EndGame.Intro"><s>{STELLARCH_nameDef} has ascended!</s><r>{STELLARCH_nameDef} вознесся!</r></e>
+  <e k="K" key="VFEE.Parade.InvalidGuard"><s>The stellarch does not trust {0} enough.</s><r>Звездарх недостаточно доверяет {0}.</r></e>
+  <e k="K" key="VFEE.Parade.Label"><s>parade</s><r>парад</r></e>
+  <e k="K" key="VFEE.Parade.LandingAreaUnmet"><s>a landing pad for the guests' shuttle, marked out by four powered ship landing beacons</s><r>посадочная площадка для шаттла гостей, отмеченная четырьмя посадочными маяками с электроприводом</r></e>
+  <e k="K" key="VFEE.Parade.Leave.Desc"><s>This pawn will leave the parade and will not be able to rejoin the festivities later.</s><r>Эта пешка покинет парад и не сможет позже присоединиться к празднику.</r></e>
+  <e k="K" key="VFEE.Parade.Leave.Disabled"><s>The stellarch cannot leave the parade.</s><r>Звездарх не может покинуть парад.</r></e>
+  <e k="K" key="VFEE.Parade.Leave.label"><s>Leave parade</s><r>Покинуть парад</r></e>
+  <e k="K" key="VFEE.Parade.Murder"><s>Driven by jealousy, {0} is attempting to murder the stellarch!</s><r>Движимый ревностью, {0} пытается убить звездарха!</r></e>
+  <e k="K" key="VFEE.Parade.NoblesArriveIn"><s>Nobles arrive in {0}</s><r>Дворяне прибывают в {0}</r></e>
+  <e k="K" key="VFEE.Parade.NoblesArriveInDesc"><s>The shuttle carrying the nobility for the ascension parade lands in {0}. Until then, the colony has time to prepare. The nobles will not land while the stellarch is away, the colony is under threat or a landing pad the colony has built cannot be used, and if that lasts a day, the parade is called off.</s><r>Шаттл, перевозящий знать на парад вознесения, приземляется в {0}. А пока у колонии есть время подготовиться. Дворяне не высадятся, пока звездарх отсутствует, колония находится под угрозой или посадочная площадка, построенная колонией, не может быть использована, и если это продлится один день, парад отменяется.</r></e>
+  <e k="K" key="VFEE.Parade.NoblesArriveOn"><s>The nobles land on {0}.</s><r>Дворяне приземляются на {0}.</r></e>
+  <e k="K" key="VFEE.Parade.NoblesWaiting"><s>Parade nobles waiting</s><r>Парад дворян ждет</r></e>
+  <e k="K" key="VFEE.Parade.NoblesWaitingAwayDesc"><s>The nobles for the ascension parade will not land until {STELLARCH_nameDef} is at the colony to receive them. If {STELLARCH_pronoun} is not back within {TIME}, the parade is called off.</s><r>Дворяне, участвующие в параде вознесения, не высадятся до тех пор, пока {STELLARCH_nameDef} не прибудет в колонию, чтобы принять их. Если {STELLARCH_pronoun} не возвращается в пределах {TIME}, парад отменяется.</r></e>
+  <e k="K" key="VFEE.Parade.NoblesWaitingPadDesc"><s>The nobles for the ascension parade will not land until their shuttle can use your landing pad:
+
+{PROBLEMS}
+
+Fix the pad, or deconstruct its beacons to have the nobles land near the colony instead. If the pad still cannot be used within {TIME}, the parade is called off.</s><r>Дворяне, участвующие в параде вознесения, не приземлятся, пока их шаттл не сможет использовать вашу посадочную площадку:
+
+{PROBLEMS}
+
+Отремонтируйте площадку или разберите ее маяки, чтобы дворяне вместо этого приземлились рядом с колонией. Если в течение {TIME} по-прежнему невозможно использовать площадку, парад отменяется.</r></e>
+  <e k="K" key="VFEE.Parade.NoblesWaitingPadToo"><s>Their shuttle cannot use your landing pad either:
+
+{PROBLEMS}</s><r>Их шаттл также не может использовать вашу посадочную площадку:
+
+{PROBLEMS}</r></e>
+  <e k="K" key="VFEE.Parade.NoblesWaitingThreatDesc"><s>The nobles for the ascension parade will not land while the colony is under threat. If the danger has not passed within {TIME}, the parade is called off.</s><r>Дворяне, участвующие в параде вознесения, не высадятся, пока колония находится под угрозой. Если опасность не миновала в течение {TIME}, парад отменяется.</r></e>
+  <e k="K" key="VFEE.Parade.PadBeaconUnpowered"><s>a beacon is unpowered</s><r>маяк обесточен</r></e>
+  <e k="K" key="VFEE.Parade.PadBeaconsUnpowered"><s>{0} beacons are unpowered</s><r>{0} маяки обесточены</r></e>
+  <e k="K" key="VFEE.Parade.PadBlockedBy"><s>blocked by {0}</s><r>заблокирован {0}</r></e>
+  <e k="K" key="VFEE.Parade.PadCell"><s>cell</s><r>клетка</r></e>
+  <e k="K" key="VFEE.Parade.PadCellsOf"><s>{0} of {1}</s><r>{0} из {1}</r></e>
+  <e k="K" key="VFEE.Parade.PadGround"><s>{0} cannot support a landing</s><r>{0} не может поддерживать приземление</r></e>
+  <e k="K" key="VFEE.Parade.PadRoofed"><s>a roof covers {0}</s><r>крыша покрывает {0}</r></e>
+  <e k="K" key="VFEE.Parade.PadUnformed"><s>your ship landing beacons do not mark out a landing pad, which takes four of them at the corners of a rectangle with sides of {0} to {1} cells</s><r>посадочные маяки вашего корабля не отмечают посадочную площадку, которая занимает четыре из них в углах прямоугольника со сторонами от {0} до {1} ячеек.</r></e>
+  <e k="K" key="VFEE.Parade.PadUnusable"><s>it cannot be used</s><r>его нельзя использовать</r></e>
+  <e k="K" key="VFEE.Parade.PadUnusableMessage"><s>The nobles' shuttle will not land until your landing pad can be used: {0}.</s><r>Шаттл дворян не приземлится, пока вы не сможете использовать вашу посадочную площадку: {0}.</r></e>
+  <e k="K" key="VFEE.Parade.Reward.Description"><s>Your stellarch will achieve ascension with passage off-world to progress further in the grand hierarchy, serving directly with the Emperor</s><r>Ваш звездарх достигнет вознесения, покинув мир и продвигаясь дальше в великой иерархии, служа непосредственно Императору.</r></e>
+  <e k="K" key="VFEE.Parade.Reward.Label"><s>Stellarch Ascension</s><r>Вознесение звездарха</r></e>
+  <e k="K" key="VFEE.Parade.Waiting"><s>Your guests are waiting for you to start the parade. They won't wait long, however.</s><r>Ваши гости ждут, когда вы начнете парад. Однако они не заставят себя долго ждать.</r></e>
+  <e k="K" key="VFEE.PermitPoints"><s>Unused permit points: {0}</s><r>Неиспользованные очки разрешения: {0}</r></e>
+  <e k="K" key="VFEE.ReleaseAllVassals"><s>Release all vassals</s><r>Освободить всех вассалов</r></e>
+  <e k="K" key="VFEE.ReleaseAllVassals.Confirm"><s>Releasing vassals will causes resources stored to be lost. Are you sure?</s><r>Освобождение вассалов приведет к потере хранящихся ресурсов. Вы уверены?</r></e>
+  <e k="K" key="VFEE.RoomRequirementInstrumentSpace"><s>dance space for all instruments</s><r>танцевальное пространство для всех инструментов</r></e>
+  <e k="K" key="VFEE.RoyaltyDead"><s>Deserters are leaving as they have eliminated every imperial title holder in the area.</s><r>Дезертиры уходят, поскольку они уничтожили всех обладателей императорского титула в этом районе.</r></e>
+  <e k="K" key="VFEE.SeeAlso"><s>See also:</s><r>См. также:</r></e>
+  <e k="K" key="VFEE.Skip.Colonist.Next"><s>Skip to next Colonist</s><r>Перейти к следующему колонисту</r></e>
+  <e k="K" key="VFEE.Skip.Colonist.Previous"><s>Skip to previous Colonist</s><r>Перейти к предыдущему колонисту</r></e>
+  <e k="K" key="VFEE.Skip.Title.Next"><s>Skip to next title</s><r>Перейти к следующему заголовку</r></e>
+  <e k="K" key="VFEE.Skip.Title.Previous"><s>Skip to previous title</s><r>Перейти к предыдущему заголовку</r></e>
+  <e k="K" key="VFEE.StartBestower.DisabledExistingRitual"><s>Unable to start while an existing ritual is ongoing.</s><r>Невозможно начать, пока продолжается существующий ритуал.</r></e>
+  <e k="K" key="VFEE.StartBestower.HigherTitle"><s>Unable to start due to target already possesing a higher title</s><r>Невозможно начать, поскольку цель уже имеет более высокий титул.</r></e>
+  <e k="K" key="VFEE.StartBestower.NoTarget"><s>Unable to start due to no valid throne rooms for the bestowing of the title.</s><r>Невозможно начать из-за отсутствия действительных тронных залов для присвоения титула.</r></e>
+  <e k="K" key="VFEE.StartBestower.NoThrone"><s>Unable to start due to {0} not having a dignified throne.</s><r>Невозможно начать из-за отсутствия у {0} достойного трона.</r></e>
+  <e k="K" key="VFEE.Successful"><s>Successful</s><r>Успешный</r></e>
+  <e k="K" key="VFEE.TitheArrived"><s>The tithe of {0} has arrived from {1}.</s><r>Десятина в размере {0} поступила из {1}.</r></e>
+  <e k="K" key="VFEE.TitheDesc"><s>Tithes will be delivered via drop-pods after designated time has elapsed.</s><r>Десятина будет доставлена ​​через капсулы по истечении назначенного времени.</r></e>
+  <e k="K" key="VFEE.VassalDesc"><s>You can only vassalize bases that are less than 100 tiles away from you or your vassals
+Vassalize more towns to increase the reach and unlock more potential vassal subjects</s><r>Вы можете вассализировать только те базы, которые находятся на расстоянии менее 100 клеток от вас или ваших вассалов.
+Свящайте больше городов, чтобы расширить охват и разблокировать больше потенциальных вассалов.</r></e>
+  <e k="K" key="VFEE.VassalPoints"><s>Unused vassalage points: {0}</s><r>Неиспользованные очки вассальной зависимости: {0}</r></e>
+  <e k="K" key="VFEE.Vassalize"><s>Vassalize</s><r>Вассализировать</r></e>
+  <e k="K" key="VFEE.VassalsOf"><s>Vassals of {0}, {1}</s><r>Вассалы {0}, {1}</r></e>
+  <e k="K" key="VFEEmpire.BestowTitle.Finished"><s>Bestowing ceremony organized by {ORGANIZER} ended.</s><r>Церемония награждения, организованная {ORGANIZER}, завершилась.</r></e>
+  <e k="K" key="VFEEmpire.RitualRoleTitled.NotColonist"><s>Must be colonist.</s><r>Должно быть, колонист.</r></e>
+  <e k="K" key="VFEEmpire.RitualRoleTitled.NotTitled"><s>Must be title holder.</s><r>Должен быть обладателем титула.</r></e>
+  <e k="K" key="VFEEmpire.RoyalAddress.Finished"><s>Royal address organized by {ORGANIZER} ended.</s><r>Королевское обращение, организованное {ORGANIZER}, закончилось.</r></e>
+  <e k="K" key="VFEEmpire.RoyalAddress.OrganizerGained"><s>{PAWN} gained {COUNT} honor.</s><r>{PAWN} получил {COUNT} чести.</r></e>
+  <e k="K" key="VFEEmpire.RoyalAddress.OrganizerLost"><s>{PAWN} lost {COUNT} honor.</s><r>{PAWN} потерял {COUNT} честь.</r></e>
+  <e k="K" key="VFEEmpire.RoyalAddress.TitledGained"><s>{PAWN} can now receive the title of {TITLE} from {FACTION}.</s><r>{PAWN} теперь может получить титул {TITLE} от {FACTION}.</r></e>
+</AutoTranslateCache>
