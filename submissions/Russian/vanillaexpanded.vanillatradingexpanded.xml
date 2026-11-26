@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="vanillaexpanded.vanillatradingexpanded" name="Vanilla Trading Expanded" language="Russian" version="1">
+  <e k="D" t="HistoryEventDef" key="VTE_Indebted.label"><s>indebted to their bank</s><r>задолжал своему банку</r></e>
+  <e k="D" t="IncidentDef" key="VTE_CaravanArriveForItems.label"><s>caravan arrived for items</s><r>караван прибыл за вещами</r></e>
+  <e k="D" t="IncidentDef" key="VTE_Collectors.label"><s>collectors</s><r>коллекционеры</r></e>
+  <e k="D" t="JobDef" key="VTE_ContactBank.reportString"><s>using trading terminal to contact bank.</s><r>использование торгового терминала для связи с банком.</r></e>
+  <e k="D" t="JobDef" key="VTE_OpenContracts.reportString"><s>using trading terminal to open contracts.</s><r>использование торгового терминала для открытия контрактов.</r></e>
+  <e k="D" t="JobDef" key="VTE_OpenStockMarket.reportString"><s>using trading terminal to open stock market.</s><r>использование торгового терминала для открытия фондового рынка.</r></e>
+  <e k="D" t="JobDef" key="VTE_ViewNews.reportString"><s>using trading terminal to view news.</s><r>использование торгового терминала для просмотра новостей.</r></e>
+  <e k="D" t="JobDef" key="VTE_ViewPrices.reportString"><s>using trading terminal to view prices.</s><r>использование торгового терминала для просмотра цен.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_BadEarnings.rulePack.rulesStrings.0"><s>root-&gt;[COMPANY] has posted a bad earnings report. Price is expected to move down.</s><r>root-&gt;[COMPANY] опубликовал плохой отчет о доходах. Ожидается, что цена пойдет вниз.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_BelowAverageEarnings.rulePack.rulesStrings.0"><s>root-&gt;[COMPANY] has posted a below average earnings report. Price is expected to drop slightly.</s><r>root-&gt;[COMPANY] опубликовал отчет о доходах ниже среднего. Ожидается незначительное снижение цен.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_CompanyDecline.rulePack.rulesStrings.0"><s>root-&gt;[COMPANY] has reported budget cuts. Share price is bound to decrease in the long term.</s><r>root-&gt;[COMPANY] сообщила о сокращении бюджета. Цена акций неизбежно снизится в долгосрочной перспективе.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_CompanyGrowth.rulePack.rulesStrings.0"><s>root-&gt;[COMPANY] has reported steady growth. Share price is bound to increase in the long term.</s><r>root-&gt;[COMPANY] сообщил об устойчивом росте. Цена акций неизбежно вырастет в долгосрочной перспективе.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_DecentEarnings.rulePack.rulesStrings.0"><s>root-&gt;[COMPANY] has posted a decent earnings report. Price is expected to move slightly up.</s><r>root-&gt;[COMPANY] опубликовал приличный отчет о доходах. Ожидается, что цена немного поднимется.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_ExcellentEarnings.rulePack.rulesStrings.0"><s>root-&gt;[COMPANY] has posted an excellent earnings report. Price is expected to jump up.</s><r>root-&gt;[COMPANY] опубликовал отличный отчет о доходах. Ожидается, что цена подскочит вверх.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_FactionInfestationLoot.rulePack.rulesStrings.0"><s>root-&gt;[FACTION_name] has finally dealt with their infestations and decided to sell their excess jelly.</s><r>root-&gt;[FACTION_name] наконец-то справились с заражением и решили продать излишки желе.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_FactionInfestationLoot.rulePack.rulesStrings.1"><s>root-&gt;[FACTION_name] looted the insectoid caves and will sell the jelly on the market.</s><r>root-&gt;[FACTION_name] разграбил пещеры инсектоидов и продал желе на рынке.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_FactionInfestationLoot.rulePack.rulesStrings.2"><s>root-&gt;[FACTION_name] got a hold of a large supply of insect jelly and plans to sell it.</s><r>root-&gt;[FACTION_name] завладел большим запасом желе от насекомых и планирует его продать.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_FactionSiegePlan.rulePack.rulesStrings.0"><s>root-&gt;[FACTION_name] plans for a number of siege operations and began stockpiling ammo and weapons.</s><r>root-&gt;[FACTION_name] планирует провести ряд осадных операций и начал накапливать боеприпасы и оружие.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_FactionSiegePlan.rulePack.rulesStrings.1"><s>root-&gt;[FACTION_name] is preparing for war and will stockpile ammo and weapons.</s><r>root-&gt;[FACTION_name] готовится к войне и будет запасаться боеприпасами и оружием.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_FactionSiegePlan.rulePack.rulesStrings.2"><s>root-&gt;[FACTION_name] buys excess amounts of weapons and mortar shells.</s><r>root-&gt;[FACTION_name] покупает избыточное количество оружия и минометных снарядов.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_FearOfBankruptcy.rulePack.rulesStrings.0"><s>root-&gt;[COMPANY] is rumored to announce bankruptcy. Share price can either crash or skyrocket.</s><r>root-&gt;Ходят слухи, что [COMPANY] объявляет о банкротстве. Цена акций может либо рухнуть, либо взлететь до небес.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_GoodEarnings.rulePack.rulesStrings.0"><s>root-&gt;[COMPANY] has posted a good earnings report. Price is expected to move slightly up.</s><r>root-&gt;[COMPANY] опубликовал хороший отчет о доходах. Ожидается, что цена немного поднимется.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_GreatEarnings.rulePack.rulesStrings.0"><s>root-&gt;[COMPANY] has posted a great earnings report. Price is expected to move up.</s><r>root-&gt;[COMPANY] опубликовал отличный отчет о доходах. Ожидается, что цена пойдет вверх.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_MediocreEarnings.rulePack.rulesStrings.0"><s>root-&gt;[COMPANY] has posted a mediocre earnings report. Price is expected to move sideways.</s><r>root-&gt;[COMPANY] опубликовал посредственный отчет о доходах. Ожидается, что цена будет двигаться в боковом направлении.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_NewShipPurchased.rulePack.rulesStrings.0"><s>root-&gt;[COMPANY] has purchased a brand new low orbit trading ship. Share price should go up in the long term.</s><r>root-&gt;[COMPANY] приобрел новый низкоорбитальный торговый корабль. Цена акций должна вырасти в долгосрочной перспективе.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_OutstandingEarnings.rulePack.rulesStrings.0"><s>root-&gt;[COMPANY] has posted an outstanding earnings report. Price is expected to skyrocket.</s><r>root-&gt;[COMPANY] опубликовал отчет о выдающихся доходах. Ожидается, что цена взлетит до небес.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementAlphabeavers.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] is struggling with a pack of alphabeavers, and purchases a large quantity of wood.</s><r>root-&gt;[SETTLEMENT_label] борется со стаей альфабобров и покупает большое количество древесины.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementAlphabeavers.rulePack.rulesStrings.1"><s>root-&gt;[SETTLEMENT_label] ran out of wood and will buy it in bulk.</s><r>root-&gt;У [SETTLEMENT_label] закончилась древесина, и я куплю ее оптом.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementAlphabeavers.rulePack.rulesStrings.2"><s>root-&gt;[SETTLEMENT_label] requires copious amounts of wood for their project.</s><r>root-&gt;[SETTLEMENT_label] для своего проекта требуется большое количество древесины.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementAlphabeaversDealtWith.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] has gotten rid of the beaver pack that troubled them, and now sell excess wood.</s><r>root-&gt;[SETTLEMENT_label] избавились от беспокоившей их бобровой стаи и теперь продают лишнюю древесину.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementAlphabeaversDealtWith.rulePack.rulesStrings.1"><s>root-&gt;[SETTLEMENT_label] sells their excess wood.</s><r>root-&gt;[SETTLEMENT_label] продает излишки древесины.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementAlphabeaversDealtWith.rulePack.rulesStrings.2"><s>root-&gt;[SETTLEMENT_label] cut down a large chunk of the forest with the intent to sell wood.</s><r>root-&gt;[SETTLEMENT_label] вырубить большой кусок леса с целью продать древесину.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementApparelPurchase.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] acquires a large amount of apparel.</s><r>root-&gt;[SETTLEMENT_label] приобретает большое количество одежды.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementApparelSellOff.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] sells a large amount of apparel.</s><r>root-&gt;[SETTLEMENT_label] продает большое количество одежды.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementArmorPurchase.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] acquires a large amount of armor.</s><r>root-&gt;[SETTLEMENT_label] приобретает большое количество брони.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementArmorSellOff.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] sells a large amount of armor.</s><r>root-&gt;[SETTLEMENT_label] продает большое количество брони.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementBigHarvest.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] has had an amazing harvest and sells off their food supplies.</s><r>root-&gt;[SETTLEMENT_label] собрали потрясающий урожай и распродали запасы еды.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementBigHarvest.rulePack.rulesStrings.1"><s>root-&gt;[SETTLEMENT_label] plans to sell large quantities of food.</s><r>root-&gt;[SETTLEMENT_label] планирует продать большое количество еды.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementBigHarvest.rulePack.rulesStrings.2"><s>root-&gt;[SETTLEMENT_label] has had a fortunate harvest and will sell the excess food.</s><r>root-&gt;[SETTLEMENT_label] собрал удачный урожай и продаст излишки еды.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementBlight.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] has suffered a terrible blight and buys off large quantities of food.</s><r>root-&gt;[SETTLEMENT_label] пострадал от страшной болезни и откупает большое количество еды.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementBlight.rulePack.rulesStrings.1"><s>root-&gt;[SETTLEMENT_label] has had their food stockpile burn down.</s><r>root-&gt;У [SETTLEMENT_label] сгорели запасы еды.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementBlight.rulePack.rulesStrings.2"><s>root-&gt;[SETTLEMENT_label] plans to purchase large quantity of food.</s><r>root-&gt;[SETTLEMENT_label] планирует закупить большое количество еды.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementBodyPartsPurchase.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] acquires a large amount of body parts.</s><r>root-&gt;[SETTLEMENT_label] приобретает большое количество частей тела.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementBodyPartsSellOff.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] sells a large amount of body parts.</s><r>root-&gt;[SETTLEMENT_label] продает большое количество частей тела.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementColdSnap.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] has been struck with coldsnap, ruining their food supply.</s><r>root-&gt;[SETTLEMENT_label] поразило похолодание, разрушившее их запасы продовольствия.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementColdSnap.rulePack.rulesStrings.1"><s>root-&gt;[SETTLEMENT_label] has lost their food supply.</s><r>root-&gt;[SETTLEMENT_label] потеряли запасы еды.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementColdSnap.rulePack.rulesStrings.2"><s>root-&gt;[SETTLEMENT_label] buys food in bulk.</s><r>root-&gt;[SETTLEMENT_label] закупает еду оптом.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementCombatEmergency.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] buys off large amounts of weapons due to an emergency.</s><r>root-&gt;[SETTLEMENT_label] скупает большое количество оружия в связи с чрезвычайной ситуацией.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementCombatEmergency.rulePack.rulesStrings.1"><s>root-&gt;[SETTLEMENT_label] prepares to go to war and will purchase weapons.</s><r>root-&gt;[SETTLEMENT_label] готовится к войне и закупит оружие.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementCombatEmergency.rulePack.rulesStrings.2"><s>root-&gt;[SETTLEMENT_label] requires a large amount of weapons quite urgently. Prices are expected to go up.</s><r>root-&gt;[SETTLEMENT_label] весьма срочно требуется большое количество оружия. Ожидается повышение цен.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementDrugsPurchase.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] acquires a large amount of drugs.</s><r>root-&gt;[SETTLEMENT_label] приобретает большое количество наркотиков.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementDrugsSellOff.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] sells a large amount of drugs.</s><r>root-&gt;[SETTLEMENT_label] продает большое количество наркотиков.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementGotPlague.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] is struggling with a plague. Medicine purchasing frenzy began.</s><r>root-&gt;[SETTLEMENT_label] борется с чумой. Начался ажиотаж по закупкам лекарств.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementGotPlague.rulePack.rulesStrings.1"><s>root-&gt;[SETTLEMENT_label] is recovering after a raid. Medicine will be purchased in bulk.</s><r>root-&gt;[SETTLEMENT_label] восстанавливается после рейда. Лекарства будут закупаться оптом.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementGotPlague.rulePack.rulesStrings.2"><s>root-&gt;[SETTLEMENT_label] is in dire need of medicine, which means the price will go up.</s><r>root-&gt;[SETTLEMENT_label] остро нуждается в лекарствах, а это значит, что цены вырастут.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementGotRaided.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] was recently raided. Rebuilding is underway.</s><r>root-&gt;[SETTLEMENT_label] недавно подвергся нападению. Восстановление продолжается.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementGotRaided.rulePack.rulesStrings.1"><s>root-&gt;[SETTLEMENT_label] suffered a natural disaster and will purchase building materials.</s><r>root-&gt;[SETTLEMENT_label] пострадало от стихийного бедствия и будет закупать строительные материалы.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementGotRaided.rulePack.rulesStrings.2"><s>root-&gt;[SETTLEMENT_label] plans to expand, but will require building materials to do so.</s><r>root-&gt;[SETTLEMENT_label] планирует расширяться, но для этого потребуются строительные материалы.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementHeatWave.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] has suffered a terrible heat wave and decided to sell off their food before it rots.</s><r>root-&gt;[SETTLEMENT_label] пострадали от ужасной жары и решили продать свою еду, пока она не сгнила.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementHeatWave.rulePack.rulesStrings.1"><s>root-&gt;[SETTLEMENT_label] has had a freezer malfunction and sells food before it rots.</s><r>root-&gt;У [SETTLEMENT_label] возникла неисправность морозильной камеры, и он продает еду до того, как она сгниет.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementHeatWave.rulePack.rulesStrings.2"><s>root-&gt;[SETTLEMENT_label] sells their food stockpile.</s><r>root-&gt;[SETTLEMENT_label] продает свои запасы еды.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementLeatherPurchase.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] acquires a large amount of leathers.</s><r>root-&gt;[SETTLEMENT_label] приобретает большое количество шкур.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementLeatherPurchase.rulePack.rulesStrings.1"><s>root-&gt;[SETTLEMENT_label] buys leathers in bulk.</s><r>root-&gt;[SETTLEMENT_label] закупает кожу оптом.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementLeatherPurchase.rulePack.rulesStrings.2"><s>root-&gt;[SETTLEMENT_label] acquires copious amounts of various leathers.</s><r>root-&gt;[SETTLEMENT_label] приобретает большое количество различных видов кожи.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementLeatherSellOff.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] sells a large amount of leathers.</s><r>root-&gt;[SETTLEMENT_label] продает большое количество кожи.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementManhunterMeat.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] sells off large quantities of meat they obtained from a manhunter pack.</s><r>root-&gt;[SETTLEMENT_label] продает большое количество мяса, полученного из стаи охотников.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementManhunterMeat.rulePack.rulesStrings.1"><s>root-&gt;[SETTLEMENT_label] had a very bountiful hunting trip and will sell excess meat.</s><r>root-&gt;[SETTLEMENT_label] удачно провел охоту и продаст излишки мяса.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementManhunterMeat.rulePack.rulesStrings.2"><s>root-&gt;[SETTLEMENT_label] no longer requires their meat and will soon flood the market with it.</s><r>root-&gt;[SETTLEMENT_label] больше не нуждается в их мясе и скоро наводнит им рынок.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementMechanoidShipsSalvaged.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] has dealt with Defoliator ships and now sell excess plasteel.</s><r>root-&gt;[SETTLEMENT_label] разобрался с кораблями Дефолиаторов и теперь продает излишки пластали.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementMechanoidShipsSalvaged.rulePack.rulesStrings.1"><s>root-&gt;[SETTLEMENT_label] has mined a large amount of plasteel and plans to sell it.</s><r>root-&gt;[SETTLEMENT_label] добыл большое количество пластали и планирует ее продать.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementMechanoidShipsSalvaged.rulePack.rulesStrings.2"><s>root-&gt;[SETTLEMENT_label] sells unused plasteel.</s><r>root-&gt;[SETTLEMENT_label] продаёт неиспользованную пласталь.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementPlagueDealtWith.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] dealt with their plague and now sells excess medicine.</s><r>root-&gt;[SETTLEMENT_label] справились со своей чумой и теперь продают излишки лекарств.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementPlagueDealtWith.rulePack.rulesStrings.1"><s>root-&gt;[SETTLEMENT_label] sells off excess medicine.</s><r>root-&gt;[SETTLEMENT_label] распродает излишки лекарств.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementPlagueDealtWith.rulePack.rulesStrings.2"><s>root-&gt;[SETTLEMENT_label] no longer has any need for their medicine stockpiles.</s><r>root-&gt;[SETTLEMENT_label] больше не нуждается в своих запасах лекарств.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementPowerArmorUpgrade.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] has decided to upgrade their defenses with a new set of powered armors. They buy Plasteel in bulk.</s><r>root-&gt;[SETTLEMENT_label] решили улучшить свою защиту с помощью нового набора силовой брони. Они покупают Plasteel оптом.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementPowerArmorUpgrade.rulePack.rulesStrings.1"><s>root-&gt;[SETTLEMENT_label] requires plasteel and plans to buy a lot of it in bulk.</s><r>root-&gt;[SETTLEMENT_label] требуется пласталь, и он планирует закупить ее оптом.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementPowerArmorUpgrade.rulePack.rulesStrings.2"><s>root-&gt;[SETTLEMENT_label] improves their defenses and plans to obtain plasteel, steel and components.</s><r>root-&gt;[SETTLEMENT_label] улучшает их защиту и планирует получить пласталь, сталь и компоненты.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementPrisonBreak.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] had a prison break. They promise to step up the security.</s><r>root-&gt;[SETTLEMENT_label] совершил побег из тюрьмы. Обещают усилить охрану.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementPrisonBreak.rulePack.rulesStrings.1"><s>root-&gt;[SETTLEMENT_label] is stockpiling weapons.</s><r>root-&gt;[SETTLEMENT_label] накапливает оружие.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementPrisonBreak.rulePack.rulesStrings.2"><s>root-&gt;[SETTLEMENT_label] plans to equip everyone with new weapons.</s><r>root-&gt;[SETTLEMENT_label] планирует вооружить всех новым оружием.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementPrisonBreakDealtWith.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] had a prison break which failed dramatically. They decided to sell excess weaponry and armor.</s><r>root-&gt;[SETTLEMENT_label] совершил побег из тюрьмы, который потерпел неудачу. Они решили продать излишки вооружения и доспехов.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementPrisonBreakDealtWith.rulePack.rulesStrings.1"><s>root-&gt;[SETTLEMENT_label] decided not to go to war. They will sell their weapons and armors.</s><r>root-&gt;[SETTLEMENT_label] решил не воевать. Они продадут свое оружие и доспехи.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementPrisonBreakDealtWith.rulePack.rulesStrings.2"><s>root-&gt;[SETTLEMENT_label] will sell their old weapons and armors.</s><r>root-&gt;[SETTLEMENT_label] продадут свое старое оружие и доспехи.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementRecentRaidSellOff.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] was recently raided. Looters sell off whatever they stole.</s><r>root-&gt;[SETTLEMENT_label] недавно подвергся нападению. Мародеры распродают все, что украли.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementRecentRaidSellOff.rulePack.rulesStrings.1"><s>root-&gt;[SETTLEMENT_label] scavenged a lot of useful junk and will soon flood the market with it.</s><r>root-&gt;[SETTLEMENT_label] собрал много полезного мусора и скоро наводнит им рынок.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementRecentRaidSellOff.rulePack.rulesStrings.2"><s>root-&gt;[SETTLEMENT_label] plans to empty the stockpiles.</s><r>root-&gt;[SETTLEMENT_label] планирует опустошить запасы.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementStoneBlocksPurchase.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] acquires a large amount of stone blocks.</s><r>root-&gt;[SETTLEMENT_label] приобретает большое количество каменных блоков.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementStoneBlocksSellOff.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] sells a large amount of stone blocks.</s><r>root-&gt;[SETTLEMENT_label] продает большое количество каменных блоков.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementTechprintsPurchase.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] acquires a large amount of techprints.</s><r>root-&gt;[SETTLEMENT_label] приобретает большое количество техотпечатков.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementTechprintsSellOff.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] sells a large amount of techprints.</s><r>root-&gt;[SETTLEMENT_label] продает большое количество техпринтов.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementTextilePurchase.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] acquires a large amount of textiles.</s><r>root-&gt;[SETTLEMENT_label] приобретает большое количество текстиля.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementTextilePurchase.rulePack.rulesStrings.1"><s>root-&gt;[SETTLEMENT_label] plans to supply their tailors with copious amounts of textiles.</s><r>root-&gt;[SETTLEMENT_label] планирует снабжать своих портных большим количеством текстиля.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementTextilePurchase.rulePack.rulesStrings.2"><s>root-&gt;[SETTLEMENT_label] buys textiles in bulk.</s><r>root-&gt;[SETTLEMENT_label] закупает текстиль оптом.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementTextileSellOff.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] sells a large amount of textiles.</s><r>root-&gt;[SETTLEMENT_label] продает большое количество текстиля.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementWeaponsMeleePurchase.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] acquires a large amount of melee weapons.</s><r>root-&gt;[SETTLEMENT_label] приобретает большое количество холодного оружия.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementWeaponsMeleeSellOff.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] sells a large amount of melee weapons.</s><r>root-&gt;[SETTLEMENT_label] продает большое количество холодного оружия.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementWeaponsRangedPurchase.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] acquires a large amount of ranged weapons.</s><r>root-&gt;[SETTLEMENT_label] приобретает большое количество оружия дальнего боя.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementWeaponsRangedSellOff.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] sells a large amount of ranged weapons.</s><r>root-&gt;[SETTLEMENT_label] продает большое количество оружия дальнего боя.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementWoolsPurchase.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] acquires a large amount of wools.</s><r>root-&gt;[SETTLEMENT_label] приобретает большое количество шерсти.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementWoolsPurchase.rulePack.rulesStrings.1"><s>root-&gt;[SETTLEMENT_label] buys large amounts of various wools.</s><r>root-&gt;[SETTLEMENT_label] покупает большое количество различной шерсти.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementWoolsSellOff.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] sells a large amount of wools.</s><r>root-&gt;[SETTLEMENT_label] продает большое количество шерсти.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementZzzt.rulePack.rulesStrings.0"><s>root-&gt;[SETTLEMENT_label] suffered a Zzzt, and now plans to purchase a large amount of building materials to rebuild.</s><r>root-&gt;[SETTLEMENT_label] пострадал от Зззта и теперь планирует закупить большое количество строительных материалов для восстановления.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementZzzt.rulePack.rulesStrings.1"><s>root-&gt;[SETTLEMENT_label] suffered a gas explosion and will need building materials to rebuild.</s><r>root-&gt;[SETTLEMENT_label] пострадал от взрыва газа, и для восстановления ему потребуются строительные материалы.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SettlementZzzt.rulePack.rulesStrings.2"><s>root-&gt;[SETTLEMENT_label] plans an expansion and will acquire building resources. Prices are bound to go up.</s><r>root-&gt;[SETTLEMENT_label] планирует расширение и приобретет строительные ресурсы. Цены обязательно вырастут.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_ShipCrashed.rulePack.rulesStrings.0"><s>root-&gt;[COMPANY] has reported that one of their ships has crashed. Share price should go down.</s><r>root-&gt;[COMPANY] сообщил, что один из их кораблей потерпел крушение. Цена акций должна упасть.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_SubParEarnings.rulePack.rulesStrings.0"><s>root-&gt;[COMPANY] has posted a subpar earnings report. Price is expected to drop slightly.</s><r>root-&gt;[COMPANY] опубликовал отчет о доходах ниже среднего. Ожидается незначительное снижение цен.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_TerribleEarnings.rulePack.rulesStrings.0"><s>root-&gt;[COMPANY] has posted a terrible earnings report. Price is expected to crash.</s><r>root-&gt;[COMPANY] опубликовал ужасный отчет о доходах. Ожидается падение цен.</r></e>
+  <e k="D" t="RulePackDef" key="VTE_VeryBadEarnings.rulePack.rulesStrings.0"><s>root-&gt;[COMPANY] has posted a very bad earnings report. Price is expected to fall sharply.</s><r>root-&gt;[COMPANY] опубликовал очень плохой отчет о доходах. Ожидается резкое падение цен.</r></e>
+  <e k="D" t="ThingDef" key="VTE_TradingTerminal.description"><s>A terminal that allows contact with the bank, access to stock market, price overview and contracts.</s><r>Терминал, позволяющий связаться с банком, получить доступ к фондовому рынку, обзору цен и контрактам.</r></e>
+  <e k="D" t="ThingDef" key="VTE_TradingTerminal.label"><s>trading terminal</s><r>торговый терминал</r></e>
+  <e k="K" key="VTE.All"><s>All</s><r>Все</r></e>
+  <e k="K" key="VTE.AmountOfRandomItemsToFluctuate"><s>Amount of random item price fluctuations:</s><r>Количество случайных колебаний цен на товар:</r></e>
+  <e k="K" key="VTE.AmountToDeposit"><s>Amount to deposit</s><r>Сумма депозита</r></e>
+  <e k="K" key="VTE.AmountToDepositWithdraw"><s>Amount to deposit / withdraw</s><r>Сумма для ввода/вывода</r></e>
+  <e k="K" key="VTE.AmountToWithdraw"><s>Amount to withdraw</s><r>Сумма для вывода</r></e>
+  <e k="K" key="VTE.AreYouSureYouWantToDeposit"><s>Are you sure that you want to deposit {0} silver?</s><r>Вы уверены, что хотите внести {0} серебра?</r></e>
+  <e k="K" key="VTE.AreYouSureYouWantToWithdraw"><s>Are you sure that you want to withdraw {0} silver?</s><r>Вы уверены, что хотите вывести {0} серебра?</r></e>
+  <e k="K" key="VTE.BankBalance"><s>Bank balance: {0}</s><r>Баланс банка: {0}</r></e>
+  <e k="K" key="VTE.BankDepositsToGain"><s>Select bank deposits to put money from shares</s><r>Выберите банковские депозиты для размещения денег из акций</r></e>
+  <e k="K" key="VTE.BankDepositsToPutContractReward"><s>Select bank deposits to put reward for completed contract</s><r>Выберите банковские депозиты, чтобы положить вознаграждение за выполненный контракт</r></e>
+  <e k="K" key="VTE.BankDepositsToPutContractRewardPartially"><s>The caravan could not obtain all of the items. They will pay {0} of the contract reward - total of {1} silver. Select bank deposits to put reward.</s><r>Караван не смог получить все предметы. Они выплатят {0} вознаграждения по контракту — всего {1} серебра. Выберите банковские депозиты, чтобы положить вознаграждение.</r></e>
+  <e k="K" key="VTE.BankDepositsToSpend"><s>Select bank deposits to pay for shares</s><r>Выберите банковские вклады для оплаты акций</r></e>
+  <e k="K" key="VTE.BankFees"><s>Bank fees: {0}%</s><r>Банковские комиссии: {0}%</r></e>
+  <e k="K" key="VTE.BankFeesBasedOn"><s>Based on {0} goodwill with {FACTION_name}</s><r>На основе гудвила {0} с {FACTION_name}</r></e>
+  <e k="K" key="VTE.BaseBankName"><s>Bank of {FACTION_name}</s><r>Банк {FACTION_name}</r></e>
+  <e k="K" key="VTE.Breakdown"><s>Breakdown</s><r>Авария</r></e>
+  <e k="K" key="VTE.BreakdownBankDesc"><s>Performing transactions will incur a charge based on current Bank fee</s><r>За выполнение транзакций будет взиматься комиссия в размере текущей комиссии Банка.</r></e>
+  <e k="K" key="VTE.BreakdownStockMarketDesc"><s>Buying shares of Trading ships can be risky. Follow the news closely to know how the company you're invested in is doing.</s><r>Покупка акций торговых кораблей может быть рискованной. Внимательно следите за новостями, чтобы знать, как поживает компания, в которую вы инвестировали.</r></e>
+  <e k="K" key="VTE.CancelContract"><s>Cancel contract</s><r>Отменить контракт</r></e>
+  <e k="K" key="VTE.CaravanContractWillReturnMessage"><s>Due to the fact that your location has become dangerous, the caravan that arrived for the contracted items left the map. They will return for the items when it is safe.
+	
+Make sure you have enough items when they arrive. The payment will clear once the caravan leaves your area.</s><r>В связи с тем, что ваше местоположение стало опасным, караван, прибывший за контрактными предметами, покинул карту. Они вернутся за предметами, когда это будет безопасно.
+ 
+Убедитесь, что у вас достаточно предметов, когда они прибудут. Платеж будет зачислен, как только караван покинет ваш район.</r></e>
+  <e k="K" key="VTE.CaravanDidNotCollectAllItems"><s>The caravan didn’t find the promised goods and leaves the area. You will not receive any payment.</s><r>Караван не нашел обещанного товара и покинул территорию. Вы не получите никакой оплаты.</r></e>
+  <e k="K" key="VTE.CaravanLessContractItemPickup"><s>Caravan-less contract item pickup</s><r>Получение контрактного предмета без каравана</r></e>
+  <e k="K" key="VTE.Change"><s>Change</s><r>Изменять</r></e>
+  <e k="K" key="VTE.ChartHistory"><s>Chart history of {0}</s><r>История графика {0}</r></e>
+  <e k="K" key="VTE.CollectorsLabel"><s>Collectors</s><r>Коллекционеры</r></e>
+  <e k="K" key="VTE.CollectorsText"><s>A group of mercenaries have arrived nearby.
+
+They have been hired by {FACTION_name} to encourage you to pay off your debt.</s><r>Неподалеку прибыла группа наемников.
+
+Они были наняты {FACTION_name}, чтобы побудить вас выплатить долг.</r></e>
+  <e k="K" key="VTE.CollectorsTextPartTwo"><s>Pay off your debt using a trading terminal to stop them from coming back.</s><r>Погасите свой долг с помощью торгового терминала, чтобы они не вернулись.</r></e>
+  <e k="K" key="VTE.Company"><s>Company</s><r>Компания</r></e>
+  <e k="K" key="VTE.CompleteContract"><s>Complete contract</s><r>Полный контракт</r></e>
+  <e k="K" key="VTE.Contact"><s>Contact {0}</s><r>Контакт {0}</r></e>
+  <e k="K" key="VTE.Contract"><s>Contract</s><r>Договор</r></e>
+  <e k="K" key="VTE.ContractBlackListCollectibles"><s>Blacklist collectibles (Eggs, Meat, Leather and Wool) for contracts</s><r>Предметы коллекционирования в черный список (яйца, мясо, кожа и шерсть) для контрактов</r></e>
+  <e k="K" key="VTE.ContractCompletedMessage"><s>The caravan will arrive to pick up the contracted items in 3 days. Make sure you have enough items when they arrive. The payment will clear once the caravan leaves your area.</s><r>Караван прибудет за предметами по контракту через 3 дня. Убедитесь, что у вас достаточно вещей, когда они прибудут. Платеж будет зачислен, как только караван покинет ваш район.</r></e>
+  <e k="K" key="VTE.ContractFullfilled"><s>Contract fulfilled</s><r>Контракт выполнен</r></e>
+  <e k="K" key="VTE.ContractFullfilledDesc"><s>A contract has been fulfilled by an interested party. The funds required have been transferred to them.
+Cargo pods are arriving containing:
+</s><r>Договор исполнен заинтересованным лицом. Им были переданы необходимые средства.
+Прибывают грузовые капсулы, содержащие:
+</r></e>
+  <e k="K" key="VTE.Contracts"><s>Contracts</s><r>Контракты</r></e>
+  <e k="K" key="VTE.ContractsExplanation"><s>Completing contracts will have the funds transferred to your bank account(s) and the items removed from your inventory. You need to be quick, as higher mark-up indicates that the contract is popular, and it might be snatched before the items are ready.</s><r>По завершении контрактов средства будут переведены на ваш банковский счет, а предметы будут удалены из вашего инвентаря. Вам нужно действовать быстро, так как более высокая наценка указывает на то, что контракт популярен, и его могут украсть до того, как товары будут готовы.</r></e>
+  <e k="K" key="VTE.CrashMessage"><s>Price of {0} is crashing.</s><r>Цена {0} падает.</r></e>
+  <e k="K" key="VTE.CurrentValue"><s>Current Value</s><r>Текущее значение</r></e>
+  <e k="K" key="VTE.Date"><s>Date</s><r>Дата</r></e>
+  <e k="K" key="VTE.DepositOrWithdraw"><s>Deposit or Withdraw</s><r>Депозит или вывод средств</r></e>
+  <e k="K" key="VTE.DepositOrWithdrawDesc"><s>Positive numbers deposit. Negative numbers withdraw.</s><r>Положительные числа депозита. Отрицательные числа удаляются.</r></e>
+  <e k="K" key="VTE.EmpireBankName"><s>Imperial Bank</s><r>Империал Банк</r></e>
+  <e k="K" key="VTE.FeesToPay"><s>Fees to pay</s><r>Плата за оплату</r></e>
+  <e k="K" key="VTE.FilterBy"><s>Filter by</s><r>Фильтровать по</r></e>
+  <e k="K" key="VTE.FollowNews"><s>Follow news</s><r>Следите за новостями</r></e>
+  <e k="K" key="VTE.IndebtedMessage"><s>Relations with {FACTION_name} became hostile due to being indebted to their bank.</s><r>Отношения с {FACTION_name} стали враждебными из-за задолженности перед их банком.</r></e>
+  <e k="K" key="VTE.InsufficientAsset"><s>Insufficient asset</s><r>Недостаточный актив</r></e>
+  <e k="K" key="VTE.Item"><s>Item</s><r>Элемент</r></e>
+  <e k="K" key="VTE.LetterTraderCaravanArrival"><s>A caravan from {0} is approaching. They are collecting contracted items.</s><r>Караван из {0} приближается. Они собирают контрактные товары.</r></e>
+  <e k="K" key="VTE.LoanExplanation"><s>Loans can only be paid back using bank balance. Make sure to have enough money in your bank when the loan time runs out, or repay it in full beforehand. Failing to have enough silver in your bank account and stocks can result in losing goodwill of the bank faction, as well as incur other consequences until the debt is settled.</s><r>Кредиты можно погасить только с помощью банковского баланса. Убедитесь, что в вашем банке достаточно денег, когда срок кредита истечет, или погасите его полностью заранее. Отсутствие достаточного количества серебра на вашем банковском счете и в акциях может привести к потере репутации банковской фракции, а также повлечь за собой другие последствия, пока долг не будет погашен.</r></e>
+  <e k="K" key="VTE.LoanOptionsUnlockText"><s>Unlocks after putting your money on the deposit</s><r>Разблокируется после внесения денег на депозит</r></e>
+  <e k="K" key="VTE.Loans"><s>Loans</s><r>Кредиты</r></e>
+  <e k="K" key="VTE.LocalFunds"><s>Local funds: {0}</s><r>Местные средства: {0}</r></e>
+  <e k="K" key="VTE.LocalNews"><s>Local News</s><r>Местные новости</r></e>
+  <e k="K" key="VTE.LongTermLoan"><s>Long Term loan</s><r>Долгосрочный кредит</r></e>
+  <e k="K" key="VTE.MarketValue"><s>Market Value</s><r>Рыночная стоимость</r></e>
+  <e k="K" key="VTE.Markup"><s>Mark-up</s><r>Наценка</r></e>
+  <e k="K" key="VTE.MaxCompanyCount"><s>Maximum trade company count:</s><r>Максимальное количество торговых компаний:</r></e>
+  <e k="K" key="VTE.MaxNPCContractCount"><s>Maximum available NPC contract count:</s><r>Максимальное количество доступных контрактов NPC:</r></e>
+  <e k="K" key="VTE.MaximumMarketValueOfItemsInContracts"><s>Maximum value of NPC contracts in silver:</s><r>Максимальная стоимость контрактов NPC в серебре:</r></e>
+  <e k="K" key="VTE.MaximumMarketValueOfItemsPerPlayerWealth"><s>Maximum value of NPC contracts in percentage of wealth:</s><r>Максимальная стоимость контрактов NPC в процентах от богатства:</r></e>
+  <e k="K" key="VTE.MaximumMarkupOnNPCContract"><s>Maximum mark-up on NPC contract:</s><r>Максимальная наценка по контракту NPC:</r></e>
+  <e k="K" key="VTE.MaximumOfMarketValue"><s>Positive change: {0}</s><r>Положительное изменение: {0}</r></e>
+  <e k="K" key="VTE.MaximumPriceFluctuations"><s>Price fluctuation limitations</s><r>Ограничения на колебания цен</r></e>
+  <e k="K" key="VTE.MinimumOfMarketValue"><s>Negative change: {0}</s><r>Отрицательное изменение: {0}</r></e>
+  <e k="K" key="VTE.MoneyInBanks"><s>Money in banks: {0}</s><r>Деньги в банках: {0}</r></e>
+  <e k="K" key="VTE.MoneyInBanksAfter"><s>Money in banks after</s><r>Деньги в банках после</r></e>
+  <e k="K" key="VTE.MoneyToSpend"><s>Money to spend: {0}</s><r>Деньги на расходы: {0}</r></e>
+  <e k="K" key="VTE.MoneyToTransfer"><s>Money to transfer: {0}</s><r>Деньги для перевода: {0}</r></e>
+  <e k="K" key="VTE.MortgageLoan"><s>Mortgage loan</s><r>Ипотечный кредит</r></e>
+  <e k="K" key="VTE.NPCContractFulfilmentChanceMultiplier"><s>NPC contract fulfilment chance multiplier:</s><r>Множитель шанса выполнения контракта NPC:</r></e>
+  <e k="K" key="VTE.Name"><s>Name</s><r>Имя</r></e>
+  <e k="K" key="VTE.News"><s>News</s><r>Новости</r></e>
+  <e k="K" key="VTE.NewsPriceImpactMultiplier"><s>Multiplier of how much news affect the market:</s><r>Множитель того, насколько новости влияют на рынок:</r></e>
+  <e k="K" key="VTE.NewsSpawnOption"><s>How often news will appear:</s><r>Как часто будут выходить новости:</r></e>
+  <e k="K" key="VTE.OnlyBearish"><s>Only bearish</s><r>Только медвежий</r></e>
+  <e k="K" key="VTE.OnlyBullish"><s>Only bullish</s><r>Только бычий</r></e>
+  <e k="K" key="VTE.OnlySpecificCategory"><s>Only specific category</s><r>Только определенная категория</r></e>
+  <e k="K" key="VTE.OnlyTradeShips"><s>Only trader ship</s><r>Единственный торговый корабль</r></e>
+  <e k="K" key="VTE.OpenContracts"><s>Open contracts</s><r>Открытые контракты</r></e>
+  <e k="K" key="VTE.OpenStockMarket"><s>Open stock market</s><r>Открытый фондовый рынок</r></e>
+  <e k="K" key="VTE.OutlanderCivilBankName"><s>Bank of {FACTION_name}</s><r>Банк {FACTION_name}</r></e>
+  <e k="K" key="VTE.PayMoneyForContract"><s>Contract on {0} is fulfilled. Pay money from bank deposits to retrieve the goods.</s><r>Контракт на {0} выполнен. Заплатите деньги с банковских депозитов, чтобы получить товар.</r></e>
+  <e k="K" key="VTE.PlayerContractFulfilmentChanceMultiplier"><s>Player contract fulfilment chance multiplier:</s><r>Множитель шанса выполнения контракта игрока:</r></e>
+  <e k="K" key="VTE.PlayerTransactionImpactMultiplierOption"><s>Player transaction impact multiplier on price fluctuation:</s><r>Множитель влияния транзакции игрока на колебание цен:</r></e>
+  <e k="K" key="VTE.PriceHistory"><s>Price history of {0}</s><r>История цен {0}</r></e>
+  <e k="K" key="VTE.Profit"><s>Profit</s><r>Выгода</r></e>
+  <e k="K" key="VTE.ProfitLoss"><s>Profit/Loss</s><r>Прибыль/убыток</r></e>
+  <e k="K" key="VTE.QuickCashLoan"><s>Quick Cash loan</s><r>Быстрый кредит наличными</r></e>
+  <e k="K" key="VTE.RecentChange"><s>Recent Change</s><r>Недавнее изменение</r></e>
+  <e k="K" key="VTE.Repay"><s>Repay</s><r>Погасить</r></e>
+  <e k="K" key="VTE.RepayDate"><s>By {0} ({1})</s><r>К {0} ({1})</r></e>
+  <e k="K" key="VTE.RepayDateDaysLeft"><s>By {0} ({1} left)</s><r>На {0} (осталось {1})</r></e>
+  <e k="K" key="VTE.RepayDateOverdue"><s>By {0} (overdue)</s><r>До {0} (просрочено)</r></e>
+  <e k="K" key="VTE.RepayFromBalance"><s>Repay from balance</s><r>Погашение с баланса</r></e>
+  <e k="K" key="VTE.ResetPriceChanges"><s>Reset price fluctuations</s><r>Сбросить колебания цен</r></e>
+  <e k="K" key="VTE.Reward"><s>Reward</s><r>Награда</r></e>
+  <e k="K" key="VTE.Search"><s>Search</s><r>Поиск</r></e>
+  <e k="K" key="VTE.Select"><s>Select</s><r>Выбирать</r></e>
+  <e k="K" key="VTE.SelectItem"><s>Select item</s><r>Выберите элемент</r></e>
+  <e k="K" key="VTE.SelectStuff"><s>Select stuff</s><r>Выбрать материал</r></e>
+  <e k="K" key="VTE.Shares"><s>Shares</s><r>Акции</r></e>
+  <e k="K" key="VTE.SharesHeld"><s>Shares held</s><r>Акции в собственности</r></e>
+  <e k="K" key="VTE.SharesTransactionHeader"><s>Positive numbers buy.
+Negative numbers sell.</s><r>Положительные числа покупают.
+Отрицательные числа продают.</r></e>
+  <e k="K" key="VTE.ShortTermLoan"><s>Short Term loan</s><r>Краткосрочный кредит</r></e>
+  <e k="K" key="VTE.SortBy"><s>Sort by</s><r>Сортировать по</r></e>
+  <e k="K" key="VTE.SqueezeMessage"><s>Price of {0} is squeezing.</s><r>Цена {0} сжимается.</r></e>
+  <e k="K" key="VTE.SubmitContract"><s>Submit contract</s><r>Отправить контракт</r></e>
+  <e k="K" key="VTE.TakeLoan"><s>Take loan</s><r>Взять кредит</r></e>
+  <e k="K" key="VTE.TimeUntilTheEnd"><s>Time until the end</s><r>Время до конца</r></e>
+  <e k="K" key="VTE.Total"><s>Total</s><r>Общий</r></e>
+  <e k="K" key="VTE.TransactionCost"><s>Transaction cost</s><r>Стоимость транзакции</r></e>
+  <e k="K" key="VTE.TransactionCostToPay"><s>Transaction cost to pay: {0}</s><r>Стоимость транзакции к оплате: {0}</r></e>
+  <e k="K" key="VTE.TransactionGain"><s>Transaction gain</s><r>Прибыль от транзакции</r></e>
+  <e k="K" key="VTE.TransactionGainToTransfer"><s>Transaction gain to transfer: {0}</s><r>Прибыль от транзакции для перевода: {0}</r></e>
+  <e k="K" key="VTE.Value"><s>Value</s><r>Ценить</r></e>
+  <e k="K" key="VTE.ViewMarketPrices"><s>View prices</s><r>Посмотреть цены</r></e>
+  <e k="K" key="VTE.ViewNews"><s>View news</s><r>Посмотреть новости</r></e>
+  <e k="K" key="VTE.YouCanTakeThisLoanOn"><s>You can only take this loan again on {0}.</s><r>Вы сможете снова взять этот кредит только {0}.</r></e>
+  <e k="K" key="VTE.YourContracts"><s>Your Contracts</s><r>Ваши контракты</r></e>
+  <e k="K" key="VTE.YourContractsExplanation"><s>You can submit your own contracts. Specify the amount of the item, the mark-up and the duration. Longer contracts with higher mark-up have a higher chance of being completed. Not having enough money in the bank accounts to cover the contract reward will automatically cancel the contract.</s><r>Вы можете представить свои собственные контракты. Укажите сумму товара, наценку и длительность. Более длительные контракты с более высокой наценкой имеют больше шансов на выполнение. Отсутствие достаточного количества денег на банковских счетах для покрытия вознаграждения по контракту приведет к автоматическому аннулированию контракта.</r></e>
+</AutoTranslateCache>
