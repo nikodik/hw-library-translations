@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="chaoticenrico.bettertrees" name="Better Trees" language="Russian" version="1">
+  <e k="D" t="KeyBindingDef" key="ToggleTransparentTrees.label"><s>toggle tree transparency</s><r>переключить прозрачность дерева</r></e>
+  <e k="D" t="TreeScaleTemplateDef" key="BT_DjeeshkaScales.label"><s>Djeeshka's tree scales</s><r>Древесные чешуйки Джишки</r></e>
+  <e k="D" t="TreeTextureTemplateDef" key="BT_DjeeshkaTextures.label"><s>Djeeshka's tree textures</s><r>Текстуры деревьев Джишки</r></e>
+  <e k="K" key="BT.CaveVariant"><s>{0} (cave variant)</s><r>{0} (пещерный вариант)</r></e>
+  <e k="K" key="BT.Delete"><s>Delete...</s><r>Удалить...</r></e>
+  <e k="K" key="BT.DeleteTemplateConfirm"><s>Delete the template &quot;{0}&quot;?</s><r>Удалить шаблон «{0}»?</r></e>
+  <e k="K" key="BT.EveryFrame"><s>Every frame (smoothest)</s><r>Каждый кадр (самый плавный)</r></e>
+  <e k="K" key="BT.EveryNFrames"><s>Every {0} frames (more performant)</s><r>Каждые {0} кадров (более производительно)</r></e>
+  <e k="K" key="BT.GhostAllTrees"><s>Ghost all trees on map</s><r>Призраки всех деревьев на карте</r></e>
+  <e k="K" key="BT.GhostAllTrees_Desc"><s>Makes all trees on the current map transparent, ignoring the radius.</s><r>Делает все деревья на текущей карте прозрачными, игнорируя радиус.</r></e>
+  <e k="K" key="BT.GlobalScale"><s>Global scale multiplier: {0}x</s><r>Множитель глобального масштаба: {0}x</r></e>
+  <e k="K" key="BT.GlobalScale_Desc"><s>Makes all trees bigger or smaller at once.</s><r>Делает все деревья больше или меньше одновременно.</r></e>
+  <e k="K" key="BT.Load"><s>Load...</s><r>Нагрузка...</r></e>
+  <e k="K" key="BT.LoadScaleTemplateConfirm"><s>Load scale template &quot;{0}&quot;?</s><r>Загрузить шаблон масштаба «{0}»?</r></e>
+  <e k="K" key="BT.LoadTextureTemplateConfirm"><s>Load texture template &quot;{0}&quot;?</s><r>Загрузить шаблон текстуры «{0}»?</r></e>
+  <e k="K" key="BT.ModdedTrees"><s>Modded trees</s><r>Модифицированные деревья</r></e>
+  <e k="K" key="BT.NoUserTemplates"><s>No user templates to delete.</s><r>Нет пользовательских шаблонов для удаления.</r></e>
+  <e k="K" key="BT.Opacity"><s>Opacity: {0}</s><r>Непрозрачность: {0}</r></e>
+  <e k="K" key="BT.Opacity_Desc"><s>How visible transparent trees are. Textures are regenerated when you close this window.</s><r>Как видны прозрачные деревья. Текстуры регенерируются, когда вы закрываете это окно.</r></e>
+  <e k="K" key="BT.Radius"><s>Radius: {0} tiles</s><r>Радиус: {0} плиток</r></e>
+  <e k="K" key="BT.Radius_Desc"><s>How large the see-through area around the cursor is.</s><r>Насколько велика прозрачная область вокруг курсора.</r></e>
+  <e k="K" key="BT.RenderOverPawns"><s>Render trees over colonists (improves immersion)</s><r>Рендеринг деревьев над колонистами (улучшает погружение)</r></e>
+  <e k="K" key="BT.RenderOverPawns_Desc"><s>Tree canopies draw on top of colonists, so they look like they walk behind the trees.</s><r>Кроны деревьев рисуются поверх колонистов, поэтому они выглядят так, будто идут за деревьями.</r></e>
+  <e k="K" key="BT.ReservedTemplateName"><s>&quot;{0}&quot; is a reserved template name. Please choose another.</s><r>«{0}» — зарезервированное имя шаблона. Пожалуйста, выберите другой.</r></e>
+  <e k="K" key="BT.ResetDefaults"><s>Reset to defaults</s><r>Сбросить настройки по умолчанию</r></e>
+  <e k="K" key="BT.Save"><s>Save...</s><r>Сохранять...</r></e>
+  <e k="K" key="BT.SaveScaleTemplate"><s>Save scale template</s><r>Сохранить шаблон масштаба</r></e>
+  <e k="K" key="BT.SaveTextureTemplate"><s>Save texture template</s><r>Сохранить шаблон текстуры</r></e>
+  <e k="K" key="BT.ScaleRange"><s>Scale range: {0}x - {1}x</s><r>Диапазон шкалы: {0}x - {1}x</r></e>
+  <e k="K" key="BT.ScaleTemplates"><s>Scale templates</s><r>Масштабировать шаблоны</r></e>
+  <e k="K" key="BT.SettingsTitle"><s>Better Trees</s><r>Лучшие деревья</r></e>
+  <e k="K" key="BT.TemplateNameEmpty"><s>Template name cannot be empty.</s><r>Имя шаблона не может быть пустым.</r></e>
+  <e k="K" key="BT.Template_All2x"><s>All 2x</s><r>Все 2x</r></e>
+  <e k="K" key="BT.Template_AllVanilla"><s>All vanilla</s><r>Все ваниль</r></e>
+  <e k="K" key="BT.Template_Vanilla"><s>Vanilla</s><r>Ваниль</r></e>
+  <e k="K" key="BT.TextureButton"><s>Texture: {0}</s><r>Текстура: {0}</r></e>
+  <e k="K" key="BT.TextureTemplates"><s>Texture templates</s><r>Шаблоны текстур</r></e>
+  <e k="K" key="BT.TransparencySettings"><s>Tree transparency settings</s><r>Настройки прозрачности дерева</r></e>
+  <e k="K" key="BT.TransparencyToggle_Tip"><s>Makes trees near your cursor transparent.
+
+Left-click or {0} to toggle.
+Right-click for transparency settings.</s><r>Делает деревья рядом с курсором прозрачными.
+
+Щелкните левой кнопкой мыши или {0}, чтобы переключиться.
+Щелкните правой кнопкой мыши для настройки прозрачности.</r></e>
+  <e k="K" key="BT.UpdateRate"><s>Update rate: {0}</s><r>Скорость обновления: {0}</r></e>
+  <e k="K" key="BT.UpdateRate_Desc"><s>How often to check for trees under the cursor. Higher numbers improve performance if moving the mouse over forests lags.</s><r>Как часто проверять наличие деревьев под курсором. Более высокие значения улучшают производительность, если перемещение мыши по лесу происходит с задержками.</r></e>
+  <e k="K" key="BT.UserTemplate"><s>User: {0}</s><r>Пользователь: {0}</r></e>
+  <e k="K" key="BT.VanillaTexture"><s>Vanilla</s><r>Ваниль</r></e>
+  <e k="K" key="BT.VanillaTrees"><s>Vanilla trees</s><r>Ванильные деревья</r></e>
+  <e k="K" key="BT.Variant_Animushroom"><s>Animushroom</s><r>Анимагриб</r></e>
+  <e k="K" key="BT.Variant_GauranlenMushroom"><s>Gauranlen mushroom</s><r>Гриб Гауранлен</r></e>
+  <e k="K" key="BT.Variant_PoluxShroom"><s>Polux shroom</s><r>Гриб Полукс</r></e>
+</AutoTranslateCache>
