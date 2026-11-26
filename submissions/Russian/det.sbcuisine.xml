@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="det.sbcuisine" name="Stoneborn - Cuisine" language="Russian" version="1">
+  <e k="D" t="HediffDef" key="SC_BitterstrugRush.description"><s>Bitterstrug's in the belly. It's quite energizing and puts a pep in the step.</s><r>Биттерструг в животе. Это очень заряжает энергией и придает бодрости шагу.</r></e>
+  <e k="D" t="HediffDef" key="SC_BitterstrugRush.label"><s>bitterstrug rush</s><r>горькое беспокойство</r></e>
+  <e k="D" t="HediffDef" key="SC_BitterstrugRush.labelNoun"><s>a bitterstrug rush</s><r>ожесточенный порыв</r></e>
+  <e k="D" t="LifeStageDef" key="SC_InsectAdult.label"><s>adult</s><r>взрослый</r></e>
+  <e k="D" t="LifeStageDef" key="SC_InsectJuvenile.label"><s>immature</s><r>незрелый</r></e>
+  <e k="D" t="LifeStageDef" key="SC_InsectLarva.label"><s>larva</s><r>личинка</r></e>
+  <e k="D" t="PawnKindDef" key="SC_Creamgrub.label"><s>creamgrub</s><r>сливочный глоток</r></e>
+  <e k="D" t="PawnKindDef" key="SC_Creamgrub.lifeStages.0.label"><s>creamgrub larva</s><r>личинки кремоличинок</r></e>
+  <e k="D" t="PawnKindDef" key="SC_Creamgrub.lifeStages.0.labelPlural"><s>creamgrub larvae</s><r>личинки кремоличинок</r></e>
+  <e k="D" t="PawnKindDef" key="SC_Molemutt.label"><s>molemutt</s><r>кротомутт</r></e>
+  <e k="D" t="PawnKindDef" key="SC_Molemutt.lifeStages.0.label"><s>molemutt rascal</s><r>мошенник-негодяй</r></e>
+  <e k="D" t="PawnKindDef" key="SC_Molemutt.lifeStages.0.labelPlural"><s>molemutt rascals</s><r>мошенники-негодяи</r></e>
+  <e k="D" t="PawnKindDef" key="SC_Moleroach.label"><s>moleroach</s><r>кротовый таракан</r></e>
+  <e k="D" t="PawnKindDef" key="SC_Moleroach.labelFemale"><s>moleroach hen</s><r>курица-кротосяк</r></e>
+  <e k="D" t="PawnKindDef" key="SC_Moleroach.labelMale"><s>moleroach cock</s><r>петух крота</r></e>
+  <e k="D" t="PawnKindDef" key="SC_Moleroach.lifeStages.0.label"><s>moleroach nymph</s><r>нимфа кроротаня</r></e>
+  <e k="D" t="PawnKindDef" key="SC_Moleroach.lifeStages.0.labelPlural"><s>moleroach nymphs</s><r>нимфы кротоуха</r></e>
+  <e k="D" t="PawnKindDef" key="SC_MoleroachBlue.label"><s>moleroach</s><r>кротовый таракан</r></e>
+  <e k="D" t="PawnKindDef" key="SC_MoleroachBlue.labelFemale"><s>moleroach hen</s><r>курица-кротосяк</r></e>
+  <e k="D" t="PawnKindDef" key="SC_MoleroachBlue.labelMale"><s>moleroach cock</s><r>петух крота</r></e>
+  <e k="D" t="PawnKindDef" key="SC_MoleroachBlue.lifeStages.0.label"><s>moleroach nymph</s><r>нимфа кроротаня</r></e>
+  <e k="D" t="PawnKindDef" key="SC_MoleroachBlue.lifeStages.0.labelPlural"><s>moleroach nymphs</s><r>нимфы кротоуха</r></e>
+  <e k="D" t="PawnKindDef" key="SC_Rockbull.label"><s>rockbull</s><r>рокбулл</r></e>
+  <e k="D" t="PawnKindDef" key="SC_Rockbull.labelFemale"><s>rockbull cow</s><r>рокбулл корова</r></e>
+  <e k="D" t="PawnKindDef" key="SC_Rockbull.labelMale"><s>rockbull</s><r>рокбулл</r></e>
+  <e k="D" t="PawnKindDef" key="SC_Rockbull.lifeStages.0.label"><s>rockbull pebble</s><r>рокбулл галька</r></e>
+  <e k="D" t="PawnKindDef" key="SC_Rockbull.lifeStages.0.labelPlural"><s>rockbull pebbles</s><r>рокбулл галька</r></e>
+  <e k="D" t="PawnKindDef" key="SC_RockbullAlbino.label"><s>rockbull</s><r>рокбулл</r></e>
+  <e k="D" t="PawnKindDef" key="SC_RockbullAlbino.labelFemale"><s>rockbull cow</s><r>рокбулл корова</r></e>
+  <e k="D" t="PawnKindDef" key="SC_RockbullAlbino.labelMale"><s>rockbull</s><r>рокбулл</r></e>
+  <e k="D" t="PawnKindDef" key="SC_RockbullAlbino.lifeStages.0.label"><s>rockbull pebble</s><r>рокбулл галька</r></e>
+  <e k="D" t="PawnKindDef" key="SC_RockbullAlbino.lifeStages.0.labelPlural"><s>rockbull pebbles</s><r>рокбулл галька</r></e>
+  <e k="D" t="ProcessDef" key="SC_BellyToCrispyBelly.description"><s>Turns 12 megasloth belly into crispy megasloth belly (8)</s><r>Превращает брюхо 12-мегаленивца в хрустящее брюхо мегаленивца (8)</r></e>
+  <e k="D" t="ProcessDef" key="SC_BellyToCrispyBelly.label"><s>Roast crispy megasloth belly</s><r>Жареное хрустящее брюшко мегаленивца</r></e>
+  <e k="D" t="ProcessDef" key="SC_BellyToCrispyBelly.labelOverride"><s>Roast belly into crispy belly</s><r>Жареное брюшко до хрустящей корочки</r></e>
+  <e k="D" t="ProcessDef" key="SC_DoughToBerryPie.description"><s>Turns 30 pastry dough and 30 berries into pie (16)</s><r>Превращает 30 слоеного теста и 30 ягод в пирог (16)</r></e>
+  <e k="D" t="ProcessDef" key="SC_DoughToBerryPie.label"><s>Bake a berry pie</s><r>Испечь ягодный пирог</r></e>
+  <e k="D" t="ProcessDef" key="SC_DoughToBerryPie.labelOverride"><s>Bake pastry dough and berries into pie</s><r>Выпекаем слоеное тесто и ягоды в пирог</r></e>
+  <e k="D" t="ProcessDef" key="SC_DoughToBrickloaf.description"><s>Turns 40 dough into 75 brickloaf.</s><r>Превращает 40 теста в 75 кирпичных рулетов.</r></e>
+  <e k="D" t="ProcessDef" key="SC_DoughToBrickloaf.label"><s>Bake brickloaf</s><r>Выпекать кирпичный рулет</r></e>
+  <e k="D" t="ProcessDef" key="SC_DoughToBrickloaf.labelOverride"><s>Bake dough into brickloaf</s><r>Выпекаем из теста кирпичный рулет</r></e>
+  <e k="D" t="ProcessDef" key="SC_DoughToCheesePie.description"><s>Turns 30 pastry dough and 30 dwarven cheese into pie (16)</s><r>Превращает 30 кондитерских изделий и 30 гномьих сыров в пирог (16).</r></e>
+  <e k="D" t="ProcessDef" key="SC_DoughToCheesePie.label"><s>Bake a cheesecake</s><r>Испечь чизкейк</r></e>
+  <e k="D" t="ProcessDef" key="SC_DoughToCheesePie.labelOverride"><s>Bake pastry dough and dwarven cheese into pie</s><r>Испеките слоеное тесто и гномий сыр в пирог.</r></e>
+  <e k="D" t="ProcessDef" key="SC_DoughToChocolatePie.description"><s>Turns 30 pastry dough and 30 chocolate into pie (16)</s><r>Превращает 30 ед. теста и 30 ед. шоколада в пирог (16).</r></e>
+  <e k="D" t="ProcessDef" key="SC_DoughToChocolatePie.label"><s>Bake a chocolate pie</s><r>Испечь шоколадный пирог</r></e>
+  <e k="D" t="ProcessDef" key="SC_DoughToChocolatePie.labelOverride"><s>Bake pastry dough and chocolate into pie</s><r>Испечь слоеное тесто и шоколад в пирог</r></e>
+  <e k="D" t="ProcessDef" key="SC_DoughToMeatRockpie.description"><s>Turns 30 dough, 45 meat and 15 herbs into rockpie (16)</s><r>Превращает 30 единиц теста, 45 единиц мяса и 15 трав в каменный пирог (16).</r></e>
+  <e k="D" t="ProcessDef" key="SC_DoughToMeatRockpie.label"><s>Bake a meat rockpie</s><r>Испечь мясной рокпи</r></e>
+  <e k="D" t="ProcessDef" key="SC_DoughToMeatRockpie.labelOverride"><s>Bake dough, meat and herbs into rockpie</s><r>Испеките тесто, мясо и зелень в скальный пирог.</r></e>
+  <e k="D" t="ProcessDef" key="SC_DoughToMushroomRockpie.description"><s>Turns 30 dough, 45 fungus and 15 herbs into rockpie (16)</s><r>Превращает 30 теста, 45 грибов и 15 трав в каменный пирог (16).</r></e>
+  <e k="D" t="ProcessDef" key="SC_DoughToMushroomRockpie.label"><s>Bake a mushroom rockpie</s><r>Испечь пирог с грибами</r></e>
+  <e k="D" t="ProcessDef" key="SC_DoughToMushroomRockpie.labelOverride"><s>Bake dough, fungus and herbs into rockpie</s><r>Испеките тесто, грибы и травы в скальный пирог.</r></e>
+  <e k="D" t="ProcessDef" key="SC_DoughToPastry.description"><s>Turns 60 pastry dough and 35 insect jelly into 75 jelly pastries</s><r>Превращает 60 кондитерских изделий и 35 желе из насекомых в 75 желейных пирожных.</r></e>
+  <e k="D" t="ProcessDef" key="SC_DoughToPastry.label"><s>Bake pastries</s><r>Выпекать выпечку</r></e>
+  <e k="D" t="ProcessDef" key="SC_DoughToPastry.labelOverride"><s>Bake pastry dough and insect jelly into pastries</s><r>Испеките кондитерское тесто и желе из насекомых в выпечку.</r></e>
+  <e k="D" t="ProcessDef" key="SC_DoughToRockdoughPizza.description"><s>Turns 30 dough, 10 dwarven cheese and 45 vegetables into rockdough pizza(8)</s><r>Превращает 30 кусочков теста, 10 гномьих сыров и 45 овощей в пиццу из ржаного теста(8).</r></e>
+  <e k="D" t="ProcessDef" key="SC_DoughToRockdoughPizza.label"><s>Bake rockdough pizza</s><r>Испечь пиццу Роктесто</r></e>
+  <e k="D" t="ProcessDef" key="SC_DoughToRockdoughPizza.labelOverride"><s>Cook dough, cheese and vegetables into rockdough pizza</s><r>Приготовьте пиццу из теста, сыра и овощей.</r></e>
+  <e k="D" t="ProcessDef" key="SC_DoughToSpongecake.description"><s>Turns 30 pastry dough and 30 bitter nectar into spongecake (16)</s><r>Превращает 30 ед. теста и 30 ед. горького нектара в бисквит (16).</r></e>
+  <e k="D" t="ProcessDef" key="SC_DoughToSpongecake.label"><s>Bake a spongecake</s><r>Испечь бисквит</r></e>
+  <e k="D" t="ProcessDef" key="SC_DoughToSpongecake.labelOverride"><s>Bake pastry dough and bitter nectar into spongecake</s><r>Выпекаем слоеное тесто и горький нектар в бисквит.</r></e>
+  <e k="D" t="ProcessDef" key="SC_DoughToTarts.description"><s>Turns 60 pastry dough and 30 dwarven butter into 75 butter tarts</s><r>Превращает 60 кондитерских изделий и 30 гномьих масел в 75 масляных пирогов.</r></e>
+  <e k="D" t="ProcessDef" key="SC_DoughToTarts.label"><s>Bake butter tarts</s><r>Выпекаем тарталетки с маслом</r></e>
+  <e k="D" t="ProcessDef" key="SC_DoughToTarts.labelOverride"><s>Bake pastry dough and butter into tarts</s><r>Выпекаем пирожные из теста и масла в тарталетки</r></e>
+  <e k="D" t="ProcessDef" key="SC_DoughToVeganRockpie.description"><s>Turns 30 dough, 45 vegetables and 15 herbs into rockpie (16)</s><r>Превращает 30 штук теста, 45 овощей и 15 трав в каменный пирог (16).</r></e>
+  <e k="D" t="ProcessDef" key="SC_DoughToVeganRockpie.label"><s>Bake a vegetarian rockpie</s><r>Испечь вегетарианский рокпи</r></e>
+  <e k="D" t="ProcessDef" key="SC_DoughToVeganRockpie.labelOverride"><s>Bake dough, vegetables and herbs into rockpie</s><r>Испеките тесто, овощи и зелень в скальный пирог.</r></e>
+  <e k="D" t="ProcessDef" key="SC_Microwave_HeatMetal.description"><s>Heat steel into an explosion.</s><r>Нагрейте сталь до взрыва.</r></e>
+  <e k="D" t="ProcessDef" key="SC_Microwave_HeatMetal.label"><s>Heat steel</s><r>Жаркая сталь</r></e>
+  <e k="D" t="ProcessDef" key="SC_Microwave_HeatMetal.labelOverride"><s>Heat steel into an explosion</s><r>Нагрейте сталь до взрыва</r></e>
+  <e k="D" t="ProcessDef" key="SC_Microwave_ReheatCrustedFillet.description"><s>Reheat crusted fillet, unfreezing it.</s><r>Разогрейте филе с корочкой, разморозив его.</r></e>
+  <e k="D" t="ProcessDef" key="SC_Microwave_ReheatCrustedFillet.label"><s>Reheat crusted fillet</s><r>Разогреть филе с корочкой</r></e>
+  <e k="D" t="ProcessDef" key="SC_Microwave_ReheatCrustedFillet.labelOverride"><s>Reheat crusted fillet</s><r>Разогреть филе с корочкой</r></e>
+  <e k="D" t="ProcessDef" key="SC_Microwave_ReheatJellyGlazedShank.description"><s>Reheat jelly glazed shank, unfreezing it.</s><r>Разогрейте глазированную рульку желе, разморозив ее.</r></e>
+  <e k="D" t="ProcessDef" key="SC_Microwave_ReheatJellyGlazedShank.label"><s>Reheat jelly glazed shank</s><r>Разогреть глазированную рульку желе</r></e>
+  <e k="D" t="ProcessDef" key="SC_Microwave_ReheatJellyGlazedShank.labelOverride"><s>Reheat jelly glazed shank</s><r>Разогреть глазированную рульку желе</r></e>
+  <e k="D" t="ProcessDef" key="SC_Microwave_ReheatMushroomSoup.description"><s>Reheat cream of mushroom soup, unfreezing it.</s><r>Разогрейте грибной крем-суп, разморозив его.</r></e>
+  <e k="D" t="ProcessDef" key="SC_Microwave_ReheatMushroomSoup.label"><s>Reheat cream of mushroom soup</s><r>Разогрейте грибной крем-суп.</r></e>
+  <e k="D" t="ProcessDef" key="SC_Microwave_ReheatMushroomSoup.labelOverride"><s>Reheat cream of mushroom soup</s><r>Разогрейте грибной крем-суп.</r></e>
+  <e k="D" t="ProcessDef" key="SC_Microwave_ReheatRoastedMegascarab.description"><s>Reheat roasted megascarab, unfreezing it.</s><r>Разогрейте жареного мегаскарабея, разморозив его.</r></e>
+  <e k="D" t="ProcessDef" key="SC_Microwave_ReheatRoastedMegascarab.label"><s>Reheat roasted megascarab</s><r>Разогрейте жареного мегаскарабея</r></e>
+  <e k="D" t="ProcessDef" key="SC_Microwave_ReheatRoastedMegascarab.labelOverride"><s>Reheat roasted megascarab</s><r>Разогрейте жареного мегаскарабея</r></e>
+  <e k="D" t="ProcessDef" key="SC_Microwave_ReheatRockdoughPizza.description"><s>Reheat rockdough pizza, unfreezing it.</s><r>Разогрейте пиццу из роктеста, разморозив ее.</r></e>
+  <e k="D" t="ProcessDef" key="SC_Microwave_ReheatRockdoughPizza.label"><s>Reheat rockdough pizza</s><r>Разогреть пиццу из роктеста</r></e>
+  <e k="D" t="ProcessDef" key="SC_Microwave_ReheatRockdoughPizza.labelOverride"><s>Reheat rockdough pizza</s><r>Разогреть пиццу из роктеста</r></e>
+  <e k="D" t="ProcessDef" key="SC_Pot_RawToMeatMeal.description"><s>Turns 60 flour and 30 meat into 30 meals.</s><r>Превращает 60 единиц муки и 30 единиц мяса в 30 блюд.</r></e>
+  <e k="D" t="ProcessDef" key="SC_Pot_RawToMeatMeal.label"><s>Bake meat oven meals</s><r>Запекаем мясные блюда в духовке</r></e>
+  <e k="D" t="ProcessDef" key="SC_Pot_RawToMeatMeal.labelOverride"><s>Bake flour and meat into oven meals</s><r>Запекайте муку и мясо в блюда для духовки</r></e>
+  <e k="D" t="ProcessDef" key="SC_Pot_RawToMushroomSoup.description"><s>Turns 75 fungus, 45 dwarven milk and 25 herbs into cream of mushroom soup (16)</s><r>Превращает 75 грибов, 45 гномьего молока и 25 трав в грибной крем-суп (16)</r></e>
+  <e k="D" t="ProcessDef" key="SC_Pot_RawToMushroomSoup.label"><s>Cook cream of mushroom soup</s><r>Приготовить грибной крем-суп</r></e>
+  <e k="D" t="ProcessDef" key="SC_Pot_RawToMushroomSoup.labelOverride"><s>Cook fungus and dwarven milk into cream of mushroom soup</s><r>Приготовьте из гриба и дварфийского молока грибной крем-суп.</r></e>
+  <e k="D" t="ProcessDef" key="SC_Pot_RawToRockbread.description"><s>Turns 45 flour into 45 rockbread.</s><r>Превращает 45 муки в 45 каменного хлеба.</r></e>
+  <e k="D" t="ProcessDef" key="SC_Pot_RawToRockbread.label"><s>Bake rockbread</s><r>Выпекать каменный хлеб</r></e>
+  <e k="D" t="ProcessDef" key="SC_Pot_RawToRockbread.labelOverride"><s>Bake flour into rockbread</s><r>Испеките муку в каменный хлеб</r></e>
+  <e k="D" t="ProcessDef" key="SC_Pot_RawToVeganMeal.description"><s>Turns 60 flour and 30 vegetables into 30 vegetarian meals.</s><r>Превращает 60 единиц муки и 30 овощей в 30 вегетарианских блюд.</r></e>
+  <e k="D" t="ProcessDef" key="SC_Pot_RawToVeganMeal.label"><s>Bake vegetarian oven meals</s><r>Выпекайте вегетарианские блюда в духовке</r></e>
+  <e k="D" t="ProcessDef" key="SC_Pot_RawToVeganMeal.labelOverride"><s>Bake flour and vegetables into oven meals</s><r>Запекайте муку и овощи в блюда для духовки</r></e>
+  <e k="D" t="ProcessDef" key="SC_RawToCrustedFillet.description"><s>Turns 75 meat, 30 pastry dough, 30 fungus and 15 dwarven butter into a crusted fillet (16)</s><r>Превращает 75 единиц мяса, 30 единиц слоеного теста, 30 единиц грибов и 15 единиц гномьего масла в филе с корочкой (16).</r></e>
+  <e k="D" t="ProcessDef" key="SC_RawToCrustedFillet.label"><s>Bake a crusted fillet</s><r>Запечь филе с корочкой</r></e>
+  <e k="D" t="ProcessDef" key="SC_RawToCrustedFillet.labelOverride"><s>Bake meat, pastry dough, fungus and butter into a crusted fillet</s><r>Запеките мясо, слоеное тесто, грибы и сливочное масло в филе с корочкой.</r></e>
+  <e k="D" t="ProcessDef" key="SC_RawToJellyGlazedShank.description"><s>Turns 75 meat, 45 vegetables and 30 insect jelly into a jelly glazed shank (16)</s><r>Превращает 75 мяса, 45 овощей и 30 желе из насекомых в глазированную рульку (16).</r></e>
+  <e k="D" t="ProcessDef" key="SC_RawToJellyGlazedShank.label"><s>Bake a jelly glazed shank</s><r>Выпекаем рульку, глазированную желе</r></e>
+  <e k="D" t="ProcessDef" key="SC_RawToJellyGlazedShank.labelOverride"><s>Bake meat, vegetables and insect jelly into a jelly glazed shank</s><r>Запекайте мясо, овощи и желе из насекомых в рульке, глазированной желе.</r></e>
+  <e k="D" t="ProcessDef" key="SC_RawToMeatMeal.description"><s>Turns 60 flour and 30 meat into 30 meals.</s><r>Превращает 60 единиц муки и 30 единиц мяса в 30 блюд.</r></e>
+  <e k="D" t="ProcessDef" key="SC_RawToMeatMeal.label"><s>Bake a meat oven meals</s><r>Запекаем мясные блюда в духовке</r></e>
+  <e k="D" t="ProcessDef" key="SC_RawToMeatMeal.labelOverride"><s>Bake flour and meat into oven meals</s><r>Запекайте муку и мясо в блюда для духовки</r></e>
+  <e k="D" t="ProcessDef" key="SC_RawToMushroomSoup.description"><s>Turns 75 fungus, 45 dwarven milk and 25 herbs into cream of mushroom soup (16)</s><r>Превращает 75 грибов, 45 гномьего молока и 25 трав в грибной крем-суп (16)</r></e>
+  <e k="D" t="ProcessDef" key="SC_RawToMushroomSoup.label"><s>Cook cream of mushroom soup</s><r>Приготовить грибной крем-суп</r></e>
+  <e k="D" t="ProcessDef" key="SC_RawToMushroomSoup.labelOverride"><s>Cook fungus, dwarven milk and herbs into cream of mushroom soup</s><r>Приготовьте гриб, гномье молоко и травы в грибной крем-суп.</r></e>
+  <e k="D" t="ProcessDef" key="SC_RawToRoastedMegascarab.description"><s>Turns 75 insect meat, 50 fungus and 30 berries into a roasted megascarab (16)</s><r>Превращает 75 мяса насекомых, 50 грибов и 30 ягод в жареного мегаскарабея (16).</r></e>
+  <e k="D" t="ProcessDef" key="SC_RawToRoastedMegascarab.label"><s>Bake a roasted megascarab</s><r>Запечь жареного мегаскарабея</r></e>
+  <e k="D" t="ProcessDef" key="SC_RawToRoastedMegascarab.labelOverride"><s>Bake insect meat, fungus and berries into a roasted megascarab</s><r>Запеките мясо насекомых, грибы и ягоды в жареного мегаскарабея.</r></e>
+  <e k="D" t="ProcessDef" key="SC_RawToRockbread.description"><s>Turns 75 flour into 75 rockbread.</s><r>Превращает 75 муки в 75 каменных хлебов.</r></e>
+  <e k="D" t="ProcessDef" key="SC_RawToRockbread.label"><s>Bake rockbread</s><r>Выпекать каменный хлеб</r></e>
+  <e k="D" t="ProcessDef" key="SC_RawToRockbread.labelOverride"><s>Bake flour into rockbread</s><r>Испеките муку в каменный хлеб</r></e>
+  <e k="D" t="ProcessDef" key="SC_RawToVeganMeal.description"><s>Turns 60 flour and 30 vegetables into 30 vegetarian meals.</s><r>Превращает 60 единиц муки и 30 овощей в 30 вегетарианских блюд.</r></e>
+  <e k="D" t="ProcessDef" key="SC_RawToVeganMeal.label"><s>Bake a vegetarian oven meal</s><r>Приготовьте вегетарианское блюдо в духовке</r></e>
+  <e k="D" t="ProcessDef" key="SC_RawToVeganMeal.labelOverride"><s>Bake flour and vegetables into oven meals</s><r>Запекайте муку и овощи в блюда для духовки</r></e>
+  <e k="D" t="ProcessDef" key="SC_TenderloinToRoast.description"><s>Turns 12 rockbull tenderloin and 25 herbs into rockbull roast (8)</s><r>Превращает 12 вырезок рокбулла и 25 трав в жаркое из рокбулла (8)</r></e>
+  <e k="D" t="ProcessDef" key="SC_TenderloinToRoast.label"><s>Cook a rockbull roast</s><r>Приготовить жаркое рокбулл</r></e>
+  <e k="D" t="ProcessDef" key="SC_TenderloinToRoast.labelOverride"><s>Bake rockbull tenderlion into roasts</s><r>Запечь вырезку рокбулла в жарком</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_BasicBaking.description"><s>Build the dwarven kiln to begin baking goods from flour.</s><r>Постройте гномью печь, чтобы начать выпекать изделия из муки.</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_BasicBaking.discoveredLetterText"><s>Your colony has discovered the wondrous world of stoneborn baking! By planting moldwheat, your colonists can harvest moldflour and bake it into rockbread, or use the oven to prepare simple stews!</s><r>Ваша колония открыла для себя дивный мир каменной выпечки! Посадив плесневую пшеницу, ваши колонисты смогут собирать плесневую муку и печь из нее каменный хлеб или использовать духовку для приготовления простых рагу!</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_BasicBaking.discoveredLetterTitle"><s>About: Baking</s><r>О: Выпечка</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_BasicBaking.generalRules.rulesStrings.0"><s>subject-&gt;baking</s><r>subject-&gt;выпечка</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_BasicBaking.generalRules.rulesStrings.1"><s>subject_story-&gt;was invited to a stoneborn feast and became intrepidly curious</s><r>subject_story-&gt;был приглашен на пир камнерожденных, и ему стало бесстрашно любопытно</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_BasicBaking.generalRules.rulesStrings.2"><s>subject_story-&gt;constructed a simple clay oven to bake bread</s><r>subject_story-&gt;построил простую глиняную печь для выпечки хлеба</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_BasicBaking.generalRules.rulesStrings.3"><s>subject_story-&gt;was part of a cooking entourage for a stoneborn underlord</s><r>subject_story-&gt;был частью кулинарной свиты каменнорожденного лорда</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_BasicBaking.generalRules.rulesStrings.4"><s>subject_gerund-&gt;utilizing flour</s><r>subject_gerund-&gt;использование муки</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_BasicBaking.label"><s>basic baking</s><r>базовая выпечка</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_BasicDough.description"><s>Construct the preparation table to make dough out of milk and flour.</s><r>Соорудите подготовительный стол, чтобы замесить тесто из молока и муки.</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_BasicDough.generalRules.rulesStrings.0"><s>subject-&gt;dough</s><r>subject-&gt;тесто</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_BasicDough.generalRules.rulesStrings.1"><s>subject_story-&gt;discovered the incredibly properties of moldflour</s><r>subject_story-&gt;открыл невероятные свойства плесневой муки</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_BasicDough.generalRules.rulesStrings.2"><s>subject_story-&gt;created the first rockpie, accidentally</s><r>subject_story-&gt;случайно создал первый рокпи</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_BasicDough.generalRules.rulesStrings.3"><s>subject_story-&gt;smacked the lights out of a bandit with a rockpie shell</s><r>subject_story-&gt;выбил свет из бандита каменным снарядом</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_BasicDough.generalRules.rulesStrings.4"><s>subject_gerund-&gt;kneading dough</s><r>subject_gerund-&gt;замес теста</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_BasicDough.label"><s>dough preparation</s><r>приготовление теста</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_BitterProduction.description"><s>Grow bitterpot plants, harvest nectar and brew it into bitterstrug.</s><r>Выращивайте растения в горьких горшочках, собирайте нектар и варите из него горькую струг.</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_BitterProduction.generalRules.rulesStrings.0"><s>subject-&gt;bitterbarrel growth</s><r>subject-&gt;горький рост</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_BitterProduction.generalRules.rulesStrings.1"><s>subject_story-&gt;lived on bitter nectar for weeks</s><r>subject_story-&gt;жил на горьком нектаре неделями</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_BitterProduction.generalRules.rulesStrings.2"><s>subject_story-&gt;used bitterstrug to wake up every morning</s><r>subject_story-&gt;использовал горькую струг, чтобы просыпаться каждое утро</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_BitterProduction.generalRules.rulesStrings.3"><s>subject_story-&gt;created the best spongecake in the sector</s><r>subject_story-&gt;создал лучший бисквит в отрасли</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_BitterProduction.generalRules.rulesStrings.4"><s>subject_gerund-&gt;brewing bitterstrug</s><r>subject_gerund-&gt;пивоварение</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_BitterProduction.label"><s>bitter production</s><r>горькая продукция</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_ButterChurning.description"><s>Produce butter with milk and fungus, for various cooking applications.</s><r>Производите сливочное масло с молоком и грибами для различных кулинарных целей.</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_ButterChurning.generalRules.rulesStrings.0"><s>subject-&gt;butter churning</s><r>subject-&gt;сбивание масла</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_ButterChurning.generalRules.rulesStrings.1"><s>subject_story-&gt;discovered that cream goes through various stages when churned</s><r>subject_story-&gt;обнаружил, что сливки при сбивании проходят различные стадии</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_ButterChurning.generalRules.rulesStrings.2"><s>subject_story-&gt;accidentally made butter in a cart</s><r>subject_story-&gt;случайно приготовила масло в тележке</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_ButterChurning.generalRules.rulesStrings.3"><s>subject_story-&gt;used butter to bake cookies</s><r>subject_story-&gt;использовала масло для выпечки печенья</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_ButterChurning.generalRules.rulesStrings.4"><s>subject_gerund-&gt;churning butter</s><r>subject_gerund-&gt;сбивание масла</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_ButterChurning.label"><s>butter churning</s><r>сбивание масла</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.description"><s>Plant various plants engineered by the stoneborn for cooking.</s><r>Сажайте различные растения, созданные камнерожденными для приготовления пищи.</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.0"><s>subject-&gt;innovation's path</s><r>subject-&gt;путь инноваций</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.1"><s>subject_story-&gt;unveiled simple truths behind complex phenomena</s><r>subject_story-&gt;раскрыл простые истины, стоящие за сложными явлениями</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.10"><s>subject-&gt;seeds of tomorrow</s><r>subject-&gt;семена завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.11"><s>subject_story-&gt;planted ideas that would grow into transformative solutions</s><r>subject_story-&gt;посадил идеи, которые переросли в преобразующие решения</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.12"><s>subject_story-&gt;cultivated a garden of knowledge, ripe with potential</s><r>subject_story-&gt;возделывал сад знаний, полный потенциала</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.13"><s>subject_story-&gt;nurtured the roots of change with care and foresight</s><r>subject_story-&gt;заботливо и дальновидно взращивали корни перемен</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.14"><s>subject_gerund-&gt;sowing the future with today’s discoveries</s><r>subject_gerund-&gt;сея будущее с сегодняшними открытиями</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.15"><s>subject-&gt;the ripple of curiosity</s><r>subject-&gt;волна любопытства</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.16"><s>subject_story-&gt;set forth waves of inquiry that echoed through time</s><r>subject_story-&gt;излагать волны исследований, которые эхом отдавались во времени</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.17"><s>subject_story-&gt;dropped pebbles of innovation into the pond of knowledge</s><r>subject_story-&gt;бросил камешки инноваций в пруд знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.18"><s>subject_story-&gt;watched as one question led to another, expanding the circle of understanding</s><r>subject_story-&gt;наблюдал, как один вопрос влек за собой другой, расширяя круг понимания</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.19"><s>subject_gerund-&gt;casting stones to create waves of progress</s><r>subject_gerund-&gt;бросать камни для создания волн прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.2"><s>subject_story-&gt;simplified the intricate to make way for practical applications</s><r>subject_story-&gt;упростил сложную задачу, освободив место для практического применения</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.20"><s>subject-&gt;the alchemy of progress</s><r>subject-&gt;алхимия прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.21"><s>subject_story-&gt;merged disparate disciplines to unlock new realms of possibility</s><r>subject_story-&gt;объединили разрозненные дисциплины, чтобы открыть новые сферы возможностей</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.22"><s>subject_story-&gt;turned the impossible into the inevitable through sheer ingenuity</s><r>subject_story-&gt;превратил невозможное в неизбежное благодаря своей изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.23"><s>subject_story-&gt;crafted solutions that reshaped the understanding of what's achievable</s><r>subject_story-&gt;разработанные решения, которые изменили понимание того, что достижимо</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.24"><s>subject_gerund-&gt;blending science and magic into the fabric of reality</s><r>subject_gerund-&gt;смешивание науки и магии в ткань реальности</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.25"><s>subject-&gt;the tapestry of discovery</s><r>subject-&gt;гобелен открытий</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.26"><s>subject_story-&gt;wove together threads of knowledge from the four corners of the world</s><r>subject_story-&gt;сплели воедино нити знаний из четырех уголков мира</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.27"><s>subject_story-&gt;revealed patterns in the chaos, charting paths to untold innovations</s><r>subject_story-&gt;выявил закономерности в хаосе, проложив пути к неисчислимым инновациям</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.28"><s>subject_story-&gt;embroidered the annals of history with tales of serendipitous breakthroughs</s><r>subject_story-&gt;украсили анналы истории рассказами о счастливых открытиях</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.29"><s>subject_gerund-&gt;weaving the future from the loom of the present</s><r>subject_gerund-&gt;плетение будущего на станке настоящего</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.3"><s>subject_story-&gt;harnessed basic principles to achieve remarkable feats</s><r>subject_story-&gt;использовал основные принципы для достижения выдающихся подвигов</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.30"><s>subject-&gt;the crucible of creation</s><r>subject-&gt;тигель творения</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.31"><s>subject_story-&gt;fused raw elements into the building blocks of tomorrow</s><r>subject_story-&gt;соединил необработанные элементы в строительные блоки завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.32"><s>subject_story-&gt;tempered the fires of creativity to forge unprecedented technologies</s><r>subject_story-&gt;умерил огонь творчества, чтобы создать беспрецедентные технологии</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.33"><s>subject_story-&gt;quenched the thirst for knowledge with the elixir of invention</s><r>subject_story-&gt;утолил жажду знаний эликсиром изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.34"><s>subject_gerund-&gt;molding the raw materials of today into the artifacts of the future</s><r>subject_gerund-&gt;превращение сегодняшнего сырья в артефакты будущего</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.35"><s>subject-&gt;the beacon of enlightenment</s><r>subject-&gt;маяк просвещения</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.36"><s>subject_story-&gt;illuminated the dark corners of ignorance, guiding the way forward</s><r>subject_story-&gt;освещал темные уголки невежества, указывая путь вперед</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.37"><s>subject_story-&gt;cast light on the unknown, making the unseen visible to curious minds</s><r>subject_story-&gt;пролить свет на неизведанное, сделать невидимое видимым для любопытных умов</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.38"><s>subject_story-&gt;ignited the flames of curiosity, kindling a worldwide pursuit of understanding</s><r>subject_story-&gt;зажег пламя любопытства, разжигая стремление к пониманию во всем мире.</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.39"><s>subject_gerund-&gt;lighting the torches of progress and knowledge</s><r>subject_gerund-&gt;зажигая факелы прогресса и знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.4"><s>subject_gerund-&gt;streamlining the essence of discovery</s><r>subject_gerund-&gt;оптимизация сути открытия</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.40"><s>subject-&gt;the frontier of knowledge</s><r>subject-&gt;граница знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.41"><s>subject_story-&gt;crossed new horizons in the pursuit of understanding</s><r>subject_story-&gt;пересек новые горизонты в поисках понимания</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.42"><s>subject_story-&gt;challenged the status quo with groundbreaking theories</s><r>subject_story-&gt;бросил вызов статус-кво с помощью новаторских теорий</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.43"><s>subject_story-&gt;merged ancient wisdom with modern technology for innovative solutions</s><r>subject_story-&gt;объединили древнюю мудрость с современными технологиями для инновационных решений</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.44"><s>subject_gerund-&gt;pushing the boundaries of science and art</s><r>subject_gerund-&gt;расширяя границы науки и искусства</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.45"><s>subject-&gt;the essence of innovation</s><r>subject-&gt;суть инноваций</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.46"><s>subject_story-&gt;transformed everyday materials into extraordinary tools</s><r>subject_story-&gt;превратил повседневные материалы в необычные инструменты</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.47"><s>subject_story-&gt;paved the way for future generations with sustainable practices</s><r>subject_story-&gt;проложили путь будущим поколениям с помощью устойчивых методов</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.48"><s>subject_story-&gt;harnessed the power of nature to fuel new advancements</s><r>subject_story-&gt;использовали силу природы для стимулирования новых достижений</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.49"><s>subject_gerund-&gt;fostering an ecosystem of creativity and progress</s><r>subject_gerund-&gt;содействие развитию экосистемы творчества и прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.5"><s>subject-&gt;building blocks of progress</s><r>subject-&gt;строительные блоки прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.50"><s>subject-&gt;the architects of tomorrow</s><r>subject-&gt;архитекторы завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.51"><s>subject_story-&gt;built the foundations for a utopia where technology serves all</s><r>subject_story-&gt;заложил основы утопии, где технологии служат всем</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.52"><s>subject_story-&gt;envisioned a future where harmony between technology and nature thrives</s><r>subject_story-&gt;представлял будущее, в котором процветает гармония между технологиями и природой</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.53"><s>subject_story-&gt;crafted tools that empower humanity to reach its fullest potential</s><r>subject_story-&gt;созданные инструменты, которые позволяют человечеству полностью раскрыть свой потенциал</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.54"><s>subject_gerund-&gt;laying the keystones for future landscapes</s><r>subject_gerund-&gt;закладываем краеугольные камни для будущих пейзажей</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.55"><s>subject-&gt;exploratory leaps</s><r>subject-&gt;исследовательские прыжки</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.56"><s>subject_story-&gt;stepped boldly into uncharted territories of knowledge</s><r>subject_story-&gt;смело шагнул на неизведанные территории знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.57"><s>subject_story-&gt;bridged the gap between the known and the unknown</s><r>subject_story-&gt;преодолел разрыв между известным и неизвестным</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.58"><s>subject_story-&gt;ventured where curiosity dared to lead</s><r>subject_story-&gt;рискнул туда, где любопытство осмелилось привести</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.59"><s>subject_gerund-&gt;embarking on journeys of discovery</s><r>subject_gerund-&gt;отправляясь в путешествие открытий</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.6"><s>subject_story-&gt;laid the groundwork for monumental leaps forward</s><r>subject_story-&gt;заложил основу для монументального скачка вперед</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.60"><s>subject-&gt;the essence of ingenuity</s><r>subject-&gt;суть изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.61"><s>subject_story-&gt;transformed challenges into opportunities for growth</s><r>subject_story-&gt;превратил проблемы в возможности для роста</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.62"><s>subject_story-&gt;applied creative thinking to overcome traditional obstacles</s><r>subject_story-&gt;применил творческое мышление для преодоления традиционных препятствий</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.63"><s>subject_story-&gt;crafted elegant solutions with a blend of art and science</s><r>subject_story-&gt;созданные элегантные решения, сочетающие искусство и науку</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.64"><s>subject_gerund-&gt;unlocking potential through innovation</s><r>subject_gerund-&gt;раскрытие потенциала через инновации</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.65"><s>subject-&gt;knowledge’s harvest</s><r>subject-&gt;урожай знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.66"><s>subject_story-&gt;gathered insights as one reaps the fields at harvest</s><r>subject_story-&gt;собирал идеи, когда собираешь урожай на полях</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.67"><s>subject_story-&gt;cultivated a bounty of understanding from the seeds of inquiry</s><r>subject_story-&gt;вырастил щедрость понимания из семян исследования</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.68"><s>subject_story-&gt;shared the fruits of research with the world</s><r>subject_story-&gt;поделился плодами исследований со всем миром</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.69"><s>subject_gerund-&gt;reaping the rewards of relentless curiosity</s><r>subject_gerund-&gt;пожинать плоды неустанного любопытства</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.7"><s>subject_story-&gt;connected dots across disciplines to reveal new insights</s><r>subject_story-&gt;связали точки между дисциплинами, чтобы выявить новые идеи</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.70"><s>subject-&gt;the puzzle of progress</s><r>subject-&gt;загадка прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.71"><s>subject_story-&gt;assembled the pieces of mystery to reveal the big picture</s><r>subject_story-&gt;собрал кусочки тайны, чтобы раскрыть общую картину</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.72"><s>subject_story-&gt;matched theory with practice to solve longstanding puzzles</s><r>subject_story-&gt;сочетать теорию с практикой для решения давних загадок</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.73"><s>subject_story-&gt;uncovered hidden connections that unlocked new possibilities</s><r>subject_story-&gt;раскрыл скрытые связи, которые открыли новые возможности</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.74"><s>subject_gerund-&gt;piecing together the elements of advancement</s><r>subject_gerund-&gt;собираем воедино элементы продвижения</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.8"><s>subject_story-&gt;crafted the foundation upon which future innovations stand</s><r>subject_story-&gt;создали основу, на которой стоят будущие инновации</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.generalRules.rulesStrings.9"><s>subject_gerund-&gt;laying down the keystones of advancement</s><r>subject_gerund-&gt;закладывая краеугольные камни продвижения</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops.label"><s>fungus crops</s><r>грибные культуры</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.description"><s>Plant fungus engineered to produce sweet and luxurious things, like gemberries and chocobark.</s><r>Растительный гриб, созданный для производства сладких и роскошных вещей, таких как драгоценные ягоды и шоколадная кора.</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.0"><s>subject-&gt;innovation's path</s><r>subject-&gt;путь инноваций</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.1"><s>subject_story-&gt;unveiled simple truths behind complex phenomena</s><r>subject_story-&gt;раскрыл простые истины, стоящие за сложными явлениями</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.10"><s>subject-&gt;seeds of tomorrow</s><r>subject-&gt;семена завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.11"><s>subject_story-&gt;planted ideas that would grow into transformative solutions</s><r>subject_story-&gt;посадил идеи, которые переросли в преобразующие решения</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.12"><s>subject_story-&gt;cultivated a garden of knowledge, ripe with potential</s><r>subject_story-&gt;возделывал сад знаний, полный потенциала</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.13"><s>subject_story-&gt;nurtured the roots of change with care and foresight</s><r>subject_story-&gt;заботливо и дальновидно взращивали корни перемен</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.14"><s>subject_gerund-&gt;sowing the future with today’s discoveries</s><r>subject_gerund-&gt;сея будущее с сегодняшними открытиями</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.15"><s>subject-&gt;the ripple of curiosity</s><r>subject-&gt;волна любопытства</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.16"><s>subject_story-&gt;set forth waves of inquiry that echoed through time</s><r>subject_story-&gt;излагать волны исследований, которые эхом отдавались во времени</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.17"><s>subject_story-&gt;dropped pebbles of innovation into the pond of knowledge</s><r>subject_story-&gt;бросил камешки инноваций в пруд знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.18"><s>subject_story-&gt;watched as one question led to another, expanding the circle of understanding</s><r>subject_story-&gt;наблюдал, как один вопрос влек за собой другой, расширяя круг понимания</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.19"><s>subject_gerund-&gt;casting stones to create waves of progress</s><r>subject_gerund-&gt;бросать камни для создания волн прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.2"><s>subject_story-&gt;simplified the intricate to make way for practical applications</s><r>subject_story-&gt;упростил сложную задачу, освободив место для практического применения</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.20"><s>subject-&gt;the alchemy of progress</s><r>subject-&gt;алхимия прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.21"><s>subject_story-&gt;merged disparate disciplines to unlock new realms of possibility</s><r>subject_story-&gt;объединили разрозненные дисциплины, чтобы открыть новые сферы возможностей</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.22"><s>subject_story-&gt;turned the impossible into the inevitable through sheer ingenuity</s><r>subject_story-&gt;превратил невозможное в неизбежное благодаря своей изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.23"><s>subject_story-&gt;crafted solutions that reshaped the understanding of what's achievable</s><r>subject_story-&gt;разработанные решения, которые изменили понимание того, что достижимо</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.24"><s>subject_gerund-&gt;blending science and magic into the fabric of reality</s><r>subject_gerund-&gt;смешивание науки и магии в ткань реальности</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.25"><s>subject-&gt;the tapestry of discovery</s><r>subject-&gt;гобелен открытий</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.26"><s>subject_story-&gt;wove together threads of knowledge from the four corners of the world</s><r>subject_story-&gt;сплели воедино нити знаний из четырех уголков мира</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.27"><s>subject_story-&gt;revealed patterns in the chaos, charting paths to untold innovations</s><r>subject_story-&gt;выявил закономерности в хаосе, проложив пути к неисчислимым инновациям</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.28"><s>subject_story-&gt;embroidered the annals of history with tales of serendipitous breakthroughs</s><r>subject_story-&gt;украсили анналы истории рассказами о счастливых открытиях</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.29"><s>subject_gerund-&gt;weaving the future from the loom of the present</s><r>subject_gerund-&gt;плетение будущего на станке настоящего</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.3"><s>subject_story-&gt;harnessed basic principles to achieve remarkable feats</s><r>subject_story-&gt;использовал основные принципы для достижения выдающихся подвигов</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.30"><s>subject-&gt;the crucible of creation</s><r>subject-&gt;тигель творения</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.31"><s>subject_story-&gt;fused raw elements into the building blocks of tomorrow</s><r>subject_story-&gt;соединил необработанные элементы в строительные блоки завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.32"><s>subject_story-&gt;tempered the fires of creativity to forge unprecedented technologies</s><r>subject_story-&gt;умерил огонь творчества, чтобы создать беспрецедентные технологии</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.33"><s>subject_story-&gt;quenched the thirst for knowledge with the elixir of invention</s><r>subject_story-&gt;утолил жажду знаний эликсиром изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.34"><s>subject_gerund-&gt;molding the raw materials of today into the artifacts of the future</s><r>subject_gerund-&gt;превращение сегодняшнего сырья в артефакты будущего</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.35"><s>subject-&gt;the beacon of enlightenment</s><r>subject-&gt;маяк просвещения</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.36"><s>subject_story-&gt;illuminated the dark corners of ignorance, guiding the way forward</s><r>subject_story-&gt;освещал темные уголки невежества, указывая путь вперед</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.37"><s>subject_story-&gt;cast light on the unknown, making the unseen visible to curious minds</s><r>subject_story-&gt;пролить свет на неизведанное, сделать невидимое видимым для любопытных умов</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.38"><s>subject_story-&gt;ignited the flames of curiosity, kindling a worldwide pursuit of understanding</s><r>subject_story-&gt;зажег пламя любопытства, разжигая стремление к пониманию во всем мире.</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.39"><s>subject_gerund-&gt;lighting the torches of progress and knowledge</s><r>subject_gerund-&gt;зажигая факелы прогресса и знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.4"><s>subject_gerund-&gt;streamlining the essence of discovery</s><r>subject_gerund-&gt;оптимизация сути открытия</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.40"><s>subject-&gt;the frontier of knowledge</s><r>subject-&gt;граница знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.41"><s>subject_story-&gt;crossed new horizons in the pursuit of understanding</s><r>subject_story-&gt;пересек новые горизонты в поисках понимания</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.42"><s>subject_story-&gt;challenged the status quo with groundbreaking theories</s><r>subject_story-&gt;бросил вызов статус-кво с помощью новаторских теорий</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.43"><s>subject_story-&gt;merged ancient wisdom with modern technology for innovative solutions</s><r>subject_story-&gt;объединили древнюю мудрость с современными технологиями для инновационных решений</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.44"><s>subject_gerund-&gt;pushing the boundaries of science and art</s><r>subject_gerund-&gt;расширяя границы науки и искусства</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.45"><s>subject-&gt;the essence of innovation</s><r>subject-&gt;суть инноваций</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.46"><s>subject_story-&gt;transformed everyday materials into extraordinary tools</s><r>subject_story-&gt;превратил повседневные материалы в необычные инструменты</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.47"><s>subject_story-&gt;paved the way for future generations with sustainable practices</s><r>subject_story-&gt;проложили путь будущим поколениям с помощью устойчивых методов</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.48"><s>subject_story-&gt;harnessed the power of nature to fuel new advancements</s><r>subject_story-&gt;использовали силу природы для стимулирования новых достижений</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.49"><s>subject_gerund-&gt;fostering an ecosystem of creativity and progress</s><r>subject_gerund-&gt;содействие развитию экосистемы творчества и прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.5"><s>subject-&gt;building blocks of progress</s><r>subject-&gt;строительные блоки прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.50"><s>subject-&gt;the architects of tomorrow</s><r>subject-&gt;архитекторы завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.51"><s>subject_story-&gt;built the foundations for a utopia where technology serves all</s><r>subject_story-&gt;заложил основы утопии, где технологии служат всем</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.52"><s>subject_story-&gt;envisioned a future where harmony between technology and nature thrives</s><r>subject_story-&gt;представлял будущее, в котором процветает гармония между технологиями и природой</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.53"><s>subject_story-&gt;crafted tools that empower humanity to reach its fullest potential</s><r>subject_story-&gt;созданные инструменты, которые позволяют человечеству полностью раскрыть свой потенциал</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.54"><s>subject_gerund-&gt;laying the keystones for future landscapes</s><r>subject_gerund-&gt;закладываем краеугольные камни для будущих пейзажей</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.55"><s>subject-&gt;exploratory leaps</s><r>subject-&gt;исследовательские прыжки</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.56"><s>subject_story-&gt;stepped boldly into uncharted territories of knowledge</s><r>subject_story-&gt;смело шагнул на неизведанные территории знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.57"><s>subject_story-&gt;bridged the gap between the known and the unknown</s><r>subject_story-&gt;преодолел разрыв между известным и неизвестным</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.58"><s>subject_story-&gt;ventured where curiosity dared to lead</s><r>subject_story-&gt;рискнул туда, где любопытство осмелилось привести</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.59"><s>subject_gerund-&gt;embarking on journeys of discovery</s><r>subject_gerund-&gt;отправляясь в путешествие открытий</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.6"><s>subject_story-&gt;laid the groundwork for monumental leaps forward</s><r>subject_story-&gt;заложил основу для монументального скачка вперед</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.60"><s>subject-&gt;the essence of ingenuity</s><r>subject-&gt;суть изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.61"><s>subject_story-&gt;transformed challenges into opportunities for growth</s><r>subject_story-&gt;превратил проблемы в возможности для роста</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.62"><s>subject_story-&gt;applied creative thinking to overcome traditional obstacles</s><r>subject_story-&gt;применил творческое мышление для преодоления традиционных препятствий</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.63"><s>subject_story-&gt;crafted elegant solutions with a blend of art and science</s><r>subject_story-&gt;созданные элегантные решения, сочетающие искусство и науку</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.64"><s>subject_gerund-&gt;unlocking potential through innovation</s><r>subject_gerund-&gt;раскрытие потенциала через инновации</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.65"><s>subject-&gt;knowledge’s harvest</s><r>subject-&gt;урожай знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.66"><s>subject_story-&gt;gathered insights as one reaps the fields at harvest</s><r>subject_story-&gt;собирал идеи, когда собираешь урожай на полях</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.67"><s>subject_story-&gt;cultivated a bounty of understanding from the seeds of inquiry</s><r>subject_story-&gt;вырастил щедрость понимания из семян исследования</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.68"><s>subject_story-&gt;shared the fruits of research with the world</s><r>subject_story-&gt;поделился плодами исследований со всем миром</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.69"><s>subject_gerund-&gt;reaping the rewards of relentless curiosity</s><r>subject_gerund-&gt;пожинать плоды неустанного любопытства</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.7"><s>subject_story-&gt;connected dots across disciplines to reveal new insights</s><r>subject_story-&gt;связали точки между дисциплинами, чтобы выявить новые идеи</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.70"><s>subject-&gt;the puzzle of progress</s><r>subject-&gt;загадка прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.71"><s>subject_story-&gt;assembled the pieces of mystery to reveal the big picture</s><r>subject_story-&gt;собрал кусочки тайны, чтобы раскрыть общую картину</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.72"><s>subject_story-&gt;matched theory with practice to solve longstanding puzzles</s><r>subject_story-&gt;сочетать теорию с практикой для решения давних загадок</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.73"><s>subject_story-&gt;uncovered hidden connections that unlocked new possibilities</s><r>subject_story-&gt;раскрыл скрытые связи, которые открыли новые возможности</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.74"><s>subject_gerund-&gt;piecing together the elements of advancement</s><r>subject_gerund-&gt;собираем воедино элементы продвижения</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.8"><s>subject_story-&gt;crafted the foundation upon which future innovations stand</s><r>subject_story-&gt;создали основу, на которой стоят будущие инновации</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.generalRules.rulesStrings.9"><s>subject_gerund-&gt;laying down the keystones of advancement</s><r>subject_gerund-&gt;закладывая краеугольные камни продвижения</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_DwarvenCrops_Sweet.label"><s>sweet mushrooms</s><r>сладкие грибы</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_FeastGalore.description"><s>Bake, roast and boil large feasts: meals that increase mood by a lot when warm, but get worse when frozen.</s><r>Пеките, жарьте и варите большие пиршества: блюда, которые значительно повышают настроение, когда они теплые, но ухудшаются, когда их замораживают.</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_FeastGalore.generalRules.rulesStrings.0"><s>subject-&gt;feasts</s><r>subject-&gt;пиры</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_FeastGalore.generalRules.rulesStrings.1"><s>subject_story-&gt;prepared a massive feast for an important stoneborn ceremony</s><r>subject_story-&gt;подготовили грандиозный пир для важной церемонии рождения камня</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_FeastGalore.generalRules.rulesStrings.2"><s>subject_story-&gt;participated at a feast in the massive hall of Grugni</s><r>subject_story-&gt;участвовал на пиру в огромном зале Груни</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_FeastGalore.generalRules.rulesStrings.3"><s>subject_story-&gt;invented roasted megascarab by leaving an oven on for too long</s><r>subject_story-&gt;изобрел жареного мегаскарабея, оставив духовку включенной слишком надолго</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_FeastGalore.generalRules.rulesStrings.4"><s>subject_gerund-&gt;cooking large feasts</s><r>subject_gerund-&gt;готовить большие пиры</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_FeastGalore.label"><s>feasts galore</s><r>пиршества в изобилии</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_Grilling.description"><s>Grill various raw foods into skewers or burgers on the hot grill.</s><r>Поджарьте различные сырые продукты на шампурах или гамбургерах на горячем гриле.</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_Grilling.generalRules.rulesStrings.0"><s>subject-&gt;grilling</s><r>subject-&gt;гриль</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_Grilling.generalRules.rulesStrings.1"><s>subject_story-&gt;worked as a cook at a cave banquet</s><r>subject_story-&gt;работал поваром на пещерном банкете</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_Grilling.generalRules.rulesStrings.2"><s>subject_story-&gt;tried hundreds of different food combinations for skewers</s><r>subject_story-&gt;перепробовал сотни разных сочетаний продуктов для шашлыка</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_Grilling.generalRules.rulesStrings.3"><s>subject_story-&gt;was inspired by ancient texts to reinvent the burger</s><r>subject_story-&gt;был вдохновлен древними текстами, чтобы заново изобрести бургер</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_Grilling.generalRules.rulesStrings.4"><s>subject_story-&gt;was sued by Burger Baron for trying to copy the idea of the burger</s><r>subject_story-&gt;на него подал в суд Burger Baron за попытку скопировать идею бургера</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_Grilling.generalRules.rulesStrings.5"><s>subject_gerund-&gt;grilling burgers and skewers</s><r>subject_gerund-&gt;приготовление гамбургеров и шашлыков на гриле</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_Grilling.label"><s>grilling</s><r>гриль</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_InsectFarming.description"><s>Place juvenile queens into artificial hives for farming insect jelly.</s><r>Поместите молодых маток в искусственные ульи для выращивания желе из насекомых.</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_InsectFarming.generalRules.rulesStrings.0"><s>subject-&gt;jelly farming</s><r>subject-&gt;желе ферма</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_InsectFarming.generalRules.rulesStrings.1"><s>subject_story-&gt;discovered the ability to farm miniscule insectoids</s><r>subject_story-&gt;открыл способность выращивать крошечных инсектоидов</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_InsectFarming.generalRules.rulesStrings.2"><s>subject_story-&gt;stole insect jelly from an insectoid hive for years</s><r>subject_story-&gt;много лет воровал желе из насекомых из улья инсектоидов</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_InsectFarming.generalRules.rulesStrings.3"><s>subject_story-&gt;had a pet insectiary</s><r>subject_story-&gt;у меня был инсектиарий для домашних животных</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_InsectFarming.generalRules.rulesStrings.4"><s>subject_gerund-&gt;farming jelly</s><r>subject_gerund-&gt;фермерское желе</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_InsectFarming.label"><s>jelly farming</s><r>желе ферма</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.description"><s>Build functional appliances for kitchens and feast halls.</s><r>Создавайте функциональную технику для кухонь и пиршественных залов.</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.0"><s>subject-&gt;innovation's path</s><r>subject-&gt;путь инноваций</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.1"><s>subject_story-&gt;unveiled simple truths behind complex phenomena</s><r>subject_story-&gt;раскрыл простые истины, стоящие за сложными явлениями</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.10"><s>subject-&gt;seeds of tomorrow</s><r>subject-&gt;семена завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.11"><s>subject_story-&gt;planted ideas that would grow into transformative solutions</s><r>subject_story-&gt;посадил идеи, которые переросли в преобразующие решения</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.12"><s>subject_story-&gt;cultivated a garden of knowledge, ripe with potential</s><r>subject_story-&gt;возделывал сад знаний, полный потенциала</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.13"><s>subject_story-&gt;nurtured the roots of change with care and foresight</s><r>subject_story-&gt;заботливо и дальновидно взращивали корни перемен</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.14"><s>subject_gerund-&gt;sowing the future with today’s discoveries</s><r>subject_gerund-&gt;сея будущее с сегодняшними открытиями</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.15"><s>subject-&gt;the ripple of curiosity</s><r>subject-&gt;волна любопытства</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.16"><s>subject_story-&gt;set forth waves of inquiry that echoed through time</s><r>subject_story-&gt;излагать волны исследований, которые эхом отдавались во времени</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.17"><s>subject_story-&gt;dropped pebbles of innovation into the pond of knowledge</s><r>subject_story-&gt;бросил камешки инноваций в пруд знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.18"><s>subject_story-&gt;watched as one question led to another, expanding the circle of understanding</s><r>subject_story-&gt;наблюдал, как один вопрос влек за собой другой, расширяя круг понимания</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.19"><s>subject_gerund-&gt;casting stones to create waves of progress</s><r>subject_gerund-&gt;бросать камни для создания волн прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.2"><s>subject_story-&gt;simplified the intricate to make way for practical applications</s><r>subject_story-&gt;упростил сложную задачу, освободив место для практического применения</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.20"><s>subject-&gt;the alchemy of progress</s><r>subject-&gt;алхимия прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.21"><s>subject_story-&gt;merged disparate disciplines to unlock new realms of possibility</s><r>subject_story-&gt;объединили разрозненные дисциплины, чтобы открыть новые сферы возможностей</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.22"><s>subject_story-&gt;turned the impossible into the inevitable through sheer ingenuity</s><r>subject_story-&gt;превратил невозможное в неизбежное благодаря своей изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.23"><s>subject_story-&gt;crafted solutions that reshaped the understanding of what's achievable</s><r>subject_story-&gt;разработанные решения, которые изменили понимание того, что достижимо</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.24"><s>subject_gerund-&gt;blending science and magic into the fabric of reality</s><r>subject_gerund-&gt;смешивание науки и магии в ткань реальности</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.25"><s>subject-&gt;the tapestry of discovery</s><r>subject-&gt;гобелен открытий</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.26"><s>subject_story-&gt;wove together threads of knowledge from the four corners of the world</s><r>subject_story-&gt;сплели воедино нити знаний из четырех уголков мира</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.27"><s>subject_story-&gt;revealed patterns in the chaos, charting paths to untold innovations</s><r>subject_story-&gt;выявил закономерности в хаосе, проложив пути к неисчислимым инновациям</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.28"><s>subject_story-&gt;embroidered the annals of history with tales of serendipitous breakthroughs</s><r>subject_story-&gt;украсили анналы истории рассказами о счастливых открытиях</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.29"><s>subject_gerund-&gt;weaving the future from the loom of the present</s><r>subject_gerund-&gt;плетение будущего на станке настоящего</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.3"><s>subject_story-&gt;harnessed basic principles to achieve remarkable feats</s><r>subject_story-&gt;использовал основные принципы для достижения выдающихся подвигов</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.30"><s>subject-&gt;the crucible of creation</s><r>subject-&gt;тигель творения</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.31"><s>subject_story-&gt;fused raw elements into the building blocks of tomorrow</s><r>subject_story-&gt;соединил необработанные элементы в строительные блоки завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.32"><s>subject_story-&gt;tempered the fires of creativity to forge unprecedented technologies</s><r>subject_story-&gt;умерил огонь творчества, чтобы создать беспрецедентные технологии</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.33"><s>subject_story-&gt;quenched the thirst for knowledge with the elixir of invention</s><r>subject_story-&gt;утолил жажду знаний эликсиром изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.34"><s>subject_gerund-&gt;molding the raw materials of today into the artifacts of the future</s><r>subject_gerund-&gt;превращение сегодняшнего сырья в артефакты будущего</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.35"><s>subject-&gt;the beacon of enlightenment</s><r>subject-&gt;маяк просвещения</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.36"><s>subject_story-&gt;illuminated the dark corners of ignorance, guiding the way forward</s><r>subject_story-&gt;освещал темные уголки невежества, указывая путь вперед</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.37"><s>subject_story-&gt;cast light on the unknown, making the unseen visible to curious minds</s><r>subject_story-&gt;пролить свет на неизведанное, сделать невидимое видимым для любопытных умов</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.38"><s>subject_story-&gt;ignited the flames of curiosity, kindling a worldwide pursuit of understanding</s><r>subject_story-&gt;зажег пламя любопытства, разжигая стремление к пониманию во всем мире.</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.39"><s>subject_gerund-&gt;lighting the torches of progress and knowledge</s><r>subject_gerund-&gt;зажигая факелы прогресса и знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.4"><s>subject_gerund-&gt;streamlining the essence of discovery</s><r>subject_gerund-&gt;оптимизация сути открытия</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.40"><s>subject-&gt;the frontier of knowledge</s><r>subject-&gt;граница знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.41"><s>subject_story-&gt;crossed new horizons in the pursuit of understanding</s><r>subject_story-&gt;пересек новые горизонты в поисках понимания</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.42"><s>subject_story-&gt;challenged the status quo with groundbreaking theories</s><r>subject_story-&gt;бросил вызов статус-кво с помощью новаторских теорий</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.43"><s>subject_story-&gt;merged ancient wisdom with modern technology for innovative solutions</s><r>subject_story-&gt;объединили древнюю мудрость с современными технологиями для инновационных решений</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.44"><s>subject_gerund-&gt;pushing the boundaries of science and art</s><r>subject_gerund-&gt;расширяя границы науки и искусства</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.45"><s>subject-&gt;the essence of innovation</s><r>subject-&gt;суть инноваций</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.46"><s>subject_story-&gt;transformed everyday materials into extraordinary tools</s><r>subject_story-&gt;превратил повседневные материалы в необычные инструменты</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.47"><s>subject_story-&gt;paved the way for future generations with sustainable practices</s><r>subject_story-&gt;проложили путь будущим поколениям с помощью устойчивых методов</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.48"><s>subject_story-&gt;harnessed the power of nature to fuel new advancements</s><r>subject_story-&gt;использовали силу природы для стимулирования новых достижений</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.49"><s>subject_gerund-&gt;fostering an ecosystem of creativity and progress</s><r>subject_gerund-&gt;содействие развитию экосистемы творчества и прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.5"><s>subject-&gt;building blocks of progress</s><r>subject-&gt;строительные блоки прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.50"><s>subject-&gt;the architects of tomorrow</s><r>subject-&gt;архитекторы завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.51"><s>subject_story-&gt;built the foundations for a utopia where technology serves all</s><r>subject_story-&gt;заложил основы утопии, где технологии служат всем</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.52"><s>subject_story-&gt;envisioned a future where harmony between technology and nature thrives</s><r>subject_story-&gt;представлял будущее, в котором процветает гармония между технологиями и природой</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.53"><s>subject_story-&gt;crafted tools that empower humanity to reach its fullest potential</s><r>subject_story-&gt;созданные инструменты, которые позволяют человечеству полностью раскрыть свой потенциал</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.54"><s>subject_gerund-&gt;laying the keystones for future landscapes</s><r>subject_gerund-&gt;закладываем краеугольные камни для будущих пейзажей</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.55"><s>subject-&gt;exploratory leaps</s><r>subject-&gt;исследовательские прыжки</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.56"><s>subject_story-&gt;stepped boldly into uncharted territories of knowledge</s><r>subject_story-&gt;смело шагнул на неизведанные территории знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.57"><s>subject_story-&gt;bridged the gap between the known and the unknown</s><r>subject_story-&gt;преодолел разрыв между известным и неизвестным</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.58"><s>subject_story-&gt;ventured where curiosity dared to lead</s><r>subject_story-&gt;рискнул туда, где любопытство осмелилось привести</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.59"><s>subject_gerund-&gt;embarking on journeys of discovery</s><r>subject_gerund-&gt;отправляясь в путешествие открытий</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.6"><s>subject_story-&gt;laid the groundwork for monumental leaps forward</s><r>subject_story-&gt;заложил основу для монументального скачка вперед</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.60"><s>subject-&gt;the essence of ingenuity</s><r>subject-&gt;суть изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.61"><s>subject_story-&gt;transformed challenges into opportunities for growth</s><r>subject_story-&gt;превратил проблемы в возможности для роста</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.62"><s>subject_story-&gt;applied creative thinking to overcome traditional obstacles</s><r>subject_story-&gt;применил творческое мышление для преодоления традиционных препятствий</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.63"><s>subject_story-&gt;crafted elegant solutions with a blend of art and science</s><r>subject_story-&gt;созданные элегантные решения, сочетающие искусство и науку</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.64"><s>subject_gerund-&gt;unlocking potential through innovation</s><r>subject_gerund-&gt;раскрытие потенциала через инновации</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.65"><s>subject-&gt;knowledge’s harvest</s><r>subject-&gt;урожай знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.66"><s>subject_story-&gt;gathered insights as one reaps the fields at harvest</s><r>subject_story-&gt;собирал идеи, когда собираешь урожай на полях</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.67"><s>subject_story-&gt;cultivated a bounty of understanding from the seeds of inquiry</s><r>subject_story-&gt;вырастил щедрость понимания из семян исследования</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.68"><s>subject_story-&gt;shared the fruits of research with the world</s><r>subject_story-&gt;поделился плодами исследований со всем миром</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.69"><s>subject_gerund-&gt;reaping the rewards of relentless curiosity</s><r>subject_gerund-&gt;пожинать плоды неустанного любопытства</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.7"><s>subject_story-&gt;connected dots across disciplines to reveal new insights</s><r>subject_story-&gt;связали точки между дисциплинами, чтобы выявить новые идеи</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.70"><s>subject-&gt;the puzzle of progress</s><r>subject-&gt;загадка прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.71"><s>subject_story-&gt;assembled the pieces of mystery to reveal the big picture</s><r>subject_story-&gt;собрал кусочки тайны, чтобы раскрыть общую картину</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.72"><s>subject_story-&gt;matched theory with practice to solve longstanding puzzles</s><r>subject_story-&gt;сочетать теорию с практикой для решения давних загадок</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.73"><s>subject_story-&gt;uncovered hidden connections that unlocked new possibilities</s><r>subject_story-&gt;раскрыл скрытые связи, которые открыли новые возможности</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.74"><s>subject_gerund-&gt;piecing together the elements of advancement</s><r>subject_gerund-&gt;собираем воедино элементы продвижения</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.8"><s>subject_story-&gt;crafted the foundation upon which future innovations stand</s><r>subject_story-&gt;создали основу, на которой стоят будущие инновации</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.generalRules.rulesStrings.9"><s>subject_gerund-&gt;laying down the keystones of advancement</s><r>subject_gerund-&gt;закладывая краеугольные камни продвижения</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenAppliances.label"><s>kitchen appliances</s><r>кухонная техника</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.description"><s>Build furniture for kitchens and feast halls.</s><r>Стройте мебель для кухонь и пиршественных залов.</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.0"><s>subject-&gt;innovation's path</s><r>subject-&gt;путь инноваций</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.1"><s>subject_story-&gt;unveiled simple truths behind complex phenomena</s><r>subject_story-&gt;раскрыл простые истины, стоящие за сложными явлениями</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.10"><s>subject-&gt;seeds of tomorrow</s><r>subject-&gt;семена завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.11"><s>subject_story-&gt;planted ideas that would grow into transformative solutions</s><r>subject_story-&gt;посадил идеи, которые переросли в преобразующие решения</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.12"><s>subject_story-&gt;cultivated a garden of knowledge, ripe with potential</s><r>subject_story-&gt;возделывал сад знаний, полный потенциала</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.13"><s>subject_story-&gt;nurtured the roots of change with care and foresight</s><r>subject_story-&gt;заботливо и дальновидно взращивали корни перемен</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.14"><s>subject_gerund-&gt;sowing the future with today’s discoveries</s><r>subject_gerund-&gt;сея будущее с сегодняшними открытиями</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.15"><s>subject-&gt;the ripple of curiosity</s><r>subject-&gt;волна любопытства</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.16"><s>subject_story-&gt;set forth waves of inquiry that echoed through time</s><r>subject_story-&gt;излагать волны исследований, которые эхом отдавались во времени</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.17"><s>subject_story-&gt;dropped pebbles of innovation into the pond of knowledge</s><r>subject_story-&gt;бросил камешки инноваций в пруд знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.18"><s>subject_story-&gt;watched as one question led to another, expanding the circle of understanding</s><r>subject_story-&gt;наблюдал, как один вопрос влек за собой другой, расширяя круг понимания</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.19"><s>subject_gerund-&gt;casting stones to create waves of progress</s><r>subject_gerund-&gt;бросать камни для создания волн прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.2"><s>subject_story-&gt;simplified the intricate to make way for practical applications</s><r>subject_story-&gt;упростил сложную задачу, освободив место для практического применения</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.20"><s>subject-&gt;the alchemy of progress</s><r>subject-&gt;алхимия прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.21"><s>subject_story-&gt;merged disparate disciplines to unlock new realms of possibility</s><r>subject_story-&gt;объединили разрозненные дисциплины, чтобы открыть новые сферы возможностей</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.22"><s>subject_story-&gt;turned the impossible into the inevitable through sheer ingenuity</s><r>subject_story-&gt;превратил невозможное в неизбежное благодаря своей изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.23"><s>subject_story-&gt;crafted solutions that reshaped the understanding of what's achievable</s><r>subject_story-&gt;разработанные решения, которые изменили понимание того, что достижимо</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.24"><s>subject_gerund-&gt;blending science and magic into the fabric of reality</s><r>subject_gerund-&gt;смешивание науки и магии в ткань реальности</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.25"><s>subject-&gt;the tapestry of discovery</s><r>subject-&gt;гобелен открытий</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.26"><s>subject_story-&gt;wove together threads of knowledge from the four corners of the world</s><r>subject_story-&gt;сплели воедино нити знаний из четырех уголков мира</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.27"><s>subject_story-&gt;revealed patterns in the chaos, charting paths to untold innovations</s><r>subject_story-&gt;выявил закономерности в хаосе, проложив пути к неисчислимым инновациям</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.28"><s>subject_story-&gt;embroidered the annals of history with tales of serendipitous breakthroughs</s><r>subject_story-&gt;украсили анналы истории рассказами о счастливых открытиях</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.29"><s>subject_gerund-&gt;weaving the future from the loom of the present</s><r>subject_gerund-&gt;плетение будущего на станке настоящего</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.3"><s>subject_story-&gt;harnessed basic principles to achieve remarkable feats</s><r>subject_story-&gt;использовал основные принципы для достижения выдающихся подвигов</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.30"><s>subject-&gt;the crucible of creation</s><r>subject-&gt;тигель творения</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.31"><s>subject_story-&gt;fused raw elements into the building blocks of tomorrow</s><r>subject_story-&gt;соединил необработанные элементы в строительные блоки завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.32"><s>subject_story-&gt;tempered the fires of creativity to forge unprecedented technologies</s><r>subject_story-&gt;умерил огонь творчества, чтобы создать беспрецедентные технологии</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.33"><s>subject_story-&gt;quenched the thirst for knowledge with the elixir of invention</s><r>subject_story-&gt;утолил жажду знаний эликсиром изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.34"><s>subject_gerund-&gt;molding the raw materials of today into the artifacts of the future</s><r>subject_gerund-&gt;превращение сегодняшнего сырья в артефакты будущего</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.35"><s>subject-&gt;the beacon of enlightenment</s><r>subject-&gt;маяк просвещения</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.36"><s>subject_story-&gt;illuminated the dark corners of ignorance, guiding the way forward</s><r>subject_story-&gt;освещал темные уголки невежества, указывая путь вперед</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.37"><s>subject_story-&gt;cast light on the unknown, making the unseen visible to curious minds</s><r>subject_story-&gt;пролить свет на неизведанное, сделать невидимое видимым для любопытных умов</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.38"><s>subject_story-&gt;ignited the flames of curiosity, kindling a worldwide pursuit of understanding</s><r>subject_story-&gt;зажег пламя любопытства, разжигая стремление к пониманию во всем мире.</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.39"><s>subject_gerund-&gt;lighting the torches of progress and knowledge</s><r>subject_gerund-&gt;зажигая факелы прогресса и знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.4"><s>subject_gerund-&gt;streamlining the essence of discovery</s><r>subject_gerund-&gt;оптимизация сути открытия</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.40"><s>subject-&gt;the frontier of knowledge</s><r>subject-&gt;граница знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.41"><s>subject_story-&gt;crossed new horizons in the pursuit of understanding</s><r>subject_story-&gt;пересек новые горизонты в поисках понимания</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.42"><s>subject_story-&gt;challenged the status quo with groundbreaking theories</s><r>subject_story-&gt;бросил вызов статус-кво с помощью новаторских теорий</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.43"><s>subject_story-&gt;merged ancient wisdom with modern technology for innovative solutions</s><r>subject_story-&gt;объединили древнюю мудрость с современными технологиями для инновационных решений</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.44"><s>subject_gerund-&gt;pushing the boundaries of science and art</s><r>subject_gerund-&gt;расширяя границы науки и искусства</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.45"><s>subject-&gt;the essence of innovation</s><r>subject-&gt;суть инноваций</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.46"><s>subject_story-&gt;transformed everyday materials into extraordinary tools</s><r>subject_story-&gt;превратил повседневные материалы в необычные инструменты</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.47"><s>subject_story-&gt;paved the way for future generations with sustainable practices</s><r>subject_story-&gt;проложили путь будущим поколениям с помощью устойчивых методов</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.48"><s>subject_story-&gt;harnessed the power of nature to fuel new advancements</s><r>subject_story-&gt;использовали силу природы для стимулирования новых достижений</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.49"><s>subject_gerund-&gt;fostering an ecosystem of creativity and progress</s><r>subject_gerund-&gt;содействие развитию экосистемы творчества и прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.5"><s>subject-&gt;building blocks of progress</s><r>subject-&gt;строительные блоки прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.50"><s>subject-&gt;the architects of tomorrow</s><r>subject-&gt;архитекторы завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.51"><s>subject_story-&gt;built the foundations for a utopia where technology serves all</s><r>subject_story-&gt;заложил основы утопии, где технологии служат всем</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.52"><s>subject_story-&gt;envisioned a future where harmony between technology and nature thrives</s><r>subject_story-&gt;представлял будущее, в котором процветает гармония между технологиями и природой</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.53"><s>subject_story-&gt;crafted tools that empower humanity to reach its fullest potential</s><r>subject_story-&gt;созданные инструменты, которые позволяют человечеству полностью раскрыть свой потенциал</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.54"><s>subject_gerund-&gt;laying the keystones for future landscapes</s><r>subject_gerund-&gt;закладываем краеугольные камни для будущих пейзажей</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.55"><s>subject-&gt;exploratory leaps</s><r>subject-&gt;исследовательские прыжки</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.56"><s>subject_story-&gt;stepped boldly into uncharted territories of knowledge</s><r>subject_story-&gt;смело шагнул на неизведанные территории знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.57"><s>subject_story-&gt;bridged the gap between the known and the unknown</s><r>subject_story-&gt;преодолел разрыв между известным и неизвестным</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.58"><s>subject_story-&gt;ventured where curiosity dared to lead</s><r>subject_story-&gt;рискнул туда, где любопытство осмелилось привести</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.59"><s>subject_gerund-&gt;embarking on journeys of discovery</s><r>subject_gerund-&gt;отправляясь в путешествие открытий</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.6"><s>subject_story-&gt;laid the groundwork for monumental leaps forward</s><r>subject_story-&gt;заложил основу для монументального скачка вперед</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.60"><s>subject-&gt;the essence of ingenuity</s><r>subject-&gt;суть изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.61"><s>subject_story-&gt;transformed challenges into opportunities for growth</s><r>subject_story-&gt;превратил проблемы в возможности для роста</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.62"><s>subject_story-&gt;applied creative thinking to overcome traditional obstacles</s><r>subject_story-&gt;применил творческое мышление для преодоления традиционных препятствий</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.63"><s>subject_story-&gt;crafted elegant solutions with a blend of art and science</s><r>subject_story-&gt;созданные элегантные решения, сочетающие искусство и науку</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.64"><s>subject_gerund-&gt;unlocking potential through innovation</s><r>subject_gerund-&gt;раскрытие потенциала через инновации</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.65"><s>subject-&gt;knowledge’s harvest</s><r>subject-&gt;урожай знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.66"><s>subject_story-&gt;gathered insights as one reaps the fields at harvest</s><r>subject_story-&gt;собирал идеи, когда собираешь урожай на полях</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.67"><s>subject_story-&gt;cultivated a bounty of understanding from the seeds of inquiry</s><r>subject_story-&gt;вырастил щедрость понимания из семян исследования</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.68"><s>subject_story-&gt;shared the fruits of research with the world</s><r>subject_story-&gt;поделился плодами исследований со всем миром</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.69"><s>subject_gerund-&gt;reaping the rewards of relentless curiosity</s><r>subject_gerund-&gt;пожинать плоды неустанного любопытства</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.7"><s>subject_story-&gt;connected dots across disciplines to reveal new insights</s><r>subject_story-&gt;связали точки между дисциплинами, чтобы выявить новые идеи</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.70"><s>subject-&gt;the puzzle of progress</s><r>subject-&gt;загадка прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.71"><s>subject_story-&gt;assembled the pieces of mystery to reveal the big picture</s><r>subject_story-&gt;собрал кусочки тайны, чтобы раскрыть общую картину</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.72"><s>subject_story-&gt;matched theory with practice to solve longstanding puzzles</s><r>subject_story-&gt;сочетать теорию с практикой для решения давних загадок</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.73"><s>subject_story-&gt;uncovered hidden connections that unlocked new possibilities</s><r>subject_story-&gt;раскрыл скрытые связи, которые открыли новые возможности</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.74"><s>subject_gerund-&gt;piecing together the elements of advancement</s><r>subject_gerund-&gt;собираем воедино элементы продвижения</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.8"><s>subject_story-&gt;crafted the foundation upon which future innovations stand</s><r>subject_story-&gt;создали основу, на которой стоят будущие инновации</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.generalRules.rulesStrings.9"><s>subject_gerund-&gt;laying down the keystones of advancement</s><r>subject_gerund-&gt;закладывая краеугольные камни продвижения</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_KitchenFurnishing.label"><s>kitchen furnishing</s><r>кухонная мебель</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PastryArts.description"><s>Prepare pastry dough with milk, flour and insect jelly/eggs, then bake it into pastries and pies.</s><r>Приготовьте тесто для выпечки из молока, муки и желе/яиц от насекомых, затем выпекайте из него выпечку и пироги.</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PastryArts.generalRules.rulesStrings.0"><s>subject-&gt;pastries</s><r>subject-&gt;выпечка</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PastryArts.generalRules.rulesStrings.1"><s>subject_story-&gt;satisfied the palate of the pickiest minefather of the sector</s><r>subject_story-&gt;удовлетворил вкус самого привередливого горняка отрасли</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PastryArts.generalRules.rulesStrings.2"><s>subject_story-&gt;baked one of the best cakes known to stonebornkind</s><r>subject_story-&gt;испекла один из лучших тортов, известных камнерожденным</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PastryArts.generalRules.rulesStrings.3"><s>subject_story-&gt;cooked berry and chocolate pies for [ANYPAWN_possessive] entire fleet</s><r>subject_story-&gt;приготовленные ягодные и шоколадные пироги для [ANYPAWN_possessive] всего автопарка</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PastryArts.generalRules.rulesStrings.4"><s>subject_gerund-&gt;baking sweets and pastries</s><r>subject_gerund-&gt;выпечка сладостей и выпечки</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PastryArts.label"><s>pastry arts</s><r>кондитерское искусство</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.description"><s>Build the carving table and harvest prime cuts from specific animals.</s><r>Постройте разделочный стол и собирайте лучшие отрубы конкретных животных.</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.0"><s>subject-&gt;innovation's path</s><r>subject-&gt;путь инноваций</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.1"><s>subject_story-&gt;unveiled simple truths behind complex phenomena</s><r>subject_story-&gt;раскрыл простые истины, стоящие за сложными явлениями</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.10"><s>subject-&gt;seeds of tomorrow</s><r>subject-&gt;семена завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.11"><s>subject_story-&gt;planted ideas that would grow into transformative solutions</s><r>subject_story-&gt;посадил идеи, которые переросли в преобразующие решения</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.12"><s>subject_story-&gt;cultivated a garden of knowledge, ripe with potential</s><r>subject_story-&gt;возделывал сад знаний, полный потенциала</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.13"><s>subject_story-&gt;nurtured the roots of change with care and foresight</s><r>subject_story-&gt;заботливо и дальновидно взращивали корни перемен</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.14"><s>subject_gerund-&gt;sowing the future with today’s discoveries</s><r>subject_gerund-&gt;сея будущее с сегодняшними открытиями</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.15"><s>subject-&gt;the ripple of curiosity</s><r>subject-&gt;волна любопытства</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.16"><s>subject_story-&gt;set forth waves of inquiry that echoed through time</s><r>subject_story-&gt;излагать волны исследований, которые эхом отдавались во времени</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.17"><s>subject_story-&gt;dropped pebbles of innovation into the pond of knowledge</s><r>subject_story-&gt;бросил камешки инноваций в пруд знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.18"><s>subject_story-&gt;watched as one question led to another, expanding the circle of understanding</s><r>subject_story-&gt;наблюдал, как один вопрос влек за собой другой, расширяя круг понимания</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.19"><s>subject_gerund-&gt;casting stones to create waves of progress</s><r>subject_gerund-&gt;бросать камни для создания волн прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.2"><s>subject_story-&gt;simplified the intricate to make way for practical applications</s><r>subject_story-&gt;упростил сложную задачу, освободив место для практического применения</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.20"><s>subject-&gt;the alchemy of progress</s><r>subject-&gt;алхимия прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.21"><s>subject_story-&gt;merged disparate disciplines to unlock new realms of possibility</s><r>subject_story-&gt;объединили разрозненные дисциплины, чтобы открыть новые сферы возможностей</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.22"><s>subject_story-&gt;turned the impossible into the inevitable through sheer ingenuity</s><r>subject_story-&gt;превратил невозможное в неизбежное благодаря своей изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.23"><s>subject_story-&gt;crafted solutions that reshaped the understanding of what's achievable</s><r>subject_story-&gt;разработанные решения, которые изменили понимание того, что достижимо</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.24"><s>subject_gerund-&gt;blending science and magic into the fabric of reality</s><r>subject_gerund-&gt;смешивание науки и магии в ткань реальности</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.25"><s>subject-&gt;the tapestry of discovery</s><r>subject-&gt;гобелен открытий</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.26"><s>subject_story-&gt;wove together threads of knowledge from the four corners of the world</s><r>subject_story-&gt;сплели воедино нити знаний из четырех уголков мира</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.27"><s>subject_story-&gt;revealed patterns in the chaos, charting paths to untold innovations</s><r>subject_story-&gt;выявил закономерности в хаосе, проложив пути к неисчислимым инновациям</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.28"><s>subject_story-&gt;embroidered the annals of history with tales of serendipitous breakthroughs</s><r>subject_story-&gt;украсили анналы истории рассказами о счастливых открытиях</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.29"><s>subject_gerund-&gt;weaving the future from the loom of the present</s><r>subject_gerund-&gt;плетение будущего на станке настоящего</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.3"><s>subject_story-&gt;harnessed basic principles to achieve remarkable feats</s><r>subject_story-&gt;использовал основные принципы для достижения выдающихся подвигов</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.30"><s>subject-&gt;the crucible of creation</s><r>subject-&gt;тигель творения</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.31"><s>subject_story-&gt;fused raw elements into the building blocks of tomorrow</s><r>subject_story-&gt;соединил необработанные элементы в строительные блоки завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.32"><s>subject_story-&gt;tempered the fires of creativity to forge unprecedented technologies</s><r>subject_story-&gt;умерил огонь творчества, чтобы создать беспрецедентные технологии</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.33"><s>subject_story-&gt;quenched the thirst for knowledge with the elixir of invention</s><r>subject_story-&gt;утолил жажду знаний эликсиром изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.34"><s>subject_gerund-&gt;molding the raw materials of today into the artifacts of the future</s><r>subject_gerund-&gt;превращение сегодняшнего сырья в артефакты будущего</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.35"><s>subject-&gt;the beacon of enlightenment</s><r>subject-&gt;маяк просвещения</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.36"><s>subject_story-&gt;illuminated the dark corners of ignorance, guiding the way forward</s><r>subject_story-&gt;освещал темные уголки невежества, указывая путь вперед</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.37"><s>subject_story-&gt;cast light on the unknown, making the unseen visible to curious minds</s><r>subject_story-&gt;пролить свет на неизведанное, сделать невидимое видимым для любопытных умов</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.38"><s>subject_story-&gt;ignited the flames of curiosity, kindling a worldwide pursuit of understanding</s><r>subject_story-&gt;зажег пламя любопытства, разжигая стремление к пониманию во всем мире.</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.39"><s>subject_gerund-&gt;lighting the torches of progress and knowledge</s><r>subject_gerund-&gt;зажигая факелы прогресса и знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.4"><s>subject_gerund-&gt;streamlining the essence of discovery</s><r>subject_gerund-&gt;оптимизация сути открытия</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.40"><s>subject-&gt;the frontier of knowledge</s><r>subject-&gt;граница знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.41"><s>subject_story-&gt;crossed new horizons in the pursuit of understanding</s><r>subject_story-&gt;пересек новые горизонты в поисках понимания</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.42"><s>subject_story-&gt;challenged the status quo with groundbreaking theories</s><r>subject_story-&gt;бросил вызов статус-кво с помощью новаторских теорий</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.43"><s>subject_story-&gt;merged ancient wisdom with modern technology for innovative solutions</s><r>subject_story-&gt;объединили древнюю мудрость с современными технологиями для инновационных решений</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.44"><s>subject_gerund-&gt;pushing the boundaries of science and art</s><r>subject_gerund-&gt;расширяя границы науки и искусства</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.45"><s>subject-&gt;the essence of innovation</s><r>subject-&gt;суть инноваций</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.46"><s>subject_story-&gt;transformed everyday materials into extraordinary tools</s><r>subject_story-&gt;превратил повседневные материалы в необычные инструменты</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.47"><s>subject_story-&gt;paved the way for future generations with sustainable practices</s><r>subject_story-&gt;проложили путь будущим поколениям с помощью устойчивых методов</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.48"><s>subject_story-&gt;harnessed the power of nature to fuel new advancements</s><r>subject_story-&gt;использовали силу природы для стимулирования новых достижений</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.49"><s>subject_gerund-&gt;fostering an ecosystem of creativity and progress</s><r>subject_gerund-&gt;содействие развитию экосистемы творчества и прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.5"><s>subject-&gt;building blocks of progress</s><r>subject-&gt;строительные блоки прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.50"><s>subject-&gt;the architects of tomorrow</s><r>subject-&gt;архитекторы завтрашнего дня</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.51"><s>subject_story-&gt;built the foundations for a utopia where technology serves all</s><r>subject_story-&gt;заложил основы утопии, где технологии служат всем</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.52"><s>subject_story-&gt;envisioned a future where harmony between technology and nature thrives</s><r>subject_story-&gt;представлял будущее, в котором процветает гармония между технологиями и природой</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.53"><s>subject_story-&gt;crafted tools that empower humanity to reach its fullest potential</s><r>subject_story-&gt;созданные инструменты, которые позволяют человечеству полностью раскрыть свой потенциал</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.54"><s>subject_gerund-&gt;laying the keystones for future landscapes</s><r>subject_gerund-&gt;закладываем краеугольные камни для будущих пейзажей</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.55"><s>subject-&gt;exploratory leaps</s><r>subject-&gt;исследовательские прыжки</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.56"><s>subject_story-&gt;stepped boldly into uncharted territories of knowledge</s><r>subject_story-&gt;смело шагнул на неизведанные территории знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.57"><s>subject_story-&gt;bridged the gap between the known and the unknown</s><r>subject_story-&gt;преодолел разрыв между известным и неизвестным</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.58"><s>subject_story-&gt;ventured where curiosity dared to lead</s><r>subject_story-&gt;рискнул туда, где любопытство осмелилось привести</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.59"><s>subject_gerund-&gt;embarking on journeys of discovery</s><r>subject_gerund-&gt;отправляясь в путешествие открытий</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.6"><s>subject_story-&gt;laid the groundwork for monumental leaps forward</s><r>subject_story-&gt;заложил основу для монументального скачка вперед</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.60"><s>subject-&gt;the essence of ingenuity</s><r>subject-&gt;суть изобретательности</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.61"><s>subject_story-&gt;transformed challenges into opportunities for growth</s><r>subject_story-&gt;превратил проблемы в возможности для роста</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.62"><s>subject_story-&gt;applied creative thinking to overcome traditional obstacles</s><r>subject_story-&gt;применил творческое мышление для преодоления традиционных препятствий</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.63"><s>subject_story-&gt;crafted elegant solutions with a blend of art and science</s><r>subject_story-&gt;созданные элегантные решения, сочетающие искусство и науку</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.64"><s>subject_gerund-&gt;unlocking potential through innovation</s><r>subject_gerund-&gt;раскрытие потенциала через инновации</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.65"><s>subject-&gt;knowledge’s harvest</s><r>subject-&gt;урожай знаний</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.66"><s>subject_story-&gt;gathered insights as one reaps the fields at harvest</s><r>subject_story-&gt;собирал идеи, когда собираешь урожай на полях</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.67"><s>subject_story-&gt;cultivated a bounty of understanding from the seeds of inquiry</s><r>subject_story-&gt;вырастил щедрость понимания из семян исследования</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.68"><s>subject_story-&gt;shared the fruits of research with the world</s><r>subject_story-&gt;поделился плодами исследований со всем миром</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.69"><s>subject_gerund-&gt;reaping the rewards of relentless curiosity</s><r>subject_gerund-&gt;пожинать плоды неустанного любопытства</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.7"><s>subject_story-&gt;connected dots across disciplines to reveal new insights</s><r>subject_story-&gt;связали точки между дисциплинами, чтобы выявить новые идеи</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.70"><s>subject-&gt;the puzzle of progress</s><r>subject-&gt;загадка прогресса</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.71"><s>subject_story-&gt;assembled the pieces of mystery to reveal the big picture</s><r>subject_story-&gt;собрал кусочки тайны, чтобы раскрыть общую картину</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.72"><s>subject_story-&gt;matched theory with practice to solve longstanding puzzles</s><r>subject_story-&gt;сочетать теорию с практикой для решения давних загадок</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.73"><s>subject_story-&gt;uncovered hidden connections that unlocked new possibilities</s><r>subject_story-&gt;раскрыл скрытые связи, которые открыли новые возможности</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.74"><s>subject_gerund-&gt;piecing together the elements of advancement</s><r>subject_gerund-&gt;собираем воедино элементы продвижения</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.8"><s>subject_story-&gt;crafted the foundation upon which future innovations stand</s><r>subject_story-&gt;создали основу, на которой стоят будущие инновации</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.generalRules.rulesStrings.9"><s>subject_gerund-&gt;laying down the keystones of advancement</s><r>subject_gerund-&gt;закладывая краеугольные камни продвижения</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_PrimeCuisine.label"><s>prime cuisine</s><r>лучшая кухня</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_SalamiAndCheese.description"><s>Prepare fresh cheese to let it age into proper dwarven cheese, or cure raw meat for storing or traveling.</s><r>Приготовьте свежий сыр, чтобы он состарился и превратился в настоящий дварфийский сыр, или заготовьте сырое мясо для хранения или путешествий.</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_SalamiAndCheese.generalRules.rulesStrings.0"><s>subject-&gt;curing</s><r>subject-&gt;лечение</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_SalamiAndCheese.generalRules.rulesStrings.1"><s>subject_story-&gt;made enough cheese to feed a starving platewyrm</s><r>subject_story-&gt;сделал достаточно сыра, чтобы накормить голодающего пластинчатого змея</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_SalamiAndCheese.generalRules.rulesStrings.2"><s>subject_story-&gt;accidentally let some cheese age for too long</s><r>subject_story-&gt;случайно позволил сыру вызревать слишком долго</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_SalamiAndCheese.generalRules.rulesStrings.3"><s>subject_story-&gt;supplied an entire expedition with cured meat</s><r>subject_story-&gt;снабжал всю экспедицию вяленым мясом</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_SalamiAndCheese.generalRules.rulesStrings.4"><s>subject_story-&gt;lived purely off of salted fish for years</s><r>subject_story-&gt;жил исключительно за счет соленой рыбы в течение многих лет</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_SalamiAndCheese.generalRules.rulesStrings.5"><s>subject_gerund-&gt;curing meat and cheese</s><r>subject_gerund-&gt;консервирование мяса и сыра</r></e>
+  <e k="D" t="ResearchProjectDef" key="SC_SalamiAndCheese.label"><s>aging and drying</s><r>старение и сушка</r></e>
+  <e k="D" t="ResearchTabDef" key="StonebornTab.generalDescription"><s>Unlock stoneborn technologies, from cooking, to fermenting ales and wines, to even weaponry.</s><r>Разблокируйте каменные технологии: от кулинарии до ферментации элей и вин и даже оружия.</r></e>
+  <e k="D" t="ResearchTabDef" key="StonebornTab.generalTitle"><s>Stoneborn research projects</s><r>Исследовательские проекты Stoneborn</r></e>
+  <e k="D" t="ResearchTabDef" key="StonebornTab.label"><s>Stoneborn</s><r>Каменорожденный</r></e>
+  <e k="D" t="TerrainDef" key="SC_PreparedSoil.description"><s>A spreadable form of gravel for growing fungal crops underground. It must be placed under overhead mountain so the dank coolness of the depths can nourish the fungal spores.</s><r>Разбрасываемая форма гравия для выращивания грибковых культур под землей. Его необходимо поместить под гору, чтобы сырая прохлада глубин могла питать споры грибов.</r></e>
+  <e k="D" t="TerrainDef" key="SC_PreparedSoil.label"><s>prepared soil</s><r>подготовленная почва</r></e>
+  <e k="D" t="ThingCategoryDef" key="DV_CuredFood.label"><s>cured meat</s><r>вяленое мясо</r></e>
+  <e k="D" t="ThingCategoryDef" key="DV_DwarvenDesserts.label"><s>desserts</s><r>десерты</r></e>
+  <e k="D" t="ThingCategoryDef" key="DV_DwarvenFeasts.label"><s>feasts</s><r>пиры</r></e>
+  <e k="D" t="ThingCategoryDef" key="DV_DwarvenFoods.label"><s>stoneborn food</s><r>камнерожденная еда</r></e>
+  <e k="D" t="ThingCategoryDef" key="DV_DwarvenGrills.label"><s>grills</s><r>грили</r></e>
+  <e k="D" t="ThingCategoryDef" key="DV_DwarvenIngredient.label"><s>ingredients</s><r>ингредиенты</r></e>
+  <e k="D" t="ThingCategoryDef" key="DV_PrimeCuts.label"><s>prime cuts</s><r>простые сокращения</r></e>
+  <e k="D" t="ThingCategoryDef" key="SC_FlourRaw.label"><s>flour</s><r>мука</r></e>
+  <e k="D" t="ThingDef" key="Mote_FeastSparkles.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="SC_ArchotechMicrowave.description"><s>A portable archotech machine that generates powerful radioactive microwaves, causing the molecules of matter stored inside to begin violently vibrating.</s><r>Портативная архотех-машина, генерирующая мощные радиоактивные микроволны, заставляющие хранящиеся внутри молекулы вещества начинать яростно вибрировать.</r></e>
+  <e k="D" t="ThingDef" key="SC_ArchotechMicrowave.label"><s>quantum microgenerator</s><r>квантовый микрогенератор</r></e>
+  <e k="D" t="ThingDef" key="SC_ArtificialHive.description"><s>An artificial hive, with a juvenile queen inside. It slowly and constantly produces insect jelly.</s><r>Искусственный улей с молодой королевой внутри. Он медленно и постоянно производит желе из насекомых.</r></e>
+  <e k="D" t="ThingDef" key="SC_ArtificialHive.label"><s>insectiary</s><r>инсектиарий</r></e>
+  <e k="D" t="ThingDef" key="SC_AssortedHerbs.description"><s>An assorted bundle of herbs, ready for cooking.</s><r>Ассорти из трав, готовый к приготовлению.</r></e>
+  <e k="D" t="ThingDef" key="SC_AssortedHerbs.label"><s>herbs</s><r>травы</r></e>
+  <e k="D" t="ThingDef" key="SC_Bench1x3c.description"><s>A simple platform on which to sit. Not very comfortable, but much better than nothing. Can be used at tables, work stations, and elsewhere.</s><r>Простая платформа, на которой можно сидеть. Не очень удобно, но гораздо лучше, чем ничего. Можно использовать за столами, рабочими местами и в других местах.</r></e>
+  <e k="D" t="ThingDef" key="SC_Bench1x3c.label"><s>bench (1x3)</s><r>скамейка (1х3)</r></e>
+  <e k="D" t="ThingDef" key="SC_Bench1x5c.description"><s>A simple platform on which to sit. Not very comfortable, but much better than nothing. Can be used at tables, work stations, and elsewhere.</s><r>Простая платформа, на которой можно сидеть. Не очень удобно, но гораздо лучше, чем ничего. Можно использовать за столами, рабочими местами и в других местах.</r></e>
+  <e k="D" t="ThingDef" key="SC_Bench1x5c.label"><s>bench (1x5)</s><r>скамейка (1х5)</r></e>
+  <e k="D" t="ThingDef" key="SC_BerryPie.description"><s>Sweet, warm pie made with berries. Warms the soul and heart.</s><r>Сладкий, теплый пирог с ягодами. Согревает душу и сердце.</r></e>
+  <e k="D" t="ThingDef" key="SC_BerryPie.label"><s>berry pie</s><r>ягодный пирог</r></e>
+  <e k="D" t="ThingDef" key="SC_BitterNectar.description"><s>Thick, bitter nectar created by bitterpot sporocarp.</s><r>Густой, горький нектар, создаваемый спорокарпом горького горшочка.</r></e>
+  <e k="D" t="ThingDef" key="SC_BitterNectar.label"><s>bitter nectar</s><r>горький нектар</r></e>
+  <e k="D" t="ThingDef" key="SC_Bitterstrug.description"><s>A tangy drink brewed with concentrated bitter nectar. Bitterstrug, also called &quot;dwarven coffee&quot;, is an energizing beverage often drank in the early mornings, right before getting to work in the mines or in the forge. It's bitter with a fruity note, and doesn't need any sugar.</s><r>Острый напиток, приготовленный из концентрированного горького нектара. Биттерструг, также называемый «гномьим кофе», — это бодрящий напиток, который часто пьют ранним утром, прямо перед тем, как приступить к работе в шахтах или кузнице. Он горький с фруктовыми нотками и не требует сахара.</r></e>
+  <e k="D" t="ThingDef" key="SC_Bitterstrug.ingestible.ingestCommandString"><s>Drink {0}</s><r>Выпей {0}</r></e>
+  <e k="D" t="ThingDef" key="SC_Bitterstrug.ingestible.ingestReportString"><s>Drinking {0}.</s><r>Пью {0}.</r></e>
+  <e k="D" t="ThingDef" key="SC_Bitterstrug.label"><s>bitterstrug</s><r>горькое беспокойство</r></e>
+  <e k="D" t="ThingDef" key="SC_Brickloaf.description"><s>A large sheet of hard focaccia cut into manageable bricks. Last for an incredibly long time.</s><r>Большой лист твердой фокаччи, разрезанный на удобные кубики. Держится невероятно долго.</r></e>
+  <e k="D" t="ThingDef" key="SC_Brickloaf.label"><s>brickloaf</s><r>кирпичный рулет</r></e>
+  <e k="D" t="ThingDef" key="SC_Brickloaf.tools.0.label"><s>loaf</s><r>буханка</r></e>
+  <e k="D" t="ThingDef" key="SC_BrickloafWall.description"><s>An impassable wall made out of brickloaf. Not durable, but it takes little effort to build. Capable of holding up a roof.</s><r>Непроходимая стена из кирпича. Не долговечен, но для сборки требуется мало усилий. Способен держать крышу.</r></e>
+  <e k="D" t="ThingDef" key="SC_BrickloafWall.label"><s>brickloaf wall</s><r>стена из кирпичной головы</r></e>
+  <e k="D" t="ThingDef" key="SC_Burger_Caveburger.description"><s>Insect meat minced and grilled fully, then topped with sliced caramelized fungus.</s><r>Мясо насекомых измельчают и полностью запекают на гриле, затем покрывают нарезанными карамелизированными грибами.</r></e>
+  <e k="D" t="ThingDef" key="SC_Burger_Caveburger.label"><s>cave rockburger</s><r>пещерный рокбургер</r></e>
+  <e k="D" t="ThingDef" key="SC_Burger_Cheeseburger.description"><s>Meat minced and grilled to perfect medium rare, then topped with dwarven cheese.</s><r>Мясо измельчают и жарят на гриле до идеальной средней прожарки, а затем покрывают гномьим сыром.</r></e>
+  <e k="D" t="ThingDef" key="SC_Burger_Cheeseburger.label"><s>cheese rockburger</s><r>сырный рокбургер</r></e>
+  <e k="D" t="ThingDef" key="SC_Burger_Veggieburger.description"><s>Vegetables minced and formed into a patty, then grilled and topped with fresh vegetables.</s><r>Овощи измельчили и сформировали котлету, затем обжарили на гриле и покрыли свежими овощами.</r></e>
+  <e k="D" t="ThingDef" key="SC_Burger_Veggieburger.label"><s>veggie rockburger</s><r>вегетарианский рокбургер</r></e>
+  <e k="D" t="ThingDef" key="SC_ButterTarts.description"><s>Puffy, flaky tarts with a distinct butter flavor and a gooey buttery filling. They're a great dessert and a valuable product to sell.</s><r>Пышные, слоеные пироги с отчетливым сливочным вкусом и липкой маслянистой начинкой. Это отличный десерт и ценный продукт для продажи.</r></e>
+  <e k="D" t="ThingDef" key="SC_ButterTarts.label"><s>butter tarts</s><r>масляные пироги</r></e>
+  <e k="D" t="ThingDef" key="SC_CarvingTable.description"><s>A simple tough wooden bench to finely carve prime cuts out of specific animals.</s><r>Простая прочная деревянная скамейка для точной вырезки кусков конкретных животных.</r></e>
+  <e k="D" t="ThingDef" key="SC_CarvingTable.label"><s>carving table</s><r>стол для резьбы</r></e>
+  <e k="D" t="ThingDef" key="SC_CheesePie.description"><s>Soft, springy cheesecake made with dwarven cheese. Warms the soul and heart.</s><r>Мягкий, упругий чизкейк с гномьим сыром. Согревает душу и сердце.</r></e>
+  <e k="D" t="ThingDef" key="SC_CheesePie.label"><s>baked cheesecake</s><r>запеченный чизкейк</r></e>
+  <e k="D" t="ThingDef" key="SC_Cheesesteak.description"><s>Warm rockbread, sliced open and stuffed with hot meat and melted cheese.</s><r>Теплый каменный хлеб, нарезанный ломтиками и начиненный горячим мясом и плавленым сыром.</r></e>
+  <e k="D" t="ThingDef" key="SC_Cheesesteak.label"><s>cheesesteak</s><r>чизстейк</r></e>
+  <e k="D" t="ThingDef" key="SC_ChocolatePie.description"><s>Smooth, delicious pie made with chocolate. Warms the soul and heart.</s><r>Нежный, вкусный пирог с шоколадом. Согревает душу и сердце.</r></e>
+  <e k="D" t="ThingDef" key="SC_ChocolatePie.label"><s>chocolate pie</s><r>шоколадный пирог</r></e>
+  <e k="D" t="ThingDef" key="SC_Counter1x3c.description"><s>People eat off tables when chairs are placed facing them.</s><r>Люди едят за столом, когда стулья стоят напротив них.</r></e>
+  <e k="D" t="ThingDef" key="SC_Counter1x3c.label"><s>counter (1x3)</s><r>счетчик (1х3)</r></e>
+  <e k="D" t="ThingDef" key="SC_Counter1x5c.description"><s>People eat off tables when chairs are placed facing them.</s><r>Люди едят за столом, когда стулья стоят напротив них.</r></e>
+  <e k="D" t="ThingDef" key="SC_Counter1x5c.label"><s>counter (1x5)</s><r>счетчик (1х5)</r></e>
+  <e k="D" t="ThingDef" key="SC_CountryFriedMuffalo.description"><s>A crispy breaded steak served with a side of mashed potatoes and smooth gravy.</s><r>Хрустящий стейк в панировке, подается с картофельным пюре и нежным соусом.</r></e>
+  <e k="D" t="ThingDef" key="SC_CountryFriedMuffalo.label"><s>country-fried muffalo</s><r>муффало, жареное по-деревенски</r></e>
+  <e k="D" t="ThingDef" key="SC_Creamgrub.description"><s>A bioengineered grub the size of a sheep. Creamgrubs produce creamsilk, originally used for the cocoons of their adult stages. Their bodies are filled to the brim with dwarven milk, which can be gently removed upon death.</s><r>Биоинженерная личинка размером с овцу. Creamgrubs производят кремовый шелк, который первоначально использовался для коконов на взрослых стадиях. Их тела до краев наполнены дварфийским молоком, которое можно аккуратно удалить после смерти.</r></e>
+  <e k="D" t="ThingDef" key="SC_Creamgrub.label"><s>creamgrub</s><r>сливочный глоток</r></e>
+  <e k="D" t="ThingDef" key="SC_Creamgrub.tools.0.label"><s>mandibles</s><r>челюсти</r></e>
+  <e k="D" t="ThingDef" key="SC_Creamgrub.tools.1.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="SC_Creamsilk.description"><s>Stretchy and surprisingly breathable silk harvested from creamgrubs.</s><r>Эластичный и удивительно дышащий шелк, полученный из кремовых личинок.</r></e>
+  <e k="D" t="ThingDef" key="SC_Creamsilk.label"><s>creamsilk</s><r>кремовый шелк</r></e>
+  <e k="D" t="ThingDef" key="SC_CrispyMegasloth.description"><s>Fatty belly crisped up for a long time inside an oven, plated with a sweet and spicy sauce.</s><r>Жирное брюшко, долго хрустящее в духовке, полито сладко-острым соусом.</r></e>
+  <e k="D" t="ThingDef" key="SC_CrispyMegasloth.label"><s>crispy megasloth belly</s><r>хрустящий живот мегаленивца</r></e>
+  <e k="D" t="ThingDef" key="SC_CuredMeat.description"><s>Cleaned and salted meat. Cured by hanging it off a rack for a prolonged amount of time.
+
+It can still be used for dishes, but can also be eaten raw.</s><r>Очищенное и посоленное мясо. Вылечено, если повесить его на стойку на длительное время.
+
+Его по-прежнему можно использовать для приготовления блюд, но также можно есть сырым.</r></e>
+  <e k="D" t="ThingDef" key="SC_CuredMeat.label"><s>cured meat</s><r>вяленое мясо</r></e>
+  <e k="D" t="ThingDef" key="SC_CuringRack.description"><s>A wooden rack to hang meat or fish to dry and age.</s><r>Деревянная стойка, на которой можно подвешивать мясо или рыбу для сушки и выдержки.</r></e>
+  <e k="D" t="ThingDef" key="SC_CuringRack.label"><s>curing rack</s><r>стойка для отверждения</r></e>
+  <e k="D" t="ThingDef" key="SC_DriedHuman.description"><s>Treated human flesh.  Dried by hanging it off a rack for a prolonged amount of time.
+
+It can still be used for dishes, but can also be eaten raw.</s><r>Обработанная человеческая плоть.  Сушат, подвешивая на стойку на длительное время.
+
+Его можно использовать для приготовления блюд, но можно есть и сырым.</r></e>
+  <e k="D" t="ThingDef" key="SC_DriedHuman.label"><s>dried human meat</s><r>сушеное человеческое мясо</r></e>
+  <e k="D" t="ThingDef" key="SC_DwarvenButter.description"><s>Butter produced from dwarven milk. Earthier than normal butter, and somewhat sweet.</s><r>Масло, произведенное из молока гномов. Более землистое, чем обычное сливочное масло, и несколько сладкое.</r></e>
+  <e k="D" t="ThingDef" key="SC_DwarvenButter.label"><s>dwarven butter</s><r>дварфийское масло</r></e>
+  <e k="D" t="ThingDef" key="SC_DwarvenCheese.description"><s>Soft, smooth cheese inside of a hard waxy shell. The result of a long dry-aging process.</s><r>Мягкий, гладкий сыр внутри твердой восковой оболочки. Результат длительного процесса сухого старения.</r></e>
+  <e k="D" t="ThingDef" key="SC_DwarvenCheese.label"><s>dwarven cheese</s><r>гномий сыр</r></e>
+  <e k="D" t="ThingDef" key="SC_DwarvenMilk.description"><s>Milk from a cave animal, of stoneborn origin.</s><r>Молоко пещерного животного камнерожденного происхождения.</r></e>
+  <e k="D" t="ThingDef" key="SC_DwarvenMilk.label"><s>dwarven milk</s><r>дварфийское молоко</r></e>
+  <e k="D" t="ThingDef" key="SC_DwarvenOven.description"><s>A rustic brick-built oven which is used for various stoneborn recipes.</s><r>Деревенская кирпичная печь, в которой готовят различные каменные рецепты.</r></e>
+  <e k="D" t="ThingDef" key="SC_DwarvenOven.label"><s>dwarven kiln</s><r>гномья печь</r></e>
+  <e k="D" t="ThingDef" key="SC_EggCreamgrubFertilized.description"><s>A fertilized creamgrub egg. If all goes well, it should hatch into a larva. It can be eaten raw, but it's much better cooked.</s><r>Оплодотворенное яйцо личинки. Если все пойдет хорошо, из него должна вылупиться личинка. Его можно есть сырым, но приготовленным он гораздо вкуснее.</r></e>
+  <e k="D" t="ThingDef" key="SC_EggCreamgrubFertilized.label"><s>creamgrub egg (fert.)</s><r>яйцо сливочника (ферт.)</r></e>
+  <e k="D" t="ThingDef" key="SC_EggCreamgrubUnfertilized.description"><s>An unfertilized creamgrub egg. It can be eaten raw, but it's much, much better cooked.</s><r>Неоплодотворенное яйцо личинки. Его можно есть сырым, но приготовленным он гораздо вкуснее.</r></e>
+  <e k="D" t="ThingDef" key="SC_EggCreamgrubUnfertilized.label"><s>creamgrub egg (unfert.)</s><r>яйцо Creamgrub (неферт.)</r></e>
+  <e k="D" t="ThingDef" key="SC_EggsNBacon.description"><s>Sunny side up eggs with a side of greasy, salty bacon.</s><r>Яйца солнечной стороной вверх с жирным соленым беконом.</r></e>
+  <e k="D" t="ThingDef" key="SC_EggsNBacon.label"><s>eggs n' bacon</s><r>яйца с беконом</r></e>
+  <e k="D" t="ThingDef" key="SC_Feast_CrustedFillet.description"><s>A fine fillet, seared lightly, then wrapped firstly in a mushroom duxelles, followed by a layer of pastry dough. The dough is then basted with melted butter right before baking.
+
+&lt;color=#6e6e6eff&gt;One of Gorestone Ramsay's signature dishes, a direct quote from a recipe holovid: &quot;Look at it.. I'm ready to die, and go to heaven..&quot;&lt;/color&gt;</s><r>Тонкое филе, слегка обжаренное, затем завернутое сначала в грибной дюсель, а затем в слой слоеного теста. Затем тесто поливают топленым маслом прямо перед выпечкой.
+
+&lt;color=#6e6e6eff&gt;Одно из фирменных блюд Горстоуна Рамзи, прямая цитата из головидки с рецептом: «Посмотри на это.. Я готов умереть и попасть в рай..»&lt;/color&gt;</r></e>
+  <e k="D" t="ThingDef" key="SC_Feast_CrustedFillet.label"><s>crusted fillet</s><r>филе с корочкой</r></e>
+  <e k="D" t="ThingDef" key="SC_Feast_IceCream.description"><s>Creamy, sweet cold cream. Nourishes the soul.</s><r>Сливочный, сладкий кольдкрем. Питает душу.</r></e>
+  <e k="D" t="ThingDef" key="SC_Feast_IceCream.label"><s>ice cream</s><r>мороженое</r></e>
+  <e k="D" t="ThingDef" key="SC_Feast_JellyGlazedShank.description"><s>The thigh or shank of an animal, scored, spiced and oven baked to perfection. During baking it's glazed with a tangy sauce made from insect jelly.</s><r>Бедро или голяшка животного, порезанная, приправленная специями и запеченная в духовке до совершенства. Во время запекания его поливают пикантным соусом из желе насекомых.</r></e>
+  <e k="D" t="ThingDef" key="SC_Feast_JellyGlazedShank.label"><s>jelly glazed shank</s><r>рулька глазурованная желе</r></e>
+  <e k="D" t="ThingDef" key="SC_Feast_MushroomSoup.description"><s>A simple roux of dwarven milk, mixed with fungus and herbs, slow-cooked in the oven and then served with softened rockbread slices. This is the most common meal eaten by stoneborn miners.</s><r>Простой соус из дварфийского молока, смешанного с грибами и травами, медленно приготовленный в духовке, а затем поданный с размягченными ломтиками каменного хлеба. Это самая распространенная еда, которую едят камнерожденные шахтеры.</r></e>
+  <e k="D" t="ThingDef" key="SC_Feast_MushroomSoup.label"><s>cream of mushroom soup</s><r>грибной крем-суп</r></e>
+  <e k="D" t="ThingDef" key="SC_Feast_RoastedMegascarab.description"><s>A fresh megascarab, expertly cut and cleaned, then roasted in the oven along with fungus and spices. The shell keeps the meat inside delicate and moist.</s><r>Свежий мегаскарабей, искусно нарезанный и очищенный, а затем зажаренный в духовке вместе с грибами и специями. Оболочка сохраняет мясо внутри нежным и влажным.</r></e>
+  <e k="D" t="ThingDef" key="SC_Feast_RoastedMegascarab.label"><s>roasted megascarab</s><r>жареный мегаскарабей</r></e>
+  <e k="D" t="ThingDef" key="SC_Feast_RockdoughPizza.description"><s>Dough spread out and hammered into shape, topped with sauce first, then with dwarven cheese, and various vegetables. Sliced right out the oven for the best cheese pulls.</s><r>Тесто разложили и придали ему форму, полив сначала соусом, затем дварфийским сыром и различными овощами. Нарезанный прямо из духовки, чтобы получить лучшие сырные ломтики.</r></e>
+  <e k="D" t="ThingDef" key="SC_Feast_RockdoughPizza.label"><s>rockdough pizza</s><r>пицца Рокдоу</r></e>
+  <e k="D" t="ThingDef" key="SC_Filth_Milk.label"><s>dwarven milk</s><r>дварфийское молоко</r></e>
+  <e k="D" t="ThingDef" key="SC_Flour.description"><s>Powdery and dense fungal flour. Used for stoneborn baking recipes.</s><r>Порошкообразная и плотная грибная мука. Используется для рецептов каменной выпечки.</r></e>
+  <e k="D" t="ThingDef" key="SC_Flour.label"><s>fungal flour</s><r>грибковая мука</r></e>
+  <e k="D" t="ThingDef" key="SC_FoodSpot.comps.1.optionalNames.0"><s>Simple meal spot</s><r>Простое место для еды</r></e>
+  <e k="D" t="ThingDef" key="SC_FoodSpot.comps.1.optionalNames.1"><s>Wooden plate</s><r>Деревянная тарелка</r></e>
+  <e k="D" t="ThingDef" key="SC_FoodSpot.comps.1.optionalNames.2"><s>Baking paper</s><r>Бумага для выпечки</r></e>
+  <e k="D" t="ThingDef" key="SC_FoodSpot.description"><s>A spot designated for storing meals and foods, usually for large tables and feasts.</s><r>Место, предназначенное для хранения еды и продуктов, обычно для больших столов и пиров.</r></e>
+  <e k="D" t="ThingDef" key="SC_FoodSpot.label"><s>meal spot</s><r>место еды</r></e>
+  <e k="D" t="ThingDef" key="SC_FrozenFeast_CrustedFillet.description"><s>A fine fillet, seared lightly, then wrapped firstly in a mushroom duxelles, followed by a layer of pastry dough. The dough is then basted with melted butter right before baking.
+
+This feast has been refridgerated or frozen, and isn't as tasty anymore.</s><r>Тонкое филе, слегка обжаренное, затем завернутое сначала в грибной дюсель, а затем в слой слоеного теста. Затем прямо перед выпечкой тесто поливают растопленным сливочным маслом.
+
+Этот праздник хранили в холодильнике или замораживали, и он уже не такой вкусный.</r></e>
+  <e k="D" t="ThingDef" key="SC_FrozenFeast_CrustedFillet.label"><s>crusted fillet (cold)</s><r>филе в корочке (холодное)</r></e>
+  <e k="D" t="ThingDef" key="SC_FrozenFeast_JellyGlazedShank.description"><s>The thigh or shank of an animal, scored, spiced and oven baked to perfection. During baking it's glazed with a tangy sauce made from insect jelly.
+
+This feast has been refridgerated or frozen, and isn't as tasty anymore.</s><r>Бедро или голяшка животного, порезанная, приправленная специями и запеченная в духовке до совершенства. Во время выпечки его покрывают пикантным соусом из желе насекомых.
+
+Это блюдо хранили в холодильнике или замораживали, и оно уже не такое вкусное.</r></e>
+  <e k="D" t="ThingDef" key="SC_FrozenFeast_JellyGlazedShank.label"><s>jelly glazed shank (cold)</s><r>рулька глазированная желе (холодная)</r></e>
+  <e k="D" t="ThingDef" key="SC_FrozenFeast_MushroomSoup.description"><s>A simple roux of dwarven milk, mixed with fungus and herbs, slow-cooked in the oven and then served with softened rockbread slices.
+
+This feast has been refridgerated or frozen, and isn't as tasty anymore.</s><r>Простой соус из дварфьего молока, смешанный с грибами и травами, медленно приготовленный в духовке, а затем поданный с размягченными ломтиками каменного хлеба.
+
+Этот пир был охлажден или заморожен, и он уже не такой вкусный.</r></e>
+  <e k="D" t="ThingDef" key="SC_FrozenFeast_MushroomSoup.label"><s>cream of mushroom soup (cold)</s><r>грибной крем-суп (холодный)</r></e>
+  <e k="D" t="ThingDef" key="SC_FrozenFeast_RoastedMegascarab.description"><s>A fresh megascarab, expertly cut and cleaned, then roasted in the oven along with fungus and spices. The shell keeps the meat inside delicate and moist.
+
+This feast has been refridgerated or frozen, and isn't as tasty anymore.</s><r>Свежий мегаскарабей, искусно нарезанный и очищенный, а затем зажаренный в духовке вместе с грибами и специями. Оболочка сохраняет мясо внутри нежным и влажным.
+
+Это блюдо хранили в холодильнике или замораживали, и оно уже не такое вкусное.</r></e>
+  <e k="D" t="ThingDef" key="SC_FrozenFeast_RoastedMegascarab.label"><s>roasted megascarab (cold)</s><r>жареный мегаскарабей (холодный)</r></e>
+  <e k="D" t="ThingDef" key="SC_FrozenFeast_RockdoughPizza.description"><s>Dough spread out and hammered into shape, topped with sauce first, then with dwarven cheese, and various vegetables. Sliced right out the oven for the best cheese pulls.
+
+This feast has been refridgerated or frozen, and isn't as tasty anymore.</s><r>Тесто разложили и придали ему форму, полив сначала соусом, затем дварфийским сыром и различными овощами. Нарезали прямо из духовки, чтобы получить лучшие сырные ломтики.
+
+Этот пиршество было охлаждено или заморожено, и оно уже не такое вкусное.</r></e>
+  <e k="D" t="ThingDef" key="SC_FrozenFeast_RockdoughPizza.label"><s>rockdough pizza (cold)</s><r>пицца рокдау (холодная)</r></e>
+  <e k="D" t="ThingDef" key="SC_GrilledSteak.description"><s>A hefty cut of meat, grilled to a perfect medium rare.</s><r>Огромный кусок мяса, приготовленный на гриле до идеальной средней прожарки.</r></e>
+  <e k="D" t="ThingDef" key="SC_GrilledSteak.label"><s>grilled steak</s><r>стейк на гриле</r></e>
+  <e k="D" t="ThingDef" key="SC_HerbPot.description"><s>A square pot for planting herbs.</s><r>Квадратный горшок для посадки трав.</r></e>
+  <e k="D" t="ThingDef" key="SC_HerbPot.label"><s>herb pot</s><r>горшок с травами</r></e>
+  <e k="D" t="ThingDef" key="SC_HotGrill.description"><s>A metal grill with a campfire below, used to grill food. Can also be used as a stove with a pan.</s><r>Металлический гриль с костром внизу, используемый для приготовления пищи. Также можно использовать как плиту со сковородой.</r></e>
+  <e k="D" t="ThingDef" key="SC_HotGrill.label"><s>hot grill</s><r>горячий гриль</r></e>
+  <e k="D" t="ThingDef" key="SC_InsectJerky.description"><s>Marinated insect meat. Cured by hanging it off a rack for a prolonged amount of time.
+
+It can still be used for dishes, but can also be eaten raw.</s><r>Маринованное мясо насекомых. Вылечено, если повесить его на стойку на длительное время.
+
+Его по-прежнему можно использовать для приготовления блюд, но также можно есть сырым.</r></e>
+  <e k="D" t="ThingDef" key="SC_InsectJerky.label"><s>insect jerky</s><r>вяленое насекомое</r></e>
+  <e k="D" t="ThingDef" key="SC_Insect_Moleroach.description"><s>A medium-sized, non-eusocial bioengineered insectoid the size of a lamb. They're often utilized by stoneborn for their value as both meat providers and egg layers, as their eggs are large and nutrient-rich, and moleroach hens lay them often enough to sustain colonies. Moleroaches will also build burrows to lay their eggs in.</s><r>Неэусоциальный биоинженерный инсектоид среднего размера размером с ягненка. Они часто используются камнерожденными из-за их ценности как в качестве поставщика мяса, так и в качестве несушек, поскольку их яйца большие и богаты питательными веществами, а куры-кротовы откладывают их достаточно часто, чтобы поддерживать колонии. Кроты также строят норы, чтобы откладывать яйца.</r></e>
+  <e k="D" t="ThingDef" key="SC_Insect_Moleroach.label"><s>moleroach</s><r>кротовый таракан</r></e>
+  <e k="D" t="ThingDef" key="SC_Insect_Moleroach.tools.0.label"><s>mandibles</s><r>челюсти</r></e>
+  <e k="D" t="ThingDef" key="SC_Insect_Moleroach.tools.1.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="SC_Insect_MoleroachBlue.description"><s>A medium-sized, non-eusocial bioengineered insectoid the size of a lamb. They're often utilized by stoneborn for their value as both meat providers and egg layers, as their eggs are large and nutrient-rich, and moleroach hens lay them often enough to sustain colonies. Moleroaches will also build burrows to lay their eggs in.</s><r>Неэусоциальный биоинженерный инсектоид среднего размера размером с ягненка. Они часто используются камнерожденными из-за их ценности как в качестве поставщика мяса, так и в качестве несушек, поскольку их яйца большие и богаты питательными веществами, а куры-кротовы откладывают их достаточно часто, чтобы поддерживать колонии. Кроты также строят норы, чтобы откладывать яйца.</r></e>
+  <e k="D" t="ThingDef" key="SC_Insect_MoleroachBlue.label"><s>moleroach</s><r>кротовый таракан</r></e>
+  <e k="D" t="ThingDef" key="SC_Insect_MoleroachBlue.tools.0.label"><s>mandibles</s><r>челюсти</r></e>
+  <e k="D" t="ThingDef" key="SC_Insect_MoleroachBlue.tools.1.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="SC_JuvenileQueen.description"><s>A small, juvenile insectoid queen maggot. It needs an artifical housing to start working.</s><r>Маленькая личинка-матка инсектоидов. Чтобы начать работать, ему нужен искусственный корпус.</r></e>
+  <e k="D" t="ThingDef" key="SC_JuvenileQueen.label"><s>juvenile queen</s><r>юная королева</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenCabinet.comps.3.optionalNames.0"><s>Pot and cutting board</s><r>Кастрюля и разделочная доска</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenCabinet.comps.3.optionalNames.1"><s>Flour and carrots</s><r>Мука и морковь</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenCabinet.comps.3.optionalNames.2"><s>Sacks and plates</s><r>Мешки и тарелки</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenCabinet.comps.3.optionalNames.3"><s>Herbs and meat</s><r>Травы и мясо</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenCabinet.description"><s>A cabinet with drawers and cupboards. Increases work speed when placed near prep. benches, hot grills and carving tables.</s><r>Шкаф с ящиками и шкафчиками. Увеличивает скорость работы, если разместить его рядом с местом приготовления. скамейки, горячие грили и столы для резьбы.</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenCabinet.label"><s>kitchen cabinet</s><r>кухонный шкаф</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenClutter.comps.0.optionalNames.0"><s>Empty board</s><r>Пустая доска</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenClutter.comps.0.optionalNames.1"><s>Empty board (vertical)</s><r>Пустая доска (вертикальная)</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenClutter.comps.0.optionalNames.12"><s>Spice bowls</s><r>Чаши для специй</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenClutter.comps.0.optionalNames.14"><s>Spice bowls and grinder</s><r>Чаши для специй и мясорубка</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenClutter.comps.0.optionalNames.15"><s>Herb bowls</s><r>Чаши с травами</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenClutter.comps.0.optionalNames.18"><s>Pan (horizontal)</s><r>Панорамирование (горизонтальное)</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenClutter.comps.0.optionalNames.19"><s>Dough balls</s><r>Шарики из теста</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenClutter.comps.0.optionalNames.2"><s>Board with cured meat</s><r>Доска с вяленым мясом</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenClutter.comps.0.optionalNames.20"><s>Flattened pastry dough</s><r>Плоское слоеное тесто</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenClutter.comps.0.optionalNames.21"><s>Empty tray</s><r>Пустой лоток</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenClutter.comps.0.optionalNames.22"><s>Empty tray (vertical)</s><r>Пустой лоток (вертикальный)</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenClutter.comps.0.optionalNames.23"><s>Tray with dough</s><r>Поднос с тестом</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenClutter.comps.0.optionalNames.24"><s>Tray with dough (vertical)</s><r>Противень с тестом (вертикальный)</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenClutter.comps.0.optionalNames.25"><s>Oven mittens</s><r>Рукавицы для духовки</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenClutter.comps.0.optionalNames.26"><s>Baking tools</s><r>Инструменты для выпечки</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenClutter.comps.0.optionalNames.27"><s>Baking tools (horizontal)</s><r>Инструменты для выпечки (горизонтальные)</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenClutter.comps.0.optionalNames.28"><s>Baking tools (flipped)</s><r>Инструменты для выпечки (перевернутые)</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenClutter.comps.0.optionalNames.29"><s>Flour sack</s><r>Мешок для муки</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenClutter.comps.0.optionalNames.3"><s>Board with cured meat (vertical)</s><r>Доска с колбасой (вертикальная)</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenClutter.comps.0.optionalNames.30"><s>Flour sack</s><r>Мешок для муки</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenClutter.comps.0.optionalNames.31"><s>Knife set</s><r>Набор ножей</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenClutter.comps.0.optionalNames.32"><s>Knife set (horizontal)</s><r>Набор ножей (горизонтальный)</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenClutter.comps.0.optionalNames.33"><s>Knife set (flipped)</s><r>Набор ножей (перевернутый)</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenClutter.comps.0.optionalNames.4"><s>Board with rockbread</s><r>Доска с каменным хлебом</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenClutter.comps.0.optionalNames.5"><s>Board with rockbread (vertical)</s><r>Доска с каменным хлебом (вертикальная)</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenClutter.description"><s>Assorted clutter for kitchens: pots, bottles, spices.</s><r>Разный беспорядок для кухни: кастрюли, бутылки, специи.</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenClutter.label"><s>kitchen clutter</s><r>беспорядок на кухне</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenHearth.description"><s>A large stone furnishing used to store fire. Will light the surroundings and create heat.</s><r>Большая каменная мебель, используемая для хранения огня. Будет освещать окрестности и создавать тепло.</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenHearth.label"><s>kitchen hearth</s><r>кухонный очаг</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenIsland2x2c.description"><s>A tiled surface for doing kitchen work. Can also be used as a table.</s><r>Плиточная поверхность для работы на кухне. Также можно использовать как стол.</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenIsland2x2c.label"><s>kitchen island (2x2)</s><r>кухонный остров (2x2)</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenIsland2x3c.description"><s>A tiled surface for doing kitchen work. Can also be used as a table.</s><r>Плиточная поверхность для работы на кухне. Также можно использовать как стол.</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenIsland2x3c.label"><s>kitchen island (2x3)</s><r>кухонный остров (2х3)</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenSink.description"><s>A surface with a basin, faucet and drain. Increases the cleanliness of rooms.</s><r>Поверхность с раковиной, краном и сливом. Повышает чистоту помещений.</r></e>
+  <e k="D" t="ThingDef" key="SC_KitchenSink.label"><s>kitchen sink</s><r>кухонная раковина</r></e>
+  <e k="D" t="ThingDef" key="SC_MeatRockpie.description"><s>Meat mixed with spices and herbs, thickened with flour and baked into a hard rockbread shell, which moistens with baking.</s><r>Мясо, смешанное со специями и травами, загущенное мукой и запеченное в твердой хлебной оболочке, которая смачивается при выпечке.</r></e>
+  <e k="D" t="ThingDef" key="SC_MeatRockpie.label"><s>meat rockpie</s><r>мясной рокпи</r></e>
+  <e k="D" t="ThingDef" key="SC_MegaslothBelly.description"><s>Slabs of meat from the soft belly of a megasloth. Renowned for the thick layer of fatty tissue.
+
+&lt;color=#6e6e6eff&gt;Being primarily herbivorous, the meat of megasloths acquires an intense, aromatic flavor, which only grows stronger as the animal ages. Some venators swear by megasloth belly as the most delicious raw meat one could get their fangs on.&lt;/color&gt;</s><r>Куски мяса из мягкого брюха мегаленивца. Известное толстым слоем жировой ткани.
+
+&lt;color=#6e6e6eff&gt;Будучи преимущественно травоядными, мясо мегаленивцев приобретает интенсивный ароматный вкус, который с возрастом животного становится только сильнее. Некоторые венаторы считают брюхо мегаленивца самым вкусным сырым мясом, которое только можно получить.&lt;/color&gt;</r></e>
+  <e k="D" t="ThingDef" key="SC_MegaslothBelly.label"><s>megasloth belly</s><r>живот мегаленивца</r></e>
+  <e k="D" t="ThingDef" key="SC_MeltedFeast_IceCream.description"><s>Creamy, sweet cold cream. Nourishes the soul.
+
+This feast has been let out in the heat for too long and has melted. It can be refrozen.</s><r>Сливочный, сладкий кольдкрем. Питает душу.
+
+Этот пир слишком долго стоял на жаре и растаял. Его можно повторно заморозить.</r></e>
+  <e k="D" t="ThingDef" key="SC_MeltedFeast_IceCream.label"><s>ice cream (melted)</s><r>мороженое (растопленное)</r></e>
+  <e k="D" t="ThingDef" key="SC_Molemutt.description"><s>A stoneborn's best friend. Molemutts are completely blind, utilizing their prehensile snouts and sensitive whiskers to navigate caverns. They have short, strong legs that give them a sleek profile, perfect for diving within insect burrows. Their weak jaws aren't comparable to their fully canine equivalents, but they make up for it with powerful front digging claws.
+
+&lt;color=#6e6e6eff&gt;Legends tell that the first stoneborn settlers used to ride dire molemutts across the mossy plains of Grugni, chasing giant beasts in large groups for their meat and pelt.&lt;/color&gt;</s><r>Лучший друг камнерожденного. Кротомутты полностью слепы и используют свою цепкую морду и чувствительные усы, чтобы перемещаться по пещерам. У них короткие, сильные ноги, которые придают им гладкий профиль, идеально подходящий для ныряния в норах насекомых. Их слабые челюсти несопоставимы с их полностью собачьими аналогами, но они компенсируют это мощными передними роющими когтями.
+
+&lt;color=#6e6e6eff&gt;Легенды рассказывают, что первые камнерожденные поселенцы ездили на ужасных кротахах по мшистым равнинам Груни, преследуя гигантских зверей большими группами ради мяса и шкуры.&lt;/color&gt;</r></e>
+  <e k="D" t="ThingDef" key="SC_Molemutt.label"><s>molemutt</s><r>кротомутт</r></e>
+  <e k="D" t="ThingDef" key="SC_Molemutt.race.meatLabel"><s>molemutt meat</s><r>мясо кротообразного мутанта</r></e>
+  <e k="D" t="ThingDef" key="SC_Molemutt.tools.0.label"><s>left claws</s><r>левые когти</r></e>
+  <e k="D" t="ThingDef" key="SC_Molemutt.tools.1.label"><s>right claws</s><r>правые когти</r></e>
+  <e k="D" t="ThingDef" key="SC_Molemutt.tools.3.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="SC_MoleroachEggFertilized.description"><s>A moleroach egg. If all goes well, it should hatch into a nymph. It can be eaten raw, but it's much better cooked.</s><r>Яйцо крота. Если все пойдет хорошо, из него должна вылупиться нимфа. Его можно есть сырым, но приготовленным он гораздо вкуснее.</r></e>
+  <e k="D" t="ThingDef" key="SC_MoleroachEggFertilized.label"><s>moleroach egg (fert.)</s><r>яйцо крота (ферт.)</r></e>
+  <e k="D" t="ThingDef" key="SC_MoleroachEggUnfertilized.description"><s>An unfertilized moleroach egg. It can be eaten raw, but it's much, much better cooked.</s><r>Неоплодотворенное яйцо крота. Его можно есть сырым, но приготовленным он гораздо вкуснее.</r></e>
+  <e k="D" t="ThingDef" key="SC_MoleroachEggUnfertilized.label"><s>moleroach egg (unfert.)</s><r>яйцо крота (неоплодотворенное).</r></e>
+  <e k="D" t="ThingDef" key="SC_MoleroachNest.description"><s>A small burrow dug out by a moleroach. Moleroach hens will try to lay their eggs in here if they can. Your haulers will take all the eggs out only when the box is full, to save time. The hole also protects eggs from deteriorating outdoors, though it does not protect from temperature damage.</s><r>Небольшая нора, выкопанная кротаном. Куры-кротовы постараются отложить здесь яйца, если смогут. Ваши грузчики вывезут все яйца только тогда, когда ящик будет заполнен, чтобы сэкономить время. Отверстие также защищает яйца от порчи на открытом воздухе, но не защищает от температурного повреждения.</r></e>
+  <e k="D" t="ThingDef" key="SC_MoleroachNest.label"><s>Moleroach burrow</s><r>Нора крота</r></e>
+  <e k="D" t="ThingDef" key="SC_Mote_FoodBitBread.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="SC_Mote_HiveFlyers.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="SC_Mote_HotGrillLogs.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="SC_Mote_PotFlames.label"><s>Mote</s><r>Соринка</r></e>
+  <e k="D" t="ThingDef" key="SC_MuffaloT-bone.description"><s>Cuts of meat from the short loin of a muffalo, including the titular T-shaped bone.
+
+&lt;color=#6e6e6eff&gt;On the rim, settlers favor the t-bone as a cut with both delicate meat on one side, and beefier flesh on the other. This duality is seen as a metaphor for life on rimworlds: tender, yet tough.&lt;/color&gt;</s><r>Куски мяса из короткой поясницы муффало, включая титульную Т-образную кость.
+
+&lt;color=#6e6e6eff&gt;На краю поселенцы предпочитают Т-образную кость как кусок, в котором с одной стороны нежное мясо, а с другой — более мясистая мякоть. Эта двойственность рассматривается как метафора жизни в краевых мирах: нежная, но жесткая.&lt;/color&gt;</r></e>
+  <e k="D" t="ThingDef" key="SC_MuffaloT-bone.label"><s>muffalo T-bone</s><r>муффало Т-бон</r></e>
+  <e k="D" t="ThingDef" key="SC_MushroomRockpie.description"><s>Fungus sliced and mixed with spices, thickened with flour and baked into a hard rockbread shell, which moistens with baking</s><r>Гриб нарезают ломтиками, смешивают со специями, загущают мукой и запекают в твердую оболочку, которая смачивается при выпекании.</r></e>
+  <e k="D" t="ThingDef" key="SC_MushroomRockpie.label"><s>mushroom rockpie</s><r>грибной рокпи</r></e>
+  <e k="D" t="ThingDef" key="SC_Omelette.description"><s>Assorted diced vegetables mixed with milk and eggs, then cooked in a pan.</s><r>Ассорти из нарезанных кубиками овощей смешивают с молоком и яйцами, а затем готовят на сковороде.</r></e>
+  <e k="D" t="ThingDef" key="SC_Omelette.label"><s>omelette</s><r>омлет</r></e>
+  <e k="D" t="ThingDef" key="SC_OvenMeal_Meat.description"><s>A simple stew made of meat and water.</s><r>Простое рагу из мяса и воды.</r></e>
+  <e k="D" t="ThingDef" key="SC_OvenMeal_Meat.label"><s>meat stew</s><r>мясное рагу</r></e>
+  <e k="D" t="ThingDef" key="SC_OvenMeal_Vegan.description"><s>A simple stew made of vegetables and water.</s><r>Простое рагу из овощей и воды.</r></e>
+  <e k="D" t="ThingDef" key="SC_OvenMeal_Vegan.label"><s>veggie stew</s><r>овощное рагу</r></e>
+  <e k="D" t="ThingDef" key="SC_Pancakes.description"><s>Flour, milk and butter mixed into batter, baked on a pan and served with sweet syrup.</s><r>Муку, молоко и сливочное масло замесили в тесто, выпекали на сковороде и подавали со сладким сиропом.</r></e>
+  <e k="D" t="ThingDef" key="SC_Pancakes.label"><s>pancakes</s><r>блины</r></e>
+  <e k="D" t="ThingDef" key="SC_Pastry.description"><s>Sweet, soft and warm treats glazed with insect jelly. They're a great dessert and a valuable product to sell.</s><r>Сладкие, мягкие и теплые лакомства, глазированные желе из насекомых. Это отличный десерт и ценный продукт для продажи.</r></e>
+  <e k="D" t="ThingDef" key="SC_Pastry.label"><s>jelly pastry</s><r>желейное тесто</r></e>
+  <e k="D" t="ThingDef" key="SC_Plant_Bitterpot.description"><s>A vine-like fungus that spreads thanks to its bittersweet &quot;nectar.&quot; Hungry cave animals are attracted by the fruiting body to have a taste, covering themselves in spores.
+
+&lt;color=#6e6e6eff&gt;Legends tell that many lost stoneborn explorers fed purely on the nectar of bitterpots to survive for multiple weeks.&lt;/color&gt;</s><r>Гриб, похожий на виноградную лозу, который распространяется благодаря своему горько-сладкому «нектару». Голодных пещерных животных привлекает плодовое тело, чтобы попробовать вкус, и они покрываются спорами.
+
+&lt;color=#6e6e6eff&gt;Легенды рассказывают, что многие заблудшие камнерожденные исследователи питались исключительно нектаром горьких горшков, чтобы выжить в течение нескольких недель.&lt;/color&gt;</r></e>
+  <e k="D" t="ThingDef" key="SC_Plant_Bitterpot.label"><s>bitterpot</s><r>горький горшок</r></e>
+  <e k="D" t="ThingDef" key="SC_Plant_Bunshroom.description"><s>A short, fast-growing fungus that yields tough caps that aren't edible by humans, but are great for feeding animals.</s><r>Короткий, быстрорастущий гриб, образующий жесткие шляпки, несъедобные для человека, но отлично подходящие для кормления животных.</r></e>
+  <e k="D" t="ThingDef" key="SC_Plant_Bunshroom.label"><s>bunshroom</s><r>грибная комната</r></e>
+  <e k="D" t="ThingDef" key="SC_Plant_CaveWheat.description"><s>A tall, stalky mold that is grown for its versatile flour. It can grow on fungal gravel, but only in darkness - exposing it to sunlight will kill it.</s><r>Высокая стебельчатая плесень, которую выращивают ради получения универсальной муки. Он может расти на грибковом гравии, но только в темноте — воздействие солнечного света убьет его.</r></e>
+  <e k="D" t="ThingDef" key="SC_Plant_CaveWheat.label"><s>moldwheat</s><r>плесень</r></e>
+  <e k="D" t="ThingDef" key="SC_Plant_Gemberry.description"><s>A porous white fruiting body that grows small, sweet gummy-like berries. These gemberries are delicious both raw and cooked.
+
+&lt;color=#6e6e6eff&gt;In the underground ecosystem, this fungus acts as a food supply for plenty of smaller creatures. When the berries mature and drop from the fruiting body, Silver moles are often the first to swoop in to feast.&lt;/color&gt;</s><r>Пористое белое плодовое тело, из которого растут маленькие сладкие, похожие на мармелад ягоды. Эти ягоды очень вкусны как в сыром, так и в приготовленном виде.
+
+&lt;color=#6e6e6eff&gt;В подземной экосистеме этот гриб служит пищей для множества более мелких существ. Когда ягоды созревают и опадают с плодового тела, серебристые кроты часто первыми прилетают на пир.&lt;/color&gt;</r></e>
+  <e k="D" t="ThingDef" key="SC_Plant_Gemberry.label"><s>gemberry bush</s><r>имбирный куст</r></e>
+  <e k="D" t="ThingDef" key="SC_Plant_HerbGuild.description"><s>A mix of various herbs that are grown together to benefit eachother. They grow fairly fast, can't be blighted and harvesting them is never failable.
+
+&lt;color=#6e6e6eff&gt;The three herbs, whiskerwort, lockleaf and spiralmint, are considered the backbone of stoneborn culinary culture. Spiralmint, however, is the only herb in the bunch native to Grugni.&lt;/color&gt;</s><r>Смесь различных трав, выращенных вместе, приносящих друг другу пользу. Они растут довольно быстро, их невозможно испортить, и их сбор всегда невозможен.
+
+&lt;color=#6e6e6eff&gt;Три травы: усачник, листовой лист и спиральная мята, считаются основой кулинарной культуры, рожденной из камня. Однако спиральная мята — единственная трава в букете, произрастающем в Груни.&lt;/color&gt;</r></e>
+  <e k="D" t="ThingDef" key="SC_Plant_HerbGuild.label"><s>herb guild</s><r>гильдия трав</r></e>
+  <e k="D" t="ThingDef" key="SC_Plant_Kokobark.description"><s>A stocky, tall fungus with a sweet, candy scent. It processes the same chemicals as cocoa trees into its stem, and when ripe, the &quot;bark&quot; start flaking off into pure edible chocolate.
+
+&lt;color=#6e6e6eff&gt;Created as a pet project by a stoneborn geneticist, the chocobark is only one of four fungus of its family: the Dark Chocobark, the White Chocobark and the Rum Chocobark.&lt;/color&gt;</s><r>Коренастый, высокий гриб со сладким конфетным ароматом. Он перерабатывает в свой стебель те же химические вещества, что и какао-деревья, и при созревании «кора» начинает отслаиваться и превращается в чистый съедобный шоколад.
+
+&lt;color=#6e6e6eff&gt;Созданная в качестве домашнего проекта генетиком из камня, шоколадная кора является лишь одним из четырех грибов своего семейства: темная шоколадная кора, белая шоколадная кора и ромовая шоколадная кора.&lt;/color&gt;</r></e>
+  <e k="D" t="ThingDef" key="SC_Plant_Kokobark.label"><s>chocobark</s><r>шоколадная кора</r></e>
+  <e k="D" t="ThingDef" key="SC_Plant_PlumpHelmet.description"><s>A short, plump pink-capped mushroom that grows in large bundles. It is meaty yet still neutral in flavor, making it a great base for plenty of dishes. Unlike other mushrooms, it is also more capable of handling light, and won't die in its presence.
+
+&lt;color=#6e6e6eff&gt;The first fungus the original stoneborn families cultivated to feed their colonies, they have deep ties to stoneborn history and culture, remaining still one of the most utilized crops amongst underground strongholds, and even spaceforges.&lt;/color&gt;</s><r>Короткий, пухлый гриб с розовой шляпкой, растущий большими пучками. Он мясистый, но при этом нейтральный по вкусу, что делает его отличной основой для множества блюд. В отличие от других грибов, он также более способен переносить свет и не погибнет в его присутствии.
+
+&lt;color=#6e6e6eff&gt;Первый гриб, который первоначальные семьи камнерожденных выращивали, чтобы прокормить свои колонии. Они имеют глубокие связи с историей и культурой камнерожденных, оставаясь до сих пор одним из наиболее используемых культур среди подземных крепостей и даже космических кузниц.&lt;/color&gt;</r></e>
+  <e k="D" t="ThingDef" key="SC_Plant_PlumpHelmet.label"><s>plump helmet</s><r>пухлый шлем</r></e>
+  <e k="D" t="ThingDef" key="SC_Plant_WildWhiskerwort.description"><s>A fast-growing herb which yields edible, aromatic leaves when harvested.
+
+&lt;color=#6e6e6eff&gt;Whiskerwort was the first aromatic plant humans brought on a long trip through space, and it was famously appreciated and praised by the on-board cooking staff.&lt;/color&gt;</s><r>Быстрорастущая трава, при сборе которой дает съедобные ароматные листья.
+
+&lt;color=#6e6e6eff&gt;Вискерворт был первым ароматным растением, которое люди привезли в долгое космическое путешествие, и его высоко оценили бортовые повара.&lt;/color&gt;</r></e>
+  <e k="D" t="ThingDef" key="SC_Plant_WildWhiskerwort.label"><s>wild whiskerwort</s><r>дикий бакенбард</r></e>
+  <e k="D" t="ThingDef" key="SC_PortablePot.description"><s>A simple, portable steel pot for baking on the move.
+
+Particularly useful for dungeoneering.</s><r>Простой портативный стальной горшок для выпечки на ходу.
+
+Особенно полезен при исследовании подземелий.</r></e>
+  <e k="D" t="ThingDef" key="SC_PortablePot.label"><s>portable pot</s><r>портативный горшок</r></e>
+  <e k="D" t="ThingDef" key="SC_Poutine.description"><s>Soft potato chips draped with gravy and topped with cheese curds.
+
+&lt;color=#6e6e6eff&gt;Through every corner stoneborn have spread, many cultural foods have been picked up and adopted by chefs, including many old Earth recipes.&lt;/color&gt;</s><r>Мягкие картофельные чипсы, покрытые соусом и покрытые сырным творогом.
+
+&lt;color=#6e6e6eff&gt;В каждом краеугольном камнерождении распространились многие культурные блюда, которые были подобраны и приняты поварами, в том числе многие старые рецепты Земли.&lt;/color&gt;</r></e>
+  <e k="D" t="ThingDef" key="SC_Poutine.label"><s>poutine</s><r>путин</r></e>
+  <e k="D" t="ThingDef" key="SC_PrepTable.description"><s>A simple wooden table equipped with drawers of cooking utensils for preparing raw products like dough.</s><r>Простой деревянный стол, оснащенный ящиками для кухонной утвари для приготовления сырых продуктов, таких как тесто.</r></e>
+  <e k="D" t="ThingDef" key="SC_PrepTable.label"><s>preparation bench</s><r>скамейка для подготовки</r></e>
+  <e k="D" t="ThingDef" key="SC_Raw_Dough.description"><s>Thick, rough dough made of flour and milk. Not good raw.</s><r>Густое, грубое тесто из муки и молока. Нехорошо в сыром виде.</r></e>
+  <e k="D" t="ThingDef" key="SC_Raw_Dough.label"><s>dough</s><r>тесто</r></e>
+  <e k="D" t="ThingDef" key="SC_Raw_FreshCheese.description"><s>Fresh cheese that needs to be dry-aged before being consumed.</s><r>Свежий сыр, который перед употреблением необходимо выдержать в сухом виде.</r></e>
+  <e k="D" t="ThingDef" key="SC_Raw_FreshCheese.label"><s>fresh cheese</s><r>свежий сыр</r></e>
+  <e k="D" t="ThingDef" key="SC_Raw_PastryDough.description"><s>Smooth dough made of flour, milk and an additional ingredient, folded many times over to create layers. Not good raw.</s><r>Гладкое тесто из муки, молока и дополнительных ингредиентов, сложенное много раз в несколько слоев. Нехорошо в сыром виде.</r></e>
+  <e k="D" t="ThingDef" key="SC_Raw_PastryDough.label"><s>pastry dough</s><r>тесто для печенья</r></e>
+  <e k="D" t="ThingDef" key="SC_RoastingSpit.comps.0.optionalNames.0"><s>Roasted Moleroach</s><r>Жареный кроторак</r></e>
+  <e k="D" t="ThingDef" key="SC_RoastingSpit.comps.0.optionalNames.1"><s>Roasted Drog (BnM)</s><r>Жареный дрог (BnM)</r></e>
+  <e k="D" t="ThingDef" key="SC_RoastingSpit.comps.0.optionalNames.2"><s>Roasted Crestel (BnM)</s><r>Жареный крестель (BnM)</r></e>
+  <e k="D" t="ThingDef" key="SC_RoastingSpit.description"><s>A metal spit with legs and a handle to spin it. Purely decorative.</s><r>Металлический вертел с ножками и ручкой для его вращения. Чисто декоративно.</r></e>
+  <e k="D" t="ThingDef" key="SC_RoastingSpit.label"><s>roasting spit</s><r>вертел</r></e>
+  <e k="D" t="ThingDef" key="SC_Rockbread.description"><s>Extremely hard and crunchy bread, baked with as few ingredients as possible. It can resist for years on end, and the heft makes it a viable blunt weapon as well.</s><r>Чрезвычайно твердый и хрустящий хлеб, выпеченный из минимального количества ингредиентов. Он может сопротивляться годами, а его вес делает его также жизнеспособным тупым оружием.</r></e>
+  <e k="D" t="ThingDef" key="SC_Rockbread.label"><s>rockbread</s><r>каменный хлеб</r></e>
+  <e k="D" t="ThingDef" key="SC_Rockbread.tools.0.label"><s>loaf</s><r>буханка</r></e>
+  <e k="D" t="ThingDef" key="SC_Rockbull.description"><s>A stocky bovine selectively bred for durability. Rockbulls are able to eat anything, due to the scarce plant life in their habitats, and are commonly found as part of stoneborn caravans or deepfarms.
+
+Their four hefty horns and muscular legs make them a danger for any predators and overconfident tamers.</s><r>Коренастый крупный рогатый скот, выведенный селекционно для выносливости. Рокбуллы способны есть что угодно из-за скудного растительного мира в их среде обитания, и их обычно можно встретить в составе каменных караванов или глубоких ферм.
+
+Их четыре здоровенных рога и мускулистые ноги делают их опасными для любых хищников и самоуверенных укротителей.</r></e>
+  <e k="D" t="ThingDef" key="SC_Rockbull.label"><s>rockbull</s><r>рокбулл</r></e>
+  <e k="D" t="ThingDef" key="SC_Rockbull.race.meatLabel"><s>rockbull beef</s><r>рокбулл говядина</r></e>
+  <e k="D" t="ThingDef" key="SC_Rockbull.tools.1.label"><s>horns</s><r>рога</r></e>
+  <e k="D" t="ThingDef" key="SC_Rockbull.tools.2.label"><s>left hoof</s><r>левое копыто</r></e>
+  <e k="D" t="ThingDef" key="SC_Rockbull.tools.3.label"><s>right hoof</s><r>правое копыто</r></e>
+  <e k="D" t="ThingDef" key="SC_RockbullAlbino.description"><s>A stocky bovine selectively bred for durability. Rockbulls are able to eat anything, due to the scarce plant life in their habitats, and are commonly found as part of stoneborn caravans or deepfarms.
+
+Their four hefty horns and muscular legs make them a danger for any predators and overconfident tamers.</s><r>Коренастый крупный рогатый скот, выведенный селекционно для выносливости. Рокбуллы способны есть что угодно из-за скудного растительного мира в их среде обитания, и их обычно можно встретить в составе каменных караванов или глубоких ферм.
+
+Их четыре здоровенных рога и мускулистые ноги делают их опасными для любых хищников и самоуверенных укротителей.</r></e>
+  <e k="D" t="ThingDef" key="SC_RockbullAlbino.label"><s>rockbull</s><r>рокбулл</r></e>
+  <e k="D" t="ThingDef" key="SC_RockbullAlbino.race.meatLabel"><s>rockbull beef</s><r>рокбулл говядина</r></e>
+  <e k="D" t="ThingDef" key="SC_RockbullAlbino.tools.1.label"><s>horns</s><r>рога</r></e>
+  <e k="D" t="ThingDef" key="SC_RockbullAlbino.tools.2.label"><s>left hoof</s><r>левое копыто</r></e>
+  <e k="D" t="ThingDef" key="SC_RockbullAlbino.tools.3.label"><s>right hoof</s><r>правое копыто</r></e>
+  <e k="D" t="ThingDef" key="SC_RockbullRoast.description"><s>A tender, flavorful roast rubbed with herbs that melts in the mouth.</s><r>Нежное, ароматное жаркое, натертое травами, тающее во рту.</r></e>
+  <e k="D" t="ThingDef" key="SC_RockbullRoast.label"><s>rockbull roast</s><r>жаркое рокбулл</r></e>
+  <e k="D" t="ThingDef" key="SC_RockbullTenderloin.description"><s>Thick chunks of meat from the most tender part of a rockbull. Quite prized, as most other parts of the animal tend to be quite tough and chewy.
+
+&lt;color=#6e6e6eff&gt;Stoneborn royal hall etiquette considers rockbull tenderloin as the finest cut to serve to an underlord, but many underlords often prefer more exotic game, like crestel or baskar.&lt;/color&gt;</s><r>Толстые куски мяса из самой нежной части рокбулла. Весьма ценится, так как большинство других частей животного, как правило, довольно жесткие и жевательные.
+
+&lt;color=#6e6e6eff&gt;Этикет королевского зала Stoneborn считает вырезку рокбулла лучшим отрубом, который можно подать лорду, но многие лорды часто предпочитают более экзотическую дичь, такую ​​​​как крестель или баскар.&lt;/color&gt;</r></e>
+  <e k="D" t="ThingDef" key="SC_RockbullTenderloin.label"><s>rockbull tenderloin</s><r>вырезка рокбулла</r></e>
+  <e k="D" t="ThingDef" key="SC_Rockhide.description"><s>Incredibly thick, stiff and heavy hide. Hard to sew and shape but has powerful protective properties.</s><r>Невероятно толстая, жесткая и тяжелая шкура. Трудно шить и формовать, но он обладает мощными защитными свойствами.</r></e>
+  <e k="D" t="ThingDef" key="SC_Rockhide.label"><s>rockhide</s><r>каменная кожа</r></e>
+  <e k="D" t="ThingDef" key="SC_SaltedFish.description"><s>Degutted and salted fish. Dried by hanging it off a rack for a prolonged amount of time.
+
+It can still be used for dishes, but can also be eaten raw.</s><r>Рыба тушеная и соленая. Сушат, подвешивая на стойку на длительное время.
+
+Его можно использовать для приготовления блюд, но можно есть и сырым.</r></e>
+  <e k="D" t="ThingDef" key="SC_SaltedFish.label"><s>salted fish</s><r>соленая рыба</r></e>
+  <e k="D" t="ThingDef" key="SC_Sandwich_CheeseSandwich.description"><s>Dwarven cheese placed within two slices of rockbread, then grilled.</s><r>Гномий сыр, помещенный в два ломтика каменного хлеба, затем поджаренный на гриле.</r></e>
+  <e k="D" t="ThingDef" key="SC_Sandwich_CheeseSandwich.label"><s>grilled cheese</s><r>жареный сыр</r></e>
+  <e k="D" t="ThingDef" key="SC_Sandwich_MeatSandwich.description"><s>Raw slices of meat finely cut and placed within two slices of rockbread.</s><r>Сырые ломтики мяса мелко нарезают и помещают в два ломтика каменного хлеба.</r></e>
+  <e k="D" t="ThingDef" key="SC_Sandwich_MeatSandwich.label"><s>meat rockwich</s><r>мясо Роквич</r></e>
+  <e k="D" t="ThingDef" key="SC_Sandwich_VeggieSandwich.description"><s>Seasoned vegetables placed within two slices of rockbread.</s><r>Приправленные овощи помещены в два ломтика каменного хлеба.</r></e>
+  <e k="D" t="ThingDef" key="SC_Sandwich_VeggieSandwich.label"><s>veggie rockwich</s><r>вегетарианский Роквич</r></e>
+  <e k="D" t="ThingDef" key="SC_Skewer_Fungus.description"><s>Fungus skewered and grilled, glazed with sauces. Not incredibly nutritious, but tasty.</s><r>Грибы на шампуре и гриле, глазированные соусами. Не невероятно питательно, но вкусно.</r></e>
+  <e k="D" t="ThingDef" key="SC_Skewer_Fungus.label"><s>mushroom skewer</s><r>шашлык из грибов</r></e>
+  <e k="D" t="ThingDef" key="SC_Skewer_Insect.description"><s>Insect meat skewered and grilled, glazed with sauces. Not incredibly nutritious, but tasty.</s><r>Мясо насекомых на шампуре и гриле, глазированное соусами. Не невероятно питательно, но вкусно.</r></e>
+  <e k="D" t="ThingDef" key="SC_Skewer_Insect.label"><s>insect meat skewer</s><r>шашлык из мяса насекомых</r></e>
+  <e k="D" t="ThingDef" key="SC_Skewer_Meat.description"><s>Meat skewered and grilled, glazed with sauces. Not incredibly nutritious, but tasty.</s><r>Мясо на шампуре и гриле, глазированное соусами. Не невероятно питательно, но вкусно.</r></e>
+  <e k="D" t="ThingDef" key="SC_Skewer_Meat.label"><s>meat skewer</s><r>мясной шашлык</r></e>
+  <e k="D" t="ThingDef" key="SC_Skewer_Vegetarian.description"><s>Vegetables skewered and grilled, glazed with sauces. Not incredibly nutritious, but tasty.</s><r>Овощи на шампуре и гриле, глазированные соусами. Не невероятно питательно, но вкусно.</r></e>
+  <e k="D" t="ThingDef" key="SC_Skewer_Vegetarian.label"><s>veggie skewer</s><r>овощной шашлык</r></e>
+  <e k="D" t="ThingDef" key="SC_Spongecake.description"><s>Fluffy spongecake, with a layer of bitter nectar. Warms the soul and heart.</s><r>Воздушный бисквит, с прослойкой горького нектара. Согревает душу и сердце.</r></e>
+  <e k="D" t="ThingDef" key="SC_Spongecake.label"><s>spongecake</s><r>бисквит</r></e>
+  <e k="D" t="ThingDef" key="SC_Table3x8c.description"><s>People eat off tables when chairs are placed facing them.</s><r>Люди едят за столом, когда стулья стоят напротив них.</r></e>
+  <e k="D" t="ThingDef" key="SC_Table3x8c.label"><s>table (3x8)</s><r>стол (3х8)</r></e>
+  <e k="D" t="ThingDef" key="SC_ThrumboChop.description"><s>A hefty rib covered in a sweet, minty sauce, served along sauteed vegetables.</s><r>Огромное ребро, покрытое сладким мятным соусом, подается с обжаренными овощами.</r></e>
+  <e k="D" t="ThingDef" key="SC_ThrumboChop.label"><s>thrumbo tomahwak</s><r>трамбо томагвак</r></e>
+  <e k="D" t="ThingDef" key="SC_ThrumboRib.description"><s>The large ribs of a graceful thrumbo, separated into single chops.
+
+&lt;color=#6e6e6eff&gt;Traditionally, tribal societies surround thrumbos in folklore and myth, thus their flesh is only eaten upon the natural passing of the animal. This ritual feast can last up to a week, in which the tribe will eat every piece of the thrumbo: after grand dances and celebrations, an honorable burial is held for the clean skeleton of the animal.&lt;/color&gt;</s><r>Большие ребра изящного трамбо, разделенные на отдельные отбивные.
+
+&lt;color=#6e6e6eff&gt;Традиционно племенные общества окружают трамбо в фольклоре и мифах, поэтому их мясо едят только после естественной смерти животного. Этот ритуальный пир может длиться до недели, в течение которого племя съедает каждый кусочек трамбо: после грандиозных танцев и торжеств проводится почетное захоронение чистого скелета животного.&lt;/color&gt;</r></e>
+  <e k="D" t="ThingDef" key="SC_ThrumboRib.label"><s>thrumbo rib</s><r>большое ребро</r></e>
+  <e k="D" t="ThingDef" key="SC_UnstableMatter.description"><s>A microscopic, unstable, unobservable element, lasting nearly only a zeptosecond of real time in the material plane before vanishing with an implosion.</s><r>Микроскопический, нестабильный, ненаблюдаемый элемент, существующий в материальном плане всего лишь зептосекунду реального времени, а затем исчезающий в результате взрыва.</r></e>
+  <e k="D" t="ThingDef" key="SC_UnstableMatter.label"><s>unstable matter</s><r>нестабильная материя</r></e>
+  <e k="D" t="ThingDef" key="SC_VeganRockpie.description"><s>Assorted vegetables diced and mixed with herbs, thickened with flour and baked into a hard rockbread shell, which moistens with baking.</s><r>Овощное ассорти, нарезанное кубиками и смешанное с зеленью, загущенное мукой и запеченное в твердой оболочке, которая смачивается при выпечке.</r></e>
+  <e k="D" t="ThingDef" key="SC_VeganRockpie.label"><s>vegan rockpie</s><r>веганский рокпи</r></e>
+  <e k="D" t="ThoughtDef" key="SC_AteCookedPrimeCut.stages.0.description"><s>Such a rich, prized taste!</s><r>Такой богатый, ценный вкус!</r></e>
+  <e k="D" t="ThoughtDef" key="SC_AteCookedPrimeCut.stages.0.label"><s>ate prime cut</s><r>съел лучший кусок</r></e>
+  <e k="D" t="ThoughtDef" key="SC_BitterstrugRush_Thought.stages.0.description"><s>I feel so energized! I could do anything!</s><r>Я чувствую себя таким энергичным! Я мог сделать что угодно!</r></e>
+  <e k="D" t="ThoughtDef" key="SC_BitterstrugRush_Thought.stages.0.label"><s>high on bitterstrug</s><r>под кайфом от горечи</r></e>
+  <e k="D" t="ThoughtDef" key="SC_Thought_AteFeast.stages.0.description"><s>What a wonderful meal, nutritious and tasty!</s><r>Какая чудесная еда, сытная и вкусная!</r></e>
+  <e k="D" t="ThoughtDef" key="SC_Thought_AteFeast.stages.0.label"><s>ate a glorious feast</s><r>ел великолепный пир</r></e>
+  <e k="D" t="ThoughtDef" key="SC_Thought_AteFrozenFeast.stages.0.description"><s>What a nice meal, if only it was still warm..</s><r>Какая вкусная еда, если бы она была еще теплой..</r></e>
+  <e k="D" t="ThoughtDef" key="SC_Thought_AteFrozenFeast.stages.0.label"><s>ate a cold feast</s><r>съел холодный пир</r></e>
+  <e k="D" t="ThoughtDef" key="SC_Thought_AteRockburger.stages.0.description"><s>Greasy yet tasty!</s><r>Жирный, но вкусный!</r></e>
+  <e k="D" t="ThoughtDef" key="SC_Thought_AteRockburger.stages.0.label"><s>ate a rockburger</s><r>съел рокбургер</r></e>
+  <e k="D" t="ThoughtDef" key="SC_Thought_AteRockpie.stages.0.description"><s>What a filling, hearty meal!</s><r>Какой сытный и сытный обед!</r></e>
+  <e k="D" t="ThoughtDef" key="SC_Thought_AteRockpie.stages.0.label"><s>ate a rockpie</s><r>съел рокпи</r></e>
+  <e k="D" t="ThoughtDef" key="SC_Thought_AteSweets.stages.0.description"><s>What a lovely sugary snack!</s><r>Какая прекрасная сладкая закуска!</r></e>
+  <e k="D" t="ThoughtDef" key="SC_Thought_AteSweets.stages.0.label"><s>ate a sweet treat</s><r>съел сладкое угощение</r></e>
+  <e k="D" t="TraderKindDef" key="SC_Orbital_Culinary.label"><s>culinary trader</s><r>кулинарный торговец</r></e>
+  <e k="D" t="WorkGiverDef" key="LTS_EmptyMoleroachBurrow.gerund"><s>emptying</s><r>опорожнение</r></e>
+  <e k="D" t="WorkGiverDef" key="LTS_EmptyMoleroachBurrow.label"><s>empty moleroach burrow</s><r>пустая нора крота</r></e>
+  <e k="D" t="WorkGiverDef" key="LTS_EmptyMoleroachBurrow.verb"><s>empty</s><r>пустой</r></e>
+  <e k="D" t="WorkGiverDef" key="SC_DoBillsCarve.gerund"><s>carving at</s><r>резьба по</r></e>
+  <e k="D" t="WorkGiverDef" key="SC_DoBillsCarve.label"><s>carve corpse</s><r>вырезать труп</r></e>
+  <e k="D" t="WorkGiverDef" key="SC_DoBillsCarve.verb"><s>carve at</s><r>вырезать на</r></e>
+  <e k="D" t="WorkGiverDef" key="SC_DoBillsGrill.gerund"><s>grilling at</s><r>гриль на</r></e>
+  <e k="D" t="WorkGiverDef" key="SC_DoBillsGrill.label"><s>grill food</s><r>гриль еда</r></e>
+  <e k="D" t="WorkGiverDef" key="SC_DoBillsGrill.verb"><s>grill at</s><r>гриль в</r></e>
+  <e k="D" t="WorkGiverDef" key="SC_DoBillsKnead.gerund"><s>kneading at</s><r>разминание</r></e>
+  <e k="D" t="WorkGiverDef" key="SC_DoBillsKnead.label"><s>knead dough</s><r>замесить тесто</r></e>
+  <e k="D" t="WorkGiverDef" key="SC_DoBillsKnead.verb"><s>knead at</s><r>месить</r></e>
+  <e k="K" key="SC_BullgrogResourceString"><s>Milk production</s><r>Производство молока</r></e>
+  <e k="K" key="SC_CheeseAging"><s>Dry-aging..</s><r>Сухая выдержка..</r></e>
+  <e k="K" key="SC_CheeseAgingCorrectly"><s>This cheese is dry-aging properly (ages in {0})</s><r>Этот сыр подвергается правильной сухой выдержке (выдержка {0}).</r></e>
+  <e k="K" key="SC_CheeseCurrentlyFrozen"><s>This cheese is frozen and will not age.</s><r>Этот сыр заморожен и не стареет.</r></e>
+  <e k="K" key="SC_CheeseCurrentlyRefrigerated"><s>This cheese is refrigerated and will not age as fast as it could (ages in {0})</s><r>Этот сыр хранится в холодильнике и не стареет так быстро, как мог бы (выдержка {0}).</r></e>
+  <e k="K" key="SC_CreamgrubResourceString"><s>Silk production</s><r>Производство шелка</r></e>
+  <e k="K" key="SC_KilnNotWorking"><s>This kiln is not working at the moment</s><r>Эта печь в данный момент не работает</r></e>
+  <e k="K" key="SC_MicrowaveNotWorking"><s>Are you happy with yourself?</s><r>Вы довольны собой?</r></e>
+  <e k="K" key="SC_PotNotWorking"><s>This pot is not working at the moment</s><r>Этот горшок в данный момент не работает</r></e>
+</AutoTranslateCache>
