@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="tsa.worlddominationexperimental" name="World Domination 2.0" language="Russian" version="1">
+  <e k="D" t="QuestScriptDef" key="TSA_WD_FortifySettlement.questDescriptionRules.rulesStrings.0"><s>questDescription-&gt;[faction_name] wants you to strengthen [allySettlement_label].
+
+Send a player caravan to an adjacent tile and use Fortify (scales with Crafting; adds defensive strength). You have 8 days.</s><r>questDescription-&gt;[faction_name] хочет, чтобы вы усилили [allySettlement_label].
+
+Отправьте караван игроков на соседнюю клетку и используйте «Укрепление» (масштабируется с помощью крафта; добавляет защитную силу). У вас есть 8 дней.</r></e>
+  <e k="D" t="QuestScriptDef" key="TSA_WD_FortifySettlement.questNameRules.rulesStrings.0"><s>questName-&gt;Fortify [allySettlement_label]</s><r>questName-&gt;Укрепить [allySettlement_label]</r></e>
+  <e k="D" t="QuestScriptDef" key="TSA_WD_FortifySettlement.questNameRules.rulesStrings.1"><s>questName-&gt;Aid for [allySettlement_label]</s><r>questName-&gt;Помощь для [allySettlement_label]</r></e>
+  <e k="D" t="QuestScriptDef" key="TSA_WD_FortifySettlement.questNameRules.rulesStrings.2"><s>questName-&gt;Strengthen [allySettlement_label]</s><r>questName-&gt;Укрепить [allySettlement_label]</r></e>
+  <e k="D" t="QuestScriptDef" key="TSA_WD_FortifySettlement.root.nodes.3.label.slateRef"><s>Quest failed: [resolvedQuestName]</s><r>Квест провален: [resolvedQuestName]</r></e>
+  <e k="D" t="QuestScriptDef" key="TSA_WD_FortifySettlement.root.nodes.3.text.slateRef"><s>[faction_name] became hostile. The fortify request has failed.</s><r>[faction_name] стал враждебным. Запрос на усиление не выполнен.</r></e>
+  <e k="D" t="QuestScriptDef" key="TSA_WD_FortifySettlement.root.nodes.6.node.nodes.0.label.slateRef"><s>Quest expired: [resolvedQuestName]</s><r>Срок действия квеста истек: [resolvedQuestName]</r></e>
+  <e k="D" t="QuestScriptDef" key="TSA_WD_FortifySettlement.root.nodes.6.node.nodes.0.text.slateRef"><s>Time ran out on the request from [faction_name] to fortify [allySettlement_label].</s><r>На запрос от [faction_name] об укреплении [allySettlement_label] истекло время.</r></e>
+  <e k="D" t="QuestScriptDef" key="TSA_WD_SpyOpsSettlement.questDescriptionRules.rulesStrings.0"><s>questDescription-&gt;[faction_name] wants you to weaken [enemySettlement_label], a shared enemy, without needing to destroy it.
+
+Send a player caravan to an adjacent tile and use Spread Disinformation (scales with Social) or Sabotage (scales with Crafting). You have 8 days.</s><r>questDescription-&gt;[faction_name] хочет, чтобы вы ослабили [enemySettlement_label], общего врага, без необходимости его уничтожения. 
+
+Отправьте караван игроков на соседнюю клетку и используйте «Распространение дезинформации» (масштабируется с помощью «Социального общения») или «Саботажа» (масштабируется с помощью «Крафтинга»). У вас есть 8 дней.</r></e>
+  <e k="D" t="QuestScriptDef" key="TSA_WD_SpyOpsSettlement.questNameRules.rulesStrings.0"><s>questName-&gt;Whispers against [enemySettlement_label]</s><r>questName-&gt;Шепот против [enemySettlement_label]</r></e>
+  <e k="D" t="QuestScriptDef" key="TSA_WD_SpyOpsSettlement.questNameRules.rulesStrings.1"><s>questName-&gt;Weaken [enemySettlement_label]</s><r>questName-&gt;Ослабление [enemySettlement_label]</r></e>
+  <e k="D" t="QuestScriptDef" key="TSA_WD_SpyOpsSettlement.questNameRules.rulesStrings.2"><s>questName-&gt;Spy work: [enemySettlement_label]</s><r>questName-&gt;Шпионская работа: [enemySettlement_label]</r></e>
+  <e k="D" t="QuestScriptDef" key="TSA_WD_SpyOpsSettlement.root.nodes.3.label.slateRef"><s>Quest failed: [resolvedQuestName]</s><r>Квест провален: [resolvedQuestName]</r></e>
+  <e k="D" t="QuestScriptDef" key="TSA_WD_SpyOpsSettlement.root.nodes.3.text.slateRef"><s>[faction_name] became hostile. The spy-ops request has failed.</s><r>[faction_name] стал враждебным. Запрос шпионской службы не удался.</r></e>
+  <e k="D" t="QuestScriptDef" key="TSA_WD_SpyOpsSettlement.root.nodes.6.node.nodes.0.label.slateRef"><s>Quest expired: [resolvedQuestName]</s><r>Срок действия квеста истек: [resolvedQuestName]</r></e>
+  <e k="D" t="QuestScriptDef" key="TSA_WD_SpyOpsSettlement.root.nodes.6.node.nodes.0.text.slateRef"><s>Time ran out on the request from [faction_name] to weaken [enemySettlement_label].</s><r>Время истекло на запрос от [faction_name] до ослабления [enemySettlement_label].</r></e>
+  <e k="D" t="RoadDef" key="TSA_WD_GlitterRoad.label"><s>glitter road</s><r>блестящая дорога</r></e>
+  <e k="D" t="WdRoadTierDef" key="TSA_WdRoad_Glitter.label"><s>glitter road</s><r>блестящая дорога</r></e>
+  <e k="D" t="WorldObjectDef" key="TSA_WD_Traveler_Scout.label"><s>Scout Caravan</s><r>Караван разведчиков</r></e>
+  <e k="K" key="TSA_AutoUpdateNote_Power"><s>
+
+Recalculates when outposts or power settings change (with a quiet fingerprint check each power pulse).</s><r>
+
+Пересчитывается при изменении аванпостов или настроек питания (тихим отпечатком пальца проверяйте каждый импульс питания).</r></e>
+  <e k="K" key="TSA_Logistics_ResetAllocationTip_Power"><s>Switch to Manual and clear all power sent from this plant to other outposts. Residual Keep still feeds the colony.</s><r>Переключитесь в ручной режим и отключите всю энергию, передаваемую с этого завода на другие аванпосты. Остаточная крепость по-прежнему кормит колонию.</r></e>
+  <e k="K" key="TSA_Logistics_SectionOtherOutposts_Power"><s>Distribute surplus power to outposts in range:</s><r>Распределите излишки энергии по аванпостам в радиусе действия:</r></e>
+  <e k="K" key="TSA_PowerDeficitTooltip"><s>1) Cover every reachable outpost up to full demand (worst shortages first), using surplus from all Smart power plants in range together.
+2) Leftover generation stays as Keep and feeds the colony power grid.</s><r>1) Покрыть каждый доступный аванпост до полного спроса (сначала наихудший дефицит), используя излишки всех интеллектуальных электростанций в радиусе действия вместе. 
+2) Оставшаяся генерация остается в качестве Keep и питает электросеть колонии.</r></e>
+  <e k="K" key="TSA_WD_ATIntel_Headline"><s>Intel: {0}</s><r>Интел: {0}</r></e>
+  <e k="K" key="TSA_WD_ATIntel_TabLabel"><s>Intel</s><r>Интел</r></e>
+  <e k="K" key="TSA_WD_AllInventory_SkipSameDestLine"><s>- {0}x {1}</s><r>- {0}х {1}</r></e>
+  <e k="K" key="TSA_WD_AllyRadius_BreakdownLeader"><s>World leader debuff: ally pull radius {0}</s><r>Дебафф мирового лидера: радиус притяжения союзника {0}</r></e>
+  <e k="K" key="TSA_WD_AllyRadius_BreakdownNimble"><s>Nimble buff: ally pull radius {0}</s><r>Усиление ловкости: радиус притяжения союзника {0}</r></e>
+  <e k="K" key="TSA_WD_Armory_Equipment"><s>Equipment</s><r>Оборудование</r></e>
+  <e k="K" key="TSA_WD_Armory_EquipmentTip"><s>Actions apply to selected pawns and selected store gear only. Check occupants and store rows, then strip worn gear or inventory, or auto-assign checked weapons, apparel, and drugs.</s><r>Действия применяются только к выбранным пешкам и выбранному снаряжению из магазина. Проверьте пассажиров и ряды магазинов, затем снимите изношенное снаряжение или инвентарь или автоматически назначьте проверенное оружие, одежду и наркотики.</r></e>
+  <e k="K" key="TSA_WD_Armory_Equipment_AutoAssign"><s>Auto Assign Gear</s><r>Автоматическое назначение передач</r></e>
+  <e k="K" key="TSA_WD_Armory_Equipment_AutoAssignDrugs"><s>Auto Assign Drugs</s><r>Автоматическое назначение лекарств</r></e>
+  <e k="K" key="TSA_WD_Armory_Equipment_AutoAssignDrugsDone"><s>Assigned {0} drug item(s) from Armory stock.</s><r>Присвоено {0} лекарств из запасов Оружейной.</r></e>
+  <e k="K" key="TSA_WD_Armory_Equipment_AutoAssignDrugsNone"><s>No drugs assigned. Stock may be empty, selected pawns may be teetotalers, or they cannot carry more.</s><r>Никаких препаратов не назначено. Запас может быть пуст, выбранные пешки могут быть трезвенниками или не могут нести больше.</r></e>
+  <e k="K" key="TSA_WD_Armory_Equipment_AutoAssignDrugsTip"><s>Share Armory drugs evenly across selected occupants (up to 5 items each). Skips pawns with the teetotaler trait. Only checked pawns receive drugs.</s><r>Равномерно распределите наркотики из Оружейной между выбранными обитателями (до 5 предметов каждому). Пропускает пешки с чертой трезвенника. Наркотики получают только проверенные пешки.</r></e>
+  <e k="K" key="TSA_WD_Armory_Equipment_AutoAssignTip"><s>Uses the better of Melee vs Shooting: that skill sets priority and weapon type (Shooting higher → ranged, Melee higher → melee). Within that type, the most expensive selected gear by silver goes to the highest-skilled occupants first. Falls back to the other weapon type only if none of the preferred type remain. Also fills free apparel layers with selected armor and clothing (highest silver first). Does not strip or replace worn gear. Only checked pawns and checked store gear are used.</s><r>Использует лучшее из ближнего боя и стрельбы: этот навык устанавливает приоритет и тип оружия (выше стрельба → дальний бой, выше ближний бой → ближний бой). В этом типе самое дорогое снаряжение, выбранное серебром, в первую очередь достается самым опытным пассажирам. Возвращается к другому типу оружия только в том случае, если не осталось ни одного предпочтительного типа. Также заполняет свободные слои одежды выбранными доспехами и одеждой (сначала самое высокое серебро). Не снимает и не заменяет изношенную шестерню. Используются только проверенные пешки и проверенные магазинные снасти.</r></e>
+  <e k="K" key="TSA_WD_Armory_Equipment_EquipDone"><s>Equipped {0} weapon(s) and {1} apparel piece(s).</s><r>Оборудовано {0} оружия(ов) и {1} предметов одежды.</r></e>
+  <e k="K" key="TSA_WD_Armory_Equipment_EquipNone"><s>Nothing equipped. Occupants may already be armed and clothed, or no free slots match the selected store gear.</s><r>Ничего не оборудовано. Возможно, пассажиры уже вооружены и одеты, или нет свободных мест, соответствующих выбранному снаряжению в магазине.</r></e>
+  <e k="K" key="TSA_WD_Armory_Equipment_StripApparel"><s>Strip apparel</s><r>Раздевание одежды</r></e>
+  <e k="K" key="TSA_WD_Armory_Equipment_StripApparelDone"><s>Moved {0} apparel piece(s) into the Armory.</s><r>Перемещено {0} предметов одежды в Адмиралтейство.</r></e>
+  <e k="K" key="TSA_WD_Armory_Equipment_StripApparelNone"><s>No non-armor apparel to strip on the checked occupants.</s><r>На проверенных пассажирах не допускается надевать неброневую одежду.</r></e>
+  <e k="K" key="TSA_WD_Armory_Equipment_StripApparelTip"><s>Move worn non-armor apparel from selected occupants into the Armory. Only checked pawns are affected.</s><r>Перенесите изношенную неброневую одежду выбранных пассажиров в Оружейную. Затрагиваются только проверенные пешки.</r></e>
+  <e k="K" key="TSA_WD_Armory_Equipment_StripArmor"><s>Strip armor</s><r>Полосовая броня</r></e>
+  <e k="K" key="TSA_WD_Armory_Equipment_StripArmorDone"><s>Moved {0} armor piece(s) into the Armory.</s><r>Перемещено {0} частей брони в Адмиралтейство.</r></e>
+  <e k="K" key="TSA_WD_Armory_Equipment_StripArmorNone"><s>No worn armor to strip on the checked occupants.</s><r>Никакой изношенной брони, которую можно было бы снять с проверенных пассажиров.</r></e>
+  <e k="K" key="TSA_WD_Armory_Equipment_StripArmorTip"><s>Move worn armor from selected occupants into the Armory. Only checked pawns are affected.</s><r>Переместите изношенную броню выбранных пассажиров в Оружейную. Затрагиваются только проверенные пешки.</r></e>
+  <e k="K" key="TSA_WD_Armory_Equipment_StripDrugs"><s>Strip drugs</s><r>Стрип-наркотики</r></e>
+  <e k="K" key="TSA_WD_Armory_Equipment_StripDrugsDone"><s>Moved {0} drug stack(s) into the Armory.</s><r>Перемещено {0} стопок лекарств в Адмиралтейство.</r></e>
+  <e k="K" key="TSA_WD_Armory_Equipment_StripDrugsNone"><s>No drugs to strip on the checked occupants.</s><r>Никаких наркотиков, которые можно раздевать на проверенных пассажирах.</r></e>
+  <e k="K" key="TSA_WD_Armory_Equipment_StripDrugsTip"><s>Move drugs from selected occupants into the Armory. Only checked pawns are affected.</s><r>Перенесите наркотики от выбранных обитателей в Оружейную. Затрагиваются только проверенные пешки.</r></e>
+  <e k="K" key="TSA_WD_Armory_Equipment_StripOtherInventory"><s>Strip other inventory</s><r>Удалить другой инвентарь</r></e>
+  <e k="K" key="TSA_WD_Armory_Equipment_StripOtherInventoryDone"><s>Moved {0} other inventory stack(s) into the Armory.</s><r>Перемещено {0} других стопок инвентаря в Оружейную.</r></e>
+  <e k="K" key="TSA_WD_Armory_Equipment_StripOtherInventoryNone"><s>No Other Inventory items to strip on the checked occupants.</s><r>Никаких других предметов инвентаря, которые можно было бы раздеть на проверенных пассажирах.</r></e>
+  <e k="K" key="TSA_WD_Armory_Equipment_StripOtherInventoryTip"><s>Move Other Inventory pack items from selected occupants into the Armory (not food, drugs, ammo, or medicine). Only checked pawns are affected.</s><r>Переместите другие предметы из инвентаря выбранных пассажиров в Оружейную (не еду, лекарства, боеприпасы или лекарства). Затрагиваются только проверенные пешки.</r></e>
+  <e k="K" key="TSA_WD_Armory_Equipment_StripWeapons"><s>Strip weapons</s><r>Раздеть оружие</r></e>
+  <e k="K" key="TSA_WD_Armory_Equipment_StripWeaponsDone"><s>Moved {0} weapon(s) into the Armory.</s><r>Перемещено {0} оружия в Адмиралтейство.</r></e>
+  <e k="K" key="TSA_WD_Armory_Equipment_StripWeaponsNone"><s>No equipped weapons to strip on the checked occupants.</s><r>Никакого оружия, которым можно было бы раздеть проверенных пассажиров.</r></e>
+  <e k="K" key="TSA_WD_Armory_Equipment_StripWeaponsTip"><s>Move equipped weapons from selected occupants into the Armory. Only checked pawns are affected.</s><r>Перенесите экипированное оружие выбранных пассажиров в Оружейную. Затрагиваются только проверенные пешки.</r></e>
+  <e k="K" key="TSA_WD_Armory_StoresMoreTypes"><s>and {0} more item types</s><r>и {0} другие типы предметов</r></e>
+  <e k="K" key="TSA_WD_BtnIntelLos"><s>Intel and Line of Sight</s><r>Разведка и прямая видимость</r></e>
+  <e k="K" key="TSA_WD_BtnQuests"><s>Quests</s><r>Квесты</r></e>
+  <e k="K" key="TSA_WD_BuildReq_MaterialLine"><s>  - {0} x{1}</s><r>  - {0} х{1}</r></e>
+  <e k="K" key="TSA_WD_Caravans_HeaderTraderInfra"><s>Trader infrastructure (at cap)</s><r>Трейдерская инфраструктура (по пределу)</r></e>
+  <e k="K" key="TSA_WD_Caravans_InfraT1"><s>Infrastructure chance (T1)</s><r>Шанс инфраструктуры (T1)</r></e>
+  <e k="K" key="TSA_WD_Caravans_InfraT1Tip"><s>Additive with tier-up. After a successful WD trade at the T1 strength ceiling, this chance instantly places a tier-matched advanced building, or a Light AT turret if none can be placed. Rolls independently of tier promotion.</s><r>Присадка с повышением уровня. После успешной торговли WD при достижении потолка силы T1 этот шанс мгновенно размещает продвинутое здание соответствующего уровня или легкую противотанковую турель, если ни одну невозможно разместить. Выполняется независимо от повышения уровня.</r></e>
+  <e k="K" key="TSA_WD_Caravans_InfraT2"><s>Infrastructure chance (T2)</s><r>Шанс инфраструктуры (T2)</r></e>
+  <e k="K" key="TSA_WD_Caravans_InfraT2Tip"><s>Same as T1 infrastructure, for settlements at the T2 strength ceiling (Light AT fallback).</s><r>То же, что и инфраструктура Т1, для поселений с потолком прочности Т2 (резервный вариант Light AT).</r></e>
+  <e k="K" key="TSA_WD_Caravans_InfraT3"><s>Infrastructure chance (T3)</s><r>Шанс инфраструктуры (T3)</r></e>
+  <e k="K" key="TSA_WD_Caravans_InfraT3Tip"><s>Same as T1 infrastructure, for settlements at the T3 strength ceiling (Medium AT fallback).</s><r>То же, что и инфраструктура Т1, для поселений с потолком силы Т3 (резервный вариант Среднего АТ).</r></e>
+  <e k="K" key="TSA_WD_DescIntelLos"><s>Soft fog of war: discovery, MaxLOS rings, scouts, Strategic Expand, and Got Burned caution.</s><r>Мягкий туман войны: открытия, кольца MaxLOS, разведчики, стратегическое расширение и осторожность «Обожжен».</r></e>
+  <e k="K" key="TSA_WD_DescQuests"><s>Enable or disable WD quest offers (first outpost, spy-ops, fortify, common enemy, colony road link, and World Domination victory).</s><r>Включите или отключите предложения квестов WD (первая застава, шпионские операции, укрепление, общий враг, дорога к колонии и победа в мировом господстве).</r></e>
+  <e k="K" key="TSA_WD_Establish_NeedLakeOrRiver"><s>Fishing outposts need a coast, lake, or river on the tile.</s><r>Рыболовным аванпостам нужен берег, озеро или река на тайле.</r></e>
+  <e k="K" key="TSA_WD_FactionColor_DisabledTip"><s>Defeated factions cannot change color.</s><r>Побежденные фракции не могут менять цвет.</r></e>
+  <e k="K" key="TSA_WD_FactionColor_Tip"><s>Left-click to pick this faction's color (world map, icons, travelers). Right-click to restore the default spectrum color.</s><r>Щелкните левой кнопкой мыши, чтобы выбрать цвет этой фракции (карта мира, значки, путешественники). Щелкните правой кнопкой мыши, чтобы восстановить цвет спектра по умолчанию.</r></e>
+  <e k="K" key="TSA_WD_FortifyQuest_LetterLabelExpired"><s>Quest expired: [resolvedQuestName]</s><r>Срок действия квеста истек: [resolvedQuestName]</r></e>
+  <e k="K" key="TSA_WD_FortifyQuest_LetterLabelFailed"><s>Quest failed: [resolvedQuestName]</s><r>Квест провален: [resolvedQuestName]</r></e>
+  <e k="K" key="TSA_WD_FortifyQuest_LetterLabelTargetGone"><s>Quest failed: {0}</s><r>Квест провален: {0}</r></e>
+  <e k="K" key="TSA_WD_FortifyQuest_LetterTextExpired"><s>Time ran out on the request from [faction_name] to fortify [allySettlement_label].</s><r>На запрос от [faction_name] об укреплении [allySettlement_label] истекло время.</r></e>
+  <e k="K" key="TSA_WD_FortifyQuest_LetterTextHostile"><s>[faction_name] became hostile. The fortify request has failed.</s><r>[faction_name] стал враждебным. Запрос на усиление не выполнен.</r></e>
+  <e k="K" key="TSA_WD_FortifyQuest_LetterTextTargetGone"><s>{0} wanted you to fortify {1}, but that town is gone. The request has failed.</s><r>{0} хотел, чтобы вы укрепили {1}, но этого города больше нет. Запрос не удался.</r></e>
+  <e k="K" key="TSA_WD_Gizmo_ShowSightRadius"><s>Show line of sight</s><r>Показать линию видимости</r></e>
+  <e k="K" key="TSA_WD_Gizmo_ShowSightRadiusDesc"><s>Draw golden MaxLOS fill with target-size discovery bands around this object. Small targets only inside the inner ring; medium farther out; big targets out to the outer edge.
+
+Range: {0}</s><r>Нарисуйте золотую заливку MaxLOS с полосами обнаружения целевого размера вокруг этого объекта. Мелкие цели только внутри внутреннего кольца; средний дальше; большие цели до внешнего края.
+
+Диапазон: {0}</r></e>
+  <e k="K" key="TSA_WD_Gizmo_ShowSightRadiusDescPlayer"><s>Draw golden MaxLOS fill with target-size discovery bands. The player always sees everything in gameplay; this only drives the intel view.
+
+Range: {0}</s><r>Нарисуйте золотистую заливку MaxLOS с полосами обнаружения целевого размера. Игрок всегда видит все в игровом процессе; это управляет только представлением Intel.
+
+Диапазон: {0}</r></e>
+  <e k="K" key="TSA_WD_Gizmo_SightRadiusBandsLegend"><s>Color bands (discoverable target size):
+Red = 0–{0}% of MaxLOS. All sizes (small / medium / big).
+Orange = {0}–{1}% of MaxLOS. Medium and big only.
+Yellow = {1}–{2}% of MaxLOS. Big targets only (outer MaxLOS).</s><r>Цветные полосы (обнаруживаемый размер цели): 
+Red = 0–{0}% от MaxLOS. Все размеры (маленький/средний/большой).
+Оранжевый = {0}–{1}% от MaxLOS. Только средние и большие.
+Желтый = {1}–{2}% от MaxLOS. Только большие цели (внешний MaxLOS).</r></e>
+  <e k="K" key="TSA_WD_GlitterRoad_MinTech"><s>Glitter roads: min NPC tech level</s><r>Блестящие дороги: минимальный технический уровень NPC</r></e>
+  <e k="K" key="TSA_WD_GlitterRoad_MinTechTip"><s>Only non-player factions at this tech level or higher may auto-build or be ordered to build Glitter roads (also requires a T4 settlement). Spacer is the default. Player outposts use Advanced Fabrication research and materials instead.</s><r>Только неигровые фракции на этом технологическом уровне или выше могут строить автоматически или получать заказы на строительство Блестящих дорог (также требуется поселение T4). Проставка стоит по умолчанию. Вместо этого аванпосты игроков используют исследования и материалы Advanced Fabrication.</r></e>
+  <e k="K" key="TSA_WD_Intel_BurnTriggerRatio"><s>GotBurned trigger ratio</s><r>Коэффициент триггера GotBurned</r></e>
+  <e k="K" key="TSA_WD_Intel_BurnTriggerRatioTip"><s>If true defender strength exceeds the fogged assess by this ratio, stamp GotBurned on the attacker.</s><r>Если истинная сила защитника превышает затуманенную оценку по этому коэффициенту, нанесите на атакующего штамп GotBurned.</r></e>
+  <e k="K" key="TSA_WD_Intel_BurnedHiddenPct"><s>GotBurned hidden strength inflate</s><r>GotBurned скрытая сила накачивается</r></e>
+  <e k="K" key="TSA_WD_Intel_BurnedHiddenPctTip"><s>After a raid undercounts defenders, the next assess vs that primary inflates known defender strength by this percent (caution only; no free neighbor discovery).</s><r>После того, как в рейде количество защитников занижается, следующая оценка по сравнению с основной увеличивает известную силу защитников на этот процент (только осторожность: нельзя обнаружить свободных соседей).</r></e>
+  <e k="K" key="TSA_WD_Intel_GateSettlementIntelTip"><s>Never = feature off (perfect information, no scouts, no View gizmo). Always / From Mid / From Late: discovery and scouts from day 0; raid assess fog starts when that stage is reached.</s><r>Никогда = функция выключена (полная информация, никаких разведчиков, никакой штуковины View). Всегда/С середины/С конца: открытие и разведка с 0-го дня; Рейдовая оценка тумана начинается, когда достигается этот этап.</r></e>
+  <e k="K" key="TSA_WD_Intel_GotBurnedDays"><s>GotBurned duration (days)</s><r>Продолжительность GotBurned (дни)</r></e>
+  <e k="K" key="TSA_WD_Intel_GotBurnedDaysTip"><s>How long the GotBurned caution stamp lasts on a primary target before it expires.</s><r>Как долго предупреждающая отметка GotBurned будет действовать на основной цели до истечения срока ее действия.</r></e>
+  <e k="K" key="TSA_WD_Intel_HeaderFeatureGate"><s>Feature gate</s><r>Особенности ворот</r></e>
+  <e k="K" key="TSA_WD_Intel_HeaderFeatureGateTip"><s>Never turns the feature fully off. Any other value starts discovery and scouts on day 0, and fogs raid logic once the stage is reached.</s><r>Никогда не выключайте эту функцию полностью. Любое другое значение запускает обнаружение и разведку в нулевой день и затуманивает логику рейда после достижения этапа.</r></e>
+  <e k="K" key="TSA_WD_Intel_HeaderGotBurned"><s>Got Burned</s><r>Обгорел</r></e>
+  <e k="K" key="TSA_WD_Intel_HeaderGotBurnedTip"><s>After a raid undercounts defenders, the next assess vs that primary inflates known defender strength (caution only).</s><r>После того, как в рейде количество защитников занижается, следующая оценка против этой основной увеличивает известную силу защитников (только осторожность).</r></e>
+  <e k="K" key="TSA_WD_Intel_HeaderScoutsStrategic"><s>Scouts and Strategic Expand</s><r>Скауты и стратегическое расширение</r></e>
+  <e k="K" key="TSA_WD_Intel_HeaderScoutsStrategicTip"><s>Scouts launch whenever the gate is configured (early game). Strategic Expand only when raid-logic fog is active.</s><r>Разведчики запускаются всякий раз, когда ворота настроены (ранняя игра). Стратегическое расширение только тогда, когда активен туман рейдовой логики.</r></e>
+  <e k="K" key="TSA_WD_Intel_HeaderSettlementLos"><s>Settlement line of sight</s><r>Населенный пункт в прямой видимости</r></e>
+  <e k="K" key="TSA_WD_Intel_HeaderSettlementLosTip"><s>Base sight is the tier attack-range baseline. It grows with settlement age and game stage up to the MaxLOS multiplier, and ignores zeal and attack-range bonuses.</s><r>Базовый прицел — это базовая дальность атаки уровня. Он увеличивается с возрастом поселения и игровым этапом до множителя MaxLOS и игнорирует бонусы рвения и дальности атаки.</r></e>
+  <e k="K" key="TSA_WD_Intel_HeaderTargetRings"><s>Target size rings</s><r>кольца размера Target</r></e>
+  <e k="K" key="TSA_WD_Intel_HeaderTargetRingsTip"><s>Fraction of an observer's MaxLOS at which each target class is spotted. Big targets use the outer edge; small targets only the inner rings. Shared by settlements, travelers, and scouts.</s><r>Доля MaxLOS наблюдателя, при которой обнаружен каждый класс цели. Большие цели используют внешний край; небольшие цели только внутренние кольца. Доступно поселениям, путешественникам и разведчикам.</r></e>
+  <e k="K" key="TSA_WD_Intel_HeaderTravelerLos"><s>Traveler line of sight</s><r>Прямая видимость путешественника</r></e>
+  <e k="K" key="TSA_WD_Intel_HeaderTravelerLosTip"><s>Traveler MaxLOS and class come from departure strength (initialStrength). Attrition never changes class.</s><r>MaxLOS и класс путешественника зависят от силы вылета (initialStrength). Истощение никогда не меняет класс.</r></e>
+  <e k="K" key="TSA_WD_Intel_PlayerCaravanMaxLos"><s>Player caravan MaxLOS (tiles)</s><r>Караван игрока MaxLOS (плитки)</r></e>
+  <e k="K" key="TSA_WD_Intel_PlayerCaravanMaxLosTip"><s>How far a real player caravan can spot hostile sites for the player discovery set (FoW prep). The player always has perfect gameplay information.</s><r>Насколько настоящий караван игроков может обнаружить враждебные места для набора обнаружения игрока (подготовка к FoW). У игрока всегда есть точная информация об игровом процессе.</r></e>
+  <e k="K" key="TSA_WD_Intel_RingFracT1"><s>T1 target ring (fraction of MaxLOS)</s><r>Целевое кольцо Т1 (доля MaxLOS)</r></e>
+  <e k="K" key="TSA_WD_Intel_RingFracT1Tip"><s>Smallest sites, weak travelers, AT turrets, and advanced buildings. Spotted only inside this fraction of MaxLOS.</s><r>Самые маленькие локации, слабые путешественники, ПТ-турели и продвинутые постройки. Встречается только внутри этой части MaxLOS.</r></e>
+  <e k="K" key="TSA_WD_Intel_RingFracT2"><s>T2 target ring (fraction of MaxLOS)</s><r>Целевое кольцо Т2 (доля MaxLOS)</r></e>
+  <e k="K" key="TSA_WD_Intel_RingFracT2Tip"><s>Medium sites and travelers of class T2.</s><r>Средние сайты и путешественники класса Т2.</r></e>
+  <e k="K" key="TSA_WD_Intel_RingFracT3"><s>T3 target ring (fraction of MaxLOS)</s><r>Целевое кольцо Т3 (доля MaxLOS)</r></e>
+  <e k="K" key="TSA_WD_Intel_RingFracT3Tip"><s>Large sites and travelers of class T3.</s><r>Крупные сайты и путешественники класса Т3.</r></e>
+  <e k="K" key="TSA_WD_Intel_RingFracT4"><s>T4 target ring (fraction of MaxLOS)</s><r>Целевое кольцо Т4 (доля MaxLOS)</r></e>
+  <e k="K" key="TSA_WD_Intel_RingFracT4Tip"><s>Largest sites and travelers of class T4. Usually equal to MaxLOS.</s><r>Крупнейшие сайты и путешественники класса Т4. Обычно равен MaxLOS.</r></e>
+  <e k="K" key="TSA_WD_Intel_ScoutBearingAvoid"><s>Scout bearing avoid (degrees)</s><r>Избегание пеленга Scout (градусы)</r></e>
+  <e k="K" key="TSA_WD_Intel_ScoutBearingAvoidTip"><s>Scouts avoid launching toward bearings that already have a known hostile within this cone.</s><r>Разведчики избегают атаковать направления, в пределах этого конуса которых уже есть известный противник.</r></e>
+  <e k="K" key="TSA_WD_Intel_ScoutClearWeightMult"><s>Scout clear-area weight mult</s><r>Scout, весовой мульт на открытой площадке</r></e>
+  <e k="K" key="TSA_WD_Intel_ScoutClearWeightMultTip"><s>When the settlement's attack ring has no known hostiles, scout weight is multiplied by this.</s><r>Если в кольце атаки поселения нет известных противников, вес разведчика умножается на это.</r></e>
+  <e k="K" key="TSA_WD_Intel_ScoutCooldownDays"><s>Scout cooldown (days)</s><r>Время восстановления разведчика (дни)</r></e>
+  <e k="K" key="TSA_WD_Intel_ScoutCooldownDaysTip"><s>Per-settlement cooldown after launching a scout.</s><r>Время восстановления для каждого поселения после запуска разведчика.</r></e>
+  <e k="K" key="TSA_WD_Intel_ScoutCrackFall"><s>Scout crack-fall chance</s><r>Шанс падения разведчика</r></e>
+  <e k="K" key="TSA_WD_Intel_ScoutCrackFallTip"><s>Chance that an NPC interceptor treats a scout as a crack-faller and lets it through. Player intercepts are unchanged.</s><r>Вероятность того, что NPC-перехватчик сочтет разведчика бездельником и пропустит его. Перехваты игроков не изменились.</r></e>
+  <e k="K" key="TSA_WD_Intel_ScoutMaxLos"><s>Scout MaxLOS (tiles)</s><r>Разведчик MaxLOS (плитки)</r></e>
+  <e k="K" key="TSA_WD_Intel_ScoutMaxLosTip"><s>Fixed MaxLOS for scout missions, independent of scout strength. With default rings, T1 targets are seen at half of this range.</s><r>Исправлен MaxLOS для разведывательных миссий, независимо от численности разведчиков. При использовании колец по умолчанию цели T1 видны на половине этого диапазона.</r></e>
+  <e k="K" key="TSA_WD_Intel_ScoutStrengthMax"><s>Scout strength max</s><r>Максимальная сила разведчика</r></e>
+  <e k="K" key="TSA_WD_Intel_ScoutStrengthMaxTip"><s>Maximum departure strength for a scout.</s><r>Максимальная сила вылета для разведчика.</r></e>
+  <e k="K" key="TSA_WD_Intel_ScoutStrengthMin"><s>Scout strength min</s><r>Сила разведчика мин.</r></e>
+  <e k="K" key="TSA_WD_Intel_ScoutStrengthMinTip"><s>Minimum departure strength for a scout. Kept at or above the T2 class boundary so scouts stay long-range AT eligible.</s><r>Минимальная сила вылета для разведчика. Хранится на границе класса Т2 или выше, чтобы разведчики оставались пригодными для AT дальнего действия.</r></e>
+  <e k="K" key="TSA_WD_Intel_SettlementLosMaxMult"><s>Settlement MaxLOS multiplier (late + max age)</s><r>Множитель MaxLOS урегулирования (поздний + максимальный возраст)</r></e>
+  <e k="K" key="TSA_WD_Intel_SettlementLosMaxMultTip"><s>At Late stage and maximum settlement age, MaxLOS reaches baseline times this value. Half of the growth comes from age, half from Mid/Late stage. Does not use zeal or attack-range bonuses.</s><r>На поздней стадии и в максимальном возрасте урегулирования MaxLOS достигает базового значения, в несколько раз превышающего это значение. Половина роста происходит за счет возраста, половина – за счет средней/поздней стадии. Не использует бонусы рвения и дальности атаки.</r></e>
+  <e k="K" key="TSA_WD_Intel_ShowFogOfWar"><s>Show fog of war</s><r>Показать туман войны</r></e>
+  <e k="K" key="TSA_WD_Intel_ShowFogOfWarTip"><s>When on, View World as blacks out unseen tiles, greys explored tiles outside line of sight, and hides undiscovered sites and landform names. When off, the selected faction stays remembered but the map draws fully visible. Default on. Session only.</s><r>Когда параметр «Просмотр мира» включен, затемняются невидимые плитки, серым цветом исследуются плитки за пределами прямой видимости, а также скрываются неоткрытые места и названия форм рельефа. Если отключено, выбранная фракция остается в памяти, но карта становится полностью видимой. По умолчанию включено. Только сеанс.</r></e>
+  <e k="K" key="TSA_WD_Intel_StrategicExpandSamples"><s>Strategic Expand samples</s><r>Примеры стратегического расширения</r></e>
+  <e k="K" key="TSA_WD_Intel_StrategicExpandSamplesTip"><s>How many candidate tiles Strategic Expand samples before picking the safest tuck-away site.</s><r>Сколько образцов плиток-кандидатов Стратегическое расширение разверните, прежде чем выбрать самое безопасное место для хранения.</r></e>
+  <e k="K" key="TSA_WD_Intel_TravelerMaxLosT1"><s>T1 traveler MaxLOS (tiles)</s><r>Путешественник T1 MaxLOS (плитки)</r></e>
+  <e k="K" key="TSA_WD_Intel_TravelerMaxLosT1Tip"><s>Maximum sight for the weakest traveler class.</s><r>Максимум обзора для самого слабого класса путешественников.</r></e>
+  <e k="K" key="TSA_WD_Intel_TravelerMaxLosT2"><s>T2 traveler MaxLOS (tiles)</s><r>Путешественник T2 MaxLOS (плитки)</r></e>
+  <e k="K" key="TSA_WD_Intel_TravelerMaxLosT2Tip"><s>Maximum sight for class T2 travelers.</s><r>Максимум обзора для путешественников класса Т2.</r></e>
+  <e k="K" key="TSA_WD_Intel_TravelerMaxLosT3"><s>T3 traveler MaxLOS (tiles)</s><r>Путешественник T3 MaxLOS (плитки)</r></e>
+  <e k="K" key="TSA_WD_Intel_TravelerMaxLosT3Tip"><s>Maximum sight for class T3 travelers.</s><r>Максимум обзора для путешественников класса Т3.</r></e>
+  <e k="K" key="TSA_WD_Intel_TravelerMaxLosT4"><s>T4 traveler MaxLOS (tiles)</s><r>Путешественник T4 MaxLOS (плитки)</r></e>
+  <e k="K" key="TSA_WD_Intel_TravelerMaxLosT4Tip"><s>Maximum sight for the strongest traveler class.</s><r>Максимум обзора для сильнейшего класса путешественников.</r></e>
+  <e k="K" key="TSA_WD_Intel_TravelerStrengthT2"><s>Class T2 from departure strength</s><r>Класс Т2 от силы вылета</r></e>
+  <e k="K" key="TSA_WD_Intel_TravelerStrengthT2Tip"><s>Travelers at or above this departure strength are class T2. Also the AT long-range fire threshold (outer accuracy band).</s><r>Путешественники с такой интенсивностью вылета или выше относятся к классу T2. Также порог дальнего огня ПТ (внешний диапазон точности).</r></e>
+  <e k="K" key="TSA_WD_Intel_TravelerStrengthT3"><s>Class T3 from departure strength</s><r>Класс Т3 от силы вылета</r></e>
+  <e k="K" key="TSA_WD_Intel_TravelerStrengthT3Tip"><s>Travelers at or above this departure strength are class T3.</s><r>Путешественники с такой интенсивностью вылета или выше относятся к классу T3.</r></e>
+  <e k="K" key="TSA_WD_Intel_TravelerStrengthT4"><s>Class T4 from departure strength</s><r>Класс Т4 от силы вылета</r></e>
+  <e k="K" key="TSA_WD_Intel_TravelerStrengthT4Tip"><s>Travelers at or above this departure strength are class T4.</s><r>Путешественники с такой интенсивностью вылета или выше относятся к классу T4.</r></e>
+  <e k="K" key="TSA_WD_Intel_ViewAsFactionDefeated"><s>{0} (defeated)</s><r>{0} (побежден)</r></e>
+  <e k="K" key="TSA_WD_Intel_ViewAsFactionSelected"><s>{0} (selected)</s><r>{0} (выбрано)</r></e>
+  <e k="K" key="TSA_WD_Intel_ViewAsGateOff"><s>Intel gate is Never (feature off)</s><r>Intel Gate is Never (функция отключена)</r></e>
+  <e k="K" key="TSA_WD_Intel_ViewAsPlayerSelected"><s>{0} (selected)</s><r>{0} (выбрано)</r></e>
+  <e k="K" key="TSA_WD_Intel_ViewAsPlayerShort"><s>Player</s><r>Игрок</r></e>
+  <e k="K" key="TSA_WD_Intel_ViewAsPlayerTip"><s>Player view shows the full world map (everything visible). Normal play.</s><r>В режиме просмотра игрока отображается полная карта мира (все видно). Нормальная игра.</r></e>
+  <e k="K" key="TSA_WD_Intel_ViewAsTip"><s>Session-only world map overlay. Hides sites and columns that faction has not discovered. Dims known sites outside current line of sight. Does not change gameplay fog or raid math. Choose Player to restore the full map.</s><r>Наложение карты мира только для сеанса. Скрывает сайты и столбцы, которые фракция не обнаружила. Затемняет известные объекты за пределами текущей прямой видимости. Не меняет туман в игровом процессе и математику рейдов. Выберите «Игрок», чтобы восстановить полную карту.</r></e>
+  <e k="K" key="TSA_WD_Intel_ViewWorldAs"><s>View World as: {0}</s><r>Просмотр мира как: {0}</r></e>
+  <e k="K" key="TSA_WD_Intel_WeightScout"><s>Scout action weight</s><r>Вес действия разведчика</r></e>
+  <e k="K" key="TSA_WD_Intel_WeightScoutTip"><s>Daily-action weight for launching ring scouts. Same ballpark as Trader by default.</s><r>Груз ежедневного действия для запуска ринговых разведчиков. По умолчанию тот же уровень, что и у Trader.</r></e>
+  <e k="K" key="TSA_WD_Intel_WeightStrategicExpand"><s>Strategic Expand weight</s><r>Стратегическое расширение веса</r></e>
+  <e k="K" key="TSA_WD_Intel_WeightStrategicExpandTip"><s>Daily-action weight for Strategic Expand. Founding prefers safe tuck-away tiles: outside nearby enemy sight, off geodesic corridors to the nearest hostiles, and not toward the player. Uses perfect knowledge of nearby hostiles (not gated on raid-logic fog).</s><r>Вес ежедневных действий для стратегического расширения. Основатель предпочитает безопасно спрятанные тайлы: вне поля зрения ближайшего врага, за пределами геодезических коридоров к ближайшим врагам, а не по направлению к игроку. Использует прекрасное знание ближайших противников (не ограничивается туманом рейдовой логики).</r></e>
+  <e k="K" key="TSA_WD_KeyUnbound"><s>None</s><r>Никто</r></e>
+  <e k="K" key="TSA_WD_Log_Intel_Discovered"><s>INTEL: {0} discovered {1}.</s><r>РАЗВЕДКА: {0} обнаружил {1}.</r></e>
+  <e k="K" key="TSA_WD_Log_OutpostUpgradeBatchApplied"><s>OUTPOST UPGRADE: {0} completed {1} upgrades ({2}).</s><r>ОБНОВЛЕНИЕ АВПОСТА: {0} завершено {1} обновлений ({2}).</r></e>
+  <e k="K" key="TSA_WD_Log_OutpostUpgradeBatchLaunched"><s>OUTPOST UPGRADE: Caravan launched from {0} to {1} carrying {2} upgrades ({3}).</s><r>ОБНОВЛЕНИЕ АВПОСТА: Караван запущен с {0} по {1} с {2} улучшениями ({3}).</r></e>
+  <e k="K" key="TSA_WD_Log_ScoutLaunched"><s>SCOUT: {0} dispatched {1} scout caravan(s).</s><r>РАЗВЕДЧИК: {0} отправлено {1} караван(ы) разведки.</r></e>
+  <e k="K" key="TSA_WD_Log_StrategicExpeditionLaunched"><s>STRATEGIC EXPANSION: {0} dispatched settlers toward a safer frontier.</s><r>СТРАТЕГИЧЕСКОЕ РАСШИРЕНИЕ: {0} отправило поселенцев к более безопасной границе.</r></e>
+  <e k="K" key="TSA_WD_Log_TraderTrade_OutcomeWithInfra"><s>{0} Also placed {1}.</s><r>{0} Также ставится {1}.</r></e>
+  <e k="K" key="TSA_WD_Msg_AlliedRaidUnknownTarget"><s>{0} does not know of {1}. Allied raid order cancelled.</s><r>{0} не знает о {1}. Приказ союзников о рейде отменен.</r></e>
+  <e k="K" key="TSA_WD_OutpostStats_Row_RoadTimeGlitter"><s>Time per glitter segment</s><r>Время на сегмент блеска</r></e>
+  <e k="K" key="TSA_WD_OutpostStats_Row_RoadTimeGlitterTip"><s>Estimated days to prepare one glitter road segment at current cumulative Construction skill (progress bar fill only; excludes caravan travel).</s><r>Примерное количество дней для подготовки одного сегмента блестящей дороги при текущем совокупном навыке строительства (только заполнение индикатора выполнения; не включает путешествие в караване).</r></e>
+  <e k="K" key="TSA_WD_OutpostUpgrades_BatchConfirm"><s>Confirm</s><r>Подтверждать</r></e>
+  <e k="K" key="TSA_WD_OutpostUpgrades_BatchCostHeader"><s>Cost</s><r>Расходы</r></e>
+  <e k="K" key="TSA_WD_OutpostUpgrades_BatchListHeader"><s>Upgrades</s><r>Обновления</r></e>
+  <e k="K" key="TSA_WD_OutpostUpgrades_BatchNeedSelection"><s>Select one or more buildable upgrades.</s><r>Выберите одно или несколько сборных улучшений.</r></e>
+  <e k="K" key="TSA_WD_OutpostUpgrades_BatchPodCost"><s>Components x{0}</s><r>Компоненты x{0}</r></e>
+  <e k="K" key="TSA_WD_OutpostUpgrades_BatchPodHeader"><s>Transport pods</s><r>Транспортные капсулы</r></e>
+  <e k="K" key="TSA_WD_OutpostUpgrades_BatchPodLaunches"><s>Drop-pod launches: {0}</s><r>Запуск десантной капсулы: {0}</r></e>
+  <e k="K" key="TSA_WD_OutpostUpgrades_BatchPodTitle"><s>Drop-pod Transport</s><r>Десантный транспорт</r></e>
+  <e k="K" key="TSA_WD_OutpostUpgrades_BatchSameLineDropped"><s>Same-line picks dropped (kept highest tier): {0}</s><r>Выборы той же линии удалены (сохранен самый высокий уровень): {0}</r></e>
+  <e k="K" key="TSA_WD_OutpostUpgrades_BatchTitle"><s>{0}: Build selected upgrades</s><r>{0}: построить выбранные улучшения.</r></e>
+  <e k="K" key="TSA_WD_OutpostUpgrades_BatchTotalHeader"><s>Total cost</s><r>Общая стоимость</r></e>
+  <e k="K" key="TSA_WD_OutpostUpgrades_BuildSelected"><s>Build selected ({0})</s><r>Сборка выбрана ({0})</r></e>
+  <e k="K" key="TSA_WD_OutpostUpgrades_BuildSelectedTip"><s>Confirm and launch one traveler carrying {0} selected upgrade(s).</s><r>Подтвердите и запустите одного путешественника с {0} выбранными улучшениями.</r></e>
+  <e k="K" key="TSA_WD_OutpostUpgrades_ComponentsLabel"><s>Components</s><r>Компоненты</r></e>
+  <e k="K" key="TSA_WD_OutpostUpgrades_DeselectTip"><s>Remove this upgrade from the build selection.</s><r>Удалите это обновление из выбора сборки.</r></e>
+  <e k="K" key="TSA_WD_OutpostUpgrades_FilterAllBonuses"><s>All bonuses</s><r>Все бонусы</r></e>
+  <e k="K" key="TSA_WD_OutpostUpgrades_PendingCount"><s>{0} upgrades in transit</s><r>{0} обновления в пути</r></e>
+  <e k="K" key="TSA_WD_OutpostUpgrades_SelectDisabled"><s>Cannot select this upgrade right now.</s><r>Невозможно выбрать это обновление прямо сейчас.</r></e>
+  <e k="K" key="TSA_WD_OutpostUpgrades_SelectDisabledPending"><s>Cannot change selection while upgrades are in transit.</s><r>Невозможно изменить выбор, пока обновления находятся в пути.</r></e>
+  <e k="K" key="TSA_WD_OutpostUpgrades_SelectDisabledSameLine"><s>Cannot select several upgrades from the same upgrade line.</s><r>Невозможно выбрать несколько обновлений из одной линии обновлений.</r></e>
+  <e k="K" key="TSA_WD_OutpostUpgrades_SelectTip"><s>Include this upgrade in the next build order.</s><r>Включите это обновление в следующий заказ сборки.</r></e>
+  <e k="K" key="TSA_WD_PawnCol_RelevantSkillXpPerDayTip"><s>{0} XP/day in {1} for each colonist while production runs (passions and learning factor apply; stops at skill level {2}). Idle, paused, or blocked days grant nothing.</s><r>{0} опыта в день за {1} за каждого колониста во время производства (применяются увлечения и фактор обучения; останавливается на уровне навыка {2}). Дни простоя, паузы или блокировки ничего не дают.</r></e>
+  <e k="K" key="TSA_WD_PawnDropPod_UnescortedFreed"><s>{0} prisoner(s)/slave(s) freed: destination was gone before arrival.</s><r>{0} заключенный(и)/раб(ы) освобождены: пункт назначения исчез до прибытия.</r></e>
+  <e k="K" key="TSA_WD_PawnDropPod_UnescortedLostFreedBoth"><s>{0} prisoner(s)/slave(s) freed and {1} mechanoid(s) lost: destination was gone before arrival.</s><r>{0} пленник(и)/раб(ы) освобождены и {1} механоид(ы) потеряны: пункт назначения исчез до прибытия.</r></e>
+  <e k="K" key="TSA_WD_PawnDropPod_UnescortedLostLabel"><s>Unescorted drop pods lost</s><r>Потеряны десантные капсулы без сопровождения.</r></e>
+  <e k="K" key="TSA_WD_PawnDropPod_UnescortedLostMechs"><s>{0} mechanoid(s) lost: destination was gone before arrival.</s><r>{0} механоид(ы) потерян: пункт назначения исчез до прибытия.</r></e>
+  <e k="K" key="TSA_WD_PawnDropPod_UnescortedSelectTip"><s>Drop pod to a player outpost or colony: no free colonist escort required for prisoners, slaves, or mechanoids.</s><r>Высадите капсулу на аванпост или колонию игрока: для пленников, рабов или механоидов бесплатное сопровождение колонистов не требуется.</r></e>
+  <e k="K" key="TSA_WD_PowerPlant_InspectGenerated"><s>{0} generated</s><r>{0} создано</r></e>
+  <e k="K" key="TSA_WD_Quest_EnableFortifySettlement"><s>Fortify settlement quest</s><r>Задание «Укрепить поселение»</r></e>
+  <e k="K" key="TSA_WD_Quest_EnableFortifySettlementTip"><s>After the spy-ops intro ends (or if that quest is off), an ally or neutral may ask you to Fortify one of their towns with a player caravan from an adjacent tile (Crafting; adds defensive strength). Offered once only. Off stops the offer; an active quest can still finish.</s><r>После завершения вступительной части шпионской операции (или если этот квест отключен) союзник или нейтральный игрок может попросить вас укрепить один из их городов с помощью каравана игроков с соседней клетки (Ремесло; добавляет защитную силу). Предлагается только один раз. Off останавливает предложение; активный квест все еще может завершиться.</r></e>
+  <e k="K" key="TSA_WD_Quest_EnableSpyOpsSettlement"><s>Spy-ops settlement quest</s><r>Квест «Поселение шпионских операций»</r></e>
+  <e k="K" key="TSA_WD_Quest_EnableSpyOpsSettlementTip"><s>Once after days 10-16, an ally (or neutral) may ask you to weaken a shared-hostile town via player-caravan Spread Disinformation (Social) or Sabotage (Crafting) from an adjacent tile. Destroying the town is not required. Offered once only. Off stops the offer; an active quest can still finish.</s><r>Один раз по истечении дней 10–16 союзник (или нейтральный игрок) может попросить вас ослабить враждебный город с помощью каравана игроков, распространяющего дезинформацию (социальную) или саботажа (крафта) с соседней клетки. Разрушать город не обязательно. Предлагается только один раз. Off останавливает предложение; активный квест все еще может завершиться.</r></e>
+  <e k="K" key="TSA_WD_Req_Tooltip_FishingNeedLakeOrRiver"><s>Fishing needs a coast, lake, or river on the tile.</s><r>Для рыбалки необходимо наличие на плитке побережья, озера или реки.</r></e>
+  <e k="K" key="TSA_WD_RoadBuilding_GlitterRoad"><s>Glitter road</s><r>Блестящая дорога</r></e>
+  <e k="K" key="TSA_WD_RoadGlitter"><s>Glitter Road</s><r>Блестящая дорога</r></e>
+  <e k="K" key="TSA_WD_RoadGlitter_Disabled"><s>Glitter Road (Need {1} Construction Skill, currently: {0})</s><r>Блестящая дорога (нужен {1} Строительный навык, в настоящее время: {0})</r></e>
+  <e k="K" key="TSA_WD_ScoutCaravan"><s>Scout Caravan</s><r>Караван разведчиков</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_CaravanInSightTip"><s>Player caravan {0} ({1}). Distance {2} tiles (within settlement sight range R = {3}). Player caravans use vanilla visibility for targeting; this row is LOS context only.</s><r>Караван игроков {0} ({1}). Расстояние {2} плитки (в пределах видимости поселения R = {3}). Караваны игроков используют стандартную видимость для нацеливания; эта строка предназначена только для контекста LOS.</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_GotBurnedNoneTip"><s>No faction currently has a Got Burned caution stamp against this site. That stamp appears after a raid undercounted defenders.</s><r>В настоящее время ни одна фракция не имеет предупреждающего знака «Сгорели» против этого сайта. Этот штамп появляется после рейда заниженных защитников.</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_GotBurnedRowTip"><s>{0} got burned attacking this site. For {1} more day(s), their next assess vs this primary inflates known defender strength (caution only; no free neighbor discovery).</s><r>{0} обгорел, атакуя этот сайт. Еще на {1} дней их следующая оценка против этого основного увеличивает известную силу защитника (только осторожность; отсутствие открытия свободных соседей).</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_Headline"><s>Intel ({0})</s><r>Интел ({0})</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_KindOutpost"><s>Outpost</s><r>Застава</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_KindSettlement"><s>Settlement</s><r>Урегулирование</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_KnownFactionAlwaysTip"><s>{0} knows this site because player colonies are always known.</s><r>{0} знает этот сайт, потому что колонии игроков всегда известны.</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_KnownFactionNoTip"><s>{0} does not know this site yet. Discovery comes from line of sight, scouts, or combat.</s><r>{0} пока не знает этого сайта. Открытие происходит благодаря прямой видимости, разведке или бою.</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_KnownFactionOwnerTip"><s>{0} owns this site, so it always knows it.</s><r>{0} владеет этим сайтом, поэтому он всегда знает об этом.</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_KnownFactionYesTip"><s>{0} knows this site (can consider it for NPC raids and related systems while intel is active).</s><r>{0} знает это место (может рассмотреть его для рейдов NPC и связанных с ним систем, пока информация активна).</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_No"><s>No</s><r>Нет</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_Refresh"><s>Refresh</s><r>Обновить</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_RefreshTooltip"><s>Rebuild this tab's intel display now.</s><r>Восстановите отображение данных на этой вкладке прямо сейчас.</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_Row_Active"><s>Intel used for Raid Logic?</s><r>Intel используется для Raid Logic?</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_Row_ActiveTip"><s>Whether knowledge is used for fogged raid assess. Requires the configured stage to be reached. Current setting: &quot;{0}&quot;.</s><r>Используются ли знания для туманного рейда. Оцените. Требуется достижение настроенного этапа. Текущая настройка: «{0}».</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_Row_AlwaysKnown"><s>Always known (player colony)</s><r>Всегда известен (колония игроков)</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_Row_AlwaysKnownTip"><s>Player colonies with a map are always known to every faction. Soft intel cannot hide them.</s><r>Колонии игроков с картой всегда известны каждой фракции. Мягкая разведка не может их скрыть.</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_Row_BandT1"><s>T1 sight ring</s><r>Кольцо прицела Т1</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_Row_BandT1Tip"><s>Max discover distance to a T1-class target from here: MaxLOS × {0}. Also covers AT turrets and advanced buildings.</s><r>Макс определяет расстояние до цели класса Т1 отсюда: MaxLOS × {0}. Также распространяется на противотанковые турели и усовершенствованные здания.</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_Row_BandT2"><s>T2 sight ring</s><r>Кольцо прицела Т2</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_Row_BandT2Tip"><s>Max discover distance to a T2-class target from here: MaxLOS × {0}.</s><r>Макс определяет расстояние до цели класса Т2 отсюда: MaxLOS × {0}.</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_Row_BandT3"><s>T3 sight ring</s><r>Кольцо прицела Т3</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_Row_BandT3Tip"><s>Max discover distance to a T3-class target from here: MaxLOS × {0}.</s><r>Макс определяет расстояние до цели класса Т3 отсюда: MaxLOS × {0}.</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_Row_BandT4"><s>T4 sight ring</s><r>Кольцо прицела Т4</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_Row_BandT4Tip"><s>Max discover distance to a T4-class target from here: MaxLOS × {0}. Largest targets are visible farthest.</s><r>Макс определяет расстояние до цели класса Т4 отсюда: MaxLOS × {0}. Самые большие цели видны дальше всего.</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_Row_BaselineR"><s>Tier baseline</s><r>Базовый уровень уровня</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_Row_BaselineRTip"><s>This settlement's tier attack-range baseline. MaxLOS grows from this with age and game stage (no zeal, no attack-range bonuses).</s><r>Базовый уровень дальности атаки этого поселения. MaxLOS растет с возрастом и игровым этапом (без рвения, без бонусов к дальности атаки).</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_Row_DaysLeft"><s>{0} days left</s><r>{0} дней осталось</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_Row_MaxLos"><s>MaxLOS</s><r>МаксЛОС</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_Row_MaxLosTip"><s>Current maximum line of sight. Big targets can be seen out to this edge; small targets only inside the inner rings.</s><r>Текущая максимальная линия видимости. С этого края видны большие цели; мелкие цели только внутри внутренних колец.</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_Row_None"><s>None</s><r>Никто</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_Row_NoneTip"><s>Nothing to list here.</s><r>Здесь нечего перечислять.</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_Row_StickyOutpost"><s>Sticky outpost</s><r>Липкий аванпост</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_Row_StickyOutpostTip"><s>After a faction discovers this outpost, it stays known even if local defense later drops into a weaker sight band.</s><r>После того, как фракция обнаруживает этот аванпост, он остается известным, даже если местная защита позже упадет в более слабую зону видимости.</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_Row_Tracking"><s>Discovery and scouts active?</s><r>Дискавери и разведчики активны?</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_Row_TrackingTip"><s>Whether discovery, scouts, and the View gizmo run. Starts when the gate is configured (not Never). Current setting: &quot;{0}&quot;.</s><r>Запускаются ли Discovery, Scouts и View gizmo. Запускается, когда шлюз настроен (не Никогда). Текущая настройка: «{0}».</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_Section_GotBurned"><s>Got Burned</s><r>Обгорел</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_Section_KnownTo"><s>Known to</s><r>Известный</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_Section_Los"><s>Line of sight</s><r>Прямая видимость</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_Section_SitesInSight"><s>Settlements/Outposts in sight</s><r>Поселения/форпосты в поле зрения</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_Section_TravelersInSight"><s>Travelers in sight</s><r>Путешественники на виду</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_SiteInSightTip"><s>{0}: {1} ({2}). Distance {3} tiles (sight limit for its class: {4}, band {5}). Known to this site's faction: {6}.</s><r>{0}: {1} ({2}). Расстояние {3} плитки (ограничение видимости для этого класса: {4}, полоса {5}). Известен фракции этого сайта: {6}.</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_SiteValue"><s>{0}, {1} tiles</s><r>{0}, {1} плитки</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_SitesInSightNoneTip"><s>No foreign settlements or outposts currently fall inside this settlement's tier-scaled sight bands.</s><r>Никакие иностранные поселения или аванпосты в настоящее время не попадают в зону видимости этого поселения.</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_StickyNote"><s>Once discovered, stays known</s><r>Однажды обнаруженный, остается известным</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_TabLabel"><s>Intel</s><r>Интел</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_TravelerInSightTip"><s>WD traveler {0} ({1}). Distance {2} tiles (spot range R = {3}). Already known to this settlement's faction: {4}.</s><r>WD путешественник {0} ({1}). Расстояние {2} плитки (диапазон точек R = {3}). Уже известен фракции этого поселения: {4}.</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_TravelersInSightNoneTip"><s>No foreign WD travelers or player caravans are currently within this settlement's MaxLOS target rings.</s><r>Никакие иностранные путешественники из WD или караваны игроков в настоящее время не находятся в пределах целевых колец MaxLOS этого поселения.</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_UnknownFaction"><s>Unknown</s><r>Неизвестный</r></e>
+  <e k="K" key="TSA_WD_SettlementIntel_Yes"><s>Yes</s><r>Да</r></e>
+  <e k="K" key="TSA_WD_SpyOps_LetterLabelExpired"><s>Quest expired: [resolvedQuestName]</s><r>Срок действия квеста истек: [resolvedQuestName]</r></e>
+  <e k="K" key="TSA_WD_SpyOps_LetterLabelFailed"><s>Quest failed: [resolvedQuestName]</s><r>Квест провален: [resolvedQuestName]</r></e>
+  <e k="K" key="TSA_WD_SpyOps_LetterLabelTargetGone"><s>Quest failed: {0}</s><r>Квест провален: {0}</r></e>
+  <e k="K" key="TSA_WD_SpyOps_LetterTextExpired"><s>Time ran out on the request from [faction_name] to weaken [enemySettlement_label].</s><r>Время истекло на запрос от [faction_name] до ослабления [enemySettlement_label].</r></e>
+  <e k="K" key="TSA_WD_SpyOps_LetterTextHostile"><s>[faction_name] became hostile. The spy-ops request has failed.</s><r>[faction_name] стал враждебным. Запрос шпионской службы не удался.</r></e>
+  <e k="K" key="TSA_WD_SpyOps_LetterTextTargetGone"><s>{0} wanted you to weaken {1}, but that town is gone. The request has failed.</s><r>{0} хотел, чтобы вы ослабили {1}, но этого города больше нет. Запрос не удался.</r></e>
+  <e k="K" key="TSA_WD_StatsPane_Intel"><s>Intel</s><r>Интел</r></e>
+  <e k="K" key="TSA_WD_StatsPane_Main"><s>Main Stats</s><r>Основная статистика</r></e>
+  <e k="K" key="TSA_WD_StatsPane_MainEmptyAt"><s>Combat details for this AT turret are on the world inspect string. Use the Intel pane for discovery.</s><r>Подробности боя для этой противотанковой башни указаны в строке проверки мира. Используйте панель Intel для обнаружения.</r></e>
+  <e k="K" key="TSA_WD_TileProductivity_FishNeedLakeOrRiver"><s>No coast, lake, or river on this tile.</s><r>На этом тайле нет побережья, озера или реки.</r></e>
+  <e k="K" key="TSA_WD_TravelerInventory_UpgradeBatchHeader"><s>Upgrades in this shipment ({0}):</s><r>Обновления в этой поставке ({0}):</r></e>
+  <e k="K" key="TSA_WD_Update_2_3_70_Body"><s>
+&lt;size=16&gt;&lt;b&gt;2.3.70 - Batch Outpost Upgrades &amp; more&lt;/b&gt;&lt;/size&gt;
+
+&lt;color=#00FFFFFF&gt;Release date: November 9th 2026&lt;/color&gt;
+
+------------------------------
+
+!!!Changes apply to the 1.7 version only!!!
+
+• New Feature: You may now send several outpost upgrades with a single caravan. Multi select desired upgrades in the existing dialog. That dialog has been made prettier and more structured, separating item groups with horizontal spacers.
+
+• New Feature: Fishing outposts can now also be placed on river and lake tiles. Previously, those were limited only to coast tiles.
+
+• Bugfix: The smart electricity allocation algorithm of the PowerPlant outpost didn't work reliably. Should be fixed now.
+
+• Bugfix: Equipment sent via the All Player Gear was not sent via drop-pod despite having that option selected. Should be fixed now.
+
+</s><r>
+&lt;size=16&gt;&lt;b&gt;2.3.70 — Пакетные обновления аванпостов и многое другое&lt;/b&gt;&lt;/size&gt;
+
+&lt;color=#00FFFFFF&gt;Дата выпуска: 9 ноября 2026&lt;/color&gt;
+
+------------------------------
+
+!!!Изменения касаются только версии 1.7!!!
+
+• Новая функция: теперь вы можете отправить несколько улучшений аванпоста с одним караваном. Выберите несколько желаемых обновлений в существующем диалоговом окне. Это диалоговое окно стало более красивым и структурированным, группы элементов разделены горизонтальными разделителями.
+
+• Новая функция: рыболовные заставы теперь также можно размещать на клетках рек и озер. Раньше они были ограничены только плитками побережья.
+
+• Исправление: алгоритм интеллектуального распределения электроэнергии на аванпосте PowerPlant работал ненадёжно. Должно быть исправлено сейчас.
+
+• Исправление: снаряжение, отправленное через снаряжение для всех игроков, не отправлялось через десантную капсулу, несмотря на то, что этот параметр был выбран. Должно быть исправлено сейчас.
+
+</r></e>
+  <e k="K" key="TSA_WD_Update_2_3_70_Title"><s>Batch Outpost Upgrades &amp; more</s><r>Пакетные обновления аванпоста и многое другое</r></e>
+  <e k="K" key="TSA_WD_Update_2_3_71_Body"><s>
+&lt;size=16&gt;&lt;b&gt;2.3.71 - Color picker for factions&lt;/b&gt;&lt;/size&gt;
+
+&lt;color=#00FFFFFF&gt;Release date: November 10th 2026&lt;/color&gt;
+
+------------------------------
+
+!!!Changes apply to the 1.7 version only!!!
+
+• New Feature: Go to the WD Main Tab &gt; Configure Scope. There you can change the color of each faction via color picker. Stored per save game.
+
+</s><r>
+&lt;size=16&gt;&lt;b&gt;2.3.71 — Выбор цвета для фракций&lt;/b&gt;&lt;/size&gt;
+
+&lt;color=#00FFFFFF&gt;Дата выпуска: 10 ноября 2026&lt;/color&gt;
+
+------------------------------
+
+!!!Изменения применимы только к версии 1.7!!!
+
+• Новая функция: перейдите на главную вкладку WD &gt; «Настроить область». Там вы можете изменить цвет каждой фракции с помощью палитры цветов. Сохраняется для каждой сохраненной игры.
+
+</r></e>
+  <e k="K" key="TSA_WD_Update_2_3_71_Title"><s>Color picker for factions</s><r>Выбор цвета для фракций</r></e>
+  <e k="K" key="TSA_WD_Update_2_3_72_Body"><s>
+&lt;size=16&gt;&lt;b&gt;2.3.72 - NPC fog of war, Glitter Roads, Armory QOL&lt;/b&gt;&lt;/size&gt;
+
+&lt;color=#00FFFFFF&gt;Release date: November 15th 2026&lt;/color&gt;
+
+------------------------------
+
+!!!Changes apply to the 1.7 version only!!!
+
+• New feature: NPC line of sight and knowledge graph. Requires manual activation via mod settings in the new menu &quot;Intel&quot;. When activated, NPC factions will no longer know everything going on on the world map but need to discover enemies first. Settlements and caravans have different line of sight that can be toggled via gizmo. Only discovered targets can be raided. Known limitations: When a settlement is destroyed or changes its owner, factions will automatically know this (so e.g. mortars don't shoot at an ally by mistake).
+
+• New feature: Strategic Expansion. NPC factions may now more cleverly choose a tile to expand to, avoiding the line of sight of enemies.
+
+• New feature: Scout caravans. Those will now be sent out to find enemy settlements and caravans.
+
+• Note: The player faction still knows and sees everything for the time being. Please provide feedback via Discord. The main goal here is to allow small T1 settlements in the middle of nowhere to survive as those were simply &quot;not seen/found&quot; yet due to small size.
+
+• New feature: In the armory you may now select specific pawns and items. New bulk actions to remove all weapons and inventory from selected pawns and likewise to auto assign weapons and drugs etc. (for you guys having tons of pawns at outposts).
+
+• New feature: Prisoners, slaves and mechanoids can now be sent via drop pods without having to be escorted by regular pawns (as requested via Discord).
+
+• New feature: Added a late game road type &quot;Glitter Road&quot;. Even better than asphalt roads, especially at mitigating the movement penalty from winter. But costs plasteel.
+
+• The quest where you are supposed to destroy an enemy settlement is now also won if you destroy the settlement via sabotage or disinformation action or when you e.g. shoot it via artillery or missile from a 3rd party mod (as reported via Discord).
+
+• Already shipped earlier this week via hotfix: Pawns gain XP at outposts on a daily basis now and not just at the end of a production cycle.
+
+• Already shipped earlier this week via hotfix: Goodwill drain time interval mod settings slider didn't work. Fixed now.
+
+</s><r>
+&lt;size=16&gt;&lt;b&gt;2.3.72 - NPC Туман войны, Блестящие дороги, Оружейная QOL&lt;/b&gt;&lt;/size&gt;
+
+&lt;color=#00FFFFFF&gt;Дата выпуска: 15 ноября 2026&lt;/color&gt;
+
+------------------------------
+
+!!!Изменения касаются только версии 1.7!!!
+
+• Новая функция: линия обзора NPC и график знаний. Требуется ручная активация через настройки мода в новом меню &quot;Intel&quot;. При активации фракции NPC больше не будут знать всего, что происходит на карте мира, но сначала им нужно будет обнаружить врагов. Поселения и караваны имеют разную линию обзора, которую можно переключать с помощью гизмо. Нападать можно только на обнаруженные цели. Известные ограничения: когда поселение разрушается или меняет своего владельца, фракции автоматически узнают об этом (например, минометы не стреляют по союзнику по ошибке).
+
+• Новая функция: стратегическое расширение. Фракции NPC теперь могут более разумно выбирать плитку для расширения, избегая прямой видимости врагов.
+
+• Новая функция: караваны разведчиков. Теперь они будут отправлены на поиски вражеских поселений и караванов.
+
+• Примечание: фракция игроков пока все еще знает и видит все. Пожалуйста, оставьте отзыв через Discord. Основная цель здесь — позволить небольшим поселениям Т1 в глуши выжить, поскольку их просто «не видели/нашли» еще из-за небольшого размера.
+
+• Новая функция: теперь в арсенале вы можете выбирать определенные пешки и предметы. Новые массовые действия по удалению всего оружия и инвентаря из выбранных пешек, а также для автоматического назначения оружия, наркотиков и т. д. (для вас, ребята, у которых на аванпостах куча пешек).
+
+• Новая функция: пленников, рабов и механоидов теперь можно отправлять через десантные капсулы без необходимости сопровождения обычных пешек (как было запрошено через Discord).
+
+• Новая функция: добавлен Тип дороги поздней игры «Блестящая дорога». Даже лучше, чем асфальтированные дороги, особенно в плане смягчения штрафов за передвижение зимой. Но стоит пластали.
+
+• Квест, в котором вы должны уничтожить вражеское поселение, теперь также выиграется, если вы уничтожите поселение с помощью диверсии или дезинформации или, например, когда вы уничтожите поселение с помощью диверсии или дезинформации. стреляйте из артиллерии или ракет из стороннего мода (как сообщается в Discord).
+
+• Уже отправлено ранее на этой неделе с исправлением: пешки получают XP на аванпостах теперь ежедневно, а не только в конце производственного цикла.
+
+• Уже отправлено ранее на этой неделе с исправлением: слайдер настроек мода «Утечка доброй воли» не работал. Исправлено.
+
+</r></e>
+  <e k="K" key="TSA_WD_Update_2_3_72_Title"><s>NPC fog of war, Glitter Roads, Armory QOL</s><r>NPC «Туман войны», «Блестящие дороги», «Оружейная QOL»</r></e>
+  <e k="K" key="TSA_WD_Update_2_3_73_Body"><s>
+&lt;size=16&gt;&lt;b&gt;2.3.73 - View world map as Faction &amp; Bugfixes&lt;/b&gt;&lt;/size&gt;
+
+&lt;color=#00FFFFFF&gt;Release date: November 16th 2026&lt;/color&gt;
+
+------------------------------
+
+!!!Changes apply to the 1.7 version only!!!
+
+• New feature: View world map as faction. With the new simple fog of war system you can now view the world as a specific faction. This will hide any settlements, AT turrets, advanced buildings and WD travelers they have not discovered yet.
+
+• Bugfix: The new Glitter Roads could appear in the initial world generation. Fixed that.
+
+• Bugfix: Fixed a rare issue where on a WD ambush/clash map enemies spawned on a tile from where they could not reach the player.
+
+</s><r>
+&lt;size=16&gt;&lt;b&gt;2.3.73 — Просмотр карты мира как фракции и исправления ошибок&lt;/b&gt;&lt;/size&gt;
+
+&lt;color=#00FFFFFF&gt;Дата выпуска: 16 ноября 2026&lt;/color&gt;
+
+------------------------------
+
+!!!Изменения применяются только к версии 1.7!!!
+
+• Новая функция: просмотр карты мира как фракции. Благодаря новой простой системе тумана войны вы теперь можете рассматривать мир как определенную фракцию. Это скроет все поселения, AT-турели, продвинутые здания и путешественников WD, которых они еще не обнаружили.
+
+• Исправление: новые блестящие дороги могли появиться в первом поколении мира. Исправлено.
+
+• Исправление: исправлена ​​редкая проблема, из-за которой на карте засады/столкновения WD враги появлялись на плитке, откуда они не могли добраться до игрока.
+
+</r></e>
+  <e k="K" key="TSA_WD_Update_2_3_73_Title"><s>View world map as Faction &amp; Bugfixes</s><r>Просмотр карты мира в виде фракций и исправлений ошибок</r></e>
+  <e k="K" key="TSA_WD_Update_2_3_74_Body"><s>
+&lt;size=16&gt;&lt;b&gt;2.3.74 - Bugfixes and QOL&lt;/b&gt;&lt;/size&gt;
+
+&lt;color=#00FFFFFF&gt;Release date: November 18th 2026&lt;/color&gt;
+
+------------------------------
+
+!!!Changes apply to the 1.7 version only!!!
+
+• New feature: Any outpost may now hold any item. This allows you to also strip items from or add to pawns in the Armory tab. The Armory tab now also lists animals, mechs, and Vehicles Expanded vehicles, because those might carry items you want to unload (or load).
+
+• Bugfix: The code was already there to move prisoners from outpost to outpost via drop pod without a regular pawn escort. The UI had no way to do this yet. Fixed now.
+
+• Bugfix: The hotkey toggle (default Left Alt) for WD actions can now be fully unassigned. Other keys like Right Shift also work properly.
+
+• Bugfix: Animal portraits should now be colorized properly in all WD windows.
+
+• Most of those were flagged or requested via Discord. Make sure to join the server.
+
+</s><r>
+&lt;size=16&gt;&lt;b&gt;2.3.74 — Исправления ошибок и качество жизни&lt;/b&gt;&lt;/size&gt;
+
+&lt;color=#00FFFFFF&gt;Дата выпуска: 18 ноября 2026&lt;/color&gt;
+
+------------------------------
+
+!!!Изменения касаются только версии 1.7!!!
+
+• Новая функция: теперь любой аванпост может содержать любой предмет. Это позволяет вам также снимать предметы с пешек или добавлять их на вкладке «Арсенал». На вкладке «Оружейная» теперь также перечислены животные, механизмы и транспортные средства. Расширенные транспортные средства, поскольку они могут нести предметы, которые вы хотите выгрузить (или загрузить).
+
+• Исправление: уже существовал код для перемещения заключенных с аванпоста на аванпост через десантную капсулу без обычного сопровождения пешки. В пользовательском интерфейсе еще не было возможности сделать это. Исправлено.
+
+• Исправление: переключатель горячей клавиши (по умолчанию левый Alt) для действий WD теперь можно полностью отменить. Другие клавиши, такие как правый сдвиг, также работают правильно.
+
+• Исправление: портреты животных теперь должны правильно раскрашиваться во всех окнах WD.
+
+• Большинство из них были помечены или запрошены через Discord. Обязательно зарегистрируйтесь на сервере.
+
+</r></e>
+  <e k="K" key="TSA_WD_Update_2_3_74_Title"><s>Bugfixes and QOL</s><r>Исправления ошибок и качество жизни</r></e>
+  <e k="K" key="TSA_WD_Update_2_3_75_Body"><s>
+&lt;size=16&gt;&lt;b&gt;2.3.75 - Strategic expansion, road&lt;&gt;trench crossing, new quests&lt;/b&gt;&lt;/size&gt;
+
+&lt;color=#00FFFFFF&gt;Release date: November 19th 2026&lt;/color&gt;
+
+------------------------------
+
+!!!Changes apply to the 1.7 version only!!!
+
+• Improved Strategic Expansion so factions should do a better job finding a tugged-away spot for a new settlement outside of enemy range.
+
+• New feature: few players knew you can send a high-Social pawn next to an enemy settlement on the world map to Spread Disinformation (reduces settlement strength and may even destroy it). The same idea works with a high-Crafting pawn for Sabotage on enemies, and Fortify on neutral or allied settlements. Added one-off intro quests in the first 10–20 days that award goodwill when you perform those actions.
+
+• Bugfix: the Build Road quest could fail to count bridges, or be offered for a settlement already connected by road. Fixed.
+
+• On a successful trade, trading parties may now also receive an advanced building (stable, silo, etc.) or an AT turret.
+
+• Roads may now cross trenches at a near-right angle on a shared world tile.
+
+• Bugfix: removing all pawns from an outpost via drop pod now properly destroys the empty outpost, same as the land-travel path.
+
+</s><r>
+&lt;size=16&gt;&lt;b&gt;2.3.75 - Стратегическое расширение, дорога&lt;&gt;переход траншей, новые квесты&lt;/b&gt;&lt;/size&gt;
+
+&lt;color=#00FFFFFF&gt;Дата выхода: 19 ноября 2026&lt;/color&gt;
+
+------------------------------
+
+!!!Изменения применимы только к версии 1.7!!!
+
+• Улучшено стратегическое расширение, поэтому фракции должны лучше справляться с поиском укромного места для нового поселения за пределами противника. диапазон.
+
+• Новая функция: немногие игроки знали, что вы можете отправить пешку с высоким социальным статусом рядом с вражеским поселением на карте мира для распространения дезинформации (уменьшает силу поселения и может даже уничтожить его). Та же идея работает с пешкой высокого уровня для саботажа врагов и укрепления нейтральных или союзных поселений. Добавлены одноразовые вступительные квесты в первые 10–20 дней, которые награждают доброй волей за выполнение этих действий.
+
+• Исправление: квест «Построить дорогу» мог не учитывать мосты или предлагаться для поселения, уже соединенного дорогой. Исправлено.
+
+• При успешной торговле торговые группы теперь также могут получить усовершенствованное здание (конюшня, бункер и т. д.) или противотанковую турель.
+
+• Дороги теперь могут пересекать траншеи под почти прямым углом на общей плитке мира.
+
+• Исправление: удаление всех пешек с аванпоста с помощью десантной капсулы. теперь корректно уничтожает пустой аванпост, как и путь по суше.
+
+</r></e>
+  <e k="K" key="TSA_WD_Update_2_3_75_Title"><s>Strategic expansion, road&lt;&gt;trench crossing, new quests</s><r>Стратегическое расширение, пересечение дорог&lt;&gt;траншей, новые квесты.</r></e>
+  <e k="K" key="TSA_WD_WorldSetup_RoadGlitter"><s>Glitter road</s><r>Блестящая дорога</r></e>
+</AutoTranslateCache>
