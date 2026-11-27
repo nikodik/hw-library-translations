@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="lordfelix.rimcontractors" name="RimContractors" language="Russian" version="1">
+  <e k="D" t="ApparelLayerDef" key="Gorget.label"><s>gorget</s><r>забыть</r></e>
+  <e k="D" t="ApparelLayerDef" key="SilvaranWebbing.label"><s>webbing</s><r>паутина</r></e>
+  <e k="D" t="BackstoryDef" key="RC_HandlerClerkChildhood.description"><s>[PAWN_nameDef] grew up among ledgers, travelers and conflicting accounts. Learning to read people proved just as useful as learning to read the books.</s><r>[PAWN_nameDef] вырос среди бухгалтерских книг, путешественников и противоречивых счетов. Научиться читать людей оказалось так же полезно, как научиться читать книги.</r></e>
+  <e k="D" t="BackstoryDef" key="RC_HandlerClerkChildhood.title"><s>young clerk</s><r>молодой клерк</r></e>
+  <e k="D" t="BackstoryDef" key="RC_HandlerClerkChildhood.titleShort"><s>clerk</s><r>клерк</r></e>
+  <e k="D" t="BackstoryDef" key="RC_KatyaOperationsAdulthood.description"><s>[PAWN_nameDef] coordinated hired soldiers, negotiated difficult jobs and learned to keep a clear head when a plan fell apart. A sidearm and a practiced command voice were both useful tools.</s><r>[PAWN_nameDef] координировал наемных солдат, договаривался о сложных заданиях и учился сохранять ясную голову, когда план терпел крах. И личное оружие, и отработанный командный голос были полезными инструментами.</r></e>
+  <e k="D" t="BackstoryDef" key="RC_KatyaOperationsAdulthood.title"><s>operations officer</s><r>оперативный офицер</r></e>
+  <e k="D" t="BackstoryDef" key="RC_KatyaOperationsAdulthood.titleShort"><s>officer</s><r>офицер</r></e>
+  <e k="D" t="BackstoryDef" key="RC_SilwiaEnvoyAdulthood.description"><s>[PAWN_nameDef] arranged supplies, carried messages between rivals and treated the wounded when negotiations failed. Years on the road taught her to value a dependable company over a comfortable posting.</s><r>[PAWN_nameDef] организовывал снабжение, передавал сообщения между соперниками и лечил раненых, когда переговоры проваливались. Годы в разъездах научили ее ценить надежную компанию выше комфортной должности.</r></e>
+  <e k="D" t="BackstoryDef" key="RC_SilwiaEnvoyAdulthood.title"><s>company envoy</s><r>посланник компании</r></e>
+  <e k="D" t="BackstoryDef" key="RC_SilwiaEnvoyAdulthood.titleShort"><s>envoy</s><r>посланник</r></e>
+  <e k="D" t="DroneCapacityUpgradeDef" key="SO_DroneCapacityUpgrade_2.label"><s>second drone bay</s><r>второй отсек для дронов</r></e>
+  <e k="D" t="DroneCapacityUpgradeDef" key="SO_DroneCapacityUpgrade_3.label"><s>third drone bay</s><r>третий отсек для дронов</r></e>
+  <e k="D" t="DroneCapacityUpgradeDef" key="SO_DroneCapacityUpgrade_4.label"><s>fourth drone bay</s><r>четвертый отсек для дронов</r></e>
+  <e k="D" t="DroneModuleDef" key="SO_DroneModule_Healing.description"><s>Enables limited medical sealing-foam treatment, prioritizing active bleeding.</s><r>Позволяет ограничить обработку медицинской герметизирующей пеной, отдавая приоритет активному кровотечению.</r></e>
+  <e k="D" t="DroneModuleDef" key="SO_DroneModule_Healing.label"><s>healing module</s><r>модуль исцеления</r></e>
+  <e k="D" t="DroneModuleDef" key="SO_DroneModule_Stagward.description"><s>Installs a shared Stagward projector bus while preserving a separate energy pool in every drone bay. Evasion resolves before the field; attacks that connect drain the shield, and EMP breaks it immediately.</s><r>Устанавливает общую шину проектора Stagward, сохраняя при этом отдельный энергетический пул в каждом отсеке для дронов. Уклонение разрешается перед полем; Атаки, которые соединяются, истощают щит, и ЭМИ немедленно разрушает его.</r></e>
+  <e k="D" t="DroneModuleDef" key="SO_DroneModule_Stagward.label"><s>Stagward module</s><r>Модуль Стагвард</r></e>
+  <e k="D" t="DroneModuleDef" key="SO_DroneModule_Utility.description"><s>Enables reserved hauling, construction-resource delivery, and construction at an effective skill of 8.</s><r>Позволяет зарезервировать перевозку, доставку строительных ресурсов и строительство при эффективном навыке 8.</r></e>
+  <e k="D" t="DroneModuleDef" key="SO_DroneModule_Utility.label"><s>utility module</s><r>служебный модуль</r></e>
+  <e k="D" t="DroneModuleDef" key="SO_DroneModule_Weapon_AAMR50.description"><s>A heavy anti-materiel module with extreme reach, twelve internal rounds, severe moving-fire dispersion, and reduced manoeuvrability.</s><r>Тяжелый противотанковый модуль с большой досягаемостью, двенадцатью внутренними снарядами, сильным рассеиванием огня при движении и пониженной маневренностью.</r></e>
+  <e k="D" t="DroneModuleDef" key="SO_DroneModule_Weapon_AAMR50.label"><s>.50 BMG module</s><r>Модуль .50 BMG</r></e>
+  <e k="D" t="DroneModuleDef" key="SO_DroneModule_Weapon_Charged.description"><s>A spacer pulse module with strong penetration. Its capacitor overheats after sustained bursts and must cool before firing again.</s><r>Модуль промежуточного импульса с сильным проникновением. Его конденсатор перегревается после продолжительных всплесков и должен остыть, прежде чем снова выстрелить.</r></e>
+  <e k="D" t="DroneModuleDef" key="SO_DroneModule_Weapon_Charged.label"><s>charged weapon module</s><r>заряженный модуль вооружения</r></e>
+  <e k="D" t="DroneModuleDef" key="SO_DroneModule_Weapon_Pistol.description"><s>A lightweight close-defense module with fast handling and low heat.</s><r>Легкий модуль ближней защиты с быстрым управлением и низким тепловыделением.</r></e>
+  <e k="D" t="DroneModuleDef" key="SO_DroneModule_Weapon_Pistol.label"><s>pistol module</s><r>пистолетный модуль</r></e>
+  <e k="D" t="DroneModuleDef" key="SO_DroneModule_Weapon_SMG.description"><s>A compact four-round burst module suited to mobile close and medium-range defense.</s><r>Компактный четырехзарядный модуль очереди, подходящий для мобильной защиты на ближней и средней дистанции.</r></e>
+  <e k="D" t="DroneModuleDef" key="SO_DroneModule_Weapon_SMG.label"><s>SMG module</s><r>Модуль ППМ</r></e>
+  <e k="D" t="DroneModuleDef" key="SO_DroneModule_Weapon_Shotgun.description"><s>A close-range stopping module that deliberately closes distance before firing.</s><r>Останавливающий модуль ближнего действия, который намеренно сокращает дистанцию ​​перед выстрелом.</r></e>
+  <e k="D" t="DroneModuleDef" key="SO_DroneModule_Weapon_Shotgun.label"><s>shotgun module</s><r>модуль дробовика</r></e>
+  <e k="D" t="FactionDef" key="RC_HostileContractors.leaderTitle"><s>boss</s><r>босс</r></e>
+  <e k="D" t="FactionDef" key="RC_HostileContractors.messageDefendersAttacking"><s>{0} from {1} are attacking your {2}.</s><r>{0} из {1} атакуют ваш {2}.</r></e>
+  <e k="D" t="FactionDef" key="RC_HostileContractorsMedieval.leaderTitle"><s>boss</s><r>босс</r></e>
+  <e k="D" t="FactionDef" key="RC_HostileContractorsMedieval.messageDefendersAttacking"><s>{0} from {1} are attacking your {2}.</s><r>{0} из {1} атакуют ваш {2}.</r></e>
+  <e k="D" t="FactionDef" key="RC_SilvaranSupport.description"><s>A Silvaran mercenary company offering experienced soldiers for short deployments. When a contract calls for more firepower than you can spare, their help can make the difference.</s><r>Сильваранская рота наёмников, предлагающая опытных солдат для краткосрочных командировок. Когда контракт требует большей огневой мощи, чем вы можете выделить, их помощь может сыграть решающую роль.</r></e>
+  <e k="D" t="FactionDef" key="RC_SilvaranSupport.fixedName"><s>House Silvara support company</s><r>Компания поддержки Дома Сильвара</r></e>
+  <e k="D" t="FactionDef" key="RC_SilvaranSupport.label"><s>House Silvara support company</s><r>Компания поддержки Дома Сильвара</r></e>
+  <e k="D" t="FactionDef" key="RC_SilvaranSupport.leaderTitle"><s>captain</s><r>капитан</r></e>
+  <e k="D" t="FactionDef" key="RC_SilvaranSupport.messageDefendersAttacking"><s>{0} from {1} are attacking your {2}.</s><r>{0} из {1} атакуют ваш {2}.</r></e>
+  <e k="D" t="FactionDef" key="RC_SilvaranSupport.pawnSingular"><s>member</s><r>член</r></e>
+  <e k="D" t="FactionDef" key="RC_SilvaranSupport.pawnsPlural"><s>members</s><r>члены</r></e>
+  <e k="D" t="FactionDef" key="RC_Townsfolk.leaderTitle"><s>leader</s><r>лидер</r></e>
+  <e k="D" t="FactionDef" key="RC_Townsfolk.messageDefendersAttacking"><s>{0} from {1} are attacking your {2}.</s><r>{0} из {1} атакуют ваш {2}.</r></e>
+  <e k="D" t="GeneDef" key="SO_SilvaranSecondWindGene.description"><s>This bloodline carries a violent survival response. When grievously wounded, the carrier enters a brief superhuman adrenal state before the response requires several days to recover.</s><r>Эта родословная несет в себе жестокую реакцию выживания. При тяжелом ранении носитель на короткое время впадает в сверхчеловеческое состояние надпочечников, прежде чем на восстановление реакции потребуется несколько дней.</r></e>
+  <e k="D" t="GeneDef" key="SO_SilvaranSecondWindGene.label"><s>Silvaran second wind</s><r>Сильваран второе дыхание</r></e>
+  <e k="D" t="GeneDef" key="SO_SilvaranSecondWindGene.labelShortAdj"><s>second-wind</s><r>второе дыхание</r></e>
+  <e k="D" t="HediffDef" key="SO_SilvaranSecondWind.description"><s>A bloodline survival response is flooding the body with superhuman adrenaline, suppressing pain and forcing damaged systems beyond their normal limits.</s><r>Реакция выживания родословной наполняет тело сверхчеловеческим адреналином, подавляя боль и вынуждая поврежденные системы выйти за пределы их нормальных пределов.</r></e>
+  <e k="D" t="HediffDef" key="SO_SilvaranSecondWind.label"><s>Silvaran second wind</s><r>Сильваран второе дыхание</r></e>
+  <e k="D" t="HediffDef" key="SO_SilvaranSecondWindCooldown.description"><s>The bloodline's superhuman adrenal response is recovering and cannot trigger again yet.</s><r>Сверхчеловеческая реакция надпочечников этой родословной восстанавливается и пока не может сработать снова.</r></e>
+  <e k="D" t="HediffDef" key="SO_SilvaranSecondWindCooldown.label"><s>second wind recovering</s><r>второе дыхание восстанавливается</r></e>
+  <e k="D" t="IncidentDef" key="RC_KatyaRecruitment.label"><s>Katya's transfer request</s><r>Просьба Кати о переводе</r></e>
+  <e k="D" t="IncidentDef" key="RC_SilwiaRecruitment.label"><s>Silwia's transfer request</s><r>Запрос на трансфер Сильвии</r></e>
+  <e k="D" t="JobDef" key="RC_BankDepositJob.reportString"><s>depositing silver at TargetB.</s><r>внесение серебра на TargetB.</r></e>
+  <e k="D" t="JobDef" key="RC_BankWithdrawJob.reportString"><s>withdrawing silver at TargetA.</s><r>вывод серебра по цене TargetA.</r></e>
+  <e k="D" t="JobDef" key="RC_DeploySupportBedroll.reportString"><s>deploying a bedroll indoors.</s><r>развертывание раскладушки в помещении.</r></e>
+  <e k="D" t="JobDef" key="RC_MarchToMission.reportString"><s>departing for a company mission.</s><r>отправляется на командировку компании.</r></e>
+  <e k="D" t="JobDef" key="RC_PackSupportBedroll.reportString"><s>packing a bedroll.</s><r>упаковываю постельное белье.</r></e>
+  <e k="D" t="JobDef" key="SO_DroneContainEntity.reportString"><s>securing TargetA for emergency containment.</s><r>обеспечение TargetA для экстренного сдерживания.</r></e>
+  <e k="D" t="JobDef" key="SO_DroneFieldProject.reportString"><s>field-upgrading TargetA.</s><r>полевое обновление TargetA.</r></e>
+  <e k="D" t="JobDef" key="SO_DroneFinishFrame.reportString"><s>assembling TargetA.</s><r>сборка TargetA.</r></e>
+  <e k="D" t="JobDef" key="SO_DroneHeal.reportString"><s>sealing TargetA's wounds.</s><r>залечивая раны TargetA.</r></e>
+  <e k="D" t="JobDef" key="SO_DroneHover.reportString"><s>circling and monitoring.</s><r>кружение и наблюдение.</r></e>
+  <e k="D" t="JobDef" key="SO_DroneTransferEntity.reportString"><s>transferring a contained entity to TargetA.</s><r>перенос содержащегося объекта в TargetA.</r></e>
+  <e k="D" t="PawnKindDef" key="RC_HandlerKatya.label"><s>operations officer</s><r>оперативный офицер</r></e>
+  <e k="D" t="PawnKindDef" key="RC_HandlerSilwia.label"><s>company envoy</s><r>посланник компании</r></e>
+  <e k="D" t="PawnKindDef" key="RC_SilvaranMedievalManAtArms.label"><s>Silvaran man-at-arms</s><r>Сильваранский воин</r></e>
+  <e k="D" t="PawnKindDef" key="RC_SilvaranModernRifleman.label"><s>Silvaran rifleman</s><r>Сильваранский стрелок</r></e>
+  <e k="D" t="PawnKindDef" key="RC_SilvaranSupportCaptain.label"><s>Silvaran support captain</s><r>Капитан службы поддержки Сильварана</r></e>
+  <e k="D" t="PawnKindDef" key="SO_UtilityDroneKind.label"><s>utility drone</s><r>служебный дрон</r></e>
+  <e k="D" t="StuffCategoryDef" key="SO_SilvaranSteelWeapon.label"><s>silvaran steel weapon material</s><r>сильваран, стальной оружейный материал</r></e>
+  <e k="D" t="ThingDef" key="RC_SilvaranImportedWeaponHands.label"><s>Silvaran weapon hand settings</s><r>Настройки руки Сильварана</r></e>
+  <e k="D" t="ThingDef" key="RC_SilvaranShuttleIncoming.label"><s>Silvaran shuttle (incoming)</s><r>Сильваранский шаттл (прибывающий)</r></e>
+  <e k="D" t="ThingDef" key="RC_SilvaranShuttleLeaving.label"><s>Silvaran shuttle (leaving)</s><r>Сильваранский шаттл (отправляется)</r></e>
+  <e k="D" t="ThingDef" key="RC_StagfallActive.label"><s>Stagfall pod</s><r>Стэгфолл капсула</r></e>
+  <e k="D" t="ThingDef" key="RC_StagfallIncoming.label"><s>Stagfall pod (incoming)</s><r>Капсула Stagfall (прибывает)</r></e>
+  <e k="D" t="ThingDef" key="RC_StagfallSpentShell.description"><s>The spent shell of a Stagfall drop pod. Its passengers have disembarked, leaving only the empty casing. Deconstruct it to clear the landing site; no materials can be recovered.</s><r>Отработанная оболочка десантной капсулы «Стагфолл». Пассажиры высадились, оставив лишь пустой корпус. Разберите его, чтобы очистить место приземления; никакие материалы не могут быть восстановлены.</r></e>
+  <e k="D" t="ThingDef" key="RC_StagfallSpentShell.label"><s>spent Stagfall shell</s><r>отработанный снаряд Стагфолла</r></e>
+  <e k="D" t="ThingDef" key="SO_Bullet_SilvaranBreechRifle.label"><s>Silvaran breech-rifle musket ball</s><r>Сильваранская мушкетная пуля для казенной винтовки</r></e>
+  <e k="D" t="ThingDef" key="SO_DroneBackpack.description"><s>An iron-black command backpack controlling a modular squadron of compact hovering drones. Every bay on the backpack shares one weapon and support-module configuration. Recalled drones can be configured for combat, medical sealing foam, utility hauling and construction, or—when Anomaly is active—temporary emergency entity containment.</s><r>Железно-черный командирский рюкзак, управляющий модульной эскадрильей компактных парящих дронов. Каждый отсек рюкзака имеет одну конфигурацию оружия и модуля поддержки. Отозванные дроны можно настроить для боевых действий, использования медицинской герметизирующей пены, перевозки коммунальных услуг и строительства или — когда активна «Аномалия» — для временного экстренного сдерживания сущности.</r></e>
+  <e k="D" t="ThingDef" key="SO_DroneBackpack.label"><s>utility drone backpack</s><r>рюкзак для полезного дрона</r></e>
+  <e k="D" t="ThingDef" key="SO_DroneBullet_AAMR50VTwo.label"><s>drone .50 BMG round</s><r>дрон патрон .50 BMG</r></e>
+  <e k="D" t="ThingDef" key="SO_DroneBullet_ChargedVTwo.label"><s>drone charge pulse</s><r>импульс заряда дрона</r></e>
+  <e k="D" t="ThingDef" key="SO_DroneBullet_PistolVTwo.label"><s>drone pistol round</s><r>пистолетный патрон для дрона</r></e>
+  <e k="D" t="ThingDef" key="SO_DroneBullet_SMGVTwo.label"><s>drone SMG round</s><r>дрон, патрон для пистолета-пулемета</r></e>
+  <e k="D" t="ThingDef" key="SO_DroneBullet_ShotgunVTwo.label"><s>drone shotgun blast</s><r>выстрел из дробовика дрона</r></e>
+  <e k="D" t="ThingDef" key="SO_DroneVirtualGun_AAMR50VTwo.label"><s>internal drone .50 BMG</s><r>внутренний дрон .50 BMG</r></e>
+  <e k="D" t="ThingDef" key="SO_DroneVirtualGun_AAMR50VTwo.verbs.0.label"><s>internal drone .50 BMG</s><r>внутренний дрон .50 BMG</r></e>
+  <e k="D" t="ThingDef" key="SO_DroneVirtualGun_ChargedVTwo.label"><s>internal drone charged weapon</s><r>внутреннее заряженное оружие дрона</r></e>
+  <e k="D" t="ThingDef" key="SO_DroneVirtualGun_ChargedVTwo.verbs.0.label"><s>internal drone charged weapon</s><r>внутреннее заряженное оружие дрона</r></e>
+  <e k="D" t="ThingDef" key="SO_DroneVirtualGun_PistolVTwo.label"><s>internal drone pistol</s><r>внутренний дрон-пистолет</r></e>
+  <e k="D" t="ThingDef" key="SO_DroneVirtualGun_PistolVTwo.verbs.0.label"><s>internal drone pistol</s><r>внутренний дрон-пистолет</r></e>
+  <e k="D" t="ThingDef" key="SO_DroneVirtualGun_SMGVTwo.label"><s>internal drone SMG</s><r>внутренний дрон-ППМ</r></e>
+  <e k="D" t="ThingDef" key="SO_DroneVirtualGun_SMGVTwo.verbs.0.label"><s>internal drone SMG</s><r>внутренний дрон-ППМ</r></e>
+  <e k="D" t="ThingDef" key="SO_DroneVirtualGun_ShotgunVTwo.label"><s>internal drone shotgun</s><r>внутренний дробовик для дрона</r></e>
+  <e k="D" t="ThingDef" key="SO_DroneVirtualGun_ShotgunVTwo.verbs.0.label"><s>internal drone shotgun</s><r>внутренний дробовик для дрона</r></e>
+  <e k="D" t="ThingDef" key="SO_FieldworksAssembler.description"><s>A compact autonomous deployment unit that rapidly establishes battlefield fortifications.</s><r>Компактное автономное подразделение, которое быстро возводит укрепления на поле боя.</r></e>
+  <e k="D" t="ThingDef" key="SO_FieldworksAssembler.label"><s>fieldworks assembler</s><r>сборщик полевых работ</r></e>
+  <e k="D" t="ThingDef" key="SO_Gun_RSR_AAMRFifty.description"><s>The Royal Silvaran Rifle Automatic Anti-Materiel Rifle 50 is a heavy anti-materiel rifle developed by the Royal Silvaran Armaments Directorate. Built around an oversized magnum cartridge, it delivers exceptional long-range precision and devastating stopping power against heavily armored targets. Every rifle is hand-fitted in one of three persistent optic and foregrip configurations and inspected to Royal military standards before entering service.</s><r>Автоматическая антиматериальная винтовка Royal Silvaran Rifle 50 — это тяжелая противоматериальная винтовка, разработанная Королевским управлением вооружений Сильварана. Созданный на основе увеличенного патрона Magnum, он обеспечивает исключительную точность на больших дистанциях и разрушительную останавливающую способность против тяжелобронированных целей. Каждая винтовка вручную устанавливается в одну из трех конфигураций оптики и цевья и проверяется на соответствие Королевским военным стандартам перед поступлением на вооружение.</r></e>
+  <e k="D" t="ThingDef" key="SO_Gun_RSR_AAMRFifty.label"><s>RSR AAMR-50</s><r>РСР ААМР-50</r></e>
+  <e k="D" t="ThingDef" key="SO_Gun_RSR_AAMRFifty.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="SO_Gun_RSR_AAMRFifty.verbs.0.label"><s>RSR AAMR-50</s><r>РСР ААМР-50</r></e>
+  <e k="D" t="ThingDef" key="SO_SilvaranAssaultRifle_Field.description"><s>A House-issued gas-operated assault rifle chambered for 5.56mm ammunition. Four furniture and sight patterns circulate through Silvaran and Ashenhall armories, but every pattern is mechanically identical.</s><r>Выпущенная Палатой представителей газовая штурмовая винтовка под патроны калибра 5,56 мм. В арсеналах Сильварана и Ашенхолла циркулируют четыре образца мебели и прицелов, но все образцы механически идентичны.</r></e>
+  <e k="D" t="ThingDef" key="SO_SilvaranAssaultRifle_Field.label"><s>Silvaran AR-15</s><r>Сильваран AR-15</r></e>
+  <e k="D" t="ThingDef" key="SO_SilvaranAssaultRifle_Field.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="SO_SilvaranAssaultRifle_Field.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="SO_SilvaranAssaultRifle_Field.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="SO_SilvaranAssaultRifle_Field.verbs.0.label"><s>Silvaran AR-15</s><r>Сильваран AR-15</r></e>
+  <e k="D" t="ThingDef" key="SO_SilvaranBreechRifle.description"><s>A long, single-shot House marksman rifle built around a wooden stock and an energized Silvaran Steel breech and barrel. Its guarded mechanism drives ordinary musket balls at exceptional velocity, giving the old round greater range and force without requiring a modern cartridge.</s><r>Длинная однозарядная стрелковая винтовка Дома, построенная на деревянном прикладе и усиленном затворе и стволе из Сильваранской стали. Его защищенный механизм приводит в движение обычные мушкетные пули с исключительной скоростью, что дает старому патрону большую дальность и силу без необходимости использования современного патрона.</r></e>
+  <e k="D" t="ThingDef" key="SO_SilvaranBreechRifle.label"><s>Silvaran breech rifle</s><r>Джинсы-бриджи Silvaran</r></e>
+  <e k="D" t="ThingDef" key="SO_SilvaranBreechRifle.tools.0.label"><s>stock</s><r>запас</r></e>
+  <e k="D" t="ThingDef" key="SO_SilvaranBreechRifle.tools.1.label"><s>barrel</s><r>бочка</r></e>
+  <e k="D" t="ThingDef" key="SO_SilvaranBreechRifle.tools.2.label"><s>muzzle</s><r>морда</r></e>
+  <e k="D" t="ThingDef" key="SO_SilvaranBreechRifle.verbs.0.label"><s>Silvaran breech rifle</s><r>Джинсы-бриджи Silvaran</r></e>
+  <e k="D" t="ThingDef" key="SO_UtilityDrone.description"><s>A compact airborne support drone linked to a utility backpack. Its XML-defined modules determine its weapon, preferred combat distance, available work, medical foam, and optional anomaly systems. It ignores terrain while hovering, uses doors for enclosed rooms, and may cross outdoor walls without landing inside them.</s><r>Компактный дрон воздушной поддержки, прикрепленный к служебному рюкзаку. Его XML-модули определяют его оружие, предпочтительную боевую дистанцию, доступную работу, медицинскую пену и дополнительные системы аномалий. Он игнорирует местность во время парения, использует двери для закрытых комнат и может пересекать наружные стены, не приземляясь внутри них.</r></e>
+  <e k="D" t="ThingDef" key="SO_UtilityDrone.label"><s>utility drone</s><r>служебный дрон</r></e>
+  <e k="D" t="ThingDef" key="SO_UtilityDrone.tools.0.label"><s>head</s><r>голова</r></e>
+  <e k="D" t="ThingDef" key="SilvaranSteel.description"><s>A rare, costly alloy refined according to House Silvara's guarded metallurgical tradition. Almost impossibly light and exceptionally durable, it takes a peerless edge; melee weapons forged from it strike faster, cut deeper, and retain tremendous force.</s><r>Редкий и дорогой сплав, очищенный в соответствии с охраняемыми металлургическими традициями Дома Сильвара. Почти невероятно легкий и исключительно прочный, он обладает несравненной остротой; оружие ближнего боя, выкованное из него, поражает быстрее, режет глубже и сохраняет огромную силу.</r></e>
+  <e k="D" t="ThingDef" key="SilvaranSteel.label"><s>silvaran steel</s><r>сильварановая сталь</r></e>
+  <e k="D" t="ThingDef" key="SilvaranSteel.stuffProps.stuffAdjective"><s>silvaran-steel</s><r>сильваран-сталь</r></e>
+  <e k="D" t="ThingDef" key="Silvaran_Chainmail.description"><s>Chainmail worn by Silvaran men-at-arms.</s><r>Кольчуга, которую носят воины Сильварана.</r></e>
+  <e k="D" t="ThingDef" key="Silvaran_Chainmail.label"><s>Silvaran Chainmail</s><r>Сильваранская кольчуга</r></e>
+  <e k="D" t="ThingDef" key="Silvaran_CombatMask.description"><s>A sealed spacer-grade combat mask issued to the fighting arms of Houses Silvara and Ashenhall. Its iron-black facial shell nests beneath a house sallet, while a silver stag-brow sensor crown feeds multispectral targeting data into paired cyan retinal displays. Closed-cycle filters seal the eyes and airway against toxic atmospheres and hard vacuum.</s><r>Запечатанная боевая маска космического уровня, выданная боевым подразделениям Домов Сильвара и Ашенхолл. Его стально-черный лицевой панцирь расположен под домашним платком, а серебряная сенсорная корона с оленьими бровями передает мультиспектральные данные прицеливания на парные голубые дисплеи сетчатки. Фильтры замкнутого цикла защищают глаза и дыхательные пути от токсичной атмосферы и жесткого вакуума.</r></e>
+  <e k="D" t="ThingDef" key="Silvaran_CombatMask.label"><s>Silvaran combat mask</s><r>Боевая маска Сильварана</r></e>
+  <e k="D" t="ThingDef" key="Silvaran_Gorget.description"><s>A shaped metal collar and shoulder defense that closes the vulnerable gap between a Silvaran sallet and chainmail.</s><r>Металлический воротник и защита плеч фигурной формы, закрывающий уязвимый разрыв между сильваранской салой и кольчугой.</r></e>
+  <e k="D" t="ThingDef" key="Silvaran_Gorget.label"><s>Silvaran gorget</s><r>Сильваранское ущелье</r></e>
+  <e k="D" t="ThingDef" key="Silvaran_Sallet.description"><s>A visored sallet worn by the men-at-arms of House Silvara. Its sweeping neck guard pairs with a gorget to leave no gap for a blade.</s><r>Салфетка с козырьком, которую носят воины Дома Сильвара. Широкая защита шеи сочетается с воротником, не оставляющим зазора для лезвия.</r></e>
+  <e k="D" t="ThingDef" key="Silvaran_Sallet.label"><s>Silvaran Sallet</s><r>Сильваран Саллет</r></e>
+  <e k="D" t="ThingDef" key="Silvaran_StagwardReliquary.description"><s>A compact ancestral shield reliquary worn at the lower back by members of House Silvara and its Ashenhall claimant line. Its old mechanisms project a close-fitted field that catches both projectiles and melee blows. Each impact sends a visible shiver through the field and its wearer. The device is treated as a guarded badge of blood and service, never sold outside the rival houses.</s><r>Компактный реликварий с родовым щитом, который носят в пояснице члены Дома Сильвара и его линия претендентов на Ашенхолл. Его старые механизмы создают плотно прилегающее поле, которое улавливает как снаряды, так и удары ближнего боя. Каждый удар вызывает видимую дрожь по полю и его владельцу. Устройство рассматривается как охраняемый знак крови и службы, никогда не продаваемый за пределами конкурирующих домов.</r></e>
+  <e k="D" t="ThingDef" key="Silvaran_StagwardReliquary.label"><s>Stagward reliquary</s><r>Стагвардский реликварий</r></e>
+  <e k="D" t="ThingDef" key="Silvaran_Tunic.description"><s>A close-cut house tunic worn beneath Silvaran armor, tailored for long service in court, workshop, and field.</s><r>Облегающая домашняя туника, надеваемая под сильваранские доспехи и предназначенная для долгой службы при дворе, в мастерской и в полевых условиях.</r></e>
+  <e k="D" t="ThingDef" key="Silvaran_Tunic.label"><s>Silvaran tunic</s><r>Сильваранская туника</r></e>
+  <e k="D" t="ThingDef" key="Silvaran_chausses.description"><s>Articulated mail leggings and foot guards made for Silvaran retainers. They protect the lower body without the rigid weight of plate armor.</s><r>Шарнирные кольчужные поножи и набедренники, сделанные для слуг Сильварана. Они защищают нижнюю часть тела без жесткого веса пластинчатой ​​брони.</r></e>
+  <e k="D" t="ThingDef" key="Silvaran_chausses.label"><s>Silvaran chainmail chausses</s><r>Сильваранские кольчужные шоссы</r></e>
+  <e k="D" t="ThingDef" key="Silvaran_mittens.description"><s>Mail-backed mittens that protect the hands while preserving enough movement to grip a weapon or tool.</s><r>Рукавицы с кольчужной подкладкой, которые защищают руки, сохраняя при этом достаточную подвижность для захвата оружия или инструмента.</r></e>
+  <e k="D" t="ThingDef" key="Silvaran_mittens.label"><s>Silvaran chainmail mittens</s><r>Сильваранские кольчужные рукавицы</r></e>
+  <e k="D" t="TransportShipDef" key="RC_SilvaranServiceShip.label"><s>Silvaran charter shuttle</s><r>Чартерный шаттл Сильваран</r></e>
+  <e k="D" t="WorkGiverDef" key="RC_CompanyBankWork.gerund"><s>transferring company silver</s><r>передача серебра компании</r></e>
+  <e k="D" t="WorkGiverDef" key="RC_CompanyBankWork.label"><s>handle company silver</s><r>ручка фирменного серебра</r></e>
+  <e k="D" t="WorkGiverDef" key="RC_CompanyBankWork.verb"><s>transfer</s><r>передача</r></e>
+  <e k="D" t="XenotypeDef" key="GegeXT_Silvaran.description"><s>Silvarans are a disciplined noble bloodline shaped for command, ceremony, and war. Their pale appearance and heightened psychic sensitivity mark the line among the houses of the Rim.</s><r>Сильвараны — дисциплинированная благородная родословная, созданная для командования, церемоний и войны. Их бледная внешность и повышенная психическая чувствительность отмечают черту среди домов Кольца.</r></e>
+  <e k="D" t="XenotypeDef" key="GegeXT_Silvaran.descriptionShort"><s>A disciplined Silvaran bloodline with regular physiques, pale silver eyes, snow-white skin, and enhanced psychic sensitivity.</s><r>Дисциплинированная сильварская родословная с правильным телосложением, бледно-серебристыми глазами, белоснежной кожей и повышенной психической чувствительностью.</r></e>
+  <e k="D" t="XenotypeDef" key="GegeXT_Silvaran.label"><s>silvaran</s><r>сильваран</r></e>
+  <e k="K" key="RC_CompanyShuttle_Incoming"><s>company shuttle (incoming)</s><r>трансфер компании (входящий)</r></e>
+  <e k="K" key="RC_CompanyShuttle_Label"><s>company charter shuttle</s><r>чартерный трансфер компании</r></e>
+  <e k="K" key="RC_CompanyShuttle_Leaving"><s>company shuttle (leaving)</s><r>трансфер компании (отправление)</r></e>
+  <e k="K" key="RC_Handler_ResetFailed"><s>{0}'s transfer request could not be sent.</s><r>Не удалось отправить запрос на перевод от {0}.</r></e>
+  <e k="K" key="RC_Handler_ResetInColony"><s>{0} is already part of your colony.</s><r>{0} уже является частью вашей колонии.</r></e>
+  <e k="K" key="RC_Handler_ResetNoGame"><s>Load a colony to use this.</s><r>Загрузите колонию, чтобы использовать это.</r></e>
+  <e k="K" key="RC_Handler_ResetNoHome"><s>You need a colony map for her to arrive at.</s><r>Вам нужна карта колонии, к которой она сможет добраться.</r></e>
+  <e k="K" key="RC_Handler_ResetSent"><s>{0}'s transfer request has been sent.</s><r>Запрос на перевод от {0} отправлен.</r></e>
+  <e k="K" key="RC_Handler_Wait_NoEntry"><s>Waiting for a clear, reachable place to arrive.</s><r>Ожидание свободного и доступного места для прибытия.</r></e>
+  <e k="K" key="RC_Handler_Wait_NoHome"><s>She will travel once you have a colony map.</s><r>Она отправится в путешествие, как только у вас будет карта колонии.</r></e>
+  <e k="K" key="RC_Handler_Wait_Retry"><s>Her travel was delayed; she will try again shortly.</s><r>Ее поездка была отложена; она попробует еще раз в ближайшее время.</r></e>
+  <e k="K" key="RC_Hire_PodInbound"><s>Drop pod inbound.</s><r>Прибывает десантная капсула.</r></e>
+  <e k="K" key="RC_Hire_PodPreparing"><s>Ready. Arriving by drop pod near your colony.</s><r>Готовый. Прибытие на десантной капсуле рядом с вашей колонией.</r></e>
+  <e k="K" key="RC_Service_Pickup_Company"><s>Charter dispatched. {0} silver paid; board the company shuttle when it lands.</s><r>Чартер отправлен. {0} серебро выплачено; сядьте на шаттл компании, когда он приземлится.</r></e>
+  <e k="K" key="RC_Service_Title_Company"><s>Company shuttle service</s><r>Корпоративный трансфер</r></e>
+  <e k="K" key="RC_Set_HandlerResetButton"><s>Reset and send {0}'s transfer request</s><r>Сбросить и отправить запрос на перевод от {0}</r></e>
+  <e k="K" key="RC_Set_HandlerResetConfirm"><s>Reset {0}'s transfer and send her request now?
+
+Any earlier request or arrival that has not finished is cancelled. If {0} has died, accepting brings a new {0} to your colony. Her relationship progress is kept.</s><r>Сбросить перевод {0} и отправить ей запрос сейчас?
+
+Любой предыдущий запрос или незавершенное прибытие отменяется. Если {0} умер, принятие принесет в вашу колонию нового {0}. Ее прогресс в отношениях сохраняется.</r></e>
+  <e k="K" key="RC_Set_HandlerResetTip"><s>Cancel any unfinished request or arrival for {0} and send a new transfer request now.</s><r>Отмените любой незавершенный запрос или прибытие на {0} и отправьте новый запрос на трансфер прямо сейчас.</r></e>
+  <e k="K" key="RC_Set_HandlerTransfers"><s>Handler transfer requests</s><r>Обработчик запросов на передачу</r></e>
+  <e k="K" key="RC_Set_HandlerTransfersDesc"><s>Restart a handler's transfer and receive her request right away, without the company level or relationship requirements. Her relationship progress is kept.</s><r>Перезапустите передачу обработчика и получите ее запрос сразу, без требований к уровню компании или взаимоотношениям. Ее прогресс в отношениях сохраняется.</r></e>
+  <e k="K" key="RC_Set_Sec_Silvaran"><s>Silvaran content</s><r>Содержание Сильварана</r></e>
+  <e k="K" key="RC_Set_SilvaranContent"><s>Enable Silvaran content</s><r>Включить контент Сильварана</r></e>
+  <e k="K" key="RC_Set_SilvaranContentTip"><s>Silvaran gear and steel, the Silvaran xenotype, Silvaran reinforcements, drone and Stagward options, and Stagfall arrivals for hired operators. Katya and Silwia are not affected, and the charter shuttle keeps working under a company name.</s><r>Сильваранское снаряжение и сталь, Сильваранский ксенотип, Сильваранское подкрепление, варианты дронов и Стагварда, а также прибытие Оленьего падения для наемных операторов. Катю и Сильвию это не затронуло, и чартерный шаттл продолжает работать под названием компании.</r></e>
+  <e k="K" key="RC_Set_SilvaranNative"><s>Silvaran Order is installed, so its own items and xenotype are managed by that mod. This setting only controls RimContractors' Silvaran services and Stagfall hire arrivals.</s><r>Silvaran Order установлен, поэтому этот мод управляет его собственными предметами и ксенотипом. Этот параметр контролирует только услуги Silvaran от RimContractors и прибытие нанятых сотрудников Stagfall.</r></e>
+  <e k="K" key="RC_Set_SilvaranOffDesc"><s>Silvaran gear, steel and the Silvaran xenotype are hidden. They cannot be crafted, bought, found as loot, worn by generated pawns or picked when creating characters. Services no longer offers Silvaran reinforcements, and modern hires arrive in standard drop pods near your colony. The charter shuttle is called the company shuttle. Anything already in a save stays and keeps working, and you can still sell it. Reinforcements already on duty finish their shift.</s><r>Сильваранское снаряжение, сталь и сильваранский ксенотип спрятаны. Их нельзя создать, купить, найти в качестве добычи, носить сгенерированными пешками или выбрать при создании персонажей. Службы больше не предлагают подкрепления Сильварана, а современные наемники прибывают в стандартных десантных капсулах рядом с вашей колонией. Чартерный шаттл называется корпоративным шаттлом. Все, что уже сохранено, остается и продолжает работать, и вы все равно можете это продать. Уже дежурные подкрепления заканчивают свою смену.</r></e>
+  <e k="K" key="RC_Set_SilvaranOnDesc"><s>Silvaran armor, rifles, drone backpacks, Stagward reliquaries and Silvaran steel can be crafted, traded and found. The Silvaran xenotype is available, Services offers Silvaran reinforcements, and modern hires arrive by Stagfall at a landing spot you choose.</s><r>Сильваранскую броню, винтовки, рюкзаки для дронов, реликварии Стагварда и сильваранскую сталь можно изготовить, продать и найти. Ксенотип Сильварана доступен, Службы предлагают Сильваранское подкрепление, а современные наемники прибывают через Огненный водопад в выбранное вами место приземления.</r></e>
+  <e k="K" key="RC_Set_SilvaranRestart"><s>Restart RimWorld to finish applying this change to items and the xenotype. Services and hire arrivals update immediately.</s><r>Перезапустите RimWorld, чтобы применить изменения к предметам и ксенотипу. Услуги и прибытия на работу обновляются немедленно.</r></e>
+  <e k="K" key="RC_ShuttleCaravan_Call_Company"><s>Call company shuttle</s><r>Вызов трансфера компании</r></e>
+  <e k="K" key="RC_ShuttleCaravan_Departed_Company"><s>Caravan collected by the company shuttle. Paid {0} from the company bank.</s><r>Караван собран челноком компании. Оплачено {0} из банка компании.</r></e>
+  <e k="K" key="RC_Silvaran_ContentOff"><s>Silvaran content is turned off in the mod settings.</s><r>Содержание Сильварана отключено в настройках мода.</r></e>
+  <e k="K" key="RC_Uncollected_Detain"><s>Detain {0} as a prisoner</s><r>Задержать {0} в качестве заключенного</r></e>
+  <e k="K" key="RC_Uncollected_Detained"><s>{0} is now your prisoner.</s><r>{0} теперь ваш пленник.</r></e>
+  <e k="K" key="RC_Uncollected_Guest"><s>{1} can no longer collect {0}. Their faction is hostile to you, defeated or gone, so the pickup has been cancelled. The contract itself is already settled.
+
+{0} is no longer under contract protection. What happens now?</s><r>{1} больше не может собирать {0}. Их фракция враждебна вам, побеждена или ушла, поэтому получение было отменено. Сам контракт уже урегулирован.
+
+{0} больше не находится под защитой контракта. Что происходит сейчас?</r></e>
+  <e k="K" key="RC_Uncollected_Leave"><s>Let {0} leave peacefully</s><r>Пусть {0} мирно уйдет</r></e>
+  <e k="K" key="RC_Uncollected_Left"><s>{0} is leaving the colony.</s><r>{0} покидает колонию.</r></e>
+  <e k="K" key="RC_Uncollected_NotOnMap"><s>{0} must be on a map for this.</s><r>Для этого на карте должно быть {0}.</r></e>
+  <e k="K" key="RC_Uncollected_Prisoner"><s>{1} can no longer collect {0}. Their faction is hostile to you, defeated or gone, so the pickup has been cancelled. The contract itself is already settled.
+
+{0} remains your prisoner. You can keep, recruit or release them as usual.</s><r>{1} больше не может собирать {0}. Их фракция враждебна вам, побеждена или ушла, поэтому получение было отменено. Сам контракт уже заключен.
+
+{0} остается вашим пленником. Вы можете оставить, нанять или отпустить их как обычно.</r></e>
+  <e k="K" key="RC_Uncollected_Stay"><s>Let {0} stay in the colony</s><r>Пусть {0} останется в колонии</r></e>
+  <e k="K" key="RC_Uncollected_Title"><s>Nobody is coming for {0}</s><r>Никто не придет за {0}</r></e>
+  <e k="K" key="SO_AllegianceAshenhallLabel"><s>The black-and-silver oath</s><r>Черно-серебряная клятва</r></e>
+  <e k="K" key="SO_AllegianceAshenhallText"><s>Your Household supports Ashenhall's claim. House Ashenhall is now a permanent ally, House Silvara is a permanent enemy, and the delegation will present 200 Silvaran Steel before departing.</s><r>Ваша семья поддерживает иск Эшенхолла. Дом Ашенхолл теперь является постоянным союзником, Дом Сильвара — постоянным врагом, и перед отъездом делегация подарит 200 сильваранской стали.</r></e>
+  <e k="K" key="SO_AllegianceIndependentLabel"><s>A third claim is raised</s><r>Третья претензия выдвинута</r></e>
+  <e k="K" key="SO_AllegianceIndependentText"><s>Your Household rejects both ancient lines and stakes its own claim to the Silvaran crown. Both houses remain wary but non-hostile for fifteen days. Use the preparation term well.</s><r>Ваш Дом отвергает обе древние линии и заявляет о своих правах на корону Сильварана. Оба дома сохраняют осторожность, но не враждебны в течение пятнадцати дней. Хорошо используйте термин подготовки.</r></e>
+  <e k="K" key="SO_AllegianceSilvaraLabel"><s>The oath of the white stag</s><r>Клятва белого оленя</r></e>
+  <e k="K" key="SO_AllegianceSilvaraText"><s>Your Household swears allegiance to House Silvara. The Ashenhall delegation will leave peacefully before its House becomes hostile; a non-trading Silvaran ceremonial retinue will then deliver 200 Silvaran Steel.</s><r>Ваша семья присягает на верность дому Сильвара. Делегация Ашенхолла уедет мирно, прежде чем ее Палата представителей станет враждебной; затем неторговая сильваранская церемониальная свита доставит 200 сильваранской стали.</r></e>
+  <e k="K" key="SO_Allegiance_Ashenhall"><s>House Ashenhall</s><r>Дом Ашенхолл</r></e>
+  <e k="K" key="SO_Allegiance_Independent"><s>Independent claimant</s><r>Независимый истец</r></e>
+  <e k="K" key="SO_Allegiance_Silvara"><s>House Silvara</s><r>Дом Сильвара</r></e>
+  <e k="K" key="SO_Allegiance_Undecided"><s>Undecided</s><r>Не определился</r></e>
+  <e k="K" key="SO_ApprenticeshipTip"><s>Training: {0}%
+Bond: {1}/4000
+
+A squire learns relevant work or combat skills while near a more-skilled knight. When idle, the squire follows their knight. Six days of close service, a full bond and combat skill 8 are required for knighthood.</s><r>Обучение: {0}%
+Связь: {1}/4000
+
+Оруженосец изучает соответствующие рабочие или боевые навыки, находясь рядом с более опытным рыцарем. Когда оруженосец бездействует, он следует за своим рыцарем. Для получения рыцарского звания необходимы шесть дней тесной службы, полная связь и боевой навык 8.</r></e>
+  <e k="K" key="SO_AshenhallChoiceIndependent"><s>Stake your own claim — prepare for fifteen days before both houses turn hostile</s><r>Заявите свои права — подготовьтесь к пятнадцати дням, прежде чем обе палаты станут враждебными.</r></e>
+  <e k="K" key="SO_AshenhallChoicePlead"><s>Beg to be left alone — gain seven days before Ashenhall raids</s><r>Попросите, чтобы его оставили в покое — выиграйте семь дней до набегов на Ашенхолл.</r></e>
+  <e k="K" key="SO_AshenhallChoiceRefuse"><s>Refuse the claim — Ashenhall becomes permanently hostile after the delegation leaves</s><r>Отклонить иск — после ухода делегации Эшенхолл становится навсегда враждебным.</r></e>
+  <e k="K" key="SO_AshenhallChoiceSilvara"><s>Swear allegiance to House Silvara — Ashenhall departs before turning hostile and Silvara sends 200 Steel</s><r>Присягните дому Сильвара — Эшенхолл уходит, прежде чем стать враждебным, и Сильвара посылает 200 единиц стали.</r></e>
+  <e k="K" key="SO_AshenhallChoiceSupport"><s>Support the claim — ally with Ashenhall and receive 200 Silvaran Steel</s><r>Поддержите требование — вступите в союз с Ашенхоллом и получите 200 сильваранской стали.</r></e>
+  <e k="K" key="SO_AshenhallPleaAcceptedLabel"><s>Seven nights of reprieve</s><r>Семь ночей отсрочки</r></e>
+  <e k="K" key="SO_AshenhallPleaAcceptedText"><s>House Ashenhall grants the colony seven days to reconsider. When that reprieve ends, its army will come.</s><r>Дом Эшенхолл дает колонии семь дней на размышление. Когда эта отсрочка закончится, придет его армия.</r></e>
+  <e k="K" key="SO_AshenhallPledgeGiftLabel"><s>Ashenhall honors the black-and-silver oath</s><r>Эшенхолл чтит черно-серебряную клятву</r></e>
+  <e k="K" key="SO_AshenhallPledgeGiftText"><s>The Ashenhall speaker thanks the colony for supporting the exiled line. The delegation has presented {0} Silvaran Steel and will now leave the settlement.</s><r>Спикер Ашенхолла благодарит колонию за поддержку линии изгнанников. Делегация подарила {0} Сильваранскую сталь и теперь покинет поселение.</r></e>
+  <e k="K" key="SO_AshenhallRefusedLabel"><s>Ashenhall's claim refused</s><r>Иск Эшенхолла отклонен</r></e>
+  <e k="K" key="SO_AshenhallRefusedText"><s>The Ashenhall delegation will depart without violence. Once its last member leaves the map, House Ashenhall will regard the colony as a permanent enemy.</s><r>Делегация Ашенхолла уедет без насилия. Как только ее последний член покинет карту, Дом Эшенхоллов будет считать колонию постоянным врагом.</r></e>
+  <e k="K" key="SO_AshenhallSupportedLabel"><s>The black-and-silver oath</s><r>Черно-серебряная клятва</r></e>
+  <e k="K" key="SO_AshenhallSupportedText"><s>The colony has supported House Ashenhall's claim. All Silvaran titles and Honor are revoked, House Silvara becomes a permanent enemy, and House Ashenhall becomes a permanent ally.</s><r>Колония поддержала требование Дома Эшенхоллов. Все Сильваранские титулы и Честь аннулируются, Дом Сильвара становится постоянным врагом, а Дом Ашенхолл становится постоянным союзником.</r></e>
+  <e k="K" key="SO_AshenhallUltimatumLabel"><s>House Ashenhall demands your stance</s><r>Дом Эшенхолл требует вашей позиции</r></e>
+  <e k="K" key="SO_AshenhallUltimatumText"><s>A delegation from House Ashenhall has entered the colony beneath black and silver banners. Their speaker recounts the ancient succession war: Silvara and Ashenhall were once one family, until an unnamed heir divided the line and Silvara drove the younger branch into exile. Ashenhall has returned again to claim the ancestral title.
+
+“Only the Night Endures.”
+
+The delegation demands that your colony declare its stance.</s><r>Делегация Дома Ашенхоллов вошла в колонию под черно-серебряными знаменами. Их оратор рассказывает о древней войне за престолонаследие: Сильвара и Эшенхолл когда-то были одной семьей, пока неназванный наследник не разделил линию, и Сильвара не изгнал младшую ветвь в изгнание. Ашенхолл снова вернулся, чтобы претендовать на титул предков.
+
+ «Только ночь длится».
+
+Делегация требует, чтобы ваша колония заявила о своей позиции.</r></e>
+  <e k="K" key="SO_AssignKnight"><s>Assign knight</s><r>Назначить рыцаря</r></e>
+  <e k="K" key="SO_AvailableRenown"><s>Available Renown</s><r>Доступная известность</r></e>
+  <e k="K" key="SO_BarrageAlreadyActive"><s>A Silvaran Order barrage is already active on this map.</s><r>На этой карте уже активен заграждение Ордена Сильварана.</r></e>
+  <e k="K" key="SO_BarrageResetComplete"><s>Barrage reset complete. Active barrages stopped: {0}.</s><r>Сброс заградительного огня завершен. Активные обстрелы прекращены: {0}.</r></e>
+  <e k="K" key="SO_BarrageResetNone"><s>No active barrage was found.</s><r>Активного заграждения обнаружено не было.</r></e>
+  <e k="K" key="SO_BarrageSettingsHeading"><s>Barrage controls</s><r>Органы управления заграждением</r></e>
+  <e k="K" key="SO_BeginFinalClaim"><s>Begin the final claim battle</s><r>Начните финальную битву за права</r></e>
+  <e k="K" key="SO_Bestow"><s>Bestow</s><r>Дарить</r></e>
+  <e k="K" key="SO_BetrayalDesc"><s>Your Renown is dangerously low. You may abandon your patron. The betrayed house can never be rejoined, 150 lifetime Renown is lost, and retaliation will follow after two days.</s><r>Ваша известность опасно низка. Вы можете отказаться от своего покровителя. Преданный дом никогда не сможет воссоединиться, 150 пожизненной славы потеряно, а возмездие последует через два дня.</r></e>
+  <e k="K" key="SO_BetrayalHeading"><s>Betray current allegiance</s><r>Предать текущую преданность</r></e>
+  <e k="K" key="SO_BetrayalLetterLabel"><s>Oath broken</s><r>Клятва нарушена</r></e>
+  <e k="K" key="SO_BetrayalLetterText"><s>Your Household has betrayed {0} and turned toward {1}. The old patron will never forgive this oath-breaking. Retaliation is expected within two days.</s><r>Ваша семья предала {0} и обратилась к {1}. Старый покровитель никогда не простит этого нарушения клятвы. Ответные меры ожидаются в течение двух дней.</r></e>
+  <e k="K" key="SO_CaravanArrivedLabel"><s>Patron caravan dispatched</s><r>Караван патронов отправлен</r></e>
+  <e k="K" key="SO_CaravanArrivedText"><s>Your patron has honored the request and sent a trade caravan to the settlement.</s><r>Ваш покровитель выполнил просьбу и отправил в поселение торговый караван.</r></e>
+  <e k="K" key="SO_CaravanServiceDesc"><s>Request a trade caravan from your current patron. It arrives after roughly half a day.</s><r>Запросите торговый караван у текущего покровителя. Оно приходит примерно через полдня.</r></e>
+  <e k="K" key="SO_CaravanServiceTitle"><s>Ask for a caravan</s><r>Попросите караван</r></e>
+  <e k="K" key="SO_CeremonialApproachReport"><s>Approaching a colony representative</s><r>Подход к представителю колонии</r></e>
+  <e k="K" key="SO_ChoosePath"><s>Choose this path</s><r>Выберите этот путь</r></e>
+  <e k="K" key="SO_ChoosePathHeading"><s>Choose the future of your Household</s><r>Выберите будущее своей семьи</r></e>
+  <e k="K" key="SO_ClaimObjectiveAshenhallRaid"><s>Survive a House Ashenhall raid</s><r>Пережить рейд на Дом Ашенхолла</r></e>
+  <e k="K" key="SO_ClaimObjectiveKnights"><s>Appoint at least three Knights</s><r>Назначьте как минимум трех рыцарей.</r></e>
+  <e k="K" key="SO_ClaimObjectiveKnightsProgress"><s>Knights appointed: {0}/{1}</s><r>Назначены рыцари: {0}/{1}</r></e>
+  <e k="K" key="SO_ClaimObjectiveNobles"><s>Appoint at least two Nobles</s><r>Назначьте как минимум двух дворян</r></e>
+  <e k="K" key="SO_ClaimObjectiveNoblesProgress"><s>Nobles appointed: {0}/{1}</s><r>Назначены дворяне: {0}/{1}</r></e>
+  <e k="K" key="SO_ClaimObjectiveSilvaraRaid"><s>Survive a House Silvara raid</s><r>Пережить рейд Дома Сильвара</r></e>
+  <e k="K" key="SO_ClaimObjectiveTrusted"><s>Reach Trusted Renown</s><r>Достигните надежной известности</r></e>
+  <e k="K" key="SO_ClaimObjectiveVictories"><s>Win at least three house-war quests</s><r>Выиграйте как минимум три квеста о войне домов.</r></e>
+  <e k="K" key="SO_ClaimObjectiveVictoriesProgress"><s>House-war victories: {0}/{1}</s><r>Победы в войнах домов: {0}/{1}</r></e>
+  <e k="K" key="SO_ClaimObjectiveWealth"><s>Build colony wealth of at least 200,000</s><r>Постройте колонию с богатством не менее 200 000.</r></e>
+  <e k="K" key="SO_ClaimObjectiveWealthProgress"><s>Colony wealth: {0} / {1}</s><r>Богатство колонии: {0} / {1}</r></e>
+  <e k="K" key="SO_ClaimProgressHeading"><s>Claim to the Silvaran crown</s><r>Претензия на корону Сильварана</r></e>
+  <e k="K" key="SO_ClaimStatus"><s>Claim status</s><r>Статус заявки</r></e>
+  <e k="K" key="SO_ColumnMember"><s>Member</s><r>Член</r></e>
+  <e k="K" key="SO_ColumnMentorship"><s>Knight and squire</s><r>Рыцарь и оруженосец</r></e>
+  <e k="K" key="SO_ColumnRetinue"><s>Retinue</s><r>Свита</r></e>
+  <e k="K" key="SO_ColumnTitle"><s>Household title</s><r>Домашний титул</r></e>
+  <e k="K" key="SO_ConfirmBetrayal"><s>Betray your present patron and turn to {0}? The former patron will become a permanent enemy and launch a retaliatory raid.</s><r>Предать своего нынешнего покровителя и обратиться к {0}? Бывший покровитель станет постоянным врагом и начнет ответный рейд.</r></e>
+  <e k="K" key="SO_ConfirmPath"><s>Commit the Household to “{0}”? This political choice cannot be reversed except by low-Renown betrayal.</s><r>Привязать семью к «{0}»? Этот политический выбор нельзя изменить, кроме как предательством с низкой известностью.</r></e>
+  <e k="K" key="SO_CoronationLabel"><s>House {0} takes the Silvaran crown</s><r>Дом {0} получает корону Сильварана.</r></e>
+  <e k="K" key="SO_CoronationText"><s>Both ancient claimants have been broken in the field. Before the assembled Household, the head of House {0} is crowned sovereign of the Silvaran realm. Your independent line is now recognized as the ruling House of Silvara.</s><r>Оба древних претендента были разбиты на поле боя. Перед собравшимся Домом глава Дома {0} коронуется как правитель королевства Сильваран. Ваша независимая линия теперь признана правящим Домом Сильвары.</r></e>
+  <e k="K" key="SO_CostRenown"><s>{0} Renown</s><r>{0} Известность</r></e>
+  <e k="K" key="SO_CouncilHeading"><s>Allegiance and council</s><r>Верность и совет</r></e>
+  <e k="K" key="SO_CrestClear"><s>Use allegiance sigil</s><r>Используйте знак верности</r></e>
+  <e k="K" key="SO_CrestColors"><s>Crest color</s><r>Цвет гребня</r></e>
+  <e k="K" key="SO_CrestEditTip"><s>House crest — click to edit</s><r>Герб дома — нажмите, чтобы изменить</r></e>
+  <e k="K" key="SO_CrestEditorTitle"><s>House crest</s><r>Герб дома</r></e>
+  <e k="K" key="SO_CrestIcons"><s>Crest sigil</s><r>Символ герба</r></e>
+  <e k="K" key="SO_CrownedStatus"><s>Ruling House of Silvara</s><r>Правящий дом Сильвары</r></e>
+  <e k="K" key="SO_CurrentAllegiance"><s>Current allegiance</s><r>Текущая преданность</r></e>
+  <e k="K" key="SO_DaysValue"><s>{0} days</s><r>{0} дней</r></e>
+  <e k="K" key="SO_DeclineAll"><s>Decline all</s><r>Отклонить все</r></e>
+  <e k="K" key="SO_DecreeActive"><s>Active — {0} remaining</s><r>Активно — осталось {0}</r></e>
+  <e k="K" key="SO_DefaultFamilyName"><s>Founding Line</s><r>Основополагающая линия</r></e>
+  <e k="K" key="SO_DefaultHouseholdName"><s>New Household</s><r>Новое домохозяйство</r></e>
+  <e k="K" key="SO_DefectTo"><s>Defect to {0}</s><r>Дефект до {0}</r></e>
+  <e k="K" key="SO_DevAddRenown"><s>Dev: add 100 Renown</s><r>Разработчик: добавить 100 славы</r></e>
+  <e k="K" key="SO_DevRemoveRenown"><s>Dev: remove 100 Renown</s><r>Разработчик: убрать 100 славы</r></e>
+  <e k="K" key="SO_DroneActiveLimitLabel"><s>Active / limit</s><r>Активный/лимит</r></e>
+  <e k="K" key="SO_DroneAnomalyModuleUnavailable"><s>The Anomaly DLC is required for the containment module preset.</s><r>DLC Anomaly необходим для предустановки модуля сдерживания.</r></e>
+  <e k="K" key="SO_DroneBeginFieldProject"><s>Begin field project</s><r>Начать полевой проект</r></e>
+  <e k="K" key="SO_DroneBrokenMessageV2"><s>A utility drone has been destroyed. Its bay is registered as broken and requires repair.</s><r>Служебный дрон был уничтожен. Его отсек зарегистрирован как сломанный и требует ремонта.</r></e>
+  <e k="K" key="SO_DroneCancelFieldProject"><s>Cancel field project</s><r>Отменить полевой проект</r></e>
+  <e k="K" key="SO_DroneCancelFieldProjectDesc"><s>Cancel this project, return every staged material to the ground, and re-equip the backpack when possible.</s><r>Отмените этот проект, верните все поставленные материалы на землю и переоборудуйте рюкзак, когда это возможно.</r></e>
+  <e k="K" key="SO_DroneCapacityDesc"><s>Permanent backpack controller capacity. All linked drones deploy together and share the selected combat module. A destroyed drone damages only its own bay.</s><r>Постоянная емкость контроллера рюкзака. Все связанные дроны развертываются вместе и используют выбранный боевой модуль. Уничтоженный дрон повреждает только свой отсек.</r></e>
+  <e k="K" key="SO_DroneCapacityHeading"><s>Drone bay capacity</s><r>Емкость отсека для дронов</r></e>
+  <e k="K" key="SO_DroneCapacityMaximum"><s>Maximum capacity — 4 drones</s><r>Максимальная вместимость — 4 дрона</r></e>
+  <e k="K" key="SO_DroneCapacityUpgrade"><s>Upgrade to {0} — {1} steel, {2} comp, {3} adv.</s><r>Улучшите до {0} — {1} сталь, {2} комп, {3} адв.</r></e>
+  <e k="K" key="SO_DroneCapacityValue"><s>{0} bays · {1} active · {2} damaged</s><r>{0} отсеки · {1} активный · {2} поврежденный</r></e>
+  <e k="K" key="SO_DroneConditionDisabled"><s>disabled</s><r>неполноценный</r></e>
+  <e k="K" key="SO_DroneConditionLabel"><s>Condition</s><r>Состояние</r></e>
+  <e k="K" key="SO_DroneConditionOperational"><s>operational</s><r>оперативный</r></e>
+  <e k="K" key="SO_DroneConditionSummary"><s>{0} broken, {1} disabled</s><r>{0} сломано, {1} отключено</r></e>
+  <e k="K" key="SO_DroneConfigClose"><s>Close</s><r>Закрывать</r></e>
+  <e k="K" key="SO_DroneConfigDamaged"><s>{0} damaged bay(s) — repair required</s><r>{0} поврежден(ы) отсек(и) — требуется ремонт</r></e>
+  <e k="K" key="SO_DroneConfigDeployed"><s>{0}/{1} drones deployed</s><r>{0}/{1} развернуто дронов</r></e>
+  <e k="K" key="SO_DroneConfigDescAamr"><s>Rapid heavy-caliber fire against armored targets.</s><r>Стремительный огонь крупнокалиберным оружием по бронированным целям.</r></e>
+  <e k="K" key="SO_DroneConfigDescAssaultRifle"><s>Balanced three-round bursts at medium range.</s><r>Сбалансированные трехзарядные очереди на средней дистанции.</r></e>
+  <e k="K" key="SO_DroneConfigDescFlamer"><s>Short-range flame spray against clustered threats.</s><r>Огненный распылитель ближнего действия против кластерных угроз.</r></e>
+  <e k="K" key="SO_DroneConfigDescSmg"><s>Three-round bursts for nearby infantry.</s><r>Очереди по три снаряда для ближней пехоты.</r></e>
+  <e k="K" key="SO_DroneConfigDescSniper"><s>Accurate single shots across the battlefield.</s><r>Точные одиночные выстрелы по полю боя.</r></e>
+  <e k="K" key="SO_DroneConfigDocked"><s>{0} drones docked and ready</s><r>{0} дроны пристыкованы и готовы</r></e>
+  <e k="K" key="SO_DroneConfigFooter"><s>NPC backpacks deploy only when a hostile enters the 46-cell detection radius.</s><r>Рюкзаки NPC разворачиваются только тогда, когда враг входит в радиус обнаружения в 46 ячеек.</r></e>
+  <e k="K" key="SO_DroneConfigRange"><s>Range: {0} cells</s><r>Диапазон: {0} ячеек</r></e>
+  <e k="K" key="SO_DroneConfigRoleAamr"><s>Anti-materiel</s><r>Антиматериальный</r></e>
+  <e k="K" key="SO_DroneConfigRoleAssaultRifle"><s>General purpose</s><r>Общее назначение</r></e>
+  <e k="K" key="SO_DroneConfigRoleFlamer"><s>Area denial</s><r>Запрет области</r></e>
+  <e k="K" key="SO_DroneConfigRoleSmg"><s>Close defense</s><r>Близкая защита</r></e>
+  <e k="K" key="SO_DroneConfigRoleSniper"><s>Precision overwatch</s><r>Точность наблюдения</r></e>
+  <e k="K" key="SO_DroneConfigSelect"><s>Select module</s><r>Выберите модуль</r></e>
+  <e k="K" key="SO_DroneConfigSelected"><s>Selected</s><r>Выбрано</r></e>
+  <e k="K" key="SO_DroneConfigSharedSubtitle"><s>Every active bay on this backpack shares this module configuration and job order.</s><r>Каждый активный отсек этого рюкзака имеет общую конфигурацию модуля и порядок работы.</r></e>
+  <e k="K" key="SO_DroneConfigShieldDocked"><s>{0} built-in shields ready</s><r>{0} готовы встроенные щиты</r></e>
+  <e k="K" key="SO_DroneConfigShieldEnergy"><s>{0} / {1} energy</s><r>{0} / {1} энергия</r></e>
+  <e k="K" key="SO_DroneConfigShieldHeading"><s>Stagward</s><r>Стагвард</r></e>
+  <e k="K" key="SO_DroneConfigShieldReset"><s>Resetting — {0} seconds</s><r>Сброс — {0} секунд.</r></e>
+  <e k="K" key="SO_DroneConfigStatusHeading"><s>Deployment</s><r>Развертывание</r></e>
+  <e k="K" key="SO_DroneConfigSubtitle"><s>Upgrade backpack capacity and select one shared combat module. Every drone retains medical, firefighting and Stagward support.</s><r>Увеличьте вместимость рюкзака и выберите один общий боевой модуль. Каждый дрон имеет медицинскую, противопожарную и Stagward поддержку.</r></e>
+  <e k="K" key="SO_DroneConfigSupportHeading"><s>Support priority</s><r>Приоритет поддержки</r></e>
+  <e k="K" key="SO_DroneConfigSupportValue"><s>Bleeding → combat → fires → treatment → repairs → hauling</s><r>Прокачка → борьба → пожары → лечение → ремонт → вывозка</r></e>
+  <e k="K" key="SO_DroneConfigTitle"><s>Utility drone command suite</s><r>Командный комплект служебного дрона</r></e>
+  <e k="K" key="SO_DroneConfigTitleV2"><s>Utility drone command lattice</s><r>Командная решетка служебного дрона</r></e>
+  <e k="K" key="SO_DroneConfigWarmup"><s>Mobile aim: {0} seconds</s><r>Мобильное прицеливание: {0} секунд.</r></e>
+  <e k="K" key="SO_DroneConfigWeaponsHeading"><s>Shared combat module</s><r>Общий боевой модуль</r></e>
+  <e k="K" key="SO_DroneConfigure"><s>Configure drone squadron</s><r>Настройка эскадрильи дронов</r></e>
+  <e k="K" key="SO_DroneConfigureDesc"><s>Select the squadron's shared weapon and purchase permanent bay upgrades. Current weapon: {0}. Medical foam and home-zone firefighting remain active.</s><r>Выберите общее оружие эскадрильи и приобретите постоянные улучшения отсека. Текущее оружие: {0}. Медицинская пена и пожаротушение в жилых зонах продолжаются.</r></e>
+  <e k="K" key="SO_DroneConfigureDescV2"><s>Open the shared module, bay, condition and job-priority interface for every drone attached to this backpack.</s><r>Откройте общий интерфейс модуля, отсека, состояния и приоритета работы для каждого дрона, прикрепленного к этому рюкзаку.</r></e>
+  <e k="K" key="SO_DroneConnectionActive"><s>active — linked to {0}</s><r>активный — связан с {0}</r></e>
+  <e k="K" key="SO_DroneConnectionGood"><s>stable</s><r>стабильный</r></e>
+  <e k="K" key="SO_DroneConnectionLabel"><s>Connection</s><r>Связь</r></e>
+  <e k="K" key="SO_DroneConnectionLost"><s>connection lost</s><r>соединение потеряно</r></e>
+  <e k="K" key="SO_DroneConnectionNone"><s>no operator</s><r>нет оператора</r></e>
+  <e k="K" key="SO_DroneConnectionWeak"><s>weak — {0} is downed</s><r>слабый — {0} сбит</r></e>
+  <e k="K" key="SO_DroneConnectionWeakShort"><s>weak — operator downed</s><r>слабый — оператор сбит</r></e>
+  <e k="K" key="SO_DroneContainEntity"><s>Contain with drone</s><r>Сдерживать с помощью дрона</r></e>
+  <e k="K" key="SO_DroneContainEntityDesc"><s>Order the nearest available drone with an anomaly containment module to secure this downed entity temporarily.</s><r>Закажите ближайший доступный дрон с модулем сдерживания аномалий, чтобы временно обезопасить сбитую сущность.</r></e>
+  <e k="K" key="SO_DroneContainedEntityLabel"><s>Contained entity</s><r>Содержащаяся сущность</r></e>
+  <e k="K" key="SO_DroneContainedNone"><s>none</s><r>никто</r></e>
+  <e k="K" key="SO_DroneContainmentReleased"><s>Emergency containment failed. {0} has been released.</s><r>Экстренное сдерживание не удалось. {0} выпущен.</r></e>
+  <e k="K" key="SO_DroneCurrentWeaponLabel"><s>Weapon</s><r>Оружие</r></e>
+  <e k="K" key="SO_DroneDeploy"><s>Deploy drone squadron</s><r>Развертывание эскадрильи дронов</r></e>
+  <e k="K" key="SO_DroneDeployDesc"><s>Launch every operational drone in this backpack's {0}-bay controller.</s><r>Запускайте всех действующих дронов с помощью контроллера отсека {0} этого рюкзака.</r></e>
+  <e k="K" key="SO_DroneDeployedMessage"><s>{0} utility drone(s) deployed with {1}.</s><r>{0} служебные дроны развернуты с помощью {1}.</r></e>
+  <e k="K" key="SO_DroneDeployedMessageV2"><s>{0} drone(s) deployed with the {1}.</s><r>{0} дронов развернуто с помощью {1}.</r></e>
+  <e k="K" key="SO_DroneEnabledWorkCombatOnly"><s>combat only</s><r>только бой</r></e>
+  <e k="K" key="SO_DroneEnabledWorkLabel"><s>Enabled work</s><r>Включена работа</r></e>
+  <e k="K" key="SO_DroneEnabledWorkUtility"><s>hauling and construction</s><r>перевозки и строительство</r></e>
+  <e k="K" key="SO_DroneFieldDropFailed"><s>The wearer could not remove and place the backpack for field work.</s><r>Владелец не мог снять и положить рюкзак для полевых работ.</r></e>
+  <e k="K" key="SO_DroneFieldJobFailed"><s>The field project could not start. Staged materials were returned and the backpack was re-equipped.</s><r>Полевой проект не смог начаться. Постановочные материалы были возвращены, а рюкзак переоборудован.</r></e>
+  <e k="K" key="SO_DroneFieldMaterialsMissing"><s>Missing reachable material: {0} × {1} is required.</s><r>Отсутствует доступный материал: требуется {0} × {1}.</r></e>
+  <e k="K" key="SO_DroneFieldPlanChanged"><s>The backpack configuration changed after this project was selected. Select the upgrade again.</s><r>Конфигурация рюкзака изменилась после выбора этого проекта. Выберите обновление еще раз.</r></e>
+  <e k="K" key="SO_DroneFieldProject"><s>Drone field project</s><r>Полевой проект дронов</r></e>
+  <e k="K" key="SO_DroneFieldProjectAlreadyActive"><s>{0} is already in progress on this backpack.</s><r>{0} уже работает над этим рюкзаком.</r></e>
+  <e k="K" key="SO_DroneFieldProjectDesc"><s>The wearer will recall every drone, remove the backpack, collect and stage these exact materials, then perform a visible field-crafting operation. Materials are consumed only when the work completes.</s><r>Владелец вызовет каждый дрон, снимет рюкзак, соберет и разместит именно эти материалы, а затем выполнит видимую операцию по сборке в полевых условиях. Материалы расходуются только после завершения работы.</r></e>
+  <e k="K" key="SO_DroneFieldProjectInspect"><s>Field project: {0} ({1}% complete)</s><r>Полевой проект: {0} ({1}% завершено)</r></e>
+  <e k="K" key="SO_DroneFieldProjectInvalid"><s>This field project is no longer valid.</s><r>Этот полевой проект больше не действителен.</r></e>
+  <e k="K" key="SO_DroneFieldResumeFailed"><s>The original wearer cannot resume this field project right now.</s><r>Первоначальный владелец не может возобновить этот полевой проект прямо сейчас.</r></e>
+  <e k="K" key="SO_DroneFieldWorkTime"><s>Estimated base field-work time: {0} seconds. Crafting speed modifies the actual duration.</s><r>Расчетное базовое время полевых работ: {0} секунд. Скорость крафта изменяет фактическую продолжительность.</r></e>
+  <e k="K" key="SO_DroneFieldWorkerCarrying"><s>The backpack wearer must finish carrying their current item first.</s><r>Владелец рюкзака должен сначала закончить перенос текущего предмета.</r></e>
+  <e k="K" key="SO_DroneFieldWorkerIncapable"><s>The backpack wearer must be conscious and capable of manipulation.</s><r>Владелец рюкзака должен быть в сознании и способен манипулировать.</r></e>
+  <e k="K" key="SO_DroneFieldWorkerUnavailable"><s>The original wearer is unavailable, downed, dead, or on another map.</s><r>Первоначальный владелец недоступен, сбит, мертв или находится на другой карте.</r></e>
+  <e k="K" key="SO_DroneFoamTendedMote"><s>Foam sealed</s><r>Пенопластовый уплотнитель</r></e>
+  <e k="K" key="SO_DroneGlobalSettingsTitle"><s>Global utility drone settings</s><r>Глобальные настройки вспомогательного дрона</r></e>
+  <e k="K" key="SO_DroneHealingResourceLabel"><s>Lowest foam charges</s><r>Самые низкие расходы на пену</r></e>
+  <e k="K" key="SO_DroneInspect"><s>Squadron: {0}
+Weapon: {1}
+Active/capacity: {2}/{3}
+Support: medical foam, home-zone firefighting, repairs, hauling, and 20% direct ranged evasion</s><r>Эскадрилья: {0}
+Оружие: {1}
+Активная/вместимость: {2}/{3}
+Поддержка: медицинская пена, пожаротушение в домашней зоне, ремонт, транспортировка и 20% уклонение от прямого попадания.</r></e>
+  <e k="K" key="SO_DroneInspectV2"><s>{0}
+Weapon: {1}
+Module slots: {2} / {3}
+Active drones: {4} / {5}</s><r>{0}
+Оружие: {1}
+Слоты модулей: {2} / {3}
+Активные дроны: {4} / {5}</r></e>
+  <e k="K" key="SO_DroneInstallCostNone"><s>No installation materials</s><r>Нет монтажных материалов</r></e>
+  <e k="K" key="SO_DroneInstallCostPrefix"><s>Install: </s><r>Установить: </r></e>
+  <e k="K" key="SO_DroneInstalledModulesHeading"><s>Installed shared modules</s><r>Установленные общие модули</r></e>
+  <e k="K" key="SO_DroneJobName_Combat"><s>Combat</s><r>Бой</r></e>
+  <e k="K" key="SO_DroneJobName_Construction"><s>Construction</s><r>Строительство</r></e>
+  <e k="K" key="SO_DroneJobName_ContainmentTransfer"><s>Containment transfer</s><r>Перенос содержания</r></e>
+  <e k="K" key="SO_DroneJobName_Hauling"><s>Hauling</s><r>Перевозка</r></e>
+  <e k="K" key="SO_DroneJobName_Healing"><s>Critical medical foam</s><r>Критическая медицинская пена</r></e>
+  <e k="K" key="SO_DroneJobName_Idle"><s>Idle near operator</s><r>Ожидание рядом с оператором</r></e>
+  <e k="K" key="SO_DroneJobOff"><s>Off</s><r>Выключенный</r></e>
+  <e k="K" key="SO_DroneJobOn"><s>On</s><r>На</r></e>
+  <e k="K" key="SO_DroneJobPrioritiesHeading"><s>Autonomous job priorities</s><r>Автономные приоритеты работы</r></e>
+  <e k="K" key="SO_DroneMagazineStatus"><s>Magazines needing reload: {0} / {1} • {2} rounds each</s><r>Магазины, требующие перезарядки: {0} / {1} • {2} патронов каждый</r></e>
+  <e k="K" key="SO_DroneMagazinesFull"><s>Every sealed drone magazine is already full.</s><r>Все запечатанные магазины для дронов уже заполнены.</r></e>
+  <e k="K" key="SO_DroneMagazinesReloaded"><s>{0} sealed drone magazine(s) reloaded to {1} rounds.</s><r>{0} запечатанных магазинов для дронов перезаряжено на {1} патронов.</r></e>
+  <e k="K" key="SO_DroneMaterialAvailable"><s>Required {0} • reachable {1}</s><r>Требуется {0} • доступен {1}</r></e>
+  <e k="K" key="SO_DroneModeAAMR"><s>AAMR-50 anti-materiel rifle</s><r>Противоматериальная винтовка ААМР-50</r></e>
+  <e k="K" key="SO_DroneModeAssaultRifle"><s>Assault rifle</s><r>Штурмовая винтовка</r></e>
+  <e k="K" key="SO_DroneModeChanged"><s>Utility drone weapon changed to {0}.</s><r>Оружие вспомогательного дрона изменено на {0}.</r></e>
+  <e k="K" key="SO_DroneModeFlamer"><s>Flamethrower</s><r>Огнемет</r></e>
+  <e k="K" key="SO_DroneModeSMG"><s>Heavy SMG</s><r>Тяжелый пистолет-пулемет</r></e>
+  <e k="K" key="SO_DroneModeSelected"><s>{0} — selected</s><r>{0} — выбрано</r></e>
+  <e k="K" key="SO_DroneModeSniper"><s>Sniper rifle</s><r>Снайперская винтовка</r></e>
+  <e k="K" key="SO_DroneModuleInstall"><s>Install</s><r>Установить</r></e>
+  <e k="K" key="SO_DroneModuleInstalled"><s>{0} installed. Installation materials were consumed.</s><r>{0} установлено. Монтажные материалы были израсходованы.</r></e>
+  <e k="K" key="SO_DroneModuleMaterialsMissing"><s>The operator cannot reach all materials required to install this module configuration.</s><r>Оператор не может получить доступ ко всем материалам, необходимым для установки данной конфигурации модуля.</r></e>
+  <e k="K" key="SO_DroneModuleRemove"><s>Remove</s><r>Удалять</r></e>
+  <e k="K" key="SO_DroneModuleRemoved"><s>{0} removed. Removed modules do not refund installation materials.</s><r>{0} удалено. Удаленные модули не возвращают деньги за установочные материалы.</r></e>
+  <e k="K" key="SO_DroneModuleSlotsInsufficient"><s>The backpack does not have enough shared module slots for that configuration.</s><r>В рюкзаке недостаточно слотов для общих модулей для такой конфигурации.</r></e>
+  <e k="K" key="SO_DroneModuleSlotsLabel"><s>Slots</s><r>Слоты</r></e>
+  <e k="K" key="SO_DroneModulesRecallFirst"><s>Recall every drone before changing the backpack's shared modules.</s><r>Прежде чем менять общие модули рюкзака, вызовите каждый дрон.</r></e>
+  <e k="K" key="SO_DroneNoContainmentDestination"><s>No available containment structure can receive this entity.</s><r>Никакая доступная структура сдерживания не может принять этот объект.</r></e>
+  <e k="K" key="SO_DroneNoContainmentDrone"><s>No deployed player drone with an empty anomaly containment module can reach this entity.</s><r>Ни один развернутый дрон игрока с пустым модулем сдерживания аномалии не сможет добраться до этого объекта.</r></e>
+  <e k="K" key="SO_DroneNoProjectMaterials"><s>No additional materials are required for this configuration change.</s><r>Для этого изменения конфигурации не требуются дополнительные материалы.</r></e>
+  <e k="K" key="SO_DroneOpenGlobalSettings"><s>Drone settings</s><r>Настройки дрона</r></e>
+  <e k="K" key="SO_DroneOperatorLabel"><s>Operator</s><r>Оператор</r></e>
+  <e k="K" key="SO_DronePresetApplied"><s>{0} drone preset applied. Materials for newly installed modules were consumed.</s><r>{0} применена предустановка дрона. Израсходованы материалы для вновь установленных модулей.</r></e>
+  <e k="K" key="SO_DronePreset_Anomaly"><s>Anomaly</s><r>Аномалия</r></e>
+  <e k="K" key="SO_DronePreset_Balanced"><s>Balanced</s><r>Сбалансированный</r></e>
+  <e k="K" key="SO_DronePreset_Combat"><s>Combat</s><r>Бой</r></e>
+  <e k="K" key="SO_DronePreset_Medic"><s>Medic</s><r>Медик</r></e>
+  <e k="K" key="SO_DronePreset_Utility"><s>Utility</s><r>Утилита</r></e>
+  <e k="K" key="SO_DronePresetsHeading"><s>Loadout presets</s><r>Пресеты загрузки</r></e>
+  <e k="K" key="SO_DronePrioritySafetyNote"><s>Direct orders, emergency retreat, active containment and immediate operator defense always override this ordinary-work list.</s><r>Прямые приказы, аварийное отступление, активное сдерживание и немедленная защита операторов всегда имеют приоритет над этим списком обычных работ.</r></e>
+  <e k="K" key="SO_DroneProjectCapacityTitle"><s>Build drone bay {0}</s><r>Построить отсек для дронов {0}</r></e>
+  <e k="K" key="SO_DroneProjectPresetTitle"><s>Configure {0} preset</s><r>Настроить предустановку {0}</r></e>
+  <e k="K" key="SO_DroneProjectReloadTitle"><s>Reload {0} drone magazine(s)</s><r>Перезагрузить {0} журнал(ы) для дронов.</r></e>
+  <e k="K" key="SO_DroneProjectRepairTitle"><s>Repair one drone bay</s><r>Отремонтировать один отсек для дронов</r></e>
+  <e k="K" key="SO_DroneProjectSupportTitle"><s>Install {0}</s><r>Установить {0}</r></e>
+  <e k="K" key="SO_DroneProjectWeaponTitle"><s>Install {0}</s><r>Установить {0}</r></e>
+  <e k="K" key="SO_DroneRangedDodgeMote"><s>Evaded</s><r>Уклонился</r></e>
+  <e k="K" key="SO_DroneReassignOperator"><s>Reassign operator</s><r>Переназначить оператора</r></e>
+  <e k="K" key="SO_DroneReassignOperatorDesc"><s>Reconnect this disabled drone to {0}. The backpack and drone must be on the same map.</s><r>Снова подключите отключенный дрон к {0}. Рюкзак и дрон должны находиться на одной карте.</r></e>
+  <e k="K" key="SO_DroneRecall"><s>Recall utility drones</s><r>Вспомните служебные дроны</r></e>
+  <e k="K" key="SO_DroneRecallDesc"><s>Recall and dock this backpack's deployed drone squadron.</s><r>Вызовите и пристыкуйте развернутую в этом рюкзаке эскадрилью дронов.</r></e>
+  <e k="K" key="SO_DroneRecalledMessageV2"><s>All drones have returned to their backpack bays.</s><r>Все дроны вернулись в свои рюкзаки.</r></e>
+  <e k="K" key="SO_DroneReleaseContained"><s>Release contained entity</s><r>Освободить содержащуюся сущность</r></e>
+  <e k="K" key="SO_DroneReleaseContainedDesc"><s>Safely release the contained entity at the drone's current position.</s><r>Безопасно освободите содержащуюся сущность в текущей позиции дрона.</r></e>
+  <e k="K" key="SO_DroneReloadMagazines"><s>Reload sealed magazines — {0}</s><r>Перезарядить запечатанные магазины — {0}.</r></e>
+  <e k="K" key="SO_DroneRepair"><s>Repair drone</s><r>Ремонт дрона</r></e>
+  <e k="K" key="SO_DroneRepairCollecting"><s>{0} is collecting an industrial component for drone repair.</s><r>{0} собирает промышленный компонент для ремонта дронов.</r></e>
+  <e k="K" key="SO_DroneRepairComplete"><s>Drone bay repaired. Damaged bays remaining: {0}.</s><r>Отсек для дронов отремонтирован. Осталось поврежденных отсеков: {0}.</r></e>
+  <e k="K" key="SO_DroneRepairDesc"><s>Restore one damaged drone bay with one industrial component. If the wearer does not carry one, they will collect the nearest reachable component first.</s><r>Восстановите один поврежденный отсек для дронов с помощью одного промышленного компонента. Если у владельца его нет, он сначала соберет ближайший доступный компонент.</r></e>
+  <e k="K" key="SO_DroneRepairDescV2"><s>Begin a field repair for one broken drone bay. The operator recalls the squadron, drops the backpack, collects exactly {0} industrial component by default, performs the repair, then re-equips the pack.</s><r>Начните полевой ремонт одного сломанного отсека для дронов. Оператор отзывает отряд, сбрасывает рюкзак, собирает ровно {0} промкомпонент по умолчанию, выполняет ремонт, затем переоснащает пак.</r></e>
+  <e k="K" key="SO_DroneRepairNoComponent"><s>No reachable industrial component is available.</s><r>Доступных промышленных компонентов нет.</r></e>
+  <e k="K" key="SO_DroneRepairRequired"><s>{0} drone bay(s) require repair. Each costs one industrial component.</s><r>{0} отсеки для дронов требуют ремонта. Каждый стоит один промышленный компонент.</r></e>
+  <e k="K" key="SO_DroneReplacementCooldown"><s>Replacement drone ready in approximately {0} hours.</s><r>Замена дрона будет готова примерно через {0} часов.</r></e>
+  <e k="K" key="SO_DroneRequiredMaterials"><s>Required materials</s><r>Необходимые материалы</r></e>
+  <e k="K" key="SO_DroneResumeFieldProject"><s>Resume field project</s><r>Возобновить полевой проект</r></e>
+  <e k="K" key="SO_DroneResumeFieldProjectDesc"><s>Resume {0}. Current work progress: {1}%.</s><r>Резюме {0}. Текущий прогресс работ: {1}%.</r></e>
+  <e k="K" key="SO_DroneRuntimeInspect"><s>Condition: {0}
+Operator connection: {1}
+Healing charges: {2}
+Weapon ammunition: {3}
+Weapon heat: {4}
+Stagward: {5}
+Contained entity: {6}</s><r>Состояние: {0}
+Соединение оператора: {1}
+Лечебные заряды: {2}
+Боеприпасы для оружия: {3}
+Нагрев оружия: {4}
+Стагвард: {5}
+Содержащийся объект: {6}</r></e>
+  <e k="K" key="SO_DroneSettingAnomalyInterval"><s>Anomaly scan interval: {0} seconds</s><r>Интервал сканирования аномалий: {0} секунд.</r></e>
+  <e k="K" key="SO_DroneSettingContainment"><s>Temporary containment strength: {0}</s><r>Временная прочность сдерживания: {0}</r></e>
+  <e k="K" key="SO_DroneSettingDebug"><s>Drone debug logging</s><r>Журнал отладки дронов</r></e>
+  <e k="K" key="SO_DroneSettingDebugTip"><s>Logs disabled third-party work scanners and migration diagnostics. Disabled by default.</s><r>Журналы отключают сторонние сканеры работы и диагностику миграции. По умолчанию отключено.</r></e>
+  <e k="K" key="SO_DroneSettingDetection"><s>Player detection range: {0} cells</s><r>Диапазон обнаружения игрока: {0} ячеек</r></e>
+  <e k="K" key="SO_DroneSettingDetectionStrength"><s>Anomaly detection strength: {0}×</s><r>Сила обнаружения аномалий: {0}×</r></e>
+  <e k="K" key="SO_DroneSettingEvasion"><s>Direct ranged evasion: {0}</s><r>Прямое уклонение от дальнего боя: {0}</r></e>
+  <e k="K" key="SO_DroneSettingHealCharges"><s>Maximum foam charges: {0}</s><r>Максимальный заряд пены: {0}</r></e>
+  <e k="K" key="SO_DroneSettingHealCooldown"><s>Foam charge recovery: {0} seconds</s><r>Восстановление заряда пеной: {0} секунд.</r></e>
+  <e k="K" key="SO_DroneSettingHoverDensity"><s>Hover effect density: {0}</s><r>Плотность эффекта при наведении: {0}</r></e>
+  <e k="K" key="SO_DroneSettingMarkerOpacity"><s>Target marker opacity: {0}</s><r>Target непрозрачность маркера: {0}</r></e>
+  <e k="K" key="SO_DroneSettingMax"><s>Maximum drones per operator: {0}</s><r>Максимальное количество дронов на оператора: {0}</r></e>
+  <e k="K" key="SO_DroneSettingMovePenalty"><s>Moving-fire accuracy multiplier: {0}</s><r>Множитель точности движущегося огня: {0}</r></e>
+  <e k="K" key="SO_DroneSettingNpcRange"><s>NPC deployment range: {0} cells</s><r>Дальность развертывания NPC: {0} ячеек</r></e>
+  <e k="K" key="SO_DroneSettingNpcRecall"><s>NPC recall delay: {0} seconds</s><r>Задержка отзыва NPC: {0} секунд.</r></e>
+  <e k="K" key="SO_DroneSettingOperatorGrace"><s>Operator-loss response period: {0} seconds</s><r>Период реакции при потере оператора: {0} секунд.</r></e>
+  <e k="K" key="SO_DroneSettingPerformance"><s>Performance mode</s><r>Режим производительности</r></e>
+  <e k="K" key="SO_DroneSettingPerformanceTip"><s>Reduces scanner segments and hover effects while retaining the same AI scan schedule.</s><r>Уменьшает сегменты сканера и эффекты наведения, сохраняя при этом тот же график сканирования AI.</r></e>
+  <e k="K" key="SO_DroneSettingScannerDensity"><s>Scanner effect density: {0}</s><r>Плотность эффекта сканера: {0}</r></e>
+  <e k="K" key="SO_DroneSettingsHeading"><s>NPC utility drones</s><r>NPC-служебные дроны</r></e>
+  <e k="K" key="SO_DroneShieldEnergy"><s>{0} / {1} energy</s><r>{0} / {1} энергия</r></e>
+  <e k="K" key="SO_DroneShieldOffline"><s>module not installed</s><r>модуль не установлен</r></e>
+  <e k="K" key="SO_DroneShieldResetting"><s>resetting — {0}s</s><r>сброс — {0}с</r></e>
+  <e k="K" key="SO_DroneShieldResourceLabel"><s>Lowest Stagward</s><r>Самый низкий стагвард</r></e>
+  <e k="K" key="SO_DroneStateDamaged"><s>{0} damaged bay(s) — repair required</s><r>{0} поврежден(ы) отсек(и) — требуется ремонт</r></e>
+  <e k="K" key="SO_DroneStateDeployed"><s>{0}/{1} deployed</s><r>{0}/{1} развернуто</r></e>
+  <e k="K" key="SO_DroneStateDocked"><s>{0}-bay squadron docked</s><r>Эскадрилья {0}-отсека пристыкована</r></e>
+  <e k="K" key="SO_DroneStatusHeadingV2"><s>Squadron status</s><r>Статус эскадрильи</r></e>
+  <e k="K" key="SO_DroneSupportModuleLabel"><s>Support</s><r>Поддерживать</r></e>
+  <e k="K" key="SO_DroneSupportModulesHeadingV2"><s>Support modules</s><r>Поддержка модулей</r></e>
+  <e k="K" key="SO_DroneTransferContained"><s>Transfer contained entity</s><r>Передача содержащегося объекта</r></e>
+  <e k="K" key="SO_DroneTransferContainedDesc"><s>Move to the best available holding platform and transfer the real contained entity into it.</s><r>Перейдите на лучшую доступную платформу хранения и перенесите в нее реальную содержащуюся сущность.</r></e>
+  <e k="K" key="SO_DroneUnavailableOffMap"><s>The wearer must be present on a map.</s><r>Владелец должен присутствовать на карте.</r></e>
+  <e k="K" key="SO_DroneUpgradeComplete"><s>Utility drone backpack permanently upgraded to {0} bays.</s><r>Рюкзак для служебных дронов постоянно модернизирован до {0} отсеков.</r></e>
+  <e k="K" key="SO_DroneUpgradeMissing"><s>Upgrade requires {0} Silvaran Steel, {1} industrial components and {2} advanced components in reachable, unforbidden stacks.</s><r>Для обновления требуются {0} Сильваранская сталь, {1} промышленные компоненты и {2} продвинутые компоненты в доступных, незапрещённых стопках.</r></e>
+  <e k="K" key="SO_DroneUpgradeMissingV2"><s>The required upgrade materials are not available to the operator.</s><r>Необходимые материалы для обновления недоступны оператору.</r></e>
+  <e k="K" key="SO_DroneUpgradePrefix"><s>Upgrade: </s><r>Обновление: </r></e>
+  <e k="K" key="SO_DroneWeaponApLine"><s>Armour penetration: {0}</s><r>Бронепробиваемость: {0}</r></e>
+  <e k="K" key="SO_DroneWeaponBurstLine"><s>Burst: {0}</s><r>Взрыв: {0}</r></e>
+  <e k="K" key="SO_DroneWeaponDamageLine"><s>Damage: {0}</s><r>Урон: {0}</r></e>
+  <e k="K" key="SO_DroneWeaponModulesHeadingV2"><s>Interchangeable weapon module</s><r>Сменный модуль вооружения</r></e>
+  <e k="K" key="SO_DroneWeaponMoveLine"><s>Moving accuracy: {0}</s><r>Точность перемещения: {0}</r></e>
+  <e k="K" key="SO_DroneWeaponRangeLine"><s>Range: {0}</s><r>Диапазон: {0}</r></e>
+  <e k="K" key="SO_EditCrest"><s>Edit house crest</s><r>Изменить герб дома</r></e>
+  <e k="K" key="SO_EnableHouseholdPolitics"><s>Enable Household politics</s><r>Включить домашнюю политику</r></e>
+  <e k="K" key="SO_EnableHouseholdPoliticsDesc"><s>Off by default. When enabled, adds the Household tab: Renown, internal ranks, knighthood and mentorship, retinues, patron services, recruitment and marriage, diplomacy, the day-two allegiance offer and the claim to the crown.
+
+While disabled, the Houses, their gear, assault pods and the House war all still work — your colony simply never swears allegiance, and each warfront or home battle lets you choose which House to support. All Household progress is preserved and returns if you switch this back on.</s><r>По умолчанию выключено. При включении добавляется вкладка «Семья»: слава, внутренние звания, рыцарство и наставничество, свита, покровительственные услуги, вербовка и брак, дипломатия, предложение верности на второй день и претензии на корону. вы выбираете, какой Дом поддерживать. Весь прогресс в домашнем хозяйстве сохраняется и возвращается, если вы снова включите его.</r></e>
+  <e k="K" key="SO_EnableNpcUtilityDrones"><s>Enable NPC utility drones</s><r>Включить вспомогательные дроны NPC</r></e>
+  <e k="K" key="SO_EnableNpcUtilityDronesDesc"><s>Controls utility drones carried by non-player pawns. Disabling this recalls deployed NPC squadrons without damaging their bays and blocks further NPC deployment until re-enabled. Player-owned drones always remain available.</s><r>Управляет служебными дронами, которые несут неигровые пешки. Отключение этого параметра вызывает отзыв развернутых эскадрилий NPC, не повреждая их отсеки, и блокирует дальнейшее развертывание NPC до повторного включения. Дроны, принадлежащие игроку, всегда остаются доступными.</r></e>
+  <e k="K" key="SO_FactionName"><s>Faction name</s><r>Название фракции</r></e>
+  <e k="K" key="SO_FamilyName"><s>Family name</s><r>Фамилия</r></e>
+  <e k="K" key="SO_FinalBattleActive"><s>Final claim battle underway</s><r>Идет финальная битва за претензии</r></e>
+  <e k="K" key="SO_FinalClaimBattleLabel"><s>The final claim battle</s><r>Финальная битва за претензии</r></e>
+  <e k="K" key="SO_FinalClaimBattleText"><s>Your Household has issued its final challenge. Armies from Silvara and Ashenhall move upon the colony together. Defeat both forces to secure the crown.</s><r>Ваша семья бросила последнее испытание. Армии Сильвары и Ашенхолла вместе двинулись на колонию. Победите обе силы, чтобы закрепить корону.</r></e>
+  <e k="K" key="SO_FormerPatronBlocked"><s>Former patron cannot be rejoined</s><r>Бывший патрон не может быть повторно присоединен</r></e>
+  <e k="K" key="SO_HomeBattleAbstainChoice"><s>Stand aside and let the houses fight</s><r>Отойдите в сторону и позвольте домам сражаться</r></e>
+  <e k="K" key="SO_HomeBattleOfferLabel"><s>The house war comes home</s><r>Домашняя война возвращается домой</r></e>
+  <e k="K" key="SO_HomeBattleOfferText"><s>Thirty Silvaran soldiers and thirty Ashenhall soldiers are establishing opposing lines on this settlement map. Autonomous fieldworks pods are descending to assemble trenches, sandbags and razor wire without builders or supplies; artillery ranging shots will begin once both formations deploy.
+
+The armies deploy in two hours. An independent Household may grant one side a temporary battlefield truce; a sworn Household may support only its patron. You may also stand aside, but the battle will still be fought across the colony map.</s><r>Тридцать солдат Сильварана и тридцать солдат Ашенхолла выстраивают противоположные линии на этой карте поселения. Автономные полевые капсулы спускаются, чтобы собирать траншеи, мешки с песком и колючую проволоку без строителей и материалов; Артиллерийские прицельные выстрелы начнутся после развертывания обоих формирований.
+
+Армии развернутся через два часа. Независимый Дом может предоставить одной стороне временное перемирие на поле боя; присяжный дом может поддерживать только своего покровителя. Вы также можете остаться в стороне, но битва все равно будет идти на карте колонии.</r></e>
+  <e k="K" key="SO_HomeBattleResolvedLabel"><s>The battle at the settlement is over</s><r>Бой у поселения окончен</r></e>
+  <e k="K" key="SO_HomeBattleResolvedText"><s>{0} has broken the opposing thirty-soldier formation. Your Household's declared support was for {1}. Surviving house troops are leaving the map; the trenches and battlefield damage remain.</s><r>{0} сломал строй противника из тридцати солдат. Заявленная поддержка вашей семьи составила {1}. Выжившие домашние войска покидают карту; траншеи и повреждения на поле боя остались.</r></e>
+  <e k="K" key="SO_HomeBattleSupportChoice"><s>Fight beside {0}</s><r>Сражайтесь рядом с {0}</r></e>
+  <e k="K" key="SO_HouseAssistanceHeading"><s>Patron-house assistance</s><r>Патронатная помощь</r></e>
+  <e k="K" key="SO_HouseBattleExtractionBegins"><s>The battle is decided. Surviving soldiers are recovering their wounded and dead, taking downed enemy soldiers prisoner, and withdrawing from the map.</s><r>Битва решена. Выжившие солдаты подбирают раненых и убитых, берут в плен сбитых солдат противника и уходят с карты.</r></e>
+  <e k="K" key="SO_HouseBuffApplied"><s>{0} is now in force across the Household.</s><r>{0} теперь действует во всей семье.</r></e>
+  <e k="K" key="SO_HouseBuffCourt"><s>Courtly audience</s><r>Придворная публика</r></e>
+  <e k="K" key="SO_HouseBuffCourtDesc"><s>All free colonists gain Social Impact and Negotiation Ability for five days.</s><r>Все свободные колонисты получают социальное влияние и способность к ведению переговоров на пять дней.</r></e>
+  <e k="K" key="SO_HouseBuffDrill"><s>Marshal's drill</s><r>Маршальское учение</r></e>
+  <e k="K" key="SO_HouseBuffDrillDesc"><s>All free colonists gain Move Speed and Melee Dodge Chance for five days.</s><r>Все свободные колонисты получают скорость передвижения и шанс уклонения в ближнем бою на пять дней.</r></e>
+  <e k="K" key="SO_HouseBuffIndustry"><s>Steward's industry</s><r>Стюардская индустрия</r></e>
+  <e k="K" key="SO_HouseBuffIndustryDesc"><s>All free colonists gain +10% Global Work Speed for five days.</s><r>Все свободные колонисты получают +10% к глобальной скорости работы на пять дней.</r></e>
+  <e k="K" key="SO_HouseBuffsHeading"><s>Household decrees</s><r>Хозяйственные указы</r></e>
+  <e k="K" key="SO_HouseReinforcementsCalled"><s>{0} has called for reinforcements. One drop pod carrying {1} additional soldiers is inbound.</s><r>{0} вызвал подкрепление. Прибывает одна десантная капсула с {1} дополнительными солдатами.</r></e>
+  <e k="K" key="SO_HouseWeaponSettingsHeading"><s>House faction weapons</s><r>Оружие фракции дома</r></e>
+  <e k="K" key="SO_HouseholdSettingsHeading"><s>Household politics</s><r>Бытовая политика</r></e>
+  <e k="K" key="SO_HouseholdSubtitle"><s>House {0} • {1}</s><r>Дом {0} • {1}</r></e>
+  <e k="K" key="SO_HouseholdUnavailable"><s>The Household ledger is unavailable until a world has been created.</s><r>Журнал домохозяйств недоступен до тех пор, пока мир не будет создан.</r></e>
+  <e k="K" key="SO_IdentityHeading"><s>House identity</s><r>Айдентика дома</r></e>
+  <e k="K" key="SO_KnighthoodLetterLabel"><s>{SQUIRE_nameFull} is knighted</s><r>{SQUIRE_nameFull} посвящен в рыцари</r></e>
+  <e k="K" key="SO_KnighthoodLetterText"><s>After long service and close instruction, {KNIGHT_nameFull} bestows the Household title of Knight upon {SQUIRE_nameFull}. The new knight may now lead a retinue or train a squire of their own.</s><r>После долгой службы и тщательного обучения {KNIGHT_nameFull} дарует {SQUIRE_nameFull} домашний титул Рыцаря. Новый рыцарь теперь может возглавить свиту или обучить собственного оруженосца.</r></e>
+  <e k="K" key="SO_LifetimeRenown"><s>Lifetime Renown</s><r>Пожизненная известность</r></e>
+  <e k="K" key="SO_MarriageCompletedLabel"><s>A noble marriage is sealed</s><r>Благородный брак заключен</r></e>
+  <e k="K" key="SO_MarriageCompletedText"><s>{PAWN_nameFull} has left the colony and married into {FACTION_name}. The union adds prestige to your Household.</s><r>{PAWN_nameFull} покинул колонию и женился на {FACTION_name}. Союз повышает престиж вашей семьи.</r></e>
+  <e k="K" key="SO_MarriageHeading"><s>Marriage diplomacy</s><r>Брачная дипломатия</r></e>
+  <e k="K" key="SO_MedievalWeaponMode"><s>Medieval weapon mode</s><r>Режим средневекового оружия</r></e>
+  <e k="K" key="SO_MedievalWeaponModeDesc"><s>New House pawns use only longswords and Silvaran breech rifles. Standard mode instead uses longswords, one Silvaran AR-15 with four persistent visual patterns, and the AAMR. Medieval mode also removes combat masks, Stagward reliquaries and utility drone backpacks.</s><r>Пешки Нового Дома используют только длинные мечи и винтовки Сильварана с затвором. Вместо этого в стандартном режиме используются длинные мечи, один Сильваран AR-15 с четырьмя постоянными визуальными образами и AAMR. В режиме «Средневековье» также удаляются боевые маски, реликварии Stagward и рюкзаки для служебных дронов.</r></e>
+  <e k="K" key="SO_MentorNamed"><s>Squire to {0}</s><r>Оруженосец до {0}</r></e>
+  <e k="K" key="SO_NoEligibleMarriagePawn"><s>No eligible adult Household Noble is present on a colony map.</s><r>На карте колонии нет подходящего взрослого дворянина.</r></e>
+  <e k="K" key="SO_NoMentor"><s>No assigned knight</s><r>Нет назначенного рыцаря</r></e>
+  <e k="K" key="SO_NoPendingServices"><s>No services are currently travelling to the colony.</s><r>В настоящее время в колонию не выезжают никакие службы.</r></e>
+  <e k="K" key="SO_NoRetinue"><s>No retinue</s><r>Нет свиты</r></e>
+  <e k="K" key="SO_NoSettlement"><s>No settled holding</s><r>Нет урегулированного холдинга</r></e>
+  <e k="K" key="SO_None"><s>None</s><r>Никто</r></e>
+  <e k="K" key="SO_NpcDroneInspectDisabled"><s>Squadron: NPC utility drones disabled in Silvaran Order mod settings</s><r>Эскадрилья: служебные дроны NPC отключены в настройках мода Silvaran Order.</r></e>
+  <e k="K" key="SO_OpenSettings"><s>Open Iron &amp; Silver settings</s><r>Открыть настройки железа и серебра</r></e>
+  <e k="K" key="SO_OpenSettingsDesc"><s>The full Silvaran Order configuration opens in its own draggable Iron &amp; Silver window instead of being embedded inside RimWorld's Mod settings frame.</s><r>Полная конфигурация Ордена Сильварана открывается в отдельном перетаскиваемом окне Iron &amp; Silver, а не встраивается в рамку настроек мода RimWorld.</r></e>
+  <e k="K" key="SO_PathAshenhallDesc"><s>Recognize the exiled sister-line. Ashenhall becomes your permanent ally, Silvara becomes your permanent enemy, the delegation presents 200 Silvaran Steel, and Ashenhall services open as your Renown rises.</s><r>Узнайте изгнанную сестринскую линию. Ясенхолл становится вашим постоянным союзником, Сильвара — вашим постоянным врагом, делегация дарит 200 сильваранской стали, а услуги Ашенхолла открываются по мере роста вашей славы.</r></e>
+  <e k="K" key="SO_PathAshenhallTitle"><s>Support Ashenhall's claim</s><r>Поддержите иск Эшенхолла</r></e>
+  <e k="K" key="SO_PathIndependentDesc"><s>Reject both ancient lines. You receive fifteen days to appoint retainers, gather Renown and prepare. When the term expires, both houses become permanent enemies and your crown campaign begins.</s><r>Отвергните обе древние линии. У вас есть пятнадцать дней на то, чтобы назначить вассалов, собрать славу и подготовиться. Когда срок истечет, оба дома станут постоянными врагами, и начнется ваша коронная кампания.</r></e>
+  <e k="K" key="SO_PathIndependentTitle"><s>Stake your own claim</s><r>Сделайте ставку на свою собственную претензию</r></e>
+  <e k="K" key="SO_PathSilvaraDesc"><s>Uphold the elder line and swear fealty to Silvara. Ashenhall leaves before becoming hostile, a ceremonial Silvaran retinue delivers 200 Steel, and Silvaran services open as your Renown rises.</s><r>Поддерживайте линию старейшин и присягните Сильваре на верность. Ясенхолл уходит, прежде чем стать враждебным, церемониальная свита Сильварана доставляет 200 единиц стали, а услуги Сильварана открываются по мере роста вашей известности.</r></e>
+  <e k="K" key="SO_PathSilvaraTitle"><s>Swear to House Silvara</s><r>Поклянитесь Дому Сильвара</r></e>
+  <e k="K" key="SO_PendingServiceLine"><s>{0} — approximately {1} days remaining</s><r>{0} — осталось примерно {1} дней</r></e>
+  <e k="K" key="SO_PendingServicesHeading"><s>Pending services</s><r>Ожидающие услуги</r></e>
+  <e k="K" key="SO_PermitAshenBarrageCalled"><s>The five-shell Ashen barrage is locked on the target area.</s><r>Залп «Ясеня» из пяти снарядов зафиксирован в целевой области.</r></e>
+  <e k="K" key="SO_PermitClaimantsHostCalled"><s>The claimant's host is inbound: {0} knights with an opening barrage.</s><r>Хозяин претендента приближается: {0} рыцарей с начальным заградительным обстрелом.</r></e>
+  <e k="K" key="SO_PermitFieldworksCalled"><s>{0} fieldworks assembler pods are inbound.</s><r>{0} модули сборки полевых работ уже в пути.</r></e>
+  <e k="K" key="SO_PermitNoFieldworksCell"><s>No suitable roofless cells are available for the fieldworks pods.</s><r>Для капсул полевых работ подходящих камер без крыши нет.</r></e>
+  <e k="K" key="SO_PermitReconComplete"><s>Raven reconnaissance complete. Hostiles identified: {0}.</s><r>Разведка Ворона завершена. Обнаружены враги: {0}.</r></e>
+  <e k="K" key="SO_PermitReconSpotted"><s>Spotted</s><r>Пятнистый</r></e>
+  <e k="K" key="SO_PermitVeilCalled"><s>The veil of cinders is spreading across the target area.</s><r>Завеса пепла распространяется по выбранной области.</r></e>
+  <e k="K" key="SO_PermitWhiteStagMusterCalled"><s>The White Stag muster is inbound: {0} knights and {1} fieldworks pods.</s><r>Приближается сбор Белого Оленя: {0} рыцарей и {1} капсул полевых работ.</r></e>
+  <e k="K" key="SO_PreparationEndedLabel"><s>The War of Claims begins</s><r>Война претензий начинается</r></e>
+  <e k="K" key="SO_PreparationEndedText"><s>The fifteen-day preparation term has ended. House Silvara and House Ashenhall now denounce your Household as a usurper. Both houses are permanent enemies until the crown is won.</s><r>Пятнадцатидневный срок подготовки закончился. Дом Сильвара и Дом Ашенхолл теперь объявляют ваш дом узурпатором. Оба дома являются постоянными врагами, пока не будет завоевана корона.</r></e>
+  <e k="K" key="SO_PreparationRemaining"><s>Preparation remaining</s><r>Осталась подготовка</r></e>
+  <e k="K" key="SO_Rank_HouseholdMember"><s>Household member</s><r>Член семьи</r></e>
+  <e k="K" key="SO_Rank_Knight"><s>Knight</s><r>Рыцарь</r></e>
+  <e k="K" key="SO_Rank_MenAtArms"><s>Men-at-arms</s><r>Мужчины по оружию</r></e>
+  <e k="K" key="SO_Rank_Noble"><s>Noble</s><r>Благородный</r></e>
+  <e k="K" key="SO_Rank_Sergeant"><s>Sergeant</s><r>Сержант</r></e>
+  <e k="K" key="SO_Rank_Squire"><s>Squire</s><r>Сквайр</r></e>
+  <e k="K" key="SO_ReceiveMarriageDesc"><s>Review three eligible noble bachelors with positive beauty and strong Social and Intellectual skills. Your selected candidate joins as a colonist and Household Noble.</s><r>Просмотрите трех подходящих благородных холостяков с положительной красотой и сильными социальными и интеллектуальными навыками. Выбранный вами кандидат присоединяется в качестве колониста и дворянина.</r></e>
+  <e k="K" key="SO_ReceiveMarriageTitle"><s>Marry into your Household</s><r>Женитесь на своей семье</r></e>
+  <e k="K" key="SO_RecruitArrivedLabel"><s>A Household recruit arrives</s><r>Прибывает новобранец в домохозяйство</r></e>
+  <e k="K" key="SO_RecruitArrivedText"><s>{PAWN_nameFull} has arrived under your patron's banner and joins the colony with the Household title of {1}.</s><r>{PAWN_nameFull} прибыл под знамя вашего покровителя и присоединился к колонии с титулом семьи {1}.</r></e>
+  <e k="K" key="SO_RecruitCandidateBio"><s>Age {0} • {1}</s><r>Возраст {0} • {1}</r></e>
+  <e k="K" key="SO_RecruitCandidateIncapabilities"><s>Incapable of: {0}</s><r>Неспособен: {0}</r></e>
+  <e k="K" key="SO_RecruitCandidateRequestFailed"><s>This candidate can no longer be requested. Check your allegiance, standing and available Renown.</s><r>Этот кандидат больше не может быть запрошен. Проверьте свою преданность, положение и доступную известность.</r></e>
+  <e k="K" key="SO_RecruitCandidateSelect"><s>Select — {0} Renown</s><r>Выберите — {0} Слава.</r></e>
+  <e k="K" key="SO_RecruitCandidateSkills"><s>Skills</s><r>Навыки</r></e>
+  <e k="K" key="SO_RecruitCandidateTraits"><s>Traits: {0}</s><r>Штрихи: {0}</r></e>
+  <e k="K" key="SO_RecruitCandidatesFailed"><s>No eligible candidates could be generated.</s><r>Не удалось создать ни одного подходящего кандидата.</r></e>
+  <e k="K" key="SO_RecruitOfferSubtitle"><s>Review each candidate before committing. Renown is charged only when you select a candidate. Cost: {0} Renown.</s><r>Просмотрите каждого кандидата перед совершением сделки. Слава начисляется только тогда, когда вы выбираете кандидата. Стоимость: {0} Славы.</r></e>
+  <e k="K" key="SO_RecruitOfferTitle"><s>Choose: {0}</s><r>Выберите: {0}</r></e>
+  <e k="K" key="SO_RecruitmentHeading"><s>Recruitment</s><r>Набор персонала</r></e>
+  <e k="K" key="SO_RenownExplanation"><s>Lifetime Renown determines how the noble houses regard you. Available Renown is spent on recruits, deliveries, marriages and temporary Household decrees. Completing house quests and surviving house raids earns Renown.</s><r>Пожизненная известность определяет, как к вам относятся благородные дома. Доступная Слава тратится на рекрутов, поставки, браки и временные указы Дома. Выполнение домашних квестов и выживание в рейдах на дома приносит славу.</r></e>
+  <e k="K" key="SO_RenownGained"><s>Gained {0} Renown: {1}</s><r>Получено {0} Известности: {1}</r></e>
+  <e k="K" key="SO_RenownHeader"><s>{0} Renown available • {1} lifetime</s><r>{0} Доступна известность • {1} Время жизни</r></e>
+  <e k="K" key="SO_RenownHeading"><s>Renown and trust</s><r>Известность и доверие</r></e>
+  <e k="K" key="SO_RenownLost"><s>Lost {0} Lifetime Renown: {1}</s><r>Потеряно {0} Пожизненная известность: {1}</r></e>
+  <e k="K" key="SO_RenownReasonBetrayal"><s>betrayed a sworn patron</s><r>предал заклятого покровителя</r></e>
+  <e k="K" key="SO_RenownReasonCoronation"><s>won the Silvaran crown</s><r>выиграл корону Сильварана</r></e>
+  <e k="K" key="SO_RenownReasonKnighthood"><s>bestowed knighthood</s><r>пожаловал рыцарское звание</r></e>
+  <e k="K" key="SO_RenownReasonMarriage"><s>completed a noble marriage</s><r>заключил благородный брак</r></e>
+  <e k="K" key="SO_RenownReasonQuest"><s>completed a house quest</s><r>выполнил квест дома</r></e>
+  <e k="K" key="SO_RenownReasonQuestFailure"><s>failed a house quest</s><r>провалил домашний квест</r></e>
+  <e k="K" key="SO_RenownReasonRaid"><s>survived a house raid</s><r>пережил обыск дома</r></e>
+  <e k="K" key="SO_RenownReasonWarfront"><s>supported a claimant at a house warfront</s><r>поддержал истца на домашнем фронте</r></e>
+  <e k="K" key="SO_RequiresStanding"><s>Requires {0}</s><r>Требуется {0}</r></e>
+  <e k="K" key="SO_ResetBarrage"><s>Force stop barrage</s><r>Принудительно остановить заградительный огонь</r></e>
+  <e k="K" key="SO_ResetBarrageDesc"><s>Immediately stops every active Silvaran Order barrage on all loaded maps, including incident and permit barrages. An active house-war incident continues without artillery.</s><r>Немедленно останавливает все активные обстрелы Ордена Сильварана на всех загруженных картах, включая обстрелы инцидентов и разрешений. Активная домашняя война продолжается без артиллерии.</r></e>
+  <e k="K" key="SO_ResetBarrageUnavailable"><s>Load or start a game before resetting barrages.</s><r>Загрузите или запустите игру, прежде чем сбрасывать заграждения.</r></e>
+  <e k="K" key="SO_RetinueOf"><s>{0}'s retinue</s><r>Свита {0}</r></e>
+  <e k="K" key="SO_RosterHeading"><s>Household members and retinues</s><r>Члены семьи и свита</r></e>
+  <e k="K" key="SO_SecondWindMote"><s>SECOND WIND</s><r>ВТОРОЕ ДЫХАНИЕ</r></e>
+  <e k="K" key="SO_SecondWindTriggered"><s>{0}'s Silvaran bloodline has triggered a second wind.</s><r>Родословная Сильварана {0} открыла второе дыхание.</r></e>
+  <e k="K" key="SO_SendMarriageDesc"><s>Choose an adult pawn holding the separate Household title of Noble. They permanently leave the colony to join the patron house. Completion earns 150 Renown.</s><r>Выберите взрослую пешку, имеющую отдельный титул Дворянина. Они навсегда покидают колонию, чтобы присоединиться к патронажному дому. Завершение приносит 150 славы.</r></e>
+  <e k="K" key="SO_SendMarriageTitle"><s>Send your pawn to marry a noble</s><r>Отправьте свою пешку замуж за дворянина</r></e>
+  <e k="K" key="SO_ServiceDesc_Caravan"><s>Your patron sends a trade caravan after a short delay.</s><r>Ваш покровитель отправляет торговый караван после небольшой задержки.</r></e>
+  <e k="K" key="SO_ServiceDesc_ReceiveMarriageCandidate"><s>Choose one of three eligible noble bachelors to join the Household.</s><r>Выберите одного из трех подходящих благородных холостяков, чтобы присоединиться к семье.</r></e>
+  <e k="K" key="SO_ServiceDesc_RecruitKnight"><s>Choose one of three veteran fighters to join as a Household Knight.</s><r>Выберите одного из трех бойцов-ветеранов и присоединяйтесь к нему в качестве домашнего рыцаря.</r></e>
+  <e k="K" key="SO_ServiceDesc_RecruitMenAtArms"><s>Choose one of three trained medium-tier combatants for delivery after one day.</s><r>Выберите одного из трех обученных бойцов среднего уровня для доставки через один день.</r></e>
+  <e k="K" key="SO_ServiceDesc_RecruitNoble"><s>Choose one of three Social and Intellectual specialists to join as a Household Noble.</s><r>Выберите одного из трех специалистов по социальным и интеллектуальным вопросам, который станет дворянином.</r></e>
+  <e k="K" key="SO_ServiceDesc_RecruitPeasant"><s>Choose one of three farmers and general laborers for delivery after one day.</s><r>Выберите одного из трех фермеров и разнорабочих для доставки через один день.</r></e>
+  <e k="K" key="SO_ServiceDesc_SendMarriage"><s>A Household Noble leaves to marry into your patron's line.</s><r>Домашний дворянин уходит, чтобы жениться на потомке вашего покровителя.</r></e>
+  <e k="K" key="SO_ServiceDesc_SilvaranSteel"><s>A patron caravan delivers 50 Silvaran Steel.</s><r>Караван покровителей доставляет 50 сильваранской стали.</r></e>
+  <e k="K" key="SO_ServiceRequested"><s>{0} requested for {1} Renown.</s><r>{0} запрошено за {1} известности.</r></e>
+  <e k="K" key="SO_ServiceRequirement"><s>Requires {0} standing and {1} available Renown.</s><r>Требуется {0} репутация и {1} доступная известность.</r></e>
+  <e k="K" key="SO_Service_Caravan"><s>Request a caravan</s><r>Запросить караван</r></e>
+  <e k="K" key="SO_Service_ReceiveMarriageCandidate"><s>Marry into your house</s><r>Выйти замуж в свой дом</r></e>
+  <e k="K" key="SO_Service_RecruitKnight"><s>Recruit a knight</s><r>Нанять рыцаря</r></e>
+  <e k="K" key="SO_Service_RecruitMenAtArms"><s>Recruit men-at-arms</s><r>Набирать солдат</r></e>
+  <e k="K" key="SO_Service_RecruitNoble"><s>Recruit a noble</s><r>Нанять дворянина</r></e>
+  <e k="K" key="SO_Service_RecruitPeasant"><s>Recruit a peasant</s><r>Нанять крестьянина</r></e>
+  <e k="K" key="SO_Service_SendMarriage"><s>Send a noble to marry</s><r>Отправить дворянина жениться</r></e>
+  <e k="K" key="SO_Service_SilvaranSteel"><s>Request Silvaran Steel</s><r>Запросить Сильваран Сталь</r></e>
+  <e k="K" key="SO_SettingsCategory"><s>Silvaran Order</s><r>Сильваранский Орден</r></e>
+  <e k="K" key="SO_SettingsModernSubtitle"><s>House warfare, shields, equipment and utility drones</s><r>Домашняя война, щиты, оборудование и служебные дроны</r></e>
+  <e k="K" key="SO_SettingsModernTitle"><s>Iron &amp; Silver configuration</s><r>Конфигурация железа и серебра</r></e>
+  <e k="K" key="SO_SettlementName"><s>Settlement name</s><r>Название населенного пункта</r></e>
+  <e k="K" key="SO_SilvaranAidGiftLabel"><s>Silvaran aid arrives</s><r>Прибывает помощь Сильварана</r></e>
+  <e k="K" key="SO_SilvaranAidGiftText"><s>A non-trading Silvaran ceremonial retinue thanks the colony for upholding the elder line. It has delivered {0} Silvaran Steel and will now depart.</s><r>Неторговая церемониальная свита Сильварана благодарит колонию за поддержание старшей линии. Он доставил {0} Сильваранскую сталь и теперь отправится в путь.</r></e>
+  <e k="K" key="SO_StagwardAllowRanged"><s>Allow firing guns through the Stagward field</s><r>Разрешить стрельбу из оружия через поле Стагварда.</r></e>
+  <e k="K" key="SO_StagwardAllowRangedDesc"><s>When enabled, wearers may fire ranged weapons while their Stagward reliquary is equipped. When disabled, the field blocks outgoing fire.</s><r>Если эта функция включена, владельцы могут стрелять из оружия дальнего боя, пока экипирован их реликварий Stagward. При отключении поле блокирует исходящий огонь.</r></e>
+  <e k="K" key="SO_StagwardEnergy"><s>Shield energy: {0} / {1}</s><r>Энергия щита: {0} / {1}</r></e>
+  <e k="K" key="SO_StagwardEnergySetting"><s>Maximum shield energy multiplier: {0}×</s><r>Максимальный множитель энергии щита: {0}×</r></e>
+  <e k="K" key="SO_StagwardGizmoLabel"><s>Stagward shield</s><r>Стагвардский щит</r></e>
+  <e k="K" key="SO_StagwardGizmoReset"><s>Reset: {0}s</s><r>Сброс: {0}с</r></e>
+  <e k="K" key="SO_StagwardGizmoTip"><s>Current Stagward shield energy. The field absorbs attacks until its energy is depleted. EMP damage breaks the shield immediately.</s><r>Текущая энергия щита Стагварда. Поле поглощает атаки до тех пор, пока его энергия не истощится. Урон от ЭМИ мгновенно разрушает щит.</r></e>
+  <e k="K" key="SO_StagwardRechargeSetting"><s>Shield recharge-rate multiplier: {0}×</s><r>Множитель скорости перезарядки щита: {0}×</r></e>
+  <e k="K" key="SO_StagwardResetting"><s>Shield broken — resetting in {0} seconds</s><r>Щит сломан — сброс через {0} секунд.</r></e>
+  <e k="K" key="SO_StagwardSettingsHeading"><s>Stagward reliquary</s><r>Стагвардский реликварий</r></e>
+  <e k="K" key="SO_StagwardSettingsNote"><s>Changes apply immediately to every Stagward reliquary, including shields already equipped.</s><r>Изменения применяются немедленно ко всем реликвариям Стагварда, включая уже экипированные щиты.</r></e>
+  <e k="K" key="SO_StakeIndependentClaim"><s>Stake an independent claim</s><r>Подайте независимый иск</r></e>
+  <e k="K" key="SO_Standing_Distrusted"><s>Distrusted</s><r>Не доверяют</r></e>
+  <e k="K" key="SO_Standing_Friendly"><s>Friendly</s><r>Дружелюбно</r></e>
+  <e k="K" key="SO_Standing_Neutral"><s>Neutral</s><r>Нейтральный</r></e>
+  <e k="K" key="SO_Standing_Suspicious"><s>Suspicious</s><r>Подозрительный</r></e>
+  <e k="K" key="SO_Standing_Trusted"><s>Trusted</s><r>Доверенный</r></e>
+  <e k="K" key="SO_SteelDeliveredLabel"><s>Silvaran Steel delivered</s><r>Сильваран Сталь доставлена</r></e>
+  <e k="K" key="SO_SteelDeliveredText"><s>A patron caravan has delivered {0} units of Silvaran Steel at the edge of the settlement.</s><r>Караван покровителей доставил {0} единиц Сильваранской стали на окраину поселения.</r></e>
+  <e k="K" key="SO_SteelServiceDesc"><s>Request 50 units of rare Silvaran Steel. A patron caravan accompanies the delivery.</s><r>Запросите 50 единиц редкой Сильваранской стали. Доставку сопровождает караван-покровитель.</r></e>
+  <e k="K" key="SO_SteelServiceTitle"><s>Ask for Silvaran Steel</s><r>Спросите Сильваран Сталь</r></e>
+  <e k="K" key="SO_TabCouncil"><s>Allegiance &amp; council</s><r>Верность и совет</r></e>
+  <e k="K" key="SO_TabDiplomacy"><s>Diplomacy</s><r>Дипломатия</r></e>
+  <e k="K" key="SO_TabOverview"><s>House overview</s><r>Обзор дома</r></e>
+  <e k="K" key="SO_TabServices"><s>Services</s><r>Услуги</r></e>
+  <e k="K" key="SO_TrustGaugeTip"><s>Trust standing rises with lifetime Renown.
+
+Distrusted — below 0
+Suspicious — 0 to 99
+Neutral — 100 to 299
+Friendly — 300 to 599
+Trusted — 600 and above</s><r>Доверие увеличивается с увеличением срока известности.
+
+Недоверенные — ниже 0
+Подозрительные — от 0 до 99
+Нейтральные — от 100 до 299
+Дружелюбные — от 300 до 599
+Доверенные — 600 и выше</r></e>
+  <e k="K" key="SO_TrustStanding"><s>Trust standing</s><r>Доверие</r></e>
+  <e k="K" key="SO_UpdateLetterAcknowledge"><s>Understood</s><r>Понял</r></e>
+  <e k="K" key="SO_UpdateLetterLabel"><s>Silvaran Order updated</s><r>Обновлен Орден Сильварана.</r></e>
+  <e k="K" key="SO_UpdateLetterText"><s>Update {0}
+
+• House-war trench lines now arrive in genuine faction drop pods. Eighteen autonomous assembler payloads establish both trench, sandbag and razor-wire lines without resources, blueprints or builders, and never replace water terrain with trenches.
+• Utility drones now evade 20% of direct non-explosive ranged hits and register their selected weapon with Vanilla Expanded Framework's MVCF manager. Combat Extended house troops now carry 10–12 magazines instead of 4–6.
+• Silvaran webbing now grants +20 CarryBulk in Combat Extended, in addition to its reload-speed and carry-weight bonuses. The Silvaran combat mask now grants +12 Shooting Accuracy instead of +8. Silvaran and Ashenborn bloodlines trigger a six-hour superhuman Second Wind below 35% health, followed by a three-day cooldown.
+• NPC drones now deploy only for nearby hostiles, prioritize urgent bleeding during combat, revalidate that patients remain spawned before treatment effects, carry a full built-in Stagward and use a modern card-based configuration suite. During peace, player drones autonomously repair damaged Home-area buildings and haul loose items to valid storage. Drones move at 8.5 cells per second with faster orbit updates and genuine continuous flight-grid pathing, ignore vanilla cover reactions and CE suppression/pinning so they continue circling their target, and stop pathing/suspend all work while downed until they recover. Destroyed drones no longer have a replacement timer; the wearer collects and consumes one industrial component to repair the controller immediately.
+• Losing house armies can call one six-soldier reinforcement pod when reduced to 15 fighters and trailing by at least four. Final CE AAMR verbs now synchronize with MVCF cleanly.
+• Fixed the utility drone's missing CE body shape, prevented Sharingan/VPE compatibility from targeting non-humanlike drones, corrected House Clash edge-cell deployment, and repaired the optional VMemesE craft-culture reference. Silvaran and Ashenhall humanlikes no longer generate or remain with Fat, Thin, or Hulk bodies; those rolls normalize to standard Male/Female bodies.
+• Added an Odyssey Scarlands warfront incident: 30 Silvarans face 30 Ashenhall soldiers across trenches, sandbags, razor wire and periodic artillery. Choose an allegiance-legal side and travel to the temporary site within three days, or let the battle resolve off-screen.
+• Added a separate “house war comes home” incident with the same fortified 30v30 battle on a player settlement map. Each army now arrives in six genuine five-soldier faction drop pods. Independent Households may support either side; sworn Households may support only their patron.
+• Combat Extended utility drones now fire their SMG, sniper and optional AAMR-50 modes through genuine CE projectile verbs with proper penetration metadata and self-contained ammunition.
+• House battles now deploy west versus east, every armed house PawnKind receives a real gun or melee weapon instead of falling back to fists, and artillery impacts leave fillable craters. A dedicated formation duty acquires enemies at 110 cells, retains them to 120, and constrains combat movement to 24 cells around each line, preventing armies from regrouping or seeking distant cover away from one another. After every incident battle, each side recovers its own wounded and dead, captures only downed opposing NPC soldiers, and withdraws.
+• Utility drones no longer release or deposit firefoam when merely deploying; foam effects remain reserved for medical treatment, recall and firefighting.
+• The Household interface now uses a centered, low-glare near-black and pewter design with an editable ideology-based house crest.
+• Recruitment and incoming marriage offers now present three fully previewed candidates before charging Renown. Automatic Medieval Overhaul weapon switching was removed in favor of one manual Medieval weapon mode toggle inside a modern Iron &amp; Silver settings interface.
+• Utility drone backpacks can now be permanently upgraded to two, three or four synchronized drones. The command suite has been reflowed to prevent clipping, and false MVCF/Combat Extended missing-verb warnings are suppressed safely.
+• Renown rewards, service costs and Household decrees have been rebalanced.
+• The Household main button now carries a white stag heraldic mark.
+• Save loading, delegation departure and faction-relation reliability have been improved.
+• Silvaran Steel now has a legendary melee profile: 50% more sharp damage, 20% more blunt damage, 20% faster attacks, 40% lower weapon mass, and 5× durability. Combat Extended also grants 50% more penetration and 40% lower bulk.
+• House materials are now distinct: Silvara issues Silvaran Steel for every stuff-made required outfit piece and compatible weapon; Ashenhall uses Obsidian when Odyssey is active, otherwise Uranium. Existing house pawns are migrated when a save loads.
+
+This notice is shown once per save. A new notice will appear only after Silvaran Order receives another update.</s><r>Обновление {0}
+
+• Линии траншей войны домов теперь доставляются в настоящих десантных капсулах фракций. Восемнадцать автономных сборщиков устанавливают линии траншей, мешков с песком и колючей проволоки без ресурсов, чертежей или строителей и никогда не заменяют водную местность траншеями.
+• Вспомогательные дроны теперь уклоняются от 20% прямых невзрывных попаданий дальнего боя и регистрируют выбранное оружие с помощью MVCF-менеджера Vanilla Expanded Framework. Домашние войска Combat Extended теперь несут 10–12 магазинов вместо 4–6.
+• Сильваранская лямка теперь дает +20 CarryBulk в Combat Extended в дополнение к бонусам к скорости перезарядки и переносимому весу. Боевая маска Сильварана теперь дает +12 к точности стрельбы вместо +8. Родословные Сильварана и Пепельнорожденных вызывают шестичасовое сверхчеловеческое Второе дыхание при уровне здоровья ниже 35%, после чего следует трехдневное время восстановления.
+• Дроны NPC теперь развертываются только для ближайших врагов, отдают приоритет срочному кровотечению во время боя, повторно подтверждают, что пациенты появляются до начала эффектов лечения, имеют полностью встроенный Stagward и используют современный набор карточных настроек. В мирное время дроны игроков самостоятельно ремонтируют поврежденные здания домашней зоны и доставляют незакрепленные предметы в подходящее хранилище. Дроны движутся со скоростью 8,5 ячеек в секунду, быстрее обновляют орбиту и по-настоящему непрерывно отслеживают траекторию полета, игнорируют стандартные реакции укрытия и подавление/фиксацию CE, поэтому они продолжают кружить над своей целью, а также прекращают движение по траектории/приостанавливают всю работу, пока они сбиты, пока они не восстановятся. У уничтоженных дронов больше нет таймера замены; владелец собирает и потребляет один промышленный компонент для немедленного ремонта контроллера.
+• Проигравшие армии домов могут вызвать одну капсулу подкрепления из шести солдат, если их количество уменьшено до 15 бойцов и отстает как минимум на четырех. Окончательные глаголы CE AAMR теперь четко синхронизируются с MVCF.
+• Исправлена ​​отсутствующая форма тела CE у служебного дрона, предотвращена совместимость Sharingan/VPE с целью нацеливания на нечеловеческие дроны, исправлено развертывание краевых ячеек House Clash и исправлена ​​дополнительная ссылка на ремесленную культуру VMemesE. Человекоподобные существа из Сильварана и Ашенхолла больше не создают и не сохраняют тела Толстых, Тонких или Халков; эти броски нормализуются до стандартных мужских/женских тел.
+• Добавлен инцидент на фронте в Одиссее Скарландии: 30 сильварцев сталкиваются с 30 солдатами Ашенхолла через траншеи, мешки с песком, колючую проволоку и периодическую артиллерию. Выберите сторону, на которой разрешена лояльность, и отправляйтесь на временное место в течение трех дней или позвольте битве разрешиться за кадром.
+• Добавлен отдельный инцидент «война домов возвращается домой» с той же укрепленной битвой 30 на 30 на карте поселения игроков. Каждая армия теперь прибывает в шести настоящих десантных капсулах фракций по пять солдат. Независимые домохозяйства могут поддерживать любую сторону; Присягнувшие домохозяйства могут поддерживать только своего покровителя.
+• Боевые расширенные вспомогательные дроны теперь стреляют из пистолета-пулемета, снайпера и дополнительного режима AAMR-50 с помощью настоящих глаголов снарядов CE с правильными метаданными о проникновении и автономными боеприпасами.
+• Сражения между домами теперь разворачиваются с запада против востока, каждый вооруженный дом PawnKind получает настоящее оружие или оружие ближнего боя вместо того, чтобы сжимать кулаки, а артиллерийские удары остаются заполняемыми. кратеры. Специальная обязанность формирования захватывает врагов в 110 ячейках, удерживает их до 120 и ограничивает боевое движение до 24 ячеек вокруг каждой линии, не позволяя армиям перегруппироваться или искать отдаленные укрытия друг от друга. После каждого инцидента каждая сторона забирает своих раненых и убитых, захватывает только сбитых солдат-неигровых персонажей противника и отступает.
+• Вспомогательные дроны больше не выпускают и не откладывают горючую пену при простом развертывании; эффекты пены остаются зарезервированными для лечения, отзыва и тушения пожаров.
+• Интерфейс «Дома» теперь использует центрированный, почти черный и оловянный дизайн с низким уровнем бликов и редактируемым гербом дома, основанным на идеологии.
+• В предложениях о приеме на работу и входящих брачных предложениях теперь представлены три полностью просмотренных кандидата, прежде чем взиматься плата за славу. Автоматическое переключение оружия Medieval Overhaul было удалено в пользу одного ручного переключения режима средневекового оружия в современном интерфейсе настроек Iron &amp; Silver.
+• Рюкзаки для служебных дронов теперь можно постоянно модернизировать до двух, трёх или четырёх синхронизированных дронов. Набор команд был перекомпонован, чтобы предотвратить обрезку, а ложные предупреждения об отсутствующих глаголах MVCF / Combat Extended безопасно подавляются.
+• Награды за славу, стоимость услуг и указы Дома были перебалансированы.
+• На главной кнопке Дома теперь имеется геральдический знак белого оленя.
+• Улучшена загрузка сохранений, отправление делегирования и надежность отношений с фракциями.
+• Сильваранская сталь теперь имеет легендарный профиль ближнего боя: на 50% больше острого урона, на 20% больше тупого урона, на 20% быстрее атаки, на 40% меньше массы оружия и в 5 раз больше прочности. Combat Extended также дает на 50% больше пробивания и на 40% меньше объема.
+• Материалы дома теперь различны: Сильвара выдает Сильваранскую сталь для каждой изготовленной необходимой части экипировки и совместимого оружия; Ашенхолл использует Обсидиан, когда активна Одиссея, в противном случае — Уран. Существующие пешки дома переносятся при загрузке сохранения.
+
+Это уведомление отображается один раз для каждого сохранения. Новое уведомление появится только после того, как Орден Сильварана получит очередное обновление.</r></e>
+  <e k="K" key="SO_WarfrontAutoResolvedLabel"><s>The Scarlands battle ends without you</s><r>Битва в Скарленде закончится без тебя</r></e>
+  <e k="K" key="SO_WarfrontAutoResolvedText"><s>The deployment deadline passed before a player force reached the trenches. Reports now name {0} as the victor. The temporary warfront has dispersed and no Renown was earned.</s><r>Срок развертывания прошел до того, как силы игроков достигли окопов. В отчетах теперь победителем назван {0}. Временный фронт войны распался, а слава не была получена.</r></e>
+  <e k="K" key="SO_WarfrontChooseSideBeforeTravel"><s>Choose which house to support in the warfront letter first</s><r>Выберите, какой дом поддержать в письме с фронта первым</r></e>
+  <e k="K" key="SO_WarfrontDeadlineInspect"><s>Off-screen resolution in {0}</s><r>Заэкранное разрешение в {0}</r></e>
+  <e k="K" key="SO_WarfrontDeclineChoice"><s>Do not intervene — allow the battle to resolve off-screen</s><r>Не вмешивайтесь — позвольте битве разрешиться за кадром.</r></e>
+  <e k="K" key="SO_WarfrontOfferLabel"><s>A warfront opens in the Scarlands</s><r>В Скарлендах открывается фронт войны.</r></e>
+  <e k="K" key="SO_WarfrontOfferText"><s>Scouts report that House Silvara and House Ashenhall have each committed thirty soldiers to a fortified Scarlands front. Autonomous fieldworks pods will establish muddy trenches, sandbag firing lines and belts of razor wire before the armies arrive, while artillery crews range their guns.
+
+The battlefield will remain accessible for {0} days. If no player force arrives before the deadline, the engagement will resolve without your intervention.
+
+An independent Household may support either claimant. A sworn Household may support only its patron.</s><r>Разведчики сообщают, что Дом Сильвара и Дом Эшенхолл направили по тридцать солдат каждый на укрепленный фронт в Скарленде. Автономные полевые капсулы проведут грязные траншеи, огневые линии из мешков с песком и пояса из колючей проволоки до прибытия армий, а артиллерийские расчеты приведут свои орудия в порядок.
+
+Поле боя останется доступным в течение {0} дней. Если ни один игрок не прибудет до истечения установленного срока, сражение будет разрешено без вашего вмешательства.
+
+Независимая семья может поддержать любого претендента. Присягнувший Дом может поддерживать только своего покровителя.</r></e>
+  <e k="K" key="SO_WarfrontResolvedLabel"><s>The Scarlands front is decided</s><r>Фронт Скарленда решен</r></e>
+  <e k="K" key="SO_WarfrontResolvedText"><s>{0} holds the Scarlands battlefield after the two thirty-soldier armies break against one another. Your declared support was for {1}. Surviving house troops are withdrawing from the temporary war map.</s><r>{0} удерживает поле битвы в Шкарландии после того, как две армии по тридцать солдат разбились друг против друга. Ваша заявленная поддержка была за {1}. Выжившие домашние войска уходят с временной карты войны.</r></e>
+  <e k="K" key="SO_WarfrontSideAshenhall"><s>House Ashenhall</s><r>Дом Ашенхолл</r></e>
+  <e k="K" key="SO_WarfrontSideNeither"><s>neither house</s><r>ни дома</r></e>
+  <e k="K" key="SO_WarfrontSideSilvara"><s>House Silvara</s><r>Дом Сильвара</r></e>
+  <e k="K" key="SO_WarfrontSiteLabel"><s>Scarlands house warfront</s><r>Фронт дома Скарленда</r></e>
+  <e k="K" key="SO_WarfrontSupportChoice"><s>Commit to {0}</s><r>Примите решение {0}</r></e>
+  <e k="K" key="SO_WarfrontSupportInspect"><s>Supporting: {0}</s><r>Поддерживаю: {0}</r></e>
+</AutoTranslateCache>
