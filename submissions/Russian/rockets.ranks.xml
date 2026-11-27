@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="rockets.ranks" name="Rocket's Ranks" language="Russian" version="1">
+  <e k="D" t="RankDef" key="Rank_BrigadierGeneral.modExtensions.0.nativeName"><s>brigadier general</s><r>бригадный генерал</r></e>
+  <e k="D" t="RankDef" key="Rank_CommandSergeantMajor.modExtensions.0.nativeName"><s>command sergeant major</s><r>командующий сержант-майор</r></e>
+  <e k="D" t="RankDef" key="Rank_FirstLieutenant.modExtensions.0.nativeName"><s>first lieutenant</s><r>первый лейтенант</r></e>
+  <e k="D" t="RankDef" key="Rank_FirstSergeant.modExtensions.0.nativeName"><s>first sergeant</s><r>первый сержант</r></e>
+  <e k="D" t="RankDef" key="Rank_LieutenantColonel.modExtensions.0.nativeName"><s>lieutenant colonel</s><r>подполковник</r></e>
+  <e k="D" t="RankDef" key="Rank_LieutenantGeneral.modExtensions.0.nativeName"><s>lieutenant general</s><r>генерал-лейтенант</r></e>
+  <e k="D" t="RankDef" key="Rank_MajorGeneral.modExtensions.0.nativeName"><s>major general</s><r>генерал-майор</r></e>
+  <e k="D" t="RankDef" key="Rank_MasterSergeant.modExtensions.0.nativeName"><s>master sergeant</s><r>старший сержант</r></e>
+  <e k="D" t="RankDef" key="Rank_PrivateFirstClass.modExtensions.0.nativeName"><s>private first class</s><r>частный первый класс</r></e>
+  <e k="D" t="RankDef" key="Rank_SecondLieutenant.modExtensions.0.nativeName"><s>second lieutenant</s><r>второй лейтенант</r></e>
+  <e k="D" t="RankDef" key="Rank_SergeantFirstClass.modExtensions.0.nativeName"><s>sergeant first class</s><r>сержант первого класса</r></e>
+  <e k="D" t="RankDef" key="Rank_SergeantMajor.modExtensions.0.nativeName"><s>sergeant major</s><r>сержант-майор</r></e>
+  <e k="D" t="RankDef" key="Rank_SergeantMajorOfTheArmy.modExtensions.0.nativeName"><s>sergeant major of the army</s><r>сержант-майор армии</r></e>
+  <e k="D" t="RankDef" key="Rank_StaffSergeant.modExtensions.0.nativeName"><s>staff sergeant</s><r>штаб-сержант</r></e>
+  <e k="D" t="RankPackDef" key="CoreOfficers.modExtensions.0.Label"><s>Army Officers</s><r>Армейские офицеры</r></e>
+  <e k="D" t="RankPackDef" key="CoreOfficers.modExtensions.1.nativeName"><s>Army Officers</s><r>Армейские офицеры</r></e>
+  <e k="D" t="RitualPatternDef" key="ROCKET_PromotionPattern.ritualExpectedDesc"><s>A presenter will bestow a new rank upon a deserving colonist.</s><r>Ведущий присвоит новое звание достойному колонисту.</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Salute_Rules.rulePack.rulesStrings.0"><s>r_logentry-&gt;[INITIATOR_nameDef] saluted [RECIPIENT_nameDef].</s><r>r_logentry-&gt;[INITIATOR_nameDef] отдал честь [RECIPIENT_nameDef].</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Salute_Rules.rulePack.rulesStrings.1"><s>r_logentry-&gt;[INITIATOR_nameDef] snapped to attention and saluted [RECIPIENT_nameDef].</s><r>r_logentry-&gt;[INITIATOR_nameDef] вытянулся по стойке смирно и отдал честь [RECIPIENT_nameDef].</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Salute_Rules.rulePack.rulesStrings.2"><s>r_logentry-&gt;[INITIATOR_nameDef] rendered a crisp salute to [RECIPIENT_nameDef].</s><r>r_logentry-&gt;[INITIATOR_nameDef] резко отдал честь [RECIPIENT_nameDef].</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Salute_Rules.rulePack.rulesStrings.3"><s>r_logentry-&gt;[INITIATOR_nameDef] gave [RECIPIENT_nameDef] a sharp salute.</s><r>r_logentry-&gt;[INITIATOR_nameDef] резко отсалютовал [RECIPIENT_nameDef].</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Speech_Promote_Rules.rulePack.rulesStrings.0"><s>r_logentry-&gt;[INITIATOR_nameDef] [speech_verb] [RECIPIENT_nameDef] and proclaimed their new rank.</s><r>r_logentry-&gt;[INITIATOR_nameDef] [speech_verb] [RECIPIENT_nameDef] и объявили о своем новом звании.</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Speech_Promote_Rules.rulePack.rulesStrings.1"><s>r_logentry-&gt;[INITIATOR_nameDef] gave a [speech_adjective] speech promoting [RECIPIENT_nameDef] for [their_actions].</s><r>r_logentry-&gt;[INITIATOR_nameDef] выступил с речью [speech_adjective], продвигая [RECIPIENT_nameDef] за [their_actions].</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Speech_Promote_Rules.rulePack.rulesStrings.10"><s>their_actions-&gt;dedicated service to the colony</s><r>their_actions-&gt;преданная служба колонии</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Speech_Promote_Rules.rulePack.rulesStrings.11"><s>their_actions-&gt;loyalty in the face of adversity</s><r>their_actions-&gt;верность перед лицом невзгод</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Speech_Promote_Rules.rulePack.rulesStrings.12"><s>their_actions-&gt;exemplary conduct</s><r>their_actions-&gt;примерное поведение</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Speech_Promote_Rules.rulePack.rulesStrings.13"><s>their_actions-&gt;bleeding for their fellow colonists</s><r>their_actions-&gt;кровь за своих собратьев-колонистов</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Speech_Promote_Rules.rulePack.rulesStrings.14"><s>their_actions-&gt;standing firm against the odds</s><r>their_actions-&gt;твердо стоять вопреки трудностям</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Speech_Promote_Rules.rulePack.rulesStrings.2"><s>speech_verb-&gt;commended</s><r>speech_verb-&gt;похвалил</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Speech_Promote_Rules.rulePack.rulesStrings.3"><s>speech_verb-&gt;saluted</s><r>speech_verb-&gt;приветствовал</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Speech_Promote_Rules.rulePack.rulesStrings.4"><s>speech_verb-&gt;honored</s><r>speech_verb-&gt;заслуженный</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Speech_Promote_Rules.rulePack.rulesStrings.5"><s>speech_verb-&gt;elevated</s><r>speech_verb-&gt;повышенный</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Speech_Promote_Rules.rulePack.rulesStrings.6"><s>speech_adjective-&gt;rousing</s><r>speech_adjective-&gt;возбуждающий</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Speech_Promote_Rules.rulePack.rulesStrings.7"><s>speech_adjective-&gt;solemn</s><r>speech_adjective-&gt;торжественный</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Speech_Promote_Rules.rulePack.rulesStrings.8"><s>speech_adjective-&gt;proud</s><r>speech_adjective-&gt;гордый</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Speech_Promote_Rules.rulePack.rulesStrings.9"><s>speech_adjective-&gt;stirring</s><r>speech_adjective-&gt;перемешивание</r></e>
+  <e k="D" t="TaleDef" key="ROCKET_PromotedTale.rulePack.rulesStrings.0"><s>tale_noun-&gt;[PRESENTER_nameDef] promoting [AWARDEE_nameDef]</s><r>tale_noun-&gt;[PRESENTER_nameDef] продвижение [AWARDEE_nameDef]</r></e>
+  <e k="D" t="TaleDef" key="ROCKET_PromotedTale.rulePack.rulesStrings.1"><s>tale_noun-&gt;[AWARDEE_nameDef] being granted a new rank by [PRESENTER_nameDef]</s><r>tale_noun-&gt;[AWARDEE_nameDef] получает новый ранг от [PRESENTER_nameDef]</r></e>
+  <e k="D" t="TaleDef" key="ROCKET_PromotedTale.rulePack.rulesStrings.10"><s>desc_sentence-&gt;[PRESENTER_nameDef] wears a solemn expression of authority.</s><r>desc_sentence-&gt;[PRESENTER_nameDef] носит торжественное выражение власти.</r></e>
+  <e k="D" t="TaleDef" key="ROCKET_PromotedTale.rulePack.rulesStrings.2"><s>tale_noun-&gt;the promotion of [AWARDEE_nameDef]</s><r>tale_noun-&gt;продвижение [AWARDEE_nameDef]</r></e>
+  <e k="D" t="TaleDef" key="ROCKET_PromotedTale.rulePack.rulesStrings.3"><s>image-&gt;[PRESENTER_nameFull] is standing tall, proudly presenting new insignia to [AWARDEE_nameFull]. [circumstance_group]</s><r>image-&gt;[PRESENTER_nameFull] стоит высоко, с гордостью вручая новый знак отличия [AWARDEE_nameFull]. [circumstance_group]</r></e>
+  <e k="D" t="TaleDef" key="ROCKET_PromotedTale.rulePack.rulesStrings.4"><s>image-&gt;[PRESENTER_nameFull] is saluting [AWARDEE_nameFull], who is wearing the marks of a newly bestowed rank. [circumstance_group]</s><r>image-&gt;[PRESENTER_nameFull] приветствует [AWARDEE_nameFull], который носит знаки недавно присвоенного звания. [circumstance_group]</r></e>
+  <e k="D" t="TaleDef" key="ROCKET_PromotedTale.rulePack.rulesStrings.5"><s>image-&gt;[AWARDEE_nameFull] looks [AWARDEE_adjective] as they are promoted by [PRESENTER_nameDef]. [circumstance_group]</s><r>image-&gt;[AWARDEE_nameFull] выглядит как [AWARDEE_adjective], поскольку его продвигает [PRESENTER_nameDef]. [circumstance_group]</r></e>
+  <e k="D" t="TaleDef" key="ROCKET_PromotedTale.rulePack.rulesStrings.6"><s>circumstance_phrase-&gt;The colony watches in silent respect.</s><r>circumstance_phrase-&gt;Колония наблюдает с молчаливым уважением.</r></e>
+  <e k="D" t="TaleDef" key="ROCKET_PromotedTale.rulePack.rulesStrings.7"><s>circumstance_phrase-&gt;The new insignia gleams in the light.</s><r>circumstance_phrase-&gt;Новый знак отличия блестит на свету.</r></e>
+  <e k="D" t="TaleDef" key="ROCKET_PromotedTale.rulePack.rulesStrings.8"><s>circumstance_phrase-&gt;Spectators stand at attention.</s><r>circumstance_phrase-&gt;Зрители стоят по стойке смирно.</r></e>
+  <e k="D" t="TaleDef" key="ROCKET_PromotedTale.rulePack.rulesStrings.9"><s>desc_sentence-&gt;[AWARDEE_nameDef] looks deeply proud.</s><r>desc_sentence-&gt;[AWARDEE_nameDef] выглядит глубоко гордым.</r></e>
+</AutoTranslateCache>
