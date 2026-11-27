@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="m00nl1ght.mappreview" name="Map Preview" language="Russian" version="1">
+  <e k="K" key="HugsLogPublisher.alternativePlatform"><s>Use alternative sharing service</s><r>Используйте альтернативный сервис обмена</r></e>
+  <e k="K" key="HugsLogPublisher.alternativePlatform_tip"><s>Use an alternative online platform (paste.gg) as the upload destination. Useful if GitHub is not working.</s><r>Используйте альтернативную онлайн-платформу (paste.gg) в качестве места назначения для загрузки. Полезно, если GitHub не работает.</r></e>
+  <e k="K" key="HugsLogPublisher.compactLogMessageStacktraces"><s>Compact message stacktraces</s><r>Компактные трассировки стека сообщений</r></e>
+  <e k="K" key="HugsLogPublisher.compactLogMessageStacktraces_tip"><s>[Experimental] When enabled, the publisher will attempt to trim the stacktrace of every log message, leaving only the call site of the log method. Significantly reduces log file size.</s><r>[Experimental] Если этот параметр включен, издатель будет пытаться обрезать трассировку стека каждого сообщения журнала, оставляя только место вызова метода журнала. Значительно уменьшает размер файла журнала.</r></e>
+  <e k="K" key="HugsLogPublisher.errorTryAlternativePlatformHint"><s>Upload failed. Looks like sharing via GitHub is currently unavailable. You can try again using an alternative sharing service (paste.gg) by clicking &quot;Retry&quot; below.</s><r>Загрузка не удалась. Похоже, обмен данными через GitHub в настоящее время недоступен. Вы можете попробовать еще раз, используя альтернативный сервис обмена (paste.gg), нажав «Повторить попытку» ниже.</r></e>
+  <e k="K" key="HugsLogPublisher.githubToken"><s>GitHub access token</s><r>Токен доступа GitHub</r></e>
+  <e k="K" key="HugsLogPublisher.githubToken_tip"><s>Publishes logs to your own GitHub account when set. Paste a token from GitHub &gt; Settings &gt; Developer Settings &gt; Personal access tokens. Leave blank to publish to the public HugsLib account.
+
+Logs published to your account can only be viewed by others using a link.</s><r>Публикует журналы в вашей учетной записи GitHub, если она установлена. Вставьте токен из GitHub &gt; Настройки &gt; Настройки разработчика &gt; Токены личного доступа. Оставьте поле пустым, чтобы опубликовать в общедоступной учетной записи HugsLib.
+
+Журналы, опубликованные в вашей учетной записи, могут быть просмотрены другими пользователями только по ссылке.</r></e>
+  <e k="K" key="HugsLogPublisher.shareBtnDescr"><s>Upload log file and get a link that you can share with others</s><r>Загрузите файл журнала и получите ссылку, которой вы сможете поделиться с другими.</r></e>
+  <e k="K" key="HugsLogPublisher.usePreviousLog"><s>Use previous log file</s><r>Использовать предыдущий файл журнала</r></e>
+  <e k="K" key="HugsLogPublisher.usePreviousLog_tip"><s>Instead of uploading the current log file, upload the one from the previous game session. Useful if the game closed / crashed to desktop.</s><r>Вместо загрузки текущего файла журнала загрузите файл предыдущего игрового сеанса. Полезно, если игра закрылась/вылетела на рабочий стол.</r></e>
+</AutoTranslateCache>
