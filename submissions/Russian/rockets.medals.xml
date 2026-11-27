@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="rockets.medals" name="Rocket's Medals" language="Russian" version="1">
+  <e k="D" t="RitualPatternDef" key="ROCKET_AwardMedalPattern.ritualExpectedDesc"><s>The colony's leader will bestow a medal upon a deserving colonist.</s><r>Лидер колонии вручит медаль достойному колонисту.</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Speech_AwardMedal_Rules.rulePack.rulesStrings.0"><s>r_logentry-&gt;[INITIATOR_nameDef] [speech_verb] [RECIPIENT_nameDef] for [their_actions].</s><r>r_logentry-&gt;[INITIATOR_nameDef] [speech_verb] [RECIPIENT_nameDef] для [their_actions].</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Speech_AwardMedal_Rules.rulePack.rulesStrings.1"><s>r_logentry-&gt;[INITIATOR_nameDef] gave a [speech_adjective] speech honoring [RECIPIENT_nameDef]'s [heroic_trait].</s><r>r_logentry-&gt;[INITIATOR_nameDef] произнес речь [speech_adjective] в честь [heroic_trait] [RECIPIENT_nameDef].</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Speech_AwardMedal_Rules.rulePack.rulesStrings.10"><s>heroic_trait-&gt;achievements</s><r>heroic_trait-&gt;достижения</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Speech_AwardMedal_Rules.rulePack.rulesStrings.11"><s>heroic_trait-&gt;unwavering courage</s><r>heroic_trait-&gt;непоколебимая храбрость</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Speech_AwardMedal_Rules.rulePack.rulesStrings.12"><s>heroic_trait-&gt;tireless dedication</s><r>heroic_trait-&gt;неутомимая преданность делу</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Speech_AwardMedal_Rules.rulePack.rulesStrings.13"><s>heroic_trait-&gt;bravery</s><r>heroic_trait-&gt;храбрость</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Speech_AwardMedal_Rules.rulePack.rulesStrings.14"><s>their_actions-&gt;standing firm against the odds</s><r>their_actions-&gt;твердо стоять вопреки трудностям</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Speech_AwardMedal_Rules.rulePack.rulesStrings.15"><s>their_actions-&gt;their sacrifices for the colony</s><r>their_actions-&gt;их жертвы ради колонии</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Speech_AwardMedal_Rules.rulePack.rulesStrings.16"><s>their_actions-&gt;bleeding for their fellow colonists</s><r>their_actions-&gt;кровь за своих собратьев-колонистов</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Speech_AwardMedal_Rules.rulePack.rulesStrings.17"><s>their_actions-&gt;exemplary service</s><r>their_actions-&gt;образцовое обслуживание</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Speech_AwardMedal_Rules.rulePack.rulesStrings.2"><s>speech_verb-&gt;praised</s><r>speech_verb-&gt;хвалил</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Speech_AwardMedal_Rules.rulePack.rulesStrings.3"><s>speech_verb-&gt;commended</s><r>speech_verb-&gt;похвалил</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Speech_AwardMedal_Rules.rulePack.rulesStrings.4"><s>speech_verb-&gt;honored</s><r>speech_verb-&gt;заслуженный</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Speech_AwardMedal_Rules.rulePack.rulesStrings.5"><s>speech_verb-&gt;saluted</s><r>speech_verb-&gt;приветствовал</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Speech_AwardMedal_Rules.rulePack.rulesStrings.6"><s>speech_adjective-&gt;rousing</s><r>speech_adjective-&gt;возбуждающий</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Speech_AwardMedal_Rules.rulePack.rulesStrings.7"><s>speech_adjective-&gt;solemn</s><r>speech_adjective-&gt;торжественный</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Speech_AwardMedal_Rules.rulePack.rulesStrings.8"><s>speech_adjective-&gt;tearful</s><r>speech_adjective-&gt;слезливый</r></e>
+  <e k="D" t="RulePackDef" key="ROCKET_Speech_AwardMedal_Rules.rulePack.rulesStrings.9"><s>speech_adjective-&gt;passionate</s><r>speech_adjective-&gt;страстный</r></e>
+  <e k="D" t="TaleDef" key="ROCKET_AwardedMedalTale.rulePack.rulesStrings.0"><s>tale_noun-&gt;[PRESENTER_nameDef] awarding a medal to [AWARDEE_nameDef]</s><r>tale_noun-&gt;[PRESENTER_nameDef] вручение медали [AWARDEE_nameDef]</r></e>
+  <e k="D" t="TaleDef" key="ROCKET_AwardedMedalTale.rulePack.rulesStrings.1"><s>tale_noun-&gt;[AWARDEE_nameDef] receiving a medal from [PRESENTER_nameDef]</s><r>tale_noun-&gt;[AWARDEE_nameDef] получает медаль от [PRESENTER_nameDef]</r></e>
+  <e k="D" t="TaleDef" key="ROCKET_AwardedMedalTale.rulePack.rulesStrings.10"><s>desc_sentence-&gt;[PRESENTER_nameDef] wears a solemn expression of respect.</s><r>desc_sentence-&gt;[PRESENTER_nameDef] торжественно выражает уважение.</r></e>
+  <e k="D" t="TaleDef" key="ROCKET_AwardedMedalTale.rulePack.rulesStrings.2"><s>tale_noun-&gt;the honoring of [AWARDEE_nameDef]</s><r>tale_noun-&gt;чествование [AWARDEE_nameDef]</r></e>
+  <e k="D" t="TaleDef" key="ROCKET_AwardedMedalTale.rulePack.rulesStrings.3"><s>image-&gt;[PRESENTER_nameFull] is standing tall, proudly pinning a gleaming medal onto [AWARDEE_nameFull]'s chest. [circumstance_group]</s><r>image-&gt;[PRESENTER_nameFull] стоит высоко, гордо прикрепляя блестящую медаль к груди [AWARDEE_nameFull]. [circumstance_group]</r></e>
+  <e k="D" t="TaleDef" key="ROCKET_AwardedMedalTale.rulePack.rulesStrings.4"><s>image-&gt;[PRESENTER_nameFull] is saluting [AWARDEE_nameFull], who is wearing a newly awarded medal. [circumstance_group]</s><r>image-&gt;[PRESENTER_nameFull] приветствует [AWARDEE_nameFull], который носит только что врученную медаль. [circumstance_group]</r></e>
+  <e k="D" t="TaleDef" key="ROCKET_AwardedMedalTale.rulePack.rulesStrings.5"><s>image-&gt;[AWARDEE_nameFull] looks [AWARDEE_adjective] as they are presented with a medal by [PRESENTER_nameDef]. [circumstance_group]</s><r>image-&gt;[AWARDEE_nameFull] выглядит [AWARDEE_adjective], поскольку [PRESENTER_nameDef] вручает им медаль. [circumstance_group]</r></e>
+  <e k="D" t="TaleDef" key="ROCKET_AwardedMedalTale.rulePack.rulesStrings.6"><s>circumstance_phrase-&gt;The colony watches in silent awe.</s><r>circumstance_phrase-&gt;Колония наблюдает с молчаливым трепетом.</r></e>
+  <e k="D" t="TaleDef" key="ROCKET_AwardedMedalTale.rulePack.rulesStrings.7"><s>circumstance_phrase-&gt;The medal shines brightly in the light.</s><r>circumstance_phrase-&gt;Медаль ярко блестит на свету.</r></e>
+  <e k="D" t="TaleDef" key="ROCKET_AwardedMedalTale.rulePack.rulesStrings.8"><s>circumstance_phrase-&gt;Confetti appears to be falling around them.</s><r>circumstance_phrase-&gt;Вокруг них, кажется, падает конфетти.</r></e>
+  <e k="D" t="TaleDef" key="ROCKET_AwardedMedalTale.rulePack.rulesStrings.9"><s>desc_sentence-&gt;[AWARDEE_nameDef] looks incredibly proud.</s><r>desc_sentence-&gt;[AWARDEE_nameDef] выглядит невероятно гордым.</r></e>
+</AutoTranslateCache>
