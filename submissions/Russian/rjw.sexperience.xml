@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="rjw.sexperience" name="RJW Sexperience" language="Russian" version="1">
+  <e k="D" t="HediffDef" key="CumTolerance.stages.0.label"><s>small</s><r>маленький</r></e>
+  <e k="D" t="HediffDef" key="CumTolerance.stages.1.label"><s>large</s><r>большой</r></e>
+  <e k="D" t="HediffDef" key="CumTolerance.stages.2.label"><s>massive</s><r>массивный</r></e>
+  <e k="D" t="SkillDef" key="Sex.generalRules.rulesStrings.0"><s>subject-&gt;sex</s><r>subject-&gt;секс</r></e>
+  <e k="D" t="SkillDef" key="Sex.generalRules.rulesStrings.1"><s>subject-&gt;fucking</s><r>subject-&gt;чертовски</r></e>
+  <e k="D" t="SkillDef" key="Sex.generalRules.rulesStrings.2"><s>subject-&gt;intimact</s><r>subject-&gt;интимный</r></e>
+  <e k="D" t="SpecialThingFilterDef" key="AllowWithCum.description"><s>Allow food that was spiced up by adding sexual fluids.</s><r>Разрешайте пищу, приправленную добавлением половых жидкостей.</r></e>
+  <e k="D" t="SpecialThingFilterDef" key="AllowWithCum.label"><s>allow food with cum</s><r>разрешить еду со спермой</r></e>
+  <e k="D" t="SpecialThingFilterDef" key="AllowWithoutCum.description"><s>Allow food normal food.</s><r>Разрешить есть нормальную еду.</r></e>
+  <e k="D" t="SpecialThingFilterDef" key="AllowWithoutCum.label"><s>allow food without cum</s><r>разрешить еду без спермы</r></e>
+  <e k="D" t="ThoughtDef" key="AteCum.stages.0.description"><s>Disgusting.</s><r>Отвратительный.</r></e>
+  <e k="D" t="ThoughtDef" key="AteCum.stages.0.label"><s>ate cum</s><r>съел сперму</r></e>
+  <e k="D" t="ThoughtDef" key="AteCum.stages.1.description"><s>It's stinky and tastes bad.</s><r>Оно вонючее и имеет неприятный вкус.</r></e>
+  <e k="D" t="ThoughtDef" key="AteCum.stages.1.label"><s>ate cum</s><r>съел сперму</r></e>
+  <e k="D" t="ThoughtDef" key="AteCum.stages.2.description"><s>Tastes bad. But I liked it.</s><r>Плохой вкус. Но мне это понравилось.</r></e>
+  <e k="D" t="ThoughtDef" key="AteCum.stages.2.label"><s>ate cum</s><r>съел сперму</r></e>
+  <e k="D" t="ThoughtDef" key="AteCum.stages.3.description"><s>Delicious.</s><r>Вкусный.</r></e>
+  <e k="D" t="ThoughtDef" key="AteCum.stages.3.label"><s>ate cum</s><r>съел сперму</r></e>
+  <e k="K" key="Button_ResetToDefault"><s>Reset to default</s><r>Сбросить настройки по умолчанию</r></e>
+  <e k="K" key="RSOption_Debug_Desc"><s>Enable debug logs that do not have their own option</s><r>Включить журналы отладки, у которых нет собственной опции</r></e>
+  <e k="K" key="RSOption_Debug_Label"><s>Other debug logs</s><r>Другие журналы отладки</r></e>
+  <e k="K" key="RSOption_EnableBastardRelation_Desc"><s>Child is marked as a bastard if they have only one parent or their parents are not (or was not) married</s><r>Ребенок помечается как незаконнорожденный, если у него только один родитель или его родители не состоят (или не состояли) в браке.</r></e>
+  <e k="K" key="RSOption_EnableBastardRelation_Label"><s>Enable Bastard relation</s><r>Включить связь Bastard</r></e>
+  <e k="K" key="RSOption_EnableSexHistory_Desc"><s>* Needs a game restart
+
+Enables Sex History window, information collection for the said window and save/load of this information. Also enables sex partners count in the pawn's records.
+
+[Caution] Disabling this mid save will result in the loss of previously collected histories.</s><r>* Требуется перезапуск игры
+
+Включает окно «История секса», сбор информации для указанного окна и сохранение/загрузку этой информации. Также позволяет учитывать сексуальных партнеров в записях пешки.
+
+[Caution] Отключение этого среднего сохранения приведет к потере ранее собранных историй.</r></e>
+  <e k="K" key="RSOption_EnableSexHistory_Label"><s>[Caution] Enable Sex History*</s><r>[Caution] Включить историю секса*</r></e>
+  <e k="K" key="RSOption_HideGizmoWhenDrafted_Desc"><s>Hides Sex History Gizmo for currently drafted pawns</s><r>Скрывает сексуальную историю для пешек, выбранных на данный момент.</r></e>
+  <e k="K" key="RSOption_HideGizmoWhenDrafted_Label"><s>Hide Sex History button when drafted</s><r>Скрыть кнопку «История секса» при составлении проекта</r></e>
+  <e k="K" key="RSOption_LogInjection_Desc"><s>On game startup, dump all defs that were injected with a SexHistoryComp</s><r>При запуске игры сбросьте все параметры, которые были добавлены с помощью SexHistoryComp.</r></e>
+  <e k="K" key="RSOption_LogInjection_Label"><s>Log sex history comp injection</s><r>Записать историю секса, подборка инъекций</r></e>
+  <e k="K" key="RSOption_MaxSingleLustChange_Desc"><s>Set how much lust can change from a single sex act</s><r>Установите, насколько похоть может измениться от одного полового акта</r></e>
+  <e k="K" key="RSOption_MaxSingleLustChange_Label"><s>Maximum lust change per sex</s><r>Максимальное изменение похоти в зависимости от пола</r></e>
+  <e k="K" key="RSOption_MinSexableFromLifestage_Desc"><s>Only used for generating records. Get minimum sexable age from the first reproductive life stage. Works better for the races with a long lifespan</s><r>Используется только для создания записей. Получите минимальный половой возраст с первой стадии репродуктивной жизни. Лучше работает для рас с длительным сроком службы.</r></e>
+  <e k="K" key="RSOption_MinSexableFromLifestage_Label"><s>Minimum sexable age from life stages</s><r>Минимальный возраст, позволяющий определить пол, исходя из этапов жизни</r></e>
+  <e k="K" key="RSOption_SexCanFillBuckets_Desc"><s>If enabled boobjobs, footjobs and handjobs that happens near cum bucket will fill it</s><r>Если включено, дрочка сиськами, дрочка ногами и дрочка, происходящая возле ведра со спермой, заполнят его.</r></e>
+  <e k="K" key="RSOption_SexCanFillBuckets_Label"><s>Sex can fill buckets</s><r>Секс может наполнить ведра</r></e>
+  <e k="K" key="RSOption_VirginityCheck_F2F_Desc"><s>Remove virginity with scissoring sex (for female/female sex)</s><r>Лишить девственности сексом с ножницами (для женского/женского пола)</r></e>
+  <e k="K" key="RSOption_VirginityCheck_F2F_Label"><s>Remove virginity with scissoring sex (for female/female sex)</s><r>Лишить девственности сексом с ножницами (для женского/женского пола)</r></e>
+  <e k="K" key="RSOption_VirginityCheck_M2M_Desc"><s>Remove virginity with anal sex (for male/male sex)</s><r>Снять девственность при анальном сексе (для мужского/мужского секса)</r></e>
+  <e k="K" key="RSOption_VirginityCheck_M2M_Label"><s>Remove virginity with anal sex (for male/male sex)</s><r>Снять девственность при анальном сексе (для мужского/мужского секса)</r></e>
+  <e k="K" key="RSTabLabelColors"><s>Colors</s><r>Цвета</r></e>
+  <e k="K" key="RSTabLabelDebug"><s>Debug</s><r>Отлаживать</r></e>
+  <e k="K" key="RSTabLabelHistory"><s>Sex records</s><r>Секс записи</r></e>
+  <e k="K" key="RSTabLabelMain"><s>Main</s><r>Основной</r></e>
+  <e k="K" key="RS_PONormal"><s>Unordered</s><r>Неупорядоченный</r></e>
+  <e k="K" key="RS_PawnLockDesc"><s>Lock displayed pawn.
+
+When unlocked, window will automatically switch to a currently selected pawn.</s><r>Заблокировать отображаемую пешку.
+
+При разблокировке окно автоматически переключится на выбранную в данный момент пешку.</r></e>
+  <e k="K" key="RS_PoMost"><s>Most</s><r>Большинство</r></e>
+  <e k="K" key="RS_PoName"><s>Name</s><r>Имя</r></e>
+  <e k="K" key="RS_PoRecent"><s>Recent</s><r>Недавний</r></e>
+  <e k="K" key="RsDialog_ChooseColor_Title"><s>Select colour for {0}</s><r>Выберите цвет для {0}</r></e>
+</AutoTranslateCache>
