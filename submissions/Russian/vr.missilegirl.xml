@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoTranslateCache mod="vr.missilegirl" name="Missile Girl - Performance Mod" language="Russian" version="1">
+  <e k="D" t="KeyBindingCategoryDef" key="RocketKeyBindingCategory.description"><s>Disable/Enable MissileGirl features from anywhere using KeyBinds.</s><r>Отключите/включите функции MissileGirl из любого места с помощью KeyBinds.</r></e>
+  <e k="D" t="KeyBindingCategoryDef" key="RocketKeyBindingCategory.label"><s>MissileGirl - Performance Mod</s><r>MissileGirl - Мод производительности</r></e>
+  <e k="D" t="KeyBindingDef" key="RocketKeyBindingDisable.label"><s>Toggle MissileGirl</s><r>Toggle Ракетница</r></e>
+  <e k="D" t="KeyBindingDef" key="RocketKeyToggleAlerts.label"><s>Toggle all alerts</s><r>Переключить все оповещения</r></e>
+  <e k="D" t="KeyBindingDef" key="RocketKeyToggleDebugging.label"><s>Toggle MissileGirl debugging mode</s><r>Переключить режим отладки MissileGirl</r></e>
+  <e k="D" t="KeyBindingDef" key="RocketKeyToggleForcedSlowdowns.label"><s>Toggle global forced slowdowns</s><r>Переключить глобальное принудительное замедление</r></e>
+  <e k="D" t="MainButtonDef" key="RocketWindow.description"><s>Open MissileGirl.</s><r>Откройте MissileGirl.</r></e>
+  <e k="D" t="MainButtonDef" key="RocketWindow.label"><s>MissileGirl</s><r>РакетаДевочка</r></e>
+  <e k="K" key="MissileGirl.AdaptiveAlert.Description"><s>Disable this if you don't want the adaptive mode alert in your alert list.
+    </s><r>Отключите это, если вы не хотите, чтобы оповещение об адаптивном режиме было в вашем списке оповещений.
+    </r></e>
+  <e k="K" key="MissileGirl.AdaptiveAlert.Label"><s>Enable adaptive mode alert</s><r>Включить оповещение об адаптивном режиме</r></e>
+  <e k="K" key="MissileGirl.Alert_StatsLearning.Explanation"><s>Adaptive mode has been active for {0} minutes! It is recommended to have
+        it running for {1} minutes per new save or when you change your mods.
+    </s><r>Адаптивный режим активен уже {0} минут! Рекомендуется, чтобы он работал
+ в течение {1} минут при каждом новом сохранении или при изменении модов.
+    </r></e>
+  <e k="K" key="MissileGirl.Alert_StatsLearning.Label"><s>Adaptive mode is active</s><r>Адаптивный режим активен</r></e>
+  <e k="K" key="MissileGirl.BuildingRepairCheck"><s>Building Repairable Check</s><r>Проверка ремонтопригодности здания</r></e>
+  <e k="K" key="MissileGirl.BuildingRepairCheck.Tip"><s>Short circuits check if building is not repairable or doesn't have hitpoints.
+    </s><r>Короткие замыкания проверяют, не подлежит ли здание ремонту или не имеет ли оно очков жизни.
+    </r></e>
+  <e k="K" key="MissileGirl.Close"><s>Close</s><r>Закрывать</r></e>
+  <e k="K" key="MissileGirl.DeepDrillOptimize"><s>Fix Deep Drill Lag</s><r>Исправить задержку глубокого сверления</r></e>
+  <e k="K" key="MissileGirl.DeepDrillOptimize.Tip"><s>Reduces lag from deep drill when not on resource
+    </s><r>Уменьшает задержку при глубокой детализации, когда ресурс не используется
+    </r></e>
+  <e k="K" key="MissileGirl.DisableForcedSlowdowns"><s>Disable forced slowdowns</s><r>Отключить принудительное замедление</r></e>
+  <e k="K" key="MissileGirl.DisableForcedSlowdowns.Description"><s>Disable forced slowdowns by game events. Disable this if you are
+        using SmartSpeed.
+    </s><r>Отключить принудительное замедление по игровым событиям. Отключите это, если вы
+ используете SmartSpeed.
+    </r></e>
+  <e k="K" key="MissileGirl.EnableGagarin"><s>Enable load time reduction (Faster loading times)</s><r>Включить сокращение времени загрузки (ускорение загрузки)</r></e>
+  <e k="K" key="MissileGirl.EnableGagarin.Tip"><s>MissileGirl will attempt to reduce your loading time by caching Xml patch operations. After you active this settings restart your game twice in order for MissileGirl to create the cache. Depending on how many mods you use and what mods you could see several minutes shaved off loading time. This is recommended to be used with Xml patch heavy mods such as Combat Extended.</s><r>MissileGirl попытается сократить время загрузки путем кэширования операций исправления XML. После активации этих настроек дважды перезапустите игру, чтобы MissileGirl создал кэш. В зависимости от того, сколько модов вы используете и какие моды вы видите, время загрузки сокращается на несколько минут. Рекомендуется использовать с тяжелыми модами Xml-патчей, такими как Combat Extended.</r></e>
+  <e k="K" key="MissileGirl.Experimental"><s>Experimental features</s><r>Экспериментальные возможности</r></e>
+  <e k="K" key="MissileGirl.Experimental.Description"><s>Here you can opt in MissileGirl Beta features.
+Warning: do not do this if you
+        don't know what you're doing.
+    </s><r>Здесь вы можете выбрать функции бета-версии MissileGirl.
+Внимание: не делайте этого, если вы
+ не знаете, что делаете.
+    </r></e>
+  <e k="K" key="MissileGirl.Experimental.OptInBeta"><s>Opt in MissileGirl beta features</s><r>Включите бета-функции MissileGirl</r></e>
+  <e k="K" key="MissileGirl.FixBeauty"><s>Dynamic beauty scan radius</s><r>Радиус динамического сканирования красоты</r></e>
+  <e k="K" key="MissileGirl.FixBeauty.Tip"><s>Beauty scan radius will change depending on what the pawn is doing. Use at your own
+        risk.
+    </s><r>Радиус сканирования красоты будет меняться в зависимости от того, что делает пешка. Используйте на свой
+ риск.
+    </r></e>
+  <e k="K" key="MissileGirl.GameSpeed"><s>Game speed settings</s><r>Настройки скорости игры</r></e>
+  <e k="K" key="MissileGirl.GenMapSize"><s>Map Size Generation Override</s><r>Переопределение генерации размера карты</r></e>
+  <e k="K" key="MissileGirl.GenMapSize.Height"><s>Height</s><r>Высота</r></e>
+  <e k="K" key="MissileGirl.GenMapSize.Mode.Custom"><s>Custom</s><r>Обычай</r></e>
+  <e k="K" key="MissileGirl.GenMapSize.Mode.Vanilla"><s>Vanilla</s><r>Ваниль</r></e>
+  <e k="K" key="MissileGirl.GenMapSize.Note"><s>Please note that the new map will have a width/height that is dividable by region
+        height (this rounding process is automatic).
+    </s><r>Обратите внимание, что новая карта будет иметь ширину/высоту, которая делится на высоту региона
+ (этот процесс округления происходит автоматически).
+    </r></e>
+  <e k="K" key="MissileGirl.GenMapSize.Text"><s>Set the map size/shape for the next generated map. (after generating said map this
+        option will reset back to default)
+    </s><r>Установите размер/форму карты для следующей сгенерированной карты. (после создания указанной карты эта опция
+ вернется к значению по умолчанию)
+    </r></e>
+  <e k="K" key="MissileGirl.GenMapSize.Width"><s>Width</s><r>Ширина</r></e>
+  <e k="K" key="MissileGirl.IncompatibilityWindow.Continue"><s>Yes, I understand! Continue!
+    </s><r>Да, я понимаю! Продолжайте!
+    </r></e>
+  <e k="K" key="MissileGirl.IncompatibilityWindow.Disclaimer"><s>The MissileGirl team will provide no support if you choose to ignore
+        this message or continue!
+    </s><r>Команда MissileGirl не окажет никакой поддержки, если вы решите проигнорировать
+ это сообщение или продолжить!
+    </r></e>
+  <e k="K" key="MissileGirl.IncompatibilityWindow.OpenModManager"><s>Open the mod manager
+    </s><r>Откройте менеджер модов
+    </r></e>
+  <e k="K" key="MissileGirl.IncompatibilityWindow.Title"><s>You are running incompatible mods</s><r>У вас установлены несовместимые моды</r></e>
+  <e k="K" key="MissileGirl.ModNameShort"><s>Missile Girl</s><r>Девушка-ракета</r></e>
+  <e k="K" key="MissileGirl.NotifyPawnDamage"><s>Notify Pawn Damage Tweak</s><r>Уведомить о настройке урона пешки</r></e>
+  <e k="K" key="MissileGirl.NotifyPawnDamage.Tip"><s>Helps with stuttering by preventing pawn damage notification spam if current's
+        pawn LordToil is Assault or Sapper.
+    </s><r>Помогает при заикании, предотвращая спам с уведомлениями о повреждении пешки, если текущая пешка
+ LordToil — это Assault или Sapper.
+    </r></e>
+  <e k="K" key="MissileGirl.OptimizationSettings"><s>Vanilla Optimizations</s><r>Ванильные оптимизации</r></e>
+  <e k="K" key="MissileGirl.ProgressBar.Pause"><s>Pause after warmup</s><r>Пауза после прогрева</r></e>
+  <e k="K" key="MissileGirl.ResetDefault"><s>Reset to Default</s><r>Сбросить настройки по умолчанию</r></e>
+  <e k="K" key="MissileGirl.Selection"><s>Selection: {0}</s><r>Выбор: {0}</r></e>
+  <e k="K" key="MissileGirl.Settings"><s>Settings</s><r>Настройки</r></e>
+  <e k="K" key="MissileGirl.Settings.Debugging"><s>Debug Settings</s><r>Настройки отладки</r></e>
+  <e k="K" key="MissileGirl.TemperatureTickCheck"><s>Cache Temperature Check</s><r>Проверка температуры кэша</r></e>
+  <e k="K" key="MissileGirl.TemperatureTickCheck.Tip"><s>Caches pawn temperature check to once per tick.
+    </s><r>Кэширует проверку температуры пешки один раз за такт.
+    </r></e>
+  <e k="K" key="MissileGirl.TranslationCaching"><s>Enable text size caching</s><r>Включить кэширование размера текста</r></e>
+  <e k="K" key="Proton.DisalbeAllInfo"><s>If you have Dub's performance analyzer installed MissileGirl will override its alert control
+        system. Use this one instead.
+    </s><r>Если у вас установлен анализатор производительности Dub, MissileGirl переопределит свою систему контроля предупреждений. Вместо этого используйте этот.
+    </r></e>
+</AutoTranslateCache>
